@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-24T00:54:39.207779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyKaldi compatible fork of Kaldi",
+    "fork": true,
+    "full_name": "pykaldi/kaldi",
+    "html_url": "https://github.com/pykaldi/kaldi",
+    "language": "Shell",
+    "pushed_at": "2023-10-13T23:23:34Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2022-09-08T08:34:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

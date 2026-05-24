@@ -7794,6 +7794,9 @@
   "baksmali": [
     "baksmali"
   ],
+  "ballista rust": [
+    "ballista-rust"
+  ],
   "balloon-hash": [
     "balloon-hash"
   ],
@@ -49680,6 +49683,9 @@
   "json-pointer": [
     "json-pointer"
   ],
+  "json-repair": [
+    "json-repair"
+  ],
   "json-rpc": [
     "json-rpc"
   ],
@@ -53936,6 +53942,9 @@
   "llm-orchestration": [
     "llm-orchestration"
   ],
+  "llm-output": [
+    "llm-output"
+  ],
   "llm-playground": [
     "llm-playground"
   ],
@@ -55648,6 +55657,9 @@
   ],
   "malay-nlp": [
     "malay-nlp"
+  ],
+  "malformed-json": [
+    "malformed-json"
   ],
   "mali": [
     "mali"
@@ -72690,6 +72702,9 @@
   "pytest (slow)": [
     "pytest-slow"
   ],
+  "pytest and coverage": [
+    "pytest-and-coverage"
+  ],
   "pytest gptswarm": [
     "pytest-gptswarm"
   ],
@@ -78566,6 +78581,9 @@
   ],
   "ruff lint": [
     "ruff-lint"
+  ],
+  "ruff lint and format": [
+    "ruff-lint-and-format"
   ],
   "ruff-wf": [
     "ruff-wf"
@@ -87019,6 +87037,9 @@
   ],
   "sync playwright versions": [
     "sync-playwright-versions"
+  ],
+  "sync pythonanywhere demo api": [
+    "sync-pythonanywhere-demo-api"
   ],
   "sync registry docs": [
     "sync-registry-docs"

@@ -940,7 +940,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T01:17:16.450565+00:00",
+  "fetched_at": "2026-05-24T01:02:14.764888+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -992,8 +992,8 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-05-23T01:00:10Z",
-    "stargazers_count": 121385,
+    "pushed_at": "2026-05-23T20:01:31Z",
+    "stargazers_count": 121394,
     "topics": [
       "c-plus-plus",
       "chrome",
@@ -1005,7 +1005,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-05-23T01:16:47Z"
+    "updated_at": "2026-05-24T00:32:16Z"
   },
   "repo_links": [],
   "terms": [

@@ -31,6 +31,18 @@
       "source_repo": "face-analysis/emonet",
       "status": "candidate-context",
       "text": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "face-analysis/emonet",
       "status": "candidate",
       "text": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "face-analysis/emonet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

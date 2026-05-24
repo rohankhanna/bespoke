@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-24T00:54:38.703326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wrapper generator foundation to wrap C++ for Python and other languages using LLVM.",
+    "fork": true,
+    "full_name": "pykaldi/clif",
+    "html_url": "https://github.com/pykaldi/clif",
+    "language": "C++",
+    "pushed_at": "2023-09-12T13:47:04Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-09-12T12:28:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

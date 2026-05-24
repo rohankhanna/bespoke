@@ -48,7 +48,7 @@
   "normalized_form": "e2ecleanup",
   "observation_id": "6100b096efcd1b73",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-23T00:43:18.102458+00:00",
+  "observed_at": "2026-05-24T00:44:26.398961+00:00",
   "observed_text": "E2ECleanup",
   "source_context_snippet": "E2ECleanup",
   "source_file": ".github/workflows/e2e-cleanup.yaml",

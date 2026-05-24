@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pytest and Coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "Pytest and Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate",
+      "text": "Pytest and Coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assurance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "attention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "care"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "cover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pytest and Coverage",
+  "concept_id": "pytest-and-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "mangiucugna/json_repair"
+    }
+  ],
+  "first_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pytest and Coverage",
+      "sense_id": "pytest-and-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

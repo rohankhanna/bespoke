@@ -376,11 +376,17 @@
       "observed_at": "2026-05-23T00:43:18.102458+00:00",
       "source_file": null,
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "wamp-proto/wamp-xbr"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

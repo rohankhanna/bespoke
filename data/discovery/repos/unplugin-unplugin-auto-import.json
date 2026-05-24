@@ -482,7 +482,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T12:34:26.721761+00:00",
+  "fetched_at": "2026-05-24T02:06:18.171618+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -515,14 +515,14 @@
     "html_url": "https://github.com/unplugin/unplugin-auto-import",
     "language": "TypeScript",
     "pushed_at": "2026-01-14T23:43:18Z",
-    "stargazers_count": 3784,
+    "stargazers_count": 3783,
     "topics": [
       "rollup-plugin",
       "unplugin",
       "vite-plugin",
       "webpack-plugin"
     ],
-    "updated_at": "2026-05-22T11:46:05Z"
+    "updated_at": "2026-05-24T02:05:53Z"
   },
   "repo_links": [
     {

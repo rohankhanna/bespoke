@@ -97,6 +97,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
     }
   ],
   "candidate_glosses": [
@@ -246,11 +252,17 @@
       "observed_at": "2026-05-23T12:33:08.399245+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

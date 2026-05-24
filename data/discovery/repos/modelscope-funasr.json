@@ -77,7 +77,35 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
       "target": "conformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "emotion-recognition",
       "target_type": "term"
     },
     {
@@ -113,6 +141,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunASR",
       "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "real-time",
       "target_type": "term"
     },
     {
@@ -165,11 +200,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T12:33:58.854326+00:00",
+  "fetched_at": "2026-05-24T02:06:04.785000+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 39486
+      "size": 39731
     },
     {
       "path": ".github/workflows/update-api-docs.yml",
@@ -180,21 +215,26 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.",
+    "description": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready.",
     "fork": false,
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-05-23T11:30:11Z",
-    "stargazers_count": 16203,
+    "pushed_at": "2026-05-23T22:03:24Z",
+    "stargazers_count": 16214,
     "topics": [
       "asr",
+      "audio",
+      "chinese",
       "conformer",
+      "deep-learning",
+      "emotion-recognition",
       "multilingual-asr",
       "paraformer",
       "pretrained-model",
       "punctuation",
       "pytorch",
+      "real-time",
       "speaker-diarization",
       "speech-recognition",
       "speech-to-text",
@@ -204,7 +244,7 @@
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "updated_at": "2026-05-23T12:09:03Z"
+    "updated_at": "2026-05-24T01:03:00Z"
   },
   "repo_links": [
     {
@@ -239,7 +279,31 @@
       "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "conformer"
+    },
+    {
+      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion-recognition"
     },
     {
       "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
@@ -270,6 +334,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch"
+    },
+    {
+      "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
     },
     {
       "context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",

@@ -60,7 +60,35 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
       "target": "conformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "emotion-recognition",
       "target_type": "term"
     },
     {
@@ -96,6 +124,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunASR",
       "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "real-time",
       "target_type": "term"
     },
     {
@@ -148,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-23T12:33:08.399245+00:00",
+  "generated_at": "2026-05-24T00:44:26.398961+00:00",
   "source_repo": "modelscope/FunASR"
 }

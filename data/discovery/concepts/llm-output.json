@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "llm-output"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "llm-output",
+  "concept_id": "llm-output",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair"
+    }
+  ],
+  "first_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-output",
+      "sense_id": "llm-output#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

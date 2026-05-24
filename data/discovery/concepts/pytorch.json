@@ -8179,6 +8179,12 @@
       "source_repo": "p0p4k/vits2_pytorch",
       "status": "candidate-context",
       "text": "Unofficial implementation of the [VITS2 paper](https://arxiv.org/abs/2307.16430), sequel to [VITS paper](https://arxiv.org/abs/2106.06103). (thanks to the authors for their work!)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
     }
   ],
   "candidate_glosses": [
@@ -35086,11 +35092,197 @@
       "observed_at": "2026-05-23T12:33:08.399245+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "PriesiaMioShirakana/DragonianVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

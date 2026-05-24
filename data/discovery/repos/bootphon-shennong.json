@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-24T00:54:32.852419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1764
+    },
+    {
+      "path": "Dockerfile",
+      "size": 550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python toolbox for speech features extraction",
+    "fork": false,
+    "full_name": "bootphon/shennong",
+    "html_url": "https://github.com/bootphon/shennong",
+    "language": "Python",
+    "pushed_at": "2023-02-08T13:50:25Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-01-26T08:14:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

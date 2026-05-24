@@ -643,6 +643,18 @@
       "source_repo": "bigpon/QPPWG",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_glosses": [
@@ -963,6 +975,12 @@
       "source_repo": "bigpon/QPPWG",
       "status": "candidate",
       "text": "[![](https://img.shields.io/pypi/v/qppwg)](https://pypi.org/project/qppwg/) ![](https://img.shields.io/pypi/pyversions/qppwg) ![](https://img.shields.io/pypi/l/qppwg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_related_terms": [
@@ -2152,11 +2170,29 @@
       "observed_at": "2026-05-23T12:33:08.399245+00:00",
       "source_file": null,
       "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

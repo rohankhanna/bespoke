@@ -19,6 +19,18 @@
       "source_repo": "BoundaryML/baml",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BoundaryML/baml",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "BoundaryML/baml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

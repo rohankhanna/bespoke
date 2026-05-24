@@ -126,6 +126,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "ts-node-pack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "tsd",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -585,6 +590,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "endojs/endo",
+      "target": "ts-node-pack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "endojs/endo",
       "target": "tsd",
       "target_type": "component"
     },
@@ -918,7 +930,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T01:08:23.750308+00:00",
+  "fetched_at": "2026-05-24T00:57:27.140136+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -930,7 +942,7 @@
     },
     {
       "path": "package.json",
-      "size": 3089
+      "size": 3216
     },
     {
       "path": ".github/workflows/browser-test.yml",
@@ -938,7 +950,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 15768
+      "size": 16079
     },
     {
       "path": ".github/workflows/depcheck.yml",
@@ -970,7 +982,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-05-22T22:42:17Z",
+    "pushed_at": "2026-05-23T19:56:23Z",
     "stargazers_count": 1022,
     "topics": [
       "capabilities",
@@ -985,7 +997,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-05-22T22:16:45Z"
+    "updated_at": "2026-05-23T19:53:18Z"
   },
   "repo_links": [
     {

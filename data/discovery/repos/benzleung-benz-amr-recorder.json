@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "benz-recorderjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-external-helpers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-proposal-class-properties",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-stage-0",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-re",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-sourcemaps",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "jpemartins/amr.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "jergason/recorderjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "benzleung/test-amr-react",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "acowaves/benz-amr-recorder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "benz-recorderjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@babel/plugin-external-helpers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@babel/plugin-proposal-class-properties",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@babel/preset-stage-0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@rollup/plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "rollup-plugin-re",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "rollup-plugin-sourcemaps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BenzLeung/benz-amr-recorder",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-24T02:06:10.028104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8877
+    },
+    {
+      "path": "package.json",
+      "size": 1198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Play, record, reformat AMR audio",
+    "fork": false,
+    "full_name": "BenzLeung/benz-amr-recorder",
+    "html_url": "https://github.com/BenzLeung/benz-amr-recorder",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-04T20:00:10Z",
+    "stargazers_count": 355,
+    "topics": [],
+    "updated_at": "2026-05-22T01:46:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acowaves/benz-amr-recorder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benzleung/test-amr-react",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jergason/recorderjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpemartins/amr.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

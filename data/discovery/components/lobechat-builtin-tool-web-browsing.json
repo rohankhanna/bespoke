@@ -1,7 +1,7 @@
 {
   "component": "@lobechat/builtin-tool-web-browsing",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-22T18:43:38.426013+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

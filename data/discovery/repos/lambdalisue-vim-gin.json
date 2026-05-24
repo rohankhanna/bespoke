@@ -120,7 +120,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T00:55:00.168726+00:00",
+  "fetched_at": "2026-05-24T00:50:25.520649+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -141,7 +141,7 @@
     "html_url": "https://github.com/lambdalisue/vim-gin",
     "language": "TypeScript",
     "pushed_at": "2026-05-06T06:29:34Z",
-    "stargazers_count": 170,
+    "stargazers_count": 171,
     "topics": [
       "git",
       "github",
@@ -149,7 +149,7 @@
       "vim",
       "vim-denops"
     ],
-    "updated_at": "2026-05-10T23:26:26Z"
+    "updated_at": "2026-05-23T06:03:33Z"
   },
   "repo_links": [
     {

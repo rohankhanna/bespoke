@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc."
+      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
     },
     {
       "source_kind": "source-snippet",
@@ -48,10 +48,10 @@
   "normalized_form": "voice-activity-detection",
   "observation_id": "ee912642515a5750",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-23T12:33:08.399245+00:00",
+  "observed_at": "2026-05-24T00:44:26.398961+00:00",
   "observed_text": "voice-activity-detection",
   "source_context_snippet": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'",
   "source_file": null,
   "source_repo": "modelscope/FunASR",
-  "source_repo_description": "A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc."
+  "source_repo_description": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
 }

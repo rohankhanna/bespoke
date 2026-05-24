@@ -355,6 +355,18 @@
       "source_repo": "withcatai/node-llama-cpp",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "withcatai/node-llama-cpp",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mangiucugna/json_repair",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/json-repair)](https://pypi.org/project/json-repair/)"
     }
   ],
   "candidate_related_terms": [],
@@ -2974,11 +2992,47 @@
       "observed_at": "2026-05-23T12:33:08.399245+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-keywords"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

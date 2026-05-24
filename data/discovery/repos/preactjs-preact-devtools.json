@@ -527,7 +527,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T00:55:57.135239+00:00",
+  "fetched_at": "2026-05-24T00:50:56.596265+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -556,7 +556,7 @@
     "html_url": "https://github.com/preactjs/preact-devtools",
     "language": "TypeScript",
     "pushed_at": "2026-05-11T11:27:19Z",
-    "stargazers_count": 343,
+    "stargazers_count": 344,
     "topics": [
       "chrome",
       "extension",
@@ -564,7 +564,7 @@
       "preact",
       "preact-devtools"
     ],
-    "updated_at": "2026-05-11T11:24:52Z"
+    "updated_at": "2026-05-23T01:54:03Z"
   },
   "repo_links": [
     {

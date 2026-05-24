@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/scorecard.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+      "component": "github/codeql-action/upload-sarif@0d579ffd059c29b07949a3cce3983f0780820c98",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     },
@@ -145,7 +145,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "protocolbuffers/protobuf",
-      "target": "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+      "target": "github/codeql-action/upload-sarif@0d579ffd059c29b07949a3cce3983f0780820c98",
       "target_type": "component"
     },
     {
@@ -226,7 +226,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T18:54:29.387339+00:00",
+  "fetched_at": "2026-05-24T00:54:35.054595+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -258,11 +258,11 @@
     },
     {
       "path": ".github/workflows/release_prep.sh",
-      "size": 1913
+      "size": 2595
     },
     {
       "path": ".github/workflows/scorecard.yml",
-      "size": 2393
+      "size": 2395
     },
     {
       "path": ".github/workflows/staleness_check.yml",
@@ -278,8 +278,8 @@
     "full_name": "protocolbuffers/protobuf",
     "html_url": "https://github.com/protocolbuffers/protobuf",
     "language": "C++",
-    "pushed_at": "2026-05-04T17:55:52Z",
-    "stargazers_count": 71182,
+    "pushed_at": "2026-05-23T23:00:18Z",
+    "stargazers_count": 71263,
     "topics": [
       "marshalling",
       "protobuf",
@@ -290,7 +290,7 @@
       "rpc",
       "serialization"
     ],
-    "updated_at": "2026-05-04T15:31:01Z"
+    "updated_at": "2026-05-23T23:48:44Z"
   },
   "repo_links": [
     {

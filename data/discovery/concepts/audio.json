@@ -871,6 +871,18 @@
       "source_repo": "xiangyuecn/Recorder",
       "status": "candidate-context",
       "text": "**\u3010[\u6e90GitHub\u4ed3\u5e93](https://github.com/xiangyuecn/Recorder)\u3011 | \u3010[Gitee\u955c\u50cf\u5e93](https://gitee.com/xiangyuecn/Recorder)\u3011\u672c\u6587\u6863\u4e2d\u9ed8\u8ba4\u4f7f\u7528[github.io\u90e8\u7f72\u7684\u94fe\u63a5](https://xiangyuecn.github.io/Recorder/)\uff0c\u5982\u679c\u65e0\u6cd5\u8bbf\u95ee\uff0c\u8bf7\u76f4\u63a5\u4e0b\u8f7d\u4ed3\u5e93\u6e90\u7801\u5230\u672c\u5730\u7136\u540e\u53cc\u51fb\u6253\u5f00html\u6587\u4ef6\u8bbf\u95ee\u3002**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1317,12 @@
       "source_repo": "xiangyuecn/Recorder",
       "status": "candidate",
       "text": "**\u3010[\u6e90GitHub\u4ed3\u5e93](https://github.com/xiangyuecn/Recorder)\u3011 | \u3010[Gitee\u955c\u50cf\u5e93](https://gitee.com/xiangyuecn/Recorder)\u3011\u672c\u6587\u6863\u4e2d\u9ed8\u8ba4\u4f7f\u7528[github.io\u90e8\u7f72\u7684\u94fe\u63a5](https://xiangyuecn.github.io/Recorder/)\uff0c\u5982\u679c\u65e0\u6cd5\u8bbf\u95ee\uff0c\u8bf7\u76f4\u63a5\u4e0b\u8f7d\u4ed3\u5e93\u6e90\u7801\u5230\u672c\u5730\u7136\u540e\u53cc\u51fb\u6253\u5f00html\u6587\u4ef6\u8bbf\u95ee\u3002**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "[//]: # '<div align=\"left\"><img src=\"docs/images/funasr_logo.jpg\" width=\"400\"/></div>'"
     }
   ],
   "candidate_related_terms": [
@@ -2929,11 +2947,23 @@
       "observed_at": "2026-05-23T12:33:08.399245+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

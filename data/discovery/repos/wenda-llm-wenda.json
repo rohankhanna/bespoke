@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T02:04:15.225557+00:00",
+  "fetched_at": "2026-05-24T01:53:19.736840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,13 +83,13 @@
     "html_url": "https://github.com/wenda-LLM/wenda",
     "language": "JavaScript",
     "pushed_at": "2025-01-23T12:55:35Z",
-    "stargazers_count": 6179,
+    "stargazers_count": 6178,
     "topics": [
       "chatglm-6b",
       "chatrwkv",
       "rwkv"
     ],
-    "updated_at": "2026-05-21T10:58:26Z"
+    "updated_at": "2026-05-23T18:05:38Z"
   },
   "repo_links": [
     {

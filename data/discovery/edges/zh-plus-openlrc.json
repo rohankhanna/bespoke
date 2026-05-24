@@ -18,14 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zh-plus/openlrc",
-      "target": "huanshere/videolingo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zh-plus/openlrc",
-      "target": "microsofttranslator/text-translation-api-v3-python",
+      "target": "sakurallm/sakura-13b-galgame",
       "target_type": "repository"
     },
     {
@@ -190,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-23T00:43:18.102458+00:00",
+  "generated_at": "2026-05-24T00:44:26.398961+00:00",
   "source_repo": "zh-plus/openlrc"
 }

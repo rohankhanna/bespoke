@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "josdejong/jsonrepair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "oramasearch/llm_json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "cgxjdzz/jsonrepair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "du00cs/json-repairj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "Mypy Type Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "Pytest and Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonanywhere-sync.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonanywhere-sync.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "Sync PythonAnywhere Demo API",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "mangiucugna/json_repair",
+      "target": "Ruff Lint and Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "json-repair",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "llm-output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "malformed-json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "pydantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mangiucugna/json_repair",
+      "target": "structured-output",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-24T00:44:26.398961+00:00",
+  "source_repo": "mangiucugna/json_repair"
+}

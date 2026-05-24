@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T01:02:07.615654+00:00",
+  "fetched_at": "2026-05-24T00:54:17.642910+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,7 +68,7 @@
     "html_url": "https://github.com/BBC-Esq/Faster-Whisper-Transcriber",
     "language": "Python",
     "pushed_at": "2026-04-28T00:18:28Z",
-    "stargazers_count": 194,
+    "stargazers_count": 195,
     "topics": [
       "audio-recorder",
       "audio-transcribing",
@@ -78,7 +78,7 @@
       "transcribe",
       "transcriber"
     ],
-    "updated_at": "2026-05-16T11:39:31Z"
+    "updated_at": "2026-05-23T16:16:05Z"
   },
   "repo_links": [],
   "terms": [

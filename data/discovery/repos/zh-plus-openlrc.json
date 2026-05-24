@@ -70,14 +70,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zh-plus/openlrc",
-      "target": "huanshere/videolingo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zh-plus/openlrc",
-      "target": "microsofttranslator/text-translation-api-v3-python",
+      "target": "sakurallm/sakura-13b-galgame",
       "target_type": "repository"
     },
     {
@@ -242,15 +235,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T01:02:15.176636+00:00",
+  "fetched_at": "2026-05-24T00:54:21.221053+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15723
+      "size": 16196
     },
     {
       "path": "pyproject.toml",
-      "size": 3107
+      "size": 3109
     },
     {
       "path": ".github/workflows/bandit.yml",
@@ -278,7 +271,7 @@
     "full_name": "zh-plus/openlrc",
     "html_url": "https://github.com/zh-plus/openlrc",
     "language": "Python",
-    "pushed_at": "2026-05-22T08:24:28Z",
+    "pushed_at": "2026-05-23T15:22:00Z",
     "stargazers_count": 657,
     "topics": [
       "auto-subtitle",
@@ -294,7 +287,7 @@
       "voice-to-text",
       "whisper"
     ],
-    "updated_at": "2026-05-22T08:24:33Z"
+    "updated_at": "2026-05-23T15:22:04Z"
   },
   "repo_links": [
     {
@@ -304,17 +297,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "huanshere/videolingo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "machinewrapped/gpt-subtrans",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "microsofttranslator/text-translation-api-v3-python",
+      "full_name": "sakurallm/sakura-13b-galgame",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync PythonAnywhere Demo API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync PythonAnywhere Demo API"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17736,
+      "status": "candidate",
+      "text": "pilot film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17648,
+      "status": "candidate",
+      "text": "dubbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17648,
+      "status": "candidate",
+      "text": "offense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17648,
+      "status": "candidate",
+      "text": "scene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17641,
+      "status": "candidate",
+      "text": "lip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync PythonAnywhere Demo API",
+      "sense_id": "sync-pythonanywhere-demo-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-pythonanywhere-demo-api",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-pythonanywhere-demo-api",
+  "observation_id": "37a2715d201e3162",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-24T00:44:26.398961+00:00",
+  "observed_text": "Sync PythonAnywhere Demo API",
+  "source_context_snippet": "Sync PythonAnywhere Demo API",
+  "source_file": ".github/workflows/pythonanywhere-sync.yml",
+  "source_repo": "mangiucugna/json_repair",
+  "source_repo_description": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python."
+}

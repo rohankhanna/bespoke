@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ballista Rust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Ballista Distributed Query Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate-context",
+      "text": "Ballista Rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-ballista",
+      "status": "candidate",
+      "text": "Ballista Rust"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10415,
+      "status": "candidate",
+      "text": "deadly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6164,
+      "status": "candidate",
+      "text": "ballistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6164,
+      "status": "candidate",
+      "text": "ballistics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6164,
+      "status": "candidate",
+      "text": "brake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6164,
+      "status": "candidate",
+      "text": "scorpion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ballista Rust",
+  "concept_id": "ballista-rust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    }
+  ],
+  "first_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ballista Rust",
+      "sense_id": "ballista-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

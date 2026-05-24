@@ -410,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T01:15:53.356131+00:00",
+  "fetched_at": "2026-05-24T01:01:30.213517+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -462,7 +462,7 @@
     "full_name": "crc-org/crc",
     "html_url": "https://github.com/crc-org/crc",
     "language": "Go",
-    "pushed_at": "2026-05-22T17:04:37Z",
+    "pushed_at": "2026-05-23T08:15:26Z",
     "stargazers_count": 1384,
     "topics": [
       "cluster",

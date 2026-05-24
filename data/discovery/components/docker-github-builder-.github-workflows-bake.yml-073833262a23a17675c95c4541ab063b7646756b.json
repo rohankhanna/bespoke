@@ -1,7 +1,7 @@
 {
   "component": "docker/github-builder/.github/workflows/bake.yml@073833262a23a17675c95c4541ab063b7646756b",
   "first_seen_at": "2026-05-22T00:44:15.720901+00:00",
-  "last_seen_at": "2026-05-23T00:43:18.102458+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

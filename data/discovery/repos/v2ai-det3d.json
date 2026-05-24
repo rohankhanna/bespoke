@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-23T01:49:13.423608+00:00",
+  "fetched_at": "2026-05-24T01:45:29.989125+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -86,7 +86,7 @@
     "html_url": "https://github.com/V2AI/Det3D",
     "language": "Python",
     "pushed_at": "2023-12-19T10:21:31Z",
-    "stargazers_count": 1557,
+    "stargazers_count": 1556,
     "topics": [
       "3d-object-detection",
       "autonomous-driving",
@@ -97,7 +97,7 @@
       "point-cloud",
       "pytorch"
     ],
-    "updated_at": "2026-05-05T00:09:30Z"
+    "updated_at": "2026-05-23T13:57:57Z"
   },
   "repo_links": [
     {

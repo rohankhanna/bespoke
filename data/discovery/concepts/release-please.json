@@ -7155,11 +7155,17 @@
       "observed_at": "2026-05-23T12:33:08.399245+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-24T00:44:26.398961+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "lexical_providers": [
     "datamuse"
   ],

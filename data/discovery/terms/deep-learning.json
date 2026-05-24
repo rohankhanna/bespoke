@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-23T12:33:08.399245+00:00",
+  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3546,6 +3546,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "p0p4k/vits2_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "term": "deep-learning"

@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "dtolnay/rust-toolchain@stable",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
       "target_type": "component"
     },
     {
@@ -46,13 +46,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "astral-sh/setup-uv@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "apache/datafusion-ballista",
       "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
@@ -61,13 +54,6 @@
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-ballista",
       "target": "actions/download-artifact@v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "apache/datafusion-ballista",
-      "target": "astral-sh/setup-uv@9cfd02964306b527feff5fee75acfd028cce4260",
       "target_type": "component"
     },
     {
@@ -256,7 +242,7 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "Rust",
+      "target": "Ballista Rust",
       "target_type": "term"
     },
     {
@@ -309,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-23T00:43:18.102458+00:00",
+  "generated_at": "2026-05-24T00:44:26.398961+00:00",
   "source_repo": "apache/datafusion-ballista"
 }
