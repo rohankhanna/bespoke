@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 28
+- repos: 5
+- terms: 21
 - components: 84
-- concepts: 28
-- observations: 28
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -31,7 +31,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [UnknownPlatypus/djangofmt](https://github.com/UnknownPlatypus/djangofmt) | 73 | 2026-05-11T20:20:11Z | Other | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-11T14:49:51Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [cginternals/cpplocate](https://github.com/cginternals/cpplocate) | 87 | 2026-05-11T13:36:27Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [FreneticLLC/FreneticGameEngine](https://github.com/FreneticLLC/FreneticGameEngine) | 56 | 2026-05-11T05:20:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -41,5 +40,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-05-12T16:56:18Z | Other | Infrastructure/tooling | 1 | 51 | 1 | 1 |
 | [cginternals/cpplocate](https://github.com/cginternals/cpplocate) | 87 | 2026-05-11T13:36:27Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [UnknownPlatypus/djangofmt](https://github.com/UnknownPlatypus/djangofmt) | 73 | 2026-05-11T20:20:11Z | Other | Infrastructure/tooling | 5 | 19 | 5 | 5 |
-| [FreneticLLC/FreneticGameEngine](https://github.com/FreneticLLC/FreneticGameEngine) | 56 | 2026-05-11T05:20:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-11T14:49:51Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |

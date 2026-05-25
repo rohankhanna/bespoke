@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3241,
-    "concepts": 708,
-    "observations": 710,
-    "repos": 100,
-    "terms": 701
+    "components": 3379,
+    "concepts": 730,
+    "observations": 732,
+    "repos": 103,
+    "terms": 723
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
     "Agoric/agoric-sdk",
@@ -88,11 +89,13 @@
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",
     "redhat-developer/vscode-yaml",
+    "Rel1cx/eslint-react",
     "relative-ci/bundle-stats",
     "rstackjs/storybook-rsbuild",
     "salesforcecli/cli",
     "sapphiredev/utilities",
     "sergiodxa/remix-i18next",
+    "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",

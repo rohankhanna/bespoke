@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 342
-- components: 317
-- concepts: 344
-- observations: 344
+- repos: 44
+- terms: 336
+- components: 312
+- concepts: 338
+- observations: 338
 
 ## Static behavior
 
@@ -70,8 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jpmml/jpmml-lightgbm](https://github.com/jpmml/jpmml-lightgbm) | 184 | 2026-04-26T19:02:26Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [apache/commons-jexl](https://github.com/apache/commons-jexl) | 236 | 2026-04-26T18:53:52Z | Java | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [jpmml/jpmml-xgboost](https://github.com/jpmml/jpmml-xgboost) | 131 | 2026-04-26T12:19:22Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [sevntu-checkstyle/sevntu.checkstyle](https://github.com/sevntu-checkstyle/sevntu.checkstyle) | 196 | 2026-04-25T01:26:12Z | Java | CLI | 3 | 3 | 3 | 3 |
-| [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -83,7 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swagger-api/swagger-parser](https://github.com/swagger-api/swagger-parser) | 860 | 2026-04-28T15:03:25Z | Java | Infrastructure/tooling | 20 | 13 | 20 | 20 |
 | [allegro/hermes](https://github.com/allegro/hermes) | 856 | 2026-04-27T11:25:09Z | Java | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry) | 799 | 2026-04-30T11:22:17Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
-| [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [devoxx/DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin) | 639 | 2026-04-29T08:02:21Z | Java | CLI | 24 | 12 | 24 | 24 |
 | [FasterXML/jackson-dataformat-xml](https://github.com/FasterXML/jackson-dataformat-xml) | 623 | 2026-04-28T20:31:28Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [SAP/SapMachine](https://github.com/SAP/SapMachine) | 607 | 2026-05-01T01:08:06Z | Java | Infrastructure/tooling | 13 | 9 | 13 | 13 |
@@ -115,7 +112,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reactor/reactor-addons](https://github.com/reactor/reactor-addons) | 241 | 2026-04-28T15:43:57Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [apache/commons-jexl](https://github.com/apache/commons-jexl) | 236 | 2026-04-26T18:53:52Z | Java | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [saalfeldlab/n5](https://github.com/saalfeldlab/n5) | 201 | 2026-04-28T16:03:28Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [sevntu-checkstyle/sevntu.checkstyle](https://github.com/sevntu-checkstyle/sevntu.checkstyle) | 196 | 2026-04-25T01:26:12Z | Java | CLI | 3 | 3 | 3 | 3 |
 | [jpmml/jpmml-lightgbm](https://github.com/jpmml/jpmml-lightgbm) | 184 | 2026-04-26T19:02:26Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [googleapis/java-bigtable-hbase](https://github.com/googleapis/java-bigtable-hbase) | 181 | 2026-04-30T01:50:27Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [FasterXML/jackson-modules-base](https://github.com/FasterXML/jackson-modules-base) | 180 | 2026-04-28T20:23:44Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |

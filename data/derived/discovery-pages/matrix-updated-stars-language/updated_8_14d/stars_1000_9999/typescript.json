@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 8,
-    "terms": 53
+    "components": 245,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 7,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "can1357/oh-my-pi",
     "FxEmbed/FxEmbed",
@@ -20,7 +20,6 @@
     "Koenkk/zigbee-herdsman-converters",
     "pdfme/pdfme",
     "shareAI-lab/Kode-Agent",
-    "shareAI-lab/Kode-CLI",
-    "vitejs/vite-plugin-react"
+    "shareAI-lab/Kode-CLI"
   ]
 }

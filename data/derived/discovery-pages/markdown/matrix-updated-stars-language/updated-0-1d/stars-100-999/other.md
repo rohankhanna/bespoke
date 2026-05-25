@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 30
-- components: 29
-- concepts: 30
-- observations: 30
+- terms: 32
+- components: 32
+- concepts: 32
+- observations: 32
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-23T17:39:57Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 407 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
-| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-23T11:35:12Z | Other | CLI | 10 | 8 | 10 | 10 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-25T00:00:20Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
+| [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-23T17:39:57Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 407 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
-| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-23T11:35:12Z | Other | CLI | 10 | 8 | 10 | 10 |
+| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
+| [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-25T00:00:20Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |

@@ -1,29 +1,29 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 86,
-    "observations": 86,
+    "components": 126,
+    "concepts": 96,
+    "observations": 96,
     "repos": 12,
-    "terms": 86
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
-    "apalache-mc/apalache",
+    "abaplint/transpiler",
+    "aristoteleo/PantheonOS",
+    "astroautomata/SymbolicRegression.jl",
+    "babashka/nbb",
     "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
-    "fsprojects/FSharp.Data.GraphQL",
-    "jupyter/nbclassic",
-    "karafka/rdkafka-ruby",
-    "perrygeo/python-rasterstats",
-    "pyrtlsdr/pyrtlsdr",
-    "scverse/rapids-singlecell",
-    "yaling888/quirktiva",
-    "zh-plus/openlrc"
+    "flagos-ai/FlagCX",
+    "flagos-ai/FlagScale",
+    "ldproxy/ldproxy",
+    "machinewrapped/llm-subtrans",
+    "matter-js/matter.js",
+    "sbt/sbt-jmh"
   ]
 }

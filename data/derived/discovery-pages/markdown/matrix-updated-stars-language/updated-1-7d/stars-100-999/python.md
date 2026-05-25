@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 101
-- components: 101
-- concepts: 101
-- observations: 101
+- repos: 19
+- terms: 104
+- components: 113
+- concepts: 104
+- observations: 104
 
 ## Static behavior
 
@@ -26,16 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 685 | 2026-05-23T22:50:18Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 657 | 2026-05-23T15:22:00Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 371 | 2026-05-23T11:20:38Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 281 | 2026-05-23T08:45:00Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [TinyLLaVA/TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory) | 981 | 2026-05-23T06:16:18Z | Python | Framework | 6 | 0 | 6 | 6 |
-| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 513 | 2026-05-23T05:53:15Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 956 | 2026-05-23T03:53:32Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-22T22:12:49Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 351 | 2026-05-22T22:12:49Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-22T09:16:51Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
-| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 321 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 322 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [AMD-AGI/Nitro-1](https://github.com/AMD-AGI/Nitro-1) | 124 | 2026-05-21T15:12:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 558 | 2026-05-21T09:46:00Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-20T18:40:49Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
 | [NCAS-CMS/pyfive](https://github.com/NCAS-CMS/pyfive) | 101 | 2026-05-20T14:09:17Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-19T19:31:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 170 | 2026-05-19T15:41:22Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -52,11 +54,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 956 | 2026-05-23T03:53:32Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 909 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 729 | 2026-05-22T09:16:51Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 685 | 2026-05-23T22:50:18Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 657 | 2026-05-23T15:22:00Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 558 | 2026-05-21T09:46:00Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 513 | 2026-05-23T05:53:15Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-20T18:40:49Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
-| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 350 | 2026-05-22T22:12:49Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 321 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 371 | 2026-05-23T11:20:38Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 351 | 2026-05-22T22:12:49Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
+| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 322 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 281 | 2026-05-23T08:45:00Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Jamorim-esss/pytest-rich](https://github.com/Jamorim-esss/pytest-rich) | 254 | 2026-05-18T13:13:04Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-19T19:31:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |

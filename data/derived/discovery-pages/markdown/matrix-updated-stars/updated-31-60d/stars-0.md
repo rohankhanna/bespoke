@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 242
-- terms: 392
-- components: 936
-- concepts: 360
-- observations: 361
+- repos: 237
+- terms: 404
+- components: 944
+- concepts: 372
+- observations: 372
 
 ## Static behavior
 
@@ -25,6 +25,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
+| [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
+| [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [TransferQueue/community_doc](https://github.com/TransferQueue/community_doc) | 0 | 2026-04-24T08:25:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
@@ -257,21 +262,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval](https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval) | 0 | 2026-03-26T17:58:11Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
-| [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) | 0 | 2026-03-25T12:10:49Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [datachainlab/cosmos-bsc-ibc-lcp](https://github.com/datachainlab/cosmos-bsc-ibc-lcp) | 0 | 2026-03-25T10:49:36Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 2 |
-| [datachainlab/ibc-parlia-relay](https://github.com/datachainlab/ibc-parlia-relay) | 0 | 2026-03-25T09:54:22Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
+| [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
+| [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [regro/cf-graph-countyfair](https://github.com/regro/cf-graph-countyfair) | 0 | 2026-04-24T09:16:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [TransferQueue/community_doc](https://github.com/TransferQueue/community_doc) | 0 | 2026-04-24T08:25:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
@@ -504,13 +504,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval](https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval) | 0 | 2026-03-26T17:58:11Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
-| [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) | 0 | 2026-03-25T12:10:49Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [datachainlab/cosmos-bsc-ibc-lcp](https://github.com/datachainlab/cosmos-bsc-ibc-lcp) | 0 | 2026-03-25T10:49:36Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 2 |
-| [datachainlab/ibc-parlia-relay](https://github.com/datachainlab/ibc-parlia-relay) | 0 | 2026-03-25T09:54:22Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 303,
-    "observations": 303,
-    "repos": 41,
-    "terms": 303
+    "components": 218,
+    "concepts": 308,
+    "observations": 308,
+    "repos": 42,
+    "terms": 308
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
@@ -33,9 +33,9 @@
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
-    "GoogleCloudPlatform/cloud-bigtable-examples",
     "GoogleCloudPlatform/cloud-opensource-java",
     "graalvm/graal-languages-demos",
+    "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",
@@ -48,6 +48,7 @@
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
     "redis/redis-om-spring",
+    "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",

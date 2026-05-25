@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1280,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 38,
-    "terms": 248
+    "components": 1420,
+    "concepts": 250,
+    "observations": 250,
+    "repos": 42,
+    "terms": 278
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -26,6 +26,8 @@
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
     "ekalinin/sitemap.js",
+    "gpac/mp4box.js",
+    "graphql-hive/graphql-config",
     "gustavoguichard/string-ts",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
@@ -35,6 +37,7 @@
     "josStorer/RWKV-Runner",
     "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",
+    "markdoc/markdoc",
     "microsoft/genaiscript",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
@@ -43,6 +46,7 @@
     "obsidian-community/obsidian-zotero-integration",
     "peers/peerjs-server",
     "posva/unplugin-vue-router",
+    "REditorSupport/vscode-R",
     "snarktank/antfarm",
     "standard-schema/standard-schema",
     "stephenh/ts-proto",

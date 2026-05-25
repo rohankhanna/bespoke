@@ -3,7 +3,7 @@
     "components": 75,
     "concepts": 106,
     "observations": 106,
-    "repos": 28,
+    "repos": 26,
     "terms": 106
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
-    "adoptium/temurin21-binaries",
     "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",
     "chromedp/cdproto",
@@ -27,7 +26,6 @@
     "github/copilot-language-server-release",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
-    "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
     "lxgw/LxgwNeoXiZhi-Screen",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6864,
-    "concepts": 1322,
-    "observations": 1326,
-    "repos": 175,
-    "terms": 1429
+    "components": 6802,
+    "concepts": 1303,
+    "observations": 1307,
+    "repos": 173,
+    "terms": 1410
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -93,12 +93,11 @@
     "googleapis/release-please",
     "googleapis/release-please-action",
     "gorhom/react-native-bottom-sheet",
-    "gpac/mp4box.js",
     "graffle-js/graffle",
-    "graphql-hive/graphql-config",
     "grpc/grpc-node",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
+    "huozhi/bunchee",
     "i18next/next-i18next",
     "iorate/ublacklist",
     "ipfs/helia",
@@ -124,7 +123,6 @@
     "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "lukeautry/tsoa",
-    "markdoc/markdoc",
     "matt1398/claude-devtools",
     "mattpocock/ts-reset",
     "maxritter/pilot-shell",
@@ -164,7 +162,6 @@
     "react-native-webview/react-native-webview",
     "redhat-developer/vscode-java",
     "redhat-developer/yaml-language-server",
-    "REditorSupport/vscode-R",
     "remotion-dev/github-unwrapped",
     "sirmalloc/ccstatusline",
     "solidjs/solid-start",
@@ -184,6 +181,7 @@
     "vercel/next-learn",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
+    "vuejs/router",
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight",

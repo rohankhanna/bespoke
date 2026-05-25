@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 140
-- terms: 1194
-- components: 1187
-- concepts: 1202
-- observations: 1202
+- repos: 138
+- terms: 1166
+- components: 1165
+- concepts: 1174
+- observations: 1174
 
 ## Static behavior
 
@@ -142,7 +142,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [red-data-tools/pycall.rb](https://github.com/red-data-tools/pycall.rb) | 1113 | 2026-04-28T05:42:45Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [alanxz/rabbitmq-c](https://github.com/alanxz/rabbitmq-c) | 1859 | 2026-04-28T00:30:51Z | C/C++ | CLI | 4 | 6 | 4 | 4 |
 | [mhammond/pywin32](https://github.com/mhammond/pywin32) | 5552 | 2026-04-27T23:58:56Z | C/C++ | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [microsoft/DirectML](https://github.com/microsoft/DirectML) | 2552 | 2026-04-27T23:43:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [microsoft/DirectML](https://github.com/microsoft/DirectML) | 2553 | 2026-04-27T23:43:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) | 2807 | 2026-04-27T21:42:31Z | C/C++ | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [Farama-Foundation/Arcade-Learning-Environment](https://github.com/Farama-Foundation/Arcade-Learning-Environment) | 2421 | 2026-04-27T21:14:25Z | C/C++ | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [microsoft/DirectXTex](https://github.com/microsoft/DirectXTex) | 2094 | 2026-04-27T21:09:13Z | C/C++ | Infrastructure/tooling | 20 | 8 | 20 | 20 |
@@ -164,8 +164,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elfmz/far2l](https://github.com/elfmz/far2l) | 2159 | 2026-04-26T09:30:23Z | C/C++ | CLI | 7 | 3 | 7 | 7 |
 | [zeux/pugixml](https://github.com/zeux/pugixml) | 4556 | 2026-04-25T21:59:01Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [tevador/RandomX](https://github.com/tevador/RandomX) | 1598 | 2026-04-25T08:48:19Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
-| [boostorg/pfr](https://github.com/boostorg/pfr) | 1478 | 2026-04-24T15:01:05Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
-| [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 5183 | 2026-04-24T12:14:21Z | C/C++ | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -201,7 +199,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swiftlang/swift-corelibs-foundation](https://github.com/swiftlang/swift-corelibs-foundation) | 5425 | 2026-05-04T23:10:42Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [zcash/zcash](https://github.com/zcash/zcash) | 5407 | 2026-04-30T17:51:22Z | C/C++ | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [facebookincubator/katran](https://github.com/facebookincubator/katran) | 5229 | 2026-05-02T16:37:28Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 5183 | 2026-04-24T12:14:21Z | C/C++ | Infrastructure/tooling | 15 | 20 | 15 | 15 |
 | [chrisant996/clink](https://github.com/chrisant996/clink) | 5171 | 2026-04-30T00:10:25Z | C/C++ | CLI | 1 | 0 | 1 | 1 |
 | [microsoft/SPTAG](https://github.com/microsoft/SPTAG) | 4985 | 2026-04-30T02:37:26Z | C/C++ | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [CrowCpp/Crow](https://github.com/CrowCpp/Crow) | 4814 | 2026-04-28T19:08:16Z | C/C++ | Infrastructure/tooling | 13 | 9 | 13 | 13 |
@@ -244,7 +241,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xtensor-stack/xsimd](https://github.com/xtensor-stack/xsimd) | 2670 | 2026-05-01T08:00:56Z | C/C++ | Infrastructure/tooling | 18 | 2 | 18 | 18 |
 | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | 2650 | 2026-05-04T09:24:12Z | C/C++ | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) | 2577 | 2026-04-26T21:04:07Z | C/C++ | Infrastructure/tooling | 22 | 3 | 22 | 22 |
-| [microsoft/DirectML](https://github.com/microsoft/DirectML) | 2552 | 2026-04-27T23:43:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [microsoft/DirectML](https://github.com/microsoft/DirectML) | 2553 | 2026-04-27T23:43:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [kokkos/kokkos](https://github.com/kokkos/kokkos) | 2519 | 2026-04-30T01:57:28Z | C/C++ | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [google/swiftshader](https://github.com/google/swiftshader) | 2464 | 2026-04-29T16:19:45Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) | 2424 | 2026-04-29T06:04:16Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -283,7 +280,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tevador/RandomX](https://github.com/tevador/RandomX) | 1598 | 2026-04-25T08:48:19Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [miniupnp/miniupnp](https://github.com/miniupnp/miniupnp) | 1586 | 2026-04-29T23:44:27Z | C/C++ | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [DrTimothyAldenDavis/SuiteSparse](https://github.com/DrTimothyAldenDavis/SuiteSparse) | 1487 | 2026-05-01T17:53:59Z | C/C++ | Infrastructure/tooling | 19 | 10 | 19 | 19 |
-| [boostorg/pfr](https://github.com/boostorg/pfr) | 1478 | 2026-04-24T15:01:05Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
 | [LibRaw/LibRaw](https://github.com/LibRaw/LibRaw) | 1474 | 2026-04-27T18:34:17Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [zlib-ng/minizip-ng](https://github.com/zlib-ng/minizip-ng) | 1444 | 2026-04-27T19:23:39Z | C/C++ | Infrastructure/tooling | 17 | 13 | 17 | 17 |
 | [celluloid-player/celluloid](https://github.com/celluloid-player/celluloid) | 1410 | 2026-04-27T18:02:28Z | C/C++ | Infrastructure/tooling | 9 | 4 | 9 | 9 |

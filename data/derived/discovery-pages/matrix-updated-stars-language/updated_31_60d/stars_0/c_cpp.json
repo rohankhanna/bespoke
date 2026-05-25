@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 24,
-    "observations": 25,
-    "repos": 8,
-    "terms": 24
+    "components": 18,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
     "arnaud-lb/php-rdkafka",
@@ -20,7 +20,6 @@
     "CHIP-SPV/H4I-HipFFT",
     "CHIP-SPV/H4I-HipSOLVER",
     "conda-forge/cppinterop-feedstock",
-    "datachainlab/cosmos-bsc-ibc-lcp",
     "rltakashige/mlx-jaccl-fix-small-recv"
   ]
 }

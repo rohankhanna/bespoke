@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4671,
-    "concepts": 1050,
-    "observations": 1050,
-    "repos": 376,
-    "terms": 1039
+    "components": 4696,
+    "concepts": 1053,
+    "observations": 1053,
+    "repos": 379,
+    "terms": 1040
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -78,6 +78,7 @@
     "bnoordhuis/node-iconv",
     "bradlc/babel-plugin-tailwind-components",
     "bradlc/tailwindcss-fluid",
+    "bramstein/url-template",
     "brettstimmerman/mensch",
     "brianc/node-pg-types",
     "Bridgewater/holochrome",
@@ -311,11 +312,13 @@
     "ramasilveyra/gitpkg",
     "Raynos/http-framework",
     "rehypejs/rehype-highlight",
+    "restify/errors",
     "ricardofbarros/linter-js-standard",
     "rollup/rollup-starter-app",
     "rollup/rollup-starter-lib",
     "rpl/flow-coverage-report",
     "RReverser/wasm-bindgen-rayon",
+    "RyanMarcus/dirty-json",
     "SafetyCulture/grpc-web-devtools",
     "saharan/OimoPhysics",
     "sanctuary-js/sanctuary-def",

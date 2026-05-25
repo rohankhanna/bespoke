@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -28,7 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [appwrite/playground-for-web](https://github.com/appwrite/playground-for-web) | 109 | 2026-05-14T08:17:02Z | Other | Web app | 3 | 3 | 3 | 3 |
 | [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 657 | 2026-05-13T19:01:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 193 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 192 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 470 | 2026-05-13T10:35:11Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [Kotlin/kotlinx-benchmark](https://github.com/Kotlin/kotlinx-benchmark) | 634 | 2026-05-13T07:32:25Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [CopyText/TextCopy](https://github.com/CopyText/TextCopy) | 570 | 2026-05-12T21:44:47Z | Other | CLI | 3 | 3 | 3 | 3 |
@@ -47,5 +47,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 470 | 2026-05-13T10:35:11Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [WICG/attribution-reporting-api](https://github.com/WICG/attribution-reporting-api) | 457 | 2026-05-11T19:13:32Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [rescript-lang/reanalyze](https://github.com/rescript-lang/reanalyze) | 283 | 2026-05-12T11:53:48Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
-| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 193 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 192 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [appwrite/playground-for-web](https://github.com/appwrite/playground-for-web) | 109 | 2026-05-14T08:17:02Z | Other | Web app | 3 | 3 | 3 | 3 |

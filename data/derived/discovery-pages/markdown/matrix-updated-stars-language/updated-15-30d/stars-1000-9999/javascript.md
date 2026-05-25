@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
-- terms: 438
-- components: 2596
-- concepts: 441
-- observations: 442
+- repos: 60
+- terms: 422
+- components: 2530
+- concepts: 424
+- observations: 425
 
 ## Static behavior
 
@@ -86,10 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webpack/webpack-dev-server](https://github.com/webpack/webpack-dev-server) | 7848 | 2026-04-26T19:57:01Z | JavaScript | Infrastructure/tooling | 5 | 94 | 5 | 5 |
 | [google/docsy](https://github.com/google/docsy) | 2931 | 2026-04-26T16:56:08Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [testem/testem](https://github.com/testem/testem) | 2920 | 2026-04-25T16:09:22Z | JavaScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
-| [flow-typed/flow-typed](https://github.com/flow-typed/flow-typed) | 3761 | 2026-04-24T20:18:13Z | JavaScript | CLI | 5 | 4 | 5 | 5 |
-| [yahoo/serialize-javascript](https://github.com/yahoo/serialize-javascript) | 2922 | 2026-04-24T19:55:05Z | JavaScript | Infrastructure/tooling | 3 | 3 | 4 | 4 |
-| [i18next/i18next](https://github.com/i18next/i18next) | 8554 | 2026-04-24T19:19:28Z | JavaScript | Infrastructure/tooling | 7 | 38 | 7 | 7 |
-| [NickColley/jest-axe](https://github.com/NickColley/jest-axe) | 1107 | 2026-04-24T15:33:58Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -101,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [terser/terser](https://github.com/terser/terser) | 9276 | 2026-04-29T11:46:52Z | JavaScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9094 | 2026-05-03T14:26:21Z | JavaScript | Infrastructure/tooling | 9 | 57 | 9 | 9 |
 | [ljharb/qs](https://github.com/ljharb/qs) | 8928 | 2026-04-27T19:23:55Z | JavaScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
-| [i18next/i18next](https://github.com/i18next/i18next) | 8554 | 2026-04-24T19:19:28Z | JavaScript | Infrastructure/tooling | 7 | 38 | 7 | 7 |
 | [chaijs/chai](https://github.com/chaijs/chai) | 8265 | 2026-05-04T08:05:04Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8196 | 2026-04-27T08:58:49Z | JavaScript | Infrastructure/tooling | 6 | 65 | 6 | 6 |
 | [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) | 8156 | 2026-04-30T12:26:20Z | JavaScript | Infrastructure/tooling | 8 | 82 | 8 | 8 |
@@ -125,7 +120,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [middyjs/middy](https://github.com/middyjs/middy) | 3898 | 2026-04-29T11:33:29Z | JavaScript | Infrastructure/tooling | 23 | 24 | 23 | 23 |
 | [umijs/dumi](https://github.com/umijs/dumi) | 3794 | 2026-04-29T09:43:29Z | JavaScript | Infrastructure/tooling | 8 | 113 | 8 | 8 |
 | [openstreetmap/iD](https://github.com/openstreetmap/iD) | 3778 | 2026-04-30T14:51:54Z | JavaScript | Infrastructure/tooling | 8 | 93 | 8 | 8 |
-| [flow-typed/flow-typed](https://github.com/flow-typed/flow-typed) | 3761 | 2026-04-24T20:18:13Z | JavaScript | CLI | 5 | 4 | 5 | 5 |
 | [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web) | 3537 | 2026-05-01T09:29:37Z | JavaScript | CLI | 12 | 140 | 12 | 12 |
 | [uBlockOrigin/uBOL-home](https://github.com/uBlockOrigin/uBOL-home) | 3327 | 2026-05-04T16:36:17Z | JavaScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [KhronosGroup/Vulkan-Docs](https://github.com/KhronosGroup/Vulkan-Docs) | 3254 | 2026-04-29T15:58:46Z | JavaScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -134,7 +128,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mozilla/web-ext](https://github.com/mozilla/web-ext) | 3063 | 2026-04-29T07:22:24Z | JavaScript | CLI | 4 | 59 | 4 | 4 |
 | [GoogleCloudPlatform/nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) | 2963 | 2026-04-29T22:07:12Z | JavaScript | Infrastructure/tooling | 12 | 27 | 12 | 12 |
 | [google/docsy](https://github.com/google/docsy) | 2931 | 2026-04-26T16:56:08Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [yahoo/serialize-javascript](https://github.com/yahoo/serialize-javascript) | 2922 | 2026-04-24T19:55:05Z | JavaScript | Infrastructure/tooling | 3 | 3 | 4 | 4 |
 | [testem/testem](https://github.com/testem/testem) | 2920 | 2026-04-25T16:09:22Z | JavaScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
 | [webpack/webpack-cli](https://github.com/webpack/webpack-cli) | 2605 | 2026-05-01T18:03:24Z | JavaScript | CLI | 6 | 45 | 6 | 6 |
 | [RisingStack/react-easy-state](https://github.com/RisingStack/react-easy-state) | 2547 | 2026-04-30T08:15:06Z | JavaScript | Unknown | 7 | 50 | 7 | 7 |
@@ -156,6 +149,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alphagov/govuk-frontend](https://github.com/alphagov/govuk-frontend) | 1393 | 2026-05-02T09:33:36Z | JavaScript | Infrastructure/tooling | 11 | 66 | 11 | 11 |
 | [amannn/action-semantic-pull-request](https://github.com/amannn/action-semantic-pull-request) | 1327 | 2026-04-28T08:21:17Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [LavaMoat/LavaMoat](https://github.com/LavaMoat/LavaMoat) | 1165 | 2026-04-29T15:48:27Z | JavaScript | Infrastructure/tooling | 7 | 42 | 7 | 7 |
-| [NickColley/jest-axe](https://github.com/NickColley/jest-axe) | 1107 | 2026-04-24T15:33:58Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [mapbox/geobuf](https://github.com/mapbox/geobuf) | 1026 | 2026-04-28T14:03:12Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte) | 1025 | 2026-04-30T19:43:02Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |

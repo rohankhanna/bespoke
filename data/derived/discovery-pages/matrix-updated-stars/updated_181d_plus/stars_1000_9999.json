@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10448,
-    "concepts": 8987,
-    "observations": 8996,
+    "components": 10455,
+    "concepts": 8991,
+    "observations": 9000,
     "repos": 2330,
-    "terms": 8860
+    "terms": 8863
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -247,7 +247,6 @@
     "baidu/DDParser",
     "baidu/DuReader",
     "baidu/Familia",
-    "baidu/lac",
     "baidu/sofa-pbrpc",
     "balancap/SSD-Tensorflow",
     "baofff/U-ViT",
@@ -1487,6 +1486,7 @@
     "nerfstudio-project/nerfacc",
     "netease-youdao/BCEmbedding",
     "nfnt/resize",
+    "nfrechette/acl",
     "nianticlabs/monodepth2",
     "NicoHood/HID",
     "niessner/Matterport",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 99
-- terms: 474
-- components: 428
-- concepts: 471
-- observations: 473
+- repos: 101
+- terms: 492
+- components: 431
+- concepts: 489
+- observations: 491
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [msasanmh/DNSveil](https://github.com/msasanmh/DNSveil) | 1261 | 2026-02-23T17:00:48Z | Other | CLI | 12 | 0 | 12 | 12 |
+| [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) | 5520 | 2026-02-23T15:56:59Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [sbt/sbt-native-packager](https://github.com/sbt/sbt-native-packager) | 1608 | 2026-02-22T17:06:38Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [IDEA-Research/Rex-Omni](https://github.com/IDEA-Research/Rex-Omni) | 1327 | 2026-02-22T02:59:06Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [3rd/image.nvim](https://github.com/3rd/image.nvim) | 1962 | 2026-02-21T15:06:58Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -65,7 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [symfony/cache-contracts](https://github.com/symfony/cache-contracts) | 2382 | 2026-01-25T12:13:22Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | 2701 | 2026-01-23T15:29:00Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [reagent-project/reagent](https://github.com/reagent-project/reagent) | 4863 | 2026-01-23T13:16:19Z | Other | Infrastructure/tooling | 7 | 22 | 7 | 7 |
-| [mds1/multicall3](https://github.com/mds1/multicall3) | 1181 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mds1/multicall3](https://github.com/mds1/multicall3) | 1182 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [joaotavora/eglot](https://github.com/joaotavora/eglot) | 2512 | 2026-01-21T23:54:58Z | Other | CLI | 1 | 5 | 1 | 1 |
 | [google/gumbo-parser](https://github.com/google/gumbo-parser) | 5189 | 2026-01-21T17:17:17Z | Other | Library | 0 | 0 | 0 | 0 |
 | [fsprojects/Paket](https://github.com/fsprojects/Paket) | 2086 | 2026-01-20T08:53:10Z | Other | Library | 6 | 0 | 6 | 6 |
@@ -144,6 +146,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jekip/naive-ui-admin](https://github.com/jekip/naive-ui-admin) | 5852 | 2026-01-19T13:32:38Z | Other | Web app | 5 | 68 | 5 | 5 |
 | [black7375/Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix) | 5810 | 2026-02-06T00:06:12Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [ChaoningZhang/MobileSAM](https://github.com/ChaoningZhang/MobileSAM) | 5722 | 2025-12-19T10:42:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) | 5520 | 2026-02-23T15:56:59Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [google/gumbo-parser](https://github.com/google/gumbo-parser) | 5189 | 2026-01-21T17:17:17Z | Other | Library | 0 | 0 | 0 | 0 |
 | [reagent-project/reagent](https://github.com/reagent-project/reagent) | 4863 | 2026-01-23T13:16:19Z | Other | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [datawhalechina/tiny-universe](https://github.com/datawhalechina/tiny-universe) | 4789 | 2026-02-12T02:00:08Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -212,11 +215,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chrisbra/csv.vim](https://github.com/chrisbra/csv.vim) | 1324 | 2026-01-04T14:33:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [grpc/grpc-kotlin](https://github.com/grpc/grpc-kotlin) | 1295 | 2025-12-19T18:33:09Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [dspinellis/latex-advice](https://github.com/dspinellis/latex-advice) | 1276 | 2026-02-10T07:49:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [msasanmh/DNSveil](https://github.com/msasanmh/DNSveil) | 1261 | 2026-02-23T17:00:48Z | Other | CLI | 12 | 0 | 12 | 12 |
 | [Samsung/netcoredbg](https://github.com/Samsung/netcoredbg) | 1261 | 2025-12-12T11:36:24Z | Other | CLI | 3 | 0 | 3 | 3 |
 | [nix-community/dream2nix](https://github.com/nix-community/dream2nix) | 1249 | 2025-12-17T06:30:15Z | Other | Infrastructure/tooling | 11 | 6 | 12 | 12 |
 | [ankane/pgslice](https://github.com/ankane/pgslice) | 1239 | 2026-01-06T04:03:17Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mdn/webassembly-examples](https://github.com/mdn/webassembly-examples) | 1202 | 2026-02-18T09:22:56Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
-| [mds1/multicall3](https://github.com/mds1/multicall3) | 1181 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mds1/multicall3](https://github.com/mds1/multicall3) | 1182 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rails/importmap-rails](https://github.com/rails/importmap-rails) | 1149 | 2026-01-07T20:25:13Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [clojure/test.check](https://github.com/clojure/test.check) | 1147 | 2025-12-30T19:39:58Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [touchlab/droidconkotlin](https://github.com/touchlab/DroidconKotlin) | 1137 | 2026-02-13T21:48:08Z | Other | Infrastructure/tooling | 5 | 5 | 0 | 0 |

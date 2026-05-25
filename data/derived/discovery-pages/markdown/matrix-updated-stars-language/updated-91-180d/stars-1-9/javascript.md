@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 23
-- components: 79
-- concepts: 24
-- observations: 24
+- repos: 14
+- terms: 26
+- components: 87
+- concepts: 27
+- observations: 27
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [athombv/com.athom.matter-bridge](https://github.com/athombv/com.athom.matter-bridge) | 9 | 2026-02-23T14:43:27Z | JavaScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [alexpolonsky/agent-skill-maccabi-pharm-search](https://github.com/alexpolonsky/agent-skill-maccabi-pharm-search) | 2 | 2026-02-21T10:35:04Z | JavaScript | Unknown | 10 | 0 | 10 | 10 |
 | [hchiam/react-jexcel-redux](https://github.com/hchiam/react-jexcel-redux) | 1 | 2026-02-13T19:20:22Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
 | [hchiam/chat-app-fcc-react-redux](https://github.com/hchiam/chat-app-fcc-react-redux) | 1 | 2026-02-13T18:08:23Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -44,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [athombv/com.athom.matter-bridge](https://github.com/athombv/com.athom.matter-bridge) | 9 | 2026-02-23T14:43:27Z | JavaScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [Qiuner/isometric-contributions-plus](https://github.com/Qiuner/isometric-contributions-plus) | 7 | 2025-12-24T11:08:27Z | JavaScript | Unknown | 4 | 8 | 5 | 5 |
 | [3swordman/tree-sitter-toon](https://github.com/3swordman/tree-sitter-toon) | 5 | 2026-01-16T18:21:16Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [qiuyu96/CoDeF](https://github.com/qiuyu96/CoDeF) | 3 | 2026-01-28T17:09:30Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

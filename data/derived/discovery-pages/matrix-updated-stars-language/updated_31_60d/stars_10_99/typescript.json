@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2254,
-    "concepts": 337,
-    "observations": 340,
+    "concepts": 350,
+    "observations": 353,
     "repos": 84,
-    "terms": 369
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "adyscorpius/logseq-jira",
@@ -65,9 +66,9 @@
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jaegertracing/documentation",
+    "jakoch/install-vulkan-sdk-action",
     "jerseycheese/narraitor",
     "jkheadley/instar",
-    "joshwooding/vite-plugin-react-docgen-typescript",
     "Kastalien-Research/thoughtbox",
     "KazariEX/dxup",
     "labring/fastgpt-plugin",
@@ -75,7 +76,6 @@
     "lobehub/lobe-lint",
     "mcous/vitest-when",
     "mdjastrzebski/test-renderer",
-    "memoryhole/jjo",
     "microsoft/vscode-js-debug-companion",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",

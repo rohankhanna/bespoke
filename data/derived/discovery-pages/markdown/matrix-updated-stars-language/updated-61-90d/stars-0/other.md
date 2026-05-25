@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 20
-- components: 20
-- concepts: 20
-- observations: 20
+- repos: 14
+- terms: 23
+- components: 24
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -43,6 +45,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/HFC-Guidance-Flip-Book](https://github.com/danielrosehill/HFC-Guidance-Flip-Book) | 0 | 2026-03-26T01:31:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Israel-Civilian-Readiness-Guide](https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide) | 0 | 2026-03-26T01:02:35Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4167,
-    "concepts": 798,
-    "observations": 798,
-    "repos": 147,
-    "terms": 859
+    "components": 4065,
+    "concepts": 789,
+    "observations": 789,
+    "repos": 143,
+    "terms": 850
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -28,7 +28,6 @@
     "anthropics/claude-code-base-action",
     "appium/appium-adb",
     "appwrite/sdk-for-node",
-    "aquasecurity/trivy-vscode-extension",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "Autodesk/synthesis",
@@ -67,7 +66,6 @@
     "elm-tooling/elm-language-server",
     "evmts/tevm-monorepo",
     "fannheyward/coc-sql",
-    "fannheyward/create-coc-extension",
     "fastify/demo",
     "giselles-ai/giselle",
     "github/local-action",
@@ -92,7 +90,6 @@
     "Kong/kong-manager",
     "krassowski/jupyterlab-lsp",
     "kysely-org/kysely-ctl",
-    "latex-lsp/texlab-vscode",
     "lerna-lite/lerna-lite",
     "lewislulu/llm-wiki-skill",
     "lobehub/lobe-chat-plugins",
@@ -135,7 +132,6 @@
     "optuna/optuna-dashboard",
     "ory/hydra-login-consent-node",
     "ory/kratos-selfservice-ui-node",
-    "PanAeon/vscode-tmgrammar-test",
     "redhat-developer/vscode-xml",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 193
+- repos: 195
 - terms: 177
 - components: 138
 - concepts: 179
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [funstory-ai/BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) | 3 | 2025-11-25T10:46:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [steve-todorov/oidc-debugger-action](https://github.com/steve-todorov/oidc-debugger-action) | 9 | 2025-11-19T23:00:16Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [cyberark/community](https://github.com/cyberark/community) | 7 | 2025-11-18T19:41:48Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [danielrosehill/claude-code-plugin](https://github.com/danielrosehill/claude-code-plugin) | 1 | 2025-11-15T19:37:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -302,6 +304,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SivilTaram/tapex_transformers](https://github.com/SivilTaram/tapex_transformers) | 4 | 2022-03-11T03:08:38Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [webpack/v4.webpack.js.org](https://github.com/webpack/v4.webpack.js.org) | 4 | 2021-11-07T00:27:03Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [lyceum/lyceumregistry](https://github.com/Lyceum/LyceumRegistry) | 4 | 2021-09-23T22:38:08Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [funstory-ai/BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) | 3 | 2025-11-25T10:46:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Change-My-View](https://github.com/danielrosehill/Claude-Change-My-View) | 3 | 2025-11-13T14:07:47Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [Tencent/tencent.github.io](https://github.com/Tencent/tencent.github.io) | 3 | 2025-11-05T07:34:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Context-Toolkit](https://github.com/danielrosehill/Claude-Code-Context-Toolkit) | 3 | 2025-10-27T22:18:34Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -370,6 +373,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vega/logos](https://github.com/vega/logos) | 2 | 2021-08-14T13:38:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mhn226/espnet](https://github.com/mhn226/espnet) | 2 | 2021-08-09T10:50:00Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [dotnet-foundation/wg-corporate-relations](https://github.com/dotnet-foundation/wg-corporate-relations) | 2 | 2021-07-29T12:27:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-code-plugin](https://github.com/danielrosehill/claude-code-plugin) | 1 | 2025-11-15T19:37:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bash-Aliases](https://github.com/danielrosehill/Claude-Code-Bash-Aliases) | 1 | 2025-11-09T16:29:44Z | Unknown | Unknown | 1 | 0 | 2 | 2 |
 | [IST-DASLab/nanochat-qat](https://github.com/IST-DASLab/nanochat-qat) | 1 | 2025-10-31T11:26:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

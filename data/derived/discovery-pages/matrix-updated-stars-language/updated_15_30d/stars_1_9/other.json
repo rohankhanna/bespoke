@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 34,
-    "terms": 109
+    "components": 115,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 33,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "aimeos/ai-monolog",
     "appsignal/appsignal-elixir-plug",
+    "atsushieno/aap-juce-simple-host",
     "beeware/beeware-docs-tools",
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "Blosc/blogsite",
-    "cgrindel/rules_swiftformat",
     "cosmos/security",
     "dotenvx/homebrew-brew",
     "fern-api/docs",
@@ -33,7 +33,6 @@
     "JeremyAnsel/SharpAssimp",
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
-    "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/rootfs-images",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",

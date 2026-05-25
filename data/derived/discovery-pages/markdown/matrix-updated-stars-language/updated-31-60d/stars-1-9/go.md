@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
-- terms: 80
+- repos: 29
+- terms: 73
 - components: 127
-- concepts: 79
-- observations: 79
+- concepts: 72
+- observations: 72
 
 ## Static behavior
 
@@ -55,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/cbt](https://github.com/ethpandaops/cbt) | 1 | 2026-04-01T12:16:29Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [archestra-ai/terraform-provider-archestra](https://github.com/archestra-ai/terraform-provider-archestra) | 7 | 2026-03-30T20:11:36Z | Go | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [cloudfoundry/bosh-aws-light-stemcell-builder](https://github.com/cloudfoundry/bosh-aws-light-stemcell-builder) | 4 | 2026-03-26T15:48:04Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [justinfx/olric-nats-plugin](https://github.com/justinfx/olric-nats-plugin) | 8 | 2026-03-25T20:22:13Z | Go | Service/API | 7 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -66,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [petmal/mindtrial](https://github.com/petmal/MindTrial) | 8 | 2026-04-17T16:26:12Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ksylvan/fabric](https://github.com/ksylvan/fabric) | 8 | 2026-04-17T03:25:25Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [aldernero/gaul](https://github.com/aldernero/gaul) | 8 | 2026-04-15T01:12:10Z | Go | Library | 0 | 0 | 0 | 0 |
-| [justinfx/olric-nats-plugin](https://github.com/justinfx/olric-nats-plugin) | 8 | 2026-03-25T20:22:13Z | Go | Service/API | 7 | 0 | 7 | 7 |
 | [ainvaltin/nu-plugin](https://github.com/ainvaltin/nu-plugin) | 7 | 2026-04-12T19:57:06Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [apache/dubbo-go-extensions](https://github.com/apache/dubbo-go-extensions) | 7 | 2026-04-12T11:39:45Z | Go | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [archestra-ai/terraform-provider-archestra](https://github.com/archestra-ai/terraform-provider-archestra) | 7 | 2026-03-30T20:11:36Z | Go | Infrastructure/tooling | 3 | 10 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
+- repos: 24
 - terms: 44
 - components: 134
 - concepts: 36
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -80,4 +79,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |

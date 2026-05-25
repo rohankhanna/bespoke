@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 165,
-    "observations": 165,
-    "repos": 40,
-    "terms": 160
+    "components": 172,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 38,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
-    "abh/geodns",
     "aquasecurity/tfsec",
+    "atotto/clipboard",
     "bazelbuild/buildtools",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
@@ -24,13 +24,11 @@
     "CloudyKit/jet",
     "coder/websocket",
     "coocood/freecache",
-    "dagger/container-use",
     "darccio/mergo",
     "ddworken/hishtory",
     "dghubble/sling",
     "dop251/goja",
     "duke-git/lancet",
-    "flashbots/mev-boost",
     "go-redis/redis_rate",
     "goccy/go-json",
     "golang/oauth2",

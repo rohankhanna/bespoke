@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 78
-- terms: 329
-- components: 479
-- concepts: 335
-- observations: 337
+- repos: 80
+- terms: 339
+- components: 500
+- concepts: 345
+- observations: 347
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sigstore/k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) | 87 | 2026-04-24T20:52:26Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [sigstore/helm-sigstore](https://github.com/sigstore/helm-sigstore) | 69 | 2026-04-24T20:09:45Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [aquasecurity/trivy-java-db](https://github.com/aquasecurity/trivy-java-db) | 41 | 2026-04-24T10:02:51Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [danielgtaylor/shorthand](https://github.com/danielgtaylor/shorthand) | 37 | 2026-04-24T01:28:24Z | Go | CLI | 5 | 3 | 6 | 6 |
 | [danielgtaylor/mexpr](https://github.com/danielgtaylor/mexpr) | 34 | 2026-04-24T00:16:39Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [ebitengine/debugui](https://github.com/ebitengine/debugui) | 96 | 2026-04-23T15:18:26Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -103,7 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scaleway/serverless-examples](https://github.com/scaleway/serverless-examples) | 64 | 2026-03-30T12:14:12Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [chrislusf/seaweedfs](https://github.com/chrislusf/seaweedfs) | 24 | 2026-03-28T00:03:22Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [depado/bfchroma](https://github.com/depado/bfchroma) | 62 | 2026-03-27T14:56:53Z | Go | Infrastructure/tooling | 4 | 1 | 6 | 6 |
-| [aws/aws-ebpf-sdk-go](https://github.com/aws/aws-ebpf-sdk-go) | 83 | 2026-03-25T21:52:53Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -116,16 +118,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
 | [kubernetes-sigs/apiserver-runtime](https://github.com/kubernetes-sigs/apiserver-runtime) | 92 | 2026-04-23T00:04:13Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [aws-controllers-k8s/code-generator](https://github.com/aws-controllers-k8s/code-generator) | 91 | 2026-04-22T18:11:35Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [sigstore/k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) | 87 | 2026-04-24T20:52:26Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [containers/container-libs](https://github.com/containers/container-libs) | 86 | 2026-04-22T09:45:19Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [abhinav/tmux-fastcopy](https://github.com/abhinav/tmux-fastcopy) | 86 | 2026-04-22T03:08:02Z | Go | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [quicksilver-zone/quicksilver](https://github.com/quicksilver-zone/quicksilver) | 86 | 2026-04-20T15:54:10Z | Go | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [aws/aws-ebpf-sdk-go](https://github.com/aws/aws-ebpf-sdk-go) | 83 | 2026-03-25T21:52:53Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [connectrpc/conformance](https://github.com/connectrpc/conformance) | 82 | 2026-04-20T17:17:30Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [MicahParks/jwkset](https://github.com/MicahParks/jwkset) | 81 | 2026-04-17T23:44:50Z | Go | CLI | 6 | 0 | 6 | 6 |
 | [usbarmory/armory-drive](https://github.com/usbarmory/armory-drive) | 79 | 2026-04-10T07:21:16Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [muhlba91/external-dns-provider-adguard](https://github.com/muhlba91/external-dns-provider-adguard) | 73 | 2026-04-22T18:53:55Z | Go | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [gopasspw/git-credential-gopass](https://github.com/gopasspw/git-credential-gopass) | 73 | 2026-04-20T17:00:44Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [opea-project/GenAIInfra](https://github.com/opea-project/GenAIInfra) | 73 | 2026-04-06T22:42:55Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [sigstore/helm-sigstore](https://github.com/sigstore/helm-sigstore) | 69 | 2026-04-24T20:09:45Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [aldernero/sketchy](https://github.com/aldernero/sketchy) | 69 | 2026-04-15T01:42:18Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [gopasspw/gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) | 69 | 2026-04-02T01:48:26Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [aws/aws-network-policy-agent](https://github.com/aws/aws-network-policy-agent) | 67 | 2026-04-22T21:07:37Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
@@ -141,6 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openshift/ci-tools](https://github.com/openshift/ci-tools) | 44 | 2026-04-23T14:39:26Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [notaryproject/notation-go](https://github.com/notaryproject/notation-go) | 44 | 2026-04-13T00:42:37Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [depado/smallblog](https://github.com/depado/smallblog) | 42 | 2026-04-17T00:13:47Z | Go | Infrastructure/tooling | 4 | 3 | 5 | 5 |
+| [aquasecurity/trivy-java-db](https://github.com/aquasecurity/trivy-java-db) | 41 | 2026-04-24T10:02:51Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [usbarmory/armory-boot](https://github.com/usbarmory/armory-boot) | 39 | 2026-04-10T07:20:42Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [Asterisk4Magisk/XrayHelper](https://github.com/Asterisk4Magisk/XrayHelper) | 38 | 2026-04-10T02:43:00Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [danielgtaylor/shorthand](https://github.com/danielgtaylor/shorthand) | 37 | 2026-04-24T01:28:24Z | Go | CLI | 5 | 3 | 6 | 6 |

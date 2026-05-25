@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 6,
-    "terms": 13
+    "components": 36,
+    "concepts": 14,
+    "observations": 15,
+    "repos": 7,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "datachainlab/cosmos-bsc-ibc-lcp",
     "DiligentGraphics/args",
     "glennhickey/red",
     "Saalvage/assimp",

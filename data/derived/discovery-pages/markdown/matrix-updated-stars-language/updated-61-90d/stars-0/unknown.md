@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
+- repos: 11
 - terms: 22
 - components: 50
 - concepts: 22
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) | 0 | 2026-03-25T12:10:49Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
@@ -38,6 +42,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) | 0 | 2026-03-25T12:10:49Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |

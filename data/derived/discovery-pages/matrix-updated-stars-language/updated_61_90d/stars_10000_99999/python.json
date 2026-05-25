@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 139,
-    "observations": 139,
-    "repos": 26,
-    "terms": 144
+    "components": 127,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 28,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
+    "allenai/olmocr",
     "chriskiehl/Gooey",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
@@ -23,6 +24,7 @@
     "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
     "Jiayi-Pan/TinyZero",
+    "karpathy/autoresearch",
     "KlingAIResearch/LivePortrait",
     "localstack/localstack",
     "PaddlePaddle/PaddleDetection",

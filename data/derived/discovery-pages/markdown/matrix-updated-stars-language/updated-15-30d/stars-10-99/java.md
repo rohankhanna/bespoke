@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 96
-- components: 116
-- concepts: 97
-- observations: 98
+- repos: 21
+- terms: 80
+- components: 87
+- concepts: 81
+- observations: 82
 
 ## Static behavior
 
@@ -47,10 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BerkleyTechnologyServices/restdocs-spec](https://github.com/BerkleyTechnologyServices/restdocs-spec) | 61 | 2026-04-27T10:09:27Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [jpmml/jpmml-r](https://github.com/jpmml/jpmml-r) | 35 | 2026-04-27T10:08:53Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [eclipse-shellwax/shellwax](https://github.com/eclipse-shellwax/shellwax) | 22 | 2026-04-27T08:11:57Z | Java | CLI | 2 | 4 | 3 | 3 |
-| [GoogleCloudPlatform/opentelemetry-operations-java](https://github.com/GoogleCloudPlatform/opentelemetry-operations-java) | 76 | 2026-04-24T20:11:20Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [mukel/gemma4.java](https://github.com/mukel/gemma4.java) | 58 | 2026-04-24T16:35:16Z | Java | Unknown | 7 | 0 | 7 | 7 |
-| [apache/ignite-extensions](https://github.com/apache/ignite-extensions) | 57 | 2026-04-24T12:11:09Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [hivemq/helm-charts](https://github.com/hivemq/helm-charts) | 27 | 2026-04-24T11:28:42Z | Java | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -62,17 +58,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [opensim-org/opensim-gui](https://github.com/opensim-org/opensim-gui) | 92 | 2026-04-28T20:02:24Z | Java | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [googleapis/java-bigtable](https://github.com/googleapis/java-bigtable) | 87 | 2026-04-29T03:14:00Z | Java | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [Accla/graphulo](https://github.com/Accla/graphulo) | 82 | 2026-04-30T19:15:30Z | Java | Library | 0 | 0 | 0 | 0 |
-| [GoogleCloudPlatform/opentelemetry-operations-java](https://github.com/GoogleCloudPlatform/opentelemetry-operations-java) | 76 | 2026-04-24T20:11:20Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [BerkleyTechnologyServices/restdocs-spec](https://github.com/BerkleyTechnologyServices/restdocs-spec) | 61 | 2026-04-27T10:09:27Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [mukel/gemma4.java](https://github.com/mukel/gemma4.java) | 58 | 2026-04-24T16:35:16Z | Java | Unknown | 7 | 0 | 7 | 7 |
-| [apache/ignite-extensions](https://github.com/apache/ignite-extensions) | 57 | 2026-04-24T12:11:09Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [heroku/heroku-jvm-application-deployer](https://github.com/heroku/heroku-jvm-application-deployer) | 56 | 2026-05-01T01:49:09Z | Java | CLI | 4 | 6 | 4 | 4 |
 | [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-05-06T14:22:30Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [googleapis/java-cloud-bom](https://github.com/googleapis/java-cloud-bom) | 45 | 2026-04-27T16:10:23Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [spiffe/java-spiffe](https://github.com/spiffe/java-spiffe) | 44 | 2026-04-28T21:53:31Z | Java | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [jcefmaven/jcefsampleapp](https://github.com/jcefmaven/jcefsampleapp) | 39 | 2026-05-05T07:08:44Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [jpmml/jpmml-r](https://github.com/jpmml/jpmml-r) | 35 | 2026-04-27T10:08:53Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [hivemq/helm-charts](https://github.com/hivemq/helm-charts) | 27 | 2026-04-24T11:28:42Z | Java | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [usdot-fhwa-stol/carma-cloud](https://github.com/usdot-fhwa-stol/carma-cloud) | 25 | 2026-04-29T23:52:57Z | Java | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [confluentinc/rest-utils](https://github.com/confluentinc/rest-utils) | 24 | 2026-04-30T03:05:46Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [edward3h/minecraft-webhook](https://github.com/edward3h/minecraft-webhook) | 24 | 2026-04-29T01:30:42Z | Java | Infrastructure/tooling | 4 | 4 | 4 | 5 |

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2937,
-    "concepts": 659,
-    "observations": 659,
-    "repos": 275,
+    "components": 2946,
+    "concepts": 660,
+    "observations": 660,
+    "repos": 276,
     "terms": 651
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -67,6 +67,7 @@
     "broccolijs/broccoli-merge-trees",
     "broccolijs/broccoli-persistent-filter",
     "brombal/just-install",
+    "bropines/Deeplx-vercel",
     "browserslist/browserslist-ga-export",
     "browserslist/map-to-chrome",
     "brunch/sass-brunch",
@@ -272,7 +273,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

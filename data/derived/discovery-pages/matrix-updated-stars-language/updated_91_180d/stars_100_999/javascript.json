@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 851,
+    "components": 832,
     "concepts": 115,
     "observations": 115,
-    "repos": 47,
+    "repos": 45,
     "terms": 115
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
     "attractivechaos/k8",
-    "bramstein/url-template",
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
     "dcoapp/app",
@@ -48,7 +47,6 @@
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
     "React9k/react-timeline-9000",
-    "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
     "rust-lang/lang-team",

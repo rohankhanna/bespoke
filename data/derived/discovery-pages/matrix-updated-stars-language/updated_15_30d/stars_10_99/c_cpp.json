@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 284,
-    "observations": 284,
-    "repos": 37,
-    "terms": 279
+    "components": 168,
+    "concepts": 266,
+    "observations": 266,
+    "repos": 35,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
-    "acts-project/traccc",
     "akruphi/far2l",
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
+    "atsushieno/aap-lv2",
     "atsushieno/uapmd",
     "BirolLab/btllib",
     "bmwiedemann/openSUSE",
@@ -30,7 +30,6 @@
     "gazebosim/gz-physics",
     "gazebosim/gz-rendering",
     "gazebosim/gz-tools",
-    "gazebosim/gz-transport",
     "hazelcast/hazelcast-cpp-client",
     "HDFGroup/hdf4",
     "heiher/hev-socks5-core",
@@ -44,7 +43,6 @@
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
     "oneapi-src/unified-memory-framework",
-    "ROCm/ROCgdb",
     "ROCm/rpp",
     "skeeto/dcmake",
     "walbourn/directxmathtest",

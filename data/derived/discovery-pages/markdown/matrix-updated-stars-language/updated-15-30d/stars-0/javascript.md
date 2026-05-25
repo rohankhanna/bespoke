@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 3
-- components: 62
-- concepts: 3
-- observations: 3
+- repos: 5
+- terms: 7
+- components: 92
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-eve-door](https://github.com/Luligu/matterbridge-eve-door) | 0 | 2026-05-11T05:36:08Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 | [aidenlab/spacewalk](https://github.com/aidenlab/spacewalk) | 0 | 2026-04-30T18:43:04Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [aidenlab/swtool](https://github.com/aidenlab/swtool) | 0 | 2026-04-30T18:08:34Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
@@ -35,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-eve-door](https://github.com/Luligu/matterbridge-eve-door) | 0 | 2026-05-11T05:36:08Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 | [aidenlab/spacewalk](https://github.com/aidenlab/spacewalk) | 0 | 2026-04-30T18:43:04Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [aidenlab/swtool](https://github.com/aidenlab/swtool) | 0 | 2026-04-30T18:08:34Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |

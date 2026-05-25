@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 76
-- terms: 801
-- components: 996
-- concepts: 807
-- observations: 809
+- repos: 73
+- terms: 762
+- components: 966
+- concepts: 768
+- observations: 770
 
 ## Static behavior
 
@@ -99,9 +99,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) | 10245 | 2026-04-27T04:28:55Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) | 12298 | 2026-04-26T01:03:17Z | Other | Docs/knowledge | 9 | 0 | 9 | 9 |
 | [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture) | 18150 | 2026-04-25T13:35:06Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
-| [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
-| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
-| [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -124,7 +121,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31504 | 2026-05-01T14:49:51Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31026 | 2026-04-30T16:11:14Z | Other | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | 30929 | 2026-04-30T07:44:03Z | Other | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
 | [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | 26852 | 2026-04-27T19:45:54Z | Other | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [koreader/koreader](https://github.com/koreader/koreader) | 26537 | 2026-04-30T07:51:51Z | Other | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) | 24582 | 2026-04-27T04:56:26Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -151,7 +147,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swiftlang/swift-evolution](https://github.com/swiftlang/swift-evolution) | 15828 | 2026-05-02T18:46:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [getlantern/lantern](https://github.com/getlantern/lantern) | 15479 | 2026-04-30T16:47:25Z | Other | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [getgrav/grav](https://github.com/getgrav/grav) | 15473 | 2026-04-30T21:52:31Z | Other | Infrastructure/tooling | 14 | 7 | 16 | 16 |
-| [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [phpstan/phpstan](https://github.com/phpstan/phpstan) | 13926 | 2026-05-03T17:44:47Z | Other | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) | 13738 | 2026-04-30T20:49:03Z | Other | Library | 3 | 0 | 3 | 3 |
 | [Blinue/Magpie](https://github.com/Blinue/Magpie) | 13695 | 2026-04-29T07:21:00Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
@@ -176,7 +171,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) | 10912 | 2026-04-27T22:55:44Z | Other | Model/data | 10 | 0 | 10 | 10 |
 | [bitcoin/bips](https://github.com/bitcoin/bips) | 10744 | 2026-04-27T15:01:58Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mdn/content](https://github.com/mdn/content) | 10729 | 2026-05-01T09:53:19Z | Other | Infrastructure/tooling | 12 | 38 | 12 | 12 |
-| [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10373 | 2026-05-04T12:06:32Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [bitnami/charts](https://github.com/bitnami/charts) | 10335 | 2026-05-02T01:39:09Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) | 10245 | 2026-04-27T04:28:55Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |

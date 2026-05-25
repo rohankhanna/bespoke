@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 210
-- components: 152
-- concepts: 207
-- observations: 209
+- repos: 40
+- terms: 212
+- components: 163
+- concepts: 212
+- observations: 214
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pypa/manylinux](https://github.com/pypa/manylinux) | 1738 | 2026-04-24T23:35:07Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | 5120 | 2026-04-24T07:54:17Z | Shell | CLI | 9 | 5 | 9 | 9 |
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [aurutils/aurutils](https://github.com/aurutils/aurutils) | 1039 | 2026-04-23T13:21:14Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
@@ -49,7 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [nix-community/nix-direnv](https://github.com/nix-community/nix-direnv) | 2624 | 2026-04-19T03:09:19Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [devcontainers/features](https://github.com/devcontainers/features) | 1435 | 2026-04-19T00:24:05Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6982 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6982 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 16 | 0 | 19 | 19 |
 | [pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) | 6731 | 2026-04-17T19:54:46Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9482 | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [bluesky-social/pds](https://github.com/bluesky-social/pds) | 2476 | 2026-04-15T08:59:45Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -73,7 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9482 | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 8735 | 2026-04-13T18:22:32Z | Shell | CLI | 9 | 14 | 0 | 0 |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
-| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6982 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6982 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 16 | 0 | 19 | 19 |
 | [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) | 6731 | 2026-04-17T19:54:46Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -95,9 +97,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trailofbits/claude-code-config](https://github.com/trailofbits/claude-code-config) | 1870 | 2026-04-02T09:26:12Z | Shell | CLI | 3 | 0 | 3 | 3 |
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |
+| [pypa/manylinux](https://github.com/pypa/manylinux) | 1738 | 2026-04-24T23:35:07Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [pacstall/pacstall](https://github.com/pacstall/pacstall) | 1608 | 2026-04-21T17:41:47Z | Shell | Infrastructure/tooling | 15 | 8 | 18 | 18 |
 | [docker-library/golang](https://github.com/docker-library/golang) | 1554 | 2026-04-20T04:42:31Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [alrra/dotfiles](https://github.com/alrra/dotfiles) | 1526 | 2026-04-20T04:01:41Z | Shell | Infrastructure/tooling | 6 | 1 | 8 | 10 |
+| [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [docker-library/docker](https://github.com/docker-library/docker) | 1442 | 2026-04-20T19:01:50Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [devcontainers/features](https://github.com/devcontainers/features) | 1435 | 2026-04-19T00:24:05Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [devcontainers/templates](https://github.com/devcontainers/templates) | 1383 | 2026-04-09T11:19:58Z | Shell | Infrastructure/tooling | 6 | 4 | 6 | 6 |

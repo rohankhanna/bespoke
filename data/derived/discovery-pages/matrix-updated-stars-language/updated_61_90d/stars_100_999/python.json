@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 283,
-    "concepts": 464,
-    "observations": 465,
+    "components": 291,
+    "concepts": 480,
+    "observations": 481,
     "repos": 112,
-    "terms": 459
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
+    "AGI-Arena/MARS",
     "aigc3d/LHM-plusplus",
+    "akoumjian/datefinder",
     "alexei-led/aws-mcp-server",
     "alibaba/TinyNeuralNetwork",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amaranth-lang/amaranth-boards",
     "amaranth-lang/amaranth-soc",
-    "AMD-AGI/Nitro-E",
     "angr/angrop",
     "araffin/sbx",
+    "astra-vision/MonoScene",
     "Blosc/python-blosc",
     "brentyi/jaxls",
     "BrianPugh/belay",
@@ -37,7 +39,6 @@
     "Chris-hughes10/pytorch-accelerated",
     "clearml/clearml-server",
     "clearml/clearml-serving",
-    "cleinc/bts",
     "conan-io/cmake-conan",
     "csslc/PiSA-SR",
     "DanceTrack/DanceTrack",
@@ -55,7 +56,6 @@
     "google/adk-python-community",
     "GuiWonder/Shanggu",
     "HazyResearch/zoology",
-    "Helsinki-NLP/Opus-MT",
     "heyoeyo/muggled_dpt",
     "hongyuanyu/SPAN",
     "huawei-noah/noah-research",

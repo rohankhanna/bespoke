@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
+- repos: 69
 - terms: 270
 - components: 76
 - concepts: 271
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [LemmyNet/lemmy-docs](https://github.com/LemmyNet/lemmy-docs) | 105 | 2026-04-25T04:27:52Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [adoptium/temurin21-binaries](https://github.com/adoptium/temurin21-binaries) | 143 | 2026-04-25T02:09:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bitrise-io/bitrise-steplib](https://github.com/bitrise-io/bitrise-steplib) | 164 | 2026-04-24T07:11:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cisagov/vulnrichment](https://github.com/cisagov/vulnrichment) | 757 | 2026-04-24T05:15:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eryajf/awesome-stars-eryajf](https://github.com/eryajf/awesome-stars-eryajf) | 175 | 2026-04-23T01:53:58Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -93,7 +95,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scott0107000/BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7) | 148 | 2026-03-30T06:53:56Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium) | 142 | 2026-03-30T04:55:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hagezi/dns-servers](https://github.com/hagezi/dns-servers) | 289 | 2026-03-26T23:20:26Z | Unknown | Infrastructure/tooling | 16 | 1 | 16 | 16 |
-| [apple/device-management](https://github.com/apple/device-management) | 907 | 2026-03-25T14:14:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -103,7 +104,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) | 972 | 2026-04-15T10:45:32Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [sedyh/awesome-ebitengine](https://github.com/sedyh/awesome-ebitengine) | 960 | 2026-04-13T18:39:21Z | Unknown | Framework | 7 | 0 | 7 | 7 |
 | [cloudflare/skills](https://github.com/cloudflare/skills) | 920 | 2026-04-16T12:56:33Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [apple/device-management](https://github.com/apple/device-management) | 907 | 2026-03-25T14:14:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ghimiresunil/Top-AI-Tools](https://github.com/ghimiresunil/Top-AI-Tools) | 893 | 2026-04-21T15:57:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 892 | 2026-04-14T11:33:44Z | Unknown | Unknown | 18 | 0 | 18 | 18 |
 | [emberjs/rfcs](https://github.com/emberjs/rfcs) | 802 | 2026-04-20T15:19:48Z | Unknown | CLI | 8 | 4 | 8 | 8 |
@@ -157,6 +157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eslint/rfcs](https://github.com/eslint/rfcs) | 151 | 2026-04-20T06:46:38Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [dotnet-foundation/projects](https://github.com/dotnet-foundation/projects) | 148 | 2026-04-15T19:24:11Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [scott0107000/BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7) | 148 | 2026-03-30T06:53:56Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [adoptium/temurin21-binaries](https://github.com/adoptium/temurin21-binaries) | 143 | 2026-04-25T02:09:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium) | 142 | 2026-03-30T04:55:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agamm/claude-code-owasp](https://github.com/agamm/claude-code-owasp) | 136 | 2026-04-05T02:59:02Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [nimbalyst/nimbalyst](https://github.com/Nimbalyst/nimbalyst) | 133 | 2026-04-17T16:52:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -164,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ietf-tools/.github](https://github.com/ietf-tools/.github) | 119 | 2026-04-17T01:47:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs-examples/helia-examples](https://github.com/ipfs-examples/helia-examples) | 114 | 2026-04-21T11:38:37Z | Unknown | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | 114 | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [LemmyNet/lemmy-docs](https://github.com/LemmyNet/lemmy-docs) | 105 | 2026-04-25T04:27:52Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [antonbabenko/awesome-terraform-compliance](https://github.com/antonbabenko/awesome-terraform-compliance) | 105 | 2026-04-22T06:44:04Z | Unknown | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [alchaincyf/feynman-skill](https://github.com/alchaincyf/feynman-skill) | 105 | 2026-04-10T02:28:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [web-platform-tests/rfcs](https://github.com/web-platform-tests/rfcs) | 103 | 2026-04-07T15:14:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

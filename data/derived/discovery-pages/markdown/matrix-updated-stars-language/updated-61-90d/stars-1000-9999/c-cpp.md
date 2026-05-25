@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 267
-- components: 153
-- concepts: 273
-- observations: 274
+- repos: 48
+- terms: 258
+- components: 143
+- concepts: 264
+- observations: 265
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) | 7912 | 2026-03-25T20:29:18Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [lltcggie/waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe) | 8221 | 2026-03-25T13:22:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) | 6664 | 2026-03-25T02:26:59Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [onnx/onnx-tensorrt](https://github.com/onnx/onnx-tensorrt) | 3205 | 2026-03-25T00:03:45Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [microsoft/GSL](https://github.com/microsoft/GSL) | 6669 | 2026-03-24T17:59:58Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -49,7 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lieff/minimp3](https://github.com/lieff/minimp3) | 1884 | 2026-03-12T19:47:55Z | C/C++ | Library | 13 | 0 | 13 | 13 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [nmoehrle/mvs-texturing](https://github.com/nmoehrle/mvs-texturing) | 1074 | 2026-03-11T18:53:37Z | C/C++ | Unknown | 1 | 0 | 2 | 2 |
-| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7656 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7661 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) | 5750 | 2026-03-10T01:18:18Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ioquake/ioq3](https://github.com/ioquake/ioq3) | 2735 | 2026-03-09T11:01:13Z | C/C++ | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -72,19 +74,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [hpjansson/chafa](https://github.com/hpjansson/chafa) | 4628 | 2026-02-25T16:05:51Z | C/C++ | CLI | 13 | 1 | 13 | 13 |
 | [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager) | 7164 | 2026-02-25T01:11:14Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | 3647 | 2026-02-24T01:27:10Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
-| [microsoft/onnxruntime-inference-examples](https://github.com/microsoft/onnxruntime-inference-examples) | 1634 | 2026-02-24T00:18:26Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [flashlight/flashlight](https://github.com/flashlight/flashlight) | 5440 | 2026-02-23T12:39:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [gperftools/gperftools](https://github.com/gperftools/gperftools) | 8942 | 2026-03-08T17:06:07Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [lltcggie/waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe) | 8221 | 2026-03-25T13:22:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [TechEmpower/FrameworkBenchmarks](https://github.com/TechEmpower/FrameworkBenchmarks) | 8111 | 2026-03-24T01:39:18Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) | 7912 | 2026-03-25T20:29:18Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) | 7755 | 2026-03-07T10:45:14Z | C/C++ | Infrastructure/tooling | 20 | 3 | 20 | 20 |
-| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7656 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7661 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager) | 7164 | 2026-02-25T01:11:14Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) | 7147 | 2026-03-03T17:03:44Z | C/C++ | Infrastructure/tooling | 9 | 10 | 10 | 10 |
 | [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) | 7101 | 2026-03-17T13:41:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -96,14 +97,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/snappy](https://github.com/google/snappy) | 6562 | 2026-03-06T22:30:42Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) | 5750 | 2026-03-10T01:18:18Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [flashlight/flashlight](https://github.com/flashlight/flashlight) | 5440 | 2026-02-23T12:39:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 4882 | 2026-03-07T03:06:52Z | C/C++ | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) | 4762 | 2026-03-05T16:22:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hpjansson/chafa](https://github.com/hpjansson/chafa) | 4628 | 2026-02-25T16:05:51Z | C/C++ | CLI | 13 | 1 | 13 | 13 |
 | [xlite-dev/lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit) | 4407 | 2026-03-19T02:59:30Z | C/C++ | Infrastructure/tooling | 13 | 1 | 13 | 13 |
 | [hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) | 3999 | 2026-03-08T15:40:36Z | C/C++ | Unknown | 9 | 0 | 10 | 10 |
 | [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | 3835 | 2026-03-01T18:09:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | 3647 | 2026-02-24T01:27:10Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [apache/singa](https://github.com/apache/singa) | 3604 | 2026-03-23T10:05:37Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 3442 | 2026-03-23T10:37:10Z | C/C++ | Infrastructure/tooling | 19 | 20 | 19 | 19 |
 | [akheron/jansson](https://github.com/akheron/jansson) | 3326 | 2026-03-01T16:43:13Z | C/C++ | Infrastructure/tooling | 2 | 4 | 3 | 3 |
@@ -123,7 +122,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [icecc/icecream](https://github.com/icecc/icecream) | 1790 | 2026-03-04T22:13:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [coin-or/Ipopt](https://github.com/coin-or/Ipopt) | 1742 | 2026-03-06T08:54:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [zardus/preeny](https://github.com/zardus/preeny) | 1647 | 2026-03-06T03:53:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [microsoft/onnxruntime-inference-examples](https://github.com/microsoft/onnxruntime-inference-examples) | 1634 | 2026-02-24T00:18:26Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen) | 1229 | 2026-03-05T15:06:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [alembic/alembic](https://github.com/alembic/alembic) | 1154 | 2026-03-20T23:54:10Z | C/C++ | CLI | 1 | 4 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2031,
-    "concepts": 1876,
-    "observations": 1882,
+    "components": 2033,
+    "concepts": 1885,
+    "observations": 1891,
     "repos": 826,
-    "terms": 1869
+    "terms": 1878
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -190,7 +190,6 @@
     "bshepherdson/athens-export",
     "bshoshany/OGRePy",
     "bsless/clj-decompiler.el",
-    "bsless/malli-keys-relations",
     "BuddiesOfBudgie/budgie-backgrounds",
     "buildbot/botherders",
     "bunysae/abap_db_preparator",
@@ -647,6 +646,7 @@
     "oxidizing/letters",
     "PacificBiosciences/barcoding",
     "PanJiaChen/PanJiaChen.github.io",
+    "patterns-ai-core/qdrant-ruby",
     "paulstarke/AnimationAuthoring",
     "pawel-wiejacha/tmux-picker",
     "perrutquist/StaticNumbers.jl",

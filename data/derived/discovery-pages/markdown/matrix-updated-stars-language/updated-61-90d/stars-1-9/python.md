@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 64
+- repos: 29
+- terms: 66
 - components: 70
-- concepts: 64
-- observations: 64
+- concepts: 66
+- observations: 66
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Mercury13/unicodia-sesh](https://github.com/Mercury13/unicodia-sesh) | 3 | 2026-03-23T13:21:58Z | Python | Unknown | 5 | 0 | 5 | 5 |
@@ -69,6 +70,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zkcrypto/rfcs](https://github.com/zkcrypto/rfcs) | 6 | 2026-03-11T10:03:08Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [conda-forge/cupy-feedstock](https://github.com/conda-forge/cupy-feedstock) | 5 | 2026-03-17T17:45:13Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [al1-nasir/Research_council](https://github.com/al1-nasir/Research_council) | 5 | 2026-03-10T15:49:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [openelections/openelections-data-sd](https://github.com/openelections/openelections-data-sd) | 4 | 2026-03-16T15:17:05Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [day50-dev/mcp-search-and-run](https://github.com/day50-dev/mcp-search-and-run) | 4 | 2026-03-09T11:02:26Z | Python | Unknown | 0 | 0 | 0 | 0 |

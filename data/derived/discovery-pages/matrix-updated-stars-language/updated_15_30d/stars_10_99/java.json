@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 25,
-    "terms": 96
+    "components": 87,
+    "concepts": 81,
+    "observations": 82,
+    "repos": 21,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Accla/graphulo",
-    "apache/ignite-extensions",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
@@ -26,13 +25,10 @@
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
-    "GoogleCloudPlatform/opentelemetry-operations-java",
     "heroku/heroku-jvm-application-deployer",
-    "hivemq/helm-charts",
     "jcefmaven/jcefsampleapp",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
-    "mukel/gemma4.java",
     "opensim-org/opensim-gui",
     "qdrant/java-client",
     "smithy-lang/smithy-examples",

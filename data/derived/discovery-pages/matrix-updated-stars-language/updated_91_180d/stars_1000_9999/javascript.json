@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 181,
-    "observations": 182,
-    "repos": 35,
-    "terms": 179
+    "components": 578,
+    "concepts": 184,
+    "observations": 185,
+    "repos": 37,
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
@@ -23,6 +23,7 @@
     "chakra-core/ChakraCore",
     "cristianbote/goober",
     "developit/microbundle",
+    "dwyl/learn-json-web-tokens",
     "facebook/fbjs",
     "fengari-lua/fengari",
     "file-icons/atom",
@@ -34,6 +35,7 @@
     "guybedford/es-module-shims",
     "gwudcap/cc-sessions",
     "huggingface/transformers.js-examples",
+    "istanbuljs/nyc",
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
     "jsx-eslint/eslint-plugin-jsx-a11y",

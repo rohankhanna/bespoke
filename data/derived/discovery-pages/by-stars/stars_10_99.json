@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28451,
-    "concepts": 15232,
-    "observations": 15284,
+    "components": 28460,
+    "concepts": 15230,
+    "observations": 15282,
     "repos": 5507,
-    "terms": 15233
+    "terms": 15229
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -282,7 +282,6 @@
     "ahaliassos/raven",
     "ahmadawais/base16-shades-of-purple",
     "ahmadnassri/node-glob-promise",
-    "ahmetb/ytdl",
     "ahonn/shadow-electron-starter",
     "ahrvoje/numerics",
     "ahumenberger/Z3.jl",
@@ -1119,6 +1118,7 @@
     "brody2consult/react-native-module-init",
     "brombal/just-install",
     "bromite/filters",
+    "bropines/Deeplx-vercel",
     "browniebroke/pypackage-template",
     "browser-use/benchmark",
     "BrowserJam/jam001",
@@ -1133,7 +1133,6 @@
     "bshepherdson/athens-export",
     "bshoshany/OGRePy",
     "bsless/clj-decompiler.el",
-    "bsless/malli-keys-relations",
     "bsorrentino/java-async-generator",
     "bspeice/dtparse",
     "btgraham/SparseConvNet",
@@ -1826,6 +1825,7 @@
     "DingXiaoH/Centripetal-SGD",
     "DingXiaoH/GSM-SGD",
     "dinosaure/blaze",
+    "Distributive-Network/pythonmonkey-examples",
     "diwakar-s-maurya/helm-git",
     "djblue/nrepl-cljs",
     "djcunningham0/multielo",
@@ -5156,7 +5156,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

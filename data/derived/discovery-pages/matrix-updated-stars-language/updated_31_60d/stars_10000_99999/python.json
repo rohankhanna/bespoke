@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1777,
-    "concepts": 1502,
-    "observations": 1506,
-    "repos": 161,
-    "terms": 1528
+    "components": 1838,
+    "concepts": 1524,
+    "observations": 1528,
+    "repos": 162,
+    "terms": 1550
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -25,7 +25,6 @@
     "akfamily/akshare",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
-    "allenai/olmocr",
     "ansible/ansible",
     "anthropics/claude-plugins-official",
     "apache/airflow",
@@ -73,6 +72,7 @@
     "Farama-Foundation/Gymnasium",
     "fishaudio/fish-speech",
     "FlagOpen/FlagEmbedding",
+    "fossasia/visdom",
     "GaiZhenbiao/ChuanhuChatGPT",
     "getsentry/sentry",
     "getzep/graphiti",
@@ -92,9 +92,10 @@
     "huggingface/diffusers",
     "huggingface/open-r1",
     "huggingface/peft",
+    "huggingface/smolagents",
     "infiniflow/ragflow",
+    "ipython/ipython",
     "k-dense-ai/scientific-agent-skills",
-    "karpathy/autoresearch",
     "karpathy/nanochat",
     "KittenML/KittenTTS",
     "kovidgoyal/kitty",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 153,
-    "concepts": 273,
-    "observations": 274,
-    "repos": 49,
-    "terms": 267
+    "components": 143,
+    "concepts": 264,
+    "observations": 265,
+    "repos": 48,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
@@ -31,8 +31,6 @@
     "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
-    "facebookresearch/habitat-sim",
-    "flashlight/flashlight",
     "google/snappy",
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
@@ -44,10 +42,11 @@
     "libgit2/rugged",
     "lieff/minimp3",
     "littlefs-project/littlefs",
+    "lltcggie/waifu2x-caffe",
     "microsoft/GSL",
-    "microsoft/onnxruntime-inference-examples",
     "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
+    "nodemcu/nodemcu-firmware",
     "NVIDIA/gdrcopy",
     "onnx/onnx-tensorrt",
     "redis/hiredis",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 693,
-    "concepts": 1478,
-    "observations": 1480,
-    "repos": 843,
-    "terms": 1458
+    "components": 698,
+    "concepts": 1490,
+    "observations": 1492,
+    "repos": 847,
+    "terms": 1468
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -308,6 +308,7 @@
     "DingXiaoH/AOFP",
     "DingXiaoH/Centripetal-SGD",
     "DingXiaoH/GSM-SGD",
+    "Distributive-Network/pythonmonkey-examples",
     "djcunningham0/multielo",
     "doc-doc/NExT-OE",
     "dogyoonlee/pointcloud_visualizer",
@@ -460,6 +461,7 @@
     "HumanBrainProject/neuroglancer-scripts",
     "iamogbz/nvshim",
     "IceClear/LDM-SRtuning",
+    "ichard26/diff-shades",
     "IDKiro/MCT",
     "IDLabMedia/blender-lightfield-addon",
     "IEIT-Yuan/YuanChat",
@@ -513,7 +515,9 @@
     "KaiyangZhou/on-device-dg",
     "kakaobrain/coyo-vit",
     "kamalkraj/Swin-Transformer-Serve",
+    "kandinskylab/kandinsky-5-lora-train",
     "kaste/SublimeLinter-any-lsp",
+    "katerinakazantseva/strainy",
     "keksiqc/ctrld-sync",
     "kendryte/canmv_examples",
     "kijai/ComfyUI-EasyAnimateWrapper",

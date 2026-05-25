@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1742,
-    "concepts": 370,
-    "observations": 372,
-    "repos": 64,
-    "terms": 370
+    "components": 1730,
+    "concepts": 363,
+    "observations": 365,
+    "repos": 63,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "1-Platform/op-components",
-    "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
     "aggre/ullr",
     "Airfooox/cron-validate",
@@ -38,9 +37,9 @@
     "iconify/tools",
     "intlify/cli",
     "intlify/vue-i18n-extensions",
+    "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "jakebailey/pyright-action",
-    "jakoch/install-vulkan-sdk-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",

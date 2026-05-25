@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 13,
-    "terms": 23
+    "components": 87,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 14,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "3swordman/tree-sitter-toon",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
     "AnshulGora/portfolio_template_v1",
     "ansible-community/presentations",
+    "athombv/com.athom.matter-bridge",
     "cpojer/js-codemod",
     "danielrosehill/My-Network-MCP",
     "hchiam/chat-app-fcc-react-redux",

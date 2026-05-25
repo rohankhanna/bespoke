@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4634,
-    "concepts": 972,
-    "observations": 976,
-    "repos": 85,
-    "terms": 970
+    "components": 4492,
+    "concepts": 920,
+    "observations": 924,
+    "repos": 80,
+    "terms": 918
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -36,7 +36,6 @@
     "continuedev/continue",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
-    "discordjs/discord.js",
     "ecomfe/vue-echarts",
     "electron-react-boilerplate/electron-react-boilerplate",
     "electron-userland/electron-builder",
@@ -44,7 +43,6 @@
     "faker-js/faker",
     "formatjs/formatjs",
     "GoogleChromeLabs/comlink",
-    "gvergnaud/ts-pattern",
     "invoke-ai/InvokeAI",
     "janhq/jan",
     "jhipster/generator-jhipster",
@@ -52,7 +50,6 @@
     "Kong/insomnia",
     "kysely-org/kysely",
     "lit/lit",
-    "louislam/dockge",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "marmelab/react-admin",
@@ -81,7 +78,6 @@
     "remix-run/remix",
     "remotion-dev/remotion",
     "scalar/scalar",
-    "sindresorhus/type-fest",
     "slidevjs/slidev",
     "solidjs/solid",
     "styled-components/styled-components",
@@ -97,7 +93,6 @@
     "web-infra-dev/midscene",
     "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
-    "withastro/astro",
-    "wojtekmaj/react-pdf"
+    "withastro/astro"
   ]
 }

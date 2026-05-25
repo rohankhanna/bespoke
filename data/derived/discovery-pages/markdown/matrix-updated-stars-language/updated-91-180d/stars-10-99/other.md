@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 117
-- terms: 286
-- components: 382
-- concepts: 287
-- observations: 288
+- repos: 116
+- terms: 277
+- components: 380
+- concepts: 278
+- observations: 279
 
 ## Static behavior
 
@@ -142,7 +142,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GunnarFarneback/LocalPackageServer.jl](https://github.com/GunnarFarneback/LocalPackageServer.jl) | 32 | 2025-11-27T19:42:06Z | Other | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [drowzy/protobuf_generate](https://github.com/drowzy/protobuf_generate) | 16 | 2025-11-27T11:06:15Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [terrierteam/pyterrier_doc2query](https://github.com/terrierteam/pyterrier_doc2query) | 39 | 2025-11-27T09:54:49Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -177,7 +176,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NorfairKing/feedback](https://github.com/NorfairKing/feedback) | 65 | 2025-12-03T10:16:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ligershark/WebOptimizer.Sass](https://github.com/ligershark/WebOptimizer.Sass) | 64 | 2026-01-18T19:45:38Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Rhoban/onshape-to-robot-examples](https://github.com/Rhoban/onshape-to-robot-examples) | 62 | 2026-02-02T20:30:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [gregorias/toggle.nvim](https://github.com/gregorias/toggle.nvim) | 56 | 2025-12-28T09:37:29Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [probe-lab/network-measurements](https://github.com/probe-lab/network-measurements) | 56 | 2025-12-12T06:36:51Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [auto-complete/fuzzy-el](https://github.com/auto-complete/fuzzy-el) | 55 | 2025-12-31T16:22:40Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 287,
-    "concepts": 362,
-    "observations": 362,
-    "repos": 66,
-    "terms": 357
+    "components": 296,
+    "concepts": 368,
+    "observations": 368,
+    "repos": 68,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
@@ -33,6 +33,8 @@
     "EKA2L1/EKA2L1",
     "emersion/slurp",
     "espressif/ESP8266_RTOS_SDK",
+    "facebookresearch/habitat-sim",
+    "flashlight/flashlight",
     "flashlight/wav2letter",
     "gflags/gflags",
     "github/cmark-gfm",
@@ -54,11 +56,11 @@
     "martinus/unordered_dense",
     "MaskRay/ccls",
     "memononen/nanovg",
+    "microsoft/onnxruntime-inference-examples",
     "MIT-SPARK/TEASER-plusplus",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "naelstrof/maim",
-    "nfrechette/acl",
     "NixOS/patchelf",
     "NVlabs/nvdiffrast",
     "Oneflow-Inc/oneflow",

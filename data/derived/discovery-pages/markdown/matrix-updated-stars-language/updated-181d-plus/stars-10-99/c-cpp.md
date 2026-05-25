@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -47,7 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pipecat-ai/pipecat-esp32](https://github.com/pipecat-ai/pipecat-esp32) | 99 | 2025-10-06T03:28:41Z | C/C++ | CLI | 2 | 3 | 2 | 2 |
 | [mathworks-robotics/mujoco-simulink-blockset](https://github.com/mathworks-robotics/mujoco-simulink-blockset) | 77 | 2025-10-05T04:16:28Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [arturbac/simple_enum](https://github.com/arturbac/simple_enum) | 42 | 2025-10-04T08:22:42Z | C/C++ | Infrastructure/tooling | 19 | 2 | 19 | 19 |
-| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 24 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 26 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [BurntSushi/rust-pcre2](https://github.com/BurntSushi/rust-pcre2) | 63 | 2025-09-25T18:28:14Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [deni2312/prisma-engine](https://github.com/deni2312/prisma-engine) | 51 | 2025-09-24T11:52:17Z | C/C++ | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [novnc/websockify-other](https://github.com/novnc/websockify-other) | 65 | 2025-09-24T11:41:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -523,6 +523,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [csukuangfj/kaldi_native_io](https://github.com/csukuangfj/kaldi_native_io) | 27 | 2025-01-09T05:39:15Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [dogtagpki/coolkey](https://github.com/dogtagpki/coolkey) | 27 | 2024-02-13T23:13:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kriszyp/lmdbx-js](https://github.com/kriszyp/lmdbx-js) | 27 | 2023-03-12T04:06:20Z | C/C++ | Infrastructure/tooling | 1 | 19 | 1 | 1 |
+| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 26 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [MC-117/BraneEngineDx](https://github.com/MC-117/BraneEngineDx) | 26 | 2025-08-30T09:24:09Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [erkyrath/remglk](https://github.com/erkyrath/remglk) | 26 | 2025-06-12T21:14:48Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [brj0/nndescent](https://github.com/brj0/nndescent) | 26 | 2024-07-29T07:45:01Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
@@ -531,7 +532,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [continuumio/blz](https://github.com/ContinuumIO/blz) | 25 | 2024-08-14T00:43:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ThisisBillhe/torch_quantizer](https://github.com/ThisisBillhe/torch_quantizer) | 25 | 2024-03-29T08:49:48Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [sewenew/tokenizer](https://github.com/sewenew/tokenizer) | 25 | 2023-12-07T14:24:08Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
-| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 24 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [FFTW/benchfft](https://github.com/FFTW/benchfft) | 24 | 2025-03-18T20:19:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libbitcoin/secp256k1](https://github.com/libbitcoin/secp256k1) | 24 | 2025-03-09T15:53:52Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [shadowsocks/libevent](https://github.com/shadowsocks/libevent) | 24 | 2024-08-20T18:42:25Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |

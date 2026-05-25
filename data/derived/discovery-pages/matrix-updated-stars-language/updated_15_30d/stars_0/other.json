@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 11,
-    "terms": 16
+    "components": 13,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 10,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "arnaud-lb/php-rdkafka-doc",
+    "atsushieno/aap-lv2-string-machine",
     "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
     "danielrosehill/Claude-HP5200-Skill-plugin",
     "danielrosehill/Responsible-Agent-Skill-Development",
@@ -22,8 +23,6 @@
     "HumanSignal/label-studio-client-generator",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
-    "netdur/imaged-sdk-examples",
-    "stable-haskell/haskell-language-server",
-    "Strivin0311/strivin0311.github.io"
+    "netdur/imaged-sdk-examples"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 158
-- components: 122
-- concepts: 161
-- observations: 161
+- repos: 28
+- terms: 149
+- components: 113
+- concepts: 152
+- observations: 152
 
 ## Static behavior
 
@@ -54,7 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotenvx/dotenvx.sh](https://github.com/dotenvx/dotenvx.sh) | 10 | 2026-04-27T15:52:28Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [postmodern/ruby-versions](https://github.com/postmodern/ruby-versions) | 77 | 2026-04-26T21:33:18Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tinted-theming/tinted-shell](https://github.com/tinted-theming/tinted-shell) | 82 | 2026-04-26T03:21:03Z | Shell | Infrastructure/tooling | 7 | 2 | 9 | 9 |
-| [acmesh-official/acmetest](https://github.com/acmesh-official/acmetest) | 48 | 2026-04-24T20:32:07Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -69,7 +68,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/heroku-buildpack-gradle](https://github.com/heroku/heroku-buildpack-gradle) | 63 | 2026-05-01T03:43:32Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [sclorg/s2i-ruby-container](https://github.com/sclorg/s2i-ruby-container) | 55 | 2026-05-01T17:59:18Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [stefantalpalaru/gentoo-overlay](https://github.com/stefantalpalaru/gentoo-overlay) | 52 | 2026-05-02T13:32:00Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [acmesh-official/acmetest](https://github.com/acmesh-official/acmetest) | 48 | 2026-04-24T20:32:07Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [tinted-theming/tinted-terminal](https://github.com/tinted-theming/tinted-terminal) | 44 | 2026-04-29T19:14:42Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [heroku/heroku-buildpack-jvm-common](https://github.com/heroku/heroku-buildpack-jvm-common) | 43 | 2026-05-01T22:44:08Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [helidon-io/helidon-examples](https://github.com/helidon-io/helidon-examples) | 35 | 2026-04-27T15:59:53Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |

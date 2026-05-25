@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13536 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13537 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13536 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
+| [browserslist/browserslist](https://github.com/browserslist/browserslist) | 13537 | 2026-05-15T10:08:04Z | JavaScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |

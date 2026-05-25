@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
+- repos: 35
 - terms: 114
 - components: 81
 - concepts: 114
@@ -61,7 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smuellerDD/acvpparser](https://github.com/smuellerDD/acvpparser) | 45 | 2026-02-28T11:53:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [COMBINE-lab/cuttlefish](https://github.com/COMBINE-lab/cuttlefish) | 92 | 2026-02-26T14:58:24Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [flatpak/flatpak-xdg-utils](https://github.com/flatpak/flatpak-xdg-utils) | 40 | 2026-02-25T17:11:58Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [fmtlib/format-benchmark](https://github.com/fmtlib/format-benchmark) | 54 | 2026-02-23T16:35:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -86,7 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [midi2-dev/ni-midi2](https://github.com/midi2-dev/ni-midi2) | 57 | 2026-03-24T11:22:34Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [undreamai/LlamaLib](https://github.com/undreamai/LlamaLib) | 57 | 2026-03-08T21:18:45Z | C/C++ | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [engineai-robotics/engineai_ros2_workspace](https://github.com/engineai-robotics/engineai_ros2_workspace) | 56 | 2026-03-05T02:38:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [fmtlib/format-benchmark](https://github.com/fmtlib/format-benchmark) | 54 | 2026-02-23T16:35:35Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mesh-iit/creo2urdf](https://github.com/mesh-iit/creo2urdf) | 52 | 2026-03-10T08:32:03Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [farm-ng/farm-ng-core](https://github.com/farm-ng/farm-ng-core) | 49 | 2026-03-13T21:07:41Z | C/C++ | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [VeriSilicon/tflite-vx-delegate](https://github.com/VeriSilicon/tflite-vx-delegate) | 48 | 2026-03-12T11:55:54Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |

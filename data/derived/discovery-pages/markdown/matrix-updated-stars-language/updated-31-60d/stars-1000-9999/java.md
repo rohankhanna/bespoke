@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 321
-- components: 285
-- concepts: 321
-- observations: 323
+- repos: 43
+- terms: 334
+- components: 298
+- concepts: 334
+- observations: 336
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [FasterXML/jackson-annotations](https://github.com/FasterXML/jackson-annotations) | 1062 | 2026-04-24T20:16:38Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager) | 2685 | 2026-04-24T15:17:19Z | Java | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [apache/pdfbox](https://github.com/apache/pdfbox) | 3049 | 2026-04-24T06:19:35Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [agents-flex/agents-flex](https://github.com/agents-flex/agents-flex) | 1031 | 2026-04-24T05:48:16Z | Java | Framework | 6 | 0 | 6 | 6 |
 | [besu-eth/besu](https://github.com/besu-eth/besu) | 1800 | 2026-04-23T23:40:06Z | Java | CLI | 12 | 13 | 12 | 12 |
@@ -92,6 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [soot-oss/soot](https://github.com/soot-oss/soot) | 3076 | 2026-04-21T09:03:16Z | Java | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [apache/pdfbox](https://github.com/apache/pdfbox) | 3049 | 2026-04-24T06:19:35Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [apache/netbeans](https://github.com/apache/netbeans) | 3046 | 2026-04-23T10:43:45Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 9 |
+| [bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager) | 2685 | 2026-04-24T15:17:19Z | Java | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [openjdk/jmh](https://github.com/openjdk/jmh) | 2622 | 2026-03-30T14:40:53Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [spring-ai-alibaba/examples](https://github.com/spring-ai-alibaba/examples) | 2613 | 2026-04-21T14:44:17Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [http-kit/http-kit](https://github.com/http-kit/http-kit) | 2572 | 2026-04-08T10:03:52Z | Java | CLI | 7 | 5 | 7 | 7 |
@@ -112,4 +115,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bobbylight/RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea) | 1236 | 2026-03-30T19:36:23Z | Java | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs) | 1182 | 2026-04-08T17:02:53Z | Java | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [codelibs/fess](https://github.com/codelibs/fess) | 1107 | 2026-04-21T13:20:34Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [FasterXML/jackson-annotations](https://github.com/FasterXML/jackson-annotations) | 1062 | 2026-04-24T20:16:38Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [agents-flex/agents-flex](https://github.com/agents-flex/agents-flex) | 1031 | 2026-04-24T05:48:16Z | Java | Framework | 6 | 0 | 6 | 6 |

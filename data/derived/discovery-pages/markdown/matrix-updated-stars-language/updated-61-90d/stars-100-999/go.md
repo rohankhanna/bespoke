@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 32
-- terms: 173
-- components: 176
-- concepts: 173
-- observations: 173
+- terms: 171
+- components: 170
+- concepts: 171
+- observations: 171
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [minio/directpv](https://github.com/minio/directpv) | 701 | 2026-03-25T18:26:40Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [gpustack/gguf-parser-go](https://github.com/gpustack/gguf-parser-go) | 265 | 2026-03-25T02:02:24Z | Go | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [kubernetes-sigs/hydrophone](https://github.com/kubernetes-sigs/hydrophone) | 116 | 2026-03-22T18:34:14Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | 376 | 2026-03-21T16:57:57Z | Go | Infrastructure/tooling | 12 | 11 | 12 | 12 |
@@ -57,7 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Antonboom/testifylint](https://github.com/Antonboom/testifylint) | 164 | 2026-03-01T09:04:07Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [alexkohler/prealloc](https://github.com/alexkohler/prealloc) | 664 | 2026-02-26T22:09:13Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [omniscale/imposm3](https://github.com/omniscale/imposm3) | 772 | 2026-02-25T08:49:11Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -68,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [omniscale/imposm3](https://github.com/omniscale/imposm3) | 772 | 2026-02-25T08:49:11Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [kubernetes-sigs/cluster-proportional-autoscaler](https://github.com/kubernetes-sigs/cluster-proportional-autoscaler) | 748 | 2026-03-19T01:07:29Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [hashicorp/raft-boltdb](https://github.com/hashicorp/raft-boltdb) | 705 | 2026-03-13T08:40:26Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [minio/directpv](https://github.com/minio/directpv) | 701 | 2026-03-25T18:26:40Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [alexkohler/prealloc](https://github.com/alexkohler/prealloc) | 664 | 2026-02-26T22:09:13Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [withastro/compiler](https://github.com/withastro/compiler) | 647 | 2026-03-16T14:49:05Z | Go | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [box-cli-maker/box-cli-maker](https://github.com/box-cli-maker/box-cli-maker) | 631 | 2026-03-03T09:15:54Z | Go | CLI | 4 | 3 | 4 | 4 |
@@ -83,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 301 | 2026-03-21T05:32:18Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [gpustack/gguf-parser-go](https://github.com/gpustack/gguf-parser-go) | 265 | 2026-03-25T02:02:24Z | Go | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [itzg/rcon-cli](https://github.com/itzg/rcon-cli) | 215 | 2026-03-12T21:03:03Z | Go | CLI | 5 | 3 | 5 | 5 |
-| [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [aws/aws-xray-daemon](https://github.com/aws/aws-xray-daemon) | 195 | 2026-03-20T16:40:15Z | Go | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [cedar-policy/cedar-go](https://github.com/cedar-policy/cedar-go) | 191 | 2026-03-20T17:39:06Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [secretflow/scql](https://github.com/secretflow/scql) | 180 | 2026-03-18T07:52:18Z | Go | Infrastructure/tooling | 14 | 13 | 14 | 14 |

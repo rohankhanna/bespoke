@@ -3,7 +3,7 @@
     "components": 134,
     "concepts": 36,
     "observations": 36,
-    "repos": 25,
+    "repos": 24,
     "terms": 44
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/botan-rs",
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
-    "beurdouche/nss-gk-api",
     "databendlabs/databend-base",
     "datafuse-extras/dtparse",
     "datafuse-extras/lance",

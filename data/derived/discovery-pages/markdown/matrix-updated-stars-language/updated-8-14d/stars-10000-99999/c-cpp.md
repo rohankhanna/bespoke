@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 21
+- repos: 1
+- terms: 19
 - components: 17
-- concepts: 21
-- observations: 21
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 72446 | 2026-05-14T01:22:20Z | C/C++ | Infrastructure/tooling | 19 | 17 | 19 | 19 |
-| [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 72446 | 2026-05-14T01:22:20Z | C/C++ | Infrastructure/tooling | 19 | 17 | 19 | 19 |
-| [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |

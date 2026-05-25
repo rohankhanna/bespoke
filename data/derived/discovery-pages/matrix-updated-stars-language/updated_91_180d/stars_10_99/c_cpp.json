@@ -3,7 +3,7 @@
     "components": 131,
     "concepts": 138,
     "observations": 140,
-    "repos": 46,
+    "repos": 47,
     "terms": 135
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "a-n-t-h-o-n-y/signals-light",
@@ -30,6 +30,7 @@
     "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
+    "fmtlib/format-benchmark",
     "FourierTransformer/lua-simdjson",
     "free-audio/clap-host",
     "graalvm/polyglot-embedding-demo",

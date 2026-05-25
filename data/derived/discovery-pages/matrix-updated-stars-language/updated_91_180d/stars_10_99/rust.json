@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 141,
-    "observations": 144,
-    "repos": 55,
-    "terms": 139
+    "components": 220,
+    "concepts": 142,
+    "observations": 145,
+    "repos": 57,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -28,6 +28,7 @@
     "ClickHouse/ch2rs",
     "cosmos/ibc-proto-rs",
     "CosmWasm/cw-minus",
+    "CosmWasm/cw-storage-plus",
     "cpmech/plotpy",
     "Cykooz/libheif-sys",
     "databendlabs/opensrv",
@@ -55,6 +56,7 @@
     "LuisaGroup/luisa-compute-rs",
     "MaterializeInc/rust-postgres",
     "microsoft/LinuxTracepoints-Rust",
+    "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",
     "ros2-rust/examples",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 85
-- terms: 768
-- components: 596
-- concepts: 770
-- observations: 773
+- repos: 86
+- terms: 785
+- components: 607
+- concepts: 787
+- observations: 790
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [grpc/grpc](https://github.com/grpc/grpc) | 44665 | 2026-04-24T08:03:06Z | C/C++ | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 23850 | 2026-04-24T07:38:24Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [microsoft/STL](https://github.com/microsoft/STL) | 11028 | 2026-04-24T07:37:25Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -180,6 +181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ninja-build/ninja](https://github.com/ninja-build/ninja) | 12895 | 2026-04-12T16:45:24Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [microsoft/mimalloc](https://github.com/microsoft/mimalloc) | 12742 | 2026-04-23T18:55:11Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [deepseek-ai/FlashMLA](https://github.com/deepseek-ai/FlashMLA) | 12560 | 2026-04-07T03:02:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [google/sanitizers](https://github.com/google/sanitizers) | 12361 | 2026-04-08T16:22:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 11943 | 2026-04-23T20:46:21Z | C/C++ | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [libevent/libevent](https://github.com/libevent/libevent) | 11884 | 2026-04-01T18:03:27Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |

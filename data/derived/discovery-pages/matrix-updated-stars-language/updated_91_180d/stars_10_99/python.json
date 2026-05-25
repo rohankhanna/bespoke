@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 223,
-    "observations": 224,
-    "repos": 102,
-    "terms": 231
+    "components": 196,
+    "concepts": 216,
+    "observations": 217,
+    "repos": 100,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -57,7 +57,6 @@
     "heimoshuiyu/whisper-fastapi",
     "HuajianUP/360Loc",
     "huggingface/image_gen_aux",
-    "ichard26/diff-shades",
     "icppWorld/icgpt",
     "inducer/genpy",
     "InteractiveComputerGraphics/blender-sequence-loader",
@@ -72,8 +71,6 @@
     "jin-s13/xtcocoapi",
     "jsonquerylang/jsonquery-python",
     "Justintime50/homebrew-releaser",
-    "kandinskylab/kandinsky-5-lora-train",
-    "katerinakazantseva/strainy",
     "layumi/3D-Magic-Mirror",
     "Lizw14/Super-CLEVR",
     "lmgame-org/GRL",
@@ -102,6 +99,7 @@
     "SLDGroup/MERIT",
     "SLDGroup/MK-UNet",
     "ssitu/ComfyUI_restart_sampling",
+    "sympy/sympy-bot",
     "TencentYoutuResearch/APTBench",
     "TencentYoutuResearch/SPEAR",
     "thunlp/BlockFFN",

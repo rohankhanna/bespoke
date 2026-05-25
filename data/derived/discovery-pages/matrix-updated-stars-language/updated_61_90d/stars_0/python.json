@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 18,
     "observations": 18,
-    "repos": 9,
+    "repos": 10,
     "terms": 18
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
+    "adammes/voyanode",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "danielJL-altius/israelgrocerymcp",

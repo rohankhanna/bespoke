@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2596,
-    "concepts": 441,
-    "observations": 442,
-    "repos": 64,
-    "terms": 438
+    "components": 2530,
+    "concepts": 424,
+    "observations": 425,
+    "repos": 60,
+    "terms": 422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -22,13 +22,11 @@
     "carbon-design-system/carbon",
     "chaijs/chai",
     "dotenvx/dotenvx",
-    "flow-typed/flow-typed",
     "ghostery/ghostery-extension",
     "google/docsy",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
-    "i18next/i18next",
     "i18next/react-i18next",
     "import-js/eslint-plugin-import",
     "ipfs/ipfs-companion",
@@ -49,7 +47,6 @@
     "MikeMcl/bignumber.js",
     "mozilla/rhino",
     "mozilla/web-ext",
-    "NickColley/jest-axe",
     "nodeca/js-yaml",
     "nodejs/Release",
     "observing/pre-commit",
@@ -76,7 +73,6 @@
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",
     "webpack/webpack-dev-server",
-    "xiangyuecn/Recorder",
-    "yahoo/serialize-javascript"
+    "xiangyuecn/Recorder"
   ]
 }

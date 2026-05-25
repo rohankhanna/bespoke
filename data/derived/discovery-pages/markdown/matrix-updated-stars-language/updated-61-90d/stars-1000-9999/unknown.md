@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
+- repos: 11
 - terms: 29
-- components: 5
+- components: 1
 - concepts: 29
 - observations: 29
 
@@ -37,7 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [akuity/awesome-argo](https://github.com/akuity/awesome-argo) | 2423 | 2026-02-28T03:02:12Z | Unknown | Infrastructure/tooling | 20 | 0 | 20 | 20 |
 | [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) | 6196 | 2026-02-26T14:29:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [orogene/orogene](https://github.com/orogene/orogene) | 1542 | 2026-02-26T03:53:25Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [obsidianmd/obsidian-api](https://github.com/obsidianmd/obsidian-api) | 2201 | 2026-02-23T22:38:14Z | Unknown | Service/API | 0 | 4 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -49,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker/for-mac](https://github.com/docker/for-mac) | 2529 | 2026-03-02T10:46:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [akuity/awesome-argo](https://github.com/akuity/awesome-argo) | 2423 | 2026-02-28T03:02:12Z | Unknown | Infrastructure/tooling | 20 | 0 | 20 | 20 |
 | [android/ndk](https://github.com/android/ndk) | 2287 | 2026-03-12T20:33:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [obsidianmd/obsidian-api](https://github.com/obsidianmd/obsidian-api) | 2201 | 2026-02-23T22:38:14Z | Unknown | Service/API | 0 | 4 | 0 | 0 |
 | [microsoft/vscode-ai-toolkit](https://github.com/microsoft/vscode-ai-toolkit) | 1958 | 2026-03-24T08:24:41Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [lxgw/LxgwWenKai-Screen](https://github.com/lxgw/LxgwWenKai-Screen) | 1956 | 2026-03-18T16:41:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tmux-plugins/list](https://github.com/tmux-plugins/list) | 1889 | 2026-03-04T08:34:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

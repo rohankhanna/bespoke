@@ -3,7 +3,7 @@
     "components": 1253,
     "concepts": 532,
     "observations": 534,
-    "repos": 437,
+    "repos": 439,
     "terms": 532
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "2KAbhishek/exercism-fetcher",
@@ -144,6 +144,7 @@
     "danielrosehill/Careers-Utilities-System-Prompts",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
     "danielrosehill/Claude-Linux-Desktop-Manager",
+    "danielrosehill/Claude-Rescue",
     "danielrosehill/Context-Chunker-Assistant",
     "danielrosehill/Context-Cruncher",
     "danielrosehill/Docs-Grabber",
@@ -316,6 +317,7 @@
     "liyuanlucasliu/fairseq",
     "lnx-search/memmap2-rs",
     "ltt1598/voxel-challenge",
+    "LuminalOSS/credstash",
     "luolin101/Visual-SWE-bench",
     "luoyily/Eel",
     "m4rc1e/test-ufr-family",

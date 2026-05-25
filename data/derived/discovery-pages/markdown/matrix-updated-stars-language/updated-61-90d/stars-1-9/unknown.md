@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
+- repos: 23
 - terms: 33
-- components: 42
+- components: 48
 - concepts: 33
 - observations: 33
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-TTS-Providers](https://github.com/danielrosehill/Hebrew-TTS-Providers) | 1 | 2026-03-22T11:48:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -56,13 +59,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [awni/picochat](https://github.com/awni/picochat) | 7 | 2026-03-06T14:14:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alexpolonsky/awesome-agent-skills-israel](https://github.com/alexpolonsky/awesome-agent-skills-israel) | 7 | 2026-02-26T18:04:19Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [adobe-type-tools/Adobe-Manga1](https://github.com/adobe-type-tools/Adobe-Manga1) | 6 | 2026-03-07T22:58:57Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [10up/.github](https://github.com/10up/.github) | 4 | 2026-03-10T14:57:49Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [0x676e67/0x676e67](https://github.com/0x676e67/0x676e67) | 4 | 2026-03-05T07:18:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adonisjs/.github](https://github.com/adonisjs/.github) | 4 | 2026-03-03T07:18:54Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [alexpolonsky/agent-skills](https://github.com/alexpolonsky/agent-skills) | 4 | 2026-02-26T18:04:18Z | Unknown | Library | 6 | 0 | 6 | 6 |
 | [cncf/k8s-conformance-archive](https://github.com/cncf/k8s-conformance-archive) | 3 | 2026-03-09T18:25:57Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 2 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-TTS-Providers](https://github.com/danielrosehill/Hebrew-TTS-Providers) | 1 | 2026-03-22T11:48:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/modin-feedstock](https://github.com/conda-forge/modin-feedstock) | 1 | 2026-03-16T17:40:55Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |

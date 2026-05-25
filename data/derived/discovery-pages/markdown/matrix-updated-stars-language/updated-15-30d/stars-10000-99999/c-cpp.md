@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 50
-- terms: 559
-- components: 455
-- concepts: 562
-- observations: 563
+- terms: 544
+- components: 444
+- concepts: 547
+- observations: 548
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [blender/blender](https://github.com/blender/blender) | 18346 | 2026-05-09T12:40:46Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | 13350 | 2026-05-05T19:36:36Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [jqlang/jq](https://github.com/jqlang/jq) | 34624 | 2026-05-05T13:48:30Z | C/C++ | Infrastructure/tooling | 6 | 14 | 6 | 6 |
@@ -75,7 +76,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swaywm/sway](https://github.com/swaywm/sway) | 16854 | 2026-04-26T14:35:50Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [asmvik/yabai](https://github.com/asmvik/yabai) | 28766 | 2026-04-26T13:41:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [davisking/dlib](https://github.com/davisking/dlib) | 14372 | 2026-04-25T16:13:49Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
-| [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -114,7 +114,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | 13350 | 2026-05-05T19:36:36Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [capnproto/capnproto](https://github.com/capnproto/capnproto) | 13009 | 2026-05-01T23:28:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [assimp/assimp](https://github.com/assimp/assimp) | 12905 | 2026-04-30T20:25:10Z | C/C++ | Infrastructure/tooling | 16 | 19 | 16 | 16 |
-| [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
+| [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) | 12236 | 2026-04-28T13:16:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Z3Prover/z3](https://github.com/Z3Prover/z3) | 12216 | 2026-05-04T23:33:21Z | C/C++ | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | 11949 | 2026-04-28T15:37:43Z | C/C++ | CLI | 23 | 8 | 23 | 24 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 191,
-    "observations": 192,
-    "repos": 34,
-    "terms": 191
+    "components": 238,
+    "concepts": 168,
+    "observations": 169,
+    "repos": 31,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -21,18 +21,15 @@
     "apache/datafusion-ballista-python",
     "apify/actor-templates",
     "atsushieno/aap-juce",
-    "atsushieno/aap-lv2",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
-    "FreneticLLC/FreneticGameEngine",
     "g-plane/raffia",
     "geocompx/docker",
     "google-research/mseb",
     "goombalab/raven",
-    "ipdxco/github-as-code",
     "kurrent-io/KurrentDB-Client-Rust",
     "microsoft/openjdk-docker",
     "microsoft/openjdk-jdk11u",

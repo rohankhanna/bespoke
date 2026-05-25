@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1196,
+    "components": 1220,
     "concepts": 192,
     "observations": 192,
-    "repos": 43,
+    "repos": 44,
     "terms": 191
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -33,6 +33,7 @@
     "hyperbrew/bolt-cep",
     "janwilmake/openapi-mcp-server",
     "jsonquerylang/jsonquery",
+    "kamranahmedse/claude-run",
     "kepano/obsidian-hider",
     "kutsan/stylelint-config-clean-order",
     "LeDDGroup/typescript-transform-paths",

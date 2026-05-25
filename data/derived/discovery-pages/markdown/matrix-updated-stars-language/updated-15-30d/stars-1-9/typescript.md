@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 152
-- components: 463
-- concepts: 152
-- observations: 152
+- repos: 22
+- terms: 145
+- components: 423
+- concepts: 145
+- observations: 145
 
 ## Static behavior
 
@@ -48,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haskell-actions/hlint-run](https://github.com/haskell-actions/hlint-run) | 4 | 2026-04-27T13:47:10Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [haskell-actions/hlint-setup](https://github.com/haskell-actions/hlint-setup) | 2 | 2026-04-27T13:34:11Z | TypeScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [oclif/plugin-search](https://github.com/oclif/plugin-search) | 4 | 2026-04-26T07:11:23Z | TypeScript | Infrastructure/tooling | 7 | 36 | 7 | 7 |
-| [oclif/plugin-commands](https://github.com/oclif/plugin-commands) | 9 | 2026-04-25T05:00:13Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -56,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ecyrbe/zodios-plugins](https://github.com/ecyrbe/zodios-plugins) | 9 | 2026-04-29T11:58:15Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [breferrari/shardmind](https://github.com/breferrari/shardmind) | 9 | 2026-04-28T08:36:03Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [oclif/plugin-commands](https://github.com/oclif/plugin-commands) | 9 | 2026-04-25T05:00:13Z | TypeScript | Infrastructure/tooling | 7 | 40 | 7 | 7 |
 | [fluent-vue/unplugin-fluent-vue](https://github.com/fluent-vue/unplugin-fluent-vue) | 8 | 2026-05-02T21:13:01Z | TypeScript | Infrastructure/tooling | 8 | 30 | 8 | 8 |
 | [anolilab/unplugin-favicons](https://github.com/anolilab/unplugin-favicons) | 8 | 2026-04-30T19:33:36Z | TypeScript | Infrastructure/tooling | 26 | 91 | 26 | 26 |
 | [oclif/plugin-version](https://github.com/oclif/plugin-version) | 7 | 2026-05-02T09:43:40Z | TypeScript | CLI | 7 | 34 | 7 | 7 |

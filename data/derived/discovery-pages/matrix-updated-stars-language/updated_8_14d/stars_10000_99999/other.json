@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 2,
-    "terms": 23
+    "components": 15,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 3,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "dense-analysis/ale",
     "JetBrains/compose-multiplatform",
     "neovim/nvim-lspconfig"
   ]

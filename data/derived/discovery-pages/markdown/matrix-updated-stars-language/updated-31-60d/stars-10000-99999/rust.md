@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 480
-- components: 830
-- concepts: 486
-- observations: 487
+- repos: 52
+- terms: 486
+- components: 840
+- concepts: 492
+- observations: 493
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 26143 | 2026-04-24T09:17:34Z | Rust | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [microsoft/windows-rs](https://github.com/microsoft/windows-rs) | 12128 | 2026-04-24T04:33:01Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [nearai/ironclaw](https://github.com/nearai/ironclaw) | 11944 | 2026-04-23T21:55:32Z | Rust | Infrastructure/tooling | 7 | 17 | 7 | 7 |
@@ -91,6 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [starship/starship](https://github.com/starship/starship) | 56783 | 2026-04-22T20:12:05Z | Rust | Infrastructure/tooling | 17 | 22 | 19 | 19 |
 | [typst/typst](https://github.com/typst/typst) | 52949 | 2026-04-22T12:41:50Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [bevyengine/bevy](https://github.com/bevyengine/bevy) | 45691 | 2026-04-22T05:03:26Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [sharkdp/fd](https://github.com/sharkdp/fd) | 42640 | 2026-04-21T02:19:57Z | Rust | CLI | 9 | 7 | 9 | 9 |
 | [servo/servo](https://github.com/servo/servo) | 36515 | 2026-04-23T06:38:32Z | Rust | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | 35984 | 2026-04-13T19:40:38Z | Rust | CLI | 17 | 14 | 20 | 20 |

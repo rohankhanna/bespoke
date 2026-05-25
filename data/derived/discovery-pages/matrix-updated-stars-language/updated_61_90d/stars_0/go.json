@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2,
+    "components": 5,
     "concepts": 1,
     "observations": 1,
-    "repos": 4,
+    "repos": 5,
     "terms": 1
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "datachainlab/ibc-parlia-relay",
     "DataDog/go-cmp",
     "kdubbo/api",
     "onomojo/i18n-country-translations-go",

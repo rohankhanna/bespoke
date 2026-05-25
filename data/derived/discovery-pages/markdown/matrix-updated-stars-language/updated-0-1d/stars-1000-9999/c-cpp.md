@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 40
-- components: 64
-- concepts: 40
-- observations: 40
+- terms: 26
+- components: 20
+- concepts: 26
+- observations: 26
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4484 | 2026-05-23T23:47:52Z | C/C++ | Infrastructure/tooling | 13 | 27 | 13 | 13 |
-| [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1817 | 2026-05-23T20:14:29Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1257 | 2026-05-23T10:51:07Z | C/C++ | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2632 | 2026-05-24T14:52:26Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1259 | 2026-05-24T12:07:12Z | C/C++ | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1273 | 2026-05-24T08:25:27Z | C/C++ | Library | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4484 | 2026-05-23T23:47:52Z | C/C++ | Infrastructure/tooling | 13 | 27 | 13 | 13 |
-| [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1817 | 2026-05-23T20:14:29Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1257 | 2026-05-23T10:51:07Z | C/C++ | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2632 | 2026-05-24T14:52:26Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1273 | 2026-05-24T08:25:27Z | C/C++ | Library | 5 | 0 | 5 | 5 |
+| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1259 | 2026-05-24T12:07:12Z | C/C++ | Infrastructure/tooling | 10 | 13 | 10 | 10 |

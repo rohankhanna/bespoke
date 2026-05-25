@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 437
+- repos: 439
 - terms: 532
 - components: 1253
 - concepts: 532
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [LuminalOSS/credstash](https://github.com/LuminalOSS/credstash) | 0 | 2025-11-25T23:07:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Rescue](https://github.com/danielrosehill/Claude-Rescue) | 0 | 2025-11-25T13:41:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [KSXGitHub/aur-packages-builder-2](https://github.com/KSXGitHub/aur-packages-builder-2) | 0 | 2025-11-24T12:27:23Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [KSXGitHub/aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) | 0 | 2025-11-24T12:27:18Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [rasahq/pytest-sanic](https://github.com/RasaHQ/pytest-sanic) | 0 | 2025-11-24T12:02:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -467,6 +469,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [LuminalOSS/credstash](https://github.com/LuminalOSS/credstash) | 0 | 2025-11-25T23:07:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Rescue](https://github.com/danielrosehill/Claude-Rescue) | 0 | 2025-11-25T13:41:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [KSXGitHub/aur-packages-builder-2](https://github.com/KSXGitHub/aur-packages-builder-2) | 0 | 2025-11-24T12:27:23Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [KSXGitHub/aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) | 0 | 2025-11-24T12:27:18Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [rasahq/pytest-sanic](https://github.com/RasaHQ/pytest-sanic) | 0 | 2025-11-24T12:02:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

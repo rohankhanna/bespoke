@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · Other
 
-Generated at: `2026-05-24T05:51:44.692497+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162721 | 2026-05-23T04:20:42Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 162769 | 2026-05-24T04:32:05Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162721 | 2026-05-23T04:20:42Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 162769 | 2026-05-24T04:32:05Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
+- repos: 44
 - terms: 191
-- components: 1196
+- components: 1220
 - concepts: 192
 - observations: 192
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
 | [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 | [googleapis/nodejs-datastore](https://github.com/googleapis/nodejs-datastore) | 226 | 2026-02-20T21:15:01Z | TypeScript | CLI | 3 | 41 | 3 | 3 |
 | [Lusito/webextension-polyfill-ts](https://github.com/Lusito/webextension-polyfill-ts) | 398 | 2026-02-18T20:44:51Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
@@ -83,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/botbuilder-js](https://github.com/microsoft/botbuilder-js) | 723 | 2026-01-05T18:14:46Z | TypeScript | Infrastructure/tooling | 5 | 47 | 5 | 5 |
 | [jsonquerylang/jsonquery](https://github.com/jsonquerylang/jsonquery) | 656 | 2026-01-07T09:59:46Z | TypeScript | Infrastructure/tooling | 4 | 10 | 5 | 5 |
 | [nodejs/llparse](https://github.com/nodejs/llparse) | 621 | 2026-02-14T16:39:03Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
 | [tevonsb/homeassistant-mcp](https://github.com/tevonsb/homeassistant-mcp) | 569 | 2026-01-25T20:52:22Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [kepano/obsidian-hider](https://github.com/kepano/obsidian-hider) | 526 | 2025-12-14T15:04:22Z | TypeScript | Web app | 3 | 8 | 3 | 3 |
 | [LeDDGroup/typescript-transform-paths](https://github.com/LeDDGroup/typescript-transform-paths) | 494 | 2026-01-05T19:26:56Z | TypeScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |

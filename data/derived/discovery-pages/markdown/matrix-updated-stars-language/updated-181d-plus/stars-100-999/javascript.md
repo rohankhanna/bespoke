@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 376
-- terms: 1039
-- components: 4671
-- concepts: 1050
-- observations: 1050
+- repos: 379
+- terms: 1040
+- components: 4696
+- concepts: 1053
+- observations: 1053
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [restify/errors](https://github.com/restify/errors) | 145 | 2025-11-25T21:17:12Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
+| [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [charmbracelet/tree-sitter-vhs](https://github.com/charmbracelet/tree-sitter-vhs) | 116 | 2025-11-24T11:43:55Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript) | 473 | 2025-11-24T01:08:30Z | JavaScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [RReverser/wasm-bindgen-rayon](https://github.com/RReverser/wasm-bindgen-rayon) | 294 | 2025-11-21T15:04:23Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -163,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Jupyter-contrib/jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) | 983 | 2024-06-05T16:43:47Z | JavaScript | Service/API | 4 | 0 | 4 | 4 |
 | [webpack/loader-utils](https://github.com/webpack/loader-utils) | 772 | 2024-06-05T15:13:31Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [airbnb/babel-plugin-dynamic-import-webpack](https://github.com/airbnb/babel-plugin-dynamic-import-webpack) | 495 | 2024-06-04T00:44:43Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
+| [RyanMarcus/dirty-json](https://github.com/RyanMarcus/dirty-json) | 335 | 2024-06-01T15:08:04Z | JavaScript | Unknown | 2 | 6 | 3 | 3 |
 | [PepsRyuu/nollup](https://github.com/PepsRyuu/nollup) | 487 | 2024-05-25T18:34:14Z | JavaScript | Infrastructure/tooling | 0 | 20 | 0 | 0 |
 | [frinyvonnick/gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) | 396 | 2024-05-23T14:53:21Z | JavaScript | CLI | 11 | 8 | 11 | 11 |
 | [microsoft/DirectX-Debugging-Tools](https://github.com/microsoft/DirectX-Debugging-Tools) | 103 | 2024-05-20T17:47:39Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -196,7 +199,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postcss/gulp-postcss](https://github.com/postcss/gulp-postcss) | 764 | 2024-02-06T10:48:07Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [d3/d3-color](https://github.com/d3/d3-color) | 428 | 2024-02-03T19:16:02Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [agenda/human-interval](https://github.com/agenda/human-interval) | 467 | 2024-01-24T20:01:45Z | JavaScript | Unknown | 5 | 3 | 5 | 5 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
 | [fireship-io/javascript-millionaire](https://github.com/fireship-io/javascript-millionaire) | 264 | 2024-01-17T02:17:30Z | JavaScript | CLI | 0 | 6 | 0 | 0 |
 | [d3/d3-dsv](https://github.com/d3/d3-dsv) | 445 | 2024-01-05T20:33:36Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [nijikokun/minami](https://github.com/nijikokun/minami) | 577 | 2024-01-05T10:03:27Z | JavaScript | Template/starter | 0 | 0 | 0 | 0 |
@@ -583,6 +586,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chhoumann/Templater_Templates](https://github.com/chhoumann/Templater_Templates) | 343 | 2021-08-06T09:57:49Z | JavaScript | Template/starter | 0 | 0 | 0 | 0 |
 | [dwyl/learn-istanbul](https://github.com/dwyl/learn-istanbul) | 340 | 2022-08-17T22:41:03Z | JavaScript | Unknown | 4 | 1 | 4 | 4 |
 | [d3/d3-time-format](https://github.com/d3/d3-time-format) | 336 | 2023-10-06T16:55:50Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [RyanMarcus/dirty-json](https://github.com/RyanMarcus/dirty-json) | 335 | 2024-06-01T15:08:04Z | JavaScript | Unknown | 2 | 6 | 3 | 3 |
 | [bradlc/babel-plugin-tailwind-components](https://github.com/bradlc/babel-plugin-tailwind-components) | 335 | 2023-01-03T23:15:29Z | JavaScript | Library | 6 | 8 | 6 | 6 |
 | [rehypejs/rehype-highlight](https://github.com/rehypejs/rehype-highlight) | 329 | 2025-02-21T09:20:09Z | JavaScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [ddo/oauth-1.0a](https://github.com/ddo/oauth-1.0a) | 328 | 2023-11-27T10:13:25Z | JavaScript | Web app | 4 | 6 | 4 | 4 |
@@ -673,6 +677,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hapijs/vision](https://github.com/hapijs/vision) | 198 | 2024-10-23T21:57:52Z | JavaScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
 | [iov-one/iov-core](https://github.com/iov-one/iov-core) | 198 | 2023-01-07T03:19:19Z | JavaScript | CLI | 2 | 29 | 2 | 2 |
 | [greggman/virtual-webgl](https://github.com/greggman/virtual-webgl) | 195 | 2025-09-30T07:47:28Z | JavaScript | Web app | 0 | 4 | 0 | 0 |
+| [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [browserify/path-browserify](https://github.com/browserify/path-browserify) | 192 | 2024-12-21T10:13:57Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [fimeg/networkchronicles](https://github.com/Fimeg/NetworkChronicles) | 191 | 2025-08-08T20:07:59Z | JavaScript | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [xinntao/HandyFigure](https://github.com/xinntao/HandyFigure) | 191 | 2022-05-23T12:37:21Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -685,7 +690,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gulpjs/glob-stream](https://github.com/gulpjs/glob-stream) | 181 | 2025-06-01T05:04:15Z | JavaScript | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [ember-cli/ember-try](https://github.com/ember-cli/ember-try) | 180 | 2025-04-09T03:33:36Z | JavaScript | CLI | 2 | 35 | 2 | 2 |
 | [newrelic/opensource-website](https://github.com/newrelic/opensource-website) | 180 | 2024-09-11T23:39:34Z | JavaScript | Infrastructure/tooling | 4 | 60 | 4 | 4 |
-| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
+| [ajv-validator/ajv-i18n](https://github.com/ajv-validator/ajv-i18n) | 179 | 2024-01-19T17:37:50Z | JavaScript | Infrastructure/tooling | 5 | 16 | 6 | 6 |
 | [mzgoddard/preact-render-spy](https://github.com/mzgoddard/preact-render-spy) | 178 | 2023-01-12T09:51:40Z | JavaScript | Unknown | 4 | 16 | 4 | 4 |
 | [denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node) | 177 | 2022-04-24T16:37:28Z | JavaScript | Unknown | 4 | 9 | 4 | 4 |
 | [paulirish/devtools-timeline-model](https://github.com/paulirish/devtools-timeline-model) | 176 | 2022-11-02T10:27:41Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
@@ -717,6 +722,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bhauman/flappy-bird-demo](https://github.com/bhauman/flappy-bird-demo) | 148 | 2022-05-05T16:42:36Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [Level/abstract-leveldown](https://github.com/Level/abstract-leveldown) | 146 | 2024-12-01T22:49:05Z | JavaScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [apidoc/grunt-apidoc](https://github.com/apidoc/grunt-apidoc) | 146 | 2023-06-11T18:45:38Z | JavaScript | Service/API | 0 | 7 | 0 | 0 |
+| [restify/errors](https://github.com/restify/errors) | 145 | 2025-11-25T21:17:12Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
 | [standard/standard-engine](https://github.com/standard/standard-engine) | 145 | 2023-12-15T07:42:15Z | JavaScript | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [atom/text-buffer](https://github.com/atom/text-buffer) | 145 | 2022-09-28T10:52:01Z | JavaScript | Infrastructure/tooling | 0 | 34 | 0 | 0 |
 | [udacity/ud989-retain](https://github.com/udacity/ud989-retain) | 145 | 2022-07-06T20:40:05Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
+- repos: 93
 - terms: 85
 - components: 57
 - concepts: 76
@@ -119,10 +119,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Home-Assistant-Index](https://github.com/danielrosehill/Home-Assistant-Index) | 0 | 2026-03-27T17:10:14Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) | 0 | 2026-03-25T12:10:49Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -221,7 +217,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Home-Assistant-Index](https://github.com/danielrosehill/Home-Assistant-Index) | 0 | 2026-03-27T17:10:14Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Networking-And-Infrastructure-Index](https://github.com/danielrosehill/Networking-And-Infrastructure-Index) | 0 | 2026-03-25T12:10:49Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

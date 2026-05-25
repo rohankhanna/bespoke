@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 229
-- components: 196
-- concepts: 230
-- observations: 231
+- repos: 36
+- terms: 241
+- components: 209
+- concepts: 242
+- observations: 243
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [multiformats/go-multiaddr](https://github.com/multiformats/go-multiaddr) | 295 | 2026-02-23T09:04:41Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [maykonlsf/semver-cli](https://github.com/maykonlsf/semver-cli) | 100 | 2026-02-21T15:17:38Z | Go | CLI | 8 | 3 | 8 | 8 |
 | [argoproj-labs/argocd-rbac-operator](https://github.com/argoproj-labs/argocd-rbac-operator) | 107 | 2026-02-20T22:34:42Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 13 |
@@ -89,6 +90,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [slinso/goTemplateBenchmark](https://github.com/slinso/goTemplateBenchmark) | 277 | 2026-02-16T14:01:46Z | Go | Template/starter | 3 | 0 | 3 | 3 |
 | [gost-dom/browser](https://github.com/gost-dom/browser) | 268 | 2026-02-19T06:50:48Z | Go | Infrastructure/tooling | 11 | 9 | 11 | 12 |
 | [ipfs/go-ds-s3](https://github.com/ipfs/go-ds-s3) | 267 | 2025-12-10T13:27:56Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [bshuster-repo/logrus-logstash-hook](https://github.com/bshuster-repo/logrus-logstash-hook) | 203 | 2025-12-05T02:42:46Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [Masterminds/vcs](https://github.com/Masterminds/vcs) | 203 | 2025-12-04T14:52:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [oceanbase/ob-operator](https://github.com/oceanbase/ob-operator) | 168 | 2026-02-05T06:20:55Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |

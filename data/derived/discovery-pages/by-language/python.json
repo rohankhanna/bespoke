@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17850,
-    "concepts": 26916,
-    "observations": 26967,
-    "repos": 6733,
-    "terms": 26716
+    "components": 17855,
+    "concepts": 26973,
+    "observations": 27024,
+    "repos": 6740,
+    "terms": 26763
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1924,6 +1924,8 @@
     "dirk-thomas/vcstool",
     "disconnectme/disconnect-tracking-protection",
     "disler/just-prompt",
+    "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+    "Distributive-Network/pythonmonkey-examples",
     "Divadi/SOLOFusion",
     "django/asgiref",
     "django/channels",
@@ -1941,6 +1943,8 @@
     "dmis-lab/biobert",
     "dmlc/dgl",
     "dmlc/gluon-nlp",
+    "dmMaze/BallonsTranslator",
+    "dmMaze/comic-text-detector",
     "dmort27/epitran",
     "doc-doc/hcrn-bert",
     "doc-doc/NExT-OE",
@@ -2371,6 +2375,7 @@
     "fixie-ai/evals",
     "fixie-ai/ultravox",
     "FizzleDorf/ComfyUI_FizzNodes",
+    "fkiliver/RPGMaker_LLM_Translator",
     "fla-org/flame",
     "fla-org/flash-bidirectional-linear-attention",
     "fla-org/flash-linear-attention",
@@ -3295,6 +3300,7 @@
     "jeffacce/play-to-policy",
     "jeffallan/claude-skills",
     "jeffdaily/parasail-python",
+    "JeffersonQin/YuzuMarker.FontDetection",
     "jeffffffli/CrowdPose",
     "jeffffffli/HybrIK",
     "jeffffffli/res-loglikelihood-regression",
@@ -4413,6 +4419,7 @@
     "msiemens/tinydb",
     "msmsajjadi/precision-recall-distributions",
     "msracver/Deformable-ConvNets",
+    "mtkennerly/poetry-dynamic-versioning",
     "Muennighoff/sentence-transformers",
     "mujocolab/mjlab",
     "mujocolab/mjviser",

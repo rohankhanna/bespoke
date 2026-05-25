@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 13,
-    "terms": 41
+    "components": 47,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 14,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "aws-cloudformation/cloudformation-resource-schema",
@@ -20,6 +20,7 @@
     "beehive-lab/kfusion-tornadovm",
     "bobbylight/RSTAUI",
     "google/tsunami-security-scanner-callback-server",
+    "googleapis/java-bigquerystorage",
     "grpc/grpc-java-api-checker",
     "hashicorp/hello-vault-spring",
     "JodaOrg/joda-time-hibernate",

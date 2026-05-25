@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1105,
-    "concepts": 517,
-    "observations": 517,
-    "repos": 339,
-    "terms": 523
+    "components": 1107,
+    "concepts": 525,
+    "observations": 525,
+    "repos": 341,
+    "terms": 531
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -55,6 +55,7 @@
     "arecarn/vim-selection",
     "arrdem/bazel-multipy",
     "asjadnaqvi/stata-delaunay-voronoi",
+    "atrodo/WebGPU-Direct",
     "atsign-foundation/at_app",
     "atsushieno/android-native-audio-builders",
     "autodistill/autodistill-seggpt",
@@ -261,6 +262,7 @@
     "niuiic/omega.nvim",
     "num42/icon-resizer-swift",
     "nunommc/acts_as_tenant-delayed_job",
+    "ocaml-opam/opam-rt",
     "octopus-network/ibc",
     "olachinkei/BioNeMo_WandB",
     "onicai/Charles",

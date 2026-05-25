@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 650,
-    "concepts": 472,
-    "observations": 473,
-    "repos": 57,
-    "terms": 460
+    "components": 652,
+    "concepts": 480,
+    "observations": 481,
+    "repos": 58,
+    "terms": 468
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "Aleph-Alpha/ts-rs",
@@ -21,6 +21,7 @@
     "awslabs/aidlc-workflows",
     "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
+    "callstack/react-native-builder-bob",
     "can1357/oh-my-pi",
     "collabora/WhisperLive",
     "copier-org/copier",
@@ -31,7 +32,6 @@
     "free-audio/clap",
     "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
-    "ggozad/oterm",
     "GladysAssistant/Gladys",
     "gobackup/gobackup",
     "google-deepmind/dm-haiku",
@@ -58,14 +58,15 @@
     "opentk/opentk",
     "pdfme/pdfme",
     "PortAudio/portaudio",
+    "preservim/tagbar",
     "pure-data/pure-data",
     "reubeno/brush",
     "scop/bash-completion",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
+    "ufbx/ufbx",
     "uxlfoundation/oneDNN",
     "version-fox/vfox",
-    "vitejs/vite-plugin-react",
     "voicepaw/so-vits-svc-fork",
     "WarmUpTill/SceneSwitcher",
     "Xilinx/brevitas",

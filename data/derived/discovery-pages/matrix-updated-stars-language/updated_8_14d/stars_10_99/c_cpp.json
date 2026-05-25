@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 26,
-    "observations": 27,
-    "repos": 5,
-    "terms": 26
+    "components": 32,
+    "concepts": 20,
+    "observations": 21,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "atsushieno/aap-juce",
-    "atsushieno/aap-lv2",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "mongodb/winkerberos"

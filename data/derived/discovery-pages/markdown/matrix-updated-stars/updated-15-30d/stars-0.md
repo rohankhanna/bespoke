@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 90
-- terms: 114
-- components: 190
-- concepts: 114
-- observations: 114
+- repos: 87
+- terms: 103
+- components: 202
+- concepts: 103
+- observations: 103
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-eve-door](https://github.com/Luligu/matterbridge-eve-door) | 0 | 2026-05-11T05:36:08Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
+| [atsushieno/aap-lv2-string-machine](https://github.com/atsushieno/aap-lv2-string-machine) | 0 | 2026-05-10T17:50:24Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [abdeladim-s/pywhispercpp](https://github.com/abdeladim-s/pywhispercpp) | 0 | 2026-05-08T08:13:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -110,16 +112,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Memory-Layers](https://github.com/danielrosehill/AI-Memory-Layers) | 0 | 2026-04-25T09:41:38Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
-| [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
-| [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-eve-door](https://github.com/Luligu/matterbridge-eve-door) | 0 | 2026-05-11T05:36:08Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
+| [atsushieno/aap-lv2-string-machine](https://github.com/atsushieno/aap-lv2-string-machine) | 0 | 2026-05-10T17:50:24Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [abdeladim-s/pywhispercpp](https://github.com/abdeladim-s/pywhispercpp) | 0 | 2026-05-08T08:13:30Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [clearml/clearml-agent-bootstrap](https://github.com/clearml/clearml-agent-bootstrap) | 0 | 2026-05-06T15:42:50Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Gist-Writer-Plugin](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) | 0 | 2026-05-05T16:10:20Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -205,8 +204,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Responsible-Agent-Skill-Development](https://github.com/danielrosehill/Responsible-Agent-Skill-Development) | 0 | 2026-04-25T11:09:28Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Memory-Layers](https://github.com/danielrosehill/AI-Memory-Layers) | 0 | 2026-04-25T09:41:38Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [stable-haskell/haskell-language-server](https://github.com/stable-haskell/haskell-language-server) | 0 | 2026-04-24T17:24:19Z | Other | Infrastructure/tooling | 8 | 18 | 8 | 8 |
-| [mukel/gptoss.java](https://github.com/mukel/gptoss.java) | 0 | 2026-04-24T16:40:40Z | Java | Unknown | 7 | 0 | 7 | 7 |
-| [mukel/nemotron3.java](https://github.com/mukel/nemotron3.java) | 0 | 2026-04-24T16:39:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [Strivin0311/strivin0311.github.io](https://github.com/Strivin0311/strivin0311.github.io) | 0 | 2026-04-24T14:33:13Z | Other | Unknown | 0 | 0 | 0 | 0 |

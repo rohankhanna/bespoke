@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 112
-- components: 229
-- concepts: 113
-- observations: 114
+- repos: 29
+- terms: 132
+- components: 314
+- concepts: 133
+- observations: 134
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hudochenkov/stylelint-order](https://github.com/hudochenkov/stylelint-order) | 955 | 2026-03-25T21:59:42Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
+| [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) | 421 | 2026-03-25T21:29:22Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [dwyl/learn-postgresql](https://github.com/dwyl/learn-postgresql) | 335 | 2026-03-25T18:41:04Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [actions/deploy-pages](https://github.com/actions/deploy-pages) | 899 | 2026-03-25T17:24:12Z | JavaScript | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [avwo/whistle-client](https://github.com/avwo/whistle-client) | 977 | 2026-03-25T14:43:41Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
 | [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [oblador/react-native-vector-image](https://github.com/oblador/react-native-vector-image) | 361 | 2026-03-24T20:21:25Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
@@ -54,7 +60,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [avwo/whistle-client](https://github.com/avwo/whistle-client) | 977 | 2026-03-25T14:43:41Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
+| [hudochenkov/stylelint-order](https://github.com/hudochenkov/stylelint-order) | 955 | 2026-03-25T21:59:42Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [cmake-js/cmake-js](https://github.com/cmake-js/cmake-js) | 950 | 2026-03-09T22:39:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [actions/deploy-pages](https://github.com/actions/deploy-pages) | 899 | 2026-03-25T17:24:12Z | JavaScript | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [npm/rfcs](https://github.com/npm/rfcs) | 767 | 2026-03-24T15:01:35Z | JavaScript | CLI | 11 | 7 | 11 | 11 |
 | [igvteam/igv.js](https://github.com/igvteam/igv.js) | 719 | 2026-03-20T00:51:27Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [rstudio/DT](https://github.com/rstudio/DT) | 620 | 2026-03-23T18:01:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -62,6 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 3 | 7 | 4 | 4 |
 | [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [mapbox/cheap-ruler](https://github.com/mapbox/cheap-ruler) | 427 | 2026-03-23T09:11:39Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) | 421 | 2026-03-25T21:29:22Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
 | [TeamMoeAI/MoeSR](https://github.com/TeamMoeAI/MoeSR) | 412 | 2026-03-09T14:07:16Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |
 | [kriszyp/cbor-x](https://github.com/kriszyp/cbor-x) | 380 | 2026-03-10T23:06:10Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
@@ -69,6 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lemire/FastPriorityQueue.js](https://github.com/lemire/FastPriorityQueue.js) | 365 | 2026-02-25T05:17:39Z | JavaScript | Unknown | 2 | 12 | 2 | 2 |
 | [oblador/react-native-vector-image](https://github.com/oblador/react-native-vector-image) | 361 | 2026-03-24T20:21:25Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [mourner/robust-predicates](https://github.com/mourner/robust-predicates) | 336 | 2026-03-22T10:28:25Z | JavaScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [dwyl/learn-postgresql](https://github.com/dwyl/learn-postgresql) | 335 | 2026-03-25T18:41:04Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [executablebooks/sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton) | 268 | 2026-03-16T16:38:49Z | JavaScript | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [microsoft/vscode-custom-data](https://github.com/microsoft/vscode-custom-data) | 238 | 2026-03-18T16:57:03Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [RichardLitt/generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme) | 214 | 2026-03-15T19:33:26Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |

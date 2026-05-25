@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Python
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 30
-- components: 44
-- concepts: 30
-- observations: 30
+- repos: 4
+- terms: 29
+- components: 34
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,18 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 814 | 2026-05-24T09:15:47Z | Python | CLI | 9 | 7 | 9 | 9 |
-| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 686 | 2026-05-23T22:50:18Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 657 | 2026-05-23T15:22:00Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 371 | 2026-05-23T11:20:38Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-24T21:42:30Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
+| [machinewrapped/llm-subtrans](https://github.com/machinewrapped/llm-subtrans) | 601 | 2026-05-24T21:33:31Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 513 | 2026-05-24T15:45:09Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 816 | 2026-05-24T09:15:47Z | Python | CLI | 9 | 7 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 814 | 2026-05-24T09:15:47Z | Python | CLI | 9 | 7 | 9 | 9 |
-| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 686 | 2026-05-23T22:50:18Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 657 | 2026-05-23T15:22:00Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
-| [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 371 | 2026-05-23T11:20:38Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
+| [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 816 | 2026-05-24T09:15:47Z | Python | CLI | 9 | 7 | 9 | 9 |
+| [machinewrapped/llm-subtrans](https://github.com/machinewrapped/llm-subtrans) | 601 | 2026-05-24T21:33:31Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 513 | 2026-05-24T15:45:09Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 428 | 2026-05-24T21:42:30Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |

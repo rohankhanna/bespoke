@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 241,
-    "observations": 242,
-    "repos": 58,
-    "terms": 239
+    "components": 216,
+    "concepts": 276,
+    "observations": 277,
+    "repos": 61,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "AmusementClub/vs-mlrt",
     "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
     "arduino-libraries/Ethernet",
@@ -51,11 +52,13 @@
     "marbl/canu",
     "microsoft/xlang",
     "mongodb-js/kerberos",
+    "NetEase-FuXi/EETQ",
     "NiLuJe/kfmon",
     "numactl/numactl",
     "PaddlePaddle/Paddle2ONNX",
     "raysan5/raylib-games",
     "refresh-bio/KMC",
+    "rusty1s/pytorch_cluster",
     "sasha0552/nvidia-pstated",
     "sheredom/ubench.h",
     "Slamtec/rplidar_sdk",

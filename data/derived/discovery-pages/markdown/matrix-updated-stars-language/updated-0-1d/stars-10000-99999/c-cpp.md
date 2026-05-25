@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 2
-- terms: 34
-- components: 18
-- concepts: 34
-- observations: 34
+- terms: 21
+- components: 23
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13609 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24505 | 2026-05-24T11:33:12Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13609 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24505 | 2026-05-24T11:33:12Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |

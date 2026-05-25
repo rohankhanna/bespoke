@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 98
-- components: 76
-- concepts: 99
-- observations: 99
+- repos: 12
+- terms: 100
+- components: 81
+- concepts: 101
+- observations: 101
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1307 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [iree-org/iree](https://github.com/iree-org/iree) | 3760 | 2026-05-15T23:57:31Z | C/C++ | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [WarmUpTill/SceneSwitcher](https://github.com/WarmUpTill/SceneSwitcher) | 1464 | 2026-05-15T17:15:53Z | C/C++ | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [uxlfoundation/oneDNN](https://github.com/uxlfoundation/oneDNN) | 3990 | 2026-05-15T17:12:04Z | C/C++ | Infrastructure/tooling | 22 | 16 | 22 | 22 |
@@ -53,3 +54,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pure-data/pure-data](https://github.com/pure-data/pure-data) | 2008 | 2026-05-14T16:54:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [WarmUpTill/SceneSwitcher](https://github.com/WarmUpTill/SceneSwitcher) | 1464 | 2026-05-15T17:15:53Z | C/C++ | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [Mithril-mine/libmdbx](https://github.com/Mithril-mine/libmdbx) | 1398 | 2026-05-14T18:27:24Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
+| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1307 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |

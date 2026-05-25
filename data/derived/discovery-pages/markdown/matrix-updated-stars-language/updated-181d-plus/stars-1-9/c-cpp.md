@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
+- repos: 98
 - terms: 137
 - components: 181
 - concepts: 138
@@ -94,6 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cginternals/eglbinding](https://github.com/cginternals/eglbinding) | 1 | 2024-02-27T10:30:24Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Clemapfel/mousetrap](https://github.com/Clemapfel/mousetrap) | 8 | 2024-02-22T17:13:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [atteneder/draco](https://github.com/atteneder/draco) | 9 | 2024-01-26T15:14:53Z | C/C++ | Infrastructure/tooling | 2 | 12 | 2 | 2 |
+| [dmMaze/PyPatchMatchInpaint](https://github.com/dmMaze/PyPatchMatchInpaint) | 2 | 2023-11-03T16:48:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [andreigh/triton](https://github.com/andreigh/triton) | 2 | 2023-10-29T07:34:42Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [adafruit/adafruit_bmp183_unified_library](https://github.com/adafruit/Adafruit_BMP183_Unified_Library) | 5 | 2023-10-03T20:26:35Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [pykaldi/clif](https://github.com/pykaldi/clif) | 2 | 2023-09-12T13:47:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -196,6 +197,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usdot-fhwa-stol/carma-ssc-interface-wrapper](https://github.com/usdot-fhwa-stol/carma-ssc-interface-wrapper) | 2 | 2025-09-12T19:40:10Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [hermit-os/pthread-embedded](https://github.com/hermit-os/pthread-embedded) | 2 | 2025-05-19T09:15:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jk-jeon/dtoa-benchmark](https://github.com/jk-jeon/dtoa-benchmark) | 2 | 2024-03-30T08:19:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [dmMaze/PyPatchMatchInpaint](https://github.com/dmMaze/PyPatchMatchInpaint) | 2 | 2023-11-03T16:48:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [andreigh/triton](https://github.com/andreigh/triton) | 2 | 2023-10-29T07:34:42Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [pykaldi/clif](https://github.com/pykaldi/clif) | 2 | 2023-09-12T13:47:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [CameLLM/CameLLM-Common](https://github.com/CameLLM/CameLLM-Common) | 2 | 2023-06-08T22:46:41Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |

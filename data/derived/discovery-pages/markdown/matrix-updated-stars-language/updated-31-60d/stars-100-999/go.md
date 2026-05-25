@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 130
-- terms: 773
-- components: 954
-- concepts: 765
-- observations: 771
+- repos: 132
+- terms: 786
+- components: 982
+- concepts: 778
+- observations: 784
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
+| [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
+| [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [cloudfoundry/bosh-bootloader](https://github.com/cloudfoundry/bosh-bootloader) | 181 | 2026-04-24T09:30:47Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [cloudflare/go](https://github.com/cloudflare/go) | 370 | 2026-04-24T00:34:57Z | Go | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [microsoft/dcp](https://github.com/microsoft/dcp) | 155 | 2026-04-24T00:16:17Z | Go | CLI | 4 | 5 | 4 | 4 |
@@ -155,7 +158,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | 569 | 2026-03-29T18:57:33Z | Go | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [aws/aws-app-mesh-controller-for-k8s](https://github.com/aws/aws-app-mesh-controller-for-k8s) | 183 | 2026-03-26T22:14:31Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [notaryproject/notation](https://github.com/notaryproject/notation) | 477 | 2026-03-26T20:41:24Z | Go | CLI | 12 | 14 | 12 | 12 |
-| [minio/directpv](https://github.com/minio/directpv) | 701 | 2026-03-25T18:26:40Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -177,7 +179,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [letsencrypt/pebble](https://github.com/letsencrypt/pebble) | 770 | 2026-04-20T20:51:42Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [andybalholm/brotli](https://github.com/andybalholm/brotli) | 723 | 2026-04-13T17:17:38Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [awslabs/soci-snapshotter](https://github.com/awslabs/soci-snapshotter) | 720 | 2026-04-21T10:28:57Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [minio/directpv](https://github.com/minio/directpv) | 701 | 2026-03-25T18:26:40Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [mattn/go-runewidth](https://github.com/mattn/go-runewidth) | 695 | 2026-04-18T13:32:32Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk) | 677 | 2026-04-21T03:10:57Z | Go | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [kube-rbac-proxy/kube-rbac-proxy](https://github.com/kube-rbac-proxy/kube-rbac-proxy) | 672 | 2026-04-21T13:21:59Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -217,6 +218,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stefanlogue/meteor](https://github.com/stefanlogue/meteor) | 420 | 2026-04-03T09:38:42Z | Go | CLI | 7 | 9 | 7 | 7 |
 | [terraform-linters/tflint-ruleset-aws](https://github.com/terraform-linters/tflint-ruleset-aws) | 411 | 2026-04-20T02:49:49Z | Go | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [opentofu/registry](https://github.com/opentofu/registry) | 402 | 2026-04-22T01:01:13Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [ethereum-optimism/op-geth](https://github.com/ethereum-optimism/op-geth) | 397 | 2026-04-15T13:38:51Z | Go | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [linxGnu/grocksdb](https://github.com/linxGnu/grocksdb) | 392 | 2026-04-19T02:22:33Z | Go | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [hashicorp/terraform-plugin-framework](https://github.com/hashicorp/terraform-plugin-framework) | 377 | 2026-04-22T08:05:20Z | Go | Infrastructure/tooling | 9 | 9 | 9 | 9 |
@@ -234,6 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prometheus/exporter-toolkit](https://github.com/prometheus/exporter-toolkit) | 309 | 2026-04-09T08:11:31Z | Go | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [etclabscore/core-geth](https://github.com/etclabscore/core-geth) | 305 | 2026-04-21T06:50:51Z | Go | Infrastructure/tooling | 16 | 7 | 16 | 16 |
 | [2dust/AndroidLibV2rayLite](https://github.com/2dust/AndroidLibV2rayLite) | 298 | 2026-04-13T02:54:26Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [prometheus/common](https://github.com/prometheus/common) | 295 | 2026-04-22T12:16:42Z | Go | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [apache/dubbo-go-samples](https://github.com/apache/dubbo-go-samples) | 291 | 2026-04-22T06:56:10Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [knative/community](https://github.com/knative/community) | 291 | 2026-04-20T15:05:32Z | Go | Infrastructure/tooling | 11 | 5 | 11 | 11 |
@@ -267,6 +270,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [transparency-dev/tessera](https://github.com/transparency-dev/tessera) | 179 | 2026-04-20T22:15:12Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [google/trillian-examples](https://github.com/google/trillian-examples) | 175 | 2026-04-09T10:08:47Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [openshift/library](https://github.com/openshift/library) | 169 | 2026-04-20T15:33:07Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [ipfs/go-cid](https://github.com/ipfs/go-cid) | 168 | 2026-04-09T19:58:24Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [microsoft/dcp](https://github.com/microsoft/dcp) | 155 | 2026-04-24T00:16:17Z | Go | CLI | 4 | 5 | 4 | 4 |
 | [hashicorp/terraform-plugin-go](https://github.com/hashicorp/terraform-plugin-go) | 155 | 2026-04-20T09:42:40Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |

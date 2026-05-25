@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 144
-- components: 114
-- concepts: 139
-- observations: 139
+- repos: 28
+- terms: 146
+- components: 127
+- concepts: 141
+- observations: 141
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 74380 | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [allenai/olmocr](https://github.com/allenai/olmocr) | 17247 | 2026-03-25T17:52:37Z | Python | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) | 17114 | 2026-03-24T21:12:50Z | Python | CLI | 5 | 0 | 5 | 5 |
 | [QwenLM/Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) | 16495 | 2026-03-24T08:22:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) | 21901 | 2026-03-23T23:03:45Z | Python | CLI | 0 | 0 | 0 | 0 |
@@ -48,15 +50,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) | 16161 | 2026-03-04T08:15:07Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [facebookresearch/vggt](https://github.com/facebookresearch/vggt) | 13004 | 2026-03-03T21:50:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | 18230 | 2026-03-02T18:21:25Z | Python | Unknown | 4 | 0 | 4 | 4 |
-| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 18952 | 2026-02-27T13:12:11Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 18953 | 2026-02-27T13:12:11Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [Jiayi-Pan/TinyZero](https://github.com/Jiayi-Pan/TinyZero) | 13067 | 2026-02-27T05:42:07Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) | 57208 | 2026-02-26T09:56:49Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
-| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 14032 | 2026-02-24T07:47:19Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 14038 | 2026-02-24T07:47:19Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 74380 | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [localstack/localstack](https://github.com/localstack/localstack) | 64887 | 2026-03-23T08:52:01Z | Python | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 59653 | 2026-03-09T10:31:58Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) | 57208 | 2026-02-26T09:56:49Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
@@ -64,8 +67,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) | 21901 | 2026-03-23T23:03:45Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [QwenLM/Qwen](https://github.com/QwenLM/Qwen) | 21096 | 2026-03-05T13:55:17Z | Python | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | 20813 | 2026-03-16T07:37:22Z | Python | Infrastructure/tooling | 19 | 3 | 19 | 19 |
-| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 18952 | 2026-02-27T13:12:11Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 18953 | 2026-02-27T13:12:11Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | 18230 | 2026-03-02T18:21:25Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [allenai/olmocr](https://github.com/allenai/olmocr) | 17247 | 2026-03-25T17:52:37Z | Python | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) | 17114 | 2026-03-24T21:12:50Z | Python | CLI | 5 | 0 | 5 | 5 |
 | [cool-RR/PySnooper](https://github.com/cool-RR/PySnooper) | 16601 | 2026-03-08T10:52:31Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [QwenLM/Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) | 16495 | 2026-03-24T08:22:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -75,7 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [powerline/powerline](https://github.com/powerline/powerline) | 14744 | 2026-03-11T01:18:21Z | Python | Infrastructure/tooling | 7 | 3 | 8 | 8 |
 | [Zulko/moviepy](https://github.com/Zulko/moviepy) | 14588 | 2026-03-07T02:47:15Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [PaddlePaddle/PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection) | 14174 | 2026-03-19T13:53:33Z | Python | Unknown | 20 | 0 | 20 | 20 |
-| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 14032 | 2026-02-24T07:47:19Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 14038 | 2026-02-24T07:47:19Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [Jiayi-Pan/TinyZero](https://github.com/Jiayi-Pan/TinyZero) | 13067 | 2026-02-27T05:42:07Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [facebookresearch/vggt](https://github.com/facebookresearch/vggt) | 13004 | 2026-03-03T21:50:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | 12162 | 2026-03-08T12:48:46Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |

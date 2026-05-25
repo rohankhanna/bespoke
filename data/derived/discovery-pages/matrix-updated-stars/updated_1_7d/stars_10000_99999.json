@@ -1,24 +1,26 @@
 {
   "counts": {
-    "components": 832,
-    "concepts": 517,
-    "observations": 520,
-    "repos": 44,
-    "terms": 517
+    "components": 800,
+    "concepts": 526,
+    "observations": 529,
+    "repos": 46,
+    "terms": 522
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
     "apache/brpc",
     "argotorg/solidity",
-    "dense-analysis/ale",
+    "deepspeedai/DeepSpeed",
     "DioxusLabs/dioxus",
+    "fastapi/full-stack-fastapi-template",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "git-lfs/git-lfs",
@@ -30,17 +32,17 @@
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
-    "HumanSignal/label-studio",
+    "isl-org/Open3D",
     "jestjs/jest",
+    "langchain-ai/langchainjs",
     "Lightning-AI/pytorch-lightning",
     "meta-llama/llama-cookbook",
     "moby/moby",
-    "modelscope/ms-swift",
-    "mozilla-ai/llamafile",
-    "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
+    "nwjs/nw.js",
     "oobabooga/textgen",
     "preactjs/preact",
+    "protocolbuffers/protobuf",
     "psf/black",
     "pydantic/pydantic",
     "pyg-team/pytorch_geometric",
@@ -54,8 +56,8 @@
     "storybookjs/storybook",
     "SubtitleEdit/subtitleedit",
     "TEN-framework/ten-framework",
-    "ungoogled-software/ungoogled-chromium",
     "unocss/unocss",
-    "vbenjs/vue-vben-admin"
+    "vbenjs/vue-vben-admin",
+    "vercel-labs/skills"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Python
 
-Generated at: `2026-05-24T05:51:44.692497+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 6
-- components: 9
-- concepts: 6
-- observations: 6
+- repos: 2
+- terms: 8
+- components: 12
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-23T06:15:01Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-24T17:14:39Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-23T06:15:01Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-24T17:14:39Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

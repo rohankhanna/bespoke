@@ -1,22 +1,22 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 25,
-    "observations": 25,
+    "components": 51,
+    "concepts": 28,
+    "observations": 28,
     "repos": 5,
-    "terms": 25
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
-    "alloy-rs/evm",
-    "cloudfoundry/bosh-google-cpi-release",
-    "dwyl/mvp",
-    "karafka/example-apps",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "honwen/openwrt-dnsmasq-extra",
+    "intel-staging/text-generation-webui",
+    "lumen-oss/luarocks-tag-release",
     "skilld-dev/retriv"
   ]
 }

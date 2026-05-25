@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 804,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 18,
-    "terms": 157
+    "components": 666,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 15,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
-    "2mawi2/schaltwerk",
     "apify/apify-cli",
     "apify/mcpc",
     "Brendonovich/MacroGraph",
@@ -27,9 +26,7 @@
     "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
     "preactjs/preact-devtools",
-    "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
-    "serversideup/webext-bridge",
     "skilld-dev/skilld",
     "Zoo-Code-Org/Zoo-Code"
   ]

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 204
-- terms: 782
+- terms: 781
 - components: 4941
 - concepts: 771
 - observations: 773
@@ -75,7 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs-shipyard/is-ipfs](https://github.com/ipfs-shipyard/is-ipfs) | 127 | 2025-03-28T18:06:12Z | TypeScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [Obsidian-TTRPG-Community/dice-roller](https://github.com/Obsidian-TTRPG-Community/dice-roller) | 335 | 2025-03-24T12:58:23Z | TypeScript | Infrastructure/tooling | 2 | 38 | 2 | 2 |
 | [lxsmnsyc/solid-labels](https://github.com/lxsmnsyc/solid-labels) | 256 | 2025-03-14T03:07:12Z | TypeScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [stacks-archive/gaia](https://github.com/stacks-archive/gaia) | 757 | 2025-03-11T20:17:21Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [stacks-archive/gaia](https://github.com/stacks-archive/gaia) | 756 | 2025-03-11T20:17:21Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [simonwep/nanopop](https://github.com/simonwep/nanopop) | 719 | 2025-03-09T15:47:33Z | TypeScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [lobehub/lobe-vidol](https://github.com/lobehub/lobe-vidol) | 940 | 2025-03-08T15:05:47Z | TypeScript | Infrastructure/tooling | 14 | 132 | 14 | 14 |
 | [yaegassy/coc-volar](https://github.com/yaegassy/coc-volar) | 295 | 2025-03-02T13:18:18Z | TypeScript | Unknown | 3 | 14 | 3 | 3 |
@@ -184,7 +184,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mariolukas/HydraPlay](https://github.com/mariolukas/HydraPlay) | 157 | 2023-04-30T20:51:43Z | TypeScript | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [Borodutch/telegram-bot-starter](https://github.com/Borodutch/telegram-bot-starter) | 241 | 2023-04-26T16:09:07Z | TypeScript | Infrastructure/tooling | 4 | 26 | 4 | 4 |
 | [byte-fe/react-model](https://github.com/byte-fe/react-model) | 237 | 2023-04-23T10:05:41Z | TypeScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
-| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
+| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 4 | 24 | 5 | 5 |
 | [metaes/metaes](https://github.com/metaes/metaes) | 139 | 2023-04-16T14:34:14Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [windicss/svelte-windicss-preprocess](https://github.com/windicss/svelte-windicss-preprocess) | 158 | 2023-04-15T18:55:36Z | TypeScript | Infrastructure/tooling | 8 | 32 | 8 | 8 |
 | [jina-ai/auto-gpt-web](https://github.com/jina-ai/auto-gpt-web) | 760 | 2023-04-13T08:09:58Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
@@ -257,7 +257,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chetachiezikeuzor/Highlightr-Plugin](https://github.com/chetachiezikeuzor/Highlightr-Plugin) | 792 | 2023-11-15T02:31:30Z | TypeScript | Unknown | 5 | 16 | 5 | 5 |
 | [apache/dubbo-js](https://github.com/apache/dubbo-js) | 773 | 2024-07-14T13:31:39Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [jina-ai/auto-gpt-web](https://github.com/jina-ai/auto-gpt-web) | 760 | 2023-04-13T08:09:58Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
-| [stacks-archive/gaia](https://github.com/stacks-archive/gaia) | 757 | 2025-03-11T20:17:21Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [stacks-archive/gaia](https://github.com/stacks-archive/gaia) | 756 | 2025-03-11T20:17:21Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [Tarektouati/vue-use-web](https://github.com/Tarektouati/vue-use-web) | 743 | 2023-03-04T04:43:36Z | TypeScript | Infrastructure/tooling | 7 | 45 | 7 | 7 |
 | [aave/protocol-v2](https://github.com/aave/protocol-v2) | 740 | 2024-08-13T11:03:43Z | TypeScript | Infrastructure/tooling | 1 | 52 | 1 | 1 |
 | [notiz-dev/prisma-dbml-generator](https://github.com/notiz-dev/prisma-dbml-generator) | 739 | 2024-02-15T18:26:38Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
@@ -344,7 +344,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arcanis/typanion](https://github.com/arcanis/typanion) | 275 | 2024-03-25T17:14:02Z | TypeScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [caoxiemeihao/electron-vite-samples](https://github.com/caoxiemeihao/electron-vite-samples) | 263 | 2024-11-16T13:19:33Z | TypeScript | Unknown | 8 | 1 | 8 | 8 |
 | [neplexlabs/canvacord](https://github.com/neplexlabs/canvacord) | 259 | 2025-10-21T17:22:50Z | TypeScript | Infrastructure/tooling | 15 | 14 | 15 | 15 |
-| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
+| [ajv-validator/ajv-keywords](https://github.com/ajv-validator/ajv-keywords) | 257 | 2023-04-17T03:40:20Z | TypeScript | Infrastructure/tooling | 4 | 24 | 5 | 5 |
 | [lxsmnsyc/solid-labels](https://github.com/lxsmnsyc/solid-labels) | 256 | 2025-03-14T03:07:12Z | TypeScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [luisherranz/deepsignal](https://github.com/luisherranz/deepsignal) | 254 | 2025-01-13T15:48:33Z | TypeScript | Infrastructure/tooling | 4 | 47 | 4 | 4 |
 | [ansible/ansible-language-server](https://github.com/ansible/ansible-language-server) | 250 | 2024-10-09T18:11:47Z | TypeScript | Infrastructure/tooling | 5 | 45 | 5 | 5 |

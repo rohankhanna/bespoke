@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2238,
+    "components": 2240,
     "concepts": 3032,
     "observations": 3039,
-    "repos": 959,
-    "terms": 3016
+    "repos": 960,
+    "terms": 3013
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -353,6 +353,7 @@
     "file-icons/icons",
     "filecoin-project/specs",
     "filipradenovic/cnnimageretrieval",
+    "fkiliver/SakuraTranslator",
     "flosse/sloc",
     "FluxML/FastAI.jl",
     "FluxML/FluxTraining.jl",

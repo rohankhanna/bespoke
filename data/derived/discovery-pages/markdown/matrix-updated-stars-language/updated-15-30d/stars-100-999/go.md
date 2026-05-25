@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 762
-- components: 857
-- concepts: 764
-- observations: 765
+- repos: 93
+- terms: 739
+- components: 822
+- concepts: 741
+- observations: 742
 
 ## Static behavior
 
@@ -119,9 +119,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2dust/AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) | 427 | 2026-04-26T02:20:02Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [cloudfoundry/bosh-cli](https://github.com/cloudfoundry/bosh-cli) | 188 | 2026-04-25T10:06:16Z | Go | CLI | 1 | 4 | 1 | 1 |
 | [trzsz/tsshd](https://github.com/trzsz/tsshd) | 425 | 2026-04-25T07:36:53Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -177,7 +174,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go) | 421 | 2026-04-28T19:22:50Z | Go | CLI | 7 | 10 | 7 | 7 |
 | [CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) | 412 | 2026-05-04T08:11:41Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [apache/iceberg-go](https://github.com/apache/iceberg-go) | 405 | 2026-05-01T20:16:23Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [go-git/go-billy](https://github.com/go-git/go-billy) | 397 | 2026-04-24T21:19:12Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [runpod/runpodctl](https://github.com/runpod/runpodctl) | 393 | 2026-04-30T15:08:37Z | Go | CLI | 6 | 4 | 6 | 6 |
 | [web-infra-dev/rslint](https://github.com/web-infra-dev/rslint) | 389 | 2026-04-30T04:41:16Z | Go | Infrastructure/tooling | 11 | 20 | 11 | 11 |
 | [gookit/gcli](https://github.com/gookit/gcli) | 376 | 2026-05-07T06:42:47Z | Go | CLI | 15 | 8 | 15 | 15 |
@@ -191,7 +187,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudpilot-ai/karpenter-provider-gcp](https://github.com/cloudpilot-ai/karpenter-provider-gcp) | 303 | 2026-04-29T18:05:08Z | Go | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [seaweedfs/seaweedfs-operator](https://github.com/seaweedfs/seaweedfs-operator) | 297 | 2026-05-02T21:48:56Z | Go | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [gofiber/contrib](https://github.com/gofiber/contrib) | 296 | 2026-04-30T21:14:37Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [ipfs/boxo](https://github.com/ipfs/boxo) | 296 | 2026-04-24T12:34:04Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [charmbracelet/x](https://github.com/charmbracelet/x) | 290 | 2026-05-04T10:21:24Z | Go | CLI | 11 | 5 | 11 | 11 |
 | [toml-lang/toml-test](https://github.com/toml-lang/toml-test) | 261 | 2026-05-07T18:55:15Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [grafana/grafana-plugin-sdk-go](https://github.com/grafana/grafana-plugin-sdk-go) | 249 | 2026-05-01T13:43:43Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -207,7 +202,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gookit/cache](https://github.com/gookit/cache) | 198 | 2026-05-05T01:58:07Z | Go | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [cosmos/interchain-security](https://github.com/cosmos/interchain-security) | 191 | 2026-05-01T17:59:51Z | Go | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [cloudfoundry/bosh-cli](https://github.com/cloudfoundry/bosh-cli) | 188 | 2026-04-25T10:06:16Z | Go | CLI | 1 | 4 | 1 | 1 |
-| [ipfs/rainbow](https://github.com/ipfs/rainbow) | 168 | 2026-04-24T12:42:04Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [celzero/firestack](https://github.com/celzero/firestack) | 162 | 2026-04-30T19:44:42Z | Go | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 | [gookit/filter](https://github.com/gookit/filter) | 151 | 2026-05-06T03:19:00Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [pulumi/pulumi-azure-native](https://github.com/pulumi/pulumi-azure-native) | 151 | 2026-05-02T09:58:10Z | Go | Infrastructure/tooling | 6 | 18 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 224
-- components: 330
-- concepts: 225
-- observations: 228
+- repos: 58
+- terms: 226
+- components: 335
+- concepts: 227
+- observations: 230
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [fast/logforth](https://github.com/fast/logforth) | 216 | 2026-02-24T02:51:27Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [ItsEthra/typst-live](https://github.com/ItsEthra/typst-live) | 129 | 2026-02-23T18:24:12Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cormacrelf/dark-notify](https://github.com/cormacrelf/dark-notify) | 240 | 2026-02-21T06:47:33Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [typstyle-rs/typstyle](https://github.com/typstyle-rs/typstyle) | 806 | 2026-02-20T13:54:47Z | Rust | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | 298 | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -81,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shekohex/allo-isolate](https://github.com/shekohex/allo-isolate) | 127 | 2025-12-01T08:55:19Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
 | [faradayio/cage](https://github.com/faradayio/cage) | 315 | 2025-11-30T15:43:01Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [rust-bitcoin/rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) | 385 | 2025-11-25T22:05:13Z | Rust | CLI | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -108,7 +110,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
 | [hecrj/icebreaker](https://github.com/hecrj/icebreaker) | 430 | 2026-02-16T17:27:22Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [ratatui/templates](https://github.com/ratatui/templates) | 389 | 2026-02-12T22:25:53Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [rust-bitcoin/rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) | 385 | 2025-11-25T22:05:13Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [rust-bio/rust-htslib](https://github.com/rust-bio/rust-htslib) | 365 | 2026-01-29T10:32:34Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [yaahc/displaydoc](https://github.com/yaahc/displaydoc) | 361 | 2026-01-20T20:05:45Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [atanunq/viuer](https://github.com/atanunq/viuer) | 347 | 2025-12-09T17:16:05Z | Rust | CLI | 4 | 4 | 4 | 4 |
@@ -127,8 +128,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [callum-oakley/json5-rs](https://github.com/callum-oakley/json5-rs) | 232 | 2026-02-07T15:06:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [dustinblackman/cargo-run-bin](https://github.com/dustinblackman/cargo-run-bin) | 230 | 2025-12-19T02:30:12Z | Rust | CLI | 4 | 4 | 4 | 4 |
 | [risinglightdb/sqllogictest-rs](https://github.com/risinglightdb/sqllogictest-rs) | 226 | 2026-02-14T06:35:12Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [fast/logforth](https://github.com/fast/logforth) | 216 | 2026-02-24T02:51:27Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Lutetium-Vanadium/requestty](https://github.com/Lutetium-Vanadium/requestty) | 216 | 2025-12-02T10:38:21Z | Rust | CLI | 9 | 5 | 9 | 10 |
 | [tsonglew/dutis](https://github.com/tsonglew/dutis) | 209 | 2026-02-04T06:28:06Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [stanislav-tkach/os_info](https://github.com/stanislav-tkach/os_info) | 195 | 2026-01-23T08:54:36Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [zippoxer/recall](https://github.com/zippoxer/recall) | 178 | 2026-01-14T07:49:57Z | Rust | CLI | 2 | 6 | 0 | 0 |
 | [georust/proj](https://github.com/georust/proj) | 176 | 2026-02-11T00:08:22Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -136,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [browserslist/browserslist-rs](https://github.com/browserslist/browserslist-rs) | 148 | 2026-01-15T11:40:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [kata-containers/cgroups-rs](https://github.com/kata-containers/cgroups-rs) | 144 | 2026-02-03T06:38:00Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [microsoft/rust_win_etw](https://github.com/microsoft/rust_win_etw) | 130 | 2025-12-18T17:49:05Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [ItsEthra/typst-live](https://github.com/ItsEthra/typst-live) | 129 | 2026-02-23T18:24:12Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [jimblandy/perf-event](https://github.com/jimblandy/perf-event) | 129 | 2026-02-12T19:11:57Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [MSxDOS/ntapi](https://github.com/MSxDOS/ntapi) | 127 | 2026-02-10T09:33:35Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [shekohex/allo-isolate](https://github.com/shekohex/allo-isolate) | 127 | 2025-12-01T08:55:19Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |

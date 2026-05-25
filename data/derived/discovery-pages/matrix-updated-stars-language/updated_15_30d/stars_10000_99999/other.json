@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 996,
-    "concepts": 807,
-    "observations": 809,
-    "repos": 76,
-    "terms": 801
+    "components": 966,
+    "concepts": 768,
+    "observations": 770,
+    "repos": 73,
+    "terms": 762
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
     "adityatelange/hugo-PaperMod",
     "alpinejs/alpine",
     "apache/apisix",
-    "App-vNext/Polly",
     "ardalis/CleanArchitecture",
     "autowarefoundation/autoware",
     "aws/amazon-sagemaker-examples",
@@ -32,8 +31,6 @@
     "coil-kt/coil",
     "coollabsio/coolify",
     "crystal-lang/crystal",
-    "cython/cython",
-    "datawhalechina/self-llm",
     "Devolutions/UniGetUI",
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",

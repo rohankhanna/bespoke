@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 218,
-    "observations": 218,
+    "components": 157,
+    "concepts": 217,
+    "observations": 217,
     "repos": 15,
-    "terms": 218
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "aden-hive/hive",
+    "deepspeedai/DeepSpeed",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "Lightning-AI/pytorch-lightning",
-    "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "oobabooga/textgen",
     "psf/black",
@@ -27,7 +28,6 @@
     "pyg-team/pytorch_geometric",
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
-    "TEN-framework/ten-framework",
-    "ungoogled-software/ungoogled-chromium"
+    "TEN-framework/ten-framework"
   ]
 }

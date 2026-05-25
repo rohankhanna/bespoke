@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 857,
-    "concepts": 764,
-    "observations": 765,
-    "repos": 96,
-    "terms": 762
+    "components": 822,
+    "concepts": 741,
+    "observations": 742,
+    "repos": 93,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "aliyun/aliyun-cli",
@@ -52,7 +52,6 @@
     "dydxprotocol/v4-chain",
     "energye/energy",
     "fnproject/cli",
-    "go-git/go-billy",
     "go-logr/zapr",
     "go-openapi/strfmt",
     "gofiber/contrib",
@@ -69,8 +68,6 @@
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hybridgroup/yzma",
     "hypnoglow/helm-s3",
-    "ipfs/boxo",
-    "ipfs/rainbow",
     "istio/api",
     "istio/tools",
     "itzg/mc-monitor",

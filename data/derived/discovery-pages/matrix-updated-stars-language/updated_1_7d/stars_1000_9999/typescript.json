@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 615,
+    "components": 580,
     "concepts": 89,
     "observations": 89,
     "repos": 15,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
@@ -24,10 +24,10 @@
     "podman-desktop/podman-desktop",
     "safe-fndn/safe-smart-account",
     "TanStack/form",
-    "typescript-language-server/typescript-language-server",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
     "vercel/serve",
-    "vuejs/devtools"
+    "vuejs/devtools",
+    "vuejs/language-tools"
   ]
 }

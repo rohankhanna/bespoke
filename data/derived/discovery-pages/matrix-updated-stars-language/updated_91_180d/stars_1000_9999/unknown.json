@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 23,
+    "components": 27,
     "concepts": 59,
     "observations": 59,
-    "repos": 17,
+    "repos": 18,
     "terms": 58
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
@@ -26,6 +26,7 @@
     "jorgebucaran/awsm.fish",
     "msgpack/msgpack-c",
     "NVIDIA/Cosmos",
+    "obsidianmd/obsidian-api",
     "r-lyeh/single_file_libs",
     "sindresorhus/ponyfill",
     "syntax-tree/mdast",

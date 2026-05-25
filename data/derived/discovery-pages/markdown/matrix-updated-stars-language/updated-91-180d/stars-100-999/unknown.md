@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
+- repos: 32
 - terms: 74
 - components: 10
 - concepts: 63
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lxgw/lxgw](https://github.com/lxgw/lxgw) | 206 | 2026-02-23T12:11:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaDiff/BlueStyle](https://github.com/JuliaDiff/BlueStyle) | 513 | 2026-02-19T12:43:30Z | Unknown | Docs/knowledge | 5 | 0 | 5 | 5 |
 | [shadowspawn/node-version-usage](https://github.com/shadowspawn/node-version-usage) | 280 | 2026-02-14T00:44:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lintool/guide](https://github.com/lintool/guide) | 324 | 2026-02-11T23:06:08Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -84,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pingcap/community](https://github.com/pingcap/community) | 269 | 2026-01-16T09:06:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [oh-my-fish/packages-main](https://github.com/oh-my-fish/packages-main) | 260 | 2026-01-06T17:40:02Z | Unknown | Infrastructure/tooling | 3 | 1 | 5 | 5 |
 | [thibautmelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | 248 | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
+| [lxgw/lxgw](https://github.com/lxgw/lxgw) | 206 | 2026-02-23T12:11:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ntnu-arl/lidar_degeneracy_datasets](https://github.com/ntnu-arl/lidar_degeneracy_datasets) | 196 | 2026-02-03T12:49:37Z | Unknown | Model/data | 5 | 0 | 5 | 5 |
 | [Biscuit-Theme/biscuit](https://github.com/Biscuit-Theme/biscuit) | 190 | 2026-02-09T05:09:11Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents](https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents) | 170 | 2025-12-02T05:44:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

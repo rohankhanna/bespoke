@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 55186,
-    "concepts": 35867,
-    "observations": 35975,
-    "repos": 6066,
-    "terms": 35760
+    "concepts": 35872,
+    "observations": 35980,
+    "repos": 6067,
+    "terms": 35758
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -678,7 +678,6 @@
     "baidu/DDParser",
     "baidu/DuReader",
     "baidu/Familia",
-    "baidu/lac",
     "baidu/sofa-pbrpc",
     "bakpakin/Fennel",
     "balancap/SSD-Tensorflow",
@@ -707,6 +706,7 @@
     "bbatsov/emacs-lisp-style-guide",
     "bbatsov/prelude",
     "bbatsov/projectile",
+    "bbepis/XUnity.AutoTranslator",
     "bblanchon/ArduinoJson",
     "bblanchon/pdfium-binaries",
     "bblimke/webmock",
@@ -1505,6 +1505,7 @@
     "dmlc/decord",
     "dmlc/dlpack",
     "dmlc/gluon-nlp",
+    "dmMaze/BallonsTranslator",
     "dmotz/trystero",
     "dmtrKovalenko/fff",
     "DNSCrypt/dnscrypt-resolvers",

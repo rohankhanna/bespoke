@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 230,
-    "observations": 231,
-    "repos": 35,
-    "terms": 229
+    "components": 209,
+    "concepts": 242,
+    "observations": 243,
+    "repos": 36,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
+    "appbaseio/reactivesearch-api",
     "argoproj-labs/argocd-rbac-operator",
     "aws-observability/aws-otel-collector",
     "aws/amazon-ec2-instance-selector",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9556,
-    "concepts": 11444,
-    "observations": 11472,
-    "repos": 2371,
-    "terms": 11351
+    "components": 9586,
+    "concepts": 11448,
+    "observations": 11476,
+    "repos": 2373,
+    "terms": 11352
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -286,7 +286,6 @@
     "bagder/fcpp",
     "baidu/braft",
     "baidu/Familia",
-    "baidu/lac",
     "baidu/sofa-pbrpc",
     "baldurk/renderdoc",
     "barak/minidjvu",
@@ -627,6 +626,7 @@
     "DiligentGraphics/googletest",
     "DiligentGraphics/imgui",
     "DISTRHO/DPF",
+    "Distributive-Network/PythonMonkey",
     "dlbeer/dhara",
     "dloebl/cgif",
     "DLR-TS/SUMOLibraries",
@@ -636,6 +636,7 @@
     "dmlc/dlpack",
     "dmlc/treelite",
     "dmlc/xgboost",
+    "dmMaze/PyPatchMatchInpaint",
     "dnanexus-rnd/GLnexus",
     "DOCGroup/ACE_TAO",
     "doctest/doctest",
@@ -1035,6 +1036,7 @@
     "hholtmann/smcFanControl",
     "hhyyrylainen/GodotPckTool",
     "highfive-devs/highfive",
+    "HIllya51/LunaTranslator",
     "hiroi-sora/PaddleOCR-json",
     "hiroi-sora/RapidOCR-json",
     "hiroi-sora/Umi-OCR_runtime_windows",

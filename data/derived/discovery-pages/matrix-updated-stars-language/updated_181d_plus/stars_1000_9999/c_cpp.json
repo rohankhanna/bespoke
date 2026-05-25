@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 339,
-    "concepts": 759,
-    "observations": 759,
+    "components": 346,
+    "concepts": 763,
+    "observations": 763,
     "repos": 207,
-    "terms": 750
+    "terms": 754
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -36,7 +36,6 @@
     "atomicobject/heatshrink",
     "baidu/braft",
     "baidu/Familia",
-    "baidu/lac",
     "baidu/sofa-pbrpc",
     "basil00/WinDivert",
     "ben-strasser/fast-cpp-csv-parser",
@@ -152,6 +151,7 @@
     "mtrebi/thread-pool",
     "muellan/clipp",
     "ncopa/su-exec",
+    "nfrechette/acl",
     "NicoHood/HID",
     "niessner/Matterport",
     "nihui/realsr-ncnn-vulkan",

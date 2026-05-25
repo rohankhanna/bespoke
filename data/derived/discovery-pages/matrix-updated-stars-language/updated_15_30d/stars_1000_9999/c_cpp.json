@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1187,
-    "concepts": 1202,
-    "observations": 1202,
-    "repos": 140,
-    "terms": 1194
+    "components": 1165,
+    "concepts": 1174,
+    "observations": 1174,
+    "repos": 138,
+    "terms": 1166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -28,7 +28,6 @@
     "autowarefoundation/autoware_universe",
     "aws/aws-sdk-cpp",
     "bitcoin-core/secp256k1",
-    "boostorg/pfr",
     "brave/brave-core",
     "BYVoid/OpenCC",
     "cdcseacave/openMVS",
@@ -77,7 +76,6 @@
     "kismetwireless/kismet",
     "kokkos/kokkos",
     "KratosMultiphysics/Kratos",
-    "kvcache-ai/Mooncake",
     "leejet/stable-diffusion.cpp",
     "lemonade-sdk/lemonade",
     "libcpr/cpr",

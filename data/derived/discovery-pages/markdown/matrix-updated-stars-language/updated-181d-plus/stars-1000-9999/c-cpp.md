@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 207
-- terms: 750
-- components: 339
-- concepts: 759
-- observations: 759
+- terms: 754
+- components: 346
+- concepts: 763
+- observations: 763
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nfrechette/acl](https://github.com/nfrechette/acl) | 1550 | 2025-11-26T02:28:49Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [hapostgres/pg_auto_failover](https://github.com/hapostgres/pg_auto_failover) | 1341 | 2025-11-17T13:01:54Z | C/C++ | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [hanslub42/rlwrap](https://github.com/hanslub42/rlwrap) | 3056 | 2025-11-13T10:56:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [flame/blis](https://github.com/flame/blis) | 2631 | 2025-11-11T16:18:16Z | C/C++ | Framework | 13 | 0 | 13 | 13 |
@@ -185,7 +186,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HKUST-Aerial-Robotics/A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) | 2400 | 2023-10-19T11:18:59Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [DadSchoorse/vkBasalt](https://github.com/DadSchoorse/vkBasalt) | 1501 | 2023-10-04T19:40:30Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [id-Software/quake2-rerelease-dll](https://github.com/id-Software/quake2-rerelease-dll) | 2203 | 2023-10-03T18:43:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2196 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2195 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libgit2/objective-git](https://github.com/libgit2/objective-git) | 1165 | 2023-09-17T05:16:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mitsuba-renderer/mitsuba](https://github.com/mitsuba-renderer/mitsuba) | 1103 | 2023-09-11T19:45:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kiwi-bdd/Kiwi](https://github.com/kiwi-bdd/Kiwi) | 4121 | 2023-09-05T11:52:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -210,7 +211,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nihui/realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan) | 1209 | 2023-03-12T03:03:53Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [vit-vit/CTPL](https://github.com/vit-vit/CTPL) | 2029 | 2023-01-26T06:30:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [bitfieldaudio/OTTO](https://github.com/bitfieldaudio/OTTO) | 2718 | 2023-01-23T08:31:10Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
-| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7356 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7358 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle](https://github.com/Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle) | 1221 | 2022-12-15T07:11:10Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [cmu-db/noisepage](https://github.com/cmu-db/noisepage) | 1762 | 2022-11-08T02:06:47Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [lzfse/lzfse](https://github.com/lzfse/lzfse) | 1820 | 2022-09-05T14:32:12Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
@@ -232,7 +233,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chjj/compton](https://github.com/chjj/compton) | 2265 | 2021-06-29T13:48:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [statsite/statsite](https://github.com/statsite/statsite) | 1821 | 2021-06-11T12:37:55Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [cbucher/console](https://github.com/cbucher/console) | 2922 | 2021-06-06T13:29:02Z | C/C++ | CLI | 4 | 0 | 5 | 5 |
-| [baidu/lac](https://github.com/baidu/lac) | 3999 | 2021-05-25T10:46:36Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -247,7 +247,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) | 7934 | 2024-07-24T10:06:45Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 7675 | 2025-04-19T14:02:47Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [google/glog](https://github.com/google/glog) | 7365 | 2025-05-17T11:51:44Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7356 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7358 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) | 7248 | 2025-05-22T12:07:25Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [stanfordnlp/GloVe](https://github.com/stanfordnlp/GloVe) | 7217 | 2025-07-27T18:05:10Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [julienxx/terminal-notifier](https://github.com/julienXX/terminal-notifier) | 7150 | 2025-11-02T14:24:58Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
@@ -286,7 +286,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tomaz/appledoc](https://github.com/tomaz/appledoc) | 4191 | 2023-04-18T11:08:26Z | C/C++ | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [kiwi-bdd/Kiwi](https://github.com/kiwi-bdd/Kiwi) | 4121 | 2023-09-05T11:52:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google/AFL](https://github.com/google/AFL) | 4092 | 2021-07-05T14:02:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [baidu/lac](https://github.com/baidu/lac) | 3999 | 2021-05-25T10:46:36Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [ethereum/aleth](https://github.com/ethereum/aleth) | 3972 | 2024-03-05T10:53:01Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
 | [AnswerDotAI/gpu.cpp](https://github.com/AnswerDotAI/gpu.cpp) | 3965 | 2025-10-08T16:35:45Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [kuzudb/kuzu](https://github.com/kuzudb/kuzu) | 3886 | 2025-10-10T15:34:00Z | C/C++ | Infrastructure/tooling | 20 | 14 | 20 | 20 |
@@ -331,7 +330,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chjj/compton](https://github.com/chjj/compton) | 2265 | 2021-06-29T13:48:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics) | 2213 | 2025-09-04T09:37:48Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [id-Software/quake2-rerelease-dll](https://github.com/id-Software/quake2-rerelease-dll) | 2203 | 2023-10-03T18:43:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2196 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2195 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [GPUOpen-Effects/FidelityFX-FSR](https://github.com/GPUOpen-Effects/FidelityFX-FSR) | 2161 | 2022-05-22T20:25:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [baidu/sofa-pbrpc](https://github.com/baidu/sofa-pbrpc) | 2144 | 2023-08-24T08:55:55Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet) | 2141 | 2024-01-09T01:47:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -377,6 +376,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [politza/pdf-tools](https://github.com/politza/pdf-tools) | 1578 | 2022-08-07T12:01:25Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [RWKV/rwkv.cpp](https://github.com/RWKV/rwkv.cpp) | 1569 | 2025-03-23T05:04:42Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [uzh-rpg/rpg_svo_pro_open](https://github.com/uzh-rpg/rpg_svo_pro_open) | 1569 | 2024-01-19T05:56:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [nfrechette/acl](https://github.com/nfrechette/acl) | 1550 | 2025-11-26T02:28:49Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [hyperic/sigar](https://github.com/hyperic/sigar) | 1547 | 2023-12-20T06:44:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) | 1520 | 2024-05-19T06:44:22Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [DadSchoorse/vkBasalt](https://github.com/DadSchoorse/vkBasalt) | 1501 | 2023-10-04T19:40:30Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 55,
-    "terms": 94
+    "components": 192,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 54,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -21,8 +21,8 @@
     "adamharrison/quetta",
     "ahrefs/opam-check-npm-deps",
     "anchordotdev/puma-acme",
+    "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
-    "atrodo/WebGPU-Direct",
     "baskeboler/clj-karaoke-lyrics",
     "Blosc/PyData-Global-2025-Tutorial",
     "datachainlab/lcp-solidity",
@@ -51,7 +51,6 @@
     "mirage/coin",
     "mmark-md/flycheck-mmark",
     "objectbox/objectbox-swift-generator",
-    "ocaml-opam/opam-rt",
     "OutlierDetectionJL/OutlierDetectionData.jl",
     "OutlierDetectionJL/OutlierDetectionNeighbors.jl",
     "parruda/ruby_llm",

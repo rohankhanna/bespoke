@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 100
-- terms: 701
-- components: 3241
-- concepts: 708
-- observations: 710
+- repos: 103
+- terms: 723
+- components: 3379
+- concepts: 730
+- observations: 732
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [2mawi2/schaltwerk](https://github.com/2mawi2/schaltwerk) | 281 | 2026-05-11T05:23:06Z | TypeScript | Infrastructure/tooling | 7 | 73 | 7 | 7 |
+| [Rel1cx/eslint-react](https://github.com/Rel1cx/eslint-react) | 547 | 2026-05-10T15:47:34Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
+| [serversideup/webext-bridge](https://github.com/serversideup/webext-bridge) | 709 | 2026-05-10T15:45:12Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug) | 833 | 2026-05-08T21:37:05Z | TypeScript | Infrastructure/tooling | 6 | 46 | 6 | 6 |
 | [Agoric/agoric-sdk](https://github.com/Agoric/agoric-sdk) | 354 | 2026-05-06T22:06:16Z | TypeScript | Infrastructure/tooling | 5 | 48 | 5 | 5 |
 | [embroider-build/ember-auto-import](https://github.com/embroider-build/ember-auto-import) | 359 | 2026-05-06T20:07:13Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
@@ -153,6 +156,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sergiodxa/remix-i18next](https://github.com/sergiodxa/remix-i18next) | 719 | 2026-04-27T05:42:39Z | TypeScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |
 | [TanStack/pacer](https://github.com/TanStack/pacer) | 714 | 2026-05-01T03:08:43Z | TypeScript | Infrastructure/tooling | 9 | 29 | 9 | 9 |
 | [fullcalendar/temporal-polyfill](https://github.com/fullcalendar/temporal-polyfill) | 711 | 2026-04-29T00:47:29Z | TypeScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [serversideup/webext-bridge](https://github.com/serversideup/webext-bridge) | 709 | 2026-05-10T15:45:12Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [cosmos/cosmjs](https://github.com/cosmos/cosmjs) | 696 | 2026-04-30T20:02:42Z | TypeScript | CLI | 5 | 30 | 5 | 5 |
 | [unjs/unimport](https://github.com/unjs/unimport) | 678 | 2026-05-01T19:40:52Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [relative-ci/bundle-stats](https://github.com/relative-ci/bundle-stats) | 668 | 2026-04-30T02:05:58Z | TypeScript | Infrastructure/tooling | 18 | 39 | 18 | 18 |
@@ -166,6 +170,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kkomelin/isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify) | 574 | 2026-04-29T14:05:25Z | TypeScript | CLI | 12 | 13 | 12 | 12 |
 | [carbon-design-system/carbon-components-angular](https://github.com/carbon-design-system/carbon-components-angular) | 560 | 2026-05-03T23:36:00Z | TypeScript | Infrastructure/tooling | 9 | 80 | 9 | 9 |
 | [mmkal/expect-type](https://github.com/mmkal/expect-type) | 552 | 2026-04-29T08:39:41Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
+| [Rel1cx/eslint-react](https://github.com/Rel1cx/eslint-react) | 547 | 2026-05-10T15:47:34Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
 | [jurplel/install-qt-action](https://github.com/jurplel/install-qt-action) | 547 | 2026-04-28T12:43:03Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [wevm/abitype](https://github.com/wevm/abitype) | 544 | 2026-05-03T19:33:47Z | TypeScript | Infrastructure/tooling | 10 | 23 | 10 | 10 |
 | [octokit/graphql.js](https://github.com/octokit/graphql.js) | 495 | 2026-04-29T15:33:06Z | TypeScript | CLI | 7 | 22 | 7 | 7 |
@@ -196,6 +201,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unjs/get-port-please](https://github.com/unjs/get-port-please) | 300 | 2026-05-01T19:36:18Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [oclif/core](https://github.com/oclif/core) | 297 | 2026-04-28T13:40:30Z | TypeScript | CLI | 9 | 73 | 9 | 9 |
 | [nuxt/bridge](https://github.com/nuxt/bridge) | 288 | 2026-05-01T05:54:08Z | TypeScript | Infrastructure/tooling | 6 | 36 | 6 | 8 |
+| [2mawi2/schaltwerk](https://github.com/2mawi2/schaltwerk) | 281 | 2026-05-11T05:23:06Z | TypeScript | Infrastructure/tooling | 7 | 73 | 7 | 7 |
 | [antvis/chart-visualization-skills](https://github.com/antvis/chart-visualization-skills) | 280 | 2026-04-28T09:51:39Z | TypeScript | CLI | 6 | 8 | 6 | 6 |
 | [foundry-rs/foundry-toolchain](https://github.com/foundry-rs/foundry-toolchain) | 273 | 2026-05-04T12:22:30Z | TypeScript | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [browserslist/browserslist-useragent-regexp](https://github.com/browserslist/browserslist-useragent-regexp) | 272 | 2026-04-30T10:13:20Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |

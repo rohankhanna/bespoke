@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 157
-- components: 804
-- concepts: 159
-- observations: 159
+- repos: 15
+- terms: 135
+- components: 666
+- concepts: 137
+- observations: 137
 
 ## Static behavior
 
@@ -41,9 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apify/mcpc](https://github.com/apify/mcpc) | 597 | 2026-05-11T18:30:17Z | TypeScript | CLI | 7 | 36 | 9 | 9 |
 | [apify/apify-cli](https://github.com/apify/apify-cli) | 216 | 2026-05-11T16:51:23Z | TypeScript | Infrastructure/tooling | 14 | 98 | 14 | 14 |
 | [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 344 | 2026-05-11T11:27:19Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
-| [2mawi2/schaltwerk](https://github.com/2mawi2/schaltwerk) | 281 | 2026-05-11T05:23:06Z | TypeScript | Infrastructure/tooling | 7 | 73 | 7 | 7 |
-| [Rel1cx/eslint-react](https://github.com/Rel1cx/eslint-react) | 547 | 2026-05-10T15:47:34Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
-| [serversideup/webext-bridge](https://github.com/serversideup/webext-bridge) | 709 | 2026-05-10T15:45:12Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -51,14 +48,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Luligu/matterbridge](https://github.com/Luligu/matterbridge) | 895 | 2026-05-13T12:14:25Z | TypeScript | Infrastructure/tooling | 24 | 43 | 24 | 24 |
 | [RiDDiX/home-assistant-matter-hub](https://github.com/RiDDiX/home-assistant-matter-hub) | 884 | 2026-05-14T16:05:43Z | TypeScript | Infrastructure/tooling | 4 | 31 | 4 | 4 |
-| [serversideup/webext-bridge](https://github.com/serversideup/webext-bridge) | 709 | 2026-05-10T15:45:12Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [apify/mcpc](https://github.com/apify/mcpc) | 597 | 2026-05-11T18:30:17Z | TypeScript | CLI | 7 | 36 | 9 | 9 |
 | [Koenkk/zigbee-herdsman](https://github.com/Koenkk/zigbee-herdsman) | 557 | 2026-05-14T17:05:21Z | TypeScript | Infrastructure/tooling | 4 | 25 | 4 | 4 |
-| [Rel1cx/eslint-react](https://github.com/Rel1cx/eslint-react) | 547 | 2026-05-10T15:47:34Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
 | [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 344 | 2026-05-11T11:27:19Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
 | [Brendonovich/MacroGraph](https://github.com/Brendonovich/MacroGraph) | 306 | 2026-05-17T04:12:00Z | TypeScript | Infrastructure/tooling | 14 | 31 | 14 | 14 |
 | [nurikk/zigbee2mqtt-frontend](https://github.com/nurikk/zigbee2mqtt-frontend) | 301 | 2026-05-12T15:13:38Z | TypeScript | Infrastructure/tooling | 4 | 86 | 4 | 4 |
-| [2mawi2/schaltwerk](https://github.com/2mawi2/schaltwerk) | 281 | 2026-05-11T05:23:06Z | TypeScript | Infrastructure/tooling | 7 | 73 | 7 | 7 |
 | [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 277 | 2026-05-14T02:08:07Z | TypeScript | Infrastructure/tooling | 2 | 43 | 2 | 2 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-16T23:13:09Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 240 | 2026-05-16T11:31:12Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 375,
-    "concepts": 746,
-    "observations": 746,
-    "repos": 203,
-    "terms": 740
+    "components": 370,
+    "concepts": 758,
+    "observations": 758,
+    "repos": 204,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0k/shyaml",
-    "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -32,6 +31,7 @@
     "alonw0/web-asset-generator",
     "AMAP-ML/Tree-GRPO",
     "amazon-far/TWIST2",
+    "AMD-AGI/Nitro-E",
     "amd/Quark",
     "AmenRa/retriv",
     "apache/rocketmq-client-python",
@@ -40,7 +40,6 @@
     "ashvardanian/less_slow.py",
     "ASLP-lab/Easy-Turn",
     "autonomousvision/carla_garage",
-    "autonomousvision/plant",
     "aws-cloudformation/aws-cloudformation-samples",
     "aws-samples/sample-agentic-ai-demos",
     "aws-samples/sample-bedrock-deep-researcher",
@@ -64,6 +63,7 @@
     "christgau/wsdd",
     "citation-file-format/citation-file-format",
     "clearbluejar/ghidrecomp",
+    "cleinc/bts",
     "clemense/yourdfpy",
     "CNChTu/Diffusion-SVC",
     "CodeClash-ai/CodeClash",
@@ -98,6 +98,7 @@
     "hako-mikan/sd-webui-supermerger",
     "haoxiangsnr/spiking-fullsubnet",
     "hasscc/hass-edge-tts",
+    "Helsinki-NLP/Opus-MT",
     "hkchengrex/CascadePSP",
     "HolyWu/vs-rife",
     "httplib2/httplib2",
@@ -138,6 +139,7 @@
     "ModelTC/GenRL",
     "MontaEllis/Pytorch-Medical-Segmentation",
     "Mountchicken/Resophy",
+    "mtkennerly/poetry-dynamic-versioning",
     "multi-swe-bench/multi-swe-bench",
     "multimodal-reasoning-lab/Bagel-Zebra-CoT",
     "mxmlnkn/rapidgzip",
@@ -157,7 +159,6 @@
     "OpenSparseLLMs/MoM",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
-    "PDillis/stylegan3-fun",
     "pinokiofactory/cogstudio",
     "PramaLLC/BEN2",
     "PrithivirajDamodaran/FlashRank",

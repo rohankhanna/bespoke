@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 176
-- components: 173
-- concepts: 176
-- observations: 176
+- repos: 35
+- terms: 186
+- components: 187
+- concepts: 181
+- observations: 181
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [abh/geodns](https://github.com/abh/geodns) | 1451 | 2026-02-23T22:34:37Z | Go | CLI | 0 | 0 | 0 | 0 |
+| [flashbots/mev-boost](https://github.com/flashbots/mev-boost) | 1423 | 2026-02-23T16:48:55Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [dagger/container-use](https://github.com/dagger/container-use) | 3730 | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
 | [go-rod/rod](https://github.com/go-rod/rod) | 6881 | 2026-02-17T04:59:41Z | Go | Infrastructure/tooling | 19 | 4 | 19 | 19 |
 | [gobwas/ws](https://github.com/gobwas/ws) | 6455 | 2026-02-12T17:07:49Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [avast/retry-go](https://github.com/avast/retry-go) | 2915 | 2026-02-12T09:24:39Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
@@ -76,6 +79,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli) | 5572 | 2026-01-20T19:06:00Z | Go | CLI | 16 | 7 | 16 | 16 |
 | [uber-go/goleak](https://github.com/uber-go/goleak) | 5176 | 2025-12-10T19:13:19Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [github/git-sizer](https://github.com/github/git-sizer) | 4018 | 2026-01-16T14:50:04Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
+| [dagger/container-use](https://github.com/dagger/container-use) | 3730 | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
 | [sony/gobreaker](https://github.com/sony/gobreaker) | 3597 | 2026-02-07T09:21:38Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [nutsdb/nutsdb](https://github.com/nutsdb/nutsdb) | 3565 | 2026-02-08T02:02:28Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [protocolbuffers/protobuf-go](https://github.com/protocolbuffers/protobuf-go) | 3317 | 2026-01-20T15:10:56Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
@@ -90,6 +94,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [evmos/evmos](https://github.com/evmos/evmos) | 1699 | 2026-01-13T11:57:33Z | Go | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [chaisql/chai](https://github.com/chaisql/chai) | 1682 | 2026-01-16T09:12:13Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [jhump/protoreflect](https://github.com/jhump/protoreflect) | 1480 | 2026-01-21T14:35:59Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [abh/geodns](https://github.com/abh/geodns) | 1451 | 2026-02-23T22:34:37Z | Go | CLI | 0 | 0 | 0 | 0 |
+| [flashbots/mev-boost](https://github.com/flashbots/mev-boost) | 1423 | 2026-02-23T16:48:55Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [apache/rocketmq-client-go](https://github.com/apache/rocketmq-client-go) | 1409 | 2026-01-12T02:50:18Z | Go | CLI | 3 | 5 | 3 | 3 |
 | [restic/rest-server](https://github.com/restic/rest-server) | 1406 | 2026-02-03T01:25:20Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [liquidmetal-dev/flintlock](https://github.com/liquidmetal-dev/flintlock) | 1389 | 2026-02-07T09:36:23Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |

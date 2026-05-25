@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 381,
-    "concepts": 756,
-    "observations": 757,
-    "repos": 157,
-    "terms": 747
+    "components": 383,
+    "concepts": 758,
+    "observations": 759,
+    "repos": 158,
+    "terms": 749
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -104,6 +104,7 @@
     "modelscope/3D-Speaker",
     "ModelTC/LightX2V-Qwen-Image-Lightning",
     "mosaicml/streaming",
+    "mozillazg/pinyin-data",
     "myhub/tr",
     "nari-labs/dia2",
     "NixOS/nixops",

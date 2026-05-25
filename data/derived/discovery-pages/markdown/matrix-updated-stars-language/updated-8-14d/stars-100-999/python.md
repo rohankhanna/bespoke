@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -35,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [djlint/djLint](https://github.com/djlint/djLint) | 920 | 2026-05-11T12:58:31Z | Python | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [mll-lab-nu/VAGEN](https://github.com/mll-lab-nu/VAGEN) | 461 | 2026-05-11T11:55:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 434 | 2026-05-11T09:36:32Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 308 | 2026-05-11T09:01:07Z | Python | CLI | 10 | 9 | 10 | 10 |
+| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 307 | 2026-05-11T09:01:07Z | Python | CLI | 10 | 9 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -47,7 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mll-lab-nu/VAGEN](https://github.com/mll-lab-nu/VAGEN) | 461 | 2026-05-11T11:55:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 434 | 2026-05-11T09:36:32Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [TextArena/TextArena](https://github.com/TextArena/TextArena) | 398 | 2026-05-16T15:12:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 308 | 2026-05-11T09:01:07Z | Python | CLI | 10 | 9 | 10 | 10 |
+| [databrickslabs/ucx](https://github.com/databrickslabs/ucx) | 307 | 2026-05-11T09:01:07Z | Python | CLI | 10 | 9 | 10 | 10 |
 | [DanielLin94144/Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench) | 177 | 2026-05-12T19:23:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [OpenHands/ToM-SWE](https://github.com/OpenHands/ToM-SWE) | 106 | 2026-05-12T19:54:01Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [GStreamer/cerbero](https://github.com/GStreamer/cerbero) | 103 | 2026-05-14T09:29:47Z | Python | Library | 0 | 0 | 0 | 0 |

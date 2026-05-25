@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 279
-- components: 178
-- concepts: 284
-- observations: 284
+- repos: 35
+- terms: 261
+- components: 168
+- concepts: 266
+- observations: 266
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [atsushieno/aap-lv2](https://github.com/atsushieno/aap-lv2) | 11 | 2026-05-10T17:15:11Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [xuegao-tzx/Fllama](https://github.com/xuegao-tzx/Fllama) | 36 | 2026-05-08T16:22:50Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [atsushieno/uapmd](https://github.com/atsushieno/uapmd) | 18 | 2026-05-08T02:21:37Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [bmwiedemann/openSUSE](https://github.com/bmwiedemann/openSUSE) | 46 | 2026-05-07T01:18:24Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -60,9 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libbitcoin/libbitcoin-network](https://github.com/libbitcoin/libbitcoin-network) | 79 | 2026-04-26T04:40:35Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [skeeto/dcmake](https://github.com/skeeto/dcmake) | 68 | 2026-04-25T15:15:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [libbitcoin/libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database) | 83 | 2026-04-25T06:18:46Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [gazebosim/gz-transport](https://github.com/gazebosim/gz-transport) | 51 | 2026-04-24T23:17:15Z | C/C++ | CLI | 17 | 7 | 17 | 17 |
-| [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [acts-project/traccc](https://github.com/acts-project/traccc) | 42 | 2026-04-24T11:20:27Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -83,13 +81,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gazebosim/gz-rendering](https://github.com/gazebosim/gz-rendering) | 76 | 2026-05-01T13:14:18Z | C/C++ | Infrastructure/tooling | 18 | 7 | 19 | 19 |
 | [microsoft/aitour-exploring-cutting-edge-models](https://github.com/microsoft/aitour-exploring-cutting-edge-models) | 76 | 2026-04-30T19:29:08Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [ROCm/rpp](https://github.com/ROCm/rpp) | 72 | 2026-04-29T16:52:27Z | C/C++ | Library | 12 | 0 | 12 | 12 |
-| [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [LedgerHQ/app-boilerplate](https://github.com/LedgerHQ/app-boilerplate) | 68 | 2026-04-28T12:21:18Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [skeeto/dcmake](https://github.com/skeeto/dcmake) | 68 | 2026-04-25T15:15:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [gazebosim/gz-transport](https://github.com/gazebosim/gz-transport) | 51 | 2026-04-24T23:17:15Z | C/C++ | CLI | 17 | 7 | 17 | 17 |
 | [heiher/hev-socks5-core](https://github.com/heiher/hev-socks5-core) | 48 | 2026-05-02T09:04:59Z | C/C++ | CLI | 3 | 1 | 3 | 3 |
 | [bmwiedemann/openSUSE](https://github.com/bmwiedemann/openSUSE) | 46 | 2026-05-07T01:18:24Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [acts-project/traccc](https://github.com/acts-project/traccc) | 42 | 2026-04-24T11:20:27Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [zig-wasm/wasmer-zig-api](https://github.com/zig-wasm/wasmer-zig-api) | 38 | 2026-05-06T11:58:12Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [Antares0982/ssrJSON](https://github.com/Antares0982/ssrJSON) | 37 | 2026-04-29T14:07:59Z | C/C++ | Infrastructure/tooling | 8 | 9 | 9 | 9 |
 | [xuegao-tzx/Fllama](https://github.com/xuegao-tzx/Fllama) | 36 | 2026-05-08T16:22:50Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
@@ -104,4 +99,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atsushieno/uapmd](https://github.com/atsushieno/uapmd) | 18 | 2026-05-08T02:21:37Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [gazebosim/gz-tools](https://github.com/gazebosim/gz-tools) | 16 | 2026-05-02T02:44:55Z | C/C++ | CLI | 13 | 5 | 13 | 13 |
 | [walbourn/directxmathtest](https://github.com/walbourn/directxmathtest) | 16 | 2026-04-27T17:16:07Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
+| [atsushieno/aap-lv2](https://github.com/atsushieno/aap-lv2) | 11 | 2026-05-10T17:15:11Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [confluentinc/libserdes](https://github.com/confluentinc/libserdes) | 11 | 2026-04-30T18:31:38Z | C/C++ | Library | 0 | 0 | 0 | 0 |

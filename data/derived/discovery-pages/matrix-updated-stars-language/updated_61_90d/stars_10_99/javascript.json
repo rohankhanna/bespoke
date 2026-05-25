@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 19,
-    "terms": 58
+    "components": 258,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 25,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
+    "angular/domino",
     "apostrophecms/apostrophe-astro",
     "appwrite/playground-for-node",
     "broccolijs/broccoli-plugin",
     "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
+    "csstree/stylelint-validator",
+    "eemeli/make-plural",
+    "eemeli/prettier-plugin-properties",
+    "Fil/d3-tricontour",
     "hudochenkov/stylelint-config-hudochenkov",
     "ipld/js-dag-pb",
+    "kddnewton/prettier-plugin-ini",
     "kibertoad/toad-cache",
     "mongodb-js/zstd",
     "npm/json-parse-even-better-errors",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 178
-- terms: 581
-- components: 716
-- concepts: 589
-- observations: 595
+- repos: 179
+- terms: 582
+- components: 719
+- concepts: 590
+- observations: 596
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust-bitcoin/rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) | 385 | 2025-11-25T22:05:13Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [rust-windowing/gl-rs](https://github.com/rust-windowing/gl-rs) | 742 | 2025-11-25T09:08:08Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [harfbuzz/ttf-parser](https://github.com/harfbuzz/ttf-parser) | 762 | 2025-11-22T11:57:15Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [rust-embedded-community/serde-json-core](https://github.com/rust-embedded-community/serde-json-core) | 192 | 2025-11-18T12:05:40Z | Rust | Infrastructure/tooling | 5 | 2 | 6 | 6 |
@@ -269,6 +270,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asg017/sqlite-loadable-rs](https://github.com/asg017/sqlite-loadable-rs) | 402 | 2025-05-02T17:29:00Z | Rust | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [alacritty/vtebench](https://github.com/alacritty/vtebench) | 392 | 2025-01-09T07:23:53Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [Michael-F-Bryan/include_dir](https://github.com/Michael-F-Bryan/include_dir) | 391 | 2024-07-05T12:01:32Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [rust-bitcoin/rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) | 385 | 2025-11-25T22:05:13Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [aweinstock314/rust-clipboard](https://github.com/aweinstock314/rust-clipboard) | 378 | 2023-05-19T15:01:33Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [andrewmilson/ministark](https://github.com/andrewmilson/ministark) | 377 | 2024-11-19T16:34:57Z | Rust | Infrastructure/tooling | 17 | 6 | 17 | 17 |
 | [BurntSushi/cargo-benchcmp](https://github.com/BurntSushi/cargo-benchcmp) | 367 | 2024-08-29T16:45:27Z | Rust | Unknown | 0 | 0 | 0 | 0 |

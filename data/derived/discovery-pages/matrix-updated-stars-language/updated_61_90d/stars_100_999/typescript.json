@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1136,
-    "concepts": 261,
-    "observations": 262,
-    "repos": 42,
-    "terms": 272
+    "components": 1214,
+    "concepts": 270,
+    "observations": 271,
+    "repos": 45,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -22,12 +22,14 @@
     "antfu-collective/bumpp",
     "antfu/changelogithub",
     "antfu/eslint-plugin-command",
+    "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "aymenfurter/ralph",
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
+    "fannheyward/create-coc-extension",
     "filllabs/dependi",
     "fnando/i18n",
     "graphql-hive/graphql-eslint",
@@ -36,11 +38,12 @@
     "import-js/eslint-import-resolver-typescript",
     "inciteful-xyz/inciteful-zotero-plugin",
     "ivo-toby/mcp-openapi-server",
-    "kamranahmedse/claude-run",
     "kylebarron/arrow-js-ffi",
+    "latex-lsp/texlab-vscode",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
     "multiformats/js-multiformats",
+    "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
     "solidjs/templates",

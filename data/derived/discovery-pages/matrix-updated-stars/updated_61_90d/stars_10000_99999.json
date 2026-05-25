@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 735,
-    "concepts": 452,
-    "observations": 454,
-    "repos": 78,
-    "terms": 461
+    "components": 750,
+    "concepts": 457,
+    "observations": 459,
+    "repos": 81,
+    "terms": 466
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
     "alibaba/Sentinel",
+    "allenai/olmocr",
     "AndyMik90/Aperant",
     "aria2/aria2",
     "bellard/quickjs",
@@ -44,6 +45,7 @@
     "humanlayer/humanlayer",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
+    "karpathy/autoresearch",
     "KlingAIResearch/LivePortrait",
     "knownsec/404StarLink",
     "kubernetes/ingress-nginx",
@@ -56,6 +58,7 @@
     "microsoft/AirSim",
     "mobile-shell/mosh",
     "nikic/PHP-Parser",
+    "openai/CLIP",
     "PaddlePaddle/PaddleDetection",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 85
-- terms: 970
-- components: 4634
-- concepts: 972
-- observations: 976
+- repos: 80
+- terms: 918
+- components: 4492
+- concepts: 920
+- observations: 924
 
 ## Static behavior
 
@@ -106,11 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adonisjs/core](https://github.com/adonisjs/core) | 18886 | 2026-04-26T14:49:15Z | TypeScript | Infrastructure/tooling | 11 | 70 | 11 | 11 |
 | [postcss/postcss](https://github.com/postcss/postcss) | 28970 | 2026-04-26T14:22:42Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [privatenumber/tsx](https://github.com/privatenumber/tsx) | 11967 | 2026-04-25T16:04:48Z | TypeScript | CLI | 8 | 41 | 8 | 8 |
-| [louislam/dockge](https://github.com/louislam/dockge) | 23066 | 2026-04-25T02:28:26Z | TypeScript | Infrastructure/tooling | 17 | 80 | 17 | 17 |
-| [gvergnaud/ts-pattern](https://github.com/gvergnaud/ts-pattern) | 14967 | 2026-04-24T23:32:29Z | TypeScript | Library | 8 | 7 | 8 | 8 |
-| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | 11050 | 2026-04-24T21:48:36Z | TypeScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | 17098 | 2026-04-24T20:52:35Z | TypeScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
-| [discordjs/discord.js](https://github.com/discordjs/discord.js) | 26681 | 2026-04-24T17:11:21Z | TypeScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
 
 ## Repos sorted by stars
 
@@ -157,12 +152,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [element-plus/element-plus](https://github.com/element-plus/element-plus) | 27370 | 2026-05-02T11:06:49Z | TypeScript | Infrastructure/tooling | 13 | 68 | 13 | 13 |
 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27076 | 2026-04-27T21:35:23Z | TypeScript | Infrastructure/tooling | 21 | 17 | 21 | 21 |
 | [angular/angular-cli](https://github.com/angular/angular-cli) | 27038 | 2026-04-30T15:38:38Z | TypeScript | CLI | 7 | 111 | 7 | 8 |
-| [discordjs/discord.js](https://github.com/discordjs/discord.js) | 26681 | 2026-04-24T17:11:21Z | TypeScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
 | [marmelab/react-admin](https://github.com/marmelab/react-admin) | 26667 | 2026-04-29T07:50:07Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | 25444 | 2026-05-02T20:19:28Z | TypeScript | Infrastructure/tooling | 12 | 51 | 12 | 13 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | 24244 | 2026-04-29T22:35:26Z | TypeScript | Infrastructure/tooling | 9 | 75 | 9 | 9 |
 | [jquense/yup](https://github.com/jquense/yup) | 23684 | 2026-04-29T20:10:51Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
-| [louislam/dockge](https://github.com/louislam/dockge) | 23066 | 2026-04-25T02:28:26Z | TypeScript | Infrastructure/tooling | 17 | 80 | 17 | 17 |
 | [jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster) | 22402 | 2026-04-30T07:53:12Z | TypeScript | Infrastructure/tooling | 18 | 80 | 18 | 19 |
 | [vueuse/vueuse](https://github.com/vueuse/vueuse) | 22218 | 2026-05-01T01:49:58Z | TypeScript | Infrastructure/tooling | 7 | 79 | 7 | 7 |
 | [QwikDev/qwik](https://github.com/QwikDev/qwik) | 21997 | 2026-05-01T08:49:36Z | TypeScript | Infrastructure/tooling | 8 | 94 | 8 | 8 |
@@ -175,10 +168,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mswjs/msw](https://github.com/mswjs/msw) | 17901 | 2026-04-29T15:37:37Z | TypeScript | Infrastructure/tooling | 16 | 71 | 16 | 16 |
 | [oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) | 17850 | 2026-04-30T08:33:20Z | TypeScript | Infrastructure/tooling | 8 | 22 | 8 | 8 |
 | [vuejs/vitepress](https://github.com/vuejs/vitepress) | 17637 | 2026-05-02T18:42:37Z | TypeScript | Infrastructure/tooling | 8 | 102 | 9 | 9 |
-| [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | 17098 | 2026-04-24T20:52:35Z | TypeScript | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 16439 | 2026-04-29T19:46:19Z | TypeScript | Infrastructure/tooling | 9 | 41 | 9 | 9 |
 | [faker-js/faker](https://github.com/faker-js/faker) | 15031 | 2026-05-02T21:49:18Z | TypeScript | Infrastructure/tooling | 11 | 42 | 11 | 11 |
-| [gvergnaud/ts-pattern](https://github.com/gvergnaud/ts-pattern) | 14967 | 2026-04-24T23:32:29Z | TypeScript | Library | 8 | 7 | 8 | 8 |
 | [scalar/scalar](https://github.com/scalar/scalar) | 14880 | 2026-04-30T01:41:39Z | TypeScript | CLI | 15 | 58 | 15 | 15 |
 | [formatjs/formatjs](https://github.com/formatjs/formatjs) | 14706 | 2026-04-29T23:38:08Z | TypeScript | Infrastructure/tooling | 15 | 169 | 15 | 15 |
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | 14538 | 2026-04-28T21:15:36Z | TypeScript | Infrastructure/tooling | 23 | 40 | 23 | 23 |
@@ -194,7 +185,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [privatenumber/tsx](https://github.com/privatenumber/tsx) | 11967 | 2026-04-25T16:04:48Z | TypeScript | CLI | 8 | 41 | 8 | 8 |
 | [changesets/changesets](https://github.com/changesets/changesets) | 11768 | 2026-04-30T10:10:55Z | TypeScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [webpro-nl/knip](https://github.com/webpro-nl/knip) | 11135 | 2026-05-01T07:10:27Z | TypeScript | Infrastructure/tooling | 12 | 18 | 12 | 12 |
-| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | 11050 | 2026-04-24T21:48:36Z | TypeScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [nitrojs/nitro](https://github.com/nitrojs/nitro) | 10781 | 2026-05-01T17:20:41Z | TypeScript | Infrastructure/tooling | 2 | 112 | 2 | 2 |
 | [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) | 10772 | 2026-05-01T16:36:10Z | TypeScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [accomplish-ai/accomplish](https://github.com/accomplish-ai/accomplish) | 10714 | 2026-04-26T21:28:07Z | TypeScript | Infrastructure/tooling | 4 | 22 | 4 | 4 |

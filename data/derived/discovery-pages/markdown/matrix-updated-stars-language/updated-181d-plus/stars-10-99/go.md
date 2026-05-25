@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 169
-- terms: 439
+- repos: 168
+- terms: 436
 - components: 428
-- concepts: 443
-- observations: 446
+- concepts: 440
+- observations: 443
 
 ## Static behavior
 
@@ -194,7 +194,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jpoles1/gopherbadger](https://github.com/jpoles1/gopherbadger) | 88 | 2021-08-19T13:52:04Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [trknhr/2048-go](https://github.com/trknhr/2048-go) | 26 | 2021-08-12T19:01:40Z | Go | CLI | 1 | 0 | 1 | 1 |
 | [chenjiandongx/pls](https://github.com/chenjiandongx/pls) | 84 | 2021-06-16T17:14:05Z | Go | CLI | 2 | 0 | 2 | 2 |
-| [ahmetb/ytdl](https://github.com/ahmetb/ytdl) | 13 | 2021-05-25T17:00:04Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -353,7 +352,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fiatjaf/makeinvoice](https://github.com/fiatjaf/makeinvoice) | 13 | 2023-10-20T20:17:29Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [cdcdx/lotus](https://github.com/cdcdx/lotus) | 13 | 2023-05-11T15:41:33Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [superedge/edgeadm](https://github.com/superedge/edgeadm) | 13 | 2023-04-18T09:27:31Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [ahmetb/ytdl](https://github.com/ahmetb/ytdl) | 13 | 2021-05-25T17:00:04Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [cloudfoundry/bosh-deployment-resource](https://github.com/cloudfoundry/bosh-deployment-resource) | 12 | 2025-11-21T22:21:53Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [itzg/entrypoint-demoter](https://github.com/itzg/entrypoint-demoter) | 11 | 2025-09-28T14:42:46Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [OpenTreeHole/auth_next](https://github.com/OpenTreeHole/auth_next) | 11 | 2025-08-16T11:23:42Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 2 |

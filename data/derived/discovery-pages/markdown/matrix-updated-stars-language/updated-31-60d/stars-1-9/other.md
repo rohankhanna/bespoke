@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 77
-- terms: 161
-- components: 309
-- concepts: 161
-- observations: 161
+- repos: 78
+- terms: 164
+- components: 311
+- concepts: 164
+- observations: 164
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl](https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl) | 2 | 2026-04-24T22:43:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [cgrindel/rules_swiftformat](https://github.com/cgrindel/rules_swiftformat) | 8 | 2026-04-24T18:55:46Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [b-data/jupyterlab-mojo-docker-stack](https://github.com/b-data/jupyterlab-mojo-docker-stack) | 5 | 2026-04-24T05:25:17Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [b-data/jupyterlab-julia-docker-stack](https://github.com/b-data/jupyterlab-julia-docker-stack) | 9 | 2026-04-24T03:45:41Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [curiousdannii/emglken](https://github.com/curiousdannii/emglken) | 9 | 2026-04-24T02:34:56Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -102,7 +104,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [objectbox/objectbox-swift-spm](https://github.com/objectbox/objectbox-swift-spm) | 6 | 2026-03-27T15:10:51Z | Other | Library | 3 | 0 | 3 | 3 |
 | [vovkos/doxyrest_b](https://github.com/vovkos/doxyrest_b) | 4 | 2026-03-27T07:29:22Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [WebAssembly/compact-import-section](https://github.com/WebAssembly/compact-import-section) | 5 | 2026-03-25T17:41:00Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -117,6 +118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [helix-toolkit/helix-toolkit.github.io](https://github.com/helix-toolkit/helix-toolkit.github.io) | 9 | 2026-04-10T04:53:20Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [azure/homebrew-bicep](https://github.com/Azure/homebrew-bicep) | 9 | 2026-04-02T19:30:43Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [cgrindel/rules_swiftformat](https://github.com/cgrindel/rules_swiftformat) | 8 | 2026-04-24T18:55:46Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-21T02:52:33Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [ankane/seaduck](https://github.com/ankane/seaduck) | 8 | 2026-04-18T06:02:35Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Shougo/dpp-ext-lazy](https://github.com/Shougo/dpp-ext-lazy) | 8 | 2026-04-17T00:20:03Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -149,7 +151,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rocq-community/docker-rocq](https://github.com/rocq-community/docker-rocq) | 5 | 2026-04-03T15:27:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ethpandaops/checkpoint-sync-health-checks](https://github.com/ethpandaops/checkpoint-sync-health-checks) | 5 | 2026-04-01T02:28:10Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [WebAssembly/compact-import-section](https://github.com/WebAssembly/compact-import-section) | 5 | 2026-03-25T17:41:00Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [actboy168/ltest](https://github.com/actboy168/ltest) | 4 | 2026-04-22T05:07:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0xPolygonHermez/stark-recurser](https://github.com/0xPolygonHermez/stark-recurser) | 4 | 2026-04-16T08:32:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
@@ -165,6 +166,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bolasblack/BlogFront](https://github.com/bolasblack/BlogFront) | 3 | 2026-04-01T14:19:18Z | Other | Unknown | 0 | 22 | 0 | 0 |
 | [dylibso/xtp-go-bindgen](https://github.com/dylibso/xtp-go-bindgen) | 3 | 2026-03-29T12:28:20Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [aspect-build/tools_telemetry](https://github.com/aspect-build/tools_telemetry) | 3 | 2026-03-28T22:21:56Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl](https://github.com/JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl) | 2 | 2026-04-24T22:43:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [KhronosGroup/KTX-Software-CTS](https://github.com/KhronosGroup/KTX-Software-CTS) | 2 | 2026-04-23T13:17:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CVEProject/cve-user-registry-client](https://github.com/CVEProject/cve-user-registry-client) | 2 | 2026-04-21T18:22:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [caronc/apprise-docs](https://github.com/caronc/apprise-docs) | 2 | 2026-04-21T02:08:52Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |

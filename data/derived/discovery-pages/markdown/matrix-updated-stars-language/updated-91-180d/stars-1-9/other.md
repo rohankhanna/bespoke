@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
-- terms: 94
-- components: 194
-- concepts: 93
-- observations: 93
+- repos: 54
+- terms: 86
+- components: 192
+- concepts: 85
+- observations: 85
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-02-23T10:37:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [stephanj/sonarlint-devoxxgenie-intellij](https://github.com/stephanj/sonarlint-devoxxgenie-intellij) | 1 | 2026-02-23T07:41:03Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [0x2a-42/nvim-lelwel](https://github.com/0x2a-42/nvim-lelwel) | 1 | 2026-02-21T21:44:59Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -79,13 +80,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mmark-md/flycheck-mmark](https://github.com/mmark-md/flycheck-mmark) | 6 | 2025-11-26T20:21:10Z | Other | Infrastructure/tooling | 3 | 2 | 4 | 4 |
 | [datachainlab/lcp-solidity](https://github.com/datachainlab/lcp-solidity) | 1 | 2025-11-26T11:45:44Z | Other | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [infiniflow/resource](https://github.com/infiniflow/resource) | 5 | 2025-11-26T09:33:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
-| [ocaml-opam/opam-rt](https://github.com/ocaml-opam/opam-rt) | 8 | 2025-11-25T18:13:06Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-02-23T10:37:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [usnistgov/libhdf5-wasm](https://github.com/usnistgov/libhdf5-wasm) | 9 | 2026-02-16T19:15:13Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [XR-Robotics/XRoboToolkit-Orin-Video-Sender](https://github.com/XR-Robotics/XRoboToolkit-Orin-Video-Sender) | 9 | 2026-02-04T20:52:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [version-fox/vfox-plugin-template](https://github.com/version-fox/vfox-plugin-template) | 9 | 2026-01-04T02:22:40Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -95,7 +95,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [litex-hub/pythondata-cpu-vexriscv](https://github.com/litex-hub/pythondata-cpu-vexriscv) | 8 | 2026-01-16T08:28:27Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [haskell-compat/base-orphans](https://github.com/haskell-compat/base-orphans) | 8 | 2026-01-10T15:53:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [AdaCore/prettier-ada](https://github.com/AdaCore/prettier-ada) | 8 | 2025-11-28T13:10:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [ocaml-opam/opam-rt](https://github.com/ocaml-opam/opam-rt) | 8 | 2025-11-25T18:13:06Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [objectbox/objectbox-swift-generator](https://github.com/objectbox/objectbox-swift-generator) | 7 | 2026-02-19T23:43:53Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [tensorchord/VectorChord-images](https://github.com/tensorchord/VectorChord-images) | 7 | 2026-02-11T04:22:18Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [baskeboler/clj-karaoke-lyrics](https://github.com/baskeboler/clj-karaoke-lyrics) | 7 | 2026-02-08T00:59:40Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -123,7 +122,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Blosc/PyData-Global-2025-Tutorial](https://github.com/Blosc/PyData-Global-2025-Tutorial) | 3 | 2025-12-11T08:54:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [OutlierDetectionJL/OutlierDetectionData.jl](https://github.com/OutlierDetectionJL/OutlierDetectionData.jl) | 3 | 2025-12-03T13:52:37Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [OutlierDetectionJL/OutlierDetectionNeighbors.jl](https://github.com/OutlierDetectionJL/OutlierDetectionNeighbors.jl) | 3 | 2025-12-03T13:46:41Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [empriselab/kortex_description](https://github.com/empriselab/kortex_description) | 2 | 2026-02-20T16:26:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/libcxxwrap_julia_jll.jl](https://github.com/JuliaBinaryWrappers/libcxxwrap_julia_jll.jl) | 2 | 2026-02-07T12:31:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [erwin-kok/multiformat](https://github.com/erwin-kok/multiformat) | 2 | 2026-01-17T09:39:25Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |

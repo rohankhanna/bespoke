@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 5,
-    "terms": 24
+    "components": 60,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 6,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "dwyl/mvp",
     "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
-    "lumen-oss/luarocks-tag-release",
+    "karafka/example-apps",
     "nvim-mini/mini.deps",
     "pivotal/credhub-release"
   ]

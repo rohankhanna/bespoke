@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 769,
-    "concepts": 778,
-    "observations": 779,
-    "repos": 128,
-    "terms": 776
+    "components": 759,
+    "concepts": 783,
+    "observations": 784,
+    "repos": 124,
+    "terms": 781
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
-    "AcademySoftwareFoundation/openfx",
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
     "amerkoleci/joltc",
@@ -31,12 +30,11 @@
     "boostorg/math",
     "boostorg/multiprecision",
     "CEED/libCEED",
+    "celtera/avendish",
     "celtera/libremidi",
     "ClickHouse/clickhouse-cpp",
     "cloudwu/soluna",
-    "CloverLabsAI/camoufox",
     "coin-or/CppAD",
-    "cygwin/cygwin",
     "davisp/jiffy",
     "ddemidov/amgcl",
     "DiligentGraphics/DiligentCore",
@@ -77,9 +75,9 @@
     "jrouwe/JoltPhysics.js",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
-    "KhronosGroup/VK-GL-CTS",
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
+    "kiron1/bazel-compile-commands",
     "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
@@ -114,8 +112,6 @@
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
     "RcppCore/Rcpp",
-    "realh/roxterm",
-    "rmagick/rmagick",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
     "ROCm/rccl",

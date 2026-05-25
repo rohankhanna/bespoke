@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 64
-- terms: 370
-- components: 1742
-- concepts: 370
-- observations: 372
+- repos: 63
+- terms: 363
+- components: 1730
+- concepts: 363
+- observations: 365
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ipdxco/github-as-code](https://github.com/ipdxco/github-as-code) | 36 | 2026-05-10T19:48:40Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [GoogleCloudPlatform/opentelemetry-demo](https://github.com/GoogleCloudPlatform/opentelemetry-demo) | 26 | 2026-05-04T22:38:28Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [julia-actions/install-juliaup](https://github.com/julia-actions/install-juliaup) | 19 | 2026-05-04T19:52:33Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [maplibre/maplibre-gl-inspect](https://github.com/maplibre/maplibre-gl-inspect) | 65 | 2026-05-04T05:17:00Z | TypeScript | Infrastructure/tooling | 8 | 21 | 8 | 8 |
@@ -88,8 +89,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oclif/plugin-update](https://github.com/oclif/plugin-update) | 55 | 2026-04-26T07:11:21Z | TypeScript | CLI | 7 | 51 | 7 | 7 |
 | [oclif/plugin-help](https://github.com/oclif/plugin-help) | 24 | 2026-04-26T05:26:55Z | TypeScript | CLI | 7 | 32 | 7 | 7 |
 | [oclif/plugin-plugins](https://github.com/oclif/plugin-plugins) | 50 | 2026-04-25T06:45:53Z | TypeScript | CLI | 7 | 53 | 7 | 7 |
-| [52-entertainment/vite-plugin-oxlint](https://github.com/52-entertainment/vite-plugin-oxlint) | 53 | 2026-04-24T20:07:35Z | TypeScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [jakoch/install-vulkan-sdk-action](https://github.com/jakoch/install-vulkan-sdk-action) | 20 | 2026-04-24T14:43:58Z | TypeScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -123,13 +122,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oclif/plugin-update](https://github.com/oclif/plugin-update) | 55 | 2026-04-26T07:11:21Z | TypeScript | CLI | 7 | 51 | 7 | 7 |
 | [OffchainLabs/arbitrum-chain-sdk](https://github.com/OffchainLabs/arbitrum-chain-sdk) | 54 | 2026-04-29T15:38:26Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [rstackjs/rsbuild-plugin-tailwindcss](https://github.com/rstackjs/rsbuild-plugin-tailwindcss) | 53 | 2026-05-01T00:35:14Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
-| [52-entertainment/vite-plugin-oxlint](https://github.com/52-entertainment/vite-plugin-oxlint) | 53 | 2026-04-24T20:07:35Z | TypeScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [oclif/plugin-plugins](https://github.com/oclif/plugin-plugins) | 50 | 2026-04-25T06:45:53Z | TypeScript | CLI | 7 | 53 | 7 | 7 |
 | [elastic/opentelemetry-demo](https://github.com/elastic/opentelemetry-demo) | 49 | 2026-04-28T13:43:33Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 5 |
 | [octokit/auth-action.js](https://github.com/octokit/auth-action.js) | 48 | 2026-04-29T13:02:23Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [OffchainLabs/nitro-testnode](https://github.com/OffchainLabs/nitro-testnode) | 45 | 2026-04-29T21:46:26Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [openwebdocs/mdn-bcd-collector](https://github.com/openwebdocs/mdn-bcd-collector) | 45 | 2026-04-29T11:45:09Z | TypeScript | Infrastructure/tooling | 3 | 99 | 3 | 3 |
 | [csm-actions/securefix-action](https://github.com/csm-actions/securefix-action) | 39 | 2026-05-02T13:58:17Z | TypeScript | Infrastructure/tooling | 11 | 28 | 11 | 11 |
+| [ipdxco/github-as-code](https://github.com/ipdxco/github-as-code) | 36 | 2026-05-10T19:48:40Z | TypeScript | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [1-Platform/op-components](https://github.com/1-Platform/op-components) | 31 | 2026-04-29T15:22:12Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [NullVoxPopuli/ember-deep-tracked](https://github.com/NullVoxPopuli/ember-deep-tracked) | 31 | 2026-04-27T23:29:37Z | TypeScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [rstackjs/rsbuild-plugin-template](https://github.com/rstackjs/rsbuild-plugin-template) | 27 | 2026-04-29T09:42:39Z | TypeScript | Infrastructure/tooling | 6 | 13 | 6 | 6 |
@@ -141,7 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oclif/test](https://github.com/oclif/test) | 23 | 2026-04-26T09:13:54Z | TypeScript | CLI | 7 | 32 | 7 | 7 |
 | [jest-community/eslint-plugin-jest-extended](https://github.com/jest-community/eslint-plugin-jest-extended) | 22 | 2026-04-30T11:56:43Z | TypeScript | Infrastructure/tooling | 5 | 49 | 5 | 5 |
 | [appsignal/appsignal-javascript](https://github.com/appsignal/appsignal-javascript) | 20 | 2026-04-28T12:13:45Z | TypeScript | Infrastructure/tooling | 11 | 28 | 11 | 11 |
-| [jakoch/install-vulkan-sdk-action](https://github.com/jakoch/install-vulkan-sdk-action) | 20 | 2026-04-24T14:43:58Z | TypeScript | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [julia-actions/install-juliaup](https://github.com/julia-actions/install-juliaup) | 19 | 2026-05-04T19:52:33Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [coasys/flux](https://github.com/coasys/flux) | 19 | 2026-04-30T07:35:38Z | TypeScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [universal-ember/reactiveweb](https://github.com/universal-ember/reactiveweb) | 18 | 2026-05-04T00:43:18Z | TypeScript | Infrastructure/tooling | 17 | 17 | 17 | 17 |

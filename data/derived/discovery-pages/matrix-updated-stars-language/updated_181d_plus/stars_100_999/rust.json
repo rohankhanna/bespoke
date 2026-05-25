@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 716,
-    "concepts": 589,
-    "observations": 595,
-    "repos": 178,
-    "terms": 581
+    "components": 719,
+    "concepts": 590,
+    "observations": 596,
+    "repos": 179,
+    "terms": 582
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -153,6 +153,7 @@
     "rojo-rbx/remodel",
     "rosetta-rs/template-benchmarks-rs",
     "rust-analyzer/ungrammar",
+    "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-db/barrel",
     "rust-embedded-community/serde-json-core",
     "rust-embedded/critical-section",

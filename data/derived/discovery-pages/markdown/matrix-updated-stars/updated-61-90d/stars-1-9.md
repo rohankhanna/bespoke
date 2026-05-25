@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 144
-- terms: 416
-- components: 645
-- concepts: 427
-- observations: 428
+- repos: 145
+- terms: 406
+- components: 641
+- concepts: 417
+- observations: 418
 
 ## Static behavior
 
@@ -25,6 +25,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [justinfx/olric-nats-plugin](https://github.com/justinfx/olric-nats-plugin) | 8 | 2026-03-25T20:22:13Z | Go | Service/API | 7 | 0 | 7 | 7 |
+| [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [WebAssembly/compact-import-section](https://github.com/WebAssembly/compact-import-section) | 5 | 2026-03-25T17:41:00Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [fixie-ai/evals](https://github.com/fixie-ai/evals) | 7 | 2026-03-24T23:22:05Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
@@ -164,11 +170,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0xPolygonHermez/pil2-compiler](https://github.com/0xPolygonHermez/pil2-compiler) | 3 | 2026-02-25T09:44:02Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [agents-x-project/PyVision-RL-Eval](https://github.com/agents-x-project/PyVision-RL-Eval) | 2 | 2026-02-25T03:28:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [tzachar/sqlite_skim](https://github.com/tzachar/sqlite_skim) | 2 | 2026-02-24T16:03:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [filip26/copper-multicodec](https://github.com/filip26/copper-multicodec) | 2 | 2026-02-23T23:26:06Z | Java | Infrastructure/tooling | 8 | 2 | 8 | 8 |
-| [filip26/titanium-rdf-n-quads](https://github.com/filip26/titanium-rdf-n-quads) | 1 | 2026-02-23T18:53:09Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [filip26/titanium-rdf-canon](https://github.com/filip26/titanium-rdf-canon) | 3 | 2026-02-23T18:50:29Z | Java | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [athombv/com.athom.matter-bridge](https://github.com/athombv/com.athom.matter-bridge) | 9 | 2026-02-23T14:43:27Z | JavaScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-02-23T10:37:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -178,8 +179,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PyThaiNLP/pythainlp-corpus](https://github.com/PyThaiNLP/pythainlp-corpus) | 9 | 2026-03-14T05:43:38Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [newton-physics/newton-governance](https://github.com/newton-physics/newton-governance) | 9 | 2026-03-11T15:18:07Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [bendrucker/terraform-configuration-aliases-action](https://github.com/bendrucker/terraform-configuration-aliases-action) | 9 | 2026-03-05T20:46:56Z | Shell | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [athombv/com.athom.matter-bridge](https://github.com/athombv/com.athom.matter-bridge) | 9 | 2026-02-23T14:43:27Z | JavaScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [appbaseio/reactivesearch-api-docker](https://github.com/appbaseio/reactivesearch-api-docker) | 9 | 2026-02-23T10:37:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [justinfx/olric-nats-plugin](https://github.com/justinfx/olric-nats-plugin) | 8 | 2026-03-25T20:22:13Z | Go | Service/API | 7 | 0 | 7 | 7 |
 | [aquasecurity/tfsec-azure-pipelines-task](https://github.com/aquasecurity/tfsec-azure-pipelines-task) | 8 | 2026-03-24T03:58:30Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [DanielSmith1239/KosherSwift](https://github.com/DanielSmith1239/KosherSwift) | 8 | 2026-03-22T18:06:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [BioContainers/singularity-build-bot](https://github.com/BioContainers/singularity-build-bot) | 8 | 2026-03-15T17:17:56Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -213,6 +213,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aspect-build/rules_jasmine](https://github.com/aspect-build/rules_jasmine) | 6 | 2026-03-09T17:34:05Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [adobe-type-tools/Adobe-Manga1](https://github.com/adobe-type-tools/Adobe-Manga1) | 6 | 2026-03-07T22:58:57Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [countries/countries-data-yaml](https://github.com/countries/countries-data-yaml) | 6 | 2026-02-25T21:55:12Z | Other | Infrastructure/tooling | 7 | 1 | 8 | 8 |
+| [ada-url/url-various-datasets](https://github.com/ada-url/url-various-datasets) | 5 | 2026-03-25T20:07:19Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [WebAssembly/compact-import-section](https://github.com/WebAssembly/compact-import-section) | 5 | 2026-03-25T17:41:00Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [jrsoftware/isscint](https://github.com/jrsoftware/isscint) | 5 | 2026-03-20T15:54:58Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [conda-forge/cupy-feedstock](https://github.com/conda-forge/cupy-feedstock) | 5 | 2026-03-17T17:45:13Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [vectordotdev/heim](https://github.com/vectordotdev/heim) | 5 | 2026-03-13T20:53:57Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -222,6 +224,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [browserslist/browserslist-plausible](https://github.com/browserslist/browserslist-plausible) | 5 | 2026-03-04T21:15:10Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [SWE-bench/SWE-smith-envs](https://github.com/SWE-bench/SWE-smith-envs) | 5 | 2026-03-02T04:49:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [andrasg/matterbridge-loxone](https://github.com/andrasg/matterbridge-loxone) | 5 | 2026-03-01T12:51:48Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
+| [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [Boulaouaney/timmx](https://github.com/Boulaouaney/timmx) | 4 | 2026-03-24T14:28:03Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [aaronrsun/spec-kit-checkpoint](https://github.com/aaronrsun/spec-kit-checkpoint) | 4 | 2026-03-24T03:13:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ptsochantaris/trailer-json](https://github.com/ptsochantaris/trailer-json) | 4 | 2026-03-23T19:11:04Z | Other | Unknown | 4 | 0 | 5 | 5 |
@@ -259,7 +262,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ylsdamxssjxxdd/nerv](https://github.com/ylsdamxssjxxdd/nerv) | 3 | 2026-02-27T01:17:55Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [sylabs/singularity-admindocs](https://github.com/sylabs/singularity-admindocs) | 3 | 2026-02-26T16:38:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [0xPolygonHermez/pil2-compiler](https://github.com/0xPolygonHermez/pil2-compiler) | 3 | 2026-02-25T09:44:02Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
-| [filip26/titanium-rdf-canon](https://github.com/filip26/titanium-rdf-canon) | 3 | 2026-02-23T18:50:29Z | Java | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [hchiam/learning-template](https://github.com/hchiam/learning-template) | 2 | 2026-03-26T00:04:39Z | Unknown | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [agent-sh/ship](https://github.com/agent-sh/ship) | 2 | 2026-03-25T00:15:01Z | JavaScript | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [Asmod4n/mruby-argon2](https://github.com/Asmod4n/mruby-argon2) | 2 | 2026-03-24T18:51:14Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [abap2UI5-addons/layout-management](https://github.com/abap2UI5-addons/layout-management) | 2 | 2026-03-24T15:55:13Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
@@ -285,7 +288,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-rpc/markdown-gen](https://github.com/open-rpc/markdown-gen) | 2 | 2026-02-27T03:09:53Z | Other | Infrastructure/tooling | 5 | 26 | 7 | 7 |
 | [agents-x-project/PyVision-RL-Eval](https://github.com/agents-x-project/PyVision-RL-Eval) | 2 | 2026-02-25T03:28:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [tzachar/sqlite_skim](https://github.com/tzachar/sqlite_skim) | 2 | 2026-02-24T16:03:10Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [filip26/copper-multicodec](https://github.com/filip26/copper-multicodec) | 2 | 2026-02-23T23:26:06Z | Java | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [danielrosehill/claude-code-sysadmin-workspaces-index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index) | 1 | 2026-03-25T16:18:31Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [hchiam/learning-gh](https://github.com/hchiam/learning-gh) | 1 | 2026-03-24T22:42:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [hchiam/learning-bash-scripts](https://github.com/hchiam/learning-bash-scripts) | 1 | 2026-03-24T21:40:04Z | Shell | Unknown | 0 | 0 | 2 | 2 |
 | [brody2consult/react-native-init-func](https://github.com/brody2consult/react-native-init-func) | 1 | 2026-03-24T18:12:30Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
@@ -317,4 +320,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gakonst/foundry](https://github.com/gakonst/foundry) | 1 | 2026-02-27T12:27:01Z | Unknown | Infrastructure/tooling | 6 | 26 | 6 | 6 |
 | [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [JuliaBinaryWrappers/Zlib_jll.jl](https://github.com/JuliaBinaryWrappers/Zlib_jll.jl) | 1 | 2026-02-25T16:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [filip26/titanium-rdf-n-quads](https://github.com/filip26/titanium-rdf-n-quads) | 1 | 2026-02-23T18:53:09Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |

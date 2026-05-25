@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50301,
-    "concepts": 34847,
-    "observations": 34952,
-    "repos": 8584,
-    "terms": 34710
+    "components": 50322,
+    "concepts": 34889,
+    "observations": 34994,
+    "repos": 8591,
+    "terms": 34736
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -2441,6 +2441,7 @@
     "distantmagic/resonance",
     "distatus/battery",
     "DISTRHO/DPF",
+    "Distributive-Network/PythonMonkey",
     "Divadi/SOLOFusion",
     "diwand/YapiIdeaUploadPlugin",
     "diwic/dbus-rs",
@@ -2465,6 +2466,7 @@
     "dmitry-brazhenko/SharpToken",
     "dmitryikh/leaves",
     "dmlc/treelite",
+    "dmMaze/comic-text-detector",
     "dmort27/epitran",
     "dmtrKovalenko/zlob",
     "dnaka91/obws",
@@ -3099,6 +3101,8 @@
     "FizzleDorf/ComfyUI_FizzNodes",
     "fjc0k/yapi-to-typescript",
     "fjc0k/YApi-X",
+    "fkiliver/RPGMaker_LLM_Translator",
+    "fkiliver/SakuraTranslator",
     "fla-org/flame",
     "FlagAI-Open/Aquila2",
     "flageval-baai/FlagEvalMM",
@@ -4278,6 +4282,7 @@
     "jdereg/json-io",
     "jeffdaily/parasail",
     "jeffdaily/parasail-python",
+    "JeffersonQin/YuzuMarker.FontDetection",
     "jeffffffli/CrowdPose",
     "jeffffffli/res-loglikelihood-regression",
     "JeffWang987/OpenOccupancy",
@@ -5799,6 +5804,7 @@
     "MSxDOS/ntapi",
     "msys2/msys2-installer",
     "msz/hammox",
+    "mtkennerly/poetry-dynamic-versioning",
     "mtkennerly/shawl",
     "mudler/LocalAI-examples",
     "Muennighoff/sgpt",
@@ -7126,6 +7132,7 @@
     "rvm/ubuntu_rvm",
     "rxi/lite-colors",
     "rxi/lite-plugins",
+    "RyanMarcus/dirty-json",
     "ryjoxtechnologies/octopoda-os",
     "rz1989s/claude-code-statusline",
     "S-aiueo32/lpips-pytorch",

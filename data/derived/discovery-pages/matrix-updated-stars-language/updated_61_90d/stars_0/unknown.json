@@ -3,7 +3,7 @@
     "components": 50,
     "concepts": 22,
     "observations": 22,
-    "repos": 7,
+    "repos": 11,
     "terms": 22
   },
   "facet_version": 1,
@@ -12,11 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "cachix/crossterm",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/Geopolitical-And-OSINT-Index",
+    "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/Hebrew-Tech-Vocab",
+    "danielrosehill/Linux-Desktop-Tools-Index",
+    "danielrosehill/Networking-And-Infrastructure-Index",
     "DataDog/opa",
     "DiligentGraphics/json",
     "guaguastandup/guaguastandup",

@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 82,
-    "terms": 103
+    "components": 270,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 81,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0aids/imnodes",
+    "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
     "abap2UI5-addons/popups",
     "AdaCore/vss-text",
@@ -41,7 +42,6 @@
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Model-Identifier",
-    "danielrosehill/Claude-Rescue",
     "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
@@ -78,7 +78,6 @@
     "kylebarron/pyo3-file",
     "lishid/cm-language",
     "llamagate/diff",
-    "LuminalOSS/credstash",
     "maeste/a2a-tck",
     "mjvolk3/dendron-template",
     "Mountchicken/Mountchicken",

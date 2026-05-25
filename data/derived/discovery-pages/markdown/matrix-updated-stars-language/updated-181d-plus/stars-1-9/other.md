@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 339
-- terms: 523
-- components: 1105
-- concepts: 517
-- observations: 517
+- repos: 341
+- terms: 531
+- components: 1107
+- concepts: 525
+- observations: 525
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
+| [ocaml-opam/opam-rt](https://github.com/ocaml-opam/opam-rt) | 8 | 2025-11-25T18:13:06Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [JuliaML/MLCore.jl](https://github.com/JuliaML/MLCore.jl) | 3 | 2025-11-24T13:47:21Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [KSXGitHub/aur-packages-builder](https://github.com/KSXGitHub/aur-packages-builder) | 6 | 2025-11-24T08:39:57Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [jtdaugherty/vty-crossplatform](https://github.com/jtdaugherty/vty-crossplatform) | 4 | 2025-11-22T23:42:43Z | Other | Library | 0 | 0 | 0 | 0 |
@@ -394,6 +396,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ar-Ray-code/RenderTexture2ROS2Image](https://github.com/Ar-Ray-code/RenderTexture2ROS2Image) | 9 | 2022-02-01T02:55:10Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [lazychanger/docker-kunlun-mirror](https://github.com/lazychanger/docker-kunlun-mirror) | 9 | 2021-11-24T01:34:29Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [unitycontainer/aspnet-webapi](https://github.com/unitycontainer/aspnet-webapi) | 9 | 2021-10-31T18:10:05Z | Other | Library | 0 | 0 | 0 | 0 |
+| [ocaml-opam/opam-rt](https://github.com/ocaml-opam/opam-rt) | 8 | 2025-11-25T18:13:06Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Azure-Samples/openai-chat-frontend-vanillajs](https://github.com/Azure-Samples/openai-chat-frontend-vanillajs) | 8 | 2025-08-01T18:53:47Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [lupapiste/lupapiste](https://github.com/lupapiste/lupapiste) | 8 | 2025-06-12T09:41:20Z | Other | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [VOICEVOX/pyopenjtalk](https://github.com/VOICEVOX/pyopenjtalk) | 8 | 2025-04-23T15:50:08Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -572,6 +575,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abhishalya/abhishalya.github.io](https://github.com/abhishalya/abhishalya.github.io) | 4 | 2021-10-18T04:32:54Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [carlthuringer/tla-mode](https://github.com/carlthuringer/tla-mode) | 4 | 2021-10-03T14:06:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [codybuell/compe-lbdb](https://github.com/codybuell/compe-lbdb) | 4 | 2021-08-07T21:07:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [atrodo/WebGPU-Direct](https://github.com/atrodo/WebGPU-Direct) | 3 | 2025-11-26T05:19:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [JuliaML/MLCore.jl](https://github.com/JuliaML/MLCore.jl) | 3 | 2025-11-24T13:47:21Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [jverzani/SymPyCore.jl](https://github.com/jverzani/SymPyCore.jl) | 3 | 2025-11-03T18:22:57Z | Other | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [gadjalin/glf90w](https://github.com/gadjalin/glf90w) | 3 | 2025-10-09T13:59:30Z | Other | Unknown | 0 | 0 | 0 | 0 |

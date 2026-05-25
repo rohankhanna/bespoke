@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1215,
-    "concepts": 5521,
-    "observations": 5526,
-    "repos": 1857,
-    "terms": 5369
+    "components": 1222,
+    "concepts": 5553,
+    "observations": 5558,
+    "repos": 1863,
+    "terms": 5395
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -21,6 +21,7 @@
     "1zb/3DShape2VecSet",
     "1zb/VecSetX",
     "1zhou-Wang/MemVR",
+    "23andMe/Yamale",
     "26hzhang/VSLNet",
     "2U1/Llama3.2-Vision-Finetune",
     "3dhumangan/3DHumanGAN",
@@ -215,6 +216,7 @@
     "autonomousvision/kitti360Scripts",
     "autonomousvision/navsim",
     "autonomousvision/neat",
+    "autonomousvision/plant",
     "autonomousvision/sledge",
     "autonomousvision/tuplan_garage",
     "avalonstrel/GatedConvolution_pytorch",
@@ -513,6 +515,7 @@
     "Divadi/SOLOFusion",
     "django/channels_redis",
     "dmis-lab/bioasq-biobert",
+    "dmMaze/comic-text-detector",
     "doc-doc/NExT-QA",
     "donydchen/mvsplat360",
     "dora-rs/dora-lerobot",
@@ -644,6 +647,7 @@
     "filipradenovic/revisitop",
     "finegrain-ai/refiners",
     "FizzleDorf/ComfyUI_FizzNodes",
+    "fkiliver/RPGMaker_LLM_Translator",
     "FlagAI-Open/Aquila2",
     "FlagOpen/RoboBrain",
     "FlagOpen/RoboBrain-X0",
@@ -914,6 +918,7 @@
     "jcpeterson/openwebtext",
     "jcrobak/parquet-python",
     "jeffdaily/parasail-python",
+    "JeffersonQin/YuzuMarker.FontDetection",
     "jeffffffli/CrowdPose",
     "jeffffffli/res-loglikelihood-regression",
     "JeffWang987/OpenOccupancy",
@@ -1404,6 +1409,7 @@
     "pat-jj/s3",
     "patrick-kidger/NeuralCDE",
     "patrick-kidger/torchcde",
+    "PDillis/stylegan3-fun",
     "peiyunh/ff",
     "PeizeSun/TransTrack",
     "pengHTYX/Era3D",

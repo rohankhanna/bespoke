@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 298,
-    "observations": 298,
-    "repos": 66,
-    "terms": 298
+    "components": 377,
+    "concepts": 322,
+    "observations": 322,
+    "repos": 69,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
+    "acts-project/traccc",
     "ad-si/FlatCV",
     "ada-url/ada-python",
     "ada-url/goada",
@@ -44,6 +45,7 @@
     "galaxyproject/KegAlign",
     "GaoYusong/llm.cpp",
     "gazebosim/gz-fuel-tools",
+    "gazebosim/gz-transport",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
@@ -71,6 +73,7 @@
     "r-lyeh/Spectral",
     "rapidsai/ucxx",
     "ROCm/rocAL",
+    "ROCm/ROCgdb",
     "ROCm/roctracer",
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",

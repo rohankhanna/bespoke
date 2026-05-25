@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 52,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js"
+    "abaplint/transpiler",
+    "matter-js/matter.js"
   ]
 }

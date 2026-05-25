@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
-- terms: 850
-- components: 1217
-- concepts: 853
-- observations: 859
+- repos: 99
+- terms: 886
+- components: 1245
+- concepts: 889
+- observations: 895
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
+| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
+| [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | 10949 | 2026-04-24T09:09:41Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | 43656 | 2026-04-24T08:55:59Z | Other | Infrastructure/tooling | 16 | 11 | 17 | 17 |
 | [tc39/ecma262](https://github.com/tc39/ecma262) | 15617 | 2026-04-24T06:42:48Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 9 |
@@ -122,7 +125,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fatih/vim-go](https://github.com/fatih/vim-go) | 16231 | 2026-03-28T02:13:15Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [Kong/kong](https://github.com/Kong/kong) | 43246 | 2026-03-27T17:42:51Z | Other | Infrastructure/tooling | 27 | 13 | 27 | 27 |
 | [Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges) | 16475 | 2026-03-26T06:06:43Z | Other | Infrastructure/tooling | 7 | 5 | 9 | 9 |
-| [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -155,7 +157,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [llvm/llvm-project](https://github.com/llvm/llvm-project) | 37977 | 2026-04-22T01:15:55Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [google-research/google-research](https://github.com/google-research/google-research) | 37770 | 2026-04-21T21:37:26Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) | 36001 | 2026-04-21T09:36:16Z | Other | Infrastructure/tooling | 11 | 22 | 12 | 12 |
-| [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
+| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
 | [composer/composer](https://github.com/composer/composer) | 29380 | 2026-04-20T21:20:08Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [fastai/fastai](https://github.com/fastai/fastai) | 27985 | 2026-04-06T03:30:03Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 27749 | 2026-04-21T18:09:03Z | Other | Infrastructure/tooling | 9 | 16 | 9 | 9 |
@@ -197,6 +199,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates) | 14776 | 2026-04-22T22:13:03Z | Other | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [dotnet/efcore](https://github.com/dotnet/efcore) | 14624 | 2026-04-24T00:20:23Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [abpframework/abp](https://github.com/abpframework/abp) | 14218 | 2026-04-23T06:18:54Z | Other | Infrastructure/tooling | 21 | 16 | 21 | 22 |
+| [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [winsw/winsw](https://github.com/winsw/winsw) | 13896 | 2026-04-23T01:23:53Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 13810 | 2026-04-03T13:11:41Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 8 |
 | [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) | 13541 | 2026-04-16T01:50:48Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -219,6 +222,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | 10949 | 2026-04-24T09:09:41Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [Cysharp/UniTask](https://github.com/Cysharp/UniTask) | 10773 | 2026-04-13T12:28:27Z | Other | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [dotnet/orleans](https://github.com/dotnet/orleans) | 10754 | 2026-04-24T01:04:46Z | Other | Infrastructure/tooling | 11 | 10 | 11 | 11 |
+| [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [microsoft/fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) | 10513 | 2026-04-22T17:39:13Z | Other | Infrastructure/tooling | 14 | 40 | 14 | 14 |
 | [dotnet/eShop](https://github.com/dotnet/eShop) | 10383 | 2026-04-21T14:35:49Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [reasonml/reason](https://github.com/reasonml/reason) | 10304 | 2026-04-01T12:42:26Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |

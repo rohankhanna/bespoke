@@ -3,7 +3,7 @@
     "components": 138,
     "concepts": 179,
     "observations": 179,
-    "repos": 193,
+    "repos": 195,
     "terms": 177
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -51,6 +51,7 @@
     "cyberark/community",
     "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
     "danielrosehill/AI-Interview-Workflow-V2",
+    "danielrosehill/Ai-Workspace-Planning-Notes",
     "danielrosehill/Awesome-Israeli-Jewish-Home-Assistant",
     "danielrosehill/Awesome-Linux-IDEs",
     "danielrosehill/claude-agent-picker-pattern",
@@ -89,6 +90,7 @@
     "FlokiTV/GDevelop-AutoTile",
     "FlokiTV/GDevelop-Plane-Projection",
     "foldl/little-academia",
+    "funstory-ai/BabelDOC-Assets",
     "funstory-ai/jobs",
     "ga4gh/large-scale-genomics-wiki",
     "generalizable-neural-performer/genebody-benchmarks",

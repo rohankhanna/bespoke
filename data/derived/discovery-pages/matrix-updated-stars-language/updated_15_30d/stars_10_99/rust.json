@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 243,
-    "observations": 244,
-    "repos": 48,
-    "terms": 242
+    "components": 335,
+    "concepts": 223,
+    "observations": 224,
+    "repos": 43,
+    "terms": 222
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -26,12 +26,10 @@
     "bourumir-wyngs/serde-yaml-bw",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
-    "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
     "fallow-rs/oxc-coverage-instrument",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
-    "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
     "heroku/buildpacks-jvm",
@@ -42,17 +40,14 @@
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
     "mdn/rari",
-    "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "Ralith/lahar",
-    "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",

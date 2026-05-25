@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 435,
-    "concepts": 140,
-    "observations": 142,
-    "repos": 30,
-    "terms": 140
+    "components": 426,
+    "concepts": 133,
+    "observations": 135,
+    "repos": 28,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "alangdm/helium-animated-pages",
@@ -35,9 +35,7 @@
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
-    "oclif/oclif.github.io",
     "octokit/create-octokit-project.js",
-    "r-lyeh/gamebook",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 187
-- terms: 695
-- components: 765
-- concepts: 700
-- observations: 701
+- repos: 190
+- terms: 717
+- components: 788
+- concepts: 722
+- observations: 723
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ElsaTam/obsidian-fancy-a-story](https://github.com/ElsaTam/obsidian-fancy-a-story) | 254 | 2026-02-24T05:53:10Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
+| [autodeployai/ai-serving](https://github.com/autodeployai/ai-serving) | 166 | 2026-02-24T02:56:29Z | Other | Infrastructure/tooling | 19 | 5 | 19 | 19 |
+| [trptcolin/reply](https://github.com/trptcolin/reply) | 341 | 2026-02-23T17:38:23Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [4d49/scene-library](https://github.com/4d49/scene-library) | 106 | 2026-02-23T04:44:33Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [ropensci/git2r](https://github.com/ropensci/git2r) | 223 | 2026-02-22T19:05:45Z | Other | CLI | 6 | 5 | 6 | 6 |
 | [beam-telemetry/telemetry_metrics](https://github.com/beam-telemetry/telemetry_metrics) | 245 | 2026-02-22T17:17:07Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -166,7 +169,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ruby-formatter/rufo](https://github.com/ruby-formatter/rufo) | 935 | 2025-12-25T06:53:53Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [marilari88/neotest-vitest](https://github.com/marilari88/neotest-vitest) | 163 | 2025-12-22T23:28:26Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [fdschmidt93/telescope-egrepify.nvim](https://github.com/fdschmidt93/telescope-egrepify.nvim) | 142 | 2025-12-21T08:20:47Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [Deep-Symmetry/afterglow](https://github.com/Deep-Symmetry/afterglow) | 471 | 2025-12-21T05:12:00Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [Deep-Symmetry/afterglow](https://github.com/Deep-Symmetry/afterglow) | 470 | 2025-12-21T05:12:00Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [seattlerb/ruby_parser](https://github.com/seattlerb/ruby_parser) | 483 | 2025-12-21T02:02:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [phillbaker/capybara-mechanize](https://github.com/phillbaker/capybara-mechanize) | 212 | 2025-12-20T18:48:12Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mfussenegger/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 706 | 2025-12-20T06:43:57Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -284,8 +287,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [66RING/tiny-flash-attention](https://github.com/66RING/tiny-flash-attention) | 507 | 2026-01-20T11:24:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [seattlerb/ruby_parser](https://github.com/seattlerb/ruby_parser) | 483 | 2025-12-21T02:02:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [auto-complete/popup-el](https://github.com/auto-complete/popup-el) | 472 | 2025-12-31T16:22:34Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [Deep-Symmetry/afterglow](https://github.com/Deep-Symmetry/afterglow) | 471 | 2025-12-21T05:12:00Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [JuliaInterop/CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) | 470 | 2026-02-07T14:16:08Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [Deep-Symmetry/afterglow](https://github.com/Deep-Symmetry/afterglow) | 470 | 2025-12-21T05:12:00Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [filiph/linkcheck](https://github.com/filiph/linkcheck) | 467 | 2026-02-16T08:07:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [emacs-lsp/lsp-treemacs](https://github.com/emacs-lsp/lsp-treemacs) | 464 | 2025-12-17T16:21:16Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Azure/arm-ttk](https://github.com/Azure/arm-ttk) | 458 | 2026-02-13T23:24:56Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -314,6 +317,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/ScienceWorld](https://github.com/allenai/ScienceWorld) | 354 | 2025-12-03T20:46:01Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [rescript-lang/rescript-vscode](https://github.com/rescript-lang/rescript-vscode) | 351 | 2026-02-04T06:35:35Z | Other | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [r-lib/covr](https://github.com/r-lib/covr) | 345 | 2026-01-05T18:56:39Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [trptcolin/reply](https://github.com/trptcolin/reply) | 341 | 2026-02-23T17:38:23Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [envato/zxcvbn-ruby](https://github.com/envato/zxcvbn-ruby) | 335 | 2026-01-15T05:29:13Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [reasonml/reasonml.github.io](https://github.com/reasonml/reasonml.github.io) | 334 | 2026-01-02T16:49:46Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [jtdaugherty/vty](https://github.com/jtdaugherty/vty) | 333 | 2026-02-08T16:14:32Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -335,6 +339,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nschum/SwiftHamcrest](https://github.com/nschum/SwiftHamcrest) | 262 | 2025-12-15T13:34:28Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ankane/kms_encrypted](https://github.com/ankane/kms_encrypted) | 259 | 2026-02-07T19:00:18Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [emacs-eldev/eldev](https://github.com/emacs-eldev/eldev) | 256 | 2026-01-21T14:52:31Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [ElsaTam/obsidian-fancy-a-story](https://github.com/ElsaTam/obsidian-fancy-a-story) | 254 | 2026-02-24T05:53:10Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [bazeltools/bazel-deps](https://github.com/bazeltools/bazel-deps) | 254 | 2025-12-15T18:10:54Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [chakravala/Reduce.jl](https://github.com/chakravala/Reduce.jl) | 249 | 2025-11-30T13:29:22Z | Other | Unknown | 11 | 0 | 11 | 11 |
 | [yaml/yaml-test-suite](https://github.com/yaml/yaml-test-suite) | 246 | 2025-12-25T21:01:26Z | Other | Infrastructure/tooling | 2 | 2 | 3 | 3 |
@@ -365,6 +370,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [status-im/nim-chronicles](https://github.com/status-im/nim-chronicles) | 174 | 2025-12-11T07:15:45Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [vim-jp/vim-vimlparser](https://github.com/vim-jp/vim-vimlparser) | 173 | 2026-01-19T07:44:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [arnetheduck/nim-results](https://github.com/arnetheduck/nim-results) | 171 | 2026-02-10T11:31:06Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [autodeployai/ai-serving](https://github.com/autodeployai/ai-serving) | 166 | 2026-02-24T02:56:29Z | Other | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [excubo-ag/WebCompiler](https://github.com/excubo-ag/WebCompiler) | 166 | 2026-01-22T20:43:55Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [terraform-aws-modules/terraform-aws-apigateway-v2](https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2) | 166 | 2026-01-08T16:55:17Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [WICG/layout-instability](https://github.com/WICG/layout-instability) | 166 | 2025-12-17T12:26:01Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |

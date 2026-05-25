@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
+- repos: 45
 - terms: 115
-- components: 851
+- components: 832
 - concepts: 115
 - observations: 115
 
@@ -71,8 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dcoapp/app](https://github.com/dcoapp/app) | 333 | 2025-12-04T16:57:31Z | JavaScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [microsoft/botbuilder-tools](https://github.com/microsoft/botbuilder-tools) | 446 | 2025-12-03T00:43:38Z | JavaScript | Web app | 8 | 21 | 8 | 8 |
 | [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) | 514 | 2025-12-02T21:45:54Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
-| [restify/errors](https://github.com/restify/errors) | 145 | 2025-11-25T21:17:12Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
-| [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -109,12 +107,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kategengler/ember-feature-flags](https://github.com/kategengler/ember-feature-flags) | 213 | 2026-02-07T12:01:12Z | JavaScript | CLI | 3 | 52 | 3 | 3 |
 | [rust-lang/lang-team](https://github.com/rust-lang/lang-team) | 211 | 2025-12-07T10:41:15Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [kaorahi/lizgoban](https://github.com/kaorahi/lizgoban) | 201 | 2026-01-15T12:07:42Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
-| [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [latex-lsp/tree-sitter-latex](https://github.com/latex-lsp/tree-sitter-latex) | 169 | 2026-02-04T18:12:45Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [attractivechaos/k8](https://github.com/attractivechaos/k8) | 158 | 2025-12-07T18:49:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [emberjs/ember-cli-babel](https://github.com/emberjs/ember-cli-babel) | 152 | 2026-02-05T01:34:19Z | JavaScript | CLI | 2 | 70 | 2 | 2 |
 | [omnidan/redux-recycle](https://github.com/omnidan/redux-recycle) | 147 | 2026-01-02T10:38:33Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
-| [restify/errors](https://github.com/restify/errors) | 145 | 2025-11-25T21:17:12Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
 | [omnidan/redux-undo-boilerplate](https://github.com/omnidan/redux-undo-boilerplate) | 122 | 2026-01-02T10:51:07Z | JavaScript | Template/starter | 0 | 42 | 0 | 0 |
 | [prebuild/prebuild-install](https://github.com/prebuild/prebuild-install) | 115 | 2026-02-19T18:18:57Z | JavaScript | CLI | 5 | 22 | 5 | 5 |
 | [chaijs/deep-eql](https://github.com/chaijs/deep-eql) | 113 | 2026-01-12T21:58:48Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |

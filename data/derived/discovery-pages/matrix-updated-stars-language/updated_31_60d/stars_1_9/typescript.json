@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 776,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 36,
-    "terms": 110
+    "components": 816,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 37,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -37,6 +37,7 @@
     "LogtalkDotOrg/logtalk-for-vscode",
     "neuroverseos/neuroverseos-governance",
     "nicolo-ribaudo/engine262",
+    "oclif/plugin-commands",
     "octokit/auth-unauthenticated.js",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",

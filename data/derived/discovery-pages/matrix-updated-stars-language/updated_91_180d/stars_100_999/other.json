@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 765,
-    "concepts": 700,
-    "observations": 701,
-    "repos": 187,
-    "terms": 695
+    "components": 788,
+    "concepts": 722,
+    "observations": 723,
+    "repos": 190,
+    "terms": 717
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -33,6 +33,7 @@
     "astoff/digestif",
     "atomontage/xterm-color",
     "auto-complete/popup-el",
+    "autodeployai/ai-serving",
     "Azure-Samples/azure-openai-rag-workshop",
     "Azure-Samples/contoso-creative-writer",
     "Azure/aca-landing-zone-accelerator",
@@ -82,6 +83,7 @@
     "eclarke/ggbeeswarm",
     "ecukes/ecukes",
     "elixir-mint/mint_web_socket",
+    "ElsaTam/obsidian-fancy-a-story",
     "ema2159/centaur-tabs",
     "emacs-eldev/eldev",
     "emacs-lsp/lsp-dart",
@@ -185,6 +187,7 @@
     "tomekw/hikari-cp",
     "tpapp/julia-repl",
     "travis-ci/travis-build",
+    "trptcolin/reply",
     "vim-jp/vim-cpp",
     "vim-jp/vim-vimlparser",
     "vim-php/phpctags",

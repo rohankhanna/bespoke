@@ -1,25 +1,23 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 9,
-    "terms": 50
+    "components": 62,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 7,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "aidenlab/juicebox-web",
     "apache/casbin-casbin.io",
     "apache/casbin-fasthttp-auth",
-    "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
-    "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "nafg/jewish-date"
   ]

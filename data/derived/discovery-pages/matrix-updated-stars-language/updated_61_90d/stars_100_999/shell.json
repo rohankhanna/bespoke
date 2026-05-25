@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 44,
-    "observations": 45,
-    "repos": 11,
-    "terms": 45
+    "components": 31,
+    "concepts": 51,
+    "observations": 52,
+    "repos": 14,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
     "agkozak/zcomet",
     "alirezarezvani/claude-code-tresor",
     "asdf-vm/asdf-nodejs",
+    "aws/aws-app-mesh-examples",
     "docker-library/hello-world",
     "flinedev/contextkit",
+    "github/super-linter",
     "heroku/heroku-buildpack-pgbouncer",
     "lxgw/LxgwWenKai-Lite",
+    "mosaicml/examples",
     "nodejs/unofficial-builds",
     "NVIDIA/DL4AGX",
     "omerxx/tmux-floax"

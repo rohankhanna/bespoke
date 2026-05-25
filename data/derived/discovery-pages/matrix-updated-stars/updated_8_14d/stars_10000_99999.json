@@ -1,26 +1,25 @@
 {
   "counts": {
     "components": 592,
-    "concepts": 256,
-    "observations": 257,
-    "repos": 21,
-    "terms": 253
+    "concepts": 254,
+    "observations": 255,
+    "repos": 20,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
-    "academic/awesome-datascience",
     "ajv-validator/ajv",
     "apache/casbin",
     "atuinsh/atuin",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
-    "DayBreak-u/chineseocr_lite",
+    "dense-analysis/ale",
     "fuma-nama/fumadocs",
     "JetBrains/compose-multiplatform",
     "Kilo-Org/kilocode",

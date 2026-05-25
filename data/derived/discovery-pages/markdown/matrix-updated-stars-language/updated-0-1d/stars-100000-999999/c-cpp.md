@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,12 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 112561 | 2026-05-24T07:51:35Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
-| [electron/electron](https://github.com/electron/electron) | 121395 | 2026-05-23T20:01:31Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 112705 | 2026-05-24T18:31:30Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [electron/electron](https://github.com/electron/electron) | 121402 | 2026-05-24T18:02:23Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [electron/electron](https://github.com/electron/electron) | 121395 | 2026-05-23T20:01:31Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 112561 | 2026-05-24T07:51:35Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [electron/electron](https://github.com/electron/electron) | 121402 | 2026-05-24T18:02:23Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 112705 | 2026-05-24T18:31:30Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 70,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 28,
-    "terms": 64
+    "concepts": 66,
+    "observations": 66,
+    "repos": 29,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agents-x-project/PyVision-RL-Eval",
@@ -28,6 +28,7 @@
     "chaoss/grimoirelab-perceval-weblate",
     "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
+    "danielrosehill/claude-slash-commands",
     "day50-dev/mcp-search-and-run",
     "fixie-ai/evals",
     "flinedev/recall",

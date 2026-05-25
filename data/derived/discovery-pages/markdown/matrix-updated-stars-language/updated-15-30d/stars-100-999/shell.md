@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 138
-- components: 103
-- concepts: 143
-- observations: 143
+- repos: 22
+- terms: 136
+- components: 101
+- concepts: 141
+- observations: 141
 
 ## Static behavior
 
@@ -48,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pion/awesome-pion](https://github.com/pion/awesome-pion) | 915 | 2026-04-26T01:09:44Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [rocker-org/rocker-versioned2](https://github.com/rocker-org/rocker-versioned2) | 491 | 2026-04-25T11:26:36Z | Shell | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [lovell/sharp-libvips](https://github.com/lovell/sharp-libvips) | 207 | 2026-04-25T11:13:12Z | Shell | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [tinted-theming/schemes](https://github.com/tinted-theming/schemes) | 249 | 2026-04-24T14:36:45Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -65,7 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microcai/gentoo-zh](https://github.com/microcai/gentoo-zh) | 408 | 2026-04-29T16:52:42Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [2KAbhishek/dots2k](https://github.com/2KAbhishek/dots2k) | 321 | 2026-04-28T06:06:35Z | Shell | CLI | 10 | 0 | 12 | 12 |
 | [heroku/base-images](https://github.com/heroku/base-images) | 272 | 2026-05-01T15:17:41Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [tinted-theming/schemes](https://github.com/tinted-theming/schemes) | 249 | 2026-04-24T14:36:45Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [harbor-framework/terminal-bench-2](https://github.com/harbor-framework/terminal-bench-2) | 247 | 2026-04-30T05:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [meyayl/docker-languagetool](https://github.com/meyayl/docker-languagetool) | 236 | 2026-05-01T02:27:22Z | Shell | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [pacstall/pacstall-programs](https://github.com/pacstall/pacstall-programs) | 211 | 2026-04-28T02:56:58Z | Shell | Infrastructure/tooling | 11 | 7 | 12 | 12 |

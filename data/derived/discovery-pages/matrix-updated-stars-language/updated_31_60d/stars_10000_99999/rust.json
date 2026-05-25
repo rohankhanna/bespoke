@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 830,
-    "concepts": 486,
-    "observations": 487,
-    "repos": 51,
-    "terms": 480
+    "components": 840,
+    "concepts": 492,
+    "observations": 493,
+    "repos": 52,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
+    "aaif-goose/goose",
     "actix/actix-web",
     "ajeetdsouza/zoxide",
     "analysis-tools-dev/static-analysis",

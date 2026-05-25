@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -132,7 +132,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hiroi-sora/Umi-OCR_runtime_windows](https://github.com/hiroi-sora/Umi-OCR_runtime_windows) | 164 | 2025-03-21T08:09:52Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [vislearn/dsacstar](https://github.com/vislearn/dsacstar) | 284 | 2025-03-11T08:30:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [apache/xerces-c](https://github.com/apache/xerces-c) | 158 | 2025-03-06T13:25:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 839 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 840 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/tensorflow-directml-plugin](https://github.com/microsoft/tensorflow-directml-plugin) | 196 | 2025-02-27T19:03:11Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [WojciechMula/base64simd](https://github.com/WojciechMula/base64simd) | 170 | 2025-02-21T23:00:12Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [Deep-Symmetry/carabiner](https://github.com/Deep-Symmetry/carabiner) | 184 | 2025-02-21T04:01:33Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -168,7 +168,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [princeton-vl/DPVO](https://github.com/princeton-vl/DPVO) | 989 | 2024-10-12T23:16:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [crvs/KDTree](https://github.com/crvs/KDTree) | 224 | 2024-10-04T20:58:50Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [coin-or/Bonmin](https://github.com/coin-or/Bonmin) | 145 | 2024-09-29T13:20:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [microsoft/tensorflow-directml](https://github.com/microsoft/tensorflow-directml) | 474 | 2024-09-25T14:34:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/tensorflow-directml](https://github.com/microsoft/tensorflow-directml) | 473 | 2024-09-25T14:34:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kendryte/k230_canmv](https://github.com/kendryte/k230_canmv) | 102 | 2024-09-14T07:31:02Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [google/clif](https://github.com/google/clif) | 980 | 2024-09-06T14:09:13Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [koide3/ndt_omp](https://github.com/koide3/ndt_omp) | 836 | 2024-08-31T13:05:27Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -445,7 +445,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [parlance/ctcdecode](https://github.com/parlance/ctcdecode) | 858 | 2024-04-04T14:03:05Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [fcitx/fcitx](https://github.com/fcitx/fcitx) | 856 | 2024-04-27T20:27:19Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [anse1/sqlsmith](https://github.com/anse1/sqlsmith) | 843 | 2025-11-02T15:56:01Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
-| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 839 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mit-han-lab/omniserve](https://github.com/mit-han-lab/omniserve) | 840 | 2025-03-06T03:22:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [koide3/ndt_omp](https://github.com/koide3/ndt_omp) | 836 | 2024-08-31T13:05:27Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [randy408/libspng](https://github.com/randy408/libspng) | 830 | 2024-06-15T13:27:26Z | C/C++ | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [bwa-mem2/bwa-mem2](https://github.com/bwa-mem2/bwa-mem2) | 829 | 2025-10-15T03:58:27Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -550,8 +550,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eliemichel/WebGPU-Cpp](https://github.com/eliemichel/WebGPU-Cpp) | 478 | 2025-09-03T15:45:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jiixyj/libebur128](https://github.com/jiixyj/libebur128) | 478 | 2023-06-25T04:01:54Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [google-coral/edgetpu](https://github.com/google-coral/edgetpu) | 475 | 2021-10-27T17:11:22Z | C/C++ | Service/API | 2 | 0 | 2 | 2 |
-| [microsoft/tensorflow-directml](https://github.com/microsoft/tensorflow-directml) | 474 | 2024-09-25T14:34:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ethz-asl/COIN-LIO](https://github.com/ethz-asl/COIN-LIO) | 473 | 2024-11-12T12:47:50Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [microsoft/tensorflow-directml](https://github.com/microsoft/tensorflow-directml) | 473 | 2024-09-25T14:34:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [zeromq/zmqpp](https://github.com/zeromq/zmqpp) | 470 | 2022-07-05T19:21:13Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jlblancoc/suitesparse-metis-for-windows](https://github.com/jlblancoc/suitesparse-metis-for-windows) | 467 | 2024-03-16T04:09:07Z | C/C++ | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [robopeak/rplidar_ros](https://github.com/robopeak/rplidar_ros) | 466 | 2024-07-18T18:30:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

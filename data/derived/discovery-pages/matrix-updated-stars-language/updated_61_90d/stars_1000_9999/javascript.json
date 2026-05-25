@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 606,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 25,
-    "terms": 139
+    "components": 578,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 24,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "anandthakker/doiuse",
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
+    "babel/babel-loader",
     "cerebral/cerebral",
     "commonmark/commonmark.js",
     "crossbario/autobahn-js",
     "csstree/csstree",
     "dherault/serverless-offline",
-    "dwyl/learn-json-web-tokens",
     "hughsk/flat",
-    "istanbuljs/nyc",
     "mapbox/delaunator",
     "mourner/flatbush",
     "mrsteele/dotenv-webpack",

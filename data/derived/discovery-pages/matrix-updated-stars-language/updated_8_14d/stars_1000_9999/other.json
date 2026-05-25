@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 11,
-    "terms": 73
+    "components": 52,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 12,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "apache/casbin-Casbin.NET",
     "beam-community/elixir-companies",
@@ -24,6 +24,7 @@
     "nushell/awesome-nu",
     "nvimdev/lspsaga.nvim",
     "okd-project/okd",
-    "opentk/opentk"
+    "opentk/opentk",
+    "preservim/tagbar"
   ]
 }

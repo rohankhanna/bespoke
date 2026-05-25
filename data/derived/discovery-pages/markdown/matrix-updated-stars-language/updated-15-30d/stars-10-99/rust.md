@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 242
-- components: 366
-- concepts: 243
-- observations: 244
+- repos: 43
+- terms: 222
+- components: 335
+- concepts: 223
+- observations: 224
 
 ## Static behavior
 
@@ -29,7 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [influxdata/datafusion-udf-wasm](https://github.com/influxdata/datafusion-udf-wasm) | 15 | 2026-05-06T09:29:19Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [fallow-rs/oxc-coverage-instrument](https://github.com/fallow-rs/oxc-coverage-instrument) | 17 | 2026-05-03T21:48:36Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 6 |
 | [abusch/nu_plugin_semver](https://github.com/abusch/nu_plugin_semver) | 15 | 2026-05-03T13:38:48Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [tyrypyrking/egui-ash](https://github.com/tyrypyrking/egui-ash) | 34 | 2026-05-03T06:53:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [tyrypyrking/egui-ash](https://github.com/tyrypyrking/egui-ash) | 35 | 2026-05-03T06:53:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tofay/rustls-openssl](https://github.com/tofay/rustls-openssl) | 17 | 2026-05-02T18:22:07Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [boozook/mdbook-svgbob](https://github.com/boozook/mdbook-svgbob) | 94 | 2026-05-02T07:38:15Z | Rust | Infrastructure/tooling | 7 | 11 | 8 | 8 |
 | [heroku/buildpacks-python](https://github.com/heroku/buildpacks-python) | 33 | 2026-05-01T23:03:08Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -69,11 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eopb/cargo-override](https://github.com/eopb/cargo-override) | 83 | 2026-04-26T00:26:56Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [mrcjkb/vimcats](https://github.com/mrcjkb/vimcats) | 27 | 2026-04-26T00:18:25Z | Rust | CLI | 8 | 9 | 8 | 8 |
 | [napi-rs/mimalloc-safe](https://github.com/napi-rs/mimalloc-safe) | 15 | 2026-04-25T08:43:39Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
-| [Dicklesworthstone/frankensearch](https://github.com/Dicklesworthstone/frankensearch) | 53 | 2026-04-25T02:59:04Z | Rust | Infrastructure/tooling | 16 | 8 | 16 | 16 |
-| [martinthomson/ohttp](https://github.com/martinthomson/ohttp) | 55 | 2026-04-25T02:30:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [hermit-os/loader](https://github.com/hermit-os/loader) | 83 | 2026-04-24T20:31:27Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [mpizenberg/elm-test-rs](https://github.com/mpizenberg/elm-test-rs) | 92 | 2026-04-24T17:06:52Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
-| [rozbb/rust-hpke](https://github.com/rozbb/rust-hpke) | 86 | 2026-04-24T15:12:56Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -82,15 +77,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fonttools/fontspector](https://github.com/fonttools/fontspector) | 95 | 2026-04-29T11:09:23Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [boozook/mdbook-svgbob](https://github.com/boozook/mdbook-svgbob) | 94 | 2026-05-02T07:38:15Z | Rust | Infrastructure/tooling | 7 | 11 | 8 | 8 |
 | [filecoin-project/builtin-actors](https://github.com/filecoin-project/builtin-actors) | 93 | 2026-04-28T21:31:16Z | Rust | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [mpizenberg/elm-test-rs](https://github.com/mpizenberg/elm-test-rs) | 92 | 2026-04-24T17:06:52Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
-| [rozbb/rust-hpke](https://github.com/rozbb/rust-hpke) | 86 | 2026-04-24T15:12:56Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [eopb/cargo-override](https://github.com/eopb/cargo-override) | 83 | 2026-04-26T00:26:56Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [hermit-os/loader](https://github.com/hermit-os/loader) | 83 | 2026-04-24T20:31:27Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [unrs/unrs-resolver](https://github.com/unrs/unrs-resolver) | 76 | 2026-05-01T01:17:31Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
 | [bnb-chain/reth-bsc](https://github.com/bnb-chain/reth-bsc) | 69 | 2026-04-29T06:40:33Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [martinthomson/ohttp](https://github.com/martinthomson/ohttp) | 55 | 2026-04-25T02:30:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [davidhozic/mujoco-rs](https://github.com/davidhozic/mujoco-rs) | 53 | 2026-04-28T20:02:16Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [Dicklesworthstone/frankensearch](https://github.com/Dicklesworthstone/frankensearch) | 53 | 2026-04-25T02:59:04Z | Rust | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [rust-bitcoin/corepc](https://github.com/rust-bitcoin/corepc) | 51 | 2026-04-29T00:23:50Z | Rust | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [mdn/rari](https://github.com/mdn/rari) | 47 | 2026-05-01T10:17:32Z | Rust | Infrastructure/tooling | 9 | 12 | 9 | 9 |
@@ -104,7 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-osdev/ovmf-prebuilt](https://github.com/rust-osdev/ovmf-prebuilt) | 38 | 2026-04-29T05:24:52Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [openvm-org/stark-backend](https://github.com/openvm-org/stark-backend) | 37 | 2026-04-29T21:47:26Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [bourumir-wyngs/serde-yaml-bw](https://github.com/bourumir-wyngs/serde-yaml-bw) | 37 | 2026-04-29T08:09:04Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [tyrypyrking/egui-ash](https://github.com/tyrypyrking/egui-ash) | 34 | 2026-05-03T06:53:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [tyrypyrking/egui-ash](https://github.com/tyrypyrking/egui-ash) | 35 | 2026-05-03T06:53:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [heroku/buildpacks-python](https://github.com/heroku/buildpacks-python) | 33 | 2026-05-01T23:03:08Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [datafusion-contrib/orc-rust](https://github.com/datafusion-contrib/orc-rust) | 29 | 2026-04-29T04:38:52Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [heroku/buildpacks-nodejs](https://github.com/heroku/buildpacks-nodejs) | 28 | 2026-05-01T10:36:24Z | Rust | Infrastructure/tooling | 9 | 9 | 9 | 9 |

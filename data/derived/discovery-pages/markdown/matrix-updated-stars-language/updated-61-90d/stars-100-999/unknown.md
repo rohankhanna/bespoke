@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apple/device-management](https://github.com/apple/device-management) | 907 | 2026-03-25T14:14:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/source-build](https://github.com/dotnet/source-build) | 286 | 2026-03-24T16:57:01Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [oobabooga/textgen-extensions](https://github.com/oobabooga/textgen-extensions) | 678 | 2026-03-24T13:19:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [revfactory/harness-100](https://github.com/revfactory/harness-100) | 589 | 2026-03-22T22:42:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -49,12 +50,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Alex313031/Thorium-MacOS](https://github.com/Alex313031/Thorium-MacOS) | 607 | 2026-02-25T22:59:48Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [Alex313031/Thorium-Android](https://github.com/Alex313031/Thorium-Android) | 732 | 2026-02-25T15:32:41Z | Unknown | Unknown | 11 | 0 | 12 | 12 |
 | [ipfs/devgrants](https://github.com/ipfs/devgrants) | 178 | 2026-02-25T04:38:08Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [lxgw/lxgw](https://github.com/lxgw/lxgw) | 206 | 2026-02-23T12:11:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apple/device-management](https://github.com/apple/device-management) | 907 | 2026-03-25T14:14:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/LxgwZhenKai](https://github.com/lxgw/LxgwZhenKai) | 773 | 2026-03-17T15:45:50Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [Alex313031/Thorium-Android](https://github.com/Alex313031/Thorium-Android) | 732 | 2026-02-25T15:32:41Z | Unknown | Unknown | 11 | 0 | 12 | 12 |
 | [lumen-oss/nvim-best-practices](https://github.com/lumen-oss/nvim-best-practices) | 706 | 2026-03-19T14:22:47Z | Unknown | Infrastructure/tooling | 8 | 2 | 8 | 8 |
@@ -73,7 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/deepsomatic](https://github.com/google/deepsomatic) | 304 | 2026-03-05T23:37:06Z | Unknown | Unknown | 10 | 0 | 10 | 10 |
 | [dotnet/source-build](https://github.com/dotnet/source-build) | 286 | 2026-03-24T16:57:01Z | Unknown | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [eza-community/eza-themes](https://github.com/eza-community/eza-themes) | 229 | 2026-03-04T17:26:16Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 2 |
-| [lxgw/lxgw](https://github.com/lxgw/lxgw) | 206 | 2026-02-23T12:11:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs/devgrants](https://github.com/ipfs/devgrants) | 178 | 2026-02-25T04:38:08Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [hashicorp/vault-examples](https://github.com/hashicorp/vault-examples) | 161 | 2026-03-01T21:18:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [emberjs/core-notes](https://github.com/emberjs/core-notes) | 149 | 2026-03-10T15:10:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

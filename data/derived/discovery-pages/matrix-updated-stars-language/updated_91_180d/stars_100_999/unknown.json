@@ -3,7 +3,7 @@
     "components": 10,
     "concepts": 63,
     "observations": 63,
-    "repos": 31,
+    "repos": 32,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "AppImageCommunity/awesome-appimage",
@@ -29,6 +29,7 @@
     "libp2p/js-libp2p-examples",
     "lightning/blips",
     "lintool/guide",
+    "lxgw/lxgw",
     "mapbox/tilejson-spec",
     "microsoft/foss-fund",
     "MiniMax-AI/MiniMax-M2.1",

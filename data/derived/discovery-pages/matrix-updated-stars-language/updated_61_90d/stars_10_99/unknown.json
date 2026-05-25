@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 20,
-    "terms": 35
+    "components": 15,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 18,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "aquasecurity/setup-trivy",
     "bpftrace/user-tools",
     "catppuccin/atuin",
-    "chaiNNer-org/chaiNNer-nightly",
     "clearml/clearml-fractional-gpu",
     "cncf/project-template",
     "cncf/wg-networking",
     "CommunitySpecification/Community_Specification",
     "cta-wave/WMAS",
-    "ethereum/beacon-metrics",
     "getsentry/.github",
     "googlefonts/emoji-metadata",
     "grpc/grpc-community",

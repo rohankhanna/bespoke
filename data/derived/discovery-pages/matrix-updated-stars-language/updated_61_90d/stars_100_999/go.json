@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 173,
-    "observations": 173,
+    "components": 170,
+    "concepts": 171,
+    "observations": 171,
     "repos": 32,
-    "terms": 173
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
     "Antonboom/testifylint",
-    "appbaseio/reactivesearch-api",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-xray-daemon",
@@ -39,6 +38,7 @@
     "kubernetes-sigs/kubetest2",
     "medama-io/medama",
     "mholt/acmez",
+    "minio/directpv",
     "minio/highwayhash",
     "nikepan/clickhouse-bulk",
     "omniscale/imposm3",

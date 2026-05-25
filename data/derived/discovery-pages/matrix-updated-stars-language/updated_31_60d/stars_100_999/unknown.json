@@ -3,7 +3,7 @@
     "components": 76,
     "concepts": 271,
     "observations": 272,
-    "repos": 68,
+    "repos": 69,
     "terms": 270
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/adoptium",
+    "adoptium/temurin21-binaries",
     "agamm/claude-code-owasp",
     "ailev/fpf",
     "alchaincyf/elon-musk-skill",
@@ -27,7 +28,6 @@
     "antonbabenko/awesome-terraform-compliance",
     "antonbabenko/terraform-aws-devops",
     "apappascs/mcp-servers-hub",
-    "apple/device-management",
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
     "AutoJunjie/awesome-agent-harness",
@@ -60,6 +60,7 @@
     "ipfs-examples/helia-examples",
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
+    "LemmyNet/lemmy-docs",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "mason-org/mason-registry",
     "MicrosoftDocs/terminal",

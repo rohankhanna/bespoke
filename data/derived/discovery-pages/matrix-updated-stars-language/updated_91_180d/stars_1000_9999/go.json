@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 176,
-    "observations": 176,
-    "repos": 32,
-    "terms": 176
+    "components": 187,
+    "concepts": 181,
+    "observations": 181,
+    "repos": 35,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "99designs/aws-vault",
+    "abh/geodns",
     "achannarasappa/ticker",
     "ajvb/kala",
     "ameshkov/dnslookup",
@@ -25,8 +26,10 @@
     "chaisql/chai",
     "charmbracelet/skate",
     "containernetworking/cni",
+    "dagger/container-use",
     "dgraph-io/ristretto",
     "evmos/evmos",
+    "flashbots/mev-boost",
     "gin-gonic/contrib",
     "github/git-sizer",
     "go-rod/rod",

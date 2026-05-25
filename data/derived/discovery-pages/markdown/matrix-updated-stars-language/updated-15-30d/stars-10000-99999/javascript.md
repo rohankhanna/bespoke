@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 360
-- components: 2082
-- concepts: 367
-- observations: 367
+- repos: 40
+- terms: 349
+- components: 2058
+- concepts: 356
+- observations: 356
 
 ## Static behavior
 
@@ -66,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wix/Detox](https://github.com/wix/Detox) | 11901 | 2026-04-27T10:24:49Z | JavaScript | Infrastructure/tooling | 17 | 37 | 17 | 17 |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | 17547 | 2026-04-27T10:23:39Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
-| [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -84,7 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Automattic/mongoose](https://github.com/Automattic/mongoose) | 27476 | 2026-04-29T20:24:41Z | JavaScript | Infrastructure/tooling | 11 | 54 | 11 | 11 |
 | [eslint/eslint](https://github.com/eslint/eslint) | 27217 | 2026-05-03T08:41:29Z | JavaScript | Infrastructure/tooling | 13 | 103 | 13 | 13 |
 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 26631 | 2026-04-29T00:26:31Z | JavaScript | Infrastructure/tooling | 5 | 139 | 5 | 5 |
-| [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | 23487 | 2026-04-29T04:32:24Z | JavaScript | Infrastructure/tooling | 12 | 51 | 12 | 12 |
 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22884 | 2026-04-30T12:30:55Z | JavaScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 22578 | 2026-05-03T14:32:10Z | JavaScript | Infrastructure/tooling | 19 | 7 | 23 | 23 |

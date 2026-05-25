@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 82
-- terms: 103
-- components: 257
-- concepts: 104
-- observations: 104
+- repos: 81
+- terms: 104
+- components: 270
+- concepts: 105
+- observations: 105
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [0xBigBoss/ghostty-web](https://github.com/0xBigBoss/ghostty-web) | 0 | 2026-02-24T02:47:12Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [charlesnicholson/docker-images](https://github.com/charlesnicholson/docker-images) | 0 | 2026-02-21T14:34:16Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [jrsoftware/is7z](https://github.com/jrsoftware/is7z) | 0 | 2026-02-21T12:11:44Z | C/C++ | Unknown | 2 | 0 | 3 | 3 |
 | [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -105,13 +106,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asm89/prettytable-rs](https://github.com/asm89/prettytable-rs) | 0 | 2025-11-28T17:25:34Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Kokoro-FastAPI](https://github.com/danielrosehill/Kokoro-FastAPI) | 0 | 2025-11-27T01:04:19Z | Unknown | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [biocypher/biocypher-cookiecutter-template](https://github.com/biocypher/biocypher-cookiecutter-template) | 0 | 2025-11-26T19:37:26Z | Python | Template/starter | 0 | 0 | 0 | 0 |
-| [LuminalOSS/credstash](https://github.com/LuminalOSS/credstash) | 0 | 2025-11-25T23:07:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Rescue](https://github.com/danielrosehill/Claude-Rescue) | 0 | 2025-11-25T13:41:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [0xBigBoss/ghostty-web](https://github.com/0xBigBoss/ghostty-web) | 0 | 2026-02-24T02:47:12Z | TypeScript | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [charlesnicholson/docker-images](https://github.com/charlesnicholson/docker-images) | 0 | 2026-02-21T14:34:16Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [jrsoftware/is7z](https://github.com/jrsoftware/is7z) | 0 | 2026-02-21T12:11:44Z | C/C++ | Unknown | 2 | 0 | 3 | 3 |
 | [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -192,5 +192,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asm89/prettytable-rs](https://github.com/asm89/prettytable-rs) | 0 | 2025-11-28T17:25:34Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Kokoro-FastAPI](https://github.com/danielrosehill/Kokoro-FastAPI) | 0 | 2025-11-27T01:04:19Z | Unknown | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [biocypher/biocypher-cookiecutter-template](https://github.com/biocypher/biocypher-cookiecutter-template) | 0 | 2025-11-26T19:37:26Z | Python | Template/starter | 0 | 0 | 0 | 0 |
-| [LuminalOSS/credstash](https://github.com/LuminalOSS/credstash) | 0 | 2025-11-25T23:07:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Rescue](https://github.com/danielrosehill/Claude-Rescue) | 0 | 2025-11-25T13:41:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

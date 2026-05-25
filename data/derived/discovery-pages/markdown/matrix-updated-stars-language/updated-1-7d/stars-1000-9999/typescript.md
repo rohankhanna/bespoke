@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 15
 - terms: 89
-- components: 615
+- components: 580
 - concepts: 89
 - observations: 89
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6670 | 2026-05-23T20:15:50Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2551 | 2026-05-23T01:14:01Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-22T20:23:26Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
 | [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2146 | 2026-05-22T07:10:25Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2491 | 2026-05-22T05:26:57Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7652 | 2026-05-22T05:21:19Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
-| [TanStack/form](https://github.com/TanStack/form) | 6541 | 2026-05-21T22:06:42Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7655 | 2026-05-22T05:21:19Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
+| [TanStack/form](https://github.com/TanStack/form) | 6543 | 2026-05-21T22:06:42Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
 | [vercel/serve](https://github.com/vercel/serve) | 9854 | 2026-05-21T21:12:56Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
-| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8447 | 2026-05-21T15:35:33Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8449 | 2026-05-21T15:35:33Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
 | [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3041 | 2026-05-21T14:08:21Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [vuejs/devtools](https://github.com/vuejs/devtools) | 2836 | 2026-05-20T08:45:39Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4287 | 2026-05-20T04:37:54Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
@@ -47,14 +47,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [vercel/serve](https://github.com/vercel/serve) | 9854 | 2026-05-21T21:12:56Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
-| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8447 | 2026-05-21T15:35:33Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7652 | 2026-05-22T05:21:19Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
-| [TanStack/form](https://github.com/TanStack/form) | 6541 | 2026-05-21T22:06:42Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8449 | 2026-05-21T15:35:33Z | TypeScript | Infrastructure/tooling | 8 | 27 | 8 | 8 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7655 | 2026-05-22T05:21:19Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
+| [vuejs/language-tools](https://github.com/vuejs/language-tools) | 6670 | 2026-05-23T20:15:50Z | TypeScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [TanStack/form](https://github.com/TanStack/form) | 6543 | 2026-05-21T22:06:42Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4287 | 2026-05-20T04:37:54Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
 | [apollographql/apollo-tooling](https://github.com/apollographql/apollo-tooling) | 3041 | 2026-05-21T14:08:21Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [vuejs/devtools](https://github.com/vuejs/devtools) | 2836 | 2026-05-20T08:45:39Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2551 | 2026-05-23T01:14:01Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
-| [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2491 | 2026-05-22T05:26:57Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
 | [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2146 | 2026-05-22T07:10:25Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) | 2021 | 2026-05-19T20:23:43Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-22T20:23:26Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |

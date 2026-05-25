@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 303
-- components: 213
-- concepts: 303
-- observations: 303
+- repos: 42
+- terms: 308
+- components: 218
+- concepts: 308
+- observations: 308
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sevntu-checkstyle/sevntu.checkstyle](https://github.com/sevntu-checkstyle/sevntu.checkstyle) | 196 | 2026-04-25T01:26:12Z | Java | CLI | 3 | 3 | 3 | 3 |
+| [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [zilliztech/vts](https://github.com/zilliztech/vts) | 121 | 2026-04-23T13:19:03Z | Java | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |
@@ -66,7 +68,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [objectbox/objectbox-examples](https://github.com/objectbox/objectbox-examples) | 407 | 2026-03-31T09:02:40Z | Java | Unknown | 5 | 0 | 5 | 5 |
 | [spring-io/spring-javaformat](https://github.com/spring-io/spring-javaformat) | 934 | 2026-03-30T10:27:04Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [swagger-api/validator-badge](https://github.com/swagger-api/validator-badge) | 223 | 2026-03-26T08:02:49Z | Java | Infrastructure/tooling | 16 | 10 | 16 | 16 |
-| [GoogleCloudPlatform/cloud-bigtable-examples](https://github.com/GoogleCloudPlatform/cloud-bigtable-examples) | 235 | 2026-03-25T18:02:10Z | Java | Unknown | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -79,6 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chromiumembedded/java-cef](https://github.com/chromiumembedded/java-cef) | 850 | 2026-04-09T19:36:04Z | Java | Framework | 4 | 0 | 4 | 4 |
 | [mukel/llama3.java](https://github.com/mukel/llama3.java) | 805 | 2026-04-10T23:05:23Z | Java | Unknown | 12 | 0 | 12 | 12 |
 | [googleapis/google-api-java-client-services](https://github.com/googleapis/google-api-java-client-services) | 719 | 2026-04-22T14:40:14Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [googleapis/google-oauth-java-client](https://github.com/googleapis/google-oauth-java-client) | 657 | 2026-04-20T21:14:46Z | Java | CLI | 6 | 9 | 6 | 6 |
 | [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-04-10T21:58:36Z | Java | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-04-02T09:11:15Z | Java | CLI | 0 | 2 | 0 | 0 |
@@ -99,9 +101,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/semantic-kernel-java](https://github.com/microsoft/semantic-kernel-java) | 260 | 2026-04-22T17:33:07Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |
 | [FasterXML/woodstox](https://github.com/FasterXML/woodstox) | 248 | 2026-04-21T17:04:16Z | Java | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [GoogleCloudPlatform/cloud-bigtable-examples](https://github.com/GoogleCloudPlatform/cloud-bigtable-examples) | 235 | 2026-03-25T18:02:10Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [swagger-api/validator-badge](https://github.com/swagger-api/validator-badge) | 223 | 2026-03-26T08:02:49Z | Java | Infrastructure/tooling | 16 | 10 | 16 | 16 |
 | [Cosium/git-code-format-maven-plugin](https://github.com/Cosium/git-code-format-maven-plugin) | 222 | 2026-04-20T05:41:58Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [sevntu-checkstyle/sevntu.checkstyle](https://github.com/sevntu-checkstyle/sevntu.checkstyle) | 196 | 2026-04-25T01:26:12Z | Java | CLI | 3 | 3 | 3 | 3 |
 | [ysbing/YADB](https://github.com/ysbing/YADB) | 194 | 2026-04-09T09:00:59Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [swagger-api/swagger-inflector](https://github.com/swagger-api/swagger-inflector) | 170 | 2026-04-21T13:04:19Z | Java | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [higress-group/higress-console](https://github.com/higress-group/higress-console) | 168 | 2026-04-16T05:59:31Z | Java | Infrastructure/tooling | 6 | 17 | 6 | 6 |

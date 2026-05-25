@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 10248,
-    "concepts": 10081,
-    "observations": 10113,
-    "repos": 1715,
-    "terms": 10031
+    "concepts": 10078,
+    "observations": 10110,
+    "repos": 1714,
+    "terms": 10028
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -81,7 +81,6 @@
     "ahmetb/kubectx",
     "ahmetb/runsd",
     "ahmetb/serverless-registry-proxy",
-    "ahmetb/ytdl",
     "ai-bot-pro/achatbot-go",
     "ai-bot-pro/pipeline-go",
     "ai-dynamo/grove",

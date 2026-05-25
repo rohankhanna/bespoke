@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 54
-- components: 44
-- concepts: 55
-- observations: 55
+- repos: 13
+- terms: 57
+- components: 46
+- concepts: 58
+- observations: 58
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
 | [google/dopamine](https://github.com/google/dopamine) | 10878 | 2026-03-24T18:11:40Z | Other | Framework | 2 | 0 | 2 | 2 |
 | [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) | 25493 | 2026-03-19T21:20:57Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 62656 | 2026-03-17T19:17:14Z | Other | Infrastructure/tooling | 19 | 15 | 20 | 20 |
@@ -44,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 62656 | 2026-03-17T19:17:14Z | Other | Infrastructure/tooling | 19 | 15 | 20 | 20 |
+| [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
 | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 29760 | 2026-03-16T02:21:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Swordfish90/cool-retro-term](https://github.com/Swordfish90/cool-retro-term) | 25493 | 2026-03-19T21:20:57Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | 23452 | 2026-03-05T20:35:15Z | Other | CLI | 9 | 4 | 9 | 9 |

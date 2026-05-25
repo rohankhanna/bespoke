@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 571,
-    "concepts": 323,
-    "observations": 325,
-    "repos": 86,
-    "terms": 337
+    "components": 576,
+    "concepts": 333,
+    "observations": 335,
+    "repos": 88,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -46,6 +46,7 @@
     "crate-ci/imperative",
     "datachainlab/lcp",
     "datafusion-contrib/datafusion-orc",
+    "Dicklesworthstone/frankensearch",
     "eth-act/ere",
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
@@ -57,6 +58,7 @@
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
     "hecrj/iced_palace",
+    "hermit-os/loader",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
@@ -70,9 +72,10 @@
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
-    "libdeflater/libdeflater",
     "major7apps/pensyve",
+    "martinthomson/ohttp",
     "messense/py-promql-parser",
+    "mpizenberg/elm-test-rs",
     "multiformats/rust-cid",
     "near/cargo-near",
     "near/near-workspaces-rs",
@@ -84,9 +87,8 @@
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
     "quininer/x11-clipboard",
-    "randombit/botan-rs",
+    "rozbb/rust-hpke",
     "rust-lang/josh-sync",
-    "sigp/rust-libp2p",
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",

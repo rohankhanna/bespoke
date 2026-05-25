@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1123,
-    "concepts": 649,
-    "observations": 653,
-    "repos": 154,
-    "terms": 647
+    "components": 1092,
+    "concepts": 613,
+    "observations": 617,
+    "repos": 147,
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abap2UI5-addons/sql-console",
@@ -26,7 +26,6 @@
     "ameshkov/swift-psl",
     "angellist/boba",
     "angular/angular-devkit-build-angular-builds",
-    "ankane/blazer-dev",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "arkime/arkimeweb",
@@ -43,7 +42,6 @@
     "brave-intl/publishers",
     "buttondown/docs",
     "cderv/r-bucket",
-    "cjdoris/PreferenceTools.jl",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/bosh-aws-cpi-release",
     "cloudfoundry/bosh-azure-cpi-release",
@@ -71,7 +69,7 @@
     "FactoryXCode/MfPack",
     "fern-api/docs-starter",
     "fogus/rv",
-    "gazebosim/gz-cmake",
+    "FreneticLLC/FreneticGameEngine",
     "gazebosim/sdf_tutorials",
     "google/bazel-common",
     "googleapis/google-cloud-php-pubsub",
@@ -122,10 +120,8 @@
     "NVIDIA/DALI_extra",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
-    "ocaml-tracing/ocaml-tracy",
     "oliyh/carve.el",
     "open-edge-platform/geti-instant-learn",
-    "optuna/optunahub-registry",
     "osrf/homebrew-simulation",
     "palladius/gemini-news-crawler",
     "ParisNeo/lollms",
@@ -156,16 +152,13 @@
     "sidlatau/neotest-dart",
     "sigstore/helm-charts",
     "siketyan/intellij-rustowl",
-    "squeak-smalltalk/squeak.org",
     "status-im/nim-protobuf-serialization",
     "status-im/nim-ssz-serialization",
     "tc39/proposal-amount",
     "TEN-framework/portal",
-    "theseyan/lmdbx-zig",
     "tinted-theming/tinted-xresources",
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
-    "VirtusLab/bazel-steward",
     "WebAssembly/shared-everything-threads",
     "yamachu/VoicevoxCoreSharp"
   ]

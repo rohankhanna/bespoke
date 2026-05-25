@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3107,
-    "concepts": 676,
-    "observations": 676,
-    "repos": 103,
-    "terms": 673
+    "components": 3154,
+    "concepts": 689,
+    "observations": 689,
+    "repos": 106,
+    "terms": 685
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -27,7 +27,6 @@
     "archiverjs/node-archiver",
     "asciinema/asciinema-player",
     "Automattic/juice",
-    "babel/babel-loader",
     "bcoe/c8",
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
@@ -47,6 +46,7 @@
     "expressjs/body-parser",
     "facebook/jscodeshift",
     "fengyuanchen/compressorjs",
+    "flow-typed/flow-typed",
     "fullstorydev/grpcui",
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
@@ -59,6 +59,7 @@
     "GoogleChromeLabs/ProjectVisBug",
     "grommet/grommet",
     "hotoo/pinyin",
+    "i18next/i18next",
     "igorshubovych/markdownlint-cli",
     "ipfs/ipfs-desktop",
     "isaacs/minimatch",
@@ -80,6 +81,7 @@
     "minio/minio-js",
     "mourner/rbush",
     "newrelic/node-newrelic",
+    "NickColley/jest-axe",
     "nodegit/nodegit",
     "nodejs/undici",
     "npm/cli",
@@ -115,6 +117,7 @@
     "webpack/sass-loader",
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
+    "yahoo/serialize-javascript",
     "yeoman/yo",
     "ykdojo/claude-code-tips"
   ]

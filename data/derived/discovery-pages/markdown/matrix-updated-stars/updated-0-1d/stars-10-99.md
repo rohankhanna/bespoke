@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 5
-- terms: 25
-- components: 58
-- concepts: 25
-- observations: 25
+- terms: 28
+- components: 51
+- concepts: 28
+- observations: 28
 
 ## Static behavior
 
@@ -25,18 +25,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T02:38:37Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-23T14:38:38Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-23T11:27:50Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [dwyl/mvp](https://github.com/dwyl/mvp) | 96 | 2026-05-23T10:31:46Z | Other | Infrastructure/tooling | 17 | 10 | 17 | 17 |
-| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-23T10:16:17Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-24T17:14:39Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
+| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 35 | 2026-05-24T12:18:23Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-24T08:02:53Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dwyl/mvp](https://github.com/dwyl/mvp) | 96 | 2026-05-23T10:31:46Z | Other | Infrastructure/tooling | 17 | 10 | 17 | 17 |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-23T14:38:38Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-23T10:16:17Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-23T11:27:50Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T02:38:37Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 83 | 2026-05-24T17:14:39Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-24T08:02:53Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 35 | 2026-05-24T12:18:23Z | Shell | Unknown | 4 | 0 | 4 | 4 |
+| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

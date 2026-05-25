@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 239
-- components: 205
-- concepts: 241
-- observations: 242
+- repos: 61
+- terms: 274
+- components: 216
+- concepts: 276
+- observations: 277
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rusty1s/pytorch_cluster](https://github.com/rusty1s/pytorch_cluster) | 920 | 2026-03-26T04:45:29Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [AmusementClub/vs-mlrt](https://github.com/AmusementClub/vs-mlrt) | 440 | 2026-03-26T01:48:30Z | C/C++ | Infrastructure/tooling | 27 | 5 | 27 | 27 |
+| [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 213 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -92,6 +95,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [btzy/nativefiledialog-extended](https://github.com/btzy/nativefiledialog-extended) | 986 | 2026-03-14T06:19:19Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [libxsmm/libxsmm](https://github.com/libxsmm/libxsmm) | 952 | 2026-03-18T18:05:21Z | C/C++ | Infrastructure/tooling | 17 | 6 | 17 | 17 |
 | [PaddlePaddle/Paddle2ONNX](https://github.com/PaddlePaddle/Paddle2ONNX) | 922 | 2026-03-18T09:31:20Z | C/C++ | Infrastructure/tooling | 13 | 9 | 13 | 13 |
+| [rusty1s/pytorch_cluster](https://github.com/rusty1s/pytorch_cluster) | 920 | 2026-03-26T04:45:29Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [frankmorgner/vsmartcard](https://github.com/frankmorgner/vsmartcard) | 836 | 2026-03-12T21:09:17Z | C/C++ | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [KhronosGroup/OpenGL-Registry](https://github.com/KhronosGroup/OpenGL-Registry) | 835 | 2026-03-19T05:30:33Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
@@ -117,6 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lexxmark/winflexbison](https://github.com/lexxmark/winflexbison) | 472 | 2026-03-04T11:21:24Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [JokerJohn/Cloud_Map_Evaluation](https://github.com/JokerJohn/Cloud_Map_Evaluation) | 458 | 2026-03-22T06:35:28Z | C/C++ | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [starwing/luautf8](https://github.com/starwing/luautf8) | 453 | 2026-02-26T16:04:24Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [AmusementClub/vs-mlrt](https://github.com/AmusementClub/vs-mlrt) | 440 | 2026-03-26T01:48:30Z | C/C++ | Infrastructure/tooling | 27 | 5 | 27 | 27 |
 | [google/kmsan](https://github.com/google/kmsan) | 418 | 2026-03-05T16:38:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [NiLuJe/kfmon](https://github.com/NiLuJe/kfmon) | 403 | 2026-03-17T14:49:52Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [apache/rocketmq-client-cpp](https://github.com/apache/rocketmq-client-cpp) | 391 | 2026-03-17T02:07:22Z | C/C++ | CLI | 1 | 0 | 1 | 1 |
@@ -135,6 +140,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ARM-software/EndpointAI](https://github.com/ARM-software/EndpointAI) | 224 | 2026-03-04T16:54:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 213 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [smarco/WFA2-lib](https://github.com/smarco/WFA2-lib) | 213 | 2026-03-18T08:53:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mongodb-js/kerberos](https://github.com/mongodb-js/kerberos) | 177 | 2026-03-01T15:05:18Z | C/C++ | Infrastructure/tooling | 11 | 32 | 11 | 12 |
 | [ylsdamxssjxxdd/eva](https://github.com/ylsdamxssjxxdd/eva) | 176 | 2026-02-27T07:23:56Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |

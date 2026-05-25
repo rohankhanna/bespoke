@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 272
-- components: 1136
-- concepts: 261
-- observations: 262
+- repos: 45
+- terms: 281
+- components: 1214
+- concepts: 270
+- observations: 271
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [fannheyward/create-coc-extension](https://github.com/fannheyward/create-coc-extension) | 216 | 2026-03-26T00:40:11Z | TypeScript | CLI | 1 | 13 | 1 | 1 |
+| [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
+| [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [filllabs/dependi](https://github.com/filllabs/dependi) | 253 | 2026-03-25T07:54:43Z | TypeScript | Infrastructure/tooling | 14 | 5 | 14 | 14 |
 | [kylebarron/arrow-js-ffi](https://github.com/kylebarron/arrow-js-ffi) | 131 | 2026-03-24T22:20:10Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [vim-denops/denops.vim](https://github.com/vim-denops/denops.vim) | 784 | 2026-03-23T01:05:40Z | TypeScript | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -36,7 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions-cool/issues-helper](https://github.com/actions-cool/issues-helper) | 407 | 2026-03-20T10:00:23Z | TypeScript | Infrastructure/tooling | 10 | 31 | 10 | 10 |
 | [thesayyn/protoc-gen-ts](https://github.com/thesayyn/protoc-gen-ts) | 405 | 2026-03-19T00:09:38Z | TypeScript | CLI | 12 | 7 | 12 | 12 |
 | [sudocode-ai/sudocode](https://github.com/sudocode-ai/sudocode) | 272 | 2026-03-18T23:20:38Z | TypeScript | CLI | 4 | 6 | 0 | 0 |
-| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 835 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
+| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 834 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [aelassas/bookcars](https://github.com/aelassas/bookcars) | 576 | 2026-03-18T12:23:22Z | TypeScript | Infrastructure/tooling | 17 | 13 | 17 | 17 |
 | [solidjs/templates](https://github.com/solidjs/templates) | 531 | 2026-03-17T14:11:05Z | TypeScript | Template/starter | 0 | 3 | 0 | 0 |
 | [testing-library/angular-testing-library](https://github.com/testing-library/angular-testing-library) | 788 | 2026-03-17T11:52:43Z | TypeScript | Infrastructure/tooling | 4 | 65 | 4 | 4 |
@@ -67,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unplugin/unplugin-vue-markdown](https://github.com/unplugin/unplugin-vue-markdown) | 619 | 2026-02-26T10:58:16Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [yandeu/five-server](https://github.com/yandeu/five-server) | 220 | 2026-02-25T18:19:32Z | TypeScript | Infrastructure/tooling | 1 | 36 | 1 | 1 |
 | [antfu/eslint-plugin-command](https://github.com/antfu/eslint-plugin-command) | 369 | 2026-02-25T04:52:02Z | TypeScript | Infrastructure/tooling | 3 | 32 | 3 | 3 |
-| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -75,7 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
 | [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
-| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 835 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
+| [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 834 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template) | 817 | 2026-03-09T23:53:42Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [sveltejs/prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte) | 809 | 2026-03-03T16:45:52Z | TypeScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
@@ -87,7 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | 705 | 2026-03-16T05:56:32Z | TypeScript | Infrastructure/tooling | 6 | 97 | 6 | 6 |
 | [cloydlau/json-editor-vue](https://github.com/cloydlau/json-editor-vue) | 675 | 2026-03-21T11:51:52Z | TypeScript | Infrastructure/tooling | 15 | 61 | 18 | 18 |
 | [unplugin/unplugin-vue-markdown](https://github.com/unplugin/unplugin-vue-markdown) | 619 | 2026-02-26T10:58:16Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
-| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
 | [aelassas/bookcars](https://github.com/aelassas/bookcars) | 576 | 2026-03-18T12:23:22Z | TypeScript | Infrastructure/tooling | 17 | 13 | 17 | 17 |
 | [agentscope-ai/agentscope-studio](https://github.com/agentscope-ai/agentscope-studio) | 532 | 2026-03-06T15:46:32Z | TypeScript | Infrastructure/tooling | 12 | 36 | 12 | 12 |
 | [solidjs/templates](https://github.com/solidjs/templates) | 531 | 2026-03-17T14:11:05Z | TypeScript | Template/starter | 0 | 3 | 0 | 0 |
@@ -106,12 +108,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [filllabs/dependi](https://github.com/filllabs/dependi) | 253 | 2026-03-25T07:54:43Z | TypeScript | Infrastructure/tooling | 14 | 5 | 14 | 14 |
 | [fnando/i18n](https://github.com/fnando/i18n) | 233 | 2026-03-04T21:02:59Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [yandeu/five-server](https://github.com/yandeu/five-server) | 220 | 2026-02-25T18:19:32Z | TypeScript | Infrastructure/tooling | 1 | 36 | 1 | 1 |
+| [fannheyward/create-coc-extension](https://github.com/fannheyward/create-coc-extension) | 216 | 2026-03-26T00:40:11Z | TypeScript | CLI | 1 | 13 | 1 | 1 |
 | [trzsz/trzsz.js](https://github.com/trzsz/trzsz.js) | 199 | 2026-03-06T17:35:00Z | TypeScript | CLI | 10 | 29 | 10 | 10 |
+| [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
 | [0xtbug/zero-limit](https://github.com/0xtbug/zero-limit) | 155 | 2026-02-27T04:25:53Z | TypeScript | CLI | 8 | 50 | 8 | 8 |
 | [tracked-tools/tracked-built-ins](https://github.com/tracked-tools/tracked-built-ins) | 137 | 2026-03-20T21:21:28Z | TypeScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [kylebarron/arrow-js-ffi](https://github.com/kylebarron/arrow-js-ffi) | 131 | 2026-03-24T22:20:10Z | TypeScript | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server) | 121 | 2026-03-13T00:35:42Z | TypeScript | Framework | 7 | 6 | 7 | 7 |
+| [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [XantreDev/preact-signals](https://github.com/XantreDev/preact-signals) | 110 | 2026-03-22T17:23:18Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [eckardt/cchistory](https://github.com/eckardt/cchistory) | 107 | 2026-02-28T16:49:23Z | TypeScript | CLI | 3 | 13 | 0 | 0 |
 | [aymenfurter/ralph](https://github.com/aymenfurter/ralph) | 103 | 2026-02-27T08:01:38Z | TypeScript | Infrastructure/tooling | 1 | 18 | 0 | 0 |
 | [lobehub/lobe-charts](https://github.com/lobehub/lobe-charts) | 102 | 2026-03-02T12:30:12Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
+| [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |

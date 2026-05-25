@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 826
-- terms: 1869
-- components: 2031
-- concepts: 1876
-- observations: 1882
+- terms: 1878
+- components: 2033
+- concepts: 1885
+- observations: 1891
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [JuliaGraphics/ColorTypes.jl](https://github.com/JuliaGraphics/ColorTypes.jl) | 83 | 2025-11-24T18:42:25Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mirage/ocaml-conduit](https://github.com/mirage/ocaml-conduit) | 87 | 2025-11-24T11:50:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mirage/ocaml-uri](https://github.com/mirage/ocaml-uri) | 98 | 2025-11-24T11:47:15Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -447,7 +448,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PanJiaChen/PanJiaChen.github.io](https://github.com/PanJiaChen/PanJiaChen.github.io) | 67 | 2024-03-21T19:00:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [xfthhxk/unminify](https://github.com/xfthhxk/unminify) | 34 | 2024-03-19T15:26:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [camenduru/DynamiCrafter-colab](https://github.com/camenduru/DynamiCrafter-colab) | 26 | 2024-03-18T07:02:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 23 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
+| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 25 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [atteneder/DracoUnityDemo](https://github.com/atteneder/DracoUnityDemo) | 30 | 2024-03-14T11:22:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [teacher-zhou/ComponentBuilder](https://github.com/teacher-zhou/ComponentBuilder) | 48 | 2024-03-07T03:08:08Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [ethansmith2000/ImprovedTokenMerge](https://github.com/ethansmith2000/ImprovedTokenMerge) | 49 | 2024-03-03T04:33:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -851,7 +852,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [monatis/german-tts](https://github.com/monatis/german-tts) | 26 | 2021-06-07T08:44:01Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [bitzesty/zxcvbn-js](https://github.com/bitzesty/zxcvbn-js) | 30 | 2021-05-31T17:12:19Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [pinobatch/allpads-nes](https://github.com/pinobatch/allpads-nes) | 12 | 2021-05-31T02:55:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [bsless/malli-keys-relations](https://github.com/bsless/malli-keys-relations) | 22 | 2021-05-25T11:55:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -1087,6 +1087,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [idris-community/inigo](https://github.com/idris-community/inigo) | 61 | 2022-10-30T16:10:18Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [VBAndCs/Vazor](https://github.com/VBAndCs/Vazor) | 61 | 2022-09-23T20:03:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ChorusOne/tendermint-sol](https://github.com/ChorusOne/tendermint-sol) | 61 | 2022-03-02T02:19:58Z | Other | Unknown | 0 | 15 | 0 | 0 |
+| [patterns-ai-core/qdrant-ruby](https://github.com/patterns-ai-core/qdrant-ruby) | 60 | 2025-11-25T15:30:06Z | Other | CLI | 9 | 2 | 9 | 9 |
 | [jpbruyere/Crow](https://github.com/jpbruyere/Crow) | 60 | 2025-07-29T08:47:15Z | Other | Service/API | 2 | 0 | 2 | 2 |
 | [robotology/ycm-cmake-modules](https://github.com/robotology/ycm-cmake-modules) | 60 | 2025-07-17T11:13:30Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [melange-re/melange-opam-template](https://github.com/melange-re/melange-opam-template) | 60 | 2024-11-14T17:12:06Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
@@ -1434,6 +1435,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AI-secure/AdvAgent](https://github.com/AI-secure/AdvAgent) | 25 | 2025-05-28T06:45:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vale-cli/alex](https://github.com/vale-cli/alex) | 25 | 2024-11-21T05:50:03Z | Other | Docs/knowledge | 2 | 0 | 2 | 2 |
 | [Allison-E/pg-age](https://github.com/Allison-E/pg-age) | 25 | 2024-05-24T08:36:55Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 25 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [sherrillmix/vipor](https://github.com/sherrillmix/vipor) | 25 | 2023-12-20T18:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [FWHP-Enfun/Mixed-VsWeKai](https://github.com/FWHP-Enfun/Mixed-VsWeKai) | 25 | 2023-07-18T07:57:46Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [faisalsayed10/carbon-slack](https://github.com/faisalsayed10/carbon-slack) | 25 | 2023-07-09T09:20:34Z | Other | Infrastructure/tooling | 0 | 17 | 0 | 0 |
@@ -1458,7 +1460,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lumen-oss/rocks-dev.nvim](https://github.com/lumen-oss/rocks-dev.nvim) | 23 | 2025-07-14T18:04:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [atusy/felp](https://github.com/atusy/felp) | 23 | 2024-10-31T01:34:41Z | Other | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [alerque/fluent-lua](https://github.com/alerque/fluent-lua) | 23 | 2024-10-26T21:33:11Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
-| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 23 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [eb2ai/My-Checklists-and-Icons](https://github.com/eb2ai/My-Checklists-and-Icons) | 23 | 2023-10-16T18:15:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [EmileTrotignon/embedded_ocaml_templates](https://github.com/EmileTrotignon/embedded_ocaml_templates) | 23 | 2023-03-30T15:06:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [SmartyToe/Image-segmentation](https://github.com/SmartyToe/Image-segmentation) | 23 | 2021-06-13T10:06:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1484,7 +1485,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [askonomm/shh](https://github.com/askonomm/shh) | 22 | 2021-11-02T00:45:46Z | Other | CLI | 4 | 10 | 4 | 4 |
 | [Tokazama/AxisIndices.jl](https://github.com/Tokazama/AxisIndices.jl) | 22 | 2021-10-14T18:55:43Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [florentc/vim-tla](https://github.com/florentc/vim-tla) | 22 | 2021-06-25T15:44:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [bsless/malli-keys-relations](https://github.com/bsless/malli-keys-relations) | 22 | 2021-05-25T11:55:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [liuliu/swift-mujoco](https://github.com/liuliu/swift-mujoco) | 21 | 2025-07-24T22:14:39Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [AI9Stars/SpecMQuant](https://github.com/AI9Stars/SpecMQuant) | 21 | 2025-05-29T06:18:41Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [idris-community/katla](https://github.com/idris-community/katla) | 21 | 2025-05-19T14:09:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |

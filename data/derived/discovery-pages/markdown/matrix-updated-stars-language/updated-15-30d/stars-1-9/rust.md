@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 114
-- components: 177
-- concepts: 114
-- observations: 115
+- repos: 27
+- terms: 113
+- components: 157
+- concepts: 113
+- observations: 114
 
 ## Static behavior
 
@@ -53,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [image-rs/image-extras](https://github.com/image-rs/image-extras) | 8 | 2026-04-27T18:58:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [EspressoSystems/tide-disco](https://github.com/EspressoSystems/tide-disco) | 5 | 2026-04-26T00:47:16Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [huggingface/fuser](https://github.com/huggingface/fuser) | 1 | 2026-04-25T12:44:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 2 |
-| [juharris/optify](https://github.com/juharris/optify) | 8 | 2026-04-24T21:16:46Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -66,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Dicklesworthstone/franken_agent_detection](https://github.com/Dicklesworthstone/franken_agent_detection) | 8 | 2026-04-29T15:45:54Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [heroku/buildpacks-deb-packages](https://github.com/heroku/buildpacks-deb-packages) | 8 | 2026-04-28T15:26:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [image-rs/image-extras](https://github.com/image-rs/image-extras) | 8 | 2026-04-27T18:58:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [juharris/optify](https://github.com/juharris/optify) | 8 | 2026-04-24T21:16:46Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [heroku/buildpacks-php](https://github.com/heroku/buildpacks-php) | 7 | 2026-05-02T02:27:40Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [Hiroshiba/voicevox_core](https://github.com/Hiroshiba/voicevox_core) | 7 | 2026-04-29T17:06:23Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [typst/typst-dev-assets](https://github.com/typst/typst-dev-assets) | 7 | 2026-04-29T13:28:00Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |

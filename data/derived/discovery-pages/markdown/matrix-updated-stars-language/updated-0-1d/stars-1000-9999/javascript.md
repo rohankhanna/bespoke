@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 35
-- components: 63
-- concepts: 35
-- observations: 35
+- repos: 1
+- terms: 8
+- components: 159
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-23T19:56:23Z | JavaScript | Infrastructure/tooling | 17 | 54 | 17 | 17 |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5323 | 2026-05-23T12:02:49Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
+| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1632 | 2026-05-24T12:28:52Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5323 | 2026-05-23T12:02:49Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
-| [endojs/endo](https://github.com/endojs/endo) | 1022 | 2026-05-23T19:56:23Z | JavaScript | Infrastructure/tooling | 17 | 54 | 17 | 17 |
+| [ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui) | 1632 | 2026-05-24T12:28:52Z | JavaScript | Infrastructure/tooling | 8 | 159 | 8 | 8 |

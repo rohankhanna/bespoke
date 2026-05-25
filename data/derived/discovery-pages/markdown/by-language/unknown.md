@@ -1,6 +1,6 @@
 # Unknown
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 ## Active filters
 
@@ -426,7 +426,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alchaincyf/elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) | 217 | 2026-04-10T02:28:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SeleniumHQ/selenium_manager_artifacts](https://github.com/SeleniumHQ/selenium_manager_artifacts) | 12 | 2026-04-09T21:12:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-AI-Attribution-Plugin](https://github.com/danielrosehill/Claude-AI-Attribution-Plugin) | 1 | 2026-04-09T16:43:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9670 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9671 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
 | [preactjs/awesome-preact](https://github.com/preactjs/awesome-preact) | 988 | 2026-04-09T10:49:34Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [attack68/rateslib](https://github.com/attack68/rateslib) | 336 | 2026-04-09T05:01:17Z | Unknown | Infrastructure/tooling | 24 | 8 | 24 | 24 |
@@ -1791,7 +1791,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs) | 9863 | 2026-02-18T16:46:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [xaoyaoo/pywxdump](https://github.com/xaoyaoo/PyWxDump) | 9751 | 2025-10-20T10:36:39Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [FasterXML/jackson](https://github.com/FasterXML/jackson) | 9705 | 2026-04-19T23:22:28Z | Unknown | Unknown | 2 | 0 | 4 | 4 |
-| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9670 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [macfuse/macfuse](https://github.com/macfuse/macfuse) | 9671 | 2026-04-09T14:11:41Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) | 9330 | 2025-08-14T14:08:38Z | Unknown | Framework | 20 | 0 | 20 | 20 |
 | [github/roadmap](https://github.com/github/roadmap) | 8701 | 2024-10-15T17:31:37Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [apiaryio/api-blueprint](https://github.com/apiaryio/api-blueprint) | 8654 | 2023-08-19T19:11:28Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

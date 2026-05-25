@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
+- repos: 3
 - terms: 18
 - components: 26
 - concepts: 18
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-23T20:24:22Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 910 | 2026-05-21T21:10:34Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [betterleaks/betterleaks](https://github.com/betterleaks/betterleaks) | 965 | 2026-05-21T21:06:46Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 
@@ -35,3 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [betterleaks/betterleaks](https://github.com/betterleaks/betterleaks) | 965 | 2026-05-21T21:06:46Z | Go | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 910 | 2026-05-21T21:10:34Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-23T20:24:22Z | Go | Unknown | 0 | 0 | 0 | 0 |

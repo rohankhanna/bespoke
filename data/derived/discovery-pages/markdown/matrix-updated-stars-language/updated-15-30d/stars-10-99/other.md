@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 154
-- terms: 647
-- components: 1123
-- concepts: 649
-- observations: 653
+- repos: 147
+- terms: 611
+- components: 1092
+- concepts: 613
+- observations: 617
 
 ## Static behavior
 
@@ -26,13 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [FreneticLLC/FreneticGameEngine](https://github.com/FreneticLLC/FreneticGameEngine) | 56 | 2026-05-11T05:20:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-05-10T02:01:49Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [rcasia/neotest-java](https://github.com/rcasia/neotest-java) | 70 | 2026-05-09T12:32:42Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [abap2UI5-addons/sql-console](https://github.com/abap2UI5-addons/sql-console) | 12 | 2026-05-09T06:15:21Z | Other | Infrastructure/tooling | 7 | 19 | 7 | 7 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-08T19:40:29Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [ocaml-tracing/ocaml-trace](https://github.com/ocaml-tracing/ocaml-trace) | 35 | 2026-05-08T18:47:14Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [TEN-framework/portal](https://github.com/TEN-framework/portal) | 36 | 2026-05-08T17:55:02Z | Other | Infrastructure/tooling | 2 | 43 | 2 | 2 |
-| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 35 | 2026-05-08T16:38:52Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 36 | 2026-05-08T16:38:52Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [atsushieno/resident-midi-keyboard](https://github.com/atsushieno/resident-midi-keyboard) | 13 | 2026-05-08T08:16:30Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [atsushieno/augene-ng](https://github.com/atsushieno/augene-ng) | 12 | 2026-05-08T07:07:57Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [atsushieno/compose-audio-controls](https://github.com/atsushieno/compose-audio-controls) | 12 | 2026-05-08T05:48:41Z | Other | Infrastructure/tooling | 10 | 4 | 10 | 10 |
@@ -172,14 +173,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mirage/colombe](https://github.com/mirage/colombe) | 48 | 2026-04-26T08:44:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [guoqingbao/attention.rs](https://github.com/guoqingbao/attention.rs) | 21 | 2026-04-26T03:50:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cloudfoundry/bosh-azure-cpi-release](https://github.com/cloudfoundry/bosh-azure-cpi-release) | 63 | 2026-04-25T10:05:06Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [ocaml-tracing/ocaml-tracy](https://github.com/ocaml-tracing/ocaml-tracy) | 33 | 2026-04-25T01:20:14Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [cjdoris/PreferenceTools.jl](https://github.com/cjdoris/PreferenceTools.jl) | 36 | 2026-04-24T20:45:08Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [gazebosim/gz-cmake](https://github.com/gazebosim/gz-cmake) | 33 | 2026-04-24T19:09:31Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
-| [theseyan/lmdbx-zig](https://github.com/theseyan/lmdbx-zig) | 12 | 2026-04-24T19:03:36Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [ankane/blazer-dev](https://github.com/ankane/blazer-dev) | 10 | 2026-04-24T17:12:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [optuna/optunahub-registry](https://github.com/optuna/optunahub-registry) | 52 | 2026-04-24T15:24:56Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [VirtusLab/bazel-steward](https://github.com/VirtusLab/bazel-steward) | 68 | 2026-04-24T12:57:16Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [squeak-smalltalk/squeak.org](https://github.com/squeak-smalltalk/squeak.org) | 39 | 2026-04-24T11:35:29Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -223,7 +216,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [osrf/homebrew-simulation](https://github.com/osrf/homebrew-simulation) | 68 | 2026-05-01T20:11:14Z | Other | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [heroku/cnb-builder-images](https://github.com/heroku/cnb-builder-images) | 68 | 2026-05-01T18:35:45Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [habamax/vim-habamax](https://github.com/habamax/vim-habamax) | 68 | 2026-04-27T01:50:59Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [VirtusLab/bazel-steward](https://github.com/VirtusLab/bazel-steward) | 68 | 2026-04-24T12:57:16Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [brave-intl/publishers](https://github.com/brave-intl/publishers) | 65 | 2026-04-30T01:05:04Z | Other | Infrastructure/tooling | 4 | 79 | 4 | 4 |
 | [ruby/mspec](https://github.com/ruby/mspec) | 65 | 2026-04-26T22:04:26Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [siketyan/intellij-rustowl](https://github.com/siketyan/intellij-rustowl) | 63 | 2026-05-08T03:05:51Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -236,13 +228,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/learn-tailwind](https://github.com/dwyl/learn-tailwind) | 58 | 2026-04-29T13:31:12Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [robotology/robotology-superbuild](https://github.com/robotology/robotology-superbuild) | 57 | 2026-05-03T00:31:18Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [karafka/karafka-web](https://github.com/karafka/karafka-web) | 57 | 2026-04-29T06:55:33Z | Other | Infrastructure/tooling | 19 | 19 | 19 | 19 |
+| [FreneticLLC/FreneticGameEngine](https://github.com/FreneticLLC/FreneticGameEngine) | 56 | 2026-05-11T05:20:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-08T19:40:29Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [JuliaCon/www.juliacon.org](https://github.com/JuliaCon/www.juliacon.org) | 55 | 2026-05-01T21:36:38Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [php/doc-fr](https://github.com/php/doc-fr) | 55 | 2026-04-30T08:26:34Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [abarisani/abarisani.github.io](https://github.com/abarisani/abarisani.github.io) | 53 | 2026-04-29T08:17:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jfmengels/node-elm-review](https://github.com/jfmengels/node-elm-review) | 53 | 2026-04-27T15:50:12Z | Other | CLI | 1 | 53 | 1 | 1 |
 | [ScoopInstaller/PHP](https://github.com/ScoopInstaller/PHP) | 53 | 2026-04-27T15:08:58Z | Other | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [optuna/optunahub-registry](https://github.com/optuna/optunahub-registry) | 52 | 2026-04-24T15:24:56Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [mit-plv/coqutil](https://github.com/mit-plv/coqutil) | 51 | 2026-05-05T04:34:47Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [hermanjustnu/scoop-emulators](https://github.com/hermanjustnu/scoop-emulators) | 49 | 2026-04-29T03:33:17Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [gazebosim/sdf_tutorials](https://github.com/gazebosim/sdf_tutorials) | 49 | 2026-04-28T17:33:56Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -260,17 +252,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Romanx/Cake.Coverlet](https://github.com/Romanx/Cake.Coverlet) | 41 | 2026-04-29T13:21:48Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [sidlatau/neotest-dart](https://github.com/sidlatau/neotest-dart) | 40 | 2026-05-03T19:41:20Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [B-Lang-org/bsc-contrib](https://github.com/B-Lang-org/bsc-contrib) | 39 | 2026-05-01T20:48:57Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
-| [squeak-smalltalk/squeak.org](https://github.com/squeak-smalltalk/squeak.org) | 39 | 2026-04-24T11:35:29Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [fern-api/docs-starter](https://github.com/fern-api/docs-starter) | 38 | 2026-04-29T15:24:39Z | Other | Infrastructure/tooling | 7 | 3 | 8 | 8 |
 | [TEN-framework/portal](https://github.com/TEN-framework/portal) | 36 | 2026-05-08T17:55:02Z | Other | Infrastructure/tooling | 2 | 43 | 2 | 2 |
+| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 36 | 2026-05-08T16:38:52Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [apollographql/apollo-ios-dev](https://github.com/apollographql/apollo-ios-dev) | 36 | 2026-04-29T17:16:51Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [cjdoris/PreferenceTools.jl](https://github.com/cjdoris/PreferenceTools.jl) | 36 | 2026-04-24T20:45:08Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [ocaml-tracing/ocaml-trace](https://github.com/ocaml-tracing/ocaml-trace) | 35 | 2026-05-08T18:47:14Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [Cle2ment/CherryStudio_themes](https://github.com/Cle2ment/CherryStudio_themes) | 35 | 2026-05-08T16:38:52Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [pipecat-ai/docs](https://github.com/pipecat-ai/docs) | 35 | 2026-04-30T20:01:55Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [B-Lang-org/bdw](https://github.com/B-Lang-org/bdw) | 33 | 2026-05-01T20:48:17Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
-| [ocaml-tracing/ocaml-tracy](https://github.com/ocaml-tracing/ocaml-tracy) | 33 | 2026-04-25T01:20:14Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [gazebosim/gz-cmake](https://github.com/gazebosim/gz-cmake) | 33 | 2026-04-24T19:09:31Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [php/doc-es](https://github.com/php/doc-es) | 32 | 2026-04-30T10:24:38Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [buttondown/docs](https://github.com/buttondown/docs) | 32 | 2026-04-29T03:41:10Z | Other | Docs/knowledge | 0 | 34 | 0 | 0 |
 | [melpa/package-build](https://github.com/melpa/package-build) | 31 | 2026-05-02T14:51:32Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -333,9 +321,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlocati/pecl-info](https://github.com/mlocati/pecl-info) | 12 | 2026-04-29T13:56:57Z | Other | Infrastructure/tooling | 2 | 31 | 2 | 2 |
 | [JuliaCI/NanosoldierReports](https://github.com/JuliaCI/NanosoldierReports) | 12 | 2026-04-29T10:10:56Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mirage/uspf](https://github.com/mirage/uspf) | 12 | 2026-04-26T14:05:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [theseyan/lmdbx-zig](https://github.com/theseyan/lmdbx-zig) | 12 | 2026-04-24T19:03:36Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [alphagov/rubocop-govuk](https://github.com/alphagov/rubocop-govuk) | 11 | 2026-05-01T14:47:40Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [ruby/jruby-dev-builder](https://github.com/ruby/jruby-dev-builder) | 10 | 2026-05-02T19:22:25Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [status-im/nim-ssz-serialization](https://github.com/status-im/nim-ssz-serialization) | 10 | 2026-04-28T15:06:35Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [oliyh/carve.el](https://github.com/oliyh/carve.el) | 10 | 2026-04-27T07:11:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [ankane/blazer-dev](https://github.com/ankane/blazer-dev) | 10 | 2026-04-24T17:12:33Z | Other | Unknown | 0 | 0 | 0 | 0 |

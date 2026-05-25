@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11922,
-    "concepts": 5300,
-    "observations": 5310,
-    "repos": 2377,
-    "terms": 5319
+    "components": 11923,
+    "concepts": 5302,
+    "observations": 5312,
+    "repos": 2379,
+    "terms": 5321
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -896,9 +896,11 @@
     "diffblue/homebrew-cbmc",
     "dinosaure/unstrctrd",
     "DioxusLabs/stork",
+    "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
     "dm0x23/portfolio-website",
     "dmBots/DM-J4310-2EC",
     "dmi3y/expo-release-please-example",
+    "dmMaze/PyPatchMatchInpaint",
     "dnvt/burn-speech-training",
     "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
     "docpad/docpad-plugin-nodesass",
@@ -2248,7 +2250,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

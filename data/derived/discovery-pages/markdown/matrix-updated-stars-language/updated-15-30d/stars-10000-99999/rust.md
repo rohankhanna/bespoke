@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 500
-- components: 658
-- concepts: 505
-- observations: 505
+- repos: 39
+- terms: 494
+- components: 648
+- concepts: 499
+- observations: 499
 
 ## Static behavior
 
@@ -65,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clap-rs/clap](https://github.com/clap-rs/clap) | 16346 | 2026-04-27T14:44:44Z | Rust | CLI | 14 | 11 | 14 | 14 |
 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13110 | 2026-04-27T08:58:52Z | Rust | CLI | 10 | 14 | 10 | 10 |
 | [Automattic/harper](https://github.com/Automattic/harper) | 10405 | 2026-04-27T01:19:13Z | Rust | Infrastructure/tooling | 15 | 17 | 15 | 15 |
-| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -76,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tw93/Pake](https://github.com/tw93/Pake) | 48393 | 2026-05-03T15:05:14Z | Rust | Infrastructure/tooling | 17 | 48 | 17 | 17 |
 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 47401 | 2026-05-06T18:10:34Z | Rust | Infrastructure/tooling | 14 | 40 | 14 | 14 |
 | [helix-editor/helix](https://github.com/helix-editor/helix) | 44167 | 2026-04-28T23:25:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 43154 | 2026-04-24T18:00:26Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 42572 | 2026-05-01T11:40:46Z | Rust | Infrastructure/tooling | 19 | 19 | 19 | 19 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | 38348 | 2026-05-01T06:59:20Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | 34094 | 2026-05-01T15:30:25Z | Rust | Infrastructure/tooling | 14 | 2 | 14 | 14 |

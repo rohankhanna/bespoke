@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33359,
-    "concepts": 15189,
-    "observations": 15245,
-    "repos": 1714,
-    "terms": 15150
+    "components": 33380,
+    "concepts": 15204,
+    "observations": 15260,
+    "repos": 1715,
+    "terms": 15160
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-24T09:49:57.442696+00:00",
+  "generated_at": "2026-05-25T06:02:38.623495+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -727,6 +727,7 @@
     "hesreallyhim/awesome-claude-code",
     "hibiken/asynq",
     "highlightjs/highlight.js",
+    "HIllya51/LunaTranslator",
     "hiroi-sora/Umi-OCR",
     "hiyouga/LlamaFactory",
     "HKUDS/CLI-Anything",

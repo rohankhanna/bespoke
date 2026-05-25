@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-25T06:02:38.623495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 138
-- components: 213
-- concepts: 139
-- observations: 141
+- repos: 35
+- terms: 137
+- components: 212
+- concepts: 138
+- observations: 140
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust-lang/crater](https://github.com/rust-lang/crater) | 735 | 2026-03-25T23:40:03Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) | 689 | 2026-03-25T14:30:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [dtolnay/trybuild](https://github.com/dtolnay/trybuild) | 965 | 2026-03-25T06:01:25Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [getsentry/rust-sourcemap](https://github.com/getsentry/rust-sourcemap) | 246 | 2026-03-25T04:01:23Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [dtolnay/ref-cast](https://github.com/dtolnay/ref-cast) | 219 | 2026-03-24T02:43:31Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
@@ -59,9 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KyleMayes/clang-sys](https://github.com/KyleMayes/clang-sys) | 158 | 2026-02-25T21:29:41Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [zkcrypto/jubjub](https://github.com/zkcrypto/jubjub) | 121 | 2026-02-25T06:54:13Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [zkcrypto/bls12_381](https://github.com/zkcrypto/bls12_381) | 360 | 2026-02-25T03:11:36Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [fast/logforth](https://github.com/fast/logforth) | 216 | 2026-02-24T02:51:27Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [ItsEthra/typst-live](https://github.com/ItsEthra/typst-live) | 129 | 2026-02-23T18:24:12Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -71,7 +70,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [matsadler/magnus](https://github.com/matsadler/magnus) | 877 | 2026-03-06T04:08:28Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [servo/rust-cssparser](https://github.com/servo/rust-cssparser) | 851 | 2026-03-16T16:52:26Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Kampfkarren/selene](https://github.com/Kampfkarren/selene) | 763 | 2026-03-03T21:50:32Z | Rust | Infrastructure/tooling | 7 | 18 | 7 | 7 |
+| [rust-lang/crater](https://github.com/rust-lang/crater) | 735 | 2026-03-25T23:40:03Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [lambdaclass/lambdaworks](https://github.com/lambdaclass/lambdaworks) | 731 | 2026-03-20T16:27:57Z | Rust | Infrastructure/tooling | 6 | 16 | 6 | 6 |
+| [PistonDevelopers/glfw-rs](https://github.com/PistonDevelopers/glfw-rs) | 689 | 2026-03-25T14:30:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [typst/comemo](https://github.com/typst/comemo) | 595 | 2026-03-13T10:29:41Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [AchetaGames/Epic-Asset-Manager](https://github.com/AchetaGames/Epic-Asset-Manager) | 501 | 2026-03-23T13:47:23Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [filecoin-project/rust-fil-proofs](https://github.com/filecoin-project/rust-fil-proofs) | 500 | 2026-03-09T10:07:13Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -88,8 +89,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getsentry/rust-sourcemap](https://github.com/getsentry/rust-sourcemap) | 246 | 2026-03-25T04:01:23Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [firstbatchxyz/dkn-compute-node](https://github.com/firstbatchxyz/dkn-compute-node) | 228 | 2026-03-21T10:43:07Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [dtolnay/ref-cast](https://github.com/dtolnay/ref-cast) | 219 | 2026-03-24T02:43:31Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
-| [fast/logforth](https://github.com/fast/logforth) | 216 | 2026-02-24T02:51:27Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [KyleMayes/clang-rs](https://github.com/KyleMayes/clang-rs) | 200 | 2026-02-25T21:34:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [arkworks-rs/r1cs-std](https://github.com/arkworks-rs/r1cs-std) | 188 | 2026-03-02T06:55:57Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [rust3ds/ctru-rs](https://github.com/rust3ds/ctru-rs) | 174 | 2026-03-02T21:52:14Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
@@ -100,6 +99,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pdf-rs/pdf_render](https://github.com/pdf-rs/pdf_render) | 153 | 2026-03-02T05:20:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ashvardanian/StringWars](https://github.com/ashvardanian/StringWars) | 144 | 2026-03-19T17:48:57Z | Rust | Infrastructure/tooling | 14 | 4 | 14 | 14 |
 | [LukasKalbertodt/libtest-mimic](https://github.com/LukasKalbertodt/libtest-mimic) | 135 | 2026-03-16T17:44:54Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |
-| [ItsEthra/typst-live](https://github.com/ItsEthra/typst-live) | 129 | 2026-02-23T18:24:12Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [zkcrypto/jubjub](https://github.com/zkcrypto/jubjub) | 121 | 2026-02-25T06:54:13Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [SunDoge/simdjson-rust](https://github.com/SunDoge/simdjson-rust) | 111 | 2026-03-02T09:14:56Z | Rust | Infrastructure/tooling | 4 | 4 | 5 | 5 |
