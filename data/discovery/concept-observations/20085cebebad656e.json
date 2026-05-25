@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wiki Changed Discord Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wiki Changed Discord Notification"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "hustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "hustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "liberal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21343,
+      "status": "candidate",
+      "text": "spring"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Wiki Changed Discord Notification",
+      "sense_id": "wiki-changed-discord-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wiki-changed-discord-notification",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wiki-changed-discord-notification",
+  "observation_id": "20085cebebad656e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "Wiki Changed Discord Notification",
+  "source_context_snippet": "Wiki Changed Discord Notification",
+  "source_file": ".github/workflows/wiki.yml",
+  "source_repo": "tModLoader/tModLoader",
+  "source_repo_description": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+}

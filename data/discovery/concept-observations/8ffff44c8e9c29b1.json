@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Minimalistic Wrapper for IndexedDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "indexeddb",
+      "sense_id": "indexeddb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "indexeddb",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "indexeddb",
+  "observation_id": "8ffff44c8e9c29b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "indexeddb",
+  "source_context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+  "source_file": null,
+  "source_repo": "dexie/Dexie.js",
+  "source_repo_description": "A Minimalistic Wrapper for IndexedDB"
+}

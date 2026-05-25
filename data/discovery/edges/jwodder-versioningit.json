@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jwodder/versioningit",
+      "target": "pypa/build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jwodder/versioningit",
+      "target": "pypa/setuptools_scm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jwodder/versioningit",
+      "target": "habnabit/vcversioner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimum-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "Test Against Minimum VCS Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "Test with No VCSes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "available-on-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "hatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "mercurial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "setuptools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "versioningit",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "source_repo": "jwodder/versioningit"
+}

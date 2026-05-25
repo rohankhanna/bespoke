@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terraria-modding-api",
+      "sense_id": "terraria-modding-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terraria-modding-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terraria-modding-api",
+  "observation_id": "530783f9b0246a6a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "terraria-modding-api",
+  "source_context_snippet": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026",
+  "source_file": null,
+  "source_repo": "tModLoader/tModLoader",
+  "source_repo_description": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+}

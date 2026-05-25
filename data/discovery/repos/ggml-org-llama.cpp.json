@@ -103,6 +103,26 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-apple.yml"
     },
     {
@@ -366,6 +386,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/llama.cpp",
@@ -443,7 +470,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T13:34:58.523581+00:00",
+  "fetched_at": "2026-05-25T20:16:52.920941+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -475,7 +502,7 @@
     },
     {
       "path": ".github/workflows/build-android.yml",
-      "size": 2323
+      "size": 3806
     },
     {
       "path": ".github/workflows/build-apple.yml",
@@ -495,12 +522,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-25T13:12:10Z",
-    "stargazers_count": 112912,
+    "pushed_at": "2026-05-25T18:38:02Z",
+    "stargazers_count": 112999,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-25T13:33:39Z"
+    "updated_at": "2026-05-25T20:11:11Z"
   },
   "repo_links": [
     {

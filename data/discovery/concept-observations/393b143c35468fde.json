@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Preview tModLoader"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Preview tModLoader"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "insight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "sneak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "insights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "outline"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Preview tModLoader",
+      "sense_id": "preview-tmodloader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preview-tmodloader",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preview-tmodloader",
+  "observation_id": "393b143c35468fde",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "Preview tModLoader",
+  "source_context_snippet": "Preview tModLoader",
+  "source_file": ".github/workflows/keepAlphaBranchUpdated.yml",
+  "source_repo": "tModLoader/tModLoader",
+  "source_repo_description": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+}

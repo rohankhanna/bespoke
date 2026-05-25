@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "arlorean/voxels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "atrejoe/markdownpreview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "elektrostudios/.net-assembly-info-shellex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "dirkster99/bm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "dwmkerr/sharpshell",
+      "target": "Validate Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:32.550167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16409
+    },
+    {
+      "path": ".github/workflows/pull-request.yaml",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SharpShell makes it easy to create Windows Shell Extensions using the .NET Framework.",
+    "fork": false,
+    "full_name": "dwmkerr/sharpshell",
+    "html_url": "https://github.com/dwmkerr/sharpshell",
+    "language": "C#",
+    "pushed_at": "2024-06-13T18:18:16Z",
+    "stargazers_count": 1666,
+    "topics": [],
+    "updated_at": "2026-05-23T06:49:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arlorean/voxels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atrejoe/markdownpreview",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dirkster99/bm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elektrostudios/.net-assembly-info-shellex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "term": "Validate Pull Request"
+    }
+  ]
+}

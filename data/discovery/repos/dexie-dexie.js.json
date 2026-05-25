@@ -1,0 +1,601 @@
+{
+  "components": [
+    {
+      "component": "@lambdatest/node-tunnel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dts-bundle-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "just-build",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-chrome-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-firefox-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-mocha-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-qunit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-webdriver-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qunit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qunitjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-cleanup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-sourcemaps",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rxjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "safari-14-idb-fix",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve-static",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sorted-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dexie-cloud-common.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dexie-cloud-common.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dexie-cloud-common.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "coactions/setup-xvfb@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "@lambdatest/node-tunnel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "dts-bundle-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "just-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "karma-firefox-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "karma-mocha-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "karma-qunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "karma-webdriver-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "qunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "qunitjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "rollup-plugin-cleanup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "rollup-plugin-sourcemaps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "rxjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "safari-14-idb-fix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "serve-static",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "sorted-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "yjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dexie/Dexie.js",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dexie-cloud-common.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dexie-cloud-common.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dexie-cloud-common.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dexie-cloud-common.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "dexie-cloud-common Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "coactions/setup-xvfb@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dexie/Dexie.js",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js",
+      "target": "indexeddb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js",
+      "target": "offline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js",
+      "target": "offline-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js",
+      "target": "storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:00.635416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9592
+    },
+    {
+      "path": "package.json",
+      "size": 5621
+    },
+    {
+      "path": ".github/workflows/dexie-cloud-common.yml",
+      "size": 949
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1592
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 9304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Minimalistic Wrapper for IndexedDB",
+    "fork": false,
+    "full_name": "dexie/Dexie.js",
+    "html_url": "https://github.com/dexie/Dexie.js",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-25T13:54:55Z",
+    "stargazers_count": 14321,
+    "topics": [
+      "database",
+      "indexeddb",
+      "javascript",
+      "offline",
+      "offline-storage",
+      "storage"
+    ],
+    "updated_at": "2026-05-25T16:03:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dexie-cloud-common Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dexie-cloud-common.yml",
+      "term": "dexie-cloud-common Tests"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexeddb"
+    },
+    {
+      "context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline"
+    },
+    {
+      "context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline-storage"
+    },
+    {
+      "context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    }
+  ]
+}

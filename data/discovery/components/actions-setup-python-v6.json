@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -6487,6 +6487,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/buildluna.yml",
       "source_repo": "HIllya51/LunaTranslator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit"
     }
   ]
 }

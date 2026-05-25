@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -48,9 +48,9 @@
   "normalized_form": "chatgpt",
   "observation_id": "21b7fcd08cd44b3e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-25T07:45:58.058620+00:00",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
   "observed_text": "chatgpt",
-  "source_context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
+  "source_context_snippet": "<div align=\"center\">",
   "source_file": null,
   "source_repo": "ChatGPTNextWeb/NextChat",
   "source_repo_description": "\u2728 Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows"

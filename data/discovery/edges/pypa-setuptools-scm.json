@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "hynek/build-and-inspect-python-package@fe0a0fb1925ca263d076ca4f2c13e93a6e92a33e",
+      "target": "hynek/build-and-inspect-python-package@d44ca7d91762de7a7d5436ddae667c6da6d1c3df",
       "target_type": "component"
     },
     {
@@ -232,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
   "source_repo": "pypa/setuptools-scm"
 }

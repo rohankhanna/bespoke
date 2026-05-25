@@ -1,7 +1,7 @@
 {
   "component": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "erlef/website"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
     }
   ]
 }

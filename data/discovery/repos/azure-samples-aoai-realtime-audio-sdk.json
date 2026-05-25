@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/aoai-realtime-audio-sdk",
+      "target": "openai/openai-dotnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T19:00:58.178761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Azure OpenAI code resources for using gpt-4o-realtime capabilities.",
+    "fork": false,
+    "full_name": "Azure-Samples/aoai-realtime-audio-sdk",
+    "html_url": "https://github.com/Azure-Samples/aoai-realtime-audio-sdk",
+    "language": "TypeScript",
+    "pushed_at": "2025-09-30T17:38:17Z",
+    "stargazers_count": 837,
+    "topics": [],
+    "updated_at": "2026-05-22T17:45:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/openai-dotnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

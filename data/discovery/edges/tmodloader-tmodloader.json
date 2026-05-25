@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MonthlyMerge.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MonthlyMerge.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "Monthly Update tModLoader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "mathieudutour/github-tag-action@v6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "CyberAndrii/setup-steamcmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "sarisia/actions-status-discord@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "mattnotmitt/doxygen-action@v1.9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "geekyeggo/delete-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "tj-actions/changed-files@v46.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "montudor/action-zip@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "Build tModLoader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/keepAlphaBranchUpdated.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/keepAlphaBranchUpdated.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "tModLoader/gh-action-nightly-merge@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/keepAlphaBranchUpdated.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "Preview tModLoader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "github/issue-labeler@v3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "oznu/gh-wiki-edit-discord-notification@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "tModLoader/tModLoader",
+      "target": "Wiki Changed Discord Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tModLoader/tModLoader",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tModLoader/tModLoader",
+      "target": "steam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tModLoader/tModLoader",
+      "target": "terraria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tModLoader/tModLoader",
+      "target": "terraria-modding-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tModLoader/tModLoader",
+      "target": "tmodloader",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "source_repo": "tModLoader/tModLoader"
+}

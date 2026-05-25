@@ -306,6 +306,18 @@
       "source_repo": "jaredpalmer/tsdx",
       "status": "candidate-context",
       "text": "Zero-config CLI for TypeScript package development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate-context",
+      "text": "Versioning It with your Version In Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate-context",
+      "text": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|"
     }
   ],
   "candidate_glosses": [
@@ -458,6 +470,12 @@
       "source_repo": "jaredpalmer/tsdx",
       "status": "candidate",
       "text": "Zero-config CLI for TypeScript package development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate",
+      "text": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|"
     }
   ],
   "candidate_related_terms": [
@@ -728,11 +746,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

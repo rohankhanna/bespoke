@@ -1,0 +1,929 @@
+{
+  "components": [
+    {
+      "component": "@types/gapi",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/analytics",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@zip.js/zip.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chart.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cropperjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dexie",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "megajs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "page-flip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "panzoom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pica",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte-easy-crop",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webdav",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@playwright/test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@sveltejs/adapter-auto",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@sveltejs/kit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@sveltejs/vite-plugin-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/forms",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/typography",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/gapi.client.drive-v3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/google.accounts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/google.picker",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/pica",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "caniuse-lite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flowbite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flowbite-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flowbite-svelte-icons",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-load-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@types/gapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@vercel/analytics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@zip.js/zip.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "chart.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "cropperjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "dexie",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "megajs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "page-flip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "panzoom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "pica",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "svelte-easy-crop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "webdav",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@sveltejs/adapter-auto",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@sveltejs/kit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@sveltejs/vite-plugin-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@tailwindcss/forms",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@tailwindcss/typography",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@tailwindcss/vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@testing-library/svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@types/gapi.client.drive-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@types/google.accounts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@types/google.picker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@types/pica",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "caniuse-lite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "eslint-plugin-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "flowbite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "flowbite-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "flowbite-svelte-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "postcss-load-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "prettier-plugin-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "prettier-plugin-tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "svelte-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-target-guard.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "PR Target Guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "comics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "comics-reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "japanese-study",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "manga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader",
+      "target": "manga-reader",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:44.768213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8876
+    },
+    {
+      "path": "package.json",
+      "size": 2700
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4429
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1897
+    },
+    {
+      "path": ".github/workflows/pr-target-guard.yml",
+      "size": 1371
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A mokuro reader written in svelte",
+    "fork": false,
+    "full_name": "Gnathonic/mokuro-reader",
+    "html_url": "https://github.com/Gnathonic/mokuro-reader",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-23T03:44:42Z",
+    "stargazers_count": 180,
+    "topics": [
+      "comics",
+      "comics-reader",
+      "japanese",
+      "japanese-study",
+      "manga",
+      "manga-reader"
+    ],
+    "updated_at": "2026-05-23T03:44:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "PR Target Guard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-target-guard.yml",
+      "term": "PR Target Guard"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comics"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comics-reader"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese-study"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga-reader"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Minimalistic Wrapper for IndexedDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dexie-cloud-common Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dexie-cloud-common Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "attempts"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dexie-cloud-common Tests",
+      "sense_id": "dexie-cloud-common-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dexie-cloud-common-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dexie-cloud-common-tests",
+  "observation_id": "32a4eb7a5f6ba98d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "dexie-cloud-common Tests",
+  "source_context_snippet": "dexie-cloud-common Tests",
+  "source_file": ".github/workflows/dexie-cloud-common.yml",
+  "source_repo": "dexie/Dexie.js",
+  "source_repo_description": "A Minimalistic Wrapper for IndexedDB"
+}

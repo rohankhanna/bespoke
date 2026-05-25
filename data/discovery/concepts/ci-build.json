@@ -323,6 +323,18 @@
       "source_repo": "agentclientprotocol/java-sdk",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Detours",
+      "status": "candidate-context",
+      "text": "Detours is a software package for monitoring and instrumenting API calls on Windows.  It is distributed in source code form."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Detours",
+      "status": "candidate-context",
+      "text": "CI-Build"
     }
   ],
   "candidate_glosses": [
@@ -493,6 +505,12 @@
       "source_repo": "agentclientprotocol/java-sdk",
       "status": "candidate",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Detours",
+      "status": "candidate",
+      "text": "CI-Build"
     }
   ],
   "candidate_related_terms": [
@@ -2294,11 +2312,35 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1138,6 +1138,18 @@
       "source_repo": "xiangyuecn/Recorder",
       "status": "candidate-context",
       "text": "**\u3010[\u6e90GitHub\u4ed3\u5e93](https://github.com/xiangyuecn/Recorder)\u3011 | \u3010[Gitee\u955c\u50cf\u5e93](https://gitee.com/xiangyuecn/Recorder)\u3011\u672c\u6587\u6863\u4e2d\u9ed8\u8ba4\u4f7f\u7528[github.io\u90e8\u7f72\u7684\u94fe\u63a5](https://xiangyuecn.github.io/Recorder/)\uff0c\u5982\u679c\u65e0\u6cd5\u8bbf\u95ee\uff0c\u8bf7\u76f4\u63a5\u4e0b\u8f7d\u4ed3\u5e93\u6e90\u7801\u5230\u672c\u5730\u7136\u540e\u53cc\u51fb\u6253\u5f00html\u6587\u4ef6\u8bbf\u95ee\u3002**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for"
     }
   ],
   "candidate_glosses": [
@@ -1704,6 +1716,12 @@
       "source_repo": "xiangyuecn/Recorder",
       "status": "candidate",
       "text": "**\u3010[\u6e90GitHub\u4ed3\u5e93](https://github.com/xiangyuecn/Recorder)\u3011 | \u3010[Gitee\u955c\u50cf\u5e93](https://gitee.com/xiangyuecn/Recorder)\u3011\u672c\u6587\u6863\u4e2d\u9ed8\u8ba4\u4f7f\u7528[github.io\u90e8\u7f72\u7684\u94fe\u63a5](https://xiangyuecn.github.io/Recorder/)\uff0c\u5982\u679c\u65e0\u6cd5\u8bbf\u95ee\uff0c\u8bf7\u76f4\u63a5\u4e0b\u8f7d\u4ed3\u5e93\u6e90\u7801\u5230\u672c\u5730\u7136\u540e\u53cc\u51fb\u6253\u5f00html\u6587\u4ef6\u8bbf\u95ee\u3002**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate",
+      "text": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for"
     }
   ],
   "candidate_related_terms": [
@@ -5427,11 +5445,59 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

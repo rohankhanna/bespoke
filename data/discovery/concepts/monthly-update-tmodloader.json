@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Monthly Update tModLoader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "Monthly Update tModLoader"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate",
+      "text": "Monthly Update tModLoader"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "changing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "earnings report"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Monthly Update tModLoader",
+  "concept_id": "monthly-update-tmodloader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/MonthlyMerge.yml",
+      "source_repo": "tModLoader/tModLoader"
+    }
+  ],
+  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monthly Update tModLoader",
+      "sense_id": "monthly-update-tmodloader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

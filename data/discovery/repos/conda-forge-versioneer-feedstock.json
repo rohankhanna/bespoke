@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/versioneer-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:27.542437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5916
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for versioneer.",
+    "fork": false,
+    "full_name": "conda-forge/versioneer-feedstock",
+    "html_url": "https://github.com/conda-forge/versioneer-feedstock",
+    "language": null,
+    "pushed_at": "2026-04-24T07:20:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-24T07:20:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

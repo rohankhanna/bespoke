@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Minimalistic Wrapper for IndexedDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877474,
+      "status": "candidate",
+      "text": "detached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872946,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872466,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29870790,
+      "status": "candidate",
+      "text": "disconnection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29869763,
+      "status": "candidate",
+      "text": "deferred"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "offline",
+      "sense_id": "offline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "offline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "offline",
+  "observation_id": "5f526f9b809561d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "offline",
+  "source_context_snippet": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)",
+  "source_file": null,
+  "source_repo": "dexie/Dexie.js",
+  "source_repo_description": "A Minimalistic Wrapper for IndexedDB"
+}

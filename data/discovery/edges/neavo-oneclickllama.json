@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neavo/OneClickLLAMA",
+      "target": "neavo/keywordgacha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neavo/OneClickLLAMA",
+      "target": "nekoparapa/ainiee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neavo/OneClickLLAMA",
+      "target": "xd2333/galtransl",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "source_repo": "neavo/OneClickLLAMA"
+}

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/Detours",
+      "target": "CI-Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Detours",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Detours",
+      "target": "microsoft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:34.316047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3189
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Detours is a software package for monitoring and instrumenting API calls on Windows.  It is distributed in source code form.",
+    "fork": false,
+    "full_name": "microsoft/Detours",
+    "html_url": "https://github.com/microsoft/Detours",
+    "language": "C++",
+    "pushed_at": "2026-05-22T23:48:33Z",
+    "stargazers_count": 6261,
+    "topics": [
+      "hacktoberfest",
+      "microsoft"
+    ],
+    "updated_at": "2026-05-25T12:16:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI-Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "CI-Build"
+    },
+    {
+      "context_snippet": "Detours is a software package for monitoring and instrumenting API calls on Windows. Detours",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Detours is a software package for monitoring and instrumenting API calls on Windows. Detours",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    }
+  ]
+}

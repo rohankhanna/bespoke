@@ -1490,6 +1490,9 @@
   "aes-256": [
     "aes-256"
   ],
+  "aes-encryption": [
+    "aes-encryption"
+  ],
   "aes-gcm": [
     "aes-gcm"
   ],
@@ -6932,6 +6935,9 @@
   ],
   "ava-dataset": [
     "ava-dataset"
+  ],
+  "available-on-pypi": [
+    "available-on-pypi"
   ],
   "avalonia": [
     "avalonia"
@@ -13665,6 +13671,9 @@
   ],
   "build time benchmarks": [
     "build-time-benchmarks"
+  ],
+  "build tmodloader": [
+    "build-tmodloader"
   ],
   "build tool": [
     "build-tool"
@@ -23672,6 +23681,9 @@
   "compression-library": [
     "compression-library"
   ],
+  "compression-stream": [
+    "compression-stream"
+  ],
   "compressor": [
     "compressor"
   ],
@@ -28910,6 +28922,9 @@
   "deflate-format": [
     "deflate-format"
   ],
+  "deflate64": [
+    "deflate64"
+  ],
   "defocus-deblurring": [
     "defocus-deblurring"
   ],
@@ -30736,6 +30751,9 @@
   ],
   "dex2jar": [
     "dex2jar"
+  ],
+  "dexie-cloud-common tests": [
+    "dexie-cloud-common-tests"
   ],
   "dext": [
     "dext"
@@ -44295,6 +44313,9 @@
   "hasklig": [
     "hasklig"
   ],
+  "hatch": [
+    "hatch"
+  ],
   "hatchet app cleaner": [
     "hatchet-app-cleaner"
   ],
@@ -48929,6 +48950,9 @@
   ],
   "japanese-language": [
     "japanese-language"
+  ],
+  "japanese-learning": [
+    "japanese-learning"
   ],
   "japanese-study": [
     "japanese-study"
@@ -57045,6 +57069,9 @@
   "melody-frontend": [
     "melody-frontend"
   ],
+  "melonloader": [
+    "melonloader"
+  ],
   "melpa": [
     "melpa"
   ],
@@ -59123,6 +59150,9 @@
   ],
   "monthly release": [
     "monthly-release"
+  ],
+  "monthly update tmodloader": [
+    "monthly-update-tmodloader"
   ],
   "monthly-tests": [
     "monthly-tests"
@@ -63542,6 +63572,9 @@
   ],
   "offline-rl": [
     "offline-rl"
+  ],
+  "offline-storage": [
+    "offline-storage"
   ],
   "offloading": [
     "offloading"
@@ -68793,6 +68826,9 @@
   "pr description checker": [
     "pr-description-checker"
   ],
+  "pr diff links": [
+    "pr-diff-links"
+  ],
   "pr diff summarization": [
     "pr-diff-summarization"
   ],
@@ -69014,6 +69050,9 @@
   ],
   "pr summary comment": [
     "pr-summary-comment"
+  ],
+  "pr target guard": [
+    "pr-target-guard"
   ],
   "pr tasks completed check": [
     "pr-tasks-completed-check"
@@ -69671,6 +69710,9 @@
   ],
   "preview start": [
     "preview-start"
+  ],
+  "preview tmodloader": [
+    "preview-tmodloader"
   ],
   "preview-changes": [
     "preview-changes"
@@ -83352,6 +83394,9 @@
   "snippets-collection": [
     "snippets-collection"
   ],
+  "snipping-tool": [
+    "snipping-tool"
+  ],
   "snmalloc benchmarking ci": [
     "snmalloc-benchmarking-ci"
   ],
@@ -88508,6 +88553,12 @@
   "terrain-editor": [
     "terrain-editor"
   ],
+  "terraria": [
+    "terraria"
+  ],
+  "terraria-modding-api": [
+    "terraria-modding-api"
+  ],
   "terrascan": [
     "terrascan"
   ],
@@ -88615,6 +88666,9 @@
   ],
   "test against downstream projects": [
     "test-against-downstream-projects"
+  ],
+  "test against minimum vcs versions": [
+    "test-against-minimum-vcs-versions"
   ],
   "test against pacman": [
     "test-against-pacman"
@@ -89758,6 +89812,9 @@
   ],
   "test with nightly wheels": [
     "test-with-nightly-wheels"
+  ],
+  "test with no vcses": [
+    "test-with-no-vcses"
   ],
   "test with pytest": [
     "test-with-pytest"
@@ -91264,6 +91321,9 @@
   "tmdb": [
     "tmdb"
   ],
+  "tmodloader": [
+    "tmodloader"
+  ],
   "tmux": [
     "tmux"
   ],
@@ -91911,6 +91971,9 @@
   ],
   "transform": [
     "transform"
+  ],
+  "transform-stream": [
+    "transform-stream"
   ],
   "transformation": [
     "transformation"
@@ -96560,11 +96623,17 @@
   "version-manager": [
     "version-manager"
   ],
+  "versioneer": [
+    "versioneer"
+  ],
   "versionfox ci": [
     "versionfox-ci"
   ],
   "versioning": [
     "versioning"
+  ],
+  "versioningit": [
+    "versioningit"
   ],
   "versions": [
     "versions"
@@ -98792,6 +98861,9 @@
   "web-standards": [
     "web-standards"
   ],
+  "web-stream": [
+    "web-stream"
+  ],
   "web-streams": [
     "web-streams"
   ],
@@ -99602,6 +99674,9 @@
   ],
   "wiki - update control styles": [
     "wiki---update-control-styles"
+  ],
+  "wiki changed discord notification": [
+    "wiki-changed-discord-notification"
   ],
   "wiki sync": [
     "wiki-sync"
@@ -101314,8 +101389,14 @@
   "zip4j": [
     "zip4j"
   ],
+  "zip64": [
+    "zip64"
+  ],
   "ziparchive": [
     "ziparchive"
+  ],
+  "zipcrypto": [
+    "zipcrypto"
   ],
   "zipkin": [
     "zipkin"

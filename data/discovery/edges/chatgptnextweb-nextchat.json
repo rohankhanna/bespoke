@@ -2,9 +2,30 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "package.json",
+      "source_file": "README.md",
       "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "azure-samples/aoai-realtime-audio-sdk",
+      "target": "yidadaa/chatgpt-next-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "target": "go-skynet/localai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "target": "f/awesome-chatgpt-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "target": "chatgptnextweb/chatgpt-next-web",
       "target_type": "repository"
     },
     {
@@ -820,6 +841,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-25T07:45:58.058620+00:00",
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
   "source_repo": "ChatGPTNextWeb/NextChat"
 }

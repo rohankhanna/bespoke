@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-replace",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc-plugin-markdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "@rollup/plugin-replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "typedoc-plugin-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "aes-encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "compression-stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "deflate64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "multi-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "multicore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "service-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "split-zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "transform-stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "unzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "usdz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "web-stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "web-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "zip-encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "zip64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js",
+      "target": "zipcrypto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:03.852092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5565
+    },
+    {
+      "path": "package.json",
+      "size": 4211
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression.",
+    "fork": false,
+    "full_name": "gildas-lormeau/zip.js",
+    "html_url": "https://github.com/gildas-lormeau/zip.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-23T13:33:37Z",
+    "stargazers_count": 3843,
+    "topics": [
+      "aes-encryption",
+      "browser",
+      "compression-stream",
+      "deflate64",
+      "deno",
+      "javascript",
+      "multi-core",
+      "multicore",
+      "nodejs",
+      "service-worker",
+      "split-zip",
+      "transform-stream",
+      "unzip",
+      "usdz",
+      "web-stream",
+      "web-worker",
+      "zip",
+      "zip-encryption",
+      "zip64",
+      "zipcrypto"
+    ],
+    "updated_at": "2026-05-22T22:21:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aes-encryption"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression-stream"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deflate64"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-core"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicore"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-worker"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "split-zip"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transform-stream"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unzip"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usdz"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-stream"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-worker"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zip-encryption"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zip64"
+    },
+    {
+      "context_snippet": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zipcrypto"
+    }
+  ]
+}

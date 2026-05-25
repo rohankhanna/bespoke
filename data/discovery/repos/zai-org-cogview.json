@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T11:15:10.957682+00:00",
+  "fetched_at": "2026-05-25T18:55:55.549103+00:00",
   "fetched_files": [
     {
       "path": "requirements.txt",
@@ -47,14 +47,14 @@
     "html_url": "https://github.com/zai-org/CogView",
     "language": "Python",
     "pushed_at": "2023-09-25T04:07:19Z",
-    "stargazers_count": 1796,
+    "stargazers_count": 1797,
     "topics": [
       "pretrained-models",
       "pytorch",
       "text-to-image",
       "transformers"
     ],
-    "updated_at": "2026-04-29T21:57:04Z"
+    "updated_at": "2026-05-25T12:38:12Z"
   },
   "repo_links": [],
   "terms": [

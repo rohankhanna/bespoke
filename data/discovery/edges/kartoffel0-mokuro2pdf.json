@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "kartoffel0/memo2anki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "japanese-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "kindle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "manga",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "source_repo": "Kartoffel0/Mokuro2Pdf"
+}

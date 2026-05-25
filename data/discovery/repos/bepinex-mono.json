@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/mono",
+      "target": "mono/mono",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:24.558421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mono open source ECMA CLI, C# and .NET implementation.",
+    "fork": true,
+    "full_name": "BepInEx/mono",
+    "html_url": "https://github.com/BepInEx/mono",
+    "language": "C#",
+    "pushed_at": "2021-06-24T06:21:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-11-22T12:52:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mono/mono",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

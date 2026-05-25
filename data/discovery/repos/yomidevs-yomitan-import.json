@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml"
+    },
+    {
+      "component": "egor-tensin/setup-mingw@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "foosoft/yomichan-import",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "egor-tensin/setup-mingw@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import",
+      "target": "Build and Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:12.395453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3344
+    },
+    {
+      "path": "go.mod",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/build-and-release.yaml",
+      "size": 1376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "External dictionary importer for Yomitan.",
+    "fork": true,
+    "full_name": "yomidevs/yomitan-import",
+    "html_url": "https://github.com/yomidevs/yomitan-import",
+    "language": "Go",
+    "pushed_at": "2026-04-07T01:24:32Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-05-10T02:20:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foosoft/yomichan-import",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "term": "Build and Release"
+    }
+  ]
+}

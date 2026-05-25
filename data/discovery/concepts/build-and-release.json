@@ -476,6 +476,18 @@
       "source_repo": "m-bain/whisperX",
       "status": "candidate-context",
       "text": "Build and release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yomidevs/yomitan-import",
+      "status": "candidate-context",
+      "text": "External dictionary importer for Yomitan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan-import",
+      "status": "candidate-context",
+      "text": "Build and Release"
     }
   ],
   "candidate_glosses": [
@@ -724,6 +736,12 @@
       "source_repo": "m-bain/whisperX",
       "status": "candidate",
       "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan-import",
+      "status": "candidate",
+      "text": "Build and Release"
     }
   ],
   "candidate_related_terms": [
@@ -1433,11 +1451,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

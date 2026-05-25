@@ -6190,11 +6190,29 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -183,7 +183,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T11:07:27.009141+00:00",
+  "fetched_at": "2026-05-25T18:42:50.692751+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -211,7 +211,7 @@
     "full_name": "tox-dev/filelock",
     "html_url": "https://github.com/tox-dev/filelock",
     "language": "Python",
-    "pushed_at": "2026-05-23T03:53:32Z",
+    "pushed_at": "2026-05-25T16:51:31Z",
     "stargazers_count": 956,
     "topics": [
       "filelock",

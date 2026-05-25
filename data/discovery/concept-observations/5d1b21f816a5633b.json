@@ -84,7 +84,7 @@
   "normalized_form": "node-cd",
   "observation_id": "5d1b21f816a5633b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
   "observed_text": "Node CD",
   "source_context_snippet": "Node CD",
   "source_file": ".github/workflows/nodejs.yml",

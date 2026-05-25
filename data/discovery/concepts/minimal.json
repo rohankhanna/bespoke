@@ -67,6 +67,18 @@
       "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
       "status": "candidate-context",
       "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jbweston/miniver",
+      "status": "candidate-context",
+      "text": "Like Versioneer, but smaller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbweston/miniver",
+      "status": "candidate-context",
+      "text": "[![license: CC0-1.0](https://img.shields.io/pypi/l/miniver.svg)][cc0]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
       "status": "candidate",
       "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jbweston/miniver",
+      "status": "candidate",
+      "text": "[![license: CC0-1.0](https://img.shields.io/pypi/l/miniver.svg)][cc0]"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "jbweston/miniver"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

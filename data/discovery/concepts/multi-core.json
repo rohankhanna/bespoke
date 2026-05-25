@@ -19,6 +19,18 @@
       "source_repo": "beehive-lab/TornadoVM",
       "status": "candidate-context",
       "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "beehive-lab/TornadoVM",
       "status": "candidate",
       "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate",
+      "text": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

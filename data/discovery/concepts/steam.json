@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Steam"
+    "Steam",
+    "steam"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "hajimehoshi/ebiten",
       "status": "candidate-context",
       "text": "Steam"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "hajimehoshi/ebiten",
       "status": "candidate",
       "text": "Steam"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate",
+      "text": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +105,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/steam.yml",
       "source_repo": "hajimehoshi/ebiten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "tModLoader/tModLoader"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

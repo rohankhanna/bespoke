@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Against Minimum VCS Versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate-context",
+      "text": "Versioning It with your Version In Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate-context",
+      "text": "Test Against Minimum VCS Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate",
+      "text": "Test Against Minimum VCS Versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29840,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29522,
+      "status": "candidate",
+      "text": "below"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29362,
+      "status": "candidate",
+      "text": "overdraw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29342,
+      "status": "candidate",
+      "text": "cover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Against Minimum VCS Versions",
+  "concept_id": "test-against-minimum-vcs-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/minimum-vcs.yml",
+      "source_repo": "jwodder/versioningit"
+    }
+  ],
+  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Against Minimum VCS Versions",
+      "sense_id": "test-against-minimum-vcs-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

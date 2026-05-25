@@ -84,7 +84,7 @@
   "normalized_form": "editorconfig-checker",
   "observation_id": "19b3ca8df1b67a72",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
   "observed_text": "EditorConfig Checker",
   "source_context_snippet": "EditorConfig Checker",
   "source_file": ".github/workflows/editorconfig.yml",

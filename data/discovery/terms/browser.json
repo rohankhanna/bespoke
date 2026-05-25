@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -471,6 +471,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "xiangyuecn/Recorder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js"
     }
   ],
   "term": "browser"

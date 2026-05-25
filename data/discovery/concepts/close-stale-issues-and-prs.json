@@ -6601,11 +6601,53 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ldproxy/ldproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

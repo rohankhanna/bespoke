@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -10662,6 +10662,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-prerelease-on-tag.yml",
       "source_repo": "yomidevs/yomitan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Gnathonic/mokuro-reader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dexie/Dexie.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gildas-lormeau/zip.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "WebReflection/linkedom"
     }
   ]
 }

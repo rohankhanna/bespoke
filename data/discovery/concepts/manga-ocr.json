@@ -33,6 +33,18 @@
       "source_repo": "blueaxis/Poricom",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blueaxis/Cloe",
+      "status": "candidate-context",
+      "text": "Manga OCR snipping application for desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blueaxis/Cloe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "blueaxis/Poricom",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blueaxis/Cloe",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -66,11 +84,23 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": null,
       "source_repo": "blueaxis/Poricom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom"
     }
   ],
   "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

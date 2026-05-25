@@ -9,11 +9,11 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-25T12:03:39.661681+00:00",
+  "fetched_at": "2026-05-25T19:13:02.193134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 73009
+      "size": 74424
     }
   ],
   "related_repositories": [],
@@ -25,10 +25,10 @@
     "full_name": "ai-that-works/ai-that-works",
     "html_url": "https://github.com/ai-that-works/ai-that-works",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T01:42:10Z",
-    "stargazers_count": 1789,
+    "pushed_at": "2026-05-25T18:23:08Z",
+    "stargazers_count": 1790,
     "topics": [],
-    "updated_at": "2026-05-24T00:39:11Z"
+    "updated_at": "2026-05-25T18:23:13Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test with No VCSes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate-context",
+      "text": "Versioning It with your Version In Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate-context",
+      "text": "Test with No VCSes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwodder/versioningit",
+      "status": "candidate",
+      "text": "Test with No VCSes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28301,
+      "status": "candidate",
+      "text": "nil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11913,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11913,
+      "status": "candidate",
+      "text": "zero"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11901,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11901,
+      "status": "candidate",
+      "text": "bat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test with No VCSes",
+  "concept_id": "test-with-no-vcses",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit"
+    }
+  ],
+  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test with No VCSes",
+      "sense_id": "test-with-no-vcses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "sirfz/tesserocr",
+      "target": "simonflueckiger/tesserocr-windows_build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "sirfz/tesserocr",
+      "target": "tesseract-ocr/tessdata.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sirfz/tesserocr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sirfz/tesserocr",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sirfz/tesserocr",
+      "target": "pypa/cibuildwheel@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sirfz/tesserocr",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sirfz/tesserocr",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sirfz/tesserocr",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sirfz/tesserocr",
+      "target": "cython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sirfz/tesserocr",
+      "target": "optical-character-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sirfz/tesserocr",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sirfz/tesserocr",
+      "target": "tesseract",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:41.053771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9087
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1384
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 679
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python wrapper for the tesseract-ocr API",
+    "fork": false,
+    "full_name": "sirfz/tesserocr",
+    "html_url": "https://github.com/sirfz/tesserocr",
+    "language": "Python",
+    "pushed_at": "2026-03-16T14:37:08Z",
+    "stargazers_count": 2167,
+    "topics": [
+      "cython",
+      "ocr",
+      "optical-character-recognition",
+      "python-library",
+      "tesseract"
+    ],
+    "updated_at": "2026-05-24T15:54:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonflueckiger/tesserocr-windows_build",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tesseract-ocr/tessdata.",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cython"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-character-recognition"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tesseract"
+    }
+  ]
+}

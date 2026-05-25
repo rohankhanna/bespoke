@@ -193,6 +193,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dmtrKovalenko/fff",
       "target": "dtolnay/rust-toolchain@stable",
       "target_type": "component"
     },
@@ -302,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-25T07:45:58.058620+00:00",
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
   "source_repo": "dmtrKovalenko/fff"
 }

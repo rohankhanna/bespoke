@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Wiki Changed Discord Notification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "Wiki Changed Discord Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate",
+      "text": "Wiki Changed Discord Notification"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "hustle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "hustling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "liberal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21343,
+      "status": "candidate",
+      "text": "spring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Wiki Changed Discord Notification",
+  "concept_id": "wiki-changed-discord-notification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/wiki.yml",
+      "source_repo": "tModLoader/tModLoader"
+    }
+  ],
+  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Wiki Changed Discord Notification",
+      "sense_id": "wiki-changed-discord-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "chart.js",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -117,6 +117,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "serversideup/financial-freedom"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Gnathonic/mokuro-reader"
     }
   ]
 }

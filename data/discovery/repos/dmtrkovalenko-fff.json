@@ -171,6 +171,11 @@
       "source_file": ".github/workflows/release.yaml"
     },
     {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
       "component": "leafo/gh-actions-lua@v12",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml"
@@ -465,6 +470,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dmtrKovalenko/fff",
       "target": "dtolnay/rust-toolchain@stable",
       "target_type": "component"
     },
@@ -574,11 +586,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T12:13:36.362325+00:00",
+  "fetched_at": "2026-05-25T19:55:10.686879+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 28880
+      "size": 28881
     },
     {
       "path": "Cargo.toml",
@@ -606,7 +618,7 @@
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 21046
+      "size": 20772
     },
     {
       "path": ".github/workflows/rust.yml",
@@ -626,8 +638,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-05-25T00:35:29Z",
-    "stargazers_count": 6284,
+    "pushed_at": "2026-05-25T19:00:32Z",
+    "stargazers_count": 6286,
     "topics": [
       "filesearch",
       "lua",
@@ -635,7 +647,7 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-05-25T12:04:13Z"
+    "updated_at": "2026-05-25T18:50:13Z"
   },
   "repo_links": [
     {

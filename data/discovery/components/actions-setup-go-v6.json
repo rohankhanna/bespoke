@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v6",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3222,6 +3222,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/librarian_tidy.yml",
       "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yaml",
+      "source_repo": "yomidevs/yomitan-import"
     }
   ]
 }

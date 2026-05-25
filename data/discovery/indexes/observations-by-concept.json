@@ -2112,6 +2112,9 @@
   "aes-256": [
     "faad14416d8bfe8b"
   ],
+  "aes-encryption": [
+    "01a798103233eff9"
+  ],
   "aes-gcm": [
     "beada72c5e5b2860",
     "de158b21bc64767b"
@@ -10386,6 +10389,9 @@
   "ava-dataset": [
     "92c0e3fc282b0402"
   ],
+  "available-on-pypi": [
+    "3808063a9ba7ae4b"
+  ],
   "avalonia": [
     "5a35e187022f80c5",
     "737c62085d935b66",
@@ -15861,6 +15867,7 @@
     "36a919607dedac13",
     "3784276495e43af2",
     "37c6acba69e435c1",
+    "3c173089d2e928fc",
     "472792d396c69c9d",
     "47d3540fa0965feb",
     "4cbc1de879568e09",
@@ -16499,6 +16506,7 @@
     "44b3b9d43a808da4",
     "44b6037f33f71984",
     "44bf5759c0f8809a",
+    "44f62559bd2a1598",
     "4513f727902b73be",
     "45585990f17c2310",
     "458447802e44a14d",
@@ -16630,6 +16638,7 @@
     "63ee7918d31cbf4c",
     "63fa6ddc4a1582aa",
     "643a9d625e22d24d",
+    "64cff027129abd90",
     "64fefad145195808",
     "65084e842df49692",
     "654afeebab5d18c5",
@@ -17042,6 +17051,7 @@
     "c9caa465330943ff",
     "ca42e04a22558c21",
     "ca6091e36fc2555e",
+    "cabbc086b7f51c92",
     "caf19adffb9adfca",
     "cb0f9028967acdc3",
     "cb1d674a67cd7f7c",
@@ -18094,6 +18104,7 @@
     "d600f1f16fad2f18"
   ],
   "build-and-release": [
+    "01f17abd43e31aaf",
     "050e80db5dae4114",
     "0a485e8793260f3d",
     "1d58c557d877cce8",
@@ -18381,6 +18392,7 @@
     "d2e6023d54caa5f3",
     "d35b709a7f1959fe",
     "db0fa794e20f1412",
+    "dda39e99dc51a849",
     "de86aeb7a53b70b2",
     "e2512d341d30e34d",
     "e71f81436b07a3e5",
@@ -19166,6 +19178,7 @@
     "c444d581f3bc5601",
     "c9b15b6226938abe",
     "d69b5db6f12dfeb0",
+    "e422880efc9f8468",
     "e64061ae216a3799",
     "ea9de98049b4f662",
     "f851f960d684ee8e",
@@ -21849,6 +21862,9 @@
   "build-time-benchmarks": [
     "cecd6523ca1219ae",
     "ddc909c996a25be5"
+  ],
+  "build-tmodloader": [
+    "f4526bd4377ae7c8"
   ],
   "build-tool": [
     "0785199769304730",
@@ -28667,6 +28683,7 @@
     "4d3a4a5e970c2781",
     "5373e82365f1add3",
     "5462aff4ac004b9b",
+    "639b646577afdd9e",
     "63dda21d2ce15edc",
     "69c019673d13b238",
     "72a5eefc547ecff8",
@@ -30605,6 +30622,7 @@
     "6daeb5033248369c",
     "6dcd1759bbfe2fd1",
     "6e0a73ff7646b667",
+    "6f30fdb3907c1a60",
     "7365a6f559556c9d",
     "75288559481b584e",
     "76215f78d629d2c0",
@@ -36623,10 +36641,12 @@
     "13ad06f38cf498bc",
     "2a7db58b26f26f2f",
     "945be11e3cf4e94d",
+    "bae520069c3a9ed0",
     "c09a425057b086e7",
     "c3f30fa686cb6fee"
   ],
   "comics-reader": [
+    "84c4b18ab2abe1e1",
     "cec394b017ee7d9a"
   ],
   "comirec": [
@@ -38167,6 +38187,9 @@
   ],
   "compression-library": [
     "cdc967f671bb3521"
+  ],
+  "compression-stream": [
+    "bc78defb59bdee64"
   ],
   "compressor": [
     "0586ea2eaacb15f1",
@@ -44633,6 +44656,7 @@
     "83c511876a02bbbe",
     "9c60b8e2f1254d63",
     "a3d21436a1f32ca9",
+    "bd892929748b6b81",
     "c2dd2238f02a4608",
     "cc8c365559f29179",
     "cd7b0fb0c7654933",
@@ -46025,6 +46049,7 @@
     "cc74ae807c1b83f4",
     "ccb05d10e950ebb3",
     "cfb9d190e56ce6a3",
+    "d2e906f6158ab6b6",
     "d3f2db7850090412",
     "d671fcb612672a66",
     "d78aa43fceb7b502",
@@ -48369,6 +48394,9 @@
   "deflate-format": [
     "04c426546f408367"
   ],
+  "deflate64": [
+    "9032b2b34720327a"
+  ],
   "defocus-deblurring": [
     "54e6a6098704f868",
     "e596f5f6b3272ddc"
@@ -48677,6 +48705,7 @@
     "cdc10bbe128c94d3",
     "ce36069cc54dfc76",
     "db40bdeddfe0de70",
+    "e5c1e7be1a99ae73",
     "fda056600c4eec8f",
     "fee692d59ac45528"
   ],
@@ -51582,6 +51611,9 @@
   ],
   "dex2jar": [
     "046b851bc201051d"
+  ],
+  "dexie-cloud-common-tests": [
+    "32a4eb7a5f6ba98d"
   ],
   "dext": [
     "598a365e53b2050d"
@@ -66206,6 +66238,7 @@
     "b6c59679a05f7e55",
     "c15d062712e6e3e5",
     "c838a0ea94596495",
+    "e330815c5b7853cf",
     "e9ed16c57194a339",
     "ea5b9f35a10c2246",
     "f424fb64e242e2f2",
@@ -73948,6 +73981,7 @@
     "75fc94c539a1fecc",
     "763711b4ba20b719",
     "764102505379a401",
+    "7648d459013c8dd0",
     "76502469386acd79",
     "77b6d14ef3f75437",
     "77c6021263140870",
@@ -75009,6 +75043,9 @@
   ],
   "hasklig": [
     "2b59c38aead9700b"
+  ],
+  "hatch": [
+    "78044ed73189236a"
   ],
   "hatchet-app-cleaner": [
     "3ac9ea0899b0af7b",
@@ -79719,6 +79756,7 @@
   "indexeddb": [
     "2ce350b1ec6bd25d",
     "3a28a744018aa5e5",
+    "8ffff44c8e9c29b1",
     "d21b607c8b75d903",
     "ef69ea5ea66e1cfd"
   ],
@@ -82121,6 +82159,7 @@
     "31f7d6dc28b41fad",
     "487efea0bb6909f7",
     "632f0253010b4524",
+    "6b6a27229419307c",
     "6ce0287b9b170176",
     "87f1ac4865fa432a",
     "950489673b2a848e",
@@ -82587,7 +82626,9 @@
     "09272b8ad511eaad",
     "2d51fada3d454eef",
     "36d3668831f8eff9",
+    "392a16daa25034b6",
     "5699518722a13b3f",
+    "5cc0f4b93f8dd946",
     "5f823bd11243689f",
     "9f12e1d6b3f1488a",
     "acc267d402f18f5d",
@@ -82600,8 +82641,12 @@
   "japanese-language": [
     "38218d721a8667bb"
   ],
+  "japanese-learning": [
+    "012088a3a5b061f9"
+  ],
   "japanese-study": [
-    "c3ec40ab0c2bce51"
+    "c3ec40ab0c2bce51",
+    "cc66adecf8438c6a"
   ],
   "japanese-tts": [
     "c5dfedc3d28c7869"
@@ -85439,6 +85484,7 @@
     "b7c2bc179c82ef67"
   ],
   "kindle": [
+    "525e112755d5b711",
     "7acb7cada2181f12",
     "f22ad11b87d84f8c"
   ],
@@ -95900,16 +95946,20 @@
     "27b03a625dcd67c6",
     "3974c21d421fa165",
     "48052dc9fbd05158",
+    "5c5182e3926865e7",
     "9e0e1292117ca4a7",
     "af1d34e5c33bbc7b",
+    "be316a2a638cfc15",
     "da20dee8cab7d8f7"
   ],
   "manga-ocr": [
+    "baffeb42897955e5",
     "de16f179b2e8367f",
     "f45888ac33384325"
   ],
   "manga-reader": [
     "326a3df9e59b2039",
+    "a03b750fe5c42d86",
     "eac4ff0ffa46e681"
   ],
   "manga-translation": [
@@ -97840,6 +97890,9 @@
   "melody-frontend": [
     "463713ed1da3e967"
   ],
+  "melonloader": [
+    "2f71820715a774f5"
+  ],
   "melpa": [
     "04a0aba31a16ce01",
     "1a84f063bbc57378",
@@ -98028,6 +98081,7 @@
     "5b39d5a425a204ba"
   ],
   "mercurial": [
+    "1aeee7fd3b447495",
     "6f2c9b40815e43ed",
     "77fad63c32511090",
     "80f7fa46db60e257",
@@ -98773,6 +98827,7 @@
     "7c8762ee0d038973",
     "82916dd43235ca6b",
     "8fcabaeb86149e36",
+    "9035de5b02c49118",
     "a54017f6346f5d84",
     "a7da076b7203341d",
     "ae2b21da4bc204e4",
@@ -99329,7 +99384,8 @@
     "30a9c8988cc1fb5c",
     "820ac7d2c5202b2a",
     "89b801bd4263d6be",
-    "9fa3c5eac3e8e804"
+    "9fa3c5eac3e8e804",
+    "f7c22fa2ff40c613"
   ],
   "minimal-ci": [
     "d7371a9fa5877d47",
@@ -101091,6 +101147,9 @@
   "monthly-tests": [
     "12b81214c8cc30c8"
   ],
+  "monthly-update-tmodloader": [
+    "3f271256c3e222e4"
+  ],
   "moon": [
     "4587ef6e535f87b6"
   ],
@@ -101794,6 +101853,7 @@
     "a4cc38ac873dded0"
   ],
   "multi-core": [
+    "97f9888b0c143093",
     "fe05401e497e293f"
   ],
   "multi-datasource": [
@@ -102133,7 +102193,8 @@
     "deb2c62a5bd27d6c"
   ],
   "multicore": [
-    "ec210ca83798e12a"
+    "ec210ca83798e12a",
+    "f33ba77925766056"
   ],
   "multicore-programming": [
     "6dc6f64ca130c820"
@@ -107071,6 +107132,7 @@
     "c0f20c853150d709",
     "c15542f0d006c87f",
     "c25ec296a1db2154",
+    "c3036229558e8df9",
     "c3daecbd415cc67c",
     "c40b4d5bb9a9a8bb",
     "c453a89757e6da83",
@@ -109295,6 +109357,7 @@
   ],
   "ocr-python": [
     "103e5f670ed9e33c",
+    "580286af8c30dbd6",
     "b37ab3fba0cb33a9",
     "f47212ea2b646299"
   ],
@@ -109442,6 +109505,7 @@
     "521ca4fa51c1b3da",
     "523472288a5401b9",
     "59816b974fb2494a",
+    "5f526f9b809561d5",
     "76ee94965d02fdce",
     "ad5c02836388e1de",
     "ad71e404e9a75a4d"
@@ -109478,6 +109542,9 @@
     "00e537d2f9a6c67c",
     "ab14dd129aeb47a9",
     "d1c285e4f063a3a3"
+  ],
+  "offline-storage": [
+    "1df1f1b8f168c536"
   ],
   "offloading": [
     "1b079fdc239b44e8"
@@ -111766,7 +111833,8 @@
     "3aabb41187094cf0"
   ],
   "optical-character-recognition": [
-    "8e7d039aec56a9ff"
+    "8e7d039aec56a9ff",
+    "8efe705c796a7edc"
   ],
   "optical-flow": [
     "0a987f01a5856fb3",
@@ -112847,6 +112915,7 @@
     "818eed440572331f",
     "97462a7a6bf8ca74",
     "a686e99e987ec8a5",
+    "b2b47eaf65c7507a",
     "bad5e39772eb2d20",
     "c19b1890d1422883",
     "db672dd676286f23",
@@ -117827,6 +117896,9 @@
   "pr-description-checker": [
     "db682c1803dd0014"
   ],
+  "pr-diff-links": [
+    "50e19f3437e6521b"
+  ],
   "pr-diff-summarization": [
     "5665f8b6c1e778ce",
     "da2fa392c3054918"
@@ -118138,6 +118210,9 @@
   ],
   "pr-summary-comment": [
     "055f0afbbb11cae0"
+  ],
+  "pr-target-guard": [
+    "1d27020ff27c79b6"
   ],
   "pr-tasks-completed-check": [
     "98296e821981f980"
@@ -119313,6 +119388,9 @@
   ],
   "preview-start": [
     "c9a0c43f3a5a26cc"
+  ],
+  "preview-tmodloader": [
+    "393b143c35468fde"
   ],
   "previous-lts": [
     "fcf094b8796f9b4b"
@@ -121122,6 +121200,7 @@
     "04738aa738b7aacc",
     "0619416a2776fef6",
     "06840c52b03050f7",
+    "069dc1fb69373d76",
     "06e14df4381e06c1",
     "07f53d8f21319e25",
     "08773df7baa9add8",
@@ -121420,6 +121499,7 @@
     "de5894e0e2df9b04",
     "de76d2cc830d2e10",
     "e018dcf574e692a1",
+    "e09584631fb69a7e",
     "e33b85af9d988f57",
     "e357b953a45097d3",
     "e37ae177a8dd666e",
@@ -124625,7 +124705,8 @@
     "18f02caf6f776287",
     "59b42d55924c07a5",
     "7b6efeef391ce201",
-    "b39e6da023389fa3"
+    "b39e6da023389fa3",
+    "ebe02097729bb512"
   ],
   "pyqt5-gui": [
     "7c0bb6d176c3f951"
@@ -124872,6 +124953,7 @@
     "529d49e659912031",
     "683add6753f8546e",
     "6d0808d75b07aa17",
+    "7dba0334a91c9576",
     "8485967155ba99ba",
     "c7bf8ee0799107b1",
     "e3b65334a404086b",
@@ -129530,6 +129612,7 @@
     "050e8f637278f5f6",
     "052b0231c46e0adf",
     "052ef884a9be9a7a",
+    "0541b9a7bad04927",
     "055defaf12166a28",
     "0580df0791e181be",
     "060fac4239542624",
@@ -142537,6 +142620,7 @@
   "service-worker": [
     "acea4748a314de85",
     "bd0b28ade08e91da",
+    "c203ca80c8b86259",
     "deab4a9513dec7f5"
   ],
   "services": [
@@ -142650,6 +142734,7 @@
   ],
   "setuptools": [
     "12f6e2858710cf9e",
+    "52921dc329874680",
     "de19c5e5ee7f9236"
   ],
   "setuptools-compatibility-reusable": [
@@ -144890,6 +144975,9 @@
     "647cc713afbf0feb",
     "aa671678c05ef13f"
   ],
+  "snipping-tool": [
+    "186dff2dc9fdcde7"
+  ],
   "snmalloc-benchmarking-ci": [
     "54d057be8b863f1d"
   ],
@@ -146789,6 +146877,7 @@
     "ac10320535f83573"
   ],
   "split-zip": [
+    "752b9711fb41cfde",
     "fff86d379603e68f"
   ],
   "splunk": [
@@ -148585,6 +148674,7 @@
     "da5fde488d52d7d5"
   ],
   "steam": [
+    "032082c1d7c15b38",
     "1b5e33c9ae69ad3d"
   ],
   "steep": [
@@ -148771,6 +148861,7 @@
     "04f7a539a4e99104",
     "0a18491fdf91bcbb",
     "0a95f650663accae",
+    "17cddabc46302fd0",
     "2ddfd8d97aed3c74",
     "58ee828ccf670ffa",
     "5ed774b282ba5552",
@@ -153681,6 +153772,12 @@
   "terrain-editor": [
     "97b0a33737dd42b4"
   ],
+  "terraria": [
+    "114d83e33b4fffe9"
+  ],
+  "terraria-modding-api": [
+    "530783f9b0246a6a"
+  ],
   "terrascan": [
     "02dec9e186c4b71a"
   ],
@@ -153698,6 +153795,7 @@
   ],
   "tesseract": [
     "1984073bd93dce39",
+    "3b83cb6495ce3d2b",
     "5a4817b5b6dec97e",
     "dc25d35d7f4fe7de",
     "e6905c7b3bb9102d"
@@ -153812,6 +153910,7 @@
     "158d8d049284efcb",
     "15e96e52d4d5e34b",
     "15f6eb849840c620",
+    "164499e735144f48",
     "1650719c01692b55",
     "165c4d53b2d228a1",
     "165e09540ff693b2",
@@ -154595,6 +154694,7 @@
     "d231fb4cae4f5eda",
     "d27555070afb2158",
     "d32d6983d0217596",
+    "d32fdbdb74a60e9b",
     "d342127b489651bd",
     "d396ffd504b92411",
     "d3f330f044853d19",
@@ -154808,6 +154908,9 @@
   ],
   "test-against-downstream-projects": [
     "5e41f976ec55e8f2"
+  ],
+  "test-against-minimum-vcs-versions": [
+    "a40fb37c3cf5bb74"
   ],
   "test-against-pacman": [
     "808c3009cbb99781"
@@ -156442,6 +156545,9 @@
   ],
   "test-with-nightly-wheels": [
     "b8aa3454fe39fb0a"
+  ],
+  "test-with-no-vcses": [
+    "1190d53d98ec7744"
   ],
   "test-with-pytest": [
     "4c5f2a39e12b9f7a",
@@ -159106,6 +159212,9 @@
   "tmdb": [
     "a2c8dec2db12fb15"
   ],
+  "tmodloader": [
+    "41edfadb5ae9bc34"
+  ],
   "tmux": [
     "0086269e122bbd31",
     "081d235ef9ed803b",
@@ -160135,6 +160244,9 @@
     "8bc116974b66d179",
     "9c4a85ceab6b5d9f",
     "d8eb167932729599"
+  ],
+  "transform-stream": [
+    "29964f496a215e3c"
   ],
   "transformation": [
     "fed86568ce3008cc"
@@ -163291,7 +163403,8 @@
     "b62d645281442c2a",
     "bc43a1748f391618",
     "dd58fdb050cb615c",
-    "f00798e2d5a89fad"
+    "f00798e2d5a89fad",
+    "f2342a3d8be6f75d"
   ],
   "unity-catalog": [
     "e3e8aa94ff28787b"
@@ -163560,7 +163673,8 @@
   ],
   "unzip": [
     "3fae06330c75d7be",
-    "88a85d30994fd9ab"
+    "88a85d30994fd9ab",
+    "e647bfb9e022bd16"
   ],
   "unzipping-files": [
     "95164945077cd242"
@@ -165301,7 +165415,8 @@
     "2fee0688bd6d7a79"
   ],
   "usdz": [
-    "7b3fc15441ec9f21"
+    "7b3fc15441ec9f21",
+    "bc4089a464d847c1"
   ],
   "use-pre-commit-to-validate-pull-request": [
     "531709085711391d"
@@ -166017,6 +166132,7 @@
   "validate-pull-request": [
     "3bd6968d788db1ac",
     "59ddcc9a9a2591de",
+    "60d6881966cd6df7",
     "65184175e8b300a2",
     "e06da3ea726ba833",
     "fe312101cdf5a0c7"
@@ -166911,6 +167027,7 @@
     "00415e9f0a7e7c0e",
     "107067b4975f171f",
     "13ad31924e87080b",
+    "175f41a5aac373a3",
     "17f465fce968e564",
     "183c2b1b53104727",
     "3473754f251dd24e",
@@ -166978,6 +167095,7 @@
     "6a28b6197d6a9676",
     "7d67e7871e03bdc9",
     "963de9e7bda8dc19",
+    "97f1c3e79fe734dd",
     "a00f0c9866f081a7",
     "a16b39a2581c080f",
     "adb20be77b5ffbf9",
@@ -167022,6 +167140,9 @@
     "029686819e173e5f",
     "8e0c18f541ea116b"
   ],
+  "versioneer": [
+    "42472914aa89f9d7"
+  ],
   "versionfox-ci": [
     "b84161d51e4d1dfd"
   ],
@@ -167051,6 +167172,9 @@
     "dba375e08c2190a9",
     "e22e88c915757374",
     "e3e0871b4e212778"
+  ],
+  "versioningit": [
+    "08c46ca3f6b80626"
   ],
   "versions": [
     "0d14f5d25b41eecf",
@@ -171007,6 +171131,9 @@
     "deb841b1a27f3e8f",
     "f900bbaa36ef2b81"
   ],
+  "web-stream": [
+    "a896955bf92169d9"
+  ],
   "web-streams": [
     "9a501506bc94c14f"
   ],
@@ -171022,6 +171149,7 @@
     "62c44edfe1e60061"
   ],
   "web-worker": [
+    "5493b7f755096d6f",
     "810e577be5393ca6"
   ],
   "web3": [
@@ -172359,6 +172487,9 @@
   ],
   "wiki---update-control-styles": [
     "7ae56d877445f35e"
+  ],
+  "wiki-changed-discord-notification": [
+    "20085cebebad656e"
   ],
   "wiki-links": [
     "651b93dbe7be44e7"
@@ -174921,13 +175052,20 @@
     "50c693e21e9c004a"
   ],
   "zip-encryption": [
-    "6eed4b17f24f26e5"
+    "6eed4b17f24f26e5",
+    "8ca339b966dc2d73"
   ],
   "zip4j": [
     "f5130e8e29f65acc"
   ],
+  "zip64": [
+    "05f6a6c88e97bf4b"
+  ],
   "ziparchive": [
     "c6ce4fd72b01daf4"
+  ],
+  "zipcrypto": [
+    "b6f348e76a51a322"
   ],
   "zipkin": [
     "2ffb9529eb350c1e"

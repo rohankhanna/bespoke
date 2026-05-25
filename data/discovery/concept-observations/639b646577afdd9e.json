@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Detours is a software package for monitoring and instrumenting API calls on Windows.  It is distributed in source code form."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI-Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI-Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI-Build",
+      "sense_id": "ci-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-build",
+  "observation_id": "639b646577afdd9e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "CI-Build",
+  "source_context_snippet": "CI-Build",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "microsoft/Detours",
+  "source_repo_description": "Detours is a software package for monitoring and instrumenting API calls on Windows.  It is distributed in source code form."
+}

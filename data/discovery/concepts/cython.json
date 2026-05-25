@@ -151,6 +151,18 @@
       "source_repo": "Toblerity/Fiona",
       "status": "candidate-context",
       "text": "====="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sirfz/tesserocr",
+      "status": "candidate-context",
+      "text": "A Python wrapper for the tesseract-ocr API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sirfz/tesserocr",
+      "status": "candidate-context",
+      "text": "========="
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Toblerity/Fiona",
       "status": "candidate",
       "text": "====="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sirfz/tesserocr",
+      "status": "candidate",
+      "text": "========="
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,17 @@
       "observed_at": "2026-05-07T00:37:24.413591+00:00",
       "source_file": null,
       "source_repo": "Toblerity/Fiona"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "sirfz/tesserocr"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T00:37:24.413591+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

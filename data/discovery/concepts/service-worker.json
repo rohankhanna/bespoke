@@ -43,6 +43,18 @@
       "source_repo": "mswjs/msw",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mswjs/msw",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate",
+      "text": "zip.js is a JavaScript open-source library (BSD-3-Clause license) for"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mswjs/msw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "gildas-lormeau/zip.js"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

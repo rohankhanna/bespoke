@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LavaGang/Deobfuscation-Maps",
+      "target": "melonloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LavaGang/Deobfuscation-Maps",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:25.465030+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "unknown",
+    "description": "This repository contains deobfuscation maps for some games supported by MelonLoader.",
+    "fork": false,
+    "full_name": "LavaGang/Deobfuscation-Maps",
+    "html_url": "https://github.com/LavaGang/Deobfuscation-Maps",
+    "language": null,
+    "pushed_at": "2023-07-12T10:17:44Z",
+    "stargazers_count": 1,
+    "topics": [
+      "melonloader",
+      "unity"
+    ],
+    "updated_at": "2024-06-27T10:40:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains deobfuscation maps for some games supported by MelonLoader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melonloader"
+    },
+    {
+      "context_snippet": "This repository contains deobfuscation maps for some games supported by MelonLoader.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

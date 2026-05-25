@@ -1,7 +1,7 @@
 {
   "component": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-hex-publish.yml@v1.6.3",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

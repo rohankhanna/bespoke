@@ -169,6 +169,30 @@
       "source_repo": "yomidevs/yomitan",
       "status": "candidate-context",
       "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "status": "candidate-context",
+      "text": "A mokuro reader written in svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate-context",
+      "text": "Create pdf files with selectable text from Mokuro's manga html overlay"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate-context",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +279,18 @@
       "source_repo": "yomidevs/yomitan",
       "status": "candidate",
       "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
     }
   ],
   "candidate_related_terms": [
@@ -762,11 +798,29 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "yomidevs/yomitan"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

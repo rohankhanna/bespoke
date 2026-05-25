@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Cloe",
+      "target": "bluaxees/cloe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "manga-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "ocr-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "snipping-tool",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "source_repo": "blueaxis/Cloe"
+}

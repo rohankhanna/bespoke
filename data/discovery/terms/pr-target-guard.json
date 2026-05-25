@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-target-guard.yml",
+      "source_repo": "Gnathonic/mokuro-reader"
+    }
+  ],
+  "term": "PR Target Guard"
+}

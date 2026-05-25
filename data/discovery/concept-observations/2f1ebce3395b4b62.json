@@ -84,7 +84,7 @@
   "normalized_form": "auto-approve-release-prs",
   "observation_id": "2f1ebce3395b4b62",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
   "observed_text": "Auto approve release PRs",
   "source_context_snippet": "Auto approve release PRs",
   "source_file": ".github/workflows/auto-approve-release.yml",

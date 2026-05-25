@@ -261,11 +261,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T12:03:19.318634+00:00",
+  "fetched_at": "2026-05-25T19:12:26.275000+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2996
+      "size": 2817
     },
     {
       "path": ".github/workflows/ci-linux.yml",
@@ -309,15 +309,15 @@
     "full_name": "TrenchBroom/TrenchBroom",
     "html_url": "https://github.com/TrenchBroom/TrenchBroom",
     "language": "C++",
-    "pushed_at": "2026-05-25T08:22:55Z",
-    "stargazers_count": 2634,
+    "pushed_at": "2026-05-25T13:11:22Z",
+    "stargazers_count": 2635,
     "topics": [
       "c-plus-plus",
       "game-development",
       "games",
       "level-editor"
     ],
-    "updated_at": "2026-05-25T11:35:57Z"
+    "updated_at": "2026-05-25T18:06:26Z"
   },
   "repo_links": [
     {

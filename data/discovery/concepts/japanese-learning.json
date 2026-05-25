@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "japanese-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate-context",
+      "text": "Create pdf files with selectable text from Mokuro's manga html overlay"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate-context",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "japanese-learning",
+  "concept_id": "japanese-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf"
+    }
+  ],
+  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "japanese-learning",
+      "sense_id": "japanese-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Cloe",
+      "target": "bluaxees/cloe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "manga-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "ocr-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe",
+      "target": "snipping-tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:36.341116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2130
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Manga OCR snipping application for desktop",
+    "fork": false,
+    "full_name": "blueaxis/Cloe",
+    "html_url": "https://github.com/blueaxis/Cloe",
+    "language": "Python",
+    "pushed_at": "2023-01-07T11:32:44Z",
+    "stargazers_count": 151,
+    "topics": [
+      "manga-ocr",
+      "ocr",
+      "ocr-python",
+      "pyqt5",
+      "snipping-tool"
+    ],
+    "updated_at": "2026-05-05T10:39:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluaxees/cloe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga-ocr"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-python"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snipping-tool"
+    }
+  ]
+}

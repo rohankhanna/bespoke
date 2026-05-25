@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Versioning It with your Version In Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930846,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907935,
+      "status": "candidate",
+      "text": "crosshatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885306,
+      "status": "candidate",
+      "text": "hachure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39876887,
+      "status": "candidate",
+      "text": "concoct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39794061,
+      "status": "candidate",
+      "text": "dream up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hatch",
+      "sense_id": "hatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41043,
+      "status": "candidate",
+      "text": "brood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26078,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8021,
+      "status": "candidate",
+      "text": "think up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "incubate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7033,
+      "status": "candidate",
+      "text": "concoct"
+    }
+  ],
+  "concept_id": "hatch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hatch",
+  "observation_id": "78044ed73189236a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "hatch",
+  "source_context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+  "source_file": null,
+  "source_repo": "jwodder/versioningit",
+  "source_repo_description": "Versioning It with your Version In Git"
+}

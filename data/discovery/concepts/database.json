@@ -1591,6 +1591,18 @@
       "source_repo": "rejemy/UltraLiteDB",
       "status": "candidate-context",
       "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate-context",
+      "text": "A Minimalistic Wrapper for IndexedDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
     }
   ],
   "candidate_glosses": [
@@ -2385,6 +2397,12 @@
       "source_repo": "rejemy/UltraLiteDB",
       "status": "candidate",
       "text": "UltraLiteDB is a trimmed down version of LiteDB 4.0 (http://www.litedb.org). Anything that needs Linq or dynamic code generation has been removed to make it work in Unity's IL2CPP AoT runtime environment. Some additional features have been removed to reduce code footprint. What'\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
     }
   ],
   "candidate_related_terms": [
@@ -6052,11 +6070,59 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "litedb-org/LiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

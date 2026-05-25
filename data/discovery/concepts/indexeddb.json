@@ -55,6 +55,18 @@
       "source_repo": "filerjs/filer",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate-context",
+      "text": "A Minimalistic Wrapper for IndexedDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "filerjs/filer",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url] ![Build Status](https://github.com/dexie/Dexie.js/actions/workflows/main.yml/badge.svg) [![Join our Discord](https://img.shields.io/discord/1328303736363421747?label=Discord&logo=discord&style=badge)](https://discord.gg/huhre7MHBF)"
     }
   ],
   "candidate_related_terms": [],
@@ -508,11 +526,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "dexie/Dexie.js"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

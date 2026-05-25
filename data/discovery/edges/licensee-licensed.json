@@ -8,6 +8,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "licensee/licensed",
+      "target": "github/licensed.",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
@@ -18,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
+      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
       "target_type": "component"
     },
     {
@@ -46,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
+      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
       "target_type": "component"
     },
     {
@@ -60,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/stale@997185467fa4f803885201cee163a9f38240193d",
+      "target": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
       "target_type": "component"
     },
     {
@@ -81,28 +88,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@97ecb7b512899eb71ab1bf2310a624c6f1589ac6",
+      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "haskell-actions/setup@f9150cb1d140e9a9271700670baa38991e6fa25c",
+      "target": "haskell-actions/setup@cd0d9bdd65b20557f41bea4dbe43d0b5fbbfe553",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -116,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "target_type": "component"
     },
     {
@@ -137,14 +144,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "erlef/setup-beam@e6d7c94229049569db56a7ad5a540c051a010af9",
+      "target": "erlef/setup-beam@fc68ffb90438ef2936bbb3251622353b3dcb2f93",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-dotnet@baa11fbfe1d6520db94683bd5c7a3818018e4309",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
       "target_type": "component"
     },
     {
@@ -158,7 +165,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061",
+      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "target_type": "component"
     },
     {
@@ -204,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-25T07:45:58.058620+00:00",
+  "generated_at": "2026-05-25T18:41:09.248128+00:00",
   "source_repo": "licensee/licensed"
 }

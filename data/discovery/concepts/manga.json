@@ -79,6 +79,30 @@
       "source_repo": "kha-white/mokuro",
       "status": "candidate-context",
       "text": "Read Japanese manga with selectable text inside a browser."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "status": "candidate-context",
+      "text": "A mokuro reader written in svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate-context",
+      "text": "Create pdf files with selectable text from Mokuro's manga html overlay"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate-context",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "kha-white/mokuro",
       "status": "candidate",
       "text": "Read Japanese manga with selectable text inside a browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gnathonic/mokuro-reader",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "status": "candidate",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": null,
       "source_repo": "kha-white/mokuro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Gnathonic/mokuro-reader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

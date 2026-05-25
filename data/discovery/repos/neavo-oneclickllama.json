@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neavo/OneClickLLAMA",
+      "target": "neavo/keywordgacha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neavo/OneClickLLAMA",
+      "target": "nekoparapa/ainiee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neavo/OneClickLLAMA",
+      "target": "xd2333/galtransl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:30.154838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e00\u952e\u8fd0\u884c Qwen2.5 SakuraLLM \u7b49\u672c\u5730 LLM \u6a21\u578b",
+    "fork": false,
+    "full_name": "neavo/OneClickLLAMA",
+    "html_url": "https://github.com/neavo/OneClickLLAMA",
+    "language": null,
+    "pushed_at": "2025-07-09T06:01:48Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-05-25T03:37:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neavo/keywordgacha",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nekoparapa/ainiee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xd2333/galtransl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

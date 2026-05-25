@@ -4151,6 +4151,30 @@
       "source_repo": "thewh1teagle/kokoro-onnx",
       "status": "candidate-context",
       "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate-context",
+      "text": "A Minimalistic Wrapper for IndexedDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -6253,6 +6277,18 @@
       "source_repo": "thewh1teagle/kokoro-onnx",
       "status": "candidate",
       "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexie/Dexie.js",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gildas-lormeau/zip.js",
+      "status": "candidate",
+      "text": "Publish"
     }
   ],
   "candidate_related_terms": [
@@ -16771,11 +16807,131 @@
       "observed_at": "2026-05-25T13:24:13.030254+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mattpocock/ts-reset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-gcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dexie/Dexie.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gildas-lormeau/zip.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

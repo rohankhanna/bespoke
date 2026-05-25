@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create pdf files with selectable text from Mokuro's manga html overlay"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035829,
+      "status": "candidate",
+      "text": "enkindle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020895,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982345,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972085,
+      "status": "candidate",
+      "text": "arouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955992,
+      "status": "candidate",
+      "text": "elicit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kindle",
+      "sense_id": "kindle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61038,
+      "status": "candidate",
+      "text": "elicit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45035,
+      "status": "candidate",
+      "text": "evoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "provoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27036,
+      "status": "candidate",
+      "text": "arouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24055,
+      "status": "candidate",
+      "text": "raise"
+    }
+  ],
+  "concept_id": "kindle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kindle",
+  "observation_id": "525e112755d5b711",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "kindle",
+  "source_context_snippet": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay",
+  "source_file": null,
+  "source_repo": "Kartoffel0/Mokuro2Pdf",
+  "source_repo_description": "Create pdf files with selectable text from Mokuro's manga html overlay"
+}

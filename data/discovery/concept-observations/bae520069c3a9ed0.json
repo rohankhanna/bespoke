@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A mokuro reader written in svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992115,
+      "status": "candidate",
+      "text": "funny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992100,
+      "status": "candidate",
+      "text": "humourous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991966,
+      "status": "candidate",
+      "text": "humorous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991902,
+      "status": "candidate",
+      "text": "amusing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991497,
+      "status": "candidate",
+      "text": "comical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comics",
+      "sense_id": "comics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comics",
+  "observation_id": "bae520069c3a9ed0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_text": "comics",
+  "source_context_snippet": "[![Discord](https://img.shields.io/discord/1437608126122557450?color=7289da&logo=discord&logoColor=white&label=Discord)](https://discord.gg/AU5pjjSQBw)",
+  "source_file": null,
+  "source_repo": "Gnathonic/mokuro-reader",
+  "source_repo_description": "A mokuro reader written in svelte"
+}

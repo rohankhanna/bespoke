@@ -1,0 +1,296 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum-vcs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-vcs.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-vcs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jwodder/versioningit",
+      "target": "pypa/build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jwodder/versioningit",
+      "target": "pypa/setuptools_scm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jwodder/versioningit",
+      "target": "habnabit/vcversioner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimum-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimum-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "Test Against Minimum VCS Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "Test with No VCSes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwodder/versioningit",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "available-on-pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "hatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "mercurial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "setuptools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwodder/versioningit",
+      "target": "versioningit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:32.120061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7828
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3727
+    },
+    {
+      "path": ".github/workflows/minimum-vcs.yml",
+      "size": 795
+    },
+    {
+      "path": ".github/workflows/no-vcs.yml",
+      "size": 899
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Versioning It with your Version In Git",
+    "fork": false,
+    "full_name": "jwodder/versioningit",
+    "html_url": "https://github.com/jwodder/versioningit",
+    "language": "Python",
+    "pushed_at": "2026-04-30T23:22:59Z",
+    "stargazers_count": 108,
+    "topics": [
+      "available-on-pypi",
+      "git",
+      "hatch",
+      "mercurial",
+      "packaging",
+      "python",
+      "setuptools",
+      "vcs",
+      "version",
+      "versioningit"
+    ],
+    "updated_at": "2026-05-19T08:54:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "habnabit/vcversioner",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/build",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/setuptools_scm",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Against Minimum VCS Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimum-vcs.yml",
+      "term": "Test Against Minimum VCS Versions"
+    },
+    {
+      "context_snippet": "Test with No VCSes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-vcs.yml",
+      "term": "Test with No VCSes"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "available-on-pypi"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hatch"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mercurial"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "setuptools"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version"
+    },
+    {
+      "context_snippet": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioningit"
+    }
+  ]
+}

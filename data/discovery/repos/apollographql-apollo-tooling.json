@@ -241,6 +241,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apollographql/apollo-tooling",
+      "target": "someuser/someplugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-tooling",
       "target": "apollographql/react-apollo-scalajs",
       "target_type": "repository"
     },
@@ -609,7 +616,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T12:06:20.009988+00:00",
+  "fetched_at": "2026-05-25T19:45:33.037783+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -633,7 +640,7 @@
     "full_name": "apollographql/apollo-tooling",
     "html_url": "https://github.com/apollographql/apollo-tooling",
     "language": "TypeScript",
-    "pushed_at": "2026-05-21T14:08:21Z",
+    "pushed_at": "2026-05-25T13:14:42Z",
     "stargazers_count": 3041,
     "topics": [
       "code-generation",
@@ -648,6 +655,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "apollographql/react-apollo-scalajs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "someuser/someplugin",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "kartoffel0/memo2anki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "japanese-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "kindle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Mokuro2Pdf",
+      "target": "manga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:06:49.306443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create pdf files with selectable text from Mokuro's manga html overlay",
+    "fork": false,
+    "full_name": "Kartoffel0/Mokuro2Pdf",
+    "html_url": "https://github.com/Kartoffel0/Mokuro2Pdf",
+    "language": "Ruby",
+    "pushed_at": "2023-11-13T01:56:32Z",
+    "stargazers_count": 56,
+    "topics": [
+      "japanese",
+      "japanese-learning",
+      "kindle",
+      "manga"
+    ],
+    "updated_at": "2026-02-15T17:24:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kartoffel0/memo2anki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese-learning"
+    },
+    {
+      "context_snippet": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kindle"
+    },
+    {
+      "context_snippet": "Create pdf files with selectable text from [Mokuro](https://github.com/kha-white/mokuro)'s html overlay",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    }
+  ]
+}

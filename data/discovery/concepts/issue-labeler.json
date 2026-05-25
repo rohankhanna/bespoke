@@ -242,6 +242,18 @@
       "source_repo": "cosmos/rosetta",
       "status": "candidate-context",
       "text": "\"Issue Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "A mod to make and play Terraria mods. Supports Terraria 1.4 (and earlier) installations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
+      "status": "candidate-context",
+      "text": "\"Issue Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -362,6 +374,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/rosetta",
+      "status": "candidate",
+      "text": "\"Issue Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tModLoader/tModLoader",
       "status": "candidate",
       "text": "\"Issue Labeler\""
     }
@@ -587,11 +605,17 @@
       "observed_at": "2026-05-07T07:09:11.945528+00:00",
       "source_file": ".github/workflows/issue_labeler.yml",
       "source_repo": "cosmos/rosetta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T18:41:09.248128+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tModLoader/tModLoader"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T07:09:11.945528+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "@noble/ed25519",
   "first_seen_at": "2026-05-07T00:37:24.413591+00:00",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

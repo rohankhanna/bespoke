@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mo10/MuseDashModLoader",
+      "target": "neightools/unitydoorstop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mo10/MuseDashModLoader",
+      "target": "pardeike/harmony",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T20:07:23.324503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Muse Dash Mod Loader",
+    "fork": false,
+    "full_name": "mo10/MuseDashModLoader",
+    "html_url": "https://github.com/mo10/MuseDashModLoader",
+    "language": "C",
+    "pushed_at": "2021-12-20T12:39:00Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-05-04T16:04:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neightools/unitydoorstop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pardeike/harmony",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
