@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Read Japanese manga inside browser with selectable text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Read Japanese manga with selectable text inside a browser."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Read Japanese manga with selectable text inside a browser."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19953550,
+      "status": "candidate",
+      "text": "mana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19918550,
+      "status": "candidate",
+      "text": "manna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907264,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892664,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019822,
+      "status": "candidate",
+      "text": "animanga"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manga",
+      "sense_id": "manga#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manga",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manga",
+  "observation_id": "9e0e1292117ca4a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_text": "manga",
+  "source_context_snippet": "Read Japanese manga with selectable text inside a browser.",
+  "source_file": null,
+  "source_repo": "kha-white/mokuro",
+  "source_repo_description": "Read Japanese manga inside browser with selectable text."
+}

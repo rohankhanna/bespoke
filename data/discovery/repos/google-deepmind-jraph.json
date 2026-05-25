@@ -76,7 +76,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T10:56:48.259347+00:00",
+  "fetched_at": "2026-05-25T13:36:35.635821+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,14 +101,14 @@
     "html_url": "https://github.com/google-deepmind/jraph",
     "language": "Python",
     "pushed_at": "2024-03-18T13:56:39Z",
-    "stargazers_count": 1470,
+    "stargazers_count": 1471,
     "topics": [
       "deep-learning",
       "graph-neural-networks",
       "jax",
       "machine-learning"
     ],
-    "updated_at": "2026-05-10T08:53:09Z"
+    "updated_at": "2026-05-25T10:56:48Z"
   },
   "repo_links": [
     {

@@ -67,6 +67,18 @@
       "source_repo": "KUR-creative/SickZil-Machine",
       "status": "candidate-context",
       "text": "SickZil-Machine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kha-white/mokuro",
+      "status": "candidate-context",
+      "text": "Read Japanese manga inside browser with selectable text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/mokuro",
+      "status": "candidate-context",
+      "text": "Read Japanese manga with selectable text inside a browser."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "KUR-creative/SickZil-Machine",
       "status": "candidate",
       "text": "SickZil-Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/mokuro",
+      "status": "candidate",
+      "text": "Read Japanese manga with selectable text inside a browser."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "KUR-creative/SickZil-Machine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": null,
+      "source_repo": "kha-white/mokuro"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "component": "aurelien-baudet/workflow-dispatch@3133c5d135c7dbe4be4f9793872b6ef331b53bc7",
+  "first_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-prerelease-on-tag.yml",
+      "source_repo": "yomidevs/yomitan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/delay.yml",
+      "source_repo": "yomidevs/yomitan"
+    }
+  ]
+}

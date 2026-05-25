@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-25T13:25:07.653306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 1480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Randomized Correspondence Algorithm for Structural Image Editing",
+    "fork": false,
+    "full_name": "younesse-cv/PatchMatch",
+    "html_url": "https://github.com/younesse-cv/PatchMatch",
+    "language": "C",
+    "pushed_at": "2025-05-07T07:55:12Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-04-19T20:55:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

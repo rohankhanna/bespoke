@@ -3372,6 +3372,9 @@
   "animtion": [
     "animtion"
   ],
+  "anki": [
+    "anki"
+  ],
   "ann benchmarks": [
     "ann-benchmarks"
   ],
@@ -6107,6 +6110,12 @@
   ],
   "auto-approve machine prs": [
     "auto-approve-machine-prs"
+  ],
+  "auto-approve safe prs": [
+    "auto-approve-safe-prs"
+  ],
+  "auto-approve safe prs (workflow-run)": [
+    "auto-approve-safe-prs-workflow-run"
   ],
   "auto-approve validated submissions": [
     "auto-approve-validated-submissions"
@@ -10303,6 +10312,9 @@
   "broken link check (full)": [
     "broken-link-check-full"
   ],
+  "broken link checker": [
+    "broken-link-checker"
+  ],
   "broken links": [
     "broken-links"
   ],
@@ -12219,6 +12231,9 @@
   ],
   "build docker base images": [
     "build-docker-base-images"
+  ],
+  "build docker containers": [
+    "build-docker-containers"
   ],
   "build docker edge images": [
     "build-docker-edge-images"
@@ -22871,6 +22886,9 @@
   "comics": [
     "comics"
   ],
+  "comics-reader": [
+    "comics-reader"
+  ],
   "comirec": [
     "comirec"
   ],
@@ -25882,6 +25900,9 @@
   ],
   "create pre-release": [
     "create-pre-release"
+  ],
+  "create prerelease on tag": [
+    "create-prerelease-on-tag"
   ],
   "create promptflow release branch": [
     "create-promptflow-release-branch"
@@ -28955,6 +28976,9 @@
   "delaunay-triangulation": [
     "delaunay-triangulation"
   ],
+  "delay": [
+    "delay"
+  ],
   "delay-differential-equations": [
     "delay-differential-equations"
   ],
@@ -30805,6 +30829,9 @@
   ],
   "dictation": [
     "dictation"
+  ],
+  "dictionaries": [
+    "dictionaries"
   ],
   "dictionary": [
     "dictionary"
@@ -48468,6 +48495,9 @@
   "issue add inactive": [
     "issue-add-inactive"
   ],
+  "issue agent": [
+    "issue-agent"
+  ],
   "issue ai inference": [
     "issue-ai-inference"
   ],
@@ -48896,6 +48926,12 @@
   ],
   "japanese": [
     "japanese"
+  ],
+  "japanese-language": [
+    "japanese-language"
+  ],
+  "japanese-study": [
+    "japanese-study"
   ],
   "japanese-tts": [
     "japanese-tts"
@@ -55802,6 +55838,9 @@
   "manga-ocr": [
     "manga-ocr"
   ],
+  "manga-reader": [
+    "manga-reader"
+  ],
   "manga-translation": [
     "manga-translation"
   ],
@@ -58853,6 +58892,9 @@
   ],
   "mojo": [
     "mojo"
+  ],
+  "mokuro": [
+    "mokuro"
   ],
   "mold": [
     "mold"
@@ -72707,6 +72749,9 @@
   ],
   "pyqt5": [
     "pyqt5"
+  ],
+  "pyqt5-gui": [
+    "pyqt5-gui"
   ],
   "pyqt6": [
     "pyqt6"
@@ -101006,6 +101051,12 @@
   ],
   "yolox": [
     "yolox"
+  ],
+  "yomichan": [
+    "yomichan"
+  ],
+  "yomitan": [
+    "yomitan"
   ],
   "yosys": [
     "yosys"

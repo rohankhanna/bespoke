@@ -120,7 +120,7 @@
   "normalized_form": "periodic",
   "observation_id": "133cf97166bcdb34",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T07:45:58.058620+00:00",
+  "observed_at": "2026-05-25T13:24:13.030254+00:00",
   "observed_text": "Periodic",
   "source_context_snippet": "Periodic",
   "source_file": ".github/workflows/periodic.yml",

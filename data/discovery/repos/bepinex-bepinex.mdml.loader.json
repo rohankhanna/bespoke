@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx.MDML.Loader",
+      "target": "mo10/musedashmodloader",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T13:25:19.649607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MuseDash ModLoader loader plugin for BepInEx",
+    "fork": false,
+    "full_name": "BepInEx/BepInEx.MDML.Loader",
+    "html_url": "https://github.com/BepInEx/BepInEx.MDML.Loader",
+    "language": "C#",
+    "pushed_at": "2021-07-26T11:58:44Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-07-29T09:01:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mo10/musedashmodloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

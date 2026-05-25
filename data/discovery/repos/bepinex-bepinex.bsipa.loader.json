@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx.BSIPA.Loader",
+      "target": "bepinex/ipaloaderx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T13:25:18.705475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BepInEx loader for BSIPA plugins",
+    "fork": false,
+    "full_name": "BepInEx/BepInEx.BSIPA.Loader",
+    "html_url": "https://github.com/BepInEx/BepInEx.BSIPA.Loader",
+    "language": "C#",
+    "pushed_at": "2022-12-08T10:31:11Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-09-08T23:15:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepinex/ipaloaderx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -260,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T07:49:44.307836+00:00",
+  "fetched_at": "2026-05-25T13:31:45.432637+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -313,7 +313,7 @@
     "html_url": "https://github.com/fastapi/full-stack-fastapi-template",
     "language": "TypeScript",
     "pushed_at": "2026-05-23T10:12:44Z",
-    "stargazers_count": 43318,
+    "stargazers_count": 43325,
     "topics": [
       "backend",
       "chakra-ui",
@@ -335,7 +335,7 @@
       "traefik",
       "typescript"
     ],
-    "updated_at": "2026-05-25T07:39:19Z"
+    "updated_at": "2026-05-25T13:31:16Z"
   },
   "repo_links": [],
   "terms": [

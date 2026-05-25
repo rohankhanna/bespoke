@@ -1849,11 +1849,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": ".github/workflows/nightly.yaml",
       "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": ".github/workflows/building_nightly.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
   "lexical_providers": [
     "datamuse"
   ],

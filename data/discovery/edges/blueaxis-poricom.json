@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "sirfz/tesserocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "bluaxees/cloe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "kha-white/mokuro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "bluaxees/poricom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom",
+      "target": "manga-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom",
+      "target": "manga-reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom",
+      "target": "pyqt5-gui",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-25T13:24:13.030254+00:00",
+  "source_repo": "blueaxis/Poricom"
+}

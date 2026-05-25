@@ -19,6 +19,18 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate-context",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "Pop-up dictionary browser extension for language learning. Successor to Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate",
+      "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "microsoft/ailab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": null,
+      "source_repo": "yomidevs/yomitan"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
   "lexical_providers": [
     "datamuse"
   ],

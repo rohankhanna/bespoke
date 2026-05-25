@@ -295,6 +295,18 @@
       "source_repo": "obsidianmd/obsidian-clipper",
       "status": "candidate-context",
       "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "Pop-up dictionary browser extension for language learning. Successor to Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "obsidianmd/obsidian-clipper",
       "status": "candidate",
       "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate",
+      "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1834,11 +1852,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": null,
+      "source_repo": "yomidevs/yomitan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
   "lexical_providers": [
     "datamuse"
   ],

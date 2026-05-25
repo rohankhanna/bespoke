@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Broken Link Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "Pop-up dictionary browser extension for language learning. Successor to Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "Broken Link Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate",
+      "text": "Broken Link Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18425,
+      "status": "candidate",
+      "text": "tracer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18316,
+      "status": "candidate",
+      "text": "plumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18273,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18273,
+      "status": "candidate",
+      "text": "nick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18273,
+      "status": "candidate",
+      "text": "stop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Broken Link Checker",
+  "concept_id": "broken-link-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "yomidevs/yomitan"
+    }
+  ],
+  "first_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Broken Link Checker",
+      "sense_id": "broken-link-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "manga-reader"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blueaxis/Poricom",
+      "status": "candidate-context",
+      "text": "Optical character recognition in manga images. Manga OCR desktop application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blueaxis/Poricom",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kha-white/mokuro",
+      "status": "candidate-context",
+      "text": "Read Japanese manga inside browser with selectable text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/mokuro",
+      "status": "candidate-context",
+      "text": "Read Japanese manga with selectable text inside a browser."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blueaxis/Poricom",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/mokuro",
+      "status": "candidate",
+      "text": "Read Japanese manga with selectable text inside a browser."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "manga-reader",
+  "concept_id": "manga-reader",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": null,
+      "source_repo": "kha-white/mokuro"
+    }
+  ],
+  "first_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manga-reader",
+      "sense_id": "manga-reader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

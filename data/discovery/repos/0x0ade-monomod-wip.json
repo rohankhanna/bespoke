@@ -1,0 +1,715 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "fkirc/skip-duplicate-actions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "guibranco/github-file-reader-action-v2@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "guibranco/github-file-reader-action-v2@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "guibranco/github-file-reader-action-v2@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "guibranco/github-file-reader-action-v2@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@533307d1c90c37993c8ef1397388bc9783e7b87c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml"
+    },
+    {
+      "component": "tecolicom/actions-use-homebrew-tools@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tecolicom/actions-use-homebrew-tools@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "blushiemagic/tmodloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "0x0ade/terrariahooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "ceiridge/tabs-multiplayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "0x0ade/fezmod-legacy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Build Docker containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "guibranco/github-file-reader-action-v2@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Issue Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@533307d1c90c37993c8ef1397388bc9783e7b87c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Make Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "tecolicom/actions-use-homebrew-tools@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T13:25:15.036622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4911
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3639
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6310
+    },
+    {
+      "path": ".github/workflows/containers.yml",
+      "size": 1641
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2920
+    },
+    {
+      "path": ".github/workflows/issue_agent.yml",
+      "size": 4559
+    },
+    {
+      "path": ".github/workflows/make_release.yml",
+      "size": 7600
+    },
+    {
+      "path": ".github/workflows/run-mono-tests.ps1",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/run-with-dumps.ps1",
+      "size": 2061
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 7238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "reorganize",
+    "description": "You're probably looking for the main MonoMod repo. GitHub URL redirects broke.",
+    "fork": true,
+    "full_name": "0x0ade/MonoMod-wip",
+    "html_url": "https://github.com/0x0ade/MonoMod-wip",
+    "language": null,
+    "pushed_at": "2025-11-18T01:41:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-29T14:30:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x0ade/fezmod-legacy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x0ade/terrariahooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blushiemagic/tmodloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ceiridge/tabs-multiplayer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Build Docker containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containers.yml",
+      "term": "Build Docker containers"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Issue Agent",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "term": "Issue Agent"
+    },
+    {
+      "context_snippet": "Make Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make_release.yml",
+      "term": "Make Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

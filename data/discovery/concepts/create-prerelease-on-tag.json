@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Create prerelease on tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "Pop-up dictionary browser extension for language learning. Successor to Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate-context",
+      "text": "Create prerelease on tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yomidevs/yomitan",
+      "status": "candidate",
+      "text": "Create prerelease on tag"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Create prerelease on tag",
+  "concept_id": "create-prerelease-on-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": ".github/workflows/create-prerelease-on-tag.yml",
+      "source_repo": "yomidevs/yomitan"
+    }
+  ],
+  "first_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create prerelease on tag",
+      "sense_id": "create-prerelease-on-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pop-up dictionary browser extension for language learning. Successor to Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "delay"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "delay"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029654,
+      "status": "candidate",
+      "text": "postponement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028749,
+      "status": "candidate",
+      "text": "wait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028612,
+      "status": "candidate",
+      "text": "hold up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028398,
+      "status": "candidate",
+      "text": "time lag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028173,
+      "status": "candidate",
+      "text": "detain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "delay",
+      "sense_id": "delay#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34075,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10055,
+      "status": "candidate",
+      "text": "stay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9036,
+      "status": "candidate",
+      "text": "detain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6042,
+      "status": "candidate",
+      "text": "detention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6031,
+      "status": "candidate",
+      "text": "hold up"
+    }
+  ],
+  "concept_id": "delay",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delay",
+  "observation_id": "c590c4843d52cbf4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_text": "delay",
+  "source_context_snippet": "delay",
+  "source_file": ".github/workflows/delay.yml",
+  "source_repo": "yomidevs/yomitan",
+  "source_repo_description": "Pop-up dictionary browser extension for language learning. Successor to Yomichan."
+}

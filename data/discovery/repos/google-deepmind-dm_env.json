@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T10:11:29.861491+00:00",
+  "fetched_at": "2026-05-25T13:27:20.127176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,7 +51,7 @@
     "html_url": "https://github.com/google-deepmind/dm_env",
     "language": "Python",
     "pushed_at": "2022-12-23T10:49:57Z",
-    "stargazers_count": 400,
+    "stargazers_count": 401,
     "topics": [
       "api",
       "deep-learning",
@@ -60,7 +60,7 @@
       "python",
       "reinforcement-learning"
     ],
-    "updated_at": "2026-05-18T20:37:38Z"
+    "updated_at": "2026-05-25T10:56:54Z"
   },
   "repo_links": [],
   "terms": [

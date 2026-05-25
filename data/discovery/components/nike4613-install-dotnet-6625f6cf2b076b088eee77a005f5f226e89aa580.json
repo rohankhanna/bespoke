@@ -1,0 +1,37 @@
+{
+  "component": "nike4613/install-dotnet@6625f6cf2b076b088eee77a005f5f226e89aa580",
+  "first_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_agent.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make_release.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    }
+  ]
+}

@@ -349,7 +349,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T10:11:13.424511+00:00",
+  "fetched_at": "2026-05-25T13:26:59.715802+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,8 +401,8 @@
     "full_name": "weaviate/weaviate",
     "html_url": "https://github.com/weaviate/weaviate",
     "language": "Go",
-    "pushed_at": "2026-05-25T10:05:37Z",
-    "stargazers_count": 16236,
+    "pushed_at": "2026-05-25T13:14:53Z",
+    "stargazers_count": 16237,
     "topics": [
       "approximate-nearest-neighbor-search",
       "generative-search",
@@ -425,7 +425,7 @@
       "vectors",
       "weaviate"
     ],
-    "updated_at": "2026-05-25T09:36:10Z"
+    "updated_at": "2026-05-25T12:05:37Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "sirfz/tesserocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "bluaxees/cloe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "kha-white/mokuro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blueaxis/Poricom",
+      "target": "bluaxees/poricom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom",
+      "target": "manga-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom",
+      "target": "manga-reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blueaxis/Poricom",
+      "target": "pyqt5-gui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T13:24:51.659454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Optical character recognition in manga images. Manga OCR desktop application",
+    "fork": false,
+    "full_name": "blueaxis/Poricom",
+    "html_url": "https://github.com/blueaxis/Poricom",
+    "language": "Python",
+    "pushed_at": "2023-11-23T01:59:17Z",
+    "stargazers_count": 426,
+    "topics": [
+      "manga-ocr",
+      "manga-reader",
+      "ocr",
+      "pyqt5-gui"
+    ],
+    "updated_at": "2026-05-11T01:06:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluaxees/cloe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluaxees/poricom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kha-white/mokuro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sirfz/tesserocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga-ocr"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga-reader"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5-gui"
+    }
+  ]
+}

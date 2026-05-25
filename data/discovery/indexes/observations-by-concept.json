@@ -4854,6 +4854,9 @@
   "animtion": [
     "1b29fe41d36c0ec8"
   ],
+  "anki": [
+    "435c65c8014018c6"
+  ],
   "ann-benchmarks": [
     "cc152baff9f081e1"
   ],
@@ -8703,6 +8706,12 @@
   ],
   "auto-approve-release-prs": [
     "2f1ebce3395b4b62"
+  ],
+  "auto-approve-safe-prs": [
+    "f5550a17f5d1203b"
+  ],
+  "auto-approve-safe-prs-workflow-run": [
+    "b09f0a75d3d2b441"
   ],
   "auto-approve-validated-submissions": [
     "9a89cb7791adc346"
@@ -15779,6 +15788,9 @@
   "broken-link-check-full": [
     "06f848470328dae6"
   ],
+  "broken-link-checker": [
+    "98201d19634b72d1"
+  ],
   "broken-link-finder": [
     "510d032c110c1a12"
   ],
@@ -16857,6 +16869,7 @@
     "9a33e43dc366b00b",
     "9ab1e32d1302dbbc",
     "9ace857a2030fb1d",
+    "9b2fb01a35ca2b22",
     "9bbb646150c45322",
     "9cd59a9aaeae7b7b",
     "9cdad679971b96ea",
@@ -18333,6 +18346,7 @@
     "9331378aceb6f18d",
     "9702fea3014b4636",
     "97aaf25abc9855f2",
+    "98f8df73890e1d14",
     "99b6d2755df5ae3f",
     "9d4442f80db08d5e",
     "9f8d229103bd8a0a",
@@ -19476,6 +19490,9 @@
   ],
   "build-docker-cloud-images": [
     "9049b8118aaa8d08"
+  ],
+  "build-docker-containers": [
+    "dfcaef64a2e58a87"
   ],
   "build-docker-edge-images": [
     "254ef1a6224ba286"
@@ -28159,6 +28176,7 @@
     "b57b0383509a7fcd",
     "b7d3d640c0e3cd64",
     "bbf4f9a05106e27d",
+    "bcd1321346fc2f06",
     "c1dacc5d237554d2",
     "d018f5f23b8c6fe1",
     "d0ad710818007763",
@@ -28210,6 +28228,7 @@
     "c4a820e5e013d226",
     "c8b291bd182a3d93",
     "cfdc990336071369",
+    "d2927334d72788b2",
     "ea9df7158bcf6668",
     "f43940c5c3224e2f"
   ],
@@ -34978,6 +34997,7 @@
     "3be6e21851a38f2a",
     "3c0abe70282a29a5",
     "3c18dd189f957ad2",
+    "3c8d6f52b43894b1",
     "3ca9923e2994e380",
     "3cbad0b9adf3c1ec",
     "3cccf95628162047",
@@ -36603,7 +36623,11 @@
     "13ad06f38cf498bc",
     "2a7db58b26f26f2f",
     "945be11e3cf4e94d",
-    "c09a425057b086e7"
+    "c09a425057b086e7",
+    "c3f30fa686cb6fee"
+  ],
+  "comics-reader": [
+    "cec394b017ee7d9a"
   ],
   "comirec": [
     "da1b45184eccc0f0"
@@ -42384,6 +42408,9 @@
   ],
   "create-pre-release": [
     "8de935254ed8737a"
+  ],
+  "create-prerelease-on-tag": [
+    "d121b2516b144b5b"
   ],
   "create-preview-release": [
     "230dfd7bff2042a8",
@@ -48423,6 +48450,9 @@
   "delaunay-triangulation": [
     "00c9d43c5a02e9f0"
   ],
+  "delay": [
+    "c590c4843d52cbf4"
+  ],
   "delay-differential-equations": [
     "012c2f68fd016b13"
   ],
@@ -49986,6 +50016,7 @@
     "ca21d243e68d8fb1"
   ],
   "deploy-preview": [
+    "4ab9b177b9a4686b",
     "cb08f9b8b499322d",
     "f15ff01f69f29ad7"
   ],
@@ -49998,7 +50029,8 @@
   "deploy-production": [
     "092d6f552e254dbf",
     "26140a24c7668ed4",
-    "8552332f016892c3"
+    "8552332f016892c3",
+    "94706b80d91b62da"
   ],
   "deploy-production-dependencies-and-code": [
     "5f2cb51103480203"
@@ -51681,7 +51713,11 @@
   "dictation": [
     "4db76d08427de58f"
   ],
+  "dictionaries": [
+    "e73306089fa1d66d"
+  ],
   "dictionary": [
+    "676d7bcb1aa62a07",
     "6cf682c80d29805a",
     "a761d4e46c1161f4",
     "aef90d4be3c5f204"
@@ -54512,6 +54548,7 @@
     "b22099885294da4a",
     "b266420c42ac4dbd",
     "b3267a657a704a68",
+    "b44158b6e2f3b8b1",
     "b50afcffd9907724",
     "b50d858e41073fc5",
     "b590ceff4b3006ac",
@@ -61113,6 +61150,7 @@
     "ab1d325ead4d5eff",
     "b0bfd41e6322cf86",
     "c19e401a9d027959",
+    "ccf1e1eebf436360",
     "d4dbc6783af9951f",
     "d62e929263f42475",
     "ef5af068a2430b26",
@@ -63208,6 +63246,7 @@
     "1e1ae5a14307e86a",
     "25f658ff8347dbc3",
     "2c2cebebe74e443c",
+    "332759859167f539",
     "33efd96dfa66ec2e",
     "3a96045a57665677",
     "3c81dc2baa40287b",
@@ -77158,6 +77197,7 @@
     "8a3178dcb58e79f3",
     "976303e3133ffd9b",
     "a2c47451793f5cae",
+    "b135e51c55fb36d7",
     "c0daed3b28a54508",
     "ded3a23ba0e5881b",
     "e4f3ea232b6570c9",
@@ -81888,6 +81928,9 @@
   "issue-add-inactive": [
     "bedb8c8da27e85b0"
   ],
+  "issue-agent": [
+    "01eef81849352130"
+  ],
   "issue-ai-inference": [
     "fe62615eb2a6d64d"
   ],
@@ -82541,6 +82584,7 @@
   ],
   "japanese": [
     "0374994e80f1093b",
+    "09272b8ad511eaad",
     "2d51fada3d454eef",
     "36d3668831f8eff9",
     "5699518722a13b3f",
@@ -82550,7 +82594,14 @@
     "c379bcdb546e6de8",
     "c639ffcdb5f00ab2",
     "cb9495900c4b51b6",
+    "d7150a948cc57066",
     "ef1ef39d4febfeba"
+  ],
+  "japanese-language": [
+    "38218d721a8667bb"
+  ],
+  "japanese-study": [
+    "c3ec40ab0c2bce51"
   ],
   "japanese-tts": [
     "c5dfedc3d28c7869"
@@ -87217,6 +87268,7 @@
     "813072211972ebbd",
     "89b8985a7f275a00",
     "8c1c80dfe32239ae",
+    "8caa607a1f6e74d2",
     "8fbc09d2c0aece9e",
     "900a7c24c6191a35",
     "9131b346f22ddc68",
@@ -87297,6 +87349,7 @@
     "3b7956c10fcaa1f0"
   ],
   "language-learning": [
+    "2fc3b4e9fc2c63fe",
     "59367b511cf63ec5"
   ],
   "language-model": [
@@ -90511,7 +90564,8 @@
     "59216fd915fffd31",
     "6c7d2fb79ba60ac5",
     "a5a4950e6dde9e2c",
-    "a7eb3c2bea4d402b"
+    "a7eb3c2bea4d402b",
+    "d6cb8f484f651fe5"
   ],
   "lint-github-workflows": [
     "afe455da22b6a088"
@@ -95651,7 +95705,8 @@
     "59b95f3e8ea1c713",
     "74e6e23bd744fbb9",
     "84f7f2f1bb2d2712",
-    "e59c7ae7710053fb"
+    "e59c7ae7710053fb",
+    "f4c758d131db5639"
   ],
   "make-run-tests": [
     "fe84f46252eb54df"
@@ -95845,11 +95900,17 @@
     "27b03a625dcd67c6",
     "3974c21d421fa165",
     "48052dc9fbd05158",
+    "9e0e1292117ca4a7",
     "af1d34e5c33bbc7b",
     "da20dee8cab7d8f7"
   ],
   "manga-ocr": [
+    "de16f179b2e8367f",
     "f45888ac33384325"
+  ],
+  "manga-reader": [
+    "326a3df9e59b2039",
+    "eac4ff0ffa46e681"
   ],
   "manga-translation": [
     "68e3141bf728f460"
@@ -100635,6 +100696,9 @@
   ],
   "mojo": [
     "3cccad40b223f836"
+  ],
+  "mokuro": [
+    "9dc89862b64ba497"
   ],
   "mold": [
     "962a7963584aeb5b"
@@ -116289,10 +116353,12 @@
     "e311b1567dfc48f9"
   ],
   "poetry": [
+    "441349be37913c79",
     "561c7695b0071c64",
     "62988a7c2de2df35",
     "6a404b2f87c392f7",
-    "d93ec42e5e6a996a"
+    "d93ec42e5e6a996a",
+    "fefb4eb11bc26655"
   ],
   "poetry-downstream-tests": [
     "c39764383b8bf4cd"
@@ -116303,7 +116369,8 @@
   ],
   "poetry-plugin": [
     "8039db1eb184dc82",
-    "d613d6b6937d615d"
+    "d613d6b6937d615d",
+    "fe5496ca8bfbc9d0"
   ],
   "poetry-tests": [
     "8deb24e8efa387fc",
@@ -122356,7 +122423,8 @@
     "6a60fcb4b7853815"
   ],
   "publish-package-to-pypi-and-testpypi": [
-    "3e781b54135a5d00"
+    "3e781b54135a5d00",
+    "46968a7c9c619152"
   ],
   "publish-packages": [
     "1eee95f7d072d528",
@@ -124558,6 +124626,9 @@
     "59b42d55924c07a5",
     "7b6efeef391ce201",
     "b39e6da023389fa3"
+  ],
+  "pyqt5-gui": [
+    "7c0bb6d176c3f951"
   ],
   "pyqt6": [
     "46780822b3f3029a",
@@ -130120,6 +130191,7 @@
     "726845d314fecd85",
     "728a6684835941b5",
     "72b253cb76ef188b",
+    "72bb3c011408cb34",
     "72c105af290a28a2",
     "72c25ad6da66effb",
     "72fc7235fa9d6d01",
@@ -136264,6 +136336,7 @@
     "0107aef81e90735f",
     "04e8f68c8966cd33",
     "06aa5fe4233fcaf8",
+    "0abeb07544af641b",
     "17fedf09492082f2",
     "23960e7ff74df33e",
     "30ff75d4bec17126",
@@ -154122,6 +154195,7 @@
     "70e4d009f240323b",
     "70efb6ded3cf62a0",
     "7115ba1792c9d400",
+    "71343aeca51f943d",
     "72cff94ef47df1cb",
     "72dcc91bf423729b",
     "731b49729533c959",
@@ -157378,6 +157452,7 @@
     "ff0eb784f6186cce",
     "ff1114a76580f815",
     "ff308e98df36a11a",
+    "ff6cc5b9d1862d35",
     "ff9762de4fe18b0f",
     "ffac512d52c491b5"
   ],
@@ -159678,6 +159753,7 @@
     "10d2d6c23de3e3c9",
     "228fc4e981a2054a",
     "263a3f058ac549be",
+    "27fb96145b3de242",
     "651ac204e427ba4a",
     "80fe232f2807d251",
     "e1d496cd1b43ea5d",
@@ -174513,6 +174589,12 @@
     "b9cc09b5caf04f13",
     "c580cc783e56c48c",
     "e15b077cbcaebd94"
+  ],
+  "yomichan": [
+    "38415ddf7e872f63"
+  ],
+  "yomitan": [
+    "666ebe8279fbb0bf"
   ],
   "yosys": [
     "2966a6766d4222e8",

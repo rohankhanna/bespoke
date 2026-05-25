@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Docker containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "status": "candidate-context",
+      "text": "You're probably looking for the main MonoMod repo. GitHub URL redirects broke."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "status": "candidate-context",
+      "text": "Build Docker containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x0ade/MonoMod-wip",
+      "status": "candidate",
+      "text": "Build Docker containers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23136,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16065,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10436,
+      "status": "candidate",
+      "text": "bricklayer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Docker containers",
+  "concept_id": "build-docker-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T13:24:13.030254+00:00",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "0x0ade/MonoMod-wip"
+    }
+  ],
+  "first_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Docker containers",
+      "sense_id": "build-docker-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

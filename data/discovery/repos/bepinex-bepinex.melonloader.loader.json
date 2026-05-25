@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx.MelonLoader.Loader",
+      "target": "bepinex/mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx.MelonLoader.Loader",
+      "target": "lavagang/deobfuscation-maps",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T13:25:21.110206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BepInEx loader for MelonLoader mods and plugins",
+    "fork": false,
+    "full_name": "BepInEx/BepInEx.MelonLoader.Loader",
+    "html_url": "https://github.com/BepInEx/BepInEx.MelonLoader.Loader",
+    "language": "C#",
+    "pushed_at": "2023-11-21T14:47:52Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-05-24T18:33:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepinex/mono",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lavagang/deobfuscation-maps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
