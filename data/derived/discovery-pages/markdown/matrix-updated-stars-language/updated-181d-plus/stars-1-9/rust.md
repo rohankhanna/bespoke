@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 130
-- components: 322
-- concepts: 130
-- observations: 130
+- repos: 97
+- terms: 131
+- components: 326
+- concepts: 131
+- observations: 131
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [xazukx/ts-rs](https://github.com/xazukx/ts-rs) | 1 | 2025-11-26T08:27:17Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [azdavis/language-util](https://github.com/azdavis/language-util) | 5 | 2025-11-10T00:40:29Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [EspressoSystems/surf-disco](https://github.com/EspressoSystems/surf-disco) | 2 | 2025-10-27T17:23:20Z | Rust | CLI | 2 | 8 | 2 | 2 |
 | [lnx-search/lnx-vfs](https://github.com/lnx-search/lnx-vfs) | 1 | 2025-10-22T21:10:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -196,6 +197,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/casbin-rust-actix-postgresql-simple](https://github.com/apache/casbin-rust-actix-postgresql-simple) | 2 | 2022-08-27T01:53:34Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [datafuse-extras/sled](https://github.com/datafuse-extras/sled) | 2 | 2022-08-12T11:04:11Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [JackLiar/rust-llhttp](https://github.com/JackLiar/rust-llhttp) | 2 | 2021-08-21T08:54:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [xazukx/ts-rs](https://github.com/xazukx/ts-rs) | 1 | 2025-11-26T08:27:17Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [lnx-search/lnx-vfs](https://github.com/lnx-search/lnx-vfs) | 1 | 2025-10-22T21:10:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [g-plane/pretty_jinja](https://github.com/g-plane/pretty_jinja) | 1 | 2025-08-23T03:34:06Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [informalsystems/cosmwasm-ibc](https://github.com/informalsystems/cosmwasm-ibc) | 1 | 2025-08-18T13:30:41Z | Rust | CLI | 3 | 10 | 3 | 3 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55186,
-    "concepts": 35872,
-    "observations": 35980,
-    "repos": 6067,
-    "terms": 35758
+    "components": 55208,
+    "concepts": 35920,
+    "observations": 36028,
+    "repos": 6074,
+    "terms": 35812
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -510,6 +510,7 @@
     "artempyanykh/marksman",
     "ArthurHub/Android-Image-Cropper",
     "artifacthub/hub",
+    "Artikash/Textractor",
     "artisan-roaster-scope/artisan",
     "artsy/eidolon",
     "artsy/eigen",
@@ -745,6 +746,7 @@
     "bensadeh/circumflex",
     "bentoml/BentoML",
     "Beomi/KoAlpaca",
+    "BepInEx/BepInEx",
     "bepu/bepuphysics2",
     "berachain/polaris",
     "berstend/puppeteer-extra",
@@ -1884,6 +1886,7 @@
     "facebookresearch/XLM",
     "faceyspacey/react-universal-component",
     "faceyspacey/redux-first-router",
+    "fairygui/FairyGUI-unity",
     "falconry/falcon",
     "famiu/feline.nvim",
     "Fanghua-Yu/SUPIR",
@@ -2719,6 +2722,7 @@
     "intlify/vue-i18n",
     "invertase/melos",
     "invictus717/MetaTransformer",
+    "InWILL/Locale_Remulator",
     "iodide-project/iodide",
     "ionelmc/pytest-benchmark",
     "ioquake/ioq3",
@@ -3032,6 +3036,7 @@
     "kepano/obsidian-minimal",
     "keras-team/keras-contrib",
     "kevinhwang91/nvim-ufo",
+    "kha-white/manga-ocr",
     "KhronosGroup/glslang",
     "KhronosGroup/glTF",
     "KhronosGroup/glTF-Blender-IO",
@@ -3135,6 +3140,7 @@
     "kubernetes/test-infra",
     "kulshekhar/ts-jest",
     "KumarRobotics/msckf_vio",
+    "KUR-creative/SickZil-Machine",
     "kurrent-io/KurrentDB",
     "kurtmckee/feedparser",
     "kuzudb/kuzu",
@@ -5875,6 +5881,7 @@
     "wenet-e2e/speech-synthesis-paper",
     "wenet-e2e/wenet",
     "wenet-e2e/wespeaker",
+    "WenmuZhou/DBNet.pytorch",
     "WenmuZhou/PytorchOCR",
     "westes/flex",
     "whai362/PVT",

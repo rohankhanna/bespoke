@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 7,
-    "observations": 7,
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
     "repos": 1,
-    "terms": 7
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-21T12:29:26.648415+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
-    "nginx-le/nginx-le"
+    "git-friendly/git-friendly"
   ]
 }

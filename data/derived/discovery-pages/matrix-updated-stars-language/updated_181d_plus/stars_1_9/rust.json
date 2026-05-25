@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 96,
-    "terms": 130
+    "components": 326,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 97,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "adambiltcliffe/macroquad-jfa",
     "adamgreig/spi-flash-rs",
@@ -109,6 +109,7 @@
     "VollmondT/juice-rs",
     "walles/loadviz",
     "wezterm/xcb-imdkit-rs",
+    "xazukx/ts-rs",
     "yaahc/btparse"
   ]
 }

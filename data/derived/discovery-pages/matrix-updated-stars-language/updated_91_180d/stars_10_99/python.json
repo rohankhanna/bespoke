@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 216,
-    "observations": 217,
-    "repos": 100,
-    "terms": 225
+    "components": 208,
+    "concepts": 231,
+    "observations": 232,
+    "repos": 103,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
+    "abduznik/git-alchemist",
     "adhikasp/mcp-youtube",
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
@@ -52,12 +53,14 @@
     "fsspec/sshfs",
     "galaxyproject/tools-devteam",
     "google-deepmind/alphageometry2",
+    "googlefonts/lang",
     "HabanaAI/DeepSpeed",
     "haydn-jones/SOAP_JAX",
     "heimoshuiyu/whisper-fastapi",
     "HuajianUP/360Loc",
     "huggingface/image_gen_aux",
     "icppWorld/icgpt",
+    "imlrz/DeepResearch-Bench-II",
     "inducer/genpy",
     "InteractiveComputerGraphics/blender-sequence-loader",
     "InternScience/SciReason",

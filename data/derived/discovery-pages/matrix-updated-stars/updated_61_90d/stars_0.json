@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 203,
+    "components": 213,
     "concepts": 102,
     "observations": 104,
-    "repos": 62,
-    "terms": 102
+    "repos": 64,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
     "adipalko/hatraot",
+    "arckoor/botan-rs",
     "Bearer/homebrew-tap",
     "beurdouche/nss-gk-api",
     "bookcars/bookcars.github.io",
@@ -54,6 +55,7 @@
     "musicman3/cruder",
     "musicman3/r2-d2",
     "Nambers/ssrJSON-benchmark",
+    "nibir1/vaultsim",
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",

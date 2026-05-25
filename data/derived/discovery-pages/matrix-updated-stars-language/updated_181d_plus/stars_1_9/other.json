@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1107,
-    "concepts": 525,
-    "observations": 525,
-    "repos": 341,
-    "terms": 531
+    "components": 1119,
+    "concepts": 526,
+    "observations": 526,
+    "repos": 343,
+    "terms": 532
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -124,6 +124,7 @@
     "dantelmomsft/chat-with-your-data-java-lza-app-accelerator",
     "darcythomas/zxcvbn.net",
     "darky/pg-unused-index-tui",
+    "datachainlab/lcp-solidity",
     "david-bouyssie/mdbx4s",
     "Davidbrcz/tla-ts-mode",
     "deathbeam/difftool.nvim",
@@ -187,6 +188,7 @@
     "heshengtao/sap-ai-sheet",
     "hoelzro/term-drawille",
     "ilyachur/gtest-vim",
+    "infiniflow/resource",
     "innat/UniFormerV2",
     "inspire99/vavr-notebook",
     "invenia/AxisSets.jl",

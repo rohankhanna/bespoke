@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 68,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 32,
-    "terms": 110
+    "concepts": 120,
+    "observations": 120,
+    "repos": 33,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "alchaincyf/zhangxuefeng-skill",
@@ -24,6 +24,7 @@
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
+    "Efficient-ML/Awesome-Model-Quantization",
     "esbatmop/MNBVC",
     "FasterXML/jackson",
     "flathub/flathub",

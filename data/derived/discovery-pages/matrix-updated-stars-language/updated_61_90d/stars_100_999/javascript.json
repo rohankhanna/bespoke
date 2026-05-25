@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 133,
-    "observations": 134,
-    "repos": 29,
-    "terms": 132
+    "components": 369,
+    "concepts": 154,
+    "observations": 155,
+    "repos": 33,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "actions/deploy-pages",
     "AghayeCoder/tx-ui",
@@ -23,8 +23,10 @@
     "avwo/whistle-client",
     "cmake-js/cmake-js",
     "codota/tabnine-nvim",
+    "d3/d3-geo-polygon",
     "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
+    "Fil/d3-geo-voronoi",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
@@ -34,10 +36,12 @@
     "lemire/FastPriorityQueue.js",
     "mapbox/cheap-ruler",
     "microsoft/vscode-custom-data",
+    "mourner/flatqueue",
     "mourner/robust-predicates",
     "npm/abbrev-js",
     "npm/rfcs",
     "oblador/react-native-vector-image",
+    "protocolbuffers/protobuf-javascript",
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
     "TeamMoeAI/MoeSR",

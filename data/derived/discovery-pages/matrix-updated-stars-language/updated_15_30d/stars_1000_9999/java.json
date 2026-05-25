@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 466,
+    "components": 464,
     "concepts": 588,
     "observations": 588,
-    "repos": 53,
+    "repos": 52,
     "terms": 584
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
@@ -48,7 +48,6 @@
     "jline/jline3",
     "JodaOrg/joda-time",
     "junit-team/junit-examples",
-    "junit-team/junit4",
     "karatelabs/karate",
     "konsoletyper/teavm",
     "langgraph4j/langgraph4j",

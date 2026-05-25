@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 698,
-    "concepts": 1490,
-    "observations": 1492,
+    "concepts": 1487,
+    "observations": 1489,
     "repos": 847,
-    "terms": 1468
+    "terms": 1466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -533,6 +533,7 @@
     "KristianOellegaard/django-saml-service-provider",
     "KT-Yeh/mihomo",
     "kubeflow/xgboost-operator",
+    "kurikomoe/LunaTranslator",
     "kvablack/dlimp",
     "kvablack/LLaVA-server",
     "kwea123/Unity_live_caption",
@@ -836,7 +837,6 @@
     "yaohungt/Barlow-Twins-HSIC",
     "ye4241/midjourney-captcha-bot",
     "yeyupiaoling/PaddlePaddle-MobileFaceNets",
-    "yeyupiaoling/PaddlePaddle-MTCNN",
     "yifan123/reward-server",
     "ymoslem/MT-Evaluation",
     "ymoslem/MT-LM",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 199,
-    "observations": 200,
-    "repos": 21,
-    "terms": 198
+    "components": 123,
+    "concepts": 175,
+    "observations": 176,
+    "repos": 18,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
-    "aigc-apps/VideoX-Fun",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
-    "clearml/clearml",
-    "fla-org/flash-linear-attention",
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "google-deepmind/optax",
-    "harbor-framework/harbor",
     "intelligent-machine-learning/dlrover",
     "InternScience/GraphGen",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
-    "meta-pytorch/tnt",
+    "meta-pytorch/torchcodec",
+    "meta-pytorch/torchtune",
     "modelscope/FunClip",
     "nomadkaraoke/python-audio-separator",
     "rllm-org/rllm",

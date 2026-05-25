@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 4,
-    "terms": 29
+    "components": 73,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 8,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
+    "AI-Hypercomputer/maxdiffusion",
     "aristoteleo/PantheonOS",
-    "Comfy-Org/comfy-cli",
+    "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
-    "machinewrapped/llm-subtrans"
+    "machinewrapped/llm-subtrans",
+    "pyrtlsdr/pyrtlsdr",
+    "scverse/rapids-singlecell",
+    "zh-plus/openlrc"
   ]
 }

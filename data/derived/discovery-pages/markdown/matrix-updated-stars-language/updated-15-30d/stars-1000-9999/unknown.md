@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 85
+- repos: 11
+- terms: 75
 - components: 16
-- concepts: 85
-- observations: 85
+- concepts: 75
+- observations: 75
 
 ## Static behavior
 
@@ -37,7 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MicrosoftDocs/cpp-docs](https://github.com/MicrosoftDocs/cpp-docs) | 1595 | 2026-04-27T17:34:47Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ad-si/awesome-music-production](https://github.com/ad-si/awesome-music-production) | 1393 | 2026-04-27T16:13:02Z | Unknown | Service/API | 8 | 1 | 8 | 8 |
 | [logseq/awesome-logseq](https://github.com/logseq/awesome-logseq) | 2825 | 2026-04-27T12:19:40Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) | 2360 | 2026-04-25T11:45:19Z | Unknown | Model/data | 10 | 0 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -48,7 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yokoffing/NextDNS-Config](https://github.com/yokoffing/NextDNS-Config) | 2965 | 2026-05-01T21:37:17Z | Unknown | Docs/knowledge | 17 | 0 | 17 | 17 |
 | [logseq/awesome-logseq](https://github.com/logseq/awesome-logseq) | 2825 | 2026-04-27T12:19:40Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lxgw/LxgwNeoXiHei](https://github.com/lxgw/LxgwNeoXiHei) | 2456 | 2026-05-03T17:12:53Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [Efficient-ML/Awesome-Model-Quantization](https://github.com/Efficient-ML/Awesome-Model-Quantization) | 2360 | 2026-04-25T11:45:19Z | Unknown | Model/data | 10 | 0 | 10 | 10 |
 | [GyanD/codexffmpeg](https://github.com/GyanD/codexffmpeg) | 2197 | 2026-04-30T10:54:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat) | 1808 | 2026-05-03T10:32:24Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [MicrosoftDocs/cpp-docs](https://github.com/MicrosoftDocs/cpp-docs) | 1595 | 2026-04-27T17:34:47Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |

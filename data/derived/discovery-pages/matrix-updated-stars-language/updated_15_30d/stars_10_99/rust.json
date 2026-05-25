@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 335,
-    "concepts": 223,
-    "observations": 224,
-    "repos": 43,
-    "terms": 222
+    "components": 326,
+    "concepts": 222,
+    "observations": 223,
+    "repos": 42,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -43,7 +43,6 @@
     "matter-labs/zksync-crypto",
     "mdn/rari",
     "mrcjkb/vimcats",
-    "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",

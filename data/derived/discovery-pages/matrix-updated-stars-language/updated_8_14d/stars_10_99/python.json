@@ -3,7 +3,7 @@
     "components": 38,
     "concepts": 10,
     "observations": 10,
-    "repos": 5,
+    "repos": 4,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "apify/actor-templates",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "google-research/mseb",
-    "goombalab/raven",
     "version-fox/vfox-plugins"
   ]
 }

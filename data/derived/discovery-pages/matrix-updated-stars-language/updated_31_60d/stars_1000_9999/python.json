@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2228,
-    "concepts": 2615,
-    "observations": 2622,
-    "repos": 356,
-    "terms": 2614
+    "components": 2216,
+    "concepts": 2595,
+    "observations": 2602,
+    "repos": 353,
+    "terms": 2594
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -50,7 +50,6 @@
     "atong01/conditional-flow-matching",
     "audreyfeldroy/cookiecutter-pypackage",
     "authlib/authlib",
-    "aws-cloudformation/aws-cloudformation-templates",
     "aws-powertools/powertools-lambda-python",
     "aws/deep-learning-containers",
     "Azure/azure-cli",
@@ -167,7 +166,6 @@
     "InternLM/lmdeploy",
     "InternLM/Tutorial",
     "InternLM/xtuner",
-    "ionelmc/pytest-benchmark",
     "iver56/audiomentations",
     "jcrist/msgspec",
     "Jittor/jittor",
@@ -268,6 +266,7 @@
     "opendatalab/labelU",
     "OpenRLHF/OpenRLHF",
     "openvinotoolkit/nncf",
+    "OptimalScale/LMFlow",
     "PaddlePaddle/PaddleClas",
     "PaddlePaddle/PaddleX",
     "ParisNeo/lollms-webui",
@@ -315,7 +314,6 @@
     "RUC-NLPIR/ARPO",
     "RUC-NLPIR/DeepAgent",
     "RUC-NLPIR/FlashRAG",
-    "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
@@ -325,7 +323,6 @@
     "shenweichen/DeepMatch",
     "sierra-research/tau2-bench",
     "SirVer/ultisnips",
-    "snakers4/silero-vad",
     "sparckles/Robyn",
     "spyder-ide/qtpy",
     "ssitu/ComfyUI_UltimateSDUpscale",

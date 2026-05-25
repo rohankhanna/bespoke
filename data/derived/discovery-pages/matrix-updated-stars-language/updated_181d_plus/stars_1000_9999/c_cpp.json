@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 346,
-    "concepts": 763,
-    "observations": 763,
-    "repos": 207,
-    "terms": 754
+    "concepts": 766,
+    "observations": 766,
+    "repos": 209,
+    "terms": 757
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -30,6 +30,7 @@
     "aristocratos/btop4win",
     "ARMmbed/mbed-os",
     "arq5x/bedtools2",
+    "Artikash/Textractor",
     "asg017/sqlite-vss",
     "ashima/webgl-noise",
     "astrand/xclip",
@@ -103,6 +104,7 @@
     "id-Software/Quake-III-Arena",
     "id-Software/quake2-rerelease-dll",
     "InteractiveComputerGraphics/PositionBasedDynamics",
+    "InWILL/Locale_Remulator",
     "itinance/react-native-fs",
     "jhawthorn/fzy",
     "joan2937/pigpio",

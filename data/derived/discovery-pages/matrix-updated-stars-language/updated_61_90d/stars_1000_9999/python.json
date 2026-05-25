@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 475,
-    "observations": 475,
-    "repos": 77,
-    "terms": 471
+    "components": 252,
+    "concepts": 503,
+    "observations": 503,
+    "repos": 81,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -20,6 +20,7 @@
     "anapnoe/stable-diffusion-webui-ux",
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
+    "aws-cloudformation/aws-cloudformation-templates",
     "bambinos/bambi",
     "Beckschen/TransUNet",
     "belluzj/fantasque-sans",
@@ -45,6 +46,7 @@
     "HKUDS/VideoRAG",
     "hyperopt/hyperopt",
     "Intellindust-AI-Lab/DEIM",
+    "ionelmc/pytest-benchmark",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "jeffallan/claude-skills",
@@ -75,10 +77,12 @@
     "pyupio/safety",
     "qix-/better-exceptions",
     "randy3k/radian",
+    "rusty1s/pytorch_scatter",
     "s3prl/s3prl",
     "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
+    "snakers4/silero-vad",
     "TencentCloudADP/youtu-agent",
     "the-moonwitch/Cozette",
     "The-OpenROAD-Project/OpenLane",

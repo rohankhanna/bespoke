@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 67,
-    "terms": 86
+    "components": 44,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 68,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -27,6 +27,7 @@
     "bell-sw/osv-database",
     "cachix/iocraft",
     "canonical/ubuntu-desktop-provision-screenshots",
+    "conda-forge/captum-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
@@ -54,12 +55,12 @@
     "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Open-Claw-Stack",
     "danielrosehill/Prompt-Libraries-Index",
+    "danielrosehill/Subindices",
     "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
     "dpc/crev-proofs",
     "eslint/.github",
     "eternahybridexchange/eterna-mcp",
-    "flagos-ai/FlagOS-Robo",
     "flathub/org.gnome.eog",
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",

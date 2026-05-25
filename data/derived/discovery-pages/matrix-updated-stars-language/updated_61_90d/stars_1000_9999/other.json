@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 426,
-    "observations": 428,
-    "repos": 76,
-    "terms": 424
+    "components": 319,
+    "concepts": 406,
+    "observations": 408,
+    "repos": 74,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "activerecord-hackery/ransack",
-    "analysis-tools-dev/dynamic-analysis",
     "ardalis/ApiEndpoints",
     "athityakumar/colorls",
     "autofac/Autofac",
@@ -31,10 +30,10 @@
     "cognitect/transit-format",
     "CommunityToolkit/dotnet",
     "container-storage-interface/spec",
+    "csstools/sanitize.css",
     "dakrone/cheshire",
     "dashbitco/mox",
     "DavBfr/dart_pdf",
-    "Deci-AI/super-gradients",
     "dimitri/el-get",
     "dotnet/roslynator",
     "ex-aws/ex_aws",
@@ -82,7 +81,6 @@
     "ScoopInstaller/Install",
     "steipete/imsg",
     "stevearc/aerial.nvim",
-    "stevearc/oil.nvim",
     "tensorflow/tpu",
     "timdorr/tesla-api",
     "v2fly/v2ray-examples",

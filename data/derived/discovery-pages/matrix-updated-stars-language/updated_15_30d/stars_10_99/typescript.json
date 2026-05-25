@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1730,
-    "concepts": 363,
-    "observations": 365,
-    "repos": 63,
-    "terms": 363
+    "components": 1677,
+    "concepts": 356,
+    "observations": 358,
+    "repos": 62,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "addfox/addfox",
@@ -51,7 +51,6 @@
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
-    "oclif/plugin-plugins",
     "oclif/plugin-update",
     "oclif/test",
     "octokit/auth-action.js",

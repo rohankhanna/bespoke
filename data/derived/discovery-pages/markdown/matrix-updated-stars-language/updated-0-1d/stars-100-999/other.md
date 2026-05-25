@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Other
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 32
-- components: 32
-- concepts: 32
-- observations: 32
+- repos: 4
+- terms: 49
+- components: 45
+- concepts: 49
+- observations: 49
 
 ## Static behavior
 
@@ -26,14 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-25T00:00:20Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
+| [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 235 | 2026-05-25T09:40:58Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-25T04:21:38Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
+| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-25T03:04:04Z | Other | CLI | 10 | 8 | 10 | 10 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-25T00:00:20Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-25T04:21:38Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
+| [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-25T03:04:04Z | Other | CLI | 10 | 8 | 10 | 10 |
+| [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 235 | 2026-05-25T09:40:58Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |

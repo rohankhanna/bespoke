@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3154,
-    "concepts": 689,
-    "observations": 689,
-    "repos": 106,
-    "terms": 685
+    "components": 3098,
+    "concepts": 685,
+    "observations": 685,
+    "repos": 104,
+    "terms": 681
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -70,7 +70,6 @@
     "json-schema-org/json-schema-spec",
     "jspreadsheet/ce",
     "jsx-eslint/eslint-plugin-react",
-    "kangax/html-minifier",
     "kpdecker/jsdiff",
     "Level/level",
     "mantoni/eslint_d.js",
@@ -112,7 +111,6 @@
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "webpack/css-loader",
-    "webpack/mini-css-extract-plugin",
     "webpack/postcss-loader",
     "webpack/sass-loader",
     "webtorrent/bittorrent-dht",

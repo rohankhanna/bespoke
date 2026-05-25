@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 759,
-    "concepts": 783,
-    "observations": 784,
-    "repos": 124,
-    "terms": 781
+    "components": 749,
+    "concepts": 778,
+    "observations": 779,
+    "repos": 120,
+    "terms": 776
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -69,7 +69,6 @@
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
-    "jcmvbkbc/gcc-xtensa",
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
     "jrouwe/JoltPhysics.js",
@@ -78,10 +77,8 @@
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
     "kiron1/bazel-compile-commands",
-    "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
-    "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
     "libnice/libnice",
@@ -136,7 +133,6 @@
     "Unidata/netcdf-c",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
-    "VectorDB-NTU/RaBitQ-Library",
     "yoshoku/llama_cpp.rb"
   ]
 }

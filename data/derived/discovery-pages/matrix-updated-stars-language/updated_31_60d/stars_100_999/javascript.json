@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2923,
-    "concepts": 689,
-    "observations": 698,
-    "repos": 145,
-    "terms": 719
+    "components": 2868,
+    "concepts": 671,
+    "observations": 680,
+    "repos": 142,
+    "terms": 701
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -51,7 +51,6 @@
     "CVEProject/cve-services",
     "CyberAP/nanoid-dictionary",
     "d3/d3-format",
-    "d3/d3-geo-polygon",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
     "devsnek/esvu",
@@ -73,7 +72,6 @@
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
     "fgnass/domino",
-    "Fil/d3-geo-voronoi",
     "florajs/sql-parser",
     "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
@@ -113,7 +111,6 @@
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
-    "mourner/flatqueue",
     "mourner/kdbush",
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
@@ -133,7 +130,7 @@
     "postcss/sugarss",
     "previm/previm",
     "projectfluent/fluent.js",
-    "protocolbuffers/protobuf-javascript",
+    "rooklift/ogatak",
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/commit-analyzer",

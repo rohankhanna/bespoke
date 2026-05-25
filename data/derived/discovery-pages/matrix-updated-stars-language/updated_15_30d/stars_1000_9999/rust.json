@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 985,
-    "concepts": 780,
-    "observations": 782,
-    "repos": 89,
-    "terms": 777
+    "components": 1010,
+    "concepts": 791,
+    "observations": 793,
+    "repos": 90,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -75,6 +75,7 @@
     "prisma/prisma-engines",
     "pykeio/ort",
     "raphamorim/rio",
+    "reubeno/brush",
     "risingwavelabs/risingwave",
     "robustmq/robustmq",
     "ron-rs/ron",

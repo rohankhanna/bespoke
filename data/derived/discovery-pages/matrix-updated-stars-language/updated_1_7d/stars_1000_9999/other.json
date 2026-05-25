@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 139,
-    "observations": 141,
-    "repos": 17,
-    "terms": 139
+    "components": 110,
+    "concepts": 101,
+    "observations": 103,
+    "repos": 13,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
     "babashka/babashka",
-    "clj-kondo/clj-kondo",
+    "babashka/sci",
     "datalevin/datalevin",
     "dotnet/reactive",
     "dotnet/Silk.NET",
-    "firebase/flutterfire",
     "googleapis/google-auth-library-php",
-    "kurrent-io/KurrentDB",
-    "licensee/licensed",
-    "microsoft/aspire-samples",
     "microsoft/PhiCookBook",
     "nvim-tree/nvim-web-devicons",
     "seancorfield/honeysql",
     "standardrb/standard",
-    "TryGhost/node-sqlite3"
+    "swiftlang/swift-syntax"
   ]
 }

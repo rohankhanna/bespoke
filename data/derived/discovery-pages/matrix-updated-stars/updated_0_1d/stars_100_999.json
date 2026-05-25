@@ -1,29 +1,36 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 12,
-    "terms": 96
+    "components": 159,
+    "concepts": 138,
+    "observations": 138,
+    "repos": 19,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
-    "abaplint/transpiler",
+    "AI-Hypercomputer/maxdiffusion",
     "aristoteleo/PantheonOS",
     "astroautomata/SymbolicRegression.jl",
-    "babashka/nbb",
-    "Comfy-Org/comfy-cli",
+    "ChristopherHX/runner.server",
     "confluentinc/librdkafka",
+    "EmmyLuaLs/emmylua-analyzer-rust",
+    "flagos-ai/FlagAttention",
     "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
-    "ldproxy/ldproxy",
+    "git-friendly/git-friendly",
+    "ipsilon/evmone",
+    "karafka/rdkafka-ruby",
     "machinewrapped/llm-subtrans",
     "matter-js/matter.js",
-    "sbt/sbt-jmh"
+    "pyrtlsdr/pyrtlsdr",
+    "sbt/sbt-jmh",
+    "scverse/rapids-singlecell",
+    "servo/stylo",
+    "zh-plus/openlrc"
   ]
 }

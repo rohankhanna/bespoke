@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
+    "components": 41,
     "concepts": 43,
     "observations": 43,
-    "repos": 26,
-    "terms": 50
+    "repos": 25,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
@@ -35,7 +35,6 @@
     "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
-    "nibir1/vaultsim",
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue",
     "roampal-ai/roampal-labs",

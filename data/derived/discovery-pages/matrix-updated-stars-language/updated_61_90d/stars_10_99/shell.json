@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 10,
-    "terms": 19
+    "components": 29,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 11,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "alchemiststudiosDOTai/harness-engineering",
@@ -22,6 +22,7 @@
     "jawwadfirdousi/agent-skills",
     "lxgw/LxgwWenkaiGB-Lite",
     "nodejs/release-keys",
+    "nodenv/node-build-update-defs",
     "quicwg/qlog",
     "robertguss/claude-code-toolkit"
   ]

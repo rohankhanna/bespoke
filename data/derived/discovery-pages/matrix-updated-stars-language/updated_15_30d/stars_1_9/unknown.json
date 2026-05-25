@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 34,
-    "terms": 31
+    "components": 45,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 32,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "angular/angular-devkit-build-webpack-builds",
     "calda/SwiftFormat-nightly",
     "Cebeerre/dnsblocklists",
-    "conda-forge/captum-feedstock",
     "conda-forge/pyfive-feedstock",
     "csm-actions/demo-server",
     "danielrosehill/Claude-Content-Writing-Plugin",
@@ -28,7 +27,6 @@
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Resources-Lists-Index",
-    "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
     "dmBots/DM-J4310-2EC",
     "eddelbuettel/r2u-config",

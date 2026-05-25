@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
+    "components": 33,
     "concepts": 18,
     "observations": 18,
-    "repos": 10,
-    "terms": 18
+    "repos": 11,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
@@ -21,6 +21,7 @@
     "danielJL-altius/israelgrocerymcp",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
+    "nibir1/vaultsim",
     "petercorke/sphinx-autorun",
     "samsja/dion",
     "Systemcluster/tokenizer-bench"

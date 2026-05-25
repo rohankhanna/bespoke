@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15378,
+    "components": 15376,
     "concepts": 13888,
     "observations": 13914,
-    "repos": 4565,
-    "terms": 13658
+    "repos": 4567,
+    "terms": 13670
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -874,7 +874,7 @@
     "chenjoya/sampling-free",
     "chenkui164/FastASR",
     "chenllliang/G1",
-    "chennuo0125-HIT/lidar_imu_calib",
+    "ChenMnZ/PrefixQuant",
     "ChenRocks/UNITER",
     "ChenxinAn-fdu/POLARIS",
     "chenyahui/gin-cache",
@@ -1637,7 +1637,6 @@
     "FlagAI-Open/Aquila2",
     "FlagOpen/RoboBrain",
     "FlagOpen/RoboBrain-X0",
-    "flagos-ai/FlagAttention",
     "FLAIROx/jafar",
     "flashbots/mev-share",
     "fletcher/MultiMarkdown-6",
@@ -2136,6 +2135,7 @@
     "IMNearth/CoAT",
     "impallari/Font-Testing-Page",
     "incluit/OpenVino-For-SmartCity",
+    "inclusionAI/ASearcher",
     "IndexXuan/vite-plugin-html-template",
     "IndexXuan/vite-plugin-mpa",
     "IndexXuan/vue-cli-plugin-vite",
@@ -3365,6 +3365,7 @@
     "OpenGVLab/InternVL-MMDetSeg",
     "OpenGVLab/LAMM",
     "OpenGVLab/Multi-Modality-Arena",
+    "OpenGVLab/OmniQuant",
     "OpenGVLab/UniFormerV2",
     "OpenGVLab/unmasked_teacher",
     "OpenGVLab/Vision-RWKV",
@@ -4252,6 +4253,7 @@
     "vaab/gitchangelog",
     "vacancy/Jacinle",
     "vacancy/PreciseRoIPooling",
+    "vacancy/PyPatchMatch",
     "vadimkantorov/caffemodel2pytorch",
     "Vaibhavs10/ml-with-audio",
     "vale-cli/Microsoft",

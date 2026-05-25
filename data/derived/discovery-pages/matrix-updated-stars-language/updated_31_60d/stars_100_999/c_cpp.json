@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 804,
-    "concepts": 898,
-    "observations": 901,
-    "repos": 177,
-    "terms": 890
+    "components": 813,
+    "concepts": 888,
+    "observations": 891,
+    "repos": 179,
+    "terms": 880
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
@@ -50,7 +50,6 @@
     "coin-or/Cbc",
     "containers/conmon",
     "corporateshark/lightweightvk",
-    "CrystallineCore/Biscuit",
     "cusplibrary/cusplibrary",
     "cygwin/cygwin",
     "daanx/isocline",
@@ -96,6 +95,7 @@
     "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
+    "jcmvbkbc/gcc-xtensa",
     "JokerJohn/PALoc",
     "jupyter-xeus/xeus",
     "jupyter-xeus/xeus-python",
@@ -103,7 +103,9 @@
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/SPIRV-Headers",
     "KhronosGroup/VK-GL-CTS",
+    "kleisauke/wasm-vips",
     "lastz/lastz",
+    "libbitcoin/libbitcoin-node",
     "libimobiledevice/libplist",
     "libLAS/libLAS",
     "Livox-SDK/Livox-SDK2",
@@ -139,7 +141,6 @@
     "nvpro-samples/nvpro_core2",
     "nvpro-samples/vk_gltf_renderer",
     "nx10/httpgd",
-    "objectbox/objectbox-c",
     "onnx/optimizer",
     "OpenLightingProject/ola",
     "openSUSE/catatonit",
@@ -183,6 +184,7 @@
     "usdot-fhwa-stol/carma-platform",
     "uxlfoundation/oneCCL",
     "uxlfoundation/oneMath",
+    "VectorDB-NTU/RaBitQ-Library",
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",

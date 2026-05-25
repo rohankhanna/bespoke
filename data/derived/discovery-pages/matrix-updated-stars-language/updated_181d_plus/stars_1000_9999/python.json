@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 922,
-    "concepts": 3773,
-    "observations": 3775,
-    "repos": 960,
-    "terms": 3705
+    "components": 933,
+    "concepts": 3791,
+    "observations": 3793,
+    "repos": 963,
+    "terms": 3724
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -462,6 +462,7 @@
     "kazuto1011/deeplab-pytorch",
     "keithito/tacotron",
     "keras-team/keras-contrib",
+    "kha-white/manga-ocr",
     "KichangKim/DeepDanbooru",
     "kijai/ComfyUI-CogVideoXWrapper",
     "kijai/ComfyUI-HunyuanVideoWrapper",
@@ -469,6 +470,7 @@
     "kingoflolz/mesh-transformer-jax",
     "KoboldAI/KoboldAI-Client",
     "kohya-ss/sd-webui-additional-networks",
+    "KUR-creative/SickZil-Machine",
     "Kyubyong/dc_tts",
     "Kyubyong/tacotron",
     "Kyubyong/transformer",
@@ -911,6 +913,7 @@
     "weiaicunzai/pytorch-cifar100",
     "weiyithu/SurroundOcc",
     "welltop-cn/ComfyUI-TeaCache",
+    "WenmuZhou/DBNet.pytorch",
     "whai362/PVT",
     "WisdomShell/codeshell",
     "WongKinYiu/PyTorch_YOLOv4",

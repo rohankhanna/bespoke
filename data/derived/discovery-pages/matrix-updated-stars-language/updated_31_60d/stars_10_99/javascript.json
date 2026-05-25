@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1288,
-    "concepts": 340,
-    "observations": 340,
-    "repos": 90,
-    "terms": 340
+    "components": 1279,
+    "concepts": 329,
+    "observations": 329,
+    "repos": 89,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -49,7 +49,6 @@
     "GuillaumeGomez/browser-UI-test",
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
-    "hipster-labs/jhipster-daily-builds",
     "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",

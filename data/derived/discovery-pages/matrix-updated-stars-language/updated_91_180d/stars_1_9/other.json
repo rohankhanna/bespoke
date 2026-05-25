@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 54,
-    "terms": 86
+    "components": 180,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 52,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -25,7 +25,6 @@
     "arya-s/phantty",
     "baskeboler/clj-karaoke-lyrics",
     "Blosc/PyData-Global-2025-Tutorial",
-    "datachainlab/lcp-solidity",
     "elixir-makeup/makeup_erlang",
     "empriselab/kortex_description",
     "erwin-kok/multiformat",
@@ -38,7 +37,6 @@
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
     "ihmcrobotics/ihmc-build",
-    "infiniflow/resource",
     "jgpc42/jmh-clojure-task",
     "joeldrapper/dispersion",
     "JuliaAI/LearnDataFrontEnds.jl",

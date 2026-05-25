@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 105,
-    "observations": 106,
+    "components": 80,
+    "concepts": 102,
+    "observations": 103,
     "repos": 12,
-    "terms": 100
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
     "collabora/WhisperLive",
     "copier-org/copier",
-    "Farama-Foundation/Minigrid",
     "google-deepmind/dm-haiku",
     "google/budoux",
     "lucidrains/vector-quantize-pytorch",
     "mangiucugna/json_repair",
+    "meta-pytorch/tnt",
     "msiemens/tinydb",
     "voicepaw/so-vits-svc-fork",
     "Xilinx/brevitas",

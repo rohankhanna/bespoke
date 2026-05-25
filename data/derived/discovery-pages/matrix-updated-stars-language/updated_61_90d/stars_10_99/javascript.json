@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 258,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 25,
-    "terms": 77
+    "components": 267,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 26,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -29,6 +29,7 @@
     "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
     "Fil/d3-tricontour",
+    "hipster-labs/jhipster-daily-builds",
     "hudochenkov/stylelint-config-hudochenkov",
     "ipld/js-dag-pb",
     "kddnewton/prettier-plugin-ini",

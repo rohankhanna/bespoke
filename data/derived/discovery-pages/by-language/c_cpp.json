@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9586,
-    "concepts": 11448,
-    "observations": 11476,
-    "repos": 2373,
-    "terms": 11352
+    "components": 9592,
+    "concepts": 11451,
+    "observations": 11479,
+    "repos": 2376,
+    "terms": 11358
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -219,6 +219,7 @@
     "arrayfire/arrayfire",
     "arshajii/ema",
     "artemsen/swayimg",
+    "Artikash/Textractor",
     "arturbac/simple_enum",
     "aseprite/aseprite",
     "aseprite/clip",
@@ -427,7 +428,6 @@
     "CharlesShang/DCNv2",
     "chelini/libxsmm",
     "chenkui164/FastASR",
-    "chennuo0125-HIT/lidar_imu_calib",
     "CHERIoT-Platform/cheriot-pqc",
     "chfast/ethash",
     "chfast/intx",
@@ -448,6 +448,7 @@
     "chromiumembedded/cef",
     "chunqian/icecream-c",
     "chusitoo/flatbush",
+    "Chuyu-Team/YY-Thunks",
     "cisco/hash-sigs",
     "cisco/libacvp",
     "cisco/libsrtp",
@@ -1123,6 +1124,7 @@
     "InteractiveComputerGraphics/PositionBasedDynamics",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "InteractiveComputerGraphics/TriangleMeshDistance",
+    "InWILL/Locale_Remulator",
     "ioquake/ioq3",
     "iOrange/rtxON",
     "iovisor/bcc",
@@ -2257,6 +2259,7 @@
     "uzh-rpg/rpg_vikit",
     "v8/v8",
     "vacancy/PreciseRoIPooling",
+    "vacancy/PyPatchMatch",
     "ValdikSS/GoodbyeDPI",
     "ValveSoftware/Fossilize",
     "vapoursynth/vs-miscfilters-obsolete",

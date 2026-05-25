@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1222,
+    "components": 1220,
     "concepts": 5553,
     "observations": 5558,
-    "repos": 1863,
-    "terms": 5395
+    "repos": 1865,
+    "terms": 5400
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -344,6 +344,7 @@
     "chengzeyi/ParaAttention",
     "chenjoya/sampling-free",
     "chenllliang/G1",
+    "ChenMnZ/PrefixQuant",
     "ChenRocks/UNITER",
     "ChenxinAn-fdu/POLARIS",
     "chenyangMl/llama2.c-zh",
@@ -651,7 +652,6 @@
     "FlagAI-Open/Aquila2",
     "FlagOpen/RoboBrain",
     "FlagOpen/RoboBrain-X0",
-    "flagos-ai/FlagAttention",
     "FLAIROx/jafar",
     "FMInference/H2O",
     "fonttools/fontbakery",
@@ -879,6 +879,7 @@
     "imatge-upc/rvos",
     "imdanboy/jets",
     "IMNearth/CoAT",
+    "inclusionAI/ASearcher",
     "Infinidat/munch",
     "INK-USC/CrossFit",
     "innnky/ar-vits",
@@ -1372,6 +1373,7 @@
     "OpenGVLab/DCNv4",
     "OpenGVLab/LAMM",
     "OpenGVLab/Multi-Modality-Arena",
+    "OpenGVLab/OmniQuant",
     "OpenGVLab/UniFormerV2",
     "OpenGVLab/unmasked_teacher",
     "OpenGVLab/Vision-RWKV",

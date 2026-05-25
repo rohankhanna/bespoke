@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2031,
-    "concepts": 1857,
-    "observations": 1871,
-    "repos": 223,
-    "terms": 1847
+    "components": 2020,
+    "concepts": 1837,
+    "observations": 1851,
+    "repos": 221,
+    "terms": 1829
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -33,10 +33,8 @@
     "Azure/azure-powershell",
     "B-Lang-org/bsc",
     "badmojr/1Hosts",
-    "Bekaboo/dropbar.nvim",
     "belav/csharpier",
     "benjamimgois/goverlay",
-    "benoitc/hackney",
     "bepu/bepuphysics2",
     "bitwarden/android",
     "blokadaorg/blokada",
@@ -123,7 +121,6 @@
     "JetBrains/resharper-unity",
     "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
-    "jrblevin/markdown-mode",
     "jrsoftware/issrc",
     "JuliaAI/MLJ.jl",
     "JuliaGPU/CUDA.jl",
@@ -178,6 +175,7 @@
     "nvim-tree/nvim-tree.lua",
     "ocaml/dune",
     "ocaml/merlin",
+    "okd-project/okd",
     "openstreetmap-carto/openstreetmap-carto",
     "openwrt/packages",
     "opnsense/plugins",

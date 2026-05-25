@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 750,
-    "concepts": 457,
-    "observations": 459,
-    "repos": 81,
+    "components": 746,
+    "concepts": 459,
+    "observations": 461,
+    "repos": 82,
     "terms": 466
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -43,6 +43,7 @@
     "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
+    "Ileriayo/markdown-badges",
     "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
     "karpathy/autoresearch",
@@ -72,6 +73,7 @@
     "rany2/edge-tts",
     "rbenv/rbenv",
     "ReactiveX/RxAndroid",
+    "resemble-ai/chatterbox",
     "romkatv/powerlevel10k",
     "ryanoasis/nerd-fonts",
     "serde-rs/serde",
@@ -87,7 +89,6 @@
     "typicode/json-server",
     "uber-go/zap",
     "vercel/satori",
-    "vibrantlabsai/ragas",
     "videojs/video.js",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",

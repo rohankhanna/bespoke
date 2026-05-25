@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5432,
-    "concepts": 1961,
-    "observations": 1964,
-    "repos": 1373,
-    "terms": 1956
+    "components": 5448,
+    "concepts": 1963,
+    "observations": 1966,
+    "repos": 1376,
+    "terms": 1958
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -473,6 +473,7 @@
     "datachainlab/besu-qbft-elc",
     "datachainlab/ethereum-elc",
     "datachainlab/ethereum-ibc-rs",
+    "datachainlab/lcp-solidity",
     "DataCompression/corpus-collection",
     "datafuse-extras/clickhouse_driver",
     "datafuse-extras/sled",
@@ -756,6 +757,7 @@
     "imgui-rs/imgui-sdl2-support",
     "indexxuan/vite-plugin-vue-cli",
     "IndexXuan/vue-enterprise-boilerplate",
+    "infiniflow/resource",
     "informalsystems/cosmwasm-ibc",
     "infradig/imath",
     "innat/UniFormerV2",
@@ -1306,7 +1308,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",
@@ -1359,6 +1361,7 @@
     "wsxiaoys/sqlx",
     "wxinix/wxlib",
     "XanDrchris/DenseDiffusionColab",
+    "xazukx/ts-rs",
     "XcodesOrg/homebrew-made",
     "Xiao0728/ColBERT-PRF-VirtualAppendix",
     "xinke-wang/EST-VQA",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 826
-- terms: 1878
-- components: 2033
-- concepts: 1885
-- observations: 1891
+- repos: 828
+- terms: 1879
+- components: 2036
+- concepts: 1886
+- observations: 1892
 
 ## Static behavior
 
@@ -332,6 +332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [grailbio/rules_r](https://github.com/grailbio/rules_r) | 44 | 2024-10-03T20:42:37Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [aws-ia/terraform-aws-eks-ack-addons](https://github.com/aws-ia/terraform-aws-eks-ack-addons) | 53 | 2024-10-03T15:24:06Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [CocoaPods/Nanaimo](https://github.com/CocoaPods/Nanaimo) | 40 | 2024-10-03T02:47:18Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [Isotr0py/SakuraLLM-Notebooks](https://github.com/Isotr0py/SakuraLLM-Notebooks) | 55 | 2024-10-01T10:51:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [charliie-dev/Logseq-Hugo-Template](https://github.com/charliie-dev/Logseq-Hugo-Template) | 92 | 2024-09-30T20:58:27Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 4 |
 | [anthonix/llm.c](https://github.com/anthonix/llm.c) | 62 | 2024-09-23T17:23:30Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [SALT-NLP/chain-of-thought-bias](https://github.com/SALT-NLP/chain-of-thought-bias) | 28 | 2024-09-21T19:18:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -448,7 +449,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PanJiaChen/PanJiaChen.github.io](https://github.com/PanJiaChen/PanJiaChen.github.io) | 67 | 2024-03-21T19:00:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [xfthhxk/unminify](https://github.com/xfthhxk/unminify) | 34 | 2024-03-19T15:26:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [camenduru/DynamiCrafter-colab](https://github.com/camenduru/DynamiCrafter-colab) | 26 | 2024-03-18T07:02:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 25 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
+| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 27 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [atteneder/DracoUnityDemo](https://github.com/atteneder/DracoUnityDemo) | 30 | 2024-03-14T11:22:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [teacher-zhou/ComponentBuilder](https://github.com/teacher-zhou/ComponentBuilder) | 48 | 2024-03-07T03:08:08Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [ethansmith2000/ImprovedTokenMerge](https://github.com/ethansmith2000/ImprovedTokenMerge) | 49 | 2024-03-03T04:33:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -800,6 +801,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [foojayio/badges](https://github.com/foojayio/badges) | 10 | 2021-11-29T09:00:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [barrel-platform/rebar3_elixir_compile](https://github.com/barrel-platform/rebar3_elixir_compile) | 90 | 2021-11-28T00:51:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [verbiiyo/rigl-torch](https://github.com/verbiiyo/rigl-torch) | 60 | 2021-11-17T02:08:53Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [verbiiii/rigl-torch](https://github.com/verbiiii/rigl-torch) | 60 | 2021-11-17T02:08:53Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [caffo/monotropic-theme](https://github.com/caffo/monotropic-theme) | 60 | 2021-11-16T13:28:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [shanoor/kubectl-aliases-powershell](https://github.com/shanoor/kubectl-aliases-powershell) | 78 | 2021-11-16T09:44:43Z | Other | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [tc39/proposal-function-helpers](https://github.com/tc39/proposal-function-helpers) | 46 | 2021-11-11T22:00:55Z | Other | Unknown | 4 | 1 | 4 | 4 |
@@ -1096,6 +1098,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/pod-babashka-aws](https://github.com/babashka/pod-babashka-aws) | 60 | 2022-10-06T15:04:21Z | Other | Service/API | 2 | 0 | 2 | 2 |
 | [chipsalliance/fpga-interchange-schema](https://github.com/chipsalliance/fpga-interchange-schema) | 60 | 2022-07-04T09:10:21Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [verbiiyo/rigl-torch](https://github.com/verbiiyo/rigl-torch) | 60 | 2021-11-17T02:08:53Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [verbiiii/rigl-torch](https://github.com/verbiiii/rigl-torch) | 60 | 2021-11-17T02:08:53Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [caffo/monotropic-theme](https://github.com/caffo/monotropic-theme) | 60 | 2021-11-16T13:28:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rejeep/commander.el](https://github.com/rejeep/commander.el) | 60 | 2021-10-06T21:56:26Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [kaarmu/splash](https://github.com/kaarmu/splash) | 59 | 2025-04-27T14:35:10Z | Other | Library | 0 | 0 | 0 | 0 |
@@ -1129,6 +1132,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mfung/hamlit-rails](https://github.com/mfung/hamlit-rails) | 56 | 2022-03-21T16:03:21Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [the-benchmarker/graphql-benchmarks](https://github.com/the-benchmarker/graphql-benchmarks) | 56 | 2021-08-19T23:13:58Z | Other | Framework | 5 | 0 | 5 | 5 |
 | [haxeui/haxeui-flixel](https://github.com/haxeui/haxeui-flixel) | 55 | 2025-06-27T06:40:41Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [Isotr0py/SakuraLLM-Notebooks](https://github.com/Isotr0py/SakuraLLM-Notebooks) | 55 | 2024-10-01T10:51:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nrepl/bencode](https://github.com/nrepl/bencode) | 55 | 2024-06-12T15:20:11Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [json5/json5-spec](https://github.com/json5/json5-spec) | 55 | 2023-05-15T17:01:20Z | Other | Unknown | 0 | 10 | 0 | 0 |
 | [ikostrikov/jaxrl2](https://github.com/ikostrikov/jaxrl2) | 55 | 2023-01-20T18:37:08Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -1412,6 +1416,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LaikaStudios/OSLShaderWriting](https://github.com/LaikaStudios/OSLShaderWriting) | 27 | 2024-12-04T16:46:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vis-nlp/ChartInstruct](https://github.com/vis-nlp/ChartInstruct) | 27 | 2024-07-06T05:20:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [LucHermitte/vim-build-tools-wrapper](https://github.com/LucHermitte/vim-build-tools-wrapper) | 27 | 2024-04-29T13:34:18Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 27 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [Rohan2002/IFEval](https://github.com/Rohan2002/IFEval) | 27 | 2024-01-25T08:34:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [1jsingh/Divide-Evaluate-and-Refine](https://github.com/1jsingh/Divide-Evaluate-and-Refine) | 27 | 2023-11-11T05:02:17Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [r-lib/crancache](https://github.com/r-lib/crancache) | 27 | 2023-07-25T18:13:53Z | Other | Library | 0 | 0 | 0 | 0 |
@@ -1435,7 +1440,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AI-secure/AdvAgent](https://github.com/AI-secure/AdvAgent) | 25 | 2025-05-28T06:45:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vale-cli/alex](https://github.com/vale-cli/alex) | 25 | 2024-11-21T05:50:03Z | Other | Docs/knowledge | 2 | 0 | 2 | 2 |
 | [Allison-E/pg-age](https://github.com/Allison-E/pg-age) | 25 | 2024-05-24T08:36:55Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [codeclimate-community/simplecov_json_formatter](https://github.com/codeclimate-community/simplecov_json_formatter) | 25 | 2024-03-15T20:20:09Z | Other | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [sherrillmix/vipor](https://github.com/sherrillmix/vipor) | 25 | 2023-12-20T18:58:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [FWHP-Enfun/Mixed-VsWeKai](https://github.com/FWHP-Enfun/Mixed-VsWeKai) | 25 | 2023-07-18T07:57:46Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [faisalsayed10/carbon-slack](https://github.com/faisalsayed10/carbon-slack) | 25 | 2023-07-09T09:20:34Z | Other | Infrastructure/tooling | 0 | 17 | 0 | 0 |

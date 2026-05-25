@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 420,
+    "components": 425,
     "concepts": 314,
     "observations": 315,
-    "repos": 96,
+    "repos": 97,
     "terms": 310
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -26,6 +26,7 @@
     "andys8/git-brunch",
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
+    "appsignal/mono",
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
     "Azure-Samples/openai-chat-backend-fastapi",

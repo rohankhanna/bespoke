@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 788,
+    "components": 791,
     "concepts": 722,
     "observations": 723,
-    "repos": 190,
+    "repos": 191,
     "terms": 717
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -83,6 +83,7 @@
     "eclarke/ggbeeswarm",
     "ecukes/ecukes",
     "elixir-mint/mint_web_socket",
+    "elm-explorations/test",
     "ElsaTam/obsidian-fancy-a-story",
     "ema2159/centaur-tabs",
     "emacs-eldev/eldev",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 578,
-    "concepts": 184,
-    "observations": 185,
-    "repos": 37,
-    "terms": 182
+    "components": 560,
+    "concepts": 179,
+    "observations": 180,
+    "repos": 36,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
@@ -28,7 +28,6 @@
     "fengari-lua/fengari",
     "file-icons/atom",
     "gautamkrishnar/nothing-private",
-    "GoogleChromeLabs/jsvu",
     "gradio-app/fastrtc",
     "grpc/grpc-web",
     "guybedford/es-module-lexer",

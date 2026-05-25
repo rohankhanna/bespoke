@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2084,
-    "concepts": 1203,
-    "observations": 1211,
-    "repos": 476,
-    "terms": 1209
+    "components": 2096,
+    "concepts": 1218,
+    "observations": 1226,
+    "repos": 478,
+    "terms": 1224
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -29,6 +29,7 @@
     "aarroyoc/doclog",
     "aba122/Q-Hawkeye",
     "abapGit/ADT_Backend",
+    "abduznik/git-alchemist",
     "Accla/D4M.py",
     "AceCHQ/TransMatting",
     "acw/simple_asn1",
@@ -221,6 +222,7 @@
     "googleapis/nodejs-logging-bunyan",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
+    "googlefonts/lang",
     "googlefonts/shaperglot",
     "graalvm/polyglot-embedding-demo",
     "gregorias/toggle.nvim",
@@ -252,6 +254,7 @@
     "icppWorld/icgpt",
     "icppWorld/icpp_llm",
     "ifsheldon/async-openai-wasm",
+    "imlrz/DeepResearch-Bench-II",
     "ImranR98/obtainium.imranr.dev",
     "inducer/genpy",
     "informalsystems/quint-connect",
@@ -330,7 +333,6 @@
     "lukacu/docker-frps",
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
-    "lxgw/ext-characters",
     "marcindulak/stt-mcp-server-linux",
     "MaterializeInc/rust-postgres",
     "MichaelHatherly/REPLicant.jl",

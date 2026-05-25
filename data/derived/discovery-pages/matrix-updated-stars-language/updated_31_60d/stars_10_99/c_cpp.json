@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 377,
-    "concepts": 322,
-    "observations": 322,
-    "repos": 69,
-    "terms": 322
+    "components": 381,
+    "concepts": 323,
+    "observations": 323,
+    "repos": 70,
+    "terms": 323
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -55,6 +55,7 @@
     "ksnip/kImageAnnotator",
     "Level/classic-level",
     "liangshengyong/lanwan",
+    "libbitcoin/libbitcoin-database",
     "libxsmm/tpp-pytorch-extension",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",

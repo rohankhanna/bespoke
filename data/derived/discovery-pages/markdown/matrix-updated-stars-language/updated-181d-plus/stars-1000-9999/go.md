@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -92,7 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/btree](https://github.com/google/btree) | 4155 | 2024-08-21T16:46:53Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [gorilla/sessions](https://github.com/gorilla/sessions) | 3143 | 2024-08-20T14:12:54Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [gorilla/schema](https://github.com/gorilla/schema) | 1503 | 2024-08-19T14:00:33Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [notaryproject/notary](https://github.com/notaryproject/notary) | 3289 | 2024-08-07T19:02:32Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [notaryproject/notary](https://github.com/notaryproject/notary) | 3288 | 2024-08-07T19:02:32Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [natefinch/lumberjack](https://github.com/natefinch/lumberjack) | 5421 | 2024-08-05T20:55:26Z | Go | Library | 0 | 0 | 0 | 0 |
 | [vulcand/vulcand](https://github.com/vulcand/vulcand) | 3100 | 2024-07-27T08:36:18Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Masterminds/glide](https://github.com/Masterminds/glide) | 8101 | 2024-07-22T15:41:52Z | Go | Library | 3 | 0 | 3 | 3 |
@@ -236,7 +236,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [justinas/alice](https://github.com/justinas/alice) | 3349 | 2024-06-06T09:50:16Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [valyala/quicktemplate](https://github.com/valyala/quicktemplate) | 3317 | 2024-07-21T02:16:20Z | Go | Template/starter | 3 | 0 | 3 | 3 |
 | [TheZoraiz/ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) | 3306 | 2024-04-14T19:34:21Z | Go | CLI | 18 | 0 | 18 | 18 |
-| [notaryproject/notary](https://github.com/notaryproject/notary) | 3289 | 2024-08-07T19:02:32Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [notaryproject/notary](https://github.com/notaryproject/notary) | 3288 | 2024-08-07T19:02:32Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [jsha/minica](https://github.com/jsha/minica) | 3276 | 2025-09-03T23:39:33Z | Go | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [gorilla/sessions](https://github.com/gorilla/sessions) | 3143 | 2024-08-20T14:12:54Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [vulcand/vulcand](https://github.com/vulcand/vulcand) | 3100 | 2024-07-27T08:36:18Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |

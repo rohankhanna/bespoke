@@ -1,24 +1,27 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 7,
-    "terms": 45
+    "components": 89,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 10,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
+    "ADNTIO/crispy-bootloader-rp2040-rs",
     "aidenlab/juicebox-web",
     "apache/casbin-casbin.io",
     "apache/casbin-fasthttp-auth",
     "atsushieno/midicci",
+    "cloudfoundry/credhub-acceptance-tests",
     "Luligu/matterbridge-somfy-tahoma",
-    "nafg/jewish-date"
+    "nafg/jewish-date",
+    "oscard0m/ts-transformer-remove-named-export"
   ]
 }

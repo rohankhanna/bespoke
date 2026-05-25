@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 26
-- components: 20
-- concepts: 26
-- observations: 26
+- terms: 23
+- components: 25
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2632 | 2026-05-24T14:52:26Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1259 | 2026-05-24T12:07:12Z | C/C++ | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1273 | 2026-05-24T08:25:27Z | C/C++ | Library | 5 | 0 | 5 | 5 |
+| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1258 | 2026-05-25T09:32:00Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2634 | 2026-05-25T08:22:55Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1389 | 2026-05-25T07:55:24Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2632 | 2026-05-24T14:52:26Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1273 | 2026-05-24T08:25:27Z | C/C++ | Library | 5 | 0 | 5 | 5 |
-| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1259 | 2026-05-24T12:07:12Z | C/C++ | Infrastructure/tooling | 10 | 13 | 10 | 10 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2634 | 2026-05-25T08:22:55Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1389 | 2026-05-25T07:55:24Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1258 | 2026-05-25T09:32:00Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |

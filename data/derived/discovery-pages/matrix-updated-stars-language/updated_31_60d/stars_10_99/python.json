@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 722,
-    "concepts": 522,
-    "observations": 524,
-    "repos": 144,
-    "terms": 540
+    "components": 719,
+    "concepts": 521,
+    "observations": 523,
+    "repos": 142,
+    "terms": 539
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -45,7 +45,6 @@
     "aws-controllers-k8s/test-infra",
     "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",
-    "bentoml/openllm-models",
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
     "bufbuild/protovalidate-python",
@@ -154,7 +153,6 @@
     "svaningelgem/logprise",
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
-    "VisionXLab/Rise-Video",
     "w1ndys/ex-cure-skill",
     "weaviate/agent-skills",
     "yaph/tts-samples"

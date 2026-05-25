@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2488,
-    "concepts": 2332,
-    "observations": 2343,
-    "repos": 355,
-    "terms": 2321
+    "components": 2505,
+    "concepts": 2368,
+    "observations": 2379,
+    "repos": 358,
+    "terms": 2355
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -62,7 +62,10 @@
     "bbatsov/prelude",
     "bbepis/XUnity.AutoTranslator",
     "BBuf/how-to-optim-algorithm-in-cuda",
+    "Bekaboo/dropbar.nvim",
     "bencheeorg/benchee",
+    "benoitc/hackney",
+    "BepInEx/BepInEx",
     "BLAKE3-team/BLAKE3",
     "blockscout/blockscout",
     "boostorg/boost",
@@ -93,7 +96,6 @@
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "cssnano/cssnano",
-    "csstools/sanitize.css",
     "ctrlpvim/ctrlp.vim",
     "Cysharp/MagicOnion",
     "dart-lang/http",
@@ -193,6 +195,7 @@
     "johnbean393/Sidekick",
     "jpsim/SourceKitten",
     "jpsim/Yams",
+    "jrblevin/markdown-mode",
     "jruby/jruby",
     "JuliaData/DataFrames.jl",
     "JuliaDocs/Franklin.jl",

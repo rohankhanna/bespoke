@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 5,
-    "terms": 28
+    "components": 68,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 6,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
-    "lumen-oss/luarocks-tag-release",
+    "karafka/example-apps",
+    "mozilla-ai/otari",
     "skilld-dev/retriv"
   ]
 }

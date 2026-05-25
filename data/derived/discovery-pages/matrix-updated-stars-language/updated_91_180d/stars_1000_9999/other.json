@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 431,
-    "concepts": 489,
-    "observations": 491,
-    "repos": 101,
-    "terms": 492
+    "components": 450,
+    "concepts": 520,
+    "observations": 522,
+    "repos": 104,
+    "terms": 523
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "Alexander-Miller/treemacs",
     "amebalabs/TRex",
+    "analysis-tools-dev/dynamic-analysis",
     "ankane/dexter",
     "ankane/pgslice",
     "ankane/pgsync",
@@ -37,6 +38,7 @@
     "cncf/tag-security",
     "cpm-cmake/CPM.cmake",
     "datawhalechina/tiny-universe",
+    "Deci-AI/super-gradients",
     "dempfi/ayu",
     "DotNetAnalyzers/StyleCopAnalyzers",
     "dspinellis/latex-advice",
@@ -44,6 +46,7 @@
     "emacs-lsp/dap-mode",
     "emacs-lsp/lsp-ui",
     "erew123/alltalk_tts",
+    "fairygui/FairyGUI-unity",
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "fukuball/jieba-php",
@@ -71,7 +74,6 @@
     "kikito/inspect.lua",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
-    "lmbelo/python4delphi",
     "MahmoudAshraf97/whisper-diarization",
     "mdn/webassembly-examples",
     "mds1/multicall3",
@@ -103,6 +105,7 @@
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
     "SpinalHDL/VexRiscv",
+    "stevearc/oil.nvim",
     "symfony/cache-contracts",
     "Tencent-Hunyuan/HunyuanDiT",
     "thu-ml/SageAttention",

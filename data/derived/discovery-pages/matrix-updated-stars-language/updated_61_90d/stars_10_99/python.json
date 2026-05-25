@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 252,
-    "concepts": 199,
-    "observations": 199,
-    "repos": 61,
-    "terms": 196
+    "components": 243,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 60,
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
-    "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
     "ai4colonoscopy/PraNet-V2",
     "Alibaba-Quark/SSP",
@@ -23,6 +22,7 @@
     "andyluo7/autoresearch",
     "AniAggarwal/ecad",
     "apache/parquet-testing",
+    "bentoml/openllm-models",
     "bigai-nlco/RuleReasoner",
     "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
@@ -46,11 +46,9 @@
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
     "gazebosim/gz-mujoco",
-    "googlefonts/lang",
     "googlefonts/nam-files",
     "GuiWonder/HuayingMincho",
     "Han-Cao/collapse-bubble",
-    "imlrz/DeepResearch-Bench-II",
     "inducer/codepy",
     "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
@@ -72,6 +70,7 @@
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
     "vinlyx/mgzip",
+    "VisionXLab/Rise-Video",
     "wamp-proto/wamp-xbr",
     "xuanyuzhang21/VQ-Insight",
     "yxlllc/RMVPE"

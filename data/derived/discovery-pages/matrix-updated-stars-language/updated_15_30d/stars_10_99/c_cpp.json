@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 266,
-    "observations": 266,
-    "repos": 35,
-    "terms": 261
+    "components": 164,
+    "concepts": 265,
+    "observations": 265,
+    "repos": 34,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "akruphi/far2l",
@@ -38,7 +38,6 @@
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
-    "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",

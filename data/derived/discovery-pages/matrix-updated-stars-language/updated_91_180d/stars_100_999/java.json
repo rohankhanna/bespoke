@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 77,
+    "components": 80,
     "concepts": 104,
     "observations": 104,
-    "repos": 17,
+    "repos": 18,
     "terms": 105
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
@@ -30,6 +30,7 @@
     "jpmml/jpmml-evaluator",
     "nacos-group/nacos-spring-project",
     "peergos/nabu",
+    "scalar-labs/btm",
     "testng-team/testng-eclipse"
   ]
 }

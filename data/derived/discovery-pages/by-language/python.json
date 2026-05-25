@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17855,
-    "concepts": 26973,
-    "observations": 27024,
-    "repos": 6740,
-    "terms": 26763
+    "components": 17870,
+    "concepts": 26999,
+    "observations": 27050,
+    "repos": 6744,
+    "terms": 26799
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -3544,6 +3544,7 @@
     "kevinhwang91/rnvimr",
     "kevinzakka/ibc",
     "kevinzakka/obj2mjcf",
+    "kha-white/manga-ocr",
     "khanrc/tcl",
     "KhronosGroup/glTF-Blender-IO",
     "KichangKim/DeepDanbooru",
@@ -3626,6 +3627,8 @@
     "kuielab/mdx-net-submission",
     "kumuji/mix3d",
     "KupynOrest/head_detector",
+    "KUR-creative/SickZil-Machine",
+    "kurikomoe/LunaTranslator",
     "kurtmckee/feedparser",
     "kushaldas/cpython",
     "kvablack/ddpo-pytorch",
@@ -4419,6 +4422,7 @@
     "msiemens/tinydb",
     "msmsajjadi/precision-recall-distributions",
     "msracver/Deformable-ConvNets",
+    "mtkennerly/dunamai",
     "mtkennerly/poetry-dynamic-versioning",
     "Muennighoff/sentence-transformers",
     "mujocolab/mjlab",
@@ -6407,6 +6411,7 @@
     "wenet-e2e/wespeaker",
     "wenet-e2e/WeTextProcessing",
     "wenet-e2e/wetts",
+    "WenmuZhou/DBNet.pytorch",
     "WenmuZhou/PytorchOCR",
     "wenquanlu/HandRefiner",
     "wescode/lemmy_migrate",
@@ -6551,7 +6556,6 @@
     "yeyupiaoling/MASR",
     "yeyupiaoling/PaddlePaddle-DeepSpeech",
     "yeyupiaoling/PaddlePaddle-MobileFaceNets",
-    "yeyupiaoling/PaddlePaddle-MTCNN",
     "yeyupiaoling/PPASR",
     "yeyupiaoling/PunctuationModel",
     "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",

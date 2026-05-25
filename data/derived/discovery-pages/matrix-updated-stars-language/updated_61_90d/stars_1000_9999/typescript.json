@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1420,
-    "concepts": 250,
-    "observations": 250,
-    "repos": 42,
-    "terms": 278
+    "components": 1353,
+    "concepts": 244,
+    "observations": 244,
+    "repos": 41,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -45,7 +45,6 @@
     "obsidian-community/obsidian-style-settings",
     "obsidian-community/obsidian-zotero-integration",
     "peers/peerjs-server",
-    "posva/unplugin-vue-router",
     "REditorSupport/vscode-R",
     "snarktank/antfarm",
     "standard-schema/standard-schema",

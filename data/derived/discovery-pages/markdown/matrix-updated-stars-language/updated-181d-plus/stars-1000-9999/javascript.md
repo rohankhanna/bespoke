@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 241
-- terms: 843
-- components: 4273
-- concepts: 849
-- observations: 850
+- repos: 242
+- terms: 848
+- components: 4291
+- concepts: 854
+- observations: 855
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) | 2026 | 2025-11-26T13:01:05Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) | 3841 | 2025-11-22T04:22:53Z | JavaScript | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 | [testing-library/jest-dom](https://github.com/testing-library/jest-dom) | 4592 | 2025-11-21T06:25:21Z | JavaScript | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 | [broccolijs/broccoli](https://github.com/broccolijs/broccoli) | 3328 | 2025-11-17T22:03:03Z | JavaScript | Infrastructure/tooling | 2 | 62 | 2 | 2 |
@@ -203,7 +204,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/js-ipfs](https://github.com/ipfs/js-ipfs) | 7413 | 2023-05-25T17:13:28Z | JavaScript | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [dojo/dojo](https://github.com/dojo/dojo) | 1581 | 2023-05-20T17:55:01Z | JavaScript | Library | 1 | 7 | 1 | 1 |
 | [douglascrockford/JSON-js](https://github.com/douglascrockford/JSON-js) | 8734 | 2023-05-10T23:28:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [dat-ecosystem/dat](https://github.com/dat-ecosystem/dat) | 8232 | 2023-05-07T20:39:11Z | JavaScript | CLI | 3 | 32 | 3 | 3 |
+| [dat-ecosystem/dat](https://github.com/dat-ecosystem/dat) | 8231 | 2023-05-07T20:39:11Z | JavaScript | CLI | 3 | 32 | 3 | 3 |
 | [Azure/azure-sdk-for-node](https://github.com/Azure/azure-sdk-for-node) | 1176 | 2023-05-05T16:07:47Z | JavaScript | Infrastructure/tooling | 3 | 61 | 3 | 3 |
 | [zalmoxisus/remote-redux-devtools](https://github.com/zalmoxisus/remote-redux-devtools) | 1801 | 2023-04-25T11:18:31Z | JavaScript | Unknown | 4 | 21 | 4 | 4 |
 | [gruntjs/grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) | 1967 | 2023-03-29T21:37:54Z | JavaScript | Unknown | 1 | 11 | 1 | 1 |
@@ -287,7 +288,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [developit/htm](https://github.com/developit/htm) | 9017 | 2024-02-01T21:36:52Z | JavaScript | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [douglascrockford/JSON-js](https://github.com/douglascrockford/JSON-js) | 8734 | 2023-05-10T23:28:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [gotwarlost/istanbul](https://github.com/gotwarlost/istanbul) | 8671 | 2024-12-08T15:50:22Z | JavaScript | Web app | 0 | 19 | 0 | 0 |
-| [dat-ecosystem/dat](https://github.com/dat-ecosystem/dat) | 8232 | 2023-05-07T20:39:11Z | JavaScript | CLI | 3 | 32 | 3 | 3 |
+| [dat-ecosystem/dat](https://github.com/dat-ecosystem/dat) | 8231 | 2023-05-07T20:39:11Z | JavaScript | CLI | 3 | 32 | 3 | 3 |
 | [Pikaday/Pikaday](https://github.com/Pikaday/Pikaday) | 8099 | 2025-08-11T14:59:29Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [rebassjs/rebass](https://github.com/rebassjs/rebass) | 7907 | 2023-07-27T03:42:53Z | JavaScript | Web app | 13 | 12 | 13 | 13 |
 | [styled-system/styled-system](https://github.com/styled-system/styled-system) | 7871 | 2024-01-12T19:55:49Z | JavaScript | Web app | 13 | 15 | 13 | 13 |
@@ -424,6 +425,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [miloyip/nativejson-benchmark](https://github.com/miloyip/nativejson-benchmark) | 2055 | 2022-10-28T09:32:21Z | JavaScript | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [decaporg/gatsby-starter-decap-cms](https://github.com/decaporg/gatsby-starter-decap-cms) | 2053 | 2024-07-21T20:25:18Z | JavaScript | Unknown | 13 | 27 | 13 | 13 |
 | [mapbox/geojson-vt](https://github.com/mapbox/geojson-vt) | 2029 | 2024-06-26T10:23:59Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) | 2026 | 2025-11-26T13:01:05Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [eigilnikolajsen/commit-mono](https://github.com/eigilnikolajsen/commit-mono) | 2022 | 2025-09-24T12:10:17Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
 | [storeon/storeon](https://github.com/storeon/storeon) | 1976 | 2024-12-10T17:42:24Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [rust-lang-cn/rust-by-example-cn](https://github.com/rust-lang-cn/rust-by-example-cn) | 1973 | 2024-09-26T06:13:01Z | JavaScript | Infrastructure/tooling | 2 | 2 | 2 | 2 |

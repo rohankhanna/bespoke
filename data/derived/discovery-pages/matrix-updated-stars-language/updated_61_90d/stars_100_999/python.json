@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 291,
-    "concepts": 480,
-    "observations": 481,
-    "repos": 112,
-    "terms": 474
+    "concepts": 487,
+    "observations": 488,
+    "repos": 113,
+    "terms": 481
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -119,6 +119,7 @@
     "wenet-e2e/WeTextProcessing",
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
+    "xavierpuigf/virtualhome",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",

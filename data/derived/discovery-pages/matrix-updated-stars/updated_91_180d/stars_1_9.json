@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 708,
-    "concepts": 389,
-    "observations": 390,
-    "repos": 210,
-    "terms": 400
+    "components": 692,
+    "concepts": 387,
+    "observations": 388,
+    "repos": 207,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -85,7 +85,6 @@
     "danielrosehill/WhatsApp-Export-Unpacker",
     "dart4e/dart4e-studio",
     "databendlabs/watcher",
-    "datachainlab/lcp-solidity",
     "datachainlab/parlia-elc",
     "datafuse-extras/xorfilter",
     "datajuicer/data-juicer-sandbox",
@@ -131,7 +130,6 @@
     "holochain/hc-launch",
     "ihmcrobotics/ekf",
     "ihmcrobotics/ihmc-build",
-    "infiniflow/resource",
     "IWANABETHATGUY/l-lang",
     "jgpc42/jmh-clojure-task",
     "JLSchuler99/svc-router",
@@ -218,7 +216,6 @@
     "vim-fall/deno-fall-std",
     "vllm-project/media-kit",
     "volodya-lombrozo/neotest-ruby-minitest",
-    "xazukx/ts-rs",
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "yamachu/VoicevoxCoreSwift",
     "zen-eth/multiformats-zig",

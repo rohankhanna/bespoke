@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 310,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 10,
-    "terms": 64
+    "components": 341,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 11,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "a2aproject/a2a-js",
+    "abaplint/transpiler",
     "antvis/GPT-Vis",
     "electron/packager",
     "hexabot-ai/Hexabot",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -148,6 +148,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BlueBrain/HighFive](https://github.com/BlueBrain/HighFive) | 723 | 2025-01-09T09:29:48Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [kondrak/vkQuake2](https://github.com/kondrak/vkQuake2) | 987 | 2025-01-04T22:48:23Z | C/C++ | Infrastructure/tooling | 15 | 4 | 16 | 18 |
 | [alibaba/BladeDISC](https://github.com/alibaba/BladeDISC) | 924 | 2024-12-30T16:51:44Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
+| [vacancy/PyPatchMatch](https://github.com/vacancy/PyPatchMatch) | 130 | 2024-12-26T05:56:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fabiocannizzo/FastBinarySearch](https://github.com/fabiocannizzo/FastBinarySearch) | 153 | 2024-12-19T09:30:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Livox-SDK/Livox-SDK](https://github.com/Livox-SDK/Livox-SDK) | 638 | 2024-12-17T13:20:09Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [aarnphm/whispercpp](https://github.com/aarnphm/whispercpp) | 345 | 2024-12-08T00:20:10Z | C/C++ | Infrastructure/tooling | 13 | 15 | 13 | 13 |
@@ -261,7 +262,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [patrick-kidger/signatory](https://github.com/patrick-kidger/signatory) | 302 | 2024-01-11T16:33:10Z | C/C++ | Infrastructure/tooling | 13 | 2 | 13 | 13 |
 | [wadey/node-microtime](https://github.com/wadey/node-microtime) | 605 | 2024-01-08T18:50:32Z | C/C++ | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [davidstutz/mesh-fusion](https://github.com/davidstutz/mesh-fusion) | 238 | 2024-01-06T16:28:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | 251 | 2024-01-04T17:16:50Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
+| [robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | 250 | 2024-01-04T17:16:50Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [lbcb-sci/racon](https://github.com/lbcb-sci/racon) | 239 | 2023-12-29T13:25:56Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [hiroi-sora/RapidOCR-json](https://github.com/hiroi-sora/RapidOCR-json) | 335 | 2023-12-29T02:55:00Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [Adlik/Adlik](https://github.com/Adlik/Adlik) | 805 | 2023-12-27T07:39:13Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
@@ -405,7 +406,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genotrance/nimgen](https://github.com/genotrance/nimgen) | 115 | 2021-09-01T13:51:12Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [Ableton/push2-display-with-juce](https://github.com/Ableton/push2-display-with-juce) | 151 | 2021-07-28T09:31:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [lvdmaaten/bhtsne](https://github.com/lvdmaaten/bhtsne) | 922 | 2021-07-19T20:33:47Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [chennuo0125-HIT/lidar_imu_calib](https://github.com/chennuo0125-HIT/lidar_imu_calib) | 571 | 2021-05-26T01:31:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -522,7 +522,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jcsalterego/pngpaste](https://github.com/jcsalterego/pngpaste) | 575 | 2023-02-09T17:37:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [antonypro/QGoodWindow](https://github.com/antonypro/QGoodWindow) | 574 | 2025-11-12T13:45:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [QingyongHu/SensatUrban](https://github.com/QingyongHu/SensatUrban) | 573 | 2022-07-22T02:34:45Z | C/C++ | Model/data | 7 | 0 | 7 | 7 |
-| [chennuo0125-HIT/lidar_imu_calib](https://github.com/chennuo0125-HIT/lidar_imu_calib) | 571 | 2021-05-26T01:31:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) | 570 | 2025-07-02T05:33:57Z | C/C++ | Model/data | 4 | 0 | 4 | 4 |
 | [louisdx/cxx-prettyprint](https://github.com/louisdx/cxx-prettyprint) | 569 | 2023-01-02T13:10:17Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [memononen/libtess2](https://github.com/memononen/libtess2) | 565 | 2025-10-15T22:24:31Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -642,8 +641,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aseprite/skia](https://github.com/aseprite/skia) | 253 | 2025-08-21T17:41:37Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [MPEGGroup/mpeg-pcc-tmc13](https://github.com/MPEGGroup/mpeg-pcc-tmc13) | 253 | 2023-10-20T08:20:34Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [eliemichel/WebGPU-distribution](https://github.com/eliemichel/WebGPU-distribution) | 251 | 2025-09-03T15:51:15Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | 251 | 2024-01-04T17:16:50Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [andikleen/snappy-c](https://github.com/andikleen/snappy-c) | 251 | 2021-11-29T00:04:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [robotology-legacy/gym-ignition](https://github.com/robotology-legacy/gym-ignition) | 250 | 2024-01-04T17:16:50Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [cmp-nct/ggllm.cpp](https://github.com/cmp-nct/ggllm.cpp) | 249 | 2024-01-22T23:53:33Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [google/compact_enc_det](https://github.com/google/compact_enc_det) | 246 | 2024-02-12T21:23:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mit-han-lab/flash-moba](https://github.com/mit-han-lab/flash-moba) | 244 | 2025-11-19T19:53:55Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
@@ -765,6 +764,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lac-dcc/llvm-course](https://github.com/lac-dcc/llvm-course) | 134 | 2024-11-08T12:42:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Zielon/INSTA-pytorch](https://github.com/Zielon/INSTA-pytorch) | 134 | 2023-06-14T22:35:35Z | C/C++ | Unknown | 6 | 0 | 7 | 7 |
 | [vinniefalco/CppCon2018](https://github.com/vinniefalco/CppCon2018) | 131 | 2021-10-12T02:50:13Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [vacancy/PyPatchMatch](https://github.com/vacancy/PyPatchMatch) | 130 | 2024-12-26T05:56:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tjdevries/tree-sitter-lua](https://github.com/tjdevries/tree-sitter-lua) | 130 | 2024-10-23T23:44:16Z | C/C++ | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [abolz/Drachennest](https://github.com/abolz/Drachennest) | 130 | 2022-10-10T12:02:58Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [filecoin-project/cpp-filecoin](https://github.com/filecoin-project/cpp-filecoin) | 128 | 2025-01-26T09:59:53Z | C/C++ | Infrastructure/tooling | 8 | 8 | 8 | 8 |

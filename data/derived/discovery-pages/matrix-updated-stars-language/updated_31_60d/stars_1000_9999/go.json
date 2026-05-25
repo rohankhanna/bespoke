@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1744,
-    "concepts": 1681,
-    "observations": 1687,
-    "repos": 215,
-    "terms": 1683
+    "components": 1769,
+    "concepts": 1709,
+    "observations": 1715,
+    "repos": 216,
+    "terms": 1711
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -31,6 +31,7 @@
     "apptainer/apptainer",
     "aquasecurity/starboard",
     "aquasecurity/trivy-operator",
+    "argoproj/argo-events",
     "ariga/atlas",
     "arl/statsviz",
     "asaskevich/govalidator",
@@ -117,7 +118,6 @@
     "google/gnostic",
     "google/go-containerregistry",
     "google/pprof",
-    "google/starlark-go",
     "google/syzkaller",
     "google/trillian",
     "GoogleCloudPlatform/berglas",
@@ -188,6 +188,7 @@
     "osrg/gobgp",
     "peco/peco",
     "probonopd/go-appimage",
+    "prometheus-community/windows_exporter",
     "prometheus-operator/prometheus-operator",
     "prometheus/blackbox_exporter",
     "prometheus/client_golang",

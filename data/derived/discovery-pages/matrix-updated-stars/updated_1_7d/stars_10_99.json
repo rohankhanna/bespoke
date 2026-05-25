@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 23,
-    "terms": 89
+    "components": 252,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 22,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
-    "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
@@ -23,11 +22,11 @@
     "edge-classic/EDGE-classic",
     "f3liz-casa/noraneko",
     "google-marketing-solutions/ariel",
+    "honwen/openwrt-dnsmasq-extra",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
-    "karafka/example-apps",
+    "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
-    "mozilla-ai/otari",
     "nuxt-modules/emotion",
     "nvim-mini/mini.deps",
     "ogx-ai/ogx-client-typescript",

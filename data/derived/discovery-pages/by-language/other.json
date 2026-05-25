@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26326,
-    "concepts": 22665,
-    "observations": 22737,
-    "repos": 5612,
-    "terms": 22604
+    "components": 26338,
+    "concepts": 22693,
+    "observations": 22765,
+    "repos": 5616,
+    "terms": 22636
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -842,6 +842,7 @@
     "bensu/doo",
     "benwmills/core-sass-compiler",
     "Beomi/KoAlpaca",
+    "BepInEx/BepInEx",
     "bepu/bepuphysics1",
     "bepu/bepuphysics2",
     "Betterment/betterlint",
@@ -2049,6 +2050,7 @@
     "facebookresearch/SWAG",
     "facebookresearch/vissl",
     "FactoryXCode/MfPack",
+    "fairygui/FairyGUI-unity",
     "faisalsayed10/carbon-slack",
     "falahati/LiteDBViewer",
     "falcoframework/Falco",
@@ -2724,6 +2726,7 @@
     "isl-org/ZoeDepth",
     "islandoftex/arara",
     "isocpp/CppCoreGuidelines",
+    "Isotr0py/SakuraLLM-Notebooks",
     "Issafalcon/neotest-dotnet",
     "IST-DASLab/Quartet",
     "istio/client-go",
@@ -5367,6 +5370,7 @@
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "velocyto-team/velocyto.R",
     "venantius/vim-cljfmt",
+    "verbiiii/rigl-torch",
     "verbiiyo/rigl-torch",
     "version-fox/vfox-plugin-template",
     "vform666/variant-form",

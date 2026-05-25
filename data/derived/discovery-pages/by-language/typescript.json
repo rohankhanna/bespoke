@@ -4,13 +4,13 @@
     "concepts": 10889,
     "observations": 10924,
     "repos": 1913,
-    "terms": 11186
+    "terms": 11190
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",

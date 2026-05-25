@@ -1,23 +1,20 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 7,
-    "terms": 14
+    "components": 13,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 4,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
-    "ADNTIO/crispy-bootloader-rp2040-rs",
     "apostrophecms/starter-kit-astro-essentials",
-    "cloudfoundry/credhub-acceptance-tests",
     "HuaweiCloudDeveloper/karpenter-provider-huawei",
-    "oscard0m/ts-transformer-remove-named-export",
     "SeedScientist/K2V",
     "Venly/web3-react-venly"
   ]

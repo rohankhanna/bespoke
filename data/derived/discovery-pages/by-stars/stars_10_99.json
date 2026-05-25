@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28460,
-    "concepts": 15230,
-    "observations": 15282,
-    "repos": 5507,
+    "components": 28463,
+    "concepts": 15228,
+    "observations": 15280,
+    "repos": 5509,
     "terms": 15229
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2951,6 +2951,7 @@
     "isamert/gracer",
     "isl-org/open3d-cmake-external-project",
     "isl-org/open3d-cmake-find-package",
+    "Isotr0py/SakuraLLM-Notebooks",
     "IST-DASLab/Quartet-II",
     "istanbuljs/eslint-plugin-istanbul",
     "istanbuljs/istanbuljs.github.io",
@@ -3356,6 +3357,7 @@
     "kubernetes-sigs/verify-conformance",
     "kubernetes/steering",
     "kunwar-shah/claudex",
+    "kurikomoe/LunaTranslator",
     "kurrent-io/KurrentDB-Client-Go",
     "kurrent-io/KurrentDB-Client-Java",
     "kurrent-io/KurrentDB-Client-Rust",
@@ -5156,7 +5158,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5263,6 +5265,7 @@
     "VectorSpaceLab/Vis-IR",
     "vega/roadmap",
     "vega/schema",
+    "verbiiii/rigl-torch",
     "verbiiyo/rigl-torch",
     "VeriSilicon/tflite-vx-delegate",
     "version-fox/vfox-plugins",
@@ -5450,7 +5453,6 @@
     "ye4241/midjourney-captcha-bot",
     "Yepkit/ykush",
     "yeyupiaoling/PaddlePaddle-MobileFaceNets",
-    "yeyupiaoling/PaddlePaddle-MTCNN",
     "yifan123/reward-server",
     "ykdojo/cc-safe",
     "yklykl530/koa-sse",

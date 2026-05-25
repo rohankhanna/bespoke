@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 207
-- terms: 754
+- repos: 209
+- terms: 757
 - components: 346
-- concepts: 763
-- observations: 763
+- concepts: 766
+- observations: 766
 
 ## Static behavior
 
@@ -85,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kpu/kenlm](https://github.com/kpu/kenlm) | 2764 | 2025-03-30T17:50:54Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [RWKV/rwkv.cpp](https://github.com/RWKV/rwkv.cpp) | 1569 | 2025-03-23T05:04:42Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [lh3/bwa](https://github.com/lh3/bwa) | 1731 | 2025-03-22T19:05:09Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [InWILL/Locale_Remulator](https://github.com/InWILL/Locale_Remulator) | 1308 | 2025-03-21T17:03:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [aras-p/ClangBuildAnalyzer](https://github.com/aras-p/ClangBuildAnalyzer) | 1230 | 2025-03-21T04:55:04Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [arq5x/bedtools2](https://github.com/arq5x/bedtools2) | 1030 | 2025-03-11T19:16:43Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [OAID/Tengine](https://github.com/OAID/Tengine) | 4521 | 2025-03-06T07:12:55Z | C/C++ | Infrastructure/tooling | 16 | 7 | 16 | 16 |
@@ -105,7 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashima/webgl-noise](https://github.com/ashima/webgl-noise) | 2964 | 2024-11-15T20:49:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [aappleby/smhasher](https://github.com/aappleby/smhasher) | 2859 | 2024-11-14T04:23:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [davidrmiller/biosim4](https://github.com/davidrmiller/biosim4) | 3344 | 2024-11-12T23:02:24Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [baidu/braft](https://github.com/baidu/braft) | 4214 | 2024-10-25T07:22:09Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [baidu/braft](https://github.com/baidu/braft) | 4215 | 2024-10-25T07:22:09Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [HKUST-Aerial-Robotics/Fast-Planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner) | 3279 | 2024-10-24T13:12:43Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [MegEngine/MegEngine](https://github.com/MegEngine/MegEngine) | 4806 | 2024-10-24T10:10:58Z | C/C++ | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [erwincoumans/tiny-differentiable-simulator](https://github.com/erwincoumans/tiny-differentiable-simulator) | 1361 | 2024-10-18T23:14:47Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -120,7 +121,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2) | 5273 | 2024-08-06T13:28:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) | 7991 | 2024-08-02T00:20:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp) | 2961 | 2024-07-31T06:12:02Z | C/C++ | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [flann-lib/flann](https://github.com/flann-lib/flann) | 2371 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flann-lib/flann](https://github.com/flann-lib/flann) | 2370 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sass/node-sass](https://github.com/sass/node-sass) | 8477 | 2024-07-24T21:59:31Z | C/C++ | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) | 7934 | 2024-07-24T10:06:45Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [agauniyal/rang](https://github.com/agauniyal/rang) | 1582 | 2024-07-23T07:26:16Z | C/C++ | CLI | 11 | 0 | 11 | 11 |
@@ -158,13 +159,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) | 1478 | 2024-03-21T18:01:36Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [NicoHood/HID](https://github.com/NicoHood/HID) | 2555 | 2024-03-21T03:35:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [itinance/react-native-fs](https://github.com/itinance/react-native-fs) | 5043 | 2024-03-18T00:17:22Z | C/C++ | Unknown | 3 | 7 | 3 | 3 |
+| [Artikash/Textractor](https://github.com/Artikash/Textractor) | 2631 | 2024-03-15T23:55:46Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [GPUOpen-LibrariesAndSDKs/RadeonRays_SDK](https://github.com/GPUOpen-LibrariesAndSDKs/RadeonRays_SDK) | 1100 | 2024-03-10T18:39:51Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [tpruvot/ccminer](https://github.com/tpruvot/ccminer) | 1657 | 2024-03-09T17:37:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ethereum/aleth](https://github.com/ethereum/aleth) | 3972 | 2024-03-05T10:53:01Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
 | [lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) | 2017 | 2024-03-05T08:38:53Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [mtrebi/thread-pool](https://github.com/mtrebi/thread-pool) | 1232 | 2024-03-01T03:35:48Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [rprichard/winpty](https://github.com/rprichard/winpty) | 1370 | 2024-02-19T21:10:20Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [vimpunk/mio](https://github.com/vimpunk/mio) | 1944 | 2024-02-11T17:37:47Z | C/C++ | Library | 9 | 0 | 9 | 9 |
+| [vimpunk/mio](https://github.com/vimpunk/mio) | 1945 | 2024-02-11T17:37:47Z | C/C++ | Library | 9 | 0 | 9 | 9 |
 | [aantron/better-enums](https://github.com/aantron/better-enums) | 1814 | 2024-02-10T16:50:13Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [knightcrawler25/GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer) | 2047 | 2024-02-09T17:38:14Z | C/C++ | Unknown | 15 | 0 | 15 | 15 |
 | [NVIDIA/thrust](https://github.com/NVIDIA/thrust) | 5002 | 2024-02-08T15:54:40Z | C/C++ | Infrastructure/tooling | 16 | 5 | 16 | 16 |
@@ -282,7 +284,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HKUST-Aerial-Robotics/VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) | 4498 | 2024-05-23T09:17:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mapbox/mapbox-gl-native](https://github.com/mapbox/mapbox-gl-native) | 4450 | 2023-07-27T10:31:03Z | C/C++ | Unknown | 17 | 29 | 17 | 17 |
 | [sass/libsass](https://github.com/sass/libsass) | 4331 | 2025-10-24T22:58:42Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [baidu/braft](https://github.com/baidu/braft) | 4214 | 2024-10-25T07:22:09Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [baidu/braft](https://github.com/baidu/braft) | 4215 | 2024-10-25T07:22:09Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [tomaz/appledoc](https://github.com/tomaz/appledoc) | 4191 | 2023-04-18T11:08:26Z | C/C++ | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [kiwi-bdd/Kiwi](https://github.com/kiwi-bdd/Kiwi) | 4121 | 2023-09-05T11:52:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google/AFL](https://github.com/google/AFL) | 4092 | 2021-07-05T14:02:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -312,6 +314,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bitfieldaudio/OTTO](https://github.com/bitfieldaudio/OTTO) | 2718 | 2023-01-23T08:31:10Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [baidu/Familia](https://github.com/baidu/Familia) | 2646 | 2021-07-01T08:28:33Z | C/C++ | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [flame/blis](https://github.com/flame/blis) | 2631 | 2025-11-11T16:18:16Z | C/C++ | Framework | 13 | 0 | 13 | 13 |
+| [Artikash/Textractor](https://github.com/Artikash/Textractor) | 2631 | 2024-03-15T23:55:46Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [gloxec/CrossC2](https://github.com/gloxec/CrossC2) | 2559 | 2023-11-20T10:54:46Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [NicoHood/HID](https://github.com/NicoHood/HID) | 2555 | 2024-03-21T03:35:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kkos/oniguruma](https://github.com/kkos/oniguruma) | 2518 | 2025-04-24T12:42:35Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -320,7 +323,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dmlc/decord](https://github.com/dmlc/decord) | 2463 | 2024-07-17T04:18:40Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [strasdat/Sophus](https://github.com/strasdat/Sophus) | 2407 | 2024-07-06T18:06:55Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [HKUST-Aerial-Robotics/A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) | 2400 | 2023-10-19T11:18:59Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [flann-lib/flann](https://github.com/flann-lib/flann) | 2371 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [flann-lib/flann](https://github.com/flann-lib/flann) | 2370 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ben-strasser/fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser) | 2353 | 2025-02-02T15:51:35Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [veandco/go-sdl2](https://github.com/veandco/go-sdl2) | 2321 | 2025-02-20T04:55:37Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [specta/specta](https://github.com/specta/specta) | 2315 | 2022-02-27T13:22:51Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
@@ -343,7 +346,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) | 2017 | 2024-03-05T08:38:53Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) | 1986 | 2024-05-05T20:00:16Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [moretension/duti](https://github.com/moretension/duti) | 1946 | 2023-07-09T11:57:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [vimpunk/mio](https://github.com/vimpunk/mio) | 1944 | 2024-02-11T17:37:47Z | C/C++ | Library | 9 | 0 | 9 | 9 |
+| [vimpunk/mio](https://github.com/vimpunk/mio) | 1945 | 2024-02-11T17:37:47Z | C/C++ | Library | 9 | 0 | 9 | 9 |
 | [KumarRobotics/msckf_vio](https://github.com/KumarRobotics/msckf_vio) | 1935 | 2023-11-22T09:11:28Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [ambrop72/badvpn](https://github.com/ambrop72/badvpn) | 1931 | 2021-08-22T15:44:42Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [julius-speech/julius](https://github.com/julius-speech/julius) | 1927 | 2025-06-16T07:10:03Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
@@ -399,6 +402,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muellan/clipp](https://github.com/muellan/clipp) | 1322 | 2024-05-30T08:13:54Z | C/C++ | CLI | 16 | 0 | 16 | 16 |
 | [CharlesShang/DCNv2](https://github.com/CharlesShang/DCNv2) | 1322 | 2024-04-25T06:55:55Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [daipeihust/im-select](https://github.com/daipeihust/im-select) | 1311 | 2024-05-25T08:30:24Z | C/C++ | CLI | 4 | 1 | 4 | 4 |
+| [InWILL/Locale_Remulator](https://github.com/InWILL/Locale_Remulator) | 1308 | 2025-03-21T17:03:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [adamyaxley/Obfuscate](https://github.com/adamyaxley/Obfuscate) | 1297 | 2025-09-03T09:13:50Z | C/C++ | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [astrand/xclip](https://github.com/astrand/xclip) | 1292 | 2025-01-09T22:05:21Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [mitsuba-renderer/enoki](https://github.com/mitsuba-renderer/enoki) | 1287 | 2025-02-06T04:46:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

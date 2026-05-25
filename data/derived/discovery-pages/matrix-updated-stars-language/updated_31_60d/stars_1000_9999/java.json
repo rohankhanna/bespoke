@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 298,
+    "components": 300,
     "concepts": 334,
     "observations": 336,
-    "repos": 43,
+    "repos": 44,
     "terms": 334
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -39,6 +39,7 @@
     "http-kit/http-kit",
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
+    "junit-team/junit4",
     "langchain4j/langchain4j-examples",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",

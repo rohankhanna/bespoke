@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 141,
-    "observations": 141,
+    "components": 118,
+    "concepts": 134,
+    "observations": 134,
     "repos": 28,
-    "terms": 146
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "allenai/olmocr",
@@ -36,8 +36,8 @@
     "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
+    "resemble-ai/chatterbox",
     "superclaude-org/superclaude_framework",
-    "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
     "Zulko/moviepy",

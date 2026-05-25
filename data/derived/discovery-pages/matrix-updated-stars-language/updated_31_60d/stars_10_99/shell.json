@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 218,
-    "observations": 221,
-    "repos": 46,
-    "terms": 218
+    "components": 194,
+    "concepts": 210,
+    "observations": 213,
+    "repos": 45,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -52,7 +52,6 @@
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
-    "nodenv/node-build-update-defs",
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
     "oneclick/rubyinstaller2-packages",

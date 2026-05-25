@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 14,
-    "terms": 52
+    "components": 37,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 15,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
     "agkozak/zcomet",
@@ -24,6 +24,7 @@
     "github/super-linter",
     "heroku/heroku-buildpack-pgbouncer",
     "lxgw/LxgwWenKai-Lite",
+    "mklement0/n-install",
     "mosaicml/examples",
     "nodejs/unofficial-builds",
     "NVIDIA/DL4AGX",

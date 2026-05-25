@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15910,
-    "concepts": 6497,
-    "observations": 6526,
-    "repos": 695,
-    "terms": 6504
+    "components": 15900,
+    "concepts": 6482,
+    "observations": 6511,
+    "repos": 693,
+    "terms": 6491
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -336,6 +336,7 @@
     "hesreallyhim/awesome-claude-code",
     "hibiken/asynq",
     "HKUDS/LightRAG",
+    "HKUDS/RAG-Anything",
     "home-assistant/core",
     "Homebrew/brew",
     "Homebrew/homebrew-core",
@@ -351,7 +352,6 @@
     "hyperium/tonic",
     "iamkun/dayjs",
     "ianyh/Amethyst",
-    "Ileriayo/markdown-badges",
     "Immediate-Mode-UI/Nuklear",
     "immerjs/immer",
     "ImranR98/Obtainium",
@@ -555,7 +555,6 @@
     "pyodide/pyodide",
     "pypa/pip",
     "pytest-dev/pytest",
-    "python-poetry/poetry",
     "python/cpython",
     "python/mypy",
     "pytorch/pytorch",
@@ -578,7 +577,6 @@
     "reduxjs/redux-toolkit",
     "remy/nodemon",
     "renovatebot/renovate",
-    "resemble-ai/chatterbox",
     "resilience4j/resilience4j",
     "rollup/rollup",
     "router-for-me/cliproxyapi",

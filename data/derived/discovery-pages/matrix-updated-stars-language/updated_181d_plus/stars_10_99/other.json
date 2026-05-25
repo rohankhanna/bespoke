@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2033,
-    "concepts": 1885,
-    "observations": 1891,
-    "repos": 826,
-    "terms": 1878
+    "components": 2036,
+    "concepts": 1886,
+    "observations": 1892,
+    "repos": 828,
+    "terms": 1879
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x7432/asm-ru",
@@ -437,6 +437,7 @@
     "input-output-hk/tullia",
     "interstar/Patterning",
     "isl-org/open3d-cmake-external-project",
+    "Isotr0py/SakuraLLM-Notebooks",
     "ivyl/vim-bling",
     "jadestrong/lsp-volar",
     "jarcane/clojurice",
@@ -800,6 +801,7 @@
     "vcflib/bio-vcf",
     "vectorclass/manual",
     "vectordotdev/vector-test-harness",
+    "verbiiii/rigl-torch",
     "verbiiyo/rigl-torch",
     "vharmain/nbb-serverless-example",
     "vim-denops/denops-shared-server.vim",

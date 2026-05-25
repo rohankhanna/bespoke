@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 325,
     "observations": 325,
-    "repos": 280,
+    "repos": 281,
     "terms": 325
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -180,6 +180,7 @@
     "lita-xyz/valida-releases",
     "loscrossos/lib_flashattention",
     "lumen-oss/sample-luarocks-plugin",
+    "lxgw/ext-characters",
     "lxgw/FusionKai",
     "lxgw/LxgwFasmartGothic",
     "lxgw/LxgwHeartSerif",

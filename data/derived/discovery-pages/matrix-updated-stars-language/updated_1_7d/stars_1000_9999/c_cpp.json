@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 117,
-    "observations": 118,
+    "components": 124,
+    "concepts": 120,
+    "observations": 121,
     "repos": 10,
-    "terms": 115
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
     "CloudCompare/CloudCompare",
     "doctest/doctest",
     "harfbuzz/harfbuzz",
-    "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
     "riscv-collab/riscv-gnu-toolchain",
+    "swiftlang/swift-llbuild",
     "ultrajson/ultrajson",
     "xtensor-stack/xtensor"
   ]

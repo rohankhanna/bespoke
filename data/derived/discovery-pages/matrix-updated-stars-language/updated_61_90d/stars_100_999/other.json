@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 676,
-    "concepts": 539,
-    "observations": 541,
-    "repos": 129,
-    "terms": 537
+    "components": 774,
+    "concepts": 560,
+    "observations": 562,
+    "repos": 134,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -51,6 +51,7 @@
     "cpp-pm/hunter",
     "creativescala/doodle",
     "crivotz/nv-ide",
+    "csstools/normalize.css",
     "csstools/postcss-normalize",
     "Cysharp/ValueTaskSupplement",
     "Dao-AILab/causal-conv1d",
@@ -62,12 +63,12 @@
     "dkubb/equalizer",
     "dkubb/memoizable",
     "dmitry-brazhenko/SharpToken",
+    "doolijb/serene-pub",
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
     "dwyl/phoenix-todo-list-tutorial",
     "elixir-ecto/myxql",
-    "elm-explorations/test",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
     "ericmj/decimal",
@@ -90,6 +91,7 @@
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
     "JunoLab/Weave.jl",
+    "kendryte/nncase",
     "KhronosGroup/EGL-Registry",
     "kowainik/summoner",
     "lassik/emacs-format-all-the-code",
@@ -98,6 +100,7 @@
     "lifepillar/vim-mucomplete",
     "malaysia-ai/malaya",
     "mcabbott/AxisKeys.jl",
+    "melix/jmh-gradle-plugin",
     "metosin/ring-swagger",
     "metosin/spec-tools",
     "microsoft/microsoft-performance-toolkit-sdk",
@@ -107,6 +110,7 @@
     "Nek5000/Nek5000",
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
+    "ocaml-community/utop",
     "ocurrent/ocaml-ci",
     "olimorris/neotest-rspec",
     "onomojo/i18n-country-translations",
@@ -125,6 +129,7 @@
     "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
+    "semver/semver.org",
     "SlRvb/Obsidian--ITS-Theme",
     "sol/hpack",
     "stefan-hoeck/idris2-pack",

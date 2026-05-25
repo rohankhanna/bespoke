@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1847,
-    "concepts": 1821,
-    "observations": 1830,
-    "repos": 364,
-    "terms": 1834
+    "components": 1851,
+    "concepts": 1844,
+    "observations": 1853,
+    "repos": 365,
+    "terms": 1857
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -108,6 +108,7 @@
     "cswry/SeeSR",
     "cubed-dev/cubed",
     "CUNY-CL/wikipron",
+    "CVHub520/X-AnyLabeling-Server",
     "daaain/claude-code-log",
     "daniandtheweb/sd.cpp-webui",
     "danny-avila/rag_api",
@@ -251,6 +252,7 @@
     "MontrealCorpusTools/mfa-models",
     "mosaicml/diffusion",
     "mosecorg/mosec",
+    "mtkennerly/dunamai",
     "multiformats/multicodec",
     "nanoporetech/medaka",
     "naver/kapture",
@@ -368,7 +370,6 @@
     "volcengine/volcengine-python-sdk",
     "voxel51/fiftyone-brain",
     "wuphilipp/gello_software",
-    "xavierpuigf/virtualhome",
     "Yelp/aactivator",
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",

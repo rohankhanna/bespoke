@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 500,
-    "concepts": 345,
-    "observations": 347,
-    "repos": 80,
-    "terms": 339
+    "components": 508,
+    "concepts": 353,
+    "observations": 355,
+    "repos": 82,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -21,6 +21,7 @@
     "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
     "antham/ghokin",
+    "apache/datasketches-go",
     "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",
@@ -36,6 +37,7 @@
     "celo-org/op-geth",
     "chrislusf/seaweedfs",
     "cloudfoundry/bbs",
+    "cloudfoundry/bpm-release",
     "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
     "coder/coder-logstream-kube",

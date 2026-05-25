@@ -1,9 +1,9 @@
 {
   "counts": {
     "components": 370,
-    "concepts": 758,
-    "observations": 758,
-    "repos": 204,
+    "concepts": 756,
+    "observations": 756,
+    "repos": 201,
     "terms": 751
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -59,7 +59,6 @@
     "bytedance/SandboxFusion",
     "carla-simulator/leaderboard",
     "chengzhag/PanFusion",
-    "ChenMnZ/PrefixQuant",
     "christgau/wsdd",
     "citation-file-format/citation-file-format",
     "clearbluejar/ghidrecomp",
@@ -105,7 +104,6 @@
     "huggingface/flux-fast",
     "hustvl/DiffusionDriveV2",
     "ielab/llm-rankers",
-    "inclusionAI/ASearcher",
     "inducer/cgen",
     "intel/ai-reference-models",
     "InternRobotics/VLAC",
@@ -154,7 +152,6 @@
     "OpenBMB/infllmv2_cuda_impl",
     "OpenBMB/VisRAG",
     "OpenGVLab/GUI-Odyssey",
-    "OpenGVLab/OmniQuant",
     "OpenMOSS/FRoM-W1",
     "OpenSparseLLMs/MoM",
     "p-doom/jasmine",

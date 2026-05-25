@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1214,
-    "concepts": 270,
-    "observations": 271,
-    "repos": 45,
-    "terms": 281
+    "components": 1298,
+    "concepts": 283,
+    "observations": 284,
+    "repos": 46,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -46,6 +46,7 @@
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "priceline/design-system",
+    "ruvnet/agentic-flow",
     "solidjs/templates",
     "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",

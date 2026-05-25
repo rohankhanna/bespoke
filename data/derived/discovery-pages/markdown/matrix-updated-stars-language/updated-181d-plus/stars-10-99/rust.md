@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -73,7 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pinecone-io/assistant-mcp](https://github.com/pinecone-io/assistant-mcp) | 42 | 2025-04-17T10:32:57Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [holochain/devhub-dnas](https://github.com/holochain/devhub-dnas) | 62 | 2025-04-15T09:21:50Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [OutThereLabs/actix-web-opentelemetry](https://github.com/OutThereLabs/actix-web-opentelemetry) | 81 | 2025-03-27T20:55:33Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [NEAR-DevHub/neardevhub-contract](https://github.com/NEAR-DevHub/neardevhub-contract) | 18 | 2025-03-06T19:20:27Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [NEAR-DevHub/neardevhub-contract](https://github.com/NEAR-DevHub/neardevhub-contract) | 17 | 2025-03-06T19:20:27Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [google/serde_json5](https://github.com/google/serde_json5) | 47 | 2025-02-28T21:57:47Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [0xPlaygrounds/rig-onchain-kit](https://github.com/0xPlaygrounds/rig-onchain-kit) | 64 | 2025-02-27T22:35:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [op-rs/maili](https://github.com/op-rs/maili) | 16 | 2025-02-21T23:30:18Z | Rust | Infrastructure/tooling | 10 | 16 | 10 | 10 |
@@ -366,10 +366,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KillingSpark/rust-dbus-comparisons](https://github.com/KillingSpark/rust-dbus-comparisons) | 19 | 2024-11-01T13:36:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [asaaki/opentelemetry-tide](https://github.com/asaaki/opentelemetry-tide) | 19 | 2023-03-27T22:00:25Z | Rust | Infrastructure/tooling | 10 | 4 | 10 | 10 |
 | [casbin-rs/examples](https://github.com/casbin-rs/examples) | 19 | 2022-09-16T00:14:46Z | Rust | Infrastructure/tooling | 9 | 2 | 9 | 9 |
-| [NEAR-DevHub/neardevhub-contract](https://github.com/NEAR-DevHub/neardevhub-contract) | 18 | 2025-03-06T19:20:27Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [KerfuffleV2/llm-samplers](https://github.com/KerfuffleV2/llm-samplers) | 18 | 2023-11-09T08:28:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [calebzulawski/autobahn-hash](https://github.com/calebzulawski/autobahn-hash) | 18 | 2023-06-06T00:17:24Z | Rust | Unknown | 5 | 0 | 5 | 5 |
 | [ddulesov/clickhouse_driver](https://github.com/ddulesov/clickhouse_driver) | 18 | 2021-12-29T02:30:47Z | Rust | CLI | 2 | 1 | 2 | 3 |
+| [NEAR-DevHub/neardevhub-contract](https://github.com/NEAR-DevHub/neardevhub-contract) | 17 | 2025-03-06T19:20:27Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [not-fl3/quad-net](https://github.com/not-fl3/quad-net) | 17 | 2024-09-10T18:55:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [argmin-rs/modcholesky](https://github.com/argmin-rs/modcholesky) | 17 | 2024-08-31T14:23:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [celo-org/snark-setup](https://github.com/celo-org/snark-setup) | 17 | 2024-02-03T00:58:56Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |

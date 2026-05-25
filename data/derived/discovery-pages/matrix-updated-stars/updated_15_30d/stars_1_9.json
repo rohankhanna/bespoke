@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1873,
-    "concepts": 1075,
-    "observations": 1080,
-    "repos": 217,
-    "terms": 1072
+    "components": 1869,
+    "concepts": 1071,
+    "observations": 1075,
+    "repos": 214,
+    "terms": 1068
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -49,7 +49,6 @@
     "cloudfoundry/wg-app-platform-runtime-ci",
     "compiler-research/cppyy",
     "compiler-research/cppyy-backend",
-    "conda-forge/captum-feedstock",
     "conda-forge/pyfive-feedstock",
     "conda-forge/rerun-sdk-feedstock",
     "cosmos/rosetta",
@@ -69,7 +68,6 @@
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Claude-Rudder",
     "danielrosehill/Resources-Lists-Index",
-    "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
     "danielrosehill/Voxtype",
     "databendlabs/databend-meta",
@@ -120,7 +118,6 @@
     "hiyouga/llamafactory-community",
     "HKUDS/.github",
     "holochain/holonix",
-    "huggingface/fuser",
     "huggingface/hf-csi-driver",
     "Humans-of-Julia/BibInternal.jl",
     "hybridgroup/llama-cpp-builder",

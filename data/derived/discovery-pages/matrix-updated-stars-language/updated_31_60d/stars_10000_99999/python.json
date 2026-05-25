@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1838,
-    "concepts": 1524,
-    "observations": 1528,
-    "repos": 162,
-    "terms": 1550
+    "components": 1833,
+    "concepts": 1518,
+    "observations": 1522,
+    "repos": 161,
+    "terms": 1544
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -86,6 +86,7 @@
     "gruns/icecream",
     "hesreallyhim/awesome-claude-code",
     "HKUDS/LightRAG",
+    "HKUDS/RAG-Anything",
     "home-assistant/core",
     "hpcaitech/ColossalAI",
     "hpcaitech/Open-Sora",
@@ -145,14 +146,12 @@
     "pyodide/pyodide",
     "pypa/pip",
     "pytest-dev/pytest",
-    "python-poetry/poetry",
     "python/cpython",
     "python/mypy",
     "pytorch/pytorch",
     "pytorch/vision",
     "ranger/ranger",
     "ray-project/ray",
-    "resemble-ai/chatterbox",
     "sanic-org/sanic",
     "searxng/searxng",
     "sgl-project/sglang",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 38,
-    "terms": 151
+    "components": 174,
+    "concepts": 162,
+    "observations": 162,
+    "repos": 39,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "aquasecurity/tfsec",
     "atotto/clipboard",
@@ -34,6 +34,7 @@
     "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
+    "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
     "isaacphi/mcp-language-server",

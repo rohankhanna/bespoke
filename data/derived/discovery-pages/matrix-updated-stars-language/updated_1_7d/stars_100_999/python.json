@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 19,
-    "terms": 104
+    "components": 67,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 15,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
-    "AI-Hypercomputer/maxdiffusion",
     "AMD-AGI/Nitro-1",
-    "gbionics/adam",
+    "Comfy-Org/comfy-cli",
     "google-deepmind/xmanager",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
@@ -26,12 +25,9 @@
     "jupyter-server/jupyter_server",
     "NCAS-CMS/pyfive",
     "perrygeo/python-rasterstats",
-    "pyrtlsdr/pyrtlsdr",
-    "scverse/rapids-singlecell",
     "shawn0728/OpenSearch-VL",
     "SublimeText/AFileIcon",
     "TinyLLaVA/TinyLLaVA_Factory",
-    "tox-dev/filelock",
-    "zh-plus/openlrc"
+    "tox-dev/filelock"
   ]
 }

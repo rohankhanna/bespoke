@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 737,
-    "concepts": 147,
-    "observations": 148,
-    "repos": 29,
-    "terms": 148
+    "components": 804,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 30,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -31,6 +31,7 @@
     "obsidianmd/obsidian-sample-plugin",
     "omnara-ai/omnara",
     "PaulLeCam/react-leaflet",
+    "posva/unplugin-vue-router",
     "react-native-netinfo/react-native-netinfo",
     "ricky0123/vad",
     "RobinBlomberg/kysely-codegen",

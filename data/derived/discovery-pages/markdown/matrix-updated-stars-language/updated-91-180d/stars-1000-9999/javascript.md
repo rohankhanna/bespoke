@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 182
-- components: 578
-- concepts: 184
-- observations: 185
+- repos: 36
+- terms: 177
+- components: 560
+- concepts: 179
+- observations: 180
 
 ## Static behavior
 
@@ -62,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gwudcap/cc-sessions](https://github.com/GWUDCAP/cc-sessions) | 1524 | 2025-12-17T23:16:51Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [gautamkrishnar/nothing-private](https://github.com/gautamkrishnar/nothing-private) | 2213 | 2025-12-09T23:14:50Z | JavaScript | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [Blizzard/node-rdkafka](https://github.com/Blizzard/node-rdkafka) | 2204 | 2025-12-03T19:21:11Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
-| [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) | 2026 | 2025-11-26T13:01:05Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -89,7 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Blizzard/node-rdkafka](https://github.com/Blizzard/node-rdkafka) | 2204 | 2025-12-03T19:21:11Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [huggingface/transformers.js-examples](https://github.com/huggingface/transformers.js-examples) | 2031 | 2026-02-17T18:29:44Z | JavaScript | Unknown | 2 | 3 | 2 | 2 |
 | [primer/github-vscode-theme](https://github.com/primer/github-vscode-theme) | 2030 | 2026-01-21T00:29:56Z | JavaScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
-| [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) | 2026 | 2025-11-26T13:01:05Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [fengari-lua/fengari](https://github.com/fengari-lua/fengari) | 1991 | 2026-01-02T13:02:57Z | JavaScript | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [pburtchaell/redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware) | 1975 | 2026-01-30T18:25:34Z | JavaScript | Unknown | 5 | 19 | 5 | 5 |
 | [facebook/fbjs](https://github.com/facebook/fbjs) | 1964 | 2026-01-21T23:17:02Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |

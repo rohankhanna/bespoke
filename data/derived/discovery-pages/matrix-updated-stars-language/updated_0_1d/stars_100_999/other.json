@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 45,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 4,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "astroautomata/SymbolicRegression.jl",
-    "babashka/nbb",
+    "ChristopherHX/runner.server",
+    "karafka/rdkafka-ruby",
     "sbt/sbt-jmh"
   ]
 }

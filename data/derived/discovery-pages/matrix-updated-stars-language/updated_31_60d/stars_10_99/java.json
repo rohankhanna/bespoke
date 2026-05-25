@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 156,
-    "observations": 157,
-    "repos": 35,
-    "terms": 154
+    "components": 154,
+    "concepts": 147,
+    "observations": 148,
+    "repos": 34,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
-    "akarnokd/RxJavaFiberInterop",
     "apache/arrow-java",
     "apache/camel-quarkus-examples",
     "apache/datasketches-hive",

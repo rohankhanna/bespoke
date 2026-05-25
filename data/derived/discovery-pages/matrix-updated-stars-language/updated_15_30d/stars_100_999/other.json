@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1995,
-    "concepts": 1406,
-    "observations": 1406,
-    "repos": 237,
-    "terms": 1398
+    "components": 1983,
+    "concepts": 1392,
+    "observations": 1392,
+    "repos": 233,
+    "terms": 1384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -20,7 +20,6 @@
     "AdguardTeam/FiltersRegistry",
     "agentmorris/MegaDetector",
     "Alexey-T/ATFlatControls",
-    "amerkoleci/JoltPhysicsSharp",
     "ankane/informers",
     "ankane/ruby-polars",
     "anthropics/anthropic-sdk-ruby",
@@ -39,7 +38,6 @@
     "aws/aws-tools-for-powershell",
     "AXERA-TECH/ax-samples",
     "Azure-Samples/get-started-with-ai-agents",
-    "babashka/process",
     "bdovaz/UnityNuGet",
     "BetterThanTomorrow/joyride",
     "bgruening/galaxytools",
@@ -96,7 +94,6 @@
     "GreptimeTeam/dashboard",
     "groundhog2k/helm-charts",
     "GunnarFarneback/LocalRegistry.jl",
-    "hackwaly/ocamlearlybird",
     "halostatue/diff-lcs",
     "haskell/ghcup-hs",
     "HaxeFlixel/flixel-addons",
@@ -223,7 +220,6 @@
     "saem/vscode-nim",
     "sass/sass-spec",
     "sbt/sbt-ci-release",
-    "sbt/sbt-pgp",
     "scalameta/nvim-metals",
     "SciML/LabelledArrays.jl",
     "sclorg/postgresql-container",

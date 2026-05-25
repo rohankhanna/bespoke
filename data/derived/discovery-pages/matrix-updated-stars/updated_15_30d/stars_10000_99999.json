@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10405,
-    "concepts": 4958,
-    "observations": 4971,
-    "repos": 436,
-    "terms": 4926
+    "components": 10397,
+    "concepts": 4954,
+    "observations": 4967,
+    "repos": 435,
+    "terms": 4922
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -189,7 +189,6 @@
     "helix-editor/helix",
     "helm/helm",
     "HKUDS/CLI-Anything",
-    "HKUDS/RAG-Anything",
     "Homebrew/homebrew-cask",
     "http-party/node-http-proxy",
     "huggingface/datasets",

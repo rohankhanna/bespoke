@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 285,
-    "observations": 289,
-    "repos": 55,
-    "terms": 296
+    "components": 231,
+    "concepts": 293,
+    "observations": 297,
+    "repos": 56,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -42,8 +42,8 @@
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
     "lemire/docker_programming_station",
+    "lovell/sharp-libvips",
     "mattmc3/zephyr",
-    "mklement0/n-install",
     "msys2/msys2-installer",
     "nodenv/node-build",
     "numpy/numpy.org",
@@ -52,6 +52,7 @@
     "reviewdog/action-misspell",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
+    "rocker-org/rocker-versioned2",
     "rsmdt/the-startup",
     "rust-cross/rust-musl-cross",
     "rz1989s/claude-code-statusline",

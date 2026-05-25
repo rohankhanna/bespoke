@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 28,
-    "terms": 149
+    "components": 114,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 29,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
@@ -29,6 +29,7 @@
     "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
     "leleliu008/ppkg",
+    "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",
     "postmodern/ruby-versions",

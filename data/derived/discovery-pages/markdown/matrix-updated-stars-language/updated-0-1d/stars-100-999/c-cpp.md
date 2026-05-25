@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-25T06:02:38.623495+00:00`
+Generated at: `2026-05-25T13:03:57.968606+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 15
+- repos: 3
+- terms: 20
 - components: 5
-- concepts: 15
-- observations: 15
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 210 | 2026-05-25T01:29:09Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-24T12:07:50Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T10:50:44Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T09:11:37Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 210 | 2026-05-25T05:20:11Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-24T12:07:50Z | C/C++ | Library | 8 | 0 | 8 | 8 |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 210 | 2026-05-25T01:29:09Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T10:50:44Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T09:11:37Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 210 | 2026-05-25T05:20:11Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |

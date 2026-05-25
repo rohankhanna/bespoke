@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 4,
-    "terms": 29
+    "components": 63,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "ash-rs/ash",
     "crate-ci/cargo-release",
-    "hermit-os/hermit-rs",
     "intentee/paddler"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 580,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 15,
-    "terms": 89
+    "components": 504,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 14,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-25T13:03:57.968606+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
@@ -21,7 +21,6 @@
     "electron/rebuild",
     "google-gemini/live-api-web-console",
     "microsoft/vscode-js-debug",
-    "podman-desktop/podman-desktop",
     "safe-fndn/safe-smart-account",
     "TanStack/form",
     "unplugin/unplugin-vue-components",
