@@ -1435,6 +1435,18 @@
       "source_repo": "linto-ai/whisper-timestamped",
       "status": "candidate-context",
       "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga."
     }
   ],
   "candidate_glosses": [
@@ -2151,6 +2163,12 @@
       "source_repo": "linto-ai/whisper-timestamped",
       "status": "candidate",
       "text": "Multilingual Automatic Speech Recognition with word-level timestamps and confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga."
     }
   ],
   "candidate_related_terms": [
@@ -7276,11 +7294,77 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "kha-white/manga-ocr"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

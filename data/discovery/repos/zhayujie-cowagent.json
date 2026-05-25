@@ -222,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T00:57:51.438119+00:00",
+  "fetched_at": "2026-05-25T11:58:24.156095+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -238,7 +238,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 369
+      "size": 381
     },
     {
       "path": ".github/workflows/deploy-image-arm.yml",
@@ -258,8 +258,8 @@
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-05-24T16:11:26Z",
-    "stargazers_count": 44788,
+    "pushed_at": "2026-05-25T09:12:32Z",
+    "stargazers_count": 44816,
     "topics": [
       "ai",
       "ai-agent",
@@ -278,7 +278,7 @@
       "openclaw",
       "skills"
     ],
-    "updated_at": "2026-05-25T00:35:47Z"
+    "updated_at": "2026-05-25T11:14:28Z"
   },
   "repo_links": [],
   "terms": [

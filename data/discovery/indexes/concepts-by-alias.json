@@ -8644,6 +8644,9 @@
   "bep14": [
     "bep14"
   ],
+  "bepinex": [
+    "bepinex"
+  ],
   "beps (reusable)": [
     "beps-reusable"
   ],
@@ -26891,6 +26894,9 @@
   "curved-text": [
     "curved-text"
   ],
+  "curved-ui": [
+    "curved-ui"
+  ],
   "curves": [
     "curves"
   ],
@@ -38290,6 +38296,9 @@
   "flip": [
     "flip"
   ],
+  "flipbook": [
+    "flipbook"
+  ],
   "flixel": [
     "flixel"
   ],
@@ -40811,6 +40820,9 @@
   ],
   "german-tts": [
     "german-tts"
+  ],
+  "gesture": [
+    "gesture"
   ],
   "gesture-generation": [
     "gesture-generation"
@@ -53395,6 +53407,9 @@
   "linux cmake": [
     "linux-cmake"
   ],
+  "linux cpu": [
+    "linux-cpu"
+  ],
   "linux cpu aarch64": [
     "linux-cpu-aarch64"
   ],
@@ -55783,6 +55798,9 @@
   ],
   "manga": [
     "manga"
+  ],
+  "manga-ocr": [
+    "manga-ocr"
   ],
   "manga-translation": [
     "manga-translation"
@@ -58578,6 +58596,9 @@
   "mocword": [
     "mocword"
   ],
+  "mod-loader": [
+    "mod-loader"
+  ],
   "modal": [
     "modal"
   ],
@@ -58793,6 +58814,9 @@
   ],
   "modin": [
     "modin"
+  ],
+  "modloader": [
+    "modloader"
   ],
   "modnet": [
     "modnet"
@@ -71352,6 +71376,9 @@
   "publish package to pypi": [
     "publish-package-to-pypi"
   ],
+  "publish package to pypi and testpypi": [
+    "publish-package-to-pypi-and-testpypi"
+  ],
   "publish packages": [
     "publish-packages"
   ],
@@ -77723,6 +77750,9 @@
   ],
   "rich": [
     "rich"
+  ],
+  "richtext": [
+    "richtext"
   ],
   "ricing": [
     "ricing"
@@ -92959,6 +92989,9 @@
   "typing": [
     "typing"
   ],
+  "typing-effect": [
+    "typing-effect"
+  ],
   "typings": [
     "typings"
   ],
@@ -93760,6 +93793,12 @@
   "unity-editor": [
     "unity-editor"
   ],
+  "unity-emoji": [
+    "unity-emoji"
+  ],
+  "unity-mono": [
+    "unity-mono"
+  ],
   "unity-registry": [
     "unity-registry"
   ],
@@ -93768,6 +93807,9 @@
   ],
   "unity3d": [
     "unity3d"
+  ],
+  "unity3d-plugin": [
+    "unity3d-plugin"
   ],
   "universal": [
     "universal"
@@ -99693,6 +99735,9 @@
   "windows compatibility test": [
     "windows-compatibility-test"
   ],
+  "windows cpu": [
+    "windows-cpu"
+  ],
   "windows distribution": [
     "windows-distribution"
   ],
@@ -100634,6 +100679,9 @@
   ],
   "xmpp": [
     "xmpp"
+  ],
+  "xna-framework": [
+    "xna-framework"
   ],
   "xonsh": [
     "xonsh"

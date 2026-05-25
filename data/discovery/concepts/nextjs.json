@@ -439,6 +439,12 @@
       "source_repo": "fuma-nama/fumadocs",
       "status": "candidate-context",
       "text": "![banner](./apps/docs/public/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +663,12 @@
       "source_repo": "fuma-nama/fumadocs",
       "status": "candidate",
       "text": "![banner](./apps/docs/public/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2956,11 +2968,41 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

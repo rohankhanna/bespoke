@@ -156,7 +156,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T01:01:02.909250+00:00",
+  "fetched_at": "2026-05-25T12:01:54.798545+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,8 +184,8 @@
     "full_name": "clearml/clearml",
     "html_url": "https://github.com/clearml/clearml",
     "language": "Python",
-    "pushed_at": "2026-05-23T08:19:23Z",
-    "stargazers_count": 6710,
+    "pushed_at": "2026-05-25T10:28:59Z",
+    "stargazers_count": 6707,
     "topics": [
       "ai",
       "clearml",
@@ -204,7 +204,7 @@
       "version",
       "version-control"
     ],
-    "updated_at": "2026-05-24T13:18:17Z"
+    "updated_at": "2026-05-25T10:29:05Z"
   },
   "repo_links": [],
   "terms": [

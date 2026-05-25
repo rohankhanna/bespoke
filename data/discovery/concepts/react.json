@@ -2925,6 +2925,12 @@
       "source_repo": "mui/material-ui",
       "status": "candidate-context",
       "text": "<!-- lint disable mui-first-block-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate-context",
+      "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
     }
   ],
   "candidate_glosses": [
@@ -4391,6 +4397,12 @@
       "source_repo": "mui/material-ui",
       "status": "candidate",
       "text": "<!-- lint disable mui-first-block-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -14991,11 +15003,161 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/babel-plugin-react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "react/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

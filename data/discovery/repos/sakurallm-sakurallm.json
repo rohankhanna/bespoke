@@ -46,14 +46,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "isotr0py/sakurallm-notebooks",
+      "target": "neavo/linguagacha",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "kurikomoe/lunatranslator",
+      "target": "neavo/oneclickllama",
       "target_type": "repository"
     },
     {
@@ -127,7 +127,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-25T02:05:30.485978+00:00",
+  "fetched_at": "2026-05-25T12:22:02.396470+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,9 +156,9 @@
     "html_url": "https://github.com/SakuraLLM/SakuraLLM",
     "language": "Python",
     "pushed_at": "2025-02-09T05:25:50Z",
-    "stargazers_count": 4571,
+    "stargazers_count": 4572,
     "topics": [],
-    "updated_at": "2026-05-24T04:04:36Z"
+    "updated_at": "2026-05-25T03:16:25Z"
   },
   "repo_links": [
     {
@@ -173,12 +173,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "isotr0py/sakurallm-notebooks",
+      "full_name": "neavo/linguagacha",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kurikomoe/lunatranslator",
+      "full_name": "neavo/oneclickllama",
       "source_file": "README.md"
     }
   ],

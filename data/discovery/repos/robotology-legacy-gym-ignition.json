@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T18:48:10.638871+00:00",
+  "fetched_at": "2026-05-25T11:04:21.254826+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,7 +367,7 @@
     "html_url": "https://github.com/robotology-legacy/gym-ignition",
     "language": "C++",
     "pushed_at": "2024-01-04T17:16:50Z",
-    "stargazers_count": 251,
+    "stargazers_count": 250,
     "topics": [
       "gazebo",
       "gym",
@@ -383,7 +383,7 @@
       "scenario",
       "simulation"
     ],
-    "updated_at": "2026-04-30T15:42:03Z"
+    "updated_at": "2026-05-24T21:20:20Z"
   },
   "repo_links": [
     {

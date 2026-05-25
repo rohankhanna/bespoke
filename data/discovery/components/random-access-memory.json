@@ -1,7 +1,7 @@
 {
   "component": "random-access-memory",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-24T18:29:15.298835+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

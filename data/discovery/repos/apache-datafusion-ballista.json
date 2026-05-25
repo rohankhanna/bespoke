@@ -226,12 +226,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -508,14 +508,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -722,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T18:50:34.976499+00:00",
+  "fetched_at": "2026-05-25T11:06:27.444993+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -774,8 +774,8 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-05-24T08:17:20Z",
-    "stargazers_count": 2039,
+    "pushed_at": "2026-05-25T08:22:46Z",
+    "stargazers_count": 2040,
     "topics": [
       "arrow",
       "big-data",
@@ -787,7 +787,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-05-24T08:17:24Z"
+    "updated_at": "2026-05-25T08:22:43Z"
   },
   "repo_links": [],
   "terms": [

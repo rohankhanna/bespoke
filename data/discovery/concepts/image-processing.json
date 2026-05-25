@@ -787,6 +787,18 @@
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
       "status": "candidate-context",
       "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "Manga/Comics Translation Helper Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "SickZil-Machine"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1191,12 @@
       "source_repo": "Extraltodeus/Stable-Diffusion-temperature-settings",
       "status": "candidate",
       "text": "Provides the ability to set the temperature for both UNET and CLIP. For ComfyUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate",
+      "text": "SickZil-Machine"
     }
   ],
   "candidate_related_terms": [],
@@ -3178,11 +3196,41 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

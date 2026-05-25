@@ -133,6 +133,18 @@
       "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga."
     }
   ],
   "candidate_glosses": [
@@ -201,6 +213,12 @@
       "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga."
     }
   ],
   "candidate_related_terms": [
@@ -678,11 +696,23 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "JeffersonQin/YuzuMarker.FontDetection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "kha-white/manga-ocr"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

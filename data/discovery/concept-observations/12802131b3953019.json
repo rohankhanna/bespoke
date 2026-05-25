@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible UI framework for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FairyGUI for Unity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FairyGUI for Unity"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "virtual-list",
+      "sense_id": "virtual-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "virtual-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "virtual-list",
+  "observation_id": "12802131b3953019",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T07:45:58.058620+00:00",
+  "observed_text": "virtual-list",
+  "source_context_snippet": "FairyGUI for Unity",
+  "source_file": null,
+  "source_repo": "fairygui/FairyGUI-unity",
+  "source_repo_description": "A flexible UI framework for Unity"
+}

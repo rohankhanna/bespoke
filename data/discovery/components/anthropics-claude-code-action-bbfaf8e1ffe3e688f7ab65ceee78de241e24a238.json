@@ -1,0 +1,37 @@
+{
+  "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
+  "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-link-review.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-model-check.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-format.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notebook-quality.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notebook-tests.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    }
+  ]
+}

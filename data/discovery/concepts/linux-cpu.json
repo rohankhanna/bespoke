@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux CPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "Manga/Comics Translation Helper Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "Linux CPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate",
+      "text": "Linux CPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "workstation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10167,
+      "status": "candidate",
+      "text": "multiprocessor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux CPU",
+  "concept_id": "linux-cpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/linuxcpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine"
+    }
+  ],
+  "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux CPU",
+      "sense_id": "linux-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

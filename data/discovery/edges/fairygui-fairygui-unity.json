@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "cross-platform-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "curved-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "flipbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "gesture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "infinite-scroll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "richtext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "typing-effect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "ui-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "unity-emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "unity3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "unity3d-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "virtual-list",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-25T07:45:58.058620+00:00",
+  "source_repo": "fairygui/FairyGUI-unity"
+}

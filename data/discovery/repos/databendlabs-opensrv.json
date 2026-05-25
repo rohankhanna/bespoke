@@ -28,27 +28,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "databendlabs/opensrv",
-      "target": "datafuselabs/opensrv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "databendlabs/opensrv",
-      "target": "datafuselabs/databend",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "databendlabs/opensrv",
-      "target": "ceresdb/ceresdb",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "databendlabs/opensrv",
@@ -63,12 +42,8 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-24T18:33:48.480938+00:00",
+  "fetched_at": "2026-05-25T10:53:03.820705+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 1668
-    },
     {
       "path": "Cargo.toml",
       "size": 198
@@ -92,22 +67,6 @@
     "topics": [],
     "updated_at": "2026-03-19T12:34:04Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ceresdb/ceresdb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "datafuselabs/databend",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "datafuselabs/opensrv",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

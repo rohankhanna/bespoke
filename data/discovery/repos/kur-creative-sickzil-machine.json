@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxcpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxcpu.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windowscpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windowscpu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxcpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxcpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linuxcpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "Linux CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windowscpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windowscpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windowscpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "Windows CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "comics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "target": "manga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:28.146092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3930
+    },
+    {
+      "path": ".github/workflows/linuxcpu.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/windowscpu.yml",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manga/Comics Translation Helper Tool",
+    "fork": false,
+    "full_name": "KUR-creative/SickZil-Machine",
+    "html_url": "https://github.com/KUR-creative/SickZil-Machine",
+    "language": "Python",
+    "pushed_at": "2022-11-22T04:11:38Z",
+    "stargazers_count": 1522,
+    "topics": [
+      "comics",
+      "deep-learning",
+      "image-processing",
+      "manga"
+    ],
+    "updated_at": "2026-05-24T08:30:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux CPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linuxcpu.yml",
+      "term": "Linux CPU"
+    },
+    {
+      "context_snippet": "Windows CPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windowscpu.yml",
+      "term": "Windows CPU"
+    },
+    {
+      "context_snippet": "SickZil-Machine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comics"
+    },
+    {
+      "context_snippet": "SickZil-Machine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "SickZil-Machine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "SickZil-Machine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    }
+  ]
+}

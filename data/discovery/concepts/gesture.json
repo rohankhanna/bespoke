@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "gesture"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fairygui/FairyGUI-unity",
+      "status": "candidate-context",
+      "text": "A flexible UI framework for Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fairygui/FairyGUI-unity",
+      "status": "candidate-context",
+      "text": "FairyGUI for Unity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fairygui/FairyGUI-unity",
+      "status": "candidate",
+      "text": "FairyGUI for Unity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951779,
+      "status": "candidate",
+      "text": "gesticulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951768,
+      "status": "candidate",
+      "text": "gesticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920237,
+      "status": "candidate",
+      "text": "motion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947510,
+      "status": "candidate",
+      "text": "display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944294,
+      "status": "candidate",
+      "text": "expression"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8033,
+      "status": "candidate",
+      "text": "gesticulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8027,
+      "status": "candidate",
+      "text": "gesticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "motion"
+    }
+  ],
+  "canonical_name": "gesture",
+  "concept_id": "gesture",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity"
+    }
+  ],
+  "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gesture",
+      "sense_id": "gesture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

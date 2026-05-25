@@ -124,6 +124,31 @@
       "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/commit-recordings.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml"
     }
   ],
   "edges": [
@@ -259,9 +284,44 @@
       "source_repo": "ogx-ai/ogx",
       "target": "Commit Recordings",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "Dependabot constraint-dependencies",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T01:09:19.051186+00:00",
+  "fetched_at": "2026-05-25T12:05:54.662639+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,6 +358,10 @@
     {
       "path": ".github/workflows/commit-recordings.yml",
       "size": 14289
+    },
+    {
+      "path": ".github/workflows/dependabot-constraints.yml",
+      "size": 5418
     }
   ],
   "related_repositories": [],
@@ -309,10 +373,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-05-24T08:53:24Z",
+    "pushed_at": "2026-05-25T11:15:38Z",
     "stargazers_count": 8387,
     "topics": [],
-    "updated_at": "2026-05-24T18:51:29Z"
+    "updated_at": "2026-05-25T11:15:41Z"
   },
   "repo_links": [],
   "terms": [
@@ -351,6 +415,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/commit-recordings.yml",
       "term": "Commit Recordings"
+    },
+    {
+      "context_snippet": "Dependabot constraint-dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "term": "Dependabot constraint-dependencies"
     }
   ]
 }

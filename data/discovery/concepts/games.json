@@ -55,6 +55,18 @@
       "source_repo": "EKA2L1/EKA2L1",
       "status": "candidate-context",
       "text": "<div class=\"header\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Artikash/Textractor",
+      "status": "candidate-context",
+      "text": "Extracts text from video games and visual novels. Highly extensible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Artikash/Textractor",
+      "status": "candidate-context",
+      "text": "![How it looks](screenshot.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "EKA2L1/EKA2L1",
       "status": "candidate",
       "text": "<div class=\"header\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Artikash/Textractor",
+      "status": "candidate",
+      "text": "![How it looks](screenshot.png)"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +568,23 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "Artikash/Textractor"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

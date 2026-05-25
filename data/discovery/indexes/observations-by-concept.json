@@ -12414,6 +12414,7 @@
   "bazaar": [
     "197d9e85d9707c23",
     "508be0ce796ed458",
+    "8d0a377a93ff9d65",
     "8f6babe52a83a106"
   ],
   "bazel": [
@@ -13372,6 +13373,9 @@
   ],
   "bep14": [
     "3d3ab36398fba75e"
+  ],
+  "bepinex": [
+    "80b1c54c4809534c"
   ],
   "beps-reusable": [
     "b40d40f7645fff83"
@@ -16433,6 +16437,7 @@
     "38b9db35125ccf54",
     "38bfe43f9fb0fcd3",
     "39560c6a5eafdb15",
+    "395ca1e44c6551ca",
     "395f8ee64f8cb65e",
     "39893a7889bbef63",
     "399351581b8c6cf7",
@@ -20943,7 +20948,8 @@
     "1c39548d61ccab80",
     "3d0fd4828ee4b4bf",
     "55b0f5d069e1bc79",
-    "5c82cb425d80fe26"
+    "5c82cb425d80fe26",
+    "dbacf49edd8f438c"
   ],
   "build-pr-artifacts": [
     "82b6b0b61537dda5"
@@ -36595,7 +36601,9 @@
   ],
   "comics": [
     "13ad06f38cf498bc",
-    "945be11e3cf4e94d"
+    "2a7db58b26f26f2f",
+    "945be11e3cf4e94d",
+    "c09a425057b086e7"
   ],
   "comirec": [
     "da1b45184eccc0f0"
@@ -36912,6 +36920,7 @@
     "7102f006e02b26a1"
   ],
   "comment-on-pull-request": [
+    "4ebbfae8bd44724b",
     "f65e9b12c4779f65"
   ],
   "comment-on-review": [
@@ -38388,6 +38397,7 @@
     "28aeef9c109da889",
     "28f20607868f5e15",
     "29de9a8c093d33f1",
+    "2b2fdfaf0087a56d",
     "2c9dec724ec30b0a",
     "2cb270b41ae8a21e",
     "2cfecdb51cec21ca",
@@ -43149,7 +43159,8 @@
   "cross-platform-gui": [
     "135bedc83fb7094e",
     "92773b27bcebcf58",
-    "cb6db3a20ea56bc0"
+    "cb6db3a20ea56bc0",
+    "eac9e7b7aff92fdb"
   ],
   "cross-platform-sign-and-verify": [
     "95743bf22dd1ab25"
@@ -44168,6 +44179,9 @@
     "188daae4e5753722",
     "52f1f41dbeb15b36"
   ],
+  "curved-ui": [
+    "ed6b19a229dccd0b"
+  ],
   "curves": [
     "5009bdf2cba91099"
   ],
@@ -44951,6 +44965,7 @@
   ],
   "darcs": [
     "10b736436adac8cf",
+    "6dcc5b532d61e91c",
     "8a11932126dfb5fb",
     "db0a90a4c6a65abf"
   ],
@@ -47446,6 +47461,7 @@
     "6b25c2603402d393",
     "6b379db923e99f7b",
     "6b4909315da4a9ff",
+    "6b754f48524171c2",
     "6b8d4e02dc7e79ad",
     "6b9da4bdc5c09fa6",
     "6bd880137cb0dc8b",
@@ -47764,6 +47780,7 @@
     "dcd064bfba2b2ee9",
     "dd5eed7acc7a23a2",
     "dd69a10839883065",
+    "de68a1cb4188d3b0",
     "def509287062e22c",
     "df5ac106fe645c5f",
     "dfe2b8b43e745681",
@@ -56490,6 +56507,7 @@
     "4f47a7c92d156800"
   ],
   "dynamic-version": [
+    "0a5fb4a71f37fda6",
     "ca38f4a590b14f49"
   ],
   "dynamical-systems": [
@@ -63850,6 +63868,9 @@
   "flip": [
     "a7c3492ddc8bf2a8"
   ],
+  "flipbook": [
+    "44275da8d190c572"
+  ],
   "flixel": [
     "607abae33d6a5424",
     "6991309849c0e606"
@@ -65007,9 +65028,11 @@
     "462683b22045c77d"
   ],
   "fossil": [
+    "44b5ac6330ce93ee",
     "969682ccabb99a98"
   ],
   "fossil-scm": [
+    "794e13eac63d7392",
     "8fc73b134b15c4a3",
     "b58124227b2ce9a8"
   ],
@@ -65183,6 +65206,7 @@
     "3558a47d72d24818",
     "364ef2948c08debc",
     "40487122be7003cf",
+    "437f83c09338e853",
     "4421d18a542be785",
     "48c4fd4a6bfa88ee",
     "4aaa1856e28c3799",
@@ -66329,6 +66353,7 @@
   ],
   "games": [
     "0b0cbae929fdc2dc",
+    "18bc5a1cca28ba52",
     "2356621edc6983cc",
     "7c1d27e962140011",
     "c7a164c7ef5d55f5"
@@ -68208,6 +68233,9 @@
   ],
   "german-tts": [
     "71cd8ddd0031857b"
+  ],
+  "gesture": [
+    "287e8447497c7afd"
   ],
   "gesture-generation": [
     "697e73cfcc7c374d"
@@ -73501,7 +73529,8 @@
   ],
   "hacking": [
     "518d96768e177c0d",
-    "dcea9c9f899ff5d6"
+    "dcea9c9f899ff5d6",
+    "f364192fe76c65f5"
   ],
   "hacklang": [
     "d7c50d0ab7df792a"
@@ -78269,7 +78298,8 @@
     "d9a76f1319a6901b"
   ],
   "il2cpp": [
-    "67ceebb208c5de9c"
+    "67ceebb208c5de9c",
+    "c17175629cccd95d"
   ],
   "iles": [
     "f93e0708756fa8d7"
@@ -78824,6 +78854,7 @@
     "7a744edec9c60061",
     "81434783a8c1c2bd",
     "8921513a890ad7c1",
+    "8e055c44336bdc58",
     "96ee057ed846117f",
     "9cc0a797099d2045",
     "9d45edee8c2b405b",
@@ -79861,6 +79892,7 @@
     "a14c4799b638e542"
   ],
   "infinite-scroll": [
+    "4356cde932c5be71",
     "50ac6868dbc2c391",
     "6c2e80c4f0f1608e"
   ],
@@ -82511,6 +82543,7 @@
     "0374994e80f1093b",
     "2d51fada3d454eef",
     "36d3668831f8eff9",
+    "5699518722a13b3f",
     "5f823bd11243689f",
     "9f12e1d6b3f1488a",
     "acc267d402f18f5d",
@@ -91403,6 +91436,9 @@
     "e9b08ced8cd5a576",
     "f247df61dca4b8ab"
   ],
+  "linux-cpu": [
+    "6e9e977b2fea7f60"
+  ],
   "linux-cpu-aarch64": [
     "d718f45de44814d2"
   ],
@@ -95319,6 +95355,7 @@
     "0e11ae9b7c55f5a5",
     "0eb367dda8de204f",
     "107fc732b2476318",
+    "12d834f867dbe02a",
     "132fb99228e9b90e",
     "13993418d847abcc",
     "1553c1d0be91c6c8",
@@ -95806,8 +95843,13 @@
   ],
   "manga": [
     "27b03a625dcd67c6",
+    "3974c21d421fa165",
     "48052dc9fbd05158",
-    "af1d34e5c33bbc7b"
+    "af1d34e5c33bbc7b",
+    "da20dee8cab7d8f7"
+  ],
+  "manga-ocr": [
+    "f45888ac33384325"
   ],
   "manga-translation": [
     "68e3141bf728f460"
@@ -97925,6 +97967,7 @@
     "5b39d5a425a204ba"
   ],
   "mercurial": [
+    "6f2c9b40815e43ed",
     "77fad63c32511090",
     "80f7fa46db60e257",
     "d19931741eb19c00"
@@ -100201,6 +100244,9 @@
     "3f79bc11eb257bf5",
     "ede3f92871e3811e"
   ],
+  "mod-loader": [
+    "0d642a8937c5229f"
+  ],
   "modal": [
     "4492e25fab21e894",
     "7b61e7f9e318e861"
@@ -100221,7 +100267,8 @@
     "ee6c1bc1b72e943d"
   ],
   "modding": [
-    "5b0e3e51ebdab381"
+    "5b0e3e51ebdab381",
+    "5ba59c341855b192"
   ],
   "mode": [
     "c6438856ec7ce19e"
@@ -100526,6 +100573,9 @@
     "5ac173e964061806",
     "b5348b25d6585295"
   ],
+  "modloader": [
+    "a4a15a9437ce1a01"
+  ],
   "modnet": [
     "7590ec3149b3ecc9"
   ],
@@ -100809,6 +100859,7 @@
     "67b58b63d1a5b76b",
     "6ed2a4117538c557",
     "9ad157cc7a7534b1",
+    "bb0437958c4e18fc",
     "e21bbb3ca59546f4"
   ],
   "monochrome-displays": [
@@ -113689,6 +113740,7 @@
     "8358fedd8d6ef104"
   ],
   "patcher": [
+    "15b882cae240a981",
     "f5c7c7fcfeb5ed7e"
   ],
   "patches": [
@@ -115066,7 +115118,8 @@
     "d5726106719f23b3"
   ],
   "pijul": [
-    "2bc9e30ab8c240cd"
+    "2bc9e30ab8c240cd",
+    "43fab28a8c179e8d"
   ],
   "pika": [
     "07fc767ece2f017e"
@@ -122302,6 +122355,9 @@
   "publish-package-to-pypi": [
     "6a60fcb4b7853815"
   ],
+  "publish-package-to-pypi-and-testpypi": [
+    "3e781b54135a5d00"
+  ],
   "publish-packages": [
     "1eee95f7d072d528",
     "5b8ae1008f47eae3",
@@ -124598,6 +124654,7 @@
     "95c5b9e3912eef25",
     "9cc7b3d50b4c98c3",
     "9e8c7115689b62dd",
+    "9f732129c67bfbf6",
     "a16387689286aa1e",
     "a5750c142966e5ee",
     "ac0c5d9f2217c8e2",
@@ -124859,6 +124916,7 @@
     "54765908353eee34",
     "54b41ca02e74b9b2",
     "56366bf3f61c0322",
+    "56c50827994a962f",
     "575184efa6ad424b",
     "575e5a82d34e7fee",
     "5a9a53cff15ce4c0",
@@ -125212,6 +125270,7 @@
     "57dd4401efaf2b1c",
     "582c8ffc6e24136e",
     "586b6786db8a52c1",
+    "58a1a598859e5cb4",
     "5908dd8adeb79da5",
     "59a43e522b01b7a6",
     "59af09a40791e7a3",
@@ -134255,6 +134314,7 @@
     "d8368e15ed22b5b9"
   ],
   "reverse-engineering": [
+    "01327ce63747c1e1",
     "160f5621f43ba050",
     "22f2b0e094db8867",
     "24442e95a6c019ce",
@@ -134613,6 +134673,9 @@
     "41023c635bb16a72",
     "640edf573f29d314",
     "b5615bdb8a91675b"
+  ],
+  "richtext": [
+    "a13769cb125ef4b5"
   ],
   "ricing": [
     "0cf7598c78db2ca5"
@@ -136210,6 +136273,7 @@
     "7ed8a828ce9a95cf",
     "873b498aca4eae99",
     "8aed5186f1fe5cdc",
+    "93e900861ab21140",
     "9c846e978797bedb",
     "a28253031f3862e5",
     "a86d9a47c11bd0bf",
@@ -141669,6 +141733,7 @@
   ],
   "semantic-versioning": [
     "063fe88929f8180b",
+    "21feb69fa0d4e444",
     "7160af165f639bdc",
     "afa51f9b4f3c5b8d",
     "b62e615073ada2b9",
@@ -149664,6 +149729,7 @@
     "c46d532b56fe2380"
   ],
   "subversion": [
+    "33fdbe5bb1d08837",
     "6f00a87ad55aa2a3",
     "77cc0857cb128a3a",
     "f8e5baf603229bdf"
@@ -157598,6 +157664,7 @@
     "98a294c5c9cb4437"
   ],
   "text-detection": [
+    "223e23886294d26b",
     "307f77b735b89666",
     "6eee442dc3645de5",
     "866e387c543d652d",
@@ -160182,6 +160249,7 @@
     "26350e770a944ec8",
     "29b94407b59f89d7",
     "29ff7c7fac08ce8c",
+    "2b50c2f158156bdc",
     "2c4aa428ca4548b1",
     "2ccc4e0427b19b40",
     "2e97f65da229d912",
@@ -161901,6 +161969,9 @@
     "bb55563ccc86d599",
     "c891246be7c1bf63"
   ],
+  "typing-effect": [
+    "882683bbb8346aa4"
+  ],
   "typings": [
     "554a7a7d35b75b39",
     "d0e0383f8c08a8e1"
@@ -162301,6 +162372,7 @@
   ],
   "ui-framework": [
     "3ccef0232d6e7283",
+    "5ce4ba45074cd74d",
     "a2800b3530d94c09"
   ],
   "ui-kit": [
@@ -163129,6 +163201,7 @@
     "34b39625c8fe9927",
     "36f0415dc9c0406d",
     "39fc9773291e3a84",
+    "3e2fb19f2ef216c7",
     "3e33032cd1861a50",
     "50a0d8e6d268a0f8",
     "5e1c48a1b0d2c0f3",
@@ -163156,6 +163229,12 @@
   "unity-editor": [
     "0032aab0d496092b"
   ],
+  "unity-emoji": [
+    "6bd9f488bcffeea0"
+  ],
+  "unity-mono": [
+    "a67fbc0c180c9857"
+  ],
   "unity-registry": [
     "e2607e9b730a72d6"
   ],
@@ -163166,11 +163245,16 @@
     "03372fe070f4b7fc",
     "25bbfc1574aebeb1",
     "2dcb59af6dd5350e",
+    "33fbca8f7372de5c",
     "3824c794a77af72a",
     "706a2facac4f6558",
     "a7aeb8cad0f222ea",
+    "df9a2cab4320960a",
     "fd117705e4e4d8d7",
     "fd420862090759c8"
+  ],
+  "unity3d-plugin": [
+    "71686653d5c430aa"
   ],
   "universal": [
     "11e14ac9e9656c5e",
@@ -166887,6 +166971,7 @@
     "b535c79d49a5131d",
     "b9b9f908f8363b0d",
     "c2e9cf097006a1df",
+    "c91a824d0f89894c",
     "dba375e08c2190a9",
     "e22e88c915757374",
     "e3e0871b4e212778"
@@ -167981,6 +168066,7 @@
     "0fe3d50f5ca96c12"
   ],
   "virtual-list": [
+    "12802131b3953019",
     "a9914227beb8ef81"
   ],
   "virtual-machine": [
@@ -172684,6 +172770,9 @@
   "windows-console": [
     "fcea37543cd6727f"
   ],
+  "windows-cpu": [
+    "ba423406a3384a8d"
+  ],
   "windows-desktop": [
     "66bb670c48fd34a2"
   ],
@@ -173862,6 +173951,9 @@
   ],
   "xmpp": [
     "ba59e72863d6c39e"
+  ],
+  "xna-framework": [
+    "9e78f5944e682cbb"
   ],
   "xonsh": [
     "6fd3be117924afb6"

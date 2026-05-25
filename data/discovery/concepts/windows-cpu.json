@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows CPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "Manga/Comics Translation Helper Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "Windows CPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate",
+      "text": "Windows CPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10799,
+      "status": "candidate",
+      "text": "bus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10799,
+      "status": "candidate",
+      "text": "mhz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10798,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10737,
+      "status": "candidate",
+      "text": "paste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10737,
+      "status": "candidate",
+      "text": "unix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows CPU",
+  "concept_id": "windows-cpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/windowscpu.yml",
+      "source_repo": "KUR-creative/SickZil-Machine"
+    }
+  ],
+  "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows CPU",
+      "sense_id": "windows-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

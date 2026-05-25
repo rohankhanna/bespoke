@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vacancy/PyPatchMatch",
+      "target": "younesse-cv/patchmatch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-25T07:45:58.058620+00:00",
+  "source_repo": "vacancy/PyPatchMatch"
+}

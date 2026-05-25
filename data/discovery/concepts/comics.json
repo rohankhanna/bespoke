@@ -31,6 +31,30 @@
       "source_repo": "dmMaze/comic-text-detector",
       "status": "candidate-context",
       "text": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "Manga/Comics Translation Helper Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate-context",
+      "text": "SickZil-Machine"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "dmMaze/comic-text-detector",
       "status": "candidate",
       "text": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KUR-creative/SickZil-Machine",
+      "status": "candidate",
+      "text": "SickZil-Machine"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "dmMaze/comic-text-detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "kha-white/manga-ocr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine"
     }
   ],
   "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml"
+    },
+    {
+      "component": "xresloader/upload-to-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/YY-Thunks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/YY-Thunks",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/YY-Thunks",
+      "target": "dorny/test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/YY-Thunks",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/YY-Thunks",
+      "target": "xresloader/upload-to-github-release@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-25T12:22:05.913038+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/Build&Test.yml",
+      "size": 9277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fix DecodePointer, EncodePointer,RegDeleteKeyEx etc. APIs not found in Windows XP RTM.",
+    "fork": false,
+    "full_name": "Chuyu-Team/YY-Thunks",
+    "html_url": "https://github.com/Chuyu-Team/YY-Thunks",
+    "language": "C++",
+    "pushed_at": "2026-05-14T12:26:23Z",
+    "stargazers_count": 981,
+    "topics": [],
+    "updated_at": "2026-05-25T05:57:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

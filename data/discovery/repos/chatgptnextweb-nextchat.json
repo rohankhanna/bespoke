@@ -479,30 +479,9 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "package.json",
       "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "yidadaa/chatgpt-next-web",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "go-skynet/localai",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "f/awesome-chatgpt-prompts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "chatgptnextweb/chatgpt-next-web",
+      "target": "azure-samples/aoai-realtime-audio-sdk",
       "target_type": "repository"
     },
     {
@@ -1318,12 +1297,8 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T00:55:51.408516+00:00",
+  "fetched_at": "2026-05-25T11:56:34.507299+00:00",
   "fetched_files": [
-    {
-      "path": "README.md",
-      "size": 17447
-    },
     {
       "path": "Dockerfile",
       "size": 1673
@@ -1371,7 +1346,7 @@
     "html_url": "https://github.com/ChatGPTNextWeb/NextChat",
     "language": "TypeScript",
     "pushed_at": "2026-05-15T01:19:01Z",
-    "stargazers_count": 88074,
+    "stargazers_count": 88077,
     "topics": [
       "calclaude",
       "chatgpt",
@@ -1393,28 +1368,13 @@
       "vercel",
       "webui"
     ],
-    "updated_at": "2026-05-24T22:19:01Z"
+    "updated_at": "2026-05-25T08:21:07Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chatgptnextweb/chatgpt-next-web",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "f/awesome-chatgpt-prompts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "go-skynet/localai",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yidadaa/chatgpt-next-web",
-      "source_file": "README.md"
+      "full_name": "azure-samples/aoai-realtime-audio-sdk",
+      "source_file": "package.json"
     }
   ],
   "terms": [
@@ -1461,103 +1421,103 @@
       "term": "Run Tests"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "calclaude"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chatgpt"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "cross-platform"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "desktop"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemini"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemini-pro"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemini-server"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemini-ultra"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpt-4o"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "groq"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "nextjs"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "ollama"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "react"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "tauri"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "tauri-app"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "vercel"
     },
     {
-      "context_snippet": "<div align=\"center\">",
+      "context_snippet": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "webui"

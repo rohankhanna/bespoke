@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish package to PyPI and TestPyPI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate-context",
+      "text": "Publish package to PyPI and TestPyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kha-white/manga-ocr",
+      "status": "candidate",
+      "text": "Publish package to PyPI and TestPyPI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "broach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish package to PyPI and TestPyPI",
+  "concept_id": "publish-package-to-pypi-and-testpypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "kha-white/manga-ocr"
+    }
+  ],
+  "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish package to PyPI and TestPyPI",
+      "sense_id": "publish-package-to-pypi-and-testpypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

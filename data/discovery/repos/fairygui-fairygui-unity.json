@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "cross-platform-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "curved-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "flipbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "gesture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "infinite-scroll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "richtext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "typing-effect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "ui-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "unity-emoji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "unity3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "unity3d-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fairygui/FairyGUI-unity",
+      "target": "virtual-list",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:46.030263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A flexible UI framework for Unity",
+    "fork": false,
+    "full_name": "fairygui/FairyGUI-unity",
+    "html_url": "https://github.com/fairygui/FairyGUI-unity",
+    "language": "C#",
+    "pushed_at": "2026-02-03T09:04:06Z",
+    "stargazers_count": 2939,
+    "topics": [
+      "cross-platform-gui",
+      "curved-ui",
+      "flipbook",
+      "gesture",
+      "infinite-scroll",
+      "richtext",
+      "typing-effect",
+      "ui-framework",
+      "unity-emoji",
+      "unity3d",
+      "unity3d-plugin",
+      "virtual-list"
+    ],
+    "updated_at": "2026-05-24T16:51:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform-gui"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curved-ui"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flipbook"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gesture"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infinite-scroll"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "richtext"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typing-effect"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ui-framework"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity-emoji"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity3d"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity3d-plugin"
+    },
+    {
+      "context_snippet": "FairyGUI for Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-list"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v6",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -672,6 +672,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/combinedabot.yml",
       "source_repo": "jasonlong/isometric-contributions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx"
     }
   ]
 }

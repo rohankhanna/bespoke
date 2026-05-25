@@ -131,28 +131,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/cleo",
+      "target": "python-poetry/poetry-plugin-export",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/poetry-core",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/poetry-plugin-bundle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/install.python-poetry.org",
+      "target": "python-poetry/website",
       "target_type": "repository"
     },
     {
@@ -317,7 +303,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:41:16.256567+00:00",
+  "fetched_at": "2026-05-25T10:09:54.700422+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -325,11 +311,11 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5773
+      "size": 5631
     },
     {
       "path": ".github/workflows/.tests-matrix.yaml",
-      "size": 4448
+      "size": 4160
     },
     {
       "path": ".github/workflows/backport.yaml",
@@ -361,8 +347,8 @@
     "full_name": "python-poetry/poetry",
     "html_url": "https://github.com/python-poetry/poetry",
     "language": "Python",
-    "pushed_at": "2026-04-22T15:49:45Z",
-    "stargazers_count": 34276,
+    "pushed_at": "2026-05-24T15:43:42Z",
+    "stargazers_count": 34288,
     "topics": [
       "dependency-manager",
       "package-manager",
@@ -370,27 +356,17 @@
       "poetry",
       "python"
     ],
-    "updated_at": "2026-04-23T16:14:18Z"
+    "updated_at": "2026-05-25T09:17:58Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "python-poetry/cleo",
+      "full_name": "python-poetry/poetry-plugin-export",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "python-poetry/install.python-poetry.org",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "python-poetry/poetry-core",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "python-poetry/poetry-plugin-bundle",
+      "full_name": "python-poetry/website",
       "source_file": "README.md"
     }
   ],

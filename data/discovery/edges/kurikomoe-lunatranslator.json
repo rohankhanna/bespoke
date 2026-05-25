@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "artikash/textractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "nanokina/ebyroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "inwill/locale_remulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "chuyu-team/yy-thunks",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-25T07:45:58.058620+00:00",
+  "source_repo": "kurikomoe/LunaTranslator"
+}

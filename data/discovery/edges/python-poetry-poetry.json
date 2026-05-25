@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/cleo",
+      "target": "python-poetry/poetry-plugin-export",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/poetry-core",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/poetry-plugin-bundle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-poetry/poetry",
-      "target": "python-poetry/install.python-poetry.org",
+      "target": "python-poetry/website",
       "target_type": "repository"
     },
     {
@@ -190,6 +176,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-25T07:45:58.058620+00:00",
   "source_repo": "python-poetry/poetry"
 }

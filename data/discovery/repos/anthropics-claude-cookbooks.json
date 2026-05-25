@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/claude-link-review.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1",
+      "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-link-review.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/claude-model-check.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1",
+      "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-model-check.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/claude-pr-review.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1",
+      "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-pr-review.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/lint-format.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1",
+      "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint-format.yml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/notebook-quality.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1",
+      "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-quality.yml"
     },
@@ -116,7 +116,7 @@
       "source_file": ".github/workflows/notebook-tests.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1",
+      "component": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-tests.yml"
     },
@@ -145,7 +145,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-link-review.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -166,7 +166,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-model-check.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -187,7 +187,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-pr-review.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -257,7 +257,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint-format.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -306,7 +306,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-quality.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -341,7 +341,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-tests.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T18:35:44.014684+00:00",
+  "fetched_at": "2026-05-25T10:54:32.118344+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -371,15 +371,15 @@
     },
     {
       "path": ".github/workflows/claude-link-review.yml",
-      "size": 2850
+      "size": 3362
     },
     {
       "path": ".github/workflows/claude-model-check.yml",
-      "size": 2820
+      "size": 3328
     },
     {
       "path": ".github/workflows/claude-pr-review.yml",
-      "size": 1758
+      "size": 2270
     },
     {
       "path": ".github/workflows/links.yml",
@@ -387,7 +387,7 @@
     },
     {
       "path": ".github/workflows/lint-format.yml",
-      "size": 5756
+      "size": 6264
     },
     {
       "path": ".github/workflows/notebook-diff-comment.yml",
@@ -395,11 +395,11 @@
     },
     {
       "path": ".github/workflows/notebook-quality.yml",
-      "size": 4556
+      "size": 5439
     },
     {
       "path": ".github/workflows/notebook-tests.yml",
-      "size": 8562
+      "size": 9443
     }
   ],
   "related_repositories": [],
@@ -411,10 +411,10 @@
     "full_name": "anthropics/claude-cookbooks",
     "html_url": "https://github.com/anthropics/claude-cookbooks",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-05-23T08:40:20Z",
-    "stargazers_count": 43732,
+    "pushed_at": "2026-05-24T21:45:00Z",
+    "stargazers_count": 43807,
     "topics": [],
-    "updated_at": "2026-05-24T18:26:16Z"
+    "updated_at": "2026-05-25T10:49:20Z"
   },
   "repo_links": [
     {

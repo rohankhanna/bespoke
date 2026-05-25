@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "artikash/textractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "nanokina/ebyroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "inwill/locale_remulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurikomoe/LunaTranslator",
+      "target": "chuyu-team/yy-thunks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:21.963820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "dev_stream_2.37.3",
+    "description": "\u7a0d\u5fae\u52a0\u4e86\u4e00\u70b9\u6d41\u5f0f\u66f4\u65b0\u529f\u80fd\u7684 Galgame\u7ffb\u8bd1\u5de5\u5177\uff0c\u652f\u6301\u526a\u8d34\u677f\u3001OCR\u3001HOOK\uff0c\u652f\u630140\u4f59\u79cd\u7ffb\u8bd1\u5f15\u64ce\u3002Visual Novel translate tool , support clipboard / OCR/ HOOK, support 40+ translate engines.",
+    "fork": true,
+    "full_name": "kurikomoe/LunaTranslator",
+    "html_url": "https://github.com/kurikomoe/LunaTranslator",
+    "language": "Python",
+    "pushed_at": "2024-03-05T20:05:39Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2024-12-11T15:23:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artikash/textractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chuyu-team/yy-thunks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inwill/locale_remulator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanokina/ebyroid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

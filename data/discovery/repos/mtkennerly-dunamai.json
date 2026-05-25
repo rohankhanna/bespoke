@@ -1,0 +1,266 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.65.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mtkennerly/dunamai",
+      "target": "warner/python-versioneer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/dunamai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/dunamai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/dunamai",
+      "target": "dtolnay/rust-toolchain@1.65.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/dunamai",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/dunamai",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "bazaar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "darcs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "dynamic-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "fossil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "fossil-scm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "mercurial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "pijul",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "semantic-versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "subversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:50.192527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9534
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1652
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 3781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dynamic versioning library and CLI",
+    "fork": false,
+    "full_name": "mtkennerly/dunamai",
+    "html_url": "https://github.com/mtkennerly/dunamai",
+    "language": "Python",
+    "pushed_at": "2026-04-04T14:16:39Z",
+    "stargazers_count": 384,
+    "topics": [
+      "bazaar",
+      "cli",
+      "darcs",
+      "dynamic-version",
+      "fossil",
+      "fossil-scm",
+      "git",
+      "mercurial",
+      "pijul",
+      "python",
+      "semantic-versioning",
+      "subversion",
+      "versioning"
+    ],
+    "updated_at": "2026-05-14T20:59:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "warner/python-versioneer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazaar"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darcs"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-version"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fossil"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fossil-scm"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mercurial"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pijul"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-versioning"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subversion"
+    },
+    {
+      "context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

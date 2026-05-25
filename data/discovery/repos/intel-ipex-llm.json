@@ -540,7 +540,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T00:59:59.678820+00:00",
+  "fetched_at": "2026-05-25T12:00:31.358562+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -600,7 +600,7 @@
       "pytorch",
       "transformers"
     ],
-    "updated_at": "2026-05-23T08:48:38Z"
+    "updated_at": "2026-05-25T06:28:54Z"
   },
   "repo_links": [
     {

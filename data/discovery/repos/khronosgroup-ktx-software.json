@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "ts-graphviz/setup-graphviz@v2",
+      "component": "MarkCallow/setup-graphviz@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/macos.yml"
     },
     {
-      "component": "ts-graphviz/setup-graphviz@v2",
+      "component": "MarkCallow/setup-graphviz@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml"
     },
@@ -285,7 +285,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "KhronosGroup/KTX-Software",
-      "target": "ts-graphviz/setup-graphviz@v2",
+      "target": "MarkCallow/setup-graphviz@v3",
       "target_type": "component"
     },
     {
@@ -383,7 +383,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "KhronosGroup/KTX-Software",
-      "target": "ts-graphviz/setup-graphviz@v2",
+      "target": "MarkCallow/setup-graphviz@v3",
       "target_type": "component"
     },
     {
@@ -450,7 +450,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T00:48:36.710198+00:00",
+  "fetched_at": "2026-05-25T11:10:40.223114+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -478,7 +478,7 @@
     },
     {
       "path": ".github/workflows/docs.yml",
-      "size": 5280
+      "size": 5279
     },
     {
       "path": ".github/workflows/formatting.yml",
@@ -490,7 +490,7 @@
     },
     {
       "path": ".github/workflows/macos.yml",
-      "size": 14727
+      "size": 14726
     }
   ],
   "related_repositories": [],
@@ -502,8 +502,8 @@
     "full_name": "KhronosGroup/KTX-Software",
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
-    "pushed_at": "2026-05-24T12:07:12Z",
-    "stargazers_count": 1259,
+    "pushed_at": "2026-05-25T09:32:00Z",
+    "stargazers_count": 1258,
     "topics": [
       "ktx",
       "ktx-library",
@@ -511,7 +511,7 @@
       "textures",
       "vulkan"
     ],
-    "updated_at": "2026-05-24T18:49:50Z"
+    "updated_at": "2026-05-25T09:32:02Z"
   },
   "repo_links": [
     {

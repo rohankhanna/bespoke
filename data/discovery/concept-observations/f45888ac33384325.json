@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optical character recognition for Japanese text, with the main focus being Japanese manga"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "manga-ocr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "manga-ocr"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "manga-ocr",
+      "sense_id": "manga-ocr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manga-ocr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manga-ocr",
+  "observation_id": "f45888ac33384325",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T07:45:58.058620+00:00",
+  "observed_text": "manga-ocr",
+  "source_context_snippet": "manga-ocr",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "kha-white/manga-ocr",
+  "source_repo_description": "Optical character recognition for Japanese text, with the main focus being Japanese manga"
+}

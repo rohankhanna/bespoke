@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Isotr0py/SakuraLLM-Notebooks",
+      "target": "sakurallm/sakura-13b-galgame",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:19.633739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notebooks to run SakuraLLM on colab",
+    "fork": false,
+    "full_name": "Isotr0py/SakuraLLM-Notebooks",
+    "html_url": "https://github.com/Isotr0py/SakuraLLM-Notebooks",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-01T10:51:50Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-05-03T21:35:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sakurallm/sakura-13b-galgame",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

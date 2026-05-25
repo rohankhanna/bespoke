@@ -1,0 +1,17 @@
+{
+  "component": "MarkCallow/setup-graphviz@v3",
+  "first_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    }
+  ]
+}

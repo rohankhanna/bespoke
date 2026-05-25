@@ -84,7 +84,7 @@
   "normalized_form": "build-cli-e2e-docker-image",
   "observation_id": "1b8ba13c2f9a7c9e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T00:45:21.739463+00:00",
+  "observed_at": "2026-05-25T07:45:58.058620+00:00",
   "observed_text": "Build CLI E2E Docker Image",
   "source_context_snippet": "Build CLI E2E Docker Image",
   "source_file": ".github/workflows/build-cli-e2e-image.yml",

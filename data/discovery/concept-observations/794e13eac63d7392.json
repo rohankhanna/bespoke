@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dynamic versioning library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fossil-scm",
+      "sense_id": "fossil-scm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fossil-scm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fossil-scm",
+  "observation_id": "794e13eac63d7392",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T07:45:58.058620+00:00",
+  "observed_text": "fossil-scm",
+  "source_context_snippet": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,",
+  "source_file": null,
+  "source_repo": "mtkennerly/dunamai",
+  "source_repo_description": "Dynamic versioning library and CLI"
+}

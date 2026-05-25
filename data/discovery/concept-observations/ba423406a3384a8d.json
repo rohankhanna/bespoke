@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Manga/Comics Translation Helper Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows CPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows CPU"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10799,
+      "status": "candidate",
+      "text": "bus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10799,
+      "status": "candidate",
+      "text": "mhz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10798,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10737,
+      "status": "candidate",
+      "text": "paste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10737,
+      "status": "candidate",
+      "text": "unix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows CPU",
+      "sense_id": "windows-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows-cpu",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows-cpu",
+  "observation_id": "ba423406a3384a8d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-25T07:45:58.058620+00:00",
+  "observed_text": "Windows CPU",
+  "source_context_snippet": "Windows CPU",
+  "source_file": ".github/workflows/windowscpu.yml",
+  "source_repo": "KUR-creative/SickZil-Machine",
+  "source_repo_description": "Manga/Comics Translation Helper Tool"
+}

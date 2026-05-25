@@ -43,6 +43,18 @@
       "source_repo": "mtkennerly/poetry-dynamic-versioning",
       "status": "candidate-context",
       "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtkennerly/dunamai",
+      "status": "candidate-context",
+      "text": "Dynamic versioning library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/dunamai",
+      "status": "candidate-context",
+      "text": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mtkennerly/poetry-dynamic-versioning",
       "status": "candidate",
       "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/dunamai",
+      "status": "candidate",
+      "text": "Dunamai is a Python 3.5+ library and command line tool for producing dynamic,"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "mtkennerly/poetry-dynamic-versioning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "mtkennerly/dunamai"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

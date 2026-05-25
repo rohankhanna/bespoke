@@ -219,7 +219,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T02:08:05.558720+00:00",
+  "fetched_at": "2026-05-25T10:12:25.480839+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -247,8 +247,8 @@
     "full_name": "psmux/psmux",
     "html_url": "https://github.com/psmux/psmux",
     "language": "PowerShell",
-    "pushed_at": "2026-05-24T18:54:31Z",
-    "stargazers_count": 2144,
+    "pushed_at": "2026-05-25T03:38:45Z",
+    "stargazers_count": 2147,
     "topics": [
       "cli",
       "powershell",
@@ -267,7 +267,7 @@
       "windows-terminal",
       "windows-tmux"
     ],
-    "updated_at": "2026-05-25T01:45:20Z"
+    "updated_at": "2026-05-25T08:50:43Z"
   },
   "repo_links": [],
   "terms": [

@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-link-review.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-model-check.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-pr-review.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -130,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint-format.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -179,7 +179,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-quality.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -214,7 +214,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/notebook-tests.yml",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/claude-code-action@v1",
+      "target": "anthropics/claude-code-action@bbfaf8e1ffe3e688f7ab65ceee78de241e24a238",
       "target_type": "component"
     },
     {
@@ -232,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-24T18:29:15.298835+00:00",
+  "generated_at": "2026-05-25T07:45:58.058620+00:00",
   "source_repo": "anthropics/claude-cookbooks"
 }

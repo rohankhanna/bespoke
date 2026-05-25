@@ -1,0 +1,420 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "nrwl/last-successful-commit-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "joelwmale/webhook-action@2.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "bepinex/bepinex.bsipa.loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "bepinex/bepinex.melonloader.loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "bepinex/bepinex.mdml.loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "0x0ade/monomod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "nrwl/last-successful-commit-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "joelwmale/webhook-action@2.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/checkout@v2.3.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "Build PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "source_repo": "BepInEx/BepInEx",
+      "target": "Comment on pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "bepinex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "il2cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "mod-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "modding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "modloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "patcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "unity-mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "unity3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BepInEx/BepInEx",
+      "target": "xna-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:42.112479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3549
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4521
+    },
+    {
+      "path": ".github/workflows/build_pr.yml",
+      "size": 592
+    },
+    {
+      "path": ".github/workflows/comment_pr.yml",
+      "size": 3203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unity / XNA game patcher and plugin framework",
+    "fork": false,
+    "full_name": "BepInEx/BepInEx",
+    "html_url": "https://github.com/BepInEx/BepInEx",
+    "language": "C#",
+    "pushed_at": "2026-04-24T21:14:04Z",
+    "stargazers_count": 7881,
+    "topics": [
+      "bepinex",
+      "framework",
+      "il2cpp",
+      "mod-loader",
+      "modding",
+      "modloader",
+      "mono",
+      "patcher",
+      "unity",
+      "unity-mono",
+      "unity3d",
+      "xna",
+      "xna-framework"
+    ],
+    "updated_at": "2026-05-25T09:44:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x0ade/monomod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepinex/bepinex.bsipa.loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepinex/bepinex.mdml.loader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepinex/bepinex.melonloader.loader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr.yml",
+      "term": "Build PR"
+    },
+    {
+      "context_snippet": "Comment on pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "term": "Comment on pull request"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bepinex"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "il2cpp"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mod-loader"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modding"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modloader"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mono"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patcher"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity-mono"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity3d"
+    },
+    {
+      "context_snippet": "\ufeff<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xna-framework"
+    }
+  ]
+}

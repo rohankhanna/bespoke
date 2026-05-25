@@ -31,6 +31,18 @@
       "source_repo": "juice-shop/juice-shop",
       "status": "candidate-context",
       "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Artikash/Textractor",
+      "status": "candidate-context",
+      "text": "Extracts text from video games and visual novels. Highly extensible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Artikash/Textractor",
+      "status": "candidate-context",
+      "text": "![How it looks](screenshot.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "juice-shop/juice-shop",
       "status": "candidate",
       "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Artikash/Textractor",
+      "status": "candidate",
+      "text": "![How it looks](screenshot.png)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "Artikash/Textractor"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

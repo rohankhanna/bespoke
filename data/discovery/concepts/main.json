@@ -1412,6 +1412,18 @@
       "source_repo": "mtkennerly/poetry-dynamic-versioning",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtkennerly/dunamai",
+      "status": "candidate-context",
+      "text": "Dynamic versioning library and CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/dunamai",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -2120,6 +2132,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/dunamai",
       "status": "candidate",
       "text": "Main"
     }
@@ -4787,11 +4805,47 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/dunamai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

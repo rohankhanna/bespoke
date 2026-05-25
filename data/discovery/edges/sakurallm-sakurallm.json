@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "isotr0py/sakurallm-notebooks",
+      "target": "neavo/linguagacha",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "kurikomoe/lunatranslator",
+      "target": "neavo/oneclickllama",
       "target_type": "repository"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-25T00:45:21.739463+00:00",
+  "generated_at": "2026-05-25T07:45:58.058620+00:00",
   "source_repo": "SakuraLLM/SakuraLLM"
 }

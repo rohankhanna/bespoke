@@ -1,0 +1,68 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WenmuZhou/DBNet.pytorch",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WenmuZhou/DBNet.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WenmuZhou/DBNet.pytorch",
+      "target": "text-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T10:09:29.767772+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization",
+    "fork": false,
+    "full_name": "WenmuZhou/DBNet.pytorch",
+    "html_url": "https://github.com/WenmuZhou/DBNet.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-12-29T04:26:21Z",
+    "stargazers_count": 1015,
+    "topics": [
+      "ocr",
+      "python3",
+      "pytorch",
+      "text-detection"
+    ],
+    "updated_at": "2026-05-23T11:23:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    }
+  ]
+}

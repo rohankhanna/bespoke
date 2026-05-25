@@ -1045,6 +1045,18 @@
       "source_repo": "nttcslab-sp/kaldiio",
       "status": "candidate-context",
       "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WenmuZhou/DBNet.pytorch",
+      "status": "candidate-context",
+      "text": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WenmuZhou/DBNet.pytorch",
+      "status": "candidate-context",
+      "text": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization"
     }
   ],
   "candidate_glosses": [
@@ -1563,6 +1575,12 @@
       "source_repo": "nttcslab-sp/kaldiio",
       "status": "candidate",
       "text": "[![pypi](https://img.shields.io/pypi/v/kaldiio.svg)](https://pypi.python.org/pypi/kaldiio)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WenmuZhou/DBNet.pytorch",
+      "status": "candidate",
+      "text": "A pytorch re-implementation of Real-time Scene Text Detection with Differentiable Binarization"
     }
   ],
   "candidate_related_terms": [],
@@ -5170,11 +5188,59 @@
       "observed_at": "2026-05-25T00:45:21.739463+00:00",
       "source_file": null,
       "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T07:45:58.058620+00:00",
+      "source_file": null,
+      "source_repo": "WenmuZhou/DBNet.pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Artikash/Textractor",
+      "target": "artikash/exampleextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Artikash/Textractor",
+      "target": "games",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Artikash/Textractor",
+      "target": "hacking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Artikash/Textractor",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T12:22:04.057755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extracts text from video games and visual novels. Highly extensible.",
+    "fork": false,
+    "full_name": "Artikash/Textractor",
+    "html_url": "https://github.com/Artikash/Textractor",
+    "language": "C++",
+    "pushed_at": "2024-03-15T23:55:46Z",
+    "stargazers_count": 2631,
+    "topics": [
+      "cpp",
+      "games",
+      "hacking",
+      "reverse-engineering"
+    ],
+    "updated_at": "2026-05-24T10:34:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artikash/exampleextension",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![How it looks](screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "games"
+    },
+    {
+      "context_snippet": "![How it looks](screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacking"
+    },
+    {
+      "context_snippet": "![How it looks](screenshot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-engineering"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -3561,6 +3561,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "dmMaze/comic-text-detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kha-white/manga-ocr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "KUR-creative/SickZil-Machine"
     }
   ],
   "term": "deep-learning"
