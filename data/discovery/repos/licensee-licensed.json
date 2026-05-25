@@ -536,7 +536,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T12:46:38.783599+00:00",
+  "fetched_at": "2026-05-25T01:51:51.479689+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -569,14 +569,14 @@
     "html_url": "https://github.com/licensee/licensed",
     "language": "Ruby",
     "pushed_at": "2026-05-19T10:40:28Z",
-    "stargazers_count": 1030,
+    "stargazers_count": 1031,
     "topics": [
       "dependencies",
       "license-management",
       "licensing",
       "open-source-licensing"
     ],
-    "updated_at": "2026-05-23T21:31:48Z"
+    "updated_at": "2026-05-24T21:29:52Z"
   },
   "repo_links": [
     {

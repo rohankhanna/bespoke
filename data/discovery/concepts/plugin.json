@@ -1570,6 +1570,18 @@
       "source_repo": "Bremmers/CLAP-for-Delphi",
       "status": "candidate-context",
       "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate-context",
+      "text": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate-context",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
     }
   ],
   "candidate_glosses": [
@@ -2358,6 +2370,12 @@
       "source_repo": "Bremmers/CLAP-for-Delphi",
       "status": "candidate",
       "text": "This is a Delphi translation of the CLAP audio plugin header files from https://github.com/free-audio/clap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
     }
   ],
   "candidate_related_terms": [
@@ -5407,11 +5425,47 @@
       "observed_at": "2026-05-24T12:36:47.955733+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "mtkennerly/poetry-dynamic-versioning"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

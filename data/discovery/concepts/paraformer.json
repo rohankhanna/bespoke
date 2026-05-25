@@ -37,6 +37,18 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,17 @@
       "observed_at": "2026-05-24T07:15:32.140894+00:00",
       "source_file": null,
       "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T07:15:32.140894+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1432,11 +1432,29 @@
       "observed_at": "2026-05-24T12:36:47.955733+00:00",
       "source_file": null,
       "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "zh-plus/openlrc"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

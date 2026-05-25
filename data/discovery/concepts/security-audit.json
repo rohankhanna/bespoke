@@ -4274,11 +4274,35 @@
       "observed_at": "2026-05-24T18:29:15.298835+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "shekohex/allo-isolate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "informalsystems/ibc-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T18:29:15.298835+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

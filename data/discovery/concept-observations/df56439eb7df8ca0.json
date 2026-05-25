@@ -8,19 +8,19 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+      "text": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
     },
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -84,10 +84,10 @@
   "normalized_form": "paraformer",
   "observation_id": "df56439eb7df8ca0",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-24T07:15:32.140894+00:00",
+  "observed_at": "2026-05-25T00:45:21.739463+00:00",
   "observed_text": "paraformer",
-  "source_context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+  "source_context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
   "source_file": null,
   "source_repo": "modelscope/FunASR",
-  "source_repo_description": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+  "source_repo_description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
 }

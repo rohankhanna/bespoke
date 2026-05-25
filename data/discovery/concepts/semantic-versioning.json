@@ -55,6 +55,18 @@
       "source_repo": "maykonlsf/semver-cli",
       "status": "candidate-context",
       "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate-context",
+      "text": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate-context",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "maykonlsf/semver-cli",
       "status": "candidate",
       "text": "An easy to use CLI tool to manage your projects current version and its upgrades according to the Semantic Versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/poetry-dynamic-versioning",
+      "status": "candidate",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "maykonlsf/semver-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "mtkennerly/poetry-dynamic-versioning"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

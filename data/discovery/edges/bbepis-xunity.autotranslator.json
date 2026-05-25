@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "bbepis/bepinex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "eusth/ipa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "bepinex/bepinex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "fairygui/fairygui-unity",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-25T00:45:21.739463+00:00",
+  "source_repo": "bbepis/XUnity.AutoTranslator"
+}

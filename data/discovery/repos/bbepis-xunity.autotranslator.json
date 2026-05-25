@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "bbepis/bepinex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "eusth/ipa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "bepinex/bepinex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbepis/XUnity.AutoTranslator",
+      "target": "fairygui/fairygui-unity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-25T02:05:41.779236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 155004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "bbepis/XUnity.AutoTranslator",
+    "html_url": "https://github.com/bbepis/XUnity.AutoTranslator",
+    "language": "C#",
+    "pushed_at": "2026-04-19T03:15:29Z",
+    "stargazers_count": 3161,
+    "topics": [],
+    "updated_at": "2026-05-25T02:04:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbepis/bepinex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bepinex/bepinex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eusth/ipa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fairygui/fairygui-unity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -2068,6 +2068,18 @@
       "source_repo": "machinewrapped/llm-subtrans",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhayujie/CowAgent",
+      "status": "candidate-context",
+      "text": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/CowAgent",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"420\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -3108,6 +3120,12 @@
       "source_repo": "machinewrapped/llm-subtrans",
       "status": "candidate",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/CowAgent",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"420\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -9163,11 +9181,77 @@
       "observed_at": "2026-05-24T18:29:15.298835+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "machinewrapped/llm-subtrans"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T18:29:15.298835+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

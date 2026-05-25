@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+      "text": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "update-api-documentation",
   "observation_id": "233bbd5a0ffeceb5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-24T07:15:32.140894+00:00",
+  "observed_at": "2026-05-25T00:45:21.739463+00:00",
   "observed_text": "Update API Documentation",
   "source_context_snippet": "Update API Documentation",
   "source_file": ".github/workflows/update-api-docs.yml",
   "source_repo": "modelscope/FunASR",
-  "source_repo_description": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready."
+  "source_repo_description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
 }

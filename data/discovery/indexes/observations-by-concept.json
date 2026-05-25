@@ -4827,6 +4827,7 @@
     "e5aad17fd704cea8"
   ],
   "anime": [
+    "07e9b72021f92337",
     "0a771bcf6e3a461b",
     "1d5afa50836c9a35",
     "29e29024140eac94",
@@ -12412,6 +12413,7 @@
   ],
   "bazaar": [
     "197d9e85d9707c23",
+    "508be0ce796ed458",
     "8f6babe52a83a106"
   ],
   "bazel": [
@@ -27915,6 +27917,7 @@
     "b36972bb60408e81",
     "b4bb468b52bb309b",
     "b765dcf67ef94794",
+    "bdd4d4e35efaad4e",
     "c522da539ee77c76",
     "c85239ea45de9f1e",
     "c8918f61736ebd26",
@@ -30037,6 +30040,7 @@
   ],
   "cjk-characters": [
     "099947d4088be330",
+    "46f26e7fe457adf9",
     "8fcc7e4de79090dd"
   ],
   "cjk-font": [
@@ -30044,6 +30048,7 @@
     "7c4e96fde4e2c98a",
     "999f779122cc09a4",
     "a2d0d44ba93c66aa",
+    "a422eca64f453958",
     "b4cc8b59e6826063",
     "b896302149fc80b7",
     "f50f3f3e7e89e330"
@@ -30555,6 +30560,7 @@
     "4fea323f42937938",
     "50ef276989bae3cc",
     "52e00549eabdd673",
+    "53a7ab1b603a0e27",
     "545bcaf01f779d55",
     "55dc2c34e42bdf42",
     "55f7fcbf341e23bf",
@@ -34552,6 +34558,9 @@
   "code-understanding": [
     "61b42ceed1777a16"
   ],
+  "code-validation": [
+    "df903397b7212582"
+  ],
   "code-visualization": [
     "795db11cec310b93"
   ],
@@ -36585,6 +36594,7 @@
     "3cbf5eb322e6a0a4"
   ],
   "comics": [
+    "13ad06f38cf498bc",
     "945be11e3cf4e94d"
   ],
   "comirec": [
@@ -38329,6 +38339,7 @@
     "016ea3b88dc294e6",
     "028c3cf1a0c9ae8a",
     "029fcc3df3c80713",
+    "02a8ab6257cf9982",
     "02ce27640ff3c036",
     "03349caaebdd5f37",
     "03ce5e28b34cbb25",
@@ -38379,6 +38390,7 @@
     "29de9a8c093d33f1",
     "2c9dec724ec30b0a",
     "2cb270b41ae8a21e",
+    "2cfecdb51cec21ca",
     "2d8125c5ff1afca2",
     "2e73f35d504710d3",
     "2f97780c19fd0f77",
@@ -41566,6 +41578,7 @@
     "03a7f3f8841d65c3"
   ],
   "cowagent": [
+    "772f06ac2f537582",
     "b5df2c66bfdcaf54"
   ],
   "cowboy": [
@@ -44938,6 +44951,7 @@
   ],
   "darcs": [
     "10b736436adac8cf",
+    "8a11932126dfb5fb",
     "db0a90a4c6a65abf"
   ],
   "darglint-checks": [
@@ -47557,6 +47571,7 @@
     "9adc68362195583f",
     "9c65f7d8abc9f330",
     "9d61578cd8c51907",
+    "9d6528a232fb5fad",
     "9e8d59bae1ff98e1",
     "9eea2b0e53d1bb8b",
     "9ef43f77dd30aa16",
@@ -56474,6 +56489,9 @@
     "19ce2b6dca7bbd10",
     "4f47a7c92d156800"
   ],
+  "dynamic-version": [
+    "ca38f4a590b14f49"
+  ],
   "dynamical-systems": [
     "5d00c9e18046fc84",
     "62562d438192e4f3",
@@ -64314,6 +64332,7 @@
     "b8891824d6c83c84",
     "b951269c6e8f2bdb",
     "b98ed888fd62f59b",
+    "baea74b250247467",
     "baf94fad1e2f5898",
     "bba24b5d0cfa3410",
     "be44b61961fefc18",
@@ -64372,6 +64391,9 @@
   "font-patcher": [
     "2f3e9c842a4ee2b3"
   ],
+  "font-recognition": [
+    "c9b597562181aeb5"
+  ],
   "font-shaping": [
     "e71afec215e654d5"
   ],
@@ -64412,6 +64434,7 @@
     "a32a3efb316a8303",
     "b289255a0c64ad11",
     "b299a4fea9644de8",
+    "c93dcf3101188b13",
     "ca6b3de381209b31",
     "cd85f56967403fa9",
     "dec4868752bf360e",
@@ -64983,8 +65006,12 @@
   "fossfund": [
     "462683b22045c77d"
   ],
+  "fossil": [
+    "969682ccabb99a98"
+  ],
   "fossil-scm": [
-    "8fc73b134b15c4a3"
+    "8fc73b134b15c4a3",
+    "b58124227b2ce9a8"
   ],
   "foundation": [
     "7fdb97d87b948a74",
@@ -82483,6 +82510,7 @@
   "japanese": [
     "0374994e80f1093b",
     "2d51fada3d454eef",
+    "36d3668831f8eff9",
     "5f823bd11243689f",
     "9f12e1d6b3f1488a",
     "acc267d402f18f5d",
@@ -83075,6 +83103,9 @@
   ],
   "javase": [
     "ebc267fef470d0f2"
+  ],
+  "javscript": [
+    "b9ef9144a6aaf0a7"
   ],
   "jawn-build-precheck": [
     "af024cbb63574c99"
@@ -85722,6 +85753,7 @@
   "korean": [
     "0f0ae4c626c7f9d8",
     "4bb9969bf46af5de",
+    "4d704b892200ecea",
     "a4798ec48dcab612",
     "ac328c08cf17c8fe",
     "ca274a703c6e54dd",
@@ -95376,6 +95408,7 @@
     "d0ea38b8e1010f9e",
     "d4efb444b9cf5af4",
     "d7b824b8e0b610c6",
+    "d98e5b99a8ee2002",
     "d9ea66103c8edb29",
     "dab875ca82493857",
     "de214c69fdb78ad8",
@@ -95775,6 +95808,9 @@
     "27b03a625dcd67c6",
     "48052dc9fbd05158",
     "af1d34e5c33bbc7b"
+  ],
+  "manga-translation": [
+    "68e3141bf728f460"
   ],
   "mangler": [
     "6008065ba3875239"
@@ -97337,6 +97373,7 @@
     "381b8524bdf0ca09",
     "388ce86c55c58fa9",
     "43c5d082503c7e6c",
+    "443ad46dc9bacd4a",
     "45461ff4be238ae0",
     "4c2f0385ce2366a7",
     "4d7d82dd18960215",
@@ -97889,6 +97926,7 @@
   ],
   "mercurial": [
     "77fad63c32511090",
+    "80f7fa46db60e257",
     "d19931741eb19c00"
   ],
   "mercury": [
@@ -108616,6 +108654,7 @@
     "d606bb454fd62d23",
     "d6b1a666ac662017",
     "d8bc563de1f97b64",
+    "d94065fdbaf02ad8",
     "dba013aca5c65bf2",
     "de165b2cf4d3a374",
     "e6433914039de4f1",
@@ -110426,7 +110465,8 @@
   ],
   "openai-compatible-api": [
     "44c51ad862208f20",
-    "8875c9d7882214c8"
+    "8875c9d7882214c8",
+    "a1eaed9ee59379e3"
   ],
   "openai-function-calli": [
     "d59b2d7e43964b3e"
@@ -115025,6 +115065,9 @@
   "pihole-torrent-blocklist": [
     "d5726106719f23b3"
   ],
+  "pijul": [
+    "2bc9e30ab8c240cd"
+  ],
   "pika": [
     "07fc767ece2f017e"
   ],
@@ -115800,6 +115843,7 @@
     "1a5c4a4704625aa3",
     "1ef9109738cc0b21",
     "1f568a2b77943462",
+    "2113ea5a61d5a80d",
     "224e4d3c04661e8c",
     "244834c67b4251e2",
     "259747f989eeb823",
@@ -116193,6 +116237,7 @@
   ],
   "poetry": [
     "561c7695b0071c64",
+    "62988a7c2de2df35",
     "6a404b2f87c392f7",
     "d93ec42e5e6a996a"
   ],
@@ -116204,6 +116249,7 @@
     "c4f61b616e0a4d94"
   ],
   "poetry-plugin": [
+    "8039db1eb184dc82",
     "d613d6b6937d615d"
   ],
   "poetry-tests": [
@@ -124902,7 +124948,8 @@
     "79532d7faf999bd4"
   ],
   "pythonmonkey": [
-    "227f13a21ddb58e4"
+    "227f13a21ddb58e4",
+    "23df2df52d63542c"
   ],
   "pythonpackage": [
     "6f8d9b4297c18974"
@@ -125147,6 +125194,7 @@
     "5432285019296d08",
     "54353d689abc9452",
     "5459e3b7c9dec5d5",
+    "5475039958fd387d",
     "5491e9cfa5f0873e",
     "54b555eb6ca411d5",
     "54f3492771474101",
@@ -125599,7 +125647,8 @@
     "ffb88d602301ad86"
   ],
   "pytorch-cnn": [
-    "651a35331a0a24ea"
+    "651a35331a0a24ea",
+    "fcf8f2bd6aa83e11"
   ],
   "pytorch-geometric": [
     "34d29e23ddde4654"
@@ -125637,6 +125686,7 @@
     "20527f32766651b5",
     "34c78f59b70ae2e3",
     "54d1099661d031e9",
+    "68b30fe85cefe553",
     "74bed586a98c66cc",
     "7ded55e5dd3a2c2b",
     "86545b95354786c1",
@@ -128287,6 +128337,7 @@
     "539a3a1774caef0c",
     "5fbe771a68ac5099",
     "8ca2c544e89ef552",
+    "bf37bf95e33c7a0e",
     "cb61058ac55494d9",
     "cc22b125c8b3ac0d",
     "e589a47ffaf0bd09",
@@ -139319,6 +139370,7 @@
     "95add8607b5c1d56"
   ],
   "scene-text-detection": [
+    "4b081964437c44e9",
     "aa444293fa3ce71e",
     "cb27a159b1cfe391",
     "d1e3cf516ea67b78",
@@ -141619,6 +141671,7 @@
     "063fe88929f8180b",
     "7160af165f639bdc",
     "afa51f9b4f3c5b8d",
+    "b62e615073ada2b9",
     "ff8318a9ff58f809"
   ],
   "semantic-versioning-enforcer": [
@@ -148805,6 +148858,7 @@
     "df7cd1a429f6b89c"
   ],
   "streaming-asr": [
+    "18385c2fb911676d",
     "1b8f493625df01eb",
     "449475a7cd53713b"
   ],
@@ -149610,6 +149664,7 @@
     "c46d532b56fe2380"
   ],
   "subversion": [
+    "6f00a87ad55aa2a3",
     "77cc0857cb128a3a",
     "f8e5baf603229bdf"
   ],
@@ -164954,6 +165009,7 @@
   "upstream-sync": [
     "5124e4e2ae6ef46b",
     "5a67d6d5ec716c1a",
+    "616e0f7c0b21a30d",
     "b5f2683c78dbabd6",
     "b9a248735feb8f38",
     "eb13cdb8ef853fcb"
@@ -166817,6 +166873,7 @@
     "176d31549e912d8a",
     "251446af3db68844",
     "2a8c422f25df44dd",
+    "2bf67b4575094688",
     "3f3e168b77a68fcc",
     "460d97820c559f18",
     "48bab6241bf7eef3",
@@ -168854,6 +168911,7 @@
   "vllm": [
     "01453ae0110c79d1",
     "06d0001baa0c516a",
+    "0df0199db3a1b778",
     "21db0f5b85cd20e5",
     "2e32abe9c92731d2",
     "4946c6ca9ea978c4",
@@ -170537,6 +170595,7 @@
     "3c1edf57b6e7e140"
   ],
   "weak-supervision": [
+    "4705b07274339caa",
     "9b9638a4d3b8ec14",
     "c0c1c9dad4b33f3d"
   ],
@@ -170549,6 +170608,7 @@
     "fef2443354a95033"
   ],
   "weakly-supervised-segmentation": [
+    "61577776d6af4b7a",
     "afeb4f70f0fcdd04"
   ],
   "wear-leveling": [

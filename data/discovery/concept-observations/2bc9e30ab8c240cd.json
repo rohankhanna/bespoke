@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pijul",
+      "sense_id": "pijul#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pijul",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pijul",
+  "observation_id": "2bc9e30ab8c240cd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T00:45:21.739463+00:00",
+  "observed_text": "pijul",
+  "source_context_snippet": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)",
+  "source_file": null,
+  "source_repo": "mtkennerly/poetry-dynamic-versioning",
+  "source_repo_description": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+}

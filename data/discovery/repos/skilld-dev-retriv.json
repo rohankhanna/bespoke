@@ -227,13 +227,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "skilld-dev/retriv",
-      "target": "harlan-zw/retriv",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/retriv",
@@ -535,7 +528,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T09:34:47.349517+00:00",
+  "fetched_at": "2026-05-25T00:55:11.685157+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -543,7 +536,7 @@
     },
     {
       "path": "package.json",
-      "size": 6093
+      "size": 6094
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -551,7 +544,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 850
+      "size": 707
     }
   ],
   "related_repositories": [],
@@ -563,10 +556,10 @@
     "full_name": "skilld-dev/retriv",
     "html_url": "https://github.com/skilld-dev/retriv",
     "language": "TypeScript",
-    "pushed_at": "2026-05-24T02:38:37Z",
+    "pushed_at": "2026-05-24T15:18:50Z",
     "stargazers_count": 23,
     "topics": [],
-    "updated_at": "2026-05-24T02:38:38Z"
+    "updated_at": "2026-05-24T15:18:51Z"
   },
   "repo_links": [
     {
@@ -578,11 +571,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "harlan-zw/skilld",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "harlan-zw/retriv",
-      "source_file": "package.json"
     }
   ],
   "terms": [

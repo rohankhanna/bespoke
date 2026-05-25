@@ -1,6 +1,26 @@
 {
   "components": [
     {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/new_version_check.yml"
@@ -50,6 +70,27 @@
       "source_repo": "ungoogled-software/ungoogled-chromium",
       "target": "leo-lb/ungoogled-chromium",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "Code Validation",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -150,11 +191,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T13:13:31.032510+00:00",
+  "fetched_at": "2026-05-25T02:04:31.049768+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 12349
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2855
     },
     {
       "path": ".github/workflows/new_version_check.yml",
@@ -178,8 +223,8 @@
     "full_name": "ungoogled-software/ungoogled-chromium",
     "html_url": "https://github.com/ungoogled-software/ungoogled-chromium",
     "language": "Python",
-    "pushed_at": "2026-05-20T16:25:35Z",
-    "stargazers_count": 26704,
+    "pushed_at": "2026-05-24T13:15:42Z",
+    "stargazers_count": 26706,
     "topics": [
       "chromium",
       "control",
@@ -189,7 +234,7 @@
       "privacy",
       "transparency"
     ],
-    "updated_at": "2026-05-24T12:13:32Z"
+    "updated_at": "2026-05-25T00:29:22Z"
   },
   "repo_links": [
     {
@@ -204,6 +249,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Code Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Code Validation"
+    },
     {
       "context_snippet": "New version check",
       "edge_type": "workflow-name",

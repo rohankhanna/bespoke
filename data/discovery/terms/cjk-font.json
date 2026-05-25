@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection"
     }
   ],
   "term": "cjk-font"

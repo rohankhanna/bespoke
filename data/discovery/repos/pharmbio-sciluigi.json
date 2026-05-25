@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T12:58:08.752059+00:00",
+  "fetched_at": "2026-05-25T01:57:19.337186+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,14 +69,14 @@
     "html_url": "https://github.com/pharmbio/sciluigi",
     "language": "Python",
     "pushed_at": "2024-12-10T17:04:10Z",
-    "stargazers_count": 337,
+    "stargazers_count": 336,
     "topics": [
       "luigi",
       "scientific-workflows",
       "workflow",
       "workflow-engine"
     ],
-    "updated_at": "2026-05-11T10:14:05Z"
+    "updated_at": "2026-05-24T18:34:54Z"
   },
   "repo_links": [
     {

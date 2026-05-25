@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T12:56:23.077165+00:00",
+  "fetched_at": "2026-05-25T01:56:32.799269+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,7 +79,7 @@
     "html_url": "https://github.com/codeclimate-community/simplecov_json_formatter",
     "language": "Ruby",
     "pushed_at": "2024-03-15T20:20:09Z",
-    "stargazers_count": 23,
+    "stargazers_count": 25,
     "topics": [
       "code-quality",
       "coverage",
@@ -89,7 +89,7 @@
       "ruby",
       "test-coverage"
     ],
-    "updated_at": "2026-05-23T21:26:22Z"
+    "updated_at": "2026-05-25T01:47:12Z"
   },
   "repo_links": [
     {

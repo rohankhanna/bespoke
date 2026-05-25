@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "akshay090/svg-banners",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml",
       "source_repo": "modelscope/FunASR",
@@ -53,21 +46,14 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "conformer",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunASR",
-      "target": "deep-learning",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunASR",
       "target": "emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "mcp-server",
       "target_type": "term"
     },
     {
@@ -81,14 +67,14 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "paraformer",
+      "target": "openai-compatible-api",
       "target_type": "term"
     },
     {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "pretrained-model",
+      "target": "paraformer",
       "target_type": "term"
     },
     {
@@ -137,7 +123,7 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "speechllm",
+      "target": "streaming-asr",
       "target_type": "term"
     },
     {
@@ -145,6 +131,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunASR",
       "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "vllm",
       "target_type": "term"
     },
     {
@@ -162,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-24T07:15:32.140894+00:00",
+  "generated_at": "2026-05-25T00:45:21.739463+00:00",
   "source_repo": "modelscope/FunASR"
 }

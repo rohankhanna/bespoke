@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "Google Chromium, sans integration with Google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate-context",
+      "text": "Code Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "status": "candidate",
+      "text": "Code Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13362,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13362,
+      "status": "candidate",
+      "text": "confirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13362,
+      "status": "candidate",
+      "text": "probate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13362,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13362,
+      "status": "candidate",
+      "text": "proofed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Validation",
+  "concept_id": "code-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    }
+  ],
+  "first_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Validation",
+      "sense_id": "code-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -16,6 +16,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium",
+      "target": "Code Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/new_version_check.yml",
       "source_repo": "ungoogled-software/ungoogled-chromium",
       "target": "actions/checkout@v3",
@@ -113,6 +134,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-24T12:36:47.955733+00:00",
+  "generated_at": "2026-05-25T00:45:21.739463+00:00",
   "source_repo": "ungoogled-software/ungoogled-chromium"
 }

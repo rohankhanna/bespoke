@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/PyPatchMatchInpaint",
+      "target": "vacancy/pypatchmatch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-25T00:45:21.739463+00:00",
+  "source_repo": "dmMaze/PyPatchMatchInpaint"
+}

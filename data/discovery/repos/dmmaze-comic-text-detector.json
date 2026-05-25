@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "kha-white/manga_ocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "kur-creative/sickzil-machine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "juvian/manga-text-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "wenmuzhou/dbnet.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "comics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "manga-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "scene-text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "weak-supervision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmMaze/comic-text-detector",
+      "target": "weakly-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T02:05:33.167884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3017
+    },
+    {
+      "path": "requirements.txt",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manga&Comic text detection",
+    "fork": false,
+    "full_name": "dmMaze/comic-text-detector",
+    "html_url": "https://github.com/dmMaze/comic-text-detector",
+    "language": "Python",
+    "pushed_at": "2023-08-13T08:42:38Z",
+    "stargazers_count": 343,
+    "topics": [
+      "anime",
+      "comics",
+      "computer-vision",
+      "deep-learning",
+      "manga-translation",
+      "object-detection",
+      "ocr",
+      "scene-text-detection",
+      "weak-supervision",
+      "weakly-supervised-segmentation"
+    ],
+    "updated_at": "2026-05-24T10:53:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juvian/manga-text-segmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kha-white/manga_ocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kur-creative/sickzil-machine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenmuzhou/dbnet.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comics"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga-translation"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-detection"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weak-supervision"
+    },
+    {
+      "context_snippet": "This repository contains training scripts to train a text detector based on [manga-image-translator](https://github.com/zyddnys/manga-image-translator) which can extract bounding-boxes, text lines and segmentation of text from manga or comics to help further comics translation p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weakly-supervised-segmentation"
+    }
+  ]
+}

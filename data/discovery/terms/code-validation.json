@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    }
+  ],
+  "term": "Code Validation"
+}

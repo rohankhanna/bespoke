@@ -19,6 +19,12 @@
       "source_repo": "Distributive-Network/PythonMonkey",
       "status": "candidate-context",
       "text": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "status": "candidate-context",
+      "text": "This repository contains an example of Python code executing JavaScript code from an NPM package using [PythonMonkey](https://pythonmonkey.io/). The Python code here is a web server that uses the [CryptoJS](https://www.npmjs.com/package/crypto-js) NPM package to encrypt and decr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +33,12 @@
       "source_repo": "Distributive-Network/PythonMonkey",
       "status": "candidate",
       "text": "[![Test and Publish Suite](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml/badge.svg)](https://github.com/Distributive-Network/PythonMonkey/actions/workflows/test-and-publish.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "status": "candidate",
+      "text": "This repository contains an example of Python code executing JavaScript code from an NPM package using [PythonMonkey](https://pythonmonkey.io/). The Python code here is a web server that uses the [CryptoJS](https://www.npmjs.com/package/crypto-js) NPM package to encrypt and decr\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +52,17 @@
       "observed_at": "2026-05-24T12:36:47.955733+00:00",
       "source_file": null,
       "source_repo": "Distributive-Network/PythonMonkey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example"
     }
   ],
   "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T12:36:47.955733+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

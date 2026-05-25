@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhayujie/CowAgent",
-      "target": "zhayujie/chatgpt-on-wechat",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-image-arm.yml",
       "source_repo": "zhayujie/CowAgent",
@@ -116,6 +109,20 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "cowagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
       "target": "deepseek",
       "target_type": "term"
     },
@@ -123,42 +130,7 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent",
-      "target": "dingtalk",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "feishu-bot",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "gemini",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
       "target": "harness",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "kimi",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "linkai",
       "target_type": "term"
     },
     {
@@ -179,31 +151,10 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent",
-      "target": "python3",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "qwen",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
       "target": "skills",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "zhayujie/CowAgent",
-      "target": "wechat",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-24T07:15:32.140894+00:00",
+  "generated_at": "2026-05-25T00:45:21.739463+00:00",
   "source_repo": "zhayujie/CowAgent"
 }

@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "javscript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "status": "candidate-context",
+      "text": "This repository contains an example of Python code executing JavaScript code from an NPM package using [PythonMonkey](https://pythonmonkey.io/). The Python code here is a web server that uses the [CryptoJS](https://www.npmjs.com/package/crypto-js) NPM package to encrypt and decr\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "status": "candidate",
+      "text": "This repository contains an example of Python code executing JavaScript code from an NPM package using [PythonMonkey](https://pythonmonkey.io/). The Python code here is a web server that uses the [CryptoJS](https://www.npmjs.com/package/crypto-js) NPM package to encrypt and decr\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "javscript",
+  "concept_id": "javscript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example"
+    }
+  ],
+  "first_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "javscript",
+      "sense_id": "javscript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39698951,
+      "status": "candidate",
+      "text": "fogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39627717,
+      "status": "candidate",
+      "text": "fogey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39561956,
+      "status": "candidate",
+      "text": "dotard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39560455,
+      "status": "candidate",
+      "text": "dodo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29810430,
+      "status": "candidate",
+      "text": "archeological remains"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fossil",
+      "sense_id": "fossil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6024,
+      "status": "candidate",
+      "text": "dotard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4038,
+      "status": "candidate",
+      "text": "dodo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4026,
+      "status": "candidate",
+      "text": "fogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "fogey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1008,
+      "status": "candidate",
+      "text": "archeological remains"
+    }
+  ],
+  "concept_id": "fossil",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fossil",
+  "observation_id": "969682ccabb99a98",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T00:45:21.739463+00:00",
+  "observed_text": "fossil",
+  "source_context_snippet": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)",
+  "source_file": null,
+  "source_repo": "mtkennerly/poetry-dynamic-versioning",
+  "source_repo_description": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+}

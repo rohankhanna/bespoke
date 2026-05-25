@@ -18,13 +18,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/FunASR",
-      "target": "akshay090/svg-banners",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml",
       "source_repo": "modelscope/FunASR",
@@ -70,21 +63,14 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "conformer",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunASR",
-      "target": "deep-learning",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "modelscope/FunASR",
       "target": "emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "mcp-server",
       "target_type": "term"
     },
     {
@@ -98,14 +84,14 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "paraformer",
+      "target": "openai-compatible-api",
       "target_type": "term"
     },
     {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "pretrained-model",
+      "target": "paraformer",
       "target_type": "term"
     },
     {
@@ -154,7 +140,7 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunASR",
-      "target": "speechllm",
+      "target": "streaming-asr",
       "target_type": "term"
     },
     {
@@ -162,6 +148,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunASR",
       "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "vllm",
       "target_type": "term"
     },
     {
@@ -179,11 +172,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T09:34:13.118230+00:00",
+  "fetched_at": "2026-05-25T00:54:28.423358+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 9228
+      "size": 10459
     },
     {
       "path": ".github/workflows/update-api-docs.yml",
@@ -194,44 +187,38 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection \u2014 all in 3 lines of Python. Production-ready.",
+    "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
     "fork": false,
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-05-24T09:27:03Z",
-    "stargazers_count": 16231,
+    "pushed_at": "2026-05-24T19:43:22Z",
+    "stargazers_count": 16247,
     "topics": [
       "asr",
       "audio",
       "chinese",
-      "conformer",
-      "deep-learning",
       "emotion-recognition",
+      "mcp-server",
       "multilingual-asr",
+      "openai-compatible-api",
       "paraformer",
-      "pretrained-model",
       "punctuation",
       "pytorch",
       "real-time",
       "speaker-diarization",
       "speech-recognition",
       "speech-to-text",
-      "speechllm",
+      "streaming-asr",
       "transcription",
       "vad",
+      "vllm",
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "updated_at": "2026-05-24T09:27:07Z"
+    "updated_at": "2026-05-24T19:43:26Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "akshay090/svg-banners",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Update API Documentation",
@@ -240,109 +227,109 @@
       "term": "Update API Documentation"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "audio"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chinese"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "conformer"
-    },
-    {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "deep-learning"
-    },
-    {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "emotion-recognition"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "multilingual-asr"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-compatible-api"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "paraformer"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "pretrained-model"
-    },
-    {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "punctuation"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "real-time"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speaker-diarization"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speech-recognition"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speech-to-text"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "speechllm"
+      "term": "streaming-asr"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "transcription"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "voice-activity-detection"
     },
     {
-      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)",
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "whisper-alternative"

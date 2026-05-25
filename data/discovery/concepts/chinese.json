@@ -559,6 +559,30 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "status": "candidate-context",
+      "text": "\u2728 \u9996\u4e2aCJK\uff08\u4e2d\u65e5\u97e9\uff09\u5b57\u4f53\u8bc6\u522b\u4ee5\u53ca\u6837\u5f0f\u63d0\u53d6\u6a21\u578b YuzuMarker\u7684\u5b57\u4f53\u8bc6\u522b\u6a21\u578b\u4e0e\u5b9e\u73b0 / First-ever CJK (Chinese Japanese Korean) Font Recognition and Style Extractor, side project of YuzuMarker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -843,6 +867,18 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -1549,11 +1585,23 @@
       "observed_at": "2026-05-24T18:29:15.298835+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-25T00:45:21.739463+00:00",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T18:29:15.298835+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,222 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "cjk-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "cjk-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "font-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "korean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "pytorch-cnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
+      "target": "recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T02:05:36.320959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16056
+    },
+    {
+      "path": "Dockerfile",
+      "size": 755
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2728 \u9996\u4e2aCJK\uff08\u4e2d\u65e5\u97e9\uff09\u5b57\u4f53\u8bc6\u522b\u4ee5\u53ca\u6837\u5f0f\u63d0\u53d6\u6a21\u578b YuzuMarker\u7684\u5b57\u4f53\u8bc6\u522b\u6a21\u578b\u4e0e\u5b9e\u73b0 / First-ever CJK (Chinese Japanese Korean) Font Recognition and Style Extractor, side project of YuzuMarker",
+    "fork": false,
+    "full_name": "JeffersonQin/YuzuMarker.FontDetection",
+    "html_url": "https://github.com/JeffersonQin/YuzuMarker.FontDetection",
+    "language": "Python",
+    "pushed_at": "2025-02-22T22:38:43Z",
+    "stargazers_count": 551,
+    "topics": [
+      "chinese",
+      "cjk-characters",
+      "cjk-font",
+      "cnn",
+      "computer-vision",
+      "cv",
+      "font",
+      "font-recognition",
+      "fonts",
+      "japanese",
+      "korean",
+      "pytorch",
+      "pytorch-cnn",
+      "pytorch-lightning",
+      "recognition"
+    ],
+    "updated_at": "2026-05-20T18:52:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-characters"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-font"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font-recognition"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "korean"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-cnn"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    }
+  ]
+}

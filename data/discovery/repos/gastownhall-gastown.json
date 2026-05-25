@@ -335,7 +335,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-24T13:10:14.209907+00:00",
+  "fetched_at": "2026-05-25T02:03:01.228573+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,7 +351,7 @@
     },
     {
       "path": ".github/workflows/block-internal-prs.yml",
-      "size": 1803
+      "size": 2292
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -387,10 +387,10 @@
     "full_name": "gastownhall/gastown",
     "html_url": "https://github.com/gastownhall/gastown",
     "language": "Go",
-    "pushed_at": "2026-05-23T22:09:53Z",
-    "stargazers_count": 15546,
+    "pushed_at": "2026-05-24T21:10:33Z",
+    "stargazers_count": 15555,
     "topics": [],
-    "updated_at": "2026-05-24T12:47:48Z"
+    "updated_at": "2026-05-25T01:42:37Z"
   },
   "repo_links": [
     {

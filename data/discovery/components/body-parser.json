@@ -1,7 +1,7 @@
 {
   "component": "body-parser",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-24T18:29:15.298835+00:00",
+  "last_seen_at": "2026-05-25T00:45:21.739463+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -222,6 +222,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "FxEmbed/mosaic-reference"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bropines/Deeplx-vercel"
     }
   ]
 }

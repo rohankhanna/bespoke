@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "crypto-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "target": "distributive-network/pythonmonkey-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "target": "crypto-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "target": "javscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+      "target": "pythonmonkey",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-25T02:05:42.630491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1285
+    },
+    {
+      "path": "package.json",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+    "html_url": "https://github.com/Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
+    "language": "Python",
+    "pushed_at": "2023-10-26T02:04:02Z",
+    "stargazers_count": 3,
+    "topics": [
+      "aes",
+      "javscript",
+      "python",
+      "pythonmonkey"
+    ],
+    "updated_at": "2024-08-17T07:26:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "distributive-network/pythonmonkey-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains an example of Python code executing JavaScript code from an NPM package using [PythonMonkey](https://pythonmonkey.io/). The Python code here is a web server that uses the [CryptoJS](https://www.npmjs.com/package/crypto-js) NPM package to encrypt and decr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javscript"
+    },
+    {
+      "context_snippet": "This repository contains an example of Python code executing JavaScript code from an NPM package using [PythonMonkey](https://pythonmonkey.io/). The Python code here is a web server that uses the [CryptoJS](https://www.npmjs.com/package/crypto-js) NPM package to encrypt and decr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pythonmonkey"
+    }
+  ]
+}

@@ -21980,6 +21980,9 @@
   "code style, abandoned tests, javadocs": [
     "code-style-abandoned-tests-javadocs"
   ],
+  "code validation": [
+    "code-validation"
+  ],
   "code-agent": [
     "code-agent"
   ],
@@ -33521,6 +33524,9 @@
   "dynamic-traffic-assignment": [
     "dynamic-traffic-assignment"
   ],
+  "dynamic-version": [
+    "dynamic-version"
+  ],
   "dynamical-systems": [
     "dynamical-systems"
   ],
@@ -38611,6 +38617,9 @@
   "font-patcher": [
     "font-patcher"
   ],
+  "font-recognition": [
+    "font-recognition"
+  ],
   "font-shaping": [
     "font-shaping"
   ],
@@ -38923,6 +38932,9 @@
   ],
   "fossfund": [
     "fossfund"
+  ],
+  "fossil": [
+    "fossil"
   ],
   "fossil-scm": [
     "fossil-scm"
@@ -49101,6 +49113,9 @@
   "javase": [
     "javase"
   ],
+  "javscript": [
+    "javscript"
+  ],
   "jawn build precheck": [
     "jawn-build-precheck"
   ],
@@ -55768,6 +55783,9 @@
   ],
   "manga": [
     "manga"
+  ],
+  "manga-translation": [
+    "manga-translation"
   ],
   "mangler": [
     "mangler"
@@ -67076,6 +67094,9 @@
   ],
   "pihole-torrent-blocklist": [
     "pihole-torrent-blocklist"
+  ],
+  "pijul": [
+    "pijul"
   ],
   "pika": [
     "pika"

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033051,
+      "status": "candidate",
+      "text": "verse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032850,
+      "status": "candidate",
+      "text": "poesy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033201,
+      "status": "candidate",
+      "text": "poetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033105,
+      "status": "candidate",
+      "text": "poet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033070,
+      "status": "candidate",
+      "text": "poem"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "poetry",
+      "sense_id": "poetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14048,
+      "status": "candidate",
+      "text": "verse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8026,
+      "status": "candidate",
+      "text": "poesy"
+    }
+  ],
+  "concept_id": "poetry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "poetry",
+  "observation_id": "62988a7c2de2df35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-25T00:45:21.739463+00:00",
+  "observed_text": "poetry",
+  "source_context_snippet": "This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)",
+  "source_file": null,
+  "source_repo": "mtkennerly/poetry-dynamic-versioning",
+  "source_repo_description": "Plugin for Poetry to enable dynamic versioning based on VCS tags"
+}

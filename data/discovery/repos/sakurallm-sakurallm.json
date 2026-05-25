@@ -46,14 +46,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "hillya51/lunatranslator",
+      "target": "isotr0py/sakurallm-notebooks",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "fkiliver/sakuratranslator",
+      "target": "kurikomoe/lunatranslator",
       "target_type": "repository"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "dmmaze/ballonstranslator",
+      "target": "hiyouga/llama-factory",
       "target_type": "repository"
     },
     {
@@ -127,7 +127,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-24T08:25:15.387105+00:00",
+  "fetched_at": "2026-05-25T02:05:30.485978+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -163,22 +163,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dmmaze/ballonstranslator",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "fkiliver/rpgmaker_llama_translator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fkiliver/sakuratranslator",
+      "full_name": "hiyouga/llama-factory",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hillya51/lunatranslator",
+      "full_name": "isotr0py/sakurallm-notebooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurikomoe/lunatranslator",
       "source_file": "README.md"
     }
   ],
