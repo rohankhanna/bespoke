@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-dotnet",
+      "target": "azure-samples/azure-openai-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-dotnet",
+      "target": "devlooped/moq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "openai/openai-dotnet",
+      "target": "@open-ai/plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrity-checks.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrity-checks.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrity-checks.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integrity-checks.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integrity-checks.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "Code integrity checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/live-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "Live Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "Build and Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-triage.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/needs-triage.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "Add needs-triage label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/record-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/record-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/record-test.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "Release package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generator.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generator.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generator.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-generator.yml",
+      "source_repo": "openai/openai-dotnet",
+      "target": "Update TypeSpec Generator Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-dotnet",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-26T00:44:06.917625+00:00",
+  "source_repo": "openai/openai-dotnet"
+}

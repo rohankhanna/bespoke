@@ -163,6 +163,12 @@
       "source_repo": "modelscope/FunClip",
       "status": "candidate-context",
       "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated."
     }
   ],
   "candidate_glosses": [
@@ -766,11 +772,23 @@
       "observed_at": "2026-05-25T18:41:09.248128+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T00:44:06.917625+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T00:44:06.917625+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "lexical_providers": [
     "datamuse"
   ],

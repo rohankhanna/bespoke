@@ -155,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T18:42:20.717380+00:00",
+  "fetched_at": "2026-05-26T00:58:30.902806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,7 +184,7 @@
     "html_url": "https://github.com/phodal/coca",
     "language": "Go",
     "pushed_at": "2026-01-06T09:40:33Z",
-    "stargazers_count": 982,
+    "stargazers_count": 983,
     "topics": [
       "ai",
       "architecture",
@@ -194,7 +194,7 @@
       "refactoring",
       "tools"
     ],
-    "updated_at": "2026-05-17T03:31:19Z"
+    "updated_at": "2026-05-25T20:18:41Z"
   },
   "repo_links": [
     {

@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/announce-release.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "spring-io/spring-release-actions/announce-on-gchat@2420148725bebe44bd59a575a9b1961ca4459b0b",
+      "target": "spring-io/spring-release-actions/announce-on-gchat@a1f321783a0769dd2aea4fad6c2ae2f95a52b885",
       "target_type": "component"
     },
     {
@@ -204,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "generated_at": "2026-05-26T00:44:06.917625+00:00",
   "source_repo": "spring-projects/spring-tools"
 }

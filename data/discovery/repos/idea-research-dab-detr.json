@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T13:37:41.906605+00:00",
+  "fetched_at": "2026-05-26T00:45:45.860145+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,14 +79,14 @@
     "html_url": "https://github.com/IDEA-Research/DAB-DETR",
     "language": "Jupyter Notebook",
     "pushed_at": "2023-06-02T09:56:52Z",
-    "stargazers_count": 580,
+    "stargazers_count": 579,
     "topics": [
       "dab-detr",
       "detection",
       "detr",
       "transformer"
     ],
-    "updated_at": "2026-05-23T12:41:54Z"
+    "updated_at": "2026-05-25T15:13:14Z"
   },
   "repo_links": [
     {

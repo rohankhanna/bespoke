@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -222,6 +222,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integrity-checks.yml",
+      "source_repo": "openai/openai-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/live-test.yml",
+      "source_repo": "openai/openai-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openai/openai-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/record-test.yml",
+      "source_repo": "openai/openai-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openai/openai-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-generator.yml",
+      "source_repo": "openai/openai-dotnet"
     }
   ]
 }

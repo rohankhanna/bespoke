@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official .NET library for the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Unit Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Unit Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34812,
+      "status": "candidate",
+      "text": "cis-trans test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25929,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19870,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18792,
+      "status": "candidate",
+      "text": "kludge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Unit Test",
+      "sense_id": "build-and-unit-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-unit-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-unit-test",
+  "observation_id": "110cdf107d0881ef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T00:44:06.917625+00:00",
+  "observed_text": "Build and Unit Test",
+  "source_context_snippet": "Build and Unit Test",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "openai/openai-dotnet",
+  "source_repo_description": "The official .NET library for the OpenAI API"
+}

@@ -1,7 +1,7 @@
 {
   "component": "potiuk/cancel-workflow-runs@master",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-25T13:24:13.030254+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

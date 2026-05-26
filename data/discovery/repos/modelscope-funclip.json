@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T18:58:41.649455+00:00",
+  "fetched_at": "2026-05-26T01:49:44.275581+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,13 +115,13 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated.",
+    "description": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated.",
     "fork": false,
     "full_name": "modelscope/FunClip",
     "html_url": "https://github.com/modelscope/FunClip",
     "language": "Python",
     "pushed_at": "2026-05-25T16:59:38Z",
-    "stargazers_count": 5641,
+    "stargazers_count": 5642,
     "topics": [
       "ai-tools",
       "ai-video-editing",
@@ -136,7 +136,7 @@
       "video-processing",
       "video-subtitles"
     ],
-    "updated_at": "2026-05-25T18:43:37Z"
+    "updated_at": "2026-05-26T00:23:49Z"
   },
   "repo_links": [
     {

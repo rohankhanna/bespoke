@@ -1,6 +1,6 @@
 {
-  "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "first_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -10,12 +10,12 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "micromatch/micromatch"
+      "source_repo": "babashka/babashka"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nvm-sh/nvm"
+      "source_repo": "micromatch/micromatch"
     }
   ],
   "term": "bash"

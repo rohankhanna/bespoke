@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml"
     },
     {
-      "component": "spring-io/spring-release-actions/announce-on-gchat@2420148725bebe44bd59a575a9b1961ca4459b0b",
+      "component": "spring-io/spring-release-actions/announce-on-gchat@a1f321783a0769dd2aea4fad6c2ae2f95a52b885",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/announce-release.yml"
     },
@@ -106,7 +106,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/announce-release.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "spring-io/spring-release-actions/announce-on-gchat@2420148725bebe44bd59a575a9b1961ca4459b0b",
+      "target": "spring-io/spring-release-actions/announce-on-gchat@a1f321783a0769dd2aea4fad6c2ae2f95a52b885",
       "target_type": "component"
     },
     {
@@ -271,7 +271,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T19:53:20.708205+00:00",
+  "fetched_at": "2026-05-26T02:08:35.611285+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -323,7 +323,7 @@
     "full_name": "spring-projects/spring-tools",
     "html_url": "https://github.com/spring-projects/spring-tools",
     "language": "Java",
-    "pushed_at": "2026-05-25T18:26:39Z",
+    "pushed_at": "2026-05-25T23:50:21Z",
     "stargazers_count": 967,
     "topics": [
       "eclipse",
@@ -334,7 +334,7 @@
       "visual-studio-code",
       "vscode-extension"
     ],
-    "updated_at": "2026-05-23T01:14:32Z"
+    "updated_at": "2026-05-25T20:36:22Z"
   },
   "repo_links": [
     {

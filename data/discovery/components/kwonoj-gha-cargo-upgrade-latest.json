@@ -1,7 +1,7 @@
 {
   "component": "kwonoj/gha-cargo-upgrade@latest",
   "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

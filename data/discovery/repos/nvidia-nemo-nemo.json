@@ -423,7 +423,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T13:50:07.058144+00:00",
+  "fetched_at": "2026-05-26T00:57:05.668136+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -431,7 +431,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 6719
+      "size": 6222
     },
     {
       "path": ".github/workflows/_build_container.yml",
@@ -475,7 +475,7 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-05-25T08:15:16Z",
+    "pushed_at": "2026-05-25T23:55:56Z",
     "stargazers_count": 17255,
     "topics": [
       "asr",
@@ -489,7 +489,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-05-25T06:09:03Z"
+    "updated_at": "2026-05-26T00:25:03Z"
   },
   "repo_links": [
     {

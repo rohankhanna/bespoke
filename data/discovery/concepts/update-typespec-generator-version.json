@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update TypeSpec Generator Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-dotnet",
+      "status": "candidate-context",
+      "text": "The official .NET library for the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-dotnet",
+      "status": "candidate-context",
+      "text": "Update TypeSpec Generator Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-dotnet",
+      "status": "candidate",
+      "text": "Update TypeSpec Generator Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18026,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18026,
+      "status": "candidate",
+      "text": "sourcing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17992,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17962,
+      "status": "candidate",
+      "text": "antedate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17962,
+      "status": "candidate",
+      "text": "cosmogony"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update TypeSpec Generator Version",
+  "concept_id": "update-typespec-generator-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T00:44:06.917625+00:00",
+      "source_file": ".github/workflows/update-generator.yml",
+      "source_repo": "openai/openai-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update TypeSpec Generator Version",
+      "sense_id": "update-typespec-generator-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

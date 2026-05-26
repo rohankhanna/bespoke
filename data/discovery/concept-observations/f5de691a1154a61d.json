@@ -43,7 +43,7 @@
   "normalized_form": "pypi",
   "observation_id": "f5de691a1154a61d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_at": "2026-05-26T00:44:06.917625+00:00",
   "observed_text": "pypi",
   "source_context_snippet": "pypi",
   "source_file": ".github/workflows/pypi-publish.yml",

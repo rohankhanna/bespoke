@@ -1169,6 +1169,9 @@
   "add model like runner": [
     "add-model-like-runner"
   ],
+  "add needs-triage label": [
+    "add-needs-triage-label"
+  ],
   "add new implementation versions": [
     "add-new-implementation-versions"
   ],
@@ -11698,6 +11701,9 @@
   "build and trigger antithesis exploration": [
     "build-and-trigger-antithesis-exploration"
   ],
+  "build and unit test": [
+    "build-and-unit-test"
+  ],
   "build and upload maxtext package": [
     "build-and-upload-maxtext-package"
   ],
@@ -21928,6 +21934,9 @@
   ],
   "code generation check": [
     "code-generation-check"
+  ],
+  "code integrity checks": [
+    "code-integrity-checks"
   ],
   "code lint": [
     "code-lint"
@@ -53758,6 +53767,9 @@
   ],
   "live canary": [
     "live-canary"
+  ],
+  "live test": [
+    "live-test"
   ],
   "live-badges": [
     "live-badges"
@@ -95008,6 +95020,9 @@
   ],
   "update typesense search index": [
     "update-typesense-search-index"
+  ],
+  "update typespec generator version": [
+    "update-typespec-generator-version"
   ],
   "update uplink schema": [
     "update-uplink-schema"

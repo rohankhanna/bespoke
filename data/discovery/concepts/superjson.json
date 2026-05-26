@@ -862,11 +862,23 @@
       "observed_at": "2026-05-25T18:41:09.248128+00:00",
       "source_file": null,
       "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T00:44:06.917625+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T00:44:06.917625+00:00",
+      "source_file": null,
+      "source_repo": "blitz-js/next-superjson-plugin"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "lexical_providers": [
     "datamuse"
   ],

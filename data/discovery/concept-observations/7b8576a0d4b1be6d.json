@@ -84,7 +84,7 @@
   "normalized_form": "check-ai-co-authors",
   "observation_id": "7b8576a0d4b1be6d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_at": "2026-05-26T00:44:06.917625+00:00",
   "observed_text": "Check AI Co-Authors",
   "source_context_snippet": "Check AI Co-Authors",
   "source_file": ".github/workflows/check-ai-co-authors.yml",

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-25T18:41:09.248128+00:00",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -541,6 +541,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "litedb-org/LiteDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-dotnet"
     }
   ],
   "term": "dotnet"

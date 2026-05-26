@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Live Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-dotnet",
+      "status": "candidate-context",
+      "text": "The official .NET library for the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-dotnet",
+      "status": "candidate-context",
+      "text": "Live Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-dotnet",
+      "status": "candidate",
+      "text": "Live Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "dare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "fail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "lead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Live Test",
+  "concept_id": "live-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T00:44:06.917625+00:00",
+      "source_file": ".github/workflows/live-test.yml",
+      "source_repo": "openai/openai-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Live Test",
+      "sense_id": "live-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated."
+      "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated."
     },
     {
       "source_kind": "source-snippet",
@@ -48,10 +48,10 @@
   "normalized_form": "video-clip",
   "observation_id": "9ea89e4e34faa0d4",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_at": "2026-05-26T00:44:06.917625+00:00",
   "observed_text": "video-clip",
   "source_context_snippet": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)",
   "source_file": null,
   "source_repo": "modelscope/FunClip",
-  "source_repo_description": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated."
+  "source_repo_description": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated."
 }

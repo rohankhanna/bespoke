@@ -84,7 +84,7 @@
   "normalized_form": "build-and-deploy-sphinx-docs",
   "observation_id": "3cddab13f9c2cf36",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T13:24:13.030254+00:00",
+  "observed_at": "2026-05-26T00:44:06.917625+00:00",
   "observed_text": "Build and Deploy Sphinx Docs",
   "source_context_snippet": "Build and Deploy Sphinx Docs",
   "source_file": ".github/workflows/docs.yml",
