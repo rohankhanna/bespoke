@@ -84,7 +84,7 @@
   "normalized_form": "upload-ragas-examples-package",
   "observation_id": "90762834453b150a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "Upload ragas-examples Package",
   "source_context_snippet": "Upload ragas-examples Package",
   "source_file": ".github/workflows/publish-examples.yml",

@@ -738,7 +738,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T13:36:43.625920+00:00",
+  "fetched_at": "2026-05-26T21:32:21.281675+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -746,7 +746,7 @@
     },
     {
       "path": "package.json",
-      "size": 3456
+      "size": 3449
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -774,14 +774,14 @@
     "full_name": "geotiffjs/geotiff.js",
     "html_url": "https://github.com/geotiffjs/geotiff.js",
     "language": "JavaScript",
-    "pushed_at": "2026-04-02T10:40:00Z",
+    "pushed_at": "2026-05-26T20:17:59Z",
     "stargazers_count": 1020,
     "topics": [
       "geotiff",
       "raster-data",
       "tiff-files"
     ],
-    "updated_at": "2026-05-23T13:19:41Z"
+    "updated_at": "2026-05-26T17:18:44Z"
   },
   "repo_links": [
     {

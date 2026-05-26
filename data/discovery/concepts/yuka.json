@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "yuka"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate-context",
+      "text": "New and fresh version of yukatool, rewritten from the ground up to be much faster and more maintainable than its predecessor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate-context",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9146429,
+      "status": "candidate",
+      "text": "yuko"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9146428,
+      "status": "candidate",
+      "text": "yukie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9146427,
+      "status": "candidate",
+      "text": "yukiko"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9146426,
+      "status": "candidate",
+      "text": "yukako"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9146425,
+      "status": "candidate",
+      "text": "yukari"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "yuka",
+  "concept_id": "yuka",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2"
+    }
+  ],
+  "first_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yuka",
+      "sense_id": "yuka#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

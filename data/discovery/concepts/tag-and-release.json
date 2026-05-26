@@ -652,11 +652,17 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": ".github/workflows/tag-and-release.yml",
       "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": ".github/workflows/tag-and-release.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui"
+    }
+  ],
+  "term": "Build, Release, and Publish Updates"
+}

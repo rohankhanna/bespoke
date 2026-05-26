@@ -586,7 +586,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T14:50:56.372368+00:00",
+  "fetched_at": "2026-05-26T20:15:54.780655+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -638,8 +638,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-05-25T19:00:32Z",
-    "stargazers_count": 6291,
+    "pushed_at": "2026-05-26T17:20:44Z",
+    "stargazers_count": 6295,
     "topics": [
       "filesearch",
       "lua",
@@ -647,7 +647,7 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-05-26T13:55:33Z"
+    "updated_at": "2026-05-26T18:42:40Z"
   },
   "repo_links": [
     {

@@ -2374,11 +2374,41 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": null,
       "source_repo": "js-choi/proposal-function-demethodize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-pipe-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "js-choi/proposal-function-demethodize"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

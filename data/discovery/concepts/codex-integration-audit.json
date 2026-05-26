@@ -262,11 +262,17 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": ".github/workflows/codex-integration-audit.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": ".github/workflows/codex-integration-audit.yml",
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

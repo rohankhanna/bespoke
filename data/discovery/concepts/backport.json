@@ -454,6 +454,18 @@
       "source_repo": "mono/SkiaSharp",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/skia",
+      "status": "candidate-context",
+      "text": "Skia is a complete 2D graphic library for drawing Text, Geometries, and Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/skia",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -676,6 +688,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mono/SkiaSharp",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/skia",
       "status": "candidate",
       "text": "Backport"
     }
@@ -967,11 +985,17 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "mono/SkiaSharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/skia"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "jasmine-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-chrome-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-firefox-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-jasmine",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tibdex/backport@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mono/skia",
+      "target": "jasmine-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mono/skia",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mono/skia",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mono/skia",
+      "target": "karma-firefox-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mono/skia",
+      "target": "karma-jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/skia",
+      "target": "tibdex/backport@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/skia",
+      "target": "Backport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T21:03:53.919692+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "skiasharp",
+    "description": "Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.",
+    "fork": true,
+    "full_name": "mono/skia",
+    "html_url": "https://github.com/mono/skia",
+    "language": "C++",
+    "pushed_at": "2026-05-26T19:40:22Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-05-26T18:44:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    }
+  ]
+}

@@ -60,7 +60,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "pidanshourouzhouxd/sakura_launcher_gui",
+      "target": "qwenlm/qwen1.5",
       "target_type": "repository"
     },
     {
@@ -127,7 +127,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-26T15:30:39.208894+00:00",
+  "fetched_at": "2026-05-26T21:03:23.842426+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -178,7 +178,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pidanshourouzhouxd/sakura_launcher_gui",
+      "full_name": "qwenlm/qwen1.5",
       "source_file": "README.md"
     }
   ],

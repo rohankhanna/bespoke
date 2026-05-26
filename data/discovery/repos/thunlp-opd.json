@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/OPD",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/OPD",
+      "target": "thunlp/justrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OPD",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OPD",
+      "target": "mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OPD",
+      "target": "on-policy-distillation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T21:22:24.283847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+    "fork": false,
+    "full_name": "thunlp/OPD",
+    "html_url": "https://github.com/thunlp/OPD",
+    "language": "Python",
+    "pushed_at": "2026-05-26T13:23:25Z",
+    "stargazers_count": 478,
+    "topics": [
+      "llms",
+      "mechanism",
+      "on-policy-distillation"
+    ],
+    "updated_at": "2026-05-26T20:07:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/justrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufeff<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "\ufeff<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mechanism"
+    },
+    {
+      "context_snippet": "\ufeff<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "on-policy-distillation"
+    }
+  ]
+}

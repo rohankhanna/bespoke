@@ -11,21 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NEKOparapa/AiNiee",
-      "target": "nekoparapa/readreamai",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEKOparapa/AiNiee",
-      "target": "shadowloveelysia/ainiee-next",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEKOparapa/AiNiee",
-      "target": "pidanshourouzhouxd/sakura_launcher_gui",
+      "target": "xuanji86/ainiee-translate-skill",
       "target_type": "repository"
     },
     {
@@ -64,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T13:17:40.210760+00:00",
+  "generated_at": "2026-05-26T18:56:15.123228+00:00",
   "source_repo": "NEKOparapa/AiNiee"
 }

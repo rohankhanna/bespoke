@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "New and fresh version of yukatool, rewritten from the ground up to be much faster and more maintainable than its predecessor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956562,
+      "status": "candidate",
+      "text": "ming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938515,
+      "status": "candidate",
+      "text": "mastery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29907276,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29897134,
+      "status": "candidate",
+      "text": "closure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "feng",
+      "sense_id": "feng#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "feng",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "feng",
+  "observation_id": "3f6601ad513d9bda",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
+  "observed_text": "feng",
+  "source_context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+  "source_file": null,
+  "source_repo": "AtomCrafty/yukatool2",
+  "source_repo_description": "New and fresh version of yukatool, rewritten from the ground up to be much faster and more maintainable than its predecessor"
+}

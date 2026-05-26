@@ -424,11 +424,17 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": ".github/workflows/deploy-to-modal.yml",
       "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": ".github/workflows/deploy-to-modal.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

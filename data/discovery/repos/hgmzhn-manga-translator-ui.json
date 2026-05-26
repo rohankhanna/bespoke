@@ -1,0 +1,406 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-to-gitee.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "zyddnys/manga-image-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "the-database/mangajanai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "lhj5426/ysg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "Build, Release, and Publish Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "Build and Push Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-to-gitee.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-to-gitee.yml",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "Sync to Gitee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "automated-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "comic-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "image-translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "manga-translato",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "target": "scanlation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T21:03:42.123804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11822
+    },
+    {
+      "path": ".github/workflows/build-and-release.yml",
+      "size": 9591
+    },
+    {
+      "path": ".github/workflows/docker-build-push.yml",
+      "size": 3057
+    },
+    {
+      "path": ".github/workflows/sync-to-gitee.yml",
+      "size": 1268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u57fa\u4e8e manga-image-translator \u7684\u5f00\u6e90\u6f2b\u753b\u7ffb\u8bd1\u5de5\u5177\u3002\u652f\u6301\u65e5/\u97e9/\u7f8e\u6f2b\u81ea\u52a8\u7ffb\u8bd1\uff0c\u5185\u7f6e OpenAI\u3001Gemini \u7b49 5 \u79cd\u7ffb\u8bd1\u5f15\u64ce\uff0c\u5e76\u63d0\u4f9b\u53ef\u89c6\u5316\u7f16\u8f91\u5668\u81ea\u7531\u8c03\u6574\u6587\u672c\u6837\u5f0f\u3002\u4e00\u952e\u5b89\u88c5\uff0c\u5f00\u7bb1\u5373\u7528\u3002\u5982\u679c\u559c\u6b22\uff0c\u6b22\u8fce\u70b9\u4eae \u2b50 Star \u652f\u6301\uff01",
+    "fork": false,
+    "full_name": "hgmzhn/manga-translator-ui",
+    "html_url": "https://github.com/hgmzhn/manga-translator-ui",
+    "language": "Python",
+    "pushed_at": "2026-05-23T19:20:01Z",
+    "stargazers_count": 1710,
+    "topics": [
+      "automated-translation",
+      "comic-translation",
+      "gemini",
+      "image-translator",
+      "machine-translation",
+      "manga-translato",
+      "ocr",
+      "openai",
+      "python",
+      "scanlation"
+    ],
+    "updated_at": "2026-05-26T14:00:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhj5426/ysg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "the-database/mangajanai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zyddnys/manga-image-translator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build, Release, and Publish Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "term": "Build, Release, and Publish Updates"
+    },
+    {
+      "context_snippet": "Build and Push Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "term": "Build and Push Docker Images"
+    },
+    {
+      "context_snippet": "Sync to Gitee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-to-gitee.yml",
+      "term": "Sync to Gitee"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-translation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comic-translation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translator"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga-translato"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanlation"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "zhiyiyo/groove",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "zhiyiyo/alpha-gobang-zero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "custom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "fluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "fluent-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "fluentui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "modern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "pyqt6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "pyside2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "pyside6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "software",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "widgets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "win11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "winui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "target": "winui3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T21:03:35.422453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4646
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fluent design widgets library based on C++ Qt/PyQt/PySide. Make Qt Great Again.",
+    "fork": false,
+    "full_name": "zhiyiYo/PyQt-Fluent-Widgets",
+    "html_url": "https://github.com/zhiyiYo/PyQt-Fluent-Widgets",
+    "language": "Python",
+    "pushed_at": "2026-05-26T14:45:12Z",
+    "stargazers_count": 7909,
+    "topics": [
+      "custom",
+      "fluent",
+      "fluent-design",
+      "fluentui",
+      "gui",
+      "modern",
+      "pyqt5",
+      "pyqt6",
+      "pyside2",
+      "pyside6",
+      "python",
+      "qt",
+      "qt5",
+      "qt6",
+      "software",
+      "ui",
+      "widgets",
+      "win11",
+      "winui",
+      "winui3"
+    ],
+    "updated_at": "2026-05-26T14:59:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiyiyo/alpha-gobang-zero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiyiyo/groove",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "custom"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluent"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluent-design"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluentui"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modern"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt6"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside2"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside6"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widgets"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "win11"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui3"
+    }
+  ]
+}

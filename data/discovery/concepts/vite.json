@@ -4642,11 +4642,59 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": null,
       "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse-webext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

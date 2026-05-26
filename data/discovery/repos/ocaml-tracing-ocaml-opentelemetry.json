@@ -114,7 +114,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T15:39:38.609353+00:00",
+  "fetched_at": "2026-05-26T21:07:57.883656+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -142,7 +142,7 @@
     "full_name": "ocaml-tracing/ocaml-opentelemetry",
     "html_url": "https://github.com/ocaml-tracing/ocaml-opentelemetry",
     "language": "OCaml",
-    "pushed_at": "2026-05-26T01:45:29Z",
+    "pushed_at": "2026-05-26T16:43:24Z",
     "stargazers_count": 56,
     "topics": [
       "metrics",

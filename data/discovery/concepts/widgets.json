@@ -91,6 +91,18 @@
       "source_repo": "gazebosim/gz-gui",
       "status": "candidate-context",
       "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "status": "candidate-context",
+      "text": "A fluent design widgets library based on C++ Qt/PyQt/PySide. Make Qt Great Again."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "gazebosim/gz-gui",
       "status": "candidate",
       "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +268,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "gazebosim/gz-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

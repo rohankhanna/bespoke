@@ -67,6 +67,18 @@
       "source_repo": "blueaxis/Cloe",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "status": "candidate-context",
+      "text": "A fluent design widgets library based on C++ Qt/PyQt/PySide. Make Qt Great Again."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "blueaxis/Cloe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -148,11 +166,23 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": null,
       "source_repo": "blueaxis/Cloe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Fluent-Widgets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

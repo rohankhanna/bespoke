@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-26T21:03:33.974869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My tools to crack galgame",
+    "fork": false,
+    "full_name": "Inori/FuckGalEngine",
+    "html_url": "https://github.com/Inori/FuckGalEngine",
+    "language": "C",
+    "pushed_at": "2022-02-06T01:52:40Z",
+    "stargazers_count": 995,
+    "topics": [],
+    "updated_at": "2026-05-26T01:20:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

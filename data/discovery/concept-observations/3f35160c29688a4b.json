@@ -48,7 +48,7 @@
   "normalized_form": "codspeed",
   "observation_id": "3f35160c29688a4b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "CodSpeed",
   "source_context_snippet": "CodSpeed",
   "source_file": ".github/workflows/codspeed.yml",

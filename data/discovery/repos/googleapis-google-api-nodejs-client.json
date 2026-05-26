@@ -692,7 +692,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T01:49:00.686286+00:00",
+  "fetched_at": "2026-05-26T19:16:01.777203+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -729,7 +729,7 @@
     "html_url": "https://github.com/googleapis/google-api-nodejs-client",
     "language": "TypeScript",
     "pushed_at": "2026-05-19T22:39:14Z",
-    "stargazers_count": 12160,
+    "stargazers_count": 12161,
     "topics": [
       "client",
       "client-library",
@@ -737,7 +737,7 @@
       "google-api",
       "nodejs"
     ],
-    "updated_at": "2026-05-25T18:18:10Z"
+    "updated_at": "2026-05-26T15:27:40Z"
   },
   "repo_links": [
     {

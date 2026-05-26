@@ -247,6 +247,18 @@
       "source_repo": "tModLoader/tModLoader",
       "status": "candidate-context",
       "text": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate-context",
+      "text": "New and fresh version of yukatool, rewritten from the ground up to be much faster and more maintainable than its predecessor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate-context",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "tModLoader/tModLoader",
       "status": "candidate",
       "text": "tModLoader (TML) is an open-source, community-driven, modification and expansion of the Terraria game that makes it possible to make and play mods. TML expands your Terraria adventures with new content to explore created by the Terraria community! TML allows players to create an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
     }
   ],
   "candidate_related_terms": [
@@ -1414,11 +1432,29 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

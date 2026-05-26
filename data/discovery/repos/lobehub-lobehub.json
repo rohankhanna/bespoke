@@ -381,6 +381,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@lobechat/chat-adapter-imessage",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@lobechat/chat-adapter-line",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -2474,6 +2479,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/chat-adapter-feishu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/chat-adapter-imessage",
       "target_type": "component"
     },
     {
@@ -4759,7 +4771,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T01:05:58.414136+00:00",
+  "fetched_at": "2026-05-26T19:09:42.206688+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4771,7 +4783,7 @@
     },
     {
       "path": "package.json",
-      "size": 23163
+      "size": 23217
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4811,8 +4823,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-26T01:03:39Z",
-    "stargazers_count": 77693,
+    "pushed_at": "2026-05-26T18:28:54Z",
+    "stargazers_count": 77741,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4830,7 +4842,7 @@
       "openai",
       "skills"
     ],
-    "updated_at": "2026-05-26T00:46:50Z"
+    "updated_at": "2026-05-26T18:51:32Z"
   },
   "repo_links": [
     {

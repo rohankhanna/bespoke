@@ -84,7 +84,7 @@
   "normalized_form": "validate-pr",
   "observation_id": "0a9bae0021d593fe",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "Validate PR",
   "source_context_snippet": "\"Validate PR\"",
   "source_file": ".github/workflows/validate_pr.yml",

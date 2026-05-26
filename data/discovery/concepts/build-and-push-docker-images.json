@@ -43,6 +43,18 @@
       "source_repo": "AnotiaWang/deep-research-web-ui",
       "status": "candidate-context",
       "text": "Build and Push Docker Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e manga-image-translator \u7684\u5f00\u6e90\u6f2b\u753b\u7ffb\u8bd1\u5de5\u5177\u3002\u652f\u6301\u65e5/\u97e9/\u7f8e\u6f2b\u81ea\u52a8\u7ffb\u8bd1\uff0c\u5185\u7f6e OpenAI\u3001Gemini \u7b49 5 \u79cd\u7ffb\u8bd1\u5f15\u64ce\uff0c\u5e76\u63d0\u4f9b\u53ef\u89c6\u5316\u7f16\u8f91\u5668\u81ea\u7531\u8c03\u6574\u6587\u672c\u6837\u5f0f\u3002\u4e00\u952e\u5b89\u88c5\uff0c\u5f00\u7bb1\u5373\u7528\u3002\u5982\u679c\u559c\u6b22\uff0c\u6b22\u8fce\u70b9\u4eae \u2b50 Star \u652f\u6301\uff01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hgmzhn/manga-translator-ui",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Images"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AnotiaWang/deep-research-web-ui",
+      "status": "candidate",
+      "text": "Build and Push Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hgmzhn/manga-translator-ui",
       "status": "candidate",
       "text": "Build and Push Docker Images"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "AnotiaWang/deep-research-web-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "hgmzhn/manga-translator-ui"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
   "lexical_providers": [
     "datamuse"
   ],

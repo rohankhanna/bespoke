@@ -84,7 +84,7 @@
   "normalized_form": "stale-issue-management",
   "observation_id": "63587451f467a16f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "Stale Issue Management",
   "source_context_snippet": "\"Stale Issue Management\"",
   "source_file": ".github/workflows/stale-issues.yml",

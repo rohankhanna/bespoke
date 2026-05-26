@@ -288,7 +288,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T16:09:18.014918+00:00",
+  "fetched_at": "2026-05-26T21:24:07.121854+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -332,14 +332,14 @@
     "full_name": "mozilla-ai/otari",
     "html_url": "https://github.com/mozilla-ai/otari",
     "language": "Python",
-    "pushed_at": "2026-05-26T14:50:48Z",
-    "stargazers_count": 13,
+    "pushed_at": "2026-05-26T21:07:08Z",
+    "stargazers_count": 14,
     "topics": [
       "ai",
       "gateway",
       "llm"
     ],
-    "updated_at": "2026-05-26T09:30:25Z"
+    "updated_at": "2026-05-26T16:18:24Z"
   },
   "repo_links": [
     {

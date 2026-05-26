@@ -149,7 +149,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T15:03:11.569689+00:00",
+  "fetched_at": "2026-05-26T20:24:22.529752+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -167,16 +167,16 @@
   "related_repositories": [],
   "repo": {
     "archived": false,
-    "default_branch": "master",
+    "default_branch": "main",
     "description": "An iteration of the Node.js core streams with a series of improvements.",
     "fork": false,
     "full_name": "mafintosh/streamx",
     "html_url": "https://github.com/mafintosh/streamx",
     "language": "JavaScript",
-    "pushed_at": "2026-05-06T08:00:52Z",
+    "pushed_at": "2026-05-26T18:01:29Z",
     "stargazers_count": 239,
     "topics": [],
-    "updated_at": "2026-05-06T08:00:55Z"
+    "updated_at": "2026-05-26T18:00:27Z"
   },
   "repo_links": [
     {

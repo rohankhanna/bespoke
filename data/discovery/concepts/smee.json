@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "smee"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate-context",
+      "text": "New and fresh version of yukatool, rewritten from the ground up to be much faster and more maintainable than its predecessor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate-context",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomCrafty/yukatool2",
+      "status": "candidate",
+      "text": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050303,
+      "status": "candidate",
+      "text": "pochard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050238,
+      "status": "candidate",
+      "text": "widgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027515,
+      "status": "candidate",
+      "text": "fly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19926528,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050381,
+      "status": "candidate",
+      "text": "sea pheasant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "smee",
+  "concept_id": "smee",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2"
+    }
+  ],
+  "first_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smee",
+      "sense_id": "smee#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

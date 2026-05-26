@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "mechanism"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OPD",
+      "status": "candidate-context",
+      "text": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OPD",
+      "status": "candidate-context",
+      "text": "\ufeff<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OPD",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009354,
+      "status": "candidate",
+      "text": "mechanics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033565,
+      "status": "candidate",
+      "text": "chemical mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033564,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031847,
+      "status": "candidate",
+      "text": "clockwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031676,
+      "status": "candidate",
+      "text": "device"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "mechanics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "chemical mechanism"
+    }
+  ],
+  "canonical_name": "mechanism",
+  "concept_id": "mechanism",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T18:56:15.123228+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OPD"
+    }
+  ],
+  "first_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mechanism",
+      "sense_id": "mechanism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

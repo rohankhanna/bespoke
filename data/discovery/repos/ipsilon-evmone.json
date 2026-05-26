@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T14:58:54.142124+00:00",
+  "fetched_at": "2026-05-26T20:21:30.196521+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,7 +78,7 @@
     "full_name": "ipsilon/evmone",
     "html_url": "https://github.com/ipsilon/evmone",
     "language": "C++",
-    "pushed_at": "2026-05-26T14:51:57Z",
+    "pushed_at": "2026-05-26T19:33:06Z",
     "stargazers_count": 975,
     "topics": [
       "blockchain",
@@ -88,7 +88,7 @@
       "evmc",
       "hacktoberfest"
     ],
-    "updated_at": "2026-05-26T07:36:58Z"
+    "updated_at": "2026-05-26T19:33:45Z"
   },
   "repo_links": [
     {

@@ -6651,6 +6651,9 @@
   "automated-tests": [
     "automated-tests"
   ],
+  "automated-translation": [
+    "automated-translation"
+  ],
   "automated-vehicles": [
     "automated-vehicles"
   ],
@@ -14046,6 +14049,9 @@
   ],
   "build, qa, release": [
     "build-qa-release"
+  ],
+  "build, release, and publish updates": [
+    "build-release-and-publish-updates"
   ],
   "build, test": [
     "build-test"
@@ -22933,6 +22939,9 @@
   ],
   "comfyui-workflow": [
     "comfyui-workflow"
+  ],
+  "comic-translation": [
+    "comic-translation"
   ],
   "comics": [
     "comics"
@@ -37355,6 +37364,9 @@
   "feline": [
     "feline"
   ],
+  "feng": [
+    "feng"
+  ],
   "fengari": [
     "fengari"
   ],
@@ -38565,6 +38577,9 @@
   ],
   "fluentribbon": [
     "fluentribbon"
+  ],
+  "fluentui": [
+    "fluentui"
   ],
   "fluentvalidation": [
     "fluentvalidation"
@@ -46895,6 +46910,9 @@
   ],
   "image-translation": [
     "image-translation"
+  ],
+  "image-translator": [
+    "image-translator"
   ],
   "image-understanding": [
     "image-understanding"
@@ -55967,6 +55985,9 @@
   "manga-translation": [
     "manga-translation"
   ],
+  "manga-translato": [
+    "manga-translato"
+  ],
   "mangler": [
     "mangler"
   ],
@@ -57014,6 +57035,9 @@
   ],
   "mechanics": [
     "mechanics"
+  ],
+  "mechanism": [
+    "mechanism"
   ],
   "medaka": [
     "medaka"
@@ -66536,6 +66560,9 @@
   ],
   "peakbagging": [
     "peakbagging"
+  ],
+  "peassoft": [
+    "peassoft"
   ],
   "pebble": [
     "pebble"
@@ -80385,6 +80412,9 @@
   "scancontext": [
     "scancontext"
   ],
+  "scanlation": [
+    "scanlation"
+  ],
   "scanner": [
     "scanner"
   ],
@@ -83297,6 +83327,9 @@
   ],
   "smbscan": [
     "smbscan"
+  ],
+  "smee": [
+    "smee"
   ],
   "smhasher": [
     "smhasher"
@@ -97661,6 +97694,9 @@
   "visual-novel": [
     "visual-novel"
   ],
+  "visual-novel-engine": [
+    "visual-novel-engine"
+  ],
   "visual-object-tracking": [
     "visual-object-tracking"
   ],
@@ -99939,6 +99975,9 @@
   "win-tmux": [
     "win-tmux"
   ],
+  "win11": [
+    "win11"
+  ],
   "win32": [
     "win32"
   ],
@@ -101382,6 +101421,12 @@
   ],
   "yubikey": [
     "yubikey"
+  ],
+  "yuka": [
+    "yuka"
+  ],
+  "yuka-archive": [
+    "yuka-archive"
   ],
   "yyjson": [
     "yyjson"

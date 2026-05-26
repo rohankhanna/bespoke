@@ -1,0 +1,271 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "decompiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "feng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "peassoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "smee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "unpacker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "visual-novel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "visual-novel-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "yuka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomCrafty/yukatool2",
+      "target": "yuka-archive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T21:03:26.542235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New and fresh version of yukatool, rewritten from the ground up to be much faster and more maintainable than its predecessor",
+    "fork": false,
+    "full_name": "AtomCrafty/yukatool2",
+    "html_url": "https://github.com/AtomCrafty/yukatool2",
+    "language": "C#",
+    "pushed_at": "2025-06-21T19:07:16Z",
+    "stargazers_count": 25,
+    "topics": [
+      "archive",
+      "compiler",
+      "converter",
+      "decompiler",
+      "feng",
+      "game",
+      "graphics",
+      "packer",
+      "peassoft",
+      "script",
+      "smee",
+      "tool",
+      "unpacker",
+      "visual-novel",
+      "visual-novel-engine",
+      "ykc",
+      "ykg",
+      "yks",
+      "yuka",
+      "yuka-archive"
+    ],
+    "updated_at": "2026-03-26T16:23:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archive"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompiler"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feng"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peassoft"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smee"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unpacker"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-novel"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-novel-engine"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yuka"
+    },
+    {
+      "context_snippet": "YukaTool is a tool designed to work with the files used by the \"Yuka System\" visual novel engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yuka-archive"
+    }
+  ]
+}

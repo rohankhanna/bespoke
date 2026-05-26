@@ -8,6 +8,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compozy/kb",
+      "target": "tobilu/qmd",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "compozy/kb",
@@ -57,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T13:17:40.210760+00:00",
+  "generated_at": "2026-05-26T18:56:15.123228+00:00",
   "source_repo": "compozy/kb"
 }

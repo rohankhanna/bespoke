@@ -84,7 +84,7 @@
   "normalized_form": "create-source-bundle",
   "observation_id": "040da38f9672f4c2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "Create Source Bundle",
   "source_context_snippet": "Create Source Bundle",
   "source_file": ".github/workflows/source-release.yml",

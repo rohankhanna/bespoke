@@ -84,7 +84,7 @@
   "normalized_form": "count-solved-issues",
   "observation_id": "ca5433ce6220b60a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "Count Solved Issues",
   "source_context_snippet": "Count Solved Issues",
   "source_file": ".github/workflows/solved-issues.yml",

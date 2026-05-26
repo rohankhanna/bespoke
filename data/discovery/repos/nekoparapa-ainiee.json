@@ -53,21 +53,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NEKOparapa/AiNiee",
-      "target": "nekoparapa/readreamai",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEKOparapa/AiNiee",
-      "target": "shadowloveelysia/ainiee-next",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEKOparapa/AiNiee",
-      "target": "pidanshourouzhouxd/sakura_launcher_gui",
+      "target": "xuanji86/ainiee-translate-skill",
       "target_type": "repository"
     },
     {
@@ -106,7 +92,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T15:30:44.370015+00:00",
+  "fetched_at": "2026-05-26T21:03:25.448547+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -131,9 +117,9 @@
     "html_url": "https://github.com/NEKOparapa/AiNiee",
     "language": "Python",
     "pushed_at": "2026-05-26T11:06:11Z",
-    "stargazers_count": 5728,
+    "stargazers_count": 5729,
     "topics": [],
-    "updated_at": "2026-05-26T12:38:10Z"
+    "updated_at": "2026-05-26T16:06:49Z"
   },
   "repo_links": [
     {
@@ -143,17 +129,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nekoparapa/readreamai",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pidanshourouzhouxd/sakura_launcher_gui",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "shadowloveelysia/ainiee-next",
+      "full_name": "xuanji86/ainiee-translate-skill",
       "source_file": "README.md"
     }
   ],

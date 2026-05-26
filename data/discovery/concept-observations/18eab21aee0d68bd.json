@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ufeff<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ufeff<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009354,
+      "status": "candidate",
+      "text": "mechanics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033565,
+      "status": "candidate",
+      "text": "chemical mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033564,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031847,
+      "status": "candidate",
+      "text": "clockwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031676,
+      "status": "candidate",
+      "text": "device"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mechanism",
+      "sense_id": "mechanism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "mechanics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "chemical mechanism"
+    }
+  ],
+  "concept_id": "mechanism",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mechanism",
+  "observation_id": "18eab21aee0d68bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
+  "observed_text": "mechanism",
+  "source_context_snippet": "\ufeff<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "thunlp/OPD",
+  "source_repo_description": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe"
+}

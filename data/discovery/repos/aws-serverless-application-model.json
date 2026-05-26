@@ -217,7 +217,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T14:34:32.427288+00:00",
+  "fetched_at": "2026-05-26T20:04:31.902827+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,7 +257,7 @@
     "full_name": "aws/serverless-application-model",
     "html_url": "https://github.com/aws/serverless-application-model",
     "language": "Python",
-    "pushed_at": "2026-05-23T05:35:11Z",
+    "pushed_at": "2026-05-26T19:41:51Z",
     "stargazers_count": 9558,
     "topics": [
       "aws",
@@ -269,7 +269,7 @@
       "serverless-application-model",
       "serverless-applications"
     ],
-    "updated_at": "2026-05-26T06:01:16Z"
+    "updated_at": "2026-05-26T15:49:39Z"
   },
   "repo_links": [],
   "terms": [

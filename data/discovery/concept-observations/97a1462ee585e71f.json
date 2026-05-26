@@ -84,7 +84,7 @@
   "normalized_form": "code-style-check",
   "observation_id": "97a1462ee585e71f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-26T18:56:15.123228+00:00",
   "observed_text": "Code Style Check",
   "source_context_snippet": "Code Style Check",
   "source_file": ".github/workflows/code_style_check.yml",

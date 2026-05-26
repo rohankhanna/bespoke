@@ -4,6 +4,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TanStack/form",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TanStack/form",
       "target": "@changesets/cli",
       "target_type": "component"
     },
@@ -19,13 +26,6 @@
       "source_file": "package.json",
       "source_repo": "TanStack/form",
       "target": "@solidjs/testing-library",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "TanStack/form",
-      "target": "@svitejs/changesets-changelog-github-compact",
       "target_type": "component"
     },
     {
@@ -207,6 +207,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "TanStack/form",
+      "target": "typescript58",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TanStack/form",
       "target": "vite",
       "target_type": "component"
     },
@@ -228,7 +235,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
+      "target": "TanStack/config/.github/setup@99d23c6212f36eff17d30a21e58da77f55a4cfe9",
       "target_type": "component"
     },
     {
@@ -249,7 +256,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
+      "target": "TanStack/config/.github/setup@99d23c6212f36eff17d30a21e58da77f55a4cfe9",
       "target_type": "component"
     },
     {
@@ -270,14 +277,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "TanStack/form",
-      "target": "danielroe/provenance-action@41bcc969e579d9e29af08ba44fcbfdf95cee6e6c",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pr.yml",
-      "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/changeset-preview@e4b48f16568324f76f467aa4c2aac2f05db632c3",
+      "target": "TanStack/config/.github/changeset-preview@99d23c6212f36eff17d30a21e58da77f55a4cfe9",
       "target_type": "component"
     },
     {
@@ -291,7 +291,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/setup@e4b48f16568324f76f467aa4c2aac2f05db632c3",
+      "target": "TanStack/config/.github/setup@99d23c6212f36eff17d30a21e58da77f55a4cfe9",
       "target_type": "component"
     },
     {
@@ -305,7 +305,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TanStack/form",
-      "target": "TanStack/config/.github/comment-on-release@e4b48f16568324f76f467aa4c2aac2f05db632c3",
+      "target": "TanStack/config/.github/comment-on-release@99d23c6212f36eff17d30a21e58da77f55a4cfe9",
       "target_type": "component"
     },
     {
@@ -393,6 +393,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T13:17:40.210760+00:00",
+  "generated_at": "2026-05-26T18:56:15.123228+00:00",
   "source_repo": "TanStack/form"
 }
