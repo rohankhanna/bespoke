@@ -794,7 +794,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T18:57:34.091209+00:00",
+  "fetched_at": "2026-05-26T13:51:02.859084+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -831,13 +831,13 @@
     "html_url": "https://github.com/googleapis/gaxios",
     "language": "TypeScript",
     "pushed_at": "2025-10-31T17:21:49Z",
-    "stargazers_count": 849,
+    "stargazers_count": 848,
     "topics": [
       "nodejs",
       "npm",
       "request"
     ],
-    "updated_at": "2026-04-29T19:25:00Z"
+    "updated_at": "2026-05-26T09:17:49Z"
   },
   "repo_links": [],
   "terms": [

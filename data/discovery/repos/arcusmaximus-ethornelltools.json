@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arcusmaximus/EthornellTools",
+      "target": "morkt/garbro",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:30:47.815580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tools for the Buriko General Interpreter (BGI)/Ethornell visual novel engine",
+    "fork": false,
+    "full_name": "arcusmaximus/EthornellTools",
+    "html_url": "https://github.com/arcusmaximus/EthornellTools",
+    "language": "C#",
+    "pushed_at": "2022-03-01T18:19:02Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-03-19T14:07:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "morkt/garbro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -318,6 +318,18 @@
       "source_repo": "jwodder/versioningit",
       "status": "candidate-context",
       "text": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pyproject-hooks",
+      "status": "candidate-context",
+      "text": "A low-level library for calling build-backends in `pyproject.toml`-based project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pyproject-hooks",
+      "status": "candidate-context",
+      "text": "``pyproject-hooks``"
     }
   ],
   "candidate_glosses": [
@@ -476,6 +488,12 @@
       "source_repo": "jwodder/versioningit",
       "status": "candidate",
       "text": "|repostatus| |ci-status| |coverage| |pyversions| |conda| |license|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pyproject-hooks",
+      "status": "candidate",
+      "text": "``pyproject-hooks``"
     }
   ],
   "candidate_related_terms": [
@@ -764,11 +782,23 @@
       "observed_at": "2026-05-26T07:24:03.857926+00:00",
       "source_file": null,
       "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "pypa/pyproject-hooks"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

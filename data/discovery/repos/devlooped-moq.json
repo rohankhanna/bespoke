@@ -1,0 +1,387 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "devlooped/actions-dotnet-env@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "devlooped/actions-dotnet-env@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "devlooped/actions-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml"
+    },
+    {
+      "component": "devlooped/actions-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml"
+    },
+    {
+      "component": "devlooped/actions-which-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml"
+    },
+    {
+      "component": "devlooped/oss/.github/workflows/dotnet-file-core.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-file.yml"
+    },
+    {
+      "component": "devlooped/actions-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml"
+    },
+    {
+      "component": "devlooped/actions-includes@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "devlooped/actions-dotnet-env@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-dotnet-env@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "devlooped/moq",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-bot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "devlooped/moq",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "devlooped/moq",
+      "target": "\u26d9 combine-prs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-bot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-which-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-env.yml",
+      "source_repo": "devlooped/moq",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-env.yml",
+      "source_repo": "devlooped/moq",
+      "target": "dotnet-env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-file.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/oss/.github/workflows/dotnet-file-core.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-file.yml",
+      "source_repo": "devlooped/moq",
+      "target": "dotnet-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-bot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-includes@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/includes.yml",
+      "source_repo": "devlooped/moq",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/includes.yml",
+      "source_repo": "devlooped/moq",
+      "target": "+M\u1401 includes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devlooped/moq",
+      "target": "devlooped/actions-dotnet-env@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devlooped/moq",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devlooped/moq",
+      "target": "publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T13:55:31.469894+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2969
+    },
+    {
+      "path": ".github/workflows/changelog.config",
+      "size": 345
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/combine-prs.yml",
+      "size": 6359
+    },
+    {
+      "path": ".github/workflows/dotnet-env.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/dotnet-file.yml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/dotnet.json",
+      "size": 29
+    },
+    {
+      "path": ".github/workflows/includes.yml",
+      "size": 1784
+    },
+    {
+      "path": ".github/workflows/os-matrix.json",
+      "size": 18
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The most popular and friendly mocking framework for .NET",
+    "fork": false,
+    "full_name": "devlooped/moq",
+    "html_url": "https://github.com/devlooped/moq",
+    "language": "C#",
+    "pushed_at": "2026-05-13T13:51:00Z",
+    "stargazers_count": 6383,
+    "topics": [],
+    "updated_at": "2026-05-25T01:22:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "'\u26d9 combine-prs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "term": "\u26d9 combine-prs"
+    },
+    {
+      "context_snippet": "dotnet-env",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-env.yml",
+      "term": "dotnet-env"
+    },
+    {
+      "context_snippet": "dotnet-file",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-file.yml",
+      "term": "dotnet-file"
+    },
+    {
+      "context_snippet": "+M\u1401 includes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/includes.yml",
+      "term": "+M\u1401 includes"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    }
+  ]
+}

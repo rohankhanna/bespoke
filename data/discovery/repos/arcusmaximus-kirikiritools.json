@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-26T15:30:48.893220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tools for the Kirikiri visual novel engine",
+    "fork": false,
+    "full_name": "arcusmaximus/KirikiriTools",
+    "html_url": "https://github.com/arcusmaximus/KirikiriTools",
+    "language": "C++",
+    "pushed_at": "2023-04-12T22:02:42Z",
+    "stargazers_count": 426,
+    "topics": [],
+    "updated_at": "2026-05-25T07:37:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

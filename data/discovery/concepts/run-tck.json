@@ -536,11 +536,17 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/run-tck.yaml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

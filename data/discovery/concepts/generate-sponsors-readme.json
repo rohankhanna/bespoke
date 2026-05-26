@@ -898,11 +898,23 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/github-sponsors.yml",
       "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "serversideup/webext-bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/github-sponsors.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

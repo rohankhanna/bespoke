@@ -115,6 +115,18 @@
       "source_repo": "Artikash/Textractor",
       "status": "candidate-context",
       "text": "![How it looks](screenshot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate-context",
+      "text": "Visual Novels resource browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate-context",
+      "text": "GARbro"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "Artikash/Textractor",
       "status": "candidate",
       "text": "![How it looks](screenshot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate",
+      "text": "GARbro"
     }
   ],
   "candidate_related_terms": [
@@ -1042,11 +1060,29 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "morkt/GARbro"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

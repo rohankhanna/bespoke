@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Docs - PR Staging - Cleanup\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Docs - PR Staging - Cleanup\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "consultation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "doctrinaire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17047,
+      "status": "candidate",
+      "text": "abbe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docs - PR Staging - Cleanup",
+      "sense_id": "docs---pr-staging---cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docs---pr-staging---cleanup",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docs---pr-staging---cleanup",
+  "observation_id": "cac9e1b9bede60b0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "Docs - PR Staging - Cleanup",
+  "source_context_snippet": "\"Docs - PR Staging - Cleanup\"",
+  "source_file": ".github/workflows/build-site-cleanup.yml",
+  "source_repo": "mono/SkiaSharp",
+  "source_repo_description": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+}

@@ -1,0 +1,494 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml"
+    },
+    {
+      "component": "pelikhan/action-genai-issue-dedup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml"
+    },
+    {
+      "component": "pelikhan/action-genai-issue-dedup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml"
+    },
+    {
+      "component": "azure/login@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml"
+    },
+    {
+      "component": "microsoft/setup-msstore-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml"
+    },
+    {
+      "component": "azure/cli@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@cfb6f7e75bbfc89c71eaa30366d0c166f1bd9c8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@cfb6f7e75bbfc89c71eaa30366d0c166f1bd9c8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@cfb6f7e75bbfc89c71eaa30366d0c166f1bd9c8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@cfb6f7e75bbfc89c71eaa30366d0c166f1bd9c8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/telemetry-pr-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Automatic Triaging on Issue Creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "pelikhan/action-genai-issue-dedup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Automatic New Issue Deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "pelikhan/action-genai-issue-dedup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Manual Batch Issue Deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "azure/login@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "microsoft/setup-msstore-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "azure/cli@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Store submission on release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-submissions.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "WinGet submission on release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "check-spelling/check-spelling@cfb6f7e75bbfc89c71eaa30366d0c166f1bd9c8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Spell checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/telemetry-pr-check.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/telemetry-pr-check.yml",
+      "source_repo": "microsoft/PowerToys",
+      "target": "Telemetry PR Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "advanced-paste",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "color-picker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "command-palette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "fancyzones",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "keyboard-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "microsoft-powertoys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "powerrename",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "powertoys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "windows-10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys",
+      "target": "windows-11",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:31:47.912938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9835
+    },
+    {
+      "path": ".github/workflows/auto-label-issues.yml",
+      "size": 8648
+    },
+    {
+      "path": ".github/workflows/automatic-issue-deduplication.yml",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/manual-batch-issue-deduplication.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/msstore-submissions.yml",
+      "size": 3554
+    },
+    {
+      "path": ".github/workflows/package-submissions.yml",
+      "size": 1868
+    },
+    {
+      "path": ".github/workflows/spelling2.yml",
+      "size": 7432
+    },
+    {
+      "path": ".github/workflows/telemetry-pr-check.yml",
+      "size": 991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+    "fork": false,
+    "full_name": "microsoft/PowerToys",
+    "html_url": "https://github.com/microsoft/PowerToys",
+    "language": "C#",
+    "pushed_at": "2026-05-26T09:46:28Z",
+    "stargazers_count": 133509,
+    "topics": [
+      "advanced-paste",
+      "color-picker",
+      "command-palette",
+      "desktop",
+      "fancyzones",
+      "keyboard-manager",
+      "microsoft-powertoys",
+      "powerrename",
+      "powertoys",
+      "windows",
+      "windows-10",
+      "windows-11"
+    ],
+    "updated_at": "2026-05-26T14:50:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automatic Triaging on Issue Creation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "term": "Automatic Triaging on Issue Creation"
+    },
+    {
+      "context_snippet": "Automatic New Issue Deduplication",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+      "term": "Automatic New Issue Deduplication"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Manual Batch Issue Deduplication",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml",
+      "term": "Manual Batch Issue Deduplication"
+    },
+    {
+      "context_snippet": "Store submission on release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "term": "Store submission on release"
+    },
+    {
+      "context_snippet": "WinGet submission on release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-submissions.yml",
+      "term": "WinGet submission on release"
+    },
+    {
+      "context_snippet": "Spell checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "term": "Spell checking"
+    },
+    {
+      "context_snippet": "Telemetry PR Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/telemetry-pr-check.yml",
+      "term": "Telemetry PR Check"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "advanced-paste"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-picker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-palette"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fancyzones"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-powertoys"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerrename"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powertoys"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-10"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-11"
+    }
+  ]
+}

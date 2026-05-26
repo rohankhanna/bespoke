@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v6",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -677,6 +677,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "BepInEx/BepInEx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "devlooped/moq"
     }
   ]
 }

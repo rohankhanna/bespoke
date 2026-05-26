@@ -214,6 +214,18 @@
       "source_repo": "aleju/imgaug",
       "status": "candidate-context",
       "text": "This python library helps you with augmenting images for your machine learning projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate-context",
+      "text": "Visual Novels resource browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate-context",
+      "text": "GARbro"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +330,12 @@
       "source_repo": "aleju/imgaug",
       "status": "candidate",
       "text": "This python library helps you with augmenting images for your machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate",
+      "text": "GARbro"
     }
   ],
   "candidate_related_terms": [
@@ -907,11 +925,23 @@
       "observed_at": "2026-05-26T07:24:03.857926+00:00",
       "source_file": null,
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "morkt/GARbro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

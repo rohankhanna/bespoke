@@ -790,11 +790,23 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/duplicate-code-detector.md",
       "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/duplicate-code-detector.lock.yml",
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/duplicate-code-detector.md",
+      "source_repo": "storybookjs/storybook"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

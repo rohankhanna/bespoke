@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
-      "target": "aamedina/tools.usb",
+      "target": "rosejn/osc-clj",
       "target_type": "repository"
     },
     {
@@ -148,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T00:44:06.917625+00:00",
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "Deep-Symmetry/afterglow"
 }

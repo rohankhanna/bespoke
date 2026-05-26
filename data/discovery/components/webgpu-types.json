@@ -1,7 +1,7 @@
 {
   "component": "@webgpu/types",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

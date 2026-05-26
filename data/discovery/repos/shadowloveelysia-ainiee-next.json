@@ -1,0 +1,616 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@59acb6260d9c0ba8f4a2f9d9b48431a222b68e20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml"
+    },
+    {
+      "component": "swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "hgmzhn/manga-translator-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "mayocream/koharu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Web_Build.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Web_Build.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "Web Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "sigstore/cosign-installer@59acb6260d9c0ba8f4a2f9d9b48431a222b68e20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-apps/tauri-action@v0.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-dev-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-apps/tauri-action@v0.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-dev-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-apps/tauri-action@v0.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-dev-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-apps/tauri-action@v0.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "tauri-release-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "target": "webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:31:06.484978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9865
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1682
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1938
+    },
+    {
+      "path": "requirements.txt",
+      "size": 955
+    },
+    {
+      "path": ".github/workflows/Web_Build.yml",
+      "size": 1954
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 2934
+    },
+    {
+      "path": ".github/workflows/tauri-dev-linux.yml",
+      "size": 2990
+    },
+    {
+      "path": ".github/workflows/tauri-dev-macos.yml",
+      "size": 3696
+    },
+    {
+      "path": ".github/workflows/tauri-dev-windows.yml",
+      "size": 1903
+    },
+    {
+      "path": ".github/workflows/tauri-release-linux.yml",
+      "size": 1933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1 An optimized,Next for AiNiee powered by UV. Features intelligent format conversion, multi-profile config system, and stabilized TUI. \u26a1 \u57fa\u4e8e UV \u9a71\u52a8\u7684 AiNiee \u4f18\u5316\u7248 Next \u63d0\u4f9b\u667a\u80fd\u5316\u683c\u5f0f\u8f93\u5165/\u8f6c\u6362\u3001\u591a\u914d\u7f6e\u6587\u4ef6\u7cfb\u7edf\u53ca\u9ad8\u5ea6\u7a33\u5b9a\u7684 TUI \u754c\u9762\uff0c\u4e13\u4e3a\u9ad8\u6548\u6279\u5904\u7406\u8bbe\u8ba1",
+    "fork": false,
+    "full_name": "ShadowLoveElysia/AiNiee-Next",
+    "html_url": "https://github.com/ShadowLoveElysia/AiNiee-Next",
+    "language": "Python",
+    "pushed_at": "2026-05-26T10:03:46Z",
+    "stargazers_count": 107,
+    "topics": [
+      "ai",
+      "llm",
+      "mcp",
+      "python",
+      "translator",
+      "tui",
+      "uv",
+      "webui"
+    ],
+    "updated_at": "2026-05-26T12:38:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hgmzhn/manga-translator-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mayocream/koharu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Web Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Web_Build.yml",
+      "term": "Web Build and Release"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "tauri-dev-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-dev-linux.yml",
+      "term": "tauri-dev-linux"
+    },
+    {
+      "context_snippet": "tauri-dev-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-dev-macos.yml",
+      "term": "tauri-dev-macos"
+    },
+    {
+      "context_snippet": "tauri-dev-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-dev-windows.yml",
+      "term": "tauri-dev-windows"
+    },
+    {
+      "context_snippet": "tauri-release-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tauri-release-linux.yml",
+      "term": "tauri-release-linux"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translator"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webui"
+    }
+  ]
+}

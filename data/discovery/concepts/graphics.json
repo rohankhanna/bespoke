@@ -757,6 +757,18 @@
       "source_repo": "opentk/opentk",
       "status": "candidate-context",
       "text": "OpenTK"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
     }
   ],
   "candidate_glosses": [
@@ -1137,6 +1149,12 @@
       "source_repo": "opentk/opentk",
       "status": "candidate",
       "text": "OpenTK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate",
+      "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
     }
   ],
   "candidate_related_terms": [
@@ -3452,11 +3470,47 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "mono/SkiaSharp"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

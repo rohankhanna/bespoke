@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-26T13:55:26.311621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fastest way to get started with Azure OpenAI v1 with Responses API and GPT 5",
+    "fork": false,
+    "full_name": "Azure-Samples/azure-openai-starter",
+    "html_url": "https://github.com/Azure-Samples/azure-openai-starter",
+    "language": "Java",
+    "pushed_at": "2026-05-02T06:17:07Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-03-24T22:27:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

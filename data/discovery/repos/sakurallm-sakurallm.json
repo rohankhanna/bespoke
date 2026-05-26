@@ -46,13 +46,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "nekoparapa/ainiee",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SakuraLLM/SakuraLLM",
       "target": "fkiliver/rpgmaker_llama_translator",
       "target_type": "repository"
     },
@@ -61,6 +54,13 @@
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
       "target": "nekoparapa/ainiee-chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "pidanshourouzhouxd/sakura_launcher_gui",
       "target_type": "repository"
     },
     {
@@ -127,7 +127,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-26T07:29:00.916185+00:00",
+  "fetched_at": "2026-05-26T15:30:39.208894+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,9 +156,9 @@
     "html_url": "https://github.com/SakuraLLM/SakuraLLM",
     "language": "Python",
     "pushed_at": "2025-02-09T05:25:50Z",
-    "stargazers_count": 4574,
+    "stargazers_count": 4576,
     "topics": [],
-    "updated_at": "2026-05-25T16:15:08Z"
+    "updated_at": "2026-05-26T12:46:00Z"
   },
   "repo_links": [
     {
@@ -173,12 +173,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nekoparapa/ainiee",
+      "full_name": "nekoparapa/ainiee-chatgpt",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nekoparapa/ainiee-chatgpt",
+      "full_name": "pidanshourouzhouxd/sakura_launcher_gui",
       "source_file": "README.md"
     }
   ],

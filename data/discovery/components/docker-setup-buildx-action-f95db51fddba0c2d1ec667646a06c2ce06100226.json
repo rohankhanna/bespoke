@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/php-8_3.yml",
       "source_repo": "StephenMiracle/frankenwp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next"
     }
   ]
 }

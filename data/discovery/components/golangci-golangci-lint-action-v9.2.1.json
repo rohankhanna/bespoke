@@ -1,0 +1,12 @@
+{
+  "component": "golangci/golangci-lint-action@v9.2.1",
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    }
+  ]
+}

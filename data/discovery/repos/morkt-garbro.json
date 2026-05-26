@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "visual-novel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:31:19.603812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visual Novels resource browser",
+    "fork": false,
+    "full_name": "morkt/GARbro",
+    "html_url": "https://github.com/morkt/GARbro",
+    "language": "C#",
+    "pushed_at": "2024-07-08T19:36:58Z",
+    "stargazers_count": 3112,
+    "topics": [
+      "audio",
+      "extraction",
+      "gui",
+      "images",
+      "reverse-engineering",
+      "visual-novel"
+    ],
+    "updated_at": "2026-05-26T07:07:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GARbro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "GARbro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extraction"
+    },
+    {
+      "context_snippet": "GARbro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "GARbro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-engineering"
+    },
+    {
+      "context_snippet": "GARbro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-novel"
+    }
+  ]
+}

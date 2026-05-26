@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ag2s20150909/TTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lifegpc/msg-tool"
     }
   ],
   "term": "Build & Release"

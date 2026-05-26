@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "+M\u1401 includes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devlooped/moq",
+      "status": "candidate-context",
+      "text": "The most popular and friendly mocking framework for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devlooped/moq",
+      "status": "candidate-context",
+      "text": "+M\u1401 includes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devlooped/moq",
+      "status": "candidate",
+      "text": "+M\u1401 includes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "between"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "especially"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "include"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "including"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "+M\u1401 includes",
+  "concept_id": "m-includes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/includes.yml",
+      "source_repo": "devlooped/moq"
+    }
+  ],
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "+M\u1401 includes",
+      "sense_id": "m-includes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -275,14 +275,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "uscnlp-lime/verl",
+      "target": "nus-trail/noisyrollout",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "nus-trail/noisyrollout",
+      "target": "thunlp/opd",
       "target_type": "repository"
     },
     {
@@ -531,11 +531,11 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-26T07:48:26.287406+00:00",
+  "fetched_at": "2026-05-26T16:06:27.306070+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 37474
+      "size": 37691
     },
     {
       "path": "pyproject.toml",
@@ -583,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-05-26T05:35:49Z",
-    "stargazers_count": 21546,
+    "pushed_at": "2026-05-26T10:58:48Z",
+    "stargazers_count": 21561,
     "topics": [],
-    "updated_at": "2026-05-26T07:17:49Z"
+    "updated_at": "2026-05-26T15:33:23Z"
   },
   "repo_links": [
     {
@@ -606,7 +606,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "uscnlp-lime/verl",
+      "full_name": "thunlp/opd",
       "source_file": "README.md"
     }
   ],

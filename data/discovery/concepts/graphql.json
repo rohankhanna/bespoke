@@ -5950,11 +5950,71 @@
       "observed_at": "2026-05-26T07:24:03.857926+00:00",
       "source_file": null,
       "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

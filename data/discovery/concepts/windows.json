@@ -2638,6 +2638,30 @@
       "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
       "status": "candidate-context",
       "text": "<!-- Common Project Tags:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -3972,6 +3996,18 @@
       "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
       "status": "candidate",
       "text": "<!-- Common Project Tags:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate",
+      "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -9259,11 +9295,77 @@
       "observed_at": "2026-05-26T07:24:03.857926+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "mono/SkiaSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/PowerToys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

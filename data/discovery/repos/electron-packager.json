@@ -661,7 +661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T07:38:12.501732+00:00",
+  "fetched_at": "2026-05-26T15:47:46.437442+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -706,14 +706,14 @@
     "html_url": "https://github.com/electron/packager",
     "language": "TypeScript",
     "pushed_at": "2026-05-21T19:58:27Z",
-    "stargazers_count": 295,
+    "stargazers_count": 296,
     "topics": [
       "electron",
       "electron-packager",
       "hacktoberfest",
       "javascript"
     ],
-    "updated_at": "2026-05-25T06:31:18Z"
+    "updated_at": "2026-05-26T07:45:00Z"
   },
   "repo_links": [
     {

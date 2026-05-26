@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "web-platform-tests/wpt",
-      "target": "web-platform-tests/wpt.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-workflow-run.yml",
       "source_repo": "web-platform-tests/wpt",
@@ -330,6 +323,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T00:44:06.917625+00:00",
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "web-platform-tests/wpt"
 }

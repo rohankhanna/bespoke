@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-site-cleanup.yml",
+      "source_repo": "mono/SkiaSharp"
+    }
+  ],
+  "term": "Docs - PR Staging - Cleanup"
+}

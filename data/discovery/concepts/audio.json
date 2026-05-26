@@ -901,6 +901,18 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate-context",
+      "text": "Visual Novels resource browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate-context",
+      "text": "GARbro"
     }
   ],
   "candidate_glosses": [
@@ -1353,6 +1365,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morkt/GARbro",
+      "status": "candidate",
+      "text": "GARbro"
     }
   ],
   "candidate_related_terms": [
@@ -3115,11 +3133,41 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "morkt/GARbro"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

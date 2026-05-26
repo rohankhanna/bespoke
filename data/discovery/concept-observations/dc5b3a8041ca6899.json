@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools for export and import scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "galgame",
+      "sense_id": "galgame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "galgame",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "galgame",
+  "observation_id": "dc5b3a8041ca6899",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "galgame",
+  "source_context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+  "source_file": null,
+  "source_repo": "lifegpc/msg-tool",
+  "source_repo_description": "Tools for export and import scripts"
+}

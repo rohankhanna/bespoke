@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "extractor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "Tools for export and import scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881302,
+      "status": "candidate",
+      "text": "centrifuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39800391,
+      "status": "candidate",
+      "text": "separator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29903829,
+      "status": "candidate",
+      "text": "cartridge extractor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29903829,
+      "status": "candidate",
+      "text": "cartridge remover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884375,
+      "status": "candidate",
+      "text": "puller"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "centrifuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "separator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "cartridge extractor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cartridge remover"
+    }
+  ],
+  "canonical_name": "extractor",
+  "concept_id": "extractor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool"
+    }
+  ],
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "extractor",
+      "sense_id": "extractor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

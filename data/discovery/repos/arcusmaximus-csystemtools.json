@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-26T15:30:46.274719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Script and image unpacking and repacking for the Cyberworks \"C,system\" visual novel engine",
+    "fork": false,
+    "full_name": "arcusmaximus/CSystemTools",
+    "html_url": "https://github.com/arcusmaximus/CSystemTools",
+    "language": "C#",
+    "pushed_at": "2022-07-16T22:25:12Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-05-02T00:23:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

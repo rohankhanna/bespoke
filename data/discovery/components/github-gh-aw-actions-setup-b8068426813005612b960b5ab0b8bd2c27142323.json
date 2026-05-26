@@ -1,0 +1,17 @@
+{
+  "component": "github/gh-aw-actions/setup@b8068426813005612b960b5ab0b8bd2c27142323",
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-skia-sync.lock.yml",
+      "source_repo": "mono/SkiaSharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-triage.lock.yml",
+      "source_repo": "mono/SkiaSharp"
+    }
+  ]
+}

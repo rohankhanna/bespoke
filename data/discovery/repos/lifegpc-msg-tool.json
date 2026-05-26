@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "Github Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lifegpc/msg-tool",
+      "target": "Build release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool",
+      "target": "circus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool",
+      "target": "ethornell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool",
+      "target": "extract-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool",
+      "target": "extractor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool",
+      "target": "galgame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool",
+      "target": "kirikiri",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:31:13.928925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17366
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 7311
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/github-pages.yml",
+      "size": 2490
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for export and import scripts",
+    "fork": false,
+    "full_name": "lifegpc/msg-tool",
+    "html_url": "https://github.com/lifegpc/msg-tool",
+    "language": "Rust",
+    "pushed_at": "2026-05-23T01:47:10Z",
+    "stargazers_count": 46,
+    "topics": [
+      "bgi",
+      "circus",
+      "ethornell",
+      "extract-text",
+      "extractor",
+      "galgame",
+      "kirikiri"
+    ],
+    "updated_at": "2026-05-24T13:35:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Github Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "term": "Github Pages"
+    },
+    {
+      "context_snippet": "Build release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build release"
+    },
+    {
+      "context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circus"
+    },
+    {
+      "context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethornell"
+    },
+    {
+      "context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract-text"
+    },
+    {
+      "context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extractor"
+    },
+    {
+      "context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "galgame"
+    },
+    {
+      "context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kirikiri"
+    }
+  ]
+}

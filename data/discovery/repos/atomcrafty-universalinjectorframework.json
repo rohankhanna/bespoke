@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AtomCrafty/UniversalInjectorFramework",
+      "target": "atomcrafty/yukatool2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:30:52.208402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework to inject your own code into Windows applications.",
+    "fork": false,
+    "full_name": "AtomCrafty/UniversalInjectorFramework",
+    "html_url": "https://github.com/AtomCrafty/UniversalInjectorFramework",
+    "language": "C++",
+    "pushed_at": "2026-01-28T18:23:40Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-05-23T14:12:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomcrafty/yukatool2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

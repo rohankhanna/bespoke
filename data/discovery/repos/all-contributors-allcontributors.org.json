@@ -11,7 +11,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "@astrojs/starlight-tailwind",
+      "component": "@fontsource-variable/atkinson-hyperlegible-next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@fontsource-variable/jetbrains-mono",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -22,6 +27,11 @@
     },
     {
       "component": "astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro-contributors",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -56,7 +66,32 @@
       "source_file": "package.json"
     },
     {
+      "component": "starlight-heading-badges",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "starlight-image-zoom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "starlight-links-validator",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "starlight-theme-flexoki",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "tailwindcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unist-util-visit",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -76,7 +111,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "/actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-website.yml"
     },
@@ -142,13 +177,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "all-contributors/allcontributors.org",
-      "target": "apps/greenkeeper",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
@@ -166,7 +194,14 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "@astrojs/starlight-tailwind",
+      "target": "@fontsource-variable/atkinson-hyperlegible-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "@fontsource-variable/jetbrains-mono",
       "target_type": "component"
     },
     {
@@ -181,6 +216,13 @@
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "astro-contributors",
       "target_type": "component"
     },
     {
@@ -229,7 +271,42 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-heading-badges",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-image-zoom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-links-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-theme-flexoki",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
       "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "unist-util-visit",
       "target_type": "component"
     },
     {
@@ -257,7 +334,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-website.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "/actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -272,13 +349,6 @@
       "source_file": ".github/workflows/build-website.yml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
-      "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -394,27 +464,27 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T02:16:12.068235+00:00",
+  "fetched_at": "2026-05-26T15:04:02.071211+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 51562
+      "size": 51969
     },
     {
       "path": "package.json",
-      "size": 1705
+      "size": 2014
     },
     {
       "path": ".github/workflows/build-website.yml",
-      "size": 1760
+      "size": 1738
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 377
+      "size": 418
     },
     {
       "path": ".github/workflows/sync-translations.yml",
-      "size": 692
+      "size": 696
     }
   ],
   "related_repositories": [],
@@ -426,7 +496,7 @@
     "full_name": "all-contributors/allcontributors.org",
     "html_url": "https://github.com/all-contributors/allcontributors.org",
     "language": "MDX",
-    "pushed_at": "2026-05-21T05:35:06Z",
+    "pushed_at": "2026-05-26T13:43:30Z",
     "stargazers_count": 8050,
     "topics": [
       "acknowledgements",
@@ -437,7 +507,7 @@
       "opensource-management",
       "recognition"
     ],
-    "updated_at": "2026-05-24T11:58:05Z"
+    "updated_at": "2026-05-26T13:18:14Z"
   },
   "repo_links": [
     {
@@ -448,11 +518,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors-bot",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apps/greenkeeper",
       "source_file": "README.md"
     }
   ],

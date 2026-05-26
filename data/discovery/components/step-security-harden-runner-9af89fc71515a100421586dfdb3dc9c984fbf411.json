@@ -1,0 +1,32 @@
+{
+  "component": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    }
+  ]
+}

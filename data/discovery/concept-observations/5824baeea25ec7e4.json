@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Store submission on release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Store submission on release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34549,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34549,
+      "status": "candidate",
+      "text": "rush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34149,
+      "status": "candidate",
+      "text": "charged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34149,
+      "status": "candidate",
+      "text": "charging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34126,
+      "status": "candidate",
+      "text": "rushes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Store submission on release",
+      "sense_id": "store-submission-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "store-submission-on-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "store-submission-on-release",
+  "observation_id": "5824baeea25ec7e4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "Store submission on release",
+  "source_context_snippet": "Store submission on release",
+  "source_file": ".github/workflows/msstore-submissions.yml",
+  "source_repo": "microsoft/PowerToys",
+  "source_repo_description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+}

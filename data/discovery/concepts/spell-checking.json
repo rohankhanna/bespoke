@@ -152,6 +152,18 @@
       "source_repo": "rubocop/rubocop-ast",
       "status": "candidate-context",
       "text": "Spell Checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "Spell checking"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +238,12 @@
       "source_repo": "rubocop/rubocop-ast",
       "status": "candidate",
       "text": "Spell Checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate",
+      "text": "Spell checking"
     }
   ],
   "candidate_related_terms": [
@@ -353,11 +371,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/spell_checking.yml",
       "source_repo": "rubocop/rubocop-ast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/PowerToys"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

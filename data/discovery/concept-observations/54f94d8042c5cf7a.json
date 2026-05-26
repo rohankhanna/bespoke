@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1 An optimized,Next for AiNiee powered by UV. Features intelligent format conversion, multi-profile config system, and stabilized TUI. \u26a1 \u57fa\u4e8e UV \u9a71\u52a8\u7684 AiNiee \u4f18\u5316\u7248 Next \u63d0\u4f9b\u667a\u80fd\u5316\u683c\u5f0f\u8f93\u5165/\u8f6c\u6362\u3001\u591a\u914d\u7f6e\u6587\u4ef6\u7cfb\u7edf\u53ca\u9ad8\u5ea6\u7a33\u5b9a\u7684 TUI \u754c\u9762\uff0c\u4e13\u4e3a\u9ad8\u6548\u6279\u5904\u7406\u8bbe\u8ba1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922971,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922409,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922329,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919632,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39772796,
+      "status": "candidate",
+      "text": "loader"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker",
+      "sense_id": "docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "stevedore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1017,
+      "status": "candidate",
+      "text": "dockhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "dock-walloper"
+    }
+  ],
+  "concept_id": "docker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker",
+  "observation_id": "54f94d8042c5cf7a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "Docker",
+  "source_context_snippet": "Docker",
+  "source_file": ".github/workflows/docker-publish.yml",
+  "source_repo": "ShadowLoveElysia/AiNiee-Next",
+  "source_repo_description": "\u26a1 An optimized,Next for AiNiee powered by UV. Features intelligent format conversion, multi-profile config system, and stabilized TUI. \u26a1 \u57fa\u4e8e UV \u9a71\u52a8\u7684 AiNiee \u4f18\u5316\u7248 Next \u63d0\u4f9b\u667a\u80fd\u5316\u683c\u5f0f\u8f93\u5165/\u8f6c\u6362\u3001\u591a\u914d\u7f6e\u6587\u4ef6\u7cfb\u7edf\u53ca\u9ad8\u5ea6\u7a33\u5b9a\u7684 TUI \u754c\u9762\uff0c\u4e13\u4e3a\u9ad8\u6548\u6279\u5904\u7406\u8bbe\u8ba1"
+}

@@ -120,7 +120,7 @@
   "normalized_form": "style",
   "observation_id": "3d6367f9caab7eb0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T00:44:06.917625+00:00",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
   "observed_text": "Style",
   "source_context_snippet": "Style",
   "source_file": ".github/workflows/style.yml",

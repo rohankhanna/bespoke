@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API Diff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "API Diff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate",
+      "text": "API Diff"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "adieu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10958,
+      "status": "candidate",
+      "text": "intensification"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API Diff",
+  "concept_id": "api-diff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/api-diff.yml",
+      "source_repo": "mono/SkiaSharp"
+    }
+  ],
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Diff",
+      "sense_id": "api-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

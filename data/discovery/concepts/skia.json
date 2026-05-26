@@ -31,6 +31,18 @@
       "source_repo": "Arlorean/Voxels",
       "status": "candidate-context",
       "text": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Arlorean/Voxels",
       "status": "candidate",
       "text": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate",
+      "text": "[![SkiaSharp](https://img.shields.io/nuget/vpre/SkiaSharp.svg?cacheSeconds=3600&label=SkiaSharp%20nuget)](https://www.nuget.org/packages/SkiaSharp)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-26T07:24:03.857926+00:00",
       "source_file": null,
       "source_repo": "Arlorean/Voxels"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "mono/SkiaSharp"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

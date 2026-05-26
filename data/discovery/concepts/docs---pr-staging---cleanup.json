@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docs - PR Staging - Cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate-context",
+      "text": "\"Docs - PR Staging - Cleanup\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/SkiaSharp",
+      "status": "candidate",
+      "text": "\"Docs - PR Staging - Cleanup\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "consultation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "doctrinaire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17195,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17047,
+      "status": "candidate",
+      "text": "abbe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docs - PR Staging - Cleanup",
+  "concept_id": "docs---pr-staging---cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/build-site-cleanup.yml",
+      "source_repo": "mono/SkiaSharp"
+    }
+  ],
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docs - PR Staging - Cleanup",
+      "sense_id": "docs---pr-staging---cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

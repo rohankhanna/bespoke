@@ -145,6 +145,18 @@
       "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate-context",
       "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "status": "candidate-context",
+      "text": "\u26a1 An optimized,Next for AiNiee powered by UV. Features intelligent format conversion, multi-profile config system, and stabilized TUI. \u26a1 \u57fa\u4e8e UV \u9a71\u52a8\u7684 AiNiee \u4f18\u5316\u7248 Next \u63d0\u4f9b\u667a\u80fd\u5316\u683c\u5f0f\u8f93\u5165/\u8f6c\u6362\u3001\u591a\u914d\u7f6e\u6587\u4ef6\u7cfb\u7edf\u53ca\u9ad8\u5ea6\u7a33\u5b9a\u7684 TUI \u754c\u9762\uff0c\u4e13\u4e3a\u9ad8\u6548\u6279\u5904\u7406\u8bbe\u8ba1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -219,6 +231,12 @@
       "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate",
       "text": "FROM node:18-alpine AS base FROM base AS deps RUN apk add --no-cache libc6-compat WORKDIR /app COPY package.json yarn.lock ./ RUN yarn config set registry 'https://registry.npmmirror.com/' RUN yarn install FROM base AS builder RUN apk update && apk add --no-cache git ENV OPENAI_\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShadowLoveElysia/AiNiee-Next",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1624,11 +1642,35 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "ShadowLoveElysia/AiNiee-Next"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -648,7 +648,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T01:50:57.439225+00:00",
+  "fetched_at": "2026-05-26T13:55:03.363895+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -660,11 +660,11 @@
     },
     {
       "path": ".github/workflows/autofix.yml",
-      "size": 747
+      "size": 779
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 829
+      "size": 860
     },
     {
       "path": ".github/workflows/release-commit.yml",
@@ -684,10 +684,10 @@
     "full_name": "vuejs/devtools",
     "html_url": "https://github.com/vuejs/devtools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-20T08:45:39Z",
+    "pushed_at": "2026-05-26T08:07:12Z",
     "stargazers_count": 2837,
     "topics": [],
-    "updated_at": "2026-05-25T17:43:32Z"
+    "updated_at": "2026-05-26T09:23:52Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,12 @@
+{
+  "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-distributions.yml",
+      "source_repo": "ogx-ai/ogx"
+    }
+  ]
+}

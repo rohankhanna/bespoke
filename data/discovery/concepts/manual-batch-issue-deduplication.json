@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Batch Issue Deduplication"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "Manual Batch Issue Deduplication"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate",
+      "text": "Manual Batch Issue Deduplication"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18539,
+      "status": "candidate",
+      "text": "momentum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18488,
+      "status": "candidate",
+      "text": "printing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18488,
+      "status": "candidate",
+      "text": "series"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18488,
+      "status": "candidate",
+      "text": "troop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18220,
+      "status": "candidate",
+      "text": "handing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Batch Issue Deduplication",
+  "concept_id": "manual-batch-issue-deduplication",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/manual-batch-issue-deduplication.yml",
+      "source_repo": "microsoft/PowerToys"
+    }
+  ],
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Batch Issue Deduplication",
+      "sense_id": "manual-batch-issue-deduplication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

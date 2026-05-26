@@ -113,7 +113,7 @@
   "normalized_form": "site",
   "observation_id": "bbd34d0383a47a9f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
   "observed_text": "site",
   "source_context_snippet": "site",
   "source_file": ".github/workflows/site.yml",

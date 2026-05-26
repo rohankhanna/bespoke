@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T07:37:29.044361+00:00",
+  "fetched_at": "2026-05-26T15:46:19.035129+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,14 +54,14 @@
     "html_url": "https://github.com/okd-project/okd",
     "language": "HCL",
     "pushed_at": "2026-05-11T10:05:14Z",
-    "stargazers_count": 2074,
+    "stargazers_count": 2076,
     "topics": [
       "kubernetes",
       "kubernetes-distribution",
       "okd",
       "okd-4"
     ],
-    "updated_at": "2026-05-26T01:55:12Z"
+    "updated_at": "2026-05-26T11:42:35Z"
   },
   "repo_links": [
     {

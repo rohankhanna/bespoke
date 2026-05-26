@@ -563,7 +563,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T07:45:46.207296+00:00",
+  "fetched_at": "2026-05-26T16:01:24.687360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -615,10 +615,10 @@
     "full_name": "meta-pytorch/torchcodec",
     "html_url": "https://github.com/meta-pytorch/torchcodec",
     "language": "Python",
-    "pushed_at": "2026-05-25T12:43:48Z",
+    "pushed_at": "2026-05-26T11:44:48Z",
     "stargazers_count": 1076,
     "topics": [],
-    "updated_at": "2026-05-24T11:03:39Z"
+    "updated_at": "2026-05-26T11:44:53Z"
   },
   "repo_links": [
     {

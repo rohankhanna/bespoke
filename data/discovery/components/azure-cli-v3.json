@@ -1,7 +1,7 @@
 {
   "component": "azure/CLI@v3",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/evaluate.yaml",
       "source_repo": "Azure-Samples/azure-search-openai-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys"
     }
   ]
 }

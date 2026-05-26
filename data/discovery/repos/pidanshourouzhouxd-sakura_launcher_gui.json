@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "zhiyiyo/pyqt-fluent-widgets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:31:00.832792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2606
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sakura\u6a21\u578b\u542f\u52a8\u5668",
+    "fork": false,
+    "full_name": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+    "html_url": "https://github.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+    "language": "Python",
+    "pushed_at": "2025-12-02T15:04:24Z",
+    "stargazers_count": 614,
+    "topics": [],
+    "updated_at": "2026-05-25T16:48:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiyiyo/pyqt-fluent-widgets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

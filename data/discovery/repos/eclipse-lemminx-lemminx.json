@@ -131,7 +131,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T02:08:41.199347+00:00",
+  "fetched_at": "2026-05-26T14:47:32.042123+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,14 +156,14 @@
     "html_url": "https://github.com/eclipse-lemminx/lemminx",
     "language": "Java",
     "pushed_at": "2026-04-21T18:20:38Z",
-    "stargazers_count": 353,
+    "stargazers_count": 354,
     "topics": [
       "java",
       "language-server-protocol",
       "ls",
       "xml"
     ],
-    "updated_at": "2026-05-24T09:47:37Z"
+    "updated_at": "2026-05-26T10:14:03Z"
   },
   "repo_links": [
     {

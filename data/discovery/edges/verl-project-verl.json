@@ -18,14 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "uscnlp-lime/verl",
+      "target": "nus-trail/noisyrollout",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "nus-trail/noisyrollout",
+      "target": "thunlp/opd",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-26T07:24:03.857926+00:00",
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "verl-project/verl"
 }

@@ -48,7 +48,7 @@
   "normalized_form": "acme-tests",
   "observation_id": "8cad00f923da23d1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T00:44:06.917625+00:00",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
   "observed_text": "acme-tests",
   "source_context_snippet": "acme-tests",
   "source_file": ".github/workflows/ci.yml",

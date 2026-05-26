@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "all-contributors/allcontributors.org",
-      "target": "apps/greenkeeper",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
@@ -39,7 +32,14 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "@astrojs/starlight-tailwind",
+      "target": "@fontsource-variable/atkinson-hyperlegible-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "@fontsource-variable/jetbrains-mono",
       "target_type": "component"
     },
     {
@@ -54,6 +54,13 @@
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "astro-contributors",
       "target_type": "component"
     },
     {
@@ -102,7 +109,42 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-heading-badges",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-image-zoom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-links-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "starlight-theme-flexoki",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
       "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
+      "target": "unist-util-visit",
       "target_type": "component"
     },
     {
@@ -130,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-website.yml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "/actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -145,13 +187,6 @@
       "source_file": ".github/workflows/build-website.yml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
-      "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -267,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T00:44:06.917625+00:00",
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "all-contributors/allcontributors.org"
 }

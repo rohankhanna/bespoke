@@ -68,16 +68,6 @@
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fuzz.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fuzz.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labels.yml"
     },
     {
@@ -220,27 +210,6 @@
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
       "target": "Deploy",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fuzz.yml",
-      "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/fuzz.yml",
-      "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/fuzz.yml",
-      "source_repo": "ultrajson/ultrajson",
-      "target": "Fuzz",
       "target_type": "term"
     },
     {
@@ -398,7 +367,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T01:56:23.864267+00:00",
+  "fetched_at": "2026-05-26T14:20:37.061396+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -415,10 +384,6 @@
     {
       "path": ".github/workflows/deploy.yml",
       "size": 4296
-    },
-    {
-      "path": ".github/workflows/fuzz.yml",
-      "size": 570
     },
     {
       "path": ".github/workflows/labels.yml",
@@ -476,12 +441,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/deploy.yml",
       "term": "Deploy"
-    },
-    {
-      "context_snippet": "Fuzz",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/fuzz.yml",
-      "term": "Fuzz"
     },
     {
       "context_snippet": "Sync labels",

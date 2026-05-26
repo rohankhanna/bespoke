@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T07:47:05.845187+00:00",
+  "fetched_at": "2026-05-26T16:03:57.547304+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,7 +61,7 @@
     "html_url": "https://github.com/HKUDS/VideoRAG",
     "language": "Python",
     "pushed_at": "2026-03-18T08:33:07Z",
-    "stargazers_count": 3014,
+    "stargazers_count": 3015,
     "topics": [
       "large-language-models",
       "llms",
@@ -70,7 +70,7 @@
       "rag",
       "retrieval-augmented-generation"
     ],
-    "updated_at": "2026-05-25T18:59:40Z"
+    "updated_at": "2026-05-26T12:24:41Z"
   },
   "repo_links": [
     {

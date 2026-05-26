@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "circus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "Tools for export and import scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39831646,
+      "status": "candidate",
+      "text": "carnival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953480,
+      "status": "candidate",
+      "text": "genus circus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953479,
+      "status": "candidate",
+      "text": "ringmaster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953317,
+      "status": "candidate",
+      "text": "sideshow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952433,
+      "status": "candidate",
+      "text": "arena"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "carnival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus circus"
+    }
+  ],
+  "canonical_name": "circus",
+  "concept_id": "circus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool"
+    }
+  ],
+  "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "circus",
+      "sense_id": "circus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

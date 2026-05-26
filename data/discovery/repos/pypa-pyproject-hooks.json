@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypa/pyproject-hooks",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypa/pyproject-hooks",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypa/pyproject-hooks",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pypa/pyproject-hooks",
+      "target": "packaging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:32:28.571085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 675
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 922
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2051
+    },
+    {
+      "path": ".github/workflows/publish-requirements.in",
+      "size": 27
+    },
+    {
+      "path": ".github/workflows/publish-requirements.txt",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A low-level library for calling build-backends in `pyproject.toml`-based project",
+    "fork": false,
+    "full_name": "pypa/pyproject-hooks",
+    "html_url": "https://github.com/pypa/pyproject-hooks",
+    "language": "Python",
+    "pushed_at": "2026-04-05T19:03:53Z",
+    "stargazers_count": 130,
+    "topics": [
+      "packaging",
+      "python"
+    ],
+    "updated_at": "2026-04-07T14:01:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "``pyproject-hooks``",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    }
+  ]
+}

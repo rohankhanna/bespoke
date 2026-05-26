@@ -84,7 +84,7 @@
   "normalized_form": "release-obsidian-plugin",
   "observation_id": "4723deafaed33aa0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T00:44:06.917625+00:00",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
   "observed_text": "Release Obsidian plugin",
   "source_context_snippet": "Release Obsidian plugin",
   "source_file": ".github/workflows/release.yml",

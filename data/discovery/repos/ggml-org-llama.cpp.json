@@ -136,6 +136,26 @@
       "source_file": ".github/workflows/build-apple.yml"
     },
     {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
       "component": "ggml-org/setup-xcode@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-apple.yml"
@@ -470,7 +490,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T07:38:44.010587+00:00",
+  "fetched_at": "2026-05-26T15:48:45.237958+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -506,11 +526,11 @@
     },
     {
       "path": ".github/workflows/build-apple.yml",
-      "size": 6505
+      "size": 8784
     },
     {
       "path": ".github/workflows/build-cache.yml",
-      "size": 3349
+      "size": 3389
     }
   ],
   "related_repositories": [],
@@ -522,12 +542,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-26T06:12:51Z",
-    "stargazers_count": 113083,
+    "pushed_at": "2026-05-26T15:45:28Z",
+    "stargazers_count": 113153,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-26T07:35:04Z"
+    "updated_at": "2026-05-26T15:43:52Z"
   },
   "repo_links": [
     {

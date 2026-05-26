@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A low-level library for calling build-backends in `pyproject.toml`-based project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "``pyproject-hooks``"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "``pyproject-hooks``"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998247,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998139,
+      "status": "candidate",
+      "text": "packet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996245,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995237,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998597,
+      "status": "candidate",
+      "text": "packed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "packaging",
+      "sense_id": "packaging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "packaging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "packaging",
+  "observation_id": "4c409238e2c71367",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "packaging",
+  "source_context_snippet": "``pyproject-hooks``",
+  "source_file": null,
+  "source_repo": "pypa/pyproject-hooks",
+  "source_repo_description": "A low-level library for calling build-backends in `pyproject.toml`-based project"
+}

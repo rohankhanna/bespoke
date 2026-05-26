@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Visual Novels resource browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GARbro"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GARbro"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-novel",
+      "sense_id": "visual-novel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "visual-novel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visual-novel",
+  "observation_id": "abf7709181fdc83b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "visual-novel",
+  "source_context_snippet": "GARbro",
+  "source_file": null,
+  "source_repo": "morkt/GARbro",
+  "source_repo_description": "Visual Novels resource browser"
+}

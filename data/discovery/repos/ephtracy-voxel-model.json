@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-26T15:31:22.646373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ephtracy/voxel-model",
+    "html_url": "https://github.com/ephtracy/voxel-model",
+    "language": null,
+    "pushed_at": "2026-04-29T01:24:27Z",
+    "stargazers_count": 1353,
+    "topics": [],
+    "updated_at": "2026-05-26T14:07:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

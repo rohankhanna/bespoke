@@ -282,6 +282,18 @@
       "source_repo": "ag2s20150909/TTS",
       "status": "candidate-context",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "Tools for export and import scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "Build release"
     }
   ],
   "candidate_glosses": [
@@ -422,6 +434,12 @@
       "source_repo": "ag2s20150909/TTS",
       "status": "candidate",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate",
+      "text": "Build release"
     }
   ],
   "candidate_related_terms": [
@@ -603,11 +621,17 @@
       "observed_at": "2026-05-21T07:28:23.617453+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ag2s20150909/TTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lifegpc/msg-tool"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-21T07:28:23.617453+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

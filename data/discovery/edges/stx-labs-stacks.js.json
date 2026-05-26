@@ -300,8 +300,36 @@
       "source_repo": "stx-labs/stacks.js",
       "target": "tests",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "changesets/action@63a615b9cd06ba9a3e6d13796c7fbcb080a60a0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js",
+      "target": "version",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T07:24:03.857926+00:00",
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "stx-labs/stacks.js"
 }

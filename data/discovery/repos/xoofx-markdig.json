@@ -135,7 +135,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T00:51:43.076638+00:00",
+  "fetched_at": "2026-05-26T15:31:38.585652+00:00",
   "fetched_files": [
     {
       "path": ".github/workflows/ci.yml",
@@ -163,8 +163,8 @@
     "full_name": "xoofx/markdig",
     "html_url": "https://github.com/xoofx/markdig",
     "language": "C#",
-    "pushed_at": "2026-04-20T06:16:13Z",
-    "stargazers_count": 5207,
+    "pushed_at": "2026-05-19T06:19:48Z",
+    "stargazers_count": 5234,
     "topics": [
       "commonmark",
       "commonmark-parsing",
@@ -178,7 +178,7 @@
       "markdown-processor",
       "markdown-to-html"
     ],
-    "updated_at": "2026-04-29T07:06:41Z"
+    "updated_at": "2026-05-26T12:33:52Z"
   },
   "repo_links": [],
   "terms": [

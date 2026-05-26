@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools for export and import scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881302,
+      "status": "candidate",
+      "text": "centrifuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39800391,
+      "status": "candidate",
+      "text": "separator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29903829,
+      "status": "candidate",
+      "text": "cartridge extractor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29903829,
+      "status": "candidate",
+      "text": "cartridge remover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884375,
+      "status": "candidate",
+      "text": "puller"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "extractor",
+      "sense_id": "extractor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "centrifuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40,
+      "status": "candidate",
+      "text": "separator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "cartridge extractor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cartridge remover"
+    }
+  ],
+  "concept_id": "extractor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extractor",
+  "observation_id": "5a30719a0ff5518e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "extractor",
+  "source_context_snippet": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files.",
+  "source_file": null,
+  "source_repo": "lifegpc/msg-tool",
+  "source_repo_description": "Tools for export and import scripts"
+}

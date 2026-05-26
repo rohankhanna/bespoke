@@ -1,4 +1,7 @@
 {
+  "+m\u1401 includes": [
+    "m-includes"
+  ],
   "1-shot-segmentation": [
     "1-shot-segmentation"
   ],
@@ -1405,6 +1408,9 @@
   ],
   "ads client tests": [
     "ads-client-tests"
+  ],
+  "advanced-paste": [
+    "advanced-paste"
   ],
   "advanced-roadmaps": [
     "advanced-roadmaps"
@@ -3776,6 +3782,9 @@
   "api compliance tests": [
     "api-compliance-tests"
   ],
+  "api diff": [
+    "api-diff"
+  ],
   "api diff check": [
     "api-diff-check"
   ],
@@ -5898,6 +5907,9 @@
   "auto deploy to npm": [
     "auto-deploy-to-npm"
   ],
+  "auto docs submodule sync": [
+    "auto-docs-submodule-sync"
+  ],
   "auto fix": [
     "auto-fix"
   ],
@@ -6390,6 +6402,9 @@
   "auto-translation": [
     "auto-translation"
   ],
+  "auto-triage skiasharp issue": [
+    "auto-triage-skiasharp-issue"
+  ],
   "auto-tuning": [
     "auto-tuning"
   ],
@@ -6698,6 +6713,9 @@
   ],
   "automatic responses": [
     "automatic-responses"
+  ],
+  "automatic triaging on issue creation": [
+    "automatic-triaging-on-issue-creation"
   ],
   "automatic version updates": [
     "automatic-version-updates"
@@ -11028,6 +11046,9 @@
   ],
   "build and deploy pdf index": [
     "build-and-deploy-pdf-index"
+  ],
+  "build and deploy pre-release": [
+    "build-and-deploy-pre-release"
   ],
   "build and deploy sapmachine.io page": [
     "build-and-deploy-sapmachine.io-page"
@@ -19835,6 +19856,9 @@
   "circumvention": [
     "circumvention"
   ],
+  "circus": [
+    "circus"
+  ],
   "cirth": [
     "cirth"
   ],
@@ -22966,6 +22990,9 @@
   ],
   "command-not-found scheduled database updates": [
     "command-not-found-scheduled-database-updates"
+  ],
+  "command-palette": [
+    "command-palette"
   ],
   "commander": [
     "commander"
@@ -32378,6 +32405,9 @@
   "docs - deploy": [
     "docs---deploy"
   ],
+  "docs - pr staging - cleanup": [
+    "docs---pr-staging---cleanup"
+  ],
   "docs anchor link check": [
     "docs-anchor-link-check"
   ],
@@ -32849,6 +32879,9 @@
   "dot-config": [
     "dot-config"
   ],
+  "dot-net": [
+    "dot-net"
+  ],
   "dotenv": [
     "dotenv"
   ],
@@ -32905,6 +32938,12 @@
   ],
   "dotnet-core2": [
     "dotnet-core2"
+  ],
+  "dotnet-env": [
+    "dotnet-env"
+  ],
+  "dotnet-file": [
+    "dotnet-file"
   ],
   "dotnet-format": [
     "dotnet-format"
@@ -35860,6 +35899,9 @@
   "ethical-ai": [
     "ethical-ai"
   ],
+  "ethornell": [
+    "ethornell"
+  ],
   "etl-framework": [
     "etl-framework"
   ],
@@ -36599,6 +36641,9 @@
   "extract-table": [
     "extract-table"
   ],
+  "extract-text": [
+    "extract-text"
+  ],
   "extract-text-webpack-plugin": [
     "extract-text-webpack-plugin"
   ],
@@ -36613,6 +36658,9 @@
   ],
   "extraction-engine": [
     "extraction-engine"
+  ],
+  "extractor": [
+    "extractor"
   ],
   "extrapolation": [
     "extrapolation"
@@ -36916,6 +36964,9 @@
   ],
   "fancy": [
     "fancy"
+  ],
+  "fancyzones": [
+    "fancyzones"
   ],
   "fans": [
     "fans"
@@ -50475,6 +50526,9 @@
   "keyboard-layout": [
     "keyboard-layout"
   ],
+  "keyboard-manager": [
+    "keyboard-manager"
+  ],
   "keyboard-shortcuts": [
     "keyboard-shortcuts"
   ],
@@ -50597,6 +50651,9 @@
   ],
   "kintex7": [
     "kintex7"
+  ],
+  "kirikiri": [
+    "kirikiri"
   ],
   "kiritan": [
     "kiritan"
@@ -55970,6 +56027,9 @@
   "manual badge notification": [
     "manual-badge-notification"
   ],
+  "manual batch issue deduplication": [
+    "manual-batch-issue-deduplication"
+  ],
   "manual build": [
     "manual-build"
   ],
@@ -57746,6 +57806,9 @@
   ],
   "microsoft-jdk": [
     "microsoft-jdk"
+  ],
+  "microsoft-powertoys": [
+    "microsoft-powertoys"
   ],
   "microsoft-practices": [
     "microsoft-practices"
@@ -68631,6 +68694,9 @@
   "powerpoint-generation": [
     "powerpoint-generation"
   ],
+  "powerrename": [
+    "powerrename"
+  ],
   "powersession": [
     "powersession"
   ],
@@ -68645,6 +68711,9 @@
   ],
   "powertools": [
     "powertools"
+  ],
+  "powertoys": [
+    "powertoys"
   ],
   "pp-chatocr": [
     "pp-chatocr"
@@ -82839,6 +82908,9 @@
   "skia": [
     "skia"
   ],
+  "skia upstream sync": [
+    "skia-upstream-sync"
+  ],
   "skiasharp": [
     "skiasharp"
   ],
@@ -85829,6 +85901,9 @@
   "store": [
     "store"
   ],
+  "store submission on release": [
+    "store-submission-on-release"
+  ],
   "stored-procedures": [
     "stored-procedures"
   ],
@@ -88094,6 +88169,18 @@
   "tauri-apps": [
     "tauri-apps"
   ],
+  "tauri-dev-linux": [
+    "tauri-dev-linux"
+  ],
+  "tauri-dev-macos": [
+    "tauri-dev-macos"
+  ],
+  "tauri-dev-windows": [
+    "tauri-dev-windows"
+  ],
+  "tauri-release-linux": [
+    "tauri-release-linux"
+  ],
   "tauri-specta": [
     "tauri-specta"
   ],
@@ -88225,6 +88312,9 @@
   ],
   "telemetry": [
     "telemetry"
+  ],
+  "telemetry pr check": [
+    "telemetry-pr-check"
   ],
   "teleoperation": [
     "teleoperation"
@@ -98834,6 +98924,9 @@
   "web": [
     "web"
   ],
+  "web build and release": [
+    "web-build-and-release"
+  ],
   "web conformance": [
     "web-conformance"
   ],
@@ -101775,6 +101868,9 @@
   ],
   "\u26a1\ufe0f continuous releases": [
     "continuous-releases"
+  ],
+  "\u26d9 combine-prs": [
+    "combine-prs"
   ],
   "\u26dc library.template update": [
     "library.template-update"

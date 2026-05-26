@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automatic New Issue Deduplication"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automatic New Issue Deduplication"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35407,
+      "status": "candidate",
+      "text": "changer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34994,
+      "status": "candidate",
+      "text": "auto-changer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34994,
+      "status": "candidate",
+      "text": "record changer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33224,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33211,
+      "status": "candidate",
+      "text": "subscribe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic New Issue Deduplication",
+      "sense_id": "automatic-new-issue-deduplication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automatic-new-issue-deduplication",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automatic-new-issue-deduplication",
+  "observation_id": "7464ca6fea506247",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "Automatic New Issue Deduplication",
+  "source_context_snippet": "Automatic New Issue Deduplication",
+  "source_file": ".github/workflows/automatic-issue-deduplication.yml",
+  "source_repo": "microsoft/PowerToys",
+  "source_repo_description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+}

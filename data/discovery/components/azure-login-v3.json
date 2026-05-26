@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v3",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mirror-to-blob.yml",
       "source_repo": "Azure/azure-storage-fuse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msstore-submissions.yml",
+      "source_repo": "microsoft/PowerToys"
     }
   ]
 }

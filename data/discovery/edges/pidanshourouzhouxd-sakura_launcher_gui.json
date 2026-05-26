@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "zhiyiyo/pyqt-fluent-widgets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
+  "source_repo": "PiDanShouRouZhouXD/Sakura_Launcher_GUI"
+}

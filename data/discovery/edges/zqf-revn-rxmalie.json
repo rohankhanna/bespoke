@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZQF-ReVN/RxMalie",
+      "target": "dir-a/dir-a_essays_md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZQF-ReVN/RxMalie",
+      "target": "inori/fuckgalengine",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
+  "source_repo": "ZQF-ReVN/RxMalie"
+}

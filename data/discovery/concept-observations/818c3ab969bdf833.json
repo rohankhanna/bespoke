@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u9605\u4f60\u6240\u60f3\uff0c\u7ed8\u4f60\u6240\u68a6\uff0c\u4ece\u4e00\u4e2a\u60f3\u6cd5\u5230\u4e00\u672c\u5b8c\u6574\u7684\u7cbe\u5f69\u5c0f\u8bf4\u3002ReaDreamAI\u4e3a\u4f60\u5305\u529e\u5199\u4f5c\u3001\u63d2\u56fe\u4e0e\u89c6\u9891\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Deploy Pre-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Deploy Pre-release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11501,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11501,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11380,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11380,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11380,
+      "status": "candidate",
+      "text": "marshal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy Pre-release",
+      "sense_id": "build-and-deploy-pre-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-deploy-pre-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-deploy-pre-release",
+  "observation_id": "818c3ab969bdf833",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_text": "Build and Deploy Pre-release",
+  "source_context_snippet": "Build and Deploy Pre-release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "NEKOparapa/ReaDreamAI",
+  "source_repo_description": "\u9605\u4f60\u6240\u60f3\uff0c\u7ed8\u4f60\u6240\u68a6\uff0c\u4ece\u4e00\u4e2a\u60f3\u6cd5\u5230\u4e00\u672c\u5b8c\u6574\u7684\u7cbe\u5f69\u5c0f\u8bf4\u3002ReaDreamAI\u4e3a\u4f60\u5305\u529e\u5199\u4f5c\u3001\u63d2\u56fe\u4e0e\u89c6\u9891\u3002"
+}

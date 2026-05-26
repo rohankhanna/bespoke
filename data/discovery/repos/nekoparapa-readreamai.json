@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dev-drprasad/delete-tag-and-release@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEKOparapa/ReaDreamAI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEKOparapa/ReaDreamAI",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEKOparapa/ReaDreamAI",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEKOparapa/ReaDreamAI",
+      "target": "dev-drprasad/delete-tag-and-release@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEKOparapa/ReaDreamAI",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NEKOparapa/ReaDreamAI",
+      "target": "Build and Deploy Pre-release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:30:57.576547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5991
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u9605\u4f60\u6240\u60f3\uff0c\u7ed8\u4f60\u6240\u68a6\uff0c\u4ece\u4e00\u4e2a\u60f3\u6cd5\u5230\u4e00\u672c\u5b8c\u6574\u7684\u7cbe\u5f69\u5c0f\u8bf4\u3002ReaDreamAI\u4e3a\u4f60\u5305\u529e\u5199\u4f5c\u3001\u63d2\u56fe\u4e0e\u89c6\u9891\u3002",
+    "fork": false,
+    "full_name": "NEKOparapa/ReaDreamAI",
+    "html_url": "https://github.com/NEKOparapa/ReaDreamAI",
+    "language": "Dart",
+    "pushed_at": "2026-05-04T09:00:52Z",
+    "stargazers_count": 333,
+    "topics": [],
+    "updated_at": "2026-05-26T13:36:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Pre-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and Deploy Pre-release"
+    }
+  ]
+}

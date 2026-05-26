@@ -19,12 +19,30 @@
       "source_repo": "2dust/v2rayN",
       "status": "candidate-context",
       "text": "WinGet submission on release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
+      "status": "candidate-context",
+      "text": "WinGet submission on release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "2dust/v2rayN",
+      "status": "candidate",
+      "text": "WinGet submission on release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PowerToys",
       "status": "candidate",
       "text": "WinGet submission on release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/winget-publish.yml",
       "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": ".github/workflows/package-submissions.yml",
+      "source_repo": "microsoft/PowerToys"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

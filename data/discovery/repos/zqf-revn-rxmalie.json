@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZQF-ReVN/RxMalie",
+      "target": "dir-a/dir-a_essays_md",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZQF-ReVN/RxMalie",
+      "target": "inori/fuckgalengine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-26T15:30:54.547572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ZQF-ReVN/RxMalie",
+    "html_url": "https://github.com/ZQF-ReVN/RxMalie",
+    "language": "C",
+    "pushed_at": "2024-03-10T03:11:55Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-05T07:53:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dir-a/dir-a_essays_md",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inori/fuckgalengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

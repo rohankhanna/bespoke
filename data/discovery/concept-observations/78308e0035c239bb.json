@@ -84,7 +84,7 @@
   "normalized_form": "clean-old-nightly-releases",
   "observation_id": "78308e0035c239bb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T00:44:06.917625+00:00",
+  "observed_at": "2026-05-26T13:17:40.210760+00:00",
   "observed_text": "Clean Old Nightly Releases",
   "source_context_snippet": "Clean Old Nightly Releases",
   "source_file": ".github/workflows/clean-nightly-releases.yaml",

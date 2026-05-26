@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -1339,6 +1339,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "datafuse-extras/lance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pypa/pyproject-hooks"
     }
   ]
 }

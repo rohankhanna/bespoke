@@ -2016,6 +2016,9 @@
   "ads-client-tests": [
     "ad51e7c46e82286c"
   ],
+  "advanced-paste": [
+    "4a27b5674ee1450f"
+  ],
   "advanced-roadmaps": [
     "d5253c33deebc188"
   ],
@@ -4320,6 +4323,7 @@
     "38c5927c38e118cb",
     "3932dca1d2743f41",
     "399fa7fe4792e2ff",
+    "3a13fad735be0d69",
     "3e9d056421ada6ae",
     "45f56beb2ec040ea",
     "46568a20aae92120",
@@ -5452,6 +5456,9 @@
   ],
   "api-design-firs": [
     "6d75baab879aafbb"
+  ],
+  "api-diff": [
+    "5bc3cd0e6d2d2377"
   ],
   "api-diff-check": [
     "f792cc1d7795fcb6"
@@ -8108,6 +8115,7 @@
     "62d6413a49c6fa79"
   ],
   "audio": [
+    "003836fe9fc8b8cc",
     "02ad6d1d23e50d40",
     "04c0b4948bf7be78",
     "052f6f4085099ba3",
@@ -8938,6 +8946,9 @@
   "auto-docs-dry-run-intake": [
     "e41ffad46f6f63c8"
   ],
+  "auto-docs-submodule-sync": [
+    "ee208125b5ab6cd2"
+  ],
   "auto-encoder": [
     "0af057107f3b4816"
   ],
@@ -9376,6 +9387,9 @@
   ],
   "auto-triage-issues": [
     "a84cfef3e8e098c9"
+  ],
+  "auto-triage-skiasharp-issue": [
+    "9e2a97e52ea436df"
   ],
   "auto-tune": [
     "20d31818c95b91f9"
@@ -9870,6 +9884,7 @@
     "93e1bc90d1643437"
   ],
   "automatic-new-issue-deduplication": [
+    "7464ca6fea506247",
     "a1493e48eb67e365"
   ],
   "automatic-pr-comment-try-this-pr": [
@@ -9925,6 +9940,9 @@
     "67f9c40a9c10fb38",
     "cd108be7cdbf2d1a",
     "d919f56a4ecfc375"
+  ],
+  "automatic-triaging-on-issue-creation": [
+    "2d0af607a075cc1d"
   ],
   "automatic-version-updates": [
     "c6368fe4199ff9ea"
@@ -11607,6 +11625,7 @@
     "a37217f064670ab4",
     "b4c4e820806f3cd6",
     "bb79398604cbac7f",
+    "c992eff5c014ff95",
     "c9adce7f1a693047",
     "d2966d2baf4e69cf",
     "e0a473933d708209",
@@ -16301,6 +16320,7 @@
     "0afcd3351112b7fc",
     "0b02a0eaeba140df",
     "0b10e42273ce095a",
+    "0b4c40ac0e0a5090",
     "0b5ada07c0917084",
     "0bedd7ea9203f38d",
     "0bf4b20b2b6a0150",
@@ -16847,6 +16867,7 @@
     "8e1d8e61ce2adf9d",
     "8ec5f55a9e2db7af",
     "8ee38e129a273e8b",
+    "8ef4eccc6e7d75df",
     "8f14101404f32642",
     "8f6d60112e30b720",
     "8f7a39786be04437",
@@ -17578,6 +17599,9 @@
   ],
   "build-and-deploy-pdf-index": [
     "6a7c450980cdb889"
+  ],
+  "build-and-deploy-pre-release": [
+    "818c3ab969bdf833"
   ],
   "build-and-deploy-sapmachine.io-page": [
     "3e23544d8bd0073a"
@@ -19189,6 +19213,7 @@
     "861587865254ffb7",
     "8a15e6526b3bf593",
     "8bb342949cbfe77f",
+    "9e00a2a852ea3e6b",
     "adb4214fef115058",
     "ae0864e8777666fd",
     "b09a3fc62a46b4ac",
@@ -21248,6 +21273,7 @@
   "build-release": [
     "1a3c08caf54c840e",
     "1b32eb2a11bc0bb7",
+    "346b3d6a281c5281",
     "598b451538570075",
     "5e116e34610ee5cf",
     "5eb3ff70f5215665",
@@ -30023,6 +30049,9 @@
   "circumvention": [
     "6b261700ba457c38"
   ],
+  "circus": [
+    "51183c6d48b18316"
+  ],
   "cirth": [
     "f25b364d43de0d75"
   ],
@@ -36434,7 +36463,8 @@
   "color-picker": [
     "3dfc2fb4401171cf",
     "8627c9eab12f77d5",
-    "af2cbfaf96142015"
+    "af2cbfaf96142015",
+    "e33f15d425e0387f"
   ],
   "color-picker-library": [
     "b2aef05508767a01"
@@ -36592,6 +36622,7 @@
     "2d5d8c298f4a8d45",
     "34407472522e12f4",
     "3bdcab00c1ab4370",
+    "b6dc7f429c9f61e7",
     "cfbc93aab7a0c03b"
   ],
   "combined-jobs": [
@@ -36869,6 +36900,9 @@
   ],
   "command-not-found-scheduled-database-updates": [
     "be47f90b602e2295"
+  ],
+  "command-palette": [
+    "ba80060d1efc27eb"
   ],
   "commander": [
     "d3dcaf5792921c2c"
@@ -43153,6 +43187,7 @@
     "3d589572a77b8233",
     "40dc395ec75e7595",
     "4109565cfdd43982",
+    "4151cb46f5c9926d",
     "41a2b292e0aeb673",
     "4f1b753a1e605e0d",
     "543a4ecbb791430f",
@@ -49233,6 +49268,7 @@
     "a3e326a35dc8628d",
     "a65983995732ad2c",
     "aa9bab788c431899",
+    "aaf6355aa8ffbe1f",
     "acbc62253174a334",
     "accf1c38ef67bdb4",
     "af7fb640c9403411",
@@ -50864,6 +50900,7 @@
     "9b723ba7f2606478",
     "9bd32e7846280407",
     "a4efc17990f8de38",
+    "a527e80d4c41ee00",
     "a814e2935a123316",
     "b2e897ed055a476c",
     "b3670b00dca80ac3",
@@ -53458,6 +53495,7 @@
     "4fdfbd4950149247",
     "501b3f5569726824",
     "53aacdf1add11a2a",
+    "54f94d8042c5cf7a",
     "563e9f3882ce9bf8",
     "564a2266128c994b",
     "56638402f2dcc149",
@@ -54702,6 +54740,9 @@
   "docs---deploy": [
     "8e9e608cbb462f24"
   ],
+  "docs---pr-staging---cleanup": [
+    "cac9e1b9bede60b0"
+  ],
   "docs-anchor-link-check": [
     "1a491d1cdbe2bcc0"
   ],
@@ -55538,6 +55579,9 @@
   "dot-config": [
     "813ad634fc63bec8"
   ],
+  "dot-net": [
+    "2bac25d899961049"
+  ],
   "dotenv": [
     "39c1834219ca9cb2",
     "55dc639a58c59618",
@@ -55627,6 +55671,7 @@
     "4cd8e8cb8673cf81",
     "4ec3cd0be4778751",
     "517323f35aa70182",
+    "539d5c24104b4fff",
     "562b32bfb9a5ae8d",
     "59becc1bcd025f81",
     "5bc1ff0a02dfe9cf",
@@ -55743,6 +55788,12 @@
   ],
   "dotnet-core2": [
     "bbcab7097c1f20e4"
+  ],
+  "dotnet-env": [
+    "0d348a03e27c0d38"
+  ],
+  "dotnet-file": [
+    "2f2f9be2b0f52244"
   ],
   "dotnet-format": [
     "3b7a9f59382fd7d5",
@@ -60241,6 +60292,9 @@
   "ethical-ai": [
     "eaf803e9d269aba5"
   ],
+  "ethornell": [
+    "59789b130291708a"
+  ],
   "etl-framework": [
     "1ab91e0581c6b2c2",
     "37e45122dbc4b6dc"
@@ -61345,6 +61399,9 @@
   "extract-table": [
     "ccf4376506306a23"
   ],
+  "extract-text": [
+    "b023df42804a7fbc"
+  ],
   "extract-text-webpack-plugin": [
     "8e92b2946b154b85"
   ],
@@ -61364,6 +61421,7 @@
   ],
   "extraction": [
     "08f819734346bdf6",
+    "20ab766ee13a0e37",
     "393967aa42a5eff7",
     "509fe02ac6b8c7c3",
     "aca9c5a495b0d992",
@@ -61372,6 +61430,9 @@
   "extraction-engine": [
     "1dc1dd356d18ed83",
     "c314ebdf3ce49f08"
+  ],
+  "extractor": [
+    "5a30719a0ff5518e"
   ],
   "extrapolation": [
     "f230c180f06834bf"
@@ -61836,6 +61897,9 @@
   "fancy": [
     "6a1b7d982f28d5d3",
     "ab235c51a9735913"
+  ],
+  "fancyzones": [
+    "57654f34d9d17edc"
   ],
   "fans": [
     "4597149f4845ccf0"
@@ -66272,6 +66336,7 @@
   ],
   "galgame": [
     "766d10f50169be06",
+    "dc5b3a8041ca6899",
     "deca71b859059eab"
   ],
   "gallery": [
@@ -69430,6 +69495,7 @@
     "ee20b90570d6a984",
     "ee96ae76d7bc2416",
     "f1f779e0f2e99d1a",
+    "f2e13e3e934bfa2e",
     "f8fb2d5470b35cdb",
     "f96238cb8254d59d",
     "fa3c56022224d6d6",
@@ -72740,6 +72806,7 @@
     "9665ae51c2b161c1",
     "9676398527f38ab2",
     "97c5a21888712d4f",
+    "9bb531efc9ce32fe",
     "9e0e9e6bc84f5b6b",
     "a172fd4f4c975f33",
     "a1c081be544ed037",
@@ -73691,6 +73758,7 @@
     "0320a244356a8bfd",
     "0329e76d4e6f2fa4",
     "03b951fb79c31657",
+    "050cd276fdd129d0",
     "055f789475f35925",
     "05fa154abfbbc152",
     "065837e18aeb6687",
@@ -79400,6 +79468,7 @@
     "1dc7007030dfe20c",
     "23ca8bfe035a7bcf",
     "24cf832e5f424f07",
+    "3c247a53559bfb74",
     "540a3092c4231a84",
     "55ab1fe5d7f5fcff",
     "5cba7e093a40b2ba",
@@ -85420,6 +85489,9 @@
   "keyboard-layout": [
     "43376a40c4da72a2"
   ],
+  "keyboard-manager": [
+    "07e9b4b33762344a"
+  ],
   "keyboard-shortcuts": [
     "82890dfa562bfac8",
     "d540d0417aa88030"
@@ -85571,6 +85643,9 @@
   "kintex7": [
     "1b0f1b32935ec8f0",
     "d894e9b86c64afcc"
+  ],
+  "kirikiri": [
+    "b0d21fd1f148a1eb"
   ],
   "kiritan": [
     "0e0d8e65b729e2e5"
@@ -94241,6 +94316,9 @@
   "lzturbo": [
     "40b5682cab3701d7"
   ],
+  "m-includes": [
+    "692daf74ddbec889"
+  ],
   "m1-mac": [
     "04a3b0c910e6886f",
     "cb1990badeb1b732"
@@ -95115,6 +95193,7 @@
     "ba8aca2264c745ed",
     "bb053a0cde26e619",
     "bb67db0263e14cb1",
+    "bb83589458c07221",
     "bbcd42fe4760b4be",
     "bcc87c4f20299676",
     "bf36191ef21a7fc8",
@@ -96125,6 +96204,9 @@
   ],
   "manual-badge-notification": [
     "49e057c568df3559"
+  ],
+  "manual-batch-issue-deduplication": [
+    "a8af1e1ff39cdd3c"
   ],
   "manual-build": [
     "05794709f012ffeb",
@@ -98963,6 +99045,9 @@
   ],
   "microsoft-jdk": [
     "6c3942f6ae6c83cc"
+  ],
+  "microsoft-powertoys": [
+    "7c32c44c7317a7e6"
   ],
   "microsoft-practices": [
     "b4cd4328264a3494",
@@ -112991,6 +113076,7 @@
     "3acc2619565804c1",
     "3f03a5c00f590617",
     "49bedd96579b34b0",
+    "4c409238e2c71367",
     "54e953140a5284a4",
     "5afbd1b7b35419ca",
     "5dbbda61c95e0cb5",
@@ -117601,6 +117687,9 @@
   "powerpoint-generation": [
     "26a214d49a6a7e12"
   ],
+  "powerrename": [
+    "5b9ea1f658b941b2"
+  ],
   "powersession": [
     "4593a438c30e4273",
     "72059981d4a979d1"
@@ -117636,6 +117725,9 @@
   "powertools": [
     "35e780bbce0f8c65",
     "8f911c1dc289e911"
+  ],
+  "powertoys": [
+    "1ac4f3d9f8a17d6f"
   ],
   "pp-chatocr": [
     "38b6e21a5fc0a2a0"
@@ -121494,6 +121586,7 @@
     "980e0742072447c4",
     "988088a0559670e5",
     "98cf3ebd899abde8",
+    "99cd475d74846a65",
     "9dc296d6ca639aca",
     "9dd072338f36375d",
     "a06db00abd21c152",
@@ -134563,6 +134656,7 @@
     "24442e95a6c019ce",
     "858440b4fecc077f",
     "93dc504450a8ed8e",
+    "a62e019183833c57",
     "cb180107b1113583",
     "cedb99b19884336e",
     "d7936f7556d746c2"
@@ -144194,11 +144288,16 @@
     "bda6359de66990e2"
   ],
   "skia": [
+    "558871b0131e0c1a",
     "7605725c6a064f5d",
     "7d8735cf72633666"
   ],
+  "skia-upstream-sync": [
+    "05786dc00546554c"
+  ],
   "skiasharp": [
-    "44012625b0b7e18e"
+    "44012625b0b7e18e",
+    "e9d20057111870bd"
   ],
   "skill": [
     "62035a1bafe22719",
@@ -146747,6 +146846,7 @@
     "2f7a916b11f39851",
     "38d42820fd6f4a5f",
     "51a78701a6e95d1d",
+    "6e7d6fe9b7db9cfc",
     "81d452087d07dada",
     "d08eae85e6f13889",
     "e0069b1db2d228da",
@@ -149007,6 +149107,9 @@
   "store": [
     "30bea4cdd9b41794",
     "500950e6898ca387"
+  ],
+  "store-submission-on-release": [
+    "5824baeea25ec7e4"
   ],
   "stored-procedures": [
     "a39788b34374ce8b"
@@ -152688,6 +152791,18 @@
   "tauri-apps": [
     "d737f91e35835384"
   ],
+  "tauri-dev-linux": [
+    "f326fdb53a882ee7"
+  ],
+  "tauri-dev-macos": [
+    "926e89b23b522d4b"
+  ],
+  "tauri-dev-windows": [
+    "bec79c1a9a8de067"
+  ],
+  "tauri-release-linux": [
+    "fdda17e09905a03d"
+  ],
   "tauri-specta": [
     "14f81e578c3348f3"
   ],
@@ -152867,6 +152982,9 @@
     "e646bcf3152c2670",
     "e8a5b4dbbed16389",
     "ecfa711e33da7e48"
+  ],
+  "telemetry-pr-check": [
+    "c3b3af008b4afdd5"
   ],
   "teleoperation": [
     "10c391a479a753c2"
@@ -160784,6 +160902,7 @@
     "7474d79ac982b9b3"
   ],
   "translator": [
+    "5b6749c7c72899b6",
     "6f3f00234b67f27c",
     "8b407cbd4679f17c",
     "9157009323d58ca7",
@@ -168822,7 +168941,8 @@
     "c8e731ed8f959645"
   ],
   "visual-novel": [
-    "790555fc60eb89fc"
+    "790555fc60eb89fc",
+    "abf7709181fdc83b"
   ],
   "visual-object-tracking": [
     "454c9ca5ec1999a7",
@@ -171147,6 +171267,9 @@
     "b48d2ffd513e2e0c",
     "f6cb3accac9202c4"
   ],
+  "web-build-and-release": [
+    "c570171a71407134"
+  ],
   "web-builds": [
     "135e564f1164a0db",
     "27abac343e0d0e38"
@@ -172100,6 +172223,7 @@
     "9aa00c8c882a875c",
     "a0038dca74a56eff",
     "a0bd9642eb8ac6ed",
+    "bbff6d4d43c2e312",
     "c102a82be5323cb5"
   ],
   "webview": [
@@ -172893,6 +173017,7 @@
     "7b0960b4e3b8bee3",
     "7c459163415073ea",
     "7cffdd2672e643cf",
+    "7f173ad26593da85",
     "7fa9a53ec6f7a67b",
     "7fbd10ff0a316da0",
     "8216d06cf755fc32",
@@ -172989,6 +173114,7 @@
     "e8b205af09199005",
     "e8dc5dae4438eb65",
     "ed51d573badf819a",
+    "ee316584535ac33e",
     "ee65f7cd9eff0eee",
     "ef5994c0ef1c1432",
     "efa8674cf41789b8",
@@ -173014,6 +173140,7 @@
     "50179843e954a860",
     "7c2be6a49ddd07db",
     "86dae20c03b753a0",
+    "de1f811073febc77",
     "e55b013801a0617c",
     "ebc87ab08ee11e1a",
     "f9d169af0fece928"
@@ -173021,6 +173148,7 @@
   "windows-11": [
     "2519fbce519f9eac",
     "33c3640a4afc705f",
+    "96034b0f7dc40c77",
     "b67fcfaea9f0f7c6"
   ],
   "windows-7": [
@@ -173339,6 +173467,7 @@
     "b1912c5d952c2cb3"
   ],
   "winget-submission-on-release": [
+    "1f83490bc9025b97",
     "2b543ccf20718c85"
   ],
   "winit": [
@@ -173967,6 +174096,7 @@
   "xamarin": [
     "509ce57e21228b26",
     "52b153a7d3386bea",
+    "84af330237ad231e",
     "bb28340f5a4d9628",
     "cc62e1356fd13791",
     "ee3faf39dd5c59dd",

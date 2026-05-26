@@ -4,7 +4,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5",
+      "target": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "target_type": "component"
     },
     {
@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5",
+      "target": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "target_type": "component"
     },
     {
@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5",
+      "target": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/project.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5",
+      "target": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "target_type": "component"
     },
     {
@@ -95,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5",
+      "target": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "target_type": "component"
     },
     {
@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "github/codeql-action/upload-sarif@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T00:44:06.917625+00:00",
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
   "source_repo": "ohmyzsh/ohmyzsh"
 }

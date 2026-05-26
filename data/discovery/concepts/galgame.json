@@ -31,6 +31,18 @@
       "source_repo": "GalTransl/GalTransl",
       "status": "candidate-context",
       "text": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "Tools for export and import scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate-context",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "GalTransl/GalTransl",
       "status": "candidate",
       "text": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lifegpc/msg-tool",
+      "status": "candidate",
+      "text": "msg-tool is a command-line tool for exporting, importing, packing, and unpacking script files."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-26T07:24:03.857926+00:00",
       "source_file": null,
       "source_repo": "GalTransl/GalTransl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T13:17:40.210760+00:00",
+      "source_file": null,
+      "source_repo": "lifegpc/msg-tool"
     }
   ],
   "first_seen_at": "2026-05-24T12:36:47.955733+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -559,7 +559,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T00:54:03.880674+00:00",
+  "fetched_at": "2026-05-26T16:08:56.444886+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,12 +584,12 @@
     "html_url": "https://github.com/obsidian-community/obsidian-zotero-integration",
     "language": "TypeScript",
     "pushed_at": "2026-03-06T17:39:40Z",
-    "stargazers_count": 1646,
+    "stargazers_count": 1648,
     "topics": [
       "obsidian-md",
       "obsidian-plugin"
     ],
-    "updated_at": "2026-05-25T02:05:55Z"
+    "updated_at": "2026-05-26T09:28:56Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "morkt/GARbro",
+      "target": "visual-novel",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-26T13:17:40.210760+00:00",
+  "source_repo": "morkt/GARbro"
+}
