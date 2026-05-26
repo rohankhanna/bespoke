@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "anki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "japanese-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "kindle",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-26T07:24:03.857926+00:00",
+  "source_repo": "Kartoffel0/Memo2Anki"
+}

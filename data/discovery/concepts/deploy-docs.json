@@ -3417,11 +3417,29 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

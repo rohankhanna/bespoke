@@ -412,6 +412,18 @@
       "source_repo": "collabora/WhisperLive",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FooSoft/yomichan-import",
+      "status": "candidate-context",
+      "text": "External dictionary importer for Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FooSoft/yomichan-import",
+      "status": "candidate-context",
+      "text": "*Note: this project is no longer maintained. Please see [this"
     }
   ],
   "candidate_glosses": [
@@ -618,6 +630,12 @@
       "source_repo": "collabora/WhisperLive",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FooSoft/yomichan-import",
+      "status": "candidate",
+      "text": "*Note: this project is no longer maintained. Please see [this"
     }
   ],
   "candidate_related_terms": [
@@ -1669,11 +1687,23 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "collabora/WhisperLive"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -61,28 +61,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "python-versioneer/python-versioneer",
-      "target": "conda-forge/versioneer-feedstock",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-versioneer/python-versioneer",
       "target": "pypa/setuptools_scm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-versioneer/python-versioneer",
-      "target": "jbweston/miniver",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "python-versioneer/python-versioneer",
-      "target": "jwodder/versioningit",
       "target_type": "repository"
     },
     {
@@ -128,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T13:25:23.848194+00:00",
+  "fetched_at": "2026-05-26T07:29:46.938466+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,21 +137,6 @@
     "updated_at": "2026-05-18T01:59:47Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "conda-forge/versioneer-feedstock",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jbweston/miniver",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jwodder/versioningit",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "pypa/setuptools_scm",

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "change-detection"
+    "change-detection",
+    "change detection"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "ViTAE-Transformer/RSP",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "A simple, correct Python build frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "change detection"
     }
   ],
   "candidate_glosses": [
@@ -63,9 +78,51 @@
       "source_repo": "ViTAE-Transformer/RSP",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate",
+      "text": "change detection"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38711,
+      "status": "candidate",
+      "text": "waterfall plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38710,
+      "status": "candidate",
+      "text": "time series"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38709,
+      "status": "candidate",
+      "text": "graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38708,
+      "status": "candidate",
+      "text": "line graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38707,
+      "status": "candidate",
+      "text": "flood forecasting"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "change-detection",
   "concept_id": "change-detection",
@@ -88,11 +145,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/RSP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/reusable-change-detection.yml",
+      "source_repo": "pypa/build"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

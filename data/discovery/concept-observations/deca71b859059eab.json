@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u652f\u6301GPT-4/Claude/Deepseek/Sakura\u7b49\u5927\u8bed\u8a00\u6a21\u578b\u7684Galgame\u81ea\u52a8\u5316\u7ffb\u8bd1\u89e3\u51b3\u65b9\u6848  Automated translation solution for visual novels supporting GPT-4/Claude/Deepseek/Sakura"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "galgame",
+      "sense_id": "galgame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "galgame",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "galgame",
+  "observation_id": "deca71b859059eab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "galgame",
+  "source_context_snippet": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>",
+  "source_file": null,
+  "source_repo": "GalTransl/GalTransl",
+  "source_repo_description": "\u652f\u6301GPT-4/Claude/Deepseek/Sakura\u7b49\u5927\u8bed\u8a00\u6a21\u578b\u7684Galgame\u81ea\u52a8\u5316\u7ffb\u8bd1\u89e3\u51b3\u65b9\u6848  Automated translation solution for visual novels supporting GPT-4/Claude/Deepseek/Sakura"
+}

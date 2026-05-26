@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atrejoe/MarkdownPreview",
+      "target": "microsoft/powertoys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atrejoe/MarkdownPreview",
+      "target": "lunet-io/markdig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atrejoe/MarkdownPreview",
+      "target": "nicolashery/markdownpad-github",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-26T07:24:03.857926+00:00",
+  "source_repo": "Atrejoe/MarkdownPreview"
+}

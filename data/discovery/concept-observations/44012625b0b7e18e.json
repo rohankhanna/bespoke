@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Voxel Windows Explorer Thumbnails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skiasharp",
+      "sense_id": "skiasharp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "skiasharp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "skiasharp",
+  "observation_id": "44012625b0b7e18e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "skiasharp",
+  "source_context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+  "source_file": null,
+  "source_repo": "Arlorean/Voxels",
+  "source_repo_description": "Voxel Windows Explorer Thumbnails"
+}

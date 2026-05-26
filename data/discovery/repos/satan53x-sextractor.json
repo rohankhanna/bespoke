@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "arcusmaximus/csystemtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "atomcrafty/universalinjectorframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "jszhtian/eagls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "dir-a/malietools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:06.034240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4853
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4eceGalGame\u811a\u672c\u63d0\u53d6\u548c\u5bfc\u5165\u6587\u672c",
+    "fork": false,
+    "full_name": "satan53x/SExtractor",
+    "html_url": "https://github.com/satan53x/SExtractor",
+    "language": "Python",
+    "pushed_at": "2026-05-24T06:00:03Z",
+    "stargazers_count": 468,
+    "topics": [],
+    "updated_at": "2026-05-25T11:54:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcusmaximus/csystemtools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomcrafty/universalinjectorframework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dir-a/malietools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jszhtian/eagls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

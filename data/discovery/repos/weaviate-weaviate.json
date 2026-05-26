@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/linter.yml"
     },
     {
-      "component": "psf/black@c6755bb741b6481d6b3d3bb563c83fa060db96c9",
+      "component": "psf/black@87928e6d6761a4a6d22250e1fee5601b3998086e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml"
     },
@@ -184,7 +184,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "weaviate/weaviate",
-      "target": "psf/black@c6755bb741b6481d6b3d3bb563c83fa060db96c9",
+      "target": "psf/black@87928e6d6761a4a6d22250e1fee5601b3998086e",
       "target_type": "component"
     },
     {
@@ -349,7 +349,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T20:09:06.160516+00:00",
+  "fetched_at": "2026-05-26T07:31:24.131347+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,8 +401,8 @@
     "full_name": "weaviate/weaviate",
     "html_url": "https://github.com/weaviate/weaviate",
     "language": "Go",
-    "pushed_at": "2026-05-25T20:00:35Z",
-    "stargazers_count": 16237,
+    "pushed_at": "2026-05-26T07:30:57Z",
+    "stargazers_count": 16236,
     "topics": [
       "approximate-nearest-neighbor-search",
       "generative-search",
@@ -425,7 +425,7 @@
       "vectors",
       "weaviate"
     ],
-    "updated_at": "2026-05-25T17:46:39Z"
+    "updated_at": "2026-05-26T06:04:58Z"
   },
   "repo_links": [],
   "terms": [

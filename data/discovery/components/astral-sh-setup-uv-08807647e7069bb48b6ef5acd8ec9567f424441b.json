@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -512,6 +512,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "pyrtlsdr/pyrtlsdr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "pypa/build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-pytest.yml",
+      "source_repo": "pypa/build"
     }
   ]
 }

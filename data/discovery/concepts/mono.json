@@ -67,6 +67,30 @@
       "source_repo": "BepInEx/BepInEx",
       "status": "candidate-context",
       "text": "\ufeff<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeighTools/UnityDoorstop",
+      "status": "candidate-context",
+      "text": "Doorstop -- run C# before Unity does!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeighTools/UnityDoorstop",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "BepInEx/BepInEx",
       "status": "candidate",
       "text": "\ufeff<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeighTools/UnityDoorstop",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +237,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "BepInEx/BepInEx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "NeighTools/UnityDoorstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

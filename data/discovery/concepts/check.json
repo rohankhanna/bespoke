@@ -834,6 +834,18 @@
       "source_repo": "apify/apify-cli",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "A simple, correct Python build frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "check"
     }
   ],
   "candidate_glosses": [
@@ -1256,6 +1268,12 @@
       "source_repo": "apify/apify-cli",
       "status": "candidate",
       "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_related_terms": [
@@ -3410,11 +3428,17 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "PistonDevelopers/glfw-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/reusable-docs.yml",
+      "source_repo": "pypa/build"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

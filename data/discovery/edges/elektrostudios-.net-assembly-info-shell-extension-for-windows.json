@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "file-properties",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "netcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "netframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "netframework48",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "sharpshell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "shell-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "shell-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "shellex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "windows-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "windows-shell-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "target": "windows10",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-26T07:24:03.857926+00:00",
+  "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows"
+}

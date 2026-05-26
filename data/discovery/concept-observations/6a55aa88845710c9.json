@@ -84,7 +84,7 @@
   "normalized_form": "mark-stale-issues-and-pull-requests",
   "observation_id": "6a55aa88845710c9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-25T18:41:09.248128+00:00",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
   "observed_text": "Mark stale issues and pull requests",
   "source_context_snippet": "Mark stale issues and pull requests",
   "source_file": ".github/workflows/stale.yml",

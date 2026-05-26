@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "arcusmaximus/csystemtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "atomcrafty/universalinjectorframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "jszhtian/eagls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "satan53x/SExtractor",
+      "target": "dir-a/malietools",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-26T07:24:03.857926+00:00",
+  "source_repo": "satan53x/SExtractor"
+}

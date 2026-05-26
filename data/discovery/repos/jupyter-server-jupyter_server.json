@@ -318,13 +318,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jupyter-server/jupyter_server",
-      "target": "jupyter/.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jupyter-server/jupyter_server",
@@ -556,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T20:02:55.494518+00:00",
+  "fetched_at": "2026-05-26T07:25:19.960487+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -604,7 +597,7 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-05-21T09:46:00Z",
+    "pushed_at": "2026-05-26T02:04:52Z",
     "stargazers_count": 558,
     "topics": [
       "jupyter",
@@ -612,13 +605,7 @@
     ],
     "updated_at": "2026-05-21T09:46:06Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyter/.",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Downstream Tests",

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atrejoe/MarkdownPreview",
+      "target": "microsoft/powertoys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atrejoe/MarkdownPreview",
+      "target": "lunet-io/markdig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atrejoe/MarkdownPreview",
+      "target": "nicolashery/markdownpad-github",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:16.708606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A Windows Preview handler for Markdown files",
+    "fork": false,
+    "full_name": "Atrejoe/MarkdownPreview",
+    "html_url": "https://github.com/Atrejoe/MarkdownPreview",
+    "language": "C#",
+    "pushed_at": "2022-01-22T13:19:14Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-02-28T12:06:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lunet-io/markdig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/powertoys",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicolashery/markdownpad-github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

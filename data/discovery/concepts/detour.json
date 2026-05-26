@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "detour"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026583,
+      "status": "candidate",
+      "text": "roundabout way"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023583,
+      "status": "candidate",
+      "text": "by-pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022835,
+      "status": "candidate",
+      "text": "sidestep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021729,
+      "status": "candidate",
+      "text": "turning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021020,
+      "status": "candidate",
+      "text": "diversion"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "roundabout way"
+    }
+  ],
+  "canonical_name": "detour",
+  "concept_id": "detour",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony"
+    }
+  ],
+  "first_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "detour",
+      "sense_id": "detour#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

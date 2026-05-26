@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Template Testing Unix Mono"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "Template Testing Unix Mono"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate",
+      "text": "Template Testing Unix Mono"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "root"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "roots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18061,
+      "status": "candidate",
+      "text": "tar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18028,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17711,
+      "status": "candidate",
+      "text": "litmus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Template Testing Unix Mono",
+  "concept_id": "template-testing-unix-mono",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/test-unix-mono.yml",
+      "source_repo": "pardeike/Harmony"
+    }
+  ],
+  "first_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template Testing Unix Mono",
+      "sense_id": "template-testing-unix-mono#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

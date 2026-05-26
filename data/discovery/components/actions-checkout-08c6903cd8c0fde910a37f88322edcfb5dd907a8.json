@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

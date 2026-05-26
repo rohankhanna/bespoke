@@ -280,6 +280,18 @@
       "source_repo": "keksiqc/ctrld-sync",
       "status": "candidate-context",
       "text": "Sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neavo/KeywordGacha",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528 AI \u80fd\u529b\u4e00\u952e\u5206\u6790 \u5c0f\u8bf4\u3001\u6e38\u620f\u3001\u5b57\u5e55 \u7b49\u6587\u672c\u5185\u5bb9\u5e76\u751f\u6210\u672f\u8bed\u8868\u7684\u6b21\u4e16\u4ee3\u7ffb\u8bd1\u8f85\u52a9\u5de5\u5177"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neavo/KeywordGacha",
+      "status": "candidate-context",
+      "text": "Sync"
     }
   ],
   "candidate_glosses": [
@@ -442,6 +454,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "keksiqc/ctrld-sync",
+      "status": "candidate",
+      "text": "Sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neavo/KeywordGacha",
       "status": "candidate",
       "text": "Sync"
     }
@@ -1437,11 +1455,17 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "neavo/KeywordGacha"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

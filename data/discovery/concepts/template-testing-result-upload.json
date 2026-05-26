@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Template Testing Result Upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "Template Testing Result Upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate",
+      "text": "Template Testing Result Upload"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34981,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34981,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34838,
+      "status": "candidate",
+      "text": "calk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34838,
+      "status": "candidate",
+      "text": "gatekeeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34792,
+      "status": "candidate",
+      "text": "teach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Template Testing Result Upload",
+  "concept_id": "template-testing-result-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/test-result-upload.yml",
+      "source_repo": "pardeike/Harmony"
+    }
+  ],
+  "first_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template Testing Result Upload",
+      "sense_id": "template-testing-result-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

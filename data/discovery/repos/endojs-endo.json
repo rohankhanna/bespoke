@@ -106,11 +106,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "lerna",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "prettier",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -562,13 +557,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "endojs/endo",
-      "target": "lerna",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "endojs/endo",
       "target": "prettier",
       "target_type": "component"
     },
@@ -930,7 +918,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T20:11:10.100620+00:00",
+  "fetched_at": "2026-05-26T07:33:20.743373+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -942,7 +930,7 @@
     },
     {
       "path": "package.json",
-      "size": 3216
+      "size": 3168
     },
     {
       "path": ".github/workflows/browser-test.yml",
@@ -982,7 +970,7 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-05-23T19:56:23Z",
+    "pushed_at": "2026-05-26T02:39:49Z",
     "stargazers_count": 1022,
     "topics": [
       "capabilities",
@@ -997,7 +985,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-05-23T19:53:18Z"
+    "updated_at": "2026-05-25T22:58:49Z"
   },
   "repo_links": [
     {

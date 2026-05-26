@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "neavo/linguagacha",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SakuraLLM/SakuraLLM",
-      "target": "neavo/oneclickllama",
+      "target": "nekoparapa/ainiee",
       "target_type": "repository"
     },
     {
@@ -19,6 +12,13 @@
       "source_file": "README.md",
       "source_repo": "SakuraLLM/SakuraLLM",
       "target": "fkiliver/rpgmaker_llama_translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SakuraLLM/SakuraLLM",
+      "target": "nekoparapa/ainiee-chatgpt",
       "target_type": "repository"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "generated_at": "2026-05-26T07:24:03.857926+00:00",
   "source_repo": "SakuraLLM/SakuraLLM"
 }

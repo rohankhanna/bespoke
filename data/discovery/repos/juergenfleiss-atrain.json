@@ -1,5 +1,16 @@
 {
-  "components": [],
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
   "edges": [
     {
       "edge_type": "explicit-github-link",
@@ -14,9 +25,23 @@
       "source_repo": "JuergenFleiss/aTrain",
       "target": "guillaumekln/faster-whisper",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuergenFleiss/aTrain",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuergenFleiss/aTrain",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-25T20:06:10.567618+00:00",
+  "fetched_at": "2026-05-26T07:28:42.137013+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -24,7 +49,11 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 1674
+      "size": 1723
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1137
     }
   ],
   "related_repositories": [],
@@ -36,10 +65,10 @@
     "full_name": "JuergenFleiss/aTrain",
     "html_url": "https://github.com/JuergenFleiss/aTrain",
     "language": "Python",
-    "pushed_at": "2026-05-22T05:26:10Z",
+    "pushed_at": "2026-05-26T05:55:37Z",
     "stargazers_count": 1139,
     "topics": [],
-    "updated_at": "2026-05-25T18:22:12Z"
+    "updated_at": "2026-05-26T05:55:42Z"
   },
   "repo_links": [
     {

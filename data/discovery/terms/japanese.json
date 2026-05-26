@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -76,6 +76,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Kartoffel0/Mokuro2Pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import"
     }
   ],
   "term": "japanese"

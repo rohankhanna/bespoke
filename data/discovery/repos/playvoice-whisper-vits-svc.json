@@ -12,21 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "mindslab-ai/univnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/whisper-vits-svc",
       "target": "playvoice/so-vits-svc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/whisper-vits-svc",
-      "target": "francis-komizu/sovits",
       "target_type": "repository"
     },
     {
@@ -93,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T20:06:05.746812+00:00",
+  "fetched_at": "2026-05-26T07:28:36.403491+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +100,7 @@
     "html_url": "https://github.com/PlayVoice/whisper-vits-svc",
     "language": "Python",
     "pushed_at": "2024-04-23T10:50:32Z",
-    "stargazers_count": 2852,
+    "stargazers_count": 2853,
     "topics": [
       "change",
       "diff-svc",
@@ -127,19 +113,9 @@
       "vits2",
       "voice"
     ],
-    "updated_at": "2026-05-25T10:12:46Z"
+    "updated_at": "2026-05-26T01:14:40Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "francis-komizu/sovits",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mindslab-ai/univnet",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "playvoice/so-vits-svc",

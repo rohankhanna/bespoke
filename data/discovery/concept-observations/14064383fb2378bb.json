@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "External dictionary importer for Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Note: this project is no longer maintained. Please see [this"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Note: this project is no longer maintained. Please see [this"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043206,
+      "status": "candidate",
+      "text": "decree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040367,
+      "status": "candidate",
+      "text": "fiat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038171,
+      "status": "candidate",
+      "text": "rescript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026155,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042988,
+      "status": "candidate",
+      "text": "ukase"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "edict",
+      "sense_id": "edict#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42086,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16048,
+      "status": "candidate",
+      "text": "decree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3033,
+      "status": "candidate",
+      "text": "rescript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "fiat"
+    }
+  ],
+  "concept_id": "edict",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "edict",
+  "observation_id": "14064383fb2378bb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "edict",
+  "source_context_snippet": "*Note: this project is no longer maintained. Please see [this",
+  "source_file": null,
+  "source_repo": "FooSoft/yomichan-import",
+  "source_repo_description": "External dictionary importer for Yomichan."
+}

@@ -235,6 +235,18 @@
       "source_repo": "dotnet/wpf-test",
       "status": "candidate-context",
       "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono open source ECMA CLI, C# and .NET implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
     }
   ],
   "candidate_glosses": [
@@ -349,6 +361,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/wpf-test",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
       "status": "candidate",
       "text": "Backport PR to branch"
     }
@@ -940,11 +958,17 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/mono"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

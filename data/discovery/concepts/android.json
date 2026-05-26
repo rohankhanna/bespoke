@@ -2320,6 +2320,18 @@
       "source_repo": "jeziellago/compose-markdown",
       "status": "candidate-context",
       "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono open source ECMA CLI, C# and .NET implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_glosses": [
@@ -3498,6 +3510,12 @@
       "source_repo": "jeziellago/compose-markdown",
       "status": "candidate",
       "text": "[![](https://androidweekly.net/issues/issue-456/badge)](https://androidweekly.net/issues/issue-456)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_related_terms": [
@@ -7222,11 +7240,29 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "mono/mono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

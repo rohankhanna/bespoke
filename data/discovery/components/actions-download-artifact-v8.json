@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v8",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2527,6 +2527,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "neavo/LinguaGacha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "neavo/KeywordGacha"
     }
   ]
 }

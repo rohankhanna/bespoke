@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-26T07:29:27.203690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "simonflueckiger/tesserocr-windows_build",
+    "html_url": "https://github.com/simonflueckiger/tesserocr-windows_build",
+    "language": "Python",
+    "pushed_at": "2026-03-16T01:18:35Z",
+    "stargazers_count": 219,
+    "topics": [],
+    "updated_at": "2026-04-28T05:17:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import",
+      "target": "edict",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import",
+      "target": "enamdict",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import",
+      "target": "epwing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import",
+      "target": "translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FooSoft/yomichan-import",
+      "target": "yomichan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:30.797228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2859
+    },
+    {
+      "path": "go.mod",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "External dictionary importer for Yomichan.",
+    "fork": false,
+    "full_name": "FooSoft/yomichan-import",
+    "html_url": "https://github.com/FooSoft/yomichan-import",
+    "language": "Go",
+    "pushed_at": "2023-02-25T20:43:05Z",
+    "stargazers_count": 87,
+    "topics": [
+      "edict",
+      "enamdict",
+      "epwing",
+      "japanese",
+      "translation",
+      "yomichan"
+    ],
+    "updated_at": "2026-04-09T11:36:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*Note: this project is no longer maintained. Please see [this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edict"
+    },
+    {
+      "context_snippet": "*Note: this project is no longer maintained. Please see [this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enamdict"
+    },
+    {
+      "context_snippet": "*Note: this project is no longer maintained. Please see [this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "epwing"
+    },
+    {
+      "context_snippet": "*Note: this project is no longer maintained. Please see [this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "*Note: this project is no longer maintained. Please see [this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    },
+    {
+      "context_snippet": "*Note: this project is no longer maintained. Please see [this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yomichan"
+    }
+  ]
+}

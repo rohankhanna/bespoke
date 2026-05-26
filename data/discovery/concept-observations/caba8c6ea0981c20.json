@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4f7f\u7528 AI \u80fd\u529b\u4e00\u952e\u5206\u6790 \u5c0f\u8bf4\u3001\u6e38\u620f\u3001\u5b57\u5e55 \u7b49\u6587\u672c\u5185\u5bb9\u5e76\u751f\u6210\u672f\u8bed\u8868\u7684\u6b21\u4e16\u4ee3\u7ffb\u8bd1\u8f85\u52a9\u5de5\u5177"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manual Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manual Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "craft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "crafted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "crafting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "operate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Build",
+      "sense_id": "manual-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manual-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manual-build",
+  "observation_id": "caba8c6ea0981c20",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "Manual Build",
+  "source_context_snippet": "Manual Build",
+  "source_file": ".github/workflows/manual.yml",
+  "source_repo": "neavo/KeywordGacha",
+  "source_repo_description": "\u4f7f\u7528 AI \u80fd\u529b\u4e00\u952e\u5206\u6790 \u5c0f\u8bf4\u3001\u6e38\u620f\u3001\u5b57\u5e55 \u7b49\u6587\u672c\u5185\u5bb9\u5e76\u751f\u6210\u672f\u8bed\u8868\u7684\u6b21\u4e16\u4ee3\u7ffb\u8bd1\u8f85\u52a9\u5de5\u5177"
+}

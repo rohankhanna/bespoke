@@ -1123,6 +1123,30 @@
       "source_repo": "openai/openai-dotnet",
       "status": "candidate-context",
       "text": "[![NuGet stable version](https://img.shields.io/nuget/v/openai.svg)](https://www.nuget.org/packages/OpenAI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono open source ECMA CLI, C# and .NET implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_glosses": [
@@ -1683,6 +1707,18 @@
       "source_repo": "openai/openai-dotnet",
       "status": "candidate",
       "text": "[![NuGet stable version](https://img.shields.io/nuget/v/openai.svg)](https://www.nuget.org/packages/OpenAI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_related_terms": [],
@@ -2668,11 +2704,23 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "openai/openai-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "mono/mono"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

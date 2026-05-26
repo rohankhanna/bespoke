@@ -283,6 +283,18 @@
       "source_repo": "yomidevs/yomitan",
       "status": "candidate-context",
       "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "status": "candidate-context",
+      "text": "A shell-extension (property sheet) that shows info about .NET assemblies on the file properties."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "status": "candidate-context",
+      "text": "<!-- Common Project Tags:"
     }
   ],
   "candidate_glosses": [
@@ -429,6 +441,12 @@
       "source_repo": "yomidevs/yomitan",
       "status": "candidate",
       "text": "[![Get Yomitan for Chrome](<https://img.shields.io/chrome-web-store/v/likgccmbimhjbgkjambclfkhldnlhbnn?logo=Google%20Chrome&style=for-the-badge&logoColor=lightblue&color=lightblue&label=get%20yomitan%20for%20chrome%20(stable)>)](https://chrome.google.com/webstore/detail/yomitan/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
+      "status": "candidate",
+      "text": "<!-- Common Project Tags:"
     }
   ],
   "candidate_related_terms": [
@@ -2308,11 +2326,29 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": null,
       "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mine from pdfs created with Mokuro2Pdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "memrise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "incremental reading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "brainscape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "mnemosyne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "flashcard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anki",
+      "sense_id": "anki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "anki",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anki",
+  "observation_id": "6c35209ec07b3e14",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "anki",
+  "source_context_snippet": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)",
+  "source_file": null,
+  "source_repo": "Kartoffel0/Memo2Anki",
+  "source_repo_description": "Mine from pdfs created with Mokuro2Pdf"
+}

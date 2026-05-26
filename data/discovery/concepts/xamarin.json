@@ -67,6 +67,18 @@
       "source_repo": "reactiveui/ReactiveUI",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono open source ECMA CLI, C# and .NET implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "reactiveui/ReactiveUI",
       "status": "candidate",
       "text": "[![Build](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml/badge.svg)](https://github.com/reactiveui/ReactiveUI/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "reactiveui/ReactiveUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "mono/mono"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

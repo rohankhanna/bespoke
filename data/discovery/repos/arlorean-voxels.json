@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Arlorean/Voxels",
+      "target": "ephtracy/voxel-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Arlorean/Voxels",
+      "target": "mono/skiasharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "magicavoxel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "shell-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "skia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "skiasharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "thumbnails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "voxel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlorean/Voxels",
+      "target": "voxels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:13.668564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Voxel Windows Explorer Thumbnails",
+    "fork": false,
+    "full_name": "Arlorean/Voxels",
+    "html_url": "https://github.com/Arlorean/Voxels",
+    "language": "C#",
+    "pushed_at": "2023-08-31T19:10:48Z",
+    "stargazers_count": 85,
+    "topics": [
+      "magicavoxel",
+      "shell-extension",
+      "skia",
+      "skiasharp",
+      "thumbnails",
+      "vox",
+      "voxel",
+      "voxels"
+    ],
+    "updated_at": "2026-02-21T12:17:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ephtracy/voxel-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mono/skiasharp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magicavoxel"
+    },
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-extension"
+    },
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skia"
+    },
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skiasharp"
+    },
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thumbnails"
+    },
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxel"
+    },
+    {
+      "context_snippet": "The [Voxels.Setup.exe](https://github.com/Arlorean/Voxels/releases/latest) provides Windows Explorer Thumbnails for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxels"
+    }
+  ]
+}

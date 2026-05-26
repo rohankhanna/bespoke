@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AiNiee Beta Build."
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NEKOparapa/AiNiee",
+      "status": "candidate-context",
+      "text": "\u4e00\u6b3e\u4e13\u6ce8\u4e8eAi\u7ffb\u8bd1\u7684\u5de5\u5177\uff0c\u4e00\u952e\u81ea\u52a8\u7ffb\u8bd1RPG SLG\u6e38\u620f\uff0cEpub TXT\u5c0f\u8bf4\uff0cPDF Word MD\u6587\u6863\uff0cSrt Vtt Lrc\u5b57\u5e55\u7b49\u7b49\u590d\u6742\u957f\u6587\u672c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEKOparapa/AiNiee",
+      "status": "candidate-context",
+      "text": "AiNiee Beta Build."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NEKOparapa/AiNiee",
+      "status": "candidate",
+      "text": "AiNiee Beta Build."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "carotene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "alpha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "beets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "gamma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "acebutolol"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AiNiee Beta Build.",
+  "concept_id": "ainiee-beta-build.",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEKOparapa/AiNiee"
+    }
+  ],
+  "first_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AiNiee Beta Build.",
+      "sense_id": "ainiee-beta-build.#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

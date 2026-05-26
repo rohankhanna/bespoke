@@ -31,6 +31,18 @@
       "source_repo": "arl/statsviz",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono open source ECMA CLI, C# and .NET implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate-context",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "arl/statsviz",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mono/mono",
+      "status": "candidate",
+      "text": "Mono is a software platform designed to allow developers to easily"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "arl/statsviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": null,
+      "source_repo": "mono/mono"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

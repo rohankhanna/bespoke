@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Template Testing Result Upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Template Testing Result Upload"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34981,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34981,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34838,
+      "status": "candidate",
+      "text": "calk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34838,
+      "status": "candidate",
+      "text": "gatekeeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34792,
+      "status": "candidate",
+      "text": "teach"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template Testing Result Upload",
+      "sense_id": "template-testing-result-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "template-testing-result-upload",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "template-testing-result-upload",
+  "observation_id": "f4c6d8fe801dc115",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "Template Testing Result Upload",
+  "source_context_snippet": "Template Testing Result Upload",
+  "source_file": ".github/workflows/test-result-upload.yml",
+  "source_repo": "pardeike/Harmony",
+  "source_repo_description": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+}

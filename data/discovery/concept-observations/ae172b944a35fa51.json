@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "External dictionary importer for Yomichan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Note: this project is no longer maintained. Please see [this"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Note: this project is no longer maintained. Please see [this"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yomichan",
+      "sense_id": "yomichan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yomichan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yomichan",
+  "observation_id": "ae172b944a35fa51",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-26T07:24:03.857926+00:00",
+  "observed_text": "yomichan",
+  "source_context_snippet": "*Note: this project is no longer maintained. Please see [this",
+  "source_file": null,
+  "source_repo": "FooSoft/yomichan-import",
+  "source_repo_description": "External dictionary importer for Yomichan."
+}

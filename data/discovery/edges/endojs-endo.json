@@ -165,13 +165,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "endojs/endo",
-      "target": "lerna",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "endojs/endo",
       "target": "prettier",
       "target_type": "component"
     },
@@ -533,6 +526,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-25T18:41:09.248128+00:00",
+  "generated_at": "2026-05-26T07:24:03.857926+00:00",
   "source_repo": "endojs/endo"
 }

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "anki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "japanese-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kartoffel0/Memo2Anki",
+      "target": "kindle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:27.864755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mine from pdfs created with Mokuro2Pdf",
+    "fork": false,
+    "full_name": "Kartoffel0/Memo2Anki",
+    "html_url": "https://github.com/Kartoffel0/Memo2Anki",
+    "language": "Python",
+    "pushed_at": "2024-12-13T23:46:28Z",
+    "stargazers_count": 10,
+    "topics": [
+      "anki",
+      "japanese",
+      "japanese-learning",
+      "kindle"
+    ],
+    "updated_at": "2025-06-17T01:04:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anki"
+    },
+    {
+      "context_snippet": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese-learning"
+    },
+    {
+      "context_snippet": "Mine from pdfs created with [Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kindle"
+    }
+  ]
+}

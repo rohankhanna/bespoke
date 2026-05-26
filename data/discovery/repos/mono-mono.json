@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/mono",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/mono",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "mono/mono",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/mono",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/mono",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/mono",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/mono",
+      "target": "garbage-collector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/mono",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mono/mono",
+      "target": "xamarin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:42.885338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22479
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 3252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mono open source ECMA CLI, C# and .NET implementation.",
+    "fork": false,
+    "full_name": "mono/mono",
+    "html_url": "https://github.com/mono/mono",
+    "language": "C#",
+    "pushed_at": "2024-08-27T16:49:28Z",
+    "stargazers_count": 11442,
+    "topics": [
+      "android",
+      "csharp",
+      "dotnet",
+      "garbage-collector",
+      "ios",
+      "jit",
+      "runtime",
+      "xamarin"
+    ],
+    "updated_at": "2026-05-25T21:11:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "Mono is a software platform designed to allow developers to easily",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Mono is a software platform designed to allow developers to easily",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "Mono is a software platform designed to allow developers to easily",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "Mono is a software platform designed to allow developers to easily",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "garbage-collector"
+    },
+    {
+      "context_snippet": "Mono is a software platform designed to allow developers to easily",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "Mono is a software platform designed to allow developers to easily",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin"
+    }
+  ]
+}

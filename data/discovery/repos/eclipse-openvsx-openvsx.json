@@ -553,7 +553,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T20:09:58.692644+00:00",
+  "fetched_at": "2026-05-26T07:32:14.388380+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -605,7 +605,7 @@
     "full_name": "eclipse-openvsx/openvsx",
     "html_url": "https://github.com/eclipse-openvsx/openvsx",
     "language": "Java",
-    "pushed_at": "2026-05-24T20:46:04Z",
+    "pushed_at": "2026-05-26T07:22:24Z",
     "stargazers_count": 1950,
     "topics": [
       "extension",
@@ -614,7 +614,7 @@
       "theia",
       "vscode"
     ],
-    "updated_at": "2026-05-25T05:11:52Z"
+    "updated_at": "2026-05-26T07:22:31Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GalTransl/GalTransl",
+      "target": "morkt/garbro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GalTransl/GalTransl",
+      "target": "arcusmaximus/kirikiritools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GalTransl/GalTransl",
+      "target": "atomcrafty/universalinjectorframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GalTransl/GalTransl",
+      "target": "lifegpc/msg-tool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GalTransl/GalTransl",
+      "target": "galgame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GalTransl/GalTransl",
+      "target": "translater",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:12.063248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16566
+    },
+    {
+      "path": "requirements.txt",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u652f\u6301GPT-4/Claude/Deepseek/Sakura\u7b49\u5927\u8bed\u8a00\u6a21\u578b\u7684Galgame\u81ea\u52a8\u5316\u7ffb\u8bd1\u89e3\u51b3\u65b9\u6848  Automated translation solution for visual novels supporting GPT-4/Claude/Deepseek/Sakura",
+    "fork": false,
+    "full_name": "GalTransl/GalTransl",
+    "html_url": "https://github.com/GalTransl/GalTransl",
+    "language": "Python",
+    "pushed_at": "2026-05-23T00:33:08Z",
+    "stargazers_count": 2109,
+    "topics": [
+      "ai",
+      "galgame",
+      "translater"
+    ],
+    "updated_at": "2026-05-25T08:42:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcusmaximus/kirikiritools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomcrafty/universalinjectorframework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifegpc/msg-tool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "morkt/garbro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "galgame"
+    },
+    {
+      "context_snippet": "<div align=center><img width=\"150\" height=\"150\" src=\"./img/logo.png\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translater"
+    }
+  ]
+}

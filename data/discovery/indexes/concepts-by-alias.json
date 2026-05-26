@@ -2400,6 +2400,9 @@
   "aimo": [
     "aimo"
   ],
+  "ainiee beta build.": [
+    "ainiee-beta-build."
+  ],
   "aiocqhttp": [
     "aiocqhttp"
   ],
@@ -9905,6 +9908,9 @@
   "bootstrap5-template": [
     "bootstrap5-template"
   ],
+  "bootstrapper": [
+    "bootstrapper"
+  ],
   "bootstrapping": [
     "bootstrapping"
   ],
@@ -16363,6 +16369,9 @@
   ],
   "change": [
     "change"
+  ],
+  "change detection": [
+    "change-detection"
   ],
   "change log check": [
     "change-log-check"
@@ -30461,6 +30470,12 @@
   "determinism check": [
     "determinism-check"
   ],
+  "detour": [
+    "detour"
+  ],
+  "detours": [
+    "detours"
+  ],
   "detox": [
     "detox"
   ],
@@ -34249,6 +34264,9 @@
   "edgetpu": [
     "edgetpu"
   ],
+  "edict": [
+    "edict"
+  ],
   "edit": [
     "edit"
   ],
@@ -34989,6 +35007,9 @@
   "enable auto-merge for dependabot prs": [
     "enable-auto-merge-for-dependabot-prs"
   ],
+  "enamdict": [
+    "enamdict"
+  ],
   "encapsulation": [
     "encapsulation"
   ],
@@ -35424,6 +35445,9 @@
   ],
   "epub": [
     "epub"
+  ],
+  "epwing": [
+    "epwing"
   ],
   "equality": [
     "equality"
@@ -37527,6 +37551,9 @@
   ],
   "file-preview": [
     "file-preview"
+  ],
+  "file-properties": [
+    "file-properties"
   ],
   "file-reading": [
     "file-reading"
@@ -55514,6 +55541,9 @@
   "magic-numbers": [
     "magic-numbers"
   ],
+  "magicavoxel": [
+    "magicavoxel"
+  ],
   "magick": [
     "magick"
   ],
@@ -59046,6 +59076,9 @@
   "monkey-c": [
     "monkey-c"
   ],
+  "monkey-patching": [
+    "monkey-patching"
+  ],
   "mono": [
     "mono"
   ],
@@ -61039,6 +61072,9 @@
   "netframework": [
     "netframework"
   ],
+  "netframework48": [
+    "netframework48"
+  ],
   "netgen": [
     "netgen"
   ],
@@ -62392,6 +62428,9 @@
   ],
   "non-core distribution tests": [
     "non-core-distribution-tests"
+  ],
+  "non-destructive": [
+    "non-destructive"
   ],
   "non-local": [
     "non-local"
@@ -82118,6 +82157,9 @@
   "sharpness": [
     "sharpness"
   ],
+  "sharpshell": [
+    "sharpshell"
+  ],
   "shavian": [
     "shavian"
   ],
@@ -82138,6 +82180,9 @@
   ],
   "shell-extension": [
     "shell-extension"
+  ],
+  "shell-extensions": [
+    "shell-extensions"
   ],
   "shell-prompt": [
     "shell-prompt"
@@ -82162,6 +82207,9 @@
   ],
   "shellcode": [
     "shellcode"
+  ],
+  "shellex": [
+    "shellex"
   ],
   "shellscript": [
     "shellscript"
@@ -82790,6 +82838,9 @@
   ],
   "skia": [
     "skia"
+  ],
+  "skiasharp": [
+    "skiasharp"
   ],
   "skill": [
     "skill"
@@ -88238,6 +88289,27 @@
   "template sync": [
     "template-sync"
   ],
+  "template testing build": [
+    "template-testing-build"
+  ],
+  "template testing qemu mono": [
+    "template-testing-qemu-mono"
+  ],
+  "template testing result upload": [
+    "template-testing-result-upload"
+  ],
+  "template testing unix .net": [
+    "template-testing-unix-.net"
+  ],
+  "template testing unix mono": [
+    "template-testing-unix-mono"
+  ],
+  "template testing windows .net": [
+    "template-testing-windows-.net"
+  ],
+  "template testing windows .net framework": [
+    "template-testing-windows-.net-framework"
+  ],
   "template update": [
     "template-update"
   ],
@@ -92061,6 +92133,9 @@
   ],
   "translate-video": [
     "translate-video"
+  ],
+  "translater": [
+    "translater"
   ],
   "translation": [
     "translation"
@@ -97949,6 +98024,9 @@
   "voxceleb2": [
     "voxceleb2"
   ],
+  "voxel": [
+    "voxel"
+  ],
   "voxel-proceessing": [
     "voxel-proceessing"
   ],
@@ -97957,6 +98035,9 @@
   ],
   "voxelnet": [
     "voxelnet"
+  ],
+  "voxels": [
+    "voxels"
   ],
   "voyage": [
     "voyage"
@@ -100010,6 +100091,12 @@
   ],
   "windows-service-wrapper": [
     "windows-service-wrapper"
+  ],
+  "windows-shell": [
+    "windows-shell"
+  ],
+  "windows-shell-extension": [
+    "windows-shell-extension"
   ],
   "windows-software": [
     "windows-software"

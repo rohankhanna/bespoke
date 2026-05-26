@@ -734,7 +734,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-25T20:15:47.737721+00:00",
+  "fetched_at": "2026-05-26T07:37:45.741148+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -787,14 +787,14 @@
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
     "pushed_at": "2026-05-25T18:00:23Z",
-    "stargazers_count": 71602,
+    "stargazers_count": 71601,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-25T17:42:20Z"
+    "updated_at": "2026-05-26T07:29:30Z"
   },
   "repo_links": [
     {

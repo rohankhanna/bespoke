@@ -1,7 +1,7 @@
 {
   "component": "write",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1437,6 +1437,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fork-e2e.yaml",
       "source_repo": "kelos-dev/kelos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "neavo/KeywordGacha"
     }
   ]
 }

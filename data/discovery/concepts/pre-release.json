@@ -237,6 +237,18 @@
       "source_repo": "windicss/windicss-intellisense",
       "status": "candidate-context",
       "text": "Pre-Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "A simple, correct Python build frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "Pre-release"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +365,12 @@
       "source_repo": "windicss/windicss-intellisense",
       "status": "candidate",
       "text": "Pre-Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate",
+      "text": "Pre-release"
     }
   ],
   "candidate_related_terms": [
@@ -1704,11 +1722,17 @@
       "observed_at": "2026-05-26T00:44:06.917625+00:00",
       "source_file": ".github/workflows/prerelease.yml",
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "pypa/build"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T00:44:06.917625+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

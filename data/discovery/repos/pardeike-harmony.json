@@ -1,0 +1,553 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-dotnet.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-mono.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-mono.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-result-upload.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-result-upload.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-result-upload.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unix-dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unix-mono.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unix-mono.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-framework.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-framework.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Build and Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "uraimo/run-on-arch-action@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-qemu-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Unix .NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-mono.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qemu-mono.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "uraimo/run-on-arch-action@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-qemu-mono.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Qemu Mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-result-upload.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-result-upload.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-result-upload.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-result-upload.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Result Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unix-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unix-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Unix .NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unix-mono.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-unix-mono.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unix-mono.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Unix Mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows-dotnet.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Windows .NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-framework.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-framework.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows-framework.yml",
+      "source_repo": "pardeike/Harmony",
+      "target": "Template Testing Windows .NET Framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "detour",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "detours",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "monkey-patching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "non-destructive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "patcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pardeike/Harmony",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:36.494314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4802
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 1941
+    },
+    {
+      "path": ".github/workflows/test-qemu-dotnet.yml",
+      "size": 3507
+    },
+    {
+      "path": ".github/workflows/test-qemu-mono.yml",
+      "size": 3250
+    },
+    {
+      "path": ".github/workflows/test-result-upload.yml",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/test-unix-dotnet.yml",
+      "size": 3659
+    },
+    {
+      "path": ".github/workflows/test-unix-mono.yml",
+      "size": 3507
+    },
+    {
+      "path": ".github/workflows/test-windows-dotnet.yml",
+      "size": 2768
+    },
+    {
+      "path": ".github/workflows/test-windows-framework.yml",
+      "size": 2575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library for patching, replacing and decorating .NET and Mono methods during runtime",
+    "fork": false,
+    "full_name": "pardeike/Harmony",
+    "html_url": "https://github.com/pardeike/Harmony",
+    "language": "C#",
+    "pushed_at": "2026-03-20T23:10:23Z",
+    "stargazers_count": 6487,
+    "topics": [
+      "cil",
+      "csharp",
+      "detour",
+      "detours",
+      "dotnet",
+      "monkey-patching",
+      "mono",
+      "non-destructive",
+      "patcher",
+      "runtime",
+      "unity"
+    ],
+    "updated_at": "2026-05-26T00:27:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and Deploy Documentation"
+    },
+    {
+      "context_snippet": "Template Testing Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "Template Testing Build"
+    },
+    {
+      "context_snippet": "Template Testing Unix .NET",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-qemu-dotnet.yml",
+      "term": "Template Testing Unix .NET"
+    },
+    {
+      "context_snippet": "Template Testing Qemu Mono",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-qemu-mono.yml",
+      "term": "Template Testing Qemu Mono"
+    },
+    {
+      "context_snippet": "Template Testing Result Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-result-upload.yml",
+      "term": "Template Testing Result Upload"
+    },
+    {
+      "context_snippet": "Template Testing Unix .NET",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unix-dotnet.yml",
+      "term": "Template Testing Unix .NET"
+    },
+    {
+      "context_snippet": "Template Testing Unix Mono",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-unix-mono.yml",
+      "term": "Template Testing Unix Mono"
+    },
+    {
+      "context_snippet": "Template Testing Windows .NET",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows-dotnet.yml",
+      "term": "Template Testing Windows .NET"
+    },
+    {
+      "context_snippet": "Template Testing Windows .NET Framework",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-windows-framework.yml",
+      "term": "Template Testing Windows .NET Framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detour"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detours"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monkey-patching"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mono"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-destructive"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patcher"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

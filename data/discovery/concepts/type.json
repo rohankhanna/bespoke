@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +93,18 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "A simple, correct Python build frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate-context",
+      "text": "type"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +149,12 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/build",
+      "status": "candidate",
+      "text": "type"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +276,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "stdlib-js/ndarray-dtype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/reusable-type.yml",
+      "source_repo": "pypa/build"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

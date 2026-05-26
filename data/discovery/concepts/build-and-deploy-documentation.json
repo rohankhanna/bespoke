@@ -104,6 +104,18 @@
       "source_repo": "helix-toolkit/helix-toolkit-nex",
       "status": "candidate-context",
       "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "A library for patching, replacing and decorating .NET and Mono methods during runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
+      "status": "candidate-context",
+      "text": "Build and Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "status": "candidate",
+      "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pardeike/Harmony",
       "status": "candidate",
       "text": "Build and Deploy Documentation"
     }
@@ -245,11 +263,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "helix-toolkit/helix-toolkit-nex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-26T07:24:03.857926+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pardeike/Harmony"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-26T07:24:03.857926+00:00",
   "lexical_providers": [
     "datamuse"
   ],

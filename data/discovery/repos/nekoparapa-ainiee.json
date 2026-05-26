@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "nekoparapa/ainiee-chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "nekoparapa/readreamai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "shadowloveelysia/ainiee-next",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "pidanshourouzhouxd/sakura_launcher_gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "NEKOparapa/AiNiee",
+      "target": "AiNiee Beta Build.",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-26T07:29:09.824820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6911
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 5135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e00\u6b3e\u4e13\u6ce8\u4e8eAi\u7ffb\u8bd1\u7684\u5de5\u5177\uff0c\u4e00\u952e\u81ea\u52a8\u7ffb\u8bd1RPG SLG\u6e38\u620f\uff0cEpub TXT\u5c0f\u8bf4\uff0cPDF Word MD\u6587\u6863\uff0cSrt Vtt Lrc\u5b57\u5e55\u7b49\u7b49\u590d\u6742\u957f\u6587\u672c\u3002",
+    "fork": false,
+    "full_name": "NEKOparapa/AiNiee",
+    "html_url": "https://github.com/NEKOparapa/AiNiee",
+    "language": "Python",
+    "pushed_at": "2026-05-25T08:10:53Z",
+    "stargazers_count": 5726,
+    "topics": [],
+    "updated_at": "2026-05-26T05:55:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nekoparapa/ainiee-chatgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nekoparapa/readreamai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pidanshourouzhouxd/sakura_launcher_gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadowloveelysia/ainiee-next",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AiNiee Beta Build.",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "AiNiee Beta Build."
+    }
+  ]
+}
