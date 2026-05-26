@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 71
-- terms: 742
+- terms: 740
 - components: 957
 - concepts: 748
 - observations: 750
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11192 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11192 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 5 | 14 | 7 | 7 |
 | [dotnet/AspNetCore.Docs](https://github.com/dotnet/AspNetCore.Docs) | 13084 | 2026-05-05T17:50:42Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 10 |
 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 37890 | 2026-05-05T14:50:54Z | Other | Infrastructure/tooling | 9 | 22 | 9 | 9 |
 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10373 | 2026-05-04T12:06:32Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
@@ -163,7 +163,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autowarefoundation/autoware](https://github.com/autowarefoundation/autoware) | 11459 | 2026-04-30T14:15:52Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [Heapy/awesome-kotlin](https://github.com/Heapy/awesome-kotlin) | 11360 | 2026-05-01T03:11:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [IBM/plex](https://github.com/IBM/plex) | 11339 | 2026-04-29T16:05:54Z | Other | Infrastructure/tooling | 4 | 31 | 4 | 4 |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11192 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11192 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 5 | 14 | 7 | 7 |
 | [aws/amazon-sagemaker-examples](https://github.com/aws/amazon-sagemaker-examples) | 10912 | 2026-04-27T22:55:44Z | Other | Model/data | 10 | 0 | 10 | 10 |
 | [bitcoin/bips](https://github.com/bitcoin/bips) | 10744 | 2026-04-27T15:01:58Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mdn/content](https://github.com/mdn/content) | 10729 | 2026-05-01T09:53:19Z | Other | Infrastructure/tooling | 12 | 38 | 12 | 12 |

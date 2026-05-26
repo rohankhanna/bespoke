@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7688,
-    "concepts": 3632,
-    "observations": 3647,
+    "components": 7769,
+    "concepts": 3642,
+    "observations": 3657,
     "repos": 935,
-    "terms": 3689
+    "terms": 3699
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -324,7 +324,6 @@
     "dart-lang/i18n",
     "dart-lang/site-shared",
     "dart4e/dart4e",
-    "databrickslabs/pylint-plugin",
     "datachainlab/lcp",
     "DataDog/opentelemetry-demo",
     "datafusion-contrib/datafusion-orc",
@@ -541,7 +540,6 @@
     "iterate-ch/profiles",
     "iterate-ch/rococoa",
     "itsrishika/payment-bypass-bug-lab",
-    "Jack-Works/react-refresh-transformer",
     "jaegertracing/documentation",
     "jakoch/install-vulkan-sdk-action",
     "jakoch/rasterizers",
@@ -730,8 +728,10 @@
     "ocaml/platform-blog",
     "oceanbase/docker-images",
     "oclif/oclif.github.io",
+    "oclif/plugin-autocomplete",
     "oclif/plugin-help",
     "oclif/plugin-plugins",
+    "oclif/plugin-update",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 8,
-    "terms": 33
+    "components": 42,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 9,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
     "clj-commons/rewrite-clj",
@@ -21,6 +21,7 @@
     "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
     "Kotlin/kotlinx-benchmark",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "rescript-lang/reanalyze"
   ]
 }

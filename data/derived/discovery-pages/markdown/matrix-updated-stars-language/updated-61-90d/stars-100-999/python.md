@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 116
-- terms: 486
-- components: 307
-- concepts: 492
-- observations: 493
+- repos: 119
+- terms: 491
+- components: 319
+- concepts: 495
+- observations: 496
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
 | [microsoft/XPretrain](https://github.com/microsoft/XPretrain) | 511 | 2026-03-27T05:46:44Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [OSGeo/PROJ-data](https://github.com/OSGeo/PROJ-data) | 109 | 2026-03-26T23:02:17Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [facebookincubator/ptr](https://github.com/facebookincubator/ptr) | 280 | 2026-03-26T21:35:50Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LAION-AI/CLIP_benchmark](https://github.com/LAION-AI/CLIP_benchmark) | 813 | 2026-03-19T08:39:31Z | Python | CLI | 2 | 4 | 2 | 2 |
 | [melMass/comfy_mtb](https://github.com/melMass/comfy_mtb) | 700 | 2026-03-19T07:39:38Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [xlite-dev/Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference) | 554 | 2026-03-19T03:00:14Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [neavo/KeywordGacha](https://github.com/neavo/KeywordGacha) | 877 | 2026-03-18T17:26:57Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [Advocate99/DiffGesture](https://github.com/Advocate99/DiffGesture) | 262 | 2026-03-18T08:59:16Z | Python | Model/data | 6 | 0 | 6 | 6 |
 | [lartpang/PySODMetrics](https://github.com/lartpang/PySODMetrics) | 443 | 2026-03-18T08:58:37Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [lessw2020/Ranger21](https://github.com/lessw2020/Ranger21) | 342 | 2026-03-17T21:42:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -67,6 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hukkin/mdformat](https://github.com/hukkin/mdformat) | 762 | 2026-03-16T17:40:26Z | Python | CLI | 6 | 3 | 7 | 7 |
 | [aigc3d/LHM-plusplus](https://github.com/aigc3d/LHM-plusplus) | 611 | 2026-03-16T15:30:42Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [sarugaku/resolvelib](https://github.com/sarugaku/resolvelib) | 164 | 2026-03-16T09:38:24Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [simonflueckiger/tesserocr-windows_build](https://github.com/simonflueckiger/tesserocr-windows_build) | 219 | 2026-03-16T01:18:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [csslc/PiSA-SR](https://github.com/csslc/PiSA-SR) | 327 | 2026-03-15T15:13:36Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [WujiangXu/A-mem-sys](https://github.com/WujiangXu/A-mem-sys) | 330 | 2026-03-15T14:13:39Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gmberton/deep-visual-geo-localization-benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark) | 252 | 2026-03-15T09:50:51Z | Python | Unknown | 12 | 0 | 12 | 12 |
@@ -158,6 +161,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [shibing624/similarities](https://github.com/shibing624/similarities) | 902 | 2026-03-05T09:05:43Z | Python | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [dask/fastparquet](https://github.com/dask/fastparquet) | 897 | 2026-03-16T20:34:26Z | Python | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [WujiangXu/A-mem](https://github.com/WujiangXu/A-mem) | 892 | 2026-03-05T11:44:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [neavo/KeywordGacha](https://github.com/neavo/KeywordGacha) | 877 | 2026-03-18T17:26:57Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [alibaba/TinyNeuralNetwork](https://github.com/alibaba/TinyNeuralNetwork) | 877 | 2026-03-03T08:02:36Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [NM512/dreamerv3-torch](https://github.com/NM512/dreamerv3-torch) | 840 | 2026-03-08T04:31:21Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [angr/angrop](https://github.com/angr/angrop) | 823 | 2026-03-06T07:21:52Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -238,10 +242,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | 253 | 2026-03-23T22:26:04Z | Python | Model/data | 8 | 15 | 8 | 8 |
 | [gmberton/deep-visual-geo-localization-benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark) | 252 | 2026-03-15T09:50:51Z | Python | Unknown | 12 | 0 | 12 | 12 |
 | [voxel51/fiftyone-examples](https://github.com/voxel51/fiftyone-examples) | 234 | 2026-03-23T22:24:14Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [simonflueckiger/tesserocr-windows_build](https://github.com/simonflueckiger/tesserocr-windows_build) | 219 | 2026-03-16T01:18:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [magic-wormhole/magic-wormhole-transit-relay](https://github.com/magic-wormhole/magic-wormhole-transit-relay) | 206 | 2026-03-02T20:00:58Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Chris-hughes10/pytorch-accelerated](https://github.com/Chris-hughes10/pytorch-accelerated) | 192 | 2026-02-27T08:22:10Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [TexasInstruments/edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) | 186 | 2026-03-17T09:22:00Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [yanring/Megatron-MoE-ModelZoo](https://github.com/yanring/Megatron-MoE-ModelZoo) | 185 | 2026-03-17T17:12:53Z | Python | Model/data | 3 | 0 | 3 | 3 |
+| [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
 | [objectbox/objectbox-python](https://github.com/objectbox/objectbox-python) | 182 | 2026-03-22T08:25:02Z | Python | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) | 181 | 2026-02-27T14:42:40Z | Python | CLI | 2 | 9 | 0 | 0 |
 | [gmberton/VPR-datasets-downloader](https://github.com/gmberton/VPR-datasets-downloader) | 172 | 2026-03-15T09:34:29Z | Python | Model/data | 7 | 0 | 7 | 7 |

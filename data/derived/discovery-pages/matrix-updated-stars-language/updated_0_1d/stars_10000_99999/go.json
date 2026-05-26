@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 4,
-    "terms": 63
+    "components": 80,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 5,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
+    "gastownhall/gastown",
     "moby/moby",
     "mudler/LocalAI",
     "QuantumNous/new-api",

@@ -3,15 +3,15 @@
     "components": 10490,
     "concepts": 9028,
     "observations": 9037,
-    "repos": 2340,
-    "terms": 8901
+    "repos": 2341,
+    "terms": 8899
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -2041,6 +2041,7 @@
     "tenable/terrascan",
     "tencent-ailab/IP-Adapter",
     "Tencent-Hunyuan/HunyuanCustom",
+    "Tencent-Hunyuan/HunyuanDiT",
     "Tencent/MimicMotion",
     "Tencent/TNN",
     "TencentARC/SEED-Voken",

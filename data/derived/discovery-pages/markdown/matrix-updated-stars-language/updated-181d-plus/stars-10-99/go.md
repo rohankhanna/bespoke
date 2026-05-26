@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 168
-- terms: 436
+- repos: 169
+- terms: 442
 - components: 428
-- concepts: 440
-- observations: 443
+- concepts: 446
+- observations: 449
 
 ## Static behavior
 
@@ -154,6 +154,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [darkweak/go-esi](https://github.com/darkweak/go-esi) | 26 | 2023-03-23T09:12:23Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [opentracing/basictracer-go](https://github.com/opentracing/basictracer-go) | 81 | 2023-03-06T16:09:22Z | Go | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [go-logr/zerologr](https://github.com/go-logr/zerologr) | 43 | 2023-03-03T11:17:21Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [FooSoft/yomichan-import](https://github.com/FooSoft/yomichan-import) | 87 | 2023-02-25T20:43:05Z | Go | Unknown | 6 | 0 | 6 | 6 |
 | [imkira/go-loggers-bench](https://github.com/imkira/go-loggers-bench) | 53 | 2023-02-25T11:07:47Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [filhodanuvem/polyglot](https://github.com/filhodanuvem/polyglot) | 68 | 2023-02-25T09:10:39Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [olric-data/olric-cloud-plugin](https://github.com/olric-data/olric-cloud-plugin) | 10 | 2023-02-25T06:44:38Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -205,6 +206,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ysmood/leakless](https://github.com/ysmood/leakless) | 92 | 2024-07-29T01:50:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [argoproj-labs/argocd-interlace](https://github.com/argoproj-labs/argocd-interlace) | 92 | 2022-11-04T07:55:32Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [jpoles1/gopherbadger](https://github.com/jpoles1/gopherbadger) | 88 | 2021-08-19T13:52:04Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [FooSoft/yomichan-import](https://github.com/FooSoft/yomichan-import) | 87 | 2023-02-25T20:43:05Z | Go | Unknown | 6 | 0 | 6 | 6 |
 | [alexkohler/nargs](https://github.com/alexkohler/nargs) | 86 | 2025-05-15T17:55:49Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [adalkiran/distributed-inference](https://github.com/adalkiran/distributed-inference) | 85 | 2024-09-18T13:26:34Z | Go | Unknown | 17 | 0 | 17 | 17 |
 | [filecoin-project/specs-actors](https://github.com/filecoin-project/specs-actors) | 85 | 2023-06-06T14:46:57Z | Go | Unknown | 0 | 0 | 0 | 0 |

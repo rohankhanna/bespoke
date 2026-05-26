@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 579,
-    "concepts": 247,
-    "observations": 248,
-    "repos": 20,
-    "terms": 241
+    "components": 531,
+    "concepts": 243,
+    "observations": 244,
+    "repos": 19,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
-    "ajv-validator/ajv",
     "apache/casbin",
     "atuinsh/atuin",
     "browserslist/browserslist",

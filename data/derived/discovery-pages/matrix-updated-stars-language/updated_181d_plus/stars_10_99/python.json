@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 700,
-    "concepts": 1491,
-    "observations": 1493,
-    "repos": 852,
-    "terms": 1470
+    "concepts": 1495,
+    "observations": 1497,
+    "repos": 853,
+    "terms": 1473
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -517,6 +517,7 @@
     "kakaobrain/coyo-vit",
     "kamalkraj/Swin-Transformer-Serve",
     "kandinskylab/kandinsky-5-lora-train",
+    "Kartoffel0/Memo2Anki",
     "kaste/SublimeLinter-any-lsp",
     "katerinakazantseva/strainy",
     "keksiqc/ctrld-sync",

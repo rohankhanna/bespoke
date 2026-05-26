@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 7,
+    "components": 2,
     "concepts": 7,
     "observations": 7,
     "repos": 1,
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
-    "karafka/example-apps"
+    "ocaml-tracing/ocaml-opentelemetry"
   ]
 }

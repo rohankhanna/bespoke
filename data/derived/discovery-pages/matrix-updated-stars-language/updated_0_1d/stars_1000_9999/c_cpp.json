@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 5,
-    "terms": 45
+    "components": 39,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 4,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "CloudCompare/CloudCompare",
     "harfbuzz/harfbuzz",
     "KhronosGroup/KTX-Software",
-    "libbitcoin/libbitcoin-system",
     "TrenchBroom/TrenchBroom"
   ]
 }

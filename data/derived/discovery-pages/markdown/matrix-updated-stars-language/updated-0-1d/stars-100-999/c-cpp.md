@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 13
-- components: 0
-- concepts: 13
-- observations: 13
+- repos: 3
+- terms: 20
+- components: 5
+- concepts: 20
+- observations: 20
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 209 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T16:35:53Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T15:24:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 
@@ -35,3 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T16:35:53Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T15:24:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 209 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |

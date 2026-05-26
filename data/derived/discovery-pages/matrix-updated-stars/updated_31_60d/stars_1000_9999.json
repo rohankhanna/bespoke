@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 19955,
-    "concepts": 11922,
-    "observations": 11969,
-    "repos": 1689,
-    "terms": 12019
+    "components": 20026,
+    "concepts": 11946,
+    "observations": 11993,
+    "repos": 1693,
+    "terms": 12040
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -1017,6 +1017,7 @@
     "medialab/xan",
     "meituan-longcat/LongCat-Flash-Chat",
     "meituan-longcat/LongCat-Video",
+    "messageformat/messageformat",
     "meta-pytorch/attention-gym",
     "metosin/reitit",
     "mfontanini/presenterm",
@@ -1466,6 +1467,7 @@
     "sharkdp/pastel",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
+    "shenweichen/GraphEmbedding",
     "shuaibiyy/awesome-tf",
     "sierra-research/tau2-bench",
     "sigp/lighthouse",
@@ -1487,6 +1489,7 @@
     "snapview/tungstenite-rs",
     "sneako/finch",
     "socketry/async",
+    "solidjs/solid-router",
     "solidjs/solid-start",
     "soot-oss/soot",
     "soramimi/guitar",
@@ -1603,6 +1606,7 @@
     "trishume/syntect",
     "troxler/awesome-css-frameworks",
     "trzsz/trzsz-go",
+    "trzsz/trzsz-ssh",
     "tsujan/Kvantum",
     "TuGraph-family/tugraph-db",
     "tw-in-js/twind",

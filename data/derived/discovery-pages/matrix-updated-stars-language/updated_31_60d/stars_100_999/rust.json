@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1146,
-    "concepts": 808,
-    "observations": 817,
-    "repos": 159,
-    "terms": 811
+    "components": 1154,
+    "concepts": 814,
+    "observations": 823,
+    "repos": 160,
+    "terms": 817
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -66,6 +66,7 @@
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "eigenwallet/core",
+    "eitsupi/arf",
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
     "esp-rs/esp-idf-hal",

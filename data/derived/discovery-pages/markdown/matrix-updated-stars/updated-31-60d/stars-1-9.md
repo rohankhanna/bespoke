@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 424
-- terms: 1435
-- components: 3177
-- concepts: 1407
-- observations: 1408
+- terms: 1441
+- components: 3212
+- concepts: 1413
+- observations: 1414
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [oclif/plugin-search](https://github.com/oclif/plugin-search) | 4 | 2026-04-26T07:11:23Z | TypeScript | Infrastructure/tooling | 7 | 36 | 7 | 7 |
+| [HKUDS/.github](https://github.com/HKUDS/.github) | 5 | 2026-04-26T06:41:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tinted-theming/base16-waybar](https://github.com/tinted-theming/base16-waybar) | 2 | 2026-04-26T02:05:37Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [EspressoSystems/tide-disco](https://github.com/EspressoSystems/tide-disco) | 5 | 2026-04-26T00:47:16Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [TJC-LP/sanzaru](https://github.com/TJC-LP/sanzaru) | 5 | 2026-04-25T19:24:00Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -447,8 +449,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Homebox-Projects-Index](https://github.com/danielrosehill/Homebox-Projects-Index) | 2 | 2026-03-27T17:15:08Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Agents-Index](https://github.com/danielrosehill/Agents-Index) | 5 | 2026-03-27T17:06:41Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [objectbox/objectbox-swift-spm](https://github.com/objectbox/objectbox-swift-spm) | 6 | 2026-03-27T15:10:51Z | Other | Library | 3 | 0 | 3 | 3 |
-| [vovkos/doxyrest_b](https://github.com/vovkos/doxyrest_b) | 4 | 2026-03-27T07:29:22Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -577,6 +577,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [csm-actions/docs](https://github.com/csm-actions/docs) | 6 | 2026-04-01T07:13:46Z | Unknown | CLI | 3 | 0 | 3 | 3 |
 | [Deep-Symmetry/asciidoctor-bytefield](https://github.com/Deep-Symmetry/asciidoctor-bytefield) | 6 | 2026-03-27T20:20:03Z | JavaScript | Unknown | 4 | 2 | 4 | 4 |
 | [objectbox/objectbox-swift-spm](https://github.com/objectbox/objectbox-swift-spm) | 6 | 2026-03-27T15:10:51Z | Other | Library | 3 | 0 | 3 | 3 |
+| [HKUDS/.github](https://github.com/HKUDS/.github) | 5 | 2026-04-26T06:41:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [EspressoSystems/tide-disco](https://github.com/EspressoSystems/tide-disco) | 5 | 2026-04-26T00:47:16Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [TJC-LP/sanzaru](https://github.com/TJC-LP/sanzaru) | 5 | 2026-04-25T19:24:00Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [v-iashin/v-iashin.github.io](https://github.com/v-iashin/v-iashin.github.io) | 5 | 2026-04-25T13:52:44Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -624,7 +625,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/checkpoint-sync-health-checks](https://github.com/ethpandaops/checkpoint-sync-health-checks) | 5 | 2026-04-01T02:28:10Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [danielrosehill/Agents-Index](https://github.com/danielrosehill/Agents-Index) | 5 | 2026-03-27T17:06:41Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [oclif/plugin-search](https://github.com/oclif/plugin-search) | 4 | 2026-04-26T07:11:23Z | TypeScript | Infrastructure/tooling | 7 | 36 | 7 | 7 |
 | [huggingface/hf-csi-driver](https://github.com/huggingface/hf-csi-driver) | 4 | 2026-04-25T16:09:33Z | Go | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [flagos-ai/TransformerEngine-FL](https://github.com/flagos-ai/TransformerEngine-FL) | 4 | 2026-04-24T10:04:59Z | Python | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [conda-forge/fenics-dolfinx-feedstock](https://github.com/conda-forge/fenics-dolfinx-feedstock) | 4 | 2026-04-24T00:47:27Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -657,7 +658,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [mpizenberg/elm-test-runner](https://github.com/mpizenberg/elm-test-runner) | 4 | 2026-03-28T15:50:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vega/.github](https://github.com/vega/.github) | 4 | 2026-03-27T17:16:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [vovkos/doxyrest_b](https://github.com/vovkos/doxyrest_b) | 4 | 2026-03-27T07:29:22Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [mukel/qwen35.java](https://github.com/mukel/qwen35.java) | 3 | 2026-04-24T16:38:02Z | Java | Unknown | 9 | 0 | 9 | 9 |
 | [danielrosehill/Claude-Data-Analyst-plugin](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) | 3 | 2026-04-23T14:53:13Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [enbop/fungi-app](https://github.com/enbop/fungi-app) | 3 | 2026-04-23T14:04:05Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |

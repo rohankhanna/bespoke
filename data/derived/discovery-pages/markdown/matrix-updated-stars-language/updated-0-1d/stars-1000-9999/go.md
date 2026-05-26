@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [crc-org/crc](https://github.com/crc-org/crc) | 1383 | 2026-05-25T16:50:14Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [crc-org/crc](https://github.com/crc-org/crc) | 1383 | 2026-05-26T05:37:35Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7632 | 2026-05-25T14:11:24Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go) | 4458 | 2026-05-25T10:14:33Z | Go | CLI | 11 | 8 | 11 | 11 |
 
@@ -36,4 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | 7632 | 2026-05-25T14:11:24Z | Go | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go) | 4458 | 2026-05-25T10:14:33Z | Go | CLI | 11 | 8 | 11 | 11 |
-| [crc-org/crc](https://github.com/crc-org/crc) | 1383 | 2026-05-25T16:50:14Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [crc-org/crc](https://github.com/crc-org/crc) | 1383 | 2026-05-26T05:37:35Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |

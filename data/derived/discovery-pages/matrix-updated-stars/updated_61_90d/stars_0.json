@@ -3,7 +3,7 @@
     "components": 222,
     "concepts": 106,
     "observations": 108,
-    "repos": 67,
+    "repos": 68,
     "terms": 108
   },
   "facet_version": 1,
@@ -11,13 +11,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
     "adipalko/hatraot",
     "arckoor/botan-rs",
+    "atsushieno/homebrew-oss",
     "Bearer/homebrew-tap",
     "beurdouche/nss-gk-api",
     "bookcars/bookcars.github.io",

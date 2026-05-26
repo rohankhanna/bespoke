@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 684,
-    "concepts": 270,
-    "observations": 270,
-    "repos": 50,
-    "terms": 270
+    "components": 689,
+    "concepts": 281,
+    "observations": 281,
+    "repos": 51,
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
@@ -42,14 +42,15 @@
     "Jamorim-esss/pytest-rich",
     "Koenkk/zigbee-herdsman",
     "Kotlin/kotlinx-benchmark",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/MIDI",
+    "mingw-w64/mingw-w64",
     "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
     "nushell/reedline",
-    "OpenHands/ToM-SWE",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "python-poetry/poetry-plugin-export",

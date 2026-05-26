@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 209,
-    "concepts": 242,
-    "observations": 243,
-    "repos": 36,
-    "terms": 241
+    "concepts": 239,
+    "observations": 240,
+    "repos": 35,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "appbaseio/reactivesearch-api",
@@ -48,7 +48,6 @@
     "oceanbase/ob-operator",
     "phodal/coca",
     "proxy-wasm/proxy-wasm-go-sdk",
-    "slinso/goTemplateBenchmark",
-    "sugarme/tokenizer"
+    "slinso/goTemplateBenchmark"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55432,
-    "concepts": 35999,
-    "observations": 36107,
-    "repos": 6085,
-    "terms": 35889
+    "components": 55447,
+    "concepts": 36020,
+    "observations": 36129,
+    "repos": 6088,
+    "terms": 35899
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -2058,6 +2058,7 @@
     "gajus/slonik",
     "gakonst/ethers-rs",
     "galaxyproject/galaxy",
+    "GalTransl/GalTransl",
     "ganelson/inform",
     "GantMan/nsfw_model",
     "GanymedeNil/document.ai",
@@ -3900,6 +3901,7 @@
     "neavo/LinguaGacha",
     "necolas/idiomatic-css",
     "NeilFraser/JS-Interpreter",
+    "NEKOparapa/AiNiee",
     "Nelarius/imnodes",
     "neo4j/neo4j-python-driver",
     "NeoApplications/Neo-Backup",
@@ -4378,6 +4380,7 @@
     "paralleldrive/cuid",
     "paralleldrive/cuid2",
     "parcel-bundler/lightningcss",
+    "pardeike/Harmony",
     "ParisNeo/lollms-webui",
     "parruda/swarm",
     "patorjk/figlet.js",

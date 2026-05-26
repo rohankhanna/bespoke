@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Other
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 1
 - terms: 7
-- components: 7
+- components: 2
 - concepts: 7
 - observations: 7
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-25T03:00:59Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-26T01:45:29Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-25T03:00:59Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-26T01:45:29Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |

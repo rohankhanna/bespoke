@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1047,
-    "concepts": 486,
-    "observations": 488,
-    "repos": 34,
-    "terms": 492
+    "components": 1044,
+    "concepts": 485,
+    "observations": 487,
+    "repos": 35,
+    "terms": 491
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
@@ -20,6 +20,7 @@
     "dexie/Dexie.js",
     "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
+    "gastownhall/gastown",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "hiyouga/LlamaFactory",
@@ -35,11 +36,11 @@
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
-    "pydantic/pydantic",
     "QuantumNous/new-api",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "swiftlang/swift",
+    "TEN-framework/ten-framework",
     "triton-lang/triton",
     "unocss/unocss",
     "upptime/upptime",

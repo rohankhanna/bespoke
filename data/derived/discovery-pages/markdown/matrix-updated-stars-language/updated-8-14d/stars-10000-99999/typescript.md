@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 120
-- components: 458
-- concepts: 121
-- observations: 121
+- repos: 9
+- terms: 117
+- components: 410
+- concepts: 117
+- observations: 117
 
 ## Static behavior
 
@@ -35,7 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code) | 24031 | 2026-05-12T22:04:34Z | TypeScript | Infrastructure/tooling | 8 | 30 | 8 | 8 |
 | [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) | 17110 | 2026-05-12T13:30:37Z | TypeScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [Redocly/redoc](https://github.com/Redocly/redoc) | 25712 | 2026-05-12T13:24:40Z | TypeScript | Infrastructure/tooling | 16 | 105 | 16 | 16 |
-| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14717 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 3 | 48 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -48,6 +47,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) | 19233 | 2026-05-13T00:33:12Z | TypeScript | CLI | 15 | 26 | 15 | 15 |
 | [clauderic/dnd-kit](https://github.com/clauderic/dnd-kit) | 17110 | 2026-05-12T13:30:37Z | TypeScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | 15127 | 2026-05-13T19:16:47Z | TypeScript | Infrastructure/tooling | 8 | 53 | 8 | 8 |
-| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14717 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 3 | 48 | 4 | 4 |
 | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | 12418 | 2026-05-13T05:17:41Z | TypeScript | CLI | 6 | 41 | 6 | 6 |
 | [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | 11830 | 2026-05-13T10:15:57Z | TypeScript | Infrastructure/tooling | 13 | 12 | 13 | 13 |

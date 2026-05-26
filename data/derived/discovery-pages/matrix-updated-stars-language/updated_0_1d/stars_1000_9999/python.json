@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 13,
-    "terms": 124
+    "components": 125,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 16,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws-cloudformation/cfn-lint",
+    "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
     "collabora/WhisperLive",
-    "fla-org/flash-linear-attention",
     "harbor-framework/harbor",
+    "JuergenFleiss/aTrain",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "modelscope/FunClip",
+    "NEKOparapa/AiNiee",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
     "redis/redis-om-python",
+    "rllm-org/rllm",
     "roboflow/maestro"
   ]
 }

@@ -1,6 +1,6 @@
 # Java
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 ## Active filters
 
@@ -22,11 +22,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1950 | 2026-05-26T07:22:24Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 | [spring-projects/spring-tools](https://github.com/spring-projects/spring-tools) | 967 | 2026-05-25T23:50:21Z | Java | CLI | 16 | 7 | 16 | 16 |
 | [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-25T20:27:40Z | Java | CLI | 8 | 13 | 8 | 8 |
 | [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2350 | 2026-05-25T17:14:21Z | Java | CLI | 7 | 8 | 7 | 7 |
 | [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3790 | 2026-05-25T16:07:58Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1950 | 2026-05-24T20:46:04Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 | [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 104 | 2026-05-24T12:52:55Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 250 | 2026-05-22T21:29:20Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [grpc/grpc-java](https://github.com/grpc/grpc-java) | 12024 | 2026-05-22T18:37:04Z | Java | Infrastructure/tooling | 8 | 7 | 8 | 8 |
@@ -825,7 +825,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/google-cloud-java](https://github.com/googleapis/google-cloud-java) | 2031 | 2026-04-29T21:29:34Z | Java | CLI | 11 | 10 | 11 | 11 |
 | [tabulapdf/tabula-java](https://github.com/tabulapdf/tabula-java) | 2025 | 2025-03-19T18:21:14Z | Java | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [alibaba/compileflow](https://github.com/alibaba/compileflow) | 1976 | 2025-10-05T09:40:42Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1950 | 2026-05-24T20:46:04Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1950 | 2026-05-26T07:22:24Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 | [validator/validator](https://github.com/validator/validator) | 1929 | 2026-05-02T10:42:13Z | Java | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [ninjaframework/ninja](https://github.com/ninjaframework/ninja) | 1902 | 2026-04-03T18:40:39Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [JetBrains/JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime) | 1876 | 2026-05-01T06:15:56Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |

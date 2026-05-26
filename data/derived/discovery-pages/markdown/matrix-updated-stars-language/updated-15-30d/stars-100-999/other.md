@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 221
-- terms: 1316
+- terms: 1315
 - components: 1908
 - concepts: 1324
 - observations: 1324
@@ -52,7 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [osmlab/editor-layer-index](https://github.com/osmlab/editor-layer-index) | 256 | 2026-05-03T03:38:17Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [rafaqz/DimensionalData.jl](https://github.com/rafaqz/DimensionalData.jl) | 331 | 2026-05-03T02:02:50Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [HOL-Theorem-Prover/HOL](https://github.com/HOL-Theorem-Prover/HOL) | 740 | 2026-05-03T01:28:37Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 13 | 11 | 14 | 14 |
 | [istio/client-go](https://github.com/istio/client-go) | 274 | 2026-05-02T13:19:57Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [openair-project/openair](https://github.com/openair-project/openair) | 353 | 2026-05-02T11:00:52Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [cucumber/aruba](https://github.com/cucumber/aruba) | 963 | 2026-05-02T09:24:48Z | Other | Infrastructure/tooling | 6 | 5 | 7 | 7 |
@@ -303,7 +303,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kirill-grouchnikov/aurora](https://github.com/kirill-grouchnikov/aurora) | 646 | 2026-04-28T16:16:47Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template) | 642 | 2026-04-27T11:49:52Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) | 634 | 2026-04-30T14:44:01Z | Other | Infrastructure/tooling | 11 | 20 | 11 | 11 |
-| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 13 | 11 | 14 | 14 |
 | [MobileNativeFoundation/rules_xcodeproj](https://github.com/MobileNativeFoundation/rules_xcodeproj) | 616 | 2026-04-29T19:57:54Z | Other | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [igraph/rigraph](https://github.com/igraph/rigraph) | 611 | 2026-04-30T09:10:10Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [KhronosGroup/SPIRV-LLVM-Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) | 608 | 2026-04-29T12:57:50Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 57
-- terms: 272
-- components: 181
-- concepts: 274
-- observations: 275
+- repos: 58
+- terms: 279
+- components: 184
+- concepts: 281
+- observations: 282
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vovkos/doxyrest](https://github.com/vovkos/doxyrest) | 310 | 2026-03-27T07:26:36Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [objectbox/objectbox-c](https://github.com/objectbox/objectbox-c) | 266 | 2026-03-26T12:57:52Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
 | [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [rusty1s/pytorch_cluster](https://github.com/rusty1s/pytorch_cluster) | 920 | 2026-03-26T04:45:29Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -125,6 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [luvit/luvi](https://github.com/luvit/luvi) | 334 | 2026-03-19T22:40:29Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [refresh-bio/KMC](https://github.com/refresh-bio/KMC) | 332 | 2026-03-10T10:26:23Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [arduino-libraries/Servo](https://github.com/arduino-libraries/Servo) | 320 | 2026-03-16T17:27:44Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [vovkos/doxyrest](https://github.com/vovkos/doxyrest) | 310 | 2026-03-27T07:26:36Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [Dao-AILab/fast-hadamard-transform](https://github.com/Dao-AILab/fast-hadamard-transform) | 310 | 2026-03-10T08:57:36Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [KamilSJaron/smudgeplot](https://github.com/KamilSJaron/smudgeplot) | 294 | 2026-02-25T09:45:40Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [CrystallineCore/Biscuit](https://github.com/CrystallineCore/Biscuit) | 289 | 2026-03-26T07:10:33Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 40
-- components: 35
-- concepts: 40
-- observations: 40
+- repos: 10
+- terms: 36
+- components: 29
+- concepts: 36
+- observations: 36
 
 ## Static behavior
 
@@ -35,7 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [amsehili/auditok](https://github.com/amsehili/auditok) | 848 | 2026-05-14T20:27:15Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [GStreamer/cerbero](https://github.com/GStreamer/cerbero) | 103 | 2026-05-14T09:29:47Z | Python | Library | 0 | 0 | 0 | 0 |
 | [adamchainz/blacken-docs](https://github.com/adamchainz/blacken-docs) | 681 | 2026-05-13T10:30:06Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [OpenHands/ToM-SWE](https://github.com/OpenHands/ToM-SWE) | 107 | 2026-05-12T19:54:01Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [DanielLin94144/Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench) | 177 | 2026-05-12T19:23:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -51,5 +50,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gbionics/adam](https://github.com/gbionics/adam) | 216 | 2026-05-18T09:46:43Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [shawn0728/OpenSearch-VL](https://github.com/shawn0728/OpenSearch-VL) | 194 | 2026-05-19T05:52:18Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [DanielLin94144/Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench) | 177 | 2026-05-12T19:23:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [OpenHands/ToM-SWE](https://github.com/OpenHands/ToM-SWE) | 107 | 2026-05-12T19:54:01Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [GStreamer/cerbero](https://github.com/GStreamer/cerbero) | 103 | 2026-05-14T09:29:47Z | Python | Library | 0 | 0 | 0 | 0 |

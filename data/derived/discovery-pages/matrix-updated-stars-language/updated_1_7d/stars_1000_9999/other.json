@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
+    "components": 111,
     "concepts": 99,
     "observations": 101,
-    "repos": 13,
-    "terms": 99
+    "repos": 12,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
@@ -25,7 +25,6 @@
     "nvim-tree/nvim-web-devicons",
     "seancorfield/honeysql",
     "standardrb/standard",
-    "tModLoader/tModLoader",
-    "TryGhost/node-sqlite3"
+    "tModLoader/tModLoader"
   ]
 }

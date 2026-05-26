@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10263,
-    "concepts": 4830,
-    "observations": 4843,
-    "repos": 425,
-    "terms": 4798
+    "components": 10311,
+    "concepts": 4834,
+    "observations": 4847,
+    "repos": 426,
+    "terms": 4800
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -30,6 +30,7 @@
     "agentscope-ai/QwenPaw",
     "agno-agi/agno",
     "aidenybai/react-scan",
+    "ajv-validator/ajv",
     "alacritty/alacritty",
     "alpinejs/alpine",
     "ampproject/amphtml",

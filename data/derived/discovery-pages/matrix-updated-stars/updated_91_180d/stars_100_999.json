@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4184,
-    "concepts": 2893,
-    "observations": 2899,
-    "repos": 738,
-    "terms": 2885
+    "components": 4191,
+    "concepts": 2898,
+    "observations": 2904,
+    "repos": 739,
+    "terms": 2889
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -502,6 +502,7 @@
     "naelstrof/slop",
     "nagisa/rust_tracy_client",
     "nanbingxyz/mcpsvr",
+    "NeighTools/UnityDoorstop",
     "nghorbani/body_visualizer",
     "nghorbani/human_body_prior",
     "nicklashansen/newt",
@@ -656,7 +657,6 @@
     "stefantalpalaru/w_scan2",
     "strands-agents/agent-builder",
     "stsquad/emacs_chrome",
-    "sugarme/tokenizer",
     "superclaude-org/supergemini_framework",
     "sveltejs/rollup-plugin-svelte",
     "svg-sprite/gulp-svg-sprite",
@@ -749,6 +749,7 @@
     "zippoxer/recall",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
     "zkcrypto/bls12_381",
+    "zkcrypto/jubjub",
     "zonyitoo/rust-ini",
     "zsviczian/excalibrain"
   ]

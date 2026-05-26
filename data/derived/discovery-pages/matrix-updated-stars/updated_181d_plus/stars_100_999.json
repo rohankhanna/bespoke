@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15376,
-    "concepts": 13895,
-    "observations": 13921,
-    "repos": 4571,
-    "terms": 13674
+    "components": 15381,
+    "concepts": 13899,
+    "observations": 13925,
+    "repos": 4574,
+    "terms": 13671
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -414,6 +414,7 @@
     "arcanis/pnp-webpack-plugin",
     "arcanis/typanion",
     "archlinux/svntogit-packages",
+    "arcusmaximus/VNTranslationTools",
     "ardalis/Ardalis.SharedKernel",
     "ardalis/HttpClientTestExtensions",
     "arecarn/vim-crunch",
@@ -493,6 +494,7 @@
     "AtomaAI/atoma-infer",
     "Atome-FE/llama-node",
     "AtomLinter/linter-write-good",
+    "Atrejoe/MarkdownPreview",
     "atsaki/termeter",
     "attaswift/BigInt",
     "Atten4Vis/ConditionalDETR",
@@ -4002,6 +4004,7 @@
     "SublimeLinter/SublimeLinter-eslint",
     "subtheme-dev/monokai-pro",
     "sugarme/gotch",
+    "sugarme/tokenizer",
     "sugarme/transformer",
     "summerwind/h2spec",
     "sunnweiwei/RankGPT",

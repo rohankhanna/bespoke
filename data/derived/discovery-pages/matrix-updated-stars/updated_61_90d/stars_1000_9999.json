@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3159,
-    "concepts": 1985,
-    "observations": 1991,
-    "repos": 368,
-    "terms": 1989
+    "components": 3168,
+    "concepts": 2003,
+    "observations": 2010,
+    "repos": 369,
+    "terms": 2007
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "a16z/helios",
@@ -275,6 +275,7 @@
     "Pal3love/Source-Han-TrueType",
     "paralleldrive/cuid2",
     "parcel-bundler/lightningcss",
+    "pardeike/Harmony",
     "pdf-rs/pdf",
     "pdfminer/pdfminer.six",
     "peers/peerjs-server",

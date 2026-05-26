@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1156,
-    "concepts": 1170,
-    "observations": 1170,
-    "repos": 136,
-    "terms": 1162
+    "components": 1164,
+    "concepts": 1191,
+    "observations": 1191,
+    "repos": 137,
+    "terms": 1182
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -88,6 +88,7 @@
     "llvm/torch-mlir",
     "luben/zstd-jni",
     "LuisaGroup/LuisaCompute",
+    "marzer/tomlplusplus",
     "meetecho/janus-gateway",
     "mhammond/pywin32",
     "microsoft/DirectML",

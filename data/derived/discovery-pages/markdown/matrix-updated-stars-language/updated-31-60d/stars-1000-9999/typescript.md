@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 174
-- terms: 1407
-- components: 6840
-- concepts: 1300
-- observations: 1304
+- repos: 176
+- terms: 1415
+- components: 6904
+- concepts: 1308
+- observations: 1312
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [messageformat/messageformat](https://github.com/messageformat/messageformat) | 1763 | 2026-04-26T07:42:49Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
+| [solidjs/solid-router](https://github.com/solidjs/solid-router) | 1311 | 2026-04-26T06:22:34Z | TypeScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [MiniMax-AI/cli](https://github.com/MiniMax-AI/cli) | 1635 | 2026-04-26T01:40:16Z | TypeScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [breferrari/obsidian-mind](https://github.com/breferrari/obsidian-mind) | 2453 | 2026-04-26T01:10:53Z | TypeScript | CLI | 4 | 2 | 4 | 4 |
 | [ory/polis](https://github.com/ory/polis) | 2229 | 2026-04-25T10:27:10Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
@@ -195,7 +197,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch) | 1179 | 2026-04-01T11:04:08Z | TypeScript | Infrastructure/tooling | 8 | 25 | 8 | 9 |
 | [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) | 1884 | 2026-04-01T04:52:27Z | TypeScript | Infrastructure/tooling | 13 | 46 | 13 | 13 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | 4949 | 2026-03-31T04:12:28Z | TypeScript | Infrastructure/tooling | 8 | 2 | 9 | 9 |
-| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7151 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7152 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
 | [josdejong/svelte-jsoneditor](https://github.com/josdejong/svelte-jsoneditor) | 1222 | 2026-03-30T08:59:09Z | TypeScript | Infrastructure/tooling | 5 | 85 | 6 | 6 |
 | [aleclarson/vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) | 1620 | 2026-03-29T18:46:37Z | TypeScript | Infrastructure/tooling | 0 | 20 | 0 | 0 |
 | [vercel/next-learn](https://github.com/vercel/next-learn) | 4710 | 2026-03-29T16:38:36Z | TypeScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
@@ -223,7 +225,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [panva/jose](https://github.com/panva/jose) | 7525 | 2026-04-20T11:46:06Z | TypeScript | Infrastructure/tooling | 12 | 26 | 12 | 12 |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | 7160 | 2026-04-18T01:39:27Z | TypeScript | Infrastructure/tooling | 7 | 22 | 0 | 0 |
 | [tensorflow/tensorboard](https://github.com/tensorflow/tensorboard) | 7152 | 2026-04-23T02:52:27Z | TypeScript | Infrastructure/tooling | 1 | 110 | 1 | 1 |
-| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7151 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7152 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
 | [civitai/civitai](https://github.com/civitai/civitai) | 7087 | 2026-04-23T20:47:03Z | TypeScript | Infrastructure/tooling | 6 | 264 | 6 | 6 |
 | [kulshekhar/ts-jest](https://github.com/kulshekhar/ts-jest) | 7075 | 2026-04-22T18:43:42Z | TypeScript | Infrastructure/tooling | 8 | 65 | 8 | 8 |
 | [tailwindlabs/prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) | 7065 | 2026-04-23T09:42:07Z | TypeScript | Infrastructure/tooling | 2 | 45 | 2 | 2 |
@@ -332,6 +334,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [piebald-ai/tweakcc](https://github.com/Piebald-AI/tweakcc) | 1797 | 2026-04-17T23:29:59Z | TypeScript | CLI | 3 | 32 | 0 | 0 |
 | [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) | 1768 | 2026-04-09T00:49:12Z | TypeScript | Infrastructure/tooling | 6 | 57 | 0 | 0 |
 | [Comfy-Org/ComfyUI_frontend](https://github.com/Comfy-Org/ComfyUI_frontend) | 1766 | 2026-04-23T04:05:50Z | TypeScript | Infrastructure/tooling | 7 | 153 | 7 | 8 |
+| [messageformat/messageformat](https://github.com/messageformat/messageformat) | 1763 | 2026-04-26T07:42:49Z | TypeScript | Infrastructure/tooling | 5 | 43 | 5 | 5 |
 | [microsoft/vscode-languageserver-node](https://github.com/microsoft/vscode-languageserver-node) | 1743 | 2026-04-15T21:24:27Z | TypeScript | Service/API | 0 | 20 | 0 | 0 |
 | [firebase/firebase-admin-node](https://github.com/firebase/firebase-admin-node) | 1726 | 2026-04-17T05:33:50Z | TypeScript | Infrastructure/tooling | 14 | 65 | 14 | 14 |
 | [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | 1716 | 2026-04-23T13:45:13Z | TypeScript | CLI | 17 | 24 | 17 | 17 |
@@ -359,6 +362,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action) | 1317 | 2026-04-23T04:42:12Z | TypeScript | Infrastructure/tooling | 12 | 33 | 12 | 12 |
 | [ipfs/helia](https://github.com/ipfs/helia) | 1315 | 2026-04-21T14:26:28Z | TypeScript | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [google-gemini/starter-applets](https://github.com/google-gemini/starter-applets) | 1313 | 2026-04-09T05:34:40Z | TypeScript | Template/starter | 3 | 0 | 3 | 3 |
+| [solidjs/solid-router](https://github.com/solidjs/solid-router) | 1311 | 2026-04-26T06:22:34Z | TypeScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [remotion-dev/github-unwrapped](https://github.com/remotion-dev/github-unwrapped) | 1292 | 2026-04-06T07:28:43Z | TypeScript | Unknown | 5 | 50 | 5 | 5 |
 | [octokit/core.js](https://github.com/octokit/core.js) | 1271 | 2026-04-23T15:43:30Z | TypeScript | CLI | 7 | 33 | 7 | 7 |
 | [wighawag/hardhat-deploy](https://github.com/wighawag/hardhat-deploy) | 1262 | 2026-04-21T12:47:43Z | TypeScript | Infrastructure/tooling | 11 | 15 | 11 | 11 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 182
-- terms: 899
-- components: 833
-- concepts: 907
-- observations: 910
+- terms: 895
+- components: 836
+- concepts: 903
+- observations: 906
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libbitcoin/libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) | 164 | 2026-04-26T07:11:23Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [gisbi-kim/removert](https://github.com/gisbi-kim/removert) | 636 | 2026-04-25T22:50:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [robotology/yarp](https://github.com/robotology/yarp) | 590 | 2026-04-25T20:19:57Z | C/C++ | Infrastructure/tooling | 19 | 18 | 19 | 19 |
 | [davisp/jiffy](https://github.com/davisp/jiffy) | 874 | 2026-04-25T16:14:18Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -207,7 +208,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fujitsu/xbyak_aarch64](https://github.com/fujitsu/xbyak_aarch64) | 223 | 2026-03-27T15:11:43Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [haxenme/nme](https://github.com/haxenme/nme) | 496 | 2026-03-27T14:49:39Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [lastz/lastz](https://github.com/lastz/lastz) | 245 | 2026-03-27T12:20:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [vovkos/doxyrest](https://github.com/vovkos/doxyrest) | 310 | 2026-03-27T07:26:36Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -320,7 +320,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) | 328 | 2026-04-09T15:39:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [microsoft/jericho](https://github.com/microsoft/jericho) | 323 | 2026-03-27T18:34:56Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [cloudwu/ltask](https://github.com/cloudwu/ltask) | 319 | 2026-04-09T05:03:28Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [vovkos/doxyrest](https://github.com/vovkos/doxyrest) | 310 | 2026-03-27T07:26:36Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [GNOME/gnome-terminal](https://github.com/GNOME/gnome-terminal) | 309 | 2026-04-06T08:14:47Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [KhronosGroup/OpenCL-ICD-Loader](https://github.com/KhronosGroup/OpenCL-ICD-Loader) | 297 | 2026-03-31T19:36:43Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [DolbyLaboratories/dlb_mp4base](https://github.com/DolbyLaboratories/dlb_mp4base) | 280 | 2026-04-17T08:18:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -363,6 +362,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appium/appium-mac2-driver](https://github.com/appium/appium-mac2-driver) | 174 | 2026-04-15T05:08:28Z | C/C++ | Infrastructure/tooling | 9 | 37 | 9 | 9 |
 | [RoaringBitmap/croaring-rs](https://github.com/RoaringBitmap/croaring-rs) | 166 | 2026-04-03T01:43:53Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 7 |
 | [apache/pulsar-client-node](https://github.com/apache/pulsar-client-node) | 165 | 2026-04-22T13:45:00Z | C/C++ | CLI | 10 | 27 | 10 | 10 |
+| [libbitcoin/libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) | 164 | 2026-04-26T07:11:23Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [pbatard/Mosby](https://github.com/pbatard/Mosby) | 161 | 2026-04-23T23:40:33Z | C/C++ | Infrastructure/tooling | 8 | 4 | 9 | 9 |
 | [gazebosim/gz-sensors](https://github.com/gazebosim/gz-sensors) | 158 | 2026-04-17T23:03:11Z | C/C++ | Infrastructure/tooling | 17 | 7 | 17 | 17 |
 | [cloudflare/cloudflare-workers-wasm-demo](https://github.com/cloudflare/cloudflare-workers-wasm-demo) | 152 | 2026-04-23T22:29:05Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |

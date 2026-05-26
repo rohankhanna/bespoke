@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 61,
-    "terms": 178
+    "components": 255,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 62,
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "agents-x-project/PyVision-RL",
@@ -41,6 +41,7 @@
     "corl-team/VL-DAC",
     "cvat-ai/datumaro",
     "danielrosehill/Index",
+    "databrickslabs/pylint-plugin",
     "Embarcadero/PythonEnvironments",
     "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",

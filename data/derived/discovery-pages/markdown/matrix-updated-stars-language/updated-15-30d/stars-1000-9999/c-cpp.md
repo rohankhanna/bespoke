@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 136
-- terms: 1162
-- components: 1156
-- concepts: 1170
-- observations: 1170
+- repos: 137
+- terms: 1182
+- components: 1164
+- concepts: 1191
+- observations: 1191
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2050 | 2026-05-12T07:16:39Z | C/C++ | Infrastructure/tooling | 20 | 8 | 21 | 21 |
 | [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [OSGeo/gdal](https://github.com/OSGeo/gdal) | 5895 | 2026-05-07T01:14:50Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) | 2789 | 2026-05-06T07:08:02Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
@@ -255,6 +256,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/shaderc](https://github.com/google/shaderc) | 2135 | 2026-04-29T01:21:20Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
 | [kismetwireless/kismet](https://github.com/kismetwireless/kismet) | 2097 | 2026-04-28T12:24:31Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [microsoft/DirectXTex](https://github.com/microsoft/DirectXTex) | 2094 | 2026-04-27T21:09:13Z | C/C++ | Infrastructure/tooling | 20 | 8 | 20 | 20 |
+| [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2050 | 2026-05-12T07:16:39Z | C/C++ | Infrastructure/tooling | 20 | 8 | 21 | 21 |
 | [oracle/graaljs](https://github.com/oracle/graaljs) | 1998 | 2026-04-29T15:07:12Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [commonmark/cmark](https://github.com/commonmark/cmark) | 1963 | 2026-04-27T19:14:40Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [jeremycw/httpserver.h](https://github.com/jeremycw/httpserver.h) | 1906 | 2026-04-26T20:55:19Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 349
-- components: 1645
-- concepts: 349
-- observations: 351
+- repos: 59
+- terms: 335
+- components: 1553
+- concepts: 335
+- observations: 337
 
 ## Static behavior
 
@@ -85,8 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swagger-api/apidom](https://github.com/swagger-api/apidom) | 96 | 2026-04-27T11:49:01Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
 | [catppuccin/.github](https://github.com/catppuccin/.github) | 13 | 2026-04-27T08:44:06Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |
 | [oclif/test](https://github.com/oclif/test) | 23 | 2026-04-26T09:13:54Z | TypeScript | CLI | 7 | 32 | 7 | 7 |
-| [oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete) | 93 | 2026-04-26T07:12:14Z | TypeScript | CLI | 7 | 41 | 7 | 7 |
-| [oclif/plugin-update](https://github.com/oclif/plugin-update) | 55 | 2026-04-26T07:11:21Z | TypeScript | CLI | 7 | 51 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -97,7 +95,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jakebailey/pyright-action](https://github.com/jakebailey/pyright-action) | 97 | 2026-04-29T10:42:39Z | TypeScript | Infrastructure/tooling | 0 | 32 | 0 | 0 |
 | [swagger-api/apidom](https://github.com/swagger-api/apidom) | 96 | 2026-04-27T11:49:01Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
 | [sapphiredev/shapeshift](https://github.com/sapphiredev/shapeshift) | 94 | 2026-04-29T11:34:57Z | TypeScript | Infrastructure/tooling | 15 | 39 | 15 | 15 |
-| [oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete) | 93 | 2026-04-26T07:12:14Z | TypeScript | CLI | 7 | 41 | 7 | 7 |
 | [vincentlaucsb/experiencer](https://github.com/vincentlaucsb/experiencer) | 90 | 2026-05-03T22:26:52Z | TypeScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
 | [octokit/oauth-app.js](https://github.com/octokit/oauth-app.js) | 90 | 2026-04-29T16:13:36Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [addfox/addfox](https://github.com/addfox/addfox) | 84 | 2026-04-27T12:44:02Z | TypeScript | Web app | 11 | 6 | 11 | 11 |
@@ -117,7 +114,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aggre/ullr](https://github.com/aggre/ullr) | 64 | 2026-05-01T16:41:05Z | TypeScript | Infrastructure/tooling | 0 | 27 | 0 | 0 |
 | [jbaubree/sitemap-ts](https://github.com/jbaubree/sitemap-ts) | 62 | 2026-04-29T14:08:28Z | TypeScript | Infrastructure/tooling | 0 | 25 | 0 | 0 |
 | [ecyrbe/zodios-express](https://github.com/ecyrbe/zodios-express) | 55 | 2026-04-29T23:40:35Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
-| [oclif/plugin-update](https://github.com/oclif/plugin-update) | 55 | 2026-04-26T07:11:21Z | TypeScript | CLI | 7 | 51 | 7 | 7 |
 | [OffchainLabs/arbitrum-chain-sdk](https://github.com/OffchainLabs/arbitrum-chain-sdk) | 54 | 2026-04-29T15:38:26Z | TypeScript | Infrastructure/tooling | 3 | 20 | 3 | 3 |
 | [rstackjs/rsbuild-plugin-tailwindcss](https://github.com/rstackjs/rsbuild-plugin-tailwindcss) | 53 | 2026-05-01T00:35:14Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [elastic/opentelemetry-demo](https://github.com/elastic/opentelemetry-demo) | 49 | 2026-04-28T13:43:33Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 5 |

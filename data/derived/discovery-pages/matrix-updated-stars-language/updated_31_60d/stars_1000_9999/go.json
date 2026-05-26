@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1741,
-    "concepts": 1692,
-    "observations": 1698,
-    "repos": 213,
-    "terms": 1694
+    "components": 1745,
+    "concepts": 1701,
+    "observations": 1707,
+    "repos": 214,
+    "terms": 1703
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -217,6 +217,7 @@
     "tofuutils/tenv",
     "tonistiigi/binfmt",
     "trzsz/trzsz-go",
+    "trzsz/trzsz-ssh",
     "uptrace/bun",
     "uptrace/uptrace",
     "VictoriaMetrics/fastcache",

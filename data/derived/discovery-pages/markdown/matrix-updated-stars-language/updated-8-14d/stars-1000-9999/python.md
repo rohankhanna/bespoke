@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 74
-- components: 74
-- concepts: 79
-- observations: 80
+- repos: 12
+- terms: 92
+- components: 81
+- concepts: 97
+- observations: 98
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1034 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1202 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1721 | 2026-05-18T07:30:15Z | Python | Library | 5 | 0 | 5 | 5 |
 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1091 | 2026-05-18T06:06:35Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -53,3 +54,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/budoux](https://github.com/google/budoux) | 1622 | 2026-05-15T12:32:32Z | Python | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [nomadkaraoke/python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator) | 1202 | 2026-05-18T23:24:52Z | Python | CLI | 8 | 15 | 8 | 8 |
 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1091 | 2026-05-18T06:06:35Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1034 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |

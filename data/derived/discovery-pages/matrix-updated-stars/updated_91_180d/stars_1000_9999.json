@@ -3,15 +3,15 @@
     "components": 3116,
     "concepts": 2624,
     "observations": 2634,
-    "repos": 517,
-    "terms": 2604
+    "repos": 516,
+    "terms": 2600
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -475,7 +475,6 @@
     "tc39/proposal-signals",
     "Teemu/pytest-sugar",
     "TEN-framework/ten-vad",
-    "Tencent-Hunyuan/HunyuanDiT",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/TFace",
     "Tencent/tquic",

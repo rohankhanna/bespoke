@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 75
-- terms: 294
-- components: 211
-- concepts: 299
-- observations: 300
+- repos: 76
+- terms: 299
+- components: 215
+- concepts: 304
+- observations: 305
 
 ## Static behavior
 
@@ -49,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [iwongu/sqlite3pp](https://github.com/iwongu/sqlite3pp) | 635 | 2026-02-08T19:41:41Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [adamritter/fastgron](https://github.com/adamritter/fastgron) | 673 | 2026-02-08T17:37:49Z | C/C++ | Infrastructure/tooling | 4 | 7 | 5 | 5 |
+| [NeighTools/UnityDoorstop](https://github.com/NeighTools/UnityDoorstop) | 560 | 2026-02-06T20:38:54Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [Kong/ngx_wasm_module](https://github.com/Kong/ngx_wasm_module) | 137 | 2026-02-03T21:18:17Z | C/C++ | Infrastructure/tooling | 14 | 22 | 14 | 14 |
@@ -122,6 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Imagick/imagick](https://github.com/Imagick/imagick) | 612 | 2026-01-01T13:01:51Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [rmsalinas/DBow3](https://github.com/rmsalinas/DBow3) | 567 | 2026-01-07T06:59:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [openxrlab/xrslam](https://github.com/openxrlab/xrslam) | 565 | 2026-02-10T21:58:38Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [NeighTools/UnityDoorstop](https://github.com/NeighTools/UnityDoorstop) | 560 | 2026-02-06T20:38:54Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [nvpro-samples/nvpro_core](https://github.com/nvpro-samples/nvpro_core) | 550 | 2026-02-12T10:39:19Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [lovemefan/SenseVoice.cpp](https://github.com/lovemefan/SenseVoice.cpp) | 550 | 2025-12-19T10:50:03Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [avaneev/lzav](https://github.com/avaneev/lzav) | 526 | 2026-01-27T03:04:06Z | C/C++ | Unknown | 16 | 0 | 16 | 16 |

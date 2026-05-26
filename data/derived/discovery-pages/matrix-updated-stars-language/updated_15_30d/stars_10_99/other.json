@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1117,
-    "concepts": 625,
-    "observations": 629,
-    "repos": 148,
-    "terms": 623
+    "components": 1115,
+    "concepts": 618,
+    "observations": 622,
+    "repos": 147,
+    "terms": 616
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abap2UI5-addons/sql-console",
@@ -118,7 +118,6 @@
     "mrcjkb/neotest-haskell",
     "MSP-Greg/ruby-loco",
     "NVIDIA/DALI_extra",
-    "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
     "oliyh/carve.el",
     "open-edge-platform/geti-instant-learn",

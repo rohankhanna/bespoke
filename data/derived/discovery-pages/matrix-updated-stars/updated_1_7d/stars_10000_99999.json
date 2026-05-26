@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 597,
-    "concepts": 419,
-    "observations": 422,
-    "repos": 40,
-    "terms": 419
+    "components": 601,
+    "concepts": 420,
+    "observations": 423,
+    "repos": 39,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -20,7 +20,6 @@
     "Dao-AILab/flash-attention",
     "DioxusLabs/dioxus",
     "gastownhall/beads",
-    "gastownhall/gastown",
     "git-lfs/git-lfs",
     "github-linguist/linguist",
     "gitleaks/gitleaks",
@@ -40,6 +39,7 @@
     "preactjs/preact",
     "protocolbuffers/protobuf",
     "psf/black",
+    "pydantic/pydantic",
     "python-poetry/poetry",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
@@ -50,7 +50,6 @@
     "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
     "SubtitleEdit/subtitleedit",
-    "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
     "vercel-labs/skills"
   ]

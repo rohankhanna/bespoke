@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 196
-- terms: 1860
-- components: 1698
-- concepts: 1873
-- observations: 1878
+- repos: 195
+- terms: 1853
+- components: 1695
+- concepts: 1866
+- observations: 1871
 
 ## Static behavior
 
@@ -37,7 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikel-brostrom/boxmot](https://github.com/mikel-brostrom/boxmot) | 8137 | 2026-05-07T00:45:37Z | Python | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [google-deepmind/sonnet](https://github.com/google-deepmind/sonnet) | 9917 | 2026-05-06T20:18:31Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [dmMaze/BallonsTranslator](https://github.com/dmMaze/BallonsTranslator) | 4800 | 2026-05-06T13:46:18Z | Python | Unknown | 12 | 0 | 12 | 12 |
-| [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) | 7101 | 2026-05-06T05:15:16Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) | 7100 | 2026-05-06T05:15:16Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [PaddlePaddle/FastDeploy](https://github.com/PaddlePaddle/FastDeploy) | 3680 | 2026-05-04T16:32:15Z | Python | Infrastructure/tooling | 12 | 2 | 12 | 14 |
 | [souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy) | 6302 | 2026-05-04T14:49:10Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [vyperlang/vyper](https://github.com/vyperlang/vyper) | 5180 | 2026-05-04T12:24:12Z | Python | Infrastructure/tooling | 11 | 16 | 11 | 11 |
@@ -221,7 +221,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HumanAIGC-Engineering/OpenAvatarChat](https://github.com/HumanAIGC-Engineering/OpenAvatarChat) | 3389 | 2026-04-26T13:50:02Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [shenweichen/DeepCTR](https://github.com/shenweichen/DeepCTR) | 8027 | 2026-04-26T09:50:35Z | Python | CLI | 14 | 4 | 14 | 14 |
 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | 3540 | 2026-04-26T08:38:17Z | Python | Unknown | 6 | 0 | 6 | 6 |
-| [shenweichen/GraphEmbedding](https://github.com/shenweichen/GraphEmbedding) | 3841 | 2026-04-26T07:23:36Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -255,7 +254,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda/conda](https://github.com/conda/conda) | 7390 | 2026-04-29T19:37:19Z | Python | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [hacs/integration](https://github.com/hacs/integration) | 7314 | 2026-04-27T06:19:18Z | Python | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [pypa/hatch](https://github.com/pypa/hatch) | 7153 | 2026-04-30T01:17:15Z | Python | CLI | 13 | 16 | 13 | 13 |
-| [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) | 7101 | 2026-05-06T05:15:16Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) | 7100 | 2026-05-06T05:15:16Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | 7077 | 2026-04-29T18:10:21Z | Python | Infrastructure/tooling | 11 | 19 | 11 | 11 |
 | [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab) | 7055 | 2026-04-30T09:03:36Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [PyCQA/isort](https://github.com/PyCQA/isort) | 6937 | 2026-04-30T14:50:03Z | Python | CLI | 11 | 8 | 12 | 12 |
@@ -305,7 +304,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astral-sh/python-build-standalone](https://github.com/astral-sh/python-build-standalone) | 4037 | 2026-04-29T16:46:35Z | Python | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [pypi/warehouse](https://github.com/pypi/warehouse) | 4011 | 2026-04-30T20:21:34Z | Python | Infrastructure/tooling | 8 | 61 | 8 | 8 |
 | [enjoy-digital/litex](https://github.com/enjoy-digital/litex) | 3857 | 2026-04-30T09:04:18Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [shenweichen/GraphEmbedding](https://github.com/shenweichen/GraphEmbedding) | 3841 | 2026-04-26T07:23:36Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [benfred/implicit](https://github.com/benfred/implicit) | 3785 | 2026-04-30T03:22:10Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [PyCQA/flake8](https://github.com/PyCQA/flake8) | 3780 | 2026-04-28T22:22:31Z | Python | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [mapillary/OpenSfM](https://github.com/mapillary/OpenSfM) | 3755 | 2026-04-30T11:08:32Z | Python | Infrastructure/tooling | 2 | 3 | 3 | 3 |

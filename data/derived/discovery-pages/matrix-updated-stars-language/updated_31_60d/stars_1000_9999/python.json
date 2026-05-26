@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2209,
-    "concepts": 2590,
-    "observations": 2597,
-    "repos": 353,
-    "terms": 2589
+    "components": 2212,
+    "concepts": 2597,
+    "observations": 2604,
+    "repos": 354,
+    "terms": 2596
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -321,6 +321,7 @@
     "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
+    "shenweichen/GraphEmbedding",
     "sierra-research/tau2-bench",
     "SirVer/ultisnips",
     "sparckles/Robyn",

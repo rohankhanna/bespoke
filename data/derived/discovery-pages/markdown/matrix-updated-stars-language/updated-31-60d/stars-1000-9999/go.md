@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 213
-- terms: 1694
-- components: 1741
-- concepts: 1692
-- observations: 1698
+- repos: 214
+- terms: 1703
+- components: 1745
+- concepts: 1701
+- observations: 1707
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) | 2556 | 2026-04-26T07:16:01Z | Go | CLI | 9 | 4 | 9 | 9 |
 | [dghubble/gologin](https://github.com/dghubble/gologin) | 1953 | 2026-04-26T04:21:28Z | Go | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [argoproj/argo-events](https://github.com/argoproj/argo-events) | 2650 | 2026-04-25T12:34:05Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
 | [prometheus-community/windows_exporter](https://github.com/prometheus-community/windows_exporter) | 3530 | 2026-04-25T08:09:18Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
@@ -220,7 +221,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tdewolff/canvas](https://github.com/tdewolff/canvas) | 1807 | 2026-04-06T09:19:17Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [cloudwego/netpoll](https://github.com/cloudwego/netpoll) | 4561 | 2026-04-06T06:38:41Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3251 | 2026-04-04T17:34:25Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [olric-data/olric](https://github.com/olric-data/olric) | 3456 | 2026-04-03T22:02:03Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
+| [olric-data/olric](https://github.com/olric-data/olric) | 3458 | 2026-04-03T22:02:03Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [burke/zeus](https://github.com/burke/zeus) | 3318 | 2026-04-03T21:13:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [nikolaydubina/go-recipes](https://github.com/nikolaydubina/go-recipes) | 4482 | 2026-04-03T11:43:53Z | Go | Unknown | 15 | 0 | 15 | 15 |
 | [mattn/goreman](https://github.com/mattn/goreman) | 2630 | 2026-04-02T16:38:34Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -347,7 +348,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dunglas/vulcain](https://github.com/dunglas/vulcain) | 3574 | 2026-04-23T00:33:30Z | Go | CLI | 15 | 6 | 15 | 15 |
 | [x-motemen/ghq](https://github.com/x-motemen/ghq) | 3572 | 2026-04-20T10:22:37Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [prometheus-community/windows_exporter](https://github.com/prometheus-community/windows_exporter) | 3530 | 2026-04-25T08:09:18Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
-| [olric-data/olric](https://github.com/olric-data/olric) | 3456 | 2026-04-03T22:02:03Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
+| [olric-data/olric](https://github.com/olric-data/olric) | 3458 | 2026-04-03T22:02:03Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [digitalocean/doctl](https://github.com/digitalocean/doctl) | 3414 | 2026-04-16T11:17:34Z | Go | CLI | 8 | 8 | 8 | 8 |
 | [databus23/helm-diff](https://github.com/databus23/helm-diff) | 3404 | 2026-04-19T00:05:20Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [burke/zeus](https://github.com/burke/zeus) | 3318 | 2026-04-03T21:13:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -376,6 +377,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [maypok86/otter](https://github.com/maypok86/otter) | 2592 | 2026-04-14T06:33:20Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [hashicorp/yamux](https://github.com/hashicorp/yamux) | 2580 | 2026-03-29T17:52:26Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [stripe/stripe-go](https://github.com/stripe/stripe-go) | 2567 | 2026-04-21T00:48:11Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) | 2556 | 2026-04-26T07:16:01Z | Go | CLI | 9 | 4 | 9 | 9 |
 | [router-for-me/CLIProxyAPIPlus](https://github.com/router-for-me/CLIProxyAPIPlus) | 2530 | 2026-04-16T17:44:39Z | Go | CLI | 6 | 9 | 6 | 6 |
 | [containernetworking/plugins](https://github.com/containernetworking/plugins) | 2516 | 2026-04-20T02:25:14Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [cloudnativelabs/kube-router](https://github.com/cloudnativelabs/kube-router) | 2472 | 2026-04-09T08:45:30Z | Go | Infrastructure/tooling | 14 | 15 | 14 | 14 |

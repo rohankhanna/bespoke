@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2036,
-    "concepts": 1890,
-    "observations": 1896,
-    "repos": 832,
-    "terms": 1883
+    "components": 2052,
+    "concepts": 1918,
+    "observations": 1924,
+    "repos": 835,
+    "terms": 1911
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -111,6 +111,7 @@
     "archguard/codedb",
     "ArimaGenomics/mapping_pipeline",
     "aristocratos/LHM-CppExport",
+    "Arlorean/Voxels",
     "Armour/vue-typescript-admin-docs",
     "aroemers/sibiro",
     "arrayfire/arrayfire-dotnet",
@@ -325,6 +326,7 @@
     "egoist/vue-bytesize-icons",
     "eki3z/git-cliff.el",
     "elaforge/fast-tags",
+    "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
     "eliasdaler/imgui-sfml-fetchcontent",
     "elixir-makeup/makeup_elixir",
     "elixir-makeup/makeup_html",
@@ -824,6 +826,7 @@
     "WebAssembly/extended-const",
     "WebAssembly/flexible-vectors",
     "WebAV-Tech/WebAV-Pro",
+    "WebReflection/jsdon",
     "wentasah/emacsvterm.jl",
     "westnordost/osmfeatures",
     "Wilfred/pip-requirements.el",

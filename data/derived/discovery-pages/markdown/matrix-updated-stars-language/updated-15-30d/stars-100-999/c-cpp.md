@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 117
-- terms: 757
-- components: 729
-- concepts: 759
-- observations: 760
+- repos: 116
+- terms: 753
+- components: 723
+- concepts: 756
+- observations: 757
 
 ## Static behavior
 
@@ -31,7 +31,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yoshoku/llama_cpp.rb](https://github.com/yoshoku/llama_cpp.rb) | 236 | 2026-05-10T06:23:29Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [aburch/simutrans](https://github.com/aburch/simutrans) | 450 | 2026-05-08T10:36:30Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [ros2/common_interfaces](https://github.com/ros2/common_interfaces) | 355 | 2026-05-06T18:50:00Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
 | [foldl/chatllm.cpp](https://github.com/foldl/chatllm.cpp) | 872 | 2026-05-05T22:48:02Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [ouster-lidar/ouster-ros](https://github.com/ouster-lidar/ouster-ros) | 198 | 2026-05-05T16:33:45Z | C/C++ | Infrastructure/tooling | 14 | 1 | 14 | 14 |
 | [CEED/libCEED](https://github.com/CEED/libCEED) | 253 | 2026-05-05T14:51:09Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
@@ -142,7 +142,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiligentGraphics/DiligentTools](https://github.com/DiligentGraphics/DiligentTools) | 147 | 2026-04-26T12:50:44Z | C/C++ | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [jrouwe/JoltPhysics.js](https://github.com/jrouwe/JoltPhysics.js) | 523 | 2026-04-26T10:08:39Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [murat-dogan/node-datachannel](https://github.com/murat-dogan/node-datachannel) | 404 | 2026-04-26T08:50:48Z | C/C++ | CLI | 11 | 36 | 11 | 11 |
-| [libbitcoin/libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) | 164 | 2026-04-26T07:11:23Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -182,7 +181,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libnice/libnice](https://github.com/libnice/libnice) | 631 | 2026-04-30T12:06:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libimobiledevice/libirecovery](https://github.com/libimobiledevice/libirecovery) | 628 | 2026-04-30T22:25:53Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [eyalroz/printf](https://github.com/eyalroz/printf) | 615 | 2026-05-03T20:51:41Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
 | [rspatial/terra](https://github.com/rspatial/terra) | 609 | 2026-04-29T10:28:12Z | C/C++ | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) | 592 | 2026-05-01T21:22:18Z | C/C++ | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [openSUSE/libsolv](https://github.com/openSUSE/libsolv) | 588 | 2026-04-30T13:08:06Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -256,7 +255,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mercury13/unicodia](https://github.com/Mercury13/unicodia) | 169 | 2026-05-02T14:37:43Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [eblerjana/pangenie](https://github.com/eblerjana/pangenie) | 166 | 2026-04-27T09:36:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [autowarefoundation/autoware_core](https://github.com/autowarefoundation/autoware_core) | 164 | 2026-04-29T08:48:51Z | C/C++ | Infrastructure/tooling | 16 | 21 | 17 | 17 |
-| [libbitcoin/libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) | 164 | 2026-04-26T07:11:23Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [asl/BandageNG](https://github.com/asl/BandageNG) | 162 | 2026-05-01T12:28:01Z | C/C++ | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [DiligentGraphics/DiligentTools](https://github.com/DiligentGraphics/DiligentTools) | 147 | 2026-04-26T12:50:44Z | C/C++ | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [ros/urdfdom](https://github.com/ros/urdfdom) | 126 | 2026-04-30T19:09:08Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |

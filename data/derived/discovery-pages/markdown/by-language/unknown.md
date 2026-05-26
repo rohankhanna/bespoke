@@ -1,6 +1,6 @@
 # Unknown
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 ## Active filters
 
@@ -1217,7 +1217,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jinlong17/V2VLC](https://github.com/jinlong17/V2VLC) | 16 | 2024-07-09T05:21:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [koreader/koreader-artwork](https://github.com/koreader/koreader-artwork) | 0 | 2024-07-06T10:54:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [coqui-ai/TTS-papers](https://github.com/coqui-ai/TTS-papers) | 728 | 2024-07-04T15:36:15Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
-| [IDEA-Research/awesome-detection-transformer](https://github.com/IDEA-Research/awesome-detection-transformer) | 1400 | 2024-07-04T09:42:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [IDEA-Research/awesome-detection-transformer](https://github.com/IDEA-Research/awesome-detection-transformer) | 1401 | 2024-07-04T09:42:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [wanderview/quota-storage-partitioning](https://github.com/wanderview/quota-storage-partitioning) | 10 | 2024-07-03T09:17:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [babel/rfcs](https://github.com/babel/rfcs) | 24 | 2024-06-30T18:41:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Alamofire/Foundation](https://github.com/Alamofire/Foundation) | 687 | 2024-06-30T18:08:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -1240,7 +1240,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reactjs/rfcs](https://github.com/reactjs/rfcs) | 5794 | 2024-06-11T05:12:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/live-share](https://github.com/microsoft/live-share) | 2376 | 2024-06-07T20:27:38Z | Unknown | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [github/MVG](https://github.com/github/MVG) | 408 | 2024-06-06T09:18:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 265 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 266 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [hchiam/learning-trustedTypes](https://github.com/hchiam/learning-trustedTypes) | 1 | 2024-06-05T22:16:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [webassemblylabs/webassembly-language-runtimes](https://github.com/webassemblylabs/webassembly-language-runtimes) | 61 | 2024-06-05T20:50:51Z | Unknown | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [Biscuit-Theme/alacritty](https://github.com/Biscuit-Theme/alacritty) | 3 | 2024-06-05T18:24:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -1935,7 +1935,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flathub/flathub](https://github.com/flathub/flathub) | 1432 | 2026-04-22T12:55:34Z | Unknown | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [syntax-tree/mdast](https://github.com/syntax-tree/mdast) | 1419 | 2026-02-04T18:45:51Z | Unknown | Infrastructure/tooling | 3 | 5 | 4 | 4 |
 | [r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets) | 1418 | 2024-10-11T08:23:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [IDEA-Research/awesome-detection-transformer](https://github.com/IDEA-Research/awesome-detection-transformer) | 1400 | 2024-07-04T09:42:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [IDEA-Research/awesome-detection-transformer](https://github.com/IDEA-Research/awesome-detection-transformer) | 1401 | 2024-07-04T09:42:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ad-si/awesome-music-production](https://github.com/ad-si/awesome-music-production) | 1393 | 2026-04-27T16:13:02Z | Unknown | Service/API | 8 | 1 | 8 | 8 |
 | [zapret-info/z-i](https://github.com/zapret-info/z-i) | 1389 | 2025-10-01T11:13:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Computer-Vision-in-the-Wild/CVinW_Readings](https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings) | 1368 | 2024-03-14T18:59:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -2198,8 +2198,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sclorg/django-ex](https://github.com/sclorg/django-ex) | 269 | 2025-10-09T12:15:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 268 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [lxgw/LxgwXiHei](https://github.com/lxgw/LxgwXiHei) | 267 | 2026-05-03T17:16:25Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 266 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [nicolas-chaulet/torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) | 266 | 2021-12-10T20:17:18Z | Unknown | Infrastructure/tooling | 3 | 12 | 3 | 3 |
-| [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 265 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [mayhemantt/mayhemantt](https://github.com/mayhemantt/mayhemantt) | 265 | 2023-03-02T09:36:20Z | Unknown | Unknown | 14 | 0 | 14 | 14 |
 | [the-guild-org/Stack](https://github.com/the-guild-org/Stack) | 263 | 2022-08-11T11:53:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [oh-my-fish/packages-main](https://github.com/oh-my-fish/packages-main) | 260 | 2026-01-06T17:40:02Z | Unknown | Infrastructure/tooling | 3 | 1 | 5 | 5 |

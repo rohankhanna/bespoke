@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 72,
-    "observations": 73,
-    "repos": 13,
-    "terms": 72
+    "components": 66,
+    "concepts": 58,
+    "observations": 59,
+    "repos": 12,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "babashka/nbb",
     "bazel-contrib/rules_kotlin",
@@ -21,7 +21,6 @@
     "fsprojects/FSharp.Data.GraphQL",
     "google/protobuf.dart",
     "karafka/rdkafka-ruby",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "meshcat-dev/meshcat",
     "openbsd/ports",

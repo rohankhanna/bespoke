@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 25
+    "components": 172,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 5,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "matter-js/matter.js",
+    "mightyiam/eslint-config-love",
     "stx-labs/stacks.js",
     "unplugin/unplugin-imagemin"
   ]

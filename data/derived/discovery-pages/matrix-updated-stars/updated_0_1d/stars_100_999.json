@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 205,
-    "observations": 206,
-    "repos": 26,
-    "terms": 205
+    "components": 424,
+    "concepts": 250,
+    "observations": 251,
+    "repos": 33,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
     "all-contributors/app",
     "apalache-mc/apalache",
+    "aristoteleo/PantheonOS",
     "astroautomata/SymbolicRegression.jl",
     "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint-visual-studio-code",
@@ -26,11 +27,17 @@
     "confluentinc/librdkafka",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "EmmyLuaLs/emmylua-analyzer-rust",
+    "flagos-ai/FlagCX",
     "GDevelopApp/GDevelop-extensions",
     "googlefonts/ufo2ft",
     "ipsilon/evmone",
+    "jupyter-server/jupyter_server",
+    "machinewrapped/llm-subtrans",
     "matter-js/matter.js",
+    "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",
+    "OpenHands/ToM-SWE",
+    "pypa/build",
     "scverse/rapids-singlecell",
     "servo/stylo",
     "spring-projects/spring-tools",

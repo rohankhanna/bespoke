@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28504,
-    "concepts": 15241,
-    "observations": 15293,
-    "repos": 5516,
-    "terms": 15242
+    "components": 28520,
+    "concepts": 15279,
+    "observations": 15331,
+    "repos": 5521,
+    "terms": 15278
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -680,6 +680,7 @@
     "arkworks-rs/spartan",
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
+    "Arlorean/Voxels",
     "ArmandPhilippot/coldark",
     "Armour/vue-typescript-admin-docs",
     "Armour/vue-typescript-admin-mock-server",
@@ -2020,6 +2021,7 @@
     "electron-userland/electron-windows-msix",
     "electron/windows-sign",
     "electronicsguy/HTTPSRedirect",
+    "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
     "elem-azar-unis/CRDT-Redis",
     "ElementsProject/cln-application",
     "EleutherAI/github-downloader",
@@ -2298,6 +2300,7 @@
     "foo-dogsquared/hugo-mod-simple-icons",
     "foojayio/badges",
     "FooSoft/md2vim",
+    "FooSoft/yomichan-import",
     "forcedotcom/agents",
     "formigarafa/zxcvbn-rb",
     "fortanix/rust-mbedtls",
@@ -3266,6 +3269,7 @@
     "karafka/karafka-web",
     "karancode/asdf-aws-vault",
     "karma-runner/karma-qunit",
+    "Kartoffel0/Memo2Anki",
     "Kartoffel0/Mokuro2Pdf",
     "Kastalien-Research/thoughtbox",
     "kaste/SublimeLinter-any-lsp",
@@ -5164,7 +5168,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5362,6 +5366,7 @@
     "WebCu/gatsby-material-kit-react",
     "webdataset/WebDataset.jl",
     "webdriverio/awesome-webdriverio",
+    "WebReflection/jsdon",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
     "webview2/EdgeSharp.Samples",

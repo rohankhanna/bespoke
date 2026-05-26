@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 832
-- terms: 1883
-- components: 2036
-- concepts: 1890
-- observations: 1896
+- repos: 835
+- terms: 1911
+- components: 2052
+- concepts: 1918
+- observations: 1924
 
 ## Static behavior
 
@@ -456,6 +456,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [davanstrien/haiku-dpo](https://github.com/davanstrien/haiku-dpo) | 72 | 2024-02-29T13:44:40Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [BlackHC/batchbald_redux](https://github.com/BlackHC/batchbald_redux) | 77 | 2024-02-28T23:12:02Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [JKamsker/LiteDB.Migration](https://github.com/JKamsker/LiteDB.Migration) | 18 | 2024-02-26T23:24:38Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows](https://github.com/ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows) | 24 | 2024-02-26T15:41:05Z | Other | Unknown | 20 | 0 | 20 | 20 |
 | [alexhiggins732/BLlamaSharp.ChatGpt.Blazor](https://github.com/alexhiggins732/BLlamaSharp.ChatGpt.Blazor) | 71 | 2024-02-26T01:26:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [deanwiseman/DartSassBuilder](https://github.com/deanwiseman/DartSassBuilder) | 38 | 2024-02-25T14:09:28Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [aaronjensen/eslintd-fix](https://github.com/aaronjensen/eslintd-fix) | 66 | 2024-02-24T15:17:56Z | Other | Unknown | 2 | 0 | 2 | 2 |
@@ -509,6 +510,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [barracudanetworks/lighthouse](https://github.com/barracudanetworks/lighthouse) | 61 | 2023-11-21T00:18:19Z | Other | Infrastructure/tooling | 5 | 9 | 6 | 6 |
 | [0xc0000054/libheif-sharp-samples](https://github.com/0xC0000054/libheif-sharp-samples) | 19 | 2023-11-20T01:10:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0xC0000054/libheif-sharp](https://github.com/0xC0000054/libheif-sharp) | 70 | 2023-11-20T00:28:30Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [WebReflection/jsdon](https://github.com/WebReflection/jsdon) | 65 | 2023-11-16T08:31:44Z | Other | Infrastructure/tooling | 1 | 16 | 1 | 1 |
 | [nvim-flutter/pubspec-assist.nvim](https://github.com/nvim-flutter/pubspec-assist.nvim) | 32 | 2023-11-15T10:41:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Kartoffel0/Mokuro2Pdf](https://github.com/Kartoffel0/Mokuro2Pdf) | 56 | 2023-11-13T01:56:32Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [1jsingh/Divide-Evaluate-and-Refine](https://github.com/1jsingh/Divide-Evaluate-and-Refine) | 27 | 2023-11-11T05:02:17Z | Other | Unknown | 4 | 0 | 4 | 4 |
@@ -542,6 +544,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gdkrmr/lsp-julia](https://github.com/gdkrmr/lsp-julia) | 73 | 2023-09-15T06:55:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [yousty/event_store_client](https://github.com/yousty/event_store_client) | 40 | 2023-09-14T08:03:23Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [bookingcom/perl-Net-Kafka](https://github.com/bookingcom/perl-Net-Kafka) | 13 | 2023-09-08T14:51:47Z | Other | CLI | 5 | 0 | 5 | 5 |
+| [Arlorean/Voxels](https://github.com/Arlorean/Voxels) | 85 | 2023-08-31T19:10:48Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [lambdaisland/kaocha-cljs2](https://github.com/lambdaisland/kaocha-cljs2) | 32 | 2023-08-24T20:27:31Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [fredcamps/lsp-jedi](https://github.com/fredcamps/lsp-jedi) | 48 | 2023-08-24T19:08:47Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [browserslist/browserslist-useragent-ruby](https://github.com/browserslist/browserslist-useragent-ruby) | 32 | 2023-08-22T07:37:24Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -935,6 +938,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lite-xl/lite-xl-colors](https://github.com/lite-xl/lite-xl-colors) | 85 | 2025-10-14T17:32:17Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [babashka/http-server](https://github.com/babashka/http-server) | 85 | 2025-09-02T17:47:30Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [Helsinki-NLP/OPUS-CAT](https://github.com/Helsinki-NLP/OPUS-CAT) | 85 | 2025-02-04T09:20:57Z | Other | Model/data | 7 | 0 | 7 | 7 |
+| [Arlorean/Voxels](https://github.com/Arlorean/Voxels) | 85 | 2023-08-31T19:10:48Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [alexandrosstergiou/adaPool](https://github.com/alexandrosstergiou/adaPool) | 85 | 2023-03-27T14:17:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vale-cli/Google](https://github.com/vale-cli/Google) | 84 | 2025-04-11T04:43:53Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [zef/vim-cycle](https://github.com/zef/vim-cycle) | 84 | 2025-01-23T17:05:37Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1059,6 +1063,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenGVLab/TPO](https://github.com/OpenGVLab/TPO) | 65 | 2025-07-22T07:47:48Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [abap-ai/mcp](https://github.com/abap-ai/mcp) | 65 | 2025-07-20T08:33:33Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [thenbe/neotest-playwright](https://github.com/thenbe/neotest-playwright) | 65 | 2024-07-08T19:34:46Z | Other | Unknown | 0 | 20 | 0 | 0 |
+| [WebReflection/jsdon](https://github.com/WebReflection/jsdon) | 65 | 2023-11-16T08:31:44Z | Other | Infrastructure/tooling | 1 | 16 | 1 | 1 |
 | [lambdaisland/chui](https://github.com/lambdaisland/chui) | 65 | 2023-08-01T04:09:09Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [LAION-AI/LAION-SAFETY](https://github.com/LAION-AI/LAION-SAFETY) | 65 | 2022-10-14T15:00:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [niuiic/code-shot.nvim](https://github.com/niuiic/code-shot.nvim) | 64 | 2025-01-04T01:59:16Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -1462,6 +1467,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [badgen/badgen-icons](https://github.com/badgen/badgen-icons) | 24 | 2024-08-06T12:58:01Z | Other | Service/API | 2 | 0 | 2 | 2 |
 | [hhu-stups/prolog-jupyter-kernel](https://github.com/hhu-stups/prolog-jupyter-kernel) | 24 | 2024-05-07T10:35:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kodxana/RunPod-FilleUploader](https://github.com/kodxana/RunPod-FilleUploader) | 24 | 2024-03-27T19:41:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows](https://github.com/ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows) | 24 | 2024-02-26T15:41:05Z | Other | Unknown | 20 | 0 | 20 | 20 |
 | [JuliaLang/SoftGlobalScope.jl](https://github.com/JuliaLang/SoftGlobalScope.jl) | 24 | 2023-05-16T17:24:28Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [0x0ade/FEZMod-Legacy](https://github.com/0x0ade/FEZMod-Legacy) | 24 | 2023-04-16T07:15:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wentasah/emacsvterm.jl](https://github.com/wentasah/EmacsVterm.jl) | 24 | 2022-10-26T22:35:23Z | Other | CLI | 2 | 1 | 2 | 2 |

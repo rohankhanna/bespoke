@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
+- repos: 30
 - terms: 28
 - components: 45
 - concepts: 28
@@ -56,7 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [calda/SwiftFormat-nightly](https://github.com/calda/SwiftFormat-nightly) | 1 | 2026-04-28T00:14:46Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Resources-Lists-Index](https://github.com/danielrosehill/Resources-Lists-Index) | 1 | 2026-04-27T08:40:03Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [hiyouga/llamafactory-community](https://github.com/hiyouga/llamafactory-community) | 7 | 2026-04-26T19:11:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [HKUDS/.github](https://github.com/HKUDS/.github) | 5 | 2026-04-26T06:41:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -72,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/meetings](https://github.com/stdlib-js/meetings) | 5 | 2026-05-01T06:18:32Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [OpenSC/Nightly](https://github.com/OpenSC/Nightly) | 5 | 2026-04-30T16:15:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 5 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |
-| [HKUDS/.github](https://github.com/HKUDS/.github) | 5 | 2026-04-26T06:41:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 4 | 2026-05-06T17:10:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-straight/gnu-elpa-mirror](https://github.com/emacs-straight/gnu-elpa-mirror) | 4 | 2026-04-29T00:20:16Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [dmBots/DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) | 4 | 2026-04-28T05:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

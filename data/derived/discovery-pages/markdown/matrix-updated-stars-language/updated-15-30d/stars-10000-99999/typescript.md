@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 79
-- terms: 910
-- components: 4451
-- concepts: 912
-- observations: 916
+- repos: 80
+- terms: 914
+- components: 4499
+- concepts: 916
+- observations: 920
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14717 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 28183 | 2026-05-06T13:32:59Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
 | [vitejs/vite](https://github.com/vitejs/vite) | 80403 | 2026-05-05T14:41:42Z | TypeScript | Infrastructure/tooling | 10 | 41 | 10 | 10 |
 | [vuejs/core](https://github.com/vuejs/core) | 53603 | 2026-05-05T13:16:09Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
@@ -170,6 +171,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 16439 | 2026-04-29T19:46:19Z | TypeScript | Infrastructure/tooling | 9 | 41 | 9 | 9 |
 | [faker-js/faker](https://github.com/faker-js/faker) | 15031 | 2026-05-02T21:49:18Z | TypeScript | Infrastructure/tooling | 11 | 42 | 11 | 11 |
 | [scalar/scalar](https://github.com/scalar/scalar) | 14880 | 2026-04-30T01:41:39Z | TypeScript | CLI | 15 | 58 | 15 | 15 |
+| [ajv-validator/ajv](https://github.com/ajv-validator/ajv) | 14717 | 2026-05-12T07:38:47Z | TypeScript | Infrastructure/tooling | 4 | 48 | 4 | 4 |
 | [formatjs/formatjs](https://github.com/formatjs/formatjs) | 14706 | 2026-04-29T23:38:08Z | TypeScript | Infrastructure/tooling | 15 | 169 | 15 | 15 |
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | 14538 | 2026-04-28T21:15:36Z | TypeScript | Infrastructure/tooling | 23 | 40 | 23 | 23 |
 | [reduxjs/redux-devtools](https://github.com/reduxjs/redux-devtools) | 14353 | 2026-05-02T13:16:44Z | TypeScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |

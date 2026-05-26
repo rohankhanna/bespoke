@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 11350,
-    "concepts": 7843,
-    "observations": 7872,
+    "components": 11357,
+    "concepts": 7848,
+    "observations": 7877,
     "repos": 2111,
     "terms": 7826
   },
@@ -10,7 +10,7 @@
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -1456,6 +1456,7 @@
     "near/near-abi-client-rs",
     "near/near-abi-rs",
     "nebelgrau77/airsniffer-esp32c6",
+    "NeighTools/UnityDoorstop",
     "nelson-lang/nelson-website",
     "Netflix/Hystrix",
     "newtheatre/history-project",
@@ -1857,7 +1858,6 @@
     "stsquad/emacs_chrome",
     "styleguidist/react-docgen-typescript",
     "SublimeLinter/SublimeLinter",
-    "sugarme/tokenizer",
     "suo/lintrunner",
     "superclaude-org/supergemini_framework",
     "supermacro/neverthrow",
@@ -1888,7 +1888,6 @@
     "TEN-framework/ten-turn-detection",
     "TEN-framework/ten-vad",
     "Tencent-Hunyuan/flex-block-attn",
-    "Tencent-Hunyuan/HunyuanDiT",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/TFace",
     "Tencent/tquic",
@@ -2118,6 +2117,7 @@
     "zippoxer/recall",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
     "zkcrypto/bls12_381",
+    "zkcrypto/jubjub",
     "zlib-ng/deflatebench",
     "zonyitoo/rust-ini",
     "zsh-users/zsh-syntax-highlighting",

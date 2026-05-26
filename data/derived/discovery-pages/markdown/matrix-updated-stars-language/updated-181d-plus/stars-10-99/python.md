@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 852
-- terms: 1470
+- repos: 853
+- terms: 1473
 - components: 700
-- concepts: 1491
-- observations: 1493
+- concepts: 1495
+- observations: 1497
 
 ## Static behavior
 
@@ -291,6 +291,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abdelfattah-lab/nitro](https://github.com/abdelfattah-lab/nitro) | 29 | 2024-12-17T03:22:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [OpenVisualCloud/Ad-Insertion-Sample](https://github.com/OpenVisualCloud/Ad-Insertion-Sample) | 98 | 2024-12-16T18:26:22Z | Python | Service/API | 6 | 0 | 6 | 6 |
 | [horennel/LaTex-OCR_for_macOS](https://github.com/horennel/LaTex-OCR_for_macOS) | 19 | 2024-12-14T09:26:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [Kartoffel0/Memo2Anki](https://github.com/Kartoffel0/Memo2Anki) | 10 | 2024-12-13T23:46:28Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [tongyx361/symeval](https://github.com/tongyx361/symeval) | 22 | 2024-12-12T22:59:02Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [kendryte/canmv_examples](https://github.com/kendryte/canmv_examples) | 33 | 2024-12-10T02:14:38Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [autodeployai/pypmml-spark](https://github.com/autodeployai/pypmml-spark) | 22 | 2024-12-09T23:48:07Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -595,7 +596,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aimhubio/aim-spacy](https://github.com/aimhubio/aim-spacy) | 35 | 2023-07-17T10:22:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [byrnereese/linkchecker-mkdocs](https://github.com/byrnereese/linkchecker-mkdocs) | 17 | 2023-07-14T20:12:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [clayrisser/sphinx-markdown-parser](https://github.com/clayrisser/sphinx-markdown-parser) | 20 | 2023-07-13T06:35:20Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [clayrisser/sphinx-jekyll-builder](https://github.com/clayrisser/sphinx-jekyll-builder) | 21 | 2023-07-13T06:20:17Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [clayrisser/sphinx-jekyll-builder](https://github.com/clayrisser/sphinx-jekyll-builder) | 21 | 2023-07-13T06:20:17Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [neerajwagh/eeg-self-supervision](https://github.com/neerajwagh/eeg-self-supervision) | 23 | 2023-07-12T16:01:34Z | Python | Infrastructure/tooling | 19 | 0 | 19 | 19 |
 | [airaria/GRAIN](https://github.com/airaria/GRAIN) | 19 | 2023-07-12T13:42:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Advocate99/DragDiffusion](https://github.com/Advocate99/DragDiffusion) | 37 | 2023-07-07T13:44:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1564,7 +1565,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [takuseno/d3rlpy-benchmarks](https://github.com/takuseno/d3rlpy-benchmarks) | 21 | 2023-11-28T12:32:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ckan/ckan-service-provider](https://github.com/ckan/ckan-service-provider) | 21 | 2023-10-16T13:58:51Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [naman-ntc/fastcode](https://github.com/Naman-ntc/FastCode) | 21 | 2023-10-03T16:13:47Z | Python | Model/data | 6 | 0 | 6 | 6 |
-| [clayrisser/sphinx-jekyll-builder](https://github.com/clayrisser/sphinx-jekyll-builder) | 21 | 2023-07-13T06:20:17Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [clayrisser/sphinx-jekyll-builder](https://github.com/clayrisser/sphinx-jekyll-builder) | 21 | 2023-07-13T06:20:17Z | Python | Unknown | 6 | 0 | 7 | 7 |
 | [higlass/higlass-server](https://github.com/higlass/higlass-server) | 21 | 2023-05-23T02:03:39Z | Python | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [tyco986/AlphaPose_jittor](https://github.com/tyco986/AlphaPose_jittor) | 21 | 2022-09-26T14:29:50Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [microsoft/openpai-runtime](https://github.com/microsoft/openpai-runtime) | 21 | 2022-05-24T07:57:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -1724,6 +1725,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [llyx97/FETV-EVAL](https://github.com/llyx97/FETV-EVAL) | 10 | 2025-04-06T02:45:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [WrongProtocol/YuE-exllamav2-UI](https://github.com/WrongProtocol/YuE-exllamav2-UI) | 10 | 2025-02-11T02:42:48Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [teelinsan/aclpubcheck-gui](https://github.com/teelinsan/aclpubcheck-gui) | 10 | 2025-01-08T16:16:37Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [Kartoffel0/Memo2Anki](https://github.com/Kartoffel0/Memo2Anki) | 10 | 2024-12-13T23:46:28Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [BMW-InnovationLab/BMW-TensorFlow-Training-GUI](https://github.com/BMW-InnovationLab/BMW-TensorFlow-Training-GUI) | 10 | 2024-05-25T20:14:20Z | Python | Model/data | 19 | 0 | 19 | 19 |
 | [emibcn/pywisp](https://github.com/emibcn/pywisp) | 10 | 2024-04-26T10:38:34Z | Python | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [WisdomShell/text-generation-inference](https://github.com/WisdomShell/text-generation-inference) | 10 | 2024-04-26T03:20:42Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6293,
-    "concepts": 1247,
-    "observations": 1250,
-    "repos": 140,
-    "terms": 1239
+    "components": 6229,
+    "concepts": 1239,
+    "observations": 1242,
+    "repos": 138,
+    "terms": 1231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -85,7 +85,6 @@
     "kepano/defuddle",
     "mathjax/MathJax-src",
     "mdn/yari",
-    "messageformat/messageformat",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-python",
     "modelcontextprotocol/inspector",
@@ -121,7 +120,6 @@
     "SilentVoid13/Templater",
     "sinclairzx81/typebox",
     "solidjs-community/solid-primitives",
-    "solidjs/solid-router",
     "sparkjsdev/spark",
     "stackblitz-labs/pkg.pr.new",
     "standard/eslint-config-standard",

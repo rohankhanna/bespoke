@@ -4,13 +4,13 @@
     "concepts": 8835,
     "observations": 8862,
     "repos": 2091,
-    "terms": 8825
+    "terms": 8824
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -1968,7 +1968,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

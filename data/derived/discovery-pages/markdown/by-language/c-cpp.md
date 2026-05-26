@@ -1,6 +1,6 @@
 # C/C++
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 ## Counts
 
-- repos: 2379
-- terms: 11361
-- components: 9597
-- concepts: 11454
-- observations: 11482
+- repos: 2380
+- terms: 11363
+- components: 9601
+- concepts: 11459
+- observations: 11487
 
 ## Static behavior
 
@@ -22,28 +22,28 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 113083 | 2026-05-26T06:12:51Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [electron/electron](https://github.com/electron/electron) | 121420 | 2026-05-26T04:57:15Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 209 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2635 | 2026-05-25T21:56:23Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [electron/electron](https://github.com/electron/electron) | 121415 | 2026-05-25T20:00:15Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
-| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4541 | 2026-05-25T19:49:26Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 112999 | 2026-05-25T18:38:02Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4543 | 2026-05-25T19:49:26Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5670 | 2026-05-25T17:43:18Z | C/C++ | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T16:35:53Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 98 | 2026-05-25T16:29:51Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |
 | [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T15:24:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [argotorg/solidity](https://github.com/argotorg/solidity) | 25635 | 2026-05-25T11:20:13Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50112 | 2026-05-25T10:06:49Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14695 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14698 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1258 | 2026-05-25T09:32:00Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1389 | 2026-05-25T07:55:24Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 210 | 2026-05-25T05:20:11Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35347 | 2026-05-25T03:32:43Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24514 | 2026-05-24T22:45:34Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24517 | 2026-05-24T22:45:34Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1275 | 2026-05-24T08:25:27Z | C/C++ | Library | 5 | 0 | 5 | 5 |
-| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4484 | 2026-05-23T23:47:52Z | C/C++ | Infrastructure/tooling | 13 | 27 | 13 | 13 |
+| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4484 | 2026-05-23T23:47:52Z | C/C++ | Infrastructure/tooling | 12 | 27 | 13 | 13 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13618 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13619 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1819 | 2026-05-23T20:14:29Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [microsoft/Detours](https://github.com/microsoft/Detours) | 6261 | 2026-05-22T23:48:33Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [luau-lang/luau](https://github.com/luau-lang/luau) | 5559 | 2026-05-22T16:54:35Z | C/C++ | Infrastructure/tooling | 6 | 8 | 6 | 6 |
@@ -54,7 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [doctest/doctest](https://github.com/doctest/doctest) | 6735 | 2026-05-19T06:13:14Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4501 | 2026-05-19T04:17:40Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
-| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1307 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1308 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [iree-org/iree](https://github.com/iree-org/iree) | 3760 | 2026-05-15T23:57:31Z | C/C++ | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | 821 | 2026-05-15T21:19:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [ROCm/rocBLAS](https://github.com/ROCm/rocBLAS) | 394 | 2026-05-15T20:15:23Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
@@ -94,7 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OSGeo/gdal](https://github.com/OSGeo/gdal) | 5895 | 2026-05-07T01:14:50Z | C/C++ | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [ros2/common_interfaces](https://github.com/ros2/common_interfaces) | 355 | 2026-05-06T18:50:00Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [zig-wasm/wasmer-zig-api](https://github.com/zig-wasm/wasmer-zig-api) | 38 | 2026-05-06T11:58:12Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
 | [mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) | 2789 | 2026-05-06T07:08:02Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [sorbet/sorbet](https://github.com/sorbet/sorbet) | 3764 | 2026-05-06T01:37:25Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [foldl/chatllm.cpp](https://github.com/foldl/chatllm.cpp) | 872 | 2026-05-05T22:48:02Z | C/C++ | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -1238,6 +1238,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DiligentGraphics/glfw](https://github.com/DiligentGraphics/glfw) | 0 | 2026-02-07T16:52:59Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [pganalyze/libpg_query](https://github.com/pganalyze/libpg_query) | 1451 | 2026-02-07T16:34:25Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [jokkebk/JUnzip](https://github.com/jokkebk/JUnzip) | 61 | 2026-02-07T08:58:17Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [NeighTools/UnityDoorstop](https://github.com/NeighTools/UnityDoorstop) | 560 | 2026-02-06T20:38:54Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [JuliaInterop/libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia) | 95 | 2026-02-06T20:12:37Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [0aids/imnodes](https://github.com/0aids/imnodes) | 0 | 2026-02-06T04:27:41Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -1748,7 +1749,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marijnheule/drat-trim](https://github.com/marijnheule/drat-trim) | 69 | 2024-11-25T15:20:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [asg017/sqlite-lembed](https://github.com/asg017/sqlite-lembed) | 255 | 2024-11-24T06:10:43Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [nst/JSONTestSuite](https://github.com/nst/JSONTestSuite) | 1136 | 2024-11-22T12:55:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 751 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
+| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 753 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [HKUST-Aerial-Robotics/FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL) | 1394 | 2024-11-19T06:06:55Z | C/C++ | Framework | 4 | 0 | 4 | 4 |
 | [ashima/webgl-noise](https://github.com/ashima/webgl-noise) | 2964 | 2024-11-15T20:49:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [aappleby/smhasher](https://github.com/aappleby/smhasher) | 2859 | 2024-11-14T04:23:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -1873,7 +1874,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hermit-os/hermit-playground](https://github.com/hermit-os/hermit-playground) | 43 | 2024-07-03T15:49:42Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [festvox/flite](https://github.com/festvox/flite) | 1043 | 2024-07-03T04:52:58Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kobolabs/liblzma](https://github.com/kobolabs/liblzma) | 56 | 2024-07-02T15:07:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 713 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 712 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [Chlumsky/artery-font-format](https://github.com/Chlumsky/artery-font-format) | 34 | 2024-06-30T15:33:24Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [espressif/ESP8266_NONOS_SDK](https://github.com/espressif/ESP8266_NONOS_SDK) | 972 | 2024-06-27T03:48:21Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [joan2937/pigpio](https://github.com/joan2937/pigpio) | 1587 | 2024-06-24T15:18:29Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -2107,7 +2108,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PotatoOfDoom/CyberFSR2](https://github.com/PotatoOfDoom/CyberFSR2) | 619 | 2023-09-05T20:34:07Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [kiwi-bdd/Kiwi](https://github.com/kiwi-bdd/Kiwi) | 4121 | 2023-09-05T11:52:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mmp/pbrt-v3](https://github.com/mmp/pbrt-v3) | 5064 | 2023-09-03T11:38:00Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 632 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 632 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [19reborn/NeuS2_TCNN](https://github.com/19reborn/NeuS2_TCNN) | 32 | 2023-09-01T04:35:28Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [tsattler/RansacLib](https://github.com/tsattler/RansacLib) | 383 | 2023-08-31T15:25:26Z | C/C++ | Template/starter | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/Discregrid](https://github.com/InteractiveComputerGraphics/Discregrid) | 312 | 2023-08-31T10:30:00Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -2410,8 +2411,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 194843 | 2026-04-23T18:45:59Z | C/C++ | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 139214 | 2026-04-30T10:07:44Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [facebook/react-native](https://github.com/facebook/react-native) | 125707 | 2026-04-23T00:16:22Z | C/C++ | Infrastructure/tooling | 13 | 75 | 13 | 13 |
-| [electron/electron](https://github.com/electron/electron) | 121415 | 2026-05-25T20:00:15Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 112999 | 2026-05-25T18:38:02Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [electron/electron](https://github.com/electron/electron) | 121420 | 2026-05-26T04:57:15Z | C/C++ | Infrastructure/tooling | 14 | 60 | 14 | 14 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 113083 | 2026-05-26T06:12:51Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [godotengine/godot](https://github.com/godotengine/godot) | 110184 | 2026-05-01T17:51:02Z | C/C++ | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 | [microsoft/terminal](https://github.com/microsoft/terminal) | 102849 | 2026-04-22T00:47:50Z | C/C++ | CLI | 11 | 2 | 11 | 11 |
 | [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) | 88900 | 2026-04-22T23:20:06Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -2471,7 +2472,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [argotorg/solidity](https://github.com/argotorg/solidity) | 25635 | 2026-05-25T11:20:13Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [ml-explore/mlx](https://github.com/ml-explore/mlx) | 25630 | 2026-04-22T04:13:24Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [v8/v8](https://github.com/v8/v8) | 24998 | 2026-04-30T08:36:43Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24514 | 2026-05-24T22:45:34Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24517 | 2026-05-24T22:45:34Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 23850 | 2026-04-24T07:38:24Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 23712 | 2026-05-03T04:43:47Z | C/C++ | CLI | 24 | 12 | 27 | 27 |
 | [chromium/chromium](https://github.com/chromium/chromium) | 23493 | 2026-04-24T00:21:20Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -2527,7 +2528,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Tencent/rapidjson](https://github.com/Tencent/rapidjson) | 15053 | 2025-02-05T13:28:08Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [alibaba/MNN](https://github.com/alibaba/MNN) | 14999 | 2026-04-21T11:31:53Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [glfw/glfw](https://github.com/glfw/glfw) | 14930 | 2026-03-30T18:24:18Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14695 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14698 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [haiwen/seafile](https://github.com/haiwen/seafile) | 14646 | 2026-04-16T02:22:19Z | C/C++ | Unknown | 6 | 0 | 7 | 7 |
 | [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) | 14444 | 2025-10-22T02:13:14Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
 | [davisking/dlib](https://github.com/davisking/dlib) | 14372 | 2026-04-25T16:13:49Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -2539,7 +2540,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [carla-simulator/carla](https://github.com/carla-simulator/carla) | 13900 | 2026-04-30T09:48:53Z | C/C++ | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [mobile-shell/mosh](https://github.com/mobile-shell/mosh) | 13838 | 2026-03-22T20:20:13Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [jedisct1/libsodium](https://github.com/jedisct1/libsodium) | 13627 | 2026-04-16T14:51:33Z | C/C++ | Infrastructure/tooling | 7 | 11 | 7 | 7 |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13618 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13619 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | 13350 | 2026-05-05T19:36:36Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [jonas/tig](https://github.com/jonas/tig) | 13199 | 2026-04-20T18:00:55Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | 13080 | 2026-04-23T06:58:34Z | C/C++ | CLI | 14 | 8 | 14 | 14 |
@@ -2762,7 +2763,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lightvector/KataGo](https://github.com/lightvector/KataGo) | 4568 | 2026-04-21T04:53:10Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [zeux/pugixml](https://github.com/zeux/pugixml) | 4556 | 2026-04-25T21:59:01Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 4545 | 2026-03-28T17:16:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4541 | 2026-05-25T19:49:26Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) | 4543 | 2026-05-25T19:49:26Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [NVIDIA-Omniverse/PhysX](https://github.com/NVIDIA-Omniverse/PhysX) | 4530 | 2026-04-13T10:02:10Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [chromiumembedded/cef](https://github.com/chromiumembedded/cef) | 4524 | 2026-05-01T16:12:50Z | C/C++ | Framework | 3 | 0 | 3 | 3 |
 | [OAID/Tengine](https://github.com/OAID/Tengine) | 4521 | 2025-03-06T07:12:55Z | C/C++ | Infrastructure/tooling | 16 | 7 | 16 | 16 |
@@ -2772,7 +2773,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HKUST-Aerial-Robotics/VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) | 4498 | 2024-05-23T09:17:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [infiniflow/infinity](https://github.com/infiniflow/infinity) | 4492 | 2026-04-18T13:43:13Z | C/C++ | Infrastructure/tooling | 20 | 12 | 20 | 20 |
 | [plasma-umass/coz](https://github.com/plasma-umass/coz) | 4486 | 2026-04-18T13:55:37Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4484 | 2026-05-23T23:47:52Z | C/C++ | Infrastructure/tooling | 13 | 27 | 13 | 13 |
+| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4484 | 2026-05-23T23:47:52Z | C/C++ | Infrastructure/tooling | 12 | 27 | 13 | 13 |
 | [Dav1dde/glad](https://github.com/Dav1dde/glad) | 4483 | 2026-04-09T06:36:29Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [apache/age](https://github.com/apache/age) | 4469 | 2026-04-30T07:16:31Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [skeeto/w64devkit](https://github.com/skeeto/w64devkit) | 4468 | 2026-05-07T17:52:59Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -3178,8 +3179,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim) | 1317 | 2026-05-02T00:23:54Z | C/C++ | Infrastructure/tooling | 23 | 11 | 23 | 23 |
 | [mmorise/World](https://github.com/mmorise/World) | 1313 | 2026-02-18T02:27:12Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [daipeihust/im-select](https://github.com/daipeihust/im-select) | 1311 | 2024-05-25T08:30:24Z | C/C++ | CLI | 4 | 1 | 4 | 4 |
+| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1308 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [InWILL/Locale_Remulator](https://github.com/InWILL/Locale_Remulator) | 1308 | 2025-03-21T17:03:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1307 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [KhronosGroup/SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools) | 1297 | 2026-04-23T18:36:50Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [adamyaxley/Obfuscate](https://github.com/adamyaxley/Obfuscate) | 1297 | 2025-09-03T09:13:50Z | C/C++ | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [astrand/xclip](https://github.com/astrand/xclip) | 1292 | 2025-01-09T22:05:21Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
@@ -3422,8 +3423,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [veorq/SipHash](https://github.com/veorq/SipHash) | 757 | 2026-03-07T07:30:07Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [swaywm/swaybg](https://github.com/swaywm/swaybg) | 755 | 2026-02-25T23:19:14Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [KhronosGroup/OpenCL-SDK](https://github.com/KhronosGroup/OpenCL-SDK) | 755 | 2026-01-27T18:14:08Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 753 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [MegEngine/InferLLM](https://github.com/MegEngine/InferLLM) | 752 | 2024-04-07T01:57:37Z | C/C++ | Framework | 3 | 0 | 3 | 3 |
-| [Robotics-STAR-Lab/RACER](https://github.com/Robotics-STAR-Lab/RACER) | 751 | 2024-11-19T06:07:39Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [ValveSoftware/Fossilize](https://github.com/ValveSoftware/Fossilize) | 749 | 2026-02-26T12:39:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [OAID/AutoKernel](https://github.com/OAID/AutoKernel) | 748 | 2022-09-23T03:32:36Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN) | 739 | 2026-04-14T18:51:11Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
@@ -3438,7 +3439,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bitcoin-core/gui](https://github.com/bitcoin-core/gui) | 714 | 2026-04-23T19:17:06Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [hamcrest/OCHamcrest](https://github.com/hamcrest/OCHamcrest) | 713 | 2026-04-18T16:46:17Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [douglascrockford/JSMin](https://github.com/douglascrockford/JSMin) | 713 | 2026-03-03T18:10:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 713 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [nowar-fonts/Warcraft-Font-Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger) | 712 | 2024-07-01T10:51:12Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [voutcn/megahit](https://github.com/voutcn/megahit) | 711 | 2025-10-28T04:07:04Z | C/C++ | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [logicalclocks/rondb](https://github.com/logicalclocks/rondb) | 708 | 2026-04-29T09:10:55Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Yubico/libfido2](https://github.com/Yubico/libfido2) | 705 | 2026-04-15T12:54:20Z | C/C++ | Infrastructure/tooling | 14 | 6 | 14 | 14 |
@@ -3480,7 +3481,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [iwongu/sqlite3pp](https://github.com/iwongu/sqlite3pp) | 635 | 2026-02-08T19:41:41Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [libbitcoin/libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer) | 634 | 2024-03-01T22:16:22Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
 | [iamaisim/ProjectAirSim](https://github.com/iamaisim/ProjectAirSim) | 632 | 2026-04-27T21:06:03Z | C/C++ | Infrastructure/tooling | 12 | 5 | 12 | 12 |
-| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 632 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 21 | 19 | 21 | 21 |
+| [unum-cloud/UStore](https://github.com/unum-cloud/UStore) | 632 | 2023-09-01T12:18:21Z | C/C++ | Infrastructure/tooling | 20 | 19 | 21 | 21 |
 | [libnice/libnice](https://github.com/libnice/libnice) | 631 | 2026-04-30T12:06:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [axodox/axodox-machinelearning](https://github.com/axodox/axodox-machinelearning) | 631 | 2025-05-29T17:26:00Z | C/C++ | Model/data | 12 | 0 | 12 | 12 |
 | [twhui/LiteFlowNet](https://github.com/twhui/LiteFlowNet) | 629 | 2023-03-21T07:13:27Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
@@ -3495,7 +3496,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [weisongwen/GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) | 613 | 2022-12-29T04:13:20Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [Imagick/imagick](https://github.com/Imagick/imagick) | 612 | 2026-01-01T13:01:51Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [a-e-k/canvas_ity](https://github.com/a-e-k/canvas_ity) | 611 | 2024-02-29T09:46:44Z | C/C++ | Infrastructure/tooling | 12 | 1 | 13 | 13 |
-| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 610 | 2026-05-06T10:45:23Z | C/C++ | Infrastructure/tooling | 4 | 14 | 5 | 5 |
 | [nvpro-samples/vk_raytrace](https://github.com/nvpro-samples/vk_raytrace) | 610 | 2025-09-29T11:20:15Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [rspatial/terra](https://github.com/rspatial/terra) | 609 | 2026-04-29T10:28:12Z | C/C++ | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [KlugerLab/FIt-SNE](https://github.com/KlugerLab/FIt-SNE) | 609 | 2021-09-13T00:21:33Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
@@ -3534,6 +3535,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [memononen/libtess2](https://github.com/memononen/libtess2) | 565 | 2025-10-15T22:24:31Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Blosc/c-blosc2](https://github.com/Blosc/c-blosc2) | 562 | 2026-05-03T07:06:03Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [NeighTools/UnityDoorstop](https://github.com/NeighTools/UnityDoorstop) | 560 | 2026-02-06T20:38:54Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [c42f/tinyformat](https://github.com/c42f/tinyformat) | 560 | 2024-01-31T01:04:58Z | C/C++ | Library | 3 | 0 | 3 | 3 |
 | [webgpu-native/webgpu-headers](https://github.com/webgpu-native/webgpu-headers) | 556 | 2026-03-31T08:13:55Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [LunarG/gfxreconstruct](https://github.com/LunarG/gfxreconstruct) | 555 | 2026-04-30T16:25:04Z | C/C++ | Infrastructure/tooling | 4 | 12 | 4 | 4 |
@@ -3877,9 +3879,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/aws-ofi-nccl](https://github.com/aws/aws-ofi-nccl) | 211 | 2026-04-23T21:13:24Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [url-kaist/outlier-robust-radar-odometry](https://github.com/url-kaist/outlier-robust-radar-odometry) | 211 | 2025-03-27T22:25:07Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [igrr/mkspiffs](https://github.com/igrr/mkspiffs) | 211 | 2024-08-01T07:01:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 210 | 2026-05-25T05:20:11Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [ROCm/MIVisionX](https://github.com/ROCm/MIVisionX) | 210 | 2026-04-23T19:59:57Z | C/C++ | Infrastructure/tooling | 21 | 4 | 21 | 21 |
 | [mapbox/mapbox-gl-native-ios](https://github.com/mapbox/mapbox-gl-native-ios) | 210 | 2023-04-20T14:25:04Z | C/C++ | Unknown | 0 | 30 | 0 | 0 |
+| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 209 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [enjoy-digital/litex_m2sdr](https://github.com/enjoy-digital/litex_m2sdr) | 207 | 2026-05-01T10:08:51Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [alex-petrenko/faster-fifo](https://github.com/alex-petrenko/faster-fifo) | 207 | 2025-04-28T11:39:12Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [openxrlab/xrsfm](https://github.com/openxrlab/xrsfm) | 207 | 2024-07-31T03:41:44Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |

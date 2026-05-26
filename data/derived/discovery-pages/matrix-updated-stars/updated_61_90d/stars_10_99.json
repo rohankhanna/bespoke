@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1867,
-    "concepts": 1072,
-    "observations": 1074,
-    "repos": 341,
-    "terms": 1070
+    "components": 1878,
+    "concepts": 1076,
+    "observations": 1078,
+    "repos": 343,
+    "terms": 1074
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -137,6 +137,7 @@
     "DamageLabs/paper_trail_manager",
     "danielrosehill/Index",
     "dannyhw/react-native-storybook-starter",
+    "databrickslabs/pylint-plugin",
     "datachainlab/ethereum-ibc-relay-chain",
     "dbuenzli/logs",
     "dcampbell24/mdbook-djot",
@@ -214,6 +215,7 @@
     "iterate-ch/docs",
     "ithiria894/awesome-claude-code-hooks",
     "j20001970/GDMP-demo",
+    "Jack-Works/react-refresh-transformer",
     "jakewvincent/texmagic.nvim",
     "jasonjmcghee/ron-lsp",
     "jawwadfirdousi/agent-skills",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 159
-- terms: 811
-- components: 1146
-- concepts: 808
-- observations: 817
+- repos: 160
+- terms: 817
+- components: 1154
+- concepts: 814
+- observations: 823
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [eitsupi/arf](https://github.com/eitsupi/arf) | 234 | 2026-04-26T06:18:47Z | Rust | CLI | 6 | 8 | 6 | 6 |
 | [microsoft/python-environment-tools](https://github.com/microsoft/python-environment-tools) | 202 | 2026-04-25T00:15:55Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [intel/ittapi](https://github.com/intel/ittapi) | 134 | 2026-04-24T15:45:40Z | Rust | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [DioxusLabs/docsite](https://github.com/DioxusLabs/docsite) | 194 | 2026-04-24T14:29:12Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
@@ -106,7 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mplanchard/cuid-rust](https://github.com/mplanchard/cuid-rust) | 113 | 2026-04-19T03:58:43Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [EspressoSystems/jellyfish](https://github.com/EspressoSystems/jellyfish) | 515 | 2026-04-19T00:42:49Z | Rust | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [tekumara/typos-lsp](https://github.com/tekumara/typos-lsp) | 541 | 2026-04-19T00:12:25Z | Rust | CLI | 7 | 29 | 7 | 7 |
-| [psmux/pstop](https://github.com/psmux/pstop) | 154 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
+| [psmux/pstop](https://github.com/psmux/pstop) | 156 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
 | [Boddlnagg/midir](https://github.com/Boddlnagg/midir) | 800 | 2026-04-18T12:07:36Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [LaurenzV/hayro](https://github.com/LaurenzV/hayro) | 636 | 2026-04-18T11:11:49Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [agent-sh/agnix](https://github.com/agent-sh/agnix) | 188 | 2026-04-18T10:51:39Z | Rust | CLI | 6 | 12 | 0 | 0 |
@@ -298,6 +299,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [azdavis/millet](https://github.com/azdavis/millet) | 245 | 2026-04-12T17:38:56Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [arkworks-rs/crypto-primitives](https://github.com/arkworks-rs/crypto-primitives) | 244 | 2026-04-23T15:52:36Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [NixOS/nix-installer](https://github.com/NixOS/nix-installer) | 237 | 2026-04-23T20:28:48Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [eitsupi/arf](https://github.com/eitsupi/arf) | 234 | 2026-04-26T06:18:47Z | Rust | CLI | 6 | 8 | 6 | 6 |
 | [mozillazg/rust-pinyin](https://github.com/mozillazg/rust-pinyin) | 233 | 2026-04-20T22:41:28Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [alloy-rs/examples](https://github.com/alloy-rs/examples) | 229 | 2026-04-16T09:02:31Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [flatpak/flat-manager](https://github.com/flatpak/flat-manager) | 224 | 2026-04-22T21:38:07Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -325,7 +327,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a1phyr/assets_manager](https://github.com/a1phyr/assets_manager) | 162 | 2026-04-15T17:58:37Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [mitsuhiko/similar-asserts](https://github.com/mitsuhiko/similar-asserts) | 162 | 2026-04-01T21:12:32Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [dtormoen/tsk-tsk](https://github.com/dtormoen/tsk-tsk) | 159 | 2026-04-15T16:57:14Z | Rust | Infrastructure/tooling | 3 | 3 | 0 | 0 |
-| [psmux/pstop](https://github.com/psmux/pstop) | 154 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
+| [psmux/pstop](https://github.com/psmux/pstop) | 156 | 2026-04-18T16:34:54Z | Rust | CLI | 14 | 6 | 14 | 14 |
 | [crate-ci/committed](https://github.com/crate-ci/committed) | 152 | 2026-04-16T23:11:00Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [nielsgroen/claude-tmux](https://github.com/nielsgroen/claude-tmux) | 143 | 2026-04-17T20:14:31Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [nix-community/namaka](https://github.com/nix-community/namaka) | 140 | 2026-04-23T17:54:01Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |

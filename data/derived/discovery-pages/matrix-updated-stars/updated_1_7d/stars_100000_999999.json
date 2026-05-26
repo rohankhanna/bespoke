@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 2,
-    "terms": 38
+    "components": 14,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 1,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
-    "langchain-ai/langchain",
     "ohmyzsh/ohmyzsh"
   ]
 }

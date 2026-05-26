@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11754,
-    "concepts": 6748,
-    "observations": 6763,
-    "repos": 3237,
-    "terms": 6705
+    "components": 11770,
+    "concepts": 6786,
+    "observations": 6801,
+    "repos": 3242,
+    "terms": 6741
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -395,6 +395,7 @@
     "aristocratos/LHM-CppExport",
     "arkworks-rs/gm17",
     "arkworks-rs/spartan",
+    "Arlorean/Voxels",
     "Armour/vue-typescript-admin-docs",
     "Armour/vue-typescript-admin-mock-server",
     "arnav-gudibande/koala-test-set",
@@ -1202,6 +1203,7 @@
     "electron-userland/electron-installer-snap",
     "electron-userland/electron-installer-zip",
     "electronicsguy/HTTPSRedirect",
+    "ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows",
     "elem-azar-unis/CRDT-Redis",
     "EleutherAI/github-downloader",
     "eliabieri/blnscpp",
@@ -1363,6 +1365,7 @@
     "fontello/cubic2quad",
     "foojayio/badges",
     "FooSoft/md2vim",
+    "FooSoft/yomichan-import",
     "FoundationVision/BitVAE",
     "fpco/pid1",
     "fperazzi/davis",
@@ -1894,6 +1897,7 @@
     "kana/vim-smartword",
     "kandinskylab/kandinsky-5-lora-train",
     "karancode/asdf-aws-vault",
+    "Kartoffel0/Memo2Anki",
     "Kartoffel0/Mokuro2Pdf",
     "kaste/SublimeLinter-any-lsp",
     "katerinakazantseva/strainy",
@@ -3014,7 +3018,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -3139,6 +3143,7 @@
     "webassemblylabs/webassembly-language-runtimes",
     "WebAV-Tech/WebAV-Pro",
     "WebCu/gatsby-material-kit-react",
+    "WebReflection/jsdon",
     "webview2/EdgeSharp.Samples",
     "WeikaiTan/RandLA-Net",
     "weisslj/cpp-optparse",

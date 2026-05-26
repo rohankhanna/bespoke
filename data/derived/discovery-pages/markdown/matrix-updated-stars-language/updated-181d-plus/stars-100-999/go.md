@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 186
-- terms: 751
+- repos: 187
+- terms: 754
 - components: 559
-- concepts: 765
-- observations: 765
+- concepts: 768
+- observations: 768
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sugarme/tokenizer](https://github.com/sugarme/tokenizer) | 323 | 2025-11-27T07:06:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man) | 269 | 2025-11-24T22:07:49Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [multiformats/multiaddr](https://github.com/multiformats/multiaddr) | 473 | 2025-11-24T18:24:14Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [liquidmetal-dev/cluster-api-provider-microvm](https://github.com/liquidmetal-dev/cluster-api-provider-microvm) | 145 | 2025-11-24T03:38:20Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
@@ -308,6 +309,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [isovalent/eCHO](https://github.com/isovalent/eCHO) | 339 | 2025-06-06T10:01:33Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [dgryski/trifles](https://github.com/dgryski/trifles) | 336 | 2024-09-22T02:15:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [KatelynHaworth/go-tproxy](https://github.com/KatelynHaworth/go-tproxy) | 331 | 2021-11-24T23:52:28Z | Go | Library | 4 | 0 | 4 | 4 |
+| [sugarme/tokenizer](https://github.com/sugarme/tokenizer) | 323 | 2025-11-27T07:06:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [rancher/kim](https://github.com/rancher/kim) | 323 | 2022-01-07T16:55:10Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [google/gnostic-grpc](https://github.com/google/gnostic-grpc) | 314 | 2024-12-19T01:38:23Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [NVIDIA/gpu-feature-discovery](https://github.com/NVIDIA/gpu-feature-discovery) | 308 | 2024-05-27T14:44:48Z | Go | Unknown | 0 | 0 | 0 | 0 |

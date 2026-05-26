@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10253,
-    "concepts": 10079,
-    "observations": 10111,
-    "repos": 1715,
-    "terms": 10029
+    "components": 10254,
+    "concepts": 10085,
+    "observations": 10117,
+    "repos": 1716,
+    "terms": 10035
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -749,6 +749,7 @@
     "fnproject/fn",
     "fogleman/gg",
     "FooSoft/md2vim",
+    "FooSoft/yomichan-import",
     "foundry-rs/optimism",
     "foxj77/claudectx",
     "francoispqt/gojay",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 367
-- terms: 1876
-- components: 1858
+- repos: 366
+- terms: 1874
+- components: 1856
 - concepts: 1863
 - observations: 1872
 
@@ -392,7 +392,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [devnen/Dia-TTS-Server](https://github.com/devnen/Dia-TTS-Server) | 352 | 2026-03-28T16:29:42Z | Python | Infrastructure/tooling | 15 | 5 | 15 | 15 |
 | [devnen/Kitten-TTS-Server](https://github.com/devnen/Kitten-TTS-Server) | 260 | 2026-03-28T12:57:04Z | Python | Infrastructure/tooling | 14 | 0 | 14 | 14 |
 | [Stanford-TML/robot_keyframe_kit](https://github.com/Stanford-TML/robot_keyframe_kit) | 145 | 2026-03-27T19:24:24Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -681,7 +680,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [searxng/searx-instances](https://github.com/searxng/searx-instances) | 184 | 2026-04-23T06:47:23Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 4 |
 | [ROCm/iris](https://github.com/ROCm/iris) | 184 | 2026-04-22T04:40:54Z | Python | Infrastructure/tooling | 22 | 9 | 22 | 22 |
 | [eole-nlp/eole](https://github.com/eole-nlp/eole) | 182 | 2026-04-23T14:29:08Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
 | [AcademySoftwareFoundation/aswf-docker](https://github.com/AcademySoftwareFoundation/aswf-docker) | 181 | 2026-04-06T00:37:04Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [CERTCC/SSVC](https://github.com/CERTCC/SSVC) | 180 | 2026-04-24T12:59:41Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [conda-forge/conda-smithy](https://github.com/conda-forge/conda-smithy) | 177 | 2026-04-21T13:33:47Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |

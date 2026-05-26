@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 79,
-    "observations": 80,
-    "repos": 11,
-    "terms": 74
+    "components": 81,
+    "concepts": 97,
+    "observations": 98,
+    "repos": 12,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "copier-org/copier",
     "google-deepmind/dm-haiku",
     "google/budoux",
+    "InternScience/GraphGen",
     "lucidrains/vector-quantize-pytorch",
     "mangiucugna/json_repair",
     "meta-pytorch/tnt",

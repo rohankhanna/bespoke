@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 362,
-    "observations": 364,
-    "repos": 50,
-    "terms": 353
+    "components": 455,
+    "concepts": 380,
+    "observations": 382,
+    "repos": 51,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "Aleph-Alpha/ts-rs",
@@ -20,6 +20,7 @@
     "beam-community/elixir-companies",
     "can1357/oh-my-pi",
     "copier-org/copier",
+    "doctest/doctest",
     "electron/rebuild",
     "elixir-grpc/grpc",
     "etcd-io/bbolt",
@@ -30,6 +31,7 @@
     "google-deepmind/dm-haiku",
     "google/budoux",
     "google/oboe",
+    "InternScience/GraphGen",
     "iree-org/iree",
     "java-native-access/jna",
     "Koenkk/zigbee-herdsman-converters",
@@ -38,7 +40,6 @@
     "lucidrains/vector-quantize-pytorch",
     "lumen-oss/rocks.nvim",
     "mangiucugna/json_repair",
-    "marzer/tomlplusplus",
     "meta-pytorch/tnt",
     "Mithril-mine/libmdbx",
     "msiemens/tinydb",

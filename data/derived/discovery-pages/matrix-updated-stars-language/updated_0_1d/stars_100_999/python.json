@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 8,
-    "terms": 54
+    "components": 109,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 13,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "AI-Hypercomputer/maxdiffusion",
+    "aristoteleo/PantheonOS",
     "clearml/clearml-agent",
     "googlefonts/ufo2ft",
+    "jupyter-server/jupyter_server",
+    "machinewrapped/llm-subtrans",
     "NCAS-CMS/pyfive",
+    "OpenHands/ToM-SWE",
+    "pypa/build",
     "scverse/rapids-singlecell",
     "SublimeText/AFileIcon",
     "tox-dev/filelock"

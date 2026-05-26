@@ -4,7 +4,7 @@
     "concepts": 748,
     "observations": 750,
     "repos": 71,
-    "terms": 742
+    "terms": 740
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4451,
-    "concepts": 912,
-    "observations": 916,
-    "repos": 79,
-    "terms": 910
+    "components": 4499,
+    "concepts": 916,
+    "observations": 920,
+    "repos": 80,
+    "terms": 914
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T05:53:59.364792+00:00",
+  "generated_at": "2026-05-26T07:57:03.746408+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
     "aidenybai/react-scan",
+    "ajv-validator/ajv",
     "angular/angular-cli",
     "ant-design/ant-design",
     "apache/echarts",

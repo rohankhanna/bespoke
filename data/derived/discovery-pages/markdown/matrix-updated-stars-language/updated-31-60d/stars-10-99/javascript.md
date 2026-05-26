@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-26T05:53:59.364792+00:00`
+Generated at: `2026-05-26T07:57:03.746408+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 88
+- repos: 87
 - terms: 327
-- components: 1279
+- components: 1274
 - concepts: 327
 - observations: 327
 
@@ -113,7 +113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neverendingqs/serverless-dotenv-example](https://github.com/neverendingqs/serverless-dotenv-example) | 31 | 2026-04-01T16:05:28Z | JavaScript | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [haskell-actions/run-fourmolu](https://github.com/haskell-actions/run-fourmolu) | 13 | 2026-03-30T16:36:00Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [kellyselden/eslint-plugin-json-files](https://github.com/kellyselden/eslint-plugin-json-files) | 95 | 2026-03-28T16:04:59Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
-| [Jack-Works/react-refresh-transformer](https://github.com/Jack-Works/react-refresh-transformer) | 69 | 2026-03-27T07:07:35Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -135,7 +134,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [winstonjs/winston-transport](https://github.com/winstonjs/winston-transport) | 71 | 2026-04-18T03:05:37Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
 | [locize/locize-cli](https://github.com/locize/locize-cli) | 70 | 2026-04-21T15:44:27Z | JavaScript | CLI | 8 | 35 | 8 | 8 |
 | [webtorrent/bittorrent-peerid](https://github.com/webtorrent/bittorrent-peerid) | 69 | 2026-04-16T15:15:29Z | JavaScript | CLI | 8 | 7 | 8 | 8 |
-| [Jack-Works/react-refresh-transformer](https://github.com/Jack-Works/react-refresh-transformer) | 69 | 2026-03-27T07:07:35Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [i18next/i18next-resources-to-backend](https://github.com/i18next/i18next-resources-to-backend) | 67 | 2026-04-18T18:25:45Z | JavaScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
 | [newrelic/newrelic-node-apollo-server-plugin](https://github.com/newrelic/newrelic-node-apollo-server-plugin) | 62 | 2026-04-20T19:01:41Z | JavaScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
 | [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) | 62 | 2026-04-14T21:10:52Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
