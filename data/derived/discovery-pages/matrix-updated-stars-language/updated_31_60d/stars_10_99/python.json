@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 719,
-    "concepts": 521,
-    "observations": 523,
-    "repos": 142,
-    "terms": 539
+    "components": 738,
+    "concepts": 545,
+    "observations": 547,
+    "repos": 145,
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
-    "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
     "Accenture/Cymple",
     "Accio-Lab/SwimBird",
@@ -31,6 +30,7 @@
     "allenporter/python-google-nest-sdm",
     "AMD-AGI/torchtitan-amd",
     "amyreese/fissix",
+    "analogdevicesinc/ai8x-synthesis",
     "analyticsinmotion/werpy",
     "angr/archinfo",
     "ankurhanda/robot-assets",
@@ -48,7 +48,9 @@
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
     "bufbuild/protovalidate-python",
+    "caketop/python-starlark-go",
     "carstencodes/simplepycons",
+    "castorini/anserini-tools",
     "castorini/umbrela",
     "cdeust/cortex",
     "channel-io/ch-tts-llasa-rl-grpo",
@@ -92,6 +94,7 @@
     "iamsashank09/llm-wiki-kit",
     "IcyFish332/T3RL",
     "idodov/RedAlert",
+    "instadeepai/fastpbrl",
     "intel/ai-containers",
     "intel/vc-intrinsics",
     "jawah/wassima",
@@ -128,6 +131,7 @@
     "optuna/optunahub",
     "ParisNeo/safe_store",
     "petercorke/ansitable",
+    "plone/cookieplone",
     "psyonicinc/ability-hand-api",
     "pycompression/python-isal",
     "pyocd/libusb-package",
@@ -137,7 +141,6 @@
     "python-graphblas/graphblas-algorithms",
     "recap-utr/nlp-service",
     "redhat-et/triton-dev-containers",
-    "redis/redis-py-entraid",
     "riponazad/echotracker",
     "ROCm/tritonBLAS",
     "RWKV-Vibe/rwkv_lightning",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 195
-- terms: 177
+- repos: 196
+- terms: 179
 - components: 138
-- concepts: 179
-- observations: 179
+- concepts: 181
+- observations: 181
 
 ## Static behavior
 
@@ -162,6 +162,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [42Shawn/Causal-DFQ](https://github.com/42Shawn/Causal-DFQ) | 6 | 2023-08-13T16:36:00Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [surrealdb/license](https://github.com/surrealdb/license) | 8 | 2023-08-08T16:17:37Z | Unknown | Library | 2 | 0 | 2 | 2 |
 | [ezhang7423/hulc-data](https://github.com/ezhang7423/hulc-data) | 1 | 2023-08-01T18:39:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [LavaGang/Deobfuscation-Maps](https://github.com/LavaGang/Deobfuscation-Maps) | 1 | 2023-07-12T10:17:44Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [pimlie/geekworm-x-c1](https://github.com/pimlie/geekworm-x-c1) | 2 | 2023-07-11T12:23:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [connectai-e/dingtalk-claude](https://github.com/ConnectAI-E/DingTalk-Claude) | 2 | 2023-06-05T09:03:54Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [2KAbhishek/nightblue](https://github.com/2KAbhishek/nightblue) | 3 | 2023-06-02T20:36:21Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
@@ -407,6 +408,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PJLab-ADG/NeuS2_TCNN](https://github.com/PJLab-ADG/NeuS2_TCNN) | 1 | 2023-09-01T04:35:28Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [carsakiller/LLS-Addons](https://github.com/carsakiller/LLS-Addons) | 1 | 2023-08-24T01:37:40Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [ezhang7423/hulc-data](https://github.com/ezhang7423/hulc-data) | 1 | 2023-08-01T18:39:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [LavaGang/Deobfuscation-Maps](https://github.com/LavaGang/Deobfuscation-Maps) | 1 | 2023-07-12T10:17:44Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [connectai-e/dingtalk-minimax](https://github.com/ConnectAI-E/Dingtalk-Minimax) | 1 | 2023-05-31T05:33:01Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [exiawsh/storage](https://github.com/exiawsh/storage) | 1 | 2023-04-06T08:46:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [davidkadaria/css-style-guide](https://github.com/davidkadaria/css-style-guide) | 1 | 2023-02-23T19:12:02Z | Unknown | Docs/knowledge | 6 | 0 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Rust
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 6
-- components: 13
-- concepts: 6
-- observations: 6
+- repos: 3
+- terms: 13
+- components: 18
+- concepts: 13
+- observations: 14
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 455 | 2026-05-25T11:14:28Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-26T00:24:58Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 456 | 2026-05-25T12:55:59Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [servo/stylo](https://github.com/servo/stylo) | 280 | 2026-05-25T10:39:42Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 455 | 2026-05-25T11:14:28Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 456 | 2026-05-25T12:55:59Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 336 | 2026-05-26T00:24:58Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
 | [servo/stylo](https://github.com/servo/stylo) | 280 | 2026-05-25T10:39:42Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |

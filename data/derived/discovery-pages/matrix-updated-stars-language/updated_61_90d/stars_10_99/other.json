@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 425,
-    "concepts": 314,
-    "observations": 315,
-    "repos": 97,
-    "terms": 310
+    "components": 398,
+    "concepts": 307,
+    "observations": 308,
+    "repos": 95,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -21,7 +21,6 @@
     "ably-labs/realtime-quiz-framework",
     "adaszko/tree_climber_rust.nvim",
     "adinhodovic/argo-cd-mixin",
-    "AghayeCoder/TX-ThemeHub",
     "am-kantox/md",
     "andys8/git-brunch",
     "apache/netbeans-antora-site",
@@ -29,6 +28,7 @@
     "appsignal/mono",
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
+    "awslabs/aws-lc-verification",
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
     "benomahony/oil-git.nvim",
@@ -53,7 +53,6 @@
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "FluxML/fluxml.github.io",
-    "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
     "GaloisInc/cryptol-specs",
     "HaxeFlixel/haxeflixel.com",
@@ -62,6 +61,7 @@
     "informalsystems/choreo",
     "informalsystems/quint-llm-kit",
     "IQVIA-ML/LightGBM.jl",
+    "j20001970/GDMP-demo",
     "jakewvincent/texmagic.nvim",
     "jfmengels/elm-review-unused",
     "jmespath/jmespath.site",
@@ -81,7 +81,6 @@
     "mirage/conan",
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
-    "newtheatre/history-project",
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
@@ -93,7 +92,6 @@
     "opencontainers/.github",
     "oracle-quickstart/oci-o11y-solutions",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
-    "patrickgold/jetpref",
     "php/doc-it",
     "rcasia/neotest-bash",
     "revfactory/claude-code-harness",

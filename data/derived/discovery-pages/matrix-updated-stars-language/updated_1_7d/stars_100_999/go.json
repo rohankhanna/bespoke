@@ -3,7 +3,7 @@
     "components": 26,
     "concepts": 18,
     "observations": 18,
-    "repos": 3,
+    "repos": 2,
     "terms": 18
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "betterleaks/betterleaks",
-    "SpecterOps/AzureHound",
-    "yaling888/quirktiva"
+    "SpecterOps/AzureHound"
   ]
 }

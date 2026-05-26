@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 9,
-    "terms": 35
+    "components": 36,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 8,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
     "clj-commons/rewrite-clj",
@@ -21,7 +21,6 @@
     "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
     "Kotlin/kotlinx-benchmark",
-    "rescript-lang/reanalyze",
-    "WICG/attribution-reporting-api"
+    "rescript-lang/reanalyze"
   ]
 }

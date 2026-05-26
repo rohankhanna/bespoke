@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 26,
-    "terms": 126
+    "components": 48,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 29,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
     "acomagu/fish-async-prompt",
+    "agkozak/zcomet",
     "agrimsingh/ralph-wiggum-cursor",
     "apollographql/supergraph-demo",
     "apollographql/supergraph-demo-fed2",
     "archlinux/archlinux-repro",
+    "asdf-vm/asdf-nodejs",
     "bitwarden/brand",
     "bluzername/claude-code-terminal-title",
     "buildpacks/spec",
@@ -33,6 +35,7 @@
     "lynxthecat/adblock-lean",
     "multiformats/multihash",
     "nico2sh/semtag",
+    "omerxx/tmux-floax",
     "pyenv/pyenv-update",
     "romkatv/zsh-bench",
     "rootless-containers/usernetes",

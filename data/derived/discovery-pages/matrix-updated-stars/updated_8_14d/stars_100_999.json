@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 826,
-    "concepts": 307,
-    "observations": 307,
-    "repos": 51,
-    "terms": 305
+    "components": 684,
+    "concepts": 270,
+    "observations": 270,
+    "repos": 50,
+    "terms": 270
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
@@ -19,8 +19,6 @@
     "altschuler/imgui-knobs",
     "amsehili/auditok",
     "apache/casbin-cpp",
-    "apify/apify-cli",
-    "apify/mcpc",
     "appwrite/playground-for-web",
     "atsushieno/aap-core",
     "Brendonovich/MacroGraph",
@@ -36,12 +34,12 @@
     "eclipse-lsp4j/lsp4j",
     "elixir-protobuf/protobuf",
     "fluent-vue/fluent-vue",
-    "g-plane/malva",
     "gbionics/adam",
+    "google-deepmind/xmanager",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "GStreamer/cerbero",
     "huggingface/hf-mcp-server",
-    "kelos-dev/kelos",
+    "Jamorim-esss/pytest-rich",
     "Koenkk/zigbee-herdsman",
     "Kotlin/kotlinx-benchmark",
     "Luligu/matterbridge",
@@ -54,15 +52,16 @@
     "OpenHands/ToM-SWE",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
+    "python-poetry/poetry-plugin-export",
     "rescript-lang/reanalyze",
     "RiDDiX/home-assistant-matter-hub",
     "ROCm/rocBLAS",
+    "shawn0728/OpenSearch-VL",
     "skilld-dev/skilld",
     "specta-rs/specta",
     "specta-rs/tauri-specta",
     "TextArena/TextArena",
     "Waffle/waffle",
-    "WICG/attribution-reporting-api",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5448,
-    "concepts": 1963,
-    "observations": 1966,
-    "repos": 1376,
-    "terms": 1958
+    "components": 5453,
+    "concepts": 1968,
+    "observations": 1971,
+    "repos": 1379,
+    "terms": 1964
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -236,6 +236,7 @@
     "bentoml/BentoBark",
     "bentoml/BentoInfinity",
     "BenzLeung/test-amr-react",
+    "BepInEx/BepInEx.MDML.Loader",
     "berrydev-ai/blockdoc-python",
     "BetterThanTomorrow/calva-power-tools",
     "BhagawatAdhikari/bhagawatadhikari",
@@ -513,7 +514,6 @@
     "DOGEwbx/llama.cpp",
     "dogla/filesystem-watcher",
     "dombenson/go-ini",
-    "donut-party/endpoint-test",
     "doomemacs/community",
     "dotenvx/heroku-buildpack-dotenvx",
     "dothq/gecko-dev",
@@ -901,6 +901,7 @@
     "lanthale/LibHeifFX",
     "lapce/psp-types",
     "lapce/wasi-experimental-http",
+    "LavaGang/Deobfuscation-Maps",
     "lawrence-cj/ComfyUI_ExtraModels",
     "layr-labs/avs-vibe-developer-guide",
     "Layr-Labs/bn254-bls-keystore-rs",
@@ -999,6 +1000,7 @@
     "MindWorkAI/ERI",
     "minihack-editor/minihack-editor.github.io",
     "mirahavel0309/asm",
+    "mmark-md/flycheck-mmark",
     "modelscope/Trinity-Studio",
     "MollySophia/Albatross",
     "moojink/dlimp_openvla",
@@ -1237,6 +1239,7 @@
     "simonpoole/osm-area-tags",
     "simonw/scrape-san-mateo-fire-dispatch",
     "SivilTaram/tapex_transformers",
+    "slunsford/coffee-analytics",
     "sluongng/neotest-bazel",
     "SmileYzn/base16",
     "snowplow-incubator/cla-bot",
@@ -1308,7 +1311,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 267,
+    "components": 234,
     "concepts": 88,
     "observations": 88,
     "repos": 26,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -21,7 +21,6 @@
     "angular/domino",
     "apostrophecms/apostrophe-astro",
     "appwrite/playground-for-node",
-    "broccolijs/broccoli-plugin",
     "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
@@ -35,6 +34,7 @@
     "kddnewton/prettier-plugin-ini",
     "kibertoad/toad-cache",
     "mongodb-js/zstd",
+    "nodejs/email",
     "npm/json-parse-even-better-errors",
     "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",

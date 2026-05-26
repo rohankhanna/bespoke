@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 634,
-    "concepts": 145,
-    "observations": 145,
-    "repos": 26,
-    "terms": 144
+    "components": 571,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 24,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "anandthakker/doiuse",
     "apostrophecms/sanitize-html",
-    "appbaseio/dejavu",
     "babel/babel-loader",
     "cerebral/cerebral",
     "commonmark/commonmark.js",
     "crossbario/autobahn-js",
     "csstree/csstree",
-    "dherault/serverless-offline",
+    "engineer-man/piston",
     "hughsk/flat",
     "kangax/html-minifier",
     "mapbox/delaunator",
@@ -34,9 +33,8 @@
     "paralleldrive/cuid2",
     "pmndrs/drei",
     "projectfluent/fluent",
-    "remarkjs/remark",
     "rollup/plugins",
-    "sindresorhus/clipboardy",
+    "styled-components/polished",
     "svg-sprite/svg-sprite",
     "treosh/lighthouse-ci-action",
     "webpack/mini-css-extract-plugin"

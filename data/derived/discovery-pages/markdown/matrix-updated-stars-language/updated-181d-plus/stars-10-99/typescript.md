@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -32,7 +32,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dylibso/xtp-bindgen](https://github.com/dylibso/xtp-bindgen) | 26 | 2025-11-15T04:52:04Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [storybookjs/addon-cssresources](https://github.com/storybookjs/addon-cssresources) | 12 | 2025-11-12T11:39:30Z | TypeScript | Infrastructure/tooling | 3 | 40 | 3 | 3 |
 | [luizbarboza/polyclip-ts](https://github.com/luizbarboza/polyclip-ts) | 48 | 2025-11-09T17:56:14Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
-| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 38 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 39 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [dannyhw/expo-template-storybook](https://github.com/dannyhw/expo-template-storybook) | 47 | 2025-10-28T18:25:22Z | TypeScript | Template/starter | 4 | 39 | 4 | 4 |
 | [abaplint/abaplint-sci-server](https://github.com/abaplint/abaplint-sci-server) | 22 | 2025-10-27T12:35:36Z | TypeScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [offline-ai/cli](https://github.com/offline-ai/cli) | 81 | 2025-10-24T10:11:24Z | TypeScript | CLI | 8 | 41 | 8 | 8 |
@@ -294,12 +294,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/nodejs-datastore-kvstore](https://github.com/googleapis/nodejs-datastore-kvstore) | 42 | 2024-10-04T20:20:03Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [7th-Cyborg/vite-plugin-zip-pack](https://github.com/7th-Cyborg/vite-plugin-zip-pack) | 42 | 2024-08-13T08:37:09Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [invoke-ai/launcher](https://github.com/invoke-ai/launcher) | 41 | 2025-10-16T06:09:21Z | TypeScript | Infrastructure/tooling | 4 | 83 | 4 | 4 |
+| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 39 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [seangwright/typescript-functional-extensions](https://github.com/seangwright/typescript-functional-extensions) | 39 | 2025-05-01T21:41:29Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [DiFuks/ts-overrides-plugin](https://github.com/DiFuks/ts-overrides-plugin) | 39 | 2025-02-07T16:15:52Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [streamich/react-universal-interface](https://github.com/streamich/react-universal-interface) | 39 | 2024-12-09T18:41:30Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [uga-rosa/denippet.vim](https://github.com/uga-rosa/denippet.vim) | 39 | 2024-06-27T11:43:00Z | TypeScript | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [singularitti/vscode-julia-formatter](https://github.com/singularitti/vscode-julia-formatter) | 39 | 2023-10-14T02:55:03Z | TypeScript | Unknown | 0 | 16 | 0 | 0 |
-| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 38 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [Applelo/unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload) | 38 | 2024-12-15T21:19:18Z | TypeScript | Infrastructure/tooling | 7 | 27 | 7 | 7 |
 | [grafana/opentelemetry-demo](https://github.com/grafana/opentelemetry-demo) | 38 | 2024-10-02T01:52:54Z | TypeScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [MMesch/labextension_tutorial](https://github.com/MMesch/labextension_tutorial) | 38 | 2023-04-25T07:55:57Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |

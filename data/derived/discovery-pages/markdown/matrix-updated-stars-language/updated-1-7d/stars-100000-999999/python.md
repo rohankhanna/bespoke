@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 137587 | 2026-05-23T08:42:49Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 137631 | 2026-05-23T08:42:49Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 137587 | 2026-05-23T08:42:49Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 137631 | 2026-05-23T08:42:49Z | Python | Infrastructure/tooling | 21 | 16 | 21 | 21 |

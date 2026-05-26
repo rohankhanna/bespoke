@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 72,
-    "observations": 72,
+    "components": 133,
+    "concepts": 73,
+    "observations": 73,
     "repos": 29,
-    "terms": 73
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "5c077m4n/pikud-haoref-api-go",
     "abraxas-365/claudio",
@@ -24,13 +24,13 @@
     "archestra-ai/terraform-provider-archestra",
     "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",
-    "cloudfoundry/bosh-aws-light-stemcell-builder",
     "cpu/wycheproof",
     "DataDog/trivy",
     "dwyl/learn-go",
     "erikceballos/nano-banana-cli",
     "ethpandaops/cbt",
     "goreleaser/sponsors",
+    "huggingface/hf-csi-driver",
     "k8nstantin/openpraxis",
     "kitknox/tsshd",
     "ksylvan/fabric",

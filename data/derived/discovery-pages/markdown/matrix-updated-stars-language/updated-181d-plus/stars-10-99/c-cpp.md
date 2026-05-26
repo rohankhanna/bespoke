@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 287
+- repos: 288
 - terms: 630
 - components: 540
 - concepts: 633
@@ -47,7 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pipecat-ai/pipecat-esp32](https://github.com/pipecat-ai/pipecat-esp32) | 99 | 2025-10-06T03:28:41Z | C/C++ | CLI | 2 | 3 | 2 | 2 |
 | [mathworks-robotics/mujoco-simulink-blockset](https://github.com/mathworks-robotics/mujoco-simulink-blockset) | 77 | 2025-10-05T04:16:28Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [arturbac/simple_enum](https://github.com/arturbac/simple_enum) | 42 | 2025-10-04T08:22:42Z | C/C++ | Infrastructure/tooling | 19 | 2 | 19 | 19 |
-| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 30 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 32 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [BurntSushi/rust-pcre2](https://github.com/BurntSushi/rust-pcre2) | 63 | 2025-09-25T18:28:14Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [deni2312/prisma-engine](https://github.com/deni2312/prisma-engine) | 51 | 2025-09-24T11:52:17Z | C/C++ | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [novnc/websockify-other](https://github.com/novnc/websockify-other) | 65 | 2025-09-24T11:41:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -287,6 +287,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vapoursynth/vs-miscfilters-obsolete](https://github.com/vapoursynth/vs-miscfilters-obsolete) | 11 | 2022-01-24T09:30:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [conor42/fxz](https://github.com/conor42/fxz) | 40 | 2022-01-09T12:39:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tevador/randomx-sniffer](https://github.com/tevador/randomx-sniffer) | 68 | 2022-01-06T13:41:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mo10/MuseDashModLoader](https://github.com/mo10/MuseDashModLoader) | 83 | 2021-12-20T12:39:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [zzz3bbb3/YOLOX-deepstream](https://github.com/zzz3bbb3/YOLOX-deepstream) | 91 | 2021-12-20T09:42:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [unevens/Curvessor](https://github.com/unevens/Curvessor) | 54 | 2021-12-10T12:30:21Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
 | [unevens/oversimple](https://github.com/unevens/oversimple) | 58 | 2021-12-10T12:25:36Z | C/C++ | Library | 6 | 0 | 6 | 6 |
@@ -352,6 +353,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EdVince/diffusers-ncnn](https://github.com/EdVince/diffusers-ncnn) | 85 | 2023-03-02T11:40:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pellepl/spiflash_driver](https://github.com/pellepl/spiflash_driver) | 83 | 2025-07-04T13:23:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tomz/liblinear-ruby-swig](https://github.com/tomz/liblinear-ruby-swig) | 83 | 2023-06-27T00:26:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [mo10/MuseDashModLoader](https://github.com/mo10/MuseDashModLoader) | 83 | 2021-12-20T12:39:00Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [HansZ8/unitree_cpp](https://github.com/HansZ8/unitree_cpp) | 82 | 2025-10-10T12:42:03Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [jd-boyd/python-lzo](https://github.com/jd-boyd/python-lzo) | 82 | 2025-09-03T22:34:34Z | C/C++ | Infrastructure/tooling | 5 | 10 | 7 | 7 |
 | [jimkang/annoy-node](https://github.com/jimkang/annoy-node) | 82 | 2023-08-08T17:10:53Z | C/C++ | Unknown | 0 | 10 | 0 | 0 |
@@ -499,6 +501,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TAPZCREW/xmake-project-manager](https://github.com/TAPZCREW/xmake-project-manager) | 33 | 2023-11-29T16:41:24Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [TTimo/bspc](https://github.com/TTimo/bspc) | 33 | 2023-08-12T23:26:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [UCSC-nanopore-cgl/margin](https://github.com/UCSC-nanopore-cgl/margin) | 33 | 2022-11-06T01:25:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 32 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [aseprite/undo](https://github.com/aseprite/undo) | 32 | 2025-04-17T23:19:47Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [DefTruth/lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) | 32 | 2025-03-30T02:20:56Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ohler55/perfer](https://github.com/ohler55/perfer) | 32 | 2024-01-07T08:07:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -509,7 +512,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a-n-t-h-o-n-y/Escape](https://github.com/a-n-t-h-o-n-y/Escape) | 31 | 2025-05-19T17:25:08Z | C/C++ | CLI | 1 | 1 | 1 | 1 |
 | [hayguen/pocketfft](https://github.com/hayguen/pocketfft) | 31 | 2024-05-28T13:00:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kagiannis/FPC](https://github.com/kagiannis/FPC) | 31 | 2022-04-24T20:29:38Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [bryanp/llhttp](https://github.com/bryanp/llhttp) | 30 | 2025-10-01T16:59:35Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [btgraham/SparseConvNet](https://github.com/btgraham/SparseConvNet) | 30 | 2025-01-30T22:11:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [NicoG60/OscMackieControl](https://github.com/NicoG60/OscMackieControl) | 30 | 2022-02-17T18:23:05Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [erkyrath/cheapglk](https://github.com/erkyrath/cheapglk) | 29 | 2025-06-05T17:09:32Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |

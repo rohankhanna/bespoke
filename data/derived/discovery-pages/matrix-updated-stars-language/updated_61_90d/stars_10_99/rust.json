@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 71,
-    "observations": 71,
+    "components": 104,
+    "concepts": 64,
+    "observations": 64,
     "repos": 24,
-    "terms": 71
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
     "assimelha/cmcp",
-    "baerwang/openapi-rs",
     "chris-zen/coremidi",
     "Cykooz/libheif-rs",
     "dcampbell24/mdbook-djot",
@@ -31,6 +30,7 @@
     "libp2p/if-watch",
     "microsoft/tracing-etw",
     "omerbenamram/pyo3-file",
+    "oramasearch/llm_json",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",

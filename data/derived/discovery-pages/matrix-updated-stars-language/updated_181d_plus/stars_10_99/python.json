@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 698,
-    "concepts": 1487,
-    "observations": 1489,
-    "repos": 847,
-    "terms": 1466
+    "components": 700,
+    "concepts": 1491,
+    "observations": 1493,
+    "repos": 852,
+    "terms": 1470
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -255,6 +255,7 @@
     "Cominclip/BoxDiff-XL",
     "conceptofmind/vit-flax",
     "ContainerSolutions/prom-metrics-check",
+    "Coobiw/IE-Critic-R1",
     "cooper12121/llama3-8x8b-MoE",
     "corl-team/katakomba",
     "Cornell-RelaxML/yaqa-quantization",
@@ -284,7 +285,6 @@
     "Danau5tin/tbench-agentic-data-pipeline",
     "dandavison/open-in-editor",
     "danijar/crafter-baselines",
-    "darwinai/FibrosisNet",
     "dask-contrib/dask-deltatable",
     "Dawn-LX/CausalCache-VDM",
     "dcharatan/real_estate_10k_tools",
@@ -486,6 +486,7 @@
     "JasonJZLiu/FACTR_Teleop",
     "jayleicn/TVCaption",
     "jbilcke-hf/VideoModelStudio",
+    "jbweston/miniver",
     "jeffacce/play-to-policy",
     "jenicek/asmk",
     "jensenzhoujh/DROL",
@@ -631,6 +632,7 @@
     "nix-community/nixops-gce",
     "nix-community/nixops-libvirtd",
     "nix-community/nixops-vbox",
+    "nomfoundation/font",
     "Norod/U-2-Net-StyleTransfer",
     "notmahi/miniBET",
     "NoviScl/AdvRACE",
@@ -743,7 +745,10 @@
     "siliconflow/nexeval",
     "skimai/DragGAN",
     "SkyworkAI/vllm",
+    "SLDGroup/CASCADE",
     "SLDGroup/EfficientMedNeXt",
+    "SLDGroup/G-CASCADE",
+    "SLDGroup/MERIT",
     "SLDGroup/PP-SAM",
     "smhassanerfani/atlantis",
     "sniklaus/revisiting-sepconv",

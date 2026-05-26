@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-19T11:00:38.111939+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 97 | 2026-05-18T19:46:48Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |
+| [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 98 | 2026-05-25T16:29:51Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 97 | 2026-05-18T19:46:48Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |
+| [edge-classic/EDGE-classic](https://github.com/edge-classic/EDGE-classic) | 98 | 2026-05-25T16:29:51Z | C/C++ | Infrastructure/tooling | 16 | 3 | 16 | 16 |

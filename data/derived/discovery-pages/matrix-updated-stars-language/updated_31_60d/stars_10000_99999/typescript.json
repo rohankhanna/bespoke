@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6913,
-    "concepts": 750,
-    "observations": 757,
-    "repos": 82,
-    "terms": 763
+    "components": 6954,
+    "concepts": 758,
+    "observations": 765,
+    "repos": 83,
+    "terms": 771
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
@@ -68,6 +68,7 @@
     "nvidia/nemoclaw",
     "openai/openai-node",
     "pnpm/pnpm",
+    "privatenumber/tsx",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "react-navigation/react-navigation",

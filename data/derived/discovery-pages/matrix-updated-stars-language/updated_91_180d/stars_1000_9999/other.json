@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 450,
-    "concepts": 520,
-    "observations": 522,
-    "repos": 104,
-    "terms": 523
+    "components": 471,
+    "concepts": 547,
+    "observations": 549,
+    "repos": 108,
+    "terms": 550
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "Alexander-Miller/treemacs",
@@ -36,7 +36,9 @@
     "clojure/core.logic",
     "clojure/test.check",
     "cncf/tag-security",
+    "cognitect/transit-format",
     "cpm-cmake/CPM.cmake",
+    "dashbitco/mox",
     "datawhalechina/tiny-universe",
     "Deci-AI/super-gradients",
     "dempfi/ayu",
@@ -71,6 +73,7 @@
     "kaminari/kaminari",
     "karb94/neoscroll.nvim",
     "kevinhwang91/nvim-ufo",
+    "kha-white/mokuro",
     "kikito/inspect.lua",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
@@ -83,7 +86,7 @@
     "microsoft/Security-101",
     "microsoft/TextWorld",
     "monaqa/dial.nvim",
-    "mrash/fwknop",
+    "mono/CppSharp",
     "msasanmh/DNSveil",
     "myclabs/DeepCopy",
     "nix-community/dream2nix",
@@ -112,6 +115,7 @@
     "touchlab/droidconkotlin",
     "tpope/vim-dadbod",
     "tris203/precognition.nvim",
+    "v2fly/v2ray-examples",
     "VectorSpaceLab/OmniGen",
     "Vigemus/iron.nvim",
     "weichsel/ZIPFoundation",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Python
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 81
+- repos: 82
 - terms: 122
 - components: 180
 - concepts: 122
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [biocypher/biocypher-cookiecutter-template](https://github.com/biocypher/biocypher-cookiecutter-template) | 0 | 2025-11-26T19:37:26Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [nod-ai/diffusers](https://github.com/nod-ai/diffusers) | 0 | 2025-11-20T06:02:05Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [danielrosehill/OR-Models-With-Tools-0811](https://github.com/danielrosehill/OR-Models-With-Tools-0811) | 0 | 2025-11-08T23:07:21Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [danielrosehill/Local-ASR-STT-Benchmark](https://github.com/danielrosehill/Local-ASR-STT-Benchmark) | 0 | 2025-10-31T01:09:47Z | Python | Model/data | 3 | 0 | 3 | 3 |
@@ -112,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [biocypher/biocypher-cookiecutter-template](https://github.com/biocypher/biocypher-cookiecutter-template) | 0 | 2025-11-26T19:37:26Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [nod-ai/diffusers](https://github.com/nod-ai/diffusers) | 0 | 2025-11-20T06:02:05Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [danielrosehill/OR-Models-With-Tools-0811](https://github.com/danielrosehill/OR-Models-With-Tools-0811) | 0 | 2025-11-08T23:07:21Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [danielrosehill/Local-ASR-STT-Benchmark](https://github.com/danielrosehill/Local-ASR-STT-Benchmark) | 0 | 2025-10-31T01:09:47Z | Python | Model/data | 3 | 0 | 3 | 3 |

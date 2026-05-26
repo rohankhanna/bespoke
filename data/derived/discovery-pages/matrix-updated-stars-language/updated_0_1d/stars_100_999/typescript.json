@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 1,
-    "terms": 12
+    "components": 132,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
-    "matter-js/matter.js"
+    "a2aproject/a2a-js",
+    "matter-js/matter.js",
+    "stx-labs/stacks.js",
+    "unplugin/unplugin-imagemin"
   ]
 }

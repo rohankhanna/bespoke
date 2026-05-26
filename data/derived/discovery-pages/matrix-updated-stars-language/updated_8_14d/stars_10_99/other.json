@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 5,
-    "terms": 21
+    "components": 57,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 2,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
-    "cginternals/cpplocate",
-    "geocompx/docker",
-    "processing/processing-website",
-    "UnknownPlatypus/djangofmt"
+    "processing/processing-website"
   ]
 }

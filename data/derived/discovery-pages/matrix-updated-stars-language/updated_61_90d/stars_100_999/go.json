@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 171,
-    "observations": 171,
-    "repos": 32,
-    "terms": 171
+    "components": 189,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 34,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
     "Antonboom/testifylint",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
+    "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "box-cli-maker/box-cli-maker",
     "cedar-policy/cedar-go",
@@ -41,6 +42,7 @@
     "minio/directpv",
     "minio/highwayhash",
     "nikepan/clickhouse-bulk",
+    "notaryproject/notation",
     "omniscale/imposm3",
     "opencontainers/runtime-tools",
     "secretflow/scql",

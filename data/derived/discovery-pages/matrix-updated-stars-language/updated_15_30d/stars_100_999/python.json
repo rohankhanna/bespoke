@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 961,
-    "concepts": 928,
-    "observations": 932,
-    "repos": 154,
-    "terms": 924
+    "components": 924,
+    "concepts": 888,
+    "observations": 892,
+    "repos": 147,
+    "terms": 884
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
@@ -48,11 +48,9 @@
     "bootmortis/iran-hosted-domains",
     "bytedance/Valley",
     "capitalone/datacompy",
-    "carla-simulator/scenario_runner",
     "casperdcl/git-fame",
     "castorini/rank_llm",
     "chengzhag/UCPE",
-    "clearml/clearml-agent",
     "cognizant-ai-lab/neuro-san",
     "cognizant-ai-lab/neuro-san-studio",
     "ComparativeGenomicsToolkit/cactus",
@@ -82,7 +80,6 @@
     "galaxyproject/planemo",
     "gbionics/jaxsim",
     "GNOME/adwaita-icon-theme",
-    "google/cameratrapai",
     "google/fiddle",
     "google/orbax",
     "google/paxml",
@@ -101,6 +98,7 @@
     "isaac-for-healthcare/i4h-workflows",
     "jawah/charset_normalizer",
     "jolibrain/joliGEN",
+    "jwodder/versioningit",
     "Kludex/python-multipart",
     "kubeflow/sdk",
     "kubernetes-sigs/jobset",
@@ -130,14 +128,11 @@
     "onnx/turnkeyml",
     "open-telemetry/opentelemetry-cpp-contrib",
     "opendatacube/datacube-core",
-    "OSU-NLP-Group/GUI-Agents-Paper-List",
     "PetervanLunteren/AddaxAI",
     "plotly/Kaleido",
     "Project-MONAI/model-zoo",
     "prometheus-community/ansible",
-    "py-cov-action/python-coverage-comment-action",
     "pypa/packaging",
-    "pypa/setuptools-scm",
     "pypdfium2-team/pypdfium2",
     "rai-opensource/spatialmath-python",
     "RDFLib/pyLODE",
@@ -146,7 +141,6 @@
     "runtimeverification/k",
     "scicode-bench/SciCode",
     "ScoopInstaller/Nirsoft",
-    "ServiceNow/WorkArena",
     "sigsep/norbert",
     "sigstore/sigstore-python",
     "sp-nitech/diffsptk",
@@ -166,7 +160,6 @@
     "unum-bio/USearchMolecules",
     "vale-cli/packages",
     "Yuliang-Liu/MultimodalOCR",
-    "ZhuoZhuoCrayon/throttled-py",
     "zopefoundation/RestrictedPython"
   ]
 }

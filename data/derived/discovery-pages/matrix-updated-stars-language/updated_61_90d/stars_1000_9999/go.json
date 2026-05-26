@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 162,
-    "observations": 162,
-    "repos": 39,
-    "terms": 152
+    "components": 203,
+    "concepts": 180,
+    "observations": 180,
+    "repos": 43,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
+    "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "atotto/clipboard",
     "bazelbuild/buildtools",
@@ -24,6 +25,7 @@
     "CloudyKit/jet",
     "coder/websocket",
     "coocood/freecache",
+    "cortesi/devd",
     "darccio/mergo",
     "ddworken/hishtory",
     "dghubble/sling",
@@ -39,6 +41,7 @@
     "hashicorp/memberlist",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
+    "kubernetes-sigs/krew",
     "mailru/easyjson",
     "mattn/efm-langserver",
     "minio/operator",
@@ -47,6 +50,7 @@
     "opencontainers/image-spec",
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",
+    "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
     "spf13/pflag",
     "stripe/stripe-mock",

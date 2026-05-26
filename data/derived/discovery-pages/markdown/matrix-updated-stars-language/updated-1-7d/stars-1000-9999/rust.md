@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 19
-- components: 63
-- concepts: 19
-- observations: 19
+- repos: 4
+- terms: 27
+- components: 67
+- concepts: 27
+- observations: 27
 
 ## Static behavior
 
@@ -26,14 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [intentee/paddler](https://github.com/intentee/paddler) | 1574 | 2026-05-23T06:49:47Z | Rust | Infrastructure/tooling | 7 | 44 | 7 | 7 |
-| [ash-rs/ash](https://github.com/ash-rs/ash) | 2271 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4824 | 2026-05-24T18:30:31Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [intentee/paddler](https://github.com/intentee/paddler) | 1575 | 2026-05-23T06:49:47Z | Rust | Infrastructure/tooling | 7 | 44 | 7 | 7 |
+| [ash-rs/ash](https://github.com/ash-rs/ash) | 2272 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-20T09:18:54Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ash-rs/ash](https://github.com/ash-rs/ash) | 2271 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [intentee/paddler](https://github.com/intentee/paddler) | 1574 | 2026-05-23T06:49:47Z | Rust | Infrastructure/tooling | 7 | 44 | 7 | 7 |
+| [godot-rust/gdext](https://github.com/godot-rust/gdext) | 4824 | 2026-05-24T18:30:31Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [ash-rs/ash](https://github.com/ash-rs/ash) | 2272 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [intentee/paddler](https://github.com/intentee/paddler) | 1575 | 2026-05-23T06:49:47Z | Rust | Infrastructure/tooling | 7 | 44 | 7 | 7 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-20T09:18:54Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |

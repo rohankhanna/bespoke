@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3981,
-    "concepts": 776,
-    "observations": 776,
-    "repos": 142,
-    "terms": 837
+    "components": 3948,
+    "concepts": 758,
+    "observations": 758,
+    "repos": 139,
+    "terms": 819
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -31,7 +31,6 @@
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "Autodesk/synthesis",
-    "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
     "aws-samples/swift-chat",
@@ -43,8 +42,6 @@
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "blrchen/chatgpt-lite",
-    "carbon-design-system/carbon-icons-svelte",
-    "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
     "charmbracelet/vhs-action",

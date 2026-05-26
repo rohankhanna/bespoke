@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 47,
-    "concepts": 47,
-    "observations": 47,
+    "concepts": 50,
+    "observations": 50,
     "repos": 14,
-    "terms": 47
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "aws-cloudformation/cloudformation-resource-schema",
@@ -21,12 +21,12 @@
     "bobbylight/RSTAUI",
     "google/tsunami-security-scanner-callback-server",
     "googleapis/java-bigquerystorage",
-    "grpc/grpc-java-api-checker",
     "hashicorp/hello-vault-spring",
     "JodaOrg/joda-time-hibernate",
     "jpmml/jpmml-transpiler",
     "langgraph4j/langgraph4j-examples",
     "piomin/spring-ai-showcase",
+    "smithy-lang/smithy-gradle-plugin",
     "zilliztech/kafka-connect-milvus"
   ]
 }

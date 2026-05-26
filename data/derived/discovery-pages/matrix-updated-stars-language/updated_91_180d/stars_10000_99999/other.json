@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 31,
-    "concepts": 60,
-    "observations": 60,
+    "concepts": 59,
+    "observations": 59,
     "repos": 10,
-    "terms": 59
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "camenduru/stable-diffusion-webui-colab",
+    "datawhalechina/llm-universe",
     "folke/lazy.nvim",
     "github/copilot.vim",
     "junegunn/vim-plug",
@@ -22,7 +23,6 @@
     "NVlabs/instant-ngp",
     "QwenLM/Qwen3-VL",
     "tachyons-css/tachyons",
-    "twbs/bootstrap-sass",
-    "ziglang/zig"
+    "twbs/bootstrap-sass"
   ]
 }

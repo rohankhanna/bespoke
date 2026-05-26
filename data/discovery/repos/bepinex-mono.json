@@ -16,13 +16,14 @@
       "size": 21369
     }
   ],
+  "metadata_refreshed_at": "2026-05-26T05:53:54.742352+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Mono open source ECMA CLI, C# and .NET implementation.",
     "fork": true,
-    "full_name": "BepInEx/mono",
+    "full_name": "bepinex/mono",
     "html_url": "https://github.com/BepInEx/mono",
     "language": "C#",
     "pushed_at": "2021-06-24T06:21:45Z",

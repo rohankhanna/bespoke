@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2020,
-    "concepts": 1837,
-    "observations": 1851,
-    "repos": 221,
-    "terms": 1829
+    "components": 1999,
+    "concepts": 1785,
+    "observations": 1799,
+    "repos": 217,
+    "terms": 1778
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -34,8 +34,8 @@
     "B-Lang-org/bsc",
     "badmojr/1Hosts",
     "belav/csharpier",
+    "benchflow-ai/skillsbench",
     "benjamimgois/goverlay",
-    "bepu/bepuphysics2",
     "bitwarden/android",
     "blokadaorg/blokada",
     "borglab/gtsam",
@@ -55,7 +55,6 @@
     "com-lihaoyi/mill",
     "commercialhaskell/stack",
     "confluentinc/confluent-kafka-go",
-    "ControlzEx/ControlzEx",
     "cortinico/kotlin-android-template",
     "countries/countries",
     "coverlet-coverage/coverlet",
@@ -74,7 +73,6 @@
     "DiligentGraphics/DiligentEngine",
     "dlemstra/Magick.NET",
     "docker/docs",
-    "dorssel/usbipd-win",
     "dotnet/dotnet-docker",
     "dotnet/msbuild",
     "dotnet/winforms",
@@ -197,7 +195,6 @@
     "rrousselGit/riverpod",
     "ruby-grape/grape",
     "ruby/rake",
-    "salvadordf/CEF4Delphi",
     "SciML/ModelingToolkit.jl",
     "SciSharp/LLamaSharp",
     "ScoopInstaller/Extras",
@@ -231,7 +228,6 @@
     "weaveworks/weave-gitops",
     "WebAssembly/wasi-sdk",
     "webpack/webpack.js.org",
-    "whatwg/streams",
     "xororz/local-dream",
     "xtdb/xtdb",
     "zalando/restful-api-guidelines"

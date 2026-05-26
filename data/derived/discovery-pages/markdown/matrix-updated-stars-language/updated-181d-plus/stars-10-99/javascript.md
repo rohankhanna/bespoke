@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 276
+- repos: 278
 - terms: 652
-- components: 2946
+- components: 2953
 - concepts: 660
 - observations: 660
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [freddyaboulton/gradio-pdf](https://github.com/freddyaboulton/gradio-pdf) | 43 | 2025-11-26T21:30:59Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [jupyter-xeus/xeus-javascript](https://github.com/jupyter-xeus/xeus-javascript) | 13 | 2025-11-25T08:29:07Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [bevry/domain-browser](https://github.com/bevry/domain-browser) | 32 | 2025-11-22T16:19:22Z | JavaScript | CLI | 5 | 7 | 5 | 5 |
 | [markdown-it/markdown-it-abbr](https://github.com/markdown-it/markdown-it-abbr) | 50 | 2025-11-21T12:09:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
@@ -40,7 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ideditor/id-area-keys](https://github.com/ideditor/id-area-keys) | 18 | 2025-11-04T20:56:25Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [preactjs/create-preact](https://github.com/preactjs/create-preact) | 65 | 2025-10-31T20:08:27Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
 | [argosopentech/argospm-index](https://github.com/argosopentech/argospm-index) | 39 | 2025-10-26T08:23:46Z | JavaScript | Library | 0 | 0 | 0 | 0 |
-| [camdencheek/tree-sitter-go-mod](https://github.com/camdencheek/tree-sitter-go-mod) | 64 | 2025-10-23T05:28:26Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [camdencheek/tree-sitter-go-mod](https://github.com/camdencheek/tree-sitter-go-mod) | 65 | 2025-10-23T05:28:26Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [derhuerst/epsg-index](https://github.com/derhuerst/epsg-index) | 22 | 2025-10-21T15:58:35Z | JavaScript | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [embroider-build/app-blueprint](https://github.com/embroider-build/app-blueprint) | 43 | 2025-10-15T22:10:56Z | JavaScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
 | [privatenumber/esbuild-loader-examples](https://github.com/privatenumber/esbuild-loader-examples) | 89 | 2025-10-11T12:46:34Z | JavaScript | Web app | 4 | 4 | 4 | 4 |
@@ -115,7 +117,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhajirdev/monad-ui](https://github.com/muhajirdev/monad-ui) | 37 | 2024-08-29T20:42:13Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [Comfy-Org/ComfyUI_legacy_frontend](https://github.com/Comfy-Org/ComfyUI_legacy_frontend) | 10 | 2024-08-11T14:45:40Z | JavaScript | Web app | 0 | 1 | 0 | 0 |
 | [sumcumo/imagemin-merlin](https://github.com/sumcumo/imagemin-merlin) | 64 | 2024-08-06T16:59:07Z | JavaScript | Unknown | 6 | 9 | 6 | 6 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [brombal/just-install](https://github.com/brombal/just-install) | 51 | 2024-07-31T23:01:48Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [pot-app/pot-app-collection-plugin-shanbay](https://github.com/pot-app/pot-app-collection-plugin-shanbay) | 10 | 2024-07-31T00:10:02Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [crudo/grunt-testcafe](https://github.com/crudo/grunt-testcafe) | 10 | 2024-07-26T18:22:25Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
@@ -368,9 +370,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mantoni/core_d.js](https://github.com/mantoni/core_d.js) | 67 | 2025-08-04T15:59:18Z | JavaScript | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [gautamkrishnar/refined-github-feeds](https://github.com/gautamkrishnar/refined-github-feeds) | 66 | 2021-10-19T12:53:02Z | JavaScript | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [preactjs/create-preact](https://github.com/preactjs/create-preact) | 65 | 2025-10-31T20:08:27Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
+| [camdencheek/tree-sitter-go-mod](https://github.com/camdencheek/tree-sitter-go-mod) | 65 | 2025-10-23T05:28:26Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [amilajack/compat-db](https://github.com/amilajack/compat-db) | 65 | 2022-03-26T12:01:16Z | JavaScript | Web app | 3 | 61 | 3 | 3 |
 | [naknomum/scribby](https://github.com/naknomum/scribby) | 65 | 2021-11-30T08:56:30Z | JavaScript | Library | 3 | 0 | 3 | 3 |
-| [camdencheek/tree-sitter-go-mod](https://github.com/camdencheek/tree-sitter-go-mod) | 64 | 2025-10-23T05:28:26Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [sumcumo/imagemin-merlin](https://github.com/sumcumo/imagemin-merlin) | 64 | 2024-08-06T16:59:07Z | JavaScript | Unknown | 6 | 9 | 6 | 6 |
 | [HMaker/HMaker.github.io](https://github.com/HMaker/HMaker.github.io) | 64 | 2024-02-14T00:03:54Z | JavaScript | Unknown | 5 | 0 | 6 | 6 |
 | [0xDAEF0F/job-searchoor](https://github.com/0xDAEF0F/job-searchoor) | 63 | 2025-04-08T22:17:50Z | JavaScript | Service/API | 3 | 7 | 3 | 3 |
@@ -423,10 +425,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sanctuary-js/sanctuary-either](https://github.com/sanctuary-js/sanctuary-either) | 48 | 2024-11-10T14:54:16Z | JavaScript | Unknown | 2 | 11 | 2 | 2 |
 | [wylieconlon/jsonrpc-ws-proxy](https://github.com/wylieconlon/jsonrpc-ws-proxy) | 48 | 2022-07-18T19:38:17Z | JavaScript | Web app | 0 | 11 | 0 | 0 |
 | [JakePartusch/wait-for-netlify-action](https://github.com/JakePartusch/wait-for-netlify-action) | 47 | 2024-05-20T23:02:05Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [TritonDataCenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [tritondatacenter/node-getopt](https://github.com/TritonDataCenter/node-getopt) | 46 | 2024-08-01T15:11:07Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [jlevy/atom-flowmark](https://github.com/jlevy/atom-flowmark) | 45 | 2023-03-04T09:45:13Z | JavaScript | Unknown | 0 | 17 | 0 | 0 |
 | [GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint](https://github.com/GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint) | 44 | 2025-03-31T09:17:55Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ethereum/rpc-tests](https://github.com/ethereum/rpc-tests) | 44 | 2023-06-20T16:52:49Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [freddyaboulton/gradio-pdf](https://github.com/freddyaboulton/gradio-pdf) | 43 | 2025-11-26T21:30:59Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [embroider-build/app-blueprint](https://github.com/embroider-build/app-blueprint) | 43 | 2025-10-15T22:10:56Z | JavaScript | Infrastructure/tooling | 4 | 20 | 4 | 4 |
 | [atomlinter/linter-markdown](https://github.com/AtomLinter/linter-markdown) | 43 | 2023-07-28T18:10:30Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
 | [taylorhakes/setasap](https://github.com/taylorhakes/setAsap) | 43 | 2022-12-07T17:45:59Z | JavaScript | Web app | 0 | 9 | 0 | 0 |
@@ -471,6 +474,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [standard/standard-packages](https://github.com/standard/standard-packages) | 33 | 2023-09-16T07:25:28Z | JavaScript | Library | 10 | 9 | 10 | 10 |
 | [ipld/js-ipld-git](https://github.com/ipld/js-ipld-git) | 33 | 2021-08-24T13:18:29Z | JavaScript | Unknown | 1 | 12 | 1 | 1 |
 | [jonschlinkert/extend-shallow](https://github.com/jonschlinkert/extend-shallow) | 33 | 2021-08-07T21:20:05Z | JavaScript | Unknown | 0 | 11 | 0 | 0 |
+| [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [bevry/domain-browser](https://github.com/bevry/domain-browser) | 32 | 2025-11-22T16:19:22Z | JavaScript | CLI | 5 | 7 | 5 | 5 |
 | [infofarmer/eslint-plugin-jsx-a11y](https://github.com/infofarmer/eslint-plugin-jsx-a11y) | 32 | 2024-05-16T22:04:15Z | JavaScript | Unknown | 0 | 44 | 0 | 0 |
 | [iyshannon/cuid](https://github.com/iyshannon/cuid) | 32 | 2022-01-18T07:54:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

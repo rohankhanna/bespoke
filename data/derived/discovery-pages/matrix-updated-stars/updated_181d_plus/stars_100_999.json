@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 15376,
-    "concepts": 13888,
-    "observations": 13914,
-    "repos": 4567,
-    "terms": 13670
+    "concepts": 13895,
+    "observations": 13921,
+    "repos": 4571,
+    "terms": 13674
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -548,6 +548,7 @@
     "ayoubben18/ab-method",
     "ayumiymk/aster.pytorch",
     "azeemba/eslint-plugin-json",
+    "Azure-Samples/aoai-realtime-audio-sdk",
     "Azure-Samples/azure-search-openai-demo-csharp",
     "Azure-Samples/azure-search-openai-javascript",
     "Azure-Samples/azureai-assistant-tool",
@@ -675,6 +676,8 @@
     "bloomberg/record-tuple-polyfill",
     "Blosc/bcolz",
     "Blosc/bloscpack",
+    "blueaxis/Cloe",
+    "blueaxis/Poricom",
     "BlueBrain/HighFive",
     "Bluehouse-Technology/grpc",
     "bluespec/Flute",
@@ -938,7 +941,6 @@
     "clean-css/clean-css-cli",
     "cleanunicorn/ethereum-smartcontract-template",
     "Clemapfel/Mousetrap.jl",
-    "clemos/haxe-sublime-bundle",
     "clenemt/docdash",
     "clj-commons/byte-streams",
     "clj-time/clj-time",
@@ -3158,6 +3160,7 @@
     "naver-ai/StyleMapGAN",
     "naver/r2d2",
     "ndjson/ndjson-spec",
+    "neavo/OneClickLLAMA",
     "necla-ml/SNLI-VE",
     "necolas/issue-guidelines",
     "neelsjain/NEFTune",
@@ -4492,6 +4495,7 @@
     "yoggy/sendosc",
     "yoheinakajima/babyagi_archive",
     "yonaskolb/Genesis",
+    "younesse-cv/PatchMatch",
     "youngwoo-yoon/youtube-gesture-dataset",
     "YoYo000/BlendedMVS",
     "yuag/code-audit",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 933,
-    "concepts": 3791,
-    "observations": 3793,
-    "repos": 963,
-    "terms": 3724
+    "components": 936,
+    "concepts": 3792,
+    "observations": 3794,
+    "repos": 964,
+    "terms": 3725
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -910,6 +910,7 @@
     "visionml/pytracking",
     "Visual-Agent/DeepEyes",
     "WangYueFt/dgcnn",
+    "web-arena-x/webarena",
     "weiaicunzai/pytorch-cifar100",
     "weiyithu/SurroundOcc",
     "welltop-cn/ComfyUI-TeaCache",

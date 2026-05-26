@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 692,
-    "concepts": 387,
-    "observations": 388,
+    "components": 685,
+    "concepts": 383,
+    "observations": 384,
     "repos": 207,
-    "terms": 398
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -27,6 +27,7 @@
     "adityasugandhi/skillsync-mcp",
     "adrozdenko/error-toon",
     "Afnanksalal/co-op",
+    "agents-x-project/PyVision-RL-Eval",
     "ahrefs/opam-check-npm-deps",
     "ai-bot-pro/pipeline-py",
     "aiagenta2z/onekey_mcp_router",
@@ -158,7 +159,6 @@
     "mirage/coin",
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
-    "mmark-md/flycheck-mmark",
     "mozilla/midir",
     "Myriad-Dreamin/typst",
     "near/near-abi-client-rs",
@@ -185,7 +185,6 @@
     "sigp/xdelta3-rs",
     "sigstore/.github",
     "simonpoole/geocontext",
-    "slunsford/coffee-analytics",
     "sp1-patches/curve25519-dalek-ng",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
@@ -202,6 +201,7 @@
     "typstyle-rs/pre-commit-typstyle",
     "typstyle-rs/typstyle-action",
     "typstyle-rs/typstyle-tampermonkey",
+    "tzachar/sqlite_skim",
     "URUWorks/UW_BlurayPGSParser",
     "usdot-fhwa-stol/carma-carla-integration",
     "usnistgov/libhdf5-wasm",

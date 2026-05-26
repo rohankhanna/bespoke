@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 92
-- components: 513
-- concepts: 83
-- observations: 83
+- repos: 8
+- terms: 146
+- components: 681
+- concepts: 139
+- observations: 139
 
 ## Static behavior
 
@@ -26,16 +26,24 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77664 | 2026-05-25T10:39:32Z | TypeScript | Infrastructure/tooling | 15 | 383 | 15 | 15 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18810 | 2026-05-25T09:49:25Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27396 | 2026-05-25T07:36:11Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 54912 | 2026-05-25T04:43:01Z | TypeScript | Infrastructure/tooling | 42 | 26 | 33 | 33 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 55101 | 2026-05-26T01:41:27Z | TypeScript | Infrastructure/tooling | 42 | 26 | 33 | 33 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77693 | 2026-05-26T01:03:39Z | TypeScript | Infrastructure/tooling | 15 | 383 | 15 | 15 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27404 | 2026-05-26T00:29:18Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43327 | 2026-05-25T20:06:32Z | TypeScript | Infrastructure/tooling | 22 | 9 | 24 | 24 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17722 | 2026-05-25T17:23:32Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
+| [dexie/Dexie.js](https://github.com/dexie/Dexie.js) | 14321 | 2026-05-25T13:54:55Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [jestjs/jest](https://github.com/jestjs/jest) | 45361 | 2026-05-25T13:50:28Z | TypeScript | Infrastructure/tooling | 17 | 96 | 17 | 17 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18811 | 2026-05-25T09:49:25Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77664 | 2026-05-25T10:39:32Z | TypeScript | Infrastructure/tooling | 15 | 383 | 15 | 15 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 54912 | 2026-05-25T04:43:01Z | TypeScript | Infrastructure/tooling | 42 | 26 | 33 | 33 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27396 | 2026-05-25T07:36:11Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18810 | 2026-05-25T09:49:25Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77693 | 2026-05-26T01:03:39Z | TypeScript | Infrastructure/tooling | 15 | 383 | 15 | 15 |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 55101 | 2026-05-26T01:41:27Z | TypeScript | Infrastructure/tooling | 42 | 26 | 33 | 33 |
+| [jestjs/jest](https://github.com/jestjs/jest) | 45361 | 2026-05-25T13:50:28Z | TypeScript | Infrastructure/tooling | 17 | 96 | 17 | 17 |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | 43327 | 2026-05-25T20:06:32Z | TypeScript | Infrastructure/tooling | 22 | 9 | 24 | 24 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 27404 | 2026-05-26T00:29:18Z | TypeScript | Infrastructure/tooling | 27 | 9 | 27 | 27 |
+| [unocss/unocss](https://github.com/unocss/unocss) | 18811 | 2026-05-25T09:49:25Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17722 | 2026-05-25T17:23:32Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
+| [dexie/Dexie.js](https://github.com/dexie/Dexie.js) | 14321 | 2026-05-25T13:54:55Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |

@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 2908,
-    "concepts": 1217,
-    "observations": 1221,
-    "repos": 910,
-    "terms": 1248
+    "components": 2923,
+    "concepts": 1225,
+    "observations": 1229,
+    "repos": 913,
+    "terms": 1256
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
     "0ghny/asdf-tlsgcli",
+    "0x0ade/MonoMod-wip",
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
     "2KAbhishek/exercism-fetcher",
@@ -128,6 +129,7 @@
     "begmyratb/floweye-yyyxxx.cc",
     "benkasminbullock/gzip-libdeflate",
     "benwmills/core-sass-compiler",
+    "bepinex/mono",
     "beurdouche/nss-gk-api",
     "bfshi/llava_next_s2_integration",
     "bgw/bincode",
@@ -212,6 +214,7 @@
     "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
+    "conda-forge/versioneer-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "ConfettiFX/The-Forge-Media",
     "countries/country_select_demo",

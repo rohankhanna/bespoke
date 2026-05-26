@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2036,
-    "concepts": 1886,
-    "observations": 1892,
-    "repos": 828,
-    "terms": 1879
+    "concepts": 1890,
+    "observations": 1896,
+    "repos": 832,
+    "terms": 1883
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
+    "0x0ade/FEZMod-Legacy",
     "0x7432/asm-ru",
     "0xC0000054/libheif-sharp",
     "0xc0000054/libheif-sharp-samples",
@@ -162,6 +163,8 @@
     "benbalter/jekyll-default-layout",
     "bencheeorg/benchee_html",
     "bennyyip/plugpac.vim",
+    "BepInEx/BepInEx.BSIPA.Loader",
+    "BepInEx/BepInEx.MelonLoader.Loader",
     "bfenetworks/dashboard",
     "bhauman/flappy-bird-demo-new",
     "bhftbootcamp/YYJSON.jl",
@@ -494,6 +497,7 @@
     "kadyb/vector-benchmark",
     "kana/vim-altr",
     "kana/vim-smartword",
+    "Kartoffel0/Mokuro2Pdf",
     "kdheepak/JuliaFormatter.vim",
     "keychera/panas.example",
     "keychera/panas.reload",

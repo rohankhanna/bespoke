@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -27,7 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36133 | 2026-05-22T17:35:22Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15259 | 2026-05-20T03:14:12Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15261 | 2026-05-20T03:14:12Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21701 | 2026-05-19T23:04:14Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 
 ## Repos sorted by stars
@@ -36,4 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36133 | 2026-05-22T17:35:22Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [rust-lang/mdBook](https://github.com/rust-lang/mdBook) | 21701 | 2026-05-19T23:04:14Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15259 | 2026-05-20T03:14:12Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15261 | 2026-05-20T03:14:12Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |

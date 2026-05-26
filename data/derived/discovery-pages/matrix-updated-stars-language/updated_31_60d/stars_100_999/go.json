@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 990,
-    "concepts": 785,
-    "observations": 791,
-    "repos": 134,
-    "terms": 793
+    "components": 979,
+    "concepts": 769,
+    "observations": 775,
+    "repos": 133,
+    "terms": 777
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
+    "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
     "AdguardTeam/AdGuardDNS",
     "AdguardTeam/urlfilter",
@@ -29,7 +30,6 @@
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
     "aws/amazon-vpc-resource-controller-k8s",
-    "aws/aws-app-mesh-controller-for-k8s",
     "aws/credentials-fetcher",
     "awslabs/soci-snapshotter",
     "Azure/azure-workload-identity",
@@ -121,7 +121,6 @@
     "microsoft/hcsshim",
     "monitoring-mixins/mixtool",
     "moul/gotty-client",
-    "notaryproject/notation",
     "open-telemetry/opentelemetry-collector-releases",
     "openshift/enhancements",
     "openshift/library",

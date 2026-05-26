@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6148,
-    "concepts": 1234,
-    "observations": 1237,
-    "repos": 139,
-    "terms": 1226
+    "components": 6293,
+    "concepts": 1247,
+    "observations": 1250,
+    "repos": 140,
+    "terms": 1239
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -37,7 +37,6 @@
     "Binaryify/OneDark-Pro",
     "boxlite-ai/boxlite",
     "bqplot/bqplot",
-    "breferrari/obsidian-mind",
     "BuilderIO/builder",
     "callstack/react-native-testing-library",
     "carbon-design-system/carbon-components-svelte",
@@ -60,6 +59,7 @@
     "firebase/firebase-js-sdk",
     "firebase/quickstart-js",
     "Floorp-Projects/Floorp",
+    "getagentseal/codeburn",
     "ggml-org/llama.vscode",
     "google/neuroglancer",
     "graphql-hive/graphql-inspector",
@@ -88,7 +88,6 @@
     "messageformat/messageformat",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-python",
-    "MiniMax-AI/cli",
     "modelcontextprotocol/inspector",
     "mui/mui-x",
     "nanostores/nanostores",
@@ -117,6 +116,8 @@
     "retorquere/zotero-better-bibtex",
     "rolldown/tsdown",
     "rustmailer/bichon",
+    "shareAI-lab/Kode-Agent",
+    "shareAI-lab/Kode-CLI",
     "SilentVoid13/Templater",
     "sinclairzx81/typebox",
     "solidjs-community/solid-primitives",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-25T13:03:57.968606+00:00`
+Generated at: `2026-05-26T05:53:59.364792+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 251
+- repos: 252
 - terms: 454
 - components: 126
 - concepts: 454
@@ -66,6 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [litter-coder/midjourney-proxy-plus](https://github.com/litter-coder/midjourney-proxy-plus) | 566 | 2025-08-03T07:44:36Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [google-research-datasets/conceptual-12m](https://github.com/google-research-datasets/conceptual-12m) | 421 | 2025-07-14T06:27:09Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [PacificBiosciences/IsoSeq](https://github.com/PacificBiosciences/IsoSeq) | 236 | 2025-07-09T14:36:05Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [neavo/OneClickLLAMA](https://github.com/neavo/OneClickLLAMA) | 316 | 2025-07-09T06:01:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gothinkster/realworld-starter-kit](https://github.com/gothinkster/realworld-starter-kit) | 470 | 2025-07-08T23:46:48Z | Unknown | Framework | 0 | 0 | 0 | 0 |
 | [swift-server/sswg](https://github.com/swift-server/sswg) | 189 | 2025-07-07T13:56:15Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [xuyang-liu16/Awesome-Generation-Acceleration](https://github.com/xuyang-liu16/Awesome-Generation-Acceleration) | 399 | 2025-07-07T06:54:50Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
@@ -158,7 +159,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mundimark/awesome-markdown-alternatives](https://github.com/mundimark/awesome-markdown-alternatives) | 100 | 2024-04-21T15:17:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mapbox/vector-tile-spec](https://github.com/mapbox/vector-tile-spec) | 997 | 2024-04-17T09:18:02Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jianzhnie/awesome-instruction-datasets](https://github.com/jianzhnie/awesome-instruction-datasets) | 730 | 2024-04-07T02:56:10Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
-| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 107 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 105 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [BBuf/how-to-learn-deep-learning-framework](https://github.com/BBuf/how-to-learn-deep-learning-framework) | 498 | 2024-03-22T23:41:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 268 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 348 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -388,6 +389,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/vblang](https://github.com/dotnet/vblang) | 323 | 2024-12-18T01:53:31Z | Unknown | Library | 1 | 0 | 1 | 1 |
 | [octokit/authentication-strategies.js](https://github.com/octokit/authentication-strategies.js) | 323 | 2024-01-13T22:43:08Z | Unknown | Service/API | 2 | 0 | 2 | 2 |
 | [Shenzhi-Wang/Llama3-Chinese-Chat](https://github.com/Shenzhi-Wang/Llama3-Chinese-Chat) | 318 | 2024-05-06T13:26:01Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [neavo/OneClickLLAMA](https://github.com/neavo/OneClickLLAMA) | 316 | 2025-07-09T06:01:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [chriskiehl/GooeyExamples](https://github.com/chriskiehl/GooeyExamples) | 314 | 2024-01-05T16:02:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jd-opensource/lapa-dataset](https://github.com/jd-opensource/lapa-dataset) | 313 | 2024-07-29T06:45:48Z | Unknown | Model/data | 5 | 0 | 5 | 5 |
 | [aws/mit-0](https://github.com/aws/mit-0) | 308 | 2022-05-16T16:11:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -524,9 +526,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [storybookjs/brand](https://github.com/storybookjs/brand) | 109 | 2022-10-28T10:41:09Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [cloudwego/community](https://github.com/cloudwego/community) | 107 | 2025-10-16T06:54:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Shadowsocks-NET/shadowsocks-specs](https://github.com/Shadowsocks-NET/shadowsocks-specs) | 107 | 2025-04-10T09:30:09Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 107 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [AbhishekMaira10/AbhishekMaira10](https://github.com/AbhishekMaira10/AbhishekMaira10) | 107 | 2021-10-13T06:28:08Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [IceClear/SeedVR](https://github.com/IceClear/SeedVR) | 106 | 2025-06-18T17:29:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 105 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [privacycg/storage-partitioning](https://github.com/privacycg/storage-partitioning) | 104 | 2023-05-24T03:26:08Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [rust-lang/project-portable-simd](https://github.com/rust-lang/project-portable-simd) | 102 | 2024-11-26T14:03:41Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ZHKKKe/PPM](https://github.com/ZHKKKe/PPM) | 102 | 2023-02-01T08:23:56Z | Unknown | Unknown | 2 | 0 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 74,
-    "terms": 167
+    "components": 118,
+    "concepts": 168,
+    "observations": 168,
+    "repos": 75,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "abapGit/ADT_Frontend",
     "abilian/abilian-sbe",
@@ -52,6 +52,7 @@
     "gchq/koryphe",
     "glaforge/gemini-workshop-for-java-developers",
     "gokulesh/SqlRecorder",
+    "grpc/grpc-java-api-checker",
     "gstreamer-java/gst1-java-examples",
     "gstreamer-java/gstreamer-java",
     "h2oai/h2o-droplets",

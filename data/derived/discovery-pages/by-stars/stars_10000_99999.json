@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33381,
-    "concepts": 15204,
-    "observations": 15260,
-    "repos": 1715,
-    "terms": 15165
+    "components": 33422,
+    "concepts": 15212,
+    "observations": 15268,
+    "repos": 1716,
+    "terms": 15167
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-25T13:03:57.968606+00:00",
+  "generated_at": "2026-05-26T05:53:59.364792+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -411,6 +411,7 @@
     "devicons/devicon",
     "Devolutions/UniGetUI",
     "dexidp/dex",
+    "dexie/Dexie.js",
     "dgraph-io/badger",
     "dgraph-io/dgraph",
     "dgrijalva/jwt-go",
