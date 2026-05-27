@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Shell
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 23
+- repos: 16
+- terms: 26
 - components: 21
-- concepts: 23
-- observations: 23
+- concepts: 26
+- observations: 26
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [conda-forge/xeus-cpp-feedstock](https://github.com/conda-forge/xeus-cpp-feedstock) | 0 | 2026-04-24T15:06:05Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nodenv/node-build-prerelease](https://github.com/nodenv/node-build-prerelease) | 0 | 2026-04-24T07:57:51Z | Shell | Infrastructure/tooling | 10 | 9 | 10 | 10 |

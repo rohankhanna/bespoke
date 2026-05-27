@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2552,
-    "concepts": 2428,
-    "observations": 2439,
-    "repos": 362,
-    "terms": 2414
+    "components": 2627,
+    "concepts": 2472,
+    "observations": 2483,
+    "repos": 366,
+    "terms": 2458
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -70,6 +70,7 @@
     "BLAKE3-team/BLAKE3",
     "blockscout/blockscout",
     "boostorg/boost",
+    "box-project/box",
     "brainlid/langchain",
     "briansmith/ring",
     "BuddiesOfBudgie/budgie-desktop",
@@ -98,6 +99,7 @@
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "cssnano/cssnano",
+    "csstools/postcss-plugins",
     "ctrlpvim/ctrlp.vim",
     "Cysharp/MagicOnion",
     "danger/danger",
@@ -196,6 +198,7 @@
     "jeremyevans/roda",
     "jeremyevans/sequel",
     "jgm/djot",
+    "JLLeitschuh/ktlint-gradle",
     "john-rocky/CoreML-Models",
     "johnbean393/Sidekick",
     "jpsim/SourceKitten",
@@ -316,6 +319,7 @@
     "rom1504/clip-retrieval",
     "rstudio/cheatsheets",
     "ruby/debug",
+    "ruby/rake",
     "ruby/rbs",
     "RubyMoney/money",
     "rust-lang/rfcs",

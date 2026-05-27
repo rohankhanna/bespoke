@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 94
-- components: 338
-- concepts: 94
-- observations: 94
+- repos: 8
+- terms: 76
+- components: 303
+- concepts: 76
+- observations: 76
 
 ## Static behavior
 
@@ -34,7 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 277 | 2026-05-14T02:08:07Z | TypeScript | Infrastructure/tooling | 2 | 43 | 2 | 2 |
 | [Nerivec/zigbee2mqtt-windfront](https://github.com/Nerivec/zigbee2mqtt-windfront) | 106 | 2026-05-13T22:23:02Z | TypeScript | Infrastructure/tooling | 9 | 61 | 9 | 9 |
 | [Luligu/matterbridge](https://github.com/Luligu/matterbridge) | 895 | 2026-05-13T12:14:25Z | TypeScript | Infrastructure/tooling | 24 | 43 | 24 | 24 |
-| [Luligu/matterbridge-zigbee2mqtt](https://github.com/Luligu/matterbridge-zigbee2mqtt) | 165 | 2026-05-13T06:13:31Z | TypeScript | Infrastructure/tooling | 18 | 35 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -47,5 +46,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Brendonovich/MacroGraph](https://github.com/Brendonovich/MacroGraph) | 306 | 2026-05-17T04:12:00Z | TypeScript | Infrastructure/tooling | 14 | 31 | 14 | 14 |
 | [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 277 | 2026-05-14T02:08:07Z | TypeScript | Infrastructure/tooling | 2 | 43 | 2 | 2 |
 | [fluent-vue/fluent-vue](https://github.com/fluent-vue/fluent-vue) | 276 | 2026-05-16T23:13:09Z | TypeScript | Infrastructure/tooling | 12 | 31 | 12 | 12 |
-| [Luligu/matterbridge-zigbee2mqtt](https://github.com/Luligu/matterbridge-zigbee2mqtt) | 165 | 2026-05-13T06:13:31Z | TypeScript | Infrastructure/tooling | 18 | 35 | 18 | 18 |
 | [Nerivec/zigbee2mqtt-windfront](https://github.com/Nerivec/zigbee2mqtt-windfront) | 106 | 2026-05-13T22:23:02Z | TypeScript | Infrastructure/tooling | 9 | 61 | 9 | 9 |

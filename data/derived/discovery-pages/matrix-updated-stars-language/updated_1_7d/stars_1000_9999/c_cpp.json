@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 8,
-    "terms": 88
+    "components": 117,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 9,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
@@ -20,6 +20,7 @@
     "KhronosGroup/KTX-Software",
     "luau-lang/luau",
     "microsoft/Detours",
+    "TrenchBroom/TrenchBroom",
     "ultrajson/ultrajson",
     "xtensor-stack/xtensor"
   ]

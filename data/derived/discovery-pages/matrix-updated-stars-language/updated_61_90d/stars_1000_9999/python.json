@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 278,
-    "concepts": 530,
-    "observations": 530,
-    "repos": 83,
-    "terms": 527
+    "components": 282,
+    "concepts": 531,
+    "observations": 531,
+    "repos": 84,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -30,6 +30,7 @@
     "dateutil/dateutil",
     "davidhalter/jedi",
     "DepthAnything/Depth-Anything-V2",
+    "django/channels",
     "docarray/docarray",
     "dolfies/discord.py-self",
     "dynaconf/dynaconf",

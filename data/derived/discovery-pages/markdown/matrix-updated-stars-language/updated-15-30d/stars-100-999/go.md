@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 88
-- terms: 722
-- components: 801
-- concepts: 724
-- observations: 725
+- repos: 87
+- terms: 711
+- components: 788
+- concepts: 713
+- observations: 714
 
 ## Static behavior
 
@@ -113,7 +113,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [theupdateframework/go-tuf](https://github.com/theupdateframework/go-tuf) | 702 | 2026-04-27T14:11:32Z | Go | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [CosmWasm/wasmvm](https://github.com/CosmWasm/wasmvm) | 204 | 2026-04-27T14:09:26Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [boj/redistore](https://github.com/boj/redistore) | 424 | 2026-04-27T10:57:49Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [hypnoglow/helm-s3](https://github.com/hypnoglow/helm-s3) | 610 | 2026-04-27T08:00:53Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -144,7 +143,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cosmos/ibc-go](https://github.com/cosmos/ibc-go) | 637 | 2026-05-01T16:17:36Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [kubernetes-sigs/dra-driver-nvidia-gpu](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu) | 633 | 2026-04-29T15:45:35Z | Go | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [controlplaneio-fluxcd/flux-operator](https://github.com/controlplaneio-fluxcd/flux-operator) | 621 | 2026-04-30T13:41:23Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 12 |
-| [hypnoglow/helm-s3](https://github.com/hypnoglow/helm-s3) | 610 | 2026-04-27T08:00:53Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [cloudwego/eino-examples](https://github.com/cloudwego/eino-examples) | 607 | 2026-04-29T02:46:24Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [energye/energy](https://github.com/energye/energy) | 588 | 2026-05-08T00:59:00Z | Go | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [gookit/config](https://github.com/gookit/config) | 584 | 2026-05-05T02:29:34Z | Go | Infrastructure/tooling | 13 | 9 | 15 | 15 |

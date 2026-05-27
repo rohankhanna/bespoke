@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 ## Counts
 
-- repos: 12337
-- terms: 33473
-- components: 47813
-- concepts: 33897
-- observations: 33954
+- repos: 12339
+- terms: 33480
+- components: 47818
+- concepts: 33904
+- observations: 33961
 
 ## Static behavior
 
@@ -22,6 +22,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [free-audio/clap-host](https://github.com/free-audio/clap-host) | 99 | 2025-11-28T08:41:40Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud) | 784 | 2025-11-28T08:00:46Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [XPixelGroup/DepictQA](https://github.com/XPixelGroup/DepictQA) | 217 | 2025-11-28T05:54:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [KlingAIResearch/ReCamMaster](https://github.com/KlingAIResearch/ReCamMaster) | 1807 | 2025-11-28T04:06:03Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [f-dangel/backpack](https://github.com/f-dangel/backpack) | 611 | 2025-11-28T03:18:34Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -15471,6 +15473,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MC-E/DragonDiffusion](https://github.com/MC-E/DragonDiffusion) | 785 | 2024-03-02T01:26:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PaddlePaddle/RocketQA](https://github.com/PaddlePaddle/RocketQA) | 785 | 2023-12-19T08:08:35Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [joonro/ConEmu-Color-Themes](https://github.com/joonro/ConEmu-Color-Themes) | 785 | 2023-07-25T13:49:08Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud) | 784 | 2025-11-28T08:00:46Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [nunchaku-ai/deepcompressor](https://github.com/nunchaku-ai/deepcompressor) | 784 | 2025-08-14T00:43:00Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [TTPlanetPig/Comfyui_Object_Migration](https://github.com/TTPlanetPig/Comfyui_Object_Migration) | 783 | 2024-11-20T16:51:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Infinidat/munch](https://github.com/Infinidat/munch) | 783 | 2024-06-05T07:50:35Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -19624,6 +19627,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jayded/eraserbenchmark](https://github.com/jayded/eraserbenchmark) | 100 | 2022-11-11T12:05:01Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [probot/ideas](https://github.com/probot/ideas) | 100 | 2022-09-05T21:35:49Z | Unknown | Web app | 0 | 0 | 0 | 0 |
 | [junjun3518/alias-free-torch](https://github.com/junjun3518/alias-free-torch) | 100 | 2022-07-26T01:37:10Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [free-audio/clap-host](https://github.com/free-audio/clap-host) | 99 | 2025-11-28T08:41:40Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [SLDGroup/CASCADE](https://github.com/SLDGroup/CASCADE) | 99 | 2025-11-26T18:49:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Shenyi-Z/Cache4Diffusion](https://github.com/Shenyi-Z/Cache4Diffusion) | 99 | 2025-10-23T02:33:59Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [box2ai-robotics/lerobot-joycon](https://github.com/box2ai-robotics/lerobot-joycon) | 99 | 2025-10-14T14:09:13Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |

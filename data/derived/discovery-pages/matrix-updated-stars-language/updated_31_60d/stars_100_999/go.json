@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1003,
-    "concepts": 805,
-    "observations": 811,
-    "repos": 137,
-    "terms": 813
+    "components": 1016,
+    "concepts": 816,
+    "observations": 822,
+    "repos": 138,
+    "terms": 824
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -89,6 +89,7 @@
     "hashicorp/terraform-provider-scaffolding-framework",
     "hazelcast/hazelcast-go-client",
     "helm/chart-releaser",
+    "hypnoglow/helm-s3",
     "imjasonh/kontain.me",
     "ipfs/boxo",
     "ipfs/go-cid",

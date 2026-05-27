@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1224,
-    "concepts": 5562,
-    "observations": 5567,
-    "repos": 1869,
-    "terms": 5409
+    "concepts": 5567,
+    "observations": 5572,
+    "repos": 1870,
+    "terms": 5414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1125,6 +1125,7 @@
     "lukasruff/Deep-SAD-PyTorch",
     "lukemelas/realfusion",
     "luogen1996/LLaVA-HR",
+    "luost26/diffusion-point-cloud",
     "lupantech/PromptPG",
     "lupantech/ScienceQA",
     "luping-liu/PNDM",

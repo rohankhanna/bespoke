@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1248,
-    "concepts": 500,
-    "observations": 502,
-    "repos": 58,
-    "terms": 499
+    "components": 1388,
+    "concepts": 541,
+    "observations": 543,
+    "repos": 63,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ai-that-works/ai-that-works",
@@ -49,6 +49,7 @@
     "KhronosGroup/KTX-Software",
     "licensee/licensed",
     "luau-lang/luau",
+    "mayocream/koharu",
     "meta-pytorch/torchtune",
     "microsoft/Detours",
     "microsoft/PhiCookBook",
@@ -59,15 +60,19 @@
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
     "radian-software/straight.el",
+    "redis/redis-om-python",
     "rllm-org/rllm",
     "roboflow/maestro",
     "seancorfield/honeysql",
     "speaches-ai/speaches",
     "sveltejs/devalue",
     "tModLoader/tModLoader",
+    "TrenchBroom/TrenchBroom",
+    "typescript-language-server/typescript-language-server",
     "ultrajson/ultrajson",
     "vale-cli/vale",
     "vercel/serve",
+    "vuejs/devtools",
     "vuejs/language-tools",
     "xtensor-stack/xtensor",
     "yomidevs/yomitan"

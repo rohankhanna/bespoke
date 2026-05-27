@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11805,
-    "concepts": 6816,
-    "observations": 6831,
-    "repos": 3251,
-    "terms": 6768
+    "components": 11810,
+    "concepts": 6818,
+    "observations": 6833,
+    "repos": 3252,
+    "terms": 6770
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1380,6 +1380,7 @@
     "frankfralick/openai-func-enums",
     "fredcamps/lsp-jedi",
     "freddyaboulton/gradio-pdf",
+    "free-audio/clap-host",
     "frotms/image_classification_pytorch",
     "FStarLang/fstar-mode.el",
     "fugro-oss/g2o",

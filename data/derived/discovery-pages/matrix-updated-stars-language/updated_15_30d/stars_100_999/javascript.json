@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1203,
-    "concepts": 245,
-    "observations": 247,
-    "repos": 49,
-    "terms": 241
+    "components": 1176,
+    "concepts": 228,
+    "observations": 230,
+    "repos": 47,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
@@ -24,7 +24,6 @@
     "Calcium-Ion/new-api-key-tool",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "dydxprotocol/v4-clients",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
     "emberjs/ember-test-helpers",
@@ -35,7 +34,6 @@
     "GoogleCloudPlatform/google-cloud-node-todos",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
-    "j9t/html-minifier-next",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",

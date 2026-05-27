@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 207
-- terms: 400
+- repos: 208
+- terms: 409
 - components: 693
-- concepts: 391
-- observations: 392
+- concepts: 400
+- observations: 401
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [countries/countries-data-yaml](https://github.com/countries/countries-data-yaml) | 6 | 2026-02-25T21:55:12Z | Other | Infrastructure/tooling | 7 | 1 | 8 | 8 |
 | [AchimPieters/esp32-udp-logger](https://github.com/AchimPieters/esp32-udp-logger) | 4 | 2026-02-25T17:19:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/Zlib_jll.jl](https://github.com/JuliaBinaryWrappers/Zlib_jll.jl) | 1 | 2026-02-25T16:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -392,6 +393,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heyoeyo/toadui](https://github.com/heyoeyo/toadui) | 2 | 2025-12-06T22:08:17Z | Python | Library | 3 | 0 | 3 | 3 |
 | [mirage/coin](https://github.com/mirage/coin) | 2 | 2025-11-29T10:18:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ai-bot-pro/pipeline-py](https://github.com/ai-bot-pro/pipeline-py) | 2 | 2025-11-28T14:05:41Z | Python | Unknown | 1 | 0 | 1 | 1 |
+| [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [JuliaBinaryWrappers/Zlib_jll.jl](https://github.com/JuliaBinaryWrappers/Zlib_jll.jl) | 1 | 2026-02-25T16:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [filip26/titanium-rdf-n-quads](https://github.com/filip26/titanium-rdf-n-quads) | 1 | 2026-02-23T18:53:09Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [stephanj/sonarlint-devoxxgenie-intellij](https://github.com/stephanj/sonarlint-devoxxgenie-intellij) | 1 | 2026-02-23T07:41:03Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |

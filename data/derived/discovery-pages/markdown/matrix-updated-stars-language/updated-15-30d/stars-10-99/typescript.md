@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 328
+- repos: 57
+- terms: 323
 - components: 1521
-- concepts: 328
-- observations: 330
+- concepts: 323
+- observations: 325
 
 ## Static behavior
 
@@ -83,7 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NullVoxPopuli/ember-deep-tracked](https://github.com/NullVoxPopuli/ember-deep-tracked) | 31 | 2026-04-27T23:29:37Z | TypeScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [addfox/addfox](https://github.com/addfox/addfox) | 84 | 2026-04-27T12:44:02Z | TypeScript | Web app | 11 | 6 | 11 | 11 |
 | [swagger-api/apidom](https://github.com/swagger-api/apidom) | 96 | 2026-04-27T11:49:01Z | TypeScript | Infrastructure/tooling | 15 | 67 | 15 | 15 |
-| [catppuccin/.github](https://github.com/catppuccin/.github) | 13 | 2026-04-27T08:44:06Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -140,7 +139,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ghostery/broken-page-reports](https://github.com/ghostery/broken-page-reports) | 16 | 2026-04-30T20:47:37Z | TypeScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [emscripten-forge/mambajs](https://github.com/emscripten-forge/mambajs) | 15 | 2026-04-29T13:04:04Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [ibm-telemetry/telemetry-js](https://github.com/ibm-telemetry/telemetry-js) | 13 | 2026-05-02T21:38:09Z | TypeScript | Infrastructure/tooling | 3 | 56 | 3 | 3 |
-| [catppuccin/.github](https://github.com/catppuccin/.github) | 13 | 2026-04-27T08:44:06Z | TypeScript | Unknown | 5 | 0 | 5 | 5 |
 | [csm-actions/approve-pr-action](https://github.com/csm-actions/approve-pr-action) | 12 | 2026-05-03T01:45:48Z | TypeScript | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [octokit/auth-oauth-device.js](https://github.com/octokit/auth-oauth-device.js) | 12 | 2026-04-29T12:03:07Z | TypeScript | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [ipfs/github-mgmt](https://github.com/ipfs/github-mgmt) | 12 | 2026-04-28T21:46:04Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |

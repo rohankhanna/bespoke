@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 74
-- terms: 554
-- components: 3088
-- concepts: 550
-- observations: 553
+- repos: 75
+- terms: 562
+- components: 3096
+- concepts: 558
+- observations: 561
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [validatorjs/validator.js](https://github.com/validatorjs/validator.js) | 23751 | 2026-04-24T18:39:04Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [electerm/electerm](https://github.com/electerm/electerm) | 13984 | 2026-04-24T08:57:01Z | JavaScript | CLI | 21 | 82 | 21 | 21 |
 | [protobufjs/protobuf.js](https://github.com/protobufjs/protobuf.js) | 10521 | 2026-04-24T06:50:48Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
@@ -153,6 +154,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [commitizen/cz-cli](https://github.com/commitizen/cz-cli) | 17465 | 2026-04-23T03:01:49Z | JavaScript | CLI | 9 | 39 | 9 | 9 |
 | [cure53/DOMPurify](https://github.com/cure53/DOMPurify) | 16918 | 2026-04-23T14:29:58Z | JavaScript | Infrastructure/tooling | 14 | 38 | 14 | 15 |
 | [infernojs/inferno](https://github.com/infernojs/inferno) | 16413 | 2026-04-07T13:07:29Z | JavaScript | Infrastructure/tooling | 8 | 60 | 8 | 8 |
+| [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [jasmine/jasmine](https://github.com/jasmine/jasmine) | 15834 | 2026-04-18T14:35:10Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [avwo/whistle](https://github.com/avwo/whistle) | 15490 | 2026-04-11T09:08:32Z | JavaScript | Web app | 8 | 60 | 8 | 8 |
 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 15115 | 2026-04-18T20:42:15Z | JavaScript | Infrastructure/tooling | 2 | 4 | 0 | 0 |

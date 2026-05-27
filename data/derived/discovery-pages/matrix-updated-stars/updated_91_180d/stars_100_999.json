@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4259,
-    "concepts": 2977,
-    "observations": 2984,
-    "repos": 754,
-    "terms": 2968
+    "components": 4275,
+    "concepts": 2981,
+    "observations": 2988,
+    "repos": 756,
+    "terms": 2972
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -449,7 +449,6 @@
     "lquerel/gcp-bigquery-client",
     "lucidrains/rotary-embedding-torch",
     "lunacookies/vim-colors-xcode",
-    "luost26/diffusion-point-cloud",
     "Lusito/webextension-polyfill-ts",
     "Lutetium-Vanadium/requestty",
     "lxgw/lxgw",
@@ -513,6 +512,7 @@
     "nagisa/rust_tracy_client",
     "nanbingxyz/mcpsvr",
     "NeighTools/UnityDoorstop",
+    "Nek5000/Nek5000",
     "nghorbani/body_visualizer",
     "nghorbani/human_body_prior",
     "nicklashansen/newt",
@@ -521,6 +521,7 @@
     "nihui/ncnn-android-nanodet",
     "nihui/ncnn-android-scrfd",
     "niieani/gpt-tokenizer",
+    "nim-lang/vscode-nim",
     "nixprime/cpsm",
     "nobleo/rviz_satellite",
     "node-real/bsc-erigon",
@@ -723,6 +724,7 @@
     "vim-php/phpctags",
     "virtuald/pyhcl",
     "VisionLearningGroup/VisionLearningGroup.github.io",
+    "Visual-Agent/DeepEyesV2",
     "vuejs/vue-eslint-parser",
     "w3c/FileAPI",
     "walles/px",

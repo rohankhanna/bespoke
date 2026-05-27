@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 105
-- terms: 733
-- components: 3633
-- concepts: 739
-- observations: 741
+- terms: 743
+- components: 3626
+- concepts: 749
+- observations: 751
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Luligu/matterbridge-zigbee2mqtt](https://github.com/Luligu/matterbridge-zigbee2mqtt) | 165 | 2026-05-13T06:13:31Z | TypeScript | Infrastructure/tooling | 18 | 35 | 18 | 18 |
 | [Zoo-Code-Org/Zoo-Code](https://github.com/Zoo-Code-Org/Zoo-Code) | 107 | 2026-05-13T04:08:29Z | TypeScript | Infrastructure/tooling | 8 | 32 | 8 | 8 |
 | [Luligu/matterbridge-shelly](https://github.com/Luligu/matterbridge-shelly) | 135 | 2026-05-12T19:59:42Z | TypeScript | Infrastructure/tooling | 5 | 40 | 5 | 5 |
 | [nurikk/zigbee2mqtt-frontend](https://github.com/nurikk/zigbee2mqtt-frontend) | 301 | 2026-05-12T15:13:38Z | TypeScript | Infrastructure/tooling | 4 | 86 | 4 | 4 |
@@ -130,7 +131,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fsouza/prettierd](https://github.com/fsouza/prettierd) | 987 | 2026-04-27T18:22:27Z | TypeScript | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [oxc-project/eslint-plugin-oxlint](https://github.com/oxc-project/eslint-plugin-oxlint) | 440 | 2026-04-27T14:52:41Z | TypeScript | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [luciopaiva/heapify](https://github.com/luciopaiva/heapify) | 742 | 2026-04-27T09:01:14Z | TypeScript | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -212,7 +212,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intlify/bundle-tools](https://github.com/intlify/bundle-tools) | 267 | 2026-04-29T12:15:58Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [un-ts/synckit](https://github.com/un-ts/synckit) | 266 | 2026-04-30T12:03:59Z | TypeScript | Infrastructure/tooling | 12 | 47 | 12 | 12 |
 | [privatenumber/get-tsconfig](https://github.com/privatenumber/get-tsconfig) | 248 | 2026-04-30T03:22:12Z | TypeScript | Infrastructure/tooling | 7 | 18 | 7 | 7 |
-| [forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer) | 237 | 2026-04-27T08:10:52Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 | [inversify/monorepo](https://github.com/inversify/monorepo) | 232 | 2026-05-06T17:33:12Z | TypeScript | Infrastructure/tooling | 11 | 24 | 13 | 13 |
 | [decentralized-identity/did-resolver](https://github.com/decentralized-identity/did-resolver) | 230 | 2026-04-29T11:13:27Z | TypeScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [apify/apify-cli](https://github.com/apify/apify-cli) | 216 | 2026-05-11T16:51:23Z | TypeScript | Infrastructure/tooling | 14 | 98 | 14 | 14 |
@@ -229,6 +228,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [octokit/auth-app.js](https://github.com/octokit/auth-app.js) | 172 | 2026-04-29T15:48:22Z | TypeScript | Infrastructure/tooling | 7 | 27 | 7 | 7 |
 | [lambdalisue/vim-gin](https://github.com/lambdalisue/vim-gin) | 171 | 2026-05-06T06:29:34Z | TypeScript | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [salesforcecli/cli](https://github.com/salesforcecli/cli) | 171 | 2026-04-30T03:28:37Z | TypeScript | CLI | 9 | 67 | 9 | 9 |
+| [Luligu/matterbridge-zigbee2mqtt](https://github.com/Luligu/matterbridge-zigbee2mqtt) | 165 | 2026-05-13T06:13:31Z | TypeScript | Infrastructure/tooling | 18 | 35 | 18 | 18 |
 | [chainguard-dev/actions](https://github.com/chainguard-dev/actions) | 165 | 2026-04-29T13:22:25Z | TypeScript | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [agentclientprotocol/typescript-sdk](https://github.com/agentclientprotocol/typescript-sdk) | 162 | 2026-05-02T13:16:25Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
 | [ory/docs](https://github.com/ory/docs) | 162 | 2026-05-01T06:36:26Z | TypeScript | Infrastructure/tooling | 10 | 74 | 10 | 10 |

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 918,
-    "concepts": 359,
-    "observations": 359,
-    "repos": 234,
-    "terms": 389
+    "concepts": 362,
+    "observations": 362,
+    "repos": 236,
+    "terms": 392
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -100,6 +100,7 @@
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
+    "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Backup-Planner",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
@@ -128,6 +129,7 @@
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Israel-Preparedness-Index",
+    "danielrosehill/Israel-Projects-Index",
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/Live-Typing-UX-Research",
     "danielrosehill/LLM-Council-Decide",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4043,
-    "concepts": 796,
-    "observations": 796,
-    "repos": 143,
-    "terms": 854
+    "components": 4085,
+    "concepts": 804,
+    "observations": 804,
+    "repos": 144,
+    "terms": 862
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -64,6 +64,7 @@
     "evmts/tevm-monorepo",
     "fannheyward/coc-sql",
     "fastify/demo",
+    "forcedotcom/code-analyzer",
     "giselles-ai/giselle",
     "github/local-action",
     "google/adk-web",

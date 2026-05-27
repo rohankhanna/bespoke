@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 349
-- components: 2058
-- concepts: 356
-- observations: 356
+- repos: 39
+- terms: 341
+- components: 2050
+- concepts: 348
+- observations: 348
 
 ## Static behavior
 
@@ -65,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | 28768 | 2026-04-27T12:56:12Z | JavaScript | Infrastructure/tooling | 19 | 137 | 19 | 19 |
 | [wix/Detox](https://github.com/wix/Detox) | 11901 | 2026-04-27T10:24:49Z | JavaScript | Infrastructure/tooling | 17 | 37 | 17 | 17 |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | 17547 | 2026-04-27T10:23:39Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
-| [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -95,7 +94,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18014 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | 17547 | 2026-04-27T10:23:39Z | JavaScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [moment/luxon](https://github.com/moment/luxon) | 16385 | 2026-04-28T19:28:04Z | JavaScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |
-| [huggingface/transformers.js](https://github.com/huggingface/transformers.js) | 15940 | 2026-04-27T08:11:22Z | JavaScript | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [jsdoc/jsdoc](https://github.com/jsdoc/jsdoc) | 15434 | 2026-05-01T02:41:25Z | JavaScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15228 | 2026-05-02T16:01:41Z | JavaScript | Infrastructure/tooling | 11 | 58 | 13 | 13 |
 | [ampproject/amphtml](https://github.com/ampproject/amphtml) | 14905 | 2026-04-27T22:36:52Z | JavaScript | Infrastructure/tooling | 7 | 173 | 7 | 7 |

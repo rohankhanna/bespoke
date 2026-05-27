@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 46
-- terms: 639
-- components: 703
-- concepts: 639
-- observations: 641
+- repos: 45
+- terms: 634
+- components: 699
+- concepts: 634
+- observations: 636
 
 ## Static behavior
 
@@ -71,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [getsops/sops](https://github.com/getsops/sops) | 21665 | 2026-04-27T16:07:56Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [a-h/templ](https://github.com/a-h/templ) | 10266 | 2026-04-27T13:46:25Z | Go | Infrastructure/tooling | 9 | 16 | 9 | 9 |
-| [joewalnes/websocketd](https://github.com/joewalnes/websocketd) | 17483 | 2026-04-27T07:12:44Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -102,7 +101,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-playground/validator](https://github.com/go-playground/validator) | 19926 | 2026-04-29T07:51:08Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 19884 | 2026-04-29T17:53:39Z | Go | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [google/gvisor](https://github.com/google/gvisor) | 18217 | 2026-05-02T00:00:12Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [joewalnes/websocketd](https://github.com/joewalnes/websocketd) | 17483 | 2026-04-27T07:12:44Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [rqlite/rqlite](https://github.com/rqlite/rqlite) | 17469 | 2026-05-03T15:33:00Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [ipfs/kubo](https://github.com/ipfs/kubo) | 17002 | 2026-04-29T22:13:03Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16933 | 2026-04-30T18:46:40Z | Go | Infrastructure/tooling | 21 | 9 | 21 | 21 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 362
-- terms: 2414
-- components: 2552
-- concepts: 2428
-- observations: 2439
+- repos: 366
+- terms: 2458
+- components: 2627
+- concepts: 2472
+- observations: 2483
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [csstools/postcss-plugins](https://github.com/csstools/postcss-plugins) | 1042 | 2026-04-27T08:56:46Z | Other | Infrastructure/tooling | 6 | 24 | 6 | 6 |
+| [ruby/rake](https://github.com/ruby/rake) | 2436 | 2026-04-27T08:05:12Z | Other | Infrastructure/tooling | 10 | 10 | 10 | 10 |
+| [JLLeitschuh/ktlint-gradle](https://github.com/JLLeitschuh/ktlint-gradle) | 1692 | 2026-04-27T07:10:32Z | Other | Infrastructure/tooling | 15 | 16 | 15 | 15 |
+| [box-project/box](https://github.com/box-project/box) | 1301 | 2026-04-27T06:21:37Z | Other | Infrastructure/tooling | 13 | 25 | 13 | 13 |
 | [prontolabs/pronto](https://github.com/prontolabs/pronto) | 2666 | 2026-04-27T04:51:30Z | Other | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | 4500 | 2026-04-26T19:52:44Z | Other | Infrastructure/tooling | 5 | 4 | 6 | 6 |
 | [LibreHardwareMonitor/LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) | 8262 | 2026-04-26T17:44:40Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
@@ -589,6 +593,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Project-MONAI/tutorials](https://github.com/Project-MONAI/tutorials) | 2448 | 2026-04-14T20:27:28Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 9 |
 | [CesiumGS/3d-tiles](https://github.com/CesiumGS/3d-tiles) | 2444 | 2026-04-23T17:11:41Z | Other | Model/data | 8 | 0 | 10 | 10 |
 | [socketry/async](https://github.com/socketry/async) | 2440 | 2026-04-05T12:59:49Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 13 |
+| [ruby/rake](https://github.com/ruby/rake) | 2436 | 2026-04-27T08:05:12Z | Other | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [CocoaPods/Xcodeproj](https://github.com/CocoaPods/Xcodeproj) | 2433 | 2026-04-09T01:13:14Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [jpsim/SourceKitten](https://github.com/jpsim/SourceKitten) | 2413 | 2026-04-08T09:21:29Z | Other | CLI | 5 | 7 | 5 | 5 |
 | [kubernetes-monitoring/kubernetes-mixin](https://github.com/kubernetes-monitoring/kubernetes-mixin) | 2412 | 2026-04-22T10:38:43Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -645,6 +650,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [junegunn/seoul256.vim](https://github.com/junegunn/seoul256.vim) | 1735 | 2026-04-17T08:06:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [decidim/decidim](https://github.com/decidim/decidim) | 1732 | 2026-04-23T08:20:33Z | Other | Infrastructure/tooling | 16 | 18 | 16 | 16 |
 | [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir) | 1693 | 2026-04-16T18:14:38Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [JLLeitschuh/ktlint-gradle](https://github.com/JLLeitschuh/ktlint-gradle) | 1692 | 2026-04-27T07:10:32Z | Other | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [mattn/vim-gist](https://github.com/mattn/vim-gist) | 1689 | 2026-04-10T23:20:24Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [apple/swift-crypto](https://github.com/apple/swift-crypto) | 1676 | 2026-04-20T08:37:39Z | Other | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [AdguardTeam/AdguardForiOS](https://github.com/AdguardTeam/AdguardForiOS) | 1643 | 2026-04-14T10:49:01Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -700,6 +706,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BuddiesOfBudgie/budgie-desktop](https://github.com/BuddiesOfBudgie/budgie-desktop) | 1308 | 2026-04-22T06:56:47Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [wojtekmach/req](https://github.com/wojtekmach/req) | 1306 | 2026-04-14T12:34:05Z | Other | CLI | 2 | 3 | 2 | 2 |
 | [clojure-lsp/clojure-lsp](https://github.com/clojure-lsp/clojure-lsp) | 1305 | 2026-04-23T18:19:57Z | Other | Infrastructure/tooling | 14 | 25 | 14 | 14 |
+| [box-project/box](https://github.com/box-project/box) | 1301 | 2026-04-27T06:21:37Z | Other | Infrastructure/tooling | 13 | 25 | 13 | 13 |
 | [WebAssembly/component-model](https://github.com/WebAssembly/component-model) | 1298 | 2026-04-23T20:36:53Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [r-lib/lintr](https://github.com/r-lib/lintr) | 1272 | 2026-03-31T22:54:34Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [adobe/spectrum-css](https://github.com/adobe/spectrum-css) | 1266 | 2026-04-19T18:42:49Z | Other | Infrastructure/tooling | 9 | 72 | 9 | 9 |
@@ -744,6 +751,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1051 | 2026-04-24T08:59:18Z | Other | Infrastructure/tooling | 25 | 12 | 25 | 25 |
 | [JuliaPy/PythonCall.jl](https://github.com/JuliaPy/PythonCall.jl) | 1049 | 2026-04-23T02:23:40Z | Other | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [GoogleCloudPlatform/vertex-ai-creative-studio](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio) | 1045 | 2026-04-18T20:07:46Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
+| [csstools/postcss-plugins](https://github.com/csstools/postcss-plugins) | 1042 | 2026-04-27T08:56:46Z | Other | Infrastructure/tooling | 6 | 24 | 6 | 6 |
 | [terraform-aws-modules/terraform-aws-lambda](https://github.com/terraform-aws-modules/terraform-aws-lambda) | 1035 | 2026-04-23T09:03:54Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [carbon-design-system/carbon-charts](https://github.com/carbon-design-system/carbon-charts) | 1033 | 2026-04-22T05:16:19Z | Other | Infrastructure/tooling | 12 | 33 | 12 | 12 |
 | [aaaaalexis/obsidian-cupertino](https://github.com/aaaaalexis/obsidian-cupertino) | 1032 | 2026-03-29T05:30:11Z | Other | Unknown | 6 | 0 | 6 | 6 |

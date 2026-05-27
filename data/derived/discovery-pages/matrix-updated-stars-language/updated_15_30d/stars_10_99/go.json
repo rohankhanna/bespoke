@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 142,
-    "observations": 143,
-    "repos": 30,
-    "terms": 142
+    "components": 201,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 29,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
@@ -20,7 +20,6 @@
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
-    "cloudfoundry/cf-smoke-tests",
     "cosmos/ibc-apps",
     "datachainlab/cosmos-ethereum-ibc-lcp",
     "DevExpGbb/gh-devlake",

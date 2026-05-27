@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 637,
-    "concepts": 359,
-    "observations": 360,
-    "repos": 56,
-    "terms": 359
+    "components": 640,
+    "concepts": 362,
+    "observations": 363,
+    "repos": 57,
+    "terms": 362
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "all-contributors/app",
@@ -47,6 +47,7 @@
     "jupyter-server/jupyter_server",
     "jupyter/nbclassic",
     "karafka/rdkafka-ruby",
+    "ldproxy/ldproxy",
     "LuaLS/vscode-lua",
     "machinewrapped/llm-subtrans",
     "matter-js/matter.js",

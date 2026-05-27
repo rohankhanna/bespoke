@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 242,
-    "observations": 243,
-    "repos": 102,
-    "terms": 250
+    "components": 220,
+    "concepts": 250,
+    "observations": 251,
+    "repos": 103,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -96,6 +96,7 @@
     "ReneHollander/rep0st",
     "robotools/ufo2fdk",
     "saltstack/libnacl",
+    "scaleway/serverless-gateway",
     "shawn0728/ARES",
     "SLDGroup/EffiDec3D",
     "SLDGroup/LoMix",

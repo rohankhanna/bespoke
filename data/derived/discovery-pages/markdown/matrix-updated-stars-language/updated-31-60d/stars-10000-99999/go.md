@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 1062
-- components: 1080
-- concepts: 1078
-- observations: 1082
+- repos: 97
+- terms: 1067
+- components: 1084
+- concepts: 1083
+- observations: 1087
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [joewalnes/websocketd](https://github.com/joewalnes/websocketd) | 17483 | 2026-04-27T07:12:44Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [apernet/hysteria](https://github.com/apernet/hysteria) | 19822 | 2026-04-26T21:26:19Z | Go | Infrastructure/tooling | 16 | 14 | 16 | 16 |
 | [schollz/croc](https://github.com/schollz/croc) | 34888 | 2026-04-26T13:57:41Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [quic-go/quic-go](https://github.com/quic-go/quic-go) | 11565 | 2026-04-26T03:11:56Z | Go | CLI | 11 | 12 | 11 | 11 |
@@ -183,6 +184,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | 19465 | 2026-04-13T09:14:30Z | Go | CLI | 11 | 7 | 11 | 11 |
 | [google/cadvisor](https://github.com/google/cadvisor) | 19079 | 2026-04-16T11:11:08Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [golangci/golangci-lint](https://github.com/golangci/golangci-lint) | 18834 | 2026-04-21T20:36:34Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [joewalnes/websocketd](https://github.com/joewalnes/websocketd) | 17483 | 2026-04-27T07:12:44Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [slackhq/nebula](https://github.com/slackhq/nebula) | 17271 | 2026-04-23T02:21:38Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [ory/hydra](https://github.com/ory/hydra) | 17106 | 2026-04-14T07:13:13Z | Go | Infrastructure/tooling | 26 | 36 | 26 | 26 |
 | [ent/ent](https://github.com/ent/ent) | 17036 | 2026-04-14T14:59:08Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |

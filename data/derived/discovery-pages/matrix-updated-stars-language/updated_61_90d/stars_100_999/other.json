@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 813,
-    "concepts": 566,
-    "observations": 568,
-    "repos": 141,
-    "terms": 563
+    "components": 797,
+    "concepts": 560,
+    "observations": 562,
+    "repos": 140,
+    "terms": 557
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -106,6 +106,7 @@
     "mattn/webapi-vim",
     "mcabbott/AxisKeys.jl",
     "melix/jmh-gradle-plugin",
+    "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
     "metosin/ring-swagger",
     "metosin/spec-tools",
@@ -114,8 +115,6 @@
     "milvus-io/milvus-sdk-csharp",
     "moyangzhan/langchain4j-aideepin-admin",
     "nebula-plugins/nebula-release-plugin",
-    "Nek5000/Nek5000",
-    "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
     "ocaml-community/utop",
     "ocurrent/ocaml-ci",

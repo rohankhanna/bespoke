@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3633,
-    "concepts": 739,
-    "observations": 741,
+    "components": 3626,
+    "concepts": 749,
+    "observations": 751,
     "repos": 105,
-    "terms": 733
+    "terms": 743
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -46,7 +46,6 @@
     "engine262/engine262",
     "flathub-infra/website",
     "folke/esbuild-runner",
-    "forcedotcom/code-analyzer",
     "foundry-rs/foundry-toolchain",
     "fsouza/prettierd",
     "ftonato/nope-validator",
@@ -69,6 +68,7 @@
     "LemmyNet/lemmy-js-client",
     "luciopaiva/heapify",
     "Luligu/matterbridge-shelly",
+    "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
     "microsoft/vscode-java-debug",

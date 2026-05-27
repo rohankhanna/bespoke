@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2264,
-    "concepts": 2642,
-    "observations": 2649,
-    "repos": 360,
-    "terms": 2640
+    "components": 2289,
+    "concepts": 2678,
+    "observations": 2685,
+    "repos": 362,
+    "terms": 2674
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -52,6 +52,7 @@
     "audreyfeldroy/cookiecutter-pypackage",
     "authlib/authlib",
     "aws-powertools/powertools-lambda-python",
+    "aws-samples/aws-cdk-examples",
     "aws/deep-learning-containers",
     "Azure/azure-cli",
     "Azure/azure-sdk-for-python",
@@ -94,7 +95,6 @@
     "datadog/guarddog",
     "deepspeedai/DeepSpeedExamples",
     "devnen/Chatterbox-TTS-Server",
-    "django/channels",
     "django/daphne",
     "DLR-RM/rl-baselines3-zoo",
     "drivendataorg/cookiecutter-data-science",
@@ -141,6 +141,7 @@
     "GoogleCloudPlatform/agent-starter-pack",
     "graphql-python/gql",
     "guaguastandup/zotero-pdf2zh",
+    "hacs/integration",
     "haosulab/ManiSkill",
     "hhatto/autopep8",
     "HIPS/autograd",
@@ -314,6 +315,7 @@
     "RapidAI/RapidOCR",
     "rapidfuzz/RapidFuzz",
     "raspberrypi/documentation",
+    "RDFLib/rdflib",
     "RoboTwin-Platform/RoboTwin",
     "ronf/asyncssh",
     "rthalley/dnspython",

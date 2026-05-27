@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
-- terms: 74
+- repos: 31
+- terms: 83
 - components: 89
-- concepts: 64
-- observations: 64
+- concepts: 73
+- observations: 73
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [agents-x-project/PyVision-RL-Eval](https://github.com/agents-x-project/PyVision-RL-Eval) | 2 | 2026-02-25T03:28:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [alexpolonsky/agent-skill-libby-book-monitor](https://github.com/alexpolonsky/agent-skill-libby-book-monitor) | 2 | 2026-02-21T10:35:07Z | Python | Library | 10 | 0 | 10 | 10 |
 | [ansible-community/collection_bot](https://github.com/ansible-community/collection_bot) | 4 | 2026-02-17T20:37:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -87,6 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tahv/typos-gitlab-code-quality](https://github.com/tahv/typos-gitlab-code-quality) | 2 | 2025-12-10T12:08:30Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [heyoeyo/toadui](https://github.com/heyoeyo/toadui) | 2 | 2025-12-06T22:08:17Z | Python | Library | 3 | 0 | 3 | 3 |
 | [ai-bot-pro/pipeline-py](https://github.com/ai-bot-pro/pipeline-py) | 2 | 2025-11-28T14:05:41Z | Python | Unknown | 1 | 0 | 1 | 1 |
+| [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [mlfoundations/SkyRL](https://github.com/mlfoundations/SkyRL) | 1 | 2026-02-04T22:42:59Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [mjvolk3/torchcell](https://github.com/Mjvolk3/torchcell) | 1 | 2026-01-27T17:12:36Z | Python | Infrastructure/tooling | 6 | 10 | 0 | 0 |
 | [pydantic/pydantic-docs](https://github.com/pydantic/pydantic-docs) | 1 | 2026-01-23T10:39:01Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |

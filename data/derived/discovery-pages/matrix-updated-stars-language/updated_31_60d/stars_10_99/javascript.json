@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1288,
-    "concepts": 332,
-    "observations": 332,
-    "repos": 88,
-    "terms": 332
+    "components": 1332,
+    "concepts": 339,
+    "observations": 339,
+    "repos": 90,
+    "terms": 339
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
+    "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
     "andylockran/spectral-aws-apigateway-ruleset",
@@ -56,6 +57,7 @@
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "itsrishika/payment-bypass-bug-lab",
+    "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
     "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",

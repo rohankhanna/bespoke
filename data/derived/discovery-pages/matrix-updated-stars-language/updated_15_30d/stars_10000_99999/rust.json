@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 645,
-    "concepts": 495,
-    "observations": 496,
-    "repos": 39,
-    "terms": 488
+    "components": 631,
+    "concepts": 485,
+    "observations": 486,
+    "repos": 38,
+    "terms": 478
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
@@ -41,7 +41,6 @@
     "ratatui/ratatui",
     "rerun-io/rerun",
     "rolldown/rolldown",
-    "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",

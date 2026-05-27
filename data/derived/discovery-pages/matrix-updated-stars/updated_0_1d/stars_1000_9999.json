@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 895,
-    "concepts": 510,
-    "observations": 513,
-    "repos": 56,
-    "terms": 510
+    "components": 755,
+    "concepts": 469,
+    "observations": 472,
+    "repos": 51,
+    "terms": 469
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "all-contributors/allcontributors.org",
@@ -44,7 +44,6 @@
     "kubernetes-sigs/karpenter",
     "kurrent-io/KurrentDB",
     "libbitcoin/libbitcoin-system",
-    "mayocream/koharu",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
@@ -56,17 +55,13 @@
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
     "psmux/psmux",
-    "redis/redis-om-python",
     "ROCm/ROCm",
     "safe-fndn/safe-smart-account",
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",
     "TanStack/form",
-    "TrenchBroom/TrenchBroom",
     "TryGhost/node-sqlite3",
-    "typescript-language-server/typescript-language-server",
-    "vuejs/devtools",
     "web-platform-tests/wpt",
     "zhiyiYo/PyQt-Fluent-Widgets"
   ]

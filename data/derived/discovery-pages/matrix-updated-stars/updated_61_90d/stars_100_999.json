@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3538,
-    "concepts": 2281,
-    "observations": 2291,
-    "repos": 511,
-    "terms": 2276
+    "components": 3522,
+    "concepts": 2275,
+    "observations": 2285,
+    "repos": 509,
+    "terms": 2270
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "2KAbhishek/seeker.nvim",
@@ -327,6 +327,7 @@
     "medama-io/medama",
     "melix/jmh-gradle-plugin",
     "melMass/comfy_mtb",
+    "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
     "metosin/ring-swagger",
     "metosin/spec-tools",
@@ -360,7 +361,6 @@
     "near/borsh-rs",
     "neavo/KeywordGacha",
     "nebula-plugins/nebula-release-plugin",
-    "Nek5000/Nek5000",
     "neon-bindings/examples",
     "NetEase-FuXi/EETQ",
     "NeuralVox/OpenPhonemizer",
@@ -369,7 +369,6 @@
     "nikepan/clickhouse-bulk",
     "NiltonVolpato/python-progressbar",
     "NiLuJe/kfmon",
-    "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
     "NM512/dreamerv3-torch",
     "nodejs/unofficial-builds",
@@ -496,7 +495,6 @@
     "vcflib/vcflib",
     "veorq/SipHash",
     "vim-denops/denops.vim",
-    "Visual-Agent/DeepEyesV2",
     "vlaaad/reveal",
     "vovkos/doxyrest",
     "voxel51/fiftyone-examples",

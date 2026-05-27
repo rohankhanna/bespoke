@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 654,
-    "concepts": 701,
-    "observations": 702,
-    "repos": 109,
-    "terms": 699
+    "concepts": 702,
+    "observations": 703,
+    "repos": 110,
+    "terms": 700
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
+    "altschuler/imgui-knobs",
     "amerkoleci/joltc",
     "antgroup/vsag",
     "apache/iceberg-cpp",

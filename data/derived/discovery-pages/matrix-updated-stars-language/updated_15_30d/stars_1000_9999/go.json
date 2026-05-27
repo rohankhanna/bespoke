@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 892,
-    "concepts": 927,
-    "observations": 932,
-    "repos": 87,
-    "terms": 922
+    "components": 860,
+    "concepts": 911,
+    "observations": 916,
+    "repos": 85,
+    "terms": 906
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -44,7 +44,6 @@
     "envoyproxy/gateway",
     "erigontech/erigon",
     "etcd-io/bbolt",
-    "evilmartians/lefthook",
     "external-secrets/external-secrets",
     "filecoin-project/lotus",
     "fluxcd/flux2",
@@ -93,7 +92,6 @@
     "replicate/cog",
     "reviewdog/reviewdog",
     "securego/gosec",
-    "sigstore/gitsign",
     "spiffe/spire",
     "supabase/cli",
     "sysadminsmedia/homebox",

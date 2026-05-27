@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 8,
-    "terms": 57
+    "components": 77,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 7,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "edge-classic/EDGE-classic",
-    "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",
     "mono/skia",
     "mozilla-ai/otari",

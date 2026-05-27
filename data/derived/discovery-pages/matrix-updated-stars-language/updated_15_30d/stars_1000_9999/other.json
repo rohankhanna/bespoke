@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1959,
-    "concepts": 1733,
-    "observations": 1747,
-    "repos": 211,
-    "terms": 1727
+    "components": 1887,
+    "concepts": 1689,
+    "observations": 1703,
+    "repos": 208,
+    "terms": 1683
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -38,7 +38,6 @@
     "bitwarden/android",
     "blokadaorg/blokada",
     "borglab/gtsam",
-    "box-project/box",
     "broadinstitute/cromwell",
     "CakeML/cakeml",
     "CanHub/Android-Image-Cropper",
@@ -57,7 +56,6 @@
     "cortinico/kotlin-android-template",
     "countries/countries",
     "coverlet-coverage/coverlet",
-    "csstools/postcss-plugins",
     "cvc5/cvc5",
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",
@@ -113,7 +111,6 @@
     "JetBrains/intellij-platform-plugin-template",
     "JetBrains/intellij-sdk-docs",
     "JetBrains/resharper-unity",
-    "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
     "jrsoftware/issrc",
     "JuliaAI/MLJ.jl",
@@ -160,6 +157,7 @@
     "nim-lang/nimble",
     "nix-darwin/nix-darwin",
     "NuGet/NuGetGallery",
+    "nushell/awesome-nu",
     "NVIDIA/accelerated-computing-hub",
     "nvim-flutter/flutter-tools.nvim",
     "nvim-lualine/lualine.nvim",
@@ -188,7 +186,6 @@
     "rocq-prover/rocq",
     "rrousselGit/riverpod",
     "ruby-grape/grape",
-    "ruby/rake",
     "SciML/ModelingToolkit.jl",
     "SciSharp/LLamaSharp",
     "ScoopInstaller/Extras",

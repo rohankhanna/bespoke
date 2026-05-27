@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 434
-- components: 2412
-- concepts: 436
-- observations: 437
+- repos: 58
+- terms: 428
+- components: 2347
+- concepts: 430
+- observations: 431
 
 ## Static behavior
 
@@ -84,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [i18next/react-i18next](https://github.com/i18next/react-i18next) | 9974 | 2026-04-27T15:53:36Z | JavaScript | Infrastructure/tooling | 6 | 56 | 6 | 6 |
 | [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | 5402 | 2026-04-27T15:47:05Z | JavaScript | CLI | 13 | 29 | 13 | 13 |
 | [xiangyuecn/Recorder](https://github.com/xiangyuecn/Recorder) | 5606 | 2026-04-27T15:22:48Z | JavaScript | Unknown | 12 | 0 | 12 | 12 |
-| [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8196 | 2026-04-27T08:58:49Z | JavaScript | Infrastructure/tooling | 6 | 65 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -97,7 +96,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9094 | 2026-05-03T14:26:21Z | JavaScript | Infrastructure/tooling | 9 | 57 | 9 | 9 |
 | [ljharb/qs](https://github.com/ljharb/qs) | 8928 | 2026-04-27T19:23:55Z | JavaScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [chaijs/chai](https://github.com/chaijs/chai) | 8265 | 2026-05-04T08:05:04Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
-| [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8196 | 2026-04-27T08:58:49Z | JavaScript | Infrastructure/tooling | 6 | 65 | 6 | 6 |
 | [violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey) | 8156 | 2026-04-30T12:26:20Z | JavaScript | Infrastructure/tooling | 8 | 82 | 8 | 8 |
 | [openwrt/luci](https://github.com/openwrt/luci) | 7582 | 2026-05-04T17:46:28Z | JavaScript | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [krausest/js-framework-benchmark](https://github.com/krausest/js-framework-benchmark) | 7408 | 2026-04-27T18:34:17Z | JavaScript | Framework | 0 | 16 | 0 | 0 |

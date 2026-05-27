@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 453
-- terms: 2507
-- components: 3099
-- concepts: 2490
-- observations: 2495
+- repos: 454
+- terms: 2512
+- components: 3108
+- concepts: 2495
+- observations: 2500
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [melange-re/melange](https://github.com/melange-re/melange) | 972 | 2026-04-27T07:27:53Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [apache/apisix-helm-chart](https://github.com/apache/apisix-helm-chart) | 282 | 2026-04-27T07:26:50Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [apache/dubbo-website](https://github.com/apache/dubbo-website) | 493 | 2026-04-27T03:35:45Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [aws-observability/observability-best-practices](https://github.com/aws-observability/observability-best-practices) | 312 | 2026-04-27T01:48:28Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [ruby/json](https://github.com/ruby/json) | 743 | 2026-04-27T01:22:14Z | Other | Infrastructure/tooling | 2 | 5 | 4 | 4 |
@@ -478,7 +480,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DNSCrypt/dnscrypt-protocol](https://github.com/DNSCrypt/dnscrypt-protocol) | 168 | 2026-03-29T07:27:53Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 844 | 2026-03-28T19:43:40Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [mirage/mirage-www](https://github.com/mirage/mirage-www) | 175 | 2026-03-28T16:02:37Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [metauto-ai/agent-as-a-judge](https://github.com/metauto-ai/agent-as-a-judge) | 754 | 2026-03-28T08:23:53Z | Other | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -490,6 +491,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BcryptNet/bcrypt.net](https://github.com/BcryptNet/bcrypt.net) | 982 | 2026-04-16T00:47:57Z | Other | Infrastructure/tooling | 18 | 19 | 18 | 18 |
 | [NVIDIA/spark-rapids](https://github.com/NVIDIA/spark-rapids) | 974 | 2026-04-23T06:27:02Z | Other | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [CommunityToolkit/Windows](https://github.com/CommunityToolkit/Windows) | 974 | 2026-04-12T01:47:44Z | Other | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [melange-re/melange](https://github.com/melange-re/melange) | 972 | 2026-04-27T07:27:53Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [ankane/mailkick](https://github.com/ankane/mailkick) | 971 | 2026-04-01T20:47:44Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mongodb/homebrew-brew](https://github.com/mongodb/homebrew-brew) | 954 | 2026-04-20T20:58:27Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [folke/neoconf.nvim](https://github.com/folke/neoconf.nvim) | 953 | 2026-04-25T01:40:08Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
@@ -535,7 +537,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bazel-contrib/rules_nodejs](https://github.com/bazel-contrib/rules_nodejs) | 759 | 2026-04-17T04:40:19Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [aws/aws-lc](https://github.com/aws/aws-lc) | 755 | 2026-04-23T00:26:56Z | Other | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [aio-libs/aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) | 755 | 2026-04-21T09:48:05Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
-| [metauto-ai/agent-as-a-judge](https://github.com/metauto-ai/agent-as-a-judge) | 754 | 2026-03-28T08:23:53Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [WebAssembly/threads](https://github.com/WebAssembly/threads) | 752 | 2026-04-22T06:43:46Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [Shopify/erb_lint](https://github.com/Shopify/erb_lint) | 744 | 2026-04-20T18:34:40Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [ruby/json](https://github.com/ruby/json) | 743 | 2026-04-27T01:22:14Z | Other | Infrastructure/tooling | 2 | 5 | 4 | 4 |
@@ -733,6 +734,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appsignal/appsignal-elixir](https://github.com/appsignal/appsignal-elixir) | 290 | 2026-04-13T12:59:00Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [rrrene/html_sanitize_ex](https://github.com/rrrene/html_sanitize_ex) | 290 | 2026-04-09T15:18:44Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [andyferris/Dictionaries.jl](https://github.com/andyferris/Dictionaries.jl) | 290 | 2026-04-01T23:02:27Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [apache/apisix-helm-chart](https://github.com/apache/apisix-helm-chart) | 282 | 2026-04-27T07:26:50Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [jfmengels/elm-review](https://github.com/jfmengels/elm-review) | 281 | 2026-04-21T20:03:28Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [atsign-foundation/noports](https://github.com/atsign-foundation/noports) | 280 | 2026-04-23T17:28:50Z | Other | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [emacscollective/borg](https://github.com/emacscollective/borg) | 280 | 2026-04-22T17:26:59Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |

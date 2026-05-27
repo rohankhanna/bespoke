@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 131
-- terms: 1126
-- components: 1127
-- concepts: 1135
-- observations: 1135
+- repos: 129
+- terms: 1110
+- components: 1115
+- concepts: 1119
+- observations: 1119
 
 ## Static behavior
 
@@ -155,8 +155,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [the-tcpdump-group/libpcap](https://github.com/the-tcpdump-group/libpcap) | 3097 | 2026-04-27T16:45:29Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [PRBonn/kiss-icp](https://github.com/PRBonn/kiss-icp) | 2164 | 2026-04-27T15:22:13Z | C/C++ | Infrastructure/tooling | 8 | 9 | 9 | 9 |
 | [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) | 3018 | 2026-04-27T09:27:57Z | C/C++ | Infrastructure/tooling | 14 | 10 | 14 | 14 |
-| [CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) | 3871 | 2026-04-27T08:04:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [LuisaGroup/LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) | 1002 | 2026-04-27T07:28:31Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 
 ## Repos sorted by stars
 
@@ -207,7 +205,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eclipse-sumo/sumo](https://github.com/eclipse-sumo/sumo) | 3981 | 2026-04-30T12:39:08Z | C/C++ | CLI | 12 | 14 | 12 | 12 |
 | [cdcseacave/openMVS](https://github.com/cdcseacave/openMVS) | 3964 | 2026-05-01T09:01:02Z | C/C++ | Infrastructure/tooling | 16 | 6 | 17 | 17 |
 | [SchedMD/slurm](https://github.com/SchedMD/slurm) | 3943 | 2026-04-30T07:53:33Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
-| [CedricGuillemet/ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) | 3871 | 2026-04-27T08:04:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [sorbet/sorbet](https://github.com/sorbet/sorbet) | 3764 | 2026-05-06T01:37:25Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [lemonade-sdk/lemonade](https://github.com/lemonade-sdk/lemonade) | 3750 | 2026-04-28T21:38:10Z | C/C++ | Infrastructure/tooling | 20 | 16 | 20 | 20 |
 | [KhronosGroup/Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp) | 3691 | 2026-05-02T00:36:41Z | C/C++ | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -292,4 +289,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/onnxruntime-genai](https://github.com/microsoft/onnxruntime-genai) | 1016 | 2026-04-29T19:43:19Z | C/C++ | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [ai-dynamo/nixl](https://github.com/ai-dynamo/nixl) | 1010 | 2026-04-29T17:14:10Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [open-telemetry/opentelemetry-go-instrumentation](https://github.com/open-telemetry/opentelemetry-go-instrumentation) | 1004 | 2026-04-30T08:38:04Z | C/C++ | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [LuisaGroup/LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) | 1002 | 2026-04-27T07:28:31Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |

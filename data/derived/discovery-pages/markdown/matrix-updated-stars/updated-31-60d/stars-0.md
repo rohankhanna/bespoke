@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 234
-- terms: 389
+- repos: 236
+- terms: 392
 - components: 918
-- concepts: 359
-- observations: 359
+- concepts: 362
+- observations: 362
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
+| [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [JuliaBinaryWrappers/GDAL_jll.jl](https://github.com/JuliaBinaryWrappers/GDAL_jll.jl) | 0 | 2026-04-27T00:14:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -264,6 +266,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
+| [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kyverno/.github](https://github.com/kyverno/.github) | 0 | 2026-04-27T04:35:10Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [JuliaBinaryWrappers/GDAL_jll.jl](https://github.com/JuliaBinaryWrappers/GDAL_jll.jl) | 0 | 2026-04-27T00:14:45Z | Other | Unknown | 0 | 0 | 0 | 0 |

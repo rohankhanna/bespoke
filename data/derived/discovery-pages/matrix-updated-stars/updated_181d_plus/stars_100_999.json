@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 15407,
-    "concepts": 13907,
-    "observations": 13933,
-    "repos": 4582,
-    "terms": 13689
+    "concepts": 13912,
+    "observations": 13938,
+    "repos": 4583,
+    "terms": 13694
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -2760,6 +2760,7 @@
     "LumaAI-API/Luma-API",
     "lunarmodules/luassert",
     "luogen1996/LLaVA-HR",
+    "luost26/diffusion-point-cloud",
     "lupantech/MathVista",
     "lupantech/PromptPG",
     "lupantech/ScienceQA",

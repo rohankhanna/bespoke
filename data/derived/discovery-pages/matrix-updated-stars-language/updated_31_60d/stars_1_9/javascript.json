@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1227,
-    "concepts": 617,
-    "observations": 617,
-    "repos": 68,
-    "terms": 618
+    "components": 1270,
+    "concepts": 645,
+    "observations": 645,
+    "repos": 71,
+    "terms": 646
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -28,6 +28,7 @@
     "anojndr/grok-to-openai",
     "apache/netbeans-antora",
     "BarMalka/super-pharm-stock-checker",
+    "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
@@ -49,8 +50,10 @@
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "j9t/compressorjs-next",
     "j9t/htaccess-punk",
     "j9t/image-guard",
+    "j9t/minifier-benchmarks",
     "kellyselden/boilerplate-update",
     "ksxnodemodules/static-type-assert",
     "Level/read-stream",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1869
-- terms: 5409
+- repos: 1870
+- terms: 5414
 - components: 1224
-- concepts: 5562
-- observations: 5567
+- concepts: 5567
+- observations: 5572
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud) | 784 | 2025-11-28T08:00:46Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [XPixelGroup/DepictQA](https://github.com/XPixelGroup/DepictQA) | 217 | 2025-11-28T05:54:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [f-dangel/backpack](https://github.com/f-dangel/backpack) | 611 | 2025-11-28T03:18:34Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [hako-mikan/sd-webui-supermerger](https://github.com/hako-mikan/sd-webui-supermerger) | 837 | 2025-11-27T15:45:38Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -2081,6 +2082,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HiDream-ai/HiDream-E1](https://github.com/HiDream-ai/HiDream-E1) | 785 | 2025-07-17T06:13:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [MC-E/DragonDiffusion](https://github.com/MC-E/DragonDiffusion) | 785 | 2024-03-02T01:26:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PaddlePaddle/RocketQA](https://github.com/PaddlePaddle/RocketQA) | 785 | 2023-12-19T08:08:35Z | Python | Model/data | 3 | 0 | 3 | 3 |
+| [luost26/diffusion-point-cloud](https://github.com/luost26/diffusion-point-cloud) | 784 | 2025-11-28T08:00:46Z | Python | Model/data | 5 | 0 | 5 | 5 |
 | [nunchaku-ai/deepcompressor](https://github.com/nunchaku-ai/deepcompressor) | 784 | 2025-08-14T00:43:00Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [TTPlanetPig/Comfyui_Object_Migration](https://github.com/TTPlanetPig/Comfyui_Object_Migration) | 783 | 2024-11-20T16:51:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Infinidat/munch](https://github.com/Infinidat/munch) | 783 | 2024-06-05T07:50:35Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |

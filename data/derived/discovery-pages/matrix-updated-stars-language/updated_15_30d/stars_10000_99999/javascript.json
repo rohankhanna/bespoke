@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2058,
-    "concepts": 356,
-    "observations": 356,
-    "repos": 40,
-    "terms": 349
+    "components": 2050,
+    "concepts": 348,
+    "observations": 348,
+    "repos": 39,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -31,7 +31,6 @@
     "GoogleChrome/lighthouse",
     "gorhill/uBlock",
     "http-party/node-http-proxy",
-    "huggingface/transformers.js",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
     "krisk/Fuse",

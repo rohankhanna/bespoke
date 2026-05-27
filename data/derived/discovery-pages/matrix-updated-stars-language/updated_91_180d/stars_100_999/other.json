@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 804,
-    "concepts": 744,
-    "observations": 745,
-    "repos": 196,
-    "terms": 739
+    "components": 820,
+    "concepts": 753,
+    "observations": 754,
+    "repos": 198,
+    "terms": 748
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -148,7 +148,9 @@
     "microsoft/triton-shared",
     "minio/docs",
     "Myriad-Dreamin/shiroa",
+    "Nek5000/Nek5000",
     "nghorbani/human_body_prior",
+    "nim-lang/vscode-nim",
     "nschum/SwiftHamcrest",
     "nvimdev/guard.nvim",
     "olbrich/ruby-units",

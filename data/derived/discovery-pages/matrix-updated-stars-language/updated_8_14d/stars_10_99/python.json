@@ -3,7 +3,7 @@
     "components": 1,
     "concepts": 3,
     "observations": 3,
-    "repos": 2,
+    "repos": 3,
     "terms": 3
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "baicai-1145/GPT-SoVITS-CPUFast",
-    "google-marketing-solutions/ariel"
+    "google-marketing-solutions/ariel",
+    "mesh-iit/cad-libraries"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 136,
-    "observations": 137,
-    "repos": 16,
-    "terms": 136
+    "components": 104,
+    "concepts": 128,
+    "observations": 129,
+    "repos": 15,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aws-cloudformation/cfn-lint",
@@ -28,7 +28,6 @@
     "NEKOparapa/AiNiee",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
-    "redis/redis-om-python",
     "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

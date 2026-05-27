@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 511,
-    "concepts": 244,
-    "observations": 245,
-    "repos": 43,
-    "terms": 244
+    "components": 476,
+    "concepts": 222,
+    "observations": 223,
+    "repos": 40,
+    "terms": 222
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "adamchainz/blacken-docs",
     "Ai00-X/ai00_server",
     "alloy-rs/svm-rs",
-    "altschuler/imgui-knobs",
     "amsehili/auditok",
     "apache/casbin-cpp",
     "appwrite/playground-for-web",
@@ -37,11 +36,9 @@
     "GStreamer/cerbero",
     "Jamorim-esss/pytest-rich",
     "Koenkk/zigbee-herdsman",
-    "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "Luligu/matterbridge",
-    "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/MIDI",
     "mingw-w64/mingw-w64",
     "Nerivec/zigbee2mqtt-windfront",

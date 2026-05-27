@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7146,
-    "concepts": 1347,
-    "observations": 1351,
+    "components": 7130,
+    "concepts": 1351,
+    "observations": 1355,
     "repos": 181,
-    "terms": 1454
+    "terms": 1458
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -51,6 +51,7 @@
     "cawa-93/vite-electron-builder",
     "ChainSafe/lodestar",
     "changesets/action",
+    "Chevrotain/chevrotain",
     "ChromeDevTools/devtools-frontend",
     "civitai/civitai",
     "clerk/javascript",
@@ -171,7 +172,6 @@
     "sirmalloc/ccstatusline",
     "solidjs/solid-router",
     "solidjs/solid-start",
-    "sql-formatter-org/sql-formatter",
     "statoscope/statoscope",
     "streamich/memfs",
     "stripe/ai",

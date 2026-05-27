@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 136
-- components: 119
-- concepts: 136
-- observations: 137
+- repos: 15
+- terms: 128
+- components: 104
+- concepts: 128
+- observations: 129
 
 ## Static behavior
 
@@ -41,7 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NEKOparapa/AiNiee](https://github.com/NEKOparapa/AiNiee) | 5729 | 2026-05-26T11:06:11Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [huggingface/finetrainers](https://github.com/huggingface/finetrainers) | 1359 | 2026-05-26T10:33:13Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4047 | 2026-05-26T09:45:38Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-26T07:20:42Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -60,6 +59,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2U1/Qwen-VL-Series-Finetune](https://github.com/2U1/Qwen-VL-Series-Finetune) | 1888 | 2026-05-26T15:38:26Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1722 | 2026-05-26T16:47:55Z | Python | Library | 5 | 0 | 5 | 5 |
 | [huggingface/finetrainers](https://github.com/huggingface/finetrainers) | 1359 | 2026-05-26T10:33:13Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-26T07:20:42Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1076 | 2026-05-26T11:44:48Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [huggingface/optimum-quanto](https://github.com/huggingface/optimum-quanto) | 1042 | 2026-05-26T12:01:30Z | Python | Infrastructure/tooling | 9 | 8 | 9 | 9 |

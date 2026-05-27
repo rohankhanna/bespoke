@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 481,
-    "concepts": 608,
-    "observations": 608,
-    "repos": 53,
-    "terms": 604
+    "components": 455,
+    "concepts": 601,
+    "observations": 601,
+    "repos": 52,
+    "terms": 597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "androidx/media",
@@ -44,7 +44,6 @@
     "hazelcast/hazelcast",
     "iterate-ch/cyberduck",
     "JetBrains/JetBrainsRuntime",
-    "jhipster/prettier-java",
     "jline/jline3",
     "JodaOrg/joda-time",
     "junit-team/junit-examples",

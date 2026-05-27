@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1319,
-    "concepts": 1444,
-    "observations": 1451,
-    "repos": 196,
-    "terms": 1435
+    "components": 1331,
+    "concepts": 1460,
+    "observations": 1467,
+    "repos": 198,
+    "terms": 1451
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -35,6 +35,7 @@
     "cameron314/readerwriterqueue",
     "ccache/ccache",
     "cdown/clipmenu",
+    "CedricGuillemet/ImGuizmo",
     "ceres-solver/ceres-solver",
     "citusdata/pg_cron",
     "clice-io/clice",
@@ -114,6 +115,7 @@
     "libssh2/libssh2",
     "libusb/hidapi",
     "lightvector/KataGo",
+    "LuisaGroup/LuisaCompute",
     "mackron/miniaudio",
     "mamba-org/mamba",
     "mapnik/mapnik",

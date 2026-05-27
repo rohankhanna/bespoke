@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 90
+- repos: 91
 - terms: 79
 - components: 57
 - concepts: 70
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Memory-Layers](https://github.com/danielrosehill/AI-Memory-Layers) | 0 | 2026-04-25T09:41:38Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [TransferQueue/community_doc](https://github.com/TransferQueue/community_doc) | 0 | 2026-04-24T08:25:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -121,6 +122,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Safety-Projects-Index](https://github.com/danielrosehill/AI-Safety-Projects-Index) | 0 | 2026-04-25T10:47:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Memory-Layers](https://github.com/danielrosehill/AI-Memory-Layers) | 0 | 2026-04-25T09:41:38Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [TransferQueue/community_doc](https://github.com/TransferQueue/community_doc) | 0 | 2026-04-24T08:25:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

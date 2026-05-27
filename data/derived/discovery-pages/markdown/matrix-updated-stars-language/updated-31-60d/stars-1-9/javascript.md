@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 618
-- components: 1227
-- concepts: 617
-- observations: 617
+- repos: 71
+- terms: 646
+- components: 1270
+- concepts: 645
+- observations: 645
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [celo-org/blind-threshold-bls-wasm](https://github.com/celo-org/blind-threshold-bls-wasm) | 9 | 2026-04-27T08:32:49Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
+| [j9t/compressorjs-next](https://github.com/j9t/compressorjs-next) | 3 | 2026-04-27T06:52:55Z | JavaScript | CLI | 18 | 24 | 18 | 18 |
 | [stdlib-js/buffer-ctor](https://github.com/stdlib-js/buffer-ctor) | 1 | 2026-04-27T03:29:56Z | JavaScript | Infrastructure/tooling | 16 | 20 | 16 | 16 |
 | [ksxnodemodules/static-type-assert](https://github.com/ksxnodemodules/static-type-assert) | 6 | 2026-04-27T00:52:19Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [j9t/image-guard](https://github.com/j9t/image-guard) | 9 | 2026-04-26T11:18:41Z | JavaScript | Infrastructure/tooling | 14 | 8 | 14 | 14 |
@@ -99,6 +102,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [celo-org/blind-threshold-bls-wasm](https://github.com/celo-org/blind-threshold-bls-wasm) | 9 | 2026-04-27T08:32:49Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [j9t/image-guard](https://github.com/j9t/image-guard) | 9 | 2026-04-26T11:18:41Z | JavaScript | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [erichlof/Glider-Ball-3D](https://github.com/erichlof/Glider-Ball-3D) | 8 | 2026-04-17T19:34:29Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [poolifier/tatami-ng](https://github.com/poolifier/tatami-ng) | 8 | 2026-04-16T23:55:37Z | JavaScript | CLI | 6 | 18 | 6 | 6 |
@@ -122,12 +126,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Level/transcoder](https://github.com/Level/transcoder) | 5 | 2026-04-02T03:43:47Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [stdlib-js/array-complex64](https://github.com/stdlib-js/array-complex64) | 5 | 2026-04-02T03:28:59Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
 | [Level/supports](https://github.com/Level/supports) | 5 | 2026-04-01T10:38:44Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
 | [angular/dev-infra-private-ng-dev-builds](https://github.com/angular/dev-infra-private-ng-dev-builds) | 4 | 2026-04-22T22:21:53Z | JavaScript | Web app | 0 | 54 | 0 | 0 |
 | [ChadKillingsworth/closure-compiler-npm](https://github.com/ChadKillingsworth/closure-compiler-npm) | 4 | 2026-04-17T12:28:07Z | JavaScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [agent-sh/drift-detect](https://github.com/agent-sh/drift-detect) | 4 | 2026-04-14T23:26:57Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [ehmicky/fetch-node-website](https://github.com/ehmicky/fetch-node-website) | 4 | 2026-04-11T15:03:17Z | JavaScript | CLI | 13 | 12 | 15 | 15 |
 | [agent-sh/next-task](https://github.com/agent-sh/next-task) | 4 | 2026-04-11T03:14:37Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [stdlib-js/ndarray-array](https://github.com/stdlib-js/ndarray-array) | 4 | 2026-04-10T03:58:17Z | JavaScript | Infrastructure/tooling | 19 | 56 | 19 | 19 |
+| [j9t/compressorjs-next](https://github.com/j9t/compressorjs-next) | 3 | 2026-04-27T06:52:55Z | JavaScript | CLI | 18 | 24 | 18 | 18 |
 | [newrelic/csec-node-agent](https://github.com/newrelic/csec-node-agent) | 3 | 2026-04-22T22:31:23Z | JavaScript | Infrastructure/tooling | 4 | 55 | 4 | 4 |
 | [locize/locize-lastused](https://github.com/locize/locize-lastused) | 3 | 2026-04-22T21:31:11Z | JavaScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |
 | [gauravrathod674/custom-chatbot](https://github.com/gauravRathod674/custom-chatbot) | 3 | 2026-04-19T08:39:25Z | JavaScript | Infrastructure/tooling | 1 | 20 | 0 | 0 |

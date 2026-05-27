@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 87
-- terms: 922
-- components: 892
-- concepts: 927
-- observations: 932
+- repos: 85
+- terms: 906
+- components: 860
+- concepts: 911
+- observations: 916
 
 ## Static behavior
 
@@ -111,8 +111,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [goreleaser/nfpm](https://github.com/goreleaser/nfpm) | 2537 | 2026-04-27T13:24:19Z | Go | Infrastructure/tooling | 18 | 20 | 18 | 18 |
 | [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) | 1127 | 2026-04-27T10:18:53Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [bytedance/sonic](https://github.com/bytedance/sonic) | 9360 | 2026-04-27T09:59:59Z | Go | Infrastructure/tooling | 7 | 6 | 8 | 9 |
-| [evilmartians/lefthook](https://github.com/evilmartians/lefthook) | 8117 | 2026-04-27T07:12:55Z | Go | Infrastructure/tooling | 10 | 21 | 10 | 10 |
-| [sigstore/gitsign](https://github.com/sigstore/gitsign) | 1082 | 2026-04-27T07:08:53Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -128,7 +126,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openshift/origin](https://github.com/openshift/origin) | 8647 | 2026-04-29T23:46:21Z | Go | Infrastructure/tooling | 11 | 0 | 11 | 11 |
 | [prometheus/alertmanager](https://github.com/prometheus/alertmanager) | 8447 | 2026-04-29T17:32:31Z | Go | Infrastructure/tooling | 15 | 13 | 15 | 15 |
 | [ko-build/ko](https://github.com/ko-build/ko) | 8417 | 2026-04-30T01:03:46Z | Go | Infrastructure/tooling | 14 | 11 | 14 | 14 |
-| [evilmartians/lefthook](https://github.com/evilmartians/lefthook) | 8117 | 2026-04-27T07:12:55Z | Go | Infrastructure/tooling | 10 | 21 | 10 | 10 |
 | [fluxcd/flux2](https://github.com/fluxcd/flux2) | 8089 | 2026-05-01T01:05:02Z | Go | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | 7695 | 2026-05-01T07:28:17Z | Go | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [go-git/go-git](https://github.com/go-git/go-git) | 7430 | 2026-05-02T13:37:43Z | Go | CLI | 12 | 12 | 12 | 12 |
@@ -199,7 +196,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes-sigs/sig-storage-local-static-provisioner](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) | 1192 | 2026-04-28T03:22:47Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [gookit/validate](https://github.com/gookit/validate) | 1128 | 2026-05-05T02:27:40Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [apache/apisix-ingress-controller](https://github.com/apache/apisix-ingress-controller) | 1127 | 2026-04-27T10:18:53Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
-| [sigstore/gitsign](https://github.com/sigstore/gitsign) | 1082 | 2026-04-27T07:08:53Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [hashicorp/terraform-provider-helm](https://github.com/hashicorp/terraform-provider-helm) | 1068 | 2026-04-28T19:37:22Z | Go | Infrastructure/tooling | 12 | 22 | 12 | 12 |
 | [kubernetes-sigs/node-feature-discovery](https://github.com/kubernetes-sigs/node-feature-discovery) | 1027 | 2026-04-28T05:40:41Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 9 |
 | [cloudflare/pint](https://github.com/cloudflare/pint) | 1016 | 2026-04-29T08:10:11Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |

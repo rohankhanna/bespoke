@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4370,
-    "concepts": 2217,
-    "observations": 2228,
-    "repos": 454,
-    "terms": 2203
+    "components": 4305,
+    "concepts": 2195,
+    "observations": 2206,
+    "repos": 446,
+    "terms": 2182
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -26,7 +26,6 @@
     "Accla/d4m",
     "Accla/graphulo",
     "addfox/addfox",
-    "AdguardTeam/FiltersCompiler",
     "AdguardTeam/SafariConverterLib",
     "agentclientprotocol/kotlin-sdk",
     "aggre/ullr",
@@ -92,7 +91,6 @@
     "buttondown/docs",
     "carbon-design-system/carbon-preprocess-svelte",
     "carstencodes/pdm-bump",
-    "catppuccin/.github",
     "cbuijs/hagezi",
     "cderv/r-bucket",
     "cginternals/cpplocate",
@@ -106,7 +104,6 @@
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/cf-networking-release",
-    "cloudfoundry/cf-smoke-tests",
     "cloudfoundry/community",
     "cloudfoundry/uaa-release",
     "coasys/ad4m",
@@ -141,7 +138,6 @@
     "dwyl/elixir-auth-github-demo",
     "dwyl/learn-tailwind",
     "dwyl/phoenix-liveview-todo-list-tutorial",
-    "eclipse-shellwax/shellwax",
     "ecyrbe/zodios-express",
     "edward3h/minecraft-webhook",
     "eea/eea.rancher.catalog",
@@ -246,7 +242,6 @@
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "ipfs/ipfs-check",
-    "j9t/obsohtml",
     "jakebailey/pyright-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
@@ -333,7 +328,6 @@
     "octokit/oauth-authorization-url.js",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
-    "oliyh/carve.el",
     "oneapi-src/unified-memory-framework",
     "open-edge-platform/geti-instant-learn",
     "open-edge-platform/physical-ai-studio",
@@ -442,7 +436,6 @@
     "transparency-dev/witness",
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
-    "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "universal-ctags/ctags-nightly-build",
     "universal-ember/reactiveweb",
@@ -463,7 +456,6 @@
     "xhluca/bm25-benchmarks",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
-    "yamachu/VoicevoxCoreSharp",
     "yulewang97/ERDiff",
     "zen-xu/pytest-modern",
     "zig-wasm/wasmer-zig-api"

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 121
-- components: 69
-- concepts: 122
-- observations: 122
+- repos: 14
+- terms: 129
+- components: 84
+- concepts: 130
+- observations: 130
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-26T07:20:42Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1141 | 2026-05-26T05:55:37Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5567 | 2026-05-26T03:17:45Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
 | [roboflow/maestro](https://github.com/roboflow/maestro) | 2674 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
@@ -56,4 +57,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aigc-apps/VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun) | 2096 | 2026-05-25T09:39:18Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hgmzhn/manga-translator-ui](https://github.com/hgmzhn/manga-translator-ui) | 1710 | 2026-05-23T19:20:01Z | Python | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [intelligent-machine-learning/dlrover](https://github.com/intelligent-machine-learning/dlrover) | 1658 | 2026-05-24T02:43:18Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [redis/redis-om-python](https://github.com/redis/redis-om-python) | 1311 | 2026-05-26T07:20:42Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
 | [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1141 | 2026-05-26T05:55:37Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1557,
-    "concepts": 972,
-    "observations": 975,
-    "repos": 145,
-    "terms": 959
+    "components": 1508,
+    "concepts": 942,
+    "observations": 945,
+    "repos": 141,
+    "terms": 931
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "adamchainz/blacken-docs",
@@ -21,7 +21,6 @@
     "aidenlab/juicebox-web",
     "aidenlab/juicebox.js",
     "alloy-rs/svm-rs",
-    "altschuler/imgui-knobs",
     "amsehili/auditok",
     "andymass/vim-matchup",
     "apache/casbin",
@@ -85,7 +84,6 @@
     "Koenkk/zigbee-herdsman",
     "Koenkk/zigbee-herdsman-converters",
     "Koenkk/zigbee2mqtt",
-    "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "litedb-org/LiteDB",
@@ -93,9 +91,9 @@
     "lucide-icons/lucide",
     "lucidrains/vector-quantize-pytorch",
     "Luligu/matterbridge",
-    "Luligu/matterbridge-zigbee2mqtt",
     "lumen-oss/rocks.nvim",
     "mangiucugna/json_repair",
+    "mesh-iit/cad-libraries",
     "meta-llama/llama-cookbook",
     "microsoft/MIDI",
     "microsoft/openjdk-jdk11u",
@@ -109,7 +107,6 @@
     "Nerivec/zigbee2mqtt-windfront",
     "nodenv/nodenv",
     "nomadkaraoke/python-audio-separator",
-    "nushell/awesome-nu",
     "nushell/nushell",
     "nushell/reedline",
     "nvim-mini/mini.deps",
@@ -138,7 +135,6 @@
     "ROCm/rocBLAS",
     "rust-lang/mdBook",
     "safetensors/safetensors",
-    "scop/bash-completion",
     "SeedScientist/K2V",
     "shawn0728/OpenSearch-VL",
     "skilld-dev/skilld",

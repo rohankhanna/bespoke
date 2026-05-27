@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 109
-- terms: 699
+- repos: 110
+- terms: 700
 - components: 654
-- concepts: 701
-- observations: 702
+- concepts: 702
+- observations: 703
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [altschuler/imgui-knobs](https://github.com/altschuler/imgui-knobs) | 409 | 2026-05-13T07:45:13Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [celtera/avendish](https://github.com/celtera/avendish) | 477 | 2026-05-11T03:31:50Z | C/C++ | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [kiron1/bazel-compile-commands](https://github.com/kiron1/bazel-compile-commands) | 120 | 2026-05-10T19:17:35Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [yoshoku/llama_cpp.rb](https://github.com/yoshoku/llama_cpp.rb) | 236 | 2026-05-10T06:23:29Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |
@@ -199,6 +200,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DrTimothyAldenDavis/GraphBLAS](https://github.com/DrTimothyAldenDavis/GraphBLAS) | 417 | 2026-05-01T19:38:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [DiligentGraphics/DiligentFX](https://github.com/DiligentGraphics/DiligentFX) | 414 | 2026-04-29T22:23:52Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [garglk/garglk](https://github.com/garglk/garglk) | 411 | 2026-04-27T16:08:17Z | C/C++ | Infrastructure/tooling | 9 | 4 | 9 | 9 |
+| [altschuler/imgui-knobs](https://github.com/altschuler/imgui-knobs) | 409 | 2026-05-13T07:45:13Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [HazyResearch/HipKittens](https://github.com/HazyResearch/HipKittens) | 402 | 2026-04-29T22:01:09Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kokkos/kokkos-kernels](https://github.com/kokkos/kokkos-kernels) | 381 | 2026-04-29T14:16:10Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [NGSolve/netgen](https://github.com/NGSolve/netgen) | 377 | 2026-04-30T13:01:21Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |

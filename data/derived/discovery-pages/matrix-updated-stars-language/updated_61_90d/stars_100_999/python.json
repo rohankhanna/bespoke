@@ -3,7 +3,7 @@
     "components": 315,
     "concepts": 490,
     "observations": 491,
-    "repos": 116,
+    "repos": 115,
     "terms": 486
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -117,7 +117,6 @@
     "thu-ml/DiT-Extrapolation",
     "TIGER-AI-Lab/verl-tool",
     "tulerfeng/OneThinker",
-    "Visual-Agent/DeepEyesV2",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "wenet-e2e/WeTextProcessing",

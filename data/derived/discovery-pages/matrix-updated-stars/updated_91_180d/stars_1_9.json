@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 693,
-    "concepts": 391,
-    "observations": 392,
-    "repos": 207,
-    "terms": 400
+    "concepts": 400,
+    "observations": 401,
+    "repos": 208,
+    "terms": 409
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -35,6 +35,7 @@
     "airowe/claude-a11y-skill",
     "AIxCyberChallenge/example-crs-architecture",
     "aleclarson/vite-postgres",
+    "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-libby-book-monitor",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
     "alexpolonsky/agent-skill-strikeradar",

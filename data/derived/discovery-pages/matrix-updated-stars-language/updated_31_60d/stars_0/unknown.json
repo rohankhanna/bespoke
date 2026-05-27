@@ -3,7 +3,7 @@
     "components": 57,
     "concepts": 70,
     "observations": 70,
-    "repos": 90,
+    "repos": 91,
     "terms": 79
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -79,6 +79,7 @@
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Israel-Preparedness-Index",
+    "danielrosehill/Israel-Projects-Index",
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",

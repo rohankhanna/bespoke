@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3288,
-    "concepts": 2057,
-    "observations": 2064,
-    "repos": 377,
-    "terms": 2067
+    "components": 3331,
+    "concepts": 2062,
+    "observations": 2069,
+    "repos": 379,
+    "terms": 2072
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "a16z/helios",
@@ -107,6 +107,7 @@
     "devcontainers/spec",
     "dghubble/sling",
     "dimitri/el-get",
+    "django/channels",
     "docarray/docarray",
     "docker-library/wordpress",
     "docker/for-mac",
@@ -327,6 +328,7 @@
     "snapcast/snapcast",
     "snarktank/antfarm",
     "spf13/pflag",
+    "sql-formatter-org/sql-formatter",
     "sqlcipher/sqlcipher",
     "srikanth-lingala/zip4j",
     "standard-schema/standard-schema",

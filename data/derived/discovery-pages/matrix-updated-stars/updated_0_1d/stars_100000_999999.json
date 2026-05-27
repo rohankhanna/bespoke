@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 8,
-    "terms": 125
+    "components": 349,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 7,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "Comfy-Org/ComfyUI",
     "electron/electron",
@@ -19,7 +19,6 @@
     "langchain-ai/langchain",
     "langflow-ai/langflow",
     "microsoft/PowerToys",
-    "ohmyzsh/ohmyzsh",
     "vercel/next.js"
   ]
 }

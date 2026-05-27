@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 135
-- terms: 1202
-- components: 6039
-- concepts: 1210
-- observations: 1213
+- repos: 134
+- terms: 1194
+- components: 6016
+- concepts: 1202
+- observations: 1205
 
 ## Static behavior
 
@@ -160,7 +160,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AnotiaWang/deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui) | 2181 | 2026-04-28T06:43:29Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |
 | [callstack/react-native-testing-library](https://github.com/callstack/react-native-testing-library) | 3364 | 2026-04-27T17:03:02Z | TypeScript | Infrastructure/tooling | 8 | 39 | 8 | 8 |
 | [ts-safeql/safeql](https://github.com/ts-safeql/safeql) | 1545 | 2026-04-27T09:32:36Z | TypeScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain) | 2771 | 2026-04-27T06:14:51Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -235,7 +234,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [azat-io/eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist) | 2861 | 2026-05-02T09:19:08Z | TypeScript | Infrastructure/tooling | 8 | 75 | 8 | 8 |
 | [aws/jsii](https://github.com/aws/jsii) | 2852 | 2026-04-29T21:24:50Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | 2827 | 2026-04-29T22:23:22Z | TypeScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
-| [Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain) | 2771 | 2026-04-27T06:14:51Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |
 | [intlify/vue-i18n](https://github.com/intlify/vue-i18n) | 2683 | 2026-05-01T19:00:21Z | TypeScript | Infrastructure/tooling | 12 | 69 | 12 | 12 |
 | [handsontable/hyperformula](https://github.com/handsontable/hyperformula) | 2663 | 2026-04-29T12:28:43Z | TypeScript | CLI | 17 | 82 | 17 | 17 |
 | [standard/eslint-config-standard](https://github.com/standard/eslint-config-standard) | 2655 | 2026-04-29T09:52:43Z | TypeScript | Infrastructure/tooling | 8 | 23 | 8 | 8 |

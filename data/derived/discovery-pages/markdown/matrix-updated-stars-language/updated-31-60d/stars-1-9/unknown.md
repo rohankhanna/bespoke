@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 66
-- terms: 85
+- repos: 67
+- terms: 87
 - components: 44
-- concepts: 85
-- observations: 85
+- concepts: 87
+- observations: 87
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Resources-Lists-Index](https://github.com/danielrosehill/Resources-Lists-Index) | 1 | 2026-04-27T08:40:03Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [hiyouga/llamafactory-community](https://github.com/hiyouga/llamafactory-community) | 7 | 2026-04-26T19:11:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [HKUDS/.github](https://github.com/HKUDS/.github) | 5 | 2026-04-26T06:41:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eddelbuettel/r2u-config](https://github.com/eddelbuettel/r2u-config) | 1 | 2026-04-25T16:38:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -139,6 +140,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aar0npb/curator-skill](https://github.com/Aar0nPB/curator-skill) | 2 | 2026-04-10T03:53:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Prompt-Libraries-Index](https://github.com/danielrosehill/Prompt-Libraries-Index) | 2 | 2026-04-06T16:37:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/BWnB](https://github.com/2KAbhishek/BWnB) | 2 | 2026-04-06T05:19:37Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [danielrosehill/Resources-Lists-Index](https://github.com/danielrosehill/Resources-Lists-Index) | 1 | 2026-04-27T08:40:03Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [eddelbuettel/r2u-config](https://github.com/eddelbuettel/r2u-config) | 1 | 2026-04-25T16:38:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [conda-forge/captum-feedstock](https://github.com/conda-forge/captum-feedstock) | 1 | 2026-04-25T12:37:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Claude-LLM-Council-Creator-Plugin](https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin) | 1 | 2026-04-23T11:02:26Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |

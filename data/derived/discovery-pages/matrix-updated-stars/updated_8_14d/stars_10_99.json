@@ -3,7 +3,7 @@
     "components": 120,
     "concepts": 124,
     "observations": 125,
-    "repos": 23,
+    "repos": 24,
     "terms": 124
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -26,6 +26,7 @@
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "google-marketing-solutions/ariel",
+    "mesh-iit/cad-libraries",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",

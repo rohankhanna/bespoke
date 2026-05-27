@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 334
-- components: 302
-- concepts: 336
-- observations: 336
+- repos: 41
+- terms: 327
+- components: 271
+- concepts: 329
+- observations: 329
 
 ## Static behavior
 
@@ -67,7 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bndtools/bnd](https://github.com/bndtools/bnd) | 556 | 2026-04-28T06:11:45Z | Java | CLI | 21 | 15 | 21 | 21 |
 | [revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin) | 301 | 2026-04-27T15:50:38Z | Java | CLI | 6 | 3 | 6 | 6 |
 | [allegro/hermes](https://github.com/allegro/hermes) | 856 | 2026-04-27T11:25:09Z | Java | Infrastructure/tooling | 11 | 18 | 11 | 11 |
-| [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -94,7 +93,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Xilinx/RapidWright](https://github.com/Xilinx/RapidWright) | 370 | 2026-04-29T22:42:44Z | Java | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [palantir/javapoet](https://github.com/palantir/javapoet) | 349 | 2026-05-01T07:05:21Z | Java | Library | 1 | 0 | 1 | 1 |
 | [FasterXML/jackson-dataformats-binary](https://github.com/FasterXML/jackson-dataformats-binary) | 346 | 2026-04-28T20:24:44Z | Java | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
 | [apache/ignite-3](https://github.com/apache/ignite-3) | 328 | 2026-04-28T15:22:21Z | Java | CLI | 11 | 4 | 11 | 11 |
 | [heroku/webapp-runner](https://github.com/heroku/webapp-runner) | 322 | 2026-05-01T03:45:15Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [microsoft/LangChain4j-for-Beginners](https://github.com/microsoft/LangChain4j-for-Beginners) | 318 | 2026-05-01T07:41:42Z | Java | Unknown | 0 | 0 | 0 | 0 |

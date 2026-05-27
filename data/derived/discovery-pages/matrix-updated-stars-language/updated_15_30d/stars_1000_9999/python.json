@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1626,
-    "concepts": 1786,
-    "observations": 1792,
-    "repos": 185,
-    "terms": 1774
+    "components": 1597,
+    "concepts": 1749,
+    "observations": 1755,
+    "repos": 182,
+    "terms": 1739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "abhiTronix/vidgear",
@@ -32,7 +32,6 @@
     "Arize-ai/phoenix",
     "astral-sh/python-build-standalone",
     "astronomer/dag-factory",
-    "aws-samples/aws-cdk-examples",
     "aws/aws-sam-cli",
     "aws/aws-sdk-pandas",
     "awslabs/aidlc-workflows",
@@ -83,7 +82,6 @@
     "google-deepmind/sonnet",
     "gpustack/gpustack",
     "h5py/h5py",
-    "hacs/integration",
     "hao-ai-lab/FastVideo",
     "HumanSignal/label-studio-ml-backend",
     "ibis-project/ibis",
@@ -160,7 +158,6 @@
     "pytorch/rl",
     "pytorch/tensordict",
     "rasterio/rasterio",
-    "RDFLib/rdflib",
     "readthedocs/readthedocs.org",
     "RLinf/RLinf",
     "roboflow/inference",

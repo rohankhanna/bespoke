@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2463,
-    "concepts": 385,
-    "observations": 388,
-    "repos": 89,
-    "terms": 417
+    "concepts": 390,
+    "observations": 393,
+    "repos": 90,
+    "terms": 422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
@@ -35,6 +35,7 @@
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
     "cargo-bins/release-pr",
+    "catppuccin/.github",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
     "codemirror/language",

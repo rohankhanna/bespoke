@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1390,
-    "concepts": 885,
-    "observations": 886,
-    "repos": 248,
-    "terms": 889
+    "components": 1398,
+    "concepts": 889,
+    "observations": 890,
+    "repos": 250,
+    "terms": 893
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -205,6 +205,7 @@
     "ocurrent/ocaml-dockerfile",
     "ocurrent/ocluster",
     "ocurrent/ocurrent-deployer",
+    "oliyh/carve.el",
     "onnx/steering-committee",
     "opea-project/GenAIEval",
     "opensim-org/conda-opensim",
@@ -261,6 +262,7 @@
     "wp-cli/dist-archive-command",
     "wp-cli/scaffold-package-command",
     "xledger/pod_sql_server",
-    "yakir8/kosher_dart"
+    "yakir8/kosher_dart",
+    "yamachu/VoicevoxCoreSharp"
   ]
 }

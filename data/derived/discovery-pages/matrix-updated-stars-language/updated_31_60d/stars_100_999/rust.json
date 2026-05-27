@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1183,
-    "concepts": 836,
-    "observations": 845,
-    "repos": 165,
-    "terms": 839
+    "components": 1199,
+    "concepts": 846,
+    "observations": 855,
+    "repos": 168,
+    "terms": 849
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -102,6 +102,7 @@
     "intel/ittapi",
     "iqlusioninc/abscissa",
     "iqlusioninc/tmkms",
+    "JanLikar/cargo-clone",
     "kaj/ructe",
     "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
@@ -145,6 +146,7 @@
     "rust-analyzer/rowan",
     "rust-bitcoin/rust-miniscript",
     "rust-lang/bors",
+    "rust-lang/compiler-builtins",
     "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
     "rust-lang/rustc-perf",
@@ -172,6 +174,7 @@
     "Traverse-Research/gpu-allocator",
     "trifectatechfoundation/zlib-rs",
     "typst/packages",
+    "udoprog/genco",
     "untitaker/hyperlink",
     "Watfaq/PowerSession-rs",
     "yeslogic/allsorts",

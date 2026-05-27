@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 208,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 78,
-    "terms": 94
+    "concepts": 91,
+    "observations": 91,
+    "repos": 76,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -25,7 +25,6 @@
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-Agent-Relay-Plugin",
@@ -67,7 +66,6 @@
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
     "danielrosehill/GROUNDING.md",
-    "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",

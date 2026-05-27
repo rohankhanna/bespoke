@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2786,
-    "concepts": 676,
-    "observations": 685,
-    "repos": 141,
-    "terms": 706
+    "components": 2813,
+    "concepts": 693,
+    "observations": 702,
+    "repos": 143,
+    "terms": 723
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -58,6 +58,7 @@
     "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/sendemail",
+    "dydxprotocol/v4-clients",
     "ehmicky/nve",
     "eladnava/pikud-haoref-api",
     "electron/node-abi",
@@ -91,6 +92,7 @@
     "ipfs/aegir",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
+    "j9t/html-minifier-next",
     "jest-community/jest-junit",
     "jimmywarting/native-file-system-adapter",
     "js-kyle/mincer",

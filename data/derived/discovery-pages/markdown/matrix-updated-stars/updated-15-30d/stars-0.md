@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 78
-- terms: 94
+- repos: 76
+- terms: 91
 - components: 208
-- concepts: 94
-- observations: 94
+- concepts: 91
+- observations: 91
 
 ## Static behavior
 
@@ -101,8 +101,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-HP5200-Skill-plugin](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) | 0 | 2026-04-27T15:13:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Digital-Printing-Plugin](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin) | 0 | 2026-04-27T10:03:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin) | 0 | 2026-04-27T09:31:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
-| [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -184,5 +182,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-HP5200-Skill-plugin](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) | 0 | 2026-04-27T15:13:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Digital-Printing-Plugin](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin) | 0 | 2026-04-27T10:03:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin) | 0 | 2026-04-27T09:31:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
-| [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 47813,
-    "concepts": 33897,
-    "observations": 33954,
-    "repos": 12337,
-    "terms": 33473
+    "components": 47818,
+    "concepts": 33904,
+    "observations": 33961,
+    "repos": 12339,
+    "terms": 33480
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -4685,6 +4685,7 @@
     "franziskuskiefer/cose-rust",
     "fredcamps/lsp-jedi",
     "freddyaboulton/gradio-pdf",
+    "free-audio/clap-host",
     "Freed-Wu/coc-write-good",
     "FreedomIntelligence/ALLaVA",
     "FreedomIntelligence/CMB",
@@ -7558,6 +7559,7 @@
     "Luolc/AdaBound",
     "luolin101/Visual-SWE-bench",
     "luosiallen/latent-consistency-model",
+    "luost26/diffusion-point-cloud",
     "luoyily/Eel",
     "lupantech/chameleon-llm",
     "lupantech/MathVista",

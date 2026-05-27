@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3243,
-    "concepts": 1442,
-    "observations": 1443,
-    "repos": 424,
-    "terms": 1470
+    "components": 3286,
+    "concepts": 1472,
+    "observations": 1473,
+    "repos": 428,
+    "terms": 1500
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -102,6 +102,7 @@
     "cdeust/cortex-cowork",
     "cdeust/zetetic-team-subagents",
     "cdxeve/scale-openclaw",
+    "celo-org/blind-threshold-bls-wasm",
     "celo-org/charts",
     "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
@@ -168,6 +169,7 @@
     "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Open-Claw-Stack",
     "danielrosehill/Prompt-Libraries-Index",
+    "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
     "danielrosehill/Useful-AI-Agent-Skills",
     "databendlabs/display-more",
@@ -265,8 +267,10 @@
     "ipfs/helia-remote-pinning",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "j9t/compressorjs-next",
     "j9t/htaccess-punk",
     "j9t/image-guard",
+    "j9t/minifier-benchmarks",
     "Jango-AI-com/morning-cli",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",

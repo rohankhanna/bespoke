@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 675,
-    "concepts": 445,
-    "observations": 446,
-    "repos": 155,
-    "terms": 434
+    "concepts": 436,
+    "observations": 437,
+    "repos": 154,
+    "terms": 425
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -35,7 +35,6 @@
     "aifoundry-org/riscv-gnu-toolchain",
     "al1-nasir/Research_council",
     "alexellis/gha-bump",
-    "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-ontopo",
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-27T06:00:44.104521+00:00`
+Generated at: `2026-05-27T08:59:49.396739+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 299
-- components: 222
-- concepts: 299
-- observations: 299
+- repos: 45
+- terms: 306
+- components: 253
+- concepts: 306
+- observations: 306
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
 | [jpmml/jpmml-lightgbm](https://github.com/jpmml/jpmml-lightgbm) | 184 | 2026-04-26T19:02:26Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [apache/commons-jexl](https://github.com/apache/commons-jexl) | 236 | 2026-04-26T18:53:52Z | Java | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [jpmml/jpmml-xgboost](https://github.com/jpmml/jpmml-xgboost) | 131 | 2026-04-26T12:19:22Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -99,6 +100,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spotbugs/sonar-findbugs](https://github.com/spotbugs/sonar-findbugs) | 381 | 2026-04-20T13:38:07Z | Java | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [apache/doris-flink-connector](https://github.com/apache/doris-flink-connector) | 376 | 2026-04-07T08:22:07Z | Java | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [eclipse-lemminx/lemminx](https://github.com/eclipse-lemminx/lemminx) | 354 | 2026-04-21T18:20:38Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
 | [jpmml/jpmml-sparkml](https://github.com/jpmml/jpmml-sparkml) | 271 | 2026-04-11T07:38:31Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [microsoft/semantic-kernel-java](https://github.com/microsoft/semantic-kernel-java) | 260 | 2026-04-22T17:33:07Z | Java | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [beehive-lab/GPULlama3.java](https://github.com/beehive-lab/GPULlama3.java) | 253 | 2026-04-23T09:33:03Z | Java | Infrastructure/tooling | 23 | 2 | 23 | 23 |

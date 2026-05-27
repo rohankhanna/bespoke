@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1886,
-    "concepts": 1317,
-    "observations": 1317,
-    "repos": 216,
-    "terms": 1311
+    "components": 1877,
+    "concepts": 1312,
+    "observations": 1312,
+    "repos": 215,
+    "terms": 1306
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -20,7 +20,6 @@
     "AdguardTeam/FiltersRegistry",
     "Alexey-T/ATFlatControls",
     "anthropics/anthropic-sdk-ruby",
-    "apache/apisix-helm-chart",
     "appwrite/sdk-for-android",
     "appwrite/sdk-for-apple",
     "appwrite/sdk-for-flutter",
@@ -133,6 +132,7 @@
     "Kijewski/pyjson5",
     "kirill-grouchnikov/aurora",
     "kool-engine/kool",
+    "Kotlin/kotlinx-benchmark",
     "kreeti/kt-paperclip",
     "kserve/website",
     "kubeflow/community",
@@ -151,7 +151,6 @@
     "mapbox/mapbox-maps-android",
     "mapbox/mapbox-maps-ios",
     "mbj/unparser",
-    "melange-re/melange",
     "microsoft/Agents",
     "microsoft/Agents-for-net",
     "microsoft/binskim",

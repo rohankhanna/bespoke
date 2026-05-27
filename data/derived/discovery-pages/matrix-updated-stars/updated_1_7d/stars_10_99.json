@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 78,
-    "observations": 78,
+    "components": 284,
+    "concepts": 93,
+    "observations": 93,
     "repos": 21,
-    "terms": 78
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "amazon-ion/ion-cli",
@@ -26,7 +26,7 @@
     "joshsymonds/cc-tools",
     "karafka/example-apps",
     "lifegpc/msg-tool",
-    "mesh-iit/cad-libraries",
+    "lumen-oss/luarocks-tag-release",
     "nuxt-modules/emotion",
     "pivotal/credhub-release",
     "python-poetry/website",

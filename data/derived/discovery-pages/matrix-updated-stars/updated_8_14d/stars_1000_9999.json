@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 481,
-    "concepts": 387,
-    "observations": 388,
-    "repos": 52,
-    "terms": 375
+    "components": 467,
+    "concepts": 379,
+    "observations": 380,
+    "repos": 50,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "andymass/vim-matchup",
@@ -43,7 +43,6 @@
     "Nelarius/imnodes",
     "nodenv/nodenv",
     "nomadkaraoke/python-audio-separator",
-    "nushell/awesome-nu",
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
     "paralleldrive/cuid",
@@ -53,7 +52,6 @@
     "python-versioneer/python-versioneer",
     "riscv-collab/riscv-gnu-toolchain",
     "safetensors/safetensors",
-    "scop/bash-completion",
     "standardrb/standard",
     "strob/gentle",
     "ufbx/ufbx",

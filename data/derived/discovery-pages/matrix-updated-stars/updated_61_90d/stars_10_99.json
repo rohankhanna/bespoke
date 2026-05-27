@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1880,
-    "concepts": 1090,
-    "observations": 1092,
-    "repos": 341,
-    "terms": 1086
+    "components": 1873,
+    "concepts": 1082,
+    "observations": 1084,
+    "repos": 340,
+    "terms": 1078
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -314,7 +314,6 @@
     "ruby/setup-ruby-pkgs",
     "rust-lang/crates-build-env",
     "Saalvage/AssimpNetter",
-    "scaleway/serverless-gateway",
     "SchwarzIT/api-linter-rules",
     "SchwarzIT/spectral-intellij-plugin",
     "SciML/sciml.ai",

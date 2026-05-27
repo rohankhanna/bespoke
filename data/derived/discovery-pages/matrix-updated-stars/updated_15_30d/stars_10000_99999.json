@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10333,
-    "concepts": 4775,
-    "observations": 4788,
-    "repos": 416,
-    "terms": 4741
+    "components": 10290,
+    "concepts": 4738,
+    "observations": 4751,
+    "repos": 412,
+    "terms": 4704
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -186,7 +186,6 @@
     "huggingface/datasets",
     "huggingface/lerobot",
     "huggingface/tokenizers",
-    "huggingface/transformers.js",
     "huggingface/trl",
     "IBM/plex",
     "iced-rs/iced",
@@ -203,7 +202,6 @@
     "jenkinsci/jenkins",
     "jhipster/generator-jhipster",
     "jj-vcs/jj",
-    "joewalnes/websocketd",
     "jqlang/jq",
     "jquense/yup",
     "jrouwe/JoltPhysics",
@@ -350,7 +348,6 @@
     "rqlite/rqlite",
     "rubocop/rubocop",
     "ruby/ruby",
-    "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "RVC-Boss/GPT-SoVITS",
     "SagerNet/sing-box",
@@ -379,7 +376,6 @@
     "surrealdb/surrealdb",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "swagger-api/swagger-codegen",
     "swagger-api/swagger-ui",
     "swc-project/swc",
     "SWE-agent/SWE-agent",

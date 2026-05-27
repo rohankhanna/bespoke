@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11488,
-    "concepts": 7980,
-    "observations": 8010,
-    "repos": 2137,
-    "terms": 7959
+    "components": 11506,
+    "concepts": 7999,
+    "observations": 8029,
+    "repos": 2140,
+    "terms": 7978
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -140,6 +140,7 @@
     "alexmojaki/pure_eval",
     "alexmojaki/snoop",
     "alexmojaki/stack_data",
+    "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-libby-book-monitor",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
     "alexpolonsky/agent-skill-strikeradar",
@@ -850,7 +851,6 @@
     "FoundationAgents/OpenManus",
     "FourierTransformer/lua-simdjson",
     "frankkohlhepp/fancy-settings",
-    "free-audio/clap-host",
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "fschutt/printpdf",
@@ -1327,7 +1327,6 @@
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
     "lunacookies/vim-colors-xcode",
-    "luost26/diffusion-point-cloud",
     "lupantech/AgentFlow",
     "Lusito/webextension-polyfill-ts",
     "Lutetium-Vanadium/requestty",
@@ -1476,6 +1475,7 @@
     "near/near-abi-rs",
     "nebelgrau77/airsniffer-esp32c6",
     "NeighTools/UnityDoorstop",
+    "Nek5000/Nek5000",
     "nelson-lang/nelson-website",
     "Netflix/Hystrix",
     "newtheatre/history-project",
@@ -1490,6 +1490,7 @@
     "nihui/ncnn-android-nanodet",
     "nihui/ncnn-android-scrfd",
     "niieani/gpt-tokenizer",
+    "nim-lang/vscode-nim",
     "nix-community/dream2nix",
     "NixOS/nixops",
     "NixOS/patchelf",
@@ -1793,6 +1794,7 @@
     "sbcgua/abap-string-map",
     "sbt/sbt-native-packager",
     "scalar-labs/btm",
+    "scaleway/serverless-gateway",
     "SciML/SciMLTutorials.jl",
     "SciML/SciMLTutorialsOutput",
     "sclorg/welcome",
@@ -2048,6 +2050,7 @@
     "VirusTotal/yara",
     "vis-nlp/ChartQAPro",
     "VisionLearningGroup/VisionLearningGroup.github.io",
+    "Visual-Agent/DeepEyesV2",
     "ViTAE-Transformer/ViTPose",
     "vitejs/awesome-vite",
     "vllm-project/media-kit",

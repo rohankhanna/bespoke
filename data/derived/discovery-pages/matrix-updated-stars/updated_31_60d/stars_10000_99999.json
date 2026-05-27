@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16163,
-    "concepts": 6662,
-    "observations": 6692,
-    "repos": 707,
-    "terms": 6675
+    "components": 16206,
+    "concepts": 6699,
+    "observations": 6729,
+    "repos": 711,
+    "terms": 6712
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -356,6 +356,7 @@
     "huggingface/open-r1",
     "huggingface/peft",
     "huggingface/smolagents",
+    "huggingface/transformers.js",
     "hyperium/hyper",
     "hyperium/tonic",
     "iamkun/dayjs",
@@ -384,6 +385,7 @@
     "JetBrains/kotlin",
     "jgm/pandoc",
     "Jguer/yay",
+    "joewalnes/websocketd",
     "jonas/tig",
     "jordansissel/fpm",
     "josdejong/jsoneditor",
@@ -593,6 +595,7 @@
     "RPCS3/rpcs3",
     "rs/zerolog",
     "rust-lang/cargo",
+    "rust-lang/rust-clippy",
     "ryoppippi/ccusage",
     "saadeghi/daisyui",
     "sanic-org/sanic",
@@ -643,6 +646,7 @@
     "subframe7536/maple-font",
     "super-linter/super-linter",
     "svg/svgo",
+    "swagger-api/swagger-codegen",
     "swaywm/sway",
     "syl20bnr/spacemacs",
     "syncthing/syncthing",

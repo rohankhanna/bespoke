@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2157,
-    "concepts": 1255,
-    "observations": 1263,
+    "components": 2159,
+    "concepts": 1261,
+    "observations": 1269,
     "repos": 483,
-    "terms": 1260
+    "terms": 1266
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -213,7 +213,6 @@
     "fmtlib/format-benchmark",
     "formigarafa/zxcvbn-rb",
     "FourierTransformer/lua-simdjson",
-    "free-audio/clap-host",
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "fsspec/sshfs",
@@ -424,6 +423,7 @@
     "salesforcecli/status",
     "saltstack/libnacl",
     "sbcgua/abap-string-map",
+    "scaleway/serverless-gateway",
     "SciML/SciMLTutorialsOutput",
     "sclorg/welcome",
     "sculptdotfun/viberank",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1346,
-    "concepts": 259,
-    "observations": 259,
-    "repos": 41,
-    "terms": 287
+    "components": 1385,
+    "concepts": 263,
+    "observations": 263,
+    "repos": 42,
+    "terms": 291
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -47,6 +47,7 @@
     "peers/peerjs-server",
     "REditorSupport/vscode-R",
     "snarktank/antfarm",
+    "sql-formatter-org/sql-formatter",
     "standard-schema/standard-schema",
     "stephenh/ts-proto",
     "stravu/crystal",

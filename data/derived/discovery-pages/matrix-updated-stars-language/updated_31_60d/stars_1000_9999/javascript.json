@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3049,
-    "concepts": 668,
-    "observations": 668,
-    "repos": 101,
-    "terms": 665
+    "components": 3114,
+    "concepts": 674,
+    "observations": 674,
+    "repos": 102,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -60,6 +60,7 @@
     "igorshubovych/markdownlint-cli",
     "ipfs/ipfs-desktop",
     "isaacs/minimatch",
+    "isomorphic-git/isomorphic-git",
     "istanbuljs/istanbuljs",
     "jprichardson/node-fs-extra",
     "js-joda/js-joda",

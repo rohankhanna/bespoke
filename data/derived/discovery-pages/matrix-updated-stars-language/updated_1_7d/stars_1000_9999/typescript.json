@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 10,
-    "terms": 50
+    "components": 506,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 12,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-27T08:59:49.396739+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "alichherawalla/off-grid-mobile-ai",
@@ -22,7 +22,9 @@
     "google-gemini/live-api-web-console",
     "microsoft/vscode-js-debug",
     "neavo/LinguaGacha",
+    "typescript-language-server/typescript-language-server",
     "vercel/serve",
+    "vuejs/devtools",
     "vuejs/language-tools"
   ]
 }
