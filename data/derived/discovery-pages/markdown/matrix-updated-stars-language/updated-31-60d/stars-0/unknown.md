@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-26T07:57:03.746408+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 88
+- repos: 90
+- terms: 79
 - components: 57
-- concepts: 79
-- observations: 79
+- concepts: 70
+- observations: 70
 
 ## Static behavior
 
@@ -116,12 +116,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
-| [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
-| [danielrosehill/AI-Projects-Index](https://github.com/danielrosehill/AI-Projects-Index) | 0 | 2026-03-27T17:14:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Home-Assistant-Index](https://github.com/danielrosehill/Home-Assistant-Index) | 0 | 2026-03-27T17:10:14Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -217,9 +211,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
-| [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
-| [danielrosehill/AI-Projects-Index](https://github.com/danielrosehill/AI-Projects-Index) | 0 | 2026-03-27T17:14:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Home-Assistant-Index](https://github.com/danielrosehill/Home-Assistant-Index) | 0 | 2026-03-27T17:10:14Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 18,
-    "terms": 58
+    "concepts": 62,
+    "observations": 62,
+    "repos": 19,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
@@ -27,6 +27,7 @@
     "msgpack/msgpack-c",
     "NVIDIA/Cosmos",
     "obsidianmd/obsidian-api",
+    "orogene/orogene",
     "r-lyeh/single_file_libs",
     "sindresorhus/ponyfill",
     "syntax-tree/mdast",

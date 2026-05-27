@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 146,
-    "observations": 147,
-    "repos": 35,
-    "terms": 145
+    "components": 445,
+    "concepts": 145,
+    "observations": 146,
+    "repos": 36,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "actions/deploy-pages",
     "AghayeCoder/tx-ui",
@@ -22,13 +22,13 @@
     "avwo/whistle-client",
     "ButTaiwan/bpmfvs",
     "cmake-js/cmake-js",
-    "codota/tabnine-nvim",
     "d3/d3-geo-polygon",
     "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
     "googleapis/nodejs-bigtable",
+    "GoogleChromeLabs/wasm-feature-detect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
@@ -48,6 +48,7 @@
     "rstudio/DT",
     "TeamMoeAI/MoeSR",
     "thejoshwolfe/yazl",
-    "usnistgov/jsfive"
+    "usnistgov/jsfive",
+    "w3c/webidl2.js"
   ]
 }

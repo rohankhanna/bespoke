@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-26T07:57:03.746408+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1950 | 2026-05-26T07:22:24Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2350 | 2026-05-25T17:14:21Z | Java | CLI | 7 | 8 | 7 | 7 |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3790 | 2026-05-25T16:07:58Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1951 | 2026-05-26T17:23:10Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3790 | 2026-05-26T14:05:25Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2351 | 2026-05-26T09:01:50Z | Java | CLI | 7 | 8 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3790 | 2026-05-25T16:07:58Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
-| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2350 | 2026-05-25T17:14:21Z | Java | CLI | 7 | 8 | 7 | 7 |
-| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1950 | 2026-05-26T07:22:24Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |
+| [helidon-io/helidon](https://github.com/helidon-io/helidon) | 3790 | 2026-05-26T14:05:25Z | Java | Infrastructure/tooling | 10 | 4 | 10 | 10 |
+| [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2351 | 2026-05-26T09:01:50Z | Java | CLI | 7 | 8 | 7 | 7 |
+| [eclipse-openvsx/openvsx](https://github.com/eclipse-openvsx/openvsx) | 1951 | 2026-05-26T17:23:10Z | Java | Infrastructure/tooling | 13 | 23 | 13 | 13 |

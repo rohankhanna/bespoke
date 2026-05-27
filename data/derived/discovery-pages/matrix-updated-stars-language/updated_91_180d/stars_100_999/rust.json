@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 233,
-    "observations": 236,
-    "repos": 60,
-    "terms": 232
+    "components": 357,
+    "concepts": 247,
+    "observations": 250,
+    "repos": 63,
+    "terms": 246
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -24,6 +24,7 @@
     "callum-oakley/json5-rs",
     "cormacrelf/dark-notify",
     "CosmWasm/cw-plus",
+    "cowboy8625/rusty-rain",
     "cuviper/autocfg",
     "dimforge/simba",
     "DioxusLabs/sdk",
@@ -41,6 +42,8 @@
     "jimblandy/perf-event",
     "kata-containers/cgroups-rs",
     "kwonoj/swc-plugin-coverage-instrument",
+    "KyleMayes/clang-rs",
+    "KyleMayes/clang-sys",
     "lquerel/gcp-bigquery-client",
     "Lutetium-Vanadium/requestty",
     "Manishearth/triomphe",

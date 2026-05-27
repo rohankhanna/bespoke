@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 706,
-    "concepts": 732,
-    "observations": 734,
-    "repos": 66,
-    "terms": 726
+    "components": 675,
+    "concepts": 701,
+    "observations": 702,
+    "repos": 62,
+    "terms": 695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -26,7 +26,6 @@
     "docling-project/docling",
     "facefusion/facefusion",
     "fastapi/typer",
-    "Genesis-Embodied-AI/Genesis",
     "google/magika",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
@@ -38,7 +37,6 @@
     "kornia/kornia",
     "kvcache-ai/ktransformers",
     "langchain-ai/open_deep_research",
-    "LibreTranslate/LibreTranslate",
     "Lightning-AI/litgpt",
     "locustio/locust",
     "lucidrains/vit-pytorch",
@@ -56,7 +54,6 @@
     "ostris/ai-toolkit",
     "pallets/click",
     "pipecat-ai/pipecat",
-    "PrefectHQ/fastmcp",
     "psf/requests",
     "pypa/pipenv",
     "pypa/pipx",
@@ -68,7 +65,6 @@
     "scipy/scipy",
     "scrapy/scrapy",
     "Skyvern-AI/skyvern",
-    "state-spaces/mamba",
     "StevenBlack/hosts",
     "SWE-agent/SWE-agent",
     "sympy/sympy",

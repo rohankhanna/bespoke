@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 10,
-    "terms": 80
+    "components": 82,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 13,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
     "beam-community/elixir-companies",
+    "devlooped/moq",
     "elixir-grpc/grpc",
-    "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
     "nushell/awesome-nu",
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
-    "preservim/tagbar"
+    "preservim/tagbar",
+    "standardrb/standard",
+    "xoofx/markdig"
   ]
 }

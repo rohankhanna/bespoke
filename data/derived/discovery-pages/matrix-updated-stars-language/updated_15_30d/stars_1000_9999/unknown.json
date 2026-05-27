@@ -3,7 +3,7 @@
     "components": 16,
     "concepts": 75,
     "observations": 75,
-    "repos": 11,
+    "repos": 12,
     "terms": 75
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "ad-si/awesome-music-production",
+    "ephtracy/voxel-model",
     "github/rest-api-description",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",

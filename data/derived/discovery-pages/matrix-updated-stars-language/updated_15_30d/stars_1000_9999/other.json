@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1999,
-    "concepts": 1785,
-    "observations": 1799,
-    "repos": 217,
-    "terms": 1778
+    "components": 1959,
+    "concepts": 1733,
+    "observations": 1747,
+    "repos": 211,
+    "terms": 1727
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -33,7 +33,6 @@
     "Azure/azure-powershell",
     "B-Lang-org/bsc",
     "badmojr/1Hosts",
-    "belav/csharpier",
     "benchflow-ai/skillsbench",
     "benjamimgois/goverlay",
     "bitwarden/android",
@@ -63,7 +62,6 @@
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",
     "DandelionSprout/adfilt",
-    "danger/danger",
     "danmayer/coverband",
     "dart-lang/pub",
     "DavHau/nix-portable",
@@ -80,7 +78,6 @@
     "dusty-nv/jetson-containers",
     "easylist/easylist",
     "elixir-ecto/ecto",
-    "elixir-lang/ex_doc",
     "elixir-mint/mint",
     "elm/compiler",
     "emacs-mirror/emacs",
@@ -105,7 +102,6 @@
     "googleapis/google-cloud-dotnet",
     "googleapis/google-cloud-php",
     "GoogleCloudPlatform/php-docs-samples",
-    "gotify/android",
     "h2oai/h2o-3",
     "hacl-star/hacl-star",
     "haskell/cabal",
@@ -136,7 +132,7 @@
     "lambdalisue/vim-fern",
     "ldc-developers/ldc",
     "lewis6991/gitsigns.nvim",
-    "LibreHardwareMonitor/LibreHardwareMonitor",
+    "lightning/bolts",
     "lobsters/lobsters",
     "LuaLS/lua-language-server",
     "MacPaw/OpenAI",
@@ -145,7 +141,6 @@
     "MakieOrg/Makie.jl",
     "manateelazycat/lsp-bridge",
     "mdn/translated-content",
-    "MeanderingProgrammer/render-markdown.nvim",
     "melpa/melpa",
     "mermaid-js/mermaid-live-editor",
     "MetaCubeX/metacubexd",
@@ -181,7 +176,6 @@
     "pedestal/pedestal",
     "pradyunsg/furo",
     "prometheus-operator/kube-prometheus",
-    "prontolabs/pronto",
     "python/peps",
     "r-lib/devtools",
     "rapidsai/raft",

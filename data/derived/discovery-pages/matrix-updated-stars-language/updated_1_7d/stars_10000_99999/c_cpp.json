@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 6,
-    "terms": 77
+    "components": 77,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 7,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "apache/brpc",
-    "google-ai-edge/mediapipe",
+    "argotorg/solidity",
+    "ggml-org/ggml",
+    "ggml-org/whisper.cpp",
     "HIllya51/LunaTranslator",
     "isl-org/Open3D",
-    "mozilla-ai/llamafile",
     "protocolbuffers/protobuf"
   ]
 }

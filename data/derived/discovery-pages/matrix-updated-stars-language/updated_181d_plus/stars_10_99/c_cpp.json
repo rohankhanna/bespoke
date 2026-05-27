@@ -3,7 +3,7 @@
     "components": 540,
     "concepts": 633,
     "observations": 633,
-    "repos": 288,
+    "repos": 289,
     "terms": 630
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -301,6 +301,7 @@
     "y-chan/node-voicevox-engine",
     "YuliangXiu/bvh-distance-queries",
     "YuzukiTsuru/World.JS",
+    "ZQF-ReVN/RxMalie",
     "zzz3bbb3/YOLOX-deepstream"
   ]
 }

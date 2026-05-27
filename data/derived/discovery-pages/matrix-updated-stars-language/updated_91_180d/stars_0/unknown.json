@@ -3,7 +3,7 @@
     "components": 46,
     "concepts": 36,
     "observations": 36,
-    "repos": 25,
+    "repos": 26,
     "terms": 36
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "asm89/prettytable-rs",
     "CADindustries/container",
@@ -29,6 +29,7 @@
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "get-gah/gah-db",
+    "guaguastandup/guaguastandup",
     "jackielii/qmk_firmware",
     "kitknox/helix",
     "llamagate/diff",

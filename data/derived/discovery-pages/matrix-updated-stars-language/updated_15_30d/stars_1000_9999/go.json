@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 900,
-    "concepts": 933,
-    "observations": 938,
-    "repos": 88,
-    "terms": 928
+    "components": 892,
+    "concepts": 927,
+    "observations": 932,
+    "repos": 87,
+    "terms": 922
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -24,7 +24,6 @@
     "aws/aws-sdk-go-v2",
     "azimjohn/jprq",
     "beclab/Olares",
-    "bfenetworks/bfe",
     "bnb-chain/bsc",
     "btcsuite/btcwallet",
     "buger/jsonparser",
@@ -33,7 +32,6 @@
     "cloudflare/pint",
     "cloudwego/hertz",
     "cockroachdb/pebble",
-    "Consensys/gnark",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "Dicklesworthstone/beads_viewer",
@@ -45,6 +43,7 @@
     "envoyproxy/ai-gateway",
     "envoyproxy/gateway",
     "erigontech/erigon",
+    "etcd-io/bbolt",
     "evilmartians/lefthook",
     "external-secrets/external-secrets",
     "filecoin-project/lotus",

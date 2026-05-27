@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 723,
-    "concepts": 756,
-    "observations": 757,
-    "repos": 116,
-    "terms": 753
+    "components": 654,
+    "concepts": 701,
+    "observations": 702,
+    "repos": 109,
+    "terms": 699
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "0ldsk00l/nestopia",
     "aburch/simutrans",
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
@@ -38,8 +37,6 @@
     "ddemidov/amgcl",
     "DiligentGraphics/DiligentCore",
     "DiligentGraphics/DiligentFX",
-    "DiligentGraphics/DiligentSamples",
-    "DiligentGraphics/DiligentTools",
     "dmlc/treelite",
     "DrTimothyAldenDavis/GraphBLAS",
     "eblerjana/pangenie",
@@ -69,7 +66,6 @@
     "j20001970/GDMP",
     "jellyfin/jellyfin-ffmpeg",
     "JokerJohn/DCReg",
-    "jrouwe/JoltPhysics.js",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
     "KhronosGroup/Vulkan-Loader",
@@ -88,7 +84,6 @@
     "mapnik/node-mapnik",
     "Mercury13/unicodia",
     "msoos/cryptominisat",
-    "murat-dogan/node-datachannel",
     "nelson-lang/nelson",
     "NGSolve/netgen",
     "nianticlabs/spz",
@@ -100,10 +95,8 @@
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "openSUSE/libsolv",
     "OpenVisualCloud/Media-Transport-Library",
-    "optiscaler/OptiPatcher",
     "ouster-lidar/ouster-ros",
     "pkgxdev/pantry",
-    "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
     "RcppCore/Rcpp",
     "ROCm/AMDMIGraphX",

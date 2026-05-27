@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-26T07:57:03.746408+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 68
-- terms: 108
-- components: 222
-- concepts: 106
-- observations: 108
+- repos: 74
+- terms: 128
+- components: 238
+- concepts: 126
+- observations: 128
 
 ## Static behavior
 
@@ -25,6 +25,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sujithpvarghese/bedrock-full-reconciliation](https://github.com/sujithpvarghese/bedrock-full-reconciliation) | 0 | 2026-03-27T19:40:31Z | TypeScript | Framework | 12 | 11 | 12 | 12 |
+| [danielrosehill/Israel-Alert-Map](https://github.com/danielrosehill/Israel-Alert-Map) | 0 | 2026-03-27T18:29:54Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [danielrosehill/AI-Projects-Index](https://github.com/danielrosehill/AI-Projects-Index) | 0 | 2026-03-27T17:14:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Home-Assistant-Index](https://github.com/danielrosehill/Home-Assistant-Index) | 0 | 2026-03-27T17:10:14Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [atsushieno/homebrew-oss](https://github.com/atsushieno/homebrew-oss) | 0 | 2026-03-27T06:19:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [devnen/chatterbox-v2](https://github.com/devnen/chatterbox-v2) | 0 | 2026-03-26T22:24:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -91,13 +99,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yoshoku/numo-liblinear](https://github.com/yoshoku/numo-liblinear) | 0 | 2026-03-02T14:04:56Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [DataDog/go-cmp](https://github.com/DataDog/go-cmp) | 0 | 2026-03-01T14:30:00Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [zcash/MultiMarkdown-6](https://github.com/zcash/MultiMarkdown-6) | 0 | 2026-02-27T16:39:55Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [guaguastandup/guaguastandup](https://github.com/guaguastandup/guaguastandup) | 0 | 2026-02-25T18:50:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Bearer/homebrew-tap](https://github.com/Bearer/homebrew-tap) | 0 | 2026-02-25T12:55:59Z | Other | Library | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sujithpvarghese/bedrock-full-reconciliation](https://github.com/sujithpvarghese/bedrock-full-reconciliation) | 0 | 2026-03-27T19:40:31Z | TypeScript | Framework | 12 | 11 | 12 | 12 |
+| [danielrosehill/Israel-Alert-Map](https://github.com/danielrosehill/Israel-Alert-Map) | 0 | 2026-03-27T18:29:54Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
+| [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
+| [danielrosehill/Backup-Projects-Index](https://github.com/danielrosehill/Backup-Projects-Index) | 0 | 2026-03-27T17:14:49Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [danielrosehill/AI-Projects-Index](https://github.com/danielrosehill/AI-Projects-Index) | 0 | 2026-03-27T17:14:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Home-Assistant-Index](https://github.com/danielrosehill/Home-Assistant-Index) | 0 | 2026-03-27T17:10:14Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Networking-Projects-Index](https://github.com/danielrosehill/Networking-Projects-Index) | 0 | 2026-03-27T17:09:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [danielrosehill/Jewish-Related-Index](https://github.com/danielrosehill/Jewish-Related-Index) | 0 | 2026-03-27T17:08:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [atsushieno/homebrew-oss](https://github.com/atsushieno/homebrew-oss) | 0 | 2026-03-27T06:19:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [saharmor/saharmor.github.io](https://github.com/saharmor/saharmor.github.io) | 0 | 2026-03-26T22:55:49Z | Other | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [devnen/chatterbox-v2](https://github.com/devnen/chatterbox-v2) | 0 | 2026-03-26T22:24:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -164,5 +178,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yoshoku/numo-liblinear](https://github.com/yoshoku/numo-liblinear) | 0 | 2026-03-02T14:04:56Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [DataDog/go-cmp](https://github.com/DataDog/go-cmp) | 0 | 2026-03-01T14:30:00Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [zcash/MultiMarkdown-6](https://github.com/zcash/MultiMarkdown-6) | 0 | 2026-02-27T16:39:55Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [guaguastandup/guaguastandup](https://github.com/guaguastandup/guaguastandup) | 0 | 2026-02-25T18:50:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Bearer/homebrew-tap](https://github.com/Bearer/homebrew-tap) | 0 | 2026-02-25T12:55:59Z | Other | Library | 1 | 0 | 1 | 1 |

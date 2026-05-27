@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4941,
-    "concepts": 771,
-    "observations": 773,
-    "repos": 205,
-    "terms": 782
+    "components": 4961,
+    "concepts": 776,
+    "observations": 778,
+    "repos": 206,
+    "terms": 787
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -129,6 +129,7 @@
     "luisherranz/deepsignal",
     "Lusito/forget-me-not",
     "lxsmnsyc/solid-labels",
+    "ManuelHentschel/VSCode-R-Debugger",
     "Mara-Li/obsidian-snippet-downloader",
     "marcello3d/node-tosource",
     "mariolukas/HydraPlay",

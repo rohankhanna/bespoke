@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 5453,
+    "components": 5456,
     "concepts": 1968,
     "observations": 1971,
-    "repos": 1379,
+    "repos": 1383,
     "terms": 1964
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -65,6 +65,7 @@
     "abap-prep/abap_db_preparator",
     "abap2UI5/builder",
     "abcjjy/godot-sqlcipher",
+    "abersheeran/pdm-version",
     "abhijay9/attacking_perceptual_similarity_metrics",
     "abhilash1910/llm.tpc",
     "AbhiLegend/DrugDisOpenVINO",
@@ -623,6 +624,7 @@
     "gchq/gafferpy",
     "generalizable-neural-performer/genebody-benchmarks",
     "geofabrik/osm-bright",
+    "geopandas/governance",
     "GeorgOfenbeck/features",
     "geospatial-jeff/pyasyncio-benchmark",
     "geoswift/geoswiftmapboxmaps",
@@ -709,6 +711,8 @@
     "HDETR/H-Mask-Deformable-DETR",
     "heiher/socks5-ios",
     "helmfile/multi-env-helmfile",
+    "hermit-os/binutils",
+    "hermit-os/gcc",
     "hermit-os/hermit-c",
     "hermit-os/pthread-embedded",
     "hertz-contrib/autotls",
@@ -1311,7 +1315,7 @@
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
     "triton-inference-server/contrib",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",
     "turner/swt2sw",
     "UBC-NLP/Cheetah",

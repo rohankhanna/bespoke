@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 62,
-    "terms": 182
+    "components": 266,
+    "concepts": 183,
+    "observations": 183,
+    "repos": 61,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
-    "agents-x-project/PyVision-RL",
     "ai4colonoscopy/PraNet-V2",
     "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
@@ -24,7 +23,6 @@
     "AniAggarwal/ecad",
     "apache/parquet-testing",
     "bentoml/openllm-models",
-    "bigai-nlco/RuleReasoner",
     "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
     "c4ffein/realworld-django-ninja",
@@ -37,12 +35,13 @@
     "cldf/segments",
     "clearml/clearml-session",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
-    "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
     "Embarcadero/PythonEnvironments",
+    "explosion/spacy-alignments",
+    "explosion/weasel",
     "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",

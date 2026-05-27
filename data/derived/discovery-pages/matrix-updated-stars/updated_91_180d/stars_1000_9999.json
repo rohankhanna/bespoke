@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3116,
-    "concepts": 2624,
-    "observations": 2634,
-    "repos": 516,
-    "terms": 2600
+    "components": 3181,
+    "concepts": 2667,
+    "observations": 2677,
+    "repos": 521,
+    "terms": 2645
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -51,6 +51,7 @@
     "ankitpokhrel/jira-cli",
     "anordal/shellharden",
     "AnswerDotAI/rerankers",
+    "antfu-collective/vitesse",
     "antfu/drauu",
     "anthropics/claude-code-security-review",
     "anthropics/claudes-c-compiler",
@@ -101,6 +102,7 @@
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "ByteDance-Seed/SeedVR",
+    "bytetriper/RAE",
     "canopyai/Orpheus-TTS",
     "caprica/vlcj",
     "carrierwaveuploader/carrierwave",
@@ -241,6 +243,7 @@
     "helix-editor/nucleo",
     "hkust-nlp/simpleRL-reason",
     "hoshsadiq/adblock-nocoin-list",
+    "hpjansson/chafa",
     "huggingface/Math-Verify",
     "huggingface/transformers.js-examples",
     "hustvl/DiffusionDrive",
@@ -256,6 +259,7 @@
     "IntelLabs/fastRAG",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "isaacs/nave",
+    "isl-org/Open3D-ML",
     "istanbuljs/nyc",
     "jasongin/nvs",
     "jazzband/django-configurations",
@@ -279,6 +283,7 @@
     "jsx-eslint/eslint-plugin-jsx-a11y",
     "jtblin/kube2iam",
     "junyanz/CatPapers",
+    "jupyter-widgets/ipyleaflet",
     "just-containers/s6-overlay",
     "justinmk/vim-sneak",
     "KaiyangZhou/deep-person-reid",
@@ -289,7 +294,6 @@
     "kha-white/mokuro",
     "kijai/ComfyUI-WanVideoWrapper",
     "kikito/inspect.lua",
-    "KlingAIResearch/ReCamMaster",
     "kosua20/MIDIVisualizer",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
@@ -297,7 +301,6 @@
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "libimobiledevice/idevicerestore",
-    "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
     "librespot-org/librespot",
     "libsndfile/libsndfile",
@@ -380,6 +383,7 @@
     "openMVG/openMVG",
     "OpenNMT/CTranslate2",
     "OpenSPG/KAG",
+    "orogene/orogene",
     "PaddlePaddle/ERNIE",
     "PaddlePaddle/PaddleSeg",
     "PaddlePaddle/PaddleSlim",
@@ -392,7 +396,6 @@
     "pellepl/spiffs",
     "pganalyze/libpg_query",
     "Phantom-video/HuMo",
-    "phar-io/manifest",
     "pipecat-ai/smart-turn",
     "PixarAnimationStudios/OpenSubdiv",
     "PKU-YuanGroup/LLaVA-CoT",
@@ -413,6 +416,7 @@
     "python-rope/rope",
     "pytorch/extension-cpp",
     "pyusb/pyusb",
+    "qix-/better-exceptions",
     "QwenLM/Qwen-Image",
     "r-lyeh/single_file_libs",
     "rafamadriz/friendly-snippets",
@@ -460,6 +464,7 @@
     "sony/gobreaker",
     "SpinalHDL/VexRiscv",
     "steipete/claude-code-mcp",
+    "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "styleguidist/react-docgen-typescript",
     "SublimeLinter/SublimeLinter",
@@ -479,7 +484,6 @@
     "Tencent/TFace",
     "Tencent/tquic",
     "tensorflow/agents",
-    "thestk/rtmidi",
     "thewh1teagle/kokoro-onnx",
     "thu-ml/RoboticsDiffusionTransformer",
     "thu-ml/SageAttention",
@@ -528,6 +532,7 @@
     "yonaskolb/Mint",
     "Yuliang-Liu/Monkey",
     "yxlllc/DDSP-SVC",
-    "zeromq/jeromq"
+    "zeromq/jeromq",
+    "zkcrypto/bellman"
   ]
 }

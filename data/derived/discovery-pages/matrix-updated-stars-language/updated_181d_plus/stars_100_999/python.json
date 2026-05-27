@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1220,
-    "concepts": 5560,
-    "observations": 5565,
-    "repos": 1866,
-    "terms": 5400
+    "components": 1224,
+    "concepts": 5562,
+    "observations": 5567,
+    "repos": 1869,
+    "terms": 5409
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -577,6 +577,7 @@
     "ExponentialML/Video-BLIP2-Preprocessor",
     "Extraltodeus/ComfyUI-AutomaticCFG",
     "Eyeline-Labs/CineScale",
+    "f-dangel/backpack",
     "f1yfisher/DriveDreamer2",
     "f4pga/prjxray",
     "f90/Wave-U-Net",
@@ -756,6 +757,7 @@
     "haha-lisa/RDM-Region-Aware-Diffusion-Model",
     "hahnyuan/PB-LLM",
     "hahnyuan/RPTQ4LLM",
+    "hako-mikan/sd-webui-supermerger",
     "hakuhodo-technologies/scope-rl",
     "HandH1998/QQQ",
     "HanGuo97/log-linear-attention",
@@ -1785,6 +1787,7 @@
     "xlang-ai/UnifiedSKG",
     "xmlyqing00/AFB-URR",
     "xmoanvaf/llava-phi",
+    "XPixelGroup/DepictQA",
     "xuannianz/DifferentiableBinarization",
     "xuanyuzhou98/SqueezeSegV2",
     "xuchen-ethz/fast-snarf",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4172,
-    "concepts": 534,
-    "observations": 535,
-    "repos": 186,
-    "terms": 545
+    "components": 4189,
+    "concepts": 540,
+    "observations": 541,
+    "repos": 187,
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -100,6 +100,7 @@
     "hughfenghen/bloom-shadow",
     "illuxiza/nanostores-immer",
     "IndexXuan/vite-plugin-env-compatible",
+    "instana/opentelemetry-demo",
     "invoke-ai/launcher",
     "iohub/OpenCopilot",
     "ipfs/helia-http-gateway",

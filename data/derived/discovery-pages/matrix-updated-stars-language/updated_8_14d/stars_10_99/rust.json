@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 3,
-    "terms": 41
+    "components": 27,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 4,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
-    "apache/casbin-rust-actix-casbin"
+    "apache/casbin-rust-actix-casbin",
+    "vaporif/parry-guard"
   ]
 }

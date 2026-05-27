@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 376,
-    "observations": 376,
-    "repos": 69,
-    "terms": 371
+    "components": 296,
+    "concepts": 385,
+    "observations": 385,
+    "repos": 68,
+    "terms": 380
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
@@ -42,6 +42,7 @@
     "google/re2",
     "guinmoon/LLMFarm",
     "gulrak/filesystem",
+    "hpjansson/chafa",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "jedisct1/minisign",
     "jkuhlmann/cgltf",
@@ -50,7 +51,6 @@
     "json-c/json-c",
     "kosua20/MIDIVisualizer",
     "libimobiledevice/idevicerestore",
-    "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
     "libsndfile/libsndfile",
     "martinus/unordered_dense",
@@ -77,7 +77,6 @@
     "svenstaro/rofi-calc",
     "sysstat/sysstat",
     "TEN-framework/ten-vad",
-    "thestk/rtmidi",
     "tpoechtrager/osxcross",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",

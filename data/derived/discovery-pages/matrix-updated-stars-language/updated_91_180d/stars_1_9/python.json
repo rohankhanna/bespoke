@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 92,
+    "components": 89,
     "concepts": 64,
     "observations": 64,
-    "repos": 31,
+    "repos": 30,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "abersheeran/pdm-version",
     "agents-x-project/PyVision-RL-Eval",
     "ai-bot-pro/pipeline-py",
     "aiagenta2z/onekey_mcp_router",

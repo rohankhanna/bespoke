@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6904,
-    "concepts": 1308,
-    "observations": 1312,
-    "repos": 176,
-    "terms": 1415
+    "components": 7146,
+    "concepts": 1347,
+    "observations": 1351,
+    "repos": 181,
+    "terms": 1454
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -101,6 +101,7 @@
     "iorate/ublacklist",
     "ipfs/helia",
     "itgalaxy/favicons",
+    "jaegertracing/jaeger-ui",
     "jaredwray/cacheable",
     "jaredwray/keyv",
     "josdejong/jsonrepair",
@@ -133,6 +134,7 @@
     "microsoft/vscode-cpptools",
     "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
+    "microsoft/vscode-python",
     "MiniMax-AI/cli",
     "mksglu/context-mode",
     "Mobile-Artificial-Intelligence/maid",
@@ -165,6 +167,7 @@
     "redhat-developer/vscode-java",
     "redhat-developer/yaml-language-server",
     "remotion-dev/github-unwrapped",
+    "sinclairzx81/typebox",
     "sirmalloc/ccstatusline",
     "solidjs/solid-router",
     "solidjs/solid-start",
@@ -174,6 +177,7 @@
     "stripe/ai",
     "stripe/stripe-node",
     "tailwindlabs/prettier-plugin-tailwindcss",
+    "TanStack/virtual",
     "tensorflow/tensorboard",
     "the-guild-org/apollo-angular",
     "thomasloven/lovelace-card-mod",
@@ -189,6 +193,7 @@
     "wighawag/hardhat-deploy",
     "withastro/starlight",
     "xojs/xo",
-    "yarnpkg/berry"
+    "yarnpkg/berry",
+    "zsviczian/obsidian-excalidraw-plugin"
   ]
 }

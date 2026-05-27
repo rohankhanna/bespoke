@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 34,
-    "terms": 189
+    "components": 187,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 33,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "alexkohler/prealloc",
     "anacrolix/dht",
@@ -43,7 +43,6 @@
     "minio/highwayhash",
     "nikepan/clickhouse-bulk",
     "notaryproject/notation",
-    "omniscale/imposm3",
     "opencontainers/runtime-tools",
     "secretflow/scql",
     "stretchr/objx",

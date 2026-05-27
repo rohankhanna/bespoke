@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 58,
-    "observations": 59,
-    "repos": 12,
+    "components": 79,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 10,
     "terms": 57
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "apalache-mc/apalache",
     "babashka/nbb",
     "bazel-contrib/rules_kotlin",
     "dwyl/quotes",
@@ -21,10 +22,7 @@
     "fsprojects/FSharp.Data.GraphQL",
     "google/protobuf.dart",
     "karafka/rdkafka-ruby",
-    "lambdalisue/vim-nerdfont",
     "meshcat-dev/meshcat",
-    "openbsd/ports",
-    "ROCm/hipBLASLt",
     "sbt/sbt-jmh"
   ]
 }

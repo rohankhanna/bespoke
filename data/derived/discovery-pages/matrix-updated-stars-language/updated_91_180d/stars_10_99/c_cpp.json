@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 138,
-    "observations": 140,
-    "repos": 47,
-    "terms": 135
+    "components": 134,
+    "concepts": 139,
+    "observations": 141,
+    "repos": 48,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "a-n-t-h-o-n-y/signals-light",
@@ -30,6 +30,7 @@
     "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
+    "flatpak/flatpak-xdg-utils",
     "fmtlib/format-benchmark",
     "FourierTransformer/lua-simdjson",
     "free-audio/clap-host",

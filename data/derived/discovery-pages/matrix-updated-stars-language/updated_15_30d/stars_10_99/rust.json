@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 319,
-    "concepts": 225,
-    "observations": 226,
-    "repos": 42,
-    "terms": 224
+    "components": 305,
+    "concepts": 213,
+    "observations": 214,
+    "repos": 40,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
     "apollographql/federation-rs",
-    "arkworks-rs/std",
     "asny/three-d-asset",
     "astral-sh/pubgrub",
     "bnb-chain/reth",
@@ -50,7 +49,6 @@
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
-    "Systemcluster/kitoken",
     "tofay/rustls-openssl",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 125,
-    "observations": 125,
+    "components": 186,
+    "concepts": 133,
+    "observations": 133,
     "repos": 14,
-    "terms": 125
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "all-contributors/allcontributors.org",
     "clj-kondo/clj-kondo",
     "datalevin/datalevin",
+    "dotnet/reactive",
     "firebase/flutterfire",
     "kurrent-io/KurrentDB",
-    "licensee/licensed",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "openai/openai-dotnet",
+    "mono/SkiaSharp",
     "psmux/psmux",
-    "radian-software/straight.el",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "TryGhost/node-sqlite3",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 613,
-    "concepts": 795,
-    "observations": 798,
-    "repos": 87,
-    "terms": 793
+    "concepts": 797,
+    "observations": 800,
+    "repos": 89,
+    "terms": 795
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -23,6 +23,7 @@
     "arangodb/arangodb",
     "aristocratos/btop",
     "aseprite/aseprite",
+    "asmvik/yabai",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
     "chromium/chromium",
@@ -91,6 +92,7 @@
     "raysan5/raylib",
     "redis/redis",
     "RPCS3/rpcs3",
+    "swaywm/sway",
     "systemd/systemd",
     "taichi-dev/taichi",
     "taskflow/taskflow",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 414,
-    "concepts": 295,
-    "observations": 296,
-    "repos": 120,
-    "terms": 294
+    "components": 396,
+    "concepts": 289,
+    "observations": 290,
+    "repos": 117,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -48,7 +48,6 @@
     "ColinKennedy/mega.cmdparse",
     "DavidKinder/Windows-Glulxe",
     "devise-i18n/devise-i18n",
-    "drowzy/protobuf_generate",
     "dspinellis/bibtools",
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
@@ -69,7 +68,6 @@
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
     "gregorias/toggle.nvim",
-    "GunnarFarneback/LocalPackageServer.jl",
     "hedronvision/bazel-make-cc-https-easy",
     "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
@@ -122,7 +120,6 @@
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
     "tc39/proposal-smart-unit-preferences",
-    "terrierteam/pyterrier_doc2query",
     "travis-ci/travis-hub",
     "travis-ci/travis-listener",
     "travis-ci/travis-logs",

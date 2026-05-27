@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 126,
-    "observations": 127,
-    "repos": 24,
-    "terms": 126
+    "components": 120,
+    "concepts": 124,
+    "observations": 125,
+    "repos": 23,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
     "apache/casbin-actix-casbin-auth",
@@ -26,16 +25,16 @@
     "compozy/kb",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
+    "google-marketing-solutions/ariel",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
-    "mongodb/winkerberos",
+    "nvim-mini/mini.deps",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
     "openjdk/jdk21u-dev",
-    "processing/processing-website",
     "RiDDiX/home-assistant-addons",
-    "version-fox/vfox-plugins"
+    "vaporif/parry-guard"
   ]
 }

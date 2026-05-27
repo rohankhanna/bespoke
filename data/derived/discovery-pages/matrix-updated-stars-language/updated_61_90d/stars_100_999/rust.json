@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 149,
-    "observations": 152,
-    "repos": 37,
-    "terms": 148
+    "components": 222,
+    "concepts": 135,
+    "observations": 138,
+    "repos": 34,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -20,7 +20,6 @@
     "bet4it/udbserver",
     "blyxxyz/lexopt",
     "cedar-policy/cedar-examples",
-    "cowboy8625/rusty-rain",
     "dfrg/swash",
     "DoumanAsh/xxhash-rust",
     "dtolnay/readonly",
@@ -34,8 +33,6 @@
     "gfx-rs/rspirv",
     "IWANABETHATGUY/tower-lsp-boilerplate",
     "Kampfkarren/selene",
-    "KyleMayes/clang-rs",
-    "KyleMayes/clang-sys",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",

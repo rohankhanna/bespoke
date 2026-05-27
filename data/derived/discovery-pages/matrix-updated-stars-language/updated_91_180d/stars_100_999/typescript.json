@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1252,
-    "concepts": 195,
-    "observations": 195,
+    "components": 1268,
+    "concepts": 191,
+    "observations": 191,
     "repos": 45,
-    "terms": 194
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "addyosmani/chatty",
@@ -41,7 +41,6 @@
     "lobehub/lobe-cli-toolbox",
     "lostintangent/gistpad-mcp",
     "Lusito/webextension-polyfill-ts",
-    "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
     "microsoft/botbuilder-js",
     "microsoft/BotFramework-DirectLineJS",
@@ -58,6 +57,7 @@
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",
     "Wykks/ngx-mapbox-gl",
+    "yandeu/five-server",
     "zsviczian/excalibrain"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 41,
     "concepts": 40,
     "observations": 40,
-    "repos": 23,
+    "repos": 26,
     "terms": 45
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
     "conda-forge/conda-forge-feedstock-ops",
+    "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/LLM-Council-Decide",
@@ -33,6 +34,8 @@
     "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
+    "NightWatcher314/dockgecli",
+    "NightWatcher314/npmctl",
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue",
     "roampal-ai/roampal-labs",

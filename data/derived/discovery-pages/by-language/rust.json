@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11677,
-    "concepts": 7971,
-    "observations": 8033,
-    "repos": 1735,
-    "terms": 7961
+    "components": 11700,
+    "concepts": 7992,
+    "observations": 8054,
+    "repos": 1737,
+    "terms": 7984
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -1034,6 +1034,7 @@
     "libp2p/if-watch",
     "libp2p/rust-libp2p",
     "librespot-org/librespot",
+    "lifegpc/msg-tool",
     "lindera/lindera",
     "lindera/lindera-tantivy",
     "linebender/resvg",
@@ -1093,6 +1094,7 @@
     "matthme/hc-zome-mere-memory",
     "mattsse/chromiumoxide",
     "MaulingMonkey/cargo-local-install",
+    "mayocream/koharu",
     "mcgoo/vcpkg-rs",
     "mdn/rari",
     "mdrokz/rust-llama.cpp",

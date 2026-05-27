@@ -3,8 +3,8 @@
     "components": 705,
     "concepts": 1268,
     "observations": 1271,
-    "repos": 381,
-    "terms": 1248
+    "repos": 384,
+    "terms": 1249
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -47,6 +47,7 @@
     "apache/xerces-c",
     "api7/wasm-nginx-module",
     "apple/ccs-pykerberos",
+    "arcusmaximus/KirikiriTools",
     "ariya/FastLZ",
     "ARM-software/vulkan_best_practice_for_mobile_developers",
     "aseprite/skia",
@@ -107,6 +108,7 @@
     "delfrrr/delaunator-cpp",
     "dfguan/purge_dups",
     "digitalocean/prometheus-client-c",
+    "Dir-A/Dir-A_Essays_MD",
     "dlbeer/dhara",
     "dnanexus-rnd/GLnexus",
     "dorian3d/DBoW2",
@@ -181,6 +183,7 @@
     "incluit/OpenVino-For-SmartCity",
     "ingonyama-zk/icicle",
     "inikep/lizard",
+    "Inori/FuckGalEngine",
     "intel/compute-samples",
     "intel/intel-extension-for-tensorflow",
     "intel/neural-speed",

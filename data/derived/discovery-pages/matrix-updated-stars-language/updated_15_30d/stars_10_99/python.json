@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 265,
-    "observations": 265,
-    "repos": 66,
-    "terms": 259
+    "components": 368,
+    "concepts": 257,
+    "observations": 257,
+    "repos": 65,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -22,7 +22,6 @@
     "apify/actor-templates",
     "arcaputo3/mcp-server-whisper",
     "AstraZeneca/runnable",
-    "autodeployai/pypmml",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
@@ -71,12 +70,12 @@
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
-    "symgraph/BinAssistMCP",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",
     "Thinklab-SJTU/Bench2Drive-Speed",
     "TigreGotico/phoonnx",
+    "version-fox/vfox-plugins",
     "xhluca/bm25-benchmarks",
     "yulewang97/ERDiff",
     "zen-xu/pytest-modern"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 392,
-    "concepts": 772,
-    "observations": 773,
-    "repos": 160,
-    "terms": 760
+    "components": 397,
+    "concepts": 782,
+    "observations": 783,
+    "repos": 162,
+    "terms": 771
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -41,6 +41,7 @@
     "brycedrennan/imaginAIry",
     "buriy/python-readability",
     "ByteDance-Seed/SeedVR",
+    "bytetriper/RAE",
     "canopyai/Orpheus-TTS",
     "CatchTheTornado/text-extract-api",
     "chatopera/Synonyms",
@@ -87,13 +88,13 @@
     "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
+    "isl-org/Open3D-ML",
     "jazzband/django-configurations",
     "jessevig/bertviz",
     "junyanz/CatPapers",
     "KaiyangZhou/deep-person-reid",
     "KellerJordan/Muon",
     "kijai/ComfyUI-WanVideoWrapper",
-    "KlingAIResearch/ReCamMaster",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "LTH14/JiT",
@@ -144,6 +145,7 @@
     "python-rope/rope",
     "pytorch/extension-cpp",
     "pyusb/pyusb",
+    "qix-/better-exceptions",
     "QwenLM/Qwen-Image",
     "remsky/Kokoro-FastAPI",
     "RUC-NLPIR/WebThinker",

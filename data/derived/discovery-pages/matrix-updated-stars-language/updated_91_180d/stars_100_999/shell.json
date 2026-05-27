@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 29,
-    "terms": 132
+    "components": 55,
+    "concepts": 148,
+    "observations": 149,
+    "repos": 30,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
     "acomagu/fish-async-prompt",
     "agkozak/zcomet",
     "agrimsingh/ralph-wiggum-cursor",
+    "alirezarezvani/claude-code-tresor",
     "apollographql/supergraph-demo",
     "apollographql/supergraph-demo-fed2",
     "archlinux/archlinux-repro",

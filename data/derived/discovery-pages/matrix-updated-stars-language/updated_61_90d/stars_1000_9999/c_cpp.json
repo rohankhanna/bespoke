@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 256,
-    "observations": 257,
-    "repos": 47,
-    "terms": 250
+    "components": 180,
+    "concepts": 266,
+    "observations": 267,
+    "repos": 51,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
@@ -23,6 +23,7 @@
     "arrayfire/arrayfire",
     "ashvardanian/StringZilla",
     "bblanchon/ArduinoJson",
+    "bcrypt-ruby/bcrypt-ruby",
     "bugaevc/wl-clipboard",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
@@ -35,7 +36,6 @@
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "hku-mars/FAST-LIVO2",
-    "hpjansson/chafa",
     "icecc/icecream",
     "ioquake/ioq3",
     "leethomason/tinyxml2",
@@ -43,7 +43,9 @@
     "lieff/minimp3",
     "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
+    "madler/zlib",
     "microsoft/GSL",
+    "microsoft/snmalloc",
     "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
     "nodemcu/nodemcu-firmware",
@@ -56,6 +58,8 @@
     "stevengj/nlopt",
     "TechEmpower/FrameworkBenchmarks",
     "TheAssassin/AppImageLauncher",
+    "ThrowTheSwitch/Unity",
+    "tinyobjloader/tinyobjloader",
     "void-linux/xbps",
     "wang-xinyu/tensorrtx",
     "xlite-dev/lite.ai.toolkit",

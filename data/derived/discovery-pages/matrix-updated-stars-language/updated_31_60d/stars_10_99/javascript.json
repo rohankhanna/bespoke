@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1274,
-    "concepts": 327,
-    "observations": 327,
-    "repos": 87,
-    "terms": 327
+    "components": 1288,
+    "concepts": 332,
+    "observations": 332,
+    "repos": 88,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -85,6 +85,7 @@
     "peergos/web-ui",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
+    "rescript-lang/tree-sitter-rescript",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",

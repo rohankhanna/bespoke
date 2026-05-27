@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 506,
-    "observations": 506,
+    "components": 278,
+    "concepts": 530,
+    "observations": 530,
     "repos": 83,
-    "terms": 501
+    "terms": 527
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -23,7 +23,6 @@
     "bambinos/bambi",
     "belluzj/fantasque-sans",
     "black-forest-labs/flux2",
-    "bytetriper/RAE",
     "ChenmienTan/RL2",
     "cheshire-cat-ai/core",
     "daijro/browserforge",
@@ -31,6 +30,7 @@
     "dateutil/dateutil",
     "davidhalter/jedi",
     "DepthAnything/Depth-Anything-V2",
+    "docarray/docarray",
     "dolfies/discord.py-self",
     "dynaconf/dynaconf",
     "explosion/spacy-models",
@@ -43,9 +43,9 @@
     "heshengtao/comfyui_LLM_party",
     "HKUDS/VideoRAG",
     "hyperopt/hyperopt",
+    "inducer/pycuda",
     "Intellindust-AI-Lab/DEIM",
     "ionelmc/pytest-benchmark",
-    "isl-org/Open3D-ML",
     "jaredks/rumps",
     "jeffallan/claude-skills",
     "jiaaro/pydub",
@@ -74,7 +74,6 @@
     "pytest-dev/pytest-cov",
     "python-semantic-release/python-semantic-release",
     "pyupio/safety",
-    "qix-/better-exceptions",
     "randy3k/radian",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
@@ -85,6 +84,7 @@
     "sirfz/tesserocr",
     "snakers4/silero-vad",
     "TencentCloudADP/youtu-agent",
+    "tensorflow/datasets",
     "the-moonwitch/Cozette",
     "The-OpenROAD-Project/OpenLane",
     "themix-project/themix-gui",

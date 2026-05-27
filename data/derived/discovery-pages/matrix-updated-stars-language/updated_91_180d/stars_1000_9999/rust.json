@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 209,
-    "observations": 212,
-    "repos": 36,
-    "terms": 208
+    "components": 211,
+    "concepts": 211,
+    "observations": 214,
+    "repos": 37,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -49,6 +49,7 @@
     "tokio-rs/bytes",
     "tokio-rs/loom",
     "tower-rs/tower",
-    "vi/websocat"
+    "vi/websocat",
+    "zkcrypto/bellman"
   ]
 }

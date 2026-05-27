@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 30,
-    "terms": 73
+    "components": 99,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 32,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "al1-nasir/Research_council",
     "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-ontopo",
+    "astroyat/lerobot",
     "babakatwork/loopy_agent",
     "BioContainers/singularity-build-bot",
     "Boulaouaney/timmx",
@@ -36,6 +37,7 @@
     "lace/entente",
     "lace/hobart",
     "ldayton/parable",
+    "ldayton/Tongues",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "Mercury13/unicodia-sesh",
     "openelections/openelections-data-sd",

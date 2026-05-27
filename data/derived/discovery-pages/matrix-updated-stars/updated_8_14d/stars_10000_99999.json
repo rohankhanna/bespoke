@@ -1,36 +1,34 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 243,
-    "observations": 244,
-    "repos": 19,
-    "terms": 240
+    "components": 375,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 17,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "apache/casbin",
-    "atuinsh/atuin",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
-    "clauderic/dnd-kit",
     "dense-analysis/ale",
     "fuma-nama/fumadocs",
+    "googleapis/google-api-nodejs-client",
     "JetBrains/compose-multiplatform",
-    "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "lucide-icons/lucide",
-    "modelcontextprotocol/typescript-sdk",
+    "meta-llama/llama-cookbook",
     "neovim/nvim-lspconfig",
     "nushell/nushell",
     "nvm-sh/nvm",
     "obsproject/obs-studio",
     "pyg-team/pytorch_geometric",
-    "Redocly/redoc",
-    "RooCodeInc/Roo-Code"
+    "rust-lang/mdBook",
+    "SubtitleEdit/subtitleedit"
   ]
 }

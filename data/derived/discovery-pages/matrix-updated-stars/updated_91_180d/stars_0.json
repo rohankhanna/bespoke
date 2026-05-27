@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 264,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 79,
-    "terms": 103
+    "concepts": 105,
+    "observations": 105,
+    "repos": 81,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -25,6 +25,7 @@
     "artsy/react-native-launch-arguments",
     "asm89/prettytable-rs",
     "babashka/homebrew-brew",
+    "Bearer/homebrew-tap",
     "bgw/bincode",
     "CADindustries/container",
     "charlesnicholson/docker-images",
@@ -64,6 +65,7 @@
     "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",
     "grafana/cadvisor",
+    "guaguastandup/guaguastandup",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",
     "illusionfield/fourseven-scss",

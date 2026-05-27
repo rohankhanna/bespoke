@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 21,
-    "observations": 21,
+    "components": 119,
+    "concepts": 27,
+    "observations": 27,
     "repos": 4,
-    "terms": 21
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "can1357/oh-my-pi",
     "electron/rebuild",
-    "FxEmbed/FxEmbed",
-    "Koenkk/zigbee-herdsman-converters"
+    "Koenkk/zigbee-herdsman-converters",
+    "unplugin/unplugin-vue-components",
+    "Urigo/graphql-cli"
   ]
 }

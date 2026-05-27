@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · Go
 
-Generated at: `2026-05-24T09:49:57.442696+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ollama/ollama](https://github.com/ollama/ollama) | 172157 | 2026-05-22T16:47:04Z | Go | Infrastructure/tooling | 18 | 15 | 16 | 16 |
+| [ollama/ollama](https://github.com/ollama/ollama) | 172356 | 2026-05-25T15:35:15Z | Go | Infrastructure/tooling | 18 | 15 | 16 | 16 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ollama/ollama](https://github.com/ollama/ollama) | 172157 | 2026-05-22T16:47:04Z | Go | Infrastructure/tooling | 18 | 15 | 16 | 16 |
+| [ollama/ollama](https://github.com/ollama/ollama) | 172356 | 2026-05-25T15:35:15Z | Go | Infrastructure/tooling | 18 | 15 | 16 | 16 |

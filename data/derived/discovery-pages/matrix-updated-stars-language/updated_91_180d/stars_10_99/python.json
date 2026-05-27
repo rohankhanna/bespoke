@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 237,
-    "observations": 238,
-    "repos": 99,
-    "terms": 245
+    "components": 213,
+    "concepts": 242,
+    "observations": 243,
+    "repos": 102,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
     "adhikasp/mcp-youtube",
+    "agents-x-project/PyVision-RL",
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
@@ -31,6 +32,7 @@
     "Azure/aaz-dev-tools",
     "bazelbuild/java_tools",
     "bentoml/BentoLMDeploy",
+    "bigai-nlco/RuleReasoner",
     "biocypher/project-template",
     "BoosterRobotics/booster_deploy",
     "bootmortis/ito-gov-mirror",
@@ -40,6 +42,7 @@
     "ChenMnZ/INT_vs_FP",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
     "CMBAgents/cmbagent",
+    "Computer-use-agents/dart-gui",
     "cuiziteng/Luminance-GS",
     "danielward27/paramax",
     "EasternJournalist/pipeline",

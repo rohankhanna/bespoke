@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2245,
-    "concepts": 3033,
-    "observations": 3040,
-    "repos": 962,
-    "terms": 3017
+    "components": 2247,
+    "concepts": 3034,
+    "observations": 3041,
+    "repos": 963,
+    "terms": 3018
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -487,6 +487,7 @@
     "joonro/ConEmu-Color-Themes",
     "jordipons/musicnn",
     "joshuaulrich/quantmod",
+    "joshwlewis/unitwise",
     "jphall663/GWU_data_mining",
     "JTAmos/Indicators.jl",
     "JTAmos/Temporal.jl",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 99,
-    "observations": 101,
-    "repos": 12,
-    "terms": 97
+    "components": 106,
+    "concepts": 91,
+    "observations": 93,
+    "repos": 11,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "all-contributors/allcontributors.org",
-    "andymass/vim-matchup",
     "babashka/babashka",
     "babashka/sci",
-    "dotnet/reactive",
     "dotnet/Silk.NET",
     "googleapis/google-auth-library-php",
+    "licensee/licensed",
     "microsoft/PhiCookBook",
     "nvim-tree/nvim-web-devicons",
+    "openai/openai-dotnet",
+    "radian-software/straight.el",
     "seancorfield/honeysql",
-    "standardrb/standard",
     "tModLoader/tModLoader"
   ]
 }

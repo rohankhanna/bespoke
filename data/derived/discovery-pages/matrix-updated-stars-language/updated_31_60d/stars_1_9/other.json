@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 172,
-    "observations": 172,
-    "repos": 79,
-    "terms": 172
+    "components": 323,
+    "concepts": 177,
+    "observations": 177,
+    "repos": 81,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
     "actboy168/ltest",
@@ -77,9 +78,10 @@
     "microsoft/LinuxTracepoints-Net",
     "mitchuski/agentprivacy-docs",
     "mpizenberg/elm-test-runner",
-    "objectbox/objectbox-swift-spm",
+    "NightWatcher314/homebrew-formula",
     "php-toolkit/stdlib",
     "raku-community-modules/Terminal-WCWidth",
+    "rmsrosa/rmsrosa.github.io",
     "ROCm/hipBLAS-common",
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 130,
-    "concepts": 174,
-    "observations": 174,
-    "repos": 13,
-    "terms": 174
+    "concepts": 156,
+    "observations": 156,
+    "repos": 11,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
-    "Dao-AILab/flash-attention",
-    "huggingface/pytorch-image-models",
-    "huggingface/sentence-transformers",
-    "modelscope/ms-swift",
+    "deepspeedai/DeepSpeed",
+    "Lightning-AI/pytorch-lightning",
     "oobabooga/textgen",
+    "PDFMathTranslate/PDFMathTranslate",
     "psf/black",
     "pydantic/pydantic",
     "python-poetry/poetry",
     "qubvel-org/segmentation_models.pytorch",
-    "run-llama/llama_index",
     "ungoogled-software/ungoogled-chromium"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 307,
-    "observations": 308,
-    "repos": 95,
-    "terms": 303
+    "components": 402,
+    "concepts": 318,
+    "observations": 319,
+    "repos": 97,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -32,6 +32,7 @@
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
     "benomahony/oil-git.nvim",
+    "BirolLab/LINKS",
     "blaine/fantastty",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
@@ -84,6 +85,7 @@
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
+    "notomo/vusted",
     "Nsidorenco/neotest-vstest",
     "oap-project/oap-mllib",
     "ocurrent/opam-health-check",

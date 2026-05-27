@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 39,
-    "observations": 40,
-    "repos": 4,
-    "terms": 39
+    "components": 14,
+    "concepts": 18,
+    "observations": 19,
+    "repos": 2,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "gastownhall/beads",
     "git-lfs/git-lfs",
-    "gitleaks/gitleaks",
-    "redis/go-redis"
+    "gitleaks/gitleaks"
   ]
 }

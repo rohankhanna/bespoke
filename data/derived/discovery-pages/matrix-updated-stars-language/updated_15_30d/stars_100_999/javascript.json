@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1226,
-    "concepts": 260,
-    "observations": 262,
-    "repos": 52,
-    "terms": 256
+    "components": 1203,
+    "concepts": 245,
+    "observations": 247,
+    "repos": 49,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
@@ -21,9 +21,9 @@
     "auth0/node-jws",
     "avoidwork/tiny-lru",
     "Brooooooklyn/snappy",
+    "Calcium-Ion/new-api-key-tool",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "csstools/cssdb",
     "dydxprotocol/v4-clients",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
@@ -31,8 +31,8 @@
     "facebook/Rapid",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "GDevelopApp/GDevelop-examples",
     "gitleaks/gitleaks-action",
+    "GoogleCloudPlatform/google-cloud-node-todos",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
@@ -40,8 +40,6 @@
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
     "lo-th/phy",
-    "mafintosh/streamx",
-    "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
     "mdn/fred",
     "mdn/mdn-http-observatory",
@@ -53,7 +51,6 @@
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
     "ruby/setup-ruby",
-    "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
     "stylelint/stylelint-config-recommended",

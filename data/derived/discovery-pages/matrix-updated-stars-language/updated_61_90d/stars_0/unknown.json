@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 50,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 11,
-    "terms": 22
+    "concepts": 31,
+    "observations": 31,
+    "repos": 16,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "cachix/crossterm",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/AI-Projects-Index",
+    "danielrosehill/Backup-Projects-Index",
+    "danielrosehill/Context-Projects-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/Hebrew-Tech-Vocab",
+    "danielrosehill/Home-Assistant-Index",
+    "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Networking-And-Infrastructure-Index",
+    "danielrosehill/Networking-Projects-Index",
     "DataDog/opa",
     "DiligentGraphics/json",
-    "guaguastandup/guaguastandup",
     "hermit-os/tokio"
   ]
 }

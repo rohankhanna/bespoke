@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 16,
-    "observations": 17,
+    "components": 9,
+    "concepts": 20,
+    "observations": 20,
     "repos": 1,
-    "terms": 16
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "f/prompts.chat"
+    "microsoft/PowerToys"
   ]
 }

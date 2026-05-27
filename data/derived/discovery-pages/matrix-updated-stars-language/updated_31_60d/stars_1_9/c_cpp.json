@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 22,
-    "terms": 103
+    "components": 194,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 23,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
@@ -35,6 +35,7 @@
     "ROCm/rocJPEG",
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
-    "stdlib-js/ndarray-ctor"
+    "stdlib-js/ndarray-ctor",
+    "yoshoku/numo-linalg-alt"
   ]
 }

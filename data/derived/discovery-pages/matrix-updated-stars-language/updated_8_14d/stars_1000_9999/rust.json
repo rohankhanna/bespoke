@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 3,
-    "terms": 26
+    "components": 14,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 1,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
-    "Aleph-Alpha/ts-rs",
-    "apache/casbin-rs",
-    "nix-rust/nix"
+    "apache/casbin-rs"
   ]
 }

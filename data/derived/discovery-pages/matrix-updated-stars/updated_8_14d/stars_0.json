@@ -1,19 +1,19 @@
 {
   "counts": {
     "components": 21,
-    "concepts": 3,
-    "observations": 3,
+    "concepts": 1,
+    "observations": 1,
     "repos": 2,
-    "terms": 3
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "drmingdrmer/databend-meta",
-    "starfishmod/bonjour-service"
+    "locize/locize-i18next-vue-example"
   ]
 }

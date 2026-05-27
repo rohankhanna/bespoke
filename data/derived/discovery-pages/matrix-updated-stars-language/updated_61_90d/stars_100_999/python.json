@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 319,
-    "concepts": 495,
-    "observations": 496,
-    "repos": 119,
-    "terms": 491
+    "components": 315,
+    "concepts": 490,
+    "observations": 491,
+    "repos": 116,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -28,7 +28,6 @@
     "amaranth-lang/amaranth-boards",
     "amaranth-lang/amaranth-soc",
     "angr/angrop",
-    "araffin/sbx",
     "astra-vision/MonoScene",
     "Blosc/python-blosc",
     "brentyi/jaxls",
@@ -55,7 +54,6 @@
     "gmberton/deep-visual-geo-localization-benchmark",
     "gmberton/VPR-datasets-downloader",
     "google-deepmind/multi_object_datasets",
-    "google/adk-python-community",
     "GuiWonder/Shanggu",
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
@@ -90,7 +88,6 @@
     "NiltonVolpato/python-progressbar",
     "NM512/dreamerv3-torch",
     "NVlabs/GatedDeltaNet",
-    "NVlabs/OmniVinci",
     "objectbox/objectbox-python",
     "open-tinker/OpenTinker",
     "OpenDriveLab/DriveAGI",
@@ -111,6 +108,7 @@
     "shibing624/similarities",
     "simonflueckiger/tesserocr-windows_build",
     "sony/ctm",
+    "Stanford-TML/robot_keyframe_kit",
     "strands-agents/mcp-server",
     "svg-project/Sparse-VideoGen",
     "TencentCloudADP/youtu-tip",
@@ -131,7 +129,6 @@
     "yaroslavyaroslav/OpenAI-sublime-text",
     "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
-    "zhijian-liu/torchprofile",
-    "zhixuan-lin/forgetting-transformer"
+    "zhijian-liu/torchprofile"
   ]
 }

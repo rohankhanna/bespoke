@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 732,
-    "concepts": 541,
-    "observations": 543,
+    "components": 719,
+    "concepts": 547,
+    "observations": 549,
     "repos": 144,
-    "terms": 559
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "Accenture/Cymple",
@@ -40,6 +40,7 @@
     "Ascend/TransferQueue",
     "AstarVienna/ScopeSim",
     "atlanhq/application-sdk",
+    "autodeployai/pypmml",
     "autonomousvision/plant2",
     "autowarefoundation/autoware-github-actions",
     "aws-controllers-k8s/test-infra",
@@ -75,8 +76,6 @@
     "enjoy-digital/litex-acorn-baseboard",
     "enzet/Roentgen",
     "ethstaker/ethstaker-deposit-cli",
-    "explosion/spacy-alignments",
-    "explosion/weasel",
     "facebookresearch/mosaic",
     "GaloisInc/BLST-Verification",
     "googleapis/python-pubsublite",
@@ -153,6 +152,7 @@
     "sublimelsp/LSP-marksman",
     "sublimelsp/LSP-ruff",
     "svaningelgem/logprise",
+    "symgraph/BinAssistMCP",
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
     "w1ndys/ex-cure-skill",

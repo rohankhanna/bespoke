@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 571,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 24,
-    "terms": 135
+    "components": 670,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 27,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "anandthakker/doiuse",
@@ -22,7 +22,9 @@
     "commonmark/commonmark.js",
     "crossbario/autobahn-js",
     "csstree/csstree",
+    "danmactough/node-feedparser",
     "engineer-man/piston",
+    "GoogleChrome/lighthouse-ci",
     "hughsk/flat",
     "kangax/html-minifier",
     "mapbox/delaunator",
@@ -34,6 +36,7 @@
     "pmndrs/drei",
     "projectfluent/fluent",
     "rollup/plugins",
+    "sindresorhus/globby",
     "styled-components/polished",
     "svg-sprite/svg-sprite",
     "treosh/lighthouse-ci-action",

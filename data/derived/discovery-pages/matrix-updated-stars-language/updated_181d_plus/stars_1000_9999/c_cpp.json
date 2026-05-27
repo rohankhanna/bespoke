@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 766,
-    "observations": 766,
-    "repos": 209,
-    "terms": 757
+    "components": 351,
+    "concepts": 770,
+    "observations": 770,
+    "repos": 211,
+    "terms": 761
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -129,6 +129,7 @@
     "lh3/bwa",
     "li-plus/chatglm.cpp",
     "libgit2/objective-git",
+    "libimobiledevice/libimobiledevice",
     "lucasb-eyer/pydensecrf",
     "LunarG/VulkanSamples",
     "lzfse/lzfse",
@@ -206,6 +207,7 @@
     "Tencent/TNN",
     "tensorflow/community",
     "Tessil/robin-map",
+    "thestk/rtmidi",
     "tinycthread/tinycthread",
     "TixiaoShan/LIO-SAM",
     "tomaz/appledoc",

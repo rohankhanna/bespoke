@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 4,
-    "terms": 27
+    "components": 66,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 5,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "ash-rs/ash",
-    "crate-ci/cargo-release",
+    "databendlabs/databend",
     "godot-rust/gdext",
+    "hermit-os/hermit-rs",
     "intentee/paddler"
   ]
 }

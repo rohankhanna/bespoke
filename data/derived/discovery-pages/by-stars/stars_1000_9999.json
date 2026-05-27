@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55447,
-    "concepts": 36020,
-    "observations": 36129,
-    "repos": 6088,
-    "terms": 35899
+    "components": 55518,
+    "concepts": 36085,
+    "observations": 36194,
+    "repos": 6095,
+    "terms": 35976
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1454,6 +1454,7 @@
     "DevExpress/testcafe",
     "devfake/flox",
     "devinus/poison",
+    "devlooped/moq",
     "devnen/Chatterbox-TTS-Server",
     "Devolutions/IronRDP",
     "dghubble/go-twitter",
@@ -1724,6 +1725,7 @@
     "envoyproxy/gateway",
     "envoyproxy/go-control-plane",
     "eosphoros-ai/DB-GPT-Hub",
+    "ephtracy/voxel-model",
     "EpicenterHQ/epicenter",
     "epwalsh/obsidian.nvim",
     "eradman/entr",
@@ -2521,6 +2523,7 @@
     "hexops-graveyard/dockerfile",
     "hey-api/openapi-ts",
     "heyhuynhgiabuu/proxypal",
+    "hgmzhn/manga-translator-ui",
     "hhatto/autopep8",
     "hholtmann/smcFanControl",
     "hickory-dns/hickory-dns",
@@ -3486,6 +3489,7 @@
     "mattpocock/ts-reset",
     "mattsse/chromiumoxide",
     "maxritter/pilot-shell",
+    "mayocream/koharu",
     "maypok86/otter",
     "mbailey/voicemode",
     "Mbed-TLS/mbedtls",
@@ -3774,6 +3778,7 @@
     "mojombo/chronic",
     "monaqa/dial.nvim",
     "mono/CppSharp",
+    "mono/SkiaSharp",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "moojink/openvla-oft",
     "mooman219/fontdue",
@@ -3787,6 +3792,7 @@
     "Morantron/tmux-fingers",
     "moretension/duti",
     "Morganamilo/paru",
+    "morkt/GARbro",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "mosaicml/streaming",
@@ -6074,6 +6080,7 @@
     "ZhengyiLuo/PHC",
     "zhihu/rucene",
     "zhiiwg/Awesome-Linux-Software-zh_CN",
+    "zhiyiYo/PyQt-Fluent-Widgets",
     "ZHKKKe/MODNet",
     "ZHO-ZHO-ZHO/ComfyUI-InstantID",
     "Zhongdao/Towards-Realtime-MOT",

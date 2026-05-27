@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 1,
-    "terms": 7
+    "components": 11,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 2,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "lumen-oss/luarocks-tag-release",
     "ocaml-tracing/ocaml-opentelemetry"
   ]
 }

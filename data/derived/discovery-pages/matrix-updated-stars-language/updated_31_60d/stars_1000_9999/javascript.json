@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3093,
-    "concepts": 671,
-    "observations": 671,
-    "repos": 103,
-    "terms": 668
+    "components": 3049,
+    "concepts": 668,
+    "observations": 668,
+    "repos": 101,
+    "terms": 665
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -34,7 +34,6 @@
     "codemirror/dev",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
-    "danmactough/node-feedparser",
     "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "DevExpress/testcafe",
@@ -50,9 +49,8 @@
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
     "gautamkrishnar/motrix-webextension",
-    "geotiffjs/geotiff.js",
     "google/closure-compiler",
-    "GoogleChrome/lighthouse-ci",
+    "google/docsy",
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
@@ -97,7 +95,6 @@
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
-    "sindresorhus/globby",
     "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
     "tc39/agendas",
@@ -112,6 +109,7 @@
     "webpack/css-loader",
     "webpack/postcss-loader",
     "webpack/sass-loader",
+    "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
     "yahoo/serialize-javascript",

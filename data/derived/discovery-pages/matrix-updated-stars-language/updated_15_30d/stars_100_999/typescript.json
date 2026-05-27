@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3570,
-    "concepts": 760,
-    "observations": 762,
-    "repos": 106,
-    "terms": 751
+    "components": 3633,
+    "concepts": 739,
+    "observations": 741,
+    "repos": 105,
+    "terms": 733
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -63,15 +63,14 @@
     "ipfs/js-ipfsd-ctl",
     "jbaubree/vite-plugin-sitemap",
     "jsonwebtoken/jsonwebtoken.github.io",
-    "julia-actions/setup-julia",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
     "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
     "luciopaiva/heapify",
+    "Luligu/matterbridge-shelly",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
@@ -79,6 +78,7 @@
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "nonara/ts-patch",
+    "nurikk/zigbee2mqtt-frontend",
     "nuxt/bridge",
     "oclif/core",
     "octokit/action.js",
@@ -97,7 +97,6 @@
     "rstackjs/storybook-rsbuild",
     "salesforcecli/cli",
     "sapphiredev/utilities",
-    "sergiodxa/remix-i18next",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
@@ -106,7 +105,6 @@
     "TanStack/devtools",
     "TanStack/pacer",
     "TanStack/store",
-    "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
     "un-ts/prettier",
@@ -119,6 +117,7 @@
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
     "wevm/abitype",
-    "xdebug/vscode-php-debug"
+    "xdebug/vscode-php-debug",
+    "Zoo-Code-Org/Zoo-Code"
   ]
 }

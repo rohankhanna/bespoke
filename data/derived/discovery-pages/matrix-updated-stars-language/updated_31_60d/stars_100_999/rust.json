@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1154,
-    "concepts": 814,
-    "observations": 823,
-    "repos": 160,
-    "terms": 817
+    "components": 1183,
+    "concepts": 836,
+    "observations": 845,
+    "repos": 165,
+    "terms": 839
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -32,6 +32,7 @@
     "apollographql/apollo-rs",
     "arkworks-rs/algebra",
     "arkworks-rs/crypto-primitives",
+    "arkworks-rs/poly-commit",
     "arrow-udf/arrow-udf",
     "athre0z/color-backtrace",
     "azdavis/millet",
@@ -41,6 +42,7 @@
     "cachix/secretspec",
     "cargo-lambda/cargo-lambda",
     "ChainSafe/forest",
+    "ClickHouse/clickhouse-rs",
     "cloudflare/boring",
     "cometbft/tendermint-rs",
     "Commit-Boost/commit-boost-client",
@@ -114,6 +116,7 @@
     "messense/jieba-rs",
     "microsoft/python-environment-tools",
     "mitsuhiko/similar-asserts",
+    "Mooncake-Labs/moonlink",
     "mozillazg/rust-pinyin",
     "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
@@ -125,6 +128,7 @@
     "Nugine/simd",
     "Nullus157/async-compression",
     "OptiVorbis/OptiVorbis",
+    "oschwald/maxminddb-rust",
     "paritytech/parity-scale-codec",
     "Plonky3/Plonky3",
     "posit-dev/air",
@@ -133,6 +137,7 @@
     "psmux/pstop",
     "public-awesome/cw-nfts",
     "purpleprotocol/mimalloc_rust",
+    "quickwit-oss/search-benchmark-game",
     "quickwit-oss/tantivy-cli",
     "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",

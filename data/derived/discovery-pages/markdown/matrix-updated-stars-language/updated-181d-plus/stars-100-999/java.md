@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-26T07:57:03.746408+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -61,7 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [artyushov/idea-jmh-plugin](https://github.com/artyushov/idea-jmh-plugin) | 461 | 2024-09-13T20:44:53Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [mikera/vectorz](https://github.com/mikera/vectorz) | 259 | 2024-08-26T21:35:30Z | Java | Library | 0 | 0 | 0 | 0 |
 | [timgifford/maven-buildtime-extension](https://github.com/timgifford/maven-buildtime-extension) | 134 | 2024-08-07T18:19:01Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [aidenlab/Juicebox](https://github.com/aidenlab/Juicebox) | 295 | 2024-08-06T15:21:20Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [aidenlab/Juicebox](https://github.com/aidenlab/Juicebox) | 296 | 2024-08-06T15:21:20Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [processing/processing-video](https://github.com/processing/processing-video) | 287 | 2024-07-16T09:10:09Z | Java | Library | 5 | 0 | 5 | 5 |
 | [nativelibs4java/BridJ](https://github.com/nativelibs4java/BridJ) | 308 | 2024-06-29T02:04:49Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [processing/processing-sound](https://github.com/processing/processing-sound) | 160 | 2024-06-22T08:15:06Z | Java | Infrastructure/tooling | 5 | 6 | 5 | 5 |
@@ -129,7 +129,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs) | 312 | 2023-12-19T14:18:15Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [GoSimpleLLC/nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) | 309 | 2025-09-05T02:24:23Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [nativelibs4java/BridJ](https://github.com/nativelibs4java/BridJ) | 308 | 2024-06-29T02:04:49Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [aidenlab/Juicebox](https://github.com/aidenlab/Juicebox) | 295 | 2024-08-06T15:21:20Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [aidenlab/Juicebox](https://github.com/aidenlab/Juicebox) | 296 | 2024-08-06T15:21:20Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [carrot2/elasticsearch-carrot2](https://github.com/carrot2/elasticsearch-carrot2) | 294 | 2023-01-02T11:22:19Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [gmethvin/directory-watcher](https://github.com/gmethvin/directory-watcher) | 288 | 2025-06-23T08:09:58Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [processing/processing-video](https://github.com/processing/processing-video) | 287 | 2024-07-16T09:10:09Z | Java | Library | 5 | 0 | 5 | 5 |

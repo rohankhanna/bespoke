@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 28520,
-    "concepts": 15279,
-    "observations": 15331,
-    "repos": 5521,
-    "terms": 15278
+    "components": 28533,
+    "concepts": 15305,
+    "observations": 15357,
+    "repos": 5527,
+    "terms": 15301
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -663,6 +663,8 @@
     "archinetai/a-unet",
     "archlizheng/frontend-slides-editable",
     "arcnmx/serde-value",
+    "arcusmaximus/CSystemTools",
+    "arcusmaximus/EthornellTools",
     "areweai/tsgram-mcp",
     "argmin-rs/modcholesky",
     "argoproj-labs/argocd-extension-installer",
@@ -758,6 +760,7 @@
     "atom/autocomplete-atom-api",
     "atom/autocomplete-css",
     "atom/language-sql",
+    "AtomCrafty/yukatool2",
     "AtomEcho/AtomBulb",
     "atomlinter/linter-markdown",
     "atroche/rust-headless-chrome",
@@ -3475,6 +3478,7 @@
     "libssh2/www",
     "libxsmm/libxsmm-dnn",
     "libxsmm/tpp-pytorch-extension",
+    "lifegpc/msg-tool",
     "lifeiteng/SoundStorm",
     "ligershark/WebOptimizer.Sass",
     "lightly-ai/awesome-self-supervised-learning",
@@ -3842,6 +3846,7 @@
     "monatis/german-tts",
     "mongodb-js/zstd",
     "mongodb/winkerberos",
+    "mono/skia",
     "monoio-rs/local-sync",
     "monoio-rs/monoio-codec",
     "monoio-rs/monoio-tls",
@@ -5168,7 +5173,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",
@@ -5526,6 +5531,7 @@
     "zone-eu/zmta-webadmin",
     "zoom/karpenter-oci",
     "zotero/make-it-red",
+    "ZQF-ReVN/RxMalie",
     "ztzhang/casualSAM",
     "zuplo/docs",
     "zzc-1998/Q-SiT",

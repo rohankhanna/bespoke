@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 320,
-    "concepts": 403,
-    "observations": 406,
-    "repos": 73,
-    "terms": 401
+    "components": 332,
+    "concepts": 427,
+    "observations": 430,
+    "repos": 77,
+    "terms": 429
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "activerecord-hackery/ransack",
+    "alexreisner/geocoder",
     "ardalis/ApiEndpoints",
     "athityakumar/colorls",
     "autofac/Autofac",
@@ -48,6 +49,7 @@
     "googleapis/elixir-google-api",
     "gpuweb/gpuweb",
     "grangier/python-goose",
+    "heartcombo/has_scope",
     "hrsh7th/nvim-cmp",
     "Intellindust-AI-Lab/DEIMv2",
     "javan/whenever",
@@ -74,12 +76,14 @@
     "puppetlabs/puppet",
     "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
+    "roboflow/notebooks",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "salesforce/BLIP",
+    "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
     "steipete/imsg",
-    "stevearc/aerial.nvim",
+    "steipete/peekaboo",
     "tensorflow/tpu",
     "timdorr/tesla-api",
     "varvet/pundit",

@@ -1,39 +1,38 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 22,
-    "terms": 89
+    "components": 275,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 21,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "amazon-ion/ion-cli",
     "cloudfoundry/bosh-google-cpi-release",
+    "cloudfoundry/credhub-cli",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
-    "google-marketing-solutions/ariel",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
+    "lifegpc/msg-tool",
     "mesh-iit/cad-libraries",
-    "nvim-mini/mini.deps",
-    "ogx-ai/ogx-client-typescript",
+    "nuxt-modules/emotion",
     "pivotal/credhub-release",
     "python-poetry/website",
     "skilld-dev/retriv",
     "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",
-    "vaporif/parry-guard",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

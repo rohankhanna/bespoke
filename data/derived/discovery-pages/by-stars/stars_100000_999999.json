@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1970,
-    "concepts": 561,
-    "observations": 564,
-    "repos": 60,
-    "terms": 595
+    "components": 1981,
+    "concepts": 581,
+    "observations": 584,
+    "repos": 61,
+    "terms": 616
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "996icu/996.ICU",
@@ -48,6 +48,7 @@
     "langflow-ai/langflow",
     "langgenius/dify",
     "microsoft/generative-ai-for-beginners",
+    "microsoft/PowerToys",
     "microsoft/terminal",
     "microsoft/typescript",
     "microsoft/vscode",

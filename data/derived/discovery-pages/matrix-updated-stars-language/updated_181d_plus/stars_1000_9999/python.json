@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 936,
-    "concepts": 3792,
-    "observations": 3794,
-    "repos": 964,
-    "terms": 3724
+    "concepts": 3796,
+    "observations": 3798,
+    "repos": 965,
+    "terms": 3729
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -468,6 +468,7 @@
     "kijai/ComfyUI-HunyuanVideoWrapper",
     "kimiyoung/transformer-xl",
     "kingoflolz/mesh-transformer-jax",
+    "KlingAIResearch/ReCamMaster",
     "KoboldAI/KoboldAI-Client",
     "kohya-ss/sd-webui-additional-networks",
     "KUR-creative/SickZil-Machine",

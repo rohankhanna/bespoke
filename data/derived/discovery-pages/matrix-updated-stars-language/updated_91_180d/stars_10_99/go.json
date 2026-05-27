@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 29,
-    "terms": 109
+    "components": 95,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 31,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "apache/incubator-seata-go-samples",
+    "apache/incubator-seata-k8s",
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
     "bombsimon/logrusr",
     "bored-engineer/github-conditional-http-transport",
     "caltechlibrary/datatools",
     "casparwylie/cascii-server",
+    "cloudfoundry/buildpackapplifecycle",
     "cloudwego/netpoll-benchmark",
     "doraemonkeys/paddleocr",
     "ebml-go/webm",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 370,
-    "concepts": 761,
-    "observations": 761,
-    "repos": 202,
-    "terms": 755
+    "components": 376,
+    "concepts": 770,
+    "observations": 770,
+    "repos": 204,
+    "terms": 765
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -35,6 +35,7 @@
     "amd/Quark",
     "AmenRa/retriv",
     "apache/rocketmq-client-python",
+    "araffin/sbx",
     "argosopentech/argos-train",
     "arsenetar/send2trash",
     "ashvardanian/less_slow.py",
@@ -79,7 +80,6 @@
     "enjoy-digital/litesata",
     "eps696/stylegan2ada",
     "Extraltodeus/Skimmed_CFG",
-    "f-dangel/backpack",
     "fabio-sim/LightGlue-ONNX",
     "feifeibear/long-context-attention",
     "FlagOpen/RoboOS",
@@ -90,11 +90,11 @@
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
     "google-deepmind/recurrentgemma",
+    "google/adk-python-community",
     "googlefonts/glyphsets",
     "gristlabs/asttokens",
     "Gumpest/SparseVLMs",
     "guoweiyu/NeuroVLA",
-    "hako-mikan/sd-webui-supermerger",
     "haoxiangsnr/spiking-fullsubnet",
     "hasscc/hass-edge-tts",
     "Helsinki-NLP/Opus-MT",
@@ -148,6 +148,7 @@
     "nixprime/cpsm",
     "nrl-ai/llama-assistant",
     "NVlabs/GTRS",
+    "NVlabs/OmniVinci",
     "NVlabs/PS3",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenBMB/VisRAG",
@@ -157,6 +158,7 @@
     "OpenSparseLLMs/MoM",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
+    "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
     "pinokiofactory/cogstudio",
     "PramaLLC/BEN2",
     "PrithivirajDamodaran/FlashRank",
@@ -206,7 +208,6 @@
     "wudongming97/TopoMLP",
     "xArm-Developer/xArm-Python-SDK",
     "xingchensong/S3Tokenizer",
-    "XPixelGroup/DepictQA",
     "yashsinghcodes/wik",
     "yeyupiaoling/AudioClassification-Pytorch",
     "yeyupiaoling/MASR",
@@ -214,6 +215,7 @@
     "yeyupiaoling/PPASR",
     "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
     "ZhangXJ199/TinyLLaVA-Video-R1",
+    "zhixuan-lin/forgetting-transformer",
     "zhiyuanyou/DeQA-Score",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
   ]

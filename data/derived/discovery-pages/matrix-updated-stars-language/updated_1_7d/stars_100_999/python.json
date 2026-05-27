@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 12,
-    "terms": 54
+    "components": 117,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 19,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "AMD-AGI/Nitro-1",
+    "aristoteleo/PantheonOS",
+    "clearml/clearml-agent",
     "Comfy-Org/comfy-cli",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
-    "googlefonts/roboto-3-classic",
     "hluaguo/learn-faster-kit",
+    "jupyter-server/jupyter_server",
+    "machinewrapped/llm-subtrans",
+    "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
+    "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
     "satan53x/SExtractor",
+    "SublimeText/AFileIcon",
     "TinyLLaVA/TinyLLaVA_Factory",
+    "tox-dev/filelock",
     "zh-plus/openlrc"
   ]
 }

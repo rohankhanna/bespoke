@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 179,
-    "observations": 180,
-    "repos": 17,
-    "terms": 173
+    "components": 128,
+    "concepts": 172,
+    "observations": 173,
+    "repos": 16,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "89luca89/distrobox",
     "a2aproject/A2A",
     "agarrharr/awesome-cli-apps",
+    "DaoCloud/public-image-mirror",
     "dockur/windows",
     "dokku/dokku",
-    "githubnext/monaspace",
     "google/oss-fuzz",
     "nodesource/distributions",
     "oh-my-fish/oh-my-fish",
     "pyenv/pyenv",
-    "sindresorhus/pure",
     "super-linter/super-linter",
     "termux/termux-packages",
     "tj/n",

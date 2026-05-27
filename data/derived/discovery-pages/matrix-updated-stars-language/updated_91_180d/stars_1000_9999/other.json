@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 471,
-    "concepts": 547,
-    "observations": 549,
+    "components": 476,
+    "concepts": 556,
+    "observations": 558,
     "repos": 107,
-    "terms": 550
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "Alexander-Miller/treemacs",
@@ -94,7 +94,6 @@
     "onsails/lspkind.nvim",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
-    "phar-io/manifest",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
     "rails/spring",
@@ -108,6 +107,7 @@
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
     "SpinalHDL/VexRiscv",
+    "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "symfony/cache-contracts",
     "thu-ml/SageAttention",

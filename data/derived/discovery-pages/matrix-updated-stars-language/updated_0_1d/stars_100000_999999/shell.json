@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 14,
+    "components": 16,
     "concepts": 17,
     "observations": 17,
     "repos": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-25T06:02:38.623495+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "ohmyzsh/ohmyzsh"
   ]

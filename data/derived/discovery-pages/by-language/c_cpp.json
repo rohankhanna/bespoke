@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9601,
-    "concepts": 11459,
-    "observations": 11487,
-    "repos": 2380,
-    "terms": 11363
+    "components": 9607,
+    "concepts": 11460,
+    "observations": 11488,
+    "repos": 2386,
+    "terms": 11367
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -196,6 +196,7 @@
     "arangrhie/merfin",
     "aras-p/ClangBuildAnalyzer",
     "aras-p/demo-pd-cranktheworld",
+    "arcusmaximus/KirikiriTools",
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
     "argotorg/solidity",
@@ -252,6 +253,7 @@
     "asu-trans-ai-lab/DTALite",
     "async-profiler/async-profiler",
     "athena-team/athena",
+    "AtomCrafty/UniversalInjectorFramework",
     "atomicobject/heatshrink",
     "atsushieno/aap-core",
     "atsushieno/aap-juce",
@@ -626,6 +628,7 @@
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
     "DiligentGraphics/imgui",
+    "Dir-A/Dir-A_Essays_MD",
     "DISTRHO/DPF",
     "Distributive-Network/PythonMonkey",
     "dlbeer/dhara",
@@ -1099,6 +1102,7 @@
     "ingonyama-zk/icicle-gnark",
     "inikep/lizard",
     "inikep/lzbench",
+    "Inori/FuckGalEngine",
     "intel/compute-runtime",
     "intel/compute-samples",
     "intel/gmmlib",
@@ -1611,6 +1615,7 @@
     "mongodb-js/kerberos",
     "mongodb/mongo",
     "mongodb/winkerberos",
+    "mono/skia",
     "Mooncake-Labs/duckdb_mooncake",
     "MooreThreads/MT-flashMLA",
     "moretension/duti",
@@ -2391,6 +2396,7 @@
     "ZipArchive/ZipArchive",
     "zlib-ng/minizip-ng",
     "zlib-ng/zlib-ng",
+    "ZQF-ReVN/RxMalie",
     "zzz3bbb3/YOLOX-deepstream"
   ]
 }

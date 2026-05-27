@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1745,
-    "concepts": 1701,
-    "observations": 1707,
-    "repos": 214,
-    "terms": 1703
+    "components": 1756,
+    "concepts": 1715,
+    "observations": 1721,
+    "repos": 216,
+    "terms": 1717
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -46,6 +46,7 @@
     "bazelbuild/bazelisk",
     "Bearer/bearer",
     "bensadeh/circumflex",
+    "bfenetworks/bfe",
     "bluesky-social/indigo",
     "bnb-chain/tss-lib",
     "boyter/scc",
@@ -72,6 +73,7 @@
     "cloudwego/netpoll",
     "cncf/toc",
     "connectrpc/connect-go",
+    "Consensys/gnark",
     "containerd/stargz-snapshotter",
     "containernetworking/plugins",
     "containers/buildah",

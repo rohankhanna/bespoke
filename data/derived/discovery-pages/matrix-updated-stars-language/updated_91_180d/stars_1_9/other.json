@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 50,
-    "terms": 80
+    "components": 174,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 52,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -25,6 +25,7 @@
     "arya-s/phantty",
     "baskeboler/clj-karaoke-lyrics",
     "Blosc/PyData-Global-2025-Tutorial",
+    "countries/countries-data-yaml",
     "elixir-makeup/makeup_erlang",
     "empriselab/kortex_description",
     "erwin-kok/multiformat",
@@ -41,6 +42,7 @@
     "joeldrapper/dispersion",
     "JuliaAI/LearnDataFrontEnds.jl",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
+    "JuliaBinaryWrappers/Zlib_jll.jl",
     "julianrubisch/pronto-standardrb",
     "Jumziey/neotest-nix-unit.nvim",
     "litex-hub/pythondata-cpu-vexriscv",

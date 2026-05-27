@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 47,
-    "observations": 48,
-    "repos": 12,
-    "terms": 48
+    "components": 28,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 11,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
-    "alirezarezvani/claude-code-tresor",
     "aws/aws-app-mesh-examples",
     "docker-library/hello-world",
     "flinedev/contextkit",

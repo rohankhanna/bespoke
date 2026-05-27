@@ -3,14 +3,14 @@
     "components": 2857,
     "concepts": 3575,
     "observations": 3583,
-    "repos": 646,
+    "repos": 647,
     "terms": 3554
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -117,6 +117,7 @@
     "awslabs/multi-model-server",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+    "Azure-Samples/azure-openai-starter",
     "Azure-Samples/azure-search-openai-demo-java",
     "Backblaze/JavaReedSolomon",
     "bazel-contrib/rules_jvm",

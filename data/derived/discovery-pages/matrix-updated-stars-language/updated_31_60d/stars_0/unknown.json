@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 57,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 96,
-    "terms": 88
+    "concepts": 70,
+    "observations": 70,
+    "repos": 90,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -55,14 +55,12 @@
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Project-Spec-Pattern",
-    "danielrosehill/AI-Projects-Index",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
-    "danielrosehill/Backup-Projects-Index",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Claude-AI-Engineering-Plugin",
@@ -76,17 +74,13 @@
     "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
-    "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
     "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/handy-wayland-autostart-fix",
-    "danielrosehill/Home-Assistant-Index",
     "danielrosehill/Israel-Preparedness-Index",
-    "danielrosehill/Jewish-Related-Index",
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/My-Benchmarks",
-    "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Open-Research-Workspaces-Index",
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",

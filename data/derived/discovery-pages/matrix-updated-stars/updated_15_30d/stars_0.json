@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 83,
-    "terms": 98
+    "components": 208,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 78,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -20,7 +20,6 @@
     "angular/angular-build-builds",
     "arnaud-lb/php-rdkafka-doc",
     "atsushieno/aap-lv2-string-machine",
-    "buty4649/mruby-yyjson",
     "clearml/clearml-agent-bootstrap",
     "csm-actions/demo-client",
     "danielrosehill/AI-Dev-Repo-Template-1",
@@ -31,7 +30,6 @@
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
-    "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
@@ -80,20 +78,17 @@
     "hyper-mcp-rs/defuddle-plugin",
     "ipfs-examples/github-mgmt",
     "JuliaBinaryWrappers/Expat_jll.jl",
-    "JuliaBinaryWrappers/GDAL_jll.jl",
     "kalavai-net/kalavai-templates",
-    "kyverno/.github",
     "lace/lacecore",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "Luligu/matterbridge-eve-door",
     "netdur/imaged-sdk-examples",
-    "NightWatcher314/dockgecli",
-    "NightWatcher314/npmctl",
     "qiayuanl/unitree_buildfarm",
     "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
+    "starfishmod/bonjour-service",
     "superfarther/K2V",
     "UnknownPlatypus/markup_fmt"
   ]

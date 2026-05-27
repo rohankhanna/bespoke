@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10490,
-    "concepts": 9028,
-    "observations": 9037,
-    "repos": 2341,
-    "terms": 8899
+    "components": 10498,
+    "concepts": 9041,
+    "observations": 9050,
+    "repos": 2346,
+    "terms": 8914
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1166,6 +1166,7 @@
     "Kitura/Kitura",
     "kiwi-bdd/Kiwi",
     "kkos/oniguruma",
+    "KlingAIResearch/ReCamMaster",
     "kmammou/v-hacd",
     "knightcrawler25/GLSL-PathTracer",
     "knowm/XChart",
@@ -1218,6 +1219,7 @@
     "liamcain/obsidian-periodic-notes",
     "LianjiaTech/BELLE",
     "libgit2/objective-git",
+    "libimobiledevice/libimobiledevice",
     "lifeiteng/vall-e",
     "Lifelong-Robot-Learning/LIBERO",
     "Lightning-AI/deep-learning-project-template",
@@ -1439,6 +1441,7 @@
     "MooreThreads/Moore-AnimateAnyone",
     "mooz/percol",
     "moretension/duti",
+    "morkt/GARbro",
     "moses-smt/mosesdecoder",
     "mosn/holmes",
     "mosn/mosn",
@@ -1688,6 +1691,7 @@
     "pfalcon/esp-open-sdk",
     "pgjones/hypercorn",
     "Phantom-video/Phantom",
+    "phar-io/manifest",
     "phar-io/version",
     "pharmapsychotic/clip-interrogator",
     "philferriere/cocoapi",
@@ -2068,6 +2072,7 @@
     "Theano/Theano",
     "theHamsta/nvim-dap-virtual-text",
     "ThePrimeagen/.dotfiles",
+    "thestk/rtmidi",
     "TheZoraiz/ascii-image-converter",
     "thiagopradi/octopus",
     "thoughtbot/appraisal",

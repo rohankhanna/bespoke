@@ -3,7 +3,7 @@
     "components": 112,
     "concepts": 151,
     "observations": 151,
-    "repos": 28,
+    "repos": 27,
     "terms": 150
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
@@ -32,7 +32,6 @@
     "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",
-    "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
     "rocq-prover/docker-opam-action",

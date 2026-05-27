@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-26T07:57:03.746408+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 26
-- components: 34
-- concepts: 26
-- observations: 26
+- repos: 2
+- terms: 31
+- components: 25
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25635 | 2026-05-25T11:20:13Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50112 | 2026-05-25T10:06:49Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14698 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24520 | 2026-05-26T20:14:31Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35361 | 2026-05-26T17:27:37Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50112 | 2026-05-25T10:06:49Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25635 | 2026-05-25T11:20:13Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14698 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35361 | 2026-05-26T17:27:37Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24520 | 2026-05-26T20:14:31Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |

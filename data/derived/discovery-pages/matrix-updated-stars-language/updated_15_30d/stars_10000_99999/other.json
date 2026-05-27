@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 957,
-    "concepts": 748,
-    "observations": 750,
-    "repos": 71,
-    "terms": 740
+    "components": 946,
+    "concepts": 727,
+    "observations": 729,
+    "repos": 69,
+    "terms": 721
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -52,7 +52,6 @@
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
     "MagicStack/uvloop",
-    "mason-org/mason.nvim",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
     "microsoft/ai-agents-for-beginners",
@@ -80,7 +79,6 @@
     "swagger-api/swagger-codegen",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
-    "syl20bnr/spacemacs",
     "symfony/symfony",
     "tiann/KernelSU",
     "vim-airline/vim-airline",

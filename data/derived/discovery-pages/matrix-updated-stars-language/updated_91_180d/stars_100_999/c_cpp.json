@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 304,
-    "observations": 305,
-    "repos": 76,
-    "terms": 299
+    "components": 222,
+    "concepts": 312,
+    "observations": 313,
+    "repos": 79,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -21,6 +21,7 @@
     "Ar-Ray-code/YOLOX-ROS",
     "arminbiere/aiger",
     "ashawkey/cubvh",
+    "AtomCrafty/UniversalInjectorFramework",
     "avaneev/lzav",
     "avaneev/prvhash",
     "aviggiano/redis-roaring",
@@ -53,6 +54,7 @@
     "jimporter/mettle",
     "JokerJohn/LIO_SAM_6AXIS",
     "jsk-ros-pkg/jsk_visualization",
+    "KamilSJaron/smudgeplot",
     "KhronosGroup/OpenCL-SDK",
     "koide3/small_gicp",
     "Kong/ngx_wasm_module",
@@ -85,6 +87,7 @@
     "sasha0552/nvidia-pstated",
     "stardot/b-em",
     "stefantalpalaru/w_scan2",
+    "swaywm/swaybg",
     "swigger/wechat-ocr",
     "TkTech/can_ada",
     "tomfunkhouser/gaps",

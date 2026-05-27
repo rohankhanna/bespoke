@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 795,
-    "concepts": 733,
-    "observations": 734,
-    "repos": 194,
-    "terms": 728
+    "components": 804,
+    "concepts": 744,
+    "observations": 745,
+    "repos": 196,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -23,6 +23,7 @@
     "ahausladen/PdfiumLib",
     "allenai/ScienceWorld",
     "analogdevicesinc/ai8x-training",
+    "AndrewRadev/switch.vim",
     "ankane/groupdate.sql",
     "ankane/kms_encrypted",
     "antosha417/nvim-lsp-file-operations",
@@ -52,6 +53,7 @@
     "cleanlab/examples",
     "clj-commons/etaoin",
     "clj-easy/graalvm-clojure",
+    "clojure/core.memoize",
     "clojure/core.unify",
     "clojure/data.fressian",
     "clojure/data.json",
@@ -72,6 +74,7 @@
     "cross-rs/cross-toolchains",
     "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
+    "Cysharp/ValueTaskSupplement",
     "declare-lab/TangoFlux",
     "Deep-Symmetry/afterglow",
     "detekt/detekt-intellij-plugin",
@@ -117,7 +120,6 @@
     "jayli/vim-easycomplete",
     "JetBrains/intellij-ui-test-robot",
     "jgpc42/jmh-clojure",
-    "joshwlewis/unitwise",
     "jtdaugherty/vty",
     "juji-io/editscript",
     "JuliaDebug/SnoopCompile.jl",

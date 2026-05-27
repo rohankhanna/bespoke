@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 19
+    "components": 11,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 6,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
+    "githubnext/monaspace",
     "lxgw/LxgwWenKai",
     "rbenv/rbenv",
     "romkatv/powerlevel10k",
+    "sindresorhus/pure",
     "sorin-ionescu/prezto"
   ]
 }

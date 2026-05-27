@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1403,
-    "concepts": 269,
-    "observations": 269,
-    "repos": 43,
-    "terms": 297
+    "components": 1346,
+    "concepts": 259,
+    "observations": 259,
+    "repos": 41,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
-    "antfu-collective/vitesse",
     "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
     "antfu/vitesse-nuxt",
@@ -37,7 +36,6 @@
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "josStorer/RWKV-Runner",
-    "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",
     "markdoc/markdoc",
     "microsoft/genaiscript",

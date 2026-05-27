@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 601,
-    "concepts": 345,
-    "observations": 347,
-    "repos": 90,
-    "terms": 359
+    "components": 615,
+    "concepts": 357,
+    "observations": 359,
+    "repos": 92,
+    "terms": 371
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -27,6 +27,7 @@
     "antonWetzel/prettypst",
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
+    "arkworks-rs/std",
     "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
@@ -95,6 +96,7 @@
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
     "synadia-io/orbit.rs",
+    "Systemcluster/kitoken",
     "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",

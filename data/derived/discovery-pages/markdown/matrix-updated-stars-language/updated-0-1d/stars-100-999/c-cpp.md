@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-26T07:57:03.746408+00:00`
+Generated at: `2026-05-27T06:00:44.104521+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 20
-- components: 5
-- concepts: 20
-- observations: 20
+- terms: 16
+- components: 0
+- concepts: 16
+- observations: 16
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 209 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T16:35:53Z | C/C++ | Library | 8 | 0 | 8 | 8 |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T15:24:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-26T19:33:06Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 150 | 2026-05-26T19:09:17Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 976 | 2026-05-26T13:17:40Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 975 | 2026-05-25T16:35:53Z | C/C++ | Library | 8 | 0 | 8 | 8 |
-| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-25T15:24:43Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
-| [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 209 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka) | 976 | 2026-05-26T13:17:40Z | C/C++ | Library | 8 | 0 | 8 | 8 |
+| [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-26T19:33:06Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
+| [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 150 | 2026-05-26T19:09:17Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |

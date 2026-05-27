@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11923,
-    "concepts": 5304,
-    "observations": 5314,
-    "repos": 2381,
-    "terms": 5323
+    "components": 11924,
+    "concepts": 5305,
+    "observations": 5315,
+    "repos": 2383,
+    "terms": 5324
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -386,6 +386,7 @@
     "azdavis/sml-libs-scraper",
     "azdavis/ungrammar-tools",
     "azizzaeny/boot-atomizer",
+    "Azure-Samples/azure-openai-starter",
     "Azure-Samples/langchain-agent-python",
     "Azure-Samples/openai-chat-frontend-vanillajs",
     "Azure/actions-toolkit",
@@ -665,6 +666,7 @@
     "conda-forge/pgvector-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/pyfive-feedstock",
+    "conda-forge/python-build-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/rerun-sdk-feedstock",
     "conda-forge/scikit-build-core-feedstock",
@@ -2252,7 +2254,7 @@
     "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "triton-inference-server/TensorRT-LLM",
-    "TritonDataCenter/node-cmdutil",
+    "tritondatacenter/node-cmdutil",
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "turbofish-org/abci2",

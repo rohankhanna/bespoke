@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2052,
-    "concepts": 1918,
-    "observations": 1924,
-    "repos": 835,
-    "terms": 1911
+    "components": 2070,
+    "concepts": 1941,
+    "observations": 1947,
+    "repos": 841,
+    "terms": 1929
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -109,6 +109,8 @@
     "aquasecurity/vim-tfsec",
     "aragon/staking",
     "archguard/codedb",
+    "arcusmaximus/CSystemTools",
+    "arcusmaximus/EthornellTools",
     "ArimaGenomics/mapping_pipeline",
     "aristocratos/LHM-CppExport",
     "Arlorean/Voxels",
@@ -129,6 +131,7 @@
     "atom/autocomplete-atom-api",
     "atom/autocomplete-css",
     "atom/language-sql",
+    "AtomCrafty/yukatool2",
     "atsushieno/fluidsynth-midi-service-j",
     "atsushieno/kmmk",
     "atteneder/DracoUnityDemo",
@@ -304,6 +307,7 @@
     "dranov/raft-tla",
     "drmargarido/linters",
     "drmargarido/TodoTreeView",
+    "drowzy/protobuf_generate",
     "dunglas/frankenphp-drupal",
     "dwyl/dart_cid",
     "dwyl/dwyl-site",
@@ -402,6 +406,7 @@
     "gtolias/asmk",
     "gumob/PunycodeSwift",
     "gumob/TLDExtractSwift",
+    "GunnarFarneback/LocalPackageServer.jl",
     "guyuchao/PyramidCSA",
     "habamax/vim-nod",
     "habamax/vim-select",
@@ -775,6 +780,7 @@
     "tensorchord/envdlib",
     "terasakisatoshi/MathSeminar.jl",
     "terrierteam/pyterrier_colbert",
+    "terrierteam/pyterrier_doc2query",
     "the-benchmarker/graphql-benchmarks",
     "thedatumorg/VUS",
     "thejoshwolfe/hexdump-zip",

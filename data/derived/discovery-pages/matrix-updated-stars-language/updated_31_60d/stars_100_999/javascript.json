@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2777,
-    "concepts": 664,
-    "observations": 673,
-    "repos": 139,
-    "terms": 694
+    "components": 2786,
+    "concepts": 676,
+    "observations": 685,
+    "repos": 141,
+    "terms": 706
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -47,6 +47,7 @@
     "comme2e/comm",
     "conda-forge/conda-forge.github.io",
     "conventional-changelog/conventional-changelog-config-spec",
+    "csstools/cssdb",
     "CVEProject/cve-services",
     "CyberAP/nanoid-dictionary",
     "d3/d3-format",
@@ -73,7 +74,7 @@
     "florajs/sql-parser",
     "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
-    "GoogleChromeLabs/wasm-feature-detect",
+    "GDevelopApp/GDevelop-examples",
     "gopasspw/gopassbridge",
     "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
@@ -108,6 +109,7 @@
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
+    "matzkoh/prettier-plugin-packagejson",
     "mourner/kdbush",
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
@@ -129,6 +131,7 @@
     "projectfluent/fluent.js",
     "rooklift/ogatak",
     "rtfeldman/node-test-runner",
+    "rubyjs/mini_racer",
     "semantic-release/changelog",
     "semantic-release/commit-analyzer",
     "semantic-release/git",
@@ -149,7 +152,6 @@
     "toon-format/spec",
     "unicode-org/message-format-wg",
     "w3c/trusted-types",
-    "w3c/webidl2.js",
     "webpack/css-minimizer-webpack-plugin",
     "will62794/spectacle",
     "zone-eu/zone-mta"

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17925,
-    "concepts": 27047,
-    "observations": 27098,
-    "repos": 6756,
-    "terms": 26830
+    "components": 17962,
+    "concepts": 27084,
+    "observations": 27135,
+    "repos": 6762,
+    "terms": 26880
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "python"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -2873,6 +2873,7 @@
     "heyoeyo/muggled_sam",
     "heyoeyo/toadui",
     "heyudage/VoiceTyping",
+    "hgmzhn/manga-translator-ui",
     "hhatto/autopep8",
     "hhj1897/face_alignment",
     "hhj1897/face_detection",
@@ -5067,6 +5068,7 @@
     "philipy1219/ComfyUI-TaylorSeer",
     "PhoenixZ810/RISEBench",
     "Picsart-AI-Research/Text2Video-Zero",
+    "PiDanShouRouZhouXD/Sakura_Launcher_GUI",
     "pimutils/todoman",
     "PingoLH/FCHarDNet",
     "pinnymz/python-zmanim",
@@ -5251,6 +5253,7 @@
     "pypa/pip",
     "pypa/pipenv",
     "pypa/pipx",
+    "pypa/pyproject-hooks",
     "pypa/sampleproject",
     "pypa/setuptools",
     "pypa/setuptools-scm",
@@ -5672,6 +5675,7 @@
     "ShadeCloak/ADORA",
     "shadmau/autocouncil",
     "shadow2496/VITON-HD",
+    "ShadowLoveElysia/AiNiee-Next",
     "shapely/shapely",
     "shareai-lab/claw0",
     "Shark-NLP/OpenICL",
@@ -6091,6 +6095,7 @@
     "thunlp/BlockFFN",
     "thunlp/ChatEval",
     "thunlp/InfLLM",
+    "thunlp/OPD",
     "thunlp/OpenDelta",
     "thunlp/OpenPrompt",
     "thunlp/UltraChat",
@@ -6723,6 +6728,7 @@
     "zhijian-liu/torchprofile",
     "zhiqwang/yolort",
     "zhixuan-lin/forgetting-transformer",
+    "zhiyiYo/PyQt-Fluent-Widgets",
     "zhiyuanyou/DeQA-Score",
     "ZHKKKe/MODNet",
     "ZHO-ZHO-ZHO/ComfyUI-InstantID",

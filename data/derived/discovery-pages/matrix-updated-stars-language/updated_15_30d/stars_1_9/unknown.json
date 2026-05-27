@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 30,
-    "terms": 28
+    "components": 46,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 29,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "angular/angular-devkit-build-webpack-builds",
     "calda/SwiftFormat-nightly",
     "Cebeerre/dnsblocklists",
     "conda-forge/pyfive-feedstock",
+    "conda-forge/python-build-feedstock",
     "csm-actions/demo-server",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Desktop-Manager-Plugin",
@@ -32,10 +33,8 @@
     "emacs-straight/emacsmirror-mirror",
     "emacs-straight/gnu-elpa-mirror",
     "haskell/ghcup-www",
-    "hiyouga/llamafactory-community",
     "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
-    "lxgw/B5XiZhi",
     "OpenSC/Nightly",
     "pot-app/.github",
     "psmux/scoop-psmux",

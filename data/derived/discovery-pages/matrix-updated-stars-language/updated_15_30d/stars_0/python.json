@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 20,
     "observations": 20,
-    "repos": 12,
+    "repos": 9,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,18 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
-    "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
     "lace/lacecore",
-    "NightWatcher314/dockgecli",
-    "NightWatcher314/npmctl",
     "seanmacavaney/ir-datasets.com",
     "superfarther/K2V"
   ]

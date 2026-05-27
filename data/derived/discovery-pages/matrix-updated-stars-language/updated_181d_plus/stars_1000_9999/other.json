@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1286,
-    "concepts": 1560,
-    "observations": 1562,
-    "repos": 423,
-    "terms": 1549
+    "components": 1289,
+    "concepts": 1565,
+    "observations": 1567,
+    "repos": 425,
+    "terms": 1554
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-26T07:57:03.746408+00:00",
+  "generated_at": "2026-05-27T06:00:44.104521+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -257,6 +257,7 @@
     "mlmed/torchxrayvision",
     "moby/datakit",
     "mojombo/chronic",
+    "morkt/GARbro",
     "moses-smt/mosesdecoder",
     "mozilla-mobile/android-components",
     "mozilla-mobile/fenix",
@@ -294,6 +295,7 @@
     "petercorke/robotics-toolbox-matlab",
     "petertriho/nvim-scrollbar",
     "pfalcon/esp-open-sdk",
+    "phar-io/manifest",
     "phar-io/version",
     "philferriere/cocoapi",
     "plumatic/schema",
