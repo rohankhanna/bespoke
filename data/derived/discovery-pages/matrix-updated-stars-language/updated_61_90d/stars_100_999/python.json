@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 490,
-    "observations": 491,
-    "repos": 115,
-    "terms": 486
+    "components": 307,
+    "concepts": 502,
+    "observations": 503,
+    "repos": 111,
+    "terms": 498
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -30,7 +30,6 @@
     "angr/angrop",
     "astra-vision/MonoScene",
     "Blosc/python-blosc",
-    "brentyi/jaxls",
     "BrianPugh/belay",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
@@ -43,18 +42,18 @@
     "csslc/PiSA-SR",
     "DanceTrack/DanceTrack",
     "dask/fastparquet",
+    "devnen/Dia-TTS-Server",
+    "devnen/Kitten-TTS-Server",
     "djcopley/ShellOracle",
     "facebookincubator/ptr",
     "facebookresearch/CodeGen",
     "Fitzgerald-Porthmouth-Koenigsegg/Planschrift_Project",
     "FlagOpen/RoboBrain2.5",
-    "gatecat/prjoxide",
     "Gen-Verse/Open-AgentRL",
     "gmberton/CosPlace",
     "gmberton/deep-visual-geo-localization-benchmark",
     "gmberton/VPR-datasets-downloader",
     "google-deepmind/multi_object_datasets",
-    "GuiWonder/Shanggu",
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
     "hongyuanyu/SPAN",
@@ -62,7 +61,6 @@
     "hukkin/mdformat",
     "hustvl/Senna",
     "infinigence/FUSCO",
-    "IST-DASLab/FP-Quant",
     "jayleicn/moment_detr",
     "jsegov/autoresearch-win-rtx",
     "kijai/ComfyUI-DepthAnythingV2",
@@ -119,14 +117,12 @@
     "tulerfeng/OneThinker",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
-    "wenet-e2e/WeTextProcessing",
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
     "xavierpuigf/virtualhome",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",
-    "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zhijian-liu/torchprofile"
   ]

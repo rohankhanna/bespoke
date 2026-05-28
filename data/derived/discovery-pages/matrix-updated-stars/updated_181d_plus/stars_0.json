@@ -3,7 +3,7 @@
     "components": 1274,
     "concepts": 540,
     "observations": 542,
-    "repos": 443,
+    "repos": 444,
     "terms": 540
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -63,6 +63,7 @@
     "artichoke/spec",
     "ashen-sensored/gradio",
     "ashwincc/yolov6-sagemaker",
+    "asm89/prettytable-rs",
     "aspecto-io/opentelemetry-demo",
     "assignUser/delocate",
     "atsushieno/aap-juce-plugin-host",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1385,
-    "concepts": 263,
-    "observations": 263,
-    "repos": 42,
-    "terms": 291
+    "components": 1315,
+    "concepts": 254,
+    "observations": 254,
+    "repos": 39,
+    "terms": 278
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "antfu-collective/vite-ssg",
@@ -44,13 +44,10 @@
     "obsidian-community/obsidian-kanban",
     "obsidian-community/obsidian-style-settings",
     "obsidian-community/obsidian-zotero-integration",
-    "peers/peerjs-server",
     "REditorSupport/vscode-R",
-    "snarktank/antfarm",
     "sql-formatter-org/sql-formatter",
     "standard-schema/standard-schema",
     "stephenh/ts-proto",
-    "stravu/crystal",
     "t0bst4r/home-assistant-matter-hub",
     "TfTHacker/obsidian42-brat",
     "ulid/javascript",

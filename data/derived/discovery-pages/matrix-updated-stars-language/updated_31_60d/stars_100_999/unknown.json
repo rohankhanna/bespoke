@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 260,
-    "observations": 261,
-    "repos": 70,
-    "terms": 259
+    "components": 81,
+    "concepts": 264,
+    "observations": 265,
+    "repos": 71,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -62,6 +62,7 @@
     "kubernetes-sigs/krew-index",
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
+    "luau-lang/rfcs",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "mason-org/mason-registry",
     "MicrosoftDocs/terminal",

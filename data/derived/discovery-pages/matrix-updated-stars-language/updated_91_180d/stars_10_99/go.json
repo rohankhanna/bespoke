@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 31,
-    "terms": 113
+    "components": 101,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 32,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "apache/incubator-seata-go-samples",
@@ -25,6 +25,7 @@
     "casparwylie/cascii-server",
     "cloudfoundry/buildpackapplifecycle",
     "cloudwego/netpoll-benchmark",
+    "concourse/pool-resource",
     "doraemonkeys/paddleocr",
     "ebml-go/webm",
     "evmos/os",
@@ -37,11 +38,11 @@
     "lukacu/docker-frps",
     "mikespook/possum",
     "multiformats/go-varint",
-    "objectbox/objectbox-generator",
     "panmari/cuckoofilter",
     "rose-pine/rose-pine-bloom",
     "roy2220/osc52pty",
     "rpcxio/rpcx-etcd",
+    "seaweedfs/seaweedfs-cosi-driver",
     "theplant/htmlgo",
     "urfave/cli-altsrc",
     "worlpaker/go-syntax"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 396,
-    "concepts": 289,
-    "observations": 290,
-    "repos": 117,
-    "terms": 288
+    "components": 421,
+    "concepts": 297,
+    "observations": 298,
+    "repos": 120,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -45,7 +45,6 @@
     "cmacdonald/pyt_splade",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
-    "ColinKennedy/mega.cmdparse",
     "DavidKinder/Windows-Glulxe",
     "devise-i18n/devise-i18n",
     "dspinellis/bibtools",
@@ -60,6 +59,7 @@
     "FFTAI/Wiki-GRx-Gym",
     "flycheck/flycheck-eglot",
     "formigarafa/zxcvbn-rb",
+    "FoundationDB/fdb-build-support",
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "getgrav/grav-theme-learn2",
@@ -68,6 +68,7 @@
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
     "gregorias/toggle.nvim",
+    "HaxeFlixel/haxeflixel.com",
     "hedronvision/bazel-make-cc-https-easy",
     "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
@@ -83,6 +84,7 @@
     "jruby/maven-tools",
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4Makie.jl",
+    "JunoLab/Atom.jl",
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",
@@ -111,6 +113,7 @@
     "pug-php/js-phpize",
     "reisub/http_cookie",
     "Rhoban/onshape-to-robot-examples",
+    "robotology/icub-models",
     "rocker-org/binder",
     "RTBHOUSE/tmux-picker",
     "sbcgua/abap-string-map",

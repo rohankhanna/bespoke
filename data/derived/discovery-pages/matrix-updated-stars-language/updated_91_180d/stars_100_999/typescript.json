@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1268,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 45,
-    "terms": 190
+    "components": 1345,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 47,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
+    "0xtbug/zero-limit",
     "adaltas/node-http-status",
     "addyosmani/chatty",
     "akshaykmr/teletype",
@@ -54,6 +55,7 @@
     "TanStack/ranger",
     "tevonsb/homeassistant-mcp",
     "uni-helper/uni-network",
+    "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",
     "Wykks/ngx-mapbox-gl",

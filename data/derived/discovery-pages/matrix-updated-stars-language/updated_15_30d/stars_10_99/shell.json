@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 151,
-    "observations": 151,
-    "repos": 27,
-    "terms": 150
+    "components": 97,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 24,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
@@ -20,18 +20,15 @@
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "dotenvx/dotenvx.sh",
     "electerm/electerm-web-docker",
     "fcshark-org/route-list",
     "gpac/testsuite",
-    "helidon-io/helidon-examples",
     "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
     "leleliu008/ppkg",
     "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",
-    "pkgxdev/mash",
     "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-depup",
     "rocq-prover/docker-opam-action",

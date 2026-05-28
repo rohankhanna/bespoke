@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2463,
-    "concepts": 390,
-    "observations": 393,
-    "repos": 90,
-    "terms": 422
+    "components": 2544,
+    "concepts": 424,
+    "observations": 427,
+    "repos": 93,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
+    "addfox/addfox",
     "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
@@ -80,6 +81,7 @@
     "microsoft/vscode-js-debug-companion",
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
+    "NullVoxPopuli/ember-deep-tracked",
     "obi1kenobi/cargo-semver-checks-action",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",
@@ -99,6 +101,7 @@
     "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "solidjs-community/storybook",
+    "swagger-api/apidom",
     "vaultwarden/vw_web_builds",
     "wighawag/rocketh",
     "ylsssq926/relic.skill",

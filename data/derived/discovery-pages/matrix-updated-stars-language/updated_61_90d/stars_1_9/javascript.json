@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 14,
-    "terms": 69
+    "components": 184,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 17,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "actions-cool/.github",
     "actions-cool/test-issues-helper",
@@ -27,6 +27,9 @@
     "heshengtao/desktop-for-sap",
     "lucabubi/star-history",
     "REditorSupport/vscode-R-syntax",
+    "stdlib-js/array-buffer",
+    "stdlib-js/array-dtypes",
+    "stdlib-js/array-typed-dtypes",
     "tc39/proposal-intl-keep-trailing-zeros"
   ]
 }

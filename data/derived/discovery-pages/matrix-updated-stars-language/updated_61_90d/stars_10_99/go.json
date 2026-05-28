@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 26,
-    "terms": 97
+    "components": 111,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 24,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
@@ -24,7 +24,6 @@
     "chrislusf/seaweedfs",
     "chromedp/pdlgen",
     "cjkreklow/t38c",
-    "concourse/pool-resource",
     "containerd/release-tool",
     "ctoth/claudio",
     "cyberark/conjur-api-go",
@@ -37,7 +36,6 @@
     "kurrent-io/KurrentDB-Client-Go",
     "matelang/jwt-go-aws-kms",
     "OpenCIDN/ocimirror",
-    "seaweedfs/seaweedfs-cosi-driver",
     "wzshiming/repimage",
     "zoom/karpenter-oci"
   ]

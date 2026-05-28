@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 233,
-    "observations": 235,
-    "repos": 19,
-    "terms": 232
+    "components": 193,
+    "concepts": 217,
+    "observations": 219,
+    "repos": 18,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "apache/dubbo",
     "apache/kafka",
     "apache/pulsar",
-    "apache/rocketmq",
     "awsdocs/aws-doc-sdk-examples",
     "bumptech/glide",
     "dbeaver/dbeaver",

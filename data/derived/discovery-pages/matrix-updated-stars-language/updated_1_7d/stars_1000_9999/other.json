@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 91,
-    "observations": 93,
-    "repos": 11,
-    "terms": 91
+    "components": 288,
+    "concepts": 221,
+    "observations": 223,
+    "repos": 24,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,31 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
+    "all-contributors/allcontributors.org",
     "babashka/babashka",
     "babashka/sci",
+    "clj-kondo/clj-kondo",
+    "datalevin/datalevin",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
+    "firebase/flutterfire",
     "googleapis/google-auth-library-php",
+    "kurrent-io/KurrentDB",
     "licensee/licensed",
+    "microsoft/aspire",
+    "microsoft/aspire-samples",
     "microsoft/PhiCookBook",
+    "mono/SkiaSharp",
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
+    "psmux/psmux",
     "radian-software/straight.el",
-    "seancorfield/honeysql",
-    "tModLoader/tModLoader"
+    "swiftlang/llvm-project",
+    "swiftlang/swift-syntax",
+    "tModLoader/tModLoader",
+    "TryGhost/node-sqlite3",
+    "web-platform-tests/wpt"
   ]
 }

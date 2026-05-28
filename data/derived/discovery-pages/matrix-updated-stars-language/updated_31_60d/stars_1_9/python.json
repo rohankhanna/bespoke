@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 62,
-    "terms": 147
+    "components": 233,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 65,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -59,6 +59,7 @@
     "lace/proximity",
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
+    "mlcommons/submissions_algorithms",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
@@ -66,10 +67,12 @@
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
+    "plone/cookieplone-templates",
     "pyrtlsdr/pyrtlsdrlib",
     "ROCm/rbuild",
     "rrsaldanha/burp-mcp-agents",
     "runtimeverification/kup",
+    "scaleway/serverless-api-framework-python",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
     "TJC-LP/sanzaru",

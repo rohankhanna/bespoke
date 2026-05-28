@@ -3,7 +3,7 @@
     "components": 1124,
     "concepts": 529,
     "observations": 529,
-    "repos": 345,
+    "repos": 347,
     "terms": 536
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -27,6 +27,8 @@
     "AbhiLegend/DrugDisOpenVINO",
     "abhishalya/abhishalya.github.io",
     "abhivij/bloodbased-pancancer-diagnosis",
+    "AdaCore/AdaSAT",
+    "AdaCore/prettier-ada",
     "AdamFrey/clojure-html-server-live-reload-template",
     "aergonaut/pronto-goodcheck",
     "aeulker/Claude-Code-Cheat-Sheet",

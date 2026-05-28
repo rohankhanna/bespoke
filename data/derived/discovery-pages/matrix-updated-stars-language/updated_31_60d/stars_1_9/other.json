@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 81,
-    "terms": 177
+    "components": 357,
+    "concepts": 194,
+    "observations": 194,
+    "repos": 86,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -22,10 +22,10 @@
     "alstafeev/midscene-java",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
-    "aspect-build/tools_telemetry",
     "azure/homebrew-bicep",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
+    "beeware/beeware-docs-tools",
     "bladeacer/obsi-snip-coll",
     "bolasblack/BlogFront",
     "cake-contrib/Cake.Markdownlint",
@@ -43,6 +43,7 @@
     "cyber404/che-apple-mail-mcp",
     "diffblue/homebrew-cbmc",
     "dm0x23/portfolio-website",
+    "dotenvx/homebrew-brew",
     "dp111/6502timing",
     "dpep/ice_age_rb",
     "dwyl/auth_plug_example",
@@ -59,9 +60,11 @@
     "fredrikekre/runic-pre-commit",
     "goreleaser/.github",
     "gusztavvargadr/aws-vault-chocolatey",
+    "hao-ai-lab/flash-attention-fp4",
     "hchiam/convenience",
     "hchiam/hchiam.github.io",
     "helix-toolkit/helix-toolkit.github.io",
+    "Humans-of-Julia/BibInternal.jl",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
@@ -77,8 +80,10 @@
     "Mbed-TLS/mbedtls-test",
     "microsoft/LinuxTracepoints-Net",
     "mitchuski/agentprivacy-docs",
-    "mpizenberg/elm-test-runner",
+    "mozilla-mobile/fxios-ctl",
+    "moznion/sbt-spotless",
     "NightWatcher314/homebrew-formula",
+    "php-rdkafka/php-rdkafka-doc",
     "php-toolkit/stdlib",
     "raku-community-modules/Terminal-WCWidth",
     "rmsrosa/rmsrosa.github.io",

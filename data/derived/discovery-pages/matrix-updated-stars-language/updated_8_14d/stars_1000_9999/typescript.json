@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 4,
-    "terms": 27
+    "components": 98,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 3,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "electron/rebuild",
-    "Koenkk/zigbee-herdsman-converters",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli"
   ]

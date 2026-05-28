@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 23,
-    "terms": 111
+    "components": 200,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 25,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
     "CHIP-SPV/H4I-MKLShim",
+    "compiler-research/cppyy-backend",
     "compiler-research/CPyCppyy",
     "datalevin/dlmdb",
     "DavidKinder/inform",
@@ -36,6 +37,7 @@
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "stdlib-js/ndarray-ctor",
+    "walbourn/directxtk12test",
     "yoshoku/numo-linalg-alt"
   ]
 }

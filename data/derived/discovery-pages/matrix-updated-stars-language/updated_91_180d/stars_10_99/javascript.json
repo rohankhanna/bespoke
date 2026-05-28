@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 377,
+    "components": 380,
     "concepts": 78,
     "observations": 79,
-    "repos": 28,
+    "repos": 29,
     "terms": 78
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
+    "apostrophecms/apostrophe-astro",
     "breejs/api",
     "breejs/express-example",
     "broccolijs/broccoli-plugin",

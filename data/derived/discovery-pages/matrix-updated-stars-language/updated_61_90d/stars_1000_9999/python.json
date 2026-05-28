@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 282,
-    "concepts": 531,
-    "observations": 531,
-    "repos": 84,
-    "terms": 528
+    "components": 279,
+    "concepts": 515,
+    "observations": 515,
+    "repos": 82,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -25,7 +25,6 @@
     "black-forest-labs/flux2",
     "ChenmienTan/RL2",
     "cheshire-cat-ai/core",
-    "daijro/browserforge",
     "databricks/megablocks",
     "dateutil/dateutil",
     "davidhalter/jedi",
@@ -52,7 +51,6 @@
     "jiaaro/pydub",
     "JulietaUla/Montserrat",
     "keleshev/schema",
-    "langfengQ/verl-agent",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "lyuwenyu/RT-DETR",
     "michaelfeil/infinity",
@@ -84,6 +82,7 @@
     "sierra-research/tau-bench",
     "sirfz/tesserocr",
     "snakers4/silero-vad",
+    "tabatkins/railroad-diagrams",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "the-moonwitch/Cozette",
@@ -95,7 +94,6 @@
     "ufoym/deepo",
     "Vchitect/VBench",
     "yangyanli/PointCNN",
-    "YosysHQ/icestorm",
     "ZhengPeng7/BiRefNet",
     "zubair-trabzada/ai-marketing-claude"
   ]

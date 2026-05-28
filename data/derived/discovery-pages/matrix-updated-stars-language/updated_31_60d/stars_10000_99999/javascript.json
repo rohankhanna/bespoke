@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3096,
-    "concepts": 558,
-    "observations": 561,
-    "repos": 75,
-    "terms": 562
+    "components": 3514,
+    "concepts": 613,
+    "observations": 616,
+    "repos": 80,
+    "terms": 617
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
+    "ampproject/amphtml",
     "anuraghazra/github-readme-stats",
     "arkenfox/user.js",
     "auth0/node-jsonwebtoken",
@@ -61,8 +62,10 @@
     "lodash/lodash",
     "lovell/sharp",
     "markedjs/marked",
+    "microsoft/monaco-editor",
     "motdotla/dotenv",
     "nock/nock",
+    "nodemailer/nodemailer",
     "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
@@ -77,6 +80,7 @@
     "serverless/serverless",
     "simple-icons/simple-icons",
     "svg/svgo",
+    "swagger-api/swagger-ui",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "tj/commander.js",
@@ -87,6 +91,7 @@
     "webpack/webpack",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
+    "wix/Detox",
     "yarnpkg/yarn",
     "zloirock/core-js"
   ]

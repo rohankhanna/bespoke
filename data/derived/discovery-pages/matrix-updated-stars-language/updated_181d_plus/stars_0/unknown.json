@@ -3,7 +3,7 @@
     "components": 221,
     "concepts": 105,
     "observations": 105,
-    "repos": 124,
+    "repos": 125,
     "terms": 105
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -25,6 +25,7 @@
     "aliyun-sls/opentelemetry-demo",
     "americanpresidentjimmycarter/xformers-builds",
     "ashen-sensored/gradio",
+    "asm89/prettytable-rs",
     "assignUser/delocate",
     "autofac/.github",
     "awohletz/electron-prisma-trpc-example-releases",

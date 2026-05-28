@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2070,
-    "concepts": 1941,
-    "observations": 1947,
-    "repos": 841,
-    "terms": 1929
+    "components": 2083,
+    "concepts": 1950,
+    "observations": 1956,
+    "repos": 842,
+    "terms": 1938
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -253,6 +253,7 @@
     "coder/envbuilder-starter-devcontainer",
     "coderofsalvation/xrfragment",
     "codertocat/hello-world",
+    "ColinKennedy/mega.cmdparse",
     "company-mode/company-statistics",
     "CookiePPP/cookietts",
     "corasaurus-hex/fs",

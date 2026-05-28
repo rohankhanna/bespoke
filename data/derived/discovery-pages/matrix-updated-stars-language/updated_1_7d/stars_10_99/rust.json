@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 9,
+    "components": 17,
     "concepts": 10,
     "observations": 10,
-    "repos": 2,
+    "repos": 3,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "lifegpc/msg-tool"
   ]

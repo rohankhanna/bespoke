@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 700,
-    "concepts": 1495,
-    "observations": 1497,
-    "repos": 853,
-    "terms": 1474
+    "concepts": 1497,
+    "observations": 1499,
+    "repos": 855,
+    "terms": 1476
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -338,6 +338,7 @@
     "EdinburghNLP/opus-100-corpus",
     "Edward-Sun/gpt-accelera",
     "Edward-Sun/RECITE",
+    "edwhu/dreamer4-jax",
     "Ehsanfarahi22/Bypassing-SNI-based-HTTPS-Filtering",
     "eisneim/ltx_lora_training_i2v_t2v",
     "EleutherAI/github-downloader",
@@ -710,6 +711,7 @@
     "rmbrualla/pycolmap",
     "Roblox/SmoothCache",
     "robotology/gym-ignition-models",
+    "robotools/ufo2fdk",
     "RUC-NLPIR/FlashRAG-MindSpore",
     "RUC-NLPIR/HiRA",
     "RUCAIBox/CIR",

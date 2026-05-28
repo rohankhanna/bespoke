@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 14,
-    "terms": 57
+    "components": 68,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 11,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
-    "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
-    "cloudfoundry/cc-uploader",
     "cloudfoundry/runtime-ci",
     "cosmos/rosetta",
     "datachainlab/lcp-go",
@@ -26,7 +24,6 @@
     "fluxcd/flux-schema",
     "gookit/cliui",
     "linode/karpenter-provider-linode",
-    "Seedloaf/mc-router-discovery",
-    "transparency-dev/armored-witness-applet"
+    "Seedloaf/mc-router-discovery"
   ]
 }

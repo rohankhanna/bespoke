@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 12,
-    "terms": 75
+    "components": 13,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 9,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
-    "ad-si/awesome-music-production",
     "ephtracy/voxel-model",
     "github/rest-api-description",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",
-    "logseq/awesome-logseq",
     "lxgw/LxgwNeoXiHei",
     "lxgw/LxgwNeoZhiSong",
-    "MicrosoftDocs/cpp-docs",
     "runetfreedom/russia-v2ray-rules-dat",
     "yokoffing/filterlists",
     "yokoffing/NextDNS-Config"

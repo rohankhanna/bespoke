@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 1263,
-    "concepts": 297,
-    "observations": 298,
+    "components": 1257,
+    "concepts": 291,
+    "observations": 292,
     "repos": 47,
     "terms": 308
   },
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
-    "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
@@ -24,6 +23,7 @@
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
+    "aws-samples/dify-self-hosted-on-aws",
     "aymenfurter/ralph",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
@@ -43,6 +43,7 @@
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
     "lobehub/lobe-charts",
+    "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
     "multiformats/js-multiformats",
     "PanAeon/vscode-tmgrammar-test",
@@ -57,7 +58,6 @@
     "tracked-tools/tracked-built-ins",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
-    "unplugin/unplugin-vue-markdown",
     "vim-denops/denops.vim",
     "windingwind/zotero-plugin-template",
     "XantreDev/preact-signals"

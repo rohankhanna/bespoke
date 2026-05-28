@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 52,
-    "terms": 87
+    "components": 200,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 51,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
-    "AdaCore/AdaSAT",
-    "AdaCore/prettier-ada",
     "adamharrison/quetta",
     "ahrefs/opam-check-npm-deps",
     "anchordotdev/puma-acme",
@@ -50,6 +48,7 @@
     "Melandel/workflow",
     "mirage/coin",
     "objectbox/objectbox-swift-generator",
+    "open-rpc/markdown-gen",
     "OutlierDetectionJL/OutlierDetectionData.jl",
     "OutlierDetectionJL/OutlierDetectionNeighbors.jl",
     "parruda/ruby_llm",

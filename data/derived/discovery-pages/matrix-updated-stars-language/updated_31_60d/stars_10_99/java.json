@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 35,
-    "terms": 147
+    "components": 166,
+    "concepts": 160,
+    "observations": 161,
+    "repos": 37,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
     "apache/camel-quarkus-examples",
-    "apache/datasketches-hive",
-    "apache/datasketches-pig",
     "apache/flink-connector-pulsar",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bazel-contrib/rules_jvm",
+    "BerkleyTechnologyServices/restdocs-spec",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "bsorrentino/java-async-generator",
@@ -37,9 +36,12 @@
     "glaforge/adk-java-maven-template",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
+    "googleapis/java-cloud-bom",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
     "iterate-ch/rococoa",
+    "jpmml/jpmml-h2o",
+    "jpmml/jpmml-r",
     "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",
     "m2e-code-quality/m2e-code-quality",

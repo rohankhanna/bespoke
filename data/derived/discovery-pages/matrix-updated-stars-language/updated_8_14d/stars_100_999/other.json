@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 33,
-    "observations": 34,
-    "repos": 7,
-    "terms": 33
+    "components": 25,
+    "concepts": 27,
+    "observations": 28,
+    "repos": 5,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
-    "clj-commons/rewrite-clj",
-    "danielrosehill/Claude-Code-Projects-Index",
-    "devcontainers/devcontainers.github.io",
+    "dwyl/quotes",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "openbsd/ports"

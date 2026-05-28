@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 332,
-    "concepts": 427,
-    "observations": 430,
-    "repos": 77,
-    "terms": 429
+    "components": 359,
+    "concepts": 446,
+    "observations": 449,
+    "repos": 81,
+    "terms": 448
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
+    "aaaaalexis/obsidian-cupertino",
     "activerecord-hackery/ransack",
     "alexreisner/geocoder",
     "ardalis/ApiEndpoints",
@@ -77,11 +78,13 @@
     "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
     "roboflow/notebooks",
+    "rom1504/clip-retrieval",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "salesforce/BLIP",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
+    "slim-template/slim",
     "steipete/imsg",
     "steipete/peekaboo",
     "tensorflow/tpu",
@@ -89,6 +92,7 @@
     "varvet/pundit",
     "vcr/vcr",
     "vkhorikov/CSharpFunctionalExtensions",
+    "WebReflection/linkedom",
     "whitequark/parser",
     "z-x-yang/Segment-and-Track-Anything"
   ]

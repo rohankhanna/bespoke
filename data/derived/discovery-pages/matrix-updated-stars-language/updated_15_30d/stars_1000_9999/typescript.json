@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6016,
-    "concepts": 1202,
-    "observations": 1205,
-    "repos": 134,
-    "terms": 1194
+    "components": 5989,
+    "concepts": 1195,
+    "observations": 1198,
+    "repos": 133,
+    "terms": 1187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -38,7 +38,6 @@
     "boxlite-ai/boxlite",
     "bqplot/bqplot",
     "BuilderIO/builder",
-    "callstack/react-native-testing-library",
     "can1357/oh-my-pi",
     "carbon-design-system/carbon-components-svelte",
     "chhoumann/quickadd",
@@ -83,6 +82,7 @@
     "julia-vscode/julia-vscode",
     "kelektiv/node-cron",
     "kepano/defuddle",
+    "Koenkk/zigbee-herdsman-converters",
     "mathjax/MathJax-src",
     "mdn/yari",
     "microsoft/vscode-cmake-tools",
@@ -129,7 +129,6 @@
     "thomasloven/hass-browser_mod",
     "timmywil/panzoom",
     "tinylibs/tinybench",
-    "ts-safeql/safeql",
     "TypeScriptToLua/TypeScriptToLua",
     "Uniswap/v3-core",
     "unjs/changelogen",

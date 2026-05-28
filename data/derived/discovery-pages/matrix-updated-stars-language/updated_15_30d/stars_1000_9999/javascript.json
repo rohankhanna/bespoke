@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2347,
-    "concepts": 430,
-    "observations": 431,
-    "repos": 58,
-    "terms": 428
+    "components": 2125,
+    "concepts": 371,
+    "observations": 372,
+    "repos": 51,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
@@ -21,14 +21,11 @@
     "appium/appium-inspector",
     "carbon-design-system/carbon",
     "chaijs/chai",
-    "dotenvx/dotenvx",
     "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
-    "i18next/react-i18next",
-    "import-js/eslint-plugin-import",
     "ipfs/ipfs-companion",
     "jakerella/jquery-mockjax",
     "jasonlong/isometric-contributions",
@@ -36,10 +33,8 @@
     "jquery/jquery-color",
     "keepassxreboot/keepassxc-browser",
     "KhronosGroup/Vulkan-Docs",
-    "krausest/js-framework-benchmark",
     "LavaMoat/LavaMoat",
     "leezng/vue-json-pretty",
-    "ljharb/qs",
     "mapbox/geobuf",
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
@@ -54,7 +49,6 @@
     "openwrt/luci",
     "parallel-js/parallel.js",
     "pillarjs/iconv-lite",
-    "postcss/postcss-import",
     "ranisalt/node-argon2",
     "RisingStack/react-easy-state",
     "stdlib-js/stdlib",
@@ -70,7 +64,6 @@
     "violentmonkey/violentmonkey",
     "WebKit/WebKit",
     "webpack/webpack-cli",
-    "webpack/webpack-dev-middleware",
-    "xiangyuecn/Recorder"
+    "webpack/webpack-dev-middleware"
   ]
 }

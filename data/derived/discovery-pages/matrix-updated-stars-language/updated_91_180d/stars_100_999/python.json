@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 376,
-    "concepts": 765,
-    "observations": 765,
-    "repos": 204,
-    "terms": 760
+    "components": 389,
+    "concepts": 778,
+    "observations": 778,
+    "repos": 209,
+    "terms": 773
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -54,6 +54,7 @@
     "bigcode-project/bigcodebench",
     "BoosterRobotics/booster_gym",
     "breezedeus/CnSTD",
+    "brentyi/jaxls",
     "bshall/knn-vc",
     "BurntSushi/rebar",
     "bytedance/BindWeave",
@@ -86,6 +87,7 @@
     "fudan-zvg/PVG",
     "gafniguy/4D-Facial-Avatars",
     "GANWANSHUI/GaussianOcc",
+    "gatecat/prjoxide",
     "GewelsJI/VPS",
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
@@ -93,6 +95,7 @@
     "google/adk-python-community",
     "googlefonts/glyphsets",
     "gristlabs/asttokens",
+    "GuiWonder/Shanggu",
     "Gumpest/SparseVLMs",
     "guoweiyu/NeuroVLA",
     "haoxiangsnr/spiking-fullsubnet",
@@ -108,6 +111,7 @@
     "intel/ai-reference-models",
     "InternRobotics/VLAC",
     "InternScience/StructEqTable-Deploy",
+    "IST-DASLab/FP-Quant",
     "j-bennet/wharfee",
     "JettHu/ComfyUI-TCD",
     "JettHu/ComfyUI_TGate",
@@ -143,7 +147,6 @@
     "MyoHub/myo_sim",
     "nghorbani/body_visualizer",
     "nicklashansen/newt",
-    "NightFurySL2001/CJK-character-count",
     "nixprime/cpsm",
     "nrl-ai/llama-assistant",
     "NVlabs/GTRS",
@@ -202,6 +205,7 @@
     "virtuald/pyhcl",
     "Visual-Agent/DeepEyesV2",
     "walles/px",
+    "wenet-e2e/WeTextProcessing",
     "whatwg/meta",
     "wlav/cppyy",
     "worldbench/Robo3D",
@@ -214,6 +218,7 @@
     "yeyupiaoling/PaddlePaddle-DeepSpeech",
     "yeyupiaoling/PPASR",
     "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+    "YosysHQ/prjtrellis",
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhixuan-lin/forgetting-transformer",
     "zhiyuanyou/DeQA-Score",

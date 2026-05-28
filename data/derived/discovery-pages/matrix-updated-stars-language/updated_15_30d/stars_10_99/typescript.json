@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1521,
-    "concepts": 323,
-    "observations": 325,
-    "repos": 57,
-    "terms": 323
+    "components": 1440,
+    "concepts": 289,
+    "observations": 291,
+    "repos": 54,
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "1-Platform/op-components",
-    "addfox/addfox",
     "aggre/ullr",
     "Airfooox/cron-validate",
     "appsignal/appsignal-javascript",
@@ -46,7 +45,6 @@
     "ldclabs/KIP",
     "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
-    "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
     "octokit/auth-action.js",
     "octokit/auth-oauth-app.js",
@@ -68,7 +66,6 @@
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
     "suzuki-shunsuke/pinact-action",
-    "swagger-api/apidom",
     "universal-ember/reactiveweb",
     "vincentlaucsb/experiencer"
   ]

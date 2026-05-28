@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 298,
-    "observations": 299,
+    "components": 207,
+    "concepts": 326,
+    "observations": 327,
     "repos": 62,
-    "terms": 296
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "anacrolix/go-libutp",
@@ -22,6 +22,7 @@
     "ARM-software/EndpointAI",
     "avaneev/r8brain-free-src",
     "btzy/nativefiledialog-extended",
+    "charlesnicholson/nanoprintf",
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
@@ -55,6 +56,7 @@
     "microsoft/xlang",
     "mongodb-js/kerberos",
     "NetEase-FuXi/EETQ",
+    "nhielost/obs-midi-mg",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
     "PaddlePaddle/Paddle2ONNX",
@@ -65,10 +67,8 @@
     "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
     "stardot/beebasm",
-    "starwing/luautf8",
     "Tomas-M/iotop",
     "usnistgov/trec_eval",
-    "ValveSoftware/Fossilize",
     "vcflib/vcflib",
     "veorq/SipHash",
     "vovkos/doxyrest",

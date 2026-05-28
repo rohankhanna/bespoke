@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5456,
-    "concepts": 1968,
-    "observations": 1971,
-    "repos": 1383,
-    "terms": 1964
+    "components": 5464,
+    "concepts": 1971,
+    "observations": 1974,
+    "repos": 1387,
+    "terms": 1967
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -75,6 +75,8 @@
     "abistarun/resseract-lite",
     "achannarasappa/ticker-static",
     "actions-cool/labels-helper",
+    "AdaCore/AdaSAT",
+    "AdaCore/prettier-ada",
     "adafruit/adafruit_bmp183_unified_library",
     "adalkiran/go-inventa",
     "adalkiran/inventa-examples",
@@ -102,6 +104,7 @@
     "agentsea/skillpacks",
     "agentsea/threadmem",
     "ai-bot-pro/achatbot-go",
+    "ai-bot-pro/pipeline-py",
     "aidenlab/JuiceboxGUI",
     "aidenlab/pyStraw",
     "aiidateam/archive-path",
@@ -214,6 +217,7 @@
     "avantikalal/rapids-single-cell-examples",
     "Aviksaikat/cookiecutter-pdm-pypackage",
     "aws-samples/sample-vllm-on-eks-with-dlc",
+    "axiom-crypto/halo2curves",
     "axxie/far2l-jumpword",
     "ayushexel/vision-retrieval",
     "azdavis/c0ls",

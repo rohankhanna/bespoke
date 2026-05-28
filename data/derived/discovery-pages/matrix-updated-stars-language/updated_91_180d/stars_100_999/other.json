@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 820,
-    "concepts": 753,
-    "observations": 754,
-    "repos": 198,
-    "terms": 748
+    "components": 830,
+    "concepts": 783,
+    "observations": 784,
+    "repos": 202,
+    "terms": 778
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -49,6 +49,7 @@
     "bioinf-jku/TTUR",
     "BlinkDL/RWKV-CUDA",
     "BrunoBonacci/mulog",
+    "chakravala/Grassmann.jl",
     "chakravala/Reduce.jl",
     "cleanlab/examples",
     "clj-commons/etaoin",
@@ -124,6 +125,9 @@
     "juji-io/editscript",
     "JuliaDebug/SnoopCompile.jl",
     "JuliaDocs/LiveServer.jl",
+    "JuliaEditorSupport/julia-emacs",
+    "JuliaEditorSupport/julia-vim",
+    "JuliaGizmos/Blink.jl",
     "JuliaInterop/CxxWrap.jl",
     "JuliaML/MLUtils.jl",
     "JuliaPy/Conda.jl",

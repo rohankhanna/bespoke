@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 266,
-    "observations": 267,
-    "repos": 51,
-    "terms": 260
+    "components": 184,
+    "concepts": 275,
+    "observations": 276,
+    "repos": 54,
+    "terms": 269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "akheron/jansson",
@@ -25,6 +25,7 @@
     "bblanchon/ArduinoJson",
     "bcrypt-ruby/bcrypt-ruby",
     "bugaevc/wl-clipboard",
+    "cameron314/readerwriterqueue",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "coin-or/Ipopt",
@@ -48,9 +49,11 @@
     "microsoft/snmalloc",
     "mutouyun/cpp-ipc",
     "nmoehrle/mvs-texturing",
+    "nmslib/hnswlib",
     "nodemcu/nodemcu-firmware",
     "NVIDIA/gdrcopy",
     "onnx/onnx-tensorrt",
+    "pisa-engine/pisa",
     "redis/hiredis",
     "romkatv/gitstatus",
     "snapcast/snapcast",

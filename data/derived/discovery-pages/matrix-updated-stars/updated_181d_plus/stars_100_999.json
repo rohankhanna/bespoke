@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15407,
-    "concepts": 13912,
-    "observations": 13938,
-    "repos": 4583,
-    "terms": 13694
+    "components": 15408,
+    "concepts": 13926,
+    "observations": 13952,
+    "repos": 4586,
+    "terms": 13708
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -3210,6 +3210,7 @@
     "nicolas-chaulet/torch-points3d",
     "nicoth-in/Dark-Space-Theme",
     "NigelOToole/direction-reveal",
+    "NightFurySL2001/CJK-character-count",
     "Nightmare-n/DepthAnyVideo",
     "nightrome/cocostuff",
     "nightrome/cocostuffapi",
@@ -3244,6 +3245,7 @@
     "node-lightning/node-lightning",
     "nomic-io/nomic",
     "nonebot/aiocqhttp",
+    "nonstd-lite/string-view-lite",
     "norcalli/snippets.nvim",
     "nordtheme/dircolors",
     "notaryproject/specifications",
@@ -4174,6 +4176,7 @@
     "ToruOwO/hato",
     "ToTheBeginning/ComfyUI-DreamO",
     "tpope/vim-dotenv",
+    "tracyone/program_font",
     "trapd00r/vidir",
     "travis-ci/packer-templates",
     "travis-ci/travis-cookbooks",

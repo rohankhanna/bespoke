@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4595,
-    "concepts": 952,
-    "observations": 956,
-    "repos": 82,
-    "terms": 950
+    "components": 4542,
+    "concepts": 936,
+    "observations": 940,
+    "repos": 80,
+    "terms": 934
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "ajv-validator/ajv",
@@ -31,7 +31,6 @@
     "changesets/changesets",
     "cheeriojs/cheerio",
     "clauderic/dnd-kit",
-    "coder/code-server",
     "colinhacks/zod",
     "continuedev/continue",
     "danny-avila/LibreChat",
@@ -42,15 +41,15 @@
     "element-plus/element-plus",
     "faker-js/faker",
     "formatjs/formatjs",
-    "GoogleChromeLabs/comlink",
-    "invoke-ai/InvokeAI",
+    "fuma-nama/fumadocs",
     "janhq/jan",
     "jhipster/generator-jhipster",
     "jquense/yup",
     "Kilo-Org/kilocode",
+    "Koenkk/zigbee2mqtt",
     "Kong/insomnia",
     "kysely-org/kysely",
-    "lit/lit",
+    "lucide-icons/lucide",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "marmelab/react-admin",
@@ -65,7 +64,6 @@
     "nuxt/nuxt",
     "oblador/react-native-vector-icons",
     "openobserve/openobserve",
-    "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
     "prisma/prisma",

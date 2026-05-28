@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3626,
-    "concepts": 749,
-    "observations": 751,
-    "repos": 105,
-    "terms": 743
+    "components": 3706,
+    "concepts": 751,
+    "observations": 753,
+    "repos": 103,
+    "terms": 745
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -25,7 +25,6 @@
     "apify/mcpc",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
-    "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
@@ -47,7 +46,6 @@
     "flathub-infra/website",
     "folke/esbuild-runner",
     "foundry-rs/foundry-toolchain",
-    "fsouza/prettierd",
     "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
@@ -66,7 +64,7 @@
     "kkomelin/isomorphic-dompurify",
     "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
-    "luciopaiva/heapify",
+    "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/ai-chat-protocol",
@@ -75,8 +73,8 @@
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",
-    "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
+    "Nerivec/zigbee2mqtt-windfront",
     "nonara/ts-patch",
     "nurikk/zigbee2mqtt-frontend",
     "nuxt/bridge",
@@ -86,7 +84,6 @@
     "octokit/auth-app.js",
     "octokit/graphql.js",
     "ory/docs",
-    "oxc-project/eslint-plugin-oxlint",
     "P4sca1/cron-schedule",
     "preactjs/preact-devtools",
     "privatenumber/get-tsconfig",
@@ -99,6 +96,7 @@
     "sapphiredev/utilities",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
+    "skilld-dev/skilld",
     "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
     "TanStack/config",

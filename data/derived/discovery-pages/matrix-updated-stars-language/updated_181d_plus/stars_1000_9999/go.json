@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 668,
-    "observations": 668,
-    "repos": 142,
-    "terms": 664
+    "components": 336,
+    "concepts": 673,
+    "observations": 673,
+    "repos": 143,
+    "terms": 669
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "aarondl/authboss",
@@ -95,6 +95,7 @@
     "jaegertracing/jaeger-operator",
     "Jeffail/gabs",
     "jetstack/kube-lego",
+    "jpillora/cloud-torrent",
     "jsha/minica",
     "julienschmidt/go-http-routing-benchmark",
     "justinas/alice",

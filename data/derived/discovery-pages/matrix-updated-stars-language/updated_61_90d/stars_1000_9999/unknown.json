@@ -3,7 +3,7 @@
     "components": 1,
     "concepts": 26,
     "observations": 26,
-    "repos": 10,
+    "repos": 9,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "android/ndk",
@@ -21,7 +21,6 @@
     "estree/estree",
     "lxgw/LxgwWenKai-Screen",
     "microsoft/vscode-ai-toolkit",
-    "TheRobotStudio/SO-ARM100",
     "tmux-plugins/list",
     "WebAssembly/proposals"
   ]

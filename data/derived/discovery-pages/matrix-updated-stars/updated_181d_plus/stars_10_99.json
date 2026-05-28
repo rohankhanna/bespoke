@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11810,
-    "concepts": 6818,
-    "observations": 6833,
-    "repos": 3252,
-    "terms": 6770
+    "components": 11826,
+    "concepts": 6836,
+    "observations": 6851,
+    "repos": 3258,
+    "terms": 6788
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -120,6 +120,7 @@
     "ActiveVisionLab/direct-posenet",
     "ActiveVisionLab/NeFeS",
     "ada-cheng/CAT-Pruning",
+    "AdaCore/gnatcoll-db",
     "AdaCore/VSS",
     "adafruit/Adafruit_BMP085_Unified",
     "adafruit/Adafruit_PM25AQI",
@@ -187,6 +188,7 @@
     "airaria/GRAIN",
     "AirExo/act-in-the-wild",
     "AirExo/collector",
+    "airlift/codestyle",
     "airtai/prompt-leakage-probing",
     "aiya000/vim-ghcid-quickfix",
     "ajinasokan/recharge",
@@ -872,6 +874,7 @@
     "coin-or/Cmpl",
     "cointop-sh/colors",
     "ColdHeat/pystarlark",
+    "ColinKennedy/mega.cmdparse",
     "collective-funds/guidelines",
     "collective/cookiecutter-plone-starter",
     "Comfy-Org/ComfyUI_legacy_frontend",
@@ -1195,6 +1198,7 @@
     "Edward-Sun/gpt-accelera",
     "Edward-Sun/RECITE",
     "EdwardDixon/snake",
+    "edwhu/dreamer4-jax",
     "edwinb/Idris2",
     "egoist/vue-bytesize-icons",
     "Ehsanfarahi22/Bypassing-SNI-based-HTTPS-Filtering",
@@ -2412,6 +2416,7 @@
     "nvm-sh/logos",
     "o3de/sig-simulation",
     "objectbox/objectbox-dart-performance",
+    "objectbox/objectbox-generator",
     "ocamlpro/opam",
     "oclif/dev-cli",
     "oclif/hello-world",
@@ -2683,6 +2688,7 @@
     "robotology/gazebo-yarp-plugins",
     "robotology/gym-ignition-models",
     "robotology/ycm-cmake-modules",
+    "robotools/ufo2fdk",
     "ROCm/HIPCC",
     "rocq-community/docker-coq",
     "roginfarrer/vim-dirvish-dovish",

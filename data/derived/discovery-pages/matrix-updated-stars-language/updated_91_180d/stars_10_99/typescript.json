@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 593,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 35,
-    "terms": 82
+    "components": 599,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 36,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
+    "aaaaalexis/obsidian-pseudo-mica",
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
     "AlexJPotter/fluentvalidation-ts",

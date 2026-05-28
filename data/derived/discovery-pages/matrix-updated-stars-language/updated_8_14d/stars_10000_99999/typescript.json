@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 5,
-    "terms": 66
+    "components": 132,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 2,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ChatGPTNextWeb/NextChat",
-    "fuma-nama/fumadocs",
-    "googleapis/google-api-nodejs-client",
-    "Koenkk/zigbee2mqtt",
-    "lucide-icons/lucide"
+    "googleapis/google-api-nodejs-client"
   ]
 }

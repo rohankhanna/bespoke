@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 306,
-    "observations": 306,
-    "repos": 45,
-    "terms": 306
+    "components": 274,
+    "concepts": 323,
+    "observations": 323,
+    "repos": 47,
+    "terms": 323
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
+    "allegro/hermes",
     "apache/camel-examples",
     "apache/commons-jexl",
     "apache/datasketches-java",
@@ -52,6 +53,7 @@
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
     "redis/redis-om-spring",
+    "revelc/formatter-maven-plugin",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",

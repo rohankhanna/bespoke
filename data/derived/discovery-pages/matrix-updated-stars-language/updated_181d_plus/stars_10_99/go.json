@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 428,
-    "concepts": 446,
-    "observations": 449,
-    "repos": 169,
-    "terms": 442
+    "components": 431,
+    "concepts": 453,
+    "observations": 456,
+    "repos": 170,
+    "terms": 449
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -139,6 +139,7 @@
     "mholt/caddy-hitcounter",
     "mosn/proxy-wasm-go-host",
     "muesli/ansi",
+    "objectbox/objectbox-generator",
     "olric-data/olric-cloud-plugin",
     "opencost/opencost-plugins",
     "opentracing/basictracer-go",

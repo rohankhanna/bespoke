@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 782,
-    "observations": 783,
-    "repos": 162,
-    "terms": 771
+    "components": 400,
+    "concepts": 796,
+    "observations": 797,
+    "repos": 163,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -55,6 +55,7 @@
     "crowsonkb/k-diffusion",
     "cvg/Hierarchical-Localization",
     "cvg/LightGlue",
+    "daijro/browserforge",
     "davidhalter/jedi-vim",
     "descriptinc/descript-audio-codec",
     "DigitalPhonetics/IMS-Toucan",
@@ -77,7 +78,6 @@
     "google/vizier",
     "graphql-python/graphene-django",
     "gusye1234/nano-graphrag",
-    "hako-mikan/sd-webui-regional-prompter",
     "harbor-framework/terminal-bench",
     "hkust-nlp/simpleRL-reason",
     "huggingface/Math-Verify",
@@ -95,6 +95,7 @@
     "KaiyangZhou/deep-person-reid",
     "KellerJordan/Muon",
     "kijai/ComfyUI-WanVideoWrapper",
+    "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "LTH14/JiT",
@@ -110,7 +111,6 @@
     "mosaicml/streaming",
     "mozillazg/pinyin-data",
     "myhub/tr",
-    "nari-labs/dia2",
     "NixOS/nixops",
     "nod-ai/AMD-SHARK-Studio",
     "notofonts/noto-cjk",
@@ -174,6 +174,7 @@
     "WenmuZhou/PytorchOCR",
     "willisma/SiT",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
+    "YosysHQ/icestorm",
     "Yuliang-Liu/Monkey",
     "yxlllc/DDSP-SVC"
   ]

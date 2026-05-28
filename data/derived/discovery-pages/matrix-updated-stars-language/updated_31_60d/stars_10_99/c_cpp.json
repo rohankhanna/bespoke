@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 386,
-    "concepts": 324,
-    "observations": 324,
-    "repos": 71,
-    "terms": 324
+    "concepts": 325,
+    "observations": 325,
+    "repos": 72,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "acts-project/traccc",
@@ -80,6 +80,7 @@
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
     "uael/sv",
+    "walbourn/directxmathtest",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
     "yoshoku/numo-narray-alt",

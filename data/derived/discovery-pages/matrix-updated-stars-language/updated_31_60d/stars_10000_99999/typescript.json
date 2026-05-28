@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7074,
-    "concepts": 778,
-    "observations": 785,
-    "repos": 86,
-    "terms": 791
+    "components": 7236,
+    "concepts": 831,
+    "observations": 838,
+    "repos": 91,
+    "terms": 844
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -33,6 +33,7 @@
     "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
+    "coder/code-server",
     "conventional-changelog/commitlint",
     "diegomura/react-pdf",
     "discordjs/discord.js",
@@ -48,11 +49,13 @@
     "garrytan/gstack",
     "gcanti/fp-ts",
     "google/brotli",
+    "GoogleChromeLabs/comlink",
     "grafana/grafana",
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
     "gvergnaud/ts-pattern",
+    "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
@@ -60,6 +63,7 @@
     "labring/FastGPT",
     "labring/sealos",
     "lerna/lerna",
+    "lit/lit",
     "louislam/dockge",
     "microsoft/playwright",
     "microsoft/playwright-mcp",
@@ -69,6 +73,7 @@
     "neoclide/coc.nvim",
     "nvidia/nemoclaw",
     "openai/openai-node",
+    "paulmillr/chokidar",
     "pnpm/pnpm",
     "postcss/postcss",
     "privatenumber/tsx",

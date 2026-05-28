@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 43,
-    "terms": 170
+    "components": 214,
+    "concepts": 179,
+    "observations": 179,
+    "repos": 44,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -20,6 +20,7 @@
     "bazelbuild/buildtools",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
+    "cenkalti/backoff",
     "charmbracelet/glamour",
     "chromedp/examples",
     "CloudyKit/jet",
@@ -47,11 +48,11 @@
     "minio/operator",
     "mozillazg/go-pinyin",
     "OffchainLabs/arbitrum-classic",
-    "opencontainers/image-spec",
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",
     "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
+    "smtg-ai/claude-squad",
     "spf13/pflag",
     "stripe/stripe-mock",
     "tidwall/btree",

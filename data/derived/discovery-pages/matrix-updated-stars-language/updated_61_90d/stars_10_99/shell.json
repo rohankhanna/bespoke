@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 11,
-    "terms": 27
+    "components": 30,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 12,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "alchemiststudiosDOTai/harness-engineering",
     "coin-or/coinbrew",
+    "conda-forge/spacy-feedstock",
     "containers/image_build",
     "graphql/composite-schemas-spec",
     "jawwadfirdousi/agent-skills",

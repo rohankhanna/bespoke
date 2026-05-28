@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 884,
-    "concepts": 579,
-    "observations": 583,
-    "repos": 89,
-    "terms": 576
+    "components": 940,
+    "concepts": 602,
+    "observations": 606,
+    "repos": 93,
+    "terms": 599
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -55,6 +55,7 @@
     "IdreesInc/Monocraft",
     "JaidedAI/EasyOCR",
     "jaredpalmer/tsdx",
+    "Jiayi-Pan/TinyZero",
     "jsvine/pdfplumber",
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
@@ -74,8 +75,10 @@
     "mozilla/readability",
     "muesli/duf",
     "Netflix/Hystrix",
+    "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "PaddlePaddle/PaddleNLP",
+    "peers/peerjs",
     "QwenLM/Qwen3",
     "QwenLM/Qwen3-VL",
     "ramda/ramda",
@@ -101,6 +104,7 @@
     "wechaty/wechaty",
     "winstonjs/winston",
     "yoheinakajima/babyagi",
-    "zsh-users/zsh-syntax-highlighting"
+    "zsh-users/zsh-syntax-highlighting",
+    "zylon-ai/private-gpt"
   ]
 }

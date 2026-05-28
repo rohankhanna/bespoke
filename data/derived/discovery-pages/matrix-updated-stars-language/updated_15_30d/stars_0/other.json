@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 8,
-    "terms": 9
+    "components": 12,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 5,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
-    "arnaud-lb/php-rdkafka-doc",
     "atsushieno/aap-lv2-string-machine",
     "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
-    "danielrosehill/Claude-HP5200-Skill-plugin",
     "getlantern/guide",
     "HumanSignal/label-studio-client-generator",
-    "JuliaBinaryWrappers/Expat_jll.jl",
     "netdur/imaged-sdk-examples"
   ]
 }

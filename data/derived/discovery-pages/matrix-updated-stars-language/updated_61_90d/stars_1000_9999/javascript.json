@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 670,
-    "concepts": 145,
-    "observations": 145,
+    "components": 717,
+    "concepts": 163,
+    "observations": 163,
     "repos": 27,
-    "terms": 144
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "anandthakker/doiuse",
-    "apostrophecms/sanitize-html",
     "babel/babel-loader",
     "cerebral/cerebral",
     "commonmark/commonmark.js",
     "crossbario/autobahn-js",
     "csstree/csstree",
     "danmactough/node-feedparser",
+    "dooy/chatgpt-web-midjourney-proxy",
     "engineer-man/piston",
     "GoogleChrome/lighthouse-ci",
     "hughsk/flat",

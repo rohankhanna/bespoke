@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 19,
-    "terms": 122
+    "components": 73,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 17,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
-    "amrsa1/Android-Emulator-image",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "harbor-framework/terminal-bench-2",
@@ -29,7 +28,6 @@
     "microcai/gentoo-zh",
     "mozilla/addons",
     "NVIDIA/enroot",
-    "pacstall/pacstall-programs",
     "sclorg/s2i-php-container",
     "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"

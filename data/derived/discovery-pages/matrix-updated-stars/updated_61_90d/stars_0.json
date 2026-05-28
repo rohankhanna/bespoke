@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 238,
+    "components": 247,
     "concepts": 126,
     "observations": 128,
-    "repos": 74,
-    "terms": 128
+    "repos": 75,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
@@ -63,6 +63,7 @@
     "musicman3/cruder",
     "musicman3/r2-d2",
     "Nambers/ssrJSON-benchmark",
+    "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",

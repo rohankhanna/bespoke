@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1084,
-    "concepts": 1083,
-    "observations": 1087,
-    "repos": 97,
-    "terms": 1067
+    "components": 1116,
+    "concepts": 1103,
+    "observations": 1107,
+    "repos": 99,
+    "terms": 1087
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
     "99designs/gqlgen",
+    "a-h/templ",
     "abiosoft/colima",
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
@@ -51,6 +52,7 @@
     "ethereum/EIPs",
     "ethereum/go-ethereum",
     "evanw/esbuild",
+    "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",
     "gofiber/fiber",

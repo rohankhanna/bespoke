@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 143,
-    "observations": 143,
+    "components": 131,
+    "concepts": 157,
+    "observations": 157,
     "repos": 33,
-    "terms": 148
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
+    "encode/httpx",
+    "explosion/spaCy",
     "facebookresearch/vggt",
     "FunAudioLLM/CosyVoice",
     "Huanshere/VideoLingo",
     "huggingface/text-generation-inference",
-    "Jiayi-Pan/TinyZero",
     "karpathy/autoresearch",
     "KittenML/KittenTTS",
     "KlingAIResearch/LivePortrait",
@@ -45,7 +46,6 @@
     "superclaude-org/superclaude_framework",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
-    "Zulko/moviepy",
-    "zylon-ai/private-gpt"
+    "Zulko/moviepy"
   ]
 }

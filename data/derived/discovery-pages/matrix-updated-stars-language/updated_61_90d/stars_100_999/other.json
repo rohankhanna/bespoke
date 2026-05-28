@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 797,
-    "concepts": 560,
-    "observations": 562,
-    "repos": 140,
-    "terms": 557
+    "components": 790,
+    "concepts": 532,
+    "observations": 534,
+    "repos": 138,
+    "terms": 529
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -36,7 +36,6 @@
     "bhauman/rebel-readline",
     "BKWLD/laravel-pug",
     "caddyserver/caddy-docker",
-    "chakravala/Grassmann.jl",
     "ChenyunWu/PhraseCutDataset",
     "chiron-fonts/chiron-hei-hk",
     "cjohansen/replicant",
@@ -87,9 +86,6 @@
     "JetBrains/gradle-changelog-plugin",
     "joshuaulrich/TTR",
     "joshuaulrich/xts",
-    "JuliaEditorSupport/julia-emacs",
-    "JuliaEditorSupport/julia-vim",
-    "JuliaGizmos/Blink.jl",
     "JuliaLang/JuliaSyntax.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
@@ -113,6 +109,7 @@
     "microsoft/microsoft-performance-toolkit-sdk",
     "MiloszKrajewski/K4os.Compression.LZ4",
     "milvus-io/milvus-sdk-csharp",
+    "mirage/mirage-www",
     "moyangzhan/langchain4j-aideepin-admin",
     "nebula-plugins/nebula-release-plugin",
     "NimblePros/eShopOnWeb",
@@ -142,6 +139,7 @@
     "stefan-hoeck/idris2-pack",
     "stellar/soroban-examples",
     "SymbolicML/DynamicExpressions.jl",
+    "tanvirtin/vgit.nvim",
     "tarides/dune-release",
     "tc39/proposal-source-phase-imports",
     "trailofbits/eth-security-toolbox",

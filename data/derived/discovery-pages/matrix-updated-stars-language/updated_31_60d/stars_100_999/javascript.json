@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2813,
-    "concepts": 693,
-    "observations": 702,
-    "repos": 143,
-    "terms": 723
+    "components": 2943,
+    "concepts": 715,
+    "observations": 725,
+    "repos": 150,
+    "terms": 745
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -29,11 +29,13 @@
     "appium/appium-ios-device",
     "aredridel/node-bin-gen",
     "Atheos/Atheos",
+    "auth0/node-jws",
     "aws/aws-cdk-rfcs",
     "badgen/badgen",
     "bcomnes/npm-run-all2",
     "beve-org/beve",
     "bmad-code-org/bmad-module-game-dev-studio",
+    "Brooooooklyn/snappy",
     "browserify/resolve",
     "browserslist/update-db",
     "carbon-design-system/carbon-components-vue",
@@ -100,6 +102,7 @@
     "karma-runner/karma-jasmine",
     "kharchenkolab/pagoda2",
     "kriszyp/lmdb-js",
+    "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "Level/abstract-level",
     "lis186/ccxray",
@@ -126,14 +129,17 @@
     "photopea/UZIP.js",
     "plone/volto",
     "poolifier/poolifier",
+    "postcss/postcss-cli",
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
     "previm/previm",
     "projectfluent/fluent.js",
+    "reviewdog/action-eslint",
     "rooklift/ogatak",
     "rtfeldman/node-test-runner",
     "rubyjs/mini_racer",
+    "rvagg/github-webhook",
     "semantic-release/changelog",
     "semantic-release/commit-analyzer",
     "semantic-release/git",
@@ -156,6 +162,7 @@
     "w3c/trusted-types",
     "webpack/css-minimizer-webpack-plugin",
     "will62794/spectacle",
-    "zone-eu/zone-mta"
+    "zone-eu/zone-mta",
+    "ztoben/assets-webpack-plugin"
   ]
 }

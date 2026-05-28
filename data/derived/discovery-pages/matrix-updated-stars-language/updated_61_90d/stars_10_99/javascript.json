@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 88,
-    "observations": 88,
+    "components": 254,
+    "concepts": 89,
+    "observations": 89,
     "repos": 27,
-    "terms": 88
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
     "angular/domino",
-    "apostrophecms/apostrophe-astro",
     "appwrite/playground-for-node",
     "brody2consult/react-native-module-init",
     "chrisdickinson/varint",
@@ -33,6 +32,7 @@
     "ipld/js-dag-pb",
     "Jack-Works/react-refresh-transformer",
     "kddnewton/prettier-plugin-ini",
+    "kellyselden/eslint-plugin-json-files",
     "kibertoad/toad-cache",
     "mongodb-js/zstd",
     "nodejs/email",

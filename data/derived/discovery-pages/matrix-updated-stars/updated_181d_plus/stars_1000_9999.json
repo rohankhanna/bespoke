@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10498,
-    "concepts": 9041,
-    "observations": 9050,
-    "repos": 2346,
-    "terms": 8914
+    "components": 10512,
+    "concepts": 9070,
+    "observations": 9079,
+    "repos": 2351,
+    "terms": 8943
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -903,6 +903,7 @@
     "hadronized/hop.nvim",
     "haishanh/yacd",
     "hako-mikan/sd-webui-lora-block-weight",
+    "hako-mikan/sd-webui-regional-prompter",
     "hal9ai/awesome-dataviz",
     "haml/haml-rails",
     "hans/obsidian-citation-plugin",
@@ -1017,6 +1018,7 @@
     "integrations/slack",
     "intel/intel-extension-for-transformers",
     "InteractiveComputerGraphics/PositionBasedDynamics",
+    "InteractiveComputerGraphics/SPlisHSPlasH",
     "InternLM/HuixiangDou",
     "InternLM/InternLM",
     "InternLM/InternLM-XComposer",
@@ -1102,6 +1104,7 @@
     "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
     "jose-elias-alvarez/null-ls.nvim",
     "JoshClose/CsvHelper",
+    "jpillora/cloud-torrent",
     "jpmens/jo",
     "jquery-archive/jquery-mobile",
     "jquery/esprima",
@@ -1285,6 +1288,7 @@
     "lxgw/yozai-font",
     "lxtGH/OMG-Seg",
     "Lyken17/pytorch-OpCounter",
+    "lz4/lz4-java",
     "lzfse/lzfse",
     "machakann/vim-sandwich",
     "machyve/xhyve",
@@ -1483,6 +1487,7 @@
     "mysticatea/npm-run-all",
     "nanotee/nvim-lua-guide",
     "naoto0804/pytorch-AdaIN",
+    "nari-labs/dia2",
     "natanielruiz/deep-head-pose",
     "natefinch/lumberjack",
     "natemoo-re/astro-icon",

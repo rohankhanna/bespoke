@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 675,
-    "concepts": 436,
-    "observations": 437,
-    "repos": 154,
-    "terms": 425
+    "components": 707,
+    "concepts": 477,
+    "observations": 478,
+    "repos": 153,
+    "terms": 468
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -31,13 +31,10 @@
     "agent-sh/deslop",
     "agent-sh/ship",
     "agents-squads/agents-squads",
-    "aifoundry-org/et-man",
     "aifoundry-org/riscv-gnu-toolchain",
     "al1-nasir/Research_council",
     "alexellis/gha-bump",
     "alexpolonsky/agent-skill-ontopo",
-    "alexpolonsky/agent-skills",
-    "alexpolonsky/awesome-agent-skills-israel",
     "alonw0/cc-redalerts-statusline",
     "amir684/esp32c3-red-alert",
     "andrasg/matterbridge-loxone",
@@ -47,6 +44,7 @@
     "asafr93-rosa/shopping-list-il",
     "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
+    "aspect-build/tools_telemetry",
     "astroyat/lerobot",
     "ATProtoKit/MultiformatsKit",
     "automazeio/proof-go",
@@ -127,11 +125,11 @@
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
     "Mercury13/unicodia-sesh",
+    "mpizenberg/elm-test-runner",
     "neuroverseos/neuroverseos-openclaw-governance",
     "newton-physics/newton-governance",
     "nikitabobko/homebrew-tap",
     "objectbox/objectbox-swift-spm",
-    "open-rpc/markdown-gen",
     "OpenCIDN/httpmirror",
     "openelections/openelections-data-sd",
     "openobserve/vector",
@@ -154,8 +152,10 @@
     "shakacode/package_json",
     "sigp/quick-protobuf",
     "sparklabutah/timewarp",
+    "stdlib-js/array-buffer",
+    "stdlib-js/array-dtypes",
+    "stdlib-js/array-typed-dtypes",
     "SWE-bench/SWE-smith-envs",
-    "sylabs/singularity-admindocs",
     "tanyongkiam/cake_lpr",
     "tc39/proposal-intl-keep-trailing-zeros",
     "tombelieber/claude-backup",
@@ -164,7 +164,6 @@
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "vovkos/doxyrest_b",
     "WebAssembly/compact-import-section",
-    "ylsdamxssjxxdd/nerv",
     "yoshoku/numo-libsvm",
     "zkcrypto/rfcs"
   ]

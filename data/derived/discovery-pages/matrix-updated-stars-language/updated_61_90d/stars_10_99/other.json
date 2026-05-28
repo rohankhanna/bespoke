@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 402,
-    "concepts": 318,
-    "observations": 319,
-    "repos": 97,
-    "terms": 314
+    "components": 382,
+    "concepts": 317,
+    "observations": 318,
+    "repos": 96,
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -25,6 +25,7 @@
     "andys8/git-brunch",
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
+    "aperezdc/lua-wcwidth",
     "appsignal/mono",
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
@@ -42,8 +43,10 @@
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "coin-or-tools/homebrew-coinor",
+    "crazy-max/yasu",
     "DamageLabs/paper_trail_manager",
     "dbuenzli/logs",
+    "dharrigan/startrek",
     "dominique-unruh/scala-isabelle",
     "DragonFlyBSD/DPorts",
     "dwyl/cid",
@@ -54,9 +57,7 @@
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "FluxML/fluxml.github.io",
-    "FoundationDB/fdb-build-support",
     "GaloisInc/cryptol-specs",
-    "HaxeFlixel/haxeflixel.com",
     "henryw374/chronos",
     "informalsystems/audits",
     "informalsystems/choreo",
@@ -69,7 +70,6 @@
     "js-temporal/proposal-temporal-v2",
     "JuliaGtk/Gtk4.jl",
     "JuliaPackaging/PkgServer.jl",
-    "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
     "kalbasit/nur-packages",
@@ -97,7 +97,6 @@
     "php/doc-it",
     "rcasia/neotest-bash",
     "revfactory/claude-code-harness",
-    "robotology/icub-models",
     "rojo-rbx/rojo.space",
     "rust-lang/crates-build-env",
     "Saalvage/AssimpNetter",

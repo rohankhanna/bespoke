@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 62,
     "observations": 62,
-    "repos": 19,
+    "repos": 20,
     "terms": 61
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
@@ -32,6 +32,7 @@
     "sindresorhus/ponyfill",
     "syntax-tree/mdast",
     "tc39/proposal-signals",
+    "TheRobotStudio/SO-ARM100",
     "uBlockOrigin/uBlock-issues"
   ]
 }

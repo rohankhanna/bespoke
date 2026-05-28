@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 517,
-    "concepts": 345,
-    "observations": 347,
-    "repos": 83,
-    "terms": 341
+    "components": 570,
+    "concepts": 370,
+    "observations": 372,
+    "repos": 87,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
+    "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
@@ -50,6 +51,7 @@
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
     "darkweak/storages",
+    "datachainlab/cosmos-ethereum-ibc-lcp",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "depado/smallblog",
@@ -69,6 +71,7 @@
     "Infisical/go-sdk",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
+    "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/provider-aws-test-infra",
@@ -91,6 +94,7 @@
     "terraform-linters/tflint-ruleset-google",
     "tilt-dev/tilt-apiserver",
     "transparency-dev/armored-witness",
+    "transparency-dev/witness",
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",
     "usbarmory/armory-ums",

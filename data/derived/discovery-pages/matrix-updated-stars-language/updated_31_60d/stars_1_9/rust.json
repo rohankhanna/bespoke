@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 77,
-    "observations": 78,
-    "repos": 25,
-    "terms": 79
+    "components": 194,
+    "concepts": 80,
+    "observations": 81,
+    "repos": 27,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "curiousdannii/remglk-rs",
@@ -29,12 +29,14 @@
     "gaoyifan/bgptools",
     "hsivonen/chardetng_c",
     "huggingface/fuser",
+    "image-rs/image-extras",
     "juharris/optify",
     "kensave/agent-memory-rs",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "Layr-Labs/hokulea",
     "marin-community/kitoken",
     "netdur/hugind",
+    "oxc-project/oxc-index-vec",
     "pkgxdev/bpb",
     "tremby/snapmixer",
     "urschrei/polyline-ffi",

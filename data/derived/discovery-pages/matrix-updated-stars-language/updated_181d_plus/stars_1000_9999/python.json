@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 936,
-    "concepts": 3796,
-    "observations": 3798,
-    "repos": 965,
-    "terms": 3729
+    "concepts": 3798,
+    "observations": 3800,
+    "repos": 967,
+    "terms": 3731
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -358,6 +358,7 @@
     "guoqincode/Open-AnimateAnyone",
     "GuyTevet/motion-diffusion-model",
     "hako-mikan/sd-webui-lora-block-weight",
+    "hako-mikan/sd-webui-regional-prompter",
     "haoheliu/AudioLDM",
     "HBNetwork/python-decouple",
     "hendrycks/math",
@@ -595,6 +596,7 @@
     "MVIG-SJTU/AlphaPose",
     "mymarilyn/clickhouse-driver",
     "naoto0804/pytorch-AdaIN",
+    "nari-labs/dia2",
     "natanielruiz/deep-head-pose",
     "NATSpeech/NATSpeech",
     "naver/dust3r",

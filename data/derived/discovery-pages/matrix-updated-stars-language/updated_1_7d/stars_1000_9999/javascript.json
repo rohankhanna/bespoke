@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 446,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 6,
-    "terms": 63
+    "components": 592,
+    "concepts": 125,
+    "observations": 126,
+    "repos": 10,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "apollographql/eslint-plugin-graphql",
+    "callstack/react-native-builder-bob",
+    "endojs/endo",
+    "geotiffjs/geotiff.js",
     "gildas-lormeau/zip.js",
+    "googleapis/google-cloud-node",
     "ipfs/ipfs-webui",
+    "JuliaPluto/Pluto.jl",
     "module-federation/core",
-    "sveltejs/devalue",
     "yomidevs/yomitan"
   ]
 }

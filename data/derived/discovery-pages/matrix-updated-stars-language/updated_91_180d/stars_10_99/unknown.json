@@ -3,7 +3,7 @@
     "components": 40,
     "concepts": 69,
     "observations": 69,
-    "repos": 37,
+    "repos": 36,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-28T05:56:51.753710+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
     "Adlik/model_zoo",
-    "airlift/codestyle",
     "apache/.github",
     "astro/deadnix-action",
     "astroyat/lerobot-ros",
