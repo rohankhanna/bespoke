@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1495,
-    "concepts": 938,
-    "observations": 939,
-    "repos": 261,
-    "terms": 942
+    "components": 1500,
+    "concepts": 942,
+    "observations": 943,
+    "repos": 263,
+    "terms": 946
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -22,6 +22,7 @@
     "AdaCore/gnatcoll-core",
     "AdaCore/langkit",
     "adams85/acornima",
+    "AdguardTeam/SafariConverterLib",
     "adrigzr/neotest-mocha",
     "ajevans99/swift-mcp-toolkit",
     "alexrudall/midjourney",
@@ -45,6 +46,7 @@
     "appsignal/appsignal-elixir-phoenix",
     "appwrite/sdk-for-swift",
     "aquasecurity/trivy-checks",
+    "arktekk/sbt-aether-deploy",
     "Ascend/Ascend-CI",
     "aspect-build/rules_cypress",
     "aspect-build/rules_esbuild",

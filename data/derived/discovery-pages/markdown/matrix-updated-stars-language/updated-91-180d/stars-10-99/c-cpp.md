@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
-- terms: 134
-- components: 129
-- concepts: 137
-- observations: 139
+- repos: 46
+- terms: 125
+- components: 126
+- concepts: 126
+- observations: 127
 
 ## Static behavior
 
@@ -72,7 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xtensor-stack/xtensor-r](https://github.com/xtensor-stack/xtensor-r) | 90 | 2025-12-06T21:10:45Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [ibireme/c_numconv_benchmark](https://github.com/ibireme/c_numconv_benchmark) | 73 | 2025-12-05T17:11:27Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [bobfang1992/pytomlpp](https://github.com/bobfang1992/pytomlpp) | 94 | 2025-11-30T02:05:08Z | C/C++ | Infrastructure/tooling | 4 | 7 | 5 | 5 |
-| [3dfxdev/EDGE](https://github.com/3dfxdev/EDGE) | 81 | 2025-11-29T07:14:01Z | C/C++ | Infrastructure/tooling | 9 | 3 | 11 | 12 |
 
 ## Repos sorted by stars
 
@@ -88,7 +87,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [paoloshasta/shasta](https://github.com/paoloshasta/shasta) | 89 | 2026-02-16T18:39:52Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Taritsyn/LibSassHost](https://github.com/Taritsyn/LibSassHost) | 87 | 2026-02-03T12:56:55Z | C/C++ | Library | 4 | 0 | 4 | 4 |
 | [o3de/PhysX](https://github.com/o3de/PhysX) | 81 | 2026-02-18T16:24:39Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [3dfxdev/EDGE](https://github.com/3dfxdev/EDGE) | 81 | 2025-11-29T07:14:01Z | C/C++ | Infrastructure/tooling | 9 | 3 | 11 | 12 |
 | [r-spatial/s2](https://github.com/r-spatial/s2) | 79 | 2026-02-14T14:57:33Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [tlaplus-community/tree-sitter-tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus) | 75 | 2026-02-17T16:55:51Z | C/C++ | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [ibireme/c_numconv_benchmark](https://github.com/ibireme/c_numconv_benchmark) | 73 | 2025-12-05T17:11:27Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 47
-- terms: 323
-- components: 274
-- concepts: 323
-- observations: 323
+- repos: 48
+- terms: 344
+- components: 289
+- concepts: 344
+- observations: 344
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bndtools/bnd](https://github.com/bndtools/bnd) | 556 | 2026-04-28T06:11:45Z | Java | CLI | 21 | 15 | 21 | 21 |
 | [revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin) | 301 | 2026-04-27T15:50:38Z | Java | CLI | 6 | 3 | 6 | 6 |
 | [allegro/hermes](https://github.com/allegro/hermes) | 856 | 2026-04-27T11:25:09Z | Java | Infrastructure/tooling | 11 | 18 | 11 | 11 |
 | [microsoft/vscode-java-test](https://github.com/microsoft/vscode-java-test) | 331 | 2026-04-27T08:57:21Z | Java | Infrastructure/tooling | 7 | 31 | 7 | 7 |
@@ -89,6 +90,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [googleapis/google-oauth-java-client](https://github.com/googleapis/google-oauth-java-client) | 657 | 2026-04-20T21:14:46Z | Java | CLI | 6 | 9 | 6 | 6 |
 | [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-04-10T21:58:36Z | Java | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [bndtools/bnd](https://github.com/bndtools/bnd) | 556 | 2026-04-28T06:11:45Z | Java | CLI | 21 | 15 | 21 | 21 |
 | [eclipse-buildship/buildship](https://github.com/eclipse-buildship/buildship) | 549 | 2026-04-02T09:11:15Z | Java | CLI | 0 | 2 | 0 | 0 |
 | [milvus-io/milvus-sdk-java](https://github.com/milvus-io/milvus-sdk-java) | 485 | 2026-04-24T06:45:15Z | Java | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [googleapis/google-auth-library-java](https://github.com/googleapis/google-auth-library-java) | 480 | 2026-04-20T21:17:04Z | Java | CLI | 3 | 4 | 3 | 3 |

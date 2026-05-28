@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4381,
-    "concepts": 3031,
-    "observations": 3038,
-    "repos": 770,
-    "terms": 3022
+    "components": 4409,
+    "concepts": 3040,
+    "observations": 3047,
+    "repos": 774,
+    "terms": 3032
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -118,6 +118,7 @@
     "axel-op/googlejavaformat-action",
     "axon-rl/gem",
     "ayazhafiz/xorf",
+    "aymenfurter/ralph",
     "Azure-Samples/ai-rag-chat-evaluator",
     "Azure-Samples/azure-openai-rag-workshop",
     "Azure-Samples/azure-search-openai-demo-java",
@@ -176,6 +177,7 @@
     "chengzhag/PanFusion",
     "chfast/intx",
     "chika0801/Xray-examples",
+    "Chris-hughes10/pytorch-accelerated",
     "christgau/wsdd",
     "citation-file-format/citation-file-format",
     "cleanlab/examples",
@@ -184,6 +186,7 @@
     "clemense/yourdfpy",
     "clj-commons/etaoin",
     "clj-easy/graalvm-clojure",
+    "clojure-emacs/inf-clojure",
     "clojure/core.memoize",
     "clojure/core.unify",
     "clojure/data.fressian",
@@ -250,7 +253,6 @@
     "dop251/goja_nodejs",
     "drduh/config",
     "drivendataorg/zamba",
-    "dthuerck/mapmap_cpu",
     "dtolnay/cargo-llvm-lines",
     "dtolnay/prettyplease",
     "dualverse-ai/station",
@@ -348,6 +350,7 @@
     "Helsinki-NLP/Opus-MT",
     "Helsinki-NLP/OPUS-MT-train",
     "HerringtonDarkholme/yats.vim",
+    "hhyyrylainen/GodotPckTool",
     "hkchengrex/CascadePSP",
     "hollowstrawberry/kohya-colab",
     "HolyWu/vs-rife",
@@ -769,6 +772,7 @@
     "yeyupiaoling/PaddlePaddle-DeepSpeech",
     "yeyupiaoling/PPASR",
     "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
+    "ylsdamxssjxxdd/eva",
     "ymoslem/OpenNMT-Tutorial",
     "yogthos/migratus",
     "YosysHQ/prjtrellis",

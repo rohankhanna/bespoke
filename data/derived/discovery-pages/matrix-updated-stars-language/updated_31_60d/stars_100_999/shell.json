@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 241,
-    "concepts": 317,
-    "observations": 321,
-    "repos": 59,
-    "terms": 327
+    "concepts": 329,
+    "observations": 333,
+    "repos": 60,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
+    "2KAbhishek/dots2k",
     "actions/upload-pages-artifact",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",

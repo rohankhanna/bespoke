@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 15,
-    "terms": 49
+    "components": 58,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 14,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -22,7 +22,6 @@
     "jupyterlab/frontends-team-compass",
     "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
-    "prefix-dev/rattler-build-action",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/root-signing-staging",
     "spiffe/spire-examples",

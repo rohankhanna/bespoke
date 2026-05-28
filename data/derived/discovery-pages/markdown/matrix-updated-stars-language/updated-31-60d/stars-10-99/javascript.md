@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 93
-- terms: 361
-- components: 1385
-- concepts: 361
-- observations: 361
+- repos: 94
+- terms: 363
+- components: 1395
+- concepts: 363
+- observations: 363
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hyparam/hyparquet-writer](https://github.com/hyparam/hyparquet-writer) | 55 | 2026-04-28T08:52:11Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [tracked-tools/tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) | 85 | 2026-04-27T19:32:28Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [wyyazlz/sheetnext](https://github.com/wyyazlz/sheetnext) | 28 | 2026-04-27T16:17:22Z | JavaScript | Web app | 13 | 2 | 13 | 13 |
 | [ionide/tree-sitter-fsharp](https://github.com/ionide/tree-sitter-fsharp) | 91 | 2026-04-27T13:14:20Z | JavaScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
@@ -149,6 +150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Level/browser-level](https://github.com/Level/browser-level) | 60 | 2026-04-02T01:26:28Z | JavaScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [rescript-lang/tree-sitter-rescript](https://github.com/rescript-lang/tree-sitter-rescript) | 59 | 2026-04-26T13:13:26Z | JavaScript | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [jasmine/jasmine-browser-runner](https://github.com/jasmine/jasmine-browser-runner) | 56 | 2026-04-18T15:13:41Z | JavaScript | Web app | 0 | 13 | 0 | 0 |
+| [hyparam/hyparquet-writer](https://github.com/hyparam/hyparquet-writer) | 55 | 2026-04-28T08:52:11Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [Azure/azure-api-style-guide](https://github.com/Azure/azure-api-style-guide) | 55 | 2026-04-02T12:04:45Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [octokit/openapi-types.ts](https://github.com/octokit/openapi-types.ts) | 54 | 2026-04-23T14:59:38Z | JavaScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [ahmadnassri/node-glob-promise](https://github.com/ahmadnassri/node-glob-promise) | 54 | 2026-04-17T14:02:51Z | JavaScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |

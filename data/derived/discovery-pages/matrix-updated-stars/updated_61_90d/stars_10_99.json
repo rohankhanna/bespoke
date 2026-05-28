@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1820,
-    "concepts": 1057,
-    "observations": 1059,
-    "repos": 332,
-    "terms": 1053
+    "components": 1813,
+    "concepts": 1055,
+    "observations": 1057,
+    "repos": 331,
+    "terms": 1051
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -343,7 +343,6 @@
     "w3c/element-timing",
     "wzshiming/repimage",
     "xuanyuzhang21/VQ-Insight",
-    "yxlllc/RMVPE",
-    "zoom/karpenter-oci"
+    "yxlllc/RMVPE"
   ]
 }

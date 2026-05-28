@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2453,
-    "concepts": 2906,
-    "observations": 2915,
-    "repos": 386,
-    "terms": 2902
+    "components": 2457,
+    "concepts": 2919,
+    "observations": 2928,
+    "repos": 387,
+    "terms": 2915
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -131,6 +131,7 @@
     "FuzzyGrim/Yamtrack",
     "Gen-Verse/OpenClaw-RL",
     "getzep/zep",
+    "git-cola/git-cola",
     "gitpython-developers/GitPython",
     "google-deepmind/acme",
     "google-deepmind/bsuite",

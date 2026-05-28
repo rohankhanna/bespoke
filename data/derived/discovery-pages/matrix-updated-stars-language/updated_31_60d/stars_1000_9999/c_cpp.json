@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1431,
-    "concepts": 1565,
-    "observations": 1572,
-    "repos": 210,
-    "terms": 1555
+    "components": 1450,
+    "concepts": 1602,
+    "observations": 1609,
+    "repos": 213,
+    "terms": 1592
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -168,6 +168,7 @@
     "open-source-parsers/jsoncpp",
     "OpenSC/OpenSC",
     "openssh/openssh-portable",
+    "openucx/ucx",
     "openxla/xla",
     "Overv/VulkanTutorial",
     "panda3d/panda3d",
@@ -187,6 +188,7 @@
     "RoaringBitmap/CRoaring",
     "ROCm/hip",
     "root-project/cling",
+    "sail-sg/envpool",
     "saitoha/libsixel",
     "SarahWeiii/CoACD",
     "sebastianstarke/AI4Animation",
@@ -208,6 +210,7 @@
     "uccl-project/uccl",
     "uNetworking/uSockets",
     "uNetworking/uWebSockets.js",
+    "unitreerobotics/unitree_sdk2",
     "unum-cloud/USearch",
     "util-linux/util-linux",
     "vectorclass/version2",

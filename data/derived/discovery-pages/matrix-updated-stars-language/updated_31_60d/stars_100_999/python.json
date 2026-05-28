@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2015,
-    "concepts": 2017,
-    "observations": 2027,
-    "repos": 393,
-    "terms": 2026
+    "components": 2052,
+    "concepts": 2051,
+    "observations": 2061,
+    "repos": 399,
+    "terms": 2060
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -25,6 +25,7 @@
     "AgentR1/Claw-R1",
     "agentscope-ai/agentscope-runtime",
     "agentscope-ai/agentscope-samples",
+    "agentscope-ai/Trinity-RFT",
     "agiletec-inc/airis-mcp-gateway",
     "agiresearch/Cerebrum",
     "AgnostiqHQ/covalent",
@@ -161,6 +162,7 @@
     "fumiama/Retrieval-based-Voice-Conversion-WebUI",
     "fzyzcjy/torch_memory_saver",
     "G-Research/ahocorasick_rs",
+    "galaxyproject/planemo",
     "gmberton/MegaLoc",
     "gmberton/VPR-methods-evaluation",
     "godotengine/godot-builds",
@@ -276,6 +278,7 @@
     "nanoporetech/medaka",
     "naver/kapture",
     "neggles/animatediff-cli",
+    "neo4j-examples/movies-python-bolt",
     "nodejs/gyp-next",
     "notofonts/notofonts.github.io",
     "notofonts/nototools",
@@ -292,6 +295,7 @@
     "open-thoughts/OpenThoughts-Agent",
     "OpenBMB/BMTrain",
     "OpenBMB/UltraEval-Audio",
+    "opendatacube/datacube-core",
     "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
     "optuna/optuna-examples",
@@ -352,6 +356,7 @@
     "SandAI-org/MagiAttention",
     "scicode-bench/SciCode",
     "scikit-build/scikit-build-core",
+    "ScoopInstaller/Nirsoft",
     "scrapinghub/article-extraction-benchmark",
     "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
@@ -401,6 +406,7 @@
     "ymcui/LERT",
     "YosysHQ/sby",
     "yoxu515/aot-benchmark",
+    "Yuliang-Liu/MultimodalOCR",
     "zai-org/GLM-skills",
     "zai-org/z-ai-sdk-python",
     "zarr-developers/numcodecs",

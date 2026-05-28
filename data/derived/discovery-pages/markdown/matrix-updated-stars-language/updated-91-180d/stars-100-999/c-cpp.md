@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 80
-- terms: 300
-- components: 225
-- concepts: 305
-- observations: 306
+- repos: 81
+- terms: 295
+- components: 230
+- concepts: 300
+- observations: 301
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ylsdamxssjxxdd/eva](https://github.com/ylsdamxssjxxdd/eva) | 176 | 2026-02-27T07:23:56Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [hhyyrylainen/GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) | 535 | 2026-02-27T07:02:57Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [starwing/luautf8](https://github.com/starwing/luautf8) | 453 | 2026-02-26T16:04:24Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [ValveSoftware/Fossilize](https://github.com/ValveSoftware/Fossilize) | 749 | 2026-02-26T12:39:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [swaywm/swaybg](https://github.com/swaywm/swaybg) | 755 | 2026-02-25T23:19:14Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -105,7 +107,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [birkett/srvany-ng](https://github.com/birkett/srvany-ng) | 129 | 2025-12-11T21:02:52Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [powervr-graphics/Native_SDK](https://github.com/powervr-graphics/Native_SDK) | 767 | 2025-12-11T15:15:51Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [isciences/exactextractr](https://github.com/isciences/exactextractr) | 305 | 2025-12-01T15:50:27Z | C/C++ | Library | 2 | 0 | 2 | 2 |
-| [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -132,6 +133,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NeighTools/UnityDoorstop](https://github.com/NeighTools/UnityDoorstop) | 560 | 2026-02-06T20:38:54Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [nvpro-samples/nvpro_core](https://github.com/nvpro-samples/nvpro_core) | 550 | 2026-02-12T10:39:19Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [lovemefan/SenseVoice.cpp](https://github.com/lovemefan/SenseVoice.cpp) | 550 | 2025-12-19T10:50:03Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [hhyyrylainen/GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) | 535 | 2026-02-27T07:02:57Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [avaneev/lzav](https://github.com/avaneev/lzav) | 526 | 2026-01-27T03:04:06Z | C/C++ | Unknown | 16 | 0 | 16 | 16 |
 | [beached/daw_json_link](https://github.com/beached/daw_json_link) | 503 | 2026-02-16T21:46:19Z | C/C++ | Infrastructure/tooling | 11 | 6 | 14 | 14 |
 | [mit-han-lab/Block-Sparse-Attention](https://github.com/mit-han-lab/Block-Sparse-Attention) | 502 | 2026-01-18T02:55:56Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -164,6 +166,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xtensor-stack/xtl](https://github.com/xtensor-stack/xtl) | 233 | 2026-02-12T12:31:26Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) | 213 | 2026-02-05T02:14:58Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [InteractiveComputerGraphics/TriangleMeshDistance](https://github.com/InteractiveComputerGraphics/TriangleMeshDistance) | 180 | 2026-02-14T17:36:17Z | C/C++ | Library | 9 | 0 | 9 | 9 |
+| [ylsdamxssjxxdd/eva](https://github.com/ylsdamxssjxxdd/eva) | 176 | 2026-02-27T07:23:56Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [lh3/yak](https://github.com/lh3/yak) | 169 | 2025-12-30T19:05:14Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [CppCXY/EmmyLuaCodeStyle](https://github.com/CppCXY/EmmyLuaCodeStyle) | 165 | 2026-02-25T02:50:40Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
@@ -184,7 +187,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erkyrath/glulxe](https://github.com/erkyrath/glulxe) | 122 | 2025-12-22T03:53:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ejoy/lua](https://github.com/ejoy/lua) | 116 | 2025-12-23T15:58:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [angr/vex](https://github.com/angr/vex) | 114 | 2026-02-01T07:47:54Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [intel/torch-ccl](https://github.com/intel/torch-ccl) | 104 | 2025-12-31T04:43:22Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [google/effcee](https://github.com/google/effcee) | 103 | 2026-02-24T15:38:36Z | C/C++ | Library | 3 | 0 | 3 | 3 |
 | [tomfunkhouser/gaps](https://github.com/tomfunkhouser/gaps) | 103 | 2025-12-16T16:56:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

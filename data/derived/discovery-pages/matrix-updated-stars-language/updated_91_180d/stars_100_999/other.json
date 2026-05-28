@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 830,
-    "concepts": 783,
-    "observations": 784,
-    "repos": 202,
-    "terms": 778
+    "concepts": 789,
+    "observations": 790,
+    "repos": 203,
+    "terms": 784
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -54,6 +54,7 @@
     "cleanlab/examples",
     "clj-commons/etaoin",
     "clj-easy/graalvm-clojure",
+    "clojure-emacs/inf-clojure",
     "clojure/core.memoize",
     "clojure/core.unify",
     "clojure/data.fressian",

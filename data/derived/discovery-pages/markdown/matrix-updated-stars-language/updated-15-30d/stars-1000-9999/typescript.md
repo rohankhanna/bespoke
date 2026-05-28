@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 133
-- terms: 1187
-- components: 5989
-- concepts: 1195
-- observations: 1198
+- repos: 132
+- terms: 1182
+- components: 5947
+- concepts: 1190
+- observations: 1193
 
 ## Static behavior
 
@@ -158,7 +158,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rustmailer/bichon](https://github.com/rustmailer/bichon) | 1611 | 2026-04-28T15:27:34Z | TypeScript | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [nodejs/corepack](https://github.com/nodejs/corepack) | 3628 | 2026-04-28T13:28:53Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
 | [mdn/yari](https://github.com/mdn/yari) | 1286 | 2026-04-28T11:03:26Z | TypeScript | Infrastructure/tooling | 9 | 222 | 9 | 9 |
-| [AnotiaWang/deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui) | 2181 | 2026-04-28T06:43:29Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -246,7 +245,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tinylibs/tinybench](https://github.com/tinylibs/tinybench) | 2316 | 2026-04-28T22:10:47Z | TypeScript | Infrastructure/tooling | 8 | 29 | 8 | 8 |
 | [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) | 2218 | 2026-04-29T08:52:14Z | TypeScript | Infrastructure/tooling | 12 | 33 | 13 | 13 |
 | [chhoumann/quickadd](https://github.com/chhoumann/quickadd) | 2191 | 2026-04-29T16:21:26Z | TypeScript | Infrastructure/tooling | 6 | 43 | 6 | 6 |
-| [AnotiaWang/deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui) | 2181 | 2026-04-28T06:43:29Z | TypeScript | Infrastructure/tooling | 5 | 42 | 5 | 5 |
 | [hannoeru/vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) | 2080 | 2026-05-01T16:59:52Z | TypeScript | Infrastructure/tooling | 1 | 34 | 1 | 1 |
 | [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
 | [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | 2049 | 2026-05-06T03:32:51Z | TypeScript | Infrastructure/tooling | 19 | 89 | 20 | 20 |

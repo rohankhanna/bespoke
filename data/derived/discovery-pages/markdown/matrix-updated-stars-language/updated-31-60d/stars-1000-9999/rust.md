@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 188
-- terms: 1286
+- repos: 187
+- terms: 1279
 - components: 1794
-- concepts: 1276
-- observations: 1285
+- concepts: 1269
+- observations: 1278
 
 ## Static behavior
 
@@ -213,7 +213,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) | 1957 | 2026-03-31T05:53:29Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | 2829 | 2026-03-30T20:53:47Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |
-| [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -245,7 +244,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [evcxr/evcxr](https://github.com/evcxr/evcxr) | 6413 | 2026-04-22T23:22:30Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [rizsotto/Bear](https://github.com/rizsotto/Bear) | 6294 | 2026-04-24T07:52:02Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [rust-lang/miri](https://github.com/rust-lang/miri) | 6045 | 2026-04-24T07:00:46Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [rust-windowing/winit](https://github.com/rust-windowing/winit) | 5944 | 2026-04-13T19:58:52Z | Rust | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [flamegraph-rs/flamegraph](https://github.com/flamegraph-rs/flamegraph) | 5898 | 2026-04-20T20:07:18Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |

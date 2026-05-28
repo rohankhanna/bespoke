@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2239,
-    "concepts": 1290,
-    "observations": 1298,
+    "components": 2243,
+    "concepts": 1281,
+    "observations": 1288,
     "repos": 492,
-    "terms": 1295
+    "terms": 1288
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -20,7 +20,6 @@
     "2KAbhishek/tmux-tea",
     "2slides/mcp-2slides",
     "2U1/Gemma3-Finetune",
-    "3dfxdev/EDGE",
     "4kills/go-libdeflate",
     "a-n-t-h-o-n-y/signals-light",
     "aaaaalexis/obsidian-pseudo-mica",
@@ -504,6 +503,7 @@
     "zeng3ld/claude-session-restore",
     "zheng977/MutiAgent4Fraud",
     "zilliztech/kafka-connect-milvus",
-    "zlib-ng/deflatebench"
+    "zlib-ng/deflatebench",
+    "zoom/karpenter-oci"
   ]
 }

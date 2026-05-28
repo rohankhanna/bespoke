@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 704,
-    "observations": 707,
-    "repos": 120,
-    "terms": 702
+    "components": 729,
+    "concepts": 670,
+    "observations": 673,
+    "repos": 114,
+    "terms": 668
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "adamchainz/blacken-docs",
     "ag2ai/build-with-ag2",
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
-    "agentscope-ai/Trinity-RFT",
     "AgileRL/AgileRL",
     "agno-agi/scout",
     "ai-analyst-lab/ai-analyst",
@@ -68,7 +67,6 @@
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "flagos-ai/FlagGems",
     "fsspec/gcsfs",
-    "galaxyproject/planemo",
     "gbionics/jaxsim",
     "GNOME/adwaita-icon-theme",
     "google/fiddle",
@@ -96,7 +94,6 @@
     "mll-lab-nu/VAGEN",
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons-server",
-    "neo4j-examples/movies-python-bolt",
     "nod-ai/AMD-SHARK-ModelDev",
     "NVIDIA/JAX-Toolbox",
     "NVIDIA/NeMo-text-processing",
@@ -105,7 +102,6 @@
     "ogx-ai/ogx-client-python",
     "onnx/turnkeyml",
     "open-telemetry/opentelemetry-cpp-contrib",
-    "opendatacube/datacube-core",
     "PetervanLunteren/AddaxAI",
     "plotly/Kaleido",
     "Project-MONAI/model-zoo",
@@ -116,7 +112,6 @@
     "RDFLib/pyLODE",
     "robometer/robometer",
     "runtimeverification/k",
-    "ScoopInstaller/Nirsoft",
     "sigsep/norbert",
     "sigstore/sigstore-python",
     "sp-nitech/diffsptk",
@@ -132,7 +127,6 @@
     "unitreerobotics/unitree_sdk2_python",
     "universal-ctags/ctags-win32",
     "unum-bio/USearchMolecules",
-    "vale-cli/packages",
-    "Yuliang-Liu/MultimodalOCR"
+    "vale-cli/packages"
   ]
 }

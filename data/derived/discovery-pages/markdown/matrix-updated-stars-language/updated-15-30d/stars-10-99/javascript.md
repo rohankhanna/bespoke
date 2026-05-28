@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 98
-- components: 297
-- concepts: 98
-- observations: 100
+- repos: 20
+- terms: 96
+- components: 287
+- concepts: 96
+- observations: 98
 
 ## Static behavior
 
@@ -46,7 +46,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [galaxyproteomics/tools-galaxyp](https://github.com/galaxyproteomics/tools-galaxyp) | 36 | 2026-04-28T13:36:46Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [ember-cli/ember-app-blueprint](https://github.com/ember-cli/ember-app-blueprint) | 11 | 2026-04-28T12:17:15Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [gacts/install-dnscontrol](https://github.com/gacts/install-dnscontrol) | 10 | 2026-04-28T09:47:36Z | JavaScript | Infrastructure/tooling | 6 | 18 | 6 | 6 |
-| [hyparam/hyparquet-writer](https://github.com/hyparam/hyparquet-writer) | 55 | 2026-04-28T08:52:11Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -59,7 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/google-summer-of-code](https://github.com/stdlib-js/google-summer-of-code) | 78 | 2026-05-01T06:07:03Z | JavaScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [aws-samples/aws-sdk-js-tests](https://github.com/aws-samples/aws-sdk-js-tests) | 68 | 2026-04-29T19:08:42Z | JavaScript | Library | 4 | 3 | 4 | 4 |
 | [rstackjs/agent-skills](https://github.com/rstackjs/agent-skills) | 64 | 2026-04-30T03:51:49Z | JavaScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
-| [hyparam/hyparquet-writer](https://github.com/hyparam/hyparquet-writer) | 55 | 2026-04-28T08:52:11Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [julia-actions/cache](https://github.com/julia-actions/cache) | 47 | 2026-05-01T08:03:25Z | JavaScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [galaxyproteomics/tools-galaxyp](https://github.com/galaxyproteomics/tools-galaxyp) | 36 | 2026-04-28T13:36:46Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [hyparam/squirreling](https://github.com/hyparam/squirreling) | 32 | 2026-05-01T05:43:15Z | JavaScript | Infrastructure/tooling | 4 | 7 | 4 | 4 |

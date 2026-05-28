@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3323,
-    "concepts": 1464,
-    "observations": 1465,
-    "repos": 445,
-    "terms": 1492
+    "components": 3357,
+    "concepts": 1469,
+    "observations": 1470,
+    "repos": 450,
+    "terms": 1497
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -90,8 +90,10 @@
     "birdofpreyru/react-utils",
     "bitrise-io/bitrise-plugins-step",
     "bladeacer/obsi-snip-coll",
+    "bnb-chain/reth-bsc-triedb",
     "bndtools/workspace-templates",
     "bolasblack/BlogFront",
+    "breferrari/shardmind",
     "bryanh9111/engram",
     "cachix/iocraft",
     "caesar0301/soothe",
@@ -283,6 +285,7 @@
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "Jango-AI-com/morning-cli",
+    "jfmengels/elm-review-config",
     "jhugestar/jhugestar.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
@@ -359,6 +362,7 @@
     "openssh/openssh-portable-selfhosted",
     "openwebdocs/mdn-bcd-results",
     "oxc-project/oxc-index-vec",
+    "ParisNeo/lollms_client",
     "penpoen/llm-sugarscape",
     "petmal/mindtrial",
     "php-rdkafka/php-rdkafka-doc",
@@ -371,6 +375,7 @@
     "poolifier/tatami-ng",
     "probe-lab/tiros",
     "psmux/scoop-omp-manager",
+    "psmux/scoop-psmux",
     "pyrtlsdr/pyrtlsdrlib",
     "qcr/qcr.github.io",
     "raku-community-modules/Terminal-WCWidth",

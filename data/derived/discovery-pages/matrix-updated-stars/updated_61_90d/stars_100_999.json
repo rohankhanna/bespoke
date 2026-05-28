@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3502,
-    "concepts": 2274,
-    "observations": 2284,
-    "repos": 500,
-    "terms": 2275
+    "components": 3477,
+    "concepts": 2261,
+    "observations": 2271,
+    "repos": 497,
+    "terms": 2261
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -75,7 +75,6 @@
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-app-mesh-examples",
     "aws/aws-xray-daemon",
-    "aymenfurter/ralph",
     "Azure-Samples/azureai-samples",
     "Azure/appservice-landing-zone-accelerator",
     "babashka/cli",
@@ -106,7 +105,6 @@
     "charlesnicholson/nanoprintf",
     "ChenyunWu/PhraseCutDataset",
     "chiron-fonts/chiron-hei-hk",
-    "Chris-hughes10/pytorch-accelerated",
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cjohansen/replicant",
@@ -115,7 +113,6 @@
     "clearml/clearml-serving",
     "clojure-emacs/clojure-mode",
     "clojure-emacs/clojure-ts-mode",
-    "clojure-emacs/inf-clojure",
     "clojure/core.cache",
     "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
@@ -153,6 +150,7 @@
     "dkubb/equalizer",
     "dkubb/memoizable",
     "dmitry-brazhenko/SharpToken",
+    "DNSCrypt/dnscrypt-protocol",
     "docker-library/hello-world",
     "doolijb/serene-pub",
     "dotnet/AspNetDocs",
@@ -241,7 +239,6 @@
     "helm/community",
     "heroku/heroku-buildpack-pgbouncer",
     "heyoeyo/muggled_dpt",
-    "hhyyrylainen/GodotPckTool",
     "hongyuanyu/SPAN",
     "huawei-noah/noah-research",
     "hudochenkov/stylelint-order",
@@ -330,6 +327,7 @@
     "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/jericho",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "microsoft/P.808",
     "microsoft/vscode-custom-data",
     "microsoft/xlang",
     "microsoft/XPretrain",
@@ -510,7 +508,6 @@
     "YaLTeR/wl-clipboard-rs",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",
-    "ylsdamxssjxxdd/eva",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zhijian-liu/torchprofile"
   ]

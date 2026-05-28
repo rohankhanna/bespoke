@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1257,
+    "components": 1239,
     "concepts": 291,
     "observations": 292,
-    "repos": 47,
-    "terms": 308
+    "repos": 46,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "a2aproject/a2a-inspector",
     "actions-cool/issues-helper",
@@ -24,7 +24,6 @@
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
     "aws-samples/dify-self-hosted-on-aws",
-    "aymenfurter/ralph",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
     "cloydlau/json-editor-vue",

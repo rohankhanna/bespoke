@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 103
+- repos: 16
+- terms: 93
 - components: 73
-- concepts: 107
-- observations: 107
+- concepts: 95
+- observations: 95
 
 ## Static behavior
 
@@ -42,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/bosh-deployment](https://github.com/cloudfoundry/bosh-deployment) | 140 | 2026-04-29T21:23:22Z | Shell | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [microcai/gentoo-zh](https://github.com/microcai/gentoo-zh) | 408 | 2026-04-29T16:52:42Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [NVIDIA/enroot](https://github.com/NVIDIA/enroot) | 931 | 2026-04-29T05:54:26Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [2KAbhishek/dots2k](https://github.com/2KAbhishek/dots2k) | 321 | 2026-04-28T06:06:35Z | Shell | CLI | 10 | 0 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -55,7 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ungoogled-software/ungoogled-chromium-archlinux](https://github.com/ungoogled-software/ungoogled-chromium-archlinux) | 425 | 2026-05-03T02:49:47Z | Shell | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) | 410 | 2026-05-07T20:43:19Z | Shell | Infrastructure/tooling | 16 | 7 | 18 | 18 |
 | [microcai/gentoo-zh](https://github.com/microcai/gentoo-zh) | 408 | 2026-04-29T16:52:42Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [2KAbhishek/dots2k](https://github.com/2KAbhishek/dots2k) | 321 | 2026-04-28T06:06:35Z | Shell | CLI | 10 | 0 | 12 | 12 |
 | [heroku/base-images](https://github.com/heroku/base-images) | 272 | 2026-05-01T15:17:41Z | Shell | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [harbor-framework/terminal-bench-2](https://github.com/harbor-framework/terminal-bench-2) | 250 | 2026-04-30T05:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [meyayl/docker-languagetool](https://github.com/meyayl/docker-languagetool) | 236 | 2026-05-01T02:27:22Z | Shell | Infrastructure/tooling | 2 | 11 | 2 | 2 |

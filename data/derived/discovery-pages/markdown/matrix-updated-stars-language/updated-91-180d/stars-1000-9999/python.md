@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 163
-- terms: 785
+- repos: 164
+- terms: 792
 - components: 400
-- concepts: 796
-- observations: 797
+- concepts: 803
+- observations: 804
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) | 3381 | 2026-02-27T07:47:55Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [langfengQ/verl-agent](https://github.com/langfengQ/verl-agent) | 1831 | 2026-02-27T05:29:25Z | Python | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [YosysHQ/icestorm](https://github.com/YosysHQ/icestorm) | 1154 | 2026-02-26T14:31:07Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [daijro/browserforge](https://github.com/daijro/browserforge) | 1074 | 2026-02-26T09:09:22Z | Python | Unknown | 7 | 0 | 7 | 7 |
@@ -243,6 +244,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Paper2Poster/Paper2Poster](https://github.com/Paper2Poster/Paper2Poster) | 3641 | 2025-12-21T09:58:48Z | Python | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | 3577 | 2026-01-12T13:02:18Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [facebookresearch/pytorchvideo](https://github.com/facebookresearch/pytorchvideo) | 3553 | 2026-01-12T11:01:44Z | Python | Library | 0 | 0 | 0 | 0 |
+| [ZhengPeng7/BiRefNet](https://github.com/ZhengPeng7/BiRefNet) | 3381 | 2026-02-27T07:47:55Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [adrienverge/yamllint](https://github.com/adrienverge/yamllint) | 3368 | 2026-02-23T07:56:09Z | Python | Infrastructure/tooling | 5 | 7 | 6 | 6 |
 | [aqlaboratory/openfold](https://github.com/aqlaboratory/openfold) | 3348 | 2025-12-16T09:41:53Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [waymo-research/waymo-open-dataset](https://github.com/waymo-research/waymo-open-dataset) | 3309 | 2026-01-08T22:00:08Z | Python | Model/data | 2 | 0 | 2 | 2 |

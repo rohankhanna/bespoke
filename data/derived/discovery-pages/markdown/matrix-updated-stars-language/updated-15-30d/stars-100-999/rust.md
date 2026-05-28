@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 73
-- terms: 518
-- components: 757
-- concepts: 520
-- observations: 524
+- repos: 72
+- terms: 511
+- components: 741
+- concepts: 513
+- observations: 517
 
 ## Static behavior
 
@@ -98,7 +98,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RustCrypto/traits](https://github.com/RustCrypto/traits) | 740 | 2026-04-28T15:08:20Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [cargo-public-api/cargo-public-api](https://github.com/cargo-public-api/cargo-public-api) | 544 | 2026-04-28T10:33:44Z | Rust | CLI | 11 | 3 | 12 | 12 |
 | [tensorchord/VectorChord-bm25](https://github.com/tensorchord/VectorChord-bm25) | 363 | 2026-04-28T09:17:34Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [libbpf/blazesym](https://github.com/libbpf/blazesym) | 259 | 2026-04-28T08:23:33Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -157,7 +156,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/hudi-rs](https://github.com/apache/hudi-rs) | 274 | 2026-04-29T22:47:55Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [aannoo/hcom](https://github.com/aannoo/hcom) | 270 | 2026-05-09T02:01:01Z | Rust | CLI | 18 | 11 | 18 | 18 |
 | [oxc-project/oxc-resolver](https://github.com/oxc-project/oxc-resolver) | 269 | 2026-04-30T16:45:56Z | Rust | Infrastructure/tooling | 4 | 23 | 4 | 4 |
-| [libbpf/blazesym](https://github.com/libbpf/blazesym) | 259 | 2026-04-28T08:23:33Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [Dicklesworthstone/frankentui](https://github.com/Dicklesworthstone/frankentui) | 236 | 2026-04-29T22:44:25Z | Rust | CLI | 6 | 9 | 6 | 6 |
 | [vectordotdev/vrl](https://github.com/vectordotdev/vrl) | 229 | 2026-05-01T04:28:19Z | Rust | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [evaera/moonwave](https://github.com/evaera/moonwave) | 227 | 2026-04-29T23:12:38Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

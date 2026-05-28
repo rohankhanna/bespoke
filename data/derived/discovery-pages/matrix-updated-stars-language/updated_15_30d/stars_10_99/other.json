@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1016,
-    "concepts": 535,
-    "observations": 539,
-    "repos": 123,
-    "terms": 533
+    "components": 1011,
+    "concepts": 531,
+    "observations": 535,
+    "repos": 121,
+    "terms": 529
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abap2UI5-addons/sql-console",
     "abarisani/abarisani.github.io",
     "Accla/d4m",
-    "AdguardTeam/SafariConverterLib",
     "agentclientprotocol/kotlin-sdk",
     "alphagov/govuk_publishing_components",
     "alphagov/rubocop-govuk",
@@ -28,7 +27,6 @@
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "arkime/arkimeweb",
-    "arktekk/sbt-aether-deploy",
     "ArmandPhilippot/coldark",
     "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",

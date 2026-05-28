@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 757,
-    "concepts": 520,
-    "observations": 524,
-    "repos": 73,
-    "terms": 518
+    "components": 741,
+    "concepts": 513,
+    "observations": 517,
+    "repos": 72,
+    "terms": 511
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -56,7 +56,6 @@
     "kpcyrd/rebuilderd",
     "ldclabs/anda",
     "left-curve/left-curve",
-    "libbpf/blazesym",
     "lindera/lindera",
     "matter-labs/zksync-airbender",
     "MercuryTechnologies/ghciwatch",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1013,
-    "concepts": 1010,
-    "observations": 1010,
-    "repos": 115,
-    "terms": 1002
+    "components": 994,
+    "concepts": 973,
+    "observations": 973,
+    "repos": 112,
+    "terms": 965
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -95,7 +95,6 @@
     "open-telemetry/opentelemetry-go-instrumentation",
     "OpenMathLib/OpenBLAS",
     "opensim-org/opensim-core",
-    "openucx/ucx",
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "OSGeo/gdal",
@@ -106,7 +105,6 @@
     "RainerKuemmerle/g2o",
     "realsenseai/librealsense",
     "RobotLocomotion/drake",
-    "sail-sg/envpool",
     "samtools/samtools",
     "SchedMD/slurm",
     "skeeto/w64devkit",
@@ -119,7 +117,6 @@
     "Themaister/Granite",
     "tianocore/edk2",
     "unicode-org/icu",
-    "unitreerobotics/unitree_sdk2",
     "universal-ctags/ctags",
     "uxlfoundation/oneTBB",
     "vincentlaucsb/csv-parser",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1385,
-    "concepts": 361,
-    "observations": 361,
-    "repos": 93,
-    "terms": 361
+    "components": 1395,
+    "concepts": 363,
+    "observations": 363,
+    "repos": 94,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -50,6 +50,7 @@
     "GuillaumeGomez/browser-UI-test",
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
+    "hyparam/hyparquet-writer",
     "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",

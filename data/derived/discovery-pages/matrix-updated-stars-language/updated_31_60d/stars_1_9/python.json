@@ -3,7 +3,7 @@
     "components": 233,
     "concepts": 144,
     "observations": 144,
-    "repos": 65,
+    "repos": 66,
     "terms": 162
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -64,6 +64,7 @@
     "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
     "onicai/IConfucius",
+    "ParisNeo/lollms_client",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",

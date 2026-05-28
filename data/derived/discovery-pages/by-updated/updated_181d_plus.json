@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 47857,
-    "concepts": 33968,
-    "observations": 34025,
-    "repos": 12358,
-    "terms": 33544
+    "components": 47861,
+    "concepts": 33990,
+    "observations": 34048,
+    "repos": 12360,
+    "terms": 33564
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -136,6 +136,7 @@
     "3b/cl-vulkan",
     "3d12/rookognition",
     "3ddelano/discord_gd_examples",
+    "3dfxdev/EDGE",
     "3dhumangan/3DHumanGAN",
     "3DTopia/OpenLRM",
     "3rd/syslang",
@@ -3801,6 +3802,7 @@
     "dsnet/compress",
     "dstein64/media",
     "dsvorc41/js-framework-benchmark",
+    "dthuerck/mapmap_cpu",
     "dtolnay/serde-yaml",
     "du00cs/json-repairj",
     "dubbo-go-pixiu/pixiu-api",

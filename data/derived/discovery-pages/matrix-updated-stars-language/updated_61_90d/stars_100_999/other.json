@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 790,
-    "concepts": 532,
-    "observations": 534,
-    "repos": 138,
-    "terms": 529
+    "components": 794,
+    "concepts": 533,
+    "observations": 535,
+    "repos": 139,
+    "terms": 530
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -42,7 +42,6 @@
     "claytonfarr/ralph-playbook",
     "clojure-emacs/clojure-mode",
     "clojure-emacs/clojure-ts-mode",
-    "clojure-emacs/inf-clojure",
     "clojure/core.cache",
     "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
@@ -62,6 +61,7 @@
     "dkubb/equalizer",
     "dkubb/memoizable",
     "dmitry-brazhenko/SharpToken",
+    "DNSCrypt/dnscrypt-protocol",
     "doolijb/serene-pub",
     "dotnet/AspNetDocs",
     "dwyl/elixir-auth-google",
@@ -107,6 +107,7 @@
     "metosin/ring-swagger",
     "metosin/spec-tools",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "microsoft/P.808",
     "MiloszKrajewski/K4os.Compression.LZ4",
     "milvus-io/milvus-sdk-csharp",
     "mirage/mirage-www",

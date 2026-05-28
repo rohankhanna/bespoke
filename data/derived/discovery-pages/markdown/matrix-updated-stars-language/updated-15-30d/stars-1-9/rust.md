@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 106
-- components: 130
-- concepts: 106
-- observations: 106
+- repos: 22
+- terms: 103
+- components: 126
+- concepts: 103
+- observations: 103
 
 ## Static behavior
 
@@ -48,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bourumir-wyngs/saphyr](https://github.com/bourumir-wyngs/saphyr) | 1 | 2026-04-28T20:28:27Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [vercel-labs/mdxjs-rs-turbopack](https://github.com/vercel-labs/mdxjs-rs-turbopack) | 3 | 2026-04-28T17:22:34Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [heroku/buildpacks-deb-packages](https://github.com/heroku/buildpacks-deb-packages) | 8 | 2026-04-28T15:26:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [bnb-chain/reth-bsc-triedb](https://github.com/bnb-chain/reth-bsc-triedb) | 1 | 2026-04-28T08:00:38Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -76,4 +75,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kurrent-io/KurrentDB-Bridge-Client](https://github.com/kurrent-io/KurrentDB-Bridge-Client) | 1 | 2026-05-05T10:11:48Z | Rust | CLI | 7 | 9 | 7 | 7 |
 | [sp1-patches/RustCrypto-hashes](https://github.com/sp1-patches/RustCrypto-hashes) | 1 | 2026-04-29T17:36:14Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [bourumir-wyngs/saphyr](https://github.com/bourumir-wyngs/saphyr) | 1 | 2026-04-28T20:28:27Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [bnb-chain/reth-bsc-triedb](https://github.com/bnb-chain/reth-bsc-triedb) | 1 | 2026-04-28T08:00:38Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |

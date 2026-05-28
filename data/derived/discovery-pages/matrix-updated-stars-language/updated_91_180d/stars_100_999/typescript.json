@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1345,
+    "components": 1363,
     "concepts": 201,
     "observations": 201,
-    "repos": 47,
-    "terms": 200
+    "repos": 48,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "adaltas/node-http-status",
@@ -24,6 +24,7 @@
     "antfu/vscode-icons-carbon",
     "Anush008/fastembed-js",
     "axel-op/googlejavaformat-action",
+    "aymenfurter/ralph",
     "bvaughn/react-window-infinite-loader",
     "castwide/vscode-solargraph",
     "celo-org/celo-composer",

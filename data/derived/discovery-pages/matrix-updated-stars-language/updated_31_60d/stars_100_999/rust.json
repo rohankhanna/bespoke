@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1298,
-    "concepts": 934,
-    "observations": 943,
-    "repos": 181,
-    "terms": 935
+    "components": 1314,
+    "concepts": 941,
+    "observations": 950,
+    "repos": 182,
+    "terms": 942
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -117,6 +117,7 @@
     "LaurenzV/hayro",
     "LaurenzV/krilla",
     "lbcb-sci/herro",
+    "libbpf/blazesym",
     "lu-zero/cargo-c",
     "marshallpierce/rust-base64",
     "matrix-org/seshat",

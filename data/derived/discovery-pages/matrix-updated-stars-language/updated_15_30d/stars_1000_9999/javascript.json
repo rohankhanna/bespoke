@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2125,
-    "concepts": 371,
-    "observations": 372,
-    "repos": 51,
-    "terms": 369
+    "components": 2043,
+    "concepts": 353,
+    "observations": 354,
+    "repos": 49,
+    "terms": 351
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
-    "amannn/action-semantic-pull-request",
     "antfu/eslint-config",
     "apostrophecms/apostrophe",
-    "appium/appium-inspector",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",

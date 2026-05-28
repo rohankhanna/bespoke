@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 120
-- terms: 702
-- components: 766
-- concepts: 704
-- observations: 707
+- repos: 114
+- terms: 668
+- components: 729
+- concepts: 670
+- observations: 673
 
 ## Static behavior
 
@@ -140,12 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SvenskaSpel/locust-plugins](https://github.com/SvenskaSpel/locust-plugins) | 663 | 2026-04-28T10:56:59Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [GNOME/adwaita-icon-theme](https://github.com/GNOME/adwaita-icon-theme) | 187 | 2026-04-28T10:36:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [enjoy-digital/liteeth](https://github.com/enjoy-digital/liteeth) | 281 | 2026-04-28T09:35:34Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [agentscope-ai/Trinity-RFT](https://github.com/agentscope-ai/Trinity-RFT) | 616 | 2026-04-28T07:20:41Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [ScoopInstaller/Nirsoft](https://github.com/ScoopInstaller/Nirsoft) | 159 | 2026-04-28T07:18:02Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [Yuliang-Liu/MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR) | 828 | 2026-04-28T07:07:23Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 574 | 2026-04-28T06:45:00Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [neo4j-examples/movies-python-bolt](https://github.com/neo4j-examples/movies-python-bolt) | 440 | 2026-04-28T06:29:27Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [galaxyproject/planemo](https://github.com/galaxyproject/planemo) | 107 | 2026-04-28T06:09:18Z | Python | CLI | 5 | 6 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -159,7 +153,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [djlint/djLint](https://github.com/djlint/djLint) | 920 | 2026-05-11T12:58:31Z | Python | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [AgileRL/AgileRL](https://github.com/AgileRL/AgileRL) | 914 | 2026-05-01T09:30:03Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
 | [mozilla/addons-server](https://github.com/mozilla/addons-server) | 895 | 2026-04-29T15:00:20Z | Python | Infrastructure/tooling | 3 | 52 | 3 | 4 |
-| [Yuliang-Liu/MultimodalOCR](https://github.com/Yuliang-Liu/MultimodalOCR) | 828 | 2026-04-28T07:07:23Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [alltheplaces/alltheplaces](https://github.com/alltheplaces/alltheplaces) | 778 | 2026-05-03T09:20:37Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) | 769 | 2026-05-03T09:22:13Z | Python | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [pypdfium2-team/pypdfium2](https://github.com/pypdfium2-team/pypdfium2) | 758 | 2026-04-30T01:29:30Z | Python | Infrastructure/tooling | 12 | 16 | 12 | 12 |
@@ -177,12 +170,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Dao-AILab/sonic-moe](https://github.com/Dao-AILab/sonic-moe) | 664 | 2026-04-30T06:06:48Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [SvenskaSpel/locust-plugins](https://github.com/SvenskaSpel/locust-plugins) | 663 | 2026-04-28T10:56:59Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [rai-opensource/spatialmath-python](https://github.com/rai-opensource/spatialmath-python) | 625 | 2026-04-30T13:39:18Z | Python | Infrastructure/tooling | 11 | 4 | 11 | 11 |
-| [agentscope-ai/Trinity-RFT](https://github.com/agentscope-ai/Trinity-RFT) | 616 | 2026-04-28T07:20:41Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [Azure/co-op-translator](https://github.com/Azure/co-op-translator) | 612 | 2026-05-01T05:57:01Z | Python | Infrastructure/tooling | 12 | 12 | 14 | 14 |
 | [Backblaze/B2_Command_Line_Tool](https://github.com/Backblaze/B2_Command_Line_Tool) | 609 | 2026-04-29T15:53:09Z | Python | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [castorini/rank_llm](https://github.com/castorini/rank_llm) | 593 | 2026-05-02T03:13:59Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [apache/datafusion-python](https://github.com/apache/datafusion-python) | 580 | 2026-04-29T11:58:50Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 574 | 2026-04-28T06:45:00Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [cosmos/chain-registry](https://github.com/cosmos/chain-registry) | 572 | 2026-05-04T08:05:38Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
 | [runtimeverification/k](https://github.com/runtimeverification/k) | 565 | 2026-04-30T11:46:57Z | Python | Infrastructure/tooling | 5 | 13 | 5 | 6 |
 | [aiidateam/aiida-core](https://github.com/aiidateam/aiida-core) | 561 | 2026-05-01T02:05:24Z | Python | Infrastructure/tooling | 13 | 12 | 13 | 13 |
@@ -202,7 +193,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NVIDIA/NeMo-text-processing](https://github.com/NVIDIA/NeMo-text-processing) | 455 | 2026-05-01T22:10:44Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [HansZ8/RoboJuDo](https://github.com/HansZ8/RoboJuDo) | 452 | 2026-04-30T05:46:17Z | Python | Framework | 11 | 0 | 11 | 11 |
 | [NVlabs/trajdata](https://github.com/NVlabs/trajdata) | 444 | 2026-05-05T16:23:58Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [neo4j-examples/movies-python-bolt](https://github.com/neo4j-examples/movies-python-bolt) | 440 | 2026-04-28T06:29:27Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 434 | 2026-05-11T09:36:32Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [agno-agi/scout](https://github.com/agno-agi/scout) | 427 | 2026-04-29T09:23:32Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [NVIDIA/JAX-Toolbox](https://github.com/NVIDIA/JAX-Toolbox) | 405 | 2026-04-29T21:12:22Z | Python | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -252,7 +242,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DanielLin94144/Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench) | 177 | 2026-05-12T19:23:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/AddaxAI](https://github.com/PetervanLunteren/AddaxAI) | 176 | 2026-05-01T23:15:55Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [aio-libs/aiorwlock](https://github.com/aio-libs/aiorwlock) | 173 | 2026-05-01T12:14:36Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [ScoopInstaller/Nirsoft](https://github.com/ScoopInstaller/Nirsoft) | 159 | 2026-04-28T07:18:02Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [robometer/robometer](https://github.com/robometer/robometer) | 154 | 2026-05-01T04:51:09Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [mozilla-services/shavar-prod-lists](https://github.com/mozilla-services/shavar-prod-lists) | 151 | 2026-04-29T18:18:35Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [open-telemetry/opentelemetry-cpp-contrib](https://github.com/open-telemetry/opentelemetry-cpp-contrib) | 150 | 2026-05-03T15:47:32Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
@@ -267,7 +256,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cognizant-ai-lab/neuro-san](https://github.com/cognizant-ai-lab/neuro-san) | 111 | 2026-05-02T06:15:28Z | Python | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [iree-org/iree-turbine](https://github.com/iree-org/iree-turbine) | 109 | 2026-04-29T19:00:37Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [jwodder/versioningit](https://github.com/jwodder/versioningit) | 108 | 2026-04-30T23:22:59Z | Python | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [galaxyproject/planemo](https://github.com/galaxyproject/planemo) | 107 | 2026-04-28T06:09:18Z | Python | CLI | 5 | 6 | 5 | 5 |
 | [kubeflow/sdk](https://github.com/kubeflow/sdk) | 105 | 2026-04-29T20:43:32Z | Python | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [unum-bio/USearchMolecules](https://github.com/unum-bio/USearchMolecules) | 101 | 2026-05-04T21:41:49Z | Python | Unknown | 11 | 0 | 11 | 11 |
 | [nod-ai/AMD-SHARK-ModelDev](https://github.com/nod-ai/AMD-SHARK-ModelDev) | 100 | 2026-05-08T16:45:50Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |

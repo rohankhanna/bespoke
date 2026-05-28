@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 614,
-    "concepts": 623,
-    "observations": 624,
-    "repos": 55,
-    "terms": 617
+    "components": 598,
+    "concepts": 607,
+    "observations": 608,
+    "repos": 53,
+    "terms": 601
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -26,7 +26,6 @@
     "docling-project/docling",
     "facefusion/facefusion",
     "fastapi/typer",
-    "google/magika",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
     "huggingface/datasets",
@@ -35,7 +34,6 @@
     "keras-team/keras",
     "Kludex/starlette",
     "kvcache-ai/ktransformers",
-    "langchain-ai/open_deep_research",
     "Lightning-AI/litgpt",
     "locustio/locust",
     "lucidrains/vit-pytorch",

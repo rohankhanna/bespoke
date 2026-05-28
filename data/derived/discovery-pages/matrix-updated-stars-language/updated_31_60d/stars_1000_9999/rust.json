@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1794,
-    "concepts": 1276,
-    "observations": 1285,
-    "repos": 188,
-    "terms": 1286
+    "concepts": 1269,
+    "observations": 1278,
+    "repos": 187,
+    "terms": 1279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -106,7 +106,6 @@
     "libp2p/rust-libp2p",
     "linebender/resvg",
     "liuchengxu/vim-clap",
-    "lldap/lldap",
     "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
     "maciejhirsz/logos",

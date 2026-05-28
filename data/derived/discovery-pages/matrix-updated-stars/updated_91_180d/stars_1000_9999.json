@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3258,
-    "concepts": 2666,
-    "observations": 2676,
-    "repos": 525,
-    "terms": 2648
+    "components": 3271,
+    "concepts": 2676,
+    "observations": 2686,
+    "repos": 527,
+    "terms": 2658
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -512,6 +512,7 @@
     "uber/petastorm",
     "uBlockOrigin/uBlock-issues",
     "ulfjack/ryu",
+    "ulid/javascript",
     "unplugin/unplugin-auto-import",
     "unplugin/unplugin-icons",
     "v2fly/v2ray-examples",
@@ -537,6 +538,7 @@
     "Yuliang-Liu/Monkey",
     "yxlllc/DDSP-SVC",
     "zeromq/jeromq",
+    "ZhengPeng7/BiRefNet",
     "zkcrypto/bellman"
   ]
 }

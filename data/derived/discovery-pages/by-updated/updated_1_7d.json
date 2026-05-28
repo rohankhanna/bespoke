@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 5311,
-    "concepts": 2593,
-    "observations": 2605,
-    "repos": 290,
-    "terms": 2600
+    "components": 5222,
+    "concepts": 2573,
+    "observations": 2585,
+    "repos": 286,
+    "terms": 2580
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "2U1/Qwen-VL-Series-Finetune",
@@ -162,7 +162,6 @@
     "karafka/example-apps",
     "karafka/rdkafka-ruby",
     "KhronosGroup/KTX-Software",
-    "kleisauke/glib",
     "kubernetes-sigs/karpenter",
     "kurrent-io/KurrentDB",
     "langchain-ai/langchain",
@@ -225,7 +224,6 @@
     "perrygeo/python-rasterstats",
     "pivotal/credhub-release",
     "podman-desktop/podman-desktop",
-    "preactjs/preact",
     "PrimeIntellect-ai/verifiers",
     "protocolbuffers/protobuf",
     "psf/black",
@@ -240,7 +238,6 @@
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "radian-software/straight.el",
-    "realworld-apps/realworld",
     "redis/go-redis",
     "redis/redis-om-dotnet",
     "redis/redis-om-python",
@@ -296,7 +293,6 @@
     "vuejs/language-tools",
     "weaviate/weaviate",
     "web-platform-tests/wpt",
-    "windsonR/vite-plugin-virtual-html",
     "yaling888/quirktiva",
     "yomidevs/yomitan",
     "zh-plus/openlrc",

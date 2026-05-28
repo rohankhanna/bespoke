@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1957,
-    "concepts": 1654,
-    "observations": 1659,
-    "repos": 169,
-    "terms": 1680
+    "components": 1973,
+    "concepts": 1670,
+    "observations": 1675,
+    "repos": 171,
+    "terms": 1696
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -80,6 +80,7 @@
     "github/spec-kit",
     "google-deepmind/alphafold",
     "google/adk-python",
+    "google/magika",
     "google/python-fire",
     "google/yapf",
     "gradio-app/gradio",
@@ -103,6 +104,7 @@
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
+    "langchain-ai/open_deep_research",
     "letta-ai/letta",
     "LibreTranslate/LibreTranslate",
     "m-bain/whisperX",

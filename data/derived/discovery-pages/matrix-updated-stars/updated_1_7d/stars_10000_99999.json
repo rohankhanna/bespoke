@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1553,
-    "concepts": 857,
-    "observations": 862,
-    "repos": 67,
-    "terms": 863
+    "components": 1493,
+    "concepts": 841,
+    "observations": 846,
+    "repos": 65,
+    "terms": 847
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -55,7 +55,6 @@
     "nwjs/nw.js",
     "OpenHands/OpenHands",
     "PDFMathTranslate/PDFMathTranslate",
-    "preactjs/preact",
     "protocolbuffers/protobuf",
     "psf/black",
     "pydantic/pydantic",
@@ -63,7 +62,6 @@
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
-    "realworld-apps/realworld",
     "redis/go-redis",
     "run-llama/llama_index",
     "rust-lang/rust-analyzer",

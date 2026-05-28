@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1829,
-    "concepts": 1794,
-    "observations": 1802,
-    "repos": 222,
-    "terms": 1790
+    "components": 1859,
+    "concepts": 1812,
+    "observations": 1820,
+    "repos": 224,
+    "terms": 1808
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -49,6 +49,7 @@
     "bensadeh/circumflex",
     "bfenetworks/bfe",
     "bluesky-social/indigo",
+    "bnb-chain/bsc",
     "bnb-chain/tss-lib",
     "boyter/scc",
     "bradfitz/gomemcache",
@@ -207,6 +208,7 @@
     "router-for-me/CLIProxyAPIPlus",
     "runfinch/finch",
     "schachmat/wego",
+    "securego/gosec",
     "sigstore/cosign",
     "sigstore/gitsign",
     "sigstore/rekor",

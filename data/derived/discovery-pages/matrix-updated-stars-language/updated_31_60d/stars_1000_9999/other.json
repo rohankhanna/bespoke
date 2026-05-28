@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2744,
-    "concepts": 2581,
-    "observations": 2593,
-    "repos": 380,
-    "terms": 2566
+    "components": 2766,
+    "concepts": 2614,
+    "observations": 2626,
+    "repos": 383,
+    "terms": 2599
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -78,6 +78,7 @@
     "briansmith/ring",
     "BuddiesOfBudgie/budgie-desktop",
     "cake-build/cake",
+    "CanHub/Android-Image-Cropper",
     "carbon-design-system/carbon-charts",
     "CesiumGS/3d-tiles",
     "chef/bento",
@@ -155,6 +156,7 @@
     "fcambus/spleen",
     "ffi/ffi",
     "florisboard/florisboard",
+    "fluentassertions/fluentassertions",
     "fluentribbon/Fluent.Ribbon",
     "flutter/website",
     "flyerhzm/rails_best_practices",
@@ -278,6 +280,7 @@
     "NVIDIA/accelerated-computing-hub",
     "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
+    "nvim-lualine/lualine.nvim",
     "nvim-neo-tree/neo-tree.nvim",
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3347,
-    "concepts": 2082,
-    "observations": 2089,
-    "repos": 381,
-    "terms": 2093
+    "components": 3334,
+    "concepts": 2079,
+    "observations": 2086,
+    "repos": 380,
+    "terms": 2090
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "a16z/helios",
@@ -216,6 +216,7 @@
     "lite-xl/lite-xl",
     "littlefs-project/littlefs",
     "liuchengxu/vim-which-key",
+    "lldap/lldap",
     "lltcggie/waifu2x-caffe",
     "lobehub/lobe-chat-agents",
     "locationtech/jts",
@@ -368,7 +369,6 @@
     "trevin-creator/autoresearch-mlx",
     "turboderp-org/exllamav2",
     "ufoym/deepo",
-    "ulid/javascript",
     "unjs/unplugin",
     "vadimdemedes/pastel",
     "varvet/pundit",
@@ -391,7 +391,6 @@
     "zardus/preeny",
     "zdharma-continuum/zinit",
     "zeromq/cppzmq",
-    "ZhengPeng7/BiRefNet",
     "zplug/zplug",
     "zubair-trabzada/ai-marketing-claude"
   ]

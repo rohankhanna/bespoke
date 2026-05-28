@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 279,
-    "concepts": 515,
-    "observations": 515,
-    "repos": 82,
-    "terms": 512
+    "concepts": 508,
+    "observations": 508,
+    "repos": 81,
+    "terms": 505
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -94,7 +94,6 @@
     "ufoym/deepo",
     "Vchitect/VBench",
     "yangyanli/PointCNN",
-    "ZhengPeng7/BiRefNet",
     "zubair-trabzada/ai-marketing-claude"
   ]
 }

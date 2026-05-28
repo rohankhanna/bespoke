@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3706,
-    "concepts": 751,
-    "observations": 753,
-    "repos": 103,
-    "terms": 745
+    "components": 3665,
+    "concepts": 738,
+    "observations": 740,
+    "repos": 101,
+    "terms": 733
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -34,7 +34,6 @@
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "cosmos/cosmjs",
-    "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
     "dydxprotocol/v4-web",
@@ -69,7 +68,6 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",

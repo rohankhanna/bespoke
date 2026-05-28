@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 23,
-    "terms": 117
+    "components": 201,
+    "concepts": 109,
+    "observations": 110,
+    "repos": 22,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -27,14 +27,13 @@
     "google-marketing-solutions/ariel",
     "mesh-iit/cad-libraries",
     "microsoft/openjdk-jdk11u",
-    "microsoft/openjdk-jdk17u",
-    "microsoft/openjdk-jdk21u",
     "nvim-mini/mini.deps",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u-dev",
     "RiDDiX/home-assistant-addons",
     "storybook-community/addon-queryparams",
-    "vaporif/parry-guard"
+    "vaporif/parry-guard",
+    "windsonR/vite-plugin-virtual-html"
   ]
 }

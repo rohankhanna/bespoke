@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 389,
-    "concepts": 778,
-    "observations": 778,
-    "repos": 209,
-    "terms": 773
+    "components": 394,
+    "concepts": 786,
+    "observations": 786,
+    "repos": 210,
+    "terms": 781
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -61,6 +61,7 @@
     "bytedance/SandboxFusion",
     "carla-simulator/leaderboard",
     "chengzhag/PanFusion",
+    "Chris-hughes10/pytorch-accelerated",
     "christgau/wsdd",
     "citation-file-format/citation-file-format",
     "clearbluejar/ghidrecomp",

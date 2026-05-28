@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9650,
-    "concepts": 4475,
-    "observations": 4488,
-    "repos": 384,
-    "terms": 4440
+    "components": 9625,
+    "concepts": 4443,
+    "observations": 4456,
+    "repos": 381,
+    "terms": 4408
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "2dust/v2rayNG",
@@ -152,7 +152,6 @@
     "google/comprehensive-rust",
     "google/gson",
     "google/gvisor",
-    "google/magika",
     "google/material-design-lite",
     "GoogleChrome/lighthouse",
     "gorhill/uBlock",
@@ -164,7 +163,6 @@
     "h2o/h2o",
     "hadolint/hadolint",
     "hagezi/dns-blocklists",
-    "hajimehoshi/ebiten",
     "hashicorp/nomad",
     "Heapy/awesome-kotlin",
     "helix-editor/helix",
@@ -209,7 +207,6 @@
     "kubernetes-sigs/kubespray",
     "kvcache-ai/ktransformers",
     "kysely-org/kysely",
-    "langchain-ai/open_deep_research",
     "langchain4j/langchain4j",
     "languagetool-org/languagetool",
     "LemmyNet/lemmy",

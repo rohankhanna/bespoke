@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 79
-- terms: 842
-- components: 805
-- concepts: 846
-- observations: 849
+- repos: 77
+- terms: 824
+- components: 775
+- concepts: 828
+- observations: 831
 
 ## Static behavior
 
@@ -103,8 +103,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [C2SP/wycheproof](https://github.com/C2SP/wycheproof) | 3029 | 2026-04-28T17:44:14Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | 3457 | 2026-04-28T14:16:50Z | Go | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [external-secrets/external-secrets](https://github.com/external-secrets/external-secrets) | 6577 | 2026-04-28T11:12:29Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [securego/gosec](https://github.com/securego/gosec) | 8804 | 2026-04-28T07:32:42Z | Go | Infrastructure/tooling | 9 | 18 | 9 | 9 |
-| [bnb-chain/bsc](https://github.com/bnb-chain/bsc) | 3250 | 2026-04-28T06:44:34Z | Go | CLI | 9 | 12 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -114,7 +112,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [replicate/cog](https://github.com/replicate/cog) | 9407 | 2026-04-30T18:24:41Z | Go | Infrastructure/tooling | 11 | 14 | 11 | 11 |
 | [reviewdog/reviewdog](https://github.com/reviewdog/reviewdog) | 9255 | 2026-04-29T22:13:55Z | Go | CLI | 16 | 18 | 16 | 16 |
 | [onsi/ginkgo](https://github.com/onsi/ginkgo) | 8988 | 2026-04-28T22:55:28Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 7 |
-| [securego/gosec](https://github.com/securego/gosec) | 8804 | 2026-04-28T07:32:42Z | Go | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [miekg/dns](https://github.com/miekg/dns) | 8678 | 2026-05-01T20:56:11Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [openshift/origin](https://github.com/openshift/origin) | 8647 | 2026-04-29T23:46:21Z | Go | Infrastructure/tooling | 11 | 0 | 11 | 11 |
 | [prometheus/alertmanager](https://github.com/prometheus/alertmanager) | 8447 | 2026-04-29T17:32:31Z | Go | Infrastructure/tooling | 15 | 13 | 15 | 15 |
@@ -153,7 +150,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) | 3540 | 2026-04-30T22:26:15Z | Go | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | 3457 | 2026-04-28T14:16:50Z | Go | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [kubernetes/kubectl](https://github.com/kubernetes/kubectl) | 3262 | 2026-04-29T20:40:16Z | Go | CLI | 2 | 0 | 2 | 2 |
-| [bnb-chain/bsc](https://github.com/bnb-chain/bsc) | 3250 | 2026-04-28T06:44:34Z | Go | CLI | 9 | 12 | 9 | 9 |
 | [C2SP/wycheproof](https://github.com/C2SP/wycheproof) | 3029 | 2026-04-28T17:44:14Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [apache/incubator-devlake](https://github.com/apache/incubator-devlake) | 2996 | 2026-04-29T12:35:02Z | Go | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [filecoin-project/lotus](https://github.com/filecoin-project/lotus) | 2992 | 2026-04-29T19:00:50Z | Go | Infrastructure/tooling | 8 | 4 | 8 | 8 |

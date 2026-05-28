@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 291
-- terms: 632
-- components: 545
-- concepts: 635
-- observations: 635
+- repos: 292
+- terms: 641
+- components: 548
+- concepts: 646
+- observations: 647
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [3dfxdev/EDGE](https://github.com/3dfxdev/EDGE) | 81 | 2025-11-29T07:14:01Z | C/C++ | Infrastructure/tooling | 9 | 3 | 11 | 12 |
 | [AdaCore/gnatcoll-db](https://github.com/AdaCore/gnatcoll-db) | 14 | 2025-11-28T13:06:17Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [free-audio/clap-host](https://github.com/free-audio/clap-host) | 99 | 2025-11-28T08:41:40Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [triton-inference-server/tensorflow_backend](https://github.com/triton-inference-server/tensorflow_backend) | 56 | 2025-11-22T19:42:34Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -361,6 +362,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HansZ8/unitree_cpp](https://github.com/HansZ8/unitree_cpp) | 82 | 2025-10-10T12:42:03Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [jd-boyd/python-lzo](https://github.com/jd-boyd/python-lzo) | 82 | 2025-09-03T22:34:34Z | C/C++ | Infrastructure/tooling | 5 | 10 | 7 | 7 |
 | [jimkang/annoy-node](https://github.com/jimkang/annoy-node) | 82 | 2023-08-08T17:10:53Z | C/C++ | Unknown | 0 | 10 | 0 | 0 |
+| [3dfxdev/EDGE](https://github.com/3dfxdev/EDGE) | 81 | 2025-11-29T07:14:01Z | C/C++ | Infrastructure/tooling | 9 | 3 | 11 | 12 |
 | [dpryan79/libBigWig](https://github.com/dpryan79/libBigWig) | 81 | 2025-01-17T15:00:07Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [judofyr/duktape.rb](https://github.com/judofyr/duktape.rb) | 80 | 2023-12-01T16:32:24Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [kinow/gtest-tap-listener](https://github.com/kinow/gtest-tap-listener) | 80 | 2023-07-25T20:01:57Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |

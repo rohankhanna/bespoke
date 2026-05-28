@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 175
-- terms: 938
-- components: 1647
-- concepts: 941
-- observations: 945
+- repos: 170
+- terms: 933
+- components: 1613
+- concepts: 936
+- observations: 940
 
 ## Static behavior
 
@@ -195,11 +195,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astral-sh/versions](https://github.com/astral-sh/versions) | 4 | 2026-04-28T10:47:52Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [jk10001/aquainsightai](https://github.com/jk10001/aquainsightai) | 1 | 2026-04-28T10:44:12Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [Blosc/blogsite](https://github.com/Blosc/blogsite) | 2 | 2026-04-28T09:24:57Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
-| [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 5 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |
-| [breferrari/shardmind](https://github.com/breferrari/shardmind) | 9 | 2026-04-28T08:36:03Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [bnb-chain/reth-bsc-triedb](https://github.com/bnb-chain/reth-bsc-triedb) | 1 | 2026-04-28T08:00:38Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -221,8 +216,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aimeos/ai-monolog](https://github.com/aimeos/ai-monolog) | 9 | 2026-04-29T09:32:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [googleapis/google-cloud-php-compute](https://github.com/googleapis/google-cloud-php-compute) | 9 | 2026-04-28T15:52:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cloudfoundry/runtime-ci](https://github.com/cloudfoundry/runtime-ci) | 9 | 2026-04-28T13:13:18Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [breferrari/shardmind](https://github.com/breferrari/shardmind) | 9 | 2026-04-28T08:36:03Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [Luligu/matterbridge-somfy-tahoma](https://github.com/Luligu/matterbridge-somfy-tahoma) | 8 | 2026-05-12T12:04:28Z | JavaScript | Infrastructure/tooling | 16 | 30 | 16 | 16 |
 | [pacstall/pacup](https://github.com/pacstall/pacup) | 8 | 2026-05-04T01:00:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Cebeerre/dnsblocklists](https://github.com/Cebeerre/dnsblocklists) | 8 | 2026-05-03T11:44:23Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -242,7 +235,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bennyyip/dot-vim](https://github.com/bennyyip/dot-vim) | 8 | 2026-04-29T05:56:28Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [grizzlypeak3d/feather-tk](https://github.com/grizzlypeak3d/feather-tk) | 8 | 2026-04-29T00:46:59Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [heroku/buildpacks-deb-packages](https://github.com/heroku/buildpacks-deb-packages) | 8 | 2026-04-28T15:26:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [ParisNeo/lollms_client](https://github.com/ParisNeo/lollms_client) | 8 | 2026-04-28T07:44:03Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [ioBroker/plugin-sentry](https://github.com/ioBroker/plugin-sentry) | 7 | 2026-05-08T01:12:00Z | JavaScript | Infrastructure/tooling | 6 | 25 | 6 | 7 |
 | [Evilpasture/Culverin](https://github.com/Evilpasture/Culverin) | 7 | 2026-05-03T12:12:54Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [oclif/plugin-version](https://github.com/oclif/plugin-version) | 7 | 2026-05-02T09:43:40Z | TypeScript | CLI | 7 | 34 | 7 | 7 |
@@ -275,7 +267,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielbernalb/AireCiudadano](https://github.com/danielbernalb/AireCiudadano) | 5 | 2026-04-29T01:56:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ipshipyard/github-mgmt](https://github.com/ipshipyard/github-mgmt) | 5 | 2026-04-28T21:46:23Z | TypeScript | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [atlanhq/atlan-sample-apps](https://github.com/atlanhq/atlan-sample-apps) | 5 | 2026-04-28T16:42:18Z | Python | Infrastructure/tooling | 8 | 16 | 8 | 8 |
-| [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 5 | 2026-04-28T08:48:54Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [nafg/jewish-date](https://github.com/nafg/jewish-date) | 4 | 2026-05-11T22:24:06Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [vovkos/axl](https://github.com/vovkos/axl) | 4 | 2026-05-08T12:33:27Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [energye/examples](https://github.com/energye/examples) | 4 | 2026-05-08T00:54:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -379,4 +370,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bourumir-wyngs/saphyr](https://github.com/bourumir-wyngs/saphyr) | 1 | 2026-04-28T20:28:27Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/Therapy-Tracking-Plugin](https://github.com/danielrosehill/Therapy-Tracking-Plugin) | 1 | 2026-04-28T17:37:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [jk10001/aquainsightai](https://github.com/jk10001/aquainsightai) | 1 | 2026-04-28T10:44:12Z | Other | Model/data | 0 | 0 | 0 | 0 |
-| [bnb-chain/reth-bsc-triedb](https://github.com/bnb-chain/reth-bsc-triedb) | 1 | 2026-04-28T08:00:38Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |

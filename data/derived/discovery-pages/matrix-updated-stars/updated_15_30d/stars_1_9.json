@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1647,
-    "concepts": 941,
-    "observations": 945,
-    "repos": 175,
-    "terms": 938
+    "components": 1613,
+    "concepts": 936,
+    "observations": 940,
+    "repos": 170,
+    "terms": 933
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "3mdeb/3mdeb-secpack",
@@ -34,10 +34,8 @@
     "bennyyip/dot-vim",
     "black-desk/djotfmt",
     "Blosc/blogsite",
-    "bnb-chain/reth-bsc-triedb",
     "boa-dev/data",
     "bourumir-wyngs/saphyr",
-    "breferrari/shardmind",
     "Cebeerre/dnsblocklists",
     "chrishulbert/brickwarrior",
     "clearml/dropbear",
@@ -111,7 +109,6 @@
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
     "JeremyAnsel/SharpAssimp",
-    "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
     "jku/tuf-demo",
     "JuliaCI/rootfs-images",
@@ -138,11 +135,9 @@
     "OpenSC/Nightly",
     "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
     "pacstall/pacup",
-    "ParisNeo/lollms_client",
     "pixel-font-studio/fusion-bold-pixel-font",
     "pot-app/.github",
     "PrimeIntellect-ai/renderers",
-    "psmux/scoop-psmux",
     "puppetlabs/.github",
     "redhat-developer/app-services-api-guidelines",
     "reviewdog/action-alex",

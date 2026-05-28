@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 115
-- terms: 1002
-- components: 1013
-- concepts: 1010
-- observations: 1010
+- repos: 112
+- terms: 965
+- components: 994
+- concepts: 973
+- observations: 973
 
 ## Static behavior
 
@@ -138,9 +138,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aphrodite-engine/aphrodite-engine](https://github.com/aphrodite-engine/aphrodite-engine) | 1714 | 2026-04-28T18:07:33Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [kismetwireless/kismet](https://github.com/kismetwireless/kismet) | 2097 | 2026-04-28T12:24:31Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [nix-community/nixd](https://github.com/nix-community/nixd) | 1376 | 2026-04-28T09:43:22Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [openucx/ucx](https://github.com/openucx/ucx) | 1624 | 2026-04-28T08:27:37Z | C/C++ | Infrastructure/tooling | 18 | 2 | 18 | 18 |
-| [unitreerobotics/unitree_sdk2](https://github.com/unitreerobotics/unitree_sdk2) | 1059 | 2026-04-28T07:24:28Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
-| [sail-sg/envpool](https://github.com/sail-sg/envpool) | 1330 | 2026-04-28T06:08:04Z | C/C++ | Infrastructure/tooling | 19 | 16 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -236,14 +233,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [YosysHQ/nextpnr](https://github.com/YosysHQ/nextpnr) | 1658 | 2026-04-30T06:07:13Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [appium/WebDriverAgent](https://github.com/appium/WebDriverAgent) | 1652 | 2026-04-29T06:41:07Z | C/C++ | Infrastructure/tooling | 6 | 39 | 6 | 6 |
 | [facebook/mvfst](https://github.com/facebook/mvfst) | 1640 | 2026-05-01T22:32:48Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [openucx/ucx](https://github.com/openucx/ucx) | 1624 | 2026-04-28T08:27:37Z | C/C++ | Infrastructure/tooling | 18 | 2 | 18 | 18 |
 | [Taywee/args](https://github.com/Taywee/args) | 1616 | 2026-04-28T21:21:41Z | C/C++ | CLI | 10 | 4 | 10 | 10 |
 | [autowarefoundation/autoware_universe](https://github.com/autowarefoundation/autoware_universe) | 1610 | 2026-04-30T14:50:55Z | C/C++ | Infrastructure/tooling | 16 | 19 | 17 | 17 |
 | [miniupnp/miniupnp](https://github.com/miniupnp/miniupnp) | 1586 | 2026-04-29T23:44:27Z | C/C++ | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [DrTimothyAldenDavis/SuiteSparse](https://github.com/DrTimothyAldenDavis/SuiteSparse) | 1487 | 2026-05-01T17:53:59Z | C/C++ | Infrastructure/tooling | 19 | 10 | 19 | 19 |
 | [cisco/libsrtp](https://github.com/cisco/libsrtp) | 1379 | 2026-05-02T13:13:56Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [nix-community/nixd](https://github.com/nix-community/nixd) | 1376 | 2026-04-28T09:43:22Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [sail-sg/envpool](https://github.com/sail-sg/envpool) | 1330 | 2026-04-28T06:08:04Z | C/C++ | Infrastructure/tooling | 19 | 16 | 19 | 19 |
 | [libexpat/libexpat](https://github.com/libexpat/libexpat) | 1324 | 2026-04-30T21:22:34Z | C/C++ | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [gazebosim/gz-sim](https://github.com/gazebosim/gz-sim) | 1317 | 2026-05-02T00:23:54Z | C/C++ | Infrastructure/tooling | 23 | 11 | 23 | 23 |
 | [KratosMultiphysics/Kratos](https://github.com/KratosMultiphysics/Kratos) | 1258 | 2026-05-02T17:58:40Z | C/C++ | Infrastructure/tooling | 10 | 3 | 10 | 10 |
@@ -254,7 +249,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PoseLib/PoseLib](https://github.com/PoseLib/PoseLib) | 1180 | 2026-05-02T19:50:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [flashrom/flashrom](https://github.com/flashrom/flashrom) | 1114 | 2026-04-29T18:41:59Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [vincentlaucsb/csv-parser](https://github.com/vincentlaucsb/csv-parser) | 1082 | 2026-05-03T04:31:00Z | C/C++ | Infrastructure/tooling | 16 | 14 | 17 | 17 |
-| [unitreerobotics/unitree_sdk2](https://github.com/unitreerobotics/unitree_sdk2) | 1059 | 2026-04-28T07:24:28Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [grizzlypeak3d/DJV](https://github.com/grizzlypeak3d/DJV) | 1034 | 2026-04-29T01:09:26Z | C/C++ | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [luben/zstd-jni](https://github.com/luben/zstd-jni) | 1029 | 2026-05-01T20:45:03Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [opensim-org/opensim-core](https://github.com/opensim-org/opensim-core) | 1024 | 2026-04-30T16:08:26Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |

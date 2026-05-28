@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 175
-- components: 734
-- concepts: 166
-- observations: 168
+- repos: 10
+- terms: 171
+- components: 725
+- concepts: 162
+- observations: 164
 
 ## Static behavior
 
@@ -36,14 +36,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jestjs/jest](https://github.com/jestjs/jest) | 45359 | 2026-05-25T13:50:28Z | TypeScript | Infrastructure/tooling | 17 | 96 | 17 | 17 |
 | [unocss/unocss](https://github.com/unocss/unocss) | 18815 | 2026-05-25T09:49:25Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 20179 | 2026-05-23T23:11:16Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83482 | 2026-05-21T06:23:41Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90085 | 2026-05-26T19:51:15Z | TypeScript | Infrastructure/tooling | 21 | 26 | 21 | 23 |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83482 | 2026-05-21T06:23:41Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77741 | 2026-05-26T18:28:54Z | TypeScript | Infrastructure/tooling | 15 | 384 | 15 | 15 |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 55398 | 2026-05-26T12:48:34Z | TypeScript | Infrastructure/tooling | 42 | 26 | 33 | 33 |
 | [jestjs/jest](https://github.com/jestjs/jest) | 45359 | 2026-05-25T13:50:28Z | TypeScript | Infrastructure/tooling | 17 | 96 | 17 | 17 |

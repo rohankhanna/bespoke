@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 2,
-    "terms": 29
+    "components": 141,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 3,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "ChatGPTNextWeb/NextChat",
-    "googleapis/google-api-nodejs-client"
+    "googleapis/google-api-nodejs-client",
+    "realworld-apps/realworld"
   ]
 }

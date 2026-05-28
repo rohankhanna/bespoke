@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 931,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 35,
-    "terms": 177
+    "components": 944,
+    "concepts": 175,
+    "observations": 176,
+    "repos": 36,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -45,6 +45,7 @@
     "tancredi/fantasticon",
     "toddbluhm/env-cmd",
     "tsconfig/bases",
+    "ulid/javascript",
     "unplugin/unplugin-auto-import",
     "unplugin/unplugin-icons",
     "vercel/ms",

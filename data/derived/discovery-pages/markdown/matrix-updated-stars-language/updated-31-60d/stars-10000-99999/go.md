@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 99
-- terms: 1087
-- components: 1116
-- concepts: 1103
-- observations: 1107
+- repos: 100
+- terms: 1103
+- components: 1125
+- concepts: 1119
+- observations: 1123
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [getsops/sops](https://github.com/getsops/sops) | 21665 | 2026-04-27T16:07:56Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [a-h/templ](https://github.com/a-h/templ) | 10266 | 2026-04-27T13:46:25Z | Go | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [joewalnes/websocketd](https://github.com/joewalnes/websocketd) | 17483 | 2026-04-27T07:12:44Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -208,6 +209,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prometheus/node_exporter](https://github.com/prometheus/node_exporter) | 13370 | 2026-04-23T07:38:59Z | Go | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [opencontainers/runc](https://github.com/opencontainers/runc) | 13189 | 2026-04-22T12:18:23Z | Go | CLI | 4 | 11 | 4 | 4 |
 | [hibiken/asynq](https://github.com/hibiken/asynq) | 13170 | 2026-04-13T23:45:25Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [coder/coder](https://github.com/coder/coder) | 12966 | 2026-04-22T01:02:55Z | Go | Infrastructure/tooling | 13 | 26 | 13 | 13 |
 | [rs/zerolog](https://github.com/rs/zerolog) | 12360 | 2026-04-20T23:18:25Z | Go | Infrastructure/tooling | 5 | 4 | 6 | 6 |
 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | 12022 | 2026-04-17T22:42:22Z | Go | CLI | 2 | 5 | 0 | 0 |

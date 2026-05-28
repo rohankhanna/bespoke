@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7178,
-    "concepts": 1364,
-    "observations": 1368,
-    "repos": 183,
-    "terms": 1471
+    "components": 7220,
+    "concepts": 1369,
+    "observations": 1373,
+    "repos": 184,
+    "terms": 1476
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -28,6 +28,7 @@
     "AIPexStudio/AIPex",
     "aleclarson/vite-tsconfig-paths",
     "allweonedev/presentation-ai",
+    "AnotiaWang/deep-research-web-ui",
     "antfu-collective/vite-plugin-inspect",
     "anthropics/claude-code-action",
     "apache/apisix-dashboard",

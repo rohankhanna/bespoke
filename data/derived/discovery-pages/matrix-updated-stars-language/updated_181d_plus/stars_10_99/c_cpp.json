@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 545,
-    "concepts": 635,
-    "observations": 635,
-    "repos": 291,
-    "terms": 632
+    "components": 548,
+    "concepts": 646,
+    "observations": 647,
+    "repos": 292,
+    "terms": 641
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
     "2shady4u/godot-cpp-ci",
     "3343/edge",
+    "3dfxdev/EDGE",
     "a-n-t-h-o-n-y/Escape",
     "ablab/VerityMap",
     "AdaCore/gnatcoll-db",

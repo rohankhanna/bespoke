@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1763,
-    "concepts": 1571,
-    "observations": 1584,
-    "repos": 192,
-    "terms": 1566
+    "components": 1741,
+    "concepts": 1538,
+    "observations": 1551,
+    "repos": 189,
+    "terms": 1533
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "aaubry/YamlDotNet",
@@ -36,7 +36,6 @@
     "borglab/gtsam",
     "broadinstitute/cromwell",
     "CakeML/cakeml",
-    "CanHub/Android-Image-Cropper",
     "cashapp/turbine",
     "catppuccin/nvim",
     "celzero/rethink-app",
@@ -75,7 +74,6 @@
     "elm/compiler",
     "emacs-mirror/emacs",
     "facebook/pyre-check",
-    "fluentassertions/fluentassertions",
     "FluxML/Flux.jl",
     "foundry-rs/forge-std",
     "FStarLang/FStar",
@@ -147,7 +145,6 @@
     "NuGet/NuGetGallery",
     "nushell/awesome-nu",
     "nvim-flutter/flutter-tools.nvim",
-    "nvim-lualine/lualine.nvim",
     "nvim-mini/mini.nvim",
     "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",

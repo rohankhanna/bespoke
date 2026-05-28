@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 369
-- components: 2125
-- concepts: 371
-- observations: 372
+- repos: 49
+- terms: 351
+- components: 2043
+- concepts: 353
+- observations: 354
 
 ## Static behavior
 
@@ -75,8 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [observing/pre-commit](https://github.com/observing/pre-commit) | 1883 | 2026-04-28T14:32:47Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [mapbox/geobuf](https://github.com/mapbox/geobuf) | 1026 | 2026-04-28T14:03:12Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [mozilla/rhino](https://github.com/mozilla/rhino) | 4569 | 2026-04-28T10:41:40Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [amannn/action-semantic-pull-request](https://github.com/amannn/action-semantic-pull-request) | 1327 | 2026-04-28T08:21:17Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [appium/appium-inspector](https://github.com/appium/appium-inspector) | 1796 | 2026-04-28T07:09:57Z | JavaScript | Infrastructure/tooling | 10 | 56 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -122,14 +120,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ranisalt/node-argon2](https://github.com/ranisalt/node-argon2) | 2139 | 2026-04-30T17:20:06Z | JavaScript | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [jakerella/jquery-mockjax](https://github.com/jakerella/jquery-mockjax) | 2094 | 2026-04-28T19:20:44Z | JavaScript | Unknown | 0 | 22 | 0 | 0 |
 | [observing/pre-commit](https://github.com/observing/pre-commit) | 1883 | 2026-04-28T14:32:47Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
-| [appium/appium-inspector](https://github.com/appium/appium-inspector) | 1796 | 2026-04-28T07:09:57Z | JavaScript | Infrastructure/tooling | 10 | 56 | 10 | 10 |
 | [ghostery/ghostery-extension](https://github.com/ghostery/ghostery-extension) | 1681 | 2026-05-04T09:55:46Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
 | [jquery/jquery-color](https://github.com/jquery/jquery-color) | 1644 | 2026-05-01T21:36:13Z | JavaScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
 | [leezng/vue-json-pretty](https://github.com/leezng/vue-json-pretty) | 1453 | 2026-04-29T07:02:56Z | JavaScript | Infrastructure/tooling | 9 | 53 | 11 | 11 |
 | [GoogleChromeLabs/clooney](https://github.com/GoogleChromeLabs/clooney) | 1421 | 2026-04-29T18:07:51Z | JavaScript | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [stylelint/stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) | 1418 | 2026-05-05T08:03:07Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [alphagov/govuk-frontend](https://github.com/alphagov/govuk-frontend) | 1393 | 2026-05-02T09:33:36Z | JavaScript | Infrastructure/tooling | 11 | 66 | 11 | 11 |
-| [amannn/action-semantic-pull-request](https://github.com/amannn/action-semantic-pull-request) | 1327 | 2026-04-28T08:21:17Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [LavaMoat/LavaMoat](https://github.com/LavaMoat/LavaMoat) | 1165 | 2026-04-29T15:48:27Z | JavaScript | Infrastructure/tooling | 7 | 42 | 7 | 7 |
 | [mapbox/geobuf](https://github.com/mapbox/geobuf) | 1026 | 2026-04-28T14:03:12Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte) | 1025 | 2026-04-30T19:43:02Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |

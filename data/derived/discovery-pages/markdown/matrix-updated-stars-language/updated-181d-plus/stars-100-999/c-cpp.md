@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 385
-- terms: 1256
-- components: 706
-- concepts: 1275
-- observations: 1278
+- repos: 386
+- terms: 1267
+- components: 707
+- concepts: 1286
+- observations: 1289
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [nonstd-lite/string-view-lite](https://github.com/nonstd-lite/string-view-lite) | 469 | 2025-11-28T19:57:17Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [gpustack/llama-box](https://github.com/gpustack/llama-box) | 295 | 2025-11-24T00:45:50Z | C/C++ | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) | 110 | 2025-11-24T00:34:15Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -795,6 +796,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intel/compute-samples](https://github.com/intel/compute-samples) | 108 | 2025-09-10T13:15:11Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [WisdomShell/llama_cpp_for_codeshell](https://github.com/WisdomShell/llama_cpp_for_codeshell) | 108 | 2024-07-22T16:40:45Z | C/C++ | Infrastructure/tooling | 6 | 22 | 6 | 6 |
 | [nihui/ifrnet-ncnn-vulkan](https://github.com/nihui/ifrnet-ncnn-vulkan) | 108 | 2022-07-20T14:03:18Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [eliemichel/glfw3webgpu](https://github.com/eliemichel/glfw3webgpu) | 107 | 2025-05-24T09:53:06Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mapbox/geojson-vt-cpp](https://github.com/mapbox/geojson-vt-cpp) | 106 | 2024-08-13T12:36:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [FeiGeChuanShu/ncnn_Android_blazeface](https://github.com/FeiGeChuanShu/ncnn_Android_blazeface) | 103 | 2022-04-26T00:20:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

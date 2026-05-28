@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 502,
-    "observations": 503,
-    "repos": 111,
-    "terms": 498
+    "components": 302,
+    "concepts": 494,
+    "observations": 495,
+    "repos": 110,
+    "terms": 490
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -35,7 +35,6 @@
     "BusKill/buskill-app",
     "bytedance/Q-Insight",
     "celery/py-amqp",
-    "Chris-hughes10/pytorch-accelerated",
     "clearml/clearml-server",
     "clearml/clearml-serving",
     "conan-io/cmake-conan",

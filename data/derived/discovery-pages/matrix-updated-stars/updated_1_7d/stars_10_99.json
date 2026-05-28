@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 289,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 26,
-    "terms": 132
+    "components": 260,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 25,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "alloy-rs/evm",
@@ -37,7 +37,6 @@
     "pivotal/credhub-release",
     "python-poetry/website",
     "skilld-dev/retriv",
-    "TrigenSoftware/simple-release",
-    "windsonR/vite-plugin-virtual-html"
+    "TrigenSoftware/simple-release"
   ]
 }

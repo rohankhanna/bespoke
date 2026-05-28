@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11826,
-    "concepts": 6836,
-    "observations": 6851,
-    "repos": 3258,
-    "terms": 6788
+    "components": 11829,
+    "concepts": 6847,
+    "observations": 6863,
+    "repos": 3259,
+    "terms": 6797
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -62,6 +62,7 @@
     "2U1/Pixtral-Finetune",
     "2U1/SmolVLM-Finetune",
     "3343/edge",
+    "3dfxdev/EDGE",
     "3rd/syslang",
     "3type/glyphs-han",
     "6/openai-caching-proxy-worker",

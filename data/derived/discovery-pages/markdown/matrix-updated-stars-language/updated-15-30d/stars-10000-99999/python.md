@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
-- terms: 617
-- components: 614
-- concepts: 623
-- observations: 624
+- repos: 53
+- terms: 601
+- components: 598
+- concepts: 607
+- observations: 608
 
 ## Static behavior
 
@@ -79,8 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) | 13540 | 2026-04-29T00:30:17Z | Python | Infrastructure/tooling | 9 | 9 | 10 | 10 |
 | [treeverse/dvc](https://github.com/treeverse/dvc) | 15576 | 2026-04-28T11:30:29Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [locustio/locust](https://github.com/locustio/locust) | 27741 | 2026-04-28T09:26:41Z | Python | Infrastructure/tooling | 12 | 14 | 12 | 12 |
-| [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) | 11341 | 2026-04-28T08:23:03Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [google/magika](https://github.com/google/magika) | 16832 | 2026-04-28T05:57:15Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -119,7 +117,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) | 17100 | 2026-04-30T09:17:13Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 17069 | 2026-04-29T06:32:24Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [networkx/networkx](https://github.com/networkx/networkx) | 16865 | 2026-04-30T02:16:03Z | Python | Infrastructure/tooling | 14 | 10 | 14 | 14 |
-| [google/magika](https://github.com/google/magika) | 16832 | 2026-04-28T05:57:15Z | Python | Infrastructure/tooling | 14 | 14 | 14 | 14 |
 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 16255 | 2026-05-03T04:32:55Z | Python | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [wkentaro/labelme](https://github.com/wkentaro/labelme) | 15812 | 2026-05-03T10:51:56Z | Python | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | 15750 | 2026-04-30T13:57:37Z | Python | Infrastructure/tooling | 26 | 87 | 26 | 26 |
@@ -135,7 +132,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig) | 11689 | 2026-05-07T06:14:36Z | Python | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | 11648 | 2026-05-01T01:41:30Z | Python | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) | 11462 | 2026-05-06T14:26:20Z | Python | Infrastructure/tooling | 21 | 17 | 21 | 21 |
-| [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) | 11341 | 2026-04-28T08:23:03Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [microsoft/promptflow](https://github.com/microsoft/promptflow) | 11116 | 2026-05-01T03:15:20Z | Python | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [wandb/wandb](https://github.com/wandb/wandb) | 11039 | 2026-04-30T02:36:16Z | Python | Infrastructure/tooling | 24 | 16 | 24 | 24 |
 | [triton-inference-server/server](https://github.com/triton-inference-server/server) | 10635 | 2026-05-02T13:44:40Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |

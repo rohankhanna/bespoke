@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 1,
     "observations": 1,
-    "repos": 2,
+    "repos": 3,
     "terms": 1
   },
   "facet_version": 1,
@@ -11,9 +11,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "drmingdrmer/databend-meta",
+    "kleisauke/glib",
     "locize/locize-i18next-vue-example"
   ]
 }

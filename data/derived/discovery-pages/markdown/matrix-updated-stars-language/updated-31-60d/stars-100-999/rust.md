@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-28T05:56:51.753710+00:00`
+Generated at: `2026-05-28T08:55:24.930262+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 181
-- terms: 935
-- components: 1298
-- concepts: 934
-- observations: 943
+- repos: 182
+- terms: 942
+- components: 1314
+- concepts: 941
+- observations: 950
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [libbpf/blazesym](https://github.com/libbpf/blazesym) | 259 | 2026-04-28T08:23:33Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [filecoin-project/filecoin-ffi](https://github.com/filecoin-project/filecoin-ffi) | 102 | 2026-04-28T05:07:50Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [KSXGitHub/parallel-disk-usage](https://github.com/KSXGitHub/parallel-disk-usage) | 690 | 2026-04-28T01:37:07Z | Rust | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [pubgrub-rs/pubgrub](https://github.com/pubgrub-rs/pubgrub) | 766 | 2026-04-28T00:24:55Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -324,6 +325,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oschwald/maxminddb-rust](https://github.com/oschwald/maxminddb-rust) | 265 | 2026-04-26T19:59:33Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [eigenwallet/core](https://github.com/eigenwallet/core) | 262 | 2026-04-22T12:25:04Z | Rust | Infrastructure/tooling | 4 | 16 | 4 | 4 |
 | [containers/aardvark-dns](https://github.com/containers/aardvark-dns) | 262 | 2026-04-16T23:11:23Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [libbpf/blazesym](https://github.com/libbpf/blazesym) | 259 | 2026-04-28T08:23:33Z | Rust | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [zkcrypto/ff](https://github.com/zkcrypto/ff) | 259 | 2026-04-23T01:59:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Ethiraric/yaml-rust2](https://github.com/Ethiraric/yaml-rust2) | 257 | 2026-04-22T23:12:55Z | Rust | Infrastructure/tooling | 1 | 2 | 3 | 3 |
 | [ctz/graviola](https://github.com/ctz/graviola) | 255 | 2026-04-07T11:27:02Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 211,
-    "concepts": 117,
-    "observations": 120,
-    "repos": 26,
-    "terms": 116
+    "concepts": 124,
+    "observations": 127,
+    "repos": 27,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T05:56:51.753710+00:00",
+  "generated_at": "2026-05-28T08:55:24.930262+00:00",
   "repo_ids": [
     "a16z/helios",
     "allan2/dotenvy",
@@ -31,6 +31,7 @@
     "ImageOptim/gifski",
     "la10736/rstest",
     "LaurentMazare/tch-rs",
+    "lldap/lldap",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "Rust-SDL2/rust-sdl2",
