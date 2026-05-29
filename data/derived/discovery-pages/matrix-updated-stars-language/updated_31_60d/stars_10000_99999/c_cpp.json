@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 616,
-    "concepts": 811,
-    "observations": 814,
-    "repos": 90,
-    "terms": 809
+    "components": 644,
+    "concepts": 896,
+    "observations": 900,
+    "repos": 96,
+    "terms": 894
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
+    "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
     "Alexays/Waybar",
     "alibaba/MNN",
@@ -24,8 +25,10 @@
     "aristocratos/btop",
     "aseprite/aseprite",
     "asmvik/yabai",
+    "baldurk/renderdoc",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
+    "cameron314/concurrentqueue",
     "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
@@ -61,8 +64,10 @@
     "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
     "jonas/tig",
+    "k2-fsa/sherpa-onnx",
     "libevent/libevent",
     "libgit2/libgit2",
+    "libuv/libuv",
     "libvips/libvips",
     "mawww/kakoune",
     "microsoft/mimalloc",
@@ -83,6 +88,7 @@
     "NVIDIA/TensorRT",
     "ocornut/imgui",
     "opencv/opencv_contrib",
+    "openframeworks/openFrameworks",
     "openresty/lua-nginx-module",
     "openssl/openssl",
     "PaddlePaddle/Paddle",

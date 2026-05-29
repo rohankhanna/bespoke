@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 273,
-    "concepts": 183,
-    "observations": 184,
-    "repos": 35,
-    "terms": 182
+    "components": 206,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 26,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -22,10 +22,7 @@
     "bnb-chain/reth-bsc",
     "boozook/mdbook-svgbob",
     "bourumir-wyngs/serde-yaml-bw",
-    "datafusion-contrib/orc-rust",
-    "davidhozic/mujoco-rs",
     "fallow-rs/oxc-coverage-instrument",
-    "filecoin-project/builtin-actors",
     "fonttools/fontspector",
     "g-plane/raffia",
     "heroku/buildpacks-jvm",
@@ -34,17 +31,11 @@
     "heroku/libcnb.rs",
     "influxdata/datafusion-udf-wasm",
     "kurrent-io/KurrentDB-Client-Rust",
-    "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "matter-labs/zksync-crypto",
     "mdn/rari",
-    "near/cargo-near-new-project-template",
     "openvm-org/stark-backend",
-    "oxc-project/oxc-sourcemap",
     "Ralith/lahar",
-    "rust-bitcoin/corepc",
-    "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "tofay/rustls-openssl",
     "tyrypyrking/egui-ash",

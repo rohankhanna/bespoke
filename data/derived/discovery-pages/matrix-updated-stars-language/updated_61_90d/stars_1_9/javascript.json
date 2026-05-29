@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 17,
-    "terms": 130
+    "components": 157,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 16,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "actions-cool/.github",
     "actions-cool/test-issues-helper",
@@ -20,7 +20,6 @@
     "agent-sh/ship",
     "brody2consult/react-native-init-func",
     "browserslist/browserslist-plausible",
-    "coderaiser/escover",
     "Deep-Symmetry/asciidoctor-bytefield",
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",

@@ -1,31 +1,32 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 174,
-    "observations": 174,
-    "repos": 17,
-    "terms": 174
+    "components": 244,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 18,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "apache/casbin",
     "browserslist/browserslist",
-    "ChatGPTNextWeb/NextChat",
     "dense-analysis/ale",
+    "git-lfs/git-lfs",
     "github-linguist/linguist",
+    "gitleaks/gitleaks",
     "googleapis/google-api-nodejs-client",
     "JetBrains/compose-multiplatform",
     "meta-llama/llama-cookbook",
-    "neovim/nvim-lspconfig",
     "nvm-sh/nvm",
     "oobabooga/textgen",
     "preactjs/preact",
     "pyg-team/pytorch_geometric",
+    "qubvel-org/segmentation_models.pytorch",
     "realworld-apps/realworld",
     "rust-lang/mdBook",
     "spaceship-prompt/spaceship-prompt",

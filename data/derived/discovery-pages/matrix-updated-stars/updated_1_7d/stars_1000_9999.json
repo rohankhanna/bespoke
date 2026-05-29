@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2093,
-    "concepts": 956,
-    "observations": 961,
-    "repos": 108,
-    "terms": 955
+    "components": 2038,
+    "concepts": 935,
+    "observations": 940,
+    "repos": 103,
+    "terms": 934
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
@@ -27,7 +27,6 @@
     "aws/serverless-application-model",
     "babashka/babashka",
     "babashka/sci",
-    "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "bitsandbytes-foundation/bitsandbytes",
     "callstack/react-native-builder-bob",
@@ -57,7 +56,6 @@
     "google-deepmind/optax",
     "google-gemini/live-api-web-console",
     "googleapis/google-api-go-client",
-    "googleapis/google-auth-library-php",
     "googleapis/google-cloud-go",
     "googleapis/google-cloud-node",
     "harbor-framework/harbor",
@@ -93,7 +91,6 @@
     "mono/SkiaSharp",
     "neavo/LinguaGacha",
     "NEKOparapa/AiNiee",
-    "nvim-tree/nvim-web-devicons",
     "ogx-ai/ogx",
     "openai/openai-dotnet",
     "podman-desktop/podman-desktop",
@@ -114,8 +111,6 @@
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
     "ultrajson/ultrajson",
-    "vale-cli/vale",
-    "vercel/serve",
     "vuejs/devtools",
     "vuejs/language-tools",
     "web-platform-tests/wpt",

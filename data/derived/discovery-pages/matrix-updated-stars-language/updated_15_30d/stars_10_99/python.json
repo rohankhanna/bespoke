@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 52,
-    "terms": 199
+    "components": 267,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 45,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "All-Hands-AI/OpenHands-Cloud",
@@ -25,7 +25,6 @@
     "beclab/apps",
     "braelyn-ai/mob",
     "carstencodes/pdm-bump",
-    "cloudfoundry/community",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
     "dora-rs/dora-hub",
@@ -37,20 +36,16 @@
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "Hiroshiba/voicevox_engine",
-    "HKU-BAL/ClairS-TO",
     "jfly/shtuff",
     "LedgerHQ/ragger",
     "MGenAI/GRN",
     "microsoft/olive-recipes",
-    "NeilGirdhar/tjax",
     "neo4j/neo4j-python-driver-rust-ext",
-    "NoakLiu/FastCache-xDiT",
     "nod-ai/amd-shark-ai",
     "NVIDIA/multi-storage-client",
     "open-edge-platform/physical-ai-studio",
     "petercorke/spatialmath-python",
     "pipecat-ai/pipecat-cli",
-    "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
     "python-jsonschema/referencing",
     "pytroll/donfig",
@@ -61,10 +56,8 @@
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
-    "terrierteam/pyterrier_pisa",
     "Thinklab-SJTU/Bench2Drive-Speed",
     "version-fox/vfox-plugins",
-    "xhluca/bm25-benchmarks",
     "yulewang97/ERDiff"
   ]
 }

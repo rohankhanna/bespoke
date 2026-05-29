@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 98,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 3,
-    "terms": 21
+    "components": 127,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 4,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "electron/rebuild",
     "unplugin/unplugin-vue-components",
-    "Urigo/graphql-cli"
+    "Urigo/graphql-cli",
+    "vercel/serve"
   ]
 }

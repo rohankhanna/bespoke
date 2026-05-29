@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 508,
-    "observations": 508,
-    "repos": 81,
-    "terms": 505
+    "components": 285,
+    "concepts": 515,
+    "observations": 515,
+    "repos": 82,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -46,15 +46,17 @@
     "inducer/pycuda",
     "Intellindust-AI-Lab/DEIM",
     "ionelmc/pytest-benchmark",
-    "jaredks/rumps",
     "jeffallan/claude-skills",
     "jiaaro/pydub",
     "JulietaUla/Montserrat",
     "keleshev/schema",
+    "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+    "linkchecker/linkchecker",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
     "lyuwenyu/RT-DETR",
     "michaelfeil/infinity",
     "microsoft/TaskWeaver",
+    "miiton/Cica",
     "miolini/autoresearch-macos",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
@@ -64,7 +66,6 @@
     "oils-for-unix/oils",
     "om-ai-lab/VLM-R1",
     "open-mmlab/mmaction2",
-    "open-webui/mcpo",
     "OpenGVLab/InternVideo",
     "pdfminer/pdfminer.six",
     "pfnet/pfrl",

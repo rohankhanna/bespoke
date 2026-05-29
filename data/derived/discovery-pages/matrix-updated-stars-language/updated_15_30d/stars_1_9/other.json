@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 21,
-    "terms": 79
+    "components": 56,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 15,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "aimeos/ai-monolog",
-    "appsignal/appsignal-elixir-plug",
     "atsushieno/aap-juce-simple-host",
     "benjamimgois/pascube",
-    "bennyyip/dot-vim",
-    "Blosc/blogsite",
     "cosmos/security",
     "fern-api/docs",
     "fluent-vue/examples",
-    "googleapis/google-cloud-php-compute",
-    "holochain/holonix",
     "JeremyAnsel/SharpAssimp",
-    "jk10001/aquainsightai",
     "JuliaCI/rootfs-images",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",

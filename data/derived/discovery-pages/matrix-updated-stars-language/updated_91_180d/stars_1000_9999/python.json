@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 803,
-    "observations": 804,
-    "repos": 164,
-    "terms": 792
+    "components": 410,
+    "concepts": 808,
+    "observations": 809,
+    "repos": 166,
+    "terms": 797
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -89,6 +89,7 @@
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
     "isl-org/Open3D-ML",
+    "jaredks/rumps",
     "jazzband/django-configurations",
     "jessevig/bertviz",
     "junyanz/CatPapers",
@@ -124,6 +125,7 @@
     "ollama/ollama-python",
     "open-mmlab/mmcv",
     "open-mmlab/mmengine",
+    "open-webui/mcpo",
     "opencv/opencv-python",
     "OpenSPG/KAG",
     "PaddlePaddle/ERNIE",

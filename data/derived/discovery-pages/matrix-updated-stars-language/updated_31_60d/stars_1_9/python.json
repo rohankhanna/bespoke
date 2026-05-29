@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 144,
-    "observations": 144,
-    "repos": 66,
-    "terms": 162
+    "components": 242,
+    "concepts": 150,
+    "observations": 150,
+    "repos": 67,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -27,7 +27,9 @@
     "apptainer/apptainer-userdocs",
     "arielagor/jetbrains-mono-hebrew",
     "ashvardanian/ashvardanian",
+    "astral-sh/versions",
     "astropy/repo_stats",
+    "atlanhq/atlan-sample-apps",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
     "beneadie/DeepDog_1",
@@ -72,7 +74,6 @@
     "pyrtlsdr/pyrtlsdrlib",
     "ROCm/rbuild",
     "rrsaldanha/burp-mcp-agents",
-    "runtimeverification/kup",
     "scaleway/serverless-api-framework-python",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",

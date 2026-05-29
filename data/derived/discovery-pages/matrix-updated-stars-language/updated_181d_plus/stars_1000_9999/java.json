@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 182,
-    "observations": 182,
-    "repos": 44,
-    "terms": 181
+    "components": 135,
+    "concepts": 192,
+    "observations": 192,
+    "repos": 45,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "abel533/ECharts",
     "alibaba/compileflow",
@@ -45,6 +45,7 @@
     "OpenSPG/openspg",
     "osmdroid/osmdroid",
     "phodal/migration",
+    "PlexPt/chatgpt-java",
     "processing/processing",
     "pytorch/serve",
     "reactive-streams/reactive-streams-jvm",

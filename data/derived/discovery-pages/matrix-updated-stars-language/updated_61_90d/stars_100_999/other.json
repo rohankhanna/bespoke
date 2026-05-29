@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 794,
-    "concepts": 533,
-    "observations": 535,
-    "repos": 139,
-    "terms": 530
+    "components": 784,
+    "concepts": 524,
+    "observations": 526,
+    "repos": 138,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -45,6 +45,7 @@
     "clojure/core.cache",
     "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
+    "cloudstudio/ollama-laravel",
     "cognitect/transit-clj",
     "cpp-pm/hunter",
     "creativescala/doodle",
@@ -70,8 +71,6 @@
     "dwyl/phoenix-todo-list-tutorial",
     "elixir-ecto/myxql",
     "elixir-sqlite/ecto_sqlite3",
-    "Embarcadero/P4D-Data-Sciences",
-    "Embarcadero/python4delphi",
     "ericmj/decimal",
     "facebookresearch/fairo",
     "fsharp/fslang-design",
@@ -86,7 +85,6 @@
     "JetBrains/gradle-changelog-plugin",
     "joshuaulrich/TTR",
     "joshuaulrich/xts",
-    "JuliaLang/JuliaSyntax.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
     "JunoLab/Weave.jl",
@@ -123,11 +121,11 @@
     "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "proper-testing/proper",
-    "pug-php/pug",
     "purcell/envrc",
     "queryverse/Query.jl",
     "rejemy/UltraLiteDB",
     "rubocop/rubocop-performance",
+    "RubyMoney/eu_central_bank",
     "sandrohanea/whisper.net",
     "scssphp/scssphp",
     "sdbds/SageAttention-for-windows",
@@ -143,6 +141,7 @@
     "tanvirtin/vgit.nvim",
     "tarides/dune-release",
     "tc39/proposal-source-phase-imports",
+    "tier4/AWSIM",
     "trailofbits/eth-security-toolbox",
     "travis-ci/travis-api",
     "trezor/cython-hidapi",

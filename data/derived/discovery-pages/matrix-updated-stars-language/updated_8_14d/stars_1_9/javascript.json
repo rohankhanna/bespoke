@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 23,
+    "components": 11,
     "concepts": 0,
     "observations": 0,
-    "repos": 3,
+    "repos": 2,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
-    "aidenlab/juicebox-web",
     "apostrophecms/starter-kit-astro-essentials",
     "oscard0m/ts-transformer-remove-named-export"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4542,
-    "concepts": 936,
-    "observations": 940,
-    "repos": 80,
-    "terms": 934
+    "components": 4399,
+    "concepts": 879,
+    "observations": 883,
+    "repos": 75,
+    "terms": 877
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "ajv-validator/ajv",
@@ -25,19 +25,17 @@
     "aws/aws-cdk",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
-    "bokeh/bokeh",
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
+    "ChatGPTNextWeb/NextChat",
     "cheeriojs/cheerio",
     "clauderic/dnd-kit",
     "colinhacks/zod",
     "continuedev/continue",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
-    "ecomfe/vue-echarts",
     "electron-react-boilerplate/electron-react-boilerplate",
-    "electron-userland/electron-builder",
     "element-plus/element-plus",
     "faker-js/faker",
     "formatjs/formatjs",
@@ -48,7 +46,6 @@
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "Kong/insomnia",
-    "kysely-org/kysely",
     "lucide-icons/lucide",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
@@ -64,8 +61,6 @@
     "nuxt/nuxt",
     "oblador/react-native-vector-icons",
     "openobserve/openobserve",
-    "pmndrs/react-three-fiber",
-    "pmndrs/zustand",
     "prisma/prisma",
     "puppeteer/puppeteer",
     "QwikDev/qwik",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 394,
-    "concepts": 786,
-    "observations": 786,
-    "repos": 210,
-    "terms": 781
+    "components": 407,
+    "concepts": 806,
+    "observations": 806,
+    "repos": 214,
+    "terms": 803
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -25,6 +25,7 @@
     "aim-uofa/Matcher",
     "Akajiaku11/Air-Quality-Prediction-Model",
     "alex-petrenko/sample-factory",
+    "alexei-led/aws-mcp-server",
     "alfworld/alfworld",
     "ali-vilab/Wan-Move",
     "Alibaba-NLP/ViDoRAG",
@@ -89,6 +90,7 @@
     "gafniguy/4D-Facial-Avatars",
     "GANWANSHUI/GaussianOcc",
     "gatecat/prjoxide",
+    "Gen-Verse/Open-AgentRL",
     "GewelsJI/VPS",
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
@@ -155,6 +157,7 @@
     "NVlabs/PS3",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenBMB/VisRAG",
+    "OpenDriveLab/DriveAGI",
     "OpenDriveLab/LaneSegNet",
     "OpenGVLab/GUI-Odyssey",
     "OpenMOSS/FRoM-W1",
@@ -191,6 +194,7 @@
     "strands-agents/agent-builder",
     "superclaude-org/supergemini_framework",
     "TEN-framework/ten-turn-detection",
+    "TencentCloudADP/youtu-tip",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "tpoisonooo/ROGRAG",

@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 940,
-    "concepts": 602,
-    "observations": 606,
-    "repos": 93,
-    "terms": 599
+    "components": 942,
+    "concepts": 609,
+    "observations": 613,
+    "repos": 95,
+    "terms": 607
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
+    "Alibaba-NLP/DeepResearch",
     "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
     "antlr/antlr4",
@@ -24,6 +25,7 @@
     "bmaltais/kohya_ss",
     "bootandy/dust",
     "BuilderIO/mitosis",
+    "burntsushi/ripgrep",
     "bytedance/UI-TARS",
     "camenduru/stable-diffusion-webui-colab",
     "caolan/async",

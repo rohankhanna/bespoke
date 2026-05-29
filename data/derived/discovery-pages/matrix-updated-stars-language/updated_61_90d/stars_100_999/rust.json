@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 135,
-    "observations": 138,
-    "repos": 34,
-    "terms": 134
+    "components": 235,
+    "concepts": 151,
+    "observations": 155,
+    "repos": 37,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
@@ -27,10 +27,12 @@
     "dtolnay/trybuild",
     "emilk/egui_plot",
     "esp-rs/embedded-svc",
+    "esp-rs/esp-idf-svc",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
+    "gimli-rs/addr2line",
     "IWANABETHATGUY/tower-lsp-boilerplate",
     "Kampfkarren/selene",
     "lambdaclass/lambdaworks",
@@ -38,6 +40,7 @@
     "matsadler/magnus",
     "mozilla/dump_syms",
     "near/borsh-rs",
+    "Nugine/simd",
     "pdf-rs/pdf_render",
     "PistonDevelopers/glfw-rs",
     "prisma/tiberius",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 124,
-    "observations": 127,
-    "repos": 27,
-    "terms": 123
+    "components": 205,
+    "concepts": 118,
+    "observations": 121,
+    "repos": 26,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
-    "a16z/helios",
     "allan2/dotenvy",
     "brendanzab/codespan",
     "David-OConnor/pyflow",

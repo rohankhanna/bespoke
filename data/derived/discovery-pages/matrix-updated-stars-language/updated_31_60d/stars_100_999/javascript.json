@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2943,
-    "concepts": 715,
-    "observations": 725,
-    "repos": 150,
-    "terms": 745
+    "components": 3041,
+    "concepts": 742,
+    "observations": 752,
+    "repos": 153,
+    "terms": 771
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -51,7 +51,6 @@
     "conventional-changelog/conventional-changelog-config-spec",
     "csstools/cssdb",
     "CVEProject/cve-services",
-    "CyberAP/nanoid-dictionary",
     "d3/d3-format",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
@@ -86,6 +85,7 @@
     "gruntjs/grunt-contrib-qunit",
     "higlass/higlass",
     "hyparam/hyparquet",
+    "hyparam/icebird",
     "i18next/i18next-browser-languageDetector",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
@@ -100,6 +100,7 @@
     "js-kyle/mincer",
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",
+    "keithamus/sort-package-json",
     "kharchenkolab/pagoda2",
     "kriszyp/lmdb-js",
     "kriszyp/msgpackr",
@@ -115,7 +116,8 @@
     "Mathpix/mathpix-markdown-it",
     "mattgodbolt/jsbeeb",
     "matzkoh/prettier-plugin-packagejson",
-    "mourner/kdbush",
+    "mdn/data",
+    "mdn/mdn-http-observatory",
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
     "neostandard/neostandard",
@@ -134,6 +136,7 @@
     "postcss/postcss-load-config",
     "postcss/sugarss",
     "previm/previm",
+    "prisma/ecosystem-tests",
     "projectfluent/fluent.js",
     "reviewdog/action-eslint",
     "rooklift/ogatak",

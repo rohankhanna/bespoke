@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 26,
     "observations": 26,
-    "repos": 16,
+    "repos": 17,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "conda-forge/blis-feedstock",
@@ -24,6 +24,7 @@
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-Calls-The-Shots",
+    "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",

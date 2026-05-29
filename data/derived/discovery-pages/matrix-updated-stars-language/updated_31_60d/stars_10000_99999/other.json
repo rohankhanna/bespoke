@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1288,
-    "concepts": 945,
-    "observations": 951,
-    "repos": 109,
-    "terms": 944
+    "components": 1313,
+    "concepts": 977,
+    "observations": 983,
+    "repos": 113,
+    "terms": 973
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -54,6 +54,7 @@
     "fastai/fastai",
     "fastlane/fastlane",
     "ghostty-org/ghostty",
+    "golang-standards/project-layout",
     "google-deepmind/deepmind-research",
     "google-gemini/cookbook",
     "google-gemini/gemini-fullstack-langgraph-quickstart",
@@ -82,6 +83,7 @@
     "kubernetes/community",
     "LazyVim/LazyVim",
     "llvm/llvm-project",
+    "MagicStack/uvloop",
     "mason-org/mason.nvim",
     "metabase/metabase",
     "microsoft/fluentui-system-icons",
@@ -100,6 +102,7 @@
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
+    "PowerShell/PowerShell",
     "rails/rails",
     "realm/SwiftLint",
     "reasonml/reason",
@@ -111,6 +114,7 @@
     "shap/shap",
     "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
+    "square/moshi",
     "square/okhttp",
     "square/retrofit",
     "swagger-api/swagger-codegen",

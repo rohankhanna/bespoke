@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 37,
-    "terms": 22
+    "concepts": 17,
+    "observations": 17,
+    "repos": 24,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "csm-actions/demo-client",
-    "danielrosehill/AI-Dev-Repo-Template-1",
-    "danielrosehill/AI-Dev-Workspace-Primitives",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Browser-Data-Capture-Plugin",
-    "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
-    "danielrosehill/Claude-Declutter-Genie-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
     "danielrosehill/Claude-Donetick-Plugin",
@@ -39,16 +33,9 @@
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
-    "danielrosehill/Claude-Jewish-Utilities-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
-    "danielrosehill/Claude-Personal-Planning-Plugin",
-    "danielrosehill/DOCS.md",
-    "danielrosehill/ENVIRONMENT.md",
-    "danielrosehill/GROUNDING.md",
-    "danielrosehill/Jewish-Texts-Reference-Plugin",
-    "hermit-os/.github",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves"
   ]

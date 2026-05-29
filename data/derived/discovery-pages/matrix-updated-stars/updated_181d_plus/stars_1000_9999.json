@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10512,
-    "concepts": 9070,
-    "observations": 9079,
-    "repos": 2351,
-    "terms": 8943
+    "components": 10515,
+    "concepts": 9082,
+    "observations": 9091,
+    "repos": 2353,
+    "terms": 8955
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1320,6 +1320,7 @@
     "marmotedu/iam",
     "MarshallOfSound/electron-devtools-installer",
     "martinus/nanobench",
+    "MaskRay/ccls",
     "Masterminds/glide",
     "Masterminds/sprig",
     "Masterminds/squirrel",
@@ -1720,6 +1721,7 @@
     "plantain-00/type-coverage",
     "PlayVoice/vits_chinese",
     "PlayVoice/whisper-vits-svc",
+    "PlexPt/chatgpt-java",
     "plumatic/schema",
     "Po-Hsun-Su/pytorch-ssim",
     "Pokee-AI/PokeeResearchOSS",

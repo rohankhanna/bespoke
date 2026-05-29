@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1064,
-    "concepts": 864,
-    "observations": 870,
-    "repos": 145,
-    "terms": 872
+    "components": 1076,
+    "concepts": 886,
+    "observations": 892,
+    "repos": 149,
+    "terms": 894
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -30,6 +30,7 @@
     "apache/pulsar-client-go",
     "appleboy/go-fcm",
     "argoproj-labs/argo-rollouts-manager",
+    "aws-cloudformation/rain",
     "aws/amazon-vpc-resource-controller-k8s",
     "aws/credentials-fetcher",
     "awslabs/soci-snapshotter",
@@ -50,10 +51,12 @@
     "chainguard-dev/melange",
     "charmbracelet/catwalk",
     "charmbracelet/colorprofile",
+    "ClickHouse/ch-go",
     "cloudflare/go",
     "cloudfoundry/bosh-bootloader",
     "cloudfoundry/bosh-cli",
     "cloudfoundry/gosigar",
+    "cloudwego/eino-examples",
     "coder/code-marketplace",
     "coder/envbuilder",
     "connectrpc/validate-go",
@@ -134,9 +137,11 @@
     "openshift/enhancements",
     "openshift/library",
     "opentofu/registry",
+    "oracle/oci-go-sdk",
     "ossf/osv-schema",
     "phiat/claude-esp",
     "phuslu/log",
+    "pion/ice",
     "pion/mediadevices",
     "pires/go-proxyproto",
     "prehisle/relay-pulse",
@@ -148,7 +153,6 @@
     "siderolabs/talos-cloud-controller-manager",
     "sigstore/fulcio",
     "skenetechnologies/skene",
-    "slsa-framework/slsa-github-generator",
     "snowflakedb/gosnowflake",
     "spiffe/go-spiffe",
     "stefanlogue/meteor",

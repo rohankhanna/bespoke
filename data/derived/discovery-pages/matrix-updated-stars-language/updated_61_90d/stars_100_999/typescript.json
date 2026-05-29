@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1239,
-    "concepts": 291,
-    "observations": 292,
-    "repos": 46,
-    "terms": 307
+    "components": 1315,
+    "concepts": 283,
+    "observations": 284,
+    "repos": 49,
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "a2aproject/a2a-inspector",
     "actions-cool/issues-helper",
@@ -26,8 +26,10 @@
     "aws-samples/dify-self-hosted-on-aws",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
+    "Charlie85270/Dorothy",
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
+    "cztomsik/ava",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "fannheyward/create-coc-extension",
@@ -44,11 +46,12 @@
     "lobehub/lobe-charts",
     "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
+    "microsoft/vscode-debugadapter-node",
     "multiformats/js-multiformats",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
-    "priceline/design-system",
     "ruvnet/agentic-flow",
+    "shareai-lab/kode-agent-sdk",
     "solidjs/templates",
     "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",

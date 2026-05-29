@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 23,
     "observations": 23,
-    "repos": 15,
+    "repos": 16,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "atsushieno/homebrew-oss",
+    "b2agi/exist-is-charter_kr",
     "bookcars/bookcars.github.io",
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Israel-Civilian-Readiness-Guide",

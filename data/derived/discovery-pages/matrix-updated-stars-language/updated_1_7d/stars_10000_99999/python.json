@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 368,
-    "observations": 370,
-    "repos": 26,
-    "terms": 365
+    "components": 287,
+    "concepts": 349,
+    "observations": 351,
+    "repos": 25,
+    "terms": 346
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -34,7 +34,6 @@
     "psf/black",
     "pydantic/pydantic",
     "python-poetry/poetry",
-    "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",

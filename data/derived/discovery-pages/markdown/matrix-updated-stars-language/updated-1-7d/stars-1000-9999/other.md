@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-28T08:55:24.930262+00:00`
+Generated at: `2026-05-29T05:58:20.584482+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 221
-- components: 288
-- concepts: 221
-- observations: 223
+- repos: 22
+- terms: 211
+- components: 272
+- concepts: 211
+- observations: 213
 
 ## Static behavior
 
@@ -48,8 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5064 | 2026-05-23T20:16:31Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
 | [babashka/babashka](https://github.com/babashka/babashka) | 4513 | 2026-05-23T18:23:48Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
 | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3740 | 2026-05-22T09:53:19Z | Other | Model/data | 12 | 0 | 12 | 12 |
-| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2676 | 2026-05-21T23:36:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-21T23:16:36Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -69,12 +67,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3740 | 2026-05-22T09:53:19Z | Other | Model/data | 12 | 0 | 12 | 12 |
 | [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3654 | 2026-05-26T18:58:05Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3003 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2676 | 2026-05-21T23:36:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [openai/openai-dotnet](https://github.com/openai/openai-dotnet) | 2614 | 2026-05-25T10:33:14Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [psmux/psmux](https://github.com/psmux/psmux) | 2194 | 2026-05-26T10:21:58Z | Other | CLI | 16 | 5 | 16 | 16 |
 | [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1841 | 2026-05-26T16:31:10Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1426 | 2026-05-26T18:23:42Z | Other | CLI | 10 | 14 | 10 | 10 |
-| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-21T23:16:36Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [babashka/sci](https://github.com/babashka/sci) | 1357 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1228 | 2026-05-26T21:29:42Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1177 | 2026-05-26T14:51:25Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |

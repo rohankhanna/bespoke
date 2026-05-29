@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 24,
-    "observations": 25,
-    "repos": 4,
-    "terms": 24
+    "components": 37,
+    "concepts": 29,
+    "observations": 30,
+    "repos": 7,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "dwyl/quotes",
+    "emacscollective/auto-compile",
+    "google/protobuf.dart",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
+    "meshcat-dev/meshcat",
     "openbsd/ports"
   ]
 }

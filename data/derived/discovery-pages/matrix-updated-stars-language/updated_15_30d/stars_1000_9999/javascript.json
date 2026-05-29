@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2043,
-    "concepts": 353,
-    "observations": 354,
-    "repos": 49,
-    "terms": 351
+    "components": 1986,
+    "concepts": 336,
+    "observations": 337,
+    "repos": 43,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "antfu/eslint-config",
@@ -25,24 +25,18 @@
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
     "ipfs/ipfs-companion",
-    "jakerella/jquery-mockjax",
     "jasonlong/isometric-contributions",
     "jellyfin/jellyfin-web",
     "jquery/jquery-color",
-    "keepassxreboot/keepassxc-browser",
     "KhronosGroup/Vulkan-Docs",
     "LavaMoat/LavaMoat",
     "leezng/vue-json-pretty",
-    "mapbox/geobuf",
-    "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
     "MikeMcl/bignumber.js",
-    "mozilla/rhino",
     "mozilla/web-ext",
     "nodeca/js-yaml",
     "nodejs/Release",
-    "observing/pre-commit",
     "openstreetmap/iD",
     "openwrt/luci",
     "parallel-js/parallel.js",

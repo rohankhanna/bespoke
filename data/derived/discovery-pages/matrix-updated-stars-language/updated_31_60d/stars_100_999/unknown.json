@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 270,
-    "observations": 271,
-    "repos": 72,
-    "terms": 269
+    "components": 91,
+    "concepts": 277,
+    "observations": 278,
+    "repos": 73,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
@@ -48,7 +48,6 @@
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "filecoin-project/community",
-    "flathub/com.vscodium.codium",
     "gautamkrishnar/gautamkrishnar",
     "ghimiresunil/Top-AI-Tools",
     "github/codeql-cli-binaries",
@@ -65,11 +64,13 @@
     "luau-lang/rfcs",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "mason-org/mason-registry",
+    "mdn/mdn-community",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
+    "openjs-foundation/cross-project-council",
     "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
     "ranpox/awesome-computer-use",

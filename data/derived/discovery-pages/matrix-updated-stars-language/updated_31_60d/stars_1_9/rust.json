@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 83,
-    "observations": 84,
-    "repos": 28,
-    "terms": 85
+    "components": 208,
+    "concepts": 92,
+    "observations": 93,
+    "repos": 31,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "bnb-chain/reth-bsc-triedb",
+    "bourumir-wyngs/saphyr",
     "curiousdannii/remglk-rs",
     "databendlabs/display-more",
     "DioxusLabs/stork",
@@ -28,6 +29,7 @@
     "facebookexperimental/cxx",
     "foundry-rs/foundry-core",
     "gaoyifan/bgptools",
+    "heroku/buildpacks-deb-packages",
     "hsivonen/chardetng_c",
     "huggingface/fuser",
     "image-rs/image-extras",
@@ -41,6 +43,7 @@
     "pkgxdev/bpb",
     "tremby/snapmixer",
     "urschrei/polyline-ffi",
+    "vercel-labs/mdxjs-rs-turbopack",
     "yhirose/docs-gen"
   ]
 }

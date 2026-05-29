@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 202,
-    "concepts": 243,
-    "observations": 245,
-    "repos": 30,
-    "terms": 243
+    "concepts": 250,
+    "observations": 252,
+    "repos": 31,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
+    "Alibaba-NLP/DeepResearch",
     "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
     "beehiveinnovations/pal-mcp-server",

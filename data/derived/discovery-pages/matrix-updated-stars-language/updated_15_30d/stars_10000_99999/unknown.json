@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 8,
-    "terms": 88
+    "components": 20,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 7,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "brave/brave-browser",
@@ -20,7 +20,6 @@
     "kepano/obsidian-skills",
     "Loyalsoldier/v2ray-rules-dat",
     "obsidianmd/obsidian-releases",
-    "punkpeye/awesome-mcp-servers",
-    "veggiemonk/awesome-docker"
+    "punkpeye/awesome-mcp-servers"
   ]
 }

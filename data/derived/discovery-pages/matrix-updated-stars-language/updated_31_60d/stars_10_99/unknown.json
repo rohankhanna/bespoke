@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 53,
-    "terms": 139
+    "components": 133,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 56,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
-    "aloncarmel/supermeskill",
+    "alphagov/govuk-rfcs",
     "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
     "BAI-LAB/Survey-on-AI-Memory",
@@ -34,6 +34,7 @@
     "docker/github-builder",
     "dragonflyoss/community",
     "eigenfoundation/elips",
+    "elastic/logstash-docs",
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
@@ -45,6 +46,7 @@
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+    "jupyterlab/frontends-team-compass",
     "kubernetes/steering",
     "mypyc/mypyc-benchmark-results",
     "ocaml/platform-blog",
@@ -63,6 +65,7 @@
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",
+    "uxlfoundation/foundation",
     "uxlfoundation/open-source-working-group",
     "w3c/accname",
     "w3c/core-aam",

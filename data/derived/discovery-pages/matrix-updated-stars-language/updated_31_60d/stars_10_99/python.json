@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 788,
-    "concepts": 604,
-    "observations": 606,
-    "repos": 158,
-    "terms": 618
+    "components": 821,
+    "concepts": 641,
+    "observations": 643,
+    "repos": 165,
+    "terms": 655
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -65,6 +65,7 @@
     "chaoss/grimoirelab-sortinghat",
     "chengzhag/PanFlow",
     "cloudartisan/cloudartisan.github.io",
+    "cloudfoundry/community",
     "cmake-wheel/cmeel",
     "collinear-ai/yc-bench",
     "conda-forge/admin-requests",
@@ -93,6 +94,7 @@
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
     "HKU-BAL/Clair3-RNA",
+    "HKU-BAL/ClairS-TO",
     "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
     "hynek/argon2-cffi-bindings",
@@ -127,9 +129,11 @@
     "mozilla-services/shavar",
     "mozilla-services/shavar-list-creation",
     "mypyc/mypyc-benchmarks",
+    "NeilGirdhar/tjax",
     "networkx/nx-parallel",
     "nix-community/nur-update",
     "NixOS/branding",
+    "NoakLiu/FastCache-xDiT",
     "notofonts/notobuilder",
     "oneapi-src/level-zero-spec",
     "OpenHands/benchmarks",
@@ -139,6 +143,7 @@
     "pdm-project/tox-pdm",
     "petercorke/ansitable",
     "plone/cookieplone",
+    "pre-commit/sync-pre-commit-deps",
     "psyonicinc/ability-hand-api",
     "pycompression/python-isal",
     "pyocd/libusb-package",
@@ -164,12 +169,14 @@
     "sublimelsp/LSP-ruff",
     "svaningelgem/logprise",
     "symgraph/BinAssistMCP",
+    "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",
     "TigreGotico/phoonnx",
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
     "w1ndys/ex-cure-skill",
     "weaviate/agent-skills",
+    "xhluca/bm25-benchmarks",
     "yaph/tts-samples",
     "zen-xu/pytest-modern"
   ]

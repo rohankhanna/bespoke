@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 740,
-    "concepts": 665,
-    "observations": 666,
-    "repos": 80,
-    "terms": 663
+    "components": 709,
+    "concepts": 635,
+    "observations": 636,
+    "repos": 75,
+    "terms": 633
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "andreykaipov/goobs",
@@ -21,7 +21,6 @@
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
-    "aws-cloudformation/rain",
     "Azure/azure-dev",
     "Azure/azure-storage-azcopy",
     "Azure/azure-storage-fuse",
@@ -29,11 +28,9 @@
     "buildpacks/lifecycle",
     "celzero/firestack",
     "charmbracelet/x",
-    "ClickHouse/ch-go",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
     "cloudpilot-ai/karpenter-provider-gcp",
-    "cloudwego/eino-examples",
     "cloudwego/eino-ext",
     "cometbft/cometbft",
     "controlplaneio-fluxcd/flux-operator",
@@ -69,9 +66,7 @@
     "kubernetes-sigs/lws",
     "OffchainLabs/nitro",
     "operator-framework/operator-registry",
-    "oracle/oci-go-sdk",
     "osmosis-labs/osmosis",
-    "pion/ice",
     "pion/interceptor",
     "pion/rtp",
     "pion/stun",

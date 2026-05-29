@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15409,
-    "concepts": 13937,
-    "observations": 13963,
-    "repos": 4587,
-    "terms": 13719
+    "components": 15415,
+    "concepts": 13938,
+    "observations": 13964,
+    "repos": 4588,
+    "terms": 13720
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1384,6 +1384,7 @@
     "easyCZ/grpc-web-hacker-news",
     "ebdrup/json-schema-benchmark",
     "eborboihuc/rotate_3d",
+    "eclarke/ggbeeswarm",
     "eclipse-embed-cdt/org.eclipse.epp.packages",
     "eclipse-paho/paho.mqtt.testing",
     "ecomfe/echarts-stat",

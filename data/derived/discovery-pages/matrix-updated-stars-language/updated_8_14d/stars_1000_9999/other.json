@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 101,
-    "observations": 101,
+    "components": 65,
+    "concepts": 95,
+    "observations": 95,
     "repos": 11,
-    "terms": 96
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
-    "beam-community/elixir-companies",
-    "elixir-grpc/grpc",
+    "googleapis/google-auth-library-php",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
+    "nvim-tree/nvim-web-devicons",
     "opentk/opentk",
     "preservim/tagbar",
     "seancorfield/honeysql",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 13,
+    "components": 15,
     "concepts": 8,
     "observations": 8,
-    "repos": 8,
+    "repos": 9,
     "terms": 7
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "cloudaper/compact_enc_det_fork",
@@ -21,6 +21,7 @@
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
     "jrsoftware/is7z",
-    "vovkos/luadoxyxml"
+    "vovkos/luadoxyxml",
+    "zcash/MultiMarkdown-6"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 47861,
-    "concepts": 33990,
-    "observations": 34048,
-    "repos": 12360,
-    "terms": 33564
+    "components": 47877,
+    "concepts": 34008,
+    "observations": 34066,
+    "repos": 12366,
+    "terms": 33581
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -401,6 +401,7 @@
     "adobe-research/diffusion-rig",
     "adobe-type-tools/Adobe-GB1",
     "adobe-type-tools/Adobe-Japan1",
+    "adobe-type-tools/aots",
     "adobe-type-tools/cmap-resources",
     "adobe/antialiased-cnns",
     "adobe/brackets",
@@ -1952,6 +1953,7 @@
     "bnosac/images",
     "boakley/robotframework-lint",
     "bob80333/investigating_extrapolation",
+    "bobfang1992/pytomlpp",
     "BobLd/camelot-sharp",
     "bod/deferdemo",
     "bodil/sized-chunks",
@@ -3921,6 +3923,7 @@
     "eborboihuc/rotate_3d",
     "echo-yiyiyi/cube",
     "echo840/LIRA",
+    "eclarke/ggbeeswarm",
     "eclipse-acute/aCute",
     "eclipse-archived/dartboard",
     "eclipse-embed-cdt/org.eclipse.epp.packages",
@@ -7786,6 +7789,7 @@
     "Marwes/pretty.rs",
     "masakhane-io/africomet",
     "MASILab/3DUX-Net",
+    "MaskRay/ccls",
     "MasterBin-IIAU/AlphaRefine",
     "Masterminds/glide",
     "Masterminds/sprig",
@@ -8196,6 +8200,7 @@
     "Minxyzgo/MiraiGoChess",
     "miquelmassot/g2o-python",
     "miquelmassot/g2o-python-examples",
+    "mirage/coin",
     "mirage/emile",
     "mirage/ocaml-conduit",
     "mirage/ocaml-cow",
@@ -9484,6 +9489,7 @@
     "plemeri/UACANet",
     "PlexPt/awesome-chatgpt-prompts-zh",
     "PlexPt/chatgpt-corpus",
+    "PlexPt/chatgpt-java",
     "PlexPt/chatgpt-online-springboot",
     "plexus/cljs-test-example",
     "plone/cookiecutter-plone",

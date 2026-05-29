@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 131,
-    "concepts": 157,
-    "observations": 157,
+    "concepts": 160,
+    "observations": 160,
     "repos": 33,
-    "terms": 162
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
-    "Alibaba-NLP/DeepResearch",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
+    "deepinsight/insightface",
     "encode/httpx",
     "explosion/spaCy",
     "facebookresearch/vggt",

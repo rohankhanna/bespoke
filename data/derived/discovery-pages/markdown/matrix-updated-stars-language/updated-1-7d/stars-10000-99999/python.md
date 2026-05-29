@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-28T08:55:24.930262+00:00`
+Generated at: `2026-05-29T05:58:20.584482+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 365
-- components: 295
-- concepts: 368
-- observations: 370
+- repos: 25
+- terms: 346
+- components: 287
+- concepts: 349
+- observations: 351
 
 ## Static behavior
 
@@ -51,7 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [567-labs/instructor](https://github.com/567-labs/instructor) | 13033 | 2026-05-24T05:22:48Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 10430 | 2026-05-22T19:18:56Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [psf/black](https://github.com/psf/black) | 41520 | 2026-05-22T15:13:47Z | Python | Infrastructure/tooling | 15 | 13 | 15 | 15 |
-| [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) | 11580 | 2026-05-22T05:51:34Z | Python | Infrastructure/tooling | 19 | 8 | 19 | 19 |
 
 ## Repos sorted by stars
 
@@ -80,6 +79,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14265 | 2026-05-26T08:57:51Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | 13033 | 2026-05-24T05:22:48Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11962 | 2026-05-26T19:04:56Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
-| [qubvel-org/segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) | 11580 | 2026-05-22T05:51:34Z | Python | Infrastructure/tooling | 19 | 8 | 19 | 19 |
 | [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) | 10612 | 2026-05-26T07:30:29Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 10430 | 2026-05-22T19:18:56Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |

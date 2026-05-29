@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 599,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 36,
-    "terms": 83
+    "components": 614,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 37,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
     "aaaaalexis/obsidian-pseudo-mica",
@@ -21,6 +21,7 @@
     "AlexJPotter/fluentvalidation-ts",
     "androidStern-personal/openclaw-mcp-adapter",
     "atom-yang/aumi",
+    "br14n-sol/inquirer-file-selector",
     "c2corg/browserslist-update-action",
     "cahamilton/css-property-sort-order-smacss",
     "chaijs/assertion-error",

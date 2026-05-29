@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 830,
-    "concepts": 789,
-    "observations": 790,
-    "repos": 203,
-    "terms": 784
+    "components": 838,
+    "concepts": 802,
+    "observations": 803,
+    "repos": 206,
+    "terms": 797
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -85,7 +85,6 @@
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
     "EbrahimTahernejad/Tun2SocksKit",
-    "eclarke/ggbeeswarm",
     "ecukes/ecukes",
     "elixir-mint/mint_web_socket",
     "elm-explorations/test",
@@ -94,6 +93,8 @@
     "emacs-eldev/eldev",
     "emacs-lsp/lsp-dart",
     "emacs-lsp/lsp-treemacs",
+    "Embarcadero/P4D-Data-Sciences",
+    "Embarcadero/python4delphi",
     "envato/zxcvbn-ruby",
     "envoyproxy/data-plane-api",
     "esy/esy",
@@ -130,6 +131,7 @@
     "JuliaEditorSupport/julia-vim",
     "JuliaGizmos/Blink.jl",
     "JuliaInterop/CxxWrap.jl",
+    "JuliaLang/JuliaSyntax.jl",
     "JuliaML/MLUtils.jl",
     "JuliaPy/Conda.jl",
     "JuliaStrings/LaTeXStrings.jl",
@@ -167,6 +169,7 @@
     "PMunch/nimlsp",
     "prettier/prettier-emacs",
     "privacycg/meetings",
+    "pug-php/pug",
     "r-lib/covr",
     "r-lib/revdepcheck",
     "radian-software/ctrlf",

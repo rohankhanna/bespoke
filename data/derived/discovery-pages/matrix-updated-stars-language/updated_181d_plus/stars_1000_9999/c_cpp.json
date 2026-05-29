@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 357,
-    "concepts": 785,
-    "observations": 785,
-    "repos": 212,
-    "terms": 776
+    "concepts": 787,
+    "observations": 787,
+    "repos": 213,
+    "terms": 778
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -140,6 +140,7 @@
     "mapbox/tippecanoe",
     "marella/ctransformers",
     "martinus/nanobench",
+    "MaskRay/ccls",
     "mattingalls/soundflower",
     "MegEngine/MegEngine",
     "microsoft/msix-packaging",

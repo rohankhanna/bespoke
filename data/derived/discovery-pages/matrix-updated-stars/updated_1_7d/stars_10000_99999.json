@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1493,
-    "concepts": 841,
-    "observations": 846,
-    "repos": 65,
-    "terms": 847
+    "components": 1471,
+    "concepts": 804,
+    "observations": 808,
+    "repos": 62,
+    "terms": 810
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -30,8 +30,6 @@
     "gastownhall/gastown",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "git-lfs/git-lfs",
-    "gitleaks/gitleaks",
     "google-ai-edge/mediapipe",
     "grpc/grpc-java",
     "HIllya51/LunaTranslator",
@@ -60,7 +58,6 @@
     "pydantic/pydantic",
     "python-poetry/poetry",
     "QuantumNous/new-api",
-    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "redis/go-redis",
     "run-llama/llama_index",

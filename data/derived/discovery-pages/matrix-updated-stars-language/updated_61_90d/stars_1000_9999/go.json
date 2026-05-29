@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 214,
-    "concepts": 179,
-    "observations": 179,
-    "repos": 44,
-    "terms": 174
+    "components": 218,
+    "concepts": 180,
+    "observations": 180,
+    "repos": 45,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -40,6 +40,7 @@
     "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/memberlist",
+    "hashicorp/yamux",
     "isaacphi/mcp-language-server",
     "JohannesKaufmann/html-to-markdown",
     "kubernetes-sigs/krew",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 264,
+    "components": 266,
     "concepts": 105,
     "observations": 105,
-    "repos": 80,
+    "repos": 81,
     "terms": 104
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -92,6 +92,7 @@
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "vovkos/luadoxyxml",
     "wintercg/fetch",
-    "youngsofun/rust-csv"
+    "youngsofun/rust-csv",
+    "zcash/MultiMarkdown-6"
   ]
 }

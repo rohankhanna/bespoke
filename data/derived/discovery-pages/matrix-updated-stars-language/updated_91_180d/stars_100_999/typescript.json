@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1363,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 48,
-    "terms": 201
+    "components": 1371,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 49,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "adaltas/node-http-status",
@@ -51,6 +51,7 @@
     "nodejs/llparse",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
     "posthtml/posthtml-parser",
+    "priceline/design-system",
     "SassNinja/postcss-extract-media-query",
     "snapcast/snapweb",
     "TanStack/ranger",

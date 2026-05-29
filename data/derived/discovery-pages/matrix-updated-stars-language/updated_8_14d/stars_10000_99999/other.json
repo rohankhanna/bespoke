@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 6,
-    "terms": 53
+    "components": 38,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 5,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "dense-analysis/ale",
     "github-linguist/linguist",
     "JetBrains/compose-multiplatform",
     "meta-llama/llama-cookbook",
-    "neovim/nvim-lspconfig",
     "SubtitleEdit/subtitleedit"
   ]
 }

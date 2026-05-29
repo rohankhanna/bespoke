@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 476,
-    "concepts": 556,
-    "observations": 558,
-    "repos": 107,
-    "terms": 559
+    "components": 488,
+    "concepts": 576,
+    "observations": 579,
+    "repos": 111,
+    "terms": 579
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "Alexander-Miller/treemacs",
@@ -49,6 +49,7 @@
     "emacs-lsp/lsp-ui",
     "erew123/alltalk_tts",
     "fairygui/FairyGUI-unity",
+    "formtastic/formtastic",
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "fukuball/jieba-php",
@@ -57,6 +58,7 @@
     "globalize/globalize",
     "Gonzalo-D-Sales/obsidian-velocity",
     "google/gumbo-parser",
+    "googleapis/elixir-google-api",
     "gradle/kotlin-dsl-samples",
     "greggh/claude-code.nvim",
     "grpc/grpc-kotlin",
@@ -91,9 +93,11 @@
     "myclabs/DeepCopy",
     "nix-community/dream2nix",
     "nvim-java/nvim-java",
+    "omniauth/omniauth",
     "onsails/lspkind.nvim",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
+    "preservim/vimux",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
     "rails/spring",

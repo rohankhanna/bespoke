@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 10,
-    "terms": 60
+    "components": 12,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 11,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "fffaraz/awesome-cpp",
@@ -23,6 +23,7 @@
     "othneildrew/Best-README-Template",
     "sindresorhus/awesome-nodejs",
     "tc39/proposals",
+    "veggiemonk/awesome-docker",
     "xtaci/kcptun"
   ]
 }

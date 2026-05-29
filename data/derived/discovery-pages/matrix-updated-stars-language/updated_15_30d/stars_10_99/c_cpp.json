@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 260,
-    "observations": 260,
-    "repos": 30,
-    "terms": 255
+    "components": 153,
+    "concepts": 247,
+    "observations": 248,
+    "repos": 29,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
+    "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "atsushieno/uapmd",
     "BirolLab/btllib",
     "bmwiedemann/openSUSE",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
+    "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "facebook/fb303",
     "gazebosim/gz-common",
-    "gazebosim/gz-gui",
     "gazebosim/gz-physics",
     "gazebosim/gz-rendering",
     "gazebosim/gz-tools",
@@ -35,9 +36,7 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "jwindgassen/UnrealYAML",
-    "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
-    "llnl/camp",
     "microsoft/aitour-exploring-cutting-edge-models",
     "oneapi-src/unified-memory-framework",
     "ROCm/rpp",

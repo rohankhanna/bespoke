@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 421,
-    "concepts": 297,
-    "observations": 298,
-    "repos": 120,
-    "terms": 296
+    "components": 430,
+    "concepts": 298,
+    "observations": 299,
+    "repos": 123,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/termim.nvim",
@@ -22,7 +22,6 @@
     "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
-    "adobe-type-tools/aots",
     "adospace/litedbpad",
     "AghayeCoder/TX-ThemeHub",
     "ahrvoje/numerics",
@@ -52,6 +51,8 @@
     "dwyl/elixir-auth-microsoft",
     "eddelbuettel/tinythemes",
     "emacsorphanage/dart-mode",
+    "Embarcadero/Lightweight-Python-Wrappers",
+    "Embarcadero/PythonPackages4Delphi",
     "ethpandaops/optimism-package",
     "EvelynZhang-epiclab/DaTo",
     "falcoframework/Falco.Htmx",
@@ -74,6 +75,7 @@
     "hspec/sensei",
     "Humans-of-Julia/StaticWebPages.jl",
     "ImranR98/obtainium.imranr.dev",
+    "informalsystems/audits",
     "jaegertracing/docker-protobuf",
     "JamieMair/MuJoCo.jl",
     "JezerM/oil-lsp-diagnostics.nvim",
@@ -85,6 +87,7 @@
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JunoLab/Atom.jl",
+    "kahliburke/MCPRepl.jl",
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",

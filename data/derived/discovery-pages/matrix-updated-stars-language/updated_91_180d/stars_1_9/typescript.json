@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 14,
-    "terms": 63
+    "components": 127,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 15,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
@@ -23,6 +23,7 @@
     "gajus/eslint-plugin-slonik",
     "KSXGitHub/cargo-scripts-builder",
     "lxsmnsyc/sponsors",
+    "PBK-B/i18next-cli-vue",
     "robbiespeed/metron",
     "The-Focus-AI/buttondown-skill",
     "typstyle-rs/typstyle-tampermonkey",

@@ -3,7 +3,7 @@
     "components": 223,
     "concepts": 164,
     "observations": 164,
-    "repos": 56,
+    "repos": 55,
     "terms": 162
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -38,7 +38,6 @@
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
-    "Embarcadero/PythonEnvironments",
     "explosion/spacy-alignments",
     "explosion/weasel",
     "FindDefinition/cumm",

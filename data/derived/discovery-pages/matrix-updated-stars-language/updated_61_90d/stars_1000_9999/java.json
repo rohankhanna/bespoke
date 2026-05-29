@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 7,
-    "terms": 56
+    "components": 40,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 8,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "jtablesaw/tablesaw",
     "julian-klode/dns66",
     "locationtech/jts",
     "msgpack/msgpack-java",
+    "spring-projects/spring-ai-examples",
     "srikanth-lingala/zip4j",
     "stleary/JSON-java",
     "xerial/snappy-java"

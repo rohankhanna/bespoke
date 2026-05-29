@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 389,
-    "observations": 391,
-    "repos": 49,
-    "terms": 390
+    "components": 415,
+    "concepts": 476,
+    "observations": 478,
+    "repos": 56,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -21,17 +21,21 @@
     "apache/netbeans",
     "apache/pdfbox",
     "apache/poi",
+    "apache/seatunnel",
     "beehive-lab/TornadoVM",
     "besu-eth/besu",
     "bobbylight/RSyntaxTextArea",
     "bonigarcia/webdrivermanager",
     "brianfrankcooper/YCSB",
     "castorini/anserini",
+    "ClickHouse/clickhouse-java",
     "codelibs/fess",
     "confluentinc/examples",
     "diffplug/spotless",
     "dylibso/chicory",
     "FasterXML/jackson-annotations",
+    "FasterXML/jackson-core",
+    "FasterXML/jackson-databind",
     "flyway/flyway",
     "google/adk-java",
     "google/error-prone",
@@ -45,8 +49,11 @@
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
     "jhipster/prettier-java",
+    "JodaOrg/joda-time",
+    "junit-team/junit-examples",
     "junit-team/junit4",
     "langchain4j/langchain4j-examples",
+    "lightbend/config",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",
     "open-telemetry/opentelemetry-java",
@@ -61,7 +68,7 @@
     "spotbugs/spotbugs",
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples",
-    "spring-projects/spring-ai-examples",
-    "spring-projects/spring-restdocs"
+    "spring-projects/spring-restdocs",
+    "swagger-api/swagger-core"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 5464,
     "concepts": 1971,
     "observations": 1974,
-    "repos": 1387,
+    "repos": 1388,
     "terms": 1967
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -1007,6 +1007,7 @@
     "mindreframer/ex_sqlean",
     "MindWorkAI/ERI",
     "minihack-editor/minihack-editor.github.io",
+    "mirage/coin",
     "mirahavel0309/asm",
     "mmark-md/flycheck-mmark",
     "modelscope/Trinity-Studio",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 899,
-    "concepts": 668,
-    "observations": 670,
-    "repos": 60,
-    "terms": 662
+    "components": 881,
+    "concepts": 646,
+    "observations": 648,
+    "repos": 57,
+    "terms": 643
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -34,7 +34,6 @@
     "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",
-    "golang-standards/project-layout",
     "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",
@@ -48,7 +47,6 @@
     "Kotlin/kotlinx.coroutines",
     "kubernetes-sigs/kubespray",
     "logseq/logseq",
-    "MagicStack/uvloop",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
     "microsoft/ai-agents-for-beginners",
@@ -57,18 +55,17 @@
     "mmistakes/minimal-mistakes",
     "mozilla-mobile/firefox-ios",
     "MudBlazor/MudBlazor",
+    "neovim/nvim-lspconfig",
     "nim-lang/Nim",
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
-    "PowerShell/PowerShell",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
-    "square/moshi",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",

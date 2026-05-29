@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 859,
-    "concepts": 688,
-    "observations": 688,
-    "repos": 74,
-    "terms": 683
+    "components": 793,
+    "concepts": 617,
+    "observations": 617,
+    "repos": 67,
+    "terms": 612
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
-    "0x676e67/wreq-python",
     "AccessKit/accesskit",
     "actix/examples",
     "agentclientprotocol/agent-client-protocol",
@@ -22,7 +21,6 @@
     "apache/datafusion",
     "apache/iceberg-rust",
     "askama-rs/askama",
-    "aws-cloudformation/cloudformation-guard",
     "bionic-gpt/bionic-gpt",
     "brave/adblock-rust",
     "cachix/devenv",
@@ -45,7 +43,6 @@
     "GreptimeTeam/greptimedb",
     "hermit-os/kernel",
     "holochain/holochain",
-    "hoodie/notify-rust",
     "huggingface/text-embeddings-inference",
     "image-rs/image",
     "josh-project/josh",
@@ -54,14 +51,11 @@
     "lakekeeper/lakekeeper",
     "lance-format/lance",
     "MaterializeInc/materialize",
-    "mozilla/cbindgen",
     "mozilla/uniffi-rs",
     "nats-io/nats.rs",
     "nix-rust/nix",
     "notify-rs/notify",
     "prefix-dev/pixi",
-    "prisma/prisma-engines",
-    "pykeio/ort",
     "raphamorim/rio",
     "reubeno/brush",
     "risingwavelabs/risingwave",
@@ -86,7 +80,6 @@
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
     "wasm-bindgen/wasm-bindgen",
-    "wasm-bindgen/wasm-pack",
     "watchexec/watchexec"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 2083,
     "concepts": 1950,
     "observations": 1956,
-    "repos": 842,
+    "repos": 843,
     "terms": 1938
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -48,6 +48,7 @@
     "adelarsq/neovcs.vim",
     "ademanuele/VSMac-CodeCoverage",
     "adobe-photoshop/generator-panels",
+    "adobe-type-tools/aots",
     "ag1988/dss",
     "agilord/ulid",
     "ahonn/shadow-electron-starter",

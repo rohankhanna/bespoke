@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 13,
-    "terms": 22
+    "components": 25,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 15,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "AchimPieters/esp32-udp-logger",
+    "ankane/torchcodec-ruby",
+    "arran4/lemmy_notify",
     "celtera/avendish-audio-processor-template",
     "CHERIoT-Platform/cheriot-pqc",
     "cloudaper/compact_enc_det",

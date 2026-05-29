@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1395,
-    "concepts": 363,
-    "observations": 363,
-    "repos": 94,
-    "terms": 363
+    "components": 1493,
+    "concepts": 393,
+    "observations": 393,
+    "repos": 100,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
     "andylockran/spectral-aws-apigateway-ruleset",
+    "apollographql/connectors-community",
     "Azure/azure-api-style-guide",
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
@@ -36,11 +37,14 @@
     "ehmicky/node-version-alias",
     "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
+    "ember-cli/ember-app-blueprint",
     "erichlof/AntiGravity-Pool",
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
     "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
+    "gacts/install-dnscontrol",
+    "galaxyproteomics/tools-galaxyp",
     "gatsbyjs/gatsby-starter-minimal",
     "GDevelopApp/GDevelop-tutorials",
     "gr2m/before-after-hook",
@@ -50,6 +54,7 @@
     "GuillaumeGomez/browser-UI-test",
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
+    "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
@@ -78,6 +83,7 @@
     "neverendingqs/serverless-dotenv-example",
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
+    "npm/package-json",
     "npm/types",
     "nrwl/nx-ai-agents-config",
     "oclif/oclif.github.io",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 1,
-    "terms": 21
+    "components": 24,
+    "concepts": 39,
+    "observations": 40,
+    "repos": 3,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
-    "apache/casbin"
+    "apache/casbin",
+    "git-lfs/git-lfs",
+    "gitleaks/gitleaks"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 15,
-    "terms": 26
+    "components": 124,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 16,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "3swordman/tree-sitter-toon",
@@ -20,6 +20,7 @@
     "AnshulGora/portfolio_template_v1",
     "ansible-community/presentations",
     "athombv/com.athom.matter-bridge",
+    "coderaiser/escover",
     "cpojer/js-codemod",
     "danielrosehill/My-Network-MCP",
     "hchiam/chat-app-fcc-react-redux",

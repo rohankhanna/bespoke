@@ -3,7 +3,7 @@
     "components": 256,
     "concepts": 259,
     "observations": 260,
-    "repos": 105,
+    "repos": 106,
     "terms": 267
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -48,6 +48,7 @@
     "danielward27/paramax",
     "EasternJournalist/pipeline",
     "elm-fluent/elm-fluent",
+    "Embarcadero/PythonEnvironments",
     "emory-irlab/pyterrier_genrank",
     "ENCODE-DCC/caper",
     "enjoy-digital/liteiclink",

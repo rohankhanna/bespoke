@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 82,
-    "observations": 83,
-    "repos": 19,
-    "terms": 82
+    "components": 52,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 15,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
     "confluentinc/rest-utils",
-    "edward3h/minecraft-webhook",
     "flyway/flyway-community-db-support",
-    "googleapis/java-bigtable",
     "googleapis/sdk-platform-java",
     "heroku/heroku-jvm-application-deployer",
     "jcefmaven/jcefsampleapp",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "openjdk/jdk21u",
-    "opensim-org/opensim-gui",
     "qdrant/java-client",
     "smithy-lang/smithy-examples",
-    "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud",
     "usdot-fhwa-stol/cdasim"
   ]

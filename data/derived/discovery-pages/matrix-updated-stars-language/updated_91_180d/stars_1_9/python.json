@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 31,
-    "terms": 82
+    "components": 94,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 32,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-28T08:55:24.930262+00:00",
+  "generated_at": "2026-05-29T05:58:20.584482+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "aiagenta2z/onekey_mcp_router",
@@ -35,6 +35,7 @@
     "genius-harry/neural-chat",
     "hashberg-io/typing-validation",
     "heyoeyo/toadui",
+    "lace/entente",
     "LedgerHQ/ledgercomm",
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
