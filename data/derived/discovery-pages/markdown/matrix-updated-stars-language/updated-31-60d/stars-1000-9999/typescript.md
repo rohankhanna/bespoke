@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 194
-- terms: 1586
-- components: 7696
-- concepts: 1480
-- observations: 1484
+- repos: 197
+- terms: 1606
+- components: 8027
+- concepts: 1500
+- observations: 1504
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [BetterThanTomorrow/calva](https://github.com/BetterThanTomorrow/calva) | 2043 | 2026-04-29T07:43:40Z | TypeScript | Unknown | 0 | 66 | 0 | 0 |
+| [openai/openai-agents-js](https://github.com/openai/openai-agents-js) | 2883 | 2026-04-29T07:04:24Z | TypeScript | Infrastructure/tooling | 8 | 31 | 8 | 8 |
+| [artsy/eigen](https://github.com/artsy/eigen) | 3770 | 2026-04-29T06:07:52Z | TypeScript | Infrastructure/tooling | 12 | 234 | 12 | 12 |
 | [BuilderIO/builder](https://github.com/BuilderIO/builder) | 8658 | 2026-04-29T05:15:08Z | TypeScript | Infrastructure/tooling | 21 | 18 | 21 | 21 |
 | [thomasloven/hass-browser_mod](https://github.com/thomasloven/hass-browser_mod) | 1724 | 2026-04-29T03:37:08Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
 | [IgnisDa/ryot](https://github.com/IgnisDa/ryot) | 3254 | 2026-04-29T01:56:54Z | TypeScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |
@@ -295,6 +298,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lukeautry/tsoa](https://github.com/lukeautry/tsoa) | 3964 | 2026-04-15T11:10:32Z | TypeScript | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [opactorai/claudable](https://github.com/opactorai/Claudable) | 3884 | 2026-04-11T03:03:40Z | TypeScript | CLI | 0 | 27 | 0 | 0 |
 | [ChromeDevTools/devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend) | 3881 | 2026-04-23T15:49:49Z | TypeScript | Infrastructure/tooling | 8 | 66 | 8 | 8 |
+| [artsy/eigen](https://github.com/artsy/eigen) | 3770 | 2026-04-29T06:07:52Z | TypeScript | Infrastructure/tooling | 12 | 234 | 12 | 12 |
 | [florianbruniaux/claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | 3685 | 2026-04-18T16:12:17Z | TypeScript | CLI | 20 | 4 | 0 | 0 |
 | [PAIR-code/lit](https://github.com/PAIR-code/lit) | 3653 | 2026-04-15T07:20:48Z | TypeScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [nodejs/corepack](https://github.com/nodejs/corepack) | 3628 | 2026-04-28T13:28:53Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
@@ -311,6 +315,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kaliiiiiiiiii-Vinyzu/patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 3095 | 2026-04-12T22:04:07Z | TypeScript | Infrastructure/tooling | 25 | 16 | 25 | 25 |
 | [cawa-93/vite-electron-builder](https://github.com/cawa-93/vite-electron-builder) | 2980 | 2026-04-06T18:37:54Z | TypeScript | Infrastructure/tooling | 16 | 15 | 16 | 16 |
 | [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials) | 2907 | 2026-04-21T03:56:06Z | TypeScript | Infrastructure/tooling | 7 | 27 | 7 | 7 |
+| [openai/openai-agents-js](https://github.com/openai/openai-agents-js) | 2883 | 2026-04-29T07:04:24Z | TypeScript | Infrastructure/tooling | 8 | 31 | 8 | 8 |
 | [react-native-community/cli](https://github.com/react-native-community/cli) | 2871 | 2026-04-22T20:46:57Z | TypeScript | CLI | 8 | 42 | 8 | 8 |
 | [av/harbor](https://github.com/av/harbor) | 2862 | 2026-04-16T23:33:47Z | TypeScript | CLI | 17 | 11 | 18 | 18 |
 | [langchain-ai/langgraphjs](https://github.com/langchain-ai/langgraphjs) | 2803 | 2026-04-18T21:11:56Z | TypeScript | Infrastructure/tooling | 5 | 29 | 0 | 0 |
@@ -344,6 +349,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webgpu/webgpu-samples](https://github.com/webgpu/webgpu-samples) | 2122 | 2026-04-16T23:27:24Z | TypeScript | Infrastructure/tooling | 2 | 37 | 2 | 2 |
 | [0x2E/fusion](https://github.com/0x2E/fusion) | 2058 | 2026-04-18T10:07:37Z | TypeScript | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [streamich/memfs](https://github.com/streamich/memfs) | 2056 | 2026-04-16T22:13:49Z | TypeScript | Infrastructure/tooling | 14 | 10 | 14 | 14 |
+| [BetterThanTomorrow/calva](https://github.com/BetterThanTomorrow/calva) | 2043 | 2026-04-29T07:43:40Z | TypeScript | Unknown | 0 | 66 | 0 | 0 |
 | [artifacthub/hub](https://github.com/artifacthub/hub) | 2023 | 2026-04-22T17:20:14Z | TypeScript | Infrastructure/tooling | 9 | 21 | 9 | 9 |
 | [nizos/tdd-guard](https://github.com/nizos/tdd-guard) | 1994 | 2026-04-19T10:58:08Z | TypeScript | Infrastructure/tooling | 1 | 42 | 0 | 0 |
 | [jupyter-lsp/jupyterlab-lsp](https://github.com/jupyter-lsp/jupyterlab-lsp) | 1992 | 2026-04-15T11:13:13Z | TypeScript | Infrastructure/tooling | 14 | 41 | 14 | 14 |

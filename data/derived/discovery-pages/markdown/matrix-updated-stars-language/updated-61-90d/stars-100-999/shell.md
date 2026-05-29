@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 43
+- repos: 13
+- terms: 46
 - components: 32
-- concepts: 42
-- observations: 42
+- concepts: 45
+- observations: 45
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [helm/chart-testing-action](https://github.com/helm/chart-testing-action) | 291 | 2026-03-30T01:04:11Z | Shell | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [SWE-bench/experiments](https://github.com/SWE-bench/experiments) | 259 | 2026-03-29T17:52:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
@@ -55,3 +56,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SWE-bench/experiments](https://github.com/SWE-bench/experiments) | 259 | 2026-03-29T17:52:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [flinedev/contextkit](https://github.com/FlineDev/ContextKit) | 165 | 2026-03-10T00:49:42Z | Shell | Unknown | 1 | 0 | 0 | 0 |
 | [github/super-linter](https://github.com/github/super-linter) | 146 | 2026-03-26T01:18:14Z | Shell | Infrastructure/tooling | 5 | 13 | 5 | 5 |
+| [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |

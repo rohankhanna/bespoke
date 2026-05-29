@@ -3,7 +3,7 @@
     "components": 1814,
     "concepts": 1078,
     "observations": 1080,
-    "repos": 330,
+    "repos": 331,
     "terms": 1074
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -74,6 +74,7 @@
     "awslabs/aws-lc-verification",
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
+    "BAI-LAB/Survey-on-AI-Memory",
     "bartp5/libtexprintf",
     "bartventer/httpcache",
     "benomahony/oil-git.nvim",

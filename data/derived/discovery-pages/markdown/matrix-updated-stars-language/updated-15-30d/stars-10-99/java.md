@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 66
-- components: 52
-- concepts: 66
-- observations: 66
+- repos: 16
+- terms: 72
+- components: 56
+- concepts: 72
+- observations: 72
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/openjdk-jdk11u](https://github.com/microsoft/openjdk-jdk11u) | 15 | 2026-05-15T07:07:15Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [microsoft/openjdk-jdk21u](https://github.com/microsoft/openjdk-jdk21u) | 21 | 2026-05-14T07:09:14Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [microsoft/openjdk-jdk17u](https://github.com/microsoft/openjdk-jdk17u) | 12 | 2026-05-14T07:08:52Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [openjdk/jdk21u](https://github.com/openjdk/jdk21u) | 96 | 2026-05-13T12:27:41Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -59,5 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/openjdk-jdk21u](https://github.com/microsoft/openjdk-jdk21u) | 21 | 2026-05-14T07:09:14Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [flyway/flyway-community-db-support](https://github.com/flyway/flyway-community-db-support) | 17 | 2026-05-01T10:40:54Z | Java | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [BerkleyTechnologyServices/restdocs-spec-example](https://github.com/BerkleyTechnologyServices/restdocs-spec-example) | 17 | 2026-04-29T12:11:29Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [microsoft/openjdk-jdk11u](https://github.com/microsoft/openjdk-jdk11u) | 15 | 2026-05-15T07:07:15Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [confluentinc/common](https://github.com/confluentinc/common) | 15 | 2026-04-30T02:51:36Z | Java | Library | 0 | 0 | 0 | 0 |
 | [microsoft/openjdk-jdk17u](https://github.com/microsoft/openjdk-jdk17u) | 12 | 2026-05-14T07:08:52Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |

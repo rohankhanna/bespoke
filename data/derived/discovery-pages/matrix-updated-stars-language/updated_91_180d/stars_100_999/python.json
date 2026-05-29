@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 407,
-    "concepts": 806,
-    "observations": 806,
-    "repos": 214,
-    "terms": 803
+    "components": 415,
+    "concepts": 808,
+    "observations": 808,
+    "repos": 217,
+    "terms": 805
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -106,6 +106,7 @@
     "Helsinki-NLP/Opus-MT",
     "hkchengrex/CascadePSP",
     "HolyWu/vs-rife",
+    "hongyuanyu/SPAN",
     "httplib2/httplib2",
     "huggingface/flux-fast",
     "hustvl/DiffusionDriveV2",
@@ -142,6 +143,7 @@
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
     "MontaEllis/Pytorch-Medical-Segmentation",
+    "MoonshotAI/checkpoint-engine",
     "Mountchicken/Resophy",
     "mtkennerly/poetry-dynamic-versioning",
     "multi-swe-bench/multi-swe-bench",
@@ -203,6 +205,7 @@
     "Tsinghua-MARS-Lab/CVT-Occ",
     "TsinghuaDatabaseGroup/DB-GPT",
     "TTPlanetPig/Comfyui_TTP_Toolset",
+    "tulerfeng/OneThinker",
     "tulerfeng/Video-R1",
     "tvogels/pyexr",
     "v-iashin/video_features",

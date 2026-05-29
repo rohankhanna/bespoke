@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 680,
-    "concepts": 449,
-    "observations": 450,
-    "repos": 152,
-    "terms": 441
+    "concepts": 454,
+    "observations": 455,
+    "repos": 154,
+    "terms": 446
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -80,6 +80,7 @@
     "DanielSmith1239/KosherSwift",
     "dash0hq/opentelemetry-demo",
     "datachainlab/ethereum-ibc-relay-prover",
+    "datachainlab/yui-relayer-build",
     "day50-dev/mcp-search-and-run",
     "Deep-Symmetry/asciidoctor-bytefield",
     "dylibso/xtp-cpp-bindgen",
@@ -112,6 +113,7 @@
     "jspreadsheet/spreadsheet-react-server",
     "justinfx/olric-nats-plugin",
     "KabakaWilliam/trajectorykit",
+    "lab-cosmo/.github",
     "lace/hobart",
     "langchain-ai/.github",
     "Layr-Labs/incredible-squaring-avs-rs",

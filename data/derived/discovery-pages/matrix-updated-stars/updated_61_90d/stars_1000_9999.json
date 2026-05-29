@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3316,
-    "concepts": 2055,
-    "observations": 2062,
-    "repos": 384,
-    "terms": 2065
+    "components": 3332,
+    "concepts": 2076,
+    "observations": 2083,
+    "repos": 387,
+    "terms": 2086
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "aaaaalexis/obsidian-cupertino",
@@ -104,6 +104,7 @@
     "David-OConnor/pyflow",
     "davidhalter/jedi",
     "ddworken/hishtory",
+    "deepspeedai/DeepSpeedExamples",
     "DepthAnything/Depth-Anything-V2",
     "devcontainers/spec",
     "dghubble/sling",
@@ -184,6 +185,7 @@
     "ImageOptim/gifski",
     "inducer/pycuda",
     "infinitered/nsfwjs",
+    "intel/intel-extension-for-pytorch",
     "Intellindust-AI-Lab/DEIM",
     "Intellindust-AI-Lab/DEIMv2",
     "ionelmc/pytest-benchmark",
@@ -234,6 +236,7 @@
     "mapbox/delaunator",
     "markdoc/markdoc",
     "mattn/efm-langserver",
+    "metosin/reitit",
     "mhinz/vim-signify",
     "michaelfeil/infinity",
     "michalmuskala/jason",

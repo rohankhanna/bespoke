@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 461,
-    "observations": 461,
-    "repos": 41,
-    "terms": 459
+    "components": 349,
+    "concepts": 449,
+    "observations": 449,
+    "repos": 40,
+    "terms": 447
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "alibaba/spring-ai-alibaba",
@@ -46,7 +46,6 @@
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "reactor/BlockHound",
-    "reactor/reactor-core",
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",

@@ -3,7 +3,7 @@
     "components": 57,
     "concepts": 75,
     "observations": 75,
-    "repos": 109,
+    "repos": 108,
     "terms": 84
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -113,7 +113,6 @@
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "narutoxdd6/nyro",
-    "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
     "pragmatical-transshipment598/claude-code-workflows",
     "semgrep/cursor-plugin",

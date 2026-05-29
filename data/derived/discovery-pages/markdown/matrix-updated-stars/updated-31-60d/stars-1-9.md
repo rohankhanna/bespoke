@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 481
+- repos: 483
 - terms: 1789
-- components: 3742
+- components: 3761
 - concepts: 1762
 - observations: 1763
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [localstack/homebrew-tap](https://github.com/localstack/homebrew-tap) | 6 | 2026-04-29T08:27:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [black-desk/djotfmt](https://github.com/black-desk/djotfmt) | 7 | 2026-04-29T07:30:40Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [lint-staged/lint-staged.sh](https://github.com/lint-staged/lint-staged.sh) | 3 | 2026-04-29T06:13:14Z | Shell | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [fontsource/download-stat-aggregator](https://github.com/fontsource/download-stat-aggregator) | 3 | 2026-04-29T06:05:19Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [bennyyip/dot-vim](https://github.com/bennyyip/dot-vim) | 8 | 2026-04-29T05:56:28Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [boa-dev/data](https://github.com/boa-dev/data) | 3 | 2026-04-29T03:59:57Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [stdlib-js/repl](https://github.com/stdlib-js/repl) | 5 | 2026-04-29T03:54:05Z | JavaScript | CLI | 19 | 37 | 20 | 20 |
@@ -504,8 +508,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [hsivonen/chardetng_c](https://github.com/hsivonen/chardetng_c) | 2 | 2026-03-30T12:23:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
-| [lab-cosmo/.github](https://github.com/lab-cosmo/.github) | 1 | 2026-03-30T08:47:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [datachainlab/yui-relayer-build](https://github.com/datachainlab/yui-relayer-build) | 8 | 2026-03-30T07:44:01Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -583,7 +585,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graphql/community-wg](https://github.com/graphql/community-wg) | 8 | 2026-04-03T12:17:52Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mybigday/whisper.node](https://github.com/mybigday/whisper.node) | 8 | 2026-04-02T09:41:50Z | C/C++ | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [microsoft/LinuxTracepoints-Net](https://github.com/microsoft/LinuxTracepoints-Net) | 8 | 2026-04-01T20:04:00Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [datachainlab/yui-relayer-build](https://github.com/datachainlab/yui-relayer-build) | 8 | 2026-03-30T07:44:01Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
+| [black-desk/djotfmt](https://github.com/black-desk/djotfmt) | 7 | 2026-04-29T07:30:40Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [puppetlabs/.github](https://github.com/puppetlabs/.github) | 7 | 2026-04-29T03:05:54Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [holochain/holonix](https://github.com/holochain/holonix) | 7 | 2026-04-28T13:26:39Z | Other | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [php-rdkafka/php-rdkafka-doc](https://github.com/php-rdkafka/php-rdkafka-doc) | 7 | 2026-04-27T16:22:55Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -622,6 +624,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Level/read-stream](https://github.com/Level/read-stream) | 7 | 2026-04-01T00:23:38Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [archestra-ai/terraform-provider-archestra](https://github.com/archestra-ai/terraform-provider-archestra) | 7 | 2026-03-30T20:11:36Z | Go | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [localstack/homebrew-tap](https://github.com/localstack/homebrew-tap) | 6 | 2026-04-29T08:27:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [oxc-project/oxc-index-vec](https://github.com/oxc-project/oxc-index-vec) | 6 | 2026-04-27T19:03:09Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [jpmml/jpmml-statsmodels](https://github.com/jpmml/jpmml-statsmodels) | 6 | 2026-04-27T11:41:53Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [moznion/sbt-spotless](https://github.com/moznion/sbt-spotless) | 6 | 2026-04-27T09:04:12Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -747,6 +750,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abraxas-365/claudio-codex](https://github.com/Abraxas-365/claudio-codex) | 4 | 2026-04-07T00:44:14Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [ikonopistsev/mdbxmou](https://github.com/ikonopistsev/mdbxmou) | 4 | 2026-04-01T13:51:03Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
+| [lint-staged/lint-staged.sh](https://github.com/lint-staged/lint-staged.sh) | 3 | 2026-04-29T06:13:14Z | Shell | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [fontsource/download-stat-aggregator](https://github.com/fontsource/download-stat-aggregator) | 3 | 2026-04-29T06:05:19Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [boa-dev/data](https://github.com/boa-dev/data) | 3 | 2026-04-29T03:59:57Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [stdlib-js/array-shared-buffer](https://github.com/stdlib-js/array-shared-buffer) | 3 | 2026-04-29T03:51:32Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
 | [vercel-labs/mdxjs-rs-turbopack](https://github.com/vercel-labs/mdxjs-rs-turbopack) | 3 | 2026-04-28T17:22:34Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -991,4 +996,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/cbt](https://github.com/ethpandaops/cbt) | 1 | 2026-04-01T12:16:29Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [databendlabs/display-more](https://github.com/databendlabs/display-more) | 1 | 2026-03-30T16:50:17Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [lab-cosmo/.github](https://github.com/lab-cosmo/.github) | 1 | 2026-03-30T08:47:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

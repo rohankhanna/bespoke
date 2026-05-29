@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 92,
-    "observations": 93,
-    "repos": 31,
-    "terms": 94
+    "components": 211,
+    "concepts": 93,
+    "observations": 94,
+    "repos": 32,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
+    "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
     "bourumir-wyngs/saphyr",
     "curiousdannii/remglk-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 838,
-    "concepts": 802,
-    "observations": 803,
-    "repos": 206,
-    "terms": 797
+    "components": 843,
+    "concepts": 811,
+    "observations": 812,
+    "repos": 207,
+    "terms": 806
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -181,6 +181,7 @@
     "renzmann/treesit-auto",
     "rescript-lang/rescript-vscode",
     "ropensci/git2r",
+    "rubocop/rubocop-performance",
     "ruby-formatter/rufo",
     "saagarjha/unxip",
     "SciML/SciMLTutorials.jl",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 149
-- terms: 894
-- components: 1076
-- concepts: 886
-- observations: 892
+- repos: 150
+- terms: 902
+- components: 1077
+- concepts: 894
+- observations: 900
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aliyun/aliyun-cli](https://github.com/aliyun/aliyun-cli) | 952 | 2026-04-29T08:10:52Z | Go | CLI | 12 | 7 | 12 | 12 |
+| [aquasecurity/trivy-db](https://github.com/aquasecurity/trivy-db) | 328 | 2026-04-29T08:06:12Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [pion/ice](https://github.com/pion/ice) | 576 | 2026-04-29T04:50:09Z | Go | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [cloudwego/eino-examples](https://github.com/cloudwego/eino-examples) | 607 | 2026-04-29T02:46:24Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [aws-cloudformation/rain](https://github.com/aws-cloudformation/rain) | 950 | 2026-04-28T20:35:33Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -174,7 +176,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GFW-knocker/Xray-core](https://github.com/GFW-knocker/Xray-core) | 240 | 2026-03-31T13:30:35Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [bradleyfalzon/ghinstallation](https://github.com/bradleyfalzon/ghinstallation) | 368 | 2026-03-30T18:26:39Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [go-chi/docgen](https://github.com/go-chi/docgen) | 125 | 2026-03-30T13:59:11Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [siderolabs/talos-cloud-controller-manager](https://github.com/siderolabs/talos-cloud-controller-manager) | 136 | 2026-03-30T07:37:50Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -184,6 +185,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adrg/xdg](https://github.com/adrg/xdg) | 983 | 2026-04-09T10:22:13Z | Go | Infrastructure/tooling | 19 | 6 | 19 | 19 |
 | [lightninglabs/neutrino](https://github.com/lightninglabs/neutrino) | 973 | 2026-04-02T22:16:32Z | Go | CLI | 6 | 4 | 6 | 6 |
 | [darkweak/souin](https://github.com/darkweak/souin) | 958 | 2026-04-16T23:45:10Z | Go | Infrastructure/tooling | 22 | 20 | 22 | 25 |
+| [aliyun/aliyun-cli](https://github.com/aliyun/aliyun-cli) | 952 | 2026-04-29T08:10:52Z | Go | CLI | 12 | 7 | 12 | 12 |
 | [aws-cloudformation/rain](https://github.com/aws-cloudformation/rain) | 950 | 2026-04-28T20:35:33Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [sethvargo/ratchet](https://github.com/sethvargo/ratchet) | 927 | 2026-04-21T21:05:28Z | Go | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [AdguardTeam/AdGuardDNS](https://github.com/AdguardTeam/AdGuardDNS) | 924 | 2026-04-17T11:03:01Z | Go | Unknown | 9 | 0 | 9 | 9 |
@@ -259,6 +261,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coder/code-marketplace](https://github.com/coder/code-marketplace) | 353 | 2026-04-13T11:49:56Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [ipfs/ipfs-docs](https://github.com/ipfs/ipfs-docs) | 336 | 2026-04-07T13:04:36Z | Go | Infrastructure/tooling | 11 | 45 | 11 | 11 |
 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 335 | 2026-04-20T18:11:08Z | Go | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [aquasecurity/trivy-db](https://github.com/aquasecurity/trivy-db) | 328 | 2026-04-29T08:06:12Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [appleboy/go-fcm](https://github.com/appleboy/go-fcm) | 326 | 2026-04-20T22:35:59Z | Go | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [moul/gotty-client](https://github.com/moul/gotty-client) | 324 | 2026-04-23T14:48:53Z | Go | CLI | 6 | 2 | 6 | 6 |
 | [itzg/mc-monitor](https://github.com/itzg/mc-monitor) | 314 | 2026-04-26T18:03:36Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -315,7 +318,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [terraform-linters/tflint-ruleset-azurerm](https://github.com/terraform-linters/tflint-ruleset-azurerm) | 140 | 2026-04-20T01:57:35Z | Go | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [go-logr/zapr](https://github.com/go-logr/zapr) | 137 | 2026-04-28T02:51:50Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [argoproj-labs/argo-rollouts-manager](https://github.com/argoproj-labs/argo-rollouts-manager) | 137 | 2026-04-16T12:44:36Z | Go | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [siderolabs/talos-cloud-controller-manager](https://github.com/siderolabs/talos-cloud-controller-manager) | 136 | 2026-03-30T07:37:50Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [phiat/claude-esp](https://github.com/phiat/claude-esp) | 131 | 2026-04-17T19:56:28Z | Go | CLI | 1 | 5 | 0 | 0 |
 | [aws/credentials-fetcher](https://github.com/aws/credentials-fetcher) | 127 | 2026-04-08T02:48:41Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [go-chi/docgen](https://github.com/go-chi/docgen) | 125 | 2026-03-30T13:59:11Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |

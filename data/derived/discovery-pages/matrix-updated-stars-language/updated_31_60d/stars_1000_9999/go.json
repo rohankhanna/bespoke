@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1967,
-    "concepts": 1913,
-    "observations": 1922,
-    "repos": 234,
-    "terms": 1907
+    "components": 1988,
+    "concepts": 1933,
+    "observations": 1942,
+    "repos": 236,
+    "terms": 1927
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -72,8 +72,10 @@
     "charmbracelet/log",
     "ClickHouse/clickhouse-go",
     "cloudflare/circl",
+    "cloudflare/pint",
     "cloudfoundry/cli",
     "cloudnativelabs/kube-router",
+    "cloudwego/hertz",
     "cloudwego/kitex",
     "cloudwego/netpoll",
     "cncf/toc",

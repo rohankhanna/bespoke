@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1359,
-    "concepts": 1435,
-    "observations": 1439,
-    "repos": 147,
-    "terms": 1421
+    "components": 1316,
+    "concepts": 1381,
+    "observations": 1385,
+    "repos": 141,
+    "terms": 1367
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "ag2ai/ag2",
@@ -20,9 +20,7 @@
     "AI-Hypercomputer/maxtext",
     "aimhubio/aim",
     "allenai/OLMo-core",
-    "amazon-far/holosoma",
     "amd/gaia",
-    "AndyTheFactory/newspaper4k",
     "apify/agent-skills",
     "arcee-ai/mergekit",
     "Arize-ai/phoenix",
@@ -74,7 +72,6 @@
     "inclusionAI/AWorld",
     "InternLM/lagent",
     "isaac-sim/IsaacLab",
-    "Kaliiiiiiiiii-Vinyzu/patchright-python",
     "kijai/ComfyUI-KJNodes",
     "kubeflow/pipelines",
     "librosa/librosa",
@@ -87,7 +84,6 @@
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
     "microsoft/agent-framework",
-    "microsoft/Olive",
     "MicrosoftDocs/visualstudio-docs",
     "mikedh/trimesh",
     "mikel-brostrom/boxmot",
@@ -120,7 +116,6 @@
     "PyAV-Org/PyAV",
     "pycontribs/jira",
     "PyCQA/isort",
-    "pydata/xarray",
     "pymupdf/PyMuPDF",
     "pypa/hatch",
     "pypi/warehouse",
@@ -150,7 +145,6 @@
     "UKGovernmentBEIS/inspect_ai",
     "uxlfoundation/scikit-learn-intelex",
     "Vector-Wangel/XLeRobot",
-    "vipshop/cache-dit",
     "viser-project/viser",
     "vladmandic/sdnext",
     "vllm-project/vllm-omni",

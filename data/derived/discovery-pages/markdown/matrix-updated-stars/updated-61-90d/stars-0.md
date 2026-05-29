@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 76
-- terms: 129
-- components: 245
-- concepts: 126
-- observations: 128
+- repos: 78
+- terms: 130
+- components: 246
+- concepts: 127
+- observations: 129
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [neuroverseos/negotiator](https://github.com/NeuroverseOS/negotiator) | 0 | 2026-03-29T00:37:35Z | TypeScript | Infrastructure/tooling | 1 | 9 | 0 | 0 |
@@ -106,6 +108,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [neuroverseos/negotiator](https://github.com/NeuroverseOS/negotiator) | 0 | 2026-03-29T00:37:35Z | TypeScript | Infrastructure/tooling | 1 | 9 | 0 | 0 |

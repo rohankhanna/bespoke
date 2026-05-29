@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 64
+- repos: 23
+- terms: 76
 - components: 23
-- concepts: 66
-- observations: 67
+- concepts: 78
+- observations: 79
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [filecoin-project/community](https://github.com/filecoin-project/community) | 494 | 2026-03-30T07:56:37Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [scott0107000/BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7) | 148 | 2026-03-30T06:53:56Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium) | 142 | 2026-03-30T04:55:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hagezi/dns-servers](https://github.com/hagezi/dns-servers) | 289 | 2026-03-26T23:20:26Z | Unknown | Infrastructure/tooling | 16 | 1 | 16 | 16 |
 | [apple/device-management](https://github.com/apple/device-management) | 907 | 2026-03-25T14:14:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -61,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [near/borsh](https://github.com/near/borsh) | 611 | 2026-03-21T12:03:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [revfactory/harness-100](https://github.com/revfactory/harness-100) | 589 | 2026-03-22T22:42:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MiniMax-AI/MiniMax-M2.5](https://github.com/MiniMax-AI/MiniMax-M2.5) | 571 | 2026-03-09T02:44:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [filecoin-project/community](https://github.com/filecoin-project/community) | 494 | 2026-03-30T07:56:37Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [helm/community](https://github.com/helm/community) | 485 | 2026-03-18T18:08:53Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [reactwg/react-native-releases](https://github.com/reactwg/react-native-releases) | 425 | 2026-03-16T16:22:39Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [Calcium-Ion/new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | 365 | 2026-03-04T09:46:45Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -71,5 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eza-community/eza-themes](https://github.com/eza-community/eza-themes) | 229 | 2026-03-04T17:26:16Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 2 |
 | [hashicorp/vault-examples](https://github.com/hashicorp/vault-examples) | 161 | 2026-03-01T21:18:16Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [emberjs/core-notes](https://github.com/emberjs/core-notes) | 149 | 2026-03-10T15:10:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [scott0107000/BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7) | 148 | 2026-03-30T06:53:56Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [peter-evans/enable-pull-request-automerge](https://github.com/peter-evans/enable-pull-request-automerge) | 145 | 2026-03-05T21:46:15Z | Unknown | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium) | 142 | 2026-03-30T04:55:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

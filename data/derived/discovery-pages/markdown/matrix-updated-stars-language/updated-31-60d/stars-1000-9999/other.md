@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 402
-- terms: 2692
-- components: 2880
-- concepts: 2708
-- observations: 2719
+- repos: 403
+- terms: 2716
+- components: 2879
+- concepts: 2732
+- observations: 2743
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) | 3722 | 2026-04-29T06:52:59Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
+| [karafka/karafka](https://github.com/karafka/karafka) | 2234 | 2026-04-29T06:47:33Z | Other | CLI | 25 | 6 | 25 | 25 |
 | [metosin/malli](https://github.com/metosin/malli) | 1722 | 2026-04-29T05:00:59Z | Other | Infrastructure/tooling | 13 | 11 | 14 | 14 |
 | [HazyResearch/ThunderKittens](https://github.com/HazyResearch/ThunderKittens) | 3330 | 2026-04-29T04:09:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danmayer/coverband](https://github.com/danmayer/coverband) | 2670 | 2026-04-29T02:58:32Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -427,7 +429,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | 3902 | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [google/brax](https://github.com/google/brax) | 3142 | 2026-03-30T17:14:22Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [google/jsonnet](https://github.com/google/jsonnet) | 7502 | 2026-03-30T14:23:57Z | Other | Infrastructure/tooling | 7 | 14 | 8 | 8 |
-| [metosin/reitit](https://github.com/metosin/reitit) | 1565 | 2026-03-30T07:12:37Z | Other | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -566,6 +567,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mason-org/mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) | 3875 | 2026-04-23T15:25:48Z | Other | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [ring-clojure/ring](https://github.com/ring-clojure/ring) | 3874 | 2026-04-13T13:18:42Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [fluentassertions/fluentassertions](https://github.com/fluentassertions/fluentassertions) | 3813 | 2026-04-28T07:30:48Z | Other | Infrastructure/tooling | 11 | 13 | 11 | 11 |
+| [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) | 3722 | 2026-04-29T06:52:59Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [Kotlin/KEEP](https://github.com/Kotlin/KEEP) | 3706 | 2026-04-27T09:21:24Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [dotnet/samples](https://github.com/dotnet/samples) | 3705 | 2026-04-22T20:44:13Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | 3699 | 2026-04-22T16:38:49Z | Other | CLI | 4 | 3 | 4 | 4 |
@@ -660,6 +662,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [copilot-emacs/copilot.el](https://github.com/copilot-emacs/copilot.el) | 2305 | 2026-03-31T07:13:56Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [vim/vim-win32-installer](https://github.com/vim/vim-win32-installer) | 2283 | 2026-04-23T22:34:18Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [company-mode/company-mode](https://github.com/company-mode/company-mode) | 2277 | 2026-04-22T10:33:19Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [karafka/karafka](https://github.com/karafka/karafka) | 2234 | 2026-04-29T06:47:33Z | Other | CLI | 25 | 6 | 25 | 25 |
 | [whatwg/fetch](https://github.com/whatwg/fetch) | 2231 | 2026-04-21T19:05:37Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [jeremyevans/roda](https://github.com/jeremyevans/roda) | 2217 | 2026-04-13T15:57:42Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [belav/csharpier](https://github.com/belav/csharpier) | 2202 | 2026-04-26T14:51:00Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
@@ -716,7 +719,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [almond-sh/almond](https://github.com/almond-sh/almond) | 1623 | 2026-04-23T15:42:37Z | Other | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [ankane/lockbox](https://github.com/ankane/lockbox) | 1592 | 2026-04-09T07:04:01Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [elixir-lang/ex_doc](https://github.com/elixir-lang/ex_doc) | 1591 | 2026-04-26T11:22:27Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [metosin/reitit](https://github.com/metosin/reitit) | 1565 | 2026-03-30T07:12:37Z | Other | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [purcell/exec-path-from-shell](https://github.com/purcell/exec-path-from-shell) | 1559 | 2026-04-22T11:03:46Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Bekaboo/dropbar.nvim](https://github.com/Bekaboo/dropbar.nvim) | 1547 | 2026-04-25T09:07:46Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [NuGet/Home](https://github.com/NuGet/Home) | 1546 | 2026-04-23T02:56:09Z | Other | CLI | 2 | 0 | 2 | 2 |

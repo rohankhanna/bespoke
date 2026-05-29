@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 936,
-    "concepts": 173,
-    "observations": 174,
-    "repos": 35,
-    "terms": 171
+    "components": 839,
+    "concepts": 164,
+    "observations": 165,
+    "repos": 32,
+    "terms": 162
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
-    "AdguardTeam/Scriptlets",
     "americanexpress/jest-json-schema",
     "auth0/node-jwks-rsa",
-    "avoidwork/tiny-lru",
     "Calcium-Ion/new-api-key-tool",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
@@ -30,7 +28,6 @@
     "fontello/svg2ttf",
     "gitleaks/gitleaks-action",
     "GoogleCloudPlatform/google-cloud-node-todos",
-    "hudochenkov/postcss-sorting",
     "Kilian/electron-to-chromium",
     "lo-th/phy",
     "mdn/fred",

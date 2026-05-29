@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 213
-- components: 491
-- concepts: 214
-- observations: 217
+- repos: 20
+- terms: 210
+- components: 482
+- concepts: 211
+- observations: 214
 
 ## Static behavior
 
@@ -46,7 +46,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/phoenix-papertrail-demo](https://github.com/dwyl/phoenix-papertrail-demo) | 7 | 2026-04-29T13:29:47Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [rvagg/js-bitcoin-block](https://github.com/rvagg/js-bitcoin-block) | 8 | 2026-04-29T12:25:40Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [sapphiredev/.github](https://github.com/sapphiredev/.github) | 5 | 2026-04-29T10:54:36Z | JavaScript | Infrastructure/tooling | 7 | 29 | 7 | 9 |
-| [fontsource/download-stat-aggregator](https://github.com/fontsource/download-stat-aggregator) | 3 | 2026-04-29T06:05:19Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -62,7 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aidenlab/juicebox-web](https://github.com/aidenlab/juicebox-web) | 3 | 2026-05-14T18:49:30Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
 | [Luligu/matterbridge-eve-energy](https://github.com/Luligu/matterbridge-eve-energy) | 3 | 2026-05-11T05:38:29Z | JavaScript | Infrastructure/tooling | 4 | 30 | 4 | 4 |
 | [stdlib-js/math-base-special-erfcx](https://github.com/stdlib-js/math-base-special-erfcx) | 3 | 2026-05-02T03:34:08Z | JavaScript | Infrastructure/tooling | 20 | 26 | 20 | 20 |
-| [fontsource/download-stat-aggregator](https://github.com/fontsource/download-stat-aggregator) | 3 | 2026-04-29T06:05:19Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [stdlib-js/ndarray-fancy](https://github.com/stdlib-js/ndarray-fancy) | 2 | 2026-05-03T08:24:57Z | JavaScript | Infrastructure/tooling | 24 | 40 | 24 | 24 |
 | [stdlib-js/math-base-special-erfc](https://github.com/stdlib-js/math-base-special-erfc) | 2 | 2026-05-02T03:37:54Z | JavaScript | Infrastructure/tooling | 18 | 33 | 18 | 18 |
 | [stdlib-js/math-base-special-erfcinv](https://github.com/stdlib-js/math-base-special-erfcinv) | 2 | 2026-04-30T03:54:40Z | JavaScript | Infrastructure/tooling | 21 | 35 | 21 | 21 |

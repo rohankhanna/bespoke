@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 415,
-    "concepts": 476,
-    "observations": 478,
-    "repos": 56,
-    "terms": 475
+    "components": 423,
+    "concepts": 488,
+    "observations": 490,
+    "repos": 57,
+    "terms": 487
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -63,6 +63,7 @@
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
     "react-native-share/react-native-share",
+    "reactor/reactor-core",
     "RoaringBitmap/RoaringBitmap",
     "soot-oss/soot",
     "spotbugs/spotbugs",

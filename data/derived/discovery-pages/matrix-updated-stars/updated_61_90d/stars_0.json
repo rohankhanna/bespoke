@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 126,
-    "observations": 128,
-    "repos": 76,
-    "terms": 129
+    "components": 246,
+    "concepts": 127,
+    "observations": 129,
+    "repos": 78,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
@@ -48,6 +48,7 @@
     "datachainlab/ibc-parlia-relay",
     "DataDog/go-cmp",
     "DataDog/opa",
+    "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "DiligentGraphics/args",
     "DiligentGraphics/json",
@@ -79,6 +80,7 @@
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
     "petercorke/sphinx-autorun",
+    "PetervanLunteren/EcoAssist-metadata",
     "saalfeldlab/n5-blosc",
     "Saalvage/assimp",
     "saharmor/saharmor.github.io",

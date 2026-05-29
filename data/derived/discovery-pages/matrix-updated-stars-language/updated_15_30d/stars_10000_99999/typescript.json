@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4399,
-    "concepts": 879,
-    "observations": 883,
-    "repos": 75,
-    "terms": 877
+    "components": 4236,
+    "concepts": 829,
+    "observations": 833,
+    "repos": 72,
+    "terms": 827
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "ajv-validator/ajv",
@@ -25,7 +25,6 @@
     "aws/aws-cdk",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
-    "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
     "ChatGPTNextWeb/NextChat",
@@ -45,11 +44,9 @@
     "jquense/yup",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
-    "Kong/insomnia",
     "lucide-icons/lucide",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
-    "marmelab/react-admin",
     "medusajs/medusa",
     "mermaid-js/mermaid",
     "mobxjs/mobx",

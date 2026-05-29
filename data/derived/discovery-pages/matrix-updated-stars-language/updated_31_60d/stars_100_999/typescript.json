@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4224,
-    "concepts": 878,
-    "observations": 878,
-    "repos": 153,
-    "terms": 929
+    "components": 4298,
+    "concepts": 905,
+    "observations": 905,
+    "repos": 158,
+    "terms": 956
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -66,6 +66,7 @@
     "evmts/tevm-monorepo",
     "fannheyward/coc-sql",
     "fastify/demo",
+    "flathub-infra/website",
     "forcedotcom/code-analyzer",
     "fsouza/prettierd",
     "fullcalendar/temporal-polyfill",
@@ -109,6 +110,7 @@
     "matepek/vscode-catch2-test-adapter",
     "MattiasBuelens/web-streams-polyfill",
     "MetaCubeX/Yacd-meta",
+    "microsoft/ai-chat-protocol",
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
@@ -118,6 +120,8 @@
     "microsoft/vscode-html-languageservice",
     "microsoft/vscode-java-debug",
     "microsoft/vscode-json-languageservice",
+    "milvus-io/milvus-sdk-node",
+    "mmkal/expect-type",
     "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
     "nashaofu/screenshots",
@@ -160,6 +164,7 @@
     "TabbyML/pochi",
     "tats-u/markdown-cjk-friendly",
     "timkindberg/jest-when",
+    "tinylibs/tinyexec",
     "tombii/better-ccflare",
     "tony1223/better-agent-terminal",
     "typed-ember/glint",

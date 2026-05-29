@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 454
-- components: 424
-- concepts: 457
-- observations: 457
+- repos: 39
+- terms: 439
+- components: 399
+- concepts: 442
+- observations: 442
 
 ## Static behavior
 
@@ -65,8 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | 59393 | 2026-04-29T20:50:52Z | C/C++ | Unknown | 11 | 0 | 11 | 11 |
 | [colmap/colmap](https://github.com/colmap/colmap) | 11567 | 2026-04-29T17:54:12Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 28330 | 2026-04-29T14:00:18Z | C/C++ | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [iovisor/bcc](https://github.com/iovisor/bcc) | 22388 | 2026-04-29T07:35:48Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 16421 | 2026-04-29T07:03:39Z | C/C++ | CLI | 11 | 16 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -84,14 +82,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) | 27341 | 2026-05-02T09:32:51Z | C/C++ | Infrastructure/tooling | 8 | 28 | 8 | 8 |
 | [v8/v8](https://github.com/v8/v8) | 24998 | 2026-04-30T08:36:43Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 23712 | 2026-05-03T04:43:47Z | C/C++ | CLI | 24 | 12 | 27 | 27 |
-| [iovisor/bcc](https://github.com/iovisor/bcc) | 22388 | 2026-04-29T07:35:48Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [micropython/micropython](https://github.com/micropython/micropython) | 21672 | 2026-05-01T12:38:24Z | C/C++ | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20320 | 2026-04-30T23:28:34Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [blender/blender](https://github.com/blender/blender) | 18346 | 2026-05-09T12:40:46Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 18306 | 2026-04-30T03:13:45Z | C/C++ | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [espressif/esp-idf](https://github.com/espressif/esp-idf) | 17964 | 2026-05-01T03:43:48Z | C/C++ | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) | 16696 | 2026-05-01T00:53:21Z | C/C++ | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 16421 | 2026-04-29T07:03:39Z | C/C++ | CLI | 11 | 16 | 11 | 11 |
 | [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick) | 16300 | 2026-04-29T21:57:47Z | C/C++ | Infrastructure/tooling | 14 | 13 | 14 | 14 |
 | [libsdl-org/SDL](https://github.com/libsdl-org/SDL) | 15518 | 2026-05-02T02:50:04Z | C/C++ | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [winsiderss/systeminformer](https://github.com/winsiderss/systeminformer) | 14344 | 2026-04-30T18:49:17Z | C/C++ | Infrastructure/tooling | 23 | 8 | 23 | 23 |

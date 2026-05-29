@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 185
-- components: 149
-- concepts: 185
-- observations: 185
+- repos: 24
+- terms: 161
+- components: 137
+- concepts: 161
+- observations: 161
 
 ## Static behavior
 
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [operator-framework/java-operator-sdk](https://github.com/operator-framework/java-operator-sdk) | 928 | 2026-04-29T13:25:41Z | Java | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [quarkiverse/quarkus-operator-sdk](https://github.com/quarkiverse/quarkus-operator-sdk) | 142 | 2026-04-29T12:56:20Z | Java | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [aws-powertools/powertools-lambda-java](https://github.com/aws-powertools/powertools-lambda-java) | 311 | 2026-04-29T11:16:17Z | Java | Infrastructure/tooling | 11 | 12 | 11 | 11 |
-| [devoxx/DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin) | 639 | 2026-04-29T08:02:21Z | Java | CLI | 24 | 12 | 24 | 24 |
 
 ## Repos sorted by stars
 
@@ -60,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance) | 893 | 2026-05-01T02:27:22Z | Java | Unknown | 8 | 0 | 8 | 8 |
 | [Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry) | 799 | 2026-04-30T11:22:17Z | Java | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j) | 716 | 2026-05-12T23:30:03Z | Java | CLI | 5 | 4 | 5 | 5 |
-| [devoxx/DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin) | 639 | 2026-04-29T08:02:21Z | Java | CLI | 24 | 12 | 24 | 24 |
 | [SAP/SapMachine](https://github.com/SAP/SapMachine) | 607 | 2026-05-01T01:08:06Z | Java | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [MarcusWolschon/osmeditor4android](https://github.com/MarcusWolschon/osmeditor4android) | 455 | 2026-05-02T14:48:44Z | Java | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [processing/processing4](https://github.com/processing/processing4) | 394 | 2026-05-03T17:26:27Z | Java | Infrastructure/tooling | 12 | 15 | 12 | 12 |

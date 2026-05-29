@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 96
-- terms: 894
-- components: 644
-- concepts: 896
-- observations: 900
+- repos: 98
+- terms: 909
+- components: 669
+- concepts: 911
+- observations: 915
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [iovisor/bcc](https://github.com/iovisor/bcc) | 22388 | 2026-04-29T07:35:48Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 16421 | 2026-04-29T07:03:39Z | C/C++ | CLI | 11 | 16 | 11 | 11 |
 | [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 10363 | 2026-04-28T19:42:52Z | C/C++ | Infrastructure/tooling | 18 | 10 | 18 | 18 |
 | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | 11949 | 2026-04-28T15:37:43Z | C/C++ | CLI | 23 | 8 | 23 | 24 |
 | [libuv/libuv](https://github.com/libuv/libuv) | 26801 | 2026-04-28T14:25:37Z | C/C++ | Infrastructure/tooling | 12 | 6 | 12 | 12 |
@@ -162,6 +164,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chromium/chromium](https://github.com/chromium/chromium) | 23493 | 2026-04-24T00:21:20Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 23441 | 2026-04-20T17:29:42Z | C/C++ | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
+| [iovisor/bcc](https://github.com/iovisor/bcc) | 22388 | 2026-04-29T07:35:48Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [pgvector/pgvector](https://github.com/pgvector/pgvector) | 20968 | 2026-04-15T05:48:15Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [catchorg/Catch2](https://github.com/catchorg/Catch2) | 20355 | 2026-04-27T18:51:08Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [google/filament](https://github.com/google/filament) | 20007 | 2026-04-24T06:53:00Z | C/C++ | Infrastructure/tooling | 19 | 8 | 20 | 21 |
@@ -179,6 +182,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/arrow](https://github.com/apache/arrow) | 16682 | 2026-04-21T14:56:22Z | C/C++ | Infrastructure/tooling | 11 | 12 | 11 | 11 |
 | [NixOS/nix](https://github.com/NixOS/nix) | 16671 | 2026-04-23T00:37:08Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) | 16481 | 2026-04-28T11:37:48Z | C/C++ | Unknown | 20 | 0 | 20 | 20 |
+| [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 16421 | 2026-04-29T07:03:39Z | C/C++ | CLI | 11 | 16 | 11 | 11 |
 | [apple/foundationdb](https://github.com/apple/foundationdb) | 16272 | 2026-04-23T06:52:40Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [systemd/systemd](https://github.com/systemd/systemd) | 16239 | 2026-04-23T22:00:22Z | C/C++ | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [davatorium/rofi](https://github.com/davatorium/rofi) | 16006 | 2026-04-13T13:42:37Z | C/C++ | Infrastructure/tooling | 11 | 9 | 11 | 11 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7464,
-    "concepts": 912,
-    "observations": 919,
-    "repos": 97,
-    "terms": 925
+    "components": 7627,
+    "concepts": 962,
+    "observations": 969,
+    "repos": 100,
+    "terms": 975
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -29,6 +29,7 @@
     "bokeh/bokeh",
     "browserless/browserless",
     "bvaughn/react-window",
+    "bytedance/UI-TARS-desktop",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",
     "CherryHQ/cherry-studio",
@@ -63,12 +64,14 @@
     "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
     "KaTeX/KaTeX",
+    "Kong/insomnia",
     "kysely-org/kysely",
     "labring/FastGPT",
     "labring/sealos",
     "lerna/lerna",
     "lit/lit",
     "louislam/dockge",
+    "marmelab/react-admin",
     "microsoft/playwright",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",

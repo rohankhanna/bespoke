@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 26,
-    "terms": 56
+    "components": 150,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 25,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "databendlabs/databend-base",
-    "datafuse-extras/dtparse",
     "datafuse-extras/lance",
     "datafuse-extras/orc-rust",
     "drmingdrmer/display-more",

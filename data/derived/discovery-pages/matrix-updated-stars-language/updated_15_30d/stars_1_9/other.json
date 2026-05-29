@@ -3,7 +3,7 @@
     "components": 56,
     "concepts": 67,
     "observations": 67,
-    "repos": 15,
+    "repos": 14,
     "terms": 67
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "aimeos/ai-monolog",
@@ -24,7 +24,6 @@
     "JeremyAnsel/SharpAssimp",
     "JuliaCI/rootfs-images",
     "lintnet-modules/ghalint",
-    "localstack/homebrew-tap",
     "nafg/jewish-date",
     "pixel-font-studio/fusion-bold-pixel-font",
     "stable-haskell/cabal",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 566,
-    "concepts": 588,
-    "observations": 589,
-    "repos": 90,
-    "terms": 586
+    "components": 526,
+    "concepts": 546,
+    "observations": 547,
+    "repos": 86,
+    "terms": 545
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
     "altschuler/imgui-knobs",
-    "antgroup/vsag",
     "apache/iceberg-cpp",
     "arminbiere/cadical",
     "asl/BandageNG",
     "atsushieno/aap-core",
     "aui-framework/aui",
-    "autowarefoundation/autoware_core",
     "BirolLab/abyss",
     "Blosc/c-blosc2",
     "boostorg/math",
@@ -50,7 +48,6 @@
     "heiher/hev-socks5-tproxy",
     "HybridRobotics/motion_tracking_controller",
     "intel/intel-graphics-compiler",
-    "intel/llm-scaler",
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
@@ -91,7 +88,6 @@
     "secretflow/spu",
     "shader-slang/slang-rhi",
     "snowballstem/snowball",
-    "sophgo/LLM-TPU",
     "sophgo/tpu-mlir",
     "todbot/hidapitester",
     "trealla-prolog/trealla",

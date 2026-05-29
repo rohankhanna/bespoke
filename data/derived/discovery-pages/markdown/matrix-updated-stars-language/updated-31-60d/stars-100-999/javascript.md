@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 153
-- terms: 771
-- components: 3041
-- concepts: 742
-- observations: 752
+- repos: 156
+- terms: 780
+- components: 3138
+- concepts: 751
+- observations: 761
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hudochenkov/postcss-sorting](https://github.com/hudochenkov/postcss-sorting) | 532 | 2026-04-29T07:14:26Z | JavaScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
+| [avoidwork/tiny-lru](https://github.com/avoidwork/tiny-lru) | 182 | 2026-04-29T06:33:09Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [AdguardTeam/Scriptlets](https://github.com/AdguardTeam/Scriptlets) | 180 | 2026-04-29T06:28:23Z | JavaScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
 | [hyparam/icebird](https://github.com/hyparam/icebird) | 115 | 2026-04-29T05:28:02Z | JavaScript | CLI | 7 | 10 | 7 | 7 |
 | [keithamus/sort-package-json](https://github.com/keithamus/sort-package-json) | 906 | 2026-04-28T15:31:26Z | JavaScript | Infrastructure/tooling | 1 | 27 | 1 | 1 |
 | [prisma/ecosystem-tests](https://github.com/prisma/ecosystem-tests) | 218 | 2026-04-28T15:22:54Z | JavaScript | CLI | 8 | 20 | 8 | 8 |
@@ -247,6 +250,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adamlui/ai-web-extensions](https://github.com/adamlui/ai-web-extensions) | 539 | 2026-04-22T17:37:42Z | JavaScript | Infrastructure/tooling | 16 | 15 | 16 | 16 |
 | [karma-runner/karma-jasmine](https://github.com/karma-runner/karma-jasmine) | 539 | 2026-04-14T21:15:31Z | JavaScript | Infrastructure/tooling | 3 | 22 | 3 | 3 |
 | [mapbox/tilelive](https://github.com/mapbox/tilelive) | 537 | 2026-04-13T23:01:36Z | JavaScript | Unknown | 0 | 12 | 0 | 0 |
+| [hudochenkov/postcss-sorting](https://github.com/hudochenkov/postcss-sorting) | 532 | 2026-04-29T07:14:26Z | JavaScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |
 | [i18next/i18next-http-backend](https://github.com/i18next/i18next-http-backend) | 522 | 2026-04-23T15:46:04Z | JavaScript | Infrastructure/tooling | 7 | 29 | 7 | 8 |
 | [semantic-release/github](https://github.com/semantic-release/github) | 509 | 2026-04-20T09:36:09Z | JavaScript | Infrastructure/tooling | 6 | 32 | 6 | 7 |
 | [sethgammon/citadel](https://github.com/SethGammon/Citadel) | 509 | 2026-04-15T15:14:30Z | JavaScript | Web app | 0 | 0 | 0 | 0 |
@@ -299,8 +303,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [will62794/spectacle](https://github.com/will62794/spectacle) | 201 | 2026-04-11T01:20:37Z | JavaScript | Infrastructure/tooling | 7 | 60 | 7 | 7 |
 | [terraform-linters/setup-tflint](https://github.com/terraform-linters/setup-tflint) | 194 | 2026-04-01T00:24:37Z | JavaScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [nodejs/admin](https://github.com/nodejs/admin) | 188 | 2026-04-20T01:30:16Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [avoidwork/tiny-lru](https://github.com/avoidwork/tiny-lru) | 182 | 2026-04-29T06:33:09Z | JavaScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [cncf/sandbox](https://github.com/cncf/sandbox) | 182 | 2026-04-17T12:25:51Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [electron/node-abi](https://github.com/electron/node-abi) | 182 | 2026-04-15T09:35:27Z | JavaScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
+| [AdguardTeam/Scriptlets](https://github.com/AdguardTeam/Scriptlets) | 180 | 2026-04-29T06:28:23Z | JavaScript | Infrastructure/tooling | 4 | 71 | 4 | 4 |
 | [dwyl/sendemail](https://github.com/dwyl/sendemail) | 180 | 2026-04-10T06:55:00Z | JavaScript | Service/API | 0 | 10 | 0 | 0 |
 | [fabmax/physx-js-webidl](https://github.com/fabmax/physx-js-webidl) | 178 | 2026-04-15T20:01:50Z | JavaScript | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [kurrent-io/KurrentDB-Client-NodeJS](https://github.com/kurrent-io/KurrentDB-Client-NodeJS) | 176 | 2026-04-23T02:48:41Z | JavaScript | CLI | 12 | 18 | 12 | 12 |

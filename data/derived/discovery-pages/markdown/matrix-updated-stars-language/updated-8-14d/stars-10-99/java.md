@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 24
-- components: 16
-- concepts: 24
-- observations: 24
+- repos: 3
+- terms: 18
+- components: 12
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openjdk/jdk17u-dev](https://github.com/openjdk/jdk17u-dev) | 63 | 2026-05-15T19:22:36Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [openjdk/jdk21u-dev](https://github.com/openjdk/jdk21u-dev) | 38 | 2026-05-15T16:23:54Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [openjdk/jdk11u-dev](https://github.com/openjdk/jdk11u-dev) | 84 | 2026-05-15T09:15:38Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [microsoft/openjdk-jdk11u](https://github.com/microsoft/openjdk-jdk11u) | 15 | 2026-05-15T07:07:15Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -38,4 +37,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openjdk/jdk11u-dev](https://github.com/openjdk/jdk11u-dev) | 84 | 2026-05-15T09:15:38Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [openjdk/jdk17u-dev](https://github.com/openjdk/jdk17u-dev) | 63 | 2026-05-15T19:22:36Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [openjdk/jdk21u-dev](https://github.com/openjdk/jdk21u-dev) | 38 | 2026-05-15T16:23:54Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
-| [microsoft/openjdk-jdk11u](https://github.com/microsoft/openjdk-jdk11u) | 15 | 2026-05-15T07:07:15Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |

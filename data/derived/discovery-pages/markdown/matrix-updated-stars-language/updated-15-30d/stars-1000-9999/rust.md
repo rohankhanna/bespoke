@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 67
-- terms: 612
-- components: 793
-- concepts: 617
-- observations: 617
+- repos: 65
+- terms: 603
+- components: 774
+- concepts: 608
+- observations: 608
 
 ## Static behavior
 
@@ -91,8 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actix/examples](https://github.com/actix/examples) | 3950 | 2026-04-29T10:29:35Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | 2637 | 2026-04-29T10:28:41Z | Rust | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [georust/geo](https://github.com/georust/geo) | 1863 | 2026-04-29T10:17:38Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [rust-lang/libc](https://github.com/rust-lang/libc) | 2529 | 2026-04-29T08:14:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [time-rs/time](https://github.com/time-rs/time) | 1303 | 2026-04-29T08:13:53Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -134,7 +132,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Devolutions/IronRDP](https://github.com/Devolutions/IronRDP) | 2957 | 2026-04-30T09:16:17Z | Rust | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 2841 | 2026-05-10T09:13:25Z | Rust | CLI | 18 | 15 | 18 | 18 |
 | [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | 2637 | 2026-04-29T10:28:41Z | Rust | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [rust-lang/libc](https://github.com/rust-lang/libc) | 2529 | 2026-04-29T08:14:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [brave/adblock-rust](https://github.com/brave/adblock-rust) | 2502 | 2026-05-04T16:44:29Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [cargo-generate/cargo-generate](https://github.com/cargo-generate/cargo-generate) | 2408 | 2026-05-05T00:00:30Z | Rust | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [bionic-gpt/bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) | 2333 | 2026-05-05T10:13:50Z | Rust | Infrastructure/tooling | 9 | 6 | 9 | 9 |
@@ -156,7 +153,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AccessKit/accesskit](https://github.com/AccessKit/accesskit) | 1450 | 2026-04-29T19:20:37Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [hermit-os/kernel](https://github.com/hermit-os/kernel) | 1434 | 2026-04-29T14:39:48Z | Rust | Infrastructure/tooling | 14 | 15 | 14 | 14 |
 | [holochain/holochain](https://github.com/holochain/holochain) | 1373 | 2026-04-30T17:41:51Z | Rust | Infrastructure/tooling | 13 | 6 | 13 | 13 |
-| [time-rs/time](https://github.com/time-rs/time) | 1303 | 2026-04-29T08:13:53Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [lakekeeper/lakekeeper](https://github.com/lakekeeper/lakekeeper) | 1278 | 2026-04-30T21:12:38Z | Rust | Infrastructure/tooling | 15 | 19 | 15 | 15 |
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1274 | 2026-04-29T23:52:06Z | Rust | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [JuliaLang/juliaup](https://github.com/JuliaLang/juliaup) | 1273 | 2026-05-06T17:35:01Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |

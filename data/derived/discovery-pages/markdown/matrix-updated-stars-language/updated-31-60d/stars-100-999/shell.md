@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 328
+- repos: 58
+- terms: 325
 - components: 237
-- concepts: 320
-- observations: 324
+- concepts: 317
+- observations: 321
 
 ## Static behavior
 
@@ -84,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SamNet-dev/paqctl](https://github.com/SamNet-dev/paqctl) | 797 | 2026-04-06T19:45:00Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai) | 158 | 2026-04-04T13:11:31Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [aslafy-z/helm-git](https://github.com/aslafy-z/helm-git) | 360 | 2026-04-02T07:54:04Z | Shell | Infrastructure/tooling | 7 | 14 | 7 | 7 |
-| [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -141,7 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 129 | 2026-04-19T16:16:01Z | Shell | Infrastructure/tooling | 19 | 5 | 18 | 18 |
 | [termux/repology-metadata](https://github.com/termux/repology-metadata) | 128 | 2026-04-23T03:41:24Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [getsolus/packages](https://github.com/getsolus/packages) | 126 | 2026-04-22T17:30:44Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [xbdcc/CCommand](https://github.com/xbdcc/CCommand) | 126 | 2026-03-30T06:05:15Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [undeadlist/claude-code-agents](https://github.com/undeadlist/claude-code-agents) | 123 | 2026-04-13T21:33:09Z | Shell | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [numpy/numpy.org](https://github.com/numpy/numpy.org) | 123 | 2026-04-13T17:59:40Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [alfredolopez80/multi-agent-ralph-loop](https://github.com/alfredolopez80/multi-agent-ralph-loop) | 122 | 2026-04-18T21:55:35Z | Shell | CLI | 18 | 2 | 18 | 18 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 491,
-    "concepts": 214,
-    "observations": 217,
-    "repos": 21,
-    "terms": 213
+    "components": 482,
+    "concepts": 211,
+    "observations": 214,
+    "repos": 20,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aidenlab/juicebox-web",
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
     "dwyl/phoenix-papertrail-demo",
-    "fontsource/download-stat-aggregator",
     "ioBroker/plugin-sentry",
     "kkomelin/isomorphic-dompurify-playgrounds",
     "Luligu/matterbridge-eve-energy",

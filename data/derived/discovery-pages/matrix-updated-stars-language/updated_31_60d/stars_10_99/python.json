@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 821,
-    "concepts": 641,
-    "observations": 643,
-    "repos": 165,
-    "terms": 655
+    "components": 828,
+    "concepts": 646,
+    "observations": 648,
+    "repos": 166,
+    "terms": 660
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -162,6 +162,7 @@
     "scipy/scipy-stubs",
     "shiweijiezero/R3L",
     "Significant-Gravitas/gravitasml",
+    "sigstore/sigstore-conformance",
     "skhu101/HumanLiff",
     "sliamh11/deus",
     "sphinx-contrib/sphinxcontrib-towncrier",

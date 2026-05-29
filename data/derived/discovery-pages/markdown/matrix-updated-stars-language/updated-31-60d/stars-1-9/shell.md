@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 32
-- components: 45
-- concepts: 34
-- observations: 34
+- repos: 23
+- terms: 33
+- components: 52
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lint-staged/lint-staged.sh](https://github.com/lint-staged/lint-staged.sh) | 3 | 2026-04-29T06:13:14Z | Shell | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [gazebo-tooling/release-tools](https://github.com/gazebo-tooling/release-tools) | 7 | 2026-04-24T12:45:37Z | Shell | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [conda-forge/openblas-feedstock](https://github.com/conda-forge/openblas-feedstock) | 9 | 2026-04-24T01:00:54Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [conda-forge/fenics-dolfinx-feedstock](https://github.com/conda-forge/fenics-dolfinx-feedstock) | 4 | 2026-04-24T00:47:27Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -67,6 +68,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conda-forge/nlohmann_json-feedstock](https://github.com/conda-forge/nlohmann_json-feedstock) | 4 | 2026-04-22T11:31:59Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [HKU-BAL/Clair-skills](https://github.com/HKU-BAL/Clair-skills) | 4 | 2026-04-16T07:26:19Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [agent-sh/glidemq](https://github.com/agent-sh/glidemq) | 4 | 2026-04-15T09:02:49Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [lint-staged/lint-staged.sh](https://github.com/lint-staged/lint-staged.sh) | 3 | 2026-04-29T06:13:14Z | Shell | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [semgrep/mcp-marketplace](https://github.com/semgrep/mcp-marketplace) | 3 | 2026-04-10T23:28:35Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [rapidsai/gha-tools](https://github.com/rapidsai/gha-tools) | 3 | 2026-04-07T19:03:34Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [kubernetes-sigs/provider-ibmcloud-test-infra](https://github.com/kubernetes-sigs/provider-ibmcloud-test-infra) | 2 | 2026-04-23T07:12:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |

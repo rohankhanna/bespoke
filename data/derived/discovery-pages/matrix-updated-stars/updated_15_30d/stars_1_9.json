@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1185,
-    "concepts": 633,
-    "observations": 637,
-    "repos": 135,
-    "terms": 631
+    "components": 1166,
+    "concepts": 628,
+    "observations": 632,
+    "repos": 131,
+    "terms": 626
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "3mdeb/3mdeb-secpack",
@@ -29,7 +29,6 @@
     "Azure-Samples/azure-openai-starter",
     "Azure-Samples/langchain-agent-python",
     "benjamimgois/pascube",
-    "black-desk/djotfmt",
     "Cebeerre/dnsblocklists",
     "chrishulbert/brickwarrior",
     "clearml/dropbear",
@@ -78,7 +77,6 @@
     "fluent-vue/examples",
     "fluent-vue/unplugin-fluent-vue",
     "fluxcd/flux-schema",
-    "fontsource/download-stat-aggregator",
     "godot-rust/godot4-prebuilt",
     "gookit/cliui",
     "haskell/ghcup-www",
@@ -98,9 +96,7 @@
     "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",
     "linode/karpenter-provider-linode",
-    "lint-staged/lint-staged.sh",
     "lintnet-modules/ghalint",
-    "localstack/homebrew-tap",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "maltsev/html-minifiers-benchmark",

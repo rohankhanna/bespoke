@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 784,
-    "concepts": 524,
-    "observations": 526,
-    "repos": 138,
-    "terms": 521
+    "components": 807,
+    "concepts": 534,
+    "observations": 536,
+    "repos": 142,
+    "terms": 531
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -20,6 +20,7 @@
     "ahyatt/emacs-websocket",
     "ajevans99/swift-json-schema",
     "akabe/ocaml-jupyter",
+    "alcohol/iso3166",
     "aserafin/grape_logging",
     "astral-sh/uv-docker-example",
     "AudioKit/Cookbook",
@@ -36,6 +37,7 @@
     "bhauman/rebel-readline",
     "BKWLD/laravel-pug",
     "caddyserver/caddy-docker",
+    "caro401/royal-velvet",
     "ChenyunWu/PhraseCutDataset",
     "chiron-fonts/chiron-hei-hk",
     "cjohansen/replicant",
@@ -72,6 +74,7 @@
     "elixir-ecto/myxql",
     "elixir-sqlite/ecto_sqlite3",
     "ericmj/decimal",
+    "ethereum/builder-specs",
     "facebookresearch/fairo",
     "fsharp/fslang-design",
     "garuda-linux/firedragon",
@@ -87,6 +90,7 @@
     "joshuaulrich/xts",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
+    "JuliaQuant/MarketData.jl",
     "JunoLab/Weave.jl",
     "kendryte/nncase",
     "KhronosGroup/EGL-Registry",
@@ -122,9 +126,9 @@
     "prabirshrestha/asyncomplete.vim",
     "proper-testing/proper",
     "purcell/envrc",
+    "pybind/pybind11_bazel",
     "queryverse/Query.jl",
     "rejemy/UltraLiteDB",
-    "rubocop/rubocop-performance",
     "RubyMoney/eu_central_bank",
     "sandrohanea/whisper.net",
     "scssphp/scssphp",

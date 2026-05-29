@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7696,
-    "concepts": 1480,
-    "observations": 1484,
-    "repos": 194,
-    "terms": 1586
+    "components": 8027,
+    "concepts": 1500,
+    "observations": 1504,
+    "repos": 197,
+    "terms": 1606
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -34,6 +34,7 @@
     "archestra-ai/archestra",
     "ardatan/graphql-tools",
     "artifacthub/hub",
+    "artsy/eigen",
     "artsy/README",
     "astral-sh/ruff-vscode",
     "av/harbor",
@@ -43,6 +44,7 @@
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "berty/berty",
+    "BetterThanTomorrow/calva",
     "blockprotocol/blockprotocol",
     "bluesky-social/atproto",
     "breferrari/obsidian-mind",
@@ -158,6 +160,7 @@
     "op7418/codepilot",
     "opactorai/claudable",
     "open-telemetry/opentelemetry-js",
+    "openai/openai-agents-js",
     "OpenAPITools/openapi-generator-cli",
     "ory/polis",
     "owloops/claude-powerline",

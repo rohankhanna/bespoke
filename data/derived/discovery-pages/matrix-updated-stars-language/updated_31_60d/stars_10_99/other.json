@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1602,
-    "concepts": 955,
-    "observations": 956,
-    "repos": 275,
-    "terms": 959
+    "components": 1635,
+    "concepts": 983,
+    "observations": 984,
+    "repos": 280,
+    "terms": 987
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "3rd/config",
     "abap2UI5/samples",
+    "abarisani/abarisani.github.io",
     "abe-101/myHebrewDates",
     "AdaCore/gnatcoll-core",
     "AdaCore/langkit",
@@ -81,6 +82,7 @@
     "ClementPinard/FlowNetTorch",
     "clojure/homebrew-tools",
     "cloudfoundry/bosh-azure-cpi-release",
+    "cloudfoundry/capi-release",
     "cloudfoundry/cf-uaac",
     "connectbot/termlib",
     "Const-me/ComLightInterop",
@@ -177,12 +179,14 @@
     "JustusAdam/language-haskell",
     "kahliburke/Kaimon.jl",
     "Kaiede/Bedrockifier",
+    "karafka/karafka-web",
     "kata-containers/www.katacontainers.io",
     "kbenzie/vim-spirv",
     "kendryte/k230_canmv_docs",
     "lambdaisland/open-source",
     "leandrocp/req_embed",
     "lewis6991/async.nvim",
+    "localstack/localstack-cli",
     "logseq/og",
     "luau-lang/site",
     "lxqt/lxqt-build-tools",
@@ -232,6 +236,7 @@
     "php-toolkit/pflag",
     "php/doc-de",
     "php/doc-ja",
+    "php/phd",
     "PKU-YuanGroup/Helios-Page",
     "plotly/graphing-library-docs",
     "pq-code-package/mldsa-native",

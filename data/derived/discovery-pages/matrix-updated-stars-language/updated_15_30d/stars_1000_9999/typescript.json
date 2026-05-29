@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5437,
-    "concepts": 1077,
-    "observations": 1080,
-    "repos": 120,
-    "terms": 1070
+    "components": 5106,
+    "concepts": 1057,
+    "observations": 1060,
+    "repos": 117,
+    "terms": 1050
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -24,14 +24,12 @@
     "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
     "argdown/argdown",
-    "artsy/eigen",
     "aws-powertools/powertools-lambda-typescript",
     "aws/aws-sdk-js-v3",
     "aws/jsii",
     "azat-io/eslint-plugin-perfectionist",
     "baptisteArno/typebot.io",
     "benchmark-action/github-action-benchmark",
-    "BetterThanTomorrow/calva",
     "Binaryify/OneDark-Pro",
     "boxlite-ai/boxlite",
     "bqplot/bqplot",
@@ -88,7 +86,6 @@
     "nrwl/nx-console",
     "obsidianmd/obsidian-clipper",
     "open-telemetry/opentelemetry-demo",
-    "openai/openai-agents-js",
     "openlit/openlit",
     "OutlineFoundation/outline-apps",
     "pdfme/pdfme",

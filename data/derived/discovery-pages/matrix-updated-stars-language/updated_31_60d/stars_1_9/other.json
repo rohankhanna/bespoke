@@ -3,7 +3,7 @@
     "components": 336,
     "concepts": 200,
     "observations": 200,
-    "repos": 90,
+    "repos": 91,
     "terms": 200
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -80,6 +80,7 @@
     "konnov/apalache-examples",
     "lahma/test262-harness-dotnet",
     "lemire/unicode_lipsum",
+    "localstack/homebrew-tap",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "Mbed-TLS/mbedtls-test",
     "microsoft/LinuxTracepoints-Net",

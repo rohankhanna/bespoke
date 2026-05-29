@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
+- repos: 13
 - terms: 66
 - components: 189
 - concepts: 66
@@ -39,7 +39,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/nodejs-dist-indexer](https://github.com/nodejs/nodejs-dist-indexer) | 22 | 2026-04-29T12:24:28Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [alangdm/helium-animated-pages](https://github.com/alangdm/helium-animated-pages) | 17 | 2026-04-29T11:46:58Z | JavaScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [octokit/create-octokit-project.js](https://github.com/octokit/create-octokit-project.js) | 18 | 2026-04-29T10:03:27Z | JavaScript | Infrastructure/tooling | 7 | 16 | 7 | 7 |
-| [Eonic/ProteanCMS](https://github.com/Eonic/ProteanCMS) | 17 | 2026-04-29T07:58:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -57,5 +56,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ideditor/schema-builder](https://github.com/ideditor/schema-builder) | 17 | 2026-05-01T12:18:03Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [kitconcept/volto-light-theme](https://github.com/kitconcept/volto-light-theme) | 17 | 2026-04-29T17:07:25Z | JavaScript | Infrastructure/tooling | 7 | 11 | 7 | 8 |
 | [alangdm/helium-animated-pages](https://github.com/alangdm/helium-animated-pages) | 17 | 2026-04-29T11:46:58Z | JavaScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
-| [Eonic/ProteanCMS](https://github.com/Eonic/ProteanCMS) | 17 | 2026-04-29T07:58:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [apache/doris-opentelemetry-demo](https://github.com/apache/doris-opentelemetry-demo) | 10 | 2026-05-05T06:01:48Z | JavaScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Rust
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 11
-- components: 36
-- concepts: 11
-- observations: 12
+- repos: 10
+- terms: 12
+- components: 37
+- concepts: 12
+- observations: 13
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 902,
-    "concepts": 495,
-    "observations": 499,
-    "repos": 106,
-    "terms": 493
+    "components": 869,
+    "concepts": 467,
+    "observations": 471,
+    "repos": 101,
+    "terms": 465
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abap2UI5-addons/sql-console",
-    "abarisani/abarisani.github.io",
     "Accla/d4m",
     "agentclientprotocol/kotlin-sdk",
     "alphagov/govuk_publishing_components",
@@ -40,7 +39,6 @@
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/bosh-aws-cpi-release",
-    "cloudfoundry/capi-release",
     "cloudfoundry/uaa-release",
     "conservationtechlab/animl-r",
     "controlplaneio-fluxcd/distribution",
@@ -77,13 +75,11 @@
     "JuliaCon/www.juliacon.org",
     "JuliaGeo/GeometryOps.jl",
     "JuliaSparse/SparseArrays.jl",
-    "karafka/karafka-web",
     "kddnewton/sorbet-eraser",
     "Kong/developer.konghq.com",
     "lakekeeper/lakekeeper-charts",
     "LedgerHQ/ledger-app-builder",
     "liuliu/s4nnc",
-    "localstack/localstack-cli",
     "ludwig-ai/ludwig-docs",
     "lumen-oss/nurr",
     "melpa/package-build",
@@ -98,7 +94,6 @@
     "palladius/gemini-news-crawler",
     "php/doc-es",
     "php/doc-fr",
-    "php/phd",
     "pipecat-ai/docs",
     "processing/processing-website",
     "r-lib/pkgload",

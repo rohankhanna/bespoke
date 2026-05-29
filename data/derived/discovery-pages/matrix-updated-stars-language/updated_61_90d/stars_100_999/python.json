@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 517,
-    "observations": 518,
-    "repos": 115,
-    "terms": 515
+    "components": 326,
+    "concepts": 522,
+    "observations": 523,
+    "repos": 113,
+    "terms": 520
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -51,12 +51,12 @@
     "FlagOpen/RoboBrain2.5",
     "gmberton/CosPlace",
     "gmberton/deep-visual-geo-localization-benchmark",
+    "gmberton/MegaLoc",
     "gmberton/VPR-datasets-downloader",
     "google-deepmind/multi_object_datasets",
     "HazyResearch/legalbench",
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
-    "hongyuanyu/SPAN",
     "huawei-noah/noah-research",
     "hukkin/mdformat",
     "hustvl/Senna",
@@ -81,7 +81,6 @@
     "microsoft/XPretrain",
     "mindspore-lab/mindnlp",
     "mondeja/mkdocs-include-markdown-plugin",
-    "MoonshotAI/checkpoint-engine",
     "mr-fatalyst/fastopenapi",
     "naver/multi-hmr",
     "neavo/KeywordGacha",
@@ -117,7 +116,6 @@
     "TexasInstruments/edgeai-tidl-tools",
     "thu-ml/DiT-Extrapolation",
     "TIGER-AI-Lab/verl-tool",
-    "tulerfeng/OneThinker",
     "Vinyzu/Botright",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",

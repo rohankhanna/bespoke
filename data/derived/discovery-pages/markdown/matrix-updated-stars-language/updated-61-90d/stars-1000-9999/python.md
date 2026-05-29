@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 82
-- terms: 512
-- components: 285
-- concepts: 515
-- observations: 515
+- repos: 84
+- terms: 520
+- components: 287
+- concepts: 523
+- observations: 523
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [intel/intel-extension-for-pytorch](https://github.com/intel/intel-extension-for-pytorch) | 2008 | 2026-03-30T08:35:24Z | Python | Infrastructure/tooling | 7 | 1 | 7 | 7 |
+| [deepspeedai/DeepSpeedExamples](https://github.com/deepspeedai/DeepSpeedExamples) | 6819 | 2026-03-30T06:14:10Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [linkchecker/linkchecker](https://github.com/linkchecker/linkchecker) | 1049 | 2026-03-30T04:39:52Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [miiton/Cica](https://github.com/miiton/Cica) | 1401 | 2026-03-30T03:28:18Z | Python | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [Kosinkadink/ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved) | 3440 | 2026-03-30T01:39:21Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -122,6 +124,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans) | 7375 | 2026-03-15T16:37:54Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [facebookresearch/SlowFast](https://github.com/facebookresearch/SlowFast) | 7347 | 2026-03-16T11:07:10Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 6962 | 2026-03-13T13:46:54Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [deepspeedai/DeepSpeedExamples](https://github.com/deepspeedai/DeepSpeedExamples) | 6819 | 2026-03-30T06:14:10Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [django/channels](https://github.com/django/channels) | 6342 | 2026-03-28T06:36:00Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ufoym/deepo](https://github.com/ufoym/deepo) | 6278 | 2026-03-25T15:09:36Z | Python | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | 6150 | 2026-03-23T06:17:21Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -166,6 +169,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [inducer/pycuda](https://github.com/inducer/pycuda) | 2039 | 2026-03-27T19:17:38Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [pytest-dev/pytest-cov](https://github.com/pytest-dev/pytest-cov) | 2031 | 2026-03-21T20:11:13Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [miolini/autoresearch-macos](https://github.com/miolini/autoresearch-macos) | 2011 | 2026-03-17T22:39:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [intel/intel-extension-for-pytorch](https://github.com/intel/intel-extension-for-pytorch) | 2008 | 2026-03-30T08:35:24Z | Python | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [pyupio/safety](https://github.com/pyupio/safety) | 1976 | 2026-03-23T20:38:29Z | Python | Infrastructure/tooling | 15 | 11 | 15 | 15 |
 | [explosion/spacy-models](https://github.com/explosion/spacy-models) | 1860 | 2026-03-20T10:26:17Z | Python | Library | 7 | 0 | 7 | 7 |
 | [Thinklab-SJTU/Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive) | 1855 | 2026-03-26T18:29:47Z | Python | Model/data | 0 | 0 | 0 | 0 |

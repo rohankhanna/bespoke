@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 108
-- terms: 898
-- components: 972
-- concepts: 906
-- observations: 906
+- repos: 105
+- terms: 891
+- components: 923
+- concepts: 899
+- observations: 899
 
 ## Static behavior
 
@@ -131,9 +131,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jd-opensource/xllm](https://github.com/jd-opensource/xllm) | 1256 | 2026-04-29T11:59:46Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [llvm/torch-mlir](https://github.com/llvm/torch-mlir) | 1798 | 2026-04-29T11:52:02Z | C/C++ | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [flightlessmango/MangoHud](https://github.com/flightlessmango/MangoHud) | 8521 | 2026-04-29T09:52:18Z | C/C++ | Infrastructure/tooling | 11 | 3 | 11 | 11 |
-| [ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) | 2267 | 2026-04-29T07:33:45Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [appium/WebDriverAgent](https://github.com/appium/WebDriverAgent) | 1652 | 2026-04-29T06:41:07Z | C/C++ | Infrastructure/tooling | 6 | 39 | 6 | 6 |
-| [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) | 2424 | 2026-04-29T06:04:16Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -206,10 +203,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kokkos/kokkos](https://github.com/kokkos/kokkos) | 2519 | 2026-04-30T01:57:28Z | C/C++ | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [google/swiftshader](https://github.com/google/swiftshader) | 2464 | 2026-04-29T16:19:45Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [Nelarius/imnodes](https://github.com/Nelarius/imnodes) | 2444 | 2026-05-13T10:07:48Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1) | 2424 | 2026-04-29T06:04:16Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | 2373 | 2026-05-01T14:37:05Z | C/C++ | Infrastructure/tooling | 20 | 12 | 20 | 20 |
 | [AcademySoftwareFoundation/OpenImageIO](https://github.com/AcademySoftwareFoundation/OpenImageIO) | 2285 | 2026-05-01T01:34:28Z | C/C++ | Infrastructure/tooling | 12 | 18 | 12 | 12 |
-| [ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) | 2267 | 2026-04-29T07:33:45Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [aws/aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) | 2193 | 2026-05-01T19:57:16Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [php-rdkafka/php-rdkafka](https://github.com/php-rdkafka/php-rdkafka) | 2176 | 2026-04-29T22:41:13Z | C/C++ | CLI | 6 | 7 | 6 | 6 |
 | [PortAudio/portaudio](https://github.com/PortAudio/portaudio) | 2071 | 2026-05-14T22:06:20Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
@@ -225,7 +220,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AcademySoftwareFoundation/openexr](https://github.com/AcademySoftwareFoundation/openexr) | 1798 | 2026-04-29T22:35:07Z | C/C++ | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [llvm/torch-mlir](https://github.com/llvm/torch-mlir) | 1798 | 2026-04-29T11:52:02Z | C/C++ | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [YosysHQ/nextpnr](https://github.com/YosysHQ/nextpnr) | 1658 | 2026-04-30T06:07:13Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [appium/WebDriverAgent](https://github.com/appium/WebDriverAgent) | 1652 | 2026-04-29T06:41:07Z | C/C++ | Infrastructure/tooling | 6 | 39 | 6 | 6 |
 | [facebook/mvfst](https://github.com/facebook/mvfst) | 1640 | 2026-05-01T22:32:48Z | C/C++ | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [autowarefoundation/autoware_universe](https://github.com/autowarefoundation/autoware_universe) | 1610 | 2026-04-30T14:50:55Z | C/C++ | Infrastructure/tooling | 16 | 19 | 17 | 17 |
 | [miniupnp/miniupnp](https://github.com/miniupnp/miniupnp) | 1586 | 2026-04-29T23:44:27Z | C/C++ | Infrastructure/tooling | 13 | 8 | 13 | 13 |

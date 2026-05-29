@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1307,
-    "concepts": 877,
-    "observations": 880,
-    "repos": 132,
-    "terms": 871
+    "components": 1303,
+    "concepts": 871,
+    "observations": 874,
+    "repos": 131,
+    "terms": 865
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "AdaptiveCpp/AdaptiveCpp",
@@ -85,7 +85,6 @@
     "mesh-iit/cad-libraries",
     "meshcat-dev/meshcat",
     "meta-llama/llama-cookbook",
-    "microsoft/openjdk-jdk11u",
     "mingw-w64/mingw-w64",
     "msiemens/tinydb",
     "nginx-le/nginx-le",

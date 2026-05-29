@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 100
+- repos: 101
 - terms: 393
 - components: 1493
 - concepts: 393
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Eonic/ProteanCMS](https://github.com/Eonic/ProteanCMS) | 17 | 2026-04-29T07:58:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [apollographql/connectors-community](https://github.com/apollographql/connectors-community) | 20 | 2026-04-28T23:41:07Z | JavaScript | Unknown | 2 | 6 | 2 | 2 |
 | [hudochenkov/postcss-styled-syntax](https://github.com/hudochenkov/postcss-styled-syntax) | 81 | 2026-04-28T23:10:30Z | JavaScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [npm/package-json](https://github.com/npm/package-json) | 98 | 2026-04-28T18:23:34Z | JavaScript | CLI | 8 | 19 | 8 | 8 |
@@ -211,6 +212,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mainmatter/ember-vite-codemod](https://github.com/mainmatter/ember-vite-codemod) | 18 | 2026-04-24T08:55:00Z | JavaScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
 | [itsrishika/payment-bypass-bug-lab](https://github.com/ItsRishika/Payment-bypass-bug-lab) | 18 | 2026-04-19T11:42:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [reZach/i18next-electron-fs-backend](https://github.com/reZach/i18next-electron-fs-backend) | 18 | 2026-04-14T02:16:10Z | JavaScript | Unknown | 3 | 7 | 3 | 3 |
+| [Eonic/ProteanCMS](https://github.com/Eonic/ProteanCMS) | 17 | 2026-04-29T07:58:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [locize/locizify](https://github.com/locize/locizify) | 17 | 2026-04-23T16:03:57Z | JavaScript | Web app | 4 | 28 | 4 | 4 |
 | [ehmicky/node-version-alias](https://github.com/ehmicky/node-version-alias) | 17 | 2026-04-11T15:03:24Z | JavaScript | CLI | 13 | 12 | 15 | 15 |
 | [sveltejs/eslint-config](https://github.com/sveltejs/eslint-config) | 17 | 2026-04-02T11:52:56Z | JavaScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |

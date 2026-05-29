@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4442,
-    "concepts": 3098,
-    "observations": 3105,
-    "repos": 783,
-    "terms": 3091
+    "components": 4455,
+    "concepts": 3109,
+    "observations": 3116,
+    "repos": 787,
+    "terms": 3102
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -357,6 +357,7 @@
     "hkchengrex/CascadePSP",
     "hollowstrawberry/kohya-colab",
     "HolyWu/vs-rife",
+    "hongyuanyu/SPAN",
     "httplib2/httplib2",
     "huggingface/flux-fast",
     "hustvl/DiffusionDriveV2",
@@ -514,6 +515,7 @@
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
     "MontaEllis/Pytorch-Medical-Segmentation",
+    "MoonshotAI/checkpoint-engine",
     "Mountchicken/Resophy",
     "MSxDOS/ntapi",
     "mtkennerly/poetry-dynamic-versioning",
@@ -640,6 +642,7 @@
     "ropensci/git2r",
     "ros/urdf_parser_py",
     "RT-DETRs/RT-DETRv4",
+    "rubocop/rubocop-performance",
     "ruby-formatter/rufo",
     "runegan/jsxbin",
     "rust-bio/rust-htslib",
@@ -733,6 +736,7 @@
     "TsinghuaDatabaseGroup/DB-GPT",
     "tsonglew/dutis",
     "TTPlanetPig/Comfyui_TTP_Toolset",
+    "tulerfeng/OneThinker",
     "tulerfeng/Video-R1",
     "tvogels/pyexr",
     "typst/pdf-writer",

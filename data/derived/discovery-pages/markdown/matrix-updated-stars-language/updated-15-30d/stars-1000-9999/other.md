@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 168
-- terms: 1442
-- components: 1634
-- concepts: 1445
-- observations: 1458
+- repos: 166
+- terms: 1405
+- components: 1621
+- concepts: 1408
+- observations: 1421
 
 ## Static behavior
 
@@ -192,8 +192,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [python/peps](https://github.com/python/peps) | 4918 | 2026-04-29T09:54:25Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [dotnet/msbuild](https://github.com/dotnet/msbuild) | 5511 | 2026-04-29T09:34:18Z | Other | Infrastructure/tooling | 13 | 12 | 13 | 14 |
 | [undreamai/LLMUnity](https://github.com/undreamai/LLMUnity) | 1605 | 2026-04-29T09:23:09Z | Other | Infrastructure/tooling | 17 | 8 | 17 | 19 |
-| [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) | 3722 | 2026-04-29T06:52:59Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
-| [karafka/karafka](https://github.com/karafka/karafka) | 2234 | 2026-04-29T06:47:33Z | Other | CLI | 25 | 6 | 25 | 25 |
 
 ## Repos sorted by stars
 
@@ -260,7 +258,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | 3844 | 2026-05-08T21:34:24Z | Other | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3828 | 2026-05-02T08:52:00Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [nvimdev/lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) | 3790 | 2026-05-14T01:42:46Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) | 3722 | 2026-04-29T06:52:59Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) | 3658 | 2026-05-01T14:19:21Z | Other | Infrastructure/tooling | 17 | 15 | 17 | 17 |
 | [clojure-emacs/cider](https://github.com/clojure-emacs/cider) | 3646 | 2026-04-29T19:06:40Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [aws/aws-sdk-ruby](https://github.com/aws/aws-sdk-ruby) | 3643 | 2026-04-29T19:30:13Z | Other | Infrastructure/tooling | 10 | 11 | 10 | 10 |
@@ -298,7 +295,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [theJayTea/WritingTools](https://github.com/theJayTea/WritingTools) | 2261 | 2026-05-06T17:44:39Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [lightning/bolts](https://github.com/lightning/bolts) | 2236 | 2026-05-12T09:02:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [helix-toolkit/helix-toolkit](https://github.com/helix-toolkit/helix-toolkit) | 2236 | 2026-05-03T15:09:17Z | Other | Infrastructure/tooling | 9 | 6 | 10 | 10 |
-| [karafka/karafka](https://github.com/karafka/karafka) | 2234 | 2026-04-29T06:47:33Z | Other | CLI | 25 | 6 | 25 | 25 |
 | [tuist/XcodeProj](https://github.com/tuist/XcodeProj) | 2204 | 2026-04-29T23:02:43Z | Other | Infrastructure/tooling | 8 | 7 | 8 | 9 |
 | [DandelionSprout/adfilt](https://github.com/DandelionSprout/adfilt) | 2123 | 2026-05-04T16:55:57Z | Other | Infrastructure/tooling | 17 | 3 | 18 | 18 |
 | [okd-project/okd](https://github.com/okd-project/okd) | 2076 | 2026-05-11T10:05:14Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 48,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 73,
-    "terms": 90
+    "concepts": 85,
+    "observations": 85,
+    "repos": 71,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -58,7 +58,6 @@
     "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
     "danielrosehill/Useful-AI-Agent-Skills",
-    "datachainlab/yui-relayer-build",
     "dmBots/DM-J4310-2EC",
     "dpc/crev-proofs",
     "eddelbuettel/r2u-config",
@@ -72,7 +71,6 @@
     "hiyouga/llamafactory-community",
     "HKUDS/.github",
     "kyverno/community",
-    "lab-cosmo/.github",
     "leeyeel/gltfOverview-Chinese",
     "llvm/torch-mlir-release",
     "nodejs/web-team",

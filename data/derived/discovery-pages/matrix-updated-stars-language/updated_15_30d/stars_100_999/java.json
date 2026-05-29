@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 25,
-    "terms": 185
+    "components": 137,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 24,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "apache/spark-kubernetes-operator",
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
     "confluentinc/kafka-streams-examples",
-    "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
     "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",

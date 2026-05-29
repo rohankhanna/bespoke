@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 120
-- terms: 1070
-- components: 5437
-- concepts: 1077
-- observations: 1080
+- repos: 117
+- terms: 1050
+- components: 5106
+- concepts: 1057
+- observations: 1060
 
 ## Static behavior
 
@@ -143,9 +143,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [retorquere/zotero-better-bibtex](https://github.com/retorquere/zotero-better-bibtex) | 6610 | 2026-04-29T08:58:40Z | TypeScript | Infrastructure/tooling | 8 | 146 | 8 | 8 |
 | [r5n-labs/vscode-react-javascript-snippets](https://github.com/r5n-labs/vscode-react-javascript-snippets) | 1859 | 2026-04-29T08:58:05Z | TypeScript | Infrastructure/tooling | 16 | 28 | 16 | 16 |
 | [web-infra-dev/rspress](https://github.com/web-infra-dev/rspress) | 2218 | 2026-04-29T08:52:14Z | TypeScript | Infrastructure/tooling | 12 | 33 | 13 | 13 |
-| [BetterThanTomorrow/calva](https://github.com/BetterThanTomorrow/calva) | 2043 | 2026-04-29T07:43:40Z | TypeScript | Unknown | 0 | 66 | 0 | 0 |
-| [openai/openai-agents-js](https://github.com/openai/openai-agents-js) | 2883 | 2026-04-29T07:04:24Z | TypeScript | Infrastructure/tooling | 8 | 31 | 8 | 8 |
-| [artsy/eigen](https://github.com/artsy/eigen) | 3770 | 2026-04-29T06:07:52Z | TypeScript | Infrastructure/tooling | 12 | 234 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -194,7 +191,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk) | 4023 | 2026-05-01T06:49:16Z | TypeScript | CLI | 10 | 29 | 10 | 10 |
 | [rolldown/tsdown](https://github.com/rolldown/tsdown) | 3894 | 2026-04-29T14:12:30Z | TypeScript | Infrastructure/tooling | 10 | 62 | 10 | 10 |
 | [reactjs/react-docgen](https://github.com/reactjs/react-docgen) | 3821 | 2026-05-02T04:48:49Z | TypeScript | CLI | 7 | 30 | 8 | 8 |
-| [artsy/eigen](https://github.com/artsy/eigen) | 3770 | 2026-04-29T06:07:52Z | TypeScript | Infrastructure/tooling | 12 | 234 | 12 | 12 |
 | [TanStack/db](https://github.com/TanStack/db) | 3736 | 2026-05-01T02:09:02Z | TypeScript | CLI | 5 | 45 | 5 | 5 |
 | [bqplot/bqplot](https://github.com/bqplot/bqplot) | 3688 | 2026-04-30T11:51:20Z | TypeScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [aws/aws-sdk-js-v3](https://github.com/aws/aws-sdk-js-v3) | 3612 | 2026-04-29T22:07:45Z | TypeScript | Infrastructure/tooling | 13 | 63 | 13 | 13 |
@@ -208,7 +204,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [open-telemetry/opentelemetry-demo](https://github.com/open-telemetry/opentelemetry-demo) | 3056 | 2026-05-05T11:12:15Z | TypeScript | Infrastructure/tooling | 17 | 17 | 18 | 18 |
 | [dotnet/vscode-csharp](https://github.com/dotnet/vscode-csharp) | 3042 | 2026-04-29T21:16:01Z | TypeScript | Infrastructure/tooling | 12 | 65 | 12 | 12 |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills) | 2986 | 2026-05-01T07:07:44Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
-| [openai/openai-agents-js](https://github.com/openai/openai-agents-js) | 2883 | 2026-04-29T07:04:24Z | TypeScript | Infrastructure/tooling | 8 | 31 | 8 | 8 |
 | [carbon-design-system/carbon-components-svelte](https://github.com/carbon-design-system/carbon-components-svelte) | 2871 | 2026-05-02T17:02:03Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [azat-io/eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist) | 2861 | 2026-05-02T09:19:08Z | TypeScript | Infrastructure/tooling | 8 | 75 | 8 | 8 |
 | [aws/jsii](https://github.com/aws/jsii) | 2852 | 2026-04-29T21:24:50Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
@@ -228,7 +223,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hannoeru/vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) | 2080 | 2026-05-01T16:59:52Z | TypeScript | Infrastructure/tooling | 1 | 34 | 1 | 1 |
 | [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
 | [withcatai/node-llama-cpp](https://github.com/withcatai/node-llama-cpp) | 2049 | 2026-05-06T03:32:51Z | TypeScript | Infrastructure/tooling | 19 | 89 | 20 | 20 |
-| [BetterThanTomorrow/calva](https://github.com/BetterThanTomorrow/calva) | 2043 | 2026-04-29T07:43:40Z | TypeScript | Unknown | 0 | 66 | 0 | 0 |
 | [swc-project/swc-node](https://github.com/swc-project/swc-node) | 1978 | 2026-04-29T15:40:31Z | TypeScript | Infrastructure/tooling | 0 | 32 | 0 | 0 |
 | [ecyrbe/zodios](https://github.com/ecyrbe/zodios) | 1911 | 2026-04-29T10:51:42Z | TypeScript | CLI | 5 | 22 | 5 | 5 |
 | [nodejs/llhttp](https://github.com/nodejs/llhttp) | 1894 | 2026-04-30T10:35:42Z | TypeScript | Infrastructure/tooling | 6 | 22 | 6 | 6 |

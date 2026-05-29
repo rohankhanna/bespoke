@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 73
-- terms: 276
+- repos: 71
+- terms: 264
 - components: 91
-- concepts: 277
-- observations: 278
+- concepts: 265
+- observations: 266
 
 ## Static behavior
 
@@ -97,8 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [e18e/ecosystem-issues](https://github.com/e18e/ecosystem-issues) | 553 | 2026-04-04T20:30:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [grpc/proposal](https://github.com/grpc/proposal) | 776 | 2026-04-03T18:59:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lwpyh/Awesome-MLLM-Reasoning-Collection](https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection) | 591 | 2026-04-01T19:32:31Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
-| [filecoin-project/community](https://github.com/filecoin-project/community) | 494 | 2026-03-30T07:56:37Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
-| [scott0107000/BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7) | 148 | 2026-03-30T06:53:56Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -129,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MicrosoftDocs/terminal](https://github.com/MicrosoftDocs/terminal) | 509 | 2026-04-15T17:30:29Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [astro-han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | 500 | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |
 | [antonbabenko/terraform-aws-devops](https://github.com/antonbabenko/terraform-aws-devops) | 495 | 2026-04-13T09:45:44Z | Unknown | Infrastructure/tooling | 7 | 0 | 7 | 7 |
-| [filecoin-project/community](https://github.com/filecoin-project/community) | 494 | 2026-03-30T07:56:37Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [stripe/openapi](https://github.com/stripe/openapi) | 474 | 2026-04-21T00:38:44Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [Uzaaft/awesome-libghostty](https://github.com/Uzaaft/awesome-libghostty) | 433 | 2026-04-16T08:47:27Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -163,7 +160,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googlefonts/RobotoMono](https://github.com/googlefonts/RobotoMono) | 152 | 2026-04-21T22:34:01Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [eslint/rfcs](https://github.com/eslint/rfcs) | 151 | 2026-04-20T06:46:38Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [dotnet-foundation/projects](https://github.com/dotnet-foundation/projects) | 148 | 2026-04-15T19:24:11Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [scott0107000/BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7) | 148 | 2026-03-30T06:53:56Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [adoptium/temurin21-binaries](https://github.com/adoptium/temurin21-binaries) | 143 | 2026-04-25T02:09:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agamm/claude-code-owasp](https://github.com/agamm/claude-code-owasp) | 136 | 2026-04-05T02:59:02Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [nimbalyst/nimbalyst](https://github.com/Nimbalyst/nimbalyst) | 133 | 2026-04-17T16:52:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |

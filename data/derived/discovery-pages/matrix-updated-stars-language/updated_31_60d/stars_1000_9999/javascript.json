@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3403,
-    "concepts": 745,
-    "observations": 745,
-    "repos": 115,
-    "terms": 742
+    "components": 3515,
+    "concepts": 760,
+    "observations": 760,
+    "repos": 117,
+    "terms": 755
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -75,6 +75,7 @@
     "keepassxreboot/keepassxc-browser",
     "kpdecker/jsdiff",
     "krausest/js-framework-benchmark",
+    "leezng/vue-json-pretty",
     "Level/level",
     "ljharb/qs",
     "mantoni/eslint_d.js",
@@ -87,6 +88,7 @@
     "minio/minio-js",
     "mourner/rbush",
     "mozilla/rhino",
+    "mozilla/web-ext",
     "newrelic/node-newrelic",
     "NickColley/jest-axe",
     "nodegit/nodegit",

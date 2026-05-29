@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3535,
-    "concepts": 708,
-    "observations": 710,
-    "repos": 95,
-    "terms": 703
+    "components": 3461,
+    "concepts": 681,
+    "observations": 683,
+    "repos": 90,
+    "terms": 676
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -39,7 +39,6 @@
     "embroider-build/ember-auto-import",
     "embroider-build/embroider",
     "engine262/engine262",
-    "flathub-infra/website",
     "folke/esbuild-runner",
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
@@ -60,10 +59,7 @@
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
-    "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "milvus-io/milvus-sdk-node",
-    "mmkal/expect-type",
     "mswjs/interceptors",
     "nene/sql-parser-cst",
     "Nerivec/zigbee2mqtt-windfront",
@@ -95,7 +91,6 @@
     "TanStack/devtools",
     "TanStack/pacer",
     "TanStack/store",
-    "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
     "un-ts/prettier",
     "un-ts/synckit",

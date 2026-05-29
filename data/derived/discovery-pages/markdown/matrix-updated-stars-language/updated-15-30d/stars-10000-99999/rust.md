@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 417
-- components: 570
-- concepts: 425
-- observations: 426
+- repos: 32
+- terms: 403
+- components: 501
+- concepts: 411
+- observations: 412
 
 ## Static behavior
 
@@ -58,7 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | 11257 | 2026-04-29T15:29:35Z | Rust | CLI | 7 | 13 | 7 | 7 |
 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 31981 | 2026-04-29T14:14:29Z | Rust | Infrastructure/tooling | 23 | 21 | 23 | 23 |
 | [getzola/zola](https://github.com/getzola/zola) | 16990 | 2026-04-29T09:34:31Z | Rust | Infrastructure/tooling | 11 | 14 | 13 | 13 |
-| [swc-project/swc](https://github.com/swc-project/swc) | 33382 | 2026-04-29T07:17:04Z | Rust | Infrastructure/tooling | 14 | 69 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -72,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nushell/nushell](https://github.com/nushell/nushell) | 39439 | 2026-05-13T17:01:05Z | Rust | Infrastructure/tooling | 9 | 16 | 10 | 10 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | 38348 | 2026-05-01T06:59:20Z | Rust | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | 34094 | 2026-05-01T15:30:25Z | Rust | Infrastructure/tooling | 14 | 2 | 14 | 14 |
-| [swc-project/swc](https://github.com/swc-project/swc) | 33382 | 2026-04-29T07:17:04Z | Rust | Infrastructure/tooling | 14 | 69 | 14 | 14 |
 | [google/comprehensive-rust](https://github.com/google/comprehensive-rust) | 32924 | 2026-05-01T01:50:24Z | Rust | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 31981 | 2026-04-29T14:14:29Z | Rust | Infrastructure/tooling | 23 | 21 | 23 | 23 |
 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 31486 | 2026-05-01T20:18:05Z | Rust | Infrastructure/tooling | 8 | 1 | 8 | 8 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2880,
-    "concepts": 2708,
-    "observations": 2719,
-    "repos": 402,
-    "terms": 2692
+    "components": 2879,
+    "concepts": 2732,
+    "observations": 2743,
+    "repos": 403,
+    "terms": 2716
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -215,6 +215,7 @@
     "j-hui/fidget.nvim",
     "jeremyevans/roda",
     "jeremyevans/sequel",
+    "JetBrains/intellij-platform-plugin-template",
     "JLLeitschuh/ktlint-gradle",
     "jmhobbs/cultofthepartyparrot.com",
     "john-rocky/CoreML-Models",
@@ -232,6 +233,7 @@
     "JuliaPy/PythonCall.jl",
     "junegunn/seoul256.vim",
     "k2-fsa/k2",
+    "karafka/karafka",
     "KhronosGroup/glTF",
     "knative/docs",
     "Kotlin/KEEP",
@@ -256,7 +258,6 @@
     "mdn/browser-compat-data",
     "MeanderingProgrammer/render-markdown.nvim",
     "metosin/malli",
-    "metosin/reitit",
     "mfussenegger/nvim-dap",
     "mfussenegger/nvim-lint",
     "microsoft/ai-dev-gallery",

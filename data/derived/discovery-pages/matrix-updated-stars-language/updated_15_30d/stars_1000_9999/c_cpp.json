@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 972,
-    "concepts": 906,
-    "observations": 906,
-    "repos": 108,
-    "terms": 898
+    "components": 923,
+    "concepts": 899,
+    "observations": 899,
+    "repos": 105,
+    "terms": 891
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -20,12 +20,10 @@
     "ai-dynamo/nixl",
     "Andersbakken/rtags",
     "apache/age",
-    "appium/WebDriverAgent",
     "arkime/arkime",
     "async-profiler/async-profiler",
     "autowarefoundation/autoware_universe",
     "aws/aws-sdk-cpp",
-    "bitcoin-core/secp256k1",
     "brave/brave-core",
     "BYVoid/OpenCC",
     "cdcseacave/openMVS",
@@ -59,7 +57,6 @@
     "haproxy/haproxy",
     "heiher/hev-socks5-tunnel",
     "htop-dev/htop",
-    "ikawrakow/ik_llama.cpp",
     "intel/pcm",
     "ispc/ispc",
     "jd-opensource/xllm",

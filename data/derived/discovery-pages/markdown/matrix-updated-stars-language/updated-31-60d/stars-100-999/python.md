@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 406
-- terms: 2106
+- repos: 405
+- terms: 2099
 - components: 2093
-- concepts: 2101
-- observations: 2111
+- concepts: 2094
+- observations: 2104
 
 ## Static behavior
 
@@ -431,7 +431,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [citusdata/django-multitenant](https://github.com/citusdata/django-multitenant) | 820 | 2026-03-30T16:29:15Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [Slicer/light-the-torch](https://github.com/Slicer/light-the-torch) | 257 | 2026-03-30T15:39:26Z | Python | Infrastructure/tooling | 10 | 3 | 10 | 11 |
 | [spesmilo/electrumx](https://github.com/spesmilo/electrumx) | 555 | 2026-03-30T14:52:56Z | Python | Service/API | 3 | 0 | 3 | 3 |
-| [gmberton/MegaLoc](https://github.com/gmberton/MegaLoc) | 216 | 2026-03-30T06:44:23Z | Python | Model/data | 7 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -721,7 +720,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [llm-in-sandbox/llm-in-sandbox](https://github.com/llm-in-sandbox/llm-in-sandbox) | 221 | 2026-04-11T06:21:44Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [G-Research/ahocorasick_rs](https://github.com/G-Research/ahocorasick_rs) | 221 | 2026-04-06T17:44:42Z | Python | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [taylorwilsdon/open-webui-postgres-migration](https://github.com/taylorwilsdon/open-webui-postgres-migration) | 220 | 2026-04-28T14:58:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [gmberton/MegaLoc](https://github.com/gmberton/MegaLoc) | 216 | 2026-03-30T06:44:23Z | Python | Model/data | 7 | 0 | 7 | 7 |
 | [RDFLib/pyLODE](https://github.com/RDFLib/pyLODE) | 214 | 2026-04-29T00:25:39Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [uxlfoundation/oneAPI-spec](https://github.com/uxlfoundation/oneAPI-spec) | 213 | 2026-04-21T21:57:12Z | Python | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [CVHub520/X-AnyLabeling-Server](https://github.com/CVHub520/X-AnyLabeling-Server) | 212 | 2026-04-25T07:23:35Z | Python | CLI | 19 | 0 | 19 | 19 |

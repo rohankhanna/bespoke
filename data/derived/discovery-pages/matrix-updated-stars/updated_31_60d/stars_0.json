@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 941,
-    "concepts": 393,
-    "observations": 393,
-    "repos": 262,
-    "terms": 422
+    "components": 940,
+    "concepts": 392,
+    "observations": 392,
+    "repos": 260,
+    "terms": 421
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -168,7 +168,6 @@
     "danielrosehill/Speech-And-ASR-Evaluations",
     "databendlabs/databend-base",
     "DataDog/vault",
-    "datafuse-extras/dtparse",
     "datafuse-extras/lance",
     "datafuse-extras/orc-rust",
     "DeepWok/mase-docker",
@@ -238,7 +237,6 @@
     "NightWatcher314/npmctl",
     "nodenv/node-build-prerelease",
     "Patrick-ring-motive/sval-rhino-gs",
-    "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
     "piqrypt/piqrypt-mcp-server",
     "pragmatical-transshipment598/claude-code-workflows",

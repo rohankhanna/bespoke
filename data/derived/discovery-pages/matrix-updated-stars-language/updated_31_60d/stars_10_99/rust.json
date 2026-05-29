@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 714,
-    "concepts": 435,
-    "observations": 437,
-    "repos": 106,
-    "terms": 449
+    "components": 754,
+    "concepts": 455,
+    "observations": 457,
+    "repos": 110,
+    "terms": 469
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -35,8 +35,11 @@
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "BlackDex/rust-musl",
+    "bnb-chain/reth",
+    "bnb-chain/reth-bsc",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
+    "bourumir-wyngs/serde-yaml-bw",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "celo-org/celo-threshold-bls-rs",
@@ -107,6 +110,7 @@
     "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
+    "succinctlabs/sp1-cluster",
     "synadia-io/orbit.rs",
     "Systemcluster/kitoken",
     "tianrking/weixin-agent-rs",

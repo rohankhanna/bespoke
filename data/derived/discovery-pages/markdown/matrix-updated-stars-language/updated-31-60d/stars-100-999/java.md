@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 62
-- terms: 454
-- components: 379
-- concepts: 456
-- observations: 456
+- repos: 63
+- terms: 478
+- components: 391
+- concepts: 480
+- observations: 480
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [devoxx/DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin) | 639 | 2026-04-29T08:02:21Z | Java | CLI | 24 | 12 | 24 | 24 |
 | [apache/rocketmq-clients](https://github.com/apache/rocketmq-clients) | 484 | 2026-04-29T05:50:32Z | Java | CLI | 14 | 8 | 14 | 14 |
 | [ThreeTen/threetenbp](https://github.com/ThreeTen/threetenbp) | 562 | 2026-04-29T05:04:04Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [wildfly/quickstart](https://github.com/wildfly/quickstart) | 926 | 2026-04-29T01:05:49Z | Java | Infrastructure/tooling | 10 | 13 | 10 | 10 |
@@ -106,6 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graalvm/graalvm-demos](https://github.com/graalvm/graalvm-demos) | 678 | 2026-04-24T14:31:26Z | Java | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [googleapis/google-oauth-java-client](https://github.com/googleapis/google-oauth-java-client) | 657 | 2026-04-20T21:14:46Z | Java | CLI | 6 | 9 | 6 | 6 |
 | [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-04-10T21:58:36Z | Java | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [devoxx/DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin) | 639 | 2026-04-29T08:02:21Z | Java | CLI | 24 | 12 | 24 | 24 |
 | [FasterXML/jackson-dataformat-xml](https://github.com/FasterXML/jackson-dataformat-xml) | 623 | 2026-04-28T20:31:28Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [ThreeTen/threetenbp](https://github.com/ThreeTen/threetenbp) | 562 | 2026-04-29T05:04:04Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [bndtools/bnd](https://github.com/bndtools/bnd) | 556 | 2026-04-28T06:11:45Z | Java | CLI | 21 | 15 | 21 | 21 |

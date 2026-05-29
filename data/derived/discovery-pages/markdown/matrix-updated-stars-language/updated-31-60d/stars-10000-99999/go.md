@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 102
-- terms: 1132
-- components: 1150
-- concepts: 1148
-- observations: 1152
+- repos: 104
+- terms: 1154
+- components: 1172
+- concepts: 1170
+- observations: 1174
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [goharbor/harbor](https://github.com/goharbor/harbor) | 28386 | 2026-04-29T08:21:43Z | Go | Infrastructure/tooling | 18 | 18 | 18 | 18 |
+| [go-playground/validator](https://github.com/go-playground/validator) | 19926 | 2026-04-29T07:51:08Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | 33854 | 2026-04-28T22:52:41Z | Go | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [php/frankenphp](https://github.com/php/frankenphp) | 11026 | 2026-04-28T10:09:52Z | Go | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | 13137 | 2026-04-28T07:25:47Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
@@ -163,6 +165,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 31717 | 2026-04-22T21:44:30Z | Go | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [hashicorp/consul](https://github.com/hashicorp/consul) | 29853 | 2026-04-23T19:13:04Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 13 |
 | [opentofu/opentofu](https://github.com/opentofu/opentofu) | 28433 | 2026-04-21T10:21:23Z | Go | Infrastructure/tooling | 7 | 16 | 7 | 7 |
+| [goharbor/harbor](https://github.com/goharbor/harbor) | 28386 | 2026-04-29T08:21:43Z | Go | Infrastructure/tooling | 18 | 18 | 18 | 18 |
 | [abiosoft/colima](https://github.com/abiosoft/colima) | 28357 | 2026-04-13T18:37:16Z | Go | Infrastructure/tooling | 12 | 6 | 12 | 12 |
 | [grafana/loki](https://github.com/grafana/loki) | 28055 | 2026-04-23T01:08:07Z | Go | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [router-for-me/cliproxyapi](https://github.com/router-for-me/CLIProxyAPI) | 27212 | 2026-04-19T03:46:22Z | Go | CLI | 10 | 9 | 10 | 10 |
@@ -185,6 +188,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getsops/sops](https://github.com/getsops/sops) | 21665 | 2026-04-27T16:07:56Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [lima-vm/lima](https://github.com/lima-vm/lima) | 20803 | 2026-04-21T03:54:27Z | Go | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [containerd/containerd](https://github.com/containerd/containerd) | 20600 | 2026-04-17T22:41:34Z | Go | Infrastructure/tooling | 13 | 17 | 13 | 13 |
+| [go-playground/validator](https://github.com/go-playground/validator) | 19926 | 2026-04-29T07:51:08Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [apernet/hysteria](https://github.com/apernet/hysteria) | 19822 | 2026-04-26T21:26:19Z | Go | Infrastructure/tooling | 16 | 14 | 16 | 16 |
 | [nats-io/nats-server](https://github.com/nats-io/nats-server) | 19664 | 2026-04-22T16:48:47Z | Go | Infrastructure/tooling | 22 | 10 | 22 | 22 |
 | [ahmetb/kubectx](https://github.com/ahmetb/kubectx) | 19653 | 2026-04-19T01:51:46Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |

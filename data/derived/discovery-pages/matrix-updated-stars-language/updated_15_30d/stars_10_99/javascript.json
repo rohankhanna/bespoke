@@ -3,7 +3,7 @@
     "components": 189,
     "concepts": 66,
     "observations": 68,
-    "repos": 14,
+    "repos": 13,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "alangdm/helium-animated-pages",
     "apache/doris-opentelemetry-demo",
     "aws-samples/aws-sdk-js-tests",
     "coasys/ad4m",
-    "Eonic/ProteanCMS",
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "julia-actions/cache",

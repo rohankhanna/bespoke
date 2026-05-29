@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2525,
-    "concepts": 2999,
-    "observations": 3008,
-    "repos": 395,
-    "terms": 2995
+    "components": 2566,
+    "concepts": 3045,
+    "observations": 3054,
+    "repos": 399,
+    "terms": 3041
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -32,6 +32,8 @@
     "alibaba/ROLL",
     "allenai/open-instruct",
     "amaranth-lang/amaranth",
+    "amazon-far/holosoma",
+    "AndyTheFactory/newspaper4k",
     "angr/angr",
     "angr/angr-management",
     "ansible/ansible-lint",
@@ -103,7 +105,6 @@
     "cvg/depthsplat",
     "datadog/guarddog",
     "datajuicer/data-juicer",
-    "deepspeedai/DeepSpeedExamples",
     "devnen/Chatterbox-TTS-Server",
     "diafygi/acme-tiny",
     "Dicklesworthstone/mcp_agent_mail",
@@ -177,7 +178,6 @@
     "illuin-tech/colpali",
     "inclusionAI/AReaL",
     "intel/auto-round",
-    "intel/intel-extension-for-pytorch",
     "intel/neural-compressor",
     "InternLM/lmdeploy",
     "InternLM/Tutorial",
@@ -195,6 +195,7 @@
     "jupyter/docker-stacks",
     "jupyter/nbconvert",
     "k2-fsa/icefall",
+    "Kaliiiiiiiiii-Vinyzu/patchright-python",
     "Kapeli/Dash-User-Contributions",
     "KellerJordan/modded-nanogpt",
     "KhronosGroup/glTF-Blender-IO",
@@ -239,6 +240,7 @@
     "microsoft/LMOps",
     "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "microsoft/MInference",
+    "microsoft/Olive",
     "microsoft/pylance-release",
     "microsoft/sample-app-aoai-chatGPT",
     "microsoft/UFO",
@@ -313,6 +315,7 @@
     "PyCQA/bandit",
     "PyCQA/flake8",
     "pydata/numexpr",
+    "pydata/xarray",
     "pykeen/pykeen",
     "pylint-dev/pylint",
     "pymc-devs/pymc",
@@ -390,6 +393,7 @@
     "unitaryai/detoxify",
     "urwid/urwid",
     "vietanhdev/anylabeling",
+    "vipshop/cache-dit",
     "vllm-project/llm-compressor",
     "vwxyzjn/cleanrl",
     "weaviate/Verba",

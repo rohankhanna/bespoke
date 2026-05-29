@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1860,
-    "concepts": 1340,
-    "observations": 1349,
-    "repos": 194,
-    "terms": 1350
+    "components": 1879,
+    "concepts": 1349,
+    "observations": 1358,
+    "repos": 196,
+    "terms": 1359
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -166,6 +166,7 @@
     "rust-lang/docs.rs",
     "rust-lang/futures-rs",
     "rust-lang/git2-rs",
+    "rust-lang/libc",
     "rust-lang/log",
     "rust-lang/miri",
     "rust-lang/rust-bindgen",
@@ -195,6 +196,7 @@
     "tauri-apps/wry",
     "testcontainers/testcontainers-rs",
     "tikv/pprof-rs",
+    "time-rs/time",
     "tokio-rs/console",
     "tokio-rs/mini-redis",
     "tokio-rs/mio",

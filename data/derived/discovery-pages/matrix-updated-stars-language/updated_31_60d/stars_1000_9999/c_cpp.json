@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1497,
-    "concepts": 1682,
-    "observations": 1689,
-    "repos": 220,
-    "terms": 1672
+    "components": 1546,
+    "concepts": 1689,
+    "observations": 1696,
+    "repos": 223,
+    "terms": 1679
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -23,6 +23,7 @@
     "alibaba/havenask",
     "AOMediaCodec/libavif",
     "aphrodite-engine/aphrodite-engine",
+    "appium/WebDriverAgent",
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
     "asg017/sqlite-vec",
@@ -30,6 +31,7 @@
     "axboe/liburing",
     "bdwgc/bdwgc",
     "BinomialLLC/basis_universal",
+    "bitcoin-core/secp256k1",
     "Blynk-Technologies/blynk-library",
     "boazsegev/facil.io",
     "boostorg/beast",
@@ -93,6 +95,7 @@
     "herumi/xbyak",
     "HypoPG/hypopg",
     "ibireme/yyjson",
+    "ikawrakow/ik_llama.cpp",
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/compute-runtime",

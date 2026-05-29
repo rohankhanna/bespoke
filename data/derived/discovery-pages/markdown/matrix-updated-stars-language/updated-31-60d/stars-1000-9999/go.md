@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 234
-- terms: 1907
-- components: 1967
-- concepts: 1913
-- observations: 1922
+- repos: 236
+- terms: 1927
+- components: 1988
+- concepts: 1933
+- observations: 1942
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudflare/pint](https://github.com/cloudflare/pint) | 1016 | 2026-04-29T08:10:11Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [cloudwego/hertz](https://github.com/cloudwego/hertz) | 7193 | 2026-04-29T06:28:52Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [buger/jsonparser](https://github.com/buger/jsonparser) | 5611 | 2026-04-29T05:50:48Z | Go | Infrastructure/tooling | 4 | 7 | 6 | 6 |
 | [Dicklesworthstone/beads_viewer](https://github.com/Dicklesworthstone/beads_viewer) | 1485 | 2026-04-29T01:16:43Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [onsi/gomega](https://github.com/onsi/gomega) | 2336 | 2026-04-29T01:02:39Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -305,6 +307,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [expr-lang/expr](https://github.com/expr-lang/expr) | 7829 | 2026-04-12T14:40:16Z | Go | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [google/adk-go](https://github.com/google/adk-go) | 7649 | 2026-04-23T19:13:08Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [operator-framework/operator-sdk](https://github.com/operator-framework/operator-sdk) | 7636 | 2026-04-17T22:42:14Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [cloudwego/hertz](https://github.com/cloudwego/hertz) | 7193 | 2026-04-29T06:28:52Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [yuin/gopher-lua](https://github.com/yuin/gopher-lua) | 6890 | 2026-04-01T00:54:16Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector) | 6871 | 2026-04-21T09:45:38Z | Go | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [charmbracelet/huh](https://github.com/charmbracelet/huh) | 6831 | 2026-04-22T14:14:27Z | Go | CLI | 5 | 5 | 5 | 5 |
@@ -498,4 +501,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trzsz/trzsz-go](https://github.com/trzsz/trzsz-go) | 1030 | 2026-04-10T16:50:38Z | Go | CLI | 6 | 4 | 6 | 6 |
 | [kubernetes-sigs/node-feature-discovery](https://github.com/kubernetes-sigs/node-feature-discovery) | 1027 | 2026-04-28T05:40:41Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 9 |
 | [madneal/gshark](https://github.com/madneal/gshark) | 1024 | 2026-04-16T12:59:20Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [cloudflare/pint](https://github.com/cloudflare/pint) | 1016 | 2026-04-29T08:10:11Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [bnb-chain/tss-lib](https://github.com/bnb-chain/tss-lib) | 1009 | 2026-04-09T13:36:58Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |

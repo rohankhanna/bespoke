@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 113
-- terms: 973
-- components: 1313
-- concepts: 977
-- observations: 983
+- repos: 116
+- terms: 1016
+- components: 1336
+- concepts: 1020
+- observations: 1027
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [coil-kt/coil](https://github.com/coil-kt/coil) | 11776 | 2026-04-29T07:39:02Z | Other | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [Blinue/Magpie](https://github.com/Blinue/Magpie) | 13695 | 2026-04-29T07:21:00Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
+| [xmake-io/xmake](https://github.com/xmake-io/xmake) | 11964 | 2026-04-29T06:06:01Z | Other | Infrastructure/tooling | 20 | 12 | 20 | 21 |
 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | 53228 | 2026-04-28T23:07:04Z | Other | Infrastructure/tooling | 15 | 10 | 16 | 16 |
 | [MagicStack/uvloop](https://github.com/MagicStack/uvloop) | 11775 | 2026-04-28T20:38:57Z | Other | Infrastructure/tooling | 9 | 9 | 11 | 11 |
 | [golang-standards/project-layout](https://github.com/golang-standards/project-layout) | 55874 | 2026-04-28T17:18:05Z | Other | Unknown | 4 | 0 | 4 | 4 |
@@ -224,6 +227,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [winsw/winsw](https://github.com/winsw/winsw) | 13896 | 2026-04-23T01:23:53Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 13810 | 2026-04-03T13:11:41Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 8 |
+| [Blinue/Magpie](https://github.com/Blinue/Magpie) | 13695 | 2026-04-29T07:21:00Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) | 13541 | 2026-04-16T01:50:48Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13101 | 2026-04-23T17:07:10Z | Other | Infrastructure/tooling | 11 | 31 | 11 | 11 |
 | [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile) | 13072 | 2026-04-16T11:33:57Z | Other | Infrastructure/tooling | 19 | 5 | 20 | 20 |
@@ -233,7 +237,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/csharplang](https://github.com/dotnet/csharplang) | 12577 | 2026-04-23T06:43:24Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) | 12298 | 2026-04-26T01:03:17Z | Other | Docs/knowledge | 9 | 0 | 9 | 9 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12243 | 2026-04-14T04:41:07Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [xmake-io/xmake](https://github.com/xmake-io/xmake) | 11964 | 2026-04-29T06:06:01Z | Other | Infrastructure/tooling | 20 | 12 | 20 | 21 |
 | [SaschaWillems/Vulkan](https://github.com/SaschaWillems/Vulkan) | 11903 | 2026-04-19T18:30:11Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [coil-kt/coil](https://github.com/coil-kt/coil) | 11776 | 2026-04-29T07:39:02Z | Other | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [MagicStack/uvloop](https://github.com/MagicStack/uvloop) | 11775 | 2026-04-28T20:38:57Z | Other | Infrastructure/tooling | 9 | 9 | 11 | 11 |
 | [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) | 11649 | 2026-04-14T04:54:43Z | Other | Infrastructure/tooling | 18 | 11 | 18 | 18 |
 | [NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) | 11612 | 2026-04-20T12:36:38Z | Other | Library | 6 | 0 | 6 | 6 |

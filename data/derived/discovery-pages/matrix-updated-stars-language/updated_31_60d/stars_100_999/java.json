@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 456,
-    "observations": 456,
-    "repos": 62,
-    "terms": 454
+    "components": 391,
+    "concepts": 480,
+    "observations": 480,
+    "repos": 63,
+    "terms": 478
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -30,6 +30,7 @@
     "chromiumembedded/java-cef",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
+    "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-buildship/buildship",
     "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",

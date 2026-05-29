@@ -3,7 +3,7 @@
     "components": 50,
     "concepts": 31,
     "observations": 31,
-    "repos": 17,
+    "repos": 18,
     "terms": 31
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
@@ -30,6 +30,7 @@
     "danielrosehill/Networking-Projects-Index",
     "DataDog/opa",
     "DiligentGraphics/json",
-    "hermit-os/tokio"
+    "hermit-os/tokio",
+    "PetervanLunteren/EcoAssist-metadata"
   ]
 }

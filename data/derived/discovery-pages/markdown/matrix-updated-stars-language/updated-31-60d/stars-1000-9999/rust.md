@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 194
-- terms: 1350
-- components: 1860
-- concepts: 1340
-- observations: 1349
+- repos: 196
+- terms: 1359
+- components: 1879
+- concepts: 1349
+- observations: 1358
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust-lang/libc](https://github.com/rust-lang/libc) | 2529 | 2026-04-29T08:14:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [time-rs/time](https://github.com/time-rs/time) | 1303 | 2026-04-29T08:13:53Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [hoodie/notify-rust](https://github.com/hoodie/notify-rust) | 1388 | 2026-04-28T20:10:56Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [pykeio/ort](https://github.com/pykeio/ort) | 2216 | 2026-04-28T19:46:26Z | Rust | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [wasm-bindgen/wasm-pack](https://github.com/wasm-bindgen/wasm-pack) | 7156 | 2026-04-28T17:43:28Z | Rust | CLI | 9 | 14 | 9 | 9 |
@@ -330,6 +332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [servo/html5ever](https://github.com/servo/html5ever) | 2567 | 2026-04-20T07:19:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark) | 2550 | 2026-04-23T06:43:06Z | Rust | Infrastructure/tooling | 4 | 3 | 5 | 6 |
 | [open-telemetry/opentelemetry-rust](https://github.com/open-telemetry/opentelemetry-rust) | 2549 | 2026-04-18T08:32:08Z | Rust | Infrastructure/tooling | 13 | 17 | 13 | 13 |
+| [rust-lang/libc](https://github.com/rust-lang/libc) | 2529 | 2026-04-29T08:14:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [rust-lang/log](https://github.com/rust-lang/log) | 2507 | 2026-04-14T06:36:04Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [rust-cross/cargo-zigbuild](https://github.com/rust-cross/cargo-zigbuild) | 2450 | 2026-04-26T02:45:49Z | Rust | Infrastructure/tooling | 5 | 24 | 5 | 5 |
 | [snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) | 2440 | 2026-03-31T14:33:49Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -395,6 +398,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0x676e67/wreq-python](https://github.com/0x676e67/wreq-python) | 1330 | 2026-04-28T16:44:42Z | Rust | CLI | 15 | 9 | 15 | 15 |
 | [prisma/prisma-engines](https://github.com/prisma/prisma-engines) | 1330 | 2026-04-28T14:24:52Z | Rust | CLI | 12 | 11 | 12 | 12 |
 | [hyperium/http](https://github.com/hyperium/http) | 1325 | 2026-04-03T20:06:34Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [time-rs/time](https://github.com/time-rs/time) | 1303 | 2026-04-29T08:13:53Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [abraxas-365/langchain-rust](https://github.com/Abraxas-365/langchain-rust) | 1293 | 2026-04-19T08:55:17Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [gfx-rs/wgpu-native](https://github.com/gfx-rs/wgpu-native) | 1279 | 2026-04-22T15:17:55Z | Rust | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [alloy-rs/alloy](https://github.com/alloy-rs/alloy) | 1271 | 2026-04-18T18:43:09Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |

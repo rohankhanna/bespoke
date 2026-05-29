@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 334
-- components: 1986
-- concepts: 336
-- observations: 337
+- repos: 41
+- terms: 321
+- components: 1874
+- concepts: 321
+- observations: 322
 
 ## Static behavior
 
@@ -67,8 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unifiedjs/unified](https://github.com/unifiedjs/unified) | 4976 | 2026-04-29T11:25:24Z | JavaScript | Infrastructure/tooling | 6 | 23 | 6 | 6 |
 | [webpack/webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) | 2516 | 2026-04-29T10:53:09Z | JavaScript | Infrastructure/tooling | 6 | 49 | 6 | 7 |
 | [umijs/dumi](https://github.com/umijs/dumi) | 3794 | 2026-04-29T09:43:29Z | JavaScript | Infrastructure/tooling | 8 | 113 | 8 | 8 |
-| [mozilla/web-ext](https://github.com/mozilla/web-ext) | 3063 | 2026-04-29T07:22:24Z | JavaScript | CLI | 4 | 59 | 4 | 4 |
-| [leezng/vue-json-pretty](https://github.com/leezng/vue-json-pretty) | 1453 | 2026-04-29T07:02:56Z | JavaScript | Infrastructure/tooling | 9 | 53 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -99,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [KhronosGroup/Vulkan-Docs](https://github.com/KhronosGroup/Vulkan-Docs) | 3254 | 2026-04-29T15:58:46Z | JavaScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [parallel-js/parallel.js](https://github.com/parallel-js/parallel.js) | 3247 | 2026-04-29T15:48:20Z | JavaScript | Unknown | 5 | 7 | 5 | 5 |
 | [pillarjs/iconv-lite](https://github.com/pillarjs/iconv-lite) | 3169 | 2026-05-01T17:02:24Z | JavaScript | Infrastructure/tooling | 5 | 27 | 5 | 5 |
-| [mozilla/web-ext](https://github.com/mozilla/web-ext) | 3063 | 2026-04-29T07:22:24Z | JavaScript | CLI | 4 | 59 | 4 | 4 |
 | [GladysAssistant/Gladys](https://github.com/GladysAssistant/Gladys) | 3055 | 2026-05-11T15:37:58Z | JavaScript | Infrastructure/tooling | 16 | 18 | 16 | 16 |
 | [GoogleCloudPlatform/nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) | 2963 | 2026-04-29T22:07:12Z | JavaScript | Infrastructure/tooling | 12 | 27 | 12 | 12 |
 | [webpack/webpack-cli](https://github.com/webpack/webpack-cli) | 2605 | 2026-05-01T18:03:24Z | JavaScript | CLI | 6 | 45 | 6 | 6 |
@@ -111,7 +108,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ranisalt/node-argon2](https://github.com/ranisalt/node-argon2) | 2139 | 2026-04-30T17:20:06Z | JavaScript | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [ghostery/ghostery-extension](https://github.com/ghostery/ghostery-extension) | 1681 | 2026-05-04T09:55:46Z | JavaScript | Infrastructure/tooling | 13 | 41 | 13 | 13 |
 | [jquery/jquery-color](https://github.com/jquery/jquery-color) | 1644 | 2026-05-01T21:36:13Z | JavaScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
-| [leezng/vue-json-pretty](https://github.com/leezng/vue-json-pretty) | 1453 | 2026-04-29T07:02:56Z | JavaScript | Infrastructure/tooling | 9 | 53 | 11 | 11 |
 | [GoogleChromeLabs/clooney](https://github.com/GoogleChromeLabs/clooney) | 1421 | 2026-04-29T18:07:51Z | JavaScript | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [stylelint/stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) | 1418 | 2026-05-05T08:03:07Z | JavaScript | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [alphagov/govuk-frontend](https://github.com/alphagov/govuk-frontend) | 1393 | 2026-05-02T09:33:36Z | JavaScript | Infrastructure/tooling | 11 | 66 | 11 | 11 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 633,
-    "concepts": 569,
-    "observations": 571,
-    "repos": 40,
-    "terms": 569
+    "components": 611,
+    "concepts": 547,
+    "observations": 549,
+    "repos": 38,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "anchore/grype",
     "argoproj/argo-workflows",
@@ -30,9 +30,7 @@
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
     "go-gitea/gitea",
-    "go-playground/validator",
     "go-sql-driver/mysql",
-    "goharbor/harbor",
     "google/gvisor",
     "gotify/server",
     "gravitational/teleport",

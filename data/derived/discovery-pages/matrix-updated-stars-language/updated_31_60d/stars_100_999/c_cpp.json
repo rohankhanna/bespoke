@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 972,
-    "concepts": 1028,
-    "observations": 1031,
-    "repos": 203,
-    "terms": 1020
+    "components": 1012,
+    "concepts": 1070,
+    "observations": 1073,
+    "repos": 207,
+    "terms": 1061
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -26,6 +26,7 @@
     "ampl/mp",
     "amzn/amzn-drivers",
     "ankane/faiss-ruby",
+    "antgroup/vsag",
     "apache/datasketches-cpp",
     "apache/pulsar-client-node",
     "appium/appium-mac2-driver",
@@ -33,6 +34,7 @@
     "artemsen/swayimg",
     "aseprite/laf",
     "ashvardanian/ForkUnion",
+    "autowarefoundation/autoware_core",
     "aws/aws-ofi-nccl",
     "BabylonJS/BabylonNative",
     "bfgroup/Lyra",
@@ -105,6 +107,7 @@
     "iamaisim/ProjectAirSim",
     "ifduyue/python-xxhash",
     "intel/intel-ipsec-mb",
+    "intel/llm-scaler",
     "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
@@ -199,6 +202,7 @@
     "secretflow/heu",
     "SHI-Labs/NATTEN",
     "Solo5/solo5",
+    "sophgo/LLM-TPU",
     "sp-nitech/SPTK",
     "tile-ai/tilelang-ascend",
     "tpoechtrager/apple-libtapi",

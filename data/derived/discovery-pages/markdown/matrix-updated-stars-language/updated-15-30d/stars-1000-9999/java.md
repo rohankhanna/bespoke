@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 459
-- components: 357
-- concepts: 461
-- observations: 461
+- repos: 40
+- terms: 447
+- components: 349
+- concepts: 449
+- observations: 449
 
 ## Static behavior
 
@@ -66,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 8619 | 2026-04-29T12:44:33Z | Java | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) | 4438 | 2026-04-29T11:23:16Z | Java | CLI | 23 | 10 | 23 | 23 |
 | [google/conscrypt](https://github.com/google/conscrypt) | 1385 | 2026-04-29T09:14:13Z | Java | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [reactor/reactor-core](https://github.com/reactor/reactor-core) | 5221 | 2026-04-29T07:18:32Z | Java | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -84,7 +83,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast) | 6575 | 2026-04-30T06:21:01Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6402 | 2026-04-30T06:26:22Z | Java | Infrastructure/tooling | 14 | 25 | 14 | 14 |
 | [apache/hudi](https://github.com/apache/hudi) | 6150 | 2026-04-30T02:41:55Z | Java | Infrastructure/tooling | 14 | 9 | 14 | 14 |
-| [reactor/reactor-core](https://github.com/reactor/reactor-core) | 5221 | 2026-04-29T07:18:32Z | Java | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [apache/ignite](https://github.com/apache/ignite) | 5065 | 2026-04-30T11:52:41Z | Java | CLI | 19 | 13 | 19 | 19 |
 | [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) | 4438 | 2026-04-29T11:23:16Z | Java | CLI | 23 | 10 | 23 | 23 |
 | [apache/parquet-java](https://github.com/apache/parquet-java) | 3054 | 2026-04-29T13:49:25Z | Java | Infrastructure/tooling | 6 | 3 | 6 | 6 |

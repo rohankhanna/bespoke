@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 18,
-    "observations": 19,
-    "repos": 12,
-    "terms": 18
+    "components": 17,
+    "concepts": 17,
+    "observations": 18,
+    "repos": 11,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "cloudfoundry/wg-app-platform-runtime-ci",
@@ -23,7 +23,6 @@
     "edward3h/docker-bds-integration-test",
     "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",
-    "lint-staged/lint-staged.sh",
     "pacstall/pacup",
     "reviewdog/action-alex"
   ]

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 12139,
-    "concepts": 8298,
-    "observations": 8328,
-    "repos": 2209,
-    "terms": 8284
+    "components": 12152,
+    "concepts": 8309,
+    "observations": 8339,
+    "repos": 2213,
+    "terms": 8295
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -1042,6 +1042,7 @@
     "holochain/launcher",
     "HolyBlackCat/box2cpp",
     "HolyWu/vs-rife",
+    "hongyuanyu/SPAN",
     "honwen/openwrt-shadowsocks-rust",
     "horovod/horovod",
     "hoshsadiq/adblock-nocoin-list",
@@ -1466,6 +1467,7 @@
     "monaqa/dial.nvim",
     "mono/CppSharp",
     "MontaEllis/Pytorch-Medical-Segmentation",
+    "MoonshotAI/checkpoint-engine",
     "MoonshotAI/Kimi-K2",
     "Morganamilo/paru",
     "mosaicml/streaming",
@@ -1798,6 +1800,7 @@
     "rs/cors",
     "RT-DETRs/RT-DETRv4",
     "RTBHOUSE/tmux-picker",
+    "rubocop/rubocop-performance",
     "rubocop/ruby-style-guide",
     "ruby-formatter/rufo",
     "ruby-i18n/i18n",
@@ -2046,6 +2049,7 @@
     "tsonglew/dutis",
     "TTPlanetPig/Comfyui_TTP_Toolset",
     "tuananh/hyper-mcp",
+    "tulerfeng/OneThinker",
     "tulerfeng/Video-R1",
     "TungChintao/SkiLa",
     "tvogels/pyexr",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1416,
-    "concepts": 983,
-    "observations": 983,
-    "repos": 161,
-    "terms": 979
+    "components": 1376,
+    "concepts": 967,
+    "observations": 967,
+    "repos": 158,
+    "terms": 963
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -108,7 +108,6 @@
     "kool-engine/kool",
     "Kotlin/kotlinx-benchmark",
     "kreeti/kt-paperclip",
-    "kserve/website",
     "kubeflow/community",
     "kubernetes/k8s.io",
     "KulikDM/pythresh",
@@ -158,9 +157,7 @@
     "ropensci/software-review",
     "rr/rr",
     "rust-lang/blog.rust-lang.org",
-    "saem/vscode-nim",
     "sass/sass-spec",
-    "scalameta/nvim-metals",
     "ScoopInstaller/Java",
     "ScoopInstaller/Nonportable",
     "ScoopInstaller/Versions",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3041,
-    "concepts": 742,
-    "observations": 752,
-    "repos": 153,
-    "terms": 771
+    "components": 3138,
+    "concepts": 751,
+    "observations": 761,
+    "repos": 156,
+    "terms": 780
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -21,6 +21,7 @@
     "actions/hello-world-javascript-action",
     "adamlui/ai-web-extensions",
     "AdguardTeam/HostlistCompiler",
+    "AdguardTeam/Scriptlets",
     "adobe/spectrum-design-data",
     "agent-sh/agentsys",
     "anonrig/fast-querystring",
@@ -30,6 +31,7 @@
     "aredridel/node-bin-gen",
     "Atheos/Atheos",
     "auth0/node-jws",
+    "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "badgen/badgen",
     "bcomnes/npm-run-all2",
@@ -84,6 +86,7 @@
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-qunit",
     "higlass/higlass",
+    "hudochenkov/postcss-sorting",
     "hyparam/hyparquet",
     "hyparam/icebird",
     "i18next/i18next-browser-languageDetector",

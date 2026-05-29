@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 267,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 45,
-    "terms": 162
+    "components": 260,
+    "concepts": 159,
+    "observations": 159,
+    "repos": 44,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "All-Hands-AI/OpenHands-Cloud",
@@ -53,7 +53,6 @@
     "redis/docs",
     "regro/cf-scripts",
     "scipy/scipy.org",
-    "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
     "Thinklab-SJTU/Bench2Drive-Speed",

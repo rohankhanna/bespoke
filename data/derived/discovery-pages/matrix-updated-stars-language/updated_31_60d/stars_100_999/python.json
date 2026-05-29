@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2093,
-    "concepts": 2101,
-    "observations": 2111,
-    "repos": 406,
-    "terms": 2106
+    "concepts": 2094,
+    "observations": 2104,
+    "repos": 405,
+    "terms": 2099
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -167,7 +167,6 @@
     "fzyzcjy/torch_memory_saver",
     "G-Research/ahocorasick_rs",
     "galaxyproject/planemo",
-    "gmberton/MegaLoc",
     "gmberton/VPR-methods-evaluation",
     "GNOME/adwaita-icon-theme",
     "godotengine/godot-builds",

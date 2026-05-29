@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 67
-- terms: 734
-- components: 674
-- concepts: 736
-- observations: 738
+- repos: 65
+- terms: 714
+- components: 653
+- concepts: 716
+- observations: 718
 
 ## Static behavior
 
@@ -91,8 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [maragudk/gomponents](https://github.com/maragudk/gomponents) | 1821 | 2026-04-29T12:40:42Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [apache/incubator-devlake](https://github.com/apache/incubator-devlake) | 2996 | 2026-04-29T12:35:02Z | Go | Infrastructure/tooling | 23 | 14 | 23 | 23 |
 | [azimjohn/jprq](https://github.com/azimjohn/jprq) | 1500 | 2026-04-29T11:16:05Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [cloudflare/pint](https://github.com/cloudflare/pint) | 1016 | 2026-04-29T08:10:11Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [cloudwego/hertz](https://github.com/cloudwego/hertz) | 7193 | 2026-04-29T06:28:52Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -108,7 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fluxcd/flux2](https://github.com/fluxcd/flux2) | 8089 | 2026-05-01T01:05:02Z | Go | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | 7695 | 2026-05-01T07:28:17Z | Go | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [go-git/go-git](https://github.com/go-git/go-git) | 7430 | 2026-05-02T13:37:43Z | Go | CLI | 12 | 12 | 12 | 12 |
-| [cloudwego/hertz](https://github.com/cloudwego/hertz) | 7193 | 2026-04-29T06:28:52Z | Go | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [cosmos/cosmos-sdk](https://github.com/cosmos/cosmos-sdk) | 6990 | 2026-05-04T01:23:56Z | Go | Infrastructure/tooling | 13 | 17 | 13 | 13 |
 | [elazarl/goproxy](https://github.com/elazarl/goproxy) | 6671 | 2026-04-30T16:50:49Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [opencost/opencost](https://github.com/opencost/opencost) | 6517 | 2026-04-29T19:35:16Z | Go | Infrastructure/tooling | 16 | 15 | 16 | 16 |
@@ -162,6 +159,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [btcsuite/btcwallet](https://github.com/btcsuite/btcwallet) | 1254 | 2026-04-29T12:53:59Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [auth0/go-jwt-middleware](https://github.com/auth0/go-jwt-middleware) | 1201 | 2026-04-29T15:36:48Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 7 |
 | [gookit/validate](https://github.com/gookit/validate) | 1128 | 2026-05-05T02:27:40Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
-| [cloudflare/pint](https://github.com/cloudflare/pint) | 1016 | 2026-04-29T08:10:11Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [anthropics/anthropic-sdk-go](https://github.com/anthropics/anthropic-sdk-go) | 1011 | 2026-04-29T18:22:01Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [go-flutter-desktop/hover](https://github.com/go-flutter-desktop/hover) | 1001 | 2026-04-29T19:30:57Z | Go | CLI | 3 | 0 | 3 | 3 |

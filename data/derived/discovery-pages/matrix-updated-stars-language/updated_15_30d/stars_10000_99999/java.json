@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 205,
-    "observations": 207,
-    "repos": 17,
-    "terms": 204
+    "components": 167,
+    "concepts": 194,
+    "observations": 196,
+    "repos": 16,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
-    "apache/dubbo",
     "apache/kafka",
     "apache/pulsar",
     "awsdocs/aws-doc-sdk-examples",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-29T05:58:20.584482+00:00`
+Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 90
-- terms: 586
-- components: 566
-- concepts: 588
-- observations: 589
+- repos: 86
+- terms: 545
+- components: 526
+- concepts: 546
+- observations: 547
 
 ## Static behavior
 
@@ -112,10 +112,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rspatial/terra](https://github.com/rspatial/terra) | 609 | 2026-04-29T10:28:12Z | C/C++ | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [sophgo/tpu-mlir](https://github.com/sophgo/tpu-mlir) | 911 | 2026-04-29T10:15:34Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [logicalclocks/rondb](https://github.com/logicalclocks/rondb) | 708 | 2026-04-29T09:10:55Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [autowarefoundation/autoware_core](https://github.com/autowarefoundation/autoware_core) | 164 | 2026-04-29T08:48:51Z | C/C++ | Infrastructure/tooling | 16 | 21 | 17 | 17 |
-| [antgroup/vsag](https://github.com/antgroup/vsag) | 468 | 2026-04-29T08:45:26Z | C/C++ | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [sophgo/LLM-TPU](https://github.com/sophgo/LLM-TPU) | 282 | 2026-04-29T08:29:44Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
-| [intel/llm-scaler](https://github.com/intel/llm-scaler) | 291 | 2026-04-29T07:21:51Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -163,7 +159,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HybridRobotics/motion_tracking_controller](https://github.com/HybridRobotics/motion_tracking_controller) | 489 | 2026-05-01T06:18:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [celtera/avendish](https://github.com/celtera/avendish) | 477 | 2026-05-11T03:31:50Z | C/C++ | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [alsa-project/alsa-lib](https://github.com/alsa-project/alsa-lib) | 469 | 2026-05-04T11:00:26Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [antgroup/vsag](https://github.com/antgroup/vsag) | 468 | 2026-04-29T08:45:26Z | C/C++ | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [open-telemetry/opentelemetry-ebpf-instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) | 453 | 2026-05-05T13:16:14Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [open-telemetry/opentelemetry-dotnet-instrumentation](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation) | 453 | 2026-05-04T20:58:32Z | C/C++ | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [aburch/simutrans](https://github.com/aburch/simutrans) | 450 | 2026-05-08T10:36:30Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
@@ -182,8 +177,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BirolLab/abyss](https://github.com/BirolLab/abyss) | 328 | 2026-04-30T18:25:11Z | C/C++ | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [secretflow/spu](https://github.com/secretflow/spu) | 323 | 2026-04-30T04:15:28Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [ROCm/AMDMIGraphX](https://github.com/ROCm/AMDMIGraphX) | 294 | 2026-04-29T20:37:12Z | C/C++ | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [intel/llm-scaler](https://github.com/intel/llm-scaler) | 291 | 2026-04-29T07:21:51Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [sophgo/LLM-TPU](https://github.com/sophgo/LLM-TPU) | 282 | 2026-04-29T08:29:44Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [KDE/breeze-icons](https://github.com/KDE/breeze-icons) | 279 | 2026-05-01T20:19:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ucscGenomeBrowser/kent](https://github.com/ucscGenomeBrowser/kent) | 263 | 2026-05-03T20:45:04Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [flagos-ai/FlagTree](https://github.com/flagos-ai/FlagTree) | 256 | 2026-04-30T09:15:08Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
@@ -203,7 +196,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [triton-inference-server/onnxruntime_backend](https://github.com/triton-inference-server/onnxruntime_backend) | 174 | 2026-05-02T00:00:18Z | C/C++ | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [triton-inference-server/core](https://github.com/triton-inference-server/core) | 170 | 2026-05-04T09:14:55Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Mercury13/unicodia](https://github.com/Mercury13/unicodia) | 169 | 2026-05-02T14:37:43Z | C/C++ | Unknown | 8 | 0 | 8 | 8 |
-| [autowarefoundation/autoware_core](https://github.com/autowarefoundation/autoware_core) | 164 | 2026-04-29T08:48:51Z | C/C++ | Infrastructure/tooling | 16 | 21 | 17 | 17 |
 | [asl/BandageNG](https://github.com/asl/BandageNG) | 162 | 2026-05-01T12:28:01Z | C/C++ | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [ros/urdfdom](https://github.com/ros/urdfdom) | 126 | 2026-04-30T19:09:08Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [nelson-lang/nelson](https://github.com/nelson-lang/nelson) | 124 | 2026-05-01T16:57:48Z | C/C++ | Infrastructure/tooling | 16 | 11 | 16 | 16 |

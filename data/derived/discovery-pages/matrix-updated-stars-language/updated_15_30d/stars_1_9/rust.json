@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 19,
-    "terms": 94
+    "components": 113,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 18,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
-    "black-desk/djotfmt",
     "criccomini/uniffi-bindgen-node-js",
     "databendlabs/databend-meta",
     "dcampbell24/djot-implementations",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1634,
-    "concepts": 1445,
-    "observations": 1458,
-    "repos": 168,
-    "terms": 1442
+    "components": 1621,
+    "concepts": 1408,
+    "observations": 1421,
+    "repos": 166,
+    "terms": 1405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T05:58:20.584482+00:00",
+  "generated_at": "2026-05-29T08:49:15.383611+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "abapGit/abapGit",
@@ -90,7 +90,6 @@
     "intel/BigDL",
     "intel/llvm",
     "JetBrains/intellij-platform-gradle-plugin",
-    "JetBrains/intellij-platform-plugin-template",
     "JetBrains/intellij-sdk-docs",
     "JetBrains/resharper-unity",
     "jrsoftware/issrc",
@@ -101,7 +100,6 @@
     "jump-dev/JuMP.jl",
     "just-the-docs/just-the-docs",
     "justinmk/vim-dirvish",
-    "karafka/karafka",
     "KhronosGroup/SPIRV-Cross",
     "klauspost/reedsolomon",
     "Kotlin/kotlinx.serialization",
