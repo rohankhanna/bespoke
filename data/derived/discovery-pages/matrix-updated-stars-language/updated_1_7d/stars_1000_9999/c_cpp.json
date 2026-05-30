@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 10,
-    "terms": 89
+    "components": 82,
+    "concepts": 42,
+    "observations": 43,
+    "repos": 4,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
-    "CloudCompare/CloudCompare",
-    "harfbuzz/harfbuzz",
     "KhronosGroup/KTX-Software",
-    "libbitcoin/libbitcoin-system",
-    "luau-lang/luau",
-    "microsoft/Detours",
-    "swiftlang/swift-llbuild",
-    "TrenchBroom/TrenchBroom",
+    "riscv-collab/riscv-gnu-toolchain",
     "ultrajson/ultrajson"
   ]
 }

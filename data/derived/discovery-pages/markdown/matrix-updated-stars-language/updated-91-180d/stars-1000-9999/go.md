@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
+- repos: 36
 - terms: 184
-- components: 182
+- components: 184
 - concepts: 179
 - observations: 179
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tidwall/btree](https://github.com/tidwall/btree) | 1213 | 2026-02-28T09:44:19Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [opencontainers/image-spec](https://github.com/opencontainers/image-spec) | 4237 | 2026-02-26T10:21:22Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [abh/geodns](https://github.com/abh/geodns) | 1451 | 2026-02-23T22:34:37Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [flashbots/mev-boost](https://github.com/flashbots/mev-boost) | 1423 | 2026-02-23T16:48:55Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
@@ -99,5 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/rocketmq-client-go](https://github.com/apache/rocketmq-client-go) | 1409 | 2026-01-12T02:50:18Z | Go | CLI | 3 | 5 | 3 | 3 |
 | [restic/rest-server](https://github.com/restic/rest-server) | 1406 | 2026-02-03T01:25:20Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [liquidmetal-dev/flintlock](https://github.com/liquidmetal-dev/flintlock) | 1389 | 2026-02-07T09:36:23Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |
+| [tidwall/btree](https://github.com/tidwall/btree) | 1213 | 2026-02-28T09:44:19Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ameshkov/dnslookup](https://github.com/ameshkov/dnslookup) | 1118 | 2025-12-18T09:35:03Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [argoproj-labs/argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot) | 1114 | 2025-12-16T22:36:28Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33428,
-    "concepts": 15219,
-    "observations": 15275,
+    "components": 33434,
+    "concepts": 15224,
+    "observations": 15280,
     "repos": 1717,
-    "terms": 15177
+    "terms": 15185
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",

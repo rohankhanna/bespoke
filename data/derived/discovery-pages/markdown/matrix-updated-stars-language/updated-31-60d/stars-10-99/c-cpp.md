@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 76
-- terms: 348
-- components: 403
-- concepts: 348
-- observations: 348
+- repos: 81
+- terms: 374
+- components: 427
+- concepts: 375
+- observations: 375
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ROCm/rpp](https://github.com/ROCm/rpp) | 72 | 2026-04-29T16:52:27Z | C/C++ | Library | 12 | 0 | 12 | 12 |
+| [LedgerHQ/ledger-secure-sdk](https://github.com/LedgerHQ/ledger-secure-sdk) | 36 | 2026-04-29T16:18:38Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [xjb714/xjb](https://github.com/xjb714/xjb) | 28 | 2026-04-29T14:37:00Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [Antares0982/ssrJSON](https://github.com/Antares0982/ssrJSON) | 37 | 2026-04-29T14:07:59Z | C/C++ | Infrastructure/tooling | 8 | 9 | 9 | 9 |
+| [0xPolygonHermez/pil2-proofman](https://github.com/0xPolygonHermez/pil2-proofman) | 26 | 2026-04-29T12:18:31Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [llnl/camp](https://github.com/llnl/camp) | 98 | 2026-04-28T22:17:30Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [gazebosim/gz-gui](https://github.com/gazebosim/gz-gui) | 99 | 2026-04-28T17:30:35Z | C/C++ | Infrastructure/tooling | 15 | 5 | 15 | 15 |
 | [LedgerHQ/app-boilerplate](https://github.com/LedgerHQ/app-boilerplate) | 68 | 2026-04-28T12:21:18Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |
@@ -134,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [uael/sv](https://github.com/uael/sv) | 76 | 2026-04-06T07:29:47Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [heal-research/pyoperon](https://github.com/heal-research/pyoperon) | 75 | 2026-03-31T17:38:27Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [r-lyeh/Spectral](https://github.com/r-lyeh/Spectral) | 73 | 2026-04-06T15:13:52Z | C/C++ | Infrastructure/tooling | 9 | 8 | 9 | 9 |
+| [ROCm/rpp](https://github.com/ROCm/rpp) | 72 | 2026-04-29T16:52:27Z | C/C++ | Library | 12 | 0 | 12 | 12 |
 | [ROCm/ROCgdb](https://github.com/ROCm/ROCgdb) | 69 | 2026-04-24T12:30:39Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [apache/pulsar-client-cpp](https://github.com/apache/pulsar-client-cpp) | 69 | 2026-04-22T03:19:15Z | C/C++ | CLI | 9 | 11 | 9 | 9 |
 | [lxqt/liblxqt](https://github.com/lxqt/liblxqt) | 69 | 2026-04-20T07:16:03Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -159,10 +165,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [acts-project/traccc](https://github.com/acts-project/traccc) | 42 | 2026-04-24T11:20:27Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [fcambus/bdf2sfd](https://github.com/fcambus/bdf2sfd) | 41 | 2026-04-10T13:35:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [aifoundry-org/et-platform](https://github.com/aifoundry-org/et-platform) | 39 | 2026-04-09T14:37:22Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [Antares0982/ssrJSON](https://github.com/Antares0982/ssrJSON) | 37 | 2026-04-29T14:07:59Z | C/C++ | Infrastructure/tooling | 8 | 9 | 9 | 9 |
 | [triton-inference-server/openvino_backend](https://github.com/triton-inference-server/openvino_backend) | 37 | 2026-04-15T18:04:44Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [LedgerHQ/ledger-secure-sdk](https://github.com/LedgerHQ/ledger-secure-sdk) | 36 | 2026-04-29T16:18:38Z | C/C++ | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [nvictus/pybbi](https://github.com/nvictus/pybbi) | 36 | 2026-04-06T01:15:35Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [liangshengyong/lanwan](https://github.com/liangshengyong/LanWan) | 29 | 2026-04-19T13:40:33Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
+| [xjb714/xjb](https://github.com/xjb714/xjb) | 28 | 2026-04-29T14:37:00Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [nx10/unigd](https://github.com/nx10/unigd) | 28 | 2026-04-20T16:43:10Z | C/C++ | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [0xPolygonHermez/pil2-proofman](https://github.com/0xPolygonHermez/pil2-proofman) | 26 | 2026-04-29T12:18:31Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [bufbuild/protovalidate-cc](https://github.com/bufbuild/protovalidate-cc) | 25 | 2026-04-22T11:47:59Z | C/C++ | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [f32c/tools](https://github.com/f32c/tools) | 25 | 2026-04-20T11:19:32Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [ROCm/rocAL](https://github.com/ROCm/rocAL) | 23 | 2026-04-23T20:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

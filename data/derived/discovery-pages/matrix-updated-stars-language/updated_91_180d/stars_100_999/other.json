@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 843,
-    "concepts": 811,
-    "observations": 812,
-    "repos": 207,
-    "terms": 806
+    "components": 845,
+    "concepts": 804,
+    "observations": 805,
+    "repos": 209,
+    "terms": 799
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -21,6 +21,7 @@
     "AccountGo/accountgo",
     "aesalazar/AsteroidsWasm",
     "ahausladen/PdfiumLib",
+    "ahyatt/emacs-websocket",
     "allenai/ScienceWorld",
     "analogdevicesinc/ai8x-training",
     "AndrewRadev/switch.vim",
@@ -50,7 +51,6 @@
     "BlinkDL/RWKV-CUDA",
     "BrunoBonacci/mulog",
     "chakravala/Grassmann.jl",
-    "chakravala/Reduce.jl",
     "cleanlab/examples",
     "clj-commons/etaoin",
     "clj-easy/graalvm-clojure",
@@ -123,6 +123,8 @@
     "jayli/vim-easycomplete",
     "JetBrains/intellij-ui-test-robot",
     "jgpc42/jmh-clojure",
+    "joshuaulrich/TTR",
+    "joshuaulrich/xts",
     "jtdaugherty/vty",
     "juji-io/editscript",
     "JuliaDebug/SnoopCompile.jl",

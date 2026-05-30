@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-27T08:59:49.396739+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 5
-- terms: 25
-- components: 163
-- concepts: 25
-- observations: 25
+- terms: 38
+- components: 186
+- concepts: 38
+- observations: 38
 
 ## Static behavior
 
@@ -26,18 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 975 | 2026-05-26T16:08:26Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 547 | 2026-05-26T14:11:44Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 135 | 2026-05-26T11:29:51Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 240 | 2026-05-26T10:33:40Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
-| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 736 | 2026-05-26T09:59:43Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 242 | 2026-05-29T21:54:13Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
+| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 975 | 2026-05-29T20:29:44Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
+| [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 344 | 2026-05-29T14:37:35Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
+| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 819 | 2026-05-29T12:09:10Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
+| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 965 | 2026-05-29T07:57:27Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 975 | 2026-05-26T16:08:26Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 736 | 2026-05-26T09:59:43Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 547 | 2026-05-26T14:11:44Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 240 | 2026-05-26T10:33:40Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
-| [safe-fndn/safe-singleton-factory](https://github.com/safe-fndn/safe-singleton-factory) | 135 | 2026-05-26T11:29:51Z | TypeScript | Infrastructure/tooling | 0 | 22 | 0 | 0 |
+| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 975 | 2026-05-29T20:29:44Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
+| [hexabot-ai/Hexabot](https://github.com/hexabot-ai/Hexabot) | 965 | 2026-05-29T07:57:27Z | TypeScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
+| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 819 | 2026-05-29T12:09:10Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
+| [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 344 | 2026-05-29T14:37:35Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
+| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 242 | 2026-05-29T21:54:13Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |

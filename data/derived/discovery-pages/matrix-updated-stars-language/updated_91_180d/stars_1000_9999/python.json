@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 808,
-    "observations": 809,
-    "repos": 166,
-    "terms": 797
+    "components": 407,
+    "concepts": 800,
+    "observations": 801,
+    "repos": 167,
+    "terms": 789
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -45,6 +45,7 @@
     "canopyai/Orpheus-TTS",
     "CatchTheTornado/text-extract-api",
     "chatopera/Synonyms",
+    "ChenmienTan/RL2",
     "chflame163/ComfyUI_LayerStyle",
     "city96/ComfyUI-GGUF",
     "cleanlab/cleanvision",
@@ -71,6 +72,7 @@
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
     "fixie-ai/ultravox",
+    "FlagOpen/RoboBrain2.5",
     "google-deepmind/alphageometry",
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
@@ -141,7 +143,6 @@
     "protectai/llm-guard",
     "prs-eth/Marigold",
     "PyCQA/pycodestyle",
-    "pykaldi/pykaldi",
     "python-lsp/python-lsp-server",
     "Python-Markdown/markdown",
     "python-rope/rope",

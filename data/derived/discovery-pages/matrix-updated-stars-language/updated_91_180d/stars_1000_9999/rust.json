@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 217,
-    "observations": 220,
-    "repos": 38,
-    "terms": 216
+    "components": 226,
+    "concepts": 230,
+    "observations": 233,
+    "repos": 40,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "a16z/helios",
@@ -20,6 +20,7 @@
     "anthropics/claudes-c-compiler",
     "apache/horaedb",
     "atanunq/viu",
+    "brendanzab/codespan",
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
@@ -32,6 +33,7 @@
     "GREsau/schemars",
     "guillaume-be/rust-bert",
     "helix-editor/nucleo",
+    "ImageOptim/gifski",
     "imgui-rs/imgui-rs",
     "librespot-org/librespot",
     "linebender/tiny-skia",

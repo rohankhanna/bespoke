@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 186,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 14,
-    "terms": 133
+    "components": 95,
+    "concepts": 65,
+    "observations": 66,
+    "repos": 8,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "all-contributors/allcontributors.org",
-    "clj-kondo/clj-kondo",
-    "datalevin/datalevin",
-    "dotnet/reactive",
+    "babashka/babashka",
     "firebase/flutterfire",
-    "kurrent-io/KurrentDB",
+    "googleapis/google-auth-library-php",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "mono/SkiaSharp",
-    "psmux/psmux",
-    "swiftlang/llvm-project",
+    "seancorfield/honeysql",
     "swiftlang/swift-syntax",
-    "TryGhost/node-sqlite3",
     "web-platform-tests/wpt"
   ]
 }

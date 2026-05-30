@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 246,
-    "observations": 248,
-    "repos": 43,
-    "terms": 249
+    "components": 217,
+    "concepts": 304,
+    "observations": 306,
+    "repos": 50,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -23,6 +23,7 @@
     "bblanchon/pdfium-binaries",
     "bioconda/bioconda-recipes",
     "bluesky-social/pds",
+    "Botspot/pi-apps",
     "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
@@ -42,19 +43,25 @@
     "frankbria/ralph-claude-code",
     "git-quick-stats/git-quick-stats",
     "google/adk-docs",
+    "GrapheneOS/Vanadium",
+    "home-assistant/addons",
     "jonmosco/kube-ps1",
     "matryer/xbar-plugins",
+    "mlocati/docker-php-extension-installer",
+    "msys2/MINGW-packages",
     "nix-community/nix-direnv",
     "nvie/git-toolbelt",
     "pacstall/pacstall",
     "pyenv/pyenv-virtualenv",
     "pypa/manylinux",
+    "rbenv/ruby-build",
     "rocker-org/rocker",
     "rvm/rvm",
     "spiffe/spiffe",
     "sublimehq/Packages",
     "trailofbits/claude-code-config",
     "void-linux/void-packages",
+    "YosysHQ/oss-cad-suite-build",
     "zilliztech/attu",
     "zsh-users/zsh-completions"
   ]

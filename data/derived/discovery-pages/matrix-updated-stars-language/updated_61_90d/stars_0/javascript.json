@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 12,
     "observations": 12,
-    "repos": 4,
+    "repos": 5,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "danielrosehill/Israel-Alert-Map",
     "onomojo/i18n-country-translations-data",
-    "onomojo/i18n-timezones-data"
+    "onomojo/i18n-timezones-data",
+    "Patrick-ring-motive/sval-rhino-gs"
   ]
 }

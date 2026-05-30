@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-28T08:55:24.930262+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 0
-- components: 10
-- concepts: 0
-- observations: 0
+- terms: 2
+- components: 36
+- concepts: 2
+- observations: 2
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-05-25T13:33:27Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [storybook-community/addon-queryparams](https://github.com/storybook-community/addon-queryparams) | 12 | 2026-05-27T17:16:03Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-05-25T13:33:27Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [storybook-community/addon-queryparams](https://github.com/storybook-community/addon-queryparams) | 12 | 2026-05-27T17:16:03Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |

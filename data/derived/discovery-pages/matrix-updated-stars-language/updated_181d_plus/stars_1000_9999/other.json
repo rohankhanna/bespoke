@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1289,
-    "concepts": 1565,
-    "observations": 1567,
-    "repos": 425,
-    "terms": 1554
+    "components": 1282,
+    "concepts": 1563,
+    "observations": 1565,
+    "repos": 424,
+    "terms": 1552
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -169,7 +169,6 @@
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/nvim-compe",
     "huggingface/swift-coreml-diffusers",
-    "hyperhype/hyperscript",
     "Hzzone/pytorch-openpose",
     "ibm-aur-nlp/PubLayNet",
     "IDEA-Research/Grounded-SAM-2",

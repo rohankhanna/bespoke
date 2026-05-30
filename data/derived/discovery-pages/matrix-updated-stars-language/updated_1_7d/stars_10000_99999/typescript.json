@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 725,
-    "concepts": 162,
-    "observations": 164,
-    "repos": 10,
-    "terms": 171
+    "components": 560,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 5,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "dexie/Dexie.js",
-    "fastapi/full-stack-fastapi-template",
-    "HumanSignal/label-studio",
     "jestjs/jest",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "ruvnet/ruflo",
-    "storybookjs/storybook",
-    "unocss/unocss",
     "vercel-labs/skills"
   ]
 }

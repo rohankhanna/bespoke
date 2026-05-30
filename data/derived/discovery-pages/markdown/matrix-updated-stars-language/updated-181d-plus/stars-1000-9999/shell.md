@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
-- terms: 168
+- repos: 49
+- terms: 169
 - components: 65
-- concepts: 195
-- observations: 195
+- concepts: 197
+- observations: 197
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [create-dmg/create-dmg](https://github.com/create-dmg/create-dmg) | 2551 | 2025-12-01T00:47:59Z | Shell | Unknown | 1 | 0 | 2 | 2 |
 | [hyperupcall/autoenv](https://github.com/hyperupcall/autoenv) | 6025 | 2025-11-20T09:05:30Z | Shell | CLI | 2 | 2 | 7 | 7 |
 | [basherpm/basher](https://github.com/basherpm/basher) | 1279 | 2025-11-18T15:30:04Z | Shell | Infrastructure/tooling | 2 | 1 | 5 | 5 |
 | [quicwg/base-drafts](https://github.com/quicwg/base-drafts) | 1662 | 2025-11-09T01:12:09Z | Shell | Infrastructure/tooling | 10 | 5 | 10 | 10 |
@@ -101,6 +102,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [postmodern/chruby](https://github.com/postmodern/chruby) | 2914 | 2025-10-27T05:38:57Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [multiarch/qemu-user-static](https://github.com/multiarch/qemu-user-static) | 2691 | 2024-06-25T18:02:50Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [japaric/rust-cross](https://github.com/japaric/rust-cross) | 2554 | 2022-07-22T09:06:38Z | Shell | Unknown | 3 | 0 | 3 | 3 |
+| [create-dmg/create-dmg](https://github.com/create-dmg/create-dmg) | 2551 | 2025-12-01T00:47:59Z | Shell | Unknown | 1 | 0 | 2 | 2 |
 | [lukechilds/zsh-nvm](https://github.com/lukechilds/zsh-nvm) | 2403 | 2024-07-03T04:34:11Z | Shell | Unknown | 8 | 0 | 8 | 8 |
 | [ahmetb/cloud-run-faq](https://github.com/ahmetb/cloud-run-faq) | 2341 | 2025-06-03T20:21:05Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [redis/redis-doc](https://github.com/redis/redis-doc) | 2310 | 2025-06-23T17:08:09Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |

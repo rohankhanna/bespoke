@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 55
-- components: 150
-- concepts: 47
-- observations: 47
+- repos: 24
+- terms: 54
+- components: 145
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prisma/cuid-rust](https://github.com/prisma/cuid-rust) | 0 | 2026-04-02T06:41:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Sovereign-Labs/reltester](https://github.com/Sovereign-Labs/reltester) | 0 | 2026-04-01T14:27:29Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hermit-os/safe-mmio](https://github.com/hermit-os/safe-mmio) | 0 | 2026-04-01T13:52:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -80,4 +79,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prisma/cuid-rust](https://github.com/prisma/cuid-rust) | 0 | 2026-04-02T06:41:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Sovereign-Labs/reltester](https://github.com/Sovereign-Labs/reltester) | 0 | 2026-04-01T14:27:29Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hermit-os/safe-mmio](https://github.com/hermit-os/safe-mmio) | 0 | 2026-04-01T13:52:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |

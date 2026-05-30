@@ -3,7 +3,7 @@
     "components": 512,
     "concepts": 386,
     "observations": 389,
-    "repos": 191,
+    "repos": 190,
     "terms": 380
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -90,7 +90,6 @@
     "ethDreamer/json_rpc_snoop",
     "ethereum/eipv",
     "expenses/mateversum",
-    "extrawurst/gitui-presentation",
     "eyre-rs/stable-eyre",
     "filecoin-project/fvm-runtime-experiment",
     "fltk-rs/fl2rust",

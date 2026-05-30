@@ -1,6 +1,6 @@
 # Other
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 ## Counts
 
-- repos: 5643
-- terms: 22787
-- components: 26514
-- concepts: 22849
-- observations: 22922
+- repos: 5640
+- terms: 22781
+- components: 26512
+- concepts: 22844
+- observations: 22917
 
 ## Static behavior
 
@@ -22,78 +22,83 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 44607 | 2026-05-30T01:31:52Z | Other | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 70009 | 2026-05-30T01:05:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5938 | 2026-05-30T00:49:44Z | Other | Infrastructure/tooling | 24 | 15 | 24 | 24 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5983 | 2026-05-30T00:39:58Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 791 | 2026-05-30T00:26:59Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1178 | 2026-05-30T00:07:34Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9200 | 2026-05-29T23:19:46Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32489 | 2026-05-29T22:14:22Z | Other | Infrastructure/tooling | 19 | 47 | 19 | 19 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-29T21:00:57Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-29T19:36:58Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1896 | 2026-05-29T18:08:27Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-29T16:21:14Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [babashka/babashka](https://github.com/babashka/babashka) | 4522 | 2026-05-29T14:54:11Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
+| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13495 | 2026-05-29T07:08:10Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-29T07:02:11Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1428 | 2026-05-29T04:49:28Z | Other | CLI | 11 | 14 | 11 | 11 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 163031 | 2026-05-29T04:33:25Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
+| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6415 | 2026-05-28T23:27:06Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
+| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 192 | 2026-05-28T16:05:21Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1841 | 2026-05-28T15:00:25Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
+| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [psmux/psmux](https://github.com/psmux/psmux) | 2288 | 2026-05-28T13:42:43Z | Other | CLI | 16 | 5 | 16 | 16 |
+| [okd-project/okd](https://github.com/okd-project/okd) | 2075 | 2026-05-28T10:22:00Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8052 | 2026-05-28T10:02:41Z | Other | Infrastructure/tooling | 10 | 34 | 10 | 10 |
+| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13993 | 2026-05-28T10:00:10Z | Other | CLI | 10 | 3 | 10 | 10 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-28T08:56:43Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-27T16:20:22Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2676 | 2026-05-26T22:36:19Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1228 | 2026-05-26T21:29:42Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [triton-lang/triton](https://github.com/triton-lang/triton) | 19282 | 2026-05-26T21:25:24Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 69996 | 2026-05-26T19:55:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5977 | 2026-05-26T19:54:15Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 235 | 2026-05-26T19:13:58Z | Other | Infrastructure/tooling | 14 | 18 | 14 | 14 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5937 | 2026-05-26T19:07:23Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3654 | 2026-05-26T18:58:05Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1426 | 2026-05-26T18:23:42Z | Other | CLI | 10 | 14 | 10 | 10 |
+| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 658 | 2026-05-26T18:56:33Z | Other | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-26T16:43:24Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1841 | 2026-05-26T16:31:10Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-26T15:27:07Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [mono/SkiaSharp](https://github.com/mono/SkiaSharp) | 5412 | 2026-05-26T15:10:21Z | Other | Infrastructure/tooling | 17 | 12 | 17 | 17 |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-26T14:54:25Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1177 | 2026-05-26T14:51:25Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9198 | 2026-05-26T14:47:40Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 | [dotnet/reactive](https://github.com/dotnet/reactive) | 7146 | 2026-05-26T14:42:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8051 | 2026-05-26T13:43:30Z | Other | Infrastructure/tooling | 10 | 34 | 10 | 10 |
 | [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5799 | 2026-05-26T12:58:59Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6414 | 2026-05-26T12:10:21Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [redis/redis-om-dotnet](https://github.com/redis/redis-om-dotnet) | 517 | 2026-05-26T11:41:01Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 2194 | 2026-05-26T10:21:58Z | Other | CLI | 16 | 5 | 16 | 16 |
 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 133509 | 2026-05-26T09:46:28Z | Other | Infrastructure/tooling | 20 | 9 | 20 | 20 |
 | [upptime/upptime](https://github.com/upptime/upptime) | 17040 | 2026-05-26T09:27:20Z | Other | Infrastructure/tooling | 14 | 13 | 14 | 14 |
-| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-26T08:46:56Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162866 | 2026-05-26T04:29:48Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
 | [donut-party/endpoint-test](https://github.com/donut-party/endpoint-test) | 2 | 2026-05-26T03:07:33Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32459 | 2026-05-26T00:54:03Z | Other | Infrastructure/tooling | 19 | 47 | 19 | 19 |
-| [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3003 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3002 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [licensee/licensed](https://github.com/licensee/licensed) | 1039 | 2026-05-25T14:12:09Z | Other | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 567 | 2026-05-25T12:37:31Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [openai/openai-dotnet](https://github.com/openai/openai-dotnet) | 2614 | 2026-05-25T10:33:14Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-25T03:04:04Z | Other | CLI | 10 | 8 | 10 | 10 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-25T03:00:59Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 44341 | 2026-05-24T21:45:00Z | Other | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 5339 | 2026-05-24T19:14:00Z | Other | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
-| [babashka/sci](https://github.com/babashka/sci) | 1357 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [babashka/sci](https://github.com/babashka/sci) | 1358 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5064 | 2026-05-23T20:16:31Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
-| [babashka/babashka](https://github.com/babashka/babashka) | 4513 | 2026-05-23T18:23:48Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
 | [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 407 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [dwyl/mvp](https://github.com/dwyl/mvp) | 96 | 2026-05-23T10:31:46Z | Other | Infrastructure/tooling | 17 | 10 | 17 | 17 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-23T08:32:05Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-22T22:01:48Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3740 | 2026-05-22T09:53:19Z | Other | Model/data | 12 | 0 | 12 | 12 |
 | [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-05-22T02:02:17Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2676 | 2026-05-21T23:36:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-21T23:16:36Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [meshcat-dev/meshcat](https://github.com/meshcat-dev/meshcat) | 331 | 2026-05-21T19:04:14Z | Other | Web app | 0 | 10 | 0 | 0 |
 | [emacscollective/auto-compile](https://github.com/emacscollective/auto-compile) | 181 | 2026-05-21T11:48:13Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [google/protobuf.dart](https://github.com/google/protobuf.dart) | 571 | 2026-05-21T11:19:02Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [f3liz-casa/noraneko](https://github.com/f3liz-casa/noraneko) | 87 | 2026-05-21T02:31:29Z | Other | Infrastructure/tooling | 1 | 36 | 1 | 1 |
-| [dwyl/quotes](https://github.com/dwyl/quotes) | 342 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1896 | 2026-05-20T12:02:57Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13487 | 2026-05-20T09:38:46Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [dwyl/quotes](https://github.com/dwyl/quotes) | 342 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |
 | [lambdalisue/vim-nerdfont](https://github.com/lambdalisue/vim-nerdfont) | 148 | 2026-05-20T04:00:41Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 6 |
-| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1904 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
+| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1906 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [openbsd/ports](https://github.com/openbsd/ports) | 558 | 2026-05-19T18:49:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18332 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 97 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18338 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 98 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | 12895 | 2026-05-19T08:08:12Z | Other | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [standardrb/standard](https://github.com/standardrb/standard) | 2900 | 2026-05-19T08:06:06Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [xoofx/markdig](https://github.com/xoofx/markdig) | 5234 | 2026-05-19T06:19:48Z | Other | Infrastructure/tooling | 7 | 4 | 12 | 12 |
 | [kurrent-io/KurrentDB-Client-Dotnet](https://github.com/kurrent-io/KurrentDB-Client-Dotnet) | 174 | 2026-05-19T06:17:31Z | Other | CLI | 14 | 6 | 14 | 14 |
 | [preservim/tagbar](https://github.com/preservim/tagbar) | 6216 | 2026-05-17T13:28:29Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13990 | 2026-05-17T09:57:07Z | Other | CLI | 10 | 3 | 10 | 10 |
-| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | 9397 | 2026-05-16T19:17:34Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | 9400 | 2026-05-16T19:17:34Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [opentk/opentk](https://github.com/opentk/opentk) | 3513 | 2026-05-16T17:47:30Z | Other | Library | 11 | 0 | 11 | 11 |
 | [apache/casbin-casbin.io](https://github.com/apache/casbin-casbin.io) | 3 | 2026-05-15T19:06:31Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [apache/casbin-Casbin.NET](https://github.com/apache/casbin-Casbin.NET) | 1320 | 2026-05-15T19:05:09Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
-| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1036 | 2026-05-15T13:54:47Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
+| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1037 | 2026-05-15T13:54:47Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | 19057 | 2026-05-15T11:05:10Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [beam-community/elixir-companies](https://github.com/beam-community/elixir-companies) | 1666 | 2026-05-14T21:52:24Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13641 | 2026-05-14T20:42:44Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -101,9 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elixir-grpc/grpc](https://github.com/elixir-grpc/grpc) | 1516 | 2026-05-14T14:35:55Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [appwrite/playground-for-web](https://github.com/appwrite/playground-for-web) | 109 | 2026-05-14T08:17:02Z | Other | Web app | 3 | 3 | 3 | 3 |
 | [nvimdev/lspsaga.nvim](https://github.com/nvimdev/lspsaga.nvim) | 3790 | 2026-05-14T01:42:46Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 657 | 2026-05-13T19:01:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [devlooped/moq](https://github.com/devlooped/moq) | 6383 | 2026-05-13T13:51:00Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 191 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 470 | 2026-05-13T10:35:11Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [Kotlin/kotlinx-benchmark](https://github.com/Kotlin/kotlinx-benchmark) | 634 | 2026-05-13T07:32:25Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [nushell/awesome-nu](https://github.com/nushell/awesome-nu) | 1344 | 2026-05-13T06:19:50Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -117,9 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [UnknownPlatypus/djangofmt](https://github.com/UnknownPlatypus/djangofmt) | 73 | 2026-05-11T20:20:11Z | Other | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [WICG/attribution-reporting-api](https://github.com/WICG/attribution-reporting-api) | 458 | 2026-05-11T19:13:32Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [benchflow-ai/skillsbench](https://github.com/benchflow-ai/skillsbench) | 1157 | 2026-05-11T16:34:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-11T14:49:51Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [cginternals/cpplocate](https://github.com/cginternals/cpplocate) | 87 | 2026-05-11T13:36:27Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2076 | 2026-05-11T10:05:14Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [FreneticLLC/FreneticGameEngine](https://github.com/FreneticLLC/FreneticGameEngine) | 56 | 2026-05-11T05:20:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [atsushieno/aap-juce-simple-host](https://github.com/atsushieno/aap-juce-simple-host) | 1 | 2026-05-10T18:55:50Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [atsushieno/aap-lv2-string-machine](https://github.com/atsushieno/aap-lv2-string-machine) | 0 | 2026-05-10T17:50:24Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -128,7 +129,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rcasia/neotest-java](https://github.com/rcasia/neotest-java) | 70 | 2026-05-09T12:32:42Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [nvim-mini/mini.nvim](https://github.com/nvim-mini/mini.nvim) | 9123 | 2026-05-09T11:09:21Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [abap2UI5-addons/sql-console](https://github.com/abap2UI5-addons/sql-console) | 12 | 2026-05-09T06:15:21Z | Other | Infrastructure/tooling | 7 | 19 | 7 | 7 |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11193 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11203 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | 3844 | 2026-05-08T21:34:24Z | Other | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [ocaml-tracing/ocaml-trace](https://github.com/ocaml-tracing/ocaml-trace) | 35 | 2026-05-08T18:47:14Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [TEN-framework/portal](https://github.com/TEN-framework/portal) | 36 | 2026-05-08T17:55:02Z | Other | Infrastructure/tooling | 2 | 43 | 2 | 2 |
@@ -172,7 +173,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mit-plv/coqutil](https://github.com/mit-plv/coqutil) | 51 | 2026-05-05T04:34:47Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [cvc5/cvc5](https://github.com/cvc5/cvc5) | 1299 | 2026-05-04T23:10:48Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [ROCm/MIOpen](https://github.com/ROCm/MIOpen) | 1185 | 2026-05-04T22:31:38Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9789 | 2026-05-04T21:01:49Z | Other | CLI | 3 | 6 | 3 | 3 |
+| [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9791 | 2026-05-04T21:01:49Z | Other | CLI | 3 | 6 | 3 | 3 |
 | [helix-toolkit/helix-toolkit-nex](https://github.com/helix-toolkit/helix-toolkit-nex) | 28 | 2026-05-04T20:50:08Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [easylist/easylist](https://github.com/easylist/easylist) | 2979 | 2026-05-04T18:34:16Z | Other | Infrastructure/tooling | 14 | 7 | 14 | 14 |
 | [Shopify/rbi-central](https://github.com/Shopify/rbi-central) | 71 | 2026-05-04T18:25:26Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -197,7 +198,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [androidx/androidx](https://github.com/androidx/androidx) | 5986 | 2026-05-04T03:26:45Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [lambdalisue/vim-fern](https://github.com/lambdalisue/vim-fern) | 1352 | 2026-05-04T03:25:38Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 13 |
 | [phpstan/phpstan-src](https://github.com/phpstan/phpstan-src) | 390 | 2026-05-04T01:18:42Z | Other | Infrastructure/tooling | 8 | 12 | 8 | 8 |
-| [JuliaAI/MLJ.jl](https://github.com/JuliaAI/MLJ.jl) | 1923 | 2026-05-03T20:40:19Z | Other | Infrastructure/tooling | 16 | 8 | 16 | 16 |
+| [JuliaAI/MLJ.jl](https://github.com/JuliaAI/MLJ.jl) | 1924 | 2026-05-03T20:40:19Z | Other | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [jrsoftware/issrc](https://github.com/jrsoftware/issrc) | 5325 | 2026-05-03T20:02:27Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [sidlatau/neotest-dart](https://github.com/sidlatau/neotest-dart) | 40 | 2026-05-03T19:41:20Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists) | 22279 | 2026-05-03T19:30:15Z | Other | Infrastructure/tooling | 24 | 9 | 24 | 24 |
@@ -239,7 +240,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ruby/ruby-dev-builder](https://github.com/ruby/ruby-dev-builder) | 23 | 2026-05-02T19:42:22Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ruby/jruby-dev-builder](https://github.com/ruby/jruby-dev-builder) | 10 | 2026-05-02T19:22:25Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [swiftlang/swift-evolution](https://github.com/swiftlang/swift-evolution) | 15828 | 2026-05-02T18:46:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [melpa/melpa](https://github.com/melpa/melpa) | 2937 | 2026-05-02T18:38:20Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [dotnet/winforms](https://github.com/dotnet/winforms) | 4786 | 2026-05-02T18:27:17Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [exelban/stats](https://github.com/exelban/stats) | 38487 | 2026-05-02T18:17:08Z | Other | Infrastructure/tooling | 15 | 4 | 15 | 15 |
@@ -310,7 +310,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fern-api/docs](https://github.com/fern-api/docs) | 6 | 2026-05-01T13:35:47Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [ropensci/software-review](https://github.com/ropensci/software-review) | 336 | 2026-05-01T13:20:56Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | 12353 | 2026-05-01T13:12:57Z | Other | Infrastructure/tooling | 18 | 19 | 18 | 18 |
-| [patterns-ai-core/langchainrb](https://github.com/patterns-ai-core/langchainrb) | 1983 | 2026-05-01T13:06:13Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [patterns-ai-core/langchainrb](https://github.com/patterns-ai-core/langchainrb) | 1984 | 2026-05-01T13:06:13Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [openstreetmap/id-tagging-schema](https://github.com/openstreetmap/id-tagging-schema) | 215 | 2026-05-01T12:22:50Z | Other | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [pulumi/templates](https://github.com/pulumi/templates) | 129 | 2026-05-01T12:18:42Z | Other | Infrastructure/tooling | 7 | 26 | 7 | 7 |
 | [JuliaSymbolics/Symbolics.jl](https://github.com/JuliaSymbolics/Symbolics.jl) | 1511 | 2026-05-01T12:17:50Z | Other | Infrastructure/tooling | 10 | 11 | 10 | 10 |
@@ -332,7 +332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GregoryConrad/native_toolchain_rust](https://github.com/GregoryConrad/native_toolchain_rust) | 59 | 2026-05-01T08:19:31Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [jackielii/skhd.zig](https://github.com/jackielii/skhd.zig) | 506 | 2026-05-01T07:45:17Z | Other | CLI | 6 | 3 | 6 | 6 |
 | [MaterialDesignInXAML/MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) | 16130 | 2026-05-01T07:31:54Z | Other | Infrastructure/tooling | 18 | 7 | 18 | 18 |
-| [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 3084 | 2026-05-01T07:18:33Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 3087 | 2026-05-01T07:18:33Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [dart-lang/native](https://github.com/dart-lang/native) | 263 | 2026-05-01T06:25:49Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [heroku/heroku-buildpack-scala](https://github.com/heroku/heroku-buildpack-scala) | 190 | 2026-05-01T05:57:18Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [haskell-actions/hlint-scan](https://github.com/haskell-actions/hlint-scan) | 23 | 2026-05-01T05:32:07Z | Other | Infrastructure/tooling | 12 | 14 | 12 | 12 |
@@ -1525,7 +1525,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/cf-smoke-tests-release](https://github.com/cloudfoundry/cf-smoke-tests-release) | 1 | 2026-04-17T03:32:32Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [IBM/AutoMLPipeline.jl](https://github.com/IBM/AutoMLPipeline.jl) | 370 | 2026-04-17T02:56:59Z | Other | Infrastructure/tooling | 24 | 12 | 24 | 24 |
 | [AudioKit/AudioKit](https://github.com/AudioKit/AudioKit) | 11339 | 2026-04-17T02:18:45Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 10 |
-| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2833 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2834 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [tc39/ecma402](https://github.com/tc39/ecma402) | 599 | 2026-04-17T00:27:03Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy) | 2409 | 2026-04-17T00:22:34Z | Other | CLI | 8 | 7 | 8 | 8 |
 | [Shougo/dpp-ext-lazy](https://github.com/Shougo/dpp-ext-lazy) | 8 | 2026-04-17T00:20:03Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -2015,7 +2015,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RDFLib/OWL-RL](https://github.com/RDFLib/OWL-RL) | 169 | 2026-03-30T22:59:30Z | Other | Service/API | 4 | 0 | 4 | 4 |
 | [chomosuke/typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim) | 909 | 2026-03-30T22:53:07Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [rubocop/rubocop-ast](https://github.com/rubocop/rubocop-ast) | 132 | 2026-03-30T20:22:01Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1897 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1903 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | 3902 | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaInterop/Clang.jl](https://github.com/JuliaInterop/Clang.jl) | 242 | 2026-03-30T18:25:11Z | Other | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [apollographql/apollo-ios-pagination](https://github.com/apollographql/apollo-ios-pagination) | 32 | 2026-03-30T17:25:25Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -2063,7 +2063,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [WebReflection/linkedom](https://github.com/WebReflection/linkedom) | 2026 | 2026-03-28T09:21:09Z | Other | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [metauto-ai/agent-as-a-judge](https://github.com/metauto-ai/agent-as-a-judge) | 754 | 2026-03-28T08:23:53Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [ChenyunWu/PhraseCutDataset](https://github.com/ChenyunWu/PhraseCutDataset) | 114 | 2026-03-28T05:41:07Z | Other | Service/API | 7 | 0 | 7 | 7 |
-| [Deep-Symmetry/dysentery](https://github.com/Deep-Symmetry/dysentery) | 249 | 2026-03-28T04:47:31Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [Deep-Symmetry/dysentery](https://github.com/Deep-Symmetry/dysentery) | 250 | 2026-03-28T04:47:31Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [steipete/peekaboo](https://github.com/steipete/Peekaboo) | 3138 | 2026-03-28T04:18:13Z | Other | CLI | 4 | 8 | 0 | 0 |
 | [notomo/vusted](https://github.com/notomo/vusted) | 91 | 2026-03-28T04:02:19Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [fatih/vim-go](https://github.com/fatih/vim-go) | 16231 | 2026-03-28T02:13:15Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -2425,7 +2425,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FoundationDB/fdb-build-support](https://github.com/FoundationDB/fdb-build-support) | 19 | 2026-02-26T19:56:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [HaxeFlixel/haxeflixel.com](https://github.com/HaxeFlixel/haxeflixel.com) | 73 | 2026-02-26T16:47:36Z | Other | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [JuliaEditorSupport/julia-emacs](https://github.com/JuliaEditorSupport/julia-emacs) | 315 | 2026-02-26T15:42:09Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [JuliaGizmos/Blink.jl](https://github.com/JuliaGizmos/Blink.jl) | 373 | 2026-02-26T15:25:09Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [JuliaGizmos/Blink.jl](https://github.com/JuliaGizmos/Blink.jl) | 374 | 2026-02-26T15:25:09Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [JunoLab/Atom.jl](https://github.com/JunoLab/Atom.jl) | 70 | 2026-02-26T15:24:20Z | Other | CLI | 2 | 8 | 2 | 2 |
 | [chakravala/Grassmann.jl](https://github.com/chakravala/Grassmann.jl) | 510 | 2026-02-26T14:56:56Z | Other | CLI | 19 | 0 | 19 | 19 |
 | [robotology/icub-models](https://github.com/robotology/icub-models) | 48 | 2026-02-26T14:55:58Z | Other | Infrastructure/tooling | 9 | 9 | 9 | 9 |
@@ -2519,7 +2519,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thinca/vim-themis](https://github.com/thinca/vim-themis) | 241 | 2026-02-13T11:06:19Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [arya-s/phantty](https://github.com/arya-s/phantty) | 6 | 2026-02-12T21:34:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [DavidKinder/Windows-Glulxe](https://github.com/DavidKinder/Windows-Glulxe) | 12 | 2026-02-12T18:34:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 621 | 2026-02-12T15:35:20Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 622 | 2026-02-12T15:35:20Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [datawhalechina/tiny-universe](https://github.com/datawhalechina/tiny-universe) | 4789 | 2026-02-12T02:00:08Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [domluna/JuliaFormatter.jl](https://github.com/domluna/JuliaFormatter.jl) | 631 | 2026-02-12T00:14:17Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [cloojure/tupelo](https://github.com/cloojure/tupelo) | 520 | 2026-02-11T22:44:17Z | Other | Unknown | 1 | 0 | 1 | 1 |
@@ -2639,7 +2639,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | 2701 | 2026-01-23T15:29:00Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [reagent-project/reagent](https://github.com/reagent-project/reagent) | 4863 | 2026-01-23T13:16:19Z | Other | Infrastructure/tooling | 7 | 22 | 7 | 7 |
 | [abap2UI5-addons/table-maintenance](https://github.com/abap2UI5-addons/table-maintenance) | 8 | 2026-01-23T12:09:19Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [mds1/multicall3](https://github.com/mds1/multicall3) | 1182 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mds1/multicall3](https://github.com/mds1/multicall3) | 1184 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [com-lihaoyi/utest](https://github.com/com-lihaoyi/utest) | 508 | 2026-01-22T23:21:51Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [excubo-ag/WebCompiler](https://github.com/excubo-ag/WebCompiler) | 166 | 2026-01-22T20:43:55Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [MichaelHatherly/REPLicant.jl](https://github.com/MichaelHatherly/REPLicant.jl) | 14 | 2026-01-22T19:45:21Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -2931,7 +2931,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joshwlewis/unitwise](https://github.com/joshwlewis/unitwise) | 286 | 2025-11-27T14:41:34Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [drowzy/protobuf_generate](https://github.com/drowzy/protobuf_generate) | 16 | 2025-11-27T11:06:15Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [terrierteam/pyterrier_doc2query](https://github.com/terrierteam/pyterrier_doc2query) | 39 | 2025-11-27T09:54:49Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4293 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4292 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [slunsford/coffee-analytics](https://github.com/slunsford/coffee-analytics) | 1 | 2025-11-27T01:50:12Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [ziglang/zig](https://github.com/ziglang/zig) | 42848 | 2025-11-27T01:42:59Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [mrash/fwknop](https://github.com/mrash/fwknop) | 1349 | 2025-11-26T20:39:39Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -2996,7 +2996,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba-damo-academy/PixelRefer](https://github.com/alibaba-damo-academy/PixelRefer) | 349 | 2025-11-16T07:54:05Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [EleutherAI/pythia](https://github.com/EleutherAI/pythia) | 2783 | 2025-11-15T17:39:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/brotli_jll.jl](https://github.com/JuliaBinaryWrappers/brotli_jll.jl) | 0 | 2025-11-15T16:48:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 654 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 655 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [flosse/sloc](https://github.com/flosse/sloc) | 968 | 2025-11-15T10:34:17Z | Other | Unknown | 5 | 8 | 5 | 5 |
 | [niner/Inline-Perl5](https://github.com/niner/Inline-Perl5) | 97 | 2025-11-14T15:28:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [westnordost/osmfeatures](https://github.com/westnordost/osmfeatures) | 26 | 2025-11-14T11:01:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -3258,7 +3258,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nrepl/piggieback](https://github.com/nrepl/piggieback) | 485 | 2025-09-01T16:53:38Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [AdaCore/VSS](https://github.com/AdaCore/VSS) | 61 | 2025-09-01T11:29:58Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [mohkale/consult-eglot](https://github.com/mohkale/consult-eglot) | 101 | 2025-08-31T09:25:18Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [ThePharaohArt/Obsidian-CyberGlow](https://github.com/ThePharaohArt/Obsidian-CyberGlow) | 119 | 2025-08-31T01:51:35Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [ThePharaohArt/Obsidian-CyberGlow](https://github.com/ThePharaohArt/Obsidian-CyberGlow) | 116 | 2025-08-31T01:51:35Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [alexrudall/ruby-openai](https://github.com/alexrudall/ruby-openai) | 3216 | 2025-08-29T15:06:21Z | Other | CLI | 8 | 0 | 8 | 8 |
 | [informalsystems/cosmos.nix](https://github.com/informalsystems/cosmos.nix) | 63 | 2025-08-29T10:03:49Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [getgrav/grav-plugin-error](https://github.com/getgrav/grav-plugin-error) | 5 | 2025-08-28T17:34:32Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -3372,7 +3372,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haskell/ghcup-docker](https://github.com/haskell/ghcup-docker) | 2 | 2025-07-15T10:58:18Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [trailblazer/trailblazer](https://github.com/trailblazer/trailblazer) | 3476 | 2025-07-15T09:40:43Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lumen-oss/rocks-dev.nvim](https://github.com/lumen-oss/rocks-dev.nvim) | 23 | 2025-07-14T18:04:08Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [lumen-oss/rocks-treesitter.nvim](https://github.com/lumen-oss/rocks-treesitter.nvim) | 50 | 2025-07-14T18:01:18Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [lumen-oss/rocks-treesitter.nvim](https://github.com/lumen-oss/rocks-treesitter.nvim) | 51 | 2025-07-14T18:01:18Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [eth-clients/checkpoint-sync-endpoints](https://github.com/eth-clients/checkpoint-sync-endpoints) | 107 | 2025-07-14T04:05:49Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [njucckevin/SeeClick](https://github.com/njucckevin/SeeClick) | 478 | 2025-07-13T06:44:39Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [chequer-io/qsi](https://github.com/chequer-io/qsi) | 40 | 2025-07-13T05:48:47Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -3449,7 +3449,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rexthinker/rexthinker.github.io](https://github.com/rexthinker/rexthinker.github.io) | 3 | 2025-06-05T07:39:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0x7432/asm-ru](https://github.com/0x7432/asm-ru) | 23 | 2025-06-04T12:39:26Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Konfekt/FastFold](https://github.com/Konfekt/FastFold) | 705 | 2025-06-04T10:33:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [thedatumorg/VUS](https://github.com/thedatumorg/VUS) | 93 | 2025-06-04T09:25:09Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [thedatumorg/VUS](https://github.com/thedatumorg/VUS) | 94 | 2025-06-04T09:25:09Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [babbel/puma-plugin-telemetry](https://github.com/babbel/puma-plugin-telemetry) | 19 | 2025-06-02T17:31:49Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [isakbm/gitgraph.nvim](https://github.com/isakbm/gitgraph.nvim) | 430 | 2025-06-02T15:47:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Dashlane/SwiftDomainParser](https://github.com/Dashlane/SwiftDomainParser) | 74 | 2025-06-02T13:09:44Z | Other | Framework | 4 | 0 | 4 | 4 |
@@ -3625,7 +3625,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [uperl/Kafka-Librd](https://github.com/uperl/Kafka-Librd) | 12 | 2025-03-20T14:33:03Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [WebAssembly/exception-handling](https://github.com/WebAssembly/exception-handling) | 169 | 2025-03-20T12:59:27Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [cjohansen/gadget-inspector](https://github.com/cjohansen/gadget-inspector) | 28 | 2025-03-19T21:55:28Z | Other | Service/API | 0 | 0 | 0 | 0 |
-| [gluonfield/enchanted](https://github.com/gluonfield/enchanted) | 5949 | 2025-03-19T20:19:21Z | Other | Model/data | 7 | 0 | 7 | 7 |
+| [gluonfield/enchanted](https://github.com/gluonfield/enchanted) | 5951 | 2025-03-19T20:19:21Z | Other | Model/data | 7 | 0 | 7 | 7 |
 | [tlaplus-community/tlaplus-nvim-plugin](https://github.com/tlaplus-community/tlaplus-nvim-plugin) | 15 | 2025-03-19T19:23:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [tlaplus/rfcs](https://github.com/tlaplus/rfcs) | 11 | 2025-03-19T19:00:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kristijanhusak/vim-dadbod-completion](https://github.com/kristijanhusak/vim-dadbod-completion) | 779 | 2025-03-19T18:51:21Z | Other | Unknown | 10 | 1 | 10 | 10 |
@@ -3729,7 +3729,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [non-Jedi/eglot-jl](https://github.com/non-Jedi/eglot-jl) | 72 | 2025-02-07T13:16:50Z | Other | Service/API | 3 | 0 | 3 | 3 |
 | [mahsanet/NikaNG](https://github.com/mahsanet/NikaNG) | 337 | 2025-02-06T16:22:33Z | Other | Infrastructure/tooling | 4 | 14 | 4 | 5 |
 | [ethereum-optimism/grafana-dashboards-public](https://github.com/ethereum-optimism/grafana-dashboards-public) | 3 | 2025-02-05T15:27:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [advimman/lama](https://github.com/advimman/lama) | 9986 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [advimman/lama](https://github.com/advimman/lama) | 9998 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) | 186 | 2025-02-04T12:42:30Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Helsinki-NLP/OPUS-CAT](https://github.com/Helsinki-NLP/OPUS-CAT) | 85 | 2025-02-04T09:20:57Z | Other | Model/data | 7 | 0 | 7 | 7 |
 | [jpbruyere/shaderc.net](https://github.com/jpbruyere/shaderc.net) | 10 | 2025-02-03T12:45:35Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -3810,7 +3810,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [patterns-ai-core/langchainrb_rails](https://github.com/patterns-ai-core/langchainrb_rails) | 337 | 2024-12-25T21:37:30Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [FluxML/FluxTraining.jl](https://github.com/FluxML/FluxTraining.jl) | 122 | 2024-12-25T08:10:06Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [yformer/EfficientSAM](https://github.com/yformer/EfficientSAM) | 2475 | 2024-12-24T08:36:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [pymc-devs/pymc-resources](https://github.com/pymc-devs/pymc-resources) | 2095 | 2024-12-23T21:26:01Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [pymc-devs/pymc-resources](https://github.com/pymc-devs/pymc-resources) | 2094 | 2024-12-23T21:26:01Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cefsharp/CefSharp.Wpf.HwndHost](https://github.com/cefsharp/CefSharp.Wpf.HwndHost) | 46 | 2024-12-23T02:12:29Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [2KAbhishek/rofi2k](https://github.com/2KAbhishek/rofi2k) | 5 | 2024-12-22T19:05:16Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [stencilproject/Stencil](https://github.com/stencilproject/Stencil) | 2416 | 2024-12-22T12:54:31Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -3884,7 +3884,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hchiam/learning-webrtc](https://github.com/hchiam/learning-webrtc) | 1 | 2024-11-21T18:57:56Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [vale-cli/alex](https://github.com/vale-cli/alex) | 25 | 2024-11-21T05:50:03Z | Other | Docs/knowledge | 2 | 0 | 2 | 2 |
 | [vale-cli/Joblint](https://github.com/vale-cli/Joblint) | 14 | 2024-11-21T05:47:38Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 940 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 941 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rhysd/ss](https://github.com/rhysd/ss) | 1 | 2024-11-20T15:22:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hydescarf/Obsidian-Theme-Mado-Miniflow](https://github.com/hydescarf/Obsidian-Theme-Mado-Miniflow) | 208 | 2024-11-20T09:28:10Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [hydescarf/Obsidian-Theme-Mado-11](https://github.com/hydescarf/Obsidian-Theme-Mado-11) | 79 | 2024-11-20T09:28:07Z | Other | Unknown | 8 | 0 | 8 | 8 |
@@ -4115,7 +4115,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jpbruyere/vk.net](https://github.com/jpbruyere/vk.net) | 35 | 2024-08-07T12:58:14Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [gfanto/fzf-lsp.nvim](https://github.com/gfanto/fzf-lsp.nvim) | 239 | 2024-08-07T03:57:52Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [badgen/badgen-icons](https://github.com/badgen/badgen-icons) | 24 | 2024-08-06T12:58:01Z | Other | Service/API | 2 | 0 | 2 | 2 |
-| [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) | 7425 | 2024-08-06T07:19:40Z | Other | Infrastructure/tooling | 22 | 7 | 22 | 22 |
+| [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) | 7428 | 2024-08-06T07:19:40Z | Other | Infrastructure/tooling | 22 | 7 | 22 | 22 |
 | [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate) | 2003 | 2024-08-06T06:02:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [marmelroy/Zip](https://github.com/marmelroy/Zip) | 2598 | 2024-08-05T18:42:46Z | Other | Framework | 4 | 0 | 4 | 4 |
 | [decaporg/one-click-hugo-cms](https://github.com/decaporg/one-click-hugo-cms) | 536 | 2024-08-05T07:03:49Z | Other | Template/starter | 4 | 46 | 4 | 4 |
@@ -4140,7 +4140,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CompVis/taming-transformers](https://github.com/CompVis/taming-transformers) | 6477 | 2024-07-30T18:27:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ericdallo/jet.el](https://github.com/ericdallo/jet.el) | 58 | 2024-07-30T12:28:57Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Tiiiger/bert_score](https://github.com/Tiiiger/bert_score) | 1891 | 2024-07-30T09:41:28Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) | 23958 | 2024-07-30T05:53:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) | 23955 | 2024-07-30T05:53:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [BYVoid/opencc-bazel-example](https://github.com/BYVoid/opencc-bazel-example) | 1 | 2024-07-30T02:30:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [animate-css/animate.css](https://github.com/animate-css/animate.css) | 82528 | 2024-07-29T19:34:21Z | Other | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [bootscore/bootscore-child](https://github.com/bootscore/bootscore-child) | 41 | 2024-07-29T15:34:57Z | Other | Unknown | 2 | 0 | 2 | 2 |
@@ -4463,7 +4463,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [petercorke/spatialmath-matlab](https://github.com/petercorke/spatialmath-matlab) | 221 | 2024-02-27T21:05:58Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [JuliaDocs/DocumenterInventoryWritingBackport.jl](https://github.com/JuliaDocs/DocumenterInventoryWritingBackport.jl) | 0 | 2024-02-27T11:33:23Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [JKamsker/LiteDB.Migration](https://github.com/JKamsker/LiteDB.Migration) | 18 | 2024-02-26T23:24:38Z | Other | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 372 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 373 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [BnMcGn/re-com-tailwind](https://github.com/BnMcGn/re-com-tailwind) | 2 | 2024-02-26T16:49:38Z | Other | Library | 0 | 0 | 0 | 0 |
 | [ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows](https://github.com/ElektroStudios/.NET-Assembly-Info-Shell-Extension-for-Windows) | 24 | 2024-02-26T15:41:05Z | Other | Unknown | 16 | 0 | 20 | 20 |
 | [alexhiggins732/BLlamaSharp.ChatGpt.Blazor](https://github.com/alexhiggins732/BLlamaSharp.ChatGpt.Blazor) | 71 | 2024-02-26T01:26:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -4832,7 +4832,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jcs/msTERM](https://github.com/jcs/msTERM) | 50 | 2023-07-03T03:47:13Z | Other | CLI | 1 | 0 | 1 | 1 |
 | [SeanNaren/warp-ctc](https://github.com/SeanNaren/warp-ctc) | 762 | 2023-07-02T07:31:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [haydengunraj/COVIDNet-CT](https://github.com/haydengunraj/COVIDNet-CT) | 127 | 2023-07-02T01:13:22Z | Other | Model/data | 9 | 0 | 9 | 9 |
-| [dart-archive/wasm](https://github.com/dart-archive/wasm) | 309 | 2023-07-01T23:28:19Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
+| [dart-archive/wasm](https://github.com/dart-archive/wasm) | 308 | 2023-07-01T23:28:19Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [project-mirai/chat-command](https://github.com/project-mirai/chat-command) | 131 | 2023-06-30T14:28:00Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [MatsuriDayo/Matsuri](https://github.com/MatsuriDayo/Matsuri) | 2514 | 2023-06-30T09:15:30Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [AlexiaJM/AdversarialConsistentScoreMatching](https://github.com/AlexiaJM/AdversarialConsistentScoreMatching) | 125 | 2023-06-29T21:49:36Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -5127,7 +5127,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sdras/sample-vue-shop](https://github.com/sdras/sample-vue-shop) | 1201 | 2022-12-07T17:20:07Z | Other | Service/API | 8 | 16 | 8 | 8 |
 | [mikera/core.matrix](https://github.com/mikera/core.matrix) | 715 | 2022-12-07T13:09:38Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [egoist/vue-bytesize-icons](https://github.com/egoist/vue-bytesize-icons) | 55 | 2022-12-07T01:01:25Z | Other | Unknown | 3 | 18 | 3 | 3 |
-| [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io) | 652 | 2022-12-06T19:34:09Z | Other | Infrastructure/tooling | 3 | 15 | 3 | 3 |
+| [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io) | 651 | 2022-12-06T19:34:09Z | Other | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [JTAmos/Indicators.jl](https://github.com/JTAmos/Indicators.jl) | 226 | 2022-12-06T12:06:19Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [exograd/erl-ksuid](https://github.com/exograd/erl-ksuid) | 0 | 2022-12-03T22:31:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aleju/imgaug-doc](https://github.com/aleju/imgaug-doc) | 163 | 2022-12-02T19:42:17Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -5230,7 +5230,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [num42/icon-resizer-swift](https://github.com/num42/icon-resizer-swift) | 9 | 2022-09-15T08:02:50Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aergonaut/pronto-goodcheck](https://github.com/aergonaut/pronto-goodcheck) | 2 | 2022-09-14T18:20:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) | 274 | 2022-09-13T19:07:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [zhoubolei/CAM](https://github.com/zhoubolei/CAM) | 1888 | 2022-09-13T14:02:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [zhoubolei/CAM](https://github.com/zhoubolei/CAM) | 1887 | 2022-09-13T14:02:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [artichoke/spec](https://github.com/artichoke/spec) | 0 | 2022-09-12T04:08:30Z | Other | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [nricciar/wikicloth](https://github.com/nricciar/wikicloth) | 158 | 2022-09-11T07:42:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nvim-telescope/telescope-fzy-native.nvim](https://github.com/nvim-telescope/telescope-fzy-native.nvim) | 194 | 2022-09-11T06:56:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -5632,7 +5632,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tc39/proposal-numeric-separator](https://github.com/tc39/proposal-numeric-separator) | 332 | 2021-07-16T15:18:56Z | Other | Unknown | 0 | 2 | 0 | 0 |
 | [aloctavodia/Doing_bayesian_data_analysis](https://github.com/aloctavodia/Doing_bayesian_data_analysis) | 903 | 2021-07-16T06:41:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [monolifed/theme16](https://github.com/monolifed/theme16) | 18 | 2021-07-15T18:49:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [lambdalisue/vim-fern-git-status](https://github.com/lambdalisue/vim-fern-git-status) | 90 | 2021-07-15T01:20:03Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [lambdalisue/vim-fern-git-status](https://github.com/lambdalisue/vim-fern-git-status) | 91 | 2021-07-15T01:20:03Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [romeovs/creep](https://github.com/romeovs/creep) | 1895 | 2021-07-12T15:32:42Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [Misterio77/dotfiles](https://github.com/Misterio77/dotfiles) | 19 | 2021-07-07T22:02:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ivanvovk/WaveGrad](https://github.com/ivanvovk/WaveGrad) | 409 | 2021-07-07T12:12:27Z | Other | Unknown | 9 | 0 | 9 | 9 |
@@ -5662,9 +5662,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bitzesty/zxcvbn-js](https://github.com/bitzesty/zxcvbn-js) | 30 | 2021-05-31T17:12:19Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jakeheis/Ice](https://github.com/jakeheis/Ice) | 387 | 2021-05-31T04:25:00Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [pinobatch/allpads-nes](https://github.com/pinobatch/allpads-nes) | 12 | 2021-05-31T02:55:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [safwank/Numerix](https://github.com/safwank/Numerix) | 192 | 2021-05-30T22:44:10Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [TuSimple/tusimple-benchmark](https://github.com/TuSimple/tusimple-benchmark) | 591 | 2021-05-28T18:08:53Z | Other | Model/data | 0 | 0 | 0 | 0 |
-| [hyperhype/hyperscript](https://github.com/hyperhype/hyperscript) | 2733 | 2021-05-28T02:59:49Z | Other | Unknown | 2 | 7 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -5672,7 +5669,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [flutter/flutter](https://github.com/flutter/flutter) | 176064 | 2026-04-22T04:53:40Z | Other | Infrastructure/tooling | 25 | 5 | 25 | 25 |
 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 174209 | 2026-04-28T23:34:38Z | Other | Infrastructure/tooling | 13 | 83 | 13 | 13 |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 162866 | 2026-05-26T04:29:48Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 163031 | 2026-05-29T04:33:25Z | Other | Infrastructure/tooling | 16 | 89 | 16 | 17 |
 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 133509 | 2026-05-26T09:46:28Z | Other | Infrastructure/tooling | 20 | 9 | 20 | 20 |
 | [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 110039 | 2026-04-30T09:47:28Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 15 |
 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | 104334 | 2026-05-02T11:01:51Z | Other | CLI | 19 | 5 | 19 | 19 |
@@ -5683,7 +5680,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | 81475 | 2026-04-13T22:52:26Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | 72920 | 2024-06-18T01:53:49Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | 72898 | 2026-04-22T17:45:25Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 69996 | 2026-05-26T19:55:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [swiftlang/swift](https://github.com/swiftlang/swift) | 70009 | 2026-05-30T01:05:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 69971 | 2026-04-08T01:36:22Z | Other | Infrastructure/tooling | 21 | 22 | 21 | 21 |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 62656 | 2026-03-17T19:17:14Z | Other | Infrastructure/tooling | 19 | 15 | 20 | 20 |
 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 60243 | 2026-04-30T11:25:22Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
@@ -5707,7 +5704,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [square/okhttp](https://github.com/square/okhttp) | 46944 | 2026-04-27T14:09:04Z | Other | CLI | 8 | 12 | 8 | 8 |
 | [metabase/metabase](https://github.com/metabase/metabase) | 46928 | 2026-04-19T13:37:42Z | Other | Infrastructure/tooling | 7 | 397 | 0 | 0 |
 | [isocpp/CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines) | 44933 | 2026-04-16T19:07:57Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 44341 | 2026-05-24T21:45:00Z | Other | Infrastructure/tooling | 8 | 13 | 8 | 8 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 44607 | 2026-05-30T01:31:52Z | Other | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [square/retrofit](https://github.com/square/retrofit) | 43905 | 2026-04-27T21:44:48Z | Other | CLI | 4 | 9 | 4 | 4 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | 43656 | 2026-04-24T08:55:59Z | Other | Infrastructure/tooling | 16 | 11 | 17 | 17 |
 | [Kong/kong](https://github.com/Kong/kong) | 43246 | 2026-03-27T17:42:51Z | Other | Infrastructure/tooling | 27 | 13 | 27 | 27 |
@@ -5730,7 +5727,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) | 36001 | 2026-04-21T09:36:16Z | Other | Infrastructure/tooling | 11 | 22 | 12 | 12 |
 | [junegunn/vim-plug](https://github.com/junegunn/vim-plug) | 35626 | 2026-02-18T16:23:49Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [openai/CLIP](https://github.com/openai/CLIP) | 33281 | 2026-03-25T18:46:40Z | Other | CLI | 3 | 2 | 3 | 3 |
-| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32459 | 2026-05-26T00:54:03Z | Other | Infrastructure/tooling | 19 | 47 | 19 | 19 |
+| [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32489 | 2026-05-29T22:14:22Z | Other | Infrastructure/tooling | 19 | 47 | 19 | 19 |
 | [google/material-design-lite](https://github.com/google/material-design-lite) | 32174 | 2026-05-03T01:41:50Z | Other | Unknown | 4 | 53 | 4 | 4 |
 | [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) | 31710 | 2024-08-16T15:26:57Z | Other | Infrastructure/tooling | 1 | 45 | 1 | 1 |
 | [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31504 | 2026-05-01T14:49:51Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
@@ -5765,7 +5762,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) | 24369 | 2026-04-22T18:49:26Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [heartcombo/devise](https://github.com/heartcombo/devise) | 24347 | 2026-04-10T14:43:55Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) | 24038 | 2026-04-27T14:01:34Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) | 23958 | 2024-07-30T05:53:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) | 23955 | 2024-07-30T05:53:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ruby/ruby](https://github.com/ruby/ruby) | 23556 | 2026-04-30T03:40:25Z | Other | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | 23452 | 2026-03-05T20:35:15Z | Other | CLI | 9 | 4 | 9 | 9 |
 | [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) | 23372 | 2026-05-02T22:18:13Z | Other | CLI | 12 | 8 | 12 | 12 |
@@ -5803,7 +5800,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gradle/gradle](https://github.com/gradle/gradle) | 18526 | 2026-04-30T09:14:26Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [bitwarden/server](https://github.com/bitwarden/server) | 18510 | 2026-04-29T19:45:59Z | Other | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) | 18448 | 2026-05-04T05:33:50Z | Other | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18332 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18338 | 2026-05-19T18:42:31Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture) | 18150 | 2026-04-25T13:35:06Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) | 18114 | 2026-04-16T01:42:21Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [nim-lang/Nim](https://github.com/nim-lang/Nim) | 17956 | 2026-04-29T12:47:54Z | Other | Infrastructure/tooling | 12 | 7 | 12 | 12 |
@@ -5854,7 +5851,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [abpframework/abp](https://github.com/abpframework/abp) | 14218 | 2026-04-23T06:18:54Z | Other | Infrastructure/tooling | 21 | 16 | 21 | 22 |
 | [App-vNext/Polly](https://github.com/App-vNext/Polly) | 14158 | 2026-04-24T18:44:55Z | Other | Infrastructure/tooling | 17 | 22 | 17 | 17 |
 | [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7) | 14101 | 2024-08-19T12:57:04Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13990 | 2026-05-17T09:57:07Z | Other | CLI | 10 | 3 | 10 | 10 |
+| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13993 | 2026-05-28T10:00:10Z | Other | CLI | 10 | 3 | 10 | 10 |
 | [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion) | 13985 | 2024-02-29T05:29:47Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme) | 13971 | 2022-07-09T10:34:23Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [phpstan/phpstan](https://github.com/phpstan/phpstan) | 13926 | 2026-05-03T17:44:47Z | Other | Infrastructure/tooling | 14 | 10 | 14 | 14 |
@@ -5864,7 +5861,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Blinue/Magpie](https://github.com/Blinue/Magpie) | 13695 | 2026-04-29T07:21:00Z | Other | Infrastructure/tooling | 13 | 5 | 13 | 13 |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 13641 | 2026-05-14T20:42:44Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) | 13541 | 2026-04-16T01:50:48Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13487 | 2026-05-20T09:38:46Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13495 | 2026-05-29T07:08:10Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) | 13485 | 2026-04-29T17:56:05Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod) | 13434 | 2026-05-02T17:38:11Z | Other | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir) | 13122 | 2025-10-12T18:06:13Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -5914,7 +5911,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) | 11295 | 2026-04-09T04:32:35Z | Other | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) | 11224 | 2022-07-10T12:58:50Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [salesforce/LAVIS](https://github.com/salesforce/LAVIS) | 11207 | 2024-11-18T19:51:42Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 12 |
-| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11193 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11203 | 2026-05-09T00:57:33Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [dart-lang/sdk](https://github.com/dart-lang/sdk) | 11123 | 2026-04-22T00:07:01Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [antlr/grammars-v4](https://github.com/antlr/grammars-v4) | 10993 | 2026-04-20T21:19:55Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | 10949 | 2026-04-24T09:09:41Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
@@ -5942,11 +5939,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mozilla/TTS](https://github.com/mozilla/TTS) | 10137 | 2023-11-09T15:37:59Z | Other | Unknown | 14 | 0 | 14 | 14 |
 | [swiftlang/swift-package-manager](https://github.com/swiftlang/swift-package-manager) | 10135 | 2026-05-02T08:49:03Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [square/moshi](https://github.com/square/moshi) | 10128 | 2026-04-28T16:04:27Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [advimman/lama](https://github.com/advimman/lama) | 9986 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
+| [advimman/lama](https://github.com/advimman/lama) | 9998 | 2025-02-05T08:41:52Z | Other | Unknown | 16 | 0 | 16 | 16 |
 | [ruby-grape/grape](https://github.com/ruby-grape/grape) | 9985 | 2026-05-02T15:07:15Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [Quick/Quick](https://github.com/Quick/Quick) | 9828 | 2026-04-13T10:39:46Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 11 |
 | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | 9816 | 2026-04-16T22:58:07Z | Other | Infrastructure/tooling | 13 | 7 | 13 | 13 |
-| [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9789 | 2026-05-04T21:01:49Z | Other | CLI | 3 | 6 | 3 | 3 |
+| [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9791 | 2026-05-04T21:01:49Z | Other | CLI | 3 | 6 | 3 | 3 |
 | [MahApps/MahApps.Metro](https://github.com/MahApps/MahApps.Metro) | 9782 | 2026-04-15T07:11:53Z | Other | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [activeadmin/activeadmin](https://github.com/activeadmin/activeadmin) | 9684 | 2026-05-01T01:36:55Z | Other | Infrastructure/tooling | 11 | 23 | 11 | 11 |
 | [nix-community/home-manager](https://github.com/nix-community/home-manager) | 9674 | 2026-04-24T04:19:59Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
@@ -5955,7 +5952,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/codeql](https://github.com/github/codeql) | 9535 | 2026-04-29T13:59:02Z | Other | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [SwiftGen/SwiftGen](https://github.com/SwiftGen/SwiftGen) | 9531 | 2026-04-16T08:20:58Z | Other | Infrastructure/tooling | 17 | 4 | 17 | 17 |
 | [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | 9404 | 2026-03-25T15:30:57Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | 9397 | 2026-05-16T19:17:34Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | 9400 | 2026-05-16T19:17:34Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [vimwiki/vimwiki](https://github.com/vimwiki/vimwiki) | 9392 | 2026-04-30T18:15:10Z | Other | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [clojure/clojurescript](https://github.com/clojure/clojurescript) | 9387 | 2026-03-08T16:25:04Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [roboflow/notebooks](https://github.com/roboflow/notebooks) | 9363 | 2026-03-27T09:29:56Z | Other | Infrastructure/tooling | 20 | 3 | 20 | 20 |
@@ -5963,7 +5960,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [troxler/awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) | 9308 | 2026-04-11T08:46:47Z | Other | Framework | 7 | 0 | 7 | 7 |
 | [daylerees/colour-schemes](https://github.com/daylerees/colour-schemes) | 9298 | 2024-01-08T11:55:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [whatwg/html](https://github.com/whatwg/html) | 9203 | 2026-04-24T12:24:13Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
-| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9198 | 2026-05-26T14:47:40Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
+| [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9200 | 2026-05-29T23:19:46Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
 | [deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP) | 9181 | 2026-04-23T08:10:14Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nvim-mini/mini.nvim](https://github.com/nvim-mini/mini.nvim) | 9123 | 2026-05-09T11:09:21Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [github/semantic](https://github.com/github/semantic) | 9053 | 2025-04-01T16:36:44Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -6007,7 +6004,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DmitryUlyanov/deep-image-prior](https://github.com/DmitryUlyanov/deep-image-prior) | 8078 | 2023-04-27T03:47:44Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [omniauth/omniauth](https://github.com/omniauth/omniauth) | 8068 | 2026-02-27T14:56:33Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 7 |
 | [OrchardCMS/OrchardCore](https://github.com/OrchardCMS/OrchardCore) | 8066 | 2026-04-23T21:44:31Z | Other | Infrastructure/tooling | 13 | 25 | 13 | 13 |
-| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8051 | 2026-05-26T13:43:30Z | Other | Infrastructure/tooling | 10 | 34 | 10 | 10 |
+| [all-contributors/allcontributors.org](https://github.com/all-contributors/allcontributors.org) | 8052 | 2026-05-28T10:02:41Z | Other | Infrastructure/tooling | 10 | 34 | 10 | 10 |
 | [krzysztofzablocki/Sourcery](https://github.com/krzysztofzablocki/Sourcery) | 7984 | 2026-02-11T11:16:30Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | 7975 | 2026-03-24T15:25:11Z | Other | Infrastructure/tooling | 18 | 5 | 19 | 19 |
 | [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example) | 7953 | 2026-04-19T11:40:29Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -6039,7 +6036,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ninenines/cowboy](https://github.com/ninenines/cowboy) | 7487 | 2026-04-02T13:18:09Z | Other | Infrastructure/tooling | 19 | 4 | 19 | 19 |
 | [folke/snacks.nvim](https://github.com/folke/snacks.nvim) | 7478 | 2026-03-21T09:05:56Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [phar-io/version](https://github.com/phar-io/version) | 7477 | 2024-01-31T22:47:27Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) | 7425 | 2024-08-06T07:19:40Z | Other | Infrastructure/tooling | 22 | 7 | 22 | 22 |
+| [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic) | 7428 | 2024-08-06T07:19:40Z | Other | Infrastructure/tooling | 22 | 7 | 22 | 22 |
 | [catppuccin/nvim](https://github.com/catppuccin/nvim) | 7398 | 2026-04-29T10:57:29Z | Other | Infrastructure/tooling | 15 | 7 | 15 | 16 |
 | [tabulapdf/tabula](https://github.com/tabulapdf/tabula) | 7396 | 2025-03-14T14:04:33Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | 7373 | 2026-05-02T21:23:28Z | Other | Infrastructure/tooling | 5 | 27 | 5 | 5 |
@@ -6092,7 +6089,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/rfcs](https://github.com/rust-lang/rfcs) | 6446 | 2026-04-17T14:34:08Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [alexreisner/geocoder](https://github.com/alexreisner/geocoder) | 6440 | 2026-03-28T00:56:26Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [microsoft/Security-101](https://github.com/microsoft/Security-101) | 6427 | 2025-12-21T10:07:56Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
-| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6414 | 2026-05-26T12:10:21Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
+| [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6415 | 2026-05-28T23:27:06Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) | 6403 | 2023-02-20T10:15:34Z | Other | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [devlooped/moq](https://github.com/devlooped/moq) | 6383 | 2026-05-13T13:51:00Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [cocodataset/cocoapi](https://github.com/cocodataset/cocoapi) | 6373 | 2024-04-17T05:14:06Z | Other | Service/API | 0 | 0 | 0 | 0 |
@@ -6115,10 +6112,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gpu-mode/lectures](https://github.com/gpu-mode/lectures) | 6042 | 2026-04-22T23:42:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [github/markup](https://github.com/github/markup) | 6023 | 2026-04-29T10:24:30Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [androidx/androidx](https://github.com/androidx/androidx) | 5986 | 2026-05-04T03:26:45Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5977 | 2026-05-26T19:54:15Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5983 | 2026-05-30T00:39:58Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [actions/runner](https://github.com/actions/runner) | 5954 | 2026-04-17T13:18:03Z | Other | Infrastructure/tooling | 8 | 11 | 0 | 0 |
-| [gluonfield/enchanted](https://github.com/gluonfield/enchanted) | 5949 | 2025-03-19T20:19:21Z | Other | Model/data | 7 | 0 | 7 | 7 |
-| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5937 | 2026-05-26T19:07:23Z | Other | Infrastructure/tooling | 24 | 13 | 24 | 24 |
+| [gluonfield/enchanted](https://github.com/gluonfield/enchanted) | 5951 | 2025-03-19T20:19:21Z | Other | Model/data | 7 | 0 | 7 | 7 |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5938 | 2026-05-30T00:49:44Z | Other | Infrastructure/tooling | 24 | 15 | 24 | 24 |
 | [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) | 5902 | 2026-04-29T21:25:58Z | Other | Unknown | 4 | 0 | 5 | 5 |
 | [crewAIInc/crewAI-examples](https://github.com/crewAIInc/crewAI-examples) | 5895 | 2026-04-20T19:45:46Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) | 5885 | 2026-03-31T13:27:44Z | Other | CLI | 15 | 2 | 15 | 15 |
@@ -6229,7 +6226,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker/docs](https://github.com/docker/docs) | 4558 | 2026-04-30T03:17:47Z | Other | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [deanmalmgren/textract](https://github.com/deanmalmgren/textract) | 4550 | 2026-05-04T05:08:35Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 4540 | 2026-05-02T13:52:26Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [babashka/babashka](https://github.com/babashka/babashka) | 4513 | 2026-05-23T18:23:48Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
+| [babashka/babashka](https://github.com/babashka/babashka) | 4522 | 2026-05-29T14:54:11Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
 | [microsoft/BotBuilder-Samples](https://github.com/microsoft/BotBuilder-Samples) | 4507 | 2025-12-23T20:43:15Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | 4500 | 2026-04-26T19:52:44Z | Other | Infrastructure/tooling | 5 | 4 | 6 | 6 |
 | [blockscout/blockscout](https://github.com/blockscout/blockscout) | 4500 | 2026-04-23T16:25:52Z | Other | Infrastructure/tooling | 13 | 14 | 13 | 13 |
@@ -6257,7 +6254,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [VectorSpaceLab/OmniGen](https://github.com/VectorSpaceLab/OmniGen) | 4315 | 2025-12-04T15:59:12Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | 4311 | 2025-01-14T16:03:57Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [puremourning/vimspector](https://github.com/puremourning/vimspector) | 4304 | 2026-04-22T06:52:01Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4293 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4292 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/fsharp](https://github.com/dotnet/fsharp) | 4283 | 2026-04-23T21:15:06Z | Other | Infrastructure/tooling | 15 | 22 | 15 | 15 |
 | [mikepenz/AboutLibraries](https://github.com/mikepenz/AboutLibraries) | 4278 | 2026-05-02T21:05:10Z | Other | Infrastructure/tooling | 20 | 15 | 20 | 20 |
 | [DiligentGraphics/DiligentEngine](https://github.com/DiligentGraphics/DiligentEngine) | 4275 | 2026-04-27T18:14:53Z | Other | Infrastructure/tooling | 21 | 13 | 22 | 22 |
@@ -6331,7 +6328,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onnx/tutorials](https://github.com/onnx/tutorials) | 3667 | 2024-07-15T13:12:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CommunityToolkit/dotnet](https://github.com/CommunityToolkit/dotnet) | 3661 | 2026-03-25T20:27:06Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) | 3658 | 2026-05-01T14:19:21Z | Other | Infrastructure/tooling | 17 | 15 | 17 | 17 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3654 | 2026-05-26T18:58:05Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-29T07:02:11Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [clojure-emacs/cider](https://github.com/clojure-emacs/cider) | 3646 | 2026-04-29T19:06:40Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [aws/aws-sdk-ruby](https://github.com/aws/aws-sdk-ruby) | 3643 | 2026-04-29T19:30:13Z | Other | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [nesquena/rabl](https://github.com/nesquena/rabl) | 3631 | 2026-03-18T20:00:35Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -6424,7 +6421,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [basujindal/stable-diffusion](https://github.com/basujindal/stable-diffusion) | 3094 | 2023-09-20T10:29:11Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [mileszs/ack.vim](https://github.com/mileszs/ack.vim) | 3091 | 2024-03-12T02:12:15Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [httprb/http](https://github.com/httprb/http) | 3088 | 2026-04-20T18:20:44Z | Other | CLI | 10 | 3 | 10 | 10 |
-| [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 3084 | 2026-05-01T07:18:33Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 3087 | 2026-05-01T07:18:33Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [trailblazer/cells](https://github.com/trailblazer/cells) | 3077 | 2024-12-02T09:00:38Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [Azure/azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs) | 3060 | 2026-04-24T00:40:04Z | Other | Infrastructure/tooling | 12 | 39 | 12 | 12 |
 | [ieee8023/covid-chestxray-dataset](https://github.com/ieee8023/covid-chestxray-dataset) | 3058 | 2022-08-18T04:01:08Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
@@ -6437,7 +6434,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws-ia/terraform-aws-eks-blueprints](https://github.com/aws-ia/terraform-aws-eks-blueprints) | 3015 | 2026-04-15T11:53:23Z | Other | Infrastructure/tooling | 15 | 13 | 15 | 15 |
 | [FStarLang/FStar](https://github.com/FStarLang/FStar) | 3014 | 2026-04-29T20:33:52Z | Other | Infrastructure/tooling | 21 | 13 | 21 | 21 |
 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 3005 | 2026-04-21T16:13:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3003 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3002 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [elixir-plug/plug](https://github.com/elixir-plug/plug) | 3000 | 2026-04-06T18:02:49Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [AliSoftware/Reusable](https://github.com/AliSoftware/Reusable) | 2989 | 2023-09-11T13:52:18Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [xtdb/xtdb](https://github.com/xtdb/xtdb) | 2984 | 2026-05-04T04:29:15Z | Other | Infrastructure/tooling | 15 | 16 | 15 | 15 |
@@ -6472,7 +6469,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [twosigma/beakerx](https://github.com/twosigma/beakerx) | 2841 | 2023-12-04T02:04:59Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) | 2840 | 2025-12-31T16:00:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Shougo/unite.vim](https://github.com/Shougo/unite.vim) | 2835 | 2023-05-18T09:48:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2833 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [nvimdev/dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | 2834 | 2026-04-17T02:06:43Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [rspec/rspec-metagem](https://github.com/rspec/rspec-metagem) | 2832 | 2024-11-27T18:22:15Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [isl-org/ZoeDepth](https://github.com/isl-org/ZoeDepth) | 2822 | 2025-05-05T18:18:49Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [cashapp/turbine](https://github.com/cashapp/turbine) | 2821 | 2026-04-28T15:21:42Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
@@ -6495,7 +6492,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker-library/python](https://github.com/docker-library/python) | 2740 | 2026-04-08T04:56:06Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [com-lihaoyi/mill](https://github.com/com-lihaoyi/mill) | 2733 | 2026-04-30T07:25:55Z | Other | Infrastructure/tooling | 19 | 8 | 19 | 19 |
 | [tpope/vim-dispatch](https://github.com/tpope/vim-dispatch) | 2733 | 2024-09-02T19:34:27Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [hyperhype/hyperscript](https://github.com/hyperhype/hyperscript) | 2733 | 2021-05-28T02:59:49Z | Other | Unknown | 2 | 7 | 2 | 2 |
 | [Shougo/neocomplete.vim](https://github.com/Shougo/neocomplete.vim) | 2730 | 2023-05-18T09:47:35Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [mhinz/vim-signify](https://github.com/mhinz/vim-signify) | 2729 | 2026-03-12T14:24:49Z | Other | Unknown | 11 | 0 | 11 | 11 |
 | [FasterDecoding/Medusa](https://github.com/FasterDecoding/Medusa) | 2729 | 2024-06-25T12:23:04Z | Other | Framework | 1 | 0 | 1 | 1 |
@@ -6513,7 +6509,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intel/BigDL](https://github.com/intel/BigDL) | 2695 | 2026-05-08T17:54:20Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [pgpartman/pg_partman](https://github.com/pgpartman/pg_partman) | 2684 | 2026-03-09T15:14:51Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [ninject/Ninject](https://github.com/ninject/Ninject) | 2678 | 2024-06-14T01:19:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2676 | 2026-05-21T23:36:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2676 | 2026-05-26T22:36:19Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [neomake/neomake](https://github.com/neomake/neomake) | 2673 | 2024-04-05T19:20:22Z | Other | Framework | 10 | 0 | 10 | 10 |
 | [danmayer/coverband](https://github.com/danmayer/coverband) | 2670 | 2026-04-29T02:58:32Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [plotly/plotly.R](https://github.com/plotly/plotly.R) | 2667 | 2026-04-16T21:34:27Z | Other | Infrastructure/tooling | 10 | 10 | 10 | 10 |
@@ -6594,6 +6590,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ButchersBoy/Dragablz](https://github.com/ButchersBoy/Dragablz) | 2316 | 2024-05-22T06:01:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Hzzone/pytorch-openpose](https://github.com/Hzzone/pytorch-openpose) | 2312 | 2024-07-09T15:49:57Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [copilot-emacs/copilot.el](https://github.com/copilot-emacs/copilot.el) | 2305 | 2026-03-31T07:13:56Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [psmux/psmux](https://github.com/psmux/psmux) | 2288 | 2026-05-28T13:42:43Z | Other | CLI | 16 | 5 | 16 | 16 |
 | [vim/vim-win32-installer](https://github.com/vim/vim-win32-installer) | 2283 | 2026-04-23T22:34:18Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [gkamradt/LLMTest_NeedleInAHaystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack) | 2278 | 2024-08-17T09:18:37Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [company-mode/company-mode](https://github.com/company-mode/company-mode) | 2277 | 2026-04-22T10:33:19Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -6613,7 +6610,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tuist/XcodeProj](https://github.com/tuist/XcodeProj) | 2204 | 2026-04-29T23:02:43Z | Other | Infrastructure/tooling | 8 | 7 | 8 | 9 |
 | [belav/csharpier](https://github.com/belav/csharpier) | 2202 | 2026-04-26T14:51:00Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [csstools/postcss-preset-env](https://github.com/csstools/postcss-preset-env) | 2199 | 2023-10-24T11:39:23Z | Other | Infrastructure/tooling | 1 | 44 | 1 | 1 |
-| [psmux/psmux](https://github.com/psmux/psmux) | 2194 | 2026-05-26T10:21:58Z | Other | CLI | 16 | 5 | 16 | 16 |
 | [HaxeFlixel/flixel](https://github.com/HaxeFlixel/flixel) | 2192 | 2026-04-23T20:22:18Z | Other | Infrastructure/tooling | 7 | 3 | 8 | 8 |
 | [erichlof/THREE.js-PathTracing-Renderer](https://github.com/erichlof/THREE.js-PathTracing-Renderer) | 2192 | 2026-04-17T19:32:37Z | Other | CLI | 11 | 0 | 11 | 11 |
 | [rapidsai/cugraph](https://github.com/rapidsai/cugraph) | 2163 | 2026-04-23T05:34:42Z | Other | Infrastructure/tooling | 13 | 22 | 13 | 13 |
@@ -6634,13 +6630,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yang-song/score_sde_pytorch](https://github.com/yang-song/score_sde_pytorch) | 2100 | 2024-07-14T12:48:56Z | Other | Model/data | 9 | 0 | 9 | 9 |
 | [oppiliappan/scientifica](https://github.com/oppiliappan/scientifica) | 2099 | 2023-11-04T17:11:39Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [jalammar/ecco](https://github.com/jalammar/ecco) | 2096 | 2024-08-15T19:08:06Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
-| [pymc-devs/pymc-resources](https://github.com/pymc-devs/pymc-resources) | 2095 | 2024-12-23T21:26:01Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [pymc-devs/pymc-resources](https://github.com/pymc-devs/pymc-resources) | 2094 | 2024-12-23T21:26:01Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [Olical/conjure](https://github.com/Olical/conjure) | 2092 | 2026-04-24T12:35:19Z | Other | Infrastructure/tooling | 17 | 5 | 17 | 17 |
 | [mozilla-mobile/focus-android](https://github.com/mozilla-mobile/focus-android) | 2091 | 2022-12-13T09:16:32Z | Other | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [Xuyuanp/nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | 2090 | 2021-08-18T13:31:09Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [fsprojects/Paket](https://github.com/fsprojects/Paket) | 2086 | 2026-01-20T08:53:10Z | Other | Library | 6 | 0 | 6 | 6 |
-| [okd-project/okd](https://github.com/okd-project/okd) | 2076 | 2026-05-11T10:05:14Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [cloudfoundry/bosh](https://github.com/cloudfoundry/bosh) | 2076 | 2026-04-29T23:09:55Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [okd-project/okd](https://github.com/okd-project/okd) | 2075 | 2026-05-28T10:22:00Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [ankane/dexter](https://github.com/ankane/dexter) | 2075 | 2025-12-26T15:13:17Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [elixir-tesla/tesla](https://github.com/elixir-tesla/tesla) | 2071 | 2026-04-23T02:00:40Z | Other | CLI | 10 | 7 | 11 | 11 |
 | [klauspost/reedsolomon](https://github.com/klauspost/reedsolomon) | 2069 | 2026-04-30T09:31:47Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -6681,8 +6677,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [liuchengxu/vim-which-key](https://github.com/liuchengxu/vim-which-key) | 1989 | 2026-03-20T03:23:40Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [pfalcon/esp-open-sdk](https://github.com/pfalcon/esp-open-sdk) | 1989 | 2022-01-12T01:11:42Z | Other | Library | 2 | 0 | 2 | 2 |
 | [ggml-org/llama.vim](https://github.com/ggml-org/llama.vim) | 1986 | 2026-04-02T07:52:33Z | Other | Unknown | 3 | 0 | 3 | 3 |
+| [patterns-ai-core/langchainrb](https://github.com/patterns-ai-core/langchainrb) | 1984 | 2026-05-01T13:06:13Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) | 1984 | 2026-02-11T10:45:39Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [patterns-ai-core/langchainrb](https://github.com/patterns-ai-core/langchainrb) | 1983 | 2026-05-01T13:06:13Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | 1980 | 2026-05-01T01:04:54Z | Other | Infrastructure/tooling | 10 | 20 | 10 | 10 |
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 1978 | 2025-02-12T17:34:03Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [mlabbe/nativefiledialog](https://github.com/mlabbe/nativefiledialog) | 1976 | 2024-08-10T15:29:36Z | Other | Library | 4 | 0 | 4 | 4 |
@@ -6701,24 +6697,24 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Fuco1/smartparens](https://github.com/Fuco1/smartparens) | 1935 | 2026-01-29T12:14:19Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [abo-abo/hydra](https://github.com/abo-abo/hydra) | 1935 | 2025-03-16T12:55:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CannyLab/tsne-cuda](https://github.com/CannyLab/tsne-cuda) | 1925 | 2024-10-02T16:38:47Z | Other | Unknown | 11 | 0 | 11 | 11 |
+| [JuliaAI/MLJ.jl](https://github.com/JuliaAI/MLJ.jl) | 1924 | 2026-05-03T20:40:19Z | Other | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [GiovineItalia/Gadfly.jl](https://github.com/GiovineItalia/Gadfly.jl) | 1924 | 2025-10-04T00:20:43Z | Other | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [JuliaAI/MLJ.jl](https://github.com/JuliaAI/MLJ.jl) | 1923 | 2026-05-03T20:40:19Z | Other | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [abo-abo/avy](https://github.com/abo-abo/avy) | 1921 | 2024-11-01T13:57:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows) | 1915 | 2026-02-18T16:59:37Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [andrewrk/poop](https://github.com/andrewrk/poop) | 1913 | 2025-10-29T18:17:52Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Linaqruf/kohya-trainer](https://github.com/Linaqruf/kohya-trainer) | 1911 | 2024-05-14T06:25:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cognitect/transit-format](https://github.com/cognitect/transit-format) | 1908 | 2026-02-24T15:12:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1906 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [kikito/middleclass](https://github.com/kikito/middleclass) | 1906 | 2025-11-03T12:54:01Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1904 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1897 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
-| [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1896 | 2026-05-20T12:02:57Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [google-deepmind/tapnet](https://github.com/google-deepmind/tapnet) | 1903 | 2026-03-30T18:40:46Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1896 | 2026-05-29T18:08:27Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [romeovs/creep](https://github.com/romeovs/creep) | 1895 | 2021-07-12T15:32:42Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [cortinico/kotlin-android-template](https://github.com/cortinico/kotlin-android-template) | 1894 | 2026-04-29T20:10:32Z | Other | Infrastructure/tooling | 23 | 5 | 23 | 23 |
 | [Tiiiger/bert_score](https://github.com/Tiiiger/bert_score) | 1891 | 2024-07-30T09:41:28Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [sonph/onehalf](https://github.com/sonph/onehalf) | 1890 | 2024-06-07T14:54:17Z | Other | CLI | 10 | 0 | 10 | 10 |
 | [TreB1eN/InsightFace_Pytorch](https://github.com/TreB1eN/InsightFace_Pytorch) | 1889 | 2022-11-22T02:49:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mixu/markdown-styles](https://github.com/mixu/markdown-styles) | 1889 | 2022-03-25T06:11:01Z | Other | Unknown | 0 | 9 | 0 | 0 |
-| [zhoubolei/CAM](https://github.com/zhoubolei/CAM) | 1888 | 2022-09-13T14:02:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [zhoubolei/CAM](https://github.com/zhoubolei/CAM) | 1887 | 2022-09-13T14:02:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim) | 1886 | 2026-04-11T01:17:17Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [anmonteiro/lumo](https://github.com/anmonteiro/lumo) | 1875 | 2022-05-16T17:17:30Z | Other | Infrastructure/tooling | 6 | 44 | 6 | 6 |
 | [microsoft/mssql-docker](https://github.com/microsoft/mssql-docker) | 1871 | 2026-01-27T14:26:41Z | Other | Service/API | 6 | 0 | 6 | 6 |
@@ -6731,7 +6727,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [camlworks/dream](https://github.com/camlworks/dream) | 1845 | 2026-03-25T18:25:42Z | Other | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [YangLing0818/RPG-DiffusionMaster](https://github.com/YangLing0818/RPG-DiffusionMaster) | 1844 | 2025-02-01T13:28:48Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [Reference-LAPACK/lapack](https://github.com/Reference-LAPACK/lapack) | 1842 | 2026-04-24T19:53:49Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
-| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1841 | 2026-05-26T16:31:10Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
+| [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1841 | 2026-05-28T15:00:25Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [trailblazer/roar](https://github.com/trailblazer/roar) | 1841 | 2023-01-17T15:54:37Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [google/protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin) | 1833 | 2026-04-20T13:47:40Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [NVIDIA/cub](https://github.com/NVIDIA/cub) | 1832 | 2023-10-09T17:44:21Z | Other | Infrastructure/tooling | 12 | 2 | 12 | 12 |
@@ -6905,9 +6901,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [r-spatial/sf](https://github.com/r-spatial/sf) | 1431 | 2026-04-22T09:18:29Z | Other | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [edluffy/hologram.nvim](https://github.com/edluffy/hologram.nvim) | 1431 | 2023-11-15T01:01:53Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [jerryn70/GoodbyeAds](https://github.com/jerryn70/GoodbyeAds) | 1429 | 2024-11-22T07:43:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1428 | 2026-05-29T04:49:28Z | Other | CLI | 11 | 14 | 11 | 11 |
 | [microsoft/edgeai-for-beginners](https://github.com/microsoft/edgeai-for-beginners) | 1427 | 2026-04-20T15:24:16Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [kshenoy/vim-signature](https://github.com/kshenoy/vim-signature) | 1427 | 2022-10-20T10:08:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1426 | 2026-05-26T18:23:42Z | Other | CLI | 10 | 14 | 10 | 10 |
 | [elixir-mint/mint](https://github.com/elixir-mint/mint) | 1412 | 2026-04-28T14:57:36Z | Other | CLI | 7 | 3 | 7 | 7 |
 | [FlineDev/BartyCrouch](https://github.com/FlineDev/BartyCrouch) | 1411 | 2024-04-05T11:31:19Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [JuliaGPU/CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) | 1408 | 2026-05-05T06:47:18Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
@@ -6915,7 +6911,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [benoitc/hackney](https://github.com/benoitc/hackney) | 1405 | 2026-04-25T09:02:46Z | Other | CLI | 4 | 4 | 4 | 4 |
 | [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) | 1405 | 2026-04-08T13:50:08Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [microsoft/TextWorld](https://github.com/microsoft/TextWorld) | 1405 | 2026-01-30T19:15:32Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-21T23:16:36Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [googleapis/google-auth-library-php](https://github.com/googleapis/google-auth-library-php) | 1396 | 2026-05-29T19:36:58Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Morantron/tmux-fingers](https://github.com/Morantron/tmux-fingers) | 1396 | 2026-04-18T10:20:05Z | Other | CLI | 8 | 3 | 8 | 8 |
 | [innnky/emotional-vits](https://github.com/innnky/emotional-vits) | 1396 | 2023-03-30T11:10:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 1395 | 2026-04-28T14:32:47Z | Other | CLI | 9 | 3 | 9 | 9 |
@@ -6932,7 +6928,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nim-lang/nimble](https://github.com/nim-lang/nimble) | 1372 | 2026-04-30T14:29:23Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [modelcontextprotocol/swift-sdk](https://github.com/modelcontextprotocol/swift-sdk) | 1371 | 2026-04-29T11:34:21Z | Other | CLI | 1 | 4 | 1 | 1 |
 | [pry/pry-rails](https://github.com/pry/pry-rails) | 1362 | 2024-06-20T01:31:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [babashka/sci](https://github.com/babashka/sci) | 1357 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
+| [babashka/sci](https://github.com/babashka/sci) | 1358 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [sneako/finch](https://github.com/sneako/finch) | 1353 | 2026-04-23T10:49:47Z | Other | CLI | 2 | 3 | 2 | 2 |
 | [garybernhardt/selecta](https://github.com/garybernhardt/selecta) | 1353 | 2026-03-31T19:38:25Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [lambdalisue/vim-fern](https://github.com/lambdalisue/vim-fern) | 1352 | 2026-05-04T03:25:38Z | Other | Infrastructure/tooling | 12 | 3 | 12 | 13 |
@@ -7039,9 +7035,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [moby/vpnkit](https://github.com/moby/vpnkit) | 1191 | 2026-04-09T10:13:21Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ndmitchell/ghcid](https://github.com/ndmitchell/ghcid) | 1188 | 2026-04-04T06:19:23Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [ROCm/MIOpen](https://github.com/ROCm/MIOpen) | 1185 | 2026-05-04T22:31:38Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [mds1/multicall3](https://github.com/mds1/multicall3) | 1184 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ankane/ahoy_email](https://github.com/ankane/ahoy_email) | 1183 | 2026-04-01T20:49:18Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [mds1/multicall3](https://github.com/mds1/multicall3) | 1182 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1177 | 2026-05-26T14:51:25Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1178 | 2026-05-30T00:07:34Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [googleapis/google-cloud-php](https://github.com/googleapis/google-cloud-php) | 1175 | 2026-04-29T20:45:18Z | Other | CLI | 5 | 9 | 5 | 9 |
 | [lewis6991/impatient.nvim](https://github.com/lewis6991/impatient.nvim) | 1175 | 2023-05-05T08:47:45Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [excon/excon](https://github.com/excon/excon) | 1173 | 2026-03-20T19:18:14Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -7134,7 +7130,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lmbelo/python4delphi](https://github.com/lmbelo/python4delphi) | 1042 | 2025-11-26T11:54:48Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [petertriho/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | 1040 | 2025-11-17T11:06:08Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [licensee/licensed](https://github.com/licensee/licensed) | 1039 | 2026-05-25T14:12:09Z | Other | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1036 | 2026-05-15T13:54:47Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
+| [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1037 | 2026-05-15T13:54:47Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [foundry-rs/forge-std](https://github.com/foundry-rs/forge-std) | 1036 | 2026-05-05T11:19:46Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [terraform-aws-modules/terraform-aws-lambda](https://github.com/terraform-aws-modules/terraform-aws-lambda) | 1035 | 2026-04-23T09:03:54Z | Other | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [pesser/stable-diffusion](https://github.com/pesser/stable-diffusion) | 1034 | 2023-05-05T22:13:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -7207,8 +7203,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lifepillar/vim-mucomplete](https://github.com/lifepillar/vim-mucomplete) | 948 | 2026-03-11T15:47:58Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [kubernetes/k8s.io](https://github.com/kubernetes/k8s.io) | 947 | 2026-04-29T10:03:24Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [weaviate/recipes](https://github.com/weaviate/recipes) | 941 | 2026-04-29T09:06:30Z | Other | Unknown | 6 | 0 | 6 | 6 |
+| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 941 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/designs](https://github.com/dotnet/designs) | 940 | 2026-04-20T17:29:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [litedb-org/LiteDB.Studio](https://github.com/litedb-org/LiteDB.Studio) | 940 | 2024-11-20T18:06:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [whatyouhide/stream_data](https://github.com/whatyouhide/stream_data) | 938 | 2026-03-09T08:28:40Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [ruby-formatter/rufo](https://github.com/ruby-formatter/rufo) | 935 | 2025-12-25T06:53:53Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [FluxML/model-zoo](https://github.com/FluxML/model-zoo) | 934 | 2024-11-25T18:49:31Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
@@ -7345,9 +7341,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hollowstrawberry/kohya-colab](https://github.com/hollowstrawberry/kohya-colab) | 798 | 2026-02-05T14:18:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [humbug/php-scoper](https://github.com/humbug/php-scoper) | 797 | 2026-04-20T20:47:19Z | Other | Infrastructure/tooling | 11 | 15 | 11 | 11 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 791 | 2026-05-30T00:26:59Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
 | [activeadmin/arbre](https://github.com/activeadmin/arbre) | 791 | 2026-04-30T16:52:07Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [celo-org/celo-monorepo](https://github.com/celo-org/celo-monorepo) | 791 | 2026-04-23T23:50:12Z | Other | Infrastructure/tooling | 16 | 44 | 16 | 16 |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 790 | 2026-05-26T14:54:25Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
 | [tiagofumo/vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) | 790 | 2023-07-07T03:26:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/learn-hapi](https://github.com/dwyl/learn-hapi) | 789 | 2021-12-27T22:31:06Z | Other | Web app | 0 | 13 | 0 | 0 |
 | [teticio/audio-diffusion](https://github.com/teticio/audio-diffusion) | 788 | 2024-09-25T15:51:21Z | Other | Library | 4 | 0 | 4 | 4 |
@@ -7525,16 +7521,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [travis-ci/travis-cookbooks](https://github.com/travis-ci/travis-cookbooks) | 659 | 2025-10-30T15:04:30Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [dwyl/learn-phoenix](https://github.com/dwyl/learn-phoenix) | 659 | 2025-09-14T07:08:35Z | Other | Framework | 0 | 0 | 0 | 0 |
 | [raoyongming/DynamicViT](https://github.com/raoyongming/DynamicViT) | 659 | 2023-07-11T03:03:13Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 658 | 2026-05-26T18:56:33Z | Other | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [FiloSottile/homebrew-musl-cross](https://github.com/FiloSottile/homebrew-musl-cross) | 658 | 2026-01-14T15:56:17Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cvg/GlueStick](https://github.com/cvg/GlueStick) | 658 | 2025-04-07T12:20:12Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [bow-swift/bow](https://github.com/bow-swift/bow) | 658 | 2022-10-09T21:51:49Z | Other | Infrastructure/tooling | 18 | 5 | 18 | 18 |
-| [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 657 | 2026-05-13T19:01:00Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [mozilla-mobile/reference-browser](https://github.com/mozilla-mobile/reference-browser) | 657 | 2026-04-30T04:38:17Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [travis-ci/travis-build](https://github.com/travis-ci/travis-build) | 657 | 2025-12-29T12:48:58Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) | 657 | 2022-08-31T15:25:20Z | Other | CLI | 6 | 0 | 6 | 6 |
 | [dstein64/vim-startuptime](https://github.com/dstein64/vim-startuptime) | 656 | 2026-04-10T16:56:52Z | Other | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver) | 655 | 2026-04-18T22:37:04Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
-| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 654 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
+| [Deep-Symmetry/beat-link-trigger](https://github.com/Deep-Symmetry/beat-link-trigger) | 655 | 2025-11-15T10:37:09Z | Other | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [jaredly/reason-language-server](https://github.com/jaredly/reason-language-server) | 654 | 2023-05-14T13:50:16Z | Other | Infrastructure/tooling | 1 | 19 | 1 | 1 |
 | [openclaw/nix-openclaw](https://github.com/openclaw/nix-openclaw) | 653 | 2026-04-14T16:16:01Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [elixir-ecto/ecto_sql](https://github.com/elixir-ecto/ecto_sql) | 653 | 2026-04-13T13:03:35Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -7542,8 +7538,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [csstools/normalize.css](https://github.com/csstools/normalize.css) | 653 | 2026-03-26T11:25:46Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [tmhedberg/SimpylFold](https://github.com/tmhedberg/SimpylFold) | 653 | 2022-05-02T17:18:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [day8/re-frame-10x](https://github.com/day8/re-frame-10x) | 652 | 2026-04-30T09:11:10Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io) | 652 | 2022-12-06T19:34:09Z | Other | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [bwillis/versioncake](https://github.com/bwillis/versioncake) | 652 | 2022-07-21T22:54:25Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 5 |
+| [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io) | 651 | 2022-12-06T19:34:09Z | Other | Infrastructure/tooling | 3 | 15 | 3 | 3 |
 | [bhauman/figwheel-main](https://github.com/bhauman/figwheel-main) | 650 | 2026-03-17T03:45:33Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [HapticX/happyx](https://github.com/HapticX/happyx) | 650 | 2025-10-02T12:23:43Z | Other | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [status-im/nimbus-eth2](https://github.com/status-im/nimbus-eth2) | 649 | 2026-04-24T07:33:16Z | Other | CLI | 13 | 10 | 13 | 13 |
@@ -7582,10 +7578,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [willothy/nvim-cokeline](https://github.com/willothy/nvim-cokeline) | 626 | 2025-01-24T20:51:37Z | Other | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [madskristensen/BundlerMinifier](https://github.com/madskristensen/BundlerMinifier) | 626 | 2024-05-03T10:21:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [edkolev/promptline.vim](https://github.com/edkolev/promptline.vim) | 625 | 2024-07-26T15:09:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-02T18:39:24Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
+| [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [ruby/spec](https://github.com/ruby/spec) | 622 | 2026-04-06T18:53:15Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 622 | 2026-02-12T15:35:20Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [liuchengxu/space-vim-dark](https://github.com/liuchengxu/space-vim-dark) | 622 | 2023-11-04T02:12:37Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 621 | 2026-02-12T15:35:20Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline) | 621 | 2025-05-18T01:04:26Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [kkinnear/zprint](https://github.com/kkinnear/zprint) | 621 | 2025-05-14T17:02:32Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [Myriad-Dreamin/shiroa](https://github.com/Myriad-Dreamin/shiroa) | 620 | 2025-12-14T08:56:58Z | Other | CLI | 5 | 18 | 5 | 5 |
@@ -7631,7 +7627,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [com-lihaoyi/cask](https://github.com/com-lihaoyi/cask) | 592 | 2026-01-14T12:22:14Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [FluxML/FastAI.jl](https://github.com/FluxML/FastAI.jl) | 592 | 2025-08-26T00:25:29Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [rails/sprockets-rails](https://github.com/rails/sprockets-rails) | 592 | 2024-10-23T03:54:09Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [TuSimple/tusimple-benchmark](https://github.com/TuSimple/tusimple-benchmark) | 591 | 2021-05-28T18:08:53Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [msz/hammox](https://github.com/msz/hammox) | 589 | 2025-07-26T23:00:58Z | Other | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [giraud/bs-css](https://github.com/giraud/bs-css) | 589 | 2025-07-16T07:12:58Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [google/vim-maktaba](https://github.com/google/vim-maktaba) | 589 | 2023-03-21T11:14:43Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -7669,8 +7664,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lichengunc/refer](https://github.com/lichengunc/refer) | 570 | 2024-08-27T08:53:26Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) | 569 | 2026-05-01T17:56:52Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [dapphub/dappsys](https://github.com/dapphub/dappsys) | 569 | 2022-03-12T13:23:41Z | Other | Unknown | 3 | 0 | 3 | 3 |
+| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) | 568 | 2025-08-14T22:22:13Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 567 | 2026-05-25T12:37:31Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [open-telemetry/semantic-conventions](https://github.com/open-telemetry/semantic-conventions) | 566 | 2026-04-28T11:45:42Z | Other | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [marcoieni/intellimacs](https://github.com/marcoieni/intellimacs) | 566 | 2024-11-03T21:09:50Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [ilovepose/DarkPose](https://github.com/ilovepose/DarkPose) | 566 | 2024-05-17T18:07:47Z | Other | Unknown | 5 | 0 | 5 | 5 |
@@ -8022,14 +8017,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cognitect/transit-clj](https://github.com/cognitect/transit-clj) | 377 | 2026-03-16T19:56:36Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [kaarmu/typst.vim](https://github.com/kaarmu/typst.vim) | 376 | 2025-12-17T11:39:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [metosin/ring-swagger](https://github.com/metosin/ring-swagger) | 374 | 2026-03-20T06:30:58Z | Other | Infrastructure/tooling | 7 | 7 | 8 | 8 |
+| [JuliaGizmos/Blink.jl](https://github.com/JuliaGizmos/Blink.jl) | 374 | 2026-02-26T15:25:09Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [processing/processing-docs](https://github.com/processing/processing-docs) | 374 | 2023-01-09T13:12:50Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [nvim-mini/mini.icons](https://github.com/nvim-mini/mini.icons) | 373 | 2026-04-14T11:57:15Z | Other | Library | 3 | 0 | 3 | 3 |
-| [JuliaGizmos/Blink.jl](https://github.com/JuliaGizmos/Blink.jl) | 373 | 2026-02-26T15:25:09Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [jdanielmourao/obsidian-sanctum](https://github.com/jdanielmourao/obsidian-sanctum) | 373 | 2024-08-04T11:35:13Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 373 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bokkypoobah/BokkyPooBahsDateTimeLibrary](https://github.com/bokkypoobah/BokkyPooBahsDateTimeLibrary) | 373 | 2022-08-05T09:08:43Z | Other | Library | 4 | 0 | 4 | 4 |
 | [SimonCropp/NaughtyStrings](https://github.com/SimonCropp/NaughtyStrings) | 372 | 2026-04-21T20:38:41Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [bootscore/bootscore](https://github.com/bootscore/bootscore) | 372 | 2026-04-21T17:43:09Z | Other | Template/starter | 10 | 0 | 10 | 10 |
-| [bennyxguo/Obsidian-Obsidianite](https://github.com/bennyxguo/Obsidian-Obsidianite) | 372 | 2024-02-26T17:42:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nimterop/nimterop](https://github.com/nimterop/nimterop) | 372 | 2023-04-03T18:20:41Z | Other | Library | 4 | 0 | 4 | 4 |
 | [wjdp/htmltest](https://github.com/wjdp/htmltest) | 371 | 2025-01-20T23:29:27Z | Other | CLI | 7 | 10 | 7 | 7 |
 | [v-iashin/SpecVQGAN](https://github.com/v-iashin/SpecVQGAN) | 371 | 2024-07-12T09:05:58Z | Other | Infrastructure/tooling | 13 | 0 | 13 | 13 |
@@ -8046,7 +8041,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Fang-Haoshu/Halpe-FullBody](https://github.com/Fang-Haoshu/Halpe-FullBody) | 367 | 2022-11-08T04:39:30Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [aspect-build/rules_js](https://github.com/aspect-build/rules_js) | 366 | 2026-04-23T07:15:21Z | Other | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [KVM-VMI/kvm-vmi](https://github.com/KVM-VMI/kvm-vmi) | 366 | 2025-10-11T13:49:14Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-23T08:32:05Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [WebAssembly/tool-conventions](https://github.com/WebAssembly/tool-conventions) | 364 | 2026-01-29T20:14:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dorjeduck/llm.mojo](https://github.com/dorjeduck/llm.mojo) | 364 | 2025-08-05T19:20:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [filecoin-project/specs](https://github.com/filecoin-project/specs) | 364 | 2025-07-10T07:01:00Z | Other | Infrastructure/tooling | 4 | 32 | 4 | 4 |
@@ -8107,7 +8102,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Calinou/scoop-games](https://github.com/Calinou/scoop-games) | 344 | 2026-04-23T23:36:39Z | Other | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [googleapis/google-cloud-php-storage](https://github.com/googleapis/google-cloud-php-storage) | 344 | 2026-04-09T21:39:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [joshuaulrich/TTR](https://github.com/joshuaulrich/TTR) | 343 | 2026-02-28T19:51:20Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |
-| [dwyl/quotes](https://github.com/dwyl/quotes) | 342 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 5 | 12 | 5 | 5 |
+| [dwyl/quotes](https://github.com/dwyl/quotes) | 342 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |
 | [bitwuzla/bitwuzla](https://github.com/bitwuzla/bitwuzla) | 342 | 2026-04-29T19:36:44Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [trptcolin/reply](https://github.com/trptcolin/reply) | 341 | 2026-02-23T17:38:23Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [microsoft/MSMARCO-Passage-Ranking](https://github.com/microsoft/MSMARCO-Passage-Ranking) | 341 | 2023-06-12T18:21:59Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -8207,9 +8202,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kubeflow/pytorch-operator](https://github.com/kubeflow/pytorch-operator) | 310 | 2021-12-01T17:44:48Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [logseq/publish-spa](https://github.com/logseq/publish-spa) | 309 | 2026-04-29T21:26:28Z | Other | CLI | 3 | 9 | 3 | 3 |
 | [liuchengxu/eleline.vim](https://github.com/liuchengxu/eleline.vim) | 309 | 2023-12-05T01:18:35Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [dart-archive/wasm](https://github.com/dart-archive/wasm) | 309 | 2023-07-01T23:28:19Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [ScoopInstaller/Java](https://github.com/ScoopInstaller/Java) | 308 | 2026-04-29T14:28:57Z | Other | CLI | 20 | 3 | 20 | 20 |
 | [tc39/proposal-defer-import-eval](https://github.com/tc39/proposal-defer-import-eval) | 308 | 2026-04-21T15:44:39Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [dart-archive/wasm](https://github.com/dart-archive/wasm) | 308 | 2023-07-01T23:28:19Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [cognitect-labs/test-runner](https://github.com/cognitect-labs/test-runner) | 307 | 2024-11-19T22:32:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [project-everest/vale](https://github.com/project-everest/vale) | 307 | 2024-02-22T22:45:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [generalized-iou/g-darknet](https://github.com/generalized-iou/g-darknet) | 307 | 2023-01-19T10:28:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -8389,9 +8384,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/go-getting-started](https://github.com/heroku/go-getting-started) | 250 | 2026-05-01T18:46:59Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) | 250 | 2026-04-30T23:35:24Z | Other | Unknown | 15 | 0 | 15 | 15 |
 | [apple/swift-nio-extras](https://github.com/apple/swift-nio-extras) | 250 | 2026-04-16T12:15:33Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [Deep-Symmetry/dysentery](https://github.com/Deep-Symmetry/dysentery) | 250 | 2026-03-28T04:47:31Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [stuartsierra/reloaded](https://github.com/stuartsierra/reloaded) | 250 | 2025-10-26T16:35:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [max-baz/lightline-ale](https://github.com/max-baz/lightline-ale) | 250 | 2021-09-12T02:09:06Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [Deep-Symmetry/dysentery](https://github.com/Deep-Symmetry/dysentery) | 249 | 2026-03-28T04:47:31Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [chakravala/Reduce.jl](https://github.com/chakravala/Reduce.jl) | 249 | 2025-11-30T13:29:22Z | Other | Unknown | 11 | 0 | 11 | 11 |
 | [r9y9/pyopenjtalk](https://github.com/r9y9/pyopenjtalk) | 249 | 2025-04-08T06:21:34Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [withastro/houston.astro.build](https://github.com/withastro/houston.astro.build) | 249 | 2023-05-02T16:43:22Z | Other | Docs/knowledge | 0 | 3 | 0 | 0 |
@@ -8613,10 +8608,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvim-telescope/telescope-fzy-native.nvim](https://github.com/nvim-telescope/telescope-fzy-native.nvim) | 194 | 2022-09-11T06:56:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [idris-community/idris2-lsp](https://github.com/idris-community/idris2-lsp) | 193 | 2026-04-04T00:46:43Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [rgeo/rgeo-geojson](https://github.com/rgeo/rgeo-geojson) | 193 | 2024-10-10T10:57:29Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 192 | 2026-05-28T16:05:21Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [coin-or/CyLP](https://github.com/coin-or/CyLP) | 192 | 2025-12-03T14:10:37Z | Other | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [thu-nics/DiTFastAttn](https://github.com/thu-nics/DiTFastAttn) | 192 | 2025-01-14T06:06:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [safwank/Numerix](https://github.com/safwank/Numerix) | 192 | 2021-05-30T22:44:10Z | Other | Unknown | 4 | 0 | 4 | 4 |
-| [devcontainers/devcontainers.github.io](https://github.com/devcontainers/devcontainers.github.io) | 191 | 2026-05-13T12:02:19Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [HaxeFlixel/flixel-addons](https://github.com/HaxeFlixel/flixel-addons) | 191 | 2026-04-26T19:57:31Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [clojure/data.priority-map](https://github.com/clojure/data.priority-map) | 191 | 2025-12-30T21:23:01Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [baldowl/rack_csrf](https://github.com/baldowl/rack_csrf) | 191 | 2025-11-25T08:53:10Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -9006,7 +9000,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaData/Parsers.jl](https://github.com/JuliaData/Parsers.jl) | 119 | 2026-04-27T15:08:12Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [moyangzhan/langchain4j-aideepin-admin](https://github.com/moyangzhan/langchain4j-aideepin-admin) | 119 | 2026-03-23T11:01:44Z | Other | Docs/knowledge | 0 | 72 | 0 | 0 |
 | [bazelbuild/platforms](https://github.com/bazelbuild/platforms) | 119 | 2025-09-29T22:29:44Z | Other | Unknown | 2 | 0 | 2 | 2 |
-| [ThePharaohArt/Obsidian-CyberGlow](https://github.com/ThePharaohArt/Obsidian-CyberGlow) | 119 | 2025-08-31T01:51:35Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [weavejester/ns-tracker](https://github.com/weavejester/ns-tracker) | 119 | 2024-06-19T16:34:54Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [Anime4KWebBoost/Anime4K-WebGPU](https://github.com/Anime4KWebBoost/Anime4K-WebGPU) | 119 | 2024-06-07T02:03:59Z | Other | Web app | 7 | 18 | 7 | 7 |
 | [essepuntato/LODE](https://github.com/essepuntato/LODE) | 119 | 2024-02-08T09:32:39Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -9029,6 +9022,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [teal-language/cyan](https://github.com/teal-language/cyan) | 116 | 2026-04-18T08:53:32Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [layr-labs/eigenlayer-middleware](https://github.com/Layr-Labs/eigenlayer-middleware) | 116 | 2026-01-08T19:12:11Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [bagder/roffit](https://github.com/bagder/roffit) | 116 | 2025-10-16T06:16:14Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [ThePharaohArt/Obsidian-CyberGlow](https://github.com/ThePharaohArt/Obsidian-CyberGlow) | 116 | 2025-08-31T01:51:35Z | Other | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [microsoft/botframework-components](https://github.com/microsoft/botframework-components) | 116 | 2025-01-14T15:08:51Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [mapbox/hpp-skel](https://github.com/mapbox/hpp-skel) | 116 | 2024-06-17T13:06:06Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [alexandresanlim/Badges4-README.md-Profile-Dynamic](https://github.com/alexandresanlim/Badges4-README.md-Profile-Dynamic) | 116 | 2023-12-08T11:38:03Z | Other | Unknown | 6 | 0 | 7 | 7 |
@@ -9156,6 +9150,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaSparse/SparseArrays.jl](https://github.com/JuliaSparse/SparseArrays.jl) | 99 | 2026-05-02T12:47:46Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [reviewdog/action-actionlint](https://github.com/reviewdog/action-actionlint) | 99 | 2026-04-30T01:30:39Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [curiosity-ai/hnsw-sharp](https://github.com/curiosity-ai/hnsw-sharp) | 99 | 2026-04-05T08:07:25Z | Other | Library | 6 | 0 | 6 | 6 |
+| [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 98 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [FactoryXCode/MfPack](https://github.com/FactoryXCode/MfPack) | 98 | 2026-05-05T14:00:20Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [JustusAdam/language-haskell](https://github.com/JustusAdam/language-haskell) | 98 | 2026-04-26T08:45:52Z | Other | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [jaegertracing/docker-protobuf](https://github.com/jaegertracing/docker-protobuf) | 98 | 2026-01-19T22:48:53Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -9168,7 +9163,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [paulstarke/AnimationAuthoring](https://github.com/paulstarke/AnimationAuthoring) | 98 | 2023-10-11T11:30:35Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [chromelyapps/CefSharp](https://github.com/chromelyapps/CefSharp) | 98 | 2023-01-15T23:17:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arcusmaximus/EthornellTools](https://github.com/arcusmaximus/EthornellTools) | 98 | 2022-03-01T18:19:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 97 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [harfbuzz/uharfbuzz](https://github.com/harfbuzz/uharfbuzz) | 97 | 2026-04-20T22:26:50Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [i18next/react-i18next-gitbook](https://github.com/i18next/react-i18next-gitbook) | 97 | 2026-04-18T06:00:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [niner/Inline-Perl5](https://github.com/niner/Inline-Perl5) | 97 | 2025-11-14T15:28:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -9198,12 +9192,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [andys8/git-brunch](https://github.com/andys8/git-brunch) | 94 | 2026-02-28T14:27:03Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [ethpandaops/optimism-package](https://github.com/ethpandaops/optimism-package) | 94 | 2026-01-01T21:17:28Z | Other | Infrastructure/tooling | 4 | 6 | 4 | 5 |
 | [nalimilan/FreqTables.jl](https://github.com/nalimilan/FreqTables.jl) | 94 | 2025-07-31T11:40:37Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [thedatumorg/VUS](https://github.com/thedatumorg/VUS) | 94 | 2025-06-04T09:25:09Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [eublefar/LLAMASharpUnityDemo](https://github.com/eublefar/LLAMASharpUnityDemo) | 94 | 2024-08-13T08:49:36Z | Other | Library | 0 | 0 | 0 | 0 |
 | [bmc/classutil](https://github.com/bmc/classutil) | 94 | 2021-07-03T15:36:11Z | Other | Library | 0 | 0 | 0 | 0 |
 | [rspec/rspec](https://github.com/rspec/rspec) | 93 | 2026-04-28T19:41:36Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [adinhodovic/argo-cd-mixin](https://github.com/adinhodovic/argo-cd-mixin) | 93 | 2026-03-23T13:03:29Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [ShenghaiWang/SwiftLlama](https://github.com/ShenghaiWang/SwiftLlama) | 93 | 2025-08-26T09:25:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [thedatumorg/VUS](https://github.com/thedatumorg/VUS) | 93 | 2025-06-04T09:25:09Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [MY1L/Ctrl](https://github.com/MY1L/Ctrl) | 93 | 2024-05-28T13:39:25Z | Other | Unknown | 15 | 0 | 15 | 15 |
 | [ahonn/shadow-electron-starter](https://github.com/ahonn/shadow-electron-starter) | 93 | 2023-06-09T04:09:59Z | Other | Unknown | 3 | 5 | 3 | 3 |
 | [rhysd/vim-lsp-ale](https://github.com/rhysd/vim-lsp-ale) | 93 | 2022-01-11T06:47:49Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
@@ -9229,6 +9223,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sony/nnabla-ext-cuda](https://github.com/sony/nnabla-ext-cuda) | 91 | 2025-06-30T10:04:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wilkerlucio/pathom-viz](https://github.com/wilkerlucio/pathom-viz) | 91 | 2025-04-22T18:22:11Z | Other | Infrastructure/tooling | 1 | 51 | 1 | 1 |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 91 | 2022-06-30T21:38:44Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [lambdalisue/vim-fern-git-status](https://github.com/lambdalisue/vim-fern-git-status) | 91 | 2021-07-15T01:20:03Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [triton-inference-server/fil_backend](https://github.com/triton-inference-server/fil_backend) | 90 | 2026-04-30T00:42:01Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [php/phd](https://github.com/php/phd) | 90 | 2026-04-29T08:03:30Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [google/bazel-common](https://github.com/google/bazel-common) | 90 | 2026-04-28T21:52:39Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -9241,7 +9236,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kornia/kornia-examples](https://github.com/kornia/kornia-examples) | 90 | 2023-02-08T14:36:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [queryverse/ElectronDisplay.jl](https://github.com/queryverse/ElectronDisplay.jl) | 90 | 2022-10-16T12:13:15Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [barrel-platform/rebar3_elixir_compile](https://github.com/barrel-platform/rebar3_elixir_compile) | 90 | 2021-11-28T00:51:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [lambdalisue/vim-fern-git-status](https://github.com/lambdalisue/vim-fern-git-status) | 90 | 2021-07-15T01:20:03Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [browniebroke/pypackage-template](https://github.com/browniebroke/pypackage-template) | 89 | 2026-05-14T16:46:13Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [controlplaneio-fluxcd/distribution](https://github.com/controlplaneio-fluxcd/distribution) | 89 | 2026-04-30T08:40:07Z | Other | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [WebAssembly/shared-everything-threads](https://github.com/WebAssembly/shared-everything-threads) | 89 | 2026-04-28T18:55:18Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
@@ -9584,7 +9578,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unit-mesh/unit-gen](https://github.com/unit-mesh/unit-gen) | 59 | 2024-07-01T13:27:39Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [backdround/tabscope.nvim](https://github.com/backdround/tabscope.nvim) | 59 | 2023-10-09T01:04:39Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [google-coral/test_data](https://github.com/google-coral/test_data) | 59 | 2021-08-19T09:15:25Z | Other | Model/data | 0 | 0 | 0 | 0 |
-| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-25T03:00:59Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-27T16:20:22Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [bladeacer/flexcyon](https://github.com/bladeacer/flexcyon) | 58 | 2026-05-02T14:01:37Z | Other | CLI | 8 | 14 | 8 | 8 |
 | [dwyl/learn-tailwind](https://github.com/dwyl/learn-tailwind) | 58 | 2026-04-29T13:31:12Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [idris-community/idris2-nvim](https://github.com/idris-community/idris2-nvim) | 58 | 2026-04-05T18:33:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -9610,8 +9604,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [federicotdn/flymake-shellcheck](https://github.com/federicotdn/flymake-shellcheck) | 57 | 2024-06-26T21:22:42Z | Other | Unknown | 3 | 0 | 5 | 5 |
 | [fumiama/MoeGoe-Android](https://github.com/fumiama/MoeGoe-Android) | 57 | 2022-08-20T07:18:31Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [kristijanhusak/vim-dirvish-git](https://github.com/kristijanhusak/vim-dirvish-git) | 57 | 2022-05-21T04:42:46Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-28T08:56:43Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-26T16:43:24Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-26T08:46:56Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [FreneticLLC/FreneticGameEngine](https://github.com/FreneticLLC/FreneticGameEngine) | 56 | 2026-05-11T05:20:15Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [Kaiede/Bedrockifier](https://github.com/Kaiede/Bedrockifier) | 56 | 2026-04-21T01:14:58Z | Other | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [mrded/nvim-lsp-notify](https://github.com/mrded/nvim-lsp-notify) | 56 | 2026-04-17T12:55:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -9695,6 +9689,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chakravala/DirectSum.jl](https://github.com/chakravala/DirectSum.jl) | 51 | 2026-01-12T10:13:12Z | Other | Unknown | 12 | 0 | 12 | 12 |
 | [google/hrx](https://github.com/google/hrx) | 51 | 2025-12-10T22:47:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [logseq/graph-validator](https://github.com/logseq/graph-validator) | 51 | 2025-07-16T20:09:59Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [lumen-oss/rocks-treesitter.nvim](https://github.com/lumen-oss/rocks-treesitter.nvim) | 51 | 2025-07-14T18:01:18Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [mfarre/Video-LLaVA-7B-hf-CinePile](https://github.com/mfarre/Video-LLaVA-7B-hf-CinePile) | 51 | 2024-08-08T08:37:33Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cfrg/draft-irtf-cfrg-hpke](https://github.com/cfrg/draft-irtf-cfrg-hpke) | 51 | 2024-07-10T14:22:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [digitalmoksha/motion-markdown-it](https://github.com/digitalmoksha/motion-markdown-it) | 51 | 2024-05-23T19:32:55Z | Other | Infrastructure/tooling | 4 | 2 | 6 | 6 |
@@ -9704,7 +9699,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anguslees/kustomize-libsonnet](https://github.com/anguslees/kustomize-libsonnet) | 51 | 2021-08-31T14:51:29Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [Nsidorenco/neotest-vstest](https://github.com/Nsidorenco/neotest-vstest) | 50 | 2026-03-25T20:36:31Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [girishji/vimsuggest](https://github.com/girishji/vimsuggest) | 50 | 2025-10-05T20:08:34Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [lumen-oss/rocks-treesitter.nvim](https://github.com/lumen-oss/rocks-treesitter.nvim) | 50 | 2025-07-14T18:01:18Z | Other | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [damiankorcz/Alternative-Checkboxes-Reference-Set](https://github.com/damiankorcz/Alternative-Checkboxes-Reference-Set) | 50 | 2025-06-26T19:01:11Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [dcampos/cmp-snippy](https://github.com/dcampos/cmp-snippy) | 50 | 2023-10-12T01:44:31Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [jcs/msTERM](https://github.com/jcs/msTERM) | 50 | 2023-07-03T03:47:13Z | Other | CLI | 1 | 0 | 1 | 1 |
@@ -9751,7 +9745,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JoyMoe/Ksuid.Net](https://github.com/JoyMoe/Ksuid.Net) | 48 | 2022-04-05T12:38:35Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [aca/completion-tabnine](https://github.com/aca/completion-tabnine) | 48 | 2021-09-27T12:08:49Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [awthomp/cusignal-icassp-tutorial](https://github.com/awthomp/cusignal-icassp-tutorial) | 48 | 2021-06-07T13:25:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-11T14:49:51Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-29T16:21:14Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [tc39/proposal-amount](https://github.com/tc39/proposal-amount) | 47 | 2026-04-30T14:44:51Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [sbt/sbt-osgi](https://github.com/sbt/sbt-osgi) | 47 | 2026-04-27T22:12:36Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [adams85/acornima](https://github.com/adams85/acornima) | 47 | 2026-04-15T23:06:27Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -9909,7 +9903,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AlexanderKhazatsky/DROID](https://github.com/AlexanderKhazatsky/DROID) | 38 | 2024-10-21T21:36:57Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [deanwiseman/DartSassBuilder](https://github.com/deanwiseman/DartSassBuilder) | 38 | 2024-02-25T14:09:28Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [square/bazel_maven_repository](https://github.com/square/bazel_maven_repository) | 38 | 2023-03-18T23:31:46Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-22T22:01:48Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-29T21:00:57Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [JuliaGenAI/HuggingFaceDatasets.jl](https://github.com/JuliaGenAI/HuggingFaceDatasets.jl) | 37 | 2026-04-20T07:47:25Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [standardrb/lint_roller](https://github.com/standardrb/lint_roller) | 37 | 2026-03-01T21:36:46Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lread/test-doc-blocks](https://github.com/lread/test-doc-blocks) | 37 | 2026-01-20T22:18:17Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |

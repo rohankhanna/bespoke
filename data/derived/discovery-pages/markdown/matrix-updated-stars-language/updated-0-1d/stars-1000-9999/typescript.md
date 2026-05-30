@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-27T08:59:49.396739+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 32
-- components: 165
-- concepts: 32
-- observations: 32
+- repos: 5
+- terms: 51
+- components: 269
+- concepts: 51
+- observations: 51
 
 ## Static behavior
 
@@ -26,14 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [TanStack/form](https://github.com/TanStack/form) | 6548 | 2026-05-26T18:29:43Z | TypeScript | Infrastructure/tooling | 10 | 54 | 10 | 10 |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7652 | 2026-05-26T18:03:28Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2148 | 2026-05-26T14:03:28Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8450 | 2026-05-29T22:50:42Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
+| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7158 | 2026-05-29T19:08:49Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [vuejs/devtools](https://github.com/vuejs/devtools) | 2839 | 2026-05-29T15:47:20Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7668 | 2026-05-29T14:12:17Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
+| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2290 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7652 | 2026-05-26T18:03:28Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
-| [TanStack/form](https://github.com/TanStack/form) | 6548 | 2026-05-26T18:29:43Z | TypeScript | Infrastructure/tooling | 10 | 54 | 10 | 10 |
-| [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2148 | 2026-05-26T14:03:28Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
+| [conventional-changelog/conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) | 8450 | 2026-05-29T22:50:42Z | TypeScript | Infrastructure/tooling | 8 | 28 | 8 | 8 |
+| [podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop) | 7668 | 2026-05-29T14:12:17Z | TypeScript | Infrastructure/tooling | 17 | 76 | 17 | 17 |
+| [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7158 | 2026-05-29T19:08:49Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [vuejs/devtools](https://github.com/vuejs/devtools) | 2839 | 2026-05-29T15:47:20Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
+| [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2290 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |

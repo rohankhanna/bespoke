@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 47,
-    "terms": 60
+    "components": 160,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 40,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -26,7 +26,6 @@
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
@@ -36,16 +35,12 @@
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
-    "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
-    "danielrosehill/Claude-Hopper",
-    "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
-    "flagos-ai/verl-FL",
     "getlantern/guide",
     "HumanSignal/label-studio-client-generator",
     "kalavai-net/kalavai-templates",
@@ -54,9 +49,7 @@
     "lakekeeper/lakekeeper-operator",
     "Luligu/matterbridge-eve-door",
     "netdur/imaged-sdk-examples",
-    "qiayuanl/unitree_buildfarm",
     "seanmacavaney/ir-datasets.com",
-    "sp1-patches/elliptic-curves",
     "starfishmod/bonjour-service",
     "superfarther/K2V",
     "UnknownPlatypus/markup_fmt"

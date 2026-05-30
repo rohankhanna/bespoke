@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3372,
-    "concepts": 2734,
-    "observations": 2745,
-    "repos": 535,
-    "terms": 2716
+    "components": 3382,
+    "concepts": 2730,
+    "observations": 2741,
+    "repos": 538,
+    "terms": 2713
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2shady4u/godot-sqlite",
@@ -96,6 +96,7 @@
     "breejs/bree",
     "breezedeus/CnOCR",
     "breezedeus/Pix2Text",
+    "brendanzab/codespan",
     "brianmario/charlock_holmes",
     "brianmario/yajl-ruby",
     "brightmart/nlp_chinese_corpus",
@@ -116,6 +117,7 @@
     "ChaoningZhang/MobileSAM",
     "charmbracelet/skate",
     "chatopera/Synonyms",
+    "ChenmienTan/RL2",
     "chflame163/ComfyUI_LayerStyle",
     "chrisbra/csv.vim",
     "city96/ComfyUI-GGUF",
@@ -136,7 +138,6 @@
     "cpm-cmake/CPM.cmake",
     "cpputest/cpputest",
     "CrazyBoyM/llama3-Chinese-chat",
-    "create-dmg/create-dmg",
     "cristianbote/goober",
     "crossbario/autobahn-python",
     "crossbeam-rs/crossbeam",
@@ -191,6 +192,7 @@
     "fengari-lua/fengari",
     "file-icons/atom",
     "fixie-ai/ultravox",
+    "FlagOpen/RoboBrain2.5",
     "flashbots/mev-boost",
     "flashlight/flashlight",
     "flashlight/wav2letter",
@@ -256,6 +258,7 @@
     "hustvl/VAD",
     "IBM/Project_CodeNet",
     "IDEA-Research/Rex-Omni",
+    "ImageOptim/gifski",
     "imgui-rs/imgui-rs",
     "improbable-eng/ts-protoc-gen",
     "Instagram/LibCST",
@@ -305,6 +308,7 @@
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
+    "libgit2/rugged",
     "libimobiledevice/idevicerestore",
     "libimobiledevice/usbmuxd",
     "librespot-org/librespot",
@@ -416,7 +420,6 @@
     "protocolbuffers/protobuf-go",
     "prs-eth/Marigold",
     "PyCQA/pycodestyle",
-    "pykaldi/pykaldi",
     "python-lsp/python-lsp-server",
     "Python-Markdown/markdown",
     "python-rope/rope",
@@ -497,6 +500,7 @@
     "thewh1teagle/kokoro-onnx",
     "thu-ml/RoboticsDiffusionTransformer",
     "thu-ml/SageAttention",
+    "tidwall/btree",
     "tikv/grpc-rs",
     "tmc/langchaingo",
     "toddbluhm/env-cmd",
@@ -545,7 +549,6 @@
     "YosysHQ/icestorm",
     "Yuliang-Liu/Monkey",
     "yxlllc/DDSP-SVC",
-    "zeromq/jeromq",
     "ZhengPeng7/BiRefNet",
     "zkcrypto/bellman"
   ]

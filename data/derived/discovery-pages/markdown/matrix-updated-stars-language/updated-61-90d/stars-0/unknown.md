@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 31
-- components: 50
-- concepts: 31
-- observations: 31
+- repos: 22
+- terms: 33
+- components: 63
+- concepts: 33
+- observations: 33
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
+| [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -49,6 +53,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
+| [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Projects-Index](https://github.com/danielrosehill/Context-Projects-Index) | 0 | 2026-03-27T17:15:56Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

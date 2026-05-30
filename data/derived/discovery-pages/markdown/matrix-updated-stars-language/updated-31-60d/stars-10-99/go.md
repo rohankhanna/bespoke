@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 95
-- terms: 388
-- components: 619
-- concepts: 392
-- observations: 395
+- repos: 99
+- terms: 412
+- components: 644
+- concepts: 416
+- observations: 419
 
 ## Static behavior
 
@@ -26,6 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudfoundry/bosh-backup-and-restore](https://github.com/cloudfoundry/bosh-backup-and-restore) | 29 | 2026-04-29T22:25:00Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [EngFlow/gazelle_cc](https://github.com/EngFlow/gazelle_cc) | 42 | 2026-04-29T18:45:27Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [bitrise-io/stepman](https://github.com/bitrise-io/stepman) | 28 | 2026-04-29T16:56:33Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [Kong/kong-operator](https://github.com/Kong/kong-operator) | 98 | 2026-04-29T16:20:30Z | Go | Infrastructure/tooling | 8 | 20 | 8 | 8 |
+| [cloudfoundry/cf-networking-release](https://github.com/cloudfoundry/cf-networking-release) | 68 | 2026-04-29T14:55:49Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [philips-labs/tabia](https://github.com/philips-labs/tabia) | 14 | 2026-04-29T10:47:34Z | Go | CLI | 13 | 6 | 13 | 13 |
 | [energye/cef](https://github.com/energye/cef) | 14 | 2026-04-29T04:56:31Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [DevExpGbb/gh-devlake](https://github.com/DevExpGbb/gh-devlake) | 17 | 2026-04-28T20:20:00Z | Go | CLI | 9 | 9 | 9 | 10 |
 | [oracle/karpenter-provider-oci](https://github.com/oracle/karpenter-provider-oci) | 25 | 2026-04-28T18:14:17Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -119,14 +125,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astro-han/diffpane](https://github.com/Astro-Han/diffpane) | 11 | 2026-04-01T12:44:05Z | Go | CLI | 9 | 3 | 9 | 9 |
 | [hashicorp/vault-plugin-auth-kerberos](https://github.com/hashicorp/vault-plugin-auth-kerberos) | 20 | 2026-04-01T00:45:10Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [GFW-knocker/AndroidLibXrayLite](https://github.com/GFW-knocker/AndroidLibXrayLite) | 25 | 2026-03-31T17:44:00Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [aws/amazon-network-policy-controller-k8s](https://github.com/aws/amazon-network-policy-controller-k8s) | 54 | 2026-03-30T23:25:06Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [scaleway/serverless-examples](https://github.com/scaleway/serverless-examples) | 64 | 2026-03-30T12:14:12Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [openshift/kubernetes](https://github.com/openshift/kubernetes) | 99 | 2026-04-28T17:32:48Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [Kong/kong-operator](https://github.com/Kong/kong-operator) | 98 | 2026-04-29T16:20:30Z | Go | Infrastructure/tooling | 8 | 20 | 8 | 8 |
 | [magodo/tfadd](https://github.com/magodo/tfadd) | 97 | 2026-04-02T01:09:25Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ebitengine/debugui](https://github.com/ebitengine/debugui) | 96 | 2026-04-23T15:18:26Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [terraform-linters/tflint-ruleset-google](https://github.com/terraform-linters/tflint-ruleset-google) | 96 | 2026-04-21T19:46:19Z | Go | Infrastructure/tooling | 10 | 5 | 10 | 10 |
@@ -150,19 +155,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sigstore/helm-sigstore](https://github.com/sigstore/helm-sigstore) | 69 | 2026-04-24T20:09:45Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [aldernero/sketchy](https://github.com/aldernero/sketchy) | 69 | 2026-04-15T01:42:18Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [gopasspw/gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) | 69 | 2026-04-02T01:48:26Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [cloudfoundry/cf-networking-release](https://github.com/cloudfoundry/cf-networking-release) | 68 | 2026-04-29T14:55:49Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cloudfoundry/cf-acceptance-tests](https://github.com/cloudfoundry/cf-acceptance-tests) | 68 | 2026-04-28T13:10:44Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aws/aws-network-policy-agent](https://github.com/aws/aws-network-policy-agent) | 67 | 2026-04-22T21:07:37Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [scaleway/serverless-examples](https://github.com/scaleway/serverless-examples) | 64 | 2026-03-30T12:14:12Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [cloudwego/kitex-benchmark](https://github.com/cloudwego/kitex-benchmark) | 63 | 2026-04-02T03:37:02Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [usbarmory/tamago-go](https://github.com/usbarmory/tamago-go) | 58 | 2026-04-08T11:29:36Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [cmdjulian/mopy](https://github.com/cmdjulian/mopy) | 57 | 2026-04-15T19:57:09Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 4 |
 | [defilantech/LLMKube](https://github.com/defilantech/LLMKube) | 56 | 2026-04-21T20:34:12Z | Go | Infrastructure/tooling | 23 | 13 | 23 | 23 |
-| [aws/amazon-network-policy-controller-k8s](https://github.com/aws/amazon-network-policy-controller-k8s) | 54 | 2026-03-30T23:25:06Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [ipfs/ipfs-check](https://github.com/ipfs/ipfs-check) | 53 | 2026-04-28T00:55:17Z | Go | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [apptainer/sif](https://github.com/apptainer/sif) | 53 | 2026-04-13T22:34:27Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [antham/ghokin](https://github.com/antham/ghokin) | 52 | 2026-04-12T19:48:17Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [openshift/ci-tools](https://github.com/openshift/ci-tools) | 44 | 2026-04-23T14:39:26Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [notaryproject/notation-go](https://github.com/notaryproject/notation-go) | 44 | 2026-04-13T00:42:37Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [EngFlow/gazelle_cc](https://github.com/EngFlow/gazelle_cc) | 42 | 2026-04-29T18:45:27Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [depado/smallblog](https://github.com/depado/smallblog) | 42 | 2026-04-17T00:13:47Z | Go | Infrastructure/tooling | 4 | 3 | 5 | 5 |
 | [aquasecurity/trivy-java-db](https://github.com/aquasecurity/trivy-java-db) | 41 | 2026-04-24T10:02:51Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [datachainlab/cosmos-ethereum-ibc-lcp](https://github.com/datachainlab/cosmos-ethereum-ibc-lcp) | 40 | 2026-04-28T05:34:18Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -184,9 +189,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coder/coder-logstream-kube](https://github.com/coder/coder-logstream-kube) | 30 | 2026-04-20T11:13:59Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [cloudfoundry/bbs](https://github.com/cloudfoundry/bbs) | 30 | 2026-04-16T18:46:01Z | Go | Service/API | 1 | 0 | 1 | 1 |
 | [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [cloudfoundry/bosh-backup-and-restore](https://github.com/cloudfoundry/bosh-backup-and-restore) | 29 | 2026-04-29T22:25:00Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [dianlight/gollama.cpp](https://github.com/dianlight/gollama.cpp) | 29 | 2026-04-28T08:46:46Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [yomidevs/yomitan-import](https://github.com/yomidevs/yomitan-import) | 29 | 2026-04-07T01:24:32Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [bitrise-io/stepman](https://github.com/bitrise-io/stepman) | 28 | 2026-04-29T16:56:33Z | Go | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [appleboy/drone-lambda](https://github.com/appleboy/drone-lambda) | 27 | 2026-04-18T03:56:18Z | Go | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [oracle/karpenter-provider-oci](https://github.com/oracle/karpenter-provider-oci) | 25 | 2026-04-28T18:14:17Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -210,6 +217,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [celo-org/op-geth](https://github.com/celo-org/op-geth) | 16 | 2026-04-16T14:00:01Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [hashicorp/hcp-sdk-go](https://github.com/hashicorp/hcp-sdk-go) | 16 | 2026-04-15T08:45:18Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [0ghny/gitconfig](https://github.com/0ghny/gitconfig) | 15 | 2026-04-07T08:29:20Z | Go | CLI | 2 | 10 | 2 | 2 |
+| [philips-labs/tabia](https://github.com/philips-labs/tabia) | 14 | 2026-04-29T10:47:34Z | Go | CLI | 13 | 6 | 13 | 13 |
 | [energye/cef](https://github.com/energye/cef) | 14 | 2026-04-29T04:56:31Z | Go | Framework | 0 | 0 | 0 | 0 |
 | [bootmortis/sing-geosite](https://github.com/bootmortis/sing-geosite) | 14 | 2026-04-27T01:19:07Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [notaryproject/notation-core-go](https://github.com/notaryproject/notation-core-go) | 14 | 2026-04-13T17:57:13Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |

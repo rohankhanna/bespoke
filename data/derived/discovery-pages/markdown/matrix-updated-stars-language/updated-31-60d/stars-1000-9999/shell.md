@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 249
-- components: 171
-- concepts: 246
-- observations: 248
+- repos: 50
+- terms: 304
+- components: 217
+- concepts: 304
+- observations: 306
 
 ## Static behavior
 
@@ -26,6 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [YosysHQ/oss-cad-suite-build](https://github.com/YosysHQ/oss-cad-suite-build) | 1453 | 2026-04-30T04:25:31Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [GrapheneOS/Vanadium](https://github.com/GrapheneOS/Vanadium) | 1768 | 2026-04-30T04:00:03Z | Shell | Unknown | 7 | 0 | 7 | 7 |
+| [Botspot/pi-apps](https://github.com/Botspot/pi-apps) | 2717 | 2026-04-30T01:15:34Z | Shell | Infrastructure/tooling | 17 | 9 | 17 | 17 |
+| [home-assistant/addons](https://github.com/home-assistant/addons) | 2157 | 2026-04-29T22:53:07Z | Shell | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages) | 2669 | 2026-04-29T19:08:33Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
+| [rbenv/ruby-build](https://github.com/rbenv/ruby-build) | 3967 | 2026-04-29T15:26:30Z | Shell | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [mlocati/docker-php-extension-installer](https://github.com/mlocati/docker-php-extension-installer) | 4902 | 2026-04-29T12:35:10Z | Shell | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [confluentinc/demo-scene](https://github.com/confluentinc/demo-scene) | 1566 | 2026-04-28T13:54:41Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [fluxcd/flux2-kustomize-helm-example](https://github.com/fluxcd/flux2-kustomize-helm-example) | 1259 | 2026-04-28T09:46:22Z | Shell | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | 1568 | 2026-04-28T04:04:54Z | Shell | Infrastructure/tooling | 13 | 4 | 13 | 13 |
@@ -55,7 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [nix-community/nix-direnv](https://github.com/nix-community/nix-direnv) | 2624 | 2026-04-19T03:09:19Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [devcontainers/features](https://github.com/devcontainers/features) | 1435 | 2026-04-19T00:24:05Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6985 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6985 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 16 | 0 | 19 | 19 |
 | [pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) | 6731 | 2026-04-17T19:54:46Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9482 | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [bluesky-social/pds](https://github.com/bluesky-social/pds) | 2476 | 2026-04-15T08:59:45Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -78,27 +85,33 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9482 | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 8735 | 2026-04-13T18:22:32Z | Shell | CLI | 9 | 14 | 0 | 0 |
 | [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) | 7743 | 2026-04-23T10:52:06Z | Shell | Unknown | 2 | 0 | 3 | 3 |
-| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6985 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 19 | 0 | 19 | 19 |
+| [git-quick-stats/git-quick-stats](https://github.com/git-quick-stats/git-quick-stats) | 6985 | 2026-04-18T12:15:43Z | Shell | Infrastructure/tooling | 16 | 0 | 19 | 19 |
 | [docker-library/official-images](https://github.com/docker-library/official-images) | 6943 | 2026-04-23T00:54:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) | 6731 | 2026-04-17T19:54:46Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [docker-library/docs](https://github.com/docker-library/docs) | 5274 | 2026-04-23T01:18:32Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [rvm/rvm](https://github.com/rvm/rvm) | 5192 | 2026-04-22T12:14:53Z | Shell | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | 5120 | 2026-04-24T07:54:17Z | Shell | CLI | 9 | 5 | 9 | 9 |
+| [mlocati/docker-php-extension-installer](https://github.com/mlocati/docker-php-extension-installer) | 4902 | 2026-04-29T12:35:10Z | Shell | Infrastructure/tooling | 10 | 11 | 10 | 10 |
+| [rbenv/ruby-build](https://github.com/rbenv/ruby-build) | 3967 | 2026-04-29T15:26:30Z | Shell | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [jonmosco/kube-ps1](https://github.com/jonmosco/kube-ps1) | 3777 | 2026-04-01T11:33:23Z | Shell | Infrastructure/tooling | 5 | 2 | 6 | 6 |
 | [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | 3694 | 2026-04-21T05:15:18Z | Shell | Infrastructure/tooling | 14 | 19 | 14 | 14 |
 | [containers/toolbox](https://github.com/containers/toolbox) | 3316 | 2026-04-11T13:21:28Z | Shell | CLI | 4 | 3 | 4 | 4 |
 | [void-linux/void-packages](https://github.com/void-linux/void-packages) | 3172 | 2026-04-22T18:16:44Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [sublimehq/Packages](https://github.com/sublimehq/Packages) | 3005 | 2026-04-25T18:52:18Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [zilliztech/attu](https://github.com/zilliztech/attu) | 2831 | 2026-04-10T03:30:19Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [Botspot/pi-apps](https://github.com/Botspot/pi-apps) | 2717 | 2026-04-30T01:15:34Z | Shell | Infrastructure/tooling | 17 | 9 | 17 | 17 |
+| [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages) | 2669 | 2026-04-29T19:08:33Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [nix-community/nix-direnv](https://github.com/nix-community/nix-direnv) | 2624 | 2026-04-19T03:09:19Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [matryer/xbar-plugins](https://github.com/matryer/xbar-plugins) | 2582 | 2026-04-05T16:38:11Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [bluesky-social/pds](https://github.com/bluesky-social/pds) | 2476 | 2026-04-15T08:59:45Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [docker-library/postgres](https://github.com/docker-library/postgres) | 2470 | 2026-04-21T22:02:34Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [crosstool-ng/crosstool-ng](https://github.com/crosstool-ng/crosstool-ng) | 2452 | 2026-04-14T00:29:11Z | Shell | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [home-assistant/addons](https://github.com/home-assistant/addons) | 2157 | 2026-04-29T22:53:07Z | Shell | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [devcontainers/images](https://github.com/devcontainers/images) | 2004 | 2026-04-22T05:52:08Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [trailofbits/claude-code-config](https://github.com/trailofbits/claude-code-config) | 1870 | 2026-04-02T09:26:12Z | Shell | CLI | 3 | 0 | 3 | 3 |
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [GrapheneOS/Vanadium](https://github.com/GrapheneOS/Vanadium) | 1768 | 2026-04-30T04:00:03Z | Shell | Unknown | 7 | 0 | 7 | 7 |
 | [spiffe/spiffe](https://github.com/spiffe/spiffe) | 1746 | 2026-04-13T17:10:08Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [pypa/manylinux](https://github.com/pypa/manylinux) | 1738 | 2026-04-24T23:35:07Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [pacstall/pacstall](https://github.com/pacstall/pacstall) | 1608 | 2026-04-21T17:41:47Z | Shell | Infrastructure/tooling | 15 | 8 | 18 | 18 |
@@ -107,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docker-library/golang](https://github.com/docker-library/golang) | 1554 | 2026-04-20T04:42:31Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [alrra/dotfiles](https://github.com/alrra/dotfiles) | 1526 | 2026-04-20T04:01:41Z | Shell | Infrastructure/tooling | 6 | 1 | 8 | 10 |
 | [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
+| [YosysHQ/oss-cad-suite-build](https://github.com/YosysHQ/oss-cad-suite-build) | 1453 | 2026-04-30T04:25:31Z | Shell | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [docker-library/docker](https://github.com/docker-library/docker) | 1442 | 2026-04-20T19:01:50Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [devcontainers/features](https://github.com/devcontainers/features) | 1435 | 2026-04-19T00:24:05Z | Shell | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [devcontainers/templates](https://github.com/devcontainers/templates) | 1383 | 2026-04-09T11:19:58Z | Shell | Infrastructure/tooling | 6 | 4 | 6 | 6 |

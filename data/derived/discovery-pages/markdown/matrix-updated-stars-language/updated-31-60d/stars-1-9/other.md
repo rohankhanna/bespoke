@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 91
-- terms: 200
-- components: 336
-- concepts: 200
-- observations: 200
+- repos: 92
+- terms: 196
+- components: 325
+- concepts: 196
+- observations: 196
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cosmos/security](https://github.com/cosmos/security) | 8 | 2026-04-30T03:33:09Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [benjamimgois/pascube](https://github.com/benjamimgois/pascube) | 8 | 2026-04-29T23:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [aimeos/ai-monolog](https://github.com/aimeos/ai-monolog) | 9 | 2026-04-29T09:32:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [localstack/homebrew-tap](https://github.com/localstack/homebrew-tap) | 6 | 2026-04-29T08:27:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bennyyip/dot-vim](https://github.com/bennyyip/dot-vim) | 8 | 2026-04-29T05:56:28Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [googleapis/google-cloud-php-compute](https://github.com/googleapis/google-cloud-php-compute) | 9 | 2026-04-28T15:52:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -115,13 +118,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/LinuxTracepoints-Net](https://github.com/microsoft/LinuxTracepoints-Net) | 8 | 2026-04-01T20:04:00Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [bolasblack/BlogFront](https://github.com/bolasblack/BlogFront) | 3 | 2026-04-01T14:19:18Z | Other | Unknown | 0 | 22 | 0 | 0 |
 | [ethpandaops/checkpoint-sync-health-checks](https://github.com/ethpandaops/checkpoint-sync-health-checks) | 5 | 2026-04-01T02:28:10Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
-| [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aimeos/ai-monolog](https://github.com/aimeos/ai-monolog) | 9 | 2026-04-29T09:32:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [googleapis/google-cloud-php-compute](https://github.com/googleapis/google-cloud-php-compute) | 9 | 2026-04-28T15:52:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jfmengels/elm-review-config](https://github.com/jfmengels/elm-review-config) | 9 | 2026-04-28T07:26:18Z | Other | Template/starter | 0 | 0 | 0 | 0 |
 | [hao-ai-lab/flash-attention-fp4](https://github.com/hao-ai-lab/flash-attention-fp4) | 9 | 2026-04-27T23:39:08Z | Other | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -133,7 +135,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [php-toolkit/stdlib](https://github.com/php-toolkit/stdlib) | 9 | 2026-04-14T03:02:13Z | Other | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [helix-toolkit/helix-toolkit.github.io](https://github.com/helix-toolkit/helix-toolkit.github.io) | 9 | 2026-04-10T04:53:20Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [azure/homebrew-bicep](https://github.com/Azure/homebrew-bicep) | 9 | 2026-04-02T19:30:43Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [cosmos/security](https://github.com/cosmos/security) | 8 | 2026-04-30T03:33:09Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
+| [benjamimgois/pascube](https://github.com/benjamimgois/pascube) | 8 | 2026-04-29T23:42:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bennyyip/dot-vim](https://github.com/bennyyip/dot-vim) | 8 | 2026-04-29T05:56:28Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [0xble/dotagent.nvim](https://github.com/0xble/dotagent.nvim) | 8 | 2026-04-26T19:14:06Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [cgrindel/rules_swiftformat](https://github.com/cgrindel/rules_swiftformat) | 8 | 2026-04-24T18:55:46Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
@@ -178,7 +181,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Humans-of-Julia/BibInternal.jl](https://github.com/Humans-of-Julia/BibInternal.jl) | 4 | 2026-04-27T23:33:07Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [actboy168/ltest](https://github.com/actboy168/ltest) | 4 | 2026-04-22T05:07:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [0xPolygonHermez/stark-recurser](https://github.com/0xPolygonHermez/stark-recurser) | 4 | 2026-04-16T08:32:28Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [enbop/fungi-app](https://github.com/enbop/fungi-app) | 3 | 2026-04-23T14:04:05Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [jhugestar/jhugestar.github.io](https://github.com/jhugestar/jhugestar.github.io) | 3 | 2026-04-23T03:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wavelens/gobgp.nix](https://github.com/wavelens/gobgp.nix) | 3 | 2026-04-21T05:52:59Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |

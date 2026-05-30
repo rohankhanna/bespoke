@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -96,7 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [derhuerst/tap-min](https://github.com/derhuerst/tap-min) | 7 | 2023-08-20T11:42:01Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [effofxprime/Cosmregistry-API](https://github.com/effofxprime/Cosmregistry-API) | 1 | 2023-08-02T16:37:49Z | JavaScript | Service/API | 0 | 4 | 0 | 0 |
 | [csstree/atom-plugin](https://github.com/csstree/atom-plugin) | 5 | 2023-07-11T07:59:17Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
-| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 7 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
+| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 8 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
 | [0x4139/cosmos-discord-faucet](https://github.com/0x4139/cosmos-discord-faucet) | 6 | 2023-05-15T13:05:30Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [broccolijs/broccoli-multifilter](https://github.com/broccolijs/broccoli-multifilter) | 4 | 2023-04-13T16:00:11Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [adeweb-be/volto-leaflet-block](https://github.com/adeweb-be/volto-leaflet-block) | 3 | 2023-04-02T16:40:34Z | JavaScript | Unknown | 4 | 6 | 4 | 4 |
@@ -164,6 +164,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [docpad/docpad-plugin-nodesass](https://github.com/docpad/docpad-plugin-nodesass) | 8 | 2024-01-07T07:39:56Z | JavaScript | Unknown | 1 | 13 | 1 | 1 |
 | [josephfrazier/standard-eject](https://github.com/josephfrazier/standard-eject) | 8 | 2023-10-20T13:07:58Z | JavaScript | Unknown | 0 | 19 | 0 | 0 |
 | [cb1kenobi/hook-emitter](https://github.com/cb1kenobi/hook-emitter) | 8 | 2023-09-27T20:43:01Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
+| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 8 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
 | [fwcd/atom-ide-kotlin](https://github.com/fwcd/atom-ide-kotlin) | 8 | 2022-03-22T01:44:44Z | JavaScript | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [libp2p/js-libp2p-example-circuit-relay](https://github.com/libp2p/js-libp2p-example-circuit-relay) | 7 | 2025-09-30T08:40:11Z | JavaScript | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [libp2p/js-libp2p-example-browser-pubsub](https://github.com/libp2p/js-libp2p-example-browser-pubsub) | 7 | 2025-09-30T08:40:11Z | JavaScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
@@ -173,7 +174,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kosmtik/kosmtik-map-compare](https://github.com/kosmtik/kosmtik-map-compare) | 7 | 2023-10-23T10:21:06Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [higlass/higlass-app](https://github.com/higlass/higlass-app) | 7 | 2023-09-21T02:44:09Z | JavaScript | Infrastructure/tooling | 3 | 95 | 3 | 3 |
 | [derhuerst/tap-min](https://github.com/derhuerst/tap-min) | 7 | 2023-08-20T11:42:01Z | JavaScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 7 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
 | [kabiaa/atom-ide-volar](https://github.com/kabiaa/atom-ide-volar) | 7 | 2023-03-02T11:06:09Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [iodide-project/iodide-transpiler](https://github.com/iodide-project/iodide-transpiler) | 7 | 2023-01-14T00:05:17Z | JavaScript | Unknown | 0 | 24 | 0 | 0 |
 | [hasharchives/wasm-ts-esm-in-node-jest-and-nextjs](https://github.com/hasharchives/wasm-ts-esm-in-node-jest-and-nextjs) | 7 | 2022-11-29T00:51:48Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |

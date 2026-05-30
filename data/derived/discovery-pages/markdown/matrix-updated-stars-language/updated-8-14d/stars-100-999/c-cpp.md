@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 19
-- components: 14
-- concepts: 19
-- observations: 19
+- repos: 2
+- terms: 1
+- components: 5
+- concepts: 1
+- observations: 1
 
 ## Static behavior
 
@@ -28,16 +28,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 780 | 2026-05-21T04:14:16Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | 821 | 2026-05-15T21:19:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [ROCm/rocBLAS](https://github.com/ROCm/rocBLAS) | 394 | 2026-05-15T20:15:23Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
-| [apache/casbin-cpp](https://github.com/apache/casbin-cpp) | 251 | 2026-05-15T19:07:16Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | 821 | 2026-05-15T21:19:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 780 | 2026-05-21T04:14:16Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [ROCm/rocBLAS](https://github.com/ROCm/rocBLAS) | 394 | 2026-05-15T20:15:23Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
-| [apache/casbin-cpp](https://github.com/apache/casbin-cpp) | 251 | 2026-05-15T19:07:16Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |

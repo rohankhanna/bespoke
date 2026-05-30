@@ -1,39 +1,40 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 22,
-    "terms": 146
+    "components": 330,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 23,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
-    "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
-    "antvis/GPT-Vis",
+    "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
-    "ChristopherHX/runner.server",
+    "attackgoat/vk-graph",
+    "bazel-contrib/rules_kotlin",
+    "beve-org/beve",
+    "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
-    "digitalocean/openapi",
+    "eclipse-tm4e/tm4e",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "EmmyLuaLs/emmylua-analyzer-rust",
     "googlefonts/ufo2ft",
+    "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
     "ipsilon/evmone",
-    "mafintosh/streamx",
-    "NCAS-CMS/pyfive",
-    "redis/redis-om-dotnet",
-    "ROCm/hipBLAS",
-    "ROCm/hipBLASLt",
-    "safe-fndn/safe-singleton-factory",
-    "scverse/rapids-singlecell",
-    "servo/stylo",
-    "ShadowLoveElysia/AiNiee-Next",
+    "jupyter-server/jupyter_server",
+    "machinewrapped/llm-subtrans",
+    "mightyiam/eslint-config-love",
+    "preactjs/preact-devtools",
+    "redis/redis-om-spring",
+    "spring-projects/spring-tools",
     "stx-labs/stacks.js",
-    "thunlp/OPD"
+    "yaling888/quirktiva"
   ]
 }

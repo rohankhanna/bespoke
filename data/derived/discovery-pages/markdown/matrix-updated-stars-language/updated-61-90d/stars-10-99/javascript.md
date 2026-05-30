@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 89
-- components: 254
-- concepts: 89
-- observations: 89
+- repos: 28
+- terms: 93
+- components: 262
+- concepts: 93
+- observations: 93
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [haskell-actions/run-fourmolu](https://github.com/haskell-actions/run-fourmolu) | 13 | 2026-03-30T16:36:00Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [kellyselden/eslint-plugin-json-files](https://github.com/kellyselden/eslint-plugin-json-files) | 95 | 2026-03-28T16:04:59Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [Jack-Works/react-refresh-transformer](https://github.com/Jack-Works/react-refresh-transformer) | 69 | 2026-03-27T07:07:35Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [nodejs/email](https://github.com/nodejs/email) | 65 | 2026-03-26T20:30:56Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
@@ -85,3 +86,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kddnewton/prettier-plugin-ini](https://github.com/kddnewton/prettier-plugin-ini) | 17 | 2026-03-25T14:49:32Z | JavaScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [ruby/setup-ruby-pkgs](https://github.com/ruby/setup-ruby-pkgs) | 15 | 2026-03-11T16:43:07Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [ipld/js-dag-pb](https://github.com/ipld/js-dag-pb) | 15 | 2026-03-01T16:00:09Z | JavaScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [haskell-actions/run-fourmolu](https://github.com/haskell-actions/run-fourmolu) | 13 | 2026-03-30T16:36:00Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |

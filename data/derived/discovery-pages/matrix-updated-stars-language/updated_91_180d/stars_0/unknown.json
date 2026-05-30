@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 25,
-    "terms": 36
+    "components": 49,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 26,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "CADindustries/container",
     "danielrosehill/Agent-Deploy",
@@ -32,6 +32,7 @@
     "jackielii/qmk_firmware",
     "kitknox/helix",
     "llamagate/diff",
+    "mayocream/ug",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
     "openwdl/governance",

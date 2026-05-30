@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 78
-- terms: 130
-- components: 246
-- concepts: 127
-- observations: 129
+- repos: 87
+- terms: 145
+- components: 273
+- concepts: 142
+- observations: 144
 
 ## Static behavior
 
@@ -25,6 +25,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
+| [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
+| [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/AMD-GPU-DP-Hotplug-Fix](https://github.com/danielrosehill/AMD-GPU-DP-Hotplug-Fix) | 0 | 2026-03-30T10:05:12Z | Shell | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/adb-keep-awake](https://github.com/danielrosehill/adb-keep-awake) | 0 | 2026-03-30T10:05:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -108,6 +117,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
+| [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
+| [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/AMD-GPU-DP-Hotplug-Fix](https://github.com/danielrosehill/AMD-GPU-DP-Hotplug-Fix) | 0 | 2026-03-30T10:05:12Z | Shell | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/adb-keep-awake](https://github.com/danielrosehill/adb-keep-awake) | 0 | 2026-03-30T10:05:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

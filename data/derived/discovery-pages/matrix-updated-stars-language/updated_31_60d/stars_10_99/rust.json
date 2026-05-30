@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 754,
-    "concepts": 455,
-    "observations": 457,
-    "repos": 110,
-    "terms": 469
+    "components": 804,
+    "concepts": 487,
+    "observations": 489,
+    "repos": 117,
+    "terms": 501
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
+    "AccessKit/accesskit-c",
     "adumbidiot/lz-str-rs",
     "ai-dynamo/modelexpress",
     "alixinne/glsl-lang",
@@ -26,9 +27,11 @@
     "ankane/safetensors-ruby",
     "antonWetzel/prettypst",
     "apache/opendal-oli",
+    "apollographql/federation-rs",
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
     "ashvardanian/NumWars",
+    "asny/three-d-asset",
     "astral-sh/pubgrub",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
@@ -59,6 +62,7 @@
     "eth-act/zkboost",
     "filecoin-project/actors-utils",
     "filecoin-project/builtin-actors",
+    "fonttools/fontspector",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "FxEmbed/mosaic",
@@ -82,6 +86,8 @@
     "lambdaclass/libssz",
     "launchdarkly/rust-server-sdk",
     "Layr-Labs/eigensdk-rs",
+    "ldclabs/anda-db",
+    "ldclabs/anda-hippocampus",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
     "major7apps/pensyve",
@@ -98,6 +104,7 @@
     "neysofu/reltester",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
+    "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",

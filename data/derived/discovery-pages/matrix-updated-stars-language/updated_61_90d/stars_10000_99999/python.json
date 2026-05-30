@@ -3,7 +3,7 @@
     "components": 131,
     "concepts": 160,
     "observations": 160,
-    "repos": 33,
+    "repos": 34,
     "terms": 165
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
+    "3b1b/videos",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cool-RR/PySnooper",

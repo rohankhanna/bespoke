@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Shell
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 45
-- components: 39
-- concepts: 47
-- observations: 47
+- repos: 3
+- terms: 34
+- components: 31
+- concepts: 36
+- observations: 36
 
 ## Static behavior
 
@@ -29,13 +29,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 13618 | 2026-05-04T14:42:41Z | Shell | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 46459 | 2026-05-02T09:22:53Z | Shell | CLI | 21 | 11 | 23 | 23 |
 | [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) | 10803 | 2026-05-01T14:30:29Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) | 20747 | 2026-04-29T19:34:17Z | Shell | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 46459 | 2026-05-02T09:22:53Z | Shell | CLI | 21 | 11 | 23 | 23 |
-| [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim) | 20747 | 2026-04-29T19:34:17Z | Shell | Infrastructure/tooling | 11 | 8 | 11 | 11 |
 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 13618 | 2026-05-04T14:42:41Z | Shell | Infrastructure/tooling | 11 | 11 | 11 | 11 |
 | [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) | 10803 | 2026-05-01T14:30:29Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2083,
-    "concepts": 1950,
-    "observations": 1956,
-    "repos": 843,
-    "terms": 1938
+    "components": 2088,
+    "concepts": 1957,
+    "observations": 1963,
+    "repos": 844,
+    "terms": 1945
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -30,6 +30,7 @@
     "2KAbhishek/co-author.nvim",
     "2KAbhishek/octohub.nvim",
     "2KAbhishek/tdo.nvim",
+    "2KAbhishek/termim.nvim",
     "2KAbhishek/utils.nvim",
     "64327069/LVAgent",
     "a115/exmatrix",

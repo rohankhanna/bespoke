@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 176,
-    "observations": 178,
-    "repos": 41,
-    "terms": 173
+    "components": 190,
+    "concepts": 183,
+    "observations": 185,
+    "repos": 43,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
@@ -23,22 +23,23 @@
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bazel-contrib/rules_jvm",
     "BerkleyTechnologyServices/restdocs-spec",
-    "bobbylight/RSTALanguageSupport",
-    "bobbylight/SpellChecker",
+    "BerkleyTechnologyServices/restdocs-spec-example",
     "bsorrentino/java-async-generator",
     "bufbuild/protovalidate-java",
     "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "codetyio/codety-scanner",
+    "confluentinc/common",
+    "confluentinc/rest-utils",
     "dart4e/dart4e",
     "eclipse-shellwax/shellwax",
     "edward3h/minecraft-webhook",
     "filip26/ld-cli",
-    "glaforge/adk-java-maven-template",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
+    "googleapis/sdk-platform-java",
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "hivemq/helm-charts",
     "iterate-ch/rococoa",
@@ -50,8 +51,9 @@
     "mukel/gemma4.java",
     "opensim-org/opensim-gui",
     "simonpoole/OpeningHoursFragment",
-    "smithy-lang/smithy-dafny",
+    "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
+    "usdot-fhwa-stol/carma-cloud",
     "xmlark/msv",
     "yawkat/lz4-java",
     "zai-org/z-ai-sdk-java"

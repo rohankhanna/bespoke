@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 191
+- repos: 46
+- terms: 201
 - components: 135
-- concepts: 192
-- observations: 192
+- concepts: 202
+- observations: 202
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [zeromq/jeromq](https://github.com/zeromq/jeromq) | 2445 | 2025-11-30T13:59:58Z | Java | Library | 10 | 0 | 10 | 10 |
 | [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java) | 3611 | 2025-11-29T16:41:52Z | Java | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [lz4/lz4-java](https://github.com/lz4/lz4-java) | 1176 | 2025-11-28T19:23:16Z | Java | Unknown | 7 | 0 | 7 | 7 |
 | [Jigsaw-Code/Intra](https://github.com/Jigsaw-Code/Intra) | 2078 | 2025-11-19T23:57:17Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -98,6 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [osmdroid/osmdroid](https://github.com/osmdroid/osmdroid) | 3068 | 2024-11-20T06:40:38Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [classgraph/classgraph](https://github.com/classgraph/classgraph) | 2977 | 2025-10-10T10:05:26Z | Java | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [WangDaYeeeeee/GeometricWeather](https://github.com/WangDaYeeeeee/GeometricWeather) | 2524 | 2023-08-16T22:57:26Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [zeromq/jeromq](https://github.com/zeromq/jeromq) | 2445 | 2025-11-30T13:59:58Z | Java | Library | 10 | 0 | 10 | 10 |
 | [HdrHistogram/HdrHistogram](https://github.com/HdrHistogram/HdrHistogram) | 2299 | 2024-06-27T13:01:32Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [h2oai/h2o-2](https://github.com/h2oai/h2o-2) | 2268 | 2024-10-24T17:35:57Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [MineDojo/MineDojo](https://github.com/MineDojo/MineDojo) | 2190 | 2024-03-18T18:10:28Z | Java | Docs/knowledge | 0 | 0 | 0 | 0 |

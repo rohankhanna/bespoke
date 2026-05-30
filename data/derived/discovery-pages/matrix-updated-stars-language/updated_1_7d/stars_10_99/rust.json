@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 3,
-    "terms": 10
+    "components": 18,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "alloy-rs/evm",
-    "amazon-ion/ion-cli",
-    "lifegpc/msg-tool"
+    "vaporif/parry-guard"
   ]
 }

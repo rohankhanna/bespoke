@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 27,
-    "terms": 48
+    "components": 50,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 29,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/LLM-Council-Decide",
@@ -27,6 +28,7 @@
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "FEniCS/spack-fenics",
+    "flagos-ai/verl-FL",
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
     "hmellor/vllm",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 287,
-    "concepts": 523,
-    "observations": 523,
-    "repos": 84,
-    "terms": 520
+    "components": 314,
+    "concepts": 552,
+    "observations": 552,
+    "repos": 88,
+    "terms": 548
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -23,7 +23,6 @@
     "bambinos/bambi",
     "belluzj/fantasque-sans",
     "black-forest-labs/flux2",
-    "ChenmienTan/RL2",
     "cheshire-cat-ai/core",
     "databricks/megablocks",
     "dateutil/dateutil",
@@ -38,6 +37,7 @@
     "facebookresearch/fvcore",
     "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
+    "google-deepmind/bsuite",
     "google/deepvariant",
     "google/ml_collections",
     "gururise/AlpacaDataCleaned",
@@ -60,10 +60,12 @@
     "microsoft/TaskWeaver",
     "miiton/Cica",
     "miolini/autoresearch-macos",
+    "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
+    "NVIDIA/flownet2-pytorch",
     "NVlabs/VILA",
     "oils-for-unix/oils",
     "om-ai-lab/VLM-R1",
@@ -88,6 +90,7 @@
     "tabatkins/railroad-diagrams",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
+    "Textualize/rich-cli",
     "the-moonwitch/Cozette",
     "The-OpenROAD-Project/OpenLane",
     "themix-project/themix-gui",
@@ -96,6 +99,7 @@
     "turboderp-org/exllamav2",
     "ufoym/deepo",
     "Vchitect/VBench",
+    "wenet-e2e/wenet",
     "yangyanli/PointCNN",
     "zubair-trabzada/ai-marketing-claude"
   ]

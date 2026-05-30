@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 18,
-    "terms": 93
+    "components": 58,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 9,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "criccomini/uniffi-bindgen-node-js",
     "databendlabs/databend-meta",
-    "dcampbell24/djot-implementations",
     "decibri/decibri",
-    "Dicklesworthstone/franken_agent_detection",
-    "flathub-infra/flat-manager-hooks",
     "godot-rust/godot4-prebuilt",
-    "hecrj/llama-server",
     "heroku/buildpacks-php",
     "heroku/buildpacks-procfile",
-    "Hiroshiba/voicevox_core",
     "influxdata/arrow-datafusion",
     "kurrent-io/KurrentDB-Bridge-Client",
-    "ldclabs/ic-cose",
-    "open-telemetry/opentelemetry-weaver-examples",
-    "snowflakedb/universal-driver",
-    "sp1-patches/RustCrypto-hashes",
-    "typst/typst-dev-assets"
+    "open-telemetry/opentelemetry-weaver-examples"
   ]
 }

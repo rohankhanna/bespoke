@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 26
-- terms: 117
-- components: 205
-- concepts: 118
-- observations: 121
+- terms: 120
+- components: 207
+- concepts: 121
+- observations: 124
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | 2829 | 2026-03-30T20:53:47Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [emilk/eframe_template](https://github.com/emilk/eframe_template) | 1120 | 2026-03-27T10:42:35Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [extism/extism](https://github.com/extism/extism) | 5583 | 2026-03-26T21:38:31Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
@@ -50,8 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [simd-lite/simd-json](https://github.com/simd-lite/simd-json) | 1388 | 2026-03-11T06:52:57Z | Rust | Infrastructure/tooling | 8 | 6 | 9 | 9 |
 | [pdf-rs/pdf](https://github.com/pdf-rs/pdf) | 1646 | 2026-03-05T15:35:06Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [tokio-rs/prost](https://github.com/tokio-rs/prost) | 4671 | 2026-03-02T05:32:37Z | Rust | Infrastructure/tooling | 3 | 16 | 3 | 3 |
-| [ImageOptim/gifski](https://github.com/ImageOptim/gifski) | 5493 | 2026-02-28T18:28:50Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [brendanzab/codespan](https://github.com/brendanzab/codespan) | 1287 | 2026-02-28T10:33:10Z | Rust | CLI | 7 | 7 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -62,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [visioncortex/vtracer](https://github.com/visioncortex/vtracer) | 5957 | 2026-03-23T15:31:45Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 4 |
 | [extism/extism](https://github.com/extism/extism) | 5583 | 2026-03-26T21:38:31Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
-| [ImageOptim/gifski](https://github.com/ImageOptim/gifski) | 5493 | 2026-02-28T18:28:50Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [dtolnay/thiserror](https://github.com/dtolnay/thiserror) | 5403 | 2026-03-24T02:34:35Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) | 5367 | 2026-03-26T13:24:41Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
@@ -71,15 +70,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tokio-rs/prost](https://github.com/tokio-rs/prost) | 4671 | 2026-03-02T05:32:37Z | Rust | Infrastructure/tooling | 3 | 16 | 3 | 3 |
 | [google/tarpc](https://github.com/google/tarpc) | 3685 | 2026-03-25T06:11:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) | 2939 | 2026-03-22T12:28:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | 2829 | 2026-03-30T20:53:47Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [haleclipse/ccometixline](https://github.com/Haleclipse/CCometixLine) | 2713 | 2026-03-14T18:03:04Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [google/argh](https://github.com/google/argh) | 1906 | 2026-03-16T21:41:11Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 9 |
 | [tauri-apps/cargo-mobile2](https://github.com/tauri-apps/cargo-mobile2) | 1827 | 2026-03-19T10:07:22Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [pdf-rs/pdf](https://github.com/pdf-rs/pdf) | 1646 | 2026-03-05T15:35:06Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [la10736/rstest](https://github.com/la10736/rstest) | 1552 | 2026-03-26T09:55:13Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [dtolnay/quote](https://github.com/dtolnay/quote) | 1537 | 2026-03-25T06:01:55Z | Rust | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [Stebalien/tempfile](https://github.com/Stebalien/tempfile) | 1425 | 2026-03-14T18:51:29Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [simd-lite/simd-json](https://github.com/simd-lite/simd-json) | 1388 | 2026-03-11T06:52:57Z | Rust | Infrastructure/tooling | 8 | 6 | 9 | 9 |
 | [David-OConnor/pyflow](https://github.com/David-OConnor/pyflow) | 1337 | 2026-03-21T20:37:57Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [brendanzab/codespan](https://github.com/brendanzab/codespan) | 1287 | 2026-02-28T10:33:10Z | Rust | CLI | 7 | 7 | 7 | 7 |
 | [allan2/dotenvy](https://github.com/allan2/dotenvy) | 1188 | 2026-03-12T06:39:24Z | Rust | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [emilk/eframe_template](https://github.com/emilk/eframe_template) | 1120 | 2026-03-27T10:42:35Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |

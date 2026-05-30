@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 35,
-    "terms": 117
+    "components": 83,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 33,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "ada-url/goada",
@@ -36,7 +36,6 @@
     "ilyabrilev/biosim4",
     "intel/intel-extension-for-openxla",
     "intel/metrics-discovery",
-    "JPEWdev/icecream-sundae",
     "jupyter-xeus/xeus-zmq",
     "jupyter-xeus/xleaflet",
     "lemire/simple_fastfloat_benchmark",
@@ -45,7 +44,6 @@
     "midi2-dev/ni-midi2",
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
-    "smuellerDD/acvpparser",
     "ssiu/flash-attention-turing",
     "undreamai/LlamaLib",
     "VeriSilicon/tflite-vx-delegate"

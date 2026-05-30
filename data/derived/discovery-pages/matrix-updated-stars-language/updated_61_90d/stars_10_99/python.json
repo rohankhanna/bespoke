@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 55,
-    "terms": 162
+    "components": 237,
+    "concepts": 172,
+    "observations": 172,
+    "repos": 53,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
     "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
+    "analyticsinmotion/werpy",
     "andyluo7/autoresearch",
-    "AniAggarwal/ecad",
     "apache/parquet-testing",
     "bentoml/openllm-models",
     "BirolLab/tigmint",
@@ -41,7 +41,6 @@
     "explosion/spacy-alignments",
     "explosion/weasel",
     "FindDefinition/cumm",
-    "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
     "gazebosim/gz-mujoco",
     "googlefonts/nam-files",
@@ -65,7 +64,6 @@
     "seung-lab/cloud-files",
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
-    "vinlyx/mgzip",
     "VisionXLab/Rise-Video",
     "xuanyuzhang21/VQ-Insight",
     "yxlllc/RMVPE"

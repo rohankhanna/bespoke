@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 200,
-    "observations": 200,
-    "repos": 91,
-    "terms": 200
+    "components": 325,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 92,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
     "actboy168/ltest",
     "ada-url/kotlin",
+    "aimeos/ai-monolog",
     "alstafeev/midscene-java",
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
@@ -27,6 +28,7 @@
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
+    "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "bladeacer/obsi-snip-coll",
     "Blosc/blogsite",
@@ -41,6 +43,7 @@
     "conda-forge/croc-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
+    "cosmos/security",
     "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
     "cyber404/che-apple-mail-mcp",
@@ -52,7 +55,6 @@
     "dwyl/auth_plug_example",
     "dwyl/fields-demo",
     "dwyl/ping",
-    "elixir-makeup/makeup_syntect",
     "enbop/fungi-app",
     "ethpandaops/checkpoint-sync-health-checks",
     "flagos-ai/flir",
@@ -93,7 +95,6 @@
     "raku-community-modules/Terminal-WCWidth",
     "rmsrosa/rmsrosa.github.io",
     "ROCm/hipBLAS-common",
-    "rocq-community/docker-base",
     "rocq-community/docker-rocq",
     "ros2-rust/rosidl_rust",
     "Shougo/dpp-ext-lazy",

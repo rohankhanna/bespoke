@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 984,
-    "concepts": 170,
-    "observations": 170,
-    "repos": 47,
-    "terms": 179
+    "components": 1043,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 51,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "8hobbies/vite-plugin-year",
     "alibaizhanov/openclaw-mengram",
@@ -29,6 +29,8 @@
     "danielrosehill/GreenInvoice-MCP",
     "dreamiurg/mountaineers-assistant",
     "dreamiurg/mountaineers-mcp",
+    "dreamscached/i18next-cli-plugin-svelte",
+    "ecyrbe/zodios-plugins",
     "ember-cli/ember-addon-blueprint",
     "enxs969/skiller",
     "filecoin-project/github-mgmt",
@@ -47,9 +49,11 @@
     "nicolo-ribaudo/engine262",
     "oclif/plugin-commands",
     "oclif/plugin-search",
+    "octokit/auth-callback.js",
     "octokit/auth-unauthenticated.js",
     "octokit/openapi-webhooks",
     "qcr/qcr.github.io",
+    "redhat-developer/app-services-api-guidelines",
     "rstackjs/rsbuild-plugin-i18next-extractor",
     "saminiscool/twitter-ai-agent",
     "sass/sync-child-process",

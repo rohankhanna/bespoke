@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 23,
-    "terms": 93
+    "components": 117,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 25,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
+    "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",
     "bartventer/httpcache",
@@ -36,6 +37,7 @@
     "kurrent-io/KurrentDB-Client-Go",
     "matelang/jwt-go-aws-kms",
     "OpenCIDN/ocimirror",
+    "scaleway/serverless-examples",
     "wzshiming/repimage"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10515,
-    "concepts": 9082,
-    "observations": 9091,
-    "repos": 2353,
-    "terms": 8955
+    "components": 10511,
+    "concepts": 9102,
+    "observations": 9111,
+    "repos": 2355,
+    "terms": 8974
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -447,6 +447,7 @@
     "cr-marcstevens/sha1collisiondetection",
     "crazy-max/WindowsSpyBlocker",
     "creaktive/rainbarf",
+    "create-dmg/create-dmg",
     "creationix/js-git",
     "crossbario/autobahn-java",
     "crossbario/autobahn-testsuite",
@@ -966,7 +967,6 @@
     "hustvl/MapTR",
     "hustvl/Vim",
     "HybridRobotics/whole_body_tracking",
-    "hyperhype/hyperscript",
     "hyperic/sigar",
     "hyperopt/hyperopt-sklearn",
     "hyperupcall/autoenv",
@@ -1762,6 +1762,7 @@
     "PyCQA/pyflakes",
     "pyenv/pyenv-installer",
     "PyImageSearch/imutils",
+    "pykaldi/pykaldi",
     "pymc-devs/pymc-resources",
     "PyMesh/PyMesh",
     "pypa/sampleproject",
@@ -2343,6 +2344,7 @@
     "zargony/fuse-rs",
     "Zejun-Yang/AniPortrait",
     "zenghongtu/react-use-chinese",
+    "zeromq/jeromq",
     "zhanghang1989/PyTorch-Encoding",
     "ZhaoJ9014/face.evoLVe",
     "zhayujie/bot-on-anything",

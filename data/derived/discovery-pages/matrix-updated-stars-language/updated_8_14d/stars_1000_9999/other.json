@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 11,
-    "terms": 90
+    "components": 22,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 7,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
-    "apache/casbin-Casbin.NET",
-    "googleapis/google-auth-library-php",
     "litedb-org/LiteDB",
-    "lumen-oss/rocks.nvim",
-    "nvim-tree/nvim-web-devicons",
+    "microsoft/PhiCookBook",
     "opentk/opentk",
     "preservim/tagbar",
-    "seancorfield/honeysql",
     "standardrb/standard",
     "xoofx/markdig"
   ]

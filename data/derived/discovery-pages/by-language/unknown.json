@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1642,
-    "concepts": 3026,
-    "observations": 3030,
-    "repos": 1712,
-    "terms": 3030
+    "components": 1645,
+    "concepts": 3027,
+    "observations": 3031,
+    "repos": 1713,
+    "terms": 3031
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -934,7 +934,6 @@
     "hxehex/russia-mobile-internet-whitelist",
     "hybridgroup/llama-cpp-builder",
     "HZAI-ZJNU/happy-llm-ppt",
-    "HzFu/COVID19_imaging_AI_paper_list",
     "iamazy/reqwest",
     "iaolo/iA-Fonts",
     "ibis-project/governance",
@@ -1146,6 +1145,7 @@
     "matklad/macro-dep-test",
     "matthiasn/talk-transcripts",
     "mayhemantt/mayhemantt",
+    "mayocream/ug",
     "mdn/mdn-community",
     "Megvii-BaseDetection/storage",
     "meituan-longcat/LongCat-Flash-Chat",
@@ -1581,6 +1581,7 @@
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",
     "tesseract-ocr/tessdata_fast",
+    "the-database/MangaJaNai",
     "the-guild-org/Stack",
     "TheRobotStudio/SO-ARM100",
     "thetutlage/meta",

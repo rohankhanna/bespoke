@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 126,
-    "concepts": 454,
-    "observations": 455,
-    "repos": 252,
-    "terms": 454
+    "concepts": 456,
+    "observations": 457,
+    "repos": 253,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -67,6 +67,7 @@
     "cloudwego/community",
     "clovaai/cord",
     "cocos/awesome-cocos",
+    "CodeBoarding/GeneratedOnBoardings",
     "ContinuumIO/anaconda-issues",
     "cooelf/PaperWritingTips",
     "coqui-ai/TTS-papers",
@@ -129,7 +130,6 @@
     "hpatches/hpatches-dataset",
     "hughfenghen/WebAV-KnowledgeGraph",
     "hustvl/LaneGAP",
-    "HzFu/COVID19_imaging_AI_paper_list",
     "ibm-granite/granite-3.0-language-models",
     "IceClear/SeedVR",
     "ichitenfont/inheritedglyphs",
@@ -249,6 +249,7 @@
     "tapjs/tap-parser",
     "tesseract-ocr/langdata",
     "tesseract-ocr/tessdata_fast",
+    "the-database/MangaJaNai",
     "the-guild-org/Stack",
     "thunlp/ToolLearningPapers",
     "tinted-theming/base16-schemes",

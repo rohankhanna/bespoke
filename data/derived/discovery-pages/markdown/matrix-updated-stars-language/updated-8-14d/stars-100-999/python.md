@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 9
-- terms: 38
-- components: 23
-- concepts: 38
-- observations: 38
+- terms: 46
+- components: 38
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,9 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 322 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [pypa/setuptools-scm](https://github.com/pypa/setuptools-scm) | 948 | 2026-05-22T19:11:35Z | Python | Infrastructure/tooling | 9 | 18 | 9 | 9 |
+| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 324 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [AMD-AGI/Nitro-1](https://github.com/AMD-AGI/Nitro-1) | 124 | 2026-05-21T15:12:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
-| [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-19T19:31:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [shawn0728/OpenSearch-VL](https://github.com/shawn0728/OpenSearch-VL) | 194 | 2026-05-19T05:52:18Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [python-poetry/poetry-plugin-export](https://github.com/python-poetry/poetry-plugin-export) | 333 | 2026-05-18T21:47:45Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 909 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -40,12 +40,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pypa/setuptools-scm](https://github.com/pypa/setuptools-scm) | 948 | 2026-05-22T19:11:35Z | Python | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 909 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [TextArena/TextArena](https://github.com/TextArena/TextArena) | 398 | 2026-05-16T15:12:54Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [python-poetry/poetry-plugin-export](https://github.com/python-poetry/poetry-plugin-export) | 333 | 2026-05-18T21:47:45Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 322 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
+| [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 324 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [Jamorim-esss/pytest-rich](https://github.com/Jamorim-esss/pytest-rich) | 255 | 2026-05-18T13:13:04Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-19T19:31:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [gbionics/adam](https://github.com/gbionics/adam) | 216 | 2026-05-18T09:46:43Z | Python | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [shawn0728/OpenSearch-VL](https://github.com/shawn0728/OpenSearch-VL) | 194 | 2026-05-19T05:52:18Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [AMD-AGI/Nitro-1](https://github.com/AMD-AGI/Nitro-1) | 124 | 2026-05-21T15:12:49Z | Python | Unknown | 3 | 0 | 3 | 3 |

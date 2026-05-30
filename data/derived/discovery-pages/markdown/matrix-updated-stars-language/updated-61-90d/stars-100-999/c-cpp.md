@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 61
-- terms: 318
-- components: 204
-- concepts: 320
-- observations: 321
+- repos: 63
+- terms: 337
+- components: 219
+- concepts: 339
+- observations: 340
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [uxlfoundation/oneMath](https://github.com/uxlfoundation/oneMath) | 759 | 2026-03-30T17:26:57Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
+| [VeriSilicon/TIM-VX](https://github.com/VeriSilicon/TIM-VX) | 253 | 2026-03-30T09:35:49Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition](https://github.com/PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition) | 574 | 2026-03-29T11:35:07Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [charlesnicholson/nanoprintf](https://github.com/charlesnicholson/nanoprintf) | 821 | 2026-03-29T01:37:10Z | C/C++ | Infrastructure/tooling | 17 | 2 | 17 | 17 |
 | [nhielost/obs-midi-mg](https://github.com/nhielost/obs-midi-mg) | 215 | 2026-03-28T19:59:07Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |
@@ -42,7 +44,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AmusementClub/vs-mlrt](https://github.com/AmusementClub/vs-mlrt) | 440 | 2026-03-26T01:48:30Z | C/C++ | Infrastructure/tooling | 27 | 5 | 27 | 27 |
 | [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 213 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 214 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [microsoft/xlang](https://github.com/microsoft/xlang) | 907 | 2026-03-25T00:58:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [LuisaGroup/LuisaRender](https://github.com/LuisaGroup/LuisaRender) | 603 | 2026-03-24T04:36:58Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [eclipse-cyclonedds/cyclonedds-cxx](https://github.com/eclipse-cyclonedds/cyclonedds-cxx) | 138 | 2026-03-23T11:50:47Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -103,6 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charlesnicholson/nanoprintf](https://github.com/charlesnicholson/nanoprintf) | 821 | 2026-03-29T01:37:10Z | C/C++ | Infrastructure/tooling | 17 | 2 | 17 | 17 |
 | [raysan5/raylib-games](https://github.com/raysan5/raylib-games) | 786 | 2026-03-18T15:25:44Z | C/C++ | Unknown | 6 | 0 | 7 | 7 |
 | [haosulab/SAPIEN](https://github.com/haosulab/SAPIEN) | 761 | 2026-03-10T08:37:06Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [uxlfoundation/oneMath](https://github.com/uxlfoundation/oneMath) | 759 | 2026-03-30T17:26:57Z | C/C++ | Infrastructure/tooling | 15 | 10 | 15 | 15 |
 | [KhronosGroup/OpenCL-Headers](https://github.com/KhronosGroup/OpenCL-Headers) | 757 | 2026-03-17T16:37:25Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [veorq/SipHash](https://github.com/veorq/SipHash) | 757 | 2026-03-07T07:30:07Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [douglascrockford/JSMin](https://github.com/douglascrockford/JSMin) | 713 | 2026-03-03T18:10:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -137,12 +140,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arduino-libraries/Ethernet](https://github.com/arduino-libraries/Ethernet) | 278 | 2026-03-16T17:29:15Z | C/C++ | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [objectbox/objectbox-c](https://github.com/objectbox/objectbox-c) | 266 | 2026-03-26T12:57:52Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
 | [sheredom/ubench.h](https://github.com/sheredom/ubench.h) | 255 | 2026-03-08T18:22:06Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [VeriSilicon/TIM-VX](https://github.com/VeriSilicon/TIM-VX) | 253 | 2026-03-30T09:35:49Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [lastz/lastz](https://github.com/lastz/lastz) | 245 | 2026-03-27T12:20:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [gbionics/idyntree](https://github.com/gbionics/idyntree) | 230 | 2026-03-27T16:33:58Z | C/C++ | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [ARM-software/EndpointAI](https://github.com/ARM-software/EndpointAI) | 224 | 2026-03-04T16:54:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fujitsu/xbyak_aarch64](https://github.com/fujitsu/xbyak_aarch64) | 223 | 2026-03-27T15:11:43Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [nhielost/obs-midi-mg](https://github.com/nhielost/obs-midi-mg) | 215 | 2026-03-28T19:59:07Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |
-| [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 213 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [littlefs-project/littlefs-fuse](https://github.com/littlefs-project/littlefs-fuse) | 214 | 2026-03-25T04:16:40Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [smarco/WFA2-lib](https://github.com/smarco/WFA2-lib) | 213 | 2026-03-18T08:53:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [NetEase-FuXi/EETQ](https://github.com/NetEase-FuXi/EETQ) | 206 | 2026-03-25T14:42:59Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [intel/gmmlib](https://github.com/intel/gmmlib) | 191 | 2026-03-25T05:04:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

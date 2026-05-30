@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 39
-- components: 24
-- concepts: 39
-- observations: 40
+- repos: 2
+- terms: 18
+- components: 14
+- concepts: 18
+- observations: 19
 
 ## Static behavior
 
@@ -27,13 +27,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14279 | 2026-05-21T23:31:20Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27303 | 2026-05-21T12:29:44Z | Go | CLI | 16 | 8 | 16 | 17 |
-| [apache/casbin](https://github.com/apache/casbin) | 20139 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27382 | 2026-05-21T12:29:44Z | Go | CLI | 16 | 8 | 16 | 17 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27303 | 2026-05-21T12:29:44Z | Go | CLI | 16 | 8 | 16 | 17 |
-| [apache/casbin](https://github.com/apache/casbin) | 20139 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27382 | 2026-05-21T12:29:44Z | Go | CLI | 16 | 8 | 16 | 17 |
 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14279 | 2026-05-21T23:31:20Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |

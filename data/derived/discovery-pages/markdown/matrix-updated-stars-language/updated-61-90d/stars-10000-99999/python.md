@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
+- repos: 34
 - terms: 165
 - components: 131
 - concepts: 160
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [3b1b/videos](https://github.com/3b1b/videos) | 10586 | 2026-03-30T13:54:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [deepinsight/insightface](https://github.com/deepinsight/insightface) | 28511 | 2026-03-29T11:01:56Z | Python | Unknown | 10 | 0 | 10 | 10 |
 | [encode/httpx](https://github.com/encode/httpx) | 15206 | 2026-03-29T00:19:16Z | Python | CLI | 5 | 2 | 5 | 5 |
 | [explosion/spaCy](https://github.com/explosion/spaCy) | 33497 | 2026-03-28T20:59:29Z | Python | Infrastructure/tooling | 20 | 11 | 20 | 20 |
@@ -96,4 +97,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | 11064 | 2026-03-17T06:38:41Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [rany2/edge-tts](https://github.com/rany2/edge-tts) | 10984 | 2026-03-22T19:58:31Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) | 10842 | 2026-03-21T11:34:22Z | Python | Infrastructure/tooling | 12 | 18 | 12 | 12 |
+| [3b1b/videos](https://github.com/3b1b/videos) | 10586 | 2026-03-30T13:54:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [prompt-toolkit/python-prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit) | 10428 | 2026-03-17T12:10:47Z | Python | CLI | 1 | 3 | 1 | 1 |

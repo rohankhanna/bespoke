@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
-- terms: 143
+- repos: 29
+- terms: 132
 - components: 55
-- concepts: 145
-- observations: 146
+- concepts: 134
+- observations: 135
 
 ## Static behavior
 
@@ -55,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jandamm/zgenom](https://github.com/jandamm/zgenom) | 422 | 2026-01-01T13:22:10Z | Shell | Unknown | 5 | 0 | 6 | 6 |
 | [buildpacks/spec](https://github.com/buildpacks/spec) | 268 | 2025-12-19T22:43:46Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [rootless-containers/usernetes](https://github.com/rootless-containers/usernetes) | 962 | 2025-12-18T08:15:21Z | Shell | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [drduh/config](https://github.com/drduh/config) | 319 | 2025-12-01T04:02:12Z | Shell | Docs/knowledge | 11 | 0 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -79,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pyenv/pyenv-update](https://github.com/pyenv/pyenv-update) | 384 | 2026-01-10T02:57:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [nodejs/unofficial-builds](https://github.com/nodejs/unofficial-builds) | 380 | 2026-02-26T19:59:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [helm/kind-action](https://github.com/helm/kind-action) | 373 | 2026-02-17T14:51:50Z | Shell | Infrastructure/tooling | 7 | 1 | 7 | 7 |
-| [drduh/config](https://github.com/drduh/config) | 319 | 2025-12-01T04:02:12Z | Shell | Docs/knowledge | 11 | 0 | 11 | 11 |
 | [nico2sh/semtag](https://github.com/nico2sh/semtag) | 315 | 2026-02-11T13:49:35Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tensorflow/build](https://github.com/tensorflow/build) | 306 | 2026-02-21T00:00:29Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [get-gah/gah](https://github.com/get-gah/gah) | 294 | 2026-02-03T22:38:04Z | Shell | CLI | 8 | 6 | 9 | 9 |

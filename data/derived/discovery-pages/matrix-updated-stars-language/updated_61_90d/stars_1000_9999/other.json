@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 368,
-    "concepts": 454,
-    "observations": 457,
-    "repos": 82,
-    "terms": 455
+    "components": 385,
+    "concepts": 471,
+    "observations": 474,
+    "repos": 86,
+    "terms": 471
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "activerecord-hackery/ransack",
@@ -47,7 +47,10 @@
     "folke/tokyonight.nvim",
     "freerange/mocha",
     "gjtorikian/html-proofer",
+    "google-deepmind/tapnet",
+    "google/brax",
     "google/cel-spec",
+    "google/jsonnet",
     "gpuweb/gpuweb",
     "grangier/python-goose",
     "heartcombo/has_scope",
@@ -95,6 +98,7 @@
     "vkhorikov/CSharpFunctionalExtensions",
     "WebReflection/linkedom",
     "whitequark/parser",
-    "z-x-yang/Segment-and-Track-Anything"
+    "z-x-yang/Segment-and-Track-Anything",
+    "zarazhangrui/codebase-to-course"
   ]
 }

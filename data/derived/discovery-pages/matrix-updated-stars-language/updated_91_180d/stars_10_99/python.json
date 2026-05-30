@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 256,
-    "concepts": 259,
-    "observations": 260,
-    "repos": 106,
-    "terms": 267
+    "components": 259,
+    "concepts": 268,
+    "observations": 269,
+    "repos": 109,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -25,6 +25,7 @@
     "alexmojaki/stack_data",
     "AlonzoLeeeooo/LCDG",
     "amaranth-lang/amaranth-stdio",
+    "AniAggarwal/ecad",
     "antgroup/DeepXTrace",
     "ASLP-lab/Hum-Dial",
     "autokitteh/kittehub",
@@ -54,6 +55,7 @@
     "enjoy-digital/liteiclink",
     "enjoy-digital/litex_hw_ci",
     "espressif/conventional-precommit-linter",
+    "fla-org/flash-bidirectional-linear-attention",
     "fsspec/sshfs",
     "galaxyproject/tools-devteam",
     "google-deepmind/alphageometry2",
@@ -111,6 +113,7 @@
     "tinted-theming/base24",
     "TransferQueue/TransferQueue",
     "TungChintao/SkiLa",
+    "vinlyx/mgzip",
     "vis-nlp/ChartQAPro",
     "vllm-project/vllm-openvino",
     "vstinner/misc",

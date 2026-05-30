@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 94
-- terms: 208
+- repos: 95
+- terms: 219
 - components: 75
-- concepts: 215
-- observations: 217
+- concepts: 226
+- observations: 228
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [drduh/config](https://github.com/drduh/config) | 319 | 2025-12-01T04:02:12Z | Shell | Docs/knowledge | 11 | 0 | 11 | 11 |
 | [tracyone/program_font](https://github.com/tracyone/program_font) | 135 | 2025-11-29T03:11:45Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [asdf-community/asdf-direnv](https://github.com/asdf-community/asdf-direnv) | 573 | 2025-11-21T01:11:24Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [asdf-community/asdf-kubectl](https://github.com/asdf-community/asdf-kubectl) | 131 | 2025-11-12T15:57:32Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -38,7 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [10up/actions-wordpress](https://github.com/10up/actions-wordpress) | 462 | 2025-10-09T03:12:12Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [joseluisq/gitnow](https://github.com/joseluisq/gitnow) | 476 | 2025-09-17T04:34:05Z | Shell | Infrastructure/tooling | 6 | 2 | 7 | 7 |
 | [ipfs/community](https://github.com/ipfs/community) | 431 | 2025-09-16T01:36:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 483 | 2025-08-31T02:59:38Z | Shell | CLI | 5 | 0 | 5 | 5 |
+| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 484 | 2025-08-31T02:59:38Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [koalaman/shellcheck-precommit](https://github.com/koalaman/shellcheck-precommit) | 124 | 2025-08-04T03:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [devcontainers/template-starter](https://github.com/devcontainers/template-starter) | 253 | 2025-08-01T09:07:52Z | Shell | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [AppImageCommunity/pkg2appimage](https://github.com/AppImageCommunity/pkg2appimage) | 771 | 2025-07-21T11:28:59Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
@@ -152,8 +153,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hashicorp/docker-vault](https://github.com/hashicorp/docker-vault) | 502 | 2023-12-06T14:53:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [lukechilds/zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) | 499 | 2024-10-31T09:38:35Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [mattmc3/zsh_unplugged](https://github.com/mattmc3/zsh_unplugged) | 492 | 2025-10-09T12:31:07Z | Shell | Unknown | 1 | 0 | 1 | 1 |
+| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 484 | 2025-08-31T02:59:38Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [romkatv/zsh-defer](https://github.com/romkatv/zsh-defer) | 484 | 2024-02-10T06:30:37Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 483 | 2025-08-31T02:59:38Z | Shell | CLI | 5 | 0 | 5 | 5 |
 | [mpv-player/mpv-build](https://github.com/mpv-player/mpv-build) | 476 | 2025-11-02T20:17:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [joseluisq/gitnow](https://github.com/joseluisq/gitnow) | 476 | 2025-09-17T04:34:05Z | Shell | Infrastructure/tooling | 6 | 2 | 7 | 7 |
 | [10up/actions-wordpress](https://github.com/10up/actions-wordpress) | 462 | 2025-10-09T03:12:12Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -175,6 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alpinelinux/alpine-chroot-install](https://github.com/alpinelinux/alpine-chroot-install) | 338 | 2025-01-06T00:18:13Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [chrismytton/shoreman](https://github.com/chrismytton/shoreman) | 336 | 2025-01-30T11:05:25Z | Shell | Infrastructure/tooling | 3 | 2 | 4 | 4 |
 | [archlinux/svntogit-packages](https://github.com/archlinux/svntogit-packages) | 324 | 2023-05-19T02:45:36Z | Shell | Library | 0 | 0 | 0 | 0 |
+| [drduh/config](https://github.com/drduh/config) | 319 | 2025-12-01T04:02:12Z | Shell | Docs/knowledge | 11 | 0 | 11 | 11 |
 | [jkjung-avt/jetson_nano](https://github.com/jkjung-avt/jetson_nano) | 304 | 2022-05-21T03:52:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [kward/shflags](https://github.com/kward/shflags) | 303 | 2024-06-12T13:05:52Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [antfu/dotfiles](https://github.com/antfu/dotfiles) | 287 | 2022-04-04T20:47:25Z | Shell | Unknown | 0 | 0 | 0 | 0 |

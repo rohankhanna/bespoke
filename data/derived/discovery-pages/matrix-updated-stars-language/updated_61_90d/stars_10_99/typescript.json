@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 562,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 27,
-    "terms": 92
+    "components": 592,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 28,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "0xBigBoss/vscode-bootty",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
@@ -25,6 +24,7 @@
     "googleapis/nodejs-error-reporting",
     "gr2m/octokit-oauth-app-now-example",
     "hbenl/vscode-mocha-test-adapter",
+    "holochain/kangaroo-electron",
     "HoneyLuka/uBlacklist",
     "ipfs/js-kubo-rpc-client",
     "joshwooding/vite-plugin-react-docgen-typescript",
@@ -33,6 +33,7 @@
     "memoryhole/jjo",
     "nanostores/alpine",
     "pkgxdev/brewkit",
+    "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",
     "SchwarzIT/api-linter-rules",
     "Shougo/ddu-filter-matcher_substring",

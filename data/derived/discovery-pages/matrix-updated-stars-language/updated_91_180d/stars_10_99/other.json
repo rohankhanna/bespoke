@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 430,
-    "concepts": 298,
-    "observations": 299,
-    "repos": 123,
-    "terms": 297
+    "components": 470,
+    "concepts": 309,
+    "observations": 310,
+    "repos": 126,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
-    "2KAbhishek/termim.nvim",
     "aarroyoc/djota",
     "aarroyoc/doclog",
     "abapGit/ADT_Backend",
@@ -26,6 +25,7 @@
     "AghayeCoder/TX-ThemeHub",
     "ahrvoje/numerics",
     "AliRezaBeigy/paqetNG",
+    "andys8/git-brunch",
     "ankane/ml-stack",
     "anmolitor/travelm-agency",
     "antonbabenko/serverless.tf-playground",
@@ -35,8 +35,10 @@
     "Arthur944/neotest-bun",
     "asg017/sqlite-hello",
     "auto-complete/fuzzy-el",
+    "avelino/monotropic-theme-vscode",
     "ayrat555/cargo-mode",
     "bwya77/obsidian-baseline-customization",
+    "camertron/garnet-js",
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
     "cleanlab/cleanvision-examples",
@@ -114,6 +116,7 @@
     "patrickgold/jetpref",
     "probe-lab/network-measurements",
     "pug-php/js-phpize",
+    "rcasia/neotest-bash",
     "reisub/http_cookie",
     "Rhoban/onshape-to-robot-examples",
     "robotology/icub-models",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 55518,
-    "concepts": 36085,
-    "observations": 36194,
-    "repos": 6095,
-    "terms": 35976
+    "components": 55539,
+    "concepts": 36103,
+    "observations": 36212,
+    "repos": 6096,
+    "terms": 35990
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01mf02/jaq",
@@ -1948,6 +1948,7 @@
     "fkling/astexplorer",
     "fla-org/flash-linear-attention",
     "FlagAI-Open/FlagAI",
+    "FlagOpen/RoboBrain2.5",
     "flame/blis",
     "flamegraph-rs/flamegraph",
     "flann-lib/flann",
@@ -2610,7 +2611,6 @@
     "hustvl/Vim",
     "hxehex/russia-mobile-internet-whitelist",
     "HybridRobotics/whole_body_tracking",
-    "hyperhype/hyperscript",
     "hyperic/sigar",
     "hyperium/h2",
     "hyperium/http",
@@ -6106,6 +6106,7 @@
     "zsh-users/zsh-completions",
     "zsviczian/obsidian-excalidraw-plugin",
     "zubair-trabzada/ai-marketing-claude",
+    "zyddnys/manga-image-translator",
     "zyedidia/eget"
   ]
 }

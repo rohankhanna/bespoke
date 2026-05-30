@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 0
+- repos: 2
+- terms: 1
 - components: 0
-- concepts: 0
-- observations: 0
+- concepts: 1
+- observations: 1
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 4 | 2026-05-26T12:14:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 5 | 2026-05-28T06:34:27Z | Unknown | CLI | 1 | 0 | 1 | 1 |
+| [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 5 | 2026-05-26T12:14:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 4 | 2026-05-26T12:14:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [psmux/scoop-psmux](https://github.com/psmux/scoop-psmux) | 5 | 2026-05-28T06:34:27Z | Unknown | CLI | 1 | 0 | 1 | 1 |
+| [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 5 | 2026-05-26T12:14:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

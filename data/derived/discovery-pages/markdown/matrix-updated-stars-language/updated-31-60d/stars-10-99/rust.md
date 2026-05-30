@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 110
-- terms: 469
-- components: 754
-- concepts: 455
-- observations: 457
+- repos: 117
+- terms: 501
+- components: 804
+- concepts: 487
+- observations: 489
 
 ## Static behavior
 
@@ -26,6 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ldclabs/anda-hippocampus](https://github.com/ldclabs/anda-hippocampus) | 43 | 2026-04-30T01:44:36Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [ldclabs/anda-db](https://github.com/ldclabs/anda-db) | 28 | 2026-04-29T23:38:48Z | Rust | Infrastructure/tooling | 9 | 4 | 9 | 9 |
+| [openvm-org/stark-backend](https://github.com/openvm-org/stark-backend) | 37 | 2026-04-29T21:47:26Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
+| [apollographql/federation-rs](https://github.com/apollographql/federation-rs) | 40 | 2026-04-29T20:45:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [AccessKit/accesskit-c](https://github.com/AccessKit/accesskit-c) | 25 | 2026-04-29T19:20:58Z | Rust | Infrastructure/tooling | 2 | 14 | 2 | 2 |
+| [asny/three-d-asset](https://github.com/asny/three-d-asset) | 47 | 2026-04-29T13:00:37Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [fonttools/fontspector](https://github.com/fonttools/fontspector) | 95 | 2026-04-29T11:09:23Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [bourumir-wyngs/serde-yaml-bw](https://github.com/bourumir-wyngs/serde-yaml-bw) | 37 | 2026-04-29T08:09:04Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [bnb-chain/reth-bsc](https://github.com/bnb-chain/reth-bsc) | 69 | 2026-04-29T06:40:33Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [bnb-chain/reth](https://github.com/bnb-chain/reth) | 24 | 2026-04-29T06:38:14Z | Rust | Infrastructure/tooling | 7 | 14 | 7 | 7 |
@@ -116,7 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alixinne/glsl-lang](https://github.com/alixinne/glsl-lang) | 25 | 2026-04-13T00:45:34Z | Rust | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [idanarye/nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim) | 81 | 2026-04-12T13:17:14Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [antonWetzel/prettypst](https://github.com/antonWetzel/prettypst) | 53 | 2026-04-11T15:18:58Z | Rust | Unknown | 2 | 0 | 2 | 2 |
-| [psmux/omp-manager](https://github.com/psmux/omp-manager) | 46 | 2026-04-10T18:46:26Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [psmux/omp-manager](https://github.com/psmux/omp-manager) | 47 | 2026-04-10T18:46:26Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [rust-lang/josh-sync](https://github.com/rust-lang/josh-sync) | 16 | 2026-04-10T15:35:43Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [BlackDex/rust-musl](https://github.com/BlackDex/rust-musl) | 64 | 2026-04-10T15:13:19Z | Rust | Infrastructure/tooling | 3 | 13 | 3 | 3 |
 | [ashvardanian/NumWars](https://github.com/ashvardanian/NumWars) | 31 | 2026-04-09T11:37:17Z | Rust | Unknown | 7 | 0 | 7 | 7 |
@@ -144,6 +151,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GreptimeTeam/promql-parser](https://github.com/GreptimeTeam/promql-parser) | 97 | 2026-04-20T12:06:30Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [andelf/picc](https://github.com/andelf/picc) | 97 | 2026-04-18T04:42:38Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [multiformats/rust-cid](https://github.com/multiformats/rust-cid) | 96 | 2026-04-20T13:12:30Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [fonttools/fontspector](https://github.com/fonttools/fontspector) | 95 | 2026-04-29T11:09:23Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [arkworks-rs/spongefish](https://github.com/arkworks-rs/spongefish) | 94 | 2026-04-22T17:13:43Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [sophus-vision/sophus-rs](https://github.com/sophus-vision/sophus-rs) | 94 | 2026-04-15T13:16:13Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [Layr-Labs/eigensdk-rs](https://github.com/Layr-Labs/eigensdk-rs) | 94 | 2026-04-14T02:59:17Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
@@ -189,16 +197,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quininer/x11-clipboard](https://github.com/quininer/x11-clipboard) | 51 | 2026-04-14T14:17:34Z | Rust | CLI | 2 | 1 | 2 | 2 |
 | [holochain/holochain-serialization](https://github.com/holochain/holochain-serialization) | 50 | 2026-04-22T17:27:26Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [asny/three-d-asset](https://github.com/asny/three-d-asset) | 47 | 2026-04-29T13:00:37Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [foundry-rs/foundry-fork-db](https://github.com/foundry-rs/foundry-fork-db) | 47 | 2026-04-20T09:41:05Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [psmux/omp-manager](https://github.com/psmux/omp-manager) | 47 | 2026-04-10T18:46:26Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [bgpkit/bgpkit-broker](https://github.com/bgpkit/bgpkit-broker) | 47 | 2026-04-08T04:23:32Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Calsign/gazelle_rust](https://github.com/Calsign/gazelle_rust) | 47 | 2026-04-05T01:03:52Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [bitcoindevkit/bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | 46 | 2026-04-22T20:18:41Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [psmux/omp-manager](https://github.com/psmux/omp-manager) | 46 | 2026-04-10T18:46:26Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [datafusion-contrib/datafusion-orc](https://github.com/datafusion-contrib/datafusion-orc) | 45 | 2026-04-03T03:45:51Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [matter-labs/zksync-crypto](https://github.com/matter-labs/zksync-crypto) | 44 | 2026-04-28T13:44:41Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [ldclabs/anda-hippocampus](https://github.com/ldclabs/anda-hippocampus) | 43 | 2026-04-30T01:44:36Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [watchexec/process-wrap](https://github.com/watchexec/process-wrap) | 43 | 2026-04-18T23:42:13Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [arkworks-rs/std](https://github.com/arkworks-rs/std) | 42 | 2026-04-26T19:08:55Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [apollographql/federation-rs](https://github.com/apollographql/federation-rs) | 40 | 2026-04-29T20:45:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [rust-osdev/ovmf-prebuilt](https://github.com/rust-osdev/ovmf-prebuilt) | 38 | 2026-04-29T05:24:52Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [openvm-org/stark-backend](https://github.com/openvm-org/stark-backend) | 37 | 2026-04-29T21:47:26Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [bourumir-wyngs/serde-yaml-bw](https://github.com/bourumir-wyngs/serde-yaml-bw) | 37 | 2026-04-29T08:09:04Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [ankane/iceberg-ruby](https://github.com/ankane/iceberg-ruby) | 36 | 2026-04-24T09:14:53Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ankane/delta-ruby](https://github.com/ankane/delta-ruby) | 34 | 2026-04-24T09:44:05Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -209,10 +221,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashvardanian/NumWars](https://github.com/ashvardanian/NumWars) | 31 | 2026-04-09T11:37:17Z | Rust | Unknown | 7 | 0 | 7 | 7 |
 | [tracel-ai/burn-bench](https://github.com/tracel-ai/burn-bench) | 30 | 2026-04-18T01:30:34Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [datafusion-contrib/orc-rust](https://github.com/datafusion-contrib/orc-rust) | 29 | 2026-04-29T04:38:52Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
+| [ldclabs/anda-db](https://github.com/ldclabs/anda-db) | 28 | 2026-04-29T23:38:48Z | Rust | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [kylebarron/arrow-wasm](https://github.com/kylebarron/arrow-wasm) | 28 | 2026-04-06T13:43:39Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 5 |
 | [mrcjkb/vimcats](https://github.com/mrcjkb/vimcats) | 27 | 2026-04-26T00:18:25Z | Rust | CLI | 8 | 9 | 8 | 8 |
 | [urschrei/rdp](https://github.com/urschrei/rdp) | 26 | 2026-04-27T09:11:15Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [messense/py-promql-parser](https://github.com/messense/py-promql-parser) | 26 | 2026-04-06T14:26:39Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [AccessKit/accesskit-c](https://github.com/AccessKit/accesskit-c) | 25 | 2026-04-29T19:20:58Z | Rust | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [alixinne/glsl-lang](https://github.com/alixinne/glsl-lang) | 25 | 2026-04-13T00:45:34Z | Rust | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [bnb-chain/reth](https://github.com/bnb-chain/reth) | 24 | 2026-04-29T06:38:14Z | Rust | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [GreptimeTeam/greptimedb-ingester-rust](https://github.com/GreptimeTeam/greptimedb-ingester-rust) | 24 | 2026-04-23T12:01:44Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |

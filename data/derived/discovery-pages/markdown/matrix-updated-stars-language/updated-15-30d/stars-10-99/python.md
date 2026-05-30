@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 157
-- components: 260
-- concepts: 159
-- observations: 159
+- repos: 29
+- terms: 84
+- components: 178
+- concepts: 86
+- observations: 86
 
 ## Static behavior
 
@@ -55,34 +55,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [py-pdf/sample-files](https://github.com/py-pdf/sample-files) | 73 | 2026-04-30T11:33:21Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [TaWald/nnUNet](https://github.com/TaWald/nnUNet) | 47 | 2026-04-30T10:15:42Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [espressif/esp-idf-monitor](https://github.com/espressif/esp-idf-monitor) | 47 | 2026-04-30T08:56:11Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [nod-ai/amd-shark-ai](https://github.com/nod-ai/amd-shark-ai) | 67 | 2026-04-30T05:38:58Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [Thinklab-SJTU/Bench2Drive-Speed](https://github.com/Thinklab-SJTU/Bench2Drive-Speed) | 22 | 2026-04-30T05:03:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [flagos-ai/vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL) | 46 | 2026-04-30T03:23:42Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [microsoft/olive-recipes](https://github.com/microsoft/olive-recipes) | 49 | 2026-04-29T23:37:18Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |
-| [conda-forge/conda-forge-pinning-feedstock](https://github.com/conda-forge/conda-forge-pinning-feedstock) | 71 | 2026-04-29T21:53:28Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [regro/cf-scripts](https://github.com/regro/cf-scripts) | 67 | 2026-04-29T20:43:31Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [All-Hands-AI/OpenHands-Cloud](https://github.com/All-Hands-AI/OpenHands-Cloud) | 44 | 2026-04-29T20:33:07Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
-| [carstencodes/pdm-bump](https://github.com/carstencodes/pdm-bump) | 45 | 2026-04-29T18:28:07Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [open-edge-platform/physical-ai-studio](https://github.com/open-edge-platform/physical-ai-studio) | 28 | 2026-04-29T16:21:43Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [neo4j/neo4j-python-driver-rust-ext](https://github.com/neo4j/neo4j-python-driver-rust-ext) | 47 | 2026-04-29T16:18:37Z | Python | Unknown | 10 | 0 | 10 | 10 |
-| [MGenAI/GRN](https://github.com/MGenAI/GRN) | 51 | 2026-04-29T13:56:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [pipecat-ai/pipecat-cli](https://github.com/pipecat-ai/pipecat-cli) | 29 | 2026-04-29T13:30:51Z | Python | CLI | 4 | 6 | 4 | 4 |
-| [LedgerHQ/ragger](https://github.com/LedgerHQ/ragger) | 11 | 2026-04-29T13:07:39Z | Python | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [graalvm/oracle-graalvm-ea-builds](https://github.com/graalvm/oracle-graalvm-ea-builds) | 40 | 2026-04-29T12:41:32Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
-| [sublimelsp/LSP-volar](https://github.com/sublimelsp/LSP-volar) | 86 | 2026-04-29T10:40:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [sublimelsp/LSP-volar](https://github.com/sublimelsp/LSP-volar) | 86 | 2026-04-29T10:40:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [scipy/scipy.org](https://github.com/scipy/scipy.org) | 76 | 2026-05-01T18:11:55Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [py-pdf/sample-files](https://github.com/py-pdf/sample-files) | 73 | 2026-04-30T11:33:21Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Azure-Samples/openai-chat-app-entra-auth-builtin](https://github.com/Azure-Samples/openai-chat-app-entra-auth-builtin) | 72 | 2026-05-01T01:49:41Z | Python | CLI | 8 | 6 | 8 | 8 |
-| [conda-forge/conda-forge-pinning-feedstock](https://github.com/conda-forge/conda-forge-pinning-feedstock) | 71 | 2026-04-29T21:53:28Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client) | 67 | 2026-05-01T04:49:11Z | Python | CLI | 8 | 8 | 8 | 8 |
-| [nod-ai/amd-shark-ai](https://github.com/nod-ai/amd-shark-ai) | 67 | 2026-04-30T05:38:58Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
-| [regro/cf-scripts](https://github.com/regro/cf-scripts) | 67 | 2026-04-29T20:43:31Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [redis/docs](https://github.com/redis/docs) | 66 | 2026-04-30T17:46:55Z | Python | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [goombalab/raven](https://github.com/goombalab/raven) | 58 | 2026-05-11T10:33:11Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [gordon-code/cuid2](https://github.com/gordon-code/cuid2) | 58 | 2026-04-30T17:39:56Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -93,22 +74,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [python-jsonschema/referencing](https://github.com/python-jsonschema/referencing) | 53 | 2026-05-05T12:43:24Z | Python | Infrastructure/tooling | 4 | 5 | 6 | 6 |
 | [arcaputo3/mcp-server-whisper](https://github.com/arcaputo3/mcp-server-whisper) | 52 | 2026-05-02T02:38:20Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [yulewang97/ERDiff](https://github.com/yulewang97/ERDiff) | 51 | 2026-05-10T03:53:46Z | Python | Model/data | 3 | 0 | 3 | 3 |
-| [MGenAI/GRN](https://github.com/MGenAI/GRN) | 51 | 2026-04-29T13:56:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [microsoft/olive-recipes](https://github.com/microsoft/olive-recipes) | 49 | 2026-04-29T23:37:18Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [TaWald/nnUNet](https://github.com/TaWald/nnUNet) | 47 | 2026-04-30T10:15:42Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [espressif/esp-idf-monitor](https://github.com/espressif/esp-idf-monitor) | 47 | 2026-04-30T08:56:11Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [neo4j/neo4j-python-driver-rust-ext](https://github.com/neo4j/neo4j-python-driver-rust-ext) | 47 | 2026-04-29T16:18:37Z | Python | Unknown | 10 | 0 | 10 | 10 |
 | [beclab/apps](https://github.com/beclab/apps) | 46 | 2026-04-30T13:19:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [flagos-ai/vllm-plugin-FL](https://github.com/flagos-ai/vllm-plugin-FL) | 46 | 2026-04-30T03:23:42Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [carstencodes/pdm-bump](https://github.com/carstencodes/pdm-bump) | 45 | 2026-04-29T18:28:07Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
-| [All-Hands-AI/OpenHands-Cloud](https://github.com/All-Hands-AI/OpenHands-Cloud) | 44 | 2026-04-29T20:33:07Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [pytroll/donfig](https://github.com/pytroll/donfig) | 41 | 2026-05-02T01:38:33Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [graalvm/oracle-graalvm-ea-builds](https://github.com/graalvm/oracle-graalvm-ea-builds) | 40 | 2026-04-29T12:41:32Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [dora-rs/dora-hub](https://github.com/dora-rs/dora-hub) | 34 | 2026-05-03T17:53:15Z | Python | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [version-fox/vfox-plugins](https://github.com/version-fox/vfox-plugins) | 30 | 2026-05-12T21:10:45Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [pipecat-ai/pipecat-cli](https://github.com/pipecat-ai/pipecat-cli) | 29 | 2026-04-29T13:30:51Z | Python | CLI | 4 | 6 | 4 | 4 |
-| [open-edge-platform/physical-ai-studio](https://github.com/open-edge-platform/physical-ai-studio) | 28 | 2026-04-29T16:21:43Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [Thinklab-SJTU/Bench2Drive-Speed](https://github.com/Thinklab-SJTU/Bench2Drive-Speed) | 22 | 2026-04-30T05:03:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [qiayuanl/unitree_bringup](https://github.com/qiayuanl/unitree_bringup) | 18 | 2026-05-01T05:39:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jfly/shtuff](https://github.com/jfly/shtuff) | 17 | 2026-05-01T08:51:55Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [baicai-1145/GPT-SoVITS-CPUFast](https://github.com/baicai-1145/GPT-SoVITS-CPUFast) | 16 | 2026-05-13T19:17:48Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -118,4 +89,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [conservationtechlab/animl-py](https://github.com/conservationtechlab/animl-py) | 13 | 2026-04-30T21:07:14Z | Python | Library | 0 | 0 | 0 | 0 |
 | [Agnuxo1/CAJAL](https://github.com/Agnuxo1/CAJAL) | 12 | 2026-05-06T13:17:28Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [Hiroshiba/voicevox_engine](https://github.com/Hiroshiba/voicevox_engine) | 11 | 2026-05-02T13:42:14Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
-| [LedgerHQ/ragger](https://github.com/LedgerHQ/ragger) | 11 | 2026-04-29T13:07:39Z | Python | Infrastructure/tooling | 7 | 12 | 7 | 7 |

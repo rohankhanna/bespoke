@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 46
-- components: 27
-- concepts: 46
-- observations: 46
+- repos: 2
+- terms: 10
+- components: 9
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,16 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 41 | 2026-05-20T00:26:40Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
-| [apache/casbin-rust-actix-casbin](https://github.com/apache/casbin-rust-actix-casbin) | 35 | 2026-05-15T19:19:11Z | Rust | Infrastructure/tooling | 14 | 3 | 14 | 14 |
-| [apache/casbin-axum-casbin](https://github.com/apache/casbin-axum-casbin) | 69 | 2026-05-15T19:06:09Z | Rust | Infrastructure/tooling | 14 | 3 | 14 | 14 |
-| [apache/casbin-actix-casbin-auth](https://github.com/apache/casbin-actix-casbin-auth) | 58 | 2026-05-15T19:05:46Z | Rust | Infrastructure/tooling | 13 | 3 | 13 | 13 |
+| [lifegpc/msg-tool](https://github.com/lifegpc/msg-tool) | 46 | 2026-05-23T01:47:10Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |
+| [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-05-22T18:22:19Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [apache/casbin-axum-casbin](https://github.com/apache/casbin-axum-casbin) | 69 | 2026-05-15T19:06:09Z | Rust | Infrastructure/tooling | 14 | 3 | 14 | 14 |
-| [apache/casbin-actix-casbin-auth](https://github.com/apache/casbin-actix-casbin-auth) | 58 | 2026-05-15T19:05:46Z | Rust | Infrastructure/tooling | 13 | 3 | 13 | 13 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 41 | 2026-05-20T00:26:40Z | Rust | Infrastructure/tooling | 5 | 18 | 5 | 5 |
-| [apache/casbin-rust-actix-casbin](https://github.com/apache/casbin-rust-actix-casbin) | 35 | 2026-05-15T19:19:11Z | Rust | Infrastructure/tooling | 14 | 3 | 14 | 14 |
+| [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-05-22T18:22:19Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [lifegpc/msg-tool](https://github.com/lifegpc/msg-tool) | 46 | 2026-05-23T01:47:10Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |

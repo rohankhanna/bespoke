@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 194
-- components: 215
-- concepts: 194
-- observations: 194
+- repos: 36
+- terms: 198
+- components: 220
+- concepts: 198
+- observations: 198
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bradleyfalzon/ghinstallation](https://github.com/bradleyfalzon/ghinstallation) | 368 | 2026-03-30T18:26:39Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [go-chi/docgen](https://github.com/go-chi/docgen) | 125 | 2026-03-30T13:59:11Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [siderolabs/talos-cloud-controller-manager](https://github.com/siderolabs/talos-cloud-controller-manager) | 136 | 2026-03-30T07:37:50Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | 569 | 2026-03-29T18:57:33Z | Go | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [aws/aws-app-mesh-controller-for-k8s](https://github.com/aws/aws-app-mesh-controller-for-k8s) | 183 | 2026-03-26T22:14:31Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
@@ -80,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudwego/kitex-examples](https://github.com/cloudwego/kitex-examples) | 418 | 2026-03-18T03:47:04Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [kubernetes-sigs/kubetest2](https://github.com/kubernetes-sigs/kubetest2) | 396 | 2026-03-17T14:37:41Z | Go | Framework | 1 | 0 | 1 | 1 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | 376 | 2026-03-21T16:57:57Z | Go | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [bradleyfalzon/ghinstallation](https://github.com/bradleyfalzon/ghinstallation) | 368 | 2026-03-30T18:26:39Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [anacrolix/dht](https://github.com/anacrolix/dht) | 354 | 2026-03-07T00:16:45Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [mholt/acmez](https://github.com/mholt/acmez) | 335 | 2026-03-09T21:51:01Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [GoogleCloudPlatform/docker-credential-gcr](https://github.com/GoogleCloudPlatform/docker-credential-gcr) | 314 | 2026-03-05T03:39:46Z | Go | CLI | 10 | 5 | 10 | 10 |
@@ -95,6 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JupiterRider/purego-sdl3](https://github.com/JupiterRider/purego-sdl3) | 148 | 2026-03-15T10:47:20Z | Go | Unknown | 8 | 0 | 8 | 8 |
 | [chromedp/chromedp-proxy](https://github.com/chromedp/chromedp-proxy) | 139 | 2026-03-21T00:41:42Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [siderolabs/talos-cloud-controller-manager](https://github.com/siderolabs/talos-cloud-controller-manager) | 136 | 2026-03-30T07:37:50Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [go-chi/docgen](https://github.com/go-chi/docgen) | 125 | 2026-03-30T13:59:11Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [kubernetes-sigs/hydrophone](https://github.com/kubernetes-sigs/hydrophone) | 116 | 2026-03-22T18:34:14Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [aws/amazon-ec2-spot-interrupter](https://github.com/aws/amazon-ec2-spot-interrupter) | 108 | 2026-03-02T16:44:29Z | Go | CLI | 6 | 3 | 6 | 6 |
 | [erigontech/interfaces](https://github.com/erigontech/interfaces) | 105 | 2026-03-09T19:00:46Z | Go | Unknown | 0 | 0 | 0 | 0 |

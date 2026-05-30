@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 264
-- components: 91
-- concepts: 265
-- observations: 266
+- repos: 75
+- terms: 281
+- components: 112
+- concepts: 282
+- observations: 283
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [graalvm/graalvm-ce-dev-builds](https://github.com/graalvm/graalvm-ce-dev-builds) | 104 | 2026-04-30T05:00:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) | 595 | 2026-04-30T00:22:13Z | Unknown | Infrastructure/tooling | 9 | 8 | 9 | 9 |
+| [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
+| [forcedotcom/cli](https://github.com/forcedotcom/cli) | 553 | 2026-04-29T18:51:06Z | Unknown | CLI | 4 | 13 | 4 | 4 |
 | [openjs-foundation/cross-project-council](https://github.com/openjs-foundation/cross-project-council) | 529 | 2026-04-28T17:03:48Z | Unknown | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mdn/mdn-community](https://github.com/mdn/mdn-community) | 153 | 2026-04-28T10:36:43Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [smithy-lang/awesome-smithy](https://github.com/smithy-lang/awesome-smithy) | 248 | 2026-04-28T07:07:04Z | Unknown | CLI | 6 | 0 | 6 | 6 |
@@ -117,8 +121,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/agents-cli](https://github.com/google/agents-cli) | 667 | 2026-04-22T22:11:50Z | Unknown | CLI | 7 | 6 | 7 | 7 |
 | [cncf/artwork](https://github.com/cncf/artwork) | 653 | 2026-04-10T15:19:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [cosmos/awesome-cosmos](https://github.com/cosmos/awesome-cosmos) | 597 | 2026-04-13T09:03:12Z | Unknown | Infrastructure/tooling | 6 | 1 | 6 | 6 |
+| [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) | 595 | 2026-04-30T00:22:13Z | Unknown | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [lwpyh/Awesome-MLLM-Reasoning-Collection](https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection) | 591 | 2026-04-01T19:32:31Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [ocaml/opam-repository](https://github.com/ocaml/opam-repository) | 575 | 2026-04-21T21:46:43Z | Unknown | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [forcedotcom/cli](https://github.com/forcedotcom/cli) | 553 | 2026-04-29T18:51:06Z | Unknown | CLI | 4 | 13 | 4 | 4 |
 | [e18e/ecosystem-issues](https://github.com/e18e/ecosystem-issues) | 553 | 2026-04-04T20:30:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ranpox/awesome-computer-use](https://github.com/ranpox/awesome-computer-use) | 549 | 2026-04-15T09:56:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [integrations/microsoft-teams](https://github.com/integrations/microsoft-teams) | 537 | 2026-04-13T16:06:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -140,6 +146,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ailev/fpf](https://github.com/ailev/FPF) | 324 | 2026-04-17T12:33:55Z | Unknown | Framework | 11 | 0 | 11 | 11 |
 | [apappascs/mcp-servers-hub](https://github.com/apappascs/mcp-servers-hub) | 317 | 2026-04-21T15:10:03Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [mason-org/mason-registry](https://github.com/mason-org/mason-registry) | 284 | 2026-04-22T02:21:31Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
 | [smithy-lang/awesome-smithy](https://github.com/smithy-lang/awesome-smithy) | 248 | 2026-04-28T07:07:04Z | Unknown | CLI | 6 | 0 | 6 | 6 |
 | [servo/project](https://github.com/servo/project) | 248 | 2026-04-14T13:31:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gautamkrishnar/gautamkrishnar](https://github.com/gautamkrishnar/gautamkrishnar) | 247 | 2026-04-16T22:16:28Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -171,5 +178,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LemmyNet/lemmy-docs](https://github.com/LemmyNet/lemmy-docs) | 105 | 2026-04-25T04:27:52Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [antonbabenko/awesome-terraform-compliance](https://github.com/antonbabenko/awesome-terraform-compliance) | 105 | 2026-04-22T06:44:04Z | Unknown | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [alchaincyf/feynman-skill](https://github.com/alchaincyf/feynman-skill) | 105 | 2026-04-10T02:28:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [graalvm/graalvm-ce-dev-builds](https://github.com/graalvm/graalvm-ce-dev-builds) | 104 | 2026-04-30T05:00:30Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [luau-lang/rfcs](https://github.com/luau-lang/rfcs) | 103 | 2026-04-27T21:11:30Z | Unknown | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [web-platform-tests/rfcs](https://github.com/web-platform-tests/rfcs) | 103 | 2026-04-07T15:14:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

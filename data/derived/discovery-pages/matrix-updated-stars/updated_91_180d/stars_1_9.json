@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 807,
-    "concepts": 458,
-    "observations": 459,
-    "repos": 216,
-    "terms": 464
+    "components": 809,
+    "concepts": 459,
+    "observations": 460,
+    "repos": 217,
+    "terms": 465
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -159,6 +159,7 @@
     "lukasz-wronski/Antigravity-Shit-Chat",
     "lumen-oss/luarocks-build-treesitter-parser",
     "lxsmnsyc/sponsors",
+    "marxin/mdbook-linkcheck2",
     "Melandel/workflow",
     "Mercury13/utranslator",
     "mjvolk3/torchcell",

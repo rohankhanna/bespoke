@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-05-29T08:49:15.383611+00:00`
 
 ## Counts
 
-- repos: 913
-- terms: 1256
-- components: 2923
-- concepts: 1225
-- observations: 1229
+- repos: 915
+- terms: 1261
+- components: 2939
+- concepts: 1230
+- observations: 1234
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mayocream/candle](https://github.com/mayocream/candle) | 0 | 2026-05-29T02:32:15Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-21T08:10:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [locize/locize-i18next-vue-example](https://github.com/locize/locize-i18next-vue-example) | 0 | 2026-05-19T11:21:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [drmingdrmer/databend-meta](https://github.com/drmingdrmer/databend-meta) | 0 | 2026-05-17T07:00:50Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -490,6 +491,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vovkos/luadoxyxml](https://github.com/vovkos/luadoxyxml) | 0 | 2025-12-04T06:05:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Agent-Virtual-Panel-Configs](https://github.com/danielrosehill/AI-Agent-Virtual-Panel-Configs) | 0 | 2025-12-02T00:47:03Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Github-Gist-MCP-Minimal](https://github.com/danielrosehill/Github-Gist-MCP-Minimal) | 0 | 2025-12-01T22:32:46Z | TypeScript | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [mayocream/ug](https://github.com/mayocream/ug) | 0 | 2025-12-01T09:16:51Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [datafuse-extras/pprof-rs](https://github.com/datafuse-extras/pprof-rs) | 0 | 2025-12-01T06:25:54Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [asm89/prettytable-rs](https://github.com/asm89/prettytable-rs) | 0 | 2025-11-28T17:25:34Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Kokoro-FastAPI](https://github.com/danielrosehill/Kokoro-FastAPI) | 0 | 2025-11-27T01:04:19Z | Unknown | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -940,6 +942,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mayocream/candle](https://github.com/mayocream/candle) | 0 | 2026-05-29T02:32:15Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-21T08:10:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [locize/locize-i18next-vue-example](https://github.com/locize/locize-i18next-vue-example) | 0 | 2026-05-19T11:21:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [drmingdrmer/databend-meta](https://github.com/drmingdrmer/databend-meta) | 0 | 2026-05-17T07:00:50Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -1408,6 +1411,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vovkos/luadoxyxml](https://github.com/vovkos/luadoxyxml) | 0 | 2025-12-04T06:05:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Agent-Virtual-Panel-Configs](https://github.com/danielrosehill/AI-Agent-Virtual-Panel-Configs) | 0 | 2025-12-02T00:47:03Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Github-Gist-MCP-Minimal](https://github.com/danielrosehill/Github-Gist-MCP-Minimal) | 0 | 2025-12-01T22:32:46Z | TypeScript | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [mayocream/ug](https://github.com/mayocream/ug) | 0 | 2025-12-01T09:16:51Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [datafuse-extras/pprof-rs](https://github.com/datafuse-extras/pprof-rs) | 0 | 2025-12-01T06:25:54Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [asm89/prettytable-rs](https://github.com/asm89/prettytable-rs) | 0 | 2025-11-28T17:25:34Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Kokoro-FastAPI](https://github.com/danielrosehill/Kokoro-FastAPI) | 0 | 2025-11-27T01:04:19Z | Unknown | Infrastructure/tooling | 1 | 6 | 1 | 1 |

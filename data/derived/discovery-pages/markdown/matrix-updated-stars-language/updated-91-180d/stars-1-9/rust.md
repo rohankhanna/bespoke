@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 26
-- components: 72
-- concepts: 26
-- observations: 26
+- repos: 26
+- terms: 27
+- components: 74
+- concepts: 27
+- observations: 27
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [marxin/mdbook-linkcheck2](https://github.com/marxin/mdbook-linkcheck2) | 3 | 2026-02-28T17:56:07Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [near/near-abi-client-rs](https://github.com/near/near-abi-client-rs) | 7 | 2026-02-17T22:04:43Z | Rust | CLI | 2 | 4 | 2 | 2 |
 | [near/near-abi-rs](https://github.com/near/near-abi-rs) | 8 | 2026-02-17T19:24:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [Coral-Protocol/coral-rs](https://github.com/Coral-Protocol/coral-rs) | 5 | 2026-02-06T15:39:06Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -66,6 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IWANABETHATGUY/l-lang](https://github.com/IWANABETHATGUY/l-lang) | 5 | 2026-01-13T15:26:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/parlia-elc](https://github.com/datachainlab/parlia-elc) | 4 | 2026-01-22T07:55:09Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [sigp/xdelta3-rs](https://github.com/sigp/xdelta3-rs) | 4 | 2026-01-15T02:33:12Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [marxin/mdbook-linkcheck2](https://github.com/marxin/mdbook-linkcheck2) | 3 | 2026-02-28T17:56:07Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [typstyle-rs/pre-commit-typstyle](https://github.com/typstyle-rs/pre-commit-typstyle) | 3 | 2026-01-17T05:32:20Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [mozilla/midir](https://github.com/mozilla/midir) | 3 | 2026-01-12T16:21:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [adrozdenko/error-toon](https://github.com/adrozdenko/error-toon) | 2 | 2026-02-04T23:02:57Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |

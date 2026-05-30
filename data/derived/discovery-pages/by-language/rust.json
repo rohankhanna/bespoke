@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11700,
-    "concepts": 7992,
-    "observations": 8054,
+    "components": 11713,
+    "concepts": 7996,
+    "observations": 8058,
     "repos": 1737,
-    "terms": 7984
+    "terms": 7988
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -635,7 +635,6 @@
     "explosion/tokenizations",
     "extism/extism",
     "extism/rust-pdk",
-    "extrawurst/gitui-presentation",
     "eycorsican/leaf",
     "eyre-rs/eyre",
     "eyre-rs/stable-eyre",
@@ -1094,6 +1093,7 @@
     "matthme/hc-zome-mere-memory",
     "mattsse/chromiumoxide",
     "MaulingMonkey/cargo-local-install",
+    "mayocream/candle",
     "mayocream/koharu",
     "mcgoo/vcpkg-rs",
     "mdn/rari",

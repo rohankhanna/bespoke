@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 210,
-    "concepts": 223,
-    "observations": 226,
-    "repos": 49,
-    "terms": 221
+    "components": 234,
+    "concepts": 247,
+    "observations": 250,
+    "repos": 54,
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
-    "2KAbhishek/tmux-tilit",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
@@ -31,8 +30,10 @@
     "beehive-lab/docker-tornadovm",
     "bitnami/vulndb",
     "bnb-chain/node-deploy",
+    "bufbuild/homebrew-buf",
     "ChainSafe/forest-iac",
     "clojure/brew-install",
+    "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
     "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/pinocchio-feedstock",
@@ -45,6 +46,7 @@
     "dependabot/smoke-tests",
     "Digidai/product-manager-skills",
     "dotenvx/dotenvx.sh",
+    "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
@@ -58,10 +60,13 @@
     "oneclick/rubyinstaller2-packages",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
+    "quarkusio/quarkus-ecosystem-ci",
     "reviewdog/action-black",
+    "reviewdog/action-depup",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
     "sclorg/mariadb-container",
-    "tinted-theming/tinted-shell"
+    "tinted-theming/tinted-shell",
+    "tinted-theming/tinted-terminal"
   ]
 }

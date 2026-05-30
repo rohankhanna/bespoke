@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 277
-- components: 189
-- concepts: 283
-- observations: 284
+- repos: 58
+- terms: 294
+- components: 198
+- concepts: 300
+- observations: 301
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [TuGraph-family/tugraph-db](https://github.com/TuGraph-family/tugraph-db) | 1728 | 2026-03-31T03:18:27Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
+| [nalgeon/sqlean](https://github.com/nalgeon/sqlean) | 4308 | 2026-03-30T21:01:32Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) | 9128 | 2026-03-30T20:54:59Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [hufrea/byedpi](https://github.com/hufrea/byedpi) | 3160 | 2026-03-29T19:08:14Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [Overv/VulkanTutorial](https://github.com/Overv/VulkanTutorial) | 3653 | 2026-03-29T16:38:42Z | C/C++ | Service/API | 5 | 0 | 5 | 5 |
 | [pisa-engine/pisa](https://github.com/pisa-engine/pisa) | 1049 | 2026-03-29T05:34:48Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
@@ -61,7 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lieff/minimp3](https://github.com/lieff/minimp3) | 1884 | 2026-03-12T19:47:55Z | C/C++ | Library | 13 | 0 | 13 | 13 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [nmoehrle/mvs-texturing](https://github.com/nmoehrle/mvs-texturing) | 1074 | 2026-03-11T18:53:37Z | C/C++ | Unknown | 1 | 0 | 2 | 2 |
-| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7667 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7669 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) | 5750 | 2026-03-10T01:18:18Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ioquake/ioq3](https://github.com/ioquake/ioq3) | 2735 | 2026-03-09T11:01:13Z | C/C++ | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -81,19 +84,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | 3835 | 2026-03-01T18:09:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [akheron/jansson](https://github.com/akheron/jansson) | 3326 | 2026-03-01T16:43:13Z | C/C++ | Infrastructure/tooling | 2 | 4 | 3 | 3 |
-| [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) | 9128 | 2026-03-30T20:54:59Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [gperftools/gperftools](https://github.com/gperftools/gperftools) | 8942 | 2026-03-08T17:06:07Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [lltcggie/waifu2x-caffe](https://github.com/lltcggie/waifu2x-caffe) | 8221 | 2026-03-25T13:22:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [TechEmpower/FrameworkBenchmarks](https://github.com/TechEmpower/FrameworkBenchmarks) | 8111 | 2026-03-24T01:39:18Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) | 7935 | 2026-03-09T04:21:55Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [nodemcu/nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware) | 7912 | 2026-03-25T20:29:18Z | C/C++ | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) | 7755 | 2026-03-07T10:45:14Z | C/C++ | Infrastructure/tooling | 20 | 3 | 20 | 20 |
-| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7667 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
+| [snapcast/snapcast](https://github.com/snapcast/snapcast) | 7669 | 2026-03-10T14:27:11Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) | 7147 | 2026-03-03T17:03:44Z | C/C++ | Infrastructure/tooling | 9 | 10 | 10 | 10 |
 | [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) | 7101 | 2026-03-17T13:41:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Alex313031/thorium](https://github.com/Alex313031/thorium) | 7077 | 2026-03-14T04:02:03Z | C/C++ | Unknown | 16 | 0 | 17 | 17 |
@@ -111,6 +114,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) | 4762 | 2026-03-05T16:22:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 4545 | 2026-03-28T17:16:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [xlite-dev/lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit) | 4407 | 2026-03-19T02:59:30Z | C/C++ | Infrastructure/tooling | 13 | 1 | 13 | 13 |
+| [nalgeon/sqlean](https://github.com/nalgeon/sqlean) | 4308 | 2026-03-30T21:01:32Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) | 3999 | 2026-03-08T15:40:36Z | C/C++ | Unknown | 9 | 0 | 10 | 10 |
 | [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | 3835 | 2026-03-01T18:09:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tinyobjloader/tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) | 3787 | 2026-03-27T19:49:36Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
@@ -126,7 +130,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eclipse-paho/paho.mqtt.c](https://github.com/eclipse-paho/paho.mqtt.c) | 2303 | 2026-03-06T09:47:52Z | C/C++ | CLI | 9 | 2 | 9 | 9 |
 | [zeromq/cppzmq](https://github.com/zeromq/cppzmq) | 2295 | 2026-03-23T08:54:08Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [bugaevc/wl-clipboard](https://github.com/bugaevc/wl-clipboard) | 2290 | 2026-03-22T18:51:25Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
-| [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [stevengj/nlopt](https://github.com/stevengj/nlopt) | 2210 | 2026-03-13T22:19:47Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mutouyun/cpp-ipc](https://github.com/mutouyun/cpp-ipc) | 2187 | 2026-03-14T04:54:40Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [bcrypt-ruby/bcrypt-ruby](https://github.com/bcrypt-ruby/bcrypt-ruby) | 1972 | 2026-03-27T19:38:11Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -136,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [romkatv/gitstatus](https://github.com/romkatv/gitstatus) | 1806 | 2026-03-14T06:06:29Z | C/C++ | Unknown | 0 | 0 | 1 | 1 |
 | [icecc/icecream](https://github.com/icecc/icecream) | 1790 | 2026-03-04T22:13:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [coin-or/Ipopt](https://github.com/coin-or/Ipopt) | 1742 | 2026-03-06T08:54:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [TuGraph-family/tugraph-db](https://github.com/TuGraph-family/tugraph-db) | 1728 | 2026-03-31T03:18:27Z | C/C++ | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [zardus/preeny](https://github.com/zardus/preeny) | 1647 | 2026-03-06T03:53:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [NVIDIA/gdrcopy](https://github.com/NVIDIA/gdrcopy) | 1373 | 2026-03-12T16:30:20Z | C/C++ | Library | 6 | 0 | 6 | 6 |
 | [Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen) | 1229 | 2026-03-05T15:06:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

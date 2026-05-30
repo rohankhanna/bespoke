@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 299
-- components: 1315
-- concepts: 283
-- observations: 284
+- repos: 47
+- terms: 292
+- components: 1281
+- concepts: 279
+- observations: 280
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ory/hydra-login-consent-node](https://github.com/ory/hydra-login-consent-node) | 328 | 2026-03-30T11:20:43Z | TypeScript | Infrastructure/tooling | 7 | 37 | 7 | 7 |
 | [microsoft/vscode-debugadapter-node](https://github.com/microsoft/vscode-debugadapter-node) | 300 | 2026-03-29T19:55:54Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [cztomsik/ava](https://github.com/cztomsik/ava) | 470 | 2026-03-29T17:43:18Z | TypeScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [Charlie85270/Dorothy](https://github.com/Charlie85270/Dorothy) | 266 | 2026-03-29T17:23:18Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
@@ -72,9 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/lobe-tts](https://github.com/lobehub/lobe-tts) | 784 | 2026-03-02T14:12:18Z | TypeScript | Infrastructure/tooling | 6 | 52 | 0 | 0 |
 | [lobehub/lobe-charts](https://github.com/lobehub/lobe-charts) | 102 | 2026-03-02T12:30:12Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
 | [multiformats/js-multiformats](https://github.com/multiformats/js-multiformats) | 267 | 2026-03-01T16:19:05Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
-| [a2aproject/a2a-inspector](https://github.com/a2aproject/a2a-inspector) | 400 | 2026-02-28T20:00:09Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [eckardt/cchistory](https://github.com/eckardt/cchistory) | 107 | 2026-02-28T16:49:23Z | TypeScript | CLI | 3 | 13 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -83,7 +81,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
 | [antfu-collective/bumpp](https://github.com/antfu-collective/bumpp) | 924 | 2026-03-16T06:15:05Z | TypeScript | CLI | 1 | 24 | 1 | 1 |
 | [graphql-hive/graphql-eslint](https://github.com/graphql-hive/graphql-eslint) | 834 | 2026-03-18T17:19:45Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
-| [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [windingwind/zotero-plugin-template](https://github.com/windingwind/zotero-plugin-template) | 817 | 2026-03-09T23:53:42Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [sveltejs/prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte) | 809 | 2026-03-03T16:45:52Z | TypeScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [testing-library/angular-testing-library](https://github.com/testing-library/angular-testing-library) | 788 | 2026-03-17T11:52:43Z | TypeScript | Infrastructure/tooling | 4 | 65 | 4 | 4 |
@@ -101,8 +98,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions-cool/issues-helper](https://github.com/actions-cool/issues-helper) | 407 | 2026-03-20T10:00:23Z | TypeScript | Infrastructure/tooling | 10 | 31 | 10 | 10 |
 | [Piebald-AI/gemini-cli-desktop](https://github.com/Piebald-AI/gemini-cli-desktop) | 407 | 2026-03-08T15:18:16Z | TypeScript | CLI | 20 | 13 | 20 | 20 |
 | [thesayyn/protoc-gen-ts](https://github.com/thesayyn/protoc-gen-ts) | 405 | 2026-03-19T00:09:38Z | TypeScript | CLI | 12 | 7 | 12 | 12 |
-| [a2aproject/a2a-inspector](https://github.com/a2aproject/a2a-inspector) | 400 | 2026-02-28T20:00:09Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [connectrpc/connect-query-es](https://github.com/connectrpc/connect-query-es) | 358 | 2026-03-21T18:02:19Z | TypeScript | Infrastructure/tooling | 13 | 25 | 13 | 13 |
+| [ory/hydra-login-consent-node](https://github.com/ory/hydra-login-consent-node) | 328 | 2026-03-30T11:20:43Z | TypeScript | Infrastructure/tooling | 7 | 37 | 7 | 7 |
 | [ethereum/staking-launchpad](https://github.com/ethereum/staking-launchpad) | 302 | 2026-03-05T17:45:32Z | TypeScript | Unknown | 1 | 82 | 1 | 1 |
 | [microsoft/vscode-debugadapter-node](https://github.com/microsoft/vscode-debugadapter-node) | 300 | 2026-03-29T19:55:54Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [shareai-lab/kode-agent-sdk](https://github.com/shareAI-lab/kode-agent-sdk) | 297 | 2026-03-29T12:38:03Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
@@ -126,6 +123,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server) | 121 | 2026-03-13T00:35:42Z | TypeScript | Framework | 7 | 6 | 7 | 7 |
 | [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [XantreDev/preact-signals](https://github.com/XantreDev/preact-signals) | 110 | 2026-03-22T17:23:18Z | TypeScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
-| [eckardt/cchistory](https://github.com/eckardt/cchistory) | 107 | 2026-02-28T16:49:23Z | TypeScript | CLI | 3 | 13 | 0 | 0 |
 | [lobehub/lobe-charts](https://github.com/lobehub/lobe-charts) | 102 | 2026-03-02T12:30:12Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
 | [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |

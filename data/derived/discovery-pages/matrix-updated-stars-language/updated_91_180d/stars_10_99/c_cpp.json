@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 121,
-    "observations": 122,
-    "repos": 45,
-    "terms": 121
+    "components": 120,
+    "concepts": 125,
+    "observations": 126,
+    "repos": 47,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "adamharrison/lite-xl-terminal",
@@ -37,6 +37,7 @@
     "icppWorld/icpp_llm",
     "jdlph/OpenDTA",
     "jokkebk/JUnzip",
+    "JPEWdev/icecream-sundae",
     "jrsoftware/iscompress",
     "JuliaInterop/libcxxwrap-julia",
     "lemire/fast_float",
@@ -50,6 +51,7 @@
     "Rezonality/zing",
     "RomanArzumanyan/VALI",
     "shriramters/chordcat",
+    "smuellerDD/acvpparser",
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",
     "tlaplus-community/tree-sitter-tlaplus",

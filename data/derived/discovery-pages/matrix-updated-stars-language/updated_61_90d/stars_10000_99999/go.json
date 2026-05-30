@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 4,
-    "terms": 23
+    "components": 41,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 5,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "chromedp/chromedp",
     "kubernetes/ingress-nginx",
+    "Mrs4s/go-cqhttp",
     "sirupsen/logrus",
     "uber-go/zap"
   ]

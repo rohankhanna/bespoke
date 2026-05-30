@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 24,
-    "terms": 161
+    "components": 95,
+    "concepts": 127,
+    "observations": 127,
+    "repos": 18,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "apache/spark-kubernetes-operator",
     "Apicurio/apicurio-registry",
-    "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
-    "confluentinc/kafka-streams-examples",
     "eclipse-lsp4j/lsp4j",
-    "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
@@ -31,12 +27,10 @@
     "MarcusWolschon/osmeditor4android",
     "microsoft/LangChain4j-for-Beginners",
     "openjdk/jdk17u",
-    "operator-framework/java-operator-sdk",
     "palantir/javapoet",
     "processing/processing4",
-    "quarkiverse/quarkus-operator-sdk",
     "samtools/htsjdk",
     "SAP/SapMachine",
-    "Xilinx/RapidWright"
+    "Waffle/waffle"
   ]
 }

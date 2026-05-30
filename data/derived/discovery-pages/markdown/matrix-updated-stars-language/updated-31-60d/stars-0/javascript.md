@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · JavaScript
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
+- repos: 12
 - terms: 53
 - components: 218
 - concepts: 52
@@ -38,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [caprica/generator-vlcj](https://github.com/caprica/generator-vlcj) | 0 | 2026-04-05T08:38:27Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -56,4 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
 | [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [caprica/generator-vlcj](https://github.com/caprica/generator-vlcj) | 0 | 2026-04-05T08:38:27Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
-| [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 1,
-    "observations": 1,
+    "components": 13,
+    "concepts": 4,
+    "observations": 4,
     "repos": 1,
-    "terms": 1
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-24T05:51:44.692497+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "drmingdrmer/databend-meta"
+    "mayocream/candle"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 45,
-    "terms": 175
+    "components": 240,
+    "concepts": 229,
+    "observations": 229,
+    "repos": 48,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -51,12 +51,15 @@
     "OffchainLabs/arbitrum-classic",
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",
+    "probonopd/go-appimage",
     "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
+    "rest-sh/restish",
     "smtg-ai/claude-squad",
     "spf13/pflag",
     "stripe/stripe-mock",
-    "tidwall/btree",
+    "xjasonlyu/tun2socks",
+    "xtaci/kcp-go",
     "xtaci/smux",
     "yuin/goldmark"
   ]

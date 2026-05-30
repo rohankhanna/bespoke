@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 27,
-    "terms": 89
+    "components": 262,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 28,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -27,6 +27,7 @@
     "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
     "Fil/d3-tricontour",
+    "haskell-actions/run-fourmolu",
     "hipster-labs/jhipster-daily-builds",
     "hudochenkov/stylelint-config-hudochenkov",
     "ipld/js-dag-pb",

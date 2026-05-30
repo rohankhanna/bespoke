@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 23,
-    "terms": 33
+    "components": 61,
+    "concepts": 40,
+    "observations": 41,
+    "repos": 25,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "agent-sh/glidemq",
@@ -20,6 +20,7 @@
     "causely-oss/otel-demo",
     "cdeust/zetetic-team-subagents",
     "chronosphereio/calyptia-cli",
+    "cloudfoundry/wg-app-platform-runtime-ci",
     "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/nlohmann_json-feedstock",
     "conda-forge/openblas-feedstock",
@@ -34,6 +35,7 @@
     "lint-staged/lint-staged.sh",
     "marcindulak/ralph-wiggum-bdd",
     "rapidsai/gha-tools",
+    "reviewdog/action-alex",
     "reviewdog/action-composite-template",
     "semgrep/mcp-marketplace",
     "status-im/nimbus-build-system"

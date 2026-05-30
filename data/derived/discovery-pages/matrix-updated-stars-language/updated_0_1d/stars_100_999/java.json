@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 1,
-    "terms": 3
+    "components": 50,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 4,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T06:00:44.104521+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "ldproxy/ldproxy"
+    "eclipse-tm4e/tm4e",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "redis/redis-om-spring",
+    "spring-projects/spring-tools"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 942,
-    "concepts": 609,
-    "observations": 613,
-    "repos": 95,
-    "terms": 607
+    "components": 986,
+    "concepts": 612,
+    "observations": 616,
+    "repos": 96,
+    "terms": 610
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -37,6 +37,7 @@
     "containrrr/watchtower",
     "datawhalechina/llm-universe",
     "drduh/macOS-Security-and-Privacy-Guide",
+    "egoist/tsup",
     "ekzhang/bore",
     "existentialaudio/blackhole",
     "ffmpegwasm/ffmpeg.wasm",

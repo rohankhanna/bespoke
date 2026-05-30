@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 217
-- terms: 805
-- components: 415
-- concepts: 808
-- observations: 808
+- repos: 216
+- terms: 788
+- components: 409
+- concepts: 791
+- observations: 791
 
 ## Static behavior
 
@@ -217,7 +217,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tulerfeng/Video-R1](https://github.com/tulerfeng/Video-R1) | 858 | 2025-12-14T14:22:08Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [agiresearch/A-mem](https://github.com/agiresearch/A-mem) | 992 | 2025-12-12T21:15:29Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [sony/nnabla-examples](https://github.com/sony/nnabla-examples) | 313 | 2025-12-12T10:13:01Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [tpoisonooo/ROGRAG](https://github.com/tpoisonooo/ROGRAG) | 200 | 2025-12-12T03:46:36Z | Python | Framework | 5 | 0 | 5 | 5 |
+| [tpoisonooo/ROGRAG](https://github.com/tpoisonooo/ROGRAG) | 201 | 2025-12-12T03:46:36Z | Python | Framework | 5 | 0 | 5 | 5 |
 | [SarahWeiii/pamo](https://github.com/SarahWeiii/pamo) | 191 | 2025-12-11T10:20:58Z | Python | Model/data | 2 | 0 | 2 | 2 |
 | [bytedance/SandboxFusion](https://github.com/bytedance/SandboxFusion) | 995 | 2025-12-11T05:12:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [DengPingFan/PraNet](https://github.com/DengPingFan/PraNet) | 539 | 2025-12-11T02:11:43Z | Python | Framework | 4 | 0 | 4 | 4 |
@@ -231,9 +231,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenBMB/VisRAG](https://github.com/OpenBMB/VisRAG) | 947 | 2025-12-07T07:45:09Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [acl-org/aclpubcheck](https://github.com/acl-org/aclpubcheck) | 952 | 2025-12-06T18:23:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [worldbench/Robo3D](https://github.com/worldbench/Robo3D) | 374 | 2025-12-06T11:05:24Z | Python | Unknown | 4 | 0 | 4 | 4 |
-| [nrl-ai/llama-assistant](https://github.com/nrl-ai/llama-assistant) | 530 | 2025-12-06T10:15:48Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [nrl-ai/llama-assistant](https://github.com/nrl-ai/llama-assistant) | 531 | 2025-12-06T10:15:48Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [chengzhag/PanFusion](https://github.com/chengzhag/PanFusion) | 265 | 2025-12-06T07:44:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [InternScience/StructEqTable-Deploy](https://github.com/InternScience/StructEqTable-Deploy) | 277 | 2025-12-06T02:29:37Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [InternScience/StructEqTable-Deploy](https://github.com/InternScience/StructEqTable-Deploy) | 277 | 2025-12-06T02:29:37Z | Python | Unknown | 2 | 0 | 3 | 3 |
 | [baal-org/baal](https://github.com/baal-org/baal) | 930 | 2025-12-03T21:18:11Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [amazon-far/TWIST2](https://github.com/amazon-far/TWIST2) | 786 | 2025-12-03T08:47:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aim-uofa/Matcher](https://github.com/aim-uofa/Matcher) | 557 | 2025-12-03T05:31:11Z | Python | Unknown | 4 | 0 | 4 | 4 |
@@ -242,7 +242,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PiDanShouRouZhouXD/Sakura_Launcher_GUI](https://github.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI) | 614 | 2025-12-02T15:04:24Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [adhikasp/mcp-client-cli](https://github.com/adhikasp/mcp-client-cli) | 674 | 2025-12-02T10:00:38Z | Python | CLI | 4 | 4 | 4 | 4 |
 | [Azure/MS-AMP](https://github.com/Azure/MS-AMP) | 636 | 2025-12-01T20:35:44Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
-| [mxmlnkn/rapidgzip](https://github.com/mxmlnkn/rapidgzip) | 450 | 2025-11-30T22:17:13Z | Python | CLI | 16 | 6 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -325,7 +324,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DengPingFan/PraNet](https://github.com/DengPingFan/PraNet) | 539 | 2025-12-11T02:11:43Z | Python | Framework | 4 | 0 | 4 | 4 |
 | [lebrice/SimpleParsing](https://github.com/lebrice/SimpleParsing) | 538 | 2026-01-20T23:44:11Z | Python | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [citation-file-format/citation-file-format](https://github.com/citation-file-format/citation-file-format) | 536 | 2026-01-20T13:06:54Z | Python | Infrastructure/tooling | 13 | 5 | 13 | 13 |
-| [nrl-ai/llama-assistant](https://github.com/nrl-ai/llama-assistant) | 530 | 2025-12-06T10:15:48Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [nrl-ai/llama-assistant](https://github.com/nrl-ai/llama-assistant) | 531 | 2025-12-06T10:15:48Z | Python | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [autonomousvision/carla_garage](https://github.com/autonomousvision/carla_garage) | 529 | 2025-12-27T23:49:33Z | Python | Template/starter | 5 | 0 | 5 | 5 |
 | [bshall/knn-vc](https://github.com/bshall/knn-vc) | 515 | 2026-01-16T18:16:04Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [xingchensong/S3Tokenizer](https://github.com/xingchensong/S3Tokenizer) | 511 | 2025-12-22T03:12:20Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
@@ -339,7 +338,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Gen-Verse/Open-AgentRL](https://github.com/Gen-Verse/Open-AgentRL) | 467 | 2026-02-27T09:17:21Z | Python | CLI | 10 | 0 | 10 | 10 |
 | [RT-DETRs/RT-DETRv4](https://github.com/RT-DETRs/RT-DETRv4) | 455 | 2026-01-09T15:23:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [YosysHQ/prjtrellis](https://github.com/YosysHQ/prjtrellis) | 454 | 2026-02-26T14:26:51Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [mxmlnkn/rapidgzip](https://github.com/mxmlnkn/rapidgzip) | 450 | 2025-11-30T22:17:13Z | Python | CLI | 16 | 6 | 17 | 17 |
 | [tulerfeng/OneThinker](https://github.com/tulerfeng/OneThinker) | 435 | 2026-02-28T08:16:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [ronaldoussoren/py2app](https://github.com/ronaldoussoren/py2app) | 422 | 2026-02-13T20:47:57Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [AcademySoftwareFoundation/OpenColorIO-Config-ACES](https://github.com/AcademySoftwareFoundation/OpenColorIO-Config-ACES) | 406 | 2026-02-11T17:40:59Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -383,7 +381,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clemense/yourdfpy](https://github.com/clemense/yourdfpy) | 281 | 2026-01-23T07:31:29Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [lzyhha/VisualCloze](https://github.com/lzyhha/VisualCloze) | 281 | 2026-01-07T01:02:44Z | Python | Framework | 5 | 0 | 5 | 5 |
 | [meidachen/STPLS3D](https://github.com/meidachen/STPLS3D) | 281 | 2025-12-31T02:45:22Z | Python | Model/data | 8 | 0 | 9 | 9 |
-| [InternScience/StructEqTable-Deploy](https://github.com/InternScience/StructEqTable-Deploy) | 277 | 2025-12-06T02:29:37Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [InternScience/StructEqTable-Deploy](https://github.com/InternScience/StructEqTable-Deploy) | 277 | 2025-12-06T02:29:37Z | Python | Unknown | 2 | 0 | 3 | 3 |
 | [BoosterRobotics/booster_gym](https://github.com/BoosterRobotics/booster_gym) | 268 | 2025-12-23T05:23:51Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [chengzhag/PanFusion](https://github.com/chengzhag/PanFusion) | 265 | 2025-12-06T07:44:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [NVlabs/GTRS](https://github.com/NVlabs/GTRS) | 263 | 2026-02-09T13:19:15Z | Python | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -410,8 +408,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CSfufu/Revisual-R1](https://github.com/CSfufu/Revisual-R1) | 210 | 2025-12-10T12:15:51Z | Python | Infrastructure/tooling | 10 | 0 | 10 | 10 |
 | [nixprime/cpsm](https://github.com/nixprime/cpsm) | 203 | 2026-02-10T02:48:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [DanCardin/cappa](https://github.com/DanCardin/cappa) | 202 | 2026-02-18T16:05:53Z | Python | CLI | 1 | 9 | 1 | 1 |
+| [tpoisonooo/ROGRAG](https://github.com/tpoisonooo/ROGRAG) | 201 | 2025-12-12T03:46:36Z | Python | Framework | 5 | 0 | 5 | 5 |
 | [Mountchicken/Resophy](https://github.com/Mountchicken/Resophy) | 200 | 2025-12-27T02:52:55Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [tpoisonooo/ROGRAG](https://github.com/tpoisonooo/ROGRAG) | 200 | 2025-12-12T03:46:36Z | Python | Framework | 5 | 0 | 5 | 5 |
 | [Chris-hughes10/pytorch-accelerated](https://github.com/Chris-hughes10/pytorch-accelerated) | 192 | 2026-02-27T08:22:10Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [gristlabs/asttokens](https://github.com/gristlabs/asttokens) | 191 | 2026-01-08T05:56:19Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [SarahWeiii/pamo](https://github.com/SarahWeiii/pamo) | 191 | 2025-12-11T10:20:58Z | Python | Model/data | 2 | 0 | 2 | 2 |

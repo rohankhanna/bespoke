@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -81,7 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [symfony/cache-contracts](https://github.com/symfony/cache-contracts) | 2382 | 2026-01-25T12:13:22Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | 2701 | 2026-01-23T15:29:00Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [reagent-project/reagent](https://github.com/reagent-project/reagent) | 4863 | 2026-01-23T13:16:19Z | Other | Infrastructure/tooling | 7 | 22 | 7 | 7 |
-| [mds1/multicall3](https://github.com/mds1/multicall3) | 1182 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mds1/multicall3](https://github.com/mds1/multicall3) | 1184 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [joaotavora/eglot](https://github.com/joaotavora/eglot) | 2512 | 2026-01-21T23:54:58Z | Other | CLI | 1 | 5 | 1 | 1 |
 | [google/gumbo-parser](https://github.com/google/gumbo-parser) | 5189 | 2026-01-21T17:17:17Z | Other | Library | 0 | 0 | 0 | 0 |
 | [fsprojects/Paket](https://github.com/fsprojects/Paket) | 2086 | 2026-01-20T08:53:10Z | Other | Library | 6 | 0 | 6 | 6 |
@@ -239,7 +239,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nix-community/dream2nix](https://github.com/nix-community/dream2nix) | 1249 | 2025-12-17T06:30:15Z | Other | Infrastructure/tooling | 11 | 6 | 12 | 12 |
 | [ankane/pgslice](https://github.com/ankane/pgslice) | 1239 | 2026-01-06T04:03:17Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mdn/webassembly-examples](https://github.com/mdn/webassembly-examples) | 1202 | 2026-02-18T09:22:56Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
-| [mds1/multicall3](https://github.com/mds1/multicall3) | 1182 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mds1/multicall3](https://github.com/mds1/multicall3) | 1184 | 2026-01-23T01:40:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rails/importmap-rails](https://github.com/rails/importmap-rails) | 1149 | 2026-01-07T20:25:13Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [clojure/test.check](https://github.com/clojure/test.check) | 1147 | 2025-12-30T19:39:58Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [touchlab/droidconkotlin](https://github.com/touchlab/DroidconKotlin) | 1137 | 2026-02-13T21:48:08Z | Other | Infrastructure/tooling | 5 | 5 | 0 | 0 |

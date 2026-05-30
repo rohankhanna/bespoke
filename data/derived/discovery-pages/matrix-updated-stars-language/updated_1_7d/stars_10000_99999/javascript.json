@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 95,
+    "components": 51,
     "concepts": 17,
     "observations": 17,
     "repos": 2,
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "mui/material-ui",
-    "nwjs/nw.js"
+    "nwjs/nw.js",
+    "preactjs/preact"
   ]
 }

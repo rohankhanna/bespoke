@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1224,
-    "concepts": 5571,
-    "observations": 5576,
-    "repos": 1871,
-    "terms": 5418
+    "components": 1230,
+    "concepts": 5593,
+    "observations": 5598,
+    "repos": 1873,
+    "terms": 5437
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1274,6 +1274,7 @@
     "multi-agent-systems-failure-taxonomy/MAST",
     "mv-lab/swin2sr",
     "MVIG-SJTU/AlphAction",
+    "mxmlnkn/rapidgzip",
     "mymarilyn/aioch",
     "MyoHub/myoconverter",
     "namepllet/HandOccNet",
@@ -1873,6 +1874,7 @@
     "ZhengyiLuo/SMPLSim",
     "zhengyuf/IMavatar",
     "zhengyuf/PointAvatar",
+    "zhiyiYo/Alpha-Gobang-Zero",
     "ZhuiyiTechnology/t5-pegasus",
     "ZhuiyiTechnology/WoBERT",
     "zhutmost/lsq-net",

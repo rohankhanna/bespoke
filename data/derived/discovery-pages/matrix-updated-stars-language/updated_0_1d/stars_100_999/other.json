@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 4,
-    "terms": 46
+    "components": 36,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 3,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
+    "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
-    "ChristopherHX/runner.server",
-    "redis/redis-om-dotnet",
-    "ROCm/hipBLASLt"
+    "bazel-contrib/rules_kotlin"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11836,
-    "concepts": 6852,
-    "observations": 6868,
+    "components": 11841,
+    "concepts": 6859,
+    "observations": 6875,
     "repos": 3261,
-    "terms": 6801
+    "terms": 6807
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -55,6 +55,7 @@
     "2KAbhishek/qute2k",
     "2KAbhishek/tdo",
     "2KAbhishek/tdo.nvim",
+    "2KAbhishek/termim.nvim",
     "2KAbhishek/utils.nvim",
     "2shady4u/godot-cpp-ci",
     "2U1/Molmo-Finetune",
@@ -1301,7 +1302,6 @@
     "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
     "Extraltodeus/Stable-Diffusion-temperature-settings",
     "Extraltodeus/Uncond-Zero-for-ComfyUI",
-    "extrawurst/gitui-presentation",
     "eyalz800/zpp_throwing",
     "eyre-rs/stable-eyre",
     "ezhang7423/language-control-diffusion",

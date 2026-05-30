@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 680,
-    "concepts": 454,
-    "observations": 455,
-    "repos": 154,
-    "terms": 446
+    "components": 710,
+    "concepts": 463,
+    "observations": 464,
+    "repos": 159,
+    "terms": 455
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -39,6 +39,7 @@
     "amir684/esp32c3-red-alert",
     "andrasg/matterbridge-loxone",
     "aquasecurity/tfsec-azure-pipelines-task",
+    "archestra-ai/terraform-provider-archestra",
     "asafr93-rosa/shopping-list-il",
     "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
@@ -79,6 +80,7 @@
     "danielrosehill/Homebox-Projects-Index",
     "DanielSmith1239/KosherSwift",
     "dash0hq/opentelemetry-demo",
+    "databendlabs/display-more",
     "datachainlab/ethereum-ibc-relay-prover",
     "datachainlab/yui-relayer-build",
     "day50-dev/mcp-search-and-run",
@@ -88,6 +90,8 @@
     "dylibso/xtp-go-bindgen",
     "dylibso/xtp-python-bindgen",
     "eddelbuettel/github-actions",
+    "elixir-makeup/makeup_syntect",
+    "EspressoSystems/Push-CDN",
     "filip26/copper-multibase",
     "filip26/titanium-jcs",
     "filip26/tree-io",
@@ -107,6 +111,7 @@
     "hchiam/learning-template",
     "hermit-os/hermit-gcc",
     "heshengtao/desktop-for-sap",
+    "hsivonen/chardetng_c",
     "intel/iefs-kernel-updates",
     "ipfs/helia-delegated-routing-v1-http-api",
     "jrsoftware/isscint",
@@ -122,7 +127,6 @@
     "llm-in-sandbox/llm-in-sandbox-rl",
     "lucabubi/star-history",
     "MarcCote/TextWorld",
-    "marxin/mdbook-linkcheck2",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
     "Mercury13/unicodia-sesh",
@@ -147,6 +151,7 @@
     "REditorSupport/vscode-R-syntax",
     "richgel999/junkdrawer",
     "robustmq/robustmq-copilot",
+    "rocq-community/docker-base",
     "runtimeverification/kup",
     "saalfeldlab/n5-google-cloud",
     "serpro69/claude-in-docker",

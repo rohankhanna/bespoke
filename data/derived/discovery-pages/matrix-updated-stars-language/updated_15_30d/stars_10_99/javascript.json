@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 66,
-    "observations": 68,
-    "repos": 13,
-    "terms": 66
+    "components": 109,
+    "concepts": 36,
+    "observations": 37,
+    "repos": 8,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "alangdm/helium-animated-pages",
+    "aidenlab/hic-straw",
+    "aidenlab/juicebox.js",
     "apache/doris-opentelemetry-demo",
-    "aws-samples/aws-sdk-js-tests",
     "coasys/ad4m",
     "hyparam/squirreling",
     "ideditor/schema-builder",
     "julia-actions/cache",
-    "kitconcept/volto-light-theme",
-    "lm-sys/lm-sys.github.io",
-    "nodejs/nodejs-dist-indexer",
-    "octokit/create-octokit-project.js",
-    "rstackjs/agent-skills",
     "stdlib-js/google-summer-of-code"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 24,
-    "terms": 17
+    "components": 4,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 19,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "csm-actions/demo-client",
@@ -20,7 +20,6 @@
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
-    "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Dev-Tools-Plugin",
     "danielrosehill/Claude-Digital-Evidence-Plugin",
@@ -29,14 +28,10 @@
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
-    "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
-    "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-License-Populator-Plugin",
-    "danielrosehill/Claude-Linux-AV-Manager-Plugin",
-    "qiayuanl/unitree_buildfarm",
-    "sp1-patches/elliptic-curves"
+    "danielrosehill/Claude-Linux-AV-Manager-Plugin"
   ]
 }

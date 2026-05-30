@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 191
+- repos: 190
 - terms: 380
 - components: 512
 - concepts: 386
@@ -216,7 +216,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [daschl/hwloc-rs](https://github.com/daschl/hwloc-rs) | 90 | 2021-07-14T10:02:54Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [tamuhey/tokenizations](https://github.com/tamuhey/tokenizations) | 30 | 2021-07-12T14:15:17Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [joshtriplett/metadeps](https://github.com/joshtriplett/metadeps) | 27 | 2021-06-30T07:13:26Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [extrawurst/gitui-presentation](https://github.com/extrawurst/gitui-presentation) | 12 | 2021-05-28T08:02:16Z | Rust | CLI | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -400,7 +399,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-bitcoin/rust-bitcoind-json-rpc](https://github.com/rust-bitcoin/rust-bitcoind-json-rpc) | 12 | 2024-11-26T13:50:33Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [wngr/async-datachannel](https://github.com/wngr/async-datachannel) | 12 | 2022-11-29T08:22:42Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [MatchaChoco010/egui_winit_ash_vk_mem](https://github.com/MatchaChoco010/egui_winit_ash_vk_mem) | 12 | 2021-09-09T22:55:30Z | Rust | Unknown | 6 | 0 | 6 | 6 |
-| [extrawurst/gitui-presentation](https://github.com/extrawurst/gitui-presentation) | 12 | 2021-05-28T08:02:16Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [pisa-engine/ciff](https://github.com/pisa-engine/ciff) | 11 | 2025-08-06T00:44:52Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [turbofish-org/ed](https://github.com/turbofish-org/ed) | 11 | 2024-11-19T20:09:28Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [celo-org/snark-setup-operator](https://github.com/celo-org/snark-setup-operator) | 11 | 2024-06-11T13:09:04Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |

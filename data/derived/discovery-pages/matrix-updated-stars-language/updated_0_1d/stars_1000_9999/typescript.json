@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 269,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 5,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
+    "alichherawalla/off-grid-mobile-ai",
+    "conventional-changelog/conventional-changelog",
     "podman-desktop/podman-desktop",
-    "safe-fndn/safe-smart-account",
-    "TanStack/form"
+    "react-native-webview/react-native-webview",
+    "vuejs/devtools"
   ]
 }

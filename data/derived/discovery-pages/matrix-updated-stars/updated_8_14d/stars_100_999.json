@@ -1,37 +1,34 @@
 {
   "counts": {
-    "components": 324,
-    "concepts": 205,
-    "observations": 206,
-    "repos": 36,
-    "terms": 205
+    "components": 346,
+    "concepts": 173,
+    "observations": 174,
+    "repos": 31,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "Ai00-X/ai00_server",
     "AMD-AGI/Nitro-1",
-    "apache/casbin-cpp",
     "bazel-contrib/rules_jvm_external",
     "betterleaks/betterleaks",
     "Brendonovich/MacroGraph",
     "browserslist/caniuse-lite",
-    "DISTRHO/DPF",
     "dwyl/quotes",
-    "eclipse-tm4e/tm4e",
     "electron/packager",
     "emacscollective/auto-compile",
     "fluent-vue/fluent-vue",
     "gbionics/adam",
+    "Gnathonic/mokuro-reader",
     "google-deepmind/reverb",
     "google-deepmind/xmanager",
     "google/protobuf.dart",
-    "googlefonts/roboto-3-classic",
     "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",
     "kurrent-io/KurrentDB-Client-Dotnet",
@@ -43,11 +40,9 @@
     "openbsd/ports",
     "openjdk/jdk11u",
     "pyOpenSci/software-submission",
+    "pypa/setuptools-scm",
     "python-poetry/poetry-plugin-export",
-    "ROCm/rocBLAS",
     "shawn0728/OpenSearch-VL",
-    "SpecterOps/AzureHound",
-    "TextArena/TextArena",
-    "Waffle/waffle"
+    "TextArena/TextArena"
   ]
 }

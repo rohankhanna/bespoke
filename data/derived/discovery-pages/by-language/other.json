@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26514,
-    "concepts": 22849,
-    "observations": 22922,
-    "repos": 5643,
-    "terms": 22787
+    "components": 26512,
+    "concepts": 22844,
+    "observations": 22917,
+    "repos": 5640,
+    "terms": 22781
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -2628,7 +2628,6 @@
     "hustzxd/EfficientPyTorch",
     "hydescarf/Obsidian-Theme-Mado-11",
     "hydescarf/Obsidian-Theme-Mado-Miniflow",
-    "hyperhype/hyperscript",
     "hyperledger-labs/yui-corda-ibc",
     "hyperledger-labs/yui-ibc-solidity",
     "hyperoslo/capistrano-foreman",
@@ -4737,7 +4736,6 @@
     "saddam213/OnnxStack",
     "saecki/crates.nvim",
     "saem/vscode-nim",
-    "safwank/Numerix",
     "SagerNet/SagerNet",
     "saghen/blink.cmp",
     "saghen/blink.compat",
@@ -5316,7 +5314,6 @@
     "tsakirist/telescope-lazy.nvim",
     "tuist/XcodeProj",
     "TuringLang/docs",
-    "TuSimple/tusimple-benchmark",
     "twbs/bootstrap",
     "twbs/bootstrap-sass",
     "tweag/gazelle_cabal",

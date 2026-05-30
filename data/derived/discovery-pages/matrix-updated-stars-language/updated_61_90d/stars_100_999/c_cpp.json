@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 320,
-    "observations": 321,
-    "repos": 61,
-    "terms": 318
+    "components": 219,
+    "concepts": 339,
+    "observations": 340,
+    "repos": 63,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "anacrolix/go-libutp",
@@ -69,8 +69,10 @@
     "stardot/beebasm",
     "Tomas-M/iotop",
     "usnistgov/trec_eval",
+    "uxlfoundation/oneMath",
     "vcflib/vcflib",
     "veorq/SipHash",
+    "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",
     "websockets/bufferutil",
     "xtensor-stack/xtensor-python",

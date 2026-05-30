@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1315,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 49,
-    "terms": 299
+    "components": 1281,
+    "concepts": 279,
+    "observations": 280,
+    "repos": 47,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "a2aproject/a2a-inspector",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
@@ -30,7 +29,6 @@
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
     "cztomsik/ava",
-    "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "fannheyward/create-coc-extension",
     "filllabs/dependi",
@@ -38,7 +36,6 @@
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",
-    "import-js/eslint-import-resolver-typescript",
     "inciteful-xyz/inciteful-zotero-plugin",
     "ivo-toby/mcp-openapi-server",
     "kylebarron/arrow-js-ffi",
@@ -48,6 +45,7 @@
     "lobehub/lobe-tts",
     "microsoft/vscode-debugadapter-node",
     "multiformats/js-multiformats",
+    "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "ruvnet/agentic-flow",

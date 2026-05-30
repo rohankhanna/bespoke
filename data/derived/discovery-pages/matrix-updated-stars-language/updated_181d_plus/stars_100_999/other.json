@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2253,
-    "concepts": 3035,
-    "observations": 3042,
-    "repos": 964,
-    "terms": 3019
+    "concepts": 3042,
+    "observations": 3049,
+    "repos": 963,
+    "terms": 3026
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -198,6 +198,7 @@
     "cgbur/llama2.zig",
     "Ch4t4r/Nebulo",
     "chaitjo/learning-tsp",
+    "chakravala/Reduce.jl",
     "chaoren/vim-wordmotion",
     "ChargePoint/xcparse",
     "CheyneyComputerScience/CREMA-D",
@@ -805,7 +806,6 @@
     "rxi/lite-colors",
     "rxi/lite-plugins",
     "saadparwaiz1/cmp_luasnip",
-    "safwank/Numerix",
     "saghen/blink.compat",
     "Saiyan-World/grounded-segment-any-parts",
     "sanel/monroe",
@@ -903,7 +903,6 @@
     "TropComplique/mtcnn-pytorch",
     "trullock/NUglify",
     "tsakirist/telescope-lazy.nvim",
-    "TuSimple/tusimple-benchmark",
     "tweekmonster/startuptime.vim",
     "twitter-archive/torch-autograd",
     "ueberauth/oauth2",

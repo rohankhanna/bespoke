@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 391,
-    "concepts": 480,
-    "observations": 480,
-    "repos": 63,
-    "terms": 478
+    "components": 428,
+    "concepts": 518,
+    "observations": 518,
+    "repos": 68,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -23,11 +23,14 @@
     "apache/doris-spark-connector",
     "apache/ignite-3",
     "apache/rocketmq-clients",
+    "apache/spark-kubernetes-operator",
+    "aws-powertools/powertools-lambda-java",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "carrot2/carrot2",
     "chromiumembedded/java-cef",
+    "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
@@ -43,6 +46,7 @@
     "googleapis/google-api-java-client-services",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
+    "googleapis/java-bigtable-hbase",
     "GoogleCloudPlatform/cloud-opensource-java",
     "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
@@ -62,19 +66,20 @@
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "objectbox/objectbox-examples",
+    "operator-framework/java-operator-sdk",
     "quarkiverse/quarkus-langchain4j",
+    "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
-    "redis/redis-om-spring",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",
-    "spring-io/spring-javaformat",
     "swagger-api/swagger-inflector",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
     "wildfly/quickstart",
+    "Xilinx/RapidWright",
     "ysbing/YADB",
     "zilliztech/vts"
   ]

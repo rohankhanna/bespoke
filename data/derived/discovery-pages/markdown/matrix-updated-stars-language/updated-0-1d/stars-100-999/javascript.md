@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-27T08:59:49.396739+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 12
-- components: 25
-- concepts: 12
-- observations: 12
+- repos: 1
+- terms: 9
+- components: 2
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mafintosh/streamx](https://github.com/mafintosh/streamx) | 239 | 2026-05-26T18:01:29Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
-| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-05-26T09:16:54Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
+| [beve-org/beve](https://github.com/beve-org/beve) | 120 | 2026-05-29T21:22:54Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mafintosh/streamx](https://github.com/mafintosh/streamx) | 239 | 2026-05-26T18:01:29Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
-| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-05-26T09:16:54Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
+| [beve-org/beve](https://github.com/beve-org/beve) | 120 | 2026-05-29T21:22:54Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |

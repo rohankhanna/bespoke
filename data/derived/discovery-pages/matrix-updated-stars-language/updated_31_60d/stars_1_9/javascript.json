@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1509,
-    "concepts": 805,
-    "observations": 805,
-    "repos": 81,
-    "terms": 805
+    "components": 1704,
+    "concepts": 863,
+    "observations": 865,
+    "repos": 89,
+    "terms": 863
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -33,6 +33,7 @@
     "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
+    "dwyl/phoenix-papertrail-demo",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
@@ -57,15 +58,19 @@
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "kellyselden/boilerplate-update",
+    "kkomelin/isomorphic-dompurify-playgrounds",
     "ksxnodemodules/static-type-assert",
     "Level/read-stream",
     "Level/supports",
     "Level/transcoder",
     "locize/locize-lastused",
+    "maltsev/html-minifiers-benchmark",
     "metosin/open-source",
     "newrelic/csec-node-agent",
     "poolifier/tatami-ng",
     "recap-utr/arg-services",
+    "rvagg/js-bitcoin-block",
+    "sapphiredev/.github",
     "seunghunbae-3svs/solo-cto-agent",
     "stdlib-js/array-complex128",
     "stdlib-js/array-complex64",
@@ -83,6 +88,8 @@
     "stdlib-js/complex-cmplx",
     "stdlib-js/complex-float32-reviver",
     "stdlib-js/complex-float64-reviver",
+    "stdlib-js/math-base-special-erfcinv",
+    "stdlib-js/math-base-special-erfinv",
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtype",
     "stdlib-js/ndarray-dtypes",
@@ -94,6 +101,7 @@
     "stdlib-js/streams-node-stdout",
     "stealabra5019/grok-enhancer",
     "Taritsyn/AutoprefixerHost",
-    "thetutlage/static"
+    "thetutlage/static",
+    "travi/octokit-auth-netrc"
   ]
 }

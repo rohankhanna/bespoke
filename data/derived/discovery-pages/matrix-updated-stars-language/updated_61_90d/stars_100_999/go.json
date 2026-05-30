@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 34,
-    "terms": 194
+    "components": 220,
+    "concepts": 198,
+    "observations": 198,
+    "repos": 36,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "Antonboom/testifylint",
@@ -21,11 +21,13 @@
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "box-cli-maker/box-cli-maker",
+    "bradleyfalzon/ghinstallation",
     "cedar-policy/cedar-go",
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
     "erigontech/interfaces",
+    "go-chi/docgen",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",

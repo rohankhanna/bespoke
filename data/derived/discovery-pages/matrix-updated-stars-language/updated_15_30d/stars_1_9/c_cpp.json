@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 8,
-    "terms": 28
+    "components": 25,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 7,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "atsushieno/midicci",
     "chrishulbert/brickwarrior",
     "clearml/dropbear",
-    "eddelbuettel/r2u-builder",
     "Evilpasture/Culverin",
     "skeeto/aas-sign",
     "vincentlaucsb/classify_scalar",

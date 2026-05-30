@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 524 | 2026-05-25T02:23:57Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 525 | 2026-05-29T01:53:03Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 524 | 2026-05-25T02:23:57Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) | 525 | 2026-05-29T01:53:03Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |

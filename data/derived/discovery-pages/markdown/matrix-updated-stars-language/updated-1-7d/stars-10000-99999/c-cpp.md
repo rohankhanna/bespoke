@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 103
-- components: 102
-- concepts: 103
-- observations: 103
+- repos: 5
+- terms: 64
+- components: 64
+- concepts: 64
+- observations: 64
 
 ## Static behavior
 
@@ -26,26 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24520 | 2026-05-26T20:14:31Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35361 | 2026-05-26T17:27:37Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50143 | 2026-05-26T04:23:41Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25637 | 2026-05-25T11:20:13Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14702 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35404 | 2026-05-27T16:29:38Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
 | [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13620 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13632 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50143 | 2026-05-26T04:23:41Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35361 | 2026-05-26T17:27:37Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25637 | 2026-05-25T11:20:13Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24520 | 2026-05-26T20:14:31Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35404 | 2026-05-27T16:29:38Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
 | [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14702 | 2026-05-25T09:41:55Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13620 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13632 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |

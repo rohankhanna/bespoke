@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 457,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 38,
-    "terms": 149
+    "components": 512,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 40,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
+    "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
@@ -48,6 +49,7 @@
     "protocolbuffers/protobuf-javascript",
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
+    "rtfeldman/node-test-runner",
     "TeamMoeAI/MoeSR",
     "thejoshwolfe/yazl",
     "usnistgov/jsfive",

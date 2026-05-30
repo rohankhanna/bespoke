@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 247,
-    "observations": 250,
-    "repos": 63,
-    "terms": 246
+    "components": 351,
+    "concepts": 245,
+    "observations": 247,
+    "repos": 62,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "alexheretic/ab-glyph",
     "astro/deadnix",
     "atanunq/viuer",
     "ayazhafiz/xorf",
     "bluss/matrixmultiply",
+    "blyxxyz/lexopt",
     "browserslist/browserslist-rs",
     "Builditluc/wiki-tui",
     "callum-oakley/json5-rs",
@@ -31,7 +31,6 @@
     "dtolnay/cargo-llvm-lines",
     "dtolnay/prettyplease",
     "dustinblackman/cargo-run-bin",
-    "faradayio/cage",
     "fast/logforth",
     "georust/proj",
     "guillaume-be/rust-tokenizers",

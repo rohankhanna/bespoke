@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 50452,
-    "concepts": 34959,
-    "observations": 35064,
+    "components": 50479,
+    "concepts": 34972,
+    "observations": 35077,
     "repos": 8616,
-    "terms": 34821
+    "terms": 34830
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0k/shyaml",
@@ -3116,7 +3116,6 @@
     "FlagOpen/Robo-Dopamine",
     "FlagOpen/RoboBrain",
     "FlagOpen/RoboBrain-X0",
-    "FlagOpen/RoboBrain2.5",
     "FlagOpen/RoboOS",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagCX",
@@ -3954,7 +3953,6 @@
     "hyperoslo/capistrano-foreman",
     "hypnoglow/helm-s3",
     "hysts/anime-face-detector",
-    "HzFu/COVID19_imaging_AI_paper_list",
     "hzwer/Practical-RIFE",
     "i18next/i18next-browser-languageDetector",
     "i18next/i18next-cli",
@@ -7164,7 +7162,6 @@
     "safe-fndn/safe-singleton-factory",
     "safe-global/safe-deployments",
     "SafetyCulture/grpc-web-devtools",
-    "safwank/Numerix",
     "Saganaki22/OrpheusTTS-WebUI",
     "saghen/blink.compat",
     "saghen/frizbee",
@@ -7812,6 +7809,7 @@
     "tgxs002/HPSv2",
     "thammegowda/nllb-serve",
     "thaolmk54/hcrn-videoqa",
+    "the-database/MangaJaNai",
     "the-guild-org/Stack",
     "thedatumorg/TSB-AD",
     "thedatumorg/TSB-UAD",
@@ -7847,6 +7845,7 @@
     "THUNLP-MT/StableToolBench",
     "thunlp/ChatEval",
     "thunlp/InfLLM",
+    "thunlp/JustRL",
     "thunlp/OPD",
     "thunlp/ToolLearningPapers",
     "thunlp/WebCPM",
@@ -8006,7 +8005,6 @@
     "TuringLang/docs",
     "tusen-ai/RangeDet",
     "tushartushar/DesigniteJava",
-    "TuSimple/tusimple-benchmark",
     "tvogels/pyexr",
     "twain47/Open-SVG-Map-Icons",
     "twardoch/fonttools-opentype-feature-freezer",
@@ -8584,6 +8582,8 @@
     "zhipeng-jia/snappyjs",
     "zhiqwang/yolort",
     "zhixuan-lin/forgetting-transformer",
+    "zhiyiYo/Alpha-Gobang-Zero",
+    "zhiyiYo/Groove",
     "zhiyuanyou/DeQA-Score",
     "ZHKKKe/PPM",
     "ZhuiyiTechnology/t5-pegasus",

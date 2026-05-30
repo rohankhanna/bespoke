@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10 to 99 stars · Rust
 
-Generated at: `2026-05-27T08:59:49.396739+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-26T20:04:23Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-29T13:20:25Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-26T20:04:23Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-29T13:20:25Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |

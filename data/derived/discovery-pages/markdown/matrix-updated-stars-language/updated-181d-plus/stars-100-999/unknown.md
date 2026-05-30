@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 252
-- terms: 454
+- repos: 253
+- terms: 456
 - components: 126
-- concepts: 454
-- observations: 455
+- concepts: 456
+- observations: 457
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CodeBoarding/GeneratedOnBoardings](https://github.com/CodeBoarding/GeneratedOnBoardings) | 102 | 2025-12-01T00:58:46Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [the-database/MangaJaNai](https://github.com/the-database/MangaJaNai) | 205 | 2025-11-26T00:40:46Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [NVIDIA/RTX-AI-Toolkit](https://github.com/NVIDIA/RTX-AI-Toolkit) | 184 | 2025-11-24T18:09:03Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [ethstaker/ethstaker-guides](https://github.com/ethstaker/ethstaker-guides) | 366 | 2025-11-22T11:59:26Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [DaoCloud/public-binary-files-mirror](https://github.com/DaoCloud/public-binary-files-mirror) | 187 | 2025-11-21T08:49:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -161,7 +163,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jianzhnie/awesome-instruction-datasets](https://github.com/jianzhnie/awesome-instruction-datasets) | 730 | 2024-04-07T02:56:10Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
 | [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 105 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [BBuf/how-to-learn-deep-learning-framework](https://github.com/BBuf/how-to-learn-deep-learning-framework) | 498 | 2024-03-22T23:41:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 268 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 267 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [react-native-community/RNNewArchitectureLibraries](https://github.com/react-native-community/RNNewArchitectureLibraries) | 348 | 2024-03-20T10:48:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PacificBiosciences/ccs](https://github.com/PacificBiosciences/ccs) | 126 | 2024-03-18T13:41:43Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [akoksal/LongForm](https://github.com/akoksal/LongForm) | 215 | 2024-03-05T11:35:12Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
@@ -277,7 +279,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [l4rz/practical-aspects-of-stylegan2-training](https://github.com/l4rz/practical-aspects-of-stylegan2-training) | 217 | 2021-08-07T15:18:21Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [helm/hub](https://github.com/helm/hub) | 252 | 2021-07-01T20:07:44Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [aws/aws-proton-public-roadmap](https://github.com/aws/aws-proton-public-roadmap) | 196 | 2021-06-21T19:49:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [HzFu/COVID19_imaging_AI_paper_list](https://github.com/HzFu/COVID19_imaging_AI_paper_list) | 327 | 2021-05-27T19:35:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -384,7 +385,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wenet-e2e/speech-recognition-papers](https://github.com/wenet-e2e/speech-recognition-papers) | 330 | 2021-11-30T08:28:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/VSProjectSystem](https://github.com/microsoft/VSProjectSystem) | 329 | 2025-09-03T02:46:30Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [jbenet/random-ideas](https://github.com/jbenet/random-ideas) | 328 | 2023-03-05T21:15:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [HzFu/COVID19_imaging_AI_paper_list](https://github.com/HzFu/COVID19_imaging_AI_paper_list) | 327 | 2021-05-27T19:35:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [multiformats/multibase](https://github.com/multiformats/multibase) | 324 | 2025-05-11T14:46:47Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [dotnet/vblang](https://github.com/dotnet/vblang) | 323 | 2024-12-18T01:53:31Z | Unknown | Library | 1 | 0 | 1 | 1 |
 | [octokit/authentication-strategies.js](https://github.com/octokit/authentication-strategies.js) | 323 | 2024-01-13T22:43:08Z | Unknown | Service/API | 2 | 0 | 2 | 2 |
@@ -415,7 +415,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ibm-granite/granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | 272 | 2025-06-25T20:35:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [destwang/CTCResources](https://github.com/destwang/CTCResources) | 271 | 2024-07-26T02:41:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sclorg/django-ex](https://github.com/sclorg/django-ex) | 269 | 2025-10-09T12:15:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 268 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [AILab-CVC/TaleCrafter](https://github.com/AILab-CVC/TaleCrafter) | 267 | 2024-03-22T11:53:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [nushu-script/Nyushu](https://github.com/nushu-script/Nyushu) | 266 | 2024-06-06T09:10:29Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 | [nicolas-chaulet/torch-points3d](https://github.com/nicolas-chaulet/torch-points3d) | 266 | 2021-12-10T20:17:18Z | Unknown | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [mayhemantt/mayhemantt](https://github.com/mayhemantt/mayhemantt) | 265 | 2023-03-02T09:36:20Z | Unknown | Unknown | 14 | 0 | 14 | 14 |
@@ -445,6 +445,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JizhiziLi/RIM](https://github.com/JizhiziLi/RIM) | 208 | 2023-04-17T06:46:47Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [michaelkleber/privacy-model](https://github.com/michaelkleber/privacy-model) | 207 | 2025-11-07T21:54:10Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [Kim2091/chaiNNer-Templates](https://github.com/Kim2091/chaiNNer-Templates) | 206 | 2025-03-14T05:44:50Z | Unknown | Template/starter | 4 | 0 | 4 | 4 |
+| [the-database/MangaJaNai](https://github.com/the-database/MangaJaNai) | 205 | 2025-11-26T00:40:46Z | Unknown | Model/data | 3 | 0 | 3 | 3 |
 | [project-miracl/miracl](https://github.com/project-miracl/miracl) | 205 | 2024-07-31T21:17:17Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [GraphBLAS/GraphBLAS-Pointers](https://github.com/GraphBLAS/GraphBLAS-Pointers) | 203 | 2025-11-20T18:09:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [JizhiziLi/matting-survey](https://github.com/JizhiziLi/matting-survey) | 201 | 2023-05-16T06:08:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
@@ -530,6 +531,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IceClear/SeedVR](https://github.com/IceClear/SeedVR) | 106 | 2025-06-18T17:29:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | 105 | 2024-03-23T00:00:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [privacycg/storage-partitioning](https://github.com/privacycg/storage-partitioning) | 104 | 2023-05-24T03:26:08Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [CodeBoarding/GeneratedOnBoardings](https://github.com/CodeBoarding/GeneratedOnBoardings) | 102 | 2025-12-01T00:58:46Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [rust-lang/project-portable-simd](https://github.com/rust-lang/project-portable-simd) | 102 | 2024-11-26T14:03:41Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ZHKKKe/PPM](https://github.com/ZHKKKe/PPM) | 102 | 2023-02-01T08:23:56Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [googlefonts/gf-docs](https://github.com/googlefonts/gf-docs) | 101 | 2022-07-07T13:12:17Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |

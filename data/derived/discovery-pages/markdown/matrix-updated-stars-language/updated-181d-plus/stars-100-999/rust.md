@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 179
-- terms: 582
-- components: 719
-- concepts: 590
-- observations: 596
+- repos: 181
+- terms: 588
+- components: 726
+- concepts: 596
+- observations: 603
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
+| [faradayio/cage](https://github.com/faradayio/cage) | 315 | 2025-11-30T15:43:01Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [rust-bitcoin/rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) | 385 | 2025-11-25T22:05:13Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [rust-windowing/gl-rs](https://github.com/rust-windowing/gl-rs) | 742 | 2025-11-25T09:08:08Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [harfbuzz/ttf-parser](https://github.com/harfbuzz/ttf-parser) | 762 | 2025-11-22T11:57:15Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -57,7 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tazz4843/whisper-rs](https://github.com/tazz4843/whisper-rs) | 937 | 2025-07-30T01:18:46Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [rust-embedded/critical-section](https://github.com/rust-embedded/critical-section) | 162 | 2025-07-29T18:49:03Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [comit-network/xmr-btc-swap](https://github.com/comit-network/xmr-btc-swap) | 714 | 2025-07-22T11:42:04Z | Rust | Infrastructure/tooling | 9 | 14 | 9 | 9 |
-| [facebook/winterfell](https://github.com/facebook/winterfell) | 890 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [facebook/winterfell](https://github.com/facebook/winterfell) | 891 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [ralexstokes/ethereum-consensus](https://github.com/ralexstokes/ethereum-consensus) | 152 | 2025-07-18T18:19:42Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [nomic-io/nomic](https://github.com/nomic-io/nomic) | 154 | 2025-07-14T17:56:34Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [informalsystems/ibc-rs](https://github.com/informalsystems/ibc-rs) | 224 | 2025-07-10T14:54:51Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 9 |
@@ -161,7 +163,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [10XGenomics/vartrix](https://github.com/10XGenomics/vartrix) | 217 | 2023-10-02T23:25:17Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [bwasty/vulkan-tutorial-rs](https://github.com/bwasty/vulkan-tutorial-rs) | 747 | 2023-09-21T19:43:22Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [dalek-cryptography/x25519-dalek](https://github.com/dalek-cryptography/x25519-dalek) | 353 | 2023-09-01T19:33:25Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 6 |
-| [rust-rse/reed-solomon-erasure](https://github.com/rust-rse/reed-solomon-erasure) | 213 | 2023-08-30T10:35:50Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [rust-rse/reed-solomon-erasure](https://github.com/rust-rse/reed-solomon-erasure) | 214 | 2023-08-30T10:35:50Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [rustwasm/wasm-pack-template](https://github.com/rustwasm/wasm-pack-template) | 675 | 2023-08-29T15:11:36Z | Rust | Template/starter | 0 | 0 | 0 | 0 |
 | [AltF02/mouse-rs](https://github.com/AltF02/mouse-rs) | 125 | 2023-08-19T06:29:25Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 5 |
 | [rust-ethereum/ethabi](https://github.com/rust-ethereum/ethabi) | 525 | 2023-08-16T17:41:09Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -218,7 +220,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heim-rs/heim](https://github.com/heim-rs/heim) | 923 | 2024-07-14T05:21:56Z | Rust | Infrastructure/tooling | 19 | 8 | 19 | 19 |
 | [clog-tool/clog-cli](https://github.com/clog-tool/clog-cli) | 916 | 2024-08-15T12:54:21Z | Rust | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [arkworks-rs/snark](https://github.com/arkworks-rs/snark) | 902 | 2025-09-12T23:19:29Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [facebook/winterfell](https://github.com/facebook/winterfell) | 890 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [facebook/winterfell](https://github.com/facebook/winterfell) | 891 | 2025-07-19T21:21:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [nachoparker/dutree](https://github.com/nachoparker/dutree) | 871 | 2022-06-29T08:44:36Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [Atome-FE/llama-node](https://github.com/Atome-FE/llama-node) | 865 | 2023-08-03T02:46:18Z | Rust | Infrastructure/tooling | 12 | 29 | 12 | 12 |
 | [microsoft/Spartan](https://github.com/microsoft/Spartan) | 856 | 2025-10-15T00:02:53Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -264,6 +266,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tafia/quick-protobuf](https://github.com/tafia/quick-protobuf) | 473 | 2024-02-14T05:48:24Z | Rust | Unknown | 4 | 0 | 4 | 4 |
 | [ralexstokes/mev-rs](https://github.com/ralexstokes/mev-rs) | 457 | 2024-10-24T22:02:49Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [ethereum/trin](https://github.com/ethereum/trin) | 442 | 2025-09-23T12:33:24Z | Rust | CLI | 5 | 9 | 5 | 5 |
+| [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
 | [gnzlbg/jemallocator](https://github.com/gnzlbg/jemallocator) | 429 | 2021-12-21T17:51:17Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [rust-db/barrel](https://github.com/rust-db/barrel) | 429 | 2021-07-07T16:27:58Z | Rust | Unknown | 4 | 0 | 4 | 4 |
 | [mdrokz/rust-llama.cpp](https://github.com/mdrokz/rust-llama.cpp) | 422 | 2024-06-27T05:44:34Z | Rust | Unknown | 7 | 0 | 7 | 7 |
@@ -291,6 +294,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arkworks-rs/marlin](https://github.com/arkworks-rs/marlin) | 324 | 2024-01-18T06:19:08Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [inherd/coco](https://github.com/inherd/coco) | 323 | 2022-09-22T15:46:45Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [cowprotocol/ethcontract-rs](https://github.com/cowprotocol/ethcontract-rs) | 321 | 2025-09-24T07:18:04Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [faradayio/cage](https://github.com/faradayio/cage) | 315 | 2025-11-30T15:43:01Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [arkworks-rs/curves](https://github.com/arkworks-rs/curves) | 310 | 2023-12-18T17:24:06Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [ddimaria/rust-actix-example](https://github.com/ddimaria/rust-actix-example) | 305 | 2023-12-31T08:16:38Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [krivahtoo/silicon.nvim](https://github.com/krivahtoo/silicon.nvim) | 303 | 2025-09-15T07:54:29Z | Rust | Infrastructure/tooling | 9 | 8 | 9 | 9 |
@@ -324,7 +328,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [informalsystems/ibc-rs](https://github.com/informalsystems/ibc-rs) | 224 | 2025-07-10T14:54:51Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 9 |
 | [10XGenomics/vartrix](https://github.com/10XGenomics/vartrix) | 217 | 2023-10-02T23:25:17Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [blitz-js/next-superjson-plugin](https://github.com/blitz-js/next-superjson-plugin) | 216 | 2024-03-03T05:24:27Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [rust-rse/reed-solomon-erasure](https://github.com/rust-rse/reed-solomon-erasure) | 213 | 2023-08-30T10:35:50Z | Rust | Unknown | 3 | 0 | 3 | 3 |
+| [rust-rse/reed-solomon-erasure](https://github.com/rust-rse/reed-solomon-erasure) | 214 | 2023-08-30T10:35:50Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [stepancheg/rust-http2](https://github.com/stepancheg/rust-http2) | 211 | 2021-10-24T23:08:40Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [paradigmxyz/mev-share-rs](https://github.com/paradigmxyz/mev-share-rs) | 210 | 2025-05-17T14:55:35Z | Rust | CLI | 1 | 8 | 1 | 1 |
 | [tokio-rs/async-backtrace](https://github.com/tokio-rs/async-backtrace) | 210 | 2024-02-19T15:46:39Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2923,
-    "concepts": 1225,
-    "observations": 1229,
-    "repos": 913,
-    "terms": 1256
+    "components": 2939,
+    "concepts": 1230,
+    "observations": 1234,
+    "repos": 915,
+    "terms": 1261
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -705,6 +705,8 @@
     "matthme/devhub-dnas",
     "matthme/hc-zome-mere-memory",
     "maxxnino/good-stuff",
+    "mayocream/candle",
+    "mayocream/ug",
     "meamarp/maskdino",
     "Megvii-BaseDetection/storage",
     "meinac/oj-introspect",

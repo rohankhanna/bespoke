@@ -1,37 +1,26 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 20,
-    "terms": 96
+    "components": 84,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 9,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
-    "aidenlab/hic-straw",
-    "aidenlab/juicebox.js",
-    "apache/casbin-actix-casbin-auth",
-    "apache/casbin-axum-casbin",
-    "apache/casbin-rust-actix-casbin",
-    "apache/datafusion-ballista-python",
+    "amazon-ion/ion-cli",
     "compozy/kb",
     "f3liz-casa/noraneko",
     "google-marketing-solutions/ariel",
     "jelly-beam/rebar3_ex_doc",
-    "joshsymonds/cc-tools",
+    "lifegpc/msg-tool",
     "mesh-iit/cad-libraries",
     "nvim-mini/mini.deps",
-    "openjdk/jdk11u-dev",
-    "openjdk/jdk17u-dev",
-    "openjdk/jdk21u-dev",
-    "storybook-community/addon-queryparams",
-    "TrigenSoftware/simple-release",
-    "vaporif/parry-guard",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 115,
-    "observations": 116,
-    "repos": 22,
-    "terms": 114
+    "components": 125,
+    "concepts": 124,
+    "observations": 125,
+    "repos": 18,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
-    "AccessKit/accesskit-c",
-    "apollographql/federation-rs",
-    "asny/three-d-asset",
+    "apache/casbin-actix-casbin-auth",
+    "apache/casbin-axum-casbin",
+    "apache/casbin-rust-actix-casbin",
     "boozook/mdbook-svgbob",
     "fallow-rs/oxc-coverage-instrument",
-    "fonttools/fontspector",
     "g-plane/raffia",
     "heroku/buildpacks-jvm",
     "heroku/buildpacks-nodejs",
@@ -28,10 +27,7 @@
     "heroku/libcnb.rs",
     "influxdata/datafusion-udf-wasm",
     "kurrent-io/KurrentDB-Client-Rust",
-    "ldclabs/anda-db",
-    "ldclabs/anda-hippocampus",
     "mdn/rari",
-    "openvm-org/stark-backend",
     "Ralith/lahar",
     "tofay/rustls-openssl",
     "tyrypyrking/egui-ash",

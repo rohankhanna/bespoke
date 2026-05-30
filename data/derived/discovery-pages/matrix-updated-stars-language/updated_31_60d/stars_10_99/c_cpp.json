@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 348,
-    "observations": 348,
-    "repos": 76,
-    "terms": 348
+    "components": 427,
+    "concepts": 375,
+    "observations": 375,
+    "repos": 81,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
+    "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
     "acts-project/traccc",
     "ad-si/FlatCV",
@@ -25,6 +26,7 @@
     "AIWintermuteAI/whispercpp",
     "akruphi/far2l",
     "ankane/stl-cpp",
+    "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "BirolLab/arcs",
@@ -55,6 +57,7 @@
     "kendryte/canmv_k230",
     "ksnip/kImageAnnotator",
     "LedgerHQ/app-boilerplate",
+    "LedgerHQ/ledger-secure-sdk",
     "Level/classic-level",
     "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
@@ -80,6 +83,7 @@
     "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/roctracer",
+    "ROCm/rpp",
     "skeeto/dcmake",
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
@@ -87,6 +91,7 @@
     "walbourn/directxmathtest",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
+    "xjb714/xjb",
     "yoshoku/numo-narray-alt",
     "yquake2/ref_vk",
     "yquake2/yquake2remaster"

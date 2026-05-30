@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1874,
-    "concepts": 321,
-    "observations": 322,
-    "repos": 41,
-    "terms": 321
+    "components": 1514,
+    "concepts": 232,
+    "observations": 232,
+    "repos": 29,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "antfu/eslint-config",
-    "apostrophecms/apostrophe",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
-    "GoogleChromeLabs/clooney",
-    "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
     "ipfs/ipfs-companion",
     "jasonlong/isometric-contributions",
     "jellyfin/jellyfin-web",
     "jquery/jquery-color",
-    "KhronosGroup/Vulkan-Docs",
-    "LavaMoat/LavaMoat",
-    "mermaid-js/mermaid-cli",
-    "middyjs/middy",
     "MikeMcl/bignumber.js",
     "nodeca/js-yaml",
     "nodejs/Release",
     "openstreetmap/iD",
     "openwrt/luci",
-    "parallel-js/parallel.js",
     "pillarjs/iconv-lite",
     "ranisalt/node-argon2",
     "RisingStack/react-easy-state",
@@ -47,13 +39,9 @@
     "sverweij/dependency-cruiser",
     "swagger-api/swagger-editor",
     "tapjs/tapjs",
-    "terser/terser",
     "uBlockOrigin/uBOL-home",
-    "umijs/dumi",
-    "unifiedjs/unified",
     "violentmonkey/violentmonkey",
     "WebKit/WebKit",
-    "webpack/webpack-cli",
-    "webpack/webpack-dev-middleware"
+    "webpack/webpack-cli"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -966,7 +966,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [daybrush/css-to-mat](https://github.com/daybrush/css-to-mat) | 8 | 2023-06-19T13:58:12Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [asjadnaqvi/stata-delaunay-voronoi](https://github.com/asjadnaqvi/stata-delaunay-voronoi) | 6 | 2023-06-19T08:26:25Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [mozilla/nss-gk-api](https://github.com/mozilla/nss-gk-api) | 3 | 2023-06-14T20:17:41Z | Rust | Service/API | 0 | 0 | 0 | 0 |
-| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 7 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
+| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 8 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
 | [felipeffm/statistical-rethinking-resolutions](https://github.com/felipeffm/statistical-rethinking-resolutions) | 1 | 2023-06-14T10:39:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [CameLLM/CameLLM-Plugin-Harness](https://github.com/CameLLM/CameLLM-Plugin-Harness) | 3 | 2023-06-08T22:46:51Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [CameLLM/CameLLM-Common](https://github.com/CameLLM/CameLLM-Common) | 2 | 2023-06-08T22:46:41Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
@@ -1583,6 +1583,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qliu24/udapart](https://github.com/qliu24/udapart) | 8 | 2023-08-07T22:03:30Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jupyterlab/vscode-config-template](https://github.com/jupyterlab/vscode-config-template) | 8 | 2023-07-11T13:47:52Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [daybrush/css-to-mat](https://github.com/daybrush/css-to-mat) | 8 | 2023-06-19T13:58:12Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
+| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 8 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
 | [OpenBMB/General-Model-License](https://github.com/OpenBMB/General-Model-License) | 8 | 2023-05-27T02:03:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [catai9/Cancer-Net-BCa](https://github.com/catai9/Cancer-Net-BCa) | 8 | 2023-04-13T03:09:15Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [Deep-Symmetry/ola-clojure](https://github.com/Deep-Symmetry/ola-clojure) | 8 | 2023-03-12T17:52:16Z | Other | CLI | 2 | 0 | 2 | 2 |
@@ -1703,7 +1704,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coconut2015/cookjson](https://github.com/coconut2015/cookjson) | 7 | 2023-08-11T03:12:28Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [darcythomas/zxcvbn.net](https://github.com/darcythomas/zxcvbn.net) | 7 | 2023-08-08T01:06:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [milly/runtray-ps](https://github.com/Milly/runtray-ps) | 7 | 2023-07-19T14:39:24Z | Other | CLI | 3 | 2 | 3 | 3 |
-| [KyberNetwork/dao_sc](https://github.com/KyberNetwork/dao_sc) | 7 | 2023-06-14T15:24:27Z | JavaScript | Unknown | 0 | 40 | 0 | 0 |
 | [JuliaStrings/LibTeXPrintf.jl](https://github.com/JuliaStrings/LibTeXPrintf.jl) | 7 | 2023-06-08T05:24:40Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [Razenpok/CSharpFunctionalExtensions.UniTask](https://github.com/Razenpok/CSharpFunctionalExtensions.UniTask) | 7 | 2023-05-14T15:42:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [justfoxing/jfx_bridge](https://github.com/justfoxing/jfx_bridge) | 7 | 2023-03-26T10:09:29Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |

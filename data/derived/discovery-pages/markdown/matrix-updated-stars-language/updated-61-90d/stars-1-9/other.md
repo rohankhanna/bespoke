@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 76
-- components: 115
-- concepts: 77
-- observations: 77
+- repos: 31
+- terms: 80
+- components: 126
+- concepts: 81
+- observations: 81
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
+| [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [dylibso/xtp-go-bindgen](https://github.com/dylibso/xtp-go-bindgen) | 3 | 2026-03-29T12:28:20Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [dylibso/xtp-csharp-bindgen](https://github.com/dylibso/xtp-csharp-bindgen) | 2 | 2026-03-29T11:39:13Z | Other | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [dylibso/xtp-python-bindgen](https://github.com/dylibso/xtp-python-bindgen) | 1 | 2026-03-29T11:00:11Z | Other | Infrastructure/tooling | 2 | 14 | 2 | 2 |
@@ -60,6 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [elixir-makeup/makeup_syntect](https://github.com/elixir-makeup/makeup_syntect) | 9 | 2026-03-30T15:26:06Z | Other | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [PyThaiNLP/pythainlp-corpus](https://github.com/PyThaiNLP/pythainlp-corpus) | 9 | 2026-03-14T05:43:38Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [DanielSmith1239/KosherSwift](https://github.com/DanielSmith1239/KosherSwift) | 8 | 2026-03-22T18:06:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [nikitabobko/homebrew-tap](https://github.com/nikitabobko/homebrew-tap) | 8 | 2026-03-08T23:58:00Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -71,6 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gmberton/gmberton.github.io](https://github.com/gmberton/gmberton.github.io) | 5 | 2026-03-27T06:24:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/compact-import-section](https://github.com/WebAssembly/compact-import-section) | 5 | 2026-03-25T17:41:00Z | Other | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [SWE-bench/SWE-smith-envs](https://github.com/SWE-bench/SWE-smith-envs) | 5 | 2026-03-02T04:49:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [rocq-community/docker-base](https://github.com/rocq-community/docker-base) | 4 | 2026-03-30T14:25:20Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [mpizenberg/elm-test-runner](https://github.com/mpizenberg/elm-test-runner) | 4 | 2026-03-28T15:50:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vovkos/doxyrest_b](https://github.com/vovkos/doxyrest_b) | 4 | 2026-03-27T07:29:22Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ptsochantaris/trailer-json](https://github.com/ptsochantaris/trailer-json) | 4 | 2026-03-23T19:11:04Z | Other | Unknown | 4 | 0 | 5 | 5 |

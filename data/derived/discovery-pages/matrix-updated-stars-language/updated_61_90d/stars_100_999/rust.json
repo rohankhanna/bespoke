@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 151,
-    "observations": 155,
-    "repos": 37,
-    "terms": 150
+    "components": 243,
+    "concepts": 162,
+    "observations": 166,
+    "repos": 39,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
     "bet4it/udbserver",
-    "blyxxyz/lexopt",
     "cedar-policy/cedar-examples",
     "dfrg/swash",
     "DoumanAsh/xxhash-rust",
@@ -33,6 +32,7 @@
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
+    "hsivonen/chardetng",
     "IWANABETHATGUY/tower-lsp-boilerplate",
     "Kampfkarren/selene",
     "lambdaclass/lambdaworks",
@@ -46,8 +46,10 @@
     "prisma/tiberius",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
+    "rust-nvml/nvml-wrapper",
     "rust3ds/ctru-rs",
     "servo/rust-cssparser",
+    "sparsemat/sprs",
     "SunDoge/simdjson-rust",
     "typst/comemo",
     "YaLTeR/wl-clipboard-rs"

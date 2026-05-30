@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 807,
-    "concepts": 534,
-    "observations": 536,
-    "repos": 142,
-    "terms": 531
+    "components": 827,
+    "concepts": 557,
+    "observations": 559,
+    "repos": 145,
+    "terms": 554
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-05-30T05:48:31.058447+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
     "agrafix/elm-bridge",
-    "ahyatt/emacs-websocket",
     "ajevans99/swift-json-schema",
     "akabe/ocaml-jupyter",
     "alcohol/iso3166",
@@ -26,6 +25,7 @@
     "AudioKit/Cookbook",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "aws/homebrew-tap",
     "Azure-Samples/azureai-samples",
     "Azure/appservice-landing-zone-accelerator",
     "babashka/cli",
@@ -40,6 +40,7 @@
     "caro401/royal-velvet",
     "ChenyunWu/PhraseCutDataset",
     "chiron-fonts/chiron-hei-hk",
+    "chomosuke/typst-preview.nvim",
     "cjohansen/replicant",
     "claytonfarr/ralph-playbook",
     "clojure-emacs/clojure-mode",
@@ -86,8 +87,7 @@
     "iftheshoefritz/solargraph-rails",
     "IST-DASLab/Quartet",
     "JetBrains/gradle-changelog-plugin",
-    "joshuaulrich/TTR",
-    "joshuaulrich/xts",
+    "JuliaInterop/Clang.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
     "JuliaQuant/MarketData.jl",
@@ -128,9 +128,12 @@
     "purcell/envrc",
     "pybind/pybind11_bazel",
     "queryverse/Query.jl",
+    "RDFLib/OWL-RL",
     "rejemy/UltraLiteDB",
+    "rubocop/rubocop-ast",
     "RubyMoney/eu_central_bank",
     "sandrohanea/whisper.net",
+    "SciML/ColPrac",
     "scssphp/scssphp",
     "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",

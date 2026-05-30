@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 95
-- components: 211
-- concepts: 93
-- observations: 94
+- repos: 38
+- terms: 134
+- components: 255
+- concepts: 132
+- observations: 133
 
 ## Static behavior
 
@@ -26,6 +26,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hecrj/llama-server](https://github.com/hecrj/llama-server) | 4 | 2026-04-30T01:53:46Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [ldclabs/ic-cose](https://github.com/ldclabs/ic-cose) | 8 | 2026-04-30T00:26:42Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [flathub-infra/flat-manager-hooks](https://github.com/flathub-infra/flat-manager-hooks) | 5 | 2026-04-29T19:41:41Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [sp1-patches/RustCrypto-hashes](https://github.com/sp1-patches/RustCrypto-hashes) | 1 | 2026-04-29T17:36:14Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [dcampbell24/djot-implementations](https://github.com/dcampbell24/djot-implementations) | 5 | 2026-04-29T17:24:51Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [Hiroshiba/voicevox_core](https://github.com/Hiroshiba/voicevox_core) | 7 | 2026-04-29T17:06:23Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [snowflakedb/universal-driver](https://github.com/snowflakedb/universal-driver) | 9 | 2026-04-29T16:53:55Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [Dicklesworthstone/franken_agent_detection](https://github.com/Dicklesworthstone/franken_agent_detection) | 8 | 2026-04-29T15:45:54Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [typst/typst-dev-assets](https://github.com/typst/typst-dev-assets) | 7 | 2026-04-29T13:28:00Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [black-desk/djotfmt](https://github.com/black-desk/djotfmt) | 7 | 2026-04-29T07:30:40Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [bourumir-wyngs/saphyr](https://github.com/bourumir-wyngs/saphyr) | 1 | 2026-04-28T20:28:27Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [vercel-labs/mdxjs-rs-turbopack](https://github.com/vercel-labs/mdxjs-rs-turbopack) | 3 | 2026-04-28T17:22:34Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -55,29 +64,33 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dnvt/burn-speech-training](https://github.com/dnvt/burn-speech-training) | 5 | 2026-04-04T20:45:04Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [DioxusLabs/stork](https://github.com/DioxusLabs/stork) | 3 | 2026-04-02T22:47:47Z | Rust | Infrastructure/tooling | 3 | 38 | 3 | 3 |
 | [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [databendlabs/display-more](https://github.com/databendlabs/display-more) | 1 | 2026-03-30T16:50:17Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [hsivonen/chardetng_c](https://github.com/hsivonen/chardetng_c) | 2 | 2026-03-30T12:23:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [snowflakedb/universal-driver](https://github.com/snowflakedb/universal-driver) | 9 | 2026-04-29T16:53:55Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [EspressoSystems/espresso-example-l2](https://github.com/EspressoSystems/espresso-example-l2) | 9 | 2026-04-19T00:19:35Z | Rust | Infrastructure/tooling | 5 | 15 | 5 | 5 |
+| [ldclabs/ic-cose](https://github.com/ldclabs/ic-cose) | 8 | 2026-04-30T00:26:42Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [Dicklesworthstone/franken_agent_detection](https://github.com/Dicklesworthstone/franken_agent_detection) | 8 | 2026-04-29T15:45:54Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [heroku/buildpacks-deb-packages](https://github.com/heroku/buildpacks-deb-packages) | 8 | 2026-04-28T15:26:47Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [image-rs/image-extras](https://github.com/image-rs/image-extras) | 8 | 2026-04-27T18:58:32Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [juharris/optify](https://github.com/juharris/optify) | 8 | 2026-04-24T21:16:46Z | Rust | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [foundry-rs/foundry-core](https://github.com/foundry-rs/foundry-core) | 8 | 2026-04-22T12:45:09Z | Rust | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [netdur/hugind](https://github.com/netdur/hugind) | 8 | 2026-04-13T16:57:52Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [Hiroshiba/voicevox_core](https://github.com/Hiroshiba/voicevox_core) | 7 | 2026-04-29T17:06:23Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 8 |
+| [typst/typst-dev-assets](https://github.com/typst/typst-dev-assets) | 7 | 2026-04-29T13:28:00Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [black-desk/djotfmt](https://github.com/black-desk/djotfmt) | 7 | 2026-04-29T07:30:40Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [eth-act/ere-guests](https://github.com/eth-act/ere-guests) | 7 | 2026-04-24T01:11:43Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [Layr-Labs/hokulea](https://github.com/Layr-Labs/hokulea) | 7 | 2026-04-16T16:28:46Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [oxc-project/oxc-index-vec](https://github.com/oxc-project/oxc-index-vec) | 6 | 2026-04-27T19:03:09Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | 6 | 2026-04-19T09:37:31Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |
+| [flathub-infra/flat-manager-hooks](https://github.com/flathub-infra/flat-manager-hooks) | 5 | 2026-04-29T19:41:41Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [dcampbell24/djot-implementations](https://github.com/dcampbell24/djot-implementations) | 5 | 2026-04-29T17:24:51Z | Rust | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [EspressoSystems/tide-disco](https://github.com/EspressoSystems/tide-disco) | 5 | 2026-04-26T00:47:16Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [dnvt/burn-speech-training](https://github.com/dnvt/burn-speech-training) | 5 | 2026-04-04T20:45:04Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [hecrj/llama-server](https://github.com/hecrj/llama-server) | 4 | 2026-04-30T01:53:46Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [facebookexperimental/cxx](https://github.com/facebookexperimental/cxx) | 4 | 2026-04-23T17:57:37Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tremby/snapmixer](https://github.com/tremby/snapmixer) | 4 | 2026-04-23T02:15:40Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [agent-sh/agent-analyzer](https://github.com/agent-sh/agent-analyzer) | 4 | 2026-04-14T23:27:20Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 10 |
@@ -86,7 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [curiousdannii/remglk-rs](https://github.com/curiousdannii/remglk-rs) | 2 | 2026-04-24T02:09:24Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [kensave/agent-memory-rs](https://github.com/kensave/agent-memory-rs) | 2 | 2026-04-17T19:30:34Z | Rust | CLI | 0 | 3 | 0 | 0 |
 | [marin-community/kitoken](https://github.com/marin-community/kitoken) | 2 | 2026-04-06T18:27:33Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
-| [hsivonen/chardetng_c](https://github.com/hsivonen/chardetng_c) | 2 | 2026-03-30T12:23:58Z | Rust | Service/API | 0 | 0 | 0 | 0 |
+| [sp1-patches/RustCrypto-hashes](https://github.com/sp1-patches/RustCrypto-hashes) | 1 | 2026-04-29T17:36:14Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [bourumir-wyngs/saphyr](https://github.com/bourumir-wyngs/saphyr) | 1 | 2026-04-28T20:28:27Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [bnb-chain/reth-bsc-triedb](https://github.com/bnb-chain/reth-bsc-triedb) | 1 | 2026-04-28T08:00:38Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [huggingface/fuser](https://github.com/huggingface/fuser) | 1 | 2026-04-25T12:44:42Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 2 |
@@ -94,4 +107,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pkgxdev/bpb](https://github.com/pkgxdev/bpb) | 1 | 2026-04-14T02:21:34Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [urschrei/polyline-ffi](https://github.com/urschrei/polyline-ffi) | 1 | 2026-04-13T11:05:10Z | Rust | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [yhirose/docs-gen](https://github.com/yhirose/docs-gen) | 1 | 2026-04-13T00:00:40Z | Rust | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [databendlabs/display-more](https://github.com/databendlabs/display-more) | 1 | 2026-03-30T16:50:17Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-29T08:49:15.383611+00:00`
+Generated at: `2026-05-30T05:48:31.058447+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 158
-- components: 691
-- concepts: 159
-- observations: 159
+- repos: 30
+- terms: 159
+- components: 705
+- concepts: 160
+- observations: 160
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5964 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
+| [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [anvaka/panzoom](https://github.com/anvaka/panzoom) | 1971 | 2026-03-30T00:07:56Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [dooy/chatgpt-web-midjourney-proxy](https://github.com/Dooy/chatgpt-web-midjourney-proxy) | 6655 | 2026-03-28T11:40:44Z | JavaScript | Infrastructure/tooling | 18 | 62 | 18 | 18 |
 | [GoogleChrome/lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci) | 6945 | 2026-03-27T19:57:30Z | JavaScript | Infrastructure/tooling | 2 | 64 | 2 | 2 |
@@ -63,10 +66,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [styled-components/polished](https://github.com/styled-components/polished) | 7659 | 2026-03-26T23:06:08Z | JavaScript | Infrastructure/tooling | 7 | 45 | 7 | 7 |
 | [GoogleChrome/lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci) | 6945 | 2026-03-27T19:57:30Z | JavaScript | Infrastructure/tooling | 2 | 64 | 2 | 2 |
 | [dooy/chatgpt-web-midjourney-proxy](https://github.com/Dooy/chatgpt-web-midjourney-proxy) | 6655 | 2026-03-28T11:40:44Z | JavaScript | Infrastructure/tooling | 18 | 62 | 18 | 18 |
+| [microsoft/vscode-recipes](https://github.com/microsoft/vscode-recipes) | 5964 | 2026-03-30T18:43:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [kangax/html-minifier](https://github.com/kangax/html-minifier) | 5058 | 2026-03-26T11:35:43Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [babel/babel-loader](https://github.com/babel/babel-loader) | 4840 | 2026-03-25T22:10:23Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 | [webpack/mini-css-extract-plugin](https://github.com/webpack/mini-css-extract-plugin) | 4662 | 2026-03-26T12:25:31Z | JavaScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [rollup/plugins](https://github.com/rollup/plugins) | 3753 | 2026-03-12T15:49:55Z | JavaScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
+| [isaacs/minimatch](https://github.com/isaacs/minimatch) | 3500 | 2026-03-30T18:11:46Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [paralleldrive/cuid2](https://github.com/paralleldrive/cuid2) | 3343 | 2026-03-04T21:32:47Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
 | [nksaraf/vinxi](https://github.com/nksaraf/vinxi) | 2784 | 2026-03-21T06:47:01Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 | [engineer-man/piston](https://github.com/engineer-man/piston) | 2670 | 2026-03-26T20:36:13Z | JavaScript | Infrastructure/tooling | 7 | 8 | 8 | 8 |
@@ -84,4 +89,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anandthakker/doiuse](https://github.com/anandthakker/doiuse) | 1304 | 2026-03-10T23:46:29Z | JavaScript | Infrastructure/tooling | 2 | 33 | 2 | 2 |
 | [mrsteele/dotenv-webpack](https://github.com/mrsteele/dotenv-webpack) | 1298 | 2026-03-07T23:31:17Z | JavaScript | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [treosh/lighthouse-ci-action](https://github.com/treosh/lighthouse-ci-action) | 1274 | 2026-03-12T09:26:09Z | JavaScript | Infrastructure/tooling | 9 | 14 | 9 | 9 |
+| [ethereum/devp2p](https://github.com/ethereum/devp2p) | 1114 | 2026-03-30T13:14:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [Adobe-CEP/Samples](https://github.com/Adobe-CEP/Samples) | 1076 | 2026-03-24T16:09:31Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
