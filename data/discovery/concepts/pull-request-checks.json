@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pull Request Checks"
+    "Pull Request Checks",
+    "Pull-Request Checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "OutlineFoundation/outline-apps",
       "status": "candidate-context",
       "text": "Pull Request Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Pull-Request Checks"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "OutlineFoundation/outline-apps",
       "status": "candidate",
       "text": "Pull Request Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate",
+      "text": "Pull-Request Checks"
     }
   ],
   "candidate_related_terms": [
@@ -100,6 +119,41 @@
       "score": 18367,
       "status": "candidate",
       "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "balances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_synonyms": [],
@@ -130,11 +184,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/pull_request_checks.yml",
       "source_repo": "OutlineFoundation/outline-apps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

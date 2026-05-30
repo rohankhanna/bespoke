@@ -1224,15 +1224,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:09:36.985580+00:00",
+  "fetched_at": "2026-05-30T02:16:33.515409+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 3297
+      "size": 3451
     },
     {
       "path": "pyproject.toml",
-      "size": 8936
+      "size": 9022
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -1276,8 +1276,8 @@
     "full_name": "pydantic/pydantic",
     "html_url": "https://github.com/pydantic/pydantic",
     "language": "Python",
-    "pushed_at": "2026-05-25T07:15:16Z",
-    "stargazers_count": 27832,
+    "pushed_at": "2026-05-29T16:58:13Z",
+    "stargazers_count": 27879,
     "topics": [
       "hints",
       "json-schema",
@@ -1291,7 +1291,7 @@
       "python39",
       "validation"
     ],
-    "updated_at": "2026-05-26T17:37:51Z"
+    "updated_at": "2026-05-30T02:07:42Z"
   },
   "repo_links": [],
   "terms": [

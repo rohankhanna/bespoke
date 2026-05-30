@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agent-scan.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -193,7 +193,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -202,20 +202,6 @@
       "source_repo": "storybookjs/storybook",
       "target": "Copilot Setup Steps",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cron-weekly.yml",
-      "source_repo": "storybookjs/storybook",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cron-weekly.yml",
-      "source_repo": "storybookjs/storybook",
-      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
-      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -285,6 +271,20 @@
       "source_file": ".github/workflows/duplicate-code-detector.md",
       "source_repo": "storybookjs/storybook",
       "target": "Duplicate Code Detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-checks.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-checks.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "Fork checks",
       "target_type": "term"
     },
     {
@@ -400,6 +400,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T00:44:22.415230+00:00",
   "source_repo": "storybookjs/storybook"
 }

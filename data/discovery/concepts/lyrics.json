@@ -19,6 +19,18 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiyiYo/Groove",
+      "status": "candidate-context",
+      "text": "A cross-platform music player based on PyQt5, supports Win32, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/Groove",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "zh-plus/openlrc",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/openlrc)](https://pypi.org/project/openlrc/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/Groove",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,23 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": null,
       "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "zh-plus/openlrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove"
     }
   ],
   "first_seen_at": "2026-05-22T18:43:38.426013+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

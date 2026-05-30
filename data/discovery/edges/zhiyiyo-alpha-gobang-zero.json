@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "alphazero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "gobang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "source_repo": "zhiyiYo/Alpha-Gobang-Zero"
+}

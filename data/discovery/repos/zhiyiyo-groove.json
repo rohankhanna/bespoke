@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyiYo/Groove",
+      "target": "nevcairiel/lavfilters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyiYo/Groove",
+      "target": "zhiyiyo/pyqt-frameless-window",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhiyiYo/Groove",
+      "target": "jsmolka/egg-player",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "desktop-lyric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "local-music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "lyrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "music-player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "online-music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "online-mv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "pyqt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Groove",
+      "target": "song-metadata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-30T02:08:16.229251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2523
+    },
+    {
+      "path": "requirements.txt",
+      "size": 493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform music player based on PyQt5, supports Win32, Linux and macOS.",
+    "fork": false,
+    "full_name": "zhiyiYo/Groove",
+    "html_url": "https://github.com/zhiyiYo/Groove",
+    "language": "Python",
+    "pushed_at": "2026-05-05T07:16:55Z",
+    "stargazers_count": 646,
+    "topics": [
+      "desktop-lyric",
+      "local-music",
+      "lyrics",
+      "music-player",
+      "online-music",
+      "online-mv",
+      "pyqt",
+      "python",
+      "qt",
+      "song-metadata"
+    ],
+    "updated_at": "2026-05-27T08:16:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsmolka/egg-player",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nevcairiel/lavfilters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiyiyo/pyqt-frameless-window",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-lyric"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-music"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lyrics"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-player"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "online-music"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "online-mv"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "song-metadata"
+    }
+  ]
+}

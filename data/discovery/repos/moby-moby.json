@@ -734,7 +734,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:12:03.524509+00:00",
+  "fetched_at": "2026-05-30T02:19:50.375738+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -766,7 +766,7 @@
     },
     {
       "path": ".github/workflows/.windows.yml",
-      "size": 24065
+      "size": 25031
     },
     {
       "path": ".github/workflows/arm64.yml",
@@ -786,15 +786,15 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-05-26T15:19:01Z",
-    "stargazers_count": 71600,
+    "pushed_at": "2026-05-29T11:01:58Z",
+    "stargazers_count": 71604,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-26T17:08:23Z"
+    "updated_at": "2026-05-29T19:15:33Z"
   },
   "repo_links": [
     {

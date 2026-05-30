@@ -755,13 +755,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "anthropic-claude",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
       "target": "autonomous-agents",
       "target_type": "term"
     },
@@ -777,13 +770,6 @@
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
       "target": "mcp-server",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
-      "target": "model-context-protocol",
       "target_type": "term"
     },
     {
@@ -822,15 +808,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:59:08.850264+00:00",
+  "fetched_at": "2026-05-30T01:10:19.246365+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 28221
+      "size": 28523
     },
     {
       "path": "package.json",
-      "size": 4731
+      "size": 4766
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -874,31 +860,31 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-26T12:48:34Z",
-    "stargazers_count": 55398,
+    "pushed_at": "2026-05-30T00:15:30Z",
+    "stargazers_count": 56416,
     "topics": [
       "agentic-ai",
       "agentic-framework",
       "agentic-rag",
       "agentic-workflow",
       "agents",
-      "ai-agent",
+      "ai-agents",
       "ai-assistant",
       "ai-coding",
       "ai-skills",
-      "anthropic-claude",
       "autonomous-agents",
       "claude-code",
       "codex",
       "mcp-server",
-      "model-context-protocol",
       "multi-agent",
       "multi-agent-systems",
+      "npm",
       "skills",
       "swarm",
-      "swarm-intelligence"
+      "swarm-intelligence",
+      "typescript"
     ],
-    "updated_at": "2026-05-26T19:59:04Z"
+    "updated_at": "2026-05-30T01:03:03Z"
   },
   "repo_links": [
     {
@@ -1001,12 +987,6 @@
       "context_snippet": "<div align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "anthropic-claude"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
       "term": "autonomous-agents"
     },
     {
@@ -1020,12 +1000,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "mcp-server"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "model-context-protocol"
     },
     {
       "context_snippet": "<div align=\"center\">",

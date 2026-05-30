@@ -1501,6 +1501,18 @@
       "source_repo": "SYSTRAN/faster-whisper",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate-context",
+      "text": "Translate manga/image \u4e00\u952e\u7ffb\u8bd1\u5404\u7c7b\u56fe\u7247\u5185\u6587\u5b57 https://cotrans.touhou.ai/ (no longer working)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate-context",
+      "text": "Last Updated: 2025/05/10"
     }
   ],
   "candidate_glosses": [
@@ -2253,6 +2265,12 @@
       "source_repo": "SYSTRAN/faster-whisper",
       "status": "candidate",
       "text": "[![CI](https://github.com/SYSTRAN/faster-whisper/workflows/CI/badge.svg)](https://github.com/SYSTRAN/faster-whisper/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/faster-whisper.svg)](https://badge.fury.io/py/faster-whisper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate",
+      "text": "Last Updated: 2025/05/10"
     }
   ],
   "candidate_related_terms": [
@@ -7174,11 +7192,77 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": null,
       "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "SYSTRAN/faster-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

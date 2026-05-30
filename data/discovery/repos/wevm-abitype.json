@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/changesets.yml"
     },
     {
-      "component": "wevm/actions/.github/actions/pnpm@f7ad7f00e16e73322562922c241f21f0c7ffbbec",
+      "component": "wevm/actions/.github/actions/pnpm@f95dc1dadcba18fe3f02b8205e653e98e4a93516",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changesets.yml"
     },
@@ -111,7 +111,22 @@
       "source_file": ".github/workflows/changesets.yml"
     },
     {
-      "component": "wevm/actions/.github/actions/pnpm@f7ad7f00e16e73322562922c241f21f0c7ffbbec",
+      "component": "wevm/actions/.github/actions/pnpm@f95dc1dadcba18fe3f02b8205e653e98e4a93516",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changesets.yml"
+    },
+    {
+      "component": "changesets/action@c48e67d110a68bc90ccf1098e9646092baacaa87",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changesets.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changesets.yml"
+    },
+    {
+      "component": "wevm/actions/.github/actions/pnpm@f95dc1dadcba18fe3f02b8205e653e98e4a93516",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changesets.yml"
     },
@@ -344,7 +359,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changesets.yml",
       "source_repo": "wevm/abitype",
-      "target": "wevm/actions/.github/actions/pnpm@f7ad7f00e16e73322562922c241f21f0c7ffbbec",
+      "target": "wevm/actions/.github/actions/pnpm@f95dc1dadcba18fe3f02b8205e653e98e4a93516",
       "target_type": "component"
     },
     {
@@ -481,7 +496,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T15:00:01.394026+00:00",
+  "fetched_at": "2026-05-30T01:59:59.259033+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -497,7 +512,7 @@
     },
     {
       "path": ".github/workflows/changesets.yml",
-      "size": 2448
+      "size": 3825
     },
     {
       "path": ".github/workflows/issue-labeled.yml",
@@ -513,7 +528,7 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "size": 2477
+      "size": 2485
     }
   ],
   "related_repositories": [],
@@ -525,7 +540,7 @@
     "full_name": "wevm/abitype",
     "html_url": "https://github.com/wevm/abitype",
     "language": "TypeScript",
-    "pushed_at": "2026-05-03T19:33:47Z",
+    "pushed_at": "2026-05-27T05:18:44Z",
     "stargazers_count": 544,
     "topics": [
       "abi",
@@ -536,7 +551,7 @@
       "typescript",
       "web3"
     ],
-    "updated_at": "2026-05-06T06:04:10Z"
+    "updated_at": "2026-05-27T05:18:47Z"
   },
   "repo_links": [],
   "terms": [

@@ -84,7 +84,7 @@
   "normalized_form": "test-remote-runtime",
   "observation_id": "f6dab24cf3bea6b6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T18:56:15.123228+00:00",
+  "observed_at": "2026-05-30T00:44:22.415230+00:00",
   "observed_text": "Test remote runtime",
   "source_context_snippet": "Test remote runtime",
   "source_file": ".github/workflows/test-remote-runtime.yml",

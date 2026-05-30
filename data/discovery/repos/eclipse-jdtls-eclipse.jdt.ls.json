@@ -26,6 +26,31 @@
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "jbangdev/setup-jbang@312c53a4221283f9c8e4aa84d8261b82f0c680fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
       "component": "wow-actions/potential-duplicates@4d4ea0352e0383859279938e255179dd1dbb67b5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/duplicate-issues-detector.yaml"
@@ -114,6 +139,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "target": "jbangdev/setup-jbang@312c53a4221283f9c8e4aa84d8261b82f0c680fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "target": "Pull-Request Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/duplicate-issues-detector.yaml",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
       "target": "wow-actions/potential-duplicates@4d4ea0352e0383859279938e255179dd1dbb67b5",
@@ -176,7 +236,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:12:34.566107+00:00",
+  "fetched_at": "2026-05-30T01:50:26.303288+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,7 +244,11 @@
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
-      "size": 3147
+      "size": 3145
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yaml",
+      "size": 2454
     },
     {
       "path": ".github/workflows/duplicate-issues-detector.yaml",
@@ -208,14 +272,14 @@
     "full_name": "eclipse-jdtls/eclipse.jdt.ls",
     "html_url": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
     "language": "Java",
-    "pushed_at": "2026-05-26T09:01:50Z",
-    "stargazers_count": 2351,
+    "pushed_at": "2026-05-29T22:31:00Z",
+    "stargazers_count": 2352,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-05-26T11:35:57Z"
+    "updated_at": "2026-05-29T18:40:34Z"
   },
   "repo_links": [
     {
@@ -245,6 +309,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Pull-Request Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "term": "Pull-Request Checks"
     },
     {
       "context_snippet": "Potential Duplicate Issues",

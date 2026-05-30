@@ -41,17 +41,17 @@
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
     {
-      "component": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
     {
-      "component": "github/codeql-action/autobuild@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/autobuild@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
     {
-      "component": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
@@ -61,12 +61,12 @@
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
     {
-      "component": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
     {
-      "component": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "component": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml"
     },
@@ -185,21 +185,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "github/codeql-action/autobuild@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/autobuild@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -266,7 +266,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:15:40.379925+00:00",
+  "fetched_at": "2026-05-30T00:51:08.444183+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -274,7 +274,7 @@
     },
     {
       "path": "go.mod",
-      "size": 6940
+      "size": 6938
     },
     {
       "path": ".github/workflows/approval-comment.yaml",
@@ -318,10 +318,10 @@
     "full_name": "aws/karpenter-provider-aws",
     "html_url": "https://github.com/aws/karpenter-provider-aws",
     "language": "Go",
-    "pushed_at": "2026-05-25T14:11:24Z",
-    "stargazers_count": 7635,
+    "pushed_at": "2026-05-29T21:51:41Z",
+    "stargazers_count": 7639,
     "topics": [],
-    "updated_at": "2026-05-26T13:40:50Z"
+    "updated_at": "2026-05-29T21:51:57Z"
   },
   "repo_links": [
     {

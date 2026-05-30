@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Common Functional Tests - Heterogeneous Training"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "FlagScale is a large model toolkit based on open-sourced projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "Common Functional Tests - Heterogeneous Training"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate",
+      "text": "Common Functional Tests - Heterogeneous Training"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43442,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37144,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33890,
+      "status": "candidate",
+      "text": "conglomerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31044,
+      "status": "candidate",
+      "text": "turned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30844,
+      "status": "candidate",
+      "text": "part"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Common Functional Tests - Heterogeneous Training",
+  "concept_id": "common-functional-tests---heterogeneous-training",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    }
+  ],
+  "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common Functional Tests - Heterogeneous Training",
+      "sense_id": "common-functional-tests---heterogeneous-training#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

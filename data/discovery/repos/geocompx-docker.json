@@ -134,11 +134,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:08:45.264993+00:00",
+  "fetched_at": "2026-05-30T01:22:26.807288+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 12575
+      "size": 12923
     },
     {
       "path": "Dockerfile",
@@ -150,7 +150,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 3164
+      "size": 3155
     }
   ],
   "related_repositories": [],
@@ -162,13 +162,13 @@
     "full_name": "geocompx/docker",
     "html_url": "https://github.com/geocompx/docker",
     "language": "Dockerfile",
-    "pushed_at": "2026-05-11T14:49:51Z",
+    "pushed_at": "2026-05-29T16:21:14Z",
     "stargazers_count": 47,
     "topics": [
       "docker",
       "docker-image"
     ],
-    "updated_at": "2026-05-11T15:00:54Z"
+    "updated_at": "2026-05-29T16:21:19Z"
   },
   "repo_links": [
     {

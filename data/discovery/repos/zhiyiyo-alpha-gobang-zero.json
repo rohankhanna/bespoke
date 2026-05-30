@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "alphazero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "gobang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "pyqt5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-30T02:08:12.922436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2999
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A gobang robot based on reinforcement learning.",
+    "fork": false,
+    "full_name": "zhiyiYo/Alpha-Gobang-Zero",
+    "html_url": "https://github.com/zhiyiYo/Alpha-Gobang-Zero",
+    "language": "Python",
+    "pushed_at": "2023-03-28T03:38:52Z",
+    "stargazers_count": 168,
+    "topics": [
+      "alphazero",
+      "gobang",
+      "pyqt5",
+      "pytorch",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-05-22T05:52:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphazero"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gobang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt5"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

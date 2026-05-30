@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:17:50.021537+00:00",
+  "fetched_at": "2026-05-30T02:27:38.796635+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,14 +58,14 @@
     "html_url": "https://github.com/megvii-research/MOTR",
     "language": "Python",
     "pushed_at": "2024-01-15T07:10:16Z",
-    "stargazers_count": 801,
+    "stargazers_count": 802,
     "topics": [
       "end-to-end",
       "multi-object-tracking",
       "pytorch",
       "transformer"
     ],
-    "updated_at": "2026-05-26T06:16:05Z"
+    "updated_at": "2026-05-27T09:46:01Z"
   },
   "repo_links": [
     {

@@ -355,6 +355,18 @@
       "source_repo": "mikel-brostrom/boxmot",
       "status": "candidate-context",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhj5426/YSG",
+      "status": "candidate-context",
+      "text": "\u91c7\u96c6E\u7ad9\u6570\u5343\u753b\u5eca\u6570\u5341\u4e07\u9875 \u4f7f\u7528 [\u6709\u6f0f\u5582] \u5404\u79cd\u6f0f  \u3010YOLO\u3011\u53ca\u5176\u4e4b\u540e\u7248\u672c \u4ee5\u53ca \u3010RFDETR\u3011 \u7b49\u5404\u79cddetr \u540e\u7eed\u53d8\u79cd\u7248\u672c \u8bad\u7ec3\u7684\u6587\u5b57\u76ee\u6807\u68c0\u6d4b\u6a21\u578b "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhj5426/YSG",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "mikel-brostrom/boxmot",
       "status": "candidate",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhj5426/YSG",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -1468,11 +1486,29 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "lhj5426/YSG"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

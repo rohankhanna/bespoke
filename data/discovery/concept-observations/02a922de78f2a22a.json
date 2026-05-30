@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-npm",
   "observation_id": "02a922de78f2a22a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T18:56:15.123228+00:00",
+  "observed_at": "2026-05-30T00:44:22.415230+00:00",
   "observed_text": "Publish to npm",
   "source_context_snippet": "Publish to npm",
   "source_file": ".github/workflows/publish.yml",

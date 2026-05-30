@@ -8,20 +8,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_tests_common.yml",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "actions/cache@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_tests_common.yml",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/all_tests_common.yml",
       "source_repo": "flagos-ai/FlagScale",
@@ -95,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/functional_tests_benchmark.yml",
       "source_repo": "flagos-ai/FlagScale",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
@@ -118,8 +104,43 @@
       "source_repo": "flagos-ai/FlagScale",
       "target": "Common Functional Tests - Benchmark",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_cli.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_cli.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Common Functional Tests - CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Common Functional Tests - Heterogeneous Training",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T00:44:22.415230+00:00",
   "source_repo": "flagos-ai/FlagScale"
 }

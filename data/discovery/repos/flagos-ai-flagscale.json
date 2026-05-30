@@ -6,12 +6,12 @@
       "source_file": ".github/workflows/all_tests_common.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_tests_common.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_tests_common.yml"
     },
@@ -56,17 +56,17 @@
       "source_file": ".github/workflows/format_check.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/functional_tests_benchmark.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/functional_tests_benchmark.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/functional_tests_benchmark.yml"
     },
@@ -79,6 +79,41 @@
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/functional_tests_benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml"
     }
   ],
   "edges": [
@@ -87,20 +122,6 @@
       "source_file": ".github/workflows/all_tests_common.yml",
       "source_repo": "flagos-ai/FlagScale",
       "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_tests_common.yml",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "actions/cache@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_tests_common.yml",
-      "source_repo": "flagos-ai/FlagScale",
-      "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
     {
@@ -177,7 +198,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/functional_tests_benchmark.yml",
       "source_repo": "flagos-ai/FlagScale",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
@@ -200,9 +221,44 @@
       "source_repo": "flagos-ai/FlagScale",
       "target": "Common Functional Tests - Benchmark",
       "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_cli.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_cli.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Common Functional Tests - CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "source_repo": "flagos-ai/FlagScale",
+      "target": "Common Functional Tests - Heterogeneous Training",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:57:26.394589+00:00",
+  "fetched_at": "2026-05-30T01:07:56.602608+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -213,16 +269,12 @@
       "size": 2533
     },
     {
-      "path": ".github/workflows/all_tests_ascend.yml",
-      "size": 1145
+      "path": ".github/workflows/all_tests.yml",
+      "size": 4412
     },
     {
       "path": ".github/workflows/all_tests_common.yml",
-      "size": 15816
-    },
-    {
-      "path": ".github/workflows/all_tests_cuda.yml",
-      "size": 2988
+      "size": 16112
     },
     {
       "path": ".github/workflows/build_image_cuda.yml",
@@ -238,7 +290,15 @@
     },
     {
       "path": ".github/workflows/functional_tests_benchmark.yml",
-      "size": 11744
+      "size": 10975
+    },
+    {
+      "path": ".github/workflows/functional_tests_cli.yml",
+      "size": 8426
+    },
+    {
+      "path": ".github/workflows/functional_tests_hetero_train.yml",
+      "size": 7196
     }
   ],
   "related_repositories": [],
@@ -250,10 +310,10 @@
     "full_name": "flagos-ai/FlagScale",
     "html_url": "https://github.com/flagos-ai/FlagScale",
     "language": "Python",
-    "pushed_at": "2026-05-25T01:38:20Z",
+    "pushed_at": "2026-05-28T12:17:03Z",
     "stargazers_count": 517,
     "topics": [],
-    "updated_at": "2026-05-26T11:17:02Z"
+    "updated_at": "2026-05-28T12:17:08Z"
   },
   "repo_links": [],
   "terms": [
@@ -280,6 +340,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/functional_tests_benchmark.yml",
       "term": "Common Functional Tests - Benchmark"
+    },
+    {
+      "context_snippet": "Common Functional Tests - CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_cli.yml",
+      "term": "Common Functional Tests - CLI"
+    },
+    {
+      "context_snippet": "Common Functional Tests - Heterogeneous Training",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/functional_tests_hetero_train.yml",
+      "term": "Common Functional Tests - Heterogeneous Training"
     }
   ]
 }

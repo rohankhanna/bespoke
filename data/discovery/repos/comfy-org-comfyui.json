@@ -26,6 +26,11 @@
       "source_file": ".github/workflows/check-line-endings.yml"
     },
     {
+      "component": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml"
+    },
+    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/openapi-lint.yml"
@@ -126,6 +131,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Detect Unreviewed Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/openapi-lint.yml",
       "source_repo": "Comfy-Org/ComfyUI",
       "target": "actions/checkout@v4",
@@ -167,13 +186,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release-stable-all.yml",
-      "source_repo": "Comfy-Org/ComfyUI",
-      "target": "Release Stable All Portable Versions",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Comfy-Org/ComfyUI",
@@ -202,7 +214,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:25:22.227646+00:00",
+  "fetched_at": "2026-05-30T01:03:40.575968+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,16 +245,16 @@
       "size": 1235
     },
     {
+      "path": ".github/workflows/detect-unreviewed-merge.yml",
+      "size": 629
+    },
+    {
       "path": ".github/workflows/openapi-lint.yml",
       "size": 639
     },
     {
       "path": ".github/workflows/pullrequest-ci-run.yml",
       "size": 1937
-    },
-    {
-      "path": ".github/workflows/release-stable-all.yml",
-      "size": 1849
     }
   ],
   "related_repositories": [],
@@ -254,8 +266,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-26T13:07:20Z",
-    "stargazers_count": 114534,
+    "pushed_at": "2026-05-29T23:26:49Z",
+    "stargazers_count": 114923,
     "topics": [
       "ai",
       "comfy",
@@ -264,7 +276,7 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-26T18:59:39Z"
+    "updated_at": "2026-05-30T00:57:50Z"
   },
   "repo_links": [
     {
@@ -304,6 +316,12 @@
       "term": "Check for Windows Line Endings"
     },
     {
+      "context_snippet": "Detect Unreviewed Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "term": "Detect Unreviewed Merge"
+    },
+    {
       "context_snippet": "OpenAPI Lint",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/openapi-lint.yml",
@@ -314,12 +332,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pullrequest-ci-run.yml",
       "term": "Pull Request CI Workflow Runs"
-    },
-    {
-      "context_snippet": "\"Release Stable All Portable Versions\"",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release-stable-all.yml",
-      "term": "Release Stable All Portable Versions"
     },
     {
       "context_snippet": "<div align=\"center\">",

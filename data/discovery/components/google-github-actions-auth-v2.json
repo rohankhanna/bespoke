@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@v2",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

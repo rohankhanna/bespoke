@@ -167,6 +167,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gastownhall/gastown",
+      "target": "you/repo",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/block-internal-prs.yml",
       "source_repo": "gastownhall/gastown",
@@ -335,15 +342,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:26:22.708649+00:00",
+  "fetched_at": "2026-05-30T02:03:52.814990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 25530
+      "size": 25529
     },
     {
       "path": "Dockerfile",
-      "size": 1734
+      "size": 1767
     },
     {
       "path": "go.mod",
@@ -351,11 +358,11 @@
     },
     {
       "path": ".github/workflows/block-internal-prs.yml",
-      "size": 2292
+      "size": 1803
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 6510
+      "size": 6509
     },
     {
       "path": ".github/workflows/close-stale-needs.yml",
@@ -367,11 +374,11 @@
     },
     {
       "path": ".github/workflows/nightly-integration.yml",
-      "size": 1954
+      "size": 1953
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 9243
+      "size": 9263
     },
     {
       "path": ".github/workflows/remove-needs-info.yml",
@@ -387,10 +394,10 @@
     "full_name": "gastownhall/gastown",
     "html_url": "https://github.com/gastownhall/gastown",
     "language": "Go",
-    "pushed_at": "2026-05-26T20:24:44Z",
-    "stargazers_count": 15594,
+    "pushed_at": "2026-05-30T01:45:35Z",
+    "stargazers_count": 15661,
     "topics": [],
-    "updated_at": "2026-05-26T18:59:16Z"
+    "updated_at": "2026-05-29T23:26:42Z"
   },
   "repo_links": [
     {
@@ -401,6 +408,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "steveyegge/gastown",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "you/repo",
       "source_file": "README.md"
     }
   ],

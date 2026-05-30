@@ -51,6 +51,16 @@
       "source_file": ".github/workflows/cpu-torch-latest.yml"
     },
     {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-torch-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-torch-latest.yml"
+    },
+    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/formatting.yml"
@@ -183,6 +193,13 @@
       "source_file": ".github/workflows/cpu-torch-latest.yml",
       "source_repo": "deepspeedai/DeepSpeed",
       "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-torch-latest.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "dorny/paths-filter@v3",
       "target_type": "component"
     },
     {
@@ -347,7 +364,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:25:10.830215+00:00",
+  "fetched_at": "2026-05-30T01:03:24.789205+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -367,11 +384,11 @@
     },
     {
       "path": ".github/workflows/aws-torch-latest.yml",
-      "size": 3564
+      "size": 3742
     },
     {
       "path": ".github/workflows/cpu-torch-latest.yml",
-      "size": 7598
+      "size": 8551
     },
     {
       "path": ".github/workflows/formatting.yml",
@@ -387,7 +404,7 @@
     },
     {
       "path": ".github/workflows/modal-accelerate.yml",
-      "size": 3227
+      "size": 3263
     }
   ],
   "related_repositories": [],
@@ -399,8 +416,8 @@
     "full_name": "deepspeedai/DeepSpeed",
     "html_url": "https://github.com/deepspeedai/DeepSpeed",
     "language": "Python",
-    "pushed_at": "2026-05-25T16:24:53Z",
-    "stargazers_count": 42395,
+    "pushed_at": "2026-05-29T10:35:30Z",
+    "stargazers_count": 42405,
     "topics": [
       "billion-parameters",
       "compression",
@@ -416,7 +433,7 @@
       "trillion-parameters",
       "zero"
     ],
-    "updated_at": "2026-05-26T14:16:18Z"
+    "updated_at": "2026-05-30T00:00:53Z"
   },
   "repo_links": [
     {

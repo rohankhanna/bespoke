@@ -1102,11 +1102,23 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/packager"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

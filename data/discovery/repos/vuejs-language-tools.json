@@ -428,7 +428,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:17:56.025973+00:00",
+  "fetched_at": "2026-05-30T00:53:47.693806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -444,7 +444,7 @@
     },
     {
       "path": ".github/workflows/auto-version.yml",
-      "size": 1286
+      "size": 1329
     },
     {
       "path": ".github/workflows/copilot-setup-steps.yml",
@@ -472,10 +472,10 @@
     "full_name": "vuejs/language-tools",
     "html_url": "https://github.com/vuejs/language-tools",
     "language": "TypeScript",
-    "pushed_at": "2026-05-25T14:34:11Z",
-    "stargazers_count": 6671,
+    "pushed_at": "2026-05-29T04:02:01Z",
+    "stargazers_count": 6673,
     "topics": [],
-    "updated_at": "2026-05-25T17:42:54Z"
+    "updated_at": "2026-05-29T16:24:45Z"
   },
   "repo_links": [],
   "terms": [

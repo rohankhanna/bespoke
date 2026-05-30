@@ -1,0 +1,399 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "patchyvideo/mmdocr-highperformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "frederik-uni/manga-image-translator-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "docker/metadata-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "peter-evans/dockerhub-description@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "Publish Release docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "Mark stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "auto-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "chinese-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "japanese-translations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "manga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "text-detection-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-30T02:08:26.360112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 61851
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1236
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 557
+    },
+    {
+      "path": "requirements.txt",
+      "size": 977
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1166
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1211
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Translate manga/image \u4e00\u952e\u7ffb\u8bd1\u5404\u7c7b\u56fe\u7247\u5185\u6587\u5b57 https://cotrans.touhou.ai/ (no longer working)",
+    "fork": false,
+    "full_name": "zyddnys/manga-image-translator",
+    "html_url": "https://github.com/zyddnys/manga-image-translator",
+    "language": "Python",
+    "pushed_at": "2026-05-24T09:50:15Z",
+    "stargazers_count": 9967,
+    "topics": [
+      "anime",
+      "auto-translation",
+      "chinese-translation",
+      "deep-learning",
+      "image-processing",
+      "inpainting",
+      "japanese-translations",
+      "machine-translation",
+      "manga",
+      "neural-network",
+      "ocr",
+      "pytorch-implementation",
+      "text-detection",
+      "text-detection-recognition",
+      "transformer"
+    ],
+    "updated_at": "2026-05-29T21:29:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frederik-uni/manga-image-translator-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patchyvideo/mmdocr-highperformance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Release docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish Release docker image"
+    },
+    {
+      "context_snippet": "Mark stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-translation"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-translation"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese-translations"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection-recognition"
+    },
+    {
+      "context_snippet": "Last Updated: 2025/05/10",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -403,13 +403,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
-      "target": "anthropic-claude",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
       "target": "autonomous-agents",
       "target_type": "term"
     },
@@ -425,13 +418,6 @@
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
       "target": "mcp-server",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "ruvnet/ruflo",
-      "target": "model-context-protocol",
       "target_type": "term"
     },
     {
@@ -470,6 +456,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T00:44:22.415230+00:00",
   "source_repo": "ruvnet/ruflo"
 }

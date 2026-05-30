@@ -3,6 +3,36 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code-check.yml"
     },
     {
@@ -35,6 +65,62 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deb.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "Build Debian Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagAttention",
+      "target": "Build RPM Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code-check.yml",
       "source_repo": "flagos-ai/FlagAttention",
       "target": "actions/checkout@v4",
@@ -62,7 +148,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:20:10.751464+00:00",
+  "fetched_at": "2026-05-30T02:31:01.550590+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -73,8 +159,16 @@
       "size": 1464
     },
     {
+      "path": ".github/workflows/build-deb.yml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/build-rpm.yml",
+      "size": 779
+    },
+    {
       "path": ".github/workflows/code-check.yml",
-      "size": 1542
+      "size": 2912
     }
   ],
   "related_repositories": [],
@@ -86,13 +180,13 @@
     "full_name": "flagos-ai/FlagAttention",
     "html_url": "https://github.com/flagos-ai/FlagAttention",
     "language": "Python",
-    "pushed_at": "2026-05-25T01:34:45Z",
-    "stargazers_count": 293,
+    "pushed_at": "2026-05-27T08:14:57Z",
+    "stargazers_count": 294,
     "topics": [
       "attention",
       "triton-lang"
     ],
-    "updated_at": "2026-05-26T14:11:26Z"
+    "updated_at": "2026-05-28T05:17:07Z"
   },
   "repo_links": [
     {
@@ -112,6 +206,18 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Build Debian Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deb.yml",
+      "term": "Build Debian Packages"
+    },
+    {
+      "context_snippet": "Build RPM Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "term": "Build RPM Packages"
+    },
     {
       "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",

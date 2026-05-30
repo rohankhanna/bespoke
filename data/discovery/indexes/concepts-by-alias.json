@@ -1409,6 +1409,9 @@
   "ads client tests": [
     "ads-client-tests"
   ],
+  "adult": [
+    "adult"
+  ],
   "advanced-paste": [
     "advanced-paste"
   ],
@@ -13435,6 +13438,9 @@
   "build rpm": [
     "build-rpm"
   ],
+  "build rpm packages": [
+    "build-rpm-packages"
+  ],
   "build ruby for github actions": [
     "build-ruby-for-github-actions"
   ],
@@ -19229,6 +19235,9 @@
   "ci managed federation": [
     "ci-managed-federation"
   ],
+  "ci measurements": [
+    "ci-measurements"
+  ],
   "ci merge queue": [
     "ci-merge-queue"
   ],
@@ -23248,6 +23257,12 @@
   ],
   "common functional tests - benchmark": [
     "common-functional-tests---benchmark"
+  ],
+  "common functional tests - cli": [
+    "common-functional-tests---cli"
+  ],
+  "common functional tests - heterogeneous training": [
+    "common-functional-tests---heterogeneous-training"
   ],
   "common issues check": [
     "common-issues-check"
@@ -30398,6 +30413,9 @@
   "desktop-icons": [
     "desktop-icons"
   ],
+  "desktop-lyric": [
+    "desktop-lyric"
+  ],
   "desktop-notifications": [
     "desktop-notifications"
   ],
@@ -30457,6 +30475,9 @@
   ],
   "detect trailing whitespace": [
     "detect-trailing-whitespace"
+  ],
+  "detect unreviewed merge": [
+    "detect-unreviewed-merge"
   ],
   "detect-bot-opt-in": [
     "detect-bot-opt-in"
@@ -38870,6 +38891,9 @@
   "fork": [
     "fork"
   ],
+  "fork checks": [
+    "fork-checks"
+  ],
   "fork e2e": [
     "fork-e2e"
   ],
@@ -42317,6 +42341,9 @@
   ],
   "goban": [
     "goban"
+  ],
+  "gobang": [
+    "gobang"
   ],
   "gobgp": [
     "gobgp"
@@ -49062,6 +49089,9 @@
   "japanese-study": [
     "japanese-study"
   ],
+  "japanese-translations": [
+    "japanese-translations"
+  ],
   "japanese-tts": [
     "japanese-tts"
   ],
@@ -49235,6 +49265,9 @@
   ],
   "javascript integration tests": [
     "javascript-integration-tests"
+  ],
+  "javascript package": [
+    "javascript-package"
   ],
   "javascript release": [
     "javascript-release"
@@ -54382,6 +54415,9 @@
   ],
   "local-llm": [
     "local-llm"
+  ],
+  "local-music": [
+    "local-music"
   ],
   "local-rag": [
     "local-rag"
@@ -64131,6 +64167,12 @@
   "online-mapping": [
     "online-mapping"
   ],
+  "online-music": [
+    "online-music"
+  ],
+  "online-mv": [
+    "online-mv"
+  ],
   "online-rl": [
     "online-rl"
   ],
@@ -69168,6 +69210,9 @@
   "pr review requested": [
     "pr-review-requested"
   ],
+  "pr risk": [
+    "pr-risk"
+  ],
   "pr runner": [
     "pr-runner"
   ],
@@ -72395,6 +72440,9 @@
   ],
   "pull-request": [
     "pull-request"
+  ],
+  "pull-request checks": [
+    "pull-request-checks"
   ],
   "pull-request update": [
     "pull-request-update"
@@ -83905,6 +83953,9 @@
   ],
   "song-generation": [
     "song-generation"
+  ],
+  "song-metadata": [
+    "song-metadata"
   ],
   "sonic": [
     "sonic"

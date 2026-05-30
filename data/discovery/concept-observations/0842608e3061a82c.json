@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Translate manga/image \u4e00\u952e\u7ffb\u8bd1\u5404\u7c7b\u56fe\u7247\u5185\u6587\u5b57 https://cotrans.touhou.ai/ (no longer working)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Last Updated: 2025/05/10"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Last Updated: 2025/05/10"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19953550,
+      "status": "candidate",
+      "text": "mana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19918550,
+      "status": "candidate",
+      "text": "manna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907264,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892664,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019822,
+      "status": "candidate",
+      "text": "animanga"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manga",
+      "sense_id": "manga#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manga",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manga",
+  "observation_id": "0842608e3061a82c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_text": "manga",
+  "source_context_snippet": "Last Updated: 2025/05/10",
+  "source_file": null,
+  "source_repo": "zyddnys/manga-image-translator",
+  "source_repo_description": "Translate manga/image \u4e00\u952e\u7ffb\u8bd1\u5404\u7c7b\u56fe\u7247\u5185\u6587\u5b57 https://cotrans.touhou.ai/ (no longer working)"
+}

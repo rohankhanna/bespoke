@@ -553,7 +553,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:06:13.665196+00:00",
+  "fetched_at": "2026-05-30T02:11:48.637065+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -565,7 +565,7 @@
     },
     {
       "path": ".github/workflows/codeql.yml",
-      "size": 2336
+      "size": 2295
     },
     {
       "path": ".github/workflows/gradle-dependency-graph.yml",
@@ -605,8 +605,8 @@
     "full_name": "eclipse-openvsx/openvsx",
     "html_url": "https://github.com/eclipse-openvsx/openvsx",
     "language": "Java",
-    "pushed_at": "2026-05-26T17:23:10Z",
-    "stargazers_count": 1951,
+    "pushed_at": "2026-05-28T13:59:41Z",
+    "stargazers_count": 1956,
     "topics": [
       "extension",
       "marketplace",
@@ -614,7 +614,7 @@
       "theia",
       "vscode"
     ],
-    "updated_at": "2026-05-26T11:51:48Z"
+    "updated_at": "2026-05-29T19:16:25Z"
   },
   "repo_links": [
     {

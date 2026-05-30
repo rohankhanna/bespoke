@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:01:45.973517+00:00",
+  "fetched_at": "2026-05-30T01:13:41.348388+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,8 +161,8 @@
     "full_name": "attackgoat/vk-graph",
     "html_url": "https://github.com/attackgoat/vk-graph",
     "language": "Rust",
-    "pushed_at": "2026-05-26T00:24:58Z",
-    "stargazers_count": 336,
+    "pushed_at": "2026-05-29T10:40:10Z",
+    "stargazers_count": 337,
     "topics": [
       "3d",
       "3d-game-engine",
@@ -172,7 +172,7 @@
       "rust",
       "vulkan"
     ],
-    "updated_at": "2026-05-05T23:31:02Z"
+    "updated_at": "2026-05-29T06:37:57Z"
   },
   "repo_links": [
     {

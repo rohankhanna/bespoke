@@ -480,11 +480,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:18:22.952980+00:00",
+  "fetched_at": "2026-05-30T00:54:22.172565+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 14040
+      "size": 14955
     },
     {
       "path": "package.json",
@@ -508,10 +508,10 @@
     "full_name": "skilld-dev/skilld",
     "html_url": "https://github.com/skilld-dev/skilld",
     "language": "TypeScript",
-    "pushed_at": "2026-05-14T02:08:07Z",
-    "stargazers_count": 277,
+    "pushed_at": "2026-05-29T05:46:38Z",
+    "stargazers_count": 278,
     "topics": [],
-    "updated_at": "2026-05-25T12:15:59Z"
+    "updated_at": "2026-05-29T05:46:39Z"
   },
   "repo_links": [
     {

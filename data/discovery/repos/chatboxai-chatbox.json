@@ -2932,7 +2932,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:11:51.727013+00:00",
+  "fetched_at": "2026-05-30T00:46:01.989841+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2953,7 +2953,7 @@
     "html_url": "https://github.com/chatboxai/chatbox",
     "language": "TypeScript",
     "pushed_at": "2026-04-09T03:24:43Z",
-    "stargazers_count": 40128,
+    "stargazers_count": 40198,
     "topics": [
       "assistant",
       "chatbot",
@@ -2967,7 +2967,7 @@
       "ollama",
       "openai"
     ],
-    "updated_at": "2026-05-26T18:09:38Z"
+    "updated_at": "2026-05-29T23:47:27Z"
   },
   "repo_links": [],
   "terms": [

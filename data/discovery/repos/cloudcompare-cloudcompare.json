@@ -158,7 +158,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:16:55.331811+00:00",
+  "fetched_at": "2026-05-30T02:26:26.326338+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -186,13 +186,13 @@
     "full_name": "CloudCompare/CloudCompare",
     "html_url": "https://github.com/CloudCompare/CloudCompare",
     "language": "C++",
-    "pushed_at": "2026-05-25T19:49:26Z",
-    "stargazers_count": 4544,
+    "pushed_at": "2026-05-29T14:43:44Z",
+    "stargazers_count": 4550,
     "topics": [
       "3d-point-clouds",
       "point-cloud"
     ],
-    "updated_at": "2026-05-26T08:41:55Z"
+    "updated_at": "2026-05-30T01:56:33Z"
   },
   "repo_links": [
     {

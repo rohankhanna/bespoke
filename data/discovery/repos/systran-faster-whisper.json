@@ -136,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:03:09.721908+00:00",
+  "fetched_at": "2026-05-30T02:07:45.639257+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "html_url": "https://github.com/SYSTRAN/faster-whisper",
     "language": "Python",
     "pushed_at": "2025-11-19T14:40:46Z",
-    "stargazers_count": 23166,
+    "stargazers_count": 23246,
     "topics": [
       "deep-learning",
       "inference",
@@ -172,7 +172,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-26T17:11:17Z"
+    "updated_at": "2026-05-29T23:47:51Z"
   },
   "repo_links": [
     {

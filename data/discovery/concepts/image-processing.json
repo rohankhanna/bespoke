@@ -799,6 +799,18 @@
       "source_repo": "KUR-creative/SickZil-Machine",
       "status": "candidate-context",
       "text": "SickZil-Machine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate-context",
+      "text": "Translate manga/image \u4e00\u952e\u7ffb\u8bd1\u5404\u7c7b\u56fe\u7247\u5185\u6587\u5b57 https://cotrans.touhou.ai/ (no longer working)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate-context",
+      "text": "Last Updated: 2025/05/10"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1209,12 @@
       "source_repo": "KUR-creative/SickZil-Machine",
       "status": "candidate",
       "text": "SickZil-Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate",
+      "text": "Last Updated: 2025/05/10"
     }
   ],
   "candidate_related_terms": [],
@@ -3340,11 +3358,41 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

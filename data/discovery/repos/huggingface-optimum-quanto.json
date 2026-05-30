@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-commits.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/linux-cpu-tests.yml"
     },
     {
-      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-cpu-tests.yml"
     },
@@ -26,27 +26,27 @@
       "source_file": ".github/workflows/linux-cpu-tests.yml"
     },
     {
-      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-cpu-tests.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-cuda-tests.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-examples.yml"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-quality.yml"
     },
     {
-      "component": "actions/setup-python@v2",
+      "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-quality.yml"
     },
@@ -56,12 +56,12 @@
       "source_file": ".github/workflows/security.yml"
     },
     {
-      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "component": "trufflesecurity/trufflehog@37b77001d0174ebec2fcca2bd83ff83a6d45a3ab",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security.yml"
     },
     {
-      "component": "actions/stale@v9",
+      "component": "actions/stale@v10.2.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml"
     }
@@ -78,7 +78,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-commits.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -106,7 +106,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-cpu-tests.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -120,7 +120,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-cuda-tests.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -134,7 +134,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux-examples.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -148,14 +148,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-quality.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-quality.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/setup-python@v2",
+      "target": "actions/setup-python@v6",
       "target_type": "component"
     },
     {
@@ -169,7 +169,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target": "trufflesecurity/trufflehog@37b77001d0174ebec2fcca2bd83ff83a6d45a3ab",
       "target_type": "component"
     },
     {
@@ -183,7 +183,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "huggingface/optimum-quanto",
-      "target": "actions/stale@v9",
+      "target": "actions/stale@v10.2.0",
       "target_type": "component"
     },
     {
@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:13:50.309359+00:00",
+  "fetched_at": "2026-05-30T02:22:14.683120+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -231,7 +231,7 @@
     },
     {
       "path": ".github/workflows/linux-cpu-tests.yml",
-      "size": 2207
+      "size": 2215
     },
     {
       "path": ".github/workflows/linux-cuda-tests.yml",
@@ -251,7 +251,7 @@
     },
     {
       "path": ".github/workflows/stale.yml",
-      "size": 941
+      "size": 946
     }
   ],
   "related_repositories": [],
@@ -263,14 +263,14 @@
     "full_name": "huggingface/optimum-quanto",
     "html_url": "https://github.com/huggingface/optimum-quanto",
     "language": "Python",
-    "pushed_at": "2026-05-26T12:01:30Z",
+    "pushed_at": "2026-05-28T13:30:02Z",
     "stargazers_count": 1042,
     "topics": [
       "optimum",
       "pytorch",
       "quantization"
     ],
-    "updated_at": "2026-05-26T12:01:37Z"
+    "updated_at": "2026-05-28T13:29:24Z"
   },
   "repo_links": [
     {

@@ -31,11 +31,6 @@
       "source_file": ".github/workflows/cpu-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cpu-tests.yml"
-    },
-    {
       "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cpu-tests.yml"
@@ -234,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:19:59.130636+00:00",
+  "fetched_at": "2026-05-30T02:30:44.507048+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,7 +245,7 @@
     },
     {
       "path": ".github/workflows/cpu-tests.yml",
-      "size": 5396
+      "size": 4408
     },
     {
       "path": ".github/workflows/mkdocs-deploy.yml",
@@ -270,8 +265,8 @@
     "full_name": "Lightning-AI/litgpt",
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
-    "pushed_at": "2026-05-01T12:01:13Z",
-    "stargazers_count": 13386,
+    "pushed_at": "2026-05-28T19:25:50Z",
+    "stargazers_count": 13390,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -281,7 +276,7 @@
       "llm-inference",
       "llms"
     ],
-    "updated_at": "2026-05-26T15:40:42Z"
+    "updated_at": "2026-05-29T22:40:37Z"
   },
   "repo_links": [
     {

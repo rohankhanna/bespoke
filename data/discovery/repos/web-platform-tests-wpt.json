@@ -16,12 +16,12 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "component": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/metadata-action@c1e51972afc2121e065aed6d45c65596fe445f3f",
+      "component": "docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -142,14 +142,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "web-platform-tests/wpt",
-      "target": "docker/metadata-action@c1e51972afc2121e065aed6d45c65596fe445f3f",
+      "target": "docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9",
       "target_type": "component"
     },
     {
@@ -440,7 +440,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:21:56.833186+00:00",
+  "fetched_at": "2026-05-30T00:59:05.985333+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -492,8 +492,8 @@
     "full_name": "web-platform-tests/wpt",
     "html_url": "https://github.com/web-platform-tests/wpt",
     "language": "HTML",
-    "pushed_at": "2026-05-26T19:07:23Z",
-    "stargazers_count": 5937,
+    "pushed_at": "2026-05-30T00:49:44Z",
+    "stargazers_count": 5938,
     "topics": [
       "blink",
       "browser",
@@ -515,7 +515,7 @@
       "webkit",
       "whatwg"
     ],
-    "updated_at": "2026-05-26T17:14:15Z"
+    "updated_at": "2026-05-29T23:25:22Z"
   },
   "repo_links": [],
   "terms": [

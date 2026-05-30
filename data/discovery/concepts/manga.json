@@ -115,6 +115,30 @@
       "source_repo": "mayocream/koharu",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/MangaJaNai",
+      "status": "candidate-context",
+      "text": "Upscale manga with AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/MangaJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate-context",
+      "text": "Translate manga/image \u4e00\u952e\u7ffb\u8bd1\u5404\u7c7b\u56fe\u7247\u5185\u6587\u5b57 https://cotrans.touhou.ai/ (no longer working)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate-context",
+      "text": "Last Updated: 2025/05/10"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "mayocream/koharu",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/MangaJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zyddnys/manga-image-translator",
+      "status": "candidate",
+      "text": "Last Updated: 2025/05/10"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +304,23 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": null,
       "source_repo": "mayocream/koharu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "the-database/MangaJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "zyddnys/manga-image-translator"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

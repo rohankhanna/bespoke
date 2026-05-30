@@ -419,7 +419,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:16:35.500679+00:00",
+  "fetched_at": "2026-05-30T00:52:18.625554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -440,7 +440,7 @@
     "html_url": "https://github.com/enzymejs/enzyme-matchers",
     "language": "JavaScript",
     "pushed_at": "2024-03-07T04:14:28Z",
-    "stargazers_count": 888,
+    "stargazers_count": 887,
     "topics": [
       "enzyme",
       "jasmine",
@@ -448,7 +448,7 @@
       "tdd",
       "unit-testing"
     ],
-    "updated_at": "2026-04-22T06:31:12Z"
+    "updated_at": "2026-05-26T21:33:36Z"
   },
   "repo_links": [
     {

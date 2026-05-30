@@ -19,6 +19,18 @@
       "source_repo": "alex000kim/nsfw_data_scraper",
       "status": "candidate-context",
       "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lhj5426/YSG",
+      "status": "candidate-context",
+      "text": "\u91c7\u96c6E\u7ad9\u6570\u5343\u753b\u5eca\u6570\u5341\u4e07\u9875 \u4f7f\u7528 [\u6709\u6f0f\u5582] \u5404\u79cd\u6f0f  \u3010YOLO\u3011\u53ca\u5176\u4e4b\u540e\u7248\u672c \u4ee5\u53ca \u3010RFDETR\u3011 \u7b49\u5404\u79cddetr \u540e\u7eed\u53d8\u79cd\u7248\u672c \u8bad\u7ec3\u7684\u6587\u5b57\u76ee\u6807\u68c0\u6d4b\u6a21\u578b "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhj5426/YSG",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alex000kim/nsfw_data_scraper",
       "status": "candidate",
       "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lhj5426/YSG",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alex000kim/nsfw_data_scraper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "lhj5426/YSG"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

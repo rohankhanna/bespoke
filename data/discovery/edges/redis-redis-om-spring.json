@@ -18,28 +18,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/setup-java@v4",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
       "target_type": "component"
     },
     {
@@ -47,6 +47,27 @@
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
       "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "redis/redis-om-spring",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "redis/redis-om-spring",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "redis/redis-om-spring",
+      "target": "Dependency Review",
       "target_type": "term"
     },
     {
@@ -109,42 +130,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/early-access.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/early-access.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/early-access.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/setup-java@v4",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/early-access.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/early-access.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/early-access.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "jreleaser/release-action@v2",
+      "target": "jreleaser/release-action@90ac653bb9c79d11179e65d81499f3f34527dcd5",
       "target_type": "component"
     },
     {
@@ -232,6 +253,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T00:44:22.415230+00:00",
   "source_repo": "redis/redis-om-spring"
 }

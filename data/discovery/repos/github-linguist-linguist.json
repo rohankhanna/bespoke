@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:10:21.853340+00:00",
+  "fetched_at": "2026-05-30T01:24:25.067325+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -198,15 +198,15 @@
     "full_name": "github-linguist/linguist",
     "html_url": "https://github.com/github-linguist/linguist",
     "language": "Ruby",
-    "pushed_at": "2026-05-20T09:38:46Z",
-    "stargazers_count": 13487,
+    "pushed_at": "2026-05-29T07:08:10Z",
+    "stargazers_count": 13495,
     "topics": [
       "language-grammars",
       "language-statistics",
       "linguistic",
       "syntax-highlighting"
     ],
-    "updated_at": "2026-05-26T19:56:57Z"
+    "updated_at": "2026-05-29T19:54:13Z"
   },
   "repo_links": [
     {

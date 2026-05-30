@@ -354,7 +354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:13:28.605380+00:00",
+  "fetched_at": "2026-05-30T01:51:13.567413+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -362,23 +362,23 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 10006
+      "size": 9977
     },
     {
       "path": ".github/workflows/bump-version.yml",
-      "size": 1970
+      "size": 1972
     },
     {
       "path": ".github/workflows/codeql.yml",
-      "size": 5144
+      "size": 5146
     },
     {
       "path": ".github/workflows/licensecheck.yml",
-      "size": 5085
+      "size": 5087
     },
     {
       "path": ".github/workflows/markdown-lint.yml",
-      "size": 1452
+      "size": 1454
     },
     {
       "path": ".github/workflows/validate_pr.yml",
@@ -394,7 +394,7 @@
     "full_name": "eclipse-tm4e/tm4e",
     "html_url": "https://github.com/eclipse-tm4e/tm4e",
     "language": "Java",
-    "pushed_at": "2026-05-20T17:45:10Z",
+    "pushed_at": "2026-05-29T19:59:40Z",
     "stargazers_count": 115,
     "topics": [
       "eclipse",
@@ -403,7 +403,7 @@
       "java",
       "textmate"
     ],
-    "updated_at": "2026-05-18T22:01:49Z"
+    "updated_at": "2026-05-29T19:59:45Z"
   },
   "repo_links": [
     {

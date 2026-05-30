@@ -225,7 +225,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:08:59.246693+00:00",
+  "fetched_at": "2026-05-30T02:15:40.545152+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -245,7 +245,7 @@
     },
     {
       "path": ".github/workflows/testing.yml",
-      "size": 3551
+      "size": 3595
     }
   ],
   "related_repositories": [],
@@ -257,8 +257,8 @@
     "full_name": "grpc/grpc-java",
     "html_url": "https://github.com/grpc/grpc-java",
     "language": "Java",
-    "pushed_at": "2026-05-22T18:37:04Z",
-    "stargazers_count": 12022,
+    "pushed_at": "2026-05-29T05:26:42Z",
+    "stargazers_count": 12025,
     "topics": [
       "grpc",
       "java",
@@ -266,7 +266,7 @@
       "proto",
       "rpc"
     ],
-    "updated_at": "2026-05-26T10:04:25Z"
+    "updated_at": "2026-05-29T09:31:40Z"
   },
   "repo_links": [
     {

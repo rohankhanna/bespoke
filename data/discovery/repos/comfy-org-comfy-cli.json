@@ -11,6 +11,11 @@
       "source_file": ".github/workflows/build-and-test.yml"
     },
     {
+      "component": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_package.yml"
@@ -130,6 +135,20 @@
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "Comfy-Org/comfy-cli",
       "target": "Test CLI Tool on Multiple Platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "Detect Unreviewed Merge",
       "target_type": "term"
     },
     {
@@ -301,7 +320,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:28:09.120399+00:00",
+  "fetched_at": "2026-05-30T01:06:54.930928+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -314,6 +333,10 @@
     {
       "path": ".github/workflows/build-and-test.yml",
       "size": 1497
+    },
+    {
+      "path": ".github/workflows/detect-unreviewed-merge.yml",
+      "size": 1442
     },
     {
       "path": ".github/workflows/publish_package.yml",
@@ -349,15 +372,15 @@
     "full_name": "Comfy-Org/comfy-cli",
     "html_url": "https://github.com/Comfy-Org/comfy-cli",
     "language": "Python",
-    "pushed_at": "2026-05-24T09:15:47Z",
-    "stargazers_count": 822,
+    "pushed_at": "2026-05-29T08:16:02Z",
+    "stargazers_count": 827,
     "topics": [
       "ai",
       "comfyui",
       "command-line",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-26T15:40:29Z"
+    "updated_at": "2026-05-29T19:11:37Z"
   },
   "repo_links": [
     {
@@ -377,6 +400,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-and-test.yml",
       "term": "Test CLI Tool on Multiple Platforms"
+    },
+    {
+      "context_snippet": "Detect Unreviewed Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "term": "Detect Unreviewed Merge"
     },
     {
       "context_snippet": "Publish to PyPI",

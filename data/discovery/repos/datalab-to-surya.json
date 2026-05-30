@@ -1,22 +1,12 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/benchmarks.yml"
-    },
-    {
-      "component": "actions/setup-python@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/benchmarks.yml"
-    },
-    {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-python@v4",
+      "component": "astral-sh/setup-uv@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -31,22 +21,22 @@
       "source_file": ".github/workflows/cla.yml"
     },
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/setup-python@v4",
+      "component": "astral-sh/setup-uv@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scripts.yml"
     },
     {
-      "component": "actions/setup-python@v4",
+      "component": "astral-sh/setup-uv@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scripts.yml"
     }
@@ -56,49 +46,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "datalab-to/surya",
-      "target": "vikparuchuri/surya",
+      "target": "ggerganov/llama.cpp",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "datalab-to/surya",
-      "target": "vikparuchuri/surya",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/benchmarks.yml",
-      "source_repo": "datalab-to/surya",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/benchmarks.yml",
-      "source_repo": "datalab-to/surya",
-      "target": "actions/setup-python@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/benchmarks.yml",
-      "source_repo": "datalab-to/surya",
-      "target": "Integration test",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/surya",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/surya",
-      "target": "actions/setup-python@v4",
+      "target": "astral-sh/setup-uv@v3",
       "target_type": "component"
     },
     {
@@ -133,28 +95,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "datalab-to/surya",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "datalab-to/surya",
-      "target": "actions/setup-python@v4",
+      "target": "astral-sh/setup-uv@v3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scripts.yml",
       "source_repo": "datalab-to/surya",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scripts.yml",
       "source_repo": "datalab-to/surya",
-      "target": "actions/setup-python@v4",
+      "target": "astral-sh/setup-uv@v3",
       "target_type": "component"
     },
     {
@@ -165,35 +127,31 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:05:35.962927+00:00",
+  "fetched_at": "2026-05-30T02:10:56.526203+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 34331
+      "size": 25954
     },
     {
       "path": "pyproject.toml",
-      "size": 1909
-    },
-    {
-      "path": ".github/workflows/benchmarks.yml",
-      "size": 1926
+      "size": 1656
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 481
+      "size": 782
     },
     {
       "path": ".github/workflows/cla.yml",
-      "size": 1326
+      "size": 1324
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 625
+      "size": 517
     },
     {
       "path": ".github/workflows/scripts.yml",
-      "size": 1330
+      "size": 1600
     }
   ],
   "related_repositories": [],
@@ -205,30 +163,19 @@
     "full_name": "datalab-to/surya",
     "html_url": "https://github.com/datalab-to/surya",
     "language": "Python",
-    "pushed_at": "2026-05-06T09:18:30Z",
-    "stargazers_count": 19772,
+    "pushed_at": "2026-05-27T15:18:52Z",
+    "stargazers_count": 19806,
     "topics": [],
-    "updated_at": "2026-05-26T18:34:27Z"
+    "updated_at": "2026-05-29T22:58:45Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "vikparuchuri/surya",
+      "full_name": "ggerganov/llama.cpp",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vikparuchuri/surya",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [
-    {
-      "context_snippet": "Integration test",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/benchmarks.yml",
-      "term": "Integration test"
-    },
     {
       "context_snippet": "Unit tests",
       "edge_type": "workflow-name",

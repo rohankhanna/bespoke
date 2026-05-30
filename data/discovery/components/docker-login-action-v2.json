@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v2",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1162,6 +1162,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-past-ci-docker-images.yml",
       "source_repo": "pe-trik/transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zyddnys/manga-image-translator"
     }
   ]
 }

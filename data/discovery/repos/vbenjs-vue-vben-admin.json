@@ -791,7 +791,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:18:59.051917+00:00",
+  "fetched_at": "2026-05-30T00:55:07.965498+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -843,8 +843,8 @@
     "full_name": "vbenjs/vue-vben-admin",
     "html_url": "https://github.com/vbenjs/vue-vben-admin",
     "language": "Vue",
-    "pushed_at": "2026-05-26T00:54:03Z",
-    "stargazers_count": 32459,
+    "pushed_at": "2026-05-29T22:14:22Z",
+    "stargazers_count": 32489,
     "topics": [
       "admin-template",
       "ant-design",
@@ -861,7 +861,7 @@
       "vue3",
       "vuex"
     ],
-    "updated_at": "2026-05-26T14:10:26Z"
+    "updated_at": "2026-05-30T00:10:34Z"
   },
   "repo_links": [
     {

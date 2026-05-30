@@ -61,6 +61,16 @@
       "source_file": ".github/workflows/golangci-lint.yml"
     },
     {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
       "component": "release-drafter/release-drafter@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml"
@@ -84,16 +94,6 @@
       "component": "actions/stale@v10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale-issues.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-e2e.yml"
-    },
-    {
-      "component": "actions/setup-go@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-e2e.yml"
     }
   ],
   "edges": [
@@ -197,6 +197,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "redis/go-redis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "redis/go-redis",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "redis/go-redis",
+      "target": "govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "redis/go-redis",
       "target": "release-drafter/release-drafter@v7",
@@ -245,27 +266,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-e2e.yml",
-      "source_repo": "redis/go-redis",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-e2e.yml",
-      "source_repo": "redis/go-redis",
-      "target": "actions/setup-go@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-e2e.yml",
-      "source_repo": "redis/go-redis",
-      "target": "E2E Tests",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "redis/go-redis",
@@ -294,11 +294,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:09:18.820430+00:00",
+  "fetched_at": "2026-05-30T02:16:06.842646+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 21884
+      "size": 22278
     },
     {
       "path": "go.mod",
@@ -306,7 +306,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 2991
+      "size": 2971
     },
     {
       "path": ".github/workflows/codeql-analysis.yml",
@@ -314,11 +314,15 @@
     },
     {
       "path": ".github/workflows/doctests.yaml",
-      "size": 835
+      "size": 815
     },
     {
       "path": ".github/workflows/golangci-lint.yml",
       "size": 473
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "size": 1506
     },
     {
       "path": ".github/workflows/release-drafter.yml",
@@ -331,10 +335,6 @@
     {
       "path": ".github/workflows/stale-issues.yml",
       "size": 3713
-    },
-    {
-      "path": ".github/workflows/test-e2e.yml",
-      "size": 1778
     }
   ],
   "related_repositories": [],
@@ -346,8 +346,8 @@
     "full_name": "redis/go-redis",
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
-    "pushed_at": "2026-05-26T08:44:23Z",
-    "stargazers_count": 22105,
+    "pushed_at": "2026-05-29T09:42:20Z",
+    "stargazers_count": 22113,
     "topics": [
       "go",
       "golang",
@@ -355,7 +355,7 @@
       "redis-client",
       "redis-cluster"
     ],
-    "updated_at": "2026-05-26T08:15:37Z"
+    "updated_at": "2026-05-29T23:19:00Z"
   },
   "repo_links": [],
   "terms": [
@@ -378,6 +378,12 @@
       "term": "golangci-lint"
     },
     {
+      "context_snippet": "govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "term": "govulncheck"
+    },
+    {
       "context_snippet": "Release Drafter",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-drafter.yml",
@@ -394,12 +400,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/stale-issues.yml",
       "term": "Stale Issue Management"
-    },
-    {
-      "context_snippet": "E2E Tests",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-e2e.yml",
-      "term": "E2E Tests"
     },
     {
       "context_snippet": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)",

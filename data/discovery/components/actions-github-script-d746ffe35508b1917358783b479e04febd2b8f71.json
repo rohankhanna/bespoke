@@ -1,0 +1,12 @@
+{
+  "component": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
+  "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_reusable.yml",
+      "source_repo": "vercel/next.js"
+    }
+  ]
+}

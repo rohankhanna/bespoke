@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Common Functional Tests - CLI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "FlagScale is a large model toolkit based on open-sourced projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate-context",
+      "text": "Common Functional Tests - CLI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flagos-ai/FlagScale",
+      "status": "candidate",
+      "text": "Common Functional Tests - CLI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29169,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27736,
+      "status": "candidate",
+      "text": "functionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20138,
+      "status": "candidate",
+      "text": "experimentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20138,
+      "status": "candidate",
+      "text": "finals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007,
+      "status": "candidate",
+      "text": "cistron"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Common Functional Tests - CLI",
+  "concept_id": "common-functional-tests---cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/functional_tests_cli.yml",
+      "source_repo": "flagos-ai/FlagScale"
+    }
+  ],
+  "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common Functional Tests - CLI",
+      "sense_id": "common-functional-tests---cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

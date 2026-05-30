@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u91c7\u96c6E\u7ad9\u6570\u5343\u753b\u5eca\u6570\u5341\u4e07\u9875 \u4f7f\u7528 [\u6709\u6f0f\u5582] \u5404\u79cd\u6f0f  \u3010YOLO\u3011\u53ca\u5176\u4e4b\u540e\u7248\u672c \u4ee5\u53ca \u3010RFDETR\u3011 \u7b49\u5404\u79cddetr \u540e\u7eed\u53d8\u79cd\u7248\u672c \u8bad\u7ec3\u7684\u6587\u5b57\u76ee\u6807\u68c0\u6d4b\u6a21\u578b "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347744,
+      "status": "candidate",
+      "text": "yolo county"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347743,
+      "status": "candidate",
+      "text": "university of california-davis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347742,
+      "status": "candidate",
+      "text": "lund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347741,
+      "status": "candidate",
+      "text": "plainfield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9347740,
+      "status": "candidate",
+      "text": "coniston"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yolo",
+      "sense_id": "yolo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yolo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yolo",
+  "observation_id": "a05c8e782b48270a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_text": "yolo",
+  "source_context_snippet": "<div align=center>",
+  "source_file": null,
+  "source_repo": "lhj5426/YSG",
+  "source_repo_description": "\u91c7\u96c6E\u7ad9\u6570\u5343\u753b\u5eca\u6570\u5341\u4e07\u9875 \u4f7f\u7528 [\u6709\u6f0f\u5582] \u5404\u79cd\u6f0f  \u3010YOLO\u3011\u53ca\u5176\u4e4b\u540e\u7248\u672c \u4ee5\u53ca \u3010RFDETR\u3011 \u7b49\u5404\u79cddetr \u540e\u7eed\u53d8\u79cd\u7248\u672c \u8bad\u7ec3\u7684\u6587\u5b57\u76ee\u6807\u68c0\u6d4b\u6a21\u578b "
+}

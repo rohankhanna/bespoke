@@ -1,7 +1,7 @@
 {
   "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
   "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

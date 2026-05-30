@@ -446,11 +446,6 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/setup-qemu-action@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml"
-    },
-    {
       "component": "docker/setup-buildx-action@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
@@ -674,13 +669,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "docker/setup-qemu-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "ggml-org/whisper.cpp",
       "target": "docker/setup-buildx-action@v3",
       "target_type": "component"
     },
@@ -804,7 +792,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:19:26.573726+00:00",
+  "fetched_at": "2026-05-30T00:55:43.052068+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -812,19 +800,19 @@
     },
     {
       "path": ".github/workflows/bindings-go.yml",
-      "size": 387
+      "size": 403
     },
     {
       "path": ".github/workflows/bindings-ruby.yml",
-      "size": 386
+      "size": 635
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 52654
+      "size": 52840
     },
     {
       "path": ".github/workflows/docker.yml",
-      "size": 2464
+      "size": 2763
     },
     {
       "path": ".github/workflows/examples-wasm.yml",
@@ -844,8 +832,8 @@
     "full_name": "ggml-org/whisper.cpp",
     "html_url": "https://github.com/ggml-org/whisper.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-26T04:23:41Z",
-    "stargazers_count": 50143,
+    "pushed_at": "2026-05-29T11:27:47Z",
+    "stargazers_count": 50253,
     "topics": [
       "inference",
       "openai",
@@ -854,7 +842,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-05-26T17:13:24Z"
+    "updated_at": "2026-05-29T23:21:05Z"
   },
   "repo_links": [
     {

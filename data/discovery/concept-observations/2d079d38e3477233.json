@@ -84,7 +84,7 @@
   "normalized_form": "build-bsys6",
   "observation_id": "2d079d38e3477233",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-26T13:17:40.210760+00:00",
+  "observed_at": "2026-05-30T00:44:22.415230+00:00",
   "observed_text": "Build (bsys6)",
   "source_context_snippet": "Build (bsys6)",
   "source_file": ".github/workflows/bsys6-build.yml",

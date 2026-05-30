@@ -918,7 +918,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:07:23.457850+00:00",
+  "fetched_at": "2026-05-30T02:13:22.590850+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -930,7 +930,7 @@
     },
     {
       "path": "package.json",
-      "size": 3168
+      "size": 3155
     },
     {
       "path": ".github/workflows/browser-test.yml",
@@ -970,8 +970,8 @@
     "full_name": "endojs/endo",
     "html_url": "https://github.com/endojs/endo",
     "language": "JavaScript",
-    "pushed_at": "2026-05-26T18:10:35Z",
-    "stargazers_count": 1022,
+    "pushed_at": "2026-05-29T23:02:44Z",
+    "stargazers_count": 1023,
     "topics": [
       "capabilities",
       "captp",
@@ -985,7 +985,7 @@
       "security",
       "supply-chain"
     ],
-    "updated_at": "2026-05-25T22:58:49Z"
+    "updated_at": "2026-05-29T23:02:10Z"
   },
   "repo_links": [
     {

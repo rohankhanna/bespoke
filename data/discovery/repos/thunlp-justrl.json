@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-30T02:34:14.656436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026 Blogpost Track Poster] JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
+    "fork": false,
+    "full_name": "thunlp/JustRL",
+    "html_url": "https://github.com/thunlp/JustRL",
+    "language": "Python",
+    "pushed_at": "2026-04-18T01:41:43Z",
+    "stargazers_count": 272,
+    "topics": [],
+    "updated_at": "2026-05-29T01:02:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -852,6 +852,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/image.yml",
       "source_repo": "andreykaipov/goobs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "huggingface/hf-mcp-server"
     }
   ]
 }

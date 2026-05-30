@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:13:16.636268+00:00",
+  "fetched_at": "2026-05-30T00:48:16.789180+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -125,7 +125,7 @@
     "html_url": "https://github.com/InternRobotics/Aether",
     "language": "Python",
     "pushed_at": "2025-10-26T10:10:32Z",
-    "stargazers_count": 595,
+    "stargazers_count": 594,
     "topics": [
       "4d-generation",
       "4d-reconstruction",
@@ -139,7 +139,7 @@
       "visual-planning",
       "world-model"
     ],
-    "updated_at": "2026-05-26T16:32:24Z"
+    "updated_at": "2026-05-28T12:51:04Z"
   },
   "repo_links": [
     {

@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/agent-scan.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agent-scan.yml"
     },
@@ -276,19 +276,9 @@
       "source_file": ".github/workflows/code-simplifier.lock.yml"
     },
     {
-      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cron-weekly.yml"
-    },
-    {
-      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cron-weekly.yml"
     },
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -469,6 +459,21 @@
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/duplicate-code-detector.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-checks.yml"
     }
   ],
   "edges": [
@@ -595,7 +600,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agent-scan.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -665,7 +670,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "storybookjs/storybook",
-      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -674,20 +679,6 @@
       "source_repo": "storybookjs/storybook",
       "target": "Copilot Setup Steps",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cron-weekly.yml",
-      "source_repo": "storybookjs/storybook",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cron-weekly.yml",
-      "source_repo": "storybookjs/storybook",
-      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
-      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -757,6 +748,20 @@
       "source_file": ".github/workflows/duplicate-code-detector.md",
       "source_repo": "storybookjs/storybook",
       "target": "Duplicate Code Detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-checks.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-checks.yml",
+      "source_repo": "storybookjs/storybook",
+      "target": "Fork checks",
       "target_type": "term"
     },
     {
@@ -872,7 +877,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:18:43.301753+00:00",
+  "fetched_at": "2026-05-30T01:56:22.759731+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -884,7 +889,7 @@
     },
     {
       "path": ".github/workflows/agent-scan.yml",
-      "size": 2253
+      "size": 6130
     },
     {
       "path": ".github/workflows/code-simplifier.lock.yml",
@@ -896,15 +901,11 @@
     },
     {
       "path": ".github/workflows/copilot-setup-steps.yml",
-      "size": 1200
-    },
-    {
-      "path": ".github/workflows/cron-weekly.yml",
-      "size": 1114
+      "size": 1251
     },
     {
       "path": ".github/workflows/danger-js.yml",
-      "size": 4137
+      "size": 4296
     },
     {
       "path": ".github/workflows/duplicate-code-detector.lock.yml",
@@ -913,6 +914,10 @@
     {
       "path": ".github/workflows/duplicate-code-detector.md",
       "size": 9578
+    },
+    {
+      "path": ".github/workflows/fork-checks.yml",
+      "size": 2085
     }
   ],
   "related_repositories": [],
@@ -924,8 +929,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-26T19:51:15Z",
-    "stargazers_count": 90085,
+    "pushed_at": "2026-05-29T23:14:02Z",
+    "stargazers_count": 90116,
     "topics": [
       "angular",
       "components",
@@ -948,7 +953,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-26T18:45:08Z"
+    "updated_at": "2026-05-30T01:33:14Z"
   },
   "repo_links": [
     {
@@ -1009,6 +1014,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/duplicate-code-detector.md",
       "term": "Duplicate Code Detector"
+    },
+    {
+      "context_snippet": "Fork checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-checks.yml",
+      "term": "Fork checks"
     },
     {
       "context_snippet": "<p align=\"center\">",

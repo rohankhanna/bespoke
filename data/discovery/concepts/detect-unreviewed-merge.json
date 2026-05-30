@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Detect Unreviewed Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "Detect Unreviewed Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "CLI for using ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "Detect Unreviewed Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate",
+      "text": "Detect Unreviewed Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate",
+      "text": "Detect Unreviewed Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10319,
+      "status": "candidate",
+      "text": "collected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10319,
+      "status": "candidate",
+      "text": "interesting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10319,
+      "status": "candidate",
+      "text": "landmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10319,
+      "status": "candidate",
+      "text": "published"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10319,
+      "status": "candidate",
+      "text": "suggestive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Detect Unreviewed Merge",
+  "concept_id": "detect-unreviewed-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    }
+  ],
+  "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Unreviewed Merge",
+      "sense_id": "detect-unreviewed-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

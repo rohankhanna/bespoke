@@ -1327,6 +1327,18 @@
       "source_repo": "KaiyangZhou/mixstyle-release",
       "status": "candidate-context",
       "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "status": "candidate-context",
+      "text": "A gobang robot based on reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1989,6 +2001,12 @@
       "source_repo": "KaiyangZhou/mixstyle-release",
       "status": "candidate",
       "text": "This repo contains the code of our ICLR'21 paper, \"Domain Generalization with MixStyle\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -6388,11 +6406,47 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": null,
       "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "zhiyiYo/Alpha-Gobang-Zero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": null,
+      "source_repo": "rllm-org/rllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "lexical_providers": [
     "datamuse"
   ],

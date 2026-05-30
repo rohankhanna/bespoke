@@ -21,6 +21,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@trigen/eslint-config",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -288,6 +293,13 @@
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
       "target": "@commitlint/cz-commitlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -571,7 +583,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:16:24.863881+00:00",
+  "fetched_at": "2026-05-30T01:54:03.636285+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -579,7 +591,7 @@
     },
     {
       "path": "package.json",
-      "size": 1930
+      "size": 1974
     },
     {
       "path": ".github/workflows/checks.yml",
@@ -607,8 +619,8 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-05-25T22:06:24Z",
-    "stargazers_count": 8449,
+    "pushed_at": "2026-05-29T22:50:42Z",
+    "stargazers_count": 8450,
     "topics": [
       "changelog",
       "git",
@@ -617,7 +629,7 @@
       "metadata",
       "tag"
     ],
-    "updated_at": "2026-05-26T14:51:47Z"
+    "updated_at": "2026-05-29T22:47:22Z"
   },
   "repo_links": [],
   "terms": [

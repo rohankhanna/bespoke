@@ -285,7 +285,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:15:34.352257+00:00",
+  "fetched_at": "2026-05-30T00:51:00.810171+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -293,7 +293,7 @@
     },
     {
       "path": "go.mod",
-      "size": 4660
+      "size": 4690
     },
     {
       "path": ".github/workflows/approval-comment.yaml",
@@ -337,10 +337,10 @@
     "full_name": "kubernetes-sigs/karpenter",
     "html_url": "https://github.com/kubernetes-sigs/karpenter",
     "language": "Go",
-    "pushed_at": "2026-05-26T17:00:06Z",
-    "stargazers_count": 1908,
+    "pushed_at": "2026-05-29T15:36:57Z",
+    "stargazers_count": 1915,
     "topics": [],
-    "updated_at": "2026-05-26T17:00:18Z"
+    "updated_at": "2026-05-29T15:37:04Z"
   },
   "repo_links": [
     {

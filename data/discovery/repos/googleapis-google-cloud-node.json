@@ -478,7 +478,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T13:50:54.386758+00:00",
+  "fetched_at": "2026-05-30T00:51:37.491193+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -498,7 +498,7 @@
     },
     {
       "path": ".github/workflows/codeql-repo.yml",
-      "size": 2987
+      "size": 2989
     },
     {
       "path": ".github/workflows/conformance-test.yaml",
@@ -530,13 +530,13 @@
     "full_name": "googleapis/google-cloud-node",
     "html_url": "https://github.com/googleapis/google-cloud-node",
     "language": "JavaScript",
-    "pushed_at": "2026-05-26T13:11:03Z",
-    "stargazers_count": 3162,
+    "pushed_at": "2026-05-30T00:27:19Z",
+    "stargazers_count": 3165,
     "topics": [
       "google-cloud",
       "nodejs"
     ],
-    "updated_at": "2026-05-26T13:11:51Z"
+    "updated_at": "2026-05-29T23:12:56Z"
   },
   "repo_links": [
     {

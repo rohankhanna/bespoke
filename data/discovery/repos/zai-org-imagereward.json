@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:57:51.931707+00:00",
+  "fetched_at": "2026-05-30T01:08:34.910749+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,14 +65,14 @@
     "html_url": "https://github.com/zai-org/ImageReward",
     "language": "Python",
     "pushed_at": "2025-10-29T13:40:51Z",
-    "stargazers_count": 1674,
+    "stargazers_count": 1675,
     "topics": [
       "diffusion-models",
       "generative-model",
       "human-preferences",
       "rlhf"
     ],
-    "updated_at": "2026-05-26T13:52:49Z"
+    "updated_at": "2026-05-29T08:38:54Z"
   },
   "repo_links": [
     {

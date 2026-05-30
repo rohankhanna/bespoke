@@ -68,6 +68,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "spring-projects/spring-tools4",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
       "source_repo": "spring-projects/spring-tools",
@@ -264,7 +271,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:13:13.945161+00:00",
+  "fetched_at": "2026-05-30T01:51:00.748733+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -316,7 +323,7 @@
     "full_name": "spring-projects/spring-tools",
     "html_url": "https://github.com/spring-projects/spring-tools",
     "language": "Java",
-    "pushed_at": "2026-05-25T23:50:21Z",
+    "pushed_at": "2026-05-29T18:34:39Z",
     "stargazers_count": 967,
     "topics": [
       "eclipse",
@@ -327,9 +334,15 @@
       "visual-studio-code",
       "vscode-extension"
     ],
-    "updated_at": "2026-05-25T20:36:22Z"
+    "updated_at": "2026-05-29T17:53:55Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-projects/spring-tools4",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Aggregate Distro Update Sites",

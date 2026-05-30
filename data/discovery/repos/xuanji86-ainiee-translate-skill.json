@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-30T02:08:11.764991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7984
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u72ec\u7acb\u3001Agent \u539f\u751f\u7684\u5c0f\u8bf4\u7ffb\u8bd1\u7cfb\u7edf\uff1a\u5de5\u4f5c\u65b9\u5f0f\u7c7b\u4f3c AiNiee \u4f46\u4e0d\u4f9d\u8d56\u5176\u5e94\u7528\u8fd0\u884c\uff0c\u7531 Claude Code \u5145\u5f53\u7ffb\u8bd1\u5f15\u64ce\u3002",
+    "fork": false,
+    "full_name": "xuanji86/ainiee-translate-skill",
+    "html_url": "https://github.com/xuanji86/ainiee-translate-skill",
+    "language": "Python",
+    "pushed_at": "2026-05-29T23:34:38Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-05-29T23:34:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

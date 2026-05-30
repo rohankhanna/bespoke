@@ -181,6 +181,11 @@
       "source_file": ".github/workflows/build-apple.yml"
     },
     {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-apple.yml"
@@ -490,7 +495,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:13:06.747602+00:00",
+  "fetched_at": "2026-05-30T02:21:14.600835+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -498,7 +503,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 1836
+      "size": 1907
     },
     {
       "path": "requirements.txt",
@@ -514,7 +519,7 @@
     },
     {
       "path": ".github/workflows/build-3rd-party.yml",
-      "size": 1201
+      "size": 1213
     },
     {
       "path": ".github/workflows/build-and-test-snapdragon.yml",
@@ -522,11 +527,11 @@
     },
     {
       "path": ".github/workflows/build-android.yml",
-      "size": 3806
+      "size": 4221
     },
     {
       "path": ".github/workflows/build-apple.yml",
-      "size": 8784
+      "size": 9258
     },
     {
       "path": ".github/workflows/build-cache.yml",
@@ -542,12 +547,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-26T19:55:17Z",
-    "stargazers_count": 113197,
+    "pushed_at": "2026-05-29T23:36:59Z",
+    "stargazers_count": 113727,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-26T21:11:58Z"
+    "updated_at": "2026-05-30T02:20:32Z"
   },
   "repo_links": [
     {

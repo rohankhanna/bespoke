@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhj5426/YSG",
+      "target": "kurtbestor/hitomi-downloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhj5426/YSG",
+      "target": "cvhub520/x-anylabelin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhj5426/YSG",
+      "target": "lhj5426/x-anylabeling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lhj5426/YSG",
+      "target": "chiyukigana/quickinput",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/YSG",
+      "target": "adult",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/YSG",
+      "target": "nsfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/YSG",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-30T02:08:20.145089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u91c7\u96c6E\u7ad9\u6570\u5343\u753b\u5eca\u6570\u5341\u4e07\u9875 \u4f7f\u7528 [\u6709\u6f0f\u5582] \u5404\u79cd\u6f0f  \u3010YOLO\u3011\u53ca\u5176\u4e4b\u540e\u7248\u672c \u4ee5\u53ca \u3010RFDETR\u3011 \u7b49\u5404\u79cddetr \u540e\u7eed\u53d8\u79cd\u7248\u672c \u8bad\u7ec3\u7684\u6587\u5b57\u76ee\u6807\u68c0\u6d4b\u6a21\u578b ",
+    "fork": false,
+    "full_name": "lhj5426/YSG",
+    "html_url": "https://github.com/lhj5426/YSG",
+    "language": "Python",
+    "pushed_at": "2026-04-29T07:30:28Z",
+    "stargazers_count": 72,
+    "topics": [
+      "adult",
+      "nsfw",
+      "yolo"
+    ],
+    "updated_at": "2026-05-24T06:20:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chiyukigana/quickinput",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvhub520/x-anylabelin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurtbestor/hitomi-downloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhj5426/x-anylabeling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adult"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsfw"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

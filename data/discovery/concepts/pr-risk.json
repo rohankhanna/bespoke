@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Risk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate-context",
+      "text": "Beads - A memory upgrade for your coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate-context",
+      "text": "PR Risk"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate",
+      "text": "PR Risk"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12177,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11199,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11199,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11156,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11156,
+      "status": "candidate",
+      "text": "been"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Risk",
+  "concept_id": "pr-risk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T00:44:22.415230+00:00",
+      "source_file": ".github/workflows/pr-risk.yml",
+      "source_repo": "gastownhall/beads"
+    }
+  ],
+  "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Risk",
+      "sense_id": "pr-risk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "editorconfig-checker/action-editorconfig-checker@v2",
   "first_seen_at": "2026-05-12T00:37:36.884355+00:00",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
