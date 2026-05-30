@@ -66,6 +66,16 @@
       "source_file": ".github/workflows/docker-build.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml"
+    },
+    {
       "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-latest.yml"
@@ -239,6 +249,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "OpenAPI Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-latest.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "actions/checkout@v5",
@@ -266,7 +297,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:24:15.210724+00:00",
+  "fetched_at": "2026-05-30T07:12:38.712883+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,7 +309,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 10617
+      "size": 11001
     },
     {
       "path": ".github/workflows/api-node-template.yml",
@@ -297,12 +328,16 @@
       "size": 2131
     },
     {
+      "path": ".github/workflows/openapi-lint.yml",
+      "size": 639
+    },
+    {
       "path": ".github/workflows/test-latest.yml",
       "size": 1603
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 27154
+      "size": 27291
     }
   ],
   "related_repositories": [],
@@ -314,10 +349,10 @@
     "full_name": "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "html_url": "https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-24T17:14:39Z",
+    "pushed_at": "2026-05-30T00:29:12Z",
     "stargazers_count": 84,
     "topics": [],
-    "updated_at": "2026-05-26T12:26:00Z"
+    "updated_at": "2026-05-29T14:58:47Z"
   },
   "repo_links": [
     {
@@ -365,6 +400,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-build.yml",
       "term": "Build and Publish Docker Image"
+    },
+    {
+      "context_snippet": "OpenAPI Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "term": "OpenAPI Lint"
     },
     {
       "context_snippet": "Backend Tests",

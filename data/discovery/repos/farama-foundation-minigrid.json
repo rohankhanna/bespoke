@@ -286,9 +286,23 @@
       "source_repo": "Farama-Foundation/Minigrid",
       "target": "gridworld-environment",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Minigrid",
+      "target": "gymnasium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Minigrid",
+      "target": "gymnasium-environment",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:25:50.170944+00:00",
+  "fetched_at": "2026-05-30T07:14:13.940069+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -326,19 +340,20 @@
   "related_repositories": [],
   "repo": {
     "archived": false,
-    "default_branch": "master",
+    "default_branch": "main",
     "description": " Simple and easily configurable grid world environments for reinforcement learning",
     "fork": false,
     "full_name": "Farama-Foundation/Minigrid",
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
-    "pushed_at": "2026-05-11T09:08:12Z",
+    "pushed_at": "2026-05-27T06:47:32Z",
     "stargazers_count": 2459,
     "topics": [
       "gridworld-environment",
-      "gym"
+      "gymnasium",
+      "gymnasium-environment"
     ],
-    "updated_at": "2026-05-25T01:11:16Z"
+    "updated_at": "2026-05-29T16:07:10Z"
   },
   "repo_links": [
     {
@@ -383,6 +398,18 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gridworld-environment"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/minigrid.svg)](https://badge.fury.io/py/minigrid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gymnasium"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/minigrid.svg)](https://badge.fury.io/py/minigrid)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gymnasium-environment"
     }
   ]
 }

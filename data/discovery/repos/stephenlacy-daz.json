@@ -35,6 +35,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stephenlacy/daz",
+      "target": "hyperhype/hyperscript",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "stephenlacy/daz",
@@ -105,7 +112,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:27:57.520504+00:00",
+  "fetched_at": "2026-05-30T07:16:15.902464+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -144,6 +151,11 @@
     "updated_at": "2026-01-14T01:38:33Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperhype/hyperscript",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "stevelacy/daz",

@@ -37,6 +37,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "CI Scripts Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "langflow-ai/langflow",
       "target": "actions/checkout@v6",
@@ -155,27 +176,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/create-release.yml",
-      "source_repo": "langflow-ai/langflow",
-      "target": "actions/download-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/create-release.yml",
-      "source_repo": "langflow-ai/langflow",
-      "target": "ncipollo/release-action@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/create-release.yml",
-      "source_repo": "langflow-ai/langflow",
-      "target": "Create Release",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "langflow-ai/langflow",
@@ -211,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T07:10:34.990539+00:00",
   "source_repo": "langflow-ai/langflow"
 }

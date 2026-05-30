@@ -16,6 +16,16 @@
       "source_file": ".github/workflows/auto-update.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts-test.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
@@ -109,16 +119,6 @@
       "component": "bcoe/conventional-release-labels@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/conventional-labels.yml"
-    },
-    {
-      "component": "actions/download-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/create-release.yml"
-    },
-    {
-      "component": "ncipollo/release-action@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/create-release.yml"
     }
   ],
   "edges": [
@@ -155,6 +155,27 @@
       "source_file": ".github/workflows/auto-update.yml",
       "source_repo": "langflow-ai/langflow",
       "target": "Auto-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "CI Scripts Tests",
       "target_type": "term"
     },
     {
@@ -277,27 +298,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/create-release.yml",
-      "source_repo": "langflow-ai/langflow",
-      "target": "actions/download-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/create-release.yml",
-      "source_repo": "langflow-ai/langflow",
-      "target": "ncipollo/release-action@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/create-release.yml",
-      "source_repo": "langflow-ai/langflow",
-      "target": "Create Release",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "langflow-ai/langflow",
@@ -333,7 +333,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:35:31.070298+00:00",
+  "fetched_at": "2026-05-30T07:24:11.388665+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -345,7 +345,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 15809
+      "size": 16025
     },
     {
       "path": ".github/workflows/add-labels.yml",
@@ -356,8 +356,12 @@
       "size": 169
     },
     {
+      "path": ".github/workflows/ci-scripts-test.yml",
+      "size": 537
+    },
+    {
       "path": ".github/workflows/ci.yml",
-      "size": 21338
+      "size": 22032
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -370,10 +374,6 @@
     {
       "path": ".github/workflows/conventional-labels.yml",
       "size": 894
-    },
-    {
-      "path": ".github/workflows/create-release.yml",
-      "size": 908
     }
   ],
   "related_repositories": [],
@@ -385,8 +385,8 @@
     "full_name": "langflow-ai/langflow",
     "html_url": "https://github.com/langflow-ai/langflow",
     "language": "Python",
-    "pushed_at": "2026-05-26T21:33:19Z",
-    "stargazers_count": 148784,
+    "pushed_at": "2026-05-30T04:31:20Z",
+    "stargazers_count": 148893,
     "topics": [
       "agents",
       "chatgpt",
@@ -395,7 +395,7 @@
       "multiagent",
       "react-flow"
     ],
-    "updated_at": "2026-05-26T20:34:43Z"
+    "updated_at": "2026-05-30T07:16:53Z"
   },
   "repo_links": [],
   "terms": [
@@ -410,6 +410,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/auto-update.yml",
       "term": "Auto-update"
+    },
+    {
+      "context_snippet": "CI Scripts Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "term": "CI Scripts Tests"
     },
     {
       "context_snippet": "\"CodeQL\"",
@@ -428,12 +434,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/conventional-labels.yml",
       "term": "Label PRs with Conventional Commits"
-    },
-    {
-      "context_snippet": "Create Release",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/create-release.yml",
-      "term": "Create Release"
     },
     {
       "context_snippet": "<!-- markdownlint-disable MD030 -->",

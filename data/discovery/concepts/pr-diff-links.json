@@ -94,11 +94,17 @@
       "observed_at": "2026-05-26T18:56:15.123228+00:00",
       "source_file": ".github/workflows/pr-diff-links.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T07:10:34.990539+00:00",
+      "source_file": ".github/workflows/pr-diff-links.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ],
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T18:56:15.123228+00:00",
+  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -36,6 +36,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "patch-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "webpack",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -112,6 +117,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "meshcat-dev/meshcat",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "meshcat-dev/meshcat",
       "target": "webpack",
       "target_type": "component"
     },
@@ -130,11 +142,11 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-26T21:25:44.061613+00:00",
+  "fetched_at": "2026-05-30T07:14:08.254345+00:00",
   "fetched_files": [
     {
       "path": "package.json",
-      "size": 657
+      "size": 724
     }
   ],
   "related_repositories": [],
@@ -146,10 +158,10 @@
     "full_name": "meshcat-dev/meshcat",
     "html_url": "https://github.com/meshcat-dev/meshcat",
     "language": "HTML",
-    "pushed_at": "2026-05-21T19:04:14Z",
-    "stargazers_count": 331,
+    "pushed_at": "2026-05-28T21:51:23Z",
+    "stargazers_count": 332,
     "topics": [],
-    "updated_at": "2026-05-18T17:21:56Z"
+    "updated_at": "2026-05-28T17:08:15Z"
   },
   "repo_links": [
     {

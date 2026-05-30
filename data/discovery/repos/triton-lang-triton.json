@@ -333,11 +333,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:26:04.310194+00:00",
+  "fetched_at": "2026-05-30T07:14:30.071103+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15438
+      "size": 15477
     },
     {
       "path": "pyproject.toml",
@@ -345,7 +345,7 @@
     },
     {
       "path": ".github/workflows/build-macos.yml",
-      "size": 5481
+      "size": 5493
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -361,15 +361,15 @@
     },
     {
       "path": ".github/workflows/integration-tests-amd.yml",
-      "size": 13700
+      "size": 13724
     },
     {
       "path": ".github/workflows/integration-tests-nvidia.yml",
-      "size": 3888
+      "size": 3900
     },
     {
       "path": ".github/workflows/llvm-build.yml",
-      "size": 7441
+      "size": 7685
     },
     {
       "path": ".github/workflows/pre-commit.yml",
@@ -385,10 +385,10 @@
     "full_name": "triton-lang/triton",
     "html_url": "https://github.com/triton-lang/triton",
     "language": "MLIR",
-    "pushed_at": "2026-05-26T21:25:24Z",
-    "stargazers_count": 19282,
+    "pushed_at": "2026-05-30T05:54:21Z",
+    "stargazers_count": 19312,
     "topics": [],
-    "updated_at": "2026-05-26T21:10:14Z"
+    "updated_at": "2026-05-30T05:22:24Z"
   },
   "repo_links": [
     {

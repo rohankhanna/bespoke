@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/openapi-lint.yml",
       "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
     }
   ],
   "term": "OpenApi lint"

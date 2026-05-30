@@ -222,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:30:23.659171+00:00",
+  "fetched_at": "2026-05-30T07:18:38.102549+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,7 +250,7 @@
     "full_name": "beam-community/elixir-companies",
     "html_url": "https://github.com/beam-community/elixir-companies",
     "language": "Astro",
-    "pushed_at": "2026-05-14T21:52:24Z",
+    "pushed_at": "2026-05-26T23:38:59Z",
     "stargazers_count": 1666,
     "topics": [
       "company-profile",

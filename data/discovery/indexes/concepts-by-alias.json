@@ -19349,6 +19349,9 @@
   "ci scripts": [
     "ci-scripts"
   ],
+  "ci scripts tests": [
+    "ci-scripts-tests"
+  ],
   "ci self-hosted": [
     "ci-self-hosted"
   ],
@@ -43925,6 +43928,9 @@
   ],
   "gymnasium": [
     "gymnasium"
+  ],
+  "gymnasium-environment": [
+    "gymnasium-environment"
   ],
   "gzip": [
     "gzip"
@@ -71382,6 +71388,9 @@
   "publish gui release to github": [
     "publish-gui-release-to-github"
   ],
+  "publish harnesses": [
+    "publish-harnesses"
+  ],
   "publish helm chart": [
     "publish-helm-chart"
   ],
@@ -71930,6 +71939,9 @@
   ],
   "publish tags to flakehub": [
     "publish-tags-to-flakehub"
+  ],
+  "publish tasksets": [
+    "publish-tasksets"
   ],
   "publish template package to nuget": [
     "publish-template-package-to-nuget"

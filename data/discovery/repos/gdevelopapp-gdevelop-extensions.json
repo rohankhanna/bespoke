@@ -421,7 +421,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:25:31.864064+00:00",
+  "fetched_at": "2026-05-30T07:13:55.552824+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,8 +461,8 @@
     "full_name": "GDevelopApp/GDevelop-extensions",
     "html_url": "https://github.com/GDevelopApp/GDevelop-extensions",
     "language": "JavaScript",
-    "pushed_at": "2026-05-25T20:36:30Z",
-    "stargazers_count": 251,
+    "pushed_at": "2026-05-29T14:11:16Z",
+    "stargazers_count": 253,
     "topics": [
       "game-development",
       "game-engine",
@@ -471,7 +471,7 @@
       "hacktoberfest",
       "open-source"
     ],
-    "updated_at": "2026-05-25T18:59:38Z"
+    "updated_at": "2026-05-29T14:31:53Z"
   },
   "repo_links": [
     {

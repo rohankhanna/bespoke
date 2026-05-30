@@ -116,6 +116,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@redocly/workerize-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@size-limit/file",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -441,11 +446,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "workerize-loader",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "core-js",
       "edge_type": "package-json:peerDependencies",
       "source_file": "package.json"
@@ -538,97 +538,97 @@
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/setup-node@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/cache@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/upload-artifact@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/setup-node@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "EndBug/version-check@v2.0.1",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
-      "component": "actions/setup-node@v3",
+      "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/cache@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "aws-actions/configure-aws-credentials@v1",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "aws-actions/configure-aws-credentials@v1",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
+      "source_file": ".github/workflows/release.yaml"
     },
     {
       "component": "actions/checkout@v3",
@@ -796,6 +796,13 @@
       "source_file": "package.json",
       "source_repo": "Redocly/redoc",
       "target": "@cypress/webpack-preprocessor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Redocly/redoc",
+      "target": "@redocly/workerize-loader",
       "target_type": "component"
     },
     {
@@ -1254,13 +1261,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "Redocly/redoc",
-      "target": "workerize-loader",
-      "target_type": "component"
-    },
-    {
       "edge_type": "package-json:peerDependencies",
       "source_file": "package.json",
       "source_repo": "Redocly/redoc",
@@ -1395,56 +1395,63 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "actions/checkout@v3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "actions/setup-node@v3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "actions/cache@v3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "actions/download-artifact@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "EndBug/version-check@v2.0.1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Redocly/redoc",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "aws-actions/configure-aws-credentials@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "source_repo": "Redocly/redoc",
       "target": "Publish",
       "target_type": "term"
@@ -1541,7 +1548,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T19:26:35.387445+00:00",
+  "fetched_at": "2026-05-30T07:25:49.263461+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1549,7 +1556,7 @@
     },
     {
       "path": "package.json",
-      "size": 7049
+      "size": 7020
     },
     {
       "path": ".github/workflows/docs-tests.yaml",
@@ -1564,8 +1571,8 @@
       "size": 1034
     },
     {
-      "path": ".github/workflows/publish.yml",
-      "size": 3940
+      "path": ".github/workflows/release.yaml",
+      "size": 3935
     },
     {
       "path": ".github/workflows/unit-tests.yml",
@@ -1581,8 +1588,8 @@
     "full_name": "Redocly/redoc",
     "html_url": "https://github.com/Redocly/redoc",
     "language": "TypeScript",
-    "pushed_at": "2026-05-12T13:24:40Z",
-    "stargazers_count": 25714,
+    "pushed_at": "2026-05-29T11:12:07Z",
+    "stargazers_count": 25721,
     "topics": [
       "api-documentation",
       "documentation-generator",
@@ -1596,7 +1603,7 @@
       "redoc",
       "swagger"
     ],
-    "updated_at": "2026-05-26T18:00:40Z"
+    "updated_at": "2026-05-30T04:19:20Z"
   },
   "repo_links": [],
   "terms": [
@@ -1621,7 +1628,7 @@
     {
       "context_snippet": "Publish",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/publish.yml",
+      "source_file": ".github/workflows/release.yaml",
       "term": "Publish"
     },
     {

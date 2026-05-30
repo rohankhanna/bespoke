@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Scripts Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "CI Scripts Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate",
+      "text": "CI Scripts Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20292,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18331,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12176,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12154,
+      "status": "candidate",
+      "text": "chemist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Scripts Tests",
+  "concept_id": "ci-scripts-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T07:10:34.990539+00:00",
+      "source_file": ".github/workflows/ci-scripts-test.yml",
+      "source_repo": "langflow-ai/langflow"
+    }
+  ],
+  "first_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Scripts Tests",
+      "sense_id": "ci-scripts-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

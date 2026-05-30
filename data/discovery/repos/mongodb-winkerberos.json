@@ -56,12 +56,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -156,7 +156,7 @@
       "source_file": ".github/workflows/zizmor.yml"
     },
     {
-      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "component": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml"
     }
@@ -229,14 +229,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
       "target_type": "component"
     },
     {
@@ -348,7 +348,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "target_type": "component"
     },
     {
@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:30:46.634177+00:00",
+  "fetched_at": "2026-05-30T07:18:59.975337+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -403,7 +403,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 2372
+      "size": 2403
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -431,7 +431,7 @@
     "full_name": "mongodb/winkerberos",
     "html_url": "https://github.com/mongodb/winkerberos",
     "language": "C",
-    "pushed_at": "2026-05-26T20:29:54Z",
+    "pushed_at": "2026-05-28T16:23:35Z",
     "stargazers_count": 57,
     "topics": [
       "authentication",
@@ -441,7 +441,7 @@
       "python",
       "sspi"
     ],
-    "updated_at": "2026-04-29T01:10:18Z"
+    "updated_at": "2026-05-28T16:23:32Z"
   },
   "repo_links": [
     {

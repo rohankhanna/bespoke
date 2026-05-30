@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -196,7 +196,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -466,7 +466,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -722,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:27:21.878402+00:00",
+  "fetched_at": "2026-05-30T07:15:41.591895+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -742,7 +742,7 @@
     },
     {
       "path": ".github/workflows/dependencies.yml",
-      "size": 1819
+      "size": 1792
     },
     {
       "path": ".github/workflows/dev.yml",
@@ -774,8 +774,8 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-05-26T10:25:44Z",
-    "stargazers_count": 2044,
+    "pushed_at": "2026-05-29T21:37:11Z",
+    "stargazers_count": 2050,
     "topics": [
       "arrow",
       "big-data",
@@ -787,7 +787,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-05-25T20:00:48Z"
+    "updated_at": "2026-05-29T21:37:08Z"
   },
   "repo_links": [],
   "terms": [

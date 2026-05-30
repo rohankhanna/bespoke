@@ -9,27 +9,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-deploy-prod.yml",
-      "source_repo": "mozilla-ai/otari",
-      "target": "aws-actions/configure-aws-credentials@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-deploy-prod.yml",
-      "source_repo": "mozilla-ai/otari",
-      "target": "aws-actions/amazon-ecs-deploy-task-definition@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-deploy-prod.yml",
-      "source_repo": "mozilla-ai/otari",
-      "target": "Deploy Gateway to Production",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gateway-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "actions/checkout@v6",
@@ -81,14 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gateway-docker.yml",
       "source_repo": "mozilla-ai/otari",
-      "target": "aws-actions/configure-aws-credentials@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
-      "source_repo": "mozilla-ai/otari",
-      "target": "aws-actions/amazon-ecs-deploy-task-definition@v2",
+      "target": "actions/create-github-app-token@v2",
       "target_type": "component"
     },
     {
@@ -176,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T07:10:34.990539+00:00",
   "source_repo": "mozilla-ai/otari"
 }

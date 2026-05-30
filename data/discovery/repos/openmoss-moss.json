@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenMOSS/MOSS",
-      "target": "openlmlab/moss",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenMOSS/MOSS",
       "target": "openai/triton",
       "target_type": "repository"
     },
@@ -58,11 +51,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:26:09.250787+00:00",
+  "fetched_at": "2026-05-30T07:14:33.287086+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 26946
+      "size": 27116
     },
     {
       "path": "requirements.txt",
@@ -78,8 +71,8 @@
     "full_name": "OpenMOSS/MOSS",
     "html_url": "https://github.com/OpenMOSS/MOSS",
     "language": "Python",
-    "pushed_at": "2024-07-13T14:52:59Z",
-    "stargazers_count": 12120,
+    "pushed_at": "2026-05-27T13:16:14Z",
+    "stargazers_count": 12127,
     "topics": [
       "chatgpt",
       "deep-learning",
@@ -88,17 +81,12 @@
       "natural-language-processing",
       "text-generation"
     ],
-    "updated_at": "2026-05-26T15:04:25Z"
+    "updated_at": "2026-05-30T01:16:40Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "openai/triton",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openlmlab/moss",
       "source_file": "README.md"
     }
   ],

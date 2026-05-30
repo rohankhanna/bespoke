@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:32:50.577213+00:00",
+  "fetched_at": "2026-05-30T07:21:12.298646+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,7 +228,7 @@
     },
     {
       "path": ".github/workflows/build-ci-container-windows.yml",
-      "size": 3087
+      "size": 3376
     },
     {
       "path": ".github/workflows/build-ci-container.yml",
@@ -256,10 +256,10 @@
     "full_name": "swiftlang/llvm-project",
     "html_url": "https://github.com/swiftlang/llvm-project",
     "language": "LLVM",
-    "pushed_at": "2026-05-26T21:29:42Z",
+    "pushed_at": "2026-05-30T07:14:17Z",
     "stargazers_count": 1228,
     "topics": [],
-    "updated_at": "2026-05-26T20:20:22Z"
+    "updated_at": "2026-05-30T05:54:45Z"
   },
   "repo_links": [
     {

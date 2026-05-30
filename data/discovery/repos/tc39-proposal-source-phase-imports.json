@@ -98,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:33:18.465366+00:00",
+  "fetched_at": "2026-05-30T07:21:49.774167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -123,13 +123,13 @@
     "html_url": "https://github.com/tc39/proposal-source-phase-imports",
     "language": "HTML",
     "pushed_at": "2026-03-25T16:30:29Z",
-    "stargazers_count": 162,
+    "stargazers_count": 163,
     "topics": [
       "javascript",
       "proposal",
       "tc39"
     ],
-    "updated_at": "2026-05-20T08:07:42Z"
+    "updated_at": "2026-05-29T20:01:08Z"
   },
   "repo_links": [
     {

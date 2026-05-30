@@ -1298,7 +1298,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:30:33.722719+00:00",
+  "fetched_at": "2026-05-30T07:18:47.903257+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1306,7 +1306,7 @@
     },
     {
       "path": "package.json",
-      "size": 8246
+      "size": 8368
     },
     {
       "path": ".github/workflows/check-changelog.yml",
@@ -1350,8 +1350,8 @@
     "full_name": "jestjs/jest",
     "html_url": "https://github.com/jestjs/jest",
     "language": "TypeScript",
-    "pushed_at": "2026-05-25T13:50:28Z",
-    "stargazers_count": 45359,
+    "pushed_at": "2026-05-28T17:11:46Z",
+    "stargazers_count": 45361,
     "topics": [
       "easy",
       "expectation",
@@ -1363,7 +1363,7 @@
       "snapshot",
       "testing"
     ],
-    "updated_at": "2026-05-26T14:26:01Z"
+    "updated_at": "2026-05-30T02:17:39Z"
   },
   "repo_links": [
     {

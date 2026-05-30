@@ -142,6 +142,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openapi-lint.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "OpenAPI Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-latest.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "actions/checkout@v5",
@@ -169,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T07:10:34.990539+00:00",
   "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
 }

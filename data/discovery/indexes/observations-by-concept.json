@@ -29552,6 +29552,9 @@
   "ci-scripts": [
     "cfc84d1583b15ba6"
   ],
+  "ci-scripts-tests": [
+    "f6173c8d22747ec1"
+  ],
   "ci-self-hosted": [
     "2dbf5f89b2200ffd",
     "812190112b9363c2"
@@ -73701,8 +73704,12 @@
     "0ca4a0363393dbc3",
     "20fc1dcda9f87c76",
     "3a84f467fbb6a609",
+    "876bb188a5ecb3d3",
     "93f2be5468cfbce0",
     "94d0a54991964a01"
+  ],
+  "gymnasium-environment": [
+    "16fb31684526295e"
   ],
   "gzip": [
     "02859ab67704826c",
@@ -111063,6 +111070,7 @@
   ],
   "openapi-lint": [
     "015d4e3ed293570e",
+    "133edaf95e04e48b",
     "5cd70360ff35f234"
   ],
   "openapi-publish": [
@@ -121527,6 +121535,7 @@
     "19a25a7d31ed0458",
     "1a248176f5320e2d",
     "1af6aba8e5649174",
+    "1b8cad3ce7d80b93",
     "1bc27d95294cb967",
     "1ced1467169358ba",
     "1de7e85f58ab3184",
@@ -122428,6 +122437,9 @@
   "publish-gui-release-to-github": [
     "26cb2ca535fe92f2"
   ],
+  "publish-harnesses": [
+    "8294df2c88920d83"
+  ],
   "publish-helm-chart": [
     "0b931aeb9e172c87",
     "2981cbe3a4f64119",
@@ -123217,6 +123229,9 @@
     "d42bb3a806e7e76e",
     "fbc80cff9937b752",
     "fbe1f416e10b58f1"
+  ],
+  "publish-tasksets": [
+    "bf5fe69c1be1229e"
   ],
   "publish-technical-documentation-next": [
     "2294d40ae1a29ab2"
