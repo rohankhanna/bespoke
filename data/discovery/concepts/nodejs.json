@@ -18220,11 +18220,41 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": null,
       "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
   "lexical_providers": [
     "datamuse"
   ],

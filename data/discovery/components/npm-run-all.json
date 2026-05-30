@@ -1,7 +1,7 @@
 {
   "component": "npm-run-all",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

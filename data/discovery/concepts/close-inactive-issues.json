@@ -4278,11 +4278,17 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": ".github/workflows/clear_issues.yml.disabled",
       "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
   "lexical_providers": [
     "datamuse"
   ],

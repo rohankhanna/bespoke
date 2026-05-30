@@ -10010,11 +10010,29 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-30T12:38:40.310820+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
   "lexical_providers": [
     "datamuse"
   ],

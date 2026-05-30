@@ -1,21 +1,16 @@
 {
-  "first_seen_at": "2026-05-30T07:10:34.990539+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "first_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "dwyl/quotes"
+      "source_repo": "flightcontrolhq/superjson"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "fastapi/fastapi"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ultrajson/ultrajson"
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "term": "json"

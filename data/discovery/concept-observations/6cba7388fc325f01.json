@@ -48,7 +48,7 @@
   "normalized_form": "automation-labels",
   "observation_id": "6cba7388fc325f01",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-05-30T12:38:40.310820+00:00",
   "observed_text": "automation-labels",
   "source_context_snippet": "automation-labels",
   "source_file": ".github/workflows/automation_labels.yml",

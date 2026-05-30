@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
   "first_seen_at": "2026-05-25T18:41:09.248128+00:00",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "karafka/example-apps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
     }
   ]
 }

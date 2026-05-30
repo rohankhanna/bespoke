@@ -84,7 +84,7 @@
   "normalized_form": "deploy-documentation",
   "observation_id": "4d76d1f9ff7d0c2a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-05-30T12:38:40.310820+00:00",
   "observed_text": "Deploy documentation",
   "source_context_snippet": "Deploy documentation",
   "source_file": ".github/workflows/asciidoctor.yml",

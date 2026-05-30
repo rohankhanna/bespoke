@@ -48,7 +48,7 @@
   "normalized_form": "neovim",
   "observation_id": "f940533cbea9577a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-05-30T12:38:40.310820+00:00",
   "observed_text": "neovim",
   "source_context_snippet": "neovim",
   "source_file": ".github/workflows/neovim.yml",

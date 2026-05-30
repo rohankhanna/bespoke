@@ -11,6 +11,36 @@
       "source_file": ".github/workflows/chunk.yml"
     },
     {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml"
+    },
+    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
@@ -194,6 +224,21 @@
       "component": "stefanzweifel/git-auto-commit-action@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-ts-parsers-json.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
     }
   ],
   "edges": [
@@ -224,6 +269,34 @@
       "source_repo": "lumen-oss/nurr",
       "target": "actions/checkout@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "Nix build",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -478,6 +551,34 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "DeterminateSystems/nix-installer-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "DeterminateSystems/update-flake-lock@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lumen-oss/nurr",
@@ -499,11 +600,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T20:15:15.025734+00:00",
+  "fetched_at": "2026-05-30T12:53:36.987838+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2535
+      "size": 2702
     },
     {
       "path": ".github/workflows/chunk-ts-parsers.yml",
@@ -512,6 +613,10 @@
     {
       "path": ".github/workflows/chunk.yml",
       "size": 1157
+    },
+    {
+      "path": ".github/workflows/nix-build.yaml",
+      "size": 820
     },
     {
       "path": ".github/workflows/pr.yml",
@@ -532,6 +637,10 @@
     {
       "path": ".github/workflows/update-ts-parsers-json.yml",
       "size": 1957
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 672
     }
   ],
   "related_repositories": [],
@@ -543,14 +652,14 @@
     "full_name": "lumen-oss/nurr",
     "html_url": "https://github.com/lumen-oss/nurr",
     "language": "Lua",
-    "pushed_at": "2026-05-03T14:10:40Z",
+    "pushed_at": "2026-05-29T17:46:50Z",
     "stargazers_count": 42,
     "topics": [
       "luarocks",
       "neovim",
       "plugin-repo"
     ],
-    "updated_at": "2026-05-03T14:10:45Z"
+    "updated_at": "2026-05-29T17:46:54Z"
   },
   "repo_links": [
     {
@@ -565,6 +674,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "\"Nix build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "term": "Nix build"
+    },
     {
       "context_snippet": "test pr",
       "edge_type": "workflow-name",
@@ -590,19 +705,25 @@
       "term": "Publish semver tags to LuaRocks"
     },
     {
-      "context_snippet": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins",
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "The NURR hosts and automatically packages Luarocks releases for many Neovim plugins,",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "luarocks"
     },
     {
-      "context_snippet": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins",
+      "context_snippet": "The NURR hosts and automatically packages Luarocks releases for many Neovim plugins,",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "neovim"
     },
     {
-      "context_snippet": "The NURR hosts and automatically packages Neovim Luarocks releases for many plugins",
+      "context_snippet": "The NURR hosts and automatically packages Luarocks releases for many Neovim plugins,",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "plugin-repo"

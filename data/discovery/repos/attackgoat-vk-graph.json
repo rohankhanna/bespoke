@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T01:13:41.348388+00:00",
+  "fetched_at": "2026-05-30T12:44:35.692875+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +161,7 @@
     "full_name": "attackgoat/vk-graph",
     "html_url": "https://github.com/attackgoat/vk-graph",
     "language": "Rust",
-    "pushed_at": "2026-05-29T10:40:10Z",
+    "pushed_at": "2026-05-30T10:01:01Z",
     "stargazers_count": 337,
     "topics": [
       "3d",

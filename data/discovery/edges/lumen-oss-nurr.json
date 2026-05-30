@@ -30,6 +30,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yaml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "Nix build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "lumen-oss/nurr",
       "target": "actions/checkout@v4",
@@ -281,6 +309,34 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "DeterminateSystems/nix-installer-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "DeterminateSystems/update-flake-lock@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/nurr",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lumen-oss/nurr",
@@ -302,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-26T18:56:15.123228+00:00",
+  "generated_at": "2026-05-30T12:38:40.310820+00:00",
   "source_repo": "lumen-oss/nurr"
 }
