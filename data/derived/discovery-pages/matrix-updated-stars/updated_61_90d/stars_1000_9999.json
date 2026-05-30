@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3521,
-    "concepts": 2226,
-    "observations": 2233,
-    "repos": 408,
-    "terms": 2229
+    "components": 3529,
+    "concepts": 2237,
+    "observations": 2244,
+    "repos": 411,
+    "terms": 2240
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "aaaaalexis/obsidian-cupertino",
@@ -89,6 +89,7 @@
     "container-storage-interface/spec",
     "containers/bubblewrap",
     "coocood/freecache",
+    "copilot-emacs/copilot.el",
     "cortesi/devd",
     "cosmiconfig/cosmiconfig",
     "crossbario/autobahn-js",
@@ -257,6 +258,7 @@
     "miolini/autoresearch-macos",
     "mitsuhiko/insta",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
+    "Mooncake-Labs/pg_mooncake",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "mourner/flatbush",
@@ -343,6 +345,7 @@
     "salesforce/BLIP",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
+    "sds/overcommit",
     "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 102,
-    "observations": 102,
+    "components": 120,
+    "concepts": 105,
+    "observations": 105,
     "repos": 12,
-    "terms": 102
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
-    "google-deepmind/dm-haiku",
     "google-deepmind/optax",
+    "harbor-framework/harbor",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "ogx-ai/ogx",
-    "redis/redis-om-python",
+    "PrimeIntellect-ai/verifiers",
     "safetensors/safetensors"
   ]
 }

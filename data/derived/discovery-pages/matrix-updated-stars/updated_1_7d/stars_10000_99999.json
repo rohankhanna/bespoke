@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 932,
-    "concepts": 403,
-    "observations": 404,
-    "repos": 34,
-    "terms": 403
+    "components": 538,
+    "concepts": 383,
+    "observations": 385,
+    "repos": 35,
+    "terms": 379
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
@@ -20,7 +20,11 @@
     "dexie/Dexie.js",
     "DioxusLabs/dioxus",
     "fastapi/fastapi",
+    "ggml-org/ggml",
+    "git-lfs/git-lfs",
+    "github-linguist/linguist",
     "google-ai-edge/mediapipe",
+    "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",
     "HIllya51/LunaTranslator",
     "hiyouga/LlamaFactory",
@@ -28,23 +32,20 @@
     "huggingface/sentence-transformers",
     "isl-org/Open3D",
     "jestjs/jest",
-    "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
     "Lightning-AI/pytorch-lightning",
-    "lobehub/lobehub",
-    "NVIDIA-NeMo/NeMo",
     "nwjs/nw.js",
+    "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
     "preactjs/preact",
     "protocolbuffers/protobuf",
     "python-poetry/poetry",
-    "QuantumNous/new-api",
+    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "spaceship-prompt/spaceship-prompt",
     "TEN-framework/ten-framework",
-    "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",
-    "upptime/upptime",
+    "unifyai/ivy",
     "vercel-labs/skills",
     "zhayujie/CowAgent"
   ]

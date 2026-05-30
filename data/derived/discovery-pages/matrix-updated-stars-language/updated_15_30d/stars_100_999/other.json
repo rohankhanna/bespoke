@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1002,
-    "concepts": 653,
-    "observations": 653,
-    "repos": 103,
-    "terms": 649
+    "components": 983,
+    "concepts": 636,
+    "observations": 636,
+    "repos": 100,
+    "terms": 632
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "actions/python-versions",
@@ -42,7 +42,6 @@
     "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
     "EdenEast/nyx",
-    "elixir-protobuf/protobuf",
     "erlef/rebar3_hex",
     "groundhog2k/helm-charts",
     "halostatue/diff-lcs",
@@ -93,13 +92,11 @@
     "nim-lang/langserver",
     "nix-community/haumea",
     "ocaml-ppx/ocamlformat",
-    "open-telemetry/opentelemetry-erlang-contrib",
     "open-telemetry/opentelemetry-helm-charts",
     "openair-project/openair",
     "openstreetmap/id-tagging-schema",
     "osmlab/editor-layer-index",
     "osmlab/name-suggestion-index",
-    "php/doc-en",
     "phpstan/phpstan-src",
     "pulumi/templates",
     "rafaqz/DimensionalData.jl",

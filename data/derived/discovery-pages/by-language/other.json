@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 26512,
-    "concepts": 22844,
-    "observations": 22917,
-    "repos": 5640,
-    "terms": 22781
+    "concepts": 22841,
+    "observations": 22914,
+    "repos": 5638,
+    "terms": 22772
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -2758,7 +2758,6 @@
     "JacksonBurns/chemeleon",
     "jadestrong/lsp-volar",
     "jaegertracing/docker-protobuf",
-    "jakeheis/Ice",
     "jakeheis/SwiftCLI",
     "JakeWharton/dependency-tree-diff",
     "jakewvincent/texmagic.nvim",
@@ -4317,7 +4316,6 @@
     "picturepan2/spectre",
     "PingoLH/CatConv2d",
     "pinnymz/ruby-zmanim",
-    "pinobatch/allpads-nes",
     "pinterest/ktlint",
     "pipecat-ai/docs",
     "pirapira/eth-isabelle",

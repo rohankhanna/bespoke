@@ -1,30 +1,30 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 112,
-    "observations": 112,
+    "components": 249,
+    "concepts": 109,
+    "observations": 109,
     "repos": 19,
-    "terms": 112
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "dwyl/mvp",
     "edge-classic/EDGE-classic",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "FAIR-IMPACT/MOD",
     "intel-staging/text-generation-webui",
+    "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
     "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "mongodb/winkerberos",
     "mono/skia",
-    "mozilla-ai/otari",
     "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
     "python-poetry/website",

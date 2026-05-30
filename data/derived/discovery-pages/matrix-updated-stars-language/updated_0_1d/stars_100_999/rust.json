@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 11,
-    "observations": 12,
-    "repos": 2,
-    "terms": 11
+    "components": 18,
+    "concepts": 13,
+    "observations": 14,
+    "repos": 3,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "attackgoat/vk-graph",
-    "EmmyLuaLs/emmylua-analyzer-rust"
+    "EmmyLuaLs/emmylua-analyzer-rust",
+    "servo/stylo"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2253,
-    "concepts": 3042,
-    "observations": 3049,
-    "repos": 963,
-    "terms": 3026
+    "components": 2251,
+    "concepts": 3039,
+    "observations": 3046,
+    "repos": 962,
+    "terms": 3020
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -462,7 +462,6 @@
     "ivodolenc/aspekta",
     "j-min/DSG",
     "jackroos/VL-BERT",
-    "jakeheis/Ice",
     "jakeheis/SwiftCLI",
     "JamesRandall/FunctionMonkey",
     "jannisborn/covid19_ultrasound",

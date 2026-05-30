@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1718,
-    "concepts": 1913,
-    "observations": 1920,
-    "repos": 249,
-    "terms": 1899
+    "components": 1728,
+    "concepts": 1925,
+    "observations": 1932,
+    "repos": 251,
+    "terms": 1911
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -25,6 +25,7 @@
     "alanxz/rabbitmq-c",
     "alibaba/havenask",
     "AOMediaCodec/libavif",
+    "apache/age",
     "aphrodite-engine/aphrodite-engine",
     "appium/WebDriverAgent",
     "ARM-software/astc-encoder",
@@ -258,6 +259,7 @@
     "YACReader/yacreader",
     "yaml/libyaml",
     "ycm-core/ycmd",
+    "YosysHQ/nextpnr",
     "YosysHQ/yosys",
     "zeux/meshoptimizer",
     "zeux/pugixml",

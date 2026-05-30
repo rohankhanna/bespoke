@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 560,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 5,
-    "terms": 49
+    "components": 194,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 4,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "dexie/Dexie.js",
+    "googleapis/google-api-nodejs-client",
     "jestjs/jest",
-    "langchain-ai/langchainjs",
-    "lobehub/lobehub",
     "vercel-labs/skills"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4516,
-    "concepts": 3081,
-    "observations": 3087,
-    "repos": 788,
-    "terms": 3077
+    "components": 4505,
+    "concepts": 3075,
+    "observations": 3081,
+    "repos": 787,
+    "terms": 3071
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -81,7 +81,6 @@
     "apollographql/supergraph-demo-fed2",
     "appbaseio/reactivesearch-api",
     "appbaseio/searchbox",
-    "appelmar/gdalcubes",
     "AppImageCommunity/awesome-appimage",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",

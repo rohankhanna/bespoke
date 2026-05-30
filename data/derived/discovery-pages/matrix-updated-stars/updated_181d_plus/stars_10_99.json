@@ -3,15 +3,15 @@
     "components": 11841,
     "concepts": 6859,
     "observations": 6875,
-    "repos": 3261,
-    "terms": 6807
+    "repos": 3260,
+    "terms": 6805
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -2533,7 +2533,6 @@
     "pingcap/tidb-map",
     "PingoLH/CatConv2d",
     "pinnymz/python-zmanim",
-    "pinobatch/allpads-nes",
     "pinpox/base16-universal-manager",
     "piotrpalarz/vscode-gitignore-generator",
     "pipecat-ai/pipecat-esp32",

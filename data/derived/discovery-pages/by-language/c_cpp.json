@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9607,
+    "components": 9610,
     "concepts": 11460,
     "observations": 11488,
     "repos": 2386,
-    "terms": 11366
+    "terms": 11363
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",

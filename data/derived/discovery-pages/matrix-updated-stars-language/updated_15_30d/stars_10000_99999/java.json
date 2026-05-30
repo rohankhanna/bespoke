@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 119,
-    "observations": 121,
-    "repos": 9,
-    "terms": 118
+    "components": 96,
+    "concepts": 91,
+    "observations": 92,
+    "repos": 7,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "apache/pulsar",
-    "debezium/debezium",
     "elastic/elasticsearch",
     "elastic/logstash",
     "jenkinsci/jenkins",
     "languagetool-org/languagetool",
     "openjdk/jdk",
-    "oracle/graal",
     "redisson/redisson"
   ]
 }

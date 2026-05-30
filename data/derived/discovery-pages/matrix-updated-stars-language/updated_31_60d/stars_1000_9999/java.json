@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 578,
-    "concepts": 707,
-    "observations": 709,
-    "repos": 74,
-    "terms": 704
+    "components": 605,
+    "concepts": 740,
+    "observations": 742,
+    "repos": 76,
+    "terms": 737
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -56,6 +56,7 @@
     "googleapis/google-api-java-client",
     "googleapis/google-cloud-java",
     "googleapis/google-http-java-client",
+    "hazelcast/hazelcast",
     "http-kit/http-kit",
     "iterate-ch/cyberduck",
     "jboss-javassist/javassist",
@@ -70,6 +71,7 @@
     "langchain4j/langchain4j-examples",
     "langgraph4j/langgraph4j",
     "lightbend/config",
+    "micronaut-projects/micronaut-core",
     "ninjaframework/ninja",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",

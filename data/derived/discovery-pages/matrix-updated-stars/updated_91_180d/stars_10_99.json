@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2323,
-    "concepts": 1313,
-    "observations": 1320,
-    "repos": 506,
-    "terms": 1320
+    "components": 2320,
+    "concepts": 1306,
+    "observations": 1313,
+    "repos": 505,
+    "terms": 1313
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -210,7 +210,6 @@
     "evmos/os",
     "extism/go-pdk",
     "extism/rust-pdk",
-    "FAIR-IMPACT/MOD",
     "falcoframework/Falco.Htmx",
     "falcoframework/Falco.OpenApi",
     "fengkx/jieba-wasm",

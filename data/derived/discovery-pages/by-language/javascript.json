@@ -4,13 +4,13 @@
     "concepts": 8835,
     "observations": 8862,
     "repos": 2091,
-    "terms": 8826
+    "terms": 8822
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",

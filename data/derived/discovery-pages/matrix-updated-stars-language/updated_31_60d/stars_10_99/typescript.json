@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3210,
-    "concepts": 556,
-    "observations": 561,
-    "repos": 116,
-    "terms": 588
+    "components": 3223,
+    "concepts": 558,
+    "observations": 563,
+    "repos": 117,
+    "terms": 590
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -41,6 +41,7 @@
     "catppuccin/.github",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
+    "coasys/flux",
     "codemirror/language",
     "dannyhw/expo-storybook-starter",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",

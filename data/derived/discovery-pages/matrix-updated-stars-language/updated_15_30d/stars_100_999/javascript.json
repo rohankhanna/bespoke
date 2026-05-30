@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 502,
+    "components": 479,
     "concepts": 96,
     "observations": 97,
-    "repos": 20,
+    "repos": 19,
     "terms": 94
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "americanexpress/jest-json-schema",
@@ -32,7 +32,6 @@
     "tc39/eshost",
     "usnistgov/h5wasm",
     "validator/grunt-html",
-    "vllm-project/recipes",
     "w3c/webref"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 300,
-    "observations": 301,
-    "repos": 81,
-    "terms": 295
+    "components": 219,
+    "concepts": 294,
+    "observations": 295,
+    "repos": 80,
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
-    "appelmar/gdalcubes",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",
     "arminbiere/aiger",

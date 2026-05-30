@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1514,
-    "concepts": 232,
-    "observations": 232,
-    "repos": 29,
-    "terms": 232
+    "components": 1431,
+    "concepts": 228,
+    "observations": 228,
+    "repos": 28,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
-    "antfu/eslint-config",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",

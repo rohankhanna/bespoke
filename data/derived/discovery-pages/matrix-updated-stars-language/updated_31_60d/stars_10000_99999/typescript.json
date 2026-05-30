@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8665,
-    "concepts": 1177,
-    "observations": 1184,
-    "repos": 118,
-    "terms": 1190
+    "components": 8711,
+    "concepts": 1216,
+    "observations": 1223,
+    "repos": 120,
+    "terms": 1229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -93,6 +93,7 @@
     "neoclide/coc.nvim",
     "nvidia/nemoclaw",
     "openai/openai-node",
+    "openobserve/openobserve",
     "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
@@ -129,6 +130,7 @@
     "Vinzent03/obsidian-git",
     "vitest-dev/vitest",
     "VSCodeVim/Vim",
+    "web-infra-dev/midscene",
     "wojtekmaj/react-pdf",
     "xtermjs/xterm.js",
     "xyflow/xyflow"

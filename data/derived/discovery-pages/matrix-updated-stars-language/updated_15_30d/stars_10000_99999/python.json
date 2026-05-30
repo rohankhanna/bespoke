@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 450,
-    "concepts": 426,
-    "observations": 427,
-    "repos": 38,
-    "terms": 421
+    "components": 446,
+    "concepts": 419,
+    "observations": 420,
+    "repos": 37,
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -43,7 +43,6 @@
     "pypa/pipenv",
     "pypa/pipx",
     "roboflow/supervision",
-    "RVC-Boss/GPT-SoVITS",
     "scipy/scipy",
     "scrapy/scrapy",
     "StevenBlack/hosts",

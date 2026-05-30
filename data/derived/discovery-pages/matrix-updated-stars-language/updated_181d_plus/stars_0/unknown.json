@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 221,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 125,
-    "terms": 105
+    "components": 224,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 126,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -63,6 +63,7 @@
     "datachainlab/base64",
     "datachainlab/solidity-datetime",
     "datafuse-extras/async-compression",
+    "datafuse-extras/pprof-rs",
     "datafuse-extras/serde-bridge",
     "datafuse-extras/serde-env",
     "devongovett/html5ever",

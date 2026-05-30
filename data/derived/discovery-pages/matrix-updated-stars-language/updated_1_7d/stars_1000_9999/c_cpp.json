@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 82,
-    "concepts": 42,
-    "observations": 43,
-    "repos": 4,
-    "terms": 41
+    "concepts": 47,
+    "observations": 48,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
     "KhronosGroup/KTX-Software",
     "riscv-collab/riscv-gnu-toolchain",
+    "swiftlang/swift-llbuild",
     "ultrajson/ultrajson"
   ]
 }

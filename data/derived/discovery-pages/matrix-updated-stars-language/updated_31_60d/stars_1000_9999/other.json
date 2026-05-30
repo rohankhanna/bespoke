@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3384,
-    "concepts": 3174,
-    "observations": 3194,
+    "components": 3394,
+    "concepts": 3199,
+    "observations": 3219,
     "repos": 453,
-    "terms": 3158
+    "terms": 3183
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -105,12 +105,12 @@
     "clojure/core.async",
     "cloudfoundry/bosh",
     "CocoaPods/Xcodeproj",
+    "com-lihaoyi/mill",
     "community/community",
     "company-mode/company-mode",
     "compose-spec/compose-spec",
     "connectbot/connectbot",
     "ControlzEx/ControlzEx",
-    "copilot-emacs/copilot.el",
     "cortinico/kotlin-android-template",
     "cosmos/ibc",
     "coursier/coursier",
@@ -237,6 +237,7 @@
     "hugoduncan/criterium",
     "ibhagwan/fzf-lua",
     "idris-lang/Idris2",
+    "intel/llvm",
     "invertase/melos",
     "ipfs/specs",
     "ipld/ipld",
@@ -408,7 +409,6 @@
     "sass/dart-sass",
     "sbdchd/neoformat",
     "ScoopInstaller/Main",
-    "sds/overcommit",
     "sebastienros/jint",
     "serversideup/financial-freedom",
     "shivammehta25/Matcha-TTS",

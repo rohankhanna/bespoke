@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 36,
-    "terms": 74
+    "components": 37,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 35,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -30,7 +30,6 @@
     "ellie/atuin",
     "eric-haibin-lin/verl-community",
     "ethereum/beacon-metrics",
-    "FAIR-IMPACT/MOD",
     "getlantern/lantern-forum-cn",
     "hchiam/learning",
     "hicchicc/x8y12pxDenkiChip",

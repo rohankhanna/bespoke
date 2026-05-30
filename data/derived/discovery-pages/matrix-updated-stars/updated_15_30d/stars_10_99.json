@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2066,
-    "concepts": 1254,
-    "observations": 1261,
-    "repos": 235,
-    "terms": 1245
+    "components": 2053,
+    "concepts": 1252,
+    "observations": 1259,
+    "repos": 234,
+    "terms": 1243
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abap2UI5-addons/sql-console",
@@ -68,7 +68,6 @@
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/uaa-release",
     "coasys/ad4m",
-    "coasys/flux",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
     "conservationtechlab/animl-py",

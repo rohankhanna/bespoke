@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1274,
-    "concepts": 540,
-    "observations": 542,
-    "repos": 444,
-    "terms": 540
+    "components": 1277,
+    "concepts": 541,
+    "observations": 543,
+    "repos": 445,
+    "terms": 541
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -173,6 +173,7 @@
     "datafuse-extras/async-compression",
     "datafuse-extras/async-recursion",
     "datafuse-extras/logforth",
+    "datafuse-extras/pprof-rs",
     "datafuse-extras/recursive",
     "datafuse-extras/serde-bridge",
     "datafuse-extras/serde-env",

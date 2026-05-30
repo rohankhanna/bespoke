@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 563,
-    "concepts": 448,
-    "observations": 448,
-    "repos": 46,
-    "terms": 443
+    "components": 537,
+    "concepts": 419,
+    "observations": 419,
+    "repos": 43,
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "agentclientprotocol/agent-client-protocol",
     "Aleph-Alpha/ts-rs",
@@ -29,7 +29,6 @@
     "dimforge/kiss3d",
     "dora-rs/dora",
     "erebe/wstunnel",
-    "facebook/buck2",
     "facebook/pyrefly",
     "facebook/sapling",
     "holochain/holochain",
@@ -44,7 +43,6 @@
     "nix-rust/nix",
     "prefix-dev/pixi",
     "reubeno/brush",
-    "risingwavelabs/risingwave",
     "robustmq/robustmq",
     "ron-rs/ron",
     "ros2-rust/ros2_rust",
@@ -56,7 +54,6 @@
     "rust-openssl/rust-openssl",
     "Splode/pomotroid",
     "supabase/etl",
-    "tensorchord/VectorChord",
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
     "watchexec/watchexec"

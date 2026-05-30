@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 10,
     "observations": 10,
-    "repos": 1,
+    "repos": 2,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
-    "dkron-io/dkron"
+    "dkron-io/dkron",
+    "googleapis/google-api-go-client"
   ]
 }

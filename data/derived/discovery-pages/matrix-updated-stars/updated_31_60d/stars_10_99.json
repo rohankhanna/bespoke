@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10042,
-    "concepts": 4626,
-    "observations": 4646,
-    "repos": 1155,
-    "terms": 4679
+    "components": 10055,
+    "concepts": 4628,
+    "observations": 4648,
+    "repos": 1156,
+    "terms": 4681
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -317,6 +317,7 @@
     "clouren/SPEX",
     "cmake-wheel/cmeel",
     "cmdjulian/mopy",
+    "coasys/flux",
     "codelibs/fess-crawler",
     "codemirror/language",
     "coder/coder-logstream-kube",

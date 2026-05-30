@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2112,
-    "concepts": 1828,
-    "observations": 1833,
-    "repos": 182,
-    "terms": 1853
+    "components": 2116,
+    "concepts": 1835,
+    "observations": 1840,
+    "repos": 183,
+    "terms": 1860
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -164,6 +164,7 @@
     "ranger/ranger",
     "ray-project/ray",
     "redis/redis-py",
+    "RVC-Boss/GPT-SoVITS",
     "sanic-org/sanic",
     "scikit-learn/scikit-learn",
     "searxng/searxng",

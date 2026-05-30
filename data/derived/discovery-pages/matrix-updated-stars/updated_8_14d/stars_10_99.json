@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 9,
-    "terms": 23
+    "components": 79,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 8,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "compozy/kb",
     "f3liz-casa/noraneko",
     "google-marketing-solutions/ariel",
-    "jelly-beam/rebar3_ex_doc",
     "lifegpc/msg-tool",
     "mesh-iit/cad-libraries",
     "nvim-mini/mini.deps",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 10,
-    "terms": 56
+    "components": 60,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 9,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "apache/casbin-fasthttp-auth",
     "cosmos/rosetta",
-    "datachainlab/lcp-go",
     "energye/designer",
     "energye/examples",
     "exoscale/karpenter-provider-exoscale",

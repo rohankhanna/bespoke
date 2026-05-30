@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 240,
-    "observations": 240,
-    "repos": 32,
-    "terms": 234
+    "components": 303,
+    "concepts": 225,
+    "observations": 225,
+    "repos": 30,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "andymass/vim-matchup",
@@ -22,12 +22,11 @@
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
-    "google-gemini/live-api-web-console",
+    "intentee/paddler",
     "InternScience/GraphGen",
     "litedb-org/LiteDB",
     "lucidrains/vector-quantize-pytorch",
     "microsoft/Detours",
-    "microsoft/PhiCookBook",
     "msiemens/tinydb",
     "nodenv/nodenv",
     "nomadkaraoke/python-audio-separator",
@@ -42,7 +41,6 @@
     "Urigo/graphql-cli",
     "vale-cli/vale",
     "vercel/serve",
-    "webinstall/webi-installers",
     "WiseLibs/better-sqlite3",
     "xoofx/markdig"
   ]

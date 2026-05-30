@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 207,
-    "concepts": 121,
-    "observations": 124,
-    "repos": 26,
-    "terms": 120
+    "concepts": 128,
+    "observations": 131,
+    "repos": 27,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "David-OConnor/pyflow",
@@ -31,6 +31,7 @@
     "LaurentMazare/tch-rs",
     "lldap/lldap",
     "mitsuhiko/insta",
+    "Mooncake-Labs/pg_mooncake",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "Rust-SDL2/rust-sdl2",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3167,
-    "concepts": 3627,
-    "observations": 3637,
-    "repos": 454,
-    "terms": 3621
+    "components": 3228,
+    "concepts": 3711,
+    "observations": 3721,
+    "repos": 461,
+    "terms": 3705
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -80,6 +80,7 @@
     "bghira/SimpleTuner",
     "Bing-su/adetailer",
     "blackjax-devs/blackjax",
+    "Blaizzy/mlx-vlm",
     "BoboTiG/python-mss",
     "boto/boto3",
     "boto/botocore",
@@ -180,6 +181,7 @@
     "googleapis/google-cloud-python",
     "googleapis/python-genai",
     "GoogleCloudPlatform/agent-starter-pack",
+    "gpustack/gpustack",
     "graphql-python/gql",
     "guaguastandup/zotero-pdf2zh",
     "hacs/integration",
@@ -264,6 +266,7 @@
     "mherrmann/helium",
     "MIC-DKFZ/nnUNet",
     "MichaelGrupp/evo",
+    "microsoft/agent-framework",
     "microsoft/CameraTraps",
     "microsoft/debugpy",
     "microsoft/LMOps",
@@ -301,6 +304,7 @@
     "ms-jpq/chadtree",
     "ms-jpq/coq_nvim",
     "mxmlnkn/ratarmount",
+    "nagadomi/nunif",
     "neovim/pynvim",
     "nerfstudio-project/gsplat",
     "nesquena/hermes-webui",
@@ -335,6 +339,7 @@
     "openvinotoolkit/nncf",
     "openvinotoolkit/open_model_zoo",
     "OptimalScale/LMFlow",
+    "oumi-ai/oumi",
     "PaddlePaddle/PaddleClas",
     "PaddlePaddle/PaddleX",
     "pallets/werkzeug",
@@ -449,7 +454,9 @@
     "vipshop/cache-dit",
     "vladmandic/sdnext",
     "vllm-project/llm-compressor",
+    "vllm-project/vllm-omni",
     "vmware/photon",
+    "VOICEVOX/voicevox_engine",
     "vwxyzjn/cleanrl",
     "weaviate/Verba",
     "wemake-services/wemake-python-styleguide",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 2,
-    "terms": 9
+    "components": 9,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 1,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
-    "googleapis/google-api-nodejs-client",
     "realworld-apps/realworld"
   ]
 }

@@ -1,22 +1,24 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 6,
-    "terms": 15
+    "components": 72,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 8,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "alloy-rs/evm",
     "geocompx/docker",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
+    "mozilla-ai/otari",
     "nuxt-modules/emotion",
     "pivotal/credhub-release"
   ]

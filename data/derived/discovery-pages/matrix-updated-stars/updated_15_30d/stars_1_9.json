@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 755,
-    "concepts": 481,
-    "observations": 482,
-    "repos": 95,
-    "terms": 480
+    "components": 735,
+    "concepts": 471,
+    "observations": 472,
+    "repos": 92,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "3mdeb/3mdeb-secpack",
@@ -48,9 +48,7 @@
     "danielrosehill/Claude-Rudder",
     "danielrosehill/Voxtype",
     "databendlabs/databend-meta",
-    "datachainlab/lcp-go",
     "decibri/decibri",
-    "demonatic/flash-attention",
     "dydxprotocol/v4-localization",
     "edward3h/docker-bds-integration-test",
     "emacs-straight/emacsmirror-mirror",
@@ -106,7 +104,6 @@
     "usdot-fhwa-stol/carma-config",
     "usdot-fhwa-stol/cdasim-config",
     "vincentlaucsb/classify_scalar",
-    "vovkos/axl",
-    "zopefoundation/meta"
+    "vovkos/axl"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10972,
-    "concepts": 6956,
-    "observations": 6982,
-    "repos": 1623,
-    "terms": 6951
+    "components": 10980,
+    "concepts": 6967,
+    "observations": 6993,
+    "repos": 1627,
+    "terms": 6962
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0x676e67/0x676e67",
@@ -122,6 +122,7 @@
     "amiable-dev/llm-council",
     "amir684/esp32c3-red-alert",
     "AmusementClub/vs-mlrt",
+    "amzn/amzn-drivers",
     "anacrolix/dht",
     "anacrolix/go-libutp",
     "analyticsinmotion/werpy",
@@ -398,6 +399,7 @@
     "contributte/monolog",
     "coocood/freecache",
     "cool-RR/PySnooper",
+    "copilot-emacs/copilot.el",
     "CorentinJ/Real-Time-Voice-Cloning",
     "corl-team/VL-DAC",
     "cortesi/devd",
@@ -1084,6 +1086,7 @@
     "mongodb-js/zstd",
     "MontrealCorpusTools/mfa-models",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
+    "Mooncake-Labs/pg_mooncake",
     "mosaicml/composer",
     "mosaicml/examples",
     "mosaicml/llm-foundry",
@@ -1387,6 +1390,7 @@
     "scottchiefbaker/dool",
     "scssphp/scssphp",
     "sdbds/SageAttention-for-windows",
+    "sds/overcommit",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "secretflow/scql",

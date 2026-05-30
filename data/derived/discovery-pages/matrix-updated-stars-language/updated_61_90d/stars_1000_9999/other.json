@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 471,
-    "observations": 474,
-    "repos": 86,
-    "terms": 471
+    "components": 393,
+    "concepts": 475,
+    "observations": 478,
+    "repos": 88,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "activerecord-hackery/ransack",
@@ -31,6 +31,7 @@
     "clux/muslrust",
     "CommunityToolkit/dotnet",
     "container-storage-interface/spec",
+    "copilot-emacs/copilot.el",
     "csstools/sanitize.css",
     "dakrone/cheshire",
     "DavBfr/dart_pdf",
@@ -88,6 +89,7 @@
     "salesforce/BLIP",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
+    "sds/overcommit",
     "slim-template/slim",
     "steipete/imsg",
     "steipete/peekaboo",

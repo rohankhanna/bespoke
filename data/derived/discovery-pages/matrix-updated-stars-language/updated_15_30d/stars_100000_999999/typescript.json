@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 2,
-    "terms": 22
+    "components": 45,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 1,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
-    "anomalyco/opencode",
     "excalidraw/excalidraw"
   ]
 }

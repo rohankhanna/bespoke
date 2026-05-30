@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 389,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 9,
-    "terms": 40
+    "components": 489,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 11,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
+    "alichherawalla/off-grid-mobile-ai",
     "apollographql/apollo-tooling",
     "ebullient/obsidian-admonition",
+    "google-gemini/live-api-web-console",
     "microsoft/vscode-js-debug",
     "neavo/LinguaGacha",
     "safe-fndn/safe-smart-account",

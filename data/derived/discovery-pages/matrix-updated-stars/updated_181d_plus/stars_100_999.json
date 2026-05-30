@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15428,
-    "concepts": 13986,
-    "observations": 14013,
-    "repos": 4593,
-    "terms": 13765
+    "components": 15426,
+    "concepts": 13982,
+    "observations": 14009,
+    "repos": 4591,
+    "terms": 13746
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -2237,7 +2237,6 @@
     "jackroos/VL-BERT",
     "jackyjsy/CVPR21Chal-SLR",
     "JafferWilson/Process-Data-of-CNN-DailyMail",
-    "jakeheis/Ice",
     "jakeheis/SwiftCLI",
     "jakubcerveny/gilbert",
     "jakubfoglar/raveo",
@@ -3668,7 +3667,6 @@
     "rcarriga/vim-ultest",
     "rdeits/MeshCat.jl",
     "react-native-community/RNNewArchitectureLibraries",
-    "readthedocs/commonmark.py",
     "real-absolute-AI/NoisyRollout",
     "ream88/stylelint-config-idiomatic-order",
     "reasoning-machines/pal",

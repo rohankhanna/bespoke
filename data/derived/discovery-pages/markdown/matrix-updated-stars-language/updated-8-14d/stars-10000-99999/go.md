@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-30T05:48:31.058447+00:00`
+Generated at: `2026-05-30T07:41:34.941193+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 18
-- components: 14
-- concepts: 18
-- observations: 19
+- repos: 1
+- terms: 16
+- components: 8
+- concepts: 16
+- observations: 17
 
 ## Static behavior
 
@@ -26,7 +26,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14279 | 2026-05-21T23:31:20Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27382 | 2026-05-21T12:29:44Z | Go | CLI | 16 | 8 | 16 | 17 |
 
 ## Repos sorted by stars
@@ -34,4 +33,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27382 | 2026-05-21T12:29:44Z | Go | CLI | 16 | 8 | 16 | 17 |
-| [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14279 | 2026-05-21T23:31:20Z | Go | Infrastructure/tooling | 2 | 6 | 2 | 2 |

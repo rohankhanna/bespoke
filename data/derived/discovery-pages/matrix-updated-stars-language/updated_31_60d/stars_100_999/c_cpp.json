@@ -3,7 +3,7 @@
     "components": 1168,
     "concepts": 1227,
     "observations": 1230,
-    "repos": 228,
+    "repos": 227,
     "terms": 1217
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -24,7 +24,6 @@
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",
     "ampl/mp",
-    "amzn/amzn-drivers",
     "ankane/faiss-ruby",
     "antgroup/vsag",
     "apache/datasketches-cpp",

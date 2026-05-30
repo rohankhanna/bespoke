@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1122,
-    "concepts": 973,
-    "observations": 977,
-    "repos": 113,
-    "terms": 971
+    "components": 1090,
+    "concepts": 928,
+    "observations": 932,
+    "repos": 109,
+    "terms": 926
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-baseline",
     "activeadmin/activeadmin",
@@ -24,13 +24,11 @@
     "apache/casbin-Casbin.NET",
     "apollographql/apollo-kotlin",
     "badmojr/1Hosts",
-    "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
     "blokadaorg/blokada",
     "borglab/gtsam",
     "broadinstitute/cromwell",
     "CakeML/cakeml",
-    "com-lihaoyi/mill",
     "commercialhaskell/stack",
     "confluentinc/confluent-kafka-go",
     "countries/countries",
@@ -45,7 +43,6 @@
     "dotnet/wpf",
     "easylist/easylist",
     "elixir-ecto/ecto",
-    "elixir-grpc/grpc",
     "facebook/pyre-check",
     "foundry-rs/forge-std",
     "gaoyifan/china-operator-ip",
@@ -57,7 +54,6 @@
     "haskell/cabal",
     "helix-toolkit/helix-toolkit",
     "intel/BigDL",
-    "intel/llvm",
     "JetBrains/intellij-platform-gradle-plugin",
     "JetBrains/intellij-sdk-docs",
     "JetBrains/resharper-unity",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 191,
-    "observations": 192,
+    "components": 161,
+    "concepts": 188,
+    "observations": 189,
     "repos": 14,
-    "terms": 191
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
@@ -22,10 +22,10 @@
     "jax-ml/jax",
     "modelscope/FunASR",
     "modelscope/ms-swift",
+    "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
     "psf/black",
     "pydantic/pydantic",
-    "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "verl-project/verl"
   ]

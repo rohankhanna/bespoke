@@ -1,33 +1,33 @@
 # Discovery pages
 
-Generated at: `2026-05-30T05:48:31.058447+00:00`
+Generated at: `2026-05-30T07:41:34.941193+00:00`
 
 This index is static. It links to precomputed facet pages and does not rely on client-side filtering or sorting.
 
 ## Counts
 
-- repos: 25331
+- repos: 25329
 - non-empty updated × stars pages: 55
-- non-empty updated × stars × language pages: 435
+- non-empty updated × stars × language pages: 437
 
 ## Updated buckets
 
-- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 119 repos
-- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 184 repos
-- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 89 repos
-- [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 1595 repos
-- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 7119 repos
-- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 1623 repos
-- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2229 repos
-- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12373 repos
+- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 137 repos
+- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 182 repos
+- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 82 repos
+- [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 1557 repos
+- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 7149 repos
+- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 1627 repos
+- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2225 repos
+- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12370 repos
 
 ## Star buckets
 
 - [Unknown stars](./by-stars/stars-unknown.md) — 15 repos
 - [0 stars](./by-stars/stars-0.md) — 915 repos
 - [1 to 9 stars](./by-stars/stars-1-9.md) — 2384 repos
-- [10 to 99 stars](./by-stars/stars-10-99.md) — 5527 repos
-- [100 to 999 stars](./by-stars/stars-100-999.md) — 8616 repos
+- [10 to 99 stars](./by-stars/stars-10-99.md) — 5526 repos
+- [100 to 999 stars](./by-stars/stars-100-999.md) — 8615 repos
 - [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 6096 repos
 - [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 1717 repos
 - [100,000 to 999,999 stars](./by-stars/stars-100000-999999.md) — 61 repos
@@ -43,5 +43,5 @@ This index is static. It links to precomputed facet pages and does not rely on c
 - [Java](./by-language/java.md) — 647 repos
 - [C/C++](./by-language/c-cpp.md) — 2386 repos
 - [Shell](./by-language/shell.md) — 716 repos
-- [Other](./by-language/other.md) — 5640 repos
+- [Other](./by-language/other.md) — 5638 repos
 - [Unknown](./by-language/unknown.md) — 1713 repos

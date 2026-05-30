@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 986,
-    "concepts": 612,
-    "observations": 616,
-    "repos": 96,
-    "terms": 610
+    "components": 977,
+    "concepts": 603,
+    "observations": 606,
+    "repos": 95,
+    "terms": 601
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -100,7 +100,6 @@
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "twbs/bootstrap-sass",
-    "unifyai/ivy",
     "ValdikSS/GoodbyeDPI",
     "vibrantlabsai/ragas",
     "vitejs/awesome-vite",

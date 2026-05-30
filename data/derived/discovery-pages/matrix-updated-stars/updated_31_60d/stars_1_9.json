@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4132,
-    "concepts": 1915,
-    "observations": 1919,
-    "repos": 513,
-    "terms": 1941
+    "components": 4152,
+    "concepts": 1925,
+    "observations": 1929,
+    "repos": 516,
+    "terms": 1951
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xble/dotagent.nvim",
@@ -196,11 +196,13 @@
     "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
     "danielrosehill/Useful-AI-Agent-Skills",
+    "datachainlab/lcp-go",
     "DataDog/trivy",
     "datalevin/dlmdb",
     "DavidKinder/inform",
     "dcampbell24/djot-implementations",
     "decibri/decibri.cpp",
+    "demonatic/flash-attention",
     "Dicklesworthstone/franken_agent_detection",
     "diffblue/homebrew-cbmc",
     "DioxusLabs/stork",
@@ -525,6 +527,7 @@
     "wildfly-extras/a2a-java-sdk-server-jakarta",
     "xiaochu-1208/interview-assistant-cli",
     "yhirose/docs-gen",
-    "yoshoku/numo-linalg-alt"
+    "yoshoku/numo-linalg-alt",
+    "zopefoundation/meta"
   ]
 }

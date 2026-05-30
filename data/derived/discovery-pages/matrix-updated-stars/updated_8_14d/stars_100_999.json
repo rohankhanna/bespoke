@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 346,
+    "components": 336,
     "concepts": 173,
     "observations": 174,
-    "repos": 31,
-    "terms": 172
+    "repos": 30,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "Ai00-X/ai00_server",
@@ -34,7 +34,6 @@
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "LuaLS/vscode-lua",
-    "meshcat-dev/meshcat",
     "mingw-w64/mingw-w64",
     "nginx-le/nginx-le",
     "openbsd/ports",

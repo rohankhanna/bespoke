@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 47891,
-    "concepts": 34083,
-    "observations": 34142,
-    "repos": 12373,
-    "terms": 33651
+    "components": 47892,
+    "concepts": 34074,
+    "observations": 34133,
+    "repos": 12370,
+    "terms": 33623
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T05:48:31.058447+00:00",
+  "generated_at": "2026-05-30T07:41:34.941193+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -3353,6 +3353,7 @@
     "datafuse-extras/async-recursion",
     "datafuse-extras/clickhouse_driver",
     "datafuse-extras/logforth",
+    "datafuse-extras/pprof-rs",
     "datafuse-extras/recursive",
     "datafuse-extras/serde-bridge",
     "datafuse-extras/serde-env",
@@ -6170,7 +6171,6 @@
     "jaegertracing/jaeger-operator",
     "JafferWilson/Process-Data-of-CNN-DailyMail",
     "JakeChampion/fetch",
-    "jakeheis/Ice",
     "jakeheis/SwiftCLI",
     "JakePartusch/wait-for-netlify-action",
     "JakeWharton/ThreeTenABP",
@@ -9161,7 +9161,6 @@
     "OpenManus/OpenManus-RL",
     "OpenMOSS/AnyGPT",
     "OpenMOSS/GAOKAO-MM",
-    "OpenMOSS/MOSS",
     "OpenNLPLab/fairseq-evo",
     "OpenNLPLab/HGRN",
     "OpenNLPLab/HGRN2",
@@ -9437,7 +9436,6 @@
     "PingoLH/FCHarDNet",
     "pinnymz/python-zmanim",
     "pinnymz/ruby-zmanim",
-    "pinobatch/allpads-nes",
     "pinpox/base16-universal-manager",
     "piotrostr/listen",
     "piotrpalarz/vscode-gitignore-generator",
@@ -9899,7 +9897,6 @@
     "ReactiveX/rxjs",
     "reactjs/rfcs",
     "reactor/lite-rx-api-hands-on",
-    "readthedocs/commonmark.py",
     "readthedocs/readthedocs-sphinx-ext",
     "readthedocs/sphinx-build-compatibility",
     "real-absolute-AI/NoisyRollout",
