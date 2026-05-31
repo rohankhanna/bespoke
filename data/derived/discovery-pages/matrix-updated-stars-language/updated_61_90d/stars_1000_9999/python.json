@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 568,
-    "observations": 568,
-    "repos": 89,
-    "terms": 564
+    "components": 348,
+    "concepts": 584,
+    "observations": 584,
+    "repos": 90,
+    "terms": 580
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -20,6 +20,7 @@
     "ApeWorX/ape",
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
+    "atlassian-api/atlassian-python-api",
     "aws-cloudformation/aws-cloudformation-templates",
     "bambinos/bambi",
     "belluzj/fantasque-sans",

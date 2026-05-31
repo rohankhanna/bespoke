@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3813,
-    "concepts": 3378,
-    "observations": 3400,
-    "repos": 477,
-    "terms": 3362
+    "components": 3819,
+    "concepts": 3382,
+    "observations": 3404,
+    "repos": 478,
+    "terms": 3366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -353,6 +353,7 @@
     "nvim-lualine/lualine.nvim",
     "nvim-neo-tree/neo-tree.nvim",
     "nvim-neorg/neorg",
+    "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",
     "nvim-treesitter/nvim-treesitter-textobjects",
     "nvimdev/dashboard-nvim",

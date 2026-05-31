@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 5,
-    "terms": 11
+    "components": 6,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 4,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
-    "lace/lacecore",
     "seanmacavaney/ir-datasets.com"
   ]
 }

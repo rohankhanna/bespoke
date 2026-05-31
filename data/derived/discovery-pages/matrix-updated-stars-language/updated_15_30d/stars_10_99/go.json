@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 5,
-    "terms": 38
+    "components": 24,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 4,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
-    "ankitpokhrel/shopctl",
     "energye/wv",
     "gookit/ini",
     "gookit/rux",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 16,
-    "terms": 27
+    "components": 118,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 15,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -22,8 +22,7 @@
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
-    "kalavai-net/kalavai-templates",
-    "lace/lacecore",
+    "drmingdrmer/databend-meta",
     "lakekeeper/iceberg-rust",
     "Luligu/matterbridge-eve-door",
     "seanmacavaney/ir-datasets.com",

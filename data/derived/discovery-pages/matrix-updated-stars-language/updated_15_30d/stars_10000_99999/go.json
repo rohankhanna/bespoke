@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 414,
-    "concepts": 339,
-    "observations": 341,
-    "repos": 22,
-    "terms": 339
+    "components": 392,
+    "concepts": 320,
+    "observations": 322,
+    "repos": 21,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "anchore/grype",
     "apache/casbin",
@@ -30,7 +30,6 @@
     "istio/istio",
     "oauth2-proxy/oauth2-proxy",
     "pion/webrtc",
-    "pulumi/pulumi",
     "restic/restic",
     "rqlite/rqlite",
     "SagerNet/sing-box",

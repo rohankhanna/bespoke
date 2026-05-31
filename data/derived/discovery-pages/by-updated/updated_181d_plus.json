@@ -3,14 +3,14 @@
     "components": 48044,
     "concepts": 34148,
     "observations": 34209,
-    "repos": 12395,
+    "repos": 12396,
     "terms": 33696
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -5900,6 +5900,7 @@
     "iflytek/MiniRBT",
     "iflytek/VLE",
     "ifromeast/cuda_learning",
+    "ifsheldon/async-openai-wasm",
     "ifzhang/FairMOT",
     "iGhibli/iOS-DeviceSupport",
     "IGL-HKUST/DiffusionAsShader",

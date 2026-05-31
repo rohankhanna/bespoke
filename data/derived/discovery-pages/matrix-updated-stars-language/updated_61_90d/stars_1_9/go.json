@@ -3,7 +3,7 @@
     "components": 22,
     "concepts": 19,
     "observations": 19,
-    "repos": 9,
+    "repos": 8,
     "terms": 19
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "alexellis/gha-bump",
     "archestra-ai/terraform-provider-archestra",
     "automazeio/proof-go",
     "cloudfoundry/bosh-aws-light-stemcell-builder",
-    "datachainlab/ethereum-ibc-relay-prover",
     "gost-dom/shaman",
     "justinfx/olric-nats-plugin",
     "OpenCIDN/httpmirror",

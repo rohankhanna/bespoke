@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2205,
-    "concepts": 434,
-    "observations": 436,
-    "repos": 39,
-    "terms": 431
+    "components": 2187,
+    "concepts": 422,
+    "observations": 424,
+    "repos": 38,
+    "terms": 419
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "ajv-validator/ajv",
@@ -50,7 +50,6 @@
     "vitejs/vite",
     "vuejs/core",
     "vuejs/vitepress",
-    "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
     "withastro/astro"
   ]

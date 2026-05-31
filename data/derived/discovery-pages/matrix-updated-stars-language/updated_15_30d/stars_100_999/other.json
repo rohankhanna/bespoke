@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 649,
-    "concepts": 380,
-    "observations": 380,
-    "repos": 62,
-    "terms": 378
+    "components": 634,
+    "concepts": 369,
+    "observations": 369,
+    "repos": 60,
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
     "Alexey-T/ATFlatControls",
@@ -27,7 +27,6 @@
     "cowprotocol/contracts",
     "cucumber/aruba",
     "danielrosehill/Claude-Code-Projects-Index",
-    "dart-lang/native",
     "dbkangaroo/kangaroo",
     "dennisdoomen/CSharpGuidelines",
     "EdenEast/nyx",
@@ -37,7 +36,6 @@
     "HOL-Theorem-Prover/HOL",
     "intel/ipex-llm-tutorial",
     "istio/client-go",
-    "jackielii/skhd.zig",
     "JuliaDebug/Cthulhu.jl",
     "JuliaDebug/Infiltrator.jl",
     "JuliaGPU/AMDGPU.jl",

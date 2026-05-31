@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1626,
-    "concepts": 755,
-    "observations": 758,
-    "repos": 64,
-    "terms": 746
+    "components": 1705,
+    "concepts": 873,
+    "observations": 878,
+    "repos": 69,
+    "terms": 873
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -21,6 +21,7 @@
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "datalab-to/surya",
+    "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
     "dexie/Dexie.js",
     "DioxusLabs/dioxus",
@@ -47,7 +48,9 @@
     "lobehub/lobehub",
     "moby/moby",
     "modelscope/FunASR",
+    "modelscope/ms-swift",
     "mozilla-ai/llamafile",
+    "mudler/LocalAI",
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
     "nwjs/nw.js",
@@ -65,7 +68,9 @@
     "Redocly/redoc",
     "run-llama/llama_index",
     "rust-lang/rust-analyzer",
+    "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",
+    "storybookjs/storybook",
     "TEN-framework/ten-framework",
     "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",

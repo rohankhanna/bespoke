@@ -3,7 +3,7 @@
     "components": 515,
     "concepts": 386,
     "observations": 389,
-    "repos": 191,
+    "repos": 192,
     "terms": 380
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -107,6 +107,7 @@
     "hknio/wasmcov",
     "holochain/devhub-dnas",
     "HorizenLabs/poseidon2",
+    "ifsheldon/async-openai-wasm",
     "imgui-rs/imgui-winit-support",
     "informalsystems/basecoin-rs",
     "informalsystems/sovereign-ibc",

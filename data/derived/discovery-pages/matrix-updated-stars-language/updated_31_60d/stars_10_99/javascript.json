@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1621,
-    "concepts": 436,
-    "observations": 438,
-    "repos": 109,
-    "terms": 436
+    "components": 1635,
+    "concepts": 443,
+    "observations": 445,
+    "repos": 110,
+    "terms": 443
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -109,6 +109,7 @@
     "rstackjs/agent-skills",
     "scaleway/serverless-scaleway-functions",
     "semantic-release/error",
+    "stdlib-js/google-summer-of-code",
     "sveltejs/eslint-config",
     "Taritsyn/DartSassHost",
     "tc39/proposal-iterator-includes",

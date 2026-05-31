@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10557,
-    "concepts": 4902,
-    "observations": 4923,
-    "repos": 1204,
-    "terms": 4953
+    "components": 10578,
+    "concepts": 4921,
+    "observations": 4942,
+    "repos": 1206,
+    "terms": 4972
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -120,6 +120,7 @@
     "ankane/stl-cpp",
     "ankane/torchaudio-ruby",
     "ankane/trove",
+    "ankitpokhrel/shopctl",
     "ankurhanda/robot-assets",
     "ansible/ansible-compat",
     "ant-research/pointelligence",
@@ -1109,6 +1110,7 @@
     "status-im/nim-eth",
     "status-im/nim-protobuf-serialization",
     "status-im/nim-ssz-serialization",
+    "stdlib-js/google-summer-of-code",
     "steipete/homebrew-tap",
     "sublimelsp/LSP-marksman",
     "sublimelsp/LSP-ruff",

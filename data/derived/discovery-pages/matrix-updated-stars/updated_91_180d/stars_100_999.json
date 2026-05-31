@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4569,
-    "concepts": 3085,
-    "observations": 3093,
-    "repos": 794,
-    "terms": 3080
+    "components": 4576,
+    "concepts": 3090,
+    "observations": 3098,
+    "repos": 795,
+    "terms": 3085
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -90,6 +90,7 @@
     "archlinux/archlinux-repro",
     "argoproj-labs/argocd-rbac-operator",
     "argosopentech/argos-train",
+    "arkworks-rs/r1cs-std",
     "arminbiere/aiger",
     "arnetheduck/nim-results",
     "arnetheduck/nph",

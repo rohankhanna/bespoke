@@ -3,7 +3,7 @@
     "components": 66,
     "concepts": 40,
     "observations": 40,
-    "repos": 13,
+    "repos": 14,
     "terms": 41
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "actions-oss/act-cli",
     "AlwaysNur/bookbank",
     "bizflycloud/karpenter-provider-bizflycloud",
     "codeGROOVE-dev/retry",
+    "datachainlab/ethereum-ibc-relay-prover",
     "dbubel/intake",
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3632,
-    "concepts": 2336,
-    "observations": 2343,
-    "repos": 421,
-    "terms": 2342
+    "components": 3645,
+    "concepts": 2362,
+    "observations": 2369,
+    "repos": 424,
+    "terms": 2368
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "actions/download-artifact",
@@ -47,6 +47,7 @@
     "ashvardanian/StringZilla",
     "astanin/python-tabulate",
     "athityakumar/colorls",
+    "atlassian-api/atlassian-python-api",
     "atotto/clipboard",
     "autofac/Autofac",
     "automazeio/ccpm",
@@ -189,6 +190,7 @@
     "gyscos/cursive",
     "haleclipse/ccometixline",
     "hashicorp/go-metrics",
+    "hashicorp/go-version",
     "hashicorp/memberlist",
     "hashicorp/yamux",
     "heartcombo/has_scope",
@@ -383,6 +385,7 @@
     "styled-components/polished",
     "SWE-bench/SWE-bench",
     "t0bst4r/home-assistant-matter-hub",
+    "TA-Lib/ta-lib",
     "tabatkins/railroad-diagrams",
     "tauri-apps/cargo-mobile2",
     "TechEmpower/FrameworkBenchmarks",

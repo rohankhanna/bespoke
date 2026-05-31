@@ -3,7 +3,7 @@
     "components": 237,
     "concepts": 245,
     "observations": 245,
-    "repos": 44,
+    "repos": 43,
     "terms": 245
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
@@ -35,7 +35,6 @@
     "foldl/chatllm.cpp",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
-    "HybridRobotics/motion_tracking_controller",
     "KDE/breeze-icons",
     "kiron1/bazel-compile-commands",
     "libsdl-org/SDL_image",

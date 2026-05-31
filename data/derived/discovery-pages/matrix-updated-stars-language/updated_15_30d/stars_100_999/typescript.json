@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1883,
-    "concepts": 350,
-    "observations": 350,
-    "repos": 45,
-    "terms": 346
+    "components": 1809,
+    "concepts": 340,
+    "observations": 340,
+    "repos": 44,
+    "terms": 336
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -43,7 +43,6 @@
     "Nerivec/zigbee2mqtt-windfront",
     "nonara/ts-patch",
     "nurikk/zigbee2mqtt-frontend",
-    "ory/docs",
     "P4sca1/cron-schedule",
     "radashi-org/radashi",
     "Rel1cx/eslint-react",

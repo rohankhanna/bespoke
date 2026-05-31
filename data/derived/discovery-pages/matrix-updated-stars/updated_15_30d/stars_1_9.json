@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 536,
+    "components": 534,
     "concepts": 362,
     "observations": 363,
-    "repos": 67,
+    "repos": 66,
     "terms": 361
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "Aayushm24/presidential-briefing",
@@ -73,7 +73,6 @@
     "stdlib-js/math-base-special-erf",
     "stdlib-js/math-base-special-erfc",
     "stdlib-js/math-base-special-erfcx",
-    "stdlib-js/meetings",
     "stdlib-js/ndarray-fancy",
     "suzuki-shunsuke/release-js-action",
     "szksh-lab/.github",

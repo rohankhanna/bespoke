@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 229,
-    "observations": 230,
-    "repos": 29,
-    "terms": 229
+    "components": 296,
+    "concepts": 221,
+    "observations": 222,
+    "repos": 28,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agentclientprotocol/rust-sdk",
@@ -29,7 +29,6 @@
     "iqlusioninc/crates",
     "kornia/kornia-rs",
     "left-curve/left-curve",
-    "near/near-cli-rs",
     "near/near-sdk-rs",
     "nushell/reedline",
     "open-telemetry/weaver",

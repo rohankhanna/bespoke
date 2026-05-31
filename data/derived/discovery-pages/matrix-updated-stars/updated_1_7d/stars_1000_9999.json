@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2030,
-    "concepts": 855,
-    "observations": 860,
-    "repos": 100,
-    "terms": 852
+    "components": 2071,
+    "concepts": 905,
+    "observations": 910,
+    "repos": 104,
+    "terms": 902
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
@@ -57,6 +57,7 @@
     "googleapis/google-auth-library-php",
     "googleapis/google-cloud-go",
     "googleapis/google-cloud-node",
+    "harbor-framework/harbor",
     "harfbuzz/harfbuzz",
     "helidon-io/helidon",
     "hermit-os/hermit-rs",
@@ -88,6 +89,7 @@
     "openai/openai-dotnet",
     "paralleldrive/cuid",
     "podman-desktop/podman-desktop",
+    "PrimeIntellect-ai/verifiers",
     "psmux/psmux",
     "radian-software/straight.el",
     "react-native-webview/react-native-webview",
@@ -100,6 +102,7 @@
     "safetensors/safetensors",
     "seancorfield/honeysql",
     "sveltejs/devalue",
+    "swiftlang/llvm-project",
     "TanStack/form",
     "tModLoader/tModLoader",
     "TrenchBroom/TrenchBroom",
@@ -108,6 +111,7 @@
     "ultrajson/ultrajson",
     "vuejs/devtools",
     "vuejs/language-tools",
+    "web-platform-tests/wpt",
     "webinstall/webi-installers",
     "xtensor-stack/xtensor",
     "yomidevs/yomitan",

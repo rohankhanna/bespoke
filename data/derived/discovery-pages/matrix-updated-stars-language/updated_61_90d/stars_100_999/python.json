@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 559,
-    "observations": 561,
-    "repos": 121,
-    "terms": 557
+    "components": 361,
+    "concepts": 561,
+    "observations": 563,
+    "repos": 122,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -103,6 +103,7 @@
     "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "pappasam/jedi-language-server",
+    "pnkraemer/matfree",
     "psf/pyperf",
     "PyCQA/modernize",
     "python-hyper/brotlicffi",

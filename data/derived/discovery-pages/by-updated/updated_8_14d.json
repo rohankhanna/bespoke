@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 925,
-    "concepts": 588,
-    "observations": 591,
-    "repos": 87,
-    "terms": 580
+    "components": 919,
+    "concepts": 587,
+    "observations": 590,
+    "repos": 86,
+    "terms": 579
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "567-labs/instructor",
@@ -28,7 +28,6 @@
     "compozy/kb",
     "doctest/doctest",
     "dotnet/Silk.NET",
-    "drmingdrmer/databend-meta",
     "dwyl/mvp",
     "dwyl/quotes",
     "electron/packager",

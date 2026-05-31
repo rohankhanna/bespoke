@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 30,
-    "terms": 54
+    "components": 56,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 31,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
@@ -35,6 +35,7 @@
     "iandees/scrapy-camoufox",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
+    "lace/lacecore",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
     "NightWatcher314/dockgecli",

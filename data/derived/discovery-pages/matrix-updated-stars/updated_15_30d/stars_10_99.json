@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1445,
-    "concepts": 925,
-    "observations": 931,
-    "repos": 167,
-    "terms": 918
+    "components": 1424,
+    "concepts": 906,
+    "observations": 912,
+    "repos": 165,
+    "terms": 899
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "abusch/nu_plugin_semver",
@@ -26,7 +26,6 @@
     "analogdevicesinc/msdk",
     "angellist/boba",
     "angular/angular-devkit-build-angular-builds",
-    "ankitpokhrel/shopctl",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
@@ -161,7 +160,6 @@
     "sidlatau/neotest-dart",
     "siketyan/intellij-rustowl",
     "standardrb/standard-ruby-action",
-    "stdlib-js/google-summer-of-code",
     "stefantalpalaru/gentoo-overlay",
     "suzuki-shunsuke/pinact-action",
     "taginfo/taginfo-projects",

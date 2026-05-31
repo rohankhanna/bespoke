@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3385,
-    "concepts": 791,
-    "observations": 801,
-    "repos": 163,
-    "terms": 820
+    "components": 3413,
+    "concepts": 805,
+    "observations": 815,
+    "repos": 165,
+    "terms": 834
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -107,6 +107,7 @@
     "karma-runner/karma-jasmine",
     "keithamus/sort-package-json",
     "kharchenkolab/pagoda2",
+    "Kilian/electron-to-chromium",
     "kriszyp/lmdb-js",
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
@@ -171,6 +172,7 @@
     "unicode-org/message-format-wg",
     "vllm-project/recipes",
     "w3c/trusted-types",
+    "w3c/webref",
     "webpack/css-minimizer-webpack-plugin",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",

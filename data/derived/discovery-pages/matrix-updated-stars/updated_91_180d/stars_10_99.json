@@ -3,7 +3,7 @@
     "components": 2427,
     "concepts": 1343,
     "observations": 1350,
-    "repos": 510,
+    "repos": 509,
     "terms": 1350
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -269,7 +269,6 @@
     "ibireme/c_numconv_benchmark",
     "icppWorld/icgpt",
     "icppWorld/icpp_llm",
-    "ifsheldon/async-openai-wasm",
     "imlrz/DeepResearch-Bench-II",
     "ImranR98/obtainium.imranr.dev",
     "inducer/genpy",

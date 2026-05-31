@@ -3,7 +3,7 @@
     "components": 11899,
     "concepts": 6860,
     "observations": 6876,
-    "repos": 3268,
+    "repos": 3269,
     "terms": 6807
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1669,6 +1669,7 @@
     "idris-community/katla",
     "IEIT-Yuan/YuanChat",
     "iensu/silicon-el",
+    "ifsheldon/async-openai-wasm",
     "IgorSusmelj/barlowtwins",
     "IgorSusmelj/simsiam-cifar10",
     "ihmcrobotics/euclid",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1336,
-    "concepts": 1350,
-    "observations": 1354,
-    "repos": 117,
-    "terms": 1337
+    "components": 1358,
+    "concepts": 1369,
+    "observations": 1373,
+    "repos": 118,
+    "terms": 1356
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -112,6 +112,7 @@
     "pingcap/tidb",
     "prometheus/node_exporter",
     "prometheus/prometheus",
+    "pulumi/pulumi",
     "quic-go/quic-go",
     "rclone/rclone",
     "router-for-me/cliproxyapi",

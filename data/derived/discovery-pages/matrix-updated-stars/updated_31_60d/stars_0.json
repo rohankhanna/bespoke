@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 969,
-    "concepts": 410,
-    "observations": 410,
-    "repos": 281,
-    "terms": 439
+    "components": 977,
+    "concepts": 415,
+    "observations": 415,
+    "repos": 283,
+    "terms": 444
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -234,12 +234,14 @@
     "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
+    "kalavai-net/kalavai-templates",
     "kayabaNerve/monero-oxide",
     "kdn36/arrow-rs-object-store",
     "kdubbo/xds-api",
     "kidshadow79/ogma",
     "kyverno/.github",
     "l12203685/digital-immortality",
+    "lace/lacecore",
     "lakekeeper/lakekeeper-operator",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "markoswire/remember-me.ai",

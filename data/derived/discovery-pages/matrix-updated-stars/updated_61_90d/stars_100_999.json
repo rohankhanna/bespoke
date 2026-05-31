@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3900,
-    "concepts": 2486,
-    "observations": 2496,
-    "repos": 549,
-    "terms": 2487
+    "components": 3897,
+    "concepts": 2490,
+    "observations": 2500,
+    "repos": 550,
+    "terms": 2491
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -57,7 +57,6 @@
     "aquasecurity/trivy-vscode-extension",
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
-    "arkworks-rs/r1cs-std",
     "ARM-software/EndpointAI",
     "aserafin/grape_logging",
     "ashvardanian/StringWars",
@@ -212,6 +211,7 @@
     "flathub/com.vscodium.codium",
     "flinedev/contextkit",
     "fnando/i18n",
+    "fnproject/fdk-java",
     "frankmorgner/vsmartcard",
     "freebsd/atf",
     "fsharp/fslang-design",
@@ -427,6 +427,7 @@
     "peter-evans/enable-pull-request-automerge",
     "Piebald-AI/gemini-cli-desktop",
     "PistonDevelopers/glfw-rs",
+    "pnkraemer/matfree",
     "posit-dev/air",
     "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",

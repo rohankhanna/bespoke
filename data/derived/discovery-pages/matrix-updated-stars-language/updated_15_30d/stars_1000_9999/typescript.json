@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2301,
-    "concepts": 470,
-    "observations": 471,
-    "repos": 55,
-    "terms": 467
+    "components": 2243,
+    "concepts": 444,
+    "observations": 445,
+    "repos": 52,
+    "terms": 441
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aeharding/voyager",
     "antvis/mcp-server-chart",
@@ -25,7 +25,6 @@
     "can1357/oh-my-pi",
     "carbon-design-system/carbon-components-svelte",
     "ChromeDevTools/devtools-protocol",
-    "cloudflare/workers-sdk",
     "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
     "enricoros/big-AGI",
@@ -39,7 +38,6 @@
     "h3js/h3",
     "hannoeru/vite-plugin-pages",
     "iconify/iconify",
-    "informalsystems/quint",
     "inokawa/virtua",
     "intlify/vue-i18n",
     "kelektiv/node-cron",
@@ -54,7 +52,6 @@
     "pdfme/pdfme",
     "react-cosmos/react-cosmos",
     "reactjs/react-docgen",
-    "remotion-dev/skills",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
     "SilentVoid13/Templater",

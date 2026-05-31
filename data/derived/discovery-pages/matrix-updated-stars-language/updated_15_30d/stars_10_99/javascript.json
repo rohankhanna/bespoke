@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 6,
-    "terms": 19
+    "components": 60,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 5,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
     "apache/doris-opentelemetry-demo",
     "ideditor/schema-builder",
-    "julia-actions/cache",
-    "stdlib-js/google-summer-of-code"
+    "julia-actions/cache"
   ]
 }

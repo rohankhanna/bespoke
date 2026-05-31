@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2218,
-    "concepts": 1602,
-    "observations": 1611,
-    "repos": 222,
-    "terms": 1611
+    "components": 2232,
+    "concepts": 1610,
+    "observations": 1619,
+    "repos": 223,
+    "terms": 1619
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -232,6 +232,7 @@
     "uuid-rs/uuid",
     "vadimcn/codelldb",
     "vladkens/macmon",
+    "VOICEVOX/voicevox_core",
     "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
     "wasm-bindgen/wasm-pack",

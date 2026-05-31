@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 12517,
-    "concepts": 8358,
-    "observations": 8386,
-    "repos": 2247,
-    "terms": 8340
+    "components": 12530,
+    "concepts": 8380,
+    "observations": 8408,
+    "repos": 2249,
+    "terms": 8362
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -261,6 +261,7 @@
     "argosopentech/argos-train",
     "ARISE-Initiative/robomimic",
     "ArjunNair/egui_sdl2_gl",
+    "arkworks-rs/r1cs-std",
     "arminbiere/aiger",
     "arnetheduck/nim-results",
     "arnetheduck/nph",
@@ -301,6 +302,7 @@
     "auto-complete/popup-el",
     "autodeployai/ai-serving",
     "autokitteh/kittehub",
+    "automatic1111/stable-diffusion-webui",
     "automazeio/open-royalties",
     "autonomousvision/carla_garage",
     "avaneev/lzav",
@@ -663,6 +665,7 @@
     "databendlabs/iceberg-rust",
     "databendlabs/opensrv",
     "databendlabs/watcher",
+    "datachainlab/ethereum-ibc-relay-prover",
     "datachainlab/parlia-elc",
     "DataDog/go-cmp",
     "datafuse-extras/tantivy",
@@ -1083,7 +1086,6 @@
     "IDEA-Research/Rex-Omni",
     "IdreesInc/Monocraft",
     "ielab/llm-rankers",
-    "ifsheldon/async-openai-wasm",
     "igor-makarov/xcake",
     "ihmcrobotics/ekf",
     "ihmcrobotics/ihmc-build",

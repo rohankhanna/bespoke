@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 309,
-    "observations": 310,
-    "repos": 59,
-    "terms": 304
+    "components": 211,
+    "concepts": 318,
+    "observations": 319,
+    "repos": 60,
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -63,6 +63,7 @@
     "snapcast/snapcast",
     "sqlcipher/sqlcipher",
     "stevengj/nlopt",
+    "TA-Lib/ta-lib",
     "TechEmpower/FrameworkBenchmarks",
     "TheAssassin/AppImageLauncher",
     "ThrowTheSwitch/Unity",

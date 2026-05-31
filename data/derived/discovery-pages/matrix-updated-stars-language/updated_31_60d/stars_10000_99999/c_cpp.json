@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 857,
-    "concepts": 1148,
-    "observations": 1152,
-    "repos": 116,
-    "terms": 1146
+    "components": 898,
+    "concepts": 1177,
+    "observations": 1181,
+    "repos": 117,
+    "terms": 1175
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
     "Alexays/Waybar",
     "alibaba/MNN",
     "apache/arrow",
+    "apache/thrift",
     "ApolloAuto/apollo",
     "apple/foundationdb",
     "arangodb/arangodb",
@@ -36,7 +37,6 @@
     "chromium/chromium",
     "citusdata/citus",
     "ClickHouse/ClickHouse",
-    "cloudwu/skynet",
     "colmap/colmap",
     "coturn/coturn",
     "curl/curl",
@@ -116,6 +116,7 @@
     "raysan5/raylib",
     "redis/redis",
     "RPCS3/rpcs3",
+    "SerenityOS/serenity",
     "swaywm/sway",
     "systemd/systemd",
     "taichi-dev/taichi",

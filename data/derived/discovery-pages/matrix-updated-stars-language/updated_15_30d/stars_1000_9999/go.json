@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 262,
-    "observations": 262,
-    "repos": 22,
-    "terms": 260
+    "components": 204,
+    "concepts": 250,
+    "observations": 250,
+    "repos": 21,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
@@ -25,7 +25,6 @@
     "gookit/goutil",
     "gookit/validate",
     "kubeovn/kube-ovn",
-    "kyverno/kyverno",
     "letsencrypt/boulder",
     "Loyalsoldier/geoip",
     "miekg/dns",

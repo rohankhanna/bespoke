@@ -3,7 +3,7 @@
     "components": 225,
     "concepts": 158,
     "observations": 161,
-    "repos": 60,
+    "repos": 59,
     "terms": 156
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-05-31T07:48:14.816563+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -45,7 +45,6 @@
     "germangb/minimp3-rs",
     "googlefonts/shaperglot",
     "hermit-os/rftrace",
-    "ifsheldon/async-openai-wasm",
     "informalsystems/quint-connect",
     "informalsystems/quint-trace-explorer",
     "jakudlaty/tsid",
