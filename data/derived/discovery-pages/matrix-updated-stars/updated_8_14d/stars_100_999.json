@@ -1,29 +1,27 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 173,
-    "observations": 174,
-    "repos": 30,
-    "terms": 173
+    "components": 307,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 29,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "Ai00-X/ai00_server",
     "AMD-AGI/Nitro-1",
     "bazel-contrib/rules_jvm_external",
     "betterleaks/betterleaks",
-    "Brendonovich/MacroGraph",
-    "browserslist/caniuse-lite",
     "dwyl/quotes",
     "electron/packager",
     "emacscollective/auto-compile",
-    "fluent-vue/fluent-vue",
+    "fsprojects/FSharp.Data.GraphQL",
     "gbionics/adam",
     "Gnathonic/mokuro-reader",
     "google-deepmind/reverb",
@@ -31,17 +29,18 @@
     "google/protobuf.dart",
     "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",
+    "jupyter/nbclassic",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "LuaLS/vscode-lua",
     "mingw-w64/mingw-w64",
     "nginx-le/nginx-le",
     "openbsd/ports",
-    "openjdk/jdk11u",
+    "perrygeo/python-rasterstats",
     "pyOpenSci/software-submission",
     "pypa/setuptools-scm",
     "python-poetry/poetry-plugin-export",
-    "shawn0728/OpenSearch-VL",
-    "TextArena/TextArena"
+    "satan53x/SExtractor",
+    "shawn0728/OpenSearch-VL"
   ]
 }

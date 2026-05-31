@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 12,
-    "terms": 71
+    "components": 37,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 10,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "apache/casbin-casbin.io",
@@ -21,10 +21,8 @@
     "fluent-vue/examples",
     "JeremyAnsel/SharpAssimp",
     "JuliaCI/rootfs-images",
-    "lintnet-modules/ghalint",
     "nafg/jewish-date",
     "pixel-font-studio/fusion-bold-pixel-font",
-    "stable-haskell/cabal",
     "standardrb/standard-sorbet"
   ]
 }

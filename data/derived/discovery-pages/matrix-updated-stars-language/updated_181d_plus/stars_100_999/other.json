@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2251,
-    "concepts": 3039,
-    "observations": 3046,
-    "repos": 962,
-    "terms": 3020
+    "components": 2261,
+    "concepts": 3048,
+    "observations": 3055,
+    "repos": 964,
+    "terms": 3029
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -289,6 +289,7 @@
     "docstrap/docstrap",
     "Doggettx/stable-diffusion",
     "Dominaezzz/kgl",
+    "dominicletz/websockex",
     "domkm/silk",
     "dorjeduck/llm.mojo",
     "dotless/dotless",
@@ -499,6 +500,7 @@
     "JuliaData/JuliaDB.jl",
     "JuliaData/SplitApplyCombine.jl",
     "JuliaData/TypedTables.jl",
+    "JuliaDocs/LiveServer.jl",
     "JuliaDynamics/InteractiveDynamics.jl",
     "JuliaGraphics/Colors.jl",
     "JuliaGraphics/Gtk.jl",

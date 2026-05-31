@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 576,
-    "observations": 579,
-    "repos": 111,
-    "terms": 579
+    "components": 494,
+    "concepts": 586,
+    "observations": 589,
+    "repos": 114,
+    "terms": 589
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "Alexander-Miller/treemacs",
@@ -69,6 +69,7 @@
     "hecomi/uLipSync",
     "hoshsadiq/adblock-nocoin-list",
     "IDEA-Research/Rex-Omni",
+    "javan/whenever",
     "jekip/naive-ui-admin",
     "joaotavora/eglot",
     "justinmk/vim-sneak",
@@ -98,6 +99,7 @@
     "OpenBMB/MiniCPM",
     "parruda/swarm",
     "preservim/vimux",
+    "pry/pry",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
     "rails/spring",
@@ -111,6 +113,7 @@
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
     "SpinalHDL/VexRiscv",
+    "steipete/imsg",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
     "symfony/cache-contracts",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1277,
-    "concepts": 541,
-    "observations": 543,
-    "repos": 445,
-    "terms": 541
+    "components": 1287,
+    "concepts": 547,
+    "observations": 549,
+    "repos": 448,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -138,6 +138,7 @@
     "dani-maarouf/alembic_utils",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/AI-Agent-Ideation-Agent",
+    "danielrosehill/AI-Agent-Virtual-Panel-Configs",
     "danielrosehill/AI-Assistant-Ideator",
     "danielrosehill/AI-Friendly-Badge",
     "danielrosehill/ai-human-attribution-adder",
@@ -153,6 +154,7 @@
     "danielrosehill/Context-Cruncher",
     "danielrosehill/Docs-Grabber",
     "danielrosehill/Feature-Ideas-And-Requests",
+    "danielrosehill/Github-Gist-MCP-Minimal",
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
@@ -337,6 +339,7 @@
     "matthme/devhub-dnas",
     "matthme/hc-zome-mere-memory",
     "maxxnino/good-stuff",
+    "mayocream/ug",
     "meamarp/maskdino",
     "Megvii-BaseDetection/storage",
     "meinac/oj-introspect",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1281,
-    "concepts": 279,
-    "observations": 280,
-    "repos": 47,
-    "terms": 292
+    "components": 1361,
+    "concepts": 287,
+    "observations": 288,
+    "repos": 49,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "actions-cool/issues-helper",
     "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
+    "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "antfu/changelogithub",
     "aquasecurity/trivy-vscode-extension",
@@ -25,6 +26,7 @@
     "aws-samples/dify-self-hosted-on-aws",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
+    "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
@@ -44,7 +46,7 @@
     "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
     "microsoft/vscode-debugadapter-node",
-    "multiformats/js-multiformats",
+    "neoclide/coc-java",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10511,
-    "concepts": 9102,
-    "observations": 9111,
-    "repos": 2355,
-    "terms": 8972
+    "components": 10552,
+    "concepts": 9127,
+    "observations": 9138,
+    "repos": 2359,
+    "terms": 8997
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -187,6 +187,7 @@
     "asciimoo/drawille",
     "asciinema/agg",
     "asciinema/asciicast2gif",
+    "asdf-vm/asdf-plugins",
     "asdine/storm",
     "asg017/sqlite-vss",
     "ashawkey/stable-dreamfusion",
@@ -198,6 +199,7 @@
     "astahmer/openapi-zod-client",
     "astefanutti/kubebox",
     "asteroid-team/asteroid",
+    "astral-sh/ruff-lsp",
     "astrand/xclip",
     "astroturfcss/astroturf",
     "asweigart/pyperclip",
@@ -1194,6 +1196,7 @@
     "Kyubyong/dc_tts",
     "Kyubyong/tacotron",
     "Kyubyong/transformer",
+    "labring/laf",
     "laekov/fastmoe",
     "lagom/lagom",
     "LAION-AI/CLAP",
@@ -2024,6 +2027,7 @@
     "switchablenorms/CelebAMask-HQ",
     "swz30/MPRNet",
     "swz30/Restormer",
+    "Sygil-Dev/sygil-webui",
     "syndtr/goleveldb",
     "tabulapdf/tabula",
     "tabulapdf/tabula-java",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 273,
-    "concepts": 142,
-    "observations": 144,
+    "components": 271,
+    "concepts": 141,
+    "observations": 143,
     "repos": 87,
-    "terms": 145
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
@@ -38,6 +38,7 @@
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
+    "danielrosehill/handy-wayland-autostart-fix",
     "danielrosehill/Hebrew-Tech-Vocab",
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Home-Assistant-Index",
@@ -51,7 +52,6 @@
     "danielrosehill/Patches-Repos-Index",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
-    "DataDog/go-cmp",
     "DataDog/opa",
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",

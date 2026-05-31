@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 197,
-    "observations": 197,
-    "repos": 49,
-    "terms": 169
+    "components": 69,
+    "concepts": 203,
+    "observations": 205,
+    "repos": 50,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "AbdBarho/stable-diffusion-webui-docker",
     "adobe-fonts/source-han-serif",
     "agnoster/agnoster-zsh-theme",
     "ahmetb/cloud-run-faq",
+    "asdf-vm/asdf-plugins",
     "aws/containers-roadmap",
     "basherpm/basher",
     "bigscience-workshop/bigscience",

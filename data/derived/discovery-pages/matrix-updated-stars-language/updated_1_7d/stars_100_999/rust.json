@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "components": 31,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 4,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "EmmyLuaLs/emmylua-analyzer-rust",
     "GitoxideLabs/cargo-smart-release",
-    "lbcb-sci/herro"
+    "lbcb-sci/herro",
+    "servo/stylo"
   ]
 }

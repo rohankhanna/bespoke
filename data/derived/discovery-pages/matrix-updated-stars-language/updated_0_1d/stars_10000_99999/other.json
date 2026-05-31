@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 5,
-    "terms": 49
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "anthropics/claude-cookbooks",
-    "swiftlang/swift",
-    "triton-lang/triton",
-    "upptime/upptime",
-    "vbenjs/vue-vben-admin"
+    "swiftlang/swift"
   ]
 }

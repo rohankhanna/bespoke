@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 9,
-    "terms": 15
+    "concepts": 17,
+    "observations": 17,
+    "repos": 10,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "cgrindel/bazel_shlib",
     "conda-forge/bloscpack-feedstock",
     "Danau5tin/terminal-bench-fork",
+    "danielrosehill/AI-Agent-Virtual-Panel-Configs",
     "danielrosehill/batch-claudemd-repo-creator",
     "flathub/io.github.TTimo.GtkRadiant",
     "JavaHello/javahello.github.io",

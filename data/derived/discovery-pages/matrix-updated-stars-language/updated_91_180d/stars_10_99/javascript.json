@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 380,
-    "concepts": 78,
-    "observations": 79,
-    "repos": 29,
-    "terms": 78
+    "components": 408,
+    "concepts": 92,
+    "observations": 93,
+    "repos": 31,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "apostrophecms/apostrophe-astro",
@@ -31,12 +31,14 @@
     "ember-cli/broccoli-caching-writer",
     "hchiam/learning-lighthouse-ci",
     "hyparam/hysnappy",
+    "ipld/js-dag-pb",
     "josdejong/typed-function",
-    "karma-runner/karma-qunit",
+    "kibertoad/toad-cache",
     "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",
     "LuaLS/vscode-lua-doc",
     "minikube-ci/examples",
+    "mongodb-js/zstd",
     "NEAR-DevHub/neardevhub-bos",
     "nodejs/Gzemnid",
     "quarkiverse/quarkiverse",

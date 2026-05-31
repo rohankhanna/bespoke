@@ -3,7 +3,7 @@
     "components": 79,
     "concepts": 76,
     "observations": 77,
-    "repos": 19,
+    "repos": 17,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
-    "Antibrumm/jackson-antpathfilter",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "apache/netbeans-nbpackage",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
-    "caprica/vlcj-examples",
     "clearml/clearml-pycharm-plugin",
     "enola-dev/enola",
     "EXIficient/exificient-for-json",

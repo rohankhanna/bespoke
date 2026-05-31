@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 16,
-    "terms": 128
+    "components": 175,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 17,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "actions-cool/.github",
     "actions-cool/test-issues-helper",
@@ -24,6 +24,7 @@
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
     "heshengtao/desktop-for-sap",
+    "Level/read-stream",
     "lucabubi/star-history",
     "REditorSupport/vscode-R-syntax",
     "stdlib-js/array-buffer",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4251,
-    "concepts": 711,
-    "observations": 714,
-    "repos": 91,
-    "terms": 714
+    "components": 4363,
+    "concepts": 746,
+    "observations": 749,
+    "repos": 96,
+    "terms": 741
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "acornjs/acorn",
     "ai/nanoid",
     "ajaxorg/ace",
     "ampproject/amphtml",
@@ -36,7 +37,6 @@
     "electerm/electerm",
     "electron/minimal-repro",
     "expressjs/express",
-    "eyaltoledano/claude-task-master",
     "facebook/hermes",
     "fastify/fastify",
     "gatsbyjs/gatsby",
@@ -46,6 +46,7 @@
     "handlebars-lang/handlebars.js",
     "hapijs/hapi",
     "http-party/http-server",
+    "http-party/node-http-proxy",
     "huggingface/transformers.js",
     "iamkun/dayjs",
     "immerjs/immer",
@@ -59,6 +60,8 @@
     "josdejong/mathjs",
     "jquery/jquery",
     "jquery/jquery-ui",
+    "jsdoc/jsdoc",
+    "jsdom/jsdom",
     "karma-runner/karma",
     "krisk/Fuse",
     "Leaflet/Leaflet",
@@ -69,6 +72,7 @@
     "markedjs/marked",
     "mdx-js/mdx",
     "microsoft/monaco-editor",
+    "mochajs/mocha",
     "moment/luxon",
     "motdotla/dotenv",
     "mozilla/pdf.js",
@@ -95,6 +99,7 @@
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "tj/commander.js",
+    "Unitech/pm2",
     "validatorjs/validator.js",
     "vega/vega",
     "vercel-labs/agent-skills",

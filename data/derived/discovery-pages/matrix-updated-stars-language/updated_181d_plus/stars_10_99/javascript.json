@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2953,
-    "concepts": 660,
-    "observations": 660,
-    "repos": 278,
-    "terms": 651
+    "components": 2970,
+    "concepts": 661,
+    "observations": 661,
+    "repos": 279,
+    "terms": 652
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -178,6 +178,7 @@
     "jsdom/jsdom-devtools-formatter",
     "jupyter-xeus/xeus-javascript",
     "kaloureyes3/v4-clients",
+    "karma-runner/karma-qunit",
     "kawanet/int64-buffer",
     "kellyselden/merge-package.json",
     "lambci/sync-threads",

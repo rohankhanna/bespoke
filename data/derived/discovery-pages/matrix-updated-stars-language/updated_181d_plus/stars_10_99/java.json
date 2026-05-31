@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 118,
-    "concepts": 168,
-    "observations": 168,
-    "repos": 75,
-    "terms": 168
+    "concepts": 160,
+    "observations": 160,
+    "repos": 74,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "abapGit/ADT_Frontend",
     "abilian/abilian-sbe",
@@ -34,7 +34,6 @@
     "CraftJarvis/MC-Simulator",
     "CreeperHost/Log4jPatcher",
     "cyberphone/jws-ct",
-    "debajyotibasak/MyTimes",
     "Deep-Symmetry/wayang",
     "DerekCook/CoreMidi4J",
     "dgileadi/dg.jdt.ls.decompiler",

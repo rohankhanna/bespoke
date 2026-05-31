@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 13,
+    "components": 25,
     "concepts": 6,
     "observations": 6,
-    "repos": 6,
+    "repos": 8,
     "terms": 6
   },
   "facet_version": 1,
@@ -11,13 +11,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "aidenlab/juicebox-web",
     "apostrophecms/starter-kit-astro-essentials",
     "cloudfoundry/credhub-acceptance-tests",
     "donut-party/endpoint-test",
     "lxgw/B5XiZhi",
     "oscard0m/ts-transformer-remove-named-export",
-    "psmux/scoop-psmux"
+    "psmux/scoop-psmux",
+    "xuanji86/ainiee-translate-skill"
   ]
 }

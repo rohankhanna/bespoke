@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3274,
-    "concepts": 1588,
-    "observations": 1590,
-    "repos": 324,
-    "terms": 1562
+    "components": 3293,
+    "concepts": 1603,
+    "observations": 1605,
+    "repos": 326,
+    "terms": 1577
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -140,6 +140,7 @@
     "highlightjs/highlight.js",
     "hiroi-sora/Umi-OCR",
     "Homebrew/legacy-homebrew",
+    "horovod/horovod",
     "howdyai/botkit",
     "httpie/cli",
     "HumanAIGC/AnimateAnyone",
@@ -180,6 +181,7 @@
     "LAION-AI/Open-Assistant",
     "LlamaChinese/Llama-Chinese",
     "lllyasviel/ControlNet",
+    "lllyasviel/Fooocus",
     "lllyasviel/FramePack",
     "lllyasviel/stable-diffusion-webui-forge",
     "lm-sys/FastChat",

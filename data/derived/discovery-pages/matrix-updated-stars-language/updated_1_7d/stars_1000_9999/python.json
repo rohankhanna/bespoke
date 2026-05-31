@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 181,
-    "observations": 182,
-    "repos": 19,
-    "terms": 180
+    "components": 181,
+    "concepts": 245,
+    "observations": 246,
+    "repos": 26,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,32 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
+    "aws/serverless-application-model",
+    "bitsandbytes-foundation/bitsandbytes",
+    "clearml/clearml",
     "collabora/WhisperLive",
     "Farama-Foundation/Minigrid",
     "fla-org/flash-linear-attention",
     "google-deepmind/dm-haiku",
-    "hgmzhn/manga-translator-ui",
+    "google-deepmind/optax",
     "huggingface/finetrainers",
     "huggingface/optimum-quanto",
-    "intelligent-machine-learning/dlrover",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
+    "meta-pytorch/tnt",
+    "meta-pytorch/torchcodec",
+    "meta-pytorch/torchtune",
     "modelscope/FunClip",
     "NEKOparapa/AiNiee",
+    "ogx-ai/ogx",
     "redis/redis-om-python",
     "rllm-org/rllm",
     "roboflow/maestro",
+    "safetensors/safetensors",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"
   ]

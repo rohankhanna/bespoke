@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 18,
-    "terms": 127
+    "components": 66,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 14,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "Apicurio/apicurio-registry",
-    "aws/smithy-go",
     "eclipse-lsp4j/lsp4j",
-    "heroku/webapp-runner",
     "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
-    "kirill-grouchnikov/radiance",
     "KosherJava/zmanim",
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "microsoft/LangChain4j-for-Beginners",
+    "openjdk/jdk11u",
     "openjdk/jdk17u",
     "palantir/javapoet",
     "processing/processing4",
     "samtools/htsjdk",
-    "SAP/SapMachine",
     "Waffle/waffle"
   ]
 }

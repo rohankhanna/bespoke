@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 12,
-    "terms": 36
+    "components": 66,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 13,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "actions-oss/act-cli",
     "AlwaysNur/bookbank",
     "bizflycloud/karpenter-provider-bizflycloud",
     "codeGROOVE-dev/retry",

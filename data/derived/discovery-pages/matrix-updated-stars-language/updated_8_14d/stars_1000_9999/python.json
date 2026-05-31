@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 68,
-    "observations": 68,
+    "components": 53,
+    "concepts": 76,
+    "observations": 76,
     "repos": 10,
-    "terms": 67
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
+    "hgmzhn/manga-translator-ui",
+    "intelligent-machine-learning/dlrover",
     "InternScience/GraphGen",
-    "lucidrains/vector-quantize-pytorch",
-    "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",
     "python-versioneer/python-versioneer",
     "speaches-ai/speaches",

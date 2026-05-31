@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 24,
     "observations": 24,
-    "repos": 15,
+    "repos": 16,
     "terms": 24
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "conda-forge/blis-feedstock",
@@ -22,6 +22,7 @@
     "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-Calls-The-Shots",
+    "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "DeepWok/mase-docker",

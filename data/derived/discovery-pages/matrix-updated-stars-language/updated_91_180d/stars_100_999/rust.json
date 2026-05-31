@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 351,
-    "concepts": 245,
-    "observations": 247,
+    "components": 347,
+    "concepts": 238,
+    "observations": 240,
     "repos": 62,
-    "terms": 244
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "astro/deadnix",
     "atanunq/viuer",
@@ -52,6 +52,7 @@
     "mtkennerly/shawl",
     "op-rs/kona",
     "orhun/tuitar",
+    "pdf-rs/pdf_render",
     "pksunkara/cargo-workspaces",
     "pythops/tenere",
     "ratatui/templates",
@@ -63,7 +64,6 @@
     "rusticstuff/simdutf8",
     "sagiegurari/duckscript",
     "scopedb/percas",
-    "shekohex/allo-isolate",
     "smol-rs/async-executor",
     "stanislav-tkach/os_info",
     "tsonglew/dutis",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 21,
-    "terms": 56
+    "components": 113,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 24,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
+    "celestiaorg/hana",
     "chris-zen/coremidi",
     "dcampbell24/mdbook-djot",
     "dgn/oidc-filter",
@@ -23,6 +24,8 @@
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",
+    "jiegec/tantivy-jieba",
+    "lambdaclass/libssz",
     "libdeflater/libdeflater",
     "libp2p/if-watch",
     "microsoft/tracing-etw",

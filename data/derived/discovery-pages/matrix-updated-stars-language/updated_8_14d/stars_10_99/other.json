@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "components": 80,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 4,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "dwyl/mvp",
     "f3liz-casa/noraneko",
-    "nvim-mini/mini.deps"
+    "nvim-mini/mini.deps",
+    "python-poetry/website"
   ]
 }

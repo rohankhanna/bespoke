@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1586,
-    "concepts": 419,
-    "observations": 420,
-    "repos": 107,
-    "terms": 419
+    "components": 1621,
+    "concepts": 436,
+    "observations": 438,
+    "repos": 109,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -29,6 +29,7 @@
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "C-Lodder/grunt-postcss",
+    "coasys/ad4m",
     "coderaiser/supertape",
     "dart-lang/site-shared",
     "dwyl/aws-ses-lambda",
@@ -58,6 +59,7 @@
     "hectorm/chafa-wasm",
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
+    "hyparam/squirreling",
     "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",

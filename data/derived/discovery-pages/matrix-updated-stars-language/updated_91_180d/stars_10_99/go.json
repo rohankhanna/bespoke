@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 33,
-    "terms": 110
+    "components": 110,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 34,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
+    "alexellis/fstail",
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
     "bfenetworks/api-server",
@@ -30,6 +31,7 @@
     "ebml-go/webm",
     "evmos/os",
     "extism/go-pdk",
+    "filecoin-project/go-data-transfer",
     "FiloSottile/hpke",
     "ipfs/go-ipfs-example-plugin",
     "ipfs/go-log",
@@ -38,7 +40,6 @@
     "lukacu/docker-frps",
     "mikespook/possum",
     "multiformats/go-varint",
-    "panmari/cuckoofilter",
     "rose-pine/rose-pine-bloom",
     "roy2220/osc52pty",
     "rpcxio/rpcx-etcd",

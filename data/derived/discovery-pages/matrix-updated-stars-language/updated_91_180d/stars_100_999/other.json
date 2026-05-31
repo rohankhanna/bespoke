@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 845,
-    "concepts": 804,
-    "observations": 805,
+    "concepts": 796,
+    "observations": 797,
     "repos": 209,
-    "terms": 799
+    "terms": 791
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -36,6 +36,7 @@
     "atomontage/xterm-color",
     "auto-complete/popup-el",
     "autodeployai/ai-serving",
+    "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
     "Azure-Samples/azure-openai-rag-workshop",
     "Azure-Samples/contoso-creative-writer",
     "Azure/aca-landing-zone-accelerator",
@@ -74,6 +75,7 @@
     "com-lihaoyi/utest",
     "countries/country_select",
     "cross-rs/cross-toolchains",
+    "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
     "Cysharp/ValueTaskSupplement",
@@ -81,7 +83,6 @@
     "Deep-Symmetry/afterglow",
     "detekt/detekt-intellij-plugin",
     "DL3DV-10K/Dataset",
-    "dominicletz/websockex",
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
     "EbrahimTahernejad/Tun2SocksKit",
@@ -128,7 +129,6 @@
     "jtdaugherty/vty",
     "juji-io/editscript",
     "JuliaDebug/SnoopCompile.jl",
-    "JuliaDocs/LiveServer.jl",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
     "JuliaGizmos/Blink.jl",

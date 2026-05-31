@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 16,
-    "terms": 67
+    "components": 23,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 12,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "48Club/bsc-snapshots",
-    "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",
     "deepset-ai/haystack-integrations",
     "dnaka91/obws",
-    "getlantern/lantern-binaries",
-    "graalvm/mandrel",
     "lxgw/LxgwNeoXiZhi-Screen",
     "lxgw/LxgwXiHei",
     "lxgw/LxgwZhiSong",

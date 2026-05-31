@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 228,
+    "components": 225,
     "concepts": 158,
     "observations": 161,
-    "repos": 61,
+    "repos": 60,
     "terms": 156
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -24,7 +24,6 @@
     "assimelha/cmcp",
     "baerwang/openapi-rs",
     "bincode-org/virtue",
-    "BoltzExchange/hold",
     "catch-twenty-two/rust-ssd",
     "chrisguida/smaug",
     "ClickHouse/ch2rs",

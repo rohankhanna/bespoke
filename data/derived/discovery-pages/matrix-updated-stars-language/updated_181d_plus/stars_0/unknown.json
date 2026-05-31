@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 224,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 126,
-    "terms": 106
+    "components": 227,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 127,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -103,6 +103,7 @@
     "madsim-rs/rust-tokio-retry",
     "madsim-rs/sqlx",
     "marwes/hubcaps",
+    "mayocream/ug",
     "Megvii-BaseDetection/storage",
     "MindWorkAI/Planning",
     "mountchicken/mmocr_tutorials",

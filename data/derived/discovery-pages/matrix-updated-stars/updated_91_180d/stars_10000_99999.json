@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 977,
-    "concepts": 603,
-    "observations": 606,
-    "repos": 95,
-    "terms": 601
+    "components": 958,
+    "concepts": 588,
+    "observations": 591,
+    "repos": 93,
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -53,7 +53,6 @@
     "go-chi/chi",
     "google/ExoPlayer",
     "gulpjs/gulp",
-    "horovod/horovod",
     "i3/i3",
     "IdreesInc/Monocraft",
     "JaidedAI/EasyOCR",
@@ -66,7 +65,6 @@
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",
     "linsa-io/linsa",
-    "lllyasviel/Fooocus",
     "lucidrains/denoising-diffusion-pytorch",
     "mathjax/MathJax",
     "MatsuriDayo/NekoBoxForAndroid",

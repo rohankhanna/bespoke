@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 597,
-    "observations": 597,
-    "repos": 107,
-    "terms": 591
+    "components": 294,
+    "concepts": 612,
+    "observations": 612,
+    "repos": 109,
+    "terms": 606
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -48,6 +48,7 @@
     "guoyww/AnimateDiff",
     "haotian-liu/llava",
     "hiroi-sora/Umi-OCR",
+    "horovod/horovod",
     "httpie/cli",
     "HumanSignal/labelImg",
     "IDEA-Research/GroundingDINO",
@@ -63,6 +64,7 @@
     "LAION-AI/Open-Assistant",
     "LlamaChinese/Llama-Chinese",
     "lllyasviel/ControlNet",
+    "lllyasviel/Fooocus",
     "lllyasviel/FramePack",
     "lllyasviel/stable-diffusion-webui-forge",
     "lm-sys/FastChat",

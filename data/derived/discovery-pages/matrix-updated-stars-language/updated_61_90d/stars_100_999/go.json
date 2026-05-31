@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 198,
-    "observations": 198,
-    "repos": 36,
-    "terms": 198
+    "components": 229,
+    "concepts": 199,
+    "observations": 199,
+    "repos": 38,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "anacrolix/dht",
-    "Antonboom/testifylint",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-app-mesh-controller-for-k8s",
@@ -26,8 +25,11 @@
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
+    "docker-library/bashbrew",
     "erigontech/interfaces",
+    "GFW-knocker/Xray-core",
     "go-chi/docgen",
+    "go-gl/glow",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2834,
-    "concepts": 475,
-    "observations": 475,
-    "repos": 99,
-    "terms": 484
+    "components": 2855,
+    "concepts": 491,
+    "observations": 491,
+    "repos": 100,
+    "terms": 500
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -74,6 +74,7 @@
     "jupyter-widgets/ipywidgets",
     "kentcdodds/babel-plugin-preval",
     "kentcdodds/cross-env",
+    "labring/laf",
     "liamcain/obsidian-calendar-plugin",
     "liamcain/obsidian-periodic-notes",
     "MarshallOfSound/electron-devtools-installer",

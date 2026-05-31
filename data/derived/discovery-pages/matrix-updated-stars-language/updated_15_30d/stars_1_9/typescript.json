@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 7,
-    "terms": 64
+    "components": 73,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 4,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "06ketan/slideshot",
-    "anolilab/unplugin-favicons",
-    "csm-actions/update-branch-action",
-    "dydxprotocol/v4-localization",
     "fluent-vue/unplugin-fluent-vue",
     "oclif/plugin-version",
     "suzuki-shunsuke/release-js-action"

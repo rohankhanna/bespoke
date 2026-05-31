@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 214,
-    "concepts": 249,
-    "observations": 250,
-    "repos": 37,
-    "terms": 248
+    "components": 220,
+    "concepts": 254,
+    "observations": 255,
+    "repos": 38,
+    "terms": 253
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
+    "Antonboom/testifylint",
     "appbaseio/reactivesearch-api",
     "argoproj-labs/argocd-rbac-operator",
     "aws-observability/aws-otel-collector",

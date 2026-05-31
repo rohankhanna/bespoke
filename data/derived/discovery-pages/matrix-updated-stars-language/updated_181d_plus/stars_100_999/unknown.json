@@ -3,7 +3,7 @@
     "components": 126,
     "concepts": 456,
     "observations": 457,
-    "repos": 253,
+    "repos": 255,
     "terms": 456
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -59,6 +59,7 @@
     "chainer-community/awesome-chainer",
     "charm-and-friends/additional-bubbles",
     "ChatGPTNextWeb/NextChat-Awesome-Plugins",
+    "chika0801/Xray-examples",
     "chika0801/Xray-install",
     "ChiuMing-Neko/ChiuKongGothic",
     "chriskempson/base16",
@@ -214,6 +215,7 @@
     "PacificBiosciences/IsoSeq",
     "PacificBiosciences/pbbioconda",
     "pdm-project/awesome-pdm",
+    "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
     "pi0/config-dir",
     "pickhardt/maintainers-wanted",
     "pirapira/ethereum-formal-verification-overview",

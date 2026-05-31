@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1220,
-    "concepts": 263,
-    "observations": 264,
-    "repos": 33,
-    "terms": 297
+    "components": 1280,
+    "concepts": 299,
+    "observations": 301,
+    "repos": 36,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
@@ -21,14 +21,17 @@
     "anthropics/skills",
     "avelino/awesome-go",
     "denoland/deno",
+    "excalidraw/excalidraw",
     "facebook/react",
     "facebook/react-native",
     "fatedier/frp",
     "flutter/flutter",
+    "Genymobile/scrcpy",
     "golang/go",
     "google-gemini/gemini-cli",
     "kubernetes/kubernetes",
     "langgenius/dify",
+    "microsoft/generative-ai-for-beginners",
     "microsoft/terminal",
     "microsoft/typescript",
     "microsoft/vscode",

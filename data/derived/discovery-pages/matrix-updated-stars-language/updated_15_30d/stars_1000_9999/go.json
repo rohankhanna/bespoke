@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 376,
-    "observations": 377,
-    "repos": 33,
-    "terms": 374
+    "components": 211,
+    "concepts": 262,
+    "observations": 262,
+    "repos": 22,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,39 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "aws/aws-sdk-go-v2",
-    "beclab/Olares",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "elastic/cloud-on-k8s",
-    "elazarl/goproxy",
     "erigontech/erigon",
     "etcd-io/bbolt",
-    "fluxcd/flux2",
     "go-git/go-git",
     "go-ini/ini",
     "gookit/color",
     "gookit/goutil",
     "gookit/validate",
-    "helmfile/helmfile",
-    "kubeflow/trainer",
     "kubeovn/kube-ovn",
-    "kubernetes-sigs/cluster-api",
     "kyverno/kyverno",
     "letsencrypt/boulder",
     "Loyalsoldier/geoip",
     "miekg/dns",
-    "mostlygeek/llama-swap",
     "NVIDIA/k8s-device-plugin",
     "open-telemetry/opentelemetry-operator",
     "pion/example-webrtc-applications",
-    "pion/turn",
-    "replicate/cog",
     "supabase/cli",
     "umputun/remark42",
-    "usbarmory/tamago",
     "version-fox/vfox",
     "XTLS/REALITY"
   ]

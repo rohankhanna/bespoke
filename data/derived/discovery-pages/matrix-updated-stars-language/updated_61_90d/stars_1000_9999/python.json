@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 552,
-    "observations": 552,
-    "repos": 88,
-    "terms": 548
+    "components": 343,
+    "concepts": 568,
+    "observations": 568,
+    "repos": 89,
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
     "anapnoe/stable-diffusion-webui-ux",
+    "ApeWorX/ape",
     "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
     "aws-cloudformation/aws-cloudformation-templates",
     "bambinos/bambi",
     "belluzj/fantasque-sans",
     "black-forest-labs/flux2",
+    "bpython/bpython",
     "cheshire-cat-ai/core",
+    "chungmin99/pyroki",
     "databricks/megablocks",
     "dateutil/dateutil",
     "davidhalter/jedi",
@@ -55,7 +58,6 @@
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
-    "lyuwenyu/RT-DETR",
     "michaelfeil/infinity",
     "microsoft/TaskWeaver",
     "miiton/Cica",
@@ -72,7 +74,6 @@
     "open-mmlab/mmaction2",
     "OpenGVLab/InternVideo",
     "pdfminer/pdfminer.six",
-    "pfnet/pfrl",
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
@@ -87,6 +88,7 @@
     "sierra-research/tau-bench",
     "sirfz/tesserocr",
     "snakers4/silero-vad",
+    "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
@@ -100,7 +102,6 @@
     "ufoym/deepo",
     "Vchitect/VBench",
     "wenet-e2e/wenet",
-    "yangyanli/PointCNN",
-    "zubair-trabzada/ai-marketing-claude"
+    "yangyanli/PointCNN"
   ]
 }

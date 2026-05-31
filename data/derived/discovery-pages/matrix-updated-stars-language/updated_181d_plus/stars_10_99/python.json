@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 700,
-    "concepts": 1497,
-    "observations": 1499,
-    "repos": 855,
+    "components": 713,
+    "concepts": 1498,
+    "observations": 1500,
+    "repos": 858,
     "terms": 1475
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -153,6 +153,7 @@
     "AwesomeSeq/Comba-triton",
     "axolotl-ai-cloud/grpo_code",
     "axolotl-ai-cloud/plugin-atropos",
+    "Azure/aaz-dev-tools",
     "BAAI-DCAI/Dataset-Pruning",
     "BAAI-DCAI/MMVU",
     "BAAI-WuDao/EVA",
@@ -344,6 +345,7 @@
     "EleutherAI/github-downloader",
     "emard/ulx3s-bin",
     "emibcn/pywisp",
+    "emory-irlab/pyterrier_genrank",
     "epicure/llama2.js",
     "erezinman/loguru-config",
     "erkyrath/glk-dev",
@@ -823,6 +825,7 @@
     "ViTAE-Transformer/APTv2",
     "ViTAE-Transformer/LeMeViT",
     "vitchyr/viskit",
+    "vstinner/misc",
     "waltonfuture/InstructionGPT-4",
     "WapaMario63/GPTQ-for-LLaMa-ROCm",
     "WeikaiTan/RandLA-Net",

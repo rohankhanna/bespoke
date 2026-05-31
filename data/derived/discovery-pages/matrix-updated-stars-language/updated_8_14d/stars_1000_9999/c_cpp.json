@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 4,
-    "terms": 45
+    "components": 51,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 5,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
+    "ashvardanian/NumKong",
     "doctest/doctest",
     "microsoft/Detours",
     "ufbx/ufbx"

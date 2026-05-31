@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 81,
-    "terms": 104
+    "components": 258,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 79,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -31,7 +31,6 @@
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "danielrosehill/Agent-Deploy",
-    "danielrosehill/AI-Agent-Virtual-Panel-Configs",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
@@ -45,13 +44,13 @@
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/git-github-plugin",
-    "danielrosehill/Github-Gist-MCP-Minimal",
     "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",
     "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "databendlabs/iceberg-rust",
+    "DataDog/go-cmp",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
     "DiligentGraphics/glfw",
@@ -77,7 +76,6 @@
     "lishid/cm-language",
     "llamagate/diff",
     "maeste/a2a-tck",
-    "mayocream/ug",
     "mjvolk3/dendron-template",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",

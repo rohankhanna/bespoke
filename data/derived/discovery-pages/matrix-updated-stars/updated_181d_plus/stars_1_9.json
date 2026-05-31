@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5464,
-    "concepts": 1971,
-    "observations": 1974,
-    "repos": 1388,
-    "terms": 1967
+    "components": 5467,
+    "concepts": 1972,
+    "observations": 1975,
+    "repos": 1389,
+    "terms": 1968
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -732,6 +732,7 @@
     "hiyouga/vllm",
     "HKU-BAL/Clair-Mosaic",
     "hoelzro/term-drawille",
+    "holochain/hc-launch",
     "honeycombio/opentelemetry-demo",
     "hongjr03/tinymist-nightly-installer",
     "horseee/Diffusion_DeepCache",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 42,
-    "observations": 43,
-    "repos": 5,
-    "terms": 42
+    "components": 9,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 1,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "apollographql/eslint-plugin-graphql",
-    "endojs/endo",
-    "googleapis/google-cloud-node",
-    "module-federation/core",
-    "paralleldrive/cuid"
+    "JuliaPluto/Pluto.jl"
   ]
 }

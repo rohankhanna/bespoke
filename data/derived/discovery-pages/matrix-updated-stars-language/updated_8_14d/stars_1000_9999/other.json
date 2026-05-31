@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 6,
-    "terms": 50
+    "components": 36,
+    "concepts": 63,
+    "observations": 64,
+    "repos": 5,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
-    "litedb-org/LiteDB",
-    "opentk/opentk",
+    "dotnet/Silk.NET",
     "preservim/tagbar",
     "standardrb/standard",
     "xoofx/markdig"

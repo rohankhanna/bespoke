@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 19,
-    "terms": 127
+    "components": 69,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 14,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
     "Chocolate4U/Iran-clash-rules",
-    "cilium/community",
-    "cldwalker/dotfiles",
     "fcshark-org/route-list",
     "gpac/testsuite",
     "heroku/heroku-buildpack-dotnet",
-    "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
     "leleliu008/ppkg",
     "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",
-    "rocq-prover/docker-opam-action",
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",
     "stefantalpalaru/gentoo-overlay",

@@ -1,21 +1,24 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 56,
-    "observations": 57,
-    "repos": 7,
-    "terms": 56
+    "components": 82,
+    "concepts": 100,
+    "observations": 101,
+    "repos": 10,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "gitleaks/gitleaks",
+    "isl-org/Open3D",
     "meta-llama/llama-cookbook",
     "oobabooga/textgen",
+    "protocolbuffers/protobuf",
     "pyg-team/pytorch_geometric",
     "realworld-apps/realworld",
     "rust-lang/mdBook",

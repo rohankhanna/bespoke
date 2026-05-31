@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1383,
-    "concepts": 258,
-    "observations": 258,
-    "repos": 41,
-    "terms": 280
+    "components": 1429,
+    "concepts": 271,
+    "observations": 271,
+    "repos": 42,
+    "terms": 293
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -38,6 +38,7 @@
     "jnsahaj/tweakcn",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
+    "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",
     "markdoc/markdoc",
     "microsoft/genaiscript",

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 2868,
-    "concepts": 3577,
-    "observations": 3585,
-    "repos": 647,
-    "terms": 3556
+    "concepts": 3569,
+    "observations": 3577,
+    "repos": 646,
+    "terms": 3549
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -202,7 +202,6 @@
     "datanucleus/datanucleus-typeconverter-kryo",
     "Datomic/fressian",
     "dbeaver/dbeaver",
-    "debajyotibasak/MyTimes",
     "debezium/debezium",
     "Deep-Symmetry/beat-carabiner-java",
     "Deep-Symmetry/beat-link",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 939,
-    "concepts": 3808,
-    "observations": 3810,
-    "repos": 968,
-    "terms": 3740
+    "components": 955,
+    "concepts": 3811,
+    "observations": 3813,
+    "repos": 970,
+    "terms": 3742
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -80,6 +80,7 @@
     "ashawkey/torch-ngp",
     "ashkamath/mdetr",
     "asteroid-team/asteroid",
+    "astral-sh/ruff-lsp",
     "asweigart/pyperclip",
     "attardi/wikiextractor",
     "auspicious3000/autovc",
@@ -835,6 +836,7 @@
     "switchablenorms/CelebAMask-HQ",
     "swz30/MPRNet",
     "swz30/Restormer",
+    "Sygil-Dev/sygil-webui",
     "taesungp/contrastive-unpaired-translation",
     "takuseno/d3rlpy",
     "taoyds/spider",

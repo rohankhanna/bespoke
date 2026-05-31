@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 827,
-    "concepts": 557,
-    "observations": 559,
+    "components": 824,
+    "concepts": 558,
+    "observations": 560,
     "repos": 145,
-    "terms": 554
+    "terms": 555
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -20,11 +20,11 @@
     "ajevans99/swift-json-schema",
     "akabe/ocaml-jupyter",
     "alcohol/iso3166",
+    "ankane/vega-ruby",
     "aserafin/grape_logging",
     "astral-sh/uv-docker-example",
     "AudioKit/Cookbook",
     "aws-ia/terraform-aws-eks-blueprints-addons",
-    "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
     "aws/homebrew-tap",
     "Azure-Samples/azureai-samples",
     "Azure/appservice-landing-zone-accelerator",
@@ -49,12 +49,12 @@
     "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
     "cloudstudio/ollama-laravel",
+    "cloudwu/deepfuture",
     "cognitect/transit-clj",
     "cpp-pm/hunter",
     "creativescala/doodle",
     "crivotz/nv-ide",
     "csstools/normalize.css",
-    "csstools/postcss-normalize",
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/nimble_options",

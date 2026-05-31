@@ -3,7 +3,7 @@
     "components": 51,
     "concepts": 66,
     "observations": 66,
-    "repos": 15,
+    "repos": 17,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,14 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "Accla/D4M.py",
+    "Antibrumm/jackson-antpathfilter",
     "apache/seatunnel-tools",
     "aws-cloudformation/cloudformation-resource-schema",
     "aws-observability/aws-otel-test-framework",
     "beehive-lab/kfusion-tornadovm",
     "bobbylight/RSTAUI",
+    "caprica/vlcj-examples",
     "google/tsunami-security-scanner-callback-server",
     "googleapis/java-bigquerystorage",
     "hashicorp/hello-vault-spring",

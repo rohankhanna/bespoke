@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 11,
-    "terms": 86
+    "components": 41,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 8,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "Chocolate4U/Iran-v2ray-rules",
     "heroku/base-images",
     "heroku/heroku-buildpack-go",
-    "heroku/heroku-buildpack-java",
-    "itzg/docker-mc-backup",
     "jcefmaven/jcefbuild",
     "jez/dotfiles",
-    "meyayl/docker-languagetool",
     "sclorg/s2i-php-container",
     "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 339,
-    "observations": 340,
-    "repos": 64,
-    "terms": 337
+    "components": 211,
+    "concepts": 353,
+    "observations": 353,
+    "repos": 67,
+    "terms": 351
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
@@ -28,6 +28,7 @@
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "derickr/timelib",
+    "dloebl/cgif",
     "douglascrockford/JSMin",
     "eclipse-cyclonedds/cyclonedds-cxx",
     "eliemichel/LearnWebGPU",
@@ -44,6 +45,7 @@
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
     "KhronosGroup/OpenCL-Headers",
+    "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
     "lexxmark/winflexbison",
@@ -54,8 +56,8 @@
     "luvit/luvi",
     "microsoft/jericho",
     "microsoft/xlang",
-    "mongodb-js/kerberos",
     "NetEase-FuXi/EETQ",
+    "ng-log/ng-log",
     "nhielost/obs-midi-mg",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
@@ -75,6 +77,7 @@
     "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",
+    "webgpu-native/webgpu-headers",
     "websockets/bufferutil",
     "xtensor-stack/xtensor-python",
     "xuankuzcr/Global-LVBA"

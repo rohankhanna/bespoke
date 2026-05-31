@@ -3,7 +3,7 @@
     "components": 80,
     "concepts": 104,
     "observations": 104,
-    "repos": 18,
+    "repos": 19,
     "terms": 105
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
@@ -31,6 +31,7 @@
     "nacos-group/nacos-spring-project",
     "peergos/nabu",
     "scalar-labs/btm",
+    "spring-ai-alibaba/deepresearch",
     "testng-team/testng-eclipse"
   ]
 }

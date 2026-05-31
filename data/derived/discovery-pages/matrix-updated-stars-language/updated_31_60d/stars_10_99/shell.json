@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 247,
-    "observations": 250,
-    "repos": 54,
-    "terms": 245
+    "components": 251,
+    "concepts": 269,
+    "observations": 272,
+    "repos": 58,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -21,6 +21,7 @@
     "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
+    "Alexpux/MINGW-packages",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
     "aporthq/aport-agent-guardrails",
@@ -32,10 +33,11 @@
     "bnb-chain/node-deploy",
     "bufbuild/homebrew-buf",
     "ChainSafe/forest-iac",
+    "cilium/community",
+    "cldwalker/dotfiles",
     "clojure/brew-install",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
-    "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/pinocchio-feedstock",
     "conda-forge/poppler-feedstock",
     "confluentinc/cp-demo",
@@ -52,6 +54,7 @@
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
     "helidon-io/helidon-examples",
+    "heroku/heroku-buildpack-gradle",
     "iterate-ch/profiles",
     "milvus-io/milvus-proto",
     "NixOS/org",
@@ -65,6 +68,7 @@
     "reviewdog/action-depup",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
+    "rocq-prover/docker-opam-action",
     "sclorg/mariadb-container",
     "tinted-theming/tinted-shell",
     "tinted-theming/tinted-terminal"

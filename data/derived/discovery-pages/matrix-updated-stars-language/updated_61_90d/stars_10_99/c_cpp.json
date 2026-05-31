@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 33,
-    "terms": 113
+    "components": 127,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 35,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "ada-url/goada",
-    "adamyaxley/Unformat",
     "AFD-Illinois/ebhlight",
     "aseprite/clip",
     "aseprite/observable",
@@ -28,10 +27,12 @@
     "embeddedartistry/printf",
     "engineai-robotics/engineai_ros2_workspace",
     "farm-ng/farm-ng-core",
+    "flashlight/text",
     "fonttools/unicodedata2",
     "galaxyproject/KegAlign",
     "gershnik/wsdd-native",
     "gozaltech/espeak-ng-sapi",
+    "heal-research/pyoperon",
     "icecc/icemon",
     "ilyabrilev/biosim4",
     "intel/intel-extension-for-openxla",
@@ -39,6 +40,7 @@
     "jupyter-xeus/xeus-zmq",
     "jupyter-xeus/xleaflet",
     "lemire/simple_fastfloat_benchmark",
+    "Level/classic-level",
     "mesh-iit/creo2urdf",
     "microsoft/react-native-winrt",
     "midi2-dev/ni-midi2",

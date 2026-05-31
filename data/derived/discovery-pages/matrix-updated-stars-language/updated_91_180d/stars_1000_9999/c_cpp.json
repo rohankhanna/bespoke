@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 371,
-    "observations": 371,
-    "repos": 67,
-    "terms": 366
+    "components": 298,
+    "concepts": 375,
+    "observations": 375,
+    "repos": 69,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
+    "akheron/jansson",
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
     "attractivechaos/klib",

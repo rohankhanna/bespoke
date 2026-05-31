@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 198,
-    "concepts": 300,
-    "observations": 301,
-    "repos": 58,
-    "terms": 294
+    "components": 208,
+    "concepts": 309,
+    "observations": 310,
+    "repos": 59,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "2ndalpha/gasmask",
-    "akheron/jansson",
     "alembic/alembic",
     "Alex313031/thorium",
     "AlibabaResearch/AdvancedLiterateMachinery",
@@ -30,9 +28,12 @@
     "Chlumsky/msdfgen",
     "coin-or/Ipopt",
     "containers/bubblewrap",
+    "CVCUDA/CV-CUDA",
     "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
     "eradman/entr",
+    "go-gl/gl",
+    "google/double-conversion",
     "google/snappy",
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",

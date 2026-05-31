@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 479,
-    "concepts": 96,
-    "observations": 97,
+    "components": 490,
+    "concepts": 94,
+    "observations": 95,
     "repos": 19,
-    "terms": 94
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "AdguardTeam/HostlistsRegistry",
     "americanexpress/jest-json-schema",
+    "browserslist/caniuse-lite",
     "Calcium-Ion/new-api-key-tool",
     "emberjs/ember-test-helpers",
     "facebook/Rapid",
@@ -24,7 +25,6 @@
     "gitleaks/gitleaks-action",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "Kilian/electron-to-chromium",
-    "lo-th/phy",
     "mdn/fred",
     "openfl/lime",
     "oss-serverless/serverless",

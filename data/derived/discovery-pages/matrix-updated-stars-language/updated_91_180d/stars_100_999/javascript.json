@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 874,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 48,
-    "terms": 133
+    "components": 897,
+    "concepts": 144,
+    "observations": 145,
+    "repos": 50,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
     "appbaseio/searchbox",
+    "asdf-vm/actions",
     "attractivechaos/k8",
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
@@ -61,6 +62,7 @@
     "svg-sprite/gulp-svg-sprite",
     "testing-library/eslint-plugin-jest-dom",
     "tonyganch/gonzales-pe",
+    "usnistgov/jsfive",
     "watson/bonjour"
   ]
 }

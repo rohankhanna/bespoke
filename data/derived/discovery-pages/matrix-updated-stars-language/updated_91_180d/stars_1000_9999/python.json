@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 407,
-    "concepts": 800,
-    "observations": 801,
-    "repos": 167,
-    "terms": 789
+    "components": 392,
+    "concepts": 808,
+    "observations": 809,
+    "repos": 168,
+    "terms": 794
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -30,7 +30,6 @@
     "apple/ml-hypersim",
     "aqlaboratory/openfold",
     "ARISE-Initiative/robomimic",
-    "astral-sh/ruff-lsp",
     "baaivision/Emu",
     "baaivision/Emu3",
     "bazelbuild/starlark",
@@ -105,6 +104,7 @@
     "LTH14/mar",
     "lucidrains/tab-transformer-pytorch",
     "lupantech/AgentFlow",
+    "lyuwenyu/RT-DETR",
     "MeetKai/functionary",
     "meta-llama/llama-models",
     "Minqi824/ADBench",
@@ -136,6 +136,7 @@
     "palantir/python-language-server",
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
+    "pfnet/pfrl",
     "Phantom-video/HuMo",
     "pipecat-ai/smart-turn",
     "PKU-YuanGroup/LLaVA-CoT",
@@ -160,7 +161,6 @@
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
     "Supervisor/supervisor",
-    "Sygil-Dev/sygil-webui",
     "Teemu/pytest-sugar",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/TFace",
@@ -180,6 +180,7 @@
     "YosysHQ/icestorm",
     "Yuliang-Liu/Monkey",
     "yxlllc/DDSP-SVC",
-    "ZhengPeng7/BiRefNet"
+    "ZhengPeng7/BiRefNet",
+    "zubair-trabzada/ai-marketing-claude"
   ]
 }

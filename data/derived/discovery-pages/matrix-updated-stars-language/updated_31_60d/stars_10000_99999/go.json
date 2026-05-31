@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1261,
-    "concepts": 1259,
-    "observations": 1263,
-    "repos": 112,
-    "terms": 1243
+    "components": 1336,
+    "concepts": 1350,
+    "observations": 1354,
+    "repos": 117,
+    "terms": 1337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -37,18 +37,20 @@
     "charmbracelet/lipgloss",
     "charmbracelet/vhs",
     "cli/cli",
+    "cloudflare/cloudflared",
     "cloudwego/eino",
+    "cockroachdb/cockroach",
     "coder/coder",
     "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
     "coredns/coredns",
     "coreybutler/nvm-windows",
+    "dagger/dagger",
     "danielmiessler/fabric",
     "dexidp/dex",
     "dgraph-io/badger",
     "dgraph-io/dgraph",
-    "direnv/direnv",
     "distribution/distribution",
     "DNSCrypt/dnscrypt-proxy",
     "docker/compose",
@@ -99,17 +101,19 @@
     "mikefarah/yq",
     "milvus-io/milvus",
     "nats-io/nats-server",
+    "navidrome/navidrome",
     "nektos/act",
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",
     "ory/hydra",
-    "panjf2000/ants",
-    "panjf2000/gnet",
+    "ory/kratos",
     "php/frankenphp",
+    "pingcap/tidb",
     "prometheus/node_exporter",
     "prometheus/prometheus",
     "quic-go/quic-go",
+    "rclone/rclone",
     "router-for-me/cliproxyapi",
     "rs/zerolog",
     "schollz/croc",
@@ -125,6 +129,7 @@
     "urfave/cli",
     "v2fly/v2ray-core",
     "valyala/fasthttp",
+    "VictoriaMetrics/VictoriaMetrics",
     "wader/fq"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 172,
-    "observations": 172,
-    "repos": 53,
-    "terms": 169
+    "components": 243,
+    "concepts": 183,
+    "observations": 183,
+    "repos": 56,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -50,9 +50,11 @@
     "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
+    "KratosMultiphysics/Examples",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
     "lucidrains/PoPE-pytorch",
+    "networkx/nx-parallel",
     "nousresearch/tinker-atropos",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
@@ -66,6 +68,7 @@
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",
     "xuanyuzhang21/VQ-Insight",
+    "yaph/tts-samples",
     "yxlllc/RMVPE"
   ]
 }

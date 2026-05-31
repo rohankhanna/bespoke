@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 12,
-    "terms": 40
+    "components": 28,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 11,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "cehoffman/lua-build",
-    "crate-ci/gh-install",
     "erikw/tmux-dark-notify",
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",

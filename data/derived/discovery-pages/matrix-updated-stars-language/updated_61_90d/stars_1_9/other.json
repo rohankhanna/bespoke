@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 31,
-    "terms": 80
+    "components": 131,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 30,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "Adam-Boesky/astro_SPLASH",
-    "adobe/spectrum-tokens",
     "Asmod4n/mruby-argon2",
     "aspect-build/rules_jasmine",
     "aspect-build/tools_telemetry",
@@ -28,6 +27,7 @@
     "dylibso/xtp-go-bindgen",
     "dylibso/xtp-python-bindgen",
     "elixir-makeup/makeup_syntect",
+    "ethpandaops/checkpoint-sync-health-checks",
     "flagos-ai/llvm-project",
     "gmberton/gmberton.github.io",
     "hermit-os/hermit-gcc",
@@ -40,7 +40,6 @@
     "redis-developer/redis-starter-csharp",
     "rocq-community/docker-base",
     "shakacode/package_json",
-    "SWE-bench/SWE-smith-envs",
     "tanyongkiam/cake_lpr",
     "vim-fuzzbox/fuzzbox-lsp.vim",
     "vovkos/doxyrest_b",

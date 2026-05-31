@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 470,
-    "concepts": 309,
-    "observations": 310,
-    "repos": 126,
-    "terms": 307
+    "components": 482,
+    "concepts": 319,
+    "observations": 320,
+    "repos": 129,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -82,6 +82,7 @@
     "JamieMair/MuJoCo.jl",
     "JezerM/oil-lsp-diagnostics.nvim",
     "jgpc42/lein-jmh",
+    "jmespath/jmespath.site",
     "joanroig/admincraft",
     "Jorenar/minPlug",
     "jpmml/r2pmml",
@@ -105,7 +106,7 @@
     "mvz/non-digest-assets",
     "nelson-lang/nelson-website",
     "newtheatre/history-project",
-    "NielsRogge/tutorials",
+    "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "NorfairKing/feedback",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
@@ -126,8 +127,10 @@
     "SciML/SciMLTutorialsOutput",
     "Shopify/quantified",
     "SqrtMinusOne/eshell-atuin",
+    "standardrb/lint_roller",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
+    "tarsius/llama",
     "tc39/proposal-smart-unit-preferences",
     "travis-ci/travis-hub",
     "travis-ci/travis-listener",

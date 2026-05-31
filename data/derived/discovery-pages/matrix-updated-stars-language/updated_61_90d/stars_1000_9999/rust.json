@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 128,
-    "observations": 131,
-    "repos": 27,
-    "terms": 127
+    "components": 205,
+    "concepts": 142,
+    "observations": 145,
+    "repos": 29,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "David-OConnor/pyflow",
@@ -32,14 +32,16 @@
     "lldap/lldap",
     "mitsuhiko/insta",
     "Mooncake-Labs/pg_mooncake",
+    "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "Rust-SDL2/rust-sdl2",
+    "sharkdp/pastel",
     "simd-lite/simd-json",
     "smol-rs/smol",
+    "snapview/tokio-tungstenite",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
-    "tokio-rs/prost",
     "visioncortex/vtracer"
   ]
 }

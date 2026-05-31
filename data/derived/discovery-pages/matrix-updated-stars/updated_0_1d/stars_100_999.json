@@ -1,49 +1,19 @@
 {
   "counts": {
-    "components": 438,
-    "concepts": 246,
-    "observations": 247,
-    "repos": 32,
-    "terms": 245
+    "components": 18,
+    "concepts": 15,
+    "observations": 16,
+    "repos": 2,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
-    "a2aproject/a2a-js",
-    "AI-Hypercomputer/maxdiffusion",
-    "apalache-mc/apalache",
-    "appelmar/gdalcubes",
-    "astroautomata/SymbolicRegression.jl",
     "attackgoat/vk-graph",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
-    "bazel-contrib/rules_kotlin",
-    "beve-org/beve",
-    "Comfy-Org/comfy-cli",
-    "confluentinc/librdkafka",
-    "digitalocean/openapi",
-    "eclipse-tm4e/tm4e",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
-    "EmmyLuaLs/emmylua-analyzer-rust",
-    "GDevelopApp/GDevelop-extensions",
-    "googlefonts/ufo2ft",
-    "hexabot-ai/Hexabot",
-    "huggingface/hf-mcp-server",
-    "ipsilon/evmone",
-    "jupyter-server/jupyter_server",
-    "machinewrapped/llm-subtrans",
-    "mightyiam/eslint-config-love",
-    "preactjs/preact-devtools",
-    "readthedocs/commonmark.py",
-    "redis/redis-om-spring",
-    "ROCm/hipBLASLt",
-    "servo/stylo",
-    "spring-projects/spring-tools",
-    "stx-labs/stacks.js",
-    "yaling888/quirktiva"
+    "eclipse-wildwebdeveloper/wildwebdeveloper"
   ]
 }

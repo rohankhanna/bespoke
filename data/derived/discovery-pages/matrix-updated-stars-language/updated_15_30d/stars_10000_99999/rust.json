@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 347,
-    "concepts": 324,
-    "observations": 325,
-    "repos": 24,
-    "terms": 321
+    "components": 224,
+    "concepts": 205,
+    "observations": 206,
+    "repos": 16,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
     "atuinsh/atuin",
-    "emilk/egui",
     "facebook/flow",
     "firecracker-microvm/firecracker",
-    "google/comprehensive-rust",
     "influxdata/influxdb",
     "juspay/hyperswitch",
     "LemmyNet/lemmy",
     "nushell/nushell",
-    "oxc-project/oxc",
     "pola-rs/polars",
     "qdrant/qdrant",
-    "quickwit-oss/quickwit",
     "rerun-io/rerun",
-    "rolldown/rolldown",
     "shadowsocks/shadowsocks-rust",
-    "tracel-ai/burn",
     "tw93/Pake",
-    "vectordotdev/vector",
     "wasmerio/wasmer",
-    "wezterm/wezterm",
     "XAMPPRocky/tokei"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 29,
-    "terms": 84
+    "components": 103,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 16,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,35 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "apify/actor-templates",
     "arcaputo3/mcp-server-whisper",
-    "autowarefoundation/autoware_launch",
-    "awslabs/nx-neptune",
-    "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "baicai-1145/GPT-SoVITS-CPUFast",
-    "beclab/apps",
     "braelyn-ai/mob",
-    "conservationtechlab/animl-py",
     "dora-rs/dora-hub",
-    "espressif/esp-idf-monitor",
     "gentoo/api-gentoo-org",
     "google-research/mseb",
     "goombalab/raven",
-    "gordon-code/cuid2",
     "Hiroshiba/voicevox_engine",
     "jfly/shtuff",
-    "NVIDIA/multi-storage-client",
-    "petercorke/spatialmath-python",
-    "py-pdf/sample-files",
     "python-jsonschema/referencing",
     "pytroll/donfig",
-    "qiayuanl/unitree_bringup",
-    "redis/docs",
     "scipy/scipy.org",
-    "TaWald/nnUNet",
     "version-fox/vfox-plugins",
     "yulewang97/ERDiff"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 324,
-    "observations": 328,
-    "repos": 62,
-    "terms": 332
+    "components": 269,
+    "concepts": 342,
+    "observations": 346,
+    "repos": 65,
+    "terms": 350
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -40,13 +40,16 @@
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
     "heroku/heroku-buildpack-apt",
+    "heroku/heroku-buildpack-java",
     "heroku/heroku-buildpack-php",
+    "itzg/docker-mc-backup",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
     "lemire/docker_programming_station",
     "lovell/sharp-libvips",
     "mattmc3/zephyr",
+    "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
     "msys2/msys2-installer",

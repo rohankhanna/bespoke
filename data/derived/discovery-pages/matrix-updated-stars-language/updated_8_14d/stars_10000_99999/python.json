@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 2,
-    "terms": 20
+    "components": 20,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 3,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
+    "567-labs/instructor",
     "oobabooga/textgen",
     "pyg-team/pytorch_geometric"
   ]

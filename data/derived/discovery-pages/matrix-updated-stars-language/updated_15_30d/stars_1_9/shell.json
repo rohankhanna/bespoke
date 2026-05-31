@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 9,
-    "terms": 12
+    "components": 1,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 4,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "3mdeb/3mdeb-secpack",
-    "conda-forge/rerun-sdk-feedstock",
-    "cucumber/.github",
-    "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Rudder",
     "edward3h/docker-bds-integration-test",
-    "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",
     "pacstall/pacup"
   ]

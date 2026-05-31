@@ -1,56 +1,24 @@
 {
   "counts": {
-    "components": 1198,
-    "concepts": 538,
-    "observations": 542,
-    "repos": 39,
-    "terms": 544
+    "components": 83,
+    "concepts": 122,
+    "observations": 125,
+    "repos": 7,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-05-31T06:01:35.663565+00:00",
   "repo_ids": [
-    "aden-hive/hive",
-    "anthropics/claude-cookbooks",
-    "argotorg/solidity",
-    "axolotl-ai-cloud/axolotl",
-    "Comfy-Org/ComfyUI-Manager",
-    "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
-    "fastapi/full-stack-fastapi-template",
-    "gastownhall/beads",
-    "gastownhall/gastown",
-    "ggml-org/whisper.cpp",
-    "HumanSignal/label-studio",
     "jax-ml/jax",
-    "langchain-ai/langchainjs",
-    "lobehub/lobehub",
-    "moby/moby",
-    "modelscope/FunASR",
     "modelscope/ms-swift",
-    "mozilla-ai/llamafile",
     "mudler/LocalAI",
-    "mui/material-ui",
-    "NVIDIA-NeMo/NeMo",
-    "OpenHands/OpenHands",
-    "psf/black",
-    "pydantic/pydantic",
-    "QuantumNous/new-api",
-    "redis/go-redis",
-    "Redocly/redoc",
-    "run-llama/llama_index",
-    "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "storybookjs/storybook",
-    "swiftlang/swift",
-    "triton-lang/triton",
-    "unocss/unocss",
-    "upptime/upptime",
-    "vbenjs/vue-vben-admin",
-    "verl-project/verl",
-    "weaviate/weaviate"
+    "swiftlang/swift"
   ]
 }
