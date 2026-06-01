@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 763,
-    "observations": 763,
-    "repos": 217,
-    "terms": 759
+    "components": 403,
+    "concepts": 774,
+    "observations": 774,
+    "repos": 218,
+    "terms": 770
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -27,6 +27,7 @@
     "alfworld/alfworld",
     "ali-vilab/Wan-Move",
     "Alibaba-NLP/ViDoRAG",
+    "alibaba/TinyNeuralNetwork",
     "alonw0/web-asset-generator",
     "AMAP-ML/Tree-GRPO",
     "amazon-far/TWIST2",

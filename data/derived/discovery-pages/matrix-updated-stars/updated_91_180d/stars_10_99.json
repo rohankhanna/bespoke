@@ -3,7 +3,7 @@
     "components": 2443,
     "concepts": 1338,
     "observations": 1345,
-    "repos": 510,
+    "repos": 512,
     "terms": 1343
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -104,6 +104,7 @@
     "biocypher/project-template",
     "Birch-san/box2d3-wasm",
     "bobbylight/RSTAUI",
+    "bokeh/tutorial",
     "bombsimon/logrusr",
     "BoosterRobotics/booster_deploy",
     "bootmortis/ito-gov-mirror",
@@ -158,6 +159,7 @@
     "concourse/pool-resource",
     "conda-forge/cfep",
     "connectrpc/connect-playwright-es",
+    "corl-team/VL-DAC",
     "cosmos/ibc-proto-rs",
     "CosmWasm/cw-minus",
     "CosmWasm/cw-storage-plus",

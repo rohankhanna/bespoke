@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2788,
-    "concepts": 1245,
-    "observations": 1251,
-    "repos": 107,
-    "terms": 1224
+    "components": 2717,
+    "concepts": 1199,
+    "observations": 1205,
+    "repos": 104,
+    "terms": 1178
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "4ian/GDevelop",
@@ -34,7 +34,6 @@
     "cilium/cilium",
     "clauderic/dnd-kit",
     "containers/podman",
-    "continuedev/continue",
     "crewAIInc/crewAI",
     "danny-avila/LibreChat",
     "datalab-to/marker",
@@ -61,7 +60,6 @@
     "hagezi/dns-blocklists",
     "helm/helm",
     "HKUDS/CLI-Anything",
-    "istio/istio",
     "itzg/docker-minecraft-server",
     "JetBrains/compose-multiplatform",
     "jqlang/jq",
@@ -114,7 +112,6 @@
     "vitejs/vite",
     "vuejs/core",
     "vuejs/vitepress",
-    "withastro/astro",
     "wkentaro/labelme",
     "XAMPPRocky/tokei",
     "XTLS/Xray-core",

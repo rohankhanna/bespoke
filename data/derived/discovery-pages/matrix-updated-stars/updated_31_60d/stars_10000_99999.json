@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 23501,
-    "concepts": 10126,
-    "observations": 10163,
-    "repos": 997,
-    "terms": 10115
+    "components": 23531,
+    "concepts": 10154,
+    "observations": 10191,
+    "repos": 998,
+    "terms": 10143
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -219,6 +219,7 @@
     "containerd/containerd",
     "containerd/nerdctl",
     "containers/skopeo",
+    "continuedev/continue",
     "conventional-changelog/commitlint",
     "cookiecutter/cookiecutter-django",
     "coollabsio/coolify",
@@ -253,7 +254,6 @@
     "deepseek-ai/FlashMLA",
     "deepset-ai/haystack",
     "delgan/loguru",
-    "devicons/devicon",
     "dexidp/dex",
     "dgraph-io/badger",
     "dgraph-io/dgraph",
@@ -485,6 +485,7 @@
     "ipfs/kubo",
     "ipython/ipython",
     "isocpp/CppCoreGuidelines",
+    "istio/istio",
     "jaegertracing/jaeger",
     "JamesNK/Newtonsoft.Json",
     "janhq/jan",
@@ -922,7 +923,6 @@
     "termux/termux-app",
     "termux/termux-packages",
     "tesseract-ocr/tesseract",
-    "testing-library/react-testing-library",
     "Textualize/rich",
     "Textualize/textual",
     "thanos-io/thanos",
@@ -992,6 +992,7 @@
     "windingwind/zotero-pdf-translate",
     "winsiderss/systeminformer",
     "winsw/winsw",
+    "withastro/astro",
     "wix/Detox",
     "wojtekmaj/react-pdf",
     "wolfpld/tracy",

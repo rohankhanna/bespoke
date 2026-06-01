@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2096,
-    "concepts": 1209,
-    "observations": 1210,
-    "repos": 325,
-    "terms": 1212
+    "components": 2107,
+    "concepts": 1215,
+    "observations": 1216,
+    "repos": 326,
+    "terms": 1218
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -104,6 +104,7 @@
     "dart-lang/core",
     "dart-lang/ecosystem",
     "dart-lang/i18n",
+    "davidanthoff/Electron.jl",
     "day8/re-frame-debux",
     "dcloudio/hello-uts",
     "DevEnterpriseSoftware/patchright-dotnet",

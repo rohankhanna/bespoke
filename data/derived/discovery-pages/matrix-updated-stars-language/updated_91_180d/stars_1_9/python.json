@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 32,
-    "terms": 86
+    "components": 97,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 33,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "aiagenta2z/onekey_mcp_router",
@@ -37,6 +37,7 @@
     "heyoeyo/toadui",
     "lace/entente",
     "LedgerHQ/ledgercomm",
+    "llm-in-sandbox/llm-in-sandbox-rl",
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
     "pydantic/pydantic-docs",

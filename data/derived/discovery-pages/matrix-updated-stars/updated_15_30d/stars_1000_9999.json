@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 3905,
-    "concepts": 2119,
-    "observations": 2124,
-    "repos": 242,
-    "terms": 2101
+    "components": 3861,
+    "concepts": 2100,
+    "observations": 2105,
+    "repos": 238,
+    "terms": 2082
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
-    "aaaaalexis/obsidian-baseline",
     "AdguardTeam/AdGuardSDNSFilter",
     "ag2s20150909/TTS",
     "agenda/agenda",
@@ -185,7 +184,6 @@
     "preservim/tagbar",
     "pure-data/pure-data",
     "PyAV-Org/PyAV",
-    "pytest-dev/pytest-asyncio",
     "python-versioneer/python-versioneer",
     "pytorch/audio",
     "react-cosmos/react-cosmos",
@@ -201,7 +199,6 @@
     "runetfreedom/russia-v2ray-rules-dat",
     "rust-lang/flate2-rs",
     "rust-lang/portable-simd",
-    "rust-lang/rustup",
     "ScoopInstaller/Extras",
     "scop/bash-completion",
     "shareAI-lab/Kode-Agent",
@@ -244,7 +241,6 @@
     "vitejs/devtools",
     "vitejs/vite-plugin-react",
     "voicepaw/so-vits-svc-fork",
-    "vuejs/babel-plugin-jsx",
     "vyperlang/vyper",
     "WarmUpTill/SceneSwitcher",
     "watchexec/watchexec",

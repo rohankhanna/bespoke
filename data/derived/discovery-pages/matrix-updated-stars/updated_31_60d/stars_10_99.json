@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10939,
-    "concepts": 5102,
-    "observations": 5123,
-    "repos": 1233,
-    "terms": 5152
+    "components": 10961,
+    "concepts": 5116,
+    "observations": 5137,
+    "repos": 1235,
+    "terms": 5165
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -254,6 +254,7 @@
     "BoosterRobotics/booster_train",
     "boostorg/config",
     "bootmortis/sing-geosite",
+    "boozook/mdbook-svgbob",
     "boundless-xyz/kailua",
     "boundless-xyz/steel",
     "bourumir-wyngs/serde-yaml-bw",
@@ -392,6 +393,7 @@
     "datafusion-contrib/orc-rust",
     "datajuicer/data-juicer-agents",
     "dathere/datapusher-plus",
+    "davidanthoff/Electron.jl",
     "davidhozic/mujoco-rs",
     "davidkarlsen/flyway-operator",
     "DavidKinder/Windows-Inform7",

@@ -3,7 +3,7 @@
     "components": 342,
     "concepts": 322,
     "observations": 323,
-    "repos": 93,
+    "repos": 92,
     "terms": 320
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -36,7 +36,6 @@
     "beam-telemetry/telemetry_metrics_statsd",
     "BirolLab/LINKS",
     "blaine/fantastty",
-    "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
     "citation-file-format/ruby-cff",

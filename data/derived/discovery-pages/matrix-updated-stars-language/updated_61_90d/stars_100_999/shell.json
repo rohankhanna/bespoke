@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 13,
-    "terms": 46
+    "components": 46,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 14,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
+    "aslafy-z/helm-git",
     "aws/aws-app-mesh-examples",
     "docker-library/hello-world",
     "flinedev/contextkit",

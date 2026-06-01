@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 12794,
-    "concepts": 8482,
-    "observations": 8513,
-    "repos": 2275,
-    "terms": 8464
+    "components": 12813,
+    "concepts": 8515,
+    "observations": 8546,
+    "repos": 2282,
+    "terms": 8497
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -58,6 +58,7 @@
     "abapGit/ADT_Backend",
     "abduznik/git-alchemist",
     "abh/geodns",
+    "abhisheknaiidu/awesome-github-profile-readme",
     "Ableton/push-interface",
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -92,6 +93,7 @@
     "Adobe-CEP/CEP-Resources",
     "adobe-photoshop/generator-core",
     "adobe/spectrum-tokens",
+    "adonisjs/.github",
     "adospace/litedbpad",
     "adriantoine/enzyme-to-json",
     "adrienverge/yamllint",
@@ -154,6 +156,7 @@
     "ali-vilab/Wan-Move",
     "Alibaba-NLP/DeepResearch",
     "Alibaba-NLP/ViDoRAG",
+    "alibaba/TinyNeuralNetwork",
     "AlibabaResearch/DAMO-ConvAI",
     "AliRezaBeigy/paqetNG",
     "alirezarezvani/claude-code-tresor",
@@ -402,6 +405,7 @@
     "bnosac/audio.whisper",
     "bobbylight/AutoComplete",
     "bobbylight/RSTAUI",
+    "bokeh/tutorial",
     "bombsimon/logrusr",
     "BoosterRobotics/booster_deploy",
     "BoosterRobotics/booster_gym",
@@ -590,6 +594,7 @@
     "containernetworking/cni",
     "containrrr/watchtower",
     "Coral-Protocol/coral-rs",
+    "corl-team/VL-DAC",
     "cormacrelf/dark-notify",
     "corydolphin/flask-cors",
     "cosmiconfig/cosmiconfig",
@@ -750,6 +755,7 @@
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
     "dwyl/learn-json-web-tokens",
+    "dwyl/phoenix-liveview-chat-example",
     "dzeiocom/lucide-astro",
     "dzeiocom/simple-icons-astro",
     "Dzordzu/rust-apache-age",
@@ -1387,6 +1393,7 @@
     "Lizw14/Super-CLEVR",
     "llamagate/diff",
     "lldacing/ComfyUI_Patches_ll",
+    "llm-in-sandbox/llm-in-sandbox-rl",
     "llvm/clangd-www",
     "lmgame-org/GRL",
     "lnbc1QWFyb24/lnmessage",

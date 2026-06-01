@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3860,
-    "concepts": 2491,
-    "observations": 2498,
-    "repos": 441,
-    "terms": 2493
+    "concepts": 2494,
+    "observations": 2501,
+    "repos": 443,
+    "terms": 2497
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -160,6 +160,7 @@
     "freerange/mocha",
     "FunnyWolf/Viper",
     "garybernhardt/selecta",
+    "ggml-org/llama.vim",
     "gjtorikian/html-proofer",
     "glittercowboy/taches-cc-resources",
     "go-gl/gl",
@@ -445,6 +446,7 @@
     "xtaci/kcp-go",
     "xtaci/smux",
     "yangyanli/PointCNN",
+    "ykdojo/claude-code-tips",
     "yuin/goldmark",
     "yuin/gopher-lua",
     "z-x-yang/Segment-and-Track-Anything",

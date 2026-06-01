@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 1039,
-    "concepts": 656,
-    "observations": 656,
-    "repos": 110,
-    "terms": 663
+    "components": 1078,
+    "concepts": 666,
+    "observations": 666,
+    "repos": 111,
+    "terms": 673
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "3b1b/videos",
-    "abhisheknaiidu/awesome-github-profile-readme",
     "alibaba/Sentinel",
     "allenai/olmocr",
     "AndyMik90/Aperant",
@@ -34,6 +33,7 @@
     "datawhalechina/happy-llm",
     "debug-js/debug",
     "deepinsight/insightface",
+    "devicons/devicon",
     "direnv/direnv",
     "dockur/windows",
     "enaqx/awesome-react",
@@ -112,6 +112,7 @@
     "superclaude-org/superclaude_framework",
     "Swordfish90/cool-retro-term",
     "TA-Lib/ta-lib-python",
+    "testing-library/react-testing-library",
     "tpope/vim-fugitive",
     "typicode/husky",
     "typicode/json-server",

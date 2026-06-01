@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 4,
-    "terms": 20
+    "components": 22,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
-    "godot-rust/godot4-prebuilt",
     "influxdata/arrow-datafusion",
     "kurrent-io/KurrentDB-Bridge-Client",
     "open-telemetry/opentelemetry-weaver-examples"

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4032,
-    "concepts": 2605,
-    "observations": 2615,
-    "repos": 573,
-    "terms": 2602
+    "components": 4076,
+    "concepts": 2601,
+    "observations": 2611,
+    "repos": 574,
+    "terms": 2598
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -38,7 +38,7 @@
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
     "alcohol/iso3166",
-    "alibaba/TinyNeuralNetwork",
+    "Alibaba-NLP/qqr",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
@@ -63,6 +63,7 @@
     "ARM-software/EndpointAI",
     "aserafin/grape_logging",
     "ashvardanian/StringWars",
+    "aslafy-z/helm-git",
     "AssemblyScript/wabt.js",
     "astra-vision/MonoScene",
     "AudioKit/Cookbook",
@@ -183,7 +184,6 @@
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/labels",
     "dwyl/learn-postgresql",
-    "dwyl/phoenix-liveview-chat-example",
     "dwyl/phoenix-todo-list-tutorial",
     "eclipse-aspectj/aspectj",
     "eclipse-cyclonedds/cyclonedds-cxx",
@@ -252,6 +252,7 @@
     "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
+    "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",

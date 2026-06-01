@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11314,
-    "concepts": 2176,
-    "observations": 2181,
-    "repos": 267,
-    "terms": 2279
+    "components": 11341,
+    "concepts": 2182,
+    "observations": 2187,
+    "repos": 268,
+    "terms": 2285
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -268,6 +268,7 @@
     "vega/vega-lite",
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
+    "vuejs/babel-plugin-jsx",
     "vuejs/eslint-plugin-vue",
     "vuejs/router",
     "web-infra-dev/rsbuild",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2725,
-    "concepts": 1387,
-    "observations": 1388,
-    "repos": 202,
-    "terms": 1378
+    "components": 2722,
+    "concepts": 1378,
+    "observations": 1379,
+    "repos": 201,
+    "terms": 1369
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "aannoo/hcom",
@@ -84,7 +84,6 @@
     "fishaudio/audio-preprocess",
     "fishaudio/fish-diffusion",
     "fishaudio/vocoder",
-    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "fluent-vue/fluent-vue",
     "foldl/chatllm.cpp",
     "foundry-rs/foundry-toolchain",

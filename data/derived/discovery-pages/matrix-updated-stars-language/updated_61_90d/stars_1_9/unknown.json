@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 26,
+    "components": 24,
     "concepts": 28,
     "observations": 28,
-    "repos": 30,
+    "repos": 29,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -20,7 +20,6 @@
     "ada-url/url-various-datasets",
     "addfox/skills",
     "adobe-type-tools/Adobe-Manga1",
-    "adonisjs/.github",
     "autowarefoundation/.github",
     "awni/picochat",
     "cncf/k8s-conformance-archive",

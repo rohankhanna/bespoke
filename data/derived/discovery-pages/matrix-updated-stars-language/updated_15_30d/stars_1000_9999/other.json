@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 486,
-    "concepts": 533,
-    "observations": 534,
-    "repos": 62,
-    "terms": 531
+    "concepts": 527,
+    "observations": 528,
+    "repos": 61,
+    "terms": 525
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
-    "aaaaalexis/obsidian-baseline",
     "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
     "androidx/androidx",

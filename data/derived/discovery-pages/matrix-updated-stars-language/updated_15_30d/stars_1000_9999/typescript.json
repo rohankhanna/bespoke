@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1588,
-    "concepts": 324,
-    "observations": 325,
-    "repos": 39,
-    "terms": 322
+    "components": 1561,
+    "concepts": 318,
+    "observations": 319,
+    "repos": 38,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "antvis/mcp-server-chart",
     "apify/fingerprint-suite",
@@ -51,7 +51,6 @@
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
     "vitejs/vite-plugin-react",
-    "vuejs/babel-plugin-jsx",
     "withcatai/node-llama-cpp"
   ]
 }

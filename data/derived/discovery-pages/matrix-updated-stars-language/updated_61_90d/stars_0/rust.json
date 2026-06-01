@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 14,
-    "observations": 15,
-    "repos": 13,
-    "terms": 14
+    "components": 51,
+    "concepts": 15,
+    "observations": 16,
+    "repos": 14,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
@@ -25,6 +25,7 @@
     "iambriccardo/gcp-bigquery-client",
     "onomojo/i18n-country-translations-rs",
     "onomojo/i18n-timezones-rs",
+    "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
     "vaporif/rvx"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 874,
-    "concepts": 526,
-    "observations": 527,
-    "repos": 164,
-    "terms": 518
+    "components": 869,
+    "concepts": 525,
+    "observations": 526,
+    "repos": 162,
+    "terms": 517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
@@ -26,7 +26,6 @@
     "Adam-Boesky/astro_SPLASH",
     "addfox/skills",
     "adobe-type-tools/Adobe-Manga1",
-    "adonisjs/.github",
     "agent-sh/deslop",
     "agent-sh/ship",
     "agents-squads/agents-squads",
@@ -125,7 +124,6 @@
     "Level/read-stream",
     "Level/supports",
     "Level/transcoder",
-    "llm-in-sandbox/llm-in-sandbox-rl",
     "llvm/torch-mlir-release",
     "lucabubi/star-history",
     "MarcCote/TextWorld",

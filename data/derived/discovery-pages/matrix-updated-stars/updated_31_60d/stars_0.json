@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1016,
-    "concepts": 414,
-    "observations": 414,
-    "repos": 282,
-    "terms": 443
+    "components": 1010,
+    "concepts": 413,
+    "observations": 413,
+    "repos": 281,
+    "terms": 442
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -262,7 +262,6 @@
     "piqrypt/piqrypt-mcp-server",
     "pragmatical-transshipment598/claude-code-workflows",
     "PrimeIntellect-ai/router",
-    "prisma/cuid-rust",
     "qiayuanl/unitree_buildfarm",
     "redai-infra/TransferQueue",
     "redductive/securepixel",

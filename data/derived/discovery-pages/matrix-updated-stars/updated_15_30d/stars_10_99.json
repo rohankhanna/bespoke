@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 953,
-    "concepts": 648,
-    "observations": 654,
-    "repos": 117,
-    "terms": 643
+    "components": 931,
+    "concepts": 634,
+    "observations": 640,
+    "repos": 115,
+    "terms": 630
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "abusch/nu_plugin_semver",
@@ -36,7 +36,6 @@
     "baicai-1145/GPT-SoVITS-CPUFast",
     "bladeacer/flexcyon",
     "bmwiedemann/openSUSE",
-    "boozook/mdbook-svgbob",
     "braelyn-ai/mob",
     "browniebroke/pypackage-template",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -50,7 +49,6 @@
     "csm-actions/securefix-action",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "davidanthoff/Electron.jl",
     "diffscope/diffscope-project",
     "dinosaure/blaze",
     "dora-rs/dora-hub",

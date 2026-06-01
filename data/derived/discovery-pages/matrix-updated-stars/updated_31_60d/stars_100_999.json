@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22276,
-    "concepts": 13161,
-    "observations": 13217,
-    "repos": 2324,
-    "terms": 13253
+    "components": 22223,
+    "concepts": 13150,
+    "observations": 13206,
+    "repos": 2322,
+    "terms": 13242
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -130,7 +130,6 @@
     "alexpasmantier/tv.nvim",
     "alexrudall/ruby-anthropic",
     "alfredolopez80/multi-agent-ralph-loop",
-    "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
     "alibaba/loongsuite-go-agent",
     "alibaba/ROCK",
@@ -265,7 +264,6 @@
     "aseprite/laf",
     "ashvardanian/ForkUnion",
     "asl/BandageNG",
-    "aslafy-z/helm-git",
     "asottile/reorder-python-imports",
     "asottile/yesqa",
     "aspect-build/bazel-examples",
@@ -865,6 +863,7 @@
     "filecoin-project/FIPs",
     "filecoin-project/ref-fvm",
     "firebase/FirebaseUI-Flutter",
+    "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "fla-org/flame",
     "flageval-baai/FlagEvalMM",
     "FlagOpen/Robo-Dopamine",
@@ -1006,7 +1005,6 @@
     "graalvm/graalvm-demos",
     "graalvm/mandrel",
     "graalvm/native-build-tools",
-    "graalvm/setup-graalvm",
     "gradle/actions",
     "gradle/test-retry-gradle-plugin",
     "grafana-community/helm-charts",

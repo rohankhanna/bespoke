@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4688,
-    "concepts": 3092,
-    "observations": 3100,
-    "repos": 799,
-    "terms": 3091
+    "components": 4700,
+    "concepts": 3116,
+    "observations": 3124,
+    "repos": 801,
+    "terms": 3115
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -53,6 +53,7 @@
     "alfworld/alfworld",
     "ali-vilab/Wan-Move",
     "Alibaba-NLP/ViDoRAG",
+    "alibaba/TinyNeuralNetwork",
     "alirezarezvani/claude-code-tresor",
     "allenai/ScienceWorld",
     "alonw0/web-asset-generator",
@@ -261,6 +262,7 @@
     "dtolnay/prettyplease",
     "dualverse-ai/station",
     "dustinblackman/cargo-run-bin",
+    "dwyl/phoenix-liveview-chat-example",
     "dzeiocom/lucide-astro",
     "EbrahimTahernejad/Tun2SocksKit",
     "eckardt/cchistory",

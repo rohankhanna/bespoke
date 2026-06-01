@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 216,
-    "observations": 220,
-    "repos": 42,
-    "terms": 215
+    "components": 337,
+    "concepts": 210,
+    "observations": 214,
+    "repos": 41,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "ameshkov/swift-psl",
@@ -27,7 +27,6 @@
     "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "davidanthoff/Electron.jl",
     "dinosaure/blaze",
     "Elyahu41/KosherSwift",
     "FactoryXCode/MfPack",

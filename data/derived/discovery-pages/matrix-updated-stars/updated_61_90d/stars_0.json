@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 126,
-    "observations": 128,
-    "repos": 85,
-    "terms": 129
+    "components": 259,
+    "concepts": 127,
+    "observations": 129,
+    "repos": 86,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
@@ -87,6 +87,7 @@
     "Patrick-ring-motive/sval-rhino-gs",
     "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
+    "prisma/cuid-rust",
     "saalfeldlab/n5-blosc",
     "Saalvage/assimp",
     "saharmor/saharmor.github.io",

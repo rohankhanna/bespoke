@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 31265,
-    "concepts": 18317,
-    "observations": 18387,
-    "repos": 2354,
-    "terms": 18377
+    "components": 31309,
+    "concepts": 18333,
+    "observations": 18403,
+    "repos": 2356,
+    "terms": 18392
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -28,6 +28,7 @@
     "a-ghorbani/pocketpal-ai",
     "a2aproject/a2a-python",
     "a2aproject/a2a-samples",
+    "aaaaalexis/obsidian-baseline",
     "aandrew-me/ytDownloader",
     "aaron-he-zhu/seo-geo-claude-skills",
     "aaubry/YamlDotNet",
@@ -856,7 +857,6 @@
     "gfx-rs/wgpu-native",
     "ggandor/leap.nvim",
     "ggez/ggez",
-    "ggml-org/llama.vim",
     "ggml-org/llama.vscode",
     "gin-gonic/examples",
     "git-cola/git-cola",
@@ -1836,6 +1836,7 @@
     "pypi/warehouse",
     "pypy/pypy",
     "pyro-ppl/numpyro",
+    "pytest-dev/pytest-asyncio",
     "pytest-dev/pytest-mock",
     "PyThaiNLP/pythainlp",
     "python-attrs/attrs",
@@ -1977,6 +1978,7 @@
     "rust-lang/rust-by-example",
     "rust-lang/rust-mode",
     "rust-lang/rustfmt",
+    "rust-lang/rustup",
     "rust-openssl/rust-openssl",
     "rust-postgres/rust-postgres",
     "rust-windowing/glutin",
@@ -2273,6 +2275,7 @@
     "voxpupuli/json-schema",
     "vstakhov/libucl",
     "vueform/vueform",
+    "vuejs/babel-plugin-jsx",
     "vuejs/create-vue",
     "vuejs/eslint-plugin-vue",
     "vuejs/router",
@@ -2344,7 +2347,6 @@
     "ycm-core/ycmd",
     "Yelp/dumb-init",
     "yeoman/yo",
-    "ykdojo/claude-code-tips",
     "ymcui/Chinese-ELECTRA",
     "ymcui/Chinese-LLaMA-Alpaca-2",
     "ymcui/Chinese-XLNet",

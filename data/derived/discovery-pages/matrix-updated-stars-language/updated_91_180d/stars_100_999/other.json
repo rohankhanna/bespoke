@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 844,
-    "concepts": 798,
-    "observations": 799,
-    "repos": 209,
-    "terms": 793
+    "components": 850,
+    "concepts": 811,
+    "observations": 812,
+    "repos": 210,
+    "terms": 806
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -86,6 +86,7 @@
     "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
+    "dwyl/phoenix-liveview-chat-example",
     "EbrahimTahernejad/Tun2SocksKit",
     "ecukes/ecukes",
     "elixir-mint/mint_web_socket",

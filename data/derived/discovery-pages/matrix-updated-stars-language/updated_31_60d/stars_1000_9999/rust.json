@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2300,
-    "concepts": 1649,
-    "observations": 1658,
-    "repos": 227,
-    "terms": 1658
+    "components": 2309,
+    "concepts": 1653,
+    "observations": 1662,
+    "repos": 228,
+    "terms": 1662
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -194,6 +194,7 @@
     "rust-lang/miri",
     "rust-lang/rust-bindgen",
     "rust-lang/rustfmt",
+    "rust-lang/rustup",
     "rust-openssl/rust-openssl",
     "rust-postgres/rust-postgres",
     "rust-windowing/glutin",

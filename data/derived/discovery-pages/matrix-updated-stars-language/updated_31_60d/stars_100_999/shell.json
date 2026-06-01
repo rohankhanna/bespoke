@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 372,
-    "observations": 376,
-    "repos": 69,
-    "terms": 380
+    "components": 282,
+    "concepts": 365,
+    "observations": 369,
+    "repos": 68,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -22,7 +22,6 @@
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
     "arangrhie/T2T-Polish",
-    "aslafy-z/helm-git",
     "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
     "chaoss/grimoirelab",

@@ -3,7 +3,7 @@
     "components": 241,
     "concepts": 258,
     "observations": 259,
-    "repos": 104,
+    "repos": 105,
     "terms": 266
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -43,6 +43,7 @@
     "ChenShawn/MultiModal-Jupyter-Sandbox",
     "CMBAgents/cmbagent",
     "Computer-use-agents/dart-gui",
+    "corl-team/VL-DAC",
     "cuiziteng/Luminance-GS",
     "danielward27/paramax",
     "EasternJournalist/pipeline",

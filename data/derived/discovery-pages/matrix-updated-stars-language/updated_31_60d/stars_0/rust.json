@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 22,
-    "terms": 53
+    "components": 136,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 21,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T06:16:42.328352+00:00",
+  "generated_at": "2026-06-01T08:21:18.254253+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
@@ -33,7 +33,6 @@
     "mupozg823/codelens-mcp-plugin",
     "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",
-    "prisma/cuid-rust",
     "squidowl/iced",
     "ueno/podman-sequoia"
   ]
