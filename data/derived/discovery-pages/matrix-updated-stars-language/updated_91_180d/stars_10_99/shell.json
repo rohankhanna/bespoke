@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 28,
+    "components": 27,
     "concepts": 37,
     "observations": 37,
-    "repos": 11,
+    "repos": 10,
     "terms": 37
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "cehoffman/lua-build",
@@ -23,7 +23,6 @@
     "nodenv/nodenv-installer",
     "nodenv/nodenv-update",
     "rubyjs/libv8-node",
-    "SonarSource/sonar-developer-toolset",
-    "WebAssembly/wasi-parallel"
+    "SonarSource/sonar-developer-toolset"
   ]
 }

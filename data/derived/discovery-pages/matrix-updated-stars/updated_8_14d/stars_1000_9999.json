@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 363,
-    "concepts": 277,
-    "observations": 278,
-    "repos": 31,
-    "terms": 271
+    "components": 616,
+    "concepts": 325,
+    "observations": 326,
+    "repos": 33,
+    "terms": 319
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "andymass/vim-matchup",
     "ash-rs/ash",
     "ashvardanian/NumKong",
+    "babashka/sci",
     "bazel-contrib/bazel-gazelle",
     "doctest/doctest",
     "dotnet/Silk.NET",
@@ -29,20 +30,21 @@
     "intelligent-machine-learning/dlrover",
     "intentee/paddler",
     "InternScience/GraphGen",
+    "ipfs/ipfs-webui",
     "microsoft/Detours",
     "nodenv/nodenv",
     "nomadkaraoke/python-audio-separator",
-    "preservim/tagbar",
-    "python-versioneer/python-versioneer",
     "speaches-ai/speaches",
     "standardrb/standard",
     "strob/gentle",
-    "ufbx/ufbx",
+    "tModLoader/tModLoader",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
     "vale-cli/vale",
     "vercel/serve",
     "WiseLibs/better-sqlite3",
-    "xoofx/markdig"
+    "xoofx/markdig",
+    "yomidevs/yomitan",
+    "zyddnys/manga-image-translator"
   ]
 }

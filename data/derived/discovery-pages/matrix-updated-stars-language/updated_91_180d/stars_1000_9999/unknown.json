@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 21,
-    "terms": 81
+    "concepts": 85,
+    "observations": 85,
+    "repos": 23,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "akuity/awesome-argo",
@@ -20,6 +20,8 @@
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",
     "datawhalechina/so-large-lm",
+    "docker/for-mac",
+    "estree/estree",
     "facebookresearch/moco",
     "faroit/awesome-python-scientific-audio",
     "graalvm/graalvm-ce-builds",

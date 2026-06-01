@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 65
-- components: 113
-- concepts: 65
-- observations: 65
+- repos: 25
+- terms: 68
+- components: 114
+- concepts: 68
+- observations: 68
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [neysofu/reltester](https://github.com/neysofu/reltester) | 20 | 2026-04-01T14:24:34Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [jiegec/tantivy-jieba](https://github.com/jiegec/tantivy-jieba) | 66 | 2026-04-01T04:07:37Z | Rust | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [lambdaclass/libssz](https://github.com/lambdaclass/libssz) | 10 | 2026-03-31T22:18:13Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [celestiaorg/hana](https://github.com/celestiaorg/hana) | 15 | 2026-03-31T17:03:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -71,6 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libp2p/if-watch](https://github.com/libp2p/if-watch) | 41 | 2026-03-03T13:49:27Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Vaishnav-Sabari-Girish/Hayasen](https://github.com/Vaishnav-Sabari-Girish/Hayasen) | 29 | 2026-03-20T15:37:19Z | Rust | Unknown | 6 | 0 | 6 | 6 |
 | [agentclientprotocol/symposium-acp](https://github.com/agentclientprotocol/symposium-acp) | 27 | 2026-03-18T22:02:31Z | Rust | CLI | 4 | 14 | 4 | 4 |
+| [neysofu/reltester](https://github.com/neysofu/reltester) | 20 | 2026-04-01T14:24:34Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [Turbo87/flat-projection-rs](https://github.com/Turbo87/flat-projection-rs) | 20 | 2026-03-12T21:37:11Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [oramasearch/llm_json](https://github.com/oramasearch/llm_json) | 17 | 2026-03-26T15:13:19Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [celestiaorg/hana](https://github.com/celestiaorg/hana) | 15 | 2026-03-31T17:03:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |

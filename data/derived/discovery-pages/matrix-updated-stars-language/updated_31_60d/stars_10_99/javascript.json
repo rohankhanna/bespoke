@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1635,
-    "concepts": 443,
-    "observations": 445,
-    "repos": 110,
-    "terms": 443
+    "components": 1612,
+    "concepts": 432,
+    "observations": 434,
+    "repos": 107,
+    "terms": 432
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -31,7 +31,6 @@
     "C-Lodder/grunt-postcss",
     "coasys/ad4m",
     "coderaiser/supertape",
-    "dart-lang/site-shared",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
     "dwyl/phoenix-liveview-stopwatch",
@@ -49,7 +48,6 @@
     "faressoft/inquirer-checkbox-plus-prompt",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
-    "gatsbyjs/gatsby-starter-minimal",
     "GDevelopApp/GDevelop-tutorials",
     "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
@@ -64,15 +62,15 @@
     "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
+    "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
+    "julia-actions/cache",
     "kitconcept/volto-light-theme",
-    "Level/browser-level",
-    "Level/memory-level",
     "lm-sys/lm-sys.github.io",
     "locize/i18next-locize-backend",
     "locize/locize",
@@ -86,7 +84,6 @@
     "mapbox/vtvalidate",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
-    "neverendingqs/serverless-dotenv-example",
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "nodejs/nodejs-dist-indexer",

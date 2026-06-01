@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 88
-- terms: 858
-- components: 1686
-- concepts: 858
-- observations: 860
+- repos: 89
+- terms: 871
+- components: 1676
+- concepts: 871
+- observations: 873
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stdlib-js/math-base-special-erf](https://github.com/stdlib-js/math-base-special-erf) | 1 | 2026-05-02T03:51:00Z | JavaScript | Infrastructure/tooling | 16 | 35 | 16 | 16 |
+| [stdlib-js/array-float32](https://github.com/stdlib-js/array-float32) | 1 | 2026-05-02T03:49:12Z | JavaScript | Infrastructure/tooling | 22 | 26 | 22 | 22 |
+| [stdlib-js/math-base-special-erfc](https://github.com/stdlib-js/math-base-special-erfc) | 2 | 2026-05-02T03:37:54Z | JavaScript | Infrastructure/tooling | 18 | 33 | 18 | 18 |
+| [stdlib-js/math-base-special-erfcx](https://github.com/stdlib-js/math-base-special-erfcx) | 3 | 2026-05-02T03:34:08Z | JavaScript | Infrastructure/tooling | 20 | 26 | 20 | 20 |
+| [angular/angular-devkit-architect-builds](https://github.com/angular/angular-devkit-architect-builds) | 4 | 2026-05-01T17:59:46Z | JavaScript | Web app | 0 | 2 | 0 | 0 |
 | [stdlib-js/math-base-special-erfcinv](https://github.com/stdlib-js/math-base-special-erfcinv) | 2 | 2026-04-30T03:54:40Z | JavaScript | Infrastructure/tooling | 21 | 35 | 21 | 21 |
 | [stdlib-js/math-base-special-erfinv](https://github.com/stdlib-js/math-base-special-erfinv) | 1 | 2026-04-30T03:51:21Z | JavaScript | Infrastructure/tooling | 18 | 36 | 18 | 18 |
 | [maltsev/html-minifiers-benchmark](https://github.com/maltsev/html-minifiers-benchmark) | 1 | 2026-04-30T03:33:56Z | JavaScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
@@ -110,10 +115,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BarMalka/super-pharm-stock-checker](https://github.com/BarMalka/super-pharm-stock-checker) | 2 | 2026-04-05T05:40:41Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [graphql/community-wg](https://github.com/graphql/community-wg) | 8 | 2026-04-03T12:17:52Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [stdlib-js/ndarray-dtype](https://github.com/stdlib-js/ndarray-dtype) | 1 | 2026-04-03T03:55:10Z | JavaScript | Infrastructure/tooling | 23 | 25 | 23 | 23 |
-| [Level/transcoder](https://github.com/Level/transcoder) | 5 | 2026-04-02T03:43:47Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [stdlib-js/array-typed](https://github.com/stdlib-js/array-typed) | 1 | 2026-04-02T03:34:17Z | JavaScript | Infrastructure/tooling | 24 | 42 | 24 | 24 |
-| [stdlib-js/array-complex64](https://github.com/stdlib-js/array-complex64) | 5 | 2026-04-02T03:28:59Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
-| [Level/supports](https://github.com/Level/supports) | 5 | 2026-04-01T10:38:44Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -143,9 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eea/fise-frontend](https://github.com/eea/fise-frontend) | 5 | 2026-04-23T18:41:56Z | JavaScript | Infrastructure/tooling | 0 | 46 | 0 | 0 |
 | [agent-sh/agent-core](https://github.com/agent-sh/agent-core) | 5 | 2026-04-14T23:27:14Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [kellyselden/boilerplate-update](https://github.com/kellyselden/boilerplate-update) | 5 | 2026-04-10T18:45:11Z | JavaScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
-| [Level/transcoder](https://github.com/Level/transcoder) | 5 | 2026-04-02T03:43:47Z | JavaScript | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [stdlib-js/array-complex64](https://github.com/stdlib-js/array-complex64) | 5 | 2026-04-02T03:28:59Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
-| [Level/supports](https://github.com/Level/supports) | 5 | 2026-04-01T10:38:44Z | JavaScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
+| [angular/angular-devkit-architect-builds](https://github.com/angular/angular-devkit-architect-builds) | 4 | 2026-05-01T17:59:46Z | JavaScript | Web app | 0 | 2 | 0 | 0 |
 | [j9t/minifier-benchmarks](https://github.com/j9t/minifier-benchmarks) | 4 | 2026-04-27T06:53:01Z | JavaScript | Web app | 9 | 16 | 9 | 9 |
 | [angular/dev-infra-private-ng-dev-builds](https://github.com/angular/dev-infra-private-ng-dev-builds) | 4 | 2026-04-22T22:21:53Z | JavaScript | Web app | 0 | 54 | 0 | 0 |
 | [ChadKillingsworth/closure-compiler-npm](https://github.com/ChadKillingsworth/closure-compiler-npm) | 4 | 2026-04-17T12:28:07Z | JavaScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
@@ -153,6 +152,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ehmicky/fetch-node-website](https://github.com/ehmicky/fetch-node-website) | 4 | 2026-04-11T15:03:17Z | JavaScript | CLI | 13 | 12 | 15 | 15 |
 | [agent-sh/next-task](https://github.com/agent-sh/next-task) | 4 | 2026-04-11T03:14:37Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [stdlib-js/ndarray-array](https://github.com/stdlib-js/ndarray-array) | 4 | 2026-04-10T03:58:17Z | JavaScript | Infrastructure/tooling | 19 | 56 | 19 | 19 |
+| [stdlib-js/math-base-special-erfcx](https://github.com/stdlib-js/math-base-special-erfcx) | 3 | 2026-05-02T03:34:08Z | JavaScript | Infrastructure/tooling | 20 | 26 | 20 | 20 |
 | [fontsource/download-stat-aggregator](https://github.com/fontsource/download-stat-aggregator) | 3 | 2026-04-29T06:05:19Z | JavaScript | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [boa-dev/data](https://github.com/boa-dev/data) | 3 | 2026-04-29T03:59:57Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [stdlib-js/array-shared-buffer](https://github.com/stdlib-js/array-shared-buffer) | 3 | 2026-04-29T03:51:32Z | JavaScript | Infrastructure/tooling | 23 | 28 | 23 | 23 |
@@ -169,6 +169,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/enhance](https://github.com/agent-sh/enhance) | 3 | 2026-04-14T23:26:52Z | JavaScript | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [istanbuljs/schema](https://github.com/istanbuljs/schema) | 3 | 2026-04-13T11:04:17Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [stdlib-js/streams-node-stdin](https://github.com/stdlib-js/streams-node-stdin) | 3 | 2026-04-12T03:41:16Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
+| [stdlib-js/math-base-special-erfc](https://github.com/stdlib-js/math-base-special-erfc) | 2 | 2026-05-02T03:37:54Z | JavaScript | Infrastructure/tooling | 18 | 33 | 18 | 18 |
 | [stdlib-js/math-base-special-erfcinv](https://github.com/stdlib-js/math-base-special-erfcinv) | 2 | 2026-04-30T03:54:40Z | JavaScript | Infrastructure/tooling | 21 | 35 | 21 | 21 |
 | [travi/octokit-auth-netrc](https://github.com/travi/octokit-auth-netrc) | 2 | 2026-04-29T20:15:40Z | JavaScript | Infrastructure/tooling | 4 | 42 | 4 | 4 |
 | [stdlib-js/array-int8](https://github.com/stdlib-js/array-int8) | 2 | 2026-04-29T03:54:02Z | JavaScript | Infrastructure/tooling | 21 | 28 | 21 | 21 |
@@ -187,6 +188,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/streams-node-stdout](https://github.com/stdlib-js/streams-node-stdout) | 2 | 2026-04-12T03:47:56Z | JavaScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [hchiam/learning-js](https://github.com/hchiam/learning-js) | 2 | 2026-04-07T02:58:03Z | JavaScript | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [BarMalka/super-pharm-stock-checker](https://github.com/BarMalka/super-pharm-stock-checker) | 2 | 2026-04-05T05:40:41Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [stdlib-js/math-base-special-erf](https://github.com/stdlib-js/math-base-special-erf) | 1 | 2026-05-02T03:51:00Z | JavaScript | Infrastructure/tooling | 16 | 35 | 16 | 16 |
+| [stdlib-js/array-float32](https://github.com/stdlib-js/array-float32) | 1 | 2026-05-02T03:49:12Z | JavaScript | Infrastructure/tooling | 22 | 26 | 22 | 22 |
 | [stdlib-js/math-base-special-erfinv](https://github.com/stdlib-js/math-base-special-erfinv) | 1 | 2026-04-30T03:51:21Z | JavaScript | Infrastructure/tooling | 18 | 36 | 18 | 18 |
 | [maltsev/html-minifiers-benchmark](https://github.com/maltsev/html-minifiers-benchmark) | 1 | 2026-04-30T03:33:56Z | JavaScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [kkomelin/isomorphic-dompurify-playgrounds](https://github.com/kkomelin/isomorphic-dompurify-playgrounds) | 1 | 2026-04-29T14:37:45Z | JavaScript | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -206,4 +209,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/array-complex128](https://github.com/stdlib-js/array-complex128) | 1 | 2026-04-10T09:25:50Z | JavaScript | Infrastructure/tooling | 24 | 63 | 24 | 24 |
 | [hchiam/code-inspiration](https://github.com/hchiam/code-inspiration) | 1 | 2026-04-09T06:50:15Z | JavaScript | Infrastructure/tooling | 9 | 24 | 9 | 9 |
 | [stdlib-js/ndarray-dtype](https://github.com/stdlib-js/ndarray-dtype) | 1 | 2026-04-03T03:55:10Z | JavaScript | Infrastructure/tooling | 23 | 25 | 23 | 23 |
-| [stdlib-js/array-typed](https://github.com/stdlib-js/array-typed) | 1 | 2026-04-02T03:34:17Z | JavaScript | Infrastructure/tooling | 24 | 42 | 24 | 24 |

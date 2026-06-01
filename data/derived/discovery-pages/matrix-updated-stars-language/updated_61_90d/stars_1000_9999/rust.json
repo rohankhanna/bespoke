@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 142,
-    "observations": 145,
-    "repos": 29,
-    "terms": 141
+    "components": 224,
+    "concepts": 157,
+    "observations": 160,
+    "repos": 31,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "allan2/dotenvy",
+    "arxanas/git-branchless",
+    "bitshifter/glam-rs",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",

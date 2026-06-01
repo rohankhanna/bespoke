@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vkhorikov/CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions) | 2797 | 2026-03-02T15:22:16Z | Other | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [pry/pry](https://github.com/pry/pry) | 6819 | 2026-03-02T03:40:39Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [javan/whenever](https://github.com/javan/whenever) | 8871 | 2026-03-02T03:08:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [steipete/imsg](https://github.com/steipete/imsg) | 1005 | 2026-03-02T03:07:02Z | Other | CLI | 2 | 2 | 2 | 2 |
@@ -139,7 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [siliconflow/onediff](https://github.com/siliconflow/onediff) | 1971 | 2025-12-04T01:30:48Z | Other | Infrastructure/tooling | 19 | 10 | 19 | 19 |
 | [bkeepers/dotenv](https://github.com/bkeepers/dotenv) | 6740 | 2025-12-03T16:27:28Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [gradle/kotlin-dsl-samples](https://github.com/gradle/kotlin-dsl-samples) | 3689 | 2025-12-03T09:10:05Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -187,6 +187,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) | 2911 | 2026-01-11T10:47:32Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) | 2840 | 2025-12-31T16:00:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rails/spring](https://github.com/rails/spring) | 2815 | 2026-02-03T22:38:00Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [vkhorikov/CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions) | 2797 | 2026-03-02T15:22:16Z | Other | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [bakpakin/Fennel](https://github.com/bakpakin/Fennel) | 2727 | 2026-02-08T04:40:28Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets) | 2701 | 2026-01-23T15:29:00Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [weichsel/ZIPFoundation](https://github.com/weichsel/ZIPFoundation) | 2666 | 2026-01-10T19:21:11Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -223,7 +224,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hecomi/uLipSync](https://github.com/hecomi/uLipSync) | 1590 | 2026-01-06T09:12:01Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [rails/tailwindcss-rails](https://github.com/rails/tailwindcss-rails) | 1584 | 2026-02-20T03:41:57Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [elixir-lang/gen_stage](https://github.com/elixir-lang/gen_stage) | 1582 | 2026-01-09T07:44:33Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [kikito/inspect.lua](https://github.com/kikito/inspect.lua) | 1523 | 2026-01-05T16:28:00Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list) | 1518 | 2025-12-30T17:55:05Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [Glavin001/atom-beautify](https://github.com/Glavin001/atom-beautify) | 1503 | 2026-02-14T14:00:33Z | Other | Library | 7 | 46 | 7 | 7 |

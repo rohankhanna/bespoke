@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 1705,
-    "concepts": 873,
-    "observations": 878,
-    "repos": 69,
-    "terms": 873
+    "components": 1673,
+    "concepts": 856,
+    "observations": 862,
+    "repos": 68,
+    "terms": 856
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
-    "apache/brpc",
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
     "Comfy-Org/ComfyUI-Manager",
@@ -36,11 +35,11 @@
     "google-ai-edge/mediapipe",
     "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",
-    "HIllya51/LunaTranslator",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
+    "jax-ml/jax",
     "jestjs/jest",
     "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
@@ -60,7 +59,6 @@
     "preactjs/preact",
     "psf/black",
     "pydantic/pydantic",
-    "python-poetry/poetry",
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
@@ -71,6 +69,7 @@
     "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
+    "swiftlang/swift",
     "TEN-framework/ten-framework",
     "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",

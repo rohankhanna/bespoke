@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,10 +12,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 313
-- components: 211
-- concepts: 318
+- repos: 59
+- terms: 314
+- components: 209
+- concepts: 319
 - observations: 319
 
 ## Static behavior
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [olikraus/u8g2](https://github.com/olikraus/u8g2) | 6425 | 2026-04-01T19:25:51Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | 1553 | 2026-04-01T06:23:41Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [go-gl/gl](https://github.com/go-gl/gl) | 1195 | 2026-03-31T23:51:17Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CVCUDA/CV-CUDA](https://github.com/CVCUDA/CV-CUDA) | 2678 | 2026-03-31T23:06:00Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
@@ -84,8 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen) | 1229 | 2026-03-05T15:06:56Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [icecc/icecream](https://github.com/icecc/icecream) | 1790 | 2026-03-04T22:13:20Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) | 7147 | 2026-03-03T17:03:44Z | C/C++ | Infrastructure/tooling | 9 | 10 | 10 | 10 |
-| [GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) | 3300 | 2026-03-02T23:33:12Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 5 |
-| [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -108,8 +107,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [littlefs-project/littlefs](https://github.com/littlefs-project/littlefs) | 6667 | 2026-03-25T02:26:59Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [redis/hiredis](https://github.com/redis/hiredis) | 6651 | 2026-03-22T22:29:49Z | C/C++ | CLI | 3 | 9 | 3 | 3 |
 | [google/snappy](https://github.com/google/snappy) | 6562 | 2026-03-06T22:30:42Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [olikraus/u8g2](https://github.com/olikraus/u8g2) | 6425 | 2026-04-01T19:25:51Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [leethomason/tinyxml2](https://github.com/leethomason/tinyxml2) | 5750 | 2026-03-10T01:18:18Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [nmslib/hnswlib](https://github.com/nmslib/hnswlib) | 5195 | 2026-03-28T23:20:00Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ThrowTheSwitch/Unity](https://github.com/ThrowTheSwitch/Unity) | 5178 | 2026-03-27T16:52:34Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arrayfire/arrayfire](https://github.com/arrayfire/arrayfire) | 4882 | 2026-03-07T03:06:52Z | C/C++ | Infrastructure/tooling | 7 | 4 | 7 | 7 |
@@ -122,7 +121,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Overv/VulkanTutorial](https://github.com/Overv/VulkanTutorial) | 3653 | 2026-03-29T16:38:42Z | C/C++ | Service/API | 5 | 0 | 5 | 5 |
 | [apache/singa](https://github.com/apache/singa) | 3604 | 2026-03-23T10:05:37Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 3442 | 2026-03-23T10:37:10Z | C/C++ | Infrastructure/tooling | 19 | 20 | 19 | 19 |
-| [GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) | 3300 | 2026-03-02T23:33:12Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 5 |
 | [onnx/onnx-tensorrt](https://github.com/onnx/onnx-tensorrt) | 3205 | 2026-03-25T00:03:45Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [hufrea/byedpi](https://github.com/hufrea/byedpi) | 3160 | 2026-03-29T19:08:14Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [duckdb/pg_duckdb](https://github.com/duckdb/pg_duckdb) | 3063 | 2026-03-16T09:08:43Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |

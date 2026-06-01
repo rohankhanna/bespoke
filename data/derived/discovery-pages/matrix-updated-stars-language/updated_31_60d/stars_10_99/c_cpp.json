@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 412,
-    "observations": 412,
-    "repos": 85,
-    "terms": 409
+    "components": 434,
+    "concepts": 476,
+    "observations": 476,
+    "repos": 88,
+    "terms": 472
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -23,13 +23,11 @@
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
     "aifoundry-org/et-platform",
-    "AIWintermuteAI/whispercpp",
     "akruphi/far2l",
     "ankane/stl-cpp",
     "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
-    "BirolLab/arcs",
     "BirolLab/btllib",
     "boostorg/config",
     "BrianPugh/tamp",
@@ -47,12 +45,17 @@
     "fcambus/bdf2sfd",
     "flatpak/xdg-dbus-proxy",
     "GaoYusong/llm.cpp",
+    "gazebosim/gz-common",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
+    "gazebosim/gz-physics",
+    "gazebosim/gz-rendering",
+    "gazebosim/gz-tools",
     "gazebosim/gz-transport",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "hazelcast/hazelcast-cpp-client",
+    "HDFGroup/hdf4",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",

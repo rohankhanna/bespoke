@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 106
-- terms: 275
-- components: 246
-- concepts: 267
-- observations: 268
+- repos: 104
+- terms: 266
+- components: 241
+- concepts: 258
+- observations: 259
 
 ## Static behavior
 
@@ -130,8 +130,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mingyuanzhou/SiD-LSG](https://github.com/mingyuanzhou/SiD-LSG) | 97 | 2025-12-04T18:07:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [vllm-project/vllm-openvino](https://github.com/vllm-project/vllm-openvino) | 45 | 2025-12-04T11:14:54Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [pycompression/python-zlib-ng](https://github.com/pycompression/python-zlib-ng) | 13 | 2025-12-03T09:48:13Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [espressif/conventional-precommit-linter](https://github.com/espressif/conventional-precommit-linter) | 14 | 2025-12-03T04:39:53Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
-| [adhikasp/mcp-youtube](https://github.com/adhikasp/mcp-youtube) | 48 | 2025-12-02T09:35:44Z | Python | Model/data | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -185,7 +183,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexmojaki/stack_data](https://github.com/alexmojaki/stack_data) | 50 | 2026-01-11T11:55:38Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [xplpc/xplpc](https://github.com/xplpc/xplpc) | 49 | 2026-02-13T19:31:03Z | Python | Infrastructure/tooling | 11 | 12 | 11 | 12 |
 | [modelscope/ms-enclave](https://github.com/modelscope/ms-enclave) | 49 | 2026-01-08T07:32:32Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [adhikasp/mcp-youtube](https://github.com/adhikasp/mcp-youtube) | 48 | 2025-12-02T09:35:44Z | Python | Model/data | 1 | 0 | 1 | 1 |
 | [Lizw14/Super-CLEVR](https://github.com/Lizw14/Super-CLEVR) | 47 | 2026-02-19T21:44:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [jhakulin/realtime-ai](https://github.com/jhakulin/realtime-ai) | 46 | 2026-01-24T04:04:35Z | Python | Library | 0 | 0 | 0 | 0 |
 | [NightFurySL2001/cjktables](https://github.com/NightFurySL2001/cjktables) | 46 | 2025-12-13T13:08:14Z | Python | Unknown | 1 | 0 | 1 | 1 |
@@ -234,7 +231,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TransferQueue/TransferQueue](https://github.com/TransferQueue/TransferQueue) | 15 | 2026-01-16T01:06:20Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [SLDGroup/LoMix](https://github.com/SLDGroup/LoMix) | 14 | 2026-02-04T16:50:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [HabanaAI/DeepSpeed](https://github.com/HabanaAI/DeepSpeed) | 14 | 2026-01-08T19:21:44Z | Python | Infrastructure/tooling | 9 | 2 | 9 | 9 |
-| [espressif/conventional-precommit-linter](https://github.com/espressif/conventional-precommit-linter) | 14 | 2025-12-03T04:39:53Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [chenkang455/ManiSkill-GS](https://github.com/chenkang455/ManiSkill-GS) | 13 | 2026-02-26T13:23:36Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [enjoy-digital/litex_hw_ci](https://github.com/enjoy-digital/litex_hw_ci) | 13 | 2026-02-15T23:44:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [biocypher/project-template](https://github.com/biocypher/project-template) | 13 | 2026-01-15T15:12:28Z | Python | Template/starter | 0 | 0 | 0 | 0 |

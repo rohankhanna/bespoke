@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 15
-- components: 27
-- concepts: 15
-- observations: 15
+- repos: 2
+- terms: 13
+- components: 24
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 84 | 2026-05-30T00:29:12Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 35 | 2026-05-29T10:59:26Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 84 | 2026-05-30T00:29:12Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 35 | 2026-05-29T10:59:26Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1809,
-    "concepts": 340,
-    "observations": 340,
-    "repos": 44,
-    "terms": 336
+    "components": 1361,
+    "concepts": 297,
+    "observations": 297,
+    "repos": 34,
+    "terms": 293
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "agentclientprotocol/typescript-sdk",
@@ -24,14 +24,10 @@
     "Brendonovich/MacroGraph",
     "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
-    "dydxprotocol/v4-web",
     "embroider-build/ember-auto-import",
-    "embroider-build/embroider",
     "fluent-vue/fluent-vue",
     "foundry-rs/foundry-toolchain",
     "ftonato/nope-validator",
-    "iconify/icon-sets",
-    "intlify/eslint-plugin-vue-i18n",
     "inversify/monorepo",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
@@ -41,20 +37,14 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "mswjs/interceptors",
     "Nerivec/zigbee2mqtt-windfront",
-    "nonara/ts-patch",
     "nurikk/zigbee2mqtt-frontend",
     "P4sca1/cron-schedule",
-    "radashi-org/radashi",
     "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
     "SkepticMystic/breadcrumbs",
-    "smithy-lang/smithy-typescript",
     "sumup-oss/circuit-ui",
-    "tlaplus/vscode-tlaplus",
-    "unjs/get-port-please",
     "unjs/listhen",
-    "unjs/unimport",
     "victorgarciaesgi/regle",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2187,
-    "concepts": 422,
-    "observations": 424,
-    "repos": 38,
-    "terms": 419
+    "components": 1539,
+    "concepts": 294,
+    "observations": 296,
+    "repos": 26,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
-    "aidenybai/react-scan",
     "ajv-validator/ajv",
-    "apache/echarts",
     "BabylonJS/Babylon.js",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
@@ -30,27 +28,17 @@
     "Koenkk/zigbee2mqtt",
     "lucide-icons/lucide",
     "maplibre/maplibre-gl-js",
-    "medusajs/medusa",
     "mobxjs/mobx",
     "modelcontextprotocol/typescript-sdk",
-    "nitrojs/nitro",
     "nrwl/nx",
     "puppeteer/puppeteer",
-    "QwikDev/qwik",
     "react-hook-form/react-hook-form",
-    "reduxjs/redux",
     "reduxjs/redux-devtools",
     "remotion-dev/remotion",
     "RooCodeInc/Roo-Code",
-    "slidevjs/slidev",
-    "tailwindlabs/tailwindcss",
-    "TanStack/query",
-    "TanStack/router",
-    "TanStack/table",
     "vitejs/vite",
     "vuejs/core",
     "vuejs/vitepress",
-    "windingwind/zotero-pdf-translate",
     "withastro/astro"
   ]
 }

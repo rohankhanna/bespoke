@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2261,
-    "concepts": 3048,
-    "observations": 3055,
-    "repos": 964,
-    "terms": 3029
+    "components": 2281,
+    "concepts": 3058,
+    "observations": 3065,
+    "repos": 968,
+    "terms": 3039
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -94,6 +94,7 @@
     "ashawkey/diff-gaussian-rasterization",
     "ashvardanian/SwiftSemanticSearch",
     "astoff/code-cells.el",
+    "astoff/digestif",
     "atom/flight-manual.atom.io",
     "atom/language-javascript",
     "AtomLinter/linter-write-good",
@@ -448,6 +449,7 @@
     "impallari/Font-Testing-Page",
     "inhabitedtype/angstrom",
     "inhabitedtype/faraday",
+    "inkle/ink-unity-integration",
     "inside/vim-search-pulse",
     "instantX-research/CSGO",
     "InteractiveComputerGraphics/cuNSearch",
@@ -590,6 +592,7 @@
     "LucHermitte/lh-vim-lib",
     "lukas-reineke/headlines.nvim",
     "lukas-reineke/lsp-format.nvim",
+    "lunacookies/vim-colors-xcode",
     "lunarmodules/luassert",
     "lupantech/MathVista",
     "lvimuser/lsp-inlayhints.nvim",
@@ -642,6 +645,7 @@
     "mikera/vectorz-clj",
     "mikewest/http-state-tokens",
     "miner/herbert",
+    "minio/docs",
     "mirage/ocaml-cow",
     "Misterio77/nix-colors",
     "Modi1987/KST-Kuka-Sunrise-Toolbox",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 53
-- terms: 233
-- components: 1453
-- concepts: 230
-- observations: 230
+- repos: 57
+- terms: 254
+- components: 1588
+- concepts: 245
+- observations: 246
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
+| [inciteful-xyz/inciteful-zotero-plugin](https://github.com/inciteful-xyz/inciteful-zotero-plugin) | 273 | 2026-03-02T19:44:56Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
+| [lobehub/lobe-tts](https://github.com/lobehub/lobe-tts) | 784 | 2026-03-02T14:12:18Z | TypeScript | Infrastructure/tooling | 6 | 52 | 0 | 0 |
+| [lobehub/lobe-charts](https://github.com/lobehub/lobe-charts) | 102 | 2026-03-02T12:30:12Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
 | [multiformats/js-multiformats](https://github.com/multiformats/js-multiformats) | 267 | 2026-03-01T16:19:05Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [a2aproject/a2a-inspector](https://github.com/a2aproject/a2a-inspector) | 400 | 2026-02-28T20:00:09Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
@@ -86,10 +90,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [bvaughn/react-window-infinite-loader](https://github.com/bvaughn/react-window-infinite-loader) | 949 | 2026-01-12T22:52:35Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
 | [zsviczian/excalibrain](https://github.com/zsviczian/excalibrain) | 942 | 2026-02-18T07:59:46Z | TypeScript | Unknown | 0 | 25 | 0 | 0 |
+| [antfu/changelogithub](https://github.com/antfu/changelogithub) | 926 | 2026-03-03T04:22:27Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 5 |
 | [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | 889 | 2026-02-21T12:49:21Z | TypeScript | Service/API | 0 | 2 | 0 | 0 |
 | [TanStack/ranger](https://github.com/TanStack/ranger) | 830 | 2025-12-06T12:39:09Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [import-js/eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript) | 821 | 2026-03-01T00:39:06Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [addyosmani/chatty](https://github.com/addyosmani/chatty) | 812 | 2026-02-07T18:28:42Z | TypeScript | Infrastructure/tooling | 3 | 51 | 3 | 3 |
+| [lobehub/lobe-tts](https://github.com/lobehub/lobe-tts) | 784 | 2026-03-02T14:12:18Z | TypeScript | Infrastructure/tooling | 6 | 52 | 0 | 0 |
 | [niieani/gpt-tokenizer](https://github.com/niieani/gpt-tokenizer) | 778 | 2026-02-10T17:50:16Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [priceline/design-system](https://github.com/priceline/design-system) | 727 | 2026-02-27T17:24:39Z | TypeScript | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [microsoft/botbuilder-js](https://github.com/microsoft/botbuilder-js) | 723 | 2026-01-05T18:14:46Z | TypeScript | Infrastructure/tooling | 5 | 47 | 5 | 5 |
@@ -114,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cocos/cocos-test-projects](https://github.com/cocos/cocos-test-projects) | 317 | 2026-01-19T07:25:24Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [nanbingxyz/mcpsvr](https://github.com/nanbingxyz/mcpsvr) | 297 | 2026-01-12T11:52:29Z | TypeScript | Service/API | 2 | 26 | 2 | 2 |
 | [matrix-org/matrix-appservice-slack](https://github.com/matrix-org/matrix-appservice-slack) | 284 | 2026-01-22T15:12:07Z | TypeScript | Infrastructure/tooling | 11 | 68 | 11 | 11 |
+| [inciteful-xyz/inciteful-zotero-plugin](https://github.com/inciteful-xyz/inciteful-zotero-plugin) | 273 | 2026-03-02T19:44:56Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [multiformats/js-multiformats](https://github.com/multiformats/js-multiformats) | 267 | 2026-03-01T16:19:05Z | TypeScript | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [googleapis/nodejs-datastore](https://github.com/googleapis/nodejs-datastore) | 226 | 2026-02-20T21:15:01Z | TypeScript | CLI | 3 | 41 | 3 | 3 |
 | [yandeu/five-server](https://github.com/yandeu/five-server) | 220 | 2026-02-25T18:19:32Z | TypeScript | Infrastructure/tooling | 1 | 36 | 1 | 1 |
@@ -137,3 +144,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gajus/eslint-plugin-sql](https://github.com/gajus/eslint-plugin-sql) | 114 | 2026-01-12T19:59:56Z | TypeScript | Infrastructure/tooling | 6 | 25 | 6 | 6 |
 | [eckardt/cchistory](https://github.com/eckardt/cchistory) | 107 | 2026-02-28T16:49:23Z | TypeScript | CLI | 3 | 13 | 0 | 0 |
 | [aymenfurter/ralph](https://github.com/aymenfurter/ralph) | 103 | 2026-02-27T08:01:38Z | TypeScript | Infrastructure/tooling | 1 | 18 | 0 | 0 |
+| [lobehub/lobe-charts](https://github.com/lobehub/lobe-charts) | 102 | 2026-03-02T12:30:12Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |

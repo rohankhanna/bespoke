@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 119
-- components: 127
-- concepts: 119
-- observations: 119
+- repos: 37
+- terms: 135
+- components: 139
+- concepts: 136
+- observations: 136
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [BirolLab/arcs](https://github.com/BirolLab/arcs) | 95 | 2026-04-01T17:56:45Z | C/C++ | Infrastructure/tooling | 11 | 1 | 12 | 12 |
+| [AIWintermuteAI/whispercpp](https://github.com/AIWintermuteAI/whispercpp) | 64 | 2026-04-01T13:01:02Z | C/C++ | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [heal-research/pyoperon](https://github.com/heal-research/pyoperon) | 75 | 2026-03-31T17:38:27Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -70,6 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/react-native-winrt](https://github.com/microsoft/react-native-winrt) | 99 | 2026-03-05T20:30:56Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [icecc/icemon](https://github.com/icecc/icemon) | 96 | 2026-03-05T13:57:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [BirolLab/arcs](https://github.com/BirolLab/arcs) | 95 | 2026-04-01T17:56:45Z | C/C++ | Infrastructure/tooling | 11 | 1 | 12 | 12 |
 | [jupyter-xeus/xleaflet](https://github.com/jupyter-xeus/xleaflet) | 93 | 2026-03-06T13:56:06Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [ssiu/flash-attention-turing](https://github.com/ssiu/flash-attention-turing) | 89 | 2026-03-23T07:13:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [dacap/observable](https://github.com/dacap/observable) | 85 | 2026-03-10T12:21:28Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
@@ -81,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [RekGRpth/pg_task](https://github.com/RekGRpth/pg_task) | 67 | 2026-03-18T04:02:01Z | C/C++ | Infrastructure/tooling | 10 | 5 | 10 | 10 |
+| [AIWintermuteAI/whispercpp](https://github.com/AIWintermuteAI/whispercpp) | 64 | 2026-04-01T13:01:02Z | C/C++ | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [DeanoC/tiny_imageformat](https://github.com/DeanoC/tiny_imageformat) | 63 | 2026-03-12T10:00:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ada-url/goada](https://github.com/ada-url/goada) | 60 | 2026-03-26T18:13:28Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [intel/intel-extension-for-openxla](https://github.com/intel/intel-extension-for-openxla) | 59 | 2026-03-06T00:51:50Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |

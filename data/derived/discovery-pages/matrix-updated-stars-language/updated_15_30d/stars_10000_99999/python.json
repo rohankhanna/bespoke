@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 18,
-    "terms": 193
+    "components": 118,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 12,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "agentscope-ai/QwenPaw",
-    "certbot/certbot",
     "crewAIInc/crewAI",
     "datalab-to/marker",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
     "Kludex/starlette",
-    "lucidrains/vit-pytorch",
     "ludwig-ai/ludwig",
     "MetaCubeX/mihomo",
-    "mitmproxy/mitmproxy",
-    "mlflow/mlflow",
     "modelscope/DiffSynth-Studio",
-    "scipy/scipy",
     "StevenBlack/hosts",
     "triton-inference-server/server",
-    "vega/altair",
     "wkentaro/labelme"
   ]
 }

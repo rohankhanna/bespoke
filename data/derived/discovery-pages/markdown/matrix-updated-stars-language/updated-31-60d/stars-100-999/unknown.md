@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 79
-- terms: 303
-- components: 127
-- concepts: 304
-- observations: 305
+- repos: 82
+- terms: 316
+- components: 134
+- concepts: 317
+- observations: 318
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/openjdk](https://github.com/microsoft/openjdk) | 341 | 2026-05-02T01:38:26Z | Unknown | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [openwdl/wdl](https://github.com/openwdl/wdl) | 852 | 2026-05-01T23:23:02Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
+| [yokoffing/Control-D-Config](https://github.com/yokoffing/Control-D-Config) | 434 | 2026-05-01T21:36:39Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [triton-inference-server/tensorrtllm_backend](https://github.com/triton-inference-server/tensorrtllm_backend) | 934 | 2026-05-01T20:05:08Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [getlantern/lantern-binaries](https://github.com/getlantern/lantern-binaries) | 113 | 2026-05-01T02:52:19Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [box/box-openapi](https://github.com/box/box-openapi) | 100 | 2026-04-30T15:48:41Z | Unknown | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
@@ -104,7 +108,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agamm/claude-code-owasp](https://github.com/agamm/claude-code-owasp) | 136 | 2026-04-05T02:59:02Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [e18e/ecosystem-issues](https://github.com/e18e/ecosystem-issues) | 553 | 2026-04-04T20:30:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [grpc/proposal](https://github.com/grpc/proposal) | 776 | 2026-04-03T18:59:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [lwpyh/Awesome-MLLM-Reasoning-Collection](https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection) | 591 | 2026-04-01T19:32:31Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -113,9 +116,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [preactjs/awesome-preact](https://github.com/preactjs/awesome-preact) | 988 | 2026-04-09T10:49:34Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries) | 972 | 2026-04-15T10:45:32Z | Unknown | CLI | 1 | 0 | 1 | 1 |
 | [sedyh/awesome-ebitengine](https://github.com/sedyh/awesome-ebitengine) | 960 | 2026-04-13T18:39:21Z | Unknown | Framework | 7 | 0 | 7 | 7 |
+| [triton-inference-server/tensorrtllm_backend](https://github.com/triton-inference-server/tensorrtllm_backend) | 934 | 2026-05-01T20:05:08Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cloudflare/skills](https://github.com/cloudflare/skills) | 920 | 2026-04-16T12:56:33Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [ghimiresunil/Top-AI-Tools](https://github.com/ghimiresunil/Top-AI-Tools) | 893 | 2026-04-21T15:57:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 892 | 2026-04-14T11:33:44Z | Unknown | Unknown | 18 | 0 | 18 | 18 |
+| [openwdl/wdl](https://github.com/openwdl/wdl) | 852 | 2026-05-01T23:23:02Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [emberjs/rfcs](https://github.com/emberjs/rfcs) | 802 | 2026-04-20T15:19:48Z | Unknown | CLI | 8 | 4 | 8 | 8 |
 | [grpc/proposal](https://github.com/grpc/proposal) | 776 | 2026-04-03T18:59:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | 758 | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -126,7 +131,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cncf/artwork](https://github.com/cncf/artwork) | 653 | 2026-04-10T15:19:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [cosmos/awesome-cosmos](https://github.com/cosmos/awesome-cosmos) | 597 | 2026-04-13T09:03:12Z | Unknown | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [fluxcd/flux2-multi-tenancy](https://github.com/fluxcd/flux2-multi-tenancy) | 595 | 2026-04-30T00:22:13Z | Unknown | Infrastructure/tooling | 9 | 8 | 9 | 9 |
-| [lwpyh/Awesome-MLLM-Reasoning-Collection](https://github.com/lwpyh/Awesome-MLLM-Reasoning-Collection) | 591 | 2026-04-01T19:32:31Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [ocaml/opam-repository](https://github.com/ocaml/opam-repository) | 575 | 2026-04-21T21:46:43Z | Unknown | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [forcedotcom/cli](https://github.com/forcedotcom/cli) | 553 | 2026-04-29T18:51:06Z | Unknown | CLI | 4 | 13 | 4 | 4 |
 | [e18e/ecosystem-issues](https://github.com/e18e/ecosystem-issues) | 553 | 2026-04-04T20:30:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -140,6 +144,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stripe/openapi](https://github.com/stripe/openapi) | 474 | 2026-04-21T00:38:44Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [graalvm/mandrel](https://github.com/graalvm/mandrel) | 440 | 2026-04-30T14:04:25Z | Unknown | Infrastructure/tooling | 14 | 7 | 14 | 14 |
+| [yokoffing/Control-D-Config](https://github.com/yokoffing/Control-D-Config) | 434 | 2026-05-01T21:36:39Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [Uzaaft/awesome-libghostty](https://github.com/Uzaaft/awesome-libghostty) | 433 | 2026-04-16T08:47:27Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tinted-theming/home](https://github.com/tinted-theming/home) | 425 | 2026-04-21T21:20:23Z | Unknown | Infrastructure/tooling | 6 | 4 | 6 | 7 |
 | [piebald-ai/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | 419 | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
@@ -147,6 +152,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AutoJunjie/awesome-agent-harness](https://github.com/AutoJunjie/awesome-agent-harness) | 403 | 2026-04-19T11:09:46Z | Unknown | Unknown | 9 | 0 | 9 | 9 |
 | [eudk/awesome-ai-tools](https://github.com/eudk/awesome-ai-tools) | 388 | 2026-04-19T22:34:27Z | Unknown | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [ymcui/PERT](https://github.com/ymcui/PERT) | 370 | 2026-04-19T01:01:29Z | Unknown | Model/data | 5 | 0 | 5 | 5 |
+| [microsoft/openjdk](https://github.com/microsoft/openjdk) | 341 | 2026-05-02T01:38:26Z | Unknown | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [attack68/rateslib](https://github.com/attack68/rateslib) | 336 | 2026-04-09T05:01:17Z | Unknown | Infrastructure/tooling | 24 | 8 | 24 | 24 |
 | [ailev/fpf](https://github.com/ailev/FPF) | 324 | 2026-04-17T12:33:55Z | Unknown | Framework | 11 | 0 | 11 | 11 |
 | [apappascs/mcp-servers-hub](https://github.com/apappascs/mcp-servers-hub) | 317 | 2026-04-21T15:10:03Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

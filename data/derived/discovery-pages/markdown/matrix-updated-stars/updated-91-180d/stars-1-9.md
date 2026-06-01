@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 222
-- terms: 479
-- components: 849
-- concepts: 473
-- observations: 474
+- repos: 227
+- terms: 494
+- components: 878
+- concepts: 488
+- observations: 489
 
 ## Static behavior
 
@@ -25,6 +25,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [jspreadsheet/spreadsheet-react-server](https://github.com/jspreadsheet/spreadsheet-react-server) | 1 | 2026-03-02T18:04:45Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
+| [yoshoku/numo-libsvm](https://github.com/yoshoku/numo-libsvm) | 4 | 2026-03-02T14:02:55Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [heshengtao/desktop-for-sap](https://github.com/heshengtao/desktop-for-sap) | 3 | 2026-03-02T10:50:21Z | JavaScript | CLI | 1 | 9 | 1 | 1 |
+| [hermit-os/hermit-gcc](https://github.com/hermit-os/hermit-gcc) | 3 | 2026-03-02T10:18:54Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [OpenCIDN/httpmirror](https://github.com/OpenCIDN/httpmirror) | 7 | 2026-03-02T08:30:30Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [datachainlab/ethereum-ibc-relay-prover](https://github.com/datachainlab/ethereum-ibc-relay-prover) | 4 | 2026-03-02T06:34:02Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [SWE-bench/SWE-smith-envs](https://github.com/SWE-bench/SWE-smith-envs) | 5 | 2026-03-02T04:49:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adobe/spectrum-tokens](https://github.com/adobe/spectrum-tokens) | 1 | 2026-03-01T19:52:13Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -246,7 +252,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aiagenta2z/onekey_mcp_router](https://github.com/aiagenta2z/onekey_mcp_router) | 4 | 2025-12-04T04:45:41Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [OutlierDetectionJL/OutlierDetectionData.jl](https://github.com/OutlierDetectionJL/OutlierDetectionData.jl) | 3 | 2025-12-03T13:52:37Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [OutlierDetectionJL/OutlierDetectionNeighbors.jl](https://github.com/OutlierDetectionJL/OutlierDetectionNeighbors.jl) | 3 | 2025-12-03T13:46:41Z | Other | Infrastructure/tooling | 2 | 8 | 2 | 2 |
-| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -274,6 +279,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudaper/compact_enc_det](https://github.com/cloudaper/compact_enc_det) | 8 | 2025-12-26T10:37:21Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [hashberg-io/typing-validation](https://github.com/hashberg-io/typing-validation) | 8 | 2025-12-21T10:23:59Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Triang-jyed-driung/Albatross](https://github.com/Triang-jyed-driung/Albatross) | 8 | 2025-12-20T12:35:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [OpenCIDN/httpmirror](https://github.com/OpenCIDN/httpmirror) | 7 | 2026-03-02T08:30:30Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [actions-oss/act-cli](https://github.com/actions-oss/act-cli) | 7 | 2026-03-01T13:36:50Z | Go | CLI | 5 | 14 | 5 | 5 |
 | [alexpolonsky/awesome-agent-skills-israel](https://github.com/alexpolonsky/awesome-agent-skills-israel) | 7 | 2026-02-26T18:04:19Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
 | [yamachu/VoicevoxCoreSwift](https://github.com/yamachu/VoicevoxCoreSwift) | 7 | 2026-02-21T08:14:17Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -328,6 +335,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arustydev/pre-commit-hooks](https://github.com/aRustyDev/pre-commit-hooks) | 5 | 2025-12-24T06:43:05Z | Python | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [TheTechnobear/EraeTouchLite](https://github.com/TheTechnobear/EraeTouchLite) | 5 | 2025-12-16T12:22:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hden/cuid2](https://github.com/hden/cuid2) | 5 | 2025-12-13T04:45:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [yoshoku/numo-libsvm](https://github.com/yoshoku/numo-libsvm) | 4 | 2026-03-02T14:02:55Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [datachainlab/ethereum-ibc-relay-prover](https://github.com/datachainlab/ethereum-ibc-relay-prover) | 4 | 2026-03-02T06:34:02Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs/helia-delegated-routing-v1-http-api](https://github.com/ipfs/helia-delegated-routing-v1-http-api) | 4 | 2026-03-01T15:58:29Z | TypeScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [lace/entente](https://github.com/lace/entente) | 4 | 2026-02-27T18:15:42Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -354,6 +362,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jupyter-widgets/team-compass](https://github.com/jupyter-widgets/team-compass) | 4 | 2025-12-12T20:37:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [adamharrison/quetta](https://github.com/adamharrison/quetta) | 4 | 2025-12-06T21:25:14Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [aiagenta2z/onekey_mcp_router](https://github.com/aiagenta2z/onekey_mcp_router) | 4 | 2025-12-04T04:45:41Z | Python | Service/API | 0 | 0 | 0 | 0 |
+| [heshengtao/desktop-for-sap](https://github.com/heshengtao/desktop-for-sap) | 3 | 2026-03-02T10:50:21Z | JavaScript | CLI | 1 | 9 | 1 | 1 |
+| [hermit-os/hermit-gcc](https://github.com/hermit-os/hermit-gcc) | 3 | 2026-03-02T10:18:54Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [marxin/mdbook-linkcheck2](https://github.com/marxin/mdbook-linkcheck2) | 3 | 2026-02-28T17:56:07Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ylsdamxssjxxdd/nerv](https://github.com/ylsdamxssjxxdd/nerv) | 3 | 2026-02-27T01:17:55Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [sylabs/singularity-admindocs](https://github.com/sylabs/singularity-admindocs) | 3 | 2026-02-26T16:38:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -420,6 +430,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bizflycloud/karpenter-provider-bizflycloud](https://github.com/bizflycloud/karpenter-provider-bizflycloud) | 2 | 2025-12-08T20:21:45Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Audio-Multimodal-AI-Resources](https://github.com/danielrosehill/Audio-Multimodal-AI-Resources) | 2 | 2025-12-08T14:21:28Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [heyoeyo/toadui](https://github.com/heyoeyo/toadui) | 2 | 2025-12-06T22:08:17Z | Python | Library | 3 | 0 | 3 | 3 |
+| [jspreadsheet/spreadsheet-react-server](https://github.com/jspreadsheet/spreadsheet-react-server) | 1 | 2026-03-02T18:04:45Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [adobe/spectrum-tokens](https://github.com/adobe/spectrum-tokens) | 1 | 2026-03-01T19:52:13Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [gakonst/foundry](https://github.com/gakonst/foundry) | 1 | 2026-02-27T12:27:01Z | Unknown | Infrastructure/tooling | 6 | 26 | 6 | 6 |
 | [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
@@ -473,4 +484,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [saddam213/OnnxStack](https://github.com/saddam213/OnnxStack) | 1 | 2025-12-09T20:35:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Cloud-STT-Price-Points-1225](https://github.com/danielrosehill/Cloud-STT-Price-Points-1225) | 1 | 2025-12-08T14:16:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Audio-Understanding-Test-Prompts](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts) | 1 | 2025-12-08T12:18:55Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
-| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

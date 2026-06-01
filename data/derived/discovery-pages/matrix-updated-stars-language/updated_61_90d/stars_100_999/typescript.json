@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1361,
-    "concepts": 287,
-    "observations": 288,
+    "components": 1323,
+    "concepts": 285,
+    "observations": 285,
     "repos": 49,
-    "terms": 302
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
+    "43081j/picoquery",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
-    "antfu/changelogithub",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
@@ -32,19 +32,18 @@
     "connectrpc/connect-query-es",
     "cztomsik/ava",
     "ethereum/staking-launchpad",
+    "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "filllabs/dependi",
     "fnando/i18n",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",
-    "inciteful-xyz/inciteful-zotero-plugin",
     "ivo-toby/mcp-openapi-server",
+    "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
-    "lobehub/lobe-charts",
     "lobehub/lobe-midjourney-webui",
-    "lobehub/lobe-tts",
     "microsoft/vscode-debugadapter-node",
     "neoclide/coc-java",
     "ory/hydra-login-consent-node",
@@ -62,6 +61,7 @@
     "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
     "windingwind/zotero-plugin-template",
-    "XantreDev/preact-signals"
+    "XantreDev/preact-signals",
+    "y-lohse/inkjs"
   ]
 }

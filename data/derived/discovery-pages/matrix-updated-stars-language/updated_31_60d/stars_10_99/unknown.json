@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 156,
-    "observations": 157,
-    "repos": 57,
-    "terms": 155
+    "components": 166,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 59,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "alphagov/govuk-rfcs",
     "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
+    "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
@@ -48,10 +49,10 @@
     "jupyterlab/frontends-team-compass",
     "kubernetes/steering",
     "mypyc/mypyc-benchmark-results",
+    "NightWatcher314/zotero-pdf2zh-server",
     "ocaml/platform-blog",
     "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
-    "operator-framework/community",
     "pre-commit/mirrors-eslint",
     "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",
@@ -63,6 +64,7 @@
     "simonw/simonwillisonblog-backup",
     "spiffe/spire-examples",
     "spring-projects/spring-ai-integration-tests",
+    "standardrb/standard-ruby-action",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",

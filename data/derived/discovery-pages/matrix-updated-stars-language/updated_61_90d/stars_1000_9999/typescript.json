@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1429,
-    "concepts": 271,
-    "observations": 271,
-    "repos": 42,
-    "terms": 293
+    "components": 1456,
+    "concepts": 292,
+    "observations": 293,
+    "repos": 45,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -25,9 +25,9 @@
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "coaidev/coai",
-    "cosmiconfig/cosmiconfig",
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
+    "glittercowboy/taches-cc-resources",
     "gpac/mp4box.js",
     "graphql-hive/graphql-config",
     "gustavoguichard/string-ts",
@@ -41,6 +41,7 @@
     "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",
     "markdoc/markdoc",
+    "mattpocock/ts-reset",
     "microsoft/genaiscript",
     "microsoft/tsdoc",
     "Myriad-Dreamin/typst.ts",
@@ -48,6 +49,8 @@
     "obsidian-community/obsidian-kanban",
     "obsidian-community/obsidian-style-settings",
     "obsidian-community/obsidian-zotero-integration",
+    "peter-evans/repository-dispatch",
+    "pillarjs/path-to-regexp",
     "REditorSupport/vscode-R",
     "sql-formatter-org/sql-formatter",
     "standard-schema/standard-schema",

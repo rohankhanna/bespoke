@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 25
-- terms: 125
-- components: 289
-- concepts: 125
-- observations: 125
+- repos: 24
+- terms: 122
+- components: 259
+- concepts: 122
+- observations: 122
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-30T10:15:22Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 84 | 2026-05-30T00:29:12Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [nuxt-modules/emotion](https://github.com/nuxt-modules/emotion) | 92 | 2026-05-29T23:42:02Z | TypeScript | Infrastructure/tooling | 4 | 21 | 4 | 4 |
 | [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-05-29T21:07:35Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
@@ -48,8 +49,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mono/skia](https://github.com/mono/skia) | 87 | 2026-05-26T19:40:22Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [ocaml-tracing/ocaml-opentelemetry](https://github.com/ocaml-tracing/ocaml-opentelemetry) | 56 | 2026-05-26T16:43:24Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-25T13:09:01Z | Go | CLI | 5 | 0 | 5 | 5 |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -61,6 +60,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mono/skia](https://github.com/mono/skia) | 87 | 2026-05-26T19:40:22Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 84 | 2026-05-30T00:29:12Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [alloy-rs/evm](https://github.com/alloy-rs/evm) | 80 | 2026-05-29T13:20:25Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
+| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-05-30T10:15:22Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [karafka/example-apps](https://github.com/karafka/example-apps) | 58 | 2026-05-27T16:20:22Z | Other | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [mongodb/winkerberos](https://github.com/mongodb/winkerberos) | 57 | 2026-05-28T16:23:35Z | C/C++ | CLI | 9 | 18 | 9 | 9 |
 | [lumen-oss/luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release) | 56 | 2026-05-28T08:56:43Z | Other | Infrastructure/tooling | 15 | 9 | 15 | 15 |
@@ -75,8 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FAIR-IMPACT/MOD](https://github.com/FAIR-IMPACT/MOD) | 36 | 2026-05-28T19:11:15Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 35 | 2026-05-29T10:59:26Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [honwen/openwrt-dnsmasq-extra](https://github.com/honwen/openwrt-dnsmasq-extra) | 35 | 2026-05-29T09:16:45Z | Shell | Unknown | 4 | 0 | 4 | 4 |
-| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 | [TrigenSoftware/simple-release](https://github.com/TrigenSoftware/simple-release) | 20 | 2026-05-28T18:37:34Z | TypeScript | Infrastructure/tooling | 4 | 23 | 4 | 4 |
 | [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-05-29T21:07:35Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
-| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [storybook-community/addon-queryparams](https://github.com/storybook-community/addon-queryparams) | 12 | 2026-05-27T17:16:03Z | JavaScript | Infrastructure/tooling | 2 | 36 | 2 | 2 |

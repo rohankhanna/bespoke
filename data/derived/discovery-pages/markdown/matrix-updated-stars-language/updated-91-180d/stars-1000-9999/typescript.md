@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 174
-- components: 963
-- concepts: 169
-- observations: 170
+- repos: 37
+- terms: 175
+- components: 991
+- concepts: 170
+- observations: 171
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [unjs/unplugin](https://github.com/unjs/unplugin) | 3574 | 2026-02-27T09:22:53Z | TypeScript | Infrastructure/tooling | 10 | 40 | 10 | 10 |
 | [ulid/javascript](https://github.com/ulid/javascript) | 3417 | 2026-02-27T08:22:11Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
 | [peers/peerjs-server](https://github.com/peers/peerjs-server) | 4686 | 2026-02-27T01:15:52Z | TypeScript | Infrastructure/tooling | 8 | 36 | 8 | 8 |
@@ -81,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unplugin/unplugin-icons](https://github.com/unplugin/unplugin-icons) | 4866 | 2026-01-14T10:52:48Z | TypeScript | Infrastructure/tooling | 9 | 26 | 9 | 9 |
 | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | 4770 | 2026-02-17T04:50:55Z | TypeScript | CLI | 0 | 15 | 0 | 0 |
 | [peers/peerjs-server](https://github.com/peers/peerjs-server) | 4686 | 2026-02-27T01:15:52Z | TypeScript | Infrastructure/tooling | 8 | 36 | 8 | 8 |
+| [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin) | 4137 | 2025-12-30T18:09:48Z | TypeScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [unplugin/unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import) | 3783 | 2026-01-14T23:43:18Z | TypeScript | Infrastructure/tooling | 6 | 34 | 6 | 6 |
 | [unjs/unplugin](https://github.com/unjs/unplugin) | 3574 | 2026-02-27T09:22:53Z | TypeScript | Infrastructure/tooling | 10 | 40 | 10 | 10 |

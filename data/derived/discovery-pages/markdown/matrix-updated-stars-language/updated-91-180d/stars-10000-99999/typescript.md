@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 53
-- components: 287
-- concepts: 53
-- observations: 54
+- repos: 11
+- terms: 66
+- components: 330
+- concepts: 66
+- observations: 67
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) | 32585 | 2026-03-03T03:02:11Z | TypeScript | Infrastructure/tooling | 13 | 43 | 13 | 13 |
 | [egoist/tsup](https://github.com/egoist/tsup) | 11216 | 2026-02-28T20:50:38Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [peers/peerjs](https://github.com/peers/peerjs) | 13309 | 2026-02-27T00:49:47Z | TypeScript | Infrastructure/tooling | 9 | 39 | 9 | 9 |
 | [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | 10039 | 2026-02-12T11:54:46Z | TypeScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
@@ -42,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [streamich/react-use](https://github.com/streamich/react-use) | 43972 | 2026-01-20T12:19:23Z | TypeScript | Infrastructure/tooling | 2 | 76 | 2 | 3 |
+| [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) | 32585 | 2026-03-03T03:02:11Z | TypeScript | Infrastructure/tooling | 13 | 43 | 13 | 13 |
 | [wechaty/wechaty](https://github.com/wechaty/wechaty) | 22693 | 2025-12-21T19:49:52Z | TypeScript | Infrastructure/tooling | 11 | 52 | 11 | 11 |
 | [transitive-bullshit/agentic](https://github.com/transitive-bullshit/agentic) | 18127 | 2026-02-11T04:50:03Z | TypeScript | Infrastructure/tooling | 2 | 25 | 2 | 2 |
 | [snarktank/ralph](https://github.com/snarktank/ralph) | 17536 | 2026-02-02T01:46:21Z | TypeScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |

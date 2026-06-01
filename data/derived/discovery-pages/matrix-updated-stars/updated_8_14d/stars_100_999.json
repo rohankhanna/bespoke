@@ -1,21 +1,21 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 158,
-    "observations": 159,
-    "repos": 29,
-    "terms": 157
+    "components": 326,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 32,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0no-co/wonka",
-    "Ai00-X/ai00_server",
     "AMD-AGI/Nitro-1",
+    "babashka/nbb",
     "bazel-contrib/rules_jvm_external",
     "betterleaks/betterleaks",
     "dwyl/quotes",
@@ -39,8 +39,11 @@
     "perrygeo/python-rasterstats",
     "pyOpenSci/software-submission",
     "pypa/setuptools-scm",
+    "pyrtlsdr/pyrtlsdr",
     "python-poetry/poetry-plugin-export",
     "satan53x/SExtractor",
-    "shawn0728/OpenSearch-VL"
+    "sbt/sbt-jmh",
+    "shawn0728/OpenSearch-VL",
+    "zh-plus/openlrc"
   ]
 }

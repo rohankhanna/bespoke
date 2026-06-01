@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 58
-- terms: 267
-- components: 251
-- concepts: 269
-- observations: 272
+- repos: 62
+- terms: 308
+- components: 280
+- concepts: 310
+- observations: 313
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [heroku/heroku-buildpack-dotnet](https://github.com/heroku/heroku-buildpack-dotnet) | 10 | 2026-05-01T23:34:13Z | Shell | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [heroku/heroku-buildpack-jvm-common](https://github.com/heroku/heroku-buildpack-jvm-common) | 43 | 2026-05-01T22:44:08Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [sclorg/s2i-ruby-container](https://github.com/sclorg/s2i-ruby-container) | 55 | 2026-05-01T17:59:18Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
+| [sclorg/s2i-perl-container](https://github.com/sclorg/s2i-perl-container) | 17 | 2026-05-01T11:32:10Z | Shell | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [cldwalker/dotfiles](https://github.com/cldwalker/dotfiles) | 16 | 2026-05-01T04:11:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [heroku/heroku-buildpack-gradle](https://github.com/heroku/heroku-buildpack-gradle) | 63 | 2026-05-01T03:43:32Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [cilium/community](https://github.com/cilium/community) | 21 | 2026-04-30T21:33:05Z | Shell | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -104,12 +108,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/heroku-buildpack-gradle](https://github.com/heroku/heroku-buildpack-gradle) | 63 | 2026-05-01T03:43:32Z | Shell | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills) | 63 | 2026-04-12T03:05:07Z | Shell | Unknown | 19 | 0 | 19 | 19 |
 | [agricidaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 58 | 2026-04-15T09:43:43Z | Shell | Infrastructure/tooling | 10 | 2 | 10 | 10 |
+| [sclorg/s2i-ruby-container](https://github.com/sclorg/s2i-ruby-container) | 55 | 2026-05-01T17:59:18Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [reviewdog/action-hadolint](https://github.com/reviewdog/action-hadolint) | 55 | 2026-04-21T20:09:49Z | Shell | Infrastructure/tooling | 8 | 9 | 8 | 9 |
 | [crazy-max/goxx](https://github.com/crazy-max/goxx) | 51 | 2026-04-23T19:13:07Z | Shell | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [acmesh-official/acmetest](https://github.com/acmesh-official/acmetest) | 48 | 2026-04-24T20:32:07Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [cri-o/packaging](https://github.com/cri-o/packaging) | 48 | 2026-04-21T05:22:32Z | Shell | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [milvus-io/milvus-proto](https://github.com/milvus-io/milvus-proto) | 46 | 2026-04-22T10:09:39Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [tinted-theming/tinted-terminal](https://github.com/tinted-theming/tinted-terminal) | 44 | 2026-04-29T19:14:42Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [heroku/heroku-buildpack-jvm-common](https://github.com/heroku/heroku-buildpack-jvm-common) | 43 | 2026-05-01T22:44:08Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [nodenv/nodenv-package-rehash](https://github.com/nodenv/nodenv-package-rehash) | 43 | 2026-04-18T12:57:52Z | Shell | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [argoproj-labs/argocd-extension-installer](https://github.com/argoproj-labs/argocd-extension-installer) | 40 | 2026-04-22T17:27:45Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [10up/action-wordpress-plugin-build-zip](https://github.com/10up/action-wordpress-plugin-build-zip) | 37 | 2026-04-08T18:48:14Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -135,6 +141,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oneclick/rubyinstaller2-packages](https://github.com/oneclick/rubyinstaller2-packages) | 18 | 2026-04-21T10:48:49Z | Shell | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [apache/arrow-testing](https://github.com/apache/arrow-testing) | 18 | 2026-04-20T12:47:58Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [2KAbhishek/sway2k](https://github.com/2KAbhishek/sway2k) | 18 | 2026-04-19T06:11:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
+| [sclorg/s2i-perl-container](https://github.com/sclorg/s2i-perl-container) | 17 | 2026-05-01T11:32:10Z | Shell | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [cldwalker/dotfiles](https://github.com/cldwalker/dotfiles) | 16 | 2026-05-01T04:11:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [rocq-prover/docker-opam-action](https://github.com/rocq-prover/docker-opam-action) | 15 | 2026-04-30T10:59:59Z | Shell | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [flinedev/tandemkit](https://github.com/FlineDev/TandemKit) | 15 | 2026-04-18T15:56:29Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -142,6 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/aaz](https://github.com/Azure/aaz) | 12 | 2026-04-24T06:29:54Z | Shell | CLI | 1 | 2 | 1 | 1 |
 | [AFLplusplus/cov-analysis](https://github.com/AFLplusplus/cov-analysis) | 12 | 2026-04-21T16:14:35Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [reviewdog/action-black](https://github.com/reviewdog/action-black) | 11 | 2026-04-21T17:00:56Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 13 |
+| [heroku/heroku-buildpack-dotnet](https://github.com/heroku/heroku-buildpack-dotnet) | 10 | 2026-05-01T23:34:13Z | Shell | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [dotenvx/dotenvx.sh](https://github.com/dotenvx/dotenvx.sh) | 10 | 2026-04-27T15:52:28Z | Shell | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [asdf-community/asdf-pdm](https://github.com/asdf-community/asdf-pdm) | 10 | 2026-04-22T22:06:36Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [alvistack/ansible-role-crun](https://github.com/alvistack/ansible-role-crun) | 10 | 2026-04-17T04:37:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |

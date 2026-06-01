@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 304,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 76,
-    "terms": 202
+    "components": 308,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 78,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -32,6 +32,7 @@
     "atlanhq/atlan-sample-apps",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
+    "Azure-Samples/langchain-agent-python",
     "beneadie/DeepDog_1",
     "bryanh9111/engram",
     "caesar0301/soothe",
@@ -54,6 +55,7 @@
     "etanhey/brainlayer",
     "flagos-ai/Megatron-LM-FL",
     "flagos-ai/TransformerEngine-FL",
+    "flexcyon/docs-en",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",

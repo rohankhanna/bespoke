@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 97
-- terms: 751
-- components: 4448
-- concepts: 756
-- observations: 759
+- repos: 99
+- terms: 777
+- components: 4599
+- concepts: 782
+- observations: 785
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js) | 10116 | 2026-05-02T05:44:24Z | JavaScript | CLI | 15 | 32 | 15 | 15 |
+| [addyosmani/critical](https://github.com/addyosmani/critical) | 10180 | 2026-05-02T00:58:33Z | JavaScript | Infrastructure/tooling | 7 | 52 | 7 | 7 |
+| [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
+| [sveltejs/svelte](https://github.com/sveltejs/svelte) | 86464 | 2026-05-01T21:58:47Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [stylelint/stylelint](https://github.com/stylelint/stylelint) | 11452 | 2026-05-01T07:09:29Z | JavaScript | Infrastructure/tooling | 10 | 85 | 10 | 10 |
 | [jsdoc/jsdoc](https://github.com/jsdoc/jsdoc) | 15434 | 2026-05-01T02:41:25Z | JavaScript | Infrastructure/tooling | 4 | 36 | 4 | 4 |
 | [http-party/node-http-proxy](https://github.com/http-party/node-http-proxy) | 14140 | 2026-04-30T21:10:24Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
@@ -121,13 +125,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | 44035 | 2026-04-05T18:11:35Z | JavaScript | Infrastructure/tooling | 13 | 40 | 13 | 13 |
 | [hapijs/hapi](https://github.com/hapijs/hapi) | 14784 | 2026-04-02T08:28:56Z | JavaScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 | [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 19580 | 2026-04-02T07:04:36Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
-| [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11342 | 2026-04-01T18:13:06Z | JavaScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
-| [debug-js/debug](https://github.com/debug-js/debug) | 11442 | 2026-04-01T12:03:30Z | JavaScript | Web app | 6 | 12 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sveltejs/svelte](https://github.com/sveltejs/svelte) | 86464 | 2026-05-01T21:58:47Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
 | [expressjs/express](https://github.com/expressjs/express) | 68974 | 2026-04-23T17:50:10Z | JavaScript | Infrastructure/tooling | 6 | 59 | 6 | 6 |
 | [webpack/webpack](https://github.com/webpack/webpack) | 65784 | 2026-04-22T22:38:00Z | JavaScript | Infrastructure/tooling | 19 | 121 | 19 | 19 |
 | [lodash/lodash](https://github.com/lodash/lodash) | 61263 | 2026-04-22T18:47:42Z | JavaScript | Infrastructure/tooling | 11 | 39 | 11 | 11 |
@@ -177,6 +180,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20404 | 2026-04-17T21:24:18Z | JavaScript | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [krisk/Fuse](https://github.com/krisk/Fuse) | 20228 | 2026-04-28T20:27:41Z | JavaScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 19963 | 2026-04-18T21:32:38Z | JavaScript | CLI | 6 | 7 | 6 | 7 |
+| [11ty/eleventy](https://github.com/11ty/eleventy) | 19615 | 2026-05-01T23:08:30Z | JavaScript | Infrastructure/tooling | 9 | 73 | 9 | 9 |
 | [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 19580 | 2026-04-02T07:04:36Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | 19467 | 2026-04-29T12:31:37Z | JavaScript | Infrastructure/tooling | 5 | 109 | 6 | 6 |
 | [decaporg/decap-cms](https://github.com/decaporg/decap-cms) | 19011 | 2026-04-22T15:17:26Z | JavaScript | Infrastructure/tooling | 16 | 117 | 16 | 16 |
@@ -217,11 +221,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reactjs/react.dev](https://github.com/reactjs/react.dev) | 11733 | 2026-04-09T15:35:10Z | JavaScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
 | [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [stylelint/stylelint](https://github.com/stylelint/stylelint) | 11452 | 2026-05-01T07:09:29Z | JavaScript | Infrastructure/tooling | 10 | 85 | 10 | 10 |
-| [debug-js/debug](https://github.com/debug-js/debug) | 11442 | 2026-04-01T12:03:30Z | JavaScript | Web app | 6 | 12 | 6 | 6 |
 | [acornjs/acorn](https://github.com/acornjs/acorn) | 11376 | 2026-04-30T21:08:48Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
-| [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11342 | 2026-04-01T18:13:06Z | JavaScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
 | [facebook/hermes](https://github.com/facebook/hermes) | 11013 | 2026-04-30T05:48:18Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) | 10734 | 2026-04-17T14:36:42Z | JavaScript | Infrastructure/tooling | 2 | 37 | 2 | 2 |
 | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10669 | 2026-04-13T16:14:45Z | JavaScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [protobufjs/protobuf.js](https://github.com/protobufjs/protobuf.js) | 10521 | 2026-04-24T06:50:48Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [easydiffusion/easydiffusion](https://github.com/easydiffusion/easydiffusion) | 10351 | 2026-04-30T05:33:50Z | JavaScript | CLI | 3 | 1 | 3 | 3 |
+| [addyosmani/critical](https://github.com/addyosmani/critical) | 10180 | 2026-05-02T00:58:33Z | JavaScript | Infrastructure/tooling | 7 | 52 | 7 | 7 |
+| [faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js) | 10116 | 2026-05-02T05:44:24Z | JavaScript | CLI | 15 | 32 | 15 | 15 |

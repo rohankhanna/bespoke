@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 59
-- terms: 156
+- repos: 58
+- terms: 149
 - components: 225
-- concepts: 158
-- observations: 161
+- concepts: 151
+- observations: 154
 
 ## Static behavior
 
@@ -84,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EricLBuehler/candle](https://github.com/EricLBuehler/candle) | 19 | 2025-12-04T19:14:24Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [cosmos/ibc-proto-rs](https://github.com/cosmos/ibc-proto-rs) | 63 | 2025-12-04T10:54:56Z | Rust | CLI | 6 | 12 | 6 | 7 |
 | [microsoft/LinuxTracepoints-Rust](https://github.com/microsoft/LinuxTracepoints-Rust) | 17 | 2025-12-03T21:05:57Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [catch-twenty-two/rust-ssd](https://github.com/catch-twenty-two/rust-ssd) | 13 | 2025-12-02T18:59:15Z | Rust | Framework | 7 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -142,7 +141,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sigp/ethereum_hashing](https://github.com/sigp/ethereum_hashing) | 14 | 2026-02-19T01:02:00Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [jakudlaty/tsid](https://github.com/jakudlaty/tsid) | 13 | 2026-02-08T17:42:59Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [spacemeshos/post-rs](https://github.com/spacemeshos/post-rs) | 13 | 2025-12-15T18:14:43Z | Rust | Infrastructure/tooling | 2 | 14 | 2 | 2 |
-| [catch-twenty-two/rust-ssd](https://github.com/catch-twenty-two/rust-ssd) | 13 | 2025-12-02T18:59:15Z | Rust | Framework | 7 | 0 | 7 | 7 |
 | [loyd/fixnum](https://github.com/loyd/fixnum) | 12 | 2026-02-03T12:49:56Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [datafusion-contrib/hdfs-native-object-store](https://github.com/datafusion-contrib/hdfs-native-object-store) | 12 | 2025-12-24T05:29:40Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [jonas-k/coremidi-sys](https://github.com/jonas-k/coremidi-sys) | 10 | 2026-02-13T23:34:42Z | Rust | Unknown | 0 | 0 | 0 | 0 |

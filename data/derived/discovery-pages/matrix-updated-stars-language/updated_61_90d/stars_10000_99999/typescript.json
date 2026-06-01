@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 7,
-    "terms": 44
+    "components": 170,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 6,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
-    "floating-ui/floating-ui",
     "GoogleChromeLabs/squoosh",
     "humanlayer/humanlayer",
     "logaretm/vee-validate",

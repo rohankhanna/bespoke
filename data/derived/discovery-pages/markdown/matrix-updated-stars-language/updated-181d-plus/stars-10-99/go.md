@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 171
-- terms: 453
+- repos: 172
+- terms: 456
 - components: 433
-- concepts: 457
-- observations: 460
+- concepts: 460
+- observations: 463
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [theplant/htmlgo](https://github.com/theplant/htmlgo) | 60 | 2025-12-02T09:48:03Z | Go | Service/API | 3 | 0 | 3 | 3 |
 | [panmari/cuckoofilter](https://github.com/panmari/cuckoofilter) | 48 | 2025-12-02T01:25:53Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [objectbox/objectbox-generator](https://github.com/objectbox/objectbox-generator) | 40 | 2025-11-28T15:26:33Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [vmware/pmd-next-gen](https://github.com/vmware/pmd-next-gen) | 10 | 2025-11-24T17:21:10Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -246,6 +247,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ysmood/goob](https://github.com/ysmood/goob) | 62 | 2022-04-09T04:52:52Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [itchyny/gojo](https://github.com/itchyny/gojo) | 61 | 2025-06-21T12:34:04Z | Go | CLI | 3 | 5 | 4 | 4 |
 | [Dunamis4tw/generate-geoip-geosite](https://github.com/Dunamis4tw/generate-geoip-geosite) | 61 | 2024-03-02T16:48:48Z | Go | Unknown | 8 | 0 | 8 | 8 |
+| [theplant/htmlgo](https://github.com/theplant/htmlgo) | 60 | 2025-12-02T09:48:03Z | Go | Service/API | 3 | 0 | 3 | 3 |
 | [maoueh/zap-pretty](https://github.com/maoueh/zap-pretty) | 59 | 2025-07-17T15:55:57Z | Go | CLI | 2 | 3 | 2 | 2 |
 | [ipfs/fs-repo-migrations](https://github.com/ipfs/fs-repo-migrations) | 59 | 2025-05-10T08:33:17Z | Go | CLI | 3 | 4 | 3 | 3 |
 | [chi-cat/frps-auth](https://github.com/chi-cat/frps-auth) | 58 | 2022-10-23T11:14:19Z | Go | Unknown | 0 | 0 | 0 | 0 |

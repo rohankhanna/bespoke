@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 199,
-    "observations": 199,
-    "repos": 38,
-    "terms": 199
+    "components": 228,
+    "concepts": 191,
+    "observations": 191,
+    "repos": 39,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "anacrolix/dht",
-    "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
@@ -27,14 +26,16 @@
     "cloudwego/kitex-examples",
     "docker-library/bashbrew",
     "erigontech/interfaces",
+    "ethereum-optimism/superchain-registry",
     "GFW-knocker/Xray-core",
     "go-chi/docgen",
     "go-gl/glow",
+    "google/triage-party",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
+    "hashicorp/hello-vault-go",
     "hashicorp/raft-boltdb",
-    "hebcal/hebcal",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
     "kubernetes-sigs/cluster-proportional-autoscaler",

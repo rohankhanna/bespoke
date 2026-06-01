@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 730,
-    "concepts": 603,
-    "observations": 610,
-    "repos": 182,
-    "terms": 595
+    "components": 735,
+    "concepts": 612,
+    "observations": 620,
+    "repos": 183,
+    "terms": 604
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -122,6 +122,7 @@
     "lerouxrgd/datachannel-rs",
     "lnx-search/rewrk",
     "lpghatguy/aftman",
+    "Lutetium-Vanadium/requestty",
     "maralla/pack",
     "markdown-it-rust/markdown-it",
     "Marwes/pretty.rs",

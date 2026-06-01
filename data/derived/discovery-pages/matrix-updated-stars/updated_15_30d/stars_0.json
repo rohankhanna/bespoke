@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 118,
+    "components": 76,
     "concepts": 23,
     "observations": 23,
-    "repos": 15,
+    "repos": 14,
     "terms": 23
   },
   "facet_version": 1,
@@ -11,11 +11,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
-    "angular/angular-build-builds",
     "atsushieno/aap-lv2-string-machine",
     "clearml/clearml-agent-bootstrap",
     "danielrosehill/Claude-Agent-Relay-Plugin",

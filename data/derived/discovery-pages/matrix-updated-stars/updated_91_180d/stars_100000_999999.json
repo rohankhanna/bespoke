@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 3,
-    "terms": 23
+    "components": 11,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "automatic1111/stable-diffusion-webui",
-    "d3/d3",
     "ytdl-org/youtube-dl"
   ]
 }

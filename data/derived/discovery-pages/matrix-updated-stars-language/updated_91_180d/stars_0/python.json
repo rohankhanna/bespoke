@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 15,
     "observations": 15,
-    "repos": 11,
+    "repos": 12,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
+    "ChiehHsinJesseLai/ctm-notebook",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/All-About-MCP",
     "danielrosehill/BTRFS-Snapper-MCP",

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 69
-- components: 84
-- concepts: 69
-- observations: 69
+- repos: 5
+- terms: 57
+- components: 59
+- concepts: 57
+- observations: 57
 
 ## Static behavior
 
@@ -31,8 +31,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50258 | 2026-05-29T11:27:47Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
 | [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14727 | 2026-05-29T06:46:32Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35404 | 2026-05-27T16:29:38Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
-| [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -42,6 +40,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 35404 | 2026-05-27T16:29:38Z | C/C++ | Infrastructure/tooling | 18 | 21 | 18 | 18 |
 | [argotorg/solidity](https://github.com/argotorg/solidity) | 25639 | 2026-05-29T15:42:10Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
 | [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24539 | 2026-05-29T19:13:28Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14727 | 2026-05-29T06:46:32Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |

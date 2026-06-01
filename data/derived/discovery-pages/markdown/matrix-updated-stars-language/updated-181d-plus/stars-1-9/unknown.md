@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 197
+- repos: 198
 - terms: 179
 - components: 138
 - concepts: 181
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [geopandas/governance](https://github.com/geopandas/governance) | 4 | 2025-11-27T17:18:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [funstory-ai/BabelDOC-Assets](https://github.com/funstory-ai/BabelDOC-Assets) | 3 | 2025-11-25T10:46:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -376,6 +377,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vega/logos](https://github.com/vega/logos) | 2 | 2021-08-14T13:38:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mhn226/espnet](https://github.com/mhn226/espnet) | 2 | 2021-08-09T10:50:00Z | Unknown | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [dotnet-foundation/wg-corporate-relations](https://github.com/dotnet-foundation/wg-corporate-relations) | 2 | 2021-07-29T12:27:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Ai-Workspace-Planning-Notes](https://github.com/danielrosehill/Ai-Workspace-Planning-Notes) | 1 | 2025-11-25T13:27:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/claude-code-plugin](https://github.com/danielrosehill/claude-code-plugin) | 1 | 2025-11-15T19:37:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bash-Aliases](https://github.com/danielrosehill/Claude-Code-Bash-Aliases) | 1 | 2025-11-09T16:29:44Z | Unknown | Unknown | 1 | 0 | 2 | 2 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 108
+- repos: 33
+- terms: 105
 - components: 110
-- concepts: 112
-- observations: 112
+- concepts: 109
+- observations: 109
 
 ## Static behavior
 
@@ -59,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudwego/netpoll-benchmark](https://github.com/cloudwego/netpoll-benchmark) | 45 | 2025-12-12T10:07:07Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [FiloSottile/hpke](https://github.com/FiloSottile/hpke) | 19 | 2025-12-08T00:07:14Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [lukacu/docker-frps](https://github.com/lukacu/docker-frps) | 24 | 2025-12-05T21:13:55Z | Go | Infrastructure/tooling | 1 | 0 | 1 | 1 |
-| [theplant/htmlgo](https://github.com/theplant/htmlgo) | 60 | 2025-12-02T09:48:03Z | Go | Service/API | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -68,7 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [extism/go-pdk](https://github.com/extism/go-pdk) | 89 | 2026-01-22T16:56:46Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [caltechlibrary/datatools](https://github.com/caltechlibrary/datatools) | 80 | 2026-02-19T22:58:57Z | Go | Infrastructure/tooling | 5 | 3 | 7 | 7 |
 | [ipfs/go-log](https://github.com/ipfs/go-log) | 62 | 2026-02-23T09:04:34Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [theplant/htmlgo](https://github.com/theplant/htmlgo) | 60 | 2025-12-02T09:48:03Z | Go | Service/API | 3 | 0 | 3 | 3 |
 | [concourse/pool-resource](https://github.com/concourse/pool-resource) | 59 | 2026-02-26T18:26:00Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [lesismal/nbio-examples](https://github.com/lesismal/nbio-examples) | 59 | 2026-01-04T04:41:44Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [zoom/karpenter-oci](https://github.com/zoom/karpenter-oci) | 49 | 2026-02-27T08:54:44Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |

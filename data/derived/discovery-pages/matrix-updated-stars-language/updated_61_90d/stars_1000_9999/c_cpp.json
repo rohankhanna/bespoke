@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 318,
+    "components": 209,
+    "concepts": 319,
     "observations": 319,
-    "repos": 60,
-    "terms": 313
+    "repos": 59,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -31,12 +31,10 @@
     "CVCUDA/CV-CUDA",
     "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
-    "eradman/entr",
     "go-gl/gl",
     "google/double-conversion",
     "google/snappy",
     "gperftools/gperftools",
-    "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "hku-mars/FAST-LIVO2",
     "hufrea/byedpi",
     "icecc/icecream",
@@ -55,6 +53,7 @@
     "nodemcu/nodemcu-firmware",
     "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
+    "olikraus/u8g2",
     "onnx/onnx-tensorrt",
     "Overv/VulkanTutorial",
     "pisa-engine/pisa",

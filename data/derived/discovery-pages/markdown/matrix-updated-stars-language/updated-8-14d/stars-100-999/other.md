@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 37
-- components: 31
-- concepts: 38
-- observations: 39
+- repos: 9
+- terms: 49
+- components: 49
+- concepts: 50
+- observations: 51
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
+| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 | [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 408 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [emacscollective/auto-compile](https://github.com/emacscollective/auto-compile) | 181 | 2026-05-21T11:48:13Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [google/protobuf.dart](https://github.com/google/protobuf.dart) | 571 | 2026-05-21T11:19:02Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -38,6 +40,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
+| [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [google/protobuf.dart](https://github.com/google/protobuf.dart) | 571 | 2026-05-21T11:19:02Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [openbsd/ports](https://github.com/openbsd/ports) | 558 | 2026-05-19T18:49:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 408 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 80
+- repos: 81
 - terms: 298
 - components: 251
 - concepts: 303
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [derickr/timelib](https://github.com/derickr/timelib) | 133 | 2026-03-02T18:19:04Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [mongodb-js/kerberos](https://github.com/mongodb-js/kerberos) | 177 | 2026-03-01T15:05:18Z | C/C++ | Infrastructure/tooling | 11 | 32 | 11 | 12 |
 | [ylsdamxssjxxdd/eva](https://github.com/ylsdamxssjxxdd/eva) | 176 | 2026-02-27T07:23:56Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [hhyyrylainen/GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) | 535 | 2026-02-27T07:02:57Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -177,6 +178,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pmwkaa/ioarena](https://github.com/pmwkaa/ioarena) | 139 | 2026-01-07T17:11:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Kong/ngx_wasm_module](https://github.com/Kong/ngx_wasm_module) | 137 | 2026-02-03T21:18:17Z | C/C++ | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [bnosac/audio.whisper](https://github.com/bnosac/audio.whisper) | 137 | 2026-01-07T22:32:00Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [derickr/timelib](https://github.com/derickr/timelib) | 133 | 2026-03-02T18:19:04Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [birkett/srvany-ng](https://github.com/birkett/srvany-ng) | 129 | 2025-12-11T21:02:52Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [appwrite/playground-for-flutter](https://github.com/appwrite/playground-for-flutter) | 127 | 2026-01-01T08:12:17Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |

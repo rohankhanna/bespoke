@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 104,
+    "components": 105,
     "concepts": 224,
     "observations": 224,
-    "repos": 87,
+    "repos": 88,
     "terms": 219
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -98,6 +98,7 @@
     "tuvovan/Zero_DCE_TF",
     "Vimjas/vim-testbed",
     "wchen342/android-rebuilds",
+    "WebAssembly/wasi-parallel",
     "xetdata/xet-tools",
     "yatsuki/v2ray",
     "Zepmann/lldap-cli"

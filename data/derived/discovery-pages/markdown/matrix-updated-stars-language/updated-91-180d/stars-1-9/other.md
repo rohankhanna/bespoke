@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Other
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 52
-- terms: 93
-- components: 204
-- concepts: 96
-- observations: 96
+- repos: 53
+- terms: 94
+- components: 209
+- concepts: 97
+- observations: 97
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hermit-os/hermit-gcc](https://github.com/hermit-os/hermit-gcc) | 3 | 2026-03-02T10:18:54Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [SWE-bench/SWE-smith-envs](https://github.com/SWE-bench/SWE-smith-envs) | 5 | 2026-03-02T04:49:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adobe/spectrum-tokens](https://github.com/adobe/spectrum-tokens) | 1 | 2026-03-01T19:52:13Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [open-rpc/markdown-gen](https://github.com/open-rpc/markdown-gen) | 2 | 2026-02-27T03:09:53Z | Other | Infrastructure/tooling | 5 | 26 | 7 | 7 |
@@ -111,6 +112,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elixir-makeup/makeup_erlang](https://github.com/elixir-makeup/makeup_erlang) | 4 | 2026-01-18T16:20:48Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ahrefs/opam-check-npm-deps](https://github.com/ahrefs/opam-check-npm-deps) | 4 | 2025-12-24T03:18:43Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [adamharrison/quetta](https://github.com/adamharrison/quetta) | 4 | 2025-12-06T21:25:14Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [hermit-os/hermit-gcc](https://github.com/hermit-os/hermit-gcc) | 3 | 2026-03-02T10:18:54Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [haya14busa/github-used-by](https://github.com/haya14busa/github-used-by) | 3 | 2026-02-08T07:33:49Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [volodya-lombrozo/neotest-ruby-minitest](https://github.com/volodya-lombrozo/neotest-ruby-minitest) | 3 | 2026-01-15T13:58:25Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [jgpc42/jmh-clojure-task](https://github.com/jgpc42/jmh-clojure-task) | 3 | 2026-01-10T20:20:51Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |

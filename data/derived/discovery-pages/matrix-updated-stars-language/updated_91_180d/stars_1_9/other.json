@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 52,
-    "terms": 93
+    "components": 209,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 53,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -34,6 +34,7 @@
     "hden/cuid",
     "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
+    "hermit-os/hermit-gcc",
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
     "ihmcrobotics/ihmc-build",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 1389
+- repos: 1390
 - terms: 1968
 - components: 5467
 - concepts: 1972
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [holochain/hc-launch](https://github.com/holochain/hc-launch) | 1 | 2025-12-01T18:59:43Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [mirage/coin](https://github.com/mirage/coin) | 2 | 2025-11-29T10:18:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [axiom-crypto/halo2curves](https://github.com/axiom-crypto/halo2curves) | 7 | 2025-11-28T20:08:04Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -2539,6 +2540,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kahgeh/ls-crates.nvim](https://github.com/kahgeh/ls-crates.nvim) | 2 | 2021-07-31T13:44:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet-foundation/wg-corporate-relations](https://github.com/dotnet-foundation/wg-corporate-relations) | 2 | 2021-07-29T12:27:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
+| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [holochain/hc-launch](https://github.com/holochain/hc-launch) | 1 | 2025-12-01T18:59:43Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [slunsford/coffee-analytics](https://github.com/slunsford/coffee-analytics) | 1 | 2025-11-27T01:50:12Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [datachainlab/lcp-solidity](https://github.com/datachainlab/lcp-solidity) | 1 | 2025-11-26T11:45:44Z | Other | Infrastructure/tooling | 1 | 12 | 1 | 1 |

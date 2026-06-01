@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 38,
-    "observations": 39,
-    "repos": 7,
-    "terms": 37
+    "components": 49,
+    "concepts": 50,
+    "observations": 51,
+    "repos": 9,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
+    "babashka/nbb",
     "dwyl/quotes",
     "emacscollective/auto-compile",
     "fsprojects/FSharp.Data.GraphQL",
     "google/protobuf.dart",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
-    "openbsd/ports"
+    "openbsd/ports",
+    "sbt/sbt-jmh"
   ]
 }

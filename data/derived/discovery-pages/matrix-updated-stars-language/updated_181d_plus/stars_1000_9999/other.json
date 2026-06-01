@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1282,
-    "concepts": 1563,
-    "observations": 1565,
-    "repos": 424,
-    "terms": 1552
+    "concepts": 1569,
+    "observations": 1571,
+    "repos": 425,
+    "terms": 1558
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -318,6 +318,7 @@
     "reworkcss/css",
     "rhysd/clever-f.vim",
     "rhysd/vim-clang-format",
+    "richfelker/musl-cross-make",
     "rinongal/textual_inversion",
     "rmcelreath/stat_rethinking_2022",
     "romeovs/creep",

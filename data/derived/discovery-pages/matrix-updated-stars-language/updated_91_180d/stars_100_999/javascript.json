@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 897,
-    "concepts": 144,
-    "observations": 145,
-    "repos": 50,
-    "terms": 144
+    "components": 870,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 49,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -33,6 +33,7 @@
     "gherghett/Antigravity-Shit-Chat",
     "kaorahi/lizgoban",
     "kategengler/ember-feature-flags",
+    "kepano/defuddle-cli",
     "latex-lsp/tree-sitter-latex",
     "lemire/FastPriorityQueue.js",
     "Level/awesome",
@@ -40,7 +41,6 @@
     "Mario4272/ag_bridge",
     "mathjax/MathJax-demos-node",
     "Meteor-Community-Packages/meteor-scss",
-    "microsoft/botbuilder-tools",
     "nodejs/abi-stable-node",
     "nodejs/citgm",
     "nodenv/jetbrains-npm",
@@ -58,7 +58,6 @@
     "sindresorhus/env-paths",
     "sindresorhus/multimatch",
     "stsquad/emacs_chrome",
-    "sveltejs/rollup-plugin-svelte",
     "svg-sprite/gulp-svg-sprite",
     "testing-library/eslint-plugin-jest-dom",
     "tonyganch/gonzales-pe",

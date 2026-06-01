@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 67
-- terms: 351
-- components: 211
-- concepts: 353
-- observations: 353
+- repos: 69
+- terms: 361
+- components: 213
+- concepts: 363
+- observations: 363
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [BirolLab/ntHash](https://github.com/BirolLab/ntHash) | 107 | 2026-04-02T03:19:15Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
+| [DavidKinder/Windows-Frotz](https://github.com/DavidKinder/Windows-Frotz) | 109 | 2026-04-01T19:40:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [osmcode/libosmium](https://github.com/osmcode/libosmium) | 540 | 2026-04-01T14:53:05Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ng-log/ng-log](https://github.com/ng-log/ng-log) | 103 | 2026-03-31T22:21:20Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [KhronosGroup/OpenCL-ICD-Loader](https://github.com/KhronosGroup/OpenCL-ICD-Loader) | 297 | 2026-03-31T19:36:43Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [dloebl/cgif](https://github.com/dloebl/cgif) | 146 | 2026-03-31T10:00:51Z | C/C++ | Infrastructure/tooling | 14 | 5 | 14 | 14 |
@@ -92,7 +95,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ARM-software/EndpointAI](https://github.com/ARM-software/EndpointAI) | 224 | 2026-03-04T16:54:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [lexxmark/winflexbison](https://github.com/lexxmark/winflexbison) | 472 | 2026-03-04T11:21:24Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [douglascrockford/JSMin](https://github.com/douglascrockford/JSMin) | 713 | 2026-03-03T18:10:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [derickr/timelib](https://github.com/derickr/timelib) | 133 | 2026-03-02T18:19:04Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -123,6 +125,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition](https://github.com/PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition) | 574 | 2026-03-29T11:35:07Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [webgpu-native/webgpu-headers](https://github.com/webgpu-native/webgpu-headers) | 556 | 2026-03-31T08:13:55Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [Slamtec/rplidar_sdk](https://github.com/Slamtec/rplidar_sdk) | 548 | 2026-03-17T04:22:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [osmcode/libosmium](https://github.com/osmcode/libosmium) | 540 | 2026-04-01T14:53:05Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [amzn/amzn-drivers](https://github.com/amzn/amzn-drivers) | 509 | 2026-03-31T05:54:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [haxenme/nme](https://github.com/haxenme/nme) | 496 | 2026-03-27T14:49:39Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -161,7 +164,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dloebl/cgif](https://github.com/dloebl/cgif) | 146 | 2026-03-31T10:00:51Z | C/C++ | Infrastructure/tooling | 14 | 5 | 14 | 14 |
 | [freebsd/atf](https://github.com/freebsd/atf) | 145 | 2026-03-10T21:09:03Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [eclipse-cyclonedds/cyclonedds-cxx](https://github.com/eclipse-cyclonedds/cyclonedds-cxx) | 138 | 2026-03-23T11:50:47Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [derickr/timelib](https://github.com/derickr/timelib) | 133 | 2026-03-02T18:19:04Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [DavidKinder/Windows-Frotz](https://github.com/DavidKinder/Windows-Frotz) | 109 | 2026-04-01T19:40:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [BirolLab/ntHash](https://github.com/BirolLab/ntHash) | 107 | 2026-04-02T03:19:15Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [stardot/beebasm](https://github.com/stardot/beebasm) | 106 | 2026-03-12T18:42:09Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [anacrolix/go-libutp](https://github.com/anacrolix/go-libutp) | 104 | 2026-03-21T12:03:05Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [ng-log/ng-log](https://github.com/ng-log/ng-log) | 103 | 2026-03-31T22:21:20Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |

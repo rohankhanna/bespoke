@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 117
-- terms: 509
-- components: 824
-- concepts: 495
-- observations: 497
+- repos: 120
+- terms: 538
+- components: 856
+- concepts: 524
+- observations: 526
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [heroku/buildpacks-python](https://github.com/heroku/buildpacks-python) | 33 | 2026-05-01T23:03:08Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [heroku/buildpacks-jvm](https://github.com/heroku/buildpacks-jvm) | 12 | 2026-05-01T11:34:29Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
+| [heroku/buildpacks-nodejs](https://github.com/heroku/buildpacks-nodejs) | 28 | 2026-05-01T10:36:24Z | Rust | Infrastructure/tooling | 9 | 9 | 9 | 9 |
+| [mdn/rari](https://github.com/mdn/rari) | 47 | 2026-05-01T10:17:32Z | Rust | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [heroku/libcnb.rs](https://github.com/heroku/libcnb.rs) | 47 | 2026-05-01T03:44:22Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [unrs/unrs-resolver](https://github.com/unrs/unrs-resolver) | 76 | 2026-05-01T01:17:31Z | Rust | Infrastructure/tooling | 9 | 27 | 9 | 9 |
 | [Ralith/lahar](https://github.com/Ralith/lahar) | 40 | 2026-04-30T23:41:34Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -142,7 +146,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Calsign/gazelle_rust](https://github.com/Calsign/gazelle_rust) | 47 | 2026-04-05T01:03:52Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [Kimahriman/hdfs-native](https://github.com/Kimahriman/hdfs-native) | 73 | 2026-04-04T21:20:04Z | Rust | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [datafusion-contrib/datafusion-orc](https://github.com/datafusion-contrib/datafusion-orc) | 45 | 2026-04-03T03:45:51Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
-| [neysofu/reltester](https://github.com/neysofu/reltester) | 20 | 2026-04-01T14:24:34Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -197,6 +200,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quininer/x11-clipboard](https://github.com/quininer/x11-clipboard) | 51 | 2026-04-14T14:17:34Z | Rust | CLI | 2 | 1 | 2 | 2 |
 | [holochain/holochain-serialization](https://github.com/holochain/holochain-serialization) | 50 | 2026-04-22T17:27:26Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [mdn/rari](https://github.com/mdn/rari) | 47 | 2026-05-01T10:17:32Z | Rust | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [heroku/libcnb.rs](https://github.com/heroku/libcnb.rs) | 47 | 2026-05-01T03:44:22Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [asny/three-d-asset](https://github.com/asny/three-d-asset) | 47 | 2026-04-29T13:00:37Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [foundry-rs/foundry-fork-db](https://github.com/foundry-rs/foundry-fork-db) | 47 | 2026-04-20T09:41:05Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
@@ -217,12 +221,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ankane/iceberg-ruby](https://github.com/ankane/iceberg-ruby) | 36 | 2026-04-24T09:14:53Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ankane/delta-ruby](https://github.com/ankane/delta-ruby) | 34 | 2026-04-24T09:44:05Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [google/safe-mmio](https://github.com/google/safe-mmio) | 34 | 2026-04-07T10:42:49Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 5 |
+| [heroku/buildpacks-python](https://github.com/heroku/buildpacks-python) | 33 | 2026-05-01T23:03:08Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [64bit/commandOK](https://github.com/64bit/commandOK) | 32 | 2026-04-19T22:50:21Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [ldclabs/ic-oss](https://github.com/ldclabs/ic-oss) | 32 | 2026-04-15T11:45:47Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [adumbidiot/lz-str-rs](https://github.com/adumbidiot/lz-str-rs) | 31 | 2026-04-14T03:38:22Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [ashvardanian/NumWars](https://github.com/ashvardanian/NumWars) | 31 | 2026-04-09T11:37:17Z | Rust | Unknown | 7 | 0 | 7 | 7 |
 | [tracel-ai/burn-bench](https://github.com/tracel-ai/burn-bench) | 30 | 2026-04-18T01:30:34Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [datafusion-contrib/orc-rust](https://github.com/datafusion-contrib/orc-rust) | 29 | 2026-04-29T04:38:52Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
+| [heroku/buildpacks-nodejs](https://github.com/heroku/buildpacks-nodejs) | 28 | 2026-05-01T10:36:24Z | Rust | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [ldclabs/anda-db](https://github.com/ldclabs/anda-db) | 28 | 2026-04-29T23:38:48Z | Rust | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [kylebarron/arrow-wasm](https://github.com/kylebarron/arrow-wasm) | 28 | 2026-04-06T13:43:39Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 5 |
 | [mrcjkb/vimcats](https://github.com/mrcjkb/vimcats) | 27 | 2026-04-26T00:18:25Z | Rust | CLI | 8 | 9 | 8 | 8 |
@@ -242,7 +248,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oxc-project/oxc-sourcemap](https://github.com/oxc-project/oxc-sourcemap) | 20 | 2026-04-29T05:03:59Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [janrueth/boring-rustls-provider](https://github.com/janrueth/boring-rustls-provider) | 20 | 2026-04-21T11:25:08Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [phiat/claude-esp-rs](https://github.com/phiat/claude-esp-rs) | 20 | 2026-04-17T23:00:46Z | Rust | CLI | 2 | 5 | 2 | 2 |
-| [neysofu/reltester](https://github.com/neysofu/reltester) | 20 | 2026-04-01T14:24:34Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [launchdarkly/rust-server-sdk](https://github.com/launchdarkly/rust-server-sdk) | 18 | 2026-04-28T14:19:51Z | Rust | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [ldclabs/ic-tee](https://github.com/ldclabs/ic-tee) | 18 | 2026-04-15T11:53:17Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [succinctlabs/sp1-cluster](https://github.com/succinctlabs/sp1-cluster) | 17 | 2026-04-29T06:06:48Z | Rust | Infrastructure/tooling | 6 | 13 | 6 | 6 |
@@ -261,6 +266,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astral-sh/pubgrub](https://github.com/astral-sh/pubgrub) | 13 | 2026-04-28T00:24:40Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [heroku/buildpacks-dotnet](https://github.com/heroku/buildpacks-dotnet) | 13 | 2026-04-27T12:26:52Z | Rust | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [typst/typst-assets](https://github.com/typst/typst-assets) | 13 | 2026-04-27T08:00:35Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [heroku/buildpacks-jvm](https://github.com/heroku/buildpacks-jvm) | 12 | 2026-05-01T11:34:29Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [major7apps/pensyve](https://github.com/major7apps/pensyve) | 12 | 2026-04-20T15:16:51Z | Rust | Infrastructure/tooling | 17 | 18 | 17 | 17 |
 | [hpkewg/hpke-pq](https://github.com/hpkewg/hpke-pq) | 11 | 2026-04-17T12:41:35Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [Sovereign-Labs/rollup-starter](https://github.com/Sovereign-Labs/rollup-starter) | 10 | 2026-04-22T09:09:12Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |

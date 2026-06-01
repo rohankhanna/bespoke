@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 14
-- components: 34
-- concepts: 14
-- observations: 15
+- repos: 4
+- terms: 7
+- components: 29
+- concepts: 7
+- observations: 8
 
 ## Static behavior
 
@@ -30,8 +30,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Saalvage/assimp](https://github.com/Saalvage/assimp) | 0 | 2026-03-19T16:01:11Z | C/C++ | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [glennhickey/red](https://github.com/glennhickey/red) | 0 | 2026-03-12T13:52:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [usdot-fhwa-stol/carma-ns3-adapter](https://github.com/usdot-fhwa-stol/carma-ns3-adapter) | 0 | 2026-03-10T16:28:52Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [DiligentGraphics/args](https://github.com/DiligentGraphics/args) | 0 | 2026-03-03T02:10:41Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [yoshoku/numo-liblinear](https://github.com/yoshoku/numo-liblinear) | 0 | 2026-03-02T14:04:56Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -41,5 +39,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Saalvage/assimp](https://github.com/Saalvage/assimp) | 0 | 2026-03-19T16:01:11Z | C/C++ | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [glennhickey/red](https://github.com/glennhickey/red) | 0 | 2026-03-12T13:52:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [usdot-fhwa-stol/carma-ns3-adapter](https://github.com/usdot-fhwa-stol/carma-ns3-adapter) | 0 | 2026-03-10T16:28:52Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [DiligentGraphics/args](https://github.com/DiligentGraphics/args) | 0 | 2026-03-03T02:10:41Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [yoshoku/numo-liblinear](https://github.com/yoshoku/numo-liblinear) | 0 | 2026-03-02T14:04:56Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |

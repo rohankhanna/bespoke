@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 958,
-    "concepts": 588,
-    "observations": 591,
-    "repos": 93,
-    "terms": 586
+    "components": 1025,
+    "concepts": 617,
+    "observations": 622,
+    "repos": 96,
+    "terms": 615
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -41,6 +41,7 @@
     "ekzhang/bore",
     "existentialaudio/blackhole",
     "ffmpegwasm/ffmpeg.wasm",
+    "floating-ui/floating-ui",
     "folke/lazy.nvim",
     "FortAwesome/Font-Awesome",
     "forwardemail/superagent",
@@ -61,6 +62,7 @@
     "jsvine/pdfplumber",
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
+    "KlingAIResearch/LivePortrait",
     "kyleneideck/backgroundmusic",
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",
@@ -93,6 +95,7 @@
     "spf13/viper",
     "Stability-AI/generative-models",
     "streamich/react-use",
+    "TabbyML/tabby",
     "tachyons-css/tachyons",
     "toml-lang/toml",
     "tqdm/tqdm",

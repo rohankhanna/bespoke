@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 13,
-    "observations": 14,
-    "repos": 11,
-    "terms": 13
+    "components": 45,
+    "concepts": 14,
+    "observations": 15,
+    "repos": 13,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
@@ -21,9 +21,11 @@
     "EspressoSystems/commit",
     "firstbatchxyz/dkn-protocol",
     "hermit-os/async-executor",
+    "hermit-os/safe-mmio",
     "iambriccardo/gcp-bigquery-client",
     "onomojo/i18n-country-translations-rs",
     "onomojo/i18n-timezones-rs",
+    "Sovereign-Labs/reltester",
     "vaporif/rvx"
   ]
 }

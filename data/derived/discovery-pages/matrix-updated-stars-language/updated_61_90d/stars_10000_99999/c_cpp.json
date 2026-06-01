@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 12,
-    "terms": 83
+    "components": 85,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 14,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
     "bol-van/zapret",
     "cloudwu/skynet",
     "esp8266/Arduino",
+    "facebook/zstd",
     "glfw/glfw",
     "google/googletest",
     "google/leveldb",
     "jart/cosmopolitan",
+    "libevent/libevent",
     "libgit2/libgit2",
     "microsoft/AirSim",
     "mobile-shell/mosh"

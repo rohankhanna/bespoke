@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 213
-- terms: 778
-- components: 357
-- concepts: 787
-- observations: 787
+- repos: 214
+- terms: 781
+- components: 359
+- concepts: 790
+- observations: 790
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rurban/smhasher](https://github.com/rurban/smhasher) | 2145 | 2025-12-02T15:07:18Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [MaskRay/ccls](https://github.com/MaskRay/ccls) | 4051 | 2025-11-30T05:53:43Z | C/C++ | Service/API | 2 | 0 | 2 | 2 |
 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 1835 | 2025-11-28T15:47:16Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) | 7886 | 2025-11-28T00:14:11Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -341,6 +342,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [id-Software/quake2-rerelease-dll](https://github.com/id-Software/quake2-rerelease-dll) | 2203 | 2023-10-03T18:43:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2195 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [GPUOpen-Effects/FidelityFX-FSR](https://github.com/GPUOpen-Effects/FidelityFX-FSR) | 2161 | 2022-05-22T20:25:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [rurban/smhasher](https://github.com/rurban/smhasher) | 2145 | 2025-12-02T15:07:18Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [baidu/sofa-pbrpc](https://github.com/baidu/sofa-pbrpc) | 2144 | 2023-08-24T08:55:55Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet) | 2141 | 2024-01-09T01:47:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [xinntao/Real-ESRGAN-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan) | 2076 | 2024-05-10T11:34:40Z | C/C++ | Infrastructure/tooling | 12 | 6 | 12 | 12 |

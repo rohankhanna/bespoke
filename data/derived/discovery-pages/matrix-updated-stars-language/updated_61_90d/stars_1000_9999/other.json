@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 426,
-    "concepts": 536,
-    "observations": 539,
-    "repos": 94,
-    "terms": 536
+    "components": 491,
+    "concepts": 586,
+    "observations": 589,
+    "repos": 101,
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
+    "abarichello/godot-ci",
     "activerecord-hackery/ransack",
     "alexreisner/geocoder",
+    "ankane/ahoy_email",
     "ankane/chartkick",
     "ardalis/ApiEndpoints",
     "athityakumar/colorls",
@@ -60,9 +62,12 @@
     "gpu-mode/Triton-Puzzles",
     "gpuweb/gpuweb",
     "grangier/python-goose",
+    "haleclipse/claudix",
     "heartcombo/has_scope",
+    "hercules-ci/flake-parts",
     "hrsh7th/nvim-cmp",
     "Intellindust-AI-Lab/DEIMv2",
+    "j-hui/fidget.nvim",
     "jgm/djot",
     "jpanther/congo",
     "kepano/obsidian-minimal",
@@ -70,6 +75,7 @@
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
+    "manzaltu/claude-code-ide.el",
     "metosin/reitit",
     "mhinz/vim-signify",
     "michalmuskala/jason",
@@ -99,14 +105,15 @@
     "sds/overcommit",
     "slim-template/slim",
     "steipete/peekaboo",
+    "stevearc/overseer.nvim",
     "tensorflow/tpu",
     "timdorr/tesla-api",
     "varvet/pundit",
     "vcr/vcr",
-    "vkhorikov/CSharpFunctionalExtensions",
     "WebReflection/linkedom",
     "whitequark/parser",
     "z-x-yang/Segment-and-Track-Anything",
-    "zarazhangrui/codebase-to-course"
+    "zarazhangrui/codebase-to-course",
+    "zjunlp/EasyEdit"
   ]
 }

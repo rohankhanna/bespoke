@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 228,
-    "observations": 228,
-    "repos": 49,
-    "terms": 220
+    "components": 269,
+    "concepts": 255,
+    "observations": 255,
+    "repos": 54,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "atotto/clipboard",
+    "azure/aztfexport",
     "bazelbuild/buildtools",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
@@ -28,6 +29,7 @@
     "coocood/freecache",
     "cortesi/devd",
     "darccio/mergo",
+    "davidbyttow/govips",
     "ddworken/hishtory",
     "dghubble/sling",
     "dop251/goja",
@@ -37,12 +39,14 @@
     "golang/oauth2",
     "google/go-cmp",
     "google/go-jsonnet",
+    "google/pprof",
     "google/starlark-go",
     "hashicorp/go-metrics",
     "hashicorp/go-version",
+    "hashicorp/hcl",
     "hashicorp/memberlist",
     "hashicorp/yamux",
-    "JohannesKaufmann/html-to-markdown",
+    "itchyny/gojq",
     "kubernetes-sigs/krew",
     "mailru/easyjson",
     "mattn/efm-langserver",
@@ -55,6 +59,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "refraction-networking/utls",
     "rest-sh/restish",
+    "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "spf13/pflag",
     "stripe/stripe-mock",

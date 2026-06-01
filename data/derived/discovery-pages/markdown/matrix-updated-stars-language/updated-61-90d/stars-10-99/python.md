@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 180
-- components: 243
-- concepts: 183
-- observations: 183
+- repos: 58
+- terms: 188
+- components: 247
+- concepts: 191
+- observations: 191
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Azure-Samples/azureai-travel-agent-python](https://github.com/Azure-Samples/azureai-travel-agent-python) | 31 | 2026-04-02T05:10:06Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [w1ndys/ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | 30 | 2026-04-01T16:04:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [networkx/nx-parallel](https://github.com/networkx/nx-parallel) | 67 | 2026-04-01T03:19:25Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [yaph/tts-samples](https://github.com/yaph/tts-samples) | 89 | 2026-03-31T22:04:08Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [KratosMultiphysics/Examples](https://github.com/KratosMultiphysics/Examples) | 54 | 2026-03-31T08:55:29Z | Python | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -122,6 +124,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [all-the-noises/eval-arena](https://github.com/all-the-noises/eval-arena) | 34 | 2026-03-21T22:09:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [databrickslabs/pylint-plugin](https://github.com/databrickslabs/pylint-plugin) | 32 | 2026-03-27T07:14:00Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [ai4colonoscopy/PraNet-V2](https://github.com/ai4colonoscopy/PraNet-V2) | 32 | 2026-03-21T04:04:02Z | Python | Framework | 8 | 0 | 8 | 8 |
+| [Azure-Samples/azureai-travel-agent-python](https://github.com/Azure-Samples/azureai-travel-agent-python) | 31 | 2026-04-02T05:10:06Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [w1ndys/ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | 30 | 2026-04-01T16:04:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [iterate-ch/docs](https://github.com/iterate-ch/docs) | 30 | 2026-03-25T16:12:02Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [clearml/clearml-session](https://github.com/clearml/clearml-session) | 30 | 2026-03-12T14:25:26Z | Python | CLI | 5 | 0 | 5 | 5 |
 | [VisionXLab/Rise-Video](https://github.com/VisionXLab/Rise-Video) | 28 | 2026-03-26T08:38:05Z | Python | Unknown | 0 | 0 | 0 | 0 |

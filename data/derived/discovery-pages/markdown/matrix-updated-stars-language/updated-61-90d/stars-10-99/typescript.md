@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 86
-- components: 488
-- concepts: 86
-- observations: 86
+- repos: 25
+- terms: 80
+- components: 471
+- concepts: 80
+- observations: 80
 
 ## Static behavior
 
@@ -51,7 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trzsz/tabby-trzsz](https://github.com/trzsz/tabby-trzsz) | 29 | 2026-03-06T17:54:06Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [SchwarzIT/api-linter-rules](https://github.com/SchwarzIT/api-linter-rules) | 29 | 2026-03-05T10:21:59Z | TypeScript | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [googleapis/nodejs-error-reporting](https://github.com/googleapis/nodejs-error-reporting) | 89 | 2026-03-05T00:06:38Z | TypeScript | CLI | 3 | 35 | 3 | 3 |
-| [ClickHouse/opentelemetry-demo](https://github.com/ClickHouse/opentelemetry-demo) | 16 | 2026-03-02T15:05:23Z | TypeScript | CLI | 6 | 17 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -78,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aiden0z/pptx-renderer](https://github.com/aiden0z/pptx-renderer) | 18 | 2026-03-09T07:26:40Z | TypeScript | Infrastructure/tooling | 7 | 32 | 7 | 7 |
 | [nanostores/alpine](https://github.com/nanostores/alpine) | 17 | 2026-03-23T11:28:45Z | TypeScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [googleapis/google-cloud-node-core](https://github.com/googleapis/google-cloud-node-core) | 16 | 2026-03-19T17:28:24Z | TypeScript | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [ClickHouse/opentelemetry-demo](https://github.com/ClickHouse/opentelemetry-demo) | 16 | 2026-03-02T15:05:23Z | TypeScript | CLI | 6 | 17 | 6 | 6 |
 | [Shougo/ddu-filter-matcher_substring](https://github.com/Shougo/ddu-filter-matcher_substring) | 14 | 2026-03-14T06:10:23Z | TypeScript | Unknown | 2 | 0 | 2 | 2 |
 | [holochain/kangaroo-electron](https://github.com/holochain/kangaroo-electron) | 13 | 2026-03-30T13:41:04Z | TypeScript | Infrastructure/tooling | 3 | 41 | 3 | 3 |
 | [privatenumber/is-fs-case-sensitive](https://github.com/privatenumber/is-fs-case-sensitive) | 11 | 2026-03-29T19:20:38Z | TypeScript | Infrastructure/tooling | 5 | 12 | 5 | 5 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 36
-- terms: 95
-- components: 159
-- concepts: 95
-- observations: 95
+- terms: 92
+- components: 152
+- concepts: 92
+- observations: 92
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [exoscale/karpenter-provider-exoscale](https://github.com/exoscale/karpenter-provider-exoscale) | 3 | 2026-05-01T22:37:45Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [linode/karpenter-provider-linode](https://github.com/linode/karpenter-provider-linode) | 2 | 2026-04-30T15:36:05Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [Seedloaf/mc-router-discovery](https://github.com/Seedloaf/mc-router-discovery) | 3 | 2026-04-30T14:32:00Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [datachainlab/lcp-go](https://github.com/datachainlab/lcp-go) | 3 | 2026-04-30T06:03:12Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -61,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [5c077m4n/pikud-haoref-api-go](https://github.com/5c077m4n/pikud-haoref-api-go) | 1 | 2026-04-08T18:56:10Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [DataDog/trivy](https://github.com/DataDog/trivy) | 2 | 2026-04-07T22:13:45Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [abraxas-365/claudio-codex](https://github.com/Abraxas-365/claudio-codex) | 4 | 2026-04-07T00:44:14Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [ethpandaops/cbt](https://github.com/ethpandaops/cbt) | 1 | 2026-04-01T12:16:29Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -87,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [erikceballos/nano-banana-cli](https://github.com/erikceballos/nano-banana-cli) | 4 | 2026-04-19T11:53:09Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [abraxas-365/claudio-codex](https://github.com/Abraxas-365/claudio-codex) | 4 | 2026-04-07T00:44:14Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [exoscale/karpenter-provider-exoscale](https://github.com/exoscale/karpenter-provider-exoscale) | 3 | 2026-05-01T22:37:45Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [Seedloaf/mc-router-discovery](https://github.com/Seedloaf/mc-router-discovery) | 3 | 2026-04-30T14:32:00Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [datachainlab/lcp-go](https://github.com/datachainlab/lcp-go) | 3 | 2026-04-30T06:03:12Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | 3 | 2026-04-19T13:47:51Z | Go | CLI | 0 | 3 | 0 | 0 |
@@ -102,4 +103,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kitknox/tsshd](https://github.com/kitknox/tsshd) | 1 | 2026-04-16T15:31:10Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [cpu/wycheproof](https://github.com/cpu/wycheproof) | 1 | 2026-04-13T19:57:10Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [5c077m4n/pikud-haoref-api-go](https://github.com/5c077m4n/pikud-haoref-api-go) | 1 | 2026-04-08T18:56:10Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [ethpandaops/cbt](https://github.com/ethpandaops/cbt) | 1 | 2026-04-01T12:16:29Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 28
-- terms: 378
-- components: 305
-- concepts: 382
-- observations: 384
+- terms: 373
+- components: 298
+- concepts: 377
+- observations: 380
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35719 | 2026-05-30T08:06:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 14331 | 2026-05-30T07:10:51Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
 | [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42406 | 2026-05-30T06:29:30Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 | [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17271 | 2026-05-29T22:03:07Z | Python | Infrastructure/tooling | 16 | 18 | 16 | 16 |
@@ -53,7 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [unifyai/ivy](https://github.com/unifyai/ivy) | 14182 | 2026-05-27T08:28:41Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 10 |
 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 71701 | 2026-05-26T15:49:21Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
 | [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 34233 | 2026-05-25T19:00:26Z | Python | CLI | 20 | 21 | 20 | 20 |
-| [python-poetry/poetry](https://github.com/python-poetry/poetry) | 34288 | 2026-05-24T15:43:42Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -67,7 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42406 | 2026-05-30T06:29:30Z | Python | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 | [psf/black](https://github.com/psf/black) | 41524 | 2026-05-29T12:02:21Z | Python | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36842 | 2026-05-27T22:21:38Z | Python | Infrastructure/tooling | 24 | 6 | 24 | 24 |
-| [python-poetry/poetry](https://github.com/python-poetry/poetry) | 34288 | 2026-05-24T15:43:42Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35719 | 2026-05-30T08:06:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
 | [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 34233 | 2026-05-25T19:00:26Z | Python | CLI | 20 | 21 | 20 | 20 |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31163 | 2026-05-28T10:44:06Z | Python | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27879 | 2026-05-29T16:58:13Z | Python | Infrastructure/tooling | 17 | 29 | 18 | 18 |

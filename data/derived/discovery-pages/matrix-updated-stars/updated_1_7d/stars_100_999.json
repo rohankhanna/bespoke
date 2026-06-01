@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 947,
-    "concepts": 506,
-    "observations": 506,
-    "repos": 77,
-    "terms": 505
+    "components": 916,
+    "concepts": 487,
+    "observations": 488,
+    "repos": 74,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -24,8 +24,8 @@
     "appelmar/gdalcubes",
     "aristoteleo/PantheonOS",
     "astroautomata/SymbolicRegression.jl",
+    "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint-visual-studio-code",
-    "babashka/nbb",
     "bazel-contrib/rules_kotlin",
     "beve-org/beve",
     "celtera/libremidi",
@@ -67,14 +67,12 @@
     "OpenHands/ToM-SWE",
     "preactjs/preact-devtools",
     "pypa/build",
-    "pyrtlsdr/pyrtlsdr",
     "readthedocs/commonmark.py",
     "redis/redis-om-dotnet",
     "redis/redis-om-spring",
     "ROCm/hipBLAS",
     "ROCm/hipBLASLt",
     "safe-fndn/safe-singleton-factory",
-    "sbt/sbt-jmh",
     "scverse/rapids-singlecell",
     "servo/stylo",
     "ShadowLoveElysia/AiNiee-Next",
@@ -88,7 +86,6 @@
     "tox-dev/filelock",
     "unplugin/unplugin-imagemin",
     "wevm/abitype",
-    "yaling888/quirktiva",
-    "zh-plus/openlrc"
+    "yaling888/quirktiva"
   ]
 }

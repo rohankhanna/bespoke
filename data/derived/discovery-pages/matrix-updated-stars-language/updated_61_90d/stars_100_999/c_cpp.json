@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 353,
-    "observations": 353,
-    "repos": 67,
-    "terms": 351
+    "components": 213,
+    "concepts": 363,
+    "observations": 363,
+    "repos": 69,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
@@ -22,12 +22,13 @@
     "arduino-libraries/Servo",
     "ARM-software/EndpointAI",
     "avaneev/r8brain-free-src",
+    "BirolLab/ntHash",
     "btzy/nativefiledialog-extended",
     "charlesnicholson/nanoprintf",
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
-    "derickr/timelib",
+    "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
     "douglascrockford/JSMin",
     "eclipse-cyclonedds/cyclonedds-cxx",
@@ -61,6 +62,7 @@
     "nhielost/obs-midi-mg",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
+    "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",
     "raysan5/raylib-games",

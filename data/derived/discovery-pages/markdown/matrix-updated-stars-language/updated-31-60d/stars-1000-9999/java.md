@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 85
-- terms: 831
-- components: 676
-- concepts: 834
-- observations: 836
+- repos: 87
+- terms: 853
+- components: 695
+- concepts: 856
+- observations: 858
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [sqlancer/sqlancer](https://github.com/sqlancer/sqlancer) | 1728 | 2026-05-02T05:46:49Z | Java | Infrastructure/tooling | 10 | 11 | 10 | 10 |
+| [apache/iceberg](https://github.com/apache/iceberg) | 8804 | 2026-05-02T00:35:05Z | Java | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [testng-team/testng](https://github.com/testng-team/testng) | 2049 | 2026-05-01T07:21:13Z | Java | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [JetBrains/JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime) | 1876 | 2026-05-01T06:15:56Z | Java | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [cloudfoundry/uaa](https://github.com/cloudfoundry/uaa) | 1633 | 2026-05-01T01:43:20Z | Java | Infrastructure/tooling | 17 | 9 | 17 | 17 |
@@ -121,6 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9292 | 2026-04-29T03:53:40Z | Java | Infrastructure/tooling | 20 | 20 | 20 | 20 |
 | [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle) | 8927 | 2026-04-30T01:38:45Z | Java | CLI | 13 | 11 | 13 | 13 |
 | [karatelabs/karate](https://github.com/karatelabs/karate) | 8846 | 2026-04-30T05:29:55Z | Java | Infrastructure/tooling | 21 | 10 | 21 | 21 |
+| [apache/iceberg](https://github.com/apache/iceberg) | 8804 | 2026-05-02T00:35:05Z | Java | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 8619 | 2026-04-29T12:44:33Z | Java | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [dropwizard/dropwizard](https://github.com/dropwizard/dropwizard) | 8584 | 2026-04-30T19:20:05Z | Java | Infrastructure/tooling | 19 | 13 | 19 | 19 |
 | [google/tsunami-security-scanner](https://github.com/google/tsunami-security-scanner) | 8568 | 2026-04-16T07:39:38Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -176,6 +179,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [spring-ai-alibaba/DataAgent](https://github.com/spring-ai-alibaba/DataAgent) | 1826 | 2026-04-22T05:13:12Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [besu-eth/besu](https://github.com/besu-eth/besu) | 1800 | 2026-04-23T23:40:06Z | Java | CLI | 12 | 13 | 12 | 12 |
 | [jline/jline3](https://github.com/jline/jline3) | 1763 | 2026-04-29T19:43:17Z | Java | CLI | 6 | 10 | 6 | 6 |
+| [sqlancer/sqlancer](https://github.com/sqlancer/sqlancer) | 1728 | 2026-05-02T05:46:49Z | Java | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [langchain4j/langchain4j-examples](https://github.com/langchain4j/langchain4j-examples) | 1679 | 2026-04-09T14:28:46Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cloudfoundry/uaa](https://github.com/cloudfoundry/uaa) | 1633 | 2026-05-01T01:43:20Z | Java | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [junit-team/junit-examples](https://github.com/junit-team/junit-examples) | 1619 | 2026-04-28T20:09:57Z | Java | Infrastructure/tooling | 4 | 7 | 4 | 4 |

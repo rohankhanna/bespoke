@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 10,
-    "terms": 13
+    "concepts": 10,
+    "observations": 10,
+    "repos": 9,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "android/ndk",
     "bbatsov/emacs-lisp-style-guide",
+    "behisecc/awesome-claude-skills",
     "devcontainers/spec",
-    "docker/for-mac",
-    "estree/estree",
     "FunnyWolf/Viper",
     "lxgw/LxgwWenKai-Screen",
     "microsoft/vscode-ai-toolkit",

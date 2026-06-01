@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 15
+- repos: 14
 - terms: 23
-- components: 118
+- components: 76
 - concepts: 23
 - observations: 23
 
@@ -39,7 +39,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -59,4 +58,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
 | [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |

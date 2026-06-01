@@ -1,25 +1,28 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 100,
-    "observations": 101,
-    "repos": 10,
-    "terms": 99
+    "components": 118,
+    "concepts": 121,
+    "observations": 122,
+    "repos": 13,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "567-labs/instructor",
+    "apache/brpc",
     "gitleaks/gitleaks",
+    "HIllya51/LunaTranslator",
     "isl-org/Open3D",
     "meta-llama/llama-cookbook",
     "oobabooga/textgen",
     "protocolbuffers/protobuf",
     "pyg-team/pytorch_geometric",
+    "python-poetry/poetry",
     "realworld-apps/realworld",
     "rust-lang/mdBook",
     "SubtitleEdit/subtitleedit"

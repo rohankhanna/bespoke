@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 54
-- terms: 233
-- components: 1154
-- concepts: 224
-- observations: 224
+- repos: 53
+- terms: 231
+- components: 1134
+- concepts: 222
+- observations: 222
 
 ## Static behavior
 
@@ -79,7 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaizhanov/openclaw-mengram](https://github.com/alibaizhanov/openclaw-mengram) | 5 | 2026-04-06T13:51:06Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
 | [octokit/openapi-webhooks](https://github.com/octokit/openapi-webhooks) | 5 | 2026-04-06T07:02:50Z | TypeScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [danielrosehill/GreenInvoice-MCP](https://github.com/danielrosehill/GreenInvoice-MCP) | 2 | 2026-04-03T10:56:40Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
-| [storybookjs/addon-jest](https://github.com/storybookjs/addon-jest) | 1 | 2026-04-01T12:26:26Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -138,4 +137,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dreamiurg/mountaineers-mcp](https://github.com/dreamiurg/mountaineers-mcp) | 1 | 2026-04-20T22:55:47Z | TypeScript | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [enxs969/skiller](https://github.com/Enxs969/skiller) | 1 | 2026-04-19T11:51:10Z | TypeScript | Unknown | 0 | 13 | 0 | 0 |
 | [neuroverseos/neuroverseos-governance](https://github.com/NeuroverseOS/Neuroverseos-governance) | 1 | 2026-04-18T22:21:38Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
-| [storybookjs/addon-jest](https://github.com/storybookjs/addon-jest) | 1 | 2026-04-01T12:26:26Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |

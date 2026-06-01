@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2088,
-    "concepts": 1957,
-    "observations": 1963,
-    "repos": 844,
-    "terms": 1945
+    "components": 2108,
+    "concepts": 1964,
+    "observations": 1970,
+    "repos": 848,
+    "terms": 1952
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -609,6 +609,7 @@
     "mortals-debuging/pytorch-docker",
     "mortepau/codicons.nvim",
     "moskomule/anatome",
+    "mosn/mosn.io",
     "mrc/tla-tools",
     "msasanmh/MsmhAgnosticServer",
     "msasanmh/SecureDNSClient",
@@ -682,6 +683,7 @@
     "psibi/dhall-mode",
     "ptsochantaris/trailer-cli",
     "pug-php/ci-pug-engine",
+    "pug-php/js-phpize",
     "purcell/inheritenv",
     "pysan3/pathlib.nvim",
     "qliu24/render-3d-segmentation",
@@ -716,6 +718,7 @@
     "robertgzr/homebrew-tap",
     "robinheghan/differ",
     "robotology/ycm-cmake-modules",
+    "rocker-org/binder",
     "roginfarrer/vim-dirvish-dovish",
     "Rohan2002/IFEval",
     "RollaProject/solidity-datetime",
@@ -849,6 +852,7 @@
     "xavierpuigf/virtualhome_unity",
     "xbdcc/CUtils",
     "xfthhxk/unminify",
+    "XR-Robotics/XRoboToolkit-Unity-Client",
     "xtensor-stack/Xtensor.jl",
     "Xuyuanp/vimrc",
     "yatsuki/v2manager",

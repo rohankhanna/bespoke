@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 191
-- terms: 753
-- components: 962
-- concepts: 738
-- observations: 740
+- repos: 194
+- terms: 755
+- components: 981
+- concepts: 740
+- observations: 742
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gentoo/api-gentoo-org](https://github.com/gentoo/api-gentoo-org) | 55 | 2026-05-02T05:14:53Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [arcaputo3/mcp-server-whisper](https://github.com/arcaputo3/mcp-server-whisper) | 52 | 2026-05-02T02:38:20Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [pytroll/donfig](https://github.com/pytroll/donfig) | 41 | 2026-05-02T01:38:33Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [scipy/scipy.org](https://github.com/scipy/scipy.org) | 76 | 2026-05-01T18:11:55Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [jfly/shtuff](https://github.com/jfly/shtuff) | 17 | 2026-05-01T08:51:55Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [qiayuanl/unitree_bringup](https://github.com/qiayuanl/unitree_bringup) | 18 | 2026-05-01T05:39:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [autowarefoundation/autoware_launch](https://github.com/autowarefoundation/autoware_launch) | 55 | 2026-05-01T05:16:07Z | Python | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client) | 67 | 2026-05-01T04:49:11Z | Python | CLI | 8 | 8 | 8 | 8 |
@@ -215,8 +220,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/vscode-azurecli](https://github.com/microsoft/vscode-azurecli) | 70 | 2026-04-02T18:01:18Z | Python | CLI | 0 | 10 | 0 | 0 |
 | [weaviate/agent-skills](https://github.com/weaviate/agent-skills) | 94 | 2026-04-02T13:30:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [BoosterRobotics/booster_train](https://github.com/BoosterRobotics/booster_train) | 40 | 2026-04-02T11:17:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Azure-Samples/azureai-travel-agent-python](https://github.com/Azure-Samples/azureai-travel-agent-python) | 31 | 2026-04-02T05:10:06Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
-| [w1ndys/ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | 30 | 2026-04-01T16:04:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -241,6 +244,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [autodeployai/pypmml](https://github.com/autodeployai/pypmml) | 81 | 2026-04-26T18:25:29Z | Python | Infrastructure/tooling | 4 | 3 | 6 | 6 |
 | [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [KyujinHan/Awesome-Training-Free-WAN2.1-Editing](https://github.com/KyujinHan/Awesome-Training-Free-WAN2.1-Editing) | 78 | 2026-04-06T03:09:22Z | Python | Unknown | 9 | 0 | 9 | 9 |
+| [scipy/scipy.org](https://github.com/scipy/scipy.org) | 76 | 2026-05-01T18:11:55Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [collinear-ai/yc-bench](https://github.com/collinear-ai/yc-bench) | 76 | 2026-04-05T03:21:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [enjoy-digital/litex-acorn-baseboard](https://github.com/enjoy-digital/litex-acorn-baseboard) | 74 | 2026-04-22T16:25:55Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [py-pdf/sample-files](https://github.com/py-pdf/sample-files) | 73 | 2026-04-30T11:33:21Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -280,6 +284,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pycompression/python-isal](https://github.com/pycompression/python-isal) | 57 | 2026-04-17T11:52:01Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [chaoss/grimoirelab-sortinghat](https://github.com/chaoss/grimoirelab-sortinghat) | 57 | 2026-04-15T18:50:36Z | Python | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [riponazad/echotracker](https://github.com/riponazad/echotracker) | 56 | 2026-04-13T14:11:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [gentoo/api-gentoo-org](https://github.com/gentoo/api-gentoo-org) | 55 | 2026-05-02T05:14:53Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [autowarefoundation/autoware_launch](https://github.com/autowarefoundation/autoware_launch) | 55 | 2026-05-01T05:16:07Z | Python | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [cloudfoundry/community](https://github.com/cloudfoundry/community) | 55 | 2026-04-28T16:27:57Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [castorini/umbrela](https://github.com/castorini/umbrela) | 55 | 2026-04-18T23:17:08Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -290,6 +295,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [amyreese/fissix](https://github.com/amyreese/fissix) | 54 | 2026-04-11T23:58:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [AIM-Harvard/DINOv2-3D-Med](https://github.com/AIM-Harvard/DINOv2-3D-Med) | 53 | 2026-04-24T22:39:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [beeware/briefcase-template](https://github.com/beeware/briefcase-template) | 53 | 2026-04-06T03:55:34Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [arcaputo3/mcp-server-whisper](https://github.com/arcaputo3/mcp-server-whisper) | 52 | 2026-05-02T02:38:20Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [AstraZeneca/runnable](https://github.com/AstraZeneca/runnable) | 52 | 2026-04-27T21:23:02Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [NixOS/branding](https://github.com/NixOS/branding) | 52 | 2026-04-13T22:47:27Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [MGenAI/GRN](https://github.com/MGenAI/GRN) | 51 | 2026-04-29T13:56:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -319,6 +325,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [iamsashank09/llm-wiki-kit](https://github.com/iamsashank09/llm-wiki-kit) | 43 | 2026-04-08T20:31:04Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [GreptimeTeam/demo-scene](https://github.com/GreptimeTeam/demo-scene) | 42 | 2026-04-24T15:57:46Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [HKU-BAL/Clair3-RNA](https://github.com/HKU-BAL/Clair3-RNA) | 42 | 2026-04-16T04:55:43Z | Python | Infrastructure/tooling | 8 | 0 | 8 | 8 |
+| [pytroll/donfig](https://github.com/pytroll/donfig) | 41 | 2026-05-02T01:38:33Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [executablebooks/mdit-py-plugins](https://github.com/executablebooks/mdit-py-plugins) | 41 | 2026-04-27T16:39:43Z | Python | Infrastructure/tooling | 3 | 4 | 5 | 5 |
 | [graalvm/oracle-graalvm-ea-builds](https://github.com/graalvm/oracle-graalvm-ea-builds) | 40 | 2026-04-29T12:41:32Z | Python | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [JuergenFleiss/atrain_core](https://github.com/JuergenFleiss/atrain_core) | 40 | 2026-04-09T13:28:02Z | Python | CLI | 0 | 0 | 0 | 0 |
@@ -344,10 +351,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/beaker-gantry](https://github.com/allenai/beaker-gantry) | 33 | 2026-04-08T23:42:22Z | Python | CLI | 5 | 6 | 5 | 5 |
 | [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | 31 | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [aiagenta2z/mcp-marketplace](https://github.com/aiagenta2z/mcp-marketplace) | 31 | 2026-04-10T08:39:46Z | Python | CLI | 3 | 0 | 3 | 3 |
-| [Azure-Samples/azureai-travel-agent-python](https://github.com/Azure-Samples/azureai-travel-agent-python) | 31 | 2026-04-02T05:10:06Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [pre-commit/sync-pre-commit-deps](https://github.com/pre-commit/sync-pre-commit-deps) | 30 | 2026-04-28T22:26:02Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [RWKV-Vibe/rwkv_lightning](https://github.com/RWKV-Vibe/rwkv_lightning) | 30 | 2026-04-16T13:13:28Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [w1ndys/ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | 30 | 2026-04-01T16:04:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [pipecat-ai/pipecat-cli](https://github.com/pipecat-ai/pipecat-cli) | 29 | 2026-04-29T13:30:51Z | Python | CLI | 4 | 6 | 4 | 4 |
 | [facebookresearch/mosaic](https://github.com/facebookresearch/mosaic) | 29 | 2026-04-08T02:06:41Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [open-edge-platform/physical-ai-studio](https://github.com/open-edge-platform/physical-ai-studio) | 28 | 2026-04-29T16:21:43Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
@@ -389,6 +394,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qiayuanl/unitree_bringup](https://github.com/qiayuanl/unitree_bringup) | 18 | 2026-05-01T05:39:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sliamh11/deus](https://github.com/sliamh11/Deus) | 18 | 2026-04-19T13:44:37Z | Python | Infrastructure/tooling | 8 | 36 | 0 | 0 |
 | [lblankl/Short-RL](https://github.com/lblankl/Short-RL) | 18 | 2026-04-16T06:14:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [jfly/shtuff](https://github.com/jfly/shtuff) | 17 | 2026-05-01T08:51:55Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [AMD-AGI/torchtitan-amd](https://github.com/AMD-AGI/torchtitan-amd) | 17 | 2026-04-21T09:32:25Z | Python | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [carstencodes/simplepycons](https://github.com/carstencodes/simplepycons) | 17 | 2026-04-19T18:43:16Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [mborgerson/bintrace](https://github.com/mborgerson/bintrace) | 17 | 2026-04-13T23:14:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |

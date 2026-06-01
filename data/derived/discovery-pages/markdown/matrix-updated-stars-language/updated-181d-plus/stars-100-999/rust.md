@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 182
-- terms: 595
-- components: 730
-- concepts: 603
-- observations: 610
+- repos: 183
+- terms: 604
+- components: 735
+- concepts: 612
+- observations: 620
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Lutetium-Vanadium/requestty](https://github.com/Lutetium-Vanadium/requestty) | 216 | 2025-12-02T10:38:21Z | Rust | CLI | 9 | 5 | 9 | 10 |
 | [shekohex/allo-isolate](https://github.com/shekohex/allo-isolate) | 127 | 2025-12-01T08:55:19Z | Rust | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
 | [faradayio/cage](https://github.com/faradayio/cage) | 315 | 2025-11-30T15:43:01Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -328,6 +329,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bitshifter/mathbench-rs](https://github.com/bitshifter/mathbench-rs) | 230 | 2024-10-29T09:21:54Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [informalsystems/ibc-rs](https://github.com/informalsystems/ibc-rs) | 224 | 2025-07-10T14:54:51Z | Rust | Infrastructure/tooling | 8 | 14 | 8 | 9 |
 | [10XGenomics/vartrix](https://github.com/10XGenomics/vartrix) | 217 | 2023-10-02T23:25:17Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [Lutetium-Vanadium/requestty](https://github.com/Lutetium-Vanadium/requestty) | 216 | 2025-12-02T10:38:21Z | Rust | CLI | 9 | 5 | 9 | 10 |
 | [blitz-js/next-superjson-plugin](https://github.com/blitz-js/next-superjson-plugin) | 216 | 2024-03-03T05:24:27Z | Rust | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [rust-rse/reed-solomon-erasure](https://github.com/rust-rse/reed-solomon-erasure) | 214 | 2023-08-30T10:35:50Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [stepancheg/rust-http2](https://github.com/stepancheg/rust-http2) | 211 | 2021-10-24T23:08:40Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |

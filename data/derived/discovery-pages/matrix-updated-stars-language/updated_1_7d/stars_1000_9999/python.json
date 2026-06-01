@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 200,
-    "concepts": 264,
-    "observations": 265,
+    "concepts": 253,
+    "observations": 254,
     "repos": 28,
-    "terms": 263
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
+    "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
@@ -40,7 +41,6 @@
     "rllm-org/rllm",
     "roboflow/maestro",
     "safetensors/safetensors",
-    "zhiyiYo/PyQt-Fluent-Widgets",
-    "zyddnys/manga-image-translator"
+    "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

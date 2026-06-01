@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
+- repos: 31
 - terms: 35
 - components: 60
 - concepts: 35
@@ -57,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rose-pine/.github](https://github.com/rose-pine/.github) | 2 | 2025-12-10T14:31:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Audio-Multimodal-AI-Resources](https://github.com/danielrosehill/Audio-Multimodal-AI-Resources) | 2 | 2025-12-08T14:21:28Z | Unknown | Model/data | 4 | 0 | 4 | 4 |
 | [danielrosehill/Audio-Understanding-Test-Prompts](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts) | 1 | 2025-12-08T12:18:55Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
-| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -94,4 +93,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lionel-/biome](https://github.com/lionel-/biome) | 1 | 2026-01-07T10:58:42Z | Unknown | CLI | 5 | 12 | 5 | 5 |
 | [EvelynZhang-epiclab/EvelynImgs](https://github.com/EvelynZhang-epiclab/EvelynImgs) | 1 | 2025-12-23T04:03:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Audio-Understanding-Test-Prompts](https://github.com/danielrosehill/Audio-Understanding-Test-Prompts) | 1 | 2025-12-08T12:18:55Z | Unknown | Model/data | 2 | 0 | 2 | 2 |
-| [danielrosehill/MCP-Server-Ideas](https://github.com/danielrosehill/MCP-Server-Ideas) | 1 | 2025-12-02T11:58:19Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

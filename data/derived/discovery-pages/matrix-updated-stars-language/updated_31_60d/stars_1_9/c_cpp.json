@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 27,
-    "terms": 118
+    "components": 208,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 25,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
@@ -28,9 +28,7 @@
     "gbrobro119-star/darksword-kexploit",
     "grizzlypeak3d/feather-tk",
     "HyperLan-git/Synthmania",
-    "ikonopistsev/mdbxmou",
     "lonewolf-jp/convopeq",
-    "meelgroup/louvain-community",
     "mybigday/whisper.node",
     "mypyc/librt",
     "openssh/openssh-portable-selfhosted",

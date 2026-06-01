@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 354,
+    "components": 362,
     "concepts": 243,
-    "observations": 245,
-    "repos": 63,
-    "terms": 242
+    "observations": 244,
+    "repos": 64,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -45,7 +45,6 @@
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
     "lquerel/gcp-bigquery-client",
-    "Lutetium-Vanadium/requestty",
     "Manishearth/triomphe",
     "MatsDK/TauRPC",
     "microsoft/rust_win_etw",
@@ -62,11 +61,13 @@
     "rust-bio/rust-htslib",
     "rust-lang/backtrace-rs",
     "rust-native-tls/rust-native-tls",
+    "rust3ds/ctru-rs",
     "rusticstuff/simdutf8",
     "sagiegurari/duckscript",
     "scopedb/percas",
     "smol-rs/async-executor",
     "stanislav-tkach/os_info",
+    "SunDoge/simdjson-rust",
     "tsonglew/dutis",
     "typst/pdf-writer",
     "typstyle-rs/typstyle",

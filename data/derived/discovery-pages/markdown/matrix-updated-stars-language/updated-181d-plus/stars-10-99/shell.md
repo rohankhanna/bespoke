@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 87
+- repos: 88
 - terms: 219
-- components: 104
+- components: 105
 - concepts: 224
 - observations: 224
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [WebAssembly/wasi-parallel](https://github.com/WebAssembly/wasi-parallel) | 26 | 2025-12-02T17:24:38Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [crate-ci/gh-install](https://github.com/crate-ci/gh-install) | 42 | 2025-12-01T13:22:24Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [rickstaa/action-black](https://github.com/rickstaa/action-black) | 43 | 2025-11-20T18:03:42Z | Shell | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [danielrosehill/claude-code-linux-desktop-slash-commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands) | 28 | 2025-10-31T22:31:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -175,6 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/claude-code-linux-desktop-slash-commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands) | 28 | 2025-10-31T22:31:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [luizm/asdf-shellcheck](https://github.com/luizm/asdf-shellcheck) | 28 | 2025-10-02T19:52:39Z | Shell | Infrastructure/tooling | 4 | 1 | 5 | 5 |
 | [apollographql/supergraph-demo-k8s-graph-ops](https://github.com/apollographql/supergraph-demo-k8s-graph-ops) | 27 | 2023-01-04T07:05:00Z | Shell | Infrastructure/tooling | 11 | 5 | 11 | 11 |
+| [WebAssembly/wasi-parallel](https://github.com/WebAssembly/wasi-parallel) | 26 | 2025-12-02T17:24:38Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [isaacs/npm](https://github.com/isaacs/npm) | 25 | 2024-02-26T05:45:09Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [babashka/pod-babashka-filewatcher](https://github.com/babashka/pod-babashka-filewatcher) | 25 | 2023-09-03T11:47:06Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [timothycrosley/cookiecutter-python](https://github.com/timothycrosley/cookiecutter-python) | 24 | 2024-07-05T03:52:56Z | Shell | Template/starter | 0 | 0 | 0 | 0 |

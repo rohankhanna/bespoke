@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 21,
     "observations": 21,
-    "repos": 13,
+    "repos": 12,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
     "CharlieFRuan/harbor",
-    "ChiehHsinJesseLai/ctm-notebook",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "devnen/chatterbox-v2",

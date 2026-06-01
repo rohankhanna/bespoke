@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 10
-- terms: 42
-- components: 123
-- concepts: 42
-- observations: 42
+- repos: 12
+- terms: 45
+- components: 156
+- concepts: 45
+- observations: 45
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 | [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [dwyl/mvp](https://github.com/dwyl/mvp) | 96 | 2026-05-23T10:31:46Z | Other | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [lifegpc/msg-tool](https://github.com/lifegpc/msg-tool) | 46 | 2026-05-23T01:47:10Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |
@@ -49,4 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lifegpc/msg-tool](https://github.com/lifegpc/msg-tool) | 46 | 2026-05-23T01:47:10Z | Rust | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [compozy/kb](https://github.com/compozy/kb) | 45 | 2026-05-19T03:48:50Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
+| [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
 | [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

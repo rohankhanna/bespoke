@@ -1,21 +1,20 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 5,
-    "terms": 71
+    "components": 69,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 4,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "axios/axios",
-    "godotengine/godot",
     "huggingface/transformers",
     "rust-lang/rust"
   ]

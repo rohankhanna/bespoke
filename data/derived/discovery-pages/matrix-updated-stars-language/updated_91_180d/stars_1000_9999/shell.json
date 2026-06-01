@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 13,
-    "terms": 81
+    "concepts": 97,
+    "observations": 97,
+    "repos": 14,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
     "aleskxyz/reality-ezpz",
@@ -25,6 +25,7 @@
     "just-containers/s6-overlay",
     "KittyKatt/screenFetch",
     "oschwartz10612/poppler-windows",
+    "Pal3love/Source-Han-TrueType",
     "postmodern/ruby-install",
     "XTLS/Xray-install"
   ]

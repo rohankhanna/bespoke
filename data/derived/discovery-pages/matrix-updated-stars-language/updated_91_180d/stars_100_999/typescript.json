@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1453,
-    "concepts": 230,
-    "observations": 230,
-    "repos": 53,
-    "terms": 233
+    "components": 1588,
+    "concepts": 245,
+    "observations": 246,
+    "repos": 57,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -20,6 +20,7 @@
     "addyosmani/chatty",
     "akshaykmr/teletype",
     "antfu-collective/eslint-vitest-rule-tester",
+    "antfu/changelogithub",
     "antfu/eslint-plugin-antfu",
     "antfu/eslint-plugin-command",
     "antfu/vscode-icons-carbon",
@@ -37,13 +38,16 @@
     "googleapis/nodejs-logging-winston",
     "hyperbrew/bolt-cep",
     "import-js/eslint-import-resolver-typescript",
+    "inciteful-xyz/inciteful-zotero-plugin",
     "janwilmake/openapi-mcp-server",
     "jsonquerylang/jsonquery",
     "kamranahmedse/claude-run",
     "kepano/obsidian-hider",
     "kutsan/stylelint-config-clean-order",
     "LeDDGroup/typescript-transform-paths",
+    "lobehub/lobe-charts",
     "lobehub/lobe-cli-toolbox",
+    "lobehub/lobe-tts",
     "lostintangent/gistpad-mcp",
     "Lusito/webextension-polyfill-ts",
     "matrix-org/matrix-appservice-slack",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 67
+- repos: 36
+- terms: 70
 - components: 37
-- concepts: 62
-- observations: 62
+- concepts: 65
+- observations: 65
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [catppuccin/atuin](https://github.com/catppuccin/atuin) | 52 | 2026-03-02T17:47:07Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [chaiNNer-org/chaiNNer-nightly](https://github.com/chaiNNer-org/chaiNNer-nightly) | 61 | 2026-02-23T23:35:28Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ethereum/beacon-metrics](https://github.com/ethereum/beacon-metrics) | 30 | 2026-02-23T11:47:49Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [hicchicc/x8y12pxDenkiChip](https://github.com/hicchicc/x8y12pxDenkiChip) | 75 | 2026-02-20T05:51:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -71,6 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hicchicc/x8y12pxDenkiChip](https://github.com/hicchicc/x8y12pxDenkiChip) | 75 | 2026-02-20T05:51:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [chaiNNer-org/chaiNNer-nightly](https://github.com/chaiNNer-org/chaiNNer-nightly) | 61 | 2026-02-23T23:35:28Z | Unknown | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
+| [catppuccin/atuin](https://github.com/catppuccin/atuin) | 52 | 2026-03-02T17:47:07Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [Level/community](https://github.com/Level/community) | 50 | 2026-01-04T21:14:37Z | Unknown | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [apache/.github](https://github.com/apache/.github) | 43 | 2026-02-19T13:07:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | 43 | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

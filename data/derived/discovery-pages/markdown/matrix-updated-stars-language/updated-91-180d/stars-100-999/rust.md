@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 242
-- components: 354
+- repos: 64
+- terms: 241
+- components: 362
 - concepts: 243
-- observations: 245
+- observations: 244
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [rust3ds/ctru-rs](https://github.com/rust3ds/ctru-rs) | 174 | 2026-03-02T21:52:14Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [SunDoge/simdjson-rust](https://github.com/SunDoge/simdjson-rust) | 111 | 2026-03-02T09:14:56Z | Rust | Infrastructure/tooling | 4 | 4 | 5 | 5 |
 | [arkworks-rs/r1cs-std](https://github.com/arkworks-rs/r1cs-std) | 188 | 2026-03-02T06:55:57Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [pdf-rs/pdf_render](https://github.com/pdf-rs/pdf_render) | 153 | 2026-03-02T05:20:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [blyxxyz/lexopt](https://github.com/blyxxyz/lexopt) | 387 | 2026-02-28T22:40:58Z | Rust | CLI | 4 | 1 | 4 | 4 |
@@ -88,7 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mtkennerly/shawl](https://github.com/mtkennerly/shawl) | 850 | 2025-12-09T03:24:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Builditluc/wiki-tui](https://github.com/Builditluc/wiki-tui) | 705 | 2025-12-08T06:19:15Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [kwonoj/swc-plugin-coverage-instrument](https://github.com/kwonoj/swc-plugin-coverage-instrument) | 116 | 2025-12-07T03:46:25Z | Rust | Infrastructure/tooling | 0 | 31 | 0 | 0 |
-| [Lutetium-Vanadium/requestty](https://github.com/Lutetium-Vanadium/requestty) | 216 | 2025-12-02T10:38:21Z | Rust | CLI | 9 | 5 | 9 | 10 |
 
 ## Repos sorted by stars
 
@@ -135,7 +136,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dustinblackman/cargo-run-bin](https://github.com/dustinblackman/cargo-run-bin) | 230 | 2025-12-19T02:30:12Z | Rust | CLI | 4 | 4 | 4 | 4 |
 | [risinglightdb/sqllogictest-rs](https://github.com/risinglightdb/sqllogictest-rs) | 226 | 2026-02-14T06:35:12Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [fast/logforth](https://github.com/fast/logforth) | 216 | 2026-02-24T02:51:27Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [Lutetium-Vanadium/requestty](https://github.com/Lutetium-Vanadium/requestty) | 216 | 2025-12-02T10:38:21Z | Rust | CLI | 9 | 5 | 9 | 10 |
 | [tsonglew/dutis](https://github.com/tsonglew/dutis) | 209 | 2026-02-04T06:28:06Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [KyleMayes/clang-rs](https://github.com/KyleMayes/clang-rs) | 200 | 2026-02-25T21:34:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -143,6 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arkworks-rs/r1cs-std](https://github.com/arkworks-rs/r1cs-std) | 188 | 2026-03-02T06:55:57Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [zippoxer/recall](https://github.com/zippoxer/recall) | 178 | 2026-01-14T07:49:57Z | Rust | CLI | 2 | 6 | 0 | 0 |
 | [georust/proj](https://github.com/georust/proj) | 176 | 2026-02-11T00:08:22Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [rust3ds/ctru-rs](https://github.com/rust3ds/ctru-rs) | 174 | 2026-03-02T21:52:14Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [ayazhafiz/xorf](https://github.com/ayazhafiz/xorf) | 164 | 2026-02-09T00:03:04Z | Rust | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [KyleMayes/clang-sys](https://github.com/KyleMayes/clang-sys) | 158 | 2026-02-25T21:29:41Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [pdf-rs/pdf_render](https://github.com/pdf-rs/pdf_render) | 153 | 2026-03-02T05:20:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -157,3 +158,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lquerel/gcp-bigquery-client](https://github.com/lquerel/gcp-bigquery-client) | 113 | 2026-02-01T06:49:21Z | Rust | CLI | 2 | 7 | 2 | 3 |
 | [cuviper/autocfg](https://github.com/cuviper/autocfg) | 112 | 2026-02-05T23:34:11Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [scopedb/percas](https://github.com/scopedb/percas) | 112 | 2026-01-15T02:02:41Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [SunDoge/simdjson-rust](https://github.com/SunDoge/simdjson-rust) | 111 | 2026-03-02T09:14:56Z | Rust | Infrastructure/tooling | 4 | 4 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 539,
-    "observations": 539,
-    "repos": 72,
-    "terms": 537
+    "components": 455,
+    "concepts": 554,
+    "observations": 554,
+    "repos": 74,
+    "terms": 552
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -54,6 +54,7 @@
     "graalvm/native-build-tools",
     "heroku/webapp-runner",
     "higress-group/higress-console",
+    "ihmcrobotics/ihmc-open-robotics-software",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
     "jpmml/jpmml-sparkml",
@@ -76,6 +77,7 @@
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
+    "samtools/htsjdk",
     "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",

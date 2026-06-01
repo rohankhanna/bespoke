@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 1,
-    "terms": 4
+    "components": 59,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
+    "skilld-dev/retriv",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

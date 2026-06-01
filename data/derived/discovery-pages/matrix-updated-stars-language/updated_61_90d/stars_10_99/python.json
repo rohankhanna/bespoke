@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 183,
-    "observations": 183,
-    "repos": 56,
-    "terms": 180
+    "components": 247,
+    "concepts": 191,
+    "observations": 191,
+    "repos": 58,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -22,6 +22,7 @@
     "analyticsinmotion/werpy",
     "andyluo7/autoresearch",
     "apache/parquet-testing",
+    "Azure-Samples/azureai-travel-agent-python",
     "bentoml/openllm-models",
     "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
@@ -67,6 +68,7 @@
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",
+    "w1ndys/ex-cure-skill",
     "xuanyuzhang21/VQ-Insight",
     "yaph/tts-samples",
     "yxlllc/RMVPE"

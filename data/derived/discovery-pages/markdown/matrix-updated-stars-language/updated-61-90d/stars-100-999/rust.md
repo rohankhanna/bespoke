@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 40
-- terms: 165
-- components: 254
-- concepts: 166
-- observations: 170
+- terms: 161
+- components: 246
+- concepts: 161
+- observations: 165
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mitsuhiko/similar-asserts](https://github.com/mitsuhiko/similar-asserts) | 162 | 2026-04-01T21:12:32Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [public-awesome/cw-nfts](https://github.com/public-awesome/cw-nfts) | 201 | 2026-04-01T16:03:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [cryscan/web-rwkv](https://github.com/cryscan/web-rwkv) | 347 | 2026-04-01T05:31:36Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [posit-dev/air](https://github.com/posit-dev/air) | 411 | 2026-03-31T12:27:15Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [quickwit-oss/tantivy-cli](https://github.com/quickwit-oss/tantivy-cli) | 392 | 2026-03-31T09:18:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -64,8 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IWANABETHATGUY/tower-lsp-boilerplate](https://github.com/IWANABETHATGUY/tower-lsp-boilerplate) | 282 | 2026-03-04T13:35:04Z | Rust | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [bet4it/udbserver](https://github.com/bet4it/udbserver) | 427 | 2026-03-04T06:42:43Z | Rust | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [Kampfkarren/selene](https://github.com/Kampfkarren/selene) | 763 | 2026-03-03T21:50:32Z | Rust | Infrastructure/tooling | 7 | 18 | 7 | 7 |
-| [rust3ds/ctru-rs](https://github.com/rust3ds/ctru-rs) | 174 | 2026-03-02T21:52:14Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [SunDoge/simdjson-rust](https://github.com/SunDoge/simdjson-rust) | 111 | 2026-03-02T09:14:56Z | Rust | Infrastructure/tooling | 4 | 4 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -101,13 +101,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getsentry/rust-sourcemap](https://github.com/getsentry/rust-sourcemap) | 246 | 2026-03-25T04:01:23Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [firstbatchxyz/dkn-compute-node](https://github.com/firstbatchxyz/dkn-compute-node) | 228 | 2026-03-21T10:43:07Z | Rust | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [dtolnay/ref-cast](https://github.com/dtolnay/ref-cast) | 219 | 2026-03-24T02:43:31Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
+| [public-awesome/cw-nfts](https://github.com/public-awesome/cw-nfts) | 201 | 2026-04-01T16:03:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [rust-nvml/nvml-wrapper](https://github.com/rust-nvml/nvml-wrapper) | 196 | 2026-03-30T20:38:41Z | Rust | Infrastructure/tooling | 11 | 4 | 11 | 11 |
-| [rust3ds/ctru-rs](https://github.com/rust3ds/ctru-rs) | 174 | 2026-03-02T21:52:14Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [esp-rs/embedded-svc](https://github.com/esp-rs/embedded-svc) | 169 | 2026-03-09T08:14:43Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [rust-lang/rfcbot-rs](https://github.com/rust-lang/rfcbot-rs) | 166 | 2026-03-19T23:41:39Z | Rust | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [mozilla/dump_syms](https://github.com/mozilla/dump_syms) | 165 | 2026-03-11T10:15:52Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [mitsuhiko/similar-asserts](https://github.com/mitsuhiko/similar-asserts) | 162 | 2026-04-01T21:12:32Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [ashvardanian/StringWars](https://github.com/ashvardanian/StringWars) | 144 | 2026-03-19T17:48:57Z | Rust | Infrastructure/tooling | 14 | 4 | 14 | 14 |
 | [LukasKalbertodt/libtest-mimic](https://github.com/LukasKalbertodt/libtest-mimic) | 135 | 2026-03-16T17:44:54Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [hsivonen/chardetng](https://github.com/hsivonen/chardetng) | 118 | 2026-03-30T12:24:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [SunDoge/simdjson-rust](https://github.com/SunDoge/simdjson-rust) | 111 | 2026-03-02T09:14:56Z | Rust | Infrastructure/tooling | 4 | 4 | 5 | 5 |
 | [cedar-policy/cedar-examples](https://github.com/cedar-policy/cedar-examples) | 110 | 2026-03-26T18:35:16Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |

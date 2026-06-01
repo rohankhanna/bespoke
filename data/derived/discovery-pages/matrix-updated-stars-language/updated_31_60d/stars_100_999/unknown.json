@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 304,
-    "observations": 305,
-    "repos": 79,
-    "terms": 303
+    "components": 134,
+    "concepts": 317,
+    "observations": 318,
+    "repos": 82,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -69,15 +69,16 @@
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
-    "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "mason-org/mason-registry",
     "mdn/mdn-community",
+    "microsoft/openjdk",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",
     "openjs-foundation/cross-project-council",
+    "openwdl/wdl",
     "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
     "ranpox/awesome-computer-use",
@@ -89,9 +90,11 @@
     "stripe/openapi",
     "tc39/how-we-work",
     "tinted-theming/home",
+    "triton-inference-server/tensorrtllm_backend",
     "Uzaaft/awesome-libghostty",
     "web-platform-tests/rfcs",
     "ymcui/MacBERT",
-    "ymcui/PERT"
+    "ymcui/PERT",
+    "yokoffing/Control-D-Config"
   ]
 }

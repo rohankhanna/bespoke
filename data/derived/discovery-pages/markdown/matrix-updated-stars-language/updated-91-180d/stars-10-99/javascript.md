@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 92
-- components: 408
-- concepts: 92
-- observations: 93
+- repos: 30
+- terms: 91
+- components: 401
+- concepts: 91
+- observations: 92
 
 ## Static behavior
 
@@ -56,7 +56,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [dzeiocom/simple-icons-astro](https://github.com/dzeiocom/simple-icons-astro) | 21 | 2025-12-07T06:17:35Z | JavaScript | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [coderaiser/estrace](https://github.com/coderaiser/estrace) | 13 | 2025-12-04T16:15:57Z | JavaScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |
-| [salesforcecli/status](https://github.com/salesforcecli/status) | 58 | 2025-12-02T22:21:45Z | JavaScript | CLI | 1 | 7 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -68,7 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [josdejong/typed-function](https://github.com/josdejong/typed-function) | 78 | 2026-01-07T10:06:14Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [ButTaiwan/taigivs](https://github.com/ButTaiwan/taigivs) | 63 | 2026-02-10T12:56:57Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [hchiam/learning-lighthouse-ci](https://github.com/hchiam/learning-lighthouse-ci) | 61 | 2026-02-13T18:42:15Z | JavaScript | Web app | 2 | 3 | 2 | 2 |
-| [salesforcecli/status](https://github.com/salesforcecli/status) | 58 | 2025-12-02T22:21:45Z | JavaScript | CLI | 1 | 7 | 1 | 1 |
 | [d3x0r/JSOX](https://github.com/d3x0r/JSOX) | 56 | 2025-12-18T05:55:47Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

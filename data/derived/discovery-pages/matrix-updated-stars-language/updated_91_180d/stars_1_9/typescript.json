@@ -3,7 +3,7 @@
     "components": 152,
     "concepts": 78,
     "observations": 78,
-    "repos": 17,
+    "repos": 18,
     "terms": 78
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
@@ -23,6 +23,7 @@
     "danielrosehill/MCP-Network-CUPS",
     "gajus/eslint-plugin-slonik",
     "ipfs/helia-delegated-routing-v1-http-api",
+    "jspreadsheet/spreadsheet-react-server",
     "KSXGitHub/cargo-scripts-builder",
     "lxsmnsyc/sponsors",
     "PBK-B/i18next-cli-vue",

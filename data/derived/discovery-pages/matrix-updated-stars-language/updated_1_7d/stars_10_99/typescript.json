@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 104,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 12
+    "components": 74,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "nuxt-modules/emotion",
     "ogx-ai/ogx-client-typescript",
-    "skilld-dev/retriv",
     "TrigenSoftware/simple-release"
   ]
 }

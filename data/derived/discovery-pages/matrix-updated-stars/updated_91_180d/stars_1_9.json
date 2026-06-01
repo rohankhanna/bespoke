@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 849,
-    "concepts": 473,
-    "observations": 474,
-    "repos": 222,
-    "terms": 479
+    "components": 878,
+    "concepts": 488,
+    "observations": 489,
+    "repos": 227,
+    "terms": 494
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -67,6 +67,7 @@
     "buttercannfly/AIPex",
     "ca-ruz/bumpit",
     "celtera/avendish-audio-processor-template",
+    "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
     "CHERIoT-Platform/cheriot-pqc",
     "chriskamphuis/olddog",
     "chronosphereio/calyptia-api",
@@ -89,7 +90,6 @@
     "danielrosehill/Cloud-STT-Price-Points-1225",
     "danielrosehill/Digital-Evidence-Toolkit",
     "danielrosehill/MCP-Network-CUPS",
-    "danielrosehill/MCP-Server-Ideas",
     "danielrosehill/My-Network-MCP",
     "danielrosehill/WhatsApp-Export-Unpacker",
     "dart4e/dart4e-studio",
@@ -131,6 +131,8 @@
     "hden/cuid",
     "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
+    "hermit-os/hermit-gcc",
+    "heshengtao/desktop-for-sap",
     "heshengtao/sap-ai-drawio",
     "heshengtao/sap-ai-mermaid",
     "hesreallyhim/inkverse-fork",
@@ -143,6 +145,7 @@
     "JLSchuler99/svc-router",
     "joeldrapper/dispersion",
     "jsdom/.github",
+    "jspreadsheet/spreadsheet-react-server",
     "JuliaAI/LearnDataFrontEnds.jl",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
@@ -175,6 +178,7 @@
     "nvpro-samples/stb",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
+    "OpenCIDN/httpmirror",
     "orlp/color-backtrace",
     "OutlierDetectionJL/OutlierDetectionData.jl",
     "OutlierDetectionJL/OutlierDetectionNeighbors.jl",
@@ -233,6 +237,7 @@
     "XR-Robotics/XRoboToolkit-Orin-Video-Sender",
     "yamachu/VoicevoxCoreSwift",
     "ylsdamxssjxxdd/nerv",
+    "yoshoku/numo-libsvm",
     "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]

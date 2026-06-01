@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10552,
-    "concepts": 9127,
-    "observations": 9138,
-    "repos": 2359,
-    "terms": 8997
+    "components": 10554,
+    "concepts": 9136,
+    "observations": 9147,
+    "repos": 2361,
+    "terms": 9006
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1828,6 +1828,7 @@
     "rhysd/vim-clang-format",
     "Rich-Harris/degit",
     "Rich-Harris/shimport",
+    "richfelker/musl-cross-make",
     "richzhang/PerceptualSimilarity",
     "rinongal/StyleGAN-nada",
     "rinongal/textual_inversion",
@@ -1866,6 +1867,7 @@
     "rubinius/rubinius",
     "rubyjs/therubyracer",
     "RUC-NLPIR/Search-o1",
+    "rurban/smhasher",
     "russross/blackfriday",
     "rust-lang-cn/rust-by-example-cn",
     "rust-lang/rls",

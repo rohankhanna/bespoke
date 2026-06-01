@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 515,
-    "concepts": 386,
-    "observations": 389,
-    "repos": 192,
-    "terms": 380
+    "concepts": 393,
+    "observations": 396,
+    "repos": 193,
+    "terms": 387
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -50,6 +50,7 @@
     "carrascomj/dalted",
     "casbin-rs/examples",
     "casey/janus",
+    "catch-twenty-two/rust-ssd",
     "celo-org/celo-bls-snark-rs",
     "celo-org/plumo-prover",
     "celo-org/snark-setup",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 382,
-    "observations": 384,
+    "components": 298,
+    "concepts": 377,
+    "observations": 380,
     "repos": 28,
-    "terms": 378
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
@@ -24,6 +24,7 @@
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
+    "jax-ml/jax",
     "Lightning-AI/litgpt",
     "Lightning-AI/pytorch-lightning",
     "modelscope/FunASR",
@@ -34,7 +35,6 @@
     "PDFMathTranslate/PDFMathTranslate",
     "psf/black",
     "pydantic/pydantic",
-    "python-poetry/poetry",
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
     "TEN-framework/ten-framework",

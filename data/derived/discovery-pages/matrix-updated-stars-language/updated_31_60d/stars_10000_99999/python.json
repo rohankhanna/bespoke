@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2396,
-    "concepts": 2061,
-    "observations": 2067,
-    "repos": 202,
-    "terms": 2081
+    "components": 2432,
+    "concepts": 2123,
+    "observations": 2129,
+    "repos": 206,
+    "terms": 2143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -43,10 +43,10 @@
     "camel-ai/owl",
     "caronc/apprise",
     "celery/celery",
+    "certbot/certbot",
     "Chia-Network/chia-blockchain",
     "chubin/wttr.in",
     "codelucas/newspaper",
-    "cookiecutter/cookiecutter",
     "cookiecutter/cookiecutter-django",
     "cupy/cupy",
     "cvat-ai/cvat",
@@ -86,7 +86,6 @@
     "google-deepmind/alphafold",
     "google/adk-python",
     "google/magika",
-    "google/python-fire",
     "google/yapf",
     "gradio-app/gradio",
     "gruns/icecream",
@@ -118,6 +117,7 @@
     "letta-ai/letta",
     "LibreTranslate/LibreTranslate",
     "locustio/locust",
+    "lucidrains/vit-pytorch",
     "m-bain/whisperX",
     "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",
@@ -129,7 +129,9 @@
     "microsoft/promptflow",
     "microsoft/pyright",
     "mingrammer/diagrams",
+    "mitmproxy/mitmproxy",
     "mlc-ai/mlc-llm",
+    "mlflow/mlflow",
     "mlfoundations/open_clip",
     "modelcontextprotocol/python-sdk",
     "networkx/networkx",
@@ -183,6 +185,7 @@
     "RVC-Boss/GPT-SoVITS",
     "sanic-org/sanic",
     "scikit-learn/scikit-learn",
+    "scipy/scipy",
     "scrapy/scrapy",
     "searxng/searxng",
     "sgl-project/sglang",
@@ -209,6 +212,7 @@
     "ultralytics/yolov5",
     "unclecode/crawl4ai",
     "unslothai/unsloth",
+    "vega/altair",
     "vllm-project/vllm",
     "voxel51/fiftyone",
     "wandb/wandb",

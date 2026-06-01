@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 69
-- terms: 369
+- repos: 70
+- terms: 373
 - components: 298
-- concepts: 375
-- observations: 375
+- concepts: 379
+- observations: 380
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) | 3300 | 2026-03-02T23:33:12Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 5 |
+| [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | 3835 | 2026-03-01T18:09:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [akheron/jansson](https://github.com/akheron/jansson) | 3326 | 2026-03-01T16:43:13Z | C/C++ | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -94,7 +96,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gflags/gflags](https://github.com/gflags/gflags) | 3016 | 2025-12-06T13:49:51Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [libimobiledevice/usbmuxd](https://github.com/libimobiledevice/usbmuxd) | 1700 | 2025-12-06T01:14:51Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow) | 9391 | 2025-12-04T01:29:28Z | C/C++ | Infrastructure/tooling | 14 | 14 | 14 | 14 |
-| [rurban/smhasher](https://github.com/rurban/smhasher) | 2145 | 2025-12-02T15:07:18Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -111,6 +112,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openMVG/openMVG](https://github.com/openMVG/openMVG) | 6390 | 2025-12-17T00:44:42Z | C/C++ | Infrastructure/tooling | 10 | 5 | 11 | 11 |
 | [JoeDog/siege](https://github.com/JoeDog/siege) | 6195 | 2026-02-11T16:02:32Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [memononen/nanovg](https://github.com/memononen/nanovg) | 5615 | 2026-02-19T13:29:32Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [eradman/entr](https://github.com/eradman/entr) | 5554 | 2026-03-02T21:22:21Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [flashlight/flashlight](https://github.com/flashlight/flashlight) | 5440 | 2026-02-23T12:39:08Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [attractivechaos/klib](https://github.com/attractivechaos/klib) | 4655 | 2025-12-22T04:59:43Z | C/C++ | Library | 7 | 0 | 7 | 7 |
 | [hpjansson/chafa](https://github.com/hpjansson/chafa) | 4628 | 2026-02-25T16:05:51Z | C/C++ | CLI | 13 | 1 | 13 | 13 |
@@ -124,6 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [akheron/jansson](https://github.com/akheron/jansson) | 3326 | 2026-03-01T16:43:13Z | C/C++ | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [sysstat/sysstat](https://github.com/sysstat/sysstat) | 3313 | 2025-12-07T09:02:50Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
 | [tpoechtrager/osxcross](https://github.com/tpoechtrager/osxcross) | 3305 | 2025-12-15T17:34:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) | 3300 | 2026-03-02T23:33:12Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 5 |
 | [json-c/json-c](https://github.com/json-c/json-c) | 3261 | 2026-02-20T00:05:53Z | C/C++ | Infrastructure/tooling | 2 | 11 | 3 | 3 |
 | [cztomczak/cefpython](https://github.com/cztomczak/cefpython) | 3234 | 2026-01-02T11:51:01Z | C/C++ | Framework | 6 | 0 | 6 | 6 |
 | [PixarAnimationStudios/OpenSubdiv](https://github.com/PixarAnimationStudios/OpenSubdiv) | 3049 | 2026-02-19T00:06:27Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -135,7 +138,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [naelstrof/maim](https://github.com/naelstrof/maim) | 2266 | 2025-12-16T11:43:17Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [MIT-SPARK/TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus) | 2261 | 2025-12-09T15:55:47Z | C/C++ | Infrastructure/tooling | 5 | 2 | 7 | 7 |
-| [rurban/smhasher](https://github.com/rurban/smhasher) | 2145 | 2025-12-02T15:07:18Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [TEN-framework/ten-vad](https://github.com/TEN-framework/ten-vad) | 2111 | 2026-02-02T02:51:42Z | C/C++ | Infrastructure/tooling | 12 | 2 | 12 | 12 |
 | [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) | 2022 | 2026-01-30T20:52:36Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [EKA2L1/EKA2L1](https://github.com/EKA2L1/EKA2L1) | 1930 | 2026-01-02T18:07:40Z | C/C++ | Infrastructure/tooling | 8 | 10 | 8 | 8 |

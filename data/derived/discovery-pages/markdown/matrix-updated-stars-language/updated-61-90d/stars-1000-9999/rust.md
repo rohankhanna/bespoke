@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 29
-- terms: 141
-- components: 205
-- concepts: 142
-- observations: 145
+- repos: 31
+- terms: 155
+- components: 224
+- concepts: 157
+- observations: 160
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [arxanas/git-branchless](https://github.com/arxanas/git-branchless) | 4050 | 2026-04-01T23:33:14Z | Rust | CLI | 9 | 13 | 9 | 9 |
+| [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs) | 1943 | 2026-04-01T11:27:18Z | Rust | Infrastructure/tooling | 5 | 6 | 6 | 6 |
 | [sharkdp/pastel](https://github.com/sharkdp/pastel) | 6341 | 2026-04-01T02:05:48Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [not-fl3/macroquad](https://github.com/not-fl3/macroquad) | 4433 | 2026-03-31T19:00:09Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) | 2440 | 2026-03-31T14:33:49Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -72,12 +74,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [gyscos/cursive](https://github.com/gyscos/cursive) | 4783 | 2026-03-25T02:11:00Z | Rust | CLI | 3 | 1 | 3 | 4 |
 | [not-fl3/macroquad](https://github.com/not-fl3/macroquad) | 4433 | 2026-03-31T19:00:09Z | Rust | Infrastructure/tooling | 4 | 3 | 4 | 4 |
+| [arxanas/git-branchless](https://github.com/arxanas/git-branchless) | 4050 | 2026-04-01T23:33:14Z | Rust | CLI | 9 | 13 | 9 | 9 |
 | [google/tarpc](https://github.com/google/tarpc) | 3685 | 2026-03-25T06:11:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [Rust-SDL2/rust-sdl2](https://github.com/Rust-SDL2/rust-sdl2) | 2939 | 2026-03-22T12:28:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | 2829 | 2026-03-30T20:53:47Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [haleclipse/ccometixline](https://github.com/Haleclipse/CCometixLine) | 2713 | 2026-03-14T18:03:04Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [snapview/tokio-tungstenite](https://github.com/snapview/tokio-tungstenite) | 2440 | 2026-03-31T14:33:49Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [Mooncake-Labs/pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) | 1957 | 2026-03-31T05:53:29Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
+| [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs) | 1943 | 2026-04-01T11:27:18Z | Rust | Infrastructure/tooling | 5 | 6 | 6 | 6 |
 | [google/argh](https://github.com/google/argh) | 1906 | 2026-03-16T21:41:11Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 9 |
 | [tauri-apps/cargo-mobile2](https://github.com/tauri-apps/cargo-mobile2) | 1827 | 2026-03-19T10:07:22Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |

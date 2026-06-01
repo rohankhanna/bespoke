@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 90
-- terms: 580
-- components: 348
-- concepts: 584
-- observations: 584
+- terms: 579
+- components: 330
+- concepts: 585
+- observations: 585
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kislyuk/argcomplete](https://github.com/kislyuk/argcomplete) | 1562 | 2026-04-02T04:22:04Z | Python | Infrastructure/tooling | 4 | 7 | 6 | 6 |
+| [cvg/depthsplat](https://github.com/cvg/depthsplat) | 1191 | 2026-04-01T12:53:56Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [PaddlePaddle/PaddleClas](https://github.com/PaddlePaddle/PaddleClas) | 5811 | 2026-04-01T09:34:34Z | Python | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [atlassian-api/atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | 1644 | 2026-04-01T07:37:15Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [SWE-bench/SWE-bench](https://github.com/SWE-bench/SWE-bench) | 4824 | 2026-04-01T05:16:30Z | Python | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [ApeWorX/ape](https://github.com/ApeWorX/ape) | 1034 | 2026-04-01T03:06:43Z | Python | Infrastructure/tooling | 17 | 16 | 17 | 17 |
@@ -113,9 +116,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [keleshev/schema](https://github.com/keleshev/schema) | 2944 | 2026-03-04T20:33:24Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [turboderp-org/exllamav2](https://github.com/turboderp-org/exllamav2) | 4538 | 2026-03-04T13:12:20Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [dateutil/dateutil](https://github.com/dateutil/dateutil) | 2614 | 2026-03-03T05:40:58Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
-| [ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | 2391 | 2026-03-03T05:11:43Z | Python | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) | 1028 | 2026-03-02T19:57:01Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -136,6 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | 6150 | 2026-03-23T06:17:21Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [davidhalter/jedi](https://github.com/davidhalter/jedi) | 6136 | 2026-03-26T22:31:27Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [om-ai-lab/VLM-R1](https://github.com/om-ai-lab/VLM-R1) | 5950 | 2026-03-12T02:58:51Z | Python | Infrastructure/tooling | 8 | 0 | 8 | 8 |
+| [PaddlePaddle/PaddleClas](https://github.com/PaddlePaddle/PaddleClas) | 5811 | 2026-04-01T09:34:34Z | Python | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops) | 5512 | 2026-03-19T18:37:57Z | Python | Infrastructure/tooling | 18 | 12 | 18 | 18 |
 | [mosaicml/composer](https://github.com/mosaicml/composer) | 5480 | 2026-03-25T17:20:40Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [aws-cloudformation/aws-cloudformation-templates](https://github.com/aws-cloudformation/aws-cloudformation-templates) | 5167 | 2026-03-26T08:00:05Z | Python | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -162,11 +163,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [keleshev/schema](https://github.com/keleshev/schema) | 2944 | 2026-03-04T20:33:24Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [michaelfeil/infinity](https://github.com/michaelfeil/infinity) | 2780 | 2026-03-24T03:59:47Z | Python | CLI | 6 | 11 | 6 | 6 |
 | [bpython/bpython](https://github.com/bpython/bpython) | 2772 | 2026-03-31T08:41:22Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [dateutil/dateutil](https://github.com/dateutil/dateutil) | 2614 | 2026-03-03T05:40:58Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [aigc3d/LHM](https://github.com/aigc3d/LHM) | 2597 | 2026-03-17T05:17:23Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [s3prl/s3prl](https://github.com/s3prl/s3prl) | 2552 | 2026-03-12T19:14:49Z | Python | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [astanin/python-tabulate](https://github.com/astanin/python-tabulate) | 2549 | 2026-03-11T08:45:56Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | 2391 | 2026-03-03T05:11:43Z | Python | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [themix-project/themix-gui](https://github.com/themix-project/themix-gui) | 2288 | 2026-03-13T09:58:10Z | Python | Infrastructure/tooling | 13 | 1 | 14 | 14 |
 | [randy3k/radian](https://github.com/randy3k/radian) | 2272 | 2026-03-07T04:32:55Z | Python | CLI | 6 | 3 | 6 | 6 |
@@ -192,6 +191,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [atlassian-api/atlassian-python-api](https://github.com/atlassian-api/atlassian-python-api) | 1644 | 2026-04-01T07:37:15Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [Vchitect/VBench](https://github.com/Vchitect/VBench) | 1614 | 2026-03-23T08:32:27Z | Python | Unknown | 8 | 0 | 8 | 8 |
 | [gururise/AlpacaDataCleaned](https://github.com/gururise/AlpacaDataCleaned) | 1588 | 2026-03-07T14:15:41Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [kislyuk/argcomplete](https://github.com/kislyuk/argcomplete) | 1562 | 2026-04-02T04:22:04Z | Python | Infrastructure/tooling | 4 | 7 | 6 | 6 |
 | [databricks/megablocks](https://github.com/databricks/megablocks) | 1557 | 2026-03-25T04:53:14Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [google-deepmind/bsuite](https://github.com/google-deepmind/bsuite) | 1547 | 2026-03-30T15:30:30Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [chungmin99/pyroki](https://github.com/chungmin99/pyroki) | 1533 | 2026-04-01T00:13:52Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -202,6 +202,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [miiton/Cica](https://github.com/miiton/Cica) | 1401 | 2026-03-30T03:28:18Z | Python | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [bambinos/bambi](https://github.com/bambinos/bambi) | 1256 | 2026-03-17T22:41:59Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [ServiceNow/BrowserGym](https://github.com/ServiceNow/BrowserGym) | 1213 | 2026-03-17T19:58:31Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [cvg/depthsplat](https://github.com/cvg/depthsplat) | 1191 | 2026-04-01T12:53:56Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [sierra-research/tau-bench](https://github.com/sierra-research/tau-bench) | 1187 | 2026-03-18T17:36:06Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [dolfies/discord.py-self](https://github.com/dolfies/discord.py-self) | 1135 | 2026-03-23T08:14:58Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) | 1122 | 2026-03-08T17:35:40Z | Python | Infrastructure/tooling | 15 | 6 | 15 | 15 |
@@ -210,4 +211,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [linkchecker/linkchecker](https://github.com/linkchecker/linkchecker) | 1049 | 2026-03-30T04:39:52Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [ApeWorX/ape](https://github.com/ApeWorX/ape) | 1034 | 2026-04-01T03:06:43Z | Python | Infrastructure/tooling | 17 | 16 | 17 | 17 |
 | [google/ml_collections](https://github.com/google/ml_collections) | 1028 | 2026-03-14T21:42:03Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) | 1028 | 2026-03-02T19:57:01Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 10,
-    "terms": 86
+    "components": 71,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 8,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "androidx/media",
-    "apache/iceberg",
     "apache/tomcat",
     "java-native-access/jna",
     "junit-team/junit-framework",
     "mapsforge/mapsforge",
-    "sqlancer/sqlancer",
     "unicode-org/cldr",
     "validator/validator"
   ]

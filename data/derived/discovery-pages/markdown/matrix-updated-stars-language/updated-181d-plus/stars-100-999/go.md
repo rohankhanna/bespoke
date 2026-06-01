@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 187
+- repos: 188
 - terms: 754
 - components: 559
 - concepts: 768
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethereum-optimism/asterisc](https://github.com/ethereum-optimism/asterisc) | 109 | 2025-12-02T10:39:58Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [sugarme/tokenizer](https://github.com/sugarme/tokenizer) | 323 | 2025-11-27T07:06:28Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man) | 269 | 2025-11-24T22:07:49Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [multiformats/multiaddr](https://github.com/multiformats/multiaddr) | 473 | 2025-11-24T18:24:14Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -396,6 +397,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/actions-oidc-debugger](https://github.com/github/actions-oidc-debugger) | 118 | 2025-09-22T15:46:26Z | Go | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [argoproj-labs/argocd-extensions](https://github.com/argoproj-labs/argocd-extensions) | 116 | 2023-11-17T16:58:23Z | Go | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [antlabs/quickws](https://github.com/antlabs/quickws) | 115 | 2024-06-22T12:31:55Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [ethereum-optimism/asterisc](https://github.com/ethereum-optimism/asterisc) | 109 | 2025-12-02T10:39:58Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [moby/ipvs](https://github.com/moby/ipvs) | 109 | 2024-02-12T10:27:42Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [docker-archive-public/docker.compose-ecs](https://github.com/docker-archive-public/docker.compose-ecs) | 107 | 2023-11-17T15:18:41Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [AbsaOSS/golic](https://github.com/AbsaOSS/golic) | 106 | 2021-12-20T12:39:50Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 298,
-    "concepts": 375,
-    "observations": 375,
-    "repos": 69,
-    "terms": 369
+    "concepts": 379,
+    "observations": 380,
+    "repos": 70,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -34,6 +34,7 @@
     "cztomczak/cefpython",
     "EKA2L1/EKA2L1",
     "emersion/slurp",
+    "eradman/entr",
     "espressif/ESP8266_RTOS_SDK",
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
@@ -42,6 +43,7 @@
     "github/cmark-gfm",
     "golang-ui/nuklear",
     "google/re2",
+    "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "guinmoon/LLMFarm",
     "gulrak/filesystem",
     "hpjansson/chafa",
@@ -73,7 +75,6 @@
     "pothosware/SoapySDR",
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
-    "rurban/smhasher",
     "sammycage/lunasvg",
     "svenstaro/rofi-calc",
     "sysstat/sysstat",

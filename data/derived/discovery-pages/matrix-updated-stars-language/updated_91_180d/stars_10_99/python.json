@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 267,
-    "observations": 268,
-    "repos": 106,
-    "terms": 275
+    "components": 241,
+    "concepts": 258,
+    "observations": 259,
+    "repos": 104,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
-    "adhikasp/mcp-youtube",
     "agents-x-project/PyVision-RL",
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
@@ -52,7 +51,6 @@
     "ENCODE-DCC/caper",
     "enjoy-digital/liteiclink",
     "enjoy-digital/litex_hw_ci",
-    "espressif/conventional-precommit-linter",
     "fla-org/flash-bidirectional-linear-attention",
     "fsspec/sshfs",
     "galaxyproject/tools-devteam",

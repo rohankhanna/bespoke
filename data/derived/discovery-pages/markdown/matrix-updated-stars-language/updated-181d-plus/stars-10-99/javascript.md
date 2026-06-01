@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 279
-- terms: 652
-- components: 2970
-- concepts: 661
-- observations: 661
+- repos: 280
+- terms: 653
+- components: 2977
+- concepts: 662
+- observations: 662
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [salesforcecli/status](https://github.com/salesforcecli/status) | 58 | 2025-12-02T22:21:45Z | JavaScript | CLI | 1 | 7 | 1 | 1 |
 | [karma-runner/karma-qunit](https://github.com/karma-runner/karma-qunit) | 52 | 2025-12-01T20:08:00Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [freddyaboulton/gradio-pdf](https://github.com/freddyaboulton/gradio-pdf) | 43 | 2025-11-26T21:30:59Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
@@ -384,6 +385,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [reZach/secure-electron-license-keys](https://github.com/reZach/secure-electron-license-keys) | 59 | 2025-01-26T21:05:31Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [nasa-petal/PeTaL](https://github.com/nasa-petal/PeTaL) | 59 | 2023-11-20T21:18:29Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
 | [ztzhang/casualSAM](https://github.com/ztzhang/casualSAM) | 59 | 2023-04-13T15:04:22Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [salesforcecli/status](https://github.com/salesforcecli/status) | 58 | 2025-12-02T22:21:45Z | JavaScript | CLI | 1 | 7 | 1 | 1 |
 | [bropines/Deeplx-vercel](https://github.com/bropines/Deeplx-vercel) | 58 | 2025-04-07T18:01:54Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [ember-cli/broccoli-babel-transpiler](https://github.com/ember-cli/broccoli-babel-transpiler) | 58 | 2025-04-01T18:51:15Z | JavaScript | Infrastructure/tooling | 1 | 25 | 1 | 1 |
 | [Level/multileveldown](https://github.com/Level/multileveldown) | 58 | 2024-12-02T01:02:05Z | JavaScript | Infrastructure/tooling | 7 | 25 | 7 | 7 |

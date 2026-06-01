@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 144
-- terms: 1353
-- components: 1771
-- concepts: 1359
-- observations: 1366
+- repos: 151
+- terms: 1425
+- components: 1998
+- concepts: 1432
+- observations: 1439
 
 ## Static behavior
 
@@ -26,6 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bitnami/charts](https://github.com/bitnami/charts) | 10335 | 2026-05-02T01:39:09Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31504 | 2026-05-01T14:49:51Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
+| [logseq/logseq](https://github.com/logseq/logseq) | 42545 | 2026-05-01T14:44:18Z | Other | Infrastructure/tooling | 14 | 129 | 15 | 15 |
+| [BasedHardware/omi](https://github.com/BasedHardware/omi) | 12353 | 2026-05-01T13:12:57Z | Other | Infrastructure/tooling | 18 | 19 | 18 | 18 |
+| [crystal-lang/crystal](https://github.com/crystal-lang/crystal) | 20249 | 2026-05-01T10:36:52Z | Other | Infrastructure/tooling | 14 | 12 | 14 | 14 |
+| [mdn/content](https://github.com/mdn/content) | 10729 | 2026-05-01T09:53:19Z | Other | Infrastructure/tooling | 12 | 38 | 12 | 12 |
+| [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) | 36662 | 2026-05-01T09:46:53Z | Other | CLI | 3 | 6 | 3 | 3 |
+| [rubocop/rubocop](https://github.com/rubocop/rubocop) | 12854 | 2026-05-01T08:28:58Z | Other | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [MaterialDesignInXAML/MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) | 16130 | 2026-05-01T07:31:54Z | Other | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 | [Heapy/awesome-kotlin](https://github.com/Heapy/awesome-kotlin) | 11360 | 2026-05-01T03:11:10Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [getgrav/grav](https://github.com/getgrav/grav) | 15473 | 2026-04-30T21:52:31Z | Other | Infrastructure/tooling | 14 | 7 | 16 | 16 |
@@ -169,7 +177,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 13810 | 2026-04-03T13:11:41Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 8 |
 | [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 26000 | 2026-04-02T08:24:54Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [devicons/devicon](https://github.com/devicons/devicon) | 11575 | 2026-04-02T07:50:53Z | Other | Infrastructure/tooling | 14 | 22 | 14 | 14 |
-| [reasonml/reason](https://github.com/reasonml/reason) | 10304 | 2026-04-01T12:42:26Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -199,6 +206,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [square/retrofit](https://github.com/square/retrofit) | 43905 | 2026-04-27T21:44:48Z | Other | CLI | 4 | 9 | 4 | 4 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | 43656 | 2026-04-24T08:55:59Z | Other | Infrastructure/tooling | 16 | 11 | 17 | 17 |
 | [apache/spark](https://github.com/apache/spark) | 43154 | 2026-04-18T13:18:45Z | Other | Infrastructure/tooling | 7 | 16 | 7 | 7 |
+| [logseq/logseq](https://github.com/logseq/logseq) | 42545 | 2026-05-01T14:44:18Z | Other | Infrastructure/tooling | 14 | 129 | 15 | 15 |
 | [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) | 42376 | 2026-04-21T00:18:56Z | Other | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 41424 | 2026-04-23T10:30:17Z | Other | Infrastructure/tooling | 15 | 11 | 15 | 15 |
 | [saadeghi/daisyui](https://github.com/saadeghi/daisyui) | 40855 | 2026-04-22T17:02:48Z | Other | Infrastructure/tooling | 24 | 17 | 24 | 24 |
@@ -208,7 +216,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) | 38055 | 2026-04-30T16:14:03Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [llvm/llvm-project](https://github.com/llvm/llvm-project) | 37977 | 2026-04-22T01:15:55Z | Other | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [google-research/google-research](https://github.com/google-research/google-research) | 37770 | 2026-04-21T21:37:26Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) | 36662 | 2026-05-01T09:46:53Z | Other | CLI | 3 | 6 | 3 | 3 |
 | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) | 36001 | 2026-04-21T09:36:16Z | Other | Infrastructure/tooling | 11 | 22 | 12 | 12 |
+| [alpinejs/alpine](https://github.com/alpinejs/alpine) | 31504 | 2026-05-01T14:49:51Z | Other | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31026 | 2026-04-30T16:11:14Z | Other | Infrastructure/tooling | 13 | 9 | 13 | 13 |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | 30929 | 2026-04-30T07:44:03Z | Other | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 30196 | 2026-04-24T13:50:47Z | Other | Unknown | 12 | 0 | 12 | 12 |
@@ -241,6 +251,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21391 | 2026-04-13T12:46:28Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) | 20534 | 2026-04-14T18:03:21Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20381 | 2026-04-23T18:17:15Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
+| [crystal-lang/crystal](https://github.com/crystal-lang/crystal) | 20249 | 2026-05-01T10:36:52Z | Other | Infrastructure/tooling | 14 | 12 | 14 | 14 |
 | [sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit) | 20021 | 2026-04-29T13:52:13Z | Other | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [google/fonts](https://github.com/google/fonts) | 19972 | 2026-04-23T10:30:33Z | Other | Infrastructure/tooling | 8 | 22 | 8 | 8 |
 | [realm/SwiftLint](https://github.com/realm/SwiftLint) | 19541 | 2026-04-19T13:35:59Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
@@ -282,11 +293,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile) | 13072 | 2026-04-16T11:33:57Z | Other | Infrastructure/tooling | 19 | 5 | 20 | 20 |
 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 12926 | 2026-04-30T08:02:14Z | Other | Infrastructure/tooling | 11 | 25 | 11 | 11 |
 | [keeweb/keeweb](https://github.com/keeweb/keeweb) | 12913 | 2026-04-30T01:43:13Z | Other | Infrastructure/tooling | 14 | 116 | 14 | 14 |
+| [rubocop/rubocop](https://github.com/rubocop/rubocop) | 12854 | 2026-05-01T08:28:58Z | Other | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [kubernetes/community](https://github.com/kubernetes/community) | 12824 | 2026-04-17T15:47:05Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) | 12780 | 2026-04-08T16:30:34Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) | 12777 | 2026-04-08T15:11:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [actions/runner-images](https://github.com/actions/runner-images) | 12693 | 2026-04-30T16:13:04Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [dotnet/csharplang](https://github.com/dotnet/csharplang) | 12577 | 2026-04-23T06:43:24Z | Other | Unknown | 2 | 0 | 2 | 2 |
+| [BasedHardware/omi](https://github.com/BasedHardware/omi) | 12353 | 2026-05-01T13:12:57Z | Other | Infrastructure/tooling | 18 | 19 | 18 | 18 |
 | [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) | 12298 | 2026-04-26T01:03:17Z | Other | Docs/knowledge | 9 | 0 | 9 | 9 |
 | [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) | 12243 | 2026-04-14T04:41:07Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [hadolint/hadolint](https://github.com/hadolint/hadolint) | 12099 | 2026-04-30T11:16:47Z | Other | Infrastructure/tooling | 12 | 14 | 12 | 12 |
@@ -311,10 +324,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cysharp/UniTask](https://github.com/Cysharp/UniTask) | 10773 | 2026-04-13T12:28:27Z | Other | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [dotnet/orleans](https://github.com/dotnet/orleans) | 10754 | 2026-04-24T01:04:46Z | Other | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [bitcoin/bips](https://github.com/bitcoin/bips) | 10744 | 2026-04-27T15:01:58Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [mdn/content](https://github.com/mdn/content) | 10729 | 2026-05-01T09:53:19Z | Other | Infrastructure/tooling | 12 | 38 | 12 | 12 |
 | [cython/cython](https://github.com/cython/cython) | 10702 | 2026-04-24T10:38:39Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [microsoft/fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) | 10513 | 2026-04-22T17:39:13Z | Other | Infrastructure/tooling | 14 | 40 | 14 | 14 |
 | [dotnet/eShop](https://github.com/dotnet/eShop) | 10383 | 2026-04-21T14:35:49Z | Other | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [reasonml/reason](https://github.com/reasonml/reason) | 10304 | 2026-04-01T12:42:26Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [bitnami/charts](https://github.com/bitnami/charts) | 10335 | 2026-05-02T01:39:09Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim) | 10245 | 2026-04-27T04:28:55Z | Other | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim) | 10179 | 2026-04-10T12:31:17Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [teamcapybara/capybara](https://github.com/teamcapybara/capybara) | 10157 | 2026-04-19T16:06:39Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |

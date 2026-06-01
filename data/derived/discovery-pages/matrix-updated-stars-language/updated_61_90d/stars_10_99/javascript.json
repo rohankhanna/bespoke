@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 25,
-    "terms": 78
+    "components": 262,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 30,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -24,15 +24,20 @@
     "chrisdickinson/varint",
     "coderaiser/estree-to-babel",
     "csstree/stylelint-validator",
+    "dart-lang/site-shared",
     "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
     "Fil/d3-tricontour",
+    "gatsbyjs/gatsby-starter-minimal",
     "haskell-actions/run-fourmolu",
     "hipster-labs/jhipster-daily-builds",
     "hudochenkov/stylelint-config-hudochenkov",
     "Jack-Works/react-refresh-transformer",
     "kddnewton/prettier-plugin-ini",
     "kellyselden/eslint-plugin-json-files",
+    "Level/browser-level",
+    "Level/memory-level",
+    "neverendingqs/serverless-dotenv-example",
     "nodejs/email",
     "npm/json-parse-even-better-errors",
     "OpenHands/openhands-chrome-extension",

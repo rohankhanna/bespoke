@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 226
+- repos: 29
+- terms: 230
 - components: 174
-- concepts: 226
-- observations: 227
+- concepts: 230
+- observations: 231
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | 18230 | 2026-03-02T18:21:25Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 18987 | 2026-02-27T13:12:11Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [Jiayi-Pan/TinyZero](https://github.com/Jiayi-Pan/TinyZero) | 13067 | 2026-02-27T05:42:07Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) | 57208 | 2026-02-26T09:56:49Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 7 |
@@ -73,6 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RasaHQ/rasa](https://github.com/RasaHQ/rasa) | 21146 | 2026-01-29T19:10:46Z | Python | Infrastructure/tooling | 22 | 33 | 22 | 22 |
 | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 20462 | 2026-01-23T17:20:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | 18987 | 2026-02-27T13:12:11Z | Python | Unknown | 7 | 0 | 7 | 7 |
+| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | 18230 | 2026-03-02T18:21:25Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 16386 | 2026-02-05T20:47:09Z | Python | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | 14133 | 2026-02-24T07:47:19Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [andrewyng/aisuite](https://github.com/andrewyng/aisuite) | 13748 | 2025-12-15T23:26:33Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 2 |

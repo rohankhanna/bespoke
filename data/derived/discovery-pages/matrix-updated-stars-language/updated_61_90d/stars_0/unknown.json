@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 23,
-    "terms": 33
+    "components": 47,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 22,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
@@ -33,7 +33,6 @@
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
-    "DiligentGraphics/json",
     "hermit-os/tokio",
     "lakekeeper/nats.rs",
     "PetervanLunteren/EcoAssist-metadata"

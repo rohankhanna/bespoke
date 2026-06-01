@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 11,
-    "terms": 23
+    "components": 56,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 10,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "a16z/arkworks-algebra",
-    "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
     "databendlabs/display-more",
     "EspressoSystems/Push-CDN",
     "gaoyifan/bgptools",

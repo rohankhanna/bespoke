@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4696,
-    "concepts": 1053,
-    "observations": 1053,
-    "repos": 379,
-    "terms": 1040
+    "components": 4730,
+    "concepts": 1061,
+    "observations": 1061,
+    "repos": 381,
+    "terms": 1048
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -266,6 +266,7 @@
     "micromatch/anymatch",
     "micromatch/braces",
     "micromatch/to-regex-range",
+    "microsoft/botbuilder-tools",
     "microsoft/CopilotAdventures",
     "microsoft/DirectX-Debugging-Tools",
     "microsoft/DLWorkspace",
@@ -349,6 +350,7 @@
     "streamich/fs-monkey",
     "surma/rollup-plugin-off-main-thread",
     "sveltejs/eslint-plugin-svelte3",
+    "sveltejs/rollup-plugin-svelte",
     "sveltejs/sapper-template",
     "sveltejs/svelte-virtual-list",
     "sveltejs/template-webpack",

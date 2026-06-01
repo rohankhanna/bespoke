@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 46
-- components: 50
-- concepts: 46
-- observations: 46
+- repos: 6
+- terms: 43
+- components: 46
+- concepts: 43
+- observations: 43
 
 ## Static behavior
 
@@ -32,7 +32,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gookit/cliui](https://github.com/gookit/cliui) | 1 | 2026-05-07T02:00:12Z | Go | CLI | 3 | 9 | 3 | 3 |
 | [cosmos/rosetta](https://github.com/cosmos/rosetta) | 9 | 2026-05-05T03:35:26Z | Go | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [fluxcd/flux-schema](https://github.com/fluxcd/flux-schema) | 4 | 2026-05-02T09:31:03Z | Go | CLI | 8 | 15 | 8 | 8 |
-| [exoscale/karpenter-provider-exoscale](https://github.com/exoscale/karpenter-provider-exoscale) | 3 | 2026-05-01T22:37:45Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -43,5 +42,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [energye/examples](https://github.com/energye/examples) | 4 | 2026-05-08T00:54:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [fluxcd/flux-schema](https://github.com/fluxcd/flux-schema) | 4 | 2026-05-02T09:31:03Z | Go | CLI | 8 | 15 | 8 | 8 |
 | [apache/casbin-fasthttp-auth](https://github.com/apache/casbin-fasthttp-auth) | 3 | 2026-05-15T19:08:31Z | Go | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [exoscale/karpenter-provider-exoscale](https://github.com/exoscale/karpenter-provider-exoscale) | 3 | 2026-05-01T22:37:45Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [gookit/cliui](https://github.com/gookit/cliui) | 1 | 2026-05-07T02:00:12Z | Go | CLI | 3 | 9 | 3 | 3 |

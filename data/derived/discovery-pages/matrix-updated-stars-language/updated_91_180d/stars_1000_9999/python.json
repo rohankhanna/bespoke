@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 392,
-    "concepts": 808,
-    "observations": 809,
-    "repos": 168,
-    "terms": 794
+    "components": 420,
+    "concepts": 831,
+    "observations": 832,
+    "repos": 171,
+    "terms": 817
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -30,6 +30,7 @@
     "apple/ml-hypersim",
     "aqlaboratory/openfold",
     "ARISE-Initiative/robomimic",
+    "ARISE-Initiative/robosuite",
     "baaivision/Emu",
     "baaivision/Emu3",
     "bazelbuild/starlark",
@@ -56,6 +57,7 @@
     "cvg/Hierarchical-Localization",
     "cvg/LightGlue",
     "daijro/browserforge",
+    "dateutil/dateutil",
     "davidhalter/jedi-vim",
     "descriptinc/descript-audio-codec",
     "DigitalPhonetics/IMS-Toucan",
@@ -147,6 +149,7 @@
     "python-lsp/python-lsp-server",
     "Python-Markdown/markdown",
     "python-rope/rope",
+    "python-semantic-release/python-semantic-release",
     "pytorch/extension-cpp",
     "pyusb/pyusb",
     "qix-/better-exceptions",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 23
-- components: 61
-- concepts: 23
-- observations: 23
+- repos: 10
+- terms: 18
+- components: 56
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -36,7 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sigp/quick-protobuf](https://github.com/sigp/quick-protobuf) | 2 | 2026-03-09T08:43:12Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [a16z/arkworks-algebra](https://github.com/a16z/arkworks-algebra) | 4 | 2026-03-04T20:01:15Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [Layr-Labs/incredible-squaring-avs-rs](https://github.com/Layr-Labs/incredible-squaring-avs-rs) | 8 | 2026-03-03T20:35:56Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -44,7 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Layr-Labs/incredible-squaring-avs-rs](https://github.com/Layr-Labs/incredible-squaring-avs-rs) | 8 | 2026-03-03T20:35:56Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [gaoyifan/bgptools](https://github.com/gaoyifan/bgptools) | 7 | 2026-03-31T23:28:45Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [EspressoSystems/Push-CDN](https://github.com/EspressoSystems/Push-CDN) | 5 | 2026-03-30T17:51:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [vectordotdev/heim](https://github.com/vectordotdev/heim) | 5 | 2026-03-13T20:53:57Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [openobserve/vector](https://github.com/openobserve/vector) | 4 | 2026-03-16T09:31:24Z | Rust | Infrastructure/tooling | 8 | 12 | 8 | 8 |

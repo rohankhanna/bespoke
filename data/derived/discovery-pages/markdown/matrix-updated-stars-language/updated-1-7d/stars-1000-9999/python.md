@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 28
-- terms: 263
+- terms: 252
 - components: 200
-- concepts: 264
-- observations: 265
+- concepts: 253
+- observations: 254
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4143 | 2026-05-30T06:44:32Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2195 | 2026-05-30T06:36:27Z | Python | CLI | 10 | 8 | 10 | 10 |
 | [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8392 | 2026-05-30T01:35:09Z | Python | Infrastructure/tooling | 9 | 19 | 9 | 9 |
@@ -53,13 +54,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [huggingface/finetrainers](https://github.com/huggingface/finetrainers) | 1358 | 2026-05-26T10:33:13Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [roboflow/maestro](https://github.com/roboflow/maestro) | 2675 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [modelscope/FunClip](https://github.com/modelscope/FunClip) | 5713 | 2026-05-25T16:59:38Z | Python | CLI | 11 | 0 | 12 | 12 |
-| [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) | 9967 | 2026-05-24T09:50:15Z | Python | Infrastructure/tooling | 16 | 7 | 16 | 16 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) | 9967 | 2026-05-24T09:50:15Z | Python | Infrastructure/tooling | 16 | 7 | 16 | 16 |
 | [aws/serverless-application-model](https://github.com/aws/serverless-application-model) | 9559 | 2026-05-29T21:51:53Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8392 | 2026-05-30T01:35:09Z | Python | Infrastructure/tooling | 9 | 19 | 9 | 9 |
 | [bitsandbytes-foundation/bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes) | 8237 | 2026-05-29T20:25:10Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
@@ -76,6 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3758 | 2026-05-29T08:55:41Z | Python | Infrastructure/tooling | 7 | 23 | 7 | 7 |
 | [google-deepmind/dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3233 | 2026-05-29T06:17:57Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [roboflow/maestro](https://github.com/roboflow/maestro) | 2675 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2271 | 2026-05-29T19:28:52Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2195 | 2026-05-30T06:36:27Z | Python | CLI | 10 | 8 | 10 | 10 |

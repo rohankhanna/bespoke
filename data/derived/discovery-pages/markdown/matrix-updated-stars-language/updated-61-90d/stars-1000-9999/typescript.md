@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 293
-- components: 1429
-- concepts: 271
-- observations: 271
+- repos: 45
+- terms: 314
+- components: 1456
+- concepts: 292
+- observations: 293
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) | 8586 | 2026-04-01T21:17:04Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
+| [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources) | 1815 | 2026-04-01T15:10:58Z | TypeScript | Unknown | 6 | 0 | 6 | 6 |
+| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | 8514 | 2026-04-01T13:30:54Z | TypeScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch) | 1179 | 2026-04-01T11:04:08Z | TypeScript | Infrastructure/tooling | 8 | 25 | 8 | 9 |
 | [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) | 1884 | 2026-04-01T04:52:27Z | TypeScript | Infrastructure/tooling | 13 | 46 | 13 | 13 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | 4949 | 2026-03-31T04:12:28Z | TypeScript | Infrastructure/tooling | 8 | 2 | 9 | 9 |
 | [josdejong/svelte-jsoneditor](https://github.com/josdejong/svelte-jsoneditor) | 1222 | 2026-03-30T08:59:09Z | TypeScript | Infrastructure/tooling | 5 | 85 | 6 | 6 |
@@ -67,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antfu-collective/vitesse-lite](https://github.com/antfu-collective/vitesse-lite) | 1245 | 2026-03-06T05:50:16Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [arktypeio/arktype](https://github.com/arktypeio/arktype) | 7749 | 2026-03-04T20:19:48Z | TypeScript | Infrastructure/tooling | 5 | 30 | 5 | 5 |
 | [antfu-collective/vitesse-webext](https://github.com/antfu-collective/vitesse-webext) | 3368 | 2026-03-03T12:41:03Z | TypeScript | Web app | 3 | 37 | 3 | 3 |
-| [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -77,6 +80,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coaidev/coai](https://github.com/coaidev/coai) | 9086 | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [infinitered/nsfwjs](https://github.com/infinitered/nsfwjs) | 8852 | 2026-03-18T13:51:07Z | TypeScript | CLI | 7 | 16 | 7 | 7 |
 | [isaacs/node-glob](https://github.com/isaacs/node-glob) | 8721 | 2026-03-23T01:52:36Z | TypeScript | Infrastructure/tooling | 1 | 19 | 1 | 1 |
+| [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) | 8586 | 2026-04-01T21:17:04Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |
+| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | 8514 | 2026-04-01T13:30:54Z | TypeScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) | 8036 | 2026-03-22T03:38:39Z | TypeScript | Infrastructure/tooling | 19 | 59 | 19 | 19 |
 | [markdoc/markdoc](https://github.com/markdoc/markdoc) | 8004 | 2026-03-26T03:37:33Z | TypeScript | Infrastructure/tooling | 6 | 23 | 7 | 7 |
 | [arktypeio/arktype](https://github.com/arktypeio/arktype) | 7749 | 2026-03-04T20:19:48Z | TypeScript | Infrastructure/tooling | 5 | 30 | 5 | 5 |
@@ -87,7 +92,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vercel/next-learn](https://github.com/vercel/next-learn) | 4710 | 2026-03-29T16:38:36Z | TypeScript | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [Ironclad/rivet](https://github.com/Ironclad/rivet) | 4541 | 2026-03-20T17:34:24Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
 | [obsidian-community/obsidian-kanban](https://github.com/obsidian-community/obsidian-kanban) | 4307 | 2026-03-06T17:40:01Z | TypeScript | Infrastructure/tooling | 4 | 57 | 4 | 4 |
-| [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) | 4147 | 2026-03-02T13:27:47Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [argos-ci/jest-puppeteer](https://github.com/argos-ci/jest-puppeteer) | 3546 | 2026-03-26T23:40:00Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [standard-schema/standard-schema](https://github.com/standard-schema/standard-schema) | 3486 | 2026-03-08T20:52:13Z | TypeScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [antfu-collective/vitesse-webext](https://github.com/antfu-collective/vitesse-webext) | 3368 | 2026-03-03T12:41:03Z | TypeScript | Web app | 3 | 37 | 3 | 3 |
@@ -101,6 +105,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes) | 1884 | 2026-04-01T04:52:27Z | TypeScript | Infrastructure/tooling | 13 | 46 | 13 | 13 |
 | [enisdenjo/graphql-ws](https://github.com/enisdenjo/graphql-ws) | 1861 | 2026-03-26T19:44:41Z | TypeScript | CLI | 19 | 33 | 19 | 19 |
 | [actions/download-artifact](https://github.com/actions/download-artifact) | 1824 | 2026-03-18T12:43:40Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
+| [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources) | 1815 | 2026-04-01T15:10:58Z | TypeScript | Unknown | 6 | 0 | 6 | 6 |
 | [ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js) | 1708 | 2026-03-21T10:27:43Z | TypeScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [obsidian-community/obsidian-zotero-integration](https://github.com/obsidian-community/obsidian-zotero-integration) | 1653 | 2026-03-06T17:39:40Z | TypeScript | Infrastructure/tooling | 3 | 44 | 3 | 3 |
 | [aleclarson/vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) | 1620 | 2026-03-29T18:46:37Z | TypeScript | Infrastructure/tooling | 0 | 20 | 0 | 0 |
@@ -111,6 +116,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antfu-collective/vitesse-lite](https://github.com/antfu-collective/vitesse-lite) | 1245 | 2026-03-06T05:50:16Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [josdejong/svelte-jsoneditor](https://github.com/josdejong/svelte-jsoneditor) | 1222 | 2026-03-30T08:59:09Z | TypeScript | Infrastructure/tooling | 5 | 85 | 6 | 6 |
 | [graphql-hive/graphql-config](https://github.com/graphql-hive/graphql-config) | 1200 | 2026-03-25T21:54:45Z | TypeScript | Infrastructure/tooling | 11 | 42 | 11 | 11 |
+| [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch) | 1179 | 2026-04-01T11:04:08Z | TypeScript | Infrastructure/tooling | 8 | 25 | 8 | 9 |
 | [REditorSupport/vscode-R](https://github.com/REditorSupport/vscode-R) | 1164 | 2026-03-26T01:09:07Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
 | [jamiebrynes7/obsidian-todoist-plugin](https://github.com/jamiebrynes7/obsidian-todoist-plugin) | 1159 | 2026-03-15T15:36:24Z | TypeScript | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [Myriad-Dreamin/typst.ts](https://github.com/Myriad-Dreamin/typst.ts) | 1086 | 2026-03-17T12:34:19Z | TypeScript | Infrastructure/tooling | 9 | 48 | 9 | 9 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 379
-- terms: 1040
-- components: 4696
-- concepts: 1053
-- observations: 1053
+- repos: 381
+- terms: 1048
+- components: 4730
+- concepts: 1061
+- observations: 1061
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/botbuilder-tools](https://github.com/microsoft/botbuilder-tools) | 446 | 2025-12-03T00:43:38Z | JavaScript | Web app | 8 | 21 | 8 | 8 |
+| [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) | 514 | 2025-12-02T21:45:54Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [restify/errors](https://github.com/restify/errors) | 145 | 2025-11-25T21:17:12Z | JavaScript | Infrastructure/tooling | 0 | 17 | 0 | 0 |
 | [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [charmbracelet/tree-sitter-vhs](https://github.com/charmbracelet/tree-sitter-vhs) | 116 | 2025-11-24T11:43:55Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -512,6 +514,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [d3/d3-contour](https://github.com/d3/d3-contour) | 517 | 2024-11-26T10:43:03Z | JavaScript | Infrastructure/tooling | 1 | 18 | 1 | 1 |
 | [APIDevTools/swagger-cli](https://github.com/APIDevTools/swagger-cli) | 517 | 2023-11-15T11:23:27Z | JavaScript | CLI | 7 | 18 | 8 | 8 |
 | [captainsafia/fony](https://github.com/captainsafia/fony) | 517 | 2021-12-07T15:53:54Z | JavaScript | CLI | 0 | 2 | 0 | 0 |
+| [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) | 514 | 2025-12-02T21:45:54Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [turboderp-org/exui](https://github.com/turboderp-org/exui) | 511 | 2025-02-05T22:50:35Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [discordjs/RPC](https://github.com/discordjs/RPC) | 507 | 2024-08-15T04:48:43Z | JavaScript | CLI | 2 | 14 | 2 | 2 |
 | [swagger-autogen/swagger-autogen](https://github.com/swagger-autogen/swagger-autogen) | 507 | 2024-03-02T02:37:13Z | JavaScript | Docs/knowledge | 8 | 8 | 8 | 8 |
@@ -538,6 +541,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [d3/d3-array](https://github.com/d3/d3-array) | 464 | 2025-03-16T16:02:59Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [TooTallNate/ref](https://github.com/TooTallNate/ref) | 457 | 2023-08-08T20:19:08Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [webpack/node-libs-browser](https://github.com/webpack/node-libs-browser) | 450 | 2021-11-22T13:41:06Z | JavaScript | Web app | 0 | 23 | 0 | 0 |
+| [microsoft/botbuilder-tools](https://github.com/microsoft/botbuilder-tools) | 446 | 2025-12-03T00:43:38Z | JavaScript | Web app | 8 | 21 | 8 | 8 |
 | [rollup/rollup-starter-app](https://github.com/rollup/rollup-starter-app) | 446 | 2022-12-26T08:57:30Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [d3/d3-dsv](https://github.com/d3/d3-dsv) | 445 | 2024-01-05T20:33:36Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [zalo/mujoco_wasm](https://github.com/zalo/mujoco_wasm) | 440 | 2025-11-08T02:39:51Z | JavaScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |

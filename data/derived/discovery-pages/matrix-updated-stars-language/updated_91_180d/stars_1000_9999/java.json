@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 6,
-    "terms": 22
+    "components": 23,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 7,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "aliyun/aliyun-oss-java-sdk",
     "apache/incubator-seata-samples",
     "caprica/vlcj",
     "cjlin1/libsvm",
     "json-path/JsonPath",
-    "jtablesaw/tablesaw"
+    "jtablesaw/tablesaw",
+    "julian-klode/dns66"
   ]
 }

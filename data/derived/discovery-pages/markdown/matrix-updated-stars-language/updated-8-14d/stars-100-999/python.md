@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 46
-- components: 40
-- concepts: 46
-- observations: 46
+- repos: 12
+- terms: 60
+- components: 58
+- concepts: 60
+- observations: 60
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 659 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 684 | 2026-05-25T02:21:36Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [satan53x/SExtractor](https://github.com/satan53x/SExtractor) | 468 | 2026-05-24T06:00:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [pypa/setuptools-scm](https://github.com/pypa/setuptools-scm) | 948 | 2026-05-22T19:11:35Z | Python | Infrastructure/tooling | 9 | 18 | 9 | 9 |
@@ -43,6 +45,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [pypa/setuptools-scm](https://github.com/pypa/setuptools-scm) | 948 | 2026-05-22T19:11:35Z | Python | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [google-deepmind/xmanager](https://github.com/google-deepmind/xmanager) | 912 | 2026-05-18T13:58:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 684 | 2026-05-25T02:21:36Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 659 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [satan53x/SExtractor](https://github.com/satan53x/SExtractor) | 468 | 2026-05-24T06:00:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [python-poetry/poetry-plugin-export](https://github.com/python-poetry/poetry-plugin-export) | 333 | 2026-05-18T21:47:45Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |

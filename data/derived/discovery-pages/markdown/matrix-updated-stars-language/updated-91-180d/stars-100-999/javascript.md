@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 144
-- components: 897
-- concepts: 144
-- observations: 145
+- repos: 49
+- terms: 139
+- components: 870
+- concepts: 140
+- observations: 141
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 3 | 7 | 4 | 4 |
 | [usnistgov/jsfive](https://github.com/usnistgov/jsfive) | 117 | 2026-03-01T19:45:33Z | JavaScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [asdf-vm/actions](https://github.com/asdf-vm/actions) | 162 | 2026-03-01T16:02:27Z | JavaScript | Infrastructure/tooling | 8 | 17 | 8 | 9 |
 | [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
@@ -74,8 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/lang-team](https://github.com/rust-lang/lang-team) | 211 | 2025-12-07T10:41:15Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [nodejs/abi-stable-node](https://github.com/nodejs/abi-stable-node) | 248 | 2025-12-05T15:13:25Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
 | [dcoapp/app](https://github.com/dcoapp/app) | 333 | 2025-12-04T16:57:31Z | JavaScript | Infrastructure/tooling | 5 | 9 | 5 | 5 |
-| [microsoft/botbuilder-tools](https://github.com/microsoft/botbuilder-tools) | 446 | 2025-12-03T00:43:38Z | JavaScript | Web app | 8 | 21 | 8 | 8 |
-| [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) | 514 | 2025-12-02T21:45:54Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -91,9 +90,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/citgm](https://github.com/nodejs/citgm) | 595 | 2025-12-22T16:46:53Z | JavaScript | Infrastructure/tooling | 7 | 39 | 7 | 7 |
 | [stsquad/emacs_chrome](https://github.com/stsquad/emacs_chrome) | 538 | 2026-01-05T09:07:01Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [lit/lit-element-starter-ts](https://github.com/lit/lit-element-starter-ts) | 535 | 2025-12-23T21:58:37Z | JavaScript | Unknown | 0 | 22 | 0 | 0 |
-| [sveltejs/rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) | 514 | 2025-12-02T21:45:54Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
+| [kepano/defuddle-cli](https://github.com/kepano/defuddle-cli) | 500 | 2026-03-02T14:54:31Z | JavaScript | CLI | 3 | 7 | 4 | 4 |
 | [RJWadley/stylelint-no-unsupported-browser-features](https://github.com/RJWadley/stylelint-no-unsupported-browser-features) | 451 | 2026-02-03T18:34:40Z | JavaScript | Infrastructure/tooling | 6 | 28 | 6 | 6 |
-| [microsoft/botbuilder-tools](https://github.com/microsoft/botbuilder-tools) | 446 | 2025-12-03T00:43:38Z | JavaScript | Web app | 8 | 21 | 8 | 8 |
 | [prebuild/prebuild](https://github.com/prebuild/prebuild) | 444 | 2026-02-07T12:12:56Z | JavaScript | CLI | 4 | 25 | 4 | 4 |
 | [sindresorhus/env-paths](https://github.com/sindresorhus/env-paths) | 440 | 2026-01-24T14:29:07Z | JavaScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |

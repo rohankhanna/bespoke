@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 33
-- components: 18
-- concepts: 34
-- observations: 34
+- repos: 4
+- terms: 45
+- components: 43
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13632 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 20 | 7 | 21 | 21 |
 
@@ -34,4 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 71263 | 2026-05-23T23:00:18Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
+| [apache/brpc](https://github.com/apache/brpc) | 17505 | 2026-05-25T03:57:25Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [isl-org/Open3D](https://github.com/isl-org/Open3D) | 13632 | 2026-05-23T22:29:32Z | C/C++ | Infrastructure/tooling | 20 | 7 | 21 | 21 |
+| [HIllya51/LunaTranslator](https://github.com/HIllya51/LunaTranslator) | 11643 | 2026-05-24T10:24:52Z | C/C++ | Infrastructure/tooling | 8 | 19 | 8 | 8 |

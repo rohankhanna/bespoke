@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 253
-- components: 220
-- concepts: 254
-- observations: 255
+- repos: 39
+- terms: 266
+- components: 225
+- concepts: 267
+- observations: 268
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hebcal/hebcal](https://github.com/hebcal/hebcal) | 178 | 2026-03-02T23:47:05Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [aws/amazon-ec2-spot-interrupter](https://github.com/aws/amazon-ec2-spot-interrupter) | 108 | 2026-03-02T16:44:29Z | Go | CLI | 6 | 3 | 6 | 6 |
 | [Antonboom/testifylint](https://github.com/Antonboom/testifylint) | 164 | 2026-03-01T09:04:07Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [alexkohler/prealloc](https://github.com/alexkohler/prealloc) | 664 | 2026-02-26T22:09:13Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [omniscale/imposm3](https://github.com/omniscale/imposm3) | 772 | 2026-02-25T08:49:11Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -63,7 +65,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [node-real/bsc-erigon](https://github.com/node-real/bsc-erigon) | 165 | 2025-12-08T13:05:30Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [bshuster-repo/logrus-logstash-hook](https://github.com/bshuster-repo/logrus-logstash-hook) | 203 | 2025-12-05T02:42:46Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [Masterminds/vcs](https://github.com/Masterminds/vcs) | 203 | 2025-12-04T14:52:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [ethereum-optimism/asterisc](https://github.com/ethereum-optimism/asterisc) | 109 | 2025-12-02T10:39:58Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -96,12 +97,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [appbaseio/reactivesearch-api](https://github.com/appbaseio/reactivesearch-api) | 211 | 2026-02-23T18:13:18Z | Go | Infrastructure/tooling | 12 | 13 | 12 | 12 |
 | [bshuster-repo/logrus-logstash-hook](https://github.com/bshuster-repo/logrus-logstash-hook) | 203 | 2025-12-05T02:42:46Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [Masterminds/vcs](https://github.com/Masterminds/vcs) | 203 | 2025-12-04T14:52:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [hebcal/hebcal](https://github.com/hebcal/hebcal) | 178 | 2026-03-02T23:47:05Z | Go | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [oceanbase/ob-operator](https://github.com/oceanbase/ob-operator) | 168 | 2026-02-05T06:20:55Z | Go | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [node-real/bsc-erigon](https://github.com/node-real/bsc-erigon) | 165 | 2025-12-08T13:05:30Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [Antonboom/testifylint](https://github.com/Antonboom/testifylint) | 164 | 2026-03-01T09:04:07Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [cloudpilot-ai/karpenter-provider-alibabacloud](https://github.com/cloudpilot-ai/karpenter-provider-alibabacloud) | 152 | 2026-02-11T06:14:33Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [alexkohler/nakedret](https://github.com/alexkohler/nakedret) | 131 | 2026-02-01T01:47:11Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [ethereum-optimism/asterisc](https://github.com/ethereum-optimism/asterisc) | 109 | 2025-12-02T10:39:58Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [aws/amazon-ec2-spot-interrupter](https://github.com/aws/amazon-ec2-spot-interrupter) | 108 | 2026-03-02T16:44:29Z | Go | CLI | 6 | 3 | 6 | 6 |
 | [proxy-wasm/proxy-wasm-go-sdk](https://github.com/proxy-wasm/proxy-wasm-go-sdk) | 108 | 2026-01-05T14:27:03Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [argoproj-labs/argocd-rbac-operator](https://github.com/argoproj-labs/argocd-rbac-operator) | 107 | 2026-02-20T22:34:42Z | Go | Infrastructure/tooling | 13 | 19 | 13 | 13 |
 | [connectrpc/grpcreflect-go](https://github.com/connectrpc/grpcreflect-go) | 106 | 2026-01-23T14:04:50Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |

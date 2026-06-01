@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 188
-- components: 189
-- concepts: 183
-- observations: 183
+- repos: 38
+- terms: 192
+- components: 193
+- concepts: 189
+- observations: 189
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) | 3609 | 2026-03-02T11:06:58Z | Go | CLI | 4 | 4 | 6 | 6 |
 | [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) | 1511 | 2026-03-01T23:27:09Z | Go | CLI | 4 | 5 | 4 | 4 |
 | [tidwall/btree](https://github.com/tidwall/btree) | 1213 | 2026-02-28T09:44:19Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [opencontainers/image-spec](https://github.com/opencontainers/image-spec) | 4237 | 2026-02-26T10:21:22Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -82,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [opencontainers/image-spec](https://github.com/opencontainers/image-spec) | 4237 | 2026-02-26T10:21:22Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [github/git-sizer](https://github.com/github/git-sizer) | 4018 | 2026-01-16T14:50:04Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [dagger/container-use](https://github.com/dagger/container-use) | 3730 | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
+| [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) | 3609 | 2026-03-02T11:06:58Z | Go | CLI | 4 | 4 | 6 | 6 |
 | [sony/gobreaker](https://github.com/sony/gobreaker) | 3597 | 2026-02-07T09:21:38Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [nutsdb/nutsdb](https://github.com/nutsdb/nutsdb) | 3565 | 2026-02-08T02:02:28Z | Go | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [protocolbuffers/protobuf-go](https://github.com/protocolbuffers/protobuf-go) | 3317 | 2026-01-20T15:10:56Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |

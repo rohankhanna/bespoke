@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
-- terms: 380
+- repos: 193
+- terms: 387
 - components: 515
-- concepts: 386
-- observations: 389
+- concepts: 393
+- observations: 396
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [catch-twenty-two/rust-ssd](https://github.com/catch-twenty-two/rust-ssd) | 13 | 2025-12-02T18:59:15Z | Rust | Framework | 7 | 0 | 7 | 7 |
 | [ifsheldon/async-openai-wasm](https://github.com/ifsheldon/async-openai-wasm) | 21 | 2025-12-02T07:40:33Z | Rust | Library | 0 | 0 | 0 | 0 |
 | [BoltzExchange/hold](https://github.com/BoltzExchange/hold) | 10 | 2025-12-01T20:39:10Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [algorealmInc/SwarmNL](https://github.com/algorealmInc/SwarmNL) | 32 | 2025-11-23T04:43:46Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -392,6 +393,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diem/diem-devtools](https://github.com/diem/diem-devtools) | 14 | 2023-06-30T10:16:04Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [adamgreig/jtagdap](https://github.com/adamgreig/jtagdap) | 14 | 2022-11-03T01:49:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [celo-org/plumo-prover](https://github.com/celo-org/plumo-prover) | 14 | 2022-01-04T22:19:45Z | Rust | CLI | 0 | 0 | 0 | 0 |
+| [catch-twenty-two/rust-ssd](https://github.com/catch-twenty-two/rust-ssd) | 13 | 2025-12-02T18:59:15Z | Rust | Framework | 7 | 0 | 7 | 7 |
 | [UnstoppableSwap/wallet](https://github.com/UnstoppableSwap/wallet) | 13 | 2025-07-06T17:20:33Z | Rust | Infrastructure/tooling | 5 | 23 | 5 | 5 |
 | [antoyo/rustc_codegen_gcc](https://github.com/antoyo/rustc_codegen_gcc) | 13 | 2025-02-06T16:08:40Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [arkworks-rs/gm17](https://github.com/arkworks-rs/gm17) | 13 | 2024-10-29T05:09:55Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |

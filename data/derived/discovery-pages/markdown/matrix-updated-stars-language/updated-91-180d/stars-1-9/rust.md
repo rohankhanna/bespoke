@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 26
-- components: 71
-- concepts: 26
-- observations: 26
+- repos: 26
+- terms: 31
+- components: 76
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [marxin/mdbook-linkcheck2](https://github.com/marxin/mdbook-linkcheck2) | 3 | 2026-02-28T17:56:07Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [near/near-abi-client-rs](https://github.com/near/near-abi-client-rs) | 7 | 2026-02-17T22:04:43Z | Rust | CLI | 2 | 4 | 2 | 2 |
 | [near/near-abi-rs](https://github.com/near/near-abi-rs) | 8 | 2026-02-17T19:24:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -58,6 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [near/near-abi-rs](https://github.com/near/near-abi-rs) | 8 | 2026-02-17T19:24:08Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [0b01/tigris-and-euphrates](https://github.com/0b01/tigris-and-euphrates) | 8 | 2026-02-01T09:33:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [cfrg/draft-irtf-cfrg-concrete-hybrid-kems](https://github.com/cfrg/draft-irtf-cfrg-concrete-hybrid-kems) | 7 | 2026-03-02T23:37:06Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [near/near-abi-client-rs](https://github.com/near/near-abi-client-rs) | 7 | 2026-02-17T22:04:43Z | Rust | CLI | 2 | 4 | 2 | 2 |
 | [LaurenzV/sitro](https://github.com/LaurenzV/sitro) | 7 | 2026-01-06T14:16:02Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [guoqingbao/rustchatui](https://github.com/guoqingbao/rustchatui) | 6 | 2026-01-14T11:34:46Z | Rust | Library | 0 | 0 | 0 | 0 |

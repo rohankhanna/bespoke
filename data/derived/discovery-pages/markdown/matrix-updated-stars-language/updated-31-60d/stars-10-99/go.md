@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 104
-- terms: 440
-- components: 668
-- concepts: 444
-- observations: 447
+- repos: 99
+- terms: 422
+- components: 639
+- concepts: 426
+- observations: 429
 
 ## Static behavior
 
@@ -125,11 +125,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [yomidevs/yomitan-import](https://github.com/yomidevs/yomitan-import) | 29 | 2026-04-07T01:24:32Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [opea-project/GenAIInfra](https://github.com/opea-project/GenAIInfra) | 73 | 2026-04-06T22:42:55Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [cloudwego/kitex-benchmark](https://github.com/cloudwego/kitex-benchmark) | 63 | 2026-04-02T03:37:02Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
-| [hashicorp/go-netaddrs](https://github.com/hashicorp/go-netaddrs) | 22 | 2026-04-02T02:46:00Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [gopasspw/gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) | 69 | 2026-04-02T01:48:26Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [magodo/tfadd](https://github.com/magodo/tfadd) | 97 | 2026-04-02T01:09:25Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [astro-han/diffpane](https://github.com/Astro-Han/diffpane) | 11 | 2026-04-01T12:44:05Z | Go | CLI | 9 | 3 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -137,7 +132,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [openshift/kubernetes](https://github.com/openshift/kubernetes) | 99 | 2026-04-28T17:32:48Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [Kong/kong-operator](https://github.com/Kong/kong-operator) | 98 | 2026-04-29T16:20:30Z | Go | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [magodo/tfadd](https://github.com/magodo/tfadd) | 97 | 2026-04-02T01:09:25Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ebitengine/debugui](https://github.com/ebitengine/debugui) | 96 | 2026-04-23T15:18:26Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [terraform-linters/tflint-ruleset-google](https://github.com/terraform-linters/tflint-ruleset-google) | 96 | 2026-04-21T19:46:19Z | Go | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [connectrpc/grpchealth-go](https://github.com/connectrpc/grpchealth-go) | 94 | 2026-04-20T17:06:52Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -159,11 +153,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [opea-project/GenAIInfra](https://github.com/opea-project/GenAIInfra) | 73 | 2026-04-06T22:42:55Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [sigstore/helm-sigstore](https://github.com/sigstore/helm-sigstore) | 69 | 2026-04-24T20:09:45Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [aldernero/sketchy](https://github.com/aldernero/sketchy) | 69 | 2026-04-15T01:42:18Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [gopasspw/gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) | 69 | 2026-04-02T01:48:26Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [cloudfoundry/cf-networking-release](https://github.com/cloudfoundry/cf-networking-release) | 68 | 2026-04-29T14:55:49Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cloudfoundry/cf-acceptance-tests](https://github.com/cloudfoundry/cf-acceptance-tests) | 68 | 2026-04-28T13:10:44Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aws/aws-network-policy-agent](https://github.com/aws/aws-network-policy-agent) | 67 | 2026-04-22T21:07:37Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [cloudwego/kitex-benchmark](https://github.com/cloudwego/kitex-benchmark) | 63 | 2026-04-02T03:37:02Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [usbarmory/tamago-go](https://github.com/usbarmory/tamago-go) | 58 | 2026-04-08T11:29:36Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [cmdjulian/mopy](https://github.com/cmdjulian/mopy) | 57 | 2026-04-15T19:57:09Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 4 |
 | [defilantech/LLMKube](https://github.com/defilantech/LLMKube) | 56 | 2026-04-21T20:34:12Z | Go | Infrastructure/tooling | 23 | 13 | 23 | 23 |
@@ -211,7 +203,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ankitpokhrel/shopctl](https://github.com/ankitpokhrel/shopctl) | 23 | 2026-05-01T06:55:52Z | Go | CLI | 12 | 7 | 12 | 12 |
 | [benchsci/rules_nodejs_gazelle](https://github.com/benchsci/rules_nodejs_gazelle) | 22 | 2026-04-14T18:54:48Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [ionos-cloud/external-dns-ionos-webhook](https://github.com/ionos-cloud/external-dns-ionos-webhook) | 22 | 2026-04-07T12:15:18Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
-| [hashicorp/go-netaddrs](https://github.com/hashicorp/go-netaddrs) | 22 | 2026-04-02T02:46:00Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [blinklabs-io/bluefin](https://github.com/blinklabs-io/bluefin) | 20 | 2026-04-19T14:17:29Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [tilt-dev/tilt-apiserver](https://github.com/tilt-dev/tilt-apiserver) | 20 | 2026-04-09T15:43:05Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [kubernetes-sigs/provider-aws-test-infra](https://github.com/kubernetes-sigs/provider-aws-test-infra) | 19 | 2026-04-23T13:18:48Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -235,7 +226,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usbarmory/tamago-sev-example](https://github.com/usbarmory/tamago-sev-example) | 11 | 2026-04-30T13:19:25Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [kubernetes-sigs/karpenter-provider-ibm-cloud](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud) | 11 | 2026-04-30T11:20:31Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [aspect-build/aspect-gazelle](https://github.com/aspect-build/aspect-gazelle) | 11 | 2026-04-23T04:27:08Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [astro-han/diffpane](https://github.com/Astro-Han/diffpane) | 11 | 2026-04-01T12:44:05Z | Go | CLI | 9 | 3 | 9 | 9 |
 | [kubernetes-sigs/verify-conformance](https://github.com/kubernetes-sigs/verify-conformance) | 10 | 2026-04-22T18:56:28Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [gopasspw/gopass-hibp](https://github.com/gopasspw/gopass-hibp) | 10 | 2026-04-20T23:29:50Z | Go | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [abhinav/goldmark-anchor](https://github.com/abhinav/goldmark-anchor) | 10 | 2026-04-13T22:16:32Z | Go | Infrastructure/tooling | 2 | 5 | 3 | 3 |

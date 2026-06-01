@@ -3,7 +3,7 @@
     "components": 559,
     "concepts": 768,
     "observations": 768,
-    "repos": 187,
+    "repos": 188,
     "terms": 754
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -87,6 +87,7 @@
     "docker-archive/compose-cli",
     "dsnet/compress",
     "DyegoCosta/snake-game",
+    "ethereum-optimism/asterisc",
     "evanmiller/hecate",
     "fasmide/remotemoe",
     "fasthttp/websocket",

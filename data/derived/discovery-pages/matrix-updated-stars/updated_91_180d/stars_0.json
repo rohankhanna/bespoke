@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 258,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 79,
-    "terms": 99
+    "components": 279,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 83,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -28,6 +28,7 @@
     "bgw/bincode",
     "CADindustries/container",
     "charlesnicholson/docker-images",
+    "ChiehHsinJesseLai/ctm-notebook",
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
     "danielrosehill/Agent-Deploy",
@@ -53,9 +54,11 @@
     "DataDog/go-cmp",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
+    "DiligentGraphics/args",
     "DiligentGraphics/glfw",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
+    "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "EspressoSystems/jellyfish-compat",
@@ -90,6 +93,7 @@
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "vovkos/luadoxyxml",
     "wintercg/fetch",
+    "yoshoku/numo-liblinear",
     "youngsofun/rust-csv",
     "zcash/MultiMarkdown-6"
   ]

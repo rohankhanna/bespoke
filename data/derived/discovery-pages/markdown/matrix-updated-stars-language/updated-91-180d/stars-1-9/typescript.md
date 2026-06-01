@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
+- repos: 18
 - terms: 78
 - components: 152
 - concepts: 78
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jspreadsheet/spreadsheet-react-server](https://github.com/jspreadsheet/spreadsheet-react-server) | 1 | 2026-03-02T18:04:45Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [ipfs/helia-delegated-routing-v1-http-api](https://github.com/ipfs/helia-delegated-routing-v1-http-api) | 4 | 2026-03-01T15:58:29Z | TypeScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [andrasg/matterbridge-loxone](https://github.com/andrasg/matterbridge-loxone) | 5 | 2026-03-01T12:51:48Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
 | [PBK-B/i18next-cli-vue](https://github.com/PBK-B/i18next-cli-vue) | 2 | 2026-02-27T10:28:34Z | TypeScript | CLI | 6 | 20 | 6 | 6 |
@@ -61,6 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aleclarson/vite-postgres](https://github.com/aleclarson/vite-postgres) | 2 | 2026-01-26T21:11:18Z | TypeScript | Service/API | 0 | 12 | 0 | 0 |
 | [The-Focus-AI/buttondown-skill](https://github.com/The-Focus-AI/buttondown-skill) | 2 | 2026-01-17T13:33:49Z | TypeScript | Unknown | 4 | 0 | 4 | 4 |
 | [vim-fall/deno-fall-extra](https://github.com/vim-fall/deno-fall-extra) | 2 | 2026-01-14T10:48:01Z | TypeScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [jspreadsheet/spreadsheet-react-server](https://github.com/jspreadsheet/spreadsheet-react-server) | 1 | 2026-03-02T18:04:45Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [alexpolonsky/agent-skill-strikeradar](https://github.com/alexpolonsky/agent-skill-strikeradar) | 1 | 2026-02-21T10:35:08Z | TypeScript | Unknown | 11 | 0 | 11 | 11 |
 | [lxsmnsyc/sponsors](https://github.com/lxsmnsyc/sponsors) | 1 | 2026-01-30T23:54:17Z | TypeScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [danielrosehill/MCP-Network-CUPS](https://github.com/danielrosehill/MCP-Network-CUPS) | 1 | 2026-01-02T01:02:29Z | TypeScript | CLI | 1 | 5 | 1 | 1 |

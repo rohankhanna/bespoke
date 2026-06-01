@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Python
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
+- repos: 12
 - terms: 15
 - components: 8
 - concepts: 15
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ChiehHsinJesseLai/ctm-notebook](https://github.com/ChiehHsinJesseLai/ctm-notebook) | 0 | 2026-03-03T06:07:22Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [1000ch/Sublime-csso](https://github.com/1000ch/Sublime-csso) | 0 | 2026-02-09T23:03:59Z | Python | Unknown | 3 | 2 | 3 | 3 |
 | [maeste/a2a-tck](https://github.com/maeste/a2a-tck) | 0 | 2026-01-28T12:40:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sarlinpe/pybind11-stubgen](https://github.com/sarlinpe/pybind11-stubgen) | 0 | 2026-01-23T05:50:43Z | Python | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -42,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ChiehHsinJesseLai/ctm-notebook](https://github.com/ChiehHsinJesseLai/ctm-notebook) | 0 | 2026-03-03T06:07:22Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [1000ch/Sublime-csso](https://github.com/1000ch/Sublime-csso) | 0 | 2026-02-09T23:03:59Z | Python | Unknown | 3 | 2 | 3 | 3 |
 | [maeste/a2a-tck](https://github.com/maeste/a2a-tck) | 0 | 2026-01-28T12:40:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [sarlinpe/pybind11-stubgen](https://github.com/sarlinpe/pybind11-stubgen) | 0 | 2026-01-23T05:50:43Z | Python | Infrastructure/tooling | 0 | 6 | 0 | 0 |

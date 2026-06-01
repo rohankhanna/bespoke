@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 7,
-    "terms": 30
+    "components": 144,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 8,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "996icu/996.ICU",
+    "d3/d3",
     "deepseek-ai/DeepSeek-V3",
     "facebook/create-react-app",
     "jlevy/the-art-of-command-line",

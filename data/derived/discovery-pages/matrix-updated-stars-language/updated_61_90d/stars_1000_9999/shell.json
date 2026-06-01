@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 40,
-    "observations": 40,
+    "components": 33,
+    "concepts": 41,
+    "observations": 41,
     "repos": 10,
     "terms": 44
   },
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "docker-library/wordpress",
+    "jonmosco/kube-ps1",
     "kward/shunit2",
     "lxgw/LxgwWenkaiGB",
     "Pal3love/dream-han-cjk",
-    "Pal3love/Source-Han-TrueType",
     "pgsty/pigsty",
     "tianon/gosu",
     "zdharma-continuum/zinit",

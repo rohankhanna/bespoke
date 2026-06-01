@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 433,
-    "concepts": 457,
-    "observations": 460,
-    "repos": 171,
-    "terms": 453
+    "concepts": 460,
+    "observations": 463,
+    "repos": 172,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -169,6 +169,7 @@
     "stripe/goproxy",
     "superedge/edgeadm",
     "tc-hib/winres",
+    "theplant/htmlgo",
     "thetirefire/badidea",
     "tianon/markdownfmt",
     "tidwall/btree-benchmark",

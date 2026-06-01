@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 39
-- terms: 96
-- components: 720
-- concepts: 94
-- observations: 94
+- repos: 40
+- terms: 102
+- components: 737
+- concepts: 100
+- observations: 100
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ClickHouse/opentelemetry-demo](https://github.com/ClickHouse/opentelemetry-demo) | 16 | 2026-03-02T15:05:23Z | TypeScript | CLI | 6 | 17 | 6 | 6 |
 | [ipfs/js-kubo-rpc-client](https://github.com/ipfs/js-kubo-rpc-client) | 49 | 2026-03-01T15:59:39Z | TypeScript | CLI | 8 | 66 | 8 | 8 |
 | [hbenl/vscode-mocha-test-adapter](https://github.com/hbenl/vscode-mocha-test-adapter) | 94 | 2026-03-01T14:53:03Z | TypeScript | Unknown | 0 | 38 | 0 | 0 |
 | [0xBigBoss/vscode-bootty](https://github.com/0xBigBoss/vscode-bootty) | 14 | 2026-02-28T23:25:19Z | TypeScript | CLI | 1 | 19 | 1 | 1 |
@@ -97,6 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aaaaalexis/obsidian-pseudo-mica](https://github.com/aaaaalexis/obsidian-pseudo-mica) | 21 | 2026-02-26T13:07:32Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [br14n-sol/inquirer-file-selector](https://github.com/br14n-sol/inquirer-file-selector) | 17 | 2026-02-27T18:07:30Z | TypeScript | Web app | 4 | 15 | 4 | 4 |
 | [cahamilton/css-property-sort-order-smacss](https://github.com/cahamilton/css-property-sort-order-smacss) | 17 | 2026-01-24T13:26:03Z | TypeScript | Unknown | 1 | 1 | 1 | 1 |
+| [ClickHouse/opentelemetry-demo](https://github.com/ClickHouse/opentelemetry-demo) | 16 | 2026-03-02T15:05:23Z | TypeScript | CLI | 6 | 17 | 6 | 6 |
 | [omril321/automated-notebooklm](https://github.com/omril321/automated-notebooklm) | 15 | 2026-02-07T09:45:17Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [0xBigBoss/vscode-bootty](https://github.com/0xBigBoss/vscode-bootty) | 14 | 2026-02-28T23:25:19Z | TypeScript | CLI | 1 | 19 | 1 | 1 |
 | [PhoenixIllusion/babylonjs-jolt-physics-plugin](https://github.com/PhoenixIllusion/babylonjs-jolt-physics-plugin) | 14 | 2026-01-29T20:43:02Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |

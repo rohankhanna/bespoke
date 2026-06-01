@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 17,
-    "terms": 133
+    "components": 298,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 20,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "actions-cool/.github",
     "actions-cool/test-issues-helper",
@@ -23,12 +23,15 @@
     "Deep-Symmetry/asciidoctor-bytefield",
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
-    "heshengtao/desktop-for-sap",
     "Level/read-stream",
+    "Level/supports",
+    "Level/transcoder",
     "lucabubi/star-history",
     "REditorSupport/vscode-R-syntax",
     "stdlib-js/array-buffer",
+    "stdlib-js/array-complex64",
     "stdlib-js/array-dtypes",
+    "stdlib-js/array-typed",
     "stdlib-js/array-typed-dtypes",
     "tc39/proposal-intl-keep-trailing-zeros"
   ]

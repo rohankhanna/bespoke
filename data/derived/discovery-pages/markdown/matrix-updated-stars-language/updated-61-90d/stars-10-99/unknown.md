@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Unknown
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 21
-- terms: 35
+- terms: 32
 - components: 18
-- concepts: 35
-- observations: 35
+- concepts: 32
+- observations: 32
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [operator-framework/community](https://github.com/operator-framework/community) | 28 | 2026-04-01T20:09:42Z | Unknown | Framework | 0 | 0 | 0 | 0 |
 | [dragonflyoss/community](https://github.com/dragonflyoss/community) | 13 | 2026-03-30T15:36:33Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [BAI-LAB/Survey-on-AI-Memory](https://github.com/BAI-LAB/Survey-on-AI-Memory) | 93 | 2026-03-30T06:28:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aloncarmel/supermeskill](https://github.com/aloncarmel/supermeskill) | 29 | 2026-03-29T09:40:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -46,7 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nushell/showcase](https://github.com/nushell/showcase) | 75 | 2026-03-07T12:45:16Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [googlefonts/emoji-metadata](https://github.com/googlefonts/emoji-metadata) | 84 | 2026-03-04T18:40:40Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [catppuccin/atuin](https://github.com/catppuccin/atuin) | 52 | 2026-03-02T17:47:07Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -62,8 +62,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [grpc/grpc-community](https://github.com/grpc/grpc-community) | 65 | 2026-03-24T22:35:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [marko-js/examples](https://github.com/marko-js/examples) | 58 | 2026-03-15T03:32:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [catppuccin/atuin](https://github.com/catppuccin/atuin) | 52 | 2026-03-02T17:47:07Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [aloncarmel/supermeskill](https://github.com/aloncarmel/supermeskill) | 29 | 2026-03-29T09:40:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [operator-framework/community](https://github.com/operator-framework/community) | 28 | 2026-04-01T20:09:42Z | Unknown | Framework | 0 | 0 | 0 | 0 |
 | [cncf/wg-networking](https://github.com/cncf/wg-networking) | 26 | 2026-03-09T18:26:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [bpftrace/user-tools](https://github.com/bpftrace/user-tools) | 25 | 2026-03-17T18:08:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [robotology/community](https://github.com/robotology/community) | 25 | 2026-03-07T16:33:02Z | Unknown | Unknown | 8 | 0 | 8 | 8 |

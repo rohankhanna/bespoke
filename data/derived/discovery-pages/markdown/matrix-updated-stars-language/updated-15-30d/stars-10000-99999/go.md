@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 320
-- components: 392
-- concepts: 320
-- observations: 322
+- repos: 15
+- terms: 213
+- components: 268
+- concepts: 213
+- observations: 215
 
 ## Static behavior
 
@@ -41,12 +41,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 55316 | 2026-05-03T08:15:56Z | Go | Infrastructure/tooling | 21 | 121 | 21 | 21 |
 | [containers/podman](https://github.com/containers/podman) | 31568 | 2026-05-03T00:44:01Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [istio/istio](https://github.com/istio/istio) | 38161 | 2026-05-02T08:19:06Z | Go | Infrastructure/tooling | 16 | 0 | 16 | 16 |
-| [google/gvisor](https://github.com/google/gvisor) | 18217 | 2026-05-02T00:00:12Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
-| [anchore/grype](https://github.com/anchore/grype) | 12121 | 2026-05-01T21:41:37Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
-| [pion/webrtc](https://github.com/pion/webrtc) | 16261 | 2026-05-01T17:09:26Z | Go | Infrastructure/tooling | 24 | 8 | 24 | 24 |
-| [authelia/authelia](https://github.com/authelia/authelia) | 27670 | 2026-05-01T13:46:47Z | Go | Infrastructure/tooling | 20 | 9 | 20 | 20 |
-| [gotify/server](https://github.com/gotify/server) | 14950 | 2026-05-01T13:27:17Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
-| [gravitational/teleport](https://github.com/gravitational/teleport) | 20211 | 2026-05-01T08:19:26Z | Go | Infrastructure/tooling | 22 | 74 | 22 | 22 |
 
 ## Repos sorted by stars
 
@@ -61,15 +55,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 32048 | 2026-05-03T18:38:42Z | Go | Infrastructure/tooling | 23 | 6 | 23 | 23 |
 | [containers/podman](https://github.com/containers/podman) | 31568 | 2026-05-03T00:44:01Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [helm/helm](https://github.com/helm/helm) | 29778 | 2026-05-04T23:46:58Z | Go | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [authelia/authelia](https://github.com/authelia/authelia) | 27670 | 2026-05-01T13:46:47Z | Go | Infrastructure/tooling | 20 | 9 | 20 | 20 |
 | [flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) | 24641 | 2026-05-06T14:06:13Z | Go | Infrastructure/tooling | 14 | 7 | 14 | 14 |
 | [cilium/cilium](https://github.com/cilium/cilium) | 24263 | 2026-05-04T09:41:53Z | Go | Infrastructure/tooling | 18 | 14 | 18 | 20 |
-| [gravitational/teleport](https://github.com/gravitational/teleport) | 20211 | 2026-05-01T08:19:26Z | Go | Infrastructure/tooling | 22 | 74 | 22 | 22 |
 | [apache/casbin](https://github.com/apache/casbin) | 20143 | 2026-05-15T19:22:03Z | Go | Infrastructure/tooling | 21 | 10 | 21 | 21 |
-| [google/gvisor](https://github.com/google/gvisor) | 18217 | 2026-05-02T00:00:12Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [rqlite/rqlite](https://github.com/rqlite/rqlite) | 17469 | 2026-05-03T15:33:00Z | Go | Infrastructure/tooling | 11 | 11 | 11 | 11 |
-| [pion/webrtc](https://github.com/pion/webrtc) | 16261 | 2026-05-01T17:09:26Z | Go | Infrastructure/tooling | 24 | 8 | 24 | 24 |
-| [gotify/server](https://github.com/gotify/server) | 14950 | 2026-05-01T13:27:17Z | Go | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 14294 | 2026-05-03T15:03:45Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 13790 | 2026-05-04T03:40:02Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [anchore/grype](https://github.com/anchore/grype) | 12121 | 2026-05-01T21:41:37Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |

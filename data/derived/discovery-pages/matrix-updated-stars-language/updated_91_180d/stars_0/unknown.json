@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 24,
-    "terms": 35
+    "components": 59,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 25,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "CADindustries/container",
     "danielrosehill/Agent-Deploy",
@@ -24,6 +24,7 @@
     "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/git-github-plugin",
+    "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
     "get-gah/gah-db",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 584,
-    "observations": 584,
+    "components": 330,
+    "concepts": 585,
+    "observations": 585,
     "repos": 90,
-    "terms": 580
+    "terms": 579
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
     "anapnoe/stable-diffusion-webui-ux",
     "ApeWorX/ape",
-    "ARISE-Initiative/robosuite",
     "astanin/python-tabulate",
     "atlassian-api/atlassian-python-api",
     "aws-cloudformation/aws-cloudformation-templates",
@@ -28,8 +27,8 @@
     "bpython/bpython",
     "cheshire-cat-ai/core",
     "chungmin99/pyroki",
+    "cvg/depthsplat",
     "databricks/megablocks",
-    "dateutil/dateutil",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
     "DepthAnything/Depth-Anything-V2",
@@ -56,6 +55,7 @@
     "jiaaro/pydub",
     "JulietaUla/Montserrat",
     "keleshev/schema",
+    "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
@@ -74,11 +74,11 @@
     "om-ai-lab/VLM-R1",
     "open-mmlab/mmaction2",
     "OpenGVLab/InternVideo",
+    "PaddlePaddle/PaddleClas",
     "pdfminer/pdfminer.six",
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
-    "python-semantic-release/python-semantic-release",
     "pyupio/safety",
     "randy3k/radian",
     "rusty1s/pytorch_scatter",

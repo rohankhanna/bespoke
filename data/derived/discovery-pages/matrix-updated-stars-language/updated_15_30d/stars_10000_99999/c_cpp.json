@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 16,
-    "terms": 153
+    "components": 104,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 9,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "blender/blender",
-    "capnproto/capnproto",
     "DayBreak-u/chineseocr_lite",
-    "duckdb/duckdb",
     "emscripten-core/emscripten",
     "google-deepmind/mujoco",
     "jqlang/jq",
     "jrouwe/JoltPhysics",
-    "libsdl-org/SDL",
-    "lz4/lz4",
-    "micropython/micropython",
     "obsproject/obs-studio",
-    "openvinotoolkit/openvino",
-    "PointCloudLibrary/pcl",
     "simdjson/simdjson",
     "Z3Prover/z3"
   ]

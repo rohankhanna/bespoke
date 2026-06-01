@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 187,
-    "observations": 189,
+    "components": 199,
+    "concepts": 195,
+    "observations": 197,
     "repos": 45,
-    "terms": 184
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
@@ -32,10 +32,10 @@
     "codetyio/codety-scanner",
     "confluentinc/common",
     "confluentinc/rest-utils",
-    "dart4e/dart4e",
     "eclipse-shellwax/shellwax",
     "edward3h/minecraft-webhook",
     "filip26/ld-cli",
+    "flyway/flyway-community-db-support",
     "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
     "googleapis/java-bigtable",
@@ -44,7 +44,6 @@
     "GoogleCloudPlatform/opentelemetry-operations-java",
     "heroku/heroku-jvm-application-deployer",
     "hivemq/helm-charts",
-    "iterate-ch/rococoa",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
     "kirill-grouchnikov/ephemeral",
@@ -52,6 +51,7 @@
     "m2e-code-quality/m2e-code-quality",
     "mukel/gemma4.java",
     "opensim-org/opensim-gui",
+    "qdrant/java-client",
     "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",

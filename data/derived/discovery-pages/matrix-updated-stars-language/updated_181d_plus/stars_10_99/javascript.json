@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2970,
-    "concepts": 661,
-    "observations": 661,
-    "repos": 279,
-    "terms": 652
+    "components": 2977,
+    "concepts": 662,
+    "observations": 662,
+    "repos": 280,
+    "terms": 653
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -247,6 +247,7 @@
     "reZach/secure-electron-license-keys-cli",
     "rose-pine/build",
     "SabakiHQ/go-board",
+    "salesforcecli/status",
     "sammachin/node-red-matter-bridge",
     "sanctuary-js/sanctuary-either",
     "sanctuary-js/sanctuary-identity",

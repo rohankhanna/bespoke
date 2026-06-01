@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 166,
-    "observations": 170,
+    "components": 246,
+    "concepts": 161,
+    "observations": 165,
     "repos": 40,
-    "terms": 165
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
@@ -38,20 +38,20 @@
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",
+    "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
     "near/borsh-rs",
     "Nugine/simd",
     "PistonDevelopers/glfw-rs",
     "posit-dev/air",
     "prisma/tiberius",
+    "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",
-    "rust3ds/ctru-rs",
     "servo/rust-cssparser",
     "sparsemat/sprs",
-    "SunDoge/simdjson-rust",
     "typst/comemo",
     "YaLTeR/wl-clipboard-rs"
   ]

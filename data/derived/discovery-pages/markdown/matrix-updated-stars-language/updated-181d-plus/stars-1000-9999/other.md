@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 424
-- terms: 1552
+- repos: 425
+- terms: 1558
 - components: 1282
-- concepts: 1563
-- observations: 1565
+- concepts: 1569
+- observations: 1571
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [phar-io/manifest](https://github.com/phar-io/manifest) | 7492 | 2025-11-27T15:23:09Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [Tencent-Hunyuan/HunyuanDiT](https://github.com/Tencent-Hunyuan/HunyuanDiT) | 4292 | 2025-11-27T06:37:00Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mrash/fwknop](https://github.com/mrash/fwknop) | 1349 | 2025-11-26T20:39:39Z | Other | Unknown | 6 | 0 | 6 | 6 |
@@ -768,6 +769,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify) | 1564 | 2023-01-27T20:01:31Z | Other | Web app | 10 | 12 | 10 | 10 |
 | [DiffEqML/torchdyn](https://github.com/DiffEqML/torchdyn) | 1563 | 2024-05-02T02:44:43Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [ggandor/lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim) | 1558 | 2023-12-01T22:45:14Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) | 1544 | 2025-12-03T02:11:11Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [kylef/Commander](https://github.com/kylef/Commander) | 1534 | 2022-03-26T09:37:37Z | Other | CLI | 0 | 2 | 0 | 0 |
 | [bors-ng/bors-ng](https://github.com/bors-ng/bors-ng) | 1531 | 2024-04-04T12:24:44Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [machakann/vim-sandwich](https://github.com/machakann/vim-sandwich) | 1531 | 2024-03-20T12:36:58Z | Other | Unknown | 0 | 0 | 0 | 0 |

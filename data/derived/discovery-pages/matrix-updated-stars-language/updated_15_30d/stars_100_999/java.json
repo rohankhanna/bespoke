@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 91,
-    "observations": 91,
-    "repos": 12,
-    "terms": 91
+    "components": 60,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 10,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "eclipse-lsp4j/lsp4j",
-    "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "KosherJava/zmanim",
@@ -24,7 +23,6 @@
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "processing/processing4",
-    "samtools/htsjdk",
     "Waffle/waffle"
   ]
 }

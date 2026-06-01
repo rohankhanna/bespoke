@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1358,
-    "concepts": 1369,
-    "observations": 1373,
-    "repos": 118,
-    "terms": 1356
+    "components": 1482,
+    "concepts": 1476,
+    "observations": 1480,
+    "repos": 124,
+    "terms": 1463
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -21,11 +21,13 @@
     "abiosoft/colima",
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
+    "anchore/grype",
     "apernet/hysteria",
     "aquasecurity/trivy",
     "argoproj/argo-cd",
     "argoproj/argo-workflows",
     "asdf-vm/asdf",
+    "authelia/authelia",
     "Billionmail/BillionMail",
     "bufbuild/buf",
     "caddyserver/caddy",
@@ -70,10 +72,13 @@
     "golangci/golangci-lint",
     "google/cadvisor",
     "google/go-github",
+    "google/gvisor",
     "GoogleContainerTools/skaffold",
     "goreleaser/goreleaser",
+    "gotify/server",
     "grafana/loki",
     "grafana/pyroscope",
+    "gravitational/teleport",
     "grpc-ecosystem/grpc-gateway",
     "grpc/grpc-go",
     "hajimehoshi/ebiten",
@@ -110,6 +115,7 @@
     "ory/kratos",
     "php/frankenphp",
     "pingcap/tidb",
+    "pion/webrtc",
     "prometheus/node_exporter",
     "prometheus/prometheus",
     "pulumi/pulumi",

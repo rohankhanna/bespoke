@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2071,
+    "components": 1870,
     "concepts": 905,
     "observations": 910,
-    "repos": 104,
+    "repos": 107,
     "terms": 902
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
@@ -21,10 +21,10 @@
     "apache/datafusion-ballista",
     "apollographql/apollo-tooling",
     "apollographql/eslint-plugin-graphql",
+    "aws-cloudformation/cfn-lint",
     "aws/karpenter-provider-aws",
     "aws/serverless-application-model",
     "babashka/babashka",
-    "babashka/sci",
     "bazel-contrib/rules_go",
     "beam-community/elixir-companies",
     "bitsandbytes-foundation/bitsandbytes",
@@ -42,6 +42,7 @@
     "dmtrKovalenko/fff",
     "dotnet/reactive",
     "ebullient/obsidian-admonition",
+    "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
     "elixir-grpc/grpc",
     "endojs/endo",
@@ -50,6 +51,7 @@
     "fla-org/flash-linear-attention",
     "geotiffjs/geotiff.js",
     "gobackup/gobackup",
+    "godot-rust/gdext",
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
     "google-gemini/live-api-web-console",
@@ -63,8 +65,8 @@
     "hermit-os/hermit-rs",
     "huggingface/finetrainers",
     "huggingface/optimum-quanto",
-    "ipfs/ipfs-webui",
     "JuergenFleiss/aTrain",
+    "JuliaPluto/Pluto.jl",
     "KhronosGroup/KTX-Software",
     "kubernetes-sigs/karpenter",
     "kurrent-io/KurrentDB",
@@ -76,6 +78,8 @@
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
+    "microsoft/aspire",
+    "microsoft/aspire-samples",
     "microsoft/PhiCookBook",
     "microsoft/vscode-js-debug",
     "modelscope/FunClip",
@@ -103,8 +107,9 @@
     "seancorfield/honeysql",
     "sveltejs/devalue",
     "swiftlang/llvm-project",
+    "swiftlang/swift-llbuild",
+    "swiftlang/swift-syntax",
     "TanStack/form",
-    "tModLoader/tModLoader",
     "TrenchBroom/TrenchBroom",
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
@@ -114,8 +119,6 @@
     "web-platform-tests/wpt",
     "webinstall/webi-installers",
     "xtensor-stack/xtensor",
-    "yomidevs/yomitan",
-    "zhiyiYo/PyQt-Fluent-Widgets",
-    "zyddnys/manga-image-translator"
+    "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 76,
-    "observations": 77,
+    "components": 82,
+    "concepts": 84,
+    "observations": 85,
     "repos": 17,
-    "terms": 74
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
@@ -21,15 +21,15 @@
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "clearml/clearml-pycharm-plugin",
+    "dart4e/dart4e",
     "enola-dev/enola",
-    "EXIficient/exificient-for-json",
     "filip26/iridium-cbor-ld",
     "glaforge/adk-java-maven-template",
     "guyboertje/jrjackson",
     "ipld/java-cid",
+    "iterate-ch/rococoa",
     "multiformats/java-multibase",
     "padreati/rapaio",
-    "smithy-lang/smithy-dafny",
-    "tlabs-data/tablesaw-parquet"
+    "smithy-lang/smithy-dafny"
   ]
 }

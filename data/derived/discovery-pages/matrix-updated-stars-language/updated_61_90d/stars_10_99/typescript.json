@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 26,
-    "terms": 86
+    "components": 471,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 25,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
-    "ClickHouse/opentelemetry-demo",
     "dannyhw/react-native-storybook-starter",
     "googleapis/google-cloud-node-core",
     "googleapis/nodejs-error-reporting",

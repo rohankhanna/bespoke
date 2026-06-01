@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-05-31T07:48:14.816563+00:00`
+Generated at: `2026-06-01T06:16:42.328352+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 66
-- components: 51
-- concepts: 66
-- observations: 66
+- repos: 19
+- terms: 68
+- components: 55
+- concepts: 69
+- observations: 69
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [EXIficient/exificient-for-json](https://github.com/EXIficient/exificient-for-json) | 10 | 2026-03-02T18:40:36Z | Java | Unknown | 1 | 0 | 2 | 2 |
+| [tlabs-data/tablesaw-parquet](https://github.com/tlabs-data/tablesaw-parquet) | 12 | 2026-03-02T10:40:48Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [Antibrumm/jackson-antpathfilter](https://github.com/Antibrumm/jackson-antpathfilter) | 65 | 2026-03-02T00:13:42Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [caprica/vlcj-examples](https://github.com/caprica/vlcj-examples) | 29 | 2026-03-01T17:40:37Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [apache/seatunnel-tools](https://github.com/apache/seatunnel-tools) | 26 | 2026-02-27T02:45:59Z | Java | Infrastructure/tooling | 16 | 4 | 16 | 16 |
@@ -65,3 +67,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zilliztech/kafka-connect-milvus](https://github.com/zilliztech/kafka-connect-milvus) | 24 | 2026-01-23T08:01:12Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [hashicorp/hello-vault-spring](https://github.com/hashicorp/hello-vault-spring) | 21 | 2025-12-09T15:01:09Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [google/tsunami-security-scanner-callback-server](https://github.com/google/tsunami-security-scanner-callback-server) | 20 | 2026-01-08T09:12:00Z | Java | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [tlabs-data/tablesaw-parquet](https://github.com/tlabs-data/tablesaw-parquet) | 12 | 2026-03-02T10:40:48Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [EXIficient/exificient-for-json](https://github.com/EXIficient/exificient-for-json) | 10 | 2026-03-02T18:40:36Z | Java | Unknown | 1 | 0 | 2 | 2 |

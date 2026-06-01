@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 10,
-    "terms": 63
+    "components": 45,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 9,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-01T06:16:42.328352+00:00",
   "repo_ids": [
     "bobbylight/RSyntaxTextArea",
-    "julian-klode/dns66",
     "locationtech/jts",
     "msgpack/msgpack-java",
     "objectbox/objectbox-java",
