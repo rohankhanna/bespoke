@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 10,
-    "terms": 77
+    "components": 134,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 6,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
-    "carbon-design-system/carbon-preprocess-svelte",
-    "csm-actions/approve-pr-action",
-    "csm-actions/securefix-action",
     "GoogleCloudPlatform/opentelemetry-demo",
-    "ibm-telemetry/telemetry-js",
     "ipdxco/github-as-code",
     "julia-actions/install-juliaup",
     "maplibre/maplibre-gl-inspect",

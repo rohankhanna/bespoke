@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 4,
-    "terms": 38
+    "components": 7,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 2,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
-    "Chocolate4U/Iran-v2ray-rules",
     "jez/dotfiles",
-    "TypedDevs/bashunit",
-    "ungoogled-software/ungoogled-chromium-archlinux"
+    "TypedDevs/bashunit"
   ]
 }

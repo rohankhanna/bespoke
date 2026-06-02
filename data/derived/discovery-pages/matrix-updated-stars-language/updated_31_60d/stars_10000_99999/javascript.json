@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4580,
-    "concepts": 778,
-    "observations": 781,
-    "repos": 98,
-    "terms": 773
+    "components": 4621,
+    "concepts": 792,
+    "observations": 795,
+    "repos": 99,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "acornjs/acorn",
@@ -30,6 +30,7 @@
     "be5invis/Sarasa-Gothic",
     "bmad-code-org/bmad-method",
     "brianc/node-postgres",
+    "CesiumGS/cesium",
     "commitizen/cz-cli",
     "ConardLi/easy-dataset",
     "cure53/DOMPurify",
@@ -46,7 +47,6 @@
     "GoogleChrome/lighthouse",
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
-    "hapijs/hapi",
     "http-party/http-server",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
@@ -96,6 +96,7 @@
     "SillyTavern/SillyTavern",
     "simple-icons/simple-icons",
     "stylelint/stylelint",
+    "sveltejs/kit",
     "sveltejs/svelte",
     "svg/svgo",
     "swagger-api/swagger-ui",

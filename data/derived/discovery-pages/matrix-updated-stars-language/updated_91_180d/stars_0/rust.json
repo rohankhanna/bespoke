@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 9,
-    "terms": 20
+    "components": 63,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 10,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "bgw/bincode",
     "databendlabs/iceberg-rust",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
+    "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
     "Keats/os_info",
     "KSXGitHub/personal-crates",

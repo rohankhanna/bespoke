@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 36,
-    "terms": 92
+    "components": 167,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 37,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "5c077m4n/pikud-haoref-api-go",
@@ -33,6 +33,7 @@
     "dwyl/learn-go",
     "erikceballos/nano-banana-cli",
     "exoscale/karpenter-provider-exoscale",
+    "fluxcd/flux-schema",
     "goreleaser/sponsors",
     "huggingface/hf-csi-driver",
     "k8nstantin/openpraxis",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 436,
-    "observations": 438,
-    "repos": 36,
-    "terms": 434
+    "components": 362,
+    "concepts": 419,
+    "observations": 421,
+    "repos": 35,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
@@ -38,7 +38,6 @@
     "google/guava",
     "jenkinsci/jenkins",
     "JetBrains/intellij-community",
-    "Konloch/bytecode-viewer",
     "langchain4j/langchain4j",
     "languagetool-org/languagetool",
     "NationalSecurityAgency/ghidra",

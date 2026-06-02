@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 19,
-    "terms": 68
+    "components": 58,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 20,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "Antibrumm/jackson-antpathfilter",
+    "apache/netbeans-nbpackage",
     "apache/seatunnel-tools",
     "aws-cloudformation/cloudformation-resource-schema",
     "aws-observability/aws-otel-test-framework",

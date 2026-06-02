@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 585,
-    "observations": 585,
-    "repos": 90,
-    "terms": 579
+    "components": 347,
+    "concepts": 617,
+    "observations": 617,
+    "repos": 95,
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -32,6 +32,7 @@
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
     "DepthAnything/Depth-Anything-V2",
+    "devnen/Chatterbox-TTS-Server",
     "django/channels",
     "docarray/docarray",
     "dolfies/discord.py-self",
@@ -43,9 +44,11 @@
     "google-deepmind/bsuite",
     "google/deepvariant",
     "google/ml_collections",
+    "graphql-python/gql",
     "gururise/AlpacaDataCleaned",
     "heshengtao/comfyui_LLM_party",
     "HKUDS/VideoRAG",
+    "huggingface/smollm",
     "hyperopt/hyperopt",
     "inducer/pycuda",
     "intel/intel-extension-for-pytorch",
@@ -103,6 +106,8 @@
     "ufoym/deepo",
     "Vchitect/VBench",
     "wenet-e2e/wenet",
-    "yangyanli/PointCNN"
+    "yangyanli/PointCNN",
+    "YanjieZe/GMR",
+    "Yelp/dumb-init"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 917,
-    "concepts": 1231,
-    "observations": 1235,
-    "repos": 122,
-    "terms": 1229
+    "components": 957,
+    "concepts": 1266,
+    "observations": 1270,
+    "repos": 123,
+    "terms": 1261
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -48,6 +48,7 @@
     "deepseek-ai/FlashMLA",
     "dmlc/xgboost",
     "duckdb/duckdb",
+    "emscripten-core/emscripten",
     "envoyproxy/envoy",
     "espressif/arduino-esp32",
     "espressif/esp-idf",
@@ -101,7 +102,6 @@
     "NixOS/nix",
     "nlohmann/json",
     "nothings/stb",
-    "NVIDIA/open-gpu-kernel-modules",
     "NVIDIA/TensorRT",
     "oceanbase/oceanbase",
     "ocornut/imgui",
@@ -122,6 +122,7 @@
     "redis/redis",
     "RPCS3/rpcs3",
     "SerenityOS/serenity",
+    "simdjson/simdjson",
     "swaywm/sway",
     "systemd/systemd",
     "taichi-dev/taichi",

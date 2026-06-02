@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 179,
-    "observations": 179,
-    "repos": 14,
-    "terms": 178
+    "components": 93,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 9,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "elastic/cloud-on-k8s",
-    "erigontech/erigon",
     "etcd-io/bbolt",
-    "go-git/go-git",
-    "go-ini/ini",
     "gookit/goutil",
     "gookit/validate",
-    "kubeovn/kube-ovn",
     "letsencrypt/boulder",
-    "Loyalsoldier/geoip",
     "open-telemetry/opentelemetry-operator",
     "version-fox/vfox"
   ]

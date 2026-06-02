@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 86,
-    "observations": 87,
-    "repos": 10,
-    "terms": 84
+    "components": 94,
+    "concepts": 76,
+    "observations": 77,
+    "repos": 9,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "CloudCompare/CloudCompare",
     "harfbuzz/harfbuzz",
-    "KhronosGroup/KTX-Software",
     "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
     "riscv-collab/riscv-gnu-toolchain",

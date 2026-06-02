@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 151,
-    "observations": 154,
+    "components": 229,
+    "concepts": 153,
+    "observations": 156,
     "repos": 58,
-    "terms": 149
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -51,12 +51,12 @@
     "jean-pierreBoth/probminhash",
     "jonas-k/coremidi-sys",
     "joseluisq/paket",
+    "libp2p/if-watch",
     "lindera/lindera-tantivy",
     "linebender/simplecss",
     "loyd/fixnum",
     "LuisaGroup/luisa-compute-rs",
     "MaterializeInc/rust-postgres",
-    "microsoft/LinuxTracepoints-Rust",
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",

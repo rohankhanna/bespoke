@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2108,
-    "concepts": 1964,
-    "observations": 1970,
-    "repos": 848,
-    "terms": 1952
+    "components": 2124,
+    "concepts": 1969,
+    "observations": 1975,
+    "repos": 852,
+    "terms": 1957
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -246,6 +246,7 @@
     "clj-commons/pushy",
     "clj-kondo/configs",
     "clojure/tools.analyzer.js",
+    "cloudfoundry/cf-uaa-lib",
     "club-soda/club-soda-guide",
     "cobalt-org/cobalt-org.github.io",
     "CocoaPods/cocoapods-downloader",
@@ -339,6 +340,7 @@
     "elixir-makeup/makeup_html",
     "ElsaTam/Obsidian-Stuff",
     "emacs-evil/goto-chg",
+    "emacsorphanage/dart-mode",
     "emard/Minimig_ECS",
     "Embarcadero/llama-cpp-delphi",
     "EmileTrotignon/embedded_ocaml_templates",
@@ -637,6 +639,7 @@
     "niuiic/typst-preview.nvim",
     "nlamirault/emacs-markdownfmt",
     "non-Jedi/eglot-jl",
+    "NorfairKing/feedback",
     "nrepl/bencode",
     "nrepl/incomplete",
     "NVIDIA/nvbench_demo",
@@ -660,6 +663,7 @@
     "openshift/ruby-hello-world",
     "opensim-org/opensim-models",
     "openxrlab/xrtailor",
+    "OutlierDetectionJL/OutlierDetection.jl",
     "oxidizing/letters",
     "PacificBiosciences/barcoding",
     "PanJiaChen/PanJiaChen.github.io",

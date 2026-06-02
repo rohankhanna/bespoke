@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 30,
-    "terms": 165
+    "components": 163,
+    "concepts": 184,
+    "observations": 185,
+    "repos": 33,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
@@ -29,15 +29,18 @@
     "fishaudio/audio-preprocess",
     "fishaudio/fish-diffusion",
     "fishaudio/vocoder",
+    "gbionics/adam",
     "gbionics/jaxsim",
+    "google-deepmind/xmanager",
     "GStreamer/cerbero",
-    "httpwg/http-extensions",
+    "Jamorim-esss/pytest-rich",
     "jawah/charset_normalizer",
     "LlmKira/fast-langdetect",
-    "makehumancommunity/mpfb2",
     "mll-lab-nu/VAGEN",
     "nod-ai/AMD-SHARK-ModelDev",
     "open-telemetry/opentelemetry-cpp-contrib",
+    "python-poetry/poetry-plugin-export",
+    "shawn0728/OpenSearch-VL",
     "sigsep/norbert",
     "TextArena/TextArena",
     "universal-ctags/ctags-win32",

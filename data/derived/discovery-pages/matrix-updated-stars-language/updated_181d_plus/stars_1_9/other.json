@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1124,
-    "concepts": 529,
-    "observations": 529,
-    "repos": 348,
-    "terms": 536
+    "components": 1140,
+    "concepts": 533,
+    "observations": 533,
+    "repos": 350,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -274,6 +274,8 @@
     "onicai/Charles",
     "ontoportal/documentation",
     "OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor",
+    "OutlierDetectionJL/OutlierDetectionData.jl",
+    "OutlierDetectionJL/OutlierDetectionNeighbors.jl",
     "Overv/daux.io",
     "padreati/rapaio-book",
     "paper-trail-gem/paper_trail-sinatra",

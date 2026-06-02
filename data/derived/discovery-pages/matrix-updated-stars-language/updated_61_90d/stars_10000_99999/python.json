@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 143,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 35,
-    "terms": 164
+    "components": 152,
+    "concepts": 171,
+    "observations": 171,
+    "repos": 36,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "3b1b/videos",
+    "666ghj/MiroFish",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cookiecutter/cookiecutter",
@@ -23,10 +24,10 @@
     "deepinsight/insightface",
     "encode/httpx",
     "explosion/spaCy",
-    "facebookresearch/vggt",
     "FunAudioLLM/CosyVoice",
     "google/python-fire",
     "Huanshere/VideoLingo",
+    "huggingface/open-r1",
     "huggingface/text-generation-inference",
     "karpathy/autoresearch",
     "KittenML/KittenTTS",

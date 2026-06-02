@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 867,
+    "components": 862,
     "concepts": 532,
     "observations": 534,
     "repos": 121,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -53,7 +53,6 @@
     "cpmech/gemlab",
     "crate-ci/imperative",
     "datachainlab/lcp",
-    "datafusion-contrib/datafusion-orc",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
     "Dicklesworthstone/frankensearch",
@@ -124,6 +123,7 @@
     "synadia-io/orbit.rs",
     "Systemcluster/kitoken",
     "tianrking/weixin-agent-rs",
+    "tofay/rustls-openssl",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",

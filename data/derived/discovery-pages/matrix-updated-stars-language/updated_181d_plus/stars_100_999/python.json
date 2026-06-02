@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1247,
-    "concepts": 5626,
-    "observations": 5631,
-    "repos": 1878,
-    "terms": 5460
+    "components": 1250,
+    "concepts": 5632,
+    "observations": 5637,
+    "repos": 1880,
+    "terms": 5466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -142,6 +142,7 @@
     "amaralibey/gsv-cities",
     "amaralibey/MixVPR",
     "amaralibey/OpenVPRLab",
+    "amazon-far/TWIST2",
     "amazon-science/mxeval",
     "amazon-science/tgl",
     "Amblyopius/Stable-Diffusion-ONNX-FP16",
@@ -239,6 +240,7 @@
     "B1ueber2y/TrianFlow",
     "BAAI-DCAI/SpatialBot",
     "baaivision/GeoDream",
+    "baal-org/baal",
     "baegwangbin/surface_normal_uncertainty",
     "balazik/ComfyUI-PuLID-Flux",
     "baofff/Analytic-DPM",

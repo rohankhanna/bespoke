@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 490,
-    "concepts": 322,
-    "observations": 323,
-    "repos": 133,
-    "terms": 319
+    "components": 474,
+    "concepts": 317,
+    "observations": 318,
+    "repos": 129,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -45,7 +45,6 @@
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
     "cleanlab/cleanvision-examples",
-    "cloudfoundry/cf-uaa-lib",
     "cmacdonald/pyt_splade",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
@@ -55,7 +54,6 @@
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
     "eddelbuettel/tinythemes",
-    "emacsorphanage/dart-mode",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
     "ethpandaops/optimism-package",
@@ -111,10 +109,8 @@
     "nelson-lang/nelson-website",
     "newtheatre/history-project",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
-    "NorfairKing/feedback",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
-    "OutlierDetectionJL/OutlierDetection.jl",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",

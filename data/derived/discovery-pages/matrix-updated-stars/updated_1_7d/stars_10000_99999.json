@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1673,
-    "concepts": 856,
-    "observations": 862,
-    "repos": 68,
-    "terms": 856
+    "components": 1618,
+    "concepts": 828,
+    "observations": 834,
+    "repos": 66,
+    "terms": 828
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -22,7 +22,6 @@
     "datalab-to/surya",
     "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
-    "dexie/Dexie.js",
     "DioxusLabs/dioxus",
     "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
@@ -55,7 +54,6 @@
     "nwjs/nw.js",
     "OpenHands/OpenHands",
     "OpenMOSS/MOSS",
-    "PDFMathTranslate/PDFMathTranslate",
     "preactjs/preact",
     "psf/black",
     "pydantic/pydantic",

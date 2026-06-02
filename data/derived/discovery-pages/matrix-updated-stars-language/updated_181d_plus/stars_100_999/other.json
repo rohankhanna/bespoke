@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2281,
-    "concepts": 3058,
-    "observations": 3065,
-    "repos": 968,
-    "terms": 3039
+    "components": 2297,
+    "concepts": 3067,
+    "observations": 3074,
+    "repos": 971,
+    "terms": 3048
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -55,6 +55,7 @@
     "alibaba-damo-academy/PixelRefer",
     "AliFlux/VectorTileRenderer",
     "allenai/pdffigures2",
+    "allenai/ScienceWorld",
     "Alloyed/lua-lsp",
     "aloctavodia/Doing_bayesian_data_analysis",
     "Alpha-Innovator/DocGenome",
@@ -240,6 +241,7 @@
     "cognitect-labs/test-runner",
     "cognitect-labs/vase",
     "cognitect/transit-cljs",
+    "coin-or/CyLP",
     "company-mode/company-quickhelp",
     "ConradIrwin/vim-bracketed-paste",
     "Const-me/Vrmac",
@@ -939,6 +941,7 @@
     "vouch-opensource/krell",
     "vueuse/vueuse-vite-starter",
     "vyokky/LLM-Brained-GUI-Agents-Survey",
+    "w3c/FileAPI",
     "WangDaYeeeeee/GeometricWeather-iOS",
     "Watfaq/PowerSession",
     "wbolster/emacs-direnv",

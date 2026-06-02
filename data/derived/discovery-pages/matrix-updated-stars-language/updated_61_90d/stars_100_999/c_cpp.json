@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 213,
-    "concepts": 363,
-    "observations": 363,
-    "repos": 69,
-    "terms": 361
+    "components": 228,
+    "concepts": 401,
+    "observations": 402,
+    "repos": 73,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
@@ -21,16 +21,17 @@
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
     "ARM-software/EndpointAI",
+    "ashvardanian/ForkUnion",
     "avaneev/r8brain-free-src",
     "BirolLab/ntHash",
     "btzy/nativefiledialog-extended",
     "charlesnicholson/nanoprintf",
+    "containers/conmon",
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
     "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
-    "douglascrockford/JSMin",
     "eclipse-cyclonedds/cyclonedds-cxx",
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",
@@ -43,6 +44,7 @@
     "haosulab/SAPIEN",
     "haxenme/nme",
     "intel/gmmlib",
+    "intel/opencl-clang",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
     "KhronosGroup/OpenCL-Headers",
@@ -67,6 +69,7 @@
     "PaddlePaddle/Paddle2ONNX",
     "raysan5/raylib-games",
     "refresh-bio/KMC",
+    "RoaringBitmap/croaring-rs",
     "rusty1s/pytorch_cluster",
     "sheredom/ubench.h",
     "Slamtec/rplidar_sdk",
@@ -76,6 +79,7 @@
     "usnistgov/trec_eval",
     "uxlfoundation/oneMath",
     "vcflib/vcflib",
+    "vectr-ucla/direct_lidar_inertial_odometry",
     "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",

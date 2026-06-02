@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 471,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 25,
-    "terms": 80
+    "components": 512,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 26,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "dannyhw/react-native-storybook-starter",
+    "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
     "googleapis/nodejs-error-reporting",
     "gr2m/octokit-oauth-app-now-example",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4613,
-    "concepts": 913,
-    "observations": 914,
-    "repos": 136,
-    "terms": 907
+    "components": 4968,
+    "concepts": 968,
+    "observations": 969,
+    "repos": 140,
+    "terms": 962
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
     "actions/javascript-action",
     "ai/size-limit",
+    "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
     "amperser/proselint",
@@ -58,6 +59,7 @@
     "GoogleChromeLabs/ProjectVisBug",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "grommet/grommet",
+    "heshengtao/super-agent-party",
     "hotoo/pinyin",
     "i18next/i18next",
     "i18next/react-i18next",
@@ -122,7 +124,9 @@
     "serverless-operations/serverless-step-functions",
     "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
+    "stdlib-js/stdlib",
     "sveltejs/vite-plugin-svelte",
+    "sverweij/dependency-cruiser",
     "swagger-api/swagger-editor",
     "tapjs/tapjs",
     "tc39/agendas",

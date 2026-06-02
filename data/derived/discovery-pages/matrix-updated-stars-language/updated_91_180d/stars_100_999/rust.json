@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 243,
-    "observations": 244,
-    "repos": 64,
-    "terms": 241
+    "components": 380,
+    "concepts": 250,
+    "observations": 251,
+    "repos": 65,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -40,6 +40,7 @@
     "ImageOptim/libimagequant",
     "ItsEthra/typst-live",
     "jimblandy/perf-event",
+    "Kampfkarren/selene",
     "kata-containers/cgroups-rs",
     "kwonoj/swc-plugin-coverage-instrument",
     "KyleMayes/clang-rs",

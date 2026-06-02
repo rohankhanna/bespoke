@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 373,
-    "concepts": 594,
-    "observations": 596,
-    "repos": 126,
-    "terms": 592
+    "components": 371,
+    "concepts": 581,
+    "observations": 583,
+    "repos": 125,
+    "terms": 581
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "AGI-Arena/MARS",
     "aigc3d/LHM-plusplus",
+    "aiming-lab/AutoHarness",
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
@@ -27,11 +28,9 @@
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
     "amaranth-lang/amaranth-boards",
-    "amaranth-lang/amaranth-soc",
     "angr/angrop",
     "astra-vision/MonoScene",
     "Blosc/python-blosc",
-    "BrianPugh/belay",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
     "CatharsisFonts/Ysabeau",
@@ -55,7 +54,6 @@
     "gmberton/deep-visual-geo-localization-benchmark",
     "gmberton/MegaLoc",
     "gmberton/VPR-datasets-downloader",
-    "google-deepmind/multi_object_datasets",
     "googleapis/python-storage",
     "HazyResearch/legalbench",
     "HazyResearch/zoology",
@@ -88,10 +86,10 @@
     "mindspore-lab/mindnlp",
     "MinimalFuture/AgentMesh",
     "mkdocstrings/griffe",
+    "mlcommons/algorithmic-efficiency",
     "mondeja/mkdocs-include-markdown-plugin",
     "MontrealCorpusTools/mfa-models",
     "mr-fatalyst/fastopenapi",
-    "naver/multi-hmr",
     "neavo/KeywordGacha",
     "NeuralVox/OpenPhonemizer",
     "nicklashansen/dreamer4",
@@ -138,6 +136,7 @@
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",
+    "Yelp/aactivator",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zhijian-liu/torchprofile"
   ]

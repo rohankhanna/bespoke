@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 69,
-    "observations": 70,
-    "repos": 6,
-    "terms": 64
+    "components": 96,
+    "concepts": 88,
+    "observations": 89,
+    "repos": 9,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
     "babashka/sci",
     "dotnet/Silk.NET",
+    "licensee/licensed",
+    "openai/openai-dotnet",
+    "radian-software/straight.el",
     "standardrb/standard",
     "tModLoader/tModLoader",
     "xoofx/markdig"

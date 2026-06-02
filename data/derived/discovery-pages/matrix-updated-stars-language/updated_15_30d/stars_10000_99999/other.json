@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 196,
-    "observations": 197,
-    "repos": 18,
-    "terms": 194
+    "components": 92,
+    "concepts": 113,
+    "observations": 114,
+    "repos": 9,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
-    "2dust/v2rayNG",
-    "adityatelange/hugo-PaperMod",
-    "cefsharp/CefSharp",
-    "Devolutions/UniGetUI",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "exelban/stats",
-    "google/material-design-lite",
     "hagezi/dns-blocklists",
     "JetBrains/compose-multiplatform",
     "kubernetes-sigs/kubespray",
     "mixmark-io/turndown",
     "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
-    "phpstan/phpstan",
-    "swiftlang/swift-evolution",
-    "swiftlang/swift-package-manager",
-    "tiann/KernelSU"
+    "phpstan/phpstan"
   ]
 }

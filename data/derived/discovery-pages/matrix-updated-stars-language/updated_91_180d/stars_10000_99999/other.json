@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 11,
-    "terms": 61
+    "components": 37,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 13,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "camenduru/stable-diffusion-webui-colab",
     "datawhalechina/llm-universe",
+    "facebookresearch/audiocraft",
     "folke/lazy.nvim",
     "github/copilot.vim",
+    "google-research/vision_transformer",
     "junegunn/vim-plug",
     "MatsuriDayo/NekoBoxForAndroid",
     "nikic/PHP-Parser",

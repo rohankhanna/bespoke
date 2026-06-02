@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 14,
-    "terms": 135
+    "components": 315,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 11,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
-    "alphagov/govuk-frontend",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
-    "heshengtao/super-agent-party",
     "ipfs/ipfs-companion",
     "jasonlong/isometric-contributions",
     "MikeMcl/bignumber.js",
     "openwrt/luci",
-    "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
-    "sverweij/dependency-cruiser",
-    "uBlockOrigin/uBOL-home"
+    "uBlockOrigin/uBOL-home",
+    "WiseLibs/better-sqlite3"
   ]
 }

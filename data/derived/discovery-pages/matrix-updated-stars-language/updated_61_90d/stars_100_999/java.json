@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 52,
+    "components": 54,
     "concepts": 80,
     "observations": 80,
-    "repos": 12,
+    "repos": 13,
     "terms": 77
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "Deep-Symmetry/crate-digger",
     "eclipse-aspectj/aspectj",
+    "eclipse-buildship/buildship",
     "filip26/titanium-json-ld",
     "fnproject/fdk-java",
     "googleapis/java-bigquery",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 68,
-    "observations": 68,
+    "components": 118,
+    "concepts": 65,
+    "observations": 65,
     "repos": 25,
-    "terms": 68
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
     "celestiaorg/hana",
     "chris-zen/coremidi",
+    "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
     "dgn/oidc-filter",
     "filecoin-project/blstrs",
@@ -27,7 +28,6 @@
     "jiegec/tantivy-jieba",
     "lambdaclass/libssz",
     "libdeflater/libdeflater",
-    "libp2p/if-watch",
     "microsoft/tracing-etw",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",

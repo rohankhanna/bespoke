@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2432,
-    "concepts": 2375,
-    "observations": 2386,
-    "repos": 274,
-    "terms": 2373
+    "components": 2470,
+    "concepts": 2427,
+    "observations": 2438,
+    "repos": 278,
+    "terms": 2425
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -118,6 +118,7 @@
     "envoyproxy/ai-gateway",
     "envoyproxy/gateway",
     "envoyproxy/go-control-plane",
+    "erigontech/erigon",
     "eryajf/chatgpt-dingtalk",
     "ethereum-optimism/optimism",
     "ethersphere/bee",
@@ -134,6 +135,8 @@
     "gin-gonic/examples",
     "go-flutter-desktop/go-flutter",
     "go-flutter-desktop/hover",
+    "go-git/go-git",
+    "go-ini/ini",
     "go-logr/logr",
     "go-spatial/tegola",
     "go-swagger/go-swagger",
@@ -178,6 +181,7 @@
     "korotovsky/slack-mcp-server",
     "kserve/kserve",
     "kubeflow/trainer",
+    "kubeovn/kube-ovn",
     "kuberhealthy/kuberhealthy",
     "kubernetes-sigs/cluster-api",
     "kubernetes-sigs/controller-runtime",
@@ -201,11 +205,11 @@
     "lesismal/nbio",
     "libp2p/go-libp2p",
     "lightningnetwork/lnd",
+    "Loyalsoldier/geoip",
     "madneal/gshark",
     "maragudk/gomponents",
     "mark3labs/mcp-go",
     "Masterminds/semver",
-    "mattn/goreman",
     "maypok86/otter",
     "miekg/dns",
     "moby/buildkit",

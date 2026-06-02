@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 260,
-    "observations": 264,
-    "repos": 59,
-    "terms": 258
+    "components": 251,
+    "concepts": 268,
+    "observations": 272,
+    "repos": 60,
+    "terms": 266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "Aloxaf/silicon",
     "asciinema/agg",
@@ -33,6 +33,7 @@
     "EmbarkStudios/kajiya",
     "EmbarkStudios/rust-ecosystem",
     "EmbarkStudios/rust-gpu",
+    "erg-lang/erg",
     "ezrosent/frawk",
     "fcsonline/tmux-thumbs",
     "g1mv/density",

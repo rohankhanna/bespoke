@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 5,
-    "terms": 19
+    "components": 7,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "cbuijs/hagezi",
-    "microsoft/microsoft-foundry-for-vscode",
     "RiDDiX/home-assistant-addons",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "universal-ctags/ctags-nightly-build"

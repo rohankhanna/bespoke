@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 127,
-    "observations": 129,
-    "repos": 86,
-    "terms": 130
+    "components": 245,
+    "concepts": 111,
+    "observations": 113,
+    "repos": 84,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
-    "8144225309/superscalar-mcp",
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
@@ -55,13 +54,13 @@
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
-    "EspressoSystems/commit",
     "firstbatchxyz/dkn-protocol",
     "glennhickey/red",
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
     "hermit-os/tokio",
     "iambriccardo/gcp-bigquery-client",
+    "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "kdubbo/api",
@@ -88,7 +87,6 @@
     "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
     "prisma/cuid-rust",
-    "saalfeldlab/n5-blosc",
     "Saalvage/assimp",
     "saharmor/saharmor.github.io",
     "samsja/dion",

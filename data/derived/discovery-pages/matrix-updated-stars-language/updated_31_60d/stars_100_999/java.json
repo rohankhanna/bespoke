@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 554,
-    "observations": 554,
+    "components": 461,
+    "concepts": 556,
+    "observations": 556,
     "repos": 74,
-    "terms": 552
+    "terms": 554
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -36,7 +36,6 @@
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
-    "eclipse-buildship/buildship",
     "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",
     "FasterXML/jackson-dataformat-xml",
@@ -61,6 +60,7 @@
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
     "kreativekorp/bitsnpicas",
+    "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",

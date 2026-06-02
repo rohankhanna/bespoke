@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 3,
-    "terms": 2
+    "components": 12,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 4,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
+    "8144225309/superscalar-mcp",
     "danielrosehill/Model-Scout-MCP",
     "frankkohlhepp/fancy-settings",
     "illusionfield/fourseven-scss"

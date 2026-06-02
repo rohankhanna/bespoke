@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 10,
-    "terms": 88
+    "components": 285,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 8,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "4ian/GDevelop",
     "browserslist/browserslist",
-    "CesiumGS/cesium",
     "emotion-js/emotion",
     "eslint/eslint",
     "foliojs/pdfkit",
     "gorhill/uBlock",
     "lint-staged/lint-staged",
-    "sveltejs/kit",
     "yokoffing/Betterfox"
   ]
 }

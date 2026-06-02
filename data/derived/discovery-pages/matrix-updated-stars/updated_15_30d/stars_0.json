@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 14,
-    "terms": 23
+    "components": 60,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 12,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "abdeladim-s/pywhispercpp",
@@ -22,9 +22,7 @@
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "drmingdrmer/databend-meta",
-    "lakekeeper/iceberg-rust",
     "Luligu/matterbridge-eve-door",
-    "seanmacavaney/ir-datasets.com",
     "starfishmod/bonjour-service",
     "UnknownPlatypus/markup_fmt"
   ]

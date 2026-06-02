@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1482,
-    "concepts": 1492,
-    "observations": 1496,
+    "components": 1488,
+    "concepts": 1494,
+    "observations": 1498,
     "repos": 125,
-    "terms": 1479
+    "terms": 1481
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -45,6 +45,7 @@
     "coder/coder",
     "containerd/containerd",
     "containerd/nerdctl",
+    "containers/podman",
     "containers/skopeo",
     "coredns/coredns",
     "coreybutler/nvm-windows",
@@ -60,7 +61,6 @@
     "ent/ent",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
-    "evanw/esbuild",
     "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",

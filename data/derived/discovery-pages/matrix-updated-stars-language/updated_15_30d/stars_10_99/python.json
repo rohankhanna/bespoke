@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 11,
-    "terms": 30
+    "components": 67,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 10,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "apify/actor-templates",
@@ -21,7 +21,6 @@
     "dora-rs/dora-hub",
     "google-research/mseb",
     "goombalab/raven",
-    "Hiroshiba/voicevox_engine",
     "python-jsonschema/referencing",
     "version-fox/vfox-plugins",
     "yulewang97/ERDiff"

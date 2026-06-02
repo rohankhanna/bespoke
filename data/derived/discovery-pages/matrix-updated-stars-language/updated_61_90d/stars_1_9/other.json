@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 32,
-    "terms": 84
+    "components": 166,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 34,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "ada-url/kotlin",
@@ -21,10 +21,12 @@
     "aspect-build/rules_jasmine",
     "aspect-build/tools_telemetry",
     "ATProtoKit/MultiformatsKit",
+    "azure/homebrew-bicep",
     "bolasblack/BlogFront",
     "clearbluejar/ghidra-python",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "DanielSmith1239/KosherSwift",
+    "dwyl/ping",
     "dylibso/xtp-csharp-bindgen",
     "dylibso/xtp-go-bindgen",
     "dylibso/xtp-python-bindgen",

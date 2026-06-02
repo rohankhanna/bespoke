@@ -3,7 +3,7 @@
     "components": 251,
     "concepts": 303,
     "observations": 305,
-    "repos": 81,
+    "repos": 82,
     "terms": 298
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -36,6 +36,7 @@
     "deeptools/pyBigWig",
     "derickr/timelib",
     "devkitPro/libctru",
+    "douglascrockford/JSMin",
     "eddelbuettel/rinside",
     "ejoy/lua",
     "embeddedartistry/libmemory",

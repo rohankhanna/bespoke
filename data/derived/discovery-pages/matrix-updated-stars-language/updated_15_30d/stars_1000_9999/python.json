@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 270,
-    "observations": 273,
-    "repos": 33,
-    "terms": 264
+    "components": 219,
+    "concepts": 243,
+    "observations": 246,
+    "repos": 30,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxtext",
     "apify/agent-skills",
     "arcee-ai/mergekit",
     "awslabs/aidlc-workflows",
-    "Breakthrough/PySceneDetect",
     "copier-org/copier",
     "dmMaze/BallonsTranslator",
     "funstory-ai/BabelDOC",
     "geopandas/geopandas",
     "ggozad/oterm",
-    "google-deepmind/dm_control",
     "google-deepmind/sonnet",
     "google/budoux",
-    "InternLM/lagent",
     "lucidrains/vector-quantize-pytorch",
     "magenta/ddsp",
     "mangiucugna/json_repair",
@@ -35,11 +32,11 @@
     "meta-pytorch/data",
     "mikel-brostrom/boxmot",
     "msiemens/tinydb",
+    "nomadkaraoke/python-audio-separator",
     "openvpi/DiffSinger",
     "PaddlePaddle/FastDeploy",
     "PyAV-Org/PyAV",
     "python-versioneer/python-versioneer",
-    "pytorch/audio",
     "souzatharsis/podcastfy",
     "starVLA/starVLA",
     "voicepaw/so-vits-svc-fork",

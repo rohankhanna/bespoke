@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 258,
-    "observations": 259,
-    "repos": 105,
-    "terms": 266
+    "components": 257,
+    "concepts": 265,
+    "observations": 266,
+    "repos": 107,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -38,6 +38,9 @@
     "brentyi/jax_dataclasses",
     "Bujiazi/DiCache",
     "camel-ai/seta",
+    "chaoss/grimoirelab-cereslib",
+    "chaoss/grimoirelab-graal",
+    "chaoss/grimoirelab-kidash",
     "chenkang455/ManiSkill-GS",
     "ChenMnZ/INT_vs_FP",
     "ChenShawn/MultiModal-Jupyter-Sandbox",
@@ -92,7 +95,6 @@
     "Owen-Liuyuxuan/ros2_vision_inference",
     "pfnet-research/tgan2",
     "philipy1219/ComfyUI-TaylorSeer",
-    "pycompression/python-zlib-ng",
     "rdb/panda3d-thirdparty",
     "ReneHollander/rep0st",
     "saltstack/libnacl",

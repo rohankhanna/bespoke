@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1456,
-    "concepts": 292,
-    "observations": 293,
-    "repos": 45,
-    "terms": 314
+    "components": 1588,
+    "concepts": 329,
+    "observations": 330,
+    "repos": 48,
+    "terms": 351
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
     "antfu-collective/vite-ssg",
     "antfu-collective/vitesse-lite",
-    "antfu-collective/vitesse-webext",
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
     "arktypeio/arktype",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
+    "butlerx/wetty",
     "coaidev/coai",
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
     "glittercowboy/taches-cc-resources",
+    "golang/vscode-go",
     "gpac/mp4box.js",
     "graphql-hive/graphql-config",
+    "grpc/grpc-node",
     "gustavoguichard/string-ts",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
@@ -58,6 +60,7 @@
     "t0bst4r/home-assistant-matter-hub",
     "TfTHacker/obsidian42-brat",
     "vadimdemedes/pastel",
-    "vercel/next-learn"
+    "vercel/next-learn",
+    "xojs/xo"
   ]
 }

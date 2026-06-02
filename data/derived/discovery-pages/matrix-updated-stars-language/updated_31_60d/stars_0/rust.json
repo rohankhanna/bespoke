@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 21,
-    "terms": 52
+    "components": 149,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 22,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
@@ -29,6 +29,7 @@
     "hyper-mcp-rs/defuddle-plugin",
     "jsleekr/skilldigest",
     "kayabaNerve/monero-oxide",
+    "lakekeeper/iceberg-rust",
     "MaterializeInc/duckdb-rs",
     "mupozg823/codelens-mcp-plugin",
     "netdur/llama_cpp_rust",

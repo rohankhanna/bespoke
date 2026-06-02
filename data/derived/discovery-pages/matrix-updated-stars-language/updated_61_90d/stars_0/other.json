@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 23,
     "observations": 23,
-    "repos": 16,
+    "repos": 17,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "atsushieno/homebrew-oss",
     "b2agi/exist-is-charter_kr",
@@ -20,6 +20,7 @@
     "danielrosehill/HFC-Guidance-Flip-Book",
     "danielrosehill/Israel-Civilian-Readiness-Guide",
     "danielrosehill/Israel-First-Aid",
+    "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "kdubbo/client-go",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 114,
-    "observations": 114,
+    "components": 189,
+    "concepts": 113,
+    "observations": 113,
     "repos": 25,
-    "terms": 113
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "ankane/dist-c",
@@ -29,7 +29,6 @@
     "grizzlypeak3d/feather-tk",
     "HyperLan-git/Synthmania",
     "lonewolf-jp/convopeq",
-    "mybigday/whisper.node",
     "mypyc/librt",
     "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
@@ -37,6 +36,7 @@
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "stdlib-js/ndarray-ctor",
+    "vincentlaucsb/classify_scalar",
     "walbourn/directxtk12test",
     "yoshoku/numo-linalg-alt"
   ]

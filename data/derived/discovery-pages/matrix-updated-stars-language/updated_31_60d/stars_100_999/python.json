@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2522,
-    "concepts": 2424,
-    "observations": 2435,
-    "repos": 454,
-    "terms": 2427
+    "components": 2518,
+    "concepts": 2419,
+    "observations": 2430,
+    "repos": 453,
+    "terms": 2422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -42,7 +42,6 @@
     "aigc-apps/PAI-RAG",
     "aigc3d/LAM",
     "aiidateam/aiida-core",
-    "aiming-lab/AutoHarness",
     "aio-libs/aiorwlock",
     "aio-libs/pytest-aiohttp",
     "airspeed-velocity/asv",
@@ -225,6 +224,7 @@
     "HoangTheQuyen/think-better",
     "hshi74/toddlerbot",
     "html5lib/html5lib-tests",
+    "httpwg/http-extensions",
     "huggingface/kernels",
     "huggingface/optimum-executorch",
     "huggingface/optimum-habana",
@@ -284,6 +284,7 @@
     "lxgw/LxgwWenkaiTC",
     "magic-wormhole/magic-wormhole-mailbox-server",
     "MahmoudAshraf97/ctc-forced-aligner",
+    "makehumancommunity/mpfb2",
     "marbl/verkko",
     "marcelm/cutadapt",
     "marin-community/marin",
@@ -301,7 +302,6 @@
     "mit-ll-responsible-ai/hydra-zen",
     "miurahr/py7zr",
     "mlc-ai/relax",
-    "mlcommons/algorithmic-efficiency",
     "MME-Benchmarks/Video-MME-v2",
     "modelscope/DiffSynth-Engine",
     "mosaicml/diffusion",
@@ -456,7 +456,6 @@
     "volcengine/volcengine-python-sdk",
     "voxel51/fiftyone-brain",
     "wuphilipp/gello_software",
-    "Yelp/aactivator",
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",
     "YosysHQ/sby",

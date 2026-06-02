@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 12,
-    "terms": 128
+    "components": 90,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 9,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
-    "agentscope-ai/QwenPaw",
     "crewAIInc/crewAI",
     "datalab-to/marker",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
     "Kludex/starlette",
     "ludwig-ai/ludwig",
-    "MetaCubeX/mihomo",
     "modelscope/DiffSynth-Studio",
-    "StevenBlack/hosts",
-    "triton-inference-server/server",
+    "pyg-team/pytorch_geometric",
     "wkentaro/labelme"
   ]
 }

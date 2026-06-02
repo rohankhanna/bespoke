@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 83,
-    "terms": 115
+    "components": 293,
+    "concepts": 132,
+    "observations": 132,
+    "repos": 85,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
+    "8144225309/superscalar-mcp",
     "abap2UI5-addons/popups",
     "AdaCore/vss-text",
     "aldernero/spider",
@@ -61,6 +62,7 @@
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
     "Enselic/cargo-public-api",
+    "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
     "frankkohlhepp/fancy-settings",
     "get-gah/gah-db",
@@ -86,12 +88,12 @@
     "praw-dev/.github",
     "prestodb/presto-dev",
     "puffyyy/PCSim",
+    "saalfeldlab/n5-blosc",
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",
     "stainless-api/tsc-multi",
     "typstyle-rs/prettyless",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
-    "vovkos/luadoxyxml",
     "wintercg/fetch",
     "yoshoku/numo-liblinear",
     "youngsofun/rust-csv",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 328,
-    "observations": 330,
+    "components": 249,
+    "concepts": 331,
+    "observations": 333,
     "repos": 52,
-    "terms": 328
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -22,6 +22,7 @@
     "aurutils/aurutils",
     "bblanchon/pdfium-binaries",
     "bioconda/bioconda-recipes",
+    "bitnami/containers",
     "bluesky-social/pds",
     "Botspot/pi-apps",
     "clangd/clangd",
@@ -61,7 +62,6 @@
     "rvm/rvm",
     "spiffe/spiffe",
     "sublimehq/Packages",
-    "trailofbits/claude-code-config",
     "void-linux/void-packages",
     "YosysHQ/oss-cad-suite-build",
     "zilliztech/attu",

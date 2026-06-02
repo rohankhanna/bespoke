@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 298,
-    "concepts": 195,
-    "observations": 195,
+    "components": 315,
+    "concepts": 216,
+    "observations": 216,
     "repos": 20,
-    "terms": 195
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "actions-cool/.github",
     "actions-cool/test-issues-helper",
@@ -33,6 +33,6 @@
     "stdlib-js/array-dtypes",
     "stdlib-js/array-typed",
     "stdlib-js/array-typed-dtypes",
-    "tc39/proposal-intl-keep-trailing-zeros"
+    "stdlib-js/ndarray-dtype"
   ]
 }

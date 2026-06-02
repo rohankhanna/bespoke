@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 4,
-    "terms": 26
+    "components": 29,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 5,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
+    "compozy/kb",
     "energye/wv",
     "gookit/ini",
     "gookit/rux",

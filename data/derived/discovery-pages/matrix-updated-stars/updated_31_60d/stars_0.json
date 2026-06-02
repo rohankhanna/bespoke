@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1010,
-    "concepts": 413,
-    "observations": 413,
-    "repos": 281,
-    "terms": 442
+    "components": 1026,
+    "concepts": 419,
+    "observations": 419,
+    "repos": 282,
+    "terms": 448
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -224,7 +224,6 @@
     "ipfs-examples/github-mgmt",
     "jonislutheran87/weclaw",
     "jsleekr/skilldigest",
-    "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
     "JuliaBinaryWrappers/Expat_jll.jl",
@@ -242,6 +241,7 @@
     "kyverno/.github",
     "l12203685/digital-immortality",
     "lace/lacecore",
+    "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "markoswire/remember-me.ai",
@@ -270,6 +270,7 @@
     "roampal-ai/roampal-labs",
     "robertabao/grok-nvim",
     "saidudz/chat-ai",
+    "seanmacavaney/ir-datasets.com",
     "semgrep/cursor-plugin",
     "shoggo-ai/seniorvigil",
     "shouted-numberone752/wechat-agent-connector",

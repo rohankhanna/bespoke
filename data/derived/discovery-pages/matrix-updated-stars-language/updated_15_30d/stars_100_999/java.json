@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 10,
-    "terms": 76
+    "components": 52,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 9,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "eclipse-lsp4j/lsp4j",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
     "KosherJava/zmanim",
     "mapsforge/vtm",
-    "MarcusWolschon/osmeditor4android",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "processing/processing4",

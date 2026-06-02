@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 48,
+    "components": 43,
     "concepts": 67,
     "observations": 68,
-    "repos": 10,
+    "repos": 9,
     "terms": 67
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "apache/casbin-actix-casbin-auth",
@@ -22,7 +22,6 @@
     "g-plane/raffia",
     "influxdata/datafusion-udf-wasm",
     "kurrent-io/KurrentDB-Client-Rust",
-    "tofay/rustls-openssl",
     "tyrypyrking/egui-ash"
   ]
 }

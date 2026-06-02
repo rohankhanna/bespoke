@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 401,
+    "components": 402,
     "concepts": 91,
     "observations": 92,
-    "repos": 30,
+    "repos": 31,
     "terms": 91
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "apostrophecms/apostrophe-astro",
@@ -22,6 +22,7 @@
     "ButTaiwan/taigivs",
     "chaijs/check-error",
     "CheckerNetwork/spark-checker",
+    "chrisdickinson/varint",
     "coderaiser/estrace",
     "coderaiser/mock-import",
     "coderaiser/try-catch",

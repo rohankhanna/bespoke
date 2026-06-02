@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 718,
-    "concepts": 1507,
-    "observations": 1509,
-    "repos": 860,
-    "terms": 1484
+    "components": 727,
+    "concepts": 1513,
+    "observations": 1515,
+    "repos": 861,
+    "terms": 1490
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -690,6 +690,7 @@
     "project-numina/kimina-prover-rl",
     "psunlpgroup/VisOnlyQA",
     "purdue-tlt/latex2sympy",
+    "pycompression/python-zlib-ng",
     "pycompression/xopen",
     "pydantic/hooky",
     "pydantic/strict-no-cover",

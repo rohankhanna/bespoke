@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1612,
-    "concepts": 432,
-    "observations": 434,
-    "repos": 107,
-    "terms": 432
+    "components": 1560,
+    "concepts": 418,
+    "observations": 420,
+    "repos": 101,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
@@ -22,7 +22,6 @@
     "andylockran/spectral-aws-apigateway-ruleset",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
-    "Azure/azure-api-style-guide",
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
@@ -45,13 +44,10 @@
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
     "evenchange4/graphql.macro-example",
-    "faressoft/inquirer-checkbox-plus-prompt",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "GDevelopApp/GDevelop-tutorials",
     "gr2m/before-after-hook",
-    "graphql/composite-schemas-wg",
-    "graphql/graphql-js-wg",
     "grommet/grommet-site",
     "GuillaumeGomez/browser-UI-test",
     "hectorm/chafa-wasm",
@@ -65,7 +61,6 @@
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "ipfs/js-ipfs-utils",
-    "ipld/js-dag-cbor",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
@@ -107,7 +102,6 @@
     "scaleway/serverless-scaleway-functions",
     "semantic-release/error",
     "stdlib-js/google-summer-of-code",
-    "sveltejs/eslint-config",
     "Taritsyn/DartSassHost",
     "tc39/proposal-iterator-includes",
     "tnc-ca-geo/animl-frontend",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 610,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 47,
-    "terms": 188
+    "components": 642,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 49,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -25,6 +25,7 @@
     "cmake-js/cmake-js",
     "CyberAP/nanoid-dictionary",
     "d3/d3-geo-polygon",
+    "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
     "executablebooks/sphinx-copybutton",
@@ -55,6 +56,7 @@
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
     "rtfeldman/node-test-runner",
+    "sveltejs/svelte-loader",
     "TeamMoeAI/MoeSR",
     "terraform-linters/setup-tflint",
     "thejoshwolfe/yauzl",

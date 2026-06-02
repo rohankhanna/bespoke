@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 322,
-    "observations": 323,
-    "repos": 92,
-    "terms": 320
+    "components": 367,
+    "concepts": 343,
+    "observations": 345,
+    "repos": 97,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -23,10 +23,12 @@
     "ably-labs/realtime-quiz-framework",
     "adaszko/tree_climber_rust.nvim",
     "adinhodovic/argo-cd-mixin",
+    "alfaix/neotest-gtest",
     "am-kantox/md",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",
+    "appsignal/appsignal-elixir-phoenix",
     "appsignal/mono",
     "astropy/astropy-project",
     "AvaotaSBC/AvaotaF1",
@@ -79,6 +81,7 @@
     "metosin/ring-swagger-ui",
     "mfussenegger/nlua",
     "mirage/conan",
+    "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
     "mugh/minecraft-bedrock-server-manager",
@@ -96,6 +99,7 @@
     "php/doc-it",
     "revfactory/claude-code-harness",
     "rojo-rbx/rojo.space",
+    "ropensci/allcontributors",
     "rubygems/release-gem",
     "rust-lang/crates-build-env",
     "Saalvage/AssimpNetter",
@@ -105,6 +109,7 @@
     "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
     "V13Axel/neotest-pest",
-    "w3c/element-timing"
+    "w3c/element-timing",
+    "xledger/pod_sql_server"
   ]
 }

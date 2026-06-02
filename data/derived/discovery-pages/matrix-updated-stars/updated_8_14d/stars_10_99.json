@@ -1,20 +1,20 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 45,
-    "observations": 45,
+    "components": 151,
+    "concepts": 49,
+    "observations": 49,
     "repos": 12,
-    "terms": 45
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
-    "compozy/kb",
+    "cloudfoundry/credhub-cli",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "google-marketing-solutions/ariel",

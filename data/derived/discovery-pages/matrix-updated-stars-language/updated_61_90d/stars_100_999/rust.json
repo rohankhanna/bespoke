@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 161,
-    "observations": 165,
+    "components": 230,
+    "concepts": 154,
+    "observations": 158,
     "repos": 40,
-    "terms": 161
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
@@ -27,6 +27,7 @@
     "emilk/egui_plot",
     "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
+    "filecoin-project/bellperson",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "getsentry/rust-sourcemap",
@@ -34,7 +35,6 @@
     "gimli-rs/addr2line",
     "hsivonen/chardetng",
     "IWANABETHATGUY/tower-lsp-boilerplate",
-    "Kampfkarren/selene",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",

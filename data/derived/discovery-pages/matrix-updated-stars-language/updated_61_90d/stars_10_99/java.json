@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 84,
-    "observations": 85,
-    "repos": 17,
-    "terms": 83
+    "components": 79,
+    "concepts": 81,
+    "observations": 82,
+    "repos": 16,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
-    "apache/netbeans-nbpackage",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
     "clearml/clearml-pycharm-plugin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 162,
-    "observations": 163,
+    "components": 174,
+    "concepts": 167,
+    "observations": 168,
     "repos": 59,
-    "terms": 161
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -27,7 +27,6 @@
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
-    "collective/awesome-volto",
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
@@ -48,6 +47,7 @@
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "jupyterlab/frontends-team-compass",
     "kubernetes/steering",
+    "microsoft/microsoft-foundry-for-vscode",
     "mypyc/mypyc-benchmark-results",
     "NightWatcher314/zotero-pdf2zh-server",
     "ocaml/platform-blog",

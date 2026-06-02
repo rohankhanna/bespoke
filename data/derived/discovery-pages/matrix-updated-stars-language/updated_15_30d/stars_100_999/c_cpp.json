@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 29,
-    "terms": 177
+    "components": 124,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 24,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aburch/simutrans",
     "alsa-project/alsa-lib",
     "altschuler/imgui-knobs",
     "apache/casbin-cpp",
-    "apache/iceberg-cpp",
     "atsushieno/aap-core",
     "Blosc/c-blosc2",
     "CEED/libCEED",
@@ -27,17 +26,13 @@
     "DISTRHO/DPF",
     "eyalroz/printf",
     "foldl/chatllm.cpp",
-    "heiher/hev-socks5-server",
-    "heiher/hev-socks5-tproxy",
     "kiron1/bazel-compile-commands",
-    "Mercury13/unicodia",
     "microsoft/MIDI",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
     "ROCm/rocBLAS",
     "ros2/common_interfaces",
-    "todbot/hidapitester",
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
     "triton-inference-server/pytorch_backend",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1361,
-    "concepts": 297,
-    "observations": 297,
-    "repos": 34,
-    "terms": 293
+    "components": 1168,
+    "concepts": 255,
+    "observations": 255,
+    "repos": 27,
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
-    "agentclientprotocol/typescript-sdk",
-    "AgnosticUI/agnosticui",
     "Agoric/agoric-sdk",
     "ansible/vscode-ansible",
     "apify/apify-cli",
     "apify/mcpc",
     "Brendonovich/MacroGraph",
     "carbon-design-system/carbon-components-angular",
-    "carbon-design-system/sveld",
     "embroider-build/ember-auto-import",
     "fluent-vue/fluent-vue",
     "foundry-rs/foundry-toolchain",
@@ -31,7 +28,6 @@
     "inversify/monorepo",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
-    "LemmyNet/lemmy-js-client",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
@@ -42,9 +38,6 @@
     "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
-    "SkepticMystic/breadcrumbs",
-    "sumup-oss/circuit-ui",
-    "unjs/listhen",
     "victorgarciaesgi/regle",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"

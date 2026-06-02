@@ -3,7 +3,7 @@
     "components": 54,
     "concepts": 28,
     "observations": 29,
-    "repos": 20,
+    "repos": 21,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "acts-project/opendatadetector",
     "boingoing/node-sass",
@@ -33,6 +33,7 @@
     "ShenhanQian/nvdiffrast",
     "smallscientist1/tilelang",
     "spacemeshos/app-spacemesh",
-    "tipi-deps/example-mapmap_cpu"
+    "tipi-deps/example-mapmap_cpu",
+    "vovkos/luadoxyxml"
   ]
 }

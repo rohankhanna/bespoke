@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 282,
-    "concepts": 365,
-    "observations": 369,
-    "repos": 68,
-    "terms": 373
+    "components": 289,
+    "concepts": 385,
+    "observations": 389,
+    "repos": 70,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -25,6 +25,7 @@
     "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
     "chaoss/grimoirelab",
+    "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
@@ -81,6 +82,7 @@
     "tonistiigi/xx",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents",
+    "ungoogled-software/ungoogled-chromium-archlinux",
     "unixorn/zsh-quickstart-kit"
   ]
 }

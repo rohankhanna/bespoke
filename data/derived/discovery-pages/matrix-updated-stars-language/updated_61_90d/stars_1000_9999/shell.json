@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "docker-library/wordpress",
     "jonmosco/kube-ps1",
     "kward/shunit2",
     "lxgw/LxgwWenkaiGB",
-    "Pal3love/dream-han-cjk",
     "pgsty/pigsty",
     "tianon/gosu",
+    "trailofbits/claude-code-config",
     "zdharma-continuum/zinit",
     "zplug/zplug"
   ]

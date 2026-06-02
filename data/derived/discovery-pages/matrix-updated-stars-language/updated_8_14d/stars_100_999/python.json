@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 12,
-    "terms": 60
+    "components": 50,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 9,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "AMD-AGI/Nitro-1",
-    "gbionics/adam",
-    "google-deepmind/xmanager",
     "hluaguo/learn-faster-kit",
-    "Jamorim-esss/pytest-rich",
     "perrygeo/python-rasterstats",
+    "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
-    "python-poetry/poetry-plugin-export",
     "satan53x/SExtractor",
-    "shawn0728/OpenSearch-VL",
+    "SublimeText/AFileIcon",
     "zh-plus/openlrc"
   ]
 }

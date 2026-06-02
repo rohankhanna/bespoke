@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 4,
-    "terms": 28
+    "components": 171,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 5,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "electron/packager",
     "Gnathonic/mokuro-reader",
-    "LuaLS/vscode-lua"
+    "LuaLS/vscode-lua",
+    "matter-js/matter.js"
   ]
 }

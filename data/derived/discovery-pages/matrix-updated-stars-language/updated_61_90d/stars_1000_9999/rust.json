@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 224,
+    "components": 230,
     "concepts": 157,
     "observations": 160,
-    "repos": 31,
+    "repos": 33,
     "terms": 155
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",
+    "BurntSushi/quickcheck",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
@@ -38,6 +39,7 @@
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "Rust-SDL2/rust-sdl2",
+    "servo/ipc-channel",
     "sharkdp/pastel",
     "simd-lite/simd-json",
     "smol-rs/smol",

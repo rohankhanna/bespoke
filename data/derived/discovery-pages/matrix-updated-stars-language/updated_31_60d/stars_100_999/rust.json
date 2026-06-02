@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1849,
-    "concepts": 1279,
-    "observations": 1291,
-    "repos": 225,
-    "terms": 1278
+    "components": 1911,
+    "concepts": 1309,
+    "observations": 1321,
+    "repos": 228,
+    "terms": 1308
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -66,6 +66,7 @@
     "containers/aardvark-dns",
     "containers/netavark",
     "cosmos/ics23",
+    "cosmos/solidity-ibc-eureka",
     "cpmech/russell",
     "crate-ci/committed",
     "crisidev/bacon-ls",
@@ -107,7 +108,6 @@
     "facebookexperimental/rust-shed",
     "fancy-regex/fancy-regex",
     "FedericoPonzi/Horust",
-    "filecoin-project/bellperson",
     "filecoin-project/filecoin-ffi",
     "filecoin-project/ref-fvm",
     "flashbots/contender",
@@ -145,6 +145,7 @@
     "LaurenzV/hayro",
     "LaurenzV/krilla",
     "ldclabs/anda",
+    "left-curve/left-curve",
     "libbpf/blazesym",
     "lindera/lindera",
     "lu-zero/cargo-c",
@@ -172,6 +173,7 @@
     "OptiVorbis/OptiVorbis",
     "oschwald/maxminddb-rust",
     "oxc-project/oxc-resolver",
+    "paradigmxyz/solar",
     "paritytech/parity-scale-codec",
     "Plonky3/Plonky3",
     "posit-dev/ark",
@@ -233,6 +235,7 @@
     "Yatekii/imgui-wgpu-rs",
     "yeslogic/allsorts",
     "yetanotherco/aligned_layer",
+    "z-galaxy/zbus",
     "zaeleus/noodles",
     "ZcashFoundation/zebra",
     "zimbatm/mdsh",

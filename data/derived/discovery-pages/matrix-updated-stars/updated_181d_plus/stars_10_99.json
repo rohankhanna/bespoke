@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11932,
-    "concepts": 6887,
-    "observations": 6903,
-    "repos": 3279,
-    "terms": 6834
+    "components": 11959,
+    "concepts": 6899,
+    "observations": 6915,
+    "repos": 3285,
+    "terms": 6846
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -856,6 +856,7 @@
     "clojure/tools.analyzer.js",
     "cloudfoundry/auction",
     "cloudfoundry/bosh-deployment-resource",
+    "cloudfoundry/cf-uaa-lib",
     "cloudwego/gjson",
     "cloudwego/hertz-benchmark",
     "cloudwego/thrift-gen-validator",
@@ -1232,6 +1233,7 @@
     "elixir-makeup/makeup_html",
     "ElsaTam/Obsidian-Stuff",
     "emacs-evil/goto-chg",
+    "emacsorphanage/dart-mode",
     "emard/Minimig_ECS",
     "emard/ulx3s-bin",
     "Embarcadero/llama-cpp-delphi",
@@ -2234,6 +2236,7 @@
     "microsoft/FreeRDP-mirror",
     "microsoft/huggingface-transformers",
     "microsoft/LinuxTracepoints",
+    "microsoft/LinuxTracepoints-Rust",
     "microsoft/openpai-runtime",
     "microsoft/Optimal-Freshness-Crawl-Scheduling",
     "microsoft/Phi3-Chat-WinUI3-Sample",
@@ -2401,6 +2404,7 @@
     "nodeca/js-yaml-js-types",
     "nomfoundation/font",
     "non-Jedi/eglot-jl",
+    "NorfairKing/feedback",
     "Norod/U-2-Net-StyleTransfer",
     "northox/openbsd-apu2",
     "not-fl3/quad-net",
@@ -2502,6 +2506,7 @@
     "oskyhn/CNNs-Without-Borders",
     "osmosis-labs/cosmos-sdk",
     "ouhenio/stylegan3-projector",
+    "OutlierDetectionJL/OutlierDetection.jl",
     "OutThereLabs/actix-web-opentelemetry",
     "ovh/grafana-akvorado",
     "oxidizing/letters",
@@ -2605,6 +2610,7 @@
     "puma/dev-tld-resolver",
     "purcell/inheritenv",
     "purdue-tlt/latex2sympy",
+    "pycompression/python-zlib-ng",
     "pycompression/xopen",
     "PyCQA/bandit-action",
     "pydantic/hooky",

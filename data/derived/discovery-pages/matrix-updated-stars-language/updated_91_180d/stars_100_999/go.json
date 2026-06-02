@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 267,
-    "observations": 268,
-    "repos": 39,
-    "terms": 266
+    "components": 228,
+    "concepts": 271,
+    "observations": 272,
+    "repos": 40,
+    "terms": 270
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -24,6 +24,7 @@
     "aws/amazon-ec2-metadata-mock",
     "aws/amazon-ec2-spot-interrupter",
     "blampe/goat",
+    "box-cli-maker/box-cli-maker",
     "bshuster-repo/logrus-logstash-hook",
     "cloudpilot-ai/karpenter-provider-alibabacloud",
     "cloudwego/biz-demo",

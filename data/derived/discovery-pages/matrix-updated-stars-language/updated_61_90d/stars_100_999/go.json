@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 39,
-    "terms": 191
+    "components": 239,
+    "concepts": 205,
+    "observations": 205,
+    "repos": 41,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "aws/amazon-ecs-cni-plugins",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
-    "box-cli-maker/box-cli-maker",
     "bradleyfalzon/ghinstallation",
     "cedar-policy/cedar-go",
     "ChristopherHX/github-act-runner",
@@ -36,11 +35,13 @@
     "gpustack/gguf-parser-go",
     "hashicorp/hello-vault-go",
     "hashicorp/raft-boltdb",
+    "imjasonh/kontain.me",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",
+    "lightninglabs/neutrino",
     "medama-io/medama",
     "mholt/acmez",
     "minio/directpv",
@@ -48,6 +49,7 @@
     "nikepan/clickhouse-bulk",
     "notaryproject/notation",
     "opencontainers/runtime-tools",
+    "phuslu/log",
     "secretflow/scql",
     "siderolabs/talos-cloud-controller-manager",
     "slsa-framework/slsa-github-generator",

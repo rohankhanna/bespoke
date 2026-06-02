@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1027,
-    "concepts": 625,
-    "observations": 630,
-    "repos": 97,
-    "terms": 623
+    "components": 1041,
+    "concepts": 631,
+    "observations": 636,
+    "repos": 101,
+    "terms": 629
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -41,6 +41,8 @@
     "egoist/tsup",
     "ekzhang/bore",
     "existentialaudio/blackhole",
+    "facebookresearch/audiocraft",
+    "facebookresearch/vggt",
     "ffmpegwasm/ffmpeg.wasm",
     "floating-ui/floating-ui",
     "folke/lazy.nvim",
@@ -53,6 +55,7 @@
     "git-up/GitUp",
     "github/copilot.vim",
     "go-chi/chi",
+    "google-research/vision_transformer",
     "google/ExoPlayer",
     "gulpjs/gulp",
     "i3/i3",
@@ -94,6 +97,7 @@
     "snarktank/ralph",
     "songquanpeng/one-api",
     "spf13/viper",
+    "sql-js/sql.js",
     "Stability-AI/generative-models",
     "streamich/react-use",
     "TabbyML/tabby",

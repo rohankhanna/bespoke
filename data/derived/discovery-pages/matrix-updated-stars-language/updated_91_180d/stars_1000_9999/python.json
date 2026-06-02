@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 420,
-    "concepts": 831,
-    "observations": 832,
-    "repos": 171,
-    "terms": 817
+    "components": 418,
+    "concepts": 830,
+    "observations": 831,
+    "repos": 170,
+    "terms": 816
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -107,7 +107,6 @@
     "lucidrains/tab-transformer-pytorch",
     "lupantech/AgentFlow",
     "lyuwenyu/RT-DETR",
-    "MeetKai/functionary",
     "meta-llama/llama-models",
     "Minqi824/ADBench",
     "mjpost/sacrebleu",

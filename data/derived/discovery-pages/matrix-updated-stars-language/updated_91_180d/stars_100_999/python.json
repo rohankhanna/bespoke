@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 403,
-    "concepts": 774,
-    "observations": 774,
-    "repos": 218,
-    "terms": 770
+    "components": 412,
+    "concepts": 795,
+    "observations": 795,
+    "repos": 220,
+    "terms": 789
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -30,7 +30,7 @@
     "alibaba/TinyNeuralNetwork",
     "alonw0/web-asset-generator",
     "AMAP-ML/Tree-GRPO",
-    "amazon-far/TWIST2",
+    "amaranth-lang/amaranth-soc",
     "AMD-AGI/Nitro-E",
     "amd/Quark",
     "AmenRa/retriv",
@@ -47,13 +47,13 @@
     "axon-rl/gem",
     "Azure-Samples/ai-rag-chat-evaluator",
     "baaivision/Uni3D",
-    "baal-org/baal",
     "behave/behave-django",
     "berkerpeksag/astor",
     "bigcode-project/bigcodebench",
     "BoosterRobotics/booster_gym",
     "breezedeus/CnSTD",
     "brentyi/jaxls",
+    "BrianPugh/belay",
     "bshall/knn-vc",
     "BurntSushi/rebar",
     "bytedance/BindWeave",
@@ -94,6 +94,7 @@
     "GewelsJI/VPS",
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
+    "google-deepmind/multi_object_datasets",
     "google-deepmind/recurrentgemma",
     "google/adk-python-community",
     "googlefonts/glyphsets",
@@ -150,6 +151,7 @@
     "multi-swe-bench/multi-swe-bench",
     "multimodal-reasoning-lab/Bagel-Zebra-CoT",
     "MyoHub/myo_sim",
+    "naver/multi-hmr",
     "nghorbani/body_visualizer",
     "nicklashansen/newt",
     "nixprime/cpsm",

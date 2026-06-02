@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 57,
-    "terms": 188
+    "components": 240,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 58,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -26,10 +26,8 @@
     "bentoml/openllm-models",
     "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
+    "BoosterRobotics/booster_train",
     "c4ffein/realworld-django-ninja",
-    "chaoss/grimoirelab-cereslib",
-    "chaoss/grimoirelab-graal",
-    "chaoss/grimoirelab-kidash",
     "ckan/ckanext-xloader",
     "ckan/datapusher",
     "cldf/segments",
@@ -54,8 +52,10 @@
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
     "lucidrains/PoPE-pytorch",
+    "microsoft/vscode-azurecli",
     "networkx/nx-parallel",
     "nousresearch/tinker-atropos",
+    "optuna/optunahub",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
     "python-pillow/pillow-perf",
@@ -68,6 +68,7 @@
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",
     "w1ndys/ex-cure-skill",
+    "weaviate/agent-skills",
     "xuanyuzhang21/VQ-Insight",
     "yaph/tts-samples",
     "yxlllc/RMVPE"

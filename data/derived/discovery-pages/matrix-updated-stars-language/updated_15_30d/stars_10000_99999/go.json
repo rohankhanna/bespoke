@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 197,
-    "observations": 199,
-    "repos": 14,
-    "terms": 197
+    "components": 257,
+    "concepts": 187,
+    "observations": 189,
+    "repos": 13,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "apache/casbin",
     "cert-manager/cert-manager",
     "cilium/cilium",
-    "containers/podman",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
     "go-gitea/gitea",

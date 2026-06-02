@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 319,
-    "observations": 319,
-    "repos": 59,
-    "terms": 314
+    "components": 202,
+    "concepts": 314,
+    "observations": 314,
+    "repos": 60,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -20,7 +20,6 @@
     "apache/singa",
     "arrayfire/arrayfire",
     "ashvardanian/StringZilla",
-    "bblanchon/ArduinoJson",
     "bcrypt-ruby/bcrypt-ruby",
     "bugaevc/wl-clipboard",
     "cameron314/readerwriterqueue",
@@ -31,6 +30,7 @@
     "CVCUDA/CV-CUDA",
     "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
+    "felt/tippecanoe",
     "go-gl/gl",
     "google/double-conversion",
     "google/snappy",
@@ -61,6 +61,7 @@
     "romkatv/gitstatus",
     "snapcast/snapcast",
     "sqlcipher/sqlcipher",
+    "SRombauts/SQLiteCpp",
     "stevengj/nlopt",
     "TA-Lib/ta-lib",
     "TechEmpower/FrameworkBenchmarks",

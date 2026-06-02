@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15516,
-    "concepts": 14061,
-    "observations": 14089,
-    "repos": 4611,
-    "terms": 13823
+    "components": 15535,
+    "concepts": 14076,
+    "observations": 14104,
+    "repos": 4616,
+    "terms": 13838
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -272,6 +272,7 @@
     "allenai/OLMo-Eval-Legacy",
     "allenai/pdffigures2",
     "allenai/scidocs",
+    "allenai/ScienceWorld",
     "allenai/scifact",
     "allenai/specter",
     "allenai/tango",
@@ -297,6 +298,7 @@
     "amaralibey/gsv-cities",
     "amaralibey/MixVPR",
     "amaralibey/OpenVPRLab",
+    "amazon-far/TWIST2",
     "amazon-science/mxeval",
     "amazon-science/tgl",
     "Amblyopius/Stable-Diffusion-ONNX-FP16",
@@ -576,6 +578,7 @@
     "BAAI-DCAI/SpatialBot",
     "BAAI-WuDao/Model",
     "baaivision/GeoDream",
+    "baal-org/baal",
     "babashka/pods",
     "babel/notes",
     "babel/preset-modules",
@@ -1016,6 +1019,7 @@
     "cohnen/mcp-google-ads",
     "coin-or/Bonmin",
     "coin-or/COIN-OR-OptimizationSuite",
+    "coin-or/CyLP",
     "cokebar/gfwlist2dnsmasq",
     "ColemanGariety/gulp-nodemon",
     "Colin97/OpenShape_code",
@@ -4374,6 +4378,7 @@
     "vulkan-go/vulkan",
     "vyokky/LLM-Brained-GUI-Agents-Survey",
     "vztu/maxim-pytorch",
+    "w3c/FileAPI",
     "w3c/trace-context",
     "wadey/node-microtime",
     "WangDaYeeeeee/GeometricWeather-iOS",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 491,
-    "concepts": 589,
-    "observations": 592,
+    "components": 498,
+    "concepts": 620,
+    "observations": 623,
     "repos": 102,
-    "terms": 589
+    "terms": 620
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -46,7 +46,6 @@
     "dotnet/roslynator",
     "ex-aws/ex_aws",
     "excon/excon",
-    "facebookresearch/co-tracker",
     "FluxML/Zygote.jl",
     "flycheck/flycheck",
     "folke/lazydev.nvim",
@@ -54,6 +53,7 @@
     "folke/tokyonight.nvim",
     "freerange/mocha",
     "garybernhardt/selecta",
+    "geocompx/geocompr",
     "ggml-org/llama.vim",
     "gjtorikian/html-proofer",
     "google-deepmind/tapnet",
@@ -83,6 +83,7 @@
     "nanxiaobei/hugo-paper",
     "ndmitchell/hlint",
     "nesquena/rabl",
+    "ninenines/cowboy",
     "nmattia/niv",
     "OFA-Sys/Chinese-CLIP",
     "OmniSharp/omnisharp-roslyn",
@@ -100,7 +101,6 @@
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "RubyMoney/money",
-    "salesforce/BLIP",
     "scikit-learn-contrib/hdbscan",
     "ScoopInstaller/Install",
     "sds/overcommit",

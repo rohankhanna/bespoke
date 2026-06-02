@@ -3,7 +3,7 @@
     "components": 1287,
     "concepts": 547,
     "observations": 549,
-    "repos": 448,
+    "repos": 449,
     "terms": 547
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -448,6 +448,7 @@
     "ve-forbryderne/mkultra",
     "vim-fall/deno-fall-core",
     "vizzuhq/.github",
+    "vovkos/luadoxyxml",
     "vuki656/vuki656",
     "weiyithu/weiyithu.github.io",
     "wesfloyd/avs-context-prompt",

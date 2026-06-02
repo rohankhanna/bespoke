@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4291,
-    "concepts": 854,
-    "observations": 855,
-    "repos": 242,
-    "terms": 848
+    "components": 4301,
+    "concepts": 859,
+    "observations": 860,
+    "repos": 243,
+    "terms": 853
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -39,6 +39,7 @@
     "bgrins/TinyColor",
     "binux/qiandao",
     "bjornharrtell/jsts",
+    "Blizzard/node-rdkafka",
     "bnoguchi/everyauth",
     "bokub/chalk-animation",
     "boltpkg/bolt",

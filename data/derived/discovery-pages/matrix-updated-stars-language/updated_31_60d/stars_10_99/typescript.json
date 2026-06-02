@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3676,
-    "concepts": 628,
-    "observations": 633,
-    "repos": 134,
-    "terms": 660
+    "components": 3748,
+    "concepts": 653,
+    "observations": 658,
+    "repos": 137,
+    "terms": 685
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -39,12 +39,15 @@
     "bufbuild/protovalidate-es",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
+    "carbon-design-system/carbon-preprocess-svelte",
     "cargo-bins/release-pr",
     "catppuccin/.github",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
     "coasys/flux",
     "codemirror/language",
+    "csm-actions/approve-pr-action",
+    "csm-actions/securefix-action",
     "dannyhw/expo-storybook-starter",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
@@ -63,7 +66,6 @@
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
     "gicentre/prettier-plugin-elm",
-    "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
     "grafana/profiles-drilldown",
     "GreptimeTeam/greptimedb-grafana-datasource",
@@ -74,6 +76,7 @@
     "haskell/ghcup-setup",
     "huangguang1999/ccstatusline-zh",
     "hyparam/demos",
+    "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
     "intlify/cli",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 176,
-    "observations": 177,
-    "repos": 32,
-    "terms": 175
+    "components": 344,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 31,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "AMD-AGI/Nitro-1",
@@ -21,29 +21,28 @@
     "dwyl/quotes",
     "electron/packager",
     "emacscollective/auto-compile",
+    "flagos-ai/FlagCX",
     "fsprojects/FSharp.Data.GraphQL",
-    "gbionics/adam",
     "Gnathonic/mokuro-reader",
     "google-deepmind/reverb",
-    "google-deepmind/xmanager",
     "google/protobuf.dart",
     "hluaguo/learn-faster-kit",
-    "Jamorim-esss/pytest-rich",
     "jupyter/nbclassic",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "LuaLS/vscode-lua",
+    "matter-js/matter.js",
     "mingw-w64/mingw-w64",
     "nginx-le/nginx-le",
     "openbsd/ports",
     "perrygeo/python-rasterstats",
     "pyOpenSci/software-submission",
+    "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
-    "python-poetry/poetry-plugin-export",
     "satan53x/SExtractor",
     "sbt/sbt-jmh",
-    "shawn0728/OpenSearch-VL",
+    "SublimeText/AFileIcon",
     "zh-plus/openlrc"
   ]
 }

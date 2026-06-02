@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 370,
-    "concepts": 309,
-    "observations": 309,
-    "repos": 36,
-    "terms": 307
+    "components": 323,
+    "concepts": 249,
+    "observations": 249,
+    "repos": 28,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-01T08:21:18.254253+00:00",
+  "generated_at": "2026-06-02T06:06:30.664203+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
     "brave/brave-core",
-    "cisco/libsrtp",
     "dmlc/dlpack",
-    "facebookincubator/katran",
     "floooh/sokol",
     "fnc12/sqlite_orm",
     "free-audio/clap",
     "google/oboe",
     "gpac/gpac",
-    "GStreamer/gstreamer",
-    "heiher/hev-socks5-tunnel",
     "iree-org/iree",
-    "KratosMultiphysics/Kratos",
     "libcpr/cpr",
-    "libfuse/libfuse",
     "marzer/tomlplusplus",
     "Mithril-mine/libmdbx",
     "mstorsjo/llvm-mingw",
@@ -37,7 +31,6 @@
     "NVIDIA/DALI",
     "OSGeo/gdal",
     "PortAudio/portaudio",
-    "PoseLib/PoseLib",
     "pure-data/pure-data",
     "realsenseai/librealsense",
     "skeeto/w64devkit",
@@ -48,7 +41,6 @@
     "universal-ctags/ctags",
     "uxlfoundation/oneDNN",
     "uxlfoundation/oneTBB",
-    "vincentlaucsb/csv-parser",
     "WarmUpTill/SceneSwitcher"
   ]
 }
