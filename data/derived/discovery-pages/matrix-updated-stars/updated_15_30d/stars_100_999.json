@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2258,
-    "concepts": 1166,
-    "observations": 1167,
-    "repos": 168,
-    "terms": 1158
+    "components": 2250,
+    "concepts": 1161,
+    "observations": 1162,
+    "repos": 167,
+    "terms": 1153
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "2mawi2/schaltwerk",
     "aannoo/hcom",
@@ -41,8 +41,6 @@
     "atsushieno/ktmidi",
     "bagofwords1/bagofwords",
     "benchflow-ai/benchflow",
-    "Blosc/c-blosc2",
-    "Blosc/python-blosc2",
     "Brendonovich/MacroGraph",
     "browserslist/caniuse-lite",
     "Calcium-Ion/new-api-key-tool",
@@ -51,7 +49,6 @@
     "celtera/avendish",
     "charmbracelet/x",
     "CHIP-SPV/chipStar",
-    "Chocolate4U/Iran-sing-box-rules",
     "Chuyu-Team/YY-Thunks",
     "CopyText/TextCopy",
     "cosmos/chain-registry",
@@ -110,6 +107,7 @@
     "kornia/kornia-rs",
     "KosherJava/zmanim",
     "Kotlin/kotlinx-benchmark",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-gin",
     "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
@@ -123,6 +121,7 @@
     "maplibre/awesome-maplibre",
     "mapsforge/vtm",
     "microsoft/MIDI",
+    "mingw-w64/mingw-w64",
     "mit-plv/bedrock2",
     "mll-lab-nu/VAGEN",
     "mrcjkb/haskell-tools.nvim",

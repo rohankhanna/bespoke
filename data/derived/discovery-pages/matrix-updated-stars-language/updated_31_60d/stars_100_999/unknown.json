@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 317,
-    "observations": 318,
-    "repos": 82,
-    "terms": 316
+    "components": 138,
+    "concepts": 330,
+    "observations": 331,
+    "repos": 83,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -35,6 +35,7 @@
     "bitrise-io/bitrise-steplib",
     "bloomberg/clang-p2996",
     "box/box-openapi",
+    "Chocolate4U/Iran-sing-box-rules",
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",

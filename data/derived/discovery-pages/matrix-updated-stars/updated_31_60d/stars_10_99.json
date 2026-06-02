@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11037,
-    "concepts": 5171,
-    "observations": 5194,
-    "repos": 1238,
-    "terms": 5219
+    "components": 11040,
+    "concepts": 5181,
+    "observations": 5204,
+    "repos": 1240,
+    "terms": 5229
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -303,6 +303,7 @@
     "charmbracelet/scoop-bucket",
     "chef/chef-oss-practices",
     "chengzhag/PanFlow",
+    "Chocolate4U/Iran-clash-rules",
     "chrisjsewell/markdown-it-pyrs",
     "chusitoo/flatbush",
     "cilium/community",
@@ -1190,6 +1191,7 @@
     "tweag/gazelle_cabal",
     "typeshed-internal/stub_uploader",
     "typst/typst-assets",
+    "tyrypyrking/egui-ash",
     "uael/sv",
     "ultralytics/llm",
     "ungoogled-software/ungoogled-chromium-wiki",

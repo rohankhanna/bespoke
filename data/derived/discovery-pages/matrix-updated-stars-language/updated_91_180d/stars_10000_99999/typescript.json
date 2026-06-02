@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 66,
-    "observations": 67,
-    "repos": 11,
-    "terms": 66
+    "components": 378,
+    "concepts": 81,
+    "observations": 82,
+    "repos": 12,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "BuilderIO/mitosis",
     "egoist/tsup",
     "floating-ui/floating-ui",
     "jaredpalmer/tsdx",
     "linsa-io/linsa",
+    "logaretm/vee-validate",
     "microsoft/vscode-extension-samples",
     "peers/peerjs",
     "snarktank/ralph",

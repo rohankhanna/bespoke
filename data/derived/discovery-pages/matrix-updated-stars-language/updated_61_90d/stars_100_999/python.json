@@ -3,7 +3,7 @@
     "components": 371,
     "concepts": 581,
     "observations": 583,
-    "repos": 125,
+    "repos": 127,
     "terms": 581
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -24,6 +24,7 @@
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
     "Alibaba-NLP/qqr",
+    "Alibaba-NLP/VRAG",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
@@ -110,6 +111,7 @@
     "python-hyper/brotlicffi",
     "ronaldoussoren/pyobjc",
     "rosetta-rs/argparse-rosetta-rs",
+    "RUC-NLPIR/Tool-Star",
     "sarugaku/resolvelib",
     "sarugaku/shellingham",
     "scottchiefbaker/dool",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 291,
-    "concepts": 311,
-    "observations": 314,
-    "repos": 64,
-    "terms": 309
+    "components": 294,
+    "concepts": 321,
+    "observations": 324,
+    "repos": 65,
+    "terms": 319
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -32,6 +32,7 @@
     "bnb-chain/node-deploy",
     "bufbuild/homebrew-buf",
     "ChainSafe/forest-iac",
+    "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "clojure/brew-install",

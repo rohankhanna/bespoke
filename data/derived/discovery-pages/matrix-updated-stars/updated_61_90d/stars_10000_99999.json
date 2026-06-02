@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1162,
-    "concepts": 731,
-    "observations": 731,
-    "repos": 116,
-    "terms": 738
+    "components": 1114,
+    "concepts": 716,
+    "observations": 716,
+    "repos": 115,
+    "terms": 723
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -77,7 +77,6 @@
     "libevent/libevent",
     "libgit2/libgit2",
     "localstack/localstack",
-    "logaretm/vee-validate",
     "lokesh/color-thief",
     "lxgw/LxgwWenKai",
     "macrozheng/mall",

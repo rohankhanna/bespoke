@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 380,
-    "concepts": 250,
-    "observations": 251,
-    "repos": 65,
-    "terms": 248
+    "components": 387,
+    "concepts": 262,
+    "observations": 263,
+    "repos": 66,
+    "terms": 260
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
     "atanunq/viuer",
     "ayazhafiz/xorf",
+    "bet4it/udbserver",
     "bluss/matrixmultiply",
     "blyxxyz/lexopt",
     "browserslist/browserslist-rs",

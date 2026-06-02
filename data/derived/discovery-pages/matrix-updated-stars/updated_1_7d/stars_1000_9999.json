@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1711,
-    "concepts": 816,
-    "observations": 821,
-    "repos": 96,
-    "terms": 814
+    "components": 1693,
+    "concepts": 803,
+    "observations": 808,
+    "repos": 95,
+    "terms": 801
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -67,7 +67,6 @@
     "kurrent-io/KurrentDB",
     "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
-    "mayocream/koharu",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",

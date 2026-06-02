@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 2451,
-    "concepts": 1345,
-    "observations": 1352,
-    "repos": 512,
-    "terms": 1350
+    "concepts": 1348,
+    "observations": 1355,
+    "repos": 513,
+    "terms": 1353
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -72,6 +72,7 @@
     "apache/netbeans-antora-site",
     "apache/netbeans-nbpackage",
     "apache/opendal-ofs",
+    "apache/parquet-testing",
     "apache/rocketmq-apis",
     "apache/seatunnel-tools",
     "apostrophecms/apostrophe-astro",

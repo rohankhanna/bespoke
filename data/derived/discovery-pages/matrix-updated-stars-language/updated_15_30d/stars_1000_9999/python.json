@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 243,
-    "observations": 246,
-    "repos": 30,
-    "terms": 238
+    "components": 226,
+    "concepts": 261,
+    "observations": 264,
+    "repos": 31,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxtext",
     "apify/agent-skills",
@@ -25,6 +25,7 @@
     "ggozad/oterm",
     "google-deepmind/sonnet",
     "google/budoux",
+    "InternScience/GraphGen",
     "lucidrains/vector-quantize-pytorch",
     "magenta/ddsp",
     "mangiucugna/json_repair",

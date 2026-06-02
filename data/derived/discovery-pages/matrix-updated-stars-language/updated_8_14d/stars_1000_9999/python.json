@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 11,
-    "terms": 110
+    "components": 39,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 10,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
     "hgmzhn/manga-translator-ui",
     "intelligent-machine-learning/dlrover",
-    "InternScience/GraphGen",
     "modelscope/FunClip",
     "roboflow/maestro",
     "speaches-ai/speaches",

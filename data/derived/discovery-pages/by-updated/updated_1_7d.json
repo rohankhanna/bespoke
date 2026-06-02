@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4968,
-    "concepts": 2383,
-    "observations": 2396,
-    "repos": 271,
-    "terms": 2381
+    "components": 4950,
+    "concepts": 2370,
+    "observations": 2383,
+    "repos": 270,
+    "terms": 2368
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "2U1/Qwen-VL-Series-Finetune",
@@ -164,7 +164,6 @@
     "machinewrapped/llm-subtrans",
     "mafintosh/streamx",
     "mayocream/candle",
-    "mayocream/koharu",
     "meshcat-dev/meshcat",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",

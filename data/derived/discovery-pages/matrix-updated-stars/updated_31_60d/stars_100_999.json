@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22562,
-    "concepts": 13281,
-    "observations": 13336,
-    "repos": 2338,
-    "terms": 13374
+    "components": 22581,
+    "concepts": 13301,
+    "observations": 13356,
+    "repos": 2339,
+    "terms": 13394
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -131,7 +131,6 @@
     "alexpasmantier/tv.nvim",
     "alexrudall/ruby-anthropic",
     "alfredolopez80/multi-agent-ralph-loop",
-    "Alibaba-NLP/VRAG",
     "alibaba/loongsuite-go-agent",
     "alibaba/ROCK",
     "alibaizhanov/mengram",
@@ -391,6 +390,8 @@
     "BlinkDL/Albatross",
     "Blockstream/electrs",
     "bloomberg/clang-p2996",
+    "Blosc/c-blosc2",
+    "Blosc/python-blosc2",
     "blrchen/chatgpt-lite",
     "bluesky-social/goat",
     "bluespec/Toooba",
@@ -481,6 +482,7 @@
     "chengzhag/PanSplat",
     "chengzhag/UCPE",
     "chhylp123/hifiasm",
+    "Chocolate4U/Iran-sing-box-rules",
     "Chocolate4U/Iran-v2ray-rules",
     "chrisgoringe/cg-image-filter",
     "chrisgrieser/nvim-lsp-endhints",
@@ -1968,7 +1970,6 @@
     "ruby/spec",
     "ruby/typeprof",
     "rubyjs/mini_racer",
-    "RUC-NLPIR/Tool-Star",
     "runpod/runpodctl",
     "runtimeverification/evm-semantics",
     "runtimeverification/k",

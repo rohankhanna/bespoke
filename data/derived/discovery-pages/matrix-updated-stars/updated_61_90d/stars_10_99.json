@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1973,
-    "concepts": 1205,
-    "observations": 1208,
-    "repos": 361,
-    "terms": 1202
+    "concepts": 1202,
+    "observations": 1205,
+    "repos": 360,
+    "terms": 1199
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -53,7 +53,6 @@
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "apache/incubator-devlake-website",
-    "apache/parquet-testing",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",

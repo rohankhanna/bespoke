@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2803,
-    "concepts": 1637,
-    "observations": 1642,
-    "repos": 187,
-    "terms": 1620
+    "components": 2828,
+    "concepts": 1694,
+    "observations": 1699,
+    "repos": 191,
+    "terms": 1672
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "AdguardTeam/AdGuardSDNSFilter",
     "ag2s20150909/TTS",
@@ -57,6 +57,7 @@
     "devlooped/moq",
     "dmlc/dlpack",
     "dmMaze/BallonsTranslator",
+    "doctest/doctest",
     "dora-rs/dora",
     "easylist/easylist",
     "elastic/cloud-on-k8s",
@@ -88,6 +89,7 @@
     "helix-toolkit/helix-toolkit",
     "inokawa/virtua",
     "intel/BigDL",
+    "InternScience/GraphGen",
     "ipfs/ipfs-companion",
     "iree-org/iree",
     "itzg/docker-minecraft-bedrock-server",
@@ -171,6 +173,7 @@
     "souzatharsis/podcastfy",
     "stack-of-tasks/pinocchio",
     "stakira/OpenUtau",
+    "standardrb/standard",
     "starVLA/starVLA",
     "stylelint/stylelint-config-standard",
     "swiftlang/swift-corelibs-foundation",
@@ -195,6 +198,7 @@
     "WiseLibs/better-sqlite3",
     "withcatai/node-llama-cpp",
     "Xilinx/brevitas",
+    "xoofx/markdig",
     "xororz/local-dream",
     "xtdb/xtdb",
     "yt-dlp/FFmpeg-Builds",

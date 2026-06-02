@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 32243,
-    "concepts": 18699,
-    "observations": 18769,
-    "repos": 2394,
-    "terms": 18756
+    "components": 32241,
+    "concepts": 18693,
+    "observations": 18763,
+    "repos": 2393,
+    "terms": 18750
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -421,7 +421,6 @@
     "ccache/ccache",
     "ccbrown/iocraft",
     "cdcseacave/openMVS",
-    "cdown/clipmenu",
     "cedar-policy/cedar",
     "CedricGuillemet/ImGuizmo",
     "celery/kombu",

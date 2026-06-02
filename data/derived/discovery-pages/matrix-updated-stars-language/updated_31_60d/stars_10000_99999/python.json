@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2459,
-    "concepts": 2155,
-    "observations": 2161,
-    "repos": 208,
-    "terms": 2175
+    "components": 2474,
+    "concepts": 2161,
+    "observations": 2167,
+    "repos": 209,
+    "terms": 2181
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -106,6 +106,7 @@
     "k-dense-ai/scientific-agent-skills",
     "karpathy/nanochat",
     "keras-team/keras",
+    "Kludex/starlette",
     "kornia/kornia",
     "kovidgoyal/kitty",
     "kvcache-ai/ktransformers",

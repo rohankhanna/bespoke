@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 12932,
-    "concepts": 8588,
-    "observations": 8619,
-    "repos": 2299,
-    "terms": 8565
+    "components": 13001,
+    "concepts": 8628,
+    "observations": 8659,
+    "repos": 2305,
+    "terms": 8605
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -234,6 +234,7 @@
     "apache/netbeans-antora-site",
     "apache/netbeans-nbpackage",
     "apache/opendal-ofs",
+    "apache/parquet-testing",
     "apache/rocketmq-apis",
     "apache/rocketmq-client-go",
     "apache/rocketmq-client-python",
@@ -371,6 +372,7 @@
     "benomahony/oil-git.nvim",
     "bentoml/BentoLMDeploy",
     "berkerpeksag/astor",
+    "bet4it/udbserver",
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
     "bfrg/vim-c-cpp-modern",
@@ -1419,6 +1421,7 @@
     "lobehub/lobe-charts",
     "lobehub/lobe-cli-toolbox",
     "lobehub/lobe-tts",
+    "logaretm/vee-validate",
     "logseq/db-test",
     "lokerl/tts-vue",
     "loqusion/typix",
@@ -1906,6 +1909,7 @@
     "SAML-Toolkits/python-saml",
     "SAML-Toolkits/python3-saml",
     "sammycage/lunasvg",
+    "samsja/dion",
     "Samsung/netcoredbg",
     "SarahWeiii/pamo",
     "sarlinpe/pybind11-stubgen",
@@ -1929,6 +1933,7 @@
     "ServiceNow/TapeAgents",
     "sgl-project/sgl-learning-materials",
     "shadowspawn/node-version-usage",
+    "shakacode/package_json",
     "sharkdp/diskus",
     "sharkdp/hyperfine",
     "shawn0728/ARES",
@@ -2190,6 +2195,7 @@
     "Vigemus/iron.nvim",
     "vim-fall/deno-fall-extra",
     "vim-fall/deno-fall-std",
+    "vim-fuzzbox/fuzzbox-lsp.vim",
     "vim-jp/vim-cpp",
     "vim-jp/vim-vimlparser",
     "vim-php/phpctags",

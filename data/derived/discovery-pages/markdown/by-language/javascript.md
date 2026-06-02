@@ -1,6 +1,6 @@
 # JavaScript
 
-Generated at: `2026-06-02T06:06:30.664203+00:00`
+Generated at: `2026-06-02T08:09:23.601669+00:00`
 
 ## Active filters
 

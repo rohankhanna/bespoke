@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 257,
-    "concepts": 265,
-    "observations": 266,
-    "repos": 107,
-    "terms": 273
+    "concepts": 268,
+    "observations": 269,
+    "repos": 108,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -26,6 +26,7 @@
     "amaranth-lang/amaranth-stdio",
     "AniAggarwal/ecad",
     "antgroup/DeepXTrace",
+    "apache/parquet-testing",
     "ASLP-lab/Hum-Dial",
     "autokitteh/kittehub",
     "az1326/advisor-models",

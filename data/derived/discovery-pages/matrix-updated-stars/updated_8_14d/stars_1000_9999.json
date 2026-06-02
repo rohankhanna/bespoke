@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 692,
-    "concepts": 386,
-    "observations": 387,
-    "repos": 40,
-    "terms": 380
+    "components": 685,
+    "concepts": 342,
+    "observations": 343,
+    "repos": 37,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ai-that-works/ai-that-works",
@@ -21,7 +21,6 @@
     "babashka/sci",
     "bazel-contrib/bazel-gazelle",
     "databendlabs/databend",
-    "doctest/doctest",
     "dotnet/Silk.NET",
     "ebullient/obsidian-admonition",
     "FunAudioLLM/Fun-ASR",
@@ -32,10 +31,10 @@
     "hgmzhn/manga-translator-ui",
     "intelligent-machine-learning/dlrover",
     "intentee/paddler",
-    "InternScience/GraphGen",
     "ipfs/ipfs-webui",
     "KhronosGroup/KTX-Software",
     "licensee/licensed",
+    "mayocream/koharu",
     "microsoft/Detours",
     "modelscope/FunClip",
     "neavo/LinguaGacha",
@@ -43,14 +42,12 @@
     "radian-software/straight.el",
     "roboflow/maestro",
     "speaches-ai/speaches",
-    "standardrb/standard",
     "strob/gentle",
     "tModLoader/tModLoader",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
     "vale-cli/vale",
     "vercel/serve",
-    "xoofx/markdig",
     "yomidevs/yomitan",
     "zyddnys/manga-image-translator"
   ]

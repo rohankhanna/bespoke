@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 24062,
-    "concepts": 10407,
-    "observations": 10445,
-    "repos": 1018,
-    "terms": 10388
+    "components": 24077,
+    "concepts": 10413,
+    "observations": 10451,
+    "repos": 1019,
+    "terms": 10394
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -542,6 +542,7 @@
     "KaTeX/KaTeX",
     "keeweb/keeweb",
     "keras-team/keras",
+    "Kludex/starlette",
     "koalaman/shellcheck",
     "Kong/insomnia",
     "koreader/koreader",

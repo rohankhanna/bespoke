@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 15,
     "observations": 15,
-    "repos": 12,
+    "repos": 13,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "ChiehHsinJesseLai/ctm-notebook",
@@ -25,6 +25,7 @@
     "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "maeste/a2a-tck",
     "puffyyy/PCSim",
+    "samsja/dion",
     "sarlinpe/pybind11-stubgen"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 136,
-    "observations": 137,
-    "repos": 14,
-    "terms": 135
+    "components": 149,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 13,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
@@ -25,7 +25,6 @@
     "protocolbuffers/protobuf",
     "python-poetry/poetry",
     "realworld-apps/realworld",
-    "rust-lang/mdBook",
-    "SubtitleEdit/subtitleedit"
+    "rust-lang/mdBook"
   ]
 }

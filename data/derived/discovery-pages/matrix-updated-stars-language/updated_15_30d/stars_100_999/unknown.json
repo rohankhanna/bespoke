@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 8,
-    "terms": 32
+    "components": 12,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 7,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
-    "Chocolate4U/Iran-sing-box-rules",
     "deepset-ai/haystack-integrations",
     "dnaka91/obws",
     "lxgw/LxgwNeoXiZhi-Screen",

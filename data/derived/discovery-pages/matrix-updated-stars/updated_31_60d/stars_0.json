@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 1026,
-    "concepts": 419,
-    "observations": 419,
-    "repos": 282,
-    "terms": 448
+    "components": 1029,
+    "concepts": 424,
+    "observations": 424,
+    "repos": 283,
+    "terms": 453
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
+    "06ketan/substack-ops",
     "8144225309/lightning",
     "8144225309/superscalar-cln",
     "8144225309/superscalar-docs",

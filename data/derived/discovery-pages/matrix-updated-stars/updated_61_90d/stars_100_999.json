@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4160,
-    "concepts": 2640,
-    "observations": 2651,
-    "repos": 583,
-    "terms": 2639
+    "components": 4153,
+    "concepts": 2628,
+    "observations": 2639,
+    "repos": 584,
+    "terms": 2627
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -40,6 +40,7 @@
     "akoumjian/datefinder",
     "alcohol/iso3166",
     "Alibaba-NLP/qqr",
+    "Alibaba-NLP/VRAG",
     "allenai/olmes",
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
@@ -87,7 +88,6 @@
     "bazelbuild/bazel-skylib",
     "bbatsov/super-save",
     "beam-telemetry/telemetry",
-    "bet4it/udbserver",
     "bhauman/figwheel-main",
     "bhauman/rebel-readline",
     "BirolLab/ntHash",
@@ -486,6 +486,7 @@
     "rtfeldman/node-test-runner",
     "rubocop/rubocop-ast",
     "RubyMoney/eu_central_bank",
+    "RUC-NLPIR/Tool-Star",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",

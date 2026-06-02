@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 9,
-    "terms": 111
+    "components": 108,
+    "concepts": 119,
+    "observations": 120,
+    "repos": 10,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
@@ -22,6 +22,7 @@
     "mixmark-io/turndown",
     "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
-    "phpstan/phpstan"
+    "phpstan/phpstan",
+    "SubtitleEdit/subtitleedit"
   ]
 }

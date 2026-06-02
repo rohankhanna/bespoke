@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4014,
-    "concepts": 2593,
-    "observations": 2600,
-    "repos": 454,
-    "terms": 2597
+    "components": 4016,
+    "concepts": 2599,
+    "observations": 2606,
+    "repos": 455,
+    "terms": 2603
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -80,6 +80,7 @@
     "cameron314/readerwriterqueue",
     "camlworks/dream",
     "castwide/solargraph",
+    "cdown/clipmenu",
     "cenkalti/backoff",
     "cerebral/cerebral",
     "charmbracelet/glamour",

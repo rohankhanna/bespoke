@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 2096,
+    "components": 2097,
     "concepts": 888,
     "observations": 893,
     "repos": 76,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "4ian/GDevelop",
     "academic/awesome-datascience",
@@ -51,7 +51,6 @@
     "jrouwe/JoltPhysics",
     "kepano/obsidian-skills",
     "Kilo-Org/kilocode",
-    "Kludex/starlette",
     "Koenkk/zigbee2mqtt",
     "kubernetes-sigs/kubespray",
     "lint-staged/lint-staged",
@@ -81,6 +80,7 @@
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "seaweedfs/seaweedfs",
+    "SubtitleEdit/subtitleedit",
     "tw93/Pake",
     "vitejs/vite",
     "vuejs/core",

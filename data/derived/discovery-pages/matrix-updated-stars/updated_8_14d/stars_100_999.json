@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 177,
-    "observations": 178,
-    "repos": 31,
-    "terms": 176
+    "components": 333,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 29,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "AMD-AGI/Nitro-1",
@@ -28,11 +28,9 @@
     "google/protobuf.dart",
     "hluaguo/learn-faster-kit",
     "jupyter/nbclassic",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "LuaLS/vscode-lua",
     "matter-js/matter.js",
-    "mingw-w64/mingw-w64",
     "nginx-le/nginx-le",
     "openbsd/ports",
     "perrygeo/python-rasterstats",

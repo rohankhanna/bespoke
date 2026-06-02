@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1041,
-    "concepts": 631,
-    "observations": 636,
-    "repos": 101,
-    "terms": 629
+    "components": 1089,
+    "concepts": 646,
+    "observations": 651,
+    "repos": 102,
+    "terms": 644
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -71,6 +71,7 @@
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",
     "linsa-io/linsa",
+    "logaretm/vee-validate",
     "lucidrains/denoising-diffusion-pytorch",
     "mathjax/MathJax",
     "MatsuriDayo/NekoBoxForAndroid",

@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 21,
     "observations": 21,
-    "repos": 12,
+    "repos": 11,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T06:06:30.664203+00:00",
+  "generated_at": "2026-06-02T08:09:23.601669+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
@@ -24,7 +24,6 @@
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
     "petercorke/sphinx-autorun",
-    "samsja/dion",
     "Systemcluster/tokenizer-bench"
   ]
 }
