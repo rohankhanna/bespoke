@@ -3,7 +3,7 @@
     "components": 62,
     "concepts": 60,
     "observations": 60,
-    "repos": 34,
+    "repos": 35,
     "terms": 65
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "aayushbhaskar/OpenCouncil",
@@ -21,6 +21,7 @@
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",

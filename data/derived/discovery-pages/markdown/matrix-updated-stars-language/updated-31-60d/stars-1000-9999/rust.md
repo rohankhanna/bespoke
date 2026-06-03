@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 228
-- terms: 1717
-- components: 2355
-- concepts: 1708
-- observations: 1716
+- repos: 229
+- terms: 1729
+- components: 2366
+- concepts: 1720
+- observations: 1728
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [erebe/wstunnel](https://github.com/erebe/wstunnel) | 6652 | 2026-05-04T07:15:32Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [apache/datafusion](https://github.com/apache/datafusion) | 8710 | 2026-05-03T18:00:26Z | Rust | Infrastructure/tooling | 16 | 13 | 16 | 16 |
 | [databendlabs/openraft](https://github.com/databendlabs/openraft) | 1896 | 2026-05-03T16:23:25Z | Rust | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [rust-lang/flate2-rs](https://github.com/rust-lang/flate2-rs) | 1100 | 2026-05-03T08:46:41Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
@@ -288,6 +289,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [raphamorim/rio](https://github.com/raphamorim/rio) | 6726 | 2026-04-30T00:07:38Z | Rust | CLI | 13 | 13 | 13 | 13 |
 | [cachix/devenv](https://github.com/cachix/devenv) | 6725 | 2026-04-30T00:06:14Z | Rust | Infrastructure/tooling | 9 | 14 | 9 | 9 |
 | [dtolnay/cxx](https://github.com/dtolnay/cxx) | 6707 | 2026-04-23T00:33:23Z | Rust | Infrastructure/tooling | 4 | 15 | 4 | 4 |
+| [erebe/wstunnel](https://github.com/erebe/wstunnel) | 6652 | 2026-05-04T07:15:32Z | Rust | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [tokio-rs/tracing](https://github.com/tokio-rs/tracing) | 6641 | 2026-04-17T13:23:19Z | Rust | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo) | 6634 | 2026-04-23T18:43:17Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [aome510/spotify-player](https://github.com/aome510/spotify-player) | 6618 | 2026-04-10T13:53:16Z | Rust | CLI | 11 | 12 | 11 | 11 |

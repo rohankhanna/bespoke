@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1550,
-    "concepts": 693,
-    "observations": 698,
-    "repos": 83,
-    "terms": 691
+    "components": 1543,
+    "concepts": 683,
+    "observations": 688,
+    "repos": 82,
+    "terms": 681
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
@@ -38,7 +38,6 @@
     "eclipse-openvsx/openvsx",
     "elixir-grpc/grpc",
     "endojs/endo",
-    "Farama-Foundation/Minigrid",
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
     "gobackup/gobackup",

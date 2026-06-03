@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 453
-- terms: 2420
-- components: 2551
-- concepts: 2417
-- observations: 2426
+- repos: 454
+- terms: 2427
+- components: 2564
+- concepts: 2424
+- observations: 2434
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cosmos/chain-registry](https://github.com/cosmos/chain-registry) | 572 | 2026-05-04T08:05:38Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
 | [universal-ctags/ctags-win32](https://github.com/universal-ctags/ctags-win32) | 388 | 2026-05-04T04:49:42Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [open-telemetry/opentelemetry-cpp-contrib](https://github.com/open-telemetry/opentelemetry-cpp-contrib) | 150 | 2026-05-03T15:47:32Z | Python | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) | 771 | 2026-05-03T09:22:13Z | Python | Infrastructure/tooling | 9 | 19 | 9 | 9 |
@@ -625,6 +626,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/WALinuxAgent](https://github.com/Azure/WALinuxAgent) | 576 | 2026-04-16T18:51:06Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [opendatacube/datacube-core](https://github.com/opendatacube/datacube-core) | 574 | 2026-04-28T06:45:00Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [pimutils/todoman](https://github.com/pimutils/todoman) | 573 | 2026-04-20T14:15:18Z | Python | CLI | 8 | 0 | 8 | 8 |
+| [cosmos/chain-registry](https://github.com/cosmos/chain-registry) | 572 | 2026-05-04T08:05:38Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
 | [C2SP/C2SP](https://github.com/C2SP/C2SP) | 572 | 2026-04-24T19:51:41Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [microsoft/multilspy](https://github.com/microsoft/multilspy) | 572 | 2026-04-16T02:09:18Z | Python | CLI | 18 | 15 | 18 | 18 |
 | [patrick-kidger/optimistix](https://github.com/patrick-kidger/optimistix) | 571 | 2026-04-20T14:03:11Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |

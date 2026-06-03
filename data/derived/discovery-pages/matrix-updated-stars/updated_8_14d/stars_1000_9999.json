@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 759,
-    "concepts": 408,
-    "observations": 409,
-    "repos": 43,
-    "terms": 407
+    "components": 766,
+    "concepts": 418,
+    "observations": 419,
+    "repos": 44,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -27,6 +27,7 @@
     "databendlabs/databend",
     "dotnet/Silk.NET",
     "ebullient/obsidian-admonition",
+    "Farama-Foundation/Minigrid",
     "GalTransl/GalTransl",
     "geotiffjs/geotiff.js",
     "gildas-lormeau/zip.js",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 227
-- components: 1031
-- concepts: 229
-- observations: 230
+- repos: 23
+- terms: 214
+- components: 940
+- concepts: 216
+- observations: 217
 
 ## Static behavior
 
@@ -49,17 +49,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cucumber/cucumber-js](https://github.com/cucumber/cucumber-js) | 5318 | 2026-05-04T10:07:05Z | TypeScript | Infrastructure/tooling | 8 | 101 | 8 | 8 |
 | [graphql/graphql-playground](https://github.com/graphql/graphql-playground) | 8846 | 2026-05-04T09:38:44Z | TypeScript | Docs/knowledge | 4 | 8 | 4 | 4 |
 | [apify/fingerprint-suite](https://github.com/apify/fingerprint-suite) | 2077 | 2026-05-04T09:03:27Z | TypeScript | Infrastructure/tooling | 11 | 46 | 11 | 11 |
-| [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 8143 | 2026-05-04T07:06:28Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
-| [kelektiv/node-cron](https://github.com/kelektiv/node-cron) | 8923 | 2026-05-04T06:27:57Z | TypeScript | Infrastructure/tooling | 6 | 44 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [kelektiv/node-cron](https://github.com/kelektiv/node-cron) | 8923 | 2026-05-04T06:27:57Z | TypeScript | Infrastructure/tooling | 6 | 44 | 6 | 6 |
 | [graphql/graphql-playground](https://github.com/graphql/graphql-playground) | 8846 | 2026-05-04T09:38:44Z | TypeScript | Docs/knowledge | 4 | 8 | 4 | 4 |
 | [NomicFoundation/hardhat](https://github.com/NomicFoundation/hardhat) | 8474 | 2026-05-05T14:02:46Z | TypeScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 8143 | 2026-05-04T07:06:28Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [enricoros/big-AGI](https://github.com/enricoros/big-AGI) | 6968 | 2026-05-07T15:06:17Z | TypeScript | Infrastructure/tooling | 18 | 81 | 18 | 18 |
 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 6131 | 2026-05-11T18:21:49Z | TypeScript | CLI | 10 | 15 | 10 | 10 |
 | [cucumber/cucumber-js](https://github.com/cucumber/cucumber-js) | 5318 | 2026-05-04T10:07:05Z | TypeScript | Infrastructure/tooling | 8 | 101 | 8 | 8 |

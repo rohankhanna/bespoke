@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11103,
-    "concepts": 5188,
-    "observations": 5212,
-    "repos": 1237,
-    "terms": 5236
+    "components": 11082,
+    "concepts": 5195,
+    "observations": 5219,
+    "repos": 1236,
+    "terms": 5242
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -25,7 +25,6 @@
     "52-entertainment/vite-plugin-oxlint",
     "64bit/commandOK",
     "8144225309/SuperScalar",
-    "9romise/eslint-plugin-import-lite",
     "a2aproject/a2a-tck",
     "AarshBatra/biteSizedAQ",
     "abap2UI5/samples",
@@ -157,7 +156,6 @@
     "aquasecurity/trivy-checks",
     "aquasecurity/trivy-java-db",
     "arcaputo3/mcp-server-whisper",
-    "archlizheng/frontend-slides-editable",
     "argoproj-labs/argocd-extension-installer",
     "arkime/arkimeweb",
     "arktekk/sbt-aether-deploy",
@@ -777,6 +775,7 @@
     "LedgerHQ/ledger-secure-sdk",
     "LedgerHQ/ledgerctl",
     "LedgerHQ/ragger",
+    "leleliu008/ppkg",
     "lewis6991/async.nvim",
     "lhj5426/YSG",
     "liangshengyong/lanwan",

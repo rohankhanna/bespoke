@@ -3,7 +3,7 @@
     "components": 991,
     "concepts": 729,
     "observations": 731,
-    "repos": 190,
+    "repos": 189,
     "terms": 744
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -40,7 +40,6 @@
     "ansible/ansible-compat",
     "ant-research/pointelligence",
     "arcaputo3/mcp-server-whisper",
-    "archlizheng/frontend-slides-editable",
     "Ascend/TransferQueue",
     "AstarVienna/ScopeSim",
     "AstraZeneca/runnable",

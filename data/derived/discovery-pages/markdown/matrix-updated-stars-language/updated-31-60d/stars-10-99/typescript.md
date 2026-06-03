@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 139
-- terms: 713
-- components: 3793
-- concepts: 681
-- observations: 686
+- repos: 138
+- terms: 710
+- components: 3767
+- concepts: 678
+- observations: 683
 
 ## Static behavior
 
@@ -164,7 +164,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gicentre/prettier-plugin-elm](https://github.com/gicentre/prettier-plugin-elm) | 64 | 2026-04-06T20:07:02Z | TypeScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
 | [obi1kenobi/cargo-semver-checks-action](https://github.com/obi1kenobi/cargo-semver-checks-action) | 75 | 2026-04-05T20:13:37Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [blrchen/chatgpt-minimal](https://github.com/blrchen/chatgpt-minimal) | 73 | 2026-04-05T16:43:34Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
-| [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -263,7 +262,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bolasblack/shadow-cljs-vite-plugin](https://github.com/bolasblack/shadow-cljs-vite-plugin) | 25 | 2026-04-20T10:05:24Z | TypeScript | Infrastructure/tooling | 1 | 15 | 1 | 1 |
 | [ngyewch/smile-js](https://github.com/ngyewch/smile-js) | 25 | 2026-04-13T07:33:58Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [awslabs/wdio-aws-device-farm-service](https://github.com/awslabs/wdio-aws-device-farm-service) | 25 | 2026-04-10T21:29:33Z | TypeScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
-| [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 | [SemiAnalysisAI/InferenceX-app](https://github.com/SemiAnalysisAI/InferenceX-app) | 24 | 2026-04-29T20:05:16Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 14 |
 | [prisma/engines-wrapper](https://github.com/prisma/engines-wrapper) | 24 | 2026-04-29T13:50:43Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [oclif/plugin-help](https://github.com/oclif/plugin-help) | 24 | 2026-04-26T05:26:55Z | TypeScript | CLI | 7 | 32 | 7 | 7 |

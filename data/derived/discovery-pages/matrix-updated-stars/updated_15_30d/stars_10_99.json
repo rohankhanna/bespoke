@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 552,
-    "concepts": 437,
-    "observations": 439,
+    "components": 547,
+    "concepts": 427,
+    "observations": 429,
     "repos": 81,
-    "terms": 434
+    "terms": 425
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Agnuxo1/CAJAL",
@@ -62,8 +62,8 @@
     "jcefmaven/jcefsampleapp",
     "julia-actions/install-juliaup",
     "kurrent-io/KurrentDB-Client-Rust",
-    "leleliu008/ppkg",
     "ludwig-ai/ludwig-docs",
+    "mesh-iit/cad-libraries",
     "microsoft/openjdk-docker",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",

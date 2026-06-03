@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3653,
+    "components": 3655,
     "concepts": 4113,
     "observations": 4123,
-    "repos": 500,
+    "repos": 501,
     "terms": 4102
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "1andrevich/Re-filter-lists",
@@ -49,6 +49,7 @@
     "antoinelame/GazeTracking",
     "anymail/django-anymail",
     "apache/iceberg-python",
+    "apify/agent-skills",
     "apple/coremltools",
     "argilla-io/distilabel",
     "argosopentech/argos-translate",

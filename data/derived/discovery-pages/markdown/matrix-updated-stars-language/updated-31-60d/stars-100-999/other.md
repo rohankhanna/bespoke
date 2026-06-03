@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 594
-- terms: 3457
+- repos: 593
+- terms: 3452
 - components: 4399
-- concepts: 3444
-- observations: 3448
+- concepts: 3437
+- observations: 3441
 
 ## Static behavior
 
@@ -619,7 +619,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ankane/active_median](https://github.com/ankane/active_median) | 476 | 2026-04-04T20:46:57Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [ankane/xgboost-ruby](https://github.com/ankane/xgboost-ruby) | 120 | 2026-04-04T20:17:09Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [bluespec/Toooba](https://github.com/bluespec/Toooba) | 186 | 2026-04-04T12:08:12Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [ApolloScapeAuto/dataset-api](https://github.com/ApolloScapeAuto/dataset-api) | 615 | 2026-04-04T07:56:26Z | Other | Model/data | 5 | 0 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -766,7 +765,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ruby/spec](https://github.com/ruby/spec) | 622 | 2026-04-06T18:53:15Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [MobileNativeFoundation/rules_xcodeproj](https://github.com/MobileNativeFoundation/rules_xcodeproj) | 616 | 2026-04-29T19:57:54Z | Other | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [nashamri/spacemacs-theme](https://github.com/nashamri/spacemacs-theme) | 615 | 2026-04-14T20:52:00Z | Other | CLI | 6 | 0 | 6 | 6 |
-| [ApolloScapeAuto/dataset-api](https://github.com/ApolloScapeAuto/dataset-api) | 615 | 2026-04-04T07:56:26Z | Other | Model/data | 5 | 0 | 7 | 7 |
 | [igraph/rigraph](https://github.com/igraph/rigraph) | 611 | 2026-04-30T09:10:10Z | Other | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [KhronosGroup/SPIRV-LLVM-Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) | 608 | 2026-04-29T12:57:50Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ankane/informers](https://github.com/ankane/informers) | 604 | 2026-04-25T18:25:31Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |

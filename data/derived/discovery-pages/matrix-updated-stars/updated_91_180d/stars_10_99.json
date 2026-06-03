@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2543,
-    "concepts": 1400,
-    "observations": 1406,
-    "repos": 523,
-    "terms": 1405
+    "components": 2476,
+    "concepts": 1415,
+    "observations": 1421,
+    "repos": 524,
+    "terms": 1420
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -31,6 +31,7 @@
     "abapGit/ADT_Backend",
     "abduznik/git-alchemist",
     "AbsaOSS/external-dns-infoblox-webhook",
+    "accabog/MedianFilter",
     "Accla/D4M.py",
     "AceCHQ/TransMatting",
     "acw/simple_asn1",
@@ -172,7 +173,6 @@
     "CosmWasm/cw-storage-plus",
     "cpmech/plotpy",
     "cuiziteng/Luminance-GS",
-    "CyanSalt/commas",
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
     "d3x0r/JSOX",
@@ -375,6 +375,7 @@
     "lukacu/docker-frps",
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
+    "Lynxe-public/Lynxe-public-prompts",
     "marcindulak/stt-mcp-server-linux",
     "MaterializeInc/rust-postgres",
     "mfussenegger/nlua",

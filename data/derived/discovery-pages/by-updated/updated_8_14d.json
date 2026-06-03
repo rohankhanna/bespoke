@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 1494,
-    "concepts": 833,
-    "observations": 835,
-    "repos": 109,
-    "terms": 829
+    "components": 1521,
+    "concepts": 859,
+    "observations": 861,
+    "repos": 111,
+    "terms": 855
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "567-labs/instructor",
     "AdaptiveCpp/AdaptiveCpp",
     "ai-that-works/ai-that-works",
+    "all-contributors/app",
     "amazon-ion/ion-cli",
     "AMD-AGI/Nitro-1",
     "apache/brpc",
@@ -43,6 +44,8 @@
     "electron/packager",
     "emacscollective/auto-compile",
     "f3liz-casa/noraneko",
+    "Farama-Foundation/Minigrid",
+    "flagos-ai/FlagAttention",
     "flagos-ai/FlagCX",
     "fsprojects/FSharp.Data.GraphQL",
     "GalTransl/GalTransl",
@@ -75,7 +78,6 @@
     "mafintosh/streamx",
     "matter-js/matter.js",
     "mayocream/koharu",
-    "mesh-iit/cad-libraries",
     "microsoft/Detours",
     "microsoft/PhiCookBook",
     "microsoft/PowerToys",

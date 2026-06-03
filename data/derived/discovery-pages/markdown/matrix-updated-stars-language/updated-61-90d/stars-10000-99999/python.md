@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 193
-- components: 159
-- concepts: 188
-- observations: 188
+- repos: 38
+- terms: 199
+- components: 162
+- concepts: 194
+- observations: 194
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [m-bain/whisperX](https://github.com/m-bain/whisperX) | 21933 | 2026-04-04T06:41:42Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [thu-ml/tianshou](https://github.com/thu-ml/tianshou) | 10589 | 2026-04-03T21:34:47Z | Python | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [gruns/icecream](https://github.com/gruns/icecream) | 10041 | 2026-04-03T17:54:33Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [huggingface/open-r1](https://github.com/huggingface/open-r1) | 26004 | 2026-04-02T14:03:15Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -80,6 +81,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) | 24902 | 2026-04-01T17:46:44Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | 24524 | 2026-03-26T08:41:47Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [superclaude-org/superclaude_framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | 22345 | 2026-03-22T17:34:39Z | Python | Infrastructure/tooling | 6 | 6 | 0 | 0 |
+| [m-bain/whisperX](https://github.com/m-bain/whisperX) | 21933 | 2026-04-04T06:41:42Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) | 21901 | 2026-03-23T23:03:45Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [QwenLM/Qwen](https://github.com/QwenLM/Qwen) | 21096 | 2026-03-05T13:55:17Z | Python | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | 20813 | 2026-03-16T07:37:22Z | Python | Infrastructure/tooling | 19 | 3 | 19 | 19 |

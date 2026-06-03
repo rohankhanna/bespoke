@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25032,
-    "concepts": 10703,
-    "observations": 10740,
-    "repos": 1037,
-    "terms": 10681
+    "components": 25029,
+    "concepts": 10697,
+    "observations": 10734,
+    "repos": 1036,
+    "terms": 10675
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -598,7 +598,6 @@
     "lucidrains/vit-pytorch",
     "lutzroeder/netron",
     "lz4/lz4",
-    "m-bain/whisperX",
     "magic-wormhole/magic-wormhole",
     "MagicMirrorOrg/MagicMirror",
     "MagicStack/uvloop",

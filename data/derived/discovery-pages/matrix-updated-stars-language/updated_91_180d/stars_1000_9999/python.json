@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 428,
-    "concepts": 834,
-    "observations": 835,
-    "repos": 171,
-    "terms": 820
+    "components": 434,
+    "concepts": 850,
+    "observations": 851,
+    "repos": 172,
+    "terms": 836
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -103,6 +103,7 @@
     "langfengQ/verl-agent",
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
+    "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/JiT",
     "LTH14/mar",
     "lucidrains/tab-transformer-pytorch",

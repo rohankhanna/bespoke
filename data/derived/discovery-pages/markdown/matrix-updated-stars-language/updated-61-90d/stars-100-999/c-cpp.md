@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 74
-- terms: 399
+- repos: 75
+- terms: 402
 - components: 249
-- concepts: 402
-- observations: 403
+- concepts: 405
+- observations: 406
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [afbjorklund/lima-gui](https://github.com/afbjorklund/lima-gui) | 238 | 2026-04-04T07:58:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [mikolmogorov/Flye](https://github.com/mikolmogorov/Flye) | 933 | 2026-04-03T20:56:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ptsochantaris/emeltal](https://github.com/ptsochantaris/emeltal) | 188 | 2026-04-03T17:09:24Z | C/C++ | Model/data | 9 | 0 | 9 | 9 |
 | [tpoechtrager/cctools-port](https://github.com/tpoechtrager/cctools-port) | 791 | 2026-04-03T15:20:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -160,6 +161,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sheredom/ubench.h](https://github.com/sheredom/ubench.h) | 255 | 2026-03-08T18:22:06Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [VeriSilicon/TIM-VX](https://github.com/VeriSilicon/TIM-VX) | 253 | 2026-03-30T09:35:49Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [lastz/lastz](https://github.com/lastz/lastz) | 245 | 2026-03-27T12:20:22Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [afbjorklund/lima-gui](https://github.com/afbjorklund/lima-gui) | 238 | 2026-04-04T07:58:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [gbionics/idyntree](https://github.com/gbionics/idyntree) | 230 | 2026-03-27T16:33:58Z | C/C++ | Infrastructure/tooling | 13 | 16 | 13 | 13 |
 | [fujitsu/xbyak_aarch64](https://github.com/fujitsu/xbyak_aarch64) | 223 | 2026-03-27T15:11:43Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [nhielost/obs-midi-mg](https://github.com/nhielost/obs-midi-mg) | 215 | 2026-03-28T19:59:07Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |

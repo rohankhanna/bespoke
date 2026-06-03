@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 8,
-    "terms": 109
+    "components": 73,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 7,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "crazy-max/diun",
-    "elastic/cloud-on-k8s",
     "etcd-io/bbolt",
     "gookit/goutil",
     "gookit/validate",

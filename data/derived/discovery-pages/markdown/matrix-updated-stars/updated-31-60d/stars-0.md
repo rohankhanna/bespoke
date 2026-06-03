@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 282
+- repos: 283
 - terms: 442
 - components: 1006
 - concepts: 413
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |
@@ -312,6 +313,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Claude-Hardware-ID-Annotation-Plugin](https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin) | 0 | 2026-05-04T08:06:35Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-AV-Manager-Plugin](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) | 0 | 2026-05-03T11:06:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [06ketan/substack-ops](https://github.com/06ketan/substack-ops) | 0 | 2026-05-03T07:02:25Z | Python | CLI | 5 | 3 | 5 | 5 |

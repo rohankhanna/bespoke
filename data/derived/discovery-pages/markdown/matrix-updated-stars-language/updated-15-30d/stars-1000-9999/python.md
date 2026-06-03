@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
+- repos: 27
 - terms: 222
-- components: 175
+- components: 173
 - concepts: 227
 - observations: 230
 
@@ -53,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [PaddlePaddle/FastDeploy](https://github.com/PaddlePaddle/FastDeploy) | 3680 | 2026-05-04T16:32:15Z | Python | Infrastructure/tooling | 12 | 2 | 12 | 14 |
 | [souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy) | 6302 | 2026-05-04T14:49:10Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [vyperlang/vyper](https://github.com/vyperlang/vyper) | 5180 | 2026-05-04T12:24:12Z | Python | Infrastructure/tooling | 11 | 16 | 11 | 11 |
-| [apify/agent-skills](https://github.com/apify/agent-skills) | 2022 | 2026-05-04T06:59:45Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -78,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openvpi/DiffSinger](https://github.com/openvpi/DiffSinger) | 3120 | 2026-05-09T12:55:22Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [ggozad/oterm](https://github.com/ggozad/oterm) | 2370 | 2026-05-10T10:38:22Z | Python | CLI | 7 | 5 | 7 | 7 |
 | [zai-org/GLM-V](https://github.com/zai-org/GLM-V) | 2319 | 2026-05-16T05:42:14Z | Python | Unknown | 3 | 0 | 3 | 3 |
-| [apify/agent-skills](https://github.com/apify/agent-skills) | 2022 | 2026-05-04T06:59:45Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows) | 1954 | 2026-05-11T16:10:44Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [strob/gentle](https://github.com/strob/gentle) | 1699 | 2026-05-19T17:59:52Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [google/budoux](https://github.com/google/budoux) | 1622 | 2026-05-15T12:32:32Z | Python | Infrastructure/tooling | 8 | 17 | 8 | 8 |

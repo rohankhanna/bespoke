@@ -3,7 +3,7 @@
     "components": 1006,
     "concepts": 413,
     "observations": 413,
-    "repos": 282,
+    "repos": 283,
     "terms": 442
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -140,6 +140,7 @@
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
+    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-HP5200-Skill-plugin",

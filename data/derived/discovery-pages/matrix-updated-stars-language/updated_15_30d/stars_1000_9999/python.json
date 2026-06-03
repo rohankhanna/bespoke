@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 175,
+    "components": 173,
     "concepts": 227,
     "observations": 230,
-    "repos": 28,
+    "repos": 27,
     "terms": 222
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
-    "apify/agent-skills",
     "arcee-ai/mergekit",
     "awslabs/aidlc-workflows",
     "copier-org/copier",

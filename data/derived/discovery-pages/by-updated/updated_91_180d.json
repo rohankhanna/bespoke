@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 13178,
-    "concepts": 8724,
-    "observations": 8755,
-    "repos": 2333,
-    "terms": 8701
+    "components": 13117,
+    "concepts": 8755,
+    "observations": 8786,
+    "repos": 2336,
+    "terms": 8732
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -18,6 +18,7 @@
     "0k/shyaml",
     "0k/shyaml-rs",
     "0x2a-42/nvim-lelwel",
+    "0x676e67/0x676e67",
     "0xBigBoss/ghostty-web",
     "0xBigBoss/vscode-bootty",
     "0xPolygonHermez/pil2-compiler",
@@ -65,6 +66,7 @@
     "absadiki/pywhispercpp",
     "AbsaOSS/external-dns-infoblox-webhook",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+    "accabog/MedianFilter",
     "Accla/D4M.py",
     "AccountGo/accountgo",
     "ace-step/ACE-Step",
@@ -641,7 +643,6 @@
     "CVEProject/cve-schema",
     "cvg/Hierarchical-Localization",
     "cvg/LightGlue",
-    "CyanSalt/commas",
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
     "Cysharp/ValueTaskSupplement",
@@ -1452,6 +1453,7 @@
     "loyd/fixnum",
     "lquerel/gcp-bigquery-client",
     "lread/test-doc-blocks",
+    "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/JiT",
     "LTH14/mar",
     "LuaLS/vscode-lua-doc",
@@ -1468,6 +1470,7 @@
     "Lusito/webextension-polyfill-ts",
     "lxgw/lxgw",
     "lxsmnsyc/sponsors",
+    "Lynxe-public/Lynxe-public-prompts",
     "lynxthecat/adblock-lean",
     "lyuwenyu/RT-DETR",
     "lzyhha/VisualCloze",

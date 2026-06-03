@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 95
-- terms: 613
-- components: 342
-- concepts: 619
-- observations: 619
+- repos: 94
+- terms: 597
+- components: 336
+- concepts: 603
+- observations: 603
 
 ## Static behavior
 
@@ -120,7 +120,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [the-moonwitch/Cozette](https://github.com/the-moonwitch/Cozette) | 3612 | 2026-03-07T12:14:24Z | Python | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | 3860 | 2026-03-07T06:42:49Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
 | [randy3k/radian](https://github.com/randy3k/radian) | 2272 | 2026-03-07T04:32:55Z | Python | CLI | 6 | 3 | 6 | 6 |
-| [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 
 ## Repos sorted by stars
 
@@ -172,7 +171,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aigc3d/LHM](https://github.com/aigc3d/LHM) | 2597 | 2026-03-17T05:17:23Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [s3prl/s3prl](https://github.com/s3prl/s3prl) | 2552 | 2026-03-12T19:14:49Z | Python | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [astanin/python-tabulate](https://github.com/astanin/python-tabulate) | 2549 | 2026-03-11T08:45:56Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [themix-project/themix-gui](https://github.com/themix-project/themix-gui) | 2288 | 2026-03-13T09:58:10Z | Python | Infrastructure/tooling | 13 | 1 | 14 | 14 |
 | [randy3k/radian](https://github.com/randy3k/radian) | 2272 | 2026-03-07T04:32:55Z | Python | CLI | 6 | 3 | 6 | 6 |
 | [OpenGVLab/InternVideo](https://github.com/OpenGVLab/InternVideo) | 2254 | 2026-03-25T07:13:47Z | Python | CLI | 20 | 0 | 20 | 20 |

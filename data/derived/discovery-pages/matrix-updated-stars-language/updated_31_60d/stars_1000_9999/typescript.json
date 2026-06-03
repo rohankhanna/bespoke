@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11757,
-    "concepts": 2247,
-    "observations": 2252,
-    "repos": 279,
-    "terms": 2350
+    "components": 11848,
+    "concepts": 2260,
+    "observations": 2265,
+    "repos": 281,
+    "terms": 2363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -116,6 +116,7 @@
     "firebase/firebase-admin-node",
     "firebase/firebase-js-sdk",
     "firebase/quickstart-js",
+    "Floorp-Projects/Floorp",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
     "frenic/csstype",
@@ -159,6 +160,7 @@
     "julia-vscode/julia-vscode",
     "jupyter-lsp/jupyterlab-lsp",
     "Kaliiiiiiiiii-Vinyzu/patchright",
+    "kelektiv/node-cron",
     "kepano/defuddle",
     "kirodotdev/Kiro",
     "kulshekhar/ts-jest",

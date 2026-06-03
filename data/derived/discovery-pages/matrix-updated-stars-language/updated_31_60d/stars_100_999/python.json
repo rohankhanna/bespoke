@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2551,
-    "concepts": 2417,
-    "observations": 2426,
-    "repos": 453,
-    "terms": 2420
+    "components": 2564,
+    "concepts": 2424,
+    "observations": 2434,
+    "repos": 454,
+    "terms": 2427
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -129,6 +129,7 @@
     "conda/conda-lock",
     "conda/grayskull",
     "confluentinc/confluent-kafka-python",
+    "cosmos/chain-registry",
     "crytic/crytic-compile",
     "crytic/pyevmasm",
     "crytic/solc-select",

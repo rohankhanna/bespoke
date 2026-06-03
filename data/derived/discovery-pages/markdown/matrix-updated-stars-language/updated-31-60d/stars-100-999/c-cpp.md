@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 255
-- terms: 1388
+- repos: 254
+- terms: 1385
 - components: 1339
-- concepts: 1397
-- observations: 1400
+- concepts: 1394
+- observations: 1397
 
 ## Static behavior
 
@@ -280,7 +280,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heal-research/operon](https://github.com/heal-research/operon) | 205 | 2026-04-06T07:25:50Z | C/C++ | Infrastructure/tooling | 14 | 7 | 15 | 15 |
 | [g-truc/gli](https://github.com/g-truc/gli) | 588 | 2026-04-05T09:51:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tpoechtrager/apple-libtapi](https://github.com/tpoechtrager/apple-libtapi) | 102 | 2026-04-05T08:33:49Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [afbjorklund/lima-gui](https://github.com/afbjorklund/lima-gui) | 238 | 2026-04-04T07:58:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -470,7 +469,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ampl/mp](https://github.com/ampl/mp) | 248 | 2026-04-21T10:26:15Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [sp-nitech/SPTK](https://github.com/sp-nitech/SPTK) | 245 | 2026-04-20T08:35:07Z | C/C++ | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [Alpine-DAV/ascent](https://github.com/Alpine-DAV/ascent) | 242 | 2026-04-28T21:33:04Z | C/C++ | Infrastructure/tooling | 7 | 4 | 7 | 7 |
-| [afbjorklund/lima-gui](https://github.com/afbjorklund/lima-gui) | 238 | 2026-04-04T07:58:23Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [Frommi/miniz_oxide](https://github.com/Frommi/miniz_oxide) | 233 | 2026-04-22T22:51:54Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [DavidKinder/Inform6](https://github.com/DavidKinder/Inform6) | 232 | 2026-04-22T19:09:17Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [grizzlypeak3d/tlRender](https://github.com/grizzlypeak3d/tlRender) | 231 | 2026-04-29T18:23:15Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |

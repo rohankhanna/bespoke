@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 4399,
-    "concepts": 3444,
-    "observations": 3448,
-    "repos": 594,
-    "terms": 3457
+    "concepts": 3437,
+    "observations": 3441,
+    "repos": 593,
+    "terms": 3452
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -57,7 +57,6 @@
     "apache/arrow-go",
     "apache/dubbo-website",
     "apache/logging-log4net",
-    "ApolloScapeAuto/dataset-api",
     "App-vNext/Polly-Samples",
     "apple/swift-nio-extras",
     "apple/swift-nio-http2",

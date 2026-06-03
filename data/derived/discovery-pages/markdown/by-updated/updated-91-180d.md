@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-03T06:15:31.003729+00:00`
 
 ## Counts
 
-- repos: 2333
-- terms: 8701
-- components: 13178
-- concepts: 8724
-- observations: 8755
+- repos: 2336
+- terms: 8732
+- components: 13117
+- concepts: 8755
+- observations: 8786
 
 ## Static behavior
 
@@ -22,6 +22,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
+| [0x676e67/0x676e67](https://github.com/0x676e67/0x676e67) | 4 | 2026-03-05T07:18:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [GoogleCloudPlatform/docker-credential-gcr](https://github.com/GoogleCloudPlatform/docker-credential-gcr) | 314 | 2026-03-05T03:39:46Z | Go | CLI | 10 | 5 | 10 | 10 |
 | [estesp/mquery](https://github.com/estesp/mquery) | 93 | 2026-03-05T03:20:13Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [engineai-robotics/engineai_ros2_workspace](https://github.com/engineai-robotics/engineai_ros2_workspace) | 56 | 2026-03-05T02:38:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -2354,7 +2358,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nodejs/abi-stable-node](https://github.com/nodejs/abi-stable-node) | 248 | 2025-12-05T15:13:25Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
 | [jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish) | 2651 | 2025-12-05T14:05:51Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) | 29340 | 2025-12-05T12:23:12Z | Python | Infrastructure/tooling | 12 | 0 | 12 | 12 |
-| [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -2741,6 +2744,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [baaivision/Emu3](https://github.com/baaivision/Emu3) | 2400 | 2026-01-12T08:39:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | 2391 | 2026-03-03T05:11:43Z | Python | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [symfony/cache-contracts](https://github.com/symfony/cache-contracts) | 2382 | 2026-01-25T12:13:22Z | Other | Infrastructure/tooling | 5 | 1 | 5 | 5 |
+| [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [apache/incubator-seata-samples](https://github.com/apache/incubator-seata-samples) | 2357 | 2026-02-14T04:04:12Z | Java | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [reactjs/react-a11y](https://github.com/reactjs/react-a11y) | 2355 | 2026-01-24T03:00:19Z | JavaScript | Unknown | 0 | 29 | 0 | 0 |
 | [erew123/alltalk_tts](https://github.com/erew123/alltalk_tts) | 2339 | 2026-01-09T08:58:55Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -3914,7 +3918,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ChenMnZ/INT_vs_FP](https://github.com/ChenMnZ/INT_vs_FP) | 77 | 2026-02-06T05:27:02Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [fla-org/flash-bidirectional-linear-attention](https://github.com/fla-org/flash-bidirectional-linear-attention) | 76 | 2026-03-01T04:06:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [padreati/rapaio-jupyter-kernel](https://github.com/padreati/rapaio-jupyter-kernel) | 76 | 2026-02-10T23:17:31Z | Other | Unknown | 5 | 0 | 5 | 5 |
-| [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
 | [cuiziteng/Luminance-GS](https://github.com/cuiziteng/Luminance-GS) | 75 | 2026-02-25T02:40:31Z | Python | Unknown | 5 | 0 | 6 | 6 |
 | [googleapis/java-bigquerystorage](https://github.com/googleapis/java-bigquerystorage) | 75 | 2026-02-24T00:15:06Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [hicchicc/x8y12pxDenkiChip](https://github.com/hicchicc/x8y12pxDenkiChip) | 75 | 2026-02-20T05:51:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -3942,6 +3945,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getyourguide/vue-class-migrator](https://github.com/getyourguide/vue-class-migrator) | 71 | 2026-01-21T09:30:05Z | TypeScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [holochain/launcher](https://github.com/holochain/launcher) | 71 | 2026-01-09T15:19:51Z | TypeScript | Infrastructure/tooling | 4 | 64 | 4 | 4 |
 | [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [JunoLab/Atom.jl](https://github.com/JunoLab/Atom.jl) | 70 | 2026-02-26T15:24:20Z | Other | CLI | 2 | 8 | 2 | 2 |
 | [agents-x-project/PyVision-RL](https://github.com/agents-x-project/PyVision-RL) | 70 | 2026-02-25T09:05:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [AliRezaBeigy/paqetNG](https://github.com/AliRezaBeigy/paqetNG) | 70 | 2026-02-23T06:25:32Z | Other | CLI | 5 | 6 | 5 | 5 |
@@ -4022,6 +4026,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [status-im/nim-json-serialization](https://github.com/status-im/nim-json-serialization) | 53 | 2026-01-30T20:51:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
+| [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [catppuccin/atuin](https://github.com/catppuccin/atuin) | 52 | 2026-03-02T17:47:07Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [googlefonts/shaperglot](https://github.com/googlefonts/shaperglot) | 52 | 2026-02-18T21:03:36Z | Rust | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [lumen-oss/rocks-git.nvim](https://github.com/lumen-oss/rocks-git.nvim) | 52 | 2026-02-03T21:45:39Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
@@ -4451,6 +4456,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arustydev/pre-commit-hooks](https://github.com/aRustyDev/pre-commit-hooks) | 5 | 2025-12-24T06:43:05Z | Python | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [TheTechnobear/EraeTouchLite](https://github.com/TheTechnobear/EraeTouchLite) | 5 | 2025-12-16T12:22:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hden/cuid2](https://github.com/hden/cuid2) | 5 | 2025-12-13T04:45:56Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [0x676e67/0x676e67](https://github.com/0x676e67/0x676e67) | 4 | 2026-03-05T07:18:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [a16z/arkworks-algebra](https://github.com/a16z/arkworks-algebra) | 4 | 2026-03-04T20:01:15Z | Rust | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [chaoss/grimoirelab-perceval-weblate](https://github.com/chaoss/grimoirelab-perceval-weblate) | 4 | 2026-03-03T09:10:01Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [chaoss/grimoirelab-perceval-mozilla](https://github.com/chaoss/grimoirelab-perceval-mozilla) | 4 | 2026-03-03T09:09:58Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |

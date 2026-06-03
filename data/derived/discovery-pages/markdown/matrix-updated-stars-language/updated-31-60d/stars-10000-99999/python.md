@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 208
-- terms: 2176
-- components: 2468
-- concepts: 2156
-- observations: 2162
+- repos: 207
+- terms: 2170
+- components: 2465
+- concepts: 2150
+- observations: 2156
 
 ## Static behavior
 
@@ -233,7 +233,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | 29886 | 2026-04-06T19:09:42Z | Python | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [delgan/loguru](https://github.com/Delgan/loguru) | 23822 | 2026-04-06T15:52:02Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | 25403 | 2026-04-05T07:58:35Z | Python | CLI | 13 | 4 | 13 | 13 |
-| [m-bain/whisperX](https://github.com/m-bain/whisperX) | 21933 | 2026-04-04T06:41:42Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -336,7 +335,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) | 22510 | 2026-04-22T01:01:22Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 22154 | 2026-04-12T20:54:54Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) | 22098 | 2026-04-22T23:39:55Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [m-bain/whisperX](https://github.com/m-bain/whisperX) | 21933 | 2026-04-04T06:41:42Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [huggingface/datasets](https://github.com/huggingface/datasets) | 21478 | 2026-04-30T15:38:42Z | Python | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 21429 | 2026-04-29T20:52:06Z | Python | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [openai/swarm](https://github.com/openai/swarm) | 21374 | 2026-04-15T17:10:28Z | Python | Framework | 0 | 0 | 0 | 0 |

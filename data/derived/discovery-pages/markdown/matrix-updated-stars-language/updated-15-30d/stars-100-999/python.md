@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 148
-- components: 115
-- concepts: 148
-- observations: 149
+- repos: 27
+- terms: 141
+- components: 102
+- concepts: 141
+- observations: 141
 
 ## Static behavior
 
@@ -53,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fishaudio/vocoder](https://github.com/fishaudio/vocoder) | 132 | 2026-05-04T18:50:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [fishaudio/audio-preprocess](https://github.com/fishaudio/audio-preprocess) | 390 | 2026-05-04T18:50:41Z | Python | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [sigsep/norbert](https://github.com/sigsep/norbert) | 192 | 2026-05-04T12:57:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [cosmos/chain-registry](https://github.com/cosmos/chain-registry) | 572 | 2026-05-04T08:05:38Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
 
 ## Repos sorted by stars
 
@@ -64,7 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [amsehili/auditok](https://github.com/amsehili/auditok) | 848 | 2026-05-14T20:27:15Z | Python | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [fishaudio/fish-diffusion](https://github.com/fishaudio/fish-diffusion) | 743 | 2026-05-04T18:51:09Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [zhiyiYo/Groove](https://github.com/zhiyiYo/Groove) | 646 | 2026-05-05T07:16:55Z | Python | Unknown | 8 | 0 | 8 | 8 |
-| [cosmos/chain-registry](https://github.com/cosmos/chain-registry) | 572 | 2026-05-04T08:05:38Z | Python | Infrastructure/tooling | 7 | 13 | 7 | 8 |
 | [mll-lab-nu/VAGEN](https://github.com/mll-lab-nu/VAGEN) | 466 | 2026-05-11T11:55:52Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 434 | 2026-05-11T09:36:32Z | Python | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [agentic-box/memora](https://github.com/agentic-box/memora) | 400 | 2026-05-10T07:57:44Z | Python | Unknown | 6 | 0 | 6 | 6 |

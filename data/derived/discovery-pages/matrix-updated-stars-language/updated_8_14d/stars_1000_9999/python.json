@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 12,
-    "terms": 114
+    "components": 62,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 13,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "collabora/WhisperLive",
+    "Farama-Foundation/Minigrid",
     "GalTransl/GalTransl",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",

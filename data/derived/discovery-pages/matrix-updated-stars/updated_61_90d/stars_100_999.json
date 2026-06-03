@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 4186,
-    "concepts": 2734,
-    "observations": 2746,
-    "repos": 597,
-    "terms": 2730
+    "concepts": 2744,
+    "observations": 2756,
+    "repos": 599,
+    "terms": 2738
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -27,6 +27,7 @@
     "Advocate99/DiffGesture",
     "aelassas/bookcars",
     "aerokube/moon",
+    "afbjorklund/lima-gui",
     "agentscope-ai/agentscope-studio",
     "AgentTorch/AgentTorch",
     "AghayeCoder/tx-ui",
@@ -58,6 +59,7 @@
     "ankane/vega-ruby",
     "antfu-collective/bumpp",
     "apache/rocketmq-client-cpp",
+    "ApolloScapeAuto/dataset-api",
     "apple/device-management",
     "aquasecurity/trivy-vscode-extension",
     "arduino-libraries/Ethernet",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 37,
-    "terms": 193
+    "components": 162,
+    "concepts": 194,
+    "observations": 194,
+    "repos": 38,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -33,6 +33,7 @@
     "karpathy/autoresearch",
     "KittenML/KittenTTS",
     "localstack/localstack",
+    "m-bain/whisperX",
     "microsoft/playwright-python",
     "openai/gpt-oss",
     "openai/gym",

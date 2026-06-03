@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 110
-- components: 138
-- concepts: 110
-- observations: 110
+- repos: 18
+- terms: 106
+- components: 134
+- concepts: 106
+- observations: 106
 
 ## Static behavior
 
@@ -44,7 +44,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 957 | 2026-05-27T18:23:02Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [NVlabs/trajdata](https://github.com/NVlabs/trajdata) | 445 | 2026-05-27T16:50:53Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-27T11:28:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -63,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 372 | 2026-05-28T16:24:57Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 353 | 2026-05-29T22:34:04Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [clearml/clearml-agent](https://github.com/clearml/clearml-agent) | 301 | 2026-05-28T16:49:18Z | Python | Infrastructure/tooling | 12 | 0 | 12 | 12 |
-| [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-27T11:28:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [readthedocs/commonmark.py](https://github.com/readthedocs/commonmark.py) | 236 | 2026-05-29T13:10:39Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 172 | 2026-05-29T10:47:11Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |

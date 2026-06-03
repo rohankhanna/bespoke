@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 190
+- repos: 189
 - terms: 744
 - components: 991
 - concepts: 729
@@ -215,7 +215,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenporter/python-google-nest-sdm](https://github.com/allenporter/python-google-nest-sdm) | 72 | 2026-04-05T05:34:06Z | Python | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [collinear-ai/yc-bench](https://github.com/collinear-ai/yc-bench) | 76 | 2026-04-05T03:21:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [enzet/Roentgen](https://github.com/enzet/Roentgen) | 22 | 2026-04-04T09:28:18Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -237,7 +236,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [HabanaAI/vllm-fork](https://github.com/HabanaAI/vllm-fork) | 86 | 2026-04-24T06:22:39Z | Python | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [cswry/VOSR](https://github.com/cswry/VOSR) | 85 | 2026-04-12T04:17:33Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [autodeployai/pypmml](https://github.com/autodeployai/pypmml) | 81 | 2026-04-26T18:25:29Z | Python | Infrastructure/tooling | 4 | 3 | 6 | 6 |
-| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [KyujinHan/Awesome-Training-Free-WAN2.1-Editing](https://github.com/KyujinHan/Awesome-Training-Free-WAN2.1-Editing) | 78 | 2026-04-06T03:09:22Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [scipy/scipy.org](https://github.com/scipy/scipy.org) | 76 | 2026-05-01T18:11:55Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [collinear-ai/yc-bench](https://github.com/collinear-ai/yc-bench) | 76 | 2026-04-05T03:21:26Z | Python | Unknown | 0 | 0 | 0 | 0 |

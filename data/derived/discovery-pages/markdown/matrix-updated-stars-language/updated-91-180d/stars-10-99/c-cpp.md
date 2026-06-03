@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 137
-- components: 126
-- concepts: 137
-- observations: 138
+- repos: 52
+- terms: 154
+- components: 129
+- concepts: 154
+- observations: 155
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [engineai-robotics/engineai_ros2_workspace](https://github.com/engineai-robotics/engineai_ros2_workspace) | 56 | 2026-03-05T02:38:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jupyter-xeus/xeus-zmq](https://github.com/jupyter-xeus/xeus-zmq) | 11 | 2026-03-04T22:03:29Z | C/C++ | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [aseprite/clip](https://github.com/aseprite/clip) | 28 | 2026-03-04T17:37:52Z | C/C++ | CLI | 1 | 3 | 1 | 1 |
@@ -94,6 +95,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [r-spatial/s2](https://github.com/r-spatial/s2) | 79 | 2026-02-14T14:57:33Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [tlaplus-community/tree-sitter-tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus) | 75 | 2026-02-17T16:55:51Z | C/C++ | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [ibireme/c_numconv_benchmark](https://github.com/ibireme/c_numconv_benchmark) | 73 | 2025-12-05T17:11:27Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [RomanArzumanyan/VALI](https://github.com/RomanArzumanyan/VALI) | 70 | 2026-02-05T19:12:18Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [nativium/nativium](https://github.com/nativium/nativium) | 69 | 2025-12-23T03:52:23Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [atsushieno/cmidi2](https://github.com/atsushieno/cmidi2) | 66 | 2026-02-17T08:15:37Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 2 |

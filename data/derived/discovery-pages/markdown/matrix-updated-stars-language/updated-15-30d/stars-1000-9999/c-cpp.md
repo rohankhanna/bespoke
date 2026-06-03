@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 233
-- components: 312
-- concepts: 234
-- observations: 234
+- repos: 24
+- terms: 212
+- components: 296
+- concepts: 213
+- observations: 213
 
 ## Static behavior
 
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Andersbakken/rtags](https://github.com/Andersbakken/rtags) | 1843 | 2026-05-04T19:03:32Z | C/C++ | CLI | 0 | 2 | 0 | 0 |
 | [NVIDIA/DALI](https://github.com/NVIDIA/DALI) | 5685 | 2026-05-04T11:28:12Z | C/C++ | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | 2650 | 2026-05-04T09:24:12Z | C/C++ | Infrastructure/tooling | 10 | 2 | 10 | 10 |
-| [stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio) | 3325 | 2026-05-04T07:55:40Z | C/C++ | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 
 ## Repos sorted by stars
 
@@ -67,7 +66,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [uxlfoundation/oneDNN](https://github.com/uxlfoundation/oneDNN) | 3990 | 2026-05-15T17:12:04Z | C/C++ | Infrastructure/tooling | 22 | 16 | 22 | 22 |
 | [sorbet/sorbet](https://github.com/sorbet/sorbet) | 3764 | 2026-05-06T01:37:25Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [iree-org/iree](https://github.com/iree-org/iree) | 3760 | 2026-05-15T23:57:31Z | C/C++ | Infrastructure/tooling | 18 | 10 | 18 | 18 |
-| [stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio) | 3325 | 2026-05-04T07:55:40Z | C/C++ | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 | [gpac/gpac](https://github.com/gpac/gpac) | 3239 | 2026-05-05T13:50:38Z | C/C++ | Infrastructure/tooling | 21 | 9 | 21 | 21 |
 | [brave/brave-core](https://github.com/brave/brave-core) | 3203 | 2026-05-05T00:40:13Z | C/C++ | Infrastructure/tooling | 8 | 143 | 8 | 8 |
 | [mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) | 2789 | 2026-05-06T07:08:02Z | C/C++ | Infrastructure/tooling | 6 | 10 | 6 | 6 |

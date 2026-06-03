@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
+- repos: 56
 - terms: 178
 - components: 229
 - concepts: 181
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [intel/vc-intrinsics](https://github.com/intel/vc-intrinsics) | 59 | 2026-04-03T18:07:06Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [idodov/RedAlert](https://github.com/idodov/RedAlert) | 59 | 2026-04-03T17:08:16Z | Python | Service/API | 7 | 0 | 7 | 7 |
 | [optuna/optunahub](https://github.com/optuna/optunahub) | 55 | 2026-04-03T04:47:50Z | Python | Infrastructure/tooling | 12 | 8 | 12 | 12 |
@@ -93,6 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yaph/tts-samples](https://github.com/yaph/tts-samples) | 89 | 2026-03-31T22:04:08Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [FindDefinition/cumm](https://github.com/FindDefinition/cumm) | 84 | 2026-03-21T10:09:46Z | Python | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [ckan/datapusher](https://github.com/ckan/datapusher) | 83 | 2026-03-25T21:38:15Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [logic-star-ai/swt-bench](https://github.com/logic-star-ai/swt-bench) | 76 | 2026-03-23T10:01:52Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [yxlllc/RMVPE](https://github.com/yxlllc/RMVPE) | 76 | 2026-03-12T15:18:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [liran-funaro/sphinx-markdown-builder](https://github.com/liran-funaro/sphinx-markdown-builder) | 71 | 2026-03-11T10:44:56Z | Python | Infrastructure/tooling | 5 | 2 | 6 | 6 |

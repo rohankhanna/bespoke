@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 134
-- components: 133
-- concepts: 135
-- observations: 135
+- repos: 33
+- terms: 117
+- components: 130
+- concepts: 118
+- observations: 118
 
 ## Static behavior
 
@@ -59,7 +59,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/react-native-winrt](https://github.com/microsoft/react-native-winrt) | 99 | 2026-03-05T20:30:56Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [fonttools/unicodedata2](https://github.com/fonttools/unicodedata2) | 40 | 2026-03-05T15:27:43Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [icecc/icemon](https://github.com/icecc/icemon) | 96 | 2026-03-05T13:57:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -79,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onicai/llama_cpp_canister](https://github.com/onicai/llama_cpp_canister) | 76 | 2026-03-18T19:10:37Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [heal-research/pyoperon](https://github.com/heal-research/pyoperon) | 75 | 2026-03-31T17:38:27Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [bartp5/libtexprintf](https://github.com/bartp5/libtexprintf) | 71 | 2026-03-24T22:35:22Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [RekGRpth/pg_task](https://github.com/RekGRpth/pg_task) | 67 | 2026-03-18T04:02:01Z | C/C++ | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [AIWintermuteAI/whispercpp](https://github.com/AIWintermuteAI/whispercpp) | 64 | 2026-04-01T13:01:02Z | C/C++ | Infrastructure/tooling | 5 | 11 | 5 | 5 |
 | [DeanoC/tiny_imageformat](https://github.com/DeanoC/tiny_imageformat) | 63 | 2026-03-12T10:00:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 1237
-- terms: 5236
-- components: 11103
-- concepts: 5188
-- observations: 5212
+- repos: 1236
+- terms: 5242
+- components: 11082
+- concepts: 5195
+- observations: 5219
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
 | [maplibre/maplibre-gl-inspect](https://github.com/maplibre/maplibre-gl-inspect) | 65 | 2026-05-04T05:17:00Z | TypeScript | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [cbuijs/hagezi](https://github.com/cbuijs/hagezi) | 91 | 2026-05-04T02:31:38Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [sakib-m/Pi-hole-Torrent-Blocklist](https://github.com/sakib-m/Pi-hole-Torrent-Blocklist) | 40 | 2026-05-04T02:00:09Z | Unknown | Unknown | 8 | 0 | 8 | 8 |
@@ -1260,8 +1261,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Kimahriman/hdfs-native](https://github.com/Kimahriman/hdfs-native) | 73 | 2026-04-04T21:20:04Z | Rust | Infrastructure/tooling | 2 | 12 | 2 | 2 |
 | [donderom/llm4s](https://github.com/donderom/llm4s) | 65 | 2026-04-04T16:05:25Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [enzet/Roentgen](https://github.com/enzet/Roentgen) | 22 | 2026-04-04T09:28:18Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -1450,7 +1449,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [darkriszty/MarkdownTablePrettify-VSCodeExt](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt) | 79 | 2026-04-17T12:31:38Z | TypeScript | Infrastructure/tooling | 4 | 12 | 6 | 6 |
 | [huangguang1999/ccstatusline-zh](https://github.com/huangguang1999/ccstatusline-zh) | 79 | 2026-04-16T05:47:51Z | TypeScript | CLI | 0 | 30 | 0 | 0 |
 | [usbarmory/armory-drive](https://github.com/usbarmory/armory-drive) | 79 | 2026-04-10T07:21:16Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [JuliaGeo/GeometryOps.jl](https://github.com/JuliaGeo/GeometryOps.jl) | 78 | 2026-05-03T19:20:48Z | Other | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [stdlib-js/google-summer-of-code](https://github.com/stdlib-js/google-summer-of-code) | 78 | 2026-05-01T06:07:03Z | JavaScript | Infrastructure/tooling | 7 | 14 | 7 | 7 |
 | [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
@@ -1955,6 +1953,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [php-toolkit/pflag](https://github.com/php-toolkit/pflag) | 34 | 2026-04-13T10:10:03Z | Other | CLI | 11 | 5 | 11 | 11 |
 | [lace/polliwog](https://github.com/lace/polliwog) | 34 | 2026-04-10T03:29:42Z | Python | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [google/safe-mmio](https://github.com/google/safe-mmio) | 34 | 2026-04-07T10:42:49Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 5 |
+| [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
 | [heroku/buildpacks-python](https://github.com/heroku/buildpacks-python) | 33 | 2026-05-01T23:03:08Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [B-Lang-org/bdw](https://github.com/B-Lang-org/bdw) | 33 | 2026-05-01T20:48:17Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [energye/lcl](https://github.com/energye/lcl) | 33 | 2026-04-30T13:31:00Z | Go | Framework | 0 | 0 | 0 | 0 |
@@ -2106,7 +2105,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [awslabs/wdio-aws-device-farm-service](https://github.com/awslabs/wdio-aws-device-farm-service) | 25 | 2026-04-10T21:29:33Z | TypeScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [cosmos/cosmos-db](https://github.com/cosmos/cosmos-db) | 25 | 2026-04-09T14:54:24Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [Azure-Samples/agent-openai-java-banking-assistant-langgraph4j](https://github.com/Azure-Samples/agent-openai-java-banking-assistant-langgraph4j) | 25 | 2026-04-07T09:54:53Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 | [lakekeeper/lakekeeper-charts](https://github.com/lakekeeper/lakekeeper-charts) | 24 | 2026-05-01T14:04:46Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [confluentinc/rest-utils](https://github.com/confluentinc/rest-utils) | 24 | 2026-04-30T03:05:46Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [SemiAnalysisAI/InferenceX-app](https://github.com/SemiAnalysisAI/InferenceX-app) | 24 | 2026-04-29T20:05:16Z | TypeScript | Infrastructure/tooling | 13 | 16 | 13 | 14 |

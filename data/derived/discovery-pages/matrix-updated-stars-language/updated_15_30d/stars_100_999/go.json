@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 15,
-    "terms": 157
+    "components": 90,
+    "concepts": 149,
+    "observations": 149,
+    "repos": 14,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
     "charmbracelet/x",
-    "CosmWasm/wasmd",
     "dgraph-io/dgraph-benchmarks",
     "energye/energy",
     "gookit/cache",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22762,
-    "concepts": 13291,
-    "observations": 13344,
+    "components": 22790,
+    "concepts": 13298,
+    "observations": 13352,
     "repos": 2334,
-    "terms": 13387
+    "terms": 13396
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -72,7 +72,6 @@
     "adoptium/adoptium",
     "adoptium/temurin21-binaries",
     "adrg/xdg",
-    "afbjorklund/lima-gui",
     "affaan-m/agentshield",
     "ag2ai/build-with-ag2",
     "agamm/claude-code-owasp",
@@ -222,7 +221,6 @@
     "apollographql/federation",
     "apollographql/router",
     "apollographql/rover",
-    "ApolloScapeAuto/dataset-api",
     "App-vNext/Polly-Samples",
     "appium/appium-adb",
     "appium/appium-ios-device",
@@ -586,6 +584,7 @@
     "cortinico/ktfmt-gradle",
     "Cosium/git-code-format-maven-plugin",
     "cosmos/awesome-cosmos",
+    "cosmos/chain-registry",
     "cosmos/cosmjs",
     "cosmos/evm",
     "cosmos/gaia",
@@ -595,6 +594,7 @@
     "cosmos/interchain-security",
     "cosmos/solidity-ibc-eureka",
     "cosmos/testnets",
+    "CosmWasm/wasmd",
     "CosmWasm/wasmvm",
     "cp2k/dbcsr",
     "cplusplus/draft",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 165
-- terms: 645
+- repos: 166
+- terms: 650
 - components: 965
-- concepts: 650
-- observations: 653
+- concepts: 657
+- observations: 660
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ApolloScapeAuto/dataset-api](https://github.com/ApolloScapeAuto/dataset-api) | 615 | 2026-04-04T07:56:26Z | Other | Model/data | 5 | 0 | 7 | 7 |
 | [onionpancakes/chassis](https://github.com/onionpancakes/chassis) | 152 | 2026-04-04T05:30:53Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [babashka/bbin](https://github.com/babashka/bbin) | 180 | 2026-04-04T00:50:56Z | Other | CLI | 8 | 2 | 10 | 10 |
 | [idris-community/idris2-lsp](https://github.com/idris-community/idris2-lsp) | 193 | 2026-04-04T00:46:43Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -239,6 +240,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [crivotz/nv-ide](https://github.com/crivotz/nv-ide) | 647 | 2026-03-23T10:40:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [scssphp/scssphp](https://github.com/scssphp/scssphp) | 628 | 2026-03-20T13:32:07Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [unxsist/jet-pilot](https://github.com/unxsist/jet-pilot) | 626 | 2026-03-09T18:34:55Z | Other | CLI | 8 | 86 | 8 | 8 |
+| [ApolloScapeAuto/dataset-api](https://github.com/ApolloScapeAuto/dataset-api) | 615 | 2026-04-04T07:56:26Z | Other | Model/data | 5 | 0 | 7 | 7 |
 | [metosin/spec-tools](https://github.com/metosin/spec-tools) | 607 | 2026-03-25T21:59:27Z | Other | Infrastructure/tooling | 7 | 11 | 8 | 8 |
 | [AgentTorch/AgentTorch](https://github.com/AgentTorch/AgentTorch) | 605 | 2026-04-02T01:28:36Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [fredrikekre/Literate.jl](https://github.com/fredrikekre/Literate.jl) | 583 | 2026-04-01T23:28:58Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 9 |

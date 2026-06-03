@@ -3,7 +3,7 @@
     "components": 891,
     "concepts": 529,
     "observations": 530,
-    "repos": 165,
+    "repos": 164,
     "terms": 521
   },
   "facet_version": 1,
@@ -11,9 +11,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
-    "0x676e67/0x676e67",
     "10up/.github",
     "42-evey/evey-bridge-plugin",
     "aaronrsun/spec-kit-checkpoint",

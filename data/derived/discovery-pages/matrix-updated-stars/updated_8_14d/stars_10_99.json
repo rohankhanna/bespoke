@@ -3,7 +3,7 @@
     "components": 164,
     "concepts": 54,
     "observations": 54,
-    "repos": 13,
+    "repos": 12,
     "terms": 54
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "cloudfoundry/credhub-cli",
@@ -20,7 +20,6 @@
     "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
     "lifegpc/msg-tool",
-    "mesh-iit/cad-libraries",
     "mono/skia",
     "ocaml-tracing/ocaml-opentelemetry",
     "python-poetry/website",

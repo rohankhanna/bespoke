@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 296
-- terms: 2347
-- components: 2166
-- concepts: 2364
-- observations: 2371
+- repos: 297
+- terms: 2368
+- components: 2182
+- concepts: 2385
+- observations: 2392
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio) | 3325 | 2026-05-04T07:55:40Z | C/C++ | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 | [libcpr/cpr](https://github.com/libcpr/cpr) | 7325 | 2026-05-03T15:20:18Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [dmlc/dlpack](https://github.com/dmlc/dlpack) | 1202 | 2026-05-03T10:58:09Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [realsenseai/librealsense](https://github.com/realsenseai/librealsense) | 8725 | 2026-05-03T10:47:53Z | C/C++ | Infrastructure/tooling | 6 | 7 | 6 | 6 |
@@ -455,6 +456,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nihui/waifu2x-ncnn-vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan) | 3386 | 2026-04-13T16:04:51Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [sveinbjornt/Platypus](https://github.com/sveinbjornt/Platypus) | 3381 | 2026-04-20T23:18:22Z | C/C++ | CLI | 16 | 2 | 16 | 16 |
 | [google/honggfuzz](https://github.com/google/honggfuzz) | 3328 | 2026-04-13T06:34:57Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [stack-of-tasks/pinocchio](https://github.com/stack-of-tasks/pinocchio) | 3325 | 2026-05-04T07:55:40Z | C/C++ | Infrastructure/tooling | 21 | 16 | 21 | 21 |
 | [nihui/opencv-mobile](https://github.com/nihui/opencv-mobile) | 3265 | 2026-04-13T08:58:44Z | C/C++ | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [intel/pcm](https://github.com/intel/pcm) | 3263 | 2026-04-30T19:13:43Z | C/C++ | Infrastructure/tooling | 23 | 7 | 23 | 23 |
 | [ohler55/oj](https://github.com/ohler55/oj) | 3205 | 2026-04-19T23:11:44Z | C/C++ | Infrastructure/tooling | 6 | 5 | 9 | 9 |

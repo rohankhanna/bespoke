@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 359
-- terms: 1204
-- components: 1934
-- concepts: 1207
-- observations: 1210
+- terms: 1190
+- components: 1957
+- concepts: 1193
+- observations: 1196
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 | [dwyl/auth_plug](https://github.com/dwyl/auth_plug) | 36 | 2026-04-03T23:06:50Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [gr2m/before-after-hook](https://github.com/gr2m/before-after-hook) | 82 | 2026-04-03T20:19:32Z | JavaScript | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [adrigzr/neotest-mocha](https://github.com/adrigzr/neotest-mocha) | 15 | 2026-04-03T19:15:49Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -382,8 +384,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [icecc/icemon](https://github.com/icecc/icemon) | 96 | 2026-03-05T13:57:56Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [JuliaGtk/Gtk4.jl](https://github.com/JuliaGtk/Gtk4.jl) | 87 | 2026-03-05T12:03:53Z | Other | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [SchwarzIT/api-linter-rules](https://github.com/SchwarzIT/api-linter-rules) | 29 | 2026-03-05T10:21:59Z | TypeScript | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 
 ## Repos sorted by stars
 
@@ -437,6 +437,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ctoth/claudio](https://github.com/ctoth/claudio) | 82 | 2026-03-17T00:26:58Z | Go | CLI | 5 | 5 | 0 | 0 |
 | [beam-telemetry/telemetry_metrics_statsd](https://github.com/beam-telemetry/telemetry_metrics_statsd) | 81 | 2026-03-31T16:51:13Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [gershnik/wsdd-native](https://github.com/gershnik/wsdd-native) | 81 | 2026-03-22T13:13:37Z | C/C++ | Infrastructure/tooling | 17 | 4 | 17 | 17 |
+| [archlizheng/frontend-slides-editable](https://github.com/archlizheng/frontend-slides-editable) | 79 | 2026-04-04T08:17:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [klaudworks/ralph-meets-rex](https://github.com/klaudworks/ralph-meets-rex) | 79 | 2026-03-17T21:05:11Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [padreati/rapaio](https://github.com/padreati/rapaio) | 78 | 2026-03-16T23:52:13Z | Java | Infrastructure/tooling | 7 | 3 | 7 | 7 |
@@ -465,7 +466,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bobbylight/RSTALanguageSupport](https://github.com/bobbylight/RSTALanguageSupport) | 70 | 2026-03-30T10:47:38Z | Java | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [eemeli/make-plural](https://github.com/eemeli/make-plural) | 70 | 2026-03-25T22:15:50Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [IST-DASLab/Quartet-II](https://github.com/IST-DASLab/Quartet-II) | 70 | 2026-03-23T13:53:39Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [gopasspw/gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) | 69 | 2026-04-02T01:48:26Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [Jack-Works/react-refresh-transformer](https://github.com/Jack-Works/react-refresh-transformer) | 69 | 2026-03-27T07:07:35Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [aws/amazon-vpc-cni-plugins](https://github.com/aws/amazon-vpc-cni-plugins) | 69 | 2026-03-18T23:51:02Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
@@ -536,7 +536,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nousresearch/tinker-atropos](https://github.com/NousResearch/tinker-atropos) | 52 | 2026-03-22T21:35:09Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [mesh-iit/creo2urdf](https://github.com/mesh-iit/creo2urdf) | 52 | 2026-03-10T08:32:03Z | C/C++ | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [richardodliu/OpenCodeEval](https://github.com/richardodliu/OpenCodeEval) | 52 | 2026-03-09T17:32:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [apache/datasketches-hive](https://github.com/apache/datasketches-hive) | 51 | 2026-03-28T20:06:05Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [dwyl/learn-payment-processing](https://github.com/dwyl/learn-payment-processing) | 51 | 2026-03-11T11:42:54Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [Nsidorenco/neotest-vstest](https://github.com/Nsidorenco/neotest-vstest) | 50 | 2026-03-25T20:36:31Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
@@ -640,6 +639,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [js-temporal/proposal-temporal-v2](https://github.com/js-temporal/proposal-temporal-v2) | 26 | 2026-03-20T20:15:53Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [cncf/wg-networking](https://github.com/cncf/wg-networking) | 26 | 2026-03-09T18:26:13Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [OpenHands/openhands-chrome-extension](https://github.com/OpenHands/openhands-chrome-extension) | 26 | 2026-03-07T07:02:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
 | [GFW-knocker/AndroidLibXrayLite](https://github.com/GFW-knocker/AndroidLibXrayLite) | 25 | 2026-03-31T17:44:00Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [dwyl/elixir-auth-google-demo](https://github.com/dwyl/elixir-auth-google-demo) | 25 | 2026-03-24T08:22:36Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [bpftrace/user-tools](https://github.com/bpftrace/user-tools) | 25 | 2026-03-17T18:08:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

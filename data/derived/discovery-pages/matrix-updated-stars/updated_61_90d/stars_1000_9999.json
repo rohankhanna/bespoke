@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4061,
-    "concepts": 2672,
-    "observations": 2680,
+    "components": 4060,
+    "concepts": 2656,
+    "observations": 2664,
     "repos": 463,
-    "terms": 2676
+    "terms": 2660
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -266,7 +266,6 @@
     "lltcggie/waifu2x-caffe",
     "lobehub/lobe-chat-agents",
     "locationtech/jts",
-    "lshqqytiger/stable-diffusion-webui-amdgpu",
     "lunarmodules/busted",
     "lxgw/LxgwWenKai-Screen",
     "lxgw/LxgwWenkaiGB",
@@ -308,6 +307,7 @@
     "nalgeon/sqlean",
     "nanbingxyz/5ire",
     "nanxiaobei/hugo-paper",
+    "ndmitchell/ghcid",
     "ndmitchell/hlint",
     "nesquena/rabl",
     "nigels-com/glew",

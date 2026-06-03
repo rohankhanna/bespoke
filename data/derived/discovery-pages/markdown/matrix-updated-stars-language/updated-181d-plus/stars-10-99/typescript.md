@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 188
-- terms: 551
-- components: 4206
-- concepts: 540
-- observations: 541
+- repos: 189
+- terms: 553
+- components: 4276
+- concepts: 542
+- observations: 543
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
 | [iccicci/next-json](https://github.com/iccicci/next-json) | 34 | 2025-12-01T21:34:44Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [instana/opentelemetry-demo](https://github.com/instana/opentelemetry-demo) | 14 | 2025-11-27T17:03:51Z | TypeScript | Infrastructure/tooling | 6 | 17 | 6 | 6 |
 | [tracked-tools/ember-async-data](https://github.com/tracked-tools/ember-async-data) | 48 | 2025-11-18T19:23:52Z | TypeScript | Infrastructure/tooling | 4 | 52 | 4 | 4 |
@@ -242,6 +243,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sawhney17/logseq-citation-manager](https://github.com/sawhney17/logseq-citation-manager) | 78 | 2025-05-30T12:01:21Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [windicss/windicss-webpack-plugin](https://github.com/windicss/windicss-webpack-plugin) | 78 | 2023-09-14T11:44:28Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [stoplightio/vscode-spectral](https://github.com/stoplightio/vscode-spectral) | 77 | 2025-03-28T22:22:24Z | TypeScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
+| [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
 | [mdn/bob](https://github.com/mdn/bob) | 75 | 2025-05-14T12:10:27Z | TypeScript | Infrastructure/tooling | 6 | 60 | 6 | 6 |
 | [lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk) | 74 | 2025-07-31T02:13:10Z | TypeScript | Infrastructure/tooling | 5 | 43 | 0 | 0 |
 | [IndexXuan/vite-plugin-env-compatible](https://github.com/IndexXuan/vite-plugin-env-compatible) | 74 | 2024-08-02T15:14:44Z | TypeScript | CLI | 3 | 16 | 3 | 3 |

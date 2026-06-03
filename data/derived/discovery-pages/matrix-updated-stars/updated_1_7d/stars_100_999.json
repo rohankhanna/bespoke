@@ -1,24 +1,23 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 412,
-    "observations": 413,
-    "repos": 62,
-    "terms": 412
+    "components": 753,
+    "concepts": 396,
+    "observations": 397,
+    "repos": 60,
+    "terms": 396
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
     "AI-Hypercomputer/maxdiffusion",
-    "all-contributors/app",
     "antvis/GPT-Vis",
     "apalache-mc/apalache",
     "appelmar/gdalcubes",
@@ -39,7 +38,6 @@
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "elixir-protobuf/protobuf",
     "EmmyLuaLs/emmylua-analyzer-rust",
-    "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "GDevelopApp/GDevelop-extensions",
     "git-friendly/git-friendly",

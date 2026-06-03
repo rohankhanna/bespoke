@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 396,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 33,
-    "terms": 192
+    "components": 416,
+    "concepts": 210,
+    "observations": 210,
+    "repos": 35,
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
+    "all-contributors/app",
     "AMD-AGI/Nitro-1",
     "babashka/nbb",
     "betterleaks/betterleaks",
@@ -21,6 +22,7 @@
     "dwyl/quotes",
     "electron/packager",
     "emacscollective/auto-compile",
+    "flagos-ai/FlagAttention",
     "flagos-ai/FlagCX",
     "fsprojects/FSharp.Data.GraphQL",
     "Gnathonic/mokuro-reader",

@@ -3,7 +3,7 @@
     "components": 37,
     "concepts": 65,
     "observations": 65,
-    "repos": 37,
+    "repos": 38,
     "terms": 70
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -42,6 +42,7 @@
     "Level/community",
     "LINs-lab/RCGM",
     "logseq/db-test",
+    "Lynxe-public/Lynxe-public-prompts",
     "oak-security/resources",
     "PacificBiosciences/pbAA",
     "panaversity/claude-code-agent-teams-exercises",

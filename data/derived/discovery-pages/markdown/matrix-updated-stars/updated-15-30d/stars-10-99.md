@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 81
-- terms: 434
-- components: 552
-- concepts: 437
-- observations: 439
+- terms: 425
+- components: 547
+- concepts: 427
+- observations: 429
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [google-marketing-solutions/ariel](https://github.com/google-marketing-solutions/ariel) | 66 | 2026-05-19T22:21:14Z | Python | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) | 98 | 2026-05-19T14:00:49Z | Other | Library | 3 | 0 | 3 | 3 |
 | [compozy/kb](https://github.com/compozy/kb) | 45 | 2026-05-19T03:48:50Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
@@ -105,7 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [analogdevicesinc/msdk](https://github.com/analogdevicesinc/msdk) | 99 | 2026-05-04T15:56:44Z | C/C++ | Infrastructure/tooling | 24 | 18 | 24 | 24 |
 | [cucumber/cucumber-js-examples](https://github.com/cucumber/cucumber-js-examples) | 25 | 2026-05-04T14:37:06Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [CuatroElixir/spear](https://github.com/CuatroElixir/spear) | 95 | 2026-05-04T13:38:28Z | Other | CLI | 7 | 4 | 7 | 7 |
-| [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -158,13 +158,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xuegao-tzx/Fllama](https://github.com/xuegao-tzx/Fllama) | 36 | 2026-05-08T16:22:50Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [apache/casbin-rust-actix-casbin](https://github.com/apache/casbin-rust-actix-casbin) | 35 | 2026-05-15T19:19:11Z | Rust | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [ocaml-tracing/ocaml-trace](https://github.com/ocaml-tracing/ocaml-trace) | 35 | 2026-05-08T18:47:14Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
 | [version-fox/vfox-plugins](https://github.com/version-fox/vfox-plugins) | 30 | 2026-05-12T21:10:45Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [helix-toolkit/helix-toolkit-nex](https://github.com/helix-toolkit/helix-toolkit-nex) | 28 | 2026-05-04T20:50:08Z | Other | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [GoogleCloudPlatform/opentelemetry-demo](https://github.com/GoogleCloudPlatform/opentelemetry-demo) | 26 | 2026-05-04T22:38:28Z | TypeScript | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [cucumber/cucumber-js-examples](https://github.com/cucumber/cucumber-js-examples) | 25 | 2026-05-04T14:37:06Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [aidenlab/juicebox.js](https://github.com/aidenlab/juicebox.js) | 24 | 2026-05-15T21:44:53Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [energye/wv](https://github.com/energye/wv) | 22 | 2026-05-09T01:13:26Z | Go | Framework | 0 | 0 | 0 | 0 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/openjdk-jdk21u](https://github.com/microsoft/openjdk-jdk21u) | 21 | 2026-05-14T07:09:14Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [atsushieno/aap-juce](https://github.com/atsushieno/aap-juce) | 20 | 2026-05-14T09:01:56Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 8 |
 | [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-05-10T02:01:49Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |

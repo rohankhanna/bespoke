@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1934,
-    "concepts": 1207,
-    "observations": 1210,
+    "components": 1957,
+    "concepts": 1193,
+    "observations": 1196,
     "repos": 359,
-    "terms": 1204
+    "terms": 1190
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -22,10 +22,10 @@
     "2KAbhishek/exercism.nvim",
     "2KAbhishek/tmux-tilit",
     "6cdh/dotfiles",
+    "9romise/eslint-plugin-import-lite",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "ably-labs/realtime-quiz-framework",
-    "accabog/MedianFilter",
     "acemir/CSSOM",
     "acro5piano/kysely-migration-cli",
     "ada-url/goada",
@@ -61,6 +61,7 @@
     "appwrite/playground-for-node",
     "aquasecurity/k8s-node-collector",
     "aquasecurity/setup-trivy",
+    "archlizheng/frontend-slides-editable",
     "aseprite/observable",
     "astro-han/diffpane",
     "astropy/astropy-project",
@@ -258,7 +259,6 @@
     "lostromb/concentus.oggfile",
     "lucidrains/PoPE-pytorch",
     "lxgw/LxgwWenkaiGB-Lite",
-    "Lynxe-public/Lynxe-public-prompts",
     "magodo/tfadd",
     "malewicz1337/oil-git.nvim",
     "marko-js/examples",

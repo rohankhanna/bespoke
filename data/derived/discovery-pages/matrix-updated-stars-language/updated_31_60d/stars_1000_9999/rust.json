@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2355,
-    "concepts": 1708,
-    "observations": 1716,
-    "repos": 228,
-    "terms": 1717
+    "components": 2366,
+    "concepts": 1720,
+    "observations": 1728,
+    "repos": 229,
+    "terms": 1729
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -75,6 +75,7 @@
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
     "EmbarkStudios/puffin",
+    "erebe/wstunnel",
     "EricLBuehler/mistral.rs",
     "esp-rs/esp-hal",
     "evcxr/evcxr",

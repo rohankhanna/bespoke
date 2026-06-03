@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 34,
-    "terms": 134
+    "components": 130,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 33,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
-    "accabog/MedianFilter",
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
     "AIWintermuteAI/whispercpp",

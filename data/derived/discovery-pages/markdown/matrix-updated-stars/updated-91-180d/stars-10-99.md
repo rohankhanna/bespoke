@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 523
-- terms: 1405
-- components: 2543
-- concepts: 1400
-- observations: 1406
+- repos: 524
+- terms: 1420
+- components: 2476
+- concepts: 1415
+- observations: 1421
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [estesp/mquery](https://github.com/estesp/mquery) | 93 | 2026-03-05T03:20:13Z | Go | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [engineai-robotics/engineai_ros2_workspace](https://github.com/engineai-robotics/engineai_ros2_workspace) | 56 | 2026-03-05T02:38:43Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [googleapis/nodejs-error-reporting](https://github.com/googleapis/nodejs-error-reporting) | 89 | 2026-03-05T00:06:38Z | TypeScript | CLI | 3 | 35 | 3 | 3 |
@@ -547,7 +549,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ssitu/ComfyUI_restart_sampling](https://github.com/ssitu/ComfyUI_restart_sampling) | 89 | 2025-12-06T03:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lukacu/docker-frps](https://github.com/lukacu/docker-frps) | 24 | 2025-12-05T21:13:55Z | Go | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [ibireme/c_numconv_benchmark](https://github.com/ibireme/c_numconv_benchmark) | 73 | 2025-12-05T17:11:27Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
-| [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -621,7 +622,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ChenMnZ/INT_vs_FP](https://github.com/ChenMnZ/INT_vs_FP) | 77 | 2026-02-06T05:27:02Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [fla-org/flash-bidirectional-linear-attention](https://github.com/fla-org/flash-bidirectional-linear-attention) | 76 | 2026-03-01T04:06:49Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [padreati/rapaio-jupyter-kernel](https://github.com/padreati/rapaio-jupyter-kernel) | 76 | 2026-02-10T23:17:31Z | Other | Unknown | 5 | 0 | 5 | 5 |
-| [CyanSalt/commas](https://github.com/CyanSalt/commas) | 76 | 2025-12-05T08:12:58Z | TypeScript | CLI | 2 | 70 | 2 | 2 |
 | [cuiziteng/Luminance-GS](https://github.com/cuiziteng/Luminance-GS) | 75 | 2026-02-25T02:40:31Z | Python | Unknown | 5 | 0 | 6 | 6 |
 | [googleapis/java-bigquerystorage](https://github.com/googleapis/java-bigquerystorage) | 75 | 2026-02-24T00:15:06Z | Java | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [hicchicc/x8y12pxDenkiChip](https://github.com/hicchicc/x8y12pxDenkiChip) | 75 | 2026-02-20T05:51:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
@@ -649,6 +649,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [getyourguide/vue-class-migrator](https://github.com/getyourguide/vue-class-migrator) | 71 | 2026-01-21T09:30:05Z | TypeScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [holochain/launcher](https://github.com/holochain/launcher) | 71 | 2026-01-09T15:19:51Z | TypeScript | Infrastructure/tooling | 4 | 64 | 4 | 4 |
 | [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [accabog/MedianFilter](https://github.com/accabog/MedianFilter) | 70 | 2026-03-05T07:31:57Z | C/C++ | Infrastructure/tooling | 17 | 3 | 17 | 17 |
 | [JunoLab/Atom.jl](https://github.com/JunoLab/Atom.jl) | 70 | 2026-02-26T15:24:20Z | Other | CLI | 2 | 8 | 2 | 2 |
 | [agents-x-project/PyVision-RL](https://github.com/agents-x-project/PyVision-RL) | 70 | 2026-02-25T09:05:48Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [AliRezaBeigy/paqetNG](https://github.com/AliRezaBeigy/paqetNG) | 70 | 2026-02-23T06:25:32Z | Other | CLI | 5 | 6 | 5 | 5 |
@@ -729,6 +730,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [quarkiverse/quarkiverse](https://github.com/quarkiverse/quarkiverse) | 53 | 2026-02-06T11:25:33Z | JavaScript | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [status-im/nim-json-serialization](https://github.com/status-im/nim-json-serialization) | 53 | 2026-01-30T20:51:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) | 53 | 2025-12-31T14:58:10Z | Unknown | Unknown | 0 | 3 | 0 | 0 |
+| [Lynxe-public/Lynxe-public-prompts](https://github.com/Lynxe-public/Lynxe-public-prompts) | 52 | 2026-03-05T08:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [catppuccin/atuin](https://github.com/catppuccin/atuin) | 52 | 2026-03-02T17:47:07Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [googlefonts/shaperglot](https://github.com/googlefonts/shaperglot) | 52 | 2026-02-18T21:03:36Z | Rust | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [lumen-oss/rocks-git.nvim](https://github.com/lumen-oss/rocks-git.nvim) | 52 | 2026-02-03T21:45:39Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |

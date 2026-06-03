@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 66
-- terms: 322
-- components: 295
-- concepts: 324
-- observations: 327
+- repos: 67
+- terms: 331
+- components: 300
+- concepts: 334
+- observations: 337
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
 | [taginfo/taginfo-projects](https://github.com/taginfo/taginfo-projects) | 30 | 2026-05-03T11:07:30Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [Chocolate4U/Iran-clash-rules](https://github.com/Chocolate4U/Iran-clash-rules) | 71 | 2026-05-03T07:33:34Z | Shell | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [fcshark-org/route-list](https://github.com/fcshark-org/route-list) | 12 | 2026-05-02T22:37:11Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -130,6 +131,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [helidon-io/helidon-examples](https://github.com/helidon-io/helidon-examples) | 35 | 2026-04-27T15:59:53Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [bitnami/vulndb](https://github.com/bitnami/vulndb) | 35 | 2026-04-23T18:12:49Z | Shell | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [conda-forge/poppler-feedstock](https://github.com/conda-forge/poppler-feedstock) | 35 | 2026-04-08T15:38:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [leleliu008/ppkg](https://github.com/leleliu008/ppkg) | 33 | 2026-05-04T08:15:44Z | Shell | CLI | 9 | 5 | 10 | 10 |
 | [iterate-ch/profiles](https://github.com/iterate-ch/profiles) | 33 | 2026-04-23T07:59:52Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) | 33 | 2026-04-21T07:12:14Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [taginfo/taginfo-projects](https://github.com/taginfo/taginfo-projects) | 30 | 2026-05-03T11:07:30Z | Shell | Infrastructure/tooling | 3 | 1 | 3 | 3 |

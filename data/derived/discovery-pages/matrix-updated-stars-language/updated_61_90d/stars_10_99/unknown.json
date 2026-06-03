@@ -3,7 +3,7 @@
     "components": 20,
     "concepts": 35,
     "observations": 35,
-    "repos": 22,
+    "repos": 21,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "aloncarmel/supermeskill",
     "AppImage/AppImageSpec",
@@ -29,7 +29,6 @@
     "getsentry/.github",
     "grpc/grpc-community",
     "ithiria894/awesome-claude-code-hooks",
-    "Lynxe-public/Lynxe-public-prompts",
     "marko-js/examples",
     "nushell/showcase",
     "opencontainers/tob",

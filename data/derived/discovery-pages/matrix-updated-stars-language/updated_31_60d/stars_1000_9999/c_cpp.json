@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2166,
-    "concepts": 2364,
-    "observations": 2371,
-    "repos": 296,
-    "terms": 2347
+    "components": 2182,
+    "concepts": 2385,
+    "observations": 2392,
+    "repos": 297,
+    "terms": 2368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -270,6 +270,7 @@
     "soramimi/guitar",
     "sparkle-project/Sparkle",
     "sqlite/sqlite",
+    "stack-of-tasks/pinocchio",
     "stephenberry/glaze",
     "stevenlovegrove/Pangolin",
     "strukturag/libheif",

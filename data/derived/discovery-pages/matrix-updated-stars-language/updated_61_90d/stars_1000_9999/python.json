@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 619,
-    "observations": 619,
-    "repos": 95,
-    "terms": 613
+    "components": 336,
+    "concepts": 603,
+    "observations": 603,
+    "repos": 94,
+    "terms": 597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -60,7 +60,6 @@
     "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
-    "lshqqytiger/stable-diffusion-webui-amdgpu",
     "michaelfeil/infinity",
     "microsoft/TaskWeaver",
     "miiton/Cica",

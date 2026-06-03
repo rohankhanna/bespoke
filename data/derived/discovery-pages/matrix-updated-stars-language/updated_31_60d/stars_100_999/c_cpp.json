@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1339,
-    "concepts": 1397,
-    "observations": 1400,
-    "repos": 255,
-    "terms": 1388
+    "concepts": 1394,
+    "observations": 1397,
+    "repos": 254,
+    "terms": 1385
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
     "actboy168/bee.lua",
     "acts-project/acts",
-    "afbjorklund/lima-gui",
     "aibasel/downward",
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",

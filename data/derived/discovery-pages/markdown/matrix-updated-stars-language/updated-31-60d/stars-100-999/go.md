@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 195
-- terms: 1318
-- components: 1616
-- concepts: 1308
-- observations: 1315
+- repos: 196
+- terms: 1328
+- components: 1631
+- concepts: 1318
+- observations: 1325
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) | 412 | 2026-05-04T08:11:41Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [gofrs/flock](https://github.com/gofrs/flock) | 727 | 2026-05-03T19:21:34Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [seaweedfs/seaweedfs-operator](https://github.com/seaweedfs/seaweedfs-operator) | 297 | 2026-05-02T21:48:56Z | Go | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) | 306 | 2026-05-02T18:06:12Z | Go | Infrastructure/tooling | 12 | 12 | 12 | 12 |
@@ -314,6 +315,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [boj/redistore](https://github.com/boj/redistore) | 424 | 2026-04-27T10:57:49Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go) | 421 | 2026-04-28T19:22:50Z | Go | CLI | 7 | 10 | 7 | 7 |
 | [dependabot/cli](https://github.com/dependabot/cli) | 420 | 2026-04-19T16:02:40Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) | 412 | 2026-05-04T08:11:41Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [terraform-linters/tflint-ruleset-aws](https://github.com/terraform-linters/tflint-ruleset-aws) | 411 | 2026-04-20T02:49:49Z | Go | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [apache/iceberg-go](https://github.com/apache/iceberg-go) | 405 | 2026-05-01T20:16:23Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [opentofu/registry](https://github.com/opentofu/registry) | 402 | 2026-04-22T01:01:13Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |

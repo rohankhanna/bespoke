@@ -3,7 +3,7 @@
     "components": 52,
     "concepts": 25,
     "observations": 25,
-    "repos": 10,
+    "repos": 11,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "apify/actor-templates",
@@ -21,6 +21,7 @@
     "google-marketing-solutions/ariel",
     "google-research/mseb",
     "goombalab/raven",
+    "mesh-iit/cad-libraries",
     "python-jsonschema/referencing",
     "version-fox/vfox-plugins",
     "yulewang97/ERDiff"

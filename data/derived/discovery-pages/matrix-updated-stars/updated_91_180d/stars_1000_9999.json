@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3544,
-    "concepts": 2805,
-    "observations": 2815,
-    "repos": 564,
-    "terms": 2779
+    "components": 3550,
+    "concepts": 2821,
+    "observations": 2831,
+    "repos": 565,
+    "terms": 2795
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -331,6 +331,7 @@
     "linebender/tiny-skia",
     "liquidmetal-dev/flintlock",
     "lokerl/tts-vue",
+    "lshqqytiger/stable-diffusion-webui-amdgpu",
     "LTH14/JiT",
     "LTH14/mar",
     "lucidrains/tab-transformer-pytorch",

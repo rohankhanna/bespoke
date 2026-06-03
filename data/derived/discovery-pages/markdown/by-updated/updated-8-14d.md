@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-03T06:15:31.003729+00:00`
 
 ## Counts
 
-- repos: 109
-- terms: 829
-- components: 1494
-- concepts: 833
-- observations: 835
+- repos: 111
+- terms: 855
+- components: 1521
+- concepts: 859
+- observations: 861
 
 ## Static behavior
 
@@ -22,6 +22,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [all-contributors/app](https://github.com/all-contributors/app) | 625 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
+| [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-27T06:09:52Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [wevm/abitype](https://github.com/wevm/abitype) | 544 | 2026-05-27T05:18:44Z | TypeScript | Infrastructure/tooling | 10 | 24 | 10 | 10 |
 | [jelly-beam/rebar3_ex_doc](https://github.com/jelly-beam/rebar3_ex_doc) | 48 | 2026-05-27T03:09:07Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -130,7 +133,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [speaches-ai/speaches](https://github.com/speaches-ai/speaches) | 3312 | 2026-05-20T18:31:38Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [HuaweiCloudDeveloper/karpenter-provider-huawei](https://github.com/HuaweiCloudDeveloper/karpenter-provider-huawei) | 2 | 2026-05-20T13:23:02Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [ash-rs/ash](https://github.com/ash-rs/ash) | 2275 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -172,6 +174,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [roboflow/maestro](https://github.com/roboflow/maestro) | 2675 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [openai/openai-dotnet](https://github.com/openai/openai-dotnet) | 2614 | 2026-05-25T10:33:14Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [yomidevs/yomitan](https://github.com/yomidevs/yomitan) | 2539 | 2026-05-25T01:17:52Z | JavaScript | Infrastructure/tooling | 21 | 73 | 21 | 21 |
+| [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [ash-rs/ash](https://github.com/ash-rs/ash) | 2275 | 2026-05-20T11:47:53Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [GalTransl/GalTransl](https://github.com/GalTransl/GalTransl) | 2109 | 2026-05-23T00:33:08Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
@@ -204,6 +207,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 684 | 2026-05-25T02:21:36Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 659 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [clj-commons/rewrite-clj](https://github.com/clj-commons/rewrite-clj) | 658 | 2026-05-26T18:56:33Z | Other | Infrastructure/tooling | 5 | 13 | 5 | 5 |
+| [all-contributors/app](https://github.com/all-contributors/app) | 625 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [google/protobuf.dart](https://github.com/google/protobuf.dart) | 571 | 2026-05-21T11:19:02Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [wevm/abitype](https://github.com/wevm/abitype) | 544 | 2026-05-27T05:18:44Z | TypeScript | Infrastructure/tooling | 10 | 24 | 10 | 10 |
@@ -214,6 +218,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/quotes](https://github.com/dwyl/quotes) | 342 | 2026-05-20T20:48:26Z | Other | Infrastructure/tooling | 4 | 12 | 5 | 5 |
 | [hluaguo/learn-faster-kit](https://github.com/hluaguo/learn-faster-kit) | 324 | 2026-05-21T21:14:55Z | Python | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [electron/packager](https://github.com/electron/packager) | 296 | 2026-05-21T19:58:27Z | TypeScript | CLI | 9 | 50 | 9 | 9 |
+| [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 281 | 2026-05-25T14:21:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [mafintosh/streamx](https://github.com/mafintosh/streamx) | 239 | 2026-05-26T18:01:29Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | 235 | 2026-05-26T19:13:58Z | Other | Infrastructure/tooling | 13 | 18 | 14 | 14 |
@@ -237,7 +242,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-25T13:09:01Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [lxgw/B5XiZhi](https://github.com/lxgw/B5XiZhi) | 5 | 2026-05-26T12:14:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [donut-party/endpoint-test](https://github.com/donut-party/endpoint-test) | 2 | 2026-05-26T03:07:33Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |

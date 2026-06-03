@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3793,
-    "concepts": 681,
-    "observations": 686,
-    "repos": 139,
-    "terms": 713
+    "components": 3767,
+    "concepts": 678,
+    "observations": 683,
+    "repos": 138,
+    "terms": 710
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
-    "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "addfox/addfox",
     "adyscorpius/logseq-jira",

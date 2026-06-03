@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1129,
-    "concepts": 746,
-    "observations": 748,
-    "repos": 118,
-    "terms": 751
+    "components": 1132,
+    "concepts": 752,
+    "observations": 754,
+    "repos": 119,
+    "terms": 757
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -81,6 +81,7 @@
     "localstack/localstack",
     "lokesh/color-thief",
     "lxgw/LxgwWenKai",
+    "m-bain/whisperX",
     "macrozheng/mall",
     "markdown-it/markdown-it",
     "microsoft/AirSim",

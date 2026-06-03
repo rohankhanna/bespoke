@@ -3,7 +3,7 @@
     "components": 72,
     "concepts": 12,
     "observations": 12,
-    "repos": 10,
+    "repos": 9,
     "terms": 12
   },
   "facet_version": 1,
@@ -11,13 +11,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "atsushieno/aap-lv2-string-machine",
     "clearml/clearml-agent-bootstrap",
     "danielrosehill/Claude-Gist-Writer-Plugin",
-    "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "drmingdrmer/databend-meta",
     "locize/locize-i18next-vue-example",
     "Luligu/matterbridge-eve-door",

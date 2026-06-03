@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 103
+- repos: 104
 - terms: 615
-- components: 502
+- components: 507
 - concepts: 615
 - observations: 618
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ndmitchell/ghcid](https://github.com/ndmitchell/ghcid) | 1188 | 2026-04-04T06:19:23Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 1942 | 2026-04-03T17:02:32Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [usbarmory/usbarmory](https://github.com/usbarmory/usbarmory) | 1471 | 2026-04-03T10:08:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [arviz-devs/arviz](https://github.com/arviz-devs/arviz) | 1808 | 2026-04-03T09:56:39Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -227,6 +228,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [r-lib/lintr](https://github.com/r-lib/lintr) | 1272 | 2026-03-31T22:54:34Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [ScoopInstaller/Install](https://github.com/ScoopInstaller/Install) | 1213 | 2026-03-19T08:27:03Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ptsochantaris/trailer](https://github.com/ptsochantaris/trailer) | 1210 | 2026-03-22T22:03:53Z | Other | Unknown | 8 | 0 | 8 | 8 |
+| [ndmitchell/ghcid](https://github.com/ndmitchell/ghcid) | 1188 | 2026-04-04T06:19:23Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [ankane/ahoy_email](https://github.com/ankane/ahoy_email) | 1183 | 2026-04-01T20:49:18Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [excon/excon](https://github.com/excon/excon) | 1173 | 2026-03-20T19:18:14Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [lindawangg/COVID-Net](https://github.com/lindawangg/COVID-Net) | 1168 | 2026-03-20T16:10:15Z | Other | Unknown | 8 | 0 | 8 | 8 |

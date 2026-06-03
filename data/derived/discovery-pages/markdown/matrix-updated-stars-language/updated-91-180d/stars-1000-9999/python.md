@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 171
-- terms: 820
-- components: 428
-- concepts: 834
-- observations: 835
+- repos: 172
+- terms: 836
+- components: 434
+- concepts: 850
+- observations: 851
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [keleshev/schema](https://github.com/keleshev/schema) | 2944 | 2026-03-04T20:33:24Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [turboderp-org/exllamav2](https://github.com/turboderp-org/exllamav2) | 4538 | 2026-03-04T13:12:20Z | Python | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [dateutil/dateutil](https://github.com/dateutil/dateutil) | 2614 | 2026-03-03T05:40:58Z | Python | Infrastructure/tooling | 7 | 5 | 7 | 7 |
@@ -284,6 +285,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [numz/ComfyUI-SeedVR2_VideoUpscaler](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler) | 2404 | 2025-12-24T08:52:32Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [baaivision/Emu3](https://github.com/baaivision/Emu3) | 2400 | 2026-01-12T08:39:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | 2391 | 2026-03-03T05:11:43Z | Python | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [lshqqytiger/stable-diffusion-webui-amdgpu](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu) | 2363 | 2026-03-05T06:27:29Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [pyusb/pyusb](https://github.com/pyusb/pyusb) | 2299 | 2026-02-12T15:10:52Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [SafeAILab/EAGLE](https://github.com/SafeAILab/EAGLE) | 2297 | 2026-02-20T02:53:29Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [harbor-framework/terminal-bench](https://github.com/harbor-framework/terminal-bench) | 2294 | 2026-01-22T05:27:03Z | Python | CLI | 8 | 4 | 8 | 8 |

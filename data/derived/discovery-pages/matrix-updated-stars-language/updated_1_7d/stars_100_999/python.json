@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 19,
-    "terms": 110
+    "components": 134,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 18,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
@@ -20,7 +20,6 @@
     "aristoteleo/PantheonOS",
     "clearml/clearml-agent",
     "Comfy-Org/comfy-cli",
-    "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",

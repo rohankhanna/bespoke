@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 29
-- terms: 118
-- components: 189
-- concepts: 118
-- observations: 119
+- repos: 28
+- terms: 113
+- components: 185
+- concepts: 113
+- observations: 114
 
 ## Static behavior
 
@@ -53,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Rudder](https://github.com/danielrosehill/Claude-Rudder) | 1 | 2026-05-04T16:58:25Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [chrishulbert/brickwarrior](https://github.com/chrishulbert/brickwarrior) | 3 | 2026-05-04T12:01:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [pot-app/.github](https://github.com/pot-app/.github) | 5 | 2026-05-04T08:33:56Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [clearml/dropbear](https://github.com/clearml/dropbear) | 2 | 2026-05-04T07:10:38Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -78,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SeedScientist/K2V](https://github.com/SeedScientist/K2V) | 2 | 2026-05-19T07:09:55Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [atsushieno/midicci](https://github.com/atsushieno/midicci) | 2 | 2026-05-15T03:28:10Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [triton-inference-server/TensorRT-LLM](https://github.com/triton-inference-server/TensorRT-LLM) | 2 | 2026-05-04T20:08:12Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [clearml/dropbear](https://github.com/clearml/dropbear) | 2 | 2026-05-04T07:10:38Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [Aayushm24/presidential-briefing](https://github.com/Aayushm24/presidential-briefing) | 1 | 2026-05-13T03:11:40Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [atsushieno/aap-juce-simple-host](https://github.com/atsushieno/aap-juce-simple-host) | 1 | 2026-05-10T18:55:50Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [gookit/cliui](https://github.com/gookit/cliui) | 1 | 2026-05-07T02:00:12Z | Go | CLI | 3 | 9 | 3 | 3 |

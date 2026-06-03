@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 13
+- repos: 12
 - terms: 54
 - components: 164
 - concepts: 54
@@ -37,7 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-05-22T18:22:19Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [windsonR/vite-plugin-virtual-html](https://github.com/windsonR/vite-plugin-virtual-html) | 72 | 2026-05-21T07:38:07Z | TypeScript | Infrastructure/tooling | 4 | 29 | 4 | 4 |
 | [f3liz-casa/noraneko](https://github.com/f3liz-casa/noraneko) | 87 | 2026-05-21T02:31:29Z | Other | Infrastructure/tooling | 1 | 36 | 1 | 1 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -54,5 +53,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/credhub-cli](https://github.com/cloudfoundry/credhub-cli) | 43 | 2026-05-25T13:09:01Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [python-poetry/website](https://github.com/python-poetry/website) | 39 | 2026-05-23T13:39:57Z | Other | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [skilld-dev/retriv](https://github.com/skilld-dev/retriv) | 23 | 2026-05-24T15:18:50Z | TypeScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-05-20T06:58:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [intel-staging/text-generation-webui](https://github.com/intel-staging/text-generation-webui) | 17 | 2026-05-24T20:33:06Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |

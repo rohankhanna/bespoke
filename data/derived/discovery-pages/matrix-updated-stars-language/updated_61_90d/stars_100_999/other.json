@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 965,
-    "concepts": 650,
-    "observations": 653,
-    "repos": 165,
-    "terms": 645
+    "concepts": 657,
+    "observations": 660,
+    "repos": 166,
+    "terms": 650
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -25,6 +25,7 @@
     "andyferris/Dictionaries.jl",
     "ankane/mailkick",
     "ankane/vega-ruby",
+    "ApolloScapeAuto/dataset-api",
     "aserafin/grape_logging",
     "AudioKit/Cookbook",
     "aws-ia/terraform-aws-eks-blueprints-addons",

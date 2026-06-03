@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4677,
-    "concepts": 2161,
-    "observations": 2174,
-    "repos": 244,
-    "terms": 2160
+    "components": 4650,
+    "concepts": 2135,
+    "observations": 2148,
+    "repos": 241,
+    "terms": 2134
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "4catalyzer/javascript",
@@ -23,7 +23,6 @@
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
-    "all-contributors/app",
     "alloy-rs/evm",
     "anthropics/claude-cookbooks",
     "antvis/GPT-Vis",
@@ -83,12 +82,10 @@
     "endojs/endo",
     "f/prompts.chat",
     "FAIR-IMPACT/MOD",
-    "Farama-Foundation/Minigrid",
     "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
-    "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "gastownhall/beads",
     "gastownhall/gastown",

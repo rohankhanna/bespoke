@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 9,
-    "terms": 73
+    "components": 235,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 8,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
-    "chaijs/chai",
     "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
     "ipfs/ipfs-companion",

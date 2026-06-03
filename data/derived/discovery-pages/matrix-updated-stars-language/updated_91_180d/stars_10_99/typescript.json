@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 772,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 41,
-    "terms": 105
+    "components": 702,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 40,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -28,7 +28,6 @@
     "chaijs/assertion-error",
     "ClickHouse/opentelemetry-demo",
     "connectrpc/connect-playwright-es",
-    "CyanSalt/commas",
     "dao-xyz/borsh-ts",
     "getyourguide/vue-class-migrator",
     "googleapis/nodejs-error-reporting",

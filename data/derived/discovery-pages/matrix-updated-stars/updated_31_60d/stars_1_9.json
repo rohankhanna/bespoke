@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4367,
-    "concepts": 2143,
-    "observations": 2147,
-    "repos": 549,
-    "terms": 2168
+    "components": 4371,
+    "concepts": 2148,
+    "observations": 2152,
+    "repos": 550,
+    "terms": 2173
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0ghny/shellx",
@@ -136,6 +136,7 @@
     "chronosphereio/calyptia-cli",
     "Circuitscape/www.circuitscape.org",
     "cjtruheart/abundance-codex",
+    "clearml/dropbear",
     "cloudfoundry/cc-uploader",
     "cloudfoundry/cf-smoke-tests-release",
     "cloudfoundry/runtime-ci",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 279
-- terms: 2350
-- components: 11757
-- concepts: 2247
-- observations: 2252
+- repos: 281
+- terms: 2363
+- components: 11848
+- concepts: 2260
+- observations: 2265
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 8143 | 2026-05-04T07:06:28Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
+| [kelektiv/node-cron](https://github.com/kelektiv/node-cron) | 8923 | 2026-05-04T06:27:57Z | TypeScript | Infrastructure/tooling | 6 | 44 | 6 | 6 |
 | [react-cosmos/react-cosmos](https://github.com/react-cosmos/react-cosmos) | 8673 | 2026-05-03T20:58:59Z | TypeScript | Infrastructure/tooling | 9 | 52 | 9 | 9 |
 | [solidjs-community/solid-primitives](https://github.com/solidjs-community/solid-primitives) | 1516 | 2026-05-03T18:39:26Z | TypeScript | Infrastructure/tooling | 5 | 37 | 5 | 5 |
 | [unjs/unhead](https://github.com/unjs/unhead) | 1261 | 2026-05-03T10:53:27Z | TypeScript | Infrastructure/tooling | 3 | 27 | 3 | 3 |
@@ -318,6 +320,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bluesky-social/atproto](https://github.com/bluesky-social/atproto) | 9332 | 2026-04-23T19:27:50Z | TypeScript | Infrastructure/tooling | 8 | 30 | 8 | 8 |
 | [berty/berty](https://github.com/berty/berty) | 9162 | 2026-04-17T14:28:24Z | TypeScript | Infrastructure/tooling | 22 | 17 | 22 | 23 |
 | [OutlineFoundation/outline-apps](https://github.com/OutlineFoundation/outline-apps) | 9143 | 2026-05-01T22:29:22Z | TypeScript | CLI | 14 | 37 | 14 | 14 |
+| [kelektiv/node-cron](https://github.com/kelektiv/node-cron) | 8923 | 2026-05-04T06:27:57Z | TypeScript | Infrastructure/tooling | 6 | 44 | 6 | 6 |
 | [gorhom/react-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet) | 8891 | 2026-04-21T16:55:33Z | TypeScript | Infrastructure/tooling | 10 | 26 | 10 | 10 |
 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | 8825 | 2026-04-14T19:03:50Z | TypeScript | CLI | 2 | 7 | 2 | 2 |
 | [react-cosmos/react-cosmos](https://github.com/react-cosmos/react-cosmos) | 8673 | 2026-05-03T20:58:59Z | TypeScript | Infrastructure/tooling | 9 | 52 | 9 | 9 |
@@ -326,6 +329,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [graphql-hive/graphql-yoga](https://github.com/graphql-hive/graphql-yoga) | 8519 | 2026-04-28T16:16:10Z | TypeScript | Infrastructure/tooling | 14 | 58 | 14 | 14 |
 | [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 8409 | 2026-04-22T20:30:45Z | TypeScript | Infrastructure/tooling | 13 | 39 | 13 | 13 |
 | [withastro/starlight](https://github.com/withastro/starlight) | 8328 | 2026-04-18T01:41:20Z | TypeScript | Infrastructure/tooling | 12 | 26 | 12 | 12 |
+| [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 8143 | 2026-05-04T07:06:28Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
 | [yarnpkg/berry](https://github.com/yarnpkg/berry) | 8061 | 2026-04-23T09:32:36Z | TypeScript | Infrastructure/tooling | 11 | 26 | 11 | 11 |
 | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | 7889 | 2026-04-17T13:53:59Z | TypeScript | CLI | 8 | 29 | 0 | 0 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |

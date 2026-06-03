@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-03T06:15:31.003729+00:00`
+Generated at: `2026-06-03T08:18:48.638557+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 510
+- repos: 509
 - terms: 3671
-- components: 4164
+- components: 4159
 - concepts: 3688
 - observations: 3712
 
@@ -535,7 +535,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db) | 1325 | 2026-04-05T02:43:19Z | Other | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [ankane/groupdate](https://github.com/ankane/groupdate) | 3886 | 2026-04-04T20:58:24Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [swiftbar/SwiftBar](https://github.com/swiftbar/SwiftBar) | 4002 | 2026-04-04T20:28:24Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [ndmitchell/ghcid](https://github.com/ndmitchell/ghcid) | 1188 | 2026-04-04T06:19:23Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -1004,7 +1003,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [weavejester/cljfmt](https://github.com/weavejester/cljfmt) | 1210 | 2026-04-13T15:01:02Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [elixir-ecto/postgrex](https://github.com/elixir-ecto/postgrex) | 1208 | 2026-04-11T07:21:37Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [moby/vpnkit](https://github.com/moby/vpnkit) | 1191 | 2026-04-09T10:13:21Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [ndmitchell/ghcid](https://github.com/ndmitchell/ghcid) | 1188 | 2026-04-04T06:19:23Z | Other | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [googleapis/google-cloud-php](https://github.com/googleapis/google-cloud-php) | 1175 | 2026-04-29T20:45:18Z | Other | CLI | 5 | 9 | 5 | 9 |
 | [AdguardTeam/AdGuardMiniForMac](https://github.com/AdguardTeam/AdGuardMiniForMac) | 1172 | 2026-04-30T13:01:38Z | Other | Unknown | 6 | 51 | 6 | 6 |
 | [crosire/reshade-shaders](https://github.com/crosire/reshade-shaders) | 1162 | 2026-04-24T21:54:52Z | Other | Unknown | 0 | 0 | 0 | 0 |

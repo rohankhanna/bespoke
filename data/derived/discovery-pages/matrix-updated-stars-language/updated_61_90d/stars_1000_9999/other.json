@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 502,
+    "components": 507,
     "concepts": 615,
     "observations": 618,
-    "repos": 103,
+    "repos": 104,
     "terms": 615
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T06:15:31.003729+00:00",
+  "generated_at": "2026-06-03T08:18:48.638557+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -82,6 +82,7 @@
     "mhinz/vim-signify",
     "michalmuskala/jason",
     "nanxiaobei/hugo-paper",
+    "ndmitchell/ghcid",
     "ndmitchell/hlint",
     "nesquena/rabl",
     "ninenines/cowboy",
