@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 57,
-    "terms": 184
+    "components": 229,
+    "concepts": 181,
+    "observations": 181,
+    "repos": 55,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
-    "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "analyticsinmotion/werpy",
@@ -39,11 +38,10 @@
     "explosion/weasel",
     "FindDefinition/cumm",
     "foldl/AlphaGeometryRE",
-    "gazebosim/gz-mujoco",
     "googlefonts/nam-files",
-    "GuiWonder/HuayingMincho",
-    "Han-Cao/collapse-bubble",
+    "idodov/RedAlert",
     "inducer/codepy",
+    "intel/vc-intrinsics",
     "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",

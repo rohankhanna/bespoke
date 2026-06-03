@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 153,
-    "observations": 156,
-    "repos": 58,
-    "terms": 151
+    "components": 207,
+    "concepts": 150,
+    "observations": 152,
+    "repos": 57,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -26,7 +26,6 @@
     "bincode-org/virtue",
     "chrisguida/smaug",
     "ClickHouse/ch2rs",
-    "cosmos/ibc-proto-rs",
     "CosmWasm/cw-minus",
     "CosmWasm/cw-storage-plus",
     "cpmech/plotpy",
@@ -34,9 +33,9 @@
     "Cykooz/libheif-sys",
     "databendlabs/opensrv",
     "datafusion-contrib/hdfs-native-object-store",
+    "dgn/oidc-filter",
     "dsxmachina/rfm",
     "Dzordzu/rust-apache-age",
-    "EricLBuehler/candle",
     "ethereum/eipw",
     "extism/rust-pdk",
     "fengkx/jieba-wasm",

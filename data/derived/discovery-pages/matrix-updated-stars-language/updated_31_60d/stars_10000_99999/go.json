@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1488,
-    "concepts": 1494,
-    "observations": 1498,
-    "repos": 125,
-    "terms": 1481
+    "components": 1677,
+    "concepts": 1594,
+    "observations": 1598,
+    "repos": 132,
+    "terms": 1581
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -32,6 +32,7 @@
     "bufbuild/buf",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
+    "cert-manager/cert-manager",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
     "charmbracelet/glow",
@@ -64,6 +65,7 @@
     "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",
+    "go-gitea/gitea",
     "go-playground/validator",
     "go-sql-driver/mysql",
     "gofiber/fiber",
@@ -109,6 +111,7 @@
     "nats-io/nats-server",
     "navidrome/navidrome",
     "nektos/act",
+    "oauth2-proxy/oauth2-proxy",
     "open-policy-agent/opa",
     "opencontainers/runc",
     "opentofu/opentofu",
@@ -123,8 +126,11 @@
     "quic-go/quic-go",
     "rclone/rclone",
     "router-for-me/cliproxyapi",
+    "rqlite/rqlite",
     "rs/zerolog",
+    "SagerNet/sing-box",
     "schollz/croc",
+    "seaweedfs/seaweedfs",
     "shadow1ng/fscan",
     "shirou/gopsutil",
     "slackhq/nebula",
@@ -138,6 +144,7 @@
     "v2fly/v2ray-core",
     "valyala/fasthttp",
     "VictoriaMetrics/VictoriaMetrics",
-    "wader/fq"
+    "wader/fq",
+    "XTLS/Xray-core"
   ]
 }

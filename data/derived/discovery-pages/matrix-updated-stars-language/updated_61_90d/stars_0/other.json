@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 17,
-    "terms": 23
+    "components": 36,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 18,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "atsushieno/homebrew-oss",
     "b2agi/exist-is-charter_kr",
@@ -30,6 +30,7 @@
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",
     "saharmor/saharmor.github.io",
-    "stable-haskell/stack"
+    "stable-haskell/stack",
+    "stefanlogue/scoops"
   ]
 }

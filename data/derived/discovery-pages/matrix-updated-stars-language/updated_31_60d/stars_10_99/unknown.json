@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 174,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 59,
-    "terms": 166
+    "concepts": 177,
+    "observations": 178,
+    "repos": 60,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "alphagov/govuk-rfcs",
-    "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
     "canonical/ubuntu-security-notices",
+    "cbuijs/hagezi",
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
@@ -58,6 +58,7 @@
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
+    "sakib-m/Pi-hole-Torrent-Blocklist",
     "SeleniumHQ/selenium_manager_artifacts",
     "sigstore/community",
     "sigstore/root-signing-staging",

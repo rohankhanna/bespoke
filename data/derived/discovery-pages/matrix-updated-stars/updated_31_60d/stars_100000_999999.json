@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1293,
-    "concepts": 333,
-    "observations": 335,
-    "repos": 38,
-    "terms": 367
+    "components": 1351,
+    "concepts": 351,
+    "observations": 353,
+    "repos": 40,
+    "terms": 385
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "affaan-m/everything-claude-code",
@@ -21,6 +21,7 @@
     "anthropics/claude-code",
     "anthropics/skills",
     "avelino/awesome-go",
+    "axios/axios",
     "denoland/deno",
     "excalidraw/excalidraw",
     "facebook/react",
@@ -43,6 +44,7 @@
     "obra/superpowers",
     "open-webui/open-webui",
     "openclaw/openclaw",
+    "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",
     "sindresorhus/awesome",
     "tauri-apps/tauri",

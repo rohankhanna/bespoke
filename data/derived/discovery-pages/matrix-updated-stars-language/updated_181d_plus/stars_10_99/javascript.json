@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2977,
-    "concepts": 662,
-    "observations": 662,
-    "repos": 280,
-    "terms": 653
+    "components": 2993,
+    "concepts": 663,
+    "observations": 663,
+    "repos": 281,
+    "terms": 654
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -84,6 +84,7 @@
     "chm-diederichs/minisign",
     "cjlarose/argon2-ffi",
     "codechecks/docs",
+    "coderaiser/estrace",
     "Comfy-Org/ComfyUI_legacy_frontend",
     "concept-not-found/patcom",
     "continuouscalendar/dateutils",

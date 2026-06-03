@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 878,
-    "concepts": 458,
-    "observations": 459,
-    "repos": 70,
-    "terms": 457
+    "components": 773,
+    "concepts": 412,
+    "observations": 413,
+    "repos": 62,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -29,9 +29,7 @@
     "bazel-contrib/rules_kotlin",
     "beve-org/beve",
     "celtera/libremidi",
-    "ChristopherHX/runner.server",
     "clearml/clearml-agent",
-    "clj-commons/rewrite-clj",
     "cloudfoundry/credhub",
     "Comfy-Org/comfy-cli",
     "confluentinc/librdkafka",
@@ -57,7 +55,6 @@
     "lbcb-sci/herro",
     "ldproxy/ldproxy",
     "machinewrapped/llm-subtrans",
-    "mafintosh/streamx",
     "meshcat-dev/meshcat",
     "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",
@@ -65,23 +62,18 @@
     "OpenHands/ToM-SWE",
     "preactjs/preact-devtools",
     "readthedocs/commonmark.py",
-    "redis/redis-om-dotnet",
     "redis/redis-om-spring",
     "ROCm/hipBLAS",
     "ROCm/hipBLASLt",
-    "safe-fndn/safe-singleton-factory",
     "scverse/rapids-singlecell",
     "servo/stylo",
-    "ShadowLoveElysia/AiNiee-Next",
     "skilld-dev/skilld",
     "SpecterOps/AzureHound",
     "spring-projects/spring-tools",
     "stx-labs/stacks.js",
-    "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",
     "unplugin/unplugin-imagemin",
-    "wevm/abitype",
     "yaling888/quirktiva"
   ]
 }

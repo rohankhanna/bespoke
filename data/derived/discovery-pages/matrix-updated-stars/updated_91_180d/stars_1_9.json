@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 935,
-    "concepts": 515,
-    "observations": 516,
-    "repos": 235,
-    "terms": 521
+    "components": 956,
+    "concepts": 524,
+    "observations": 525,
+    "repos": 238,
+    "terms": 530
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
     "0x2a-42/nvim-lelwel",
     "0xPolygonHermez/pil2-compiler",
     "3swordman/tree-sitter-toon",
+    "a16z/arkworks-algebra",
     "aaron-he-zhu/cite-domain-rating",
     "abap2UI5-addons/table-maintenance",
     "AchimPieters/esp32-udp-logger",
@@ -64,6 +65,7 @@
     "bizflycloud/karpenter-provider-bizflycloud",
     "blooper05/action-rails_best_practices",
     "Blosc/PyData-Global-2025-Tutorial",
+    "browserslist/browserslist-plausible",
     "buttercannfly/AIPex",
     "ca-ruz/bumpit",
     "celtera/avendish-audio-processor-template",
@@ -190,6 +192,7 @@
     "parruda/ruby_llm",
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
+    "psmux/scoop-tmuxpanel",
     "pydantic/pydantic-docs",
     "qinwang-ai/PolypsAlign",
     "Qiuner/isometric-contributions-plus",

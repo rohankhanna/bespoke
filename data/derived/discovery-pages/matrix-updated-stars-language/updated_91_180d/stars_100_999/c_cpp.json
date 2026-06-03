@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 303,
-    "observations": 305,
-    "repos": 82,
-    "terms": 298
+    "components": 257,
+    "concepts": 316,
+    "observations": 318,
+    "repos": 85,
+    "terms": 311
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",
+    "ARM-software/EndpointAI",
     "arminbiere/aiger",
     "ashawkey/cubvh",
     "AtomCrafty/UniversalInjectorFramework",
@@ -33,6 +34,7 @@
     "conor42/fast-lzma2",
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
+    "dacap/clip",
     "deeptools/pyBigWig",
     "derickr/timelib",
     "devkitPro/libctru",
@@ -58,6 +60,7 @@
     "KhronosGroup/OpenCL-SDK",
     "koide3/small_gicp",
     "Kong/ngx_wasm_module",
+    "lexxmark/winflexbison",
     "lh3/gfatools",
     "lh3/yak",
     "lovemefan/SenseVoice.cpp",

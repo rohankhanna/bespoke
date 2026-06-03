@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2529,
-    "concepts": 2424,
-    "observations": 2435,
-    "repos": 452,
-    "terms": 2427
+    "components": 2551,
+    "concepts": 2417,
+    "observations": 2426,
+    "repos": 453,
+    "terms": 2420
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -53,6 +53,7 @@
     "allenai/IFBench",
     "allenai/ir_datasets",
     "allenai/vla-evaluation-harness",
+    "alltheplaces/alltheplaces",
     "amazon-science/esci-data",
     "amitfin/oref_alert",
     "angr/claripy",
@@ -87,7 +88,6 @@
     "bazelbuild/continuous-integration",
     "BBC-Esq/Faster-Whisper-Transcriber",
     "beamuswayne/simp-skill",
-    "biocypher/biocypher",
     "BlackHC/BatchBALD",
     "blepping/ComfyUI-bleh",
     "BlinkDL/Albatross",
@@ -247,6 +247,7 @@
     "ISEEKYAN/mbridge",
     "iterative/shtab",
     "Jasonzzt/ComfyUI-CacheDiT",
+    "jawah/charset_normalizer",
     "jezweb/claude-skills",
     "jimporter/mike",
     "jolibrain/joliGEN",
@@ -289,7 +290,6 @@
     "marcelm/cutadapt",
     "marin-community/marin",
     "meta-llama/prompt-ops",
-    "meta-pytorch/torchft",
     "Mic92/direnv-instant",
     "microsoft/Agents-for-python",
     "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
@@ -333,6 +333,7 @@
     "oh-my-ocr/text_renderer",
     "onnx/turnkeyml",
     "opea-project/GenAIComps",
+    "open-telemetry/opentelemetry-cpp-contrib",
     "open-thoughts/OpenThoughts-Agent",
     "OpenBMB/BMTrain",
     "OpenBMB/UltraEval-Audio",
@@ -349,7 +350,6 @@
     "PetervanLunteren/AddaxAI",
     "pettingllms-ai/PettingLLMs",
     "PFCCLab/PPOCRLabel",
-    "pfultz2/cget",
     "PhoenixZ810/RISEBench",
     "pimutils/todoman",
     "pipecat-ai/pipecat-examples",
@@ -445,6 +445,7 @@
     "ultralytics/thop",
     "Unbabel/COMET",
     "unitreerobotics/unitree_sdk2_python",
+    "universal-ctags/ctags-win32",
     "unixorn/lima-xbar-plugin",
     "urschrei/simplification",
     "utiasASRL/pyboreas",

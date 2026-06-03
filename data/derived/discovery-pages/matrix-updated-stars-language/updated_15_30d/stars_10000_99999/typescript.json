@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1129,
-    "concepts": 200,
-    "observations": 201,
-    "repos": 17,
-    "terms": 199
+    "components": 557,
+    "concepts": 142,
+    "observations": 142,
+    "repos": 13,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
-    "danny-avila/LibreChat",
     "fuma-nama/fumadocs",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "lucide-icons/lucide",
-    "maplibre/maplibre-gl-js",
     "mobxjs/mobx",
     "modelcontextprotocol/typescript-sdk",
-    "nrwl/nx",
     "puppeteer/puppeteer",
-    "react-hook-form/react-hook-form",
     "RooCodeInc/Roo-Code",
     "vitejs/vite",
     "vuejs/core"

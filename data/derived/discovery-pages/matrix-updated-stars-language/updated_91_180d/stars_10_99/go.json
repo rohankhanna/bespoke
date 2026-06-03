@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 33,
-    "terms": 105
+    "components": 132,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 35,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
+    "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
@@ -29,6 +30,7 @@
     "concourse/pool-resource",
     "doraemonkeys/paddleocr",
     "ebml-go/webm",
+    "estesp/mquery",
     "evmos/os",
     "extism/go-pdk",
     "filecoin-project/go-data-transfer",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 371,
-    "concepts": 427,
-    "observations": 428,
-    "repos": 47,
-    "terms": 420
+    "components": 216,
+    "concepts": 310,
+    "observations": 310,
+    "repos": 35,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,38 +12,29 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "AdguardTeam/AdGuardSDNSFilter",
     "agenda/agenda",
-    "androidx/androidx",
+    "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
     "badmojr/1Hosts",
     "benchflow-ai/skillsbench",
-    "coverlet-coverage/coverlet",
     "cvc5/cvc5",
     "DandelionSprout/adfilt",
-    "deanmalmgren/textract",
     "devlooped/moq",
     "easylist/easylist",
     "foundry-rs/forge-std",
     "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
-    "helix-toolkit/helix-toolkit",
     "intel/BigDL",
-    "jrsoftware/issrc",
-    "JuliaAI/MLJ.jl",
     "JuliaGPU/CUDA.jl",
     "jump-dev/JuMP.jl",
-    "lambdalisue/vim-fern",
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
-    "MetaCubeX/metacubexd",
     "minad/consult",
     "mrcjkb/rustaceanvim",
     "nushell/awesome-nu",
-    "nvim-flutter/flutter-tools.nvim",
     "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
@@ -51,15 +42,12 @@
     "preservim/tagbar",
     "ROCm/MIOpen",
     "rocq-prover/rocq",
-    "ScoopInstaller/Extras",
     "stakira/OpenUtau",
     "standardrb/standard",
-    "TechnitiumSoftware/DnsServer",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",
     "uBlockOrigin/uAssets",
     "xoofx/markdig",
-    "xororz/local-dream",
-    "xtdb/xtdb"
+    "xororz/local-dream"
   ]
 }

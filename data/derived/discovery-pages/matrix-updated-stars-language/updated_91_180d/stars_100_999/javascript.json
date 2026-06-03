@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 870,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 49,
-    "terms": 139
+    "components": 861,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 48,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -23,7 +23,6 @@
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
     "codota/tabnine-nvim",
-    "dcoapp/app",
     "dominikg/tsconfck",
     "dzeiocom/lucide-astro",
     "emberjs/ember-cli-babel",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 270,
-    "observations": 270,
-    "repos": 29,
-    "terms": 269
+    "components": 312,
+    "concepts": 234,
+    "observations": 234,
+    "repos": 25,
+    "terms": 233
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "Andersbakken/rtags",
     "brave/brave-core",
-    "dmlc/dlpack",
     "doctest/doctest",
     "floooh/sokol",
     "fnc12/sqlite_orm",
@@ -24,7 +23,6 @@
     "google/oboe",
     "gpac/gpac",
     "iree-org/iree",
-    "libcpr/cpr",
     "marzer/tomlplusplus",
     "Mithril-mine/libmdbx",
     "mstorsjo/llvm-mingw",
@@ -33,13 +31,11 @@
     "OSGeo/gdal",
     "PortAudio/portaudio",
     "pure-data/pure-data",
-    "realsenseai/librealsense",
     "skeeto/w64devkit",
     "sorbet/sorbet",
     "stack-of-tasks/pinocchio",
     "swiftlang/swift-corelibs-foundation",
     "ufbx/ufbx",
-    "universal-ctags/ctags",
     "uxlfoundation/oneDNN",
     "uxlfoundation/oneTBB",
     "WarmUpTill/SceneSwitcher"

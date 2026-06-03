@@ -1,20 +1,18 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 3,
-    "terms": 37
+    "components": 6,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 1,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "axios/axios",
-    "huggingface/transformers",
-    "rust-lang/rust"
+    "huggingface/transformers"
   ]
 }

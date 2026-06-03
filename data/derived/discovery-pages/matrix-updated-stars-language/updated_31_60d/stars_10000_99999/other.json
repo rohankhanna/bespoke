@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2071,
-    "concepts": 1491,
-    "observations": 1498,
-    "repos": 158,
-    "terms": 1484
+    "components": 2089,
+    "concepts": 1525,
+    "observations": 1530,
+    "repos": 159,
+    "terms": 1520
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -83,6 +83,7 @@
     "gradle/gradle",
     "guidance-ai/guidance",
     "hadolint/hadolint",
+    "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
     "heartcombo/devise",
     "Homebrew/brew",
@@ -103,9 +104,9 @@
     "junegunn/fzf.vim",
     "jupyter/notebook",
     "keeweb/keeweb",
-    "koalaman/shellcheck",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
+    "kubernetes-sigs/kubespray",
     "kubernetes/community",
     "llvm/llvm-project",
     "logseq/logseq",
@@ -131,12 +132,12 @@
     "nim-lang/Nim",
     "NixOS/nixpkgs",
     "nvim-telescope/telescope.nvim",
-    "nvim-treesitter/nvim-treesitter",
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
     "oven-sh/bun",
     "phoenixframework/phoenix",
+    "phpstan/phpstan",
     "PowerShell/PowerShell",
     "rails/rails",
     "rapid7/metasploit-framework",

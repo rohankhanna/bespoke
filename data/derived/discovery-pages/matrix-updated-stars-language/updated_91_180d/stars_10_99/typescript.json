@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 737,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 40,
-    "terms": 102
+    "components": 772,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 41,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -31,6 +31,7 @@
     "CyanSalt/commas",
     "dao-xyz/borsh-ts",
     "getyourguide/vue-class-migrator",
+    "googleapis/nodejs-error-reporting",
     "googleapis/nodejs-logging-bunyan",
     "hbenl/vscode-mocha-test-adapter",
     "holochain/hc-spin",

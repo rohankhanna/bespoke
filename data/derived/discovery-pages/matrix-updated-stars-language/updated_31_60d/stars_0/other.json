@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 39,
-    "terms": 58
+    "components": 71,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 38,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
@@ -50,7 +50,6 @@
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",
     "stable-haskell/haskell-language-server",
-    "stefanlogue/scoops",
     "Strivin0311/strivin0311.github.io",
     "wblondel/blog"
   ]

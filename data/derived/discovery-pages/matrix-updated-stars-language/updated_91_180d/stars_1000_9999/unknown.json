@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 85,
     "observations": 85,
-    "repos": 23,
+    "repos": 24,
     "terms": 84
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "akuity/awesome-argo",
@@ -36,6 +36,7 @@
     "syntax-tree/mdast",
     "tc39/proposal-signals",
     "TheRobotStudio/SO-ARM100",
+    "tmux-plugins/list",
     "uBlockOrigin/uBlock-issues"
   ]
 }

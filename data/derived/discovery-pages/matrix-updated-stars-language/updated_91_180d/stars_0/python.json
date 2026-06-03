@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 15,
-    "observations": 15,
+    "components": 12,
+    "concepts": 19,
+    "observations": 19,
     "repos": 13,
-    "terms": 15
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
+    "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
-    "danielrosehill/All-About-MCP",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/N8N-Workflows-Index",

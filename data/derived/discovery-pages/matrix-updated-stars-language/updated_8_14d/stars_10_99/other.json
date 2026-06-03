@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 25
+    "components": 87,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 5,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "dwyl/mvp",
     "f3liz-casa/noraneko",
-    "nvim-mini/mini.deps",
+    "jelly-beam/rebar3_ex_doc",
+    "ocaml-tracing/ocaml-opentelemetry",
     "python-poetry/website"
   ]
 }

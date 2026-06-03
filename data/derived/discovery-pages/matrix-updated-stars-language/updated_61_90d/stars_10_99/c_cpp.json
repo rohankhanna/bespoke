@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 37,
-    "terms": 135
+    "components": 133,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 34,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
     "AIWintermuteAI/whispercpp",
-    "aseprite/clip",
     "aseprite/observable",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
@@ -27,7 +26,6 @@
     "dacap/observable",
     "DeanoC/tiny_imageformat",
     "embeddedartistry/printf",
-    "engineai-robotics/engineai_ros2_workspace",
     "farm-ng/farm-ng-core",
     "flashlight/text",
     "fonttools/unicodedata2",
@@ -39,7 +37,6 @@
     "ilyabrilev/biosim4",
     "intel/intel-extension-for-openxla",
     "intel/metrics-discovery",
-    "jupyter-xeus/xeus-zmq",
     "jupyter-xeus/xleaflet",
     "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",

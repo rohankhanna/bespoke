@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 498,
-    "concepts": 620,
-    "observations": 623,
-    "repos": 102,
-    "terms": 620
+    "components": 502,
+    "concepts": 615,
+    "observations": 618,
+    "repos": 103,
+    "terms": 615
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
-    "activerecord-hackery/ransack",
     "alexreisner/geocoder",
     "ankane/ahoy_email",
     "ankane/chartkick",
     "ardalis/ApiEndpoints",
+    "arviz-devs/arviz",
     "athityakumar/colorls",
     "autofac/Autofac",
     "awaescher/OllamaSharp",
@@ -71,6 +71,7 @@
     "j-hui/fidget.nvim",
     "jgm/djot",
     "jpanther/congo",
+    "JuliaPlots/Plots.jl",
     "kepano/obsidian-minimal",
     "lindawangg/COVID-Net",
     "lite-xl/lite-xl",
@@ -108,7 +109,7 @@
     "steipete/peekaboo",
     "stevearc/overseer.nvim",
     "tensorflow/tpu",
-    "timdorr/tesla-api",
+    "usbarmory/usbarmory",
     "varvet/pundit",
     "vcr/vcr",
     "WebReflection/linkedom",

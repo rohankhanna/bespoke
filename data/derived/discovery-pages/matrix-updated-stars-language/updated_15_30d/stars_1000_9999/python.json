@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 261,
-    "observations": 264,
-    "repos": 31,
-    "terms": 256
+    "components": 175,
+    "concepts": 227,
+    "observations": 230,
+    "repos": 28,
+    "terms": 222
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "AI-Hypercomputer/maxtext",
     "apify/agent-skills",
     "arcee-ai/mergekit",
     "awslabs/aidlc-workflows",
     "copier-org/copier",
     "dmMaze/BallonsTranslator",
+    "FunAudioLLM/Fun-ASR",
+    "FunAudioLLM/SenseVoice",
     "funstory-ai/BabelDOC",
-    "geopandas/geopandas",
     "ggozad/oterm",
     "google-deepmind/sonnet",
     "google/budoux",
@@ -29,8 +29,6 @@
     "lucidrains/vector-quantize-pytorch",
     "magenta/ddsp",
     "mangiucugna/json_repair",
-    "mesonbuild/meson",
-    "meta-pytorch/data",
     "mikel-brostrom/boxmot",
     "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",
@@ -39,11 +37,10 @@
     "PyAV-Org/PyAV",
     "python-versioneer/python-versioneer",
     "souzatharsis/podcastfy",
-    "starVLA/starVLA",
+    "strob/gentle",
     "voicepaw/so-vits-svc-fork",
     "vyperlang/vyper",
     "Xilinx/brevitas",
-    "zai-org/GLM-V",
-    "zarr-developers/zarr-python"
+    "zai-org/GLM-V"
   ]
 }

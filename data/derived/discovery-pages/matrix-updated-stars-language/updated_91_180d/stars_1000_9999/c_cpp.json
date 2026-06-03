@@ -3,7 +3,7 @@
     "components": 294,
     "concepts": 375,
     "observations": 376,
-    "repos": 70,
+    "repos": 71,
     "terms": 368
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -48,6 +48,7 @@
     "guinmoon/LLMFarm",
     "gulrak/filesystem",
     "hpjansson/chafa",
+    "icecc/icecream",
     "jedisct1/minisign",
     "jkuhlmann/cgltf",
     "jlblancoc/nanoflann",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 70,
-    "observations": 71,
-    "repos": 7,
-    "terms": 70
+    "components": 110,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 10,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "andymass/vim-matchup",
     "babashka/sci",
+    "beam-community/elixir-companies",
     "dotnet/Silk.NET",
     "licensee/licensed",
+    "microsoft/PhiCookBook",
+    "mono/SkiaSharp",
+    "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
     "radian-software/straight.el",
     "tModLoader/tModLoader"

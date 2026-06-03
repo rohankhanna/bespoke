@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 371,
-    "concepts": 581,
-    "observations": 583,
-    "repos": 127,
-    "terms": 581
+    "components": 386,
+    "concepts": 619,
+    "observations": 623,
+    "repos": 130,
+    "terms": 619
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -31,6 +31,7 @@
     "amaranth-lang/amaranth-boards",
     "angr/angrop",
     "astra-vision/MonoScene",
+    "biocypher/biocypher",
     "Blosc/python-blosc",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
@@ -80,6 +81,7 @@
     "MAGREF-Video/MAGREF",
     "matthew-brett/delocate",
     "melMass/comfy_mtb",
+    "meta-pytorch/torchft",
     "mgaitan/sphinxcontrib-mermaid",
     "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ArchScale",
@@ -105,6 +107,7 @@
     "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "pappasam/jedi-language-server",
+    "pfultz2/cget",
     "pnkraemer/matfree",
     "psf/pyperf",
     "PyCQA/modernize",

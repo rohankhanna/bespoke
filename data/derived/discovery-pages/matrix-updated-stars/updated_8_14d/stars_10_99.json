@@ -1,27 +1,28 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 12,
-    "terms": 49
+    "components": 164,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 13,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "cloudfoundry/credhub-cli",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
-    "google-marketing-solutions/ariel",
     "intel-staging/text-generation-webui",
+    "jelly-beam/rebar3_ex_doc",
     "lifegpc/msg-tool",
     "mesh-iit/cad-libraries",
-    "nvim-mini/mini.deps",
+    "mono/skia",
+    "ocaml-tracing/ocaml-opentelemetry",
     "python-poetry/website",
     "skilld-dev/retriv",
     "windsonR/vite-plugin-virtual-html"

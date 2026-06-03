@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 479,
-    "concepts": 571,
-    "observations": 574,
-    "repos": 113,
-    "terms": 574
+    "components": 490,
+    "concepts": 583,
+    "observations": 586,
+    "repos": 114,
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "3rd/image.nvim",
+    "activerecord-hackery/ransack",
     "Alexander-Miller/treemacs",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
@@ -116,11 +117,11 @@
     "stevearc/oil.nvim",
     "symfony/cache-contracts",
     "thu-ml/SageAttention",
+    "timdorr/tesla-api",
     "touchlab/droidconkotlin",
     "tpope/vim-dadbod",
     "tris203/precognition.nvim",
     "v2fly/v2ray-examples",
-    "VectorSpaceLab/OmniGen",
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "weichsel/ZIPFoundation",

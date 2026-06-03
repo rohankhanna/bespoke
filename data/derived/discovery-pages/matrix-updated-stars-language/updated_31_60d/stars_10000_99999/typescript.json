@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10584,
-    "concepts": 1561,
-    "observations": 1571,
-    "repos": 153,
-    "terms": 1572
+    "components": 11156,
+    "concepts": 1619,
+    "observations": 1630,
+    "repos": 157,
+    "terms": 1630
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -51,6 +51,7 @@
     "colinhacks/zod",
     "continuedev/continue",
     "conventional-changelog/commitlint",
+    "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
     "diegomura/react-pdf",
     "discordjs/discord.js",
@@ -94,6 +95,7 @@
     "lit/lit",
     "louislam/dockge",
     "mapbox/mapbox-gl-js",
+    "maplibre/maplibre-gl-js",
     "marmelab/react-admin",
     "medusajs/medusa",
     "mermaid-js/mermaid",
@@ -106,6 +108,7 @@
     "multica-ai/multica",
     "neoclide/coc.nvim",
     "nitrojs/nitro",
+    "nrwl/nx",
     "nuxt/nuxt",
     "nvidia/nemoclaw",
     "oblador/react-native-vector-icons",
@@ -121,6 +124,7 @@
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "QwikDev/qwik",
+    "react-hook-form/react-hook-form",
     "react-navigation/react-navigation",
     "recharts/recharts",
     "redis/node-redis",

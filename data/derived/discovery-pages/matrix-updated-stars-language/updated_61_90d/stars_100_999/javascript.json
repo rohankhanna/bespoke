@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 642,
-    "concepts": 190,
-    "observations": 190,
-    "repos": 49,
-    "terms": 189
+    "components": 650,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 50,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -20,6 +20,7 @@
     "ankane/ahoy.js",
     "AssemblyScript/wabt.js",
     "avwo/whistle-client",
+    "badgen/badgen",
     "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
     "cmake-js/cmake-js",

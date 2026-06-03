@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 259,
-    "observations": 259,
-    "repos": 54,
-    "terms": 251
+    "components": 278,
+    "concepts": 288,
+    "observations": 288,
+    "repos": 57,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "atotto/clipboard",
     "azure/aztfexport",
     "bazelbuild/buildtools",
+    "burke/zeus",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
     "cenkalti/backoff",
@@ -53,6 +54,8 @@
     "mattn/goreman",
     "minio/operator",
     "mozillazg/go-pinyin",
+    "nikolaydubina/go-recipes",
+    "olric-data/olric",
     "opencontainers/runtime-spec",
     "OwO-Network/DeepLX",
     "probonopd/go-appimage",

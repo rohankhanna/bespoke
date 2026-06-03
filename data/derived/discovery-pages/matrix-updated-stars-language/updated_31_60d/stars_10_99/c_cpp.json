@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 437,
-    "concepts": 491,
-    "observations": 491,
-    "repos": 90,
-    "terms": 487
+    "components": 454,
+    "concepts": 498,
+    "observations": 498,
+    "repos": 91,
+    "terms": 494
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -34,6 +34,7 @@
     "bufbuild/protovalidate-cc",
     "chusitoo/flatbush",
     "clouren/SPEX",
+    "compiler-research/CppInterOp",
     "confluentinc/libserdes",
     "cpmech/tritet",
     "DavidKinder/Windows-Inform7",

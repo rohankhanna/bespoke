@@ -1,18 +1,18 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 19,
-    "observations": 19,
+    "components": 9,
+    "concepts": 20,
+    "observations": 20,
     "repos": 1,
-    "terms": 19
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-19T11:00:38.111939+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "huggingface/transformers"
+    "microsoft/PowerToys"
   ]
 }

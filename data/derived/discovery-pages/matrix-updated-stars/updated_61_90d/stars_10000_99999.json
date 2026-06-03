@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1114,
-    "concepts": 716,
-    "observations": 716,
-    "repos": 115,
-    "terms": 723
+    "components": 1129,
+    "concepts": 746,
+    "observations": 748,
+    "repos": 118,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -55,6 +55,7 @@
     "google/leveldb",
     "google/python-fire",
     "GoogleChromeLabs/squoosh",
+    "gruns/icecream",
     "guzzle/guzzle",
     "hapijs/hapi",
     "hapijs/joi",
@@ -69,6 +70,7 @@
     "karpathy/autoresearch",
     "KittenML/KittenTTS",
     "knownsec/404StarLink",
+    "koalaman/shellcheck",
     "Kong/kong",
     "Konloch/bytecode-viewer",
     "kubernetes/ingress-nginx",
@@ -86,6 +88,7 @@
     "mobile-shell/mosh",
     "Mrs4s/go-cqhttp",
     "NVIDIA/open-gpu-kernel-modules",
+    "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "openai/gpt-oss",
     "openai/gym",
@@ -98,7 +101,6 @@
     "prompt-toolkit/python-prompt-toolkit",
     "pugjs/pug",
     "QwenLM/Qwen",
-    "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
@@ -117,6 +119,7 @@
     "Swordfish90/cool-retro-term",
     "TA-Lib/ta-lib-python",
     "testing-library/react-testing-library",
+    "thu-ml/tianshou",
     "tpope/vim-fugitive",
     "typicode/husky",
     "typicode/json-server",

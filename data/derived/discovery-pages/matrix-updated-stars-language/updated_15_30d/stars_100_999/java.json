@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 74,
-    "observations": 74,
+    "components": 37,
+    "concepts": 64,
+    "observations": 64,
     "repos": 9,
-    "terms": 74
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
+    "bazel-contrib/rules_jvm_external",
     "eclipse-lsp4j/lsp4j",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
@@ -21,7 +22,6 @@
     "mapsforge/vtm",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
-    "processing/processing4",
     "Waffle/waffle"
   ]
 }

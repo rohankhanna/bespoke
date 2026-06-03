@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 559,
-    "concepts": 768,
-    "observations": 768,
-    "repos": 188,
-    "terms": 754
+    "components": 563,
+    "concepts": 776,
+    "observations": 776,
+    "repos": 190,
+    "terms": 762
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -53,6 +53,7 @@
     "benbjohnson/ego",
     "bet365/jingo",
     "bitfield/gotestdox",
+    "bshuster-repo/logrus-logstash-hook",
     "buraksezer/consistent",
     "byrnedo/dockdash",
     "c-bata/goptuna",
@@ -145,6 +146,7 @@
     "mailhog/mhsendmail",
     "mailru/dbr",
     "makew0rld/dither",
+    "Masterminds/vcs",
     "mattn/go-colorable",
     "mattn/gof",
     "mgutz/ansi",

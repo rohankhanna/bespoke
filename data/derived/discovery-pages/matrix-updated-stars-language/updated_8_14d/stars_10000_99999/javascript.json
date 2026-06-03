@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 2,
-    "terms": 14
+    "components": 0,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "browserslist/browserslist",
-    "preactjs/preact"
+    "nwjs/nw.js"
   ]
 }

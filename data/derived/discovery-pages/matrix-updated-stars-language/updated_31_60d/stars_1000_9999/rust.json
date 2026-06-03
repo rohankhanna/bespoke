@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2352,
-    "concepts": 1712,
-    "observations": 1721,
-    "repos": 230,
-    "terms": 1721
+    "components": 2355,
+    "concepts": 1708,
+    "observations": 1716,
+    "repos": 228,
+    "terms": 1717
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -28,6 +28,7 @@
     "alloy-rs/alloy",
     "aome510/spotify-player",
     "apache/arrow-rs",
+    "apache/datafusion",
     "apache/datafusion-comet",
     "apache/iceberg-rust",
     "apache/iggy",
@@ -62,6 +63,7 @@
     "cross-rs/cross",
     "crossterm-rs/crossterm",
     "dalek-cryptography/curve25519-dalek",
+    "databendlabs/openraft",
     "dathere/qsv",
     "delta-io/delta-rs",
     "DeterminateSystems/nix-installer",
@@ -90,7 +92,6 @@
     "fussybeaver/bollard",
     "georust/geo",
     "gfx-rs/wgpu-native",
-    "ggez/ggez",
     "google/zerocopy",
     "googlefonts/Inconsolata",
     "graphql-rust/juniper",
@@ -104,8 +105,6 @@
     "hrkfdn/ncspot",
     "huggingface/text-embeddings-inference",
     "hyperium/h2",
-    "hyperium/http",
-    "hyperledger-solang/solang",
     "image-rs/image",
     "ivanceras/svgbob",
     "j178/prek",
@@ -116,7 +115,6 @@
     "jsr-io/jsr",
     "kata-containers/kata-containers",
     "Keats/jsonwebtoken",
-    "Keats/tera",
     "kika/fixedsys",
     "killercup/cargo-edit",
     "kivikakk/comrak",
@@ -131,7 +129,6 @@
     "maciejhirsz/logos",
     "MaterializeInc/materialize",
     "matter-labs/zksync",
-    "mattsse/chromiumoxide",
     "medialab/xan",
     "mfontanini/presenterm",
     "mikeyobrien/ralph-orchestrator",
@@ -190,6 +187,7 @@
     "rust-lang/cc-rs",
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
+    "rust-lang/flate2-rs",
     "rust-lang/futures-rs",
     "rust-lang/git2-rs",
     "rust-lang/libc",

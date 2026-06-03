@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 20,
-    "concepts": 33,
-    "observations": 33,
+    "concepts": 35,
+    "observations": 35,
     "repos": 22,
-    "terms": 33
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "aloncarmel/supermeskill",
+    "AppImage/AppImageSpec",
     "aquasecurity/setup-trivy",
     "BAI-LAB/Survey-on-AI-Memory",
     "bpftrace/user-tools",
@@ -26,7 +27,6 @@
     "cta-wave/WMAS",
     "dragonflyoss/community",
     "getsentry/.github",
-    "googlefonts/emoji-metadata",
     "grpc/grpc-community",
     "ithiria894/awesome-claude-code-hooks",
     "Lynxe-public/Lynxe-public-prompts",

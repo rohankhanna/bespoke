@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11629,
-    "concepts": 2220,
-    "observations": 2225,
-    "repos": 275,
-    "terms": 2323
+    "components": 11757,
+    "concepts": 2247,
+    "observations": 2252,
+    "repos": 279,
+    "terms": 2350
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -87,6 +87,7 @@
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
     "connectrpc/connect-es",
+    "cursorless-dev/cursorless",
     "dbeaver/cloudbeaver",
     "denoland/std",
     "devcontainers/cli",
@@ -227,6 +228,7 @@
     "pulumi/examples",
     "r-lib/actions",
     "r5n-labs/vscode-react-javascript-snippets",
+    "react-cosmos/react-cosmos",
     "react-hook-form/resolvers",
     "react-native-community/cli",
     "reactjs/react-docgen",
@@ -241,6 +243,7 @@
     "SilentVoid13/Templater",
     "sinclairzx81/typebox",
     "sirmalloc/ccstatusline",
+    "solidjs-community/solid-primitives",
     "solidjs/solid-router",
     "solidjs/solid-start",
     "sparkjsdev/spark",
@@ -266,11 +269,12 @@
     "tinylibs/tinybench",
     "TooTallNate/proxy-agents",
     "ts-safeql/safeql",
-    "TypeStrong/ts-loader",
+    "TypeScriptToLua/TypeScriptToLua",
     "Uniswap/v3-core",
     "unjs/changelogen",
     "unjs/ofetch",
     "unjs/ufo",
+    "unjs/unhead",
     "valtyr/prisma-kysely",
     "vega/vega-lite",
     "vitejs/devtools",

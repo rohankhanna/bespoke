@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 10,
-    "terms": 92
+    "components": 55,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 12,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "FunAudioLLM/Fun-ASR",
-    "FunAudioLLM/SenseVoice",
+    "2U1/Qwen-VL-Series-Finetune",
+    "collabora/WhisperLive",
     "GalTransl/GalTransl",
     "hgmzhn/manga-translator-ui",
+    "huggingface/finetrainers",
     "intelligent-machine-learning/dlrover",
     "modelscope/FunClip",
+    "NEKOparapa/AiNiee",
     "roboflow/maestro",
     "speaches-ai/speaches",
-    "strob/gentle",
+    "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"
   ]
 }

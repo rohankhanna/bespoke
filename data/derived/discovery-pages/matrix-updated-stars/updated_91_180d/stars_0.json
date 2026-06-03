@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 293,
-    "concepts": 132,
-    "observations": 132,
+    "components": 297,
+    "concepts": 136,
+    "observations": 136,
     "repos": 86,
-    "terms": 131
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -29,6 +29,7 @@
     "bgw/bincode",
     "CADindustries/container",
     "charlesnicholson/docker-images",
+    "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
@@ -36,7 +37,6 @@
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
-    "danielrosehill/All-About-MCP",
     "danielrosehill/AMD-AI-Server",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",

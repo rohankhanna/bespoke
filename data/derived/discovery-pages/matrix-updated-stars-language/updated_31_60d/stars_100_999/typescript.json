@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6226,
-    "concepts": 1276,
-    "observations": 1278,
-    "repos": 210,
-    "terms": 1324
+    "components": 6381,
+    "concepts": 1301,
+    "observations": 1303,
+    "repos": 212,
+    "terms": 1349
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -49,6 +49,7 @@
     "bitwarden/directory-connector",
     "blrchen/chatgpt-lite",
     "browserslist/browserslist-useragent-regexp",
+    "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "charmbracelet/vhs-action",
@@ -84,6 +85,7 @@
     "folke/esbuild-runner",
     "forcedotcom/code-analyzer",
     "fsouza/prettierd",
+    "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "giselles-ai/giselle",
     "github/local-action",
@@ -147,8 +149,8 @@
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mskelton/eslint-plugin-playwright",
+    "mswjs/interceptors",
     "napi-rs/package-template",
-    "nashaofu/screenshots",
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "neolabhq/context-engineering-kit",

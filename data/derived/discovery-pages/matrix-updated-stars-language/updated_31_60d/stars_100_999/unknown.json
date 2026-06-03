@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 330,
-    "observations": 331,
-    "repos": 83,
-    "terms": 329
+    "components": 140,
+    "concepts": 336,
+    "observations": 337,
+    "repos": 87,
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -43,6 +43,7 @@
     "cosmos/awesome-cosmos",
     "CVEProject/automation-working-group",
     "django/deps",
+    "dnaka91/obws",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
     "e18e/ecosystem-issues",
@@ -61,7 +62,6 @@
     "googlefonts/RobotoMono",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
-    "grpc/proposal",
     "ietf-tools/.github",
     "integrations/microsoft-teams",
     "ipfs-examples/helia-examples",
@@ -70,6 +70,10 @@
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
+    "lxgw/LxgwNeoXiZhi-Screen",
+    "lxgw/LxgwXiHei",
+    "lxgw/LxgwZhiSong",
+    "maplibre/awesome-maplibre",
     "mason-org/mason-registry",
     "mdn/mdn-community",
     "microsoft/openjdk",

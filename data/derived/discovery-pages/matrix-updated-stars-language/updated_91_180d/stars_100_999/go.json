@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 271,
-    "observations": 272,
-    "repos": 40,
-    "terms": 270
+    "components": 229,
+    "concepts": 273,
+    "observations": 274,
+    "repos": 39,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -25,7 +25,6 @@
     "aws/amazon-ec2-spot-interrupter",
     "blampe/goat",
     "box-cli-maker/box-cli-maker",
-    "bshuster-repo/logrus-logstash-hook",
     "cloudpilot-ai/karpenter-provider-alibabacloud",
     "cloudwego/biz-demo",
     "cloudwego/hertz-examples",
@@ -35,6 +34,7 @@
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
     "github/smimesign",
+    "GoogleCloudPlatform/docker-credential-gcr",
     "gost-dom/browser",
     "hebcal/hebcal",
     "IBM/FfDL",
@@ -43,7 +43,6 @@
     "ipfs/go-graphsync",
     "kubernetes-sigs/yaml",
     "lightningnetwork/lightning-onion",
-    "Masterminds/vcs",
     "maykonlsf/semver-cli",
     "mholt/archives",
     "MicahParks/keyfunc",

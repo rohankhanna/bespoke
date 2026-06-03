@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1560,
-    "concepts": 418,
-    "observations": 420,
-    "repos": 101,
-    "terms": 418
+    "components": 1546,
+    "concepts": 409,
+    "observations": 411,
+    "repos": 98,
+    "terms": 409
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "AdguardTeam/CodeGuidelines",
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
     "alangdm/helium-animated-pages",
@@ -32,7 +31,6 @@
     "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
-    "dwyl/phoenix-liveview-stopwatch",
     "ehmicky/all-node-versions",
     "ehmicky/get-node",
     "ehmicky/node-version-alias",
@@ -47,7 +45,6 @@
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "GDevelopApp/GDevelop-tutorials",
-    "gr2m/before-after-hook",
     "grommet/grommet-site",
     "GuillaumeGomez/browser-UI-test",
     "hectorm/chafa-wasm",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1618,
-    "concepts": 828,
-    "observations": 834,
-    "repos": 66,
-    "terms": 828
+    "components": 1605,
+    "concepts": 805,
+    "observations": 811,
+    "repos": 64,
+    "terms": 805
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -34,7 +34,6 @@
     "google-ai-edge/mediapipe",
     "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",
-    "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
@@ -51,7 +50,6 @@
     "mudler/LocalAI",
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
-    "nwjs/nw.js",
     "OpenHands/OpenHands",
     "OpenMOSS/MOSS",
     "preactjs/preact",

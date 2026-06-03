@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 68,
-    "observations": 69,
-    "repos": 22,
-    "terms": 68
+    "components": 20,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 21,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "apple/device-management",
-    "Calcium-Ion/new-api-horizon",
     "dotnet/source-build",
     "emberjs/core-notes",
-    "eza-community/eza-themes",
     "filecoin-project/community",
     "flathub/com.vscodium.codium",
     "google/deepsomatic",
+    "grpc/proposal",
     "hagezi/dns-servers",
     "helm/community",
     "lumen-oss/nvim-best-practices",

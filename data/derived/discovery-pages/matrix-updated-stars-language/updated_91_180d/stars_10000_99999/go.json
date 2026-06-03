@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 7,
-    "terms": 66
+    "components": 34,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 6,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "containrrr/watchtower",
-    "fsnotify/fsnotify",
     "fullstorydev/grpcurl",
     "go-chi/chi",
     "minio/minio",

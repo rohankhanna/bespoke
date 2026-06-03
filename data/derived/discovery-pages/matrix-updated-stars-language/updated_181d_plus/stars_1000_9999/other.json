@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1297,
-    "concepts": 1594,
-    "observations": 1596,
-    "repos": 428,
-    "terms": 1583
+    "concepts": 1600,
+    "observations": 1602,
+    "repos": 429,
+    "terms": 1589
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -416,6 +416,7 @@
     "twitter/scalding",
     "twosigma/beakerx",
     "tylin/coco-caption",
+    "VectorSpaceLab/OmniGen",
     "vform666/variant-form",
     "vitalets/github-trending-repos",
     "voidlabs/mosaico",

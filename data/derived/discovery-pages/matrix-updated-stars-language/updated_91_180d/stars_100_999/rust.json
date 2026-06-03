@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 387,
+    "components": 406,
     "concepts": 262,
     "observations": 263,
-    "repos": 66,
+    "repos": 67,
     "terms": 260
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -40,6 +40,7 @@
     "hecrj/icebreaker",
     "ImageOptim/libimagequant",
     "ItsEthra/typst-live",
+    "IWANABETHATGUY/tower-lsp-boilerplate",
     "jimblandy/perf-event",
     "Kampfkarren/selene",
     "kata-containers/cgroups-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1168,
-    "concepts": 255,
-    "observations": 255,
-    "repos": 27,
-    "terms": 251
+    "components": 1046,
+    "concepts": 230,
+    "observations": 230,
+    "repos": 25,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
+    "0no-co/wonka",
     "2mawi2/schaltwerk",
     "Agoric/agoric-sdk",
     "ansible/vscode-ansible",
     "apify/apify-cli",
     "apify/mcpc",
     "Brendonovich/MacroGraph",
-    "carbon-design-system/carbon-components-angular",
     "embroider-build/ember-auto-import",
     "fluent-vue/fluent-vue",
     "foundry-rs/foundry-toolchain",
-    "ftonato/nope-validator",
     "inversify/monorepo",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
-    "mswjs/interceptors",
     "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
     "P4sca1/cron-schedule",

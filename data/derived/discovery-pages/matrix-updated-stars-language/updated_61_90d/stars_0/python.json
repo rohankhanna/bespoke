@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 11,
-    "terms": 23
+    "components": 29,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 10,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
-    "CharlieFRuan/harbor",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "devnen/chatterbox-v2",

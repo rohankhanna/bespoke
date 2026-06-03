@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 313,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 35,
-    "terms": 109
+    "components": 305,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 37,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
+    "AdguardTeam/CodeGuidelines",
     "angular/domino",
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",
     "brody2consult/react-native-module-init",
-    "coderaiser/estree-to-babel",
     "csstree/stylelint-validator",
     "dart-lang/site-shared",
+    "dwyl/phoenix-liveview-stopwatch",
     "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
     "faressoft/inquirer-checkbox-plus-prompt",
     "Fil/d3-tricontour",
     "gatsbyjs/gatsby-starter-minimal",
+    "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
     "haskell-actions/run-fourmolu",

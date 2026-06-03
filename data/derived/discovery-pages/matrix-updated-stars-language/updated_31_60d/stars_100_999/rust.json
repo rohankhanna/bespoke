@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1911,
+    "components": 1909,
     "concepts": 1309,
     "observations": 1321,
-    "repos": 228,
+    "repos": 227,
     "terms": 1308
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -188,7 +188,6 @@
     "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",
     "recmo/uint",
-    "rust-analyzer/rowan",
     "rust-bitcoin/rust-miniscript",
     "rust-diplomat/diplomat",
     "rust-lang/bors",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 119,
-    "observations": 120,
-    "repos": 10,
-    "terms": 117
+    "components": 87,
+    "concepts": 80,
+    "observations": 81,
+    "repos": 8,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "hagezi/dns-blocklists",
     "JetBrains/compose-multiplatform",
-    "kubernetes-sigs/kubespray",
+    "meta-llama/llama-cookbook",
     "mixmark-io/turndown",
     "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
-    "phpstan/phpstan",
     "SubtitleEdit/subtitleedit"
   ]
 }

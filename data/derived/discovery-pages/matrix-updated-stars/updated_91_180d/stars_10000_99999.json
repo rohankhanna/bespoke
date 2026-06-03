@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1089,
-    "concepts": 646,
-    "observations": 651,
-    "repos": 102,
-    "terms": 644
+    "components": 1019,
+    "concepts": 636,
+    "observations": 641,
+    "repos": 101,
+    "terms": 634
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -50,7 +50,6 @@
     "forwardemail/superagent",
     "FoundationAgents/MetaGPT",
     "FoundationAgents/OpenManus",
-    "fsnotify/fsnotify",
     "fullstorydev/grpcurl",
     "git-up/GitUp",
     "github/copilot.vim",
@@ -87,11 +86,11 @@
     "NVlabs/instant-ngp",
     "PaddlePaddle/PaddleNLP",
     "peers/peerjs",
+    "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
     "QwenLM/Qwen3-VL",
     "ramda/ramda",
     "RasaHQ/rasa",
-    "redux-saga/redux-saga",
     "rubocop/ruby-style-guide",
     "sharkdp/hyperfine",
     "slatedocs/slate",

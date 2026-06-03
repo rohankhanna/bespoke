@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 1588,
+    "components": 1601,
     "concepts": 329,
     "observations": 330,
     "repos": 48,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -20,7 +20,6 @@
     "antfu-collective/vitesse-lite",
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
-    "arktypeio/arktype",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
@@ -59,6 +58,7 @@
     "stephenh/ts-proto",
     "t0bst4r/home-assistant-matter-hub",
     "TfTHacker/obsidian42-brat",
+    "TypeStrong/ts-loader",
     "vadimdemedes/pastel",
     "vercel/next-learn",
     "xojs/xo"

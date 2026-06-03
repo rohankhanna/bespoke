@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 862,
-    "concepts": 532,
-    "observations": 534,
-    "repos": 122,
-    "terms": 545
+    "components": 879,
+    "concepts": 540,
+    "observations": 543,
+    "repos": 124,
+    "terms": 553
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
+    "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
     "adumbidiot/lz-str-rs",
     "ai-dynamo/modelexpress",
@@ -59,6 +60,7 @@
     "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
+    "fallow-rs/oxc-coverage-instrument",
     "filecoin-project/actors-utils",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 381,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 28,
-    "terms": 180
+    "components": 329,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 26,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
     "Alexey-T/ATFlatControls",
@@ -24,20 +24,18 @@
     "cowprotocol/contracts",
     "danielrosehill/Claude-Code-Projects-Index",
     "dbkangaroo/kangaroo",
-    "dennisdoomen/CSharpGuidelines",
     "intel/ipex-llm-tutorial",
     "jump-dev/NLopt.jl",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
+    "lambdalisue/vim-nerdfont",
     "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
     "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
     "NEKOparapa/ReaDreamAI",
-    "nix-community/haumea",
     "open-telemetry/opentelemetry-helm-charts",
-    "osmlab/name-suggestion-index",
-    "phpstan/phpstan-src",
+    "openbsd/ports",
     "rescript-lang/reanalyze",
     "sass/sass-spec",
     "Shopify/tapioca",

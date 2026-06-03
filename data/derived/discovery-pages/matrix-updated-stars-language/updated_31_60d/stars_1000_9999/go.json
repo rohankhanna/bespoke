@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2470,
-    "concepts": 2427,
-    "observations": 2438,
-    "repos": 278,
-    "terms": 2425
+    "components": 2477,
+    "concepts": 2411,
+    "observations": 2422,
+    "repos": 276,
+    "terms": 2409
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -66,7 +66,6 @@
     "bufbuild/protoc-gen-validate",
     "bufbuild/protovalidate",
     "buger/jsonparser",
-    "burke/zeus",
     "BurntSushi/toml",
     "bytedance/sonic",
     "C2SP/wycheproof",
@@ -95,6 +94,7 @@
     "containers/buildah",
     "ContentSquare/chproxy",
     "cortexproject/cortex",
+    "cosmos/cosmos-sdk",
     "cri-o/cri-o",
     "databus23/helm-diff",
     "DataDog/datadog-agent",
@@ -216,14 +216,12 @@
     "mostlygeek/llama-swap",
     "mvdan/sh",
     "nginx-proxy/docker-gen",
-    "nikolaydubina/go-recipes",
     "norwoodj/helm-docs",
     "NVIDIA/dcgm-exporter",
     "NVIDIA/gpu-operator",
     "NVIDIA/k8s-device-plugin",
     "NVIDIA/nvidia-container-toolkit",
     "oapi-codegen/oapi-codegen",
-    "olric-data/olric",
     "onsi/ginkgo",
     "onsi/gomega",
     "open-policy-agent/gatekeeper",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 4,
-    "terms": 46
+    "components": 57,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 5,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "567-labs/instructor",
+    "hiyouga/LlamaFactory",
     "oobabooga/textgen",
     "PDFMathTranslate/PDFMathTranslate",
     "python-poetry/poetry"

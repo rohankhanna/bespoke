@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4621,
-    "concepts": 792,
-    "observations": 795,
-    "repos": 99,
-    "terms": 785
+    "components": 4739,
+    "concepts": 846,
+    "observations": 849,
+    "repos": 103,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "11ty/eleventy",
+    "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
     "ai/nanoid",
@@ -38,6 +39,7 @@
     "easydiffusion/easydiffusion",
     "electerm/electerm",
     "electron/minimal-repro",
+    "eslint/eslint",
     "expressjs/express",
     "facebook/hermes",
     "faisalman/ua-parser-js",
@@ -45,6 +47,7 @@
     "gatsbyjs/gatsby",
     "google/zx",
     "GoogleChrome/lighthouse",
+    "gorhill/uBlock",
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
     "http-party/http-server",
@@ -112,6 +115,7 @@
     "welldone-software/why-did-you-render",
     "wix/Detox",
     "yarnpkg/yarn",
+    "yokoffing/Betterfox",
     "zloirock/core-js"
   ]
 }

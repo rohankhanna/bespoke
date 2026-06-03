@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 22,
-    "terms": 117
+    "components": 246,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 20,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "alloy-rs/evm",
     "cloudfoundry/bosh-google-cpi-release",
     "edge-classic/EDGE-classic",
@@ -20,16 +21,13 @@
     "geocompx/docker",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
-    "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
     "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "mongodb/winkerberos",
-    "mono/skia",
     "mozilla-ai/otari",
     "nuxt-modules/emotion",
-    "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
     "storybook-community/addon-queryparams",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10604,
-    "concepts": 9189,
-    "observations": 9200,
-    "repos": 2368,
-    "terms": 9059
+    "components": 10607,
+    "concepts": 9201,
+    "observations": 9212,
+    "repos": 2371,
+    "terms": 9071
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -84,6 +84,7 @@
     "aiwaves-cn/agents",
     "ajbrock/BigGAN-PyTorch",
     "ajstarks/svgo",
+    "ajvb/kala",
     "akamaster/pytorch_resnet_cifar10",
     "akanazawa/hmr",
     "akavel/rsrc",
@@ -1958,6 +1959,7 @@
     "simongog/sdsl-lite",
     "simonw/files-to-prompt",
     "simonwep/pickr",
+    "Simple-Efficient/RL-Factory",
     "simrat39/rust-tools.nvim",
     "sindresorhus/guides",
     "sindresorhus/modern-normalize",
@@ -2222,6 +2224,7 @@
     "vchoutas/smplify-x",
     "vchoutas/smplx",
     "veandco/go-sdl2",
+    "VectorSpaceLab/OmniGen",
     "vectr-ucla/direct_lidar_odometry",
     "vercel/modelfusion",
     "vercel/styled-jsx",

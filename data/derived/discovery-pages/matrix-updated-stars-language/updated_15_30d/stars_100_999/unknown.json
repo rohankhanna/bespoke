@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 7,
-    "terms": 19
+    "components": 10,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "deepset-ai/haystack-integrations",
-    "dnaka91/obws",
-    "lxgw/LxgwNeoXiZhi-Screen",
-    "lxgw/LxgwXiHei",
-    "lxgw/LxgwZhiSong",
-    "maplibre/awesome-maplibre",
     "near/NEPs"
   ]
 }

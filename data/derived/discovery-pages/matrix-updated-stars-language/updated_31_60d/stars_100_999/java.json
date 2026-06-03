@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 461,
-    "concepts": 556,
-    "observations": 556,
-    "repos": 74,
-    "terms": 554
+    "components": 476,
+    "concepts": 568,
+    "observations": 568,
+    "repos": 75,
+    "terms": 566
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -72,6 +72,7 @@
     "mukel/llama3.java",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
+    "processing/processing4",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",

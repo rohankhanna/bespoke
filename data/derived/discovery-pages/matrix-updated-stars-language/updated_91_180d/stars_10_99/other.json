@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 474,
-    "concepts": 317,
-    "observations": 318,
-    "repos": 129,
-    "terms": 314
+    "components": 508,
+    "concepts": 332,
+    "observations": 333,
+    "repos": 131,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -60,7 +60,6 @@
     "EvelynZhang-epiclab/DaTo",
     "falcoframework/Falco.Htmx",
     "falcoframework/Falco.OpenApi",
-    "FFTAI/Wiki-GRx-Gym",
     "flycheck/flycheck-eglot",
     "formigarafa/zxcvbn-rb",
     "FoundationDB/fdb-build-support",
@@ -102,6 +101,7 @@
     "lread/test-doc-blocks",
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
+    "mfussenegger/nlua",
     "MichaelHatherly/REPLicant.jl",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
@@ -121,8 +121,10 @@
     "reisub/http_cookie",
     "Rhoban/onshape-to-robot-examples",
     "robotology/icub-models",
+    "rojo-rbx/rojo.space",
     "RTBHOUSE/tmux-picker",
     "sbcgua/abap-string-map",
+    "SchwarzIT/spectral-intellij-plugin",
     "SciML/SciMLTutorialsOutput",
     "Shopify/quantified",
     "spring-ai-alibaba/website",

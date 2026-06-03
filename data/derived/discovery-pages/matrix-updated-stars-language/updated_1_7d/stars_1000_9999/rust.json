@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 42,
-    "observations": 43,
-    "repos": 4,
-    "terms": 42
+    "components": 59,
+    "concepts": 33,
+    "observations": 34,
+    "repos": 3,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "crate-ci/cargo-release",
     "dmtrKovalenko/fff",
     "godot-rust/gdext"
   ]

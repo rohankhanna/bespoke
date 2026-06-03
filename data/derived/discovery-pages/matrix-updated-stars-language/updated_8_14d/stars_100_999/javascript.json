@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 1,
-    "terms": 10
+    "components": 58,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 2,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "jupyter/nbclassic"
+    "jupyter/nbclassic",
+    "mafintosh/streamx"
   ]
 }

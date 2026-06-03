@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 976,
-    "concepts": 735,
-    "observations": 737,
-    "repos": 191,
-    "terms": 750
+    "components": 991,
+    "concepts": 729,
+    "observations": 731,
+    "repos": 190,
+    "terms": 744
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -86,6 +86,7 @@
     "dbfixtures/mirakuru",
     "DeterminateSystems/determinate-nix-action",
     "devexp-db/distgen",
+    "dora-rs/dora-hub",
     "dreamiurg/claude-mountaineering-skills",
     "enjoy-digital/litex-acorn-baseboard",
     "enzet/Roentgen",
@@ -113,10 +114,8 @@
     "HyperionGray/trio-chrome-devtools-protocol",
     "iamsashank09/llm-wiki-kit",
     "IcyFish332/T3RL",
-    "idodov/RedAlert",
     "instadeepai/fastpbrl",
     "intel/ai-containers",
-    "intel/vc-intrinsics",
     "jawah/wassima",
     "jfly/shtuff",
     "JuergenFleiss/atrain_core",

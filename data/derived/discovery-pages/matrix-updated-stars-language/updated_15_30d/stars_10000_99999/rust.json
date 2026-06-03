@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 78,
-    "observations": 79,
+    "components": 94,
+    "concepts": 63,
+    "observations": 64,
     "repos": 6,
-    "terms": 75
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "atuinsh/atuin",
     "nushell/nushell",
     "rerun-io/rerun",
-    "tw93/Pake",
+    "rust-lang/mdBook",
     "XAMPPRocky/tokei"
   ]
 }

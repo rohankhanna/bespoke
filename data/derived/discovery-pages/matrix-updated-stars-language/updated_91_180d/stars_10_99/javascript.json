@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 402,
-    "concepts": 91,
-    "observations": 92,
+    "components": 408,
+    "concepts": 97,
+    "observations": 98,
     "repos": 31,
-    "terms": 91
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "ameshkov/safari-blocker",
     "apostrophecms/apostrophe-astro",
@@ -23,7 +23,7 @@
     "chaijs/check-error",
     "CheckerNetwork/spark-checker",
     "chrisdickinson/varint",
-    "coderaiser/estrace",
+    "coderaiser/estree-to-babel",
     "coderaiser/mock-import",
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 121,
-    "observations": 121,
-    "repos": 30,
-    "terms": 124
+    "components": 133,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 28,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "AbsaOSS/external-dns-infoblox-webhook",
     "aquasecurity/k8s-node-collector",
     "astro-han/diffpane",
     "aws-controllers-k8s/runtime",
@@ -32,7 +31,6 @@
     "datachainlab/ethereum-ibc-relay-chain",
     "depado/bfchroma",
     "EstebanForge/mcp-cli-ent",
-    "estesp/mquery",
     "GFW-knocker/AndroidLibXrayLite",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",

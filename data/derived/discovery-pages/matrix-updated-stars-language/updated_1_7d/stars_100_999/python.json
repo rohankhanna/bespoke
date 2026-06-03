@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 121,
-    "observations": 121,
-    "repos": 21,
-    "terms": 121
+    "components": 138,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 19,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
@@ -31,8 +31,6 @@
     "OpenHands/ToM-SWE",
     "readthedocs/commonmark.py",
     "scverse/rapids-singlecell",
-    "ShadowLoveElysia/AiNiee-Next",
-    "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock"
   ]

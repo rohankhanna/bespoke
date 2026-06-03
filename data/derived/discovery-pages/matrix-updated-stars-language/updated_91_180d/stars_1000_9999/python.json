@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 418,
-    "concepts": 830,
-    "observations": 831,
-    "repos": 170,
-    "terms": 816
+    "components": 428,
+    "concepts": 834,
+    "observations": 835,
+    "repos": 171,
+    "terms": 820
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -97,6 +97,7 @@
     "jessevig/bertviz",
     "junyanz/CatPapers",
     "KaiyangZhou/deep-person-reid",
+    "keleshev/schema",
     "KellerJordan/Muon",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
@@ -159,7 +160,6 @@
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
-    "Simple-Efficient/RL-Factory",
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
     "Supervisor/supervisor",
@@ -171,6 +171,7 @@
     "thu-ml/RoboticsDiffusionTransformer",
     "toshas/torch-fidelity",
     "Trusted-AI/adversarial-robustness-toolbox",
+    "turboderp-org/exllamav2",
     "uber/petastorm",
     "ViTAE-Transformer/ViTPose",
     "waymo-research/waymo-open-dataset",

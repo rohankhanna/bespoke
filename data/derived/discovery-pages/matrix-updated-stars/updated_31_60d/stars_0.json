@@ -1,24 +1,23 @@
 {
   "counts": {
-    "components": 1029,
-    "concepts": 424,
-    "observations": 424,
-    "repos": 283,
-    "terms": 453
+    "components": 1006,
+    "concepts": 413,
+    "observations": 413,
+    "repos": 282,
+    "terms": 442
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
     "8144225309/superscalar-cln",
     "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
-    "9romise/eslint-config",
     "aaronlamz/navpress",
     "aaronrsun/spec-kit-confluence",
     "aaronrsun/spec-kit-issue",
@@ -109,6 +108,7 @@
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-ADB-Ops-Plugin",
+    "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Engineering-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
@@ -153,10 +153,10 @@
     "danielrosehill/Claude-Keyboard-Scanner",
     "danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "danielrosehill/Claude-License-Populator-Plugin",
+    "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "danielrosehill/Claude-Local-Web-Capture-Plugin",
     "danielrosehill/Claude-Personal-Planning-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
-    "danielrosehill/Deployments-Index",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
     "danielrosehill/Favorite-Code-Libraries",
@@ -282,7 +282,6 @@
     "stable-haskell/haskell-language-server",
     "stdlib-js/dstructs-struct",
     "stdlib-js/ndarray-dtype-ctor",
-    "stefanlogue/scoops",
     "Strivin0311/strivin0311.github.io",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "superfarther/K2V",

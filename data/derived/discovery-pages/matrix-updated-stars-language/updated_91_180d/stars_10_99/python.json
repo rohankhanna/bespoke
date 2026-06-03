@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 268,
-    "observations": 269,
-    "repos": 108,
-    "terms": 276
+    "components": 268,
+    "concepts": 282,
+    "observations": 283,
+    "repos": 109,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -22,6 +22,7 @@
     "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
+    "Alibaba-Quark/SSP",
     "AlonzoLeeeooo/LCDG",
     "amaranth-lang/amaranth-stdio",
     "AniAggarwal/ecad",
@@ -44,7 +45,6 @@
     "chaoss/grimoirelab-kidash",
     "chenkang455/ManiSkill-GS",
     "ChenMnZ/INT_vs_FP",
-    "ChenShawn/MultiModal-Jupyter-Sandbox",
     "CMBAgents/cmbagent",
     "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",
@@ -59,9 +59,12 @@
     "fla-org/flash-bidirectional-linear-attention",
     "fsspec/sshfs",
     "galaxyproject/tools-devteam",
+    "gazebosim/gz-mujoco",
     "google-deepmind/alphageometry2",
     "googlefonts/lang",
+    "GuiWonder/HuayingMincho",
     "HabanaAI/DeepSpeed",
+    "Han-Cao/collapse-bubble",
     "haydn-jones/SOAP_JAX",
     "heimoshuiyu/whisper-fastapi",
     "HuajianUP/360Loc",
@@ -86,7 +89,6 @@
     "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",
     "microsoft/local-email-agent",
-    "mingyuanzhou/SiD-LSG",
     "MINT-SJTU/STI-Bench",
     "modelscope/ms-enclave",
     "mohammadtavakoli78/beam",
@@ -115,7 +117,6 @@
     "TungChintao/SkiLa",
     "vinlyx/mgzip",
     "vis-nlp/ChartQAPro",
-    "vllm-project/vllm-openvino",
     "wamp-proto/wamp-xbr",
     "xplpc/xplpc",
     "xuanyuzhang21/RALI",

@@ -3,7 +3,7 @@
     "components": 727,
     "concepts": 1513,
     "observations": 1515,
-    "repos": 861,
+    "repos": 864,
     "terms": 1490
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -234,6 +234,7 @@
     "charlottia/hdx",
     "cheese-roll/light-anime-face-detector",
     "ChenmienTan/malmen",
+    "ChenShawn/MultiModal-Jupyter-Sandbox",
     "chipsalliance/python-fpga-interchange",
     "chloedia/layerdiffuse",
     "chomeyama/HN-UnifiedSourceFilterGAN",
@@ -599,6 +600,7 @@
     "Mikxox/EnCodec_Trainer",
     "MingjieChen/DYGANVC",
     "MingXiangL/Teacache-xDiT",
+    "mingyuanzhou/SiD-LSG",
     "minrq/CGAN_Text2Video",
     "miquelmassot/g2o-python",
     "Mivg/SLED",
@@ -828,6 +830,7 @@
     "ViTAE-Transformer/APTv2",
     "ViTAE-Transformer/LeMeViT",
     "vitchyr/viskit",
+    "vllm-project/vllm-openvino",
     "vstinner/misc",
     "waltonfuture/InstructionGPT-4",
     "WapaMario63/GPTQ-for-LLaMa-ROCm",

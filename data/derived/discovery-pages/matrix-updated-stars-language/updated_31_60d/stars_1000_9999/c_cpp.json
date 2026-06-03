@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2152,
-    "concepts": 2332,
-    "observations": 2339,
-    "repos": 294,
-    "terms": 2315
+    "components": 2166,
+    "concepts": 2364,
+    "observations": 2371,
+    "repos": 296,
+    "terms": 2347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -71,9 +71,9 @@
     "Dav1dde/glad",
     "diffblue/cbmc",
     "DLTcollab/sse2neon",
+    "dmlc/dlpack",
     "doxygen/doxygen",
     "DrTimothyAldenDavis/SuiteSparse",
-    "ebiggers/libdeflate",
     "eclipse-cyclonedds/cyclonedds",
     "eclipse-sumo/sumo",
     "ElementsProject/lightning",
@@ -156,6 +156,7 @@
     "liballeg/allegro5",
     "libarchive/libarchive",
     "libbpf/libbpf",
+    "libcpr/cpr",
     "libexpat/libexpat",
     "libffi/libffi",
     "libfuse/libfuse",
@@ -204,7 +205,6 @@
     "mruby/mruby",
     "netblue30/firejail",
     "NetHack/NetHack",
-    "nigels-com/glew",
     "nihui/opencv-mobile",
     "nihui/waifu2x-ncnn-vulkan",
     "nix-community/nixd",
@@ -249,6 +249,7 @@
     "RainerKuemmerle/g2o",
     "rapidsai/cudf",
     "rapidsai/cuml",
+    "realsenseai/librealsense",
     "red-data-tools/pycall.rb",
     "richgel999/miniz",
     "risc0/risc0",
@@ -285,6 +286,7 @@
     "uNetworking/uWebSockets.js",
     "unicode-org/icu",
     "unitreerobotics/unitree_sdk2",
+    "universal-ctags/ctags",
     "unum-cloud/USearch",
     "util-linux/util-linux",
     "vectorclass/version2",

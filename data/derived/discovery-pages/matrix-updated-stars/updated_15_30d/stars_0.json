@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 57,
+    "components": 72,
     "concepts": 12,
     "observations": 12,
-    "repos": 11,
+    "repos": 10,
     "terms": 12
   },
   "facet_version": 1,
@@ -11,16 +11,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "atsushieno/aap-lv2-string-machine",
     "clearml/clearml-agent-bootstrap",
-    "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
-    "danielrosehill/Claude-Linux-AV-Manager-Plugin",
     "drmingdrmer/databend-meta",
+    "locize/locize-i18next-vue-example",
     "Luligu/matterbridge-eve-door",
     "starfishmod/bonjour-service",
     "UnknownPlatypus/markup_fmt"

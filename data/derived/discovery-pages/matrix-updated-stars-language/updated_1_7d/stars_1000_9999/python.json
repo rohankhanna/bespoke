@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 225,
-    "observations": 226,
-    "repos": 26,
-    "terms": 225
+    "components": 178,
+    "concepts": 186,
+    "observations": 187,
+    "repos": 21,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
     "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
-    "collabora/WhisperLive",
     "Farama-Foundation/Minigrid",
     "fla-org/flash-linear-attention",
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
     "harbor-framework/harbor",
-    "huggingface/finetrainers",
     "huggingface/optimum-quanto",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
-    "NEKOparapa/AiNiee",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
     "redis/redis-om-python",
     "rllm-org/rllm",
-    "safetensors/safetensors",
-    "zhiyiYo/PyQt-Fluent-Widgets"
+    "safetensors/safetensors"
   ]
 }

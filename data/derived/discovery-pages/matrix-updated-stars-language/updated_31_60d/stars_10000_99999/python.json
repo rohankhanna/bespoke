@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2474,
-    "concepts": 2161,
-    "observations": 2167,
-    "repos": 209,
-    "terms": 2181
+    "components": 2468,
+    "concepts": 2156,
+    "observations": 2162,
+    "repos": 208,
+    "terms": 2176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -88,7 +88,6 @@
     "google/magika",
     "google/yapf",
     "gradio-app/gradio",
-    "gruns/icecream",
     "hesreallyhim/awesome-claude-code",
     "HKUDS/LightRAG",
     "HKUDS/RAG-Anything",
@@ -206,7 +205,6 @@
     "tensorflow/models",
     "Textualize/rich",
     "Textualize/textual",
-    "thu-ml/tianshou",
     "titanwings/colleague-skill",
     "treeverse/dvc",
     "triton-inference-server/server",
@@ -219,6 +217,7 @@
     "vllm-project/vllm",
     "voxel51/fiftyone",
     "wandb/wandb",
+    "wkentaro/labelme",
     "wshobson/agents",
     "ycm-core/YouCompleteMe",
     "ymcui/Chinese-BERT-wwm",

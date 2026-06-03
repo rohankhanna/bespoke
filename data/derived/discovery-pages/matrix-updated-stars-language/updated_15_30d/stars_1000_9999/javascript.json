@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 11,
-    "terms": 86
+    "components": 255,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 9,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "carbon-design-system/carbon",
     "chaijs/chai",
     "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
     "ipfs/ipfs-companion",
     "jasonlong/isometric-contributions",
-    "MikeMcl/bignumber.js",
     "openwrt/luci",
     "stylelint/stylelint-config-standard",
     "uBlockOrigin/uBOL-home",

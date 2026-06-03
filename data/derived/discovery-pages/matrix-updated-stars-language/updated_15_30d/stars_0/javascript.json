@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 30,
+    "components": 45,
     "concepts": 4,
     "observations": 4,
-    "repos": 1,
+    "repos": 2,
     "terms": 4
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
+    "locize/locize-i18next-vue-example",
     "Luligu/matterbridge-eve-door"
   ]
 }

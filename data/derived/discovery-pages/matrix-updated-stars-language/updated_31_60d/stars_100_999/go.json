@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1623,
-    "concepts": 1314,
-    "observations": 1321,
-    "repos": 196,
-    "terms": 1323
+    "components": 1616,
+    "concepts": 1308,
+    "observations": 1315,
+    "repos": 195,
+    "terms": 1318
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -90,7 +90,6 @@
     "devgianlu/go-librespot",
     "docker/model-runner",
     "dydxprotocol/v4-chain",
-    "ekalinin/github-markdown-toc.go",
     "estesp/manifest-tool",
     "etclabscore/core-geth",
     "ethereum-optimism/op-geth",
@@ -103,6 +102,7 @@
     "go-openapi/swag",
     "go-viper/mapstructure",
     "gofiber/contrib",
+    "gofrs/flock",
     "google/oss-rebuild",
     "google/trillian-examples",
     "googleapis/go-genproto",
@@ -195,7 +195,6 @@
     "skenetechnologies/skene",
     "snowflakedb/gosnowflake",
     "spiffe/go-spiffe",
-    "stefanlogue/meteor",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",

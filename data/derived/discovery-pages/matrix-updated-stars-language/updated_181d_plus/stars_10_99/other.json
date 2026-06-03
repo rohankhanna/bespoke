@@ -3,7 +3,7 @@
     "components": 2124,
     "concepts": 1969,
     "observations": 1975,
-    "repos": 852,
+    "repos": 853,
     "terms": 1957
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -364,6 +364,7 @@
     "federicotdn/flymake-shellcheck",
     "felixqueisler/Obsidian-FileLink-Styling",
     "feluxe/bs-tea-starter-kit",
+    "FFTAI/Wiki-GRx-Gym",
     "file-icons/MFixx",
     "firatkiral/kodibot",
     "FirebaseExtended/firestoreodm-flutter",

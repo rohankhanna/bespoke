@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 9,
-    "terms": 42
+    "components": 62,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 11,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "AMD-AGI/Nitro-1",
     "hluaguo/learn-faster-kit",
@@ -21,7 +21,9 @@
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
     "satan53x/SExtractor",
+    "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",
+    "thunlp/OPD",
     "zh-plus/openlrc"
   ]
 }

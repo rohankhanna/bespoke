@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 848,
-    "concepts": 824,
-    "observations": 825,
-    "repos": 211,
-    "terms": 819
+    "components": 856,
+    "concepts": 831,
+    "observations": 832,
+    "repos": 214,
+    "terms": 826
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -100,6 +100,7 @@
     "Embarcadero/python4delphi",
     "envato/zxcvbn-ruby",
     "envoyproxy/data-plane-api",
+    "ericmj/decimal",
     "esy/esy",
     "evadne/etso",
     "excubo-ag/WebCompiler",
@@ -125,6 +126,7 @@
     "izelnakri/paper_trail",
     "JacksonBurns/chemeleon",
     "jayli/vim-easycomplete",
+    "JetBrains/gradle-changelog-plugin",
     "JetBrains/intellij-ui-test-robot",
     "jgpc42/jmh-clojure",
     "joshuaulrich/TTR",
@@ -166,6 +168,7 @@
     "nvimdev/guard.nvim",
     "olbrich/ruby-units",
     "OpenBMB/CPM.cu",
+    "PacificBiosciences/pbmm2",
     "PaulRBerg/foundry-template",
     "phillbaker/capybara-mechanize",
     "phodal/chapi",

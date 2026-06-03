@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15535,
-    "concepts": 14076,
-    "observations": 14104,
-    "repos": 4616,
-    "terms": 13838
+    "components": 15548,
+    "concepts": 14089,
+    "observations": 14117,
+    "repos": 4619,
+    "terms": 13851
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -760,6 +760,7 @@
     "bshall/hubert",
     "bshall/soft-vc",
     "bshoshany/OGRe",
+    "bshuster-repo/logrus-logstash-hook",
     "bsm/grape-kaminari",
     "bterlson/eshost-cli",
     "btkelly/gnag",
@@ -1216,6 +1217,7 @@
     "dcchut/async-recursion",
     "DCDmllm/Cheetah",
     "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+    "dcoapp/app",
     "dcodeIO/long.js",
     "ddimaria/rust-actix-example",
     "ddo/oauth-1.0a",
@@ -2876,6 +2878,7 @@
     "Marwes/pretty.rs",
     "MASILab/3DUX-Net",
     "MasterBin-IIAU/AlphaRefine",
+    "Masterminds/vcs",
     "mathiasbynens/jsesc",
     "Mathpix/mpx-cli",
     "Mathux/ACTOR",

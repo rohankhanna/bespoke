@@ -1,23 +1,23 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 162,
-    "observations": 163,
-    "repos": 29,
-    "terms": 161
+    "components": 396,
+    "concepts": 194,
+    "observations": 194,
+    "repos": 33,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
-    "0no-co/wonka",
     "AMD-AGI/Nitro-1",
     "babashka/nbb",
-    "bazel-contrib/rules_jvm_external",
     "betterleaks/betterleaks",
+    "ChristopherHX/runner.server",
+    "clj-commons/rewrite-clj",
     "dwyl/quotes",
     "electron/packager",
     "emacscollective/auto-compile",
@@ -28,19 +28,23 @@
     "google/protobuf.dart",
     "hluaguo/learn-faster-kit",
     "jupyter/nbclassic",
-    "lambdalisue/vim-nerdfont",
     "LuaLS/vscode-lua",
+    "mafintosh/streamx",
     "matter-js/matter.js",
     "nginx-le/nginx-le",
-    "openbsd/ports",
     "perrygeo/python-rasterstats",
     "pyOpenSci/software-submission",
     "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
+    "redis/redis-om-dotnet",
+    "safe-fndn/safe-singleton-factory",
     "satan53x/SExtractor",
     "sbt/sbt-jmh",
+    "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",
+    "thunlp/OPD",
+    "wevm/abitype",
     "zh-plus/openlrc"
   ]
 }

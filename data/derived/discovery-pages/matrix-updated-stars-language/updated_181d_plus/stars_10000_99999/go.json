@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 22,
-    "terms": 98
+    "components": 65,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 23,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "dgrijalva/jwt-go",
     "earthly/earthly",
     "FiloSottile/mkcert",
+    "fsnotify/fsnotify",
     "gizak/termui",
     "go-kit/kit",
     "go-martini/martini",

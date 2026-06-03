@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 347,
-    "concepts": 617,
-    "observations": 617,
+    "components": 342,
+    "concepts": 619,
+    "observations": 619,
     "repos": 95,
-    "terms": 611
+    "terms": 613
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -57,7 +57,6 @@
     "jeffallan/claude-skills",
     "jiaaro/pydub",
     "JulietaUla/Montserrat",
-    "keleshev/schema",
     "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
@@ -69,6 +68,7 @@
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
+    "niklasf/python-chess",
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/flownet2-pytorch",
@@ -82,6 +82,7 @@
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
+    "python-hyper/h2",
     "pyupio/safety",
     "randy3k/radian",
     "rusty1s/pytorch_scatter",
@@ -102,7 +103,6 @@
     "themix-project/themix-gui",
     "Thinklab-SJTU/Bench2Drive",
     "trevin-creator/autoresearch-mlx",
-    "turboderp-org/exllamav2",
     "ufoym/deepo",
     "Vchitect/VBench",
     "wenet-e2e/wenet",

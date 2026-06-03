@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4968,
-    "concepts": 968,
-    "observations": 969,
-    "repos": 140,
-    "terms": 962
+    "components": 5018,
+    "concepts": 976,
+    "observations": 977,
+    "repos": 141,
+    "terms": 970
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-03T06:15:31.003729+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -34,6 +34,7 @@
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
     "brunch/brunch",
+    "carbon-design-system/carbon",
     "codemirror/dev",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
@@ -90,8 +91,8 @@
     "mermaid-js/mermaid-cli",
     "micromatch/picomatch",
     "middyjs/middy",
+    "MikeMcl/bignumber.js",
     "minio/minio-js",
-    "mourner/rbush",
     "mozilla/rhino",
     "mozilla/web-ext",
     "newrelic/node-newrelic",
