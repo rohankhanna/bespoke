@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 12,
-    "terms": 57
+    "components": 90,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 16,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
+    "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
     "flagos-ai/FlagAttention",
+    "googlefonts/roboto-3-classic",
     "hluaguo/learn-faster-kit",
+    "NVlabs/trajdata",
     "perrygeo/python-rasterstats",
     "pypa/build",
     "pypa/setuptools-scm",
@@ -25,6 +28,7 @@
     "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",
     "thunlp/OPD",
+    "tox-dev/filelock",
     "zh-plus/openlrc"
   ]
 }

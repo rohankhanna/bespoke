@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 639,
-    "concepts": 426,
-    "observations": 429,
-    "repos": 99,
-    "terms": 422
+    "components": 655,
+    "concepts": 448,
+    "observations": 451,
+    "repos": 101,
+    "terms": 444
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -71,6 +71,8 @@
     "getlantern/.github",
     "golangci/go-printf-func-name",
     "golangci/misspell",
+    "gookit/ini",
+    "gookit/rux",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "hashicorp/hcp-sdk-go",

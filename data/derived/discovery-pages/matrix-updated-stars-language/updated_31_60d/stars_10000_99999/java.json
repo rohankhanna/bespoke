@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 368,
-    "concepts": 440,
-    "observations": 442,
-    "repos": 36,
-    "terms": 437
+    "components": 372,
+    "concepts": 449,
+    "observations": 451,
+    "repos": 37,
+    "terms": 446
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
@@ -43,6 +43,7 @@
     "NationalSecurityAgency/ghidra",
     "netty/netty",
     "OpenAPITools/openapi-generator",
+    "openjdk/jdk",
     "oracle/graal",
     "prestodb/presto",
     "ReactiveX/RxJava",

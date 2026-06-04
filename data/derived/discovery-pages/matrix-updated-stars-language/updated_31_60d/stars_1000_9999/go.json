@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2480,
-    "concepts": 2418,
-    "observations": 2429,
-    "repos": 277,
-    "terms": 2416
+    "components": 2533,
+    "concepts": 2493,
+    "observations": 2504,
+    "repos": 281,
+    "terms": 2491
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -95,6 +95,7 @@
     "ContentSquare/chproxy",
     "cortexproject/cortex",
     "cosmos/cosmos-sdk",
+    "crazy-max/diun",
     "cri-o/cri-o",
     "databus23/helm-diff",
     "DataDog/datadog-agent",
@@ -155,6 +156,8 @@
     "GoogleCloudPlatform/berglas",
     "GoogleContainerTools/container-structure-test",
     "gookit/color",
+    "gookit/goutil",
+    "gookit/validate",
     "gopasspw/gopass",
     "goreleaser/nfpm",
     "gotestyourself/gotestsum",
@@ -204,6 +207,7 @@
     "kyverno/kyverno",
     "larksuite/cli",
     "lesismal/nbio",
+    "letsencrypt/boulder",
     "libp2p/go-libp2p",
     "lightningnetwork/lnd",
     "Loyalsoldier/geoip",
@@ -228,6 +232,7 @@
     "open-policy-agent/gatekeeper",
     "open-telemetry/opentelemetry-collector",
     "open-telemetry/opentelemetry-collector-contrib",
+    "open-telemetry/opentelemetry-operator",
     "opencontainers/distribution-spec",
     "opencost/opencost",
     "openshift/installer",
@@ -286,7 +291,6 @@
     "uptrace/uptrace",
     "usbarmory/tamago",
     "VictoriaMetrics/fastcache",
-    "vishvananda/netlink",
     "wa-lang/wa",
     "walles/moor",
     "x-motemen/ghq",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5038,
-    "concepts": 981,
-    "observations": 982,
-    "repos": 142,
-    "terms": 975
+    "components": 5112,
+    "concepts": 1001,
+    "observations": 1002,
+    "repos": 145,
+    "terms": 995
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -53,6 +53,7 @@
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
     "gautamkrishnar/motrix-webextension",
+    "ghostery/ghostery-extension",
     "google/closure-compiler",
     "google/docsy",
     "GoogleChrome/web-vitals",
@@ -106,6 +107,7 @@
     "npm/node-semver",
     "observing/pre-commit",
     "openstreetmap/iD",
+    "openwrt/luci",
     "parallel-js/parallel.js",
     "patorjk/figlet.js",
     "piebald-ai/claude-code-system-prompts",
@@ -139,6 +141,7 @@
     "thlorenz/doctoc",
     "tomas/needle",
     "tw-in-js/twind",
+    "uBlockOrigin/uBOL-home",
     "umijs/dumi",
     "unifiedjs/unified",
     "violentmonkey/violentmonkey",

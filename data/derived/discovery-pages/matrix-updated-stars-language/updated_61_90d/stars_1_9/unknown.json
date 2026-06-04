@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 24,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 28,
-    "terms": 28
+    "concepts": 29,
+    "observations": 29,
+    "repos": 29,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "10up/.github",
     "aaronrsun/spec-kit-checkpoint",
@@ -25,9 +25,10 @@
     "conda-forge/modin-feedstock",
     "csm-actions/docs",
     "danielrosehill/Agents-Index",
+    "danielrosehill/AI-Decision-Eval-Projects",
+    "danielrosehill/AI-Harnesses",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
-    "danielrosehill/Claude-Dork",
     "danielrosehill/Hebrew-TTS-Providers",
     "danielrosehill/Homebox-Projects-Index",
     "datachainlab/yui-relayer-build",

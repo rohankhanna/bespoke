@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 11,
+    "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 1,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "apostrophecms/starter-kit-astro-essentials",
-    "oscard0m/ts-transformer-remove-named-export"
+    "apostrophecms/starter-kit-astro-essentials"
   ]
 }

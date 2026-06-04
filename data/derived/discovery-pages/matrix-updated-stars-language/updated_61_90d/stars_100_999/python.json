@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 386,
+    "components": 382,
     "concepts": 619,
     "observations": 623,
-    "repos": 130,
+    "repos": 129,
     "terms": 619
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -65,6 +65,7 @@
     "hustvl/Senna",
     "infinigence/FUSCO",
     "jayleicn/moment_detr",
+    "jpmml/sklearn2pmml",
     "jsegov/autoresearch-win-rtx",
     "kandinskylab/kandinsky-5",
     "kijai/ComfyUI-DepthAnythingV2",
@@ -93,6 +94,7 @@
     "mondeja/mkdocs-include-markdown-plugin",
     "MontrealCorpusTools/mfa-models",
     "mr-fatalyst/fastopenapi",
+    "mtkennerly/dunamai",
     "neavo/KeywordGacha",
     "NeuralVox/OpenPhonemizer",
     "nicklashansen/dreamer4",
@@ -111,7 +113,6 @@
     "pnkraemer/matfree",
     "psf/pyperf",
     "PyCQA/modernize",
-    "python-hyper/brotlicffi",
     "ronaldoussoren/pyobjc",
     "rosetta-rs/argparse-rosetta-rs",
     "RUC-NLPIR/Tool-Star",
@@ -119,7 +120,6 @@
     "sarugaku/shellingham",
     "scottchiefbaker/dool",
     "ServiceNow/AgentLab",
-    "shibing624/similarities",
     "simonflueckiger/tesserocr-windows_build",
     "Slicer/light-the-torch",
     "spesmilo/electrumx",
@@ -135,7 +135,6 @@
     "Vinyzu/Botright",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
-    "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
     "xavierpuigf/virtualhome",
     "xlite-dev/Awesome-DiT-Inference",

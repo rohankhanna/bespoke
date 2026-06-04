@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 194,
-    "observations": 194,
-    "repos": 38,
-    "terms": 199
+    "components": 161,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 36,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -42,14 +42,12 @@
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
-    "QwenLM/Qwen",
     "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
     "resemble-ai/chatterbox",
     "superclaude-org/superclaude_framework",
     "thu-ml/tianshou",
-    "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
     "Zulko/moviepy"
   ]

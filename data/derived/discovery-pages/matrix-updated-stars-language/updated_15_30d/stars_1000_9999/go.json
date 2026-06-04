@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 7,
-    "terms": 102
+    "components": 18,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 2,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "crazy-max/diun",
     "etcd-io/bbolt",
-    "gookit/goutil",
-    "gookit/validate",
-    "letsencrypt/boulder",
-    "open-telemetry/opentelemetry-operator",
     "version-fox/vfox"
   ]
 }

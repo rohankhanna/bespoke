@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 373,
-    "concepts": 804,
-    "observations": 804,
-    "repos": 215,
-    "terms": 795
+    "components": 376,
+    "concepts": 809,
+    "observations": 809,
+    "repos": 216,
+    "terms": 800
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -131,6 +131,7 @@
     "li-plus/chatglm.cpp",
     "libgit2/objective-git",
     "libimobiledevice/libimobiledevice",
+    "libimobiledevice/usbmuxd",
     "lucasb-eyer/pydensecrf",
     "LunarG/VulkanSamples",
     "lzfse/lzfse",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 185,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 28,
-    "terms": 113
+    "components": 165,
+    "concepts": 95,
+    "observations": 96,
+    "repos": 23,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "ADNTIO/crispy-bootloader-rp2040-rs",
@@ -19,15 +19,13 @@
     "apache/casbin-fasthttp-auth",
     "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
-    "chrishulbert/brickwarrior",
     "conda-forge/python-build-feedstock",
-    "cosmos/rosetta",
-    "danielrosehill/Claude-Rudder",
     "danielrosehill/Voxtype",
     "edward3h/docker-bds-integration-test",
     "energye/designer",
     "energye/examples",
     "gookit/cliui",
+    "HuaweiCloudDeveloper/karpenter-provider-huawei",
     "influxdata/arrow-datafusion",
     "ioBroker/plugin-sentry",
     "kurrent-io/KurrentDB-Bridge-Client",
@@ -35,11 +33,8 @@
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "nafg/jewish-date",
-    "open-telemetry/opentelemetry-weaver-examples",
-    "pot-app/.github",
     "PrimeIntellect-ai/renderers",
     "SeedScientist/K2V",
-    "triton-inference-server/TensorRT-LLM",
     "vovkos/axl"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 329,
-    "concepts": 158,
-    "observations": 159,
-    "repos": 26,
-    "terms": 158
+    "components": 201,
+    "concepts": 128,
+    "observations": 129,
+    "repos": 21,
+    "terms": 127
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,24 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "AdguardTeam/FiltersRegistry",
     "Alexey-T/ATFlatControls",
     "appwrite/playground-for-web",
     "argotorg/hevm",
     "atsushieno/ktmidi",
-    "CHIP-SPV/chipStar",
     "CopyText/TextCopy",
     "cowprotocol/contracts",
     "danielrosehill/Claude-Code-Projects-Index",
     "dbkangaroo/kangaroo",
-    "intel/ipex-llm-tutorial",
+    "dwyl/quotes",
     "jump-dev/NLopt.jl",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
-    "LibreChat-AI/librechat.ai",
     "lite-xl/lite-xl-plugin-manager",
     "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
-    "NEKOparapa/ReaDreamAI",
-    "open-telemetry/opentelemetry-helm-charts",
     "openbsd/ports",
     "rescript-lang/reanalyze",
     "sass/sass-spec",

@@ -3,7 +3,7 @@
     "components": 47,
     "concepts": 27,
     "observations": 27,
-    "repos": 23,
+    "repos": 25,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Projects-Index",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",
@@ -33,6 +34,7 @@
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
+    "danielrosehill/Price-Research-Index",
     "DataDog/opa",
     "hermit-os/tokio",
     "lakekeeper/nats.rs",

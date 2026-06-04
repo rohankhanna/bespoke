@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2564,
-    "concepts": 2424,
-    "observations": 2434,
-    "repos": 454,
-    "terms": 2427
+    "components": 2576,
+    "concepts": 2432,
+    "observations": 2442,
+    "repos": 458,
+    "terms": 2435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -38,6 +38,7 @@
     "ahmedasmar/devops-claude-skills",
     "ai-analyst-lab/ai-analyst",
     "ai-dynamo/aiconfigurator",
+    "ai-dynamo/aiperf",
     "ai4colonoscopy/IntelliScope",
     "aigc-apps/PAI-RAG",
     "aigc3d/LAM",
@@ -181,6 +182,9 @@
     "fatiando/pooch",
     "fcakyon/claude-codex-settings",
     "feluelle/airflow-diagrams",
+    "fishaudio/audio-preprocess",
+    "fishaudio/fish-diffusion",
+    "fishaudio/vocoder",
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "fla-org/flame",
     "flageval-baai/FlagEvalMM",
@@ -254,7 +258,6 @@
     "jolibrain/joliGEN",
     "joonson/syncnet_python",
     "Joshuaalbert/jaxns",
-    "jpmml/sklearn2pmml",
     "jquast/wcwidth",
     "json-schema-org/JSON-Schema-Test-Suite",
     "JUNJIE99/MLVU",
@@ -309,7 +312,6 @@
     "mosecorg/mosec",
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons-server",
-    "mtkennerly/dunamai",
     "mujocolab/mjviser",
     "multiformats/multicodec",
     "nanoporetech/medaka",
@@ -410,6 +412,7 @@
     "SemiAnalysisAI/InferenceX",
     "ServiceNow/WorkArena",
     "seung-lab/cloud-volume",
+    "sigsep/norbert",
     "sigstore/sigstore-python",
     "sp-nitech/diffsptk",
     "spack/spack-packages",
@@ -448,6 +451,7 @@
     "unitreerobotics/unitree_sdk2_python",
     "universal-ctags/ctags-win32",
     "unixorn/lima-xbar-plugin",
+    "unum-bio/USearchMolecules",
     "urschrei/simplification",
     "utiasASRL/pyboreas",
     "uxlfoundation/oneAPI-spec",

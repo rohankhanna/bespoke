@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 956,
-    "concepts": 524,
-    "observations": 525,
-    "repos": 239,
-    "terms": 530
+    "components": 961,
+    "concepts": 530,
+    "observations": 531,
+    "repos": 243,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -23,6 +23,7 @@
     "aaron-he-zhu/cite-domain-rating",
     "abap2UI5-addons/table-maintenance",
     "AchimPieters/esp32-udp-logger",
+    "actions-cool/.github",
     "actions-oss/act-cli",
     "actions-oss/gh-rc",
     "adamharrison/quetta",
@@ -43,6 +44,7 @@
     "alexpolonsky/agent-skill-strikeradar",
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
+    "alonw0/cc-redalerts-statusline",
     "AlwaysNur/bookbank",
     "anchordotdev/puma-acme",
     "andrasg/matterbridge-loxone",
@@ -61,6 +63,7 @@
     "azdavis/ungrammar-tools",
     "b-data/docker-deployment-jupyter",
     "baskeboler/clj-karaoke-lyrics",
+    "bendrucker/terraform-configuration-aliases-action",
     "biocypher/collectri",
     "birdofpreyru/js-utils",
     "bizflycloud/karpenter-provider-bizflycloud",
@@ -92,6 +95,7 @@
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Bug-Catcher",
     "danielrosehill/Claude-Development-Agents",
+    "danielrosehill/Claude-Dork",
     "danielrosehill/Claude-LAN-Manager-0126",
     "danielrosehill/Claude-MD-Chunk",
     "danielrosehill/Cloud-STT-Price-Points-1225",

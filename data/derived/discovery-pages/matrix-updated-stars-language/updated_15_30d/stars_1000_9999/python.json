@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 227,
-    "observations": 230,
-    "repos": 27,
-    "terms": 222
+    "components": 153,
+    "concepts": 209,
+    "observations": 210,
+    "repos": 25,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "arcee-ai/mergekit",
     "awslabs/aidlc-workflows",
@@ -32,13 +32,11 @@
     "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",
     "openvpi/DiffSinger",
-    "PaddlePaddle/FastDeploy",
     "PyAV-Org/PyAV",
     "python-versioneer/python-versioneer",
-    "souzatharsis/podcastfy",
+    "speaches-ai/speaches",
     "strob/gentle",
     "voicepaw/so-vits-svc-fork",
-    "vyperlang/vyper",
     "Xilinx/brevitas",
     "zai-org/GLM-V"
   ]

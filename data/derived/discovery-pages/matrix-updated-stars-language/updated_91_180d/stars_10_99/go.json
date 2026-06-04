@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 125,
-    "observations": 125,
+    "components": 134,
+    "concepts": 126,
+    "observations": 126,
     "repos": 35,
-    "terms": 121
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
+    "aws-controllers-k8s/runtime",
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
     "bombsimon/logrusr",
@@ -39,7 +40,6 @@
     "ipfs/go-log",
     "jm33-m0/arc",
     "lesismal/nbio-examples",
-    "lukacu/docker-frps",
     "mikespook/possum",
     "multiformats/go-varint",
     "rose-pine/rose-pine-bloom",

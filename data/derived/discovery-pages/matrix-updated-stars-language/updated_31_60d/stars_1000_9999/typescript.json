@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11848,
-    "concepts": 2260,
-    "observations": 2265,
-    "repos": 281,
-    "terms": 2363
+    "components": 11909,
+    "concepts": 2289,
+    "observations": 2294,
+    "repos": 284,
+    "terms": 2392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -29,7 +29,6 @@
     "adobe/spectrum-web-components",
     "aeharding/voyager",
     "AIPexStudio/AIPex",
-    "allweonedev/presentation-ai",
     "amilajack/eslint-plugin-compat",
     "analogjs/analog",
     "angular-eslint/angular-eslint",
@@ -37,6 +36,7 @@
     "antfu-collective/vite-plugin-inspect",
     "anthropics/claude-code-action",
     "apache/apisix-dashboard",
+    "apify/fingerprint-suite",
     "apollographql/apollo-client-devtools",
     "archestra-ai/archestra",
     "ardatan/graphql-tools",
@@ -87,6 +87,7 @@
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
     "connectrpc/connect-es",
+    "cucumber/cucumber-js",
     "cursorless-dev/cursorless",
     "dbeaver/cloudbeaver",
     "denoland/std",
@@ -133,6 +134,7 @@
     "graffle-js/graffle",
     "graphql-hive/graphql-inspector",
     "graphql-hive/graphql-yoga",
+    "graphql/graphql-playground",
     "h3js/h3",
     "handsontable/hyperformula",
     "hannoeru/vite-plugin-pages",
@@ -145,6 +147,7 @@
     "iconify/iconify",
     "IgnisDa/ryot",
     "informalsystems/quint",
+    "inokawa/virtua",
     "intlify/vue-i18n",
     "iorate/ublacklist",
     "ipfs/helia",

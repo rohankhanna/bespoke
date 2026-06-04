@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1339,
-    "concepts": 1394,
-    "observations": 1397,
-    "repos": 254,
-    "terms": 1385
+    "components": 1358,
+    "concepts": 1411,
+    "observations": 1414,
+    "repos": 258,
+    "terms": 1402
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -21,6 +21,7 @@
     "acts-project/acts",
     "aibasel/downward",
     "Alpine-DAV/ascent",
+    "alsa-project/alsa-lib",
     "amerkoleci/joltc",
     "ampl/mp",
     "ankane/faiss-ruby",
@@ -200,6 +201,7 @@
     "ofiwg/libfabric",
     "oneapi-src/level-zero",
     "onnx/optimizer",
+    "open-telemetry/opentelemetry-dotnet-instrumentation",
     "OpenLightingProject/ola",
     "openSUSE/catatonit",
     "openSUSE/libsolv",
@@ -254,9 +256,11 @@
     "tpoechtrager/apple-libtapi",
     "trealla-prolog/trealla",
     "triton-inference-server/backend",
+    "triton-inference-server/core",
     "triton-inference-server/dali_backend",
     "triton-inference-server/onnxruntime_backend",
     "triton-inference-server/python_backend",
+    "triton-inference-server/pytorch_backend",
     "ucscGenomeBrowser/kent",
     "Unidata/netcdf-c",
     "usdot-fhwa-stol/carma-platform",

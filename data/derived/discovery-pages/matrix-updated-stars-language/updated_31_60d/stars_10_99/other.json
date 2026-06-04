@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2133,
-    "concepts": 1209,
-    "observations": 1212,
-    "repos": 325,
-    "terms": 1211
+    "components": 2154,
+    "concepts": 1224,
+    "observations": 1227,
+    "repos": 328,
+    "terms": 1226
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -41,7 +41,6 @@
     "ankane/lightgbm-ruby",
     "ankane/neighbor-redis",
     "ankane/neighbor-s3",
-    "ankane/nlopt-ruby",
     "ankane/torchaudio-ruby",
     "ankane/trove",
     "apache/arrow-dotnet",
@@ -99,6 +98,8 @@
     "Const-me/ComLightInterop",
     "controlplaneio-fluxcd/distribution",
     "countries/countries-data-json",
+    "CuatroElixir/spear",
+    "cucumber/cucumber-js-examples",
     "curiosity-ai/hnsw-sharp",
     "dart-lang/core",
     "dart-lang/ecosystem",
@@ -110,7 +111,6 @@
     "docusealco/rllama",
     "DOI-USGS/ncdfgeom",
     "dominique-unruh/qrhl-tool",
-    "donderom/llm4s",
     "dotnet/arcade-services",
     "dotnet/wpf-test",
     "dwyl/elixir-auth-github-demo",
@@ -155,6 +155,7 @@
     "haskell-actions/hlint-scan",
     "haskell/ghcup-metadata",
     "haskell/security-advisories",
+    "helix-toolkit/helix-toolkit-nex",
     "hercules-ci/flake.parts-website",
     "hermanjustnu/scoop-emulators",
     "heroku/buildpacks",
@@ -235,6 +236,7 @@
     "mirage/ocaml-dkim",
     "mirage/ptt",
     "mirage/uspf",
+    "mit-plv/coqutil",
     "mlocati/pecl-info",
     "mmark-md/mmark-cli",
     "mmllr/neotest-swift-testing",
@@ -309,6 +311,7 @@
     "servo/servo.org",
     "sferik/multi_json",
     "shingarov/MachineArithmetic",
+    "Shopify/rbi-central",
     "Shopify/yjit-metrics",
     "sidlatau/neotest-dart",
     "sigstore/helm-charts",

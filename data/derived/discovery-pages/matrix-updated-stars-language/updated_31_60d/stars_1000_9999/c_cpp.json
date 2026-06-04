@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2182,
-    "concepts": 2385,
-    "observations": 2392,
-    "repos": 297,
-    "terms": 2368
+    "components": 2334,
+    "concepts": 2418,
+    "observations": 2425,
+    "repos": 302,
+    "terms": 2401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -25,6 +25,7 @@
     "ai-dynamo/nixl",
     "alanxz/rabbitmq-c",
     "alibaba/havenask",
+    "Andersbakken/rtags",
     "AOMediaCodec/libavif",
     "apache/age",
     "aphrodite-engine/aphrodite-engine",
@@ -45,6 +46,7 @@
     "boazsegev/facil.io",
     "boostorg/beast",
     "boostorg/pfr",
+    "brave/brave-core",
     "BYVoid/OpenCC",
     "ccache/ccache",
     "cdcseacave/openMVS",
@@ -99,6 +101,7 @@
     "flightlessmango/MangoHud",
     "fluent/fluent-bit",
     "FluidSynth/fluidsynth",
+    "fnc12/sqlite_orm",
     "fontforge/fontforge",
     "ganelson/inform",
     "gazebosim/gz-sim",
@@ -213,6 +216,7 @@
     "NVIDIA-Omniverse/PhysX",
     "NVIDIA/cccl",
     "NVIDIA/cutlass",
+    "NVIDIA/DALI",
     "NVIDIA/libnvidia-container",
     "NVIDIA/MatX",
     "NVIDIA/nccl",
@@ -275,6 +279,7 @@
     "stevenlovegrove/Pangolin",
     "strukturag/libheif",
     "sveinbjornt/Platypus",
+    "swiftlang/swift-corelibs-foundation",
     "syoyo/tinygltf",
     "Taywee/args",
     "tevador/RandomX",

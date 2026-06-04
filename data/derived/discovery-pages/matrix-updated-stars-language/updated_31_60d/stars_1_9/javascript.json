@@ -3,7 +3,7 @@
     "components": 1715,
     "concepts": 898,
     "observations": 900,
-    "repos": 90,
+    "repos": 89,
     "terms": 897
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -29,7 +29,6 @@
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
     "apache/netbeans-antora",
-    "BarMalka/super-pharm-stock-checker",
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",

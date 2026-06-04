@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 4739,
-    "concepts": 1066,
-    "observations": 1066,
-    "repos": 382,
-    "terms": 1053
+    "concepts": 1068,
+    "observations": 1068,
+    "repos": 383,
+    "terms": 1055
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -289,6 +289,7 @@
     "mzgoddard/preact-render-spy",
     "newrelic/opensource-website",
     "nijikokun/minami",
+    "nodejs/abi-stable-node",
     "nordtheme/dircolors",
     "novnc/websockify-js",
     "numirias/paxmod",

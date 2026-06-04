@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 1543,
-    "concepts": 683,
-    "observations": 688,
-    "repos": 82,
-    "terms": 681
+    "components": 1436,
+    "concepts": 646,
+    "observations": 650,
+    "repos": 75,
+    "terms": 645
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
     "apache/datafusion-ballista",
@@ -36,7 +35,6 @@
     "dotnet/reactive",
     "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
-    "elixir-grpc/grpc",
     "endojs/endo",
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
@@ -75,13 +73,10 @@
     "psmux/psmux",
     "react-native-webview/react-native-webview",
     "redis/redis-om-python",
-    "riscv-collab/riscv-gnu-toolchain",
     "rllm-org/rllm",
     "ROCm/ROCm",
-    "safe-fndn/safe-smart-account",
     "safetensors/safetensors",
     "seancorfield/honeysql",
-    "sveltejs/devalue",
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",
@@ -89,11 +84,9 @@
     "TrenchBroom/TrenchBroom",
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
-    "ultrajson/ultrajson",
     "vuejs/devtools",
     "vuejs/language-tools",
     "web-platform-tests/wpt",
-    "webinstall/webi-installers",
     "xtensor-stack/xtensor"
   ]
 }

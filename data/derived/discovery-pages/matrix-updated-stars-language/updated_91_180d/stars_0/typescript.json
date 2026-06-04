@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 4,
-    "terms": 3
+    "components": 27,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 3,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "aleclarson/vite-multi-spa",
-    "lishid/cm-language",
-    "stainless-api/tsc-multi"
+    "lishid/cm-language"
   ]
 }

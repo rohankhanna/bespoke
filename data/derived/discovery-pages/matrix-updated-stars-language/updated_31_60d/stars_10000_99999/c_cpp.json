@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 967,
-    "concepts": 1277,
-    "observations": 1281,
-    "repos": 124,
-    "terms": 1272
+    "components": 980,
+    "concepts": 1282,
+    "observations": 1286,
+    "repos": 125,
+    "terms": 1277
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -137,6 +137,7 @@
     "winsiderss/systeminformer",
     "wolfpld/tracy",
     "yhirose/cpp-httplib",
+    "Z3Prover/z3",
     "zeromq/libzmq"
   ]
 }

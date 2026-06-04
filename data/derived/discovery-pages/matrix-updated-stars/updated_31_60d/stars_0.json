@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1006,
+    "components": 1009,
     "concepts": 413,
     "observations": 413,
-    "repos": 283,
+    "repos": 281,
     "terms": 442
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -30,7 +30,6 @@
     "ainvaltin/nu_plugin_boltdb",
     "ainvaltin/nu_plugin_plist",
     "aipurposes1587-max/weixin-agent-rs",
-    "aldernero/debugui",
     "alexcrichton/cc-rs",
     "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
@@ -88,7 +87,6 @@
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
-    "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -179,7 +177,6 @@
     "danielrosehill/Local-Claude-Plugin-Install-Research",
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
-    "danielrosehill/Price-Research-Index",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "danielrosehill/Research-Tools-And-Templates-Index",
@@ -291,6 +288,7 @@
     "transparency-dev/armored-witness-common",
     "ublacklist/store-assets",
     "ueno/podman-sequoia",
+    "UnknownPlatypus/markup_fmt",
     "vivianalaced749/vk-calls-tunnel",
     "VOICEVOX/preview-pages",
     "wblondel/blog",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 15,
-    "terms": 96
+    "components": 79,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 14,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
@@ -23,7 +23,6 @@
     "glfw/glfw",
     "google/googletest",
     "google/leveldb",
-    "jart/cosmopolitan",
     "libevent/libevent",
     "libgit2/libgit2",
     "microsoft/AirSim",

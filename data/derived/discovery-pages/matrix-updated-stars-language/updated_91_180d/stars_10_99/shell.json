@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 11,
-    "terms": 37
+    "components": 34,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 12,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "Aedelon/claude-code-blueprint",
     "cehoffman/lua-build",
     "erikw/tmux-dark-notify",
+    "graphql/composite-schemas-spec",
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",
     "nodenv/nodenv-default-packages",

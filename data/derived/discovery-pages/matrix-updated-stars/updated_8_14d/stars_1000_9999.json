@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 418,
-    "observations": 419,
-    "repos": 44,
-    "terms": 417
+    "components": 854,
+    "concepts": 420,
+    "observations": 422,
+    "repos": 48,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
-    "AdaptiveCpp/AdaptiveCpp",
     "ai-that-works/ai-that-works",
-    "ash-rs/ash",
+    "aigc-apps/VideoX-Fun",
     "ashvardanian/NumKong",
     "babashka/sci",
     "bazel-contrib/bazel-gazelle",
@@ -27,6 +26,7 @@
     "databendlabs/databend",
     "dotnet/Silk.NET",
     "ebullient/obsidian-admonition",
+    "elixir-grpc/grpc",
     "Farama-Foundation/Minigrid",
     "GalTransl/GalTransl",
     "geotiffjs/geotiff.js",
@@ -49,11 +49,15 @@
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
     "radian-software/straight.el",
+    "riscv-collab/riscv-gnu-toolchain",
     "roboflow/maestro",
-    "speaches-ai/speaches",
+    "safe-fndn/safe-smart-account",
+    "sveltejs/devalue",
     "tModLoader/tModLoader",
+    "ultrajson/ultrajson",
     "vale-cli/vale",
     "vercel/serve",
+    "webinstall/webi-installers",
     "yomidevs/yomitan",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"

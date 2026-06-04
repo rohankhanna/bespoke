@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 142,
-    "observations": 146,
-    "repos": 39,
-    "terms": 142
+    "components": 215,
+    "concepts": 165,
+    "observations": 169,
+    "repos": 41,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
     "dfrg/swash",
+    "dimforge/parry",
     "DoumanAsh/xxhash-rust",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
@@ -35,7 +36,6 @@
     "hsivonen/chardetng",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
-    "matsadler/magnus",
     "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
     "near/borsh-rs",
@@ -49,6 +49,8 @@
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",
+    "rustmailer/rustmailer",
+    "saghen/frizbee",
     "servo/rust-cssparser",
     "sparsemat/sprs",
     "typst/comemo",

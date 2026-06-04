@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-03T08:18:48.638557+00:00`
+Generated at: `2026-06-04T06:10:59.020083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 27
-- components: 47
-- concepts: 27
-- observations: 27
+- repos: 2
+- terms: 21
+- components: 37
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16487 | 2026-05-30T01:20:27Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36173 | 2026-05-28T23:06:52Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15289 | 2026-05-27T21:57:11Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36173 | 2026-05-28T23:06:52Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [rust-lang/rust-analyzer](https://github.com/rust-lang/rust-analyzer) | 16487 | 2026-05-30T01:20:27Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 10 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15289 | 2026-05-27T21:57:11Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |

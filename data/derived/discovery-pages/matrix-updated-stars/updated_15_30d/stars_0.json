@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 9,
-    "terms": 12
+    "components": 67,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 8,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "atsushieno/aap-lv2-string-machine",
@@ -20,7 +20,6 @@
     "drmingdrmer/databend-meta",
     "locize/locize-i18next-vue-example",
     "Luligu/matterbridge-eve-door",
-    "starfishmod/bonjour-service",
-    "UnknownPlatypus/markup_fmt"
+    "starfishmod/bonjour-service"
   ]
 }

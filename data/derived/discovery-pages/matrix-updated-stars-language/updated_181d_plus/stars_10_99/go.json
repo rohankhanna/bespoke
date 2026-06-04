@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 433,
-    "concepts": 460,
-    "observations": 463,
-    "repos": 172,
-    "terms": 456
+    "concepts": 461,
+    "observations": 464,
+    "repos": 173,
+    "terms": 457
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -131,6 +131,7 @@
     "kubeflow/common",
     "Layr-Labs/eigenda-proxy",
     "Layr-Labs/eigensdk-go",
+    "lukacu/docker-frps",
     "mailgun/proxyproto",
     "malfunkt/iprange",
     "maoueh/zap-pretty",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 20,
-    "observations": 20,
+    "components": 10,
+    "concepts": 25,
+    "observations": 25,
     "repos": 2,
-    "terms": 18
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "jez/dotfiles",
+    "nginx-le/nginx-le",
     "TypedDevs/bashunit"
   ]
 }

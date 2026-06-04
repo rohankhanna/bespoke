@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2366,
-    "concepts": 1720,
-    "observations": 1728,
-    "repos": 229,
-    "terms": 1729
+    "components": 2393,
+    "concepts": 1729,
+    "observations": 1736,
+    "repos": 232,
+    "terms": 1738
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -45,12 +45,14 @@
     "bluealloy/revm",
     "boa-dev/boa",
     "BoundaryML/baml",
+    "brave/adblock-rust",
     "BurntSushi/aho-corasick",
     "bvaisvil/zenith",
     "bytedance/monoio",
     "cachix/devenv",
     "Canop/bacon",
     "cargo-bins/cargo-binstall",
+    "cargo-generate/cargo-generate",
     "cberner/fuser",
     "ccbrown/iocraft",
     "cedar-policy/cedar",
@@ -58,6 +60,7 @@
     "chronotope/chrono",
     "cobalt-org/cobalt.rs",
     "compio-rs/compio",
+    "CosmWasm/cosmwasm",
     "crate-ci/typos",
     "crev-dev/cargo-crev",
     "cross-rs/cross",
@@ -194,6 +197,7 @@
     "rust-lang/libc",
     "rust-lang/log",
     "rust-lang/miri",
+    "rust-lang/portable-simd",
     "rust-lang/rust-bindgen",
     "rust-lang/rustfmt",
     "rust-lang/rustup",
@@ -215,7 +219,6 @@
     "skim-rs/skim",
     "smallcloudai/refact",
     "snapview/tungstenite-rs",
-    "spacejam/sled",
     "Splode/pomotroid",
     "squidowl/halloy",
     "succinctlabs/sp1",

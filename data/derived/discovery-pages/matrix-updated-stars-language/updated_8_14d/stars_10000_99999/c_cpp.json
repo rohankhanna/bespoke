@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 4,
-    "terms": 45
+    "components": 64,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 5,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "apache/brpc",
+    "google-ai-edge/mediapipe",
     "HIllya51/LunaTranslator",
     "isl-org/Open3D",
     "protocolbuffers/protobuf"

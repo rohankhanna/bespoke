@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 231,
-    "observations": 232,
-    "repos": 31,
-    "terms": 231
+    "components": 179,
+    "concepts": 227,
+    "observations": 228,
+    "repos": 32,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -28,7 +28,6 @@
     "FoundationAgents/MetaGPT",
     "FoundationAgents/OpenManus",
     "IdreesInc/Monocraft",
-    "JaidedAI/EasyOCR",
     "Jiayi-Pan/TinyZero",
     "jsvine/pdfplumber",
     "KlingAIResearch/LivePortrait",
@@ -37,12 +36,14 @@
     "microsoft/unilm",
     "modin-project/modin",
     "PaddlePaddle/PaddleNLP",
+    "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
     "RasaHQ/rasa",
     "Stability-AI/generative-models",
     "tqdm/tqdm",
     "vibrantlabsai/ragas",
+    "Wan-Video/Wan2.1",
     "yoheinakajima/babyagi",
     "zylon-ai/private-gpt"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 8,
-    "terms": 68
+    "components": 161,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 5,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
     "ipfs/ipfs-companion",
     "jasonlong/isometric-contributions",
-    "openwrt/luci",
     "stylelint/stylelint-config-standard",
-    "uBlockOrigin/uBOL-home",
     "WiseLibs/better-sqlite3"
   ]
 }

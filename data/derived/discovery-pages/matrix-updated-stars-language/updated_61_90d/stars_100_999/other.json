@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 965,
-    "concepts": 657,
-    "observations": 660,
-    "repos": 166,
-    "terms": 650
+    "components": 961,
+    "concepts": 654,
+    "observations": 657,
+    "repos": 167,
+    "terms": 647
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -23,10 +23,13 @@
     "akabe/ocaml-jupyter",
     "alcohol/iso3166",
     "andyferris/Dictionaries.jl",
+    "ankane/active_median",
+    "ankane/blind_index",
+    "ankane/hightop",
     "ankane/mailkick",
     "ankane/vega-ruby",
+    "ankane/xgboost-ruby",
     "ApolloScapeAuto/dataset-api",
-    "aserafin/grape_logging",
     "AudioKit/Cookbook",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws/homebrew-tap",
@@ -42,9 +45,10 @@
     "bhauman/figwheel-main",
     "bhauman/rebel-readline",
     "BKWLD/laravel-pug",
+    "bluespec/Toooba",
     "borkdude/edamame",
     "borkdude/quickdoc",
-    "caddyserver/caddy-docker",
+    "brainlid/langchain_demo",
     "caro401/royal-velvet",
     "cbl-dart/cbl-dart",
     "ChenyunWu/PhraseCutDataset",
@@ -56,7 +60,6 @@
     "clojure-emacs/clojure-mode",
     "clojure-emacs/clojure-ts-mode",
     "clojure/core.cache",
-    "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
     "cloudstudio/ollama-laravel",
     "cloudwu/deepfuture",
@@ -109,7 +112,6 @@
     "JunoLab/Weave.jl",
     "kendryte/nncase",
     "KhronosGroup/EGL-Registry",
-    "kowainik/summoner",
     "kwn/php-rdkafka-stubs",
     "LAION-AI/laion.ai",
     "lassik/emacs-format-all-the-code",
@@ -177,7 +179,6 @@
     "ugexe/zef",
     "unxsist/jet-pilot",
     "w3c/navigation-timing",
-    "WebAssembly/esm-integration",
     "whatwg/fs",
     "whatyouhide/stream_data"
   ]

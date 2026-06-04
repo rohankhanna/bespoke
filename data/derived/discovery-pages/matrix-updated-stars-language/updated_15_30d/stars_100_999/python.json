@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 27,
-    "terms": 141
+    "components": 84,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 21,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "agentclientprotocol/python-sdk",
     "agentic-box/memora",
-    "ai-dynamo/aiperf",
     "amsehili/auditok",
     "bagofwords1/bagofwords",
     "benchflow-ai/benchflow",
     "DanielLin94144/Full-Duplex-Bench",
     "databrickslabs/ucx",
     "djlint/djLint",
-    "fishaudio/audio-preprocess",
-    "fishaudio/fish-diffusion",
-    "fishaudio/vocoder",
     "gbionics/adam",
     "gbionics/jaxsim",
     "google-deepmind/xmanager",
@@ -36,9 +32,7 @@
     "nod-ai/AMD-SHARK-ModelDev",
     "python-poetry/poetry-plugin-export",
     "shawn0728/OpenSearch-VL",
-    "sigsep/norbert",
     "TextArena/TextArena",
-    "unum-bio/USearchMolecules",
     "vale-cli/packages",
     "zhiyiYo/Groove"
   ]

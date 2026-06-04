@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2297,
-    "concepts": 3067,
-    "observations": 3074,
-    "repos": 971,
-    "terms": 3048
+    "components": 2309,
+    "concepts": 3085,
+    "observations": 3092,
+    "repos": 975,
+    "terms": 3066
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -391,6 +391,7 @@
     "google-research-datasets/hiertext",
     "google-research/maxvit",
     "google-research/rlds",
+    "google-research/vmoe",
     "google/music-synthesizer-for-android",
     "google/vim-maktaba",
     "GoogleCloudPlatform/elixir-samples",
@@ -416,6 +417,7 @@
     "HaxeFoundation/dox",
     "haya14busa/is.vim",
     "haydengunraj/COVIDNet-CT",
+    "HelgeSverre/toon-php",
     "helm/charts-repo-actions-demo",
     "Helsinki-NLP/Tatoeba-Challenge",
     "hgourvest/superobject",
@@ -639,6 +641,7 @@
     "microsoft/python-language-server",
     "microsoft/samples-for-ai",
     "microsoft/TOXIGEN",
+    "microsoft/triton-shared",
     "microsoft/xr-development-for-beginners",
     "MicrosoftEdge/DevTools",
     "miguelsolorio/vscode-fluent-icons",
@@ -848,6 +851,7 @@
     "Stable-Baselines-Team/rl-colab-notebooks",
     "StanfordASL/Trajectron-plus-plus",
     "starkware-libs/starkex-contracts",
+    "StatisticalRethinkingJulia/TuringModels.jl",
     "StephenMiracle/frankenwp",
     "steren/awesome-cloud-run",
     "stevearc/resession.nvim",

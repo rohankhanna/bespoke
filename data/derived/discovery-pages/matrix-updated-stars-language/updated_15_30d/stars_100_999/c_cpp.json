@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 22,
-    "terms": 117
+    "components": 97,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 19,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aburch/simutrans",
-    "alsa-project/alsa-lib",
     "altschuler/imgui-knobs",
     "apache/casbin-cpp",
     "atsushieno/aap-core",
@@ -24,17 +23,15 @@
     "Chuyu-Team/YY-Thunks",
     "DISTRHO/DPF",
     "foldl/chatllm.cpp",
+    "google-deepmind/reverb",
     "kiron1/bazel-compile-commands",
     "microsoft/MIDI",
     "mingw-w64/mingw-w64",
-    "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
     "ouster-lidar/ouster-ros",
     "ROCm/rocBLAS",
     "ros2/common_interfaces",
     "tree-sitter-grammars/tree-sitter-markdown",
-    "triton-inference-server/core",
-    "triton-inference-server/pytorch_backend",
     "yoshoku/llama_cpp.rb"
   ]
 }

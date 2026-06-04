@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1132,
-    "concepts": 752,
-    "observations": 754,
-    "repos": 119,
-    "terms": 757
+    "components": 1112,
+    "concepts": 722,
+    "observations": 724,
+    "repos": 115,
+    "terms": 727
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -56,7 +56,6 @@
     "google/python-fire",
     "GoogleChromeLabs/squoosh",
     "gruns/icecream",
-    "guzzle/guzzle",
     "hapijs/hapi",
     "hapijs/joi",
     "Huanshere/VideoLingo",
@@ -64,8 +63,8 @@
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "hyperium/hyper",
+    "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
-    "jart/cosmopolitan",
     "jquery/jquery-ui",
     "karpathy/autoresearch",
     "KittenML/KittenTTS",
@@ -101,7 +100,6 @@
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
     "pugjs/pug",
-    "QwenLM/Qwen",
     "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
@@ -111,7 +109,6 @@
     "resemble-ai/chatterbox",
     "romkatv/powerlevel10k",
     "ryanoasis/nerd-fonts",
-    "serde-rs/serde",
     "sindresorhus/awesome-nodejs",
     "sindresorhus/pure",
     "sirupsen/logrus",
@@ -128,7 +125,6 @@
     "vercel/satori",
     "videojs/video.js",
     "vuejs/awesome-vue",
-    "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
     "websockets/ws",
     "Zulko/moviepy"

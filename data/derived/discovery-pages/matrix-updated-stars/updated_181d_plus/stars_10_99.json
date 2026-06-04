@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12070,
-    "concepts": 6912,
-    "observations": 6929,
-    "repos": 3293,
-    "terms": 6859
+    "components": 12071,
+    "concepts": 6921,
+    "observations": 6938,
+    "repos": 3296,
+    "terms": 6868
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1666,6 +1666,7 @@
     "iamolegga/react-native-launch-arguments",
     "ianhbell/nanobind_json",
     "ianmackenzie/elm-units",
+    "ibireme/c_numconv_benchmark",
     "icanhasjonas/run-claude-docker",
     "iccicci/next-json",
     "IceClear/LDM-SRtuning",
@@ -2125,6 +2126,7 @@
     "luizbarboza/polyclip-ts",
     "luizm/asdf-shellcheck",
     "luizm/asdf-shfmt",
+    "lukacu/docker-frps",
     "lukas-reineke/onedark.nvim",
     "lukashermann/hulc",
     "Luligu/zigbee2mqtt-automations",
@@ -2906,6 +2908,7 @@
     "srinathgs/mysqlstore",
     "SRombauts/SQLiteCpp_Example",
     "srv/avt_vimba_camera",
+    "ssitu/ComfyUI_restart_sampling",
     "sswuai/PanoGAN",
     "Stability-AI/datapipelines",
     "Stability-AI/ModelSpec",

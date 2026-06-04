@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 15,
-    "terms": 41
+    "components": 71,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 14,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
     "ainvaltin/nu_plugin_plist",
-    "aldernero/debugui",
     "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
     "DataDog/vault",

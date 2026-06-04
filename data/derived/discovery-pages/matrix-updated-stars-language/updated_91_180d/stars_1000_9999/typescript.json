@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1058,
-    "concepts": 178,
+    "components": 1059,
+    "concepts": 179,
     "observations": 179,
     "repos": 39,
-    "terms": 183
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
     "antfu-collective/vitesse",
+    "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
     "antfu/drauu",
     "arktypeio/arktype",
@@ -27,7 +28,6 @@
     "improbable-eng/ts-protoc-gen",
     "jonaskello/tsconfig-paths",
     "jupyter-widgets/ipyleaflet",
-    "lokerl/tts-vue",
     "metatool-ai/metamcp",
     "msgpack/msgpack-javascript",
     "nat/openplayground",

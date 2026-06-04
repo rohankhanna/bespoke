@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10607,
-    "concepts": 9201,
-    "observations": 9212,
-    "repos": 2371,
-    "terms": 9071
+    "components": 10637,
+    "concepts": 9213,
+    "observations": 9225,
+    "repos": 2375,
+    "terms": 9083
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -358,6 +358,7 @@
     "camenduru/text-to-video-synthesis-colab",
     "CanCanCommunity/cancancan",
     "CannyLab/tsne-cuda",
+    "canopyai/Orpheus-TTS",
     "caolan/nodeunit",
     "CarlGao4/Demucs-Gui",
     "carlhuda/janus",
@@ -1108,6 +1109,7 @@
     "JonathonLuiten/TrackEval",
     "Jongchan/attention-module",
     "jonschlinkert/markdown-toc",
+    "jorgebucaran/nvm.fish",
     "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
     "jose-elias-alvarez/null-ls.nvim",
     "JoshClose/CsvHelper",
@@ -1231,6 +1233,7 @@
     "LianjiaTech/BELLE",
     "libgit2/objective-git",
     "libimobiledevice/libimobiledevice",
+    "libimobiledevice/usbmuxd",
     "lifeiteng/vall-e",
     "Lifelong-Robot-Learning/LIBERO",
     "Lightning-AI/deep-learning-project-template",
@@ -1264,6 +1267,7 @@
     "lodash/babel-plugin-lodash",
     "logpai/logparser",
     "logtd/ComfyUI-Fluxtapoz",
+    "lokerl/tts-vue",
     "lpiccinelli-eth/UniDepth",
     "lquixada/cross-fetch",
     "lucasb-eyer/pydensecrf",

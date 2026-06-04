@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 104,
-    "observations": 105,
-    "repos": 10,
-    "terms": 104
+    "components": 113,
+    "concepts": 111,
+    "observations": 112,
+    "repos": 11,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "babashka/sci",
     "beam-community/elixir-companies",
     "dotnet/Silk.NET",
+    "elixir-grpc/grpc",
     "licensee/licensed",
     "microsoft/PhiCookBook",
     "mono/SkiaSharp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 375,
-    "observations": 377,
-    "repos": 103,
-    "terms": 373
+    "components": 367,
+    "concepts": 376,
+    "observations": 378,
+    "repos": 102,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -26,6 +26,7 @@
     "adrigzr/neotest-mocha",
     "alfaix/neotest-gtest",
     "am-kantox/md",
+    "ankane/nlopt-ruby",
     "apache/pdfbox-docs",
     "aperezdc/lua-wcwidth",
     "apollographql/apollo-ios-pagination",
@@ -52,6 +53,7 @@
     "dbuenzli/logs",
     "dharrigan/startrek",
     "dominique-unruh/scala-isabelle",
+    "donderom/llm4s",
     "DragonFlyBSD/DPorts",
     "dwyl/auth_plug",
     "dwyl/cid",
@@ -72,11 +74,9 @@
     "IQVIA-ML/LightGBM.jl",
     "j20001970/GDMP-demo",
     "JavaHello/spring-boot.nvim",
-    "jfmengels/elm-review-unused",
     "js-temporal/proposal-temporal-v2",
     "JuliaCI/PkgEval.jl",
     "JuliaGraphics/ColorVectorSpace.jl",
-    "JuliaGtk/Gtk4.jl",
     "JuliaPackaging/PkgServer.jl",
     "kalbasit/nur-packages",
     "larshp/abapGitServer",
@@ -105,7 +105,6 @@
     "oracle-quickstart/oci-o11y-solutions",
     "php/doc-it",
     "rainyl/native_toolchain_cmake",
-    "revfactory/claude-code-harness",
     "ropensci/allcontributors",
     "rubygems/release-gem",
     "rust-lang/crates-build-env",

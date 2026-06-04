@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3655,
-    "concepts": 4113,
-    "observations": 4123,
-    "repos": 501,
-    "terms": 4102
+    "components": 3682,
+    "concepts": 4135,
+    "observations": 4147,
+    "repos": 503,
+    "terms": 4124
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "1andrevich/Re-filter-lists",
@@ -111,7 +111,6 @@
     "CodeBoarding/CodeBoarding",
     "codespell-project/codespell",
     "coin-or/pulp",
-    "CoinCheung/BiSeNet",
     "coleifer/huey",
     "commonmark/commonmark-spec",
     "conan-io/conan-center-index",
@@ -364,6 +363,7 @@
     "OptimalScale/LMFlow",
     "oracle/graalpython",
     "oumi-ai/oumi",
+    "PaddlePaddle/FastDeploy",
     "PaddlePaddle/PaddleX",
     "pallets/werkzeug",
     "ParisNeo/lollms-webui",
@@ -450,6 +450,7 @@
     "SirVer/ultisnips",
     "skforecast/skforecast",
     "skypilot-org/skypilot",
+    "souzatharsis/podcastfy",
     "spack/spack",
     "sparckles/Robyn",
     "sphinx-doc/sphinx",
@@ -499,6 +500,7 @@
     "vmware/photon",
     "VOICEVOX/voicevox_engine",
     "vwxyzjn/cleanrl",
+    "vyperlang/vyper",
     "weaviate/Verba",
     "wemake-services/wemake-python-styleguide",
     "wenet-e2e/wespeaker",

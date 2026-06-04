@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4159,
-    "concepts": 3688,
-    "observations": 3712,
-    "repos": 509,
-    "terms": 3671
+    "components": 4176,
+    "concepts": 3730,
+    "observations": 3754,
+    "repos": 513,
+    "terms": 3712
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -43,7 +43,6 @@
     "AngleSharp/AngleSharp",
     "ankane/ahoy",
     "ankane/blazer",
-    "ankane/groupdate",
     "ankane/lockbox",
     "ankane/pghero",
     "AnswerDotAI/fastcore",
@@ -69,6 +68,7 @@
     "Azure/azureml-examples",
     "Azure/bicep",
     "B-Lang-org/bsc",
+    "badmojr/1Hosts",
     "BarutSRB/OmniWM",
     "bbepis/XUnity.AutoTranslator",
     "BBuf/how-to-optim-algorithm-in-cuda",
@@ -132,9 +132,11 @@
     "cssnano/cssnano",
     "csstools/postcss-plugins",
     "ctrlpvim/ctrlp.vim",
+    "cvc5/cvc5",
     "Cysharp/MagicOnion",
     "d12frosted/homebrew-emacs-plus",
     "dafny-lang/dafny",
+    "DandelionSprout/adfilt",
     "danger/danger",
     "danmayer/coverband",
     "dart-lang/http",
@@ -177,6 +179,7 @@
     "durgeshsamariya/awesome-github-profile-readme-templates",
     "dusty-nv/jetson-containers",
     "dwyl/learn-elixir",
+    "easylist/easylist",
     "ebitengine/purego",
     "ElectronNET/Electron.NET",
     "elixir-ecto/ecto",
@@ -227,6 +230,7 @@
     "google/ksp",
     "google/protobuf-gradle-plugin",
     "googleapis/google-api-dotnet-client",
+    "googleapis/google-api-php-client",
     "googleapis/google-api-php-client-services",
     "googleapis/google-cloud-dotnet",
     "googleapis/google-cloud-php",
@@ -253,7 +257,6 @@
     "ibhagwan/fzf-lua",
     "idris-lang/Idris2",
     "intel/llvm",
-    "invertase/melos",
     "ipfs/specs",
     "ipld/ipld",
     "itchyny/lightline.vim",
@@ -388,6 +391,7 @@
     "openstreetmap-carto/openstreetmap-carto",
     "openvinotoolkit/openvino_notebooks",
     "openwrt/packages",
+    "opnsense/plugins",
     "OrchardCMS/OrchardCore",
     "oxalorg/sakura",
     "pagedjs/pagedjs",
@@ -435,6 +439,7 @@
     "revfactory/harness",
     "rgeo/rgeo",
     "ring-clojure/ring",
+    "ROCm/MIOpen",
     "rrousselGit/riverpod",
     "rstudio/cheatsheets",
     "ruby-grape/grape",
@@ -470,7 +475,6 @@
     "stevearc/conform.nvim",
     "streetcomplete/StreetComplete",
     "svenfuchs/rails-i18n",
-    "swiftbar/SwiftBar",
     "SwiftGen/SwiftGen",
     "swiftlang/sourcekit-lsp",
     "swiftlang/swift-format",
@@ -497,6 +501,7 @@
     "troxler/awesome-css-frameworks",
     "tuist/XcodeProj",
     "tweag/ormolu",
+    "uBlockOrigin/uAssets",
     "undreamai/LLMUnity",
     "unslothai/notebooks",
     "vim-test/vim-test",
@@ -521,7 +526,6 @@
     "xiph/rav1e",
     "xtdb/xtdb",
     "yonaskolb/XcodeGen",
-    "yuhonas/free-exercise-db",
     "zalando/restful-api-guidelines"
   ]
 }

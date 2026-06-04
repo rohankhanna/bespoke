@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1046,
-    "concepts": 230,
-    "observations": 230,
-    "repos": 25,
-    "terms": 226
+    "components": 866,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 21,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
     "Agoric/agoric-sdk",
-    "ansible/vscode-ansible",
     "apify/apify-cli",
     "apify/mcpc",
     "Brendonovich/MacroGraph",
     "embroider-build/ember-auto-import",
     "fluent-vue/fluent-vue",
-    "foundry-rs/foundry-toolchain",
     "inversify/monorepo",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
@@ -32,11 +30,9 @@
     "Luligu/matterbridge-zigbee2mqtt",
     "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
-    "P4sca1/cron-schedule",
     "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
     "serversideup/webext-bridge",
-    "victorgarciaesgi/regle",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"
   ]

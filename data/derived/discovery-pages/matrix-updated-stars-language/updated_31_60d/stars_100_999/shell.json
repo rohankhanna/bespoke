@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 289,
-    "concepts": 385,
-    "observations": 389,
+    "concepts": 386,
+    "observations": 390,
     "repos": 70,
-    "terms": 393
+    "terms": 394
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -46,6 +46,7 @@
     "heroku/heroku-buildpack-php",
     "itzg/docker-mc-backup",
     "jcefmaven/jcefbuild",
+    "jez/dotfiles",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
     "kubernetes/sig-release",
@@ -77,7 +78,6 @@
     "sclorg/s2i-python-container",
     "serpro69/claude-toolbox",
     "termux/repology-metadata",
-    "TexasInstruments/edgeai",
     "tinted-theming/schemes",
     "tonistiigi/xx",
     "trailofbits/claude-code-devcontainer",

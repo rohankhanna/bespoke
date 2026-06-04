@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1677,
-    "concepts": 1594,
-    "observations": 1598,
-    "repos": 132,
-    "terms": 1581
+    "components": 1707,
+    "concepts": 1624,
+    "observations": 1630,
+    "repos": 134,
+    "terms": 1611
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -39,6 +39,7 @@
     "charmbracelet/gum",
     "charmbracelet/lipgloss",
     "charmbracelet/vhs",
+    "cilium/cilium",
     "cli/cli",
     "cloudflare/cloudflared",
     "cloudwego/eino",
@@ -88,6 +89,7 @@
     "hashicorp/nomad",
     "hashicorp/terraform",
     "hashicorp/vault",
+    "helm/helm",
     "hibiken/asynq",
     "ipfs/kubo",
     "istio/istio",

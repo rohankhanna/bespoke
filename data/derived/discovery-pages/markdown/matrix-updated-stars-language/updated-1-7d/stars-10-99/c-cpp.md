@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-03T08:18:48.638557+00:00`
+Generated at: `2026-06-04T06:10:59.020083+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 

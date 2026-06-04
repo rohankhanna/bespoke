@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1287,
-    "concepts": 547,
-    "observations": 549,
-    "repos": 450,
-    "terms": 547
+    "components": 1335,
+    "concepts": 548,
+    "observations": 550,
+    "repos": 451,
+    "terms": 548
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -424,6 +424,7 @@
     "spacemeshos/randomx-rs",
     "spencer-tb/ethereum-spec-evm-resolver",
     "srdtrk/ibc-rs",
+    "stainless-api/tsc-multi",
     "stefnotch/winit_input_helper",
     "sundoge/json-benchmark",
     "taoensso/roadmap",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 33,
-    "terms": 117
+    "components": 119,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 29,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
@@ -27,20 +27,16 @@
     "embeddedartistry/printf",
     "farm-ng/farm-ng-core",
     "flashlight/text",
-    "fonttools/unicodedata2",
     "galaxyproject/KegAlign",
     "gershnik/wsdd-native",
     "gozaltech/espeak-ng-sapi",
     "heal-research/pyoperon",
-    "icecc/icemon",
     "ilyabrilev/biosim4",
-    "intel/intel-extension-for-openxla",
     "intel/metrics-discovery",
     "jupyter-xeus/xleaflet",
     "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",
     "mesh-iit/creo2urdf",
-    "microsoft/react-native-winrt",
     "midi2-dev/ni-midi2",
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",

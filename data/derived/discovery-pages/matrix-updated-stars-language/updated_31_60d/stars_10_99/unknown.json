@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 177,
-    "observations": 178,
+    "components": 179,
+    "concepts": 178,
+    "observations": 179,
     "repos": 60,
-    "terms": 176
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -51,7 +51,6 @@
     "mypyc/mypyc-benchmark-results",
     "NightWatcher314/zotero-pdf2zh-server",
     "ocaml/platform-blog",
-    "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
     "pre-commit/mirrors-eslint",
     "prefix-dev/rattler-build-action",
@@ -69,6 +68,7 @@
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",
+    "universal-ctags/ctags-nightly-build",
     "uxlfoundation/foundation",
     "uxlfoundation/open-source-working-group",
     "w3c/accname",

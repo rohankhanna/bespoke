@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 4,
-    "terms": 31
+    "components": 14,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 3,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "apache/datafusion-ballista-python",
     "gpac/testsuite",
-    "microsoft/openjdk-docker",
-    "PF4Public/gentoo-overlay"
+    "microsoft/openjdk-docker"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 17,
-    "terms": 92
+    "components": 33,
+    "concepts": 100,
+    "observations": 100,
+    "repos": 16,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
     "aleskxyz/reality-ezpz",
@@ -21,7 +21,6 @@
     "erikw/tmux-powerline",
     "isaacs/nave",
     "jorgebucaran/fisher",
-    "jorgebucaran/nvm.fish",
     "just-containers/s6-overlay",
     "KittyKatt/screenFetch",
     "oschwartz10612/poppler-windows",

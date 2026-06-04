@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 31,
-    "observations": 31,
+    "components": 59,
+    "concepts": 37,
+    "observations": 37,
     "repos": 5,
-    "terms": 31
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "dwyl/mvp",
-    "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
+    "karafka/example-apps",
     "ocaml-tracing/ocaml-opentelemetry",
     "python-poetry/website"
   ]

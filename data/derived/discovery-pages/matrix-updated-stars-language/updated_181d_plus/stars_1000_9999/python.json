@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 957,
-    "concepts": 3812,
-    "observations": 3814,
-    "repos": 972,
-    "terms": 3743
+    "concepts": 3813,
+    "observations": 3815,
+    "repos": 973,
+    "terms": 3744
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -149,6 +149,7 @@
     "Cadene/pretrained-models.pytorch",
     "caiyuanhao1998/MST",
     "caiyuanhao1998/Retinexformer",
+    "canopyai/Orpheus-TTS",
     "CarlGao4/Demucs-Gui",
     "CarperAI/trlx",
     "Cartucho/mAP",

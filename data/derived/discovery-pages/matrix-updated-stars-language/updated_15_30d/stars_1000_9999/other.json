@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 310,
-    "observations": 310,
-    "repos": 35,
-    "terms": 304
+    "components": 179,
+    "concepts": 241,
+    "observations": 241,
+    "repos": 27,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "agenda/agenda",
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
-    "badmojr/1Hosts",
     "benchflow-ai/skillsbench",
-    "cvc5/cvc5",
-    "DandelionSprout/adfilt",
     "devlooped/moq",
-    "easylist/easylist",
     "foundry-rs/forge-std",
-    "googleapis/google-api-php-client",
     "hacl-star/hacl-star",
     "intel/BigDL",
     "JuliaGPU/CUDA.jl",
@@ -38,15 +33,12 @@
     "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
-    "opnsense/plugins",
     "preservim/tagbar",
-    "ROCm/MIOpen",
     "rocq-prover/rocq",
     "stakira/OpenUtau",
     "standardrb/standard",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",
-    "uBlockOrigin/uAssets",
     "xoofx/markdig",
     "xororz/local-dream"
   ]

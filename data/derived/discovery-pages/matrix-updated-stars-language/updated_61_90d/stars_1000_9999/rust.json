@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 189,
-    "observations": 193,
+    "components": 261,
+    "concepts": 202,
+    "observations": 207,
     "repos": 38,
-    "terms": 187
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -42,13 +42,13 @@
     "Mooncake-Labs/pg_mooncake",
     "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
-    "pdf-rs/pdf",
     "Rust-SDL2/rust-sdl2",
     "servo/ipc-channel",
     "sharkdp/pastel",
     "simd-lite/simd-json",
     "smol-rs/smol",
     "snapview/tokio-tungstenite",
+    "spacejam/sled",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
     "visioncortex/vtracer"

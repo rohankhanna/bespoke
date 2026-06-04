@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 118,
-    "observations": 120,
-    "repos": 85,
-    "terms": 121
+    "components": 266,
+    "concepts": 119,
+    "observations": 121,
+    "repos": 88,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "adipalko/hatraot",
+    "aldernero/debugui",
     "arckoor/botan-rs",
     "atsushieno/homebrew-oss",
     "b2agi/exist-is-charter_kr",
@@ -27,6 +28,7 @@
     "cwfitzgerald/libtest-mimic",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/adb-keep-awake",
+    "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Projects-Index",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/amd-gpu-fixes",
@@ -49,6 +51,7 @@
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
+    "danielrosehill/Price-Research-Index",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
     "DataDog/opa",

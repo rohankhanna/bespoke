@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15548,
-    "concepts": 14089,
-    "observations": 14117,
-    "repos": 4619,
-    "terms": 13851
+    "components": 15560,
+    "concepts": 14112,
+    "observations": 14140,
+    "repos": 4625,
+    "terms": 13873
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1832,6 +1832,7 @@
     "google-research/reassessed-imagenet",
     "google-research/rigl",
     "google-research/rlds",
+    "google-research/vmoe",
     "google-research/xtreme",
     "google/.github",
     "google/cld3",
@@ -1994,6 +1995,7 @@
     "hehao13/CameraCtrl",
     "heim-rs/heim",
     "heineiuo/isomorphic-ws",
+    "HelgeSverre/toon-php",
     "helm/charts-repo-actions-demo",
     "helm/hub",
     "helmi/claude-simone",
@@ -2205,6 +2207,7 @@
     "InternRobotics/Aether",
     "InternRobotics/HugWBC",
     "InternScience/ChartVLM",
+    "InternScience/StructEqTable-Deploy",
     "interstar/cardigan-bay",
     "intridea/multi_json",
     "invenia/NamedDims.jl",
@@ -3012,6 +3015,7 @@
     "microsoft/tensorflow-directml",
     "microsoft/tensorflow-directml-plugin",
     "microsoft/TOXIGEN",
+    "microsoft/triton-shared",
     "microsoft/TypeScript-Compiler-Notes",
     "microsoft/UniSpeech",
     "microsoft/UniVL",
@@ -3270,6 +3274,7 @@
     "nnsvs/nnsvs",
     "NoAvailableAlias/signal-slot-benchmarks",
     "node-lightning/node-lightning",
+    "nodejs/abi-stable-node",
     "nomic-io/nomic",
     "nonebot/aiocqhttp",
     "nonstd-lite/string-view-lite",
@@ -4012,6 +4017,7 @@
     "staoxiao/RetroMAE",
     "starkware-libs/starkex-contracts",
     "starlight-go/starlight",
+    "StatisticalRethinkingJulia/TuringModels.jl",
     "steeve/cross-compiler",
     "stefanha/git-publish",
     "stepancheg/rust-http2",

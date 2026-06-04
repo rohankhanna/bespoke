@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 140,
-    "concepts": 336,
-    "observations": 337,
-    "repos": 87,
-    "terms": 335
+    "concepts": 327,
+    "observations": 328,
+    "repos": 85,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/adoptium",
     "adoptium/temurin21-binaries",
-    "agamm/claude-code-owasp",
     "ailev/fpf",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
@@ -46,7 +45,6 @@
     "dnaka91/obws",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
-    "e18e/ecosystem-issues",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",

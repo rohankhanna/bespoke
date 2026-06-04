@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6381,
-    "concepts": 1301,
-    "observations": 1303,
-    "repos": 212,
-    "terms": 1349
+    "components": 6561,
+    "concepts": 1346,
+    "observations": 1348,
+    "repos": 216,
+    "terms": 1394
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -23,6 +23,7 @@
     "AgnosticUI/agnosticui",
     "alexlafroscia/vite-plugin-handlebars",
     "AmElmo/proofshot",
+    "ansible/vscode-ansible",
     "antfu/eslint-flat-config-utils",
     "antfu/skills-npm",
     "antfu/starter-ts",
@@ -84,6 +85,7 @@
     "flathub-infra/website",
     "folke/esbuild-runner",
     "forcedotcom/code-analyzer",
+    "foundry-rs/foundry-toolchain",
     "fsouza/prettierd",
     "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
@@ -178,6 +180,7 @@
     "ory/docs",
     "ory/kratos-selfservice-ui-node",
     "oxc-project/eslint-plugin-oxlint",
+    "P4sca1/cron-schedule",
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",
     "redhat-developer/vscode-xml",
@@ -223,6 +226,7 @@
     "unjs/unimport",
     "vega/vega-embed",
     "vibe-log/vibe-log-cli",
+    "victorgarciaesgi/regle",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
     "webextension-toolbox/webextension-toolbox"

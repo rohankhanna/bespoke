@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 196,
+    "components": 199,
     "concepts": 183,
     "observations": 183,
-    "repos": 38,
+    "repos": 39,
     "terms": 186
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -48,6 +48,7 @@
     "rs/cors",
     "shazow/ssh-chat",
     "sony/gobreaker",
+    "spf13/pflag",
     "tidwall/btree",
     "tmc/langchaingo",
     "uber-go/goleak",

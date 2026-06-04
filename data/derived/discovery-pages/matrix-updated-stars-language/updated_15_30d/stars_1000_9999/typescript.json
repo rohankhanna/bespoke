@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 940,
-    "concepts": 216,
-    "observations": 217,
-    "repos": 23,
-    "terms": 214
+    "components": 694,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 19,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "antvis/mcp-server-chart",
-    "apify/fingerprint-suite",
     "benchmark-action/github-action-benchmark",
     "can1357/oh-my-pi",
-    "cucumber/cucumber-js",
     "electron/rebuild",
     "enricoros/big-AGI",
     "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
-    "graphql/graphql-playground",
-    "inokawa/virtua",
     "Koenkk/zigbee-herdsman-converters",
     "NomicFoundation/hardhat",
     "obsidianmd/obsidian-clipper",

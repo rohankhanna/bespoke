@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 76,
-    "observations": 77,
-    "repos": 9,
-    "terms": 74
+    "components": 50,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 7,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "CloudCompare/CloudCompare",
     "harfbuzz/harfbuzz",
     "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
-    "riscv-collab/riscv-gnu-toolchain",
     "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom",
-    "ultrajson/ultrajson",
     "xtensor-stack/xtensor"
   ]
 }

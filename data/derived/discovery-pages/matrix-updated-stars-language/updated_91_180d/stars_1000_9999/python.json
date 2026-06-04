@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 434,
-    "concepts": 850,
-    "observations": 851,
-    "repos": 172,
-    "terms": 836
+    "concepts": 849,
+    "observations": 850,
+    "repos": 171,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -42,7 +42,6 @@
     "buriy/python-readability",
     "ByteDance-Seed/SeedVR",
     "bytetriper/RAE",
-    "canopyai/Orpheus-TTS",
     "CatchTheTornado/text-extract-api",
     "chatopera/Synonyms",
     "ChenmienTan/RL2",

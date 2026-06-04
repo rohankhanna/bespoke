@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 555,
-    "concepts": 651,
-    "observations": 652,
-    "repos": 293,
-    "terms": 645
+    "components": 556,
+    "concepts": 659,
+    "observations": 660,
+    "repos": 294,
+    "terms": 653
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -155,6 +155,7 @@
     "hwmcc/btor2tools",
     "iago-suarez/pytlsd",
     "ianhbell/nanobind_json",
+    "ibireme/c_numconv_benchmark",
     "IDLabMedia/image-lens-reproject",
     "ingonyama-zk/icicle-gnark",
     "intelligent-machine-learning/tfplus",

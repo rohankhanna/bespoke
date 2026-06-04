@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 203,
-    "observations": 205,
-    "repos": 50,
-    "terms": 175
+    "components": 70,
+    "concepts": 206,
+    "observations": 208,
+    "repos": 51,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "AbdBarho/stable-diffusion-webui-docker",
     "adobe-fonts/source-han-serif",
@@ -39,6 +39,7 @@
     "hyperupcall/autoenv",
     "japaric/rust-cross",
     "japaric/trust",
+    "jorgebucaran/nvm.fish",
     "justinmayer/virtualfish",
     "karalabe/xgo",
     "Kong/docker-kong",

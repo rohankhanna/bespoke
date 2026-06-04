@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 154,
-    "observations": 155,
-    "repos": 52,
-    "terms": 154
+    "components": 139,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 55,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -34,11 +34,13 @@
     "engineai-robotics/engineai_ros2_workspace",
     "flatpak/flatpak-xdg-utils",
     "fmtlib/format-benchmark",
+    "fonttools/unicodedata2",
     "FourierTransformer/lua-simdjson",
     "graalvm/polyglot-embedding-demo",
     "HolyBlackCat/box2cpp",
-    "ibireme/c_numconv_benchmark",
+    "icecc/icemon",
     "icppWorld/icpp_llm",
+    "intel/intel-extension-for-openxla",
     "jdlph/OpenDTA",
     "jokkebk/JUnzip",
     "JPEWdev/icecream-sundae",
@@ -46,6 +48,7 @@
     "JuliaInterop/libcxxwrap-julia",
     "jupyter-xeus/xeus-zmq",
     "lemire/fast_float",
+    "microsoft/react-native-winrt",
     "nativium/nativium",
     "o3de/PhysX",
     "osmcode/osm-gis-export",

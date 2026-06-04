@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 181,
-    "observations": 181,
-    "repos": 56,
-    "terms": 178
+    "components": 245,
+    "concepts": 191,
+    "observations": 191,
+    "repos": 59,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
     "all-the-noises/eval-arena",
+    "allenporter/python-google-nest-sdm",
     "amiable-dev/llm-council",
     "analyticsinmotion/werpy",
     "andyluo7/autoresearch",
@@ -32,9 +33,11 @@
     "cldf/segments",
     "clearml/clearml-session",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+    "collinear-ai/yc-bench",
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
+    "enzet/Roentgen",
     "explosion/spacy-alignments",
     "explosion/weasel",
     "FindDefinition/cumm",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 508,
-    "concepts": 332,
-    "observations": 333,
-    "repos": 131,
-    "terms": 329
+    "components": 526,
+    "concepts": 335,
+    "observations": 336,
+    "repos": 134,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -82,6 +82,7 @@
     "jakewvincent/texmagic.nvim",
     "JamieMair/MuJoCo.jl",
     "JezerM/oil-lsp-diagnostics.nvim",
+    "jfmengels/elm-review-unused",
     "jgpc42/lein-jmh",
     "jmespath/jmespath.site",
     "joanroig/admincraft",
@@ -89,6 +90,7 @@
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "JuliaGraphics/Cairo.jl",
+    "JuliaGtk/Gtk4.jl",
     "JuliaGtk/Gtk4Makie.jl",
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
@@ -119,6 +121,7 @@
     "probe-lab/network-measurements",
     "rcasia/neotest-bash",
     "reisub/http_cookie",
+    "revfactory/claude-code-harness",
     "Rhoban/onshape-to-robot-examples",
     "robotology/icub-models",
     "rojo-rbx/rojo.space",

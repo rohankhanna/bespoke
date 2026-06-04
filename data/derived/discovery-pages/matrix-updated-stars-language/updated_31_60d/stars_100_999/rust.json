@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1909,
-    "concepts": 1309,
-    "observations": 1321,
-    "repos": 227,
-    "terms": 1308
+    "components": 1913,
+    "concepts": 1293,
+    "observations": 1305,
+    "repos": 226,
+    "terms": 1292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -81,11 +81,11 @@
     "Dicklesworthstone/coding_agent_session_search",
     "Dicklesworthstone/frankensqlite",
     "Dicklesworthstone/frankentui",
-    "dimforge/parry",
     "DioxusLabs/docsite",
     "diwic/dbus-rs",
     "djc/tokio-retry",
     "djkoloski/rust_serialization_benchmark",
+    "dprint/dprint-plugin-typescript",
     "drahnr/cargo-spellcheck",
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
@@ -132,6 +132,7 @@
     "in-toto/attestation",
     "intel/ittapi",
     "iqlusioninc/abscissa",
+    "iqlusioninc/crates",
     "iqlusioninc/tmkms",
     "istio/ztunnel",
     "JanLikar/cargo-clone",
@@ -208,8 +209,6 @@
     "RustCrypto/RSA",
     "rustcrypto/signatures",
     "RustCrypto/traits",
-    "rustmailer/rustmailer",
-    "saghen/frizbee",
     "saphyr-rs/saphyr",
     "shiinamiyuki/akari_render",
     "smol-rs/async-task",

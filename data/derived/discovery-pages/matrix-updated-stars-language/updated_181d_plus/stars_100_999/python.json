@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1250,
-    "concepts": 5632,
-    "observations": 5637,
-    "repos": 1880,
-    "terms": 5466
+    "concepts": 5635,
+    "observations": 5640,
+    "repos": 1881,
+    "terms": 5468
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -900,6 +900,7 @@
     "InternRobotics/Aether",
     "InternRobotics/HugWBC",
     "InternScience/ChartVLM",
+    "InternScience/StructEqTable-Deploy",
     "IPNL-POLYU/UrbanNavDataset",
     "iralabdisco/point_clouds_registration_benchmark",
     "irom-princeton/dppo",

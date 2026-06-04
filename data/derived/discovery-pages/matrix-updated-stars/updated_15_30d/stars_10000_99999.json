@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1134,
-    "concepts": 577,
-    "observations": 581,
-    "repos": 56,
-    "terms": 569
+    "components": 1008,
+    "concepts": 486,
+    "observations": 488,
+    "repos": 49,
+    "terms": 478
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
@@ -19,10 +19,8 @@
     "astral-sh/ruff",
     "atuinsh/atuin",
     "blender/blender",
-    "brave/brave-browser",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
-    "cilium/cilium",
     "clauderic/dnd-kit",
     "crewAIInc/crewAI",
     "datalab-to/marker",
@@ -36,9 +34,7 @@
     "fuma-nama/fumadocs",
     "google-deepmind/mujoco",
     "great-expectations/great_expectations",
-    "helm/helm",
     "HKUDS/CLI-Anything",
-    "itzg/docker-minecraft-server",
     "JetBrains/compose-multiplatform",
     "jqlang/jq",
     "kepano/obsidian-skills",
@@ -52,13 +48,11 @@
     "mobxjs/mobx",
     "modelcontextprotocol/typescript-sdk",
     "modelscope/DiffSynth-Studio",
-    "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
     "nushell/nushell",
     "nvm-sh/nvm",
     "obsproject/obs-studio",
-    "openjdk/jdk",
-    "puppeteer/puppeteer",
+    "oobabooga/textgen",
     "pyg-team/pytorch_geometric",
     "rerun-io/rerun",
     "restic/restic",
@@ -67,7 +61,6 @@
     "SubtitleEdit/subtitleedit",
     "vitejs/vite",
     "vuejs/core",
-    "XAMPPRocky/tokei",
-    "Z3Prover/z3"
+    "XAMPPRocky/tokei"
   ]
 }

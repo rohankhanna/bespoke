@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 5,
-    "terms": 64
+    "components": 86,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 9,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "567-labs/instructor",
+    "datalab-to/surya",
     "hiyouga/LlamaFactory",
-    "oobabooga/textgen",
+    "huggingface/pytorch-image-models",
+    "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
-    "python-poetry/poetry"
+    "python-poetry/poetry",
+    "TEN-framework/ten-framework",
+    "unifyai/ivy"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 87,
-    "observations": 89,
-    "repos": 6,
-    "terms": 87
+    "components": 38,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 4,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "apache/casbin",
-    "cilium/cilium",
     "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
-    "helm/helm",
     "restic/restic"
   ]
 }

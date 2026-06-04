@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 17,
-    "terms": 49
+    "components": 332,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 18,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
@@ -27,6 +27,7 @@
     "mgr0dzicki/cargo-semver-checks-action",
     "offline-ai/cli-plugin-cmd-brain.js",
     "probe-lab/github-mgmt",
+    "stainless-api/tsc-multi",
     "TelemetryHub/opentelemetry-demo",
     "threesigmaxyz/filplus-allocator-bot",
     "tnc-ca-geo/animl-ingest-api",

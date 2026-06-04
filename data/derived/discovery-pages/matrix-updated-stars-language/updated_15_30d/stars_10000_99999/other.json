@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 8,
-    "terms": 78
+    "components": 76,
+    "concepts": 62,
+    "observations": 63,
+    "repos": 7,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
     "JetBrains/compose-multiplatform",
     "meta-llama/llama-cookbook",
     "mixmark-io/turndown",
-    "MudBlazor/MudBlazor",
     "neovim/nvim-lspconfig",
     "SubtitleEdit/subtitleedit"
   ]

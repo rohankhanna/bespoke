@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 507,
-    "concepts": 615,
-    "observations": 618,
-    "repos": 104,
-    "terms": 615
+    "components": 527,
+    "concepts": 642,
+    "observations": 645,
+    "repos": 108,
+    "terms": 642
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
     "alexreisner/geocoder",
     "ankane/ahoy_email",
     "ankane/chartkick",
+    "ankane/groupdate",
     "ardalis/ApiEndpoints",
     "arviz-devs/arviz",
     "athityakumar/colorls",
@@ -68,6 +69,7 @@
     "hercules-ci/flake-parts",
     "hrsh7th/nvim-cmp",
     "Intellindust-AI-Lab/DEIMv2",
+    "invertase/melos",
     "j-hui/fidget.nvim",
     "jgm/djot",
     "jpanther/congo",
@@ -109,12 +111,14 @@
     "slim-template/slim",
     "steipete/peekaboo",
     "stevearc/overseer.nvim",
+    "swiftbar/SwiftBar",
     "tensorflow/tpu",
     "usbarmory/usbarmory",
     "varvet/pundit",
     "vcr/vcr",
     "WebReflection/linkedom",
     "whitequark/parser",
+    "yuhonas/free-exercise-db",
     "z-x-yang/Segment-and-Track-Anything",
     "zarazhangrui/codebase-to-course",
     "zjunlp/EasyEdit"

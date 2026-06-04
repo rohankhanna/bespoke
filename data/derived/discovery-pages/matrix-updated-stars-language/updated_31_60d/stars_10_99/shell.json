@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 334,
-    "observations": 337,
-    "repos": 67,
-    "terms": 331
+    "components": 306,
+    "concepts": 343,
+    "observations": 346,
+    "repos": 68,
+    "terms": 340
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -65,6 +65,7 @@
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
     "oneclick/rubyinstaller2-packages",
+    "PF4Public/gentoo-overlay",
     "pkgxdev/mash",
     "postmodern/ruby-versions",
     "quarkusio/quarkus-ecosystem-ci",

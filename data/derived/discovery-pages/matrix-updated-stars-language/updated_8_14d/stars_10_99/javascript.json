@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 57,
+    "components": 36,
     "concepts": 2,
     "observations": 2,
-    "repos": 3,
+    "repos": 1,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "aidenlab/hic-straw",
-    "aidenlab/juicebox.js",
     "storybook-community/addon-queryparams"
   ]
 }

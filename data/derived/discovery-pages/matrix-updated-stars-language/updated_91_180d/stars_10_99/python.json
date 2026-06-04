@@ -3,7 +3,7 @@
     "components": 268,
     "concepts": 282,
     "observations": 283,
-    "repos": 109,
+    "repos": 108,
     "terms": 290
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -106,7 +106,6 @@
     "SLDGroup/EffiDec3D",
     "SLDGroup/LoMix",
     "SLDGroup/MK-UNet",
-    "ssitu/ComfyUI_restart_sampling",
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
     "TencentYoutuResearch/APTBench",

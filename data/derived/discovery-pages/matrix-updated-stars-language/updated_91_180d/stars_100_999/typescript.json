@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1629,
-    "concepts": 249,
-    "observations": 250,
-    "repos": 59,
-    "terms": 258
+    "components": 1711,
+    "concepts": 250,
+    "observations": 251,
+    "repos": 60,
+    "terms": 259
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -33,6 +33,7 @@
     "cocos/cocos-test-projects",
     "eckardt/cchistory",
     "enisdenjo/graphql-sse",
+    "ethereum/staking-launchpad",
     "fnando/i18n",
     "gajus/eslint-plugin-sql",
     "googleapis/nodejs-datastore",

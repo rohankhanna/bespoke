@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 294,
-    "concepts": 612,
-    "observations": 612,
-    "repos": 109,
-    "terms": 606
+    "concepts": 624,
+    "observations": 624,
+    "repos": 110,
+    "terms": 618
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -53,6 +53,7 @@
     "HumanSignal/labelImg",
     "IDEA-Research/GroundingDINO",
     "instantX-research/InstantID",
+    "JaidedAI/EasyOCR",
     "jina-ai/clip-as-service",
     "jina-ai/serve",
     "junyanz/pytorch-CycleGAN-and-pix2pix",

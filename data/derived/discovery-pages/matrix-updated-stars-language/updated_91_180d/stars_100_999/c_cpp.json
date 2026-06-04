@@ -3,7 +3,7 @@
     "components": 257,
     "concepts": 316,
     "observations": 318,
-    "repos": 85,
+    "repos": 86,
     "terms": 311
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -44,6 +44,7 @@
     "embeddedartistry/libmemory",
     "erkyrath/glulxe",
     "google/effcee",
+    "google/kmsan",
     "google/ruy",
     "hhyyrylainen/GodotPckTool",
     "Imagick/imagick",

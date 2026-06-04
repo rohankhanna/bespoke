@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 24,
-    "terms": 58
+    "components": 130,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 26,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
+    "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
     "datafusion-contrib/datafusion-orc",
@@ -25,6 +26,7 @@
     "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
+    "Kimahriman/hdfs-native",
     "lambdaclass/libssz",
     "libdeflater/libdeflater",
     "microsoft/tracing-etw",

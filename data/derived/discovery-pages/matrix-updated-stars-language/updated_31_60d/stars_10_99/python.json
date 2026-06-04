@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 991,
-    "concepts": 729,
-    "observations": 731,
-    "repos": 189,
-    "terms": 744
+    "components": 975,
+    "concepts": 719,
+    "observations": 721,
+    "repos": 186,
+    "terms": 734
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -31,7 +31,6 @@
     "allenai/beaker-gantry",
     "allenai/cached_path",
     "allenai/scirepeval",
-    "allenporter/python-google-nest-sdm",
     "AMD-AGI/torchtitan-amd",
     "amyreese/fissix",
     "analogdevicesinc/ai8x-synthesis",
@@ -70,7 +69,6 @@
     "cloudartisan/cloudartisan.github.io",
     "cloudfoundry/community",
     "cmake-wheel/cmeel",
-    "collinear-ai/yc-bench",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-pinning-feedstock",
     "conda-forge/conda-forge-repodata-patches-feedstock",
@@ -88,7 +86,6 @@
     "dora-rs/dora-hub",
     "dreamiurg/claude-mountaineering-skills",
     "enjoy-digital/litex-acorn-baseboard",
-    "enzet/Roentgen",
     "espressif/esp-idf-monitor",
     "ethstaker/ethstaker-deposit-cli",
     "executablebooks/mdit-py-plugins",

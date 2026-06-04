@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 4,
-    "terms": 49
+    "components": 87,
+    "concepts": 45,
+    "observations": 46,
+    "repos": 5,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
     "KhronosGroup/KTX-Software",
-    "microsoft/Detours"
+    "microsoft/Detours",
+    "riscv-collab/riscv-gnu-toolchain",
+    "ultrajson/ultrajson"
   ]
 }

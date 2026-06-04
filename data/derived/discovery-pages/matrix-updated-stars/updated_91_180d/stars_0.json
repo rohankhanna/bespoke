@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 86,
-    "terms": 135
+    "components": 249,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 85,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -92,7 +92,6 @@
     "samsja/dion",
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",
-    "stainless-api/tsc-multi",
     "typstyle-rs/prettyless",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "wintercg/fetch",

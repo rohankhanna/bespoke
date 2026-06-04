@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 28,
-    "terms": 108
+    "components": 131,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 27,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aquasecurity/k8s-node-collector",
     "astro-han/diffpane",
-    "aws-controllers-k8s/runtime",
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",

@@ -1,30 +1,39 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 143,
-    "observations": 144,
-    "repos": 13,
-    "terms": 142
+    "components": 277,
+    "concepts": 243,
+    "observations": 245,
+    "repos": 22,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
+    "datalab-to/surya",
     "dexie/Dexie.js",
+    "git-lfs/git-lfs",
     "gitleaks/gitleaks",
+    "google-ai-edge/mediapipe",
     "HIllya51/LunaTranslator",
     "hiyouga/LlamaFactory",
+    "huggingface/pytorch-image-models",
     "isl-org/Open3D",
     "nwjs/nw.js",
-    "oobabooga/textgen",
+    "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
+    "preactjs/preact",
     "protocolbuffers/protobuf",
     "python-poetry/poetry",
-    "realworld-apps/realworld"
+    "quickwit-oss/tantivy",
+    "realworld-apps/realworld",
+    "spaceship-prompt/spaceship-prompt",
+    "TEN-framework/ten-framework",
+    "unifyai/ivy"
   ]
 }

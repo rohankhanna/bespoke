@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1546,
-    "concepts": 409,
-    "observations": 411,
-    "repos": 98,
-    "terms": 409
+    "components": 1563,
+    "concepts": 415,
+    "observations": 417,
+    "repos": 99,
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
     "alangdm/helium-animated-pages",
     "alexellis/arkade-get",
     "andylockran/spectral-aws-apigateway-ruleset",
+    "apache/doris-opentelemetry-demo",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
     "berty/www.berty.tech",

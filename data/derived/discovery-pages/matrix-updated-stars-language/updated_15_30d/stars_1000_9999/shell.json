@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 4,
-    "terms": 24
+    "components": 38,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "itzg/docker-minecraft-bedrock-server",
     "nodenv/nodenv",
     "scop/bash-completion",
     "yt-dlp/FFmpeg-Builds"

@@ -3,7 +3,7 @@
     "components": 727,
     "concepts": 1513,
     "observations": 1515,
-    "repos": 864,
+    "repos": 865,
     "terms": 1490
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -768,6 +768,7 @@
     "sony/silentcipher",
     "SOTAMak1r/GST",
     "SQUARE-RG/SynTeR",
+    "ssitu/ComfyUI_restart_sampling",
     "sswuai/PanoGAN",
     "Stability-AI/datapipelines",
     "sterlind/GPTQ-for-LLaMa",

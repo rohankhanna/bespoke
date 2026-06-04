@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 15,
-    "terms": 112
+    "components": 119,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 13,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agentclientprotocol/rust-sdk",
     "Ai00-X/ai00_server",
     "alloy-rs/svm-rs",
-    "dprint/dprint-plugin-typescript",
     "g-plane/malva",
     "g-plane/markup_fmt",
-    "iqlusioninc/crates",
     "kornia/kornia-rs",
     "nushell/reedline",
     "open-telemetry/weaver",

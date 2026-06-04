@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 29,
-    "terms": 151
+    "components": 249,
+    "concepts": 133,
+    "observations": 134,
+    "repos": 25,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "atsushieno/augene-ng",
@@ -22,23 +22,19 @@
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
-    "CuatroElixir/spear",
-    "cucumber/cucumber-js-examples",
     "dinosaure/blaze",
     "Elyahu41/KosherSwift",
+    "f3liz-casa/noraneko",
     "FactoryXCode/MfPack",
     "FreneticLLC/FreneticGameEngine",
     "HDFGroup/hdf5_plugins",
-    "helix-toolkit/helix-toolkit-nex",
     "ludwig-ai/ludwig-docs",
-    "mit-plv/coqutil",
     "mrcjkb/neotest-haskell",
     "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-trace",
     "processing/processing-website",
     "rcasia/neotest-java",
     "ros2/example_interfaces",
-    "Shopify/rbi-central",
     "siketyan/intellij-rustowl",
     "TEN-framework/portal",
     "tinted-theming/tinted-xresources",

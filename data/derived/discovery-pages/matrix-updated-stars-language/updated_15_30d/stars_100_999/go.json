@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 149,
-    "observations": 149,
-    "repos": 14,
-    "terms": 147
+    "components": 51,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 8,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-03T08:18:48.638557+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
-    "charmbracelet/x",
     "dgraph-io/dgraph-benchmarks",
     "energye/energy",
-    "gookit/cache",
-    "gookit/config",
-    "gookit/event",
     "gookit/filter",
     "gookit/gcli",
-    "gookit/slog",
-    "itzg/mc-router",
     "kelos-dev/kelos",
     "osmosis-labs/osmosis",
     "toml-lang/toml-test"

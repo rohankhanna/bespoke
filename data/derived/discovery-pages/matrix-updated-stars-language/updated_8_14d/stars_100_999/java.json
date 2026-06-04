@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 2,
-    "observations": 2,
+    "components": 3,
+    "concepts": 3,
+    "observations": 3,
     "repos": 1,
-    "terms": 2
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-04T06:10:59.020083+00:00",
   "repo_ids": [
-    "bazel-contrib/rules_jvm_external"
+    "ldproxy/ldproxy"
   ]
 }
