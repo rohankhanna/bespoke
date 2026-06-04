@@ -3,7 +3,7 @@
     "components": 15560,
     "concepts": 14112,
     "observations": 14140,
-    "repos": 4625,
+    "repos": 4626,
     "terms": 13873
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -887,6 +887,7 @@
     "chenfengxu714/SqueezeSegV3",
     "ChenFengYe/motion-latent-diffusion",
     "chengzeyi/ParaAttention",
+    "chengzhag/PanFusion",
     "chenjoya/sampling-free",
     "chenkui164/FastASR",
     "chenllliang/G1",

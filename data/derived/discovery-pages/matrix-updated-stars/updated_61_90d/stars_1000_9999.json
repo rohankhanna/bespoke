@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4223,
-    "concepts": 2693,
-    "observations": 2702,
-    "repos": 463,
-    "terms": 2697
+    "components": 4227,
+    "concepts": 2698,
+    "observations": 2707,
+    "repos": 464,
+    "terms": 2702
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -368,6 +368,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "r-lib/lintr",
     "randy3k/radian",
+    "rcarriga/nvim-dap-ui",
     "redis/hiredis",
     "REditorSupport/vscode-R",
     "refraction-networking/utls",

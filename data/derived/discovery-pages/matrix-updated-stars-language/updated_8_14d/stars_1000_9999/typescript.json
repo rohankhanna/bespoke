@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 5,
-    "terms": 14
+    "components": 252,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 6,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "ebullient/obsidian-admonition",
+    "microsoft/vscode-js-debug",
     "neavo/LinguaGacha",
     "safe-fndn/safe-smart-account",
     "vercel/serve"

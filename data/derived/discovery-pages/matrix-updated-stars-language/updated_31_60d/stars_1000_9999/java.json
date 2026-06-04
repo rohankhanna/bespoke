@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 728,
-    "concepts": 871,
-    "observations": 873,
-    "repos": 88,
-    "terms": 868
+    "components": 730,
+    "concepts": 875,
+    "observations": 877,
+    "repos": 89,
+    "terms": 872
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -77,6 +77,7 @@
     "langchain4j/langchain4j-examples",
     "langgraph4j/langgraph4j",
     "lightbend/config",
+    "mapsforge/mapsforge",
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "open-telemetry/opentelemetry-java",

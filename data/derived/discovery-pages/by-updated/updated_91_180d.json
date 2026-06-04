@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 13269,
-    "concepts": 8831,
-    "observations": 8861,
-    "repos": 2361,
-    "terms": 8809
+    "components": 13285,
+    "concepts": 8848,
+    "observations": 8878,
+    "repos": 2363,
+    "terms": 8826
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -196,6 +196,7 @@
     "andrewyng/aisuite",
     "androidStern-personal/openclaw-mcp-adapter",
     "andys8/git-brunch",
+    "angr/angrop",
     "angr/vex",
     "AniAggarwal/ecad",
     "ankane/dexter",
@@ -522,7 +523,6 @@
     "charmbracelet/skate",
     "chatopera/Synonyms",
     "CheckerNetwork/spark-checker",
-    "chengzhag/PanFusion",
     "chenkang455/ManiSkill-GS",
     "ChenmienTan/RL2",
     "ChenMnZ/INT_vs_FP",
@@ -1463,6 +1463,7 @@
     "locationtech/jts",
     "logaretm/vee-validate",
     "logseq/db-test",
+    "lokesh/color-thief",
     "loqusion/typix",
     "lostintangent/gistpad-mcp",
     "lovemefan/SenseVoice.cpp",
@@ -1490,6 +1491,7 @@
     "lyuwenyu/RT-DETR",
     "lzyhha/VisualCloze",
     "machow/quartodoc",
+    "macrozheng/mall",
     "madebyollin/taesd",
     "maeste/a2a-tck",
     "magic-wormhole/magic-wormhole-transit-relay",

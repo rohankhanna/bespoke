@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11173,
-    "concepts": 5264,
-    "observations": 5288,
-    "repos": 1241,
-    "terms": 5311
+    "components": 11174,
+    "concepts": 5265,
+    "observations": 5289,
+    "repos": 1242,
+    "terms": 5312
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -687,6 +687,7 @@
     "jawah/wassima",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
+    "jcefmaven/jcefsampleapp",
     "jeffzi/llscheck",
     "jerseycheese/narraitor",
     "jest-community/eslint-plugin-jest-extended",

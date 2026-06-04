@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 340,
-    "observations": 342,
+    "components": 483,
+    "concepts": 343,
+    "observations": 345,
     "repos": 69,
-    "terms": 338
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "Agnuxo1/CAJAL",
@@ -52,7 +52,6 @@
     "HDFGroup/hdf5_plugins",
     "influxdata/datafusion-udf-wasm",
     "ipdxco/github-as-code",
-    "jcefmaven/jcefsampleapp",
     "kurrent-io/KurrentDB-Client-Rust",
     "ludwig-ai/ludwig-docs",
     "mesh-iit/cad-libraries",
@@ -79,6 +78,7 @@
     "UnknownPlatypus/djangofmt",
     "usdot-fhwa-stol/cdasim",
     "version-fox/vfox-plugins",
+    "windsonR/vite-plugin-virtual-html",
     "xuegao-tzx/Fllama",
     "yulewang97/ERDiff",
     "zig-wasm/wasmer-zig-api"

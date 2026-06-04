@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 277,
-    "concepts": 243,
-    "observations": 245,
-    "repos": 22,
-    "terms": 239
+    "components": 268,
+    "concepts": 239,
+    "observations": 241,
+    "repos": 21,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
@@ -31,7 +31,6 @@
     "protocolbuffers/protobuf",
     "python-poetry/poetry",
     "quickwit-oss/tantivy",
-    "realworld-apps/realworld",
     "spaceship-prompt/spaceship-prompt",
     "TEN-framework/ten-framework",
     "unifyai/ivy"

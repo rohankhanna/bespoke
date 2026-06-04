@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 25157,
-    "concepts": 10791,
-    "observations": 10830,
+    "concepts": 10782,
+    "observations": 10821,
     "repos": 1043,
-    "terms": 10769
+    "terms": 10760
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -254,6 +254,7 @@
     "dart-lang/sdk",
     "dask/dask",
     "datalab-to/chandra",
+    "datalab-to/marker",
     "datawhalechina/self-llm",
     "davatorium/rofi",
     "davila7/claude-code-templates",
@@ -928,7 +929,6 @@
     "stretchr/testify",
     "styled-components/styled-components",
     "stylelint/stylelint",
-    "subframe7536/maple-font",
     "super-linter/super-linter",
     "surrealdb/surrealdb",
     "sveltejs/kit",

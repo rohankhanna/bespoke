@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 23193,
-    "concepts": 13445,
-    "observations": 13499,
-    "repos": 2351,
-    "terms": 13541
+    "components": 23200,
+    "concepts": 13482,
+    "observations": 13536,
+    "repos": 2356,
+    "terms": 13578
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -656,6 +656,7 @@
     "day8/re-frame-10x",
     "day8/re-frame-template",
     "dbfixtures/pytest-postgresql",
+    "dbkangaroo/kangaroo",
     "dcampos/nvim-snippy",
     "ddemidov/amgcl",
     "decentralized-identity/did-jwt",
@@ -1204,6 +1205,7 @@
     "jawah/charset_normalizer",
     "jbaubree/vite-plugin-sitemap",
     "jcefmaven/jcefbuild",
+    "jcefmaven/jcefmaven",
     "jcmvbkbc/gcc-xtensa",
     "jdereg/json-io",
     "jellyfin/jellyfin-ffmpeg",
@@ -1466,6 +1468,7 @@
     "maplibre/awesome-maplibre",
     "maplibre/ngx-maplibre-gl",
     "mapnik/node-mapnik",
+    "mapsforge/vtm",
     "maragudk/gomponents-starter-kit",
     "marbl/verkko",
     "marcelm/cutadapt",
@@ -1558,6 +1561,7 @@
     "MindWorkAI/AI-Studio",
     "MiniMax-AI/VTP",
     "mit-ll-responsible-ai/hydra-zen",
+    "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
     "mitsuba-renderer/drjit",
     "mitsuba-renderer/drjit-core",
@@ -2355,6 +2359,7 @@
     "zendesk/racecar",
     "zephyr-data-specs/GMNS",
     "zhiqwang/yolort",
+    "zhiyiYo/Groove",
     "ZhuoZhuoCrayon/throttled-py",
     "zilliztech/vts",
     "zimbatm/mdsh",

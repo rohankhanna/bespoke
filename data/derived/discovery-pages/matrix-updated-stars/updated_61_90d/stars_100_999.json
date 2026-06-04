@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4100,
-    "concepts": 2756,
-    "observations": 2768,
-    "repos": 600,
-    "terms": 2750
+    "components": 4096,
+    "concepts": 2754,
+    "observations": 2766,
+    "repos": 599,
+    "terms": 2748
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -54,7 +54,6 @@
     "anacrolix/dht",
     "anacrolix/go-libutp",
     "andyferris/Dictionaries.jl",
-    "angr/angrop",
     "ankane/active_median",
     "ankane/ahoy.js",
     "ankane/blind_index",

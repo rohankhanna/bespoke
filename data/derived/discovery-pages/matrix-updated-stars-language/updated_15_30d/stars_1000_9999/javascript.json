@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 5,
-    "terms": 48
+    "components": 146,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "GladysAssistant/Gladys",
     "ipfs/ipfs-companion",
     "jasonlong/isometric-contributions",
-    "stylelint/stylelint-config-standard",
     "WiseLibs/better-sqlite3"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 501,
-    "concepts": 237,
-    "observations": 237,
-    "repos": 40,
-    "terms": 236
+    "components": 507,
+    "concepts": 241,
+    "observations": 241,
+    "repos": 41,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
@@ -39,6 +39,7 @@
     "mafintosh/streamx",
     "matter-js/matter.js",
     "NVlabs/trajdata",
+    "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
     "pypa/build",
     "pypa/setuptools-scm",

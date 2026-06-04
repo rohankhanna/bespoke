@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 854,
-    "concepts": 420,
-    "observations": 422,
-    "repos": 48,
-    "terms": 418
+    "components": 960,
+    "concepts": 435,
+    "observations": 438,
+    "repos": 51,
+    "terms": 433
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
@@ -37,11 +37,14 @@
     "intelligent-machine-learning/dlrover",
     "intentee/paddler",
     "ipfs/ipfs-webui",
+    "JuergenFleiss/aTrain",
     "KhronosGroup/KTX-Software",
     "licensee/licensed",
     "mayocream/koharu",
+    "meta-pytorch/captum",
     "microsoft/Detours",
     "microsoft/PhiCookBook",
+    "microsoft/vscode-js-debug",
     "modelscope/FunClip",
     "mono/SkiaSharp",
     "neavo/LinguaGacha",

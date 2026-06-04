@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4176,
-    "concepts": 3730,
-    "observations": 3754,
+    "components": 4182,
+    "concepts": 3732,
+    "observations": 3756,
     "repos": 513,
-    "terms": 3712
+    "terms": 3714
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -278,6 +278,7 @@
     "JuliaAI/MLJ.jl",
     "JuliaData/DataFrames.jl",
     "JuliaDocs/Franklin.jl",
+    "JuliaGPU/CUDA.jl",
     "JuliaLang/IJulia.jl",
     "JuliaLang/PackageCompiler.jl",
     "JuliaPlots/UnicodePlots.jl",
@@ -430,7 +431,6 @@
     "rapidsai/cugraph",
     "rapidsai/raft",
     "ray-x/navigator.lua",
-    "rcarriga/nvim-dap-ui",
     "reactiveui/ReactiveUI",
     "reasonml/reason-react",
     "Reference-LAPACK/lapack",

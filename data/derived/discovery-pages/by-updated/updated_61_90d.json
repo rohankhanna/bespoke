@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 12535,
-    "concepts": 8022,
-    "observations": 8051,
-    "repos": 1789,
-    "terms": 8017
+    "components": 12527,
+    "concepts": 8023,
+    "observations": 8052,
+    "repos": 1788,
+    "terms": 8018
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -136,7 +136,6 @@
     "andyferris/Dictionaries.jl",
     "andyluo7/autoresearch",
     "AndyMik90/Aperant",
-    "angr/angrop",
     "angular/domino",
     "ankane/active_median",
     "ankane/ahoy.js",
@@ -1080,7 +1079,6 @@
     "lobehub/lobe-midjourney-webui",
     "localstack/localstack",
     "logic-star-ai/swt-bench",
-    "lokesh/color-thief",
     "lostromb/concentus.oggfile",
     "lualanes/lanes",
     "lucabubi/star-history",
@@ -1100,7 +1098,6 @@
     "lxgw/LxgwZhenKai",
     "m-bain/whisperX",
     "macisamuele/language-formatters-pre-commit-hooks",
-    "macrozheng/mall",
     "madebyollin/taehv",
     "madler/zlib",
     "magodo/tfadd",
@@ -1454,6 +1451,7 @@
     "raymondshe/matchengine-raft",
     "raysan5/raylib-games",
     "rbenv/rbenv",
+    "rcarriga/nvim-dap-ui",
     "RDFLib/OWL-RL",
     "ReactiveX/RxAndroid",
     "reactwg/react-native-releases",
@@ -1626,6 +1624,7 @@
     "stripe/stripe-mock",
     "stx-labs/connect",
     "styled-components/polished",
+    "subframe7536/maple-font",
     "sudocode-ai/sudocode",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation",

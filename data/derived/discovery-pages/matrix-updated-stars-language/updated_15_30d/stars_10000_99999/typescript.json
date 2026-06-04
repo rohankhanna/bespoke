@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 500,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 12,
-    "terms": 126
+    "components": 509,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 13,
+    "terms": 130
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "ChatGPTNextWeb/NextChat",
@@ -23,6 +23,7 @@
     "lucide-icons/lucide",
     "mobxjs/mobx",
     "modelcontextprotocol/typescript-sdk",
+    "realworld-apps/realworld",
     "RooCodeInc/Roo-Code",
     "vitejs/vite",
     "vuejs/core"

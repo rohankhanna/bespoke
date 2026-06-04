@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 128,
-    "observations": 129,
-    "repos": 21,
-    "terms": 127
+    "components": 198,
+    "concepts": 107,
+    "observations": 108,
+    "repos": 19,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "Alexey-T/ATFlatControls",
     "appwrite/playground-for-web",
@@ -21,14 +21,12 @@
     "CopyText/TextCopy",
     "cowprotocol/contracts",
     "danielrosehill/Claude-Code-Projects-Index",
-    "dbkangaroo/kangaroo",
     "dwyl/quotes",
     "jump-dev/NLopt.jl",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "lite-xl/lite-xl-plugin-manager",
-    "mit-plv/bedrock2",
     "mrcjkb/haskell-tools.nvim",
     "openbsd/ports",
     "rescript-lang/reanalyze",

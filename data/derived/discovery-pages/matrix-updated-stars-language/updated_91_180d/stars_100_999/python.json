@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 422,
-    "concepts": 805,
-    "observations": 805,
+    "components": 426,
+    "concepts": 807,
+    "observations": 807,
     "repos": 222,
-    "terms": 800
+    "terms": 802
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -34,6 +34,7 @@
     "AMD-AGI/Nitro-E",
     "amd/Quark",
     "AmenRa/retriv",
+    "angr/angrop",
     "apache/rocketmq-client-python",
     "araffin/sbx",
     "argosopentech/argos-train",
@@ -60,7 +61,6 @@
     "bytedance/Q-Insight",
     "bytedance/SandboxFusion",
     "carla-simulator/leaderboard",
-    "chengzhag/PanFusion",
     "Chris-hughes10/pytorch-accelerated",
     "christgau/wsdd",
     "citation-file-format/citation-file-format",

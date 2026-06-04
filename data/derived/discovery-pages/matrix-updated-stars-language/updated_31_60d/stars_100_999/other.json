@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4524,
-    "concepts": 3460,
-    "observations": 3464,
-    "repos": 593,
-    "terms": 3475
+    "components": 4527,
+    "concepts": 3481,
+    "observations": 3485,
+    "repos": 595,
+    "terms": 3496
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -180,6 +180,7 @@
     "day8/re-com",
     "day8/re-frame-10x",
     "day8/re-frame-template",
+    "dbkangaroo/kangaroo",
     "dcampos/nvim-snippy",
     "DefinedNet/mobile_nebula",
     "dennisdoomen/CSharpGuidelines",
@@ -409,6 +410,7 @@
     "mihaimaruseac/hindent",
     "MilesCranmer/DispatchDoctor.jl",
     "MindWorkAI/AI-Studio",
+    "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
     "ml-explore/mlx-swift-lm",
     "mmark-md/mmark",

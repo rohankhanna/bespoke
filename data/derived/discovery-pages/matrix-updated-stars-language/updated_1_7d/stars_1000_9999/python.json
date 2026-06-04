@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 175,
-    "observations": 176,
-    "repos": 19,
-    "terms": 175
+    "components": 164,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 17,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
@@ -23,8 +23,6 @@
     "google-deepmind/optax",
     "harbor-framework/harbor",
     "huggingface/optimum-quanto",
-    "JuergenFleiss/aTrain",
-    "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",

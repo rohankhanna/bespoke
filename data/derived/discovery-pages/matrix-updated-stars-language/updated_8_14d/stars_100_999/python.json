@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 16,
-    "terms": 66
+    "components": 96,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 17,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
@@ -20,6 +20,7 @@
     "googlefonts/roboto-3-classic",
     "hluaguo/learn-faster-kit",
     "NVlabs/trajdata",
+    "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
     "pypa/build",
     "pypa/setuptools-scm",

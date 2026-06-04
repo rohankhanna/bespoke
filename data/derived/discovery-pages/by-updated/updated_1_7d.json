@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4233,
-    "concepts": 1935,
-    "observations": 1946,
-    "repos": 211,
-    "terms": 1938
+    "components": 4121,
+    "concepts": 1915,
+    "observations": 1925,
+    "repos": 206,
+    "terms": 1918
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "4catalyzer/javascript",
@@ -115,7 +115,6 @@
     "jax-ml/jax",
     "jestjs/jest",
     "joshsymonds/cc-tools",
-    "JuergenFleiss/aTrain",
     "JuliaGraphics/Luxor.jl",
     "JuliaPluto/Pluto.jl",
     "jupyter-server/jupyter_server",
@@ -135,13 +134,11 @@
     "machinewrapped/llm-subtrans",
     "mayocream/candle",
     "meshcat-dev/meshcat",
-    "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/vscode-js-debug",
     "mightyiam/eslint-config-love",
     "moby/moby",
     "modelscope/FunASR",
@@ -160,7 +157,6 @@
     "okd-project/okd",
     "ollama/ollama",
     "OpenHands/OpenHands",
-    "OpenHands/ToM-SWE",
     "oscard0m/ts-transformer-remove-named-export",
     "paralleldrive/cuid",
     "pivotal/credhub-release",
@@ -169,7 +165,6 @@
     "PrimeIntellect-ai/verifiers",
     "psf/black",
     "psmux/psmux",
-    "psmux/scoop-psmux",
     "pydantic/pydantic",
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",

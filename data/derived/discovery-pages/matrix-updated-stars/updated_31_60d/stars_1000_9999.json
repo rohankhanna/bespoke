@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 33197,
-    "concepts": 19195,
-    "observations": 19266,
-    "repos": 2444,
-    "terms": 19250
+    "components": 33220,
+    "concepts": 19204,
+    "observations": 19275,
+    "repos": 2446,
+    "terms": 19259
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -1209,6 +1209,7 @@
     "JuliaAI/MLJ.jl",
     "JuliaData/DataFrames.jl",
     "JuliaDocs/Franklin.jl",
+    "JuliaGPU/CUDA.jl",
     "JuliaLang/IJulia.jl",
     "JuliaLang/PackageCompiler.jl",
     "JuliaPlots/UnicodePlots.jl",
@@ -1421,6 +1422,7 @@
     "mapbox/pixelmatch",
     "mapillary/OpenSfM",
     "mapnik/mapnik",
+    "mapsforge/mapsforge",
     "maragudk/gomponents",
     "mark3labs/mcp-go",
     "markdownlint/markdownlint",
@@ -1952,7 +1954,6 @@
     "raviqqe/muffet",
     "ray-x/navigator.lua",
     "rbenv/ruby-build",
-    "rcarriga/nvim-dap-ui",
     "RDFLib/rdflib",
     "react-cosmos/react-cosmos",
     "react-hook-form/resolvers",
@@ -2183,6 +2184,7 @@
     "stripe/stripe-node",
     "stripe/stripe-python",
     "strukturag/libheif",
+    "stylelint/stylelint-config-standard",
     "sublimehq/Packages",
     "sublimelsp/LSP",
     "succinctlabs/sp1",

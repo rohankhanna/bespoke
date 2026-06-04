@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2465,
-    "concepts": 2150,
-    "observations": 2156,
+    "concepts": 2141,
+    "observations": 2147,
     "repos": 207,
-    "terms": 2170
+    "terms": 2161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -54,6 +54,7 @@
     "danielgatis/rembg",
     "dask/dask",
     "datalab-to/chandra",
+    "datalab-to/marker",
     "davila7/claude-code-templates",
     "delgan/loguru",
     "django/django",
@@ -198,7 +199,6 @@
     "state-spaces/mamba",
     "StevenBlack/hosts",
     "streamlit/streamlit",
-    "subframe7536/maple-font",
     "SWE-agent/SWE-agent",
     "sympy/sympy",
     "tensorflow/models",

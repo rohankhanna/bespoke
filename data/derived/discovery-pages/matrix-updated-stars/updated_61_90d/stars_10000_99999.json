@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1112,
-    "concepts": 722,
-    "observations": 724,
-    "repos": 115,
-    "terms": 727
+    "components": 1104,
+    "concepts": 720,
+    "observations": 722,
+    "repos": 114,
+    "terms": 725
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -78,10 +78,8 @@
     "libevent/libevent",
     "libgit2/libgit2",
     "localstack/localstack",
-    "lokesh/color-thief",
     "lxgw/LxgwWenKai",
     "m-bain/whisperX",
-    "macrozheng/mall",
     "markdown-it/markdown-it",
     "microsoft/AirSim",
     "microsoft/playwright-python",
@@ -113,6 +111,7 @@
     "sindresorhus/pure",
     "sirupsen/logrus",
     "sorin-ionescu/prezto",
+    "subframe7536/maple-font",
     "superclaude-org/superclaude_framework",
     "Swordfish90/cool-retro-term",
     "TA-Lib/ta-lib-python",

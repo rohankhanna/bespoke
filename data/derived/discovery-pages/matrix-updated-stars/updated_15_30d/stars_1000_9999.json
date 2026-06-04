@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1624,
-    "concepts": 1105,
-    "observations": 1107,
-    "repos": 122,
-    "terms": 1085
+    "components": 1597,
+    "concepts": 1091,
+    "observations": 1093,
+    "repos": 119,
+    "terms": 1071
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ag2s20150909/TTS",
@@ -62,7 +62,6 @@
     "jasonlong/isometric-contributions",
     "java-native-access/jna",
     "josh-project/josh",
-    "JuliaGPU/CUDA.jl",
     "JuliaLang/juliaup",
     "jump-dev/JuMP.jl",
     "junhoyeo/tokscale",
@@ -75,7 +74,6 @@
     "lumen-oss/rocks.nvim",
     "magenta/ddsp",
     "mangiucugna/json_repair",
-    "mapsforge/mapsforge",
     "marzer/tomlplusplus",
     "mikel-brostrom/boxmot",
     "minad/consult",
@@ -114,7 +112,6 @@
     "stakira/OpenUtau",
     "standardrb/standard",
     "strob/gentle",
-    "stylelint/stylelint-config-standard",
     "theJayTea/WritingTools",
     "truffleruby/truffleruby",
     "ufbx/ufbx",

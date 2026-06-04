@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1564,
-    "concepts": 835,
-    "observations": 836,
-    "repos": 122,
-    "terms": 828
+    "components": 1557,
+    "concepts": 798,
+    "observations": 799,
+    "repos": 117,
+    "terms": 791
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -48,7 +48,6 @@
     "DanielLin94144/Full-Duplex-Bench",
     "danielrosehill/Claude-Code-Projects-Index",
     "databrickslabs/ucx",
-    "dbkangaroo/kangaroo",
     "deepset-ai/haystack-integrations",
     "dgraph-io/dgraph-benchmarks",
     "DISTRHO/DPF",
@@ -72,7 +71,6 @@
     "GStreamer/cerbero",
     "inversify/monorepo",
     "Jamorim-esss/pytest-rich",
-    "jcefmaven/jcefmaven",
     "jump-dev/NLopt.jl",
     "kelos-dev/kelos",
     "kiron1/bazel-compile-commands",
@@ -88,10 +86,8 @@
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
-    "mapsforge/vtm",
     "microsoft/MIDI",
     "mingw-w64/mingw-w64",
-    "mit-plv/bedrock2",
     "mll-lab-nu/VAGEN",
     "mrcjkb/haskell-tools.nvim",
     "near/NEPs",
@@ -133,7 +129,6 @@
     "WICG/attribution-reporting-api",
     "xdebug/vscode-php-debug",
     "yoshoku/llama_cpp.rb",
-    "zhiyiYo/Groove",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

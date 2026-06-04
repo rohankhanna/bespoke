@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4915,
-    "concepts": 3232,
-    "observations": 3241,
+    "components": 4919,
+    "concepts": 3234,
+    "observations": 3243,
     "repos": 826,
-    "terms": 3228
+    "terms": 3230
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -63,6 +63,7 @@
     "AmenRa/retriv",
     "analogdevicesinc/ai8x-training",
     "AndrewRadev/switch.vim",
+    "angr/angrop",
     "angr/vex",
     "ankane/groupdate.sql",
     "ankane/kms_encrypted",
@@ -184,7 +185,6 @@
     "CGCL-codes/YiTu",
     "chaijs/deep-eql",
     "chakravala/Grassmann.jl",
-    "chengzhag/PanFusion",
     "chfast/intx",
     "Chris-hughes10/pytorch-accelerated",
     "christgau/wsdd",

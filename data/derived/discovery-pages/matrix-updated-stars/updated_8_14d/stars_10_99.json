@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 14,
-    "terms": 65
+    "components": 173,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 13,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "cloudfoundry/credhub-cli",
@@ -25,7 +25,6 @@
     "ogx-ai/ogx-client-typescript",
     "python-poetry/website",
     "skilld-dev/retriv",
-    "storybook-community/addon-queryparams",
-    "windsonR/vite-plugin-virtual-html"
+    "storybook-community/addon-queryparams"
   ]
 }

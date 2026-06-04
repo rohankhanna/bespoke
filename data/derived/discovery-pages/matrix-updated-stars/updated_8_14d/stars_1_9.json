@@ -1,22 +1,23 @@
 {
   "counts": {
     "components": 9,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 5,
-    "terms": 10
+    "concepts": 11,
+    "observations": 11,
+    "repos": 6,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-essentials",
     "cloudfoundry/credhub-acceptance-tests",
     "donut-party/endpoint-test",
     "lxgw/B5XiZhi",
+    "psmux/scoop-psmux",
     "Venly/web3-react-venly"
   ]
 }

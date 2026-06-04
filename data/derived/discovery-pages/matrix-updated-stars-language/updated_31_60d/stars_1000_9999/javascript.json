@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5112,
-    "concepts": 1001,
-    "observations": 1002,
-    "repos": 145,
-    "terms": 995
+    "components": 5127,
+    "concepts": 1004,
+    "observations": 1005,
+    "repos": 146,
+    "terms": 998
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -129,6 +129,7 @@
     "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
     "stdlib-js/stdlib",
+    "stylelint/stylelint-config-standard",
     "sveltejs/vite-plugin-svelte",
     "sverweij/dependency-cruiser",
     "swagger-api/swagger-editor",

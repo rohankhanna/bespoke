@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 113,
-    "observations": 113,
-    "repos": 13,
-    "terms": 112
+    "components": 62,
+    "concepts": 124,
+    "observations": 125,
+    "repos": 15,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -22,6 +22,8 @@
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
     "intelligent-machine-learning/dlrover",
+    "JuergenFleiss/aTrain",
+    "meta-pytorch/captum",
     "modelscope/FunClip",
     "NEKOparapa/AiNiee",
     "roboflow/maestro",

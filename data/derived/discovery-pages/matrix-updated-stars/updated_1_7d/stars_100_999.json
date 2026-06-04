@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 646,
-    "concepts": 352,
-    "observations": 353,
-    "repos": 51,
-    "terms": 352
+    "components": 640,
+    "concepts": 348,
+    "observations": 349,
+    "repos": 50,
+    "terms": 348
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-04T06:10:59.020083+00:00",
+  "generated_at": "2026-06-04T08:05:21.662938+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -49,7 +49,6 @@
     "meshcat-dev/meshcat",
     "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",
-    "OpenHands/ToM-SWE",
     "preactjs/preact-devtools",
     "readthedocs/commonmark.py",
     "redis/redis-om-spring",
