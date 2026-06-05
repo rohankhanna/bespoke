@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11213,
-    "concepts": 1634,
-    "observations": 1645,
-    "repos": 158,
-    "terms": 1645
+    "components": 11306,
+    "concepts": 1635,
+    "observations": 1646,
+    "repos": 159,
+    "terms": 1646
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -40,7 +40,6 @@
     "bvaughn/react-window",
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
-    "catppuccin/catppuccin",
     "changesets/changesets",
     "chatboxai/chatbox",
     "cheeriojs/cheerio",
@@ -161,8 +160,10 @@
     "vadimdemedes/ink",
     "vercel/swr",
     "Vinzent03/obsidian-git",
+    "vitejs/vite",
     "vitest-dev/vitest",
     "VSCodeVim/Vim",
+    "vuejs/core",
     "vuejs/vitepress",
     "vueuse/vueuse",
     "web-infra-dev/midscene",

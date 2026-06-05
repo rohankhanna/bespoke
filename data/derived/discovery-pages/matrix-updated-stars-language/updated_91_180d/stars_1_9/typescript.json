@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 18,
-    "terms": 78
+    "components": 165,
+    "concepts": 79,
+    "observations": 79,
+    "repos": 20,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
@@ -26,7 +26,9 @@
     "jspreadsheet/spreadsheet-react-server",
     "KSXGitHub/cargo-scripts-builder",
     "lxsmnsyc/sponsors",
+    "neuroverseos/neuroverseos-openclaw-governance",
     "PBK-B/i18next-cli-vue",
+    "realworld-apps/nitro-prisma-zod-realworld-example-app",
     "robbiespeed/metron",
     "The-Focus-AI/buttondown-skill",
     "typstyle-rs/typstyle-tampermonkey",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1104,
-    "concepts": 720,
-    "observations": 722,
-    "repos": 114,
-    "terms": 725
+    "components": 1147,
+    "concepts": 745,
+    "observations": 747,
+    "repos": 116,
+    "terms": 750
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -24,6 +24,7 @@
     "auth0/node-jsonwebtoken",
     "bellard/quickjs",
     "bol-van/zapret",
+    "catppuccin/catppuccin",
     "chriskiehl/Gooey",
     "chromedp/chromedp",
     "cloudwu/skynet",
@@ -46,6 +47,7 @@
     "eyaltoledano/claude-task-master",
     "facebook/zstd",
     "facebookresearch/dinov3",
+    "fastai/fastai",
     "fatih/vim-go",
     "FunAudioLLM/CosyVoice",
     "githubnext/monaspace",
@@ -94,6 +96,7 @@
     "PaddlePaddle/PaddleDetection",
     "panjf2000/ants",
     "panjf2000/gnet",
+    "parcel-bundler/parcel",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
@@ -125,7 +128,6 @@
     "videojs/video.js",
     "vuejs/awesome-vue",
     "Wan-Video/Wan2.2",
-    "websockets/ws",
-    "Zulko/moviepy"
+    "websockets/ws"
   ]
 }

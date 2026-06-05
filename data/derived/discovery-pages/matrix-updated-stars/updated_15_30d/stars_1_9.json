@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 95,
-    "observations": 96,
-    "repos": 23,
-    "terms": 95
+    "components": 159,
+    "concepts": 90,
+    "observations": 91,
+    "repos": 22,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "ADNTIO/crispy-bootloader-rp2040-rs",
@@ -28,13 +28,12 @@
     "HuaweiCloudDeveloper/karpenter-provider-huawei",
     "influxdata/arrow-datafusion",
     "ioBroker/plugin-sentry",
-    "kurrent-io/KurrentDB-Bridge-Client",
     "leleliu008/ppkg-formula-repository-official-core",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
     "nafg/jewish-date",
-    "PrimeIntellect-ai/renderers",
     "SeedScientist/K2V",
+    "Venly/web3-react-venly",
     "vovkos/axl"
   ]
 }

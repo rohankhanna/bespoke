@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 975,
-    "concepts": 719,
-    "observations": 721,
-    "repos": 186,
-    "terms": 734
+    "components": 973,
+    "concepts": 715,
+    "observations": 717,
+    "repos": 184,
+    "terms": 728
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "a2aproject/a2a-tck",
@@ -51,8 +51,8 @@
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
-    "beeware/briefcase-template",
     "bghira/CaptionFlow",
+    "braelyn-ai/mob",
     "browser-use/benchmark",
     "bufbuild/protovalidate-python",
     "caketop/python-starlark-go",
@@ -118,7 +118,6 @@
     "jupyter/governance",
     "jxpress/lightning-hydra-template-vertex-ai",
     "kserve/community",
-    "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
     "lace/polliwog",
     "lblankl/Short-RL",
     "LedgerHQ/ledgerctl",
@@ -166,6 +165,7 @@
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "python-graphblas/graphblas-algorithms",
+    "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
     "recap-utr/nlp-service",
@@ -180,13 +180,11 @@
     "scasella/nanochat-mlx",
     "scipy/scipy-stubs",
     "scipy/scipy.org",
-    "shiweijiezero/R3L",
     "Significant-Gravitas/gravitasml",
     "sigstore/sigstore-conformance",
     "skhu101/HumanLiff",
     "sliamh11/deus",
     "sphinx-contrib/sphinxcontrib-towncrier",
-    "sublimelsp/LSP-marksman",
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
     "svaningelgem/logprise",

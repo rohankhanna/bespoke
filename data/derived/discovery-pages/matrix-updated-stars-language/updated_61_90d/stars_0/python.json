@@ -3,7 +3,7 @@
     "components": 29,
     "concepts": 17,
     "observations": 17,
-    "repos": 10,
+    "repos": 11,
     "terms": 19
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "devnen/chatterbox-v2",
+    "iandees/scrapy-camoufox",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",

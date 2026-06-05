@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 980,
-    "concepts": 1282,
-    "observations": 1286,
-    "repos": 125,
-    "terms": 1277
+    "components": 1004,
+    "concepts": 1295,
+    "observations": 1299,
+    "repos": 127,
+    "terms": 1290
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -63,6 +63,7 @@
     "gabime/spdlog",
     "git/git",
     "gnachman/iTerm2",
+    "google-deepmind/mujoco",
     "google/benchmark",
     "google/filament",
     "google/flatbuffers",
@@ -78,6 +79,7 @@
     "jedisct1/libsodium",
     "jemalloc/jemalloc",
     "jonas/tig",
+    "jqlang/jq",
     "jrouwe/JoltPhysics",
     "k2-fsa/sherpa-onnx",
     "libsdl-org/SDL",

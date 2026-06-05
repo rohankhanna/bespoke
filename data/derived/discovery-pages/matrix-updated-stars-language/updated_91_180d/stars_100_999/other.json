@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 863,
-    "concepts": 828,
-    "observations": 829,
-    "repos": 215,
-    "terms": 823
+    "components": 873,
+    "concepts": 841,
+    "observations": 842,
+    "repos": 221,
+    "terms": 836
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -22,6 +22,7 @@
     "aesalazar/AsteroidsWasm",
     "ahausladen/PdfiumLib",
     "ahyatt/emacs-websocket",
+    "ajevans99/swift-json-schema",
     "analogdevicesinc/ai8x-training",
     "AndrewRadev/switch.vim",
     "ankane/groupdate.sql",
@@ -54,10 +55,12 @@
     "caddyserver/caddy-docker",
     "chakravala/Grassmann.jl",
     "cjohansen/replicant",
+    "claytonfarr/ralph-playbook",
     "cleanlab/examples",
     "clj-commons/etaoin",
     "clj-easy/graalvm-clojure",
     "clojure-emacs/inf-clojure",
+    "clojure/core.cache",
     "clojure/core.memoize",
     "clojure/core.unify",
     "clojure/data.fressian",
@@ -167,7 +170,9 @@
     "NimblePros/eShopOnWeb",
     "nschum/SwiftHamcrest",
     "nvimdev/guard.nvim",
+    "ocurrent/ocaml-ci",
     "olbrich/ruby-units",
+    "olimorris/neotest-rspec",
     "OpenBMB/CPM.cu",
     "PacificBiosciences/pbmm2",
     "PaulRBerg/foundry-template",
@@ -210,6 +215,7 @@
     "tomas-abrahamsson/gpb",
     "tomekw/hikari-cp",
     "tpapp/julia-repl",
+    "travis-ci/travis-api",
     "travis-ci/travis-build",
     "trptcolin/reply",
     "vim-jp/vim-cpp",

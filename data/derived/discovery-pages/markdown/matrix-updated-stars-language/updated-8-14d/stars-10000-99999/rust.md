@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-06-04T08:05:21.662938+00:00`
+Generated at: `2026-06-05T06:02:01.484471+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 6
-- components: 10
-- concepts: 6
-- observations: 6
+- repos: 2
+- terms: 17
+- components: 34
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36173 | 2026-05-28T23:06:52Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15289 | 2026-05-27T21:57:11Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 36173 | 2026-05-28T23:06:52Z | Rust | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 15289 | 2026-05-27T21:57:11Z | Rust | Infrastructure/tooling | 6 | 10 | 6 | 6 |

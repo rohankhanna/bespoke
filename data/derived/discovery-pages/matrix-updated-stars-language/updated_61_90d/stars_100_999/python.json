@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 617,
-    "observations": 621,
-    "repos": 128,
-    "terms": 617
+    "components": 395,
+    "concepts": 627,
+    "observations": 631,
+    "repos": 132,
+    "terms": 627
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
+    "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
@@ -59,6 +60,7 @@
     "HazyResearch/legalbench",
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
+    "HoangTheQuyen/think-better",
     "huawei-noah/noah-research",
     "hukkin/mdformat",
     "hustvl/Senna",
@@ -67,7 +69,6 @@
     "jpmml/sklearn2pmml",
     "jsegov/autoresearch-win-rtx",
     "kandinskylab/kandinsky-5",
-    "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/CLIP_benchmark",
     "laixintao/tokei-pie",
     "langfengQ/DrMAS",
@@ -79,6 +80,7 @@
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",
     "MAGREF-Video/MAGREF",
+    "marcelm/cutadapt",
     "matthew-brett/delocate",
     "melMass/comfy_mtb",
     "meta-pytorch/torchft",
@@ -100,6 +102,7 @@
     "nii-yamagishilab/project-NN-Pytorch-scripts",
     "NiltonVolpato/python-progressbar",
     "NM512/dreamerv3-torch",
+    "nvim-neotest/neotest-python",
     "NVlabs/GatedDeltaNet",
     "objectbox/objectbox-python",
     "open-tinker/OpenTinker",
@@ -112,6 +115,7 @@
     "pnkraemer/matfree",
     "psf/pyperf",
     "PyCQA/modernize",
+    "pypa/pyproject-hooks",
     "ronaldoussoren/pyobjc",
     "rosetta-rs/argparse-rosetta-rs",
     "RUC-NLPIR/Tool-Star",
@@ -125,10 +129,10 @@
     "Stanford-TML/robot_keyframe_kit",
     "strands-agents/mcp-server",
     "sunrainyg/RandOpt",
-    "svg-project/Sparse-VideoGen",
     "swc-17/SparseDrive",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
+    "Thinklab-SJTU/Bench2Drive-VL",
     "thu-ml/DiT-Extrapolation",
     "TorchDR/TorchDR",
     "Vinyzu/Botright",

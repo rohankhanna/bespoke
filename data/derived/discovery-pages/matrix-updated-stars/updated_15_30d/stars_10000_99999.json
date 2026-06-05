@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1013,
-    "concepts": 486,
-    "observations": 488,
-    "repos": 49,
-    "terms": 478
+    "components": 857,
+    "concepts": 440,
+    "observations": 442,
+    "repos": 43,
+    "terms": 432
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
@@ -24,18 +24,14 @@
     "clauderic/dnd-kit",
     "crewAIInc/crewAI",
     "DayBreak-u/chineseocr_lite",
-    "dotnet/aspnetcore",
-    "dotnet/AspNetCore.Docs",
     "emotion-js/emotion",
-    "etcd-io/etcd",
     "flipped-aurora/gin-vue-admin",
     "foliojs/pdfkit",
     "fuma-nama/fumadocs",
-    "google-deepmind/mujoco",
+    "gitleaks/gitleaks",
     "great-expectations/great_expectations",
     "HKUDS/CLI-Anything",
     "JetBrains/compose-multiplatform",
-    "jqlang/jq",
     "kepano/obsidian-skills",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
@@ -59,8 +55,6 @@
     "RooCodeInc/Roo-Code",
     "rust-lang/mdBook",
     "SubtitleEdit/subtitleedit",
-    "vitejs/vite",
-    "vuejs/core",
     "XAMPPRocky/tokei"
   ]
 }

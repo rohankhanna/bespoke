@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5483,
-    "concepts": 1976,
-    "observations": 1979,
-    "repos": 1393,
-    "terms": 1972
+    "components": 5486,
+    "concepts": 1979,
+    "observations": 1982,
+    "repos": 1395,
+    "terms": 1975
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -86,6 +86,7 @@
     "AdamFrey/clojure-html-server-live-reload-template",
     "adamgreig/spi-flash-rs",
     "adamharrison/lite-xl-www",
+    "adamharrison/quetta",
     "adapter-hub/adapter-transformers-legacy",
     "adeweb-be/volto-leaflet-block",
     "adriantheuma/llama2-raven",
@@ -725,6 +726,7 @@
     "hertz-contrib/cache",
     "hertz-contrib/etag",
     "heshengtao/sap-ai-sheet",
+    "heyoeyo/toadui",
     "hfp/libxsmm",
     "hhu-stups/jupyterlab-prolog-codemirror-extension",
     "HiceS/mirabuf",

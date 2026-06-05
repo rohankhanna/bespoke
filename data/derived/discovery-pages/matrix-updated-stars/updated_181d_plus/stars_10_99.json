@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12071,
-    "concepts": 6921,
-    "observations": 6938,
-    "repos": 3296,
-    "terms": 6868
+    "components": 12076,
+    "concepts": 6936,
+    "observations": 6953,
+    "repos": 3298,
+    "terms": 6883
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1391,6 +1391,7 @@
     "foojayio/badges",
     "FooSoft/md2vim",
     "FooSoft/yomichan-import",
+    "formigarafa/zxcvbn-rb",
     "FoundationVision/BitVAE",
     "fpco/pid1",
     "fperazzi/davis",
@@ -3245,6 +3246,7 @@
     "xrjr/mcutils",
     "xtensor-stack/xtensor-io",
     "xtensor-stack/xtensor-julia",
+    "xtensor-stack/xtensor-r",
     "xtensor-stack/Xtensor.jl",
     "xuankuzcr/FAST-Calib",
     "xuankuzcr/rpg_vikit",

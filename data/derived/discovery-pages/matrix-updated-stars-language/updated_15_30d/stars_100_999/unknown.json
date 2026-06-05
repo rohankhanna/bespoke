@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "components": 7,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
-    "deepset-ai/haystack-integrations",
-    "near/NEPs",
     "pyOpenSci/software-submission"
   ]
 }

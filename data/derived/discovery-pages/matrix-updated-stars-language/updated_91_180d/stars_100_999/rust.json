@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 409,
-    "concepts": 265,
-    "observations": 266,
+    "components": 388,
+    "concepts": 267,
+    "observations": 268,
     "repos": 68,
-    "terms": 263
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -44,7 +44,6 @@
     "jimblandy/perf-event",
     "Kampfkarren/selene",
     "kata-containers/cgroups-rs",
-    "kwonoj/swc-plugin-coverage-instrument",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
     "lquerel/gcp-bigquery-client",
@@ -58,6 +57,7 @@
     "orhun/tuitar",
     "pdf-rs/pdf_render",
     "pksunkara/cargo-workspaces",
+    "prisma/tiberius",
     "pythops/tenere",
     "ratatui/templates",
     "risinglightdb/sqllogictest-rs",

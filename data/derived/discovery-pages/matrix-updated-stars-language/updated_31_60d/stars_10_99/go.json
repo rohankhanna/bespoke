@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 448,
-    "observations": 451,
-    "repos": 101,
-    "terms": 444
+    "components": 663,
+    "concepts": 452,
+    "observations": 455,
+    "repos": 102,
+    "terms": 448
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -103,6 +103,7 @@
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
+    "tendermint/tm-db",
     "terraform-linters/tflint-ruleset-google",
     "tilt-dev/tilt-apiserver",
     "transparency-dev/armored-witness",

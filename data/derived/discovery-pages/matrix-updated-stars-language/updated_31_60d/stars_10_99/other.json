@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2154,
-    "concepts": 1224,
-    "observations": 1227,
-    "repos": 328,
-    "terms": 1226
+    "components": 2146,
+    "concepts": 1213,
+    "observations": 1216,
+    "repos": 326,
+    "terms": 1215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -54,7 +54,6 @@
     "arktekk/sbt-aether-deploy",
     "ArmandPhilippot/coldark",
     "Ascend/Ascend-CI",
-    "aspect-build/rules_cypress",
     "aspect-build/rules_esbuild",
     "ast-grep/ast-grep.github.io",
     "atsushieno/android-ci-package-installer",
@@ -100,7 +99,6 @@
     "countries/countries-data-json",
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
-    "curiosity-ai/hnsw-sharp",
     "dart-lang/core",
     "dart-lang/ecosystem",
     "dart-lang/i18n",
@@ -108,6 +106,7 @@
     "day8/re-frame-debux",
     "dcloudio/hello-uts",
     "DevEnterpriseSoftware/patchright-dotnet",
+    "dinosaure/blaze",
     "docusealco/rllama",
     "DOI-USGS/ncdfgeom",
     "dominique-unruh/qrhl-tool",
@@ -127,6 +126,7 @@
     "erlef/website",
     "ethpandaops/xatu-data",
     "etiennestuder/gradle-rocker-plugin",
+    "FactoryXCode/MfPack",
     "fern-api/docs-starter",
     "flatpak/flatpak-docs",
     "flavorjones/tailwindcss-ruby",
@@ -165,11 +165,9 @@
     "Humans-of-Julia/Bibliography.jl",
     "Humans-of-Julia/BibParser.jl",
     "i18next/react-i18next-gitbook",
-    "ibhagwan/ts-vimdoc.nvim",
     "IBM/hello-carbon-vue3",
     "ibmruntimes/zoslib",
     "IDAES/idaes-ext",
-    "idris-community/idris2-nvim",
     "inhere/kite",
     "inhere/php-sroute",
     "interstar/Patterning-Core",

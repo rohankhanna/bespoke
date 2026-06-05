@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 234,
-    "observations": 234,
-    "repos": 26,
-    "terms": 229
+    "components": 124,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 22,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
-    "agenda/agenda",
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
     "benchflow-ai/skillsbench",
     "devlooped/moq",
-    "foundry-rs/forge-std",
     "hacl-star/hacl-star",
     "intel/BigDL",
-    "jump-dev/JuMP.jl",
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
@@ -33,7 +30,6 @@
     "nvimdev/lspsaga.nvim",
     "opentk/opentk",
     "preservim/tagbar",
-    "rocq-prover/rocq",
     "stakira/OpenUtau",
     "standardrb/standard",
     "theJayTea/WritingTools",

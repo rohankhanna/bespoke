@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 124,
-    "observations": 125,
-    "repos": 15,
-    "terms": 123
+    "components": 88,
+    "concepts": 167,
+    "observations": 168,
+    "repos": 18,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
     "collabora/WhisperLive",
     "Farama-Foundation/Minigrid",
+    "fla-org/flash-linear-attention",
     "GalTransl/GalTransl",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
+    "huggingface/optimum-quanto",
     "intelligent-machine-learning/dlrover",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
     "modelscope/FunClip",
     "NEKOparapa/AiNiee",
+    "rllm-org/rllm",
     "roboflow/maestro",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1009,
-    "concepts": 413,
-    "observations": 413,
-    "repos": 281,
-    "terms": 442
+    "components": 991,
+    "concepts": 410,
+    "observations": 410,
+    "repos": 278,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -47,7 +47,6 @@
     "buty4649/mruby-yyjson",
     "cachix/nix-bindings-rust",
     "cachix/serde-envfile",
-    "caprica/generator-vlcj",
     "carloandremoreyra/xx",
     "cdeust/cortex-know-when-to-stop-training-model",
     "chafingdishposition355/go-skills",
@@ -95,7 +94,6 @@
     "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
-    "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
@@ -135,6 +133,7 @@
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
+    "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
@@ -219,7 +218,6 @@
     "hyper-mcp-rs/crypto-price-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "i18next/i18next-subliminal",
-    "iandees/scrapy-camoufox",
     "ipfs-examples/github-mgmt",
     "jonislutheran87/weclaw",
     "jsleekr/skilldigest",
@@ -233,7 +231,6 @@
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kalavai-net/kalavai-templates",
-    "kayabaNerve/monero-oxide",
     "kdn36/arrow-rs-object-store",
     "kdubbo/xds-api",
     "kidshadow79/ogma",

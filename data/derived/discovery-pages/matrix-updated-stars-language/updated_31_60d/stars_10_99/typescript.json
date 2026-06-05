@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3806,
-    "concepts": 685,
-    "observations": 690,
-    "repos": 140,
-    "terms": 717
+    "components": 3737,
+    "concepts": 673,
+    "observations": 678,
+    "repos": 138,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -32,7 +32,6 @@
     "Azure/powershell",
     "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
-    "blrchen/chatgpt-minimal",
     "bolasblack/shadow-cljs-vite-plugin",
     "buddingnewinsights/proxypal",
     "bufbuild/protovalidate-es",
@@ -109,7 +108,6 @@
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
     "NullVoxPopuli/ember-deep-tracked",
-    "obi1kenobi/cargo-semver-checks-action",
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",

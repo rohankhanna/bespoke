@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 735,
+    "components": 766,
     "concepts": 612,
     "observations": 620,
-    "repos": 183,
+    "repos": 184,
     "terms": 604
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -117,6 +117,7 @@
     "krivahtoo/silicon.nvim",
     "kurtbuilds/checkexec",
     "kvark/mint",
+    "kwonoj/swc-plugin-coverage-instrument",
     "LaurentMazare/diffusers-rs",
     "layr-labs/hello-world-avs",
     "lerouxrgd/datachannel-rs",

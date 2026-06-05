@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1913,
-    "concepts": 1293,
-    "observations": 1305,
-    "repos": 226,
-    "terms": 1292
+    "components": 1950,
+    "concepts": 1314,
+    "observations": 1326,
+    "repos": 229,
+    "terms": 1313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -23,6 +23,7 @@
     "actix/actix-net",
     "ada-url/rust",
     "agent-sh/agnix",
+    "agentclientprotocol/rust-sdk",
     "ajrcarey/pdfium-render",
     "akiomik/mado",
     "alex/rust-asn1",
@@ -43,7 +44,6 @@
     "arkworks-rs/crypto-primitives",
     "arkworks-rs/poly-commit",
     "arrow-udf/arrow-udf",
-    "athre0z/color-backtrace",
     "aws/aws-lc-rs",
     "azdavis/millet",
     "Azure/azure-sdk-for-rust",
@@ -170,6 +170,7 @@
     "nixops4/nixops4",
     "NixOS/nix-installer",
     "Nullus157/async-compression",
+    "open-telemetry/weaver",
     "openvm-org/openvm",
     "OptiVorbis/OptiVorbis",
     "oschwald/maxminddb-rust",
@@ -198,6 +199,7 @@
     "rust-lang/rustc-perf",
     "rust-lang/rustwide",
     "rust-lang/socket2",
+    "rust-lang/stdarch",
     "rust-lang/team",
     "rust-mobile/rust-android-examples",
     "rust-random/getrandom",
@@ -228,6 +230,7 @@
     "typst/packages",
     "udoprog/genco",
     "untitaker/hyperlink",
+    "utilityai/llama-cpp-rs",
     "vectordotdev/vrl",
     "Watfaq/PowerSession-rs",
     "Yatekii/imgui-wgpu-rs",

@@ -1,30 +1,37 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 13,
-    "terms": 61
+    "components": 255,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 20,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "cloudfoundry/credhub-cli",
     "dwyl/mvp",
+    "edge-classic/EDGE-classic",
+    "FAIR-IMPACT/MOD",
     "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
+    "joshsymonds/cc-tools",
     "karafka/example-apps",
     "lifegpc/msg-tool",
+    "lumen-oss/luarocks-tag-release",
+    "mongodb/winkerberos",
     "mono/skia",
     "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
     "python-poetry/website",
     "skilld-dev/retriv",
-    "storybook-community/addon-queryparams"
+    "storybook-community/addon-queryparams",
+    "TrigenSoftware/simple-release",
+    "vaporif/parry-guard"
   ]
 }

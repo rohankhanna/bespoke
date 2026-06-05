@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 10,
-    "terms": 67
+    "components": 100,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 11,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "babashka/nbb",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
+    "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
-    "emacscollective/auto-compile",
     "fsprojects/FSharp.Data.GraphQL",
-    "google/protobuf.dart",
+    "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
+    "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
     "sbt/sbt-jmh"
   ]

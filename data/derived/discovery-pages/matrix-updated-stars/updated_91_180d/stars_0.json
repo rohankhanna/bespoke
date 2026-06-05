@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 85,
-    "terms": 134
+    "components": 244,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 83,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -37,10 +37,8 @@
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
-    "danielrosehill/AMD-AI-Server",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
-    "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Model-Identifier",
     "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",

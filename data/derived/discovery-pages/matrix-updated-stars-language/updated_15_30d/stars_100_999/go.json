@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 8,
-    "terms": 78
+    "components": 39,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 7,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "andreykaipov/goobs",
+    "betterleaks/betterleaks",
     "dgraph-io/dgraph-benchmarks",
     "energye/energy",
-    "gookit/filter",
     "gookit/gcli",
     "kelos-dev/kelos",
-    "osmosis-labs/osmosis",
     "toml-lang/toml-test"
   ]
 }

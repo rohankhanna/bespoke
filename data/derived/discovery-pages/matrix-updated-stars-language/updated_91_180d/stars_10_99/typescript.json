@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 713,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 41,
-    "terms": 108
+    "components": 736,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 42,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -54,6 +54,7 @@
     "remotion-dev/brand",
     "SchwarzIT/api-linter-rules",
     "sculptdotfun/viberank",
-    "signalfx/opentelemetry-demo"
+    "signalfx/opentelemetry-demo",
+    "trzsz/tabby-trzsz"
   ]
 }

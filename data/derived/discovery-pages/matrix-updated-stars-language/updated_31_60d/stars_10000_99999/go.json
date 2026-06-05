@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1707,
-    "concepts": 1624,
-    "observations": 1630,
-    "repos": 134,
-    "terms": 1611
+    "components": 1714,
+    "concepts": 1639,
+    "observations": 1645,
+    "repos": 135,
+    "terms": 1626
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -61,6 +61,7 @@
     "docker/compose",
     "dolthub/dolt",
     "ent/ent",
+    "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
     "getsops/sops",

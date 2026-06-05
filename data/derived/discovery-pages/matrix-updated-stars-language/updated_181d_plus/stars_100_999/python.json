@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1250,
-    "concepts": 5635,
-    "observations": 5640,
-    "repos": 1882,
-    "terms": 5468
+    "components": 1255,
+    "concepts": 5649,
+    "observations": 5654,
+    "repos": 1885,
+    "terms": 5481
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -36,6 +36,7 @@
     "abgulati/LARS",
     "abisee/cnn-dailymail",
     "achembarpu/pockyt",
+    "acl-org/aclpubcheck",
     "aclements/latexrun",
     "ActiveVisionLab/DFNet",
     "ActiveVisionLab/nerfmm",
@@ -1320,6 +1321,7 @@
     "nnsvs/nnsvs",
     "nonebot/aiocqhttp",
     "notmahi/bet",
+    "nrl-ai/llama-assistant",
     "NTMC-Community/MatchZoo-py",
     "nttcslab-sp/kaldiio",
     "NUAAXQ/MLCVNet",
@@ -1772,6 +1774,7 @@
     "wjun0830/QD-DETR",
     "wondervictor/WiderFace-Evaluation",
     "wordweb/langchain-ChatGLM-and-TigerBot",
+    "worldbench/Robo3D",
     "wrchen530/leapvo",
     "wzhouxiff/RestoreFormer",
     "wzhouxiff/RestoreFormerPlusPlus",

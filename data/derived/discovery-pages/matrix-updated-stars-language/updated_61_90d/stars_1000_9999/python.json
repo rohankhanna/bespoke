@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 336,
-    "concepts": 612,
-    "observations": 612,
+    "components": 333,
+    "concepts": 608,
+    "observations": 608,
     "repos": 95,
-    "terms": 606
+    "terms": 602
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -42,6 +42,7 @@
     "facebookresearch/fvcore",
     "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
+    "flutydeer/audio-slicer",
     "google-deepmind/bsuite",
     "google/deepvariant",
     "google/ml_collections",
@@ -84,7 +85,6 @@
     "pytest-dev/pytest-cov",
     "python-hyper/h2",
     "pyupio/safety",
-    "randy3k/radian",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
     "s3prl/s3prl",

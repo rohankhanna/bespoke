@@ -3,7 +3,7 @@
     "components": 62,
     "concepts": 35,
     "observations": 35,
-    "repos": 35,
+    "repos": 36,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "aaron-he-zhu/cite-domain-rating",
@@ -23,6 +23,7 @@
     "alexpolonsky/awesome-agent-skills-israel",
     "apollographql/.github",
     "avivshafir/israeli-corporate-law-skill",
+    "awni/picochat",
     "buttercannfly/AIPex",
     "danielrosehill/AI-Model-Manager",
     "danielrosehill/Audio-Multimodal-AI-Resources",

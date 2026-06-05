@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1563,
-    "concepts": 415,
-    "observations": 417,
-    "repos": 99,
-    "terms": 415
+    "components": 1535,
+    "concepts": 412,
+    "observations": 414,
+    "repos": 97,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -27,7 +27,6 @@
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
-    "C-Lodder/grunt-postcss",
     "coasys/ad4m",
     "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
@@ -82,7 +81,6 @@
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
     "npm/types",
-    "nrwl/nx-ai-agents-config",
     "oclif/oclif.github.io",
     "octokit/app-permissions",
     "octokit/create-octokit-project.js",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 37,
-    "terms": 111
+    "components": 329,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 38,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
-    "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
     "AdguardTeam/CodeGuidelines",
     "angular/domino",
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",
     "brody2consult/react-native-module-init",
+    "C-Lodder/grunt-postcss",
     "csstree/stylelint-validator",
     "dart-lang/site-shared",
     "dwyl/phoenix-liveview-stopwatch",
@@ -46,6 +46,7 @@
     "neverendingqs/serverless-dotenv-example",
     "nodejs/email",
     "npm/json-parse-even-better-errors",
+    "nrwl/nx-ai-agents-config",
     "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",
     "ruby/setup-ruby-pkgs",

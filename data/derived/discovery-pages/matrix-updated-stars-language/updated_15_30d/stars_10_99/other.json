@@ -3,7 +3,7 @@
     "components": 249,
     "concepts": 133,
     "observations": 134,
-    "repos": 25,
+    "repos": 23,
     "terms": 133
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "atsushieno/augene-ng",
@@ -22,10 +22,8 @@
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
     "Cle2ment/CherryStudio_themes",
-    "dinosaure/blaze",
     "Elyahu41/KosherSwift",
     "f3liz-casa/noraneko",
-    "FactoryXCode/MfPack",
     "FreneticLLC/FreneticGameEngine",
     "HDFGroup/hdf5_plugins",
     "ludwig-ai/ludwig-docs",

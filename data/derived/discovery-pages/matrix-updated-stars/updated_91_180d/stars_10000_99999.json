@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1052,
-    "concepts": 673,
-    "observations": 678,
-    "repos": 107,
-    "terms": 671
+    "components": 1065,
+    "concepts": 684,
+    "observations": 689,
+    "repos": 108,
+    "terms": 682
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -119,6 +119,7 @@
     "winstonjs/winston",
     "yoheinakajima/babyagi",
     "zsh-users/zsh-syntax-highlighting",
+    "Zulko/moviepy",
     "zylon-ai/private-gpt"
   ]
 }

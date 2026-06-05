@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4527,
-    "concepts": 3481,
-    "observations": 3485,
+    "components": 4564,
+    "concepts": 3480,
+    "observations": 3484,
     "repos": 595,
-    "terms": 3496
+    "terms": 3495
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -85,7 +85,6 @@
     "Azure-Samples/openai-chat-app-quickstart",
     "Azure/bicep-registry-modules",
     "babashka/fs",
-    "babashka/neil",
     "babashka/pod-registry",
     "babashka/process",
     "basf/MolPipeline",
@@ -121,7 +120,6 @@
     "cabo/kramdown-rfc",
     "cachix/git-hooks.nix",
     "caddyserver/website",
-    "cafeTechne/antigravity-link-extension",
     "Calinou/scoop-games",
     "canonical/ubuntu-desktop-provision",
     "cashapp/licensee",
@@ -162,6 +160,7 @@
     "cortinico/kotlin-gradle-plugin-template",
     "cortinico/ktfmt-gradle",
     "cosmos/testnets",
+    "cowprotocol/contracts",
     "cp2k/dbcsr",
     "cplusplus/draft",
     "crazy-max/docker-osxcross",
@@ -341,7 +340,6 @@
     "JuliaPackaging/BinaryBuilder.jl",
     "JuliaPackaging/Preferences.jl",
     "JuliaPackaging/Yggdrasil",
-    "JuliaPluto/PlutoUI.jl",
     "JuliaPy/CondaPkg.jl",
     "JuliaRegistries/General",
     "JuliaRegistries/Registrator.jl",
@@ -350,6 +348,7 @@
     "JuliaSymbolics/SymbolicUtils.jl",
     "JuliaTesting/Aqua.jl",
     "JuliaWeb/HTTP.jl",
+    "jump-dev/NLopt.jl",
     "just-the-docs/just-the-docs-template",
     "jverzani/Mustache.jl",
     "k8s-operatorhub/community-operators",
@@ -543,6 +542,7 @@
     "Shatur/neovim-tasks",
     "Shopify/erb_lint",
     "Shopify/rubocop-sorbet",
+    "Shopify/tapioca",
     "sigstore/root-signing",
     "SimonCropp/NaughtyStrings",
     "simonmclean/triptych.nvim",

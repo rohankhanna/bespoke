@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15560,
-    "concepts": 14112,
-    "observations": 14140,
-    "repos": 4626,
-    "terms": 13873
+    "components": 15616,
+    "concepts": 14133,
+    "observations": 14161,
+    "repos": 4632,
+    "terms": 13893
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -90,6 +90,7 @@
     "achembarpu/pockyt",
     "acheronfail/repgrep",
     "acids-ircam/diffusion_models",
+    "acl-org/aclpubcheck",
     "aclements/latexrun",
     "ACloudGuru/serverless-plugin-aws-alerts",
     "acmesh-official/get.acme.sh",
@@ -1154,6 +1155,7 @@
     "Daikenan/LTMU",
     "DaiShiResearch/TransNeXt",
     "dajes/frame-interpolation-pytorch",
+    "dalek-cryptography/ed25519-dalek",
     "dalek-cryptography/x25519-dalek",
     "daler/pybedtools",
     "DAMO-NLP-SG/Inf-CLIP",
@@ -2598,6 +2600,7 @@
     "kwea123/nsff_pl",
     "kwea123/OpenVTuberProject",
     "kwea123/VTuber_Unity",
+    "kwonoj/swc-plugin-coverage-instrument",
     "kxhit/vMAP",
     "kylebgorman/pynini",
     "kylebgorman/swipe",
@@ -3289,6 +3292,7 @@
     "nowar-fonts/Warcraft-Font-Merger",
     "nrepl/piggieback",
     "nricciar/wikicloth",
+    "nrl-ai/llama-assistant",
     "NTBBloodbath/galaxyline.nvim",
     "NTBBloodbath/sweetie.nvim",
     "NTMC-Community/awesome-neural-models-for-semantic-match",
@@ -4097,6 +4101,7 @@
     "Tangshitao/QuadTreeAttention",
     "tanhuajie/Reason-RFT",
     "tanreinama/GPTSAN",
+    "TanStack/ranger",
     "TaoRuijie/TalkNet-ASD",
     "taoyds/syntaxSQL",
     "taoyds/test-suite-sql-eval",
@@ -4460,6 +4465,7 @@
     "wondervictor/WiderFace-Evaluation",
     "wooorm/mdxjs-rs",
     "wordweb/langchain-ChatGLM-and-TigerBot",
+    "worldbench/Robo3D",
     "wrchen530/leapvo",
     "wrkout/exercises.json",
     "wylieconlon/lsp-editor-adapter",

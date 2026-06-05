@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 273,
-    "observations": 274,
-    "repos": 39,
-    "terms": 272
+    "components": 231,
+    "concepts": 279,
+    "observations": 280,
+    "repos": 41,
+    "terms": 278
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
+    "anacrolix/dht",
     "Antonboom/testifylint",
     "appbaseio/reactivesearch-api",
     "argoproj-labs/argocd-rbac-operator",
@@ -23,6 +24,7 @@
     "aws/amazon-ec2-instance-selector",
     "aws/amazon-ec2-metadata-mock",
     "aws/amazon-ec2-spot-interrupter",
+    "aws/amazon-ecs-cni-plugins",
     "blampe/goat",
     "box-cli-maker/box-cli-maker",
     "cloudpilot-ai/karpenter-provider-alibabacloud",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1670,
-    "concepts": 1389,
-    "observations": 1396,
-    "repos": 202,
-    "terms": 1397
+    "components": 1685,
+    "concepts": 1401,
+    "observations": 1408,
+    "repos": 203,
+    "terms": 1409
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -52,7 +52,6 @@
     "bitrise-io/envman",
     "bluesky-social/goat",
     "boj/redistore",
-    "broderick-westrope/tetrigo",
     "bufbuild/protovalidate-go",
     "buildpacks/lifecycle",
     "ByteNess/aws-vault",
@@ -111,6 +110,7 @@
     "gookit/cache",
     "gookit/config",
     "gookit/event",
+    "gookit/filter",
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
     "hashicorp/errwrap",
@@ -173,6 +173,7 @@
     "opentofu/registry",
     "operator-framework/operator-registry",
     "oracle/oci-go-sdk",
+    "osmosis-labs/osmosis",
     "ossf/osv-schema",
     "phiat/claude-esp",
     "pion/ice",

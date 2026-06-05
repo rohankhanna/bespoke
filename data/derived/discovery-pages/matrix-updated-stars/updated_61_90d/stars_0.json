@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 119,
-    "observations": 121,
-    "repos": 88,
-    "terms": 122
+    "components": 284,
+    "concepts": 125,
+    "observations": 127,
+    "repos": 92,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "abbhisap/LLM-Council-SAP",
@@ -25,10 +25,12 @@
     "beurdouche/nss-gk-api",
     "bookcars/bookcars.github.io",
     "cachix/crossterm",
+    "caprica/generator-vlcj",
     "cwfitzgerald/libtest-mimic",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Projects-Index",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/amd-gpu-fixes",
@@ -64,9 +66,11 @@
     "hermit-os/safe-mmio",
     "hermit-os/tokio",
     "iambriccardo/gcp-bigquery-client",
+    "iandees/scrapy-camoufox",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
+    "kayabaNerve/monero-oxide",
     "kdubbo/api",
     "kdubbo/client-go",
     "lakekeeper/nats.rs",

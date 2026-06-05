@@ -3,7 +3,7 @@
     "components": 62,
     "concepts": 60,
     "observations": 60,
-    "repos": 35,
+    "repos": 34,
     "terms": 65
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "aayushbhaskar/OpenCouncil",
@@ -35,7 +35,6 @@
     "florisheedless915/grok-register",
     "hauntsaninja/mypy",
     "hmellor/vllm",
-    "iandees/scrapy-camoufox",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
     "lace/lacecore",

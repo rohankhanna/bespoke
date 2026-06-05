@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 472,
-    "concepts": 522,
-    "observations": 522,
-    "repos": 92,
-    "terms": 518
+    "components": 464,
+    "concepts": 512,
+    "observations": 512,
+    "repos": 90,
+    "terms": 508
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -25,7 +25,6 @@
     "aifoundry-org/et-platform",
     "akruphi/far2l",
     "analogdevicesinc/msdk",
-    "ankane/stl-cpp",
     "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
@@ -83,7 +82,6 @@
     "mxmlnkn/indexed_bzip2",
     "mybigday/llama.node",
     "narugit/smctemp",
-    "nvictus/pybbi",
     "nx10/unigd",
     "oneapi-src/unified-memory-framework",
     "openucx/xpmem",

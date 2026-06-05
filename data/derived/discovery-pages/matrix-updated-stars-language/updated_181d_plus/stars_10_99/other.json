@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2124,
-    "concepts": 1969,
-    "observations": 1975,
-    "repos": 853,
-    "terms": 1957
+    "components": 2126,
+    "concepts": 1976,
+    "observations": 1982,
+    "repos": 854,
+    "terms": 1964
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -374,6 +374,7 @@
     "flyers/drone-tracking",
     "foldl/WritingTools",
     "foojayio/badges",
+    "formigarafa/zxcvbn-rb",
     "fpco/pid1",
     "fredcamps/lsp-jedi",
     "FStarLang/fstar-mode.el",

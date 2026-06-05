@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4739,
-    "concepts": 846,
-    "observations": 849,
-    "repos": 103,
-    "terms": 835
+    "components": 4699,
+    "concepts": 833,
+    "observations": 836,
+    "repos": 102,
+    "terms": 822
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -84,7 +84,6 @@
     "nodemailer/nodemailer",
     "novnc/noVNC",
     "openai/codex-plugin-cc",
-    "parcel-bundler/parcel",
     "plotly/plotly.js",
     "postcss/autoprefixer",
     "pot-app/pot-desktop",

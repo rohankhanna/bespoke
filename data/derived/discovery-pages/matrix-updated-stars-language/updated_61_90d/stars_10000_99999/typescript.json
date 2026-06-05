@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 5,
-    "terms": 30
+    "components": 166,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 6,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "alibaba/ice",
     "AndyMik90/Aperant",
+    "catppuccin/catppuccin",
     "GoogleChromeLabs/squoosh",
     "humanlayer/humanlayer",
     "vercel/satori"

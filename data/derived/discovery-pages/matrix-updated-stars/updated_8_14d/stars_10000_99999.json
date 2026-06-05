@@ -1,29 +1,37 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 239,
-    "observations": 241,
-    "repos": 21,
-    "terms": 235
+    "components": 517,
+    "concepts": 353,
+    "observations": 355,
+    "repos": 32,
+    "terms": 346
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
     "datalab-to/surya",
+    "dense-analysis/ale",
     "dexie/Dexie.js",
+    "DioxusLabs/dioxus",
+    "fastapi/fastapi",
     "git-lfs/git-lfs",
-    "gitleaks/gitleaks",
     "google-ai-edge/mediapipe",
+    "googleapis/google-api-nodejs-client",
+    "grpc/grpc-java",
     "HIllya51/LunaTranslator",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
+    "huggingface/sentence-transformers",
     "isl-org/Open3D",
+    "jestjs/jest",
+    "Lightning-AI/litgpt",
+    "Lightning-AI/pytorch-lightning",
     "nwjs/nw.js",
     "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
@@ -33,6 +41,9 @@
     "quickwit-oss/tantivy",
     "spaceship-prompt/spaceship-prompt",
     "TEN-framework/ten-framework",
-    "unifyai/ivy"
+    "ungoogled-software/ungoogled-chromium",
+    "unifyai/ivy",
+    "vercel-labs/skills",
+    "zhayujie/CowAgent"
   ]
 }

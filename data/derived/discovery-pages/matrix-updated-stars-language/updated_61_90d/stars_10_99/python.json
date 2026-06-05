@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 59,
-    "terms": 188
+    "components": 253,
+    "concepts": 202,
+    "observations": 202,
+    "repos": 62,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
@@ -23,6 +23,7 @@
     "andyluo7/autoresearch",
     "archlizheng/frontend-slides-editable",
     "Azure-Samples/azureai-travel-agent-python",
+    "beeware/briefcase-template",
     "bentoml/openllm-models",
     "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
@@ -50,6 +51,7 @@
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
     "KratosMultiphysics/Examples",
+    "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
     "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
     "lucidrains/PoPE-pytorch",
@@ -65,12 +67,13 @@
     "rstudio/pins-python",
     "ServiceNow/webarena-verified",
     "seung-lab/cloud-files",
+    "shiweijiezero/R3L",
+    "sublimelsp/LSP-marksman",
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",
     "w1ndys/ex-cure-skill",
     "weaviate/agent-skills",
-    "xuanyuzhang21/VQ-Insight",
     "yaph/tts-samples",
     "yxlllc/RMVPE"
   ]

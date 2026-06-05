@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 199,
-    "observations": 199,
-    "repos": 20,
-    "terms": 198
+    "components": 127,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 17,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "doctest/doctest",
     "floooh/sokol",
     "free-audio/clap",
     "google/oboe",
-    "gpac/gpac",
     "iree-org/iree",
     "marzer/tomlplusplus",
     "Mithril-mine/libmdbx",
@@ -29,10 +28,8 @@
     "PortAudio/portaudio",
     "pure-data/pure-data",
     "skeeto/w64devkit",
-    "sorbet/sorbet",
     "ufbx/ufbx",
     "uxlfoundation/oneDNN",
-    "uxlfoundation/oneTBB",
     "WarmUpTill/SceneSwitcher"
   ]
 }

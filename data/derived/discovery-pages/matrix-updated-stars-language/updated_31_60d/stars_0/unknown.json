@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 55,
-    "concepts": 84,
-    "observations": 84,
+    "concepts": 86,
+    "observations": 86,
     "repos": 122,
-    "terms": 93
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -55,7 +55,6 @@
     "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
-    "danielrosehill/AI-Project-Spec-Pattern",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
@@ -89,6 +88,7 @@
     "danielrosehill/Claude-Favorite-Plugins-Installers-Plugin",
     "danielrosehill/Claude-Get-Toony-Plugin",
     "danielrosehill/Claude-GIMP-Plugin",
+    "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",

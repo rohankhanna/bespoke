@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 11,
-    "terms": 23
+    "components": 46,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 9,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "Agnuxo1/CAJAL",
     "apify/actor-templates",
     "baicai-1145/GPT-SoVITS-CPUFast",
-    "braelyn-ai/mob",
     "google-marketing-solutions/ariel",
     "google-research/mseb",
     "goombalab/raven",
     "mesh-iit/cad-libraries",
-    "python-jsonschema/referencing",
     "version-fox/vfox-plugins",
     "yulewang97/ERDiff"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1358,
-    "concepts": 1411,
-    "observations": 1414,
-    "repos": 258,
-    "terms": 1402
+    "components": 1383,
+    "concepts": 1445,
+    "observations": 1448,
+    "repos": 260,
+    "terms": 1436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -50,6 +50,7 @@
     "boostorg/multiprecision",
     "boostorg/nowide",
     "CarlosDerSeher/snapclient",
+    "CEED/libCEED",
     "chhylp123/hifiasm",
     "cisco/mlspp",
     "cjlin1/libmf",
@@ -89,13 +90,13 @@
     "flatpak/xdg-desktop-portal",
     "flavorjones/ruby-c-extensions-explained",
     "flexivrobotics/flexiv_rdk",
+    "foldl/chatllm.cpp",
     "freebayes/freebayes",
     "freebsd/kyua",
     "freeswitch/sofia-sip",
     "freetype/freetype",
     "fribidi/fribidi",
     "Frommi/miniz_oxide",
-    "g-truc/gli",
     "ganelson/inweb",
     "garglk/garglk",
     "gazebosim/gz-sensors",
@@ -202,6 +203,7 @@
     "oneapi-src/level-zero",
     "onnx/optimizer",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
+    "open-telemetry/opentelemetry-ebpf-instrumentation",
     "OpenLightingProject/ola",
     "openSUSE/catatonit",
     "openSUSE/libsolv",
@@ -209,6 +211,7 @@
     "openvinotoolkit/openvino.genai",
     "OpenVisualCloud/Media-Transport-Library",
     "optiscaler/OptiPatcher",
+    "ouster-lidar/ouster-ros",
     "pantoniou/libfyaml",
     "pauldmccarthy/indexed_gzip",
     "paullouisageneau/libjuice",
@@ -253,7 +256,6 @@
     "sp-nitech/SPTK",
     "tile-ai/tilelang-ascend",
     "todbot/hidapitester",
-    "tpoechtrager/apple-libtapi",
     "trealla-prolog/trealla",
     "triton-inference-server/backend",
     "triton-inference-server/core",

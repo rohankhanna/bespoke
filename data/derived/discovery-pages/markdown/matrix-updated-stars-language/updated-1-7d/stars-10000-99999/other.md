@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-04T08:05:21.662938+00:00`
+Generated at: `2026-06-05T06:02:01.484471+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 65
-- components: 95
-- concepts: 65
-- observations: 65
+- repos: 6
+- terms: 55
+- components: 92
+- concepts: 55
+- observations: 55
 
 ## Static behavior
 
@@ -32,7 +32,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 44607 | 2026-05-30T01:31:52Z | Other | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32491 | 2026-05-29T22:14:22Z | Other | Infrastructure/tooling | 19 | 47 | 19 | 19 |
 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13497 | 2026-05-29T07:08:10Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13993 | 2026-05-28T10:00:10Z | Other | CLI | 10 | 3 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -43,5 +42,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) | 32491 | 2026-05-29T22:14:22Z | Other | Infrastructure/tooling | 19 | 47 | 19 | 19 |
 | [triton-lang/triton](https://github.com/triton-lang/triton) | 19312 | 2026-05-30T05:54:21Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [upptime/upptime](https://github.com/upptime/upptime) | 17043 | 2026-05-30T03:59:07Z | Other | Infrastructure/tooling | 14 | 14 | 14 | 14 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13993 | 2026-05-28T10:00:10Z | Other | CLI | 10 | 3 | 10 | 10 |
 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13497 | 2026-05-29T07:08:10Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |

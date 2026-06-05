@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 434,
-    "concepts": 849,
-    "observations": 850,
+    "components": 430,
+    "concepts": 850,
+    "observations": 851,
     "repos": 171,
-    "terms": 835
+    "terms": 836
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -146,7 +146,6 @@
     "protectai/llm-guard",
     "prs-eth/Marigold",
     "PyCQA/pycodestyle",
-    "python-lsp/python-lsp-server",
     "Python-Markdown/markdown",
     "python-rope/rope",
     "python-semantic-release/python-semantic-release",
@@ -154,6 +153,7 @@
     "pyusb/pyusb",
     "qix-/better-exceptions",
     "QwenLM/Qwen-Image",
+    "randy3k/radian",
     "remsky/Kokoro-FastAPI",
     "RUC-NLPIR/WebThinker",
     "SafeAILab/EAGLE",

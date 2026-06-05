@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4394,
-    "concepts": 2155,
-    "observations": 2159,
+    "components": 4406,
+    "concepts": 2160,
+    "observations": 2164,
     "repos": 550,
-    "terms": 2180
+    "terms": 2185
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0ghny/shellx",
@@ -20,7 +20,6 @@
     "0xPolygonHermez/stark-recurser",
     "1mb-dev/natcheck",
     "1sh1ro/liangxi-skills",
-    "2KAbhishek/BWnB",
     "3mdeb/3mdeb-secpack",
     "5c077m4n/pikud-haoref-api-go",
     "5E7EN/Garmin-ZmanIQ",
@@ -69,7 +68,6 @@
     "angular/angular-devkit-architect-builds",
     "angular/angular-devkit-build-webpack-builds",
     "angular/dev-infra-private-ng-dev-builds",
-    "ankane/dist-c",
     "ankane/seaduck",
     "anojndr/grok-to-openai",
     "anolilab/unplugin-favicons",
@@ -369,6 +367,7 @@
     "ksxnodemodules/static-type-assert",
     "ksylvan/fabric",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
+    "kurrent-io/KurrentDB-Bridge-Client",
     "kyverno/community",
     "lace/proximity",
     "lahma/test262-harness-dotnet",
@@ -439,6 +438,7 @@
     "plone/cookieplone-templates",
     "poolifier/tatami-ng",
     "pot-app/.github",
+    "PrimeIntellect-ai/renderers",
     "probe-lab/tiros",
     "psmux/scoop-omp-manager",
     "puppetlabs/.github",

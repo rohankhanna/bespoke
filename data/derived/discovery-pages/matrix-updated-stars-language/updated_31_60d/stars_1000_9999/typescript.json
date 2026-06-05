@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11909,
-    "concepts": 2289,
-    "observations": 2294,
-    "repos": 284,
-    "terms": 2392
+    "components": 12060,
+    "concepts": 2348,
+    "observations": 2353,
+    "repos": 288,
+    "terms": 2449
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -206,12 +206,14 @@
     "nizos/tdd-guard",
     "nodejs/corepack",
     "nodejs/llhttp",
+    "NomicFoundation/hardhat",
     "nrwl/nx-console",
     "oclif/oclif",
     "octokit/core.js",
     "onecli/onecli",
     "op7418/codepilot",
     "opactorai/claudable",
+    "open-telemetry/opentelemetry-demo",
     "open-telemetry/opentelemetry-js",
     "openai/openai-agents-js",
     "OpenAPITools/openapi-generator-cli",
@@ -282,6 +284,7 @@
     "unjs/unhead",
     "valtyr/prisma-kysely",
     "vega/vega-lite",
+    "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
@@ -295,6 +298,7 @@
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight",
+    "withcatai/node-llama-cpp",
     "wundergraph/cosmo",
     "yarnpkg/berry",
     "zsviczian/obsidian-excalidraw-plugin"

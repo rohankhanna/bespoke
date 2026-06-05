@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 34,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
+    "DioxusLabs/dioxus",
     "quickwit-oss/tantivy"
   ]
 }

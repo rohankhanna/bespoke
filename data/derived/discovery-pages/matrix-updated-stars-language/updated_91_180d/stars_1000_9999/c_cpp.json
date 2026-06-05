@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 291,
-    "concepts": 370,
-    "observations": 371,
-    "repos": 73,
-    "terms": 363
+    "components": 296,
+    "concepts": 386,
+    "observations": 387,
+    "repos": 76,
+    "terms": 379
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
     "akheron/jansson",
+    "arrayfire/arrayfire",
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
     "attractivechaos/klib",
@@ -32,9 +33,11 @@
     "cjlin1/liblinear",
     "cocos/cocos-engine",
     "codeplea/tinyexpr",
+    "coin-or/Ipopt",
     "colmap/glomap",
     "cpputest/cpputest",
     "cztomczak/cefpython",
+    "eclipse-paho/paho.mqtt.c",
     "EKA2L1/EKA2L1",
     "emersion/slurp",
     "eradman/entr",
@@ -42,10 +45,10 @@
     "facebookresearch/habitat-sim",
     "flashlight/flashlight",
     "flashlight/wav2letter",
-    "gflags/gflags",
     "github/cmark-gfm",
     "golang-ui/nuklear",
     "google/re2",
+    "google/snappy",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "guinmoon/LLMFarm",
     "gulrak/filesystem",

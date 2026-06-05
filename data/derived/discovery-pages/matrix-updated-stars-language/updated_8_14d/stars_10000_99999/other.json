@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 8,
-    "observations": 8,
+    "components": 3,
+    "concepts": 10,
+    "observations": 10,
     "repos": 1,
-    "terms": 8
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-02T08:09:23.601669+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
-    "meta-llama/llama-cookbook"
+    "dense-analysis/ale"
   ]
 }

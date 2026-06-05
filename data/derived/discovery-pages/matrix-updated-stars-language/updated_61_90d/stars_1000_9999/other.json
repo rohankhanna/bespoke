@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 647,
-    "observations": 650,
-    "repos": 109,
-    "terms": 647
+    "components": 547,
+    "concepts": 672,
+    "observations": 678,
+    "repos": 115,
+    "terms": 672
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
+    "akermu/emacs-libvterm",
     "alexreisner/geocoder",
     "ankane/ahoy_email",
     "ankane/chartkick",
@@ -39,6 +40,7 @@
     "container-storage-interface/spec",
     "copilot-emacs/copilot.el",
     "csstools/sanitize.css",
+    "ctrlpvim/ctrlp.vim",
     "dakrone/cheshire",
     "DavBfr/dart_pdf",
     "dhall-lang/dhall-lang",
@@ -75,12 +77,14 @@
     "jpanther/congo",
     "JuliaPlots/Plots.jl",
     "kepano/obsidian-minimal",
+    "L3MON4D3/LuaSnip",
     "lindawangg/COVID-Net",
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
     "manzaltu/claude-code-ide.el",
     "metosin/reitit",
+    "mfussenegger/nvim-dap",
     "mhinz/vim-signify",
     "michalmuskala/jason",
     "nanxiaobei/hugo-paper",
@@ -110,8 +114,10 @@
     "ScoopInstaller/Install",
     "sds/overcommit",
     "slim-template/slim",
+    "socketry/async",
     "steipete/peekaboo",
     "stevearc/overseer.nvim",
+    "svenfuchs/rails-i18n",
     "swiftbar/SwiftBar",
     "tensorflow/tpu",
     "usbarmory/usbarmory",

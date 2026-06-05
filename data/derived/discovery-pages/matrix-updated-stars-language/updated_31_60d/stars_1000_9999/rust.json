@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2393,
-    "concepts": 1729,
-    "observations": 1736,
-    "repos": 232,
-    "terms": 1738
+    "components": 2433,
+    "concepts": 1763,
+    "observations": 1770,
+    "repos": 236,
+    "terms": 1772
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -22,6 +22,7 @@
     "AccessKit/accesskit",
     "actix/actix",
     "actix/examples",
+    "agentclientprotocol/agent-client-protocol",
     "ai-dynamo/dynamo",
     "alexpasmantier/television",
     "algesten/ureq",
@@ -40,6 +41,7 @@
     "aws/amazon-q-developer-cli",
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
+    "bionic-gpt/bionic-gpt",
     "bitcoindevkit/bdk",
     "blacknon/hwatch",
     "bluealloy/revm",
@@ -57,7 +59,6 @@
     "ccbrown/iocraft",
     "cedar-policy/cedar",
     "chelsea0x3b/cudarc",
-    "chronotope/chrono",
     "cobalt-org/cobalt.rs",
     "compio-rs/compio",
     "CosmWasm/cosmwasm",
@@ -74,6 +75,7 @@
     "dimforge/kiss3d",
     "dimforge/nalgebra",
     "dimforge/rapier",
+    "dora-rs/dora",
     "dtolnay/cxx",
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
@@ -180,6 +182,7 @@
     "robustmq/robustmq",
     "romanz/electrs",
     "ron-rs/ron",
+    "ros2-rust/ros2_rust",
     "rusqlite/rusqlite",
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/config-rs",
@@ -245,6 +248,7 @@
     "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
     "wasm-bindgen/wasm-pack",
+    "watchexec/watchexec",
     "WebAssembly/WASI"
   ]
 }

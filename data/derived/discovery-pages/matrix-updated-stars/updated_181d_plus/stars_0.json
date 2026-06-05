@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1335,
-    "concepts": 548,
-    "observations": 550,
-    "repos": 451,
-    "terms": 548
+    "components": 1340,
+    "concepts": 550,
+    "observations": 552,
+    "repos": 453,
+    "terms": 550
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -143,12 +143,14 @@
     "danielrosehill/AI-Friendly-Badge",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/All-About-MCP",
+    "danielrosehill/AMD-AI-Server",
     "danielrosehill/backup_internet_israel",
     "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/better-hashnode-backups",
     "danielrosehill/Career-Data-AI-Context-Repo",
     "danielrosehill/Careers-Utilities-System-Prompts",
     "danielrosehill/Claude-Code-Context-Feature-Requests",
+    "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Context-Chunker-Assistant",

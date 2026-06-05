@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 15,
-    "terms": 139
+    "components": 139,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 10,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
-    "agentclientprotocol/agent-client-protocol",
     "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
     "ash-rs/ash",
-    "bionic-gpt/bionic-gpt",
     "cordx56/rustowl",
-    "dora-rs/dora",
     "josh-project/josh",
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
     "lance-format/lance",
     "nix-rust/nix",
-    "reubeno/brush",
-    "ros2-rust/ros2_rust",
-    "watchexec/watchexec"
+    "reubeno/brush"
   ]
 }

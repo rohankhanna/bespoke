@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10637,
-    "concepts": 9213,
-    "observations": 9225,
-    "repos": 2375,
-    "terms": 9083
+    "components": 10647,
+    "concepts": 9219,
+    "observations": 9231,
+    "repos": 2377,
+    "terms": 9089
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -792,6 +792,7 @@
     "genmoai/mochi",
     "GEOSwift/GEOSwift",
     "get-alex/alex",
+    "gflags/gflags",
     "GFW-knocker/gfw_resist_tls_proxy",
     "gfx-rs/gfx",
     "gfx-rs/naga",
@@ -1784,6 +1785,7 @@
     "pyro-ppl/pyro",
     "pystardust/ytfzf",
     "python-eel/Eel",
+    "python-lsp/python-lsp-server",
     "PythonCharmers/python-future",
     "pytorch/functorch",
     "pytorch/serve",

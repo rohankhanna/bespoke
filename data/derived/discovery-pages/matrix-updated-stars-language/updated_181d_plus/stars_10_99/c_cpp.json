@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 556,
-    "concepts": 659,
-    "observations": 660,
-    "repos": 294,
-    "terms": 653
+    "components": 559,
+    "concepts": 667,
+    "observations": 668,
+    "repos": 295,
+    "terms": 661
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -302,6 +302,7 @@
     "XR-Robotics/XRoboToolkit-PC-Service",
     "xtensor-stack/xtensor-io",
     "xtensor-stack/xtensor-julia",
+    "xtensor-stack/xtensor-r",
     "xuankuzcr/rpg_vikit",
     "y-chan/node-voicevox-engine",
     "YuliangXiu/bvh-distance-queries",

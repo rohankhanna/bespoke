@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1284,
-    "concepts": 317,
-    "observations": 317,
-    "repos": 49,
-    "terms": 326
+    "components": 1236,
+    "concepts": 302,
+    "observations": 302,
+    "repos": 48,
+    "terms": 311
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
-    "agentscope-ai/agentscope-studio",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
+    "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
@@ -57,7 +57,6 @@
     "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
     "tracked-tools/tracked-built-ins",
-    "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
     "windingwind/zotero-plugin-template",

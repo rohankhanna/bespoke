@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 408,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 31,
-    "terms": 97
+    "components": 412,
+    "concepts": 102,
+    "observations": 103,
+    "repos": 32,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
+    "ably-labs/realtime-multiplayer-space-invaders",
     "ameshkov/safari-blocker",
     "apostrophecms/apostrophe-astro",
     "breejs/api",

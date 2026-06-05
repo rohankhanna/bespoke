@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1351,
-    "concepts": 351,
-    "observations": 353,
-    "repos": 40,
-    "terms": 385
+    "components": 1357,
+    "concepts": 370,
+    "observations": 372,
+    "repos": 41,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "affaan-m/everything-claude-code",
@@ -32,6 +32,7 @@
     "godotengine/godot",
     "golang/go",
     "google-gemini/gemini-cli",
+    "huggingface/transformers",
     "kubernetes/kubernetes",
     "langgenius/dify",
     "microsoft/generative-ai-for-beginners",

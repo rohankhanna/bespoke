@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 111,
-    "observations": 112,
-    "repos": 11,
-    "terms": 111
+    "components": 195,
+    "concepts": 160,
+    "observations": 161,
+    "repos": 17,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
+    "all-contributors/allcontributors.org",
     "babashka/sci",
     "beam-community/elixir-companies",
+    "clj-kondo/clj-kondo",
+    "datalevin/datalevin",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "licensee/licensed",
     "microsoft/PhiCookBook",
     "mono/SkiaSharp",
     "nvim-tree/nvim-web-devicons",
+    "okd-project/okd",
     "openai/openai-dotnet",
+    "psmux/psmux",
     "radian-software/straight.el",
-    "tModLoader/tModLoader"
+    "tModLoader/tModLoader",
+    "TryGhost/node-sqlite3"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1476,
-    "concepts": 698,
-    "observations": 703,
-    "repos": 54,
-    "terms": 701
+    "components": 1219,
+    "concepts": 568,
+    "observations": 572,
+    "repos": 42,
+    "terms": 574
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -20,24 +20,15 @@
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
-    "dense-analysis/ale",
-    "DioxusLabs/dioxus",
-    "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
     "gastownhall/beads",
     "gastownhall/gastown",
     "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "github-linguist/linguist",
-    "googleapis/google-api-nodejs-client",
-    "grpc/grpc-java",
-    "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
     "jax-ml/jax",
-    "jestjs/jest",
     "langchain-ai/langchainjs",
-    "Lightning-AI/litgpt",
-    "Lightning-AI/pytorch-lightning",
     "lobehub/lobehub",
     "moby/moby",
     "modelscope/FunASR",
@@ -59,13 +50,10 @@
     "storybookjs/storybook",
     "swiftlang/swift",
     "triton-lang/triton",
-    "ungoogled-software/ungoogled-chromium",
     "unocss/unocss",
     "upptime/upptime",
     "vbenjs/vue-vben-admin",
-    "vercel-labs/skills",
     "verl-project/verl",
-    "weaviate/weaviate",
-    "zhayujie/CowAgent"
+    "weaviate/weaviate"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 846,
-    "concepts": 176,
-    "observations": 179,
-    "repos": 11,
-    "terms": 183
+    "components": 686,
+    "concepts": 152,
+    "observations": 155,
+    "repos": 8,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "fastapi/full-stack-fastapi-template",
-    "googleapis/google-api-nodejs-client",
     "HumanSignal/label-studio",
-    "jestjs/jest",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "Redocly/redoc",
     "ruvnet/ruflo",
     "storybookjs/storybook",
-    "unocss/unocss",
-    "vercel-labs/skills"
+    "unocss/unocss"
   ]
 }

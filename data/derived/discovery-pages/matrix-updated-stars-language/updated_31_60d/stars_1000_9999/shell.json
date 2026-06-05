@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 259,
-    "concepts": 341,
-    "observations": 343,
-    "repos": 54,
-    "terms": 341
+    "concepts": 337,
+    "observations": 339,
+    "repos": 53,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -51,7 +51,6 @@
     "home-assistant/addons",
     "itzg/docker-minecraft-bedrock-server",
     "jkroepke/helm-secrets",
-    "matryer/xbar-plugins",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
     "nix-community/nix-direnv",

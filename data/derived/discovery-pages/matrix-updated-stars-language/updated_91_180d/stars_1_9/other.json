@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 207,
+    "components": 204,
     "concepts": 103,
     "observations": 103,
-    "repos": 53,
+    "repos": 52,
     "terms": 100
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
-    "adamharrison/quetta",
     "adobe/spectrum-tokens",
     "ahrefs/opam-check-npm-deps",
     "anchordotdev/puma-acme",

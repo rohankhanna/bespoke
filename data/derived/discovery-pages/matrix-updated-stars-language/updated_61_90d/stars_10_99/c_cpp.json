@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 29,
-    "terms": 110
+    "components": 124,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 30,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
     "AIWintermuteAI/whispercpp",
+    "ankane/stl-cpp",
     "aseprite/observable",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
@@ -33,11 +34,11 @@
     "heal-research/pyoperon",
     "ilyabrilev/biosim4",
     "intel/metrics-discovery",
-    "jupyter-xeus/xleaflet",
     "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",
     "mesh-iit/creo2urdf",
     "midi2-dev/ni-midi2",
+    "nvictus/pybbi",
     "onicai/llama_cpp_canister",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 866,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 21,
-    "terms": 181
+    "components": 920,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 23,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -20,11 +20,13 @@
     "apify/apify-cli",
     "apify/mcpc",
     "Brendonovich/MacroGraph",
+    "electron/packager",
     "embroider-build/ember-auto-import",
     "fluent-vue/fluent-vue",
     "inversify/monorepo",
     "Koenkk/zigbee-herdsman",
     "lambdalisue/vim-gin",
+    "LuaLS/vscode-lua",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",

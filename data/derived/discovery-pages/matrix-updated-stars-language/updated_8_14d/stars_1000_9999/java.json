@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 2,
-    "observations": 2,
+    "components": 23,
+    "concepts": 13,
+    "observations": 13,
     "repos": 1,
-    "terms": 2
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-29T08:49:15.383611+00:00",
+  "generated_at": "2026-06-05T06:02:01.484471+00:00",
   "repo_ids": [
-    "java-native-access/jna"
+    "eclipse-openvsx/openvsx"
   ]
 }
