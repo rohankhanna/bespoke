@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4564,
-    "concepts": 3480,
-    "observations": 3484,
-    "repos": 595,
-    "terms": 3495
+    "components": 4551,
+    "concepts": 3477,
+    "observations": 3481,
+    "repos": 593,
+    "terms": 3492
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -156,7 +156,6 @@
     "confluentinc/confluent-kafka-dotnet",
     "connectrpc/connect-kotlin",
     "connectrpc/connect-swift",
-    "coredns/helm",
     "cortinico/kotlin-gradle-plugin-template",
     "cortinico/ktfmt-gradle",
     "cosmos/testnets",
@@ -442,7 +441,6 @@
     "nvim-mini/mini.icons",
     "nvim-mini/mini.pick",
     "objectbox/objectbox-swift",
-    "ocaml-community/lambda-term",
     "ocaml-ppx/ocamlformat",
     "ocaml/ocaml-lsp",
     "ocaml/ocaml-re",

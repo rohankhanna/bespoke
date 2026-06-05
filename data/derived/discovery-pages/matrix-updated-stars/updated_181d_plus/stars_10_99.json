@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12076,
-    "concepts": 6936,
-    "observations": 6953,
-    "repos": 3298,
-    "terms": 6883
+    "components": 12085,
+    "concepts": 6944,
+    "observations": 6961,
+    "repos": 3299,
+    "terms": 6891
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1187,6 +1187,7 @@
     "dylibso/xtp-bindgen",
     "dymat/rwkv-burn",
     "dzcgaara/OVO-Open-Vocabulary-Occupancy",
+    "dzeiocom/simple-icons-astro",
     "dzryk/clip-grams",
     "e-alizadeh/Zotero2MD",
     "eaeful/WechatOCR_umi_plugin",

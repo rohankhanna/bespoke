@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 1257,
-    "concepts": 568,
-    "observations": 571,
-    "repos": 64,
-    "terms": 566
+    "components": 1347,
+    "concepts": 600,
+    "observations": 603,
+    "repos": 69,
+    "terms": 598
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
     "aigc-apps/VideoX-Fun",
+    "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
     "apollographql/apollo-tooling",
     "ashvardanian/NumKong",
@@ -28,6 +29,7 @@
     "databendlabs/databend",
     "datalevin/datalevin",
     "dkron-io/dkron",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "ebullient/obsidian-admonition",
     "eclipse-openvsx/openvsx",
@@ -37,7 +39,9 @@
     "GalTransl/GalTransl",
     "geotiffjs/geotiff.js",
     "gildas-lormeau/zip.js",
+    "google-deepmind/dm-haiku",
     "google-gemini/live-api-web-console",
+    "googleapis/google-api-go-client",
     "hermit-os/hermit-rs",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
@@ -62,6 +66,7 @@
     "openai/openai-dotnet",
     "psmux/psmux",
     "radian-software/straight.el",
+    "redis/redis-om-python",
     "riscv-collab/riscv-gnu-toolchain",
     "rllm-org/rllm",
     "roboflow/maestro",

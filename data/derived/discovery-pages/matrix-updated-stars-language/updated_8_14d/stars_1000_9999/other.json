@@ -3,7 +3,7 @@
     "components": 195,
     "concepts": 160,
     "observations": 161,
-    "repos": 17,
+    "repos": 18,
     "terms": 160
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/sci",
     "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
     "datalevin/datalevin",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "licensee/licensed",

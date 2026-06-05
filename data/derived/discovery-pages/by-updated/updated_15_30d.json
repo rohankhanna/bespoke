@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4344,
-    "concepts": 2479,
-    "observations": 2487,
-    "repos": 347,
-    "terms": 2446
+    "components": 4244,
+    "concepts": 2457,
+    "observations": 2465,
+    "repos": 342,
+    "terms": 2424
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -97,7 +97,6 @@
     "Cle2ment/CherryStudio_themes",
     "clearml/clearml-agent-bootstrap",
     "compozy/kb",
-    "conda-forge/python-build-feedstock",
     "copier-org/copier",
     "CopyText/TextCopy",
     "cordx56/rustowl",
@@ -123,7 +122,6 @@
     "Elyahu41/KosherSwift",
     "emacscollective/auto-compile",
     "embroider-build/ember-auto-import",
-    "emotion-js/emotion",
     "energye/designer",
     "energye/energy",
     "energye/examples",
@@ -168,7 +166,6 @@
     "GStreamer/cerbero",
     "hacl-star/hacl-star",
     "HDFGroup/hdf5_plugins",
-    "HKUDS/CLI-Anything",
     "hluaguo/learn-faster-kit",
     "HuaweiCloudDeveloper/karpenter-provider-huawei",
     "influxdata/arrow-datafusion",
@@ -201,7 +198,6 @@
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "kurrent-io/KurrentDB-Client-Rust",
-    "lambdalisue/vim-gin",
     "lambdalisue/vim-nerdfont",
     "lance-format/lance",
     "leleliu008/ppkg-formula-repository-official-core",
@@ -245,7 +241,6 @@
     "mrcjkb/neotest-haskell",
     "mrcjkb/rustaceanvim",
     "msiemens/tinydb",
-    "mstorsjo/llvm-mingw",
     "nafg/jewish-date",
     "Nelarius/imnodes",
     "neovim/nvim-lspconfig",

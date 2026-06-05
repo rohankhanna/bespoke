@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 84,
-    "terms": 96
+    "components": 86,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 85,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
@@ -30,6 +30,7 @@
     "Cebeerre/dnsblocklists",
     "conda-forge/captum-feedstock",
     "conda-forge/pyfive-feedstock",
+    "conda-forge/python-build-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",

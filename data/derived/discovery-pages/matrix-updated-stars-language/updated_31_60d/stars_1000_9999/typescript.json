@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12060,
-    "concepts": 2348,
-    "observations": 2353,
-    "repos": 288,
-    "terms": 2449
+    "components": 11997,
+    "concepts": 2337,
+    "observations": 2342,
+    "repos": 286,
+    "terms": 2438
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -184,7 +184,6 @@
     "maxritter/pilot-shell",
     "mdn/yari",
     "messageformat/messageformat",
-    "microsoft/node-pty",
     "microsoft/playwright-cli",
     "microsoft/rnx-kit",
     "microsoft/vscode-cmake-tools",
@@ -242,7 +241,6 @@
     "redhat-developer/vscode-java",
     "redhat-developer/yaml-language-server",
     "Redocly/redocly-cli",
-    "remotion-dev/github-unwrapped",
     "remotion-dev/skills",
     "retorquere/zotero-better-bibtex",
     "rolldown/tsdown",

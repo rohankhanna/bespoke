@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2566,
-    "concepts": 1427,
-    "observations": 1433,
+    "components": 2557,
+    "concepts": 1419,
+    "observations": 1425,
     "repos": 539,
-    "terms": 1432
+    "terms": 1424
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -197,7 +197,6 @@
     "dsxmachina/rfm",
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
-    "dzeiocom/simple-icons-astro",
     "Dzordzu/rust-apache-age",
     "EasternJournalist/pipeline",
     "ebml-go/webm",
@@ -425,6 +424,7 @@
     "omril321/automated-notebooklm",
     "OneSignal/serde-magnus",
     "opea-project/docs",
+    "OpenHands/openhands-chrome-extension",
     "opensearch-project/opentelemetry-demo",
     "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",

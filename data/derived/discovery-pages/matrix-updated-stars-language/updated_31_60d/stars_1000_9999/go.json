@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2533,
-    "concepts": 2493,
-    "observations": 2504,
-    "repos": 281,
-    "terms": 2491
+    "components": 2528,
+    "concepts": 2489,
+    "observations": 2500,
+    "repos": 280,
+    "terms": 2487
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -84,7 +84,6 @@
     "cloudnativelabs/kube-router",
     "cloudwego/hertz",
     "cloudwego/kitex",
-    "cloudwego/netpoll",
     "cncf/toc",
     "cockroachdb/pebble",
     "connectrpc/connect-go",

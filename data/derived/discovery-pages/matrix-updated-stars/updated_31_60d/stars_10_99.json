@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11067,
-    "concepts": 5232,
-    "observations": 5256,
-    "repos": 1234,
-    "terms": 5277
+    "components": 11066,
+    "concepts": 5227,
+    "observations": 5251,
+    "repos": 1233,
+    "terms": 5272
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -1183,7 +1183,6 @@
     "typeshed-internal/stub_uploader",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",
-    "uael/sv",
     "ultralytics/llm",
     "ungoogled-software/ungoogled-chromium-wiki",
     "universal-ctags/ctags-nightly-build",

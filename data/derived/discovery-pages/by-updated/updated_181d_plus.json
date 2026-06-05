@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48676,
-    "concepts": 34480,
-    "observations": 34544,
-    "repos": 12492,
-    "terms": 34026
+    "components": 48685,
+    "concepts": 34495,
+    "observations": 34559,
+    "repos": 12494,
+    "terms": 34041
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -3942,6 +3942,7 @@
     "dylibso/xtp-bindgen",
     "dymat/rwkv-burn",
     "dzcgaara/OVO-Open-Vocabulary-Occupancy",
+    "dzeiocom/simple-icons-astro",
     "dzryk/antarctic-captions",
     "dzryk/clip-grams",
     "e-alizadeh/Zotero2MD",
@@ -9193,6 +9194,7 @@
     "OpenBMB/ToolBench",
     "OpenBMB/UltraFeedback",
     "OpenBMB/VisCPM",
+    "OpenBMB/VisRAG",
     "OpenBMB/XAgent",
     "opencode-ai/opencode",
     "opencontainers/artifacts",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 4,
-    "terms": 39
+    "components": 34,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 3,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "argotorg/solidity",
-    "ggml-org/ggml",
     "ggml-org/whisper.cpp",
     "mozilla-ai/llamafile"
   ]

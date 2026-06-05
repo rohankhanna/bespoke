@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1357,
-    "concepts": 909,
-    "observations": 911,
-    "repos": 105,
-    "terms": 891
+    "components": 1347,
+    "concepts": 903,
+    "observations": 905,
+    "repos": 104,
+    "terms": 885
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ag2s20150909/TTS",
@@ -73,7 +73,6 @@
     "Mithril-mine/libmdbx",
     "mrcjkb/rustaceanvim",
     "msiemens/tinydb",
-    "mstorsjo/llvm-mingw",
     "Nelarius/imnodes",
     "nix-rust/nix",
     "nodenv/nodenv",

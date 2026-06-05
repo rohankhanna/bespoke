@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 857,
-    "concepts": 440,
-    "observations": 442,
-    "repos": 43,
-    "terms": 432
+    "components": 774,
+    "concepts": 429,
+    "observations": 431,
+    "repos": 41,
+    "terms": 421
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
@@ -24,13 +24,11 @@
     "clauderic/dnd-kit",
     "crewAIInc/crewAI",
     "DayBreak-u/chineseocr_lite",
-    "emotion-js/emotion",
     "flipped-aurora/gin-vue-admin",
     "foliojs/pdfkit",
     "fuma-nama/fumadocs",
     "gitleaks/gitleaks",
     "great-expectations/great_expectations",
-    "HKUDS/CLI-Anything",
     "JetBrains/compose-multiplatform",
     "kepano/obsidian-skills",
     "Kilo-Org/kilocode",

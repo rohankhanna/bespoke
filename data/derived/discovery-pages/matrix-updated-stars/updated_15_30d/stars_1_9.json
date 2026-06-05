@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 90,
-    "observations": 91,
-    "repos": 22,
-    "terms": 90
+    "components": 158,
+    "concepts": 89,
+    "observations": 90,
+    "repos": 21,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "ADNTIO/crispy-bootloader-rp2040-rs",
@@ -19,7 +19,6 @@
     "apache/casbin-fasthttp-auth",
     "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
-    "conda-forge/python-build-feedstock",
     "danielrosehill/Voxtype",
     "edward3h/docker-bds-integration-test",
     "energye/designer",

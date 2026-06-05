@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 423,
-    "concepts": 799,
-    "observations": 799,
-    "repos": 221,
-    "terms": 795
+    "concepts": 792,
+    "observations": 792,
+    "repos": 220,
+    "terms": 788
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -158,7 +158,6 @@
     "NVlabs/OmniVinci",
     "NVlabs/PS3",
     "OpenBMB/infllmv2_cuda_impl",
-    "OpenBMB/VisRAG",
     "OpenDriveLab/DriveAGI",
     "OpenDriveLab/LaneSegNet",
     "OpenGVLab/GUI-Odyssey",

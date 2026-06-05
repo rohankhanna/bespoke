@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4406,
-    "concepts": 2160,
-    "observations": 2164,
+    "components": 4386,
+    "concepts": 2155,
+    "observations": 2159,
     "repos": 550,
-    "terms": 2185
+    "terms": 2180
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0ghny/shellx",
@@ -152,6 +152,7 @@
     "conda-forge/pgvector-feedstock",
     "conda-forge/pybind11-feedstock",
     "conda-forge/pyfive-feedstock",
+    "conda-forge/python-build-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/rerun-sdk-feedstock",
     "conda-forge/scikit-build-core-feedstock",
@@ -415,7 +416,6 @@
     "oclif/plugin-version",
     "octokit/auth-callback.js",
     "octokit/auth-unauthenticated.js",
-    "octokit/openapi-webhooks",
     "onicai/IConfucius",
     "oobabooga/screenshots",
     "open-telemetry/opentelemetry-weaver-examples",

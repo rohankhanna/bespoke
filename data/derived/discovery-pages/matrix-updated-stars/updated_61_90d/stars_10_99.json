@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2019,
-    "concepts": 1223,
-    "observations": 1226,
+    "components": 2020,
+    "concepts": 1228,
+    "observations": 1231,
     "repos": 361,
-    "terms": 1220
+    "terms": 1225
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -308,7 +308,6 @@
     "OpenCIDN/ocimirror",
     "opencontainers/.github",
     "opencontainers/tob",
-    "OpenHands/openhands-chrome-extension",
     "operator-framework/community",
     "optuna/optunahub",
     "oracle-quickstart/oci-o11y-solutions",
@@ -362,6 +361,7 @@
     "Triang-jyed-driung/Rapid-Sampling",
     "Turbo87/flat-projection-rs",
     "typst/typst-flake",
+    "uael/sv",
     "undreamai/LlamaLib",
     "V13Axel/neotest-pest",
     "Vaishnav-Sabari-Girish/Hayasen",

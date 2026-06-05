@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2993,
-    "concepts": 663,
-    "observations": 663,
-    "repos": 281,
-    "terms": 654
+    "components": 3002,
+    "concepts": 671,
+    "observations": 671,
+    "repos": 282,
+    "terms": 662
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -114,6 +114,7 @@
     "dwyl/learn-flutter",
     "dwyl/learn-pre-commit",
     "dwyl/mongo-search",
+    "dzeiocom/simple-icons-astro",
     "electron-userland/electron-installer-redhat",
     "electron-userland/electron-installer-snap",
     "electron-userland/electron-installer-zip",

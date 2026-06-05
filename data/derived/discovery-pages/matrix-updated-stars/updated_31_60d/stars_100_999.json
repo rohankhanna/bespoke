@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 23282,
-    "concepts": 13556,
-    "observations": 13610,
-    "repos": 2358,
-    "terms": 13642
+    "components": 23268,
+    "concepts": 13542,
+    "observations": 13596,
+    "repos": 2356,
+    "terms": 13629
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -573,7 +573,6 @@
     "controlplaneio-fluxcd/flux-operator",
     "conventional-changelog/conventional-changelog-config-spec",
     "conventional-changelog/releaser-tools",
-    "coredns/helm",
     "corporateshark/lightweightvk",
     "cortinico/kotlin-gradle-plugin-template",
     "cortinico/ktfmt-gradle",
@@ -1061,7 +1060,6 @@
     "hazelcast/hazelcast-csharp-client",
     "hazelcast/hazelcast-go-client",
     "HazyResearch/HipKittens",
-    "heal-research/operon",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
     "Helium314/SCEE",
@@ -1368,6 +1366,7 @@
     "labring/aiproxy",
     "lambdaclass/ethrex",
     "lambdaisland/deep-diff2",
+    "lambdalisue/vim-gin",
     "langchain-ai/langgraph-bigtool",
     "LaurenzV/hayro",
     "LaurenzV/krilla",
@@ -1685,7 +1684,6 @@
     "objectbox/objectbox-swift",
     "observablehq/stdlib",
     "Obsidian-TTRPG-Community/initiative-tracker",
-    "ocaml-community/lambda-term",
     "ocaml-ppx/ocamlformat",
     "ocaml/ocaml-lsp",
     "ocaml/ocaml-re",

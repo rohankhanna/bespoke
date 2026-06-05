@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 7,
-    "terms": 81
+    "components": 60,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 6,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "crewAIInc/crewAI",
     "great-expectations/great_expectations",
-    "HKUDS/CLI-Anything",
     "ludwig-ai/ludwig",
     "modelscope/DiffSynth-Studio",
     "oobabooga/textgen",

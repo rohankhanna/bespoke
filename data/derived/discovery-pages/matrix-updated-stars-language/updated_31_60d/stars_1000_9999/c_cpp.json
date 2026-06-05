@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2351,
-    "concepts": 2451,
-    "observations": 2458,
-    "repos": 303,
-    "terms": 2434
+    "concepts": 2438,
+    "observations": 2444,
+    "repos": 302,
+    "terms": 2421
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -82,7 +82,6 @@
     "elfmz/far2l",
     "ericniebler/range-v3",
     "erincatto/box2d",
-    "espeak-ng/espeak-ng",
     "eth-brownie/brownie",
     "facebook/fbthrift",
     "facebook/igl",
@@ -107,7 +106,6 @@
     "gazebosim/gz-sim",
     "git-for-windows/git",
     "GNOME/glib",
-    "go-gl/glfw",
     "google/boringssl",
     "google/draco",
     "google/gemma.cpp",
@@ -206,6 +204,7 @@
     "ml-explore/mlx-swift",
     "Moddable-OpenSource/moddable",
     "mruby/mruby",
+    "mstorsjo/llvm-mingw",
     "netblue30/firejail",
     "NetHack/NetHack",
     "nihui/opencv-mobile",

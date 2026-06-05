@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 983,
-    "concepts": 666,
-    "observations": 669,
-    "repos": 164,
-    "terms": 659
+    "components": 996,
+    "concepts": 669,
+    "observations": 672,
+    "repos": 166,
+    "terms": 662
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -63,6 +63,7 @@
     "cloudstudio/ollama-laravel",
     "cloudwu/deepfuture",
     "cognitect/transit-clj",
+    "coredns/helm",
     "cpp-pm/hunter",
     "creativescala/doodle",
     "crivotz/nv-ide",
@@ -138,6 +139,7 @@
     "nebula-plugins/nebula-release-plugin",
     "nvim-mini/mini.diff",
     "nvim-neotest/neotest-jest",
+    "ocaml-community/lambda-term",
     "ocaml-community/utop",
     "ocurrent/ocurrent",
     "onionpancakes/chassis",

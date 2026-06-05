@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1435,
-    "concepts": 703,
-    "observations": 704,
-    "repos": 106,
-    "terms": 696
+    "components": 1429,
+    "concepts": 699,
+    "observations": 700,
+    "repos": 105,
+    "terms": 692
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -77,7 +77,6 @@
     "KosherJava/zmanim",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
-    "lambdalisue/vim-gin",
     "lambdalisue/vim-nerdfont",
     "lite-xl/lite-xl-plugin-manager",
     "LuaLS/vscode-lua",

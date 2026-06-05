@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2465,
-    "concepts": 2141,
-    "observations": 2147,
-    "repos": 207,
-    "terms": 2161
+    "components": 2474,
+    "concepts": 2146,
+    "observations": 2152,
+    "repos": 208,
+    "terms": 2166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -90,6 +90,7 @@
     "google/yapf",
     "gradio-app/gradio",
     "hesreallyhim/awesome-claude-code",
+    "HKUDS/CLI-Anything",
     "HKUDS/LightRAG",
     "HKUDS/RAG-Anything",
     "home-assistant/core",

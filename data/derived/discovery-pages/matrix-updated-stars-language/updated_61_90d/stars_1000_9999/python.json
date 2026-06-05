@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 608,
-    "observations": 608,
-    "repos": 95,
-    "terms": 602
+    "components": 328,
+    "concepts": 592,
+    "observations": 592,
+    "repos": 94,
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -70,7 +70,6 @@
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "niklasf/python-chess",
-    "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/flownet2-pytorch",
     "NVlabs/VILA",

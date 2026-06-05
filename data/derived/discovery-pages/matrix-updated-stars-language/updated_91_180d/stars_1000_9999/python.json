@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 430,
-    "concepts": 850,
-    "observations": 851,
-    "repos": 171,
-    "terms": 836
+    "components": 435,
+    "concepts": 866,
+    "observations": 867,
+    "repos": 172,
+    "terms": 852
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -122,6 +122,7 @@
     "novnc/websockify",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "nunchaku-ai/nunchaku",
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
     "obsei/obsei",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 517,
-    "concepts": 353,
-    "observations": 355,
-    "repos": 32,
-    "terms": 346
+    "components": 538,
+    "concepts": 383,
+    "observations": 385,
+    "repos": 35,
+    "terms": 376
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
@@ -20,7 +20,9 @@
     "dexie/Dexie.js",
     "DioxusLabs/dioxus",
     "fastapi/fastapi",
+    "ggml-org/ggml",
     "git-lfs/git-lfs",
+    "github-linguist/linguist",
     "google-ai-edge/mediapipe",
     "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",
@@ -38,6 +40,7 @@
     "preactjs/preact",
     "protocolbuffers/protobuf",
     "python-poetry/poetry",
+    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "spaceship-prompt/spaceship-prompt",
     "TEN-framework/ten-framework",

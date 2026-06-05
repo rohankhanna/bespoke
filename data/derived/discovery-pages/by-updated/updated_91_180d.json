@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 13503,
-    "concepts": 8927,
-    "observations": 8957,
-    "repos": 2387,
-    "terms": 8906
+    "components": 13499,
+    "concepts": 8932,
+    "observations": 8962,
+    "repos": 2388,
+    "terms": 8911
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -796,7 +796,6 @@
     "dwyl/learn-json-web-tokens",
     "dwyl/phoenix-liveview-chat-example",
     "dzeiocom/lucide-astro",
-    "dzeiocom/simple-icons-astro",
     "Dzordzu/rust-apache-age",
     "EasternJournalist/pipeline",
     "ebml-go/webm",
@@ -1683,6 +1682,7 @@
     "numman-ali/openskills",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
     "nunchaku-ai/ComfyUI-nunchaku",
+    "nunchaku-ai/nunchaku",
     "nutsdb/nutsdb",
     "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
@@ -1738,7 +1738,6 @@
     "OpenBMB/CPM.cu",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenBMB/MiniCPM",
-    "OpenBMB/VisRAG",
     "OpenCIDN/httpmirror",
     "opencontainers/image-spec",
     "opencv/opencv-python",
@@ -1746,6 +1745,7 @@
     "OpenDriveLab/DriveAGI",
     "OpenDriveLab/LaneSegNet",
     "OpenGVLab/GUI-Odyssey",
+    "OpenHands/openhands-chrome-extension",
     "OpenMOSS/FRoM-W1",
     "openMVG/openMVG",
     "OpenNMT/CTranslate2",
@@ -2263,6 +2263,7 @@
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "vega/schema",
     "Velesio/velesio-aiserver",
+    "veorq/SipHash",
     "vercel-labs/include_dir",
     "vercel/ms",
     "version-fox/vfox-plugin-template",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1383,
-    "concepts": 1445,
-    "observations": 1448,
-    "repos": 260,
-    "terms": 1436
+    "components": 1376,
+    "concepts": 1430,
+    "observations": 1433,
+    "repos": 259,
+    "terms": 1422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -117,7 +117,6 @@
     "hajimes/mmh3",
     "hamcrest/OCHamcrest",
     "HazyResearch/HipKittens",
-    "heal-research/operon",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
     "highfive-devs/highfive",

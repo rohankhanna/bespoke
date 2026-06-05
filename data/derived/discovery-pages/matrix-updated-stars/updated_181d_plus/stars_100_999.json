@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 15616,
-    "concepts": 14133,
-    "observations": 14161,
-    "repos": 4632,
-    "terms": 13893
+    "concepts": 14140,
+    "observations": 14168,
+    "repos": 4633,
+    "terms": 13900
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -3402,6 +3402,7 @@
     "OpenBMB/ModelCenter",
     "OpenBMB/RepoAgent",
     "OpenBMB/UltraFeedback",
+    "OpenBMB/VisRAG",
     "opencontainers/artifacts",
     "opencontainers/artwork",
     "opendatalab/magic-doc",

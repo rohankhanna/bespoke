@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4113,
-    "concepts": 2765,
-    "observations": 2777,
-    "repos": 602,
-    "terms": 2769
+    "components": 4133,
+    "concepts": 2779,
+    "observations": 2791,
+    "repos": 604,
+    "terms": 2782
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -147,6 +147,7 @@
     "conan-io/cmake-conan",
     "connectrpc/connect-query-es",
     "containers/conmon",
+    "coredns/helm",
     "corteva/rioxarray",
     "cpp-pm/hunter",
     "creativescala/doodle",
@@ -279,6 +280,7 @@
     "hazelcast/hazelcast-nodejs-client",
     "HazyResearch/legalbench",
     "HazyResearch/zoology",
+    "heal-research/operon",
     "helm/chart-testing-action",
     "helm/community",
     "heroku/heroku-buildpack-pgbouncer",
@@ -449,6 +451,7 @@
     "objectbox/objectbox-examples",
     "objectbox/objectbox-python",
     "oblador/react-native-vector-image",
+    "ocaml-community/lambda-term",
     "ocaml-community/utop",
     "ocurrent/ocurrent",
     "OffchainLabs/arbitrum-tutorials",
@@ -586,7 +589,6 @@
     "uxlfoundation/oneMath",
     "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
-    "veorq/SipHash",
     "VeriSilicon/TIM-VX",
     "vim-denops/denops.vim",
     "Vinyzu/Botright",

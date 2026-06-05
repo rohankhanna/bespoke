@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1255,
-    "concepts": 5649,
-    "observations": 5654,
-    "repos": 1885,
-    "terms": 5481
+    "concepts": 5656,
+    "observations": 5661,
+    "repos": 1886,
+    "terms": 5488
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1379,6 +1379,7 @@
     "OpenBMB/ModelCenter",
     "OpenBMB/RepoAgent",
     "OpenBMB/UltraFeedback",
+    "OpenBMB/VisRAG",
     "opendatalab/magic-doc",
     "opendatalab/UniMERNet",
     "OpenDriveLab/PersFormer_3DLane",

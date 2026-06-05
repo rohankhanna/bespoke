@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25265,
-    "concepts": 10808,
-    "observations": 10848,
-    "repos": 1047,
-    "terms": 10786
+    "components": 25348,
+    "concepts": 10819,
+    "observations": 10859,
+    "repos": 1049,
+    "terms": 10797
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T06:02:01.484471+00:00",
+  "generated_at": "2026-06-05T07:56:21.398708+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -313,6 +313,7 @@
     "emberjs/ember.js",
     "emilk/egui",
     "emmabostian/developer-portfolios",
+    "emotion-js/emotion",
     "emscripten-core/emscripten",
     "ent/ent",
     "envoyproxy/envoy",
@@ -470,6 +471,7 @@
     "helm/helm",
     "hesreallyhim/awesome-claude-code",
     "hibiken/asynq",
+    "HKUDS/CLI-Anything",
     "HKUDS/LightRAG",
     "HKUDS/RAG-Anything",
     "home-assistant/core",
