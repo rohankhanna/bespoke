@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 280,
-    "concepts": 287,
-    "observations": 287,
+    "components": 278,
+    "concepts": 290,
+    "observations": 290,
     "repos": 57,
-    "terms": 279
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -50,7 +50,6 @@
     "itchyny/gojq",
     "kubernetes-sigs/krew",
     "mailru/easyjson",
-    "mattn/efm-langserver",
     "mattn/goreman",
     "minio/operator",
     "mozillazg/go-pinyin",
@@ -65,6 +64,7 @@
     "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "stripe/stripe-mock",
+    "tdewolff/canvas",
     "vishvananda/netlink",
     "xjasonlyu/tun2socks",
     "xtaci/kcp-go",

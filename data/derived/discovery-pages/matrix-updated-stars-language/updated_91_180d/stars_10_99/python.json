@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 282,
-    "observations": 283,
-    "repos": 109,
-    "terms": 290
+    "components": 270,
+    "concepts": 283,
+    "observations": 284,
+    "repos": 110,
+    "terms": 291
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -45,6 +45,7 @@
     "chaoss/grimoirelab-kidash",
     "chenkang455/ManiSkill-GS",
     "ChenMnZ/INT_vs_FP",
+    "cldf/segments",
     "CMBAgents/cmbagent",
     "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",

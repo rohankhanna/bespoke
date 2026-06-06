@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 463,
-    "concepts": 507,
-    "observations": 507,
+    "components": 452,
+    "concepts": 503,
+    "observations": 503,
     "repos": 89,
-    "terms": 503
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -29,6 +29,7 @@
     "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "BirolLab/btllib",
+    "bmwiedemann/openSUSE",
     "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
@@ -36,7 +37,6 @@
     "clouren/SPEX",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
-    "cpmech/tritet",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
     "embeddedartistry/libcpp",
@@ -87,7 +87,6 @@
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
     "proxy-wasm/proxy-wasm-cpp-host",
-    "r-lyeh/Spectral",
     "rapidsai/ucxx",
     "ROCm/rocAL",
     "ROCm/ROCgdb",
@@ -102,6 +101,7 @@
     "xjb714/xjb",
     "yoshoku/numo-narray-alt",
     "yquake2/ref_vk",
-    "yquake2/yquake2remaster"
+    "yquake2/yquake2remaster",
+    "zig-wasm/wasmer-zig-api"
   ]
 }

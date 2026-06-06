@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 289,
-    "concepts": 386,
-    "observations": 390,
-    "repos": 70,
-    "terms": 394
+    "concepts": 376,
+    "observations": 380,
+    "repos": 69,
+    "terms": 384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -71,7 +71,6 @@
     "rsmdt/the-startup",
     "rust-cross/rust-musl-cross",
     "rz1989s/claude-code-statusline",
-    "SamNet-dev/paqctl",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-php-container",

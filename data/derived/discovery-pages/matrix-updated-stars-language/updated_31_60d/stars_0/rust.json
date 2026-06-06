@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 150,
+    "components": 144,
     "concepts": 44,
     "observations": 44,
-    "repos": 22,
+    "repos": 21,
     "terms": 52
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
@@ -29,7 +29,6 @@
     "hyper-mcp-rs/defuddle-plugin",
     "jsleekr/skilldigest",
     "lakekeeper/iceberg-rust",
-    "MaterializeInc/duckdb-rs",
     "mupozg823/codelens-mcp-plugin",
     "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",

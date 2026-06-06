@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 154,
-    "observations": 154,
+    "components": 108,
+    "concepts": 145,
+    "observations": 145,
     "repos": 16,
-    "terms": 153
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "doctest/doctest",
@@ -21,9 +21,9 @@
     "google/oboe",
     "iree-org/iree",
     "marzer/tomlplusplus",
+    "microsoft/Detours",
     "Mithril-mine/libmdbx",
     "Nelarius/imnodes",
-    "OSGeo/gdal",
     "PortAudio/portaudio",
     "pure-data/pure-data",
     "skeeto/w64devkit",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2474,
-    "concepts": 2146,
-    "observations": 2152,
-    "repos": 208,
-    "terms": 2166
+    "components": 2485,
+    "concepts": 2162,
+    "observations": 2168,
+    "repos": 207,
+    "terms": 2182
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -48,6 +48,7 @@
     "chubin/wttr.in",
     "codelucas/newspaper",
     "cookiecutter/cookiecutter-django",
+    "crewAIInc/crewAI",
     "cupy/cupy",
     "cvat-ai/cvat",
     "dagster-io/dagster",
@@ -56,7 +57,6 @@
     "datalab-to/chandra",
     "datalab-to/marker",
     "davila7/claude-code-templates",
-    "delgan/loguru",
     "django/django",
     "DLR-RM/stable-baselines3",
     "docling-project/docling",
@@ -75,7 +75,6 @@
     "facefusion/facefusion",
     "Farama-Foundation/Gymnasium",
     "fastapi/typer",
-    "fishaudio/fish-speech",
     "FlagOpen/FlagEmbedding",
     "fossasia/visdom",
     "GaiZhenbiao/ChuanhuChatGPT",
@@ -89,6 +88,7 @@
     "google/magika",
     "google/yapf",
     "gradio-app/gradio",
+    "great-expectations/great_expectations",
     "hesreallyhim/awesome-claude-code",
     "HKUDS/CLI-Anything",
     "HKUDS/LightRAG",
@@ -149,7 +149,6 @@
     "openai/openai-python",
     "openai/swarm",
     "openai/whisper",
-    "OpenBMB/ChatDev",
     "OpenBMB/MiniCPM-o",
     "opendatalab/MinerU",
     "optuna/optuna",

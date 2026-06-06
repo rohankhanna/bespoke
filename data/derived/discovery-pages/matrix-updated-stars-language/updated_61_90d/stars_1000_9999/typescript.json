@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1700,
-    "concepts": 335,
-    "observations": 336,
-    "repos": 47,
-    "terms": 357
+    "components": 1825,
+    "concepts": 366,
+    "observations": 367,
+    "repos": 51,
+    "terms": 388
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -23,12 +23,16 @@
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
+    "cawa-93/vite-electron-builder",
+    "changesets/action",
     "coaidev/coai",
     "ekalinin/sitemap.js",
     "enisdenjo/graphql-ws",
+    "gajus/slonik",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
     "gpac/mp4box.js",
+    "graffle-js/graffle",
     "graphql-hive/graphql-config",
     "grpc/grpc-node",
     "gustavoguichard/string-ts",

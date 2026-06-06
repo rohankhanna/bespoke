@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12085,
-    "concepts": 6944,
-    "observations": 6961,
-    "repos": 3299,
-    "terms": 6891
+    "components": 12088,
+    "concepts": 6945,
+    "observations": 6962,
+    "repos": 3301,
+    "terms": 6892
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1264,6 +1264,7 @@
     "erezinman/loguru-config",
     "ergochat/ircdog",
     "ergochat/readline",
+    "eric-haibin-lin/verl-community",
     "eric-haibin-lin/verl-data",
     "ericdallo/hover.el",
     "ericdallo/jet.el",
@@ -1364,6 +1365,7 @@
     "filhodanuvem/polyglot",
     "filipesilva/obsidian-babashka",
     "fillumina/id-encryptor",
+    "FiloSottile/hpke",
     "Finance-LLMs/deep-research-python",
     "FindDefinition/PCCM",
     "finetunej/transformers",

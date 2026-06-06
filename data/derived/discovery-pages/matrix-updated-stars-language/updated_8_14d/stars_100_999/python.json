@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 21,
-    "terms": 110
+    "components": 182,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 27,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
+    "AI-Hypercomputer/maxdiffusion",
     "aristoteleo/PantheonOS",
     "clearml/clearml-agent",
+    "Comfy-Org/comfy-cli",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "googlefonts/roboto-3-classic",
+    "googlefonts/ufo2ft",
+    "jupyter-server/jupyter_server",
+    "machinewrapped/llm-subtrans",
     "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
     "pypa/build",
-    "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
+    "readthedocs/commonmark.py",
     "satan53x/SExtractor",
     "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",

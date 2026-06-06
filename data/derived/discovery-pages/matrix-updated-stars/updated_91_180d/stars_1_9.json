@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 971,
-    "concepts": 535,
-    "observations": 536,
+    "components": 964,
+    "concepts": 534,
+    "observations": 535,
     "repos": 246,
-    "terms": 541
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -27,6 +27,7 @@
     "actions-oss/act-cli",
     "actions-oss/gh-rc",
     "adityasugandhi/skillsync-mcp",
+    "adobe-type-tools/Adobe-Manga1",
     "adobe/spectrum-tokens",
     "adonisjs/.github",
     "adrozdenko/error-toon",
@@ -120,7 +121,6 @@
     "erwin-kok/multiformat",
     "ethereum-optimism/kurtosis-test",
     "EvelynZhang-epiclab/EvelynImgs",
-    "fabmax/box2d-jni",
     "feloy/tesh",
     "filip26/copper-multicodec",
     "filip26/titanium-rdf-canon",

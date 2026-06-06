@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 433,
-    "concepts": 461,
-    "observations": 464,
-    "repos": 173,
-    "terms": 457
+    "components": 436,
+    "concepts": 462,
+    "observations": 465,
+    "repos": 174,
+    "terms": 458
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -91,6 +91,7 @@
     "filecoin-project/specs-actors",
     "filecoin-project/test-vectors",
     "filhodanuvem/polyglot",
+    "FiloSottile/hpke",
     "FooSoft/md2vim",
     "FooSoft/yomichan-import",
     "gnet-io/gnet-benchmarks",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3673,
-    "concepts": 841,
-    "observations": 852,
-    "repos": 167,
-    "terms": 858
+    "components": 3600,
+    "concepts": 817,
+    "observations": 828,
+    "repos": 164,
+    "terms": 834
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "aadsm/jschardet",
@@ -53,7 +53,6 @@
     "conventional-changelog/releaser-tools",
     "csstools/cssdb",
     "CVEProject/cve-services",
-    "d3/d3-format",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
     "devsnek/esvu",
@@ -65,7 +64,6 @@
     "electerm/electerm-web",
     "electron/node-abi",
     "ember-cli/ember-cli-update",
-    "ember-cli/ember-exam",
     "emberjs/ember-qunit",
     "emberjs/ember-test-helpers",
     "eslint-community/eslint-plugin-n",
@@ -87,7 +85,6 @@
     "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
-    "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-qunit",
     "higlass/higlass",
     "hudochenkov/postcss-sorting",
@@ -146,7 +143,6 @@
     "postcss/sugarss",
     "previm/previm",
     "prisma/ecosystem-tests",
-    "projectfluent/fluent.js",
     "reviewdog/action-eslint",
     "rooklift/ogatak",
     "ruby/setup-ruby",
@@ -165,6 +161,7 @@
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",
     "Taritsyn/BundleTransformer",
+    "tc39/eshost",
     "tc39/notes",
     "terser/html-minifier-terser",
     "testing-library/testing-library-docs",

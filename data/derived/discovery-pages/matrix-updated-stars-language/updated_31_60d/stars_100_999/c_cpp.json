@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1376,
-    "concepts": 1430,
-    "observations": 1433,
-    "repos": 259,
-    "terms": 1422
+    "components": 1386,
+    "concepts": 1428,
+    "observations": 1431,
+    "repos": 258,
+    "terms": 1420
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -101,9 +101,7 @@
     "garglk/garglk",
     "gazebosim/gz-sensors",
     "gazebosim/sdformat",
-    "ghostty-org/ghostling",
     "gisbi-kim/removert",
-    "GNOME/gnome-terminal",
     "GNOME/vte",
     "go-skynet/go-llama.cpp",
     "google/dawn",
@@ -183,7 +181,6 @@
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
     "mybigday/llama.rn",
-    "myfreeer/chrome-pak-customizer",
     "mysql/mysql-workbench",
     "nelson-lang/nelson",
     "NetHack-LE/nle",
@@ -237,6 +234,7 @@
     "ROCm/rccl",
     "ROCm/rocm-systems",
     "ros/urdfdom",
+    "ros2/common_interfaces",
     "rspatial/terra",
     "ruby-debug/debase",
     "ruby/prism",
@@ -256,6 +254,7 @@
     "tile-ai/tilelang-ascend",
     "todbot/hidapitester",
     "trealla-prolog/trealla",
+    "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/backend",
     "triton-inference-server/core",
     "triton-inference-server/dali_backend",

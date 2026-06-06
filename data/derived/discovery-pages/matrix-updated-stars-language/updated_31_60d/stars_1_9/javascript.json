@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1715,
-    "concepts": 898,
-    "observations": 900,
-    "repos": 89,
-    "terms": 897
+    "components": 1706,
+    "concepts": 888,
+    "observations": 890,
+    "repos": 88,
+    "terms": 887
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -48,7 +48,6 @@
     "gr2m/octokit-oauth-app-begin-example",
     "h5wasm/h5wasm-plugins",
     "hchiam/code-inspiration",
-    "hchiam/learning-js",
     "ibm-telemetry/telemetry-config-schema",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",

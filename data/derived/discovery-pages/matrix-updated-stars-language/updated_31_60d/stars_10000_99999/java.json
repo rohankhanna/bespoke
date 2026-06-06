@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 372,
-    "concepts": 449,
-    "observations": 451,
-    "repos": 37,
-    "terms": 446
+    "components": 367,
+    "concepts": 438,
+    "observations": 440,
+    "repos": 36,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
@@ -49,7 +49,6 @@
     "ReactiveX/RxJava",
     "redisson/redisson",
     "resilience4j/resilience4j",
-    "SeleniumHQ/selenium",
-    "termux/termux-app"
+    "SeleniumHQ/selenium"
   ]
 }

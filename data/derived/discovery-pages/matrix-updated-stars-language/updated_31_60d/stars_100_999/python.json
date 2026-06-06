@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2559,
-    "concepts": 2431,
-    "observations": 2441,
-    "repos": 454,
-    "terms": 2434
+    "components": 2524,
+    "concepts": 2402,
+    "observations": 2412,
+    "repos": 448,
+    "terms": 2407
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -23,6 +23,7 @@
     "ag2ai/build-with-ag2",
     "agencyenterprise/PromptInject",
     "agenmod/immortal-skill",
+    "agentclientprotocol/python-sdk",
     "AgentR1/Claw-R1",
     "agentscope-ai/agentscope-runtime",
     "agentscope-ai/agentscope-samples",
@@ -194,7 +195,6 @@
     "fsspec/universal_pathlib",
     "fumiama/Retrieval-based-Voice-Conversion-WebUI",
     "fzyzcjy/torch_memory_saver",
-    "G-Research/ahocorasick_rs",
     "galaxyproject/planemo",
     "gmberton/VPR-methods-evaluation",
     "GNOME/adwaita-icon-theme",
@@ -234,7 +234,6 @@
     "huggingface/optimum-onnx",
     "HumanSignal/label-studio-sdk",
     "hustvl/RAD",
-    "hynek/argon2-cffi",
     "HyperionGray/python-chrome-devtools-protocol",
     "i2rt-robotics/i2rt",
     "inclusionAI/AWorld-RL",
@@ -248,7 +247,6 @@
     "iree-org/iree-turbine",
     "isaac-for-healthcare/i4h-workflows",
     "ISEEKYAN/mbridge",
-    "iterative/shtab",
     "Jasonzzt/ComfyUI-CacheDiT",
     "jawah/charset_normalizer",
     "jezweb/claude-skills",
@@ -380,7 +378,6 @@
     "python-poetry/install.python-poetry.org",
     "python-poetry/poetry-core",
     "python-poetry/poetry-plugin-bundle",
-    "python/typing_extensions",
     "QubesOS/qubes-secpack",
     "rai-opensource/spatialmath-python",
     "RDFLib/pyLODE",
@@ -418,7 +415,6 @@
     "strands-agents/samples",
     "SvenskaSpel/locust-plugins",
     "svg-project/flash-kmeans",
-    "swc-17/SparseDriveV2",
     "SWE-agent/SWE-ReX",
     "SWE-bench/SWE-smith",
     "syncthing/docs",
@@ -438,7 +434,6 @@
     "triton-inference-server/tutorials",
     "ttktjmt/mjswan",
     "turboderp-org/exllamav3",
-    "twisted/towncrier",
     "UKGovernmentBEIS/inspect_evals",
     "ultralytics/docs",
     "ultralytics/thop",
@@ -459,7 +454,6 @@
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",
     "YosysHQ/sby",
-    "yoxu515/aot-benchmark",
     "Yuliang-Liu/MultimodalOCR",
     "zai-org/GLM-skills",
     "zai-org/z-ai-sdk-python",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2433,
-    "concepts": 1763,
-    "observations": 1770,
+    "components": 2466,
+    "concepts": 1771,
+    "observations": 1778,
     "repos": 236,
-    "terms": 1772
+    "terms": 1780
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -61,6 +61,7 @@
     "chelsea0x3b/cudarc",
     "cobalt-org/cobalt.rs",
     "compio-rs/compio",
+    "cordx56/rustowl",
     "CosmWasm/cosmwasm",
     "crate-ci/typos",
     "crev-dev/cargo-crev",
@@ -118,7 +119,9 @@
     "johnnymorganz/stylua",
     "jonhoo/fantoccini",
     "jonhoo/inferno",
+    "josh-project/josh",
     "jsr-io/jsr",
+    "JuliaLang/juliaup",
     "kata-containers/kata-containers",
     "Keats/jsonwebtoken",
     "kika/fixedsys",
@@ -129,7 +132,6 @@
     "latex-lsp/texlab",
     "libp2p/rust-libp2p",
     "linebender/resvg",
-    "liuchengxu/vim-clap",
     "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
     "maciejhirsz/logos",
@@ -148,13 +150,11 @@
     "mstange/samply",
     "mthom/scryer-prolog",
     "Myriad-Dreamin/tinymist",
-    "nabijaczleweli/cargo-update",
     "napi-rs/napi-rs",
     "napi-rs/node-rs",
     "nats-io/nats.rs",
     "neon-bindings/neon",
     "nextest-rs/nextest",
-    "noib3/nvim-oxi",
     "not-fl3/miniquad",
     "notify-rs/notify",
     "nvidia/openshell",

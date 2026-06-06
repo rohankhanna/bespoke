@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 386,
-    "observations": 387,
+    "components": 295,
+    "concepts": 394,
+    "observations": 395,
     "repos": 76,
-    "terms": 379
+    "terms": 387
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -82,13 +82,13 @@
     "RobertBeckebans/RBDOOM-3-BFG",
     "sammycage/lunasvg",
     "svenstaro/rofi-calc",
-    "sysstat/sysstat",
     "TEN-framework/ten-vad",
     "tpoechtrager/osxcross",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",
     "ulfjack/ryu",
     "VirusTotal/yara",
+    "wang-xinyu/tensorrtx",
     "zardus/preeny"
   ]
 }

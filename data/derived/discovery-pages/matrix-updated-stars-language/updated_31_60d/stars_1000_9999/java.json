@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 730,
-    "concepts": 875,
-    "observations": 877,
-    "repos": 89,
-    "terms": 872
+    "components": 734,
+    "concepts": 884,
+    "observations": 886,
+    "repos": 90,
+    "terms": 881
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -30,6 +30,7 @@
     "apache/phoenix",
     "apache/poi",
     "apache/seatunnel",
+    "apache/tomcat",
     "aws/aws-sdk-java-v2",
     "beehive-lab/TornadoVM",
     "besu-eth/besu",

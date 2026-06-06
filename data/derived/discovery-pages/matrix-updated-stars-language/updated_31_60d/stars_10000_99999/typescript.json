@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11306,
-    "concepts": 1635,
-    "observations": 1646,
-    "repos": 159,
-    "terms": 1646
+    "components": 11349,
+    "concepts": 1641,
+    "observations": 1652,
+    "repos": 160,
+    "terms": 1652
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -101,6 +101,7 @@
     "microsoft/playwright",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
+    "mobxjs/mobx",
     "modelcontextprotocol/servers",
     "mongodb/node-mongodb-native",
     "mswjs/msw",

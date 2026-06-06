@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 572,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 27,
-    "terms": 93
+    "components": 608,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 29,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
+    "aws-samples/aws-sdk-js-notes-app",
     "blrchen/chatgpt-minimal",
     "dannyhw/react-native-storybook-starter",
+    "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
     "gr2m/octokit-oauth-app-now-example",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 215,
-    "observations": 216,
-    "repos": 44,
-    "terms": 212
+    "components": 785,
+    "concepts": 223,
+    "observations": 224,
+    "repos": 45,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
@@ -45,6 +45,7 @@
     "microsoft/botframework-sdk",
     "microsoft/generative-ai-with-javascript",
     "mozilla/webextension-polyfill",
+    "mrsteele/dotenv-webpack",
     "omnidan/redux-undo",
     "paralleldrive/cuid2",
     "pburtchaell/redux-promise-middleware",

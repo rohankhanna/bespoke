@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5127,
-    "concepts": 1004,
-    "observations": 1005,
-    "repos": 146,
-    "terms": 998
+    "components": 5047,
+    "concepts": 995,
+    "observations": 996,
+    "repos": 143,
+    "terms": 989
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
@@ -47,7 +47,6 @@
     "eslint/js",
     "expressjs/body-parser",
     "facebook/jscodeshift",
-    "fengyuanchen/compressorjs",
     "flow-typed/flow-typed",
     "fullstorydev/grpcui",
     "gatsbyjs/gatsby-starter-blog",
@@ -112,7 +111,6 @@
     "patorjk/figlet.js",
     "piebald-ai/claude-code-system-prompts",
     "pillarjs/iconv-lite",
-    "pinojs/pino-pretty",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-import",
     "postcss/postcss-nested",
@@ -120,7 +118,6 @@
     "ranisalt/node-argon2",
     "release-it/release-it",
     "reZach/secure-electron-template",
-    "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",
     "RisingStack/react-easy-state",
     "rullerzhou-afk/clawd-on-desk",

@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 326,
     "observations": 326,
-    "repos": 283,
+    "repos": 284,
     "terms": 326
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -112,6 +112,7 @@
     "dwyl/product-roadmap",
     "dwyl/technical-glossary",
     "eosphoros-ai/community",
+    "eric-haibin-lin/verl-community",
     "eric-haibin-lin/verl-data",
     "erlef/observability-wg",
     "eryajf/awesome-chatgpt-answer",

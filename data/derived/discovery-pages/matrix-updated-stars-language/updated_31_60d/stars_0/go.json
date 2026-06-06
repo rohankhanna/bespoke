@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 14,
-    "terms": 40
+    "components": 63,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 13,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -21,7 +21,6 @@
     "Amtrend/ssh-manager",
     "DataDog/vault",
     "dubbo-go-pixiu/dubbo-go-pixiu",
-    "ethpandaops/xatu-cbt",
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",

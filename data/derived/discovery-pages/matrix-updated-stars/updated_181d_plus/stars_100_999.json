@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15616,
-    "concepts": 14140,
-    "observations": 14168,
-    "repos": 4633,
-    "terms": 13900
+    "components": 15625,
+    "concepts": 14152,
+    "observations": 14180,
+    "repos": 4637,
+    "terms": 13912
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -399,6 +399,7 @@
     "apoelstra/rust-jsonrpc",
     "apollographql/gatsby-theme-apollo",
     "appfigures/react-easy-emoji",
+    "AppImageCommunity/awesome-appimage",
     "AppImageCommunity/pkg2appimage",
     "appl-team/appl",
     "apple/apple_rules_lint",
@@ -510,6 +511,7 @@
     "atteneder/DracoUnity",
     "atteo/classindex",
     "attr-encrypted/encryptor",
+    "attractivechaos/k8",
     "atx/wtype",
     "audeering/w2v2-how-to",
     "AudioLLMs/AudioBench",
@@ -1235,6 +1237,7 @@
     "declare-lab/jamify",
     "declare-lab/LLM-PuzzleTest",
     "declare-lab/red-instruct",
+    "Deep-Symmetry/beat-link",
     "Deep-Symmetry/beat-link-trigger",
     "Deep-Symmetry/bytefield-svg",
     "Deep-Symmetry/carabiner",
@@ -3800,6 +3803,7 @@
     "rust-lang-deprecated/rustc-serialize",
     "rust-lang-ja/rust-by-example-ja",
     "rust-lang/homu",
+    "rust-lang/lang-team",
     "rust-lang/packed_simd",
     "rust-lang/project-portable-simd",
     "rust-lang/rust-semverver",

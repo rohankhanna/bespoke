@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1950,
-    "concepts": 1314,
-    "observations": 1326,
-    "repos": 229,
-    "terms": 1313
+    "components": 1953,
+    "concepts": 1318,
+    "observations": 1330,
+    "repos": 228,
+    "terms": 1317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -131,14 +131,13 @@
     "hyper-mcp-rs/hyper-mcp",
     "in-toto/attestation",
     "intel/ittapi",
-    "iqlusioninc/abscissa",
     "iqlusioninc/crates",
-    "iqlusioninc/tmkms",
     "istio/ztunnel",
     "JanLikar/cargo-clone",
     "kaj/ructe",
     "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
+    "kornia/kornia-rs",
     "kpcyrd/rebuilderd",
     "KSXGitHub/parallel-disk-usage",
     "kylebarron/parquet-wasm",

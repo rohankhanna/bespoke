@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 12,
-    "terms": 76
+    "components": 60,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 13,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
+    "Azure-Samples/agent-openai-java-banking-assistant",
     "Deep-Symmetry/crate-digger",
     "eclipse-buildship/buildship",
     "filip26/titanium-json-ld",

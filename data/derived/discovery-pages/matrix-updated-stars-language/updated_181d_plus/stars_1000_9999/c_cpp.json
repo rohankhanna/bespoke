@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 810,
-    "observations": 810,
-    "repos": 217,
-    "terms": 801
+    "components": 383,
+    "concepts": 822,
+    "observations": 822,
+    "repos": 218,
+    "terms": 813
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -209,6 +209,7 @@
     "Star-Clouds/CenterFace",
     "statsite/statsite",
     "strasdat/Sophus",
+    "sysstat/sysstat",
     "taku910/mecab",
     "Tencent/TNN",
     "tensorflow/community",

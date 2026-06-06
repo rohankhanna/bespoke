@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2528,
-    "concepts": 2489,
-    "observations": 2500,
-    "repos": 280,
-    "terms": 2487
+    "components": 2525,
+    "concepts": 2482,
+    "observations": 2493,
+    "repos": 279,
+    "terms": 2480
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -274,7 +274,6 @@
     "stripe/stripe-go",
     "supabase/cli",
     "sysadminsmedia/homebox",
-    "tdewolff/canvas",
     "tendermint/tendermint",
     "tensorchord/envd",
     "terraform-linters/tflint",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 46,
-    "terms": 72
+    "components": 69,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 47,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "abistarun/resseract-lite",
     "aidenlab/JuiceboxGUI",
@@ -35,6 +35,7 @@
     "dogla/filesystem-watcher",
     "eclipsefdn/eclipsefdn-project-adopters",
     "enola-dev/LearningADK",
+    "fabmax/box2d-jni",
     "FasterXML/jackson-1",
     "finefuture/sentinel-dashboard-X",
     "fizzed/template-benchmark",

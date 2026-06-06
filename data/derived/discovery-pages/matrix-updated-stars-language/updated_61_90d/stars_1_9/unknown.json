@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 24,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 29,
-    "terms": 33
+    "concepts": 38,
+    "observations": 38,
+    "repos": 33,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,29 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "10up/.github",
     "2KAbhishek/BWnB",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
     "addfox/skills",
-    "adobe-type-tools/Adobe-Manga1",
     "autowarefoundation/.github",
     "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",
     "csm-actions/docs",
+    "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/Agents-Index",
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Harnesses",
+    "danielrosehill/Awesome-Red-Alerts",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Hebrew-TTS-Providers",
     "danielrosehill/Homebox-Projects-Index",
+    "danielrosehill/Open-Claw-Stack",
+    "danielrosehill/Prompt-Libraries-Index",
+    "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
     "flagos-ai/FlagOS-Robo",
     "hchiam/learning-gh",

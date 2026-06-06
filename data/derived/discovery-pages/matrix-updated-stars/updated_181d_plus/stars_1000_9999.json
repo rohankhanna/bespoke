@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10647,
-    "concepts": 9219,
-    "observations": 9231,
-    "repos": 2377,
-    "terms": 9089
+    "components": 10651,
+    "concepts": 9243,
+    "observations": 9255,
+    "repos": 2380,
+    "terms": 9113
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1554,6 +1554,7 @@
     "NUS-HPC-AI-Lab/VideoSys",
     "nutonomy/nuscenes-devkit",
     "nuxt/vite",
+    "nv-tlabs/ASE",
     "nv-tlabs/GET3D",
     "nv-tlabs/lift-splat-shoot",
     "nvarner/typst-lsp",
@@ -1880,6 +1881,7 @@
     "rubinius/rubinius",
     "rubyjs/therubyracer",
     "RUC-NLPIR/Search-o1",
+    "RUC-NLPIR/WebThinker",
     "rurban/smhasher",
     "russross/blackfriday",
     "rust-lang-cn/rust-by-example-cn",
@@ -2046,6 +2048,7 @@
     "swz30/Restormer",
     "Sygil-Dev/sygil-webui",
     "syndtr/goleveldb",
+    "sysstat/sysstat",
     "tabulapdf/tabula",
     "tabulapdf/tabula-java",
     "TadasBaltrusaitis/OpenFace",

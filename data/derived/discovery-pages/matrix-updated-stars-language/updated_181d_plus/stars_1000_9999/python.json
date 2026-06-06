@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 964,
-    "concepts": 3818,
-    "observations": 3820,
-    "repos": 974,
-    "terms": 3749
+    "concepts": 3830,
+    "observations": 3832,
+    "repos": 976,
+    "terms": 3761
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -616,6 +616,7 @@
     "NTMC-Community/MatchZoo",
     "NUS-HPC-AI-Lab/VideoSys",
     "nutonomy/nuscenes-devkit",
+    "nv-tlabs/ASE",
     "nv-tlabs/GET3D",
     "nv-tlabs/lift-splat-shoot",
     "NVIDIA-AI-IOT/torch2trt",
@@ -781,6 +782,7 @@
     "rtqichen/torchdiffeq",
     "rubik/radon",
     "RUC-NLPIR/Search-o1",
+    "RUC-NLPIR/WebThinker",
     "rwightman/gen-efficientnet-pytorch",
     "s3tools/s3cmd",
     "s9roll7/animatediff-cli-prompt-travel",

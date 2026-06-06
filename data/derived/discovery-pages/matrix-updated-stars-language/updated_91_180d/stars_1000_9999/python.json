@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 435,
-    "concepts": 866,
-    "observations": 867,
+    "components": 439,
+    "concepts": 863,
+    "observations": 864,
     "repos": 172,
-    "terms": 852
+    "terms": 849
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -79,6 +79,7 @@
     "google/fuzzbench",
     "google/vizier",
     "graphql-python/graphene-django",
+    "gururise/AlpacaDataCleaned",
     "gusye1234/nano-graphrag",
     "harbor-framework/terminal-bench",
     "hkust-nlp/simpleRL-reason",
@@ -123,7 +124,6 @@
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
     "nunchaku-ai/ComfyUI-nunchaku",
     "nunchaku-ai/nunchaku",
-    "nv-tlabs/ASE",
     "NVIDIA/ChatRTX",
     "obsei/obsei",
     "offu/WeRoBot",
@@ -156,7 +156,6 @@
     "QwenLM/Qwen-Image",
     "randy3k/radian",
     "remsky/Kokoro-FastAPI",
-    "RUC-NLPIR/WebThinker",
     "SafeAILab/EAGLE",
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
@@ -168,6 +167,7 @@
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/TFace",
     "tensorflow/agents",
+    "the-moonwitch/Cozette",
     "thewh1teagle/kokoro-onnx",
     "thu-ml/RoboticsDiffusionTransformer",
     "toshas/torch-fidelity",

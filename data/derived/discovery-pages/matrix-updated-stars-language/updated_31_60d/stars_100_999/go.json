@@ -3,7 +3,7 @@
     "components": 1685,
     "concepts": 1401,
     "observations": 1408,
-    "repos": 203,
+    "repos": 204,
     "terms": 1409
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -89,6 +89,7 @@
     "darkweak/souin",
     "dependabot/cli",
     "devgianlu/go-librespot",
+    "dgraph-io/dgraph-benchmarks",
     "docker/model-runner",
     "dydxprotocol/v4-chain",
     "estesp/manifest-tool",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 257,
-    "concepts": 320,
-    "observations": 322,
-    "repos": 87,
-    "terms": 315
+    "components": 266,
+    "concepts": 323,
+    "observations": 325,
+    "repos": 88,
+    "terms": 318
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -98,6 +98,7 @@
     "tomfunkhouser/gaps",
     "ValveSoftware/Fossilize",
     "veorq/SipHash",
+    "websockets/bufferutil",
     "xtensor-stack/xtl",
     "ylsdamxssjxxdd/eva",
     "ZDisket/TensorVox"

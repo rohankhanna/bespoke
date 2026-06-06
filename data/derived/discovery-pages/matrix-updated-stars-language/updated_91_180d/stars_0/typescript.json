@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 27,
+    "components": 37,
     "concepts": 2,
     "observations": 2,
-    "repos": 3,
+    "repos": 5,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xBigBoss/ghostty-web",
     "aleclarson/vite-multi-spa",
-    "lishid/cm-language"
+    "lishid/cm-language",
+    "onomojo/i18n-country-translations-js",
+    "onomojo/i18n-timezones-js"
   ]
 }

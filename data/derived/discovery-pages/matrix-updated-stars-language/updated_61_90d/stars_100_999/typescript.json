@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1236,
-    "concepts": 302,
-    "observations": 302,
-    "repos": 48,
-    "terms": 311
+    "components": 1320,
+    "concepts": 307,
+    "observations": 307,
+    "repos": 49,
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "actions-cool/issues-helper",
@@ -50,6 +50,7 @@
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
+    "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
     "solidjs/templates",

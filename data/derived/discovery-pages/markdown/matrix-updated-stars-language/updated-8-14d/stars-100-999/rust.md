@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-05T07:56:21.398708+00:00`
+Generated at: `2026-06-06T05:49:40.998108+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 0
-- components: 0
-- concepts: 0
-- observations: 0
+- repos: 4
+- terms: 10
+- components: 31
+- concepts: 10
+- observations: 10
 
 ## Static behavior
 
@@ -26,10 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [GitoxideLabs/cargo-smart-release](https://github.com/GitoxideLabs/cargo-smart-release) | 119 | 2026-05-29T21:48:07Z | Rust | Infrastructure/tooling | 4 | 18 | 4 | 4 |
+| [servo/stylo](https://github.com/servo/stylo) | 281 | 2026-05-29T14:37:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 459 | 2026-05-29T11:32:47Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [lbcb-sci/herro](https://github.com/lbcb-sci/herro) | 253 | 2026-05-29T03:36:12Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 459 | 2026-05-29T11:32:47Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [servo/stylo](https://github.com/servo/stylo) | 281 | 2026-05-29T14:37:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [lbcb-sci/herro](https://github.com/lbcb-sci/herro) | 253 | 2026-05-29T03:36:12Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [GitoxideLabs/cargo-smart-release](https://github.com/GitoxideLabs/cargo-smart-release) | 119 | 2026-05-29T21:48:07Z | Rust | Infrastructure/tooling | 4 | 18 | 4 | 4 |

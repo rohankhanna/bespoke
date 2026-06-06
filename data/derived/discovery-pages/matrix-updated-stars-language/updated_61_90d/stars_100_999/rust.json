@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 163,
-    "observations": 167,
-    "repos": 41,
-    "terms": 163
+    "components": 215,
+    "concepts": 170,
+    "observations": 174,
+    "repos": 43,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
@@ -35,6 +35,8 @@
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
     "hsivonen/chardetng",
+    "iqlusioninc/abscissa",
+    "iqlusioninc/tmkms",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "mitsuhiko/similar-asserts",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4739,
-    "concepts": 1068,
-    "observations": 1068,
-    "repos": 383,
-    "terms": 1055
+    "components": 4742,
+    "concepts": 1069,
+    "observations": 1069,
+    "repos": 385,
+    "terms": 1056
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -56,6 +56,7 @@
     "atom/command-palette",
     "atom/ide-java",
     "atom/text-buffer",
+    "attractivechaos/k8",
     "avocadowastaken/prettier-plugin-prisma",
     "aws-samples/aws-cdk-changelogs-demo",
     "axeldelafosse/expo-next-monorepo-example",
@@ -321,6 +322,7 @@
     "rollup/rollup-starter-lib",
     "rpl/flow-coverage-report",
     "RReverser/wasm-bindgen-rayon",
+    "rust-lang/lang-team",
     "RyanMarcus/dirty-json",
     "SafetyCulture/grpc-web-devtools",
     "saharan/OimoPhysics",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1406,
-    "concepts": 935,
-    "observations": 936,
-    "repos": 86,
-    "terms": 924
+    "components": 1464,
+    "concepts": 975,
+    "observations": 976,
+    "repos": 89,
+    "terms": 964
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -21,6 +21,7 @@
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
     "ast-grep/ast-grep",
+    "astral-sh/ruff",
     "astral-sh/uv",
     "Automattic/harper",
     "bevyengine/bevy",
@@ -72,6 +73,7 @@
     "quickwit-oss/quickwit",
     "ratatui/ratatui",
     "rayon-rs/rayon",
+    "rerun-io/rerun",
     "rolldown/rolldown",
     "rust-lang/cargo",
     "rust-lang/rust-clippy",
@@ -98,6 +100,7 @@
     "wasmerio/wasmer",
     "web-infra-dev/rspack",
     "wezterm/wezterm",
+    "XAMPPRocky/tokei",
     "zed-industries/zed",
     "zeroclaw-labs/zeroclaw"
   ]

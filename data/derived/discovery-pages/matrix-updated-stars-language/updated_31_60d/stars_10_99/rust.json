@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 864,
-    "concepts": 535,
-    "observations": 538,
-    "repos": 122,
-    "terms": 548
+    "components": 825,
+    "concepts": 523,
+    "observations": 525,
+    "repos": 120,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -34,7 +34,6 @@
     "ashvardanian/NumWars",
     "asny/three-d-asset",
     "astral-sh/pubgrub",
-    "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
@@ -82,9 +81,9 @@
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
+    "influxdata/datafusion-udf-wasm",
     "janrueth/boring-rustls-provider",
     "KWARC/rust-libxml",
-    "kylebarron/arrow-wasm",
     "launchdarkly/rust-server-sdk",
     "Layr-Labs/eigensdk-rs",
     "ldclabs/anda-db",
@@ -95,7 +94,6 @@
     "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
     "mdn/rari",
-    "messense/py-promql-parser",
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "multiformats/rust-cid",

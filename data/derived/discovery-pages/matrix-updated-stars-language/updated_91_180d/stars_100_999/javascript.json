@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 861,
-    "concepts": 133,
-    "observations": 134,
-    "repos": 47,
-    "terms": 132
+    "components": 858,
+    "concepts": 132,
+    "observations": 133,
+    "repos": 45,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
     "agenda/agendash",
     "appbaseio/searchbox",
     "asdf-vm/actions",
-    "attractivechaos/k8",
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
     "codota/tabnine-nvim",
@@ -51,7 +50,6 @@
     "React9k/react-timeline-9000",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
-    "rust-lang/lang-team",
     "scripting/reallysimple",
     "sindresorhus/env-paths",
     "sindresorhus/multimatch",

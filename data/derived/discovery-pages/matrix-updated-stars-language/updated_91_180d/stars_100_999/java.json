@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 20,
-    "terms": 106
+    "components": 80,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 19,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
     "Azure-Samples/azure-search-openai-demo-java",
     "bazelbuild/stardoc",
     "bobbylight/AutoComplete",
-    "Deep-Symmetry/beat-link",
     "eclipse-aspectj/aspectj",
     "eclipse-corrosion/corrosion",
     "f4b6a3/tsid-creator",

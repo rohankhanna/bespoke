@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 572,
-    "concepts": 123,
-    "observations": 124,
-    "repos": 16,
-    "terms": 123
+    "components": 482,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 13,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
-    "antvis/mcp-server-chart",
-    "benchmark-action/github-action-benchmark",
     "can1357/oh-my-pi",
     "electron/rebuild",
     "enricoros/big-AGI",
     "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
     "Koenkk/zigbee-herdsman-converters",
-    "obsidianmd/obsidian-clipper",
     "pdfme/pdfme",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",

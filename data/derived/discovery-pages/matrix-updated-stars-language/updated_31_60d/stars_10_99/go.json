@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 663,
-    "concepts": 452,
-    "observations": 455,
-    "repos": 102,
-    "terms": 448
+    "components": 655,
+    "concepts": 445,
+    "observations": 448,
+    "repos": 100,
+    "terms": 441
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -93,7 +93,6 @@
     "muhlba91/external-dns-provider-adguard",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
-    "opea-project/GenAIInfra",
     "openshift/ci-tools",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",
@@ -114,7 +113,6 @@
     "usbarmory/GoTEE-example",
     "usbarmory/tamago-example",
     "usbarmory/tamago-go",
-    "usbarmory/tamago-sev-example",
-    "yomidevs/yomitan-import"
+    "usbarmory/tamago-sev-example"
   ]
 }

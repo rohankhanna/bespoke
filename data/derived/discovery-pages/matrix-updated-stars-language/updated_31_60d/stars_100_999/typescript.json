@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6550,
-    "concepts": 1343,
-    "observations": 1345,
-    "repos": 216,
-    "terms": 1391
+    "components": 6555,
+    "concepts": 1359,
+    "observations": 1361,
+    "repos": 218,
+    "terms": 1405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -21,6 +21,7 @@
     "affaan-m/agentshield",
     "agentclientprotocol/typescript-sdk",
     "AgnosticUI/agnosticui",
+    "Agoric/agoric-sdk",
     "alexlafroscia/vite-plugin-handlebars",
     "AmElmo/proofshot",
     "ansible/vscode-ansible",
@@ -77,6 +78,7 @@
     "elizaos/elizaos.github.io",
     "elm-tooling/elm-language-client-vscode",
     "elm-tooling/elm-language-server",
+    "embroider-build/ember-auto-import",
     "embroider-build/embroider",
     "engine262/engine262",
     "evmts/tevm-monorepo",
@@ -108,6 +110,7 @@
     "immersive-translate/zotero-immersivetranslate",
     "intlify/bundle-tools",
     "intlify/eslint-plugin-vue-i18n",
+    "inversify/monorepo",
     "ipfs/js-ipfsd-ctl",
     "jbaubree/vite-plugin-sitemap",
     "jgm/djot.js",
@@ -186,7 +189,6 @@
     "redhat-developer/vscode-xml",
     "redhat-developer/vscode-yaml",
     "relative-ci/bundle-stats",
-    "retracedhq/retraced",
     "rstackjs/storybook-rsbuild",
     "safe-global/safe-deployments",
     "salesforcecli/cli",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1065,
+    "components": 1082,
     "concepts": 684,
     "observations": 689,
-    "repos": 108,
-    "terms": 682
+    "repos": 110,
+    "terms": 689
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -58,6 +58,7 @@
     "google/ExoPlayer",
     "gulpjs/gulp",
     "guzzle/guzzle",
+    "humanlayer/humanlayer",
     "i3/i3",
     "IdreesInc/Monocraft",
     "jaredpalmer/tsdx",
@@ -108,6 +109,7 @@
     "TabbyML/tabby",
     "tachyons-css/tachyons",
     "toml-lang/toml",
+    "tpope/vim-fugitive",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "twbs/bootstrap-sass",

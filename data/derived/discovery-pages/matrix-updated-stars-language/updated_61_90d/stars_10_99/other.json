@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 363,
-    "concepts": 376,
-    "observations": 378,
-    "repos": 101,
-    "terms": 374
+    "components": 374,
+    "concepts": 383,
+    "observations": 385,
+    "repos": 104,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -41,10 +41,10 @@
     "beam-telemetry/telemetry_metrics_statsd",
     "BirolLab/LINKS",
     "blaine/fantastty",
-    "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
     "citation-file-format/ruby-cff",
     "clearml/clearml-helm-charts",
+    "clojure/homebrew-tools",
     "clojure/tools.deps",
     "coin-or-tools/homebrew-coinor",
     "contributte/monolog",
@@ -75,7 +75,9 @@
     "informalsystems/choreo",
     "IQVIA-ML/LightGBM.jl",
     "j20001970/GDMP-demo",
+    "janestreet/tracing",
     "JavaHello/spring-boot.nvim",
+    "jeffzi/llscheck",
     "js-temporal/proposal-temporal-v2",
     "JuliaCI/PkgEval.jl",
     "JuliaGraphics/ColorVectorSpace.jl",
@@ -91,6 +93,7 @@
     "Mobile-Artificial-Intelligence/maise",
     "mugh/minecraft-bedrock-server-manager",
     "nicholasjng/nanobind-bazel",
+    "NixOS/nix-installer-action",
     "notaryproject/notaryproject.dev",
     "notomo/vusted",
     "Nsidorenco/neotest-vstest",
@@ -100,7 +103,7 @@
     "oap-project/oap-mllib",
     "ocurrent/ocurrent-deployer",
     "olimorris/neotest-phpunit",
-    "onomojo/i18n-timezones",
+    "opea-project/GenAIEval",
     "opencontainers/.github",
     "oracle-quickstart/oci-o11y-solutions",
     "php/doc-it",
@@ -110,9 +113,9 @@
     "Saalvage/AssimpNetter",
     "SciML/sciml.ai",
     "tarides/ocaml-eglot",
-    "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
     "V13Axel/neotest-pest",
+    "vorburger/blog",
     "w3c/element-timing",
     "xledger/pod_sql_server"
   ]

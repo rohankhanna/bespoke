@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 55,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 122,
-    "terms": 95
+    "concepts": 77,
+    "observations": 77,
+    "repos": 118,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -47,7 +47,6 @@
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
-    "danielrosehill/Agent-Skills",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -55,7 +54,6 @@
     "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
-    "danielrosehill/AI-Resource-Maps",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Arch-And-Interiors-Index",
@@ -109,14 +107,12 @@
     "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/GROUNDING.md",
-    "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
     "danielrosehill/Research-Tools-And-Templates-Index",
-    "danielrosehill/Skills-Repos-Index",
     "danielrosehill/Speech-And-ASR-Evaluations",
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",

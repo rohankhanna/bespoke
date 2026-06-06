@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 485,
-    "concepts": 579,
-    "observations": 579,
-    "repos": 78,
-    "terms": 577
+    "components": 475,
+    "concepts": 570,
+    "observations": 570,
+    "repos": 77,
+    "terms": 568
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -27,7 +27,6 @@
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
-    "Azure-Samples/agent-openai-java-banking-assistant",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "carrot2/carrot2",

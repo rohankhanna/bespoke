@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 8,
-    "terms": 31
+    "components": 15,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 7,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "chriskamphuis/olddog",
     "dart4e/dart4e-studio",
-    "fabmax/box2d-jni",
     "filip26/copper-multicodec",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",

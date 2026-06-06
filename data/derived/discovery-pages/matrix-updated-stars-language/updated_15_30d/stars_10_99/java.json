@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 8,
-    "terms": 46
+    "components": 28,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 7,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
@@ -20,7 +20,6 @@
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
-    "openjdk/jdk21u-dev",
-    "usdot-fhwa-stol/cdasim"
+    "openjdk/jdk21u-dev"
   ]
 }

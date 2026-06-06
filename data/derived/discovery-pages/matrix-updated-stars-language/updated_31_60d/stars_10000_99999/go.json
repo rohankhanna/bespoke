@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1714,
-    "concepts": 1639,
-    "observations": 1645,
-    "repos": 135,
-    "terms": 1626
+    "components": 1721,
+    "concepts": 1653,
+    "observations": 1659,
+    "repos": 136,
+    "terms": 1640
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -64,6 +64,7 @@
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
+    "flipped-aurora/gin-vue-admin",
     "getsops/sops",
     "gin-gonic/gin",
     "go-delve/delve",

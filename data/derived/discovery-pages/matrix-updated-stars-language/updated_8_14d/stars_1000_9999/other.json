@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 160,
-    "observations": 161,
-    "repos": 18,
-    "terms": 160
+    "components": 254,
+    "concepts": 196,
+    "observations": 198,
+    "repos": 23,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
+    "babashka/babashka",
     "babashka/sci",
     "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
@@ -22,6 +23,9 @@
     "dotnet/reactive",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
+    "firebase/flutterfire",
+    "googleapis/google-auth-library-php",
+    "kurrent-io/KurrentDB",
     "licensee/licensed",
     "microsoft/PhiCookBook",
     "mono/SkiaSharp",
@@ -30,6 +34,7 @@
     "openai/openai-dotnet",
     "psmux/psmux",
     "radian-software/straight.el",
+    "seancorfield/honeysql",
     "tModLoader/tModLoader",
     "TryGhost/node-sqlite3"
   ]

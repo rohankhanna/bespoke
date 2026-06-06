@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 873,
-    "concepts": 841,
-    "observations": 842,
-    "repos": 221,
-    "terms": 836
+    "components": 886,
+    "concepts": 847,
+    "observations": 848,
+    "repos": 224,
+    "terms": 842
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -173,6 +173,7 @@
     "ocurrent/ocaml-ci",
     "olbrich/ruby-units",
     "olimorris/neotest-rspec",
+    "onomojo/i18n-country-translations",
     "OpenBMB/CPM.cu",
     "PacificBiosciences/pbmm2",
     "PaulRBerg/foundry-template",
@@ -201,8 +202,10 @@
     "scribd/Weaver",
     "seattlerb/ruby_parser",
     "simonw/datasette-lite",
+    "sol/hpack",
     "spk/money-open-exchange-rates",
     "status-im/nim-chronicles",
+    "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
     "taoensso/telemere",
     "tc39/proposal-decimal",

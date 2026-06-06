@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 36,
-    "terms": 193
+    "components": 174,
+    "concepts": 204,
+    "observations": 204,
+    "repos": 39,
+    "terms": 209
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -22,8 +22,10 @@
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
     "deepinsight/insightface",
+    "delgan/loguru",
     "encode/httpx",
     "explosion/spaCy",
+    "fishaudio/fish-speech",
     "FunAudioLLM/CosyVoice",
     "google/python-fire",
     "gruns/icecream",
@@ -38,6 +40,7 @@
     "openai/gpt-oss",
     "openai/gym",
     "openai/tiktoken",
+    "OpenBMB/ChatDev",
     "PaddlePaddle/PaddleDetection",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",

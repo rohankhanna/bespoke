@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 63,
+    "components": 40,
     "concepts": 2,
     "observations": 2,
-    "repos": 4,
+    "repos": 3,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "browserslist/caniuse-lite",
     "Calcium-Ion/new-api-key-tool",
-    "GoogleCloudPlatform/google-cloud-node-todos",
-    "tc39/eshost"
+    "GoogleCloudPlatform/google-cloud-node-todos"
   ]
 }

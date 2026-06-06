@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 346,
-    "observations": 349,
-    "repos": 69,
-    "terms": 343
+    "components": 293,
+    "concepts": 332,
+    "observations": 335,
+    "repos": 67,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -20,7 +20,6 @@
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
-    "aiKrice/homebrew-badgetizr",
     "Alexpux/MINGW-packages",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
@@ -35,7 +34,6 @@
     "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
-    "clojure/brew-install",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",

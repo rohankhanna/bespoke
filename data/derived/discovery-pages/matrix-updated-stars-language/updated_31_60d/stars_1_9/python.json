@@ -3,7 +3,7 @@
     "components": 313,
     "concepts": 185,
     "observations": 185,
-    "repos": 76,
+    "repos": 77,
     "terms": 203
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -45,6 +45,7 @@
     "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
     "danielrosehill/Geopol-Forecaster",
     "danielrosehill/LLM-Council-Template",
+    "danielrosehill/Voxtype",
     "demonatic/flash-attention",
     "dora-rs/dora-benchmark",
     "dreamiurg/peakbagger-cli",

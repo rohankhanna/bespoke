@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 39,
-    "terms": 124
+    "components": 22,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 38,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
-    "AppImageCommunity/awesome-appimage",
     "Biscuit-Theme/biscuit",
     "bluescan/proggyfonts",
     "Calcium-Ion/new-api-horizon",

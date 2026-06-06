@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 82,
-    "concepts": 114,
-    "observations": 114,
+    "components": 93,
+    "concepts": 120,
+    "observations": 120,
     "repos": 21,
-    "terms": 114
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
-    "agentclientprotocol/python-sdk",
     "agentic-box/memora",
     "AMD-AGI/Nitro-1",
     "amsehili/auditok",
@@ -31,6 +30,7 @@
     "Jamorim-esss/pytest-rich",
     "mll-lab-nu/VAGEN",
     "nod-ai/AMD-SHARK-ModelDev",
+    "pypa/setuptools-scm",
     "python-poetry/poetry-plugin-export",
     "shawn0728/OpenSearch-VL",
     "TextArena/TextArena",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 62,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 36,
-    "terms": 35
+    "concepts": 38,
+    "observations": 38,
+    "repos": 37,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "aaron-he-zhu/cite-domain-rating",
+    "adobe-type-tools/Adobe-Manga1",
     "adonisjs/.github",
     "aifoundry-org/et-man",
     "airowe/claude-a11y-skill",

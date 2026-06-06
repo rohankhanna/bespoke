@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1183,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 55,
-    "terms": 252
+    "components": 1168,
+    "concepts": 240,
+    "observations": 240,
+    "repos": 53,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
-    "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
     "anolilab/unplugin-favicons",
     "aporthq/aport-spec",
@@ -34,7 +33,6 @@
     "dreamscached/i18next-cli-plugin-svelte",
     "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
-    "ember-cli/ember-addon-blueprint",
     "enxs969/skiller",
     "filecoin-project/github-mgmt",
     "fluent-vue/unplugin-fluent-vue",

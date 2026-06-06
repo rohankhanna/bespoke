@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 462,
-    "observations": 463,
-    "repos": 256,
-    "terms": 462
+    "components": 128,
+    "concepts": 467,
+    "observations": 468,
+    "repos": 257,
+    "terms": 467
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -36,6 +36,7 @@
     "antfu/vueuse",
     "antirez/RESP3",
     "antonbabenko/serverless.tf",
+    "AppImageCommunity/awesome-appimage",
     "aws-cloudformation/awesome-cloudformation",
     "aws/apprunner-roadmap",
     "aws/aws-app-mesh-roadmap",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 125,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 25,
-    "terms": 62
+    "components": 171,
+    "concepts": 77,
+    "observations": 78,
+    "repos": 28,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
+    "bencevans/camtrap-detector",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
@@ -26,8 +27,10 @@
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
+    "kylebarron/arrow-wasm",
     "lambdaclass/libssz",
     "libdeflater/libdeflater",
+    "messense/py-promql-parser",
     "microsoft/tracing-etw",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",

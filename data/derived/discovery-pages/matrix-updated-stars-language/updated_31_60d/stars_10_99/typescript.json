@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3737,
-    "concepts": 673,
-    "observations": 678,
-    "repos": 138,
-    "terms": 705
+    "components": 3701,
+    "concepts": 665,
+    "observations": 670,
+    "repos": 136,
+    "terms": 697
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -26,7 +26,6 @@
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
     "ava-labs/avalanche-dapp-sdks",
-    "aws-samples/aws-sdk-js-notes-app",
     "awslabs/wdio-aws-device-farm-service",
     "Azure/bicep-deploy",
     "Azure/powershell",
@@ -63,7 +62,6 @@
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
-    "gicentre/prettier-plugin-elm",
     "Godefroy/micdrop",
     "GoogleCloudPlatform/opentelemetry-demo",
     "grafana/profiles-drilldown",

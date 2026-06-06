@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5486,
-    "concepts": 1979,
-    "observations": 1982,
-    "repos": 1395,
-    "terms": 1975
+    "components": 5493,
+    "concepts": 1983,
+    "observations": 1986,
+    "repos": 1396,
+    "terms": 1979
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -591,6 +591,7 @@
     "Extraltodeus/shared_models_galleries",
     "eyalz800/zpp_mk",
     "ezhang7423/hulc-data",
+    "fabmax/box2d-jni",
     "fakerybakery/styletts2-cli",
     "Fang2896/GroundedSAM_GaussianOcc",
     "FasterXML/jackson-1",

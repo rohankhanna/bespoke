@@ -1,34 +1,30 @@
 {
   "counts": {
-    "components": 774,
-    "concepts": 429,
-    "observations": 431,
-    "repos": 41,
-    "terms": 421
+    "components": 633,
+    "concepts": 337,
+    "observations": 339,
+    "repos": 34,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "ajv-validator/ajv",
     "apache/casbin",
-    "astral-sh/ruff",
     "atuinsh/atuin",
     "blender/blender",
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
-    "crewAIInc/crewAI",
     "DayBreak-u/chineseocr_lite",
-    "flipped-aurora/gin-vue-admin",
     "foliojs/pdfkit",
     "fuma-nama/fumadocs",
     "gitleaks/gitleaks",
-    "great-expectations/great_expectations",
     "JetBrains/compose-multiplatform",
     "kepano/obsidian-skills",
     "Kilo-Org/kilocode",
@@ -38,7 +34,6 @@
     "ludwig-ai/ludwig",
     "meta-llama/llama-cookbook",
     "mixmark-io/turndown",
-    "mobxjs/mobx",
     "modelcontextprotocol/typescript-sdk",
     "modelscope/DiffSynth-Studio",
     "neovim/nvim-lspconfig",
@@ -48,11 +43,9 @@
     "oobabooga/textgen",
     "pyg-team/pytorch_geometric",
     "realworld-apps/realworld",
-    "rerun-io/rerun",
     "restic/restic",
     "RooCodeInc/Roo-Code",
     "rust-lang/mdBook",
-    "SubtitleEdit/subtitleedit",
-    "XAMPPRocky/tokei"
+    "SubtitleEdit/subtitleedit"
   ]
 }

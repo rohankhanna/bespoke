@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 22,
-    "terms": 179
+    "components": 99,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 18,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
@@ -23,8 +23,6 @@
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
-    "minad/consult",
-    "mrcjkb/rustaceanvim",
     "nushell/awesome-nu",
     "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
@@ -32,8 +30,6 @@
     "preservim/tagbar",
     "stakira/OpenUtau",
     "standardrb/standard",
-    "theJayTea/WritingTools",
-    "truffleruby/truffleruby",
     "xoofx/markdig",
     "xororz/local-dream"
   ]

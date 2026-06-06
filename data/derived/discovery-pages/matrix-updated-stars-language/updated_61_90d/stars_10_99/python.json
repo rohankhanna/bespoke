@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 202,
-    "observations": 202,
-    "repos": 62,
-    "terms": 199
+    "components": 302,
+    "concepts": 253,
+    "observations": 253,
+    "repos": 67,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
+    "4dn-dcic/tibanna",
     "ai4colonoscopy/PraNet-V2",
     "all-the-noises/eval-arena",
     "allenporter/python-google-nest-sdm",
@@ -31,8 +32,8 @@
     "c4ffein/realworld-django-ninja",
     "ckan/ckanext-xloader",
     "ckan/datapusher",
-    "cldf/segments",
     "clearml/clearml-session",
+    "cmake-wheel/cmeel",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "collinear-ai/yc-bench",
     "cvat-ai/datumaro",
@@ -44,12 +45,14 @@
     "FindDefinition/cumm",
     "foldl/AlphaGeometryRE",
     "googlefonts/nam-files",
+    "hynek/argon2-cffi-bindings",
     "idodov/RedAlert",
     "inducer/codepy",
     "intel/vc-intrinsics",
     "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
+    "jawah/wassima",
     "KratosMultiphysics/Examples",
     "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
     "liran-funaro/sphinx-markdown-builder",
@@ -61,6 +64,7 @@
     "optuna/optunahub",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
+    "python-graphblas/graphblas-algorithms",
     "python-pillow/pillow-perf",
     "redis/redis-py-entraid",
     "richardodliu/OpenCodeEval",
@@ -68,6 +72,7 @@
     "ServiceNow/webarena-verified",
     "seung-lab/cloud-files",
     "shiweijiezero/R3L",
+    "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 547,
-    "concepts": 675,
-    "observations": 681,
-    "repos": 116,
-    "terms": 675
+    "components": 579,
+    "concepts": 703,
+    "observations": 709,
+    "repos": 121,
+    "terms": 702
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -48,6 +48,7 @@
     "dimitri/el-get",
     "dotnet/project-system",
     "dotnet/roslynator",
+    "elixir-plug/plug",
     "ex-aws/ex_aws",
     "excon/excon",
     "FluxML/Zygote.jl",
@@ -69,6 +70,7 @@
     "grangier/python-goose",
     "haleclipse/claudix",
     "heartcombo/has_scope",
+    "heartcombo/responders",
     "hercules-ci/flake-parts",
     "hrsh7th/nvim-cmp",
     "Intellindust-AI-Lab/DEIMv2",
@@ -76,12 +78,14 @@
     "j-hui/fidget.nvim",
     "jgm/djot",
     "jpanther/congo",
+    "JuliaDocs/Franklin.jl",
     "JuliaPlots/Plots.jl",
     "kepano/obsidian-minimal",
     "L3MON4D3/LuaSnip",
     "lindawangg/COVID-Net",
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
+    "luarocks/luarocks",
     "lunarmodules/busted",
     "manzaltu/claude-code-ide.el",
     "metosin/reitit",
@@ -98,6 +102,7 @@
     "OmniSharp/omnisharp-roslyn",
     "onnx/models",
     "opal/opal",
+    "oxalorg/sakura",
     "pardeike/Harmony",
     "pgpartman/pg_partman",
     "ptsochantaris/trailer",

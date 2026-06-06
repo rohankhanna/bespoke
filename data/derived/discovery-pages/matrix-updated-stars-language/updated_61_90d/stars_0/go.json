@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 5,
-    "terms": 1
+    "components": 13,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 6,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-06T05:49:40.998108+00:00",
   "repo_ids": [
     "aldernero/debugui",
     "datachainlab/ibc-parlia-relay",
+    "ethpandaops/xatu-cbt",
     "kdubbo/api",
     "onomojo/i18n-country-translations-go",
     "onomojo/i18n-timezones-go"
