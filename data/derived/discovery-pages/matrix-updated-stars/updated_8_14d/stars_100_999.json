@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 987,
-    "concepts": 517,
-    "observations": 517,
-    "repos": 80,
-    "terms": 516
+    "components": 1000,
+    "concepts": 525,
+    "observations": 525,
+    "repos": 81,
+    "terms": 524
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -38,6 +38,7 @@
     "devcontainers/devcontainers.github.io",
     "digitalocean/openapi",
     "eclipse-tm4e/tm4e",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "elixir-protobuf/protobuf",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "flagos-ai/FlagAttention",

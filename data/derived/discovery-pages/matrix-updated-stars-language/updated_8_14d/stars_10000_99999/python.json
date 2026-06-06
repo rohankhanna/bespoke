@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 349,
-    "observations": 351,
-    "repos": 27,
-    "terms": 345
+    "components": 314,
+    "concepts": 392,
+    "observations": 394,
+    "repos": 29,
+    "terms": 388
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -20,6 +20,7 @@
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "datalab-to/surya",
+    "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
@@ -27,6 +28,7 @@
     "Lightning-AI/litgpt",
     "Lightning-AI/pytorch-lightning",
     "modelscope/FunASR",
+    "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
     "OpenMOSS/MOSS",

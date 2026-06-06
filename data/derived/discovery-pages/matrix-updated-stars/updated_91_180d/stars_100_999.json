@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4983,
-    "concepts": 3279,
-    "observations": 3288,
-    "repos": 838,
-    "terms": 3275
+    "components": 4977,
+    "concepts": 3267,
+    "observations": 3276,
+    "repos": 836,
+    "terms": 3263
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -170,7 +170,6 @@
     "browserslist/browserslist-rs",
     "BrunoBonacci/mulog",
     "bshall/knn-vc",
-    "Builditluc/wiki-tui",
     "buildpacks/spec",
     "BurntSushi/rebar",
     "bvaughn/react-window-infinite-loader",
@@ -542,7 +541,6 @@
     "MiniMax-AI/MiniMax-M2.1",
     "mit-han-lab/Block-Sparse-Attention",
     "mlc-ai/tokenizers-cpp",
-    "MME-Benchmarks/Video-MME",
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
     "mongodb-js/kerberos",

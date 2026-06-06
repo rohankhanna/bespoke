@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4376,
-    "concepts": 2890,
-    "observations": 2902,
-    "repos": 623,
-    "terms": 2892
+    "components": 4391,
+    "concepts": 2911,
+    "observations": 2923,
+    "repos": 625,
+    "terms": 2913
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -158,6 +158,7 @@
     "csslc/PiSA-SR",
     "csstools/normalize.css",
     "CyberAP/nanoid-dictionary",
+    "Cysharp/RuntimeUnitTestToolkit",
     "cztomsik/ava",
     "d3/d3-format",
     "d3/d3-geo-polygon",
@@ -188,6 +189,7 @@
     "dotnet/AspNetDocs",
     "dotnet/source-build",
     "DoumanAsh/xxhash-rust",
+    "drahnr/cargo-spellcheck",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
     "dtolnay/trybuild",

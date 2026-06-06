@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4468,
-    "concepts": 2826,
-    "observations": 2839,
-    "repos": 491,
-    "terms": 2829
+    "components": 4561,
+    "concepts": 2865,
+    "observations": 2878,
+    "repos": 495,
+    "terms": 2868
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "aaaaalexis/obsidian-cupertino",
@@ -45,6 +45,7 @@
     "aquasecurity/tfsec",
     "ardalis/ApiEndpoints",
     "argos-ci/jest-puppeteer",
+    "arl/statsviz",
     "arviz-devs/arviz",
     "arxanas/git-branchless",
     "ashvardanian/StringZilla",
@@ -145,6 +146,7 @@
     "duckdb/pg_duckdb",
     "dynaconf/dynaconf",
     "ebiggers/libdeflate",
+    "ecomfe/echarts-gl",
     "ekalinin/sitemap.js",
     "elixir-plug/plug",
     "emilk/eframe_template",
@@ -314,6 +316,7 @@
     "miolini/autoresearch-macos",
     "mitsuhiko/insta",
     "ml-explore/mlx-examples",
+    "Mobile-Artificial-Intelligence/maid",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "Mooncake-Labs/pg_mooncake",
     "mosaicml/composer",
@@ -454,6 +457,7 @@
     "tauri-apps/cargo-mobile2",
     "tdewolff/canvas",
     "TechEmpower/FrameworkBenchmarks",
+    "Tencent-Hunyuan/HunyuanVideo-I2V",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "tensorflow/tpu",

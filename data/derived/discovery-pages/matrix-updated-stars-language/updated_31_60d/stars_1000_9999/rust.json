@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2466,
-    "concepts": 1771,
-    "observations": 1778,
-    "repos": 236,
-    "terms": 1780
+    "components": 2484,
+    "concepts": 1794,
+    "observations": 1801,
+    "repos": 237,
+    "terms": 1803
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -129,6 +129,7 @@
     "kivikakk/comrak",
     "lakekeeper/lakekeeper",
     "lalrpop/lalrpop",
+    "lance-format/lance",
     "latex-lsp/texlab",
     "libp2p/rust-libp2p",
     "linebender/resvg",

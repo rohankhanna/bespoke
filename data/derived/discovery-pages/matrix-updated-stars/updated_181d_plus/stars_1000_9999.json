@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 10651,
-    "concepts": 9243,
-    "observations": 9255,
-    "repos": 2380,
-    "terms": 9113
+    "concepts": 9253,
+    "observations": 9265,
+    "repos": 2382,
+    "terms": 9122
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1271,6 +1271,7 @@
     "lokerl/tts-vue",
     "lpiccinelli-eth/UniDepth",
     "lquixada/cross-fetch",
+    "LTH14/JiT",
     "lucasb-eyer/pydensecrf",
     "LuChengTHU/dpm-solver",
     "lucidrains/audiolm-pytorch",
@@ -1450,6 +1451,7 @@
     "moby/datakit",
     "moby/hyperkit",
     "mobz/elasticsearch-head",
+    "modelscope/3D-Speaker",
     "MohammadYounes/rtlcss",
     "mojombo/chronic",
     "moojink/openvla-oft",

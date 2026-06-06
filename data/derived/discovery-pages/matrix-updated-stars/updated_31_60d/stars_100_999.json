@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 23159,
-    "concepts": 13470,
-    "observations": 13524,
-    "repos": 2341,
-    "terms": 13557
+    "components": 23152,
+    "concepts": 13464,
+    "observations": 13518,
+    "repos": 2340,
+    "terms": 13551
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -621,7 +621,6 @@
     "CVHub520/X-AnyLabeling-Server",
     "cygwin/cygwin",
     "cyphar/libpathrs",
-    "Cysharp/RuntimeUnitTestToolkit",
     "daaain/claude-code-log",
     "daanx/isocline",
     "daeh/zotero-citation-tally",
@@ -716,7 +715,6 @@
     "dotnet/razor",
     "dperini/nwsapi",
     "dprint/dprint-plugin-typescript",
-    "drahnr/cargo-spellcheck",
     "DrTimothyAldenDavis/GraphBLAS",
     "dstein64/vim-startuptime",
     "dtolnay/proc-macro2",
@@ -998,6 +996,7 @@
     "gookit/config",
     "gookit/event",
     "gookit/filter",
+    "gookit/gcli",
     "gookit/slog",
     "gopasspw/gopassbridge",
     "GordonChen19/Prompt-Relay",

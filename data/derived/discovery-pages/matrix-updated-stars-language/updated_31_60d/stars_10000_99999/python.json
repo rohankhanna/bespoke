@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2485,
-    "concepts": 2162,
-    "observations": 2168,
-    "repos": 207,
-    "terms": 2182
+    "components": 2499,
+    "concepts": 2185,
+    "observations": 2191,
+    "repos": 208,
+    "terms": 2205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -119,6 +119,7 @@
     "LibreTranslate/LibreTranslate",
     "locustio/locust",
     "lucidrains/vit-pytorch",
+    "ludwig-ai/ludwig",
     "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",

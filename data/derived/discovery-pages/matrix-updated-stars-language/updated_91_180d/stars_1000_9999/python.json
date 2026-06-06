@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 439,
-    "concepts": 863,
-    "observations": 864,
-    "repos": 172,
-    "terms": 849
+    "concepts": 853,
+    "observations": 854,
+    "repos": 170,
+    "terms": 840
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -104,7 +104,6 @@
     "layumi/Person_reID_baseline_pytorch",
     "LeCAR-Lab/ASAP",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
-    "LTH14/JiT",
     "LTH14/mar",
     "lucidrains/tab-transformer-pytorch",
     "lupantech/AgentFlow",
@@ -112,7 +111,6 @@
     "meta-llama/llama-models",
     "Minqi824/ADBench",
     "mjpost/sacrebleu",
-    "modelscope/3D-Speaker",
     "ModelTC/LightX2V-Qwen-Image-Lightning",
     "mosaicml/streaming",
     "mozillazg/pinyin-data",

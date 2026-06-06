@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10938,
-    "concepts": 5169,
-    "observations": 5193,
-    "repos": 1220,
-    "terms": 5214
+    "components": 10911,
+    "concepts": 5160,
+    "observations": 5184,
+    "repos": 1218,
+    "terms": 5205
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x676e67/wreq-util",
@@ -33,7 +33,6 @@
     "abhinav/goldmark-anchor",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
-    "absolute-version/absolute-version-js",
     "abusch/nu_plugin_semver",
     "Accenture/Cymple",
     "AccessKit/accesskit-c",
@@ -519,7 +518,6 @@
     "gentoo-mirror/guru",
     "gentoo/api-gentoo-org",
     "getgrav/grav-plugin-problems",
-    "getlantern/.github",
     "ghostery/broken-page-reports",
     "giggls/openstreetmap-carto-de",
     "go-skynet/go-ggml-transformers.cpp",

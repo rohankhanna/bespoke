@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 834,
-    "concepts": 190,
-    "observations": 190,
-    "repos": 35,
-    "terms": 190
+    "components": 849,
+    "concepts": 193,
+    "observations": 193,
+    "repos": 36,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "amqp-node/amqplib",
@@ -23,6 +23,7 @@
     "crossbario/autobahn-js",
     "danmactough/node-feedparser",
     "dooy/chatgpt-web-midjourney-proxy",
+    "ecomfe/echarts-gl",
     "engineer-man/piston",
     "ethereum/devp2p",
     "fengyuanchen/compressorjs",

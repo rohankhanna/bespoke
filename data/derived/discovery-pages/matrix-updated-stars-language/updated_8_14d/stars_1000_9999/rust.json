@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 82,
-    "observations": 83,
-    "repos": 7,
-    "terms": 82
+    "components": 106,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 6,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
     "crate-ci/cargo-release",
     "databendlabs/databend",
     "dmtrKovalenko/fff",
     "hermit-os/hermit-rs",
-    "intentee/paddler",
     "mayocream/koharu"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 33302,
-    "concepts": 19319,
-    "observations": 19387,
-    "repos": 2437,
-    "terms": 19373
+    "components": 33227,
+    "concepts": 19303,
+    "observations": 19371,
+    "repos": 2434,
+    "terms": 19357
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -225,7 +225,6 @@
     "Arize-ai/phoenix",
     "arkime/arkime",
     "arkohut/pensieve",
-    "arl/statsviz",
     "ARM-software/abi-aa",
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
@@ -707,7 +706,6 @@
     "ebitengine/purego",
     "eclipse-cyclonedds/cyclonedds",
     "eclipse-sumo/sumo",
-    "ecomfe/echarts-gl",
     "ecomfe/zrender",
     "ecyrbe/zodios",
     "eemeli/yaml",
@@ -1302,6 +1300,7 @@
     "lakekeeper/lakekeeper",
     "lalrpop/lalrpop",
     "lambdalisue/vim-fern",
+    "lance-format/lance",
     "langchain-ai/deepagentsjs",
     "langchain-ai/langchain-mcp-adapters",
     "langchain-ai/langgraphjs",
@@ -1539,7 +1538,6 @@
     "mlcommons/training",
     "mll-lab-nu/RAGEN",
     "mlocati/docker-php-extension-installer",
-    "Mobile-Artificial-Intelligence/maid",
     "moby/buildkit",
     "moby/vpnkit",
     "Moddable-OpenSource/moddable",
@@ -2218,7 +2216,6 @@
     "teal-language/tl",
     "TechnitiumSoftware/DnsServer",
     "Tencent-Hunyuan/HunyuanVideo-1.5",
-    "Tencent-Hunyuan/HunyuanVideo-I2V",
     "tendermint/tendermint",
     "tensorchord/envd",
     "tensorchord/VectorChord",

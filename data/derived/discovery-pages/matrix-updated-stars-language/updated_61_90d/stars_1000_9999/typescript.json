@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1825,
-    "concepts": 366,
-    "observations": 367,
-    "repos": 51,
-    "terms": 388
+    "components": 1899,
+    "concepts": 383,
+    "observations": 384,
+    "repos": 52,
+    "terms": 405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -50,6 +50,7 @@
     "microsoft/genaiscript",
     "microsoft/node-pty",
     "microsoft/tsdoc",
+    "Mobile-Artificial-Intelligence/maid",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
     "peter-evans/repository-dispatch",

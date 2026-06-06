@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 13579,
-    "concepts": 8981,
-    "observations": 9011,
-    "repos": 2406,
-    "terms": 8966
+    "components": 13583,
+    "concepts": 8962,
+    "observations": 8992,
+    "repos": 2403,
+    "terms": 8948
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -461,7 +461,6 @@
     "bshoshany/thread-pool",
     "BuddiesOfBudgie/budgie-desktop-view",
     "BuilderIO/mitosis",
-    "Builditluc/wiki-tui",
     "buildpacks/spec",
     "Bujiazi/DiCache",
     "buriy/python-readability",
@@ -599,6 +598,7 @@
     "CMBAgents/cmbagent",
     "cncf/tag-security",
     "CNChTu/Diffusion-SVC",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "cnuernber/charred",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "cocos/cocos-engine",
@@ -1483,7 +1483,6 @@
     "lquerel/gcp-bigquery-client",
     "lread/test-doc-blocks",
     "lshqqytiger/stable-diffusion-webui-amdgpu",
-    "LTH14/JiT",
     "LTH14/mar",
     "LuaLS/vscode-lua-doc",
     "lucidrains/denoising-diffusion-pytorch",
@@ -1584,10 +1583,8 @@
     "mjvolk3/torchcell",
     "mlc-ai/tokenizers-cpp",
     "mlfoundations/SkyRL",
-    "MME-Benchmarks/Video-MME",
     "MMMU-Benchmark/MMMU",
     "mmorise/World",
-    "modelscope/3D-Speaker",
     "modelscope/ms-enclave",
     "ModelTC/GenRL",
     "ModelTC/LightX2V-Qwen-Image-Lightning",

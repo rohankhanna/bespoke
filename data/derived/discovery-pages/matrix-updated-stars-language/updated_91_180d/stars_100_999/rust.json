@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 267,
-    "observations": 268,
-    "repos": 68,
-    "terms": 265
+    "components": 382,
+    "concepts": 260,
+    "observations": 261,
+    "repos": 67,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -22,7 +22,6 @@
     "bluss/matrixmultiply",
     "blyxxyz/lexopt",
     "browserslist/browserslist-rs",
-    "Builditluc/wiki-tui",
     "callum-oakley/json5-rs",
     "cormacrelf/dark-notify",
     "CosmWasm/cw-plus",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2189,
-    "concepts": 1333,
-    "observations": 1337,
-    "repos": 377,
-    "terms": 1330
+    "components": 2206,
+    "concepts": 1339,
+    "observations": 1343,
+    "repos": 378,
+    "terms": 1336
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -25,6 +25,7 @@
     "6cdh/dotfiles",
     "9romise/eslint-plugin-import-lite",
     "a5huynh/vscode-ron",
+    "absolute-version/absolute-version-js",
     "acemir/CSSOM",
     "acro5piano/kysely-migration-cli",
     "ada-url/goada",
@@ -124,7 +125,6 @@
     "cmake-wheel/cmeel",
     "cncf/project-template",
     "cncf/wg-networking",
-    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "coin-or-tools/homebrew-coinor",
     "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",
@@ -193,6 +193,7 @@
     "GaloisInc/cryptol-specs",
     "gatsbyjs/gatsby-starter-minimal",
     "gershnik/wsdd-native",
+    "getlantern/.github",
     "getsentry/.github",
     "GFW-knocker/AndroidLibXrayLite",
     "gicentre/prettier-plugin-elm",

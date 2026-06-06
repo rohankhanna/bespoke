@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 445,
-    "observations": 448,
-    "repos": 100,
-    "terms": 441
+    "components": 652,
+    "concepts": 444,
+    "observations": 447,
+    "repos": 99,
+    "terms": 440
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -68,7 +68,6 @@
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
-    "getlantern/.github",
     "golangci/go-printf-func-name",
     "golangci/misspell",
     "gookit/ini",

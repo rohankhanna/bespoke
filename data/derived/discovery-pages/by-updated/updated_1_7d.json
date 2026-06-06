@@ -1,42 +1,30 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 280,
-    "observations": 284,
-    "repos": 26,
-    "terms": 289
+    "components": 97,
+    "concepts": 85,
+    "observations": 87,
+    "repos": 14,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint",
     "cloudfoundry/bosh-google-cpi-release",
     "Comfy-Org/ComfyUI",
-    "deepspeedai/DeepSpeed",
     "eclipse-jdtls/eclipse.jdt.ls",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "godot-rust/gdext",
-    "harbor-framework/harbor",
     "jax-ml/jax",
     "JuliaPluto/Pluto.jl",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "modelscope/ms-swift",
-    "mudler/LocalAI",
-    "PrimeIntellect-ai/verifiers",
-    "ruvnet/ruflo",
-    "storybookjs/storybook",
-    "swiftlang/llvm-project",
     "swiftlang/swift",
     "swiftlang/swift-llbuild",
-    "swiftlang/swift-syntax",
-    "TrenchBroom/TrenchBroom",
-    "triton-lang/triton",
-    "web-platform-tests/wpt"
+    "swiftlang/swift-syntax"
   ]
 }

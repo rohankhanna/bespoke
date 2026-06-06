@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1331,
-    "concepts": 646,
-    "observations": 647,
-    "repos": 94,
-    "terms": 641
+    "components": 1323,
+    "concepts": 631,
+    "observations": 632,
+    "repos": 93,
+    "terms": 626
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -60,7 +60,6 @@
     "google-deepmind/xmanager",
     "google/protobuf.dart",
     "GoogleCloudPlatform/google-cloud-node-todos",
-    "gookit/gcli",
     "GStreamer/cerbero",
     "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",

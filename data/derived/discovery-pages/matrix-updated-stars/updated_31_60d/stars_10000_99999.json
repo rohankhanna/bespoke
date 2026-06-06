@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25453,
-    "concepts": 10861,
-    "observations": 10901,
-    "repos": 1049,
-    "terms": 10840
+    "components": 25467,
+    "concepts": 10884,
+    "observations": 10924,
+    "repos": 1050,
+    "terms": 10863
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -606,6 +606,7 @@
     "Loyalsoldier/v2ray-rules-dat",
     "lsd-rs/lsd",
     "lucidrains/vit-pytorch",
+    "ludwig-ai/ludwig",
     "lutzroeder/netron",
     "lz4/lz4",
     "magic-wormhole/magic-wormhole",

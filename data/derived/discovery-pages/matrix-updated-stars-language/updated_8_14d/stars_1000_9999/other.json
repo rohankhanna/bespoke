@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 196,
-    "observations": 198,
-    "repos": 23,
-    "terms": 196
+    "components": 276,
+    "concepts": 227,
+    "observations": 229,
+    "repos": 25,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/babashka",
@@ -35,7 +35,9 @@
     "psmux/psmux",
     "radian-software/straight.el",
     "seancorfield/honeysql",
+    "swiftlang/llvm-project",
     "tModLoader/tModLoader",
-    "TryGhost/node-sqlite3"
+    "TryGhost/node-sqlite3",
+    "web-platform-tests/wpt"
   ]
 }

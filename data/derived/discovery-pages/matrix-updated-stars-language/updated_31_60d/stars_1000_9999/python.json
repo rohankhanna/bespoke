@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3669,
-    "concepts": 4127,
-    "observations": 4139,
-    "repos": 498,
-    "terms": 4116
+    "concepts": 4123,
+    "observations": 4135,
+    "repos": 497,
+    "terms": 4112
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "6551Team/opennews-mcp",
@@ -466,7 +466,6 @@
     "taylorwilsdon/google_workspace_mcp",
     "tdrussell/diffusion-pipe",
     "Tencent-Hunyuan/HunyuanVideo-1.5",
-    "Tencent-Hunyuan/HunyuanVideo-I2V",
     "testcontainers/testcontainers-python",
     "therealxiaomanchu/ex-skill",
     "theroyallab/tabbyAPI",

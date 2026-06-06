@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15625,
-    "concepts": 14152,
-    "observations": 14180,
-    "repos": 4637,
-    "terms": 13912
+    "components": 15631,
+    "concepts": 14164,
+    "observations": 14192,
+    "repos": 4639,
+    "terms": 13924
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -779,6 +779,7 @@
     "Buernia/Tiejili",
     "Buernia/Zhudou-Sans",
     "buffer/libemu",
+    "Builditluc/wiki-tui",
     "buptlihang/CDLA",
     "buraksezer/consistent",
     "burningwave/core",
@@ -3113,6 +3114,7 @@
     "mlswg/mls-protocol",
     "mmaaz60/EdgeNeXt",
     "mmatl/urdfpy",
+    "MME-Benchmarks/Video-MME",
     "mmwillet/TTS.cpp",
     "mobxjs/mobx-angular",
     "moby/ipvs",

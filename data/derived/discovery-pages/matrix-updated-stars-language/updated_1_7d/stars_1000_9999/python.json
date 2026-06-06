@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 3,
-    "terms": 24
+    "components": 7,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint",
-    "harbor-framework/harbor",
-    "PrimeIntellect-ai/verifiers"
+    "aws-cloudformation/cfn-lint"
   ]
 }

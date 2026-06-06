@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 81,
-    "observations": 81,
+    "components": 116,
+    "concepts": 65,
+    "observations": 65,
     "repos": 7,
-    "terms": 78
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
     "ash-rs/ash",
+    "intentee/paddler",
     "junhoyeo/tokscale",
-    "lance-format/lance",
     "nix-rust/nix",
     "reubeno/brush"
   ]

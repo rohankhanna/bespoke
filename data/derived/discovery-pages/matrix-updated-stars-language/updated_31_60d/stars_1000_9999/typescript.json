@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11962,
-    "concepts": 2332,
-    "observations": 2338,
-    "repos": 285,
-    "terms": 2433
+    "components": 11888,
+    "concepts": 2315,
+    "observations": 2321,
+    "repos": 284,
+    "terms": 2416
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -191,7 +191,6 @@
     "microsoft/vscode-python",
     "MiniMax-AI/cli",
     "mksglu/context-mode",
-    "Mobile-Artificial-Intelligence/maid",
     "modelcontextprotocol/inspector",
     "mui/mui-x",
     "mutoe/vue3-realworld-example-app",

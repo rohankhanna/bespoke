@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 612,
-    "observations": 620,
-    "repos": 184,
-    "terms": 604
+    "components": 772,
+    "concepts": 619,
+    "observations": 627,
+    "repos": 185,
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -47,6 +47,7 @@
     "bbqsrc/cargo-ndk",
     "bitshifter/mathbench-rs",
     "blitz-js/next-superjson-plugin",
+    "Builditluc/wiki-tui",
     "BurntSushi/cargo-benchcmp",
     "BurntSushi/critcmp",
     "BurntSushi/rust-snappy",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1953,
-    "concepts": 1318,
-    "observations": 1330,
-    "repos": 228,
-    "terms": 1317
+    "components": 1948,
+    "concepts": 1306,
+    "observations": 1318,
+    "repos": 227,
+    "terms": 1305
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -86,7 +86,6 @@
     "djc/tokio-retry",
     "djkoloski/rust_serialization_benchmark",
     "dprint/dprint-plugin-typescript",
-    "drahnr/cargo-spellcheck",
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "duckdb/duckdb-rs",

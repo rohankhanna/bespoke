@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 262,
-    "observations": 263,
-    "repos": 28,
-    "terms": 261
+    "components": 219,
+    "concepts": 281,
+    "observations": 282,
+    "repos": 30,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -24,6 +24,7 @@
     "fla-org/flash-linear-attention",
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
+    "harbor-framework/harbor",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
     "huggingface/optimum-quanto",
@@ -36,6 +37,7 @@
     "modelscope/FunClip",
     "NEKOparapa/AiNiee",
     "ogx-ai/ogx",
+    "PrimeIntellect-ai/verifiers",
     "redis/redis-om-python",
     "rllm-org/rllm",
     "roboflow/maestro",

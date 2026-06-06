@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 7,
-    "terms": 75
+    "components": 132,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 8,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "gastownhall/beads",
     "gastownhall/gastown",
     "git-lfs/git-lfs",
     "moby/moby",
+    "mudler/LocalAI",
     "QuantumNous/new-api",
     "redis/go-redis",
     "weaviate/weaviate"

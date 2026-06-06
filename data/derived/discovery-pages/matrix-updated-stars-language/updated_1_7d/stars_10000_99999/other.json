@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 2,
-    "terms": 8
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
-    "swiftlang/swift",
-    "triton-lang/triton"
+    "swiftlang/swift"
   ]
 }

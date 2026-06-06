@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48708,
-    "concepts": 34536,
-    "observations": 34600,
-    "repos": 12504,
-    "terms": 34082
+    "components": 48714,
+    "concepts": 34558,
+    "observations": 34622,
+    "repos": 12508,
+    "terms": 34103
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -2173,6 +2173,7 @@
     "build2-packaging/nlohmann-json",
     "build2-packaging/range-v3",
     "buildbot/botherders",
+    "Builditluc/wiki-tui",
     "bulletphysics/bullet3",
     "bunysae/abap_db_preparator",
     "BUPT-PRIV/MAE-priv",
@@ -7561,6 +7562,7 @@
     "lshqqytiger/triton",
     "lspitzner/brittany",
     "ltdrdata/comfyui-connection-helper",
+    "LTH14/JiT",
     "LTH14/mage",
     "LTH14/rcg",
     "LTH14/torch-fidelity",
@@ -8382,6 +8384,7 @@
     "mmatl/pyrender",
     "mmatl/urdfpy",
     "mmcdole/gofeed",
+    "MME-Benchmarks/Video-MME",
     "MMesch/labextension_tutorial",
     "mmp/pbrt-v3",
     "mmwillet/TTS.cpp",
@@ -8393,6 +8396,7 @@
     "moby/ipvs",
     "mobz/elasticsearch-head",
     "Moddable-OpenSource/moddable-xst",
+    "modelscope/3D-Speaker",
     "modelscope/FunCodec",
     "modelscope/Nexus-Gen",
     "modelscope/scepter",

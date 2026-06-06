@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 29,
-    "terms": 113
+    "components": 142,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 30,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "aquasecurity/k8s-node-collector",
     "astro-han/diffpane",
@@ -30,6 +30,7 @@
     "datachainlab/ethereum-ibc-relay-chain",
     "depado/bfchroma",
     "EstebanForge/mcp-cli-ent",
+    "getlantern/.github",
     "GFW-knocker/AndroidLibXrayLite",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 278,
-    "concepts": 290,
-    "observations": 290,
-    "repos": 57,
-    "terms": 282
+    "components": 282,
+    "concepts": 305,
+    "observations": 305,
+    "repos": 58,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
+    "arl/statsviz",
     "atotto/clipboard",
     "azure/aztfexport",
     "bazelbuild/buildtools",

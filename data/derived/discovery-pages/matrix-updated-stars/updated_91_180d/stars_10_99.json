@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2566,
-    "concepts": 1432,
-    "observations": 1438,
-    "repos": 544,
-    "terms": 1437
+    "components": 2576,
+    "concepts": 1435,
+    "observations": 1441,
+    "repos": 545,
+    "terms": 1440
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -161,6 +161,7 @@
     "cloudwego/netpoll-benchmark",
     "cmacdonald/pyt_splade",
     "CMBAgents/cmbagent",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "coderaiser/estree-to-babel",
     "coderaiser/mock-import",

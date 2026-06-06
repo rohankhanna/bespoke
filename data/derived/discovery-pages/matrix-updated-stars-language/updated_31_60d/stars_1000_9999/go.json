@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2525,
-    "concepts": 2482,
-    "observations": 2493,
-    "repos": 279,
-    "terms": 2480
+    "components": 2521,
+    "concepts": 2467,
+    "observations": 2478,
+    "repos": 278,
+    "terms": 2465
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -38,7 +38,6 @@
     "argoproj/argo-events",
     "argoproj/argo-rollouts",
     "ariga/atlas",
-    "arl/statsviz",
     "asaskevich/govalidator",
     "auth0/go-jwt-middleware",
     "autokitteh/autokitteh",

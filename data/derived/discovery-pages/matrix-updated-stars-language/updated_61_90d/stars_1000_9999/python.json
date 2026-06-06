@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 357,
-    "concepts": 634,
-    "observations": 634,
-    "repos": 100,
-    "terms": 628
+    "concepts": 638,
+    "observations": 638,
+    "repos": 101,
+    "terms": 632
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "AgentOps-AI/agentops",
@@ -100,6 +100,7 @@
     "snakers4/silero-vad",
     "SWE-bench/SWE-bench",
     "tabatkins/railroad-diagrams",
+    "Tencent-Hunyuan/HunyuanVideo-I2V",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "Textualize/rich-cli",

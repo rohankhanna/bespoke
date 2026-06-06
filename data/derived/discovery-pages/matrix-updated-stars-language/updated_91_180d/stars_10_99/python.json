@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 110,
-    "terms": 291
+    "components": 280,
+    "concepts": 286,
+    "observations": 287,
+    "repos": 111,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T05:49:40.998108+00:00",
+  "generated_at": "2026-06-06T07:33:29.108947+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -47,6 +47,7 @@
     "ChenMnZ/INT_vs_FP",
     "cldf/segments",
     "CMBAgents/cmbagent",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",
     "cuiziteng/Luminance-GS",
