@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 87,
-    "terms": 132
+    "components": 270,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 88,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -51,6 +51,7 @@
     "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "databendlabs/iceberg-rust",
     "DataDog/go-cmp",
+    "DataDog/opa",
     "datafuse-extras/tantivy",
     "datafuse-extras/tantivy-jieba",
     "DiligentGraphics/args",

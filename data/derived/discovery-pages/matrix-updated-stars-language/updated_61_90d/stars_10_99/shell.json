@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
+    "components": 35,
     "concepts": 55,
     "observations": 55,
-    "repos": 15,
-    "terms": 56
+    "repos": 14,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
@@ -23,7 +23,6 @@
     "coin-or/coinbrew",
     "conda-forge/spacy-feedstock",
     "containers/image_build",
-    "jawwadfirdousi/agent-skills",
     "lxgw/LxgwWenkaiGB-Lite",
     "nodejs/release-keys",
     "nodenv/node-build-update-defs",

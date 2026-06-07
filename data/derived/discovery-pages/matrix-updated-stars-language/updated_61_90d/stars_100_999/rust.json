@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 182,
-    "observations": 186,
-    "repos": 44,
-    "terms": 182
+    "components": 240,
+    "concepts": 197,
+    "observations": 201,
+    "repos": 46,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
+    "ctz/graviola",
     "dfrg/swash",
     "dimforge/parry",
     "DoumanAsh/xxhash-rust",
@@ -29,6 +30,7 @@
     "emilk/egui_plot",
     "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
+    "FedericoPonzi/Horust",
     "filecoin-project/bellperson",
     "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",

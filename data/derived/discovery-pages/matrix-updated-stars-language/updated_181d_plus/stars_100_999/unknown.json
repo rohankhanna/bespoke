@@ -3,8 +3,8 @@
     "components": 128,
     "concepts": 472,
     "observations": 473,
-    "repos": 258,
-    "terms": 472
+    "repos": 259,
+    "terms": 486
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -256,6 +256,7 @@
     "tesseract-ocr/tessdata_fast",
     "the-database/MangaJaNai",
     "the-guild-org/Stack",
+    "thibautmelen/agentic-ai-systems",
     "thunlp/ToolLearningPapers",
     "tinted-theming/base16-schemes",
     "TooTallNate/node-http-proxy-agent",

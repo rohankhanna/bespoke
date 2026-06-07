@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1255,
-    "concepts": 5656,
-    "observations": 5661,
-    "repos": 1886,
-    "terms": 5488
+    "components": 1264,
+    "concepts": 5660,
+    "observations": 5665,
+    "repos": 1889,
+    "terms": 5492
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -561,6 +561,7 @@
     "EPFL-VILAB/MultiMAE",
     "epfml/landmark-attention",
     "eps696/stylegan2",
+    "eps696/stylegan2ada",
     "erdos-project/pylot",
     "eric-mitchell/mend",
     "ericchen321/ros_x_habitat",
@@ -1147,6 +1148,7 @@
     "m-bain/frozen-in-time",
     "m-bain/webvid",
     "M4Singer/M4Singer",
+    "machow/quartodoc",
     "Mael-zys/T2M-GPT",
     "magic-research/PLLaVA",
     "mahmoudnafifi/Deep_White_Balance",
@@ -1260,6 +1262,7 @@
     "modelscope/Nexus-Gen",
     "modelscope/scepter",
     "ModelTC/MQBench",
+    "MontaEllis/Pytorch-Medical-Segmentation",
     "MoonInTheRiver/NeuralSVB",
     "motional/nuplan-devkit",
     "MotrixLab/MotionDiffuse",

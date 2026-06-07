@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 118,
-    "terms": 86
+    "components": 50,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 115,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -117,14 +117,11 @@
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "hermit-os/.github",
-    "kdn36/arrow-rs-object-store",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "narutoxdd6/nyro",
-    "piebald-ai/piebald",
     "pragmatical-transshipment598/claude-code-workflows",
     "qiayuanl/unitree_buildfarm",
-    "semgrep/cursor-plugin",
     "shouted-numberone752/wechat-agent-connector",
     "sp1-patches/elliptic-curves",
     "TransferQueue/community_doc",

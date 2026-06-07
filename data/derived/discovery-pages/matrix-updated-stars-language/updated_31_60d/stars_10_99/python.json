@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 930,
-    "concepts": 666,
-    "observations": 668,
-    "repos": 179,
-    "terms": 679
+    "components": 894,
+    "concepts": 643,
+    "observations": 645,
+    "repos": 175,
+    "terms": 656
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
@@ -88,7 +88,6 @@
     "espressif/esp-idf-monitor",
     "ethstaker/ethstaker-deposit-cli",
     "executablebooks/mdit-py-plugins",
-    "facebookresearch/mosaic",
     "flagos-ai/vllm-plugin-FL",
     "GaloisInc/BLST-Verification",
     "gentoo/api-gentoo-org",
@@ -109,10 +108,8 @@
     "iamsashank09/llm-wiki-kit",
     "IcyFish332/T3RL",
     "instadeepai/fastpbrl",
-    "intel/ai-containers",
     "jfly/shtuff",
     "JuergenFleiss/atrain_core",
-    "jupyter/governance",
     "jxpress/lightning-hydra-template-vertex-ai",
     "kserve/community",
     "lace/polliwog",
@@ -132,7 +129,6 @@
     "MGenAI/GRN",
     "microsoft/olive-recipes",
     "ModelCloud/Evalution",
-    "mozilla-services/shavar",
     "mozilla-services/shavar-list-creation",
     "mypyc/mypyc-benchmarks",
     "NeilGirdhar/tjax",

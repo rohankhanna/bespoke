@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 1732,
-    "concepts": 917,
-    "observations": 922,
-    "repos": 72,
-    "terms": 916
+    "components": 1709,
+    "concepts": 877,
+    "observations": 883,
+    "repos": 71,
+    "terms": 877
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
-    "567-labs/instructor",
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
     "apache/brpc",
@@ -42,7 +41,7 @@
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
-    "isl-org/Open3D",
+    "jax-ml/jax",
     "jestjs/jest",
     "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
@@ -60,7 +59,6 @@
     "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
     "preactjs/preact",
-    "protocolbuffers/protobuf",
     "psf/black",
     "pydantic/pydantic",
     "python-poetry/poetry",
@@ -74,6 +72,7 @@
     "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
+    "swiftlang/swift",
     "TEN-framework/ten-framework",
     "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 182,
+    "components": 180,
     "concepts": 145,
     "observations": 145,
-    "repos": 27,
+    "repos": 25,
     "terms": 145
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
@@ -29,11 +29,9 @@
     "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
-    "perrygeo/python-rasterstats",
     "pypa/build",
     "pyrtlsdr/pyrtlsdr",
     "readthedocs/commonmark.py",
-    "satan53x/SExtractor",
     "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",

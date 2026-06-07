@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2123,
-    "concepts": 1549,
-    "observations": 1555,
-    "repos": 160,
-    "terms": 1544
+    "components": 2100,
+    "concepts": 1528,
+    "observations": 1534,
+    "repos": 158,
+    "terms": 1523
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -27,7 +27,6 @@
     "apache/apisix",
     "apache/spark",
     "App-vNext/Polly",
-    "AppFlowy-IO/AppFlowy",
     "apple/container",
     "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",
@@ -66,7 +65,6 @@
     "elixir-lang/elixir",
     "exelban/stats",
     "facebookresearch/dinov2",
-    "facebookresearch/sam2",
     "fastlane/fastlane",
     "getgrav/grav",
     "getlantern/lantern",

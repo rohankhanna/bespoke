@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 13,
-    "terms": 61
+    "components": 249,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 12,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "caolan/async",
     "carbon-app/carbon",
@@ -25,7 +25,6 @@
     "ramda/ramda",
     "songquanpeng/one-api",
     "sql-js/sql.js",
-    "vitejs/awesome-vite",
-    "winstonjs/winston"
+    "vitejs/awesome-vite"
   ]
 }

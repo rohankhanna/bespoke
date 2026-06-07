@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11888,
-    "concepts": 2315,
-    "observations": 2321,
-    "repos": 284,
-    "terms": 2416
+    "components": 11854,
+    "concepts": 2306,
+    "observations": 2312,
+    "repos": 282,
+    "terms": 2407
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -108,6 +108,7 @@
     "electron/windows-installer",
     "ElMassimo/iles",
     "emmetio/emmet",
+    "enricoros/big-AGI",
     "EpicenterHQ/epicenter",
     "eslint-stylistic/eslint-stylistic",
     "ethereumjs/ethereumjs-monorepo",
@@ -124,7 +125,6 @@
     "getsentry/xcodebuildmcp",
     "ggml-org/llama.vscode",
     "google-gemini/starter-applets",
-    "google-github-actions/run-gemini-cli",
     "google/adk-js",
     "google/neuroglancer",
     "googleapis/release-please",
@@ -149,7 +149,6 @@
     "intlify/vue-i18n",
     "iorate/ublacklist",
     "ipfs/helia",
-    "itgalaxy/favicons",
     "jaegertracing/jaeger-ui",
     "JamesIves/github-pages-deploy-action",
     "jaredwray/cacheable",
@@ -205,7 +204,6 @@
     "NomicFoundation/hardhat",
     "nrwl/nx-console",
     "obsidianmd/obsidian-clipper",
-    "oclif/oclif",
     "octokit/core.js",
     "onecli/onecli",
     "op7418/codepilot",

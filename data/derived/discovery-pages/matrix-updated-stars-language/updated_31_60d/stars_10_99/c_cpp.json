@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 452,
-    "concepts": 503,
-    "observations": 503,
-    "repos": 89,
-    "terms": 499
+    "components": 441,
+    "concepts": 483,
+    "observations": 483,
+    "repos": 85,
+    "terms": 480
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -27,13 +27,13 @@
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
+    "atsushieno/uapmd",
     "barak/minidjvu",
     "BirolLab/btllib",
     "bmwiedemann/openSUSE",
     "boostorg/config",
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
-    "chusitoo/flatbush",
     "clouren/SPEX",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
@@ -44,8 +44,6 @@
     "fabmax/PhysX",
     "facebook/fb303",
     "fcambus/bdf2sfd",
-    "flatpak/xdg-dbus-proxy",
-    "GaoYusong/llm.cpp",
     "gazebosim/gz-common",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
@@ -53,7 +51,6 @@
     "gazebosim/gz-rendering",
     "gazebosim/gz-tools",
     "gazebosim/gz-transport",
-    "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "hazelcast/hazelcast-cpp-client",
     "HDFGroup/hdf4",
@@ -79,7 +76,6 @@
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
     "mitsuba-renderer/nanothread",
-    "mxmlnkn/indexed_bzip2",
     "mybigday/llama.node",
     "narugit/smctemp",
     "nx10/unigd",

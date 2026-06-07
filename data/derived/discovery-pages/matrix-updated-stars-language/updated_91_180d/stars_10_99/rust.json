@@ -3,7 +3,7 @@
     "components": 212,
     "concepts": 151,
     "observations": 153,
-    "repos": 58,
+    "repos": 59,
     "terms": 149
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -60,6 +60,7 @@
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",
+    "raymondshe/matchengine-raft",
     "ros2-rust/examples",
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",

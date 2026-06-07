@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 541,
-    "concepts": 343,
-    "observations": 344,
+    "components": 547,
+    "concepts": 340,
+    "observations": 341,
     "repos": 141,
-    "terms": 340
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -47,6 +47,7 @@
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
     "cleanlab/cleanvision-examples",
+    "clojure/tools.deps",
     "cmacdonald/pyt_splade",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
@@ -67,7 +68,6 @@
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "getgrav/grav-theme-learn2",
-    "getumbrel/umbrel-lightning",
     "google/hrx",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
@@ -110,6 +110,7 @@
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "mirage/conan",
+    "Mobile-Artificial-Intelligence/maise",
     "mvz/non-digest-assets",
     "nelson-lang/nelson-website",
     "newtheatre/history-project",
@@ -134,7 +135,6 @@
     "rust-lang/crates-build-env",
     "sbcgua/abap-string-map",
     "SchwarzIT/spectral-intellij-plugin",
-    "SciML/SciMLTutorialsOutput",
     "Shopify/quantified",
     "spring-ai-alibaba/website",
     "SqrtMinusOne/eshell-atuin",

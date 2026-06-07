@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 34,
-    "terms": 65
+    "components": 54,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 32,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
-    "cdeust/cortex-know-when-to-stop-training-model",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
@@ -43,7 +42,6 @@
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "piqrypt/piqrypt-mcp-server",
-    "redai-infra/TransferQueue",
     "roampal-ai/roampal-labs",
     "seanmacavaney/ir-datasets.com",
     "shubishere/ai-drawio",

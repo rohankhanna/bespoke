@@ -1,30 +1,17 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 85,
-    "observations": 87,
-    "repos": 14,
-    "terms": 85
+    "components": 10,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
-    "attackgoat/vk-graph",
-    "aws-cloudformation/cfn-lint",
-    "cloudfoundry/bosh-google-cpi-release",
-    "Comfy-Org/ComfyUI",
-    "eclipse-jdtls/eclipse.jdt.ls",
-    "godot-rust/gdext",
-    "jax-ml/jax",
-    "JuliaPluto/Pluto.jl",
-    "microsoft/aspire",
-    "microsoft/aspire-samples",
-    "swiftlang/swift",
-    "swiftlang/swift-llbuild",
-    "swiftlang/swift-syntax"
+    "4catalyzer/javascript"
   ]
 }

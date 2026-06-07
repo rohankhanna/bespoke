@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 31,
-    "observations": 32,
-    "repos": 6,
-    "terms": 31
+    "components": 22,
+    "concepts": 22,
+    "observations": 23,
+    "repos": 5,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
-    "atsushieno/uapmd",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "xuegao-tzx/Fllama"

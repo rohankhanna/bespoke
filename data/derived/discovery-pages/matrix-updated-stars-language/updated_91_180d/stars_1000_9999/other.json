@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 490,
-    "concepts": 583,
-    "observations": 586,
-    "repos": 114,
-    "terms": 586
+    "components": 524,
+    "concepts": 597,
+    "observations": 600,
+    "repos": 117,
+    "terms": 600
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -33,15 +33,16 @@
     "carrierwaveuploader/carrierwave",
     "ChaoningZhang/MobileSAM",
     "chrisbra/csv.vim",
+    "clojure/clojurescript",
     "clojure/core.logic",
     "clojure/test.check",
-    "cncf/tag-security",
     "cognitect/transit-format",
     "cpm-cmake/CPM.cmake",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
     "Deci-AI/super-gradients",
     "dempfi/ayu",
+    "dimitri/el-get",
     "DotNetAnalyzers/StyleCopAnalyzers",
     "dspinellis/latex-advice",
     "elixir-lang/gen_stage",
@@ -72,6 +73,7 @@
     "javan/whenever",
     "jekip/naive-ui-admin",
     "joaotavora/eglot",
+    "jpanther/congo",
     "justinmk/vim-sneak",
     "kaminari/kaminari",
     "karb94/neoscroll.nvim",
@@ -95,6 +97,7 @@
     "nix-community/dream2nix",
     "nvim-java/nvim-java",
     "omniauth/omniauth",
+    "onnx/models",
     "onsails/lspkind.nvim",
     "OpenBMB/MiniCPM",
     "parruda/swarm",

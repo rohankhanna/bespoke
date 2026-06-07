@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 68
-- terms: 115
-- components: 167
-- concepts: 116
-- observations: 116
+- repos: 69
+- terms: 116
+- components: 170
+- concepts: 117
+- observations: 117
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bizflycloud/karpenter-provider-bizflycloud](https://github.com/bizflycloud/karpenter-provider-bizflycloud) | 2 | 2025-12-08T20:21:45Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [ai-bot-pro/achatbot-go](https://github.com/ai-bot-pro/achatbot-go) | 9 | 2025-11-23T08:10:13Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [jpincas/htmlfunc](https://github.com/jpincas/htmlfunc) | 1 | 2025-11-19T17:33:36Z | Go | Library | 0 | 0 | 0 | 0 |
 | [Layr-Labs/optimism](https://github.com/Layr-Labs/optimism) | 3 | 2025-11-19T16:41:33Z | Go | Infrastructure/tooling | 3 | 11 | 3 | 3 |
@@ -146,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qri-io/qfs](https://github.com/qri-io/qfs) | 3 | 2023-02-25T08:30:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [hertz-contrib/etag](https://github.com/hertz-contrib/etag) | 3 | 2023-02-08T15:34:07Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [adalkiran/inventa-examples](https://github.com/adalkiran/inventa-examples) | 3 | 2022-08-20T20:35:38Z | Go | Service/API | 11 | 0 | 11 | 11 |
+| [bizflycloud/karpenter-provider-bizflycloud](https://github.com/bizflycloud/karpenter-provider-bizflycloud) | 2 | 2025-12-08T20:21:45Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [usbarmory/armory-drive-log](https://github.com/usbarmory/armory-drive-log) | 2 | 2025-08-28T08:24:03Z | Go | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [retracedhq/retraced-go](https://github.com/retracedhq/retraced-go) | 2 | 2025-08-28T05:05:44Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [datachainlab/besu-ibc-relay-prover](https://github.com/datachainlab/besu-ibc-relay-prover) | 2 | 2025-08-04T00:12:06Z | Go | Infrastructure/tooling | 3 | 3 | 3 | 3 |

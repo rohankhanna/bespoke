@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 200,
-    "observations": 202,
-    "repos": 47,
-    "terms": 197
+    "components": 202,
+    "concepts": 198,
+    "observations": 200,
+    "repos": 45,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
@@ -21,7 +21,6 @@
     "apache/flink-connector-pulsar",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
-    "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bazel-contrib/rules_jvm",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
@@ -59,7 +58,6 @@
     "usdot-fhwa-stol/carma-cloud",
     "usdot-fhwa-stol/cdasim",
     "xmlark/msv",
-    "yawkat/lz4-java",
-    "zai-org/z-ai-sdk-java"
+    "yawkat/lz4-java"
   ]
 }

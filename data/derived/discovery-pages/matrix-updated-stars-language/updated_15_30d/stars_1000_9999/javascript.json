@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 4,
-    "terms": 45
+    "components": 155,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 5,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
+    "gildas-lormeau/zip.js",
     "GladysAssistant/Gladys",
     "ipfs/ipfs-companion",
     "jasonlong/isometric-contributions",

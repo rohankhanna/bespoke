@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 11,
-    "terms": 19
+    "components": 37,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 13,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "abbhisap/LLM-Council-SAP",
     "adammes/voyanode",
+    "cdeust/cortex-know-when-to-stop-training-model",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "devnen/chatterbox-v2",
@@ -24,6 +25,7 @@
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
     "petercorke/sphinx-autorun",
+    "redai-infra/TransferQueue",
     "Systemcluster/tokenizer-bench"
   ]
 }

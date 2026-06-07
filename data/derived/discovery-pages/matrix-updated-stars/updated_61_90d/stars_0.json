@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 294,
-    "concepts": 140,
-    "observations": 142,
-    "repos": 96,
-    "terms": 143
+    "components": 291,
+    "concepts": 145,
+    "observations": 147,
+    "repos": 100,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "aaronrsun/spec-kit-confluence",
@@ -27,6 +27,7 @@
     "bookcars/bookcars.github.io",
     "cachix/crossterm",
     "caprica/generator-vlcj",
+    "cdeust/cortex-know-when-to-stop-training-model",
     "cmake-wheel/cmeel-example",
     "cwfitzgerald/libtest-mimic",
     "danielJL-altius/israelgrocerymcp",
@@ -62,7 +63,6 @@
     "danielrosehill/Skills-Repos-Index",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",
-    "DataDog/opa",
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
@@ -78,6 +78,7 @@
     "JuliaBinaryWrappers/FreeType2_jll.jl",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "kayabaNerve/monero-oxide",
+    "kdn36/arrow-rs-object-store",
     "kdubbo/api",
     "kdubbo/client-go",
     "lakekeeper/nats.rs",
@@ -98,9 +99,12 @@
     "Patrick-ring-motive/sval-rhino-gs",
     "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
+    "piebald-ai/piebald",
     "prisma/cuid-rust",
+    "redai-infra/TransferQueue",
     "Saalvage/assimp",
     "saharmor/saharmor.github.io",
+    "semgrep/cursor-plugin",
     "Sovereign-Labs/reltester",
     "stable-haskell/stack",
     "stefanlogue/scoops",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 179,
-    "concepts": 178,
-    "observations": 179,
-    "repos": 60,
-    "terms": 177
+    "components": 178,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 59,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -21,7 +21,6 @@
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "bleichenbacher-daniel/Rooterberg",
-    "bmad-code-org/bmad-plugins-marketplace",
     "canonical/ubuntu-security-notices",
     "cbuijs/hagezi",
     "cdxeve/awesome-computer-use-agents",

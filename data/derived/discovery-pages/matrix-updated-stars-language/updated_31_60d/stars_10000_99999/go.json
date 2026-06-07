@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1721,
-    "concepts": 1653,
-    "observations": 1659,
+    "components": 1732,
+    "concepts": 1648,
+    "observations": 1654,
     "repos": 136,
-    "terms": 1640
+    "terms": 1635
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -106,7 +106,6 @@
     "kubernetes/kompose",
     "kubernetes/kops",
     "kubernetes/minikube",
-    "labstack/echo",
     "lima-vm/lima",
     "micro/go-micro",
     "microsoft/typescript-go",
@@ -129,6 +128,7 @@
     "pulumi/pulumi",
     "quic-go/quic-go",
     "rclone/rclone",
+    "restic/restic",
     "router-for-me/cliproxyapi",
     "rqlite/rqlite",
     "rs/zerolog",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2521,
-    "concepts": 2467,
-    "observations": 2478,
-    "repos": 278,
-    "terms": 2465
+    "components": 2511,
+    "concepts": 2449,
+    "observations": 2460,
+    "repos": 275,
+    "terms": 2447
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -129,7 +129,6 @@
     "filecoin-project/lotus",
     "flannel-io/flannel",
     "fluxcd/flux2",
-    "fnproject/fn",
     "fsouza/go-dockerclient",
     "getkin/kin-openapi",
     "gin-gonic/examples",
@@ -174,7 +173,6 @@
     "int128/kubelogin",
     "istio/community",
     "joshmedeski/sesh",
-    "klauspost/compress",
     "klauspost/pgzip",
     "knative/eventing",
     "knative/serving",
@@ -220,7 +218,6 @@
     "mvdan/sh",
     "nginx-proxy/docker-gen",
     "norwoodj/helm-docs",
-    "NVIDIA/dcgm-exporter",
     "NVIDIA/gpu-operator",
     "NVIDIA/k8s-device-plugin",
     "NVIDIA/nvidia-container-toolkit",

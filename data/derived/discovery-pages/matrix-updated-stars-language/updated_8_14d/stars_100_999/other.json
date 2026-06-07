@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 15,
-    "terms": 122
+    "components": 132,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 14,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
@@ -22,7 +22,6 @@
     "clj-commons/rewrite-clj",
     "devcontainers/devcontainers.github.io",
     "elixir-protobuf/protobuf",
-    "fsprojects/FSharp.Data.GraphQL",
     "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
     "meshcat-dev/meshcat",

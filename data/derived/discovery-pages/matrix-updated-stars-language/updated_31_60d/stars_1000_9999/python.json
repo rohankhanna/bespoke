@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3669,
-    "concepts": 4123,
-    "observations": 4135,
-    "repos": 497,
-    "terms": 4112
+    "components": 3638,
+    "concepts": 4102,
+    "observations": 4114,
+    "repos": 492,
+    "terms": 4092
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "6551Team/opennews-mcp",
@@ -102,7 +102,6 @@
     "chaiNNer-org/chaiNNer",
     "chaofengc/IQA-PyTorch",
     "chardet/chardet",
-    "chemprop/chemprop",
     "chrismattmann/tika-python",
     "cisco-ai-defense/skill-scanner",
     "ckan/ckan",
@@ -200,7 +199,6 @@
     "huggingface/datatrove",
     "huggingface/huggingface_hub",
     "huggingface/lighteval",
-    "huggingface/nanotron",
     "huggingface/optimum",
     "HumanAIGC-Engineering/OpenAvatarChat",
     "HumanSignal/label-studio-ml-backend",
@@ -230,7 +228,6 @@
     "joke2k/django-environ",
     "JoshData/python-email-validator",
     "jupyter/docker-stacks",
-    "jupyter/nbconvert",
     "k2-fsa/icefall",
     "Kaliiiiiiiiii-Vinyzu/patchright-python",
     "Kapeli/Dash-User-Contributions",
@@ -270,6 +267,7 @@
     "ltdrdata/ComfyUI-Impact-Pack",
     "lucidrains/x-transformers",
     "m87-labs/moondream",
+    "magenta/ddsp",
     "mapillary/OpenSfM",
     "mbailey/voicemode",
     "meituan-longcat/LongCat-Video",
@@ -375,7 +373,6 @@
     "PKU-YuanGroup/Helios",
     "PKU-YuanGroup/MagicTime",
     "plastic-labs/honcho",
-    "Pointcept/Pointcept",
     "praw-dev/praw",
     "PrimeIntellect-ai/prime-rl",
     "Project-MONAI/MONAI",
@@ -417,7 +414,6 @@
     "pytorch/torchtitan",
     "pytorch/tutorials",
     "qdrant/fastembed",
-    "QwenLM/Qwen3-VL-Embedding",
     "RapidAI/RapidOCR",
     "rapidfuzz/RapidFuzz",
     "raspberrypi/documentation",
@@ -453,7 +449,6 @@
     "spotipy-dev/spotipy",
     "spyder-ide/qtpy",
     "spyder-ide/spyder",
-    "ssitu/ComfyUI_UltimateSDUpscale",
     "stanfordnlp/stanza",
     "starVLA/starVLA",
     "strands-agents/sdk-python",

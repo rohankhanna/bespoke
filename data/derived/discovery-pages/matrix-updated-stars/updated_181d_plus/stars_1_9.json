@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5493,
-    "concepts": 1983,
-    "observations": 1986,
-    "repos": 1396,
-    "terms": 1979
+    "components": 5496,
+    "concepts": 1990,
+    "observations": 1993,
+    "repos": 1400,
+    "terms": 1986
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -256,6 +256,7 @@
     "birch-san/diffusers",
     "Biscuit-Theme/alacritty",
     "bitergia/grimoirelab-perceval-finos",
+    "bizflycloud/karpenter-provider-bizflycloud",
     "blendle/excon-hypermedia",
     "blockstream/rust-electrum-client",
     "bnb-chain/greenfield-cometbft-rs",
@@ -448,6 +449,8 @@
     "danielrosehill/AI-Interview-Workflow-V2",
     "danielrosehill/AI-Orchestration-System-Prompts",
     "danielrosehill/Ai-Workspace-Planning-Notes",
+    "danielrosehill/Audio-Multimodal-AI-Resources",
+    "danielrosehill/Audio-Understanding-Test-Prompts",
     "danielrosehill/Awesome-Israeli-Jewish-Home-Assistant",
     "danielrosehill/Awesome-Linux-IDEs",
     "danielrosehill/bash-alias-manager-claude",
@@ -460,6 +463,7 @@
     "danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "danielrosehill/Claude-Deep-Research-Model",
     "danielrosehill/Claude-Is-Awesome",
+    "danielrosehill/Cloud-STT-Price-Points-1225",
     "danielrosehill/CONTEXT.md",
     "danielrosehill/Deep-Research-Projects-0425",
     "danielrosehill/Geopolitical-Analysis-System-Prompts",

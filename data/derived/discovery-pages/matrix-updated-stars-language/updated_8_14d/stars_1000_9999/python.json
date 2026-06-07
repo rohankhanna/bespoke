@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 281,
-    "observations": 282,
-    "repos": 30,
-    "terms": 280
+    "components": 207,
+    "concepts": 269,
+    "observations": 270,
+    "repos": 29,
+    "terms": 268
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
+    "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
@@ -25,10 +26,8 @@
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
     "harbor-framework/harbor",
-    "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
     "huggingface/optimum-quanto",
-    "intelligent-machine-learning/dlrover",
     "JuergenFleiss/aTrain",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",

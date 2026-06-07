@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10651,
-    "concepts": 9253,
-    "observations": 9265,
-    "repos": 2382,
-    "terms": 9122
+    "components": 10652,
+    "concepts": 9265,
+    "observations": 9277,
+    "repos": 2386,
+    "terms": 9132
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -369,6 +369,7 @@
     "cask/cask",
     "casper-hansen/AutoAWQ",
     "catalyst-team/catalyst",
+    "CatchTheTornado/text-extract-api",
     "cbucher/console",
     "cedarbdd/cedar",
     "cespare/xxhash",
@@ -429,6 +430,7 @@
     "CLUEbenchmark/CLUEDatasetSearch",
     "cmhungsteve/Awesome-Transformer-Attention",
     "cmu-db/noisepage",
+    "cncf/tag-security",
     "cnosdb/cnosdb",
     "cocodataset/cocoapi",
     "codegangsta/gin",
@@ -973,6 +975,7 @@
     "huggingface/swift-coreml-diffusers",
     "huggingface/transfer-learning-conv-ai",
     "HumanAIGC/EMO",
+    "hustvl/DiffusionDrive",
     "hustvl/MapTR",
     "hustvl/Vim",
     "HybridRobotics/whole_body_tracking",
@@ -1584,6 +1587,7 @@
     "NVlabs/imaginaire",
     "NVlabs/MUNIT",
     "NVlabs/noise2noise",
+    "NVlabs/nvdiffrast",
     "NVlabs/nvdiffrec",
     "NVlabs/PWC-Net",
     "NVlabs/SegFormer",

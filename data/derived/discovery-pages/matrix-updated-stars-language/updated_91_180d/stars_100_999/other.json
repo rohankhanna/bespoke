@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 886,
-    "concepts": 847,
-    "observations": 848,
-    "repos": 224,
-    "terms": 842
+    "concepts": 855,
+    "observations": 856,
+    "repos": 225,
+    "terms": 850
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -192,6 +192,7 @@
     "rake-compiler/rake-compiler",
     "rapidsai-community/notebooks-contrib",
     "reasonml/reasonml.github.io",
+    "rejemy/UltraLiteDB",
     "renzmann/treesit-auto",
     "rescript-lang/rescript-vscode",
     "ropensci/git2r",

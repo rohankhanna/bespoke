@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4204,
-    "concepts": 3759,
-    "observations": 3780,
-    "repos": 509,
-    "terms": 3742
+    "components": 4158,
+    "concepts": 3733,
+    "observations": 3754,
+    "repos": 505,
+    "terms": 3716
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -137,7 +137,6 @@
     "DandelionSprout/adfilt",
     "danger/danger",
     "danmayer/coverband",
-    "dart-lang/http",
     "dart-lang/pub",
     "dart-lang/site-www",
     "dashbitco/broadway",
@@ -158,7 +157,6 @@
     "dlemstra/Magick.NET",
     "DmitryTsepelev/store_model",
     "docker-library/php",
-    "docker-library/python",
     "docker/docs",
     "dorssel/usbipd-win",
     "dotfiles/dotfiles.github.com",
@@ -254,7 +252,6 @@
     "ibhagwan/fzf-lua",
     "idris-lang/Idris2",
     "intel/llvm",
-    "ipfs/specs",
     "ipld/ipld",
     "itchyny/lightline.vim",
     "jeremyevans/roda",
@@ -373,7 +370,6 @@
     "nvim-neorg/neorg",
     "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",
-    "nvim-treesitter/nvim-treesitter-textobjects",
     "nvimdev/dashboard-nvim",
     "objectbox/objectbox-dart",
     "ocaml/dune",
@@ -479,7 +475,6 @@
     "taoensso/nippy",
     "taozhi8833998/node-sql-parser",
     "tauri-apps/tauri-docs",
-    "tc39/proposal-temporal",
     "teal-language/tl",
     "TechnitiumSoftware/DnsServer",
     "tensorflow/examples",
@@ -520,6 +515,7 @@
     "wincent/command-t",
     "wojtekmach/req",
     "xiph/rav1e",
+    "xororz/local-dream",
     "xtdb/xtdb",
     "yonaskolb/XcodeGen",
     "zalando/restful-api-guidelines"

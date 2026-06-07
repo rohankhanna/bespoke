@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1032,
-    "concepts": 721,
-    "observations": 724,
-    "repos": 173,
-    "terms": 714
+    "components": 1071,
+    "concepts": 726,
+    "observations": 729,
+    "repos": 178,
+    "terms": 719
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -33,6 +33,7 @@
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws/homebrew-tap",
     "Azure-Samples/azureai-samples",
+    "Azure-Samples/openai-chat-app-quickstart",
     "Azure/appservice-landing-zone-accelerator",
     "babashka/babashka-sql-pods",
     "babashka/bbin",
@@ -73,6 +74,7 @@
     "Dao-AILab/causal-conv1d",
     "dashbitco/nimble_options",
     "dashbitco/nimble_pool",
+    "dashbitco/nimble_totp",
     "Deep-Symmetry/dysentery",
     "djezzzl/factory_trace",
     "dkubb/adamantium",
@@ -89,6 +91,7 @@
     "elementary/icons",
     "elixir-ecto/myxql",
     "elixir-sqlite/ecto_sqlite3",
+    "emacs-rustic/rustic",
     "enjoy-digital/usb3_pipe",
     "ethereum/builder-specs",
     "facebookresearch/fairo",
@@ -123,6 +126,7 @@
     "kwn/php-rdkafka-stubs",
     "LAION-AI/laion.ai",
     "lassik/emacs-format-all-the-code",
+    "Layr-Labs/eigenlayer-contracts",
     "less/less-docs",
     "lewis6991/hover.nvim",
     "lifepillar/vim-colortemplate",
@@ -160,7 +164,7 @@
     "r-lib/styler",
     "rails/execjs",
     "RDFLib/OWL-RL",
-    "rejemy/UltraLiteDB",
+    "riscv-non-isa/riscv-sbi-doc",
     "rubocop/rubocop-ast",
     "ruby/spec",
     "RubyMoney/eu_central_bank",
@@ -185,6 +189,7 @@
     "unxsist/jet-pilot",
     "vim-jp/vital.vim",
     "w3c/navigation-timing",
+    "w3c/web-performance",
     "whatwg/fs",
     "whatyouhide/stream_data"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1756,
-    "concepts": 271,
-    "observations": 272,
-    "repos": 61,
-    "terms": 280
+    "components": 1769,
+    "concepts": 291,
+    "observations": 292,
+    "repos": 62,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -61,6 +61,7 @@
     "niieani/gpt-tokenizer",
     "nodejs/llparse",
     "Obsidian-TTRPG-Community/fantasy-statblocks",
+    "Piebald-AI/gemini-cli-desktop",
     "posthtml/posthtml-parser",
     "priceline/design-system",
     "SassNinja/postcss-extract-media-query",

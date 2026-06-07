@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 113,
-    "observations": 113,
+    "components": 186,
+    "concepts": 106,
+    "observations": 106,
     "repos": 38,
-    "terms": 113
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "5c077m4n/pikud-haoref-api-go",
@@ -29,8 +29,8 @@
     "cosmos/rosetta",
     "cpu/wycheproof",
     "datachainlab/lcp-go",
-    "DataDog/trivy",
     "dwyl/learn-go",
+    "energye/examples",
     "erikceballos/nano-banana-cli",
     "exoscale/karpenter-provider-exoscale",
     "fluxcd/flux-schema",

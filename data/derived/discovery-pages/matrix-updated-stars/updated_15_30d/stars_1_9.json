@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 78,
-    "observations": 79,
-    "repos": 17,
-    "terms": 78
+    "components": 117,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 15,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "ADNTIO/crispy-bootloader-rp2040-rs",
@@ -20,9 +20,7 @@
     "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
     "energye/designer",
-    "energye/examples",
     "HuaweiCloudDeveloper/karpenter-provider-huawei",
-    "ioBroker/plugin-sentry",
     "leleliu008/ppkg-formula-repository-official-core",
     "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",

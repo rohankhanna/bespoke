@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3677,
-    "concepts": 657,
-    "observations": 662,
-    "repos": 135,
-    "terms": 689
+    "components": 3676,
+    "concepts": 656,
+    "observations": 661,
+    "repos": 134,
+    "terms": 688
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -69,7 +69,6 @@
     "hairyf/genapi",
     "hashintel/labs",
     "haskell-actions/setup",
-    "haskell/ghcup-setup",
     "huangguang1999/ccstatusline-zh",
     "hyparam/demos",
     "ibm-telemetry/telemetry-js",

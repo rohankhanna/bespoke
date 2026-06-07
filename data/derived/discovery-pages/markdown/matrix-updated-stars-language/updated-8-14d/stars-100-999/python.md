@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
+- repos: 25
 - terms: 145
-- components: 182
+- components: 180
 - concepts: 145
 - observations: 145
 
@@ -51,8 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 281 | 2026-05-25T14:21:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 659 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [pyrtlsdr/pyrtlsdr](https://github.com/pyrtlsdr/pyrtlsdr) | 684 | 2026-05-25T02:21:36Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [satan53x/SExtractor](https://github.com/satan53x/SExtractor) | 468 | 2026-05-24T06:00:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -68,10 +66,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zh-plus/openlrc](https://github.com/zh-plus/openlrc) | 659 | 2026-05-25T03:37:02Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [machinewrapped/llm-subtrans](https://github.com/machinewrapped/llm-subtrans) | 602 | 2026-05-29T20:59:09Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [jupyter-server/jupyter_server](https://github.com/jupyter-server/jupyter_server) | 560 | 2026-05-29T16:51:25Z | Python | Infrastructure/tooling | 8 | 20 | 8 | 8 |
-| [perrygeo/python-rasterstats](https://github.com/perrygeo/python-rasterstats) | 557 | 2026-05-23T21:14:13Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [flagos-ai/FlagScale](https://github.com/flagos-ai/FlagScale) | 517 | 2026-05-28T12:17:03Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [thunlp/OPD](https://github.com/thunlp/OPD) | 478 | 2026-05-26T13:23:25Z | Python | Model/data | 3 | 0 | 3 | 3 |
-| [satan53x/SExtractor](https://github.com/satan53x/SExtractor) | 468 | 2026-05-24T06:00:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [NVlabs/trajdata](https://github.com/NVlabs/trajdata) | 445 | 2026-05-27T16:50:53Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 435 | 2026-05-29T03:15:35Z | Python | Infrastructure/tooling | 14 | 15 | 14 | 14 |
 | [scverse/rapids-singlecell](https://github.com/scverse/rapids-singlecell) | 372 | 2026-05-28T16:24:57Z | Python | Infrastructure/tooling | 7 | 17 | 7 | 7 |

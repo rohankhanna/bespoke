@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1000,
-    "concepts": 525,
-    "observations": 525,
-    "repos": 81,
-    "terms": 524
+    "components": 952,
+    "concepts": 513,
+    "observations": 514,
+    "repos": 78,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -24,6 +24,7 @@
     "appelmar/gdalcubes",
     "aristoteleo/PantheonOS",
     "astroautomata/SymbolicRegression.jl",
+    "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint-visual-studio-code",
     "babashka/nbb",
     "bazel-contrib/rules_kotlin",
@@ -44,7 +45,6 @@
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
-    "fsprojects/FSharp.Data.GraphQL",
     "GDevelopApp/GDevelop-extensions",
     "git-friendly/git-friendly",
     "GitoxideLabs/cargo-smart-release",
@@ -55,7 +55,6 @@
     "ipsilon/evmone",
     "JuliaGraphics/Luxor.jl",
     "jupyter-server/jupyter_server",
-    "jupyter/nbclassic",
     "karafka/rdkafka-ruby",
     "lbcb-sci/herro",
     "ldproxy/ldproxy",
@@ -67,7 +66,6 @@
     "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
-    "perrygeo/python-rasterstats",
     "preactjs/preact-devtools",
     "pypa/build",
     "pyrtlsdr/pyrtlsdr",
@@ -77,7 +75,6 @@
     "ROCm/hipBLAS",
     "ROCm/hipBLASLt",
     "safe-fndn/safe-singleton-factory",
-    "satan53x/SExtractor",
     "sbt/sbt-jmh",
     "scverse/rapids-singlecell",
     "servo/stylo",

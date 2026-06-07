@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 323,
-    "observations": 325,
-    "repos": 88,
-    "terms": 318
+    "components": 267,
+    "concepts": 327,
+    "observations": 329,
+    "repos": 90,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -89,6 +89,7 @@
     "rmsalinas/DBow3",
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",
+    "sheredom/ubench.h",
     "stardot/b-em",
     "starwing/luautf8",
     "stefantalpalaru/w_scan2",
@@ -100,6 +101,7 @@
     "veorq/SipHash",
     "websockets/bufferutil",
     "xtensor-stack/xtl",
+    "xuankuzcr/Global-LVBA",
     "ylsdamxssjxxdd/eva",
     "ZDisket/TensorVox"
   ]

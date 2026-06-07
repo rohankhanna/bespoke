@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 825,
-    "concepts": 523,
-    "observations": 525,
-    "repos": 120,
-    "terms": 536
+    "components": 813,
+    "concepts": 514,
+    "observations": 515,
+    "repos": 117,
+    "terms": 527
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -34,7 +34,6 @@
     "ashvardanian/NumWars",
     "asny/three-d-asset",
     "astral-sh/pubgrub",
-    "bgpkit/bgpkit-broker",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "BlackDex/rust-musl",
@@ -65,7 +64,6 @@
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "FxEmbed/mosaic",
-    "google/safe-mmio",
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
@@ -100,7 +98,6 @@
     "napi-rs/mimalloc-safe",
     "near/cargo-near",
     "near/cargo-near-new-project-template",
-    "near/near-workspaces-rs",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "openvm-org/stark-backend",

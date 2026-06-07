@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 971,
-    "concepts": 395,
-    "observations": 395,
-    "repos": 271,
-    "terms": 424
+    "components": 958,
+    "concepts": 383,
+    "observations": 383,
+    "repos": 266,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -47,7 +47,6 @@
     "cachix/nix-bindings-rust",
     "cachix/serde-envfile",
     "carloandremoreyra/xx",
-    "cdeust/cortex-know-when-to-stop-training-model",
     "chafingdishposition355/go-skills",
     "CHIP-SPV/H4I-HipBLAS",
     "CHIP-SPV/H4I-HipFFT",
@@ -225,7 +224,6 @@
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kalavai-net/kalavai-templates",
-    "kdn36/arrow-rs-object-store",
     "kdubbo/xds-api",
     "kidshadow79/ogma",
     "kyverno/.github",
@@ -247,12 +245,10 @@
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "nodenv/node-build-prerelease",
-    "piebald-ai/piebald",
     "piqrypt/piqrypt-mcp-server",
     "pragmatical-transshipment598/claude-code-workflows",
     "PrimeIntellect-ai/router",
     "qiayuanl/unitree_buildfarm",
-    "redai-infra/TransferQueue",
     "redductive/securepixel",
     "regro/cf-graph-countyfair",
     "rltakashige/mlx-jaccl-fix-small-recv",
@@ -260,7 +256,6 @@
     "robertabao/grok-nvim",
     "saidudz/chat-ai",
     "seanmacavaney/ir-datasets.com",
-    "semgrep/cursor-plugin",
     "shoggo-ai/seniorvigil",
     "shouted-numberone752/wechat-agent-connector",
     "shubishere/ai-drawio",

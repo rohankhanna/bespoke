@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 87
-- terms: 132
-- components: 254
-- concepts: 133
-- observations: 133
+- repos: 88
+- terms: 139
+- components: 270
+- concepts: 140
+- observations: 140
 
 ## Static behavior
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [onomojo/i18n-country-translations-js](https://github.com/onomojo/i18n-country-translations-js) | 0 | 2026-03-08T01:45:28Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [onomojo/i18n-timezones-js](https://github.com/onomojo/i18n-timezones-js) | 0 | 2026-03-08T01:45:25Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [onomojo/i18n-country-translations-rs](https://github.com/onomojo/i18n-country-translations-rs) | 0 | 2026-03-08T01:22:49Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -117,6 +118,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [onomojo/i18n-country-translations-js](https://github.com/onomojo/i18n-country-translations-js) | 0 | 2026-03-08T01:45:28Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [onomojo/i18n-timezones-js](https://github.com/onomojo/i18n-timezones-js) | 0 | 2026-03-08T01:45:25Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [onomojo/i18n-country-translations-rs](https://github.com/onomojo/i18n-country-translations-rs) | 0 | 2026-03-08T01:22:49Z | Rust | Unknown | 0 | 0 | 0 | 0 |

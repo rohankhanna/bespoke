@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6555,
-    "concepts": 1359,
-    "observations": 1361,
-    "repos": 218,
-    "terms": 1405
+    "components": 6462,
+    "concepts": 1338,
+    "observations": 1340,
+    "repos": 215,
+    "terms": 1384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -26,7 +26,6 @@
     "AmElmo/proofshot",
     "ansible/vscode-ansible",
     "antfu/eslint-flat-config-utils",
-    "antfu/skills-npm",
     "antfu/starter-ts",
     "anthropics/claude-code-base-action",
     "antvis/chart-visualization-skills",
@@ -38,7 +37,6 @@
     "astahmer/typed-openapi",
     "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
-    "Autodesk/synthesis",
     "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
     "azat-io/eslint-plugin-de-morgan",
@@ -68,7 +66,6 @@
     "decentralized-identity/did-resolver",
     "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
-    "dezoito/ollama-grid-search",
     "docker/bake-action",
     "docker/setup-qemu-action",
     "dydxprotocol/v4-web",

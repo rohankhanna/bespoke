@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 295,
-    "concepts": 394,
-    "observations": 395,
-    "repos": 76,
-    "terms": 387
+    "components": 307,
+    "concepts": 406,
+    "observations": 407,
+    "repos": 78,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -49,9 +49,11 @@
     "golang-ui/nuklear",
     "google/re2",
     "google/snappy",
+    "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "guinmoon/LLMFarm",
     "gulrak/filesystem",
+    "hku-mars/FAST-LIVO2",
     "hpjansson/chafa",
     "icecc/icecream",
     "jedisct1/minisign",
@@ -71,7 +73,6 @@
     "mmorise/World",
     "naelstrof/maim",
     "NixOS/patchelf",
-    "NVlabs/nvdiffrast",
     "openMVG/openMVG",
     "OpenNMT/CTranslate2",
     "pellepl/spiffs",
@@ -83,6 +84,7 @@
     "sammycage/lunasvg",
     "svenstaro/rofi-calc",
     "TEN-framework/ten-vad",
+    "TheAssassin/AppImageLauncher",
     "tpoechtrager/osxcross",
     "tzapu/WiFiManager",
     "UB-Mannheim/tesseract",

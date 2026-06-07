@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2126,
-    "concepts": 1976,
-    "observations": 1982,
-    "repos": 854,
-    "terms": 1964
+    "components": 2131,
+    "concepts": 1996,
+    "observations": 2002,
+    "repos": 856,
+    "terms": 1984
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -391,6 +391,7 @@
     "GEOSwift/GEOSwiftMapboxGL",
     "GEOSwift/GEOSwiftMapKit",
     "gerschel/sd-web-ui-quickcss",
+    "getumbrel/umbrel-lightning",
     "gfoidl/Base64",
     "girishji/autosuggest.vim",
     "girishji/devdocs.vim",
@@ -746,6 +747,7 @@
     "sayakpaul/Barlow-Twins-TF",
     "sayakpaul/BiT-jax2tf",
     "sayakpaul/FunMatch-Distillation",
+    "SciML/SciMLTutorialsOutput",
     "scottmckendry/pick-resession.nvim",
     "secure-foundations/veri-titan",
     "SenseLogic/PENDOWN",

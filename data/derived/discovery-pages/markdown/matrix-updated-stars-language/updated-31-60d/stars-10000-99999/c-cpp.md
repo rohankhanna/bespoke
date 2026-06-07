@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 125
-- terms: 1277
-- components: 996
-- concepts: 1282
-- observations: 1286
+- repos: 123
+- terms: 1254
+- components: 982
+- concepts: 1259
+- observations: 1263
 
 ## Static behavior
 
@@ -149,8 +149,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ninja-build/ninja](https://github.com/ninja-build/ninja) | 12895 | 2026-04-12T16:45:24Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [nlohmann/json](https://github.com/nlohmann/json) | 49442 | 2026-04-10T15:44:09Z | C/C++ | Infrastructure/tooling | 21 | 14 | 28 | 28 |
 | [google/sanitizers](https://github.com/google/sanitizers) | 12361 | 2026-04-08T16:22:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [zeromq/libzmq](https://github.com/zeromq/libzmq) | 10860 | 2026-04-07T18:05:29Z | C/C++ | Infrastructure/tooling | 12 | 10 | 12 | 12 |
-| [g-truc/glm](https://github.com/g-truc/glm) | 10900 | 2026-04-07T11:38:35Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -266,8 +264,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) | 10988 | 2026-04-13T13:14:32Z | C/C++ | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 10974 | 2026-05-01T15:28:24Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [apache/thrift](https://github.com/apache/thrift) | 10915 | 2026-05-01T06:45:13Z | C/C++ | CLI | 16 | 36 | 16 | 16 |
-| [g-truc/glm](https://github.com/g-truc/glm) | 10900 | 2026-04-07T11:38:35Z | C/C++ | Infrastructure/tooling | 11 | 4 | 11 | 11 |
-| [zeromq/libzmq](https://github.com/zeromq/libzmq) | 10860 | 2026-04-07T18:05:29Z | C/C++ | Infrastructure/tooling | 12 | 10 | 12 | 12 |
 | [mawww/kakoune](https://github.com/mawww/kakoune) | 10858 | 2026-04-17T04:51:03Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [jemalloc/jemalloc](https://github.com/jemalloc/jemalloc) | 10843 | 2026-04-30T22:07:35Z | C/C++ | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [baldurk/renderdoc](https://github.com/baldurk/renderdoc) | 10655 | 2026-04-28T13:48:06Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |

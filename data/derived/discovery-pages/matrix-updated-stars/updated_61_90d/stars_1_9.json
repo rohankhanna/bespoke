@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 946,
-    "concepts": 564,
-    "observations": 565,
-    "repos": 175,
-    "terms": 556
+    "components": 932,
+    "concepts": 567,
+    "observations": 568,
+    "repos": 173,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "10up/.github",
     "2KAbhishek/BWnB",
@@ -62,7 +62,6 @@
     "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
     "conda-forge/modin-feedstock",
-    "CROSS-signature/CROSS-lib-oqs",
     "csm-actions/docs",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
@@ -85,6 +84,7 @@
     "dash0hq/opentelemetry-demo",
     "databendlabs/display-more",
     "datachainlab/yui-relayer-build",
+    "DataDog/trivy",
     "datalevin/dlmdb",
     "day50-dev/mcp-search-and-run",
     "Deep-Symmetry/asciidoctor-bytefield",
@@ -138,7 +138,6 @@
     "Level/transcoder",
     "llvm/torch-mlir-release",
     "lucabubi/star-history",
-    "MarcCote/TextWorld",
     "marin-community/kitoken",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",
@@ -148,7 +147,6 @@
     "mpizenberg/elm-test-runner",
     "mybigday/whisper.node",
     "newton-physics/newton-governance",
-    "nikitabobko/homebrew-tap",
     "nttstar/insightface-resources",
     "objectbox/objectbox-swift-spm",
     "objectbox/objectbox-sync-examples",
@@ -159,10 +157,10 @@
     "ptsochantaris/trailer-json",
     "PyThaiNLP/pythainlp-corpus",
     "radian-software/gnu-elpa-mirror",
+    "rapidsai/gha-tools",
     "redis-developer/redis-starter-csharp",
     "redis-developer/redis-starter-go",
     "redis-developer/redis-starter-java",
-    "REditorSupport/vscode-R-syntax",
     "richgel999/junkdrawer",
     "robustmq/robustmq-copilot",
     "ROCm/rbuild",

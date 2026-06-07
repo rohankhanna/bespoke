@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 62,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 37,
-    "terms": 38
+    "concepts": 32,
+    "observations": 32,
+    "repos": 35,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "aaron-he-zhu/cite-domain-rating",
@@ -27,8 +27,6 @@
     "awni/picochat",
     "buttercannfly/AIPex",
     "danielrosehill/AI-Model-Manager",
-    "danielrosehill/Audio-Multimodal-AI-Resources",
-    "danielrosehill/Audio-Understanding-Test-Prompts",
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Development-Agents",
     "danielrosehill/Claude-Dork",

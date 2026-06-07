@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 289,
-    "concepts": 221,
-    "observations": 226,
-    "repos": 42,
-    "terms": 219
+    "components": 300,
+    "concepts": 229,
+    "observations": 234,
+    "repos": 43,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -55,6 +55,7 @@
     "spacejam/sled",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
-    "visioncortex/vtracer"
+    "visioncortex/vtracer",
+    "WebAssembly/WASI"
   ]
 }

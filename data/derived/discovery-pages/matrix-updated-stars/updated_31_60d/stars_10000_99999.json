@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25467,
-    "concepts": 10884,
-    "observations": 10924,
-    "repos": 1050,
-    "terms": 10863
+    "components": 25352,
+    "concepts": 10827,
+    "observations": 10867,
+    "repos": 1044,
+    "terms": 10806
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -96,7 +96,6 @@
     "apollographql/apollo-client",
     "apollographql/apollo-server",
     "App-vNext/Polly",
-    "AppFlowy-IO/AppFlowy",
     "appium/appium",
     "apple/container",
     "apple/foundationdb",
@@ -340,11 +339,9 @@
     "facebook/prophet",
     "facebook/relay",
     "facebook/rocksdb",
-    "facebookresearch/detectron2",
     "facebookresearch/dinov2",
     "facebookresearch/faiss",
     "facebookresearch/hydra",
-    "facebookresearch/sam2",
     "facebookresearch/xformers",
     "facefusion/facefusion",
     "faisalman/ua-parser-js",
@@ -370,7 +367,6 @@
     "FreeRDP/FreeRDP",
     "FuelLabs/fuel-core",
     "FuelLabs/sway",
-    "g-truc/glm",
     "gabime/spdlog",
     "GaiZhenbiao/ChuanhuChatGPT",
     "garrytan/gstack",
@@ -500,7 +496,6 @@
     "Immediate-Mode-UI/Nuklear",
     "immerjs/immer",
     "ImranR98/Obtainium",
-    "infernojs/inferno",
     "infiniflow/ragflow",
     "influxdata/influxdb",
     "invoke-ai/InvokeAI",
@@ -558,6 +553,7 @@
     "karpathy/nanochat",
     "KaTeX/KaTeX",
     "keeweb/keeweb",
+    "kepano/obsidian-skills",
     "keras-team/keras",
     "Kludex/starlette",
     "Kong/insomnia",
@@ -577,7 +573,6 @@
     "kysely-org/kysely",
     "labring/FastGPT",
     "labring/sealos",
-    "labstack/echo",
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
@@ -852,6 +847,7 @@
     "renovatebot/renovate",
     "rerun-io/rerun",
     "resilience4j/resilience4j",
+    "restic/restic",
     "roboflow/supervision",
     "rockerBOO/awesome-neovim",
     "rolldown/rolldown",
@@ -968,7 +964,6 @@
     "Textualize/rich",
     "Textualize/textual",
     "thanos-io/thanos",
-    "thomaspark/bootswatch",
     "tiann/KernelSU",
     "titanwings/colleague-skill",
     "tj/commander.js",
@@ -1061,7 +1056,6 @@
     "zarazhangrui/frontend-slides",
     "zed-industries/zed",
     "zeroclaw-labs/zeroclaw",
-    "zeromq/libzmq",
     "zloirock/core-js"
   ]
 }

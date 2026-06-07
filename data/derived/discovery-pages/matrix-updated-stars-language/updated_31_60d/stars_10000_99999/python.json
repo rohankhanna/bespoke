@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2499,
-    "concepts": 2185,
-    "observations": 2191,
-    "repos": 208,
-    "terms": 2205
+    "components": 2492,
+    "concepts": 2183,
+    "observations": 2189,
+    "repos": 207,
+    "terms": 2203
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -69,7 +69,6 @@
     "exo-explore/exo",
     "fabric/fabric",
     "facebook/prophet",
-    "facebookresearch/detectron2",
     "facebookresearch/hydra",
     "facebookresearch/xformers",
     "facefusion/facefusion",

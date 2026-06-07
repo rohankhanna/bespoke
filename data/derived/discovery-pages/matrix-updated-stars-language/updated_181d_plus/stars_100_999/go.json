@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 563,
-    "concepts": 776,
-    "observations": 776,
-    "repos": 190,
-    "terms": 762
+    "components": 581,
+    "concepts": 786,
+    "observations": 786,
+    "repos": 192,
+    "terms": 772
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -95,6 +95,7 @@
     "fumiama/RVC-Models-Downloader",
     "getsavvyinc/savvy-cli",
     "github/actions-oidc-debugger",
+    "github/smimesign",
     "go-chi/cors",
     "go-flutter-desktop/plugins",
     "go-gl/example",
@@ -161,6 +162,7 @@
     "multiformats/multiaddr",
     "namsral/flag",
     "Netflix/go-expect",
+    "node-real/bsc-erigon",
     "NVIDIA/gpu-feature-discovery",
     "OutlineFoundation/outline-go-tun2socks",
     "pkg/browser",

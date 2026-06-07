@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 145,
-    "observations": 146,
-    "repos": 55,
-    "terms": 145
+    "components": 147,
+    "concepts": 155,
+    "observations": 156,
+    "repos": 56,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -64,6 +64,7 @@
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",
     "tlaplus-community/tree-sitter-tlaplus",
+    "undreamai/LlamaLib",
     "utiasASRL/lgmath",
     "vincentbernat/vbeterm",
     "vorot93/libmdbx-rs",

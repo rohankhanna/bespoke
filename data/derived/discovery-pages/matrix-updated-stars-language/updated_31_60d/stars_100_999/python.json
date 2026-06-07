@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2524,
-    "concepts": 2402,
-    "observations": 2412,
-    "repos": 448,
-    "terms": 2407
+    "components": 2512,
+    "concepts": 2397,
+    "observations": 2407,
+    "repos": 444,
+    "terms": 2402
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -55,7 +55,6 @@
     "allenai/ir_datasets",
     "allenai/vla-evaluation-harness",
     "alltheplaces/alltheplaces",
-    "amazon-science/esci-data",
     "amitfin/oref_alert",
     "angr/claripy",
     "angr/cle",
@@ -170,7 +169,6 @@
     "ethereum/execution-spec-tests",
     "EvolvingLMMs-Lab/EASI",
     "executablebooks/MyST-Parser",
-    "facebookresearch/atlas",
     "facebookresearch/optimizers",
     "facebookresearch/RAM",
     "facebookresearch/recipes",
@@ -421,7 +419,6 @@
     "syrupy-project/syrupy",
     "taylorwilsdon/open-webui-postgres-migration",
     "TeamHG-Memex/tensorboard_logger",
-    "TextArena/UnstableBaselines",
     "thedatumorg/TSB-AD",
     "thinking-machines-lab/tinker",
     "thunlp/JustRL",
@@ -445,18 +442,17 @@
     "urschrei/simplification",
     "utiasASRL/pyboreas",
     "uxlfoundation/oneAPI-spec",
+    "vale-cli/packages",
     "vega/vega-datasets",
     "ViTAE-Transformer/ViTAE-Transformer",
     "vllm-project/flash-attention",
     "volcengine/volcengine-python-sdk",
     "voxel51/fiftyone-brain",
-    "wuphilipp/gello_software",
     "ymcui/Chinese-Mixtral",
     "ymcui/LERT",
     "YosysHQ/sby",
     "Yuliang-Liu/MultimodalOCR",
     "zai-org/GLM-skills",
-    "zai-org/z-ai-sdk-python",
     "zarr-developers/numcodecs",
     "zhiqwang/yolort",
     "zhiyiYo/Groove",

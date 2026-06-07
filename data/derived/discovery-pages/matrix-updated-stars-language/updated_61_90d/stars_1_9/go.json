@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 9,
-    "terms": 24
+    "components": 31,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 10,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "abraxas-365/claudio-codex",
     "alexellis/gha-bump",
     "archestra-ai/terraform-provider-archestra",
     "automazeio/proof-go",
     "cloudfoundry/bosh-aws-light-stemcell-builder",
+    "DataDog/trivy",
     "ethpandaops/cbt",
     "gost-dom/shaman",
     "justinfx/olric-nats-plugin",

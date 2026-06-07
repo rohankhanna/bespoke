@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 312,
-    "observations": 313,
+    "components": 219,
+    "concepts": 307,
+    "observations": 308,
     "repos": 58,
-    "terms": 308
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -32,11 +32,10 @@
     "go-gl/gl",
     "go-gl/glfw",
     "google/double-conversion",
-    "gperftools/gperftools",
     "h2o/picohttpparser",
-    "hku-mars/FAST-LIVO2",
     "hufrea/byedpi",
     "ioquake/ioq3",
+    "KhronosGroup/MoltenVK",
     "leethomason/tinyxml2",
     "lieff/minimp3",
     "littlefs-project/littlefs",
@@ -52,10 +51,12 @@
     "nodemcu/nodemcu-firmware",
     "NVIDIA/cuda-samples",
     "NVIDIA/gdrcopy",
+    "OHF-Voice/piper1-gpl",
     "olikraus/u8g2",
     "onnx/onnx-tensorrt",
     "Overv/VulkanTutorial",
     "pisa-engine/pisa",
+    "posva/catimg",
     "redis/hiredis",
     "romkatv/gitstatus",
     "snapcast/snapcast",
@@ -65,7 +66,6 @@
     "syoyo/tinygltf",
     "TA-Lib/ta-lib",
     "TechEmpower/FrameworkBenchmarks",
-    "TheAssassin/AppImageLauncher",
     "ThrowTheSwitch/Unity",
     "tinyobjloader/tinyobjloader",
     "TuGraph-family/tugraph-db",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1746,
-    "concepts": 210,
-    "observations": 211,
-    "repos": 48,
-    "terms": 207
+    "components": 1776,
+    "concepts": 211,
+    "observations": 212,
+    "repos": 49,
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "acdlite/recompose",
     "adam-p/markdown-here",
@@ -59,6 +59,7 @@
     "statsd/statsd",
     "vuejs/vue-cli",
     "vuejs/vuex",
+    "winstonjs/winston",
     "yaronn/blessed-contrib",
     "YMFE/yapi",
     "zalmoxisus/redux-devtools-extension"

@@ -3,7 +3,7 @@
     "components": 150,
     "concepts": 340,
     "observations": 341,
-    "repos": 87,
+    "repos": 86,
     "terms": 339
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -97,7 +97,6 @@
     "tinted-theming/home",
     "triton-inference-server/tensorrtllm_backend",
     "Uzaaft/awesome-libghostty",
-    "web-platform-tests/rfcs",
     "ymcui/MacBERT",
     "ymcui/PERT",
     "yokoffing/Control-D-Config"

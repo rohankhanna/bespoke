@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 50,
-    "observations": 51,
-    "repos": 33,
-    "terms": 48
+    "components": 64,
+    "concepts": 47,
+    "observations": 48,
+    "repos": 32,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "3mdeb/3mdeb-secpack",
@@ -42,7 +42,6 @@
     "lint-staged/lint-staged.sh",
     "marcindulak/ralph-wiggum-bdd",
     "pacstall/pacup",
-    "rapidsai/gha-tools",
     "reviewdog/action-alex",
     "reviewdog/action-composite-template",
     "semgrep/mcp-marketplace",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4532,
-    "concepts": 3450,
-    "observations": 3454,
-    "repos": 587,
-    "terms": 3465
+    "components": 4553,
+    "concepts": 3446,
+    "observations": 3450,
+    "repos": 583,
+    "terms": 3461
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -72,6 +72,7 @@
     "aspect-build/rules_js",
     "Atinoda/text-generation-webui-docker",
     "atsign-foundation/noports",
+    "atsushieno/ktmidi",
     "augustss/MicroHs",
     "aviatesk/JET.jl",
     "aws-observability/observability-best-practices",
@@ -84,7 +85,6 @@
     "AXERA-TECH/ax-samples",
     "ayu-theme/vscode-ayu",
     "Azure-Samples/get-started-with-ai-agents",
-    "Azure-Samples/openai-chat-app-quickstart",
     "Azure/bicep-registry-modules",
     "babashka/fs",
     "babashka/pod-registry",
@@ -172,7 +172,6 @@
     "dart-lang/shelf",
     "dart-lang/test",
     "dart-lang/tools",
-    "dashbitco/nimble_totp",
     "dauxio/daux.io",
     "davidmigloz/langchain_dart",
     "day8/re-com",
@@ -205,7 +204,6 @@
     "elixir-lang/elixir-lang.github.com",
     "elsa-workflows/elsa-studio",
     "emacs-ess/ESS",
-    "emacs-rustic/rustic",
     "emacs-tree-sitter/tree-sitter-langs",
     "emacscollective/borg",
     "ePages-de/restdocs-api-spec",
@@ -362,7 +360,6 @@
     "KulikDM/pythresh",
     "kwent/pgbouncerhero",
     "lambdaisland/deep-diff2",
-    "Layr-Labs/eigenlayer-contracts",
     "lerocha/netflixdb",
     "LibreChat-AI/librechat.ai",
     "libvips/build-win64-mxe",
@@ -495,7 +492,6 @@
     "rescript-lang/rescript-react",
     "rescript-lang/vim-rescript",
     "rgeo/activerecord-postgis-adapter",
-    "riscv-non-isa/riscv-sbi-doc",
     "rkallos/peep",
     "robur-coop/albatross",
     "ROCm/llvm-project",
@@ -521,6 +517,7 @@
     "saka1/simdjson_ruby",
     "salvadordf/WebView4Delphi",
     "samtools/hts-specs",
+    "sass/sass-spec",
     "sbt/sbt-ci-release",
     "sbt/sbt-pgp",
     "scalameta/nvim-metals",
@@ -588,7 +585,6 @@
     "vladimir-kotikov/clink-completions",
     "vuki656/package-info.nvim",
     "w3c/aria",
-    "w3c/web-performance",
     "w3c/webdriver-bidi",
     "weaviate/recipes",
     "WebAssembly/meetings",

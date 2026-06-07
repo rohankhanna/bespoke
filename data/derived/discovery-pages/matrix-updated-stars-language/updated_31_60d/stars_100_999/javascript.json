@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3600,
-    "concepts": 817,
-    "observations": 828,
-    "repos": 164,
-    "terms": 834
+    "components": 3526,
+    "concepts": 799,
+    "observations": 810,
+    "repos": 160,
+    "terms": 816
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
-    "4xian/claude-codex-api",
     "aadsm/jschardet",
     "actions/create-github-app-token",
     "actions/hello-world-javascript-action",
@@ -27,10 +26,8 @@
     "americanexpress/jest-json-schema",
     "anonrig/fast-querystring",
     "apache/incubator-seata-website",
-    "apify/awesome-skills",
     "appium/appium-ios-device",
     "aredridel/node-bin-gen",
-    "Atheos/Atheos",
     "auth0/node-jwks-rsa",
     "auth0/node-jws",
     "avoidwork/tiny-lru",
@@ -96,7 +93,6 @@
     "i18next/i18next-http-middleware",
     "ImranR98/apps.obtainium.imranr.dev",
     "ipfs/aegir",
-    "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
     "j9t/html-minifier-next",
     "jest-community/jest-junit",

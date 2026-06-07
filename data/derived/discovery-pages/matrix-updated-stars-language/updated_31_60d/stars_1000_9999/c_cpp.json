@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2365,
-    "concepts": 2450,
-    "observations": 2456,
-    "repos": 303,
-    "terms": 2433
+    "components": 2356,
+    "concepts": 2444,
+    "observations": 2450,
+    "repos": 301,
+    "terms": 2428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -140,7 +140,6 @@
     "jeremycw/httpserver.h",
     "jolibrain/deepdetect",
     "KhronosGroup/glslang",
-    "KhronosGroup/MoltenVK",
     "KhronosGroup/SPIRV-Tools",
     "KhronosGroup/Vulkan-Headers",
     "KhronosGroup/Vulkan-Hpp",
@@ -222,7 +221,6 @@
     "NVlabs/tiny-cuda-nn",
     "nvpro-samples/vk_raytracing_tutorial_KHR",
     "obsproject/obs-websocket",
-    "OHF-Voice/piper1-gpl",
     "ohler55/oj",
     "oneapi-src/oneAPI-samples",
     "onnxsim/onnxsim",
@@ -245,7 +243,6 @@
     "plasma-umass/coz",
     "pnggroup/libpng",
     "PoseLib/PoseLib",
-    "posva/catimg",
     "PRBonn/kiss-icp",
     "pytorch/FBGEMM",
     "pytorch/gloo",
@@ -271,6 +268,7 @@
     "SFML/imgui-sfml",
     "shader-slang/slang",
     "simdutf/simdutf",
+    "skeeto/w64devkit",
     "soramimi/guitar",
     "sorbet/sorbet",
     "sparkle-project/Sparkle",

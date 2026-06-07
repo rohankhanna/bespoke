@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 193,
-    "observations": 193,
-    "repos": 41,
-    "terms": 196
+    "components": 209,
+    "concepts": 202,
+    "observations": 202,
+    "repos": 44,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -26,6 +26,7 @@
     "charmbracelet/skate",
     "containernetworking/cni",
     "dagger/container-use",
+    "dghubble/sling",
     "dgraph-io/ristretto",
     "duke-git/lancet",
     "evmos/evmos",
@@ -34,6 +35,7 @@
     "github/git-sizer",
     "go-rod/rod",
     "gobwas/ws",
+    "golang/oauth2",
     "instrumenta/kubeval",
     "isaacphi/mcp-language-server",
     "jhump/protoreflect",
@@ -42,6 +44,7 @@
     "liquidmetal-dev/flintlock",
     "markbates/goth",
     "mattn/efm-langserver",
+    "mozillazg/go-pinyin",
     "nutsdb/nutsdb",
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",

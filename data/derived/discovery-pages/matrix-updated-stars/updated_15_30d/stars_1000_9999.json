@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1180,
-    "concepts": 751,
-    "observations": 752,
-    "repos": 91,
-    "terms": 733
+    "components": 1158,
+    "concepts": 803,
+    "observations": 805,
+    "repos": 92,
+    "terms": 785
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ag2s20150909/TTS",
@@ -21,6 +21,7 @@
     "apache/casbin-Casbin.NET",
     "apache/casbin-rs",
     "ash-rs/ash",
+    "ashvardanian/NumKong",
     "awslabs/aidlc-workflows",
     "bazel-contrib/bazel-gazelle",
     "benchflow-ai/skillsbench",
@@ -28,8 +29,8 @@
     "copier-org/copier",
     "devlooped/moq",
     "doctest/doctest",
+    "dotnet/Silk.NET",
     "electron/rebuild",
-    "enricoros/big-AGI",
     "etcd-io/bbolt",
     "floooh/sokol",
     "free-audio/clap",
@@ -40,11 +41,14 @@
     "GalTransl/GalTransl",
     "getagentseal/codeburn",
     "ggozad/oterm",
+    "gildas-lormeau/zip.js",
     "GladysAssistant/Gladys",
     "google/budoux",
     "google/oboe",
     "hacl-star/hacl-star",
+    "hgmzhn/manga-translator-ui",
     "intel/BigDL",
+    "intelligent-machine-learning/dlrover",
     "intentee/paddler",
     "InternScience/GraphGen",
     "ipfs/ipfs-companion",
@@ -58,7 +62,6 @@
     "litedb-org/LiteDB",
     "lucidrains/vector-quantize-pytorch",
     "lumen-oss/rocks.nvim",
-    "magenta/ddsp",
     "mangiucugna/json_repair",
     "marzer/tomlplusplus",
     "microsoft/Detours",
@@ -83,7 +86,6 @@
     "scop/bash-completion",
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
-    "skeeto/w64devkit",
     "speaches-ai/speaches",
     "stakira/OpenUtau",
     "standardrb/standard",
@@ -101,7 +103,6 @@
     "WiseLibs/better-sqlite3",
     "Xilinx/brevitas",
     "xoofx/markdig",
-    "xororz/local-dream",
     "yt-dlp/FFmpeg-Builds",
     "zai-org/GLM-V"
   ]

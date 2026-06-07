@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1082,
-    "concepts": 684,
-    "observations": 689,
-    "repos": 110,
-    "terms": 689
+    "components": 1064,
+    "concepts": 695,
+    "observations": 700,
+    "repos": 112,
+    "terms": 700
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -34,8 +34,10 @@
     "chalk/chalk",
     "CISOfy/lynis",
     "cleanlab/cleanlab",
+    "CocoaPods/CocoaPods",
     "ComposioHQ/awesome-claude-skills",
     "containrrr/watchtower",
+    "cool-RR/PySnooper",
     "datawhalechina/llm-universe",
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
@@ -90,6 +92,7 @@
     "NVlabs/instant-ngp",
     "PaddlePaddle/PaddleNLP",
     "peers/peerjs",
+    "PKU-YuanGroup/Open-Sora-Plan",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
@@ -118,7 +121,6 @@
     "vitejs/awesome-vite",
     "Wan-Video/Wan2.1",
     "wechaty/wechaty",
-    "winstonjs/winston",
     "yoheinakajima/babyagi",
     "zsh-users/zsh-syntax-highlighting",
     "Zulko/moviepy",

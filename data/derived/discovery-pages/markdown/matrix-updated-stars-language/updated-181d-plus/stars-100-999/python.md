@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1886
-- terms: 5488
-- components: 1255
-- concepts: 5656
-- observations: 5661
+- repos: 1889
+- terms: 5492
+- components: 1264
+- concepts: 5660
+- observations: 5665
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [MontaEllis/Pytorch-Medical-Segmentation](https://github.com/MontaEllis/Pytorch-Medical-Segmentation) | 925 | 2025-12-09T01:37:12Z | Python | Unknown | 4 | 0 | 4 | 4 |
+| [eps696/stylegan2ada](https://github.com/eps696/stylegan2ada) | 182 | 2025-12-09T00:13:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [machow/quartodoc](https://github.com/machow/quartodoc) | 260 | 2025-12-08T22:46:07Z | Python | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [OpenBMB/VisRAG](https://github.com/OpenBMB/VisRAG) | 947 | 2025-12-07T07:45:09Z | Python | Unknown | 7 | 0 | 7 | 7 |
 | [acl-org/aclpubcheck](https://github.com/acl-org/aclpubcheck) | 952 | 2025-12-06T18:23:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [worldbench/Robo3D](https://github.com/worldbench/Robo3D) | 374 | 2025-12-06T11:05:24Z | Python | Unknown | 3 | 0 | 4 | 4 |
@@ -1969,6 +1972,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hzwer/Practical-RIFE](https://github.com/hzwer/Practical-RIFE) | 927 | 2025-11-20T03:55:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [simonw/csvs-to-sqlite](https://github.com/simonw/csvs-to-sqlite) | 927 | 2025-04-10T17:00:54Z | Python | CLI | 7 | 3 | 7 | 7 |
 | [soCzech/TransNetV2](https://github.com/soCzech/TransNetV2) | 927 | 2023-12-04T20:06:15Z | Python | Unknown | 2 | 0 | 2 | 2 |
+| [MontaEllis/Pytorch-Medical-Segmentation](https://github.com/MontaEllis/Pytorch-Medical-Segmentation) | 925 | 2025-12-09T01:37:12Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [Vchitect/Vchitect-2.0](https://github.com/Vchitect/Vchitect-2.0) | 925 | 2025-03-17T14:18:12Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [wileewang/TransPixeler](https://github.com/wileewang/TransPixeler) | 923 | 2025-05-14T05:25:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [bennyguo/instant-nsr-pl](https://github.com/bennyguo/instant-nsr-pl) | 923 | 2023-11-22T02:02:54Z | Python | Template/starter | 0 | 0 | 0 | 0 |
@@ -3088,6 +3092,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Vchitect/FasterCache](https://github.com/Vchitect/FasterCache) | 261 | 2024-12-27T08:57:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [XinhaoMei/WavCaps](https://github.com/XinhaoMei/WavCaps) | 261 | 2024-07-25T22:08:39Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [qiuqiangkong/panns_inference](https://github.com/qiuqiangkong/panns_inference) | 261 | 2024-03-05T18:07:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [machow/quartodoc](https://github.com/machow/quartodoc) | 260 | 2025-12-08T22:46:07Z | Python | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [google-research/meliad](https://github.com/google-research/meliad) | 260 | 2025-06-06T03:03:17Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [THUDM/LongAlign](https://github.com/THUDM/LongAlign) | 260 | 2024-12-16T05:32:30Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [InternScience/ChartVLM](https://github.com/InternScience/ChartVLM) | 260 | 2024-09-26T06:43:22Z | Python | Model/data | 0 | 0 | 0 | 0 |
@@ -3354,6 +3359,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yizhongw/Tk-Instruct](https://github.com/yizhongw/Tk-Instruct) | 184 | 2022-10-28T18:57:08Z | Python | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [Yushi-Hu/tifa](https://github.com/Yushi-Hu/tifa) | 183 | 2024-04-29T04:34:08Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [generalizable-neural-performer/gnr](https://github.com/generalizable-neural-performer/gnr) | 183 | 2023-07-14T13:11:56Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [eps696/stylegan2ada](https://github.com/eps696/stylegan2ada) | 182 | 2025-12-09T00:13:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [huspacy/huspacy](https://github.com/huspacy/huspacy) | 182 | 2025-11-19T18:19:37Z | Python | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [IDEA-Research/RexSeek](https://github.com/IDEA-Research/RexSeek) | 182 | 2025-10-15T02:25:53Z | Python | Unknown | 5 | 0 | 5 | 5 |
 | [leezhuuuuu/Code-Interpreter-Api](https://github.com/leezhuuuuu/Code-Interpreter-Api) | 182 | 2025-01-04T12:02:59Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |

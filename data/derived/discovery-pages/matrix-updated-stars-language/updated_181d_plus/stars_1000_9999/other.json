@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1297,
-    "concepts": 1600,
-    "observations": 1602,
-    "repos": 429,
-    "terms": 1589
+    "components": 1298,
+    "concepts": 1608,
+    "observations": 1610,
+    "repos": 430,
+    "terms": 1597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -78,6 +78,7 @@
     "clojure-liberator/liberator",
     "cloneofsimo/lora",
     "clovaai/deep-text-recognition-benchmark",
+    "cncf/tag-security",
     "cocodataset/cocoapi",
     "coderjojo/creative-profile-readme",
     "cohama/lexima.vim",

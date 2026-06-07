@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 21,
-    "terms": 120
+    "components": 95,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 22,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "agentic-box/memora",
     "AMD-AGI/Nitro-1",
@@ -30,10 +30,11 @@
     "Jamorim-esss/pytest-rich",
     "mll-lab-nu/VAGEN",
     "nod-ai/AMD-SHARK-ModelDev",
+    "perrygeo/python-rasterstats",
     "pypa/setuptools-scm",
     "python-poetry/poetry-plugin-export",
+    "satan53x/SExtractor",
     "shawn0728/OpenSearch-VL",
-    "TextArena/TextArena",
-    "vale-cli/packages"
+    "TextArena/TextArena"
   ]
 }

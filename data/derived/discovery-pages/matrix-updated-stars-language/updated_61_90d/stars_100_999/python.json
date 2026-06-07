@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 419,
-    "concepts": 636,
-    "observations": 640,
+    "concepts": 615,
+    "observations": 619,
     "repos": 134,
-    "terms": 635
+    "terms": 614
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -29,6 +29,7 @@
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
     "amaranth-lang/amaranth-boards",
+    "amazon-science/esci-data",
     "astra-vision/MonoScene",
     "biocypher/biocypher",
     "Blosc/python-blosc",
@@ -49,6 +50,7 @@
     "devnen/Dia-TTS-Server",
     "devnen/Kitten-TTS-Server",
     "facebookincubator/ptr",
+    "facebookresearch/atlas",
     "facebookresearch/CodeGen",
     "G-Research/ahocorasick_rs",
     "gmberton/CosPlace",
@@ -65,7 +67,6 @@
     "hustvl/Senna",
     "hynek/argon2-cffi",
     "iterative/shtab",
-    "jayleicn/moment_detr",
     "jpmml/sklearn2pmml",
     "jsegov/autoresearch-win-rtx",
     "kandinskylab/kandinsky-5",
@@ -76,7 +77,6 @@
     "layumi/University1652-Baseline",
     "ldayton/dippy",
     "lessw2020/Ranger21",
-    "lxgw/LxgwMarkerGothic",
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",
     "MAGREF-Video/MAGREF",
@@ -88,7 +88,6 @@
     "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ArchScale",
     "microsoft/XPretrain",
-    "mindspore-lab/mindnlp",
     "MinimalFuture/AgentMesh",
     "mkdocstrings/griffe",
     "mlcommons/algorithmic-efficiency",
@@ -105,7 +104,6 @@
     "objectbox/objectbox-python",
     "open-tinker/OpenTinker",
     "openlawlibrary/pygls",
-    "openvpi/SingingVocoders",
     "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "pappasam/jedi-language-server",
@@ -132,14 +130,15 @@
     "swc-17/SparseDriveV2",
     "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
+    "TextArena/UnstableBaselines",
     "Thinklab-SJTU/Bench2Drive-VL",
-    "thu-ml/DiT-Extrapolation",
     "TorchDR/TorchDR",
     "twisted/towncrier",
     "Vinyzu/Botright",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "WujiangXu/A-mem-sys",
+    "wuphilipp/gello_software",
     "xavierpuigf/virtualhome",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
@@ -147,6 +146,7 @@
     "Yelp/aactivator",
     "yoxu515/aot-benchmark",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
+    "zai-org/z-ai-sdk-python",
     "zhijian-liu/torchprofile"
   ]
 }

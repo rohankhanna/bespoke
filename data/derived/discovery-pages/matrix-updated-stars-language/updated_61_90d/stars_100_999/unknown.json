@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "agamm/claude-code-owasp",
@@ -28,12 +28,12 @@
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "lxgw/LxgwZhenKai",
-    "MiniMax-AI/MiniMax-M2.5",
     "near/borsh",
     "neon-bindings/examples",
     "oobabooga/textgen-extensions",
     "reactwg/react-native-releases",
     "revfactory/harness-100",
-    "scott0107000/BoutiqueBitmap7x7"
+    "scott0107000/BoutiqueBitmap7x7",
+    "web-platform-tests/rfcs"
   ]
 }

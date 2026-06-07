@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 250,
-    "concepts": 210,
-    "observations": 210,
-    "repos": 41,
-    "terms": 208
+    "components": 299,
+    "concepts": 228,
+    "observations": 228,
+    "repos": 44,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
+    "aws/credentials-fetcher",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
     "cedar-policy/cedar-go",
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
+    "connectrpc/validate-go",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
     "erigontech/interfaces",
@@ -35,6 +37,7 @@
     "hashicorp/hello-vault-go",
     "hashicorp/raft-boltdb",
     "imjasonh/kontain.me",
+    "ipfs/ipfs-docs",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
     "kubernetes-sigs/cluster-proportional-autoscaler",

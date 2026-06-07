@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 122
-- components: 136
-- concepts: 123
-- observations: 123
+- repos: 14
+- terms: 113
+- components: 132
+- concepts: 114
+- observations: 114
 
 ## Static behavior
 
@@ -40,7 +40,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redis/redis-om-dotnet](https://github.com/redis/redis-om-dotnet) | 517 | 2026-05-26T11:41:01Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 797 | 2026-05-24T20:42:15Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-05-24T11:50:58Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
-| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 408 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -54,7 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
 | [redis/redis-om-dotnet](https://github.com/redis/redis-om-dotnet) | 517 | 2026-05-26T11:41:01Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 408 | 2026-05-23T13:21:22Z | Other | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [karafka/rdkafka-ruby](https://github.com/karafka/rdkafka-ruby) | 403 | 2026-05-27T17:21:16Z | Other | CLI | 10 | 9 | 10 | 10 |
 | [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [meshcat-dev/meshcat](https://github.com/meshcat-dev/meshcat) | 332 | 2026-05-28T21:51:23Z | Other | Web app | 0 | 11 | 0 | 0 |

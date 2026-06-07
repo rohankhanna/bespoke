@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 420,
-    "observations": 421,
-    "repos": 78,
-    "terms": 416
+    "components": 260,
+    "concepts": 443,
+    "observations": 444,
+    "repos": 80,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -25,6 +25,7 @@
     "avaneev/r8brain-free-src",
     "BirolLab/ntHash",
     "btzy/nativefiledialog-extended",
+    "CarlosDerSeher/snapclient",
     "charlesnicholson/nanoprintf",
     "containers/conmon",
     "CrystallineCore/Biscuit",
@@ -47,6 +48,7 @@
     "heal-research/operon",
     "intel/gmmlib",
     "intel/opencl-clang",
+    "ipsilon/evmc",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
     "KhronosGroup/OpenCL-Headers",
@@ -66,6 +68,7 @@
     "NetEase-FuXi/EETQ",
     "ng-log/ng-log",
     "nhielost/obs-midi-mg",
+    "NiLuJe/FBInk",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
     "osmcode/libosmium",
@@ -76,7 +79,7 @@
     "refresh-bio/KMC",
     "RoaringBitmap/croaring-rs",
     "rusty1s/pytorch_cluster",
-    "sheredom/ubench.h",
+    "samtools/bcftools",
     "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
     "stardot/beebasm",
@@ -90,7 +93,6 @@
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",
     "webgpu-native/webgpu-headers",
-    "xtensor-stack/xtensor-python",
-    "xuankuzcr/Global-LVBA"
+    "xtensor-stack/xtensor-python"
   ]
 }

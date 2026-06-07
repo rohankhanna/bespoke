@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 166,
-    "observations": 167,
-    "repos": 22,
-    "terms": 161
+    "components": 150,
+    "concepts": 182,
+    "observations": 183,
+    "repos": 23,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
     "copier-org/copier",
@@ -22,9 +22,10 @@
     "GalTransl/GalTransl",
     "ggozad/oterm",
     "google/budoux",
+    "hgmzhn/manga-translator-ui",
+    "intelligent-machine-learning/dlrover",
     "InternScience/GraphGen",
     "lucidrains/vector-quantize-pytorch",
-    "magenta/ddsp",
     "mangiucugna/json_repair",
     "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",

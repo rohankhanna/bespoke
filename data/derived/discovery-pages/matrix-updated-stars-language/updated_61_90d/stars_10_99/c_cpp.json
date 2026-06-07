@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 33,
-    "terms": 137
+    "components": 145,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 37,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
@@ -21,6 +21,7 @@
     "aseprite/observable",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
+    "chusitoo/flatbush",
     "cisco/libacvp",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
@@ -29,8 +30,11 @@
     "embeddedartistry/printf",
     "farm-ng/farm-ng-core",
     "flashlight/text",
+    "flatpak/xdg-dbus-proxy",
     "galaxyproject/KegAlign",
+    "GaoYusong/llm.cpp",
     "gershnik/wsdd-native",
+    "go-skynet/go-ggml-transformers.cpp",
     "gozaltech/espeak-ng-sapi",
     "heal-research/pyoperon",
     "ilyabrilev/biosim4",
@@ -39,13 +43,13 @@
     "Level/classic-level",
     "mesh-iit/creo2urdf",
     "midi2-dev/ni-midi2",
+    "mxmlnkn/indexed_bzip2",
     "nvictus/pybbi",
     "onicai/llama_cpp_canister",
     "r-lyeh/Spectral",
     "RekGRpth/pg_task",
     "ssiu/flash-attention-turing",
     "uael/sv",
-    "undreamai/LlamaLib",
     "VeriSilicon/tflite-vx-delegate"
   ]
 }

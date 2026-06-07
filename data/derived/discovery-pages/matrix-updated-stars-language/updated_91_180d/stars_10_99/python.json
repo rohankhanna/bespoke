@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 280,
-    "concepts": 286,
-    "observations": 287,
-    "repos": 111,
-    "terms": 294
+    "components": 293,
+    "concepts": 293,
+    "observations": 294,
+    "repos": 113,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -64,6 +64,7 @@
     "gazebosim/gz-mujoco",
     "google-deepmind/alphageometry2",
     "googlefonts/lang",
+    "googlefonts/nam-files",
     "GuiWonder/HuayingMincho",
     "HabanaAI/DeepSpeed",
     "Han-Cao/collapse-bubble",
@@ -104,6 +105,7 @@
     "ReneHollander/rep0st",
     "saltstack/libnacl",
     "scaleway/serverless-gateway",
+    "ServiceNow/webarena-verified",
     "shawn0728/ARES",
     "SLDGroup/EffiDec3D",
     "SLDGroup/LoMix",

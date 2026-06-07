@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1948,
-    "concepts": 1306,
-    "observations": 1318,
-    "repos": 227,
-    "terms": 1305
+    "components": 1928,
+    "concepts": 1291,
+    "observations": 1303,
+    "repos": 225,
+    "terms": 1290
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -71,7 +71,6 @@
     "crate-ci/committed",
     "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
-    "ctz/graviola",
     "cyphar/libpathrs",
     "dalance/ptags",
     "denoland/deno_doc",
@@ -106,7 +105,6 @@
     "facebookexperimental/allocative",
     "facebookexperimental/rust-shed",
     "fancy-regex/fancy-regex",
-    "FedericoPonzi/Horust",
     "filecoin-project/filecoin-ffi",
     "filecoin-project/ref-fvm",
     "flashbots/contender",

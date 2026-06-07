@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1693,
-    "concepts": 1416,
-    "observations": 1423,
-    "repos": 205,
-    "terms": 1424
+    "components": 1649,
+    "concepts": 1414,
+    "observations": 1421,
+    "repos": 204,
+    "terms": 1422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -38,7 +38,6 @@
     "argoproj-labs/argocd-operator",
     "aws-cloudformation/rain",
     "aws/amazon-vpc-resource-controller-k8s",
-    "aws/credentials-fetcher",
     "awslabs/soci-snapshotter",
     "Azure/azure-dev",
     "Azure/azure-storage-azcopy",
@@ -75,7 +74,6 @@
     "coder/code-marketplace",
     "coder/envbuilder",
     "cometbft/cometbft",
-    "connectrpc/validate-go",
     "Consensys/gnark-crypto",
     "controlplaneio-fluxcd/flux-operator",
     "cosmos/evm",
@@ -92,6 +90,7 @@
     "dgraph-io/dgraph-benchmarks",
     "docker/model-runner",
     "dydxprotocol/v4-chain",
+    "energye/energy",
     "estesp/manifest-tool",
     "etclabscore/core-geth",
     "ethereum-optimism/op-geth",
@@ -131,7 +130,6 @@
     "hypnoglow/helm-s3",
     "ipfs/boxo",
     "ipfs/go-cid",
-    "ipfs/ipfs-docs",
     "ipfs/rainbow",
     "istio/api",
     "istio/tools",
@@ -212,6 +210,7 @@
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",
     "theupdateframework/go-tuf",
+    "toml-lang/toml-test",
     "transparency-dev/tessera",
     "trzsz/tsshd",
     "usbarmory/go-boot",

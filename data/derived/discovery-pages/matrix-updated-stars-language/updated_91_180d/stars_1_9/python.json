@@ -3,7 +3,7 @@
     "components": 136,
     "concepts": 92,
     "observations": 92,
-    "repos": 37,
+    "repos": 36,
     "terms": 102
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "AIxCyberChallenge/example-crs-architecture",
@@ -30,7 +30,6 @@
     "cognizant-ai-lab/neuro-san-web-client",
     "Computer-use-agents/GUI-Docker-Env",
     "danielrosehill/Claude-LAN-Manager-0126",
-    "danielrosehill/Cloud-STT-Price-Points-1225",
     "danielrosehill/WhatsApp-Export-Unpacker",
     "datajuicer/data-juicer-sandbox",
     "drewlinsley/pathfinder",

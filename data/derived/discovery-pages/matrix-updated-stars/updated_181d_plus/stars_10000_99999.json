@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3367,
-    "concepts": 1626,
-    "observations": 1628,
-    "repos": 329,
-    "terms": 1600
+    "components": 3397,
+    "concepts": 1627,
+    "observations": 1629,
+    "repos": 330,
+    "terms": 1601
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -328,6 +328,7 @@
     "WebAssembly/design",
     "wg/wrk",
     "winfunc/opcode",
+    "winstonjs/winston",
     "withfig/autocomplete",
     "WongKinYiu/yolov7",
     "wsargent/docker-cheat-sheet",

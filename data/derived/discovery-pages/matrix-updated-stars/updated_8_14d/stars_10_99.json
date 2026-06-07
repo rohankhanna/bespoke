@@ -1,21 +1,21 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 26,
-    "terms": 146
+    "components": 282,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 25,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "alloy-rs/evm",
+    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
-    "dwyl/mvp",
     "edge-classic/EDGE-classic",
     "FAIR-IMPACT/MOD",
     "geocompx/docker",
@@ -34,7 +34,6 @@
     "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
-    "python-poetry/website",
     "skilld-dev/retriv",
     "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",

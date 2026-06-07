@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2484,
-    "concepts": 1794,
-    "observations": 1801,
-    "repos": 237,
-    "terms": 1803
+    "components": 2473,
+    "concepts": 1786,
+    "observations": 1793,
+    "repos": 236,
+    "terms": 1795
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -249,7 +249,6 @@
     "vulkano-rs/vulkano",
     "wasm-bindgen/wasm-bindgen",
     "wasm-bindgen/wasm-pack",
-    "watchexec/watchexec",
-    "WebAssembly/WASI"
+    "watchexec/watchexec"
   ]
 }

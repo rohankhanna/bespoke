@@ -3,7 +3,7 @@
     "components": 383,
     "concepts": 822,
     "observations": 822,
-    "repos": 218,
+    "repos": 219,
     "terms": 813
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -170,6 +170,7 @@
     "NVIDIA/thrust",
     "NVIDIA/VideoProcessingFramework",
     "nvim-telescope/telescope-fzf-native.nvim",
+    "NVlabs/nvdiffrast",
     "OAID/Tengine",
     "Oneflow-Inc/oneflow",
     "P-H-C/phc-winner-argon2",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 38
-- terms: 113
-- components: 189
-- concepts: 113
-- observations: 113
+- terms: 106
+- components: 186
+- concepts: 106
+- observations: 106
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [energye/examples](https://github.com/energye/examples) | 4 | 2026-05-08T00:54:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [gookit/cliui](https://github.com/gookit/cliui) | 1 | 2026-05-07T02:00:12Z | Go | CLI | 3 | 9 | 3 | 3 |
 | [cosmos/rosetta](https://github.com/cosmos/rosetta) | 9 | 2026-05-05T03:35:26Z | Go | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [fluxcd/flux-schema](https://github.com/fluxcd/flux-schema) | 4 | 2026-05-02T09:31:03Z | Go | CLI | 8 | 15 | 8 | 8 |
@@ -63,7 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ainvaltin/nu-plugin](https://github.com/ainvaltin/nu-plugin) | 7 | 2026-04-12T19:57:06Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [apache/dubbo-go-extensions](https://github.com/apache/dubbo-go-extensions) | 7 | 2026-04-12T11:39:45Z | Go | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [5c077m4n/pikud-haoref-api-go](https://github.com/5c077m4n/pikud-haoref-api-go) | 1 | 2026-04-08T18:56:10Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [DataDog/trivy](https://github.com/DataDog/trivy) | 2 | 2026-04-07T22:13:45Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -85,6 +85,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usbarmory/boot-transparency](https://github.com/usbarmory/boot-transparency) | 6 | 2026-04-21T10:18:08Z | Go | Library | 0 | 0 | 0 | 0 |
 | [usbarmory/go-net](https://github.com/usbarmory/go-net) | 6 | 2026-04-16T16:36:30Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [transparency-dev/distributor](https://github.com/transparency-dev/distributor) | 5 | 2026-04-20T12:17:46Z | Go | Infrastructure/tooling | 5 | 11 | 5 | 5 |
+| [energye/examples](https://github.com/energye/examples) | 4 | 2026-05-08T00:54:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [fluxcd/flux-schema](https://github.com/fluxcd/flux-schema) | 4 | 2026-05-02T09:31:03Z | Go | CLI | 8 | 15 | 8 | 8 |
 | [huggingface/hf-csi-driver](https://github.com/huggingface/hf-csi-driver) | 4 | 2026-04-25T16:09:33Z | Go | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [transparency-dev/armored-witness-os](https://github.com/transparency-dev/armored-witness-os) | 4 | 2026-04-20T06:02:39Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -98,7 +99,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [transparency-dev/armored-witness-boot](https://github.com/transparency-dev/armored-witness-boot) | 2 | 2026-04-20T21:40:24Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [goreleaser/sponsors](https://github.com/goreleaser/sponsors) | 2 | 2026-04-20T10:33:50Z | Go | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [k8nstantin/openpraxis](https://github.com/k8nstantin/OpenPraxis) | 2 | 2026-04-19T13:50:23Z | Go | Infrastructure/tooling | 1 | 5 | 0 | 0 |
-| [DataDog/trivy](https://github.com/DataDog/trivy) | 2 | 2026-04-07T22:13:45Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [gookit/cliui](https://github.com/gookit/cliui) | 1 | 2026-05-07T02:00:12Z | Go | CLI | 3 | 9 | 3 | 3 |
 | [cloudfoundry/cc-uploader](https://github.com/cloudfoundry/cc-uploader) | 1 | 2026-04-28T04:33:11Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [transparency-dev/armored-witness-applet](https://github.com/transparency-dev/armored-witness-applet) | 1 | 2026-04-28T01:46:10Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |

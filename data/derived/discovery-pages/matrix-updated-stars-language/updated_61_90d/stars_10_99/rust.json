@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 77,
-    "observations": 78,
-    "repos": 28,
-    "terms": 77
+    "components": 183,
+    "concepts": 86,
+    "observations": 88,
+    "repos": 30,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
     "bencevans/camtrap-detector",
+    "bgpkit/bgpkit-broker",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
@@ -24,6 +25,7 @@
     "dcampbell24/mdbook-djot",
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
+    "google/safe-mmio",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
@@ -32,13 +34,13 @@
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
     "microsoft/tracing-etw",
+    "near/near-workspaces-rs",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",
     "oramasearch/llm_json",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
-    "raymondshe/matchengine-raft",
     "sigp/rust-libp2p",
     "Turbo87/flat-projection-rs",
     "Vaishnav-Sabari-Girish/Hayasen"

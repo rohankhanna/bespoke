@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1320,
-    "concepts": 307,
-    "observations": 307,
-    "repos": 49,
-    "terms": 316
+    "components": 1400,
+    "concepts": 308,
+    "observations": 308,
+    "repos": 51,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "actions-cool/issues-helper",
     "aelassas/bookcars",
     "amplify-education/serverless-domain-manager",
     "antfu-collective/bumpp",
+    "antfu/skills-npm",
     "aquasecurity/trivy-vscode-extension",
     "augmnt/augments-mcp-server",
+    "Autodesk/synthesis",
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
@@ -31,6 +33,7 @@
     "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
     "cztomsik/ava",
+    "dezoito/ollama-grid-search",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "filllabs/dependi",
@@ -49,7 +52,6 @@
     "neoclide/coc-java",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
-    "Piebald-AI/gemini-cli-desktop",
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",

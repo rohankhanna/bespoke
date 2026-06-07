@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 778,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 56,
-    "terms": 234
+    "components": 852,
+    "concepts": 243,
+    "observations": 243,
+    "repos": 60,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
+    "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
+    "apify/awesome-skills",
     "AssemblyScript/wabt.js",
+    "Atheos/Atheos",
     "avwo/whistle-client",
     "badgen/badgen",
     "ButTaiwan/bpmfvs",
@@ -43,6 +46,7 @@
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
     "igvteam/igv.js",
+    "ipld/explore.ipld.io",
     "kharchenkolab/pagoda2",
     "kriszyp/cbor-x",
     "Level/abstract-level",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 217,
-    "observations": 217,
-    "repos": 21,
-    "terms": 217
+    "components": 301,
+    "concepts": 215,
+    "observations": 215,
+    "repos": 20,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "actions-cool/test-issues-helper",
     "agent-sh/deslop",
@@ -28,7 +28,6 @@
     "Level/supports",
     "Level/transcoder",
     "lucabubi/star-history",
-    "REditorSupport/vscode-R-syntax",
     "stdlib-js/array-buffer",
     "stdlib-js/array-complex64",
     "stdlib-js/array-dtypes",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 68,
-    "terms": 115
+    "components": 170,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 69,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -29,6 +29,7 @@
     "apache/incubator-seata-ctl",
     "bianjieai/ibc-go",
     "Binozo/GoStableDiffusion",
+    "bizflycloud/karpenter-provider-bizflycloud",
     "bored-engineer/httpcache",
     "bors-ng/dockerize",
     "can3p/go-hrx",

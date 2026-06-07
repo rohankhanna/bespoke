@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1166,
-    "concepts": 795,
-    "observations": 797,
-    "repos": 121,
-    "terms": 792
+    "components": 1283,
+    "concepts": 853,
+    "observations": 855,
+    "repos": 126,
+    "terms": 850
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -20,6 +20,7 @@
     "allenai/olmocr",
     "AndyMik90/Aperant",
     "anuraghazra/github-readme-stats",
+    "AppFlowy-IO/AppFlowy",
     "aria2/aria2",
     "auth0/node-jsonwebtoken",
     "bellard/quickjs",
@@ -28,9 +29,7 @@
     "chriskiehl/Gooey",
     "chromedp/chromedp",
     "cloudwu/skynet",
-    "CocoaPods/CocoaPods",
     "cookiecutter/cookiecutter",
-    "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
     "dandavison/delta",
     "datawhalechina/happy-llm",
@@ -48,11 +47,14 @@
     "explosion/spaCy",
     "eyaltoledano/claude-task-master",
     "facebook/zstd",
+    "facebookresearch/detectron2",
     "facebookresearch/dinov3",
+    "facebookresearch/sam2",
     "fastai/fastai",
     "fatih/vim-go",
     "fishaudio/fish-speech",
     "FunAudioLLM/CosyVoice",
+    "g-truc/glm",
     "githubnext/monaspace",
     "glfw/glfw",
     "google/dopamine",
@@ -69,6 +71,7 @@
     "hyperium/hyper",
     "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
+    "infernojs/inferno",
     "jquery/jquery-ui",
     "karpathy/autoresearch",
     "KittenML/KittenTTS",
@@ -77,6 +80,7 @@
     "Kong/kong",
     "Konloch/bytecode-viewer",
     "kubernetes/ingress-nginx",
+    "labstack/echo",
     "LazyVim/LazyVim",
     "less/less.js",
     "libevent/libevent",
@@ -101,7 +105,6 @@
     "panjf2000/ants",
     "panjf2000/gnet",
     "parcel-bundler/parcel",
-    "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
     "pugjs/pug",
@@ -125,6 +128,7 @@
     "taichi-dev/taichi",
     "termux/termux-app",
     "testing-library/react-testing-library",
+    "thomaspark/bootswatch",
     "thu-ml/tianshou",
     "typicode/husky",
     "typicode/json-server",
@@ -133,6 +137,7 @@
     "videojs/video.js",
     "vuejs/awesome-vue",
     "Wan-Video/Wan2.2",
-    "websockets/ws"
+    "websockets/ws",
+    "zeromq/libzmq"
   ]
 }

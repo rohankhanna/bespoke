@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 4,
-    "terms": 10
+    "components": 36,
+    "concepts": 17,
+    "observations": 18,
+    "repos": 5,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
+    "attackgoat/vk-graph",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "GitoxideLabs/cargo-smart-release",
     "lbcb-sci/herro",

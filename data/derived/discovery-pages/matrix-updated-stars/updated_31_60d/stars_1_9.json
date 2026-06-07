@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4354,
-    "concepts": 2140,
-    "observations": 2144,
+    "components": 4372,
+    "concepts": 2136,
+    "observations": 2141,
     "repos": 542,
-    "terms": 2165
+    "terms": 2161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0ghny/shellx",
@@ -205,7 +205,6 @@
     "danielrosehill/Voxtype",
     "databendlabs/databend-meta",
     "datachainlab/lcp-go",
-    "DataDog/trivy",
     "DavidKinder/inform",
     "dcampbell24/djot-implementations",
     "decibri/decibri",
@@ -243,6 +242,7 @@
     "emacs-straight/emacsmirror-mirror",
     "emacs-straight/gnu-elpa-mirror",
     "enbop/fungi-app",
+    "energye/examples",
     "enxs969/skiller",
     "erichlof/Glider-Ball-3D",
     "erikceballos/nano-banana-cli",
@@ -317,6 +317,7 @@
     "ihmcrobotics/repository-group",
     "image-rs/image-extras",
     "influxdata/arrow-datafusion",
+    "ioBroker/plugin-sentry",
     "ipfs-shipyard/github-mgmt",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipfs/helia-remote-pinning",
@@ -437,7 +438,6 @@
     "pyrtlsdr/pyrtlsdrlib",
     "qcr/qcr.github.io",
     "raku-community-modules/Terminal-WCWidth",
-    "rapidsai/gha-tools",
     "rapidsai/rapids-logger",
     "recap-utr/arg-services",
     "redhat-developer/app-services-api-guidelines",

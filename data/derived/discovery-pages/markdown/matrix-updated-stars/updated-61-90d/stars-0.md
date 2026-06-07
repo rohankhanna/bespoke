@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 96
-- terms: 143
-- components: 294
-- concepts: 140
-- observations: 142
+- repos: 100
+- terms: 148
+- components: 291
+- concepts: 145
+- observations: 147
 
 ## Static behavior
 
@@ -25,6 +25,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [MaterializeInc/duckdb-rs](https://github.com/MaterializeInc/duckdb-rs) | 0 | 2026-04-07T01:52:50Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [aaronrsun/spec-kit-confluence](https://github.com/aaronrsun/spec-kit-confluence) | 0 | 2026-04-06T23:35:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -120,12 +125,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onomojo/i18n-country-translations-ex](https://github.com/onomojo/i18n-country-translations-ex) | 0 | 2026-03-09T13:08:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-ex](https://github.com/onomojo/i18n-timezones-ex) | 0 | 2026-03-09T13:08:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [abbhisap/LLM-Council-SAP](https://github.com/abbhisap/LLM-Council-SAP) | 0 | 2026-03-09T11:39:49Z | Python | Service/API | 0 | 0 | 0 | 0 |
-| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
+| [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [MaterializeInc/duckdb-rs](https://github.com/MaterializeInc/duckdb-rs) | 0 | 2026-04-07T01:52:50Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [aaronrsun/spec-kit-confluence](https://github.com/aaronrsun/spec-kit-confluence) | 0 | 2026-04-06T23:35:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -221,4 +230,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [onomojo/i18n-country-translations-ex](https://github.com/onomojo/i18n-country-translations-ex) | 0 | 2026-03-09T13:08:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [onomojo/i18n-timezones-ex](https://github.com/onomojo/i18n-timezones-ex) | 0 | 2026-03-09T13:08:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [abbhisap/LLM-Council-SAP](https://github.com/abbhisap/LLM-Council-SAP) | 0 | 2026-03-09T11:39:49Z | Python | Service/API | 0 | 0 | 0 | 0 |
-| [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |

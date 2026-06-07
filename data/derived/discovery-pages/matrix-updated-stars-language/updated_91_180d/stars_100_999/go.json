@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 231,
-    "concepts": 279,
-    "observations": 280,
-    "repos": 41,
-    "terms": 278
+    "components": 213,
+    "concepts": 269,
+    "observations": 270,
+    "repos": 39,
+    "terms": 268
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -35,7 +35,6 @@
     "FastFilter/xorfilter",
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
-    "github/smimesign",
     "GoogleCloudPlatform/docker-credential-gcr",
     "gost-dom/browser",
     "hebcal/hebcal",
@@ -49,7 +48,6 @@
     "mholt/archives",
     "MicahParks/keyfunc",
     "multiformats/go-multiaddr",
-    "node-real/bsc-erigon",
     "oceanbase/ob-operator",
     "omniscale/imposm3",
     "phodal/coca",

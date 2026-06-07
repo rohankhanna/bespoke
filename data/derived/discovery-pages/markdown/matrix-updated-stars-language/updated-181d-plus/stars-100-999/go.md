@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-07T06:03:26.903284+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 190
-- terms: 762
-- components: 563
-- concepts: 776
-- observations: 776
+- repos: 192
+- terms: 772
+- components: 581
+- concepts: 786
+- observations: 786
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [github/smimesign](https://github.com/github/smimesign) | 646 | 2025-12-08T17:26:44Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [node-real/bsc-erigon](https://github.com/node-real/bsc-erigon) | 165 | 2025-12-08T13:05:30Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [bshuster-repo/logrus-logstash-hook](https://github.com/bshuster-repo/logrus-logstash-hook) | 203 | 2025-12-05T02:42:46Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [Masterminds/vcs](https://github.com/Masterminds/vcs) | 203 | 2025-12-04T14:52:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [ethereum-optimism/asterisc](https://github.com/ethereum-optimism/asterisc) | 109 | 2025-12-02T10:39:58Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -262,6 +264,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [evanmiller/hecate](https://github.com/evanmiller/hecate) | 676 | 2022-05-03T00:34:32Z | Go | Unknown | 1 | 0 | 1 | 1 |
 | [sugarme/gotch](https://github.com/sugarme/gotch) | 648 | 2025-02-25T22:41:10Z | Go | Service/API | 6 | 0 | 6 | 6 |
 | [99designs/keyring](https://github.com/99designs/keyring) | 648 | 2024-05-07T14:55:29Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [github/smimesign](https://github.com/github/smimesign) | 646 | 2025-12-08T17:26:44Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [aymerick/raymond](https://github.com/aymerick/raymond) | 643 | 2025-06-19T12:32:54Z | Go | Unknown | 1 | 0 | 1 | 1 |
 | [ajayd-san/gomanagedocker](https://github.com/ajayd-san/gomanagedocker) | 637 | 2024-12-28T07:44:20Z | Go | CLI | 13 | 10 | 13 | 13 |
 | [containers/storage](https://github.com/containers/storage) | 628 | 2025-11-13T16:41:37Z | Go | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -368,6 +371,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aquasecurity/tfsec-pr-commenter-action](https://github.com/aquasecurity/tfsec-pr-commenter-action) | 170 | 2023-09-20T07:49:40Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [antonfisher/nested-logrus-formatter](https://github.com/antonfisher/nested-logrus-formatter) | 168 | 2022-10-13T11:12:56Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [1player/host-spawn](https://github.com/1player/host-spawn) | 166 | 2025-07-31T10:35:01Z | Go | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [node-real/bsc-erigon](https://github.com/node-real/bsc-erigon) | 165 | 2025-12-08T13:05:30Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [Logiase/MiraiGo-Template](https://github.com/Logiase/MiraiGo-Template) | 164 | 2023-04-18T12:22:19Z | Go | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [wangjia184/sortedset](https://github.com/wangjia184/sortedset) | 161 | 2023-03-24T08:10:21Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [soulteary/amazing-openai-api](https://github.com/soulteary/amazing-openai-api) | 160 | 2024-02-21T07:57:56Z | Go | Infrastructure/tooling | 10 | 8 | 10 | 10 |

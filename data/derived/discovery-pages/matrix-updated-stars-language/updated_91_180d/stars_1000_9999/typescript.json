@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1181,
-    "concepts": 190,
-    "observations": 190,
-    "repos": 42,
-    "terms": 195
+    "components": 1190,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 43,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -44,6 +44,7 @@
     "ricky0123/vad",
     "RobinBlomberg/kysely-codegen",
     "snarktank/antfarm",
+    "standard-schema/standard-schema",
     "stravu/crystal",
     "styleguidist/react-docgen-typescript",
     "supermacro/neverthrow",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 13,
+    "components": 10,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 1,
     "terms": 0
   },
   "facet_version": 1,
@@ -11,9 +11,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
-    "cloudfoundry/bosh-google-cpi-release"
+    "4catalyzer/javascript"
   ]
 }

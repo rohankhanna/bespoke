@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 13,
-    "terms": 85
+    "components": 73,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 16,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
+    "apache/doris-flink-connector",
+    "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "Deep-Symmetry/crate-digger",
     "eclipse-buildship/buildship",
@@ -21,6 +23,7 @@
     "fnproject/fdk-java",
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
+    "GoogleCloudPlatform/cloud-opensource-java",
     "mebigfatguy/fb-contrib",
     "nayuki/Nayuki-web-published-code",
     "objectbox/objectbox-examples",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 475,
-    "concepts": 570,
-    "observations": 570,
-    "repos": 77,
-    "terms": 568
+    "components": 462,
+    "concepts": 538,
+    "observations": 538,
+    "repos": 74,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
     "apache/camel-examples",
     "apache/commons-jexl",
     "apache/datasketches-java",
-    "apache/doris-flink-connector",
-    "apache/doris-spark-connector",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -46,7 +44,6 @@
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",
     "googleapis/java-bigtable-hbase",
-    "GoogleCloudPlatform/cloud-opensource-java",
     "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",

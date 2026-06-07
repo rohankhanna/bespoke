@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 441,
-    "concepts": 815,
-    "observations": 815,
-    "repos": 225,
-    "terms": 810
+    "components": 444,
+    "concepts": 838,
+    "observations": 838,
+    "repos": 227,
+    "terms": 833
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -81,7 +81,6 @@
     "drivendataorg/zamba",
     "dualverse-ai/station",
     "enjoy-digital/litesata",
-    "eps696/stylegan2ada",
     "Extraltodeus/Skimmed_CFG",
     "fabio-sim/LightGlue-ONNX",
     "feifeibear/long-context-attention",
@@ -119,6 +118,7 @@
     "InternRobotics/VLAC",
     "IST-DASLab/FP-Quant",
     "j-bennet/wharfee",
+    "jayleicn/moment_detr",
     "JettHu/ComfyUI-TCD",
     "JettHu/ComfyUI_TGate",
     "jimmyyhwu/tidybot2",
@@ -133,8 +133,8 @@
     "liruilong940607/prope",
     "lldacing/ComfyUI_Patches_ll",
     "lucidrains/rotary-embedding-torch",
+    "lxgw/LxgwMarkerGothic",
     "lzyhha/VisualCloze",
-    "machow/quartodoc",
     "madebyollin/taesd",
     "magic-wormhole/magic-wormhole-transit-relay",
     "marin-community/levanter",
@@ -144,9 +144,9 @@
     "microsoft/ANCE",
     "microsoft/botbuilder-python",
     "microsoft/langchain-for-beginners",
+    "mindspore-lab/mindnlp",
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
-    "MontaEllis/Pytorch-Medical-Segmentation",
     "MoonshotAI/checkpoint-engine",
     "Mountchicken/Resophy",
     "mtkennerly/poetry-dynamic-versioning",
@@ -168,6 +168,7 @@
     "OpenGVLab/GUI-Odyssey",
     "OpenMOSS/FRoM-W1",
     "OpenSparseLLMs/MoM",
+    "openvpi/SingingVocoders",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
     "pinokiofactory/cogstudio",
@@ -206,6 +207,7 @@
     "TencentCloudADP/youtu-tip",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
+    "thu-ml/DiT-Extrapolation",
     "TIGER-AI-Lab/verl-tool",
     "tpoisonooo/ROGRAG",
     "TRI-ML/dgp",

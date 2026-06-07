@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12088,
-    "concepts": 6945,
-    "observations": 6962,
-    "repos": 3301,
-    "terms": 6892
+    "components": 12093,
+    "concepts": 6965,
+    "observations": 6982,
+    "repos": 3303,
+    "terms": 6912
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -1449,6 +1449,7 @@
     "getbettr/octotail",
     "getsentry/opentelemetry-demo",
     "getsops/community",
+    "getumbrel/umbrel-lightning",
     "GewelsJI/MVLT",
     "gfoidl/Base64",
     "GigaAI-research/ReconDreamer-RL",
@@ -2801,6 +2802,7 @@
     "scaleway/initrd",
     "scaleway/serverless-functions-go",
     "SChernykh/RandomX_CUDA",
+    "SciML/SciMLTutorialsOutput",
     "scipy/oldest-supported-numpy",
     "scivision/linkchecker-markdown",
     "sclorg/mongodb-container",

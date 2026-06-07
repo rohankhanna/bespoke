@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 439,
-    "concepts": 853,
-    "observations": 854,
+    "components": 447,
+    "concepts": 878,
+    "observations": 879,
     "repos": 170,
-    "terms": 840
+    "terms": 867
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -23,6 +23,7 @@
     "AlibabaResearch/DAMO-ConvAI",
     "alteryx/featuretools",
     "AmberSahdev/Open-Interface",
+    "anapnoe/stable-diffusion-webui-ux",
     "andialbrecht/sqlparse",
     "andreafrancia/trash-cli",
     "AnswerDotAI/rerankers",
@@ -42,7 +43,6 @@
     "buriy/python-readability",
     "ByteDance-Seed/SeedVR",
     "bytetriper/RAE",
-    "CatchTheTornado/text-extract-api",
     "chatopera/Synonyms",
     "ChenmienTan/RL2",
     "chflame163/ComfyUI_LayerStyle",
@@ -82,9 +82,9 @@
     "gururise/AlpacaDataCleaned",
     "gusye1234/nano-graphrag",
     "harbor-framework/terminal-bench",
+    "heshengtao/comfyui_LLM_party",
     "hkust-nlp/simpleRL-reason",
     "huggingface/Math-Verify",
-    "hustvl/DiffusionDrive",
     "hustvl/LightningDiT",
     "hustvl/VAD",
     "IBM/Project_CodeNet",

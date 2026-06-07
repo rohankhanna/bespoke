@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 2,
-    "terms": 23
+    "components": 3,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
-    "nginx-le/nginx-le",
-    "TypedDevs/bashunit"
+    "nginx-le/nginx-le"
   ]
 }

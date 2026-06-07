@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 104,
+    "components": 48,
     "concepts": 57,
     "observations": 58,
-    "repos": 14,
+    "repos": 13,
     "terms": 56
   },
   "facet_version": 1,
@@ -12,21 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
-    "atsushieno/ktmidi",
     "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
     "dwyl/quotes",
     "emacscollective/auto-compile",
+    "fsprojects/FSharp.Data.GraphQL",
     "google/protobuf.dart",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "openbsd/ports",
     "rescript-lang/reanalyze",
-    "sass/sass-spec",
     "WICG/attribution-reporting-api"
   ]
 }

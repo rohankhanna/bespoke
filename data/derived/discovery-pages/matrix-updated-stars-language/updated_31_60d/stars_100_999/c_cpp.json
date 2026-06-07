@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1386,
-    "concepts": 1428,
-    "observations": 1431,
-    "repos": 258,
-    "terms": 1420
+    "components": 1376,
+    "concepts": 1401,
+    "observations": 1404,
+    "repos": 254,
+    "terms": 1393
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "AcademySoftwareFoundation/Imath",
@@ -49,7 +49,6 @@
     "boostorg/math",
     "boostorg/multiprecision",
     "boostorg/nowide",
-    "CarlosDerSeher/snapclient",
     "CEED/libCEED",
     "chhylp123/hifiasm",
     "cisco/mlspp",
@@ -127,7 +126,6 @@
     "intel/llm-scaler",
     "intel/QAT_Engine",
     "intel/ScalableVectorSearch",
-    "ipsilon/evmc",
     "istio/proxy",
     "j20001970/GDMP",
     "jcmvbkbc/gcc-xtensa",
@@ -188,7 +186,6 @@
     "NGSolve/netgen",
     "nianticlabs/spz",
     "NiklasRosenstein/pbzx",
-    "NiLuJe/FBInk",
     "nix-community/nix-unit",
     "nss-dev/nss",
     "NVIDIA/pyxis",
@@ -239,7 +236,6 @@
     "ruby-debug/debase",
     "ruby/prism",
     "samdauwe/webgpu-native-examples",
-    "samtools/bcftools",
     "samtools/htslib",
     "SaschaWillems/HowToVulkan",
     "secretflow/heu",

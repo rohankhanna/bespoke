@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 145,
-    "observations": 145,
+    "components": 127,
+    "concepts": 161,
+    "observations": 161,
     "repos": 16,
-    "terms": 144
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
+    "ashvardanian/NumKong",
     "doctest/doctest",
     "floooh/sokol",
     "free-audio/clap",
@@ -26,7 +27,6 @@
     "Nelarius/imnodes",
     "PortAudio/portaudio",
     "pure-data/pure-data",
-    "skeeto/w64devkit",
     "ufbx/ufbx",
     "uxlfoundation/oneDNN",
     "WarmUpTill/SceneSwitcher"

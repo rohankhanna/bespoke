@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 964,
-    "concepts": 3840,
-    "observations": 3842,
-    "repos": 978,
-    "terms": 3770
+    "concepts": 3844,
+    "observations": 3846,
+    "repos": 980,
+    "terms": 3772
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-07T06:03:26.903284+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -156,6 +156,7 @@
     "CASIA-LMC-Lab/FastSAM",
     "casper-hansen/AutoAWQ",
     "catalyst-team/catalyst",
+    "CatchTheTornado/text-extract-api",
     "cfzd/Ultra-Fast-Lane-Detection",
     "chainer/chainer",
     "chainer/chainercv",
@@ -385,6 +386,7 @@
     "hugapi/hug",
     "huggingface/distil-whisper",
     "huggingface/transfer-learning-conv-ai",
+    "hustvl/DiffusionDrive",
     "hustvl/MapTR",
     "hustvl/Vim",
     "HybridRobotics/whole_body_tracking",
