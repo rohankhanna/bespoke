@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 447,
-    "concepts": 273,
-    "observations": 274,
-    "repos": 53,
-    "terms": 273
+    "components": 444,
+    "concepts": 268,
+    "observations": 269,
+    "repos": 52,
+    "terms": 268
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
@@ -24,7 +24,6 @@
     "apify/actor-templates",
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
-    "atsushieno/augene-ng",
     "atsushieno/resident-midi-keyboard",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",

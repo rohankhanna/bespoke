@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 3725,
-    "concepts": 2107,
-    "observations": 2113,
-    "repos": 292,
-    "terms": 2077
+    "components": 3722,
+    "concepts": 2102,
+    "observations": 2108,
+    "repos": 291,
+    "terms": 2072
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -59,7 +59,6 @@
     "atsushieno/aap-juce-simple-host",
     "atsushieno/aap-lv2",
     "atsushieno/aap-lv2-string-machine",
-    "atsushieno/augene-ng",
     "atsushieno/midicci",
     "atsushieno/resident-midi-keyboard",
     "atuinsh/atuin",

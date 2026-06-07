@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22914,
-    "concepts": 13358,
-    "observations": 13412,
-    "repos": 2315,
-    "terms": 13443
+    "components": 22842,
+    "concepts": 13324,
+    "observations": 13377,
+    "repos": 2309,
+    "terms": 13409
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -82,7 +82,6 @@
     "agentclientprotocol/rust-sdk",
     "agentclientprotocol/typescript-sdk",
     "agentmorris/MegaDetector",
-    "AgentR1/Claw-R1",
     "agentscope-ai/agentscope-runtime",
     "agentscope-ai/agentscope-samples",
     "agentscope-ai/Trinity-RFT",
@@ -613,7 +612,6 @@
     "daanx/isocline",
     "daeh/zotero-citation-tally",
     "daeh/zotero-markdb-connect",
-    "dalance/ptags",
     "dani-garcia/bw_web_builds",
     "daniandtheweb/sd.cpp-webui",
     "danielroe/beasties",
@@ -740,7 +738,6 @@
     "elixir-sqlite/exqlite",
     "elizaos/elizaos.github.io",
     "elm-tooling/elm-language-client-vscode",
-    "elm-tooling/elm-language-server",
     "elsa-workflows/elsa-studio",
     "emacs-ess/ESS",
     "emacs-tree-sitter/tree-sitter-langs",
@@ -817,7 +814,6 @@
     "falcoframework/Falco",
     "fallenshock/FlowEdit",
     "fancy-regex/fancy-regex",
-    "fanshiqing/grouped_gemm",
     "Farama-Foundation/Gymnasium-Robotics",
     "Farama-Foundation/Minari",
     "Farama-Foundation/Shimmy",
@@ -1546,7 +1542,6 @@
     "mongodb/homebrew-brew",
     "monitoring-mixins/mixtool",
     "Mooncake-Labs/moonlink",
-    "mosaicml/diffusion",
     "mosecorg/mosec",
     "moul/gotty-client",
     "moyangzhan/langchain4j-aideepin-web",
@@ -1759,7 +1754,6 @@
     "pauldmccarthy/indexed_gzip",
     "paullouisageneau/libjuice",
     "pbatard/Mosby",
-    "PDFMathTranslate/PDFMathTranslate-next",
     "pedronauck/skills",
     "petercorke/bdsim",
     "petercorke/machinevision-toolbox-python",

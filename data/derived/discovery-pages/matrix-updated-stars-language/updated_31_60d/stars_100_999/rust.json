@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1928,
-    "concepts": 1291,
-    "observations": 1303,
-    "repos": 225,
-    "terms": 1290
+    "components": 1923,
+    "concepts": 1282,
+    "observations": 1294,
+    "repos": 224,
+    "terms": 1281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -72,7 +72,6 @@
     "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
     "cyphar/libpathrs",
-    "dalance/ptags",
     "denoland/deno_doc",
     "deven96/ahnlich",
     "Dicklesworthstone/asupersync",

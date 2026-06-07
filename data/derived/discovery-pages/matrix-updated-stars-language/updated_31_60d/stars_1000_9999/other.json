@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4158,
-    "concepts": 3733,
-    "observations": 3754,
-    "repos": 505,
-    "terms": 3716
+    "components": 4143,
+    "concepts": 3711,
+    "observations": 3732,
+    "repos": 502,
+    "terms": 3695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -265,7 +265,6 @@
     "john-rocky/CoreML-Models",
     "johnbean393/Sidekick",
     "jpsim/SourceKitten",
-    "jpsim/Yams",
     "jrblevin/markdown-mode",
     "jrsoftware/issrc",
     "jruby/jruby",
@@ -303,7 +302,6 @@
     "LuaLS/lua-language-server",
     "MacPaw/OpenAI",
     "macports/macports-ports",
-    "macvim-dev/macvim",
     "MagicDuck/grug-far.nvim",
     "magit/forge",
     "MahApps/MahApps.Metro",
@@ -311,7 +309,6 @@
     "manateelazycat/lsp-bridge",
     "markdownlint/markdownlint",
     "mason-org/mason-lspconfig.nvim",
-    "MattesGroeger/vim-bookmarks",
     "mattn/vim-gist",
     "mattn/vim-lsp-settings",
     "mdn/browser-compat-data",

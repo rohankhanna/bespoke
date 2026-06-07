@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 419,
-    "concepts": 615,
-    "observations": 619,
-    "repos": 134,
-    "terms": 614
+    "components": 439,
+    "concepts": 625,
+    "observations": 629,
+    "repos": 137,
+    "terms": 624
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
     "Advocate99/DiffGesture",
+    "AgentR1/Claw-R1",
     "AGI-Arena/MARS",
     "aigc3d/LHM-plusplus",
     "aiming-lab/AutoHarness",
@@ -93,6 +94,7 @@
     "mlcommons/algorithmic-efficiency",
     "mondeja/mkdocs-include-markdown-plugin",
     "MontrealCorpusTools/mfa-models",
+    "mosaicml/diffusion",
     "mr-fatalyst/fastopenapi",
     "mtkennerly/dunamai",
     "neavo/KeywordGacha",
@@ -107,6 +109,7 @@
     "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "pappasam/jedi-language-server",
+    "PDFMathTranslate/PDFMathTranslate-next",
     "pfultz2/cget",
     "pnkraemer/matfree",
     "psf/pyperf",

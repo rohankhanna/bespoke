@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1071,
-    "concepts": 726,
-    "observations": 729,
-    "repos": 178,
-    "terms": 719
+    "components": 1081,
+    "concepts": 730,
+    "observations": 734,
+    "repos": 179,
+    "terms": 723
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -95,6 +95,7 @@
     "enjoy-digital/usb3_pipe",
     "ethereum/builder-specs",
     "facebookresearch/fairo",
+    "fanshiqing/grouped_gemm",
     "fredrikekre/Literate.jl",
     "fsharp/fslang-design",
     "fukamachi/fast-http",

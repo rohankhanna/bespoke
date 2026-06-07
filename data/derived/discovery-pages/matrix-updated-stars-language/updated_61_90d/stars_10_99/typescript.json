@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 633,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 31,
-    "terms": 110
+    "components": 601,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 30,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "acro5piano/kysely-migration-cli",
-    "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "aws-samples/aws-sdk-js-notes-app",

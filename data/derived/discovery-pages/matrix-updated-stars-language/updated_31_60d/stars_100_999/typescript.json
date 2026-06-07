@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6462,
-    "concepts": 1338,
-    "observations": 1340,
-    "repos": 215,
-    "terms": 1384
+    "components": 6425,
+    "concepts": 1327,
+    "observations": 1329,
+    "repos": 214,
+    "terms": 1373
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -74,7 +74,6 @@
     "electron-vite/vite-plugin-electron-renderer",
     "elizaos/elizaos.github.io",
     "elm-tooling/elm-language-client-vscode",
-    "elm-tooling/elm-language-server",
     "embroider-build/ember-auto-import",
     "embroider-build/embroider",
     "engine262/engine262",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2307,
-    "concepts": 1401,
-    "observations": 1407,
-    "repos": 401,
-    "terms": 1396
+    "components": 2275,
+    "concepts": 1394,
+    "observations": 1400,
+    "repos": 400,
+    "terms": 1389
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -37,7 +37,6 @@
     "AFD-Illinois/ebhlight",
     "agentclientprotocol/symposium-acp",
     "ai4colonoscopy/PraNet-V2",
-    "aiden0z/pptx-renderer",
     "aiKrice/homebrew-badgetizr",
     "AIWintermuteAI/whispercpp",
     "akarnokd/RxJavaFiberInterop",

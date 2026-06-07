@@ -3,7 +3,7 @@
     "components": 4372,
     "concepts": 2136,
     "observations": 2141,
-    "repos": 542,
+    "repos": 541,
     "terms": 2161
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0ghny/shellx",
@@ -380,7 +380,6 @@
     "lonewolf-jp/convopeq",
     "lxgw/LxgwWenKai-shared",
     "maltsev/html-minifiers-benchmark",
-    "marcindulak/learning-api-styles-gen-ai-experiments",
     "marcindulak/ralph-wiggum-bdd",
     "Mbed-TLS/mbedtls-framework",
     "Mbed-TLS/mbedtls-test",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 38,
-    "terms": 206
+    "components": 189,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 39,
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -24,6 +24,7 @@
     "delgan/loguru",
     "encode/httpx",
     "explosion/spaCy",
+    "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
     "FunAudioLLM/CosyVoice",

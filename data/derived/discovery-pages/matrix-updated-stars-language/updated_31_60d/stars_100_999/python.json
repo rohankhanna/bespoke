@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2512,
-    "concepts": 2397,
-    "observations": 2407,
-    "repos": 444,
-    "terms": 2402
+    "components": 2492,
+    "concepts": 2387,
+    "observations": 2397,
+    "repos": 441,
+    "terms": 2392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -24,7 +24,6 @@
     "agencyenterprise/PromptInject",
     "agenmod/immortal-skill",
     "agentclientprotocol/python-sdk",
-    "AgentR1/Claw-R1",
     "agentscope-ai/agentscope-runtime",
     "agentscope-ai/agentscope-samples",
     "agentscope-ai/Trinity-RFT",
@@ -302,7 +301,6 @@
     "mlc-ai/relax",
     "MME-Benchmarks/Video-MME-v2",
     "modelscope/DiffSynth-Engine",
-    "mosaicml/diffusion",
     "mosecorg/mosec",
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons-server",
@@ -340,7 +338,6 @@
     "OSU-NLP-Group/GUI-Agents-Paper-List",
     "pandas-dev/pandas-stubs",
     "patrick-kidger/optimistix",
-    "PDFMathTranslate/PDFMathTranslate-next",
     "pedronauck/skills",
     "petercorke/machinevision-toolbox-python",
     "PetervanLunteren/AddaxAI",

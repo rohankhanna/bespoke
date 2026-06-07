@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25352,
-    "concepts": 10827,
-    "observations": 10867,
-    "repos": 1044,
-    "terms": 10806
+    "components": 25339,
+    "concepts": 10825,
+    "observations": 10865,
+    "repos": 1043,
+    "terms": 10804
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -336,7 +336,6 @@
     "facebook/folly",
     "facebook/hermes",
     "facebook/hhvm",
-    "facebook/prophet",
     "facebook/relay",
     "facebook/rocksdb",
     "facebookresearch/dinov2",

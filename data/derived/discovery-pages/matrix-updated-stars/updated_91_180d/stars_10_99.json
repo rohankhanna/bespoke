@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2604,
-    "concepts": 1449,
-    "observations": 1455,
-    "repos": 550,
-    "terms": 1455
+    "components": 2636,
+    "concepts": 1456,
+    "observations": 1462,
+    "repos": 551,
+    "terms": 1462
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -49,6 +49,7 @@
     "agents-x-project/PyVision-RL",
     "AghayeCoder/TX-ThemeHub",
     "ahrvoje/numerics",
+    "aiden0z/pptx-renderer",
     "aigc3d/LAM_WebRender",
     "Alexandre-Delplanque/HerdNet",
     "alexellis/fstail",

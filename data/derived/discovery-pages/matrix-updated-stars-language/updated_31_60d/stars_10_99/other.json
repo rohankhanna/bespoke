@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2164,
-    "concepts": 1254,
-    "observations": 1258,
-    "repos": 320,
-    "terms": 1256
+    "components": 2167,
+    "concepts": 1259,
+    "observations": 1263,
+    "repos": 321,
+    "terms": 1261
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -55,6 +55,7 @@
     "aspect-build/rules_esbuild",
     "ast-grep/ast-grep.github.io",
     "atsushieno/android-ci-package-installer",
+    "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
     "avikeid2007/KaiROS-AI",

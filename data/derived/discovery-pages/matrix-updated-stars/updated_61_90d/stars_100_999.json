@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4675,
-    "concepts": 3002,
-    "observations": 3014,
-    "repos": 646,
-    "terms": 3004
+    "components": 4747,
+    "concepts": 3036,
+    "observations": 3049,
+    "repos": 652,
+    "terms": 3038
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -30,6 +30,7 @@
     "aerokube/moon",
     "afbjorklund/lima-gui",
     "agamm/claude-code-owasp",
+    "AgentR1/Claw-R1",
     "AgentTorch/AgentTorch",
     "AghayeCoder/tx-ui",
     "AGI-Arena/MARS",
@@ -175,6 +176,7 @@
     "cztomsik/ava",
     "d3/d3-format",
     "d3/d3-geo-polygon",
+    "dalance/ptags",
     "DanceTrack/DanceTrack",
     "Dao-AILab/causal-conv1d",
     "Dao-AILab/fast-hadamard-transform",
@@ -224,6 +226,7 @@
     "eliemichel/LearnWebGPU",
     "elixir-ecto/myxql",
     "elixir-sqlite/ecto_sqlite3",
+    "elm-tooling/elm-language-server",
     "emacs-rustic/rustic",
     "embeddedartistry/libc",
     "ember-cli/ember-exam",
@@ -243,6 +246,7 @@
     "facebookresearch/fairo",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
+    "fanshiqing/grouped_gemm",
     "FedericoPonzi/Horust",
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
@@ -444,6 +448,7 @@
     "mlcommons/algorithmic-efficiency",
     "mondeja/mkdocs-include-markdown-plugin",
     "MontrealCorpusTools/mfa-models",
+    "mosaicml/diffusion",
     "mosaicml/examples",
     "mourner/flatqueue",
     "mourner/kdbush",
@@ -503,6 +508,7 @@
     "PaddlePaddle/Paddle2ONNX",
     "PanAeon/vscode-tmgrammar-test",
     "pappasam/jedi-language-server",
+    "PDFMathTranslate/PDFMathTranslate-next",
     "pfultz2/cget",
     "phuslu/log",
     "PistonDevelopers/glfw-rs",

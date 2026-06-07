@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 33086,
-    "concepts": 19215,
-    "observations": 19283,
-    "repos": 2417,
-    "terms": 19271
+    "components": 33064,
+    "concepts": 19181,
+    "observations": 19249,
+    "repos": 2412,
+    "terms": 19237
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -1179,7 +1179,6 @@
     "joshmedeski/sesh",
     "jprichardson/node-fs-extra",
     "jpsim/SourceKitten",
-    "jpsim/Yams",
     "jquery/jquery-color",
     "jrblevin/markdown-mode",
     "jrsoftware/issrc",
@@ -1386,7 +1385,6 @@
     "mackron/miniaudio",
     "MacPaw/OpenAI",
     "macports/macports-ports",
-    "macvim-dev/macvim",
     "madneal/gshark",
     "magenta/ddsp",
     "MagicDuck/grug-far.nvim",
@@ -1413,7 +1411,6 @@
     "mathjax/MathJax-src",
     "matt1398/claude-devtools",
     "matter-labs/zksync",
-    "MattesGroeger/vim-bookmarks",
     "mattn/go-sqlite3",
     "mattn/vim-gist",
     "mattn/vim-lsp-settings",
@@ -1654,7 +1651,6 @@
     "NVIDIA/TransformerEngine",
     "NVIDIA/warp",
     "NVIDIAGameWorks/kaolin",
-    "nvie/git-toolbelt",
     "nvim-flutter/flutter-tools.nvim",
     "nvim-lua/plenary.nvim",
     "nvim-lualine/lualine.nvim",
@@ -2295,7 +2291,6 @@
     "unjs/unhead",
     "unslothai/notebooks",
     "unum-cloud/USearch",
-    "uptrace/bun",
     "uptrace/uptrace",
     "urwid/urwid",
     "usbarmory/tamago",

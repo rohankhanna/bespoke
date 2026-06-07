@@ -3,8 +3,8 @@
     "components": 31,
     "concepts": 42,
     "observations": 42,
-    "repos": 9,
-    "terms": 45
+    "repos": 10,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "docker-library/wordpress",
@@ -20,6 +20,7 @@
     "kward/shunit2",
     "lxgw/LxgwWenkaiGB",
     "matryer/xbar-plugins",
+    "nvie/git-toolbelt",
     "pgsty/pigsty",
     "trailofbits/claude-code-config",
     "zdharma-continuum/zinit"

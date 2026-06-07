@@ -3,7 +3,7 @@
     "components": 300,
     "concepts": 234,
     "observations": 234,
-    "repos": 89,
+    "repos": 88,
     "terms": 234
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -79,7 +79,6 @@
     "lemire/unicode_lipsum",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
-    "marcindulak/learning-api-styles-gen-ai-experiments",
     "Mbed-TLS/mbedtls-test",
     "mitchuski/agentprivacy-docs",
     "mozilla-mobile/fxios-ctl",

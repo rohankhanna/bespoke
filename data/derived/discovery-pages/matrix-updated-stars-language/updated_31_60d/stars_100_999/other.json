@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4553,
-    "concepts": 3446,
-    "observations": 3450,
-    "repos": 583,
-    "terms": 3461
+    "components": 4543,
+    "concepts": 3442,
+    "observations": 3445,
+    "repos": 582,
+    "terms": 3457
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -218,7 +218,6 @@
     "ethpandaops/ethereum-package",
     "EzequielRamis/zimdjson",
     "falcoframework/Falco",
-    "fanshiqing/grouped_gemm",
     "filecoin-project/FIPs",
     "firebase/FirebaseUI-Flutter",
     "FluxML/NNlib.jl",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4723,
-    "concepts": 2899,
-    "observations": 2912,
-    "repos": 503,
-    "terms": 2901
+    "components": 4745,
+    "concepts": 2933,
+    "observations": 2946,
+    "repos": 508,
+    "terms": 2935
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T06:03:26.903284+00:00",
+  "generated_at": "2026-06-07T07:49:32.718484+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "aaaaalexis/obsidian-cupertino",
@@ -256,6 +256,7 @@
     "jonmosco/kube-ps1",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
+    "jpsim/Yams",
     "jshttp/mime-types",
     "jsx-eslint/eslint-plugin-react",
     "JuliaDocs/Franklin.jl",
@@ -291,12 +292,14 @@
     "lunarmodules/busted",
     "lxgw/LxgwWenKai-Screen",
     "lxgw/LxgwWenkaiGB",
+    "macvim-dev/macvim",
     "madler/zlib",
     "mailru/easyjson",
     "manzaltu/claude-code-ide.el",
     "mapbox/delaunator",
     "markdoc/markdoc",
     "matryer/xbar-plugins",
+    "MattesGroeger/vim-bookmarks",
     "mattn/goreman",
     "mattpocock/ts-reset",
     "mattsse/chromiumoxide",
@@ -353,6 +356,7 @@
     "NVIDIA/dcgm-exporter",
     "NVIDIA/flownet2-pytorch",
     "NVIDIA/gdrcopy",
+    "nvie/git-toolbelt",
     "nvim-treesitter/nvim-treesitter-textobjects",
     "NVlabs/VILA",
     "objectbox/objectbox-java",
@@ -483,6 +487,7 @@
     "TypeStrong/ts-loader",
     "ufoym/deepo",
     "unitaryai/detoxify",
+    "uptrace/bun",
     "usbarmory/usbarmory",
     "vadimdemedes/pastel",
     "varvet/pundit",
