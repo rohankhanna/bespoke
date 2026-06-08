@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 301,
-    "concepts": 215,
-    "observations": 215,
-    "repos": 20,
-    "terms": 215
+    "components": 325,
+    "concepts": 224,
+    "observations": 224,
+    "repos": 21,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "actions-cool/test-issues-helper",
     "agent-sh/deslop",
@@ -23,6 +23,7 @@
     "fishballapp/inquirer-cli",
     "forcedotcom/dev-config",
     "graphql/community-wg",
+    "hchiam/code-inspiration",
     "hchiam/learning-js",
     "Level/read-stream",
     "Level/supports",

@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 247,
-    "observations": 248,
-    "repos": 48,
-    "terms": 247
+    "components": 405,
+    "concepts": 240,
+    "observations": 241,
+    "repos": 47,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
-    "abap2UI5-addons/sql-console",
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
     "amazon-ion/ion-cli",

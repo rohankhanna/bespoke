@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 16,
-    "terms": 59
+    "components": 48,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 17,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/tmux-tilit",
     "aiKrice/homebrew-badgetizr",
     "alchemiststudiosDOTai/harness-engineering",
     "beehive-lab/docker-tornadovm",
+    "ChainSafe/forest-iac",
     "clojure/brew-install",
     "coin-or-tools/ThirdParty-Mumps",
     "coin-or/coinbrew",

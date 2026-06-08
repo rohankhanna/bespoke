@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22588,
-    "concepts": 13209,
-    "observations": 13260,
-    "repos": 2278,
-    "terms": 13291
+    "components": 22513,
+    "concepts": 13191,
+    "observations": 13242,
+    "repos": 2269,
+    "terms": 13273
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -163,14 +163,10 @@
     "ankane/eps",
     "ankane/fastText-ruby",
     "ankane/informers",
-    "ankane/neighbor",
     "ankane/onnxruntime-ruby",
-    "ankane/prophet-ruby",
     "ankane/rover",
     "ankane/ruby-polars",
     "ankane/tokenizers-ruby",
-    "ankane/torch.rb",
-    "ankane/transformers-ruby",
     "anonrig/fast-querystring",
     "ansible-collections/kubernetes.core",
     "ansible/vscode-ansible",
@@ -380,7 +376,6 @@
     "bmad-code-org/bmad-module-game-dev-studio",
     "bnb-chain/bsc-snapshots",
     "bndtools/bnd",
-    "bnprks/BPCells",
     "boazsegev/iodine",
     "Boddlnagg/midir",
     "boj/redistore",
@@ -1738,7 +1733,6 @@
     "PFCCLab/PPOCRLabel",
     "phiat/claude-esp",
     "PhoenixZ810/RISEBench",
-    "photopea/UZIP.js",
     "php/doc-base",
     "php/doc-en",
     "phpstan/phpstan-src",
@@ -1784,7 +1778,6 @@
     "Project-MONAI/VISTA",
     "prometheus-community/ansible",
     "prometheus/common",
-    "prometheus/exporter-toolkit",
     "prove-rs/z3.rs",
     "proxy-wasm/proxy-wasm-rust-sdk",
     "proxytunnel/proxytunnel",
@@ -1846,7 +1839,6 @@
     "ray-x/guihua.lua",
     "raylib-extras/rlImGui",
     "raystack/meteor",
-    "RazrFalcon/memmap2-rs",
     "RcppCore/Rcpp",
     "RDFLib/pyLODE",
     "reactor/reactor-addons",
@@ -2288,7 +2280,6 @@
     "zip-rs/zip2",
     "zkcrypto/ff",
     "zkcrypto/group",
-    "zone-eu/zone-mta",
     "zopefoundation/RestrictedPython",
     "ztoben/assets-webpack-plugin"
   ]

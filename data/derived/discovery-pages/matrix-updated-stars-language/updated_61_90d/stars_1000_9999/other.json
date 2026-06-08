@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 680,
-    "concepts": 771,
-    "observations": 777,
-    "repos": 131,
-    "terms": 769
+    "components": 685,
+    "concepts": 778,
+    "observations": 784,
+    "repos": 132,
+    "terms": 776
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -23,6 +23,7 @@
     "ankane/ahoy_email",
     "ankane/chartkick",
     "ankane/groupdate",
+    "ankane/lockbox",
     "ardalis/Result",
     "arviz-devs/arviz",
     "athityakumar/colorls",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 446,
-    "concepts": 688,
-    "observations": 688,
-    "repos": 115,
-    "terms": 680
+    "components": 455,
+    "concepts": 699,
+    "observations": 699,
+    "repos": 116,
+    "terms": 691
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "AgentOps-AI/agentops",
@@ -72,6 +72,7 @@
     "Knio/dominate",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
+    "LorenEteval/Furious",
     "michaelfeil/infinity",
     "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "microsoft/MInference",

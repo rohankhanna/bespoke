@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10643,
-    "concepts": 4999,
-    "observations": 5021,
-    "repos": 1171,
-    "terms": 5045
+    "components": 10649,
+    "concepts": 4995,
+    "observations": 5017,
+    "repos": 1168,
+    "terms": 5041
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -24,6 +24,7 @@
     "8144225309/SuperScalar",
     "a2aproject/a2a-tck",
     "AarshBatra/biteSizedAQ",
+    "abap2UI5-addons/sql-console",
     "abap2UI5/samples",
     "abarisani/abarisani.github.io",
     "AbdelrhmanHamouda/locust-k8s-operator",
@@ -104,12 +105,9 @@
     "ankane/blazer-dev",
     "ankane/blazer-docker",
     "ankane/delta-ruby",
-    "ankane/gslr",
     "ankane/iceberg-ruby",
     "ankane/libmf-ruby",
-    "ankane/lightgbm-ruby",
     "ankane/neighbor-redis",
-    "ankane/neighbor-s3",
     "ankane/safetensors-ruby",
     "ankane/trove",
     "ankitpokhrel/shopctl",
@@ -271,7 +269,6 @@
     "celo-org/social-connect",
     "cgrindel/bazel-starlib",
     "chainguard-dev/rules_apko",
-    "ChainSafe/forest-iac",
     "channel-io/ch-tts-llasa-rl-grpo",
     "chaos2cured/freelattice",
     "chaoss/grimoirelab-sortinghat",

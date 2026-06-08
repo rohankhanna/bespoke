@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1289,
-    "concepts": 816,
-    "observations": 818,
-    "repos": 93,
-    "terms": 798
+    "components": 1283,
+    "concepts": 812,
+    "observations": 814,
+    "repos": 92,
+    "terms": 794
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ag2s20150909/TTS",
@@ -79,7 +79,6 @@
     "PortAudio/portaudio",
     "preservim/tagbar",
     "pure-data/pure-data",
-    "PyAV-Org/PyAV",
     "python-versioneer/python-versioneer",
     "reubeno/brush",
     "scop/bash-completion",

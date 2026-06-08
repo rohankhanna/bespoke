@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1380,
-    "concepts": 1397,
-    "observations": 1400,
-    "repos": 250,
-    "terms": 1389
+    "components": 1370,
+    "concepts": 1395,
+    "observations": 1398,
+    "repos": 249,
+    "terms": 1387
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -43,7 +43,6 @@
     "BirolLab/abyss",
     "bitcoin-core/gui",
     "Blosc/c-blosc2",
-    "bnprks/BPCells",
     "boazsegev/iodine",
     "BoosterRobotics/booster_robotics_sdk",
     "boostorg/math",

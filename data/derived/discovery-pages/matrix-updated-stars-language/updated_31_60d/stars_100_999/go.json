@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1643,
-    "concepts": 1410,
-    "observations": 1417,
-    "repos": 202,
-    "terms": 1418
+    "components": 1636,
+    "concepts": 1404,
+    "observations": 1411,
+    "repos": 201,
+    "terms": 1412
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -182,7 +182,6 @@
     "pires/go-proxyproto",
     "prehisle/relay-pulse",
     "prometheus/common",
-    "prometheus/exporter-toolkit",
     "pulumi/pulumi-aws",
     "pulumi/pulumi-azure",
     "pulumi/pulumi-azure-native",

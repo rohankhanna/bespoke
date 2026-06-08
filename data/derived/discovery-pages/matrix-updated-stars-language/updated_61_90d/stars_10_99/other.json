@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 371,
-    "observations": 373,
-    "repos": 112,
-    "terms": 369
+    "components": 383,
+    "concepts": 376,
+    "observations": 378,
+    "repos": 115,
+    "terms": 374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -27,6 +27,9 @@
     "am-kantox/md",
     "ankane/AnomalyDetection.rb",
     "ankane/drill-ruby",
+    "ankane/gslr",
+    "ankane/lightgbm-ruby",
+    "ankane/neighbor-s3",
     "ankane/nlopt-ruby",
     "ankane/torchaudio-ruby",
     "apache/pdfbox-docs",

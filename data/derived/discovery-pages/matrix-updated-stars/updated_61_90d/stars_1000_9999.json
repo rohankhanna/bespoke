@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5094,
-    "concepts": 3111,
-    "observations": 3124,
-    "repos": 541,
-    "terms": 3119
+    "components": 5111,
+    "concepts": 3140,
+    "observations": 3153,
+    "repos": 544,
+    "terms": 3148
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "aaaaalexis/obsidian-cupertino",
@@ -39,6 +39,7 @@
     "ankane/ahoy_email",
     "ankane/chartkick",
     "ankane/groupdate",
+    "ankane/lockbox",
     "antfu-collective/vite-ssg",
     "antfu/vitesse-nuxt",
     "anvaka/panzoom",
@@ -128,6 +129,7 @@
     "darccio/mergo",
     "dart-lang/http",
     "databricks/megablocks",
+    "Dav1dde/glad",
     "DavBfr/dart_pdf",
     "David-OConnor/pyflow",
     "davidbyttow/govips",
@@ -311,6 +313,7 @@
     "lltcggie/waifu2x-caffe",
     "lobehub/lobe-chat-agents",
     "lobehub/lobe-icons",
+    "LorenEteval/Furious",
     "luarocks/luarocks",
     "lunarmodules/busted",
     "lxgw/LxgwWenKai-Screen",

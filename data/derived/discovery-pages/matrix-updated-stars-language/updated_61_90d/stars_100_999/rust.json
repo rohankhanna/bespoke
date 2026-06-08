@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 199,
-    "observations": 203,
-    "repos": 46,
-    "terms": 199
+    "components": 243,
+    "concepts": 200,
+    "observations": 204,
+    "repos": 47,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
@@ -50,6 +50,7 @@
     "posit-dev/air",
     "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
+    "RazrFalcon/memmap2-rs",
     "rust-analyzer/rowan",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",

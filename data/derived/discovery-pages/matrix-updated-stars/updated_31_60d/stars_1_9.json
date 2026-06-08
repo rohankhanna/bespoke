@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4363,
-    "concepts": 2141,
-    "observations": 2146,
-    "repos": 538,
-    "terms": 2168
+    "components": 4339,
+    "concepts": 2128,
+    "observations": 2133,
+    "repos": 536,
+    "terms": 2155
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -290,7 +290,6 @@
     "haskell-actions/hlint-run",
     "haskell-actions/hlint-setup",
     "haskell/ghcup-www",
-    "hchiam/code-inspiration",
     "hchiam/hchiam.github.io",
     "hchiam/how-draggable",
     "hecrj/llama-server",
@@ -353,7 +352,6 @@
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "knopp/native_toolchain_ninja",
     "KnotUntied/scoop-fonts",
-    "konnov/apalache-examples",
     "konsoletyper/teavm-site",
     "ksxnodemodules/static-type-assert",
     "ksylvan/fabric",

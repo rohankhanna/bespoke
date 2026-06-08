@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 3804,
-    "concepts": 2066,
-    "observations": 2072,
-    "repos": 284,
-    "terms": 2038
+    "components": 3779,
+    "concepts": 2055,
+    "observations": 2061,
+    "repos": 282,
+    "terms": 2027
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
     "567-labs/instructor",
     "Aayushm24/presidential-briefing",
-    "abap2UI5-addons/sql-console",
     "academic/awesome-datascience",
     "AdaptiveCpp/AdaptiveCpp",
     "ADNTIO/crispy-bootloader-rp2040-rs",
@@ -231,7 +230,6 @@
     "processing/processing-website",
     "protocolbuffers/protobuf",
     "pure-data/pure-data",
-    "PyAV-Org/PyAV",
     "pyg-team/pytorch_geometric",
     "pyOpenSci/software-submission",
     "pypa/setuptools-scm",

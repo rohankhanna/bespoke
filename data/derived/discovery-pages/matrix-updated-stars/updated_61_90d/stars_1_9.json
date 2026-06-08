@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 925,
-    "concepts": 564,
-    "observations": 565,
-    "repos": 170,
-    "terms": 554
+    "components": 949,
+    "concepts": 577,
+    "observations": 578,
+    "repos": 172,
+    "terms": 567
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "10up/.github",
@@ -116,6 +116,7 @@
     "gost-dom/shaman",
     "graphql/community-wg",
     "guoqingbao/flashattn.rs",
+    "hchiam/code-inspiration",
     "hchiam/convenience",
     "hchiam/learning-bash-scripts",
     "hchiam/learning-gh",
@@ -127,6 +128,7 @@
     "jrsoftware/isscint",
     "justinfx/olric-nats-plugin",
     "KabakaWilliam/trajectorykit",
+    "konnov/apalache-examples",
     "lab-cosmo/.github",
     "langchain-ai/.github",
     "ldayton/parable",

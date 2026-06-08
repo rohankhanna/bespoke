@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4871,
-    "concepts": 3124,
-    "observations": 3139,
-    "repos": 668,
-    "terms": 3129
+    "components": 4946,
+    "concepts": 3142,
+    "observations": 3157,
+    "repos": 677,
+    "terms": 3147
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -62,6 +62,10 @@
     "ankane/faiss-ruby",
     "ankane/hightop",
     "ankane/mailkick",
+    "ankane/neighbor",
+    "ankane/prophet-ruby",
+    "ankane/torch.rb",
+    "ankane/transformers-ruby",
     "ankane/vega-ruby",
     "ankane/xgboost-ruby",
     "antfu-collective/bumpp",
@@ -116,6 +120,7 @@
     "BKWLD/laravel-pug",
     "bluesky-social/goat",
     "bluespec/Toooba",
+    "bnprks/BPCells",
     "borkdude/edamame",
     "borkdude/quickdoc",
     "bradleyfalzon/ghinstallation",
@@ -525,6 +530,7 @@
     "pappasam/jedi-language-server",
     "PDFMathTranslate/PDFMathTranslate-next",
     "pfultz2/cget",
+    "photopea/UZIP.js",
     "phuslu/log",
     "PistonDevelopers/glfw-rs",
     "pnkraemer/matfree",
@@ -532,6 +538,7 @@
     "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "projectfluent/fluent.js",
+    "prometheus/exporter-toolkit",
     "proper-testing/proper",
     "protocolbuffers/protobuf-javascript",
     "psf/pyperf",
@@ -548,6 +555,7 @@
     "r-lib/styler",
     "rails/execjs",
     "raysan5/raylib-games",
+    "RazrFalcon/memmap2-rs",
     "RDFLib/OWL-RL",
     "reactwg/react-native-releases",
     "refresh-bio/KMC",
@@ -680,6 +688,7 @@
     "yoxu515/aot-benchmark",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zai-org/z-ai-sdk-python",
-    "zhijian-liu/torchprofile"
+    "zhijian-liu/torchprofile",
+    "zone-eu/zone-mta"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2217,
-    "concepts": 1277,
-    "observations": 1281,
-    "repos": 322,
-    "terms": 1279
+    "components": 2232,
+    "concepts": 1279,
+    "observations": 1283,
+    "repos": 320,
+    "terms": 1281
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
+    "abap2UI5-addons/sql-console",
     "abap2UI5/samples",
     "abarisani/abarisani.github.io",
     "abe-101/myHebrewDates",
@@ -34,11 +35,8 @@
     "angular/angular-devkit-build-angular-builds",
     "ankane/blazer-dev",
     "ankane/blazer-docker",
-    "ankane/gslr",
     "ankane/libmf-ruby",
-    "ankane/lightgbm-ruby",
     "ankane/neighbor-redis",
-    "ankane/neighbor-s3",
     "ankane/trove",
     "apache/arrow-dotnet",
     "apache/ignite-website",

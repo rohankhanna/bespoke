@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3590,
-    "concepts": 4052,
-    "observations": 4064,
+    "components": 3587,
+    "concepts": 4045,
+    "observations": 4057,
     "repos": 482,
-    "terms": 4043
+    "terms": 4036
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "6551Team/opennews-mcp",
@@ -257,7 +257,6 @@
     "llamastack/llama-stack",
     "LLaVA-VL/LLaVA-NeXT",
     "lmcinnes/umap",
-    "LorenEteval/Furious",
     "LoRexxar/Kunlun-M",
     "ltdrdata/ComfyUI-Impact-Pack",
     "lucidrains/x-transformers",
@@ -367,6 +366,7 @@
     "praw-dev/praw",
     "PrimeIntellect-ai/prime-rl",
     "Project-MONAI/MONAI",
+    "PyAV-Org/PyAV",
     "pyca/cryptography",
     "pycontribs/jira",
     "PyCQA/bandit",

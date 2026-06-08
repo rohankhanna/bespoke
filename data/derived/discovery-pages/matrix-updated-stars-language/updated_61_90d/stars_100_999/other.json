@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1010,
-    "concepts": 728,
-    "observations": 732,
-    "repos": 179,
-    "terms": 721
+    "components": 1022,
+    "concepts": 735,
+    "observations": 739,
+    "repos": 183,
+    "terms": 728
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -27,6 +27,10 @@
     "ankane/blind_index",
     "ankane/hightop",
     "ankane/mailkick",
+    "ankane/neighbor",
+    "ankane/prophet-ruby",
+    "ankane/torch.rb",
+    "ankane/transformers-ruby",
     "ankane/vega-ruby",
     "ankane/xgboost-ruby",
     "ApolloScapeAuto/dataset-api",

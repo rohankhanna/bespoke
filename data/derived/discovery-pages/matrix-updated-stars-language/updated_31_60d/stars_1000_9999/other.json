@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4067,
-    "concepts": 3667,
-    "observations": 3688,
-    "repos": 494,
-    "terms": 3651
+    "components": 4062,
+    "concepts": 3660,
+    "observations": 3681,
+    "repos": 493,
+    "terms": 3644
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -41,7 +41,6 @@
     "androidx/androidx",
     "AngleSharp/AngleSharp",
     "ankane/blazer",
-    "ankane/lockbox",
     "ankane/pghero",
     "AnswerDotAI/fastcore",
     "apache/parquet-format",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 32816,
-    "concepts": 19005,
-    "observations": 19073,
-    "repos": 2376,
-    "terms": 19055
+    "components": 32805,
+    "concepts": 18980,
+    "observations": 19048,
+    "repos": 2374,
+    "terms": 19030
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T06:10:34.032595+00:00",
+  "generated_at": "2026-06-08T08:17:12.068845+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -135,7 +135,6 @@
     "angr/angr-management",
     "angular-eslint/angular-eslint",
     "ankane/blazer",
-    "ankane/lockbox",
     "ankane/pghero",
     "AnotiaWang/deep-research-web-ui",
     "ansible/ansible-lint",
@@ -586,7 +585,6 @@
     "datadog/guarddog",
     "datajuicer/data-juicer",
     "dathere/qsv",
-    "Dav1dde/glad",
     "DavHau/nix-portable",
     "DavidAnson/markdownlint",
     "day8/re-frame",
@@ -1341,7 +1339,6 @@
     "lobehub/sd-webui-lobe-theme",
     "lobsters/lobsters",
     "logseq/awesome-logseq",
-    "LorenEteval/Furious",
     "LoRexxar/Kunlun-M",
     "lowRISC/opentitan",
     "Loyalsoldier/geoip",
@@ -1811,6 +1808,7 @@
     "purcell/exec-path-from-shell",
     "puremourning/vimspector",
     "pyannote/pyannote-audio",
+    "PyAV-Org/PyAV",
     "pyca/cryptography",
     "pycontribs/jira",
     "PyCQA/bandit",
