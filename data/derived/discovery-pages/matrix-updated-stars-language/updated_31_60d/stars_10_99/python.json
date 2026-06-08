@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 894,
-    "concepts": 643,
-    "observations": 645,
-    "repos": 175,
-    "terms": 656
+    "components": 844,
+    "concepts": 602,
+    "observations": 604,
+    "repos": 166,
+    "terms": 615
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
@@ -28,7 +28,6 @@
     "aiagenta2z/mcp-marketplace",
     "AIM-Harvard/DINOv2-3D-Med",
     "All-Hands-AI/OpenHands-Cloud",
-    "allenai/beaker-gantry",
     "allenai/cached_path",
     "allenai/scirepeval",
     "AMD-AGI/torchtitan-amd",
@@ -53,7 +52,6 @@
     "beclab/apps",
     "bghira/CaptionFlow",
     "braelyn-ai/mob",
-    "browser-use/benchmark",
     "bufbuild/protovalidate-python",
     "caketop/python-starlark-go",
     "carstencodes/pdm-bump",
@@ -62,8 +60,6 @@
     "castorini/umbrela",
     "cdeust/cortex",
     "channel-io/ch-tts-llasa-rl-grpo",
-    "chaoss/grimoirelab-elk",
-    "chaoss/grimoirelab-sirmordred",
     "chaoss/grimoirelab-sortinghat",
     "chengzhag/PanFlow",
     "cloudartisan/cloudartisan.github.io",
@@ -102,10 +98,7 @@
     "Hiroshiba/voicevox_engine",
     "HKU-BAL/Clair3-RNA",
     "HKU-BAL/ClairS-TO",
-    "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
-    "HyperionGray/trio-chrome-devtools-protocol",
-    "iamsashank09/llm-wiki-kit",
     "IcyFish332/T3RL",
     "instadeepai/fastpbrl",
     "jfly/shtuff",
@@ -114,10 +107,8 @@
     "kserve/community",
     "lace/polliwog",
     "lblankl/Short-RL",
-    "LedgerHQ/ledgerctl",
     "LedgerHQ/ragger",
     "lhj5426/YSG",
-    "libp2p/test-plans",
     "Looong01/pyg-rocm-build",
     "mayeut/pep600_compliance",
     "mborgerson/bintrace",

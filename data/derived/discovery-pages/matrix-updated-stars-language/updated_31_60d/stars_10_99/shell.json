@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 293,
-    "concepts": 332,
-    "observations": 335,
-    "repos": 67,
-    "terms": 329
+    "components": 289,
+    "concepts": 328,
+    "observations": 331,
+    "repos": 65,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
-    "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
@@ -37,7 +36,6 @@
     "cloudfoundry/cf-deployment-concourse-tasks",
     "cloudfoundry/jumpbox-deployment",
     "conda-forge/pinocchio-feedstock",
-    "conda-forge/poppler-feedstock",
     "confluentinc/cp-demo",
     "containers/automation",
     "containers/automation_images",

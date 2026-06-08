@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 547,
-    "concepts": 340,
-    "observations": 341,
-    "repos": 141,
-    "terms": 337
+    "components": 549,
+    "concepts": 344,
+    "observations": 345,
+    "repos": 142,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -53,6 +53,7 @@
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
     "devise-i18n/devise-i18n",
+    "dominique-unruh/scala-isabelle",
     "dspinellis/bibtools",
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",

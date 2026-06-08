@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 734,
-    "concepts": 884,
-    "observations": 886,
-    "repos": 90,
-    "terms": 881
+    "components": 723,
+    "concepts": 870,
+    "observations": 872,
+    "repos": 88,
+    "terms": 867
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
@@ -63,7 +63,6 @@
     "googleapis/google-cloud-java",
     "googleapis/google-http-java-client",
     "hazelcast/hazelcast",
-    "http-kit/http-kit",
     "iterate-ch/cyberduck",
     "jboss-javassist/javassist",
     "JetBrains/intellij-sdk-code-samples",
@@ -97,7 +96,6 @@
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples",
     "spring-projects/spring-ai",
-    "spring-projects/spring-restdocs",
     "sqlancer/sqlancer",
     "swagger-api/swagger-core",
     "testng-team/testng",

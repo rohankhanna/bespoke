@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 282,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 25,
-    "terms": 125
+    "components": 249,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 23,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "cloudfoundry/bosh-google-cpi-release",
@@ -21,7 +21,6 @@
     "geocompx/docker",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
-    "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
     "karafka/example-apps",
@@ -34,7 +33,6 @@
     "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
-    "skilld-dev/retriv",
     "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",
     "vaporif/parry-guard"

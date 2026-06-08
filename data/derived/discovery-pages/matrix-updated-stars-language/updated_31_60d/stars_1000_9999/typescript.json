@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11854,
-    "concepts": 2306,
-    "observations": 2312,
-    "repos": 282,
-    "terms": 2407
+    "components": 11767,
+    "concepts": 2289,
+    "observations": 2295,
+    "repos": 278,
+    "terms": 2384
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -105,7 +105,6 @@
     "eemeli/yaml",
     "electron/fiddle",
     "electron/forge",
-    "electron/windows-installer",
     "ElMassimo/iles",
     "emmetio/emmet",
     "enricoros/big-AGI",
@@ -124,7 +123,6 @@
     "frenic/csstype",
     "getsentry/xcodebuildmcp",
     "ggml-org/llama.vscode",
-    "google-gemini/starter-applets",
     "google/adk-js",
     "google/neuroglancer",
     "googleapis/release-please",
@@ -162,7 +160,6 @@
     "Kaliiiiiiiiii-Vinyzu/patchright",
     "kelektiv/node-cron",
     "kepano/defuddle",
-    "kirodotdev/Kiro",
     "kulshekhar/ts-jest",
     "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",
@@ -172,7 +169,6 @@
     "liam-hq/liam",
     "libp2p/js-libp2p",
     "liveblocks/liveblocks",
-    "lobehub/lobe-icons",
     "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "lukeautry/tsoa",

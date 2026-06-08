@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 443,
-    "observations": 444,
-    "repos": 80,
-    "terms": 439
+    "components": 261,
+    "concepts": 455,
+    "observations": 456,
+    "repos": 84,
+    "terms": 451
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
     "anacrolix/go-libutp",
+    "ankane/faiss-ruby",
     "apache/rocketmq-client-cpp",
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
@@ -27,6 +28,7 @@
     "btzy/nativefiledialog-extended",
     "CarlosDerSeher/snapclient",
     "charlesnicholson/nanoprintf",
+    "cloudwu/ltask",
     "containers/conmon",
     "CrystallineCore/Biscuit",
     "Dao-AILab/fast-hadamard-transform",
@@ -63,6 +65,7 @@
     "microsoft/jericho",
     "microsoft/xlang",
     "mikolmogorov/Flye",
+    "ml-explore/mlx-c",
     "mybigday/whisper.rn",
     "myfreeer/chrome-pak-customizer",
     "NetEase-FuXi/EETQ",
@@ -86,13 +89,14 @@
     "Tomas-M/iotop",
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
-    "usnistgov/trec_eval",
+    "triton-inference-server/dali_backend",
     "uxlfoundation/oneMath",
     "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",
     "webgpu-native/webgpu-headers",
+    "WojciechMula/toys",
     "xtensor-stack/xtensor-python"
   ]
 }

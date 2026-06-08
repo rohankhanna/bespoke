@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 130,
-    "observations": 131,
+    "components": 167,
+    "concepts": 135,
+    "observations": 136,
     "repos": 34,
-    "terms": 133
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
-    "aquasecurity/k8s-node-collector",
     "astro-han/diffpane",
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
@@ -40,13 +39,14 @@
     "hashicorp/vault-plugin-auth-kerberos",
     "hyperledger-labs/yui-relayer",
     "ionos-cloud/external-dns-ionos-webhook",
+    "ipfs/gateway-conformance",
     "kurrent-io/KurrentDB-Client-Go",
     "magodo/tfadd",
     "matelang/jwt-go-aws-kms",
     "opea-project/GenAIInfra",
     "OpenCIDN/ocimirror",
     "scaleway/serverless-examples",
-    "wzshiming/repimage",
+    "usbarmory/tamago-go",
     "yomidevs/yomitan-import"
   ]
 }

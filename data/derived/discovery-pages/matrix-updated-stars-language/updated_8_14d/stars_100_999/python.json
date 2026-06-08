@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 145,
-    "observations": 145,
-    "repos": 25,
-    "terms": 145
+    "components": 162,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 23,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
@@ -30,14 +30,12 @@
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
     "pypa/build",
-    "pyrtlsdr/pyrtlsdr",
     "readthedocs/commonmark.py",
     "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
-    "tox-dev/filelock",
-    "zh-plus/openlrc"
+    "tox-dev/filelock"
   ]
 }

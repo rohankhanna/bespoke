@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Python
 
-Generated at: `2026-06-07T07:49:32.718484+00:00`
+Generated at: `2026-06-08T06:10:34.032595+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
+- repos: 14
 - terms: 19
 - components: 12
 - concepts: 19
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [abbhisap/LLM-Council-SAP](https://github.com/abbhisap/LLM-Council-SAP) | 0 | 2026-03-09T11:39:49Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [samsja/dion](https://github.com/samsja/dion) | 0 | 2026-03-04T06:14:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ChiehHsinJesseLai/ctm-notebook](https://github.com/ChiehHsinJesseLai/ctm-notebook) | 0 | 2026-03-03T06:07:22Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -44,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [abbhisap/LLM-Council-SAP](https://github.com/abbhisap/LLM-Council-SAP) | 0 | 2026-03-09T11:39:49Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [samsja/dion](https://github.com/samsja/dion) | 0 | 2026-03-04T06:14:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ChiehHsinJesseLai/ctm-notebook](https://github.com/ChiehHsinJesseLai/ctm-notebook) | 0 | 2026-03-03T06:07:22Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |

@@ -3,7 +3,7 @@
     "components": 12,
     "concepts": 14,
     "observations": 14,
-    "repos": 4,
+    "repos": 6,
     "terms": 14
   },
   "facet_version": 1,
@@ -12,11 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "danielrosehill/Model-Scout-MCP",
     "frankkohlhepp/fancy-settings",
-    "illusionfield/fourseven-scss"
+    "illusionfield/fourseven-scss",
+    "onomojo/i18n-country-translations-data",
+    "onomojo/i18n-timezones-data"
   ]
 }

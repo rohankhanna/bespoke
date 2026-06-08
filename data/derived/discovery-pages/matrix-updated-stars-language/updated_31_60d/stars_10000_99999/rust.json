@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1464,
-    "concepts": 975,
-    "observations": 976,
-    "repos": 89,
-    "terms": 964
+    "components": 1456,
+    "concepts": 969,
+    "observations": 970,
+    "repos": 88,
+    "terms": 958
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -61,7 +61,6 @@
     "juspay/hyperswitch",
     "launchbadge/sqlx",
     "LemmyNet/lemmy",
-    "lsd-rs/lsd",
     "microsoft/windows-rs",
     "nearai/ironclaw",
     "openai/codex",

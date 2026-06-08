@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 852,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 60,
-    "terms": 252
+    "components": 967,
+    "concepts": 279,
+    "observations": 281,
+    "repos": 68,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -26,8 +26,9 @@
     "badgen/badgen",
     "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
-    "cmake-js/cmake-js",
+    "cjoudrey/graphql-schema-linter",
     "comme2e/comm",
+    "conventional-changelog/conventional-changelog-config-spec",
     "CyberAP/nanoid-dictionary",
     "d3/d3-format",
     "d3/d3-geo-polygon",
@@ -36,6 +37,10 @@
     "dwyl/learn-postgresql",
     "ember-cli/ember-exam",
     "executablebooks/sphinx-copybutton",
+    "fastify/create-fastify",
+    "fastify/example",
+    "fastify/fastify-cli",
+    "fastify/fastify-plugin",
     "fgnass/domino",
     "Fil/d3-geo-voronoi",
     "florajs/sql-parser",
@@ -45,8 +50,10 @@
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
+    "hyparam/hyparquet",
     "igvteam/igv.js",
     "ipld/explore.ipld.io",
+    "istanbuljs/babel-plugin-istanbul",
     "kharchenkolab/pagoda2",
     "kriszyp/cbor-x",
     "Level/abstract-level",
@@ -67,8 +74,9 @@
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
     "rtfeldman/node-test-runner",
+    "semantic-release/changelog",
+    "semantic-release/git",
     "sveltejs/svelte-loader",
-    "TeamMoeAI/MoeSR",
     "terraform-linters/setup-tflint",
     "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",

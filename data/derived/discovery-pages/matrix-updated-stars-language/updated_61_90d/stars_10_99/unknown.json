@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 27,
-    "observations": 27,
+    "components": 17,
+    "concepts": 26,
+    "observations": 26,
     "repos": 20,
-    "terms": 27
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "aloncarmel/supermeskill",
     "AppImage/AppImageSpec",
@@ -20,9 +20,8 @@
     "BAI-LAB/Survey-on-AI-Memory",
     "bmad-code-org/bmad-plugins-marketplace",
     "bpftrace/user-tools",
+    "cedar-policy/cedar-docs",
     "clearml/clearml-fractional-gpu",
-    "cncf/project-template",
-    "cncf/wg-networking",
     "collective/awesome-volto",
     "CommunitySpecification/Community_Specification",
     "cta-wave/WMAS",
@@ -33,6 +32,7 @@
     "marko-js/examples",
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
-    "operator-framework/community"
+    "operator-framework/community",
+    "uxlfoundation/open-source-working-group"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 858,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 45,
-    "terms": 131
+    "components": 877,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 47,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -21,6 +21,7 @@
     "asdf-vm/actions",
     "Calcium-Ion/neko-api-key-tool",
     "chaijs/deep-eql",
+    "cmake-js/cmake-js",
     "codota/tabnine-nvim",
     "dominikg/tsconfck",
     "dzeiocom/lucide-astro",
@@ -55,6 +56,7 @@
     "sindresorhus/multimatch",
     "stsquad/emacs_chrome",
     "svg-sprite/gulp-svg-sprite",
+    "TeamMoeAI/MoeSR",
     "testing-library/eslint-plugin-jest-dom",
     "tonyganch/gonzales-pe",
     "usnistgov/jsfive",

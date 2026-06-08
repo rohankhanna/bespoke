@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 42,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 40,
-    "terms": 79
+    "concepts": 76,
+    "observations": 76,
+    "repos": 42,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -25,6 +25,8 @@
     "cedar-policy/rfcs",
     "chaiNNer-org/chaiNNer-nightly",
     "cloudrepo-io/founder-os",
+    "cncf/project-template",
+    "cncf/wg-networking",
     "conda-forge/cfep",
     "datajuicer/data-juicer-hub",
     "dredozubov/prd-generator",

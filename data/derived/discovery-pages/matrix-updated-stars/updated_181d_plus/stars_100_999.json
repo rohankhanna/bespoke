@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15664,
-    "concepts": 14179,
-    "observations": 14207,
-    "repos": 4646,
-    "terms": 13953
+    "components": 15687,
+    "concepts": 14190,
+    "observations": 14218,
+    "repos": 4651,
+    "terms": 13964
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -491,6 +491,7 @@
     "astorfi/speechpy",
     "astrale-sharp/typstfmt",
     "astramind-ai/Mixture-of-depths",
+    "atanunq/viuer",
     "athena-team/athena",
     "atlassian/cz-lerna-changelog",
     "atlassian/lerna-semantic-release",
@@ -1011,6 +1012,7 @@
     "codefuse-ai/MFTCoder",
     "codefuse-ai/rodimus",
     "CodeGeeX/codegeex-vscode-extension",
+    "codeyu/nanoid-net",
     "codota/tabnine-sublime",
     "codota/tabnine-vim",
     "coffeefuelbump/csv-data-summarizer-claude-skill",
@@ -2017,6 +2019,7 @@
     "hermit-os/libhermit",
     "heroku/facebook-template-nodejs",
     "heroku/heroku-buildpack-multi",
+    "HerringtonDarkholme/yats.vim",
     "hexgrad/misaki",
     "hexrcs/wiki-cli",
     "hgourvest/superobject",
@@ -2532,6 +2535,7 @@
     "kikito/i18n.lua",
     "Kim2091/chaiNNer-Templates",
     "kimmobrunfeldt/git-hours",
+    "kingbri1/flash-attention",
     "kingler/n8n_agent",
     "kingoflolz/CLIP_JAX",
     "kingoflolz/swarm-jax",
@@ -2697,6 +2701,7 @@
     "libsndfile/libsamplerate",
     "lichengunc/MAttNet",
     "lichengunc/refer",
+    "lifeiteng/OmniSenseVoice",
     "ligershark/WebOptimizer",
     "likle/cwalk",
     "lil-lab/nlvr",

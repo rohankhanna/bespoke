@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 159,
-    "observations": 161,
-    "repos": 19,
-    "terms": 154
+    "components": 132,
+    "concepts": 163,
+    "observations": 165,
+    "repos": 22,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "AppFlowy-IO/AppFlowy",
     "datawhalechina/happy-llm",
     "devicons/devicon",
+    "facebookresearch/dinov2",
     "facebookresearch/dinov3",
     "facebookresearch/sam2",
     "fastai/fastai",
@@ -24,9 +25,11 @@
     "google/dopamine",
     "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
+    "JamesNK/Newtonsoft.Json",
     "koalaman/shellcheck",
     "Kong/kong",
     "LazyVim/LazyVim",
+    "microsoft/language-server-protocol",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "reasonml/reason",

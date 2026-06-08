@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2167,
-    "concepts": 1259,
-    "observations": 1263,
-    "repos": 321,
-    "terms": 1261
+    "components": 2217,
+    "concepts": 1277,
+    "observations": 1281,
+    "repos": 322,
+    "terms": 1279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -39,7 +39,6 @@
     "ankane/lightgbm-ruby",
     "ankane/neighbor-redis",
     "ankane/neighbor-s3",
-    "ankane/torchaudio-ruby",
     "ankane/trove",
     "apache/arrow-dotnet",
     "apache/ignite-website",
@@ -58,10 +57,10 @@
     "atsushieno/augene-ng",
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
+    "atsushieno/resident-midi-keyboard",
     "avikeid2007/KaiROS-AI",
     "awnist/cson-loader",
     "aws-otel/aws-otel.github.io",
-    "aws/amazon-sagemaker-examples-community",
     "Azure-Samples/openai-chat-app-entra-auth-local",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
@@ -84,6 +83,7 @@
     "chaos2cured/freelattice",
     "chef/chef-oss-practices",
     "cjdoris/PreferenceTools.jl",
+    "Cle2ment/CherryStudio_themes",
     "ClementPinard/FlowNetTorch",
     "cloudfoundry/bosh-aws-cpi-release",
     "cloudfoundry/bosh-azure-cpi-release",
@@ -91,7 +91,6 @@
     "cloudfoundry/uaa-release",
     "connectbot/termlib",
     "conservationtechlab/animl-r",
-    "Const-me/ComLightInterop",
     "controlplaneio-fluxcd/distribution",
     "countries/countries-data-json",
     "CuatroElixir/spear",
@@ -245,6 +244,7 @@
     "NVIDIA/DALI_extra",
     "NVIDIA/spark-rapids-tools",
     "ocaml-opam/opam2web",
+    "ocaml-tracing/ocaml-trace",
     "ocaml-tracing/ocaml-tracy",
     "ocurrent/docker-base-images",
     "ocurrent/obuilder",
@@ -319,6 +319,7 @@
     "status-im/nim-ssz-serialization",
     "steipete/homebrew-tap",
     "tc39/proposal-amount",
+    "TEN-framework/portal",
     "thedoggybrad/easylist-mirror",
     "theseyan/lmdbx-zig",
     "triton-inference-server/fil_backend",

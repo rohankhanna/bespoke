@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 293,
-    "concepts": 293,
-    "observations": 294,
+    "concepts": 285,
+    "observations": 286,
     "repos": 113,
-    "terms": 301
+    "terms": 293
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
     "abduznik/git-alchemist",
     "agents-x-project/PyVision-RL",
-    "Alexandre-Delplanque/HerdNet",
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
     "Alibaba-Quark/SSP",
@@ -103,6 +102,7 @@
     "philipy1219/ComfyUI-TaylorSeer",
     "rdb/panda3d-thirdparty",
     "ReneHollander/rep0st",
+    "richardodliu/OpenCodeEval",
     "saltstack/libnacl",
     "scaleway/serverless-gateway",
     "ServiceNow/webarena-verified",

@@ -1,22 +1,20 @@
 {
   "counts": {
-    "components": 1304,
-    "concepts": 606,
-    "observations": 607,
-    "repos": 91,
-    "terms": 603
+    "components": 1262,
+    "concepts": 577,
+    "observations": 578,
+    "repos": 90,
+    "terms": 574
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
-    "aannoo/hcom",
-    "aburch/simutrans",
     "agentic-box/memora",
     "Ai00-X/ai00_server",
     "alloy-rs/svm-rs",
@@ -29,6 +27,7 @@
     "apify/mcpc",
     "appwrite/playground-for-web",
     "atsushieno/aap-core",
+    "babashka/nbb",
     "bagofwords1/bagofwords",
     "bazel-contrib/rules_jvm_external",
     "benchflow-ai/benchflow",
@@ -53,7 +52,6 @@
     "g-plane/malva",
     "g-plane/markup_fmt",
     "gbionics/adam",
-    "gbionics/jaxsim",
     "Gnathonic/mokuro-reader",
     "google-deepmind/reverb",
     "google-deepmind/xmanager",
@@ -79,7 +77,6 @@
     "mll-lab-nu/VAGEN",
     "Nerivec/zigbee2mqtt-windfront",
     "nginx-le/nginx-le",
-    "nod-ai/AMD-SHARK-ModelDev",
     "nurikk/zigbee2mqtt-frontend",
     "nushell/reedline",
     "openbsd/ports",
@@ -88,12 +85,14 @@
     "perrygeo/python-rasterstats",
     "pyOpenSci/software-submission",
     "pypa/setuptools-scm",
+    "pyrtlsdr/pyrtlsdr",
     "python-poetry/poetry-plugin-export",
     "Rel1cx/eslint-react",
     "rescript-lang/reanalyze",
     "RiDDiX/home-assistant-matter-hub",
     "ROCm/rocBLAS",
     "satan53x/SExtractor",
+    "sbt/sbt-jmh",
     "serversideup/webext-bridge",
     "shawn0728/OpenSearch-VL",
     "specta-rs/specta",
@@ -101,8 +100,8 @@
     "TextArena/TextArena",
     "Waffle/waffle",
     "WICG/attribution-reporting-api",
-    "xdebug/vscode-php-debug",
     "yoshoku/llama_cpp.rb",
+    "zh-plus/openlrc",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

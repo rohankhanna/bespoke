@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 14,
-    "terms": 53
+    "components": 191,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 13,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
     "aidenlab/spacewalk",
@@ -25,7 +25,6 @@
     "redductive/securepixel",
     "saidudz/chat-ai",
     "similar-colpoxerosis201/codex-wechat",
-    "stdlib-js/dstructs-struct",
     "stdlib-js/ndarray-dtype-ctor",
     "tornikepe/ai-chatbot"
   ]

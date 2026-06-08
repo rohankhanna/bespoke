@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1649,
-    "concepts": 1414,
-    "observations": 1421,
-    "repos": 204,
-    "terms": 1422
+    "components": 1643,
+    "concepts": 1410,
+    "observations": 1417,
+    "repos": 202,
+    "terms": 1418
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
@@ -49,7 +49,6 @@
     "bernardo-bruning/ollama-copilot",
     "bitrise-io/bitrise",
     "bitrise-io/envman",
-    "bluesky-social/goat",
     "boj/redistore",
     "bufbuild/protovalidate-go",
     "buildpacks/lifecycle",
@@ -157,7 +156,6 @@
     "Layr-Labs/eigenda",
     "letsencrypt/pebble",
     "linxGnu/grocksdb",
-    "mailru/go-clickhouse",
     "maragudk/gomponents-starter-kit",
     "mattn/go-isatty",
     "mattn/go-runewidth",

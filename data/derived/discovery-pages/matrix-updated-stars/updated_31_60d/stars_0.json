@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 958,
-    "concepts": 383,
-    "observations": 383,
-    "repos": 266,
-    "terms": 412
+    "components": 883,
+    "concepts": 364,
+    "observations": 364,
+    "repos": 264,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -21,6 +21,7 @@
     "aaronlamz/navpress",
     "aaronrsun/spec-kit-issue",
     "aayushbhaskar/OpenCouncil",
+    "abdeladim-s/pywhispercpp",
     "abraxas-365/claudio-screenshot",
     "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
@@ -67,7 +68,6 @@
     "conda-forge/tianshou-feedstock",
     "conda-forge/versioneer-feedstock",
     "conda-forge/xeus-cpp-feedstock",
-    "csjgg/ags-cookbook",
     "csm-actions/demo-client",
     "Culmus/hebrew-fonts",
     "damacol/ai-hub",
@@ -82,7 +82,6 @@
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
-    "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -263,7 +262,6 @@
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
     "stable-haskell/haskell-language-server",
-    "stdlib-js/dstructs-struct",
     "stdlib-js/ndarray-dtype-ctor",
     "Strivin0311/strivin0311.github.io",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",

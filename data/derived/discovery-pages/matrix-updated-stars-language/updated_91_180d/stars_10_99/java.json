@@ -3,7 +3,7 @@
     "components": 58,
     "concepts": 72,
     "observations": 72,
-    "repos": 20,
+    "repos": 19,
     "terms": 71
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "Antibrumm/jackson-antpathfilter",
@@ -26,7 +26,6 @@
     "EXIficient/exificient-for-json",
     "google/tsunami-security-scanner-callback-server",
     "googleapis/java-bigquerystorage",
-    "hashicorp/hello-vault-spring",
     "JodaOrg/joda-time-hibernate",
     "jpmml/jpmml-transpiler",
     "langgraph4j/langgraph4j-examples",

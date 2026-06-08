@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 33,
-    "terms": 38
+    "components": 15,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 30,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "10up/.github",
     "2KAbhishek/BWnB",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
     "addfox/skills",
-    "autowarefoundation/.github",
-    "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",
     "csm-actions/docs",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/Agents-Index",
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Harnesses",
+    "danielrosehill/Architectural-Plans-Index",
     "danielrosehill/Awesome-Red-Alerts",
-    "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Hebrew-TTS-Providers",
     "danielrosehill/Homebox-Projects-Index",
@@ -44,7 +42,6 @@
     "llvm/torch-mlir-release",
     "newton-physics/newton-governance",
     "nttstar/insightface-resources",
-    "richgel999/junkdrawer",
     "ScoopInstaller/.github",
     "vega/.github"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 727,
-    "concepts": 1513,
-    "observations": 1515,
-    "repos": 865,
-    "terms": 1490
+    "concepts": 1521,
+    "observations": 1523,
+    "repos": 866,
+    "terms": 1498
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -77,6 +77,7 @@
     "akurniawan/pytorch-transformer",
     "alanshi/charset_mnbvc",
     "albertqjiang/Portal-to-ISAbelle",
+    "Alexandre-Delplanque/HerdNet",
     "AlexMaOLS/EluCD",
     "alexmirrington/base16-spectrum-generator",
     "alexmojaki/cheap_repr",

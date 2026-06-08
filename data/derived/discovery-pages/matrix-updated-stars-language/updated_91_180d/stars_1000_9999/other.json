@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 524,
-    "concepts": 597,
-    "observations": 600,
-    "repos": 117,
-    "terms": 600
+    "components": 547,
+    "concepts": 624,
+    "observations": 627,
+    "repos": 119,
+    "terms": 627
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -22,6 +22,7 @@
     "ankane/dexter",
     "ankane/pgslice",
     "ankane/pgsync",
+    "ardalis/ApiEndpoints",
     "artempyanykh/marksman",
     "auto-complete/auto-complete",
     "bakpakin/Fennel",
@@ -49,6 +50,7 @@
     "emacs-lsp/dap-mode",
     "emacs-lsp/lsp-ui",
     "erew123/alltalk_tts",
+    "ex-aws/ex_aws",
     "facebookresearch/co-tracker",
     "fairygui/FairyGUI-unity",
     "formtastic/formtastic",
@@ -74,7 +76,6 @@
     "jekip/naive-ui-admin",
     "joaotavora/eglot",
     "jpanther/congo",
-    "justinmk/vim-sneak",
     "kaminari/kaminari",
     "karb94/neoscroll.nvim",
     "kevinhwang91/nvim-ufo",
@@ -94,6 +95,7 @@
     "mono/CppSharp",
     "msasanmh/DNSveil",
     "myclabs/DeepCopy",
+    "nanxiaobei/hugo-paper",
     "nix-community/dream2nix",
     "nvim-java/nvim-java",
     "omniauth/omniauth",
@@ -101,6 +103,7 @@
     "onsails/lspkind.nvim",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
+    "pgpartman/pg_partman",
     "preservim/vimux",
     "pry/pry",
     "rafamadriz/friendly-snippets",
@@ -128,7 +131,6 @@
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "weichsel/ZIPFoundation",
-    "WICG/webcomponents",
     "woct0rdho/triton-windows",
     "yonaskolb/Mint"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 269,
-    "observations": 270,
-    "repos": 29,
-    "terms": 268
+    "components": 200,
+    "concepts": 253,
+    "observations": 254,
+    "repos": 28,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -41,7 +41,6 @@
     "rllm-org/rllm",
     "roboflow/maestro",
     "safetensors/safetensors",
-    "zhiyiYo/PyQt-Fluent-Widgets",
-    "zyddnys/manga-image-translator"
+    "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

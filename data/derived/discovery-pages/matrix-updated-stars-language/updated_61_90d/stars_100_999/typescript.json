@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1437,
-    "concepts": 319,
-    "observations": 319,
+    "components": 1488,
+    "concepts": 327,
+    "observations": 327,
     "repos": 52,
-    "terms": 328
+    "terms": 336
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "actions-cool/issues-helper",
@@ -40,10 +40,10 @@
     "filllabs/dependi",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
-    "h3js/rou3",
     "hazelcast/hazelcast-nodejs-client",
     "hyparam/hightable",
     "ivo-toby/mcp-openapi-server",
+    "jupyterlab/extension-examples",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
@@ -57,13 +57,13 @@
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
     "solidjs/templates",
+    "storybookjs/test-runner",
     "sudocode-ai/sudocode",
     "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
     "tracked-tools/tracked-built-ins",
     "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
-    "windingwind/zotero-plugin-template",
     "XantreDev/preact-signals",
     "y-lohse/inkjs"
   ]

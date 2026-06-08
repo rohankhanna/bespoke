@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 21,
-    "terms": 59
+    "components": 23,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 23,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
+    "adoptium/adoptium",
     "agamm/claude-code-owasp",
     "apple/device-management",
+    "attack68/rateslib",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
     "emberjs/core-notes",

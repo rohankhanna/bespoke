@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 86,
-    "observations": 88,
+    "components": 193,
+    "concepts": 97,
+    "observations": 99,
     "repos": 30,
-    "terms": 86
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -21,10 +21,9 @@
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
+    "cpmech/gemlab",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
-    "filecoin-project/blstrs",
-    "filecoin-project/rust-filecoin-proofs-api",
     "google/safe-mmio",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
@@ -33,7 +32,7 @@
     "lambdaclass/libssz",
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
-    "microsoft/tracing-etw",
+    "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",
@@ -42,6 +41,7 @@
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
     "sigp/rust-libp2p",
+    "synadia-io/orbit.rs",
     "Turbo87/flat-projection-rs",
     "Vaishnav-Sabari-Girish/Hayasen"
   ]

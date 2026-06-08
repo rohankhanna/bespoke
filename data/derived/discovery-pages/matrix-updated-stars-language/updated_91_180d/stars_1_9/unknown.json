@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 35,
-    "terms": 32
+    "components": 71,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 39,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "aaron-he-zhu/cite-domain-rating",
@@ -23,10 +23,13 @@
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
     "apollographql/.github",
+    "autowarefoundation/.github",
     "avivshafir/israeli-corporate-law-skill",
     "awni/picochat",
     "buttercannfly/AIPex",
+    "cncf/k8s-conformance-archive",
     "danielrosehill/AI-Model-Manager",
+    "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Development-Agents",
     "danielrosehill/Claude-Dork",
@@ -41,6 +44,7 @@
     "orlp/color-backtrace",
     "piebald-ai/.github",
     "psmux/scoop-tmuxpanel",
+    "richgel999/junkdrawer",
     "rose-pine/.github",
     "sigstore/.github",
     "simonpoole/geocontext",

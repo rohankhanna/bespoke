@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 632,
-    "concepts": 345,
-    "observations": 347,
-    "repos": 34,
-    "terms": 336
+    "components": 652,
+    "concepts": 358,
+    "observations": 360,
+    "repos": 35,
+    "terms": 351
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "academic/awesome-datascience",
     "ajv-validator/ajv",
+    "apache/brpc",
     "apache/casbin",
     "atuinsh/atuin",
     "blender/blender",
@@ -26,6 +27,7 @@
     "foliojs/pdfkit",
     "fuma-nama/fumadocs",
     "gitleaks/gitleaks",
+    "HIllya51/LunaTranslator",
     "isl-org/Open3D",
     "JetBrains/compose-multiplatform",
     "Kilo-Org/kilocode",
@@ -33,9 +35,7 @@
     "lint-staged/lint-staged",
     "lucide-icons/lucide",
     "meta-llama/llama-cookbook",
-    "mixmark-io/turndown",
     "modelcontextprotocol/typescript-sdk",
-    "modelscope/DiffSynth-Studio",
     "neovim/nvim-lspconfig",
     "nushell/nushell",
     "nvm-sh/nvm",
@@ -43,6 +43,7 @@
     "oobabooga/textgen",
     "protocolbuffers/protobuf",
     "pyg-team/pytorch_geometric",
+    "python-poetry/poetry",
     "realworld-apps/realworld",
     "RooCodeInc/Roo-Code",
     "rust-lang/mdBook",

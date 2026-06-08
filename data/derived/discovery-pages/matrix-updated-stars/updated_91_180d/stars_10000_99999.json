@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1064,
-    "concepts": 695,
-    "observations": 700,
-    "repos": 112,
-    "terms": 700
+    "components": 1069,
+    "concepts": 701,
+    "observations": 706,
+    "repos": 114,
+    "terms": 706
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -38,6 +38,7 @@
     "ComposioHQ/awesome-claude-skills",
     "containrrr/watchtower",
     "cool-RR/PySnooper",
+    "CorentinJ/Real-Time-Voice-Cloning",
     "datawhalechina/llm-universe",
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
@@ -102,6 +103,7 @@
     "rubocop/ruby-style-guide",
     "serde-rs/serde",
     "sharkdp/hyperfine",
+    "sirupsen/logrus",
     "slatedocs/slate",
     "snarktank/ralph",
     "songquanpeng/one-api",

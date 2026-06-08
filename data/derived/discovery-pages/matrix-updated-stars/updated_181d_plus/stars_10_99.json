@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 12093,
-    "concepts": 6965,
-    "observations": 6982,
-    "repos": 3303,
-    "terms": 6912
+    "concepts": 6973,
+    "observations": 6990,
+    "repos": 3306,
+    "terms": 6920
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -220,6 +220,7 @@
     "Alexander-r/box2d",
     "AlexanderKhazatsky/DROID",
     "alexanderscrimgeour/biogo",
+    "Alexandre-Delplanque/HerdNet",
     "alexandredavi/openssl-lambda-layer",
     "alexandreelise/frankenphp-joomla",
     "alexandrosstergiou/adaPool",
@@ -1584,6 +1585,7 @@
     "harvardnlp/genbmm",
     "hasansujon786/nvim-navbuddy",
     "hashberg-io/multiformats",
+    "hashicorp/hello-vault-spring",
     "hashintel/awesome-hash",
     "hashnuke/heroku-buildpack-elixir-otp-builds",
     "haskell-actions/run-ormolu",
@@ -3269,6 +3271,7 @@
     "ye4241/midjourney-captcha-bot",
     "yeyupiaoling/PaddlePaddle-MobileFaceNets",
     "yifan123/reward-server",
+    "ykdojo/cc-safe",
     "yklykl530/koa-sse",
     "ymoslem/Adaptive-MT-LLM",
     "ymoslem/Adaptive-MT-LLM-Fine-tuning",

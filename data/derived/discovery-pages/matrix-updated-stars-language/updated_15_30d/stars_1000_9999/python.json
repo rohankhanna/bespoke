@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 182,
-    "observations": 183,
+    "components": 141,
+    "concepts": 191,
+    "observations": 192,
     "repos": 23,
-    "terms": 177
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
     "copier-org/copier",
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
-    "funstory-ai/BabelDOC",
     "GalTransl/GalTransl",
     "ggozad/oterm",
     "google/budoux",
@@ -36,6 +35,7 @@
     "strob/gentle",
     "voicepaw/so-vits-svc-fork",
     "Xilinx/brevitas",
-    "zai-org/GLM-V"
+    "zai-org/GLM-V",
+    "zyddnys/manga-image-translator"
   ]
 }

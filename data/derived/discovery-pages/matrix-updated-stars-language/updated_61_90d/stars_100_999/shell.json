@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 16,
-    "terms": 64
+    "components": 69,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 17,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
     "aslafy-z/helm-git",
     "aws/aws-app-mesh-examples",
+    "chaoss/grimoirelab",
+    "crazy-max/xgo",
     "docker-library/hello-world",
-    "flinedev/contextkit",
     "github/super-linter",
     "helm/chart-testing-action",
     "heroku/heroku-buildpack-pgbouncer",

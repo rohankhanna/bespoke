@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2473,
-    "concepts": 1786,
-    "observations": 1793,
-    "repos": 236,
-    "terms": 1795
+    "components": 2465,
+    "concepts": 1779,
+    "observations": 1786,
+    "repos": 234,
+    "terms": 1788
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -66,7 +66,6 @@
     "crate-ci/typos",
     "crev-dev/cargo-crev",
     "cross-rs/cross",
-    "crossterm-rs/crossterm",
     "dalek-cryptography/curve25519-dalek",
     "databendlabs/openraft",
     "dathere/qsv",
@@ -162,7 +161,6 @@
     "obi1kenobi/cargo-semver-checks",
     "obi1kenobi/trustfall",
     "open-telemetry/opentelemetry-rust",
-    "openai/harmony",
     "paradigmxyz/reth",
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",

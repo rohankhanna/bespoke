@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 54,
-    "terms": 105
+    "components": 219,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 55,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -21,9 +21,11 @@
     "anchordotdev/puma-acme",
     "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
+    "aspect-build/rules_jasmine",
     "baskeboler/clj-karaoke-lyrics",
     "Blosc/PyData-Global-2025-Tutorial",
     "countries/countries-data-yaml",
+    "danielrosehill/Agentic-AI-Architecture-Visualisation",
     "elixir-makeup/makeup_erlang",
     "empriselab/kortex_description",
     "erwin-kok/multiformat",
@@ -53,7 +55,6 @@
     "open-rpc/markdown-gen",
     "parruda/ruby_llm",
     "retracedhq/logs-viewer",
-    "saddam213/OnnxStack",
     "shakacode/package_json",
     "Shopify/svg2vd",
     "stephanj/sonarlint-devoxxgenie-intellij",

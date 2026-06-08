@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2100,
-    "concepts": 1528,
-    "observations": 1534,
-    "repos": 158,
-    "terms": 1523
+    "components": 2108,
+    "concepts": 1531,
+    "observations": 1537,
+    "repos": 156,
+    "terms": 1525
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -64,7 +64,6 @@
     "drduh/YubiKey-Guide",
     "elixir-lang/elixir",
     "exelban/stats",
-    "facebookresearch/dinov2",
     "fastlane/fastlane",
     "getgrav/grav",
     "getlantern/lantern",
@@ -91,7 +90,6 @@
     "IBM/plex",
     "ImranR98/Obtainium",
     "isocpp/CppCoreGuidelines",
-    "JamesNK/Newtonsoft.Json",
     "jaywcjlove/linux-command",
     "jekyll/jekyll",
     "jellyfin/jellyfin",
@@ -115,12 +113,12 @@
     "metabase/metabase",
     "microsoft/ai-agents-for-beginners",
     "microsoft/fluentui-system-icons",
-    "microsoft/language-server-protocol",
     "microsoft/mcp-for-beginners",
     "microsoft/OmniParser",
     "microsoft/semantic-kernel",
     "microsoft/vcpkg",
     "mikepenz/MaterialDrawer",
+    "mixmark-io/turndown",
     "mmistakes/minimal-mistakes",
     "mozilla-mobile/firefox-ios",
     "MudBlazor/MudBlazor",

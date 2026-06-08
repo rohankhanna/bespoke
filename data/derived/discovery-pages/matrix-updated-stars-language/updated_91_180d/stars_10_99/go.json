@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 34,
-    "terms": 121
+    "components": 153,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 36,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "apache/incubator-seata-go-samples",
     "apache/incubator-seata-k8s",
+    "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
@@ -47,6 +48,7 @@
     "seaweedfs/seaweedfs-cosi-driver",
     "urfave/cli-altsrc",
     "worlpaker/go-syntax",
+    "wzshiming/repimage",
     "zoom/karpenter-oci"
   ]
 }

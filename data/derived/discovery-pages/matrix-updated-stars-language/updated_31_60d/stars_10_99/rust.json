@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 813,
-    "concepts": 514,
-    "observations": 515,
-    "repos": 117,
-    "terms": 527
+    "components": 792,
+    "concepts": 501,
+    "observations": 502,
+    "repos": 114,
+    "terms": 514
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -48,7 +48,6 @@
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
-    "cpmech/gemlab",
     "crate-ci/imperative",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
@@ -96,7 +95,6 @@
     "mrcjkb/vimcats",
     "multiformats/rust-cid",
     "napi-rs/mimalloc-safe",
-    "near/cargo-near",
     "near/cargo-near-new-project-template",
     "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
@@ -115,7 +113,6 @@
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
     "succinctlabs/sp1-cluster",
-    "synadia-io/orbit.rs",
     "Systemcluster/kitoken",
     "tianrking/weixin-agent-rs",
     "tofay/rustls-openssl",

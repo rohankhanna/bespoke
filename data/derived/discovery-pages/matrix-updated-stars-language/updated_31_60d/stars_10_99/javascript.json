@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1517,
-    "concepts": 408,
-    "observations": 410,
-    "repos": 95,
-    "terms": 408
+    "components": 1467,
+    "concepts": 393,
+    "observations": 395,
+    "repos": 93,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -26,7 +26,6 @@
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "coasys/ad4m",
-    "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
     "ehmicky/all-node-versions",
@@ -106,7 +105,6 @@
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
-    "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport",
     "wyyazlz/sheetnext"
   ]

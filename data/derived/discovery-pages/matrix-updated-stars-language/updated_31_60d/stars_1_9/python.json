@@ -3,7 +3,7 @@
     "components": 313,
     "concepts": 185,
     "observations": 185,
-    "repos": 77,
+    "repos": 75,
     "terms": 203
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
-    "agenmod/okr-skill",
     "AgnostiqHQ/covalent-executor-template",
     "aiidateam/plumpy",
     "andriykohut/pdm-readiness",
@@ -64,7 +63,6 @@
     "kelp/webdown",
     "lace/proximity",
     "lxgw/LxgwWenKai-shared",
-    "Mbed-TLS/mbedtls-framework",
     "meridianlabs-ai/inspect_harbor",
     "mlcommons/submissions_algorithms",
     "ModelCloud/Defuser",

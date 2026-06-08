@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 778,
-    "concepts": 620,
-    "observations": 628,
-    "repos": 186,
-    "terms": 612
+    "components": 782,
+    "concepts": 624,
+    "observations": 632,
+    "repos": 187,
+    "terms": 616
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -40,6 +40,7 @@
     "asg017/sqlite-xsv",
     "ashvardanian/less_slow.rs",
     "astrale-sharp/typstfmt",
+    "atanunq/viuer",
     "AtomaAI/atoma-infer",
     "Atome-FE/llama-node",
     "aweinstock314/rust-clipboard",

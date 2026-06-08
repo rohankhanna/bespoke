@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 8,
-    "terms": 53
+    "concepts": 69,
+    "observations": 69,
+    "repos": 9,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "dockur/windows",
     "githubnext/monaspace",
@@ -21,6 +21,7 @@
     "rbenv/rbenv",
     "romkatv/powerlevel10k",
     "sindresorhus/pure",
-    "sorin-ionescu/prezto"
+    "sorin-ionescu/prezto",
+    "zarazhangrui/frontend-slides"
   ]
 }

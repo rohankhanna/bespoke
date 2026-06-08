@@ -3,7 +3,7 @@
     "components": 63,
     "concepts": 23,
     "observations": 23,
-    "repos": 12,
+    "repos": 13,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "bgw/bincode",
     "databendlabs/iceberg-rust",
@@ -20,6 +20,7 @@
     "datafuse-extras/tantivy-jieba",
     "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
+    "firstbatchxyz/dkn-protocol",
     "Keats/os_info",
     "KSXGitHub/personal-crates",
     "kylebarron/pyo3-file",

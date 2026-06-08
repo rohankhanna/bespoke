@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2309,
-    "concepts": 3085,
-    "observations": 3092,
-    "repos": 975,
-    "terms": 3066
+    "components": 2314,
+    "concepts": 3086,
+    "observations": 3093,
+    "repos": 977,
+    "terms": 3067
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -236,6 +236,7 @@
     "CocoaPods/Rome",
     "cocos/cocos-example-dark-slash",
     "Codearte/gradle-nexus-staging-plugin",
+    "codeyu/nanoid-net",
     "cognitect-labs/anomalies",
     "cognitect-labs/fern",
     "cognitect-labs/test-runner",
@@ -420,6 +421,7 @@
     "HelgeSverre/toon-php",
     "helm/charts-repo-actions-demo",
     "Helsinki-NLP/Tatoeba-Challenge",
+    "HerringtonDarkholme/yats.vim",
     "hgourvest/superobject",
     "hgyhungry/ge-spmm",
     "hila-chefer/Transformer-MM-Explainability",

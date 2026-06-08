@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1376,
-    "concepts": 1401,
-    "observations": 1404,
-    "repos": 254,
-    "terms": 1393
+    "components": 1380,
+    "concepts": 1397,
+    "observations": 1400,
+    "repos": 250,
+    "terms": 1389
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
+    "aburch/simutrans",
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
     "actboy168/bee.lua",
@@ -24,7 +25,6 @@
     "alsa-project/alsa-lib",
     "amerkoleci/joltc",
     "ampl/mp",
-    "ankane/faiss-ruby",
     "antgroup/vsag",
     "apache/datasketches-cpp",
     "apache/iceberg-cpp",
@@ -55,7 +55,6 @@
     "cjlin1/libmf",
     "ClickHouse/clickhouse-cpp",
     "cloudflare/cloudflare-workers-wasm-demo",
-    "cloudwu/ltask",
     "cloudwu/soluna",
     "CloverLabsAI/camoufox",
     "coin-or/Cbc",
@@ -175,7 +174,6 @@
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
     "mitsuba-renderer/drjit-core",
-    "ml-explore/mlx-c",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
     "mybigday/llama.rn",
@@ -253,7 +251,6 @@
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/backend",
     "triton-inference-server/core",
-    "triton-inference-server/dali_backend",
     "triton-inference-server/onnxruntime_backend",
     "triton-inference-server/python_backend",
     "triton-inference-server/pytorch_backend",
@@ -265,7 +262,6 @@
     "uxlfoundation/oneDPL",
     "VectorDB-NTU/RaBitQ-Library",
     "wdas/ptex",
-    "WojciechMula/toys",
     "xiph/vorbis",
     "Yubico/libfido2"
   ]

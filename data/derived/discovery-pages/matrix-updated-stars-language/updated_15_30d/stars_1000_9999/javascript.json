@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 5,
-    "terms": 64
+    "components": 290,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 6,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "gildas-lormeau/zip.js",
     "GladysAssistant/Gladys",
-    "ipfs/ipfs-companion",
+    "ipfs/ipfs-webui",
     "jasonlong/isometric-contributions",
-    "WiseLibs/better-sqlite3"
+    "WiseLibs/better-sqlite3",
+    "yomidevs/yomitan"
   ]
 }

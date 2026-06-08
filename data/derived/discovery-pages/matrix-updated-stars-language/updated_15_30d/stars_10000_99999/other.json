@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 5,
-    "terms": 42
+    "components": 33,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 4,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "JetBrains/compose-multiplatform",
     "meta-llama/llama-cookbook",
-    "mixmark-io/turndown",
     "neovim/nvim-lspconfig",
     "SubtitleEdit/subtitleedit"
   ]

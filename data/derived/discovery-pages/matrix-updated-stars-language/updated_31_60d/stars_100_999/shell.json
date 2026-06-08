@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 394,
-    "observations": 398,
-    "repos": 70,
-    "terms": 400
+    "components": 273,
+    "concepts": 375,
+    "observations": 379,
+    "repos": 68,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -24,12 +24,10 @@
     "arangrhie/T2T-Polish",
     "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
-    "chaoss/grimoirelab",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
-    "crazy-max/xgo",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",

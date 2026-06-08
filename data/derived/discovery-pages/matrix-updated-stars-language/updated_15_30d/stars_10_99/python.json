@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 8,
-    "terms": 15
+    "components": 41,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 9,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "apify/actor-templates",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "google-marketing-solutions/ariel",
     "google-research/mseb",
     "goombalab/raven",
+    "intel-staging/text-generation-webui",
     "mesh-iit/cad-libraries",
     "version-fox/vfox-plugins",
     "yulewang97/ERDiff"

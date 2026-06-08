@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 621,
-    "concepts": 425,
-    "observations": 427,
-    "repos": 95,
-    "terms": 421
+    "components": 605,
+    "concepts": 415,
+    "observations": 417,
+    "repos": 94,
+    "terms": 411
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
@@ -62,6 +62,7 @@
     "ebitengine/debugui",
     "energye/cef",
     "energye/lcl",
+    "energye/wv",
     "EngFlow/gazelle_cc",
     "ethpandaops/xatu",
     "fgrehm/clotilde",
@@ -73,7 +74,6 @@
     "gopasspw/gopass-hibp",
     "hashicorp/hcp-sdk-go",
     "Infisical/go-sdk",
-    "ipfs/gateway-conformance",
     "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
     "Kong/kong-operator",
@@ -107,7 +107,6 @@
     "usbarmory/armory-ums",
     "usbarmory/GoTEE-example",
     "usbarmory/tamago-example",
-    "usbarmory/tamago-go",
     "usbarmory/tamago-sev-example"
   ]
 }

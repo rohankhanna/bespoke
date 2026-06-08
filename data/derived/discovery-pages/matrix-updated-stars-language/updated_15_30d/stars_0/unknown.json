@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 1,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
-    "abdeladim-s/pywhispercpp",
     "kleisauke/glib"
   ]
 }

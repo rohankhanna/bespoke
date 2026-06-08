@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1158,
-    "concepts": 803,
-    "observations": 805,
-    "repos": 92,
-    "terms": 785
+    "components": 1289,
+    "concepts": 816,
+    "observations": 818,
+    "repos": 93,
+    "terms": 798
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ag2s20150909/TTS",
@@ -23,6 +23,7 @@
     "ash-rs/ash",
     "ashvardanian/NumKong",
     "awslabs/aidlc-workflows",
+    "babashka/sci",
     "bazel-contrib/bazel-gazelle",
     "benchflow-ai/skillsbench",
     "can1357/oh-my-pi",
@@ -36,7 +37,6 @@
     "free-audio/clap",
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
-    "funstory-ai/BabelDOC",
     "FxEmbed/FxEmbed",
     "GalTransl/GalTransl",
     "getagentseal/codeburn",
@@ -47,11 +47,10 @@
     "google/oboe",
     "hacl-star/hacl-star",
     "hgmzhn/manga-translator-ui",
-    "intel/BigDL",
     "intelligent-machine-learning/dlrover",
     "intentee/paddler",
     "InternScience/GraphGen",
-    "ipfs/ipfs-companion",
+    "ipfs/ipfs-webui",
     "iree-org/iree",
     "jasonlong/isometric-contributions",
     "java-native-access/jna",
@@ -87,9 +86,9 @@
     "shareAI-lab/Kode-Agent",
     "shareAI-lab/Kode-CLI",
     "speaches-ai/speaches",
-    "stakira/OpenUtau",
     "standardrb/standard",
     "strob/gentle",
+    "tModLoader/tModLoader",
     "ufbx/ufbx",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
@@ -103,7 +102,9 @@
     "WiseLibs/better-sqlite3",
     "Xilinx/brevitas",
     "xoofx/markdig",
+    "yomidevs/yomitan",
     "yt-dlp/FFmpeg-Builds",
-    "zai-org/GLM-V"
+    "zai-org/GLM-V",
+    "zyddnys/manga-image-translator"
   ]
 }

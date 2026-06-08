@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 151,
-    "observations": 153,
-    "repos": 59,
-    "terms": 149
+    "components": 223,
+    "concepts": 153,
+    "observations": 155,
+    "repos": 62,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "acw/simple_asn1",
@@ -39,6 +39,8 @@
     "ethereum/eipw",
     "extism/rust-pdk",
     "fengkx/jieba-wasm",
+    "filecoin-project/blstrs",
+    "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "georust/wkt",
     "germangb/minimp3-rs",
@@ -57,6 +59,7 @@
     "loyd/fixnum",
     "LuisaGroup/luisa-compute-rs",
     "MaterializeInc/rust-postgres",
+    "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",

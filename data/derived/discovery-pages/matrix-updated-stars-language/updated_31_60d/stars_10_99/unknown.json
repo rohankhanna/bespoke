@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 177,
-    "observations": 178,
-    "repos": 59,
-    "terms": 176
+    "components": 177,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 57,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -24,7 +24,6 @@
     "canonical/ubuntu-security-notices",
     "cbuijs/hagezi",
     "cdxeve/awesome-computer-use-agents",
-    "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
     "containerd/project",
     "crewAIInc/skills",
@@ -69,7 +68,6 @@
     "tc39/proposal-duplicate-named-capturing-groups",
     "universal-ctags/ctags-nightly-build",
     "uxlfoundation/foundation",
-    "uxlfoundation/open-source-working-group",
     "w3c/accname",
     "w3c/core-aam",
     "webdriverio/awesome-webdriverio"

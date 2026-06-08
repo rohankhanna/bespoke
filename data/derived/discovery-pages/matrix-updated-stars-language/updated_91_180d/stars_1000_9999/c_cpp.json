@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 307,
-    "concepts": 406,
-    "observations": 407,
+    "components": 316,
+    "concepts": 410,
+    "observations": 411,
     "repos": 78,
-    "terms": 398
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -21,7 +21,6 @@
     "akheron/jansson",
     "arrayfire/arrayfire",
     "ashvardanian/less_slow.cpp",
-    "asmvik/skhd",
     "attractivechaos/klib",
     "bblanchon/ArduinoJson",
     "Blosc/c-blosc",
@@ -56,19 +55,20 @@
     "hku-mars/FAST-LIVO2",
     "hpjansson/chafa",
     "icecc/icecream",
+    "ioquake/ioq3",
     "jedisct1/minisign",
     "jkuhlmann/cgltf",
     "jlblancoc/nanoflann",
     "JoeDog/siege",
     "json-c/json-c",
     "kosua20/MIDIVisualizer",
+    "leethomason/tinyxml2",
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
     "libsndfile/libsndfile",
     "martinus/unordered_dense",
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
-    "MIT-SPARK/TEASER-plusplus",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "naelstrof/maim",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 241,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 16,
-    "terms": 89
+    "components": 188,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 12,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
-    "atsushieno/resident-midi-keyboard",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
-    "Cle2ment/CherryStudio_themes",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "FreneticLLC/FreneticGameEngine",
     "nvim-mini/mini.deps",
-    "ocaml-tracing/ocaml-trace",
     "processing/processing-website",
     "python-poetry/website",
     "rcasia/neotest-java",
-    "TEN-framework/portal",
     "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 5,
-    "terms": 58
+    "components": 60,
+    "concepts": 71,
+    "observations": 71,
+    "repos": 7,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
+    "apache/brpc",
     "blender/blender",
     "DayBreak-u/chineseocr_lite",
+    "HIllya51/LunaTranslator",
     "isl-org/Open3D",
     "obsproject/obs-studio",
     "protocolbuffers/protobuf"

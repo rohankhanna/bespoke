@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 822,
-    "observations": 822,
-    "repos": 219,
-    "terms": 813
+    "components": 385,
+    "concepts": 829,
+    "observations": 829,
+    "repos": 221,
+    "terms": 818
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -33,6 +33,7 @@
     "Artikash/Textractor",
     "asg017/sqlite-vss",
     "ashima/webgl-noise",
+    "asmvik/skhd",
     "astrand/xclip",
     "atomicobject/heatshrink",
     "baidu/braft",
@@ -148,6 +149,7 @@
     "microsoft/msix-packaging",
     "microsoft/Windows-Machine-Learning",
     "misyltoad/VPhysics-Jolt",
+    "MIT-SPARK/TEASER-plusplus",
     "mitsuba-renderer/enoki",
     "mitsuba-renderer/mitsuba",
     "mitsuba-renderer/mitsuba2",

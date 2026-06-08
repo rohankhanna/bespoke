@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 229,
-    "observations": 234,
-    "repos": 43,
-    "terms": 227
+    "components": 308,
+    "concepts": 236,
+    "observations": 241,
+    "repos": 45,
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",
     "BurntSushi/quickcheck",
     "chronotope/chrono",
+    "crossterm-rs/crossterm",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
     "dtolnay/proc-macro-workshop",
@@ -45,6 +46,7 @@
     "nabijaczleweli/cargo-update",
     "noib3/nvim-oxi",
     "not-fl3/macroquad",
+    "openai/harmony",
     "parcel-bundler/lightningcss",
     "Rust-SDL2/rust-sdl2",
     "servo/ipc-channel",

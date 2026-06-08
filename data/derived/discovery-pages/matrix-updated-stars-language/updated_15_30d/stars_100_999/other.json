@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 57,
-    "observations": 58,
-    "repos": 13,
-    "terms": 56
+    "components": 66,
+    "concepts": 69,
+    "observations": 70,
+    "repos": 15,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
+    "babashka/nbb",
     "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
     "dwyl/quotes",
@@ -26,6 +27,7 @@
     "lambdalisue/vim-nerdfont",
     "openbsd/ports",
     "rescript-lang/reanalyze",
+    "sbt/sbt-jmh",
     "WICG/attribution-reporting-api"
   ]
 }

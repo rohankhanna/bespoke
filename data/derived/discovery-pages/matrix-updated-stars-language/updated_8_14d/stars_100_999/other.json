@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 14,
-    "terms": 113
+    "components": 114,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 12,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
-    "babashka/nbb",
     "bazel-contrib/rules_kotlin",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
@@ -26,7 +25,6 @@
     "karafka/rdkafka-ruby",
     "meshcat-dev/meshcat",
     "redis/redis-om-dotnet",
-    "ROCm/hipBLASLt",
-    "sbt/sbt-jmh"
+    "ROCm/hipBLASLt"
   ]
 }

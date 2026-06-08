@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2136,
-    "concepts": 966,
-    "observations": 971,
-    "repos": 112,
-    "terms": 963
+    "components": 1870,
+    "concepts": 905,
+    "observations": 910,
+    "repos": 107,
+    "terms": 902
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
@@ -25,7 +25,6 @@
     "aws/karpenter-provider-aws",
     "aws/serverless-application-model",
     "babashka/babashka",
-    "babashka/sci",
     "bazel-contrib/rules_go",
     "beam-community/elixir-companies",
     "bitsandbytes-foundation/bitsandbytes",
@@ -66,7 +65,6 @@
     "hermit-os/hermit-rs",
     "huggingface/finetrainers",
     "huggingface/optimum-quanto",
-    "ipfs/ipfs-webui",
     "JuergenFleiss/aTrain",
     "JuliaPluto/Pluto.jl",
     "KhronosGroup/KTX-Software",
@@ -112,7 +110,6 @@
     "swiftlang/swift-llbuild",
     "swiftlang/swift-syntax",
     "TanStack/form",
-    "tModLoader/tModLoader",
     "TrenchBroom/TrenchBroom",
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
@@ -122,8 +119,6 @@
     "web-platform-tests/wpt",
     "webinstall/webi-installers",
     "xtensor-stack/xtensor",
-    "yomidevs/yomitan",
-    "zhiyiYo/PyQt-Fluent-Widgets",
-    "zyddnys/manga-image-translator"
+    "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

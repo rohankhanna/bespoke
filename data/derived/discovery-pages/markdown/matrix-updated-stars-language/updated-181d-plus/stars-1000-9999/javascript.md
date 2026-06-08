@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-07T07:49:32.718484+00:00`
+Generated at: `2026-06-08T06:10:34.032595+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 243
-- terms: 853
-- components: 4301
-- concepts: 859
-- observations: 860
+- repos: 244
+- terms: 866
+- components: 4316
+- concepts: 872
+- observations: 873
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [gautamkrishnar/nothing-private](https://github.com/gautamkrishnar/nothing-private) | 2213 | 2025-12-09T23:14:50Z | JavaScript | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [Blizzard/node-rdkafka](https://github.com/Blizzard/node-rdkafka) | 2204 | 2025-12-03T19:21:11Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [GoogleChromeLabs/jsvu](https://github.com/GoogleChromeLabs/jsvu) | 2026 | 2025-11-26T13:01:05Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) | 3841 | 2025-11-22T04:22:53Z | JavaScript | Infrastructure/tooling | 16 | 11 | 16 | 16 |
@@ -414,6 +415,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [astefanutti/kubebox](https://github.com/astefanutti/kubebox) | 2229 | 2024-06-17T13:05:26Z | JavaScript | CLI | 6 | 25 | 6 | 6 |
 | [jackspirou/clientjs](https://github.com/jackspirou/clientjs) | 2225 | 2023-01-08T17:39:54Z | JavaScript | Unknown | 0 | 27 | 0 | 0 |
 | [rehypejs/rehype](https://github.com/rehypejs/rehype) | 2214 | 2025-02-28T09:58:20Z | JavaScript | Infrastructure/tooling | 4 | 16 | 4 | 4 |
+| [gautamkrishnar/nothing-private](https://github.com/gautamkrishnar/nothing-private) | 2213 | 2025-12-09T23:14:50Z | JavaScript | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [Blizzard/node-rdkafka](https://github.com/Blizzard/node-rdkafka) | 2204 | 2025-12-03T19:21:11Z | JavaScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [28mm/blast-radius](https://github.com/28mm/blast-radius) | 2187 | 2024-08-14T12:38:03Z | JavaScript | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [bokub/chalk-animation](https://github.com/bokub/chalk-animation) | 2180 | 2022-11-13T10:59:52Z | JavaScript | CLI | 7 | 11 | 7 | 7 |

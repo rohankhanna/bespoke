@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 39,
-    "terms": 208
+    "components": 223,
+    "concepts": 224,
+    "observations": 224,
+    "repos": 42,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cookiecutter/cookiecutter",
-    "CorentinJ/Real-Time-Voice-Cloning",
+    "danielgatis/rembg",
     "deepinsight/insightface",
     "delgan/loguru",
+    "EleutherAI/lm-evaluation-harness",
     "encode/httpx",
     "explosion/spaCy",
     "facebook/prophet",
@@ -30,6 +31,7 @@
     "FunAudioLLM/CosyVoice",
     "google/python-fire",
     "gruns/icecream",
+    "hpcaitech/Open-Sora",
     "Huanshere/VideoLingo",
     "huggingface/open-r1",
     "huggingface/text-generation-inference",
@@ -43,6 +45,7 @@
     "openai/tiktoken",
     "OpenBMB/ChatDev",
     "PaddlePaddle/PaddleDetection",
+    "pallets/flask",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
     "QwenLM/Qwen3-Coder",

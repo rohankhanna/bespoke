@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10652,
-    "concepts": 9265,
-    "observations": 9277,
-    "repos": 2386,
-    "terms": 9132
+    "components": 10669,
+    "concepts": 9293,
+    "observations": 9305,
+    "repos": 2391,
+    "terms": 9158
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -196,6 +196,7 @@
     "ashima/webgl-noise",
     "ashkamath/mdetr",
     "askama-rs/askama-old",
+    "asmvik/skhd",
     "assemble/assemble",
     "astahmer/openapi-zod-client",
     "astefanutti/kubebox",
@@ -785,6 +786,7 @@
     "GaParmar/clean-fid",
     "GaParmar/img2img-turbo",
     "garbas/vim-snipmate",
+    "gautamkrishnar/nothing-private",
     "gchq/Gaffer",
     "geekyutao/Inpaint-Anything",
     "GeertJohan/go.rice",
@@ -1140,6 +1142,7 @@
     "justinas/alice",
     "justinas/nosurf",
     "justinmayer/virtualfish",
+    "justinmk/vim-sneak",
     "justinpinkney/awesome-pretrained-stylegan2",
     "justinpinkney/stable-diffusion",
     "jwiegley/use-package",
@@ -1435,6 +1438,7 @@
     "mit-han-lab/streaming-llm",
     "mit-han-lab/tinyml",
     "mit-han-lab/torchsparse",
+    "MIT-SPARK/TEASER-plusplus",
     "mitchellh/mapstructure",
     "mitsuba-renderer/enoki",
     "mitsuba-renderer/mitsuba",
@@ -2291,6 +2295,7 @@
     "WenmuZhou/DBNet.pytorch",
     "whai362/PVT",
     "WICG/import-maps",
+    "WICG/webcomponents",
     "wilson1yan/VideoGPT",
     "wilsonzlin/minify-html",
     "windicss/windicss",

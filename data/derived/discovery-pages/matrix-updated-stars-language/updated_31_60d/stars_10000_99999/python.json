@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2479,
-    "concepts": 2181,
-    "observations": 2187,
-    "repos": 206,
-    "terms": 2201
+    "components": 2445,
+    "concepts": 2157,
+    "observations": 2163,
+    "repos": 203,
+    "terms": 2177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -52,7 +52,6 @@
     "cupy/cupy",
     "cvat-ai/cvat",
     "dagster-io/dagster",
-    "danielgatis/rembg",
     "dask/dask",
     "datalab-to/chandra",
     "datalab-to/marker",
@@ -61,7 +60,6 @@
     "DLR-RM/stable-baselines3",
     "docling-project/docling",
     "dottxt-ai/outlines",
-    "EleutherAI/lm-evaluation-harness",
     "emmabostian/developer-portfolios",
     "eosphoros-ai/DB-GPT",
     "evilsocket/opensnitch",
@@ -93,7 +91,6 @@
     "HKUDS/RAG-Anything",
     "home-assistant/core",
     "hpcaitech/ColossalAI",
-    "hpcaitech/Open-Sora",
     "huggingface/datasets",
     "huggingface/diffusers",
     "huggingface/lerobot",
@@ -134,6 +131,7 @@
     "mlflow/mlflow",
     "mlfoundations/open_clip",
     "modelcontextprotocol/python-sdk",
+    "modelscope/DiffSynth-Studio",
     "networkx/networkx",
     "nginx-proxy/nginx-proxy",
     "nodejs/node-gyp",
@@ -156,7 +154,6 @@
     "PaddlePaddle/PaddleOCR",
     "PaddlePaddle/PaddleSpeech",
     "pallets/click",
-    "pallets/flask",
     "pandas-dev/pandas",
     "pipecat-ai/pipecat",
     "plotly/dash",

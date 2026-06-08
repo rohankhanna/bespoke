@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4543,
-    "concepts": 3442,
-    "observations": 3445,
-    "repos": 582,
-    "terms": 3457
+    "components": 4490,
+    "concepts": 3406,
+    "observations": 3409,
+    "repos": 575,
+    "terms": 3421
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -24,7 +24,6 @@
     "activeadmin/arbre",
     "AdaCore/ada_language_server",
     "AdaCore/libadalang",
-    "adelarsq/neoline.vim",
     "AdguardTeam/FiltersRegistry",
     "adinhodovic/terraform-cloudflare-maintenance",
     "agentmorris/MegaDetector",
@@ -178,7 +177,6 @@
     "day8/re-frame-10x",
     "day8/re-frame-template",
     "dbkangaroo/kangaroo",
-    "dcampos/nvim-snippy",
     "DefinedNet/mobile_nebula",
     "dennisdoomen/CSharpGuidelines",
     "dgSPARSE/dgSPARSE-Lib",
@@ -277,7 +275,6 @@
     "i18next/i18next-gitbook",
     "ibhagwan/nvim-lua",
     "IBM/AutoMLPipeline.jl",
-    "ietf-tools/xml2rfc",
     "igorlfs/nvim-dap-view",
     "igraph/rigraph",
     "inhere/php-console",
@@ -394,7 +391,6 @@
     "microsoft/Oryx",
     "microsoft/react-native-windows-samples",
     "microsoft/sarif-sdk",
-    "microsoft/vscode-mono-debug",
     "microsoft/vstest",
     "microsoft/winget-cli-restsource",
     "mihaimaruseac/hindent",
@@ -433,7 +429,6 @@
     "nvim-mini/mini.files",
     "nvim-mini/mini.icons",
     "nvim-mini/mini.pick",
-    "objectbox/objectbox-swift",
     "ocaml-ppx/ocamlformat",
     "ocaml/ocaml-lsp",
     "ocaml/ocaml-re",
@@ -546,7 +541,6 @@
     "status-im/status-app",
     "stevemolitor/claude-code.el",
     "stevemolitor/monet",
-    "stijnvdb88/Snap.Net",
     "strands-agents/docs",
     "Strumenta/antlr-kotlin",
     "subframe7536/obsidian-theme-maple",
@@ -564,7 +558,6 @@
     "teal-language/cyan",
     "terrier-org/pyterrier",
     "test-unit/test-unit",
-    "thoughtbot/climate_control",
     "tilt-dev/tilt-extensions",
     "tinted-theming/base16-i3",
     "tinted-theming/base16-jetbrains",

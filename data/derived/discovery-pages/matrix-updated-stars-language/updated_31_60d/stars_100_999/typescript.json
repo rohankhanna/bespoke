@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6425,
-    "concepts": 1327,
-    "observations": 1329,
-    "repos": 214,
-    "terms": 1373
+    "components": 6384,
+    "concepts": 1317,
+    "observations": 1319,
+    "repos": 213,
+    "terms": 1363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -114,7 +114,6 @@
     "jsonwebtoken/jsonwebtoken.github.io",
     "julia-actions/setup-julia",
     "juliangruber/brace-expansion",
-    "jupyterlab/extension-examples",
     "jurplel/install-qt-action",
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
@@ -199,7 +198,6 @@
     "smithy-lang/smithy-typescript",
     "snipeship/ccflare",
     "Softeria/ms-365-mcp-server",
-    "storybookjs/test-runner",
     "strands-agents/sdk-typescript",
     "sumup-oss/circuit-ui",
     "sveltejs/eslint-plugin-svelte",
@@ -227,6 +225,7 @@
     "victorgarciaesgi/regle",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
-    "webextension-toolbox/webextension-toolbox"
+    "webextension-toolbox/webextension-toolbox",
+    "xdebug/vscode-php-debug"
   ]
 }

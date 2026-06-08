@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 5593,
-    "concepts": 2650,
-    "observations": 2663,
-    "repos": 305,
-    "terms": 2647
+    "components": 5222,
+    "concepts": 2539,
+    "observations": 2552,
+    "repos": 291,
+    "terms": 2536
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "2U1/Qwen-VL-Series-Finetune",
@@ -28,7 +28,6 @@
     "alloy-rs/evm",
     "anthropics/claude-cookbooks",
     "antvis/GPT-Vis",
-    "apache/brpc",
     "apache/datafusion-ballista",
     "apalache-mc/apalache",
     "apollographql/apollo-tooling",
@@ -45,8 +44,6 @@
     "aws/serverless-application-model",
     "axolotl-ai-cloud/axolotl",
     "babashka/babashka",
-    "babashka/nbb",
-    "babashka/sci",
     "bazel-contrib/rules_go",
     "bazel-contrib/rules_kotlin",
     "beam-community/elixir-companies",
@@ -139,7 +136,6 @@
     "hermit-os/hermit-rs",
     "hexabot-ai/Hexabot",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "HIllya51/LunaTranslator",
     "hiyouga/LlamaFactory",
     "honwen/openwrt-dnsmasq-extra",
     "huggingface/finetrainers",
@@ -148,8 +144,6 @@
     "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
-    "intel-staging/text-generation-webui",
-    "ipfs/ipfs-webui",
     "ipsilon/evmone",
     "jax-ml/jax",
     "jelly-beam/rebar3_ex_doc",
@@ -237,8 +231,6 @@
     "psmux/scoop-psmux",
     "pydantic/pydantic",
     "pypa/build",
-    "pyrtlsdr/pyrtlsdr",
-    "python-poetry/poetry",
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
@@ -262,12 +254,10 @@
     "safe-fndn/safe-singleton-factory",
     "safe-fndn/safe-smart-account",
     "safetensors/safetensors",
-    "sbt/sbt-jmh",
     "scverse/rapids-singlecell",
     "seancorfield/honeysql",
     "servo/stylo",
     "ShadowLoveElysia/AiNiee-Next",
-    "skilld-dev/retriv",
     "skilld-dev/skilld",
     "spaceship-prompt/spaceship-prompt",
     "SpecterOps/AzureHound",
@@ -285,7 +275,6 @@
     "TEN-framework/ten-framework",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
-    "tModLoader/tModLoader",
     "tox-dev/filelock",
     "TrenchBroom/TrenchBroom",
     "TrigenSoftware/simple-release",
@@ -312,10 +301,7 @@
     "xtensor-stack/xtensor",
     "xuanji86/ainiee-translate-skill",
     "yaling888/quirktiva",
-    "yomidevs/yomitan",
-    "zh-plus/openlrc",
     "zhayujie/CowAgent",
-    "zhiyiYo/PyQt-Fluent-Widgets",
-    "zyddnys/manga-image-translator"
+    "zhiyiYo/PyQt-Fluent-Widgets"
   ]
 }

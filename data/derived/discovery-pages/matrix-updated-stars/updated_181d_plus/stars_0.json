@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1340,
-    "concepts": 550,
-    "observations": 552,
-    "repos": 453,
-    "terms": 550
+    "components": 1349,
+    "concepts": 551,
+    "observations": 553,
+    "repos": 454,
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -324,6 +324,7 @@
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
     "lifeiteng/lifeiteng.github.com",
+    "lishid/cm-language",
     "liuzechun0216/images",
     "liyuanlucasliu/fairseq",
     "lnx-search/memmap2-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2504,
-    "concepts": 2437,
-    "observations": 2448,
-    "repos": 274,
-    "terms": 2435
+    "components": 2487,
+    "concepts": 2416,
+    "observations": 2427,
+    "repos": 270,
+    "terms": 2416
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -60,7 +60,6 @@
     "bnb-chain/tss-lib",
     "boyter/scc",
     "bradfitz/gomemcache",
-    "btcsuite/btcd",
     "btcsuite/btcwallet",
     "bufbuild/protoc-gen-validate",
     "bufbuild/protovalidate",
@@ -125,7 +124,6 @@
     "evilmartians/lefthook",
     "expr-lang/expr",
     "external-secrets/external-secrets",
-    "fatih/color",
     "filecoin-project/lotus",
     "flannel-io/flannel",
     "fluxcd/flux2",
@@ -191,7 +189,6 @@
     "kubernetes-sigs/kubebuilder",
     "kubernetes-sigs/metrics-server",
     "kubernetes-sigs/node-feature-discovery",
-    "kubernetes-sigs/prometheus-adapter",
     "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/autoscaler",
     "kubernetes/client-go",
@@ -215,7 +212,6 @@
     "miekg/dns",
     "moby/buildkit",
     "mostlygeek/llama-swap",
-    "mvdan/sh",
     "nginx-proxy/docker-gen",
     "norwoodj/helm-docs",
     "NVIDIA/gpu-operator",

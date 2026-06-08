@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 36,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 32,
-    "terms": 35
+    "concepts": 36,
+    "observations": 36,
+    "repos": 34,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
+    "csjgg/ags-cookbook",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Project-Spec-Pattern",

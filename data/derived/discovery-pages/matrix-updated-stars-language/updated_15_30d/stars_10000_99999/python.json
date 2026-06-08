@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 31,
-    "observations": 31,
+    "components": 31,
+    "concepts": 39,
+    "observations": 39,
     "repos": 4,
-    "terms": 31
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "modelscope/DiffSynth-Studio",
     "oobabooga/textgen",
-    "pyg-team/pytorch_geometric"
+    "pyg-team/pytorch_geometric",
+    "python-poetry/poetry"
   ]
 }

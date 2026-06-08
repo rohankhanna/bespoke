@@ -3,7 +3,7 @@
     "components": 1143,
     "concepts": 533,
     "observations": 533,
-    "repos": 351,
+    "repos": 352,
     "terms": 540
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -315,6 +315,7 @@
     "ronghanghu/cc_torch",
     "runfuture/tigerbot-colab",
     "rzykov/metabase",
+    "saddam213/OnnxStack",
     "SantinoKeupp/telescope-cmake4vim.nvim",
     "SaraiQX/tigerbot-svelte-app",
     "sevenc-nanashi/voicevox.rb",

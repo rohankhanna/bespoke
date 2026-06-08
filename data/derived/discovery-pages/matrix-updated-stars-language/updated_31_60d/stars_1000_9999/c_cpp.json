@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2356,
-    "concepts": 2444,
-    "observations": 2450,
-    "repos": 301,
-    "terms": 2428
+    "components": 2321,
+    "concepts": 2413,
+    "observations": 2419,
+    "repos": 295,
+    "terms": 2394
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-07T07:49:32.718484+00:00",
+  "generated_at": "2026-06-08T06:10:34.032595+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -24,7 +24,6 @@
     "AFLplusplus/AFLplusplus",
     "ai-dynamo/nixl",
     "alanxz/rabbitmq-c",
-    "alibaba/havenask",
     "Andersbakken/rtags",
     "AOMediaCodec/libavif",
     "apache/age",
@@ -33,7 +32,6 @@
     "arkime/arkime",
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
-    "asg017/sqlite-vec",
     "async-profiler/async-profiler",
     "autowarefoundation/autoware_universe",
     "avahi/avahi",
@@ -107,7 +105,6 @@
     "git-for-windows/git",
     "GNOME/glib",
     "google/boringssl",
-    "google/draco",
     "google/gemma.cpp",
     "google/highway",
     "google/honggfuzz",
@@ -222,7 +219,6 @@
     "nvpro-samples/vk_raytracing_tutorial_KHR",
     "obsproject/obs-websocket",
     "ohler55/oj",
-    "oneapi-src/oneAPI-samples",
     "onnxsim/onnxsim",
     "open-quantum-safe/liboqs",
     "open-source-parsers/jsoncpp",
@@ -254,7 +250,6 @@
     "red-data-tools/pycall.rb",
     "richgel999/miniz",
     "risc0/risc0",
-    "riscv-software-src/opensbi",
     "RoaringBitmap/CRoaring",
     "RobotLocomotion/drake",
     "ROCm/hip",
@@ -297,7 +292,6 @@
     "vectorclass/version2",
     "vincentlaucsb/csv-parser",
     "vstakhov/libucl",
-    "WebAssembly/wabt",
     "WebAssembly/wasi-libc",
     "webmproject/libwebp",
     "westes/flex",
