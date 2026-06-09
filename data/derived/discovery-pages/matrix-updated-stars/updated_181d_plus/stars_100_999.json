@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 15699,
+    "components": 15700,
     "concepts": 14247,
     "observations": 14275,
-    "repos": 4662,
+    "repos": 4663,
     "terms": 14020
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -4052,6 +4052,7 @@
     "starkware-libs/starkex-contracts",
     "starlight-go/starlight",
     "StatisticalRethinkingJulia/TuringModels.jl",
+    "status-im/nim-chronicles",
     "steeve/cross-compiler",
     "stefanha/git-publish",
     "stepancheg/rust-http2",

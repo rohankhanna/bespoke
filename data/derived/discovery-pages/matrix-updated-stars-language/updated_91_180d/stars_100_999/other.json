@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1039,
-    "concepts": 889,
-    "observations": 891,
+    "components": 1041,
+    "concepts": 892,
+    "observations": 894,
     "repos": 231,
-    "terms": 884
+    "terms": 887
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -44,6 +44,7 @@
     "Azure/reliable-web-app-pattern-dotnet",
     "Azure/template-analyzer",
     "babashka/scittle",
+    "badges/awesome-badges",
     "bazeltools/bazel-deps",
     "beam-telemetry/telemetry",
     "beam-telemetry/telemetry_metrics",
@@ -208,7 +209,6 @@
     "simonw/datasette-lite",
     "sol/hpack",
     "spk/money-open-exchange-rates",
-    "status-im/nim-chronicles",
     "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
     "taoensso/telemere",

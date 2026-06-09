@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3929,
-    "concepts": 2993,
-    "observations": 3002,
-    "repos": 593,
-    "terms": 2971
+    "components": 3964,
+    "concepts": 3004,
+    "observations": 3013,
+    "repos": 595,
+    "terms": 2981
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -504,6 +504,7 @@
     "sharkdp/diskus",
     "shazow/ssh-chat",
     "shibing624/text2vec",
+    "simd-lite/simd-json",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
     "sindresorhus/clipboardy",
@@ -532,6 +533,7 @@
     "svg-sprite/svg-sprite",
     "symfony/cache-contracts",
     "syntax-tree/mdast",
+    "t0bst4r/home-assistant-matter-hub",
     "tancredi/fantasticon",
     "tarkah/tickrs",
     "tc39/proposal-signals",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 3926,
-    "concepts": 2125,
-    "observations": 2131,
+    "components": 3938,
+    "concepts": 2133,
+    "observations": 2139,
     "repos": 290,
-    "terms": 2096
+    "terms": 2104
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -189,6 +189,7 @@
     "mangiucugna/json_repair",
     "marzer/tomlplusplus",
     "matter-js/matter.js",
+    "mayocream/koharu",
     "mesh-iit/cad-libraries",
     "meta-llama/llama-cookbook",
     "microsoft/Detours",
@@ -297,7 +298,6 @@
     "Xilinx/brevitas",
     "xoofx/markdig",
     "yomidevs/yomitan",
-    "yoshoku/llama_cpp.rb",
     "zai-org/GLM-V",
     "zh-plus/openlrc",
     "Zoo-Code-Org/Zoo-Code",

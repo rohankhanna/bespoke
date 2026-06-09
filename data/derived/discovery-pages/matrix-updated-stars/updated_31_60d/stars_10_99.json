@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10474,
-    "concepts": 4914,
-    "observations": 4935,
-    "repos": 1138,
-    "terms": 4960
+    "components": 10454,
+    "concepts": 4909,
+    "observations": 4930,
+    "repos": 1133,
+    "terms": 4955
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -372,9 +372,7 @@
     "dotnet/arcade-services",
     "dotnet/wpf-test",
     "dreamiurg/claude-mountaineering-skills",
-    "dwyl/aws-ses-lambda",
     "dwyl/elixir-auth-github-demo",
-    "dwyl/hapi-postgres-connection",
     "dwyl/learn-tailwind",
     "dwyl/phoenix-liveview-todo-list-tutorial",
     "dwyl/who",
@@ -1098,9 +1096,6 @@
     "unrs/unrs-resolver",
     "urschrei/pypolyline",
     "urschrei/rdp",
-    "usbarmory/armory-boot",
-    "usbarmory/armory-drive",
-    "usbarmory/armory-ums",
     "usbarmory/GoTEE-example",
     "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example",

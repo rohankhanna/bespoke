@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 471,
-    "concepts": 655,
-    "observations": 659,
-    "repos": 146,
-    "terms": 658
+    "components": 466,
+    "concepts": 652,
+    "observations": 656,
+    "repos": 145,
+    "terms": 655
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -158,7 +158,6 @@
     "Yelp/aactivator",
     "yoxu515/aot-benchmark",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
-    "zai-org/z-ai-sdk-python",
-    "zhijian-liu/torchprofile"
+    "zai-org/z-ai-sdk-python"
   ]
 }

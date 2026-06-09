@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 12107,
-    "concepts": 6992,
-    "observations": 7009,
-    "repos": 3310,
-    "terms": 6939
+    "concepts": 6995,
+    "observations": 7012,
+    "repos": 3311,
+    "terms": 6942
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -266,6 +266,7 @@
     "Allison-E/pg-age",
     "almiheenko/AGB",
     "alonronin/react-tailwind-rsbuild-boilerplate",
+    "AlonzoLeeeooo/LCDG",
     "aloucks/spng-rs",
     "Alpha-Innovator/DocParser",
     "alpha-vllm/wemix-llm",

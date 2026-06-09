@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago
 
-Generated at: `2026-06-09T05:56:07.272990+00:00`
+Generated at: `2026-06-09T07:48:10.547322+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 ## Counts
 
-- repos: 272
-- terms: 2381
-- components: 4978
-- concepts: 2383
-- observations: 2396
+- repos: 271
+- terms: 2368
+- components: 4960
+- concepts: 2370
+- observations: 2383
 
 ## Static behavior
 
@@ -293,7 +293,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [huggingface/finetrainers](https://github.com/huggingface/finetrainers) | 1358 | 2026-05-26T10:33:13Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [ShadowLoveElysia/AiNiee-Next](https://github.com/ShadowLoveElysia/AiNiee-Next) | 107 | 2026-05-26T10:03:46Z | Python | Infrastructure/tooling | 8 | 12 | 8 | 8 |
 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 133509 | 2026-05-26T09:46:28Z | Other | Infrastructure/tooling | 20 | 9 | 20 | 20 |
-| [mayocream/koharu](https://github.com/mayocream/koharu) | 4471 | 2026-05-26T06:52:17Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -410,7 +409,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/babashka](https://github.com/babashka/babashka) | 4522 | 2026-05-29T14:54:11Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
 | [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4512 | 2026-05-27T09:01:05Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
 | [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4486 | 2026-05-27T17:02:05Z | C/C++ | Infrastructure/tooling | 12 | 27 | 13 | 13 |
-| [mayocream/koharu](https://github.com/mayocream/koharu) | 4471 | 2026-05-26T06:52:17Z | Rust | Infrastructure/tooling | 13 | 18 | 13 | 13 |
 | [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go) | 4456 | 2026-05-30T02:13:31Z | Go | CLI | 11 | 9 | 11 | 11 |
 | [googleapis/google-api-go-client](https://github.com/googleapis/google-api-go-client) | 4437 | 2026-05-29T07:36:59Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4143 | 2026-05-30T06:44:32Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |

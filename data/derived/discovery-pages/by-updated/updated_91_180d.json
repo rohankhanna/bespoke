@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14225,
-    "concepts": 9248,
-    "observations": 9279,
-    "repos": 2489,
-    "terms": 9224
+    "components": 14267,
+    "concepts": 9262,
+    "observations": 9293,
+    "repos": 2491,
+    "terms": 9237
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -180,7 +180,6 @@
     "alloy-rs/op-alloy",
     "alonw0/cc-redalerts-statusline",
     "alonw0/web-asset-generator",
-    "AlonzoLeeeooo/LCDG",
     "alteryx/featuretools",
     "AlwaysNur/bookbank",
     "AMAP-ML/Tree-GRPO",
@@ -380,6 +379,7 @@
     "babashka/homebrew-brew",
     "babashka/sci.configs",
     "babashka/scittle",
+    "badges/awesome-badges",
     "baerwang/openapi-rs",
     "bakpakin/Fennel",
     "baskeboler/clj-karaoke-lyrics",
@@ -2110,6 +2110,7 @@
     "sigp/quick-protobuf",
     "sigp/xdelta3-rs",
     "sigstore/.github",
+    "simd-lite/simd-json",
     "simonpoole/geocontext",
     "simonw/claude-code-transcripts",
     "simonw/datasette-lite",
@@ -2165,7 +2166,6 @@
     "stanislav-tkach/os_info",
     "stardot/b-em",
     "starwing/luautf8",
-    "status-im/nim-chronicles",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
     "stefan-hoeck/idris2-pack",
@@ -2202,6 +2202,7 @@
     "symfony/cache-contracts",
     "sympy/sympy-bot",
     "syntax-tree/mdast",
+    "t0bst4r/home-assistant-matter-hub",
     "TabbyML/tabby",
     "tachyons-css/tachyons",
     "talk-flow/Lynxe-public-usecase",
@@ -2483,6 +2484,7 @@
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zheng977/MutiAgent4Fraud",
     "ZhengPeng7/BiRefNet",
+    "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
     "zhiyuanyou/DeQA-Score",
     "zilliztech/kafka-connect-milvus",

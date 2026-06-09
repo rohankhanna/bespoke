@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2615,
-    "concepts": 1584,
-    "observations": 1591,
-    "repos": 444,
-    "terms": 1579
+    "components": 2635,
+    "concepts": 1589,
+    "observations": 1596,
+    "repos": 449,
+    "terms": 1584
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -195,10 +195,12 @@
     "DragonFlyBSD/DPorts",
     "dragonflyoss/community",
     "dwyl/auth_plug",
+    "dwyl/aws-ses-lambda",
     "dwyl/content",
     "dwyl/elixir-auth-google-demo",
     "dwyl/email",
     "dwyl/fields",
+    "dwyl/hapi-postgres-connection",
     "dwyl/learn-alpine.js",
     "dwyl/learn-payment-processing",
     "dwyl/phoenix-liveview-stopwatch",
@@ -440,6 +442,9 @@
     "Turbo87/flat-projection-rs",
     "typst/typst-flake",
     "uael/sv",
+    "usbarmory/armory-boot",
+    "usbarmory/armory-drive",
+    "usbarmory/armory-ums",
     "usbarmory/tamago-go",
     "uxlfoundation/open-source-working-group",
     "V13Axel/neotest-pest",

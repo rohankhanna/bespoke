@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1293,
-    "concepts": 587,
-    "observations": 588,
-    "repos": 92,
-    "terms": 584
+    "components": 1287,
+    "concepts": 582,
+    "observations": 583,
+    "repos": 91,
+    "terms": 579
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -102,7 +102,6 @@
     "TextArena/TextArena",
     "Waffle/waffle",
     "WICG/attribution-reporting-api",
-    "yoshoku/llama_cpp.rb",
     "zh-plus/openlrc",
     "Zoo-Code-Org/Zoo-Code"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1422,
-    "concepts": 868,
-    "observations": 870,
-    "repos": 99,
-    "terms": 849
+    "components": 1440,
+    "concepts": 881,
+    "observations": 883,
+    "repos": 100,
+    "terms": 862
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ag2s20150909/TTS",
@@ -68,6 +68,7 @@
     "lumen-oss/rocks.nvim",
     "mangiucugna/json_repair",
     "marzer/tomlplusplus",
+    "mayocream/koharu",
     "microsoft/Detours",
     "Mithril-mine/libmdbx",
     "modelscope/FunClip",

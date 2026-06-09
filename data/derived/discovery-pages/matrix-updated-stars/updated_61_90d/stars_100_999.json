@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5167,
-    "concepts": 3307,
-    "observations": 3321,
-    "repos": 710,
-    "terms": 3311
+    "components": 5174,
+    "concepts": 3325,
+    "observations": 3339,
+    "repos": 711,
+    "terms": 3329
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "2KAbhishek/tmux2k",
@@ -119,7 +119,6 @@
     "babashka/cli",
     "babashka/neil",
     "badgen/badgen",
-    "badges/awesome-badges",
     "baidu-baige/LoongFlow",
     "bazelbuild/bazel-skylib",
     "bbatsov/super-save",
@@ -185,6 +184,7 @@
     "coredns/helm",
     "corteva/rioxarray",
     "cosmos/iavl",
+    "cpmech/russell",
     "cpp-pm/hunter",
     "crazy-max/xgo",
     "creativescala/doodle",
@@ -243,6 +243,7 @@
     "dwyl/phoenix-ecto-encryption-example",
     "dwyl/phoenix-liveview-counter-tutorial",
     "dwyl/phoenix-todo-list-tutorial",
+    "dwyl/sendemail",
     "e18e/ecosystem-issues",
     "eclipse-buildship/buildship",
     "eclipse-cyclonedds/cyclonedds-cxx",
@@ -706,6 +707,7 @@
     "withastro/compiler",
     "WojciechMula/toys",
     "WujiangXu/A-mem-sys",
+    "wuphilipp/gello_mechanical",
     "wuphilipp/gello_software",
     "XantreDev/preact-signals",
     "xavierpuigf/virtualhome",
@@ -721,7 +723,6 @@
     "ysbing/YADB",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zai-org/z-ai-sdk-python",
-    "zhijian-liu/torchprofile",
     "zone-eu/zone-mta"
   ]
 }

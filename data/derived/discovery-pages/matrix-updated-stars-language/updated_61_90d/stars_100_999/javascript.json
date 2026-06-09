@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1137,
+    "components": 1147,
     "concepts": 306,
     "observations": 308,
-    "repos": 75,
+    "repos": 76,
     "terms": 315
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -35,6 +35,7 @@
     "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
+    "dwyl/sendemail",
     "ember-cli/ember-exam",
     "executablebooks/sphinx-copybutton",
     "fastify/create-fastify",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 2316,
+    "components": 2317,
     "concepts": 3109,
     "observations": 3116,
-    "repos": 982,
+    "repos": 983,
     "terms": 3090
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -859,6 +859,7 @@
     "StanfordASL/Trajectron-plus-plus",
     "starkware-libs/starkex-contracts",
     "StatisticalRethinkingJulia/TuringModels.jl",
+    "status-im/nim-chronicles",
     "StephenMiracle/frankenwp",
     "steren/awesome-cloud-run",
     "stevearc/resession.nvim",

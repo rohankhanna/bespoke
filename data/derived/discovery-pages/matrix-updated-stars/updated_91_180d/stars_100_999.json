@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5244,
-    "concepts": 3367,
-    "observations": 3377,
-    "repos": 859,
-    "terms": 3350
+    "components": 5251,
+    "concepts": 3373,
+    "observations": 3383,
+    "repos": 860,
+    "terms": 3356
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -138,6 +138,7 @@
     "Azure/template-analyzer",
     "baaivision/Uni3D",
     "babashka/scittle",
+    "badges/awesome-badges",
     "bazelbuild/stardoc",
     "bazeltools/bazel-deps",
     "bdwgc/libatomic_ops",
@@ -747,7 +748,6 @@
     "stanislav-tkach/os_info",
     "stardot/b-em",
     "starwing/luautf8",
-    "status-im/nim-chronicles",
     "stefan-hoeck/idris2-pack",
     "stefantalpalaru/w_scan2",
     "strands-agents/agent-builder",
@@ -864,6 +864,7 @@
     "yuange1024/ethereum_yellowpaper",
     "ZDisket/TensorVox",
     "ZhangXJ199/TinyLLaVA-Video-R1",
+    "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
     "zhiyuanyou/DeQA-Score",
     "zippoxer/recall",

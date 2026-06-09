@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48882,
-    "concepts": 34761,
-    "observations": 34825,
-    "repos": 12562,
-    "terms": 34315
+    "components": 48883,
+    "concepts": 34764,
+    "observations": 34828,
+    "repos": 12564,
+    "terms": 34318
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -826,6 +826,7 @@
     "almiheenko/AGB",
     "aloctavodia/Doing_bayesian_data_analysis",
     "alonronin/react-tailwind-rsbuild-boilerplate",
+    "AlonzoLeeeooo/LCDG",
     "aloucks/spng-rs",
     "Aloxaf/silicon",
     "alpa-projects/alpa",
@@ -10950,6 +10951,7 @@
     "StatisticalRethinkingJulia/TuringModels.jl",
     "statsd/statsd",
     "statsite/statsite",
+    "status-im/nim-chronicles",
     "status-im/nim-nat-traversal",
     "status-im/nim-toml-serialization",
     "steadycursor/steadystart",

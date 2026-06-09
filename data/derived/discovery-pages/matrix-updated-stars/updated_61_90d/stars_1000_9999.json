@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5373,
-    "concepts": 3341,
-    "observations": 3354,
-    "repos": 577,
-    "terms": 3347
+    "components": 5384,
+    "concepts": 3345,
+    "observations": 3358,
+    "repos": 578,
+    "terms": 3352
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -237,6 +237,7 @@
     "graphql-hive/graphql-config",
     "graphql-python/gql",
     "grosser/parallel_tests",
+    "grpc-ecosystem/grpc-health-probe",
     "grpc/grpc-node",
     "GuillaumeGomez/sysinfo",
     "gustavoguichard/string-ts",
@@ -446,6 +447,7 @@
     "Pointcept/Pointcept",
     "pop-os/cosmic-text",
     "posva/catimg",
+    "preactjs/signals",
     "probonopd/go-appimage",
     "projectfluent/fluent",
     "ptsochantaris/trailer",
@@ -493,7 +495,6 @@
     "shareai-lab/claw0",
     "sharkdp/pastel",
     "sierra-research/tau-bench",
-    "simd-lite/simd-json",
     "sindresorhus/globby",
     "sirfz/tesserocr",
     "slim-template/slim",
@@ -524,13 +525,13 @@
     "SWE-bench/SWE-bench",
     "swiftbar/SwiftBar",
     "syoyo/tinygltf",
-    "t0bst4r/home-assistant-matter-hub",
     "TA-Lib/ta-lib",
     "tabatkins/railroad-diagrams",
     "tauri-apps/cargo-mobile2",
     "tc39/proposal-temporal",
     "tdewolff/canvas",
     "TechEmpower/FrameworkBenchmarks",
+    "Tencent-Hunyuan/HunyuanVideo-1.5",
     "Tencent-Hunyuan/HunyuanVideo-I2V",
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",

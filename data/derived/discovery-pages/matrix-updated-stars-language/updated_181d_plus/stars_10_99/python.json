@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 727,
-    "concepts": 1521,
-    "observations": 1523,
-    "repos": 866,
-    "terms": 1498
+    "concepts": 1524,
+    "observations": 1526,
+    "repos": 867,
+    "terms": 1501
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -94,6 +94,7 @@
     "allenai/allennlp-template-python-script",
     "allenai/beaker-py",
     "allenai/natural-instructions-v1",
+    "AlonzoLeeeooo/LCDG",
     "Alpha-Innovator/DocParser",
     "AlphaPav/mem-kk-logic",
     "AlUlkesh/sd_delete_button",

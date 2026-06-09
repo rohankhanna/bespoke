@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1373,
-    "concepts": 382,
-    "observations": 384,
-    "repos": 90,
-    "terms": 382
+    "components": 1353,
+    "concepts": 377,
+    "observations": 379,
+    "repos": 88,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -26,8 +26,6 @@
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "coasys/ad4m",
-    "dwyl/aws-ses-lambda",
-    "dwyl/hapi-postgres-connection",
     "ehmicky/all-node-versions",
     "ehmicky/get-node",
     "ehmicky/node-version-alias",

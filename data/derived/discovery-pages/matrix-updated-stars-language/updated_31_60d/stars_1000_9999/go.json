@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2464,
-    "concepts": 2393,
-    "observations": 2404,
-    "repos": 266,
-    "terms": 2393
+    "components": 2460,
+    "concepts": 2388,
+    "observations": 2399,
+    "repos": 265,
+    "terms": 2388
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -155,7 +155,6 @@
     "goreleaser/nfpm",
     "gotestyourself/gotestsum",
     "grafana/alloy",
-    "grpc-ecosystem/grpc-health-probe",
     "hairyhenderson/gomplate",
     "hanselime/paqet",
     "hashicorp/go-immutable-radix",

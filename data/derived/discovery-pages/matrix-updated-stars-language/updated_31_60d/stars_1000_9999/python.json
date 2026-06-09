@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3546,
-    "concepts": 4008,
-    "observations": 4020,
-    "repos": 476,
-    "terms": 4002
+    "concepts": 4005,
+    "observations": 4017,
+    "repos": 475,
+    "terms": 3999
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -445,7 +445,6 @@
     "Tavish9/any4lerobot",
     "taylorwilsdon/google_workspace_mcp",
     "tdrussell/diffusion-pipe",
-    "Tencent-Hunyuan/HunyuanVideo-1.5",
     "testcontainers/testcontainers-python",
     "theroyallab/tabbyAPI",
     "theskumar/python-dotenv",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1284,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 44,
-    "terms": 208
+    "components": 1313,
+    "concepts": 205,
+    "observations": 205,
+    "repos": 45,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -49,6 +49,7 @@
     "stravu/crystal",
     "styleguidist/react-docgen-typescript",
     "supermacro/neverthrow",
+    "t0bst4r/home-assistant-matter-hub",
     "tancredi/fantasticon",
     "toddbluhm/env-cmd",
     "tsconfig/bases",

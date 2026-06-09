@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 228,
-    "observations": 231,
-    "repos": 41,
-    "terms": 227
+    "components": 243,
+    "concepts": 237,
+    "observations": 240,
+    "repos": 42,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "a16z/helios",
@@ -46,6 +46,7 @@
     "sachaos/viddy",
     "sagiegurari/cargo-make",
     "sharkdp/diskus",
+    "simd-lite/simd-json",
     "tarkah/tickrs",
     "Tencent/tquic",
     "tikv/grpc-rs",

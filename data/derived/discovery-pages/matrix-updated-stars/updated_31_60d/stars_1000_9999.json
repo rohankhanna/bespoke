@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 32425,
-    "concepts": 18781,
-    "observations": 18849,
-    "repos": 2337,
-    "terms": 18833
+    "components": 32379,
+    "concepts": 18766,
+    "observations": 18834,
+    "repos": 2334,
+    "terms": 18818
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -977,7 +977,6 @@
     "GreptimeTeam/greptimedb",
     "grizzlypeak3d/DJV",
     "grommet/grommet",
-    "grpc-ecosystem/grpc-health-probe",
     "grpc/grpc-dotnet",
     "GStreamer/gstreamer",
     "guaguastandup/zotero-pdf2zh",
@@ -1752,7 +1751,6 @@
     "pradyunsg/furo",
     "praw-dev/praw",
     "PRBonn/kiss-icp",
-    "preactjs/signals",
     "prefix-dev/pixi",
     "presidentbeef/brakeman",
     "prettier/prettier-vscode",
@@ -2126,7 +2124,6 @@
     "tdrussell/diffusion-pipe",
     "teal-language/tl",
     "TechnitiumSoftware/DnsServer",
-    "Tencent-Hunyuan/HunyuanVideo-1.5",
     "tendermint/tendermint",
     "tensorchord/envd",
     "tensorchord/VectorChord",

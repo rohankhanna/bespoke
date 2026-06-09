@@ -3,7 +3,7 @@
     "components": 4451,
     "concepts": 3340,
     "observations": 3343,
-    "repos": 558,
+    "repos": 557,
     "terms": 3355
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
@@ -566,7 +566,6 @@
     "WebAssembly/threads",
     "WebKitForWindows/WebKitRequirements",
     "wighawag/template-ethereum-contracts",
-    "wuphilipp/gello_mechanical",
     "yeesian/ArchGDAL.jl",
     "yegappan/lsp",
     "zcash/zips",

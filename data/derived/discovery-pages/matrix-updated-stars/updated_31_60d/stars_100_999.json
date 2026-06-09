@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22198,
-    "concepts": 13003,
-    "observations": 13054,
-    "repos": 2222,
-    "terms": 13086
+    "components": 22189,
+    "concepts": 12984,
+    "observations": 13035,
+    "repos": 2220,
+    "terms": 13067
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -557,7 +557,6 @@
     "cowprotocol/contracts",
     "cp2k/dbcsr",
     "cplusplus/draft",
-    "cpmech/russell",
     "crate-ci/committed",
     "crazy-max/docker-osxcross",
     "creativenull/efmls-configs-nvim",
@@ -677,7 +676,6 @@
     "dwolfhub/zxcvbn-python",
     "dwyl/auth",
     "dwyl/phoenix-chat-example",
-    "dwyl/sendemail",
     "dydxprotocol/v4-chain",
     "dydxprotocol/v4-clients",
     "dydxprotocol/v4-web",
@@ -2199,7 +2197,6 @@
     "wighawag/template-ethereum-contracts",
     "wildfly/quickstart",
     "will62794/spectacle",
-    "wuphilipp/gello_mechanical",
     "xdebug/vscode-php-debug",
     "Xilinx/RapidWright",
     "xiph/vorbis",
@@ -2214,6 +2211,7 @@
     "ymcui/MacBERT",
     "ymcui/PERT",
     "yokoffing/Control-D-Config",
+    "yoshoku/llama_cpp.rb",
     "YosysHQ/sby",
     "Yubico/libfido2",
     "Yuliang-Liu/MultimodalOCR",

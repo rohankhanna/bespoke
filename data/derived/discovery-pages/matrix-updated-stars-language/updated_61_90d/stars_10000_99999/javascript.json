@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 664,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 19,
-    "terms": 121
+    "components": 727,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 20,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
+    "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
     "hapijs/hapi",

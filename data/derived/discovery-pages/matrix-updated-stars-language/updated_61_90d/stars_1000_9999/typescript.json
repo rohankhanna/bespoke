@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2086,
-    "concepts": 428,
-    "observations": 429,
+    "components": 2099,
+    "concepts": 433,
+    "observations": 434,
     "repos": 60,
-    "terms": 457
+    "terms": 462
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T05:56:07.272990+00:00",
+  "generated_at": "2026-06-09T07:48:10.547322+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -63,11 +63,11 @@
     "oclif/oclif",
     "peter-evans/repository-dispatch",
     "pillarjs/path-to-regexp",
+    "preactjs/signals",
     "REditorSupport/vscode-R",
     "remotion-dev/github-unwrapped",
     "sql-formatter-org/sql-formatter",
     "stephenh/ts-proto",
-    "t0bst4r/home-assistant-matter-hub",
     "TfTHacker/obsidian42-brat",
     "thx/resvg-js",
     "TypeStrong/ts-loader",
