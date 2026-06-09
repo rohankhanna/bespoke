@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 3306
-- terms: 6920
-- components: 12093
-- concepts: 6973
-- observations: 6990
+- repos: 3310
+- terms: 6939
+- components: 12107
+- concepts: 6992
+- observations: 7009
 
 ## Static behavior
 
@@ -25,6 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [google/hrx](https://github.com/google/hrx) | 51 | 2025-12-10T22:47:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [viperproject/smt-scope](https://github.com/viperproject/smt-scope) | 65 | 2025-12-10T15:38:54Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
+| [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [astro/deadnix-action](https://github.com/astro/deadnix-action) | 25 | 2025-12-10T09:09:38Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [hashicorp/hello-vault-spring](https://github.com/hashicorp/hello-vault-spring) | 21 | 2025-12-09T15:01:09Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [Alexandre-Delplanque/HerdNet](https://github.com/Alexandre-Delplanque/HerdNet) | 56 | 2025-12-09T08:11:29Z | Python | Unknown | 8 | 0 | 8 | 8 |
@@ -4107,6 +4111,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adobe-photoshop/generator-panels](https://github.com/adobe-photoshop/generator-panels) | 66 | 2022-06-06T22:26:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [gautamkrishnar/refined-github-feeds](https://github.com/gautamkrishnar/refined-github-feeds) | 66 | 2021-10-19T12:53:02Z | JavaScript | Infrastructure/tooling | 18 | 5 | 18 | 18 |
 | [emilianavt/OpenSeeFaceSample](https://github.com/emilianavt/OpenSeeFaceSample) | 66 | 2021-06-12T15:48:06Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [viperproject/smt-scope](https://github.com/viperproject/smt-scope) | 65 | 2025-12-10T15:38:54Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [NorfairKing/feedback](https://github.com/NorfairKing/feedback) | 65 | 2025-12-03T10:16:34Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [preactjs/create-preact](https://github.com/preactjs/create-preact) | 65 | 2025-10-31T20:08:27Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |
 | [camdencheek/tree-sitter-go-mod](https://github.com/camdencheek/tree-sitter-go-mod) | 65 | 2025-10-23T05:28:26Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
@@ -4519,6 +4524,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axeldelafosse/storybook-rnw-monorepo](https://github.com/axeldelafosse/storybook-rnw-monorepo) | 52 | 2021-11-26T17:07:19Z | TypeScript | Web app | 8 | 1 | 8 | 8 |
 | [thinca/vim-textobj-between](https://github.com/thinca/vim-textobj-between) | 52 | 2021-11-07T11:10:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [liuh127/NTIRE-2021-Dehazing-Two-branch](https://github.com/liuh127/NTIRE-2021-Dehazing-Two-branch) | 52 | 2021-10-12T01:21:01Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [google/hrx](https://github.com/google/hrx) | 51 | 2025-12-10T22:47:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ykdojo/cc-safe](https://github.com/ykdojo/cc-safe) | 51 | 2025-12-10T01:16:28Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [deni2312/prisma-engine](https://github.com/deni2312/prisma-engine) | 51 | 2025-09-24T11:52:17Z | C/C++ | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [cisco/hash-sigs](https://github.com/cisco/hash-sigs) | 51 | 2025-08-06T02:09:16Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -5097,6 +5103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [boozallen/goobernetes](https://github.com/boozallen/goobernetes) | 36 | 2022-01-18T09:56:54Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [TritonDataCenter/node-extsprintf](https://github.com/TritonDataCenter/node-extsprintf) | 36 | 2021-11-02T21:49:00Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [npm/npm-lifecycle](https://github.com/npm/npm-lifecycle) | 36 | 2021-08-03T19:07:35Z | JavaScript | Unknown | 0 | 13 | 0 | 0 |
+| [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [OpenVoiceOS/ovos-tts-plugin-piper](https://github.com/OpenVoiceOS/ovos-tts-plugin-piper) | 35 | 2025-11-22T13:16:23Z | Python | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [ChainSafe/lodestar-quickstart](https://github.com/ChainSafe/lodestar-quickstart) | 35 | 2025-10-15T14:25:09Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
@@ -5573,6 +5580,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [allenai/natural-instructions-v1](https://github.com/allenai/natural-instructions-v1) | 26 | 2021-07-02T20:57:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [feluxe/bs-tea-starter-kit](https://github.com/feluxe/bs-tea-starter-kit) | 26 | 2021-07-02T15:51:18Z | Other | Template/starter | 0 | 7 | 0 | 0 |
 | [monatis/german-tts](https://github.com/monatis/german-tts) | 26 | 2021-06-07T08:44:01Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [astro/deadnix-action](https://github.com/astro/deadnix-action) | 25 | 2025-12-10T09:09:38Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [vstinner/misc](https://github.com/vstinner/misc) | 25 | 2025-12-01T17:21:15Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [CreArts-Community/CreArts-Obsidian](https://github.com/CreArts-Community/CreArts-Obsidian) | 25 | 2025-10-12T07:14:45Z | Other | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [lita-xyz/valida-releases](https://github.com/lita-xyz/valida-releases) | 25 | 2025-09-25T14:52:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

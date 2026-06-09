@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 462,
-    "concepts": 538,
-    "observations": 538,
-    "repos": 74,
-    "terms": 536
+    "components": 467,
+    "concepts": 548,
+    "observations": 548,
+    "repos": 73,
+    "terms": 546
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -28,7 +28,6 @@
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "carrot2/carrot2",
-    "chromiumembedded/java-cef",
     "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
@@ -57,6 +56,7 @@
     "jpmml/jpmml-sparkml",
     "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
+    "KosherJava/zmanim",
     "kreativekorp/bitsnpicas",
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
@@ -86,7 +86,6 @@
     "ThreeTen/threetenbp",
     "wildfly/quickstart",
     "Xilinx/RapidWright",
-    "ysbing/YADB",
     "zilliztech/vts"
   ]
 }

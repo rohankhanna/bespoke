@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1262,
-    "concepts": 577,
-    "observations": 578,
-    "repos": 90,
-    "terms": 574
+    "components": 1293,
+    "concepts": 587,
+    "observations": 588,
+    "repos": 92,
+    "terms": 584
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2mawi2/schaltwerk",
@@ -30,7 +30,6 @@
     "babashka/nbb",
     "bagofwords1/bagofwords",
     "bazel-contrib/rules_jvm_external",
-    "benchflow-ai/benchflow",
     "betterleaks/betterleaks",
     "Brendonovich/MacroGraph",
     "browserslist/caniuse-lite",
@@ -47,6 +46,7 @@
     "eclipse-lsp4j/lsp4j",
     "electron/packager",
     "emacscollective/auto-compile",
+    "flagos-ai/FlagCX",
     "fluent-vue/fluent-vue",
     "fsprojects/FSharp.Data.GraphQL",
     "g-plane/malva",
@@ -64,7 +64,6 @@
     "kelos-dev/kelos",
     "kiron1/bazel-compile-commands",
     "Koenkk/zigbee-herdsman",
-    "KosherJava/zmanim",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
@@ -72,6 +71,7 @@
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
+    "matter-js/matter.js",
     "microsoft/MIDI",
     "mingw-w64/mingw-w64",
     "mll-lab-nu/VAGEN",
@@ -84,6 +84,7 @@
     "openjdk/jdk17u",
     "perrygeo/python-rasterstats",
     "pyOpenSci/software-submission",
+    "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
     "python-poetry/poetry-plugin-export",
@@ -97,6 +98,7 @@
     "shawn0728/OpenSearch-VL",
     "specta-rs/specta",
     "specta-rs/tauri-specta",
+    "SublimeText/AFileIcon",
     "TextArena/TextArena",
     "Waffle/waffle",
     "WICG/attribution-reporting-api",

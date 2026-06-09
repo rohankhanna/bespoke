@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 17,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 20,
-    "terms": 26
+    "concepts": 32,
+    "observations": 32,
+    "repos": 25,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
+    "alchaincyf/ilya-sutskever-skill",
+    "alchaincyf/taleb-skill",
     "aloncarmel/supermeskill",
     "AppImage/AppImageSpec",
     "aquasecurity/setup-trivy",
+    "askroundtable/expert-skills",
     "BAI-LAB/Survey-on-AI-Memory",
     "bmad-code-org/bmad-plugins-marketplace",
     "bpftrace/user-tools",
@@ -33,6 +36,8 @@
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
     "operator-framework/community",
+    "SeleniumHQ/selenium_manager_artifacts",
+    "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group"
   ]
 }

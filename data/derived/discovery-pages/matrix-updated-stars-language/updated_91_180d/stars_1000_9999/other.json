@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 547,
-    "concepts": 624,
-    "observations": 627,
-    "repos": 119,
-    "terms": 627
+    "components": 553,
+    "concepts": 636,
+    "observations": 639,
+    "repos": 122,
+    "terms": 639
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -27,6 +27,7 @@
     "auto-complete/auto-complete",
     "bakpakin/Fennel",
     "bazelbuild/rules_docker",
+    "bbatsov/projectile",
     "bencodezen/vue-enterprise-boilerplate",
     "black7375/Firefox-UI-Fix",
     "breezedeus/Pix2Text",
@@ -63,6 +64,7 @@
     "Gonzalo-D-Sales/obsidian-velocity",
     "google/gumbo-parser",
     "googleapis/elixir-google-api",
+    "grangier/python-goose",
     "greggh/claude-code.nvim",
     "grpc/grpc-kotlin",
     "guard/guard",
@@ -111,6 +113,7 @@
     "rails/spring",
     "rails/tailwindcss-rails",
     "reagent-project/reagent",
+    "rrousselGit/provider",
     "ruby-i18n/i18n",
     "salesforce/BLIP",
     "Samsung/netcoredbg",

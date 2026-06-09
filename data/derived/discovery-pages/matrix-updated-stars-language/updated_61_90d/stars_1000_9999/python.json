@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 699,
-    "observations": 699,
-    "repos": 116,
-    "terms": 691
+    "components": 496,
+    "concepts": 745,
+    "observations": 745,
+    "repos": 122,
+    "terms": 734
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
+    "6551Team/opennews-mcp",
+    "agent-infra/sandbox",
     "AgentOps-AI/agentops",
     "agno-agi/dash",
     "aigc3d/LHM",
+    "ajenti/ajenti",
     "ApeWorX/ape",
     "astanin/python-tabulate",
     "atlassian-api/atlassian-python-api",
@@ -40,6 +43,7 @@
     "django/daphne",
     "docarray/docarray",
     "dolfies/discord.py-self",
+    "drivendataorg/cookiecutter-data-science",
     "dynaconf/dynaconf",
     "explosion/spacy-models",
     "facebookincubator/AITemplate",
@@ -71,6 +75,7 @@
     "kislyuk/argcomplete",
     "Knio/dominate",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+    "lanpa/tensorboardX",
     "linkchecker/linkchecker",
     "LorenEteval/Furious",
     "michaelfeil/infinity",
@@ -103,9 +108,11 @@
     "python-poetry/cleo",
     "pyupio/safety",
     "QwenLM/Qwen3-VL-Embedding",
+    "RUC-NLPIR/FlashRAG",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
     "s3prl/s3prl",
+    "scrapy-plugins/scrapy-playwright",
     "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
@@ -122,7 +129,6 @@
     "themix-project/themix-gui",
     "therealxiaomanchu/ex-skill",
     "Thinklab-SJTU/Bench2Drive",
-    "trevin-creator/autoresearch-mlx",
     "ufoym/deepo",
     "unitaryai/detoxify",
     "Vchitect/VBench",

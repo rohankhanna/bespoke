@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 75
-- terms: 203
+- repos: 74
+- terms: 200
 - components: 313
-- concepts: 185
-- observations: 185
+- concepts: 182
+- observations: 182
 
 ## Static behavior
 
@@ -100,7 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashvardanian/ashvardanian](https://github.com/ashvardanian/ashvardanian) | 3 | 2026-04-11T09:26:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [CoolCat467/idlemypyextension](https://github.com/CoolCat467/idlemypyextension) | 2 | 2026-04-11T05:42:12Z | Python | Infrastructure/tooling | 12 | 7 | 14 | 14 |
 | [danielrosehill/Geopol-Forecaster](https://github.com/danielrosehill/Geopol-Forecaster) | 2 | 2026-04-10T15:56:17Z | Python | Infrastructure/tooling | 2 | 20 | 2 | 2 |
-| [lxgw/LxgwWenKai-shared](https://github.com/lxgw/LxgwWenKai-shared) | 3 | 2026-04-09T16:23:21Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -147,7 +146,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apptainer/apptainer-admindocs](https://github.com/apptainer/apptainer-admindocs) | 3 | 2026-04-15T17:13:07Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cdxeve/scale-openclaw](https://github.com/cdxeve/scale-openclaw) | 3 | 2026-04-12T02:08:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ashvardanian/ashvardanian](https://github.com/ashvardanian/ashvardanian) | 3 | 2026-04-11T09:26:22Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [lxgw/LxgwWenKai-shared](https://github.com/lxgw/LxgwWenKai-shared) | 3 | 2026-04-09T16:23:21Z | Python | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [triton-inference-server/TensorRT-LLM](https://github.com/triton-inference-server/TensorRT-LLM) | 2 | 2026-05-04T20:08:12Z | Python | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [danielrosehill/LLM-Council-Template](https://github.com/danielrosehill/LLM-Council-Template) | 2 | 2026-04-23T10:28:21Z | Python | Template/starter | 0 | 0 | 0 | 0 |
 | [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |

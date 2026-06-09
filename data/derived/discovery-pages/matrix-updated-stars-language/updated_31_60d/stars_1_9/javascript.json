@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1707,
-    "concepts": 885,
-    "observations": 888,
-    "repos": 88,
-    "terms": 884
+    "components": 1651,
+    "concepts": 866,
+    "observations": 869,
+    "repos": 87,
+    "terms": 865
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -89,7 +89,6 @@
     "stdlib-js/math-base-special-erfcinv",
     "stdlib-js/math-base-special-erfcx",
     "stdlib-js/math-base-special-erfinv",
-    "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-fancy",
     "stdlib-js/ndarray-index-modes",

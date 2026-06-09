@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12093,
-    "concepts": 6973,
-    "observations": 6990,
-    "repos": 3306,
-    "terms": 6920
+    "components": 12107,
+    "concepts": 6992,
+    "observations": 7009,
+    "repos": 3310,
+    "terms": 6939
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -446,6 +446,7 @@
     "aspect-build/rules_buildx",
     "astanic/crafter-ood",
     "astra-vision/LMSCNet",
+    "astro/deadnix-action",
     "astrofra/demo-marine-melodies",
     "asu-trans-ai-lab/DTALite",
     "at-aaims/forge",
@@ -1509,6 +1510,7 @@
     "google/gnostic-go-generator",
     "google/gnostic-models",
     "google/google-id-token",
+    "google/hrx",
     "google/hrx-ruby",
     "google/mysteryofthreebots",
     "google/serde_json5",
@@ -1521,6 +1523,7 @@
     "gorilla/.github",
     "gosimple/unidecode",
     "gpuweb/admin",
+    "graalvm/polyglot-embedding-demo",
     "gradio-app/gradio-discord-bot",
     "grafana/opentelemetry-demo",
     "grahama1970/claude-task-runner",
@@ -3156,6 +3159,7 @@
     "vio/bundle-stats-action",
     "vipera/cheap-ruler-rs",
     "viperproject/axiom-profiler",
+    "viperproject/smt-scope",
     "virtual-puppet-project/mouse-tracker",
     "virtual-puppet-project/real-time-lip-sync-gd",
     "vis-nlp/ChartGemma",

@@ -3,7 +3,7 @@
     "components": 2131,
     "concepts": 1996,
     "observations": 2002,
-    "repos": 856,
+    "repos": 857,
     "terms": 1984
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -406,6 +406,7 @@
     "google-coral/test_data",
     "google-marketing-solutions/web-vitals-gtm-template",
     "google/google-id-token",
+    "google/hrx",
     "google/hrx-ruby",
     "google/vim-glaive",
     "gpuweb/admin",

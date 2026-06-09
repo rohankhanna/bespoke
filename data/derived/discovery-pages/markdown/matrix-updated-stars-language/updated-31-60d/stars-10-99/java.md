@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 195
-- components: 202
-- concepts: 198
-- observations: 200
+- repos: 44
+- terms: 188
+- components: 200
+- concepts: 191
+- observations: 192
 
 ## Static behavior
 
@@ -70,7 +70,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [apache/camel-quarkus-examples](https://github.com/apache/camel-quarkus-examples) | 94 | 2026-04-14T13:22:30Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [kurrent-io/KurrentDB-Client-Java](https://github.com/kurrent-io/KurrentDB-Client-Java) | 71 | 2026-04-14T06:24:15Z | Java | CLI | 14 | 6 | 14 | 14 |
 | [apache/flink-connector-pulsar](https://github.com/apache/flink-connector-pulsar) | 67 | 2026-04-14T00:22:27Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [codetyio/codety-scanner](https://github.com/codetyio/codety-scanner) | 50 | 2026-04-09T14:16:53Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 8 |
 
 ## Repos sorted by stars
 
@@ -98,7 +97,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/heroku-jvm-application-deployer](https://github.com/heroku/heroku-jvm-application-deployer) | 56 | 2026-05-01T01:49:09Z | Java | CLI | 4 | 6 | 4 | 4 |
 | [usdot-fhwa-stol/cdasim](https://github.com/usdot-fhwa-stol/cdasim) | 53 | 2026-05-06T14:22:30Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [bazel-contrib/rules_jvm](https://github.com/bazel-contrib/rules_jvm) | 53 | 2026-04-20T14:25:59Z | Java | Infrastructure/tooling | 6 | 6 | 6 | 6 |
-| [codetyio/codety-scanner](https://github.com/codetyio/codety-scanner) | 50 | 2026-04-09T14:16:53Z | Java | Infrastructure/tooling | 7 | 2 | 7 | 8 |
 | [googleapis/java-cloud-bom](https://github.com/googleapis/java-cloud-bom) | 45 | 2026-04-27T16:10:23Z | Java | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [spiffe/java-spiffe](https://github.com/spiffe/java-spiffe) | 44 | 2026-04-28T21:53:31Z | Java | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [yawkat/lz4-java](https://github.com/yawkat/lz4-java) | 43 | 2026-04-22T08:08:18Z | Java | Infrastructure/tooling | 3 | 8 | 3 | 3 |

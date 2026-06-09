@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 71,
-    "concepts": 182,
-    "observations": 182,
-    "repos": 41,
-    "terms": 182
+    "concepts": 181,
+    "observations": 181,
+    "repos": 40,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -37,7 +37,6 @@
     "logseq/awesome-logseq",
     "lxgw/LxgwNeoXiHei",
     "lxgw/LxgwNeoZhiSong",
-    "macfuse/macfuse",
     "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/cpp-docs",

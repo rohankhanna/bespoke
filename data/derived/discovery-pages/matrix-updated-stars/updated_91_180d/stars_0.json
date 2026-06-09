@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 261,
+    "components": 267,
     "concepts": 139,
     "observations": 139,
     "repos": 95,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -49,7 +49,6 @@
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",
-    "danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
     "databendlabs/iceberg-rust",
     "DataDog/go-cmp",
     "DataDog/opa",
@@ -103,6 +102,7 @@
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",
     "typstyle-rs/prettyless",
+    "usdot-fhwa-stol/carma-ns3-adapter",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "wintercg/fetch",
     "yoshoku/numo-liblinear",

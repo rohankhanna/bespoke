@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 200,
-    "observations": 204,
-    "repos": 47,
-    "terms": 200
+    "components": 245,
+    "concepts": 203,
+    "observations": 207,
+    "repos": 48,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
@@ -57,6 +57,7 @@
     "rust-nvml/nvml-wrapper",
     "rustmailer/rustmailer",
     "saghen/frizbee",
+    "saphyr-rs/saphyr",
     "servo/rust-cssparser",
     "sparsemat/sprs",
     "typst/comemo",

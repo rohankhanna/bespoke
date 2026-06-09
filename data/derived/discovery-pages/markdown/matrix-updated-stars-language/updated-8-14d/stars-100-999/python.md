@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 131
-- components: 162
-- concepts: 131
-- observations: 131
+- repos: 21
+- terms: 121
+- components: 150
+- concepts: 121
+- observations: 121
 
 ## Static behavior
 
@@ -47,8 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [thunlp/OPD](https://github.com/thunlp/OPD) | 478 | 2026-05-26T13:23:25Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [ShadowLoveElysia/AiNiee-Next](https://github.com/ShadowLoveElysia/AiNiee-Next) | 107 | 2026-05-26T10:03:46Z | Python | Infrastructure/tooling | 8 | 12 | 8 | 8 |
-| [pypa/build](https://github.com/pypa/build) | 845 | 2026-05-25T18:51:02Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
-| [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 281 | 2026-05-25T14:21:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -56,7 +54,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [TinyLLaVA/TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory) | 983 | 2026-05-28T12:23:03Z | Python | Framework | 6 | 0 | 6 | 6 |
 | [tox-dev/filelock](https://github.com/tox-dev/filelock) | 957 | 2026-05-27T18:23:02Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [pypa/build](https://github.com/pypa/build) | 845 | 2026-05-25T18:51:02Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [Comfy-Org/comfy-cli](https://github.com/Comfy-Org/comfy-cli) | 829 | 2026-05-29T08:16:02Z | Python | CLI | 10 | 8 | 10 | 10 |
 | [15r10nk/inline-snapshot](https://github.com/15r10nk/inline-snapshot) | 731 | 2026-05-29T21:01:09Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
 | [adamchainz/blacken-docs](https://github.com/adamchainz/blacken-docs) | 681 | 2026-05-27T22:15:16Z | Python | Infrastructure/tooling | 3 | 12 | 3 | 3 |
@@ -70,7 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AI-Hypercomputer/maxdiffusion](https://github.com/AI-Hypercomputer/maxdiffusion) | 353 | 2026-05-29T22:34:04Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [clearml/clearml-agent](https://github.com/clearml/clearml-agent) | 301 | 2026-05-28T16:49:18Z | Python | Infrastructure/tooling | 12 | 0 | 12 | 12 |
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [SublimeText/AFileIcon](https://github.com/SublimeText/AFileIcon) | 281 | 2026-05-25T14:21:09Z | Python | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [googlefonts/roboto-3-classic](https://github.com/googlefonts/roboto-3-classic) | 239 | 2026-05-27T11:28:20Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [readthedocs/commonmark.py](https://github.com/readthedocs/commonmark.py) | 236 | 2026-05-29T13:10:39Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [googlefonts/ufo2ft](https://github.com/googlefonts/ufo2ft) | 172 | 2026-05-29T10:47:11Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |

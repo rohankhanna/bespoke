@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10669,
-    "concepts": 9293,
-    "observations": 9305,
-    "repos": 2391,
-    "terms": 9158
+    "components": 10680,
+    "concepts": 9308,
+    "observations": 9320,
+    "repos": 2394,
+    "terms": 9173
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -478,6 +478,7 @@
     "cujojs/when",
     "CUT3R/CUT3R",
     "cvg/glue-factory",
+    "cvg/Hierarchical-Localization",
     "cvg/nice-slam",
     "cvlab-columbia/zero123",
     "cxli233/FriendsDontLetFriends",
@@ -1778,6 +1779,7 @@
     "Project-MONAI/research-contributions",
     "projectkudu/kudu",
     "promises-aplus/promises-spec",
+    "prs-eth/Marigold",
     "pry/pry-rails",
     "psliwka/vim-smoothie",
     "puma/puma-dev",
@@ -2214,6 +2216,7 @@
     "tylin/coco-caption",
     "typings/typings",
     "tysam-code/hlb-CIFAR10",
+    "uber-go/goleak",
     "ubisoft/ubisoft-laforge-animation-dataset",
     "ucbdrive/few-shot-object-detection",
     "ucla-mobility/OpenCDA",

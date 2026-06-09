@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 605,
-    "concepts": 415,
-    "observations": 417,
-    "repos": 94,
-    "terms": 411
+    "components": 577,
+    "concepts": 403,
+    "observations": 405,
+    "repos": 90,
+    "terms": 399
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
@@ -28,7 +28,6 @@
     "apptainer/sif",
     "aquasecurity/trivy-java-db",
     "aspect-build/aspect-gazelle",
-    "Asterisk4Magisk/XrayHelper",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "benchsci/rules_nodejs_gazelle",
@@ -48,7 +47,6 @@
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
     "containers/container-libs",
-    "cosmos/cosmos-db",
     "cosmos/ibc-apps",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
@@ -64,7 +62,6 @@
     "energye/lcl",
     "energye/wv",
     "EngFlow/gazelle_cc",
-    "ethpandaops/xatu",
     "fgrehm/clotilde",
     "golangci/go-printf-func-name",
     "golangci/misspell",
@@ -99,7 +96,6 @@
     "sigstore/rekor-tiles",
     "tendermint/tm-db",
     "terraform-linters/tflint-ruleset-google",
-    "tilt-dev/tilt-apiserver",
     "transparency-dev/armored-witness",
     "transparency-dev/witness",
     "usbarmory/armory-boot",

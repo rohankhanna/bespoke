@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2487,
-    "concepts": 2416,
-    "observations": 2427,
-    "repos": 270,
-    "terms": 2416
+    "components": 2464,
+    "concepts": 2393,
+    "observations": 2404,
+    "repos": 266,
+    "terms": 2393
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -57,7 +57,6 @@
     "bfenetworks/bfe",
     "bluesky-social/indigo",
     "bnb-chain/bsc",
-    "bnb-chain/tss-lib",
     "boyter/scc",
     "bradfitz/gomemcache",
     "btcsuite/btcwallet",
@@ -79,7 +78,6 @@
     "cloudflare/circl",
     "cloudflare/pint",
     "cloudfoundry/cli",
-    "cloudnativelabs/kube-router",
     "cloudwego/hertz",
     "cloudwego/kitex",
     "cncf/toc",
@@ -251,7 +249,6 @@
     "replicate/cog",
     "reviewdog/reviewdog",
     "rhysd/actionlint",
-    "rootless-containers/rootlesskit",
     "router-for-me/CLIProxyAPIPlus",
     "runfinch/finch",
     "schachmat/wego",
@@ -262,7 +259,6 @@
     "SpecterOps/BloodHound",
     "spiffe/spire",
     "StackExchange/dnscontrol",
-    "stripe/smokescreen",
     "stripe/stripe-go",
     "supabase/cli",
     "sysadminsmedia/homebox",

@@ -3,7 +3,7 @@
     "components": 22,
     "concepts": 107,
     "observations": 108,
-    "repos": 37,
+    "repos": 38,
     "terms": 100
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "Alex313031/Thorium-Android",
@@ -21,6 +21,7 @@
     "bluescan/proggyfonts",
     "Calcium-Ion/new-api-horizon",
     "docker-library/faq",
+    "emberjs/core-notes",
     "eza-community/eza-themes",
     "filecoin-project/devgrants",
     "google/deepsomatic",

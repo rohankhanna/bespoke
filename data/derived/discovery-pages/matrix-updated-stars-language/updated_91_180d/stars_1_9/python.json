@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 136,
+    "components": 126,
     "concepts": 92,
     "observations": 92,
-    "repos": 37,
+    "repos": 38,
     "terms": 102
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "AIxCyberChallenge/example-crs-architecture",
+    "al1-nasir/Research_council",
     "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/agent-skill-libby-book-monitor",
     "ansible-community/collection_bot",
@@ -35,6 +36,7 @@
     "day50-dev/mcp-search-and-run",
     "drewlinsley/pathfinder",
     "flagos-ai/vllm-FL",
+    "flinedev/recall",
     "genius-harry/neural-chat",
     "hailiang-wang/llm-get-started",
     "hashberg-io/typing-validation",
@@ -47,7 +49,6 @@
     "pydantic/pydantic-docs",
     "qinwang-ai/PolypsAlign",
     "sylabs/singularity-admindocs",
-    "tahv/typos-gitlab-code-quality",
     "usdot-fhwa-stol/carma-carla-integration",
     "Velesio/velesio-aiserver",
     "zwowo1997/pack-repo-4ai"

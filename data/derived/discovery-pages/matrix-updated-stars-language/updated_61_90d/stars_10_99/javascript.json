@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 41,
-    "terms": 128
+    "components": 488,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 43,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
-    "a5huynh/vscode-ron",
     "acemir/CSSOM",
     "AdguardTeam/CodeGuidelines",
     "andylockran/spectral-aws-apigateway-ruleset",
@@ -37,9 +36,11 @@
     "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
+    "grommet/grommet-site",
     "haskell-actions/run-fourmolu",
     "hipster-labs/jhipster-daily-builds",
     "hudochenkov/stylelint-config-hudochenkov",
+    "i18next/i18next-icu",
     "ipld/js-dag-cbor",
     "Jack-Works/react-refresh-transformer",
     "kddnewton/prettier-plugin-ini",
@@ -54,6 +55,7 @@
     "ruby/setup-ruby-pkgs",
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer",
+    "validator/gulp-html",
     "wemake-services/wemake-frontend-styleguide"
   ]
 }

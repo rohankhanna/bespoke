@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 27,
-    "terms": 133
+    "components": 197,
+    "concepts": 129,
+    "observations": 129,
+    "repos": 26,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "CHIP-SPV/H4I-MKLShim",
@@ -29,7 +29,6 @@
     "grizzlypeak3d/feather-tk",
     "HyperLan-git/Synthmania",
     "lonewolf-jp/convopeq",
-    "mypyc/librt",
     "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
     "ROCm/rocJPEG",

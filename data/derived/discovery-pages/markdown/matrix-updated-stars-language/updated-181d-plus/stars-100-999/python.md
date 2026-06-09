@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Python
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1891
-- terms: 5498
+- repos: 1895
+- terms: 5512
 - components: 1278
-- concepts: 5666
-- observations: 5671
+- concepts: 5680
+- observations: 5685
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bytedance/SandboxFusion](https://github.com/bytedance/SandboxFusion) | 995 | 2025-12-11T05:12:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [DengPingFan/PraNet](https://github.com/DengPingFan/PraNet) | 539 | 2025-12-11T02:11:43Z | Python | Framework | 4 | 0 | 4 | 4 |
+| [CSfufu/Revisual-R1](https://github.com/CSfufu/Revisual-R1) | 210 | 2025-12-10T12:15:51Z | Python | Infrastructure/tooling | 10 | 0 | 10 | 10 |
+| [microsoft/langchain-for-beginners](https://github.com/microsoft/langchain-for-beginners) | 395 | 2025-12-10T10:19:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lifeiteng/OmniSenseVoice](https://github.com/lifeiteng/OmniSenseVoice) | 893 | 2025-12-10T05:17:31Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [kingbri1/flash-attention](https://github.com/kingbri1/flash-attention) | 933 | 2025-12-09T20:20:48Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [MontaEllis/Pytorch-Medical-Segmentation](https://github.com/MontaEllis/Pytorch-Medical-Segmentation) | 925 | 2025-12-09T01:37:12Z | Python | Unknown | 4 | 0 | 4 | 4 |
@@ -1924,6 +1928,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [google-research/magvit](https://github.com/google-research/magvit) | 998 | 2024-01-17T18:06:44Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [Liuhong99/Sophia](https://github.com/Liuhong99/Sophia) | 997 | 2024-01-30T06:28:27Z | Python | Model/data | 3 | 0 | 3 | 3 |
+| [bytedance/SandboxFusion](https://github.com/bytedance/SandboxFusion) | 995 | 2025-12-11T05:12:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [LeCAR-Lab/human2humanoid](https://github.com/LeCAR-Lab/human2humanoid) | 992 | 2025-02-21T06:58:48Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [PeterWang512/CNNDetection](https://github.com/PeterWang512/CNNDetection) | 990 | 2024-07-26T20:59:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [motional/nuplan-devkit](https://github.com/motional/nuplan-devkit) | 987 | 2025-08-27T05:24:55Z | Python | Infrastructure/tooling | 4 | 0 | 4 | 4 |
@@ -2425,6 +2430,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AliaksandrSiarohin/video-preprocessing](https://github.com/AliaksandrSiarohin/video-preprocessing) | 542 | 2022-12-08T01:51:53Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danijar/crafter](https://github.com/danijar/crafter) | 541 | 2024-01-23T23:33:05Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [mit-han-lab/duo-attention](https://github.com/mit-han-lab/duo-attention) | 540 | 2025-02-10T18:01:39Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [DengPingFan/PraNet](https://github.com/DengPingFan/PraNet) | 539 | 2025-12-11T02:11:43Z | Python | Framework | 4 | 0 | 4 | 4 |
 | [testing-cabal/mock](https://github.com/testing-cabal/mock) | 539 | 2025-03-03T12:31:44Z | Python | Library | 0 | 0 | 0 | 0 |
 | [zllrunning/face-makeup.PyTorch](https://github.com/zllrunning/face-makeup.PyTorch) | 538 | 2021-08-04T02:23:48Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [isaiahbjork/orpheus-tts-local](https://github.com/isaiahbjork/orpheus-tts-local) | 536 | 2025-03-20T14:18:45Z | Python | Unknown | 1 | 0 | 1 | 1 |
@@ -2714,6 +2720,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vadimkantorov/caffemodel2pytorch](https://github.com/vadimkantorov/caffemodel2pytorch) | 396 | 2023-03-30T07:08:33Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [Strawberry-Eat-Mango/PCT_Pytorch](https://github.com/Strawberry-Eat-Mango/PCT_Pytorch) | 396 | 2021-12-13T07:47:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [poppinace/indexnet_matting](https://github.com/poppinace/indexnet_matting) | 396 | 2021-09-15T09:10:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [microsoft/langchain-for-beginners](https://github.com/microsoft/langchain-for-beginners) | 395 | 2025-12-10T10:19:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [GitYCC/g2pW](https://github.com/GitYCC/g2pW) | 394 | 2025-06-21T07:17:44Z | Python | Unknown | 2 | 0 | 2 | 2 |
 | [amirbar/speech2gesture](https://github.com/amirbar/speech2gesture) | 394 | 2024-03-06T19:07:58Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [facebookresearch/VLPart](https://github.com/facebookresearch/VLPart) | 394 | 2023-09-19T20:54:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -3268,6 +3275,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Beckschen/ViTamin](https://github.com/Beckschen/ViTamin) | 211 | 2024-06-09T09:04:52Z | Python | Model/data | 2 | 0 | 2 | 2 |
 | [zhaoyun0071/LAMA-Magic-Eraser-Windows](https://github.com/zhaoyun0071/LAMA-Magic-Eraser-Windows) | 211 | 2022-05-22T03:07:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [facebookresearch/mvp](https://github.com/facebookresearch/mvp) | 211 | 2022-01-06T19:09:49Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [CSfufu/Revisual-R1](https://github.com/CSfufu/Revisual-R1) | 210 | 2025-12-10T12:15:51Z | Python | Infrastructure/tooling | 10 | 0 | 10 | 10 |
 | [cdjkim/audiocaps](https://github.com/cdjkim/audiocaps) | 210 | 2025-10-06T00:46:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cronrpc/SubFix](https://github.com/cronrpc/SubFix) | 210 | 2024-02-05T15:43:13Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [searxng/searx-space](https://github.com/searxng/searx-space) | 209 | 2025-10-03T02:01:32Z | Python | Infrastructure/tooling | 1 | 10 | 1 | 1 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 160
-- components: 127
-- concepts: 161
-- observations: 161
+- repos: 17
+- terms: 170
+- components: 141
+- concepts: 171
+- observations: 171
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1260 | 2026-05-25T09:32:00Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | 1822 | 2026-05-23T20:14:29Z | C/C++ | Infrastructure/tooling | 17 | 24 | 17 | 17 |
 | [microsoft/Detours](https://github.com/microsoft/Detours) | 6261 | 2026-05-22T23:48:33Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [AdaptiveCpp/AdaptiveCpp](https://github.com/AdaptiveCpp/AdaptiveCpp) | 1855 | 2026-05-21T00:27:20Z | C/C++ | Infrastructure/tooling | 19 | 10 | 19 | 19 |
@@ -63,3 +64,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [WarmUpTill/SceneSwitcher](https://github.com/WarmUpTill/SceneSwitcher) | 1464 | 2026-05-15T17:15:53Z | C/C++ | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [Mithril-mine/libmdbx](https://github.com/Mithril-mine/libmdbx) | 1398 | 2026-05-14T18:27:24Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
 | [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1309 | 2026-05-17T22:33:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [KhronosGroup/KTX-Software](https://github.com/KhronosGroup/KTX-Software) | 1260 | 2026-05-25T09:32:00Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |

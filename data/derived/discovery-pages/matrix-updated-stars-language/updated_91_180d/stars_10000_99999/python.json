@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 247,
-    "observations": 248,
-    "repos": 36,
-    "terms": 247
+    "components": 202,
+    "concepts": 255,
+    "observations": 256,
+    "repos": 37,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -39,6 +39,7 @@
     "modin-project/modin",
     "PaddlePaddle/PaddleNLP",
     "PKU-YuanGroup/Open-Sora-Plan",
+    "powerline/powerline",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",

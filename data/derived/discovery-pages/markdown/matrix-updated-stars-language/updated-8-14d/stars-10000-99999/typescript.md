@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 191
-- components: 880
-- concepts: 184
-- observations: 187
+- repos: 11
+- terms: 183
+- components: 846
+- concepts: 176
+- observations: 179
 
 ## Static behavior
 
@@ -37,7 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 20692 | 2026-05-28T22:26:14Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12164 | 2026-05-28T21:29:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |
 | [jestjs/jest](https://github.com/jestjs/jest) | 45361 | 2026-05-28T17:11:46Z | TypeScript | Infrastructure/tooling | 17 | 96 | 17 | 17 |
-| [dexie/Dexie.js](https://github.com/dexie/Dexie.js) | 14321 | 2026-05-25T13:54:55Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -53,5 +52,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 20692 | 2026-05-28T22:26:14Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [unocss/unocss](https://github.com/unocss/unocss) | 18817 | 2026-05-29T09:44:17Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17733 | 2026-05-29T16:04:09Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |
-| [dexie/Dexie.js](https://github.com/dexie/Dexie.js) | 14321 | 2026-05-25T13:54:55Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [googleapis/google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) | 12164 | 2026-05-28T21:29:54Z | TypeScript | CLI | 5 | 47 | 5 | 5 |

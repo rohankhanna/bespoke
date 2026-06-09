@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 844,
-    "concepts": 602,
-    "observations": 604,
-    "repos": 166,
-    "terms": 615
+    "components": 839,
+    "concepts": 597,
+    "observations": 599,
+    "repos": 164,
+    "terms": 610
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
-    "Accio-Lab/SwimBird",
     "activeviam/jdk4py",
     "AFD-Illinois/pyharm",
     "AFLplusplus/afl-cov",
@@ -102,10 +101,8 @@
     "IcyFish332/T3RL",
     "instadeepai/fastpbrl",
     "jfly/shtuff",
-    "JuergenFleiss/atrain_core",
     "jxpress/lightning-hydra-template-vertex-ai",
     "kserve/community",
-    "lace/polliwog",
     "lblankl/Short-RL",
     "LedgerHQ/ragger",
     "lhj5426/YSG",
@@ -179,6 +176,7 @@
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
     "xhluca/bm25-benchmarks",
+    "yulewang97/ERDiff",
     "zen-xu/pytest-modern"
   ]
 }

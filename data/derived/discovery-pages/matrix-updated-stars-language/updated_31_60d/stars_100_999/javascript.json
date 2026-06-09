@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3351,
-    "concepts": 755,
-    "observations": 764,
-    "repos": 148,
-    "terms": 772
+    "components": 3204,
+    "concepts": 727,
+    "observations": 736,
+    "repos": 141,
+    "terms": 744
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -21,7 +21,6 @@
     "AdguardTeam/HostlistCompiler",
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
-    "adobe/spectrum-design-data",
     "agent-sh/agentsys",
     "americanexpress/jest-json-schema",
     "anonrig/fast-querystring",
@@ -88,8 +87,6 @@
     "ipfs/aegir",
     "j9t/html-minifier-next",
     "jest-community/jest-junit",
-    "jimmywarting/native-file-system-adapter",
-    "js-kyle/mincer",
     "karma-runner/karma-coverage",
     "karma-runner/karma-jasmine",
     "keithamus/sort-package-json",
@@ -112,7 +109,6 @@
     "mdn/fred",
     "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
-    "muratcankoylan/ralph-wiggum-marketer",
     "neostandard/neostandard",
     "nodejs/admin",
     "nodejs/TSC",
@@ -128,7 +124,6 @@
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
-    "previm/previm",
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
     "rooklift/ogatak",
@@ -148,7 +143,6 @@
     "Taritsyn/BundleTransformer",
     "tc39/eshost",
     "tc39/notes",
-    "terser/html-minifier-terser",
     "testing-library/testing-library-docs",
     "tomayac/SVGcode",
     "unicode-org/message-format-wg",
@@ -157,7 +151,6 @@
     "vllm-project/recipes",
     "w3c/trusted-types",
     "w3c/webref",
-    "webpack/css-minimizer-webpack-plugin",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",
     "will62794/spectacle",

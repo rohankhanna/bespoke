@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1467,
-    "concepts": 393,
-    "observations": 395,
-    "repos": 93,
-    "terms": 393
+    "components": 1373,
+    "concepts": 382,
+    "observations": 384,
+    "repos": 90,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -42,14 +42,12 @@
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "GDevelopApp/GDevelop-tutorials",
-    "grommet/grommet-site",
     "GuillaumeGomez/browser-UI-test",
     "hectorm/chafa-wasm",
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
     "i18next/i18next-chained-backend",
-    "i18next/i18next-icu",
     "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
     "ideditor/schema-builder",
@@ -101,7 +99,6 @@
     "tracked-tools/tracked-toolbox",
     "TrigenSoftware/simple-release-action",
     "ultralytics/llm",
-    "validator/gulp-html",
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",

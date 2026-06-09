@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
+- repos: 38
 - terms: 102
-- components: 136
+- components: 126
 - concepts: 92
 - observations: 92
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [flinedev/recall](https://github.com/FlineDev/Recall) | 8 | 2026-03-10T20:36:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [al1-nasir/Research_council](https://github.com/al1-nasir/Research_council) | 5 | 2026-03-10T15:49:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [day50-dev/mcp-search-and-run](https://github.com/day50-dev/mcp-search-and-run) | 4 | 2026-03-09T11:02:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hailiang-wang/llm-get-started](https://github.com/hailiang-wang/llm-get-started) | 4 | 2026-03-06T08:46:54Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [lace/hobart](https://github.com/lace/hobart) | 1 | 2026-03-03T19:46:12Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
@@ -62,12 +64,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hashberg-io/typing-validation](https://github.com/hashberg-io/typing-validation) | 8 | 2025-12-21T10:23:59Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [Computer-use-agents/GUI-Docker-Env](https://github.com/Computer-use-agents/GUI-Docker-Env) | 6 | 2025-12-18T07:45:55Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [cognizant-ai-lab/neuro-san-web-client](https://github.com/cognizant-ai-lab/neuro-san-web-client) | 3 | 2025-12-15T18:56:51Z | Python | CLI | 3 | 7 | 3 | 3 |
-| [tahv/typos-gitlab-code-quality](https://github.com/tahv/typos-gitlab-code-quality) | 2 | 2025-12-10T12:08:30Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [flinedev/recall](https://github.com/FlineDev/Recall) | 8 | 2026-03-10T20:36:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [llm-in-sandbox/llm-in-sandbox-rl](https://github.com/llm-in-sandbox/llm-in-sandbox-rl) | 8 | 2026-03-03T07:09:39Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [LedgerHQ/ledgercomm](https://github.com/LedgerHQ/ledgercomm) | 8 | 2026-01-15T10:37:53Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hashberg-io/typing-validation](https://github.com/hashberg-io/typing-validation) | 8 | 2025-12-21T10:23:59Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
@@ -76,6 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zwowo1997/pack-repo-4ai](https://github.com/zwowo1997/pack-repo-4ai) | 6 | 2026-01-31T19:20:45Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/WhatsApp-Export-Unpacker](https://github.com/danielrosehill/WhatsApp-Export-Unpacker) | 6 | 2026-01-27T23:25:12Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [Computer-use-agents/GUI-Docker-Env](https://github.com/Computer-use-agents/GUI-Docker-Env) | 6 | 2025-12-18T07:45:55Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [al1-nasir/Research_council](https://github.com/al1-nasir/Research_council) | 5 | 2026-03-10T15:49:20Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [datajuicer/data-juicer-sandbox](https://github.com/datajuicer/data-juicer-sandbox) | 5 | 2026-01-15T07:57:58Z | Python | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [qinwang-ai/PolypsAlign](https://github.com/qinwang-ai/PolypsAlign) | 5 | 2026-01-03T02:39:21Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [arustydev/pre-commit-hooks](https://github.com/aRustyDev/pre-commit-hooks) | 5 | 2025-12-24T06:43:05Z | Python | Infrastructure/tooling | 4 | 20 | 0 | 0 |
@@ -98,7 +101,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [biocypher/collectri](https://github.com/biocypher/collectri) | 2 | 2026-01-28T15:19:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ca-ruz/bumpit](https://github.com/ca-ruz/bumpit) | 2 | 2026-01-22T20:04:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-LAN-Manager-0126](https://github.com/danielrosehill/Claude-LAN-Manager-0126) | 2 | 2026-01-09T14:21:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [tahv/typos-gitlab-code-quality](https://github.com/tahv/typos-gitlab-code-quality) | 2 | 2025-12-10T12:08:30Z | Python | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [lace/hobart](https://github.com/lace/hobart) | 1 | 2026-03-03T19:46:12Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [chaoss/grimoirelab-perceval-puppet](https://github.com/chaoss/grimoirelab-perceval-puppet) | 1 | 2026-03-03T09:09:49Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |

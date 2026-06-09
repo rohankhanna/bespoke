@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 883,
-    "concepts": 364,
-    "observations": 364,
-    "repos": 264,
-    "terms": 393
+    "components": 840,
+    "concepts": 352,
+    "observations": 352,
+    "repos": 259,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
     "8144225309/superscalar-cln",
-    "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
     "aaronrsun/spec-kit-issue",
@@ -38,7 +37,6 @@
     "arckoor/jsonwebtoken-botan",
     "arnaud-lb/php-rdkafka",
     "arnaud-lb/php-rdkafka-doc",
-    "ashton/neotest-gleam-unitest",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "b2agi/exist-is-charter",
     "begmyratb/floweye-yyyxxx.cc",
@@ -217,8 +215,6 @@
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
-    "JuliaBinaryWrappers/JpegTurbo_jll.jl",
-    "JuliaBinaryWrappers/libaec_jll.jl",
     "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
@@ -273,7 +269,6 @@
     "ueno/podman-sequoia",
     "UnknownPlatypus/markup_fmt",
     "vivianalaced749/vk-calls-tunnel",
-    "VOICEVOX/preview-pages",
     "wblondel/blog",
     "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui"

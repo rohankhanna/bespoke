@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4691,
-    "concepts": 827,
-    "observations": 830,
-    "repos": 101,
-    "terms": 816
+    "components": 4673,
+    "concepts": 833,
+    "observations": 836,
+    "repos": 102,
+    "terms": 822
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -45,6 +45,7 @@
     "facebook/hermes",
     "faisalman/ua-parser-js",
     "fastify/fastify",
+    "foliojs/pdfkit",
     "gatsbyjs/gatsby",
     "google/zx",
     "GoogleChrome/lighthouse",
@@ -69,6 +70,7 @@
     "karma-runner/karma",
     "krisk/Fuse",
     "Leaflet/Leaflet",
+    "lint-staged/lint-staged",
     "lodash/lodash",
     "lovell/sharp",
     "lutzroeder/netron",
@@ -90,7 +92,6 @@
     "prettier/prettier",
     "PrismJS/prism",
     "protobufjs/protobuf.js",
-    "reactjs/react.dev",
     "remy/nodemon",
     "rollup/rollup",
     "semantic-release/semantic-release",

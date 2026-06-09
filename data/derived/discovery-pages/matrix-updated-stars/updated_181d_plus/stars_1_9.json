@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5496,
-    "concepts": 1990,
-    "observations": 1993,
-    "repos": 1401,
-    "terms": 1986
+    "components": 5506,
+    "concepts": 1996,
+    "observations": 1999,
+    "repos": 1403,
+    "terms": 1992
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -1218,6 +1218,7 @@
     "ron-rs/sublime-ron",
     "ronghanghu/cc_torch",
     "ropensci/software-review-meta",
+    "rose-pine/.github",
     "rpcxio/rpcx-consul",
     "runfuture/tigerbot-colab",
     "rust3ds/shim-3ds",
@@ -1292,6 +1293,7 @@
     "swiftgen/eve",
     "TA-Lib/ta-lib-proposal-drafts",
     "tachyons-css/tachyons-display-verbose",
+    "tahv/typos-gitlab-code-quality",
     "taichi-dev/public_files",
     "takari/m2e-discovery-catalog",
     "tamuhey/seqdiff",

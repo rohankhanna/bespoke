@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 549,
-    "concepts": 344,
-    "observations": 345,
-    "repos": 142,
-    "terms": 341
+    "components": 565,
+    "concepts": 350,
+    "observations": 351,
+    "repos": 145,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -39,6 +39,7 @@
     "auto-complete/fuzzy-el",
     "avelino/monotropic-theme-vscode",
     "ayrat555/cargo-mode",
+    "babashka/sci.configs",
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
@@ -52,9 +53,11 @@
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
+    "dbuenzli/logs",
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
     "dspinellis/bibtools",
+    "dwyl/cid",
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
     "eddelbuettel/tinythemes",
@@ -69,7 +72,6 @@
     "FreneticLLC/FreneticUtilities",
     "friemen/diffit",
     "getgrav/grav-theme-learn2",
-    "google/hrx",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "GoogleCloudPlatform/getting-started-dotnet",
     "gregorias/toggle.nvim",
@@ -81,6 +83,7 @@
     "ImranR98/obtainium.imranr.dev",
     "informalsystems/audits",
     "informalsystems/quint-llm-kit",
+    "IQVIA-ML/LightGBM.jl",
     "jaegertracing/docker-protobuf",
     "jakewvincent/texmagic.nvim",
     "JamieMair/MuJoCo.jl",

@@ -1,21 +1,21 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 122,
-    "observations": 122,
+    "components": 259,
+    "concepts": 117,
+    "observations": 117,
     "repos": 23,
-    "terms": 122
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
+    "4catalyzer/javascript",
     "alloy-rs/evm",
     "cloudfoundry/bosh-google-cpi-release",
-    "cloudfoundry/credhub-cli",
     "edge-classic/EDGE-classic",
     "FAIR-IMPACT/MOD",
     "geocompx/docker",

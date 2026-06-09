@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 459,
-    "concepts": 347,
-    "observations": 347,
-    "repos": 277,
-    "terms": 350
+    "components": 469,
+    "concepts": 353,
+    "observations": 353,
+    "repos": 278,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -268,6 +268,7 @@
     "Softcatala/dubbing-service",
     "songquanpeng/daily-submit",
     "sterlind/peft",
+    "tahv/typos-gitlab-code-quality",
     "tensorchord/envd-quick-start",
     "timfel/racing-all-afternoon",
     "tinted-theming/tinted-builder-python",

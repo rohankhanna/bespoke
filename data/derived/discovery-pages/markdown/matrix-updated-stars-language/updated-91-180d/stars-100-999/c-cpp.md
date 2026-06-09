@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 91
-- terms: 323
-- components: 269
-- concepts: 328
-- observations: 330
+- repos: 95
+- terms: 328
+- components: 287
+- concepts: 333
+- observations: 335
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [freebsd/atf](https://github.com/freebsd/atf) | 145 | 2026-03-10T21:09:03Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [refresh-bio/KMC](https://github.com/refresh-bio/KMC) | 332 | 2026-03-10T10:26:23Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [Dao-AILab/fast-hadamard-transform](https://github.com/Dao-AILab/fast-hadamard-transform) | 310 | 2026-03-10T08:57:36Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [haosulab/SAPIEN](https://github.com/haosulab/SAPIEN) | 761 | 2026-03-10T08:37:06Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [usnistgov/trec_eval](https://github.com/usnistgov/trec_eval) | 279 | 2026-03-09T17:41:09Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [sheredom/ubench.h](https://github.com/sheredom/ubench.h) | 255 | 2026-03-08T18:22:06Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [xuankuzcr/Global-LVBA](https://github.com/xuankuzcr/Global-LVBA) | 377 | 2026-03-08T14:22:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -130,6 +134,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JokerJohn/LIO_SAM_6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) | 841 | 2025-12-15T10:51:10Z | C/C++ | Infrastructure/tooling | 7 | 0 | 8 | 8 |
 | [powervr-graphics/Native_SDK](https://github.com/powervr-graphics/Native_SDK) | 767 | 2025-12-11T15:15:51Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [Improbable-AI/VisionProTeleop](https://github.com/Improbable-AI/VisionProTeleop) | 765 | 2025-12-28T02:18:18Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [haosulab/SAPIEN](https://github.com/haosulab/SAPIEN) | 761 | 2026-03-10T08:37:06Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [veorq/SipHash](https://github.com/veorq/SipHash) | 757 | 2026-03-07T07:30:07Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [swaywm/swaybg](https://github.com/swaywm/swaybg) | 755 | 2026-02-25T23:19:14Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [KhronosGroup/OpenCL-SDK](https://github.com/KhronosGroup/OpenCL-SDK) | 755 | 2026-01-27T18:14:08Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -163,10 +168,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xuankuzcr/Global-LVBA](https://github.com/xuankuzcr/Global-LVBA) | 377 | 2026-03-08T14:22:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [jsk-ros-pkg/jsk_visualization](https://github.com/jsk-ros-pkg/jsk_visualization) | 357 | 2026-02-18T07:25:38Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [conor42/fast-lzma2](https://github.com/conor42/fast-lzma2) | 336 | 2026-01-11T06:02:31Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [refresh-bio/KMC](https://github.com/refresh-bio/KMC) | 332 | 2026-03-10T10:26:23Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [avaneev/prvhash](https://github.com/avaneev/prvhash) | 326 | 2025-12-25T17:53:39Z | C/C++ | Unknown | 17 | 0 | 17 | 17 |
 | [google/ruy](https://github.com/google/ruy) | 322 | 2026-02-17T01:04:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Ar-Ray-code/YOLOX-ROS](https://github.com/Ar-Ray-code/YOLOX-ROS) | 319 | 2026-01-03T08:26:22Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [mengyao/Complete-Striped-Smith-Waterman-Library](https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library) | 316 | 2026-01-15T03:00:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [Dao-AILab/fast-hadamard-transform](https://github.com/Dao-AILab/fast-hadamard-transform) | 310 | 2026-03-10T08:57:36Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [isciences/exactextract](https://github.com/isciences/exactextract) | 309 | 2026-02-24T13:44:58Z | C/C++ | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [nagisa/rust_tracy_client](https://github.com/nagisa/rust_tracy_client) | 307 | 2026-01-05T01:09:49Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -193,6 +200,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [osvenskan/posix_ipc](https://github.com/osvenskan/posix_ipc) | 162 | 2026-01-12T12:55:00Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [proxy-wasm/proxy-wasm-cpp-sdk](https://github.com/proxy-wasm/proxy-wasm-cpp-sdk) | 161 | 2026-02-03T18:24:26Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [creachadair/imath](https://github.com/creachadair/imath) | 153 | 2026-02-13T06:33:53Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [freebsd/atf](https://github.com/freebsd/atf) | 145 | 2026-03-10T21:09:03Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [eddelbuettel/rinside](https://github.com/eddelbuettel/rinside) | 142 | 2026-01-29T02:30:27Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [TkTech/can_ada](https://github.com/TkTech/can_ada) | 141 | 2026-01-28T07:16:40Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [pmwkaa/ioarena](https://github.com/pmwkaa/ioarena) | 139 | 2026-01-07T17:11:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

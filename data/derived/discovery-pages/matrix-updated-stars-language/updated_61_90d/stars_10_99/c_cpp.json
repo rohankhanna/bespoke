@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 187,
-    "observations": 187,
+    "components": 188,
+    "concepts": 178,
+    "observations": 178,
     "repos": 39,
-    "terms": 185
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
+    "ada-url/ada-python",
     "ada-url/goada",
     "AFD-Illinois/ebhlight",
+    "AFD-Illinois/iharm3d",
+    "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
-    "aseprite/observable",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
     "chusitoo/flatbush",
@@ -26,7 +28,6 @@
     "clouren/SPEX",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
-    "dacap/observable",
     "DeanoC/tiny_imageformat",
     "embeddedartistry/printf",
     "farm-ng/farm-ng-core",
@@ -40,9 +41,8 @@
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
     "intel/metrics-discovery",
-    "lemire/simple_fastfloat_benchmark",
     "Level/classic-level",
-    "mesh-iit/creo2urdf",
+    "libxsmm/tpp-pytorch-extension",
     "midi2-dev/ni-midi2",
     "mxmlnkn/indexed_bzip2",
     "nvictus/pybbi",

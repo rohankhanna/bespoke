@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 193,
-    "concepts": 97,
-    "observations": 99,
-    "repos": 30,
-    "terms": 97
+    "concepts": 104,
+    "observations": 106,
+    "repos": 31,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
+    "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
     "Calsign/gazelle_rust",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 118,
+    "components": 145,
     "concepts": 158,
     "observations": 159,
-    "repos": 18,
+    "repos": 19,
     "terms": 153
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
@@ -20,15 +20,16 @@
     "benchflow-ai/skillsbench",
     "devlooped/moq",
     "dotnet/Silk.NET",
-    "hacl-star/hacl-star",
+    "licensee/licensed",
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
     "nushell/awesome-nu",
-    "nvim-mini/mini.nvim",
     "nvimdev/lspsaga.nvim",
+    "openai/openai-dotnet",
     "opentk/opentk",
     "preservim/tagbar",
+    "radian-software/straight.el",
     "standardrb/standard",
     "tModLoader/tModLoader",
     "xoofx/markdig"

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 977
-- terms: 3067
-- components: 2314
-- concepts: 3086
-- observations: 3093
+- repos: 982
+- terms: 3090
+- components: 2316
+- concepts: 3109
+- observations: 3116
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ap/vim-buftabline](https://github.com/ap/vim-buftabline) | 820 | 2025-12-11T00:39:15Z | Other | Unknown | 1 | 0 | 1 | 1 |
+| [aesalazar/AsteroidsWasm](https://github.com/aesalazar/AsteroidsWasm) | 159 | 2025-12-10T23:05:51Z | Other | CLI | 18 | 0 | 18 | 18 |
+| [privacycg/meetings](https://github.com/privacycg/meetings) | 102 | 2025-12-10T21:19:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [libvips/ruby-vips](https://github.com/libvips/ruby-vips) | 889 | 2025-12-10T14:13:46Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [BlinkDL/RWKV-CUDA](https://github.com/BlinkDL/RWKV-CUDA) | 231 | 2025-12-10T09:40:28Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [HerringtonDarkholme/yats.vim](https://github.com/HerringtonDarkholme/yats.vim) | 666 | 2025-12-09T20:45:05Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [codeyu/nanoid-net](https://github.com/codeyu/nanoid-net) | 559 | 2025-12-09T16:12:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [HelgeSverre/toon-php](https://github.com/HelgeSverre/toon-php) | 125 | 2025-12-06T05:30:19Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -1043,6 +1048,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nvimdev/galaxyline.nvim](https://github.com/nvimdev/galaxyline.nvim) | 900 | 2024-07-25T07:07:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rbong/vim-flog](https://github.com/rbong/vim-flog) | 899 | 2025-03-19T15:47:36Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [joshuaulrich/quantmod](https://github.com/joshuaulrich/quantmod) | 891 | 2025-08-07T20:57:12Z | Other | Framework | 5 | 0 | 5 | 5 |
+| [libvips/ruby-vips](https://github.com/libvips/ruby-vips) | 889 | 2025-12-10T14:13:46Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [haskell/parsec](https://github.com/haskell/parsec) | 887 | 2025-06-12T21:42:02Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [SmiteshP/nvim-navbuddy](https://github.com/SmiteshP/nvim-navbuddy) | 883 | 2025-05-01T07:07:53Z | Other | Service/API | 5 | 0 | 5 | 5 |
 | [jakeheis/SwiftCLI](https://github.com/jakeheis/SwiftCLI) | 878 | 2021-09-17T16:12:00Z | Other | CLI | 5 | 2 | 5 | 5 |
@@ -1075,6 +1081,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ku1ik/rainbow](https://github.com/ku1ik/rainbow) | 825 | 2025-11-25T07:44:55Z | Other | CLI | 2 | 2 | 2 | 2 |
 | [sicmutils/sicmutils](https://github.com/sicmutils/sicmutils) | 822 | 2025-06-18T13:30:25Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
 | [SvenTiigi/SwiftKit](https://github.com/SvenTiigi/SwiftKit) | 821 | 2022-10-22T23:16:25Z | Other | CLI | 6 | 1 | 6 | 6 |
+| [ap/vim-buftabline](https://github.com/ap/vim-buftabline) | 820 | 2025-12-11T00:39:15Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [djanderson/aho](https://github.com/djanderson/aho) | 819 | 2021-10-14T05:06:17Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dashbitco/nimble_csv](https://github.com/dashbitco/nimble_csv) | 816 | 2025-11-13T22:07:21Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [beyondgrep/ack3](https://github.com/beyondgrep/ack3) | 813 | 2025-08-19T02:57:32Z | Other | CLI | 3 | 3 | 3 | 3 |
@@ -1625,6 +1632,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ahojnnes/local-feature-evaluation](https://github.com/ahojnnes/local-feature-evaluation) | 232 | 2024-01-11T14:39:33Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [awasthiabhijeet/PIE](https://github.com/awasthiabhijeet/PIE) | 232 | 2023-03-24T22:38:04Z | Other | Model/data | 10 | 0 | 10 | 10 |
 | [FrankieIsLost/forge-template](https://github.com/FrankieIsLost/forge-template) | 232 | 2022-07-17T08:50:06Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [BlinkDL/RWKV-CUDA](https://github.com/BlinkDL/RWKV-CUDA) | 231 | 2025-12-10T09:40:28Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [47degrees/github4s](https://github.com/47degrees/github4s) | 231 | 2025-04-23T11:53:55Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [antfu/prism-theme-vars](https://github.com/antfu/prism-theme-vars) | 231 | 2024-06-01T17:17:45Z | Other | Infrastructure/tooling | 1 | 13 | 1 | 1 |
 | [cldwalker/logseq-query](https://github.com/cldwalker/logseq-query) | 231 | 2023-01-30T04:59:46Z | Other | Infrastructure/tooling | 0 | 6 | 0 | 0 |
@@ -1781,6 +1789,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rranelli/auto-package-update.el](https://github.com/rranelli/auto-package-update.el) | 160 | 2022-11-18T17:25:17Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [yiyixuxu/denoising-diffusion-flax](https://github.com/yiyixuxu/denoising-diffusion-flax) | 160 | 2022-11-01T16:01:16Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [cowboyd/handlebars.rb](https://github.com/cowboyd/handlebars.rb) | 160 | 2022-10-21T14:33:49Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [aesalazar/AsteroidsWasm](https://github.com/aesalazar/AsteroidsWasm) | 159 | 2025-12-10T23:05:51Z | Other | CLI | 18 | 0 | 18 | 18 |
 | [jaspervdj/lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum) | 159 | 2025-10-12T15:01:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [1runeberg/confichat](https://github.com/1runeberg/confichat) | 159 | 2025-04-26T02:38:18Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [positive666/Prompt-Can-Anything](https://github.com/positive666/Prompt-Can-Anything) | 159 | 2023-09-25T02:47:39Z | Other | Model/data | 7 | 0 | 7 | 7 |
@@ -1974,6 +1983,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jllllll/llama-cpp-python-cuBLAS-wheels](https://github.com/jllllll/llama-cpp-python-cuBLAS-wheels) | 103 | 2024-02-01T17:52:40Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [facebookresearch/access](https://github.com/facebookresearch/access) | 103 | 2023-10-10T19:47:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AtomLinter/linter-write-good](https://github.com/AtomLinter/linter-write-good) | 103 | 2023-07-19T07:54:11Z | Other | Unknown | 5 | 9 | 5 | 5 |
+| [privacycg/meetings](https://github.com/privacycg/meetings) | 102 | 2025-12-10T21:19:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [WebAssembly/function-references](https://github.com/WebAssembly/function-references) | 102 | 2024-12-09T10:44:24Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [IEvangelist/blazor-azure-openai](https://github.com/IEvangelist/blazor-azure-openai) | 102 | 2024-01-19T16:01:48Z | Other | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [bpsm/edn-java](https://github.com/bpsm/edn-java) | 102 | 2022-01-17T17:25:45Z | Other | Unknown | 0 | 0 | 0 | 0 |

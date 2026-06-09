@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 792,
-    "concepts": 501,
-    "observations": 502,
-    "repos": 114,
-    "terms": 514
+    "concepts": 494,
+    "observations": 495,
+    "repos": 113,
+    "terms": 507
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -31,7 +31,6 @@
     "apollographql/federation-rs",
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
-    "ashvardanian/NumWars",
     "asny/three-d-asset",
     "astral-sh/pubgrub",
     "bitcoindevkit/bdk_wallet",

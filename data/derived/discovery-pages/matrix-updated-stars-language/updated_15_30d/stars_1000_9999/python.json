@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 187,
-    "observations": 188,
-    "repos": 22,
-    "terms": 182
+    "components": 141,
+    "concepts": 206,
+    "observations": 207,
+    "repos": 23,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "awslabs/aidlc-workflows",
     "copier-org/copier",
@@ -26,10 +26,11 @@
     "InternScience/GraphGen",
     "lucidrains/vector-quantize-pytorch",
     "mangiucugna/json_repair",
+    "modelscope/FunClip",
     "msiemens/tinydb",
     "nomadkaraoke/python-audio-separator",
-    "openvpi/DiffSinger",
     "python-versioneer/python-versioneer",
+    "roboflow/maestro",
     "speaches-ai/speaches",
     "strob/gentle",
     "voicepaw/so-vits-svc-fork",

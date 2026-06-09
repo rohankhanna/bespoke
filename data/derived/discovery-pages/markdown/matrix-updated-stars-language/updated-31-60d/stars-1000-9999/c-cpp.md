@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 294
-- terms: 2383
-- components: 2318
-- concepts: 2402
-- observations: 2408
+- repos: 292
+- terms: 2370
+- components: 2298
+- concepts: 2389
+- observations: 2395
 
 ## Static behavior
 
@@ -318,8 +318,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stevenlovegrove/Pangolin](https://github.com/stevenlovegrove/Pangolin) | 2714 | 2026-04-10T23:31:55Z | C/C++ | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [SarahWeiii/CoACD](https://github.com/SarahWeiii/CoACD) | 1010 | 2026-04-10T23:10:19Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [microsoft/DirectX-Graphics-Samples](https://github.com/microsoft/DirectX-Graphics-Samples) | 6722 | 2026-04-10T19:40:11Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [libbpf/libbpf](https://github.com/libbpf/libbpf) | 2679 | 2026-04-09T22:12:22Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [ycm-core/ycmd](https://github.com/ycm-core/ycmd) | 1737 | 2026-04-09T09:16:35Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -484,7 +482,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stevenlovegrove/Pangolin](https://github.com/stevenlovegrove/Pangolin) | 2714 | 2026-04-10T23:31:55Z | C/C++ | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [stephenberry/glaze](https://github.com/stephenberry/glaze) | 2702 | 2026-04-29T14:58:12Z | C/C++ | Infrastructure/tooling | 22 | 4 | 26 | 26 |
 | [facebook/fbthrift](https://github.com/facebook/fbthrift) | 2692 | 2026-04-30T19:25:59Z | C/C++ | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [libbpf/libbpf](https://github.com/libbpf/libbpf) | 2679 | 2026-04-09T22:12:22Z | C/C++ | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 | [xtensor-stack/xsimd](https://github.com/xtensor-stack/xsimd) | 2670 | 2026-05-01T08:00:56Z | C/C++ | Infrastructure/tooling | 18 | 2 | 18 | 18 |
 | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | 2650 | 2026-05-04T09:24:12Z | C/C++ | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [paullouisageneau/libdatachannel](https://github.com/paullouisageneau/libdatachannel) | 2577 | 2026-04-26T21:04:07Z | C/C++ | Infrastructure/tooling | 22 | 3 | 22 | 22 |
@@ -542,7 +539,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/woff2](https://github.com/google/woff2) | 1773 | 2026-04-16T01:13:55Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/DirectXMath](https://github.com/microsoft/DirectXMath) | 1760 | 2026-04-22T19:23:53Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [mintty/mintty](https://github.com/mintty/mintty) | 1756 | 2026-04-24T08:31:50Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
-| [ycm-core/ycmd](https://github.com/ycm-core/ycmd) | 1737 | 2026-04-09T09:16:35Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [GNOME/glib](https://github.com/GNOME/glib) | 1728 | 2026-04-22T14:43:03Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [vstakhov/libucl](https://github.com/vstakhov/libucl) | 1727 | 2026-04-13T07:58:30Z | C/C++ | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [microsoft/DirectXTK12](https://github.com/microsoft/DirectXTK12) | 1719 | 2026-04-24T06:00:43Z | C/C++ | Infrastructure/tooling | 18 | 9 | 18 | 18 |

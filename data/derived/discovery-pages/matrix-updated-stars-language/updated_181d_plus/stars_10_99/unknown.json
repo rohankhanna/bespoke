@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 197,
-    "concepts": 326,
-    "observations": 326,
-    "repos": 284,
-    "terms": 326
+    "concepts": 332,
+    "observations": 332,
+    "repos": 285,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -41,6 +41,7 @@
     "apiaryio/api-blueprint-rfcs",
     "aquasecurity/community",
     "arnav-gudibande/koala-test-set",
+    "astro/deadnix-action",
     "AtomEcho/AtomBulb",
     "atroche/rust-headless-chrome",
     "austinEng/webgpu-samples",

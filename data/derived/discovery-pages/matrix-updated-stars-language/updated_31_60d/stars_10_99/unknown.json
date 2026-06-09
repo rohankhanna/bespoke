@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 177,
-    "concepts": 176,
-    "observations": 177,
-    "repos": 57,
-    "terms": 175
+    "concepts": 170,
+    "observations": 171,
+    "repos": 52,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
-    "alchaincyf/ilya-sutskever-skill",
-    "alchaincyf/taleb-skill",
     "alphagov/govuk-rfcs",
-    "askroundtable/expert-skills",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "bleichenbacher-daniel/Rooterberg",
@@ -56,7 +53,6 @@
     "quarkiverse/quarkiverse-docs",
     "rstackjs/rstack-design-resources",
     "sakib-m/Pi-hole-Torrent-Blocklist",
-    "SeleniumHQ/selenium_manager_artifacts",
     "sigstore/community",
     "sigstore/root-signing-staging",
     "simonw/simonwillisonblog-backup",
@@ -65,7 +61,6 @@
     "standardrb/standard-ruby-action",
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
-    "tc39/proposal-duplicate-named-capturing-groups",
     "universal-ctags/ctags-nightly-build",
     "uxlfoundation/foundation",
     "w3c/accname",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 308,
-    "concepts": 236,
-    "observations": 241,
-    "repos": 45,
-    "terms": 234
+    "components": 340,
+    "concepts": 258,
+    "observations": 263,
+    "repos": 49,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -31,6 +31,7 @@
     "ggez/ggez",
     "google/argh",
     "google/tarpc",
+    "GuillaumeGomez/sysinfo",
     "gyscos/cursive",
     "haleclipse/ccometixline",
     "hyperium/http",
@@ -38,6 +39,7 @@
     "Keats/tera",
     "la10736/rstest",
     "LaurentMazare/tch-rs",
+    "linebender/resvg",
     "liuchengxu/vim-clap",
     "lldap/lldap",
     "mattsse/chromiumoxide",
@@ -48,6 +50,7 @@
     "not-fl3/macroquad",
     "openai/harmony",
     "parcel-bundler/lightningcss",
+    "pop-os/cosmic-text",
     "Rust-SDL2/rust-sdl2",
     "servo/ipc-channel",
     "sharkdp/pastel",
@@ -57,6 +60,7 @@
     "spacejam/sled",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
+    "tokio-rs/console",
     "visioncortex/vtracer",
     "WebAssembly/WASI"
   ]

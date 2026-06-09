@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 316,
-    "concepts": 410,
-    "observations": 411,
-    "repos": 78,
-    "terms": 404
+    "components": 319,
+    "concepts": 418,
+    "observations": 419,
+    "repos": 79,
+    "terms": 412
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -82,6 +82,7 @@
     "pramsey/pgsql-http",
     "RobertBeckebans/RBDOOM-3-BFG",
     "sammycage/lunasvg",
+    "snapcast/snapcast",
     "svenstaro/rofi-calc",
     "TEN-framework/ten-vad",
     "TheAssassin/AppImageLauncher",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 196
-- terms: 398
-- components: 542
-- concepts: 404
-- observations: 408
+- repos: 197
+- terms: 410
+- components: 554
+- concepts: 416
+- observations: 420
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [viperproject/smt-scope](https://github.com/viperproject/smt-scope) | 65 | 2025-12-10T15:38:54Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [EricLBuehler/candle](https://github.com/EricLBuehler/candle) | 19 | 2025-12-04T19:14:24Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [cosmos/ibc-proto-rs](https://github.com/cosmos/ibc-proto-rs) | 63 | 2025-12-04T10:54:56Z | Rust | CLI | 6 | 12 | 6 | 7 |
 | [microsoft/LinuxTracepoints-Rust](https://github.com/microsoft/LinuxTracepoints-Rust) | 17 | 2025-12-03T21:05:57Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -255,6 +256,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dermesser/integer-encoding-rs](https://github.com/dermesser/integer-encoding-rs) | 70 | 2025-10-28T19:40:03Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [dskkato/rjo](https://github.com/dskkato/rjo) | 68 | 2023-06-06T02:15:22Z | Rust | Unknown | 2 | 0 | 3 | 3 |
 | [CryptArchy/regex_generate](https://github.com/CryptArchy/regex_generate) | 68 | 2023-03-07T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [viperproject/smt-scope](https://github.com/viperproject/smt-scope) | 65 | 2025-12-10T15:38:54Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [cg31/shadowsocks-windows-gui-rust](https://github.com/cg31/shadowsocks-windows-gui-rust) | 65 | 2023-03-22T07:11:07Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [0xPlaygrounds/rig-onchain-kit](https://github.com/0xPlaygrounds/rig-onchain-kit) | 64 | 2025-02-27T22:35:00Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [KillingSpark/rustbus](https://github.com/KillingSpark/rustbus) | 64 | 2024-06-22T14:58:39Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |

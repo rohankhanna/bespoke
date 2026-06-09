@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1278,
-    "concepts": 5666,
-    "observations": 5671,
-    "repos": 1891,
-    "terms": 5498
+    "concepts": 5680,
+    "observations": 5685,
+    "repos": 1895,
+    "terms": 5512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -317,6 +317,7 @@
     "bytedance/MVDream-threestudio",
     "bytedance/neurst",
     "bytedance/Next-ViT",
+    "bytedance/SandboxFusion",
     "bytedance/Shot2Story",
     "ByteVisionLab/TokenFlow",
     "bzhangGo/zero",
@@ -423,6 +424,7 @@
     "crowsonkb/v-diffusion-pytorch",
     "crytic/evm_cfg_builder",
     "cs01/pythonloc",
+    "CSfufu/Revisual-R1",
     "csslc/CCSR",
     "csuhan/OneLLM",
     "csuhan/s2anet",
@@ -498,6 +500,7 @@
     "DeMoriarty/fast_pytorch_kmeans",
     "DengPingFan/Inf-Net",
     "DengPingFan/Polyp-PVT",
+    "DengPingFan/PraNet",
     "DengPingFan/SINet",
     "deoplete-plugins/deoplete-jedi",
     "DerrickXuNu/CoBEVT",
@@ -1209,6 +1212,7 @@
     "microsoft/CSWin-Transformer",
     "microsoft/FocalNet",
     "microsoft/GenerativeImage2Text",
+    "microsoft/langchain-for-beginners",
     "microsoft/MeshGraphormer",
     "microsoft/monitors4codegen",
     "microsoft/MSMARCO-Conversational-Search",

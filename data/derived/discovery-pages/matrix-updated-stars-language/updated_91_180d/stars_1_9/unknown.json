@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 38,
-    "observations": 38,
+    "components": 76,
+    "concepts": 40,
+    "observations": 40,
     "repos": 39,
-    "terms": 38
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
+    "10up/.github",
     "aaron-he-zhu/cite-domain-rating",
     "adobe-type-tools/Adobe-Manga1",
     "adonisjs/.github",
@@ -45,7 +46,6 @@
     "piebald-ai/.github",
     "psmux/scoop-tmuxpanel",
     "richgel999/junkdrawer",
-    "rose-pine/.github",
     "sigstore/.github",
     "simonpoole/geocontext",
     "sp1-patches/curve25519-dalek-ng",

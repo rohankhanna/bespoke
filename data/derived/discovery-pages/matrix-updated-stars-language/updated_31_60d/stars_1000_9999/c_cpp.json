@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2318,
-    "concepts": 2402,
-    "observations": 2408,
-    "repos": 294,
-    "terms": 2383
+    "components": 2298,
+    "concepts": 2389,
+    "observations": 2395,
+    "repos": 292,
+    "terms": 2370
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -151,7 +151,6 @@
     "lh3/minimap2",
     "liballeg/allegro5",
     "libarchive/libarchive",
-    "libbpf/libbpf",
     "libcpr/cpr",
     "libexpat/libexpat",
     "libffi/libffi",
@@ -299,7 +298,6 @@
     "xtensor-stack/xsimd",
     "YACReader/yacreader",
     "yaml/libyaml",
-    "ycm-core/ycmd",
     "YosysHQ/nextpnr",
     "YosysHQ/yosys",
     "zcash/zcash",

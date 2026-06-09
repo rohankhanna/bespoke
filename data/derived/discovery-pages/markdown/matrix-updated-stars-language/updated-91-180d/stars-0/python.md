@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Python
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 19
+- repos: 13
+- terms: 16
 - components: 12
-- concepts: 19
-- observations: 19
+- concepts: 16
+- observations: 16
 
 ## Static behavior
 
@@ -39,7 +39,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Developers-Career-Planning-Notes](https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes) | 0 | 2025-12-13T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-Image-Generation-Eval](https://github.com/danielrosehill/Hebrew-Image-Generation-Eval) | 0 | 2025-12-12T00:21:42Z | Python | Model/data | 4 | 0 | 4 | 4 |
-| [danielrosehill/Whisper-Fine-Tune-Accuracy-Eval](https://github.com/danielrosehill/Whisper-Fine-Tune-Accuracy-Eval) | 0 | 2025-12-10T20:51:40Z | Python | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -58,4 +57,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Developers-Career-Planning-Notes](https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes) | 0 | 2025-12-13T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Hebrew-Image-Generation-Eval](https://github.com/danielrosehill/Hebrew-Image-Generation-Eval) | 0 | 2025-12-12T00:21:42Z | Python | Model/data | 4 | 0 | 4 | 4 |
-| [danielrosehill/Whisper-Fine-Tune-Accuracy-Eval](https://github.com/danielrosehill/Whisper-Fine-Tune-Accuracy-Eval) | 0 | 2025-12-10T20:51:40Z | Python | Unknown | 3 | 0 | 3 | 3 |

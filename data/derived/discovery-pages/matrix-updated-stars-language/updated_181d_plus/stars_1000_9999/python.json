@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 964,
-    "concepts": 3844,
-    "observations": 3846,
-    "repos": 980,
-    "terms": 3772
+    "components": 968,
+    "concepts": 3858,
+    "observations": 3860,
+    "repos": 982,
+    "terms": 3786
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -198,6 +198,7 @@
     "cubiq/ComfyUI_IPAdapter_plus",
     "CUT3R/CUT3R",
     "cvg/glue-factory",
+    "cvg/Hierarchical-Localization",
     "cvg/nice-slam",
     "cvlab-columbia/zero123",
     "czczup/ViT-Adapter",
@@ -742,6 +743,7 @@
     "princeton-vl/RAFT",
     "project-baize/baize-chatbot",
     "Project-MONAI/research-contributions",
+    "prs-eth/Marigold",
     "punica-ai/punica",
     "pushshift/api",
     "PyCQA/pydocstyle",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1069,
-    "concepts": 701,
-    "observations": 706,
-    "repos": 114,
-    "terms": 706
+    "components": 1076,
+    "concepts": 717,
+    "observations": 722,
+    "repos": 117,
+    "terms": 721
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -20,6 +20,7 @@
     "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
     "antlr/antlr4",
+    "aria2/aria2",
     "astral-sh/rye",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
@@ -59,6 +60,7 @@
     "go-chi/chi",
     "google-research/vision_transformer",
     "google/ExoPlayer",
+    "google/leveldb",
     "gulpjs/gulp",
     "guzzle/guzzle",
     "humanlayer/humanlayer",
@@ -94,6 +96,7 @@
     "PaddlePaddle/PaddleNLP",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
+    "powerline/powerline",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",

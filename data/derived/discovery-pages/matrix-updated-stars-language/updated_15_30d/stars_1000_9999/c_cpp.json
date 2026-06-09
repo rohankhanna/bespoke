@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 16,
-    "terms": 160
+    "components": 141,
+    "concepts": 171,
+    "observations": 171,
+    "repos": 17,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
@@ -21,6 +21,7 @@
     "free-audio/clap",
     "google/oboe",
     "iree-org/iree",
+    "KhronosGroup/KTX-Software",
     "marzer/tomlplusplus",
     "microsoft/Detours",
     "Mithril-mine/libmdbx",

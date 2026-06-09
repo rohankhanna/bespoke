@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 542,
-    "concepts": 404,
-    "observations": 408,
-    "repos": 196,
-    "terms": 398
+    "components": 554,
+    "concepts": 416,
+    "observations": 420,
+    "repos": 197,
+    "terms": 410
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -198,6 +198,7 @@
     "varjolintu/keepassxc-proxy-rust",
     "Veykril/imgui-dx11-renderer",
     "vipera/cheap-ruler-rs",
+    "viperproject/smt-scope",
     "virtual-puppet-project/real-time-lip-sync-gd",
     "vladkens/badges",
     "watchexec/command-group",

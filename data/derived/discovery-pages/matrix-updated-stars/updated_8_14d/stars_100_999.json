@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 916,
-    "concepts": 487,
-    "observations": 488,
-    "repos": 74,
-    "terms": 486
+    "components": 878,
+    "concepts": 458,
+    "observations": 459,
+    "repos": 70,
+    "terms": 457
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -42,7 +42,6 @@
     "elixir-protobuf/protobuf",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "flagos-ai/FlagAttention",
-    "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
     "GDevelopApp/GDevelop-extensions",
     "git-friendly/git-friendly",
@@ -59,14 +58,12 @@
     "ldproxy/ldproxy",
     "machinewrapped/llm-subtrans",
     "mafintosh/streamx",
-    "matter-js/matter.js",
     "meshcat-dev/meshcat",
     "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
     "preactjs/preact-devtools",
-    "pypa/build",
     "readthedocs/commonmark.py",
     "redis/redis-om-dotnet",
     "redis/redis-om-spring",
@@ -80,7 +77,6 @@
     "SpecterOps/AzureHound",
     "spring-projects/spring-tools",
     "stx-labs/stacks.js",
-    "SublimeText/AFileIcon",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",

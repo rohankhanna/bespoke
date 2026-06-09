@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 13,
-    "terms": 39
+    "components": 36,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 14,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "Aedelon/claude-code-blueprint",
@@ -22,6 +22,7 @@
     "jawwadfirdousi/agent-skills",
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",
+    "nodejs/release-keys",
     "nodenv/nodenv-default-packages",
     "nodenv/nodenv-installer",
     "nodenv/nodenv-update",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 142,
-    "concepts": 311,
-    "observations": 312,
-    "repos": 84,
-    "terms": 310
+    "concepts": 307,
+    "observations": 308,
+    "repos": 80,
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/temurin21-binaries",
     "ailev/fpf",
-    "alchaincyf/elon-musk-skill",
-    "alchaincyf/feynman-skill",
-    "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
     "antonbabenko/awesome-terraform-compliance",
@@ -83,7 +80,6 @@
     "openjs-foundation/cross-project-council",
     "openwdl/wdl",
     "piebald-ai/awesome-gemini-cli",
-    "preactjs/awesome-preact",
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",

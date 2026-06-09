@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 559,
-    "concepts": 667,
-    "observations": 668,
-    "repos": 295,
-    "terms": 661
+    "components": 561,
+    "concepts": 668,
+    "observations": 669,
+    "repos": 296,
+    "terms": 662
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -142,6 +142,7 @@
     "giuseppe/become-root",
     "gmarcais/compact_vector",
     "google-coral/libcoral",
+    "graalvm/polyglot-embedding-demo",
     "gregdavill/ecpprog",
     "GreptimeTeam/greptimedb-ingester-cpp",
     "gsneha26/SegAlign",

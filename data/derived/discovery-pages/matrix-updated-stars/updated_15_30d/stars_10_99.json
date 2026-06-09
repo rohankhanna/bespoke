@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 405,
-    "concepts": 240,
-    "observations": 241,
-    "repos": 47,
-    "terms": 240
+    "components": 393,
+    "concepts": 228,
+    "observations": 229,
+    "repos": 45,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -26,6 +26,7 @@
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
+    "cloudfoundry/credhub-cli",
     "compozy/kb",
     "diffscope/diffscope-project",
     "dwyl/mvp",
@@ -52,13 +53,10 @@
     "openjdk/jdk21u-dev",
     "processing/processing-website",
     "python-poetry/website",
-    "rcasia/neotest-java",
     "RiDDiX/home-assistant-addons",
     "skilld-dev/retriv",
-    "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt",
     "version-fox/vfox-plugins",
-    "windsonR/vite-plugin-virtual-html",
-    "yulewang97/ERDiff"
+    "windsonR/vite-plugin-virtual-html"
   ]
 }

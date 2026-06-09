@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1370,
-    "concepts": 1395,
-    "observations": 1398,
-    "repos": 249,
-    "terms": 1387
+    "components": 1354,
+    "concepts": 1387,
+    "observations": 1390,
+    "repos": 245,
+    "terms": 1379
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -32,7 +32,6 @@
     "appium/appium-mac2-driver",
     "ARM-software/CMSIS-NN",
     "arminbiere/cadical",
-    "artemsen/swayimg",
     "aseprite/laf",
     "asl/BandageNG",
     "aui-framework/aui",
@@ -76,7 +75,6 @@
     "DrTimothyAldenDavis/GraphBLAS",
     "eblerjana/pangenie",
     "eddelbuettel/rcppsimdjson",
-    "elixir-sqlite/exqlite",
     "enjoy-digital/litex_m2sdr",
     "eyalroz/printf",
     "Ezibenroc/PyRoaringBitMap",
@@ -90,7 +88,6 @@
     "foldl/chatllm.cpp",
     "freebayes/freebayes",
     "freebsd/kyua",
-    "freeswitch/sofia-sip",
     "freetype/freetype",
     "fribidi/fribidi",
     "Frommi/miniz_oxide",
@@ -104,7 +101,6 @@
     "google/dawn",
     "google/fuzztest",
     "google/jpegli",
-    "google/perf_data_converter",
     "google/riegeli",
     "googleapis/google-cloud-cpp",
     "GraphBLAS/LAGraph",

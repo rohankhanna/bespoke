@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 11,
-    "terms": 63
+    "components": 157,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 9,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
@@ -22,8 +22,6 @@
     "nvim-mini/mini.deps",
     "processing/processing-website",
     "python-poetry/website",
-    "rcasia/neotest-java",
-    "tinted-theming/tinted-xresources",
     "UnknownPlatypus/djangofmt"
   ]
 }

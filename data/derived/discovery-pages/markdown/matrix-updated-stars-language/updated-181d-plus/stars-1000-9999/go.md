@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 144
-- terms: 675
-- components: 339
-- concepts: 679
-- observations: 679
+- repos: 145
+- terms: 676
+- components: 346
+- concepts: 680
+- observations: 680
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [uber-go/goleak](https://github.com/uber-go/goleak) | 5176 | 2025-12-10T19:13:19Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [ajvb/kala](https://github.com/ajvb/kala) | 2160 | 2025-12-05T02:38:00Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [jpillora/cloud-torrent](https://github.com/jpillora/cloud-torrent) | 6158 | 2025-11-28T13:10:45Z | Go | CLI | 5 | 8 | 5 | 5 |
 | [aarondl/authboss](https://github.com/aarondl/authboss) | 4176 | 2025-11-25T03:17:19Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -208,6 +209,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [segmentio/ksuid](https://github.com/segmentio/ksuid) | 5257 | 2023-10-04T17:07:15Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [blushft/go-diagrams](https://github.com/blushft/go-diagrams) | 5229 | 2025-03-22T20:11:19Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [tenable/terrascan](https://github.com/tenable/terrascan) | 5212 | 2025-11-20T19:37:10Z | Go | Infrastructure/tooling | 20 | 4 | 20 | 20 |
+| [uber-go/goleak](https://github.com/uber-go/goleak) | 5176 | 2025-12-10T19:13:19Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) | 5113 | 2025-02-02T14:27:43Z | Go | Infrastructure/tooling | 16 | 9 | 16 | 16 |
 | [streadway/amqp](https://github.com/streadway/amqp) | 4933 | 2023-09-07T02:58:29Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [tidwall/buntdb](https://github.com/tidwall/buntdb) | 4844 | 2024-09-10T03:42:04Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6384,
-    "concepts": 1317,
-    "observations": 1319,
-    "repos": 213,
-    "terms": 1363
+    "components": 6320,
+    "concepts": 1308,
+    "observations": 1310,
+    "repos": 211,
+    "terms": 1354
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -89,7 +89,6 @@
     "giselles-ai/giselle",
     "github/local-action",
     "glassflow/clickhouse-etl",
-    "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
     "gradle/actions",
     "graphprotocol/graph-client",
@@ -133,7 +132,6 @@
     "maplibre/ngx-maplibre-gl",
     "marmelab/FakeRest",
     "matepek/vscode-catch2-test-adapter",
-    "MattiasBuelens/web-streams-polyfill",
     "MetaCubeX/Yacd-meta",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",

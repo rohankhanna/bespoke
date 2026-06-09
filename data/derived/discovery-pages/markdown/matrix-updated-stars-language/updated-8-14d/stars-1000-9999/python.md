@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 252
-- components: 200
-- concepts: 253
-- observations: 254
+- repos: 26
+- terms: 225
+- components: 194
+- concepts: 225
+- observations: 226
 
 ## Static behavior
 
@@ -52,8 +52,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | 7909 | 2026-05-26T14:45:12Z | Python | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [NEKOparapa/AiNiee](https://github.com/NEKOparapa/AiNiee) | 5745 | 2026-05-26T11:06:11Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [huggingface/finetrainers](https://github.com/huggingface/finetrainers) | 1358 | 2026-05-26T10:33:13Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [roboflow/maestro](https://github.com/roboflow/maestro) | 2675 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
-| [modelscope/FunClip](https://github.com/modelscope/FunClip) | 5713 | 2026-05-25T16:59:38Z | Python | CLI | 11 | 0 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -66,7 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [clearml/clearml](https://github.com/clearml/clearml) | 6714 | 2026-05-29T15:40:43Z | Python | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [meta-pytorch/torchtune](https://github.com/meta-pytorch/torchtune) | 5761 | 2026-05-29T12:33:32Z | Python | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [NEKOparapa/AiNiee](https://github.com/NEKOparapa/AiNiee) | 5745 | 2026-05-26T11:06:11Z | Python | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [modelscope/FunClip](https://github.com/modelscope/FunClip) | 5713 | 2026-05-25T16:59:38Z | Python | CLI | 11 | 0 | 12 | 12 |
 | [meta-pytorch/captum](https://github.com/meta-pytorch/captum) | 5636 | 2026-05-28T07:51:37Z | Python | Infrastructure/tooling | 11 | 3 | 11 | 12 |
 | [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5575 | 2026-05-28T22:22:45Z | Python | Infrastructure/tooling | 21 | 6 | 21 | 21 |
 | [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 5158 | 2026-05-28T15:46:52Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
@@ -74,7 +71,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4054 | 2026-05-27T03:07:50Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [safetensors/safetensors](https://github.com/safetensors/safetensors) | 3758 | 2026-05-29T08:55:41Z | Python | Infrastructure/tooling | 7 | 23 | 7 | 7 |
 | [google-deepmind/dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3233 | 2026-05-29T06:17:57Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
-| [roboflow/maestro](https://github.com/roboflow/maestro) | 2675 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
 | [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2271 | 2026-05-29T19:28:52Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |

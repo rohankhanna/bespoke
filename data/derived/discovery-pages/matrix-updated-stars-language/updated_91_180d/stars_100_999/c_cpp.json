@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 328,
-    "observations": 330,
-    "repos": 91,
-    "terms": 323
+    "components": 287,
+    "concepts": 333,
+    "observations": 335,
+    "repos": 95,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -35,6 +35,7 @@
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
     "dacap/clip",
+    "Dao-AILab/fast-hadamard-transform",
     "deeptools/pyBigWig",
     "derickr/timelib",
     "devkitPro/libctru",
@@ -43,9 +44,11 @@
     "ejoy/lua",
     "embeddedartistry/libmemory",
     "erkyrath/glulxe",
+    "freebsd/atf",
     "google/effcee",
     "google/kmsan",
     "google/ruy",
+    "haosulab/SAPIEN",
     "hhyyrylainen/GodotPckTool",
     "Imagick/imagick",
     "Improbable-AI/VisionProTeleop",
@@ -86,6 +89,7 @@
     "pmwkaa/ioarena",
     "powervr-graphics/Native_SDK",
     "proxy-wasm/proxy-wasm-cpp-sdk",
+    "refresh-bio/KMC",
     "rmsalinas/DBow3",
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",

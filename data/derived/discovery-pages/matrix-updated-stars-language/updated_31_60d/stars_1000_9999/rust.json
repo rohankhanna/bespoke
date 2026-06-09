@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2465,
-    "concepts": 1779,
-    "observations": 1786,
-    "repos": 234,
-    "terms": 1788
+    "components": 2433,
+    "concepts": 1757,
+    "observations": 1764,
+    "repos": 230,
+    "terms": 1766
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -102,7 +102,6 @@
     "googlefonts/Inconsolata",
     "graphql-rust/juniper",
     "GreptimeTeam/greptimedb",
-    "GuillaumeGomez/sysinfo",
     "hashintel/hash",
     "hermit-os/kernel",
     "hickory-dns/hickory-dns",
@@ -131,7 +130,6 @@
     "lance-format/lance",
     "latex-lsp/texlab",
     "libp2p/rust-libp2p",
-    "linebender/resvg",
     "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
     "maciejhirsz/logos",
@@ -165,7 +163,6 @@
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
     "pkgxdev/pkgx",
-    "pop-os/cosmic-text",
     "prefix-dev/pixi",
     "prisma/prisma-engines",
     "proptest-rs/proptest",
@@ -232,7 +229,6 @@
     "testcontainers/testcontainers-rs",
     "tikv/pprof-rs",
     "time-rs/time",
-    "tokio-rs/console",
     "tokio-rs/mini-redis",
     "tokio-rs/mio",
     "tokio-rs/tracing",

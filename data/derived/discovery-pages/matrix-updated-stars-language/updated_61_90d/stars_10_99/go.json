@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 135,
-    "observations": 136,
-    "repos": 34,
-    "terms": 138
+    "components": 195,
+    "concepts": 147,
+    "observations": 148,
+    "repos": 38,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
+    "Asterisk4Magisk/XrayHelper",
     "astro-han/diffpane",
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
@@ -25,12 +26,14 @@
     "cjkreklow/t38c",
     "cloudwego/kitex-benchmark",
     "containerd/release-tool",
+    "cosmos/cosmos-db",
     "ctoth/claudio",
     "cyberark/conjur-api-go",
     "darkweak/storages",
     "datachainlab/ethereum-ibc-relay-chain",
     "depado/bfchroma",
     "EstebanForge/mcp-cli-ent",
+    "ethpandaops/xatu",
     "featherbread/hypcast",
     "getlantern/.github",
     "GFW-knocker/AndroidLibXrayLite",
@@ -46,6 +49,7 @@
     "opea-project/GenAIInfra",
     "OpenCIDN/ocimirror",
     "scaleway/serverless-examples",
+    "tilt-dev/tilt-apiserver",
     "usbarmory/tamago-go",
     "yomidevs/yomitan-import"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5066,
-    "concepts": 1000,
-    "observations": 1001,
-    "repos": 142,
-    "terms": 994
+    "components": 4938,
+    "concepts": 955,
+    "observations": 956,
+    "repos": 135,
+    "terms": 949
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "actions/javascript-action",
@@ -49,7 +49,6 @@
     "fullstorydev/grpcui",
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
-    "gautamkrishnar/motrix-webextension",
     "ghostery/ghostery-extension",
     "google/closure-compiler",
     "google/docsy",
@@ -60,7 +59,6 @@
     "GoogleCloudPlatform/nodejs-docs-samples",
     "grommet/grommet",
     "heshengtao/super-agent-party",
-    "hotoo/pinyin",
     "i18next/i18next",
     "i18next/react-i18next",
     "igorshubovych/markdownlint-cli",
@@ -68,7 +66,6 @@
     "ipfs/ipfs-companion",
     "ipfs/ipfs-desktop",
     "isomorphic-git/isomorphic-git",
-    "istanbuljs/istanbuljs",
     "jakerella/jquery-mockjax",
     "jellyfin/jellyfin-web",
     "jprichardson/node-fs-extra",
@@ -83,7 +80,6 @@
     "LavaMoat/LavaMoat",
     "leezng/vue-json-pretty",
     "ljharb/qs",
-    "mantoni/eslint_d.js",
     "mapbox/geobuf",
     "mapbox/maki",
     "mapbox/node-pre-gyp",
@@ -107,7 +103,6 @@
     "openstreetmap/iD",
     "openwrt/luci",
     "parallel-js/parallel.js",
-    "patorjk/figlet.js",
     "piebald-ai/claude-code-system-prompts",
     "pillarjs/iconv-lite",
     "pmmmwh/react-refresh-webpack-plugin",
@@ -117,7 +112,6 @@
     "ranisalt/node-argon2",
     "release-it/release-it",
     "reZach/secure-electron-template",
-    "RichardLitt/standard-readme",
     "RisingStack/react-easy-state",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
@@ -154,7 +148,6 @@
     "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
     "xiangyuecn/Recorder",
-    "yahoo/serialize-javascript",
-    "yeoman/yo"
+    "yahoo/serialize-javascript"
   ]
 }

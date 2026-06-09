@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
-- terms: 772
-- components: 581
-- concepts: 786
-- observations: 786
+- repos: 194
+- terms: 791
+- components: 591
+- concepts: 806
+- observations: 806
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mholt/archives](https://github.com/mholt/archives) | 403 | 2025-12-10T21:19:34Z | Go | Infrastructure/tooling | 15 | 2 | 16 | 16 |
+| [ipfs/go-ds-s3](https://github.com/ipfs/go-ds-s3) | 267 | 2025-12-10T13:27:56Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [github/smimesign](https://github.com/github/smimesign) | 646 | 2025-12-08T17:26:44Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [node-real/bsc-erigon](https://github.com/node-real/bsc-erigon) | 165 | 2025-12-08T13:05:30Z | Go | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [bshuster-repo/logrus-logstash-hook](https://github.com/bshuster-repo/logrus-logstash-hook) | 203 | 2025-12-05T02:42:46Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
@@ -305,6 +307,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [go-chi/cors](https://github.com/go-chi/cors) | 414 | 2025-07-01T14:07:12Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [cosmos/relayer](https://github.com/cosmos/relayer) | 414 | 2025-04-16T22:39:23Z | Go | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [hashicorp/terraform-provider-scaffolding](https://github.com/hashicorp/terraform-provider-scaffolding) | 410 | 2023-02-21T16:39:33Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [mholt/archives](https://github.com/mholt/archives) | 403 | 2025-12-10T21:19:34Z | Go | Infrastructure/tooling | 15 | 2 | 16 | 16 |
 | [joncalhoun/form](https://github.com/joncalhoun/form) | 400 | 2024-08-13T02:28:39Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [tc-hib/go-winres](https://github.com/tc-hib/go-winres) | 397 | 2024-04-11T12:06:10Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [asg017/sqlite-html](https://github.com/asg017/sqlite-html) | 397 | 2023-08-06T01:24:57Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
@@ -337,6 +340,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/hybridnet](https://github.com/alibaba/hybridnet) | 271 | 2024-09-18T07:06:50Z | Go | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man) | 269 | 2025-11-24T22:07:49Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [ahmetb/serverless-registry-proxy](https://github.com/ahmetb/serverless-registry-proxy) | 269 | 2023-12-27T12:47:18Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [ipfs/go-ds-s3](https://github.com/ipfs/go-ds-s3) | 267 | 2025-12-10T13:27:56Z | Go | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [DyegoCosta/snake-game](https://github.com/DyegoCosta/snake-game) | 267 | 2025-11-04T14:19:06Z | Go | CLI | 5 | 0 | 5 | 5 |
 | [microsoft/hivedscheduler](https://github.com/microsoft/hivedscheduler) | 263 | 2022-05-22T08:55:20Z | Go | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [asg017/sqlite-http](https://github.com/asg017/sqlite-http) | 262 | 2025-02-09T16:15:00Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |

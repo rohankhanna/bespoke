@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 204,
-    "observations": 205,
-    "repos": 25,
-    "terms": 204
+    "components": 232,
+    "concepts": 185,
+    "observations": 186,
+    "repos": 22,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/babashka",
@@ -24,16 +24,13 @@
     "firebase/flutterfire",
     "googleapis/google-auth-library-php",
     "kurrent-io/KurrentDB",
-    "licensee/licensed",
     "microsoft/aspire",
     "microsoft/aspire-samples",
     "microsoft/PhiCookBook",
     "mono/SkiaSharp",
     "nvim-tree/nvim-web-devicons",
     "okd-project/okd",
-    "openai/openai-dotnet",
     "psmux/psmux",
-    "radian-software/straight.el",
     "seancorfield/honeysql",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",

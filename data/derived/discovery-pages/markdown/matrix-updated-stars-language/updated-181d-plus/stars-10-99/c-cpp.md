@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 295
-- terms: 661
-- components: 559
-- concepts: 667
-- observations: 668
+- repos: 296
+- terms: 662
+- components: 561
+- concepts: 668
+- observations: 669
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [xtensor-stack/xtensor-r](https://github.com/xtensor-stack/xtensor-r) | 90 | 2025-12-06T21:10:45Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [ibireme/c_numconv_benchmark](https://github.com/ibireme/c_numconv_benchmark) | 73 | 2025-12-05T17:11:27Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [bobfang1992/pytomlpp](https://github.com/bobfang1992/pytomlpp) | 94 | 2025-11-30T02:05:08Z | C/C++ | Infrastructure/tooling | 4 | 7 | 5 | 5 |
@@ -499,6 +500,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eliabieri/blnscpp](https://github.com/eliabieri/blnscpp) | 37 | 2023-04-05T15:32:33Z | C/C++ | Service/API | 2 | 0 | 2 | 2 |
 | [sony/neural-network-console](https://github.com/sony/neural-network-console) | 36 | 2025-09-11T10:51:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [3343/edge](https://github.com/3343/edge) | 36 | 2023-05-25T13:13:46Z | C/C++ | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [2shady4u/godot-cpp-ci](https://github.com/2shady4u/godot-cpp-ci) | 35 | 2024-08-25T18:01:00Z | C/C++ | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [d-a-v/esp82xx-nonos-linklayer](https://github.com/d-a-v/esp82xx-nonos-linklayer) | 35 | 2024-01-10T23:05:06Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [jolibrain/caffe](https://github.com/jolibrain/caffe) | 35 | 2023-09-29T09:00:09Z | C/C++ | Framework | 2 | 0 | 2 | 2 |

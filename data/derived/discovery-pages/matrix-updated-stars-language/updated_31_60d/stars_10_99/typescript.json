@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3648,
-    "concepts": 652,
-    "observations": 657,
-    "repos": 132,
-    "terms": 684
+    "components": 3629,
+    "concepts": 631,
+    "observations": 636,
+    "repos": 129,
+    "terms": 663
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -34,7 +34,6 @@
     "buddingnewinsights/proxypal",
     "bufbuild/protovalidate-es",
     "buttondown/cli",
-    "cahamilton/stylelint-config-property-sort-order-smacss",
     "carbon-design-system/carbon-preprocess-svelte",
     "cargo-bins/release-pr",
     "catppuccin/.github",
@@ -69,7 +68,6 @@
     "hashintel/labs",
     "haskell-actions/setup",
     "huangguang1999/ccstatusline-zh",
-    "hyparam/demos",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
@@ -134,7 +132,6 @@
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
     "sgcarstrends/sgcarstrends",
-    "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "suzuki-shunsuke/pinact-action",

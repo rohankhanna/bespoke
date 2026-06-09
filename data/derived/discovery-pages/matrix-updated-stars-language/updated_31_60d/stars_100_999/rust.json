@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1929,
-    "concepts": 1299,
-    "observations": 1311,
-    "repos": 223,
-    "terms": 1298
+    "components": 1927,
+    "concepts": 1296,
+    "observations": 1308,
+    "repos": 222,
+    "terms": 1296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -205,7 +205,6 @@
     "RustCrypto/RSA",
     "rustcrypto/signatures",
     "RustCrypto/traits",
-    "saphyr-rs/saphyr",
     "shiinamiyuki/akari_render",
     "smol-rs/async-task",
     "Sovereign-Labs/sovereign-sdk",

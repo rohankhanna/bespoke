@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1805,
-    "concepts": 299,
-    "observations": 300,
-    "repos": 64,
-    "terms": 308
+    "components": 1834,
+    "concepts": 309,
+    "observations": 310,
+    "repos": 65,
+    "terms": 318
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -40,6 +40,7 @@
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
     "h3js/rou3",
+    "hyparam/hightable",
     "hyperbrew/bolt-cep",
     "import-js/eslint-import-resolver-typescript",
     "inciteful-xyz/inciteful-zotero-plugin",

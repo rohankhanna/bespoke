@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 79
-- components: 401
-- concepts: 79
-- observations: 79
+- repos: 15
+- terms: 83
+- components: 488
+- concepts: 83
+- observations: 83
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works) | 1802 | 2026-05-25T18:23:08Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
+| [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
+| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1280 | 2026-05-25T12:50:31Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
 | [vercel/serve](https://github.com/vercel/serve) | 9858 | 2026-05-21T21:12:56Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4287 | 2026-05-20T04:37:54Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
 | [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) | 2022 | 2026-05-19T20:23:43Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
@@ -52,6 +55,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pdfme/pdfme](https://github.com/pdfme/pdfme) | 4336 | 2026-05-11T07:24:13Z | TypeScript | Infrastructure/tooling | 12 | 15 | 12 | 12 |
 | [unplugin/unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) | 4287 | 2026-05-20T04:37:54Z | TypeScript | CLI | 9 | 36 | 9 | 9 |
 | [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) | 2022 | 2026-05-19T20:23:43Z | TypeScript | CLI | 7 | 25 | 7 | 7 |
+| [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
+| [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works) | 1802 | 2026-05-25T18:23:08Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
+| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1280 | 2026-05-25T12:50:31Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
 | [Koenkk/zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) | 1183 | 2026-05-13T22:26:23Z | TypeScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [electron/rebuild](https://github.com/electron/rebuild) | 1118 | 2026-05-19T03:49:45Z | TypeScript | Infrastructure/tooling | 5 | 37 | 5 | 5 |
 | [vitejs/vite-plugin-react](https://github.com/vitejs/vite-plugin-react) | 1075 | 2026-05-11T00:30:28Z | TypeScript | Infrastructure/tooling | 7 | 29 | 7 | 7 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25062,
-    "concepts": 10765,
-    "observations": 10805,
+    "components": 25029,
+    "concepts": 10760,
+    "observations": 10800,
     "repos": 1032,
-    "terms": 10743
+    "terms": 10738
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -155,6 +155,7 @@
     "bitwarden/clients",
     "bitwarden/server",
     "bkaradzic/bgfx",
+    "blender/blender",
     "BlinkDL/RWKV-LM",
     "Blinue/Magpie",
     "BloopAI/vibe-kanban",
@@ -356,6 +357,7 @@
     "flipped-aurora/gin-vue-admin",
     "FlowiseAI/Flowise",
     "fmtlib/fmt",
+    "foliojs/pdfkit",
     "formatjs/formatjs",
     "fossasia/visdom",
     "foundry-rs/foundry",
@@ -418,7 +420,6 @@
     "google/oss-fuzz",
     "google/sentencepiece",
     "google/skia",
-    "google/styleguide",
     "google/yapf",
     "google/zx",
     "GoogleChrome/lighthouse",
@@ -582,6 +583,7 @@
     "libvips/libvips",
     "lightgbm-org/LightGBM",
     "lima-vm/lima",
+    "lint-staged/lint-staged",
     "lit/lit",
     "llvm/llvm-project",
     "locustio/locust",
@@ -821,7 +823,6 @@
     "react-hook-form/react-hook-form",
     "react-navigation/react-navigation",
     "ReactiveX/RxJava",
-    "reactjs/react.dev",
     "realm/SwiftLint",
     "recharts/recharts",
     "redis/node-redis",
@@ -856,7 +857,6 @@
     "ryoppippi/ccusage",
     "saadeghi/daisyui",
     "SagerNet/sing-box",
-    "sanic-org/sanic",
     "SaschaWillems/Vulkan",
     "sass/sass",
     "SBoudrias/Inquirer.js",

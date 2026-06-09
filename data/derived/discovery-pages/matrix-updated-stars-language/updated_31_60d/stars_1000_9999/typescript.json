@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11767,
-    "concepts": 2289,
-    "observations": 2295,
-    "repos": 278,
-    "terms": 2384
+    "components": 11679,
+    "concepts": 2275,
+    "observations": 2281,
+    "repos": 275,
+    "terms": 2369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -56,7 +56,6 @@
     "babaohuang/GeminiProChat",
     "badgen/badgen.net",
     "baptisteArno/typebot.io",
-    "bash-lsp/bash-language-server",
     "benchmark-action/github-action-benchmark",
     "berty/berty",
     "BetterThanTomorrow/calva",
@@ -111,7 +110,6 @@
     "EpicenterHQ/epicenter",
     "eslint-stylistic/eslint-stylistic",
     "ethereumjs/ethereumjs-monorepo",
-    "ethers-io/ethers.js",
     "fern-api/fern",
     "fi3ework/vite-plugin-checker",
     "firebase/firebase-admin-node",
@@ -261,7 +259,6 @@
     "the-guild-org/apollo-angular",
     "thomasloven/hass-browser_mod",
     "thomasloven/lovelace-card-mod",
-    "thx/resvg-js",
     "timmywil/panzoom",
     "tinylibs/tinybench",
     "TooTallNate/proxy-agents",

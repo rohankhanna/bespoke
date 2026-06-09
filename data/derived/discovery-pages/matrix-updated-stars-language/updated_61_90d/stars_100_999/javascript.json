@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1008,
-    "concepts": 281,
-    "observations": 283,
-    "repos": 70,
-    "terms": 290
+    "components": 1137,
+    "concepts": 306,
+    "observations": 308,
+    "repos": 75,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
+    "adobe/spectrum-design-data",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
     "apify/awesome-skills",
-    "AssemblyScript/wabt.js",
     "Atheos/Atheos",
     "avwo/whistle-client",
     "badgen/badgen",
@@ -54,8 +54,9 @@
     "igvteam/igv.js",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
+    "jimmywarting/native-file-system-adapter",
+    "js-kyle/mincer",
     "kharchenkolab/pagoda2",
-    "kriszyp/cbor-x",
     "Level/abstract-level",
     "mapbox/cheap-ruler",
     "markdown-it/linkify-it",
@@ -64,12 +65,14 @@
     "mourner/kdbush",
     "mourner/robust-predicates",
     "mourner/tinyqueue",
+    "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",
     "npm/abbrev-js",
     "npm/rfcs",
     "oblador/react-native-vector-image",
     "OffchainLabs/arbitrum-tutorials",
     "photopea/UZIP.js",
+    "previm/previm",
     "projectfluent/fluent.js",
     "protocolbuffers/protobuf-javascript",
     "RichardLitt/generator-standard-readme",
@@ -79,10 +82,12 @@
     "semantic-release/git",
     "sveltejs/svelte-loader",
     "terraform-linters/setup-tflint",
+    "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",
     "toon-format/spec",
     "w3c/webidl2.js",
+    "webpack/css-minimizer-webpack-plugin",
     "zone-eu/zone-mta"
   ]
 }

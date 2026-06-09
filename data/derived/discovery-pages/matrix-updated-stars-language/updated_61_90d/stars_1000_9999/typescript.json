@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2092,
-    "concepts": 420,
-    "observations": 421,
-    "repos": 58,
-    "terms": 448
+    "components": 2086,
+    "concepts": 428,
+    "observations": 429,
+    "repos": 60,
+    "terms": 457
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -20,6 +20,7 @@
     "antfu-collective/vite-ssg",
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
+    "bash-lsp/bash-language-server",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
@@ -29,6 +30,7 @@
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "enisdenjo/graphql-ws",
+    "ethers-io/ethers.js",
     "gajus/slonik",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
@@ -44,7 +46,6 @@
     "isaacs/node-glob",
     "itgalaxy/favicons",
     "jamiebrynes7/obsidian-todoist-plugin",
-    "jnsahaj/tweakcn",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "kirodotdev/Kiro",
@@ -68,6 +69,7 @@
     "stephenh/ts-proto",
     "t0bst4r/home-assistant-matter-hub",
     "TfTHacker/obsidian42-brat",
+    "thx/resvg-js",
     "TypeStrong/ts-loader",
     "vadimdemedes/pastel",
     "vercel/next-learn",

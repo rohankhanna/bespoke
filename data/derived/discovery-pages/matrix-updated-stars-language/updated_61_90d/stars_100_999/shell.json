@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 17,
-    "terms": 82
+    "components": 70,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 20,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "2KAbhishek/tmux2k",
     "aslafy-z/helm-git",
@@ -22,14 +22,17 @@
     "docker-library/hello-world",
     "github/super-linter",
     "helm/chart-testing-action",
+    "heroku/heroku-buildpack-apt",
     "heroku/heroku-buildpack-pgbouncer",
     "lxgw/LxgwWenKai-Lite",
+    "mattmc3/zephyr",
     "mklement0/n-install",
     "mosaicml/examples",
     "NVIDIA/DL4AGX",
     "SamNet-dev/paqctl",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",
+    "trailofbits/claude-code-devcontainer",
     "xbdcc/CCommand"
   ]
 }

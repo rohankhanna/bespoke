@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 133
-- components: 205
-- concepts: 134
-- observations: 134
+- repos: 26
+- terms: 128
+- components: 197
+- concepts: 129
+- observations: 129
 
 ## Static behavior
 
@@ -52,13 +52,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rapidsai/rapids-logger](https://github.com/rapidsai/rapids-logger) | 2 | 2026-04-16T17:38:34Z | C/C++ | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [HyperLan-git/Synthmania](https://github.com/HyperLan-git/Synthmania) | 5 | 2026-04-16T13:32:41Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [decibri/decibri.cpp](https://github.com/decibri/decibri.cpp) | 6 | 2026-04-16T12:24:04Z | C/C++ | Web app | 7 | 3 | 7 | 7 |
-| [mypyc/librt](https://github.com/mypyc/librt) | 9 | 2026-04-09T15:44:14Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mypyc/librt](https://github.com/mypyc/librt) | 9 | 2026-04-09T15:44:14Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [grizzlypeak3d/feather-tk](https://github.com/grizzlypeak3d/feather-tk) | 8 | 2026-04-29T00:46:59Z | C/C++ | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [walbourn/directxtk12test](https://github.com/walbourn/directxtk12test) | 8 | 2026-04-27T19:29:25Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [Evilpasture/Culverin](https://github.com/Evilpasture/Culverin) | 7 | 2026-05-03T12:12:54Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |

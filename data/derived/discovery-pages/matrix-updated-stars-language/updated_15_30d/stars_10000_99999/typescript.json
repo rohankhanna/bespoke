@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 10,
-    "terms": 108
+    "components": 396,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 11,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
+    "dexie/Dexie.js",
     "fuma-nama/fumadocs",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",

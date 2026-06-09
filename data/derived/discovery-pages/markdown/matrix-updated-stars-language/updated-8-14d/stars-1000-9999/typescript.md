@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 93
-- components: 686
-- concepts: 93
-- observations: 93
+- repos: 12
+- terms: 89
+- components: 599
+- concepts: 89
+- observations: 89
 
 ## Static behavior
 
@@ -38,9 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TanStack/form](https://github.com/TanStack/form) | 6552 | 2026-05-28T17:05:51Z | TypeScript | Infrastructure/tooling | 10 | 54 | 10 | 10 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-28T06:11:58Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
 | [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2150 | 2026-05-27T14:08:46Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
-| [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works) | 1802 | 2026-05-25T18:23:08Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
-| [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1280 | 2026-05-25T12:50:31Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -57,7 +54,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2496 | 2026-05-29T00:33:36Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
 | [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2297 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [safe-fndn/safe-smart-account](https://github.com/safe-fndn/safe-smart-account) | 2150 | 2026-05-27T14:08:46Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
-| [neavo/LinguaGacha](https://github.com/neavo/LinguaGacha) | 1974 | 2026-05-25T17:25:12Z | TypeScript | Infrastructure/tooling | 1 | 62 | 1 | 1 |
 | [microsoft/vscode-js-debug](https://github.com/microsoft/vscode-js-debug) | 1948 | 2026-05-28T06:11:58Z | TypeScript | Infrastructure/tooling | 4 | 101 | 4 | 4 |
-| [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works) | 1802 | 2026-05-25T18:23:08Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
-| [ebullient/obsidian-admonition](https://github.com/ebullient/obsidian-admonition) | 1280 | 2026-05-25T12:50:31Z | TypeScript | Infrastructure/tooling | 3 | 25 | 3 | 3 |

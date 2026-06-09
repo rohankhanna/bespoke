@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2314,
-    "concepts": 3086,
-    "observations": 3093,
-    "repos": 977,
-    "terms": 3067
+    "components": 2316,
+    "concepts": 3109,
+    "observations": 3116,
+    "repos": 982,
+    "terms": 3090
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -31,6 +31,7 @@
     "actions/jekyll-build-pages",
     "adobe-type-tools/cmap-resources",
     "ADVRHumanoids/casadi_kin_dyn",
+    "aesalazar/AsteroidsWasm",
     "agentica-project/rllm",
     "ahojnnes/local-feature-evaluation",
     "ai-forever/MoVQGAN",
@@ -78,6 +79,7 @@
     "anuvyklack/windows.nvim",
     "anyantudre/Florence-2-Vision-Language-Model",
     "AnyPortal/AnyPortal",
+    "ap/vim-buftabline",
     "apple/apple_rules_lint",
     "applied-science/js-interop",
     "approvals/ApprovalTests.Net",
@@ -145,6 +147,7 @@
     "BLAKE3-team/BLAKE3-specs",
     "blcuicall/CCL2022-CLTC",
     "BlinkDL/minGPT-tuned",
+    "BlinkDL/RWKV-CUDA",
     "Bluehouse-Technology/grpc",
     "bluespec/Flute",
     "bluespec/Piccolo",
@@ -577,6 +580,7 @@
     "lguenth/obsidian-templates",
     "lh3/miniasm",
     "li-xirong/coco-cn",
+    "libvips/ruby-vips",
     "lichengunc/MAttNet",
     "lichengunc/refer",
     "ligershark/WebOptimizer",
@@ -759,6 +763,7 @@
     "princeton-vl/lietorch",
     "PrismLibrary/Prism-Samples-Forms",
     "privacycg/CHIPS",
+    "privacycg/meetings",
     "privacycg/storage-access",
     "processing/processing-docs",
     "project-everest/vale",

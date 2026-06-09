@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-08T08:17:12.068845+00:00`
+Generated at: `2026-06-09T05:56:07.272990+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 101
-- terms: 816
-- components: 4691
-- concepts: 827
-- observations: 830
+- repos: 102
+- terms: 822
+- components: 4673
+- concepts: 833
+- observations: 836
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | 10654 | 2026-05-09T17:41:25Z | JavaScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
+| [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged) | 14618 | 2026-05-09T09:45:14Z | JavaScript | Infrastructure/tooling | 12 | 37 | 12 | 12 |
 | [emotion-js/emotion](https://github.com/emotion-js/emotion) | 18016 | 2026-05-06T07:42:22Z | JavaScript | Infrastructure/tooling | 6 | 74 | 6 | 6 |
 | [yokoffing/Betterfox](https://github.com/yokoffing/Betterfox) | 10377 | 2026-05-03T16:39:56Z | JavaScript | Unknown | 11 | 0 | 11 | 11 |
 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 22578 | 2026-05-03T14:32:10Z | JavaScript | Infrastructure/tooling | 19 | 7 | 23 | 23 |
@@ -126,7 +128,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [be5invis/Sarasa-Gothic](https://github.com/be5invis/Sarasa-Gothic) | 12160 | 2026-04-11T05:33:25Z | JavaScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) | 17870 | 2026-04-10T08:11:00Z | JavaScript | Infrastructure/tooling | 9 | 50 | 9 | 9 |
 | [ConardLi/easy-dataset](https://github.com/ConardLi/easy-dataset) | 14045 | 2026-04-10T06:04:48Z | JavaScript | Infrastructure/tooling | 2 | 63 | 2 | 2 |
-| [reactjs/react.dev](https://github.com/reactjs/react.dev) | 11733 | 2026-04-09T15:35:10Z | JavaScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -205,6 +206,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 15115 | 2026-04-18T20:42:15Z | JavaScript | Infrastructure/tooling | 2 | 4 | 0 | 0 |
 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15025 | 2026-04-16T13:29:21Z | JavaScript | Infrastructure/tooling | 9 | 71 | 9 | 9 |
 | [ampproject/amphtml](https://github.com/ampproject/amphtml) | 14905 | 2026-04-27T22:36:52Z | JavaScript | Infrastructure/tooling | 7 | 173 | 7 | 7 |
+| [lint-staged/lint-staged](https://github.com/lint-staged/lint-staged) | 14618 | 2026-05-09T09:45:14Z | JavaScript | Infrastructure/tooling | 12 | 37 | 12 | 12 |
 | [graphql/graphql-spec](https://github.com/graphql/graphql-spec) | 14595 | 2026-04-17T19:09:49Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [http-party/http-server](https://github.com/http-party/http-server) | 14179 | 2026-04-15T11:09:09Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
 | [http-party/node-http-proxy](https://github.com/http-party/node-http-proxy) | 14140 | 2026-04-30T21:10:24Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
@@ -221,13 +223,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
 | [wix/Detox](https://github.com/wix/Detox) | 11901 | 2026-04-27T10:24:49Z | JavaScript | Infrastructure/tooling | 17 | 37 | 17 | 17 |
 | [vega/vega](https://github.com/vega/vega) | 11849 | 2026-04-16T14:20:55Z | JavaScript | Infrastructure/tooling | 9 | 41 | 9 | 9 |
-| [reactjs/react.dev](https://github.com/reactjs/react.dev) | 11733 | 2026-04-09T15:35:10Z | JavaScript | Infrastructure/tooling | 7 | 86 | 7 | 7 |
 | [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [stylelint/stylelint](https://github.com/stylelint/stylelint) | 11452 | 2026-05-01T07:09:29Z | JavaScript | Infrastructure/tooling | 10 | 85 | 10 | 10 |
 | [acornjs/acorn](https://github.com/acornjs/acorn) | 11376 | 2026-04-30T21:08:48Z | JavaScript | Infrastructure/tooling | 0 | 14 | 0 | 0 |
 | [facebook/hermes](https://github.com/facebook/hermes) | 11013 | 2026-04-30T05:48:18Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |
 | [jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) | 10734 | 2026-04-17T14:36:42Z | JavaScript | Infrastructure/tooling | 2 | 37 | 2 | 2 |
 | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10669 | 2026-04-13T16:14:45Z | JavaScript | Infrastructure/tooling | 2 | 13 | 2 | 2 |
+| [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | 10654 | 2026-05-09T17:41:25Z | JavaScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
 | [protobufjs/protobuf.js](https://github.com/protobufjs/protobuf.js) | 10521 | 2026-04-24T06:50:48Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [yokoffing/Betterfox](https://github.com/yokoffing/Betterfox) | 10377 | 2026-05-03T16:39:56Z | JavaScript | Unknown | 11 | 0 | 11 | 11 |
 | [easydiffusion/easydiffusion](https://github.com/easydiffusion/easydiffusion) | 10351 | 2026-04-30T05:33:50Z | JavaScript | CLI | 3 | 1 | 3 | 3 |

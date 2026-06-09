@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 365,
-    "concepts": 307,
-    "observations": 307,
-    "repos": 76,
-    "terms": 304
+    "components": 363,
+    "concepts": 313,
+    "observations": 313,
+    "repos": 78,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-08T08:17:12.068845+00:00",
+  "generated_at": "2026-06-09T05:56:07.272990+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
+    "Accio-Lab/SwimBird",
     "ai4colonoscopy/PraNet-V2",
     "all-the-noises/eval-arena",
     "allenai/beaker-gantry",
@@ -34,7 +35,6 @@
     "c4ffein/realworld-django-ninja",
     "chaoss/grimoirelab-elk",
     "chaoss/grimoirelab-sirmordred",
-    "ckan/ckanext-xloader",
     "ckan/datapusher",
     "clearml/clearml-session",
     "cmake-wheel/cmeel",
@@ -60,9 +60,11 @@
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
     "jawah/wassima",
+    "JuergenFleiss/atrain_core",
     "jupyter/governance",
     "KratosMultiphysics/Examples",
     "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+    "lace/polliwog",
     "LedgerHQ/ledgerctl",
     "libp2p/test-plans",
     "liran-funaro/sphinx-markdown-builder",
