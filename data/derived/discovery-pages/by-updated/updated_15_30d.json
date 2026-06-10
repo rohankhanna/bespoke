@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 3916,
-    "concepts": 2210,
-    "observations": 2216,
-    "repos": 298,
-    "terms": 2180
+    "components": 3941,
+    "concepts": 2229,
+    "observations": 2235,
+    "repos": 300,
+    "terms": 2199
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2U1/Qwen-VL-Series-Finetune",
@@ -25,6 +25,7 @@
     "aidenlab/juicebox.js",
     "ajv-validator/ajv",
     "Aleph-Alpha/ts-rs",
+    "all-contributors/app",
     "alloy-rs/svm-rs",
     "altschuler/imgui-knobs",
     "amazon-ion/ion-cli",
@@ -83,6 +84,7 @@
     "compozy/kb",
     "copier-org/copier",
     "CopyText/TextCopy",
+    "crate-ci/cargo-release",
     "DanielLin94144/Full-Duplex-Bench",
     "danielrosehill/Claude-Code-Projects-Index",
     "databendlabs/databend",
@@ -106,6 +108,7 @@
     "erigontech/mdbx-go",
     "etcd-io/bbolt",
     "f3liz-casa/noraneko",
+    "Farama-Foundation/Minigrid",
     "flagos-ai/FlagCX",
     "floooh/sokol",
     "fluent-vue/fluent-vue",
@@ -237,7 +240,6 @@
     "openjdk/jdk21u-dev",
     "opentk/opentk",
     "PDFMathTranslate/PDFMathTranslate",
-    "pdfme/pdfme",
     "perrygeo/python-rasterstats",
     "PortAudio/portaudio",
     "preservim/tagbar",

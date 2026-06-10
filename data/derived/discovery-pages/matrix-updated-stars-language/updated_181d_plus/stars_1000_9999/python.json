@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 968,
-    "concepts": 3858,
-    "observations": 3860,
-    "repos": 984,
-    "terms": 3786
+    "components": 972,
+    "concepts": 3880,
+    "observations": 3882,
+    "repos": 985,
+    "terms": 3808
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -902,6 +902,7 @@
     "traveller59/second.pytorch",
     "traveller59/spconv",
     "TRI-ML/packnet-sfm",
+    "Trusted-AI/adversarial-robustness-toolbox",
     "trzsz/trzsz",
     "TsinghuaAI/CPM-1-Generate",
     "tsurumeso/vocal-remover",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1036,
-    "concepts": 888,
-    "observations": 890,
-    "repos": 232,
-    "terms": 883
+    "components": 1039,
+    "concepts": 891,
+    "observations": 893,
+    "repos": 233,
+    "terms": 886
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -85,6 +85,7 @@
     "Cysharp/ValueTaskSupplement",
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
+    "dashbitco/nimble_options",
     "declare-lab/TangoFlux",
     "Deep-Symmetry/afterglow",
     "detekt/detekt-intellij-plugin",

@@ -1,24 +1,23 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 412,
-    "observations": 413,
-    "repos": 62,
-    "terms": 412
+    "components": 757,
+    "concepts": 400,
+    "observations": 401,
+    "repos": 61,
+    "terms": 400
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "abaplint/transpiler",
     "adamchainz/blacken-docs",
     "AI-Hypercomputer/maxdiffusion",
-    "all-contributors/app",
     "antvis/GPT-Vis",
     "apalache-mc/apalache",
     "appelmar/gdalcubes",

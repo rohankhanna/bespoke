@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5307,
-    "concepts": 3401,
-    "observations": 3411,
-    "repos": 864,
-    "terms": 3384
+    "components": 5310,
+    "concepts": 3404,
+    "observations": 3414,
+    "repos": 865,
+    "terms": 3387
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -248,6 +248,7 @@
     "Dao-AILab/causal-conv1d",
     "Dao-AILab/fast-hadamard-transform",
     "DarthAffe/StableDiffusion.NET",
+    "dashbitco/nimble_options",
     "dbeley/awesome-lemmy",
     "declare-lab/TangoFlux",
     "Deep-Symmetry/afterglow",

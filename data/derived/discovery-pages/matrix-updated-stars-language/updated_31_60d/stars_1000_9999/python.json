@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3510,
-    "concepts": 3957,
-    "observations": 3969,
-    "repos": 469,
-    "terms": 3951
+    "components": 3505,
+    "concepts": 3944,
+    "observations": 3956,
+    "repos": 468,
+    "terms": 3938
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -396,7 +396,6 @@
     "pytorch/torchtitan",
     "pytorch/tutorials",
     "qdrant/fastembed",
-    "RapidAI/RapidOCR",
     "rapidfuzz/RapidFuzz",
     "raspberrypi/documentation",
     "rasterio/rasterio",

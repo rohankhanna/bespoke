@@ -1,6 +1,6 @@
 {
   "facet_version": 1,
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "language_counts": {
     "c_cpp": 2386,
     "go": 1716,
@@ -29,12 +29,12 @@
   },
   "updated_counts": {
     "updated_0_1d": 2,
-    "updated_15_30d": 298,
-    "updated_181d_plus": 12578,
+    "updated_15_30d": 300,
+    "updated_181d_plus": 12580,
     "updated_1_7d": 0,
-    "updated_31_60d": 7452,
-    "updated_61_90d": 2237,
-    "updated_8_14d": 245,
+    "updated_31_60d": 7447,
+    "updated_61_90d": 2241,
+    "updated_8_14d": 242,
     "updated_91_180d": 2516
   }
 }

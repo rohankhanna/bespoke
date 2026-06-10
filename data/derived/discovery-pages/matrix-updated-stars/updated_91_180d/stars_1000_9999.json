@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3997,
-    "concepts": 3054,
-    "observations": 3063,
+    "components": 4006,
+    "concepts": 3033,
+    "observations": 3042,
     "repos": 604,
-    "terms": 3030
+    "terms": 3009
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -42,6 +42,7 @@
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
     "aliyun/aliyun-oss-java-sdk",
+    "allan2/dotenvy",
     "alteryx/featuretools",
     "AmberSahdev/Open-Interface",
     "amebalabs/TRex",
@@ -576,7 +577,6 @@
     "trevin-creator/autoresearch-mlx",
     "tris203/precognition.nvim",
     "TritonDataCenter/node-verror",
-    "Trusted-AI/adversarial-robustness-toolbox",
     "tsconfig/bases",
     "turboderp-org/exllamav2",
     "typicode/mistcss",

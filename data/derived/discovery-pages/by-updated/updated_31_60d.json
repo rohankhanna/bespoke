@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 95411,
-    "concepts": 49778,
-    "observations": 49961,
-    "repos": 7452,
-    "terms": 50039
+    "components": 95414,
+    "concepts": 49768,
+    "observations": 49951,
+    "repos": 7447,
+    "terms": 50029
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "06ketan/slideshot",
@@ -569,7 +569,6 @@
     "apache/arrow-testing",
     "apache/beam",
     "apache/camel",
-    "apache/camel-examples",
     "apache/camel-quarkus-examples",
     "apache/commons-jexl",
     "apache/cordova-android",
@@ -2432,7 +2431,6 @@
     "elixir-ecto/db_connection",
     "elixir-ecto/ecto",
     "elixir-ecto/ecto_sql",
-    "elixir-ecto/postgrex",
     "elixir-grpc/grpc-reflection",
     "elixir-image/image",
     "elixir-lang/elixir",
@@ -3883,7 +3881,6 @@
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-r",
     "jpmml/jpmml-sklearn",
-    "jpmml/jpmml-sparkml",
     "jpmml/jpmml-statsmodels",
     "jpmml/jpmml-xgboost",
     "jprichardson/node-fs-extra",
@@ -4427,7 +4424,6 @@
     "llamastack/llama-stack-client-python",
     "llamastack/llama-stack-client-typescript",
     "LLaVA-VL/LLaVA-NeXT",
-    "llm-in-sandbox/llm-in-sandbox",
     "LlmKira/fast-langdetect",
     "llnl/blt",
     "llnl/camp",
@@ -5583,6 +5579,7 @@
     "pbatard/Mosby",
     "pchalasani/claude-code-tools",
     "pdeljanov/Symphonia",
+    "pdfme/pdfme",
     "pditommaso/awesome-pipeline",
     "pdm-project/pdm",
     "pdm-project/tox-pdm",
@@ -5771,7 +5768,6 @@
     "proxy-wasm/proxy-wasm-cpp-host",
     "proxy-wasm/proxy-wasm-rust-sdk",
     "proxytunnel/proxytunnel",
-    "pry/pry-stack_explorer",
     "psf/requests",
     "psmux/pstop",
     "psyonicinc/ability-hand-api",
@@ -5953,7 +5949,6 @@
     "raphamorim/rio",
     "raphw/byte-buddy",
     "rapid7/metasploit-framework",
-    "RapidAI/RapidOCR",
     "rapideditor/country-coder",
     "rapideditor/location-conflation",
     "rapideditor/temaki",

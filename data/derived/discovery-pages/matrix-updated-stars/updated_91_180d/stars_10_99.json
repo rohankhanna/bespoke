@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2762,
-    "concepts": 1485,
-    "observations": 1491,
-    "repos": 574,
-    "terms": 1490
+    "components": 2760,
+    "concepts": 1483,
+    "observations": 1489,
+    "repos": 573,
+    "terms": 1488
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
@@ -473,7 +473,6 @@
     "piomin/spring-ai-showcase",
     "pkgxdev/dev",
     "pkgxdev/pkgo",
-    "probe-lab/network-measurements",
     "quarkiverse/quarkiverse",
     "r-spatial/lwgeom",
     "r-spatial/s2",

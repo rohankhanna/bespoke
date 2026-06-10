@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 237,
-    "observations": 240,
-    "repos": 42,
-    "terms": 235
+    "components": 256,
+    "concepts": 238,
+    "observations": 241,
+    "repos": 43,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "a16z/helios",
+    "allan2/dotenvy",
     "anordal/shellharden",
     "anthropics/claudes-c-compiler",
     "apache/horaedb",

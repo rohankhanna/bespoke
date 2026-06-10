@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 31928,
-    "concepts": 18595,
-    "observations": 18663,
-    "repos": 2301,
-    "terms": 18648
+    "components": 31935,
+    "concepts": 18594,
+    "observations": 18662,
+    "repos": 2300,
+    "terms": 18647
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -687,7 +687,6 @@
     "elfmz/far2l",
     "eliben/pyelftools",
     "elixir-ecto/ecto",
-    "elixir-ecto/postgrex",
     "elixir-lang/ex_doc",
     "elixir-mint/mint",
     "elixir-tesla/tesla",
@@ -1690,6 +1689,7 @@
     "paullouisageneau/libdatachannel",
     "pchalasani/claude-code-tools",
     "pdeljanov/Symphonia",
+    "pdfme/pdfme",
     "pditommaso/awesome-pipeline",
     "pdm-project/pdm",
     "peco/peco",
@@ -1822,7 +1822,6 @@
     "ranisalt/node-argon2",
     "raphamorim/rio",
     "raphw/byte-buddy",
-    "RapidAI/RapidOCR",
     "rapidfuzz/RapidFuzz",
     "rapidsai/cudf",
     "rapidsai/cugraph",

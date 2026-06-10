@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 186,
-    "observations": 187,
-    "repos": 21,
-    "terms": 186
+    "components": 171,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 20,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "aigc-apps/VideoX-Fun",
     "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
-    "Farama-Foundation/Minigrid",
     "fla-org/flash-linear-attention",
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",

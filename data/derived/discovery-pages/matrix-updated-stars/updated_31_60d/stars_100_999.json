@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 21922,
-    "concepts": 12848,
-    "observations": 12895,
-    "repos": 2184,
-    "terms": 12932
+    "components": 21918,
+    "concepts": 12839,
+    "observations": 12886,
+    "repos": 2180,
+    "terms": 12923
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -178,7 +178,6 @@
     "apache/arrow-adbc",
     "apache/arrow-go",
     "apache/arrow-rs-object-store",
-    "apache/camel-examples",
     "apache/commons-jexl",
     "apache/datafusion-python",
     "apache/datasketches-cpp",
@@ -1122,7 +1121,6 @@
     "Joshuaalbert/jaxns",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-sklearn",
-    "jpmml/jpmml-sparkml",
     "jpmml/jpmml-xgboost",
     "jquast/wcwidth",
     "jrh13/hol-light",
@@ -1306,7 +1304,6 @@
     "Livox-SDK/livox_ros_driver2",
     "llama-farm/llamafarm",
     "llamastack/llama-stack-client-python",
-    "llm-in-sandbox/llm-in-sandbox",
     "LlmKira/fast-langdetect",
     "llnl/blt",
     "llnl/CHAI",
@@ -1718,7 +1715,6 @@
     "prove-rs/z3.rs",
     "proxy-wasm/proxy-wasm-rust-sdk",
     "proxytunnel/proxytunnel",
-    "pry/pry-stack_explorer",
     "psmux/pstop",
     "pubgrub-rs/pubgrub",
     "pulumi/pulumi-aws",

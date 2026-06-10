@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48909,
-    "concepts": 34793,
-    "observations": 34857,
-    "repos": 12578,
-    "terms": 34347
+    "components": 48915,
+    "concepts": 34817,
+    "observations": 34881,
+    "repos": 12580,
+    "terms": 34371
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -9768,6 +9768,7 @@
     "privacycg/template",
     "privatenumber/esbuild-loader-examples",
     "probe-lab/github-mgmt",
+    "probe-lab/network-measurements",
     "probonopd/static-tools",
     "probot/ideas",
     "processing/processing",
@@ -11605,6 +11606,7 @@
     "trufanov-nok/minidjvu-mod",
     "trullock/NUglify",
     "truskovskiyk/nima.pytorch",
+    "Trusted-AI/adversarial-robustness-toolbox",
     "trustin/os-maven-plugin",
     "trustwallet/web3-react-trust-wallet",
     "trylovetom/clean-code-javascript",

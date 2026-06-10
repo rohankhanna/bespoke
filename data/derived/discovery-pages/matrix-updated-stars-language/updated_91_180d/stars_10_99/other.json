@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 577,
-    "concepts": 361,
-    "observations": 362,
-    "repos": 150,
-    "terms": 358
+    "components": 575,
+    "concepts": 359,
+    "observations": 360,
+    "repos": 149,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -133,7 +133,6 @@
     "paleolimbot/geos",
     "patrickgold/jetpref",
     "php/doc-it",
-    "probe-lab/network-measurements",
     "rcasia/neotest-bash",
     "reisub/http_cookie",
     "revfactory/claude-code-harness",

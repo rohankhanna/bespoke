@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1517,
-    "concepts": 950,
-    "observations": 952,
-    "repos": 108,
-    "terms": 931
+    "components": 1526,
+    "concepts": 957,
+    "observations": 959,
+    "repos": 109,
+    "terms": 938
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -33,6 +33,7 @@
     "can1357/oh-my-pi",
     "collabora/WhisperLive",
     "copier-org/copier",
+    "crate-ci/cargo-release",
     "databendlabs/databend",
     "devlooped/moq",
     "doctest/doctest",
@@ -40,6 +41,7 @@
     "ebullient/obsidian-admonition",
     "electron/rebuild",
     "etcd-io/bbolt",
+    "Farama-Foundation/Minigrid",
     "floooh/sokol",
     "free-audio/clap",
     "FunAudioLLM/Fun-ASR",
@@ -90,7 +92,6 @@
     "nvimdev/lspsaga.nvim",
     "openai/openai-dotnet",
     "opentk/opentk",
-    "pdfme/pdfme",
     "PortAudio/portaudio",
     "preservim/tagbar",
     "pure-data/pure-data",

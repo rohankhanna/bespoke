@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago
 
-Generated at: `2026-06-10T06:02:18.895760+00:00`
+Generated at: `2026-06-10T07:56:48.597441+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-10T06:02:18.895760+00:00`
 
 ## Counts
 
-- repos: 245
-- terms: 2169
-- components: 4694
-- concepts: 2170
-- observations: 2183
+- repos: 242
+- terms: 2138
+- components: 4654
+- concepts: 2139
+- observations: 2152
 
 ## Static behavior
 
@@ -264,9 +264,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [riscv-collab/riscv-gnu-toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain) | 4512 | 2026-05-27T09:01:05Z | C/C++ | Infrastructure/tooling | 2 | 17 | 2 | 3 |
 | [unifyai/ivy](https://github.com/unifyai/ivy) | 14182 | 2026-05-27T08:28:41Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 10 |
 | [flagos-ai/FlagAttention](https://github.com/flagos-ai/FlagAttention) | 294 | 2026-05-27T08:14:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [all-contributors/app](https://github.com/all-contributors/app) | 625 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-27T06:09:52Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -397,7 +394,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-gemini/live-api-web-console](https://github.com/google-gemini/live-api-web-console) | 2552 | 2026-05-29T04:23:42Z | TypeScript | Web app | 2 | 28 | 2 | 2 |
 | [module-federation/core](https://github.com/module-federation/core) | 2540 | 2026-05-30T02:08:08Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
 | [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server) | 2496 | 2026-05-29T00:33:36Z | TypeScript | Infrastructure/tooling | 6 | 50 | 6 | 6 |
-| [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [eclipse-jdtls/eclipse.jdt.ls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) | 2352 | 2026-05-30T08:45:01Z | Java | CLI | 8 | 12 | 8 | 8 |
 | [alichherawalla/off-grid-mobile-ai](https://github.com/alichherawalla/off-grid-mobile-ai) | 2297 | 2026-05-29T06:05:41Z | TypeScript | Infrastructure/tooling | 16 | 72 | 16 | 16 |
 | [psmux/psmux](https://github.com/psmux/psmux) | 2288 | 2026-05-28T13:42:43Z | Other | CLI | 16 | 5 | 16 | 16 |
@@ -413,7 +409,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [seancorfield/honeysql](https://github.com/seancorfield/honeysql) | 1896 | 2026-05-29T18:08:27Z | Other | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1841 | 2026-05-28T15:00:25Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1721 | 2026-05-29T19:57:46Z | Python | Library | 5 | 0 | 5 | 5 |
-| [crate-ci/cargo-release](https://github.com/crate-ci/cargo-release) | 1561 | 2026-05-27T06:09:52Z | Rust | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [elixir-grpc/grpc](https://github.com/elixir-grpc/grpc) | 1516 | 2026-05-28T03:51:25Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [bazel-contrib/rules_go](https://github.com/bazel-contrib/rules_go) | 1478 | 2026-05-29T16:46:05Z | Go | Unknown | 3 | 0 | 3 | 3 |
 | [datalevin/datalevin](https://github.com/datalevin/datalevin) | 1429 | 2026-05-29T04:49:28Z | Other | CLI | 11 | 14 | 11 | 11 |
@@ -446,7 +441,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [celtera/libremidi](https://github.com/celtera/libremidi) | 686 | 2026-05-29T01:10:42Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
 | [adamchainz/blacken-docs](https://github.com/adamchainz/blacken-docs) | 681 | 2026-05-27T22:15:16Z | Python | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [redis/redis-om-spring](https://github.com/redis/redis-om-spring) | 652 | 2026-05-29T21:46:32Z | Java | Infrastructure/tooling | 8 | 18 | 8 | 8 |
-| [all-contributors/app](https://github.com/all-contributors/app) | 625 | 2026-05-27T06:49:39Z | JavaScript | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [JuliaGraphics/Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl) | 623 | 2026-05-28T13:59:53Z | Other | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [machinewrapped/llm-subtrans](https://github.com/machinewrapped/llm-subtrans) | 602 | 2026-05-29T20:59:09Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |

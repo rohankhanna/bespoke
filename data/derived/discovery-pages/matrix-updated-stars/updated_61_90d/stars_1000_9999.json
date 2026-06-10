@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5851,
-    "concepts": 3498,
-    "observations": 3511,
-    "repos": 603,
-    "terms": 3505
+    "components": 5846,
+    "concepts": 3510,
+    "observations": 3523,
+    "repos": 604,
+    "terms": 3517
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -34,7 +34,6 @@
     "alexreisner/geocoder",
     "alibaba/havenask",
     "AlibabaResearch/AdvancedLiterateMachinery",
-    "allan2/dotenvy",
     "allweonedev/presentation-ai",
     "amqp-node/amqplib",
     "AndrewRadev/splitjoin.vim",
@@ -173,6 +172,7 @@
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "ElectronNET/Electron.NET",
+    "elixir-ecto/postgrex",
     "elixir-plug/plug",
     "ElMassimo/iles",
     "emilk/eframe_template",
@@ -479,6 +479,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "QwenLM/Qwen3-VL-Embedding",
     "r-lib/lintr",
+    "RapidAI/RapidOCR",
     "rcarriga/nvim-dap-ui",
     "redis/hiredis",
     "REditorSupport/vscode-R",

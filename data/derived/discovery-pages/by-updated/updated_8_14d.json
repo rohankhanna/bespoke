@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4694,
-    "concepts": 2170,
-    "observations": 2183,
-    "repos": 245,
-    "terms": 2169
+    "components": 4654,
+    "concepts": 2139,
+    "observations": 2152,
+    "repos": 242,
+    "terms": 2138
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "4catalyzer/javascript",
@@ -23,7 +23,6 @@
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
-    "all-contributors/app",
     "alloy-rs/evm",
     "anthropics/claude-cookbooks",
     "antvis/GPT-Vis",
@@ -59,7 +58,6 @@
     "Comfy-Org/ComfyUI-Manager",
     "confluentinc/librdkafka",
     "conventional-changelog/conventional-changelog",
-    "crate-ci/cargo-release",
     "crc-org/crc",
     "Dao-AILab/flash-attention",
     "datalab-to/surya",
@@ -84,7 +82,6 @@
     "endojs/endo",
     "f/prompts.chat",
     "FAIR-IMPACT/MOD",
-    "Farama-Foundation/Minigrid",
     "fastapi/fastapi",
     "fastapi/full-stack-fastapi-template",
     "firebase/flutterfire",

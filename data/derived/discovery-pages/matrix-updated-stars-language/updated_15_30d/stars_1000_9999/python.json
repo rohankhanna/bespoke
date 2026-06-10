@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 238,
-    "observations": 239,
-    "repos": 27,
-    "terms": 232
+    "components": 159,
+    "concepts": 248,
+    "observations": 249,
+    "repos": 28,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "awslabs/aidlc-workflows",
     "collabora/WhisperLive",
     "copier-org/copier",
+    "Farama-Foundation/Minigrid",
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",

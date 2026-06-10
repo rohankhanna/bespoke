@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11484,
-    "concepts": 2248,
-    "observations": 2254,
-    "repos": 269,
-    "terms": 2342
+    "components": 11499,
+    "concepts": 2260,
+    "observations": 2266,
+    "repos": 270,
+    "terms": 2354
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -206,6 +206,7 @@
     "owloops/claude-powerline",
     "PAIR-code/lit",
     "panva/jose",
+    "pdfme/pdfme",
     "peter-evans/create-pull-request",
     "piebald-ai/tweakcc",
     "pixiv/three-vrm",

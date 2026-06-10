@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14513,
-    "concepts": 9383,
-    "observations": 9414,
+    "components": 14523,
+    "concepts": 9363,
+    "observations": 9394,
     "repos": 2516,
-    "terms": 9354
+    "terms": 9334
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -178,6 +178,7 @@
     "alirezarezvani/claude-code-tresor",
     "aliyun/aliyun-oss-java-sdk",
     "all-the-noises/data",
+    "allan2/dotenvy",
     "alloy-rs/op-alloy",
     "alonw0/cc-redalerts-statusline",
     "alonw0/web-asset-generator",
@@ -736,6 +737,7 @@
     "dart4e/dart4e-studio",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/mox",
+    "dashbitco/nimble_options",
     "databendlabs/iceberg-rust",
     "databendlabs/opensrv",
     "databendlabs/watcher",
@@ -1937,7 +1939,6 @@
     "primer/github-vscode-theme",
     "prisma/tiberius",
     "PrithivirajDamodaran/FlashRank",
-    "probe-lab/network-measurements",
     "protectai/llm-guard",
     "protocolbuffers/protobuf-go",
     "proxy-wasm/proxy-wasm-cpp-sdk",
@@ -2329,7 +2330,6 @@
     "TritonDataCenter/node-verror",
     "trptcolin/reply",
     "trufflesecurity/test_keys",
-    "Trusted-AI/adversarial-robustness-toolbox",
     "trzsz/tabby-trzsz",
     "trzsz/trzsz.js",
     "tsconfig/bases",

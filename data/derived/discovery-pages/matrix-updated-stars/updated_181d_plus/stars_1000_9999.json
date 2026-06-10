@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10680,
-    "concepts": 9308,
-    "observations": 9320,
-    "repos": 2396,
-    "terms": 9173
+    "components": 10684,
+    "concepts": 9330,
+    "observations": 9342,
+    "repos": 2397,
+    "terms": 9195
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T06:02:18.895760+00:00",
+  "generated_at": "2026-06-10T07:56:48.597441+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -2206,6 +2206,7 @@
     "trentm/node-bunyan",
     "TRI-ML/packnet-sfm",
     "tronkko/dirent",
+    "Trusted-AI/adversarial-robustness-toolbox",
     "trzsz/trzsz",
     "tsdjs/tsd",
     "TsinghuaAI/CPM-1-Generate",
