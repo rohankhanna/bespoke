@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2099,
-    "concepts": 433,
-    "observations": 434,
-    "repos": 60,
-    "terms": 462
+    "components": 2281,
+    "concepts": 460,
+    "observations": 461,
+    "repos": 66,
+    "terms": 489
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -20,6 +20,7 @@
     "antfu-collective/vite-ssg",
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
+    "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
@@ -29,8 +30,10 @@
     "coaidev/coai",
     "ekalinin/sitemap.js",
     "electron/windows-installer",
+    "ElMassimo/iles",
     "enisdenjo/graphql-ws",
     "ethers-io/ethers.js",
+    "frenic/csstype",
     "gajus/slonik",
     "glittercowboy/taches-cc-resources",
     "golang/vscode-go",
@@ -41,6 +44,7 @@
     "graphql-hive/graphql-config",
     "grpc/grpc-node",
     "gustavoguichard/string-ts",
+    "heyhuynhgiabuu/proxypal",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
     "isaacs/node-glob",
@@ -57,10 +61,12 @@
     "microsoft/genaiscript",
     "microsoft/node-pty",
     "microsoft/tsdoc",
+    "microsoft/vscode-eslint",
     "Mobile-Artificial-Intelligence/maid",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
     "oclif/oclif",
+    "opactorai/claudable",
     "peter-evans/repository-dispatch",
     "pillarjs/path-to-regexp",
     "preactjs/signals",

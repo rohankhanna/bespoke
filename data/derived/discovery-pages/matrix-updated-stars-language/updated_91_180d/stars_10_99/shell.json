@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 36,
+    "components": 38,
     "concepts": 40,
     "observations": 40,
-    "repos": 14,
+    "repos": 16,
     "terms": 41
   },
   "facet_version": 1,
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "Aedelon/claude-code-blueprint",
     "cehoffman/lua-build",
+    "coin-or/coinbrew",
+    "containers/image_build",
     "erikw/tmux-dark-notify",
     "graphql/composite-schemas-spec",
     "jawwadfirdousi/agent-skills",

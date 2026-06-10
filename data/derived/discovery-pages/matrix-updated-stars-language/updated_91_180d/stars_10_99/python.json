@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 284,
-    "observations": 285,
-    "repos": 113,
-    "terms": 292
+    "components": 302,
+    "concepts": 290,
+    "observations": 291,
+    "repos": 115,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -58,6 +58,7 @@
     "enjoy-digital/liteiclink",
     "enjoy-digital/litex_hw_ci",
     "fla-org/flash-bidirectional-linear-attention",
+    "foldl/AlphaGeometryRE",
     "fsspec/sshfs",
     "galaxyproject/tools-devteam",
     "gazebosim/gz-mujoco",
@@ -87,6 +88,7 @@
     "jsonquerylang/jsonquery-python",
     "Justintime50/homebrew-releaser",
     "layumi/3D-Magic-Mirror",
+    "liran-funaro/sphinx-markdown-builder",
     "Lizw14/Super-CLEVR",
     "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",

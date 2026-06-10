@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 15,
-    "terms": 83
+    "components": 459,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 14,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "can1357/oh-my-pi",
@@ -27,7 +27,6 @@
     "shareAI-lab/Kode-CLI",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
-    "vercel/serve",
-    "vitejs/vite-plugin-react"
+    "vercel/serve"
   ]
 }

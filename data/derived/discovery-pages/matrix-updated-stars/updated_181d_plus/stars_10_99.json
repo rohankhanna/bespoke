@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12107,
-    "concepts": 6995,
-    "observations": 7012,
-    "repos": 3311,
-    "terms": 6942
+    "components": 12113,
+    "concepts": 6998,
+    "observations": 7015,
+    "repos": 3314,
+    "terms": 6945
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -2200,6 +2200,7 @@
     "matafokka/geotiff-geokeys-to-proj4",
     "MatchaChoco010/egui-winit-ash-integration",
     "MatchaChoco010/egui_winit_ash_vk_mem",
+    "MaterializeInc/rust-postgres",
     "mathMakesArt/Erigon-on-RPi-4",
     "mathworks-robotics/mujoco-simulink-blockset",
     "matklad/djot-rs",
@@ -2804,6 +2805,7 @@
     "sayakpaul/BiT-jax2tf",
     "sayakpaul/FunMatch-Distillation",
     "sayanarijit/jf",
+    "sbcgua/abap-string-map",
     "sbingler/Origin-Bound-Cookies",
     "scaleway/initrd",
     "scaleway/serverless-functions-go",
@@ -3301,6 +3303,7 @@
     "yzyydev/agentic-coding-structure",
     "ZacharyMeng/PolaFormer",
     "zahraatashgahi/QuickSelection",
+    "zakarumych/allocator-api2",
     "zakarumych/sierra",
     "zcash/pasta",
     "zef/vim-cycle",

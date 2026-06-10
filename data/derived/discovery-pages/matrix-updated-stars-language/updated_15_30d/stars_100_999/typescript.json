@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 858,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 20,
-    "terms": 185
+    "components": 766,
+    "concepts": 175,
+    "observations": 175,
+    "repos": 19,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0no-co/wonka",
-    "2mawi2/schaltwerk",
     "apify/apify-cli",
     "apify/mcpc",
     "Brendonovich/MacroGraph",
@@ -30,9 +29,9 @@
     "matter-js/matter.js",
     "Nerivec/zigbee2mqtt-windfront",
     "nurikk/zigbee2mqtt-frontend",
-    "Rel1cx/eslint-react",
     "RiDDiX/home-assistant-matter-hub",
-    "serversideup/webext-bridge",
+    "safe-fndn/safe-singleton-factory",
+    "wevm/abitype",
     "Zoo-Code-Org/Zoo-Code"
   ]
 }

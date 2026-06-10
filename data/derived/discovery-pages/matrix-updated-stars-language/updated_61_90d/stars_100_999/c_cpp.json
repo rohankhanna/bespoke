@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 460,
-    "observations": 461,
-    "repos": 85,
-    "terms": 456
+    "components": 277,
+    "concepts": 470,
+    "observations": 471,
+    "repos": 89,
+    "terms": 466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -52,6 +52,7 @@
     "heal-research/operon",
     "intel/gmmlib",
     "intel/opencl-clang",
+    "intel/QAT_Engine",
     "ipsilon/evmc",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
@@ -59,6 +60,7 @@
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
+    "libimobiledevice/libplist",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
     "lualanes/lanes",
@@ -82,6 +84,7 @@
     "ptsochantaris/emeltal",
     "raysan5/raylib-games",
     "RoaringBitmap/croaring-rs",
+    "roboception/cvkit",
     "rusty1s/pytorch_cluster",
     "samtools/bcftools",
     "Slamtec/rplidar_sdk",
@@ -96,6 +99,7 @@
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",
     "vovkos/doxyrest",
+    "wdas/ptex",
     "webgpu-native/webgpu-headers",
     "WojciechMula/toys",
     "xtensor-stack/xtensor-python"

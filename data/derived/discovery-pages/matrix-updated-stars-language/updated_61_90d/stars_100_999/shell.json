@@ -1,8 +1,8 @@
 {
   "counts": {
-    "components": 70,
+    "components": 76,
     "concepts": 87,
-    "observations": 87,
+    "observations": 88,
     "repos": 20,
     "terms": 87
   },
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
-    "2KAbhishek/tmux2k",
     "aslafy-z/helm-git",
     "aws/aws-app-mesh-examples",
     "chaoss/grimoirelab",
@@ -29,6 +28,7 @@
     "mklement0/n-install",
     "mosaicml/examples",
     "NVIDIA/DL4AGX",
+    "reviewdog/action-misspell",
     "SamNet-dev/paqctl",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",

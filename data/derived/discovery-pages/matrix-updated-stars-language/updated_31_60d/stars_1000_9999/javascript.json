@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4938,
-    "concepts": 955,
-    "observations": 956,
-    "repos": 135,
-    "terms": 949
+    "components": 4787,
+    "concepts": 931,
+    "observations": 932,
+    "repos": 131,
+    "terms": 925
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "actions/javascript-action",
@@ -44,7 +44,6 @@
     "dotenvx/dotenvx",
     "eslint/js",
     "expressjs/body-parser",
-    "facebook/jscodeshift",
     "flow-typed/flow-typed",
     "fullstorydev/grpcui",
     "gatsbyjs/gatsby-starter-blog",
@@ -72,7 +71,6 @@
     "jquery/jquery-color",
     "js-joda/js-joda",
     "json-schema-org/json-schema-spec",
-    "jspreadsheet/ce",
     "keepassxreboot/keepassxc-browser",
     "KhronosGroup/Vulkan-Docs",
     "kpdecker/jsdiff",
@@ -139,8 +137,6 @@
     "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "WebKit/WebKit",
-    "webpack/css-loader",
-    "webpack/postcss-loader",
     "webpack/sass-loader",
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",

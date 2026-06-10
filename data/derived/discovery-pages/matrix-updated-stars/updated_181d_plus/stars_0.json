@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1349,
-    "concepts": 554,
-    "observations": 556,
-    "repos": 455,
-    "terms": 554
+    "concepts": 558,
+    "observations": 560,
+    "repos": 456,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -161,6 +161,7 @@
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
+    "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Kokoro-FastAPI",
     "danielrosehill/Local-ASR-STT-Benchmark",
     "danielrosehill/N8N-Workflow-Sanitiser-Agent",

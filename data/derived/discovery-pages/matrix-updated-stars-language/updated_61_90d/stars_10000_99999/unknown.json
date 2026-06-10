@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 5,
-    "terms": 27
+    "concepts": 24,
+    "observations": 24,
+    "repos": 4,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "enaqx/awesome-react",
-    "knownsec/404StarLink",
     "sindresorhus/awesome-nodejs",
     "vuejs/awesome-vue",
     "xtaci/kcptun"

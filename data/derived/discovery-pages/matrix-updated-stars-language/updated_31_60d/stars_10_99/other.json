@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2219,
-    "concepts": 1271,
-    "observations": 1275,
-    "repos": 313,
-    "terms": 1273
+    "components": 2210,
+    "concepts": 1274,
+    "observations": 1278,
+    "repos": 310,
+    "terms": 1276
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -58,7 +58,6 @@
     "avikeid2007/KaiROS-AI",
     "awnist/cson-loader",
     "aws-otel/aws-otel.github.io",
-    "Azure-Samples/openai-chat-app-entra-auth-local",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
@@ -125,6 +124,7 @@
     "foo-dogsquared/hugo-mod-simple-icons",
     "foxoman/zed-nim",
     "fredrikekre/runic-action",
+    "FreneticLLC/FreneticGameEngine",
     "ganelson/intest",
     "gazebosim/gz-cmake",
     "gazebosim/sdf_tutorials",
@@ -197,7 +197,6 @@
     "Kaiede/Bedrockifier",
     "karafka/karafka-web",
     "kata-containers/www.katacontainers.io",
-    "kbenzie/vim-spirv",
     "kddnewton/sorbet-eraser",
     "kendryte/k230_canmv_docs",
     "Kong/developer.konghq.com",
@@ -235,7 +234,6 @@
     "nodenv/homebrew-nodenv",
     "NVIDIA/DALI_extra",
     "NVIDIA/spark-rapids-tools",
-    "ocaml-opam/opam2web",
     "ocaml-tracing/ocaml-trace",
     "ocaml-tracing/ocaml-tracy",
     "ocurrent/docker-base-images",
@@ -253,7 +251,6 @@
     "ParisNeo/lollms",
     "php-toolkit/cli-utils",
     "php-toolkit/pflag",
-    "php/doc-de",
     "php/doc-es",
     "php/doc-fr",
     "php/doc-ja",

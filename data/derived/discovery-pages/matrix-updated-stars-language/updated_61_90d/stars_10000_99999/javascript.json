@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 727,
+    "components": 705,
     "concepts": 117,
     "observations": 117,
-    "repos": 20,
+    "repos": 21,
     "terms": 123
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "anuraghazra/github-readme-stats",
     "auth0/node-jsonwebtoken",
+    "be5invis/Sarasa-Gothic",
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
@@ -26,13 +27,13 @@
     "less/less.js",
     "markdown-it/markdown-it",
     "parcel-bundler/parcel",
+    "pot-app/pot-desktop",
     "pugjs/pug",
     "reactjs/react.dev",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "typicode/husky",
     "typicode/json-server",
-    "videojs/video.js",
     "websockets/ws"
   ]
 }

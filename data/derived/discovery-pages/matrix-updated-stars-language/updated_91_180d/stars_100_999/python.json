@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 842,
-    "observations": 842,
-    "repos": 227,
-    "terms": 836
+    "components": 478,
+    "concepts": 859,
+    "observations": 859,
+    "repos": 228,
+    "terms": 853
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -29,6 +29,7 @@
     "Alibaba-NLP/ViDoRAG",
     "alibaba/TinyNeuralNetwork",
     "alonw0/web-asset-generator",
+    "altendky/pyqt-tools",
     "AMAP-ML/Tree-GRPO",
     "amaranth-lang/amaranth-soc",
     "AMD-AGI/Nitro-E",
@@ -187,7 +188,6 @@
     "salesforce/ULIP",
     "SAML-Toolkits/python-saml",
     "SAML-Toolkits/python3-saml",
-    "SarahWeiii/pamo",
     "sayakpaul/diffusers-torchao",
     "scottchiefbaker/dool",
     "securefederatedai/openfederatedlearning",
@@ -200,15 +200,16 @@
     "sony/nnabla-examples",
     "speechbrain/benchmarks",
     "strands-agents/agent-builder",
+    "strands-agents/mcp-server",
     "superclaude-org/supergemini_framework",
     "svg-project/Sparse-VideoGen",
     "TEN-framework/ten-turn-detection",
     "TencentCloudADP/youtu-tip",
+    "terraform-aws-modules/terraform-aws-notify-slack",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "thu-ml/DiT-Extrapolation",
     "TIGER-AI-Lab/verl-tool",
-    "tpoisonooo/ROGRAG",
     "TRI-ML/dgp",
     "triton-inference-server/model_navigator",
     "Tsinghua-MARS-Lab/CVT-Occ",

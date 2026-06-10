@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1004,
-    "concepts": 547,
-    "observations": 548,
-    "repos": 258,
-    "terms": 553
+    "concepts": 559,
+    "observations": 560,
+    "repos": 259,
+    "terms": 563
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -68,12 +68,12 @@
     "awni/picochat",
     "azdavis/ungrammar-tools",
     "b-data/docker-deployment-jupyter",
+    "babakatwork/loopy_agent",
     "baskeboler/clj-karaoke-lyrics",
     "bendrucker/terraform-configuration-aliases-action",
     "biocypher/collectri",
     "birdofpreyru/js-utils",
     "blooper05/action-rails_best_practices",
-    "Blosc/PyData-Global-2025-Tutorial",
     "browserslist/browserslist-plausible",
     "buttercannfly/AIPex",
     "ca-ruz/bumpit",
@@ -129,6 +129,7 @@
     "EvelynZhang-epiclab/EvelynImgs",
     "feloy/tesh",
     "filip26/copper-multicodec",
+    "filip26/titanium-jcs",
     "filip26/titanium-rdf-canon",
     "filip26/titanium-rdf-n-quads",
     "flagos-ai/vllm-FL",
@@ -169,7 +170,6 @@
     "JuliaAI/LearnDataFrontEnds.jl",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
-    "julianrubisch/pronto-standardrb",
     "Jumziey/neotest-nix-unit.nvim",
     "jupyter-widgets/team-compass",
     "karpeleslab/tpl",
@@ -183,7 +183,6 @@
     "leaktk/gitleaks",
     "LedgerHQ/ledgercomm",
     "lionel-/biome",
-    "lita-xyz/Plonky3",
     "litex-hub/pythondata-cpu-vexriscv",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "lukasz-wronski/Antigravity-Shit-Chat",
@@ -200,6 +199,7 @@
     "near/near-abi-client-rs",
     "near/near-abi-rs",
     "neuroverseos/neuroverseos-openclaw-governance",
+    "newton-physics/newton-governance",
     "nikitabobko/homebrew-tap",
     "nvpro-samples/stb",
     "objectbox/objectbox-swift-generator",
@@ -270,6 +270,7 @@
     "ylsdamxssjxxdd/nerv",
     "yoshoku/numo-libsvm",
     "zen-eth/multiformats-zig",
+    "zkcrypto/rfcs",
     "zwowo1997/pack-repo-4ai"
   ]
 }

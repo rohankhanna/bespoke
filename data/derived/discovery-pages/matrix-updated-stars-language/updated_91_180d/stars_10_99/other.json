@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 565,
-    "concepts": 350,
-    "observations": 351,
-    "repos": 145,
-    "terms": 347
+    "components": 577,
+    "concepts": 361,
+    "observations": 362,
+    "repos": 150,
+    "terms": 358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
@@ -43,6 +43,7 @@
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
+    "buildfoundation/bazel_rules_detekt",
     "bwya77/obsidian-baseline-customization",
     "camertron/garnet-js",
     "chakravala/DirectSum.jl",
@@ -58,8 +59,10 @@
     "dominique-unruh/scala-isabelle",
     "dspinellis/bibtools",
     "dwyl/cid",
+    "dwyl/content",
     "dwyl/elixir-auth-github",
     "dwyl/elixir-auth-microsoft",
+    "dwyl/learn-payment-processing",
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",
     "Embarcadero/PythonPackages4Delphi",
@@ -105,6 +108,7 @@
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",
     "ligershark/WebOptimizer.Sass",
+    "liquidev/lintplus",
     "llvm/clangd-www",
     "lread/test-doc-blocks",
     "lumen-oss/rocks-config.nvim",
@@ -128,6 +132,7 @@
     "pagedjs/pagedjs-cli",
     "paleolimbot/geos",
     "patrickgold/jetpref",
+    "php/doc-it",
     "probe-lab/network-measurements",
     "rcasia/neotest-bash",
     "reisub/http_cookie",
@@ -137,7 +142,6 @@
     "rojo-rbx/rojo.space",
     "RTBHOUSE/tmux-picker",
     "rust-lang/crates-build-env",
-    "sbcgua/abap-string-map",
     "SchwarzIT/spectral-intellij-plugin",
     "Shopify/quantified",
     "spring-ai-alibaba/website",
@@ -153,6 +157,7 @@
     "travis-ci/travis-logs",
     "travis-ci/travis-scheduler",
     "Triang-jyed-driung/Rapid-Sampling",
+    "typst/typst-flake",
     "viafintech/gcra-ruby",
     "webdataset/WebDataset.jl",
     "WICG/crash-reporting",

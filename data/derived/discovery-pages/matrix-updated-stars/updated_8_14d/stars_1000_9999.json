@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 1693,
-    "concepts": 803,
-    "observations": 808,
-    "repos": 95,
-    "terms": 801
+    "components": 1567,
+    "concepts": 702,
+    "observations": 707,
+    "repos": 84,
+    "terms": 700
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
-    "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
@@ -25,13 +24,10 @@
     "aws/serverless-application-model",
     "babashka/babashka",
     "bazel-contrib/rules_go",
-    "beam-community/elixir-companies",
     "bitsandbytes-foundation/bitsandbytes",
-    "callstack/react-native-builder-bob",
     "clearml/clearml",
     "clj-kondo/clj-kondo",
     "CloudCompare/CloudCompare",
-    "collabora/WhisperLive",
     "conventional-changelog/conventional-changelog",
     "crate-ci/cargo-release",
     "crc-org/crc",
@@ -46,7 +42,6 @@
     "Farama-Foundation/Minigrid",
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
-    "geotiffjs/geotiff.js",
     "gobackup/gobackup",
     "godot-rust/gdext",
     "google-deepmind/dm-haiku",
@@ -59,7 +54,6 @@
     "harbor-framework/harbor",
     "harfbuzz/harfbuzz",
     "helidon-io/helidon",
-    "huggingface/finetrainers",
     "huggingface/optimum-quanto",
     "JuergenFleiss/aTrain",
     "JuliaPluto/Pluto.jl",
@@ -73,12 +67,8 @@
     "meta-pytorch/torchtune",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
     "microsoft/vscode-js-debug",
     "module-federation/core",
-    "mono/SkiaSharp",
-    "NEKOparapa/AiNiee",
-    "nvim-tree/nvim-web-devicons",
     "ogx-ai/ogx",
     "okd-project/okd",
     "paralleldrive/cuid",
@@ -106,7 +96,6 @@
     "vuejs/language-tools",
     "web-platform-tests/wpt",
     "webinstall/webi-installers",
-    "xtensor-stack/xtensor",
-    "zhiyiYo/PyQt-Fluent-Widgets"
+    "xtensor-stack/xtensor"
   ]
 }

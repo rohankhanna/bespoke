@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 232,
-    "concepts": 185,
-    "observations": 186,
-    "repos": 22,
-    "terms": 185
+    "components": 199,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 18,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/babashka",
-    "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
     "datalevin/datalevin",
     "dotnet/reactive",
@@ -26,9 +25,6 @@
     "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
-    "mono/SkiaSharp",
-    "nvim-tree/nvim-web-devicons",
     "okd-project/okd",
     "psmux/psmux",
     "seancorfield/honeysql",

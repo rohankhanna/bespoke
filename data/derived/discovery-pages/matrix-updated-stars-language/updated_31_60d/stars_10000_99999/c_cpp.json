@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 982,
-    "concepts": 1263,
-    "observations": 1267,
+    "components": 968,
+    "concepts": 1237,
+    "observations": 1241,
     "repos": 123,
-    "terms": 1258
+    "terms": 1239
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -45,6 +45,7 @@
     "Cyan4973/xxHash",
     "davatorium/rofi",
     "davisking/dlib",
+    "DayBreak-u/chineseocr_lite",
     "dcloudio/uni-app",
     "dmlc/xgboost",
     "duckdb/duckdb",
@@ -101,7 +102,6 @@
     "mpv-player/mpv",
     "ninja-build/ninja",
     "NixOS/nix",
-    "nlohmann/json",
     "nothings/stb",
     "NVIDIA/TensorRT",
     "oceanbase/oceanbase",

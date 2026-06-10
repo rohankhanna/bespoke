@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 262,
-    "observations": 263,
-    "repos": 67,
-    "terms": 260
+    "components": 385,
+    "concepts": 264,
+    "observations": 265,
+    "repos": 68,
+    "terms": 262
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -51,6 +51,7 @@
     "matsadler/magnus",
     "MatsDK/TauRPC",
     "microsoft/rust_win_etw",
+    "mozilla/dump_syms",
     "MSxDOS/ntapi",
     "op-rs/kona",
     "orhun/tuitar",

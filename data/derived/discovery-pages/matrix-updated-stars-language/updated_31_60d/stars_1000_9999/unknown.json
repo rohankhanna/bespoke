@@ -3,7 +3,7 @@
     "components": 71,
     "concepts": 181,
     "observations": 181,
-    "repos": 40,
+    "repos": 39,
     "terms": 181
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -49,7 +49,6 @@
     "rust-embedded/wg",
     "rustsec/advisory-db",
     "shuaibiyy/awesome-tf",
-    "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills",
     "web-padawan/awesome-lit",
     "yokoffing/filterlists",

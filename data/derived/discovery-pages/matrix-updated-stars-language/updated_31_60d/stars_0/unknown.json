@@ -3,7 +3,7 @@
     "components": 50,
     "concepts": 71,
     "observations": 71,
-    "repos": 114,
+    "repos": 113,
     "terms": 80
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -58,7 +58,6 @@
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
     "danielrosehill/Backup-Planner",
-    "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Engineering-Plugin",

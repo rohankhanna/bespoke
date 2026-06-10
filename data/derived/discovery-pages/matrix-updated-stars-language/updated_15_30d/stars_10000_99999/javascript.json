@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 25,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 1,
-    "terms": 2
+    "concepts": 7,
+    "observations": 7,
+    "repos": 2,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
-    "browserslist/browserslist"
+    "browserslist/browserslist",
+    "nwjs/nw.js"
   ]
 }

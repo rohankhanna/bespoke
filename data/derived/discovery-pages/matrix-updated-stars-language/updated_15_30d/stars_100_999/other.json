@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 69,
-    "observations": 70,
-    "repos": 15,
-    "terms": 68
+    "components": 102,
+    "concepts": 93,
+    "observations": 94,
+    "repos": 18,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
     "babashka/nbb",
+    "ChristopherHX/runner.server",
+    "clj-commons/rewrite-clj",
     "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
     "dwyl/quotes",
@@ -26,6 +28,7 @@
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "openbsd/ports",
+    "redis/redis-om-dotnet",
     "rescript-lang/reanalyze",
     "sbt/sbt-jmh",
     "WICG/attribution-reporting-api"

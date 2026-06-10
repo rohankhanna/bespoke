@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 86,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 77,
-    "terms": 86
+    "concepts": 79,
+    "observations": 79,
+    "repos": 71,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
-    "1sh1ro/liangxi-skills",
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
     "agent-sh/prepare-delivery",
-    "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -35,7 +33,6 @@
     "conda-forge/ultralytics-feedstock",
     "csm-actions/demo-server",
     "D1DX/morning-skill",
-    "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-Code-Plugins",
@@ -53,7 +50,6 @@
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Docs-And-Notes-Index",
     "danielrosehill/Experiments-And-Evaluations-Index",
-    "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
@@ -81,11 +77,9 @@
     "openwebdocs/mdn-bcd-results",
     "piebald-ai/piebald-issues",
     "pot-app/.github",
-    "psmux/scoop-omp-manager",
     "puppetlabs/.github",
     "scalar/starter",
     "sigstore/architecture-docs",
-    "sp1-patches/bn",
     "sp1-patches/RustCrypto-bigint",
     "sp1-patches/tiny-keccak",
     "stdlib-js/meetings",

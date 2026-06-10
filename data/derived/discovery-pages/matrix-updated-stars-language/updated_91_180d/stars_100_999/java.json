@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 80,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 19,
-    "terms": 100
+    "components": 82,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 20,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
@@ -28,6 +28,7 @@
     "heiher/sockstun",
     "ipfs-shipyard/gomobile-ipfs",
     "jpmml/jpmml-evaluator",
+    "mebigfatguy/fb-contrib",
     "nacos-group/nacos-spring-project",
     "peergos/nabu",
     "scalar-labs/btm",

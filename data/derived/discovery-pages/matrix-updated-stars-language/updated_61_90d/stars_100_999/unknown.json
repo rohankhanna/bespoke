@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 26,
-    "terms": 92
+    "components": 26,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 28,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "adoptium/adoptium",
@@ -22,6 +22,7 @@
     "alchaincyf/munger-skill",
     "apple/device-management",
     "attack68/rateslib",
+    "cncf/artwork",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
     "filecoin-project/community",
@@ -39,6 +40,7 @@
     "reactwg/react-native-releases",
     "revfactory/harness-100",
     "scott0107000/BoutiqueBitmap7x7",
+    "tc39/how-we-work",
     "web-platform-tests/rfcs"
   ]
 }

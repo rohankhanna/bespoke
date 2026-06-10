@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11637,
-    "concepts": 2268,
-    "observations": 2274,
-    "repos": 274,
-    "terms": 2362
+    "components": 11484,
+    "concepts": 2248,
+    "observations": 2254,
+    "repos": 269,
+    "terms": 2342
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -54,7 +54,6 @@
     "azat-io/eslint-plugin-perfectionist",
     "Azure/azure-sdk-for-js",
     "babaohuang/GeminiProChat",
-    "badgen/badgen.net",
     "baptisteArno/typebot.io",
     "benchmark-action/github-action-benchmark",
     "berty/berty",
@@ -104,7 +103,6 @@
     "eemeli/yaml",
     "electron/fiddle",
     "electron/forge",
-    "ElMassimo/iles",
     "emmetio/emmet",
     "enricoros/big-AGI",
     "EpicenterHQ/epicenter",
@@ -118,7 +116,6 @@
     "Floorp-Projects/Floorp",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
-    "frenic/csstype",
     "getsentry/xcodebuildmcp",
     "ggml-org/llama.vscode",
     "google/adk-js",
@@ -134,7 +131,6 @@
     "hannoeru/vite-plugin-pages",
     "Helicone/helicone",
     "hey-api/openapi-ts",
-    "heyhuynhgiabuu/proxypal",
     "huggingface/huggingface.js",
     "huozhi/bunchee",
     "i18next/next-i18next",
@@ -179,7 +175,6 @@
     "microsoft/rnx-kit",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-cpptools",
-    "microsoft/vscode-eslint",
     "microsoft/vscode-languageserver-node",
     "microsoft/vscode-python",
     "MiniMax-AI/cli",
@@ -201,7 +196,6 @@
     "octokit/core.js",
     "onecli/onecli",
     "op7418/codepilot",
-    "opactorai/claudable",
     "open-telemetry/opentelemetry-demo",
     "open-telemetry/opentelemetry-js",
     "openai/openai-agents-js",
@@ -272,6 +266,7 @@
     "vega/vega-lite",
     "vite-pwa/vite-plugin-pwa",
     "vitejs/devtools",
+    "vitejs/vite-plugin-react",
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
     "vuejs/babel-plugin-jsx",

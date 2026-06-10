@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 12
+    "components": 98,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 5,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "browserslist/caniuse-lite",
     "Calcium-Ion/new-api-key-tool",
     "GoogleCloudPlatform/google-cloud-node-todos",
-    "jupyter/nbclassic"
+    "jupyter/nbclassic",
+    "mafintosh/streamx"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 128,
-    "observations": 128,
+    "components": 71,
+    "concepts": 135,
+    "observations": 135,
     "repos": 18,
-    "terms": 125
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
@@ -25,7 +25,7 @@
     "googleapis/java-bigquery",
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "GoogleCloudPlatform/cloud-opensource-java",
-    "mebigfatguy/fb-contrib",
+    "mukel/llama3.java",
     "nayuki/Nayuki-web-published-code",
     "objectbox/objectbox-examples",
     "spring-ai-alibaba/Lynxe",

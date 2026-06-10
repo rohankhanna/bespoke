@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 13,
-    "terms": 35
+    "components": 221,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 14,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
     "aidenlab/spacewalk",
@@ -22,6 +22,7 @@
     "fabon-f/temporal-polyfill-comparison",
     "gyf0311/lorekit",
     "i18next/i18next-subliminal",
+    "Luligu/matterbridge-eve-door",
     "redductive/securepixel",
     "saidudz/chat-ai",
     "similar-colpoxerosis201/codex-wechat",

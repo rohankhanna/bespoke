@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 12,
-    "terms": 66
+    "components": 55,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 11,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "bobbylight/RSyntaxTextArea",
     "http-kit/http-kit",
@@ -23,7 +23,6 @@
     "openjdk/jmh",
     "spring-projects/spring-ai-examples",
     "spring-projects/spring-restdocs",
-    "srikanth-lingala/zip4j",
     "stleary/JSON-java",
     "xerial/snappy-java"
   ]

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1076,
-    "concepts": 717,
-    "observations": 722,
-    "repos": 117,
-    "terms": 721
+    "components": 1165,
+    "concepts": 732,
+    "observations": 737,
+    "repos": 119,
+    "terms": 736
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -73,6 +73,7 @@
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
     "KlingAIResearch/LivePortrait",
+    "knownsec/404StarLink",
     "kyleneideck/backgroundmusic",
     "lc044/wechatmsg",
     "Lightricks/LTX-Video",
@@ -123,6 +124,7 @@
     "twbs/bootstrap-sass",
     "ValdikSS/GoodbyeDPI",
     "vibrantlabsai/ragas",
+    "videojs/video.js",
     "vitejs/awesome-vite",
     "Wan-Video/Wan2.1",
     "wechaty/wechaty",

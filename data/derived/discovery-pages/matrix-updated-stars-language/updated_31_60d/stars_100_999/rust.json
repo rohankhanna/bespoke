@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1922,
-    "concepts": 1272,
-    "observations": 1284,
-    "repos": 221,
-    "terms": 1272
+    "components": 1915,
+    "concepts": 1264,
+    "observations": 1276,
+    "repos": 219,
+    "terms": 1264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -194,9 +194,7 @@
     "rust-lang/socket2",
     "rust-lang/stdarch",
     "rust-lang/team",
-    "rust-mobile/rust-android-examples",
     "rust-random/getrandom",
-    "RustCrypto/AEADs",
     "RustCrypto/crypto-bigint",
     "RustCrypto/elliptic-curves",
     "RustCrypto/MACs",

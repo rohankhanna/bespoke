@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1360,
-    "concepts": 1392,
-    "observations": 1395,
-    "repos": 246,
-    "terms": 1384
+    "components": 1367,
+    "concepts": 1400,
+    "observations": 1403,
+    "repos": 244,
+    "terms": 1392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -48,6 +48,7 @@
     "boostorg/multiprecision",
     "boostorg/nowide",
     "CEED/libCEED",
+    "celtera/avendish",
     "chhylp123/hifiasm",
     "cisco/mlspp",
     "cjlin1/libmf",
@@ -118,7 +119,6 @@
     "intel/intel-graphics-compiler",
     "intel/intel-ipsec-mb",
     "intel/llm-scaler",
-    "intel/QAT_Engine",
     "intel/ScalableVectorSearch",
     "istio/proxy",
     "j20001970/GDMP",
@@ -136,13 +136,13 @@
     "KhronosGroup/VK-GL-CTS",
     "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
+    "kiron1/bazel-compile-commands",
     "kleisauke/wasm-vips",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
     "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
-    "libimobiledevice/libplist",
     "libLAS/libLAS",
     "libnice/libnice",
     "libsdl-org/SDL_image",
@@ -215,7 +215,6 @@
     "RcppCore/Rcpp",
     "realh/roxterm",
     "rmagick/rmagick",
-    "roboception/cvkit",
     "robotology/yarp",
     "ROCm/AMDMIGraphX",
     "ROCm/composable_kernel",
@@ -256,7 +255,6 @@
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
     "VectorDB-NTU/RaBitQ-Library",
-    "wdas/ptex",
     "xiph/vorbis",
     "yoshoku/llama_cpp.rb",
     "Yubico/libfido2"

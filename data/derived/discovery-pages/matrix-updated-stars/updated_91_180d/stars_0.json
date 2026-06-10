@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 267,
-    "concepts": 139,
-    "observations": 139,
-    "repos": 95,
-    "terms": 138
+    "concepts": 135,
+    "observations": 135,
+    "repos": 94,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -45,7 +45,6 @@
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/git-github-plugin",
-    "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",

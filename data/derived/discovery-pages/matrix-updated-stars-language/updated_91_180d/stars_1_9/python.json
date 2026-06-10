@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 38,
-    "terms": 102
+    "components": 129,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 40,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "AIxCyberChallenge/example-crs-architecture",
@@ -22,6 +22,7 @@
     "ansible-community/collection_bot",
     "arustydev/pre-commit-hooks",
     "b-data/docker-deployment-jupyter",
+    "babakatwork/loopy_agent",
     "biocypher/collectri",
     "ca-ruz/bumpit",
     "chaoss/grimoirelab-perceval-mozilla",
@@ -51,6 +52,7 @@
     "sylabs/singularity-admindocs",
     "usdot-fhwa-stol/carma-carla-integration",
     "Velesio/velesio-aiserver",
+    "zkcrypto/rfcs",
     "zwowo1997/pack-repo-4ai"
   ]
 }

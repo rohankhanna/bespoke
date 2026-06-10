@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 228,
-    "observations": 228,
-    "repos": 42,
-    "terms": 234
+    "components": 253,
+    "concepts": 257,
+    "observations": 257,
+    "repos": 46,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
+    "2noise/ChatTTS",
     "3b1b/videos",
     "666ghj/MiroFish",
     "allenai/olmocr",
@@ -25,11 +26,13 @@
     "EleutherAI/lm-evaluation-harness",
     "encode/httpx",
     "explosion/spaCy",
+    "fabric/fabric",
     "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
     "FunAudioLLM/CosyVoice",
     "google/python-fire",
+    "google/yapf",
     "gruns/icecream",
     "hpcaitech/Open-Sora",
     "Huanshere/VideoLingo",
@@ -52,6 +55,7 @@
     "rany2/edge-tts",
     "resemble-ai/chatterbox",
     "sanic-org/sanic",
+    "spotify/luigi",
     "subframe7536/maple-font",
     "superclaude-org/superclaude_framework",
     "thu-ml/tianshou",

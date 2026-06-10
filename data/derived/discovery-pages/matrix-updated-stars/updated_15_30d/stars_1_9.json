@@ -1,29 +1,28 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 14,
-    "terms": 65
+    "components": 81,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 13,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "Aayushm24/presidential-briefing",
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "apache/casbin-casbin.io",
     "apache/casbin-fasthttp-auth",
-    "atsushieno/aap-juce-simple-host",
     "atsushieno/midicci",
     "cloudfoundry/credhub-acceptance-tests",
     "donut-party/endpoint-test",
     "HuaweiCloudDeveloper/karpenter-provider-huawei",
-    "Luligu/matterbridge-eve-energy",
     "Luligu/matterbridge-somfy-tahoma",
+    "lxgw/B5XiZhi",
     "nafg/jewish-date",
     "SeedScientist/K2V",
     "Venly/web3-react-venly"

@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 639,
-    "concepts": 369,
-    "observations": 371,
+    "components": 649,
+    "concepts": 380,
+    "observations": 382,
     "repos": 34,
-    "terms": 362
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "academic/awesome-datascience",
     "ajv-validator/ajv",
     "apache/brpc",
     "apache/casbin",
@@ -22,11 +21,11 @@
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
-    "DayBreak-u/chineseocr_lite",
     "dexie/Dexie.js",
     "fuma-nama/fumadocs",
     "gitleaks/gitleaks",
     "HIllya51/LunaTranslator",
+    "hiyouga/LlamaFactory",
     "isl-org/Open3D",
     "JetBrains/compose-multiplatform",
     "Kilo-Org/kilocode",
@@ -37,6 +36,7 @@
     "neovim/nvim-lspconfig",
     "nushell/nushell",
     "nvm-sh/nvm",
+    "nwjs/nw.js",
     "obsproject/obs-studio",
     "oobabooga/textgen",
     "PDFMathTranslate/PDFMathTranslate",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 263,
-    "concepts": 343,
-    "observations": 344,
-    "repos": 64,
-    "terms": 342
+    "components": 283,
+    "concepts": 351,
+    "observations": 352,
+    "repos": 66,
+    "terms": 351
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "alembic/alembic",
     "Alex313031/thorium",
@@ -44,12 +44,12 @@
     "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
     "madler/zlib",
+    "microsoft/DirectX-Graphics-Samples",
     "microsoft/GSL",
     "microsoft/snmalloc",
     "mutouyun/cpp-ipc",
     "nalgeon/sqlean",
     "nigels-com/glew",
-    "nmoehrle/mvs-texturing",
     "nmslib/hnswlib",
     "nodemcu/nodemcu-firmware",
     "NVIDIA/cuda-samples",
@@ -64,9 +64,11 @@
     "redis/hiredis",
     "riscv-software-src/opensbi",
     "romkatv/gitstatus",
+    "SarahWeiii/CoACD",
     "sqlcipher/sqlcipher",
     "SRombauts/SQLiteCpp",
     "stevengj/nlopt",
+    "stevenlovegrove/Pangolin",
     "syoyo/tinygltf",
     "TA-Lib/ta-lib",
     "TechEmpower/FrameworkBenchmarks",

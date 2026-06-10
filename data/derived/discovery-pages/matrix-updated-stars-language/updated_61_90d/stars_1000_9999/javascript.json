@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1007,
-    "concepts": 241,
-    "observations": 241,
-    "repos": 43,
-    "terms": 241
+    "components": 1158,
+    "concepts": 265,
+    "observations": 265,
+    "repos": 47,
+    "terms": 265
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "Adobe-CEP/Samples",
@@ -26,6 +26,7 @@
     "ecomfe/echarts-gl",
     "engineer-man/piston",
     "ethereum/devp2p",
+    "facebook/jscodeshift",
     "fengyuanchen/compressorjs",
     "gautamkrishnar/motrix-webextension",
     "GoogleChrome/lighthouse-ci",
@@ -34,6 +35,7 @@
     "isaacs/minimatch",
     "istanbuljs/istanbuljs",
     "jshttp/mime-types",
+    "jspreadsheet/ce",
     "jsx-eslint/eslint-plugin-react",
     "kangax/html-minifier",
     "Level/level",
@@ -54,7 +56,9 @@
     "sindresorhus/globby",
     "styled-components/polished",
     "treosh/lighthouse-ci-action",
+    "webpack/css-loader",
     "webpack/mini-css-extract-plugin",
+    "webpack/postcss-loader",
     "yeoman/yo",
     "ykdojo/claude-code-tips"
   ]

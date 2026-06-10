@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5506,
-    "concepts": 1996,
-    "observations": 1999,
-    "repos": 1403,
-    "terms": 1992
+    "components": 5512,
+    "concepts": 1997,
+    "observations": 2000,
+    "repos": 1404,
+    "terms": 1993
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -259,6 +259,7 @@
     "bizflycloud/karpenter-provider-bizflycloud",
     "blendle/excon-hypermedia",
     "blockstream/rust-electrum-client",
+    "Blosc/PyData-Global-2025-Tutorial",
     "bnb-chain/greenfield-cometbft-rs",
     "bnb-chain/tendermint-rs-parlia",
     "BnMcGn/re-com-tailwind",
@@ -558,7 +559,6 @@
     "Electron-Labs/tendermint-rs",
     "elementai/spider",
     "eliemichel/sphinx_literate",
-    "elixir-makeup/makeup_c",
     "elixir-makeup/makeup_diff",
     "elixir-makeup/makeup_eex",
     "elixir-makeup/makeup_json",
@@ -648,7 +648,6 @@
     "ghchinoy/studio-scaffold",
     "girishji/fFtT.vim",
     "git-friendly/homebrew-git-friendly",
-    "git-up/libgit2",
     "glium/glium_derive",
     "gnunicorn/cargo-unleash",
     "go-bun/go-http-routing-benchmark",
@@ -847,6 +846,7 @@
     "JuliaBinaryWrappers/Zstd_jll.jl",
     "JuliaComputing/Registrator.jl",
     "JuliaML/MLCore.jl",
+    "julianrubisch/pronto-standardrb",
     "JuliaReducePkg/ReduceLinAlg.jl",
     "JuliaStrings/LibTeXPrintf.jl",
     "junkblocker/calibre-zaw-source",
@@ -947,6 +947,7 @@
     "libp2p/js-libp2p-example-connection-encryption",
     "lightstep/opentelemetry-demo",
     "lingo-iitgn/TweetPap",
+    "lita-xyz/Plonky3",
     "lite-xl/lite-xl-build-box",
     "litex-hub/litex-buildenv-udev",
     "litex-hub/pythondata-auto",

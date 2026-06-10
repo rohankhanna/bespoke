@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 466,
-    "concepts": 652,
-    "observations": 656,
-    "repos": 145,
-    "terms": 655
+    "components": 488,
+    "concepts": 683,
+    "observations": 690,
+    "repos": 151,
+    "terms": 686
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -27,8 +27,8 @@
     "akoumjian/datefinder",
     "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
+    "allenai/ir_datasets",
     "allenai/olmes",
-    "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
     "amaranth-lang/amaranth-boards",
     "amazon-science/esci-data",
@@ -52,14 +52,20 @@
     "ddh0/easy-llama",
     "devnen/Dia-TTS-Server",
     "devnen/Kitten-TTS-Server",
+    "enjoy-digital/litedram",
+    "Epistimio/orion",
     "facebookincubator/ptr",
     "facebookresearch/atlas",
     "facebookresearch/CodeGen",
+    "facebookresearch/optimizers",
+    "facebookresearch/RAM",
+    "Farama-Foundation/Shimmy",
     "G-Research/ahocorasick_rs",
     "gmberton/CosPlace",
     "gmberton/deep-visual-geo-localization-benchmark",
     "gmberton/MegaLoc",
     "gmberton/VPR-datasets-downloader",
+    "google-deepmind/chex",
     "google-deepmind/meltingpot",
     "google-research/android_world",
     "googleapis/python-storage",
@@ -86,6 +92,7 @@
     "lxgw/LxgwWenkaiTC",
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",
+    "magic-wormhole/magic-wormhole-mailbox-server",
     "MAGREF-Video/MAGREF",
     "marcelm/cutadapt",
     "matthew-brett/delocate",
@@ -134,13 +141,11 @@
     "Slicer/light-the-torch",
     "spesmilo/electrumx",
     "Stanford-TML/robot_keyframe_kit",
-    "strands-agents/mcp-server",
     "sunrainyg/RandOpt",
     "swc-17/SparseDrive",
     "swc-17/SparseDriveV2",
     "syncthing/docs",
     "TeamHG-Memex/tensorboard_logger",
-    "terraform-aws-modules/terraform-aws-notify-slack",
     "TexasInstruments/edgeai-tidl-tools",
     "TextArena/UnstableBaselines",
     "Thinklab-SJTU/Bench2Drive-VL",
@@ -158,6 +163,7 @@
     "Yelp/aactivator",
     "yoxu515/aot-benchmark",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
-    "zai-org/z-ai-sdk-python"
+    "zai-org/z-ai-sdk-python",
+    "zhiqwang/yolort"
   ]
 }

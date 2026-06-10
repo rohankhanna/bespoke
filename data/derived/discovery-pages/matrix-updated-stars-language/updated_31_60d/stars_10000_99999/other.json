@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2108,
-    "concepts": 1528,
-    "observations": 1534,
-    "repos": 155,
-    "terms": 1522
+    "components": 2100,
+    "concepts": 1516,
+    "observations": 1522,
+    "repos": 152,
+    "terms": 1510
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -78,11 +78,9 @@
     "GoogleCloudPlatform/generative-ai",
     "GoogleContainerTools/distroless",
     "gradle/gradle",
-    "guidance-ai/guidance",
     "hadolint/hadolint",
     "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
-    "heartcombo/devise",
     "Homebrew/brew",
     "Homebrew/homebrew-cask",
     "Homebrew/homebrew-core",
@@ -96,7 +94,6 @@
     "jgm/pandoc",
     "jordansissel/fpm",
     "JuliaLang/julia",
-    "junegunn/fzf.vim",
     "jupyter/notebook",
     "keeweb/keeweb",
     "koreader/koreader",

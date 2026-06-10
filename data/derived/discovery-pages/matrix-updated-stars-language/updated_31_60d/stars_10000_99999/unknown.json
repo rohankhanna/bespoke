@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 124,
-    "observations": 124,
-    "repos": 15,
-    "terms": 124
+    "components": 32,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 16,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
+    "academic/awesome-datascience",
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "brave/brave-browser",
     "fffaraz/awesome-cpp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 141,
-    "concepts": 206,
-    "observations": 207,
-    "repos": 23,
-    "terms": 200
+    "components": 152,
+    "concepts": 238,
+    "observations": 239,
+    "repos": 27,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
+    "2U1/Qwen-VL-Series-Finetune",
     "awslabs/aidlc-workflows",
+    "collabora/WhisperLive",
     "copier-org/copier",
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
-    "ggozad/oterm",
     "google/budoux",
     "hgmzhn/manga-translator-ui",
+    "huggingface/finetrainers",
     "intelligent-machine-learning/dlrover",
     "InternScience/GraphGen",
     "lucidrains/vector-quantize-pytorch",
     "mangiucugna/json_repair",
     "modelscope/FunClip",
     "msiemens/tinydb",
+    "NEKOparapa/AiNiee",
     "nomadkaraoke/python-audio-separator",
     "python-versioneer/python-versioneer",
     "roboflow/maestro",
@@ -36,6 +39,7 @@
     "voicepaw/so-vits-svc-fork",
     "Xilinx/brevitas",
     "zai-org/GLM-V",
+    "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"
   ]
 }

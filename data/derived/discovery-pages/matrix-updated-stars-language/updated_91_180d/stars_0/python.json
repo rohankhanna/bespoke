@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 12,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 13,
-    "terms": 16
+    "concepts": 12,
+    "observations": 12,
+    "repos": 12,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abbhisap/LLM-Council-SAP",
@@ -20,7 +20,6 @@
     "ChiehHsinJesseLai/ctm-notebook",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/BTRFS-Snapper-MCP",
-    "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",
     "maeste/a2a-tck",

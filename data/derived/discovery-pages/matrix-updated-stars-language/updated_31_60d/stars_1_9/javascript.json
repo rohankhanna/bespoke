@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1651,
-    "concepts": 866,
-    "observations": 869,
-    "repos": 87,
-    "terms": 865
+    "components": 1576,
+    "concepts": 836,
+    "observations": 839,
+    "repos": 85,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
     "agent-sh/can-i-help",
     "agent-sh/drift-detect",
     "agent-sh/enhance",
-    "agent-sh/next-task",
     "agent-sh/onboard",
     "agent-sh/perf",
     "agent-sh/repo-intel",
@@ -56,10 +55,10 @@
     "j9t/htaccess-punk",
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
-    "kellyselden/boilerplate-update",
     "kkomelin/isomorphic-dompurify-playgrounds",
     "ksxnodemodules/static-type-assert",
     "locize/locize-lastused",
+    "Luligu/matterbridge-eve-energy",
     "maltsev/html-minifiers-benchmark",
     "metosin/open-source",
     "newrelic/csec-node-agent",
@@ -68,7 +67,6 @@
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
     "seunghunbae-3svs/solo-cto-agent",
-    "stdlib-js/array-complex128",
     "stdlib-js/array-float32",
     "stdlib-js/array-float64",
     "stdlib-js/array-int16",

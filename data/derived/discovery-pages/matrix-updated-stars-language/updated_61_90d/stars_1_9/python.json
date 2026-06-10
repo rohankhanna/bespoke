@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 63,
-    "observations": 63,
+    "components": 89,
+    "concepts": 78,
+    "observations": 78,
     "repos": 27,
-    "terms": 62
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/okr-skill",
@@ -20,13 +20,14 @@
     "alterego-987/council-mcp",
     "astroyat/lerobot",
     "axolotl-ai-cloud/ml-cross-entropy",
-    "babakatwork/loopy_agent",
     "BioContainers/singularity-build-bot",
     "Boulaouaney/timmx",
     "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
+    "CoolCat467/idlemypyextension",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/donetick-mcp",
+    "danielrosehill/Geopol-Forecaster",
     "fixie-ai/evals",
     "KabakaWilliam/trajectorykit",
     "ldayton/parable",
@@ -39,7 +40,6 @@
     "ROCm/rbuild",
     "runtimeverification/kup",
     "shadmau/autocouncil",
-    "sparklabutah/timewarp",
-    "zkcrypto/rfcs"
+    "sparklabutah/timewarp"
   ]
 }

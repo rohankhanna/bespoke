@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 554,
+    "components": 558,
     "concepts": 416,
     "observations": 420,
-    "repos": 197,
+    "repos": 199,
     "terms": 410
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -138,6 +138,7 @@
     "markdown-it-rust/markdown-it-plugins.rs",
     "MatchaChoco010/egui-winit-ash-integration",
     "MatchaChoco010/egui_winit_ash_vk_mem",
+    "MaterializeInc/rust-postgres",
     "matklad/djot-rs",
     "matklad/xflags",
     "matter-labs/pairing",
@@ -210,6 +211,7 @@
     "Xuanwo/serfig",
     "yaahc/jane-eyre",
     "yuyang0/rrqlite",
+    "zakarumych/allocator-api2",
     "zakarumych/sierra"
   ]
 }

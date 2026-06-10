@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 298,
-    "concepts": 227,
-    "observations": 227,
+    "components": 299,
+    "concepts": 228,
+    "observations": 228,
     "repos": 85,
-    "terms": 227
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "0xPolygonHermez/stark-recurser",
@@ -22,6 +22,7 @@
     "ankane/seaduck",
     "apache/netbeans-antora-ui",
     "appsignal/appsignal-elixir-plug",
+    "atsushieno/aap-juce-simple-host",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
@@ -95,7 +96,6 @@
     "tarikmanoar/tarikmanoar",
     "Tengfei-Wang/Tengfei-Wang.github.io",
     "tinted-theming/base16-waybar",
-    "tnc-ca-geo/animl-ml",
     "tweag/gazelle_haskell_modules",
     "v-iashin/v-iashin.github.io",
     "wavelens/gobgp.nix"

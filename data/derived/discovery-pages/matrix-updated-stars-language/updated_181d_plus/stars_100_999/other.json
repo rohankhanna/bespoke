@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2317,
-    "concepts": 3109,
-    "observations": 3116,
-    "repos": 983,
-    "terms": 3090
+    "components": 2331,
+    "concepts": 3123,
+    "observations": 3130,
+    "repos": 986,
+    "terms": 3104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -319,6 +319,7 @@
     "dwyl/learn-tachyons",
     "eclarke/ggbeeswarm",
     "ecomfe/echarts-stat",
+    "ecukes/ecukes",
     "edkolev/promptline.vim",
     "edluffy/specs.nvim",
     "edn-query-language/eql",
@@ -450,6 +451,7 @@
     "IEvangelist/blazor-azure-openai",
     "iflytek/HFL-Anthology",
     "ifromeast/cuda_learning",
+    "igor-makarov/xcake",
     "ikostrikov/jaxrl",
     "ilovepose/DarkPose",
     "ilovepose/fast-human-pose-estimation.pytorch",
@@ -521,6 +523,7 @@
     "JuliaPlots/StatsPlots.jl",
     "JuliaPy/Pandas.jl",
     "JuliaPy/SymPy.jl",
+    "JuliaStrings/LaTeXStrings.jl",
     "junegunn/vader.vim",
     "jupyterlab/extension-cookiecutter-ts",
     "juxt/clip",

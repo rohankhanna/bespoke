@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 31,
-    "terms": 33
+    "concepts": 39,
+    "observations": 39,
+    "repos": 36,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,29 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
+    "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
     "aar0npb/curator-skill",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
     "addfox/skills",
+    "AI-Agent-Hub/mcp-marketplace",
     "conda-forge/modin-feedstock",
     "csm-actions/docs",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/Agents-Index",
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Harnesses",
+    "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Architectural-Plans-Index",
     "danielrosehill/Awesome-Red-Alerts",
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Hebrew-TTS-Providers",
     "danielrosehill/Homebox-Projects-Index",
+    "danielrosehill/MCP-Projects-Index",
     "danielrosehill/Open-Claw-Stack",
     "danielrosehill/Prompt-Libraries-Index",
     "danielrosehill/Useful-AI-Agent-Skills",
@@ -41,9 +45,10 @@
     "lab-cosmo/.github",
     "langchain-ai/.github",
     "llvm/torch-mlir-release",
-    "newton-physics/newton-governance",
     "nttstar/insightface-resources",
+    "psmux/scoop-omp-manager",
     "ScoopInstaller/.github",
+    "sp1-patches/bn",
     "vega/.github"
   ]
 }

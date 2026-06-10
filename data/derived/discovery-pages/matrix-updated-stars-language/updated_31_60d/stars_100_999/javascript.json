@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3194,
-    "concepts": 727,
-    "observations": 736,
-    "repos": 140,
-    "terms": 744
+    "components": 3122,
+    "concepts": 712,
+    "observations": 721,
+    "repos": 138,
+    "terms": 729
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -142,7 +142,6 @@
     "Taritsyn/BundleTransformer",
     "tc39/eshost",
     "tc39/notes",
-    "testing-library/testing-library-docs",
     "tomayac/SVGcode",
     "unicode-org/message-format-wg",
     "usnistgov/h5wasm",
@@ -152,7 +151,6 @@
     "w3c/webref",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",
-    "will62794/spectacle",
     "ztoben/assets-webpack-plugin"
   ]
 }

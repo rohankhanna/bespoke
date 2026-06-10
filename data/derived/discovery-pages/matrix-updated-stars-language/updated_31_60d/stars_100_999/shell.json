@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 272,
-    "concepts": 370,
-    "observations": 374,
-    "repos": 65,
-    "terms": 376
+    "components": 266,
+    "concepts": 364,
+    "observations": 367,
+    "repos": 64,
+    "terms": 370
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -60,7 +60,6 @@
     "openshift/release",
     "pacstall/pacstall-programs",
     "pion/awesome-pion",
-    "reviewdog/action-misspell",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
     "rocker-org/rocker-versioned2",

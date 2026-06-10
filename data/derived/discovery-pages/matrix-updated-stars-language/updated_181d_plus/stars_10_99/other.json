@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2131,
-    "concepts": 1996,
-    "observations": 2002,
-    "repos": 857,
-    "terms": 1984
+    "components": 2133,
+    "concepts": 1999,
+    "observations": 2005,
+    "repos": 858,
+    "terms": 1987
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -748,6 +748,7 @@
     "sayakpaul/Barlow-Twins-TF",
     "sayakpaul/BiT-jax2tf",
     "sayakpaul/FunMatch-Distillation",
+    "sbcgua/abap-string-map",
     "SciML/SciMLTutorialsOutput",
     "scottmckendry/pick-resession.nvim",
     "secure-foundations/veri-titan",

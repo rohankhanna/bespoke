@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1041,
-    "concepts": 892,
-    "observations": 894,
-    "repos": 231,
-    "terms": 887
+    "components": 1036,
+    "concepts": 888,
+    "observations": 890,
+    "repos": 232,
+    "terms": 883
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -92,9 +92,10 @@
     "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
+    "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
     "EbrahimTahernejad/Tun2SocksKit",
-    "ecukes/ecukes",
+    "elixir-ecto/myxql",
     "elixir-mint/mint_web_socket",
     "elm-explorations/test",
     "ElsaTam/obsidian-fancy-a-story",
@@ -128,7 +129,6 @@
     "Helsinki-NLP/OPUS-MT-train",
     "hollowstrawberry/kohya-colab",
     "iftheshoefritz/solargraph-rails",
-    "igor-makarov/xcake",
     "izelnakri/paper_trail",
     "JacksonBurns/chemeleon",
     "jayli/vim-easycomplete",
@@ -148,7 +148,6 @@
     "JuliaML/MLUtils.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/Conda.jl",
-    "JuliaStrings/LaTeXStrings.jl",
     "k0kubun/hamlit",
     "kaarmu/typst.vim",
     "kakajun/vue3-sketch-ruler",
@@ -158,6 +157,8 @@
     "kowainik/relude",
     "kowainik/summoner",
     "layr-labs/eigenlayer-middleware",
+    "lifepillar/vim-colortemplate",
+    "lifepillar/vim-mucomplete",
     "LintaoAmons/cd-project.nvim",
     "loqusion/typix",
     "marilari88/neotest-vitest",

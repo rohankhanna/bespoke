@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1278,
-    "concepts": 5680,
-    "observations": 5685,
-    "repos": 1895,
-    "terms": 5512
+    "concepts": 5687,
+    "observations": 5692,
+    "repos": 1897,
+    "terms": 5519
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1562,6 +1562,7 @@
     "SamsungSAILMontreal/ForestDiffusion",
     "samuelcolvin/pytest-pretty",
     "sangyun884/HR-VITON",
+    "SarahWeiii/pamo",
     "sdbds/hallo-for-windows",
     "Sea-Snell/JAX_llama",
     "Sea-Snell/JAXSeq",
@@ -1700,6 +1701,7 @@
     "tomaarsen/attention_sinks",
     "ToruOwO/hato",
     "ToTheBeginning/ComfyUI-DreamO",
+    "tpoisonooo/ROGRAG",
     "TRI-ML/camviz",
     "TRI-ML/dd3d",
     "TRI-ML/vidar",

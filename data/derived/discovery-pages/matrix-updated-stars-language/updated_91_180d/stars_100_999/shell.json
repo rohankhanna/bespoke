@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 55,
-    "concepts": 134,
-    "observations": 135,
-    "repos": 30,
-    "terms": 133
+    "concepts": 140,
+    "observations": 141,
+    "repos": 31,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
+    "2KAbhishek/tmux2k",
     "acomagu/fish-async-prompt",
     "agkozak/zcomet",
     "agrimsingh/ralph-wiggum-cursor",

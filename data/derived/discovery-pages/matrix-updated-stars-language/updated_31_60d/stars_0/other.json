@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 33,
-    "terms": 43
+    "components": 66,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 34,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
     "arnaud-lb/php-rdkafka-doc",
+    "atsushieno/aap-lv2-string-machine",
     "b2agi/exist-is-charter",
     "conda-forge/cccl-feedstock",
     "danielrosehill/AI-Ideation-Runs",

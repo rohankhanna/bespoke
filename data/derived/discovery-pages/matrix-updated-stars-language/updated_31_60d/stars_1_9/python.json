@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 313,
-    "concepts": 182,
-    "observations": 182,
-    "repos": 74,
-    "terms": 200
+    "components": 286,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 72,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -40,9 +40,7 @@
     "cjtruheart/abundance-codex",
     "compiler-research/cppyy",
     "conda-forge/threadpoolctl-feedstock",
-    "CoolCat467/idlemypyextension",
     "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
-    "danielrosehill/Geopol-Forecaster",
     "danielrosehill/LLM-Council-Template",
     "danielrosehill/Voxtype",
     "demonatic/flash-attention",

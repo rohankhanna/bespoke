@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 467,
-    "concepts": 548,
-    "observations": 548,
-    "repos": 73,
-    "terms": 546
+    "concepts": 536,
+    "observations": 536,
+    "repos": 72,
+    "terms": 534
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -68,7 +68,6 @@
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
     "mockingbot/react-native-zip-archive",
-    "mukel/llama3.java",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
     "processing/processing4",

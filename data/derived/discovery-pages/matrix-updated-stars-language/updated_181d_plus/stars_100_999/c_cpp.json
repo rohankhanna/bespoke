@@ -3,7 +3,7 @@
     "components": 707,
     "concepts": 1288,
     "observations": 1291,
-    "repos": 387,
+    "repos": 389,
     "terms": 1269
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -66,6 +66,7 @@
     "bernds/q5Go",
     "bernedom/SI",
     "bigcode-project/starcoder.cpp",
+    "birkett/srvany-ng",
     "Blosc/bcolz",
     "BlueBrain/HighFive",
     "box2ai-robotics/lerobot-kinematics",
@@ -323,6 +324,7 @@
     "philres/ngmlr",
     "pmneila/PyMCubes",
     "PotatoOfDoom/CyberFSR2",
+    "powervr-graphics/Native_SDK",
     "pq-crystals/dilithium",
     "prashnts/pybloomfiltermmap3",
     "princeton-vl/DPVO",

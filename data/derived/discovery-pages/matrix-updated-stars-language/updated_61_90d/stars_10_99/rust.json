@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 104,
-    "observations": 106,
-    "repos": 31,
-    "terms": 104
+    "components": 216,
+    "concepts": 114,
+    "observations": 116,
+    "repos": 34,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
     "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
+    "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chris-zen/coremidi",
@@ -38,9 +39,11 @@
     "neysofu/reltester",
     "omerbenamram/pyo3-file",
     "oramasearch/llm_json",
+    "psmux/omp-manager",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
+    "rust-lang/josh-sync",
     "sigp/rust-libp2p",
     "synadia-io/orbit.rs",
     "Turbo87/flat-projection-rs",

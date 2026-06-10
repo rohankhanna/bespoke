@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 443,
-    "concepts": 864,
-    "observations": 865,
-    "repos": 170,
-    "terms": 853
+    "components": 448,
+    "concepts": 879,
+    "observations": 880,
+    "repos": 172,
+    "terms": 868
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -32,6 +32,7 @@
     "aqlaboratory/openfold",
     "ARISE-Initiative/robomimic",
     "ARISE-Initiative/robosuite",
+    "astanin/python-tabulate",
     "baaivision/Emu",
     "baaivision/Emu3",
     "bazelbuild/starlark",
@@ -123,9 +124,11 @@
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/ChatRTX",
+    "NVlabs/VILA",
     "obsei/obsei",
     "offu/WeRoBot",
     "ollama/ollama-python",
+    "om-ai-lab/VLM-R1",
     "open-mmlab/mmcv",
     "open-mmlab/mmengine",
     "open-webui/mcpo",
@@ -140,10 +143,10 @@
     "pfnet/pfrl",
     "Phantom-video/HuMo",
     "pipecat-ai/smart-turn",
-    "PKU-YuanGroup/LLaVA-CoT",
     "PRIME-RL/SimpleVLA-RL",
     "protectai/llm-guard",
     "PyCQA/pycodestyle",
+    "Pylons/pyramid",
     "Python-Markdown/markdown",
     "python-rope/rope",
     "python-semantic-release/python-semantic-release",
@@ -162,7 +165,6 @@
     "Supervisor/supervisor",
     "Teemu/pytest-sugar",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
-    "Tencent/TFace",
     "tensorflow/agents",
     "the-moonwitch/Cozette",
     "thewh1teagle/kokoro-onnx",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 393,
-    "concepts": 228,
-    "observations": 229,
+    "components": 385,
+    "concepts": 215,
+    "observations": 216,
     "repos": 45,
-    "terms": 228
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -22,7 +22,6 @@
     "apache/datafusion-ballista-python",
     "apify/actor-templates",
     "atsushieno/aap-juce",
-    "atsushieno/aap-lv2",
     "baicai-1145/GPT-SoVITS-CPUFast",
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
@@ -32,13 +31,12 @@
     "dwyl/mvp",
     "erigontech/mdbx-go",
     "f3liz-casa/noraneko",
-    "FreneticLLC/FreneticGameEngine",
     "g-plane/raffia",
     "google-marketing-solutions/ariel",
     "google-research/mseb",
     "goombalab/raven",
     "intel-staging/text-generation-webui",
-    "ipdxco/github-as-code",
+    "jelly-beam/rebar3_ex_doc",
     "kurrent-io/KurrentDB-Client-Rust",
     "lifegpc/msg-tool",
     "mesh-iit/cad-libraries",
@@ -46,7 +44,9 @@
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
+    "mono/skia",
     "nvim-mini/mini.deps",
+    "ocaml-tracing/ocaml-opentelemetry",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 5,
-    "terms": 59
+    "components": 65,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 6,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "567-labs/instructor",
+    "hiyouga/LlamaFactory",
     "oobabooga/textgen",
     "PDFMathTranslate/PDFMathTranslate",
     "pyg-team/pytorch_geometric",

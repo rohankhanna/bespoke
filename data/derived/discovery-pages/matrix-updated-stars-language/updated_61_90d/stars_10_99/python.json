@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 363,
-    "concepts": 313,
-    "observations": 313,
-    "repos": 78,
-    "terms": 310
+    "components": 361,
+    "concepts": 315,
+    "observations": 315,
+    "repos": 80,
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
     "Accio-Lab/SwimBird",
+    "AgriciDaniel/claude-email",
     "ai4colonoscopy/PraNet-V2",
+    "aiagenta2z/mcp-marketplace",
     "all-the-noises/eval-arena",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
     "amiable-dev/llm-council",
     "analyticsinmotion/werpy",
     "andyluo7/autoresearch",
+    "ankurhanda/robot-assets",
     "archlizheng/frontend-slides-editable",
     "Azure-Samples/azureai-travel-agent-python",
     "beeware/briefcase-template",
@@ -47,7 +50,6 @@
     "explosion/weasel",
     "facebookresearch/mosaic",
     "FindDefinition/cumm",
-    "foldl/AlphaGeometryRE",
     "hpcaitech/public_assets",
     "hynek/argon2-cffi-bindings",
     "HyperionGray/trio-chrome-devtools-protocol",
@@ -67,7 +69,6 @@
     "lace/polliwog",
     "LedgerHQ/ledgerctl",
     "libp2p/test-plans",
-    "liran-funaro/sphinx-markdown-builder",
     "logic-star-ai/swt-bench",
     "lucidrains/PoPE-pytorch",
     "microsoft/vscode-azurecli",
@@ -83,6 +84,7 @@
     "rstudio/pins-python",
     "seung-lab/cloud-files",
     "shiweijiezero/R3L",
+    "skhu101/HumanLiff",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
     "talieisin/britfix",

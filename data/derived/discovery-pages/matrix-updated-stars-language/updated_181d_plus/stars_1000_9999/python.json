@@ -3,7 +3,7 @@
     "components": 968,
     "concepts": 3858,
     "observations": 3860,
-    "repos": 982,
+    "repos": 984,
     "terms": 3786
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -726,6 +726,7 @@
     "PixArt-alpha/PixArt-alpha",
     "PixArt-alpha/PixArt-sigma",
     "PKU-Alignment/safe-rlhf",
+    "PKU-YuanGroup/LLaVA-CoT",
     "PKU-YuanGroup/MoE-LLaVA",
     "PKU-YuanGroup/Video-LLaVA",
     "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
@@ -855,6 +856,7 @@
     "tczhangzhi/pytorch-distributed",
     "Tencent-Hunyuan/HunyuanCustom",
     "Tencent/MimicMotion",
+    "Tencent/TFace",
     "TencentARC/SEED-Voken",
     "TencentARC/T2I-Adapter",
     "TencentQQGYLab/ELLA",

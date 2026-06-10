@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 204,
-    "observations": 204,
-    "repos": 44,
-    "terms": 207
+    "components": 215,
+    "concepts": 222,
+    "observations": 222,
+    "repos": 47,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -24,10 +24,12 @@
     "avast/retry-go",
     "chaisql/chai",
     "charmbracelet/skate",
+    "coder/websocket",
     "containernetworking/cni",
     "dagger/container-use",
     "dghubble/sling",
     "dgraph-io/ristretto",
+    "dop251/goja",
     "duke-git/lancet",
     "evmos/evmos",
     "flashbots/mev-boost",
@@ -50,6 +52,7 @@
     "OffchainLabs/arbitrum-classic",
     "opencontainers/image-spec",
     "protocolbuffers/protobuf-go",
+    "refraction-networking/utls",
     "restic/rest-server",
     "rs/cors",
     "shazow/ssh-chat",

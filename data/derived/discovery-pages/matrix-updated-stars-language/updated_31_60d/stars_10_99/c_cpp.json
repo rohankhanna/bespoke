@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 453,
-    "observations": 453,
-    "repos": 79,
-    "terms": 450
+    "components": 390,
+    "concepts": 459,
+    "observations": 459,
+    "repos": 78,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -24,6 +24,7 @@
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
+    "atsushieno/aap-lv2",
     "atsushieno/uapmd",
     "barak/minidjvu",
     "BirolLab/btllib",
@@ -39,7 +40,6 @@
     "f32c/tools",
     "fabmax/PhysX",
     "facebook/fb303",
-    "fcambus/bdf2sfd",
     "gazebosim/gz-common",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-gui",
@@ -53,7 +53,6 @@
     "heiher/hev-task-system",
     "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
-    "jupyter-xeus/xeus-lua",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "ksnip/kImageAnnotator",

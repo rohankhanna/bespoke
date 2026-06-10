@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 45,
-    "observations": 46,
-    "repos": 31,
-    "terms": 45
+    "components": 51,
+    "concepts": 43,
+    "observations": 44,
+    "repos": 30,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "agent-sh/glidemq",
@@ -43,7 +43,6 @@
     "pacstall/pacup",
     "reviewdog/action-alex",
     "reviewdog/action-composite-template",
-    "semgrep/mcp-marketplace",
     "status-im/nimbus-build-system"
   ]
 }

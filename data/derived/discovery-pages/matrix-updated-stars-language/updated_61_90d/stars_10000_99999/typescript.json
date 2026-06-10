@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 389,
+    "components": 406,
     "concepts": 44,
     "observations": 44,
-    "repos": 6,
-    "terms": 45
+    "repos": 7,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "alibaba/ice",
     "AndyMik90/Aperant",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",
     "GoogleChromeLabs/squoosh",
+    "tobi/qmd",
     "vercel/satori"
   ]
 }

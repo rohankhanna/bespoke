@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 158,
-    "observations": 159,
-    "repos": 19,
-    "terms": 153
+    "components": 178,
+    "concepts": 203,
+    "observations": 204,
+    "repos": 23,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
     "babashka/sci",
+    "beam-community/elixir-companies",
     "benchflow-ai/skillsbench",
     "devlooped/moq",
     "dotnet/Silk.NET",
@@ -24,7 +25,10 @@
     "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
+    "microsoft/PhiCookBook",
+    "mono/SkiaSharp",
     "nushell/awesome-nu",
+    "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
     "openai/openai-dotnet",
     "opentk/opentk",

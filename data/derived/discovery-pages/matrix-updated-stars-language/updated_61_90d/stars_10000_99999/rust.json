@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 22
+    "components": 44,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 4,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "dandavison/delta",
+    "eza-community/eza",
     "hyperium/hyper",
     "lsd-rs/lsd"
   ]

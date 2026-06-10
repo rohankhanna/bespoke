@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3629,
-    "concepts": 631,
-    "observations": 636,
-    "repos": 129,
-    "terms": 663
+    "components": 3586,
+    "concepts": 633,
+    "observations": 638,
+    "repos": 128,
+    "terms": 665
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -25,13 +25,11 @@
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
     "ava-labs/avalanche-dapp-sdks",
-    "awslabs/wdio-aws-device-farm-service",
     "Azure/bicep-deploy",
     "Azure/powershell",
     "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
     "bolasblack/shadow-cljs-vite-plugin",
-    "buddingnewinsights/proxypal",
     "bufbuild/protovalidate-es",
     "buttondown/cli",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -74,6 +72,7 @@
     "intlify/cli",
     "intlify/vue-i18n-extensions",
     "ioBroker/ioBroker.matter",
+    "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "ipfs/ipld-explorer-components",
     "ipikuka/rehype-highlight-code-lines",

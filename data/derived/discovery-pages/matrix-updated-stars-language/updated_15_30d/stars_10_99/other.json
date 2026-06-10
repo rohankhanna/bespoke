@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 9,
-    "terms": 49
+    "components": 164,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 10,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
     "cginternals/cpplocate",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
-    "FreneticLLC/FreneticGameEngine",
+    "jelly-beam/rebar3_ex_doc",
     "nvim-mini/mini.deps",
+    "ocaml-tracing/ocaml-opentelemetry",
     "processing/processing-website",
     "python-poetry/website",
     "UnknownPlatypus/djangofmt"

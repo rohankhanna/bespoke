@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 120,
-    "observations": 120,
-    "repos": 23,
-    "terms": 120
+    "components": 121,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 24,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-09T07:48:10.547322+00:00",
+  "generated_at": "2026-06-10T06:02:18.895760+00:00",
   "repo_ids": [
-    "agentic-box/memora",
     "AMD-AGI/Nitro-1",
     "amsehili/auditok",
     "bagofwords1/bagofwords",
@@ -33,9 +32,11 @@
     "pyrtlsdr/pyrtlsdr",
     "python-poetry/poetry-plugin-export",
     "satan53x/SExtractor",
+    "ShadowLoveElysia/AiNiee-Next",
     "shawn0728/OpenSearch-VL",
     "SublimeText/AFileIcon",
     "TextArena/TextArena",
+    "thunlp/OPD",
     "zh-plus/openlrc"
   ]
 }
