@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5817,
-    "concepts": 3538,
-    "observations": 3554,
-    "repos": 610,
-    "terms": 3543
+    "components": 5841,
+    "concepts": 3556,
+    "observations": 3572,
+    "repos": 612,
+    "terms": 3561
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -244,6 +244,7 @@
     "google/starlark-go",
     "google/tarpc",
     "GoogleChrome/lighthouse-ci",
+    "gopasspw/gopass",
     "gpac/mp4box.js",
     "gpu-mode/Triton-Puzzles",
     "gpuweb/gpuweb",
@@ -603,6 +604,7 @@
     "wenet-e2e/wespeaker",
     "whitequark/parser",
     "wincent/command-t",
+    "wkentaro/gdown",
     "xerial/snappy-java",
     "xjasonlyu/tun2socks",
     "xlite-dev/lite.ai.toolkit",

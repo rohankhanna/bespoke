@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 21978,
-    "concepts": 12842,
-    "observations": 12889,
-    "repos": 2169,
-    "terms": 12926
+    "components": 21963,
+    "concepts": 12837,
+    "observations": 12884,
+    "repos": 2168,
+    "terms": 12921
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -2168,7 +2168,6 @@
     "z-galaxy/zbus",
     "zaeleus/noodles",
     "zai-org/GLM-skills",
-    "zarr-developers/numcodecs",
     "zcash/zips",
     "ZcashFoundation/zebra",
     "zendesk/racecar",

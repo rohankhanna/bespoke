@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1129,
-    "concepts": 516,
-    "observations": 517,
-    "repos": 92,
-    "terms": 514
+    "components": 1171,
+    "concepts": 529,
+    "observations": 530,
+    "repos": 94,
+    "terms": 527
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "abaplint/transpiler",
@@ -22,6 +22,7 @@
     "altschuler/imgui-knobs",
     "AMD-AGI/Nitro-1",
     "amsehili/auditok",
+    "antvis/GPT-Vis",
     "apache/casbin-cpp",
     "appwrite/playground-for-web",
     "atsushieno/aap-core",
@@ -78,6 +79,7 @@
     "nushell/reedline",
     "NVlabs/trajdata",
     "openbsd/ports",
+    "OpenHands/ToM-SWE",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "perrygeo/python-rasterstats",

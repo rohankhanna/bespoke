@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 95146,
-    "concepts": 49589,
-    "observations": 49769,
-    "repos": 7402,
-    "terms": 49857
+    "components": 95163,
+    "concepts": 49588,
+    "observations": 49768,
+    "repos": 7399,
+    "terms": 49854
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "06ketan/slideshot",
@@ -54,7 +54,6 @@
     "48Club/bsc-snapshots",
     "4ian/GDevelop",
     "52-entertainment/vite-plugin-oxlint",
-    "5E7EN/Garmin-ZmanIQ",
     "5sControl/5s-backend",
     "64bit/async-openai",
     "64bit/commandOK",
@@ -345,6 +344,7 @@
     "ajeetdsouza/zoxide",
     "ajevans99/swift-mcp-toolkit",
     "ajrcarey/pdfium-render",
+    "ajv-validator/ajv",
     "akash-akya/vix",
     "akfamily/akquant",
     "akfamily/akshare",
@@ -3178,7 +3178,6 @@
     "gookit/validate",
     "goombalab/raven",
     "gopasspw/git-credential-gopass",
-    "gopasspw/gopass",
     "gopasspw/gopass-hibp",
     "gopasspw/gopass-summon-provider",
     "gopasspw/gopassbridge",
@@ -4532,7 +4531,6 @@
     "maragudk/gomponents",
     "maragudk/gomponents-starter-kit",
     "marbl/verkko",
-    "marcindulak/ralph-wiggum-bdd",
     "marciogranzotto/clawd-tank",
     "MarcusWolschon/osmeditor4android",
     "marella/material-symbols",
@@ -4548,6 +4546,7 @@
     "martinthomson/ohttp",
     "marton78/pffft",
     "marwin1991/profile-technology-icons",
+    "marzer/tomlplusplus",
     "mason-org/mason-lspconfig.nvim",
     "mason-org/mason-registry",
     "mason-org/mason.nvim",
@@ -7293,7 +7292,6 @@
     "withoutbg/withoutbg",
     "wix/Detox",
     "wjakob/nanobind",
-    "wkentaro/gdown",
     "wkentaro/labelme",
     "wojtekmach/req",
     "wojtekmaj/react-pdf",
@@ -7382,7 +7380,6 @@
     "zaeleus/noodles",
     "zai-org/GLM-skills",
     "zalando/restful-api-guidelines",
-    "zarr-developers/numcodecs",
     "zarr-developers/zarr-python",
     "zcash/pasta_curves",
     "zcash/zcash",

@@ -3,7 +3,7 @@
     "components": 51,
     "concepts": 43,
     "observations": 44,
-    "repos": 30,
+    "repos": 29,
     "terms": 43
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "agent-sh/glidemq",
@@ -39,7 +39,6 @@
     "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",
     "lint-staged/lint-staged.sh",
-    "marcindulak/ralph-wiggum-bdd",
     "pacstall/pacup",
     "reviewdog/action-alex",
     "reviewdog/action-composite-template",

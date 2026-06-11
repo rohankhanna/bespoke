@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 14,
-    "terms": 97
+    "components": 104,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 13,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "AI-Hypercomputer/maxdiffusion",
@@ -24,7 +24,6 @@
     "jupyter-server/jupyter_server",
     "machinewrapped/llm-subtrans",
     "NCAS-CMS/pyfive",
-    "OpenHands/ToM-SWE",
     "readthedocs/commonmark.py",
     "scverse/rapids-singlecell",
     "TinyLLaVA/TinyLLaVA_Factory"

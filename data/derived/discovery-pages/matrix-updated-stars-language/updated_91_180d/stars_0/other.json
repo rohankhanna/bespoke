@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 13,
-    "terms": 9
+    "components": 39,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 14,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "AdaCore/vss-text",
@@ -26,6 +26,7 @@
     "mjvolk3/dendron-template",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",
+    "stable-haskell/stack",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking"
   ]
 }

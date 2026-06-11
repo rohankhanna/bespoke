@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 419,
-    "concepts": 181,
-    "observations": 183,
-    "repos": 107,
-    "terms": 184
+    "components": 410,
+    "concepts": 176,
+    "observations": 178,
+    "repos": 106,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -111,7 +111,6 @@
     "saharmor/saharmor.github.io",
     "semgrep/cursor-plugin",
     "Sovereign-Labs/reltester",
-    "stable-haskell/stack",
     "stdlib-js/dstructs-struct",
     "stefanlogue/scoops",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

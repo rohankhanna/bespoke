@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5611,
-    "concepts": 3474,
-    "observations": 3492,
-    "repos": 750,
-    "terms": 3475
+    "components": 5626,
+    "concepts": 3479,
+    "observations": 3497,
+    "repos": 751,
+    "terms": 3480
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "43081j/picoquery",
@@ -761,6 +761,7 @@
     "ysbing/YADB",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zai-org/z-ai-sdk-python",
+    "zarr-developers/numcodecs",
     "zhiqwang/yolort",
     "zone-eu/zone-mta"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 23,
-    "terms": 38
+    "components": 33,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 22,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "ashton/neotest-gleam-unitest",
@@ -35,7 +35,6 @@
     "musicman3/r2-d2",
     "Nichaojun/Nichaojun.github.io",
     "saharmor/saharmor.github.io",
-    "stable-haskell/stack",
     "stefanlogue/scoops"
   ]
 }

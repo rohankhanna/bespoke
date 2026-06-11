@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 17962,
-    "concepts": 10549,
-    "observations": 10595,
-    "repos": 2267,
-    "terms": 10528
+    "components": 17992,
+    "concepts": 10570,
+    "observations": 10616,
+    "repos": 2271,
+    "terms": 10549
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/shellx",
@@ -33,6 +33,7 @@
     "4dn-dcic/tibanna",
     "4xian/claude-codex-api",
     "5c077m4n/pikud-haoref-api-go",
+    "5E7EN/Garmin-ZmanIQ",
     "6551Team/opennews-mcp",
     "666ghj/MiroFish",
     "6cdh/dotfiles",
@@ -1038,6 +1039,7 @@
     "GoogleCloudPlatform/cloud-bigtable-examples",
     "GoogleCloudPlatform/cloud-opensource-java",
     "gopacket/gopacket",
+    "gopasspw/gopass",
     "gopasspw/gopass-jsonapi",
     "gost-dom/shaman",
     "gowaylee/cchooks",
@@ -1460,6 +1462,7 @@
     "marbl/T2T-Browser",
     "marcelm/cutadapt",
     "marcindulak/learning-api-styles-gen-ai-experiments",
+    "marcindulak/ralph-wiggum-bdd",
     "marin-community/harbor",
     "marin-community/kitoken",
     "markdoc/markdoc",
@@ -2022,7 +2025,6 @@
     "SRombauts/SQLiteCpp",
     "ssitu/ComfyUI_UltimateSDUpscale",
     "ssiu/flash-attention-turing",
-    "stable-haskell/stack",
     "Stanford-TML/robot_keyframe_kit",
     "stdlib-js/array-buffer",
     "stdlib-js/array-complex128",
@@ -2231,6 +2233,7 @@
     "will62794/spectacle",
     "wincent/command-t",
     "withastro/compiler",
+    "wkentaro/gdown",
     "WojciechMula/toys",
     "WujiangXu/A-mem-sys",
     "wuphilipp/gello_mechanical",
@@ -2272,6 +2275,7 @@
     "zai-org/z-ai-sdk-python",
     "zarazhangrui/codebase-to-course",
     "zarazhangrui/frontend-slides",
+    "zarr-developers/numcodecs",
     "zdharma-continuum/zinit",
     "zeromq/cppzmq",
     "zeromq/libzmq",

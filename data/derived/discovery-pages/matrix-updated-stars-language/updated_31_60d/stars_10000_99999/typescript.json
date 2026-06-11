@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11072,
-    "concepts": 1632,
-    "observations": 1643,
-    "repos": 157,
-    "terms": 1641
+    "components": 11120,
+    "concepts": 1636,
+    "observations": 1647,
+    "repos": 158,
+    "terms": 1644
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
     "adonisjs/core",
     "aidenybai/react-scan",
     "airbnb/visx",
+    "ajv-validator/ajv",
     "angular/angular-cli",
     "ant-design/ant-design",
     "ant-design/ant-design-mobile",

@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 778,
-    "concepts": 487,
-    "observations": 490,
-    "repos": 44,
-    "terms": 477
+    "components": 730,
+    "concepts": 483,
+    "observations": 486,
+    "repos": 43,
+    "terms": 474
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "567-labs/instructor",
-    "ajv-validator/ajv",
     "apache/brpc",
     "apache/casbin",
     "atuinsh/atuin",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 24742,
-    "concepts": 10657,
-    "observations": 10697,
-    "repos": 1018,
-    "terms": 10641
+    "components": 24790,
+    "concepts": 10661,
+    "observations": 10701,
+    "repos": 1019,
+    "terms": 10644
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -55,6 +55,7 @@
     "airbnb/visx",
     "ajaxorg/ace",
     "ajeetdsouza/zoxide",
+    "ajv-validator/ajv",
     "akfamily/akshare",
     "alacritty/alacritty",
     "Alamofire/Alamofire",

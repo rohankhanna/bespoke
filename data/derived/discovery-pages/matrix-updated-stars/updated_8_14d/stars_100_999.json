@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 682,
-    "concepts": 361,
-    "observations": 362,
-    "repos": 52,
-    "terms": 361
+    "components": 640,
+    "concepts": 348,
+    "observations": 349,
+    "repos": 50,
+    "terms": 348
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
-    "antvis/GPT-Vis",
     "apalache-mc/apalache",
     "appelmar/gdalcubes",
     "aristoteleo/PantheonOS",
@@ -50,7 +49,6 @@
     "meshcat-dev/meshcat",
     "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",
-    "OpenHands/ToM-SWE",
     "preactjs/preact-devtools",
     "readthedocs/commonmark.py",
     "redis/redis-om-spring",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1363,
-    "concepts": 875,
-    "observations": 878,
-    "repos": 104,
-    "terms": 859
+    "components": 1461,
+    "concepts": 869,
+    "observations": 873,
+    "repos": 106,
+    "terms": 854
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -60,6 +60,7 @@
     "ipfs/ipfs-webui",
     "iree-org/iree",
     "java-native-access/jna",
+    "JuergenFleiss/aTrain",
     "KhronosGroup/KTX-Software",
     "Koenkk/zigbee-herdsman-converters",
     "licensee/licensed",
@@ -68,10 +69,11 @@
     "lucidrains/vector-quantize-pytorch",
     "lumen-oss/rocks.nvim",
     "mangiucugna/json_repair",
-    "marzer/tomlplusplus",
     "mayocream/koharu",
+    "meta-pytorch/captum",
     "microsoft/Detours",
     "microsoft/PhiCookBook",
+    "microsoft/vscode-js-debug",
     "Mithril-mine/libmdbx",
     "modelscope/FunClip",
     "mono/SkiaSharp",

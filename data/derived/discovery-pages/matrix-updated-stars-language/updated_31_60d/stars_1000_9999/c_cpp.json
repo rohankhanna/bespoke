@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2266,
-    "concepts": 2354,
-    "observations": 2357,
-    "repos": 287,
-    "terms": 2335
+    "components": 2274,
+    "concepts": 2375,
+    "observations": 2378,
+    "repos": 288,
+    "terms": 2355
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -169,6 +169,7 @@
     "mackron/miniaudio",
     "mamba-org/mamba",
     "mapnik/mapnik",
+    "marzer/tomlplusplus",
     "mattn/go-sqlite3",
     "Mbed-TLS/mbedtls",
     "mcmilk/7-Zip-zstd",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1436,
-    "concepts": 646,
-    "observations": 650,
-    "repos": 75,
-    "terms": 645
+    "components": 1330,
+    "concepts": 631,
+    "observations": 634,
+    "repos": 72,
+    "terms": 630
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
@@ -51,19 +51,16 @@
     "harfbuzz/harfbuzz",
     "helidon-io/helidon",
     "huggingface/optimum-quanto",
-    "JuergenFleiss/aTrain",
     "JuliaPluto/Pluto.jl",
     "kubernetes-sigs/karpenter",
     "kurrent-io/KurrentDB",
     "libbitcoin/libbitcoin-system",
     "luau-lang/luau",
-    "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/vscode-js-debug",
     "module-federation/core",
     "ogx-ai/ogx",
     "okd-project/okd",

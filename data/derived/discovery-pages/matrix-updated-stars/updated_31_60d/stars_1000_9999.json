@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 32122,
-    "concepts": 18586,
-    "observations": 18651,
-    "repos": 2294,
-    "terms": 18637
+    "components": 32106,
+    "concepts": 18589,
+    "observations": 18654,
+    "repos": 2293,
+    "terms": 18639
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -943,7 +943,6 @@
     "gookit/color",
     "gookit/goutil",
     "gookit/validate",
-    "gopasspw/gopass",
     "goreleaser/nfpm",
     "gorhom/react-native-bottom-sheet",
     "gotestyourself/gotestsum",
@@ -1334,6 +1333,7 @@
     "maragudk/gomponents",
     "mark3labs/mcp-go",
     "markdownlint/markdownlint",
+    "marzer/tomlplusplus",
     "mason-org/mason-lspconfig.nvim",
     "Masterminds/semver",
     "MaterializeInc/materialize",
@@ -2265,7 +2265,6 @@
     "withcatai/node-llama-cpp",
     "withoutbg/withoutbg",
     "wjakob/nanobind",
-    "wkentaro/gdown",
     "wojtekmach/req",
     "wundergraph/cosmo",
     "x-motemen/ghq",

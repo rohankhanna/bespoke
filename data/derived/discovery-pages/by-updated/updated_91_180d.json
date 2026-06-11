@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14724,
-    "concepts": 9645,
-    "observations": 9676,
-    "repos": 2553,
-    "terms": 9615
+    "components": 14733,
+    "concepts": 9650,
+    "observations": 9681,
+    "repos": 2554,
+    "terms": 9620
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -2215,6 +2215,7 @@
     "squeaky-pl/portable-pypy",
     "srikanth-lingala/zip4j",
     "Stability-AI/generative-models",
+    "stable-haskell/stack",
     "standard-schema/standard-schema",
     "standardrb/lint_roller",
     "stanislav-tkach/os_info",

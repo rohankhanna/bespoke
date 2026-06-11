@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 663,
-    "concepts": 157,
-    "observations": 157,
-    "repos": 18,
-    "terms": 157
+    "components": 699,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 19,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "abaplint/transpiler",
+    "antvis/GPT-Vis",
     "Brendonovich/MacroGraph",
     "electron/packager",
     "fluent-vue/fluent-vue",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 227,
-    "observations": 228,
-    "repos": 27,
-    "terms": 221
+    "components": 147,
+    "concepts": 238,
+    "observations": 240,
+    "repos": 29,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -27,8 +27,10 @@
     "huggingface/finetrainers",
     "intelligent-machine-learning/dlrover",
     "InternScience/GraphGen",
+    "JuergenFleiss/aTrain",
     "lucidrains/vector-quantize-pytorch",
     "mangiucugna/json_repair",
+    "meta-pytorch/captum",
     "modelscope/FunClip",
     "msiemens/tinydb",
     "NEKOparapa/AiNiee",

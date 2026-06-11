@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 11,
-    "terms": 51
+    "components": 423,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 12,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "can1357/oh-my-pi",
@@ -20,6 +20,7 @@
     "electron/rebuild",
     "FxEmbed/FxEmbed",
     "Koenkk/zigbee-herdsman-converters",
+    "microsoft/vscode-js-debug",
     "neavo/LinguaGacha",
     "safe-fndn/safe-smart-account",
     "unplugin/unplugin-vue-components",

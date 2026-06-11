@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4269,
-    "concepts": 1944,
-    "observations": 1955,
-    "repos": 212,
-    "terms": 1947
+    "components": 4121,
+    "concepts": 1915,
+    "observations": 1925,
+    "repos": 206,
+    "terms": 1918
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T06:09:37.211575+00:00",
+  "generated_at": "2026-06-11T08:14:09.272122+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "4catalyzer/javascript",
@@ -22,7 +22,6 @@
     "all-contributors/allcontributors.org",
     "alloy-rs/evm",
     "anthropics/claude-cookbooks",
-    "antvis/GPT-Vis",
     "apache/datafusion-ballista",
     "apalache-mc/apalache",
     "apollographql/apollo-tooling",
@@ -116,7 +115,6 @@
     "jax-ml/jax",
     "jestjs/jest",
     "joshsymonds/cc-tools",
-    "JuergenFleiss/aTrain",
     "JuliaGraphics/Luxor.jl",
     "JuliaPluto/Pluto.jl",
     "jupyter-server/jupyter_server",
@@ -136,13 +134,11 @@
     "machinewrapped/llm-subtrans",
     "mayocream/candle",
     "meshcat-dev/meshcat",
-    "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "microsoft/vscode-js-debug",
     "mightyiam/eslint-config-love",
     "moby/moby",
     "modelscope/FunASR",
@@ -161,7 +157,6 @@
     "okd-project/okd",
     "ollama/ollama",
     "OpenHands/OpenHands",
-    "OpenHands/ToM-SWE",
     "oscard0m/ts-transformer-remove-named-export",
     "paralleldrive/cuid",
     "pivotal/credhub-release",
@@ -170,7 +165,6 @@
     "PrimeIntellect-ai/verifiers",
     "psf/black",
     "psmux/psmux",
-    "psmux/scoop-psmux",
     "pydantic/pydantic",
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
