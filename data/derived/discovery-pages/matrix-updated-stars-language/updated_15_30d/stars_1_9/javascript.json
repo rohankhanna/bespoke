@@ -3,7 +3,7 @@
     "components": 30,
     "concepts": 16,
     "observations": 16,
-    "repos": 1,
+    "repos": 2,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
+    "apostrophecms/starter-kit-astro-essentials",
     "Luligu/matterbridge-somfy-tahoma"
   ]
 }

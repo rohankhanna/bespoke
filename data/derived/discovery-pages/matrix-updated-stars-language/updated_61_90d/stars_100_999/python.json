@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 686,
-    "observations": 693,
-    "repos": 152,
-    "terms": 689
+    "components": 500,
+    "concepts": 676,
+    "observations": 683,
+    "repos": 153,
+    "terms": 679
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/aswf-docker",
     "ACEnglish/truvari",
@@ -20,6 +20,7 @@
     "AgentR1/Claw-R1",
     "agentscope-ai/agentscope-samples",
     "AGI-Arena/MARS",
+    "ahmedasmar/devops-claude-skills",
     "aigc3d/LHM-plusplus",
     "aiming-lab/AutoHarness",
     "AIR-Bench/AIR-Bench",
@@ -27,6 +28,7 @@
     "akoumjian/datefinder",
     "Alibaba-NLP/qqr",
     "Alibaba-NLP/VRAG",
+    "allenai/IFBench",
     "allenai/ir_datasets",
     "allenai/olmes",
     "amap-cvlab/ABot-Manipulation",
@@ -40,7 +42,6 @@
     "CatharsisFonts/Ysabeau",
     "citusdata/django-multitenant",
     "clearml/clearml-server",
-    "clearml/clearml-serving",
     "conan-io/cmake-conan",
     "corteva/rioxarray",
     "csslc/PiSA-SR",
@@ -56,7 +57,6 @@
     "Epistimio/orion",
     "facebookincubator/ptr",
     "facebookresearch/atlas",
-    "facebookresearch/CodeGen",
     "facebookresearch/optimizers",
     "facebookresearch/RAM",
     "Farama-Foundation/Shimmy",
@@ -78,6 +78,7 @@
     "hukkin/mdformat",
     "hustvl/Senna",
     "hynek/argon2-cffi",
+    "inisis/OnnxSlim",
     "iterative/shtab",
     "jpmml/sklearn2pmml",
     "jsegov/autoresearch-win-rtx",
@@ -89,6 +90,7 @@
     "layumi/University1652-Baseline",
     "ldayton/dippy",
     "lessw2020/Ranger21",
+    "letmaik/rawpy",
     "llm-in-sandbox/llm-in-sandbox",
     "lxgw/LxgwWenkaiTC",
     "macisamuele/language-formatters-pre-commit-hooks",
@@ -99,7 +101,6 @@
     "matthew-brett/delocate",
     "melMass/comfy_mtb",
     "meta-pytorch/torchft",
-    "mgaitan/sphinxcontrib-mermaid",
     "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ArchScale",
     "microsoft/XPretrain",

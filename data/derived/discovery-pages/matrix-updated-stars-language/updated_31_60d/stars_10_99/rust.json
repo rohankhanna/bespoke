@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 769,
-    "concepts": 484,
-    "observations": 485,
-    "repos": 110,
-    "terms": 497
+    "components": 779,
+    "concepts": 497,
+    "observations": 498,
+    "repos": 111,
+    "terms": 510
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -26,7 +26,6 @@
     "ankane/delta-ruby",
     "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
-    "antonWetzel/prettypst",
     "apache/opendal-oli",
     "apollographql/federation-rs",
     "arkworks-rs/spongefish",
@@ -61,6 +60,7 @@
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "FxEmbed/mosaic",
+    "g-plane/raffia",
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
@@ -78,6 +78,7 @@
     "idanarye/nu_plugin_skim",
     "influxdata/datafusion-udf-wasm",
     "janrueth/boring-rustls-provider",
+    "kurrent-io/KurrentDB-Client-Rust",
     "KWARC/rust-libxml",
     "launchdarkly/rust-server-sdk",
     "Layr-Labs/eigensdk-rs",

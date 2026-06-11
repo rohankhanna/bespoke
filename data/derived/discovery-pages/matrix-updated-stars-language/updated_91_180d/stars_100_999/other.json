@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1039,
-    "concepts": 891,
-    "observations": 893,
-    "repos": 233,
-    "terms": 886
+    "components": 1052,
+    "concepts": 923,
+    "observations": 925,
+    "repos": 237,
+    "terms": 918
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
+    "2KAbhishek/seeker.nvim",
     "3ddelano/discord.gd",
     "4d49/scene-library",
     "66RING/tiny-flash-attention",
@@ -22,6 +23,7 @@
     "ahausladen/PdfiumLib",
     "ahyatt/emacs-websocket",
     "ajevans99/swift-json-schema",
+    "akabe/ocaml-jupyter",
     "analogdevicesinc/ai8x-training",
     "AndrewRadev/switch.vim",
     "ankane/groupdate.sql",
@@ -32,7 +34,6 @@
     "arnetheduck/nph",
     "aserafin/grape_logging",
     "astral-sh/uv-docker-example",
-    "atomontage/xterm-color",
     "auto-complete/popup-el",
     "autodeployai/ai-serving",
     "aws-ia/terraform-aws-eks-blueprints-addons",
@@ -50,6 +51,7 @@
     "beam-telemetry/telemetry_metrics",
     "benbalter/jekyll-include-cache",
     "bfrg/vim-c-cpp-modern",
+    "bhauman/rebel-readline",
     "bioinf-jku/TTUR",
     "BrunoBonacci/mulog",
     "caddyserver/caddy-docker",
@@ -93,6 +95,7 @@
     "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
     "donut-party/system",
+    "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
     "EbrahimTahernejad/Tun2SocksKit",
@@ -148,7 +151,6 @@
     "JuliaLang/JuliaSyntax.jl",
     "JuliaML/MLUtils.jl",
     "JuliaPlots/GraphRecipes.jl",
-    "JuliaPy/Conda.jl",
     "k0kubun/hamlit",
     "kaarmu/typst.vim",
     "kakajun/vue3-sketch-ruler",
@@ -157,6 +159,7 @@
     "Kolaru/MathTeXEngine.jl",
     "kowainik/relude",
     "kowainik/summoner",
+    "lassik/emacs-format-all-the-code",
     "layr-labs/eigenlayer-middleware",
     "lifepillar/vim-colortemplate",
     "lifepillar/vim-mucomplete",
@@ -188,6 +191,7 @@
     "plk/biber",
     "PMunch/nimlsp",
     "prettier/prettier-emacs",
+    "proper-testing/proper",
     "pug-php/pug",
     "r-lib/covr",
     "r-lib/revdepcheck",

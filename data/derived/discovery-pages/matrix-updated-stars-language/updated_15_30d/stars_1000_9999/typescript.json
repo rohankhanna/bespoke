@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 444,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 13,
-    "terms": 64
+    "components": 322,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 11,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "can1357/oh-my-pi",
     "ebullient/obsidian-admonition",
     "electron/rebuild",
     "FxEmbed/FxEmbed",
-    "getagentseal/codeburn",
     "Koenkk/zigbee-herdsman-converters",
     "neavo/LinguaGacha",
-    "shareAI-lab/Kode-Agent",
-    "shareAI-lab/Kode-CLI",
+    "safe-fndn/safe-smart-account",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
     "vercel/serve"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1915,
-    "concepts": 1264,
-    "observations": 1276,
-    "repos": 219,
-    "terms": 1264
+    "components": 1923,
+    "concepts": 1289,
+    "observations": 1301,
+    "repos": 220,
+    "terms": 1289
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -110,6 +110,8 @@
     "flatpak/flat-manager",
     "foundry-rs/compilers",
     "FuelLabs/fuel-vm",
+    "g-plane/malva",
+    "g-plane/markup_fmt",
     "gdesmott/system-deps",
     "georust/geojson",
     "gjtorikian/commonmarker",
@@ -161,7 +163,6 @@
     "nix-community/harmonia",
     "nix-community/lorri",
     "nix-community/namaka",
-    "nixops4/nixops4",
     "NixOS/nix-installer",
     "Nullus157/async-compression",
     "open-telemetry/weaver",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15714,
-    "concepts": 14268,
-    "observations": 14296,
-    "repos": 4670,
-    "terms": 14041
+    "components": 15727,
+    "concepts": 14279,
+    "observations": 14307,
+    "repos": 4675,
+    "terms": 14052
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -142,6 +142,7 @@
     "agentica-project/verl-pipeline",
     "AgentOps-AI/Jaiqu",
     "agentsea/surfkit",
+    "agiresearch/A-mem",
     "agl/ed25519",
     "agnostic-apollo/Android-Docs",
     "agrimgupta92/sgan",
@@ -506,6 +507,7 @@
     "AtomaAI/atoma-infer",
     "Atome-FE/llama-node",
     "AtomLinter/linter-write-good",
+    "atomontage/xterm-color",
     "Atrejoe/MarkdownPreview",
     "atsaki/termeter",
     "attaswift/BigInt",
@@ -1417,6 +1419,7 @@
     "ebdrup/json-schema-benchmark",
     "eborboihuc/rotate_3d",
     "eclarke/ggbeeswarm",
+    "eclipse-corrosion/corrosion",
     "eclipse-embed-cdt/org.eclipse.epp.packages",
     "eclipse-paho/paho.mqtt.testing",
     "ecomfe/echarts-stat",
@@ -2452,6 +2455,7 @@
     "JuliaInterop/NBInclude.jl",
     "JuliaPlots/RecipesBase.jl",
     "JuliaPlots/StatsPlots.jl",
+    "JuliaPy/Conda.jl",
     "JuliaPy/Pandas.jl",
     "JuliaPy/pyjulia",
     "JuliaPy/SymPy.jl",
@@ -4013,6 +4017,7 @@
     "songquanpeng/wechat-server",
     "songweige/TATS",
     "sony/ai-research-code",
+    "sony/nnabla-examples",
     "sony/nnabla-rl",
     "sorbet/sorbet-typed",
     "SOTAMak1r/DeepVerse",

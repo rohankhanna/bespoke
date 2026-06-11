@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 436,
-    "concepts": 462,
-    "observations": 465,
-    "repos": 174,
-    "terms": 458
+    "components": 443,
+    "concepts": 466,
+    "observations": 469,
+    "repos": 175,
+    "terms": 462
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -64,6 +64,7 @@
     "cloudfoundry/bosh-deployment-resource",
     "cloudwego/gjson",
     "cloudwego/hertz-benchmark",
+    "cloudwego/netpoll-benchmark",
     "cloudwego/thrift-gen-validator",
     "cmwaters/skychart",
     "cosnicolaou/pbzip2",

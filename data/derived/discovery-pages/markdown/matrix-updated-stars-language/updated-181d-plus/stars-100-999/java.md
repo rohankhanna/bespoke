@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 196
-- components: 99
-- concepts: 196
-- observations: 196
+- repos: 72
+- terms: 202
+- components: 103
+- concepts: 202
+- observations: 202
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [eclipse-corrosion/corrosion](https://github.com/eclipse-corrosion/corrosion) | 242 | 2025-12-12T09:08:22Z | Java | CLI | 6 | 4 | 6 | 6 |
 | [Deep-Symmetry/beat-link](https://github.com/Deep-Symmetry/beat-link) | 275 | 2025-12-07T20:14:26Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [takari/polyglot-maven](https://github.com/takari/polyglot-maven) | 921 | 2025-11-20T19:10:53Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [burningwave/core](https://github.com/burningwave/core) | 224 | 2025-11-20T07:35:23Z | Java | Infrastructure/tooling | 19 | 5 | 19 | 19 |
@@ -142,6 +143,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [relaxng/jing-trang](https://github.com/relaxng/jing-trang) | 255 | 2025-10-19T09:25:49Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [dirs-dev/directories-jvm](https://github.com/dirs-dev/directories-jvm) | 253 | 2024-11-07T22:30:26Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [howiehu/ddd-architecture-samples](https://github.com/howiehu/ddd-architecture-samples) | 248 | 2025-08-27T07:54:05Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [eclipse-corrosion/corrosion](https://github.com/eclipse-corrosion/corrosion) | 242 | 2025-12-12T09:08:22Z | Java | CLI | 6 | 4 | 6 | 6 |
 | [mukel/llama2.java](https://github.com/mukel/llama2.java) | 227 | 2024-05-17T00:07:44Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [burningwave/core](https://github.com/burningwave/core) | 224 | 2025-11-20T07:35:23Z | Java | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [snapcast/snapdroid](https://github.com/snapcast/snapdroid) | 222 | 2025-09-23T19:54:40Z | Java | CLI | 4 | 3 | 4 | 4 |

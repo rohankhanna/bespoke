@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 23,
-    "observations": 24,
-    "repos": 3,
-    "terms": 20
+    "components": 46,
+    "concepts": 29,
+    "observations": 30,
+    "repos": 4,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "atuinsh/atuin",
     "nushell/nushell",
+    "quickwit-oss/tantivy",
     "rust-lang/mdBook"
   ]
 }

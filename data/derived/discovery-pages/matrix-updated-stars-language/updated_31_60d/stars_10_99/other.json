@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2210,
-    "concepts": 1274,
-    "observations": 1278,
-    "repos": 310,
-    "terms": 1276
+    "components": 2227,
+    "concepts": 1283,
+    "observations": 1287,
+    "repos": 311,
+    "terms": 1285
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -67,13 +67,13 @@
     "bazel-contrib/rules_d",
     "bazel-contrib/rules_distroless",
     "be-hase/caffeine-coroutines",
-    "bencheeorg/statistex",
     "beyondcode/claude-hooks-sdk",
     "bladeacer/flexcyon",
     "brave-intl/publishers",
     "buttondown/docs",
     "cbrgm/githubevents",
     "cderv/r-bucket",
+    "cginternals/cpplocate",
     "cgrindel/bazel-starlib",
     "chainguard-dev/rules_apko",
     "chaos2cured/freelattice",
@@ -313,6 +313,7 @@
     "triton-inference-server/fil_backend",
     "tweag/gazelle_cabal",
     "ungoogled-software/ungoogled-chromium-wiki",
+    "UnknownPlatypus/djangofmt",
     "usbarmory/usbarmory-debian-base_image",
     "uvarc/rivanna-docker",
     "VirtusLab/bazel-steward",

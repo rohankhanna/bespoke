@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 42,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 41,
-    "terms": 75
+    "concepts": 75,
+    "observations": 75,
+    "repos": 42,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -23,6 +23,7 @@
     "catppuccin/atuin",
     "cedar-policy/rfcs",
     "chaiNNer-org/chaiNNer-nightly",
+    "clearml/clearml-fractional-gpu",
     "cloudrepo-io/founder-os",
     "cncf/project-template",
     "cncf/wg-networking",

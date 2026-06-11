@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 121,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 24,
-    "terms": 125
+    "components": 113,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 25,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
+    "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
     "amsehili/auditok",
-    "bagofwords1/bagofwords",
     "DanielLin94144/Full-Duplex-Bench",
-    "databrickslabs/ucx",
-    "djlint/djLint",
+    "flagos-ai/FlagAttention",
     "gbionics/adam",
     "google-deepmind/xmanager",
+    "googlefonts/roboto-3-classic",
     "GStreamer/cerbero",
     "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",
-    "mll-lab-nu/VAGEN",
+    "NVlabs/trajdata",
     "perrygeo/python-rasterstats",
     "pypa/build",
     "pypa/setuptools-scm",
@@ -37,6 +37,7 @@
     "SublimeText/AFileIcon",
     "TextArena/TextArena",
     "thunlp/OPD",
+    "tox-dev/filelock",
     "zh-plus/openlrc"
   ]
 }

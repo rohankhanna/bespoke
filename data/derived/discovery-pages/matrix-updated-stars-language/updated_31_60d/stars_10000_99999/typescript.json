@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11092,
-    "concepts": 1634,
-    "observations": 1645,
-    "repos": 158,
-    "terms": 1643
+    "components": 11072,
+    "concepts": 1632,
+    "observations": 1643,
+    "repos": 157,
+    "terms": 1641
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -54,7 +54,6 @@
     "diegomura/react-pdf",
     "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
-    "dzhng/deep-research",
     "ecomfe/vue-echarts",
     "elastic/kibana",
     "electron-react-boilerplate/electron-react-boilerplate",

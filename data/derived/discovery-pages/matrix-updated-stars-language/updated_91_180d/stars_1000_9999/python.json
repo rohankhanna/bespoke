@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 444,
-    "concepts": 857,
-    "observations": 858,
-    "repos": 171,
-    "terms": 846
+    "components": 445,
+    "concepts": 880,
+    "observations": 881,
+    "repos": 172,
+    "terms": 869
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -38,6 +38,7 @@
     "bazelbuild/starlark",
     "Beckschen/TransUNet",
     "benjaminp/six",
+    "black-forest-labs/flux2",
     "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "brycedrennan/imaginAIry",
@@ -71,7 +72,6 @@
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorchvideo",
     "Farama-Foundation/Metaworld",
-    "fixie-ai/ultravox",
     "FlagOpen/RoboBrain2.5",
     "google-deepmind/alphageometry",
     "google-gemini/deprecated-generative-ai-python",
@@ -156,6 +156,7 @@
     "QwenLM/Qwen-Image",
     "randy3k/radian",
     "remsky/Kokoro-FastAPI",
+    "s3prl/s3prl",
     "SafeAILab/EAGLE",
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
@@ -163,7 +164,6 @@
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
     "Supervisor/supervisor",
-    "Teemu/pytest-sugar",
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "tensorflow/agents",
     "the-moonwitch/Cozette",
@@ -179,6 +179,7 @@
     "webdataset/webdataset",
     "WenmuZhou/PytorchOCR",
     "willisma/SiT",
+    "yangyanli/PointCNN",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
     "YosysHQ/icestorm",
     "Yuliang-Liu/Monkey",

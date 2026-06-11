@@ -1,25 +1,27 @@
 {
   "counts": {
-    "components": 408,
-    "concepts": 177,
-    "observations": 179,
-    "repos": 103,
-    "terms": 180
+    "components": 419,
+    "concepts": 181,
+    "observations": 183,
+    "repos": 107,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
     "aaronrsun/spec-kit-confluence",
+    "abraxas-365/claudio-screenshot",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "adipalko/hatraot",
     "aldernero/debugui",
+    "amoniacou/external-dns-digitalocean-webhook",
     "arckoor/botan-rs",
     "ashton/neotest-gleam-unitest",
     "atsushieno/homebrew-oss",
@@ -73,7 +75,6 @@
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
     "ethpandaops/xatu-cbt",
-    "glennhickey/red",
     "grubersjoe/react-activity-calendar-tests",
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
@@ -85,6 +86,8 @@
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/JpegTurbo_jll.jl",
     "JuliaBinaryWrappers/libaec_jll.jl",
+    "JuliaBinaryWrappers/Libmount_jll.jl",
+    "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kayabaNerve/monero-oxide",
     "kdn36/arrow-rs-object-store",
     "kdubbo/api",
@@ -115,6 +118,7 @@
     "sujithpvarghese/bedrock-full-reconciliation",
     "Systemcluster/tokenizer-bench",
     "vaporif/rvx",
-    "VOICEVOX/preview-pages"
+    "VOICEVOX/preview-pages",
+    "wencuecryforme/mysoul.skill"
   ]
 }

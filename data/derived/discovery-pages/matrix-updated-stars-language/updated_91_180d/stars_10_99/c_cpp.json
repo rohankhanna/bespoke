@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 168,
-    "observations": 169,
-    "repos": 60,
-    "terms": 168
+    "components": 154,
+    "concepts": 171,
+    "observations": 172,
+    "repos": 61,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -29,7 +29,7 @@
     "dacap/observable",
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
-    "dfki-ric/pclomp",
+    "DeanoC/tiny_imageformat",
     "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
@@ -70,6 +70,7 @@
     "tlaplus-community/tree-sitter-tlaplus",
     "undreamai/LlamaLib",
     "utiasASRL/lgmath",
+    "VeriSilicon/tflite-vx-delegate",
     "vincentbernat/vbeterm",
     "vorot93/libmdbx-rs",
     "XR-Robotics/XRoboToolkit-PC-Service-Pybind",

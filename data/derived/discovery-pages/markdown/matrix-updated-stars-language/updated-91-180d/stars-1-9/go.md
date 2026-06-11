@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · Go
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 41
+- repos: 15
+- terms: 47
 - components: 68
-- concepts: 40
-- observations: 40
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redis-developer/redis-starter-go](https://github.com/redis-developer/redis-starter-go) | 8 | 2026-03-12T21:51:16Z | Go | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [OpenCIDN/httpmirror](https://github.com/OpenCIDN/httpmirror) | 7 | 2026-03-02T08:30:30Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [datachainlab/ethereum-ibc-relay-prover](https://github.com/datachainlab/ethereum-ibc-relay-prover) | 4 | 2026-03-02T06:34:02Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [actions-oss/act-cli](https://github.com/actions-oss/act-cli) | 7 | 2026-03-01T13:36:50Z | Go | CLI | 5 | 14 | 5 | 5 |
@@ -45,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [redis-developer/redis-starter-go](https://github.com/redis-developer/redis-starter-go) | 8 | 2026-03-12T21:51:16Z | Go | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [OpenCIDN/httpmirror](https://github.com/OpenCIDN/httpmirror) | 7 | 2026-03-02T08:30:30Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [actions-oss/act-cli](https://github.com/actions-oss/act-cli) | 7 | 2026-03-01T13:36:50Z | Go | CLI | 5 | 14 | 5 | 5 |
 | [gost-dom/webref](https://github.com/gost-dom/webref) | 7 | 2026-02-09T05:33:56Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |

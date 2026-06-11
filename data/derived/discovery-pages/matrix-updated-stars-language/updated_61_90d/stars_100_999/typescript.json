@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1682,
-    "concepts": 348,
-    "observations": 348,
-    "repos": 58,
-    "terms": 357
+    "components": 1712,
+    "concepts": 349,
+    "observations": 349,
+    "repos": 60,
+    "terms": 358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "actions-cool/issues-helper",
@@ -22,11 +22,11 @@
     "antfu/skills-npm",
     "appium/appium-adb",
     "aquasecurity/trivy-vscode-extension",
-    "augmnt/augments-mcp-server",
     "Autodesk/synthesis",
     "avli/clojureVSCode",
     "aws-actions/aws-secretsmanager-get-secrets",
     "aws-samples/dify-self-hosted-on-aws",
+    "birdofpreyru/react-native-fs",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
@@ -45,6 +45,7 @@
     "h3js/crossws",
     "hazelcast/hazelcast-nodejs-client",
     "jgm/djot.js",
+    "juliangruber/brace-expansion",
     "jupyterlab/extension-examples",
     "krassowski/jupyterlab-lsp",
     "kylebarron/arrow-js-ffi",
@@ -56,6 +57,7 @@
     "microsoft/vscode-html-languageservice",
     "nashaofu/screenshots",
     "neoclide/coc-java",
+    "NVIDIA/OpenShell-Community",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
     "retracedhq/retraced",

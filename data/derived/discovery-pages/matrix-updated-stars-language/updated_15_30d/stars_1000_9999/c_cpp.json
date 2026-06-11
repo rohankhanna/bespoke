@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 141,
-    "concepts": 171,
-    "observations": 171,
-    "repos": 17,
-    "terms": 170
+    "components": 185,
+    "concepts": 186,
+    "observations": 187,
+    "repos": 19,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
@@ -28,7 +28,9 @@
     "Nelarius/imnodes",
     "PortAudio/portaudio",
     "pure-data/pure-data",
+    "riscv-collab/riscv-gnu-toolchain",
     "ufbx/ufbx",
+    "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",
     "WarmUpTill/SceneSwitcher"
   ]

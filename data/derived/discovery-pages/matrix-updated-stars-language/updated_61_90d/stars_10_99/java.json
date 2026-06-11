@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 84,
-    "concepts": 90,
-    "observations": 92,
-    "repos": 19,
-    "terms": 89
+    "concepts": 83,
+    "observations": 85,
+    "repos": 18,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
@@ -20,7 +20,6 @@
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "bobbylight/RSTALanguageSupport",
     "bobbylight/SpellChecker",
-    "clearml/clearml-pycharm-plugin",
     "codetyio/codety-scanner",
     "dart4e/dart4e",
     "enola-dev/enola",

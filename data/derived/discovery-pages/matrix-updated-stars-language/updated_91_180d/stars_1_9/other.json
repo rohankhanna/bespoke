@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 217,
-    "concepts": 110,
-    "observations": 110,
+    "concepts": 121,
+    "observations": 121,
     "repos": 53,
-    "terms": 107
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -32,7 +32,6 @@
     "haya14busa/github-used-by",
     "hchiam/learning-ngrok",
     "hden/cuid",
-    "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
     "hermit-os/hermit-gcc",
     "heshengtao/sap-ai-drawio",
@@ -52,6 +51,7 @@
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "parruda/ruby_llm",
+    "redis-developer/redis-starter-csharp",
     "retracedhq/logs-viewer",
     "shakacode/package_json",
     "Shopify/svg2vd",

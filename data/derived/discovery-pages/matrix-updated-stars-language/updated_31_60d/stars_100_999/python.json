@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2411,
-    "concepts": 2307,
-    "observations": 2314,
+    "components": 2432,
+    "concepts": 2338,
+    "observations": 2345,
     "repos": 421,
-    "terms": 2309
+    "terms": 2340
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -34,7 +34,6 @@
     "AgnostiqHQ/covalent",
     "AgriciDaniel/banana-claude",
     "AgriciDaniel/claude-blog",
-    "ahmedasmar/devops-claude-skills",
     "ai-analyst-lab/ai-analyst",
     "ai-dynamo/aiconfigurator",
     "ai-dynamo/aiperf",
@@ -50,7 +49,6 @@
     "alibaba/ROCK",
     "alibaizhanov/mengram",
     "alistaitsacle/free-llm-api-keys",
-    "allenai/IFBench",
     "allenai/vla-evaluation-harness",
     "alltheplaces/alltheplaces",
     "amitfin/oref_alert",
@@ -79,6 +77,7 @@
     "Azure/WALinuxAgent",
     "Backblaze/b2-sdk-python",
     "Backblaze/B2_Command_Line_Tool",
+    "bagofwords1/bagofwords",
     "basetenlabs/truss-examples",
     "bastibe/python-soundfile",
     "bazelbuild/continuous-integration",
@@ -140,6 +139,7 @@
     "Dao-AILab/sonic-moe",
     "data-apis/array-api",
     "data-apis/array-api-compat",
+    "databrickslabs/ucx",
     "datreeio/CRDs-catalog",
     "dbfixtures/pytest-postgresql",
     "Deep-Learning-Profiling-Tools/triton-viz",
@@ -148,6 +148,7 @@
     "developmentseed/obstore",
     "dexmal/dexbotic",
     "disconnectme/disconnect-tracking-protection",
+    "djlint/djLint",
     "dmort27/epitran",
     "dwolfhub/zxcvbn-python",
     "EasternJournalist/utils3d",
@@ -225,7 +226,6 @@
     "inducer/loopy",
     "inducer/pymbolic",
     "Infleqtion/client-superstaq",
-    "inisis/OnnxSlim",
     "insitro/redun",
     "IntelPython/scikit-learn_bench",
     "ipython/ipykernel",
@@ -255,7 +255,6 @@
     "langchain-ai/langgraph-bigtool",
     "LedgerHQ/app-bitcoin",
     "LedgerHQ/blue-loader-python",
-    "letmaik/rawpy",
     "librelane/librelane",
     "lightly-ai/lightly-studio",
     "lightningd/plugins",
@@ -284,6 +283,7 @@
     "mit-ll-responsible-ai/hydra-zen",
     "miurahr/py7zr",
     "mlc-ai/relax",
+    "mll-lab-nu/VAGEN",
     "MME-Benchmarks/Video-MME-v2",
     "mosecorg/mosec",
     "mozilla-services/shavar-prod-lists",

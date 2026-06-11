@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 504,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 44,
-    "terms": 142
+    "components": 598,
+    "concepts": 209,
+    "observations": 209,
+    "repos": 50,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "acemir/CSSOM",
@@ -32,6 +32,10 @@
     "dwyl/phoenix-liveview-stopwatch",
     "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
+    "ehmicky/all-node-versions",
+    "ehmicky/get-node",
+    "ehmicky/node-version-alias",
+    "ehmicky/preferred-node-version",
     "faressoft/inquirer-checkbox-plus-prompt",
     "Fil/d3-tricontour",
     "gatsbyjs/gatsby-starter-minimal",
@@ -43,6 +47,7 @@
     "hipster-labs/jhipster-daily-builds",
     "hudochenkov/stylelint-config-hudochenkov",
     "i18next/i18next-icu",
+    "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "Jack-Works/react-refresh-transformer",
     "kddnewton/prettier-plugin-ini",
@@ -56,6 +61,7 @@
     "Rob--W/proxy-from-env",
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer",
+    "tc39/proposal-iterator-includes",
     "validator/gulp-html",
     "wemake-services/wemake-frontend-styleguide"
   ]

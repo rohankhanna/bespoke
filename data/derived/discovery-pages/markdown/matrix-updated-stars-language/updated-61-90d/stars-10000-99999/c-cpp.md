@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 132
-- components: 111
-- concepts: 139
-- observations: 139
+- repos: 17
+- terms: 122
+- components: 102
+- concepts: 129
+- observations: 129
 
 ## Static behavior
 
@@ -43,7 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [esp8266/Arduino](https://github.com/esp8266/Arduino) | 16605 | 2026-03-23T09:22:38Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [mobile-shell/mosh](https://github.com/mobile-shell/mosh) | 13838 | 2026-03-22T20:20:13Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [microsoft/AirSim](https://github.com/microsoft/AirSim) | 18146 | 2026-03-15T23:17:10Z | C/C++ | Infrastructure/tooling | 21 | 5 | 21 | 21 |
-| [bol-van/zapret](https://github.com/bol-van/zapret) | 15155 | 2026-03-12T17:55:20Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -56,7 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/AirSim](https://github.com/microsoft/AirSim) | 18146 | 2026-03-15T23:17:10Z | C/C++ | Infrastructure/tooling | 21 | 5 | 21 | 21 |
 | [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules) | 16925 | 2026-04-03T00:04:57Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [esp8266/Arduino](https://github.com/esp8266/Arduino) | 16605 | 2026-03-23T09:22:38Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [bol-van/zapret](https://github.com/bol-van/zapret) | 15155 | 2026-03-12T17:55:20Z | C/C++ | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [glfw/glfw](https://github.com/glfw/glfw) | 14930 | 2026-03-30T18:24:18Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [cloudwu/skynet](https://github.com/cloudwu/skynet) | 14023 | 2026-04-01T07:45:33Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mobile-shell/mosh](https://github.com/mobile-shell/mosh) | 13838 | 2026-03-22T20:20:13Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |

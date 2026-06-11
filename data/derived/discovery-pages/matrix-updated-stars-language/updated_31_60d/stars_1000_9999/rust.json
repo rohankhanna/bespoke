@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2411,
-    "concepts": 1752,
-    "observations": 1759,
-    "repos": 227,
-    "terms": 1762
+    "components": 2422,
+    "concepts": 1754,
+    "observations": 1761,
+    "repos": 226,
+    "terms": 1761
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -137,7 +137,6 @@
     "medialab/xan",
     "mfontanini/presenterm",
     "mikeyobrien/ralph-orchestrator",
-    "mitsuhiko/similar",
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
     "mozilla/cbindgen",
@@ -171,6 +170,7 @@
     "raphamorim/rio",
     "ratatui/mousefood",
     "release-plz/release-plz",
+    "reubeno/brush",
     "risingwavelabs/risingwave",
     "rizsotto/Bear",
     "rkyv/rkyv",
@@ -190,7 +190,6 @@
     "rust-lang/crates.io",
     "rust-lang/docs.rs",
     "rust-lang/flate2-rs",
-    "rust-lang/futures-rs",
     "rust-lang/git2-rs",
     "rust-lang/libc",
     "rust-lang/log",

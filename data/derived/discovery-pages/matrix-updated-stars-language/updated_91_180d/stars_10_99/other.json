@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 575,
-    "concepts": 359,
-    "observations": 360,
-    "repos": 149,
-    "terms": 356
+    "components": 597,
+    "concepts": 381,
+    "observations": 382,
+    "repos": 153,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
+    "2KAbhishek/exercism.nvim",
     "2KAbhishek/pickme.nvim",
     "aarroyoc/djota",
     "aarroyoc/doclog",
@@ -49,6 +50,7 @@
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
     "cleanlab/cleanvision-examples",
+    "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "cmacdonald/pyt_splade",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
@@ -101,6 +103,7 @@
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4.jl",
     "JuliaGtk/Gtk4Makie.jl",
+    "JuliaPackaging/PkgServer.jl",
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
@@ -122,6 +125,7 @@
     "mvz/non-digest-assets",
     "nelson-lang/nelson-website",
     "newtheatre/history-project",
+    "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",

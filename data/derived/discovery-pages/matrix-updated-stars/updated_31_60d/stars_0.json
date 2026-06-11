@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 866,
-    "concepts": 353,
-    "observations": 353,
-    "repos": 257,
-    "terms": 382
+    "components": 855,
+    "concepts": 349,
+    "observations": 349,
+    "repos": 252,
+    "terms": 378
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -21,7 +21,6 @@
     "aaronrsun/spec-kit-issue",
     "aayushbhaskar/OpenCouncil",
     "abdeladim-s/pywhispercpp",
-    "abraxas-365/claudio-screenshot",
     "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
     "aidenlab/spacewalk",
@@ -30,7 +29,6 @@
     "ainvaltin/nu_plugin_plist",
     "aipurposes1587-max/weixin-agent-rs",
     "alexcrichton/cc-rs",
-    "amoniacou/external-dns-digitalocean-webhook",
     "Amtrend/ssh-manager",
     "angular/angular-build-builds",
     "arckoor/jsonwebtoken",
@@ -212,9 +210,7 @@
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
     "JuliaBinaryWrappers/Expat_jll.jl",
     "JuliaBinaryWrappers/GDAL_jll.jl",
-    "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
-    "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kalavai-net/kalavai-templates",
     "kdubbo/xds-api",
     "kidshadow79/ogma",
@@ -268,7 +264,6 @@
     "UnknownPlatypus/markup_fmt",
     "vivianalaced749/vk-calls-tunnel",
     "wblondel/blog",
-    "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui"
   ]
 }

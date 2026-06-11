@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 10,
-    "terms": 51
+    "components": 152,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 9,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
-    "cginternals/cpplocate",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
+    "karafka/example-apps",
     "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
     "processing/processing-website",
-    "python-poetry/website",
-    "UnknownPlatypus/djangofmt"
+    "python-poetry/website"
   ]
 }

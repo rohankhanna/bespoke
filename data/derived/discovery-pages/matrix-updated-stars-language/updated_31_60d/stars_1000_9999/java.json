@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 721,
-    "concepts": 869,
-    "observations": 871,
-    "repos": 87,
-    "terms": 866
+    "components": 741,
+    "concepts": 892,
+    "observations": 894,
+    "repos": 89,
+    "terms": 889
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "alibaba/spring-ai-alibaba",
+    "androidx/media",
     "apache/beam",
     "apache/camel",
     "apache/flink-kubernetes-operator",
@@ -71,6 +72,7 @@
     "jline/jline3",
     "JodaOrg/joda-time",
     "junit-team/junit-examples",
+    "junit-team/junit-framework",
     "junit-team/junit4",
     "karatelabs/karate",
     "konsoletyper/teavm",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2281,
-    "concepts": 460,
-    "observations": 461,
-    "repos": 66,
-    "terms": 489
+    "components": 2292,
+    "concepts": 475,
+    "observations": 476,
+    "repos": 67,
+    "terms": 504
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
+    "abrahamjuliot/creepjs",
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
     "allweonedev/presentation-ai",
@@ -27,7 +28,6 @@
     "butlerx/wetty",
     "cawa-93/vite-electron-builder",
     "changesets/action",
-    "coaidev/coai",
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "ElMassimo/iles",
@@ -44,6 +44,7 @@
     "graphql-hive/graphql-config",
     "grpc/grpc-node",
     "gustavoguichard/string-ts",
+    "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
     "infinitered/nsfwjs",
     "Ironclad/rivet",

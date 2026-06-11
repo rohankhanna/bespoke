@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10684,
-    "concepts": 9330,
-    "observations": 9342,
-    "repos": 2397,
-    "terms": 9195
+    "components": 10690,
+    "concepts": 9340,
+    "observations": 9352,
+    "repos": 2401,
+    "terms": 9205
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -436,6 +436,7 @@
     "cocodataset/cocoapi",
     "codegangsta/gin",
     "codemayq/chinese-chatbot-corpus",
+    "codeplea/tinyexpr",
     "coderjojo/creative-profile-readme",
     "cohama/lexima.vim",
     "cointop-sh/cointop",
@@ -736,6 +737,7 @@
     "filipradenovic/cnnimageretrieval-pytorch",
     "FiloSottile/passage",
     "finagle/finch",
+    "fixie-ai/ultravox",
     "fjc0k/docker-YApi",
     "fkling/astexplorer",
     "FlagAI-Open/FlagAI",
@@ -1922,6 +1924,7 @@
     "salesforce/CodeT5",
     "salesforce/pytorch-qrnn",
     "salesforce/WikiSQL",
+    "Samsung/netcoredbg",
     "SandAI-org/MAGI-1",
     "sandersn/mini-typescript",
     "sanghyun-son/EDSR-PyTorch",
@@ -2087,6 +2090,7 @@
     "tc39/proposal-record-tuple",
     "tczhangzhi/pytorch-distributed",
     "technomancy/leiningen",
+    "Teemu/pytest-sugar",
     "tenable/terrascan",
     "tencent-ailab/IP-Adapter",
     "Tencent-Hunyuan/HunyuanCustom",

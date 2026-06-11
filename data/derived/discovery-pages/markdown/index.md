@@ -1,25 +1,25 @@
 # Discovery pages
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 This index is static. It links to precomputed facet pages and does not rely on client-side filtering or sorting.
 
 ## Counts
 
 - repos: 25328
-- non-empty updated × stars pages: 43
-- non-empty updated × stars × language pages: 355
+- non-empty updated × stars pages: 44
+- non-empty updated × stars × language pages: 354
 
 ## Updated buckets
 
-- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 2 repos
-- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 0 repos
-- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 242 repos
-- [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 300 repos
-- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 7447 repos
-- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 2241 repos
-- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2516 repos
-- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12580 repos
+- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 1 repos
+- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 1 repos
+- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 212 repos
+- [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 298 repos
+- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 7402 repos
+- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 2267 repos
+- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2553 repos
+- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12594 repos
 
 ## Star buckets
 

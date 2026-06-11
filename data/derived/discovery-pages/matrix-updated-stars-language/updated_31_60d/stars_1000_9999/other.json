@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3978,
-    "concepts": 3594,
-    "observations": 3615,
-    "repos": 478,
-    "terms": 3578
+    "components": 3970,
+    "concepts": 3561,
+    "observations": 3582,
+    "repos": 474,
+    "terms": 3545
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -68,7 +68,7 @@
     "BBuf/how-to-optim-algorithm-in-cuda",
     "Bekaboo/dropbar.nvim",
     "belav/csharpier",
-    "bencheeorg/benchee",
+    "benchflow-ai/skillsbench",
     "benjamimgois/goverlay",
     "benoitc/hackney",
     "BepInEx/BepInEx",
@@ -196,8 +196,6 @@
     "fzyzcjy/flutter_rust_bridge",
     "gaoyifan/china-operator-ip",
     "getsentry/sentry-cocoa",
-    "GFW-knocker/MahsaNG",
-    "ggandor/leap.nvim",
     "github/choosealicense.com",
     "github/codeql",
     "github/markup",
@@ -354,7 +352,6 @@
     "ocaml/opam",
     "ocsigen/js_of_ocaml",
     "Olical/conjure",
-    "olimorris/onedarkpro.nvim",
     "open-telemetry/opentelemetry-specification",
     "openfl/openfl",
     "openstreetmap-carto/openstreetmap-carto",
@@ -462,7 +459,6 @@
     "tlaplus/Examples",
     "topfunky/gruff",
     "travisjeffery/timecop",
-    "troxler/awesome-css-frameworks",
     "truffleruby/truffleruby",
     "tuist/XcodeProj",
     "tweag/ormolu",

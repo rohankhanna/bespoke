@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 382,
-    "observations": 384,
-    "repos": 118,
-    "terms": 380
+    "components": 368,
+    "concepts": 360,
+    "observations": 362,
+    "repos": 115,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
     "0xrsydn/nix-hermes-agent",
     "219-design/qt-qml-project-template-with-ci",
-    "2KAbhishek/exercism.nvim",
     "6cdh/dotfiles",
     "adaszko/tree_climber_rust.nvim",
     "adinhodovic/argo-cd-mixin",
@@ -47,12 +46,12 @@
     "Azure-Samples/openai-chat-backend-fastapi",
     "baskeboler/cljs-karaoke-client",
     "beam-telemetry/telemetry_metrics_statsd",
+    "bencheeorg/statistex",
     "Betterment/betterlint",
     "BirolLab/LINKS",
     "blaine/fantastty",
     "buildbot/buildbot-website",
     "citation-file-format/ruby-cff",
-    "clearml/clearml-helm-charts",
     "clojure/homebrew-tools",
     "cloudfoundry/cf-uaac",
     "coin-or-tools/homebrew-coinor",
@@ -90,7 +89,6 @@
     "js-temporal/proposal-temporal-v2",
     "JuliaCI/PkgEval.jl",
     "JuliaGraphics/ColorVectorSpace.jl",
-    "JuliaPackaging/PkgServer.jl",
     "kalbasit/nur-packages",
     "kbenzie/vim-spirv",
     "lambdaisland/open-source",
@@ -102,7 +100,6 @@
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
     "mugh/minecraft-bedrock-server-manager",
-    "nicholasjng/nanobind-bazel",
     "niheaven/scoop-sysinternals",
     "NixOS/nix-installer-action",
     "notaryproject/notaryproject.dev",

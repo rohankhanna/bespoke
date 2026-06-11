@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 339,
-    "observations": 342,
-    "repos": 26,
-    "terms": 335
+    "components": 232,
+    "concepts": 284,
+    "observations": 286,
+    "repos": 21,
+    "terms": 280
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "axolotl-ai-cloud/axolotl",
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
-    "datalab-to/surya",
     "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
-    "huggingface/pytorch-image-models",
     "huggingface/sentence-transformers",
     "jax-ml/jax",
     "Lightning-AI/litgpt",
@@ -30,14 +28,11 @@
     "modelscope/ms-swift",
     "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
-    "OpenMOSS/MOSS",
     "psf/black",
     "pydantic/pydantic",
     "qubvel-org/segmentation_models.pytorch",
     "run-llama/llama_index",
-    "TEN-framework/ten-framework",
     "ungoogled-software/ungoogled-chromium",
-    "unifyai/ivy",
     "verl-project/verl",
     "zhayujie/CowAgent"
   ]

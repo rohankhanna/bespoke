@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 24833,
-    "concepts": 10676,
-    "observations": 10716,
-    "repos": 1021,
-    "terms": 10659
+    "components": 24742,
+    "concepts": 10657,
+    "observations": 10697,
+    "repos": 1018,
+    "terms": 10641
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -126,7 +126,6 @@
     "Automattic/node-canvas",
     "autowarefoundation/autoware",
     "avajs/ava",
-    "avwo/whistle",
     "aws/amazon-sagemaker-examples",
     "aws/aws-cdk",
     "aws/aws-cli",
@@ -191,7 +190,6 @@
     "changesets/changesets",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
-    "charmbracelet/glow",
     "charmbracelet/gum",
     "charmbracelet/lipgloss",
     "charmbracelet/vhs",
@@ -294,7 +292,6 @@
     "dottxt-ai/outlines",
     "drduh/YubiKey-Guide",
     "duckdb/duckdb",
-    "dzhng/deep-research",
     "easydiffusion/easydiffusion",
     "ecomfe/vue-echarts",
     "elastic/elasticsearch",

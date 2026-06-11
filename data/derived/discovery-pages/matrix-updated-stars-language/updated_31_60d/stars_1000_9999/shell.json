@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 332,
-    "observations": 334,
-    "repos": 51,
-    "terms": 331
+    "components": 258,
+    "concepts": 328,
+    "observations": 330,
+    "repos": 50,
+    "terms": 327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -29,7 +29,6 @@
     "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
-    "containers/toolbox",
     "crosstool-ng/crosstool-ng",
     "devcontainers/features",
     "devcontainers/images",

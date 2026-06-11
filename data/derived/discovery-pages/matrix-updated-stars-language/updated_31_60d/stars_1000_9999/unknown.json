@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 181,
-    "observations": 181,
-    "repos": 39,
-    "terms": 181
+    "components": 69,
+    "concepts": 179,
+    "observations": 179,
+    "repos": 38,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -32,7 +32,6 @@
     "godotengine/awesome-godot",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",
-    "libp2p/libp2p",
     "libp2p/specs",
     "logseq/awesome-logseq",
     "lxgw/LxgwNeoXiHei",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2331,
-    "concepts": 3123,
-    "observations": 3130,
-    "repos": 986,
-    "terms": 3104
+    "components": 2340,
+    "concepts": 3127,
+    "observations": 3134,
+    "repos": 988,
+    "terms": 3108
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -101,6 +101,7 @@
     "atom/flight-manual.atom.io",
     "atom/language-javascript",
     "AtomLinter/linter-write-good",
+    "atomontage/xterm-color",
     "Atrejoe/MarkdownPreview",
     "attaswift/BigInt",
     "Atten4Vis/DemystifyLocalViT",
@@ -521,6 +522,7 @@
     "JuliaInterop/NBInclude.jl",
     "JuliaPlots/RecipesBase.jl",
     "JuliaPlots/StatsPlots.jl",
+    "JuliaPy/Conda.jl",
     "JuliaPy/Pandas.jl",
     "JuliaPy/SymPy.jl",
     "JuliaStrings/LaTeXStrings.jl",

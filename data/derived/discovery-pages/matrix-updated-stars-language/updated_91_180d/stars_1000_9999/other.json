@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 568,
-    "concepts": 646,
-    "observations": 649,
-    "repos": 124,
-    "terms": 649
+    "components": 569,
+    "concepts": 655,
+    "observations": 658,
+    "repos": 125,
+    "terms": 658
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -62,6 +62,7 @@
     "Glavin001/atom-beautify",
     "globalize/globalize",
     "Gonzalo-D-Sales/obsidian-velocity",
+    "google/cel-spec",
     "google/gumbo-parser",
     "googleapis/elixir-google-api",
     "grangier/python-goose",
@@ -90,6 +91,7 @@
     "mdn/webassembly-examples",
     "mds1/multicall3",
     "mfussenegger/nvim-jdtls",
+    "mhinz/vim-signify",
     "microsoft/BotBuilder-Samples",
     "microsoft/mssql-docker",
     "microsoft/Security-101",
@@ -118,7 +120,6 @@
     "rspec/rspec-rails",
     "ruby-i18n/i18n",
     "salesforce/BLIP",
-    "Samsung/netcoredbg",
     "sbt/sbt-native-packager",
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",

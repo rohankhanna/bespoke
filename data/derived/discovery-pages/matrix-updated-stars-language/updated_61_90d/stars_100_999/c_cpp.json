@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 277,
-    "concepts": 470,
-    "observations": 471,
-    "repos": 89,
-    "terms": 466
+    "components": 264,
+    "concepts": 461,
+    "observations": 462,
+    "repos": 87,
+    "terms": 457
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -24,7 +24,6 @@
     "arduino-libraries/Servo",
     "artemsen/swayimg",
     "ashvardanian/ForkUnion",
-    "avaneev/r8brain-free-src",
     "BirolLab/ntHash",
     "bnprks/BPCells",
     "btzy/nativefiledialog-extended",
@@ -36,11 +35,9 @@
     "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
     "eclipse-cyclonedds/cyclonedds-cxx",
-    "eliemichel/LearnWebGPU",
     "elixir-sqlite/exqlite",
     "embeddedartistry/libc",
     "eyalz800/zpp_bits",
-    "frankmorgner/vsmartcard",
     "freeswitch/sofia-sip",
     "fujitsu/xbyak_aarch64",
     "g-truc/gli",
@@ -63,10 +60,10 @@
     "libimobiledevice/libplist",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
-    "lualanes/lanes",
     "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "microsoft/jericho",
+    "microsoft/Tutel",
     "microsoft/xlang",
     "mikolmogorov/Flye",
     "ml-explore/mlx-c",
@@ -81,6 +78,7 @@
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",
+    "powturbo/Turbo-Base64",
     "ptsochantaris/emeltal",
     "raysan5/raylib-games",
     "RoaringBitmap/croaring-rs",
@@ -89,7 +87,6 @@
     "samtools/bcftools",
     "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
-    "stardot/beebasm",
     "Tomas-M/iotop",
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
@@ -102,6 +99,7 @@
     "wdas/ptex",
     "webgpu-native/webgpu-headers",
     "WojciechMula/toys",
+    "xiph/vorbis",
     "xtensor-stack/xtensor-python"
   ]
 }

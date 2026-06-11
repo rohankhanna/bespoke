@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 432
-- terms: 1605
+- repos: 433
+- terms: 1608
 - components: 1298
-- concepts: 1616
-- observations: 1618
+- concepts: 1619
+- observations: 1621
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Samsung/netcoredbg](https://github.com/Samsung/netcoredbg) | 1261 | 2025-12-12T11:36:24Z | Other | CLI | 3 | 0 | 3 | 3 |
 | [justinmk/vim-sneak](https://github.com/justinmk/vim-sneak) | 3510 | 2025-12-10T05:00:30Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [WICG/webcomponents](https://github.com/WICG/webcomponents) | 4490 | 2025-12-09T18:39:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [cncf/tag-security](https://github.com/cncf/tag-security) | 2267 | 2025-12-08T07:51:51Z | Other | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -833,6 +834,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [airblade/vim-rooter](https://github.com/airblade/vim-rooter) | 1274 | 2024-09-25T08:48:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [datitran/raccoon_dataset](https://github.com/datitran/raccoon_dataset) | 1267 | 2021-10-12T12:49:25Z | Other | Model/data | 2 | 0 | 2 | 2 |
 | [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 1262 | 2025-05-23T00:48:55Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [Samsung/netcoredbg](https://github.com/Samsung/netcoredbg) | 1261 | 2025-12-12T11:36:24Z | Other | CLI | 3 | 0 | 3 | 3 |
 | [rtfeldman/elm-css](https://github.com/rtfeldman/elm-css) | 1260 | 2024-04-01T22:10:10Z | Other | Unknown | 0 | 14 | 0 | 0 |
 | [clojure-liberator/liberator](https://github.com/clojure-liberator/liberator) | 1260 | 2021-09-28T13:08:50Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [harvardnlp/im2markup](https://github.com/harvardnlp/im2markup) | 1257 | 2023-10-27T13:42:36Z | Other | Model/data | 0 | 0 | 0 | 0 |

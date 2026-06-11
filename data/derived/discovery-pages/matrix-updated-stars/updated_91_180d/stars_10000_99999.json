@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1165,
-    "concepts": 732,
-    "observations": 737,
-    "repos": 119,
-    "terms": 736
+    "components": 1174,
+    "concepts": 742,
+    "observations": 747,
+    "repos": 120,
+    "terms": 746
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -25,6 +25,7 @@
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
     "bmaltais/kohya_ss",
+    "bol-van/zapret",
     "bootandy/dust",
     "BuilderIO/mitosis",
     "burntsushi/ripgrep",

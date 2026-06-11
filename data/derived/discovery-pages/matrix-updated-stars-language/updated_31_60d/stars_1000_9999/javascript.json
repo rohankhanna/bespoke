@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4787,
-    "concepts": 931,
-    "observations": 932,
-    "repos": 131,
-    "terms": 925
+    "components": 4821,
+    "concepts": 950,
+    "observations": 951,
+    "repos": 132,
+    "terms": 944
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "actions/javascript-action",
@@ -49,6 +49,7 @@
     "gatsbyjs/gatsby-starter-blog",
     "gautamkrishnar/blog-post-workflow",
     "ghostery/ghostery-extension",
+    "GladysAssistant/Gladys",
     "google/closure-compiler",
     "google/docsy",
     "GoogleChrome/web-vitals",
@@ -66,6 +67,7 @@
     "ipfs/ipfs-desktop",
     "isomorphic-git/isomorphic-git",
     "jakerella/jquery-mockjax",
+    "jasonlong/isometric-contributions",
     "jellyfin/jellyfin-web",
     "jprichardson/node-fs-extra",
     "jquery/jquery-color",
@@ -114,7 +116,6 @@
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
-    "sindresorhus/hyper-snazzy",
     "sindresorhus/np",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3505,
-    "concepts": 3944,
-    "observations": 3956,
-    "repos": 468,
-    "terms": 3938
+    "components": 3515,
+    "concepts": 3953,
+    "observations": 3965,
+    "repos": 467,
+    "terms": 3947
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -67,6 +67,7 @@
     "aws/aws-sam-cli",
     "aws/aws-sdk-pandas",
     "aws/deep-learning-containers",
+    "awslabs/aidlc-workflows",
     "Azure-Samples/azure-search-openai-demo",
     "Azure/azure-cli",
     "Azure/azure-sdk-for-python",
@@ -179,7 +180,6 @@
     "googleapis/python-genai",
     "GoogleCloudPlatform/agent-starter-pack",
     "gpustack/gpustack",
-    "guaguastandup/zotero-pdf2zh",
     "h5py/h5py",
     "hacs/integration",
     "hao-ai-lab/FastVideo",
@@ -225,7 +225,6 @@
     "KellerJordan/modded-nanogpt",
     "KhronosGroup/glTF-Blender-IO",
     "kijai/ComfyUI-KJNodes",
-    "KohakuBlueleaf/LyCORIS",
     "kohya-ss/musubi-tuner",
     "kohya-ss/sd-scripts",
     "Kosinkadink/ComfyUI-VideoHelperSuite",
@@ -426,7 +425,6 @@
     "sparckles/Robyn",
     "sphinx-doc/sphinx",
     "spotipy-dev/spotipy",
-    "spyder-ide/qtpy",
     "spyder-ide/spyder",
     "stanfordnlp/stanza",
     "starVLA/starVLA",
@@ -473,6 +471,7 @@
     "wkentaro/gdown",
     "xbpeng/MimicKit",
     "xdit-project/xDiT",
+    "Xilinx/brevitas",
     "xlang-ai/OSWorld",
     "xlite-dev/Awesome-LLM-Inference",
     "xorbitsai/inference",

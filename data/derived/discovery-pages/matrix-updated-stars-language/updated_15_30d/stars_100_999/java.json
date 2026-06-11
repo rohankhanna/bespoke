@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 5,
-    "terms": 35
+    "components": 26,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 6,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "bazel-contrib/rules_jvm_external",
     "eclipse-lsp4j/lsp4j",
+    "ldproxy/ldproxy",
     "openjdk/jdk11u",
     "openjdk/jdk17u",
     "Waffle/waffle"

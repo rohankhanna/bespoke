@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 2,
-    "terms": 19
+    "components": 13,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 1,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
-    "apache/datafusion-ballista-python",
-    "microsoft/openjdk-docker"
+    "apache/datafusion-ballista-python"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 986
-- terms: 3104
-- components: 2331
-- concepts: 3123
-- observations: 3130
+- repos: 988
+- terms: 3108
+- components: 2340
+- concepts: 3127
+- observations: 3134
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [atomontage/xterm-color](https://github.com/atomontage/xterm-color) | 239 | 2025-12-12T21:48:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaPy/Conda.jl](https://github.com/JuliaPy/Conda.jl) | 187 | 2025-12-12T09:12:21Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [ecukes/ecukes](https://github.com/ecukes/ecukes) | 203 | 2025-12-11T23:08:07Z | Other | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [JuliaStrings/LaTeXStrings.jl](https://github.com/JuliaStrings/LaTeXStrings.jl) | 232 | 2025-12-11T12:47:18Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [igor-makarov/xcake](https://github.com/igor-makarov/xcake) | 648 | 2025-12-11T11:59:29Z | Other | Infrastructure/tooling | 9 | 2 | 9 | 9 |
@@ -1618,6 +1620,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaitjo/learning-tsp](https://github.com/chaitjo/learning-tsp) | 243 | 2021-08-26T07:49:32Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [jphall663/GWU_data_mining](https://github.com/jphall663/GWU_data_mining) | 241 | 2025-05-27T20:05:07Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [altoo-ag/akka-kryo-serialization](https://github.com/altoo-ag/akka-kryo-serialization) | 240 | 2025-01-07T14:44:32Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [atomontage/xterm-color](https://github.com/atomontage/xterm-color) | 239 | 2025-12-12T21:48:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [astoff/code-cells.el](https://github.com/astoff/code-cells.el) | 239 | 2025-06-08T14:39:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [gfanto/fzf-lsp.nvim](https://github.com/gfanto/fzf-lsp.nvim) | 239 | 2024-08-07T03:57:52Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [Ch4t4r/Nebulo](https://github.com/Ch4t4r/Nebulo) | 239 | 2022-11-06T12:01:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1724,6 +1727,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BLAKE3-team/BLAKE3-specs](https://github.com/BLAKE3-team/BLAKE3-specs) | 191 | 2022-06-27T20:54:20Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [jupyterlab/extension-cookiecutter-ts](https://github.com/jupyterlab/extension-cookiecutter-ts) | 189 | 2024-09-03T21:16:14Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [filipradenovic/cnnimageretrieval](https://github.com/filipradenovic/cnnimageretrieval) | 188 | 2022-06-02T18:54:49Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [JuliaPy/Conda.jl](https://github.com/JuliaPy/Conda.jl) | 187 | 2025-12-12T09:12:21Z | Other | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [myrjola/diminish.el](https://github.com/myrjola/diminish.el) | 187 | 2022-09-09T08:47:45Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) | 186 | 2025-02-04T12:42:30Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Modi1987/KST-Kuka-Sunrise-Toolbox](https://github.com/Modi1987/KST-Kuka-Sunrise-Toolbox) | 186 | 2024-12-21T15:55:16Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -3,7 +3,7 @@
     "components": 139,
     "concepts": 304,
     "observations": 305,
-    "repos": 78,
+    "repos": 76,
     "terms": 303
   },
   "facet_version": 1,
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "actions/partner-runner-images",
     "adoptium/temurin21-binaries",
     "ailev/fpf",
-    "alchaincyf/naval-skill",
-    "alchaincyf/steve-jobs-skill",
     "antonbabenko/awesome-terraform-compliance",
     "antonbabenko/terraform-aws-devops",
     "apappascs/mcp-servers-hub",

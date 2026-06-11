@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12115,
-    "concepts": 7000,
-    "observations": 7017,
-    "repos": 3315,
-    "terms": 6947
+    "components": 12152,
+    "concepts": 7009,
+    "observations": 7026,
+    "repos": 3318,
+    "terms": 6956
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -863,6 +863,7 @@
     "cloudfoundry/cf-uaa-lib",
     "cloudwego/gjson",
     "cloudwego/hertz-benchmark",
+    "cloudwego/netpoll-benchmark",
     "cloudwego/thrift-gen-validator",
     "ClownsharkBatwing/UltraCascade",
     "club-soda/club-soda-guide",
@@ -1078,6 +1079,7 @@
     "devsmitra/javascript-quick-functions",
     "DeyvidKochanov-TomTom/kprnet",
     "Dfam-consortium/FamDB",
+    "dfki-ric/pclomp",
     "dgileadi/dg.jdt.ls.decompiler",
     "dgileadi/vscode-java-decompiler",
     "dgl/re-engine-RE2",
@@ -2701,6 +2703,7 @@
     "rejeep/ansi.el",
     "rejeep/commander.el",
     "rejeep/ert-runner.el",
+    "remotion-dev/brand",
     "remotion-dev/github-unwrapped-2021",
     "renqibing/MultiAgent4Collusion",
     "respond-framework/rudy",

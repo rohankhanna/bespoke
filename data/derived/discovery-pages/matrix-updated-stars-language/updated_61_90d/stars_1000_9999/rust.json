@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 358,
-    "concepts": 271,
-    "observations": 276,
-    "repos": 51,
-    "terms": 269
+    "components": 328,
+    "concepts": 272,
+    "observations": 277,
+    "repos": 52,
+    "terms": 270
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -45,13 +45,14 @@
     "lldap/lldap",
     "mattsse/chromiumoxide",
     "mitsuhiko/insta",
+    "mitsuhiko/similar",
     "Mooncake-Labs/pg_mooncake",
     "nabijaczleweli/cargo-update",
     "noib3/nvim-oxi",
     "not-fl3/macroquad",
     "openai/harmony",
-    "parcel-bundler/lightningcss",
     "pop-os/cosmic-text",
+    "rust-lang/futures-rs",
     "Rust-SDL2/rust-sdl2",
     "serde-rs/json",
     "servo/ipc-channel",

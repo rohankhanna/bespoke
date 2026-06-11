@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1353,
-    "concepts": 377,
-    "observations": 379,
-    "repos": 88,
-    "terms": 377
+    "components": 1259,
+    "concepts": 310,
+    "observations": 312,
+    "repos": 82,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -26,10 +26,6 @@
     "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "coasys/ad4m",
-    "ehmicky/all-node-versions",
-    "ehmicky/get-node",
-    "ehmicky/node-version-alias",
-    "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
     "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
@@ -50,7 +46,6 @@
     "i18next/i18next-resources-to-backend",
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
-    "ipfs/js-ipfs-utils",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
     "jasmine/jasmine-browser-runner",
@@ -92,7 +87,6 @@
     "semantic-release/error",
     "stdlib-js/google-summer-of-code",
     "Taritsyn/DartSassHost",
-    "tc39/proposal-iterator-includes",
     "tnc-ca-geo/animl-frontend",
     "tracked-tools/tracked-toolbox",
     "TrigenSoftware/simple-release-action",

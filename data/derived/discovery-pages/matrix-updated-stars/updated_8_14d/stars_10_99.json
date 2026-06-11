@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 20,
-    "terms": 107
+    "components": 172,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 17,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "alloy-rs/evm",
@@ -22,15 +22,12 @@
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "joshsymonds/cc-tools",
-    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "mongodb/winkerberos",
     "mozilla-ai/otari",
     "nuxt-modules/emotion",
-    "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
-    "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",
     "vaporif/parry-guard"
   ]

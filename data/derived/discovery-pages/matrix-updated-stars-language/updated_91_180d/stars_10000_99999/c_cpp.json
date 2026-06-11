@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 10,
-    "terms": 56
+    "components": 44,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 11,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "AlexeyAB/darknet",
     "aria2/aria2",
+    "bol-van/zapret",
     "existentialaudio/blackhole",
     "ffmpegwasm/ffmpeg.wasm",
     "git-up/GitUp",

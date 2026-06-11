@@ -3,7 +3,7 @@
     "components": 50,
     "concepts": 71,
     "observations": 71,
-    "repos": 113,
+    "repos": 112,
     "terms": 80
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -125,7 +125,6 @@
     "TransferQueue/community_doc",
     "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
-    "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui"
   ]
 }

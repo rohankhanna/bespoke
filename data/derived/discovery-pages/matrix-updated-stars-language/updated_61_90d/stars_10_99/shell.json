@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 51,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 15,
-    "terms": 63
+    "concepts": 82,
+    "observations": 82,
+    "repos": 16,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/tmux-tilit",
@@ -25,6 +25,7 @@
     "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
     "containers/automation",
+    "Digidai/product-manager-skills",
     "lxgw/LxgwWenkaiGB-Lite",
     "nodenv/node-build-update-defs",
     "quicwg/qlog",

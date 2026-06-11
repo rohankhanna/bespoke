@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3122,
-    "concepts": 712,
-    "observations": 721,
-    "repos": 138,
-    "terms": 729
+    "components": 3066,
+    "concepts": 686,
+    "observations": 695,
+    "repos": 135,
+    "terms": 705
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -52,7 +52,6 @@
     "devsnek/esvu",
     "dperini/nwsapi",
     "dydxprotocol/v4-clients",
-    "ehmicky/nve",
     "eladnava/pikud-haoref-api",
     "electerm/electerm-web",
     "electron/node-abi",
@@ -66,7 +65,6 @@
     "fastify/fastify-autoload",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "fwcd/tree-sitter-kotlin",
     "gatsbyjs/gatsby-starter-hello-world",
     "GDevelopApp/GDevelop-examples",
     "gitleaks/gitleaks-action",
@@ -134,7 +132,6 @@
     "semantic-release/github",
     "semantic-release/npm",
     "sethgammon/citadel",
-    "sindresorhus/globals",
     "speced/respec",
     "stripe-samples/accept-a-payment",
     "stylelint/stylelint-config-recommended",

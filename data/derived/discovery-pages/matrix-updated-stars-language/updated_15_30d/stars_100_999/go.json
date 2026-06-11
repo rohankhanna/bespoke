@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 3,
-    "terms": 41
+    "components": 7,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 1,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
-    "andreykaipov/goobs",
-    "betterleaks/betterleaks",
-    "kelos-dev/kelos"
+    "betterleaks/betterleaks"
   ]
 }

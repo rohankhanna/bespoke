@@ -1,6 +1,6 @@
 # C/C++
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 ## Active filters
 
@@ -22,7 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2026-06-10T01:40:55Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2026-06-10T13:45:37Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1277 | 2026-05-30T08:40:09Z | C/C++ | Library | 5 | 0 | 5 | 5 |
 | [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2635 | 2026-05-30T05:58:40Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 113727 | 2026-05-29T23:36:59Z | C/C++ | Infrastructure/tooling | 9 | 18 | 9 | 9 |
@@ -4719,7 +4719,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pykaldi/clif](https://github.com/pykaldi/clif) | 2 | 2023-09-12T13:47:04Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [CameLLM/CameLLM-Common](https://github.com/CameLLM/CameLLM-Common) | 2 | 2023-06-08T22:46:41Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [jcelerier/score-simple-api-2](https://github.com/jcelerier/score-simple-api-2) | 2 | 2022-02-24T21:06:03Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2026-06-10T01:40:55Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2026-06-10T13:45:37Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [vincentlaucsb/classify_scalar](https://github.com/vincentlaucsb/classify_scalar) | 1 | 2026-05-03T04:37:12Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [eddelbuettel/r2u-builder](https://github.com/eddelbuettel/r2u-builder) | 1 | 2026-04-29T13:59:40Z | C/C++ | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [compiler-research/cppyy-backend](https://github.com/compiler-research/cppyy-backend) | 1 | 2026-04-27T15:48:22Z | C/C++ | Infrastructure/tooling | 2 | 6 | 2 | 2 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 62
-- components: 353
-- concepts: 62
-- observations: 62
+- repos: 9
+- terms: 57
+- components: 322
+- concepts: 57
+- observations: 57
 
 ## Static behavior
 
@@ -35,7 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 278 | 2026-05-29T05:46:38Z | TypeScript | Infrastructure/tooling | 2 | 43 | 2 | 2 |
 | [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-28T17:03:40Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 | [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 739 | 2026-05-28T06:10:54Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 102 | 2026-05-27T17:50:11Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -50,4 +49,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [skilld-dev/skilld](https://github.com/skilld-dev/skilld) | 278 | 2026-05-29T05:46:38Z | TypeScript | Infrastructure/tooling | 2 | 43 | 2 | 2 |
 | [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-28T17:03:40Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 242 | 2026-05-29T21:54:13Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
-| [abaplint/transpiler](https://github.com/abaplint/transpiler) | 102 | 2026-05-27T17:50:11Z | TypeScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |

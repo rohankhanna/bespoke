@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 319,
-    "concepts": 420,
-    "observations": 421,
-    "repos": 80,
-    "terms": 413
+    "concepts": 439,
+    "observations": 440,
+    "repos": 81,
+    "terms": 432
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -31,7 +31,6 @@
     "Chlumsky/msdfgen",
     "cjlin1/liblinear",
     "cocos/cocos-engine",
-    "codeplea/tinyexpr",
     "coin-or/Ipopt",
     "colmap/glomap",
     "cpputest/cpputest",
@@ -66,6 +65,7 @@
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
     "libsndfile/libsndfile",
+    "lieff/minimp3",
     "martinus/unordered_dense",
     "memononen/nanovg",
     "microsoft/onnxruntime-inference-examples",
@@ -74,6 +74,7 @@
     "naelstrof/maim",
     "NixOS/patchelf",
     "nmoehrle/mvs-texturing",
+    "NVIDIA/gdrcopy",
     "openMVG/openMVG",
     "OpenNMT/CTranslate2",
     "pellepl/spiffs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 18,
-    "terms": 140
+    "components": 196,
+    "concepts": 133,
+    "observations": 134,
+    "repos": 17,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "babashka/babashka",
     "clj-kondo/clj-kondo",
     "datalevin/datalevin",
     "dotnet/reactive",
-    "elixir-grpc/grpc",
     "firebase/flutterfire",
     "googleapis/google-auth-library-php",
     "kurrent-io/KurrentDB",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4361,
-    "concepts": 3291,
-    "observations": 3294,
-    "repos": 542,
-    "terms": 3307
+    "components": 4333,
+    "concepts": 3263,
+    "observations": 3266,
+    "repos": 538,
+    "terms": 3279
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
-    "2KAbhishek/nvim2k",
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
     "abap2UI5/abap2UI5",
@@ -141,7 +140,6 @@
     "colineckert/obsidian-things",
     "ColinKennedy/nvim-best-practices-plugin-template",
     "comfysage/artio.nvim",
-    "CommunityToolkit/Windows",
     "compiler-research/xeus-cpp",
     "confluentinc/confluent-kafka-dotnet",
     "connectrpc/connect-kotlin",
@@ -153,7 +151,6 @@
     "cp2k/dbcsr",
     "cplusplus/draft",
     "crazy-max/docker-osxcross",
-    "cshum/vipsgen",
     "cucumber/aruba",
     "dart-lang/build",
     "dart-lang/native",
@@ -277,7 +274,6 @@
     "jonatas/fast",
     "joseluisq/rust-linux-darwin-builder",
     "jrh13/hol-light",
-    "jsdoc/jsdoc.github.io",
     "jsonbored/claudepro-directory",
     "julia-vscode/LanguageServer.jl",
     "JuliaArrays/ArrayInterface.jl",
@@ -386,7 +382,6 @@
     "mozilla-mobile/reference-browser",
     "mrcjkb/haskell-tools.nvim",
     "mrkkrp/megaparsec",
-    "msgpack/msgpack-ruby",
     "mustache/spec",
     "nacos-group/nacos-group.github.io",
     "nashamri/spacemacs-theme",
@@ -550,6 +545,7 @@
     "weaviate/recipes",
     "WebAssembly/meetings",
     "WebAssembly/threads",
+    "WICG/attribution-reporting-api",
     "wighawag/template-ethereum-contracts",
     "yeesian/ArchGDAL.jl",
     "yegappan/lsp",

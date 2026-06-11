@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6269,
-    "concepts": 1306,
-    "observations": 1308,
-    "repos": 208,
-    "terms": 1352
+    "components": 6367,
+    "concepts": 1321,
+    "observations": 1323,
+    "repos": 207,
+    "terms": 1365
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
@@ -30,6 +30,8 @@
     "antfu/starter-ts",
     "anthropics/claude-code-base-action",
     "antvis/chart-visualization-skills",
+    "apify/apify-cli",
+    "apify/mcpc",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
     "appwrite/sdk-for-node",
@@ -44,7 +46,6 @@
     "Azure/login",
     "babel/website",
     "badlogic/pi-share-hf",
-    "birdofpreyru/react-native-fs",
     "bitwarden/directory-connector",
     "blrchen/chatgpt-lite",
     "browserslist/browserslist-useragent-regexp",
@@ -110,7 +111,6 @@
     "js-temporal/temporal-polyfill",
     "jsonwebtoken/jsonwebtoken.github.io",
     "julia-actions/setup-julia",
-    "juliangruber/brace-expansion",
     "jurplel/install-qt-action",
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
@@ -151,7 +151,6 @@
     "nonara/ts-patch",
     "nothingislost/obsidian-hover-editor",
     "nuxt/bridge",
-    "NVIDIA/OpenShell-Community",
     "nyatinte/ccexp",
     "Obsidian-TTRPG-Community/initiative-tracker",
     "oclif/core",

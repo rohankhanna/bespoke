@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1367,
-    "concepts": 1400,
-    "observations": 1403,
-    "repos": 244,
-    "terms": 1392
+    "components": 1365,
+    "concepts": 1376,
+    "observations": 1379,
+    "repos": 241,
+    "terms": 1368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -164,7 +164,6 @@
     "mapnik/node-mapnik",
     "marton78/pffft",
     "Mercury13/unicodia",
-    "microsoft/Tutel",
     "microsoft/vcpkg-tool",
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
@@ -203,7 +202,6 @@
     "paullouisageneau/libjuice",
     "pbatard/Mosby",
     "pkgxdev/pantry",
-    "powturbo/Turbo-Base64",
     "powturbo/TurboBench",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "proxytunnel/proxytunnel",
@@ -255,7 +253,6 @@
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
     "VectorDB-NTU/RaBitQ-Library",
-    "xiph/vorbis",
     "yoshoku/llama_cpp.rb",
     "Yubico/libfido2"
   ]

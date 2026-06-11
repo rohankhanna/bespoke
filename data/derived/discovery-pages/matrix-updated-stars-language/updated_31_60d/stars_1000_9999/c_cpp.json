@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2278,
-    "concepts": 2379,
-    "observations": 2385,
-    "repos": 289,
-    "terms": 2360
+    "components": 2266,
+    "concepts": 2354,
+    "observations": 2357,
+    "repos": 287,
+    "terms": 2335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -64,12 +64,10 @@
     "containers/crun",
     "contour-terminal/contour",
     "CrowCpp/Crow",
-    "d99kris/rapidcsv",
     "daijro/camoufox",
     "DanBloomberg/leptonica",
     "danmar/cppcheck",
     "diffblue/cbmc",
-    "DLTcollab/sse2neon",
     "dmlc/dlpack",
     "doxygen/doxygen",
     "DrTimothyAldenDavis/SuiteSparse",

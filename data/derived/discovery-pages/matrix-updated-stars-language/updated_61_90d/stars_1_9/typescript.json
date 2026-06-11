@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 16,
-    "terms": 37
+    "components": 275,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 17,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "aquasecurity/tfsec-azure-pipelines-task",
@@ -29,6 +29,7 @@
     "maxritter/pilot-shell-demo",
     "octokit/openapi-webhooks",
     "robustmq/robustmq-copilot",
-    "storybookjs/addon-jest"
+    "storybookjs/addon-jest",
+    "tnc-ca-geo/animl-api"
   ]
 }

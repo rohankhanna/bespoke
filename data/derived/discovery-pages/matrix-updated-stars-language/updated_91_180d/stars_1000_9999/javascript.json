@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 803,
-    "concepts": 212,
-    "observations": 213,
-    "repos": 45,
-    "terms": 209
+    "components": 846,
+    "concepts": 228,
+    "observations": 229,
+    "repos": 47,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
@@ -52,11 +52,13 @@
     "primer/github-vscode-theme",
     "reactjs/react-a11y",
     "remarkjs/remark",
+    "rollup/plugins",
     "sindresorhus/clipboardy",
     "sindresorhus/execa",
     "sindresorhus/trash-cli",
     "steipete/claude-code-mcp",
     "svg-sprite/svg-sprite",
+    "treosh/lighthouse-ci-action",
     "TritonDataCenter/node-verror",
     "typicode/mistcss"
   ]

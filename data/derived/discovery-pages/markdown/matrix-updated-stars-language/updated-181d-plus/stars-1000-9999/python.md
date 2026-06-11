@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 985
-- terms: 3808
-- components: 972
-- concepts: 3880
-- observations: 3882
+- repos: 987
+- terms: 3815
+- components: 978
+- concepts: 3887
+- observations: 3889
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | 4408 | 2025-12-12T18:09:40Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [Teemu/pytest-sugar](https://github.com/Teemu/pytest-sugar) | 1524 | 2025-12-12T14:52:24Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [Trusted-AI/adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | 5954 | 2025-12-12T07:01:28Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
 | [PKU-YuanGroup/LLaVA-CoT](https://github.com/PKU-YuanGroup/LLaVA-CoT) | 2134 | 2025-12-12T02:30:57Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Tencent/TFace](https://github.com/Tencent/TFace) | 1505 | 2025-12-11T08:31:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1193,6 +1195,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nv-tlabs/GET3D](https://github.com/nv-tlabs/GET3D) | 4431 | 2024-09-27T15:54:44Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [rom1504/img2dataset](https://github.com/rom1504/img2dataset) | 4412 | 2025-10-19T21:22:50Z | Python | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [huawei-noah/Efficient-AI-Backbones](https://github.com/huawei-noah/Efficient-AI-Backbones) | 4412 | 2025-03-15T12:48:07Z | Python | Unknown | 10 | 0 | 10 | 10 |
+| [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | 4408 | 2025-12-12T18:09:40Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [showlab/Tune-A-Video](https://github.com/showlab/Tune-A-Video) | 4368 | 2023-10-25T02:00:06Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [IDSIA/sacred](https://github.com/IDSIA/sacred) | 4364 | 2025-10-22T08:04:57Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [abewley/sort](https://github.com/abewley/sort) | 4360 | 2023-11-28T07:01:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -1733,6 +1736,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alibaba/FederatedScope](https://github.com/alibaba/FederatedScope) | 1530 | 2024-08-10T04:52:35Z | Python | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [EvolvingLMMs-Lab/open-r1-multimodal](https://github.com/EvolvingLMMs-Lab/open-r1-multimodal) | 1528 | 2025-02-08T06:59:45Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [JingyunLiang/VRT](https://github.com/JingyunLiang/VRT) | 1527 | 2023-06-18T18:07:39Z | Python | Unknown | 13 | 0 | 13 | 13 |
+| [Teemu/pytest-sugar](https://github.com/Teemu/pytest-sugar) | 1524 | 2025-12-12T14:52:24Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [KUR-creative/SickZil-Machine](https://github.com/KUR-creative/SickZil-Machine) | 1522 | 2022-11-22T04:11:38Z | Python | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [NVIDIA/RULER](https://github.com/NVIDIA/RULER) | 1521 | 2025-11-13T18:47:04Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [peritus/bumpversion](https://github.com/peritus/bumpversion) | 1517 | 2023-07-14T05:03:32Z | Python | Unknown | 0 | 0 | 0 | 0 |

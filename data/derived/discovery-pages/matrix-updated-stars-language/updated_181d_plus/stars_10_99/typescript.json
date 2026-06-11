@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4276,
-    "concepts": 542,
-    "observations": 543,
-    "repos": 189,
-    "terms": 553
+    "components": 4303,
+    "concepts": 546,
+    "observations": 547,
+    "repos": 190,
+    "terms": 557
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -169,6 +169,7 @@
     "qwertyforce/ambience",
     "rahsheen/expo-template-redux-typescript",
     "redhat-developer/vscode-redhat-telemetry",
+    "remotion-dev/brand",
     "remotion-dev/github-unwrapped-2021",
     "ricmoo/multicall",
     "Roblox/setup-foreman",

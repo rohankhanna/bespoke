@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3586,
-    "concepts": 633,
-    "observations": 638,
-    "repos": 128,
-    "terms": 665
+    "components": 3385,
+    "concepts": 625,
+    "observations": 630,
+    "repos": 125,
+    "terms": 653
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -28,7 +28,6 @@
     "Azure/bicep-deploy",
     "Azure/powershell",
     "Beaglefoot/prettier-plugin-awk",
-    "bestkolobok/vue3-jsoneditor",
     "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
     "buttondown/cli",
@@ -74,7 +73,6 @@
     "ioBroker/ioBroker.matter",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
-    "ipfs/ipld-explorer-components",
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
     "jaegertracing/documentation",
@@ -82,7 +80,6 @@
     "jakoch/install-vulkan-sdk-action",
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
-    "jerseycheese/narraitor",
     "jest-community/eslint-plugin-jest-extended",
     "jkheadley/instar",
     "julia-actions/install-juliaup",

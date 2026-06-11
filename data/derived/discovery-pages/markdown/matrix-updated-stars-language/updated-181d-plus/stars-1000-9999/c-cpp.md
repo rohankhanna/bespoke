@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 221
+- repos: 222
 - terms: 818
 - components: 385
 - concepts: 829
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [codeplea/tinyexpr](https://github.com/codeplea/tinyexpr) | 1878 | 2025-12-12T13:47:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [asmvik/skhd](https://github.com/asmvik/skhd) | 7940 | 2025-12-09T23:24:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [MIT-SPARK/TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus) | 2261 | 2025-12-09T15:55:47Z | C/C++ | Infrastructure/tooling | 5 | 2 | 7 | 7 |
 | [NVlabs/nvdiffrast](https://github.com/NVlabs/nvdiffrast) | 1828 | 2025-12-08T13:25:14Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -374,6 +375,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DmitryUlyanov/Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) | 1915 | 2024-02-06T10:59:55Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [raspberrypi/tools](https://github.com/raspberrypi/tools) | 1908 | 2022-07-11T07:39:52Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [marella/ctransformers](https://github.com/marella/ctransformers) | 1886 | 2024-01-28T07:37:48Z | C/C++ | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [codeplea/tinyexpr](https://github.com/codeplea/tinyexpr) | 1878 | 2025-12-12T13:47:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google/gemmlowp](https://github.com/google/gemmlowp) | 1840 | 2024-01-29T14:40:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 1835 | 2025-11-28T15:47:16Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [NVlabs/nvdiffrast](https://github.com/NVlabs/nvdiffrast) | 1828 | 2025-12-08T13:25:14Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |

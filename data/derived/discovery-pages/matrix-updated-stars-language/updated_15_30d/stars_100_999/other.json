@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 18,
-    "terms": 91
+    "components": 111,
+    "concepts": 109,
+    "observations": 110,
+    "repos": 19,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
     "babashka/nbb",
@@ -21,16 +21,17 @@
     "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
     "dwyl/quotes",
+    "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
     "fsprojects/FSharp.Data.GraphQL",
     "google/protobuf.dart",
+    "karafka/rdkafka-ruby",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "openbsd/ports",
     "redis/redis-om-dotnet",
     "rescript-lang/reanalyze",
-    "sbt/sbt-jmh",
-    "WICG/attribution-reporting-api"
+    "sbt/sbt-jmh"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1864,
-    "concepts": 311,
-    "observations": 312,
-    "repos": 66,
-    "terms": 320
+    "components": 1870,
+    "concepts": 318,
+    "observations": 319,
+    "repos": 67,
+    "terms": 327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -26,6 +26,7 @@
     "antfu/eslint-plugin-command",
     "antfu/vscode-icons-carbon",
     "Anush008/fastembed-js",
+    "augmnt/augments-mcp-server",
     "axel-op/googlejavaformat-action",
     "aymenfurter/ralph",
     "bvaughn/react-window-infinite-loader",

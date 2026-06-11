@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 85,
     "observations": 85,
-    "repos": 24,
+    "repos": 25,
     "terms": 84
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "akuity/awesome-argo",
+    "android/ndk",
     "antonbabenko/terraform-skill",
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",

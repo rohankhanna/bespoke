@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 7,
-    "terms": 66
+    "components": 18,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 5,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
-    "g-plane/raffia",
-    "kurrent-io/KurrentDB-Client-Rust",
     "lifegpc/msg-tool"
   ]
 }

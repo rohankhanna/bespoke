@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 839,
-    "concepts": 589,
-    "observations": 591,
+    "components": 869,
+    "concepts": 582,
+    "observations": 584,
     "repos": 160,
-    "terms": 602
+    "terms": 595
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
@@ -28,11 +28,11 @@
     "allenai/cached_path",
     "allenai/scirepeval",
     "AMD-AGI/torchtitan-amd",
-    "amyreese/fissix",
     "analogdevicesinc/ai8x-synthesis",
     "angr/archinfo",
     "ansible/ansible-compat",
     "ant-research/pointelligence",
+    "apify/actor-templates",
     "arcaputo3/mcp-server-whisper",
     "Ascend/TransferQueue",
     "AstarVienna/ScopeSim",
@@ -66,7 +66,6 @@
     "conservationtechlab/animl-py",
     "costiash/claude-code-docs",
     "crs4/rocrate-validator",
-    "cswry/VOSR",
     "daltonmaag/vttLib",
     "DanielNoord/pydocstringformatter",
     "datajuicer/data-juicer-agents",
@@ -83,7 +82,9 @@
     "flagos-ai/vllm-plugin-FL",
     "GaloisInc/BLST-Verification",
     "gentoo/api-gentoo-org",
+    "google-research/mseb",
     "googleapis/python-pubsublite",
+    "goombalab/raven",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "GreptimeTeam/demo-scene",
@@ -154,7 +155,6 @@
     "rwightman/timm",
     "RWKV-Vibe/rwkv_lightning",
     "scaleway/serverless-functions-python",
-    "scasella/nanochat-mlx",
     "scipy/scipy-stubs",
     "scipy/scipy.org",
     "Significant-Gravitas/gravitasml",

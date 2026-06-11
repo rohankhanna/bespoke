@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 649,
-    "concepts": 380,
-    "observations": 382,
-    "repos": 34,
-    "terms": 373
+    "components": 778,
+    "concepts": 487,
+    "observations": 490,
+    "repos": 44,
+    "terms": 477
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "ajv-validator/ajv",
@@ -21,11 +21,15 @@
     "browserslist/browserslist",
     "ChatGPTNextWeb/NextChat",
     "clauderic/dnd-kit",
+    "datalab-to/surya",
     "dexie/Dexie.js",
     "fuma-nama/fumadocs",
+    "git-lfs/git-lfs",
     "gitleaks/gitleaks",
+    "google-ai-edge/mediapipe",
     "HIllya51/LunaTranslator",
     "hiyouga/LlamaFactory",
+    "huggingface/pytorch-image-models",
     "isl-org/Open3D",
     "JetBrains/compose-multiplatform",
     "Kilo-Org/kilocode",
@@ -39,13 +43,19 @@
     "nwjs/nw.js",
     "obsproject/obs-studio",
     "oobabooga/textgen",
+    "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
+    "preactjs/preact",
     "protocolbuffers/protobuf",
     "pyg-team/pytorch_geometric",
     "python-poetry/poetry",
+    "quickwit-oss/tantivy",
     "realworld-apps/realworld",
     "RooCodeInc/Roo-Code",
     "rust-lang/mdBook",
-    "SubtitleEdit/subtitleedit"
+    "spaceship-prompt/spaceship-prompt",
+    "SubtitleEdit/subtitleedit",
+    "TEN-framework/ten-framework",
+    "unifyai/ivy"
   ]
 }

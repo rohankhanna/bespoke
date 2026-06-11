@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 561,
-    "concepts": 668,
-    "observations": 669,
-    "repos": 296,
-    "terms": 662
+    "components": 564,
+    "concepts": 669,
+    "observations": 670,
+    "repos": 297,
+    "terms": 663
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -99,6 +99,7 @@
     "derronqi/ncnn-android-yolov8-face",
     "dev0x13/pywuffs",
     "devgianlu/librespot-android",
+    "dfki-ric/pclomp",
     "dgl/re-engine-RE2",
     "dogtagpki/coolkey",
     "dplasa/FTPClientServer",

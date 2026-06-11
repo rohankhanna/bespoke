@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 248,
-    "observations": 249,
-    "repos": 28,
-    "terms": 242
+    "components": 142,
+    "concepts": 227,
+    "observations": 228,
+    "repos": 27,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
-    "awslabs/aidlc-workflows",
+    "aigc-apps/VideoX-Fun",
     "collabora/WhisperLive",
     "copier-org/copier",
     "Farama-Foundation/Minigrid",
@@ -38,7 +38,6 @@
     "speaches-ai/speaches",
     "strob/gentle",
     "voicepaw/so-vits-svc-fork",
-    "Xilinx/brevitas",
     "zai-org/GLM-V",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 302,
-    "concepts": 290,
-    "observations": 291,
-    "repos": 115,
-    "terms": 297
+    "components": 326,
+    "concepts": 307,
+    "observations": 308,
+    "repos": 120,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -23,6 +23,7 @@
     "alexmojaki/stack_data",
     "Alibaba-Quark/SSP",
     "amaranth-lang/amaranth-stdio",
+    "amiable-dev/llm-council",
     "AniAggarwal/ecad",
     "antgroup/DeepXTrace",
     "apache/parquet-testing",
@@ -33,6 +34,7 @@
     "bentoml/BentoLMDeploy",
     "bigai-nlco/RuleReasoner",
     "biocypher/project-template",
+    "BoosterRobotics/booster_assets",
     "BoosterRobotics/booster_deploy",
     "bootmortis/ito-gov-mirror",
     "brentyi/jax_dataclasses",
@@ -45,6 +47,7 @@
     "ChenMnZ/INT_vs_FP",
     "ckan/ckanext-xloader",
     "cldf/segments",
+    "clearml/clearml-session",
     "CMBAgents/cmbagent",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "Computer-use-agents/dart-gui",
@@ -114,6 +117,7 @@
     "SLDGroup/MK-UNet",
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
+    "talieisin/britfix",
     "TencentYoutuResearch/APTBench",
     "TencentYoutuResearch/SPEAR",
     "thunlp/BlockFFN",
@@ -127,6 +131,7 @@
     "xuanyuzhang21/RALI",
     "xuanyuzhang21/VQ-Insight",
     "yuekaizhang/Fun-ASR-vllm",
+    "yxlllc/RMVPE",
     "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"
   ]

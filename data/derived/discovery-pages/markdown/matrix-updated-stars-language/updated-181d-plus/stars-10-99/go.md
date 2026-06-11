@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 174
-- terms: 458
-- components: 436
-- concepts: 462
-- observations: 465
+- repos: 175
+- terms: 462
+- components: 443
+- concepts: 466
+- observations: 469
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cloudwego/netpoll-benchmark](https://github.com/cloudwego/netpoll-benchmark) | 45 | 2025-12-12T10:07:07Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [FiloSottile/hpke](https://github.com/FiloSottile/hpke) | 19 | 2025-12-08T00:07:14Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [lukacu/docker-frps](https://github.com/lukacu/docker-frps) | 24 | 2025-12-05T21:13:55Z | Go | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [theplant/htmlgo](https://github.com/theplant/htmlgo) | 60 | 2025-12-02T09:48:03Z | Go | Service/API | 3 | 0 | 3 | 3 |
@@ -269,6 +270,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ergochat/ircdog](https://github.com/ergochat/ircdog) | 48 | 2024-09-15T22:15:18Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [cloudwego/hertz-benchmark](https://github.com/cloudwego/hertz-benchmark) | 48 | 2024-01-17T07:32:52Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [hinshun/vt10x](https://github.com/hinshun/vt10x) | 47 | 2023-12-06T07:22:07Z | Go | CLI | 5 | 0 | 5 | 5 |
+| [cloudwego/netpoll-benchmark](https://github.com/cloudwego/netpoll-benchmark) | 45 | 2025-12-12T10:07:07Z | Go | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [fabio42/sasqwatch](https://github.com/fabio42/sasqwatch) | 45 | 2025-01-04T22:07:15Z | Go | CLI | 6 | 3 | 6 | 6 |
 | [srinathgs/mysqlstore](https://github.com/srinathgs/mysqlstore) | 45 | 2023-11-23T18:29:12Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [1set/starlet](https://github.com/1set/starlet) | 43 | 2025-04-15T06:19:51Z | Go | Infrastructure/tooling | 11 | 3 | 11 | 11 |

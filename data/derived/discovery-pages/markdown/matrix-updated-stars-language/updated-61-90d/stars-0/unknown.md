@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-10T07:56:48.597441+00:00`
+Generated at: `2026-06-11T06:09:37.211575+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
+- repos: 36
 - terms: 36
 - components: 36
 - concepts: 36
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [wencuecryforme/mysoul.skill](https://github.com/WencueCryforme/MySoul.SKILL) | 0 | 2026-04-11T13:51:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -66,6 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [wencuecryforme/mysoul.skill](https://github.com/WencueCryforme/MySoul.SKILL) | 0 | 2026-04-11T13:51:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/brainstorm-solutions-plugin](https://github.com/danielrosehill/brainstorm-solutions-plugin) | 0 | 2026-04-10T12:29:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 175,
-    "observations": 175,
-    "repos": 19,
-    "terms": 173
+    "components": 663,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 18,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0no-co/wonka",
-    "apify/apify-cli",
-    "apify/mcpc",
+    "abaplint/transpiler",
     "Brendonovich/MacroGraph",
     "electron/packager",
     "fluent-vue/fluent-vue",

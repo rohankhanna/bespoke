@@ -3,7 +3,7 @@
     "components": 138,
     "concepts": 187,
     "observations": 187,
-    "repos": 201,
+    "repos": 202,
     "terms": 185
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -128,6 +128,7 @@
     "jessicaStorer88/RepeatMasker_library_CHM13",
     "jiweimaster/lfs",
     "jphall663/basic_data_viz_rules_and_links",
+    "jupyter-widgets/team-compass",
     "jupyter/notebook-team-compass",
     "justinchuby/lintrunner-action",
     "kowainik/.github",

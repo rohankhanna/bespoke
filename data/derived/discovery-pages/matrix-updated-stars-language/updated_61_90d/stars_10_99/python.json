@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 361,
-    "concepts": 315,
-    "observations": 315,
-    "repos": 80,
-    "terms": 313
+    "components": 339,
+    "concepts": 312,
+    "observations": 312,
+    "repos": 78,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -23,7 +23,7 @@
     "all-the-noises/eval-arena",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
-    "amiable-dev/llm-council",
+    "amyreese/fissix",
     "analyticsinmotion/werpy",
     "andyluo7/autoresearch",
     "ankurhanda/robot-assets",
@@ -32,16 +32,15 @@
     "beeware/briefcase-template",
     "bentoml/openllm-models",
     "BirolLab/tigmint",
-    "BoosterRobotics/booster_assets",
     "BoosterRobotics/booster_train",
     "browser-use/benchmark",
     "c4ffein/realworld-django-ninja",
     "chaoss/grimoirelab-elk",
     "chaoss/grimoirelab-sirmordred",
     "ckan/datapusher",
-    "clearml/clearml-session",
     "cmake-wheel/cmeel",
     "collinear-ai/yc-bench",
+    "cswry/VOSR",
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
@@ -82,17 +81,16 @@
     "python-pillow/pillow-perf",
     "redis/redis-py-entraid",
     "rstudio/pins-python",
+    "scasella/nanochat-mlx",
     "seung-lab/cloud-files",
     "shiweijiezero/R3L",
     "skhu101/HumanLiff",
     "sphinx-contrib/sphinxcontrib-towncrier",
     "sublimelsp/LSP-marksman",
-    "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",
     "w1ndys/ex-cure-skill",
     "weaviate/agent-skills",
-    "yaph/tts-samples",
-    "yxlllc/RMVPE"
+    "yaph/tts-samples"
   ]
 }

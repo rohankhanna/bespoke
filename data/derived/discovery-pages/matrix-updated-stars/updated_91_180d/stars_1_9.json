@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1004,
-    "concepts": 559,
-    "observations": 560,
-    "repos": 259,
-    "terms": 563
+    "concepts": 583,
+    "observations": 584,
+    "repos": 260,
+    "terms": 587
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -151,7 +151,6 @@
     "hchiam/learning-redux",
     "hchiam/react-jexcel-redux",
     "hden/cuid",
-    "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",
     "hermit-os/hermit-gcc",
     "heshengtao/desktop-for-sap",
@@ -171,7 +170,6 @@
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "Jumziey/neotest-nix-unit.nvim",
-    "jupyter-widgets/team-compass",
     "karpeleslab/tpl",
     "kornia/data",
     "KSXGitHub/cargo-scripts-builder",
@@ -216,6 +214,9 @@
     "Qiuner/isometric-contributions-plus",
     "qiuyu96/CoDeF",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
+    "redis-developer/redis-starter-csharp",
+    "redis-developer/redis-starter-go",
+    "redis-developer/redis-starter-java",
     "redis/go-redis-entraid",
     "REditorSupport/vscode-R-syntax",
     "retracedhq/logs-viewer",

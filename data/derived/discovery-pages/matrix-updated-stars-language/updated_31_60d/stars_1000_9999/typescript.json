@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11499,
-    "concepts": 2260,
-    "observations": 2266,
-    "repos": 270,
-    "terms": 2354
+    "components": 11628,
+    "concepts": 2249,
+    "observations": 2255,
+    "repos": 271,
+    "terms": 2343
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-10T07:56:48.597441+00:00",
+  "generated_at": "2026-06-11T06:09:37.211575+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
-    "abrahamjuliot/creepjs",
     "acacode/swagger-typescript-api",
     "actions/cache",
     "actions/setup-java",
@@ -116,6 +115,7 @@
     "Floorp-Projects/Floorp",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
+    "getagentseal/codeburn",
     "getsentry/xcodebuildmcp",
     "ggml-org/llama.vscode",
     "google/adk-js",
@@ -129,7 +129,6 @@
     "h3js/h3",
     "handsontable/hyperformula",
     "hannoeru/vite-plugin-pages",
-    "Helicone/helicone",
     "hey-api/openapi-ts",
     "huggingface/huggingface.js",
     "huozhi/bunchee",
@@ -229,6 +228,8 @@
     "retorquere/zotero-better-bibtex",
     "rolldown/tsdown",
     "rustmailer/bichon",
+    "shareAI-lab/Kode-Agent",
+    "shareAI-lab/Kode-CLI",
     "SilentVoid13/Templater",
     "sinclairzx81/typebox",
     "sirmalloc/ccstatusline",
