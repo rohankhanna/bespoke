@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2341,
-    "concepts": 507,
-    "observations": 508,
-    "repos": 69,
-    "terms": 536
+    "components": 2354,
+    "concepts": 520,
+    "observations": 521,
+    "repos": 70,
+    "terms": 549
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
     "actions/typescript-action",
+    "AIPexStudio/AIPex",
     "aleclarson/vite-tsconfig-paths",
     "allweonedev/presentation-ai",
     "antfu-collective/vite-ssg",

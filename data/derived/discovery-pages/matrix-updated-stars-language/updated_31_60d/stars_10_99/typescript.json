@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3377,
-    "concepts": 620,
-    "observations": 625,
-    "repos": 124,
-    "terms": 648
+    "components": 3355,
+    "concepts": 619,
+    "observations": 624,
+    "repos": 123,
+    "terms": 647
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -94,7 +94,6 @@
     "mdjastrzebski/test-renderer",
     "microsoft/Agents-for-js",
     "newrelic/opentelemetry-demo",
-    "ngyewch/smile-js",
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",

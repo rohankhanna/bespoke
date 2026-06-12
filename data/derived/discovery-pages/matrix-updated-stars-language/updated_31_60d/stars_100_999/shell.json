@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
+    "components": 264,
     "concepts": 364,
     "observations": 367,
-    "repos": 64,
-    "terms": 370
+    "repos": 63,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -22,7 +22,6 @@
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
     "arangrhie/T2T-Polish",
-    "astro-han/claude-pace",
     "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",

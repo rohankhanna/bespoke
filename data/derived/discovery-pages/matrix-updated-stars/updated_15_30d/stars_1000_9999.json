@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1784,
-    "concepts": 974,
-    "observations": 977,
-    "repos": 116,
-    "terms": 959
+    "components": 1799,
+    "concepts": 990,
+    "observations": 993,
+    "repos": 119,
+    "terms": 975
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -39,6 +39,7 @@
     "devlooped/moq",
     "dkron-io/dkron",
     "doctest/doctest",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "ebullient/obsidian-admonition",
     "eclipse-openvsx/openvsx",
@@ -53,9 +54,11 @@
     "GalTransl/GalTransl",
     "geotiffjs/geotiff.js",
     "gildas-lormeau/zip.js",
+    "google-deepmind/dm-haiku",
     "google-gemini/live-api-web-console",
     "google/budoux",
     "google/oboe",
+    "googleapis/google-api-go-client",
     "hermit-os/hermit-rs",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
@@ -88,7 +91,6 @@
     "Nelarius/imnodes",
     "nodenv/nodenv",
     "nomadkaraoke/python-audio-separator",
-    "nushell/awesome-nu",
     "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
     "okd-project/okd",
@@ -100,6 +102,7 @@
     "pure-data/pure-data",
     "python-versioneer/python-versioneer",
     "radian-software/straight.el",
+    "redis/redis-om-python",
     "riscv-collab/riscv-gnu-toolchain",
     "rllm-org/rllm",
     "roboflow/maestro",

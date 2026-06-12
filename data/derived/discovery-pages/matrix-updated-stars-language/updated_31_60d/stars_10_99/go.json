@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 552,
-    "concepts": 386,
-    "observations": 388,
-    "repos": 82,
-    "terms": 382
+    "components": 549,
+    "concepts": 385,
+    "observations": 387,
+    "repos": 81,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
@@ -59,7 +59,6 @@
     "energye/lcl",
     "energye/wv",
     "EngFlow/gazelle_cc",
-    "fgrehm/clotilde",
     "golangci/go-printf-func-name",
     "golangci/misspell",
     "gookit/ini",

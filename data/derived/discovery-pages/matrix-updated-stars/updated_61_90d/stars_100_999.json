@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5876,
-    "concepts": 3537,
-    "observations": 3556,
-    "repos": 764,
-    "terms": 3544
+    "components": 5896,
+    "concepts": 3566,
+    "observations": 3585,
+    "repos": 768,
+    "terms": 3575
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2KAbhishek/nvim2k",
@@ -98,6 +98,7 @@
     "ashvardanian/StringWars",
     "aslafy-z/helm-git",
     "astra-vision/MonoScene",
+    "astro-han/claude-pace",
     "astro-han/karpathy-llm-wiki",
     "Atheos/Atheos",
     "athre0z/color-backtrace",
@@ -146,7 +147,6 @@
     "brainlid/langchain_demo",
     "broderick-westrope/tetrigo",
     "browserify/resolve",
-    "btzy/nativefiledialog-extended",
     "BusKill/buskill-app",
     "BUTSpeechFIT/DiariZen",
     "ButTaiwan/bpmfvs",
@@ -170,6 +170,7 @@
     "chomosuke/typst-preview.nvim",
     "chrisgoringe/cg-use-everywhere",
     "chrisgrieser/nvim-lsp-endhints",
+    "chrisgrieser/nvim-rip-substitute",
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "chromiumembedded/java-cef",
@@ -456,6 +457,7 @@
     "Level/abstract-level",
     "lewis6991/hover.nvim",
     "libimobiledevice/libplist",
+    "libLAS/libLAS",
     "libxsmm/libxsmm",
     "lightninglabs/neutrino",
     "littlefs-project/littlefs-fuse",
@@ -518,6 +520,7 @@
     "mklement0/n-install",
     "ml-explore/mlx-c",
     "mlcommons/algorithmic-efficiency",
+    "mockingbot/react-native-zip-archive",
     "modelscope/DiffSynth-Engine",
     "mondeja/mkdocs-include-markdown-plugin",
     "MontrealCorpusTools/mfa-models",
@@ -645,6 +648,7 @@
     "rust-analyzer/rowan",
     "rust-lang/compiler-team",
     "rust-lang/crater",
+    "rust-lang/libz-sys",
     "rust-lang/rfcbot-rs",
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",

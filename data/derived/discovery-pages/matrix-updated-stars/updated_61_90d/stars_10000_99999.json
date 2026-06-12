@@ -3,7 +3,7 @@
     "components": 2037,
     "concepts": 1058,
     "observations": 1061,
-    "repos": 157,
+    "repos": 156,
     "terms": 1045
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -138,7 +138,6 @@
     "reactjs/react.dev",
     "reasonml/reason",
     "resemble-ai/chatterbox",
-    "romkatv/powerlevel10k",
     "ryanoasis/nerd-fonts",
     "sanic-org/sanic",
     "shikijs/shiki",

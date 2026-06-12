@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 263,
+    "components": 260,
     "concepts": 252,
     "observations": 253,
     "repos": 28,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
@@ -22,6 +22,7 @@
     "clj-kondo/clj-kondo",
     "datalevin/datalevin",
     "devlooped/moq",
+    "dotnet/reactive",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "licensee/licensed",
@@ -29,7 +30,6 @@
     "lumen-oss/rocks.nvim",
     "microsoft/PhiCookBook",
     "mono/SkiaSharp",
-    "nushell/awesome-nu",
     "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
     "okd-project/okd",

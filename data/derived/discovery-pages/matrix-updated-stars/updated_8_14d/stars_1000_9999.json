@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 922,
-    "concepts": 471,
-    "observations": 474,
-    "repos": 55,
-    "terms": 470
+    "components": 904,
+    "concepts": 455,
+    "observations": 458,
+    "repos": 51,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
     "apollographql/eslint-plugin-graphql",
@@ -26,15 +26,12 @@
     "conventional-changelog/conventional-changelog",
     "crc-org/crc",
     "dmtrKovalenko/fff",
-    "dotnet/reactive",
     "eclipse-jdtls/eclipse.jdt.ls",
     "endojs/endo",
     "firebase/flutterfire",
     "gobackup/gobackup",
     "godot-rust/gdext",
-    "google-deepmind/dm-haiku",
     "google-deepmind/optax",
-    "googleapis/google-api-go-client",
     "googleapis/google-auth-library-php",
     "googleapis/google-cloud-go",
     "googleapis/google-cloud-node",
@@ -57,7 +54,6 @@
     "podman-desktop/podman-desktop",
     "PrimeIntellect-ai/verifiers",
     "react-native-webview/react-native-webview",
-    "redis/redis-om-python",
     "ROCm/ROCm",
     "safetensors/safetensors",
     "seancorfield/honeysql",

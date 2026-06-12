@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 263,
-    "observations": 264,
-    "repos": 31,
-    "terms": 257
+    "components": 177,
+    "concepts": 279,
+    "observations": 280,
+    "repos": 33,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -23,6 +23,7 @@
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
+    "google-deepmind/dm-haiku",
     "google/budoux",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
@@ -38,6 +39,7 @@
     "NEKOparapa/AiNiee",
     "nomadkaraoke/python-audio-separator",
     "python-versioneer/python-versioneer",
+    "redis/redis-om-python",
     "rllm-org/rllm",
     "roboflow/maestro",
     "speaches-ai/speaches",

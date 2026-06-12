@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 237,
-    "observations": 242,
-    "repos": 53,
-    "terms": 236
+    "components": 276,
+    "concepts": 241,
+    "observations": 246,
+    "repos": 54,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
@@ -57,6 +57,7 @@
     "RazrFalcon/memmap2-rs",
     "rust-analyzer/rowan",
     "rust-lang/crater",
+    "rust-lang/libz-sys",
     "rust-lang/rfcbot-rs",
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",

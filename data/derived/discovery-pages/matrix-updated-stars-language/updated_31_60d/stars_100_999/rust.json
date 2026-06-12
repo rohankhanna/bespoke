@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1902,
-    "concepts": 1281,
-    "observations": 1292,
-    "repos": 218,
-    "terms": 1281
+    "components": 1897,
+    "concepts": 1277,
+    "observations": 1288,
+    "repos": 217,
+    "terms": 1277
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -184,7 +184,6 @@
     "rust-diplomat/diplomat",
     "rust-lang/bors",
     "rust-lang/compiler-builtins",
-    "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",
     "rust-lang/rustc-perf",
     "rust-lang/rustwide",

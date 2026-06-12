@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 131,
-    "concepts": 118,
-    "observations": 119,
-    "repos": 20,
-    "terms": 116
+    "concepts": 115,
+    "observations": 116,
+    "repos": 19,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
     "babashka/nbb",
@@ -27,7 +27,6 @@
     "google/protobuf.dart",
     "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
-    "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "meshcat-dev/meshcat",

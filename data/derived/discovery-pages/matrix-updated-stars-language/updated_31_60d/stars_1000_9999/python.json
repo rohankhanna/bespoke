@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3485,
-    "concepts": 3920,
-    "observations": 3933,
-    "repos": 463,
-    "terms": 3914
+    "components": 3480,
+    "concepts": 3915,
+    "observations": 3928,
+    "repos": 461,
+    "terms": 3909
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -270,7 +270,6 @@
     "microsoft/sample-app-aoai-chatGPT",
     "microsoft/UFO",
     "MicrosoftDocs/visualstudio-docs",
-    "mido/mido",
     "mikedh/trimesh",
     "mikel-brostrom/boxmot",
     "MilesCranmer/PySR",
@@ -402,7 +401,6 @@
     "RoboTwin-Platform/RoboTwin",
     "ronf/asyncssh",
     "RUC-NLPIR/ARPO",
-    "RUC-NLPIR/DeepAgent",
     "sanderland/katrain",
     "scikit-image/scikit-image",
     "secretflow/secretflow",

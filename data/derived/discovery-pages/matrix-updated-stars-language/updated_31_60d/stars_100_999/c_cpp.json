@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1358,
-    "concepts": 1371,
-    "observations": 1374,
+    "concepts": 1359,
+    "observations": 1362,
     "repos": 240,
-    "terms": 1363
+    "terms": 1351
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -23,6 +23,7 @@
     "aibasel/downward",
     "Alpine-DAV/ascent",
     "alsa-project/alsa-lib",
+    "altschuler/imgui-knobs",
     "amerkoleci/joltc",
     "ampl/mp",
     "antgroup/vsag",
@@ -142,7 +143,6 @@
     "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "libimobiledevice/libirecovery",
-    "libLAS/libLAS",
     "libnice/libnice",
     "libsdl-org/SDL_image",
     "Livox-SDK/Livox-SDK2",

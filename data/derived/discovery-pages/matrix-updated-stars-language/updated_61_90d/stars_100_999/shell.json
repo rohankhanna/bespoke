@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
+    "components": 78,
     "concepts": 81,
     "observations": 82,
-    "repos": 19,
-    "terms": 81
+    "repos": 20,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "aslafy-z/helm-git",
+    "astro-han/claude-pace",
     "aws/aws-app-mesh-examples",
     "chaoss/grimoirelab",
     "crazy-max/xgo",

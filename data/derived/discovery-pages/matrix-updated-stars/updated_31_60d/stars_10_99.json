@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10131,
-    "concepts": 4736,
-    "observations": 4757,
-    "repos": 1096,
-    "terms": 4784
+    "components": 10101,
+    "concepts": 4733,
+    "observations": 4754,
+    "repos": 1093,
+    "terms": 4781
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -408,7 +408,6 @@
     "favware/esbuild-plugin-version-injector",
     "fcshark-org/route-list",
     "fern-api/docs-starter",
-    "fgrehm/clotilde",
     "filecoin-project/actors-utils",
     "filecoin-project/Allocator-Registry",
     "filecoin-project/builtin-actors",
@@ -733,7 +732,6 @@
     "mirage/colombe",
     "mirage/mrmime",
     "mirage/ocaml-dkim",
-    "mirage/ptt",
     "mirage/uspf",
     "mit-plv/coqutil",
     "mitsuba-renderer/nanothread",
@@ -766,7 +764,6 @@
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "newrelic/opentelemetry-demo",
-    "ngyewch/smile-js",
     "nico-abram/blondie",
     "NightWatcher314/zotero-pdf2zh-server",
     "NitroDevs/FShopOnWeb",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 862,
-    "concepts": 562,
-    "observations": 565,
-    "repos": 50,
-    "terms": 552
+    "components": 883,
+    "concepts": 592,
+    "observations": 595,
+    "repos": 53,
+    "terms": 582
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "apache/brpc",
@@ -24,7 +24,9 @@
     "DioxusLabs/dioxus",
     "fastapi/fastapi",
     "fuma-nama/fumadocs",
+    "ggml-org/ggml",
     "git-lfs/git-lfs",
+    "github-linguist/linguist",
     "gitleaks/gitleaks",
     "google-ai-edge/mediapipe",
     "googleapis/google-api-nodejs-client",
@@ -53,6 +55,7 @@
     "protocolbuffers/protobuf",
     "pyg-team/pytorch_geometric",
     "python-poetry/poetry",
+    "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
     "realworld-apps/realworld",
     "rust-lang/mdBook",

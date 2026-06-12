@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2277,
-    "concepts": 1269,
-    "observations": 1273,
-    "repos": 309,
-    "terms": 1271
+    "components": 2272,
+    "concepts": 1268,
+    "observations": 1272,
+    "repos": 308,
+    "terms": 1270
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -216,7 +216,6 @@
     "mirage/colombe",
     "mirage/mrmime",
     "mirage/ocaml-dkim",
-    "mirage/ptt",
     "mirage/uspf",
     "mit-plv/coqutil",
     "mlocati/pecl-info",

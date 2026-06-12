@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14872,
-    "concepts": 9822,
-    "observations": 9853,
-    "repos": 2585,
-    "terms": 9789
+    "components": 14929,
+    "concepts": 9833,
+    "observations": 9864,
+    "repos": 2590,
+    "terms": 9799
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0aids/imnodes",
@@ -489,6 +489,7 @@
     "bshall/acoustic-model",
     "bshall/knn-vc",
     "bshoshany/thread-pool",
+    "btzy/nativefiledialog-extended",
     "BuddiesOfBudgie/budgie-desktop-view",
     "BuilderIO/mitosis",
     "buildfoundation/bazel_rules_detekt",
@@ -1221,6 +1222,7 @@
     "holochain/launcher",
     "HolyBlackCat/box2cpp",
     "HolyWu/vs-rife",
+    "HoneyLuka/uBlacklist",
     "hongyuanyu/SPAN",
     "honwen/openwrt-shadowsocks-rust",
     "hoshsadiq/adblock-nocoin-list",
@@ -2090,6 +2092,8 @@
     "rojo-rbx/rojo.space",
     "rollup/plugins",
     "RomanArzumanyan/VALI",
+    "romkatv/gitstatus",
+    "romkatv/powerlevel10k",
     "romkatv/zsh-bench",
     "ronaldoussoren/py2app",
     "rootless-containers/usernetes",
@@ -2181,6 +2185,7 @@
     "shibing624/text2vec",
     "Shopify/quantified",
     "Shopify/svg2vd",
+    "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
     "shriramters/chordcat",
     "signalfx/opentelemetry-demo",

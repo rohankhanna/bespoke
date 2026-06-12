@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5399,
-    "concepts": 3570,
-    "observations": 3580,
-    "repos": 888,
-    "terms": 3552
+    "components": 5402,
+    "concepts": 3575,
+    "observations": 3585,
+    "repos": 889,
+    "terms": 3557
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -177,6 +177,7 @@
     "BrunoBonacci/mulog",
     "bshall/acoustic-model",
     "bshall/knn-vc",
+    "btzy/nativefiledialog-extended",
     "buildpacks/spec",
     "BurntSushi/rebar",
     "bvaughn/react-window-infinite-loader",

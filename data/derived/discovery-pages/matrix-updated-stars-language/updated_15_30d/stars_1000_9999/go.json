@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 16,
     "observations": 16,
-    "repos": 3,
+    "repos": 4,
     "terms": 16
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "bazel-contrib/bazel-gazelle",
     "dkron-io/dkron",
+    "googleapis/google-api-go-client",
     "vale-cli/vale"
   ]
 }

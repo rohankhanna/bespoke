@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 363,
-    "observations": 365,
-    "repos": 97,
-    "terms": 358
+    "components": 302,
+    "concepts": 368,
+    "observations": 370,
+    "repos": 98,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
@@ -29,6 +29,7 @@
     "bdwgc/libatomic_ops",
     "beached/daw_json_link",
     "bnosac/audio.whisper",
+    "btzy/nativefiledialog-extended",
     "CGCL-codes/YiTu",
     "chfast/intx",
     "conor42/fast-lzma2",

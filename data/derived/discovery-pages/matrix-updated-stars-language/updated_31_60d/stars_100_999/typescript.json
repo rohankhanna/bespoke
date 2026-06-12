@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6374,
-    "concepts": 1310,
-    "observations": 1312,
-    "repos": 204,
-    "terms": 1354
+    "components": 6409,
+    "concepts": 1328,
+    "observations": 1330,
+    "repos": 205,
+    "terms": 1372
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
@@ -123,6 +123,7 @@
     "lucasastorian/llmwiki",
     "luciopaiva/heapify",
     "Luligu/matterbridge-shelly",
+    "Luligu/matterbridge-zigbee2mqtt",
     "maltsev/htmlnano",
     "maplibre/ngx-maplibre-gl",
     "marmelab/FakeRest",

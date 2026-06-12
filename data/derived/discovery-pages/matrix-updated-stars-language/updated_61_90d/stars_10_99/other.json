@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 369,
-    "concepts": 366,
-    "observations": 368,
-    "repos": 115,
-    "terms": 365
+    "components": 374,
+    "concepts": 367,
+    "observations": 369,
+    "repos": 116,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -96,6 +96,7 @@
     "malewicz1337/oil-git.nvim",
     "marbl/T2T-Browser",
     "metosin/ring-swagger-ui",
+    "mirage/ptt",
     "MisanthropicBit/neotest-busted",
     "mit-plv/bbv",
     "mugh/minecraft-bedrock-server-manager",

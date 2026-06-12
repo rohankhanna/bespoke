@@ -1,9 +1,9 @@
 {
   "counts": {
     "components": 4144,
-    "concepts": 3185,
-    "observations": 3194,
-    "repos": 623,
+    "concepts": 3186,
+    "observations": 3195,
+    "repos": 624,
     "terms": 3159
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -511,6 +511,7 @@
     "RobinBlomberg/kysely-codegen",
     "rojo-rbx/rojo",
     "rollup/plugins",
+    "romkatv/gitstatus",
     "rrousselGit/provider",
     "rs/cors",
     "rspec/rspec-rails",

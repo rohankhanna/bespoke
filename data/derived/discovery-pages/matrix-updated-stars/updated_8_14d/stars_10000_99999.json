@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1219,
-    "concepts": 568,
-    "observations": 572,
-    "repos": 42,
-    "terms": 574
+    "components": 1198,
+    "concepts": 538,
+    "observations": 542,
+    "repos": 39,
+    "terms": 544
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
@@ -23,9 +23,7 @@
     "fastapi/full-stack-fastapi-template",
     "gastownhall/beads",
     "gastownhall/gastown",
-    "ggml-org/ggml",
     "ggml-org/whisper.cpp",
-    "github-linguist/linguist",
     "HumanSignal/label-studio",
     "jax-ml/jax",
     "langchain-ai/langchainjs",
@@ -41,7 +39,6 @@
     "psf/black",
     "pydantic/pydantic",
     "QuantumNous/new-api",
-    "qubvel-org/segmentation_models.pytorch",
     "redis/go-redis",
     "Redocly/redoc",
     "run-llama/llama_index",

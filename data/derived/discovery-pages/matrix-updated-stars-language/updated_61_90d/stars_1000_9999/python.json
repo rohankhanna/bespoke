@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 571,
-    "concepts": 814,
-    "observations": 814,
-    "repos": 129,
-    "terms": 804
+    "components": 576,
+    "concepts": 819,
+    "observations": 819,
+    "repos": 131,
+    "terms": 809
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T06:06:25.576495+00:00",
+  "generated_at": "2026-06-12T08:06:30.850786+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -88,6 +88,7 @@
     "microsoft/MInference",
     "microsoft/pylance-release",
     "microsoft/TaskWeaver",
+    "mido/mido",
     "miguelgrinberg/python-socketio",
     "miiton/Cica",
     "miolini/autoresearch-macos",
@@ -114,6 +115,7 @@
     "QwenLM/Qwen3-VL-Embedding",
     "RapidAI/RapidOCR",
     "rthalley/dnspython",
+    "RUC-NLPIR/DeepAgent",
     "RUC-NLPIR/FlashRAG",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
