@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 307,
-    "observations": 308,
-    "repos": 120,
-    "terms": 314
+    "components": 340,
+    "concepts": 308,
+    "observations": 309,
+    "repos": 119,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -27,7 +27,6 @@
     "AniAggarwal/ecad",
     "antgroup/DeepXTrace",
     "apache/parquet-testing",
-    "ASLP-lab/Hum-Dial",
     "autokitteh/kittehub",
     "az1326/advisor-models",
     "bazelbuild/java_tools",
@@ -99,7 +98,6 @@
     "MINT-SJTU/STI-Bench",
     "modelscope/ms-enclave",
     "mohammadtavakoli78/beam",
-    "NightFurySL2001/cjktables",
     "okuvshynov/cubestat",
     "opea-project/docs",
     "Owen-Liuyuxuan/ros2_vision_inference",
@@ -108,6 +106,7 @@
     "rdb/panda3d-thirdparty",
     "ReneHollander/rep0st",
     "richardodliu/OpenCodeEval",
+    "rstudio/pins-python",
     "saltstack/libnacl",
     "scaleway/serverless-gateway",
     "ServiceNow/webarena-verified",

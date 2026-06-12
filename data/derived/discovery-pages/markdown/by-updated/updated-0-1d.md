@@ -1,6 +1,6 @@
 # Updated in the last 24 hours
 
-Generated at: `2026-06-11T08:14:09.272122+00:00`
+Generated at: `2026-06-12T06:06:25.576495+00:00`
 
 ## Active filters
 
@@ -10,7 +10,7 @@ Generated at: `2026-06-11T08:14:09.272122+00:00`
 
 - repos: 1
 - terms: 0
-- components: 0
+- components: 10
 - concepts: 0
 - observations: 0
 
@@ -22,10 +22,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2026-06-10T13:45:37Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-11T12:00:00Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [git-up/libgit2](https://github.com/git-up/libgit2) | 1 | 2026-06-10T13:45:37Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [4catalyzer/javascript](https://github.com/4Catalyzer/javascript) | 18 | 2026-06-11T12:00:00Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |

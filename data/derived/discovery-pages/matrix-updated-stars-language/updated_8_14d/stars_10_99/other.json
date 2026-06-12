@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 4,
-    "terms": 31
+    "components": 24,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 3,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "geocompx/docker",
-    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "pivotal/credhub-release"
   ]

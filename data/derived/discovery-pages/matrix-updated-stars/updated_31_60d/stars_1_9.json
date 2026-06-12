@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3959,
-    "concepts": 1960,
-    "observations": 1965,
-    "repos": 501,
-    "terms": 1994
+    "components": 3920,
+    "concepts": 1946,
+    "observations": 1951,
+    "repos": 496,
+    "terms": 1980
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
@@ -21,6 +21,7 @@
     "3mdeb/3mdeb-secpack",
     "5sControl/5s-backend",
     "8hobbies/vite-plugin-year",
+    "Aayushm24/presidential-briefing",
     "abhinav/goldmark-hashtag",
     "abraxas-365/claudio",
     "actboy168/ltest",
@@ -45,7 +46,6 @@
     "ai-dynamo/enhancements",
     "aiidateam/plumpy",
     "aimeos/ai-monolog",
-    "ainvaltin/nu-plugin",
     "aldernero/gaul",
     "aliyun/alibabacloud-oss-java-sdk-v2",
     "AlmaLinux/osv-database",
@@ -60,10 +60,8 @@
     "ankane/seaduck",
     "anojndr/grok-to-openai",
     "anolilab/unplugin-favicons",
-    "apache/dubbo-go-extensions",
     "apache/netbeans-antora",
     "apache/netbeans-antora-ui",
-    "aporthq/aport-spec",
     "appsignal/appsignal-elixir-plug",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
@@ -198,7 +196,6 @@
     "dora-rs/dora-benchmark",
     "dotenvx/homebrew-brew",
     "dpc/crev-proofs",
-    "dpep/ice_age_rb",
     "dreamiurg/mountaineers-assistant",
     "dreamiurg/mountaineers-mcp",
     "dreamiurg/peakbagger-cli",
@@ -231,7 +228,6 @@
     "eth-act/ere-guests",
     "Evilpasture/Culverin",
     "exoscale/karpenter-provider-exoscale",
-    "f3liz-casa/noraneko-runtime",
     "facebookexperimental/cxx",
     "fern-api/docs",
     "filecoin-project/github-mgmt",
@@ -349,6 +345,7 @@
     "locize/locize-lastused",
     "lonewolf-jp/convopeq",
     "Luligu/matterbridge-eve-energy",
+    "Luligu/matterbridge-somfy-tahoma",
     "maltsev/html-minifiers-benchmark",
     "Mbed-TLS/mbedtls-test",
     "meridianlabs-ai/inspect_harbor",
@@ -464,7 +461,6 @@
     "stdlib-js/ndarray-ctor",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-fancy",
-    "stdlib-js/ndarray-index-modes",
     "stdlib-js/ndarray-orders",
     "stdlib-js/proxy-ctor",
     "stdlib-js/repl",
@@ -511,7 +507,6 @@
     "webdriverio/devtools",
     "wildfly-extras/a2a-java-sdk-server-jakarta",
     "xiaochu-1208/interview-assistant-cli",
-    "yhirose/docs-gen",
     "yoshoku/numo-linalg-alt",
     "zopefoundation/meta"
   ]

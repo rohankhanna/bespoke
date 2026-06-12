@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 764,
-    "concepts": 862,
-    "observations": 868,
-    "repos": 147,
-    "terms": 860
+    "components": 782,
+    "concepts": 870,
+    "observations": 876,
+    "repos": 150,
+    "terms": 868
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -29,7 +29,6 @@
     "ardalis/Result",
     "arviz-devs/arviz",
     "athityakumar/colorls",
-    "autofac/Autofac",
     "awaescher/OllamaSharp",
     "bbatsov/crux",
     "bbatsov/prelude",
@@ -55,13 +54,16 @@
     "deivid-rodriguez/pry-byebug",
     "dhall-lang/dhall-lang",
     "docker-library/python",
+    "dotnet/machinelearning",
     "dotnet/project-system",
     "dotnet/roslynator",
     "ElectronNET/Electron.NET",
     "elixir-ecto/postgrex",
     "elixir-plug/plug",
+    "epwalsh/obsidian.nvim",
     "excon/excon",
     "fcambus/spleen",
+    "ffi/ffi",
     "FluxML/Zygote.jl",
     "flycheck/flycheck",
     "folke/lazydev.nvim",
@@ -89,6 +91,7 @@
     "invertase/melos",
     "ipfs/specs",
     "ipld/ipld",
+    "itchyny/lightline.vim",
     "j-hui/fidget.nvim",
     "jgm/djot",
     "jpsim/SourceKitten",
@@ -150,6 +153,7 @@
     "swiftbar/SwiftBar",
     "tc39/proposal-temporal",
     "tensorflow/tpu",
+    "travisjeffery/timecop",
     "troxler/awesome-css-frameworks",
     "usbarmory/usbarmory",
     "varvet/pundit",
@@ -158,7 +162,6 @@
     "whitequark/parser",
     "wincent/command-t",
     "yuhonas/free-exercise-db",
-    "z-x-yang/Segment-and-Track-Anything",
     "zarazhangrui/codebase-to-course",
     "zjunlp/EasyEdit"
   ]

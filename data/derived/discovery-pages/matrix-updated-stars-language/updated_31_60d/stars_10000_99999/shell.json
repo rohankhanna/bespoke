@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 146,
+    "components": 143,
     "concepts": 186,
     "observations": 187,
-    "repos": 17,
+    "repos": 16,
     "terms": 182
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "89luca89/distrobox",
     "a2aproject/A2A",
@@ -28,7 +28,6 @@
     "rockerBOO/awesome-neovim",
     "super-linter/super-linter",
     "termux/termux-packages",
-    "tj/n",
     "unixorn/awesome-zsh-plugins",
     "VSCodium/vscodium"
   ]

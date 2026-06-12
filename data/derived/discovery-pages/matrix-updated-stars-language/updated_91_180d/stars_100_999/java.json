@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 19,
-    "terms": 99
+    "components": 82,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 21,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "apache/seatunnel-web",
     "aws-observability/aws-otel-community",
     "Azure-Samples/azure-search-openai-demo-java",
     "bazelbuild/stardoc",
     "bobbylight/AutoComplete",
+    "Deep-Symmetry/crate-digger",
     "eclipse-aspectj/aspectj",
     "f4b6a3/tsid-creator",
     "f4b6a3/ulid-creator",
@@ -29,6 +30,7 @@
     "jpmml/jpmml-evaluator",
     "mebigfatguy/fb-contrib",
     "nacos-group/nacos-spring-project",
+    "nayuki/Nayuki-web-published-code",
     "peergos/nabu",
     "scalar-labs/btm",
     "spring-ai-alibaba/deepresearch",

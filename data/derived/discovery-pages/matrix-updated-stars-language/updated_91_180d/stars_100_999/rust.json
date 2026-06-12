@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 385,
-    "concepts": 264,
-    "observations": 265,
-    "repos": 68,
-    "terms": 262
+    "components": 393,
+    "concepts": 279,
+    "observations": 280,
+    "repos": 70,
+    "terms": 277
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "astro/deadnix",
@@ -35,6 +35,7 @@
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
     "georust/proj",
+    "gfx-rs/rspirv",
     "guillaume-be/rust-tokenizers",
     "gwihlidal/vk-mem-rs",
     "hecrj/icebreaker",
@@ -73,6 +74,7 @@
     "stanislav-tkach/os_info",
     "SunDoge/simdjson-rust",
     "tsonglew/dutis",
+    "typst/comemo",
     "typst/pdf-writer",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",

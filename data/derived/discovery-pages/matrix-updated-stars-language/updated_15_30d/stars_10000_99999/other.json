@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 4,
-    "terms": 37
+    "components": 36,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
+    "dense-analysis/ale",
     "JetBrains/compose-multiplatform",
     "meta-llama/llama-cookbook",
     "neovim/nvim-lspconfig",

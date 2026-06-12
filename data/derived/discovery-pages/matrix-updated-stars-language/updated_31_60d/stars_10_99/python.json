@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 869,
-    "concepts": 582,
-    "observations": 584,
-    "repos": 160,
-    "terms": 595
+    "components": 861,
+    "concepts": 559,
+    "observations": 561,
+    "repos": 158,
+    "terms": 571
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "Accenture/Cymple",
@@ -58,7 +58,6 @@
     "channel-io/ch-tts-llasa-rl-grpo",
     "chaoss/grimoirelab-sortinghat",
     "chengzhag/PanFlow",
-    "cloudartisan/cloudartisan.github.io",
     "cloudfoundry/community",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-pinning-feedstock",
@@ -88,7 +87,6 @@
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "GreptimeTeam/demo-scene",
-    "GuyKh/ims-custom-component",
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
@@ -131,7 +129,6 @@
     "optuna/optuna-integration",
     "ParisNeo/safe_store",
     "pdm-project/tox-pdm",
-    "petercorke/ansitable",
     "petercorke/spatialmath-python",
     "pipecat-ai/pipecat-cli",
     "plone/cookieplone",
@@ -171,6 +168,7 @@
     "TigreGotico/phoonnx",
     "typeshed-internal/stub_uploader",
     "urschrei/pypolyline",
+    "version-fox/vfox-plugins",
     "xhluca/bm25-benchmarks",
     "yulewang97/ERDiff",
     "zen-xu/pytest-modern"

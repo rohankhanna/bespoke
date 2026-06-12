@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 7,
-    "terms": 60
+    "components": 36,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 4,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
     "bazel-contrib/rules_kotlin",
-    "devcontainers/devcontainers.github.io",
-    "JuliaGraphics/Luxor.jl",
-    "meshcat-dev/meshcat",
     "ROCm/hipBLASLt"
   ]
 }

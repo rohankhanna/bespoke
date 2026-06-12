@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-06-11T08:14:09.272122+00:00`
+Generated at: `2026-06-12T06:06:25.576495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 49
-- terms: 242
+- repos: 48
+- terms: 239
 - components: 1077
-- concepts: 233
-- observations: 233
+- concepts: 230
+- observations: 230
 
 ## Static behavior
 
@@ -74,7 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [curiousdannii/asyncglk](https://github.com/curiousdannii/asyncglk) | 4 | 2026-04-14T02:02:08Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [dreamiurg/mountaineers-assistant](https://github.com/dreamiurg/mountaineers-assistant) | 3 | 2026-04-13T16:48:33Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
 | [Badisi/wdio-harness](https://github.com/Badisi/wdio-harness) | 6 | 2026-04-13T16:35:07Z | TypeScript | Infrastructure/tooling | 12 | 23 | 12 | 12 |
-| [aporthq/aport-spec](https://github.com/aporthq/aport-spec) | 3 | 2026-04-13T04:01:04Z | TypeScript | Unknown | 3 | 0 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -112,7 +111,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [celo-org/SocialConnect-Twitter-Server-Side](https://github.com/celo-org/SocialConnect-Twitter-Server-Side) | 3 | 2026-04-19T07:35:14Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [ublacklist/ublacklist.github.io](https://github.com/ublacklist/ublacklist.github.io) | 3 | 2026-04-19T06:07:17Z | TypeScript | Infrastructure/tooling | 2 | 26 | 2 | 2 |
 | [dreamiurg/mountaineers-assistant](https://github.com/dreamiurg/mountaineers-assistant) | 3 | 2026-04-13T16:48:33Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
-| [aporthq/aport-spec](https://github.com/aporthq/aport-spec) | 3 | 2026-04-13T04:01:04Z | TypeScript | Unknown | 3 | 0 | 3 | 3 |
 | [dreamscached/i18next-cli-plugin-svelte](https://github.com/dreamscached/i18next-cli-plugin-svelte) | 2 | 2026-04-29T17:56:29Z | TypeScript | CLI | 7 | 15 | 7 | 7 |
 | [ipld/github-mgmt](https://github.com/ipld/github-mgmt) | 2 | 2026-04-28T21:46:15Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [filecoin-project/github-mgmt](https://github.com/filecoin-project/github-mgmt) | 2 | 2026-04-28T21:44:11Z | TypeScript | Infrastructure/tooling | 9 | 9 | 9 | 9 |

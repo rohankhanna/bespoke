@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 26,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 30,
-    "terms": 95
+    "concepts": 106,
+    "observations": 106,
+    "repos": 31,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "adoptium/adoptium",
@@ -23,6 +23,7 @@
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
     "apple/device-management",
+    "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
     "cncf/artwork",
     "dotnet/source-build",

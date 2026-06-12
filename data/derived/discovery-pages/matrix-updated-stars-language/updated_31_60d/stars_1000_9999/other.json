@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3970,
-    "concepts": 3561,
-    "observations": 3582,
-    "repos": 474,
-    "terms": 3545
+    "components": 3945,
+    "concepts": 3544,
+    "observations": 3565,
+    "repos": 470,
+    "terms": 3528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -155,7 +155,6 @@
     "dotnet/dotnet-docker",
     "dotnet/extensions",
     "dotnet/fsharp",
-    "dotnet/machinelearning",
     "dotnet/msbuild",
     "dotnet/samples",
     "dotnet/sdk",
@@ -176,14 +175,12 @@
     "emacs-helm/helm",
     "emacs-lsp/lsp-mode",
     "emacs-mirror/emacs",
-    "epwalsh/obsidian.nvim",
     "erichlof/THREE.js-PathTracing-Renderer",
     "EsotericSoftware/kryo",
     "ethereum/execution-apis",
     "facebook/ktfmt",
     "facebook/pyre-check",
     "facebook/react-native-website",
-    "ffi/ffi",
     "florisboard/florisboard",
     "fluentassertions/fluentassertions",
     "fluentribbon/Fluent.Ribbon",
@@ -238,7 +235,6 @@
     "idris-lang/Idris2",
     "intel/BigDL",
     "intel/llvm",
-    "itchyny/lightline.vim",
     "jeremyevans/roda",
     "jeremyevans/sequel",
     "JetBrains/intellij-platform-gradle-plugin",
@@ -279,6 +275,7 @@
     "lervag/vimtex",
     "lewis6991/gitsigns.nvim",
     "LibreHardwareMonitor/LibreHardwareMonitor",
+    "lightning/bolts",
     "lm-sensors/lm-sensors",
     "lobsters/lobsters",
     "lowRISC/opentitan",
@@ -458,7 +455,6 @@
     "timholy/Revise.jl",
     "tlaplus/Examples",
     "topfunky/gruff",
-    "travisjeffery/timecop",
     "truffleruby/truffleruby",
     "tuist/XcodeProj",
     "tweag/ormolu",

@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 834,
+    "components": 836,
     "concepts": 132,
     "observations": 132,
     "repos": 37,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -43,13 +43,13 @@
     "microsoft/vscode-js-debug-companion",
     "nanostores/alpine",
     "obi1kenobi/cargo-semver-checks-action",
-    "pkgxdev/brewkit",
     "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-ui-ff",
     "solidjs-community/storybook",
     "storybookjs/addon-coverage",
-    "TravisTheTechie/vscode-write-good"
+    "TravisTheTechie/vscode-write-good",
+    "zhayujie/cow-skill-hub"
   ]
 }

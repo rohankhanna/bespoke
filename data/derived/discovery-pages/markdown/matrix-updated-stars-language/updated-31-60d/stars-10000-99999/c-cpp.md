@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-06-11T08:14:09.272122+00:00`
+Generated at: `2026-06-12T06:06:25.576495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 123
-- terms: 1239
-- components: 968
-- concepts: 1237
-- observations: 1241
+- repos: 122
+- terms: 1235
+- components: 964
+- concepts: 1233
+- observations: 1237
 
 ## Static behavior
 
@@ -148,7 +148,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [davatorium/rofi](https://github.com/davatorium/rofi) | 16006 | 2026-04-13T13:42:37Z | C/C++ | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [Cyan4973/xxHash](https://github.com/Cyan4973/xxHash) | 10988 | 2026-04-13T13:14:32Z | C/C++ | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [aristocratos/btop](https://github.com/aristocratos/btop) | 31799 | 2026-04-13T08:38:34Z | C/C++ | Infrastructure/tooling | 9 | 6 | 9 | 9 |
-| [ninja-build/ninja](https://github.com/ninja-build/ninja) | 12895 | 2026-04-12T16:45:24Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -241,7 +240,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [capnproto/capnproto](https://github.com/capnproto/capnproto) | 13009 | 2026-05-01T23:28:25Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT) | 12928 | 2026-04-13T22:59:10Z | C/C++ | Infrastructure/tooling | 10 | 6 | 10 | 10 |
 | [assimp/assimp](https://github.com/assimp/assimp) | 12905 | 2026-04-30T20:25:10Z | C/C++ | Infrastructure/tooling | 16 | 19 | 16 | 16 |
-| [ninja-build/ninja](https://github.com/ninja-build/ninja) | 12895 | 2026-04-12T16:45:24Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [microsoft/mimalloc](https://github.com/microsoft/mimalloc) | 12742 | 2026-04-23T18:55:11Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [citusdata/citus](https://github.com/citusdata/citus) | 12444 | 2026-04-24T17:31:08Z | C/C++ | Infrastructure/tooling | 17 | 11 | 17 | 17 |
 | [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) | 12282 | 2026-05-10T14:01:13Z | C/C++ | Infrastructure/tooling | 2 | 0 | 2 | 2 |

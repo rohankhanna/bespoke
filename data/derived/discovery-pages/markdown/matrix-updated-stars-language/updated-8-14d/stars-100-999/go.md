@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-06-11T08:14:09.272122+00:00`
+Generated at: `2026-06-12T06:06:25.576495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 5
-- components: 19
-- concepts: 5
-- observations: 5
+- repos: 1
+- terms: 0
+- components: 0
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-29T20:02:27Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 913 | 2026-05-28T16:53:07Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | 913 | 2026-05-28T16:53:07Z | Go | Infrastructure/tooling | 5 | 19 | 5 | 5 |
 | [yaling888/quirktiva](https://github.com/yaling888/quirktiva) | 278 | 2026-05-29T20:02:27Z | Go | Unknown | 0 | 0 | 0 | 0 |

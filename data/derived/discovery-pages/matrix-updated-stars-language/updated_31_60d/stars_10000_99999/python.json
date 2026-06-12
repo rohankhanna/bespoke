@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2412,
-    "concepts": 2116,
-    "observations": 2122,
-    "repos": 198,
-    "terms": 2136
+    "components": 2388,
+    "concepts": 2084,
+    "observations": 2089,
+    "repos": 195,
+    "terms": 2107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -107,7 +107,6 @@
     "langchain-ai/deepagents",
     "langchain-ai/langgraph",
     "langchain-ai/open_deep_research",
-    "letta-ai/letta",
     "LibreTranslate/LibreTranslate",
     "locustio/locust",
     "lucidrains/vit-pytorch",
@@ -181,7 +180,6 @@
     "scrapy/scrapy",
     "searxng/searxng",
     "sgl-project/sglang",
-    "ShishirPatil/gorilla",
     "simonw/datasette",
     "Skyvern-AI/skyvern",
     "speechbrain/speechbrain",
@@ -193,7 +191,6 @@
     "SWE-agent/SWE-agent",
     "sympy/sympy",
     "tensorflow/models",
-    "Textualize/rich",
     "Textualize/textual",
     "titanwings/colleague-skill",
     "treeverse/dvc",

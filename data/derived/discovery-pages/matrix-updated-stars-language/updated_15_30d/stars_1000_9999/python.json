@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 238,
-    "observations": 240,
-    "repos": 29,
-    "terms": 232
+    "components": 159,
+    "concepts": 263,
+    "observations": 264,
+    "repos": 31,
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
     "collabora/WhisperLive",
     "copier-org/copier",
     "Farama-Foundation/Minigrid",
+    "fla-org/flash-linear-attention",
     "FunAudioLLM/Fun-ASR",
     "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
     "google/budoux",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
+    "huggingface/optimum-quanto",
     "intelligent-machine-learning/dlrover",
     "InternScience/GraphGen",
     "JuergenFleiss/aTrain",
@@ -36,10 +38,10 @@
     "NEKOparapa/AiNiee",
     "nomadkaraoke/python-audio-separator",
     "python-versioneer/python-versioneer",
+    "rllm-org/rllm",
     "roboflow/maestro",
     "speaches-ai/speaches",
     "strob/gentle",
-    "voicepaw/so-vits-svc-fork",
     "zai-org/GLM-V",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"

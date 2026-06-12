@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 591,
-    "concepts": 806,
-    "observations": 806,
-    "repos": 194,
-    "terms": 791
+    "components": 593,
+    "concepts": 807,
+    "observations": 807,
+    "repos": 195,
+    "terms": 792
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -135,6 +135,7 @@
     "klauspost/asmfmt",
     "kubemod/kubemod",
     "kubernetes-sigs/apiserver-builder-alpha",
+    "kubernetes-sigs/yaml",
     "layr-labs/incredible-squaring-avs",
     "lesismal/go-websocket-benchmark",
     "liquidmetal-dev/cluster-api-provider-microvm",

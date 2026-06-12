@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1052,
-    "concepts": 923,
-    "observations": 925,
+    "components": 1056,
+    "concepts": 922,
+    "observations": 924,
     "repos": 237,
-    "terms": 918
+    "terms": 917
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -80,6 +80,7 @@
     "com-lihaoyi/cask",
     "com-lihaoyi/utest",
     "countries/country_select",
+    "cpp-pm/hunter",
     "cross-rs/cross-toolchains",
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
@@ -198,7 +199,6 @@
     "radian-software/ctrlf",
     "rahul-goel/fused-ssim",
     "rails/sprockets",
-    "rake-compiler/rake-compiler",
     "rapidsai-community/notebooks-contrib",
     "reasonml/reasonml.github.io",
     "rejemy/UltraLiteDB",

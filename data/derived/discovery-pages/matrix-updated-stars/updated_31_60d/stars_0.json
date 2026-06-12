@@ -1,31 +1,28 @@
 {
   "counts": {
-    "components": 855,
-    "concepts": 349,
-    "observations": 349,
-    "repos": 252,
-    "terms": 378
+    "components": 870,
+    "concepts": 346,
+    "observations": 346,
+    "repos": 249,
+    "terms": 375
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
     "8144225309/superscalar-cln",
     "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
-    "aaronrsun/spec-kit-issue",
-    "aayushbhaskar/OpenCouncil",
     "abdeladim-s/pywhispercpp",
     "acevif/swiftformat-nix",
     "AdaCore/vss-extra",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
-    "ainvaltin/nu_plugin_boltdb",
     "ainvaltin/nu_plugin_plist",
     "aipurposes1587-max/weixin-agent-rs",
     "alexcrichton/cc-rs",
@@ -177,7 +174,6 @@
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "Dustinpro/Dustinpro",
     "edward3h/bedrock-viz-from-backups",
-    "eigenwallet/arti",
     "fabon-f/temporal-polyfill-comparison",
     "fekkak1998/scira",
     "FEniCS/spack-fenics",
@@ -252,6 +248,7 @@
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
     "stable-haskell/haskell-language-server",
+    "starfishmod/bonjour-service",
     "stdlib-js/ndarray-dtype-ctor",
     "Strivin0311/strivin0311.github.io",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",

@@ -1,25 +1,28 @@
 {
   "counts": {
     "components": 410,
-    "concepts": 176,
-    "observations": 178,
-    "repos": 106,
-    "terms": 179
+    "concepts": 181,
+    "observations": 183,
+    "repos": 110,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
     "aaronrsun/spec-kit-confluence",
+    "aaronrsun/spec-kit-issue",
+    "aayushbhaskar/OpenCouncil",
     "abraxas-365/claudio-screenshot",
     "adammes/voyanode",
     "adiny/moodtrip-hotel-search",
     "adipalko/hatraot",
+    "ainvaltin/nu_plugin_boltdb",
     "aldernero/debugui",
     "amoniacou/external-dns-digitalocean-webhook",
     "arckoor/botan-rs",
@@ -74,6 +77,7 @@
     "datafuse-extras/dtparse",
     "devnen/chatterbox-v2",
     "drmingdrmer/display-more",
+    "eigenwallet/arti",
     "ethpandaops/xatu-cbt",
     "grubersjoe/react-activity-calendar-tests",
     "hermit-os/async-executor",

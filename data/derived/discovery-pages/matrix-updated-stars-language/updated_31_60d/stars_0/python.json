@@ -3,7 +3,7 @@
     "components": 50,
     "concepts": 49,
     "observations": 49,
-    "repos": 30,
+    "repos": 29,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
-    "aayushbhaskar/OpenCouncil",
     "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",

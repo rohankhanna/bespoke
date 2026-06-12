@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 257,
-    "observations": 257,
-    "repos": 46,
-    "terms": 263
+    "components": 277,
+    "concepts": 289,
+    "observations": 290,
+    "repos": 49,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -40,6 +40,7 @@
     "huggingface/text-generation-inference",
     "karpathy/autoresearch",
     "KittenML/KittenTTS",
+    "letta-ai/letta",
     "localstack/localstack",
     "m-bain/whisperX",
     "microsoft/playwright-python",
@@ -55,9 +56,11 @@
     "rany2/edge-tts",
     "resemble-ai/chatterbox",
     "sanic-org/sanic",
+    "ShishirPatil/gorilla",
     "spotify/luigi",
     "subframe7536/maple-font",
     "superclaude-org/superclaude_framework",
+    "Textualize/rich",
     "thu-ml/tianshou",
     "Wan-Video/Wan2.2"
   ]

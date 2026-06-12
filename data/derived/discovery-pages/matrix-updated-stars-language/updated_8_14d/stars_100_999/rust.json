@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 17,
     "observations": 18,
-    "repos": 5,
+    "repos": 4,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "attackgoat/vk-graph",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "GitoxideLabs/cargo-smart-release",
-    "lbcb-sci/herro",
     "servo/stylo"
   ]
 }

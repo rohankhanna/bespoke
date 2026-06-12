@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 210,
-    "observations": 211,
-    "repos": 23,
-    "terms": 205
+    "components": 263,
+    "concepts": 252,
+    "observations": 253,
+    "repos": 28,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
+    "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
     "apache/casbin-Casbin.NET",
     "babashka/sci",
     "beam-community/elixir-companies",
+    "clj-kondo/clj-kondo",
+    "datalevin/datalevin",
     "devlooped/moq",
     "dotnet/Silk.NET",
     "elixir-grpc/grpc",
     "licensee/licensed",
-    "lightning/bolts",
     "litedb-org/LiteDB",
     "lumen-oss/rocks.nvim",
     "microsoft/PhiCookBook",
@@ -30,12 +32,15 @@
     "nushell/awesome-nu",
     "nvim-tree/nvim-web-devicons",
     "nvimdev/lspsaga.nvim",
+    "okd-project/okd",
     "openai/openai-dotnet",
     "opentk/opentk",
     "preservim/tagbar",
+    "psmux/psmux",
     "radian-software/straight.el",
     "standardrb/standard",
     "tModLoader/tModLoader",
+    "TryGhost/node-sqlite3",
     "xoofx/markdig"
   ]
 }

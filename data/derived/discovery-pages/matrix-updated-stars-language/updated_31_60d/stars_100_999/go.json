@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1624,
-    "concepts": 1389,
-    "observations": 1396,
-    "repos": 198,
-    "terms": 1397
+    "components": 1608,
+    "concepts": 1385,
+    "observations": 1392,
+    "repos": 196,
+    "terms": 1393
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "2dust/AndroidLibV2rayLite",
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
     "AdguardTeam/AdGuardDNS",
@@ -112,7 +111,6 @@
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
     "hashicorp/errwrap",
-    "hashicorp/go-discover",
     "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-framework",
     "hashicorp/terraform-plugin-go",

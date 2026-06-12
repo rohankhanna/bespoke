@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 5,
-    "terms": 20
+    "components": 241,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 6,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "8144225309/superscalar-wallet",
     "fekkak1998/scira",
     "gopi2211/ralph",
     "ipfs-examples/github-mgmt",
+    "starfishmod/bonjour-service",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
   ]
 }

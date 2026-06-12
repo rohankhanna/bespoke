@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 26,
-    "terms": 103
+    "components": 171,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 31,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "adamchainz/blacken-docs",
     "AMD-AGI/Nitro-1",
     "amsehili/auditok",
-    "DanielLin94144/Full-Duplex-Bench",
+    "aristoteleo/PantheonOS",
+    "clearml/clearml-agent",
     "flagos-ai/FlagAttention",
+    "flagos-ai/FlagScale",
     "gbionics/adam",
     "google-deepmind/xmanager",
     "googlefonts/roboto-3-classic",
     "GStreamer/cerbero",
     "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",
+    "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
@@ -33,11 +36,13 @@
     "pyrtlsdr/pyrtlsdr",
     "python-poetry/poetry-plugin-export",
     "satan53x/SExtractor",
+    "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",
     "shawn0728/OpenSearch-VL",
     "SublimeText/AFileIcon",
     "TextArena/TextArena",
     "thunlp/OPD",
+    "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",
     "zh-plus/openlrc"
   ]

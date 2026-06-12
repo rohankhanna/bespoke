@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 77,
-    "observations": 77,
+    "components": 162,
+    "concepts": 76,
+    "observations": 76,
     "repos": 39,
-    "terms": 76
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "5E7EN/Garmin-ZmanIQ",
     "abap2UI5-addons/layout-management",
@@ -28,6 +28,7 @@
     "clearbluejar/ghidra-python",
     "DanielSmith1239/KosherSwift",
     "dp111/6502timing",
+    "dpep/ice_age_rb",
     "dwyl/auth_plug_example",
     "dwyl/fields-demo",
     "dwyl/ping",
@@ -46,7 +47,6 @@
     "mpizenberg/elm-test-runner",
     "objectbox/objectbox-swift-spm",
     "ptsochantaris/trailer-json",
-    "PyThaiNLP/pythainlp-corpus",
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",
     "tanyongkiam/cake_lpr",

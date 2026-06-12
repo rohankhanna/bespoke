@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 52,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 11,
-    "terms": 31
+    "concepts": 26,
+    "observations": 26,
+    "repos": 10,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "ainvaltin/nu_plugin_boltdb",
     "ainvaltin/nu_plugin_plist",
     "Amtrend/ssh-manager",
     "DataDog/vault",

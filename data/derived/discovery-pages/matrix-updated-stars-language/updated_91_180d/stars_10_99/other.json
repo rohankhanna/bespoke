@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 597,
-    "concepts": 381,
-    "observations": 382,
-    "repos": 153,
-    "terms": 377
+    "concepts": 390,
+    "observations": 391,
+    "repos": 156,
+    "terms": 386
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "2KAbhishek/exercism.nvim",
     "2KAbhishek/pickme.nvim",
@@ -22,6 +22,7 @@
     "ably-labs/realtime-quiz-framework",
     "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
+    "adaszko/tree_climber_rust.nvim",
     "adelarsq/vim-emoji-icon-theme",
     "adospace/litedbpad",
     "AghayeCoder/TX-ThemeHub",
@@ -59,6 +60,7 @@
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
     "dominique-unruh/scala-isabelle",
+    "DragonFlyBSD/DPorts",
     "dspinellis/bibtools",
     "dwyl/cid",
     "dwyl/content",
@@ -110,6 +112,7 @@
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",
+    "larshp/abapGitServer",
     "ligershark/WebOptimizer.Sass",
     "liquidev/lintplus",
     "llvm/clangd-www",

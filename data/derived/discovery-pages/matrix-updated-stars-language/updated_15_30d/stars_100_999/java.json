@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 38,
-    "observations": 38,
+    "components": 24,
+    "concepts": 39,
+    "observations": 39,
     "repos": 6,
-    "terms": 38
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "bazel-contrib/rules_jvm_external",
-    "eclipse-lsp4j/lsp4j",
+    "cloudfoundry/credhub",
     "ldproxy/ldproxy",
     "openjdk/jdk11u",
     "openjdk/jdk17u",

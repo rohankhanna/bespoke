@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2411,
-    "concepts": 2356,
-    "observations": 2367,
-    "repos": 259,
-    "terms": 2357
+    "components": 2401,
+    "concepts": 2340,
+    "observations": 2351,
+    "repos": 257,
+    "terms": 2341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -116,10 +116,10 @@
     "envoyproxy/go-control-plane",
     "erigontech/erigon",
     "eryajf/chatgpt-dingtalk",
+    "etcd-io/bbolt",
     "ethereum-optimism/optimism",
     "ethersphere/bee",
     "evilmartians/lefthook",
-    "expr-lang/expr",
     "external-secrets/external-secrets",
     "filecoin-project/lotus",
     "flannel-io/flannel",
@@ -155,7 +155,6 @@
     "hanselime/paqet",
     "hashicorp/go-immutable-radix",
     "hashicorp/go-retryablehttp",
-    "hashicorp/raft",
     "hashicorp/terraform-provider-azurerm",
     "hashicorp/terraform-provider-helm",
     "helm-unittest/helm-unittest",
@@ -245,7 +244,6 @@
     "rhysd/actionlint",
     "router-for-me/CLIProxyAPIPlus",
     "runfinch/finch",
-    "schachmat/wego",
     "securego/gosec",
     "sigstore/cosign",
     "sigstore/gitsign",

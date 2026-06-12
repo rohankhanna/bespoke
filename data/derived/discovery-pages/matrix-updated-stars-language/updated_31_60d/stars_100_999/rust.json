@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1923,
-    "concepts": 1289,
-    "observations": 1301,
-    "repos": 220,
-    "terms": 1289
+    "components": 1902,
+    "concepts": 1281,
+    "observations": 1292,
+    "repos": 218,
+    "terms": 1281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -46,7 +46,6 @@
     "arkworks-rs/poly-commit",
     "arrow-udf/arrow-udf",
     "aws/aws-lc-rs",
-    "azdavis/millet",
     "Azure/azure-sdk-for-rust",
     "base/base",
     "Blockstream/electrs",
@@ -126,12 +125,10 @@
     "huggingface/nfsserve",
     "huggingface/xet-core",
     "hyper-mcp-rs/hyper-mcp",
-    "in-toto/attestation",
     "intel/ittapi",
     "iqlusioninc/crates",
     "istio/ztunnel",
     "JanLikar/cargo-clone",
-    "kaj/ructe",
     "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
     "kornia/kornia-rs",
@@ -175,7 +172,6 @@
     "Plonky3/Plonky3",
     "posit-dev/ark",
     "prefix-dev/rattler-build",
-    "prove-rs/z3.rs",
     "proxy-wasm/proxy-wasm-rust-sdk",
     "psmux/pstop",
     "pubgrub-rs/pubgrub",
@@ -206,6 +202,8 @@
     "shiinamiyuki/akari_render",
     "smol-rs/async-task",
     "Sovereign-Labs/sovereign-sdk",
+    "specta-rs/specta",
+    "specta-rs/tauri-specta",
     "succinctlabs/op-succinct",
     "supabase/wrappers",
     "tauri-apps/global-hotkey",

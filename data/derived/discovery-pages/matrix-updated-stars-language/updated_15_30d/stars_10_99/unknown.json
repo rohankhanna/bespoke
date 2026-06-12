@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 5,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 2,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
+    "FAIR-IMPACT/MOD",
     "RiDDiX/home-assistant-addons"
   ]
 }

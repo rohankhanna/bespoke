@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 396,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 40,
-    "terms": 188
+    "components": 422,
+    "concepts": 243,
+    "observations": 244,
+    "repos": 45,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -27,17 +27,22 @@
     "compozy/kb",
     "diffscope/diffscope-project",
     "dwyl/mvp",
+    "edge-classic/EDGE-classic",
     "erigontech/mdbx-go",
     "f3liz-casa/noraneko",
+    "FAIR-IMPACT/MOD",
     "google-marketing-solutions/ariel",
     "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
+    "joshsymonds/cc-tools",
     "karafka/example-apps",
     "lifegpc/msg-tool",
+    "lumen-oss/luarocks-tag-release",
     "mesh-iit/cad-libraries",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
+    "mongodb/winkerberos",
     "mono/skia",
     "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
@@ -46,12 +51,12 @@
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
     "openjdk/jdk21u-dev",
-    "processing/processing-website",
     "python-poetry/website",
     "RiDDiX/home-assistant-addons",
     "skilld-dev/retriv",
     "storybook-community/addon-queryparams",
-    "version-fox/vfox-plugins",
+    "TrigenSoftware/simple-release",
+    "vaporif/parry-guard",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

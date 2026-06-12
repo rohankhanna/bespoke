@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 391,
-    "concepts": 405,
-    "observations": 405,
+    "components": 395,
+    "concepts": 426,
+    "observations": 426,
     "repos": 71,
-    "terms": 393
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
@@ -37,6 +37,7 @@
     "darccio/mergo",
     "davidbyttow/govips",
     "ddworken/hishtory",
+    "expr-lang/expr",
     "fatih/color",
     "fnproject/fn",
     "go-redis/redis_rate",
@@ -48,10 +49,9 @@
     "google/starlark-go",
     "gopasspw/gopass",
     "grpc-ecosystem/grpc-health-probe",
-    "hashicorp/go-metrics",
     "hashicorp/go-version",
     "hashicorp/hcl",
-    "hashicorp/memberlist",
+    "hashicorp/raft",
     "hashicorp/yamux",
     "itchyny/gojq",
     "klauspost/compress",
@@ -71,6 +71,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "rest-sh/restish",
     "rootless-containers/rootlesskit",
+    "schachmat/wego",
     "smallnest/rpcx",
     "smtg-ai/claude-squad",
     "stripe/smokescreen",
@@ -82,7 +83,6 @@
     "vishvananda/netlink",
     "xjasonlyu/tun2socks",
     "xtaci/kcp-go",
-    "xtaci/smux",
     "yuin/goldmark",
     "yuin/gopher-lua"
   ]

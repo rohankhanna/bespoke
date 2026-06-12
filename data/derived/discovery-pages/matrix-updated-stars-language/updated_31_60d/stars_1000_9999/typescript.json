@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11628,
-    "concepts": 2249,
-    "observations": 2255,
+    "components": 11631,
+    "concepts": 2227,
+    "observations": 2233,
     "repos": 271,
-    "terms": 2343
+    "terms": 2321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -22,7 +22,6 @@
     "actions/setup-node",
     "actions/setup-python",
     "actions/toolkit",
-    "actions/typescript-action",
     "actions/upload-artifact",
     "AdguardTeam/AdguardBrowserExtension",
     "adobe/spectrum-web-components",
@@ -66,6 +65,7 @@
     "bufbuild/protobuf-es",
     "BuilderIO/builder",
     "callstack/react-native-testing-library",
+    "can1357/oh-my-pi",
     "capricorn86/happy-dom",
     "carbon-design-system/carbon-components-svelte",
     "ChainSafe/lodestar",
@@ -115,6 +115,7 @@
     "Floorp-Projects/Floorp",
     "florianbruniaux/claude-code-ultimate-guide",
     "fontsource/fontsource",
+    "FxEmbed/FxEmbed",
     "getagentseal/codeburn",
     "getsentry/xcodebuildmcp",
     "ggml-org/llama.vscode",
@@ -150,7 +151,6 @@
     "jshttp/cookie",
     "julia-vscode/julia-vscode",
     "jupyter-lsp/jupyterlab-lsp",
-    "Kaliiiiiiiiii-Vinyzu/patchright",
     "kelektiv/node-cron",
     "kepano/defuddle",
     "kulshekhar/ts-jest",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 565,
-    "concepts": 397,
-    "observations": 399,
-    "repos": 85,
-    "terms": 393
+    "components": 552,
+    "concepts": 386,
+    "observations": 388,
+    "repos": 82,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-anchor",
@@ -21,9 +21,7 @@
     "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
     "ankitpokhrel/shopctl",
-    "antham/ghokin",
     "apache/datasketches-go",
-    "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",
     "aquasecurity/trivy-java-db",
@@ -83,7 +81,6 @@
     "MShekow/directory-checksum",
     "muhlba91/external-dns-provider-adguard",
     "notaryproject/notation-core-go",
-    "notaryproject/notation-go",
     "openshift/ci-tools",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",

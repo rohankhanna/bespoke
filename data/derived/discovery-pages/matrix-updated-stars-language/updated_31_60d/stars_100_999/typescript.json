@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6367,
-    "concepts": 1321,
-    "observations": 1323,
-    "repos": 207,
-    "terms": 1365
+    "components": 6374,
+    "concepts": 1310,
+    "observations": 1312,
+    "repos": 204,
+    "terms": 1354
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
     "abaplint/abaplint",
-    "AbianS/docker-db-manager",
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
     "agentclientprotocol/typescript-sdk",
@@ -74,12 +73,10 @@
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",
     "elizaos/elizaos.github.io",
-    "elm-tooling/elm-language-client-vscode",
     "embroider-build/ember-auto-import",
     "embroider-build/embroider",
     "engine262/engine262",
     "evmts/tevm-monorepo",
-    "fastify/demo",
     "flathub-infra/website",
     "folke/esbuild-runner",
     "forcedotcom/code-analyzer",
@@ -125,6 +122,7 @@
     "logux/client",
     "lucasastorian/llmwiki",
     "luciopaiva/heapify",
+    "Luligu/matterbridge-shelly",
     "maltsev/htmlnano",
     "maplibre/ngx-maplibre-gl",
     "marmelab/FakeRest",
@@ -139,7 +137,6 @@
     "microsoft/TypeScript-DOM-lib-generator",
     "microsoft/vscode-css-languageservice",
     "microsoft/vscode-java-debug",
-    "microsoft/vscode-json-languageservice",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mskelton/eslint-plugin-playwright",
@@ -150,9 +147,9 @@
     "neolabhq/context-engineering-kit",
     "nonara/ts-patch",
     "nothingislost/obsidian-hover-editor",
+    "nurikk/zigbee2mqtt-frontend",
     "nuxt/bridge",
     "nyatinte/ccexp",
-    "Obsidian-TTRPG-Community/initiative-tracker",
     "oclif/core",
     "octokit/action.js",
     "octokit/app.js",
@@ -188,7 +185,6 @@
     "Shougo/ddc.vim",
     "Shougo/ddu.vim",
     "Shougo/dpp.vim",
-    "Siubaak/sval",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "snipeship/ccflare",
@@ -220,6 +216,7 @@
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
     "webextension-toolbox/webextension-toolbox",
-    "xdebug/vscode-php-debug"
+    "xdebug/vscode-php-debug",
+    "Zoo-Code-Org/Zoo-Code"
   ]
 }

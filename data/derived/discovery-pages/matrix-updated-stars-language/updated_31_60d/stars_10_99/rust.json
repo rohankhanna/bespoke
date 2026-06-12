@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 779,
-    "concepts": 497,
-    "observations": 498,
-    "repos": 111,
-    "terms": 510
+    "components": 769,
+    "concepts": 490,
+    "observations": 491,
+    "repos": 109,
+    "terms": 503
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -20,7 +20,6 @@
     "AccessKit/accesskit-c",
     "adumbidiot/lz-str-rs",
     "ai-dynamo/modelexpress",
-    "alixinne/glsl-lang",
     "andelf/axcli",
     "andelf/picc",
     "ankane/delta-ruby",
@@ -75,7 +74,6 @@
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "hpkewg/hpke-pq",
-    "idanarye/nu_plugin_skim",
     "influxdata/datafusion-udf-wasm",
     "janrueth/boring-rustls-provider",
     "kurrent-io/KurrentDB-Client-Rust",

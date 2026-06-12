@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 16,
-    "observations": 16,
+    "components": 11,
+    "concepts": 0,
+    "observations": 0,
     "repos": 2,
-    "terms": 16
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "apostrophecms/starter-kit-astro-essentials",
-    "Luligu/matterbridge-somfy-tahoma"
+    "oscard0m/ts-transformer-remove-named-export"
   ]
 }

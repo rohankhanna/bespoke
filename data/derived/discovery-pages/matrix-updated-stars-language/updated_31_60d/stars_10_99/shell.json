@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 275,
-    "concepts": 311,
-    "observations": 314,
-    "repos": 63,
-    "terms": 308
+    "concepts": 305,
+    "observations": 308,
+    "repos": 62,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",

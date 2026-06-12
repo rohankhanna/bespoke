@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 109,
-    "observations": 110,
-    "repos": 19,
-    "terms": 107
+    "components": 131,
+    "concepts": 118,
+    "observations": 119,
+    "repos": 20,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "appwrite/playground-for-web",
     "babashka/nbb",
     "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
-    "CopyText/TextCopy",
     "danielrosehill/Claude-Code-Projects-Index",
+    "devcontainers/devcontainers.github.io",
     "dwyl/quotes",
     "elixir-protobuf/protobuf",
     "emacscollective/auto-compile",
     "fsprojects/FSharp.Data.GraphQL",
     "google/protobuf.dart",
+    "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
     "Kotlin/kotlinx-benchmark",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
+    "meshcat-dev/meshcat",
     "openbsd/ports",
     "redis/redis-om-dotnet",
-    "rescript-lang/reanalyze",
     "sbt/sbt-jmh"
   ]
 }

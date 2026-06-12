@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2422,
-    "concepts": 1754,
-    "observations": 1761,
-    "repos": 226,
-    "terms": 1761
+    "components": 2430,
+    "concepts": 1757,
+    "observations": 1764,
+    "repos": 227,
+    "terms": 1764
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -24,6 +24,7 @@
     "actix/examples",
     "agentclientprotocol/agent-client-protocol",
     "ai-dynamo/dynamo",
+    "Aleph-Alpha/ts-rs",
     "alexpasmantier/television",
     "algesten/ureq",
     "alloy-rs/alloy",
@@ -48,7 +49,6 @@
     "BoundaryML/baml",
     "brave/adblock-rust",
     "BurntSushi/aho-corasick",
-    "bvaisvil/zenith",
     "bytedance/monoio",
     "cachix/devenv",
     "Canop/bacon",
@@ -151,6 +151,7 @@
     "nats-io/nats.rs",
     "neon-bindings/neon",
     "nextest-rs/nextest",
+    "nix-rust/nix",
     "not-fl3/miniquad",
     "notify-rs/notify",
     "nvidia/openshell",

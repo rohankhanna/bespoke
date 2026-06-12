@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1174,
-    "concepts": 742,
-    "observations": 747,
-    "repos": 120,
-    "terms": 746
+    "components": 1181,
+    "concepts": 744,
+    "observations": 749,
+    "repos": 121,
+    "terms": 748
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -99,6 +99,7 @@
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
+    "pugjs/pug",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",

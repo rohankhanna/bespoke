@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 48971,
-    "concepts": 34847,
-    "observations": 34911,
-    "repos": 12594,
-    "terms": 34401
+    "components": 48979,
+    "concepts": 34854,
+    "observations": 34918,
+    "repos": 12601,
+    "terms": 34408
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -1362,6 +1362,7 @@
     "askbudi/roundtable",
     "askonomm/shh",
     "aSleepyTree/EB-Cache",
+    "ASLP-lab/Hum-Dial",
     "ASLP-lab/OSUM",
     "asm89/prettytable-rs",
     "asmvik/skhd",
@@ -3275,6 +3276,7 @@
     "danielrosehill/AI-Dev-Prompts-Example",
     "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
     "danielrosehill/AI-Developer-Notebook",
+    "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Friendly-Badge",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/AI-Interview-Workflow-V2",
@@ -5597,6 +5599,7 @@
     "hcy71o/SC-VITS",
     "hcy71o/SNAC",
     "hcy71o/TransferTTS",
+    "hden/cuid",
     "hden/cuid2",
     "HDETR/H-Deformable-DETR",
     "HDETR/H-Deformable-DETR-mmdet",
@@ -6489,6 +6492,7 @@
     "Jille/raftadmin",
     "JimBuzbee/matter-controller",
     "jimkang/annoy-node",
+    "jimporter/mettle",
     "jin-s13/COCO-WholeBody",
     "jina-ai/auto-gpt-web",
     "jina-ai/clip-as-service",
@@ -7164,6 +7168,7 @@
     "kubeflow/xgboost-operator",
     "kubemod/kubemod",
     "kubernetes-sigs/apiserver-builder-alpha",
+    "kubernetes-sigs/yaml",
     "kubernetes/design-proposals-archive",
     "kubeshop/opentelemetry-demo",
     "Kugaaa/langchain4j-langfuse",
@@ -8815,6 +8820,7 @@
     "NIFTI-Imaging/nifti_clib",
     "NigelOToole/direction-reveal",
     "NightFurySL2001/CJK-character-count",
+    "NightFurySL2001/cjktables",
     "nightmachinery/pyexfiltrator",
     "Nightmare-n/DepthAnyVideo",
     "nightrome/cocostuff",
@@ -10016,6 +10022,7 @@
     "rainx0r/metaworld-algorithms",
     "rajammanabrolu/Q-BERT",
     "rajanadar/VaultSharp",
+    "rake-compiler/rake-compiler",
     "ralexstokes/ethereum-consensus",
     "ralexstokes/mev-rs",
     "ralexstokes/ssz-rs",

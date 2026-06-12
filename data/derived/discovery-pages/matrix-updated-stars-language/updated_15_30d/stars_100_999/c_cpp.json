@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 10,
-    "terms": 36
+    "components": 49,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 12,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "altschuler/imgui-knobs",
     "apache/casbin-cpp",
     "atsushieno/aap-core",
+    "celtera/libremidi",
     "Chuyu-Team/YY-Thunks",
     "DISTRHO/DPF",
     "flagos-ai/FlagCX",
     "google-deepmind/reverb",
     "microsoft/MIDI",
     "mingw-w64/mingw-w64",
+    "ROCm/hipBLAS",
     "ROCm/rocBLAS"
   ]
 }

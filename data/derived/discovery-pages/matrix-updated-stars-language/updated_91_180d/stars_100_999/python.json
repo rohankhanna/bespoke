@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 481,
-    "concepts": 876,
-    "observations": 876,
-    "repos": 229,
-    "terms": 870
+    "components": 499,
+    "concepts": 904,
+    "observations": 904,
+    "repos": 235,
+    "terms": 897
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -30,6 +30,7 @@
     "alonw0/web-asset-generator",
     "altendky/pyqt-tools",
     "AMAP-ML/Tree-GRPO",
+    "amaranth-lang/amaranth-boards",
     "amaranth-lang/amaranth-soc",
     "AMD-AGI/Nitro-E",
     "amd/Quark",
@@ -149,6 +150,7 @@
     "ModelTC/GenRL",
     "MoonshotAI/checkpoint-engine",
     "Mountchicken/Resophy",
+    "mr-fatalyst/fastopenapi",
     "mtkennerly/poetry-dynamic-versioning",
     "multi-swe-bench/multi-swe-bench",
     "multimodal-reasoning-lab/Bagel-Zebra-CoT",
@@ -160,6 +162,7 @@
     "NiltonVolpato/python-progressbar",
     "nixprime/cpsm",
     "NM512/dreamerv3-torch",
+    "NVlabs/GatedDeltaNet",
     "NVlabs/GTRS",
     "NVlabs/OmniVinci",
     "NVlabs/PS3",
@@ -170,6 +173,7 @@
     "OpenMOSS/FRoM-W1",
     "OpenSparseLLMs/MoM",
     "openvpi/SingingVocoders",
+    "Osilly/Vision-DeepResearch",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
     "pinokiofactory/cogstudio",
@@ -190,6 +194,7 @@
     "salesforce/ULIP",
     "SAML-Toolkits/python-saml",
     "SAML-Toolkits/python3-saml",
+    "sarugaku/shellingham",
     "sayakpaul/diffusers-torchao",
     "scottchiefbaker/dool",
     "securefederatedai/openfederatedlearning",
@@ -238,6 +243,7 @@
     "yeyupiaoling/PPASR",
     "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
     "YosysHQ/prjtrellis",
+    "yuliangguo/3D_Lane_Synthetic_Dataset",
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",

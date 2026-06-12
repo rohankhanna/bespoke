@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 32,
+    "components": 35,
     "concepts": 69,
     "observations": 69,
-    "repos": 9,
+    "repos": 10,
     "terms": 62
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "dockur/windows",
     "githubnext/monaspace",
@@ -22,6 +22,7 @@
     "romkatv/powerlevel10k",
     "sindresorhus/pure",
     "sorin-ionescu/prezto",
+    "tj/n",
     "zarazhangrui/frontend-slides"
   ]
 }

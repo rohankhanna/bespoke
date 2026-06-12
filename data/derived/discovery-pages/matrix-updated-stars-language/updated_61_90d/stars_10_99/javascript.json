@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 598,
-    "concepts": 209,
-    "observations": 209,
-    "repos": 50,
-    "terms": 202
+    "components": 592,
+    "concepts": 208,
+    "observations": 208,
+    "repos": 49,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
-    "acemir/CSSOM",
     "AdguardTeam/CodeGuidelines",
     "andylockran/spectral-aws-apigateway-ruleset",
     "angular/domino",

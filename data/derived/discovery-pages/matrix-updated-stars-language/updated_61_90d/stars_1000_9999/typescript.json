@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2292,
-    "concepts": 475,
-    "observations": 476,
-    "repos": 67,
-    "terms": 504
+    "components": 2341,
+    "concepts": 507,
+    "observations": 508,
+    "repos": 69,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
+    "actions/typescript-action",
     "aleclarson/vite-tsconfig-paths",
     "allweonedev/presentation-ai",
     "antfu-collective/vite-ssg",
@@ -53,6 +54,7 @@
     "jamiebrynes7/obsidian-todoist-plugin",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
+    "Kaliiiiiiiiii-Vinyzu/patchright",
     "kirodotdev/Kiro",
     "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",

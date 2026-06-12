@@ -1,21 +1,21 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 3,
-    "observations": 3,
+    "components": 34,
+    "concepts": 5,
+    "observations": 5,
     "repos": 4,
-    "terms": 3
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "drmingdrmer/databend-meta",
     "kleisauke/glib",
     "locize/locize-i18next-vue-example",
-    "starfishmod/bonjour-service"
+    "mayocream/candle"
   ]
 }

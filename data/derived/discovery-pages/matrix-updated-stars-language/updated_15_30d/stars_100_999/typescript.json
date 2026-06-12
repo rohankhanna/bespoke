@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 699,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 19,
-    "terms": 166
+    "components": 607,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 18,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "abaplint/transpiler",
@@ -24,14 +24,13 @@
     "Koenkk/zigbee-herdsman",
     "LuaLS/vscode-lua",
     "Luligu/matterbridge",
-    "Luligu/matterbridge-shelly",
     "Luligu/matterbridge-zigbee2mqtt",
     "matter-js/matter.js",
     "Nerivec/zigbee2mqtt-windfront",
-    "nurikk/zigbee2mqtt-frontend",
     "RiDDiX/home-assistant-matter-hub",
     "safe-fndn/safe-singleton-factory",
-    "wevm/abitype",
-    "Zoo-Code-Org/Zoo-Code"
+    "skilld-dev/skilld",
+    "unplugin/unplugin-imagemin",
+    "wevm/abitype"
   ]
 }

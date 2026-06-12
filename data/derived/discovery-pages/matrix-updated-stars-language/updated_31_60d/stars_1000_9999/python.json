@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3512,
-    "concepts": 3945,
-    "observations": 3957,
-    "repos": 466,
-    "terms": 3939
+    "components": 3485,
+    "concepts": 3920,
+    "observations": 3933,
+    "repos": 463,
+    "terms": 3914
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -220,7 +220,6 @@
     "joke2k/django-environ",
     "JoshData/python-email-validator",
     "jupyter/docker-stacks",
-    "k2-fsa/icefall",
     "Kaliiiiiiiiii-Vinyzu/patchright-python",
     "KellerJordan/modded-nanogpt",
     "KhronosGroup/glTF-Blender-IO",
@@ -259,7 +258,6 @@
     "mbailey/voicemode",
     "meituan-longcat/LongCat-Video",
     "mesonbuild/meson",
-    "meta-pytorch/attention-gym",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
     "mherrmann/helium",
@@ -379,7 +377,6 @@
     "pyro-ppl/numpyro",
     "pytest-dev/pytest-asyncio",
     "pytest-dev/pytest-mock",
-    "PyThaiNLP/pythainlp",
     "python-attrs/attrs",
     "python-trio/trio",
     "python-websockets/websockets",
@@ -404,7 +401,6 @@
     "roboflow/inference",
     "RoboTwin-Platform/RoboTwin",
     "ronf/asyncssh",
-    "rthalley/dnspython",
     "RUC-NLPIR/ARPO",
     "RUC-NLPIR/DeepAgent",
     "sanderland/katrain",
@@ -462,6 +458,7 @@
     "vllm-project/llm-compressor",
     "vllm-project/vllm-omni",
     "vmware/photon",
+    "voicepaw/so-vits-svc-fork",
     "VOICEVOX/voicevox_engine",
     "vwxyzjn/cleanrl",
     "vyperlang/vyper",

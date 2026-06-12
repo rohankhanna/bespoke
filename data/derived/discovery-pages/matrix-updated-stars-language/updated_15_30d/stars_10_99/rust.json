@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 5,
-    "terms": 51
+    "components": 36,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 6,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "amazon-ion/ion-cli",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
-    "lifegpc/msg-tool"
+    "lifegpc/msg-tool",
+    "vaporif/parry-guard"
   ]
 }

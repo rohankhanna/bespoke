@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 5,
-    "terms": 37
+    "components": 11,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "appelmar/gdalcubes",
-    "celtera/libremidi",
     "confluentinc/librdkafka",
-    "ipsilon/evmone",
-    "ROCm/hipBLAS"
+    "ipsilon/evmone"
   ]
 }

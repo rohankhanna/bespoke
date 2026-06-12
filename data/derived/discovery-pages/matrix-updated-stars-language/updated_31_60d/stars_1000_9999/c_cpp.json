@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2274,
-    "concepts": 2375,
-    "observations": 2378,
-    "repos": 288,
-    "terms": 2355
+    "components": 2273,
+    "concepts": 2369,
+    "observations": 2372,
+    "repos": 287,
+    "terms": 2349
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -75,7 +75,6 @@
     "eclipse-sumo/sumo",
     "ElementsProject/lightning",
     "elfmz/far2l",
-    "ericniebler/range-v3",
     "erincatto/box2d",
     "eth-brownie/brownie",
     "facebook/fbthrift",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 55,
-    "concepts": 140,
-    "observations": 141,
-    "repos": 31,
-    "terms": 139
+    "concepts": 146,
+    "observations": 147,
+    "repos": 32,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -38,6 +38,7 @@
     "multiformats/multihash",
     "nico2sh/semtag",
     "nodejs/unofficial-builds",
+    "NVIDIA/DL4AGX",
     "omerxx/tmux-floax",
     "pyenv/pyenv-update",
     "romkatv/zsh-bench",

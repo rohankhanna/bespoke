@@ -3,7 +3,7 @@
     "components": 12,
     "concepts": 12,
     "observations": 12,
-    "repos": 12,
+    "repos": 11,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "1000ch/Sublime-csso",
     "abbhisap/LLM-Council-SAP",
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
-    "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",

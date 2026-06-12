@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 390,
-    "concepts": 459,
-    "observations": 459,
-    "repos": 78,
-    "terms": 456
+    "concepts": 452,
+    "observations": 452,
+    "repos": 77,
+    "terms": 449
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -36,7 +36,6 @@
     "confluentinc/libserdes",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
-    "embeddedartistry/libcpp",
     "f32c/tools",
     "fabmax/PhysX",
     "facebook/fb303",

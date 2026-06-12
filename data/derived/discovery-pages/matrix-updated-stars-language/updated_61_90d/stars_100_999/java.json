@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 21,
-    "terms": 156
+    "components": 71,
+    "concepts": 147,
+    "observations": 147,
+    "repos": 19,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
     "chromiumembedded/java-cef",
-    "Deep-Symmetry/crate-digger",
     "eclipse-buildship/buildship",
     "filip26/titanium-json-ld",
     "fnproject/fdk-java",
@@ -29,7 +28,6 @@
     "jpmml/jpmml-sparkml",
     "kreativekorp/bitsnpicas",
     "mukel/llama3.java",
-    "nayuki/Nayuki-web-published-code",
     "objectbox/objectbox-examples",
     "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",

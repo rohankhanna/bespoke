@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 51,
-    "terms": 166
+    "components": 171,
+    "concepts": 154,
+    "observations": 155,
+    "repos": 49,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
-    "bleichenbacher-daniel/Rooterberg",
     "canonical/ubuntu-security-notices",
     "cbuijs/hagezi",
     "cdxeve/awesome-computer-use-agents",
@@ -35,7 +34,6 @@
     "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
-    "ipshipyard/ipfs-deploy-action",
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",

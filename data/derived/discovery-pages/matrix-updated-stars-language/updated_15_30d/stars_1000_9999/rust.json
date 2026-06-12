@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 9,
-    "terms": 86
+    "components": 111,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 7,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "Aleph-Alpha/ts-rs",
     "apache/casbin-rs",
     "ash-rs/ash",
     "crate-ci/cargo-release",
     "databendlabs/databend",
     "hermit-os/hermit-rs",
     "intentee/paddler",
-    "mayocream/koharu",
-    "nix-rust/nix"
+    "mayocream/koharu"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 222,
-    "observations": 222,
-    "repos": 47,
-    "terms": 225
+    "components": 224,
+    "concepts": 225,
+    "observations": 225,
+    "repos": 50,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -39,6 +39,8 @@
     "gobwas/ws",
     "golang/oauth2",
     "google/go-cmp",
+    "hashicorp/go-metrics",
+    "hashicorp/memberlist",
     "instrumenta/kubeval",
     "isaacphi/mcp-language-server",
     "jhump/protoreflect",
@@ -60,6 +62,7 @@
     "spf13/pflag",
     "tidwall/btree",
     "tmc/langchaingo",
-    "uber-go/mock"
+    "uber-go/mock",
+    "xtaci/smux"
   ]
 }

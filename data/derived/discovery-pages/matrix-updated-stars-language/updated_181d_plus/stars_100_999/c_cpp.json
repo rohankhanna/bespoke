@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 707,
-    "concepts": 1288,
-    "observations": 1291,
-    "repos": 389,
-    "terms": 1269
+    "components": 710,
+    "concepts": 1291,
+    "observations": 1294,
+    "repos": 390,
+    "terms": 1272
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -210,6 +210,7 @@
     "jherico/VulkanExamples",
     "jiixyj/libebur128",
     "jiixyj/loudness-scanner",
+    "jimporter/mettle",
     "jk-jeon/dragonbox",
     "jkrijthe/Rtsne",
     "jlblancoc/suitesparse-metis-for-windows",

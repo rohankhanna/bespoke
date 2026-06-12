@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15727,
-    "concepts": 14279,
-    "observations": 14307,
-    "repos": 4675,
-    "terms": 14052
+    "components": 15735,
+    "concepts": 14285,
+    "observations": 14313,
+    "repos": 4678,
+    "terms": 14058
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -2367,6 +2367,7 @@
     "jiixyj/libebur128",
     "jiixyj/loudness-scanner",
     "Jille/raft-grpc-example",
+    "jimporter/mettle",
     "jin-s13/COCO-WholeBody",
     "jina-ai/auto-gpt-web",
     "jind11/MedQA",
@@ -2608,6 +2609,7 @@
     "kubeflow/pytorch-operator",
     "kubemod/kubemod",
     "kubernetes-sigs/apiserver-builder-alpha",
+    "kubernetes-sigs/yaml",
     "kubernetes/design-proposals-archive",
     "kuielab/mdx-net",
     "kuielab/mdx-net-submission",
@@ -3711,6 +3713,7 @@
     "rails/sprockets-rails",
     "rainbend/frp-notify",
     "rajanadar/VaultSharp",
+    "rake-compiler/rake-compiler",
     "ralexstokes/ethereum-consensus",
     "ralexstokes/mev-rs",
     "ralexstokes/ssz-rs",

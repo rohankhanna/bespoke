@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 1,
-    "terms": 20
+    "components": 25,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 2,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "microsoft/PowerToys"
+    "microsoft/PowerToys",
+    "ohmyzsh/ohmyzsh"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 463,
-    "concepts": 512,
-    "observations": 512,
-    "repos": 69,
-    "terms": 510
+    "components": 467,
+    "concepts": 517,
+    "observations": 517,
+    "repos": 70,
+    "terms": 515
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -32,6 +32,7 @@
     "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lemminx/lemminx",
+    "eclipse-lsp4j/lsp4j",
     "fabmax/physx-jni",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",

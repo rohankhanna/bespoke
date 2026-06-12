@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2227,
-    "concepts": 1283,
-    "observations": 1287,
-    "repos": 311,
-    "terms": 1285
+    "components": 2277,
+    "concepts": 1269,
+    "observations": 1273,
+    "repos": 309,
+    "terms": 1271
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -56,7 +56,6 @@
     "atsushieno/mugene-ng",
     "atsushieno/resident-midi-keyboard",
     "avikeid2007/KaiROS-AI",
-    "awnist/cson-loader",
     "aws-otel/aws-otel.github.io",
     "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
@@ -99,7 +98,6 @@
     "dcloudio/hello-uts",
     "DevEnterpriseSoftware/patchright-dotnet",
     "dinosaure/blaze",
-    "docusealco/rllama",
     "DOI-USGS/ncdfgeom",
     "dotnet/arcade-services",
     "dotnet/wpf-test",
@@ -259,7 +257,7 @@
     "PKU-YuanGroup/Helios-Page",
     "plotly/graphing-library-docs",
     "pq-code-package/mldsa-native",
-    "ptsochantaris/Gladys",
+    "processing/processing-website",
     "r-lib/pkgload",
     "rcasia/neotest-java",
     "red-data-tools/red-datasets",

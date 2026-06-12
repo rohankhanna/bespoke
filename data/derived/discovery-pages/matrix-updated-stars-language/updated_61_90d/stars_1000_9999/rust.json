@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 272,
-    "observations": 277,
-    "repos": 52,
-    "terms": 270
+    "components": 336,
+    "concepts": 281,
+    "observations": 286,
+    "repos": 53,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
     "bitshifter/glam-rs",
     "BurntSushi/quickcheck",
+    "bvaisvil/zenith",
     "chronotope/chrono",
     "crossterm-rs/crossterm",
     "David-OConnor/pyflow",

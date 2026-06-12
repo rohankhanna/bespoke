@@ -3,7 +3,7 @@
     "components": 180,
     "concepts": 129,
     "observations": 129,
-    "repos": 85,
+    "repos": 86,
     "terms": 129
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -36,6 +36,7 @@
     "dani-maarouf/alembic_utils",
     "danielrosehill/AI-Agent-Ideation-Agent",
     "danielrosehill/AI-Assistant-Ideator",
+    "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/All-About-MCP",
     "danielrosehill/better-hashnode-backups",
     "danielrosehill/Context-Cruncher",

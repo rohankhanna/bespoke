@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 11,
-    "terms": 132
+    "components": 160,
+    "concepts": 209,
+    "observations": 211,
+    "repos": 17,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,24 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "datalab-to/surya",
+    "fastapi/fastapi",
     "hiyouga/LlamaFactory",
     "huggingface/pytorch-image-models",
+    "huggingface/sentence-transformers",
+    "Lightning-AI/litgpt",
+    "Lightning-AI/pytorch-lightning",
     "oobabooga/textgen",
     "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",
     "pyg-team/pytorch_geometric",
     "python-poetry/poetry",
     "TEN-framework/ten-framework",
-    "unifyai/ivy"
+    "ungoogled-software/ungoogled-chromium",
+    "unifyai/ivy",
+    "zhayujie/CowAgent"
   ]
 }

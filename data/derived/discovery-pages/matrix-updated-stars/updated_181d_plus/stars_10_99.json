@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 12152,
-    "concepts": 7009,
-    "observations": 7026,
-    "repos": 3318,
-    "terms": 6956
+    "concepts": 7010,
+    "observations": 7027,
+    "repos": 3320,
+    "terms": 6957
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0nutation/SLMTokBench",
@@ -444,6 +444,7 @@
     "ashvardanian/usearch-images",
     "ASK-03/Reverse-Chain",
     "askonomm/shh",
+    "ASLP-lab/Hum-Dial",
     "aspect-build/rules_buildx",
     "astanic/crafter-ood",
     "astra-vision/LMSCNet",
@@ -2401,6 +2402,7 @@
     "NicoG60/OscMackieControl",
     "NielsRogge/tutorials",
     "NIFTI-Imaging/nifti_clib",
+    "NightFurySL2001/cjktables",
     "nikhilvyas/modded-nanogpt-SOAP",
     "nikitabobko/brew-install-path",
     "nikvdp/nvim-lsp-config",

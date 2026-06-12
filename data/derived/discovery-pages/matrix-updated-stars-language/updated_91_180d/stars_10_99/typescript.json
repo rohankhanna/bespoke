@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 815,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 45,
-    "terms": 124
+    "components": 821,
+    "concepts": 127,
+    "observations": 127,
+    "repos": 46,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -51,6 +51,7 @@
     "omril321/automated-notebooklm",
     "opensearch-project/opentelemetry-demo",
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
+    "pkgxdev/brewkit",
     "pkgxdev/dev",
     "pkgxdev/pkgo",
     "SchwarzIT/api-linter-rules",

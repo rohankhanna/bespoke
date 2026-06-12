@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-06-11T08:14:09.272122+00:00`
+Generated at: `2026-06-12T06:06:25.576495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
+- repos: 4
 - terms: 17
 - components: 36
 - concepts: 17
@@ -30,7 +30,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GitoxideLabs/cargo-smart-release](https://github.com/GitoxideLabs/cargo-smart-release) | 119 | 2026-05-29T21:48:07Z | Rust | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [servo/stylo](https://github.com/servo/stylo) | 281 | 2026-05-29T14:37:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 459 | 2026-05-29T11:32:47Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [lbcb-sci/herro](https://github.com/lbcb-sci/herro) | 253 | 2026-05-29T03:36:12Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -39,5 +38,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EmmyLuaLs/emmylua-analyzer-rust](https://github.com/EmmyLuaLs/emmylua-analyzer-rust) | 459 | 2026-05-29T11:32:47Z | Rust | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [attackgoat/vk-graph](https://github.com/attackgoat/vk-graph) | 337 | 2026-05-30T10:01:01Z | Rust | Infrastructure/tooling | 7 | 5 | 7 | 8 |
 | [servo/stylo](https://github.com/servo/stylo) | 281 | 2026-05-29T14:37:02Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [lbcb-sci/herro](https://github.com/lbcb-sci/herro) | 253 | 2026-05-29T03:36:12Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [GitoxideLabs/cargo-smart-release](https://github.com/GitoxideLabs/cargo-smart-release) | 119 | 2026-05-29T21:48:07Z | Rust | Infrastructure/tooling | 4 | 18 | 4 | 4 |

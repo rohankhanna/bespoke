@@ -3,7 +3,7 @@
     "components": 144,
     "concepts": 44,
     "observations": 44,
-    "repos": 21,
+    "repos": 20,
     "terms": 52
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
@@ -20,7 +20,6 @@
     "databendlabs/databend-base",
     "datafuse-extras/lance",
     "datafuse-extras/orc-rust",
-    "eigenwallet/arti",
     "fulmicoton-dd/datasketches-rust",
     "guoqingbao/candle",
     "hyper-mcp-rs/arxiv-plugin",

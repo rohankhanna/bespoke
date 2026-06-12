@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Python
 
-Generated at: `2026-06-11T08:14:09.272122+00:00`
+Generated at: `2026-06-12T06:06:25.576495+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
+- repos: 11
 - terms: 12
 - components: 12
 - concepts: 12
@@ -37,7 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/N8N-Workflows-Index](https://github.com/danielrosehill/N8N-Workflows-Index) | 0 | 2025-12-25T17:16:48Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
-| [danielrosehill/AI-Developers-Career-Planning-Notes](https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes) | 0 | 2025-12-13T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -54,4 +53,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/N8N-Workflows-Index](https://github.com/danielrosehill/N8N-Workflows-Index) | 0 | 2025-12-25T17:16:48Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
-| [danielrosehill/AI-Developers-Career-Planning-Notes](https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes) | 0 | 2025-12-13T17:14:34Z | Python | Unknown | 0 | 0 | 0 | 0 |

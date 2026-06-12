@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1365,
-    "concepts": 1376,
-    "observations": 1379,
-    "repos": 241,
-    "terms": 1368
+    "components": 1358,
+    "concepts": 1371,
+    "observations": 1374,
+    "repos": 240,
+    "terms": 1363
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -115,7 +115,6 @@
     "hku-mars/FAST-Calib",
     "HybridRobotics/motion_tracking_controller",
     "iamaisim/ProjectAirSim",
-    "ifduyue/python-xxhash",
     "intel/intel-graphics-compiler",
     "intel/intel-ipsec-mb",
     "intel/llm-scaler",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 49,
-    "observations": 49,
+    "components": 110,
+    "concepts": 63,
+    "observations": 63,
     "repos": 9,
-    "terms": 49
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "browniebroke/pypackage-template",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
     "karafka/example-apps",
+    "lumen-oss/luarocks-tag-release",
     "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
-    "processing/processing-website",
     "python-poetry/website"
   ]
 }

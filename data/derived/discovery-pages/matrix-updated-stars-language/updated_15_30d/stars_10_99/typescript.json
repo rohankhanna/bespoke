@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 3,
-    "terms": 8
+    "components": 112,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "ogx-ai/ogx-client-typescript",
     "skilld-dev/retriv",
+    "TrigenSoftware/simple-release",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 5,
-    "terms": 7
+    "components": 4,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 4,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "baicai-1145/GPT-SoVITS-CPUFast",
     "google-marketing-solutions/ariel",
     "intel-staging/text-generation-webui",
-    "mesh-iit/cad-libraries",
-    "version-fox/vfox-plugins"
+    "mesh-iit/cad-libraries"
   ]
 }

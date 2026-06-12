@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 319,
-    "concepts": 439,
-    "observations": 440,
-    "repos": 81,
-    "terms": 432
+    "components": 323,
+    "concepts": 462,
+    "observations": 463,
+    "repos": 84,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
     "akheron/jansson",
+    "Alex313031/thorium",
     "arrayfire/arrayfire",
     "ashvardanian/less_slow.cpp",
     "attractivechaos/klib",
@@ -71,6 +72,7 @@
     "microsoft/onnxruntime-inference-examples",
     "mitsuba-renderer/nanogui",
     "mmorise/World",
+    "mutouyun/cpp-ipc",
     "naelstrof/maim",
     "NixOS/patchelf",
     "nmoehrle/mvs-texturing",
@@ -85,6 +87,7 @@
     "RobertBeckebans/RBDOOM-3-BFG",
     "sammycage/lunasvg",
     "snapcast/snapcast",
+    "stevengj/nlopt",
     "svenstaro/rofi-calc",
     "TEN-framework/ten-vad",
     "TheAssassin/AppImageLauncher",

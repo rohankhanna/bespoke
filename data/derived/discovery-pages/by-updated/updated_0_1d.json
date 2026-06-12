@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 0,
+    "components": 10,
     "concepts": 0,
     "observations": 0,
     "repos": 1,
@@ -10,8 +10,8 @@
   "filters": {
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "git-up/libgit2"
+    "4catalyzer/javascript"
   ]
 }

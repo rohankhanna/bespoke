@@ -3,7 +3,7 @@
     "components": 1349,
     "concepts": 558,
     "observations": 560,
-    "repos": 456,
+    "repos": 457,
     "terms": 558
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -140,6 +140,7 @@
     "danielrosehill/AI-Agent-Ideation-Agent",
     "danielrosehill/AI-Agent-Virtual-Panel-Configs",
     "danielrosehill/AI-Assistant-Ideator",
+    "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Friendly-Badge",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/All-About-MCP",

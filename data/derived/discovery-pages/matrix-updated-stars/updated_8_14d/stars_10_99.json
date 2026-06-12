@@ -1,34 +1,26 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 17,
-    "terms": 95
+    "components": 80,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 9,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
-    "4catalyzer/javascript",
     "alloy-rs/evm",
     "cloudfoundry/bosh-google-cpi-release",
-    "edge-classic/EDGE-classic",
-    "FAIR-IMPACT/MOD",
     "geocompx/docker",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
-    "joshsymonds/cc-tools",
-    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "mongodb/winkerberos",
     "mozilla-ai/otari",
     "nuxt-modules/emotion",
-    "pivotal/credhub-release",
-    "TrigenSoftware/simple-release",
-    "vaporif/parry-guard"
+    "pivotal/credhub-release"
   ]
 }

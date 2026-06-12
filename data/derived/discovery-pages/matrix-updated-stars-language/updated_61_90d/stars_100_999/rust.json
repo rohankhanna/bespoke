@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 233,
-    "observations": 237,
-    "repos": 51,
-    "terms": 232
+    "components": 271,
+    "concepts": 237,
+    "observations": 242,
+    "repos": 53,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-12T06:06:25.576495+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
+    "azdavis/millet",
     "cedar-policy/cedar-examples",
     "cpmech/russell",
     "cryscan/web-rwkv",
@@ -36,11 +37,12 @@
     "filecoin-project/bellperson",
     "firstbatchxyz/dkn-compute-node",
     "getsentry/rust-sourcemap",
-    "gfx-rs/rspirv",
     "gimli-rs/addr2line",
     "hsivonen/chardetng",
+    "in-toto/attestation",
     "iqlusioninc/abscissa",
     "iqlusioninc/tmkms",
+    "kaj/ructe",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "mitsuhiko/similar-asserts",
@@ -49,6 +51,7 @@
     "Nugine/simd",
     "PistonDevelopers/glfw-rs",
     "posit-dev/air",
+    "prove-rs/z3.rs",
     "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
     "RazrFalcon/memmap2-rs",
@@ -63,7 +66,6 @@
     "saphyr-rs/saphyr",
     "servo/rust-cssparser",
     "sparsemat/sprs",
-    "typst/comemo",
     "YaLTeR/wl-clipboard-rs"
   ]
 }
