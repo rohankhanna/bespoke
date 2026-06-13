@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 2900,
-    "concepts": 1575,
-    "observations": 1581,
-    "repos": 594,
-    "terms": 1579
+    "components": 2915,
+    "concepts": 1597,
+    "observations": 1604,
+    "repos": 598,
+    "terms": 1601
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xBigBoss/vscode-bootty",
     "1ilkhamov/opencode-hermes-multiagent",
+    "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tmux-tea",
@@ -108,6 +109,7 @@
     "az1326/advisor-models",
     "babashka/sci.configs",
     "baerwang/openapi-rs",
+    "bartventer/httpcache",
     "bazelbuild/java_tools",
     "beehive-lab/kfusion-tornadovm",
     "benomahony/oil-git.nvim",
@@ -422,6 +424,7 @@
     "lumen-oss/rocks-git.nvim",
     "Lynxe-public/Lynxe-public-prompts",
     "marcindulak/stt-mcp-server-linux",
+    "marko-js/examples",
     "mesh-iit/creo2urdf",
     "mfussenegger/nlua",
     "MichaelHatherly/REPLicant.jl",
@@ -488,6 +491,7 @@
     "pkgxdev/brewkit",
     "pkgxdev/dev",
     "pkgxdev/pkgo",
+    "psmux/psnet",
     "quarkiverse/quarkiverse",
     "r-spatial/lwgeom",
     "r-spatial/s2",
@@ -500,6 +504,7 @@
     "Rezonality/zing",
     "Rhoban/onshape-to-robot-examples",
     "richardodliu/OpenCodeEval",
+    "Rob--W/proxy-from-env",
     "robotology/community",
     "robotology/icub-models",
     "robotology/mesh-support",
@@ -551,7 +556,6 @@
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
     "talieisin/britfix",
-    "talk-flow/Lynxe-public-usecase",
     "Taritsyn/LibSassHost",
     "tarsius/llama",
     "tc39/proposal-import-bytes",

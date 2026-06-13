@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 9,
-    "observations": 9,
+    "components": 15,
+    "concepts": 16,
+    "observations": 16,
     "repos": 1,
-    "terms": 9
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-27T08:59:49.396739+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
-    "fatedier/frp"
+    "ollama/ollama"
   ]
 }

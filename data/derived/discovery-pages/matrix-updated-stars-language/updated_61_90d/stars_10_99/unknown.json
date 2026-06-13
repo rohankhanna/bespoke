@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 27,
-    "terms": 43
+    "components": 31,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 30,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -24,17 +24,20 @@
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
     "bpftrace/user-tools",
+    "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "collective/awesome-volto",
     "CommunitySpecification/Community_Specification",
     "cta-wave/WMAS",
     "dragonflyoss/community",
+    "eigenfoundation/elips",
     "getsentry/.github",
     "grpc/grpc-community",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
     "ithiria894/awesome-claude-code-hooks",
-    "marko-js/examples",
+    "jakoch/rasterizers",
+    "jakoch/vulkan-sdk-arm",
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
     "operator-framework/community",

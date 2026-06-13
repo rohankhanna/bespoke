@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 1,
-    "terms": 19
+    "components": 35,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 2,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-04T08:05:21.662938+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
-    "huggingface/transformers"
+    "langchain-ai/langchain",
+    "langflow-ai/langflow"
   ]
 }

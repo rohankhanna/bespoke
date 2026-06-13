@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 36,
-    "terms": 112
+    "components": 180,
+    "concepts": 111,
+    "observations": 111,
+    "repos": 35,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -24,7 +24,6 @@
     "cloudfoundry/cc-uploader",
     "cloudfoundry/runtime-ci",
     "cosmos/rosetta",
-    "cpu/wycheproof",
     "datachainlab/lcp-go",
     "dwyl/learn-go",
     "energye/designer",

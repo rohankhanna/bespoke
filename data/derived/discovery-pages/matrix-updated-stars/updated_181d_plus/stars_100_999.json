@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15735,
-    "concepts": 14285,
-    "observations": 14313,
-    "repos": 4678,
-    "terms": 14058
+    "components": 15767,
+    "concepts": 14298,
+    "observations": 14326,
+    "repos": 4683,
+    "terms": 14071
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -673,6 +673,7 @@
     "bincrafters/community",
     "Bing-su/dddetailer",
     "biod/sambamba",
+    "bioinf-jku/TTUR",
     "birkett/srvany-ng",
     "bitfield/gotestdox",
     "bitnami/kube-libsonnet",
@@ -981,6 +982,7 @@
     "cloudfoundry/diego-design-notes",
     "cloudnativeapp/charts",
     "cloudwego/community",
+    "cloudwego/hertz-examples",
     "clovaai/cord",
     "clovaai/generative-evaluation-prdc",
     "clovaai/rebias",
@@ -2533,6 +2535,7 @@
     "kennethreitz/requests",
     "KentoNishi/torch-pitch-shift",
     "keonlee9420/DiffSinger",
+    "kepano/obsidian-hider",
     "kepano/obsidian-minimal-publish",
     "kernelsauce/turbo",
     "kesla/node-snappy",
@@ -3218,6 +3221,7 @@
     "MY1L/Unicode",
     "mymarilyn/aioch",
     "MyoHub/myoconverter",
+    "Myriad-Dreamin/shiroa",
     "myrjola/diminish.el",
     "mysticatea/eslint-plugin-node",
     "mzdluo123/MiraiAndroid",
@@ -4300,6 +4304,7 @@
     "ttlns/Selenium-Driverless",
     "TTPlanetPig/Comfyui_JC2",
     "TTPlanetPig/Comfyui_Object_Migration",
+    "tulerfeng/Video-R1",
     "tunib-ai/parallelformers",
     "turboderp-org/exui",
     "turbofish-org/merk",

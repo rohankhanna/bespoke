@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1056,
-    "concepts": 922,
-    "observations": 924,
-    "repos": 237,
-    "terms": 917
+    "components": 1038,
+    "concepts": 917,
+    "observations": 919,
+    "repos": 235,
+    "terms": 912
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -52,7 +52,6 @@
     "benbalter/jekyll-include-cache",
     "bfrg/vim-c-cpp-modern",
     "bhauman/rebel-readline",
-    "bioinf-jku/TTUR",
     "BrunoBonacci/mulog",
     "caddyserver/caddy-docker",
     "chakravala/Grassmann.jl",
@@ -173,7 +172,6 @@
     "mfussenegger/nvim-dap-python",
     "microsoft/botbuilder-dotnet",
     "microsoft/microsoft-performance-toolkit-sdk",
-    "Myriad-Dreamin/shiroa",
     "Nek5000/Nek5000",
     "nghorbani/human_body_prior",
     "nim-lang/vscode-nim",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 31,
-    "terms": 152
+    "components": 223,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 38,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,27 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
+    "AI-Hypercomputer/maxdiffusion",
     "AMD-AGI/Nitro-1",
     "amsehili/auditok",
     "aristoteleo/PantheonOS",
     "clearml/clearml-agent",
+    "Comfy-Org/comfy-cli",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
     "gbionics/adam",
     "google-deepmind/xmanager",
     "googlefonts/roboto-3-classic",
+    "googlefonts/ufo2ft",
     "GStreamer/cerbero",
     "hluaguo/learn-faster-kit",
     "Jamorim-esss/pytest-rich",
+    "jupyter-server/jupyter_server",
+    "machinewrapped/llm-subtrans",
     "NCAS-CMS/pyfive",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
@@ -35,6 +41,7 @@
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
     "python-poetry/poetry-plugin-export",
+    "readthedocs/commonmark.py",
     "satan53x/SExtractor",
     "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",

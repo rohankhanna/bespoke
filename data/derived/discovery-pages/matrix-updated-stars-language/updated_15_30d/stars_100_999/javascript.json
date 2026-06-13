@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 25
+    "components": 141,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 8,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "all-contributors/app",
+    "aws-cloudformation/cfn-lint-visual-studio-code",
+    "beve-org/beve",
     "browserslist/caniuse-lite",
+    "digitalocean/openapi",
+    "GDevelopApp/GDevelop-extensions",
     "jupyter/nbclassic",
     "mafintosh/streamx"
   ]

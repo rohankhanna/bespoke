@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 178,
-    "observations": 180,
-    "repos": 26,
-    "terms": 172
+    "components": 175,
+    "concepts": 218,
+    "observations": 220,
+    "repos": 32,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
+    "adambard/learnxinyminutes-docs",
     "AppFlowy-IO/AppFlowy",
+    "Cysharp/UniTask",
     "datawhalechina/happy-llm",
     "devicons/devicon",
     "facebookresearch/dinov2",
@@ -34,11 +36,15 @@
     "Kong/kong",
     "LazyVim/LazyVim",
     "microsoft/language-server-protocol",
+    "microsoft/OmniParser",
+    "mikepenz/MaterialDrawer",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "reasonml/reason",
     "ryanoasis/nerd-fonts",
+    "Seldaek/monolog",
     "Swordfish90/cool-retro-term",
-    "TA-Lib/ta-lib-python"
+    "TA-Lib/ta-lib-python",
+    "tonsky/FiraCode"
   ]
 }

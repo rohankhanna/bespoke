@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 143,
-    "concepts": 186,
-    "observations": 187,
-    "repos": 16,
-    "terms": 182
+    "concepts": 182,
+    "observations": 183,
+    "repos": 15,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "89luca89/distrobox",
     "a2aproject/A2A",
     "acmesh-official/acme.sh",
-    "agarrharr/awesome-cli-apps",
     "BtbN/FFmpeg-Builds",
     "DaoCloud/public-image-mirror",
     "dokku/dokku",

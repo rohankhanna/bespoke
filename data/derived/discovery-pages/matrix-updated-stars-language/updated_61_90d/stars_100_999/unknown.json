@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 31,
-    "terms": 105
+    "components": 27,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 35,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "adoptium/adoptium",
@@ -22,10 +22,12 @@
     "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
+    "antonbabenko/terraform-aws-devops",
     "apple/device-management",
     "astro-han/karpathy-llm-wiki",
     "attack68/rateslib",
     "cncf/artwork",
+    "cosmos/awesome-cosmos",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
     "filecoin-project/community",
@@ -33,6 +35,7 @@
     "grpc/proposal",
     "hagezi/dns-servers",
     "helm/community",
+    "integrations/microsoft-teams",
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "lxgw/LxgwZhenKai",
@@ -43,6 +46,7 @@
     "reactwg/react-native-releases",
     "revfactory/harness-100",
     "scott0107000/BoutiqueBitmap7x7",
+    "sedyh/awesome-ebitengine",
     "tc39/how-we-work",
     "web-platform-tests/rfcs"
   ]

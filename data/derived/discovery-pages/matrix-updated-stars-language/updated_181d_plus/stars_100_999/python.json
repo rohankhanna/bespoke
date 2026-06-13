@@ -3,7 +3,7 @@
     "components": 1278,
     "concepts": 5688,
     "observations": 5693,
-    "repos": 1899,
+    "repos": 1900,
     "terms": 5520
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1717,6 +1717,7 @@
     "ttlns/Selenium-Driverless",
     "TTPlanetPig/Comfyui_JC2",
     "TTPlanetPig/Comfyui_Object_Migration",
+    "tulerfeng/Video-R1",
     "tunib-ai/parallelformers",
     "tusen-ai/RangeDet",
     "twardoch/fonttools-opentype-feature-freezer",

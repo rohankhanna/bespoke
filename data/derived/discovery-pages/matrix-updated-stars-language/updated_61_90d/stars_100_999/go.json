@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 332,
-    "concepts": 253,
-    "observations": 253,
-    "repos": 48,
-    "terms": 251
+    "components": 378,
+    "concepts": 289,
+    "observations": 289,
+    "repos": 54,
+    "terms": 287
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "adrg/xdg",
+    "andybalholm/brotli",
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
@@ -23,9 +24,11 @@
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
     "cedar-policy/cedar-go",
+    "charmbracelet/colorprofile",
     "ChristopherHX/github-act-runner",
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
+    "coder/code-marketplace",
     "connectrpc/validate-go",
     "cosmos/iavl",
     "docker-library/bashbrew",
@@ -38,12 +41,15 @@
     "google/trillian-examples",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
+    "hashicorp/errwrap",
     "hashicorp/go-discover",
     "hashicorp/hello-vault-go",
+    "hazelcast/hazelcast-go-client",
     "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "JupiterRider/purego-sdl3",
+    "kubeflow/mpi-operator",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",
     "kubernetes-sigs/kubetest2",

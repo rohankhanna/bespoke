@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 277,
-    "concepts": 289,
-    "observations": 290,
-    "repos": 49,
-    "terms": 292
+    "components": 308,
+    "concepts": 356,
+    "observations": 358,
+    "repos": 55,
+    "terms": 360
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
     "666ghj/MiroFish",
+    "alchaincyf/nuwa-skill",
+    "alirezarezvani/claude-skills",
     "allenai/olmocr",
     "chriskiehl/Gooey",
     "cookiecutter/cookiecutter",
     "danielgatis/rembg",
+    "dask/dask",
     "deepinsight/insightface",
     "delgan/loguru",
     "EleutherAI/lm-evaluation-harness",
@@ -34,6 +37,7 @@
     "google/python-fire",
     "google/yapf",
     "gruns/icecream",
+    "hpcaitech/ColossalAI",
     "hpcaitech/Open-Sora",
     "Huanshere/VideoLingo",
     "huggingface/open-r1",
@@ -43,7 +47,9 @@
     "letta-ai/letta",
     "localstack/localstack",
     "m-bain/whisperX",
+    "magic-wormhole/magic-wormhole",
     "microsoft/playwright-python",
+    "mingrammer/diagrams",
     "openai/gpt-oss",
     "openai/gym",
     "openai/tiktoken",

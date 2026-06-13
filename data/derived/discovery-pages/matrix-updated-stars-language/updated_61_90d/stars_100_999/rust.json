@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 276,
-    "concepts": 241,
-    "observations": 246,
-    "repos": 54,
-    "terms": 240
+    "components": 315,
+    "concepts": 270,
+    "observations": 275,
+    "repos": 59,
+    "terms": 269
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
+    "alex/rust-asn1",
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
     "azdavis/millet",
     "cedar-policy/cedar-examples",
+    "cosmos/ics23",
     "cpmech/russell",
     "cryscan/web-rwkv",
     "ctz/graviola",
@@ -38,6 +40,7 @@
     "firstbatchxyz/dkn-compute-node",
     "getsentry/rust-sourcemap",
     "gimli-rs/addr2line",
+    "gjtorikian/commonmarker",
     "hsivonen/chardetng",
     "in-toto/attestation",
     "iqlusioninc/abscissa",
@@ -54,6 +57,7 @@
     "prove-rs/z3.rs",
     "public-awesome/cw-nfts",
     "quickwit-oss/tantivy-cli",
+    "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",
     "rust-analyzer/rowan",
     "rust-lang/crater",
@@ -67,6 +71,7 @@
     "saphyr-rs/saphyr",
     "servo/rust-cssparser",
     "sparsemat/sprs",
+    "Traverse-Research/gpu-allocator",
     "YaLTeR/wl-clipboard-rs"
   ]
 }

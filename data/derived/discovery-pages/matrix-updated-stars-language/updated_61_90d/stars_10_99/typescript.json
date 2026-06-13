@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 804,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 36,
-    "terms": 132
+    "components": 844,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 37,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -33,6 +33,7 @@
     "haskell/ghcup-setup",
     "holochain/kangaroo-electron",
     "hyparam/demos",
+    "ioBroker/ioBroker.matter",
     "ipfs/ipld-explorer-components",
     "jerseycheese/narraitor",
     "joshwooding/vite-plugin-react-docgen-typescript",

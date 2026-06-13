@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2354,
-    "concepts": 520,
-    "observations": 521,
-    "repos": 70,
-    "terms": 549
+    "components": 2485,
+    "concepts": 564,
+    "observations": 565,
+    "repos": 75,
+    "terms": 593
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
@@ -28,11 +28,14 @@
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
+    "capricorn86/happy-dom",
     "cawa-93/vite-electron-builder",
     "changesets/action",
+    "coder/ghostty-web",
     "ekalinin/sitemap.js",
     "electron/windows-installer",
     "ElMassimo/iles",
+    "emmetio/emmet",
     "enisdenjo/graphql-ws",
     "ethers-io/ethers.js",
     "frenic/csstype",
@@ -41,6 +44,7 @@
     "golang/vscode-go",
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
+    "googleapis/release-please",
     "gpac/mp4box.js",
     "graffle-js/graffle",
     "graphql-hive/graphql-config",
@@ -53,6 +57,7 @@
     "isaacs/node-glob",
     "itgalaxy/favicons",
     "jamiebrynes7/obsidian-todoist-plugin",
+    "jaredwray/keyv",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "Kaliiiiiiiiii-Vinyzu/patchright",

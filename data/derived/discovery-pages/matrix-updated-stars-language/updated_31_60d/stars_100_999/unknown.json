@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 293,
-    "observations": 294,
-    "repos": 75,
-    "terms": 293
+    "components": 138,
+    "concepts": 273,
+    "observations": 274,
+    "repos": 71,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -20,7 +20,6 @@
     "adoptium/temurin21-binaries",
     "ailev/fpf",
     "antonbabenko/awesome-terraform-compliance",
-    "antonbabenko/terraform-aws-devops",
     "apappascs/mcp-servers-hub",
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
@@ -30,7 +29,6 @@
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "cloudflare/skills",
-    "cosmos/awesome-cosmos",
     "CVEProject/automation-working-group",
     "deepset-ai/haystack-integrations",
     "django/deps",
@@ -53,7 +51,6 @@
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
     "ietf-tools/.github",
-    "integrations/microsoft-teams",
     "ipfs-examples/helia-examples",
     "kitknox/rootshell",
     "kubernetes-sigs/krew-index",
@@ -79,7 +76,6 @@
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "SamurAIGPT/awesome-openclaw",
-    "sedyh/awesome-ebitengine",
     "servo/project",
     "smithy-lang/awesome-smithy",
     "stripe/openapi",

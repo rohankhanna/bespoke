@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1015,
-    "concepts": 596,
-    "observations": 597,
-    "repos": 264,
-    "terms": 600
+    "components": 962,
+    "concepts": 592,
+    "observations": 593,
+    "repos": 262,
+    "terms": 596
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -99,7 +99,6 @@
     "cpojer/js-codemod",
     "CROSS-signature/CROSS-lib-oqs",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
-    "danielrosehill/AI-Model-Manager",
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Bug-Catcher",
@@ -195,7 +194,6 @@
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
     "mozilla/midir",
-    "Myriad-Dreamin/typst",
     "near/near-abi-client-rs",
     "near/near-abi-rs",
     "neuroverseos/neuroverseos-openclaw-governance",
@@ -216,13 +214,13 @@
     "qinwang-ai/PolypsAlign",
     "Qiuner/isometric-contributions-plus",
     "qiuyu96/CoDeF",
+    "radian-software/gnu-elpa-mirror",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
     "redis-developer/redis-starter-csharp",
     "redis-developer/redis-starter-go",
     "redis-developer/redis-starter-java",
     "redis/go-redis-entraid",
     "REditorSupport/vscode-R-syntax",
-    "retracedhq/logs-viewer",
     "richgel999/junkdrawer",
     "robbiespeed/metron",
     "RobertBeckebans/DOOM-3",

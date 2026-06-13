@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2430,
-    "concepts": 1757,
-    "observations": 1764,
-    "repos": 227,
-    "terms": 1764
+    "components": 2375,
+    "concepts": 1731,
+    "observations": 1736,
+    "repos": 220,
+    "terms": 1738
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -49,12 +49,10 @@
     "BoundaryML/baml",
     "brave/adblock-rust",
     "BurntSushi/aho-corasick",
-    "bytedance/monoio",
     "cachix/devenv",
     "Canop/bacon",
     "cargo-bins/cargo-binstall",
     "cargo-generate/cargo-generate",
-    "cberner/fuser",
     "ccbrown/iocraft",
     "cedar-policy/cedar",
     "chelsea0x3b/cudarc",
@@ -114,7 +112,6 @@
     "jni-rs/jni-rs",
     "johnnymorganz/stylua",
     "jonhoo/fantoccini",
-    "jonhoo/inferno",
     "josh-project/josh",
     "jsr-io/jsr",
     "JuliaLang/juliaup",
@@ -129,7 +126,6 @@
     "lance-format/lance",
     "latex-lsp/texlab",
     "libp2p/rust-libp2p",
-    "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
     "maciejhirsz/logos",
     "MaterializeInc/materialize",
@@ -152,7 +148,6 @@
     "neon-bindings/neon",
     "nextest-rs/nextest",
     "nix-rust/nix",
-    "not-fl3/miniquad",
     "notify-rs/notify",
     "nvidia/openshell",
     "obi1kenobi/cargo-semver-checks",
@@ -182,7 +177,6 @@
     "rusqlite/rusqlite",
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/config-rs",
-    "rust-cli/confy",
     "rust-cli/env_logger",
     "rust-cli/human-panic",
     "rust-cross/cargo-zigbuild",
@@ -202,7 +196,6 @@
     "rust-openssl/rust-openssl",
     "rust-postgres/rust-postgres",
     "rust-windowing/glutin",
-    "rust-windowing/winit",
     "RustAudio/cpal",
     "RustAudio/rodio",
     "rustls/rustls",

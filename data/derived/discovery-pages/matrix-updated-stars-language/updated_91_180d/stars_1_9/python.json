@@ -3,7 +3,7 @@
     "components": 129,
     "concepts": 101,
     "observations": 101,
-    "repos": 41,
+    "repos": 42,
     "terms": 111
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "AIxCyberChallenge/example-crs-architecture",
@@ -50,6 +50,7 @@
     "mlfoundations/SkyRL",
     "pydantic/pydantic-docs",
     "qinwang-ai/PolypsAlign",
+    "radian-software/gnu-elpa-mirror",
     "sylabs/singularity-admindocs",
     "usdot-fhwa-stol/carma-carla-integration",
     "Velesio/velesio-aiserver",

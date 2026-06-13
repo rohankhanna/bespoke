@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 154,
-    "observations": 155,
-    "repos": 49,
-    "terms": 153
+    "components": 163,
+    "concepts": 135,
+    "observations": 136,
+    "repos": 45,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "canonical/ubuntu-security-notices",
     "cbuijs/hagezi",
-    "cdxeve/awesome-computer-use-agents",
     "charmbracelet/scoop-bucket",
     "containerd/project",
     "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
-    "eigenfoundation/elips",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "flinedev/plankit",
@@ -34,8 +32,6 @@
     "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
-    "jakoch/rasterizers",
-    "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "jupyterlab/frontends-team-compass",
     "kubernetes/steering",

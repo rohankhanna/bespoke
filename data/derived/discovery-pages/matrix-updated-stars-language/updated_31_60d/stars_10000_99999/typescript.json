@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11088,
-    "concepts": 1665,
-    "observations": 1676,
-    "repos": 160,
-    "terms": 1674
+    "components": 11197,
+    "concepts": 1702,
+    "observations": 1713,
+    "repos": 163,
+    "terms": 1711
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "actions/starter-workflows",
@@ -68,6 +68,7 @@
     "fission-ai/openspec",
     "FlowiseAI/Flowise",
     "formatjs/formatjs",
+    "fuma-nama/fumadocs",
     "garrytan/gstack",
     "gcanti/fp-ts",
     "google/brotli",
@@ -86,6 +87,7 @@
     "jupyterlab/jupyterlab",
     "KaTeX/KaTeX",
     "Kilo-Org/kilocode",
+    "Koenkk/zigbee2mqtt",
     "Kong/insomnia",
     "kysely-org/kysely",
     "labring/FastGPT",
@@ -93,6 +95,7 @@
     "lerna/lerna",
     "lit/lit",
     "louislam/dockge",
+    "lucide-icons/lucide",
     "mapbox/mapbox-gl-js",
     "maplibre/maplibre-gl-js",
     "marmelab/react-admin",

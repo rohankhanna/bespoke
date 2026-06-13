@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10690,
-    "concepts": 9340,
-    "observations": 9352,
-    "repos": 2401,
-    "terms": 9205
+    "components": 10708,
+    "concepts": 9360,
+    "observations": 9372,
+    "repos": 2405,
+    "terms": 9225
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -300,6 +300,7 @@
     "BlinkDL/AI-Writer",
     "Blizzard/node-rdkafka",
     "Blizzard/s2client-proto",
+    "Blosc/c-blosc",
     "bluele/gcache",
     "blushft/go-diagrams",
     "bmizerany/pat",
@@ -1196,6 +1197,7 @@
     "kohya-ss/sd-webui-additional-networks",
     "koide3/fast_gicp",
     "Kong/docker-kong",
+    "kosua20/MIDIVisualizer",
     "koute/cargo-web",
     "koute/stdweb",
     "kpu/kenlm",
@@ -1539,10 +1541,12 @@
     "nilbuild/githunt",
     "ninject/Ninject",
     "nitaliano/react-native-mapbox-gl",
+    "NixOS/patchelf",
     "nlpxucan/WizardLM",
     "NMFR/optimize-css-assets-webpack-plugin",
     "noahshinn/reflexion",
     "nobody132/masr",
+    "nod-ai/AMD-SHARK-Studio",
     "node-ffi/node-ffi",
     "node-gh/gh",
     "nodeca/pako",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2388,
-    "concepts": 2084,
-    "observations": 2089,
-    "repos": 195,
-    "terms": 2107
+    "components": 2357,
+    "concepts": 2017,
+    "observations": 2021,
+    "repos": 189,
+    "terms": 2039
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -24,8 +24,6 @@
     "Aider-AI/aider",
     "aio-libs/aiohttp",
     "akfamily/akshare",
-    "alchaincyf/nuwa-skill",
-    "alirezarezvani/claude-skills",
     "ansible/ansible",
     "anthropics/claude-plugins-official",
     "apache/airflow",
@@ -51,7 +49,6 @@
     "cupy/cupy",
     "cvat-ai/cvat",
     "dagster-io/dagster",
-    "dask/dask",
     "datalab-to/chandra",
     "datalab-to/marker",
     "davila7/claude-code-templates",
@@ -87,7 +84,6 @@
     "HKUDS/LightRAG",
     "HKUDS/RAG-Anything",
     "home-assistant/core",
-    "hpcaitech/ColossalAI",
     "huggingface/datasets",
     "huggingface/diffusers",
     "huggingface/lerobot",
@@ -111,7 +107,6 @@
     "locustio/locust",
     "lucidrains/vit-pytorch",
     "ludwig-ai/ludwig",
-    "magic-wormhole/magic-wormhole",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
     "mem0ai/mem0",
@@ -121,7 +116,6 @@
     "microsoft/graphrag",
     "microsoft/promptflow",
     "microsoft/pyright",
-    "mingrammer/diagrams",
     "mitmproxy/mitmproxy",
     "mlc-ai/mlc-llm",
     "mlflow/mlflow",

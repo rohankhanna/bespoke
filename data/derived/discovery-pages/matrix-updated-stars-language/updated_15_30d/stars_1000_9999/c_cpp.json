@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 18,
-    "terms": 164
+    "components": 225,
+    "concepts": 216,
+    "observations": 217,
+    "repos": 23,
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
+    "CloudCompare/CloudCompare",
     "doctest/doctest",
     "floooh/sokol",
     "free-audio/clap",
     "google/oboe",
+    "harfbuzz/harfbuzz",
     "iree-org/iree",
     "KhronosGroup/KTX-Software",
+    "libbitcoin/libbitcoin-system",
+    "luau-lang/luau",
     "microsoft/Detours",
     "Mithril-mine/libmdbx",
-    "Nelarius/imnodes",
     "PortAudio/portaudio",
     "pure-data/pure-data",
     "riscv-collab/riscv-gnu-toolchain",
+    "TrenchBroom/TrenchBroom",
     "ufbx/ufbx",
     "ultrajson/ultrajson",
     "uxlfoundation/oneDNN",
-    "WarmUpTill/SceneSwitcher"
+    "WarmUpTill/SceneSwitcher",
+    "xtensor-stack/xtensor"
   ]
 }

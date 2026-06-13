@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4821,
-    "concepts": 950,
-    "observations": 951,
-    "repos": 132,
-    "terms": 944
+    "components": 4678,
+    "concepts": 931,
+    "observations": 932,
+    "repos": 126,
+    "terms": 926
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
-    "actions/javascript-action",
-    "ai/size-limit",
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
@@ -55,13 +53,11 @@
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/clooney",
-    "GoogleChromeLabs/ProjectVisBug",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "grommet/grommet",
     "heshengtao/super-agent-party",
     "i18next/i18next",
     "i18next/react-i18next",
-    "igorshubovych/markdownlint-cli",
     "import-js/eslint-plugin-import",
     "ipfs/ipfs-companion",
     "ipfs/ipfs-desktop",
@@ -75,13 +71,11 @@
     "json-schema-org/json-schema-spec",
     "keepassxreboot/keepassxc-browser",
     "KhronosGroup/Vulkan-Docs",
-    "kpdecker/jsdiff",
     "krausest/js-framework-benchmark",
     "LavaMoat/LavaMoat",
     "leezng/vue-json-pretty",
     "ljharb/qs",
     "mapbox/geobuf",
-    "mapbox/maki",
     "mapbox/node-pre-gyp",
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",

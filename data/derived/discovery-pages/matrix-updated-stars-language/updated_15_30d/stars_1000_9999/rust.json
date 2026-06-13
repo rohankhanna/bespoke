@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 7,
-    "terms": 74
+    "components": 166,
+    "concepts": 99,
+    "observations": 100,
+    "repos": 9,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "apache/casbin-rs",
+    "apache/datafusion-ballista",
     "ash-rs/ash",
     "crate-ci/cargo-release",
     "databendlabs/databend",
+    "dmtrKovalenko/fff",
     "hermit-os/hermit-rs",
     "intentee/paddler",
     "mayocream/koharu"

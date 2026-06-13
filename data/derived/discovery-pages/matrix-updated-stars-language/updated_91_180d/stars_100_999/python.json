@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 499,
+    "components": 502,
     "concepts": 904,
     "observations": 904,
-    "repos": 235,
+    "repos": 237,
     "terms": 897
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -125,6 +125,7 @@
     "JettHu/ComfyUI-TCD",
     "JettHu/ComfyUI_TGate",
     "jimmyyhwu/tidybot2",
+    "jsegov/autoresearch-win-rtx",
     "JunyaoHu/common_metrics_on_video_quality",
     "KakaruHayate/ColorSplitter",
     "kevinhwang91/rnvimr",
@@ -136,6 +137,7 @@
     "lucidrains/rotary-embedding-torch",
     "lxgw/LxgwMarkerGothic",
     "lzyhha/VisualCloze",
+    "madebyollin/taehv",
     "madebyollin/taesd",
     "magic-wormhole/magic-wormhole-transit-relay",
     "marin-community/levanter",
@@ -156,6 +158,7 @@
     "multimodal-reasoning-lab/Bagel-Zebra-CoT",
     "MyoHub/myo_sim",
     "naver/multi-hmr",
+    "NeuralVox/OpenPhonemizer",
     "nghorbani/body_visualizer",
     "nicklashansen/newt",
     "nii-yamagishilab/project-NN-Pytorch-scripts",
@@ -222,7 +225,6 @@
     "TsinghuaDatabaseGroup/DB-GPT",
     "TTPlanetPig/Comfyui_TTP_Toolset",
     "tulerfeng/OneThinker",
-    "tulerfeng/Video-R1",
     "tvogels/pyexr",
     "v-iashin/video_features",
     "vietanhdev/samexporter",

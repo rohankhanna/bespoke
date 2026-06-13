@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 769,
-    "concepts": 490,
-    "observations": 491,
-    "repos": 109,
-    "terms": 503
+    "components": 729,
+    "concepts": 464,
+    "observations": 465,
+    "repos": 105,
+    "terms": 477
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
-    "adumbidiot/lz-str-rs",
     "ai-dynamo/modelexpress",
     "andelf/axcli",
     "andelf/picc",
@@ -79,7 +78,6 @@
     "kurrent-io/KurrentDB-Client-Rust",
     "KWARC/rust-libxml",
     "launchdarkly/rust-server-sdk",
-    "Layr-Labs/eigensdk-rs",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
     "ldclabs/ic-oss",
@@ -94,7 +92,6 @@
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
     "nico-abram/blondie",
-    "open-telemetry/opentelemetry-rust-contrib",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
@@ -109,7 +106,6 @@
     "succinctlabs/network",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
-    "tianrking/weixin-agent-rs",
     "tofay/rustls-openssl",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",

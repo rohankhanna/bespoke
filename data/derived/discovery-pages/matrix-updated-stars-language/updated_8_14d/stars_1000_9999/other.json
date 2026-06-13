@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 84,
-    "observations": 85,
-    "repos": 10,
-    "terms": 84
+    "components": 55,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 5,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
-    "babashka/babashka",
-    "firebase/flutterfire",
-    "googleapis/google-auth-library-php",
-    "kurrent-io/KurrentDB",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "seancorfield/honeysql",
     "swiftlang/llvm-project",
     "swiftlang/swift-syntax",
     "web-platform-tests/wpt"

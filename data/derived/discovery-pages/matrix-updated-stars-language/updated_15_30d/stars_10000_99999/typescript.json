@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 97,
-    "observations": 97,
-    "repos": 9,
-    "terms": 97
+    "components": 921,
+    "concepts": 157,
+    "observations": 158,
+    "repos": 12,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "ChatGPTNextWeb/NextChat",
     "dexie/Dexie.js",
-    "fuma-nama/fumadocs",
+    "fastapi/full-stack-fastapi-template",
     "googleapis/google-api-nodejs-client",
+    "HumanSignal/label-studio",
     "jestjs/jest",
-    "Koenkk/zigbee2mqtt",
-    "lucide-icons/lucide",
+    "langchain-ai/langchainjs",
+    "lobehub/lobehub",
     "realworld-apps/realworld",
+    "Redocly/redoc",
+    "unocss/unocss",
     "vercel-labs/skills"
   ]
 }

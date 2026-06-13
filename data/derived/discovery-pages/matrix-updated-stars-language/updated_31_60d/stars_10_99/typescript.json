@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3355,
-    "concepts": 619,
-    "observations": 624,
-    "repos": 123,
-    "terms": 647
+    "components": 3315,
+    "concepts": 612,
+    "observations": 617,
+    "repos": 122,
+    "terms": 640
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -70,7 +70,6 @@
     "iconify/tools",
     "intlify/cli",
     "intlify/vue-i18n-extensions",
-    "ioBroker/ioBroker.matter",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
     "ipikuka/rehype-highlight-code-lines",

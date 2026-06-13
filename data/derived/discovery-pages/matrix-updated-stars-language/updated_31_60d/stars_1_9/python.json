@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 165,
-    "observations": 165,
-    "repos": 69,
-    "terms": 185
+    "components": 255,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 64,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
-    "AgnostiqHQ/covalent-executor-template",
-    "aiidateam/plumpy",
     "andriykohut/pdm-readiness",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
@@ -52,11 +50,8 @@
     "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
     "Jango-AI-com/morning-cli",
-    "jupyter-xeus/xeus-python-shell",
-    "justinchuby/lintrunner-adapters",
     "kalavai-net/kube-watcher",
     "kelp/webdown",
-    "lace/proximity",
     "meridianlabs-ai/inspect_harbor",
     "mlcommons/submissions_algorithms",
     "ModelCloud/Defuser",

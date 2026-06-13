@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 895,
+    "components": 897,
     "concepts": 141,
     "observations": 142,
-    "repos": 49,
+    "repos": 50,
     "terms": 140
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -60,6 +60,7 @@
     "svg-sprite/gulp-svg-sprite",
     "TeamMoeAI/MoeSR",
     "testing-library/eslint-plugin-jest-dom",
+    "thejoshwolfe/yazl",
     "tonyganch/gonzales-pe",
     "usnistgov/jsfive",
     "watson/bonjour"

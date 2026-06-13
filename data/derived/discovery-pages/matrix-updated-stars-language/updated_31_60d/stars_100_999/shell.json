@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 364,
-    "observations": 367,
-    "repos": 63,
-    "terms": 368
+    "components": 255,
+    "concepts": 358,
+    "observations": 361,
+    "repos": 60,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
-    "actions/upload-pages-artifact",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
@@ -53,7 +52,6 @@
     "mozilla/addons",
     "msys2/msys2-installer",
     "nodenv/node-build",
-    "numpy/numpy.org",
     "NVIDIA/enroot",
     "opea-project/GenAIExamples",
     "openshift/release",
@@ -74,7 +72,6 @@
     "tinted-theming/schemes",
     "tonistiigi/xx",
     "TypedDevs/bashunit",
-    "undeadlist/claude-code-agents",
     "ungoogled-software/ungoogled-chromium-archlinux",
     "unixorn/zsh-quickstart-kit"
   ]

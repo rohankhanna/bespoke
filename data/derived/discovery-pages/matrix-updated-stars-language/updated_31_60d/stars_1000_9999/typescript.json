@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11618,
-    "concepts": 2214,
-    "observations": 2220,
-    "repos": 270,
-    "terms": 2308
+    "components": 11508,
+    "concepts": 2176,
+    "observations": 2182,
+    "repos": 266,
+    "terms": 2270
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -65,7 +65,6 @@
     "BuilderIO/builder",
     "callstack/react-native-testing-library",
     "can1357/oh-my-pi",
-    "capricorn86/happy-dom",
     "carbon-design-system/carbon-components-svelte",
     "ChainSafe/lodestar",
     "Chevrotain/chevrotain",
@@ -77,7 +76,6 @@
     "cloudflare/agents",
     "cloudflare/agents-starter",
     "cloudflare/workers-sdk",
-    "coder/ghostty-web",
     "coder/mux",
     "Comcast/react-data-grid",
     "Comfy-Org/ComfyUI_frontend",
@@ -101,7 +99,6 @@
     "eemeli/yaml",
     "electron/fiddle",
     "electron/forge",
-    "emmetio/emmet",
     "enricoros/big-AGI",
     "EpicenterHQ/epicenter",
     "eslint-stylistic/eslint-stylistic",
@@ -120,7 +117,6 @@
     "ggml-org/llama.vscode",
     "google/adk-js",
     "google/neuroglancer",
-    "googleapis/release-please",
     "googleapis/release-please-action",
     "gorhom/react-native-bottom-sheet",
     "graphql-hive/graphql-inspector",
@@ -143,7 +139,6 @@
     "jaegertracing/jaeger-ui",
     "JamesIves/github-pages-deploy-action",
     "jaredwray/cacheable",
-    "jaredwray/keyv",
     "jest-community/eslint-plugin-jest",
     "jest-community/jest-extended",
     "josdejong/jsonrepair",
@@ -152,6 +147,7 @@
     "jupyter-lsp/jupyterlab-lsp",
     "kelektiv/node-cron",
     "kepano/defuddle",
+    "Koenkk/zigbee-herdsman-converters",
     "kulshekhar/ts-jest",
     "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",

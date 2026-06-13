@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 593,
-    "concepts": 807,
-    "observations": 807,
-    "repos": 195,
-    "terms": 792
+    "components": 599,
+    "concepts": 812,
+    "observations": 812,
+    "repos": 196,
+    "terms": 797
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -62,6 +62,7 @@
     "chenyahui/gin-cache",
     "chronosphereio/calyptia-go-bubble-table",
     "ckaznocha/protoc-gen-lint",
+    "cloudwego/hertz-examples",
     "connectrpc/examples-go",
     "containerd/cri",
     "containers/common",

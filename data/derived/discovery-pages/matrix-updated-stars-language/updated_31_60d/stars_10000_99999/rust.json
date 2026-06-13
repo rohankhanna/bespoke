@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1458,
-    "concepts": 967,
-    "observations": 969,
+    "components": 1460,
+    "concepts": 957,
+    "observations": 959,
     "repos": 88,
-    "terms": 954
+    "terms": 946
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
-    "ajeetdsouza/zoxide",
     "alacritty/alacritty",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
@@ -63,6 +62,7 @@
     "LemmyNet/lemmy",
     "microsoft/windows-rs",
     "nearai/ironclaw",
+    "nushell/nushell",
     "openai/codex",
     "orhun/git-cliff",
     "oxc-project/oxc",

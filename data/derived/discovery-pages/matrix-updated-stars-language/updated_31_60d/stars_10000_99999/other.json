@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2100,
-    "concepts": 1516,
-    "observations": 1522,
-    "repos": 152,
-    "terms": 1510
+    "components": 2065,
+    "concepts": 1476,
+    "observations": 1482,
+    "repos": 146,
+    "terms": 1470
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
     "actions/runner-images",
-    "adambard/learnxinyminutes-docs",
     "adityatelange/hugo-PaperMod",
     "Alamofire/Alamofire",
     "AlDanial/cloc",
@@ -45,7 +44,6 @@
     "composer/composer",
     "coollabsio/coolify",
     "crystal-lang/crystal",
-    "Cysharp/UniTask",
     "cython/cython",
     "dart-lang/sdk",
     "datawhalechina/self-llm",
@@ -110,10 +108,8 @@
     "microsoft/ai-agents-for-beginners",
     "microsoft/fluentui-system-icons",
     "microsoft/mcp-for-beginners",
-    "microsoft/OmniParser",
     "microsoft/semantic-kernel",
     "microsoft/vcpkg",
-    "mikepenz/MaterialDrawer",
     "mixmark-io/turndown",
     "mmistakes/minimal-mistakes",
     "mozilla-mobile/firefox-ios",
@@ -141,7 +137,6 @@
     "SaschaWillems/Vulkan",
     "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
-    "Seldaek/monolog",
     "semgrep/semgrep",
     "shadowsocks/shadowsocks-android",
     "shap/shap",
@@ -160,7 +155,6 @@
     "teamcapybara/capybara",
     "tiann/KernelSU",
     "tmuxinator/tmuxinator",
-    "tonsky/FiraCode",
     "topjohnwu/Magisk",
     "vim-airline/vim-airline",
     "vim/vim",

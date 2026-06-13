@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5512,
-    "concepts": 1997,
-    "observations": 2000,
-    "repos": 1407,
-    "terms": 1993
+    "components": 5565,
+    "concepts": 2001,
+    "observations": 2004,
+    "repos": 1410,
+    "terms": 1997
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -448,6 +448,7 @@
     "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
     "danielrosehill/AI-Developer-Notebook",
     "danielrosehill/AI-Interview-Workflow-V2",
+    "danielrosehill/AI-Model-Manager",
     "danielrosehill/AI-Orchestration-System-Prompts",
     "danielrosehill/Ai-Workspace-Planning-Notes",
     "danielrosehill/Audio-Multimodal-AI-Resources",
@@ -1039,6 +1040,7 @@
     "MunifTanjim/llhttp.lua",
     "mxcl/mash",
     "my-liminal-space/read-parquet-browser",
+    "Myriad-Dreamin/typst",
     "nabijaczleweli/hrx.rs",
     "nanxstats/ssw-r",
     "Narsil/cudarc",
@@ -1205,6 +1207,7 @@
     "reginald-mclean/Metaworld",
     "Rel1cx/eslint-react-benchmark",
     "render-examples/chatgpt-retrieval-plugin",
+    "retracedhq/logs-viewer",
     "retracedhq/retraced-go",
     "retracedhq/retraced-js",
     "rexthinker/rexthinker.github.io",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 36,
+    "components": 44,
     "concepts": 56,
     "observations": 56,
-    "repos": 6,
+    "repos": 7,
     "terms": 56
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
+    "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",

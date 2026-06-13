@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 457,
-    "concepts": 901,
-    "observations": 902,
-    "repos": 175,
-    "terms": 889
+    "components": 465,
+    "concepts": 905,
+    "observations": 906,
+    "repos": 176,
+    "terms": 893
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -47,6 +47,7 @@
     "bytetriper/RAE",
     "chatopera/Synonyms",
     "ChenmienTan/RL2",
+    "cheshire-cat-ai/core",
     "chflame163/ComfyUI_LayerStyle",
     "city96/ComfyUI-GGUF",
     "cleanlab/cleanvision",
@@ -77,6 +78,7 @@
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
     "google/fuzzbench",
+    "google/ml_collections",
     "google/vizier",
     "graphql-python/graphene-django",
     "gururise/AlpacaDataCleaned",
@@ -116,7 +118,6 @@
     "mozillazg/pinyin-data",
     "myhub/tr",
     "NixOS/nixops",
-    "nod-ai/AMD-SHARK-Studio",
     "notofonts/noto-cjk",
     "novnc/websockify",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",

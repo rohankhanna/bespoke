@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 459,
-    "concepts": 512,
-    "observations": 512,
+    "components": 456,
+    "concepts": 514,
+    "observations": 514,
     "repos": 69,
-    "terms": 510
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -26,7 +26,6 @@
     "aws/smithy-go",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
-    "carrot2/carrot2",
     "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
@@ -65,6 +64,7 @@
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
+    "openjdk/jdk17u",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
     "processing/processing4",

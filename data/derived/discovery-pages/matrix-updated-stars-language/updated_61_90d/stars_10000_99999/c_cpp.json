@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 18,
-    "terms": 126
+    "components": 136,
+    "concepts": 172,
+    "observations": 172,
+    "repos": 23,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
+    "aristocratos/btop",
     "bellard/quickjs",
     "cloudwu/skynet",
+    "Cyan4973/xxHash",
+    "davatorium/rofi",
     "deepseek-ai/FlashMLA",
     "esp8266/Arduino",
     "facebook/zstd",
@@ -26,10 +29,12 @@
     "libevent/libevent",
     "libgit2/libgit2",
     "microsoft/AirSim",
+    "microsoft/wslg",
     "mobile-shell/mosh",
     "ninja-build/ninja",
     "nlohmann/json",
     "NVIDIA/open-gpu-kernel-modules",
+    "NVIDIA/TensorRT",
     "taichi-dev/taichi",
     "zeromq/libzmq"
   ]

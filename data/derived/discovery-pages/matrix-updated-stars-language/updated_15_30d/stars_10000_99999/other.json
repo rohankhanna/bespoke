@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 6,
-    "terms": 53
+    "components": 128,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 10,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
+    "anthropics/claude-cookbooks",
     "dense-analysis/ale",
     "github-linguist/linguist",
     "JetBrains/compose-multiplatform",
     "meta-llama/llama-cookbook",
     "neovim/nvim-lspconfig",
-    "SubtitleEdit/subtitleedit"
+    "SubtitleEdit/subtitleedit",
+    "triton-lang/triton",
+    "upptime/upptime",
+    "vbenjs/vue-vben-admin"
   ]
 }

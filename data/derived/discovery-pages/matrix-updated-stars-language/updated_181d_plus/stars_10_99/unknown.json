@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 332,
     "observations": 332,
-    "repos": 285,
+    "repos": 286,
     "terms": 332
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -259,6 +259,7 @@
     "support-ukraine/support-ukraine",
     "SwinTransformer/storage",
     "taichi-dev/community",
+    "talk-flow/Lynxe-public-usecase",
     "Tammytcl/Awesome-Diffusion-Acceleration-Cache",
     "tc39/incubator-agendas",
     "tc39/proposal-arraybuffer-transfer",

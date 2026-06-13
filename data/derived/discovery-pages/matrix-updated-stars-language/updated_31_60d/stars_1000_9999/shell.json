@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 258,
-    "concepts": 328,
-    "observations": 330,
-    "repos": 50,
-    "terms": 327
+    "components": 250,
+    "concepts": 332,
+    "observations": 334,
+    "repos": 48,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -29,7 +29,6 @@
     "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
-    "crosstool-ng/crosstool-ng",
     "devcontainers/features",
     "devcontainers/images",
     "diet103/claude-code-infrastructure-showcase",
@@ -40,7 +39,6 @@
     "docker-library/postgres",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
-    "frankbria/ralph-claude-code",
     "git-quick-stats/git-quick-stats",
     "google/adk-docs",
     "GrapheneOS/Vanadium",
@@ -58,7 +56,7 @@
     "rbenv/ruby-build",
     "rocker-org/rocker",
     "rvm/rvm",
-    "spiffe/spiffe",
+    "scop/bash-completion",
     "sublimehq/Packages",
     "void-linux/void-packages",
     "YosysHQ/oss-cad-suite-build",

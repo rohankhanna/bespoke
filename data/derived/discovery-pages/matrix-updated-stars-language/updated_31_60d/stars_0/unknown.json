@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 111,
-    "terms": 80
+    "components": 48,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 109,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "abdeladim-s/pywhispercpp",
@@ -50,7 +50,6 @@
     "danielrosehill/AI-Dev-Workspace-Primitives",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Layers",
-    "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
@@ -122,7 +121,6 @@
     "shouted-numberone752/wechat-agent-connector",
     "sp1-patches/elliptic-curves",
     "TransferQueue/community_doc",
-    "ublacklist/store-assets",
     "vivianalaced749/vk-calls-tunnel",
     "wendyalbanez/clawui"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 978,
-    "concepts": 3887,
-    "observations": 3889,
-    "repos": 987,
-    "terms": 3815
+    "components": 984,
+    "concepts": 3896,
+    "observations": 3898,
+    "repos": 988,
+    "terms": 3824
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -616,6 +616,7 @@
     "nlpxucan/WizardLM",
     "noahshinn/reflexion",
     "nobody132/masr",
+    "nod-ai/AMD-SHARK-Studio",
     "notofonts/noto-fonts",
     "NovaSky-AI/SkyThought",
     "nschloe/meshio",

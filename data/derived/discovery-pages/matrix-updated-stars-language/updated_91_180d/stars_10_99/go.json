@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 36,
-    "terms": 128
+    "components": 152,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 37,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -21,6 +21,7 @@
     "apache/incubator-seata-k8s",
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
+    "bartventer/httpcache",
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
     "bombsimon/logrusr",

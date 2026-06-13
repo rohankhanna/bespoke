@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 11,
-    "terms": 103
+    "components": 118,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 16,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
+    "abiosoft/colima",
     "charmbracelet/glow",
+    "charmbracelet/gum",
+    "charmbracelet/vhs",
     "chromedp/chromedp",
     "direnv/direnv",
     "evanw/esbuild",
+    "hibiken/asynq",
     "kubernetes/ingress-nginx",
     "labstack/echo",
     "Mrs4s/go-cqhttp",
     "panjf2000/ants",
     "panjf2000/gnet",
+    "shadow1ng/fscan",
     "stretchr/testify",
     "uber-go/zap"
   ]

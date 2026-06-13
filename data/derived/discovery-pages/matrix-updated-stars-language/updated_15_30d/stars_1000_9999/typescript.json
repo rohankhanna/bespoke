@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 637,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 16,
-    "terms": 90
+    "components": 813,
+    "concepts": 119,
+    "observations": 119,
+    "repos": 19,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "alichherawalla/off-grid-mobile-ai",
     "apollographql/apollo-tooling",
+    "conventional-changelog/conventional-changelog",
     "ebullient/obsidian-admonition",
     "electron/rebuild",
     "google-gemini/live-api-web-console",
-    "Koenkk/zigbee-herdsman-converters",
     "microsoft/vscode-js-debug",
     "neavo/LinguaGacha",
+    "podman-desktop/podman-desktop",
+    "react-native-webview/react-native-webview",
     "safe-fndn/safe-smart-account",
     "TanStack/form",
     "typescript-language-server/typescript-language-server",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",
     "vercel/serve",
+    "vuejs/devtools",
     "vuejs/language-tools"
   ]
 }

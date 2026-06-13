@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 276,
+    "components": 259,
     "concepts": 140,
     "observations": 140,
     "repos": 95,
@@ -11,13 +11,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
     "1000ch/Sublime-csso",
     "8144225309/superscalar-mcp",
-    "abap2UI5-addons/popups",
     "abbhisap/LLM-Council-SAP",
     "AdaCore/vss-text",
     "aldernero/spider",
@@ -34,6 +33,7 @@
     "ChiehHsinJesseLai/ctm-notebook",
     "cloudaper/compact_enc_det_fork",
     "czk23/YiTu",
+    "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",

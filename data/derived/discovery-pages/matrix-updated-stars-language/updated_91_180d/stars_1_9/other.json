@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 220,
+    "components": 182,
     "concepts": 124,
     "observations": 124,
-    "repos": 53,
+    "repos": 52,
     "terms": 121
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -52,7 +52,6 @@
     "parruda/ruby_llm",
     "PyThaiNLP/pythainlp-corpus",
     "redis-developer/redis-starter-csharp",
-    "retracedhq/logs-viewer",
     "shakacode/package_json",
     "Shopify/svg2vd",
     "stephanj/sonarlint-devoxxgenie-intellij",

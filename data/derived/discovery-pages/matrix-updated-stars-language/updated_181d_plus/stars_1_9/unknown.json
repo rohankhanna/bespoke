@@ -3,7 +3,7 @@
     "components": 138,
     "concepts": 187,
     "observations": 187,
-    "repos": 202,
+    "repos": 203,
     "terms": 185
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -51,6 +51,7 @@
     "cyberark/community",
     "danielrosehill/AI-Dev-Repo-Template-Oct-2025",
     "danielrosehill/AI-Interview-Workflow-V2",
+    "danielrosehill/AI-Model-Manager",
     "danielrosehill/Ai-Workspace-Planning-Notes",
     "danielrosehill/Audio-Multimodal-AI-Resources",
     "danielrosehill/Audio-Understanding-Test-Prompts",

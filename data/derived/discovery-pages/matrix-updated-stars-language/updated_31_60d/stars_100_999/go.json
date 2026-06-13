@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1608,
-    "concepts": 1385,
-    "observations": 1392,
-    "repos": 196,
-    "terms": 1393
+    "components": 1562,
+    "concepts": 1349,
+    "observations": 1356,
+    "repos": 190,
+    "terms": 1357
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -23,7 +23,6 @@
     "aliyun/aliyun-cli",
     "AliyunContainerService/terway",
     "andreykaipov/goobs",
-    "andybalholm/brotli",
     "apache/dubbo-go-hessian2",
     "apache/dubbo-go-pixiu",
     "apache/dubbo-go-samples",
@@ -57,7 +56,6 @@
     "celzero/firestack",
     "chainguard-dev/melange",
     "charmbracelet/catwalk",
-    "charmbracelet/colorprofile",
     "charmbracelet/x",
     "ClickHouse/ch-go",
     "cloudflare/go",
@@ -69,7 +67,6 @@
     "cloudpilot-ai/karpenter-provider-gcp",
     "cloudwego/eino-examples",
     "cloudwego/eino-ext",
-    "coder/code-marketplace",
     "coder/envbuilder",
     "cometbft/cometbft",
     "Consensys/gnark-crypto",
@@ -110,14 +107,12 @@
     "gookit/gcli",
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
-    "hashicorp/errwrap",
     "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-framework",
     "hashicorp/terraform-plugin-go",
     "hashicorp/terraform-plugin-sdk",
     "hashicorp/terraform-provider-random",
     "hashicorp/terraform-provider-scaffolding-framework",
-    "hazelcast/hazelcast-go-client",
     "helm/chart-releaser",
     "helmfile/vals",
     "huaweicloud/huaweicloud-sdk-go-v3",
@@ -136,7 +131,6 @@
     "Kong/deck",
     "kube-rbac-proxy/kube-rbac-proxy",
     "kubecfg/kubecfg",
-    "kubeflow/mpi-operator",
     "kubernetes-sigs/boskos",
     "kubernetes-sigs/controller-tools",
     "kubernetes-sigs/custom-metrics-apiserver",

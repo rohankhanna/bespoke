@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 964,
-    "concepts": 1233,
-    "observations": 1237,
-    "repos": 122,
-    "terms": 1235
+    "components": 951,
+    "concepts": 1213,
+    "observations": 1217,
+    "repos": 118,
+    "terms": 1215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -23,7 +23,6 @@
     "ApolloAuto/apollo",
     "apple/foundationdb",
     "arangodb/arangodb",
-    "aristocratos/btop",
     "aseprite/aseprite",
     "asmvik/yabai",
     "assimp/assimp",
@@ -42,8 +41,6 @@
     "colmap/colmap",
     "coturn/coturn",
     "curl/curl",
-    "Cyan4973/xxHash",
-    "davatorium/rofi",
     "davisking/dlib",
     "DayBreak-u/chineseocr_lite",
     "dcloudio/uni-app",
@@ -96,13 +93,12 @@
     "microsoft/winget-cli",
     "microsoft/WSL",
     "microsoft/WSL2-Linux-Kernel",
-    "microsoft/wslg",
     "ml-explore/mlx",
     "mongodb/mongo",
     "mpv-player/mpv",
     "NixOS/nix",
     "nothings/stb",
-    "NVIDIA/TensorRT",
+    "obsproject/obs-studio",
     "oceanbase/oceanbase",
     "ocornut/imgui",
     "opencv/opencv",

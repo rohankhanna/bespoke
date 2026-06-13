@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 37,
-    "terms": 41
+    "components": 19,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 39,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -39,6 +39,7 @@
     "danielrosehill/Prompt-Libraries-Index",
     "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
+    "dpc/crev-proofs",
     "flagos-ai/FlagOS-Robo",
     "gkr-bot/gkr-bot",
     "hchiam/learning-gh",
@@ -49,6 +50,7 @@
     "nttstar/insightface-resources",
     "psmux/scoop-omp-manager",
     "ScoopInstaller/.github",
+    "sigstore/architecture-docs",
     "sp1-patches/bn",
     "vega/.github"
   ]

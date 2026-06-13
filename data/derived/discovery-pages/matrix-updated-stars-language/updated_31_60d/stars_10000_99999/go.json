@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1718,
-    "concepts": 1631,
-    "observations": 1637,
-    "repos": 134,
-    "terms": 1619
+    "components": 1688,
+    "concepts": 1587,
+    "observations": 1593,
+    "repos": 129,
+    "terms": 1577
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-13T06:01:47.312888+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
     "99designs/gqlgen",
     "a-h/templ",
-    "abiosoft/colima",
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
     "anchore/grype",
@@ -35,9 +34,7 @@
     "cert-manager/cert-manager",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
-    "charmbracelet/gum",
     "charmbracelet/lipgloss",
-    "charmbracelet/vhs",
     "cilium/cilium",
     "cli/cli",
     "cloudflare/cloudflared",
@@ -91,7 +88,6 @@
     "hashicorp/terraform",
     "hashicorp/vault",
     "helm/helm",
-    "hibiken/asynq",
     "ipfs/kubo",
     "istio/istio",
     "jaegertracing/jaeger",
@@ -134,7 +130,6 @@
     "SagerNet/sing-box",
     "schollz/croc",
     "seaweedfs/seaweedfs",
-    "shadow1ng/fscan",
     "shirou/gopsutil",
     "slackhq/nebula",
     "slimtoolkit/slim",
