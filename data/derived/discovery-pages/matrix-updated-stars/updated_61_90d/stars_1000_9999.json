@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6620,
-    "concepts": 4071,
-    "observations": 4091,
-    "repos": 690,
-    "terms": 4089
+    "components": 6642,
+    "concepts": 4103,
+    "observations": 4123,
+    "repos": 695,
+    "terms": 4120
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "1Password/for-open-source",
@@ -78,7 +78,6 @@
     "bambinos/bambi",
     "bash-lsp/bash-language-server",
     "bazelbuild/buildtools",
-    "bbatsov/crux",
     "bbatsov/emacs-lisp-style-guide",
     "bbatsov/prelude",
     "bblimke/webmock",
@@ -89,7 +88,9 @@
     "bencheeorg/benchee",
     "bensadeh/circumflex",
     "bitshifter/glam-rs",
+    "BLAKE3-team/BLAKE3",
     "bnb-chain/tss-lib",
+    "boazsegev/facil.io",
     "bobbylight/RSyntaxTextArea",
     "boxyhq/saas-starter-kit",
     "boyter/scc",
@@ -420,6 +421,7 @@
     "mattn/vim-lsp-settings",
     "mattpocock/ts-reset",
     "mattsse/chromiumoxide",
+    "maypok86/otter",
     "meta-pytorch/attention-gym",
     "metosin/reitit",
     "mfussenegger/nvim-dap",
@@ -495,6 +497,7 @@
     "nvim-lua/plenary.nvim",
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",
+    "NVlabs/Sana",
     "objectbox/objectbox-java",
     "oclif/oclif",
     "OFA-Sys/Chinese-CLIP",
@@ -576,6 +579,7 @@
     "RUC-NLPIR/FlashRAG",
     "rust-cli/confy",
     "rust-lang/futures-rs",
+    "rust-lang/log",
     "Rust-SDL2/rust-sdl2",
     "rust-windowing/winit",
     "rusty1s/pytorch_scatter",
@@ -666,6 +670,7 @@
     "varvet/pundit",
     "Vchitect/VBench",
     "vcr/vcr",
+    "vectorclass/version2",
     "vercel/next-learn",
     "vim-test/vim-test",
     "vishvananda/netlink",

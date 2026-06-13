@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 871,
-    "concepts": 970,
-    "observations": 978,
+    "components": 876,
+    "concepts": 969,
+    "observations": 977,
     "repos": 165,
-    "terms": 966
+    "terms": 965
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -31,10 +31,10 @@
     "arviz-devs/arviz",
     "athityakumar/colorls",
     "awaescher/OllamaSharp",
-    "bbatsov/crux",
     "bbatsov/prelude",
     "bblimke/webmock",
     "bencheeorg/benchee",
+    "BLAKE3-team/BLAKE3",
     "cake-build/cake",
     "camlworks/dream",
     "castwide/solargraph",

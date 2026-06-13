@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 354,
-    "observations": 355,
-    "repos": 41,
-    "terms": 348
+    "components": 276,
+    "concepts": 360,
+    "observations": 361,
+    "repos": 42,
+    "terms": 358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -28,6 +28,7 @@
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
     "google/budoux",
+    "harbor-framework/harbor",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
     "huggingface/optimum-quanto",
@@ -35,7 +36,6 @@
     "InternScience/GraphGen",
     "JuergenFleiss/aTrain",
     "lucidrains/vector-quantize-pytorch",
-    "mangiucugna/json_repair",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",
     "meta-pytorch/torchcodec",
@@ -45,6 +45,7 @@
     "NEKOparapa/AiNiee",
     "nomadkaraoke/python-audio-separator",
     "ogx-ai/ogx",
+    "PrimeIntellect-ai/verifiers",
     "python-versioneer/python-versioneer",
     "redis/redis-om-python",
     "rllm-org/rllm",

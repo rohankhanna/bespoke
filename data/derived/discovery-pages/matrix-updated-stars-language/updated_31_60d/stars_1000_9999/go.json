@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2325,
-    "concepts": 2259,
-    "observations": 2270,
-    "repos": 246,
-    "terms": 2260
+    "components": 2317,
+    "concepts": 2252,
+    "observations": 2263,
+    "repos": 245,
+    "terms": 2253
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -191,7 +191,6 @@
     "maragudk/gomponents",
     "mark3labs/mcp-go",
     "Masterminds/semver",
-    "maypok86/otter",
     "miekg/dns",
     "moby/buildkit",
     "mostlygeek/llama-swap",

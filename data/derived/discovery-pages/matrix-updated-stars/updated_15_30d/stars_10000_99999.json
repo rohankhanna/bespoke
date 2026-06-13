@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1856,
-    "concepts": 942,
-    "observations": 946,
-    "repos": 80,
-    "terms": 930
+    "components": 1935,
+    "concepts": 1060,
+    "observations": 1066,
+    "repos": 85,
+    "terms": 1057
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -25,6 +25,7 @@
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "datalab-to/surya",
+    "deepspeedai/DeepSpeed",
     "dense-analysis/ale",
     "dexie/Dexie.js",
     "DioxusLabs/dioxus",
@@ -55,7 +56,9 @@
     "meta-llama/llama-cookbook",
     "moby/moby",
     "modelscope/FunASR",
+    "modelscope/ms-swift",
     "mozilla-ai/llamafile",
+    "mudler/LocalAI",
     "mui/material-ui",
     "neovim/nvim-lspconfig",
     "NVIDIA-NeMo/NeMo",
@@ -80,7 +83,9 @@
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
+    "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",
+    "storybookjs/storybook",
     "SubtitleEdit/subtitleedit",
     "TEN-framework/ten-framework",
     "triton-lang/triton",

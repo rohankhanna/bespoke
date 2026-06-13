@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1340,
-    "concepts": 1342,
-    "observations": 1345,
-    "repos": 232,
-    "terms": 1335
+    "components": 1332,
+    "concepts": 1328,
+    "observations": 1329,
+    "repos": 230,
+    "terms": 1321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -27,7 +27,6 @@
     "amerkoleci/joltc",
     "ampl/mp",
     "antgroup/vsag",
-    "apache/datasketches-cpp",
     "apache/iceberg-cpp",
     "apache/pulsar-client-node",
     "appium/appium-mac2-driver",
@@ -225,7 +224,6 @@
     "shader-slang/slang-rhi",
     "SHI-Labs/NATTEN",
     "snowballstem/snowball",
-    "Solo5/solo5",
     "sophgo/LLM-TPU",
     "sophgo/tpu-mlir",
     "sp-nitech/SPTK",

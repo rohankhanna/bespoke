@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 468,
-    "concepts": 500,
-    "observations": 500,
-    "repos": 81,
-    "terms": 491
+    "components": 476,
+    "concepts": 507,
+    "observations": 507,
+    "repos": 82,
+    "terms": 498
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
@@ -67,6 +67,7 @@
     "kubernetes-sigs/prometheus-adapter",
     "lesismal/nbio",
     "mattn/goreman",
+    "maypok86/otter",
     "minio/operator",
     "mvdan/sh",
     "nikolaydubina/go-recipes",

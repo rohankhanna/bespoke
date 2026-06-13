@@ -1,29 +1,25 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 111,
-    "observations": 111,
-    "repos": 12,
-    "terms": 111
+    "components": 65,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 8,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
     "eclipse-jdtls/eclipse.jdt.ls",
     "godot-rust/gdext",
-    "harbor-framework/harbor",
     "JuliaPluto/Pluto.jl",
     "microsoft/aspire",
     "microsoft/aspire-samples",
-    "PrimeIntellect-ai/verifiers",
-    "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
-    "swiftlang/swift-syntax",
-    "web-platform-tests/wpt"
+    "swiftlang/swift-syntax"
   ]
 }

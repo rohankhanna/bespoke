@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2291,
-    "concepts": 2193,
-    "observations": 2200,
-    "repos": 391,
-    "terms": 2197
+    "components": 2276,
+    "concepts": 2169,
+    "observations": 2176,
+    "repos": 388,
+    "terms": 2174
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
-    "abey79/vpype",
-    "abey79/vsketch",
     "aboutcode-org/scancode.io",
     "adafruit/ci-arduino",
     "ag2ai/build-with-ag2",
@@ -323,7 +321,6 @@
     "pypa/abi3audit",
     "pypa/packaging",
     "pypdfium2-team/pypdfium2",
-    "pytest-dev/pytest-rerunfailures",
     "python-humanize/humanize",
     "python-poetry/install.python-poetry.org",
     "python-poetry/poetry-core",

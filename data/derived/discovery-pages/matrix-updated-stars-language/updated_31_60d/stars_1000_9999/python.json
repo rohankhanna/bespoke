@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3416,
-    "concepts": 3831,
-    "observations": 3844,
+    "components": 3415,
+    "concepts": 3832,
+    "observations": 3845,
     "repos": 446,
-    "terms": 3824
+    "terms": 3821
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -245,6 +245,7 @@
     "lucidrains/x-transformers",
     "m87-labs/moondream",
     "magenta/ddsp",
+    "mangiucugna/json_repair",
     "mapillary/OpenSfM",
     "mbailey/voicemode",
     "meituan-longcat/LongCat-Video",
@@ -304,7 +305,6 @@
     "NVIDIA/warp",
     "NVIDIAGameWorks/kaolin",
     "NVlabs/ProtoMotions",
-    "NVlabs/Sana",
     "octodns/octodns",
     "ogx-ai/llama-stack",
     "omry/omegaconf",

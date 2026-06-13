@@ -1,22 +1,24 @@
 {
   "counts": {
-    "components": 6489,
-    "concepts": 3974,
-    "observations": 3993,
-    "repos": 850,
-    "terms": 3986
+    "components": 6519,
+    "concepts": 4021,
+    "observations": 4042,
+    "repos": 856,
+    "terms": 4032
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2KAbhishek/nvim2k",
     "43081j/picoquery",
     "4xian/claude-codex-api",
+    "abey79/vpype",
+    "abey79/vsketch",
     "AbianS/docker-db-manager",
     "absolute-version/commit-and-tag-version",
     "abubakarsiddik31/claude-skills-collection",
@@ -92,6 +94,7 @@
     "antfu/skills-npm",
     "antonbabenko/terraform-aws-devops",
     "apache/camel-examples",
+    "apache/datasketches-cpp",
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "apache/rocketmq-client-cpp",
@@ -140,6 +143,7 @@
     "badgen/badgen",
     "badlogic/pi-share-hf",
     "baidu-baige/LoongFlow",
+    "bazel-contrib/rules_foreign_cc",
     "bazel-contrib/rules_oci",
     "bazelbuild/bazel-skylib",
     "bbatsov/super-save",
@@ -691,6 +695,7 @@
     "pyodide/micropip",
     "pypa/auditwheel",
     "pypa/pyproject-hooks",
+    "pytest-dev/pytest-rerunfailures",
     "python-hyper/uritemplate",
     "python/typing_extensions",
     "queryverse/Query.jl",
@@ -762,6 +767,7 @@
     "slsa-framework/slsa-github-generator",
     "smarco/WFA2-lib",
     "solidjs/templates",
+    "Solo5/solo5",
     "sparsemat/sprs",
     "spesmilo/electrumx",
     "spring-ai-alibaba/Lynxe",

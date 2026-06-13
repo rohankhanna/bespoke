@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2225,
-    "concepts": 2297,
-    "observations": 2300,
-    "repos": 276,
-    "terms": 2277
+    "concepts": 2285,
+    "observations": 2288,
+    "repos": 274,
+    "terms": 2266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
@@ -40,7 +40,6 @@
     "BinomialLLC/basis_universal",
     "bitcoin-core/secp256k1",
     "Blynk-Technologies/blynk-library",
-    "boazsegev/facil.io",
     "boostorg/beast",
     "boostorg/pfr",
     "brave/brave-core",
@@ -272,7 +271,6 @@
     "unum-cloud/USearch",
     "util-linux/util-linux",
     "uxlfoundation/oneTBB",
-    "vectorclass/version2",
     "vincentlaucsb/csv-parser",
     "WebAssembly/wasi-libc",
     "webmproject/libwebp",

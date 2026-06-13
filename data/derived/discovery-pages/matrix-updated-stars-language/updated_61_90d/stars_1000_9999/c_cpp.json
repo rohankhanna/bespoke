@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 342,
-    "concepts": 416,
-    "observations": 420,
-    "repos": 75,
-    "terms": 418
+    "concepts": 428,
+    "observations": 432,
+    "repos": 77,
+    "terms": 429
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "ada-url/ada",
     "alembic/alembic",
@@ -22,6 +22,7 @@
     "asg017/sqlite-vec",
     "ashvardanian/StringZilla",
     "bcrypt-ruby/bcrypt-ruby",
+    "boazsegev/facil.io",
     "bugaevc/wl-clipboard",
     "cameron314/readerwriterqueue",
     "cdown/clipmenu",
@@ -83,6 +84,7 @@
     "tinyobjloader/tinyobjloader",
     "TuGraph-family/tugraph-db",
     "uNetworking/uSockets",
+    "vectorclass/version2",
     "void-linux/xbps",
     "vstakhov/libucl",
     "WebAssembly/wabt",

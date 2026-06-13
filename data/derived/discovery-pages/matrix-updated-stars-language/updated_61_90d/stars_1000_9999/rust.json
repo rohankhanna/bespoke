@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 377,
-    "concepts": 299,
-    "observations": 306,
-    "repos": 58,
-    "terms": 297
+    "components": 380,
+    "concepts": 301,
+    "observations": 308,
+    "repos": 59,
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -59,6 +59,7 @@
     "pop-os/cosmic-text",
     "rust-cli/confy",
     "rust-lang/futures-rs",
+    "rust-lang/log",
     "Rust-SDL2/rust-sdl2",
     "rust-windowing/winit",
     "serde-rs/json",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 90,
-    "observations": 92,
-    "repos": 19,
-    "terms": 89
+    "components": 92,
+    "concepts": 104,
+    "observations": 106,
+    "repos": 20,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
@@ -29,6 +29,7 @@
     "guyboertje/jrjackson",
     "ipld/java-cid",
     "iterate-ch/rococoa",
+    "kurrent-io/KurrentDB-Client-Java",
     "multiformats/java-multibase",
     "padreati/rapaio",
     "smithy-lang/smithy-dafny",

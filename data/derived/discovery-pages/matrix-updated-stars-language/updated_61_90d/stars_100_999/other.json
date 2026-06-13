@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1217,
-    "concepts": 958,
-    "observations": 961,
-    "repos": 222,
-    "terms": 956
+    "components": 1224,
+    "concepts": 967,
+    "observations": 970,
+    "repos": 223,
+    "terms": 965
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -47,6 +47,7 @@
     "babashka/bbin",
     "babashka/cli",
     "babashka/neil",
+    "bazel-contrib/rules_foreign_cc",
     "bazel-contrib/rules_oci",
     "bazelbuild/bazel-skylib",
     "bbatsov/super-save",

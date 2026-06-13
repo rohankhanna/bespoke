@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 24613,
-    "concepts": 10499,
-    "observations": 10538,
-    "repos": 993,
-    "terms": 10487
+    "components": 24577,
+    "concepts": 10473,
+    "observations": 10512,
+    "repos": 992,
+    "terms": 10461
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-13T07:48:04.793721+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -715,7 +715,6 @@
     "oracle/graal",
     "oraios/serena",
     "orhun/git-cliff",
-    "ory/hydra",
     "ory/kratos",
     "ostris/ai-toolkit",
     "othneildrew/Best-README-Template",
