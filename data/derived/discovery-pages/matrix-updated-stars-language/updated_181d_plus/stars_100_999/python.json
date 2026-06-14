@@ -3,7 +3,7 @@
     "components": 1280,
     "concepts": 5694,
     "observations": 5699,
-    "repos": 1901,
+    "repos": 1902,
     "terms": 5526
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1903,6 +1903,7 @@
     "zhengyuf/IMavatar",
     "zhengyuf/PointAvatar",
     "zhiyiYo/Alpha-Gobang-Zero",
+    "zhiyuanyou/DeQA-Score",
     "ZhuiyiTechnology/t5-pegasus",
     "ZhuiyiTechnology/WoBERT",
     "zhutmost/lsq-net",

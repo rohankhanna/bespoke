@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5410,
-    "concepts": 3554,
-    "observations": 3564,
-    "repos": 887,
-    "terms": 3537
+    "components": 5436,
+    "concepts": 3561,
+    "observations": 3571,
+    "repos": 888,
+    "terms": 3544
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -73,6 +73,7 @@
     "angr/vex",
     "ankane/groupdate.sql",
     "ankane/kms_encrypted",
+    "antfu-collective/bumpp",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
     "antfu/eslint-plugin-antfu",
@@ -846,6 +847,7 @@
     "Visual-Agent/DeepEyesV2",
     "vlaaad/reveal",
     "vuejs/vue-eslint-parser",
+    "w3c/navigation-timing",
     "walles/px",
     "walles/riff",
     "watson/bonjour",
@@ -893,7 +895,6 @@
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
-    "zhiyuanyou/DeQA-Score",
     "zippoxer/recall",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
     "zkcrypto/bls12_381",

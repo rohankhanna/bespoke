@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3327,
+    "components": 3353,
     "concepts": 1968,
     "observations": 1975,
-    "repos": 531,
+    "repos": 533,
     "terms": 1964
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -293,6 +293,7 @@
     "hashicorp/hello-vault-dotnet",
     "hashicorp/vault-plugin-auth-kerberos",
     "haskell-actions/run-fourmolu",
+    "haskell-actions/setup",
     "haskell/ghcup-setup",
     "HaxeFlixel/flixel-docs",
     "haxeui/haxeui-guides",
@@ -311,6 +312,7 @@
     "i18next/i18next-icu",
     "iamsashank09/llm-wiki-kit",
     "ibhagwan/ts-vimdoc.nvim",
+    "IcyFish332/T3RL",
     "idanarye/nu_plugin_skim",
     "idodov/RedAlert",
     "idris-community/idris2-nvim",

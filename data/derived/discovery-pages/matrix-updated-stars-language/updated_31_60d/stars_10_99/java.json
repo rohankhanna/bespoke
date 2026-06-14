@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 183,
-    "observations": 184,
-    "repos": 44,
-    "terms": 180
+    "components": 204,
+    "concepts": 189,
+    "observations": 190,
+    "repos": 45,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
@@ -45,6 +45,7 @@
     "jpmml/jpmml-r",
     "kirill-grouchnikov/ephemeral",
     "m2e-code-quality/m2e-code-quality",
+    "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "mukel/gemma4.java",

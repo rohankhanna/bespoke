@@ -3,7 +3,7 @@
     "components": 118,
     "concepts": 92,
     "observations": 92,
-    "repos": 36,
+    "repos": 35,
     "terms": 89
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "agenmod/distill-protocol-skill",
@@ -27,7 +27,6 @@
     "Boulaouaney/timmx",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
-    "cognizant-ai-lab/neuro-san-cc",
     "conda-forge/cupy-feedstock",
     "CoolCat467/idlemypyextension",
     "danielrosehill/claude-slash-commands",

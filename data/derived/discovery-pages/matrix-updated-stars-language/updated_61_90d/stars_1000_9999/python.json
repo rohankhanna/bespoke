@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 926,
-    "observations": 926,
-    "repos": 148,
-    "terms": 916
+    "components": 658,
+    "concepts": 944,
+    "observations": 944,
+    "repos": 151,
+    "terms": 934
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -89,6 +89,7 @@
     "lanpa/tensorboardX",
     "Lightning-AI/LitServe",
     "linkchecker/linkchecker",
+    "LLaVA-VL/LLaVA-NeXT",
     "LorenEteval/Furious",
     "meta-pytorch/attention-gym",
     "michaelfeil/infinity",
@@ -101,10 +102,12 @@
     "mido/mido",
     "miguelgrinberg/python-socketio",
     "miiton/Cica",
+    "MiniMax-AI/MiniMax-MCP",
     "miolini/autoresearch-macos",
     "mjansson/rpmalloc",
     "ml-explore/mlx-examples",
     "mll-lab-nu/RAGEN",
+    "modelscope/ms-agent",
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",

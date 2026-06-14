@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1919,
-    "concepts": 311,
-    "observations": 312,
-    "repos": 65,
-    "terms": 320
+    "components": 1943,
+    "concepts": 312,
+    "observations": 313,
+    "repos": 66,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -20,6 +20,7 @@
     "addyosmani/chatty",
     "agentscope-ai/agentscope-studio",
     "akshaykmr/teletype",
+    "antfu-collective/bumpp",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
     "antfu/eslint-plugin-antfu",

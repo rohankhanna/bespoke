@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 899,
-    "concepts": 993,
-    "observations": 1003,
-    "repos": 170,
-    "terms": 988
+    "components": 911,
+    "concepts": 1022,
+    "observations": 1032,
+    "repos": 172,
+    "terms": 1017
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -113,6 +113,7 @@
     "lunarmodules/busted",
     "macvim-dev/macvim",
     "MagicDuck/grug-far.nvim",
+    "MahApps/MahApps.Metro",
     "manzaltu/claude-code-ide.el",
     "MattesGroeger/vim-bookmarks",
     "mattn/vim-gist",
@@ -121,6 +122,7 @@
     "mfussenegger/nvim-dap",
     "mfussenegger/nvim-lint",
     "michalmuskala/jason",
+    "microsoft/ai-dev-gallery",
     "microsoft/vscode-codicons",
     "moby/vpnkit",
     "ndmitchell/ghcid",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 458,
-    "observations": 459,
-    "repos": 82,
-    "terms": 449
+    "components": 314,
+    "concepts": 454,
+    "observations": 455,
+    "repos": 81,
+    "terms": 445
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -63,7 +63,6 @@
     "leethomason/tinyxml2",
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
-    "libsndfile/libsndfile",
     "lieff/minimp3",
     "martinus/unordered_dense",
     "memononen/nanovg",

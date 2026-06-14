@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4154,
-    "concepts": 3182,
-    "observations": 3190,
-    "repos": 626,
-    "terms": 3152
+    "components": 4150,
+    "concepts": 3178,
+    "observations": 3186,
+    "repos": 624,
+    "terms": 3148
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -293,7 +293,6 @@
     "hpjansson/chafa",
     "huggingface/Math-Verify",
     "huggingface/transformers.js-examples",
-    "hustvl/LightningDiT",
     "hustvl/VAD",
     "IBM/Project_CodeNet",
     "icecc/icecream",
@@ -359,7 +358,6 @@
     "libgit2/rugged",
     "libimobiledevice/idevicerestore",
     "librespot-org/librespot",
-    "libsndfile/libsndfile",
     "lieff/minimp3",
     "linebender/tiny-skia",
     "liquidmetal-dev/flintlock",

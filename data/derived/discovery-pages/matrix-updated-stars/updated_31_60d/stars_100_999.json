@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 21093,
-    "concepts": 12127,
-    "observations": 12171,
-    "repos": 2024,
-    "terms": 12198
+    "components": 21086,
+    "concepts": 12112,
+    "observations": 12156,
+    "repos": 2021,
+    "terms": 12183
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -1085,7 +1085,6 @@
     "JuliaPackaging/Yggdrasil",
     "JuliaPy/CondaPkg.jl",
     "JuliaRegistries/General",
-    "JuliaRegistries/Registrator.jl",
     "JuliaStats/MultivariateStats.jl",
     "JuliaStats/RDatasets.jl",
     "JuliaSymbolics/SymbolicUtils.jl",
@@ -1332,7 +1331,6 @@
     "milvus-io/milvus-sdk-java",
     "milvus-io/milvus-sdk-node",
     "MindWorkAI/AI-Studio",
-    "MiniMax-AI/VTP",
     "mit-ll-responsible-ai/hydra-zen",
     "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
@@ -1978,7 +1976,6 @@
     "victorgarciaesgi/regle",
     "vim-fuzzbox/fuzzbox.vim",
     "vim/colorschemes",
-    "ViTAE-Transformer/ViTAE-Transformer",
     "vladimir-kotikov/clink-completions",
     "vllm-project/flash-attention",
     "vllm-project/recipes",

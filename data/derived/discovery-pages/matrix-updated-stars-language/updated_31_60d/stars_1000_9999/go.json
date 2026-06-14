@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2259,
-    "concepts": 2201,
-    "observations": 2212,
-    "repos": 238,
-    "terms": 2202
+    "components": 2252,
+    "concepts": 2194,
+    "observations": 2205,
+    "repos": 237,
+    "terms": 2195
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -79,7 +79,6 @@
     "containerd/stargz-snapshotter",
     "containernetworking/plugins",
     "containers/buildah",
-    "ContentSquare/chproxy",
     "cortexproject/cortex",
     "cosmos/cosmos-sdk",
     "crazy-max/diun",

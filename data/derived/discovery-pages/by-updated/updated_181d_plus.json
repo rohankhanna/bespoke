@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49309,
-    "concepts": 35077,
-    "observations": 35143,
-    "repos": 12656,
-    "terms": 34630
+    "components": 49313,
+    "concepts": 35081,
+    "observations": 35147,
+    "repos": 12659,
+    "terms": 34634
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -5887,6 +5887,7 @@
     "hustvl/GKT",
     "hustvl/HAIS",
     "hustvl/LaneGAP",
+    "hustvl/LightningDiT",
     "hustvl/MapTR",
     "hustvl/Symphonies",
     "hustvl/Vim",
@@ -7462,6 +7463,7 @@
     "LibreTranslate/Locomotive",
     "librtlsdr/librtlsdr",
     "libsndfile/libsamplerate",
+    "libsndfile/libsndfile",
     "libssh2/www",
     "libvips/ruby-vips",
     "libxsmm/libxsmm-dnn",
@@ -12598,6 +12600,7 @@
     "zhipeng-jia/snappyjs",
     "zhiqi-li/storage",
     "zhiyiYo/Alpha-Gobang-Zero",
+    "zhiyuanyou/DeQA-Score",
     "ZHKKKe/MODNet",
     "ZHKKKe/PPM",
     "ZHO-ZHO-ZHO/ComfyUI-InstantID",

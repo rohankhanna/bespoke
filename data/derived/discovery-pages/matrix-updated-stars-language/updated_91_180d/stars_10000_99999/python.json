@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 249,
-    "observations": 249,
-    "repos": 35,
-    "terms": 248
+    "components": 193,
+    "concepts": 268,
+    "observations": 268,
+    "repos": 36,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -27,6 +27,7 @@
     "facebookresearch/vggt",
     "FoundationAgents/MetaGPT",
     "FoundationAgents/OpenManus",
+    "FunAudioLLM/CosyVoice",
     "IdreesInc/Monocraft",
     "Jiayi-Pan/TinyZero",
     "jsvine/pdfplumber",

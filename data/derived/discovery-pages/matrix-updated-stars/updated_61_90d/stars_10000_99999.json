@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2630,
-    "concepts": 1411,
-    "observations": 1415,
-    "repos": 203,
-    "terms": 1394
+    "components": 2627,
+    "concepts": 1392,
+    "observations": 1396,
+    "repos": 202,
+    "terms": 1375
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -83,7 +83,6 @@
     "fatih/vim-go",
     "fingerprintjs/fingerprintjs",
     "fishaudio/fish-speech",
-    "FunAudioLLM/CosyVoice",
     "g-truc/glm",
     "githubnext/monaspace",
     "glfw/glfw",

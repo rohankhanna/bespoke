@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6759,
-    "concepts": 4174,
-    "observations": 4195,
-    "repos": 890,
-    "terms": 4189
+    "components": 6740,
+    "concepts": 4182,
+    "observations": 4203,
+    "repos": 891,
+    "terms": 4197
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "2KAbhishek/nvim2k",
@@ -92,7 +92,6 @@
     "ankane/transformers-ruby",
     "ankane/vega-ruby",
     "ankane/xgboost-ruby",
-    "antfu-collective/bumpp",
     "antfu/skills-npm",
     "antonbabenko/terraform-aws-devops",
     "apache/camel-examples",
@@ -484,6 +483,7 @@
     "JuliaPluto/PlutoUI.jl",
     "JuliaPy/PyPlot.jl",
     "JuliaQuant/MarketData.jl",
+    "JuliaRegistries/Registrator.jl",
     "JUNJIE99/MLVU",
     "JunoLab/Weave.jl",
     "jupyterlab/extension-examples",
@@ -600,6 +600,7 @@
     "MiloszKrajewski/K4os.Compression.LZ4",
     "milvus-io/milvus-sdk-csharp",
     "MinimalFuture/AgentMesh",
+    "MiniMax-AI/VTP",
     "minio/directpv",
     "minio/highwayhash",
     "mirage/mirage-www",
@@ -870,10 +871,10 @@
     "vim-denops/denops.vim",
     "vim-jp/vital.vim",
     "Vinyzu/Botright",
+    "ViTAE-Transformer/ViTAE-Transformer",
     "vovkos/doxyrest",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
-    "w3c/navigation-timing",
     "w3c/web-performance",
     "w3c/webidl2.js",
     "wdas/ptex",

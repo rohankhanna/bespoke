@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9659,
-    "concepts": 4479,
-    "observations": 4500,
-    "repos": 1025,
-    "terms": 4526
+    "components": 9637,
+    "concepts": 4485,
+    "observations": 4506,
+    "repos": 1024,
+    "terms": 4532
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -472,7 +472,6 @@
     "hashicorp/web-unified-docs",
     "hashintel/labs",
     "haskell-actions/hlint-scan",
-    "haskell-actions/setup",
     "haskell/ghcup-metadata",
     "haskell/security-advisories",
     "hazelcast/hazelcast-cpp-client",
@@ -525,7 +524,6 @@
     "iconify/iconify-tailwind",
     "iconify/tools",
     "ICRAR/crc32c",
-    "IcyFish332/T3RL",
     "IDAES/idaes-ext",
     "ideditor/schema-builder",
     "Infisical/go-sdk",
@@ -679,6 +677,7 @@
     "microsoft/microsoft-foundry-for-vscode",
     "microsoft/olive-recipes",
     "microsoft/openjdk-docker",
+    "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "milvus-io/community",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 534,
-    "concepts": 558,
-    "observations": 558,
-    "repos": 89,
-    "terms": 549
+    "components": 541,
+    "concepts": 565,
+    "observations": 565,
+    "repos": 90,
+    "terms": 556
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
@@ -39,6 +39,7 @@
     "cloudnativelabs/kube-router",
     "cloudwego/netpoll",
     "CloudyKit/jet",
+    "ContentSquare/chproxy",
     "coocood/freecache",
     "cortesi/devd",
     "darccio/mergo",

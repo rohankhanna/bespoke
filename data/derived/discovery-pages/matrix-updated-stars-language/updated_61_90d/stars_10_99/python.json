@@ -3,7 +3,7 @@
     "components": 418,
     "concepts": 387,
     "observations": 387,
-    "repos": 98,
+    "repos": 99,
     "terms": 389
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -63,6 +63,7 @@
     "hynek/argon2-cffi-bindings",
     "HyperionGray/trio-chrome-devtools-protocol",
     "iamsashank09/llm-wiki-kit",
+    "IcyFish332/T3RL",
     "idodov/RedAlert",
     "intel/ai-containers",
     "intel/vc-intrinsics",

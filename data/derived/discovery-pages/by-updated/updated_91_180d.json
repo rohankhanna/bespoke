@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14855,
-    "concepts": 9786,
-    "observations": 9816,
-    "repos": 2583,
-    "terms": 9750
+    "components": 14880,
+    "concepts": 9808,
+    "observations": 9838,
+    "repos": 2584,
+    "terms": 9772
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -231,6 +231,7 @@
     "ansible-community/collection_bot",
     "ansible-community/presentations",
     "AnswerDotAI/rerankers",
+    "antfu-collective/bumpp",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu-collective/vitesse",
     "antfu-collective/vitesse-lite",
@@ -650,6 +651,7 @@
     "codota/tabnine-nvim",
     "codymikol/neotest-kotlin",
     "cognitect/transit-format",
+    "cognizant-ai-lab/neuro-san-cc",
     "coin-or/CHiPPS-ALPS",
     "coin-or/coinbrew",
     "coin-or/Ipopt",
@@ -1031,6 +1033,7 @@
     "Fuco1/smartparens",
     "fudan-zvg/PVG",
     "fullstorydev/grpcurl",
+    "FunAudioLLM/CosyVoice",
     "gafniguy/4D-Facial-Avatars",
     "gajus/eslint-plugin-slonik",
     "gajus/eslint-plugin-sql",
@@ -1236,7 +1239,6 @@
     "humanlayer/humanlayer",
     "Humans-of-Julia/StaticWebPages.jl",
     "hustvl/DiffusionDriveV2",
-    "hustvl/LightningDiT",
     "hustvl/Senna",
     "hustvl/VAD",
     "hyparam/hightable",
@@ -1531,7 +1533,6 @@
     "libp2p/if-watch",
     "libp2p/js-libp2p-examples",
     "librespot-org/librespot",
-    "libsndfile/libsndfile",
     "lieff/minimp3",
     "lifepillar/vim-colortemplate",
     "lifepillar/vim-mucomplete",
@@ -2478,6 +2479,7 @@
     "volodya-lombrozo/neotest-ruby-minitest",
     "vorot93/libmdbx-rs",
     "vuejs/vue-eslint-parser",
+    "w3c/navigation-timing",
     "walles/px",
     "walles/riff",
     "wamp-proto/wamp-xbr",
@@ -2577,7 +2579,6 @@
     "ZhengPeng7/BiRefNet",
     "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
-    "zhiyuanyou/DeQA-Score",
     "zilliztech/kafka-connect-milvus",
     "zippoxer/recall",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",

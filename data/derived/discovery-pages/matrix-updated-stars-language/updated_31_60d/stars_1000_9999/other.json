@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3843,
-    "concepts": 3419,
-    "observations": 3436,
-    "repos": 450,
-    "terms": 3406
+    "components": 3831,
+    "concepts": 3390,
+    "observations": 3407,
+    "repos": 448,
+    "terms": 3377
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -275,7 +275,6 @@
     "MacPaw/OpenAI",
     "macports/macports-ports",
     "magit/forge",
-    "MahApps/MahApps.Metro",
     "MakieOrg/Makie.jl",
     "manateelazycat/lsp-bridge",
     "markdownlint/markdownlint",
@@ -287,7 +286,6 @@
     "mermaid-js/mermaid-live-editor",
     "MetaCubeX/metacubexd",
     "metosin/malli",
-    "microsoft/ai-dev-gallery",
     "microsoft/azurelinux",
     "microsoft/BotFramework-WebChat",
     "microsoft/CsWin32",

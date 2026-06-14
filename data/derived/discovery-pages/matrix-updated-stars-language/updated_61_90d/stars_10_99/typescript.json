@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 906,
+    "components": 932,
     "concepts": 155,
     "observations": 156,
-    "repos": 40,
+    "repos": 41,
     "terms": 159
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -33,6 +33,7 @@
     "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
     "gr2m/octokit-oauth-app-now-example",
+    "haskell-actions/setup",
     "haskell/ghcup-setup",
     "holochain/kangaroo-electron",
     "hyparam/demos",

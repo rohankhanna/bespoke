@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1026,
-    "concepts": 897,
-    "observations": 899,
-    "repos": 233,
-    "terms": 892
+    "components": 1028,
+    "concepts": 903,
+    "observations": 905,
+    "repos": 234,
+    "terms": 898
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -233,6 +233,7 @@
     "vim-php/phpctags",
     "VisionLearningGroup/VisionLearningGroup.github.io",
     "vlaaad/reveal",
+    "w3c/navigation-timing",
     "WebAssembly/esm-integration",
     "WebAssembly/tool-conventions",
     "whatwg/fs",

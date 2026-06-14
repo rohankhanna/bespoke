@@ -3,7 +3,7 @@
     "components": 500,
     "concepts": 933,
     "observations": 933,
-    "repos": 243,
+    "repos": 242,
     "terms": 926
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -255,7 +255,6 @@
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
-    "zhiyuanyou/DeQA-Score",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
   ]
 }

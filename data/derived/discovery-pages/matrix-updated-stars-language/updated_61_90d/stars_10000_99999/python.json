@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 334,
-    "concepts": 371,
-    "observations": 373,
-    "repos": 59,
-    "terms": 375
+    "components": 331,
+    "concepts": 352,
+    "observations": 354,
+    "repos": 58,
+    "terms": 356
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -34,7 +34,6 @@
     "facebook/prophet",
     "facebookresearch/detectron2",
     "fishaudio/fish-speech",
-    "FunAudioLLM/CosyVoice",
     "google/python-fire",
     "google/yapf",
     "gruns/icecream",

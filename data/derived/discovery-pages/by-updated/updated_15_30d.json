@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 6840,
-    "concepts": 3583,
-    "observations": 3599,
-    "repos": 431,
-    "terms": 3569
+    "components": 6836,
+    "concepts": 3577,
+    "observations": 3593,
+    "repos": 430,
+    "terms": 3563
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -268,7 +268,6 @@
     "microsoft/aspire",
     "microsoft/aspire-samples",
     "microsoft/Detours",
-    "microsoft/openjdk-jdk11u",
     "microsoft/PhiCookBook",
     "microsoft/PowerToys",
     "microsoft/vscode-js-debug",

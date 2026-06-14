@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10744,
-    "concepts": 9399,
-    "observations": 9412,
-    "repos": 2413,
-    "terms": 9264
+    "components": 10748,
+    "concepts": 9403,
+    "observations": 9416,
+    "repos": 2415,
+    "terms": 9268
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -985,6 +985,7 @@
     "huggingface/transfer-learning-conv-ai",
     "HumanAIGC/EMO",
     "hustvl/DiffusionDrive",
+    "hustvl/LightningDiT",
     "hustvl/MapTR",
     "hustvl/Vim",
     "HybridRobotics/whole_body_tracking",
@@ -1250,6 +1251,7 @@
     "libgit2/objective-git",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",
+    "libsndfile/libsndfile",
     "lifeiteng/vall-e",
     "Lifelong-Robot-Learning/LIBERO",
     "Lightning-AI/deep-learning-project-template",

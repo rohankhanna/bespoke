@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1170,
-    "concepts": 729,
-    "observations": 733,
-    "repos": 120,
-    "terms": 733
+    "components": 1173,
+    "concepts": 748,
+    "observations": 752,
+    "repos": 121,
+    "terms": 752
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -53,6 +53,7 @@
     "FoundationAgents/MetaGPT",
     "FoundationAgents/OpenManus",
     "fullstorydev/grpcurl",
+    "FunAudioLLM/CosyVoice",
     "git-up/GitUp",
     "github/copilot.vim",
     "go-chi/chi",

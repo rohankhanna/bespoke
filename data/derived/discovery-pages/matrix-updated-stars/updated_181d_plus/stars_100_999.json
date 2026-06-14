@@ -3,7 +3,7 @@
     "components": 15856,
     "concepts": 14375,
     "observations": 14403,
-    "repos": 4698,
+    "repos": 4699,
     "terms": 14147
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -4684,6 +4684,7 @@
     "zhengyuf/PointAvatar",
     "zhipeng-jia/snappyjs",
     "zhiyiYo/Alpha-Gobang-Zero",
+    "zhiyuanyou/DeQA-Score",
     "ZHKKKe/PPM",
     "ZhuiyiTechnology/t5-pegasus",
     "ZhuiyiTechnology/WoBERT",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 4,
-    "terms": 24
+    "components": 12,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 3,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
-    "microsoft/openjdk-jdk11u",
     "openjdk/jdk11u-dev",
     "openjdk/jdk17u-dev",
     "openjdk/jdk21u-dev"

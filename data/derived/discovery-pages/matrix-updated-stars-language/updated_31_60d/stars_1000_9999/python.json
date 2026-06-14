@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3399,
-    "concepts": 3812,
-    "observations": 3825,
-    "repos": 442,
-    "terms": 3802
+    "components": 3396,
+    "concepts": 3794,
+    "observations": 3807,
+    "repos": 439,
+    "terms": 3784
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -235,7 +235,6 @@
     "linkedin/Liger-Kernel",
     "LiveBench/LiveBench",
     "llamastack/llama-stack",
-    "LLaVA-VL/LLaVA-NeXT",
     "lmcinnes/umap",
     "LoRexxar/Kunlun-M",
     "ltdrdata/ComfyUI-Impact-Pack",
@@ -262,7 +261,6 @@
     "mikel-brostrom/boxmot",
     "MilesCranmer/PySR",
     "milvus-io/pymilvus",
-    "MiniMax-AI/MiniMax-MCP",
     "miurahr/aqtinstall",
     "mjun0812/flash-attention-prebuild-wheels",
     "mkdocs/catalog",
@@ -271,7 +269,6 @@
     "ModelCloud/GPTQModel",
     "modelscope/evalscope",
     "modelscope/modelscope",
-    "modelscope/ms-agent",
     "ModelTC/LightLLM",
     "ModelTC/LightX2V",
     "MoonshotAI/kimi-cli",

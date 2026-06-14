@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 464,
-    "concepts": 243,
-    "observations": 243,
-    "repos": 45,
-    "terms": 243
+    "components": 460,
+    "concepts": 237,
+    "observations": 237,
+    "repos": 44,
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -40,7 +40,6 @@
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "mesh-iit/cad-libraries",
-    "microsoft/openjdk-jdk11u",
     "mongodb/winkerberos",
     "mono/skia",
     "mozilla-ai/otari",

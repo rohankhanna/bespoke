@@ -3,7 +3,7 @@
     "components": 1580,
     "concepts": 897,
     "observations": 898,
-    "repos": 240,
+    "repos": 239,
     "terms": 881
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "1sh1ro/liangxi-skills",
@@ -82,7 +82,6 @@
     "Circuitscape/www.circuitscape.org",
     "clearbluejar/ghidra-python",
     "cloudfoundry/bosh-aws-light-stemcell-builder",
-    "cognizant-ai-lab/neuro-san-cc",
     "collective/mrs-developer",
     "conda-forge/cupy-feedstock",
     "conda-forge/modin-feedstock",

@@ -3,7 +3,7 @@
     "components": 995,
     "concepts": 3911,
     "observations": 3913,
-    "repos": 991,
+    "repos": 992,
     "terms": 3839
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -389,6 +389,7 @@
     "huggingface/distil-whisper",
     "huggingface/transfer-learning-conv-ai",
     "hustvl/DiffusionDrive",
+    "hustvl/LightningDiT",
     "hustvl/MapTR",
     "hustvl/Vim",
     "HybridRobotics/whole_body_tracking",

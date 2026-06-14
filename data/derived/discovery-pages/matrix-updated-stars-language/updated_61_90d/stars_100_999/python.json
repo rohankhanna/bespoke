@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 706,
-    "concepts": 844,
-    "observations": 851,
-    "repos": 182,
-    "terms": 843
+    "concepts": 856,
+    "observations": 863,
+    "repos": 184,
+    "terms": 855
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "abey79/vpype",
     "abey79/vsketch",
@@ -127,6 +127,7 @@
     "microsoft/WindowsAgentArena",
     "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
+    "MiniMax-AI/VTP",
     "miurahr/py7zr",
     "mkdocstrings/griffe",
     "mlcommons/algorithmic-efficiency",
@@ -184,6 +185,7 @@
     "twisted/towncrier",
     "urschrei/simplification",
     "Vinyzu/Botright",
+    "ViTAE-Transformer/ViTAE-Transformer",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",
     "wuphilipp/gello_software",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 2208,
-    "concepts": 2112,
-    "observations": 2119,
-    "repos": 379,
-    "terms": 2119
+    "concepts": 2100,
+    "observations": 2107,
+    "repos": 377,
+    "terms": 2107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T06:08:35.249218+00:00",
+  "generated_at": "2026-06-14T08:02:42.052624+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -252,7 +252,6 @@
     "microsoft/multilspy",
     "microsoft/onnxscript",
     "microsoft/RedStone",
-    "MiniMax-AI/VTP",
     "mit-ll-responsible-ai/hydra-zen",
     "mlc-ai/relax",
     "mll-lab-nu/VAGEN",
@@ -381,7 +380,6 @@
     "uxlfoundation/oneAPI-spec",
     "vale-cli/packages",
     "vega/vega-datasets",
-    "ViTAE-Transformer/ViTAE-Transformer",
     "vllm-project/flash-attention",
     "volcengine/volcengine-python-sdk",
     "voxel51/fiftyone-brain",
