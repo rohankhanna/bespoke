@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 95,
-    "terms": 139
+    "components": 243,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 91,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -37,7 +37,6 @@
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
-    "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Model-Identifier",
     "danielrosehill/Claude-Security-Checkup-Plugin",
@@ -69,13 +68,11 @@
     "guaguastandup/guaguastandup",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",
-    "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
     "jrsoftware/is7z",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "Keats/os_info",
     "kitknox/helix",
-    "KSXGitHub/personal-crates",
     "kylebarron/pyo3-file",
     "llamagate/diff",
     "maeste/a2a-tck",
@@ -93,7 +90,6 @@
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
     "openwdl/governance",
-    "praw-dev/.github",
     "prestodb/presto-dev",
     "puffyyy/PCSim",
     "saalfeldlab/n5-blosc",

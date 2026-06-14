@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 60
-- terms: 266
-- components: 251
-- concepts: 268
-- observations: 272
+- repos: 62
+- terms: 277
+- components: 263
+- concepts: 279
+- observations: 284
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [tarkah/tickrs](https://github.com/tarkah/tickrs) | 1576 | 2025-12-15T20:40:25Z | Rust | CLI | 8 | 7 | 8 | 8 |
+| [atanunq/viu](https://github.com/atanunq/viu) | 3156 | 2025-12-15T10:20:59Z | Rust | CLI | 3 | 5 | 3 | 4 |
 | [erg-lang/erg](https://github.com/erg-lang/erg) | 2855 | 2025-12-04T02:20:50Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [specta-rs/rspc](https://github.com/specta-rs/rspc) | 1376 | 2025-11-24T10:02:10Z | Rust | Web app | 4 | 2 | 4 | 4 |
 | [wilsonzlin/minify-html](https://github.com/wilsonzlin/minify-html) | 1145 | 2025-11-18T08:13:02Z | Rust | Infrastructure/tooling | 6 | 14 | 6 | 6 |
@@ -107,6 +109,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [koute/stdweb](https://github.com/koute/stdweb) | 3455 | 2024-02-28T12:11:10Z | Rust | CLI | 5 | 0 | 5 | 5 |
 | [gluon-lang/gluon](https://github.com/gluon-lang/gluon) | 3395 | 2024-12-06T11:24:24Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [racer-rust/racer](https://github.com/racer-rust/racer) | 3352 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [atanunq/viu](https://github.com/atanunq/viu) | 3156 | 2025-12-15T10:20:59Z | Rust | CLI | 3 | 5 | 3 | 4 |
 | [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) | 2973 | 2025-09-21T22:00:37Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [mtshiba/pylyzer](https://github.com/mtshiba/pylyzer) | 2869 | 2025-05-10T02:10:33Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 8 |
 | [watchexec/cargo-watch](https://github.com/watchexec/cargo-watch) | 2861 | 2025-01-14T14:57:47Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
@@ -127,6 +130,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RazrFalcon/svgcleaner](https://github.com/RazrFalcon/svgcleaner) | 1669 | 2021-10-30T13:53:34Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [mooman219/fontdue](https://github.com/mooman219/fontdue) | 1625 | 2025-05-25T08:34:03Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [asciinema/agg](https://github.com/asciinema/agg) | 1604 | 2025-10-22T16:10:59Z | Rust | CLI | 6 | 6 | 6 | 6 |
+| [tarkah/tickrs](https://github.com/tarkah/tickrs) | 1576 | 2025-12-15T20:40:25Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [gfx-rs/naga](https://github.com/gfx-rs/naga) | 1565 | 2023-11-09T17:57:01Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [BurntSushi/walkdir](https://github.com/BurntSushi/walkdir) | 1499 | 2024-12-31T13:29:59Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [lnx-search/lnx](https://github.com/lnx-search/lnx) | 1443 | 2025-10-14T23:51:26Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 10 |

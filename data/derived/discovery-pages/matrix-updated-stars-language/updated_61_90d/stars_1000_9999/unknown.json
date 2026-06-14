@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 11,
-    "terms": 19
+    "components": 22,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 12,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
     "devcontainers/spec",
     "esbatmop/MNBVC",
+    "FuelLabs/fuel-specs",
     "FunnyWolf/Viper",
     "libp2p/libp2p",
     "lxgw/LxgwWenKai-Screen",

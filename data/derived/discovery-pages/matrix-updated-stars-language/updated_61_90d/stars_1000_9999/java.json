@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 12,
-    "terms": 71
+    "components": 117,
+    "concepts": 86,
+    "observations": 87,
+    "repos": 13,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "bobbylight/RSyntaxTextArea",
     "http-kit/http-kit",
@@ -22,6 +22,7 @@
     "objectbox/objectbox-java",
     "openjdk/jmh",
     "react-native-share/react-native-share",
+    "RoaringBitmap/RoaringBitmap",
     "spring-projects/spring-ai-examples",
     "spring-projects/spring-restdocs",
     "stleary/JSON-java",

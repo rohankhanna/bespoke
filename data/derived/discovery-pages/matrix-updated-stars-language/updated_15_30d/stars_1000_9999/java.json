@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 27,
-    "observations": 27,
+    "components": 44,
+    "concepts": 33,
+    "observations": 33,
     "repos": 4,
-    "terms": 27
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
-    "ag2s20150909/TTS",
+    "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
     "helidon-io/helidon",
     "java-native-access/jna"

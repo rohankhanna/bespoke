@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 862,
-    "concepts": 339,
-    "observations": 339,
-    "repos": 242,
-    "terms": 368
+    "concepts": 336,
+    "observations": 336,
+    "repos": 239,
+    "terms": 365
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -101,7 +101,6 @@
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
-    "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
@@ -152,7 +151,6 @@
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/lan-manager-plugin",
-    "danielrosehill/Live-Typing-UX-Research",
     "danielrosehill/LLM-Council-Decide",
     "danielrosehill/LLM-Council-Grounded",
     "danielrosehill/LLM-Council-Homehunter",
@@ -160,7 +158,6 @@
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
     "danielrosehill/Repo-Starters-And-Templates-Index",
-    "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Responsible-Agent-Skill-Development",
     "danielrosehill/Speech-And-ASR-Evaluations",
     "databendlabs/databend-base",

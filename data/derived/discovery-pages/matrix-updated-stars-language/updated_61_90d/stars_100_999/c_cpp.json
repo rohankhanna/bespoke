@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 305,
-    "concepts": 514,
-    "observations": 517,
-    "repos": 100,
-    "terms": 509
+    "components": 342,
+    "concepts": 534,
+    "observations": 537,
+    "repos": 104,
+    "terms": 529
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -21,6 +21,7 @@
     "ankane/faiss-ruby",
     "apache/datasketches-cpp",
     "apache/rocketmq-client-cpp",
+    "appium/appium-mac2-driver",
     "arduino-libraries/Ethernet",
     "arduino-libraries/Servo",
     "artemsen/swayimg",
@@ -65,7 +66,9 @@
     "libLAS/libLAS",
     "libxsmm/libxsmm",
     "littlefs-project/littlefs-fuse",
+    "Livox-SDK/Livox-SDK2",
     "Livox-SDK/livox_ros_driver2",
+    "llnl/CHAI",
     "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "mapbox/mapnik-vector-tile",
@@ -82,6 +85,7 @@
     "nfrechette/rtm",
     "ng-log/ng-log",
     "nhielost/obs-midi-mg",
+    "NiklasRosenstein/pbzx",
     "NiLuJe/FBInk",
     "NiLuJe/kfmon",
     "objectbox/objectbox-c",
@@ -96,10 +100,10 @@
     "roboception/cvkit",
     "rusty1s/pytorch_cluster",
     "samtools/bcftools",
+    "SHI-Labs/NATTEN",
     "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
     "Solo5/solo5",
-    "Tomas-M/iotop",
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
     "triton-inference-server/backend",

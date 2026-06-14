@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 558,
-    "concepts": 416,
-    "observations": 420,
-    "repos": 199,
-    "terms": 410
+    "components": 573,
+    "concepts": 419,
+    "observations": 423,
+    "repos": 201,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
+    "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
     "adamchalmers/fountain-rs",
@@ -185,6 +186,7 @@
     "servo/unicode-bidi",
     "softprops/envy-store",
     "sonhal/wasm-oauth-filter",
+    "spacemeshos/post-rs",
     "srcres258/learnopengl-rust",
     "stainless-steel/md5",
     "tamuhey/textspan",

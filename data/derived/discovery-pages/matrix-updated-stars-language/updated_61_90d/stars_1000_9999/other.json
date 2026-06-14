@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 876,
-    "concepts": 969,
-    "observations": 977,
-    "repos": 165,
-    "terms": 965
+    "components": 899,
+    "concepts": 993,
+    "observations": 1003,
+    "repos": 170,
+    "terms": 988
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
     "abo-abo/swiper",
+    "AdguardTeam/AdguardForiOS",
     "airblade/vim-gitgutter",
     "akermu/emacs-libvterm",
     "Alamofire/AlamofireImage",
@@ -120,6 +121,7 @@
     "mfussenegger/nvim-dap",
     "mfussenegger/nvim-lint",
     "michalmuskala/jason",
+    "microsoft/vscode-codicons",
     "moby/vpnkit",
     "ndmitchell/ghcid",
     "ndmitchell/hlint",
@@ -137,6 +139,7 @@
     "oxalorg/sakura",
     "pardeike/Harmony",
     "phodal/auto-dev",
+    "Project-MONAI/tutorials",
     "ptsochantaris/trailer",
     "puppetlabs/puppet",
     "pyenv-win/pyenv-win",
@@ -176,6 +179,8 @@
     "WebReflection/linkedom",
     "whitequark/parser",
     "wincent/command-t",
+    "wojtekmach/req",
+    "yonaskolb/XcodeGen",
     "yuhonas/free-exercise-db",
     "zarazhangrui/codebase-to-course",
     "zjunlp/EasyEdit"

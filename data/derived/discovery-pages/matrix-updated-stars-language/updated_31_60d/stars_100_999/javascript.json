@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2947,
-    "concepts": 643,
-    "observations": 652,
-    "repos": 128,
-    "terms": 662
+    "components": 2798,
+    "concepts": 618,
+    "observations": 627,
+    "repos": 121,
+    "terms": 631
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -31,7 +31,6 @@
     "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
     "bcomnes/npm-run-all2",
-    "bmad-code-org/bmad-module-game-dev-studio",
     "Brooooooklyn/snappy",
     "browserslist/update-db",
     "Calcium-Ion/new-api-key-tool",
@@ -63,7 +62,6 @@
     "fastify/fastify-autoload",
     "firebase/snippets-web",
     "fontello/svg2ttf",
-    "gatsbyjs/gatsby-starter-hello-world",
     "GDevelopApp/GDevelop-examples",
     "gitleaks/gitleaks-action",
     "GoogleCloudPlatform/google-cloud-node-todos",
@@ -82,8 +80,6 @@
     "ipfs/aegir",
     "j9t/html-minifier-next",
     "jest-community/jest-junit",
-    "karma-runner/karma-coverage",
-    "karma-runner/karma-jasmine",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
     "kriszyp/lmdb-js",
@@ -94,7 +90,6 @@
     "lobehub/lobe-editor",
     "marwin1991/profile-technology-icons",
     "Mathpix/mathpix-markdown-it",
-    "mattgodbolt/jsbeeb",
     "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
     "mdn/fred",
@@ -104,7 +99,6 @@
     "nodejs/admin",
     "nodejs/TSC",
     "octokit/graphql-schema",
-    "octokit/request-action",
     "OffchainLabs/arbitrum-docs",
     "openfl/lime",
     "oss-serverless/serverless",
@@ -126,7 +120,6 @@
     "semantic-release/npm",
     "sethgammon/citadel",
     "speced/respec",
-    "stripe-samples/accept-a-payment",
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",
     "Taritsyn/BundleTransformer",

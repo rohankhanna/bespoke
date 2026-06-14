@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1863,
-    "concepts": 1253,
-    "observations": 1264,
-    "repos": 213,
-    "terms": 1253
+    "components": 1869,
+    "concepts": 1254,
+    "observations": 1265,
+    "repos": 211,
+    "terms": 1254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0x676e67/wreq",
@@ -31,6 +31,7 @@
     "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
+    "alloy-rs/svm-rs",
     "ankane/tokenizers-ruby",
     "antoniusnaumann/cargo-swift",
     "Anush008/fastembed-rs",
@@ -109,7 +110,6 @@
     "FuelLabs/fuel-vm",
     "g-plane/malva",
     "g-plane/markup_fmt",
-    "gdesmott/system-deps",
     "georust/geojson",
     "GNOME/librsvg",
     "google/mdbook-i18n-helpers",
@@ -141,7 +141,6 @@
     "lindera/lindera",
     "lu-zero/cargo-c",
     "marshallpierce/rust-base64",
-    "matrix-org/seshat",
     "matter-labs/zksync-airbender",
     "MercuryTechnologies/ghciwatch",
     "messense/jieba-rs",
@@ -155,7 +154,6 @@
     "near/near-sdk-rs",
     "nielsgroen/claude-tmux",
     "nix-community/harmonia",
-    "nix-community/lorri",
     "nix-community/namaka",
     "NixOS/nix-installer",
     "Nullus157/async-compression",

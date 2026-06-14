@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 297
+- repos: 298
 - terms: 663
-- components: 564
+- components: 567
 - concepts: 669
 - observations: 670
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [adamharrison/lite-xl-terminal](https://github.com/adamharrison/lite-xl-terminal) | 54 | 2025-12-15T21:18:43Z | C/C++ | CLI | 0 | 3 | 0 | 0 |
 | [dfki-ric/pclomp](https://github.com/dfki-ric/pclomp) | 22 | 2025-12-12T10:53:43Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [graalvm/polyglot-embedding-demo](https://github.com/graalvm/polyglot-embedding-demo) | 35 | 2025-12-10T12:23:06Z | C/C++ | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [xtensor-stack/xtensor-r](https://github.com/xtensor-stack/xtensor-r) | 90 | 2025-12-06T21:10:45Z | C/C++ | Infrastructure/tooling | 8 | 3 | 8 | 8 |
@@ -427,6 +428,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eliemichel/sdl2webgpu](https://github.com/eliemichel/sdl2webgpu) | 56 | 2025-04-18T21:15:32Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [kobolabs/liblzma](https://github.com/kobolabs/liblzma) | 56 | 2024-07-02T15:07:33Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [elem-azar-unis/CRDT-Redis](https://github.com/elem-azar-unis/CRDT-Redis) | 55 | 2023-03-14T07:03:32Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
+| [adamharrison/lite-xl-terminal](https://github.com/adamharrison/lite-xl-terminal) | 54 | 2025-12-15T21:18:43Z | C/C++ | CLI | 0 | 3 | 0 | 0 |
 | [YuliangXiu/bvh-distance-queries](https://github.com/YuliangXiu/bvh-distance-queries) | 54 | 2025-07-26T08:21:31Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [thunlp/FR-Spec](https://github.com/thunlp/FR-Spec) | 54 | 2025-07-15T02:50:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [bqqbarbhg/spear](https://github.com/bqqbarbhg/spear) | 54 | 2024-10-22T14:00:02Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

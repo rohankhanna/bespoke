@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 208
-- terms: 790
-- components: 4989
-- concepts: 780
-- observations: 782
+- repos: 210
+- terms: 800
+- components: 5029
+- concepts: 790
+- observations: 792
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Anush008/fastembed-js](https://github.com/Anush008/fastembed-js) | 175 | 2025-12-15T19:06:48Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [snapcast/snapweb](https://github.com/snapcast/snapweb) | 142 | 2025-12-15T14:34:28Z | TypeScript | CLI | 4 | 26 | 4 | 4 |
 | [kepano/obsidian-hider](https://github.com/kepano/obsidian-hider) | 526 | 2025-12-14T15:04:22Z | TypeScript | Web app | 3 | 8 | 3 | 3 |
 | [TanStack/ranger](https://github.com/TanStack/ranger) | 830 | 2025-12-06T12:39:09Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [ManuelHentschel/VSCode-R-Debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger) | 195 | 2025-11-27T14:51:35Z | TypeScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
@@ -390,6 +392,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [weaviate/healthsearch-demo](https://github.com/weaviate/healthsearch-demo) | 181 | 2023-07-24T12:25:06Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [neoclide/coc-emmet](https://github.com/neoclide/coc-emmet) | 181 | 2023-01-07T06:28:42Z | TypeScript | Unknown | 1 | 16 | 1 | 1 |
 | [microsoft/botframework-cli](https://github.com/microsoft/botframework-cli) | 176 | 2024-12-10T13:32:21Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
+| [Anush008/fastembed-js](https://github.com/Anush008/fastembed-js) | 175 | 2025-12-15T19:06:48Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [morrys/wora](https://github.com/morrys/wora) | 175 | 2025-10-03T14:05:52Z | TypeScript | Infrastructure/tooling | 19 | 31 | 19 | 19 |
 | [redis-developer/redis-product-search](https://github.com/redis-developer/redis-product-search) | 174 | 2025-02-25T20:53:24Z | TypeScript | Infrastructure/tooling | 11 | 3 | 11 | 11 |
 | [scopecraft/command](https://github.com/scopecraft/command) | 173 | 2025-11-09T12:20:07Z | TypeScript | CLI | 0 | 26 | 0 | 0 |
@@ -413,6 +416,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [playwright-community/expect-playwright](https://github.com/playwright-community/expect-playwright) | 148 | 2022-02-13T19:02:08Z | TypeScript | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [codechecks/typecov](https://github.com/codechecks/typecov) | 146 | 2021-11-28T07:16:03Z | TypeScript | Unknown | 3 | 15 | 3 | 3 |
 | [haskell/actions](https://github.com/haskell/actions) | 145 | 2024-01-05T11:06:36Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [snapcast/snapweb](https://github.com/snapcast/snapweb) | 142 | 2025-12-15T14:34:28Z | TypeScript | CLI | 4 | 26 | 4 | 4 |
 | [node-lightning/node-lightning](https://github.com/node-lightning/node-lightning) | 139 | 2023-11-27T13:39:17Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [metaes/metaes](https://github.com/metaes/metaes) | 139 | 2023-04-16T14:34:14Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [FrontLabsOfficial/vue-tiny-validate](https://github.com/FrontLabsOfficial/vue-tiny-validate) | 138 | 2023-10-29T09:45:02Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |

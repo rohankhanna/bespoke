@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · JavaScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 14
-- components: 12
-- concepts: 14
-- observations: 14
+- repos: 5
+- terms: 12
+- components: 6
+- concepts: 12
+- observations: 12
 
 ## Static behavior
 
@@ -31,7 +31,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8144225309/superscalar-mcp](https://github.com/8144225309/superscalar-mcp) | 0 | 2026-03-03T21:42:39Z | JavaScript | Service/API | 12 | 3 | 12 | 12 |
 | [frankkohlhepp/fancy-settings](https://github.com/frankkohlhepp/fancy-settings) | 0 | 2026-02-01T19:28:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Model-Scout-MCP](https://github.com/danielrosehill/Model-Scout-MCP) | 0 | 2026-01-02T00:46:17Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
-| [illusionfield/fourseven-scss](https://github.com/illusionfield/fourseven-scss) | 0 | 2025-12-15T14:42:17Z | JavaScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -42,4 +41,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8144225309/superscalar-mcp](https://github.com/8144225309/superscalar-mcp) | 0 | 2026-03-03T21:42:39Z | JavaScript | Service/API | 12 | 3 | 12 | 12 |
 | [frankkohlhepp/fancy-settings](https://github.com/frankkohlhepp/fancy-settings) | 0 | 2026-02-01T19:28:50Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Model-Scout-MCP](https://github.com/danielrosehill/Model-Scout-MCP) | 0 | 2026-01-02T00:46:17Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
-| [illusionfield/fourseven-scss](https://github.com/illusionfield/fourseven-scss) | 0 | 2025-12-15T14:42:17Z | JavaScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |

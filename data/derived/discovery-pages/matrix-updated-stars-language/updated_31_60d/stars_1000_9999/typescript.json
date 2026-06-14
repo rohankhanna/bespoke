@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11508,
-    "concepts": 2176,
-    "observations": 2182,
-    "repos": 266,
-    "terms": 2270
+    "components": 11373,
+    "concepts": 2149,
+    "observations": 2155,
+    "repos": 261,
+    "terms": 2243
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -22,7 +22,6 @@
     "actions/setup-node",
     "actions/setup-python",
     "actions/toolkit",
-    "actions/upload-artifact",
     "AdguardTeam/AdguardBrowserExtension",
     "adobe/spectrum-web-components",
     "aeharding/voyager",
@@ -117,7 +116,6 @@
     "ggml-org/llama.vscode",
     "google/adk-js",
     "google/neuroglancer",
-    "googleapis/release-please-action",
     "gorhom/react-native-bottom-sheet",
     "graphql-hive/graphql-inspector",
     "graphql-hive/graphql-yoga",
@@ -165,7 +163,6 @@
     "maxritter/pilot-shell",
     "mdn/yari",
     "messageformat/messageformat",
-    "microsoft/playwright-cli",
     "microsoft/rnx-kit",
     "microsoft/vscode-cmake-tools",
     "microsoft/vscode-cpptools",
@@ -175,7 +172,6 @@
     "mksglu/context-mode",
     "modelcontextprotocol/inspector",
     "mui/mui-x",
-    "mutoe/vue3-realworld-example-app",
     "nanostores/nanostores",
     "netlify/cli",
     "ng-packagr/ng-packagr",
@@ -234,7 +230,6 @@
     "sparkjsdev/spark",
     "stackblitz-labs/pkg.pr.new",
     "standard/eslint-config-standard",
-    "statoscope/statoscope",
     "stoplightio/spectral",
     "storybookjs/react-native",
     "streamich/memfs",

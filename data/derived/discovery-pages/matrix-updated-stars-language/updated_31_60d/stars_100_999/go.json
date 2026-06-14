@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1562,
-    "concepts": 1349,
-    "observations": 1356,
-    "repos": 190,
-    "terms": 1357
+    "components": 1557,
+    "concepts": 1346,
+    "observations": 1353,
+    "repos": 188,
+    "terms": 1354
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -44,7 +44,6 @@
     "Azure/karpenter-provider-azure",
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
-    "bernardo-bruning/ollama-copilot",
     "bitrise-io/bitrise",
     "bitrise-io/envman",
     "boj/redistore",
@@ -124,7 +123,6 @@
     "istio/tools",
     "itzg/mc-monitor",
     "itzg/mc-router",
-    "jaegertracing/jaeger-idl",
     "JupiterRider/ffi",
     "kelos-dev/kelos",
     "knative/community",

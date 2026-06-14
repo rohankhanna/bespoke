@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1652,
-    "concepts": 1561,
-    "observations": 1567,
-    "repos": 128,
-    "terms": 1551
+    "components": 1644,
+    "concepts": 1557,
+    "observations": 1563,
+    "repos": 127,
+    "terms": 1547
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -56,7 +56,6 @@
     "DNSCrypt/dnscrypt-proxy",
     "docker/compose",
     "dolthub/dolt",
-    "ent/ent",
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",

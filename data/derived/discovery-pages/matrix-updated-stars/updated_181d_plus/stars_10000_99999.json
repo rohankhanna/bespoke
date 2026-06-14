@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3397,
-    "concepts": 1627,
-    "observations": 1629,
-    "repos": 330,
-    "terms": 1601
+    "components": 3413,
+    "concepts": 1663,
+    "observations": 1666,
+    "repos": 334,
+    "terms": 1637
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -26,11 +26,13 @@
     "alebcay/awesome-shell",
     "aleju/imgaug",
     "alex000kim/nsfw_data_scraper",
+    "AlexeyAB/darknet",
     "AliaksandrSiarohin/first-order-model",
     "alibaba/formily",
     "allenai/allennlp",
     "altercation/solarized",
     "amfe/lib-flexible",
+    "andrewyng/aisuite",
     "angular/angular.js",
     "animate-css/animate.css",
     "Anjok07/ultimatevocalremovergui",
@@ -45,6 +47,7 @@
     "artidoro/qlora",
     "atom/atom",
     "awslabs/git-secrets",
+    "beehiveinnovations/pal-mcp-server",
     "bitcoinbook/bitcoinbook",
     "black-forest-labs/flux",
     "blitz-js/blitz",
@@ -62,6 +65,7 @@
     "BVLC/caffe",
     "bytebot-ai/bytebot",
     "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
+    "camenduru/stable-diffusion-webui-colab",
     "Carthage/Carthage",
     "casesandberg/react-color",
     "Chanzhaoyu/chatgpt-web",

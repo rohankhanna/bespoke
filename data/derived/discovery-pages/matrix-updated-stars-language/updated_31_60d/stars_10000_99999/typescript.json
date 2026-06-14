@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11197,
-    "concepts": 1702,
-    "observations": 1713,
-    "repos": 163,
-    "terms": 1711
+    "components": 11144,
+    "concepts": 1682,
+    "observations": 1693,
+    "repos": 159,
+    "terms": 1690
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
-    "actions/starter-workflows",
     "adonisjs/core",
     "aidenybai/react-scan",
-    "airbnb/visx",
     "ajv-validator/ajv",
     "angular/angular-cli",
     "ant-design/ant-design",
@@ -41,6 +39,7 @@
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
+    "ChatGPTNextWeb/NextChat",
     "cheeriojs/cheerio",
     "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
@@ -64,7 +63,6 @@
     "everyinc/compound-engineering-plugin",
     "expo/expo",
     "faker-js/faker",
-    "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "FlowiseAI/Flowise",
     "formatjs/formatjs",
@@ -103,7 +101,6 @@
     "mermaid-js/mermaid",
     "microsoft/playwright",
     "microsoft/playwright-mcp",
-    "mlc-ai/web-llm",
     "mobxjs/mobx",
     "modelcontextprotocol/servers",
     "modelcontextprotocol/typescript-sdk",
@@ -145,7 +142,6 @@
     "sass/sass",
     "SBoudrias/Inquirer.js",
     "scalar/scalar",
-    "shareai-lab/learn-claude-code",
     "sindresorhus/got",
     "sindresorhus/ky",
     "sindresorhus/type-fest",

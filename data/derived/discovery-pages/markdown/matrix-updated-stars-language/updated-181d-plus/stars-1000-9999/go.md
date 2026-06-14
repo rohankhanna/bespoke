@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 145
-- terms: 676
-- components: 346
-- concepts: 680
-- observations: 680
+- repos: 146
+- terms: 683
+- components: 354
+- concepts: 687
+- observations: 687
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [containernetworking/cni](https://github.com/containernetworking/cni) | 6034 | 2025-12-15T08:34:29Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [uber-go/goleak](https://github.com/uber-go/goleak) | 5176 | 2025-12-10T19:13:19Z | Go | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [ajvb/kala](https://github.com/ajvb/kala) | 2160 | 2025-12-05T02:38:00Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [jpillora/cloud-torrent](https://github.com/jpillora/cloud-torrent) | 6158 | 2025-11-28T13:10:45Z | Go | CLI | 5 | 8 | 5 | 5 |
@@ -200,6 +201,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/uuid](https://github.com/google/uuid) | 6052 | 2024-11-14T17:05:06Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [h2non/imaginary](https://github.com/h2non/imaginary) | 6041 | 2025-11-08T19:49:48Z | Go | Infrastructure/tooling | 10 | 0 | 10 | 10 |
 | [tidwall/evio](https://github.com/tidwall/evio) | 6036 | 2023-10-22T11:35:20Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [containernetworking/cni](https://github.com/containernetworking/cni) | 6034 | 2025-12-15T08:34:29Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [dragonflyoss/dragonfly-archived](https://github.com/dragonflyoss/dragonfly-archived) | 5942 | 2023-02-27T11:07:29Z | Go | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [disintegration/imaging](https://github.com/disintegration/imaging) | 5716 | 2023-09-21T02:16:10Z | Go | Library | 10 | 0 | 10 | 10 |
 | [gogo/protobuf](https://github.com/gogo/protobuf) | 5674 | 2023-07-27T11:52:49Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |

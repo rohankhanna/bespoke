@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 85
-- terms: 147
-- components: 1461
-- concepts: 151
-- observations: 151
+- repos: 86
+- terms: 151
+- components: 1465
+- concepts: 155
+- observations: 155
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [KSXGitHub/cargo-scripts-builder](https://github.com/KSXGitHub/cargo-scripts-builder) | 1 | 2025-12-15T11:03:10Z | TypeScript | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [scaleway/serverless-functions-node](https://github.com/scaleway/serverless-functions-node) | 9 | 2025-11-24T10:59:05Z | TypeScript | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [offline-ai/ai-shell](https://github.com/offline-ai/ai-shell) | 6 | 2025-11-19T11:43:23Z | TypeScript | Unknown | 0 | 30 | 0 | 0 |
 | [retracedhq/retraced-js](https://github.com/retracedhq/retraced-js) | 4 | 2025-11-19T01:34:42Z | TypeScript | CLI | 0 | 23 | 0 | 0 |
@@ -183,6 +184,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [near/near-abi-js](https://github.com/near/near-abi-js) | 2 | 2022-12-20T06:51:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
 | [FxEmbed/mosaic-reference](https://github.com/FxEmbed/mosaic-reference) | 2 | 2022-08-19T05:07:55Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
 | [iov-one/iov-ledger-iovns](https://github.com/iov-one/iov-ledger-iovns) | 2 | 2022-03-24T06:14:30Z | TypeScript | Library | 3 | 27 | 3 | 3 |
+| [KSXGitHub/cargo-scripts-builder](https://github.com/KSXGitHub/cargo-scripts-builder) | 1 | 2025-12-15T11:03:10Z | TypeScript | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension](https://github.com/LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension) | 1 | 2025-08-11T15:13:49Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [celo-org/socialconnect-template](https://github.com/celo-org/socialconnect-template) | 1 | 2025-06-28T19:50:10Z | TypeScript | Template/starter | 0 | 0 | 0 | 0 |
 | [plrthink/RNZATestApp](https://github.com/plrthink/RNZATestApp) | 1 | 2025-06-15T10:39:56Z | TypeScript | Unknown | 1 | 28 | 1 | 1 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 479,
-    "concepts": 258,
-    "observations": 259,
-    "repos": 48,
-    "terms": 258
+    "components": 464,
+    "concepts": 243,
+    "observations": 243,
+    "repos": 45,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "aidenlab/hic-straw",
     "aidenlab/juicebox.js",
@@ -21,11 +21,9 @@
     "apache/casbin-axum-casbin",
     "apache/casbin-rust-actix-casbin",
     "apache/datafusion-ballista-python",
-    "atsushieno/aap-juce",
-    "browniebroke/pypackage-template",
+    "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
     "compozy/kb",
-    "diffscope/diffscope-project",
     "dwyl/mvp",
     "edge-classic/EDGE-classic",
     "f3liz-casa/noraneko",
@@ -55,7 +53,6 @@
     "openjdk/jdk21u-dev",
     "pivotal/credhub-release",
     "python-poetry/website",
-    "RiDDiX/home-assistant-addons",
     "skilld-dev/retriv",
     "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",

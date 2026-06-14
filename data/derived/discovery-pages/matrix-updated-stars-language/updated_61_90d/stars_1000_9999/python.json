@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 641,
-    "concepts": 908,
-    "observations": 908,
-    "repos": 146,
-    "terms": 899
+    "components": 655,
+    "concepts": 926,
+    "observations": 926,
+    "repos": 148,
+    "terms": 916
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -22,10 +22,10 @@
     "aigc3d/LHM",
     "ajenti/ajenti",
     "ApeWorX/ape",
+    "asottile/pyupgrade",
     "atlassian-api/atlassian-python-api",
     "aws-cloudformation/aws-cloudformation-templates",
     "bambinos/bambi",
-    "belluzj/fantasque-sans",
     "bpython/bpython",
     "caronc/apprise-api",
     "chardet/chardet",
@@ -36,6 +36,7 @@
     "containers/podman-compose",
     "cvg/depthsplat",
     "databricks/megablocks",
+    "datadog/guarddog",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
     "DepthAnything/Depth-Anything-V2",
@@ -49,7 +50,6 @@
     "EleutherAI/gpt-neox",
     "explosion/spacy-models",
     "facebookincubator/AITemplate",
-    "facebookresearch/fvcore",
     "facebookresearch/mmf",
     "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
@@ -73,6 +73,7 @@
     "iver56/audiomentations",
     "jeffallan/claude-skills",
     "jiaaro/pydub",
+    "Jittor/jittor",
     "JoshData/python-email-validator",
     "JulietaUla/Montserrat",
     "jupyter/nbconvert",
@@ -96,6 +97,7 @@
     "microsoft/MInference",
     "microsoft/pylance-release",
     "microsoft/TaskWeaver",
+    "microsoft/UFO",
     "mido/mido",
     "miguelgrinberg/python-socketio",
     "miiton/Cica",

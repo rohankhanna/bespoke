@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 418,
-    "concepts": 188,
-    "observations": 190,
-    "repos": 116,
-    "terms": 191
+    "concepts": 191,
+    "observations": 193,
+    "repos": 119,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -52,6 +52,7 @@
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
+    "danielrosehill/Claude-Calls-The-Shots",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
@@ -68,11 +69,13 @@
     "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Jewish-Related-Index",
     "danielrosehill/Linux-Desktop-Tools-Index",
+    "danielrosehill/Live-Typing-UX-Research",
     "danielrosehill/Networking-And-Infrastructure-Index",
     "danielrosehill/Networking-Projects-Index",
     "danielrosehill/Patches-Repos-Index",
     "danielrosehill/Price-Research-Index",
     "danielrosehill/Red-Alert-Monitoring-Stack",
+    "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Skills-Repos-Index",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "datachainlab/ibc-parlia-relay",

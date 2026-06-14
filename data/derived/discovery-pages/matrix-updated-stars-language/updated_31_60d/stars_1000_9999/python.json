@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3415,
-    "concepts": 3832,
-    "observations": 3845,
-    "repos": 446,
-    "terms": 3821
+    "components": 3399,
+    "concepts": 3812,
+    "observations": 3825,
+    "repos": 442,
+    "terms": 3802
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -54,7 +54,6 @@
     "arogozhnikov/einops",
     "artisan-roaster-scope/artisan",
     "ashleve/lightning-hydra-template",
-    "asottile/pyupgrade",
     "astral-sh/python-build-standalone",
     "astral-sh/ruff-pre-commit",
     "astronomer/dag-factory",
@@ -115,7 +114,6 @@
     "cpplint/cpplint",
     "crytic/slither",
     "CVHub520/X-AnyLabeling",
-    "datadog/guarddog",
     "datajuicer/data-juicer",
     "deepbeepmeep/Wan2GP",
     "diafygi/acme-tiny",
@@ -210,7 +208,6 @@
     "jazzband/django-redis",
     "jazzband/pip-tools",
     "jcrist/msgspec",
-    "Jittor/jittor",
     "jmespath/jmespath.py",
     "joerick/pyinstrument",
     "joke2k/django-environ",
@@ -260,7 +257,6 @@
     "microsoft/LMOps",
     "microsoft/Olive",
     "microsoft/sample-app-aoai-chatGPT",
-    "microsoft/UFO",
     "MicrosoftDocs/visualstudio-docs",
     "mikedh/trimesh",
     "mikel-brostrom/boxmot",

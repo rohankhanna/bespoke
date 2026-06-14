@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 584,
-    "concepts": 683,
-    "observations": 686,
-    "repos": 130,
-    "terms": 686
+    "components": 579,
+    "concepts": 677,
+    "observations": 680,
+    "repos": 129,
+    "terms": 680
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -61,7 +61,6 @@
     "freerange/mocha",
     "fsprojects/Paket",
     "Fuco1/smartparens",
-    "fukuball/jieba-php",
     "gf3/dotfiles",
     "Glavin001/atom-beautify",
     "globalize/globalize",

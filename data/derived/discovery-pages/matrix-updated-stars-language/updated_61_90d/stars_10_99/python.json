@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 416,
-    "concepts": 384,
-    "observations": 384,
-    "repos": 97,
-    "terms": 386
+    "components": 418,
+    "concepts": 387,
+    "observations": 387,
+    "repos": 98,
+    "terms": 389
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "4dn-dcic/tibanna",
@@ -64,7 +64,6 @@
     "HyperionGray/trio-chrome-devtools-protocol",
     "iamsashank09/llm-wiki-kit",
     "idodov/RedAlert",
-    "inducer/codepy",
     "intel/ai-containers",
     "intel/vc-intrinsics",
     "ironArray/Caterva2",
@@ -94,6 +93,8 @@
     "petercorke/ansitable",
     "philippemerle/AWS-CloudFormation-Diagrams",
     "PoseLib/posebench",
+    "psyonicinc/ability-hand-api",
+    "pyocd/libusb-package",
     "python-graphblas/graphblas-algorithms",
     "python-pillow/pillow-perf",
     "redis/redis-py-entraid",

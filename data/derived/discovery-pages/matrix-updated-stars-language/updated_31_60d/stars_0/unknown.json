@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 48,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 109,
-    "terms": 76
+    "concepts": 66,
+    "observations": 66,
+    "repos": 108,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "abdeladim-s/pywhispercpp",
@@ -108,7 +108,6 @@
     "danielrosehill/lan-manager-plugin",
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
-    "danielrosehill/Research-Tools-And-Templates-Index",
     "danielrosehill/Speech-And-ASR-Evaluations",
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",

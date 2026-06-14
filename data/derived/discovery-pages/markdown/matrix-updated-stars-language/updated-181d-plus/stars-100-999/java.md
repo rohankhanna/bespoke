@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 72
-- terms: 202
+- repos: 73
+- terms: 207
 - components: 103
-- concepts: 202
-- observations: 202
+- concepts: 207
+- observations: 207
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [nacos-group/nacos-spring-project](https://github.com/nacos-group/nacos-spring-project) | 767 | 2025-12-15T08:32:58Z | Java | Framework | 5 | 0 | 5 | 5 |
 | [eclipse-corrosion/corrosion](https://github.com/eclipse-corrosion/corrosion) | 242 | 2025-12-12T09:08:22Z | Java | CLI | 6 | 4 | 6 | 6 |
 | [Deep-Symmetry/beat-link](https://github.com/Deep-Symmetry/beat-link) | 275 | 2025-12-07T20:14:26Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [takari/polyglot-maven](https://github.com/takari/polyglot-maven) | 921 | 2025-11-20T19:10:53Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
@@ -108,6 +109,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Backblaze/JavaReedSolomon](https://github.com/Backblaze/JavaReedSolomon) | 823 | 2025-04-10T16:21:58Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [processing/processing-android](https://github.com/processing/processing-android) | 798 | 2025-01-09T14:21:51Z | Java | Library | 5 | 0 | 5 | 5 |
 | [findbugsproject/findbugs](https://github.com/findbugsproject/findbugs) | 777 | 2025-09-27T03:20:02Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [nacos-group/nacos-spring-project](https://github.com/nacos-group/nacos-spring-project) | 767 | 2025-12-15T08:32:58Z | Java | Framework | 5 | 0 | 5 | 5 |
 | [magro/memcached-session-manager](https://github.com/magro/memcached-session-manager) | 756 | 2023-12-17T15:47:24Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [iTXTech/mirai-console-loader](https://github.com/iTXTech/mirai-console-loader) | 745 | 2023-12-24T05:39:40Z | Java | Unknown | 1 | 0 | 1 | 1 |
 | [f4b6a3/uuid-creator](https://github.com/f4b6a3/uuid-creator) | 666 | 2025-04-13T04:55:15Z | Java | Infrastructure/tooling | 11 | 6 | 11 | 11 |

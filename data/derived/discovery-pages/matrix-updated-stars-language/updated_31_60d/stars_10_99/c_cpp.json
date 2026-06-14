@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 393,
-    "concepts": 447,
-    "observations": 447,
+    "components": 400,
+    "concepts": 451,
+    "observations": 452,
     "repos": 77,
-    "terms": 444
+    "terms": 448
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -24,9 +24,9 @@
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
     "apache/pulsar-client-cpp",
+    "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "atsushieno/uapmd",
-    "barak/minidjvu",
     "BirolLab/btllib",
     "bmwiedemann/openSUSE",
     "boostorg/config",
@@ -36,6 +36,7 @@
     "confluentinc/libserdes",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
+    "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "f32c/tools",
     "fabmax/PhysX",
@@ -78,7 +79,6 @@
     "rapidsai/ucxx",
     "ROCm/rocAL",
     "ROCm/ROCgdb",
-    "ROCm/roctracer",
     "ROCm/rpp",
     "skeeto/dcmake",
     "triton-inference-server/openvino_backend",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 859
-- terms: 1989
-- components: 2135
-- concepts: 2001
-- observations: 2007
+- repos: 862
+- terms: 1993
+- components: 2138
+- concepts: 2005
+- observations: 2011
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [cleanlab/cleanvision-examples](https://github.com/cleanlab/cleanvision-examples) | 17 | 2025-12-16T00:51:46Z | Other | Library | 4 | 0 | 4 | 4 |
+| [cmacdonald/pyt_splade](https://github.com/cmacdonald/pyt_splade) | 15 | 2025-12-15T10:39:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [probe-lab/network-measurements](https://github.com/probe-lab/network-measurements) | 56 | 2025-12-12T06:36:51Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [sbcgua/abap-string-map](https://github.com/sbcgua/abap-string-map) | 17 | 2025-12-11T08:40:13Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [google/hrx](https://github.com/google/hrx) | 51 | 2025-12-10T22:47:42Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1047,6 +1050,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sheryever/LiteDBDirectory](https://github.com/sheryever/LiteDBDirectory) | 72 | 2023-02-24T16:24:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [endyjasmi/cuid](https://github.com/endyjasmi/cuid) | 72 | 2023-02-09T03:08:46Z | Other | Unknown | 0 | 6 | 0 | 0 |
 | [RDFLib/pyrdfa3](https://github.com/RDFLib/pyrdfa3) | 72 | 2022-06-21T04:14:37Z | Other | Library | 0 | 0 | 0 | 0 |
+| [honwen/openwrt-shadowsocks-rust](https://github.com/honwen/openwrt-shadowsocks-rust) | 71 | 2025-12-15T09:04:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rocker-org/binder](https://github.com/rocker-org/binder) | 71 | 2025-12-02T17:52:35Z | Other | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [MiniMax-AI/MiniMax-AI.github.io](https://github.com/MiniMax-AI/MiniMax-AI.github.io) | 71 | 2025-11-09T07:43:01Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [espnet/notebook](https://github.com/espnet/notebook) | 71 | 2025-06-09T18:43:25Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -1600,6 +1604,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [buildbot/botherders](https://github.com/buildbot/botherders) | 18 | 2022-04-06T15:03:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ruby-processing/JRubyArt-examples](https://github.com/ruby-processing/JRubyArt-examples) | 18 | 2022-01-21T13:30:45Z | Other | CLI | 8 | 0 | 8 | 8 |
 | [monolifed/theme16](https://github.com/monolifed/theme16) | 18 | 2021-07-15T18:49:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [cleanlab/cleanvision-examples](https://github.com/cleanlab/cleanvision-examples) | 17 | 2025-12-16T00:51:46Z | Other | Library | 4 | 0 | 4 | 4 |
 | [sbcgua/abap-string-map](https://github.com/sbcgua/abap-string-map) | 17 | 2025-12-11T08:40:13Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [aki-0929/PaddleOCRJson.NET](https://github.com/aki-0929/PaddleOCRJson.NET) | 17 | 2025-11-17T15:07:29Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [aspect-build/rules_buildx](https://github.com/aspect-build/rules_buildx) | 17 | 2025-09-25T03:35:41Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -1634,6 +1639,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [trailblazer/cells-slim](https://github.com/trailblazer/cells-slim) | 16 | 2023-01-25T15:09:39Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [JuliaML/LearnBase.jl](https://github.com/JuliaML/LearnBase.jl) | 16 | 2022-05-22T20:27:06Z | Other | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [sparsetech/cmark-scala](https://github.com/sparsetech/cmark-scala) | 16 | 2021-09-14T08:19:11Z | Other | Unknown | 3 | 0 | 3 | 3 |
+| [cmacdonald/pyt_splade](https://github.com/cmacdonald/pyt_splade) | 15 | 2025-12-15T10:39:22Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [PeterDaveHello/docker-doctoc](https://github.com/PeterDaveHello/docker-doctoc) | 15 | 2025-10-28T02:46:03Z | Other | Infrastructure/tooling | 7 | 0 | 8 | 8 |
 | [aristocratos/LHM-CppExport](https://github.com/aristocratos/LHM-CppExport) | 15 | 2025-10-12T11:25:57Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [LogtalkDotOrg/logtalk-jupyter-kernel](https://github.com/LogtalkDotOrg/logtalk-jupyter-kernel) | 15 | 2025-08-23T15:33:43Z | Other | Unknown | 3 | 0 | 3 | 3 |

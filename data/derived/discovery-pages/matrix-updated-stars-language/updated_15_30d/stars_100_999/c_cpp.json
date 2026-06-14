@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 49,
+    "components": 44,
     "concepts": 63,
     "observations": 63,
-    "repos": 12,
+    "repos": 11,
     "terms": 63
   },
   "facet_version": 1,
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "apache/casbin-cpp",
     "appelmar/gdalcubes",
     "celtera/libremidi",
-    "Chuyu-Team/YY-Thunks",
     "confluentinc/librdkafka",
     "DISTRHO/DPF",
     "flagos-ai/FlagCX",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6330,
-    "concepts": 1333,
-    "observations": 1335,
-    "repos": 199,
-    "terms": 1372
+    "components": 6363,
+    "concepts": 1340,
+    "observations": 1342,
+    "repos": 200,
+    "terms": 1379
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
@@ -106,6 +106,7 @@
     "k-dense-ai/k-dense-byok",
     "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
     "kkomelin/isomorphic-dompurify",
+    "Koenkk/zigbee-herdsman",
     "Kong/kong-manager",
     "kysely-org/kysely-ctl",
     "lambdalisue/vim-gin",
@@ -142,7 +143,6 @@
     "neolabhq/context-engineering-kit",
     "Nerivec/zigbee2mqtt-windfront",
     "nonara/ts-patch",
-    "nothingislost/obsidian-hover-editor",
     "nurikk/zigbee2mqtt-frontend",
     "nuxt/bridge",
     "nyatinte/ccexp",
@@ -171,6 +171,7 @@
     "redhat-developer/vscode-yaml",
     "Rel1cx/eslint-react",
     "relative-ci/bundle-stats",
+    "RiDDiX/home-assistant-matter-hub",
     "rstackjs/storybook-rsbuild",
     "safe-global/safe-deployments",
     "salesforcecli/cli",

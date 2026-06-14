@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 304
-- components: 321
-- concepts: 309
-- observations: 311
+- repos: 36
+- terms: 321
+- components: 354
+- concepts: 326
+- observations: 328
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1178 | 2026-05-30T11:21:48Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5987 | 2026-05-30T10:24:54Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-30T08:57:06Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1228 | 2026-05-30T07:14:17Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5938 | 2026-05-30T07:07:24Z | Other | Infrastructure/tooling | 24 | 15 | 24 | 24 |
 | [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9202 | 2026-05-29T23:19:46Z | Other | Infrastructure/tooling | 11 | 28 | 11 | 11 |
@@ -70,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/reactive](https://github.com/dotnet/reactive) | 7147 | 2026-05-29T07:56:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3) | 6415 | 2026-05-28T23:27:06Z | Other | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [preservim/tagbar](https://github.com/preservim/tagbar) | 6218 | 2026-05-17T13:28:29Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [microsoft/aspire](https://github.com/microsoft/aspire) | 5987 | 2026-05-30T10:24:54Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 5938 | 2026-05-30T07:07:24Z | Other | Infrastructure/tooling | 24 | 15 | 24 | 24 |
 | [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5798 | 2026-05-29T19:07:55Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [mono/SkiaSharp](https://github.com/mono/SkiaSharp) | 5412 | 2026-05-26T15:10:21Z | Other | Infrastructure/tooling | 17 | 12 | 17 | 17 |
@@ -78,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5068 | 2026-05-23T20:16:31Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
 | [babashka/babashka](https://github.com/babashka/babashka) | 4522 | 2026-05-29T14:54:11Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
 | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3745 | 2026-05-26T21:38:23Z | Other | Model/data | 12 | 0 | 12 | 12 |
+| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-30T08:57:06Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [opentk/opentk](https://github.com/opentk/opentk) | 3513 | 2026-05-16T17:47:30Z | Other | Library | 11 | 0 | 11 | 11 |
 | [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3002 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [standardrb/standard](https://github.com/standardrb/standard) | 2900 | 2026-05-19T08:06:06Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
@@ -95,5 +100,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/sci](https://github.com/babashka/sci) | 1358 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [apache/casbin-Casbin.NET](https://github.com/apache/casbin-Casbin.NET) | 1320 | 2026-05-15T19:05:09Z | Other | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [swiftlang/llvm-project](https://github.com/swiftlang/llvm-project) | 1228 | 2026-05-30T07:14:17Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1178 | 2026-05-30T11:21:48Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [licensee/licensed](https://github.com/licensee/licensed) | 1040 | 2026-05-25T14:12:09Z | Other | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [lumen-oss/rocks.nvim](https://github.com/lumen-oss/rocks.nvim) | 1037 | 2026-05-15T13:54:47Z | Other | Infrastructure/tooling | 14 | 17 | 14 | 14 |

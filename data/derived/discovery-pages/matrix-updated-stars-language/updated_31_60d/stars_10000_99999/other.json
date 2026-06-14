@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2065,
-    "concepts": 1476,
-    "observations": 1482,
-    "repos": 146,
-    "terms": 1470
+    "components": 2064,
+    "concepts": 1461,
+    "observations": 1467,
+    "repos": 145,
+    "terms": 1456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -39,7 +39,6 @@
     "bitwarden/server",
     "Blinue/Magpie",
     "cefsharp/CefSharp",
-    "cmderdev/cmder",
     "coil-kt/coil",
     "composer/composer",
     "coollabsio/coolify",
@@ -115,9 +114,9 @@
     "mozilla-mobile/firefox-ios",
     "MudBlazor/MudBlazor",
     "neovim/neovim",
+    "neovim/nvim-lspconfig",
     "NickeManarin/ScreenToGif",
     "NielsRogge/Transformers-Tutorials",
-    "nikitabobko/AeroSpace",
     "nim-lang/Nim",
     "NixOS/nixpkgs",
     "nvim-telescope/telescope.nvim",

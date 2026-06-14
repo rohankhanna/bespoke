@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 104,
-    "observations": 106,
-    "repos": 20,
-    "terms": 103
+    "components": 96,
+    "concepts": 109,
+    "observations": 111,
+    "repos": 21,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "akarnokd/RxJavaFiberInterop",
+    "apache/camel-quarkus-examples",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "apache/flink-connector-pulsar",

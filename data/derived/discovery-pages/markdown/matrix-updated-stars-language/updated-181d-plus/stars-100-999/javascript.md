@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 385
-- terms: 1056
-- components: 4742
-- concepts: 1069
-- observations: 1069
+- repos: 387
+- terms: 1062
+- components: 4754
+- concepts: 1075
+- observations: 1075
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mathjax/MathJax-demos-node](https://github.com/mathjax/MathJax-demos-node) | 111 | 2025-12-15T19:34:22Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
+| [Meteor-Community-Packages/meteor-scss](https://github.com/Meteor-Community-Packages/meteor-scss) | 310 | 2025-12-15T13:27:57Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [attractivechaos/k8](https://github.com/attractivechaos/k8) | 158 | 2025-12-07T18:49:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [rust-lang/lang-team](https://github.com/rust-lang/lang-team) | 211 | 2025-12-07T10:41:15Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [nodejs/abi-stable-node](https://github.com/nodejs/abi-stable-node) | 248 | 2025-12-05T15:13:25Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
@@ -607,6 +609,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [webextension-toolbox/generator-web-extension](https://github.com/webextension-toolbox/generator-web-extension) | 315 | 2023-03-01T11:03:40Z | JavaScript | Web app | 8 | 10 | 8 | 8 |
 | [surma/rollup-plugin-off-main-thread](https://github.com/surma/rollup-plugin-off-main-thread) | 311 | 2024-09-27T06:02:31Z | JavaScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [fjc0k/YApi-X](https://github.com/fjc0k/YApi-X) | 311 | 2022-02-12T09:18:01Z | JavaScript | Infrastructure/tooling | 4 | 123 | 4 | 4 |
+| [Meteor-Community-Packages/meteor-scss](https://github.com/Meteor-Community-Packages/meteor-scss) | 310 | 2025-12-15T13:27:57Z | JavaScript | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [amoshydra/draw](https://github.com/amoshydra/draw) | 309 | 2025-01-05T10:10:45Z | JavaScript | Unknown | 5 | 0 | 5 | 5 |
 | [plotly/orca](https://github.com/plotly/orca) | 307 | 2025-07-02T15:27:12Z | JavaScript | CLI | 1 | 33 | 1 | 1 |
 | [aerokube/selenoid-ui](https://github.com/aerokube/selenoid-ui) | 306 | 2024-12-17T12:44:49Z | JavaScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
@@ -782,6 +785,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [watson/console-log-level](https://github.com/watson/console-log-level) | 113 | 2023-12-03T14:06:30Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [jonschlinkert/merge-deep](https://github.com/jonschlinkert/merge-deep) | 112 | 2022-09-08T19:23:04Z | JavaScript | Unknown | 12 | 5 | 12 | 12 |
 | [udacity/ud989-pizzamvo](https://github.com/udacity/ud989-pizzamvo) | 112 | 2022-07-06T21:23:13Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [mathjax/MathJax-demos-node](https://github.com/mathjax/MathJax-demos-node) | 111 | 2025-12-15T19:34:22Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [atlassian/cz-lerna-changelog](https://github.com/atlassian/cz-lerna-changelog) | 109 | 2024-04-17T02:42:11Z | JavaScript | Unknown | 3 | 15 | 3 | 3 |
 | [grahama1970/claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced) | 108 | 2025-05-20T18:24:43Z | JavaScript | Infrastructure/tooling | 1 | 12 | 0 | 0 |
 | [daerduoCarey/partnet_anno_system](https://github.com/daerduoCarey/partnet_anno_system) | 108 | 2022-12-08T17:34:17Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

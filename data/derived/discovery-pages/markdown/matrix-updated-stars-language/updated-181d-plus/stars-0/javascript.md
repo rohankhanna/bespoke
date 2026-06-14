@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · JavaScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 27
-- components: 130
-- concepts: 27
-- observations: 27
+- repos: 22
+- terms: 29
+- components: 136
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [illusionfield/fourseven-scss](https://github.com/illusionfield/fourseven-scss) | 0 | 2025-12-15T14:42:17Z | JavaScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [abap2UI5/web-abap2ui5-samples](https://github.com/abap2UI5/web-abap2ui5-samples) | 0 | 2025-07-23T08:28:03Z | JavaScript | Unknown | 2 | 0 | 2 | 2 |
 | [ipld/js-blockcodec-to-ipld-format](https://github.com/ipld/js-blockcodec-to-ipld-format) | 0 | 2025-05-01T08:39:56Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [janwilmake/oapis.cli](https://github.com/janwilmake/oapis.cli) | 0 | 2025-03-19T09:52:56Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -52,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [illusionfield/fourseven-scss](https://github.com/illusionfield/fourseven-scss) | 0 | 2025-12-15T14:42:17Z | JavaScript | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [abap2UI5/web-abap2ui5-samples](https://github.com/abap2UI5/web-abap2ui5-samples) | 0 | 2025-07-23T08:28:03Z | JavaScript | Unknown | 2 | 0 | 2 | 2 |
 | [ipld/js-blockcodec-to-ipld-format](https://github.com/ipld/js-blockcodec-to-ipld-format) | 0 | 2025-05-01T08:39:56Z | JavaScript | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [janwilmake/oapis.cli](https://github.com/janwilmake/oapis.cli) | 0 | 2025-03-19T09:52:56Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

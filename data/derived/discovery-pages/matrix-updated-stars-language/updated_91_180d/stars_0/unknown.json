@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 25,
-    "terms": 51
+    "components": 69,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 23,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "CADindustries/container",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
-    "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/Claude-Model-Identifier",
     "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",
@@ -35,7 +34,6 @@
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
     "openwdl/governance",
-    "praw-dev/.github",
     "sp1-patches/curve25519-dalek",
     "wintercg/fetch",
     "youngsofun/rust-csv"

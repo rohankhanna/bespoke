@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 710,
-    "concepts": 1291,
-    "observations": 1294,
-    "repos": 390,
-    "terms": 1272
+    "components": 713,
+    "concepts": 1301,
+    "observations": 1304,
+    "repos": 392,
+    "terms": 1281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -214,6 +214,7 @@
     "jk-jeon/dragonbox",
     "jkrijthe/Rtsne",
     "jlblancoc/suitesparse-metis-for-windows",
+    "JokerJohn/LIO_SAM_6AXIS",
     "kafeiyin00/WHU-HelmetDataset",
     "kantv-ai/kantv",
     "karimnaaji/voxelizer",
@@ -359,6 +360,7 @@
     "sogaiu/tree-sitter-clojure",
     "SqliteModernCpp/sqlite_modern_cpp",
     "sqmedeiros/lpeglabel",
+    "stefantalpalaru/w_scan2",
     "systemd/systemd-stable",
     "TartanLlama/optional",
     "teaxyz/teaBASE",

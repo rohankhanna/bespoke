@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 421,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 35,
-    "terms": 98
+    "components": 402,
+    "concepts": 95,
+    "observations": 96,
+    "repos": 34,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
@@ -31,7 +31,6 @@
     "coderaiser/try-catch",
     "coderaiser/try-to-catch",
     "d3x0r/JSOX",
-    "ember-cli/broccoli-caching-writer",
     "hchiam/learning-lighthouse-ci",
     "hyparam/hysnappy",
     "ipld/js-dag-pb",

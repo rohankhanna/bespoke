@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 118
-- terms: 1215
-- components: 951
-- concepts: 1213
-- observations: 1217
+- repos: 114
+- terms: 1197
+- components: 927
+- concepts: 1195
+- observations: 1199
 
 ## Static behavior
 
@@ -140,10 +140,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tmux/tmux](https://github.com/tmux/tmux) | 44678 | 2026-04-16T03:27:10Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [haiwen/seafile](https://github.com/haiwen/seafile) | 14646 | 2026-04-16T02:22:19Z | C/C++ | Unknown | 6 | 0 | 7 | 7 |
 | [nothings/stb](https://github.com/nothings/stb) | 33436 | 2026-04-15T20:53:29Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [pgvector/pgvector](https://github.com/pgvector/pgvector) | 20968 | 2026-04-15T05:48:15Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | 10058 | 2026-04-15T05:40:05Z | C/C++ | Infrastructure/tooling | 2 | 9 | 2 | 2 |
-| [openresty/lua-nginx-module](https://github.com/openresty/lua-nginx-module) | 11755 | 2026-04-15T03:40:09Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [tsl0922/ttyd](https://github.com/tsl0922/ttyd) | 11473 | 2026-04-14T19:04:48Z | C/C++ | CLI | 11 | 9 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -193,7 +189,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
 | [iovisor/bcc](https://github.com/iovisor/bcc) | 22388 | 2026-04-29T07:35:48Z | C/C++ | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [micropython/micropython](https://github.com/micropython/micropython) | 21672 | 2026-05-01T12:38:24Z | C/C++ | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [pgvector/pgvector](https://github.com/pgvector/pgvector) | 20968 | 2026-04-15T05:48:15Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [catchorg/Catch2](https://github.com/catchorg/Catch2) | 20355 | 2026-04-27T18:51:08Z | C/C++ | Infrastructure/tooling | 14 | 3 | 14 | 14 |
 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20320 | 2026-04-30T23:28:34Z | C/C++ | Infrastructure/tooling | 16 | 12 | 16 | 16 |
 | [google/filament](https://github.com/google/filament) | 20007 | 2026-04-24T06:53:00Z | C/C++ | Infrastructure/tooling | 19 | 8 | 20 | 21 |
@@ -243,10 +238,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 11943 | 2026-04-23T20:46:21Z | C/C++ | Infrastructure/tooling | 19 | 5 | 19 | 19 |
 | [lz4/lz4](https://github.com/lz4/lz4) | 11818 | 2026-05-01T21:40:21Z | C/C++ | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [google/sentencepiece](https://github.com/google/sentencepiece) | 11780 | 2026-04-22T10:21:57Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [openresty/lua-nginx-module](https://github.com/openresty/lua-nginx-module) | 11755 | 2026-04-15T03:40:09Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [colmap/colmap](https://github.com/colmap/colmap) | 11567 | 2026-04-29T17:54:12Z | C/C++ | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [px4/px4-autopilot](https://github.com/PX4/PX4-Autopilot) | 11541 | 2026-04-19T12:18:21Z | C/C++ | Infrastructure/tooling | 10 | 19 | 0 | 0 |
-| [tsl0922/ttyd](https://github.com/tsl0922/ttyd) | 11473 | 2026-04-14T19:04:48Z | C/C++ | CLI | 11 | 9 | 11 | 11 |
 | [h2o/h2o](https://github.com/h2o/h2o) | 11448 | 2026-04-30T02:04:42Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [libvips/libvips](https://github.com/libvips/libvips) | 11258 | 2026-04-23T17:07:21Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [Alexays/Waybar](https://github.com/Alexays/Waybar) | 11172 | 2026-04-22T18:50:48Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |
@@ -266,4 +259,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/benchmark](https://github.com/google/benchmark) | 10155 | 2026-04-20T20:58:11Z | C/C++ | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10084 | 2026-04-30T01:00:43Z | C/C++ | Infrastructure/tooling | 26 | 10 | 26 | 26 |
 | [bpftrace/bpftrace](https://github.com/bpftrace/bpftrace) | 10080 | 2026-05-01T00:57:20Z | C/C++ | Infrastructure/tooling | 14 | 11 | 14 | 14 |
-| [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | 10058 | 2026-04-15T05:40:05Z | C/C++ | Infrastructure/tooling | 2 | 9 | 2 | 2 |

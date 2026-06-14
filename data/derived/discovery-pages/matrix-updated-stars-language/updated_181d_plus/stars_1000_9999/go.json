@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 346,
-    "concepts": 680,
-    "observations": 680,
-    "repos": 145,
-    "terms": 676
+    "components": 354,
+    "concepts": 687,
+    "observations": 687,
+    "repos": 146,
+    "terms": 683
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "aarondl/authboss",
@@ -48,6 +48,7 @@
     "client9/misspell",
     "codegangsta/gin",
     "cointop-sh/cointop",
+    "containernetworking/cni",
     "coreos/go-iptables",
     "cortesi/modd",
     "crazy-max/WindowsSpyBlocker",

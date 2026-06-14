@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 270,
-    "observations": 275,
-    "repos": 59,
-    "terms": 269
+    "components": 330,
+    "concepts": 272,
+    "observations": 277,
+    "repos": 62,
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "AchetaGames/Epic-Asset-Manager",
     "alex/rust-asn1",
@@ -38,6 +38,7 @@
     "FedericoPonzi/Horust",
     "filecoin-project/bellperson",
     "firstbatchxyz/dkn-compute-node",
+    "gdesmott/system-deps",
     "getsentry/rust-sourcemap",
     "gimli-rs/addr2line",
     "gjtorikian/commonmarker",
@@ -48,8 +49,10 @@
     "kaj/ructe",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
+    "matrix-org/seshat",
     "mitsuhiko/similar-asserts",
     "near/borsh-rs",
+    "nix-community/lorri",
     "nixops4/nixops4",
     "Nugine/simd",
     "PistonDevelopers/glfw-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3315,
-    "concepts": 612,
-    "observations": 617,
-    "repos": 122,
-    "terms": 640
+    "components": 3253,
+    "concepts": 592,
+    "observations": 596,
+    "repos": 119,
+    "terms": 620
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
     "adyscorpius/logseq-jira",
-    "agents-squads/squads-cli",
     "aggre/ullr",
     "Airfooox/cron-validate",
     "almogdepaz/wolfpack",
@@ -30,7 +29,6 @@
     "Beaglefoot/prettier-plugin-awk",
     "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
-    "buttondown/cli",
     "carbon-design-system/carbon-preprocess-svelte",
     "cargo-bins/release-pr",
     "catppuccin/.github",
@@ -46,7 +44,6 @@
     "dokploy/cli",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
-    "electron-userland/electron-windows-msix",
     "electron/windows-sign",
     "emscripten-forge/mambajs",
     "ethereum/eip-review-bot",

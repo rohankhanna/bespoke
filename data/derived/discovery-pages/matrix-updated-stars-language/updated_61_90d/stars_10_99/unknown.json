@@ -3,7 +3,7 @@
     "components": 31,
     "concepts": 62,
     "observations": 62,
-    "repos": 30,
+    "repos": 34,
     "terms": 62
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -31,6 +31,8 @@
     "cta-wave/WMAS",
     "dragonflyoss/community",
     "eigenfoundation/elips",
+    "flinedev/plankit",
+    "ganelson/inform-evolution",
     "getsentry/.github",
     "grpc/grpc-community",
     "ipshipyard/dnslink-action",
@@ -38,8 +40,10 @@
     "ithiria894/awesome-claude-code-hooks",
     "jakoch/rasterizers",
     "jakoch/vulkan-sdk-arm",
+    "kubernetes/steering",
     "onyx-dot-app/onyx_deep_research_bench",
     "opencontainers/tob",
+    "openobserve/dashboards",
     "operator-framework/community",
     "SeleniumHQ/selenium_manager_artifacts",
     "tc39/proposal-duplicate-named-capturing-groups",

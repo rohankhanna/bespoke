@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 79,
-    "observations": 79,
+    "components": 185,
+    "concepts": 77,
+    "observations": 77,
     "repos": 20,
-    "terms": 79
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "adityasugandhi/skillsync-mcp",
     "Afnanksalal/co-op",
     "aleclarson/vite-postgres",
     "alexpolonsky/agent-skill-strikeradar",
     "andrasg/matterbridge-loxone",
+    "Bartheleway/inquirer-table-multiple",
     "birdofpreyru/js-utils",
     "danielrosehill/MCP-Network-CUPS",
     "gajus/eslint-plugin-slonik",
     "ipfs/helia-delegated-routing-v1-http-api",
     "jspreadsheet/spreadsheet-react-server",
-    "KSXGitHub/cargo-scripts-builder",
     "lxsmnsyc/sponsors",
     "neuroverseos/neuroverseos-openclaw-governance",
     "PBK-B/i18next-cli-vue",

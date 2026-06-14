@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1330,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 46,
-    "terms": 224
+    "components": 1342,
+    "concepts": 226,
+    "observations": 226,
+    "repos": 47,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -27,6 +27,7 @@
     "glimmerjs/glimmer-vm",
     "google/gts",
     "improbable-eng/ts-protoc-gen",
+    "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
     "jupyter-widgets/ipyleaflet",

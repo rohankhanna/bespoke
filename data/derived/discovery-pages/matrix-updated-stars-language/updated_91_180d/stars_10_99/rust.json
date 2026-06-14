@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 147,
-    "observations": 149,
-    "repos": 62,
-    "terms": 145
+    "components": 205,
+    "concepts": 144,
+    "observations": 146,
+    "repos": 60,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
-    "01mf02/hifijson",
     "acw/simple_asn1",
     "adamgreig/ecpdap",
     "alloy-rs/op-alloy",
@@ -70,7 +69,6 @@
     "rust-lang/gccjit.rs",
     "RustCrypto/nacl-compat",
     "sigp/ethereum_hashing",
-    "spacemeshos/post-rs",
     "spyoungtech/json-five-rs",
     "suo/lintrunner",
     "Turbo87/flat-projection-rs",

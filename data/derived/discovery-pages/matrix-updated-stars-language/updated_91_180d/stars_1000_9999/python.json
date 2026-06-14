@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 465,
-    "concepts": 905,
-    "observations": 906,
-    "repos": 176,
-    "terms": 893
+    "components": 456,
+    "concepts": 892,
+    "observations": 893,
+    "repos": 175,
+    "terms": 880
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -37,6 +37,7 @@
     "baaivision/Emu3",
     "bazelbuild/starlark",
     "Beckschen/TransUNet",
+    "belluzj/fantasque-sans",
     "benjaminp/six",
     "black-forest-labs/flux2",
     "BlinkDL/ChatRWKV",
@@ -69,6 +70,7 @@
     "emilianavt/OpenSeeFace",
     "facebookincubator/submitit",
     "facebookresearch/DomainBed",
+    "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorchvideo",
@@ -95,7 +97,6 @@
     "IntelLabs/fastRAG",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
-    "jazzband/django-configurations",
     "jessevig/bertviz",
     "junyanz/CatPapers",
     "KaiyangZhou/deep-person-reid",
@@ -118,7 +119,6 @@
     "mozillazg/pinyin-data",
     "myhub/tr",
     "NixOS/nixops",
-    "notofonts/noto-cjk",
     "novnc/websockify",
     "numz/ComfyUI-SeedVR2_VideoUpscaler",
     "nunchaku-ai/ComfyUI-nunchaku",
@@ -147,7 +147,6 @@
     "Phantom-video/HuMo",
     "pipecat-ai/smart-turn",
     "PRIME-RL/SimpleVLA-RL",
-    "protectai/llm-guard",
     "PyCQA/pycodestyle",
     "Pylons/pyramid",
     "Python-Markdown/markdown",

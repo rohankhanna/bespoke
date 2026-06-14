@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 729,
-    "concepts": 464,
-    "observations": 465,
-    "repos": 105,
-    "terms": 477
+    "components": 728,
+    "concepts": 462,
+    "observations": 463,
+    "repos": 104,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -96,7 +96,6 @@
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
     "phiat/claude-esp-rs",
-    "quininer/x11-clipboard",
     "Ralith/lahar",
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",

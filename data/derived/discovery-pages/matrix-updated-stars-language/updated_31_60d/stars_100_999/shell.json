@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 255,
-    "concepts": 358,
-    "observations": 361,
-    "repos": 60,
-    "terms": 361
+    "components": 254,
+    "concepts": 350,
+    "observations": 353,
+    "repos": 59,
+    "terms": 353
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
@@ -30,7 +30,6 @@
     "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/ruby",
-    "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",

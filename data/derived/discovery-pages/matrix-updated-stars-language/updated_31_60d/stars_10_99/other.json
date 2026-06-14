@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2227,
-    "concepts": 1208,
-    "observations": 1212,
-    "repos": 294,
-    "terms": 1211
+    "components": 2222,
+    "concepts": 1210,
+    "observations": 1214,
+    "repos": 291,
+    "terms": 1213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -68,6 +68,7 @@
     "beyondcode/claude-hooks-sdk",
     "bladeacer/flexcyon",
     "brave-intl/publishers",
+    "browniebroke/pypackage-template",
     "buttondown/docs",
     "cbrgm/githubevents",
     "cderv/r-bucket",
@@ -175,7 +176,6 @@
     "JuliaGeo/GeometryOps.jl",
     "JuliaGeo/LibGEOS.jl",
     "JuliaGeo/Proj.jl",
-    "JuliaGPU/juliagpu.org",
     "JuliaLang/BumpStdlibs.jl",
     "JuliaMath/FixedPointNumbers.jl",
     "JuliaPy/MicroMamba.jl",
@@ -201,7 +201,6 @@
     "luau-lang/site",
     "ludwig-ai/ludwig-docs",
     "lxqt/lxqt-build-tools",
-    "m87-labs/moondream-examples",
     "melpa/package-build",
     "mesh-iit/ergocub-software",
     "meta-pytorch/executorch-examples",
@@ -300,8 +299,6 @@
     "UnknownPlatypus/djangofmt",
     "uvarc/rivanna-docker",
     "VirtusLab/bazel-steward",
-    "w3c/webmediaapi",
-    "WebAssembly/custom-descriptors",
     "WebAssembly/custom-page-sizes",
     "WebAssembly/shared-everything-threads",
     "wp-cli/dist-archive-command",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 962,
-    "concepts": 592,
-    "observations": 593,
-    "repos": 262,
-    "terms": 596
+    "components": 979,
+    "concepts": 588,
+    "observations": 589,
+    "repos": 263,
+    "terms": 592
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -71,8 +71,10 @@
     "azdavis/ungrammar-tools",
     "b-data/docker-deployment-jupyter",
     "babakatwork/loopy_agent",
+    "Bartheleway/inquirer-table-multiple",
     "baskeboler/clj-karaoke-lyrics",
     "bendrucker/terraform-configuration-aliases-action",
+    "BioContainers/singularity-build-bot",
     "biocypher/collectri",
     "birdofpreyru/js-utils",
     "blooper05/action-rails_best_practices",
@@ -92,7 +94,6 @@
     "cncf/k8s-conformance-archive",
     "codeGROOVE-dev/retry",
     "coderaiser/escover",
-    "cognizant-ai-lab/neuro-san-web-client",
     "Computer-use-agents/GUI-Docker-Env",
     "Coral-Protocol/coral-rs",
     "countries/countries-data-yaml",
@@ -173,7 +174,6 @@
     "Jumziey/neotest-nix-unit.nvim",
     "karpeleslab/tpl",
     "kornia/data",
-    "KSXGitHub/cargo-scripts-builder",
     "lace/entente",
     "lace/hobart",
     "LaurenzV/sitro",
@@ -237,6 +237,7 @@
     "stephanj/spotbugs-devoxxgenie-plugin",
     "SWE-bench/SWE-smith-envs",
     "sylabs/singularity-admindocs",
+    "tanyongkiam/cake_lpr",
     "tc39/proposal-intl-keep-trailing-zeros",
     "tensorchord/VectorChord-images",
     "testng-team/testng-team.github.io",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2357,
-    "concepts": 2017,
-    "observations": 2021,
-    "repos": 189,
-    "terms": 2039
+    "components": 2331,
+    "concepts": 2002,
+    "observations": 2006,
+    "repos": 185,
+    "terms": 2024
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
-    "abetlen/llama-cpp-python",
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agentskills/agentskills",
@@ -93,7 +92,6 @@
     "infiniflow/ragflow",
     "ipython/ipython",
     "k-dense-ai/scientific-agent-skills",
-    "karpathy/nanochat",
     "keras-team/keras",
     "Kludex/starlette",
     "kornia/kornia",
@@ -131,7 +129,6 @@
     "NVIDIA/TensorRT-LLM",
     "onnx/onnx",
     "onyx-dot-app/onyx",
-    "openai/evals",
     "openai/openai-agents-python",
     "openai/openai-python",
     "openai/swarm",
@@ -148,7 +145,6 @@
     "pipecat-ai/pipecat",
     "plotly/dash",
     "plotly/plotly.py",
-    "pre-commit/pre-commit",
     "PrefectHQ/fastmcp",
     "psf/requests",
     "pydantic/pydantic-ai",

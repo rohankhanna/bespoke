@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 289,
-    "observations": 289,
-    "repos": 54,
-    "terms": 287
+    "components": 383,
+    "concepts": 284,
+    "observations": 284,
+    "repos": 55,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "adrg/xdg",
@@ -20,6 +20,7 @@
     "aws/aws-app-mesh-controller-for-k8s",
     "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
+    "bernardo-bruning/ollama-copilot",
     "bluesky-social/goat",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
@@ -48,7 +49,7 @@
     "imjasonh/kontain.me",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
-    "JupiterRider/purego-sdl3",
+    "jaegertracing/jaeger-idl",
     "kubeflow/mpi-operator",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",

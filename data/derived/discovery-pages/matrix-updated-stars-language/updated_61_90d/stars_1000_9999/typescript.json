@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2485,
-    "concepts": 564,
-    "observations": 565,
-    "repos": 75,
-    "terms": 593
+    "components": 2608,
+    "concepts": 584,
+    "observations": 585,
+    "repos": 79,
+    "terms": 613
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
     "actions/typescript-action",
+    "actions/upload-artifact",
     "AIPexStudio/AIPex",
     "aleclarson/vite-tsconfig-paths",
     "allweonedev/presentation-ai",
@@ -45,6 +46,7 @@
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
     "googleapis/release-please",
+    "googleapis/release-please-action",
     "gpac/mp4box.js",
     "graffle-js/graffle",
     "graphql-hive/graphql-config",
@@ -56,7 +58,6 @@
     "Ironclad/rivet",
     "isaacs/node-glob",
     "itgalaxy/favicons",
-    "jamiebrynes7/obsidian-todoist-plugin",
     "jaredwray/keyv",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
@@ -69,9 +70,11 @@
     "mattpocock/ts-reset",
     "microsoft/genaiscript",
     "microsoft/node-pty",
+    "microsoft/playwright-cli",
     "microsoft/tsdoc",
     "microsoft/vscode-eslint",
     "Mobile-Artificial-Intelligence/maid",
+    "mutoe/vue3-realworld-example-app",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
     "oclif/oclif",
@@ -82,6 +85,7 @@
     "REditorSupport/vscode-R",
     "remotion-dev/github-unwrapped",
     "sql-formatter-org/sql-formatter",
+    "statoscope/statoscope",
     "stephenh/ts-proto",
     "TfTHacker/obsidian42-brat",
     "thx/resvg-js",

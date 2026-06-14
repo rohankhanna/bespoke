@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 93
-- terms: 782
-- components: 4353
-- concepts: 793
-- observations: 796
+- repos: 91
+- terms: 778
+- components: 4267
+- concepts: 789
+- observations: 792
 
 ## Static behavior
 
@@ -117,8 +117,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ai/nanoid](https://github.com/ai/nanoid) | 26757 | 2026-04-15T14:10:00Z | JavaScript | Infrastructure/tooling | 3 | 27 | 3 | 3 |
 | [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | 12460 | 2026-04-15T11:11:13Z | JavaScript | Infrastructure/tooling | 10 | 53 | 10 | 10 |
 | [http-party/http-server](https://github.com/http-party/http-server) | 14179 | 2026-04-15T11:09:09Z | JavaScript | Infrastructure/tooling | 11 | 24 | 11 | 11 |
-| [jashkenas/underscore](https://github.com/jashkenas/underscore) | 27341 | 2026-04-14T20:39:16Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
-| [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -150,7 +148,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | 28768 | 2026-04-27T12:56:12Z | JavaScript | Infrastructure/tooling | 19 | 137 | 19 | 19 |
 | [jashkenas/backbone](https://github.com/jashkenas/backbone) | 28079 | 2026-04-22T17:12:03Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [Automattic/mongoose](https://github.com/Automattic/mongoose) | 27476 | 2026-04-29T20:24:41Z | JavaScript | Infrastructure/tooling | 11 | 54 | 11 | 11 |
-| [jashkenas/underscore](https://github.com/jashkenas/underscore) | 27341 | 2026-04-14T20:39:16Z | JavaScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [eslint/eslint](https://github.com/eslint/eslint) | 27217 | 2026-05-03T08:41:29Z | JavaScript | Infrastructure/tooling | 13 | 103 | 13 | 13 |
 | [ajaxorg/ace](https://github.com/ajaxorg/ace) | 27131 | 2026-04-21T19:31:34Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [ai/nanoid](https://github.com/ai/nanoid) | 26757 | 2026-04-15T14:10:00Z | JavaScript | Infrastructure/tooling | 3 | 27 | 3 | 3 |
@@ -203,7 +200,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arkenfox/user.js](https://github.com/arkenfox/user.js) | 12469 | 2026-04-20T20:30:29Z | JavaScript | Template/starter | 8 | 0 | 8 | 8 |
 | [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | 12460 | 2026-04-15T11:11:13Z | JavaScript | Infrastructure/tooling | 10 | 53 | 10 | 10 |
 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12226 | 2026-04-16T08:46:35Z | JavaScript | Infrastructure/tooling | 1 | 30 | 1 | 1 |
-| [karma-runner/karma](https://github.com/karma-runner/karma) | 11963 | 2026-04-14T19:00:20Z | JavaScript | Infrastructure/tooling | 3 | 65 | 3 | 3 |
 | [wix/Detox](https://github.com/wix/Detox) | 11901 | 2026-04-27T10:24:49Z | JavaScript | Infrastructure/tooling | 17 | 37 | 17 | 17 |
 | [vega/vega](https://github.com/vega/vega) | 11849 | 2026-04-16T14:20:55Z | JavaScript | Infrastructure/tooling | 9 | 41 | 9 | 9 |
 | [electron/minimal-repro](https://github.com/electron/minimal-repro) | 11465 | 2026-04-23T13:35:27Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |

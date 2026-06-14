@@ -3,7 +3,7 @@
     "components": 62,
     "concepts": 60,
     "observations": 60,
-    "repos": 16,
+    "repos": 15,
     "terms": 73
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "containers/toolbox",
@@ -21,7 +21,6 @@
     "docker-library/wordpress",
     "frankbria/ralph-claude-code",
     "jonmosco/kube-ps1",
-    "kward/shunit2",
     "lxgw/LxgwWenkaiGB",
     "matryer/xbar-plugins",
     "nvie/git-toolbelt",

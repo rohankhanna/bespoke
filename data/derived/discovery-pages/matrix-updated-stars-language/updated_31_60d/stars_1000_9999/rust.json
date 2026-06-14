@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2372,
-    "concepts": 1729,
-    "observations": 1734,
-    "repos": 219,
-    "terms": 1736
+    "components": 2344,
+    "concepts": 1718,
+    "observations": 1723,
+    "repos": 216,
+    "terms": 1725
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -78,7 +78,6 @@
     "EmbarkStudios/cargo-deny",
     "EmbarkStudios/puffin",
     "erebe/wstunnel",
-    "EricLBuehler/mistral.rs",
     "esp-rs/esp-hal",
     "evcxr/evcxr",
     "eventual-inc/daft",
@@ -105,7 +104,6 @@
     "hoodie/notify-rust",
     "hrkfdn/ncspot",
     "huggingface/text-embeddings-inference",
-    "hyperium/h2",
     "image-rs/image",
     "ivanceras/svgbob",
     "j178/prek",
@@ -207,7 +205,6 @@
     "sigp/lighthouse",
     "skim-rs/skim",
     "smallcloudai/refact",
-    "snapview/tungstenite-rs",
     "Splode/pomotroid",
     "squidowl/halloy",
     "succinctlabs/sp1",

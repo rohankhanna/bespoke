@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 143,
-    "concepts": 182,
-    "observations": 183,
-    "repos": 15,
-    "terms": 178
+    "components": 141,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 14,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "89luca89/distrobox",
     "a2aproject/A2A",
@@ -22,7 +22,6 @@
     "dokku/dokku",
     "google/oss-fuzz",
     "itzg/docker-minecraft-server",
-    "nodesource/distributions",
     "pyenv/pyenv",
     "rockerBOO/awesome-neovim",
     "super-linter/super-linter",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 40,
-    "terms": 182
+    "components": 180,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 41,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -21,6 +21,7 @@
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
+    "barak/minidjvu",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
     "chusitoo/flatbush",
@@ -37,7 +38,6 @@
     "GaoYusong/llm.cpp",
     "gershnik/wsdd-native",
     "go-skynet/go-ggml-transformers.cpp",
-    "gozaltech/espeak-ng-sapi",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
     "intel/metrics-discovery",
@@ -51,6 +51,7 @@
     "onicai/llama_cpp_canister",
     "r-lyeh/Spectral",
     "RekGRpth/pg_task",
+    "ROCm/roctracer",
     "ssiu/flash-attention-turing",
     "theimpossibleastronaut/rmw",
     "uael/sv"

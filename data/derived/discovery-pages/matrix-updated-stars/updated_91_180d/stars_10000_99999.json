@@ -1,28 +1,25 @@
 {
   "counts": {
-    "components": 1181,
-    "concepts": 744,
-    "observations": 749,
-    "repos": 122,
-    "terms": 748
+    "components": 1170,
+    "concepts": 729,
+    "observations": 733,
+    "repos": 120,
+    "terms": 733
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
-    "AlexeyAB/darknet",
     "Alibaba-NLP/DeepResearch",
-    "andrewyng/aisuite",
     "anthropics/claude-quickstarts",
     "antlr/antlr4",
     "aria2/aria2",
     "astral-sh/rye",
-    "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
     "bmaltais/kohya_ss",
     "bol-van/zapret",
@@ -30,7 +27,6 @@
     "BuilderIO/mitosis",
     "burntsushi/ripgrep",
     "bytedance/UI-TARS",
-    "camenduru/stable-diffusion-webui-colab",
     "caolan/async",
     "carbon-app/carbon",
     "chalk/chalk",
@@ -41,6 +37,7 @@
     "containrrr/watchtower",
     "cool-RR/PySnooper",
     "CorentinJ/Real-Time-Voice-Cloning",
+    "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
@@ -85,6 +82,7 @@
     "macrozheng/mall",
     "mathjax/MathJax",
     "MatsuriDayo/NekoBoxForAndroid",
+    "microsoft/AirSim",
     "microsoft/unilm",
     "microsoft/vscode-extension-samples",
     "minio/minio",

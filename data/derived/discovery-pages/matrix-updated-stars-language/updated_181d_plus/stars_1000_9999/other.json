@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1298,
-    "concepts": 1619,
-    "observations": 1621,
-    "repos": 433,
-    "terms": 1608
+    "components": 1303,
+    "concepts": 1625,
+    "observations": 1627,
+    "repos": 434,
+    "terms": 1614
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -136,6 +136,7 @@
     "folke/which-key.nvim",
     "FoundationVision/VAR",
     "FranxYao/chain-of-thought-hub",
+    "fukuball/jieba-php",
     "fwcd/kotlin-language-server",
     "garbas/vim-snipmate",
     "geekyutao/Inpaint-Anything",

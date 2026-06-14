@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 502,
-    "concepts": 904,
-    "observations": 904,
-    "repos": 237,
-    "terms": 897
+    "components": 500,
+    "concepts": 933,
+    "observations": 933,
+    "repos": 243,
+    "terms": 926
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -49,7 +49,6 @@
     "axon-rl/gem",
     "Azure-Samples/ai-rag-chat-evaluator",
     "baaivision/Uni3D",
-    "behave/behave-django",
     "berkerpeksag/astor",
     "bigcode-project/bigcodebench",
     "Blosc/python-blosc",
@@ -74,6 +73,7 @@
     "CNChTu/Diffusion-SVC",
     "CodeClash-ai/CodeClash",
     "corydolphin/flask-cors",
+    "csslc/PiSA-SR",
     "DanCardin/cappa",
     "danielward27/flowjax",
     "dbeley/awesome-lemmy",
@@ -97,6 +97,9 @@
     "GewelsJI/VPS",
     "GFW-knocker/gfw_resist_tcp_proxy",
     "githubharald/CTCDecoder",
+    "gmberton/CosPlace",
+    "gmberton/deep-visual-geo-localization-benchmark",
+    "gmberton/VPR-datasets-downloader",
     "google-deepmind/multi_object_datasets",
     "google-deepmind/recurrentgemma",
     "google/adk-python-community",
@@ -114,6 +117,7 @@
     "httplib2/httplib2",
     "huggingface/flux-fast",
     "hustvl/DiffusionDriveV2",
+    "hustvl/Senna",
     "ielab/llm-rankers",
     "inducer/cgen",
     "infinigence/FUSCO",
@@ -205,6 +209,7 @@
     "ShenhanQian/GaussianAvatars",
     "Shenyi-Z/TaylorSeer",
     "shibing624/similarities",
+    "simonflueckiger/tesserocr-windows_build",
     "SLDGroup/EMCAD",
     "sony/ctm",
     "speechbrain/benchmarks",
@@ -236,6 +241,7 @@
     "wlav/cppyy",
     "wudongming97/TopoMLP",
     "WujiangXu/A-mem",
+    "WujiangXu/A-mem-sys",
     "xArm-Developer/xArm-Python-SDK",
     "xingchensong/S3Tokenizer",
     "yashsinghcodes/wik",

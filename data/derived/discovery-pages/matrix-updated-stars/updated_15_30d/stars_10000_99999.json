@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1935,
-    "concepts": 1060,
-    "observations": 1066,
+    "components": 1847,
+    "concepts": 1030,
+    "observations": 1037,
     "repos": 85,
-    "terms": 1057
+    "terms": 1027
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -21,7 +21,6 @@
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
     "browserslist/browserslist",
-    "ChatGPTNextWeb/NextChat",
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "datalab-to/surya",
@@ -47,6 +46,7 @@
     "huggingface/sentence-transformers",
     "HumanSignal/label-studio",
     "isl-org/Open3D",
+    "jax-ml/jax",
     "jestjs/jest",
     "JetBrains/compose-multiplatform",
     "langchain-ai/langchainjs",
@@ -60,7 +60,6 @@
     "mozilla-ai/llamafile",
     "mudler/LocalAI",
     "mui/material-ui",
-    "neovim/nvim-lspconfig",
     "NVIDIA-NeMo/NeMo",
     "nvm-sh/nvm",
     "nwjs/nw.js",
@@ -87,6 +86,7 @@
     "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
     "SubtitleEdit/subtitleedit",
+    "swiftlang/swift",
     "TEN-framework/ten-framework",
     "triton-lang/triton",
     "ungoogled-software/ungoogled-chromium",

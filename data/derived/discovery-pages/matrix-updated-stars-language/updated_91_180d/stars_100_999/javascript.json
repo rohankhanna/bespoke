@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 897,
-    "concepts": 141,
-    "observations": 142,
-    "repos": 50,
-    "terms": 140
+    "components": 895,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 49,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -40,8 +40,6 @@
     "Level/awesome",
     "lit/lit-element-starter-ts",
     "Mario4272/ag_bridge",
-    "mathjax/MathJax-demos-node",
-    "Meteor-Community-Packages/meteor-scss",
     "nodejs/citgm",
     "nodenv/jetbrains-npm",
     "omnidan/redux-ignore",
@@ -51,6 +49,7 @@
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
     "React9k/react-timeline-9000",
+    "RichardLitt/generator-standard-readme",
     "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
     "scripting/reallysimple",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 114
-- components: 630
-- concepts: 114
-- observations: 115
+- repos: 13
+- terms: 132
+- components: 639
+- concepts: 132
+- observations: 133
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5324 | 2026-05-30T12:05:13Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
 | [module-federation/core](https://github.com/module-federation/core) | 2540 | 2026-05-30T02:08:08Z | JavaScript | Infrastructure/tooling | 13 | 173 | 13 | 13 |
 | [googleapis/google-cloud-node](https://github.com/googleapis/google-cloud-node) | 3165 | 2026-05-30T00:27:19Z | JavaScript | CLI | 11 | 20 | 11 | 12 |
 | [endojs/endo](https://github.com/endojs/endo) | 1023 | 2026-05-29T23:02:44Z | JavaScript | Infrastructure/tooling | 17 | 54 | 17 | 17 |
@@ -44,6 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7253 | 2026-05-18T17:28:48Z | JavaScript | Infrastructure/tooling | 6 | 15 | 6 | 6 |
+| [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5324 | 2026-05-30T12:05:13Z | JavaScript | Infrastructure/tooling | 18 | 9 | 18 | 18 |
 | [gildas-lormeau/zip.js](https://github.com/gildas-lormeau/zip.js) | 3843 | 2026-05-23T13:33:37Z | JavaScript | Infrastructure/tooling | 19 | 9 | 19 | 19 |
 | [paralleldrive/cuid](https://github.com/paralleldrive/cuid) | 3506 | 2026-05-29T21:08:45Z | JavaScript | Web app | 0 | 14 | 0 | 0 |
 | [callstack/react-native-builder-bob](https://github.com/callstack/react-native-builder-bob) | 3214 | 2026-05-26T21:02:24Z | JavaScript | CLI | 10 | 28 | 10 | 10 |

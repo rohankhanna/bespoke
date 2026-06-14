@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 138,
-    "concepts": 273,
-    "observations": 274,
-    "repos": 71,
-    "terms": 273
+    "concepts": 255,
+    "observations": 256,
+    "repos": 69,
+    "terms": 255
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -75,8 +75,6 @@
     "piebald-ai/awesome-gemini-cli",
     "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
-    "SamurAIGPT/awesome-openclaw",
-    "servo/project",
     "smithy-lang/awesome-smithy",
     "stripe/openapi",
     "tinted-theming/home",

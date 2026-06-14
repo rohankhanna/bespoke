@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 428,
-    "observations": 432,
-    "repos": 77,
-    "terms": 429
+    "components": 380,
+    "concepts": 458,
+    "observations": 463,
+    "repos": 84,
+    "terms": 459
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
+    "Ableton/link",
     "ada-url/ada",
     "alembic/alembic",
     "alibaba/havenask",
@@ -43,17 +44,22 @@
     "google/double-conversion",
     "google/draco",
     "google/honggfuzz",
+    "google/tensorstore",
     "h2o/picohttpparser",
     "hufrea/byedpi",
     "KhronosGroup/MoltenVK",
+    "lh3/minimap2",
     "libbpf/libbpf",
+    "libjpeg-turbo/libjpeg-turbo",
     "littlefs-project/littlefs",
     "lltcggie/waifu2x-caffe",
     "madler/zlib",
+    "mapnik/mapnik",
     "mattn/go-sqlite3",
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/GSL",
     "microsoft/snmalloc",
+    "microsoft/wil",
     "ml-explore/mlx-swift",
     "nalgeon/sqlean",
     "nigels-com/glew",
@@ -72,6 +78,7 @@
     "pisa-engine/pisa",
     "posva/catimg",
     "redis/hiredis",
+    "risc0/risc0",
     "riscv-software-src/opensbi",
     "SarahWeiii/CoACD",
     "sqlcipher/sqlcipher",
@@ -85,9 +92,9 @@
     "TuGraph-family/tugraph-db",
     "uNetworking/uSockets",
     "vectorclass/version2",
-    "void-linux/xbps",
     "vstakhov/libucl",
     "WebAssembly/wabt",
+    "wjakob/nanobind",
     "xlite-dev/lite.ai.toolkit",
     "ycm-core/ycmd",
     "zeromq/cppzmq"

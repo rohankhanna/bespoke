@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 599,
+    "components": 604,
     "concepts": 402,
     "observations": 404,
-    "repos": 157,
+    "repos": 155,
     "terms": 398
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -35,6 +35,7 @@
     "antonbabenko/serverless.tf-playground",
     "apache/datasketches-python",
     "apache/netbeans-antora-site",
+    "apache/pdfbox-docs",
     "apache/rocketmq-apis",
     "apostrophecms/starter-kit-astro-apollo",
     "Arthur944/neotest-bun",
@@ -51,10 +52,8 @@
     "camertron/garnet-js",
     "chakravala/DirectSum.jl",
     "cjohansen/m1p",
-    "cleanlab/cleanvision-examples",
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
-    "cmacdonald/pyt_splade",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
@@ -85,7 +84,6 @@
     "gregorias/toggle.nvim",
     "HaxeFlixel/haxeflixel.com",
     "hedronvision/bazel-make-cc-https-easy",
-    "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
     "Humans-of-Julia/StaticWebPages.jl",
     "ImranR98/obtainium.imranr.dev",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 358
-- components: 276
-- concepts: 360
-- observations: 361
+- repos: 43
+- terms: 363
+- components: 283
+- concepts: 365
+- observations: 366
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers) | 4143 | 2026-05-30T06:44:32Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [harbor-framework/harbor](https://github.com/harbor-framework/harbor) | 2195 | 2026-05-30T06:36:27Z | Python | CLI | 10 | 8 | 10 | 10 |
 | [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | 8392 | 2026-05-30T01:35:09Z | Python | Infrastructure/tooling | 9 | 19 | 9 | 9 |
@@ -94,6 +95,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [speaches-ai/speaches](https://github.com/speaches-ai/speaches) | 3312 | 2026-05-20T18:31:38Z | Python | Infrastructure/tooling | 13 | 7 | 13 | 13 |
 | [google-deepmind/dm-haiku](https://github.com/google-deepmind/dm-haiku) | 3233 | 2026-05-29T06:17:57Z | Python | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [roboflow/maestro](https://github.com/roboflow/maestro) | 2675 | 2026-05-25T17:46:10Z | Python | Infrastructure/tooling | 16 | 6 | 16 | 16 |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [Farama-Foundation/Minigrid](https://github.com/Farama-Foundation/Minigrid) | 2459 | 2026-05-27T06:47:32Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [zai-org/GLM-V](https://github.com/zai-org/GLM-V) | 2319 | 2026-05-16T05:42:14Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2271 | 2026-05-29T19:28:52Z | Python | Infrastructure/tooling | 4 | 5 | 4 | 4 |

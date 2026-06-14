@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 984,
-    "concepts": 3896,
-    "observations": 3898,
-    "repos": 988,
-    "terms": 3824
+    "components": 995,
+    "concepts": 3911,
+    "observations": 3913,
+    "repos": 991,
+    "terms": 3839
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -431,6 +431,7 @@
     "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
     "Janspiry/Palette-Image-to-Image-Diffusion-Models",
     "jaywalnut310/vits",
+    "jazzband/django-configurations",
     "JDAI-CV/FaceX-Zoo",
     "JDAI-CV/fast-reid",
     "jeffffffli/HybrIK",
@@ -617,6 +618,7 @@
     "noahshinn/reflexion",
     "nobody132/masr",
     "nod-ai/AMD-SHARK-Studio",
+    "notofonts/noto-cjk",
     "notofonts/noto-fonts",
     "NovaSky-AI/SkyThought",
     "nschloe/meshio",
@@ -746,6 +748,7 @@
     "princeton-vl/RAFT",
     "project-baize/baize-chatbot",
     "Project-MONAI/research-contributions",
+    "protectai/llm-guard",
     "prs-eth/Marigold",
     "punica-ai/punica",
     "pushshift/api",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2135,
-    "concepts": 2001,
-    "observations": 2007,
-    "repos": 859,
-    "terms": 1989
+    "components": 2138,
+    "concepts": 2005,
+    "observations": 2011,
+    "repos": 862,
+    "terms": 1993
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -238,6 +238,7 @@
     "citusdata/citus_docs",
     "cjohansen/gadget-inspector",
     "ckipp01/stylua-nvim",
+    "cleanlab/cleanvision-examples",
     "cleanunicorn/mockprovider",
     "clebert/llama2.zig",
     "Clemapfel/MousetrapMakie.jl",
@@ -248,6 +249,7 @@
     "clojure/tools.analyzer.js",
     "cloudfoundry/cf-uaa-lib",
     "club-soda/club-soda-guide",
+    "cmacdonald/pyt_splade",
     "cobalt-org/cobalt-org.github.io",
     "CocoaPods/cocoapods-downloader",
     "CocoaPods/Nanaimo",
@@ -436,6 +438,7 @@
     "hhu-stups/prolog-jupyter-kernel",
     "high-moctane/asyncomplete-nextword.vim",
     "Hitesh-Aggarwal/feline_theme.nvim",
+    "honwen/openwrt-shadowsocks-rust",
     "horriblename/lzn-auto-require",
     "HumanAIGC-Engineering/gradio-webrtc",
     "humanpose1/MS-SVConv",

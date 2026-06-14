@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 219
-- components: 974
-- concepts: 212
-- observations: 215
+- repos: 13
+- terms: 195
+- components: 889
+- concepts: 188
+- observations: 191
 
 ## Static behavior
 
@@ -39,14 +39,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jestjs/jest](https://github.com/jestjs/jest) | 45361 | 2026-05-28T17:11:46Z | TypeScript | Infrastructure/tooling | 17 | 96 | 17 | 17 |
 | [dexie/Dexie.js](https://github.com/dexie/Dexie.js) | 14321 | 2026-05-25T13:54:55Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
 | [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83491 | 2026-05-21T06:23:41Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88116 | 2026-05-15T01:19:01Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 90122 | 2026-05-30T07:11:28Z | TypeScript | Infrastructure/tooling | 22 | 27 | 22 | 24 |
-| [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) | 88116 | 2026-05-15T01:19:01Z | TypeScript | Infrastructure/tooling | 24 | 85 | 24 | 24 |
 | [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83491 | 2026-05-21T06:23:41Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | 77966 | 2026-05-30T03:24:49Z | TypeScript | Infrastructure/tooling | 15 | 384 | 15 | 15 |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 56535 | 2026-05-30T06:13:29Z | TypeScript | Infrastructure/tooling | 42 | 26 | 33 | 33 |

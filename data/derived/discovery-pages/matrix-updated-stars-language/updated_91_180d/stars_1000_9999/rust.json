@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 254,
-    "observations": 257,
-    "repos": 46,
-    "terms": 252
+    "components": 306,
+    "concepts": 243,
+    "observations": 245,
+    "repos": 45,
+    "terms": 241
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "a16z/helios",
@@ -20,13 +20,13 @@
     "anordal/shellharden",
     "anthropics/claudes-c-compiler",
     "apache/horaedb",
-    "atanunq/viu",
     "brendanzab/codespan",
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
     "dtolnay/cargo-expand",
     "dtolnay/case-studies",
+    "dtolnay/proc-macro-workshop",
     "fschutt/printpdf",
     "geiger-rs/cargo-geiger",
     "godot-rust/gdnative",
@@ -51,7 +51,6 @@
     "sharkdp/diskus",
     "simd-lite/simd-json",
     "Stebalien/tempfile",
-    "tarkah/tickrs",
     "Tencent/tquic",
     "tikv/grpc-rs",
     "tokio-rs/bytes",

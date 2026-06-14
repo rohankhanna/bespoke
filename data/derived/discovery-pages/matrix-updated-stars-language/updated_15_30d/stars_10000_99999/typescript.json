@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 974,
-    "concepts": 212,
-    "observations": 215,
-    "repos": 14,
-    "terms": 219
+    "components": 889,
+    "concepts": 188,
+    "observations": 191,
+    "repos": 13,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
-    "ChatGPTNextWeb/NextChat",
     "dexie/Dexie.js",
     "fastapi/full-stack-fastapi-template",
     "googleapis/google-api-nodejs-client",

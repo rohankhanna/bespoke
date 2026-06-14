@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1862,
-    "concepts": 315,
-    "observations": 316,
-    "repos": 66,
-    "terms": 324
+    "components": 1919,
+    "concepts": 311,
+    "observations": 312,
+    "repos": 65,
+    "terms": 320
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -25,7 +25,6 @@
     "antfu/eslint-plugin-antfu",
     "antfu/eslint-plugin-command",
     "antfu/vscode-icons-carbon",
-    "Anush008/fastembed-js",
     "augmnt/augments-mcp-server",
     "axel-op/googlejavaformat-action",
     "aymenfurter/ralph",
@@ -68,10 +67,10 @@
     "posthtml/posthtml-parser",
     "priceline/design-system",
     "SassNinja/postcss-extract-media-query",
-    "snapcast/snapweb",
     "sveltejs/prettier-plugin-svelte",
     "tevonsb/homeassistant-mcp",
     "trzsz/trzsz.js",
+    "un-ts/eslint-plugin-import-x",
     "uni-helper/uni-network",
     "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",

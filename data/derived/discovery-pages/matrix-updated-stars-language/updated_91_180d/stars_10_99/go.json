@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 37,
-    "terms": 136
+    "components": 156,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 38,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -30,6 +30,7 @@
     "casparwylie/cascii-server",
     "cloudfoundry/buildpackapplifecycle",
     "concourse/pool-resource",
+    "datachainlab/ethereum-ibc-relay-chain",
     "doraemonkeys/paddleocr",
     "ebml-go/webm",
     "estesp/mquery",

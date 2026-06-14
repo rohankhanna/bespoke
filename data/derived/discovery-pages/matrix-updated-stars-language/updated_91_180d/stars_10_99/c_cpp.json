@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 170,
+    "components": 167,
     "concepts": 176,
     "observations": 177,
     "repos": 62,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
-    "adamharrison/lite-xl-terminal",
     "adamyaxley/Unformat",
     "amerkoleci/Alimer.Bindings",
     "aseprite/clip",
@@ -39,6 +38,7 @@
     "fmtlib/format-benchmark",
     "fonttools/unicodedata2",
     "FourierTransformer/lua-simdjson",
+    "gozaltech/espeak-ng-sapi",
     "HolyBlackCat/box2cpp",
     "icecc/icemon",
     "icppWorld/icpp_llm",

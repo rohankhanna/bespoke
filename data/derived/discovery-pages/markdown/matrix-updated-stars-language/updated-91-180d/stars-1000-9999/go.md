@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 232
-- components: 227
-- concepts: 232
-- observations: 232
+- repos: 50
+- terms: 225
+- components: 219
+- concepts: 225
+- observations: 225
 
 ## Static behavior
 
@@ -76,7 +76,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ameshkov/dnslookup](https://github.com/ameshkov/dnslookup) | 1118 | 2025-12-18T09:35:03Z | Go | CLI | 2 | 7 | 2 | 2 |
 | [uber-go/mock](https://github.com/uber-go/mock) | 3313 | 2025-12-17T21:04:10Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [argoproj-labs/argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot) | 1114 | 2025-12-16T22:36:28Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [containernetworking/cni](https://github.com/containernetworking/cni) | 6034 | 2025-12-15T08:34:29Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -90,7 +89,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [markbates/goth](https://github.com/markbates/goth) | 6516 | 2026-02-11T05:06:29Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [gobwas/ws](https://github.com/gobwas/ws) | 6455 | 2026-02-12T17:07:49Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [achannarasappa/ticker](https://github.com/achannarasappa/ticker) | 6059 | 2025-12-28T22:39:38Z | Go | CLI | 22 | 11 | 22 | 22 |
-| [containernetworking/cni](https://github.com/containernetworking/cni) | 6034 | 2025-12-15T08:34:29Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [shazow/ssh-chat](https://github.com/shazow/ssh-chat) | 5883 | 2026-01-10T02:23:23Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [golang/oauth2](https://github.com/golang/oauth2) | 5845 | 2026-03-08T12:01:22Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [ankitpokhrel/jira-cli](https://github.com/ankitpokhrel/jira-cli) | 5572 | 2026-01-20T19:06:00Z | Go | CLI | 16 | 7 | 16 | 16 |

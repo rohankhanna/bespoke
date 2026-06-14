@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 374,
-    "observations": 376,
-    "repos": 78,
-    "terms": 371
+    "components": 525,
+    "concepts": 366,
+    "observations": 368,
+    "repos": 76,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
-    "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
     "ankitpokhrel/shopctl",
     "apache/datasketches-go",
@@ -26,7 +25,6 @@
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
-    "benchsci/rules_nodejs_gazelle",
     "bitrise-io/stepman",
     "blinklabs-io/bluefin",
     "bootmortis/sing-geosite",

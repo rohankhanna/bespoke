@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 69,
-    "concepts": 21,
-    "observations": 21,
+    "components": 53,
+    "concepts": 25,
+    "observations": 26,
     "repos": 6,
-    "terms": 21
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
-    "alloy-rs/svm-rs",
+    "attackgoat/vk-graph",
     "EmmyLuaLs/emmylua-analyzer-rust",
     "GitoxideLabs/cargo-smart-release",
     "lbcb-sci/herro",

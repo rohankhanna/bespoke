@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2317,
-    "concepts": 2252,
-    "observations": 2263,
-    "repos": 245,
-    "terms": 2253
+    "components": 2259,
+    "concepts": 2201,
+    "observations": 2212,
+    "repos": 238,
+    "terms": 2202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -29,7 +29,6 @@
     "apache/dubbo-go",
     "apache/incubator-devlake",
     "apache/incubator-seata-go",
-    "appleboy/gorush",
     "apptainer/apptainer",
     "aquasecurity/trivy-operator",
     "argoproj-labs/argocd-image-updater",
@@ -47,7 +46,6 @@
     "awslabs/amazon-eks-ami",
     "axllent/mailpit",
     "azimjohn/jprq",
-    "bazelbuild/bazelisk",
     "Bearer/bearer",
     "beclab/Olares",
     "bfenetworks/bfe",
@@ -130,7 +128,6 @@
     "go-spatial/tegola",
     "go-swagger/go-swagger",
     "gokcehan/lf",
-    "golang-jwt/jwt",
     "golang/tools",
     "google/adk-go",
     "google/certificate-transparency-go",
@@ -144,7 +141,6 @@
     "gookit/goutil",
     "gookit/validate",
     "goreleaser/nfpm",
-    "gotestyourself/gotestsum",
     "grafana/alloy",
     "hairyhenderson/gomplate",
     "hanselime/paqet",
@@ -226,7 +222,6 @@
     "prometheus/blackbox_exporter",
     "prometheus/client_golang",
     "rabbitmq/amqp091-go",
-    "rancher/local-path-provisioner",
     "raviqqe/muffet",
     "redis/rueidis",
     "replicate/cog",
@@ -251,11 +246,9 @@
     "tonistiigi/binfmt",
     "trzsz/trzsz-ssh",
     "umputun/remark42",
-    "uptrace/uptrace",
     "usbarmory/tamago",
     "version-fox/vfox",
     "VictoriaMetrics/fastcache",
-    "wa-lang/wa",
     "walles/moor",
     "x-motemen/ghq",
     "XTLS/REALITY"

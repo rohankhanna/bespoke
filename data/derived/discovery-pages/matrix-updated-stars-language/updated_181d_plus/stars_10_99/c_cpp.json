@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 564,
+    "components": 567,
     "concepts": 669,
     "observations": 670,
-    "repos": 297,
+    "repos": 298,
     "terms": 663
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -24,6 +24,7 @@
     "AdaCore/gnatcoll-db",
     "adafruit/Adafruit_BMP085_Unified",
     "adafruit/Adafruit_PM25AQI",
+    "adamharrison/lite-xl-terminal",
     "adisbladis/lix-unit",
     "aidenlab/straw",
     "alexmyczko/ree",

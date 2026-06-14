@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 245
-- terms: 2253
-- components: 2317
-- concepts: 2252
-- observations: 2263
+- repos: 238
+- terms: 2202
+- components: 2259
+- concepts: 2201
+- observations: 2212
 
 ## Static behavior
 
@@ -264,13 +264,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gin-gonic/examples](https://github.com/gin-gonic/examples) | 4488 | 2026-04-15T14:37:06Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [bufbuild/protovalidate](https://github.com/bufbuild/protovalidate) | 1481 | 2026-04-15T13:28:35Z | Go | Infrastructure/tooling | 15 | 11 | 15 | 15 |
 | [ContentSquare/chproxy](https://github.com/ContentSquare/chproxy) | 1450 | 2026-04-15T07:11:53Z | Go | CLI | 7 | 7 | 7 | 7 |
-| [appleboy/gorush](https://github.com/appleboy/gorush) | 8719 | 2026-04-15T01:54:38Z | Go | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [gotestyourself/gotestsum](https://github.com/gotestyourself/gotestsum) | 2642 | 2026-04-15T00:47:43Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [uptrace/uptrace](https://github.com/uptrace/uptrace) | 4176 | 2026-04-14T23:35:20Z | Go | CLI | 14 | 11 | 14 | 14 |
-| [golang-jwt/jwt](https://github.com/golang-jwt/jwt) | 9055 | 2026-04-14T17:42:56Z | Go | Infrastructure/tooling | 8 | 8 | 8 | 8 |
-| [wa-lang/wa](https://github.com/wa-lang/wa) | 1761 | 2026-04-14T15:19:09Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [rancher/local-path-provisioner](https://github.com/rancher/local-path-provisioner) | 2831 | 2026-04-14T12:33:08Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
-| [bazelbuild/bazelisk](https://github.com/bazelbuild/bazelisk) | 2608 | 2026-04-14T11:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -290,13 +283,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [axllent/mailpit](https://github.com/axllent/mailpit) | 9225 | 2026-04-16T05:56:20Z | Go | Infrastructure/tooling | 13 | 45 | 13 | 13 |
 | [gokcehan/lf](https://github.com/gokcehan/lf) | 9224 | 2026-04-21T02:13:02Z | Go | CLI | 3 | 7 | 3 | 3 |
 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | 9107 | 2026-04-22T23:52:49Z | Go | Infrastructure/tooling | 9 | 8 | 9 | 9 |
-| [golang-jwt/jwt](https://github.com/golang-jwt/jwt) | 9055 | 2026-04-14T17:42:56Z | Go | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [onsi/ginkgo](https://github.com/onsi/ginkgo) | 8988 | 2026-04-28T22:55:28Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 7 |
 | [kubernetes-sigs/external-dns](https://github.com/kubernetes-sigs/external-dns) | 8913 | 2026-04-22T18:57:54Z | Go | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [kubernetes/autoscaler](https://github.com/kubernetes/autoscaler) | 8828 | 2026-04-23T18:35:14Z | Go | Infrastructure/tooling | 6 | 9 | 6 | 8 |
 | [securego/gosec](https://github.com/securego/gosec) | 8804 | 2026-04-28T07:32:42Z | Go | Infrastructure/tooling | 9 | 18 | 9 | 9 |
 | [containers/buildah](https://github.com/containers/buildah) | 8746 | 2026-04-21T21:35:51Z | Go | Infrastructure/tooling | 9 | 5 | 9 | 9 |
-| [appleboy/gorush](https://github.com/appleboy/gorush) | 8719 | 2026-04-15T01:54:38Z | Go | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [miekg/dns](https://github.com/miekg/dns) | 8678 | 2026-05-01T20:56:11Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [openshift/origin](https://github.com/openshift/origin) | 8647 | 2026-04-29T23:46:21Z | Go | Infrastructure/tooling | 11 | 0 | 11 | 11 |
 | [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | 8607 | 2026-04-20T17:09:34Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -375,7 +366,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NVIDIA/nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit) | 4274 | 2026-04-23T08:20:19Z | Go | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | 4205 | 2026-04-28T21:06:23Z | Go | Infrastructure/tooling | 16 | 11 | 16 | 16 |
 | [kubernetes-sigs/cluster-api](https://github.com/kubernetes-sigs/cluster-api) | 4198 | 2026-04-30T20:11:24Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [uptrace/uptrace](https://github.com/uptrace/uptrace) | 4176 | 2026-04-14T23:35:20Z | Go | CLI | 14 | 11 | 14 | 14 |
 | [bufbuild/protoc-gen-validate](https://github.com/bufbuild/protoc-gen-validate) | 4120 | 2026-04-20T13:09:06Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [apache/dubbo-admin](https://github.com/apache/dubbo-admin) | 4049 | 2026-04-22T23:48:33Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [osrg/gobgp](https://github.com/osrg/gobgp) | 4036 | 2026-04-22T01:44:22Z | Go | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -418,16 +408,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redis/rueidis](https://github.com/redis/rueidis) | 2938 | 2026-04-30T03:04:20Z | Go | CLI | 15 | 9 | 15 | 15 |
 | [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime) | 2899 | 2026-04-18T19:25:44Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [elastic/cloud-on-k8s](https://github.com/elastic/cloud-on-k8s) | 2842 | 2026-05-04T06:43:52Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [rancher/local-path-provisioner](https://github.com/rancher/local-path-provisioner) | 2831 | 2026-04-14T12:33:08Z | Go | Infrastructure/tooling | 5 | 13 | 5 | 5 |
 | [kubernetes-sigs/gateway-api](https://github.com/kubernetes-sigs/gateway-api) | 2817 | 2026-04-28T20:23:27Z | Go | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [awslabs/amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper) | 2697 | 2026-04-20T19:11:47Z | Go | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [envoyproxy/gateway](https://github.com/envoyproxy/gateway) | 2675 | 2026-04-30T05:28:03Z | Go | Infrastructure/tooling | 15 | 15 | 15 | 15 |
 | [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) | 2665 | 2026-04-30T00:47:33Z | Go | Infrastructure/tooling | 10 | 15 | 10 | 10 |
 | [argoproj/argo-events](https://github.com/argoproj/argo-events) | 2650 | 2026-04-25T12:34:05Z | Go | Infrastructure/tooling | 19 | 15 | 19 | 19 |
-| [gotestyourself/gotestsum](https://github.com/gotestyourself/gotestsum) | 2642 | 2026-04-15T00:47:43Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [awslabs/amazon-eks-ami](https://github.com/awslabs/amazon-eks-ami) | 2631 | 2026-04-23T02:09:02Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [Bearer/bearer](https://github.com/Bearer/bearer) | 2627 | 2026-04-20T02:31:54Z | Go | Infrastructure/tooling | 26 | 12 | 26 | 26 |
-| [bazelbuild/bazelisk](https://github.com/bazelbuild/bazelisk) | 2608 | 2026-04-14T11:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [raviqqe/muffet](https://github.com/raviqqe/muffet) | 2597 | 2026-04-22T15:27:27Z | Go | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [stripe/stripe-go](https://github.com/stripe/stripe-go) | 2567 | 2026-04-21T00:48:11Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) | 2556 | 2026-04-26T07:16:01Z | Go | CLI | 9 | 4 | 9 | 9 |
@@ -467,7 +454,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cncf/toc](https://github.com/cncf/toc) | 1835 | 2026-04-21T18:17:52Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [maragudk/gomponents](https://github.com/maragudk/gomponents) | 1821 | 2026-04-29T12:40:42Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [apptainer/apptainer](https://github.com/apptainer/apptainer) | 1813 | 2026-04-17T08:14:31Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
-| [wa-lang/wa](https://github.com/wa-lang/wa) | 1761 | 2026-04-14T15:19:09Z | Go | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [aws/aws-node-termination-handler](https://github.com/aws/aws-node-termination-handler) | 1750 | 2026-04-21T14:05:46Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs) | 1735 | 2026-04-20T10:45:59Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [candid82/joker](https://github.com/candid82/joker) | 1732 | 2026-04-17T22:36:01Z | Go | Unknown | 4 | 0 | 4 | 4 |

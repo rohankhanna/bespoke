@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-14T06:08:35.249218+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 199
-- terms: 410
-- components: 558
-- concepts: 416
-- observations: 420
+- repos: 201
+- terms: 413
+- components: 573
+- concepts: 419
+- observations: 423
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [spacemeshos/post-rs](https://github.com/spacemeshos/post-rs) | 13 | 2025-12-15T18:14:43Z | Rust | Infrastructure/tooling | 2 | 14 | 2 | 2 |
+| [01mf02/hifijson](https://github.com/01mf02/hifijson) | 27 | 2025-12-15T15:09:14Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [MaterializeInc/rust-postgres](https://github.com/MaterializeInc/rust-postgres) | 21 | 2025-12-11T16:00:43Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [zakarumych/allocator-api2](https://github.com/zakarumych/allocator-api2) | 80 | 2025-12-11T12:25:19Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [viperproject/smt-scope](https://github.com/viperproject/smt-scope) | 65 | 2025-12-10T15:38:54Z | Rust | Infrastructure/tooling | 12 | 12 | 12 | 12 |
@@ -342,6 +344,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Prunoideae/web-rwkv-axum](https://github.com/Prunoideae/web-rwkv-axum) | 28 | 2024-04-15T02:43:55Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [balajisivaraman/basic_calculator_rs](https://github.com/balajisivaraman/basic_calculator_rs) | 28 | 2023-05-25T15:29:23Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [yaahc/jane-eyre](https://github.com/yaahc/jane-eyre) | 28 | 2023-02-24T21:58:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [01mf02/hifijson](https://github.com/01mf02/hifijson) | 27 | 2025-12-15T15:09:14Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [beeequeue/nvm-rust](https://github.com/beeequeue/nvm-rust) | 27 | 2025-10-12T00:26:08Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [tari-project/randomx-rs](https://github.com/tari-project/randomx-rs) | 27 | 2025-09-12T07:32:19Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [BonsaiDen/cursive_calendar_view](https://github.com/BonsaiDen/cursive_calendar_view) | 27 | 2024-08-02T22:44:28Z | Rust | CLI | 3 | 0 | 3 | 3 |
@@ -405,6 +408,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diem/diem-devtools](https://github.com/diem/diem-devtools) | 14 | 2023-06-30T10:16:04Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [adamgreig/jtagdap](https://github.com/adamgreig/jtagdap) | 14 | 2022-11-03T01:49:19Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [celo-org/plumo-prover](https://github.com/celo-org/plumo-prover) | 14 | 2022-01-04T22:19:45Z | Rust | CLI | 0 | 0 | 0 | 0 |
+| [spacemeshos/post-rs](https://github.com/spacemeshos/post-rs) | 13 | 2025-12-15T18:14:43Z | Rust | Infrastructure/tooling | 2 | 14 | 2 | 2 |
 | [catch-twenty-two/rust-ssd](https://github.com/catch-twenty-two/rust-ssd) | 13 | 2025-12-02T18:59:15Z | Rust | Framework | 7 | 0 | 7 | 7 |
 | [UnstoppableSwap/wallet](https://github.com/UnstoppableSwap/wallet) | 13 | 2025-07-06T17:20:33Z | Rust | Infrastructure/tooling | 5 | 23 | 5 | 5 |
 | [antoyo/rustc_codegen_gcc](https://github.com/antoyo/rustc_codegen_gcc) | 13 | 2025-02-06T16:08:40Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |

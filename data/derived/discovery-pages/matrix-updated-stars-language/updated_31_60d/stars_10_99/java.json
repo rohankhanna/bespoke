@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 45,
-    "terms": 185
+    "components": 200,
+    "concepts": 183,
+    "observations": 184,
+    "repos": 44,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
-    "apache/camel-quarkus-examples",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "bazel-contrib/rules_jvm",

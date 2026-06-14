@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 951,
-    "concepts": 1213,
-    "observations": 1217,
-    "repos": 118,
-    "terms": 1215
+    "components": 927,
+    "concepts": 1195,
+    "observations": 1199,
+    "repos": 114,
+    "terms": 1197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -102,13 +102,10 @@
     "oceanbase/oceanbase",
     "ocornut/imgui",
     "opencv/opencv",
-    "opencv/opencv_contrib",
     "openframeworks/openFrameworks",
-    "openresty/lua-nginx-module",
     "openssl/openssl",
     "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
-    "pgvector/pgvector",
     "PointCloudLibrary/pcl",
     "px4/px4-autopilot",
     "pybind/pybind11",
@@ -125,7 +122,6 @@
     "Tencent/ncnn",
     "tesseract-ocr/tesseract",
     "tmux/tmux",
-    "tsl0922/ttyd",
     "uNetworking/uWebSockets",
     "v8/v8",
     "winsiderss/systeminformer",

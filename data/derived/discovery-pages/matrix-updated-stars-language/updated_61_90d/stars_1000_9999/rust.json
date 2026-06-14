@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 380,
-    "concepts": 301,
-    "observations": 308,
-    "repos": 59,
-    "terms": 299
+    "components": 404,
+    "concepts": 312,
+    "observations": 319,
+    "repos": 61,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-14T06:08:35.249218+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -25,11 +25,11 @@
     "crossterm-rs/crossterm",
     "David-OConnor/pyflow",
     "dtolnay/anyhow",
-    "dtolnay/proc-macro-workshop",
     "dtolnay/quote",
     "dtolnay/thiserror",
     "emilk/eframe_template",
     "enigo-rs/enigo",
+    "EricLBuehler/mistral.rs",
     "extism/extism",
     "eyre-rs/eyre",
     "ggez/ggez",
@@ -37,6 +37,7 @@
     "google/tarpc",
     "GuillaumeGomez/sysinfo",
     "gyscos/cursive",
+    "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
     "jonhoo/inferno",
@@ -67,6 +68,7 @@
     "sharkdp/pastel",
     "smol-rs/smol",
     "snapview/tokio-tungstenite",
+    "snapview/tungstenite-rs",
     "spacejam/sled",
     "tauri-apps/cargo-mobile2",
     "tauri-apps/wry",
