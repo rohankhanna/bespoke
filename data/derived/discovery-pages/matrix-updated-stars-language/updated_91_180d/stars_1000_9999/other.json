@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 591,
-    "concepts": 690,
-    "observations": 693,
-    "repos": 132,
-    "terms": 693
+    "components": 585,
+    "concepts": 678,
+    "observations": 681,
+    "repos": 131,
+    "terms": 682
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -105,7 +105,6 @@
     "msasanmh/DNSveil",
     "myclabs/DeepCopy",
     "nanxiaobei/hugo-paper",
-    "nix-community/dream2nix",
     "nvim-java/nvim-java",
     "omniauth/omniauth",
     "onnx/models",

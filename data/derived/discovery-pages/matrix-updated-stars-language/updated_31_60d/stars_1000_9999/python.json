@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3331,
-    "concepts": 3716,
-    "observations": 3729,
-    "repos": 430,
-    "terms": 3706
+    "components": 3305,
+    "concepts": 3665,
+    "observations": 3678,
+    "repos": 425,
+    "terms": 3656
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -151,7 +151,6 @@
     "git-cola/git-cola",
     "gitpython-developers/GitPython",
     "google-deepmind/dm_control",
-    "google-deepmind/mujoco_menagerie",
     "google-deepmind/mujoco_playground",
     "google-deepmind/mujoco_warp",
     "google-deepmind/sonnet",
@@ -184,7 +183,6 @@
     "HypothesisWorks/hypothesis",
     "ibis-project/ibis",
     "icip-cas/PPTAgent",
-    "idiap/coqui-ai-TTS",
     "ijl/orjson",
     "illuin-tech/colpali",
     "inclusionAI/AReaL",
@@ -320,7 +318,6 @@
     "pdm-project/pdm",
     "pgmpy/pgmpy",
     "PINTO0309/PINTO_model_zoo",
-    "PKU-YuanGroup/Helios",
     "plastic-labs/honcho",
     "praw-dev/praw",
     "PrimeIntellect-ai/prime-rl",
@@ -370,7 +367,6 @@
     "roboflow/inference",
     "RoboTwin-Platform/RoboTwin",
     "ronf/asyncssh",
-    "sanderland/katrain",
     "scikit-image/scikit-image",
     "secretflow/secretflow",
     "shapely/shapely",
@@ -430,7 +426,6 @@
     "vyperlang/vyper",
     "weaviate/Verba",
     "wemake-services/wemake-python-styleguide",
-    "withoutbg/withoutbg",
     "xbpeng/MimicKit",
     "xdit-project/xDiT",
     "Xilinx/brevitas",

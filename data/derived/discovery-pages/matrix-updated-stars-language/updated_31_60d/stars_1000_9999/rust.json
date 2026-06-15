@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2312,
-    "concepts": 1695,
-    "observations": 1700,
-    "repos": 210,
-    "terms": 1702
+    "components": 2294,
+    "concepts": 1678,
+    "observations": 1683,
+    "repos": 209,
+    "terms": 1685
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x676e67/wreq-python",
@@ -25,7 +25,6 @@
     "agentclientprotocol/agent-client-protocol",
     "ai-dynamo/dynamo",
     "Aleph-Alpha/ts-rs",
-    "alexpasmantier/television",
     "algesten/ureq",
     "alloy-rs/alloy",
     "apache/arrow-rs",

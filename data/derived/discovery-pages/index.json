@@ -1,6 +1,6 @@
 {
   "facet_version": 1,
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "language_counts": {
     "c_cpp": 2386,
     "go": 1716,
@@ -30,11 +30,11 @@
   "updated_counts": {
     "updated_0_1d": 0,
     "updated_15_30d": 401,
-    "updated_181d_plus": 12677,
+    "updated_181d_plus": 12679,
     "updated_1_7d": 3,
-    "updated_31_60d": 6764,
-    "updated_61_90d": 2856,
+    "updated_31_60d": 6745,
+    "updated_61_90d": 2872,
     "updated_8_14d": 0,
-    "updated_91_180d": 2627
+    "updated_91_180d": 2628
   }
 }

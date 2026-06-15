@@ -3,7 +3,7 @@
     "components": 2911,
     "concepts": 1595,
     "observations": 1602,
-    "repos": 604,
+    "repos": 603,
     "terms": 1604
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -118,7 +118,6 @@
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
     "bigai-nlco/RuleReasoner",
-    "bincode-org/virtue",
     "biocypher/project-template",
     "Birch-san/box2d3-wasm",
     "bobbylight/RSTAUI",

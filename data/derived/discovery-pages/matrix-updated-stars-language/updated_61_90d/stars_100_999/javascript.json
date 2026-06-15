@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1610,
-    "concepts": 423,
-    "observations": 425,
-    "repos": 101,
-    "terms": 454
+    "components": 1622,
+    "concepts": 425,
+    "observations": 427,
+    "repos": 102,
+    "terms": 456
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -61,6 +61,7 @@
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
+    "gruntjs/grunt-contrib-qunit",
     "hudochenkov/stylelint-order",
     "hyparam/hyparquet",
     "igvteam/igv.js",

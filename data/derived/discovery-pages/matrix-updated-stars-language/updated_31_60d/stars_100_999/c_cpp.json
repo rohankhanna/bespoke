@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1292,
-    "concepts": 1304,
-    "observations": 1305,
-    "repos": 226,
-    "terms": 1297
+    "components": 1272,
+    "concepts": 1294,
+    "observations": 1295,
+    "repos": 224,
+    "terms": 1287
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -125,7 +125,6 @@
     "JokerJohn/DCReg",
     "JokerJohn/PALoc",
     "jrouwe/JoltPhysics.js",
-    "jupyter-xeus/xeus",
     "jupyter-xeus/xeus-python",
     "jupyter-xeus/xwidgets",
     "k2-fsa/sherpa",
@@ -173,7 +172,6 @@
     "NVIDIA/pyxis",
     "nvpro-samples/nvpro_core2",
     "nvpro-samples/vk_gltf_renderer",
-    "nx10/httpgd",
     "ofiwg/libfabric",
     "oneapi-src/level-zero",
     "onnx/optimizer",

@@ -3,7 +3,7 @@
     "components": 205,
     "concepts": 144,
     "observations": 146,
-    "repos": 60,
+    "repos": 59,
     "terms": 142
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
@@ -22,7 +22,6 @@
     "ArjunNair/egui_sdl2_gl",
     "assimelha/cmcp",
     "baerwang/openapi-rs",
-    "bincode-org/virtue",
     "chris-zen/coremidi",
     "chrisguida/smaug",
     "ClickHouse/ch2rs",

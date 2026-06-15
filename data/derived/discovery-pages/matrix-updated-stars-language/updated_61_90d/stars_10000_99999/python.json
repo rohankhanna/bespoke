@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 390,
-    "observations": 392,
-    "repos": 63,
-    "terms": 394
+    "components": 378,
+    "concepts": 388,
+    "observations": 390,
+    "repos": 62,
+    "terms": 392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -66,7 +66,6 @@
     "pre-commit/pre-commit",
     "prompt-toolkit/python-prompt-toolkit",
     "QwenLM/Qwen3-Coder",
-    "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
     "resemble-ai/chatterbox",
     "sanic-org/sanic",

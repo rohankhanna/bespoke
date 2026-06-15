@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3728,
-    "concepts": 2063,
-    "observations": 2071,
-    "repos": 556,
-    "terms": 2070
+    "components": 3769,
+    "concepts": 2082,
+    "observations": 2090,
+    "repos": 558,
+    "terms": 2089
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -381,6 +381,7 @@
     "kurrent-io/KurrentDB-Client-Java",
     "kylebarron/arrow-wasm",
     "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+    "labring/fastgpt-plugin",
     "lace/polliwog",
     "lambdaclass/libssz",
     "lambdaisland/open-source",
@@ -457,6 +458,7 @@
     "oap-project/oap-mllib",
     "obi1kenobi/cargo-semver-checks-action",
     "ocaml-opam/opam2web",
+    "oceanbase/docker-images",
     "ocurrent/obuilder",
     "ocurrent/ocluster",
     "ocurrent/ocurrent-deployer",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 24150,
-    "concepts": 10351,
-    "observations": 10390,
-    "repos": 960,
-    "terms": 10337
+    "components": 24021,
+    "concepts": 10337,
+    "observations": 10376,
+    "repos": 959,
+    "terms": 10323
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -65,7 +65,6 @@
     "angular/angular-cli",
     "ansible/ansible",
     "ant-design/ant-design",
-    "ant-design/ant-design-mobile",
     "anthropics/claude-plugins-official",
     "antlr/grammars-v4",
     "apache/airflow",

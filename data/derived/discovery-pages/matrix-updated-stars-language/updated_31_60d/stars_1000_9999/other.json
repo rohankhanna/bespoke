@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3773,
-    "concepts": 3355,
-    "observations": 3372,
-    "repos": 442,
-    "terms": 3342
+    "components": 3769,
+    "concepts": 3338,
+    "observations": 3355,
+    "repos": 441,
+    "terms": 3325
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -409,7 +409,6 @@
     "stan-dev/rstan",
     "stevearc/conform.nvim",
     "streetcomplete/StreetComplete",
-    "SwiftGen/SwiftGen",
     "swiftlang/sourcekit-lsp",
     "swiftlang/swift-format",
     "symfony/cache",

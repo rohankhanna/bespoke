@@ -3,7 +3,7 @@
     "components": 770,
     "concepts": 926,
     "observations": 933,
-    "repos": 193,
+    "repos": 194,
     "terms": 926
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
+    "aaronwong1999/hermesclaw",
     "abey79/vpype",
     "abey79/vsketch",
     "AcademySoftwareFoundation/aswf-docker",

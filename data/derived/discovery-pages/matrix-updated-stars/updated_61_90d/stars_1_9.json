@@ -3,7 +3,7 @@
     "components": 1654,
     "concepts": 913,
     "observations": 914,
-    "repos": 251,
+    "repos": 253,
     "terms": 897
   },
   "facet_version": 1,
@@ -11,9 +11,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0ghny/shellx",
+    "0xPolygonHermez/stark-recurser",
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
     "42-evey/evey-bridge-plugin",
@@ -177,6 +178,7 @@
     "hchiam/learning-js",
     "hchiam/learning-template",
     "helix-toolkit/helix-toolkit.github.io",
+    "HKU-BAL/Clair-skills",
     "hsivonen/chardetng_c",
     "ikonopistsev/mdbxmou",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",

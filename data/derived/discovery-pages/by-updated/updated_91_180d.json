@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 15117,
+    "components": 15126,
     "concepts": 9964,
     "observations": 9997,
-    "repos": 2627,
-    "terms": 9931
+    "repos": 2628,
+    "terms": 9932
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -435,7 +435,6 @@
     "bigai-nlco/RuleReasoner",
     "bigcode-project/bigcodebench",
     "binary-husky/gpt_academic",
-    "bincode-org/virtue",
     "BioContainers/singularity-build-bot",
     "biocypher/collectri",
     "biocypher/project-template",
@@ -1200,6 +1199,7 @@
     "hashicorp/raft-boltdb",
     "hashicorp/vault-examples",
     "haskell-compat/base-orphans",
+    "haskell-nix/hnix",
     "haskell/stylish-haskell",
     "haskell/text",
     "hasscc/hass-edge-tts",
@@ -1799,7 +1799,6 @@
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
-    "nix-community/dream2nix",
     "NixOS/nixops",
     "nixprime/cpsm",
     "NM512/dreamerv3-torch",
@@ -1899,6 +1898,7 @@
     "OpenCIDN/httpmirror",
     "opencontainers/.github",
     "opencontainers/image-spec",
+    "opencontainers/runtime-spec",
     "opencontainers/runtime-tools",
     "opencv/opencv-python",
     "OpenDriveLab/DriveAGI",
@@ -2047,6 +2047,7 @@
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen-Image",
     "QwenLM/Qwen3",
+    "QwenLM/Qwen3-TTS",
     "QwenLM/Qwen3-VL",
     "r-lib/covr",
     "r-lib/revdepcheck",

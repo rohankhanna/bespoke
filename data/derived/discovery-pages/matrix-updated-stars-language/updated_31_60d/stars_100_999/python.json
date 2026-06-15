@@ -3,7 +3,7 @@
     "components": 2118,
     "concepts": 2004,
     "observations": 2011,
-    "repos": 361,
+    "repos": 360,
     "terms": 2011
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
-    "aaronwong1999/hermesclaw",
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
     "agencyenterprise/PromptInject",

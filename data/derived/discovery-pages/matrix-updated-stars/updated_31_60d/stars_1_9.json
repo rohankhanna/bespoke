@@ -3,7 +3,7 @@
     "components": 3641,
     "concepts": 1766,
     "observations": 1771,
-    "repos": 439,
+    "repos": 437,
     "terms": 1801
   },
   "facet_version": 1,
@@ -11,12 +11,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0xble/dotagent.nvim",
     "0xPolygonHermez/pil2-proofman-js",
-    "0xPolygonHermez/stark-recurser",
     "1mb-dev/natcheck",
     "3mdeb/3mdeb-secpack",
     "5sControl/5s-backend",
@@ -238,7 +237,6 @@
     "heroku/buildpacks-procfile",
     "Hiroshiba/voicevox_core",
     "hiyouga/llamafactory-community",
-    "HKU-BAL/Clair-skills",
     "HKUDS/.github",
     "holochain/holonix",
     "huggingface/fuser",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10762,
-    "concepts": 9429,
-    "observations": 9442,
-    "repos": 2422,
-    "terms": 9293
+    "components": 10768,
+    "concepts": 9441,
+    "observations": 9454,
+    "repos": 2423,
+    "terms": 9304
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1552,6 +1552,7 @@
     "nilbuild/githunt",
     "ninject/Ninject",
     "nitaliano/react-native-mapbox-gl",
+    "nix-community/dream2nix",
     "NixOS/patchelf",
     "nlpxucan/WizardLM",
     "NMFR/optimize-css-assets-webpack-plugin",

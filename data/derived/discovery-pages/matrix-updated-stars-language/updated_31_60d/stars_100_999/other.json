@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4103,
-    "concepts": 2975,
-    "observations": 2978,
-    "repos": 493,
-    "terms": 2985
+    "components": 4094,
+    "concepts": 2968,
+    "observations": 2971,
+    "repos": 492,
+    "terms": 2978
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -377,7 +377,6 @@
     "open-telemetry/opentelemetry-erlang-contrib",
     "open-telemetry/opentelemetry-helm-charts",
     "open-telemetry/opentelemetry-kotlin",
-    "open-telemetry/opentelemetry-proto",
     "open-telemetry/semantic-conventions",
     "open-webui/docs",
     "openair-project/openair",

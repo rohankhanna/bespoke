@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 799,
-    "concepts": 115,
-    "observations": 115,
-    "repos": 17,
-    "terms": 118
+    "components": 928,
+    "concepts": 129,
+    "observations": 129,
+    "repos": 18,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
     "alibaba/ice",
     "AndyMik90/Aperant",
+    "ant-design/ant-design-mobile",
     "bvaughn/react-window",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",

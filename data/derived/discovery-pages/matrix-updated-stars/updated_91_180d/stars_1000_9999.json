@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4188,
-    "concepts": 3226,
-    "observations": 3235,
+    "components": 4185,
+    "concepts": 3219,
+    "observations": 3228,
     "repos": 632,
-    "terms": 3195
+    "terms": 3189
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -416,7 +416,6 @@
     "nagisa/rust_libloading",
     "nanxiaobei/hugo-paper",
     "nat/openplayground",
-    "nix-community/dream2nix",
     "NixOS/nixops",
     "nmoehrle/mvs-texturing",
     "novnc/websockify",
@@ -452,6 +451,7 @@
     "open-webui/mcpo",
     "OpenBMB/MiniCPM",
     "opencontainers/image-spec",
+    "opencontainers/runtime-spec",
     "opencv/opencv-python",
     "OpenNMT/CTranslate2",
     "OpenSPG/KAG",

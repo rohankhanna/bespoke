@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49347,
-    "concepts": 35138,
-    "observations": 35204,
-    "repos": 12677,
-    "terms": 34690
+    "components": 49353,
+    "concepts": 35150,
+    "observations": 35216,
+    "repos": 12679,
+    "terms": 34701
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -1867,6 +1867,7 @@
     "binaryage/cljs-oops",
     "binaryoung/jieba-php",
     "bincode-org/bincode",
+    "bincode-org/virtue",
     "bincrafters/community",
     "Bing-su/dddetailer",
     "Bing-su/sd-webui-tunnels",
@@ -8919,6 +8920,7 @@
     "niuiic/omega.nvim",
     "niuiic/typst-preview.nvim",
     "niveditarufus/suadd",
+    "nix-community/dream2nix",
     "nix-community/nixGL",
     "nix-community/nixops-gce",
     "nix-community/nixops-libvirtd",

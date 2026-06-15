@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9294,
-    "concepts": 4449,
-    "observations": 4469,
-    "repos": 999,
-    "terms": 4480
+    "components": 9253,
+    "concepts": 4430,
+    "observations": 4450,
+    "repos": 997,
+    "terms": 4461
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -597,7 +597,6 @@
     "kubernetes-sigs/verify-conformance",
     "kurrent-io/KurrentDB-Client-Rust",
     "KWARC/rust-libxml",
-    "labring/fastgpt-plugin",
     "lakekeeper/lakekeeper-charts",
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
@@ -718,7 +717,6 @@
     "ocaml-tracing/ocaml-trace",
     "ocaml-tracing/ocaml-tracy",
     "ocaml/platform-blog",
-    "oceanbase/docker-images",
     "oclif/oclif.github.io",
     "oclif/plugin-autocomplete",
     "oclif/plugin-help",

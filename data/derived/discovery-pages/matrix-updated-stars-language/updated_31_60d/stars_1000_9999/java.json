@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 689,
-    "concepts": 872,
-    "observations": 873,
-    "repos": 88,
-    "terms": 869
+    "components": 684,
+    "concepts": 868,
+    "observations": 869,
+    "repos": 87,
+    "terms": 865
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "agents-flex/agents-flex",
@@ -58,7 +58,6 @@
     "google/error-prone",
     "google/google-java-format",
     "google/j2cl",
-    "google/tsunami-security-scanner",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-api-java-client",
     "googleapis/google-cloud-java",

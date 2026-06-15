@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 20631,
-    "concepts": 11805,
-    "observations": 11847,
-    "repos": 1952,
-    "terms": 11853
+    "components": 20568,
+    "concepts": 11778,
+    "observations": 11820,
+    "repos": 1946,
+    "terms": 11826
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T06:21:41.796006+00:00",
+  "generated_at": "2026-06-15T08:35:49.170403+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x2a-42/lelwel",
@@ -31,7 +31,6 @@
     "aadsm/jschardet",
     "aannoo/hcom",
     "aaronjmars/MiroShark",
-    "aaronwong1999/hermesclaw",
     "abap2UI5/abap2UI5",
     "abaplint/abaplint",
     "abhisheknaiidu/abhisheknaiidu",
@@ -846,7 +845,6 @@
     "grubersjoe/github-contributions-api",
     "grubersjoe/react-activity-calendar",
     "grubersjoe/react-github-calendar",
-    "gruntjs/grunt-contrib-qunit",
     "GStreamer/cerbero",
     "GunnarFarneback/LocalRegistry.jl",
     "hackwaly/ocamlearlybird",
@@ -1054,7 +1052,6 @@
     "JuliaWeb/HTTP.jl",
     "jump-dev/NLopt.jl",
     "JupiterRider/ffi",
-    "jupyter-xeus/xeus",
     "jupyter-xeus/xeus-python",
     "jupyter-xeus/xwidgets",
     "jurplel/install-qt-action",
@@ -1216,7 +1213,6 @@
     "MarcusWolschon/osmeditor4android",
     "marella/material-symbols",
     "marin-community/marin",
-    "marmelab/FakeRest",
     "marshallpierce/rust-base64",
     "marton78/pffft",
     "marwin1991/profile-technology-icons",
@@ -1379,7 +1375,6 @@
     "NVIDIA/spark-rapids",
     "nvpro-samples/nvpro_core2",
     "nvpro-samples/vk_gltf_renderer",
-    "nx10/httpgd",
     "nyatinte/ccexp",
     "oak-security/audit-reports",
     "ocaml-ppx/ocamlformat",
@@ -1421,7 +1416,6 @@
     "open-telemetry/opentelemetry-helm-charts",
     "open-telemetry/opentelemetry-js-contrib",
     "open-telemetry/opentelemetry-kotlin",
-    "open-telemetry/opentelemetry-proto",
     "open-telemetry/semantic-conventions",
     "open-telemetry/weaver",
     "open-thoughts/OpenThoughts-Agent",
