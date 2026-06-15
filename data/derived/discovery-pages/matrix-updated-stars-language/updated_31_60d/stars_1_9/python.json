@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 60,
-    "terms": 163
+    "components": 248,
+    "concepts": 141,
+    "observations": 141,
+    "repos": 58,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "adaumann/speckit-preset-fiction-book-writing",
     "andriykohut/pdm-readiness",
-    "apptainer/apptainer-admindocs",
-    "apptainer/apptainer-userdocs",
     "arielagor/jetbrains-mono-hebrew",
     "astral-sh/versions",
     "astropy/repo_stats",

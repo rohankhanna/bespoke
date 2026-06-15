@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 43,
-    "terms": 109
+    "components": 134,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 45,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "AIxCyberChallenge/example-crs-architecture",
@@ -49,9 +49,11 @@
     "llm-in-sandbox/llm-in-sandbox-rl",
     "mjvolk3/torchcell",
     "mlfoundations/SkyRL",
+    "openelections/openelections-data-sd",
     "pydantic/pydantic-docs",
     "qinwang-ai/PolypsAlign",
     "radian-software/gnu-elpa-mirror",
+    "shadmau/autocouncil",
     "sylabs/singularity-admindocs",
     "usdot-fhwa-stol/carma-carla-integration",
     "Velesio/velesio-aiserver",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1361,
-    "concepts": 739,
-    "observations": 741,
-    "repos": 116,
-    "terms": 737
+    "components": 1341,
+    "concepts": 705,
+    "observations": 707,
+    "repos": 112,
+    "terms": 703
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -23,7 +23,6 @@
     "all-contributors/app",
     "AMD-AGI/Nitro-1",
     "antvis/GPT-Vis",
-    "apache/casbin-cpp",
     "apalache-mc/apalache",
     "appelmar/gdalcubes",
     "aristoteleo/PantheonOS",
@@ -46,7 +45,6 @@
     "confluentinc/librdkafka",
     "devcontainers/devcontainers.github.io",
     "digitalocean/openapi",
-    "DISTRHO/DPF",
     "dwyl/quotes",
     "eclipse-tm4e/tm4e",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
@@ -107,7 +105,6 @@
     "redis/redis-om-spring",
     "ROCm/hipBLAS",
     "ROCm/hipBLASLt",
-    "ROCm/rocBLAS",
     "safe-fndn/safe-singleton-factory",
     "satan53x/SExtractor",
     "sbt/sbt-jmh",
@@ -125,7 +122,6 @@
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",
     "unplugin/unplugin-imagemin",
-    "Waffle/waffle",
     "wevm/abitype",
     "yaling888/quirktiva",
     "zh-plus/openlrc"

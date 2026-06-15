@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 268,
-    "observations": 268,
-    "repos": 36,
-    "terms": 267
+    "components": 187,
+    "concepts": 265,
+    "observations": 265,
+    "repos": 35,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -43,7 +43,6 @@
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
     "RasaHQ/rasa",
-    "Stability-AI/generative-models",
     "tqdm/tqdm",
     "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",

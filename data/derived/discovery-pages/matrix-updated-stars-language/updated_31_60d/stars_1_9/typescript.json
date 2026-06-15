@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 993,
-    "concepts": 212,
-    "observations": 212,
-    "repos": 45,
-    "terms": 221
+    "components": 935,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 42,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
-    "analyticsinmotion/wake-word",
     "anolilab/unplugin-favicons",
     "birdofpreyru/react-starter",
     "birdofpreyru/react-utils",
     "breferrari/shardmind",
-    "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
     "csm-actions/update-branch-action",
     "dreamiurg/mountaineers-mcp",
@@ -47,7 +45,6 @@
     "oclif/plugin-version",
     "octokit/auth-callback.js",
     "octokit/auth-unauthenticated.js",
-    "qcr/qcr.github.io",
     "redhat-developer/app-services-api-guidelines",
     "rstackjs/rsbuild-plugin-i18next-extractor",
     "saminiscool/twitter-ai-agent",

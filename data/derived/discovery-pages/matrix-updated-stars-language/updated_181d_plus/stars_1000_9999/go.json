@@ -3,7 +3,7 @@
     "components": 354,
     "concepts": 687,
     "observations": 687,
-    "repos": 146,
+    "repos": 147,
     "terms": 683
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "aarondl/authboss",
@@ -28,6 +28,7 @@
     "alibaba/sentinel-golang",
     "AliyunContainerService/pouch",
     "apex/log",
+    "argoproj-labs/argocd-autopilot",
     "asdine/storm",
     "attic-labs/noms",
     "aws/aws-sdk-go",

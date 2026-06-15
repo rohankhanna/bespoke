@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 451,
-    "observations": 452,
-    "repos": 77,
-    "terms": 448
+    "components": 388,
+    "concepts": 447,
+    "observations": 448,
+    "repos": 74,
+    "terms": 444
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -39,7 +39,6 @@
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "f32c/tools",
-    "fabmax/PhysX",
     "facebook/fb303",
     "gazebosim/gz-common",
     "gazebosim/gz-fuel-tools",
@@ -75,13 +74,11 @@
     "oneapi-src/unified-memory-framework",
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
-    "proxy-wasm/proxy-wasm-cpp-host",
     "rapidsai/ucxx",
     "ROCm/rocAL",
     "ROCm/ROCgdb",
     "ROCm/rpp",
     "skeeto/dcmake",
-    "triton-inference-server/openvino_backend",
     "walbourn/directxmathtest",
     "walbourn/directxtextest",
     "walbourn/directxtktest",

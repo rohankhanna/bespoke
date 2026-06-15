@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 169,
-    "observations": 169,
-    "repos": 26,
-    "terms": 162
+    "components": 159,
+    "concepts": 178,
+    "observations": 178,
+    "repos": 29,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "aristocratos/btop",
     "bellard/quickjs",
@@ -26,18 +26,21 @@
     "glfw/glfw",
     "google/googletest",
     "google/sanitizers",
+    "haiwen/seafile",
     "libevent/libevent",
     "libgit2/libgit2",
     "microsoft/wslg",
     "mobile-shell/mosh",
     "ninja-build/ninja",
     "nlohmann/json",
+    "nothings/stb",
     "NVIDIA/open-gpu-kernel-modules",
     "NVIDIA/TensorRT",
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
     "pgvector/pgvector",
     "taichi-dev/taichi",
+    "tmux/tmux",
     "tsl0922/ttyd",
     "zeromq/libzmq"
   ]

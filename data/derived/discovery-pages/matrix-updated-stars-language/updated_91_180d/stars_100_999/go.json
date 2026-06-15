@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 222,
-    "concepts": 283,
-    "observations": 284,
-    "repos": 42,
-    "terms": 283
+    "components": 247,
+    "concepts": 292,
+    "observations": 293,
+    "repos": 44,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -53,8 +53,10 @@
     "nikepan/clickhouse-bulk",
     "oceanbase/ob-operator",
     "omniscale/imposm3",
+    "opencontainers/runtime-tools",
     "phodal/coca",
     "proxy-wasm/proxy-wasm-go-sdk",
-    "slinso/goTemplateBenchmark"
+    "slinso/goTemplateBenchmark",
+    "withastro/compiler"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 12194,
-    "concepts": 7027,
-    "observations": 7044,
-    "repos": 3329,
-    "terms": 6974
+    "concepts": 7029,
+    "observations": 7046,
+    "repos": 3330,
+    "terms": 6976
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1111,6 +1111,7 @@
     "djcunningham0/multielo",
     "djhouseknecht/rollup-plugin-version-injector",
     "djjolicoeur/datamaps",
+    "DLR-TS/SUMOLibraries",
     "dmitmel/cmp-digraphs",
     "doc-doc/NExT-OE",
     "docker/model-spec",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1644,
-    "concepts": 1557,
-    "observations": 1563,
-    "repos": 127,
-    "terms": 1547
+    "components": 1654,
+    "concepts": 1578,
+    "observations": 1584,
+    "repos": 128,
+    "terms": 1568
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -21,6 +21,7 @@
     "AdguardTeam/AdGuardHome",
     "ahmetb/kubectx",
     "anchore/grype",
+    "apache/casbin",
     "apernet/hysteria",
     "aquasecurity/trivy",
     "argoproj/argo-cd",

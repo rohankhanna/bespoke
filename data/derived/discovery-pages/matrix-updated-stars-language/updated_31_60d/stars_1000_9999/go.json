@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2252,
-    "concepts": 2194,
-    "observations": 2205,
-    "repos": 237,
-    "terms": 2195
+    "components": 2171,
+    "concepts": 2147,
+    "observations": 2158,
+    "repos": 230,
+    "terms": 2148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -44,7 +44,6 @@
     "aws/aws-sdk-go-v2",
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
-    "axllent/mailpit",
     "azimjohn/jprq",
     "Bearer/bearer",
     "beclab/Olares",
@@ -54,9 +53,7 @@
     "bradfitz/gomemcache",
     "btcsuite/btcwallet",
     "bufbuild/protoc-gen-validate",
-    "bufbuild/protovalidate",
     "buger/jsonparser",
-    "BurntSushi/toml",
     "bytedance/sonic",
     "C2SP/wycheproof",
     "caddyserver/certmagic",
@@ -118,7 +115,6 @@
     "fluxcd/flux2",
     "fsouza/go-dockerclient",
     "getkin/kin-openapi",
-    "gin-gonic/examples",
     "go-flutter-desktop/go-flutter",
     "go-flutter-desktop/hover",
     "go-git/go-git",
@@ -135,7 +131,6 @@
     "google/syzkaller",
     "google/trillian",
     "GoogleCloudPlatform/berglas",
-    "GoogleContainerTools/container-structure-test",
     "gookit/color",
     "gookit/goutil",
     "gookit/validate",
@@ -189,7 +184,6 @@
     "miekg/dns",
     "moby/buildkit",
     "mostlygeek/llama-swap",
-    "nginx-proxy/docker-gen",
     "norwoodj/helm-docs",
     "NVIDIA/gpu-operator",
     "NVIDIA/k8s-device-plugin",
@@ -247,7 +241,6 @@
     "umputun/remark42",
     "usbarmory/tamago",
     "version-fox/vfox",
-    "VictoriaMetrics/fastcache",
     "walles/moor",
     "x-motemen/ghq",
     "XTLS/REALITY"

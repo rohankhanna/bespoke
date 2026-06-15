@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1460,
-    "concepts": 957,
-    "observations": 959,
-    "repos": 88,
-    "terms": 946
+    "components": 1435,
+    "concepts": 952,
+    "observations": 954,
+    "repos": 85,
+    "terms": 940
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -27,7 +27,6 @@
     "bevyengine/bevy",
     "biomejs/biome",
     "BloopAI/vibe-kanban",
-    "casey/just",
     "cjpais/Handy",
     "clap-rs/clap",
     "ClementTsang/bottom",
@@ -79,7 +78,6 @@
     "RustPython/RustPython",
     "Schniz/fnm",
     "seanmonstar/reqwest",
-    "seanmonstar/warp",
     "servo/servo",
     "shadowsocks/shadowsocks-rust",
     "sharkdp/bat",
@@ -88,7 +86,6 @@
     "starship/starship",
     "surrealdb/surrealdb",
     "swc-project/swc",
-    "tokio-rs/axum",
     "tokio-rs/tokio",
     "tracel-ai/burn",
     "tree-sitter/tree-sitter",

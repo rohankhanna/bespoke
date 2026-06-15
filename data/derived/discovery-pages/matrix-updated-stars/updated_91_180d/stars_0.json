@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 130,
-    "observations": 130,
+    "components": 252,
+    "concepts": 135,
+    "observations": 136,
     "repos": 91,
-    "terms": 129
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -32,17 +32,16 @@
     "CharlieFRuan/harbor",
     "ChiehHsinJesseLai/ctm-notebook",
     "cloudaper/compact_enc_det_fork",
+    "cwfitzgerald/libtest-mimic",
     "czk23/YiTu",
     "danielJL-altius/israelgrocerymcp",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
-    "danielrosehill/ai-tools-plugin",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Model-Identifier",
-    "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
-    "danielrosehill/git-github-plugin",
+    "danielrosehill/Israel-First-Aid",
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/N8N-Workflows-Index",
     "danielrosehill/Quick-RMBG",
@@ -68,6 +67,7 @@
     "guaguastandup/guaguastandup",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "Hitesh-Aggarwal/dotfiles",
+    "iambriccardo/gcp-bigquery-client",
     "jackielii/qmk_firmware",
     "jrsoftware/is7z",
     "JuliaBinaryWrappers/Glib_jll.jl",

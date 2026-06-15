@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 243,
-    "observations": 245,
-    "repos": 33,
-    "terms": 236
+    "components": 179,
+    "concepts": 239,
+    "observations": 241,
+    "repos": 34,
+    "terms": 232
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "AppFlowy-IO/AppFlowy",
@@ -24,6 +24,7 @@
     "facebookresearch/sam2",
     "fastai/fastai",
     "fatih/vim-go",
+    "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google/dopamine",
     "google/styleguide",
     "guidance-ai/guidance",
@@ -45,7 +46,7 @@
     "ryanoasis/nerd-fonts",
     "Seldaek/monolog",
     "Swordfish90/cool-retro-term",
-    "TA-Lib/ta-lib-python",
+    "tmuxinator/tmuxinator",
     "tonsky/FiraCode"
   ]
 }

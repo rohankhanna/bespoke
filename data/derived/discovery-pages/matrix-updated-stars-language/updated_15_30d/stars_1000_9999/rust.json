@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 107,
-    "observations": 108,
-    "repos": 10,
-    "terms": 107
+    "components": 156,
+    "concepts": 93,
+    "observations": 94,
+    "repos": 9,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
-    "apache/casbin-rs",
     "apache/datafusion-ballista",
     "ash-rs/ash",
     "crate-ci/cargo-release",

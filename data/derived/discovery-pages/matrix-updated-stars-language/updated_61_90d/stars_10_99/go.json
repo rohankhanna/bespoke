@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 169,
-    "observations": 170,
-    "repos": 49,
-    "terms": 171
+    "components": 254,
+    "concepts": 182,
+    "observations": 184,
+    "repos": 51,
+    "terms": 179
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -30,10 +30,9 @@
     "chromedp/pdlgen",
     "cjkreklow/t38c",
     "cloudwego/kitex-benchmark",
+    "cmdjulian/mopy",
     "cometbft/cometbft-db",
-    "containerd/release-tool",
     "cosmos/cosmos-db",
-    "ctoth/claudio",
     "cyberark/conjur-api-go",
     "darkweak/storages",
     "depado/bfchroma",
@@ -45,12 +44,15 @@
     "GFW-knocker/AndroidLibXrayLite",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
+    "hashicorp/hcp-sdk-go",
     "hashicorp/vault-plugin-auth-kerberos",
+    "Infisical/go-sdk",
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
     "kurrent-io/KurrentDB-Client-Go",
     "magodo/tfadd",
     "matelang/jwt-go-aws-kms",
+    "MShekow/directory-checksum",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",

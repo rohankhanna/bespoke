@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 862,
-    "concepts": 336,
-    "observations": 336,
-    "repos": 239,
-    "terms": 365
+    "components": 839,
+    "concepts": 328,
+    "observations": 328,
+    "repos": 236,
+    "terms": 357
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -165,7 +165,6 @@
     "datafuse-extras/lance",
     "datafuse-extras/orc-rust",
     "DeepWok/mase-docker",
-    "dubbo-go-pixiu/dubbo-go-pixiu",
     "Dustinpro/Dustinpro",
     "edward3h/bedrock-viz-from-backups",
     "fabon-f/temporal-polyfill-comparison",
@@ -186,9 +185,7 @@
     "hermit-os/.github",
     "hmellor/vllm",
     "HumanSignal/label-studio-client-generator",
-    "hyper-mcp-rs/arxiv-plugin",
     "hyper-mcp-rs/context7-plugin",
-    "hyper-mcp-rs/crates-io-plugin",
     "hyper-mcp-rs/crypto-price-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "i18next/i18next-subliminal",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 728,
-    "concepts": 462,
-    "observations": 463,
-    "repos": 104,
-    "terms": 475
+    "components": 715,
+    "concepts": 484,
+    "observations": 485,
+    "repos": 103,
+    "terms": 497
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -24,6 +24,9 @@
     "ankane/delta-ruby",
     "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
+    "apache/casbin-actix-casbin-auth",
+    "apache/casbin-axum-casbin",
+    "apache/casbin-rust-actix-casbin",
     "apache/opendal-oli",
     "apollographql/federation-rs",
     "arkworks-rs/spongefish",
@@ -80,8 +83,6 @@
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "ldclabs/ic-oss",
-    "ldclabs/ic-tee",
     "major7apps/pensyve",
     "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
@@ -100,7 +101,6 @@
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
-    "sophus-vision/sophus-rs",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
     "succinctlabs/sp1-cluster",
@@ -116,7 +116,6 @@
     "urschrei/rdp",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
-    "Xuanwo/serde-env",
     "zcash/pasta_curves"
   ]
 }

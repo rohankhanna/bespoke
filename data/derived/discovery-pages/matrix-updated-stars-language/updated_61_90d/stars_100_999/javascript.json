@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1555,
-    "concepts": 407,
-    "observations": 409,
-    "repos": 95,
-    "terms": 420
+    "components": 1610,
+    "concepts": 423,
+    "observations": 425,
+    "repos": 101,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
     "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
+    "agent-sh/agentsys",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
     "apify/awesome-skills",
@@ -41,8 +42,10 @@
     "dwyl/learn-postgresql",
     "dwyl/sendemail",
     "ehmicky/nve",
+    "eladnava/pikud-haoref-api",
+    "electron/node-abi",
     "ember-cli/ember-exam",
-    "executablebooks/sphinx-copybutton",
+    "fabmax/physx-js-webidl",
     "fastify/create-fastify",
     "fastify/example",
     "fastify/fastify-cli",
@@ -83,6 +86,7 @@
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",
+    "nodejs/TSC",
     "npm/abbrev-js",
     "npm/rfcs",
     "oblador/react-native-vector-image",
@@ -97,6 +101,7 @@
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/git",
+    "sethgammon/citadel",
     "sindresorhus/globals",
     "stripe-samples/accept-a-payment",
     "sveltejs/svelte-loader",
@@ -105,6 +110,7 @@
     "testing-library/testing-library-docs",
     "thejoshwolfe/yauzl",
     "toon-format/spec",
+    "w3c/trusted-types",
     "w3c/webidl2.js",
     "webpack/css-minimizer-webpack-plugin",
     "will62794/spectacle",

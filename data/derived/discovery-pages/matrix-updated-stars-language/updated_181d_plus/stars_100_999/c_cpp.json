@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 713,
-    "concepts": 1301,
-    "observations": 1304,
-    "repos": 392,
-    "terms": 1281
+    "concepts": 1304,
+    "observations": 1307,
+    "repos": 394,
+    "terms": 1284
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -241,6 +241,7 @@
     "lemire/fastbase64",
     "Level/leveldown",
     "lewes6369/TensorRT-Yolov3",
+    "lh3/gfatools",
     "lh3/ksw2",
     "libbitcoin/libbitcoin-explorer",
     "libimobiledevice/libimobiledevice-glue",
@@ -369,6 +370,7 @@
     "TixiaoShan/imaging_lidar_place_recognition",
     "tjdevries/tree-sitter-lua",
     "Tobski/simple_vulkan_synchronization",
+    "tomfunkhouser/gaps",
     "tsattler/RansacLib",
     "TTimo/GtkRadiant",
     "twhui/LiteFlowNet",

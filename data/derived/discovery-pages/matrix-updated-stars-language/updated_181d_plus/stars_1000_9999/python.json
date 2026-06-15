@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 995,
-    "concepts": 3911,
-    "observations": 3913,
-    "repos": 992,
-    "terms": 3839
+    "components": 1004,
+    "concepts": 3922,
+    "observations": 3924,
+    "repos": 996,
+    "terms": 3850
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -71,6 +71,7 @@
     "ant-research/CoDeF",
     "apple/ml-aim",
     "apple/ml-cvnets",
+    "aqlaboratory/openfold",
     "araffin/rl-baselines-zoo",
     "archinetai/audio-diffusion-pytorch",
     "argusswift/YOLOv4-pytorch",
@@ -274,6 +275,7 @@
     "facebookresearch/Detic",
     "facebookresearch/dino",
     "facebookresearch/DiT",
+    "facebookresearch/DomainBed",
     "facebookresearch/DPR",
     "facebookresearch/encodec",
     "facebookresearch/fairscale",
@@ -341,6 +343,7 @@
     "google-deepmind/jraph",
     "google-deepmind/mathematics_dataset",
     "google-deepmind/pysc2",
+    "google-gemini/deprecated-generative-ai-python",
     "google-research/albert",
     "google-research/big_transfer",
     "google-research/electra",
@@ -862,6 +865,7 @@
     "tczhangzhi/pytorch-distributed",
     "Teemu/pytest-sugar",
     "Tencent-Hunyuan/HunyuanCustom",
+    "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/MimicMotion",
     "Tencent/TFace",
     "TencentARC/SEED-Voken",

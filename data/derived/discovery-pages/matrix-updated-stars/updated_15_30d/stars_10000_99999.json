@@ -1,26 +1,24 @@
 {
   "counts": {
-    "components": 1847,
-    "concepts": 1030,
-    "observations": 1037,
-    "repos": 85,
-    "terms": 1027
+    "components": 1791,
+    "concepts": 977,
+    "observations": 984,
+    "repos": 81,
+    "terms": 976
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
     "apache/brpc",
-    "apache/casbin",
     "argotorg/solidity",
     "axolotl-ai-cloud/axolotl",
-    "browserslist/browserslist",
     "Comfy-Org/ComfyUI-Manager",
     "Dao-AILab/flash-attention",
     "datalab-to/surya",
@@ -48,7 +46,6 @@
     "isl-org/Open3D",
     "jax-ml/jax",
     "jestjs/jest",
-    "JetBrains/compose-multiplatform",
     "langchain-ai/langchainjs",
     "Lightning-AI/litgpt",
     "Lightning-AI/pytorch-lightning",
@@ -61,7 +58,6 @@
     "mudler/LocalAI",
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
-    "nvm-sh/nvm",
     "nwjs/nw.js",
     "oobabooga/textgen",
     "OpenHands/OpenHands",

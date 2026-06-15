@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 297,
-    "observations": 300,
+    "components": 276,
+    "concepts": 298,
+    "observations": 301,
     "repos": 61,
-    "terms": 294
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
-    "agricidaniel/claude-cybersecurity",
     "Alexpux/MINGW-packages",
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
+    "apache/datafusion-ballista-python",
     "argoproj-labs/argocd-extension-installer",
     "asdf-community/asdf-pdm",
     "Azure/aaz",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 12,
-    "terms": 20
+    "components": 66,
+    "concepts": 22,
+    "observations": 23,
+    "repos": 13,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "bgw/bincode",
     "databendlabs/iceberg-rust",
@@ -21,6 +21,7 @@
     "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
     "firstbatchxyz/dkn-protocol",
+    "iambriccardo/gcp-bigquery-client",
     "Keats/os_info",
     "kylebarron/pyo3-file",
     "onomojo/i18n-country-translations-rs",

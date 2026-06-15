@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6363,
-    "concepts": 1340,
-    "observations": 1342,
-    "repos": 200,
-    "terms": 1379
+    "components": 6248,
+    "concepts": 1312,
+    "observations": 1314,
+    "repos": 192,
+    "terms": 1349
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
@@ -50,7 +50,6 @@
     "chainguard-dev/actions",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
-    "clangd/vscode-clangd",
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "connectrpc/examples-es",
@@ -82,7 +81,6 @@
     "giselles-ai/giselle",
     "github/local-action",
     "glassflow/clickhouse-etl",
-    "GoogleCloudPlatform/wombat-dressing-room",
     "gradle/actions",
     "graphprotocol/graph-client",
     "grubersjoe/github-contributions-api",
@@ -112,10 +110,8 @@
     "lambdalisue/vim-gin",
     "LemmyNet/lemmy-js-client",
     "lerna-lite/lerna-lite",
-    "lewislulu/llm-wiki-skill",
     "lobehub/lobe-chat-plugins",
     "logux/client",
-    "lucasastorian/llmwiki",
     "luciopaiva/heapify",
     "Luligu/matterbridge",
     "Luligu/matterbridge-shelly",
@@ -131,7 +127,6 @@
     "microsoft/react-native-gallery",
     "microsoft/security-devops-action",
     "microsoft/TypeScript-DOM-lib-generator",
-    "microsoft/vscode-css-languageservice",
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
@@ -184,7 +179,6 @@
     "Shougo/dpp.vim",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
-    "snipeship/ccflare",
     "Softeria/ms-365-mcp-server",
     "strands-agents/sdk-typescript",
     "sumup-oss/circuit-ui",
@@ -196,7 +190,6 @@
     "TanStack/pacer",
     "TanStack/store",
     "tats-u/markdown-cjk-friendly",
-    "timkindberg/jest-when",
     "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
     "tombii/better-ccflare",
@@ -211,7 +204,6 @@
     "victorgarciaesgi/regle",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
-    "webextension-toolbox/webextension-toolbox",
     "xdebug/vscode-php-debug",
     "Zoo-Code-Org/Zoo-Code"
   ]

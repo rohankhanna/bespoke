@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 927,
-    "concepts": 1195,
-    "observations": 1199,
-    "repos": 114,
-    "terms": 1197
+    "components": 923,
+    "concepts": 1186,
+    "observations": 1190,
+    "repos": 111,
+    "terms": 1189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -68,7 +68,6 @@
     "google/skia",
     "grpc/grpc",
     "h2o/h2o",
-    "haiwen/seafile",
     "ImageMagick/ImageMagick",
     "Immediate-Mode-UI/Nuklear",
     "iovisor/bcc",
@@ -97,7 +96,6 @@
     "mongodb/mongo",
     "mpv-player/mpv",
     "NixOS/nix",
-    "nothings/stb",
     "obsproject/obs-studio",
     "oceanbase/oceanbase",
     "ocornut/imgui",
@@ -121,7 +119,6 @@
     "taskflow/taskflow",
     "Tencent/ncnn",
     "tesseract-ocr/tesseract",
-    "tmux/tmux",
     "uNetworking/uWebSockets",
     "v8/v8",
     "winsiderss/systeminformer",

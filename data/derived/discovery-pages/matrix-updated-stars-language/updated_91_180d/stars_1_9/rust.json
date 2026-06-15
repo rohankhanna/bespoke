@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 29,
-    "terms": 34
+    "components": 102,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 30,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -33,6 +33,7 @@
     "mozilla/midir",
     "near/near-abi-client-rs",
     "near/near-abi-rs",
+    "openobserve/vector",
     "paolodamico/ruint-uniffi",
     "shesek/electrumd",
     "sigp/quick-protobuf",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 567,
-    "concepts": 669,
-    "observations": 670,
-    "repos": 298,
-    "terms": 663
+    "concepts": 671,
+    "observations": 672,
+    "repos": 299,
+    "terms": 665
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -102,6 +102,7 @@
     "devgianlu/librespot-android",
     "dfki-ric/pclomp",
     "dgl/re-engine-RE2",
+    "DLR-TS/SUMOLibraries",
     "dogtagpki/coolkey",
     "dplasa/FTPClientServer",
     "dpryan79/libBigWig",

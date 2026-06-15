@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4267,
-    "concepts": 789,
-    "observations": 792,
-    "repos": 91,
-    "terms": 778
+    "components": 4188,
+    "concepts": 767,
+    "observations": 770,
+    "repos": 89,
+    "terms": 756
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
-    "ai/nanoid",
     "ajaxorg/ace",
     "ampproject/amphtml",
     "arkenfox/user.js",
@@ -28,6 +27,7 @@
     "be5invis/Iosevka",
     "bmad-code-org/bmad-method",
     "brianc/node-postgres",
+    "browserslist/browserslist",
     "CesiumGS/cesium",
     "commitizen/cz-cli",
     "cure53/DOMPurify",
@@ -48,7 +48,6 @@
     "gorhill/uBlock",
     "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
-    "http-party/http-server",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
     "iamkun/dayjs",
@@ -100,7 +99,6 @@
     "vercel-labs/agent-skills",
     "webpack/webpack",
     "webtorrent/webtorrent",
-    "welldone-software/why-did-you-render",
     "wix/Detox",
     "yarnpkg/yarn",
     "yokoffing/Betterfox",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4146,
-    "concepts": 3028,
-    "observations": 3031,
-    "repos": 501,
-    "terms": 3038
+    "components": 4103,
+    "concepts": 2975,
+    "observations": 2978,
+    "repos": 493,
+    "terms": 2985
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -37,7 +37,6 @@
     "ankane/disco",
     "ankane/informers",
     "ankane/onnxruntime-ruby",
-    "ankane/rover",
     "ankane/ruby-polars",
     "anthropics/anthropic-sdk-ruby",
     "apache/apisix-helm-chart",
@@ -47,7 +46,6 @@
     "apache/logging-log4net",
     "App-vNext/Polly-Samples",
     "apple/swift-nio-extras",
-    "apple/swift-nio-http2",
     "apple/swift-nio-ssh",
     "apple/swift-nio-ssl",
     "appsignal/appsignal-ruby",
@@ -84,7 +82,6 @@
     "bazelbuild/rules_rust",
     "bazelbuild/rules_swift",
     "bbatsov/neocaml",
-    "BcryptNet/bcrypt.net",
     "bdovaz/UnityNuGet",
     "bencherdev/bencher",
     "benedekfazekas/mranderson",
@@ -163,7 +160,6 @@
     "dotnet/install-scripts",
     "dotnet/razor",
     "dwyl/phoenix-chat-example",
-    "eddelbuettel/littler",
     "eddelbuettel/r2u",
     "EdenEast/nyx",
     "elixir-ecto/db_connection",
@@ -198,7 +194,6 @@
     "getsentry/sentry-docs",
     "giaf/blasfeo",
     "github/pages-health-check",
-    "go-flutter-desktop/examples",
     "google-gemini/gemini-api-quickstart",
     "google/docsy-example",
     "GoogleCloudPlatform/cloud-sdk-docker",
@@ -410,7 +405,6 @@
     "r-lib/usethis",
     "r-spatial/stars",
     "radian-software/apheleia",
-    "radian-software/radian",
     "rafaqz/DimensionalData.jl",
     "rafaqz/Rasters.jl",
     "rake-compiler/rake-compiler-dock",
@@ -426,7 +420,6 @@
     "rescript-lang/rescript-react",
     "rescript-lang/vim-rescript",
     "rgeo/activerecord-postgis-adapter",
-    "robur-coop/albatross",
     "ROCm/llvm-project",
     "ROCm/rocm-libraries",
     "ROCm/rocMLIR",
@@ -437,7 +430,6 @@
     "ruby/gem_rbs_collection",
     "ruby/json",
     "ruby/psych",
-    "ruby/ruby-bench",
     "ruby/typeprof",
     "runtimeverification/evm-semantics",
     "rust-lang/blog.rust-lang.org",

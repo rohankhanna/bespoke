@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 314,
-    "concepts": 454,
-    "observations": 455,
+    "components": 316,
+    "concepts": 459,
+    "observations": 460,
     "repos": 81,
-    "terms": 445
+    "terms": 451
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -20,6 +20,7 @@
     "AdAway/AdAway",
     "akheron/jansson",
     "Alex313031/thorium",
+    "AlibabaResearch/AdvancedLiterateMachinery",
     "arrayfire/arrayfire",
     "ashvardanian/less_slow.cpp",
     "attractivechaos/klib",
@@ -35,6 +36,7 @@
     "colmap/glomap",
     "cpputest/cpputest",
     "cztomczak/cefpython",
+    "duckdb/pg_duckdb",
     "eclipse-paho/paho.mqtt.c",
     "EKA2L1/EKA2L1",
     "emersion/slurp",
@@ -70,10 +72,8 @@
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "mutouyun/cpp-ipc",
-    "naelstrof/maim",
     "nmoehrle/mvs-texturing",
     "NVIDIA/gdrcopy",
-    "openMVG/openMVG",
     "OpenNMT/CTranslate2",
     "pellepl/spiffs",
     "pganalyze/libpg_query",

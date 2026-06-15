@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 50,
-    "terms": 225
+    "components": 235,
+    "concepts": 239,
+    "observations": 239,
+    "repos": 52,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -20,10 +20,12 @@
     "ameshkov/dnslookup",
     "ankitpokhrel/jira-cli",
     "apache/rocketmq-client-go",
-    "argoproj-labs/argocd-autopilot",
     "avast/retry-go",
+    "bytedance/gopkg",
     "chaisql/chai",
+    "charmbracelet/glamour",
     "charmbracelet/skate",
+    "CloudyKit/jet",
     "coder/websocket",
     "dagger/container-use",
     "dghubble/sling",

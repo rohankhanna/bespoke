@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 302,
-    "concepts": 359,
-    "observations": 361,
-    "repos": 97,
-    "terms": 355
+    "components": 320,
+    "concepts": 367,
+    "observations": 369,
+    "repos": 99,
+    "terms": 363
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "angr/vex",
+    "apache/rocketmq-client-cpp",
     "appwrite/playground-for-flutter",
     "Ar-Ray-code/YOLOX-ROS",
+    "arduino-libraries/Ethernet",
+    "arduino-libraries/Servo",
     "ARM-software/EndpointAI",
     "arminbiere/aiger",
     "ashawkey/cubvh",
@@ -66,7 +69,6 @@
     "koide3/small_gicp",
     "Kong/ngx_wasm_module",
     "lexxmark/winflexbison",
-    "lh3/gfatools",
     "lh3/yak",
     "lovemefan/SenseVoice.cpp",
     "lualanes/lanes",
@@ -95,6 +97,7 @@
     "rust-fuzz/libfuzzer",
     "sasha0552/nvidia-pstated",
     "sheredom/ubench.h",
+    "Slamtec/rplidar_sdk",
     "stardot/b-em",
     "stardot/beebasm",
     "starwing/luautf8",
@@ -102,7 +105,6 @@
     "swigger/wechat-ocr",
     "TkTech/can_ada",
     "Tomas-M/iotop",
-    "tomfunkhouser/gaps",
     "usnistgov/trec_eval",
     "ValveSoftware/Fossilize",
     "veorq/SipHash",

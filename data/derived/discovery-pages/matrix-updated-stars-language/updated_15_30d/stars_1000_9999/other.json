@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 326,
-    "observations": 328,
-    "repos": 36,
-    "terms": 321
+    "components": 331,
+    "concepts": 299,
+    "observations": 301,
+    "repos": 34,
+    "terms": 294
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
-    "apache/casbin-Casbin.NET",
     "babashka/babashka",
     "babashka/sci",
     "beam-community/elixir-companies",
@@ -30,7 +29,6 @@
     "kurrent-io/KurrentDB",
     "licensee/licensed",
     "litedb-org/LiteDB",
-    "lumen-oss/rocks.nvim",
     "microsoft/aspire",
     "microsoft/aspire-samples",
     "microsoft/PhiCookBook",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1280,
-    "concepts": 5694,
-    "observations": 5699,
-    "repos": 1902,
-    "terms": 5526
+    "components": 1286,
+    "concepts": 5702,
+    "observations": 5707,
+    "repos": 1903,
+    "terms": 5534
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1573,6 +1573,7 @@
     "self-distilled-stylegan/self-distilled-internet-photos",
     "Sense-X/UniFormer",
     "sergeytulyakov/mocogan",
+    "ServiceNow/TapeAgents",
     "sgsdxzy/YuE-exllamav2",
     "Shark-NLP/OpenICL",
     "shawnricecake/draft-attention",

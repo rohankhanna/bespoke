@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 380,
-    "concepts": 458,
-    "observations": 463,
+    "components": 379,
+    "concepts": 450,
+    "observations": 455,
     "repos": 84,
-    "terms": 459
+    "terms": 449
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
     "alembic/alembic",
     "alibaba/havenask",
-    "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
     "asg017/sqlite-vec",
     "ashvardanian/StringZilla",
@@ -34,7 +33,6 @@
     "d99kris/rapidcsv",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",
-    "duckdb/pg_duckdb",
     "ebiggers/libdeflate",
     "ericniebler/range-v3",
     "espeak-ng/espeak-ng",
@@ -45,6 +43,7 @@
     "google/draco",
     "google/honggfuzz",
     "google/tensorstore",
+    "google/woff2",
     "h2o/picohttpparser",
     "hufrea/byedpi",
     "KhronosGroup/MoltenVK",
@@ -56,6 +55,7 @@
     "madler/zlib",
     "mapnik/mapnik",
     "mattn/go-sqlite3",
+    "mcmilk/7-Zip-zstd",
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/GSL",
     "microsoft/snmalloc",

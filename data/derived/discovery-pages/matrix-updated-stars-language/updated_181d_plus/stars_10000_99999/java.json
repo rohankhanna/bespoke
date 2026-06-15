@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 5,
+    "components": 8,
     "concepts": 5,
     "observations": 5,
-    "repos": 3,
+    "repos": 4,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "aosp-mirror/platform_frameworks_base",
     "brettwooldridge/HikariCP",
+    "Netflix/Hystrix",
     "square/javapoet"
   ]
 }

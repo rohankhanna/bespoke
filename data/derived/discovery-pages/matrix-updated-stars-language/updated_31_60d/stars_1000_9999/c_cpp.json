@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2210,
-    "concepts": 2270,
-    "observations": 2272,
-    "repos": 271,
-    "terms": 2251
+    "components": 2240,
+    "concepts": 2310,
+    "observations": 2312,
+    "repos": 273,
+    "terms": 2293
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -92,6 +92,7 @@
     "FluidSynth/fluidsynth",
     "fnc12/sqlite_orm",
     "fontforge/fontforge",
+    "free-audio/clap",
     "ganelson/inform",
     "gazebosim/gz-sim",
     "git-for-windows/git",
@@ -103,7 +104,6 @@
     "google/shaderc",
     "google/swiftshader",
     "google/tcmalloc",
-    "google/woff2",
     "google/wuffs",
     "gpac/gpac",
     "grizzlypeak3d/DJV",
@@ -121,6 +121,7 @@
     "intel/compute-runtime",
     "intel/isa-l",
     "intel/pcm",
+    "iree-org/iree",
     "ispc/ispc",
     "jarro2783/cxxopts",
     "jbeder/yaml-cpp",
@@ -162,7 +163,6 @@
     "mamba-org/mamba",
     "marzer/tomlplusplus",
     "Mbed-TLS/mbedtls",
-    "mcmilk/7-Zip-zstd",
     "meetecho/janus-gateway",
     "mhammond/pywin32",
     "microsoft/cpprestsdk",
@@ -268,8 +268,10 @@
     "universal-ctags/ctags",
     "unum-cloud/USearch",
     "util-linux/util-linux",
+    "uxlfoundation/oneDNN",
     "uxlfoundation/oneTBB",
     "vincentlaucsb/csv-parser",
+    "WarmUpTill/SceneSwitcher",
     "WebAssembly/wasi-libc",
     "webmproject/libwebp",
     "westes/flex",

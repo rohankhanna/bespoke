@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 20,
-    "terms": 78
+    "components": 65,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 22,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "Accla/D4M.py",
     "Antibrumm/jackson-antpathfilter",
@@ -27,9 +27,11 @@
     "EXIficient/exificient-for-json",
     "google/tsunami-security-scanner-callback-server",
     "googleapis/java-bigquerystorage",
+    "guyboertje/jrjackson",
     "JodaOrg/joda-time-hibernate",
     "jpmml/jpmml-transpiler",
     "langgraph4j/langgraph4j-examples",
+    "padreati/rapaio",
     "piomin/spring-ai-showcase",
     "smithy-lang/smithy-gradle-plugin",
     "tlabs-data/tablesaw-parquet",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 204,
-    "concepts": 189,
-    "observations": 190,
-    "repos": 45,
-    "terms": 186
+    "components": 213,
+    "concepts": 207,
+    "observations": 208,
+    "repos": 47,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
@@ -32,7 +32,6 @@
     "edward3h/minecraft-webhook",
     "filip26/ld-cli",
     "flyway/flyway-community-db-support",
-    "google/guava-beta-checker",
     "googleapis/discovery-artifact-manager",
     "googleapis/java-bigtable",
     "googleapis/java-cloud-bom",
@@ -49,7 +48,10 @@
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",
     "mukel/gemma4.java",
+    "openjdk/jdk11u-dev",
+    "openjdk/jdk17u-dev",
     "openjdk/jdk21u",
+    "openjdk/jdk21u-dev",
     "opensim-org/opensim-gui",
     "qdrant/java-client",
     "simonpoole/OpeningHoursFragment",

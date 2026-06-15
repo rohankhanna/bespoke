@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2387,
-    "concepts": 3165,
-    "observations": 3172,
-    "repos": 996,
-    "terms": 3146
+    "components": 2392,
+    "concepts": 3180,
+    "observations": 3187,
+    "repos": 997,
+    "terms": 3161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -891,6 +891,7 @@
     "sylinrl/TruthfulQA",
     "talex5/cuekeeper",
     "Tangshitao/QuadTreeAttention",
+    "taoensso/telemere",
     "tbastos/vim-lua",
     "tbenavi1/genomescope2.0",
     "tc39/proposal-async-iteration",

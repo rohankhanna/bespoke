@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3413,
-    "concepts": 1663,
-    "observations": 1666,
-    "repos": 334,
-    "terms": 1637
+    "components": 3422,
+    "concepts": 1666,
+    "observations": 1669,
+    "repos": 336,
+    "terms": 1640
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -238,6 +238,7 @@
     "neonbjb/tortoise-tts",
     "nerfstudio-project/nerfstudio",
     "netease-youdao/QAnything",
+    "Netflix/Hystrix",
     "nodejs/node-v0.x-archive",
     "nomic-ai/gpt4all",
     "Nozbe/WatermelonDB",
@@ -299,6 +300,7 @@
     "spotify/annoy",
     "square/javapoet",
     "srush/GPU-Puzzles",
+    "Stability-AI/generative-models",
     "Stability-AI/StableLM",
     "standard/standard",
     "statsd/statsd",

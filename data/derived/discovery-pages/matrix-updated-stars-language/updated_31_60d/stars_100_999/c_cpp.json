@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1297,
-    "concepts": 1307,
-    "observations": 1308,
+    "components": 1292,
+    "concepts": 1304,
+    "observations": 1305,
     "repos": 226,
-    "terms": 1300
+    "terms": 1297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -27,6 +27,7 @@
     "amerkoleci/joltc",
     "ampl/mp",
     "antgroup/vsag",
+    "apache/casbin-cpp",
     "apache/iceberg-cpp",
     "apache/pulsar-client-node",
     "ARM-software/CMSIS-NN",
@@ -49,7 +50,6 @@
     "boostorg/nowide",
     "CEED/libCEED",
     "celtera/avendish",
-    "chhylp123/hifiasm",
     "Chuyu-Team/YY-Thunks",
     "cjlin1/libmf",
     "ClickHouse/clickhouse-cpp",
@@ -69,6 +69,7 @@
     "DiligentGraphics/DiligentFX",
     "DiligentGraphics/DiligentSamples",
     "DiligentGraphics/DiligentTools",
+    "DISTRHO/DPF",
     "Distributive-Network/PythonMonkey",
     "dmlc/treelite",
     "DOCGroup/ACE_TAO",
@@ -207,6 +208,7 @@
     "ROCm/MIVisionX",
     "ROCm/mori",
     "ROCm/rccl",
+    "ROCm/rocBLAS",
     "ROCm/rocm-systems",
     "ros/urdfdom",
     "ros2/common_interfaces",
@@ -229,7 +231,6 @@
     "tree-sitter-grammars/tree-sitter-markdown",
     "triton-inference-server/core",
     "triton-inference-server/onnxruntime_backend",
-    "triton-inference-server/python_backend",
     "triton-inference-server/pytorch_backend",
     "ucscGenomeBrowser/kent",
     "Unidata/netcdf-c",
@@ -238,7 +239,6 @@
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
     "VectorDB-NTU/RaBitQ-Library",
-    "yoshoku/llama_cpp.rb",
-    "Yubico/libfido2"
+    "yoshoku/llama_cpp.rb"
   ]
 }

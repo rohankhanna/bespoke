@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1173,
-    "concepts": 748,
-    "observations": 752,
+    "components": 1175,
+    "concepts": 755,
+    "observations": 759,
     "repos": 121,
-    "terms": 752
+    "terms": 759
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -91,7 +91,6 @@
     "MoonshotAI/Kimi-K2",
     "mozilla/readability",
     "muesli/duf",
-    "Netflix/Hystrix",
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "PaddlePaddle/PaddleNLP",
@@ -115,8 +114,8 @@
     "songquanpeng/one-api",
     "spf13/viper",
     "sql-js/sql.js",
-    "Stability-AI/generative-models",
     "streamich/react-use",
+    "TA-Lib/ta-lib-python",
     "TabbyML/tabby",
     "tachyons-css/tachyons",
     "toml-lang/toml",
@@ -124,6 +123,7 @@
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "twbs/bootstrap-sass",
+    "uber-go/zap",
     "ValdikSS/GoodbyeDPI",
     "vibrantlabsai/ragas",
     "videojs/video.js",

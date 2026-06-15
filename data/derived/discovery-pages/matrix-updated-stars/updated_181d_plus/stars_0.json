@@ -3,7 +3,7 @@
     "components": 1382,
     "concepts": 568,
     "observations": 570,
-    "repos": 462,
+    "repos": 465,
     "terms": 568
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -144,6 +144,7 @@
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Friendly-Badge",
     "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/ai-tools-plugin",
     "danielrosehill/All-About-MCP",
     "danielrosehill/AMD-AI-Server",
     "danielrosehill/Back-Up-Your-SaaS",
@@ -156,10 +157,12 @@
     "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
+    "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Context-Chunker-Assistant",
     "danielrosehill/Context-Cruncher",
     "danielrosehill/Docs-Grabber",
     "danielrosehill/Feature-Ideas-And-Requests",
+    "danielrosehill/git-github-plugin",
     "danielrosehill/Github-Gist-MCP-Minimal",
     "danielrosehill/Github-To-OpenWebUI-Context-Pipeline",
     "danielrosehill/HA-Red-Alert-News-Dash",

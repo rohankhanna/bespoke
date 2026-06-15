@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 96,
-    "observations": 96,
-    "repos": 18,
-    "terms": 96
+    "components": 63,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 19,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/tmux-tilit",
+    "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
     "alchemiststudiosDOTai/harness-engineering",
     "aporthq/aport-agent-guardrails",

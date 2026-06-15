@@ -3,7 +3,7 @@
     "components": 233,
     "concepts": 112,
     "observations": 112,
-    "repos": 130,
+    "repos": 133,
     "terms": 112
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -48,6 +48,7 @@
     "cpettitt/dagre-d3",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/backup_internet_israel",
     "danielrosehill/Career-Data-AI-Context-Repo",
@@ -56,7 +57,9 @@
     "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
+    "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Context-Chunker-Assistant",
+    "danielrosehill/git-github-plugin",
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
     "danielrosehill/Kokoro-FastAPI",

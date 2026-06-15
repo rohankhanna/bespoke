@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 29,
+    "components": 33,
     "concepts": 60,
     "observations": 60,
-    "repos": 47,
+    "repos": 48,
     "terms": 60
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -22,9 +22,10 @@
     "addfox/skills",
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
+    "agent-sh/prepare-delivery",
     "AI-Agent-Hub/mcp-marketplace",
     "ai-dynamo/enhancements",
-    "conda-forge/modin-feedstock",
+    "canonical/ubuntu-desktop-provision-screenshots",
     "csm-actions/docs",
     "D1DX/morning-skill",
     "danielrosehill/Agent-Handover-Demo",

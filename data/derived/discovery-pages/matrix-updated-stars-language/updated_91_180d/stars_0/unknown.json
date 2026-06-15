@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 69,
+    "components": 71,
     "concepts": 46,
     "observations": 46,
-    "repos": 23,
+    "repos": 21,
     "terms": 46
   },
   "facet_version": 1,
@@ -12,16 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "CADindustries/container",
+    "cwfitzgerald/libtest-mimic",
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
-    "danielrosehill/ai-tools-plugin",
     "danielrosehill/Claude-Model-Identifier",
-    "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Data-Projects-Index",
-    "danielrosehill/git-github-plugin",
     "DataDog/opa",
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",

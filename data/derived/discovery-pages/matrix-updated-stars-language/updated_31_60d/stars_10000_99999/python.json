@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2331,
-    "concepts": 2002,
-    "observations": 2006,
-    "repos": 185,
-    "terms": 2024
+    "components": 2280,
+    "concepts": 1964,
+    "observations": 1968,
+    "repos": 180,
+    "terms": 1986
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -110,10 +110,8 @@
     "mem0ai/mem0",
     "MetaCubeX/mihomo",
     "microsoft/agent-lightning",
-    "microsoft/autogen",
     "microsoft/graphrag",
     "microsoft/promptflow",
-    "microsoft/pyright",
     "mitmproxy/mitmproxy",
     "mlc-ai/mlc-llm",
     "mlflow/mlflow",
@@ -131,15 +129,12 @@
     "onyx-dot-app/onyx",
     "openai/openai-agents-python",
     "openai/openai-python",
-    "openai/swarm",
-    "openai/whisper",
     "OpenBMB/MiniCPM-o",
     "opendatalab/MinerU",
     "optuna/optuna",
     "oraios/serena",
     "ostris/ai-toolkit",
     "PaddlePaddle/PaddleOCR",
-    "PaddlePaddle/PaddleSpeech",
     "pallets/click",
     "pandas-dev/pandas",
     "pipecat-ai/pipecat",

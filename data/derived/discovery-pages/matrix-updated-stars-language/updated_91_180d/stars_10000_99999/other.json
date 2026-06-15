@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 16,
-    "terms": 61
+    "components": 55,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 17,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
@@ -27,6 +27,7 @@
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "QwenLM/Qwen3-VL",
+    "TA-Lib/ta-lib-python",
     "tachyons-css/tachyons",
     "tpope/vim-fugitive",
     "twbs/bootstrap-sass"

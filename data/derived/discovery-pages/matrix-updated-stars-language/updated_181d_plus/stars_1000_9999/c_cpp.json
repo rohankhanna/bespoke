@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 401,
-    "concepts": 844,
-    "observations": 844,
-    "repos": 227,
-    "terms": 833
+    "components": 406,
+    "concepts": 859,
+    "observations": 859,
+    "repos": 229,
+    "terms": 847
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -163,6 +163,7 @@
     "mpaland/printf",
     "mtrebi/thread-pool",
     "muellan/clipp",
+    "naelstrof/maim",
     "ncopa/su-exec",
     "nfrechette/acl",
     "NicoHood/HID",
@@ -180,6 +181,7 @@
     "NVlabs/nvdiffrast",
     "OAID/Tengine",
     "Oneflow-Inc/oneflow",
+    "openMVG/openMVG",
     "P-H-C/phc-winner-argon2",
     "p-ranav/argparse",
     "PaddlePaddle/Paddle-Lite",

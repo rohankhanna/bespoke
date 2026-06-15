@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 534,
-    "observations": 537,
-    "repos": 104,
-    "terms": 529
+    "components": 338,
+    "concepts": 544,
+    "observations": 547,
+    "repos": 103,
+    "terms": 539
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
@@ -20,16 +20,14 @@
     "anacrolix/go-libutp",
     "ankane/faiss-ruby",
     "apache/datasketches-cpp",
-    "apache/rocketmq-client-cpp",
     "appium/appium-mac2-driver",
-    "arduino-libraries/Ethernet",
-    "arduino-libraries/Servo",
     "artemsen/swayimg",
     "ashvardanian/ForkUnion",
     "BirolLab/ntHash",
     "bnprks/BPCells",
     "CarlosDerSeher/snapclient",
     "charlesnicholson/nanoprintf",
+    "chhylp123/hifiasm",
     "cisco/mlspp",
     "cloudwu/ltask",
     "containers/conmon",
@@ -101,13 +99,13 @@
     "rusty1s/pytorch_cluster",
     "samtools/bcftools",
     "SHI-Labs/NATTEN",
-    "Slamtec/rplidar_sdk",
     "smarco/WFA2-lib",
     "Solo5/solo5",
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
     "triton-inference-server/backend",
     "triton-inference-server/dali_backend",
+    "triton-inference-server/python_backend",
     "uxlfoundation/oneMath",
     "vcflib/vcflib",
     "vectr-ucla/direct_lidar_inertial_odometry",
@@ -117,6 +115,7 @@
     "webgpu-native/webgpu-headers",
     "WojciechMula/toys",
     "xiph/vorbis",
-    "xtensor-stack/xtensor-python"
+    "xtensor-stack/xtensor-python",
+    "Yubico/libfido2"
   ]
 }

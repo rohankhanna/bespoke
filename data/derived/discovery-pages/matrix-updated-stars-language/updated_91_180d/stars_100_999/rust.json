@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 387,
-    "concepts": 270,
-    "observations": 271,
-    "repos": 69,
-    "terms": 268
+    "components": 399,
+    "concepts": 277,
+    "observations": 278,
+    "repos": 72,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ayazhafiz/xorf",
@@ -47,6 +47,7 @@
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
     "lquerel/gcp-bigquery-client",
+    "LukasKalbertodt/libtest-mimic",
     "Manishearth/triomphe",
     "matsadler/magnus",
     "MatsDK/TauRPC",
@@ -69,6 +70,7 @@
     "rusticstuff/simdutf8",
     "sagiegurari/duckscript",
     "scopedb/percas",
+    "servo/rust-cssparser",
     "smol-rs/async-executor",
     "stanislav-tkach/os_info",
     "SunDoge/simdjson-rust",
@@ -79,6 +81,7 @@
     "unicode-rs/unicode-width",
     "walles/riff",
     "yaahc/displaydoc",
+    "YaLTeR/wl-clipboard-rs",
     "zippoxer/recall",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub",

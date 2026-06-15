@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 779,
-    "concepts": 507,
-    "observations": 509,
-    "repos": 139,
-    "terms": 516
+    "components": 753,
+    "concepts": 486,
+    "observations": 488,
+    "repos": 134,
+    "terms": 495
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "activeviam/jdk4py",
     "AFD-Illinois/pyharm",
-    "AFLplusplus/afl-cov",
     "agno-agi/coda",
     "Agnuxo1/CAJAL",
     "AI-Hypercomputer/pathways-utils",
@@ -54,7 +53,6 @@
     "castorini/umbrela",
     "cdeust/cortex",
     "channel-io/ch-tts-llasa-rl-grpo",
-    "chaoss/grimoirelab-sortinghat",
     "chengzhag/PanFlow",
     "cloudfoundry/community",
     "conda-forge/admin-requests",
@@ -65,7 +63,6 @@
     "crs4/rocrate-validator",
     "DanielNoord/pydocstringformatter",
     "datajuicer/data-juicer-agents",
-    "dathere/datapusher-plus",
     "dbfixtures/mirakuru",
     "DeterminateSystems/determinate-nix-action",
     "dora-rs/dora-hub",
@@ -85,12 +82,10 @@
     "harbor-framework/harbor-cookbook",
     "higlass/clodius",
     "Hiroshiba/voicevox_engine",
-    "HKU-BAL/Clair3-RNA",
     "HKU-BAL/ClairS-TO",
     "instadeepai/fastpbrl",
     "jfly/shtuff",
     "jxpress/lightning-hydra-template-vertex-ai",
-    "lblankl/Short-RL",
     "LedgerHQ/ragger",
     "lhj5426/YSG",
     "Looong01/pyg-rocm-build",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 630,
-    "observations": 631,
-    "repos": 112,
-    "terms": 624
+    "components": 312,
+    "concepts": 633,
+    "observations": 634,
+    "repos": 113,
+    "terms": 627
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -111,6 +111,7 @@
     "Sanster/IOPaint",
     "sczhou/CodeFormer",
     "SesameAILabs/csm",
+    "Stability-AI/generative-models",
     "svc-develop-team/so-vits-svc",
     "SYSTRAN/faster-whisper",
     "tatsu-lab/stanford_alpaca",

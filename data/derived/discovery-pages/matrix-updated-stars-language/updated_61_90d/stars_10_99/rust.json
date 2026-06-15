@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 145,
-    "observations": 147,
-    "repos": 39,
-    "terms": 145
+    "components": 276,
+    "concepts": 164,
+    "observations": 166,
+    "repos": 43,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "adumbidiot/lz-str-rs",
     "agentclientprotocol/symposium-acp",
@@ -36,6 +36,8 @@
     "kylebarron/arrow-wasm",
     "lambdaclass/libssz",
     "Layr-Labs/eigensdk-rs",
+    "ldclabs/ic-oss",
+    "ldclabs/ic-tee",
     "libdeflater/libdeflater",
     "messense/py-promql-parser",
     "near/cargo-near",
@@ -50,8 +52,10 @@
     "randombit/botan-rs",
     "rust-lang/josh-sync",
     "sigp/rust-libp2p",
+    "sophus-vision/sophus-rs",
     "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
-    "Vaishnav-Sabari-Girish/Hayasen"
+    "Vaishnav-Sabari-Girish/Hayasen",
+    "Xuanwo/serde-env"
   ]
 }

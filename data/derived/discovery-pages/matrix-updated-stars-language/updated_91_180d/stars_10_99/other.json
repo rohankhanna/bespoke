@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 604,
-    "concepts": 402,
-    "observations": 404,
-    "repos": 155,
-    "terms": 398
+    "components": 611,
+    "concepts": 405,
+    "observations": 407,
+    "repos": 159,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "2KAbhishek/pickme.nvim",
+    "6cdh/dotfiles",
     "aarroyoc/djota",
     "aarroyoc/doclog",
     "abapGit/ADT_Backend",
@@ -56,6 +57,7 @@
     "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
+    "coin-or-tools/homebrew-coinor",
     "DavidKinder/Windows-Glulxe",
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
@@ -133,6 +135,7 @@
     "ochorocho/franken-typo3",
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
+    "opencontainers/.github",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",
@@ -163,6 +166,7 @@
     "travis-ci/travis-scheduler",
     "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
+    "V13Axel/neotest-pest",
     "viafintech/gcra-ruby",
     "webdataset/WebDataset.jl",
     "WICG/crash-reporting",

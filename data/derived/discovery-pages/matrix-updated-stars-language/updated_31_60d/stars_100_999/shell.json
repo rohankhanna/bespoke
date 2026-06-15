@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 350,
-    "observations": 353,
-    "repos": 59,
-    "terms": 353
+    "components": 253,
+    "concepts": 338,
+    "observations": 341,
+    "repos": 57,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
-    "0xNyk/council-of-high-intelligence",
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
@@ -24,7 +23,6 @@
     "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
-    "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",

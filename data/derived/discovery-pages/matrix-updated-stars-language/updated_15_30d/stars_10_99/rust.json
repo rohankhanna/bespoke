@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 7,
-    "terms": 56
+    "components": 35,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 4,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
-    "apache/casbin-actix-casbin-auth",
-    "apache/casbin-axum-casbin",
-    "apache/casbin-rust-actix-casbin",
     "lifegpc/msg-tool",
     "vaporif/parry-guard"
   ]

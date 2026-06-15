@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15856,
-    "concepts": 14375,
-    "observations": 14403,
-    "repos": 4699,
-    "terms": 14147
+    "components": 15867,
+    "concepts": 14401,
+    "observations": 14429,
+    "repos": 4703,
+    "terms": 14173
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -2718,6 +2718,7 @@
     "lewis6991/pckr.nvim",
     "Lex-au/Orpheus-FastAPI",
     "lguenth/obsidian-templates",
+    "lh3/gfatools",
     "lh3/ksw2",
     "lh3/miniasm",
     "li-xirong/coco-cn",
@@ -3943,6 +3944,7 @@
     "sergeytulyakov/mocogan",
     "serverless/aws-ai-stack",
     "serverless/containers",
+    "ServiceNow/TapeAgents",
     "sgsdxzy/YuE-exllamav2",
     "Shadowsocks-NET/shadowsocks-specs",
     "shadowsocks/badvpn",
@@ -4165,6 +4167,7 @@
     "tanhuajie/Reason-RFT",
     "tanreinama/GPTSAN",
     "TanStack/ranger",
+    "taoensso/telemere",
     "TaoRuijie/TalkNet-ASD",
     "taoyds/syntaxSQL",
     "taoyds/test-suite-sql-eval",
@@ -4271,6 +4274,7 @@
     "tom-roddick/mono-semantic-maps",
     "tomaarsen/attention_sinks",
     "tomblind/local-lua-debugger-vscode",
+    "tomfunkhouser/gaps",
     "TommyX12/company-tabnine",
     "TomWright/mermaid-server",
     "tonistiigi/audiosprite",

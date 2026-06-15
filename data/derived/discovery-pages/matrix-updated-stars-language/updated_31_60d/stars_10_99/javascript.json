@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1122,
+    "components": 1143,
     "concepts": 276,
     "observations": 278,
-    "repos": 71,
+    "repos": 73,
     "terms": 283
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
+    "aidenlab/hic-straw",
+    "aidenlab/juicebox.js",
     "alangdm/helium-animated-pages",
     "alexellis/arkade-get",
     "apache/doris-opentelemetry-demo",

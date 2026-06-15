@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 456,
-    "concepts": 514,
-    "observations": 514,
-    "repos": 69,
-    "terms": 512
+    "components": 443,
+    "concepts": 516,
+    "observations": 516,
+    "repos": 68,
+    "terms": 514
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -32,7 +32,6 @@
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lemminx/lemminx",
     "eclipse-lsp4j/lsp4j",
-    "fabmax/physx-jni",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
@@ -46,7 +45,6 @@
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "heroku/webapp-runner",
-    "higress-group/higress-console",
     "ihmcrobotics/ihmc-open-robotics-software",
     "jcefmaven/jcefmaven",
     "jdereg/json-io",
@@ -80,6 +78,7 @@
     "swagger-api/swagger-inflector",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",
+    "Waffle/waffle",
     "wildfly/quickstart",
     "Xilinx/RapidWright",
     "zilliztech/vts"

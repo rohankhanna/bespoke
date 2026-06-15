@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 255,
-    "observations": 256,
-    "repos": 69,
-    "terms": 255
+    "components": 137,
+    "concepts": 248,
+    "observations": 249,
+    "repos": 63,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
@@ -23,7 +23,6 @@
     "apappascs/mcp-servers-hub",
     "AutoJunjie/awesome-agent-harness",
     "bitrise-io/bitrise-steplib",
-    "bloomberg/clang-p2996",
     "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",
     "chromedp/cdproto",
@@ -33,8 +32,6 @@
     "deepset-ai/haystack-integrations",
     "django/deps",
     "dnaka91/obws",
-    "dotnet-foundation/projects",
-    "dotnet/AspNetApiDocs",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
@@ -44,7 +41,6 @@
     "gautamkrishnar/gautamkrishnar",
     "getlantern/lantern-binaries",
     "ghimiresunil/Top-AI-Tools",
-    "github/codeql-cli-binaries",
     "github/copilot-language-server-release",
     "google/agents-cli",
     "googlefonts/RobotoMono",
@@ -64,7 +60,6 @@
     "mason-org/mason-registry",
     "mdn/mdn-community",
     "microsoft/openjdk",
-    "MicrosoftDocs/terminal",
     "near/NEPs",
     "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
@@ -73,7 +68,6 @@
     "openjs-foundation/cross-project-council",
     "openwdl/wdl",
     "piebald-ai/awesome-gemini-cli",
-    "ranpox/awesome-computer-use",
     "rstackjs/awesome-rstack",
     "smithy-lang/awesome-smithy",
     "stripe/openapi",

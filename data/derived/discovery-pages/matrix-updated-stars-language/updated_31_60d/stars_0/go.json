@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 9,
-    "terms": 23
+    "components": 45,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 8,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "Amtrend/ssh-manager",
     "DataDog/vault",
-    "dubbo-go-pixiu/dubbo-go-pixiu",
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",

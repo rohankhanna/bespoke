@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 579,
-    "concepts": 677,
-    "observations": 680,
-    "repos": 129,
-    "terms": 680
+    "components": 591,
+    "concepts": 690,
+    "observations": 693,
+    "repos": 132,
+    "terms": 693
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -37,6 +37,7 @@
     "carrierwaveuploader/carrierwave",
     "ChaoningZhang/MobileSAM",
     "chrisbra/csv.vim",
+    "clj-commons/manifold",
     "clojure/clojurescript",
     "clojure/core.logic",
     "clojure/test.check",
@@ -114,6 +115,7 @@
     "pgpartman/pg_partman",
     "preservim/vimux",
     "pry/pry",
+    "puppetlabs/puppet",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
     "rails/spring",
@@ -137,6 +139,7 @@
     "tpope/vim-dadbod",
     "tris203/precognition.nvim",
     "v2fly/v2ray-examples",
+    "varvet/pundit",
     "Vigemus/iron.nvim",
     "vkhorikov/CSharpFunctionalExtensions",
     "weichsel/ZIPFoundation",

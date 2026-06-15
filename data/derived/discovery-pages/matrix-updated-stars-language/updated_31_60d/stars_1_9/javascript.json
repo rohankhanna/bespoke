@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1403,
-    "concepts": 680,
-    "observations": 683,
-    "repos": 66,
-    "terms": 685
+    "components": 1390,
+    "concepts": 671,
+    "observations": 674,
+    "repos": 63,
+    "terms": 676
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
-    "agent-sh/audit-project",
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
     "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
-    "apache/netbeans-antora",
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",
@@ -31,7 +29,6 @@
     "erichlof/Glider-Ball-3D",
     "fontsource/download-stat-aggregator",
     "gauravrathod674/custom-chatbot",
-    "gr2m/octokit-oauth-app-begin-example",
     "h5wasm/h5wasm-plugins",
     "ibm-telemetry/telemetry-config-schema",
     "ioBroker/plugin-sentry",

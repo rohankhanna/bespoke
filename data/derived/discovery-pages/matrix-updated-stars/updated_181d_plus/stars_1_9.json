@@ -3,7 +3,7 @@
     "components": 5576,
     "concepts": 2008,
     "observations": 2011,
-    "repos": 1412,
+    "repos": 1413,
     "terms": 2004
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -1317,6 +1317,7 @@
     "tfsec/tfsec-example-project",
     "thalesgelinger/toon.nvim",
     "therealharpaljadeja/socialconnect_rn_demo",
+    "TheTechnobear/EraeTouchLite",
     "thomaseizinger/rust-jsonrpc-client",
     "TianxingChen/RoboTwin",
     "tidwall/gjson-benchmarks",

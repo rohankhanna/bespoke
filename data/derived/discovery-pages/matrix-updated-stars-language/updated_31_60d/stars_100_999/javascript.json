@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2798,
-    "concepts": 618,
-    "observations": 627,
-    "repos": 121,
-    "terms": 631
+    "components": 2733,
+    "concepts": 599,
+    "observations": 608,
+    "repos": 114,
+    "terms": 594
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -20,7 +20,6 @@
     "AdguardTeam/HostlistCompiler",
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
-    "agent-sh/agentsys",
     "americanexpress/jest-json-schema",
     "anonrig/fast-querystring",
     "apache/incubator-seata-website",
@@ -49,15 +48,12 @@
     "dequelabs/axe-core-npm",
     "dperini/nwsapi",
     "dydxprotocol/v4-clients",
-    "eladnava/pikud-haoref-api",
     "electerm/electerm-web",
-    "electron/node-abi",
     "ember-cli/ember-cli-update",
     "emberjs/ember-qunit",
     "emberjs/ember-test-helpers",
     "eslint-community/eslint-plugin-n",
     "evenchange4/graphql.macro",
-    "fabmax/physx-js-webidl",
     "facebook/Rapid",
     "fastify/fastify-autoload",
     "firebase/snippets-web",
@@ -97,7 +93,6 @@
     "mozilla/addons-linter",
     "neostandard/neostandard",
     "nodejs/admin",
-    "nodejs/TSC",
     "octokit/graphql-schema",
     "OffchainLabs/arbitrum-docs",
     "openfl/lime",
@@ -118,7 +113,6 @@
     "semantic-release/commit-analyzer",
     "semantic-release/github",
     "semantic-release/npm",
-    "sethgammon/citadel",
     "speced/respec",
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",
@@ -130,7 +124,6 @@
     "usnistgov/h5wasm",
     "validator/grunt-html",
     "vllm-project/recipes",
-    "w3c/trusted-types",
     "w3c/webref",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",

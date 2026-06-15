@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 525,
-    "concepts": 366,
-    "observations": 368,
-    "repos": 76,
-    "terms": 363
+    "components": 499,
+    "concepts": 353,
+    "observations": 354,
+    "repos": 72,
+    "terms": 350
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -35,7 +35,6 @@
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
-    "cmdjulian/mopy",
     "coder/coder-logstream-kube",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
@@ -61,8 +60,6 @@
     "gookit/rux",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
-    "hashicorp/hcp-sdk-go",
-    "Infisical/go-sdk",
     "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
     "Kong/kong-operator",
@@ -73,7 +70,6 @@
     "magodo/aztft",
     "MicahParks/jwkset",
     "minio/pkg",
-    "MShekow/directory-checksum",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
     "openshift/kubernetes",

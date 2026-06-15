@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 283,
-    "concepts": 365,
-    "observations": 366,
-    "repos": 43,
-    "terms": 363
+    "components": 266,
+    "concepts": 354,
+    "observations": 355,
+    "repos": 41,
+    "terms": 352
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -28,7 +28,6 @@
     "GalTransl/GalTransl",
     "google-deepmind/dm-haiku",
     "google-deepmind/optax",
-    "google/budoux",
     "harbor-framework/harbor",
     "hgmzhn/manga-translator-ui",
     "huggingface/finetrainers",
@@ -54,7 +53,6 @@
     "safetensors/safetensors",
     "speaches-ai/speaches",
     "strob/gentle",
-    "zai-org/GLM-V",
     "zhiyiYo/PyQt-Fluent-Widgets",
     "zyddnys/manga-image-translator"
   ]

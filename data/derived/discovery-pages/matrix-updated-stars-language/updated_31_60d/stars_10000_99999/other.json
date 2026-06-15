@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2064,
-    "concepts": 1461,
-    "observations": 1467,
-    "repos": 145,
-    "terms": 1456
+    "components": 2066,
+    "concepts": 1471,
+    "observations": 1477,
+    "repos": 144,
+    "terms": 1466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -68,7 +68,6 @@
     "golang-standards/project-layout",
     "google-deepmind/deepmind-research",
     "google-gemini/cookbook",
-    "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google-research/google-research",
     "google/fonts",
     "google/material-design-lite",
@@ -87,6 +86,7 @@
     "jaywcjlove/linux-command",
     "jekyll/jekyll",
     "jellyfin/jellyfin",
+    "JetBrains/compose-multiplatform",
     "JetBrains/kotlin",
     "jgm/pandoc",
     "jordansissel/fpm",
@@ -153,7 +153,6 @@
     "tc39/ecma262",
     "teamcapybara/capybara",
     "tiann/KernelSU",
-    "tmuxinator/tmuxinator",
     "topjohnwu/Magisk",
     "vim-airline/vim-airline",
     "vim/vim",

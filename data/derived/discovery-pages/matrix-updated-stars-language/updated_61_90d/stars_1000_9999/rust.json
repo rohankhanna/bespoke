@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 404,
-    "concepts": 312,
-    "observations": 319,
-    "repos": 61,
-    "terms": 310
+    "components": 448,
+    "concepts": 341,
+    "observations": 347,
+    "repos": 67,
+    "terms": 339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-14T08:02:42.052624+00:00",
+  "generated_at": "2026-06-15T06:21:41.796006+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -20,20 +20,22 @@
     "BurntSushi/quickcheck",
     "bvaisvil/zenith",
     "bytedance/monoio",
+    "Canop/bacon",
     "cberner/fuser",
     "chronotope/chrono",
     "crossterm-rs/crossterm",
     "David-OConnor/pyflow",
+    "dimforge/rapier",
     "dtolnay/anyhow",
     "dtolnay/quote",
     "dtolnay/thiserror",
+    "EmbarkStudios/cargo-deny",
     "emilk/eframe_template",
     "enigo-rs/enigo",
     "EricLBuehler/mistral.rs",
     "extism/extism",
     "eyre-rs/eyre",
     "ggez/ggez",
-    "google/argh",
     "google/tarpc",
     "GuillaumeGomez/sysinfo",
     "gyscos/cursive",
@@ -41,6 +43,7 @@
     "hyperium/http",
     "hyperledger-solang/solang",
     "jonhoo/inferno",
+    "jsr-io/jsr",
     "Keats/tera",
     "la10736/rstest",
     "LaurentMazare/tch-rs",
@@ -72,7 +75,10 @@
     "spacejam/sled",
     "tauri-apps/cargo-mobile2",
     "tauri-apps/wry",
+    "testcontainers/testcontainers-rs",
     "tokio-rs/console",
+    "tokio-rs/mini-redis",
+    "uuid-rs/uuid",
     "visioncortex/vtracer",
     "WebAssembly/WASI"
   ]
