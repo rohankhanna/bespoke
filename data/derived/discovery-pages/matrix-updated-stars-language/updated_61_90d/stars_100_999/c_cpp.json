@@ -3,7 +3,7 @@
     "components": 372,
     "concepts": 564,
     "observations": 567,
-    "repos": 106,
+    "repos": 108,
     "terms": 558
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
@@ -35,6 +35,7 @@
     "CrystallineCore/Biscuit",
     "DavidKinder/Windows-Frotz",
     "dloebl/cgif",
+    "DolbyLaboratories/dlb_mp4base",
     "eclipse-cyclonedds/cyclonedds-cxx",
     "eddelbuettel/rcppsimdjson",
     "elixir-sqlite/exqlite",
@@ -47,6 +48,7 @@
     "gbionics/idyntree",
     "ghostty-org/ghostling",
     "GNOME/gnome-terminal",
+    "GNOME/vte",
     "google/perf_data_converter",
     "haxenme/nme",
     "heal-research/operon",

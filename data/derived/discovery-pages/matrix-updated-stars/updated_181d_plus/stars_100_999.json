@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15917,
-    "concepts": 14459,
-    "observations": 14487,
-    "repos": 4716,
-    "terms": 14231
+    "components": 15920,
+    "concepts": 14468,
+    "observations": 14496,
+    "repos": 4719,
+    "terms": 14240
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -394,6 +394,7 @@
     "apache/dubbo-python",
     "apache/dubbo-rust",
     "apache/incubator-tuweni",
+    "apache/rocketmq-client-python",
     "apache/xerces-c",
     "api7/wasm-nginx-module",
     "APIDevTools/swagger-cli",
@@ -3221,6 +3222,7 @@
     "mukel/llama2.java",
     "mulanai/MuLan",
     "multi-agent-systems-failure-taxonomy/MAST",
+    "multi-swe-bench/multi-swe-bench",
     "multiarch/crossbuild",
     "multiformats/cid",
     "multiformats/js-multihash",
@@ -3825,6 +3827,7 @@
     "Rongjiehuang/GenerSpeech",
     "Rongjiehuang/ProDiff",
     "rootless-containers/bypass4netns",
+    "rootless-containers/usernetes",
     "ropensci/tabulapdf",
     "rosetta-rs/template-benchmarks-rs",
     "rosinality/denoising-diffusion-pytorch",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49447,
-    "concepts": 35271,
-    "observations": 35337,
-    "repos": 12701,
-    "terms": 34822
+    "components": 49450,
+    "concepts": 35280,
+    "observations": 35346,
+    "repos": 12705,
+    "terms": 34831
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -1110,6 +1110,7 @@
     "apache/netbeans-antora-wiki",
     "apache/netbeans-mavenutils-archetypes",
     "apache/pulsar-adapters",
+    "apache/rocketmq-client-python",
     "apache/rocketmq-externals",
     "apache/sling-org-apache-sling-feature-modelconverter",
     "apache/xerces-c",
@@ -2942,6 +2943,7 @@
     "company-mode/company-quickhelp",
     "company-mode/company-statistics",
     "compio-rs/compio-logo",
+    "Computer-use-agents/GUI-Docker-Env",
     "Computer-Vision-in-the-Wild/CVinW_Readings",
     "CompVis/latent-diffusion",
     "CompVis/stable-diffusion",
@@ -8687,6 +8689,7 @@
     "mulanai/MuLan",
     "multi-agent-systems-failure-taxonomy/MAST",
     "Multi-Singer/Multi-Singer.github.io",
+    "multi-swe-bench/multi-swe-bench",
     "multiarch/crossbuild",
     "multiarch/qemu-user-static",
     "multiformats/cid",
@@ -10350,6 +10353,7 @@
     "Rongjiehuang/ProDiff",
     "ronmamo/reflections",
     "rootless-containers/bypass4netns",
+    "rootless-containers/usernetes",
     "ropensci/software-review-meta",
     "ropensci/tabulapdf",
     "rose-pine/.github",

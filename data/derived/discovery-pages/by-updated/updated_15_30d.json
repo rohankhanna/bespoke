@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 6518,
-    "concepts": 3238,
-    "observations": 3254,
-    "repos": 392,
-    "terms": 3227
+    "components": 6512,
+    "concepts": 3237,
+    "observations": 3253,
+    "repos": 391,
+    "terms": 3226
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -102,7 +102,6 @@
     "donut-party/endpoint-test",
     "dotnet/reactive",
     "dotnet/Silk.NET",
-    "drmingdrmer/databend-meta",
     "dwyl/mvp",
     "dwyl/quotes",
     "ebullient/obsidian-admonition",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2075,
-    "concepts": 1963,
-    "observations": 1970,
-    "repos": 346,
-    "terms": 1970
+    "components": 2063,
+    "concepts": 1955,
+    "observations": 1962,
+    "repos": 343,
+    "terms": 1962
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aboutcode-org/scancode.io",
@@ -81,7 +81,6 @@
     "bytedance/Valley",
     "C2SP/C2SP",
     "callowayproject/bump-my-version",
-    "camel-ai/loong",
     "capitalone/datacompy",
     "carla-simulator/scenario_runner",
     "casperdcl/git-fame",
@@ -196,7 +195,6 @@
     "jawah/charset_normalizer",
     "jezweb/claude-skills",
     "jolibrain/joliGEN",
-    "joonson/syncnet_python",
     "jquast/wcwidth",
     "json-schema-org/JSON-Schema-Test-Suite",
     "justinfx/fileseq",
@@ -234,7 +232,6 @@
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons-server",
     "mujocolab/mjviser",
-    "multiformats/multicodec",
     "naver/kapture",
     "neggles/animatediff-cli",
     "neo4j-examples/movies-python-bolt",

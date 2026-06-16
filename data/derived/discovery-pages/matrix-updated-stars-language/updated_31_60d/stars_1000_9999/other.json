@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3720,
-    "concepts": 3259,
-    "observations": 3276,
-    "repos": 431,
-    "terms": 3247
+    "components": 3698,
+    "concepts": 3242,
+    "observations": 3259,
+    "repos": 427,
+    "terms": 3230
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -119,7 +119,6 @@
     "danmayer/coverband",
     "dart-lang/pub",
     "dart-lang/site-www",
-    "dashbitco/broadway",
     "DavHau/nix-portable",
     "day8/re-frame",
     "dcloudio/hello-uniapp",
@@ -188,7 +187,6 @@
     "godotengine/godot-demo-projects",
     "godotengine/godot-docs",
     "godotengine/tps-demo",
-    "goharbor/harbor-helm",
     "gohugoio/hugoDocs",
     "golang/proposal",
     "google/flax",
@@ -241,7 +239,6 @@
     "JuliaPy/PythonCall.jl",
     "JuliaSymbolics/Symbolics.jl",
     "jump-dev/JuMP.jl",
-    "junegunn/seoul256.vim",
     "just-the-docs/just-the-docs",
     "justinmk/vim-dirvish",
     "k2-fsa/k2",
@@ -317,7 +314,6 @@
     "nvim-flutter/flutter-tools.nvim",
     "nvim-lualine/lualine.nvim",
     "nvim-mini/mini.nvim",
-    "nvim-neo-tree/neo-tree.nvim",
     "nvim-neotest/neotest",
     "nvim-tree/nvim-tree.lua",
     "nvimdev/lspsaga.nvim",

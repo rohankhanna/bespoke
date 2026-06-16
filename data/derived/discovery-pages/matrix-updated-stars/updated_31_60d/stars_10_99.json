@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8997,
-    "concepts": 4345,
-    "observations": 4365,
-    "repos": 969,
-    "terms": 4373
+    "components": 8971,
+    "concepts": 4329,
+    "observations": 4349,
+    "repos": 966,
+    "terms": 4357
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -67,7 +67,6 @@
     "All-Hands-AI/OpenHands-Cloud",
     "allenai/cached_path",
     "allenai/scirepeval",
-    "allenreder/cliproxyapi-quota-inspector",
     "almogdepaz/wolfpack",
     "alphagov/govuk-rfcs",
     "alphagov/govuk_publishing_components",
@@ -480,7 +479,6 @@
     "HKU-BAL/ClairS-TO",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
-    "Homebrew/.github",
     "hpkewg/hpke-pq",
     "hudochenkov/postcss-styled-syntax",
     "Humans-of-Julia/Bibliography.jl",
@@ -686,7 +684,6 @@
     "nodenv/nodenv-package-rehash",
     "notofonts/notobuilder",
     "npm/package-json",
-    "npm/types",
     "NullVoxPopuli/ember-deep-tracked",
     "NVIDIA/DALI_extra",
     "NVIDIA/multi-storage-client",

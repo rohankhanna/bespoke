@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 799,
-    "concepts": 952,
-    "observations": 959,
-    "repos": 205,
-    "terms": 952
+    "components": 811,
+    "concepts": 960,
+    "observations": 967,
+    "repos": 208,
+    "terms": 960
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -53,6 +53,7 @@
     "bmad-code-org/bmad-builder",
     "brainglobe/brainrender",
     "bxlab/bx-python",
+    "camel-ai/loong",
     "carla-simulator/ros-bridge",
     "CatharsisFonts/Ysabeau",
     "celery/billiard",
@@ -114,6 +115,7 @@
     "iterative/shtab",
     "Jasonzzt/ComfyUI-CacheDiT",
     "jimporter/mike",
+    "joonson/syncnet_python",
     "Joshuaalbert/jaxns",
     "jpmml/sklearn2pmml",
     "JUNJIE99/MLVU",
@@ -157,6 +159,7 @@
     "mosaicml/diffusion",
     "mosecorg/mosec",
     "mtkennerly/dunamai",
+    "multiformats/multicodec",
     "nanoporetech/medaka",
     "neavo/KeywordGacha",
     "nicklashansen/dreamer4",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 778,
-    "concepts": 1084,
-    "observations": 1084,
-    "repos": 166,
-    "terms": 1081
+    "components": 780,
+    "concepts": 1093,
+    "observations": 1093,
+    "repos": 168,
+    "terms": 1090
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -29,6 +29,7 @@
     "bentoml/BentoML",
     "bpython/bpython",
     "butaixianran/Stable-Diffusion-Webui-Civitai-Helper",
+    "camel-ai/oasis",
     "camelot-dev/camelot",
     "caronc/apprise-api",
     "chaofengc/IQA-PyTorch",
@@ -54,6 +55,7 @@
     "dolfies/discord.py-self",
     "drivendataorg/cookiecutter-data-science",
     "EleutherAI/gpt-neox",
+    "EmergenceAI/Agent-E",
     "explosion/spacy-models",
     "facebookincubator/AITemplate",
     "facebookresearch/mmf",

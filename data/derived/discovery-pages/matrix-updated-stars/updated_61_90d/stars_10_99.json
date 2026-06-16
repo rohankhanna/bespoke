@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3958,
-    "concepts": 2132,
-    "observations": 2140,
-    "repos": 575,
-    "terms": 2142
+    "components": 3984,
+    "concepts": 2148,
+    "observations": 2156,
+    "repos": 578,
+    "terms": 2158
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -60,6 +60,7 @@
     "all-the-noises/eval-arena",
     "allenai/beaker-gantry",
     "allenporter/python-google-nest-sdm",
+    "allenreder/cliproxyapi-quota-inspector",
     "aloncarmel/supermeskill",
     "alvistack/ansible-role-crun",
     "am-kantox/md",
@@ -323,6 +324,7 @@
     "hipster-labs/jhipster-daily-builds",
     "HKU-BAL/Clair3-RNA",
     "holochain/kangaroo-electron",
+    "Homebrew/.github",
     "hpcaitech/public_assets",
     "hsliuustc0106/vllm-omni-skills",
     "huangguang1999/ccstatusline-zh",
@@ -461,6 +463,7 @@
     "notomo/vusted",
     "nousresearch/tinker-atropos",
     "npm/json-parse-even-better-errors",
+    "npm/types",
     "nrwl/nx-ai-agents-config",
     "Nsidorenco/neotest-vstest",
     "nvictus/pybbi",

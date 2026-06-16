@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 735,
-    "concepts": 252,
-    "observations": 252,
-    "repos": 61,
-    "terms": 245
+    "components": 751,
+    "concepts": 261,
+    "observations": 261,
+    "repos": 62,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
@@ -64,6 +64,7 @@
     "neverendingqs/serverless-dotenv-example",
     "nodejs/email",
     "npm/json-parse-even-better-errors",
+    "npm/types",
     "nrwl/nx-ai-agents-config",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",

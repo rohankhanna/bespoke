@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 33,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 25,
-    "terms": 35
+    "concepts": 40,
+    "observations": 40,
+    "repos": 26,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
+    "acevif/swiftformat-nix",
     "ashton/neotest-gleam-unitest",
     "atsushieno/homebrew-oss",
     "b2agi/exist-is-charter_kr",

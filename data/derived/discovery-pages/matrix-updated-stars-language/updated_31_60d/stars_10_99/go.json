@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 490,
-    "concepts": 343,
-    "observations": 344,
-    "repos": 69,
-    "terms": 341
+    "concepts": 339,
+    "observations": 340,
+    "repos": 68,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
-    "allenreder/cliproxyapi-quota-inspector",
     "ankitpokhrel/shopctl",
     "apache/datasketches-go",
     "appleboy/drone-lambda",

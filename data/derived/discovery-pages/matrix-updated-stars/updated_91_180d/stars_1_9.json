@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1008,
-    "concepts": 611,
-    "observations": 612,
+    "components": 1040,
+    "concepts": 617,
+    "observations": 618,
     "repos": 269,
-    "terms": 615
+    "terms": 621
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -94,7 +94,6 @@
     "codeGROOVE-dev/retry",
     "coderaiser/escover",
     "cognizant-ai-lab/neuro-san-cc",
-    "Computer-use-agents/GUI-Docker-Env",
     "conda-forge/cupy-feedstock",
     "conda-forge/modin-feedstock",
     "Coral-Protocol/coral-rs",
@@ -192,6 +191,7 @@
     "lxsmnsyc/sponsors",
     "MarcCote/TextWorld",
     "marxin/mdbook-linkcheck2",
+    "maxritter/pilot-shell-demo",
     "Melandel/workflow",
     "Mercury13/utranslator",
     "mjvolk3/torchcell",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 154,
-    "observations": 155,
-    "repos": 33,
-    "terms": 153
+    "components": 58,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 32,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -43,7 +43,6 @@
     "omerxx/tmux-floax",
     "pyenv/pyenv-update",
     "romkatv/zsh-bench",
-    "rootless-containers/usernetes",
     "squeaky-pl/portable-pypy",
     "tensorflow/build",
     "wenet-e2e/WenetSpeech"

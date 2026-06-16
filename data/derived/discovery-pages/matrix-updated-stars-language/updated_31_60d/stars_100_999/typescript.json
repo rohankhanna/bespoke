@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6071,
-    "concepts": 1272,
-    "observations": 1274,
-    "repos": 183,
-    "terms": 1293
+    "components": 6058,
+    "concepts": 1265,
+    "observations": 1267,
+    "repos": 182,
+    "terms": 1286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
@@ -57,7 +57,6 @@
     "decentralized-identity/did-jwt",
     "decentralized-identity/did-resolver",
     "DeterminateSystems/nix-installer-action",
-    "devcontainers/ci",
     "docker/bake-action",
     "docker/setup-qemu-action",
     "dydxprotocol/v4-web",

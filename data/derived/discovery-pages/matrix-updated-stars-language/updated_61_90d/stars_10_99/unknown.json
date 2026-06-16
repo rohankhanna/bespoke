@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 35,
-    "terms": 62
+    "components": 41,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 36,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -35,6 +35,7 @@
     "GDevelopApp/GDevelop-community-list",
     "getsentry/.github",
     "grpc/grpc-community",
+    "Homebrew/.github",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
     "ithiria894/awesome-claude-code-hooks",

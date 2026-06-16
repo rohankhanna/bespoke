@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 301,
-    "observations": 302,
-    "repos": 46,
-    "terms": 301
+    "components": 267,
+    "concepts": 315,
+    "observations": 316,
+    "repos": 47,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -58,6 +58,7 @@
     "opencontainers/runtime-tools",
     "phodal/coca",
     "proxy-wasm/proxy-wasm-go-sdk",
+    "secretflow/scql",
     "slinso/goTemplateBenchmark",
     "withastro/compiler"
   ]

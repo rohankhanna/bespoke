@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2234,
-    "concepts": 489,
-    "observations": 489,
-    "repos": 90,
-    "terms": 521
+    "components": 2247,
+    "concepts": 496,
+    "observations": 496,
+    "repos": 91,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "AbianS/docker-db-manager",
@@ -43,6 +43,7 @@
     "curiousdannii/parchment",
     "cztomsik/ava",
     "daeh/zotero-citation-tally",
+    "devcontainers/ci",
     "dezoito/ollama-grid-search",
     "elm-tooling/elm-language-client-vscode",
     "elm-tooling/elm-language-server",

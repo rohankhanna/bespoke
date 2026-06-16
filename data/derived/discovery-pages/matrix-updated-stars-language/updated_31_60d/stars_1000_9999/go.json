@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2088,
-    "concepts": 2062,
-    "observations": 2072,
-    "repos": 219,
-    "terms": 2063
+    "components": 2078,
+    "concepts": 2053,
+    "observations": 2063,
+    "repos": 218,
+    "terms": 2054
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -29,7 +29,6 @@
     "apache/dubbo-go",
     "apache/incubator-devlake",
     "apache/incubator-seata-go",
-    "apptainer/apptainer",
     "aquasecurity/trivy-operator",
     "argoproj-labs/argocd-image-updater",
     "argoproj/argo-events",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3386,
-    "concepts": 1640,
-    "observations": 1646,
-    "repos": 237,
-    "terms": 1622
+    "components": 3473,
+    "concepts": 1675,
+    "observations": 1681,
+    "repos": 241,
+    "terms": 1657
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -45,6 +45,7 @@
     "be5invis/Sarasa-Gothic",
     "bellard/quickjs",
     "bvaughn/react-window",
+    "camel-ai/owl",
     "casey/just",
     "catppuccin/catppuccin",
     "charmbracelet/bubbletea",
@@ -70,6 +71,7 @@
     "deepseek-ai/FlashMLA",
     "delgan/loguru",
     "devicons/devicon",
+    "diesel-rs/diesel",
     "direnv/direnv",
     "dockur/windows",
     "dottxt-ai/outlines",
@@ -130,6 +132,7 @@
     "JamesNK/Newtonsoft.Json",
     "jashkenas/underscore",
     "jedisct1/libsodium",
+    "Jguer/yay",
     "josdejong/jsoneditor",
     "josdejong/mathjs",
     "jquery/jquery-ui",
@@ -239,6 +242,7 @@
     "tsl0922/ttyd",
     "typicode/husky",
     "typicode/json-server",
+    "vadimdemedes/ink",
     "vega/vega",
     "vercel-labs/agent-skills",
     "vercel/satori",

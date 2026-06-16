@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 23596,
-    "concepts": 10154,
-    "observations": 10191,
-    "repos": 936,
-    "terms": 10142
+    "components": 23509,
+    "concepts": 10119,
+    "observations": 10156,
+    "repos": 932,
+    "terms": 10107
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -159,7 +159,6 @@
     "caddyserver/caddy",
     "calcom/cal.diy",
     "camel-ai/camel",
-    "camel-ai/owl",
     "cameron314/concurrentqueue",
     "capnproto/capnproto",
     "carla-simulator/carla",
@@ -244,7 +243,6 @@
     "dgraph-io/dgraph",
     "diegomura/react-pdf",
     "diem/diem",
-    "diesel-rs/diesel",
     "discordjs/discord.js",
     "distribution/distribution",
     "django/django",
@@ -472,7 +470,6 @@
     "JetBrains/intellij-community",
     "JetBrains/kotlin",
     "jgm/pandoc",
-    "Jguer/yay",
     "jhipster/generator-jhipster",
     "jj-vcs/jj",
     "joewalnes/websocketd",
@@ -896,7 +893,6 @@
     "urfave/cli",
     "v2fly/v2ray-core",
     "v8/v8",
-    "vadimdemedes/ink",
     "validatorjs/validator.js",
     "valyala/fasthttp",
     "vectordotdev/vector",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 680,
-    "concepts": 674,
-    "observations": 675,
-    "repos": 103,
-    "terms": 666
+    "components": 690,
+    "concepts": 683,
+    "observations": 684,
+    "repos": 104,
+    "terms": 675
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
     "appleboy/gorush",
+    "apptainer/apptainer",
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "arl/statsviz",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 409,
-    "concepts": 499,
-    "observations": 505,
-    "repos": 88,
-    "terms": 498
+    "components": 410,
+    "concepts": 516,
+    "observations": 522,
+    "repos": 89,
+    "terms": 515
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -48,6 +48,7 @@
     "h2o/picohttpparser",
     "hufrea/byedpi",
     "intel/isa-l",
+    "jolibrain/deepdetect",
     "KhronosGroup/MoltenVK",
     "lh3/minimap2",
     "libbpf/libbpf",

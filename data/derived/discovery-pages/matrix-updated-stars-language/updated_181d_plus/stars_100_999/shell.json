@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 226,
-    "observations": 228,
-    "repos": 95,
-    "terms": 217
+    "components": 78,
+    "concepts": 234,
+    "observations": 236,
+    "repos": 96,
+    "terms": 225
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
@@ -90,6 +90,7 @@
     "rbenv/rbenv-gem-rehash",
     "rbenv/rbenv-installer",
     "romkatv/zsh-defer",
+    "rootless-containers/usernetes",
     "SanderKnape/github-runner",
     "satbyy/go-noto-universal",
     "sentriz/fish-pipenv",

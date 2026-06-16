@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1120,
-    "concepts": 265,
-    "observations": 267,
-    "repos": 70,
-    "terms": 272
+    "components": 1104,
+    "concepts": 256,
+    "observations": 258,
+    "repos": 69,
+    "terms": 263
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -61,7 +61,6 @@
     "newrelic/newrelic-node-examples",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
-    "npm/types",
     "oclif/oclif.github.io",
     "octokit/app-permissions",
     "octokit/create-octokit-project.js",

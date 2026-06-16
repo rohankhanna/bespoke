@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3263,
-    "concepts": 3608,
-    "observations": 3621,
-    "repos": 418,
-    "terms": 3593
+    "components": 3261,
+    "concepts": 3599,
+    "observations": 3612,
+    "repos": 416,
+    "terms": 3584
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -86,7 +86,6 @@
     "bridgecrewio/checkov",
     "buffer/thug",
     "buildbot/buildbot",
-    "camel-ai/oasis",
     "castorini/pyserini",
     "celery/kombu",
     "chaiNNer-org/chaiNNer",
@@ -114,7 +113,6 @@
     "dstackai/dstack",
     "eliben/pyelftools",
     "embeddings-benchmark/mteb",
-    "EmergenceAI/Agent-E",
     "emissary-ingress/emissary",
     "emscripten-core/emsdk",
     "enjoy-digital/litex",

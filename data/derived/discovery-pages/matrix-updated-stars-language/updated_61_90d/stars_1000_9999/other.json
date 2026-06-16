@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1031,
-    "concepts": 1183,
-    "observations": 1193,
-    "repos": 188,
-    "terms": 1177
+    "components": 1053,
+    "concepts": 1200,
+    "observations": 1210,
+    "repos": 192,
+    "terms": 1194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -59,6 +59,7 @@
     "ctrlpvim/ctrlp.vim",
     "dakrone/cheshire",
     "dart-lang/http",
+    "dashbitco/broadway",
     "DavBfr/dart_pdf",
     "deivid-rodriguez/pry-byebug",
     "Denys88/rl_games",
@@ -86,6 +87,7 @@
     "ggandor/leap.nvim",
     "ggml-org/llama.vim",
     "gjtorikian/html-proofer",
+    "goharbor/harbor-helm",
     "google-deepmind/tapnet",
     "google/brax",
     "google/jsonnet",
@@ -112,6 +114,7 @@
     "jpsim/Yams",
     "JuliaDocs/Franklin.jl",
     "JuliaPlots/Plots.jl",
+    "junegunn/seoul256.vim",
     "kepano/obsidian-minimal",
     "KhronosGroup/glTF",
     "L3MON4D3/LuaSnip",
@@ -143,6 +146,7 @@
     "nmattia/niv",
     "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
+    "nvim-neo-tree/neo-tree.nvim",
     "nvim-neorg/neorg",
     "nvim-treesitter/nvim-treesitter-textobjects",
     "nvimdev/dashboard-nvim",

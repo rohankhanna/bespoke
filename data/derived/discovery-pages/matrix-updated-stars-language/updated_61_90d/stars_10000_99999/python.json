@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 470,
-    "concepts": 419,
-    "observations": 422,
-    "repos": 64,
-    "terms": 422
+    "components": 478,
+    "concepts": 425,
+    "observations": 428,
+    "repos": 65,
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "3b1b/videos",
@@ -22,6 +22,7 @@
     "alirezarezvani/claude-skills",
     "allenai/olmocr",
     "assafelovic/gpt-researcher",
+    "camel-ai/owl",
     "chriskiehl/Gooey",
     "codelucas/newspaper",
     "cookiecutter/cookiecutter",

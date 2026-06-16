@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5646,
-    "concepts": 3645,
-    "observations": 3656,
-    "repos": 913,
-    "terms": 3627
+    "components": 5656,
+    "concepts": 3650,
+    "observations": 3661,
+    "repos": 911,
+    "terms": 3632
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -83,7 +83,6 @@
     "Antonboom/testifylint",
     "antosha417/nvim-lsp-file-operations",
     "apache/rocketmq-client-cpp",
-    "apache/rocketmq-client-python",
     "apache/seatunnel-web",
     "apollographql/supergraph-demo",
     "apollographql/supergraph-demo-fed2",
@@ -599,7 +598,6 @@
     "mr-fatalyst/fastopenapi",
     "MSxDOS/ntapi",
     "mtkennerly/poetry-dynamic-versioning",
-    "multi-swe-bench/multi-swe-bench",
     "multiformats/go-multiaddr",
     "multiformats/js-multiformats",
     "multiformats/multihash",
@@ -733,7 +731,6 @@
     "romkatv/zsh-bench",
     "ronaldoussoren/py2app",
     "ronaldoussoren/pyobjc",
-    "rootless-containers/usernetes",
     "ropensci/git2r",
     "ros/urdf_parser_py",
     "RT-DETRs/RT-DETRv4",
@@ -768,6 +765,7 @@
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "seattlerb/ruby_parser",
+    "secretflow/scql",
     "securefederatedai/openfederatedlearning",
     "ServiceNow/AgentLab",
     "servo/rust-cssparser",

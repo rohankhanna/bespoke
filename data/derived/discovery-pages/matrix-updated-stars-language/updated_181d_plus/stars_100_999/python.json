@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1290,
-    "concepts": 5742,
-    "observations": 5747,
-    "repos": 1910,
-    "terms": 5574
+    "concepts": 5743,
+    "observations": 5748,
+    "repos": 1912,
+    "terms": 5575
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "generated_at": "2026-06-16T08:32:32.833203+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -180,6 +180,7 @@
     "aorwall/SWE-bench-docker",
     "apache/datafusion-ray",
     "apache/dubbo-python",
+    "apache/rocketmq-client-python",
     "appl-team/appl",
     "apple/ARKitScenes",
     "apple/ml-cross-entropy",
@@ -1291,6 +1292,7 @@
     "msmsajjadi/precision-recall-distributions",
     "mulanai/MuLan",
     "multi-agent-systems-failure-taxonomy/MAST",
+    "multi-swe-bench/multi-swe-bench",
     "mv-lab/swin2sr",
     "MVIG-SJTU/AlphAction",
     "mxmlnkn/rapidgzip",
