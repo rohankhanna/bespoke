@@ -3,7 +3,7 @@
     "components": 245,
     "concepts": 328,
     "observations": 330,
-    "repos": 47,
+    "repos": 46,
     "terms": 316
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -30,7 +30,6 @@
     "confluentinc/demo-scene",
     "devcontainers/features",
     "devcontainers/images",
-    "diet103/claude-code-infrastructure-showcase",
     "docker-library/docker",
     "docker-library/docs",
     "docker-library/golang",

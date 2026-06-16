@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1640,
-    "concepts": 326,
-    "observations": 326,
-    "repos": 61,
-    "terms": 325
+    "components": 1726,
+    "concepts": 370,
+    "observations": 370,
+    "repos": 66,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -21,7 +21,9 @@
     "amqp-node/amqplib",
     "anvaka/panzoom",
     "archiverjs/node-archiver",
+    "asciinema/asciinema-player",
     "babel/babel-loader",
+    "bcoe/c8",
     "cerebral/cerebral",
     "codemirror/dev",
     "crossbario/autobahn-js",
@@ -34,7 +36,9 @@
     "facebook/jscodeshift",
     "fengyuanchen/compressorjs",
     "gatsbyjs/gatsby-starter-blog",
+    "gautamkrishnar/blog-post-workflow",
     "gautamkrishnar/motrix-webextension",
+    "google/closure-compiler",
     "GoogleChrome/lighthouse-ci",
     "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
@@ -58,6 +62,7 @@
     "mourner/rbush",
     "nksaraf/vinxi",
     "node-fetch/node-fetch",
+    "npm/node-semver",
     "patorjk/figlet.js",
     "pinojs/pino-pretty",
     "pmndrs/drei",

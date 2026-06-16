@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3045,
-    "concepts": 576,
-    "observations": 580,
-    "repos": 110,
-    "terms": 588
+    "components": 2949,
+    "concepts": 564,
+    "observations": 568,
+    "repos": 107,
+    "terms": 576
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -54,7 +54,6 @@
     "ghostery/broken-page-reports",
     "GoogleCloudPlatform/opentelemetry-demo",
     "grafana/profiles-drilldown",
-    "GreptimeTeam/greptimedb-grafana-datasource",
     "gridatek/semantic-icons",
     "hairyf/genapi",
     "hashintel/labs",
@@ -81,7 +80,6 @@
     "llamastack/llama-stack-client-typescript",
     "maplibre/maplibre-gl-inspect",
     "mcous/vitest-when",
-    "mdjastrzebski/test-renderer",
     "microsoft/Agents-for-js",
     "newrelic/opentelemetry-demo",
     "NullVoxPopuli/ember-deep-tracked",
@@ -114,7 +112,6 @@
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
-    "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
     "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom",

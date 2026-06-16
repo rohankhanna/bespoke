@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 64,
-    "observations": 64,
+    "components": 61,
+    "concepts": 57,
+    "observations": 57,
     "repos": 16,
-    "terms": 77
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "bluesky-social/pds",
     "containers/toolbox",
     "crosstool-ng/crosstool-ng",
     "devcontainers/templates",
+    "diet103/claude-code-infrastructure-showcase",
     "docker-library/wordpress",
     "frankbria/ralph-claude-code",
     "jonmosco/kube-ps1",
-    "lxgw/LxgwWenkaiGB",
     "matryer/xbar-plugins",
     "nvie/git-toolbelt",
     "pgsty/pigsty",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 923,
-    "concepts": 1186,
-    "observations": 1190,
-    "repos": 111,
-    "terms": 1189
+    "components": 910,
+    "concepts": 1167,
+    "observations": 1171,
+    "repos": 108,
+    "terms": 1170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -20,7 +20,6 @@
     "alibaba/MNN",
     "apache/arrow",
     "apache/thrift",
-    "ApolloAuto/apollo",
     "apple/foundationdb",
     "arangodb/arangodb",
     "aseprite/aseprite",
@@ -71,7 +70,6 @@
     "ImageMagick/ImageMagick",
     "Immediate-Mode-UI/Nuklear",
     "iovisor/bcc",
-    "jedisct1/libsodium",
     "jemalloc/jemalloc",
     "jonas/tig",
     "jqlang/jq",
@@ -83,7 +81,6 @@
     "lightgbm-org/LightGBM",
     "LostRuins/koboldcpp",
     "lz4/lz4",
-    "mawww/kakoune",
     "micropython/micropython",
     "microsoft/mimalloc",
     "microsoft/onnxruntime",

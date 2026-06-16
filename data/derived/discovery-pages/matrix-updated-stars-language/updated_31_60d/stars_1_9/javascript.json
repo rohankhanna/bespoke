@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1390,
-    "concepts": 671,
-    "observations": 674,
-    "repos": 63,
-    "terms": 676
+    "components": 1363,
+    "concepts": 657,
+    "observations": 660,
+    "repos": 61,
+    "terms": 662
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
@@ -29,7 +29,6 @@
     "erichlof/Glider-Ball-3D",
     "fontsource/download-stat-aggregator",
     "gauravrathod674/custom-chatbot",
-    "h5wasm/h5wasm-plugins",
     "ibm-telemetry/telemetry-config-schema",
     "ioBroker/plugin-sentry",
     "j9t/compressorjs-next",
@@ -44,7 +43,6 @@
     "maltsev/html-minifiers-benchmark",
     "metosin/open-source",
     "newrelic/csec-node-agent",
-    "poolifier/tatami-ng",
     "recap-utr/arg-services",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 263,
-    "concepts": 278,
-    "observations": 278,
-    "repos": 62,
-    "terms": 277
+    "components": 272,
+    "concepts": 289,
+    "observations": 289,
+    "repos": 63,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "AliaksandrSiarohin/first-order-model",
@@ -40,6 +40,7 @@
     "facebookresearch/fastText",
     "facebookresearch/segment-anything",
     "fivethirtyeight/data",
+    "folke/lazy.nvim",
     "fzaninotto/Faker",
     "h4cc/awesome-elixir",
     "HarisIqbal88/PlotNeuralNet",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 457,
-    "concepts": 896,
-    "observations": 897,
-    "repos": 175,
-    "terms": 883
+    "components": 483,
+    "concepts": 942,
+    "observations": 943,
+    "repos": 179,
+    "terms": 927
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -35,6 +35,7 @@
     "astanin/python-tabulate",
     "baaivision/Emu",
     "baaivision/Emu3",
+    "bambinos/bambi",
     "bazelbuild/starlark",
     "Beckschen/TransUNet",
     "belluzj/fantasque-sans",
@@ -66,6 +67,7 @@
     "django/asgiref",
     "DLYuanGod/TinyGPT-V",
     "dmayboroda/minima",
+    "dynaconf/dynaconf",
     "ekalinin/nodeenv",
     "emilianavt/OpenSeeFace",
     "facebookincubator/submitit",
@@ -112,6 +114,7 @@
     "lyuwenyu/RT-DETR",
     "meta-llama/llama-models",
     "Minqi824/ADBench",
+    "miolini/autoresearch-macos",
     "mjpost/sacrebleu",
     "ModelTC/LightX2V-Qwen-Image-Lightning",
     "mosaicml/streaming",
@@ -130,6 +133,7 @@
     "oils-for-unix/oils",
     "ollama/ollama-python",
     "om-ai-lab/VLM-R1",
+    "open-mmlab/mmaction2",
     "open-mmlab/mmcv",
     "open-mmlab/mmengine",
     "open-webui/mcpo",
@@ -160,6 +164,7 @@
     "remsky/Kokoro-FastAPI",
     "s3prl/s3prl",
     "SafeAILab/EAGLE",
+    "ServiceNow/BrowserGym",
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
@@ -183,7 +188,6 @@
     "WenmuZhou/PytorchOCR",
     "willisma/SiT",
     "yangyanli/PointCNN",
-    "yeyupiaoling/VoiceprintRecognition-Pytorch",
     "YosysHQ/icestorm",
     "Yuliang-Liu/Monkey",
     "yxlllc/DDSP-SVC",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3422,
-    "concepts": 1666,
-    "observations": 1669,
-    "repos": 336,
-    "terms": 1640
+    "components": 3446,
+    "concepts": 1716,
+    "observations": 1719,
+    "repos": 339,
+    "terms": 1690
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -79,6 +79,7 @@
     "codota/TabNine",
     "CompVis/latent-diffusion",
     "CompVis/stable-diffusion",
+    "containrrr/watchtower",
     "coqui-ai/TTS",
     "css-modules/css-modules",
     "cumulo-autumn/StreamDiffusion",
@@ -120,6 +121,7 @@
     "FiloSottile/mkcert",
     "fivethirtyeight/data",
     "flairNLP/flair",
+    "folke/lazy.nvim",
     "fsnotify/fsnotify",
     "fuergaosi233/wechat-chatgpt",
     "fxsjy/jieba",
@@ -261,6 +263,7 @@
     "opencode-ai/opencode",
     "OpenGVLab/InternVL",
     "OpenTalker/SadTalker",
+    "PaddlePaddle/PaddleNLP",
     "pallets/jinja",
     "PanJiaChen/vue-admin-template",
     "PanJiaChen/vue-element-admin",

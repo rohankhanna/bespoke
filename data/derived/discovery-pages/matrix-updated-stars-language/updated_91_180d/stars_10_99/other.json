@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 611,
-    "concepts": 405,
-    "observations": 407,
-    "repos": 159,
-    "terms": 401
+    "components": 616,
+    "concepts": 412,
+    "observations": 414,
+    "repos": 161,
+    "terms": 408
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -117,9 +117,11 @@
     "ligershark/WebOptimizer.Sass",
     "liquidev/lintplus",
     "llvm/clangd-www",
+    "lostromb/concentus.oggfile",
     "lread/test-doc-blocks",
     "lumen-oss/rocks-config.nvim",
     "lumen-oss/rocks-git.nvim",
+    "malewicz1337/oil-git.nvim",
     "mfussenegger/nlua",
     "MichaelHatherly/REPLicant.jl",
     "microsoft/windows-host-process-containers-base-image",

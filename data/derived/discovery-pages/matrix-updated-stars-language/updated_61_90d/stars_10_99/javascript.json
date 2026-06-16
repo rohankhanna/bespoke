@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 724,
-    "concepts": 241,
-    "observations": 241,
-    "repos": 59,
-    "terms": 234
+    "components": 735,
+    "concepts": 252,
+    "observations": 252,
+    "repos": 61,
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
@@ -37,6 +37,7 @@
     "ehmicky/node-version-alias",
     "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
+    "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
     "Fil/d3-tricontour",
     "gatsbyjs/gatsby-starter-minimal",
@@ -48,7 +49,6 @@
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
     "hipster-labs/jhipster-daily-builds",
-    "hudochenkov/stylelint-config-hudochenkov",
     "i18next/i18next-icu",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
@@ -71,7 +71,9 @@
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer",
     "tc39/proposal-iterator-includes",
+    "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
+    "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide"
   ]
 }

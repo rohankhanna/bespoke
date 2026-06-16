@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 16,
-    "terms": 41
+    "components": 44,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 18,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "Aedelon/claude-code-blueprint",
+    "alchemiststudiosDOTai/harness-engineering",
     "cehoffman/lua-build",
     "coin-or/coinbrew",
     "containers/image_build",
@@ -23,6 +24,7 @@
     "graphql/composite-schemas-spec",
     "jawwadfirdousi/agent-skills",
     "Layr-Labs/eigenda-operator-setup",
+    "lxgw/LxgwWenkaiGB-Lite",
     "nfnty/pkgbuilds",
     "nodejs/release-keys",
     "nodenv/nodenv-default-packages",

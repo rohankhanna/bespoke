@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2066,
-    "concepts": 1471,
-    "observations": 1477,
-    "repos": 144,
-    "terms": 1466
+    "components": 2045,
+    "concepts": 1423,
+    "observations": 1428,
+    "repos": 140,
+    "terms": 1419
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -20,7 +20,6 @@
     "adityatelange/hugo-PaperMod",
     "Alamofire/Alamofire",
     "AlDanial/cloc",
-    "alexandresanlim/Badges4-README.md-Profile",
     "alpinejs/alpine",
     "antlr/grammars-v4",
     "apache/apisix",
@@ -29,7 +28,6 @@
     "apple/container",
     "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",
-    "AudioKit/AudioKit",
     "autowarefoundation/autoware",
     "aws/amazon-sagemaker-examples",
     "Azure/azure-quickstart-templates",
@@ -81,8 +79,6 @@
     "Homebrew/homebrew-cask",
     "Homebrew/homebrew-core",
     "IBM/plex",
-    "ImranR98/Obtainium",
-    "isocpp/CppCoreGuidelines",
     "jaywcjlove/linux-command",
     "jekyll/jekyll",
     "jellyfin/jellyfin",

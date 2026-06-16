@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 875,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 48,
-    "terms": 134
+    "components": 883,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 49,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -44,6 +44,7 @@
     "janwilmake/oapis",
     "janwilmake/openapisearch",
     "joliss/node-walk-sync",
+    "klaudworks/ralph-meets-rex",
     "libp2p/github-mgmt",
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",

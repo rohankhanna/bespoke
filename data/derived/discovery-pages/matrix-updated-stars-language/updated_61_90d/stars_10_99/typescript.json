@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1114,
-    "concepts": 171,
-    "observations": 172,
-    "repos": 49,
-    "terms": 191
+    "components": 1202,
+    "concepts": 182,
+    "observations": 183,
+    "repos": 51,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -35,6 +35,7 @@
     "Godefroy/micdrop",
     "googleapis/google-cloud-node-core",
     "gr2m/octokit-oauth-app-now-example",
+    "GreptimeTeam/greptimedb-grafana-datasource",
     "haskell-actions/setup",
     "haskell/ghcup-setup",
     "holochain/kangaroo-electron",
@@ -44,10 +45,10 @@
     "ipfs/ipld-explorer-components",
     "jerseycheese/narraitor",
     "joshwooding/vite-plugin-react-docgen-typescript",
-    "klaudworks/ralph-meets-rex",
     "labring/fastgpt-plugin",
     "literalpie/storybook-framework-qwik",
     "lobehub/lobe-lint",
+    "mdjastrzebski/test-renderer",
     "memoryhole/jjo",
     "microsoft/vscode-js-debug-companion",
     "nanostores/alpine",
@@ -59,6 +60,7 @@
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
+    "Shougo/dpp-ext-installer",
     "solidjs-community/storybook",
     "storybookjs/addon-coverage",
     "TravisTheTechie/vscode-write-good",

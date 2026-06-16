@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 846,
+    "components": 845,
     "concepts": 228,
     "observations": 229,
-    "repos": 47,
+    "repos": 46,
     "terms": 225
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
@@ -36,7 +36,6 @@
     "grpc/grpc-web",
     "guybedford/es-module-lexer",
     "guybedford/es-module-shims",
-    "gwudcap/cc-sessions",
     "huggingface/transformers.js-examples",
     "istanbuljs/nyc",
     "jasongin/nvs",

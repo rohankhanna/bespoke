@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1943,
-    "concepts": 312,
-    "observations": 313,
+    "components": 1970,
+    "concepts": 307,
+    "observations": 308,
     "repos": 66,
-    "terms": 321
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -31,7 +31,6 @@
     "aymenfurter/ralph",
     "bvaughn/react-window-infinite-loader",
     "castwide/vscode-solargraph",
-    "celo-org/celo-composer",
     "cocos/cocos-test-projects",
     "eckardt/cchistory",
     "enisdenjo/graphql-sse",
@@ -68,11 +67,12 @@
     "posthtml/posthtml-parser",
     "priceline/design-system",
     "SassNinja/postcss-extract-media-query",
+    "solidjs/templates",
     "sveltejs/prettier-plugin-svelte",
+    "testing-library/angular-testing-library",
     "tevonsb/homeassistant-mcp",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
-    "uni-helper/uni-network",
     "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",

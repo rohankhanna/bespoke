@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
-    "babashka/homebrew-brew",
     "Bearer/homebrew-tap",
     "charlesnicholson/docker-images",
     "danielrosehill/Failover-Internet-Israel-Notes",
@@ -24,6 +23,7 @@
     "Hitesh-Aggarwal/dotfiles",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "mjvolk3/dendron-template",
+    "musicman3/r2-d2",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",
     "stable-haskell/stack",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2857,
-    "concepts": 637,
-    "observations": 638,
-    "repos": 89,
-    "terms": 669
+    "components": 3108,
+    "concepts": 733,
+    "observations": 734,
+    "repos": 100,
+    "terms": 765
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "abrahamjuliot/creepjs",
     "actions/download-artifact",
@@ -25,6 +25,8 @@
     "antfu/vitesse-nuxt",
     "argos-ci/jest-puppeteer",
     "artsy/README",
+    "av/harbor",
+    "babaohuang/GeminiProChat",
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "ben-rogerson/twin.macro",
@@ -41,6 +43,7 @@
     "emmetio/emmet",
     "enisdenjo/graphql-ws",
     "ethers-io/ethers.js",
+    "firebase/firebase-admin-node",
     "frenic/csstype",
     "gajus/slonik",
     "getsentry/xcodebuildmcp",
@@ -61,7 +64,9 @@
     "Ironclad/rivet",
     "isaacs/node-glob",
     "itgalaxy/favicons",
+    "jaredwray/cacheable",
     "jaredwray/keyv",
+    "josdejong/jsonrepair",
     "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "jupyter-lsp/jupyterlab-lsp",
@@ -82,13 +87,15 @@
     "microsoft/vscode-languageserver-node",
     "Mobile-Artificial-Intelligence/maid",
     "mutoe/vue3-realworld-example-app",
-    "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
+    "ngx-translate/core",
     "oclif/oclif",
+    "onecli/onecli",
     "opactorai/claudable",
     "PAIR-code/lit",
     "peter-evans/repository-dispatch",
     "pillarjs/path-to-regexp",
+    "pixiv/three-vrm",
     "preactjs/signals",
     "redhat-developer/vscode-java",
     "REditorSupport/vscode-R",
@@ -96,12 +103,16 @@
     "sql-formatter-org/sql-formatter",
     "statoscope/statoscope",
     "stephenh/ts-proto",
+    "streamich/memfs",
+    "stripe/ai",
     "TfTHacker/obsidian42-brat",
     "the-guild-org/apollo-angular",
     "thx/resvg-js",
+    "TooTallNate/proxy-agents",
     "TypeStrong/ts-loader",
     "vadimdemedes/pastel",
     "vercel/next-learn",
+    "webgpu/webgpu-samples",
     "xojs/xo"
   ]
 }

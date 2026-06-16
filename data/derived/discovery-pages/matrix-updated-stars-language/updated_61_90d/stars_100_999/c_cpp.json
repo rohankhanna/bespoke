@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 358,
-    "concepts": 554,
-    "observations": 557,
-    "repos": 105,
-    "terms": 549
+    "components": 372,
+    "concepts": 564,
+    "observations": 567,
+    "repos": 106,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
+    "aibasel/downward",
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
     "anacrolix/go-libutp",
@@ -37,8 +38,8 @@
     "eclipse-cyclonedds/cyclonedds-cxx",
     "eddelbuettel/rcppsimdjson",
     "elixir-sqlite/exqlite",
-    "embeddedartistry/libc",
     "eyalz800/zpp_bits",
+    "flavorjones/ruby-c-extensions-explained",
     "freeswitch/sofia-sip",
     "fribidi/fribidi",
     "fujitsu/xbyak_aarch64",
@@ -56,8 +57,9 @@
     "ipsilon/evmc",
     "JokerJohn/Cloud_Map_Evaluation",
     "JokerJohn/MS-Mapping",
+    "JokerJohn/PALoc",
     "jupyter-xeus/xeus",
-    "KhronosGroup/OpenCL-Headers",
+    "jupyter-xeus/xeus-python",
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",
     "lastz/lastz",
@@ -86,7 +88,6 @@
     "nhielost/obs-midi-mg",
     "NiklasRosenstein/pbzx",
     "NiLuJe/FBInk",
-    "NiLuJe/kfmon",
     "nx10/httpgd",
     "objectbox/objectbox-c",
     "osmcode/libosmium",

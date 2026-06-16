@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 109,
-    "observations": 110,
-    "repos": 38,
-    "terms": 102
+    "components": 28,
+    "concepts": 117,
+    "observations": 118,
+    "repos": 40,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "Alex313031/Thorium-Android",
@@ -35,10 +35,12 @@
     "lightning/blips",
     "lintool/guide",
     "lxgw/lxgw",
+    "lxgw/LxgwZhenKai",
     "mapbox/tilejson-spec",
     "microsoft/foss-fund",
     "MiniMax-AI/MiniMax-M2.1",
     "MiniMax-AI/MiniMax-M2.5",
+    "neon-bindings/examples",
     "ntnu-arl/lidar_degeneracy_datasets",
     "oh-my-fish/packages-main",
     "pbatard/UEFI-Shell",

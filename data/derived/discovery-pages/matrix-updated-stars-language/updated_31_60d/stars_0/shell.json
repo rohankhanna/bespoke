@@ -3,7 +3,7 @@
     "components": 23,
     "concepts": 25,
     "observations": 25,
-    "repos": 16,
+    "repos": 15,
     "terms": 25
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "clearml/clearml-agent-bootstrap",
     "conda-forge/blis-feedstock",
@@ -23,7 +23,6 @@
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
-    "danielrosehill/Local-Claude-Plugin-Install-Research",
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",
     "gerardtschanz/revenue-os",

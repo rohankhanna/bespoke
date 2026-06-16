@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 585,
+    "components": 587,
     "concepts": 678,
     "observations": 681,
-    "repos": 131,
+    "repos": 133,
     "terms": 682
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -30,6 +30,7 @@
     "bazelbuild/rules_docker",
     "bbatsov/crux",
     "bbatsov/projectile",
+    "bblimke/webmock",
     "bencodezen/vue-enterprise-boilerplate",
     "black7375/Firefox-UI-Fix",
     "breezedeus/Pix2Text",
@@ -120,6 +121,7 @@
     "rails/spring",
     "rails/tailwindcss-rails",
     "reagent-project/reagent",
+    "rjpcomputing/luaforwindows",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "ruby-i18n/i18n",

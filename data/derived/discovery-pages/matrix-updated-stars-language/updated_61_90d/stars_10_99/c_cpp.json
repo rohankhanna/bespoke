@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 192,
-    "observations": 192,
-    "repos": 42,
-    "terms": 190
+    "components": 187,
+    "concepts": 182,
+    "observations": 182,
+    "repos": 40,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -29,7 +29,6 @@
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
     "embeddedartistry/libcpp",
-    "embeddedartistry/printf",
     "fabmax/PhysX",
     "fcambus/bdf2sfd",
     "flashlight/text",
@@ -50,7 +49,6 @@
     "onicai/llama_cpp_canister",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
-    "RekGRpth/pg_task",
     "ROCm/roctracer",
     "ssiu/flash-attention-turing",
     "theimpossibleastronaut/rmw",

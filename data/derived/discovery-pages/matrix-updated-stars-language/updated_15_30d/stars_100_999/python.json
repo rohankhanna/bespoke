@@ -3,7 +3,7 @@
     "components": 220,
     "concepts": 191,
     "observations": 191,
-    "repos": 36,
+    "repos": 35,
     "terms": 191
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
@@ -45,7 +45,6 @@
     "ShadowLoveElysia/AiNiee-Next",
     "shawn0728/OpenSearch-VL",
     "SublimeText/AFileIcon",
-    "TextArena/TextArena",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1342,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 47,
-    "terms": 231
+    "components": 1390,
+    "concepts": 235,
+    "observations": 235,
+    "repos": 48,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -33,6 +33,7 @@
     "jupyter-widgets/ipyleaflet",
     "metatool-ai/metamcp",
     "msgpack/msgpack-javascript",
+    "Myriad-Dreamin/typst.ts",
     "nat/openplayground",
     "numman-ali/openskills",
     "obsidian-community/obsidian-kanban",

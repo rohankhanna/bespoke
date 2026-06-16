@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 499,
-    "concepts": 353,
-    "observations": 354,
-    "repos": 72,
-    "terms": 350
+    "components": 490,
+    "concepts": 343,
+    "observations": 344,
+    "repos": 69,
+    "terms": 341
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -28,8 +28,6 @@
     "bitrise-io/stepman",
     "blinklabs-io/bluefin",
     "bootmortis/sing-geosite",
-    "celo-org/op-geth",
-    "cloudfoundry/bbs",
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/bpm-release",
     "cloudfoundry/cf-acceptance-tests",
@@ -45,7 +43,6 @@
     "datachainlab/cosmos-ethereum-ibc-lcp",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
-    "depado/smallblog",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
     "dlclark/regexp2cg",

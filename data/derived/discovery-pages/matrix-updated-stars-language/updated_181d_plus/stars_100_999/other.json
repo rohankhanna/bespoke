@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2392,
-    "concepts": 3180,
-    "observations": 3187,
-    "repos": 997,
-    "terms": 3161
+    "components": 2397,
+    "concepts": 3189,
+    "observations": 3196,
+    "repos": 1001,
+    "terms": 3170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -336,6 +336,7 @@
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-docker",
     "emacs-lsp/lsp-java",
+    "emacs-lsp/lsp-treemacs",
     "emacsattic/helm-swoop",
     "emard/ulx3s",
     "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
@@ -537,6 +538,7 @@
     "juxt/yada",
     "JWarmenhoven/DBDA-python",
     "k-takata/minpac",
+    "kaarmu/typst.vim",
     "kana/vim-flavor",
     "kana/vim-vspec",
     "kayru/Probulator",
@@ -700,6 +702,7 @@
     "Netflix/PigPen",
     "nextjournal/beholder",
     "nextjournal/clerk-demo",
+    "nghorbani/human_body_prior",
     "nghorbani/soma",
     "ngrunwald/ring-middleware-format",
     "NigelOToole/direction-reveal",
@@ -981,6 +984,7 @@
     "webview2/EdgeSharp",
     "WICG/file-system-access",
     "WICG/first-party-sets",
+    "WICG/layout-instability",
     "wiktoriavh/Spectrum",
     "wilkerlucio/pathom",
     "wilkerlucio/spec-coerce",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 302,
-    "observations": 303,
-    "repos": 120,
-    "terms": 309
+    "components": 372,
+    "concepts": 312,
+    "observations": 313,
+    "repos": 122,
+    "terms": 319
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -53,6 +53,7 @@
     "Computer-use-agents/dart-gui",
     "corl-team/VL-DAC",
     "cuiziteng/Luminance-GS",
+    "cvat-ai/datumaro",
     "danielward27/paramax",
     "EasternJournalist/pipeline",
     "elm-fluent/elm-fluent",
@@ -103,6 +104,7 @@
     "opea-project/docs",
     "Owen-Liuyuxuan/ros2_vision_inference",
     "pfnet-research/tgan2",
+    "philippemerle/AWS-CloudFormation-Diagrams",
     "philipy1219/ComfyUI-TaylorSeer",
     "rdb/panda3d-thirdparty",
     "ReneHollander/rep0st",

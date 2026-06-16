@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 41,
-    "observations": 42,
-    "repos": 26,
-    "terms": 41
+    "components": 49,
+    "concepts": 40,
+    "observations": 41,
+    "repos": 24,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
-    "alvistack/ansible-role-conmon",
     "causely-oss/otel-demo",
     "cdeust/zetetic-team-subagents",
     "cloudfoundry/wg-app-platform-runtime-ci",
@@ -31,7 +30,6 @@
     "edward3h/docker-bds-integration-test",
     "gazebo-tooling/release-tools",
     "hermit-os/rust-std-hermit",
-    "ihmcrobotics/repository-group",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
     "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",

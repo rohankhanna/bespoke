@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2721,
-    "concepts": 597,
-    "observations": 606,
-    "repos": 113,
-    "terms": 592
+    "components": 2646,
+    "concepts": 573,
+    "observations": 582,
+    "repos": 110,
+    "terms": 568
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
     "adamlui/ai-web-extensions",
-    "AdguardTeam/HostlistCompiler",
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
     "americanexpress/jest-json-schema",
@@ -31,6 +30,7 @@
     "aws/aws-cdk-rfcs",
     "bcomnes/npm-run-all2",
     "Brooooooklyn/snappy",
+    "browserslist/caniuse-lite",
     "browserslist/update-db",
     "Calcium-Ion/new-api-key-tool",
     "carbon-design-system/carbon-components-vue",
@@ -52,7 +52,6 @@
     "ember-cli/ember-cli-update",
     "emberjs/ember-qunit",
     "emberjs/ember-test-helpers",
-    "eslint-community/eslint-plugin-n",
     "evenchange4/graphql.macro",
     "facebook/Rapid",
     "fastify/fastify-autoload",
@@ -63,7 +62,6 @@
     "GoogleCloudPlatform/google-cloud-node-todos",
     "GordonChen19/Prompt-Relay",
     "graphql/graphql-over-http",
-    "graphql/graphql-wg",
     "higlass/higlass",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
@@ -77,7 +75,6 @@
     "jest-community/jest-junit",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
-    "kriszyp/lmdb-js",
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "lis186/ccxray",

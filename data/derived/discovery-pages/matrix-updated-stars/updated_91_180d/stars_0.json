@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 252,
-    "concepts": 135,
-    "observations": 136,
-    "repos": 91,
-    "terms": 134
+    "components": 271,
+    "concepts": 141,
+    "observations": 142,
+    "repos": 93,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -24,7 +24,6 @@
     "all-the-noises/data",
     "appscodelabs/liche",
     "artsy/react-native-launch-arguments",
-    "babashka/homebrew-brew",
     "Bearer/homebrew-tap",
     "bgw/bincode",
     "CADindustries/container",
@@ -66,6 +65,8 @@
     "grafana/cadvisor",
     "guaguastandup/guaguastandup",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
+    "hermit-os/async-executor",
+    "hermit-os/tokio",
     "Hitesh-Aggarwal/dotfiles",
     "iambriccardo/gcp-bigquery-client",
     "jackielii/qmk_firmware",
@@ -79,6 +80,7 @@
     "mjvolk3/dendron-template",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
+    "musicman3/r2-d2",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-country-translations-go",

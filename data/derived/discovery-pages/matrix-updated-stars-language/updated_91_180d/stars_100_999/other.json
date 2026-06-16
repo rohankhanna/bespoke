@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1093,
-    "concepts": 934,
-    "observations": 937,
-    "repos": 242,
-    "terms": 929
+    "components": 1094,
+    "concepts": 929,
+    "observations": 932,
+    "repos": 239,
+    "terms": 924
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -39,6 +39,7 @@
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
     "Azure-Samples/azure-openai-rag-workshop",
+    "Azure-Samples/azureai-samples",
     "Azure-Samples/contoso-creative-writer",
     "Azure/aca-landing-zone-accelerator",
     "Azure/arm-ttk",
@@ -110,7 +111,6 @@
     "ema2159/centaur-tabs",
     "emacs-eldev/eldev",
     "emacs-lsp/lsp-dart",
-    "emacs-lsp/lsp-treemacs",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
     "envato/zxcvbn-ruby",
@@ -156,7 +156,6 @@
     "JuliaML/MLUtils.jl",
     "JuliaPlots/GraphRecipes.jl",
     "k0kubun/hamlit",
-    "kaarmu/typst.vim",
     "kakajun/vue3-sketch-ruler",
     "kevinhwang91/nvim-hlslens",
     "KhronosGroup/glTF-Validator",
@@ -177,7 +176,6 @@
     "microsoft/microsoft-performance-toolkit-sdk",
     "nebula-plugins/nebula-release-plugin",
     "Nek5000/Nek5000",
-    "nghorbani/human_body_prior",
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
     "nvimdev/guard.nvim",
@@ -246,7 +244,6 @@
     "WebAssembly/tool-conventions",
     "whatwg/fs",
     "whatyouhide/stream_data",
-    "WICG/layout-instability",
     "wilkerlucio/pathom3",
     "wjakob/nanobind_example",
     "xbdcc/GrabRedEnvelope",

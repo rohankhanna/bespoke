@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 21,
-    "terms": 43
+    "components": 177,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 22,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "3swordman/tree-sitter-toon",
@@ -30,6 +30,7 @@
     "hchiam/learning-redux",
     "hchiam/react-jexcel-redux",
     "heshengtao/desktop-for-sap",
+    "lucabubi/star-history",
     "lukasz-wronski/Antigravity-Shit-Chat",
     "Qiuner/isometric-contributions-plus",
     "qiuyu96/CoDeF",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 520,
-    "concepts": 951,
-    "observations": 951,
-    "repos": 248,
-    "terms": 943
+    "components": 530,
+    "concepts": 926,
+    "observations": 926,
+    "repos": 245,
+    "terms": 918
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -140,6 +140,7 @@
     "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/audio-dataset",
     "lebrice/SimpleParsing",
+    "lessw2020/Ranger21",
     "liruilong940607/prope",
     "lldacing/ComfyUI_Patches_ll",
     "lucidrains/rotary-embedding-torch",
@@ -167,7 +168,6 @@
     "MyoHub/myo_sim",
     "naver/multi-hmr",
     "NeuralVox/OpenPhonemizer",
-    "nghorbani/body_visualizer",
     "nicklashansen/newt",
     "nii-yamagishilab/project-NN-Pytorch-scripts",
     "NiltonVolpato/python-progressbar",
@@ -186,7 +186,6 @@
     "openvpi/SingingVocoders",
     "Osilly/Vision-DeepResearch",
     "p-doom/jasmine",
-    "Parallel-Reasoning/APR",
     "pinokiofactory/cogstudio",
     "PramaLLC/BEN2",
     "PrithivirajDamodaran/FlashRank",
@@ -212,6 +211,7 @@
     "sayakpaul/diffusers-torchao",
     "scottchiefbaker/dool",
     "securefederatedai/openfederatedlearning",
+    "ServiceNow/AgentLab",
     "ShenhanQian/GaussianAvatars",
     "Shenyi-Z/TaylorSeer",
     "shibing624/similarities",
@@ -226,6 +226,7 @@
     "TEN-framework/ten-turn-detection",
     "TencentCloudADP/youtu-tip",
     "terraform-aws-modules/terraform-aws-notify-slack",
+    "TexasInstruments/edgeai-tidl-tools",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "thu-ml/DiT-Extrapolation",
@@ -250,12 +251,8 @@
     "WujiangXu/A-mem-sys",
     "xArm-Developer/xArm-Python-SDK",
     "xingchensong/S3Tokenizer",
+    "yanring/Megatron-MoE-ModelZoo",
     "yashsinghcodes/wik",
-    "yeyupiaoling/AudioClassification-Pytorch",
-    "yeyupiaoling/MASR",
-    "yeyupiaoling/PaddlePaddle-DeepSpeech",
-    "yeyupiaoling/PPASR",
-    "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
     "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",
     "ZhangXJ199/TinyLLaVA-Video-R1",

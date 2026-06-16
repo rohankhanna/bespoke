@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 174,
-    "observations": 175,
-    "repos": 63,
-    "terms": 174
+    "components": 172,
+    "concepts": 184,
+    "observations": 185,
+    "repos": 65,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -32,6 +32,7 @@
     "DeanoC/tiny_imageformat",
     "eddelbuettel/rcppfastfloat",
     "eliemichel/dawn-prebuilt",
+    "embeddedartistry/printf",
     "engineai-robotics/engineai_ros2_workspace",
     "farm-ng/farm-ng-core",
     "flatpak/flatpak-xdg-utils",
@@ -63,6 +64,7 @@
     "paoloshasta/shasta",
     "r-spatial/lwgeom",
     "r-spatial/s2",
+    "RekGRpth/pg_task",
     "Rezonality/zing",
     "RomanArzumanyan/VALI",
     "shriramters/chordcat",

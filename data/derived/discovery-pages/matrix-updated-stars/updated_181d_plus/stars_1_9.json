@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 5576,
-    "concepts": 2008,
-    "observations": 2011,
-    "repos": 1413,
-    "terms": 2004
+    "concepts": 2014,
+    "observations": 2017,
+    "repos": 1414,
+    "terms": 2010
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -193,6 +193,7 @@
     "aseprite/googletest",
     "asg017/sqlite-base64",
     "ashleykleynhans/hallo-docker",
+    "ashvardanian/StringZilla-CLI",
     "ashvardanian/xl-sum",
     "asjadnaqvi/stata-delaunay-voronoi",
     "aSleepyTree/EB-Cache",

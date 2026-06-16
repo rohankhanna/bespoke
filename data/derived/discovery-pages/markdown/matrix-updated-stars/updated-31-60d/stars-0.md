@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-06-15T08:35:49.170403+00:00`
+Generated at: `2026-06-16T06:22:09.299505+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 236
-- terms: 357
-- components: 839
-- concepts: 328
-- observations: 328
+- repos: 228
+- terms: 347
+- components: 826
+- concepts: 318
+- observations: 318
 
 ## Static behavior
 
@@ -253,14 +253,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
-| [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/libpng_jll.jl](https://github.com/JuliaBinaryWrappers/libpng_jll.jl) | 0 | 2026-04-16T14:33:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Github-Repo-Org-Question](https://github.com/danielrosehill/Github-Repo-Org-Question) | 0 | 2026-04-16T14:17:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [danielrosehill/Local-Claude-Plugin-Install-Research](https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research) | 0 | 2026-04-16T14:17:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/CUDA_Driver_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl) | 0 | 2026-04-16T13:43:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/CUDA_Runtime_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Runtime_jll.jl) | 0 | 2026-04-16T13:34:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [PrimeIntellect-ai/router](https://github.com/PrimeIntellect-ai/router) | 0 | 2026-04-16T12:13:48Z | Rust | Infrastructure/tooling | 7 | 13 | 7 | 7 |
 
 ## Repos sorted by stars
 
@@ -494,11 +486,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
-| [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/libpng_jll.jl](https://github.com/JuliaBinaryWrappers/libpng_jll.jl) | 0 | 2026-04-16T14:33:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Github-Repo-Org-Question](https://github.com/danielrosehill/Github-Repo-Org-Question) | 0 | 2026-04-16T14:17:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
-| [danielrosehill/Local-Claude-Plugin-Install-Research](https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research) | 0 | 2026-04-16T14:17:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/CUDA_Driver_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl) | 0 | 2026-04-16T13:43:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [JuliaBinaryWrappers/CUDA_Runtime_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Runtime_jll.jl) | 0 | 2026-04-16T13:34:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [PrimeIntellect-ai/router](https://github.com/PrimeIntellect-ai/router) | 0 | 2026-04-16T12:13:48Z | Rust | Infrastructure/tooling | 7 | 13 | 7 | 7 |

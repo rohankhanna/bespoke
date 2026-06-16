@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 379,
-    "concepts": 450,
-    "observations": 455,
-    "repos": 84,
-    "terms": 449
+    "components": 409,
+    "concepts": 499,
+    "observations": 505,
+    "repos": 88,
+    "terms": 498
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
+    "AFLplusplus/AFLplusplus",
     "alembic/alembic",
     "alibaba/havenask",
     "apache/singa",
@@ -46,6 +47,7 @@
     "google/woff2",
     "h2o/picohttpparser",
     "hufrea/byedpi",
+    "intel/isa-l",
     "KhronosGroup/MoltenVK",
     "lh3/minimap2",
     "libbpf/libbpf",
@@ -80,8 +82,8 @@
     "redis/hiredis",
     "risc0/risc0",
     "riscv-software-src/opensbi",
+    "ROCm/hip",
     "SarahWeiii/CoACD",
-    "sqlcipher/sqlcipher",
     "SRombauts/SQLiteCpp",
     "stevenlovegrove/Pangolin",
     "syoyo/tinygltf",
@@ -94,9 +96,11 @@
     "vectorclass/version2",
     "vstakhov/libucl",
     "WebAssembly/wabt",
+    "webmproject/libwebp",
     "wjakob/nanobind",
     "xlite-dev/lite.ai.toolkit",
     "ycm-core/ycmd",
-    "zeromq/cppzmq"
+    "zeromq/cppzmq",
+    "zlib-ng/zlib-ng"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1143,
-    "concepts": 276,
-    "observations": 278,
-    "repos": 73,
-    "terms": 283
+    "components": 1120,
+    "concepts": 265,
+    "observations": 267,
+    "repos": 70,
+    "terms": 272
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "ahmadnassri/node-glob-promise",
@@ -32,7 +32,6 @@
     "erichlof/AntiGravity-Pool",
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
-    "evenchange4/graphql.macro-example",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
     "GuillaumeGomez/browser-UI-test",
@@ -80,11 +79,9 @@
     "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",
     "tracked-tools/tracked-toolbox",
-    "TrigenSoftware/simple-release-action",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
     "webtorrent/bittorrent-lsd",
-    "webtorrent/bittorrent-peerid",
     "winstonjs/winston-transport",
     "wyyazlz/sheetnext"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 8,
-    "terms": 59
+    "components": 55,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 7,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "bazel-contrib/rules_jvm_external",
     "cloudfoundry/credhub",
     "eclipse-tm4e/tm4e",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "ldproxy/ldproxy",
-    "openjdk/jdk11u",
     "redis/redis-om-spring",
     "spring-projects/spring-tools"
   ]

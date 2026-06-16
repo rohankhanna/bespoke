@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2505,
-    "concepts": 1268,
-    "observations": 1274,
-    "repos": 147,
-    "terms": 1258
+    "components": 2499,
+    "concepts": 1243,
+    "observations": 1249,
+    "repos": 143,
+    "terms": 1234
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -90,9 +90,7 @@
     "kurrent-io/KurrentDB",
     "libbitcoin/libbitcoin-system",
     "licensee/licensed",
-    "litedb-org/LiteDB",
     "luau-lang/luau",
-    "lucidrains/vector-quantize-pytorch",
     "mayocream/koharu",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",
@@ -106,7 +104,6 @@
     "modelscope/FunClip",
     "module-federation/core",
     "mono/SkiaSharp",
-    "msiemens/tinydb",
     "neavo/LinguaGacha",
     "NEKOparapa/AiNiee",
     "nodenv/nodenv",
@@ -115,7 +112,6 @@
     "ogx-ai/ogx",
     "okd-project/okd",
     "openai/openai-dotnet",
-    "opentk/opentk",
     "paralleldrive/cuid",
     "podman-desktop/podman-desktop",
     "preservim/tagbar",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 45,
-    "terms": 87
+    "components": 178,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 48,
+    "terms": 91
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -27,6 +27,7 @@
     "bolasblack/BlogFront",
     "Circuitscape/www.circuitscape.org",
     "clearbluejar/ghidra-python",
+    "cloudfoundry/cf-smoke-tests-release",
     "DanielSmith1239/KosherSwift",
     "diffblue/homebrew-cbmc",
     "dp111/6502timing",
@@ -49,6 +50,7 @@
     "lemire/unicode_lipsum",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "microsoft/LinuxTracepoints-Net",
+    "mitchuski/agentprivacy-docs",
     "mpizenberg/elm-test-runner",
     "objectbox/objectbox-swift-spm",
     "php-toolkit/stdlib",
@@ -56,6 +58,7 @@
     "ROCm/hipBLAS-common",
     "rocq-community/docker-base",
     "rocq-community/docker-rocq",
+    "Shougo/dpp-ext-lazy",
     "tnc-ca-geo/animl-ml",
     "vovkos/doxyrest_b",
     "WebAssembly/compact-import-section"

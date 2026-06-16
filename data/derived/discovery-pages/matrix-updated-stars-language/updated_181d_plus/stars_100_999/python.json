@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1286,
-    "concepts": 5702,
-    "observations": 5707,
-    "repos": 1903,
-    "terms": 5534
+    "components": 1290,
+    "concepts": 5742,
+    "observations": 5747,
+    "repos": 1910,
+    "terms": 5574
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1311,6 +1311,7 @@
     "Newbeeer/pfgmpp",
     "Newbeeer/Poisson_flow",
     "nexusflowai/NexusRaven",
+    "nghorbani/body_visualizer",
     "nghorbani/homogenus",
     "nghorbani/moshpp",
     "nicklashansen/tdmpc2",
@@ -1432,6 +1433,7 @@
     "PaddlePaddle/X2Paddle",
     "pallets/markupsafe",
     "pals-ttic/sjc",
+    "Parallel-Reasoning/APR",
     "parlance-zz/g-diffuser-bot",
     "ParthaEth/GIF",
     "pat-jj/DeepRetrieval",
@@ -1839,7 +1841,12 @@
     "YeRen123455/Infrared-Small-Target-Detection",
     "yet-another-account/openwebtext",
     "yeungchenwa/OCR-SAM",
+    "yeyupiaoling/AudioClassification-Pytorch",
+    "yeyupiaoling/MASR",
+    "yeyupiaoling/PaddlePaddle-DeepSpeech",
+    "yeyupiaoling/PPASR",
     "yeyupiaoling/PunctuationModel",
+    "yeyupiaoling/VoiceprintRecognition-PaddlePaddle",
     "yformer/EfficientTAM",
     "yhhhli/BRECQ",
     "yhw-yhw/SHOW",

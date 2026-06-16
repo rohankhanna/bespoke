@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 4316,
+    "components": 4317,
     "concepts": 872,
     "observations": 873,
-    "repos": 244,
+    "repos": 245,
     "terms": 866
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -116,6 +116,7 @@
     "gruntjs/grunt-contrib-watch",
     "gulp-sourcemaps/gulp-sourcemaps",
     "gulpjs/vinyl",
+    "gwudcap/cc-sessions",
     "helpers/handlebars-helpers",
     "hexgrad/kokoro",
     "Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor",

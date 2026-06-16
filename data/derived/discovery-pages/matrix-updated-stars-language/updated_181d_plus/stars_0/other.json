@@ -3,7 +3,7 @@
     "components": 192,
     "concepts": 114,
     "observations": 114,
-    "repos": 106,
+    "repos": 107,
     "terms": 114
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -32,6 +32,7 @@
     "aspecto-io/opentelemetry-demo",
     "atsushieno/aap-juce-plugin-host",
     "avsm/ocaml-uri",
+    "babashka/homebrew-brew",
     "barche/libcxxwrap_julia_jll.jl",
     "benkasminbullock/gzip-libdeflate",
     "benwmills/core-sass-compiler",

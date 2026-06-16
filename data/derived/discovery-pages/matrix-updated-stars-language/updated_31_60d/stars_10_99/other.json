@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2064,
-    "concepts": 1182,
-    "observations": 1186,
-    "repos": 282,
-    "terms": 1185
+    "components": 1981,
+    "concepts": 1163,
+    "observations": 1167,
+    "repos": 275,
+    "terms": 1166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -39,13 +39,10 @@
     "apache/superset-site",
     "apollographql/apollo-ios-codegen",
     "apollographql/apollo-ios-dev",
-    "appwrite/sdk-for-swift",
     "aquasecurity/trivy-checks",
     "arkime/arkimeweb",
     "arktekk/sbt-aether-deploy",
     "ArmandPhilippot/coldark",
-    "Ascend/Ascend-CI",
-    "aspect-build/rules_esbuild",
     "ast-grep/ast-grep.github.io",
     "atsushieno/android-ci-package-installer",
     "atsushieno/augene-ng",
@@ -87,7 +84,6 @@
     "CuatroElixir/spear",
     "cucumber/cucumber-js-examples",
     "dart-lang/core",
-    "dart-lang/ecosystem",
     "dart-lang/i18n",
     "davidanthoff/Electron.jl",
     "day8/re-frame-debux",
@@ -121,7 +117,6 @@
     "gazebosim/gz-cmake",
     "gazebosim/sdf_tutorials",
     "getgrav/grav-plugin-problems",
-    "google-marketing-solutions/web-performance-lab",
     "google/bazel-common",
     "googleapis/google-cloud-php-pubsub",
     "gopasspw/gopass-summon-provider",
@@ -142,7 +137,6 @@
     "heroku/buildpacks",
     "heroku/cnb-builder-images",
     "hexaeder/MCPRepl.jl",
-    "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
     "Humans-of-Julia/Bibliography.jl",
     "Humans-of-Julia/BibParser.jl",
     "i18next/react-i18next-gitbook",
@@ -262,7 +256,6 @@
     "SciML/Static.jl",
     "ScoopInstaller/PHP",
     "searxng/searx-instances-uptime",
-    "sentientwave/automata",
     "servo/servo.org",
     "sferik/multi_json",
     "shingarov/MachineArithmetic",

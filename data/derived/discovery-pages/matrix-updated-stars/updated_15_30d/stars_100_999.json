@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1341,
-    "concepts": 705,
-    "observations": 707,
-    "repos": 112,
-    "terms": 703
+    "components": 1259,
+    "concepts": 671,
+    "observations": 673,
+    "repos": 107,
+    "terms": 669
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -34,8 +34,6 @@
     "bazel-contrib/rules_kotlin",
     "betterleaks/betterleaks",
     "beve-org/beve",
-    "Brendonovich/MacroGraph",
-    "browserslist/caniuse-lite",
     "celtera/libremidi",
     "ChristopherHX/runner.server",
     "clearml/clearml-agent",
@@ -55,7 +53,6 @@
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
-    "fluent-vue/fluent-vue",
     "fsprojects/FSharp.Data.GraphQL",
     "gbionics/adam",
     "GDevelopApp/GDevelop-extensions",
@@ -92,7 +89,6 @@
     "NVlabs/trajdata",
     "openbsd/ports",
     "OpenHands/ToM-SWE",
-    "openjdk/jdk11u",
     "perrygeo/python-rasterstats",
     "preactjs/preact-devtools",
     "pyOpenSci/software-submission",
@@ -117,7 +113,6 @@
     "spring-projects/spring-tools",
     "stx-labs/stacks.js",
     "SublimeText/AFileIcon",
-    "TextArena/TextArena",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
     "tox-dev/filelock",

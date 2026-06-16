@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-15T08:35:49.170403+00:00`
+Generated at: `2026-06-16T06:22:09.299505+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 210
-- terms: 800
-- components: 5029
-- concepts: 790
-- observations: 792
+- repos: 212
+- terms: 809
+- components: 5070
+- concepts: 799
+- observations: 801
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [celo-org/celo-composer](https://github.com/celo-org/celo-composer) | 186 | 2025-12-18T03:37:27Z | TypeScript | Web app | 7 | 21 | 7 | 7 |
+| [uni-helper/uni-network](https://github.com/uni-helper/uni-network) | 124 | 2025-12-18T03:35:38Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 | [Anush008/fastembed-js](https://github.com/Anush008/fastembed-js) | 175 | 2025-12-15T19:06:48Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [snapcast/snapweb](https://github.com/snapcast/snapweb) | 142 | 2025-12-15T14:34:28Z | TypeScript | CLI | 4 | 26 | 4 | 4 |
 | [kepano/obsidian-hider](https://github.com/kepano/obsidian-hider) | 526 | 2025-12-14T15:04:22Z | TypeScript | Web app | 3 | 8 | 3 | 3 |
@@ -385,6 +387,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mgmeyers/obsidian-contextual-typography](https://github.com/mgmeyers/obsidian-contextual-typography) | 193 | 2024-06-16T20:29:20Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [Dogtiti/AutoGPT-Next-Web](https://github.com/Dogtiti/AutoGPT-Next-Web) | 190 | 2023-12-11T15:01:19Z | TypeScript | Infrastructure/tooling | 3 | 75 | 3 | 3 |
 | [frandiox/vitesse-ssr-template](https://github.com/frandiox/vitesse-ssr-template) | 190 | 2021-11-30T17:06:21Z | TypeScript | Template/starter | 3 | 31 | 3 | 3 |
+| [celo-org/celo-composer](https://github.com/celo-org/celo-composer) | 186 | 2025-12-18T03:37:27Z | TypeScript | Web app | 7 | 21 | 7 | 7 |
 | [PrismLibrary/Prism-Documentation](https://github.com/PrismLibrary/Prism-Documentation) | 184 | 2025-11-23T19:01:16Z | TypeScript | Infrastructure/tooling | 8 | 17 | 8 | 8 |
 | [kyryl-opens-ml/no-ocr](https://github.com/kyryl-opens-ml/no-ocr) | 184 | 2025-06-30T09:07:25Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [iohub/collama](https://github.com/iohub/collama) | 181 | 2025-01-30T11:38:43Z | TypeScript | Infrastructure/tooling | 11 | 43 | 11 | 11 |
@@ -431,6 +434,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [windicss/windicss-analysis](https://github.com/windicss/windicss-analysis) | 129 | 2022-09-26T18:32:26Z | TypeScript | Unknown | 3 | 40 | 3 | 3 |
 | [ipfs-shipyard/is-ipfs](https://github.com/ipfs-shipyard/is-ipfs) | 127 | 2025-03-28T18:06:12Z | TypeScript | Infrastructure/tooling | 5 | 10 | 5 | 5 |
 | [BotBuilderCommunity/botbuilder-community-js](https://github.com/BotBuilderCommunity/botbuilder-community-js) | 126 | 2023-10-24T09:08:02Z | TypeScript | Web app | 9 | 9 | 9 | 9 |
+| [uni-helper/uni-network](https://github.com/uni-helper/uni-network) | 124 | 2025-12-18T03:35:38Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 | [code-forge-io/open-source-stack](https://github.com/code-forge-io/open-source-stack) | 122 | 2025-10-09T11:58:31Z | TypeScript | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [brillout/vite-plugin-mdx](https://github.com/brillout/vite-plugin-mdx) | 122 | 2024-10-07T09:02:03Z | TypeScript | Unknown | 0 | 12 | 0 | 0 |
 | [IndexXuan/vite-plugin-html-template](https://github.com/IndexXuan/vite-plugin-html-template) | 122 | 2024-07-19T08:38:00Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |

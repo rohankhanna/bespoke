@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1516,
-    "concepts": 1305,
-    "observations": 1312,
-    "repos": 180,
-    "terms": 1313
+    "components": 1467,
+    "concepts": 1267,
+    "observations": 1271,
+    "repos": 175,
+    "terms": 1273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -30,7 +30,6 @@
     "apache/pulsar-client-go",
     "appleboy/go-fcm",
     "aquasecurity/trivy-db",
-    "argoproj-labs/argo-rollouts-manager",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
     "aws-cloudformation/rain",
@@ -44,7 +43,6 @@
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bitrise-io/bitrise",
-    "bitrise-io/envman",
     "boj/redistore",
     "bufbuild/protovalidate-go",
     "buildpacks/lifecycle",
@@ -75,7 +73,6 @@
     "CosmWasm/wasmd",
     "CosmWasm/wasmvm",
     "crytic/medusa",
-    "darkweak/souin",
     "dependabot/cli",
     "dgraph-io/dgraph-benchmarks",
     "docker/model-runner",
@@ -85,7 +82,6 @@
     "etclabscore/core-geth",
     "ethereum/hive",
     "fnproject/cli",
-    "foxj77/claudectx",
     "go-git/go-billy",
     "go-logr/zapr",
     "go-openapi/strfmt",
@@ -135,7 +131,6 @@
     "kubernetes/metrics",
     "kubernetes/sample-apiserver",
     "labring/aiproxy",
-    "Layr-Labs/eigenda",
     "letsencrypt/pebble",
     "linxGnu/grocksdb",
     "maragudk/gomponents-starter-kit",

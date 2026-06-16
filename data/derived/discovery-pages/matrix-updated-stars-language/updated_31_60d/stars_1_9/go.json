@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 124,
-    "observations": 124,
-    "repos": 35,
-    "terms": 124
+    "components": 175,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 32,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -35,8 +35,6 @@
     "goreleaser/sponsors",
     "huggingface/hf-csi-driver",
     "k8nstantin/openpraxis",
-    "kitknox/tsshd",
-    "ksylvan/fabric",
     "linode/karpenter-provider-linode",
     "petmal/mindtrial",
     "probe-lab/tiros",
@@ -47,7 +45,6 @@
     "transparency-dev/armored-witness-os",
     "transparency-dev/distributor",
     "usbarmory/boot-transparency",
-    "usbarmory/go-net",
     "walles/ftop"
   ]
 }

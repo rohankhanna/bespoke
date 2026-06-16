@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 12,
-    "terms": 43
+    "components": 102,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 13,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "databendlabs/display-more",
@@ -21,6 +21,7 @@
     "EspressoSystems/Push-CDN",
     "gaoyifan/bgptools",
     "hsivonen/chardetng_c",
+    "Layr-Labs/hokulea",
     "marin-community/kitoken",
     "netdur/hugind",
     "pkgxdev/bpb",

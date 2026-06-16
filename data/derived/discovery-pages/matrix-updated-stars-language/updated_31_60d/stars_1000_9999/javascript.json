@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4296,
-    "concepts": 880,
-    "observations": 881,
-    "repos": 117,
-    "terms": 875
+    "components": 4210,
+    "concepts": 836,
+    "observations": 837,
+    "repos": 112,
+    "terms": 831
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -24,9 +24,7 @@
     "apache/cordova-ios",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
-    "asciinema/asciinema-player",
     "Automattic/juice",
-    "bcoe/c8",
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
     "brunch/brunch",
@@ -41,10 +39,8 @@
     "expressjs/body-parser",
     "flow-typed/flow-typed",
     "fullstorydev/grpcui",
-    "gautamkrishnar/blog-post-workflow",
     "ghostery/ghostery-extension",
     "GladysAssistant/Gladys",
-    "google/closure-compiler",
     "google/docsy",
     "GoogleChrome/web-vitals",
     "GoogleChromeLabs/clooney",
@@ -86,7 +82,6 @@
     "nodejs/Release",
     "nodejs/undici",
     "npm/cli",
-    "npm/node-semver",
     "observing/pre-commit",
     "openstreetmap/iD",
     "openwrt/luci",

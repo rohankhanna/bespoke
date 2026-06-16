@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 194,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 7,
-    "terms": 65
+    "concepts": 62,
+    "observations": 62,
+    "repos": 6,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
-    "anthropics/skills",
     "huggingface/transformers",
     "nousresearch/hermes-agent",
     "open-webui/open-webui",

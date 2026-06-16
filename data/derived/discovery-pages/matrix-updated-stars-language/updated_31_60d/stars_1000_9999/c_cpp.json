@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2240,
-    "concepts": 2310,
-    "observations": 2312,
-    "repos": 273,
-    "terms": 2293
+    "components": 2210,
+    "concepts": 2261,
+    "observations": 2262,
+    "repos": 268,
+    "terms": 2244
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
     "actor-framework/actor-framework",
-    "AFLplusplus/AFLplusplus",
     "ai-dynamo/nixl",
     "alanxz/rabbitmq-c",
     "Andersbakken/rtags",
@@ -119,7 +118,6 @@
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/compute-runtime",
-    "intel/isa-l",
     "intel/pcm",
     "iree-org/iree",
     "ispc/ispc",
@@ -235,7 +233,6 @@
     "richgel999/miniz",
     "RoaringBitmap/CRoaring",
     "RobotLocomotion/drake",
-    "ROCm/hip",
     "root-project/cling",
     "sail-sg/envpool",
     "saitoha/libsixel",
@@ -273,7 +270,6 @@
     "vincentlaucsb/csv-parser",
     "WarmUpTill/SceneSwitcher",
     "WebAssembly/wasi-libc",
-    "webmproject/libwebp",
     "westes/flex",
     "wireshark/wireshark",
     "xtensor-stack/xsimd",
@@ -285,7 +281,6 @@
     "zeux/meshoptimizer",
     "zeux/pugixml",
     "zeux/volk",
-    "zlib-ng/minizip-ng",
-    "zlib-ng/zlib-ng"
+    "zlib-ng/minizip-ng"
   ]
 }

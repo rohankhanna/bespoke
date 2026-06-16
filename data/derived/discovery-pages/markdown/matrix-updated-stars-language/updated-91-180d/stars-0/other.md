@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Other
 
-Generated at: `2026-06-15T08:35:49.170403+00:00`
+Generated at: `2026-06-16T06:22:09.299505+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [musicman3/r2-d2](https://github.com/musicman3/r2-d2) | 0 | 2026-03-17T15:59:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Israel-First-Aid](https://github.com/danielrosehill/Israel-First-Aid) | 0 | 2026-03-16T18:24:56Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [stable-haskell/stack](https://github.com/stable-haskell/stack) | 0 | 2026-03-13T07:55:18Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [onomojo/i18n-country-translations-ex](https://github.com/onomojo/i18n-country-translations-ex) | 0 | 2026-03-09T13:08:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -39,12 +40,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Failover-Internet-Israel-Notes](https://github.com/danielrosehill/Failover-Internet-Israel-Notes) | 0 | 2026-01-25T15:46:49Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [Hitesh-Aggarwal/dotfiles](https://github.com/Hitesh-Aggarwal/dotfiles) | 0 | 2026-01-16T12:48:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ved015/CogVideoX-5b-Physics_iq_benchmarking](https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking) | 0 | 2026-01-06T14:16:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [babashka/homebrew-brew](https://github.com/babashka/homebrew-brew) | 0 | 2025-12-18T03:27:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [musicman3/r2-d2](https://github.com/musicman3/r2-d2) | 0 | 2026-03-17T15:59:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Israel-First-Aid](https://github.com/danielrosehill/Israel-First-Aid) | 0 | 2026-03-16T18:24:56Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [stable-haskell/stack](https://github.com/stable-haskell/stack) | 0 | 2026-03-13T07:55:18Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [onomojo/i18n-country-translations-ex](https://github.com/onomojo/i18n-country-translations-ex) | 0 | 2026-03-09T13:08:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -58,4 +59,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Failover-Internet-Israel-Notes](https://github.com/danielrosehill/Failover-Internet-Israel-Notes) | 0 | 2026-01-25T15:46:49Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [Hitesh-Aggarwal/dotfiles](https://github.com/Hitesh-Aggarwal/dotfiles) | 0 | 2026-01-16T12:48:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ved015/CogVideoX-5b-Physics_iq_benchmarking](https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking) | 0 | 2026-01-06T14:16:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [babashka/homebrew-brew](https://github.com/babashka/homebrew-brew) | 0 | 2025-12-18T03:27:16Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2280,
-    "concepts": 1964,
-    "observations": 1968,
-    "repos": 180,
-    "terms": 1986
+    "components": 2185,
+    "concepts": 1930,
+    "observations": 1933,
+    "repos": 176,
+    "terms": 1953
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -27,7 +27,6 @@
     "anthropics/claude-plugins-official",
     "apache/airflow",
     "apache/tvm",
-    "assafelovic/gpt-researcher",
     "astral-sh/ty",
     "aws/aws-cli",
     "benoitc/gunicorn",
@@ -42,7 +41,6 @@
     "certbot/certbot",
     "Chia-Network/chia-blockchain",
     "chubin/wttr.in",
-    "codelucas/newspaper",
     "cookiecutter/cookiecutter-django",
     "crewAIInc/crewAI",
     "cupy/cupy",
@@ -54,7 +52,6 @@
     "django/django",
     "DLR-RM/stable-baselines3",
     "docling-project/docling",
-    "dottxt-ai/outlines",
     "emmabostian/developer-portfolios",
     "eosphoros-ai/DB-GPT",
     "evilsocket/opensnitch",
@@ -168,7 +165,6 @@
     "simonw/datasette",
     "Skyvern-AI/skyvern",
     "speechbrain/speechbrain",
-    "squidfunk/mkdocs-material",
     "stanfordnlp/dspy",
     "state-spaces/mamba",
     "StevenBlack/hosts",

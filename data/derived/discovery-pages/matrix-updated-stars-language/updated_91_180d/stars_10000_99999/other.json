@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 69,
-    "observations": 69,
+    "components": 61,
+    "concepts": 78,
+    "observations": 78,
     "repos": 17,
-    "terms": 68
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
     "datawhalechina/llm-universe",
     "facebookresearch/audiocraft",
-    "folke/lazy.nvim",
     "github/copilot.vim",
     "google-research/vision_transformer",
     "guzzle/guzzle",
@@ -27,6 +26,7 @@
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
     "QwenLM/Qwen3-VL",
+    "ryanoasis/nerd-fonts",
     "TA-Lib/ta-lib-python",
     "tachyons-css/tachyons",
     "tpope/vim-fugitive",

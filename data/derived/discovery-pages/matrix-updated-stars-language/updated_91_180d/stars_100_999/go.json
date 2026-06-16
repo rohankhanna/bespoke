@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 292,
-    "observations": 293,
-    "repos": 44,
-    "terms": 292
+    "components": 254,
+    "concepts": 301,
+    "observations": 302,
+    "repos": 46,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -29,6 +29,7 @@
     "box-cli-maker/box-cli-maker",
     "cloudpilot-ai/karpenter-provider-alibabacloud",
     "cloudwego/biz-demo",
+    "cloudwego/kitex-examples",
     "connectrpc/grpcreflect-go",
     "dop251/goja_nodejs",
     "erigontech/interfaces",
@@ -44,6 +45,7 @@
     "ipfs/go-graphsync",
     "itzg/rcon-cli",
     "JupiterRider/purego-sdl3",
+    "kubernetes-sigs/kubetest2",
     "lightningnetwork/lightning-onion",
     "maykonlsf/semver-cli",
     "medama-io/medama",

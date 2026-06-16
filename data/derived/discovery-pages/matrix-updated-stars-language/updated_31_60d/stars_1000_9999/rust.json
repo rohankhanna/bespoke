@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2294,
-    "concepts": 1678,
-    "observations": 1683,
-    "repos": 209,
-    "terms": 1685
+    "components": 2208,
+    "concepts": 1624,
+    "observations": 1629,
+    "repos": 202,
+    "terms": 1632
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
-    "01mf02/jaq",
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
     "64bit/async-openai",
@@ -59,7 +58,6 @@
     "compio-rs/compio",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
-    "crate-ci/typos",
     "crev-dev/cargo-crev",
     "cross-rs/cross",
     "dalek-cryptography/curve25519-dalek",
@@ -72,7 +70,6 @@
     "dimforge/nalgebra",
     "dora-rs/dora",
     "dtolnay/cxx",
-    "dtolnay/syn",
     "EmbarkStudios/puffin",
     "erebe/wstunnel",
     "esp-rs/esp-hal",
@@ -105,7 +102,6 @@
     "ivanceras/svgbob",
     "j178/prek",
     "jni-rs/jni-rs",
-    "johnnymorganz/stylua",
     "jonhoo/fantoccini",
     "josh-project/josh",
     "JuliaLang/juliaup",
@@ -116,10 +112,8 @@
     "killercup/cargo-edit",
     "kivikakk/comrak",
     "lakekeeper/lakekeeper",
-    "lalrpop/lalrpop",
     "lance-format/lance",
     "latex-lsp/texlab",
-    "libp2p/rust-libp2p",
     "lycheeverse/lychee",
     "maciejhirsz/logos",
     "MaterializeInc/materialize",
@@ -171,7 +165,6 @@
     "rusqlite/rusqlite",
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/config-rs",
-    "rust-cli/env_logger",
     "rust-cli/human-panic",
     "rust-cross/cargo-zigbuild",
     "Rust-GPU/rust-gpu",

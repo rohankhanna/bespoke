@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 244,
-    "observations": 244,
+    "components": 239,
+    "concepts": 246,
+    "observations": 246,
     "repos": 53,
-    "terms": 243
+    "terms": 245
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -22,6 +22,7 @@
     "apache/rocketmq-client-go",
     "avast/retry-go",
     "bytedance/gopkg",
+    "caddyserver/xcaddy",
     "chaisql/chai",
     "charmbracelet/glamour",
     "charmbracelet/skate",
@@ -65,7 +66,6 @@
     "spf13/pflag",
     "tidwall/btree",
     "tmc/langchaingo",
-    "uber-go/mock",
     "xtaci/smux"
   ]
 }

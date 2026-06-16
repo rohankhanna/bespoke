@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 399,
-    "concepts": 315,
-    "observations": 322,
-    "repos": 72,
-    "terms": 317
+    "components": 461,
+    "concepts": 355,
+    "observations": 362,
+    "repos": 81,
+    "terms": 355
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
+    "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "AchetaGames/Epic-Asset-Manager",
     "alex/rust-asn1",
     "alloy-rs/core",
+    "alloy-rs/examples",
     "ashvardanian/StringWars",
     "athre0z/color-backtrace",
     "azdavis/millet",
     "cargo-lambda/cargo-lambda",
     "cedar-policy/cedar-examples",
+    "containers/aardvark-dns",
     "cosmos/ics23",
     "cpmech/russell",
+    "crate-ci/committed",
     "cryscan/web-rwkv",
     "ctz/graviola",
     "dalance/ptags",
@@ -44,15 +48,18 @@
     "FedericoPonzi/Horust",
     "filecoin-project/bellperson",
     "firstbatchxyz/dkn-compute-node",
+    "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
     "getsentry/rust-sourcemap",
     "gimli-rs/addr2line",
     "gjtorikian/commonmarker",
+    "hniksic/rust-subprocess",
     "hsivonen/chardetng",
     "in-toto/attestation",
     "iqlusioninc/abscissa",
     "iqlusioninc/tmkms",
     "kaj/ructe",
+    "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
     "lambdaclass/lambdaworks",
     "matrix-org/seshat",
@@ -76,6 +83,7 @@
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",
     "RustCrypto/AEADs",
+    "RustCrypto/RSA",
     "rustcrypto/signatures",
     "rustmailer/rustmailer",
     "saghen/frizbee",
@@ -85,6 +93,7 @@
     "tauri-apps/muda",
     "tikv/jemallocator",
     "Traverse-Research/gpu-allocator",
-    "yeslogic/allsorts"
+    "yeslogic/allsorts",
+    "zimbatm/mdsh"
   ]
 }

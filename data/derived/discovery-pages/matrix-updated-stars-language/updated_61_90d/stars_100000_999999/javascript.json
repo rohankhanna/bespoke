@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 9,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
+  "repo_ids": [
+    "airbnb/javascript"
+  ]
+}

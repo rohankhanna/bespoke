@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 284,
-    "observations": 287,
-    "repos": 60,
-    "terms": 281
+    "components": 266,
+    "concepts": 282,
+    "observations": 285,
+    "repos": 58,
+    "terms": 279
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "Alexpux/MINGW-packages",
-    "alvistack/ansible-role-crun",
     "apache/arrow-testing",
     "apache/datafusion-ballista-python",
     "argoproj-labs/argocd-extension-installer",
@@ -44,7 +43,6 @@
     "fcshark-org/route-list",
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
-    "GoogleCloudPlatform/blueprints",
     "gpac/testsuite",
     "helidon-io/helidon-examples",
     "heroku/heroku-buildpack-dotnet",

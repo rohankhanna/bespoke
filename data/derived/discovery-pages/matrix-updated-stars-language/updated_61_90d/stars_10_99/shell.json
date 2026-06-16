@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 120,
-    "observations": 120,
+    "components": 67,
+    "concepts": 115,
+    "observations": 115,
     "repos": 20,
-    "terms": 120
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/tmux-tilit",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
-    "alchemiststudiosDOTai/harness-engineering",
+    "alvistack/ansible-role-crun",
     "aporthq/aport-agent-guardrails",
     "beehive-lab/docker-tornadovm",
     "ChainSafe/forest-iac",
@@ -29,7 +29,7 @@
     "conda-forge/spacy-feedstock",
     "containers/automation",
     "Digidai/product-manager-skills",
-    "lxgw/LxgwWenkaiGB-Lite",
+    "GoogleCloudPlatform/blueprints",
     "nodenv/node-build-update-defs",
     "oceanbase/docker-images",
     "quicwg/qlog",

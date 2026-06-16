@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10923,
-    "concepts": 1654,
-    "observations": 1665,
-    "repos": 156,
-    "terms": 1662
+    "components": 10853,
+    "concepts": 1640,
+    "observations": 1651,
+    "repos": 153,
+    "terms": 1648
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -97,7 +97,6 @@
     "medusajs/medusa",
     "mermaid-js/mermaid",
     "microsoft/playwright",
-    "microsoft/playwright-mcp",
     "mobxjs/mobx",
     "modelcontextprotocol/servers",
     "modelcontextprotocol/typescript-sdk",
@@ -151,12 +150,10 @@
     "TanStack/router",
     "TanStack/table",
     "tanweai/pua",
-    "toon-format/toon",
     "typescript-eslint/typescript-eslint",
     "upstash/context7",
     "vadimdemedes/ink",
     "vercel/swr",
-    "Vinzent03/obsidian-git",
     "vitejs/vite",
     "vitest-dev/vitest",
     "VSCodeVim/Vim",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2171,
-    "concepts": 2147,
-    "observations": 2158,
-    "repos": 230,
-    "terms": 2148
+    "components": 2088,
+    "concepts": 2062,
+    "observations": 2072,
+    "repos": 219,
+    "terms": 2063
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -84,7 +84,6 @@
     "DataDog/datadog-agent",
     "dghubble/gologin",
     "Dicklesworthstone/beads_viewer",
-    "digitalocean/doctl",
     "digitalocean/godo",
     "dlclark/regexp2",
     "DNSCrypt/dnscrypt-resolvers",
@@ -126,7 +125,6 @@
     "golang/tools",
     "google/adk-go",
     "google/certificate-transparency-go",
-    "google/gnostic",
     "google/go-containerregistry",
     "google/syzkaller",
     "google/trillian",
@@ -150,7 +148,6 @@
     "knative/serving",
     "ko-build/ko",
     "Kong/kubernetes-ingress-controller",
-    "korotovsky/slack-mcp-server",
     "kserve/kserve",
     "kubeflow/trainer",
     "kubeovn/kube-ovn",
@@ -161,7 +158,6 @@
     "kubernetes-sigs/external-dns",
     "kubernetes-sigs/gateway-api",
     "kubernetes-sigs/kubebuilder",
-    "kubernetes-sigs/metrics-server",
     "kubernetes-sigs/node-feature-discovery",
     "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/autoscaler",
@@ -174,10 +170,8 @@
     "kyverno/kyverno",
     "larksuite/cli",
     "letsencrypt/boulder",
-    "libp2p/go-libp2p",
     "lightningnetwork/lnd",
     "Loyalsoldier/geoip",
-    "madneal/gshark",
     "maragudk/gomponents",
     "mark3labs/mcp-go",
     "Masterminds/semver",
@@ -212,7 +206,6 @@
     "prometheus-community/windows_exporter",
     "prometheus-operator/prometheus-operator",
     "prometheus/alertmanager",
-    "prometheus/blackbox_exporter",
     "prometheus/client_golang",
     "rabbitmq/amqp091-go",
     "raviqqe/muffet",
@@ -220,8 +213,6 @@
     "replicate/cog",
     "reviewdog/reviewdog",
     "rhysd/actionlint",
-    "router-for-me/CLIProxyAPIPlus",
-    "runfinch/finch",
     "securego/gosec",
     "sigstore/cosign",
     "sigstore/gitsign",
@@ -231,7 +222,6 @@
     "stripe/stripe-go",
     "supabase/cli",
     "sysadminsmedia/homebox",
-    "tendermint/tendermint",
     "terraform-linters/tflint",
     "tidwall/tile38",
     "tilt-dev/tilt",
@@ -241,7 +231,6 @@
     "umputun/remark42",
     "usbarmory/tamago",
     "version-fox/vfox",
-    "walles/moor",
     "x-motemen/ghq",
     "XTLS/REALITY"
   ]

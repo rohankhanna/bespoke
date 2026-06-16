@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 715,
-    "concepts": 484,
-    "observations": 485,
-    "repos": 103,
-    "terms": 497
+    "components": 695,
+    "concepts": 477,
+    "observations": 478,
+    "repos": 101,
+    "terms": 485
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -46,7 +46,6 @@
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
-    "crate-ci/imperative",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
@@ -64,7 +63,6 @@
     "g-plane/raffia",
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
-    "hagan/claudia-statusline",
     "hecrj/iced_palace",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3021,
+    "components": 3035,
     "concepts": 674,
     "observations": 674,
-    "repos": 284,
+    "repos": 285,
     "terms": 665
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -97,6 +97,7 @@
     "curiousdannii/ifvms.js",
     "CyberAP/nanoid-generate",
     "Cysharp/DocfxTemplate",
+    "d3x0r/JSOX",
     "danielgindi/node-autodetect-decoder-stream",
     "dcloudio/hello-uvue",
     "derhuerst/epsg-index",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 466,
-    "concepts": 358,
-    "observations": 364,
-    "repos": 68,
-    "terms": 356
+    "components": 552,
+    "concepts": 412,
+    "observations": 418,
+    "repos": 75,
+    "terms": 409
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
+    "01mf02/jaq",
     "alexpasmantier/television",
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -24,11 +25,13 @@
     "Canop/bacon",
     "cberner/fuser",
     "chronotope/chrono",
+    "crate-ci/typos",
     "crossterm-rs/crossterm",
     "David-OConnor/pyflow",
     "dimforge/rapier",
     "dtolnay/anyhow",
     "dtolnay/quote",
+    "dtolnay/syn",
     "dtolnay/thiserror",
     "EmbarkStudios/cargo-deny",
     "emilk/eframe_template",
@@ -43,11 +46,14 @@
     "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
+    "johnnymorganz/stylua",
     "jonhoo/inferno",
     "jsr-io/jsr",
     "Keats/tera",
     "la10736/rstest",
+    "lalrpop/lalrpop",
     "LaurentMazare/tch-rs",
+    "libp2p/rust-libp2p",
     "linebender/resvg",
     "liuchengxu/vim-clap",
     "lldap/lldap",
@@ -63,6 +69,7 @@
     "openai/harmony",
     "pop-os/cosmic-text",
     "rust-cli/confy",
+    "rust-cli/env_logger",
     "rust-lang/futures-rs",
     "rust-lang/log",
     "Rust-SDL2/rust-sdl2",

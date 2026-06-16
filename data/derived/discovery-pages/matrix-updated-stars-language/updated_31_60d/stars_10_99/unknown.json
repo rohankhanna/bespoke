@@ -3,7 +3,7 @@
     "components": 165,
     "concepts": 135,
     "observations": 136,
-    "repos": 42,
+    "repos": 40,
     "terms": 134
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -26,7 +26,6 @@
     "docker/github-builder",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
-    "GDevelopApp/GDevelop-community-list",
     "goharbor/community",
     "google/oss-policies-info",
     "Homebrew/.github",
@@ -35,7 +34,6 @@
     "microsoft/microsoft-foundry-for-vscode",
     "mypyc/mypyc-benchmark-results",
     "NightWatcher314/zotero-pdf2zh-server",
-    "ocaml/platform-blog",
     "pre-commit/mirrors-eslint",
     "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",

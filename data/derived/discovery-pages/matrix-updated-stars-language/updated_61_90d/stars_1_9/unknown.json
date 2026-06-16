@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 33,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 48,
-    "terms": 60
+    "concepts": 62,
+    "observations": 62,
+    "repos": 50,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -35,6 +35,7 @@
     "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Architectural-Plans-Index",
     "danielrosehill/Awesome-Red-Alerts",
+    "danielrosehill/Claude-ADHD-Research-Workspace",
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Docs-And-Notes-Index",
@@ -57,6 +58,7 @@
     "llvm/torch-mlir-release",
     "nodejs/web-team",
     "nttstar/insightface-resources",
+    "piebald-ai/piebald-issues",
     "psmux/scoop-omp-manager",
     "ScoopInstaller/.github",
     "sigstore/architecture-docs",

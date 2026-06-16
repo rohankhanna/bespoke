@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 107,
-    "observations": 108,
-    "repos": 26,
-    "terms": 110
+    "components": 96,
+    "concepts": 109,
+    "observations": 110,
+    "repos": 27,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
+    "arangrhie/T2T-Polish",
     "aslafy-z/helm-git",
     "astro-han/claude-pace",
     "aws/aws-app-mesh-examples",
@@ -28,10 +29,10 @@
     "helm/chart-testing-action",
     "heroku/heroku-buildpack-apt",
     "heroku/heroku-buildpack-pgbouncer",
-    "lxgw/LxgwWenKai-Lite",
     "mattmc3/zephyr",
     "mklement0/n-install",
     "mosaicml/examples",
+    "nodenv/node-build",
     "numpy/numpy.org",
     "reviewdog/action-misspell",
     "SamNet-dev/paqctl",

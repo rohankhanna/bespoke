@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 267,
-    "observations": 267,
-    "repos": 36,
-    "terms": 266
+    "components": 193,
+    "concepts": 248,
+    "observations": 248,
+    "repos": 37,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -36,9 +36,9 @@
     "lucidrains/denoising-diffusion-pytorch",
     "microsoft/unilm",
     "modin-project/modin",
-    "PaddlePaddle/PaddleNLP",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
+    "prompt-toolkit/python-prompt-toolkit",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
@@ -47,6 +47,7 @@
     "tqdm/tqdm",
     "vibrantlabsai/ragas",
     "Wan-Video/Wan2.1",
+    "Wan-Video/Wan2.2",
     "yoheinakajima/babyagi",
     "Zulko/moviepy",
     "zylon-ai/private-gpt"

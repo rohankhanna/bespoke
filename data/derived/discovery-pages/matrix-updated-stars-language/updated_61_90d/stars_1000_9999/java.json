@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 86,
-    "observations": 87,
-    "repos": 14,
-    "terms": 85
+    "components": 119,
+    "concepts": 98,
+    "observations": 99,
+    "repos": 15,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
+    "beehive-lab/TornadoVM",
     "bobbylight/RSyntaxTextArea",
     "brianfrankcooper/YCSB",
     "google/tsunami-security-scanner",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 253,
-    "concepts": 338,
-    "observations": 341,
-    "repos": 57,
-    "terms": 341
+    "components": 240,
+    "concepts": 328,
+    "observations": 331,
+    "repos": 55,
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
     "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
-    "arangrhie/T2T-Polish",
     "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
@@ -48,7 +47,6 @@
     "microcai/gentoo-zh",
     "mozilla/addons",
     "msys2/msys2-installer",
-    "nodenv/node-build",
     "NVIDIA/enroot",
     "opea-project/GenAIExamples",
     "openshift/release",

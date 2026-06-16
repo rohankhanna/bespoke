@@ -3,7 +3,7 @@
     "components": 48,
     "concepts": 66,
     "observations": 66,
-    "repos": 108,
+    "repos": 106,
     "terms": 75
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "abdeladim-s/pywhispercpp",
@@ -20,7 +20,6 @@
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
-    "cachix/nix-bindings-rust",
     "cachix/serde-envfile",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
@@ -44,7 +43,6 @@
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
-    "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 6,
-    "terms": 66
+    "components": 229,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 5,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
-    "airbnb/javascript",
     "axios/axios",
     "facebook/react",
     "mrdoob/three.js",

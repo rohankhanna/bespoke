@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1788,
-    "concepts": 1204,
-    "observations": 1213,
-    "repos": 198,
-    "terms": 1201
+    "components": 1726,
+    "concepts": 1164,
+    "observations": 1173,
+    "repos": 189,
+    "terms": 1163
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-15T08:35:49.170403+00:00",
+  "generated_at": "2026-06-16T06:22:09.299505+00:00",
   "repo_ids": [
-    "0x2a-42/lelwel",
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
     "a16z/jolt",
@@ -28,7 +27,6 @@
     "akiomik/mado",
     "alexcrichton/ssh2-rs",
     "alexheretic/glyph-brush",
-    "alloy-rs/examples",
     "alloy-rs/svm-rs",
     "ankane/tokenizers-ruby",
     "antoniusnaumann/cargo-swift",
@@ -60,10 +58,8 @@
     "Commit-Boost/commit-boost-client",
     "ComunidadAylas/PackSquash",
     "conda/rattler",
-    "containers/aardvark-dns",
     "containers/netavark",
     "cosmos/solidity-ibc-eureka",
-    "crate-ci/committed",
     "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
     "cyphar/libpathrs",
@@ -101,7 +97,6 @@
     "flatgeobuf/flatgeobuf",
     "flatpak/flat-manager",
     "foundry-rs/compilers",
-    "FuelLabs/fuel-vm",
     "g-plane/malva",
     "g-plane/markup_fmt",
     "georust/geojson",
@@ -110,7 +105,6 @@
     "hellux/jotdown",
     "helyim/helyim",
     "hermit-os/uhyve",
-    "hniksic/rust-subprocess",
     "huggingface/hf-hub",
     "huggingface/hf-mount",
     "huggingface/nfsserve",
@@ -120,7 +114,6 @@
     "iqlusioninc/crates",
     "istio/ztunnel",
     "JanLikar/cargo-clone",
-    "kakoune-lsp/kakoune-lsp",
     "kornia/kornia-rs",
     "kpcyrd/rebuilderd",
     "KSXGitHub/parallel-disk-usage",
@@ -182,7 +175,6 @@
     "RustCrypto/elliptic-curves",
     "RustCrypto/MACs",
     "RustCrypto/password-hashes",
-    "RustCrypto/RSA",
     "RustCrypto/traits",
     "shiinamiyuki/akari_render",
     "Sovereign-Labs/sovereign-sdk",
@@ -208,7 +200,6 @@
     "z-galaxy/zbus",
     "zaeleus/noodles",
     "ZcashFoundation/zebra",
-    "zimbatm/mdsh",
     "zip-rs/zip2",
     "zkcrypto/ff",
     "zkcrypto/group"
