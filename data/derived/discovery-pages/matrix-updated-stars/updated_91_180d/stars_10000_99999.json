@@ -3,7 +3,7 @@
     "components": 1218,
     "concepts": 737,
     "observations": 741,
-    "repos": 124,
+    "repos": 123,
     "terms": 740
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -41,7 +41,6 @@
     "drduh/macOS-Security-and-Privacy-Guide",
     "egoist/tsup",
     "ekzhang/bore",
-    "existentialaudio/blackhole",
     "facebookresearch/audiocraft",
     "facebookresearch/vggt",
     "ffmpegwasm/ffmpeg.wasm",

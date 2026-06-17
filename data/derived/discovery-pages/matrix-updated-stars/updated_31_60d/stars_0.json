@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 740,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 217,
-    "terms": 302
+    "components": 733,
+    "concepts": 270,
+    "observations": 270,
+    "repos": 213,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/lightning",
@@ -39,8 +39,6 @@
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",
     "CHIP-SPV/H4I-HipBLAS",
-    "CHIP-SPV/H4I-HipFFT",
-    "CHIP-SPV/H4I-HipSOLVER",
     "clearml/clearml-agent-bootstrap",
     "conda-forge/blis-feedstock",
     "conda-forge/bottom-feedstock",
@@ -158,7 +156,6 @@
     "edward3h/bedrock-viz-from-backups",
     "fabon-f/temporal-polyfill-comparison",
     "fekkak1998/scira",
-    "FEniCS/spack-fenics",
     "firestryk/chatgpt-website.github.io",
     "flagos-ai/verl-FL",
     "florisheedless915/grok-register",
@@ -203,7 +200,6 @@
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",
     "nodenv/node-build-prerelease",
-    "piqrypt/piqrypt-mcp-server",
     "pragmatical-transshipment598/claude-code-workflows",
     "qiayuanl/unitree_buildfarm",
     "redductive/securepixel",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10781,
-    "concepts": 9450,
-    "observations": 9463,
-    "repos": 2428,
-    "terms": 9313
+    "components": 10787,
+    "concepts": 9451,
+    "observations": 9464,
+    "repos": 2429,
+    "terms": 9314
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -142,6 +142,7 @@
     "amsul/pickadate.js",
     "anderscui/jieba.NET",
     "andersontr15/clean-code-javascript-es",
+    "andialbrecht/sqlparse",
     "andrewrk/groovebasin",
     "andrewrk/poop",
     "andyzeng/tsdf-fusion-python",

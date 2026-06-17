@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9185,
-    "concepts": 5538,
-    "observations": 5564,
-    "repos": 893,
-    "terms": 5614
+    "components": 9262,
+    "concepts": 5578,
+    "observations": 5604,
+    "repos": 895,
+    "terms": 5654
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "1adrianb/face-alignment",
@@ -102,7 +102,6 @@
     "badgen/badgen.net",
     "bash-lsp/bash-language-server",
     "bazelbuild/bazelisk",
-    "bazelbuild/buildtools",
     "bbatsov/clojure-style-guide",
     "bbatsov/emacs-lisp-style-guide",
     "bbatsov/prelude",
@@ -269,6 +268,7 @@
     "espeak-ng/espeak-ng",
     "ethereum/devp2p",
     "ethers-io/ethers.js",
+    "eventual-inc/daft",
     "excon/excon",
     "explosion/spacy-models",
     "expr-lang/expr",
@@ -397,6 +397,7 @@
     "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
+    "HypoPG/hypopg",
     "idiap/coqui-ai-TTS",
     "idris-lang/Idris2",
     "igorshubovych/markdownlint-cli",
@@ -686,6 +687,7 @@
     "Project-MONAI/tutorials",
     "projectfluent/fluent",
     "prometheus/blackbox_exporter",
+    "prophesier/diff-svc",
     "ptsochantaris/trailer",
     "pyannote/pyannote-audio",
     "PyCQA/bandit",
@@ -854,8 +856,8 @@
     "uuid-rs/uuid",
     "vadimdemedes/pastel",
     "Vchitect/VBench",
-    "vcr/vcr",
     "vectorclass/version2",
+    "vega/vega-lite",
     "vercel/next-learn",
     "VictoriaMetrics/fastcache",
     "vim-test/vim-test",

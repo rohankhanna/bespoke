@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49525,
-    "concepts": 35336,
-    "observations": 35402,
-    "repos": 12723,
-    "terms": 34887
+    "components": 49531,
+    "concepts": 35337,
+    "observations": 35403,
+    "repos": 12725,
+    "terms": 34888
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -945,6 +945,7 @@
     "andersontr15/clean-code-javascript-es",
     "AndersTrier/reed-solomon-simd",
     "andi611/Mockingjay-Speech-Representation",
+    "andialbrecht/sqlparse",
     "andikleen/snappy-c",
     "andimarafioti/florence2-finetuning",
     "andirkh/clean-code-javascript",
@@ -4392,6 +4393,7 @@
     "Executedone/Chinese-FastSpeech2",
     "exiawsh/storage",
     "exiawsh/StreamPETR",
+    "existentialaudio/blackhole",
     "exograd/erl-ksuid",
     "exoscale/coax",
     "exoscale/seql",

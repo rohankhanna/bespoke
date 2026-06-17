@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 546,
-    "concepts": 940,
-    "observations": 940,
-    "repos": 242,
-    "terms": 932
+    "components": 553,
+    "concepts": 950,
+    "observations": 950,
+    "repos": 243,
+    "terms": 942
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -149,6 +149,7 @@
     "marin-community/levanter",
     "mcfletch/pyopengl",
     "meidachen/STPLS3D",
+    "melMass/comfy_mtb",
     "metauto-ai/GPTSwarm",
     "mgaitan/sphinxcontrib-mermaid",
     "microsoft/ANCE",

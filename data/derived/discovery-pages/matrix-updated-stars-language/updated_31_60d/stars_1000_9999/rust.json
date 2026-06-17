@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2078,
-    "concepts": 1559,
-    "observations": 1564,
-    "repos": 192,
-    "terms": 1567
+    "components": 2060,
+    "concepts": 1538,
+    "observations": 1543,
+    "repos": 191,
+    "terms": 1546
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -71,7 +71,6 @@
     "erebe/wstunnel",
     "esp-rs/esp-hal",
     "evcxr/evcxr",
-    "eventual-inc/daft",
     "eycorsican/leaf",
     "facebook/buck2",
     "facebook/pyrefly",

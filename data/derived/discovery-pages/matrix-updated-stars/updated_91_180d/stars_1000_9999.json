@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4497,
-    "concepts": 3360,
-    "observations": 3369,
-    "repos": 657,
-    "terms": 3329
+    "components": 4495,
+    "concepts": 3363,
+    "observations": 3372,
+    "repos": 658,
+    "terms": 3332
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -53,7 +53,6 @@
     "analysis-tools-dev/dynamic-analysis",
     "anandthakker/doiuse",
     "anapnoe/stable-diffusion-webui-ux",
-    "andialbrecht/sqlparse",
     "andreafrancia/trash-cli",
     "android/ndk",
     "ankane/dexter",
@@ -95,6 +94,7 @@
     "bakpakin/Fennel",
     "bambinos/bambi",
     "bats-core/bats-core",
+    "bazelbuild/buildtools",
     "bazelbuild/rules_docker",
     "bazelbuild/starlark",
     "bbatsov/crux",
@@ -640,6 +640,7 @@
     "unplugin/unplugin-icons",
     "v2fly/v2ray-examples",
     "varvet/pundit",
+    "vcr/vcr",
     "vercel/ms",
     "vi/websocat",
     "Vigemus/iron.nvim",

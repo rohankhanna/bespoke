@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1579,
-    "concepts": 1308,
-    "observations": 1310,
-    "repos": 279,
-    "terms": 1305
+    "components": 1591,
+    "concepts": 1319,
+    "observations": 1321,
+    "repos": 282,
+    "terms": 1316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -136,6 +136,7 @@
     "ethereum/beacon-APIs",
     "ethereum/builder-specs",
     "ethpandaops/ethereum-helm-charts",
+    "EzequielRamis/zimdjson",
     "facebookresearch/fairo",
     "fanshiqing/grouped_gemm",
     "firebase/FirebaseUI-Flutter",
@@ -153,6 +154,7 @@
     "HaxeFlixel/flixel-ui",
     "haxeui/haxeui-core",
     "henryw374/cljc.java-time",
+    "hkulekci/qdrant-php",
     "HTTPArchive/almanac.httparchive.org",
     "huggingface/optimum-neuron",
     "IAPark/tiktoken_ruby",
@@ -163,6 +165,7 @@
     "inhere/php-validate",
     "janestreet/async",
     "janestreet/torch",
+    "jeremymailen/kotlinter-gradle",
     "jonatas/fast",
     "jsdoc/jsdoc.github.io",
     "JuliaDebug/JuliaInterpreter.jl",

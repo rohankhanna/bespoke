@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 733,
-    "concepts": 756,
-    "observations": 757,
-    "repos": 112,
-    "terms": 750
+    "components": 731,
+    "concepts": 752,
+    "observations": 753,
+    "repos": 111,
+    "terms": 746
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
@@ -27,7 +27,6 @@
     "axllent/mailpit",
     "azure/aztfexport",
     "bazelbuild/bazelisk",
-    "bazelbuild/buildtools",
     "bensadeh/circumflex",
     "bnb-chain/tss-lib",
     "boyter/scc",

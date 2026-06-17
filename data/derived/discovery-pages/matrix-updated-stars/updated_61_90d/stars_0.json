@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 498,
-    "concepts": 235,
-    "observations": 236,
-    "repos": 133,
-    "terms": 239
+    "components": 505,
+    "concepts": 239,
+    "observations": 240,
+    "repos": 137,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "9romise/eslint-config",
@@ -38,6 +38,8 @@
     "cachix/nix-bindings-rust",
     "caprica/generator-vlcj",
     "cdeust/cortex-know-when-to-stop-training-model",
+    "CHIP-SPV/H4I-HipFFT",
+    "CHIP-SPV/H4I-HipSOLVER",
     "cmake-wheel/cmeel-example",
     "csjgg/ags-cookbook",
     "damacol/ai-hub",
@@ -94,6 +96,7 @@
     "dubbo-go-pixiu/dubbo-go-pixiu",
     "eigenwallet/arti",
     "ethpandaops/xatu-cbt",
+    "FEniCS/spack-fenics",
     "foundry-rs/optimism",
     "fulmicoton-dd/datasketches-rust",
     "grubersjoe/react-activity-calendar-tests",
@@ -127,6 +130,7 @@
     "petercorke/sphinx-autorun",
     "PetervanLunteren/EcoAssist-metadata",
     "piebald-ai/piebald",
+    "piqrypt/piqrypt-mcp-server",
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",
     "redai-infra/TransferQueue",

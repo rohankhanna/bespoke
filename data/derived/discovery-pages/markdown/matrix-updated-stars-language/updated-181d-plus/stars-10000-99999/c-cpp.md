@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-06-17T06:17:46.781735+00:00`
+Generated at: `2026-06-17T08:20:34.201468+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
+- repos: 25
 - terms: 129
 - components: 74
 - concepts: 129
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [existentialaudio/blackhole](https://github.com/ExistentialAudio/BlackHole) | 18820 | 2025-12-19T07:50:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) | 22178 | 2025-12-15T16:10:05Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
 | [spotify/annoy](https://github.com/spotify/annoy) | 14228 | 2025-10-29T14:08:37Z | C/C++ | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) | 16980 | 2025-10-27T16:12:40Z | C/C++ | Infrastructure/tooling | 15 | 15 | 15 | 15 |
@@ -68,6 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BradLarson/GPUImage](https://github.com/BradLarson/GPUImage) | 20303 | 2024-02-16T22:29:30Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [karpathy/llama2.c](https://github.com/karpathy/llama2.c) | 19435 | 2024-08-06T09:44:40Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) | 19008 | 2025-05-09T03:36:03Z | C/C++ | Infrastructure/tooling | 10 | 1 | 10 | 10 |
+| [existentialaudio/blackhole](https://github.com/ExistentialAudio/BlackHole) | 18820 | 2025-12-19T07:50:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [microsoft/CNTK](https://github.com/microsoft/CNTK) | 17601 | 2023-03-11T07:31:35Z | C/C++ | Unknown | 10 | 0 | 10 | 10 |
 | [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) | 16980 | 2025-10-27T16:12:40Z | C/C++ | Infrastructure/tooling | 15 | 15 | 15 | 15 |
 | [MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray) | 15361 | 2024-12-12T08:25:39Z | C/C++ | Infrastructure/tooling | 2 | 8 | 2 | 2 |

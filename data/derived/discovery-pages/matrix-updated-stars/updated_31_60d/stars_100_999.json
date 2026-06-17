@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 19425,
-    "concepts": 10998,
-    "observations": 11035,
-    "repos": 1790,
-    "terms": 11005
+    "components": 19408,
+    "concepts": 10983,
+    "observations": 11020,
+    "repos": 1785,
+    "terms": 10990
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x676e67/wreq",
@@ -610,7 +610,6 @@
     "evenchange4/graphql.macro",
     "executablebooks/MyST-Parser",
     "eyalroz/printf",
-    "EzequielRamis/zimdjson",
     "Ezibenroc/PyRoaringBitMap",
     "f32c/f32c",
     "facebook/fboss",
@@ -709,7 +708,6 @@
     "godotengine/godot-builds",
     "gofiber/contrib",
     "gofrs/flock",
-    "google-deepmind/distrax",
     "google-gemini/gemini-api-quickstart",
     "google/agents-cli",
     "google/cameratrapai",
@@ -816,7 +814,6 @@
     "higlass/higlass",
     "HKU-BAL/Clair3",
     "hku-mars/FAST-Calib",
-    "hkulekci/qdrant-php",
     "HOL-Theorem-Prover/HOL",
     "hshi74/toddlerbot",
     "html5lib/html5lib-tests",
@@ -899,7 +896,6 @@
     "jcmvbkbc/gcc-xtensa",
     "jdereg/json-io",
     "jellyfin/jellyfin-ffmpeg",
-    "jeremymailen/kotlinter-gradle",
     "jest-community/jest-junit",
     "jez/dotfiles",
     "jeziellago/compose-markdown",
@@ -1177,7 +1173,6 @@
     "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
     "mitsuba-renderer/drjit",
-    "mitsuba-renderer/drjit-core",
     "mlc-ai/relax",
     "mll-lab-nu/VAGEN",
     "mmark-md/mmark",

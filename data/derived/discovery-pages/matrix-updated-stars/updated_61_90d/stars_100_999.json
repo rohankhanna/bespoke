@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8125,
-    "concepts": 5061,
-    "observations": 5087,
-    "repos": 1068,
-    "terms": 5139
+    "components": 8135,
+    "concepts": 5066,
+    "observations": 5092,
+    "repos": 1072,
+    "terms": 5144
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0xNyk/council-of-high-intelligence",
@@ -405,6 +405,7 @@
     "evmts/tevm-monorepo",
     "EvolvingLMMs-Lab/EASI",
     "eyalz800/zpp_bits",
+    "EzequielRamis/zimdjson",
     "fabmax/physx-jni",
     "fabmax/physx-js-webidl",
     "facebookexperimental/allocative",
@@ -476,6 +477,7 @@
     "go-openapi/swag",
     "go-viper/mapstructure",
     "google-deepmind/chex",
+    "google-deepmind/distrax",
     "google-deepmind/meltingpot",
     "google-deepmind/physics-IQ-benchmark",
     "google-research/android_world",
@@ -531,6 +533,7 @@
     "heyoeyo/muggled_dpt",
     "higress-group/higress-console",
     "HKU-BAL/ClairS",
+    "hkulekci/qdrant-php",
     "hniksic/rust-subprocess",
     "HoangTheQuyen/think-better",
     "hsivonen/chardetng",
@@ -575,6 +578,7 @@
     "janestreet/async",
     "janestreet/torch",
     "Jasonzzt/ComfyUI-CacheDiT",
+    "jeremymailen/kotlinter-gradle",
     "jgm/djot.js",
     "jimmywarting/native-file-system-adapter",
     "jimporter/mike",
@@ -698,7 +702,6 @@
     "mattn/webapi-vim",
     "Mc-Zen/tidy",
     "melix/jmh-gradle-plugin",
-    "melMass/comfy_mtb",
     "meta-pytorch/torchft",
     "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
@@ -733,6 +736,7 @@
     "minio/directpv",
     "minio/highwayhash",
     "mirage/mirage-www",
+    "mitsuba-renderer/drjit-core",
     "mitsuhiko/similar-asserts",
     "miurahr/py7zr",
     "mkdocstrings/griffe",

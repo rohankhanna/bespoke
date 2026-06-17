@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 4,
-    "observations": 5,
-    "repos": 2,
-    "terms": 4
+    "components": 25,
+    "concepts": 8,
+    "observations": 9,
+    "repos": 4,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
+    "CHIP-SPV/H4I-HipFFT",
+    "CHIP-SPV/H4I-HipSOLVER",
     "datachainlab/cosmos-bsc-ibc-lcp",
     "Saalvage/assimp"
   ]

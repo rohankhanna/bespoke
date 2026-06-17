@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4257,
-    "concepts": 2234,
-    "observations": 2242,
-    "repos": 608,
-    "terms": 2254
+    "components": 4247,
+    "concepts": 2232,
+    "observations": 2240,
+    "repos": 607,
+    "terms": 2252
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -84,7 +84,6 @@
     "ankurhanda/robot-assets",
     "antham/ghokin",
     "antonWetzel/prettypst",
-    "Anush008/tokenizers",
     "apache/camel-quarkus-examples",
     "apache/datasketches-hive",
     "apache/datasketches-pig",

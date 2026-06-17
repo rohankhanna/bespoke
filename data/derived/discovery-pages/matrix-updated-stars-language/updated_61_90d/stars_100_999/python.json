@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 881,
-    "concepts": 1010,
-    "observations": 1017,
+    "components": 879,
+    "concepts": 1002,
+    "observations": 1009,
     "repos": 220,
-    "terms": 1026
+    "terms": 1018
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -95,6 +95,7 @@
     "G-Research/ahocorasick_rs",
     "gmberton/MegaLoc",
     "google-deepmind/chex",
+    "google-deepmind/distrax",
     "google-deepmind/meltingpot",
     "google-deepmind/physics-IQ-benchmark",
     "google-research/android_world",
@@ -145,7 +146,6 @@
     "MahmoudAshraf97/ctc-forced-aligner",
     "marcelm/cutadapt",
     "matthew-brett/delocate",
-    "melMass/comfy_mtb",
     "meta-pytorch/torchft",
     "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ArchScale",

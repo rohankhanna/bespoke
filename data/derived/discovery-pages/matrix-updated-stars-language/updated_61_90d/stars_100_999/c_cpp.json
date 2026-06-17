@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 425,
-    "concepts": 575,
-    "observations": 578,
-    "repos": 108,
-    "terms": 571
+    "concepts": 577,
+    "observations": 580,
+    "repos": 109,
+    "terms": 573
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
@@ -82,6 +82,7 @@
     "microsoft/Tutel",
     "microsoft/xlang",
     "mikolmogorov/Flye",
+    "mitsuba-renderer/drjit-core",
     "ml-explore/mlx-c",
     "mybigday/llama.rn",
     "mybigday/whisper.rn",

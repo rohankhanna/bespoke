@@ -3,7 +3,7 @@
     "components": 45,
     "concepts": 74,
     "observations": 74,
-    "repos": 11,
+    "repos": 10,
     "terms": 74
   },
   "facet_version": 1,
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bol-van/zapret",
-    "existentialaudio/blackhole",
     "ffmpegwasm/ffmpeg.wasm",
     "git-up/GitUp",
     "google/leveldb",

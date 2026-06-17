@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2988,
-    "concepts": 1664,
-    "observations": 1671,
-    "repos": 622,
-    "terms": 1672
+    "components": 2998,
+    "concepts": 1666,
+    "observations": 1673,
+    "repos": 623,
+    "terms": 1674
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -78,6 +78,7 @@
     "Antibrumm/jackson-antpathfilter",
     "antonbabenko/serverless.tf-playground",
     "antonengelhardt/wasm-oidc-plugin",
+    "Anush008/tokenizers",
     "apache/.github",
     "apache/datasketches-python",
     "apache/incubator-seata-go-samples",

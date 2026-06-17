@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 309,
-    "concepts": 182,
-    "observations": 184,
-    "repos": 50,
-    "terms": 187
+    "components": 299,
+    "concepts": 180,
+    "observations": 182,
+    "repos": 49,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "adumbidiot/lz-str-rs",
     "alixinne/glsl-lang",
     "andelf/picc",
     "antonWetzel/prettypst",
-    "Anush008/tokenizers",
     "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",

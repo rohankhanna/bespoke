@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1977,
-    "concepts": 1871,
-    "observations": 1878,
-    "repos": 327,
-    "terms": 1862
+    "components": 1972,
+    "concepts": 1869,
+    "observations": 1876,
+    "repos": 326,
+    "terms": 1860
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aboutcode-org/scancode.io",
@@ -153,7 +153,6 @@
     "gmberton/VPR-methods-evaluation",
     "GNOME/adwaita-icon-theme",
     "godotengine/godot-builds",
-    "google-deepmind/distrax",
     "google/cameratrapai",
     "google/fiddle",
     "google/orbax",

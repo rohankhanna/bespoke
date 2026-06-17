@@ -3,7 +3,7 @@
     "components": 3657,
     "concepts": 3208,
     "observations": 3225,
-    "repos": 420,
+    "repos": 419,
     "terms": 3188
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -342,7 +342,6 @@
     "prometheus-community/helm-charts",
     "prometheus-operator/kube-prometheus",
     "prontolabs/pronto",
-    "prophesier/diff-svc",
     "puma/puma",
     "purcell/emacs.d",
     "purcell/exec-path-from-shell",

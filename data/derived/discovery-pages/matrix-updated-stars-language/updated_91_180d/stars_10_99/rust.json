@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 146,
-    "observations": 148,
-    "repos": 59,
-    "terms": 144
+    "components": 225,
+    "concepts": 148,
+    "observations": 150,
+    "repos": 60,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
     "agentclientprotocol/symposium-acp",
     "alloy-rs/op-alloy",
     "antonengelhardt/wasm-oidc-plugin",
+    "Anush008/tokenizers",
     "apache/opendal-ofs",
     "ArjunNair/egui_sdl2_gl",
     "assimelha/cmcp",

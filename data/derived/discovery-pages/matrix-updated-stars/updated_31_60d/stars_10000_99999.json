@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22961,
-    "concepts": 9849,
-    "observations": 9885,
-    "repos": 898,
-    "terms": 9835
+    "components": 22937,
+    "concepts": 9847,
+    "observations": 9883,
+    "repos": 897,
+    "terms": 9833
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -559,7 +559,6 @@
     "microsoft/react-native-windows",
     "microsoft/semantic-kernel",
     "microsoft/STL",
-    "microsoft/typescript-go",
     "microsoft/vcpkg",
     "microsoft/windows-rs",
     "microsoft/winget-cli",

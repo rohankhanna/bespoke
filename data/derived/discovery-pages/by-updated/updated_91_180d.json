@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 15812,
-    "concepts": 10315,
-    "observations": 10349,
-    "repos": 2695,
-    "terms": 10282
+    "components": 15827,
+    "concepts": 10330,
+    "observations": 10364,
+    "repos": 2697,
+    "terms": 10297
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T06:17:46.781735+00:00",
+  "generated_at": "2026-06-17T08:20:34.201468+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -214,7 +214,6 @@
     "anandthakker/doiuse",
     "anapnoe/stable-diffusion-webui-ux",
     "anchordotdev/puma-acme",
-    "andialbrecht/sqlparse",
     "andrasg/matterbridge-loxone",
     "andreafrancia/trash-cli",
     "AndrewRadev/switch.vim",
@@ -261,6 +260,7 @@
     "Antonboom/testifylint",
     "antonengelhardt/wasm-oidc-plugin",
     "antosha417/nvim-lsp-file-operations",
+    "Anush008/tokenizers",
     "apache/.github",
     "apache/datasketches-python",
     "apache/horaedb",
@@ -408,6 +408,7 @@
     "bartventer/httpcache",
     "baskeboler/clj-karaoke-lyrics",
     "bats-core/bats-core",
+    "bazelbuild/buildtools",
     "bazelbuild/java_tools",
     "bazelbuild/rules_docker",
     "bazelbuild/stardoc",
@@ -972,7 +973,6 @@
     "excubo-ag/WebCompiler",
     "executablebooks/sphinx-copybutton",
     "EXIficient/exificient-for-json",
-    "existentialaudio/blackhole",
     "extism/go-pdk",
     "extism/rust-pdk",
     "Extraltodeus/Skimmed_CFG",
@@ -1705,6 +1705,7 @@
     "megvii-research/HiDiffusion",
     "meidachen/STPLS3D",
     "Melandel/workflow",
+    "melMass/comfy_mtb",
     "memononen/nanovg",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
     "Mercury13/utranslator",
@@ -2554,6 +2555,7 @@
     "ValdikSS/GoodbyeDPI",
     "ValveSoftware/Fossilize",
     "varvet/pundit",
+    "vcr/vcr",
     "vectordotdev/heim",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "vega/schema",
