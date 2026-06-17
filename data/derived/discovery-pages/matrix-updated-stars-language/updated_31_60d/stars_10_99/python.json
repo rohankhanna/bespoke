@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 731,
-    "concepts": 469,
-    "observations": 471,
-    "repos": 129,
-    "terms": 479
+    "components": 697,
+    "concepts": 448,
+    "observations": 450,
+    "repos": 124,
+    "terms": 455
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -50,7 +50,6 @@
     "carstencodes/simplepycons",
     "castorini/anserini-tools",
     "castorini/umbrela",
-    "cdeust/cortex",
     "channel-io/ch-tts-llasa-rl-grpo",
     "chengzhag/PanFlow",
     "cloudfoundry/community",
@@ -94,7 +93,6 @@
     "MGenAI/GRN",
     "microsoft/olive-recipes",
     "ModelCloud/Evalution",
-    "mypyc/mypyc-benchmarks",
     "NeilGirdhar/tjax",
     "neo4j/neo4j-python-driver-rust-ext",
     "NoakLiu/FastCache-xDiT",
@@ -112,14 +110,12 @@
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
-    "pycompression/python-isal",
     "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
-    "redhat-et/triton-dev-containers",
     "redis/docs",
     "regro/cf-scripts",
     "ROCm/tritonBLAS",
@@ -131,7 +127,6 @@
     "sliamh11/deus",
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
-    "svaningelgem/logprise",
     "symgraph/BinAssistMCP",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",

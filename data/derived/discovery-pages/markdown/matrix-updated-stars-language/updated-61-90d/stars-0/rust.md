@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Rust
 
-Generated at: `2026-06-16T08:32:32.833203+00:00`
+Generated at: `2026-06-17T06:17:46.781735+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 35
-- components: 102
-- concepts: 35
-- observations: 35
+- repos: 20
+- terms: 36
+- components: 103
+- concepts: 36
+- observations: 36
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [PrimeIntellect-ai/router](https://github.com/PrimeIntellect-ai/router) | 0 | 2026-04-16T12:13:48Z | Rust | Infrastructure/tooling | 7 | 13 | 7 | 7 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [datafuse-extras/lance](https://github.com/datafuse-extras/lance) | 0 | 2026-04-17T07:53:42Z | Rust | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [datafuse-extras/orc-rust](https://github.com/datafuse-extras/orc-rust) | 0 | 2026-04-17T07:53:37Z | Rust | Infrastructure/tooling | 0 | 11 | 0 | 0 |
 | [PrimeIntellect-ai/router](https://github.com/PrimeIntellect-ai/router) | 0 | 2026-04-16T12:13:48Z | Rust | Infrastructure/tooling | 7 | 13 | 7 | 7 |

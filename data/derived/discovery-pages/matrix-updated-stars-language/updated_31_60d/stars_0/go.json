@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 8,
-    "terms": 21
+    "components": 41,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 7,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "Amtrend/ssh-manager",
     "DataDog/vault",
-    "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",
     "kdubbo/xds-api",

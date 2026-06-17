@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 132,
-    "concepts": 220,
-    "observations": 221,
-    "repos": 57,
-    "terms": 220
+    "concepts": 208,
+    "observations": 209,
+    "repos": 54,
+    "terms": 208
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
-    "actions/partner-runner-images",
     "adoptium/temurin21-binaries",
-    "ailev/fpf",
     "antonbabenko/awesome-terraform-compliance",
     "apappascs/mcp-servers-hub",
     "AutoJunjie/awesome-agent-harness",
@@ -58,7 +56,6 @@
     "mdn/mdn-community",
     "microsoft/openjdk",
     "near/NEPs",
-    "nimbalyst/nimbalyst",
     "NuGet/docs.microsoft.com-nuget",
     "oak-security/audit-reports",
     "ocaml/opam-repository",

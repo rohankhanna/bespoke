@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2949,
-    "concepts": 564,
-    "observations": 568,
-    "repos": 107,
-    "terms": 576
+    "components": 2829,
+    "concepts": 548,
+    "observations": 552,
+    "repos": 101,
+    "terms": 554
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -23,10 +23,8 @@
     "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
-    "ava-labs/avalanche-dapp-sdks",
     "Azure/bicep-deploy",
     "Azure/powershell",
-    "Beaglefoot/prettier-plugin-awk",
     "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -38,9 +36,7 @@
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "dannyhw/expo-storybook-starter",
-    "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "DataDog/opentelemetry-demo",
-    "dokploy/cli",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
     "electron/windows-sign",
@@ -118,8 +114,6 @@
     "universal-ember/reactiveweb",
     "vaultwarden/vw_web_builds",
     "vincentlaucsb/experiencer",
-    "wighawag/rocketh",
-    "ylsssq926/relic.skill",
-    "zuplo/docs"
+    "wighawag/rocketh"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 6512,
-    "concepts": 3237,
-    "observations": 3253,
-    "repos": 391,
-    "terms": 3226
+    "components": 6482,
+    "concepts": 3216,
+    "observations": 3232,
+    "repos": 387,
+    "terms": 3205
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -24,7 +24,6 @@
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "AI-Hypercomputer/maxdiffusion",
     "ai-that-works/ai-that-works",
-    "Ai00-X/ai00_server",
     "aidenlab/juicebox-web",
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
@@ -291,7 +290,6 @@
     "podman-desktop/podman-desktop",
     "preactjs/preact",
     "preactjs/preact-devtools",
-    "preservim/tagbar",
     "PrimeIntellect-ai/verifiers",
     "protocolbuffers/protobuf",
     "psf/black",
@@ -306,7 +304,6 @@
     "python-poetry/poetry",
     "python-poetry/poetry-plugin-export",
     "python-poetry/website",
-    "python-versioneer/python-versioneer",
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
@@ -369,7 +366,6 @@
     "triton-lang/triton",
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
-    "ufbx/ufbx",
     "ultrajson/ultrajson",
     "ungoogled-software/ungoogled-chromium",
     "unifyai/ivy",

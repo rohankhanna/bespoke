@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-16T08:32:32.833203+00:00`
+Generated at: `2026-06-17T06:17:46.781735+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 40
-- terms: 36
-- components: 22
-- concepts: 36
-- observations: 36
+- repos: 45
+- terms: 40
+- components: 28
+- concepts: 40
+- observations: 40
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alexcrichton/cc-rs](https://github.com/alexcrichton/cc-rs) | 0 | 2026-04-17T15:43:01Z | Unknown | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [damacol/ai-hub](https://github.com/Damacol/ai-hub) | 0 | 2026-04-17T14:23:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -71,6 +76,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alexcrichton/cc-rs](https://github.com/alexcrichton/cc-rs) | 0 | 2026-04-17T15:43:01Z | Unknown | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [damacol/ai-hub](https://github.com/Damacol/ai-hub) | 0 | 2026-04-17T14:23:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [danielrosehill/Research-Tools-And-Templates-Index](https://github.com/danielrosehill/Research-Tools-And-Templates-Index) | 0 | 2026-04-14T12:21:21Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1094,
-    "concepts": 929,
-    "observations": 932,
-    "repos": 239,
-    "terms": 924
+    "concepts": 918,
+    "observations": 921,
+    "repos": 241,
+    "terms": 913
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -43,10 +43,10 @@
     "Azure-Samples/contoso-creative-writer",
     "Azure/aca-landing-zone-accelerator",
     "Azure/arm-ttk",
-    "Azure/reliable-web-app-pattern-dotnet",
     "Azure/template-analyzer",
     "babashka/scittle",
     "badges/awesome-badges",
+    "bbatsov/super-save",
     "beam-telemetry/telemetry",
     "beam-telemetry/telemetry_metrics",
     "benbalter/jekyll-include-cache",
@@ -138,6 +138,7 @@
     "Helsinki-NLP/OPUS-MT-train",
     "hollowstrawberry/kohya-colab",
     "iftheshoefritz/solargraph-rails",
+    "IST-DASLab/Quartet",
     "izelnakri/paper_trail",
     "JacksonBurns/chemeleon",
     "JetBrains/gradle-changelog-plugin",
@@ -158,6 +159,7 @@
     "k0kubun/hamlit",
     "kakajun/vue3-sketch-ruler",
     "kevinhwang91/nvim-hlslens",
+    "KhronosGroup/EGL-Registry",
     "KhronosGroup/glTF-Validator",
     "kowainik/relude",
     "kowainik/summoner",

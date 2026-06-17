@@ -3,7 +3,7 @@
     "components": 170,
     "concepts": 117,
     "observations": 117,
-    "repos": 69,
+    "repos": 70,
     "terms": 116
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -82,6 +82,7 @@
     "srdtrk/cw-ibc-lite",
     "tats-u/goldmark-cjk-friendly",
     "tidwall/gjson-benchmarks",
+    "tmikus/ahocorasick_rs",
     "usbarmory/armory-drive-log"
   ]
 }

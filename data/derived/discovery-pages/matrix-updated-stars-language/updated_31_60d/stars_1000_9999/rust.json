@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2195,
-    "concepts": 1620,
-    "observations": 1625,
-    "repos": 201,
-    "terms": 1628
+    "components": 2078,
+    "concepts": 1559,
+    "observations": 1564,
+    "repos": 192,
+    "terms": 1567
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -34,8 +34,6 @@
     "apache/iggy",
     "apache/opendal",
     "askama-rs/askama",
-    "asny/three-d",
-    "asomers/mockall",
     "aws-cloudformation/cloudformation-guard",
     "aws/amazon-q-developer-cli",
     "axodotdev/cargo-dist",
@@ -52,7 +50,6 @@
     "cargo-bins/cargo-binstall",
     "cargo-generate/cargo-generate",
     "ccbrown/iocraft",
-    "cedar-policy/cedar",
     "chelsea0x3b/cudarc",
     "cobalt-org/cobalt.rs",
     "compio-rs/compio",
@@ -109,7 +106,6 @@
     "kata-containers/kata-containers",
     "Keats/jsonwebtoken",
     "kika/fixedsys",
-    "killercup/cargo-edit",
     "kivikakk/comrak",
     "lakekeeper/lakekeeper",
     "lance-format/lance",
@@ -129,14 +125,11 @@
     "mstange/samply",
     "mthom/scryer-prolog",
     "Myriad-Dreamin/tinymist",
-    "napi-rs/napi-rs",
-    "napi-rs/node-rs",
     "nats-io/nats.rs",
     "neon-bindings/neon",
     "nextest-rs/nextest",
     "nix-rust/nix",
     "notify-rs/notify",
-    "nvidia/openshell",
     "obi1kenobi/cargo-semver-checks",
     "obi1kenobi/trustfall",
     "open-telemetry/opentelemetry-rust",
@@ -202,8 +195,6 @@
     "tensorchord/VectorChord",
     "tikv/pprof-rs",
     "time-rs/time",
-    "tokio-rs/mio",
-    "tokio-rs/tracing",
     "toml-rs/toml",
     "tracel-ai/cubecl",
     "trishume/syntect",

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-06-16T08:32:32.833203+00:00`
+Generated at: `2026-06-17T06:17:46.781735+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 226
-- terms: 335
-- components: 805
-- concepts: 306
-- observations: 306
+- repos: 217
+- terms: 302
+- components: 740
+- concepts: 274
+- observations: 274
 
 ## Static behavior
 
@@ -242,15 +242,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CHIP-SPV/H4I-HipFFT](https://github.com/CHIP-SPV/H4I-HipFFT) | 0 | 2026-04-18T08:08:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CHIP-SPV/H4I-HipSOLVER](https://github.com/CHIP-SPV/H4I-HipSOLVER) | 0 | 2026-04-18T08:08:38Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [foundry-rs/optimism](https://github.com/foundry-rs/optimism) | 0 | 2026-04-17T17:21:17Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [alexcrichton/cc-rs](https://github.com/alexcrichton/cc-rs) | 0 | 2026-04-17T15:43:01Z | Unknown | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |
-| [damacol/ai-hub](https://github.com/Damacol/ai-hub) | 0 | 2026-04-17T14:23:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
-| [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
 
 ## Repos sorted by stars
 
@@ -473,12 +464,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CHIP-SPV/H4I-HipFFT](https://github.com/CHIP-SPV/H4I-HipFFT) | 0 | 2026-04-18T08:08:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CHIP-SPV/H4I-HipSOLVER](https://github.com/CHIP-SPV/H4I-HipSOLVER) | 0 | 2026-04-18T08:08:38Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [FEniCS/spack-fenics](https://github.com/FEniCS/spack-fenics) | 0 | 2026-04-18T06:51:20Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
-| [foundry-rs/optimism](https://github.com/foundry-rs/optimism) | 0 | 2026-04-17T17:21:17Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [alexcrichton/cc-rs](https://github.com/alexcrichton/cc-rs) | 0 | 2026-04-17T15:43:01Z | Unknown | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |
-| [damacol/ai-hub](https://github.com/Damacol/ai-hub) | 0 | 2026-04-17T14:23:12Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
-| [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Speech-And-ASR-Evaluations](https://github.com/danielrosehill/Speech-And-ASR-Evaluations) | 0 | 2026-04-17T12:19:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |

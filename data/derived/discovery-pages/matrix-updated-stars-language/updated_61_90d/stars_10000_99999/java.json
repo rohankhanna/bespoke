@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 5,
-    "terms": 43
+    "components": 28,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 6,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "alibaba/Sentinel",
     "google/auto",
+    "google/guava",
     "Konloch/bytecode-viewer",
     "ReactiveX/RxAndroid",
     "termux/termux-app"

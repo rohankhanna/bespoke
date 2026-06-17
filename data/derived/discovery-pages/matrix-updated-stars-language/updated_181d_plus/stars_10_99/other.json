@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2138,
-    "concepts": 2005,
-    "observations": 2011,
-    "repos": 862,
-    "terms": 1993
+    "components": 2146,
+    "concepts": 2012,
+    "observations": 2018,
+    "repos": 863,
+    "terms": 2000
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -852,6 +852,7 @@
     "WebAssembly/extended-const",
     "WebAssembly/flexible-vectors",
     "WebAV-Tech/WebAV-Pro",
+    "webdataset/WebDataset.jl",
     "WebReflection/jsdon",
     "wentasah/emacsvterm.jl",
     "westnordost/osmfeatures",

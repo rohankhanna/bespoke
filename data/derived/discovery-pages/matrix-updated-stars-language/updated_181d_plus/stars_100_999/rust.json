@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 788,
-    "concepts": 633,
-    "observations": 641,
-    "repos": 188,
-    "terms": 625
+    "components": 794,
+    "concepts": 638,
+    "observations": 646,
+    "repos": 190,
+    "terms": 630
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -75,6 +75,7 @@
     "dirs-dev/directories-rs",
     "dirs-dev/dirs-rs",
     "dotenv-rs/dotenv",
+    "dustinblackman/cargo-run-bin",
     "ecumene/rust-sloth",
     "edgenai/llama_cpp-rs",
     "EmbarkStudios/ash-molten",
@@ -134,6 +135,7 @@
     "mdrokz/rust-llama.cpp",
     "Michael-F-Bryan/include_dir",
     "Michael-F-Bryan/mdbook-linkcheck",
+    "microsoft/rust_win_etw",
     "microsoft/Spartan",
     "microsoft/vscode-remote-try-rust",
     "Misterio77/flavours",

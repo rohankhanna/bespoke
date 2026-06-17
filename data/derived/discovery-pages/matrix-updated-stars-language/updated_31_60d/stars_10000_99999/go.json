@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1621,
-    "concepts": 1533,
-    "observations": 1539,
-    "repos": 123,
-    "terms": 1523
+    "components": 1552,
+    "concepts": 1470,
+    "observations": 1476,
+    "repos": 117,
+    "terms": 1458
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
-    "1panel-dev/1panel",
     "99designs/gqlgen",
     "a-h/templ",
     "AdguardTeam/AdGuardHome",
@@ -41,14 +40,11 @@
     "cloudwego/eino",
     "cockroachdb/cockroach",
     "coder/coder",
-    "containerd/containerd",
     "containerd/nerdctl",
     "containers/podman",
     "containers/skopeo",
     "coredns/coredns",
-    "coreybutler/nvm-windows",
     "dagger/dagger",
-    "danielmiessler/fabric",
     "dexidp/dex",
     "dgraph-io/badger",
     "dgraph-io/dgraph",
@@ -94,7 +90,6 @@
     "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",
-    "kubernetes-sigs/kustomize",
     "kubernetes/kops",
     "kubernetes/minikube",
     "lima-vm/lima",
@@ -104,7 +99,6 @@
     "milvus-io/milvus",
     "nats-io/nats-server",
     "navidrome/navidrome",
-    "nektos/act",
     "oauth2-proxy/oauth2-proxy",
     "open-policy-agent/opa",
     "opencontainers/runc",

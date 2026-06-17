@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1970,
-    "concepts": 307,
-    "observations": 308,
-    "repos": 66,
-    "terms": 316
+    "components": 2033,
+    "concepts": 347,
+    "observations": 348,
+    "repos": 70,
+    "terms": 360
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "adaltas/node-http-status",
     "addyosmani/chatty",
+    "aelassas/bookcars",
     "agentscope-ai/agentscope-studio",
     "akshaykmr/teletype",
     "antfu-collective/bumpp",
@@ -39,6 +40,7 @@
     "gajus/eslint-plugin-sql",
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
+    "graphql-hive/graphql-eslint",
     "h3js/rou3",
     "hyparam/hightable",
     "hyperbrew/bolt-cep",
@@ -68,9 +70,11 @@
     "priceline/design-system",
     "SassNinja/postcss-extract-media-query",
     "solidjs/templates",
+    "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",
     "testing-library/angular-testing-library",
     "tevonsb/homeassistant-mcp",
+    "thesayyn/protoc-gen-ts",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",

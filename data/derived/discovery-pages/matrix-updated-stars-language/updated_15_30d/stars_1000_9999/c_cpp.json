@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 148,
-    "observations": 149,
-    "repos": 15,
-    "terms": 146
+    "components": 154,
+    "concepts": 146,
+    "observations": 147,
+    "repos": 14,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
@@ -26,7 +26,6 @@
     "riscv-collab/riscv-gnu-toolchain",
     "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom",
-    "ufbx/ufbx",
     "ultrajson/ultrajson",
     "xtensor-stack/xtensor"
   ]

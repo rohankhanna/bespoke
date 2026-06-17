@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2247,
-    "concepts": 496,
-    "observations": 496,
+    "components": 2224,
+    "concepts": 474,
+    "observations": 474,
     "repos": 91,
-    "terms": 528
+    "terms": 504
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "AbianS/docker-db-manager",
     "actions-cool/issues-helper",
     "actions/container-toolkit-action",
-    "aelassas/bookcars",
     "affaan-m/agentshield",
     "AmElmo/proofshot",
     "amplify-education/serverless-domain-manager",
@@ -56,7 +55,6 @@
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
     "graalvm/setup-graalvm",
-    "graphql-hive/graphql-eslint",
     "h3js/crossws",
     "hazelcast/hazelcast-nodejs-client",
     "immersive-translate/zotero-immersivetranslate",
@@ -85,6 +83,7 @@
     "neolabhq/context-engineering-kit",
     "nothingislost/obsidian-hover-editor",
     "NVIDIA/OpenShell-Community",
+    "nyatinte/ccexp",
     "Obsidian-TTRPG-Community/initiative-tracker",
     "ory/hydra-login-consent-node",
     "ory/kratos-selfservice-ui-node",
@@ -92,11 +91,12 @@
     "retracedhq/retraced",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk",
+    "Shougo/ddc.vim",
+    "Shougo/ddu.vim",
+    "Shougo/dpp.vim",
     "Siubaak/sval",
     "snipeship/ccflare",
     "storybookjs/test-runner",
-    "sudocode-ai/sudocode",
-    "thesayyn/protoc-gen-ts",
     "timkindberg/jest-when",
     "tracked-tools/tracked-built-ins",
     "typed-ember/glint",

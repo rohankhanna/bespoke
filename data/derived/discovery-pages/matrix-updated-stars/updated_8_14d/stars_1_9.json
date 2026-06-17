@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 12,
+    "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 1,
     "terms": 0
   },
   "facet_version": 1,
@@ -11,9 +11,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
-    "aidenlab/juicebox-web",
-    "xuanji86/ainiee-translate-skill"
+    "elixir-makeup/makeup_c"
   ]
 }

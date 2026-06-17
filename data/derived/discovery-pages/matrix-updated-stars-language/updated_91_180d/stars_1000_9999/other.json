@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 587,
-    "concepts": 678,
-    "observations": 681,
-    "repos": 133,
-    "terms": 682
+    "components": 606,
+    "concepts": 692,
+    "observations": 695,
+    "repos": 138,
+    "terms": 695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -43,6 +43,7 @@
     "clojure/core.logic",
     "clojure/test.check",
     "cognitect/transit-format",
+    "container-storage-interface/spec",
     "cpm-cmake/CPM.cmake",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
@@ -97,6 +98,7 @@
     "mds1/multicall3",
     "mfussenegger/nvim-jdtls",
     "mhinz/vim-signify",
+    "michalmuskala/jason",
     "microsoft/BotBuilder-Samples",
     "microsoft/mssql-docker",
     "microsoft/Security-101",
@@ -106,10 +108,12 @@
     "msasanmh/DNSveil",
     "myclabs/DeepCopy",
     "nanxiaobei/hugo-paper",
+    "nesquena/rabl",
     "nvim-java/nvim-java",
     "omniauth/omniauth",
     "onnx/models",
     "onsails/lspkind.nvim",
+    "opal/opal",
     "OpenBMB/MiniCPM",
     "parruda/swarm",
     "pgpartman/pg_partman",
@@ -122,6 +126,7 @@
     "rails/tailwindcss-rails",
     "reagent-project/reagent",
     "rjpcomputing/luaforwindows",
+    "rmcelreath/rethinking",
     "rrousselGit/provider",
     "rspec/rspec-rails",
     "ruby-i18n/i18n",

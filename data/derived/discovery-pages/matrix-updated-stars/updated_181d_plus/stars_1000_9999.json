@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10774,
-    "concepts": 9448,
-    "observations": 9461,
-    "repos": 2426,
-    "terms": 9311
+    "components": 10781,
+    "concepts": 9450,
+    "observations": 9463,
+    "repos": 2428,
+    "terms": 9313
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -138,6 +138,7 @@
     "amazon-science/mm-cot",
     "ambrop72/badvpn",
     "amdegroot/ssd.pytorch",
+    "ameshkov/dnslookup",
     "amsul/pickadate.js",
     "anderscui/jieba.NET",
     "andersontr15/clean-code-javascript-es",
@@ -513,6 +514,7 @@
     "DATA-DOG/go-sqlmock",
     "DatabaseCleaner/database_cleaner",
     "datamllab/tods",
+    "datawhalechina/so-large-lm",
     "datenwolf/linmath.h",
     "datitran/raccoon_dataset",
     "datreeio/datree",

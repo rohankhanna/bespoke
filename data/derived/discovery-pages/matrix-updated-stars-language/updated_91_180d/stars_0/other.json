@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 14,
-    "terms": 17
+    "components": 33,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 16,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
+    "bookcars/bookcars.github.io",
     "charlesnicholson/docker-images",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/Israel-First-Aid",
@@ -24,6 +25,7 @@
     "JuliaBinaryWrappers/Glib_jll.jl",
     "mjvolk3/dendron-template",
     "musicman3/r2-d2",
+    "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-timezones-ex",
     "stable-haskell/stack",

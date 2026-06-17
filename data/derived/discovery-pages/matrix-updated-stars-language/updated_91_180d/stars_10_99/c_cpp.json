@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 184,
-    "observations": 185,
-    "repos": 65,
-    "terms": 184
+    "components": 175,
+    "concepts": 187,
+    "observations": 188,
+    "repos": 66,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -59,6 +59,7 @@
     "microsoft/react-native-winrt",
     "nativium/nativium",
     "o3de/PhysX",
+    "onicai/llama_cpp_canister",
     "osmcode/osm-gis-export",
     "osvenskan/sysv_ipc",
     "paoloshasta/shasta",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 695,
-    "concepts": 477,
-    "observations": 478,
-    "repos": 101,
-    "terms": 485
+    "components": 668,
+    "concepts": 462,
+    "observations": 463,
+    "repos": 95,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -20,7 +20,6 @@
     "AccessKit/accesskit-c",
     "ai-dynamo/modelexpress",
     "andelf/axcli",
-    "andelf/picc",
     "ankane/delta-ruby",
     "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
@@ -45,7 +44,6 @@
     "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
-    "cometbft/cometbft-rs",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
@@ -59,7 +57,6 @@
     "fonttools/fontspector",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
-    "FxEmbed/mosaic",
     "g-plane/raffia",
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
@@ -73,7 +70,6 @@
     "heroku/libcnb.rs",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
-    "hpkewg/hpke-pq",
     "influxdata/datafusion-udf-wasm",
     "janrueth/boring-rustls-provider",
     "kurrent-io/KurrentDB-Client-Rust",
@@ -94,7 +90,6 @@
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
-    "phiat/claude-esp-rs",
     "Ralith/lahar",
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
@@ -105,7 +100,6 @@
     "Systemcluster/kitoken",
     "tofay/rustls-openssl",
     "tombelieber/claude-view",
-    "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "typst/typst-assets",

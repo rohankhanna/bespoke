@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2646,
-    "concepts": 573,
-    "observations": 582,
-    "repos": 110,
-    "terms": 568
+    "components": 2597,
+    "concepts": 565,
+    "observations": 574,
+    "repos": 106,
+    "terms": 560
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -22,7 +22,6 @@
     "americanexpress/jest-json-schema",
     "anonrig/fast-querystring",
     "apache/incubator-seata-website",
-    "appium/appium-ios-device",
     "aredridel/node-bin-gen",
     "auth0/node-jwks-rsa",
     "auth0/node-jws",
@@ -37,7 +36,6 @@
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
     "ClickHouse/agent-skills",
-    "cncf/sandbox",
     "coderaiser/putout",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
@@ -61,7 +59,6 @@
     "gitleaks/gitleaks-action",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "GordonChen19/Prompt-Relay",
-    "graphql/graphql-over-http",
     "higlass/higlass",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
@@ -77,7 +74,6 @@
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
     "kurrent-io/KurrentDB-Client-NodeJS",
-    "lis186/ccxray",
     "lo-th/phy",
     "lobehub/lobe-editor",
     "marwin1991/profile-technology-icons",

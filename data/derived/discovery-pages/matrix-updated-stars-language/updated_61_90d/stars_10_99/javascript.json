@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 751,
-    "concepts": 261,
-    "observations": 261,
-    "repos": 62,
-    "terms": 254
+    "components": 801,
+    "concepts": 263,
+    "observations": 263,
+    "repos": 67,
+    "terms": 256
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
+    "ahmadnassri/node-glob-promise",
     "andylockran/spectral-aws-apigateway-ruleset",
     "angular/domino",
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",
     "berty/www.berty.tech",
+    "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "brody2consult/react-native-module-init",
     "C-Lodder/grunt-postcss",
@@ -37,6 +39,9 @@
     "ehmicky/node-version-alias",
     "ehmicky/preferred-node-version",
     "electerm/electerm-locales",
+    "erichlof/AntiGravity-Pool",
+    "erichlof/PathTracedPong",
+    "erichlof/TheSentinel-2nd-Look",
     "evenchange4/graphql.macro-example",
     "faressoft/inquirer-checkbox-plus-prompt",
     "Fil/d3-tricontour",
@@ -70,11 +75,11 @@
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",
     "sveltejs/eslint-config",
-    "tc39/proposal-immutable-arraybuffer",
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
     "webtorrent/bittorrent-peerid",
-    "wemake-services/wemake-frontend-styleguide"
+    "wemake-services/wemake-frontend-styleguide",
+    "winstonjs/winston-transport"
   ]
 }

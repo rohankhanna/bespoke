@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1255,
-    "concepts": 1268,
-    "observations": 1269,
-    "repos": 218,
-    "terms": 1262
+    "components": 1182,
+    "concepts": 1212,
+    "observations": 1213,
+    "repos": 212,
+    "terms": 1206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -58,7 +58,6 @@
     "coin-or/Cbc",
     "coin-or/CppAD",
     "corporateshark/lightweightvk",
-    "cusplibrary/cusplibrary",
     "cygwin/cygwin",
     "daanx/isocline",
     "DavidKinder/Inform6",
@@ -90,13 +89,11 @@
     "Frommi/miniz_oxide",
     "ganelson/inweb",
     "garglk/garglk",
-    "gazebosim/gz-sensors",
     "gazebosim/sdformat",
     "gisbi-kim/removert",
     "go-skynet/go-llama.cpp",
     "google/dawn",
     "google/fuzztest",
-    "google/jpegli",
     "google/riegeli",
     "googleapis/google-cloud-cpp",
     "GraphBLAS/LAGraph",
@@ -155,7 +152,6 @@
     "mitsuba-renderer/drjit-core",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
-    "mybigday/llama.rn",
     "mysql/mysql-workbench",
     "nelson-lang/nelson",
     "NetHack-LE/nle",
@@ -180,7 +176,6 @@
     "optiscaler/OptiPatcher",
     "ouster-lidar/ouster-ros",
     "pantoniou/libfyaml",
-    "paullouisageneau/libjuice",
     "pbatard/Mosby",
     "pkgxdev/pantry",
     "powturbo/TurboBench",
@@ -226,7 +221,6 @@
     "triton-inference-server/pytorch_backend",
     "ucscGenomeBrowser/kent",
     "Unidata/netcdf-c",
-    "usdot-fhwa-stol/carma-platform",
     "uxlfoundation/oneCCL",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",

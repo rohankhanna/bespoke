@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 144,
-    "observations": 146,
+    "components": 215,
+    "concepts": 146,
+    "observations": 148,
     "repos": 59,
-    "terms": 142
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
+    "agentclientprotocol/symposium-acp",
     "alloy-rs/op-alloy",
     "antonengelhardt/wasm-oidc-plugin",
     "apache/opendal-ofs",
@@ -66,7 +67,6 @@
     "ros2-rust/examples",
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",
-    "RustCrypto/nacl-compat",
     "sigp/ethereum_hashing",
     "spyoungtech/json-five-rs",
     "suo/lintrunner",

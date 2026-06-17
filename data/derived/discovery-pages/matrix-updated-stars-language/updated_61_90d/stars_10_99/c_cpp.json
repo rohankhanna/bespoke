@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 182,
-    "observations": 182,
-    "repos": 40,
-    "terms": 180
+    "components": 211,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 42,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "ada-url/goada",
@@ -43,10 +43,12 @@
     "ksnip/kImageAnnotator",
     "Level/classic-level",
     "libxsmm/tpp-pytorch-extension",
+    "marciogranzotto/clawd-tank",
     "midi2-dev/ni-midi2",
+    "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
+    "mybigday/llama.node",
     "nvictus/pybbi",
-    "onicai/llama_cpp_canister",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "ROCm/roctracer",

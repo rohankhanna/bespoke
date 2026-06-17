@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 483,
-    "concepts": 942,
-    "observations": 943,
-    "repos": 179,
-    "terms": 927
+    "components": 484,
+    "concepts": 957,
+    "observations": 958,
+    "repos": 184,
+    "terms": 942
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -74,12 +74,14 @@
     "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",
     "facebookresearch/meshrcnn",
+    "facebookresearch/pytorch3d",
     "facebookresearch/pytorchvideo",
     "facebookresearch/SlowFast",
     "Farama-Foundation/Metaworld",
     "FlagOpen/RoboBrain2.5",
     "google-deepmind/alphageometry",
     "google-research/text-to-text-transfer-transformer",
+    "google/deepvariant",
     "google/fuzzbench",
     "google/ml_collections",
     "google/vizier",
@@ -88,6 +90,7 @@
     "gusye1234/nano-graphrag",
     "harbor-framework/terminal-bench",
     "heshengtao/comfyui_LLM_party",
+    "HKUDS/VideoRAG",
     "hkust-nlp/simpleRL-reason",
     "huggingface/Math-Verify",
     "hustvl/VAD",
@@ -165,7 +168,9 @@
     "s3prl/s3prl",
     "SafeAILab/EAGLE",
     "ServiceNow/BrowserGym",
+    "shareai-lab/claw0",
     "shibing624/text2vec",
+    "sierra-research/tau-bench",
     "simonw/claude-code-transcripts",
     "simonw/sqlite-utils",
     "sirfz/tesserocr",

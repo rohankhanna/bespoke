@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2499,
-    "concepts": 1243,
-    "observations": 1249,
-    "repos": 143,
-    "terms": 1234
+    "components": 2486,
+    "concepts": 1230,
+    "observations": 1236,
+    "repos": 140,
+    "terms": 1221
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -114,10 +114,8 @@
     "openai/openai-dotnet",
     "paralleldrive/cuid",
     "podman-desktop/podman-desktop",
-    "preservim/tagbar",
     "PrimeIntellect-ai/verifiers",
     "psmux/psmux",
-    "python-versioneer/python-versioneer",
     "radian-software/straight.el",
     "react-native-webview/react-native-webview",
     "redis/redis-om-python",
@@ -140,7 +138,6 @@
     "TrenchBroom/TrenchBroom",
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
-    "ufbx/ufbx",
     "ultrajson/ultrajson",
     "unplugin/unplugin-vue-components",
     "Urigo/graphql-cli",

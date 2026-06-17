@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 57,
-    "observations": 57,
+    "components": 62,
+    "concepts": 58,
+    "observations": 58,
     "repos": 16,
-    "terms": 70
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
-    "automazeio/ccpm",
     "bluesky-social/pds",
     "containers/toolbox",
     "crosstool-ng/crosstool-ng",
@@ -26,6 +25,7 @@
     "matryer/xbar-plugins",
     "nvie/git-toolbelt",
     "pgsty/pigsty",
+    "pyenv/pyenv-virtualenv",
     "spiffe/spiffe",
     "trailofbits/claude-code-config",
     "zdharma-continuum/zinit",

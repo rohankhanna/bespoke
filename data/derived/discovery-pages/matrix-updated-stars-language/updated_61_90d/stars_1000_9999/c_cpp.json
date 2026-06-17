@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 516,
-    "observations": 522,
-    "repos": 89,
-    "terms": 515
+    "components": 423,
+    "concepts": 530,
+    "observations": 536,
+    "repos": 92,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -30,6 +30,7 @@
     "ceres-solver/ceres-solver",
     "CNugteren/CLBlast",
     "containers/bubblewrap",
+    "containers/crun",
     "CVCUDA/CV-CUDA",
     "d99kris/rapidcsv",
     "Dav1dde/glad",
@@ -47,6 +48,7 @@
     "google/woff2",
     "h2o/picohttpparser",
     "hufrea/byedpi",
+    "inikep/lzbench",
     "intel/isa-l",
     "jolibrain/deepdetect",
     "KhronosGroup/MoltenVK",
@@ -70,6 +72,7 @@
     "nihui/waifu2x-ncnn-vulkan",
     "nmslib/hnswlib",
     "nodemcu/nodemcu-firmware",
+    "Novum/vkQuake",
     "NVIDIA-Omniverse/PhysX",
     "NVIDIA/cuda-samples",
     "NVIDIA/libnvidia-container",
@@ -85,6 +88,7 @@
     "riscv-software-src/opensbi",
     "ROCm/hip",
     "SarahWeiii/CoACD",
+    "sebastianstarke/AI4Animation",
     "SRombauts/SQLiteCpp",
     "stevenlovegrove/Pangolin",
     "syoyo/tinygltf",
@@ -99,7 +103,6 @@
     "WebAssembly/wabt",
     "webmproject/libwebp",
     "wjakob/nanobind",
-    "xlite-dev/lite.ai.toolkit",
     "ycm-core/ycmd",
     "zeromq/cppzmq",
     "zlib-ng/zlib-ng"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4210,
-    "concepts": 836,
-    "observations": 837,
-    "repos": 112,
-    "terms": 831
+    "components": 4084,
+    "concepts": 816,
+    "observations": 817,
+    "repos": 108,
+    "terms": 811
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -81,12 +81,10 @@
     "nodegit/nodegit",
     "nodejs/Release",
     "nodejs/undici",
-    "npm/cli",
     "observing/pre-commit",
     "openstreetmap/iD",
     "openwrt/luci",
     "parallel-js/parallel.js",
-    "piebald-ai/claude-code-system-prompts",
     "pillarjs/iconv-lite",
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-import",
@@ -98,7 +96,6 @@
     "RisingStack/react-easy-state",
     "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
-    "serverless-operations/serverless-step-functions",
     "sindresorhus/np",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
@@ -111,7 +108,6 @@
     "terser/terser",
     "testem/testem",
     "thlorenz/doctoc",
-    "tomas/needle",
     "tw-in-js/twind",
     "uBlockOrigin/uBOL-home",
     "umijs/dumi",

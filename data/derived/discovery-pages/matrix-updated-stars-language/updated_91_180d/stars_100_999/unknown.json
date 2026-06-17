@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 28,
-    "concepts": 117,
-    "observations": 118,
-    "repos": 40,
-    "terms": 110
+    "concepts": 118,
+    "observations": 119,
+    "repos": 41,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "Alex313031/Thorium-Android",
@@ -28,6 +28,7 @@
     "googleapis/python-logging",
     "GuiWonder/MoonStarsKai",
     "hashicorp/vault-examples",
+    "helm/community",
     "IceClear/SeedVR2",
     "ipfs/devgrants",
     "JuliaDiff/BlueStyle",

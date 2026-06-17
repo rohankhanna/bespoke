@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 141,
-    "observations": 142,
-    "repos": 93,
-    "terms": 140
+    "components": 291,
+    "concepts": 149,
+    "observations": 150,
+    "repos": 95,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -26,6 +26,7 @@
     "artsy/react-native-launch-arguments",
     "Bearer/homebrew-tap",
     "bgw/bincode",
+    "bookcars/bookcars.github.io",
     "CADindustries/container",
     "charlesnicholson/docker-images",
     "CharlieFRuan/harbor",
@@ -77,10 +78,12 @@
     "kylebarron/pyo3-file",
     "llamagate/diff",
     "maeste/a2a-tck",
+    "marin-community/harbor",
     "mjvolk3/dendron-template",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
     "musicman3/r2-d2",
+    "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",
     "onomojo/i18n-country-translations-go",
@@ -93,7 +96,6 @@
     "onomojo/i18n-timezones-rs",
     "openwdl/governance",
     "prestodb/presto-dev",
-    "puffyyy/PCSim",
     "saalfeldlab/n5-blosc",
     "samsja/dion",
     "sarlinpe/pybind11-stubgen",

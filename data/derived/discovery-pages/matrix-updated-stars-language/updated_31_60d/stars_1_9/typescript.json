@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 935,
+    "components": 919,
     "concepts": 201,
     "observations": 201,
-    "repos": 42,
-    "terms": 210
+    "repos": 41,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
@@ -51,7 +51,6 @@
     "sass/sync-child-process",
     "sass/sync-message-port",
     "suzuki-shunsuke/release-js-action",
-    "toyamarinyon/giselle",
     "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
     "vincent-k2026/codachi",

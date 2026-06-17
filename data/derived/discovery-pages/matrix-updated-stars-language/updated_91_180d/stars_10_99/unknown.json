@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 75,
     "observations": 75,
-    "repos": 43,
+    "repos": 44,
     "terms": 80
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -29,6 +29,7 @@
     "cncf/project-template",
     "cncf/wg-networking",
     "conda-forge/cfep",
+    "cta-wave/WMAS",
     "datajuicer/data-juicer-hub",
     "dredozubov/prd-generator",
     "ellie/atuin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 178,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 48,
-    "terms": 91
+    "components": 198,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 50,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "5E7EN/Garmin-ZmanIQ",
@@ -20,6 +20,7 @@
     "ada-url/kotlin",
     "Adam-Boesky/astro_SPLASH",
     "alstafeev/midscene-java",
+    "ankane/seaduck",
     "Asmod4n/mruby-argon2",
     "aspect-build/tools_telemetry",
     "ATProtoKit/MultiformatsKit",
@@ -30,6 +31,7 @@
     "cloudfoundry/cf-smoke-tests-release",
     "DanielSmith1239/KosherSwift",
     "diffblue/homebrew-cbmc",
+    "dm0x23/portfolio-website",
     "dp111/6502timing",
     "dpep/ice_age_rb",
     "dwyl/auth_plug_example",

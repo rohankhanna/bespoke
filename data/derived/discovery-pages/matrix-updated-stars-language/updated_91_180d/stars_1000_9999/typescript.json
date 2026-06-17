@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1390,
-    "concepts": 235,
-    "observations": 235,
-    "repos": 48,
-    "terms": 240
+    "components": 1580,
+    "concepts": 256,
+    "observations": 256,
+    "repos": 52,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
+    "actions/download-artifact",
     "antfu-collective/vitesse",
     "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
     "antfu/drauu",
+    "antfu/vitesse-nuxt",
     "arktypeio/arktype",
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
@@ -27,6 +29,7 @@
     "glimmerjs/glimmer-vm",
     "google/gts",
     "improbable-eng/ts-protoc-gen",
+    "infinitered/nsfwjs",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
@@ -34,6 +37,7 @@
     "metatool-ai/metamcp",
     "msgpack/msgpack-javascript",
     "Myriad-Dreamin/typst.ts",
+    "nanbingxyz/5ire",
     "nat/openplayground",
     "numman-ali/openskills",
     "obsidian-community/obsidian-kanban",

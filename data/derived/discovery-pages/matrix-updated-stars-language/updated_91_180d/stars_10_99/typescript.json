@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 883,
-    "concepts": 133,
-    "observations": 133,
+    "components": 876,
+    "concepts": 134,
+    "observations": 134,
     "repos": 49,
-    "terms": 135
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -48,7 +48,6 @@
     "libp2p/github-mgmt",
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
-    "nanostores/angular",
     "nulone/claude-rules-doctor",
     "omril321/automated-notebooklm",
     "opensearch-project/opentelemetry-demo",
@@ -61,6 +60,7 @@
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
     "signalfx/opentelemetry-demo",
+    "storybookjs/addon-coverage",
     "stx-labs/connect",
     "trzsz/tabby-trzsz"
   ]

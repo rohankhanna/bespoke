@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 185,
-    "concepts": 267,
-    "observations": 270,
-    "repos": 37,
-    "terms": 260
+    "components": 199,
+    "concepts": 283,
+    "observations": 287,
+    "repos": 40,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "alexandresanlim/Badges4-README.md-Profile",
     "AppFlowy-IO/AppFlowy",
+    "apple/container",
     "AudioKit/AudioKit",
     "cmderdev/cmder",
     "Cysharp/UniTask",
@@ -39,6 +40,7 @@
     "junegunn/fzf.vim",
     "koalaman/shellcheck",
     "Kong/kong",
+    "kubernetes/community",
     "LazyVim/LazyVim",
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
@@ -48,6 +50,7 @@
     "openai/CLIP",
     "reasonml/reason",
     "Seldaek/monolog",
+    "semgrep/semgrep",
     "Swordfish90/cool-retro-term",
     "tmuxinator/tmuxinator",
     "tonsky/FiraCode"

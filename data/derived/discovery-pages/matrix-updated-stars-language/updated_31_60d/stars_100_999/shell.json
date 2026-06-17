@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 240,
-    "concepts": 328,
-    "observations": 331,
-    "repos": 55,
-    "terms": 331
+    "components": 216,
+    "concepts": 313,
+    "observations": 316,
+    "repos": 50,
+    "terms": 308
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -22,7 +22,6 @@
     "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
-    "codelibs/docker-fess",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
     "docker-library/drupal",
@@ -34,13 +33,11 @@
     "heroku/base-images",
     "heroku/heroku-buildpack-go",
     "heroku/heroku-buildpack-java",
-    "heroku/heroku-buildpack-php",
     "itzg/docker-mc-backup",
     "jcefmaven/jcefbuild",
     "jez/dotfiles",
     "justchokingaround/lobster",
     "jvm-repo-rebuild/reproducible-central",
-    "kubernetes/sig-release",
     "lemire/docker_programming_station",
     "lovell/sharp-libvips",
     "meyayl/docker-languagetool",
@@ -55,9 +52,7 @@
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
     "rocker-org/rocker-versioned2",
-    "rsmdt/the-startup",
     "rust-cross/rust-musl-cross",
-    "rz1989s/claude-code-statusline",
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-php-container",

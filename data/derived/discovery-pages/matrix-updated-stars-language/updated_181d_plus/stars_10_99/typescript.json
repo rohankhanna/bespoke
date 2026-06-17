@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4303,
-    "concepts": 546,
-    "observations": 547,
-    "repos": 190,
-    "terms": 557
+    "components": 4336,
+    "concepts": 547,
+    "observations": 548,
+    "repos": 191,
+    "terms": 558
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -150,6 +150,7 @@
     "MMesch/labextension_tutorial",
     "Moldoteck/MagicEraser",
     "motrixapp/motrix-install-assistant",
+    "nanostores/angular",
     "neoclide/coc-r-lsp",
     "nuxt-contrib/devalue",
     "oclif/dev-cli",

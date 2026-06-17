@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 447,
-    "observations": 448,
-    "repos": 74,
-    "terms": 444
+    "components": 361,
+    "concepts": 438,
+    "observations": 439,
+    "repos": 71,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "8144225309/SuperScalar",
@@ -63,12 +63,9 @@
     "llnl/camp",
     "lxqt/liblxqt",
     "lxqt/libqtxdg",
-    "marciogranzotto/clawd-tank",
     "Mbed-TLS/TF-PSA-Crypto",
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
-    "mitsuba-renderer/nanothread",
-    "mybigday/llama.node",
     "narugit/smctemp",
     "nx10/unigd",
     "oneapi-src/unified-memory-framework",

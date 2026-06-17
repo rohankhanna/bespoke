@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1422,
-    "concepts": 940,
-    "observations": 942,
-    "repos": 84,
-    "terms": 928
+    "components": 1415,
+    "concepts": 937,
+    "observations": 939,
+    "repos": 83,
+    "terms": 925
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -76,7 +76,6 @@
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "Schniz/fnm",
-    "seanmonstar/reqwest",
     "servo/servo",
     "shadowsocks/shadowsocks-rust",
     "sharkdp/bat",

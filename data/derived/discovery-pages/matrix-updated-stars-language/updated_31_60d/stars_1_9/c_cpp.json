@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 193,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 24,
-    "terms": 116
+    "components": 135,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 23,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "atsushieno/midicci",
@@ -33,7 +33,6 @@
     "skeeto/aas-sign",
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
-    "stdlib-js/ndarray-ctor",
     "vincentlaucsb/classify_scalar",
     "vovkos/axl",
     "walbourn/directxtk12test",

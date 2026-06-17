@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3985,
-    "concepts": 732,
-    "observations": 735,
-    "repos": 84,
-    "terms": 721
+    "components": 3766,
+    "concepts": 703,
+    "observations": 706,
+    "repos": 78,
+    "terms": 692
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -45,12 +45,9 @@
     "google/zx",
     "GoogleChrome/lighthouse",
     "gorhill/uBlock",
-    "graphql/graphql-spec",
     "handlebars-lang/handlebars.js",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
-    "iamkun/dayjs",
-    "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jashkenas/backbone",
     "jasmine/jasmine",
@@ -69,7 +66,6 @@
     "microsoft/monaco-editor",
     "mochajs/mocha",
     "moment/luxon",
-    "motdotla/dotenv",
     "mozilla/pdf.js",
     "nock/nock",
     "nodemailer/nodemailer",
@@ -88,14 +84,12 @@
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "svg/svgo",
     "swagger-api/swagger-ui",
     "Unitech/pm2",
     "validatorjs/validator.js",
     "webpack/webpack",
     "webtorrent/webtorrent",
     "wix/Detox",
-    "yarnpkg/yarn",
     "yokoffing/Betterfox",
     "zloirock/core-js"
   ]

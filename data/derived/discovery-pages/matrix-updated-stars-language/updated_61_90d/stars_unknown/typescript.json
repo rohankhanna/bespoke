@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 15,
-    "observations": 15,
+    "components": 10,
+    "concepts": 0,
+    "observations": 0,
     "repos": 1,
-    "terms": 15
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
-    "lobehub/lobe-cli-toolbox"
+    "GeiserX/AgentTap"
   ]
 }

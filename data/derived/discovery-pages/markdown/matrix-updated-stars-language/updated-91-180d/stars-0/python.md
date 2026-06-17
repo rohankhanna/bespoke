@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars · Python
 
-Generated at: `2026-06-16T08:32:32.833203+00:00`
+Generated at: `2026-06-17T06:17:46.781735+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 12
-- terms: 12
-- components: 12
-- concepts: 12
-- observations: 12
+- terms: 18
+- components: 21
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [marin-community/harbor](https://github.com/marin-community/harbor) | 0 | 2026-03-18T23:58:58Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [danielJL-altius/israelgrocerymcp](https://github.com/danielJL-altius/israelgrocerymcp) | 0 | 2026-03-14T15:14:59Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [abbhisap/LLM-Council-SAP](https://github.com/abbhisap/LLM-Council-SAP) | 0 | 2026-03-09T11:39:49Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -37,12 +38,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/BTRFS-Snapper-MCP](https://github.com/danielrosehill/BTRFS-Snapper-MCP) | 0 | 2025-12-30T18:19:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/N8N-Workflows-Index](https://github.com/danielrosehill/N8N-Workflows-Index) | 0 | 2025-12-25T17:16:48Z | Python | Unknown | 1 | 0 | 1 | 1 |
-| [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [marin-community/harbor](https://github.com/marin-community/harbor) | 0 | 2026-03-18T23:58:58Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [danielJL-altius/israelgrocerymcp](https://github.com/danielJL-altius/israelgrocerymcp) | 0 | 2026-03-14T15:14:59Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [abbhisap/LLM-Council-SAP](https://github.com/abbhisap/LLM-Council-SAP) | 0 | 2026-03-09T11:39:49Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -54,4 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/BTRFS-Snapper-MCP](https://github.com/danielrosehill/BTRFS-Snapper-MCP) | 0 | 2025-12-30T18:19:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
 | [danielrosehill/N8N-Workflows-Index](https://github.com/danielrosehill/N8N-Workflows-Index) | 0 | 2025-12-25T17:16:48Z | Python | Unknown | 1 | 0 | 1 | 1 |
-| [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |

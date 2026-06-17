@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2209,
-    "concepts": 2244,
-    "observations": 2245,
-    "repos": 267,
-    "terms": 2227
+    "components": 2200,
+    "concepts": 2219,
+    "observations": 2220,
+    "repos": 264,
+    "terms": 2203
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -55,7 +55,6 @@
     "CLIUtils/CLI11",
     "cloudflare/workerd",
     "commonmark/cmark",
-    "containers/crun",
     "contour-terminal/contour",
     "CrowCpp/Crow",
     "daijro/camoufox",
@@ -116,7 +115,6 @@
     "ibireme/yyjson",
     "ikawrakow/ik_llama.cpp",
     "infiniflow/infinity",
-    "inikep/lzbench",
     "intel/compute-runtime",
     "intel/pcm",
     "iree-org/iree",
@@ -188,7 +186,6 @@
     "NetHack/NetHack",
     "nix-community/nixd",
     "nodejs/node-addon-api",
-    "Novum/vkQuake",
     "NVIDIA/cccl",
     "NVIDIA/cutlass",
     "NVIDIA/DALI",
@@ -237,7 +234,6 @@
     "saitoha/libsixel",
     "samtools/samtools",
     "SchedMD/slurm",
-    "sebastianstarke/AI4Animation",
     "SFML/imgui-sfml",
     "shader-slang/slang",
     "simdutf/simdutf",
@@ -258,6 +254,7 @@
     "tianocore/edk2",
     "tsujan/Kvantum",
     "uccl-project/uccl",
+    "ufbx/ufbx",
     "uNetworking/uWebSockets.js",
     "unicode-org/icu",
     "unitreerobotics/unitree_sdk2",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 19,
-    "terms": 35
+    "components": 103,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 20,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "arckoor/jsonwebtoken-botan",
@@ -32,6 +32,7 @@
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
+    "ueno/podman-sequoia",
     "vaporif/rvx"
   ]
 }

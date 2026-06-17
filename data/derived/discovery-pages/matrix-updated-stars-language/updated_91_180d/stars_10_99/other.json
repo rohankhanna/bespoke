@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 616,
-    "concepts": 412,
-    "observations": 414,
-    "repos": 161,
-    "terms": 408
+    "components": 618,
+    "concepts": 420,
+    "observations": 422,
+    "repos": 165,
+    "terms": 415
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -42,6 +42,7 @@
     "Arthur944/neotest-bun",
     "asg017/sqlite-hello",
     "auto-complete/fuzzy-el",
+    "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
     "ayrat555/cargo-mode",
     "babashka/sci.configs",
@@ -52,12 +53,14 @@
     "bwya77/obsidian-baseline-customization",
     "camertron/garnet-js",
     "chakravala/DirectSum.jl",
+    "citation-file-format/ruby-cff",
     "cjohansen/m1p",
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "coin-or-tools/homebrew-coinor",
+    "DamageLabs/paper_trail_manager",
     "DavidKinder/Windows-Glulxe",
     "dbuenzli/logs",
     "devise-i18n/devise-i18n",
@@ -86,6 +89,7 @@
     "gregorias/toggle.nvim",
     "HaxeFlixel/haxeflixel.com",
     "hedronvision/bazel-make-cc-https-easy",
+    "henryw374/chronos",
     "hspec/sensei",
     "Humans-of-Julia/StaticWebPages.jl",
     "ImranR98/obtainium.imranr.dev",
@@ -127,6 +131,7 @@
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "mirage/conan",
+    "mit-plv/bbv",
     "Mobile-Artificial-Intelligence/maise",
     "mvz/non-digest-assets",
     "nelson-lang/nelson-website",
@@ -170,7 +175,6 @@
     "typst/typst-flake",
     "V13Axel/neotest-pest",
     "viafintech/gcra-ruby",
-    "webdataset/WebDataset.jl",
     "WICG/crash-reporting",
     "xie-lab-ml/piecewise-sparse-attention",
     "Xuyuanp/yanil",

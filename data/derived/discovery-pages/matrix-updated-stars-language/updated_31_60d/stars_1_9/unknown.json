@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 63,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 56,
-    "terms": 55
+    "concepts": 52,
+    "observations": 52,
+    "repos": 54,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -41,7 +41,6 @@
     "danielrosehill/Claude-PR-Media-Work-Plugin",
     "danielrosehill/Claude-Purchasing-Plugin",
     "danielrosehill/Claude-Research-Space-Plugin",
-    "danielrosehill/Experiments-And-Evaluations-Index",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
     "danielrosehill/Therapy-Tracking-Plugin",
@@ -50,7 +49,6 @@
     "emacs-straight/emacsmirror-mirror",
     "emacs-straight/gnu-elpa-mirror",
     "eslint/.github",
-    "eternahybridexchange/eterna-mcp",
     "flathub/org.gnome.eog",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "haskell/ghcup-www",

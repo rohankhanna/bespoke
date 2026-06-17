@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 729,
-    "concepts": 1532,
-    "observations": 1534,
-    "repos": 870,
-    "terms": 1509
+    "components": 735,
+    "concepts": 1536,
+    "observations": 1538,
+    "repos": 872,
+    "terms": 1513
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -567,6 +567,7 @@
     "llyx97/FETV-EVAL",
     "lm-sys/vicuna-blog-eval",
     "lmbelo/python3-embeddable",
+    "lmgame-org/GRL",
     "logtd/ComfyUI-TrackingNodes",
     "look4u-ok/video-slicer",
     "LTH14/torch-fidelity",
@@ -654,6 +655,7 @@
     "nv-tlabs/DIB-R-Single-Image-3D-Reconstruction",
     "NVIDIA/pynvrtc",
     "OFA-Sys/TouchStone",
+    "opea-project/docs",
     "open-mmlab/mim-example",
     "open-thought/reasoning-gym-eval",
     "opendatalab/VIGC",

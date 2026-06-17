@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Rust
 
-Generated at: `2026-06-16T08:32:32.833203+00:00`
+Generated at: `2026-06-17T06:17:46.781735+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 32
-- components: 88
-- concepts: 24
-- observations: 24
+- repos: 12
+- terms: 31
+- components: 87
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -38,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | 0 | 2026-04-19T04:32:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
 | [arckoor/jsonwebtoken](https://github.com/arckoor/jsonwebtoken) | 0 | 2026-04-18T21:24:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [jsleekr/skilldigest](https://github.com/JSLEEKR/skilldigest) | 0 | 2026-04-18T09:04:42Z | Rust | CLI | 3 | 4 | 0 | 0 |
-| [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -56,4 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | 0 | 2026-04-19T04:32:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
 | [arckoor/jsonwebtoken](https://github.com/arckoor/jsonwebtoken) | 0 | 2026-04-18T21:24:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [jsleekr/skilldigest](https://github.com/JSLEEKR/skilldigest) | 0 | 2026-04-18T09:04:42Z | Rust | CLI | 3 | 4 | 0 | 0 |
-| [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |

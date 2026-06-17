@@ -3,7 +3,7 @@
     "components": 1382,
     "concepts": 568,
     "observations": 570,
-    "repos": 466,
+    "repos": 467,
     "terms": 568
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -408,6 +408,7 @@
     "pola-rs/jemallocator",
     "praw-dev/.github",
     "probe-lab/github-mgmt",
+    "puffyyy/PCSim",
     "py-cov-action/python-coverage-comment-action-v3-example",
     "QuantuMope/GroundingDINO",
     "radashi-org/radashi-canary",

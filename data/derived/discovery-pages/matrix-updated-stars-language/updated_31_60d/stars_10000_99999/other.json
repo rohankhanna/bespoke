@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2045,
-    "concepts": 1423,
-    "observations": 1428,
-    "repos": 140,
-    "terms": 1419
+    "components": 2031,
+    "concepts": 1407,
+    "observations": 1411,
+    "repos": 137,
+    "terms": 1403
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -25,7 +25,6 @@
     "apache/apisix",
     "apache/spark",
     "App-vNext/Polly",
-    "apple/container",
     "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",
     "autowarefoundation/autoware",
@@ -92,7 +91,6 @@
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
     "kubernetes-sigs/kubespray",
-    "kubernetes/community",
     "llvm/llvm-project",
     "logseq/logseq",
     "MagicStack/uvloop",
@@ -132,7 +130,6 @@
     "SaschaWillems/Vulkan",
     "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
-    "semgrep/semgrep",
     "shadowsocks/shadowsocks-android",
     "shap/shap",
     "Shopify/liquid",

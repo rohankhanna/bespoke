@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 33,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 50,
-    "terms": 62
+    "concepts": 65,
+    "observations": 65,
+    "repos": 52,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -39,6 +39,7 @@
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/Docs-And-Notes-Index",
+    "danielrosehill/Experiments-And-Evaluations-Index",
     "danielrosehill/Hebrew-TTS-Providers",
     "danielrosehill/Homebox-Projects-Index",
     "danielrosehill/MCP-Projects-Index",
@@ -47,6 +48,7 @@
     "danielrosehill/Useful-AI-Agent-Skills",
     "datachainlab/yui-relayer-build",
     "dpc/crev-proofs",
+    "eternahybridexchange/eterna-mcp",
     "flagos-ai/FlagOS-Robo",
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",

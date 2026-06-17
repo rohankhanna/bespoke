@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 10,
-    "terms": 66
+    "components": 36,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 11,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "agarrharr/awesome-cli-apps",
     "dockur/windows",
     "githubnext/monaspace",
     "nodesource/distributions",
     "oh-my-fish/oh-my-fish",
+    "pyenv/pyenv",
     "rbenv/rbenv",
     "sindresorhus/pure",
     "sorin-ionescu/prezto",

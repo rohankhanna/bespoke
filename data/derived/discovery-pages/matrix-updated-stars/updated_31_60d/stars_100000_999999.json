@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 1348,
+    "components": 1343,
     "concepts": 351,
     "observations": 353,
-    "repos": 37,
-    "terms": 385
+    "repos": 36,
+    "terms": 376
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "affaan-m/everything-claude-code",
     "angular/angular",
     "anomalyco/opencode",
-    "anthropics/claude-code",
     "avelino/awesome-go",
     "axios/axios",
     "denoland/deno",

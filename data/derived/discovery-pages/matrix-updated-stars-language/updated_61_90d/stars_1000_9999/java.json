@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 15,
-    "terms": 97
+    "components": 129,
+    "concepts": 116,
+    "observations": 117,
+    "repos": 17,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "beehive-lab/TornadoVM",
     "bobbylight/RSyntaxTextArea",
     "brianfrankcooper/YCSB",
+    "google/j2cl",
     "google/tsunami-security-scanner",
     "http-kit/http-kit",
+    "JetBrains/intellij-sdk-code-samples",
     "langchain4j/langchain4j-examples",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 171,
-    "observations": 173,
-    "repos": 45,
-    "terms": 176
+    "components": 309,
+    "concepts": 182,
+    "observations": 184,
+    "repos": 50,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "adumbidiot/lz-str-rs",
-    "agentclientprotocol/symposium-acp",
     "alixinne/glsl-lang",
+    "andelf/picc",
     "antonWetzel/prettypst",
     "Anush008/tokenizers",
     "ashvardanian/NumWars",
@@ -25,13 +25,16 @@
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
+    "cometbft/cometbft-rs",
     "cpmech/gemlab",
     "crate-ci/imperative",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
+    "FxEmbed/mosaic",
     "google/safe-mmio",
     "hagan/claudia-statusline",
     "hermit-os/hermit-rs-template",
+    "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
@@ -48,6 +51,7 @@
     "omerbenamram/pyo3-file",
     "open-telemetry/opentelemetry-rust-contrib",
     "oramasearch/llm_json",
+    "phiat/claude-esp-rs",
     "psmux/omp-manager",
     "psmux/Tmux-Plugin-Panel",
     "quininer/x11-clipboard",
@@ -57,6 +61,7 @@
     "sophus-vision/sophus-rs",
     "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
+    "tracel-ai/burn-bench",
     "Vaishnav-Sabari-Girish/Hayasen",
     "Xuanwo/serde-env"
   ]

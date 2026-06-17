@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 331,
-    "concepts": 283,
-    "observations": 285,
-    "repos": 32,
-    "terms": 278
+    "components": 328,
+    "concepts": 273,
+    "observations": 275,
+    "repos": 31,
+    "terms": 268
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
     "andymass/vim-matchup",
@@ -35,7 +35,6 @@
     "nvim-tree/nvim-web-devicons",
     "okd-project/okd",
     "openai/openai-dotnet",
-    "preservim/tagbar",
     "psmux/psmux",
     "radian-software/straight.el",
     "seancorfield/honeysql",

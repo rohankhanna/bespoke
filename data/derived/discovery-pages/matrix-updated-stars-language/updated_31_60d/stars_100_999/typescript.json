@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6058,
-    "concepts": 1265,
-    "observations": 1267,
-    "repos": 182,
-    "terms": 1286
+    "components": 6018,
+    "concepts": 1247,
+    "observations": 1249,
+    "repos": 178,
+    "terms": 1266
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
@@ -131,7 +131,6 @@
     "nonara/ts-patch",
     "nurikk/zigbee2mqtt-frontend",
     "nuxt/bridge",
-    "nyatinte/ccexp",
     "oclif/core",
     "octokit/action.js",
     "octokit/app.js",
@@ -164,9 +163,6 @@
     "sass/embedded-host-node",
     "sergiodxa/remix-i18next",
     "serversideup/webext-bridge",
-    "Shougo/ddc.vim",
-    "Shougo/ddu.vim",
-    "Shougo/dpp.vim",
     "SkepticMystic/breadcrumbs",
     "smithy-lang/smithy-typescript",
     "Softeria/ms-365-mcp-server",

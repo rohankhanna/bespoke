@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 345,
-    "observations": 346,
-    "repos": 39,
-    "terms": 344
+    "components": 255,
+    "concepts": 344,
+    "observations": 345,
+    "repos": 38,
+    "terms": 343
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "aigc-apps/VideoX-Fun",
@@ -44,7 +44,6 @@
     "nomadkaraoke/python-audio-separator",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
-    "python-versioneer/python-versioneer",
     "redis/redis-om-python",
     "rllm-org/rllm",
     "roboflow/maestro",

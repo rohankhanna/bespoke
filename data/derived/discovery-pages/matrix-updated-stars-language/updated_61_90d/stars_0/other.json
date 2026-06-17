@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 26,
-    "terms": 40
+    "components": 22,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 24,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
     "ashton/neotest-gleam-unitest",
     "atsushieno/homebrew-oss",
     "b2agi/exist-is-charter_kr",
-    "bookcars/bookcars.github.io",
     "cmake-wheel/cmeel-example",
     "danielrosehill/Github-Repo-Org-Question",
     "danielrosehill/HFC-Guidance-Flip-Book",
@@ -37,7 +36,6 @@
     "JuliaBinaryWrappers/Libuuid_jll.jl",
     "kdubbo/client-go",
     "musicman3/cruder",
-    "Nichaojun/Nichaojun.github.io",
     "saharmor/saharmor.github.io",
     "stefanlogue/scoops"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 141,
-    "observations": 141,
-    "repos": 40,
-    "terms": 142
+    "components": 168,
+    "concepts": 154,
+    "observations": 154,
+    "repos": 42,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "4kills/go-libdeflate",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -21,6 +21,7 @@
     "apache/incubator-seata-k8s",
     "aquasecurity/k8s-node-collector",
     "aws-controllers-k8s/runtime",
+    "aws/amazon-vpc-cni-plugins",
     "bartventer/httpcache",
     "bfenetworks/api-server",
     "bfenetworks/conf-agent",
@@ -32,6 +33,7 @@
     "concourse/pool-resource",
     "containerd/release-tool",
     "ctoth/claudio",
+    "cyberark/conjur-api-go",
     "datachainlab/ethereum-ibc-relay-chain",
     "doraemonkeys/paddleocr",
     "ebml-go/webm",

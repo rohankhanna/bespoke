@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-06-16T08:32:32.833203+00:00`
+Generated at: `2026-06-17T06:17:46.781735+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 466
+- repos: 467
 - terms: 568
 - components: 1382
 - concepts: 568
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
 | [babashka/homebrew-brew](https://github.com/babashka/homebrew-brew) | 0 | 2025-12-18T03:27:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Security-Checkup-Plugin](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) | 0 | 2025-12-16T16:47:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/git-github-plugin](https://github.com/danielrosehill/git-github-plugin) | 0 | 2025-12-16T16:47:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -496,6 +497,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [puffyyy/PCSim](https://github.com/puffyyy/PCSim) | 0 | 2025-12-18T08:39:32Z | Python | Library | 0 | 0 | 0 | 0 |
 | [babashka/homebrew-brew](https://github.com/babashka/homebrew-brew) | 0 | 2025-12-18T03:27:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Security-Checkup-Plugin](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) | 0 | 2025-12-16T16:47:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/git-github-plugin](https://github.com/danielrosehill/git-github-plugin) | 0 | 2025-12-16T16:47:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

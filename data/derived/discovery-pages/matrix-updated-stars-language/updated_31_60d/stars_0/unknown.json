@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 106,
-    "terms": 75
+    "components": 42,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 101,
+    "terms": 71
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "abdeladim-s/pywhispercpp",
-    "alexcrichton/cc-rs",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
     "biparous-blaxploitation156/ciphermind",
@@ -32,8 +31,6 @@
     "conda-forge/versioneer-feedstock",
     "csm-actions/demo-client",
     "Culmus/hebrew-fonts",
-    "damacol/ai-hub",
-    "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
@@ -104,9 +101,7 @@
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/lan-manager-plugin",
-    "danielrosehill/My-Benchmarks",
     "danielrosehill/Open-Research-Workspaces-Index",
-    "danielrosehill/Speech-And-ASR-Evaluations",
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",
     "hermit-os/.github",

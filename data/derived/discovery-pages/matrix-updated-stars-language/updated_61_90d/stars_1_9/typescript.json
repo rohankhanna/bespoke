@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 361,
+    "components": 377,
     "concepts": 64,
     "observations": 64,
-    "repos": 22,
-    "terms": 64
+    "repos": 23,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-16T08:32:32.833203+00:00",
+  "generated_at": "2026-06-17T06:17:46.781735+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
@@ -35,6 +35,7 @@
     "qcr/qcr.github.io",
     "robustmq/robustmq-copilot",
     "storybookjs/addon-jest",
-    "tnc-ca-geo/animl-api"
+    "tnc-ca-geo/animl-api",
+    "toyamarinyon/giselle"
   ]
 }
