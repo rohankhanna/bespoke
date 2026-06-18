@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 65,
-    "observations": 65,
-    "repos": 36,
-    "terms": 65
+    "components": 46,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 37,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "aloncarmel/supermeskill",
     "AppImage/AppImageSpec",
-    "aquasecurity/setup-trivy",
     "askroundtable/expert-skills",
     "BAI-LAB/Survey-on-AI-Memory",
     "bleichenbacher-daniel/Rooterberg",
@@ -47,7 +46,9 @@
     "opencontainers/tob",
     "openobserve/dashboards",
     "operator-framework/community",
+    "pre-commit/mirrors-eslint",
     "SeleniumHQ/selenium_manager_artifacts",
+    "simonw/simonwillisonblog-backup",
     "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group"
   ]

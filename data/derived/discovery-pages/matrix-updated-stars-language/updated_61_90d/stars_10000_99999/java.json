@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 6,
-    "terms": 46
+    "components": 22,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 5,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
-    "alibaba/Sentinel",
     "google/auto",
     "google/guava",
     "Konloch/bytecode-viewer",

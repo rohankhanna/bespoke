@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2031,
-    "concepts": 1407,
-    "observations": 1411,
-    "repos": 137,
-    "terms": 1403
+    "components": 2015,
+    "concepts": 1400,
+    "observations": 1404,
+    "repos": 136,
+    "terms": 1396
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -23,7 +23,6 @@
     "alpinejs/alpine",
     "antlr/grammars-v4",
     "apache/apisix",
-    "apache/spark",
     "App-vNext/Polly",
     "ardalis/CleanArchitecture",
     "AssemblyScript/assemblyscript",

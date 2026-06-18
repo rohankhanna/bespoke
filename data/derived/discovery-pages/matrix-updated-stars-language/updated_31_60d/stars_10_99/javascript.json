@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1043,
-    "concepts": 251,
-    "observations": 253,
-    "repos": 63,
-    "terms": 258
+    "components": 986,
+    "concepts": 249,
+    "observations": 251,
+    "repos": 60,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "aidenlab/hic-straw",
@@ -35,12 +35,10 @@
     "hyparam/squirreling",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
-    "i18next/i18next-resources-to-backend",
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "itsrishika/payment-bypass-bug-lab",
     "j9t/obsohtml",
-    "jasmine/jasmine-browser-runner",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
@@ -62,7 +60,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "patrik-csak/auto-terminal-profile",
-    "peergos/web-ui",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
     "readthedocs/addons",

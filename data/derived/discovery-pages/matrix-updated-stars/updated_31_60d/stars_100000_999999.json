@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 1343,
-    "concepts": 351,
-    "observations": 353,
-    "repos": 36,
-    "terms": 376
+    "components": 1243,
+    "concepts": 340,
+    "observations": 342,
+    "repos": 34,
+    "terms": 355
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2dust/v2rayN",
-    "affaan-m/everything-claude-code",
     "angular/angular",
     "anomalyco/opencode",
     "avelino/awesome-go",
@@ -28,7 +27,6 @@
     "Genymobile/scrcpy",
     "godotengine/godot",
     "golang/go",
-    "google-gemini/gemini-cli",
     "huggingface/transformers",
     "langgenius/dify",
     "microsoft/generative-ai-for-beginners",

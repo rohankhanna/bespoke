@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1528,
-    "concepts": 1468,
-    "observations": 1474,
-    "repos": 116,
-    "terms": 1456
+    "components": 1481,
+    "concepts": 1412,
+    "observations": 1418,
+    "repos": 110,
+    "terms": 1403
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "a-h/templ",
     "AdguardTeam/AdGuardHome",
-    "ahmetb/kubectx",
     "anchore/grype",
     "apache/casbin",
     "apernet/hysteria",
@@ -32,8 +31,6 @@
     "caddyserver/caddy",
     "centrifugal/centrifugo",
     "cert-manager/cert-manager",
-    "charmbracelet/crush",
-    "charmbracelet/lipgloss",
     "cilium/cilium",
     "cli/cli",
     "cloudflare/cloudflared",
@@ -112,7 +109,6 @@
     "quic-go/quic-go",
     "rclone/rclone",
     "restic/restic",
-    "router-for-me/cliproxyapi",
     "rqlite/rqlite",
     "rs/zerolog",
     "SagerNet/sing-box",
@@ -124,11 +120,9 @@
     "syncthing/syncthing",
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",
-    "urfave/cli",
     "v2fly/v2ray-core",
     "valyala/fasthttp",
     "VictoriaMetrics/VictoriaMetrics",
-    "wader/fq",
     "XTLS/Xray-core"
   ]
 }

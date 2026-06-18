@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 794,
-    "concepts": 638,
-    "observations": 646,
-    "repos": 190,
-    "terms": 630
+    "components": 802,
+    "concepts": 639,
+    "observations": 647,
+    "repos": 191,
+    "terms": 631
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -75,6 +75,7 @@
     "dirs-dev/directories-rs",
     "dirs-dev/dirs-rs",
     "dotenv-rs/dotenv",
+    "dtolnay/cargo-llvm-lines",
     "dustinblackman/cargo-run-bin",
     "ecumene/rust-sloth",
     "edgenai/llama_cpp-rs",

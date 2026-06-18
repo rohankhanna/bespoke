@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 471,
-    "concepts": 358,
-    "observations": 361,
-    "repos": 69,
-    "terms": 359
+    "components": 503,
+    "concepts": 380,
+    "observations": 383,
+    "repos": 73,
+    "terms": 388
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -68,17 +68,21 @@
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
     "lightninglabs/neutrino",
+    "linxGnu/grocksdb",
     "mailru/go-clickhouse",
+    "mattn/go-runewidth",
     "microsoft/cognitive-services-speech-sdk-go",
     "minio/directpv",
     "minio/highwayhash",
     "notaryproject/notation",
+    "open-telemetry/opentelemetry-collector-releases",
     "phiat/claude-esp",
     "phuslu/log",
     "pires/go-proxyproto",
     "prehisle/relay-pulse",
     "prometheus/exporter-toolkit",
     "siderolabs/talos-cloud-controller-manager",
+    "skenetechnologies/skene",
     "slsa-framework/slsa-github-generator",
     "stefanlogue/meteor",
     "stretchr/objx",

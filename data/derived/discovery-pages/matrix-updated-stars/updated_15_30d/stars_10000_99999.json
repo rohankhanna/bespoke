@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1791,
-    "concepts": 977,
-    "observations": 984,
-    "repos": 81,
-    "terms": 976
+    "components": 1783,
+    "concepts": 964,
+    "observations": 971,
+    "repos": 80,
+    "terms": 963
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -67,7 +67,6 @@
     "protocolbuffers/protobuf",
     "psf/black",
     "pydantic/pydantic",
-    "pyg-team/pytorch_geometric",
     "python-poetry/poetry",
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",

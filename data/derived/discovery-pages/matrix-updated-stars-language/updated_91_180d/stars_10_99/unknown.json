@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
     "Adlik/model_zoo",
     "apache/.github",
+    "aquasecurity/setup-trivy",
     "astroyat/lerobot-ros",
     "automazeio/open-royalties",
     "bpftrace/user-tools",
@@ -44,7 +45,6 @@
     "json-schema-org/.github",
     "Level/community",
     "LINs-lab/RCGM",
-    "logseq/db-test",
     "Lynxe-public/Lynxe-public-prompts",
     "marko-js/examples",
     "nushell/showcase",

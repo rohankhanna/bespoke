@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 35,
-    "terms": 191
+    "components": 200,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 30,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
@@ -23,12 +23,9 @@
     "Comfy-Org/comfy-cli",
     "flagos-ai/FlagAttention",
     "flagos-ai/FlagScale",
-    "gbionics/adam",
-    "google-deepmind/xmanager",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
     "hluaguo/learn-faster-kit",
-    "Jamorim-esss/pytest-rich",
     "jupyter-server/jupyter_server",
     "machinewrapped/llm-subtrans",
     "NCAS-CMS/pyfive",
@@ -38,12 +35,10 @@
     "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
-    "python-poetry/poetry-plugin-export",
     "readthedocs/commonmark.py",
     "satan53x/SExtractor",
     "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",
-    "shawn0728/OpenSearch-VL",
     "SublimeText/AFileIcon",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",

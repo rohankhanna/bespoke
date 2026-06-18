@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 140,
-    "observations": 141,
+    "components": 220,
+    "concepts": 136,
+    "observations": 137,
     "repos": 36,
-    "terms": 142
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
+    "ADNTIO/crispy-bootloader-rp2040-rs",
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
     "bourumir-wyngs/saphyr",
@@ -24,7 +25,6 @@
     "decibri/decibri",
     "Dicklesworthstone/franken_agent_detection",
     "eikarna/hermes-rs",
-    "EspressoSystems/espresso-example-l2",
     "EspressoSystems/tide-disco",
     "eth-act/ere-guests",
     "facebookexperimental/cxx",

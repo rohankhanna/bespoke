@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 263,
+    "components": 269,
     "concepts": 279,
     "observations": 284,
-    "repos": 62,
+    "repos": 63,
     "terms": 277
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "Aloxaf/silicon",
     "asciinema/agg",
@@ -29,6 +29,7 @@
     "chelsea0x3b/dfdx",
     "cnosdb/cnosdb",
     "dgrunwald/rust-cpython",
+    "dtolnay/case-studies",
     "dtolnay/serde-yaml",
     "ebkalderon/tower-lsp",
     "EmbarkStudios/kajiya",

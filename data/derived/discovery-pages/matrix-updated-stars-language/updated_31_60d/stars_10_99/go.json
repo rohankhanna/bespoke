@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 475,
-    "concepts": 322,
-    "observations": 323,
-    "repos": 66,
-    "terms": 320
+    "components": 480,
+    "concepts": 323,
+    "observations": 324,
+    "repos": 67,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -32,6 +32,7 @@
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
     "coder/coder-logstream-kube",
+    "compozy/kb",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
     "containers/container-libs",

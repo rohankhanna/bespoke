@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 425,
-    "concepts": 577,
-    "observations": 580,
-    "repos": 109,
-    "terms": 573
+    "components": 442,
+    "concepts": 609,
+    "observations": 612,
+    "repos": 113,
+    "terms": 605
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "aibasel/downward",
@@ -42,6 +42,7 @@
     "elixir-sqlite/exqlite",
     "eyalz800/zpp_bits",
     "flavorjones/ruby-c-extensions-explained",
+    "freebsd/kyua",
     "freeswitch/sofia-sip",
     "fribidi/fribidi",
     "fujitsu/xbyak_aarch64",
@@ -53,6 +54,7 @@
     "GNOME/vte",
     "google/jpegli",
     "google/perf_data_converter",
+    "hamcrest/OCHamcrest",
     "haxenme/nme",
     "heal-research/operon",
     "ifduyue/python-xxhash",
@@ -74,7 +76,7 @@
     "Livox-SDK/livox_ros_driver2",
     "llnl/CHAI",
     "LuisaGroup/LuisaRender",
-    "luvit/luvi",
+    "luvit/luv",
     "mapbox/mapnik-vector-tile",
     "mapbox/protozero",
     "mapbox/variant",
@@ -95,6 +97,8 @@
     "NiLuJe/FBInk",
     "nx10/httpgd",
     "objectbox/objectbox-c",
+    "onnx/optimizer",
+    "OpenLightingProject/ola",
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "pauldmccarthy/indexed_gzip",

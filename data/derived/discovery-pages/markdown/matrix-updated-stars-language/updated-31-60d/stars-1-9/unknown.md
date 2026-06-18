@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · Unknown
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 54
-- terms: 52
-- components: 63
-- concepts: 52
-- observations: 52
+- repos: 53
+- terms: 49
+- components: 60
+- concepts: 49
+- observations: 49
 
 ## Static behavior
 
@@ -79,7 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Legal-Investigative-Plugin](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) | 1 | 2026-04-19T13:12:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-PR-Media-Work-Plugin](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) | 1 | 2026-04-19T13:02:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [graveyardsfocrdpktv/ethereum-mempool-bot](https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot) | 1 | 2026-04-19T12:43:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [eslint/.github](https://github.com/eslint/.github) | 2 | 2026-04-18T08:20:43Z | Unknown | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -115,7 +114,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [szksh-lab/.github](https://github.com/szksh-lab/.github) | 2 | 2026-05-02T09:34:00Z | Unknown | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [conda-forge/pyfive-feedstock](https://github.com/conda-forge/pyfive-feedstock) | 2 | 2026-05-01T14:30:00Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 2 | 2026-04-25T10:40:53Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
-| [eslint/.github](https://github.com/eslint/.github) | 2 | 2026-04-18T08:20:43Z | Unknown | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [danielrosehill/Claude-Image-Production-Plugin](https://github.com/danielrosehill/Claude-Image-Production-Plugin) | 1 | 2026-05-03T16:11:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Linux-System-Optimisation-Plugin](https://github.com/danielrosehill/Claude-Linux-System-Optimisation-Plugin) | 1 | 2026-05-03T11:06:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Research-Space-Plugin](https://github.com/danielrosehill/Claude-Research-Space-Plugin) | 1 | 2026-04-30T19:00:03Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

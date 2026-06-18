@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 118,
-    "observations": 119,
-    "repos": 41,
-    "terms": 111
+    "components": 30,
+    "concepts": 126,
+    "observations": 127,
+    "repos": 43,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "Ableton/push-interface",
+    "abubakarsiddik31/claude-skills-collection",
     "Alex313031/Thorium-Android",
     "Alex313031/Thorium-MacOS",
     "Biscuit-Theme/biscuit",
@@ -35,6 +36,7 @@
     "libp2p/js-libp2p-examples",
     "lightning/blips",
     "lintool/guide",
+    "lumen-oss/nvim-best-practices",
     "lxgw/lxgw",
     "lxgw/LxgwZhenKai",
     "mapbox/tilejson-spec",

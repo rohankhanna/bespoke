@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3766,
-    "concepts": 703,
-    "observations": 706,
-    "repos": 78,
-    "terms": 692
+    "components": 3616,
+    "concepts": 677,
+    "observations": 679,
+    "repos": 73,
+    "terms": 664
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -24,7 +24,6 @@
     "Automattic/mongoose",
     "badges/shields",
     "be5invis/Iosevka",
-    "bmad-code-org/bmad-method",
     "brianc/node-postgres",
     "browserslist/browserslist",
     "CesiumGS/cesium",
@@ -48,9 +47,7 @@
     "handlebars-lang/handlebars.js",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
-    "jarrodwatts/claude-hud",
     "jashkenas/backbone",
-    "jasmine/jasmine",
     "jquery/jquery",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
@@ -70,7 +67,6 @@
     "nock/nock",
     "nodemailer/nodemailer",
     "novnc/noVNC",
-    "openai/codex-plugin-cc",
     "plotly/plotly.js",
     "prettier/prettier",
     "PrismJS/prism",
@@ -88,7 +84,6 @@
     "Unitech/pm2",
     "validatorjs/validator.js",
     "webpack/webpack",
-    "webtorrent/webtorrent",
     "wix/Detox",
     "yokoffing/Betterfox",
     "zloirock/core-js"

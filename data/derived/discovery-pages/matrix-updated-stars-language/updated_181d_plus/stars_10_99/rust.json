@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 577,
-    "concepts": 421,
-    "observations": 425,
-    "repos": 203,
-    "terms": 415
+    "components": 579,
+    "concepts": 433,
+    "observations": 438,
+    "repos": 204,
+    "terms": 427
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
@@ -137,6 +137,7 @@
     "LaurentMazare/tch-ext",
     "lita-xyz/valida-vm",
     "loocapro/reth-bsc",
+    "LuisaGroup/luisa-compute-rs",
     "markdown-it-rust/markdown-it-plugins.rs",
     "MatchaChoco010/egui-winit-ash-integration",
     "MatchaChoco010/egui_winit_ash_vk_mem",

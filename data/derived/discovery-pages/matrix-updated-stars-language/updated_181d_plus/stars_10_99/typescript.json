@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4336,
-    "concepts": 547,
-    "observations": 548,
-    "repos": 191,
-    "terms": 558
+    "components": 4353,
+    "concepts": 553,
+    "observations": 554,
+    "repos": 192,
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -180,6 +180,7 @@
     "seangwright/typescript-functional-extensions",
     "sergiodxa/react-router-i18next-example",
     "Shougo/ddu-source-file",
+    "signalfx/opentelemetry-demo",
     "singularitti/vscode-julia-formatter",
     "smikula/obsidian-limelight",
     "solo-io/proxy-runtime",

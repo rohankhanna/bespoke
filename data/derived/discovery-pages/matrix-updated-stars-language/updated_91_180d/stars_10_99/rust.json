@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 148,
-    "observations": 150,
-    "repos": 60,
-    "terms": 146
+    "components": 230,
+    "concepts": 145,
+    "observations": 146,
+    "repos": 61,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
@@ -46,6 +46,7 @@
     "georust/wkt",
     "germangb/minimp3-rs",
     "googlefonts/shaperglot",
+    "hermit-os/hermit-rs-template",
     "hermit-os/rftrace",
     "informalsystems/quint-connect",
     "informalsystems/quint-trace-explorer",
@@ -58,12 +59,12 @@
     "lindera/lindera-tantivy",
     "linebender/simplecss",
     "loyd/fixnum",
-    "LuisaGroup/luisa-compute-rs",
     "microsoft/tracing-etw",
     "nebelgrau77/airsniffer-esp32c6",
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",
     "psmux/psnet",
+    "psmux/Tmux-Plugin-Panel",
     "raymondshe/matchengine-raft",
     "ros2-rust/examples",
     "rukai/winit_input_helper",

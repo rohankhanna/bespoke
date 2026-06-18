@@ -1,23 +1,22 @@
 {
   "counts": {
-    "components": 405,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 35,
-    "terms": 167
+    "components": 400,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 34,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
-    "compozy/kb",
     "dwyl/mvp",
     "edge-classic/EDGE-classic",
     "f3liz-casa/noraneko",

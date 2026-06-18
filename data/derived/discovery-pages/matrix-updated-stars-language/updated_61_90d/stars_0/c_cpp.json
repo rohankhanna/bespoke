@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 25,
+    "components": 7,
     "concepts": 8,
     "observations": 9,
     "repos": 4,
@@ -12,11 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
+    "CHIP-SPV/H4I-HipBLAS",
     "CHIP-SPV/H4I-HipFFT",
     "CHIP-SPV/H4I-HipSOLVER",
-    "datachainlab/cosmos-bsc-ibc-lcp",
-    "Saalvage/assimp"
+    "datachainlab/cosmos-bsc-ibc-lcp"
   ]
 }

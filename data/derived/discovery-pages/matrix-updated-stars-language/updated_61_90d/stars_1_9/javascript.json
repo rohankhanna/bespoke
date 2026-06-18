@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 784,
+    "components": 793,
     "concepts": 484,
     "observations": 484,
-    "repos": 53,
-    "terms": 478
+    "repos": 54,
+    "terms": 485
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "actions-cool/test-issues-helper",
     "agent-sh/agent-core",
@@ -54,6 +54,7 @@
     "Level/supports",
     "Level/transcoder",
     "poolifier/tatami-ng",
+    "seunghunbae-3svs/solo-cto-agent",
     "stdlib-js/array-buffer",
     "stdlib-js/array-complex128",
     "stdlib-js/array-complex64",

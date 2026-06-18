@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 20,
-    "terms": 116
+    "components": 71,
+    "concepts": 129,
+    "observations": 129,
+    "repos": 23,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
+    "2KAbhishek/sway2k",
     "2KAbhishek/tmux-tilit",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
@@ -30,8 +31,10 @@
     "confluentinc/cp-demo",
     "containers/automation",
     "Digidai/product-manager-skills",
+    "flinedev/tandemkit",
     "GoogleCloudPlatform/blueprints",
     "nodenv/node-build-update-defs",
+    "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
     "robertguss/claude-code-toolkit"
   ]

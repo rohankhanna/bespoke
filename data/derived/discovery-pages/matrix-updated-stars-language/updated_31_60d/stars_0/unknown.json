@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 101,
-    "terms": 71
+    "components": 16,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 90,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
-    "8144225309/lightning",
     "abdeladim-s/pywhispercpp",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "begmyratb/floweye-yyyxxx.cc",
@@ -31,14 +30,6 @@
     "conda-forge/versioneer-feedstock",
     "csm-actions/demo-client",
     "Culmus/hebrew-fonts",
-    "damacol/google-gemma-2-2b-it",
-    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
-    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
-    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
-    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
-    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "damacol/meta-llama-llama-3-2-3b",
-    "damacol/xai-org-grok-2",
     "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
@@ -96,11 +87,9 @@
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
     "danielrosehill/Favorite-Code-Libraries",
-    "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/GROUNDING.md",
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
-    "danielrosehill/lan-manager-plugin",
     "danielrosehill/Open-Research-Workspaces-Index",
     "Dustinpro/Dustinpro",
     "foundersieve687/skill-gateway",

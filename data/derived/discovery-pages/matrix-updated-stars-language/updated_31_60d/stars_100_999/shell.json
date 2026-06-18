@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 313,
-    "observations": 316,
-    "repos": 50,
-    "terms": 308
+    "components": 214,
+    "concepts": 295,
+    "observations": 298,
+    "repos": 49,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
-    "alfredolopez80/multi-agent-ralph-loop",
     "alpinelinux/aports",
     "amrsa1/Android-Emulator-image",
     "bnb-chain/bsc-snapshots",

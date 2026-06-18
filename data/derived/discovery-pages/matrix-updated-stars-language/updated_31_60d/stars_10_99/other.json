@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1917,
-    "concepts": 1121,
-    "observations": 1125,
-    "repos": 261,
-    "terms": 1124
+    "components": 1893,
+    "concepts": 1108,
+    "observations": 1112,
+    "repos": 255,
+    "terms": 1110
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -49,7 +49,6 @@
     "atsushieno/resident-midi-keyboard",
     "avikeid2007/KaiROS-AI",
     "aws-otel/aws-otel.github.io",
-    "Azure/bicep-extensibility",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
     "B-Lang-org/bdw",
@@ -67,7 +66,6 @@
     "cginternals/cpplocate",
     "cgrindel/bazel-starlib",
     "chainguard-dev/rules_apko",
-    "chaos2cured/freelattice",
     "cjdoris/PreferenceTools.jl",
     "Cle2ment/CherryStudio_themes",
     "cloudfoundry/bosh-aws-cpi-release",
@@ -158,7 +156,6 @@
     "JuliaGeo/Proj.jl",
     "JuliaLang/BumpStdlibs.jl",
     "JuliaMath/FixedPointNumbers.jl",
-    "JuliaPy/MicroMamba.jl",
     "JuliaSMLM/ModelContextProtocol.jl",
     "JuliaSparse/SparseArrays.jl",
     "jupyterlab/extension-template",
@@ -172,7 +169,6 @@
     "lakekeeper/lakekeeper-charts",
     "leandrocp/req_embed",
     "LedgerHQ/ledger-app-builder",
-    "lewis6991/async.nvim",
     "liuliu/s4nnc",
     "localstack/localstack-cli",
     "ludwig-ai/ludwig-docs",
@@ -180,7 +176,6 @@
     "melpa/package-build",
     "mesh-iit/ergocub-software",
     "meta-pytorch/executorch-examples",
-    "Mic92/nur-packages",
     "mirage/colombe",
     "mirage/mrmime",
     "mirage/ocaml-dkim",
@@ -258,7 +253,6 @@
     "status-im/nim-eth",
     "status-im/nim-protobuf-serialization",
     "status-im/nim-ssz-serialization",
-    "steipete/homebrew-tap",
     "tc39/proposal-amount",
     "TEN-framework/portal",
     "thedoggybrad/easylist-mirror",

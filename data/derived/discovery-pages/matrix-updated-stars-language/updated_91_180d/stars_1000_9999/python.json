@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 478,
-    "concepts": 956,
-    "observations": 957,
-    "repos": 183,
-    "terms": 941
+    "components": 490,
+    "concepts": 974,
+    "observations": 975,
+    "repos": 185,
+    "terms": 959
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
+    "AgentOps-AI/agentops",
     "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
     "aigc3d/LHM",
@@ -101,6 +102,7 @@
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "jessevig/bertviz",
+    "jiaaro/pydub",
     "junyanz/CatPapers",
     "KaiyangZhou/deep-person-reid",
     "keleshev/schema",

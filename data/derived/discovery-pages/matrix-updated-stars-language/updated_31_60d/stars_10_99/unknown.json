@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 132,
-    "observations": 133,
-    "repos": 38,
-    "terms": 131
+    "components": 150,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 36,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -32,7 +32,6 @@
     "microsoft/microsoft-foundry-for-vscode",
     "mypyc/mypyc-benchmark-results",
     "NightWatcher314/zotero-pdf2zh-server",
-    "pre-commit/mirrors-eslint",
     "prefix-dev/rattler-build-action",
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
@@ -41,7 +40,6 @@
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/community",
     "sigstore/root-signing-staging",
-    "simonw/simonwillisonblog-backup",
     "spiffe/spire-examples",
     "spring-projects/spring-ai-integration-tests",
     "standardrb/standard-ruby-action",

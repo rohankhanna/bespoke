@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 411,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 35,
-    "terms": 98
+    "components": 423,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 36,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
+    "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",

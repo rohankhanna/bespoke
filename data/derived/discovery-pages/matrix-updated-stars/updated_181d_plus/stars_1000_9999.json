@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10787,
-    "concepts": 9451,
-    "observations": 9464,
-    "repos": 2429,
-    "terms": 9314
+    "components": 10817,
+    "concepts": 9458,
+    "observations": 9471,
+    "repos": 2434,
+    "terms": 9321
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -389,6 +389,7 @@
     "chainer/chainercv",
     "chainer/chainerrl",
     "chancejs/chancejs",
+    "ChaoningZhang/MobileSAM",
     "charlesq34/pointnet",
     "charlesq34/pointnet2",
     "CharlesShang/DCNv2",
@@ -590,6 +591,7 @@
     "dragnet-org/dragnet",
     "dragonflyoss/dragonfly-archived",
     "drduh/pwd.sh",
+    "dtolnay/case-studies",
     "dtolnay/serde-yaml",
     "Duxiaoman-DI/XuanYuan",
     "dwmkerr/sharpshell",
@@ -818,6 +820,7 @@
     "ghodss/yaml",
     "GiovineItalia/Gadfly.jl",
     "gitalk/gitalk",
+    "github/cmark-gfm",
     "github/pages-gem",
     "github/renaming",
     "github/roadmap",
@@ -911,6 +914,7 @@
     "graphql/express-graphql",
     "graphql/graphql-relay-js",
     "Gregwar/Image",
+    "grpc/grpc-kotlin",
     "gruntjs/grunt-contrib-watch",
     "guandeh17/Self-Forcing",
     "gulp-sourcemaps/gulp-sourcemaps",
@@ -918,6 +922,7 @@
     "guochengqian/Magic123",
     "guochengqian/PointNeXt",
     "guoqincode/Open-AnimateAnyone",
+    "guybedford/es-module-lexer",
     "GuyTevet/motion-diffusion-model",
     "gvergnaud/hotscript",
     "gwudcap/cc-sessions",

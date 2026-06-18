@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 57
-- terms: 636
-- components: 1299
+- repos: 56
+- terms: 629
+- components: 1290
 - concepts: 631
 - observations: 634
 
@@ -82,7 +82,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [anojndr/grok-to-openai](https://github.com/anojndr/grok-to-openai) | 2 | 2026-04-19T12:57:02Z | JavaScript | Web app | 1 | 6 | 0 | 0 |
 | [stealabra5019/grok-enhancer](https://github.com/stealabra5019/Grok-Enhancer) | 1 | 2026-04-19T12:26:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [gauravrathod674/custom-chatbot](https://github.com/gauravRathod674/custom-chatbot) | 3 | 2026-04-19T08:39:25Z | JavaScript | Infrastructure/tooling | 1 | 20 | 0 | 0 |
-| [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | 1 | 2026-04-18T22:11:15Z | JavaScript | CLI | 7 | 9 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -144,4 +143,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stdlib-js/complex-float32-reviver](https://github.com/stdlib-js/complex-float32-reviver) | 1 | 2026-04-20T01:39:00Z | JavaScript | Infrastructure/tooling | 24 | 19 | 25 | 25 |
 | [stdlib-js/complex-cmplx](https://github.com/stdlib-js/complex-cmplx) | 1 | 2026-04-20T01:34:56Z | JavaScript | Infrastructure/tooling | 18 | 22 | 18 | 18 |
 | [stealabra5019/grok-enhancer](https://github.com/stealabra5019/Grok-Enhancer) | 1 | 2026-04-19T12:26:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | 1 | 2026-04-18T22:11:15Z | JavaScript | CLI | 7 | 9 | 0 | 0 |

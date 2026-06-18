@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15937,
-    "concepts": 14508,
-    "observations": 14536,
-    "repos": 4728,
-    "terms": 14280
+    "components": 15953,
+    "concepts": 14511,
+    "observations": 14539,
+    "repos": 4732,
+    "terms": 14283
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -795,6 +795,7 @@
     "Buernia/Zhudou-Sans",
     "buffer/libemu",
     "Builditluc/wiki-tui",
+    "buildpacks/spec",
     "buptlihang/CDLA",
     "buraksezer/consistent",
     "burningwave/core",
@@ -856,6 +857,7 @@
     "cardwing/Codes-for-PVKD",
     "CarkusL/CenterPoint",
     "carla-simulator/carla-autoware",
+    "carla-simulator/leaderboard",
     "CarlVerret/csFastFloat",
     "carolineec/informative-drawings",
     "carpedm20/multi-speaker-tacotron-tensorflow",
@@ -1393,6 +1395,7 @@
     "dsherret/ts-nameof",
     "dsnet/compress",
     "dthuerck/mapmap_cpu",
+    "dtolnay/cargo-llvm-lines",
     "duburcqa/jiminy",
     "ducha-aiki/affnet",
     "dunglas/frankenphp-demo",
@@ -2804,6 +2807,7 @@
     "lostromb/concentus",
     "louisdx/cxx-prettyprint",
     "LouisRouss/Diffusion-Based-Model-for-Colorization",
+    "lovemefan/SenseVoice.cpp",
     "LPengYang/FreeDrag",
     "lpghatguy/aftman",
     "lrjconan/GRAN",

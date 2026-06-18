@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 273,
-    "observations": 276,
-    "repos": 57,
-    "terms": 270
+    "components": 256,
+    "concepts": 260,
+    "observations": 263,
+    "repos": 54,
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
-    "2KAbhishek/sway2k",
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "Alexpux/MINGW-packages",
@@ -40,7 +39,6 @@
     "electerm/electerm-web-docker",
     "envoyproxy/examples",
     "fcshark-org/route-list",
-    "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "gpac/testsuite",
     "helidon-io/helidon-examples",
@@ -52,7 +50,6 @@
     "microsoft/openjdk-docker",
     "milvus-io/milvus-proto",
     "NixOS/org",
-    "nodenv/nodenv-package-rehash",
     "oneclick/rubyinstaller2-packages",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",

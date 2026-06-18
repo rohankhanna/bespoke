@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2829,
-    "concepts": 548,
-    "observations": 552,
-    "repos": 101,
-    "terms": 554
+    "components": 2749,
+    "concepts": 538,
+    "observations": 542,
+    "repos": 98,
+    "terms": 544
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -60,8 +60,6 @@
     "intlify/vue-i18n-extensions",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
-    "ipikuka/rehype-highlight-code-lines",
-    "ipikuka/remark-flexible-containers",
     "jaegertracing/documentation",
     "jakebailey/pyright-action",
     "jakoch/install-vulkan-sdk-action",
@@ -77,7 +75,6 @@
     "maplibre/maplibre-gl-inspect",
     "mcous/vitest-when",
     "microsoft/Agents-for-js",
-    "newrelic/opentelemetry-demo",
     "NullVoxPopuli/ember-deep-tracked",
     "obsidianmd/eslint-plugin",
     "oclif/plugin-autocomplete",

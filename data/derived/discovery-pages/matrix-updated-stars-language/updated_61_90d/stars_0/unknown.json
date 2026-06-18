@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 45,
-    "terms": 40
+    "components": 52,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 55,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,24 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
+    "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
     "adiny/moodtrip-hotel-search",
     "alexcrichton/cc-rs",
-    "cachix/crossterm",
     "cachix/nix-bindings-rust",
     "csjgg/ags-cookbook",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
+    "damacol/google-gemma-2-2b-it",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "damacol/meta-llama-llama-3-2-3b",
+    "damacol/xai-org-grok-2",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
@@ -36,6 +44,7 @@
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
     "danielrosehill/Deployments-Index",
+    "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/handy-wayland-autostart-fix",
@@ -43,6 +52,7 @@
     "danielrosehill/Home-Assistant-Index",
     "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/Jewish-Related-Index",
+    "danielrosehill/lan-manager-plugin",
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/My-Benchmarks",
     "danielrosehill/Networking-And-Infrastructure-Index",

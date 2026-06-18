@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 327,
-    "observations": 329,
-    "repos": 45,
-    "terms": 315
+    "components": 251,
+    "concepts": 303,
+    "observations": 305,
+    "repos": 43,
+    "terms": 293
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "alrra/dotfiles",
@@ -28,7 +28,6 @@
     "clangd/clangd",
     "conda-forge/miniforge",
     "confluentinc/demo-scene",
-    "devcontainers/features",
     "devcontainers/images",
     "docker-library/docker",
     "docker-library/docs",
@@ -37,7 +36,6 @@
     "docker-library/postgres",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
-    "git-quick-stats/git-quick-stats",
     "google/adk-docs",
     "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
@@ -47,7 +45,7 @@
     "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "nix-community/nix-direnv",
+    "nodenv/nodenv",
     "pacstall/pacstall",
     "pypa/manylinux",
     "rbenv/ruby-build",

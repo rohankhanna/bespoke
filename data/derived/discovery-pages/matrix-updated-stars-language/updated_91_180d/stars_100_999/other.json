@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1094,
-    "concepts": 918,
-    "observations": 921,
-    "repos": 241,
-    "terms": 913
+    "components": 1105,
+    "concepts": 934,
+    "observations": 937,
+    "repos": 244,
+    "terms": 929
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -96,6 +96,8 @@
     "declare-lab/TangoFlux",
     "Deep-Symmetry/afterglow",
     "detekt/detekt-intellij-plugin",
+    "djezzzl/factory_trace",
+    "dkubb/adamantium",
     "dkubb/memoizable",
     "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
@@ -156,6 +158,7 @@
     "JuliaLang/JuliaSyntax.jl",
     "JuliaML/MLUtils.jl",
     "JuliaPlots/GraphRecipes.jl",
+    "JuliaPy/PyPlot.jl",
     "k0kubun/hamlit",
     "kakajun/vue3-sketch-ruler",
     "kevinhwang91/nvim-hlslens",

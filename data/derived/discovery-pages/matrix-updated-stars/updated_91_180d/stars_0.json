@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 291,
-    "concepts": 149,
-    "observations": 150,
-    "repos": 95,
-    "terms": 148
+    "components": 312,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 98,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -27,6 +27,7 @@
     "Bearer/homebrew-tap",
     "bgw/bincode",
     "bookcars/bookcars.github.io",
+    "cachix/crossterm",
     "CADindustries/container",
     "charlesnicholson/docker-images",
     "CharlieFRuan/harbor",
@@ -82,6 +83,7 @@
     "mjvolk3/dendron-template",
     "Mountchicken/Mountchicken",
     "mudler/vulkan-sdk-arm",
+    "musicman3/cruder",
     "musicman3/r2-d2",
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",
@@ -97,6 +99,7 @@
     "openwdl/governance",
     "prestodb/presto-dev",
     "saalfeldlab/n5-blosc",
+    "Saalvage/assimp",
     "samsja/dion",
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 31,
-    "terms": 118
+    "components": 160,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 30,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
     "abraxas-365/claudio",
-    "anexia/k8s-external-dns-webhook",
     "apache/casbin-fasthttp-auth",
     "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10681,
-    "concepts": 1607,
-    "observations": 1618,
-    "repos": 148,
-    "terms": 1613
+    "components": 10595,
+    "concepts": 1595,
+    "observations": 1606,
+    "repos": 146,
+    "terms": 1601
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -50,7 +50,6 @@
     "conventional-changelog/commitlint",
     "danny-avila/LibreChat",
     "DefinitelyTyped/DefinitelyTyped",
-    "diegomura/react-pdf",
     "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "ecomfe/vue-echarts",
@@ -148,7 +147,6 @@
     "TanStack/table",
     "tanweai/pua",
     "typescript-eslint/typescript-eslint",
-    "upstash/context7",
     "vitejs/vite",
     "vitest-dev/vitest",
     "VSCodeVim/Vim",

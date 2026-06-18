@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · C/C++
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 22
-- components: 21
-- concepts: 22
-- observations: 22
+- repos: 5
+- terms: 19
+- components: 20
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -31,7 +31,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [arnaud-lb/php-rdkafka](https://github.com/arnaud-lb/php-rdkafka) | 0 | 2026-04-20T15:41:29Z | C/C++ | CLI | 3 | 5 | 3 | 3 |
-| [CHIP-SPV/H4I-HipBLAS](https://github.com/CHIP-SPV/H4I-HipBLAS) | 0 | 2026-04-18T09:23:02Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -42,4 +41,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [8144225309/superscalar-cln](https://github.com/8144225309/superscalar-cln) | 0 | 2026-04-21T15:01:50Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [arnaud-lb/php-rdkafka](https://github.com/arnaud-lb/php-rdkafka) | 0 | 2026-04-20T15:41:29Z | C/C++ | CLI | 3 | 5 | 3 | 3 |
-| [CHIP-SPV/H4I-HipBLAS](https://github.com/CHIP-SPV/H4I-HipBLAS) | 0 | 2026-04-18T09:23:02Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |

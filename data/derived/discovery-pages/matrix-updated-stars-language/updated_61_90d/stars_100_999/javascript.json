@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1762,
-    "concepts": 459,
-    "observations": 461,
-    "repos": 109,
-    "terms": 490
+    "components": 1839,
+    "concepts": 471,
+    "observations": 473,
+    "repos": 110,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -70,7 +70,7 @@
     "gruntjs/grunt-contrib-qunit",
     "hudochenkov/stylelint-order",
     "hyparam/hyparquet",
-    "igvteam/igv.js",
+    "i18next/i18next-browser-languageDetector",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
     "jimmywarting/native-file-system-adapter",
@@ -81,6 +81,7 @@
     "kriszyp/lmdb-js",
     "Level/abstract-level",
     "lis186/ccxray",
+    "lobehub/lobe-editor",
     "mapbox/cheap-ruler",
     "mapbox/mapbox-gl-styles",
     "mapbox/pbf",

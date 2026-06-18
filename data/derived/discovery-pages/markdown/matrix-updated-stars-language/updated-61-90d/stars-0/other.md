@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Other
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 24
-- terms: 38
-- components: 22
-- concepts: 38
-- observations: 38
+- terms: 31
+- components: 45
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [JuliaBinaryWrappers/libpng_jll.jl](https://github.com/JuliaBinaryWrappers/libpng_jll.jl) | 0 | 2026-04-16T14:33:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Github-Repo-Org-Question](https://github.com/danielrosehill/Github-Repo-Org-Question) | 0 | 2026-04-16T14:17:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -49,12 +50,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
 | [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [JuliaBinaryWrappers/libpng_jll.jl](https://github.com/JuliaBinaryWrappers/libpng_jll.jl) | 0 | 2026-04-16T14:33:47Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Github-Repo-Org-Question](https://github.com/danielrosehill/Github-Repo-Org-Question) | 0 | 2026-04-16T14:17:04Z | Other | Unknown | 3 | 0 | 3 | 3 |
@@ -78,4 +79,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kdubbo/client-go](https://github.com/kdubbo/client-go) | 0 | 2026-03-22T20:05:55Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |

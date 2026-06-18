@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 553,
-    "concepts": 950,
-    "observations": 950,
-    "repos": 243,
-    "terms": 942
+    "components": 558,
+    "concepts": 958,
+    "observations": 958,
+    "repos": 246,
+    "terms": 950
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -62,7 +62,6 @@
     "BusKill/buskill-app",
     "bytedance/BindWeave",
     "bytedance/Q-Insight",
-    "carla-simulator/leaderboard",
     "celery/py-amqp",
     "Chris-hughes10/pytorch-accelerated",
     "christgau/wsdd",
@@ -76,6 +75,7 @@
     "corydolphin/flask-cors",
     "csslc/PiSA-SR",
     "DanCardin/cappa",
+    "DanceTrack/DanceTrack",
     "danielward27/flowjax",
     "dask/fastparquet",
     "dbeley/awesome-lemmy",
@@ -116,6 +116,7 @@
     "HolyWu/vs-rife",
     "hongyuanyu/SPAN",
     "httplib2/httplib2",
+    "huawei-noah/noah-research",
     "huggingface/flux-fast",
     "hukkin/mdformat",
     "hustvl/DiffusionDriveV2",
@@ -136,6 +137,7 @@
     "kevinhwang91/rnvimr",
     "kijai/ComfyUI-DepthAnythingV2",
     "LAION-AI/audio-dataset",
+    "LAION-AI/CLIP_benchmark",
     "lartpang/PySODMetrics",
     "lebrice/SimpleParsing",
     "lessw2020/Ranger21",
@@ -250,6 +252,7 @@
     "xingchensong/S3Tokenizer",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
+    "yaroslavyaroslav/OpenAI-sublime-text",
     "yashsinghcodes/wik",
     "YosysHQ/prjtrellis",
     "yuliangguo/3D_Lane_Synthetic_Dataset",

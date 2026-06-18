@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1422,
-    "concepts": 1238,
-    "observations": 1242,
-    "repos": 168,
-    "terms": 1243
+    "components": 1390,
+    "concepts": 1216,
+    "observations": 1220,
+    "repos": 164,
+    "terms": 1214
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -127,16 +127,13 @@
     "kubernetes/sample-apiserver",
     "labring/aiproxy",
     "letsencrypt/pebble",
-    "linxGnu/grocksdb",
     "maragudk/gomponents-starter-kit",
     "mattn/go-isatty",
-    "mattn/go-runewidth",
     "microsoft/dcp",
     "microsoft/hcsshim",
     "monitoring-mixins/mixtool",
     "moul/gotty-client",
     "OffchainLabs/nitro",
-    "open-telemetry/opentelemetry-collector-releases",
     "openshift/enhancements",
     "openshift/library",
     "opentofu/registry",
@@ -165,7 +162,6 @@
     "sergelogvinov/proxmox-cloud-controller-manager",
     "sethvargo/ratchet",
     "sigstore/fulcio",
-    "skenetechnologies/skene",
     "snowflakedb/gosnowflake",
     "spiffe/go-spiffe",
     "suzuki-shunsuke/ghalint",

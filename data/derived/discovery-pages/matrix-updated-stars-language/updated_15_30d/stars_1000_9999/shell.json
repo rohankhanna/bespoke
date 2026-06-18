@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 3,
-    "terms": 19
+    "components": 8,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 2,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
-    "nodenv/nodenv",
     "ROCm/ROCm",
     "webinstall/webi-installers"
   ]

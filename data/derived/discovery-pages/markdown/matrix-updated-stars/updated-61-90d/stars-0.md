@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 137
-- terms: 243
-- components: 505
-- concepts: 239
-- observations: 240
+- repos: 155
+- terms: 269
+- components: 619
+- concepts: 247
+- observations: 248
 
 ## Static behavior
 
@@ -25,6 +25,27 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:24:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/xai-org-grok-2](https://github.com/Damacol/xai-org-grok-2) | 0 | 2026-04-19T05:22:08Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:18:33Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | 0 | 2026-04-19T04:32:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
+| [hyper-mcp-rs/crypto-price-plugin](https://github.com/hyper-mcp-rs/crypto-price-plugin) | 0 | 2026-04-19T04:15:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [sujithpvarghese/bedrock-agent-core-operations-hub-mcp](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp) | 0 | 2026-04-19T00:18:22Z | TypeScript | Web app | 0 | 15 | 0 | 0 |
+| [kidshadow79/ogma](https://github.com/kidshadow79/Ogma) | 0 | 2026-04-18T22:33:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [8144225309/lightning](https://github.com/8144225309/lightning) | 0 | 2026-04-18T22:23:51Z | Unknown | Infrastructure/tooling | 12 | 18 | 12 | 12 |
+| [danielrosehill/Geopol-Forecasts-Index](https://github.com/danielrosehill/Geopol-Forecasts-Index) | 0 | 2026-04-18T21:26:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [arckoor/jsonwebtoken](https://github.com/arckoor/jsonwebtoken) | 0 | 2026-04-18T21:24:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [danielrosehill/lan-manager-plugin](https://github.com/danielrosehill/lan-manager-plugin) | 0 | 2026-04-18T21:13:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tornikepe/ai-chatbot](https://github.com/tornikepe/ai-chatbot) | 0 | 2026-04-18T19:51:12Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [i18next/i18next-subliminal](https://github.com/i18next/i18next-subliminal) | 0 | 2026-04-18T18:25:48Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
+| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
+| [CHIP-SPV/H4I-HipBLAS](https://github.com/CHIP-SPV/H4I-HipBLAS) | 0 | 2026-04-18T09:23:02Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [jsleekr/skilldigest](https://github.com/JSLEEKR/skilldigest) | 0 | 2026-04-18T09:04:42Z | Rust | CLI | 3 | 4 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
 | [CHIP-SPV/H4I-HipFFT](https://github.com/CHIP-SPV/H4I-HipFFT) | 0 | 2026-04-18T08:08:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CHIP-SPV/H4I-HipSOLVER](https://github.com/CHIP-SPV/H4I-HipSOLVER) | 0 | 2026-04-18T08:08:38Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -159,14 +180,32 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kdubbo/api](https://github.com/kdubbo/api) | 0 | 2026-03-22T19:21:06Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
-| [Saalvage/assimp](https://github.com/Saalvage/assimp) | 0 | 2026-03-19T16:01:11Z | C/C++ | Infrastructure/tooling | 3 | 19 | 3 | 3 |
-| [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:24:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/xai-org-grok-2](https://github.com/Damacol/xai-org-grok-2) | 0 | 2026-04-19T05:22:08Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:18:33Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | 0 | 2026-04-19T04:32:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
+| [hyper-mcp-rs/crypto-price-plugin](https://github.com/hyper-mcp-rs/crypto-price-plugin) | 0 | 2026-04-19T04:15:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [sujithpvarghese/bedrock-agent-core-operations-hub-mcp](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp) | 0 | 2026-04-19T00:18:22Z | TypeScript | Web app | 0 | 15 | 0 | 0 |
+| [kidshadow79/ogma](https://github.com/kidshadow79/Ogma) | 0 | 2026-04-18T22:33:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [8144225309/lightning](https://github.com/8144225309/lightning) | 0 | 2026-04-18T22:23:51Z | Unknown | Infrastructure/tooling | 12 | 18 | 12 | 12 |
+| [danielrosehill/Geopol-Forecasts-Index](https://github.com/danielrosehill/Geopol-Forecasts-Index) | 0 | 2026-04-18T21:26:34Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [arckoor/jsonwebtoken](https://github.com/arckoor/jsonwebtoken) | 0 | 2026-04-18T21:24:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [danielrosehill/lan-manager-plugin](https://github.com/danielrosehill/lan-manager-plugin) | 0 | 2026-04-18T21:13:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tornikepe/ai-chatbot](https://github.com/tornikepe/ai-chatbot) | 0 | 2026-04-18T19:51:12Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [i18next/i18next-subliminal](https://github.com/i18next/i18next-subliminal) | 0 | 2026-04-18T18:25:48Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
+| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
+| [CHIP-SPV/H4I-HipBLAS](https://github.com/CHIP-SPV/H4I-HipBLAS) | 0 | 2026-04-18T09:23:02Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [jsleekr/skilldigest](https://github.com/JSLEEKR/skilldigest) | 0 | 2026-04-18T09:04:42Z | Rust | CLI | 3 | 4 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
 | [CHIP-SPV/H4I-HipFFT](https://github.com/CHIP-SPV/H4I-HipFFT) | 0 | 2026-04-18T08:08:39Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [CHIP-SPV/H4I-HipSOLVER](https://github.com/CHIP-SPV/H4I-HipSOLVER) | 0 | 2026-04-18T08:08:38Z | C/C++ | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -301,6 +340,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kdubbo/api](https://github.com/kdubbo/api) | 0 | 2026-03-22T19:21:06Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/GettextRuntime_jll.jl](https://github.com/JuliaBinaryWrappers/GettextRuntime_jll.jl) | 0 | 2026-03-21T02:10:35Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
-| [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
-| [Saalvage/assimp](https://github.com/Saalvage/assimp) | 0 | 2026-03-19T16:01:11Z | C/C++ | Infrastructure/tooling | 3 | 19 | 3 | 3 |
-| [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |

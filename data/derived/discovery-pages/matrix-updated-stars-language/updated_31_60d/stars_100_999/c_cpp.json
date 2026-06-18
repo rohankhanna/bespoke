@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1182,
-    "concepts": 1210,
-    "observations": 1211,
-    "repos": 211,
-    "terms": 1204
+    "components": 1159,
+    "concepts": 1174,
+    "observations": 1175,
+    "repos": 206,
+    "terms": 1168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -84,7 +84,6 @@
     "flexivrobotics/flexiv_rdk",
     "foldl/chatllm.cpp",
     "freebayes/freebayes",
-    "freebsd/kyua",
     "freetype/freetype",
     "Frommi/miniz_oxide",
     "ganelson/inweb",
@@ -99,7 +98,6 @@
     "GraphBLAS/LAGraph",
     "grizzlypeak3d/tlRender",
     "hajimes/mmh3",
-    "hamcrest/OCHamcrest",
     "HazyResearch/HipKittens",
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
@@ -138,7 +136,6 @@
     "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
-    "luvit/luv",
     "lxqt/qterminal",
     "lxqt/qtermwidget",
     "mapbox/geometry.hpp",
@@ -163,10 +160,8 @@
     "nvpro-samples/vk_gltf_renderer",
     "ofiwg/libfabric",
     "oneapi-src/level-zero",
-    "onnx/optimizer",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-ebpf-instrumentation",
-    "OpenLightingProject/ola",
     "openSUSE/catatonit",
     "openSUSE/libsolv",
     "openvinotoolkit/model_server",

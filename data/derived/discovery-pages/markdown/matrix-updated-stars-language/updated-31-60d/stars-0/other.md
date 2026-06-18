@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Other
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 26
-- terms: 34
-- components: 66
+- repos: 25
+- terms: 32
+- components: 43
 - concepts: 28
 - observations: 28
 
@@ -51,7 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
 | [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -82,4 +81,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
 | [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |

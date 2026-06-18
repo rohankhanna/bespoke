@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2009,
-    "concepts": 1964,
-    "observations": 1974,
-    "repos": 208,
-    "terms": 1965
+    "components": 1974,
+    "concepts": 1950,
+    "observations": 1960,
+    "repos": 205,
+    "terms": 1945
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "actions/actions-runner-controller",
@@ -77,7 +77,6 @@
     "cosmos/cosmos-sdk",
     "crazy-max/diun",
     "cri-o/cri-o",
-    "databus23/helm-diff",
     "DataDog/datadog-agent",
     "dghubble/gologin",
     "Dicklesworthstone/beads_viewer",
@@ -146,7 +145,6 @@
     "kubeovn/kube-ovn",
     "kuberhealthy/kuberhealthy",
     "kubernetes-sigs/cluster-api",
-    "kubernetes-sigs/controller-runtime",
     "kubernetes-sigs/cri-tools",
     "kubernetes-sigs/external-dns",
     "kubernetes-sigs/gateway-api",
@@ -160,7 +158,6 @@
     "kubernetes/kubectl",
     "kubernetes/test-infra",
     "kyverno/kyverno",
-    "larksuite/cli",
     "letsencrypt/boulder",
     "lightningnetwork/lnd",
     "Loyalsoldier/geoip",

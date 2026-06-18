@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 193,
-    "concepts": 248,
-    "observations": 248,
-    "repos": 37,
-    "terms": 247
+    "concepts": 268,
+    "observations": 268,
+    "repos": 38,
+    "terms": 267
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -36,6 +36,7 @@
     "lucidrains/denoising-diffusion-pytorch",
     "microsoft/unilm",
     "modin-project/modin",
+    "PaddlePaddle/PaddleDetection",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-06-17T08:20:34.201468+00:00`
+Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 412
-- components: 329
-- concepts: 416
-- observations: 419
+- repos: 31
+- terms: 399
+- components: 321
+- concepts: 403
+- observations: 406
 
 ## Static behavior
 
@@ -57,7 +57,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [python-poetry/poetry](https://github.com/python-poetry/poetry) | 34288 | 2026-05-24T15:43:42Z | Python | Infrastructure/tooling | 9 | 11 | 9 | 9 |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | 13068 | 2026-05-24T05:22:48Z | Python | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [oobabooga/textgen](https://github.com/oobabooga/textgen) | 47257 | 2026-05-20T19:02:33Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23785 | 2026-05-18T18:21:38Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -79,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27879 | 2026-05-29T16:58:13Z | Python | Infrastructure/tooling | 17 | 29 | 18 | 18 |
 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 26752 | 2026-05-28T23:31:51Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
 | [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 23987 | 2026-05-29T14:55:31Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 23785 | 2026-05-18T18:21:38Z | Python | Infrastructure/tooling | 13 | 8 | 13 | 13 |
 | [verl-project/verl](https://github.com/verl-project/verl) | 21641 | 2026-05-29T08:44:43Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [datalab-to/surya](https://github.com/datalab-to/surya) | 19806 | 2026-05-27T15:18:52Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18750 | 2026-05-28T14:20:28Z | Python | Infrastructure/tooling | 3 | 8 | 3 | 3 |

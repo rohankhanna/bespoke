@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 275,
-    "concepts": 200,
-    "observations": 202,
-    "repos": 55,
-    "terms": 196
+    "components": 268,
+    "concepts": 198,
+    "observations": 200,
+    "repos": 54,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -39,7 +39,6 @@
     "darkweak/storages",
     "depado/bfchroma",
     "depado/smallblog",
-    "EstebanForge/mcp-cli-ent",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",

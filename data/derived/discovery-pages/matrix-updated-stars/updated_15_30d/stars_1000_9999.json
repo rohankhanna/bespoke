@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2486,
-    "concepts": 1230,
-    "observations": 1236,
-    "repos": 140,
-    "terms": 1221
+    "components": 2403,
+    "concepts": 1202,
+    "observations": 1208,
+    "repos": 136,
+    "terms": 1194
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -52,7 +52,6 @@
     "ebullient/obsidian-admonition",
     "eclipse-jdtls/eclipse.jdt.ls",
     "eclipse-openvsx/openvsx",
-    "electron/rebuild",
     "elixir-grpc/grpc",
     "endojs/endo",
     "Farama-Foundation/Minigrid",
@@ -106,8 +105,6 @@
     "mono/SkiaSharp",
     "neavo/LinguaGacha",
     "NEKOparapa/AiNiee",
-    "nodenv/nodenv",
-    "nomadkaraoke/python-audio-separator",
     "nvim-tree/nvim-web-devicons",
     "ogx-ai/ogx",
     "okd-project/okd",
@@ -147,7 +144,6 @@
     "vuejs/language-tools",
     "web-platform-tests/wpt",
     "webinstall/webi-installers",
-    "WiseLibs/better-sqlite3",
     "xoofx/markdig",
     "xtensor-stack/xtensor",
     "yomidevs/yomitan",

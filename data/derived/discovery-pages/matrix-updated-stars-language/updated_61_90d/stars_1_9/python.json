@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
+    "components": 157,
     "concepts": 100,
     "observations": 100,
-    "repos": 42,
-    "terms": 103
+    "repos": 46,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
+    "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "agenmod/okr-skill",
@@ -32,13 +33,16 @@
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
+    "cjtruheart/abundance-codex",
     "CoolCat467/idlemypyextension",
     "danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
     "dora-rs/dora-benchmark",
+    "etanhey/brainlayer",
     "fixie-ai/evals",
+    "gibdd-dps/prizolov-agent-os",
     "Jango-AI-com/morning-cli",
     "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",

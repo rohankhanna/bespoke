@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1242,
-    "concepts": 663,
-    "observations": 665,
-    "repos": 106,
-    "terms": 661
+    "components": 1222,
+    "concepts": 635,
+    "observations": 637,
+    "repos": 101,
+    "terms": 633
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -53,13 +53,11 @@
     "flagos-ai/FlagCX",
     "flagos-ai/FlagScale",
     "fsprojects/FSharp.Data.GraphQL",
-    "gbionics/adam",
     "GDevelopApp/GDevelop-extensions",
     "git-friendly/git-friendly",
     "GitoxideLabs/cargo-smart-release",
     "Gnathonic/mokuro-reader",
     "google-deepmind/reverb",
-    "google-deepmind/xmanager",
     "google/protobuf.dart",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
@@ -67,7 +65,6 @@
     "hluaguo/learn-faster-kit",
     "huggingface/hf-mcp-server",
     "ipsilon/evmone",
-    "Jamorim-esss/pytest-rich",
     "JuliaGraphics/Luxor.jl",
     "jupyter-server/jupyter_server",
     "jupyter/nbclassic",
@@ -94,7 +91,6 @@
     "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",
-    "python-poetry/poetry-plugin-export",
     "readthedocs/commonmark.py",
     "redis/redis-om-dotnet",
     "redis/redis-om-spring",
@@ -106,7 +102,6 @@
     "scverse/rapids-singlecell",
     "servo/stylo",
     "ShadowLoveElysia/AiNiee-Next",
-    "shawn0728/OpenSearch-VL",
     "skilld-dev/skilld",
     "SpecterOps/AzureHound",
     "spring-projects/spring-tools",

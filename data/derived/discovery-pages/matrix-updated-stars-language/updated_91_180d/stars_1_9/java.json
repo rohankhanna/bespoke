@@ -3,7 +3,7 @@
     "components": 25,
     "concepts": 63,
     "observations": 63,
-    "repos": 11,
+    "repos": 10,
     "terms": 61
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
-    "chriskamphuis/olddog",
     "dart4e/dart4e-studio",
     "filip26/copper-multibase",
     "filip26/copper-multicodec",

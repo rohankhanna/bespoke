@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1673,
-    "concepts": 1120,
-    "observations": 1127,
-    "repos": 181,
-    "terms": 1119
+    "components": 1592,
+    "concepts": 1084,
+    "observations": 1091,
+    "repos": 174,
+    "terms": 1077
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -20,7 +20,6 @@
     "A2-ai/rv",
     "aannoo/hcom",
     "actix/actix-net",
-    "agent-sh/agnix",
     "agentclientprotocol/rust-sdk",
     "Ai00-X/ai00_server",
     "ajrcarey/pdfium-render",
@@ -44,7 +43,6 @@
     "Azure/azure-sdk-for-rust",
     "base/base",
     "Blockstream/electrs",
-    "Boddlnagg/midir",
     "boquila/boquilahub",
     "cachix/secretspec",
     "cargo-bins/cargo-quickinstall",
@@ -81,7 +79,6 @@
     "esp-rs/espflash",
     "esp-rs/std-training",
     "EspressoSystems/espresso-network",
-    "EspressoSystems/jellyfish",
     "Ethiraric/yaml-rust2",
     "evaera/moonwave",
     "facebookexperimental/rust-shed",
@@ -113,7 +110,6 @@
     "kpcyrd/rebuilderd",
     "KSXGitHub/parallel-disk-usage",
     "lambdaclass/ethrex",
-    "LaurenzV/hayro",
     "LaurenzV/krilla",
     "ldclabs/anda",
     "left-curve/left-curve",
@@ -129,7 +125,6 @@
     "Mooncake-Labs/moonlink",
     "mozilla/application-services",
     "mozillazg/rust-pinyin",
-    "mplanchard/cuid-rust",
     "near/near-cli-rs",
     "near/near-sdk-rs",
     "nix-community/harmonia",
@@ -147,7 +142,6 @@
     "Plonky3/Plonky3",
     "posit-dev/ark",
     "prefix-dev/rattler-build",
-    "psmux/pstop",
     "pubgrub-rs/pubgrub",
     "purpleprotocol/mimalloc_rust",
     "quickwit-oss/search-benchmark-game",
@@ -176,7 +170,6 @@
     "succinctlabs/op-succinct",
     "supabase/wrappers",
     "tauri-apps/global-hotkey",
-    "tekumara/typos-lsp",
     "tensorchord/VectorChord-bm25",
     "testcontainers/testcontainers-rs-modules-community",
     "tinted-theming/tinty",

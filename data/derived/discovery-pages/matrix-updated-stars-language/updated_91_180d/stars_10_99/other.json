@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 618,
-    "concepts": 420,
-    "observations": 422,
-    "repos": 165,
-    "terms": 415
+    "components": 625,
+    "concepts": 432,
+    "observations": 434,
+    "repos": 168,
+    "terms": 427
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -45,6 +45,7 @@
     "AvaotaSBC/AvaotaF1",
     "avelino/monotropic-theme-vscode",
     "ayrat555/cargo-mode",
+    "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
@@ -138,6 +139,7 @@
     "newtheatre/history-project",
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+    "notaryproject/notaryproject.dev",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
     "ocurrent/opam-health-check",
@@ -146,7 +148,6 @@
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",
-    "paleolimbot/geos",
     "patrickgold/jetpref",
     "php/doc-it",
     "rcasia/neotest-bash",
@@ -157,6 +158,7 @@
     "rojo-rbx/rojo.space",
     "RTBHOUSE/tmux-picker",
     "rust-lang/crates-build-env",
+    "Saalvage/AssimpNetter",
     "SchwarzIT/spectral-intellij-plugin",
     "Shopify/quantified",
     "spring-ai-alibaba/website",
@@ -175,6 +177,7 @@
     "typst/typst-flake",
     "V13Axel/neotest-pest",
     "viafintech/gcra-ruby",
+    "w3c/element-timing",
     "WICG/crash-reporting",
     "xie-lab-ml/piecewise-sparse-attention",
     "Xuyuanp/yanil",

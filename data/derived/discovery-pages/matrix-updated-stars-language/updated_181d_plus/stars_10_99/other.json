@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2146,
-    "concepts": 2012,
-    "observations": 2018,
-    "repos": 863,
-    "terms": 2000
+    "components": 2153,
+    "concepts": 2015,
+    "observations": 2021,
+    "repos": 864,
+    "terms": 2003
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -673,6 +673,7 @@
     "OutlierDetectionJL/OutlierDetection.jl",
     "oxidizing/letters",
     "PacificBiosciences/barcoding",
+    "paleolimbot/geos",
     "PanJiaChen/PanJiaChen.github.io",
     "patterns-ai-core/qdrant-ruby",
     "paulstarke/AnimationAuthoring",

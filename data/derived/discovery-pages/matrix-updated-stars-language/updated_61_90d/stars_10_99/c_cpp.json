@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 42,
-    "terms": 186
+    "components": 223,
+    "concepts": 201,
+    "observations": 201,
+    "repos": 44,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
+    "8144225309/SuperScalar",
     "ada-url/ada-python",
     "ada-url/goada",
-    "AFD-Illinois/ebhlight",
     "AFD-Illinois/iharm3d",
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
@@ -28,6 +28,7 @@
     "clouren/SPEX",
     "cpmech/tritet",
     "CROSS-signature/CROSS-implementation",
+    "DavidKinder/Windows-Inform7",
     "embeddedartistry/libcpp",
     "fabmax/PhysX",
     "fcambus/bdf2sfd",
@@ -55,6 +56,7 @@
     "ssiu/flash-attention-turing",
     "theimpossibleastronaut/rmw",
     "triton-inference-server/openvino_backend",
-    "uael/sv"
+    "uael/sv",
+    "yquake2/ref_vk"
   ]
 }

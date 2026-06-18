@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 54,
-    "terms": 52
+    "components": 60,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 53,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -48,7 +48,6 @@
     "eddelbuettel/r2u-config",
     "emacs-straight/emacsmirror-mirror",
     "emacs-straight/gnu-elpa-mirror",
-    "eslint/.github",
     "flathub/org.gnome.eog",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "haskell/ghcup-www",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 308,
-    "concepts": 251,
-    "observations": 254,
+    "components": 306,
+    "concepts": 253,
+    "observations": 256,
     "repos": 46,
-    "terms": 249
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "a16z/helios",
@@ -25,7 +25,6 @@
     "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
     "dtolnay/cargo-expand",
-    "dtolnay/case-studies",
     "dtolnay/proc-macro-workshop",
     "fschutt/printpdf",
     "geiger-rs/cargo-geiger",
@@ -52,6 +51,7 @@
     "sharkdp/diskus",
     "simd-lite/simd-json",
     "Stebalien/tempfile",
+    "tauri-apps/cargo-mobile2",
     "Tencent/tquic",
     "tikv/grpc-rs",
     "tokio-rs/bytes",

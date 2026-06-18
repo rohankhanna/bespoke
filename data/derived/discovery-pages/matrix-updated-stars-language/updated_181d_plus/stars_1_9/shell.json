@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 77,
-    "concepts": 114,
-    "observations": 116,
-    "repos": 51,
-    "terms": 108
+    "concepts": 115,
+    "observations": 117,
+    "repos": 52,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -64,6 +64,7 @@
     "spack/migrate-package-prs",
     "to4iki/ai-project-rules",
     "tritondatacenter/node-cmdutil",
+    "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
     "videojs/admin"
   ]
 }

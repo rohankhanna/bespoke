@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 608,
-    "concepts": 692,
-    "observations": 695,
-    "repos": 139,
-    "terms": 695
+    "components": 630,
+    "concepts": 706,
+    "observations": 709,
+    "repos": 142,
+    "terms": 709
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -36,15 +36,16 @@
     "breezedeus/Pix2Text",
     "brianmario/charlock_holmes",
     "carrierwaveuploader/carrierwave",
-    "ChaoningZhang/MobileSAM",
     "chrisbra/csv.vim",
     "clj-commons/manifold",
     "clojure/clojurescript",
     "clojure/core.logic",
     "clojure/test.check",
+    "clux/muslrust",
     "cognitect/transit-format",
     "container-storage-interface/spec",
     "cpm-cmake/CPM.cmake",
+    "dakrone/cheshire",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
     "Deci-AI/super-gradients",
@@ -73,7 +74,6 @@
     "googleapis/elixir-google-api",
     "grangier/python-goose",
     "greggh/claude-code.nvim",
-    "grpc/grpc-kotlin",
     "guard/guard",
     "guard/listen",
     "haml/haml",
@@ -93,6 +93,8 @@
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "lite-xl/lite-xl",
+    "liuchengxu/vim-which-key",
+    "lunarmodules/busted",
     "MahmoudAshraf97/whisper-diarization",
     "mdn/webassembly-examples",
     "mds1/multicall3",
@@ -132,6 +134,7 @@
     "ruby-i18n/i18n",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",
+    "ScoopInstaller/Install",
     "sindresorhus/Gifski",
     "SmiteshP/nvim-navic",
     "SpinalHDL/VexRiscv",

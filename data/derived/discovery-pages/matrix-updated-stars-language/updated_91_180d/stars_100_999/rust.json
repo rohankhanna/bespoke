@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 398,
-    "concepts": 276,
-    "observations": 278,
-    "repos": 71,
-    "terms": 274
+    "components": 394,
+    "concepts": 293,
+    "observations": 295,
+    "repos": 72,
+    "terms": 291
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
+    "ashvardanian/StringWars",
     "ayazhafiz/xorf",
     "bet4it/udbserver",
     "bluss/matrixmultiply",
@@ -27,7 +28,6 @@
     "cuviper/autocfg",
     "dimforge/simba",
     "DioxusLabs/sdk",
-    "dtolnay/cargo-llvm-lines",
     "dtolnay/prettyplease",
     "esp-rs/embedded-svc",
     "fast/logforth",
@@ -64,6 +64,7 @@
     "Roblox/foreman",
     "rust-bio/rust-htslib",
     "rust-lang/backtrace-rs",
+    "rust-lang/rfcbot-rs",
     "rust-native-tls/rust-native-tls",
     "rust3ds/ctru-rs",
     "rusticstuff/simdutf8",

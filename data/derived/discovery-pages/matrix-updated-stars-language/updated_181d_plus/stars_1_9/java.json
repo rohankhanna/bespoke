@@ -3,7 +3,7 @@
     "components": 69,
     "concepts": 76,
     "observations": 76,
-    "repos": 47,
+    "repos": 48,
     "terms": 76
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "abistarun/resseract-lite",
     "aidenlab/JuiceboxGUI",
@@ -24,6 +24,7 @@
     "carrotsearch/elasticsearch-lingo3g",
     "cdmikechen/airflow-dag-operator",
     "chequer-io/phoenixsql",
+    "chriskamphuis/olddog",
     "coconut2015/cookjson",
     "code1986/sentinel-lib",
     "danijar/minerl",

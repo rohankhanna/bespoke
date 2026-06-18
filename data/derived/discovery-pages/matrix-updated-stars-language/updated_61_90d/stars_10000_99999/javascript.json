@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1500,
-    "concepts": 233,
-    "observations": 233,
-    "repos": 42,
-    "terms": 239
+    "components": 1643,
+    "concepts": 253,
+    "observations": 254,
+    "repos": 46,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "ai/nanoid",
     "anuraghazra/github-readme-stats",
@@ -21,6 +21,7 @@
     "avajs/ava",
     "avwo/whistle",
     "be5invis/Sarasa-Gothic",
+    "bmad-code-org/bmad-method",
     "ConardLi/easy-dataset",
     "debug-js/debug",
     "eyaltoledano/claude-task-master",
@@ -32,7 +33,9 @@
     "immerjs/immer",
     "infernojs/inferno",
     "jantimon/html-webpack-plugin",
+    "jarrodwatts/claude-hud",
     "jashkenas/underscore",
+    "jasmine/jasmine",
     "josdejong/jsoneditor",
     "josdejong/mathjs",
     "jquery/jquery-ui",
@@ -40,6 +43,7 @@
     "less/less.js",
     "markdown-it/markdown-it",
     "motdotla/dotenv",
+    "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
     "pot-app/pot-desktop",
@@ -48,12 +52,12 @@
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
     "tj/commander.js",
-    "typicode/husky",
     "typicode/json-server",
     "vega/vega",
     "vercel-labs/agent-skills",
     "vuejs/vue-router",
     "websockets/ws",
+    "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
     "yarnpkg/yarn"
   ]

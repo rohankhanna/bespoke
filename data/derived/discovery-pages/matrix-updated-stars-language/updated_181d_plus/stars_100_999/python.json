@@ -3,7 +3,7 @@
     "components": 1290,
     "concepts": 5762,
     "observations": 5767,
-    "repos": 1917,
+    "repos": 1918,
     "terms": 5594
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -333,6 +333,7 @@
     "caoyunkang/WinClip",
     "cardwing/Codes-for-PVKD",
     "CarkusL/CenterPoint",
+    "carla-simulator/leaderboard",
     "carolineec/informative-drawings",
     "carpedm20/multi-speaker-tacotron-tensorflow",
     "CarperAI/cheese",

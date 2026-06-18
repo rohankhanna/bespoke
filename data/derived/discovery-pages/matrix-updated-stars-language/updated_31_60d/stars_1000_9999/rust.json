@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2060,
-    "concepts": 1538,
-    "observations": 1543,
-    "repos": 191,
-    "terms": 1546
+    "components": 1973,
+    "concepts": 1482,
+    "observations": 1487,
+    "repos": 184,
+    "terms": 1485
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -24,8 +24,6 @@
     "agentclientprotocol/agent-client-protocol",
     "ai-dynamo/dynamo",
     "Aleph-Alpha/ts-rs",
-    "algesten/ureq",
-    "alloy-rs/alloy",
     "apache/arrow-rs",
     "apache/casbin-rs",
     "apache/datafusion",
@@ -43,7 +41,6 @@
     "blacknon/hwatch",
     "bluealloy/revm",
     "boa-dev/boa",
-    "BoundaryML/baml",
     "brave/adblock-rust",
     "BurntSushi/aho-corasick",
     "cachix/devenv",
@@ -103,7 +100,6 @@
     "JuliaLang/juliaup",
     "junhoyeo/tokscale",
     "kata-containers/kata-containers",
-    "Keats/jsonwebtoken",
     "kika/fixedsys",
     "kivikakk/comrak",
     "lakekeeper/lakekeeper",
@@ -115,7 +111,6 @@
     "matter-labs/zksync",
     "medialab/xan",
     "mfontanini/presenterm",
-    "mikeyobrien/ralph-orchestrator",
     "model-checking/kani",
     "modelcontextprotocol/rust-sdk",
     "mozilla/cbindgen",
@@ -131,7 +126,6 @@
     "notify-rs/notify",
     "obi1kenobi/cargo-semver-checks",
     "obi1kenobi/trustfall",
-    "open-telemetry/opentelemetry-rust",
     "paradigmxyz/reth",
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
@@ -177,7 +171,6 @@
     "RustAudio/rodio",
     "rustls/rustls",
     "rustsec/rustsec",
-    "ruvnet/ruvector",
     "salsa-rs/salsa",
     "SeaQL/sea-orm",
     "servo/html5ever",

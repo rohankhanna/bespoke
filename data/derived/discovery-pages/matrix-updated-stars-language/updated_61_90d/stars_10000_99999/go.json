@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 288,
-    "observations": 288,
-    "repos": 29,
-    "terms": 284
+    "components": 331,
+    "concepts": 344,
+    "observations": 344,
+    "repos": 35,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
+    "ahmetb/kubectx",
     "charmbracelet/bubbletea",
+    "charmbracelet/crush",
     "charmbracelet/glow",
     "charmbracelet/gum",
+    "charmbracelet/lipgloss",
     "charmbracelet/vhs",
     "chromedp/chromedp",
     "containerd/containerd",
@@ -40,8 +43,11 @@
     "ory/hydra",
     "panjf2000/ants",
     "panjf2000/gnet",
+    "router-for-me/cliproxyapi",
     "shadow1ng/fscan",
     "slimtoolkit/slim",
-    "stretchr/testify"
+    "stretchr/testify",
+    "urfave/cli",
+    "wader/fq"
   ]
 }

@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 1218,
-    "concepts": 737,
-    "observations": 741,
-    "repos": 123,
-    "terms": 740
+    "components": 1236,
+    "concepts": 780,
+    "observations": 784,
+    "repos": 127,
+    "terms": 783
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
+    "alibaba/Sentinel",
     "anthropics/claude-quickstarts",
     "antlr/antlr4",
     "aria2/aria2",
@@ -92,6 +93,7 @@
     "muesli/duf",
     "nikic/PHP-Parser",
     "NVlabs/instant-ngp",
+    "PaddlePaddle/PaddleDetection",
     "peers/peerjs",
     "PKU-YuanGroup/Open-Sora-Plan",
     "powerline/powerline",
@@ -116,6 +118,7 @@
     "spf13/viper",
     "sql-js/sql.js",
     "streamich/react-use",
+    "Swordfish90/cool-retro-term",
     "TA-Lib/ta-lib-python",
     "TabbyML/tabby",
     "tachyons-css/tachyons",
@@ -124,6 +127,7 @@
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "twbs/bootstrap-sass",
+    "typicode/husky",
     "uber-go/zap",
     "ValdikSS/GoodbyeDPI",
     "vibrantlabsai/ragas",

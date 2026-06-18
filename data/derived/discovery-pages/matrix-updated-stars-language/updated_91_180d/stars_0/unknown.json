@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 22,
-    "terms": 51
+    "components": 87,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 23,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
+    "cachix/crossterm",
     "CADindustries/container",
     "cwfitzgerald/libtest-mimic",
     "danielrosehill/Agent-Deploy",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 801,
-    "concepts": 263,
-    "observations": 263,
-    "repos": 67,
-    "terms": 256
+    "components": 846,
+    "concepts": 259,
+    "observations": 259,
+    "repos": 69,
+    "terms": 259
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
-    "10up/action-repo-automator",
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
     "andylockran/spectral-aws-apigateway-ruleset",
@@ -55,9 +54,11 @@
     "hectorm/chafa-wasm",
     "hipster-labs/jhipster-daily-builds",
     "i18next/i18next-icu",
+    "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
     "Jack-Works/react-refresh-transformer",
+    "jasmine/jasmine-browser-runner",
     "kddnewton/prettier-plugin-ini",
     "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",
@@ -71,6 +72,7 @@
     "npm/json-parse-even-better-errors",
     "npm/types",
     "nrwl/nx-ai-agents-config",
+    "peergos/web-ui",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",

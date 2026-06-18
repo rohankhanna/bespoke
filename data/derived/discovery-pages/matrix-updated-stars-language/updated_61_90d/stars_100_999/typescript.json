@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2224,
-    "concepts": 474,
-    "observations": 474,
-    "repos": 91,
-    "terms": 504
+    "components": 2411,
+    "concepts": 475,
+    "observations": 475,
+    "repos": 96,
+    "terms": 526
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "AbianS/docker-db-manager",
@@ -67,6 +67,7 @@
     "kylebarron/arrow-js-ffi",
     "latex-lsp/texlab-vscode",
     "lewislulu/llm-wiki-skill",
+    "lobehub/lobe-chat-plugins",
     "lobehub/lobe-midjourney-webui",
     "lucasastorian/llmwiki",
     "mapillary/mapillary-js",
@@ -74,10 +75,12 @@
     "marmelab/FakeRest",
     "matepek/vscode-catch2-test-adapter",
     "MattiasBuelens/web-streams-polyfill",
+    "MetaCubeX/Yacd-meta",
     "microsoft/vscode-css-languageservice",
     "microsoft/vscode-debugadapter-node",
     "microsoft/vscode-html-languageservice",
     "microsoft/vscode-json-languageservice",
+    "napi-rs/package-template",
     "nashaofu/screenshots",
     "neoclide/coc-java",
     "neolabhq/context-engineering-kit",
@@ -98,9 +101,11 @@
     "snipeship/ccflare",
     "storybookjs/test-runner",
     "timkindberg/jest-when",
+    "tombii/better-ccflare",
     "tracked-tools/tracked-built-ins",
     "typed-ember/glint",
     "vega/vega-embed",
+    "vibe-log/vibe-log-cli",
     "vim-denops/denops.vim",
     "webextension-toolbox/webextension-toolbox",
     "XantreDev/preact-signals",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4317,
-    "concepts": 872,
-    "observations": 873,
-    "repos": 245,
-    "terms": 866
+    "components": 4329,
+    "concepts": 873,
+    "observations": 874,
+    "repos": 246,
+    "terms": 867
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -116,6 +116,7 @@
     "gruntjs/grunt-contrib-watch",
     "gulp-sourcemaps/gulp-sourcemaps",
     "gulpjs/vinyl",
+    "guybedford/es-module-lexer",
     "gwudcap/cc-sessions",
     "helpers/handlebars-helpers",
     "hexgrad/kokoro",

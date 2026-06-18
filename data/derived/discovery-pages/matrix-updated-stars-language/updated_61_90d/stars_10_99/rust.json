@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 299,
-    "concepts": 180,
-    "observations": 182,
-    "repos": 49,
-    "terms": 185
+    "components": 315,
+    "concepts": 176,
+    "observations": 178,
+    "repos": 51,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "adumbidiot/lz-str-rs",
     "alixinne/glsl-lang",
@@ -24,6 +24,7 @@
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
+    "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
     "cpmech/gemlab",
     "crate-ci/imperative",
@@ -32,7 +33,6 @@
     "FxEmbed/mosaic",
     "google/safe-mmio",
     "hagan/claudia-statusline",
-    "hermit-os/hermit-rs-template",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
     "jiegec/tantivy-jieba",
@@ -52,7 +52,6 @@
     "oramasearch/llm_json",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
-    "psmux/Tmux-Plugin-Panel",
     "quininer/x11-clipboard",
     "randombit/botan-rs",
     "rust-lang/josh-sync",
@@ -60,8 +59,11 @@
     "sophus-vision/sophus-rs",
     "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
+    "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "Vaishnav-Sabari-Girish/Hayasen",
+    "watchexec/clearscreen",
+    "watchexec/process-wrap",
     "Xuanwo/serde-env"
   ]
 }

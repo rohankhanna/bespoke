@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1299,
+    "components": 1290,
     "concepts": 631,
     "observations": 634,
-    "repos": 57,
-    "terms": 636
+    "repos": 56,
+    "terms": 629
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
@@ -43,7 +43,6 @@
     "recap-utr/arg-services",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
-    "seunghunbae-3svs/solo-cto-agent",
     "stdlib-js/array-float32",
     "stdlib-js/array-float64",
     "stdlib-js/array-int16",

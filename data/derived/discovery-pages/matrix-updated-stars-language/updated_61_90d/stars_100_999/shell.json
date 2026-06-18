@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 124,
-    "observations": 125,
-    "repos": 32,
-    "terms": 135
+    "components": 122,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 33,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-17T08:20:34.201468+00:00",
+  "generated_at": "2026-06-18T06:11:25.275839+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
+    "alfredolopez80/multi-agent-ralph-loop",
     "arangrhie/T2T-Polish",
     "aslafy-z/helm-git",
     "astro-han/claude-pace",
