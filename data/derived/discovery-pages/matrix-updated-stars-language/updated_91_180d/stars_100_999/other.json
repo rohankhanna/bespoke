@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1105,
-    "concepts": 934,
-    "observations": 937,
-    "repos": 244,
-    "terms": 929
+    "components": 1115,
+    "concepts": 938,
+    "observations": 941,
+    "repos": 245,
+    "terms": 932
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -176,9 +176,10 @@
     "mathjax/MathJax-demos-web",
     "mcabbott/AxisKeys.jl",
     "megvii-research/HiDiffusion",
-    "mfussenegger/nvim-dap-python",
+    "metosin/ring-swagger",
     "microsoft/botbuilder-dotnet",
     "microsoft/microsoft-performance-toolkit-sdk",
+    "milvus-io/milvus-sdk-csharp",
     "nebula-plugins/nebula-release-plugin",
     "Nek5000/Nek5000",
     "nim-lang/vscode-nim",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3015,
-    "concepts": 1661,
-    "observations": 1667,
-    "repos": 627,
-    "terms": 1669
+    "components": 3017,
+    "concepts": 1666,
+    "observations": 1672,
+    "repos": 628,
+    "terms": 1674
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "10up/action-repo-automator",
@@ -94,6 +94,7 @@
     "apache/seatunnel-tools",
     "apostrophecms/apostrophe-astro",
     "apostrophecms/starter-kit-astro-apollo",
+    "appwrite/playground-for-node",
     "aquasecurity/k8s-node-collector",
     "aquasecurity/setup-trivy",
     "ArjunNair/egui_sdl2_gl",

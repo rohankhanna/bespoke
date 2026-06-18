@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 37
-- terms: 335
-- components: 240
-- concepts: 336
-- observations: 337
+- repos: 36
+- terms: 317
+- components: 233
+- concepts: 318
+- observations: 319
 
 ## Static behavior
 
@@ -62,7 +62,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [strob/gentle](https://github.com/strob/gentle) | 1699 | 2026-05-19T17:59:52Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [FunAudioLLM/SenseVoice](https://github.com/FunAudioLLM/SenseVoice) | 8201 | 2026-05-19T15:33:33Z | Python | Infrastructure/tooling | 9 | 0 | 9 | 9 |
 | [FunAudioLLM/Fun-ASR](https://github.com/FunAudioLLM/Fun-ASR) | 1163 | 2026-05-19T15:28:20Z | Python | Model/data | 8 | 0 | 8 | 8 |
-| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1037 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |
 
 ## Repos sorted by stars
 
@@ -104,4 +103,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JuergenFleiss/aTrain](https://github.com/JuergenFleiss/aTrain) | 1144 | 2026-05-28T06:57:50Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [meta-pytorch/torchcodec](https://github.com/meta-pytorch/torchcodec) | 1079 | 2026-05-29T16:54:13Z | Python | Infrastructure/tooling | 11 | 13 | 11 | 11 |
 | [huggingface/optimum-quanto](https://github.com/huggingface/optimum-quanto) | 1042 | 2026-05-28T13:30:02Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
-| [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | 1037 | 2026-05-19T07:07:32Z | Python | Infrastructure/tooling | 18 | 7 | 18 | 18 |

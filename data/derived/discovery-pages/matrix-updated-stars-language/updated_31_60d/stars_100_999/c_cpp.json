@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1159,
-    "concepts": 1174,
-    "observations": 1175,
-    "repos": 206,
-    "terms": 1168
+    "components": 1164,
+    "concepts": 1175,
+    "observations": 1176,
+    "repos": 207,
+    "terms": 1169
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -145,6 +145,7 @@
     "microsoft/MIDI",
     "microsoft/vcpkg-tool",
     "microsoft/WindowsAppSDK-Samples",
+    "mingw-w64/mingw-w64",
     "mitsuba-renderer/drjit",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",

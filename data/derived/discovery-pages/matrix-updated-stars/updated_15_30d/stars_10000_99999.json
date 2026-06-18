@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1783,
-    "concepts": 964,
-    "observations": 971,
-    "repos": 80,
-    "terms": 963
+    "components": 1767,
+    "concepts": 958,
+    "observations": 965,
+    "repos": 79,
+    "terms": 957
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -80,7 +80,6 @@
     "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",
     "storybookjs/storybook",
-    "SubtitleEdit/subtitleedit",
     "swiftlang/swift",
     "TEN-framework/ten-framework",
     "triton-lang/triton",

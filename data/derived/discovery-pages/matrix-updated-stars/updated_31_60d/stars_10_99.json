@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8415,
+    "components": 8385,
     "concepts": 4137,
     "observations": 4157,
-    "repos": 898,
-    "terms": 4139
+    "repos": 897,
+    "terms": 4137
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "0xPolygonHermez/pil2-proofman",
@@ -490,7 +490,6 @@
     "jfly/shtuff",
     "jfmengels/node-elm-review",
     "jgm/djot.lua",
-    "jkheadley/instar",
     "JosephLalli/phasing_T2T",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",

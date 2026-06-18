@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 152,
-    "observations": 153,
-    "repos": 21,
-    "terms": 150
+    "components": 157,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 20,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "apalache-mc/apalache",
     "astroautomata/SymbolicRegression.jl",
@@ -28,7 +28,6 @@
     "google/protobuf.dart",
     "JuliaGraphics/Luxor.jl",
     "karafka/rdkafka-ruby",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "meshcat-dev/meshcat",
     "openbsd/ports",

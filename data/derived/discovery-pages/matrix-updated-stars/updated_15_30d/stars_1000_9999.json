@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2403,
-    "concepts": 1202,
-    "observations": 1208,
-    "repos": 136,
-    "terms": 1194
+    "components": 2378,
+    "concepts": 1145,
+    "observations": 1151,
+    "repos": 132,
+    "terms": 1142
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -46,7 +46,6 @@
     "datalevin/datalevin",
     "dkron-io/dkron",
     "dmtrKovalenko/fff",
-    "doctest/doctest",
     "dotnet/reactive",
     "dotnet/Silk.NET",
     "ebullient/obsidian-admonition",
@@ -80,7 +79,6 @@
     "huggingface/optimum-quanto",
     "intelligent-machine-learning/dlrover",
     "intentee/paddler",
-    "InternScience/GraphGen",
     "ipfs/ipfs-webui",
     "JuergenFleiss/aTrain",
     "JuliaPluto/Pluto.jl",
@@ -124,7 +122,6 @@
     "safetensors/safetensors",
     "seancorfield/honeysql",
     "speaches-ai/speaches",
-    "standardrb/standard",
     "strob/gentle",
     "sveltejs/devalue",
     "swiftlang/llvm-project",
@@ -144,7 +141,6 @@
     "vuejs/language-tools",
     "web-platform-tests/wpt",
     "webinstall/webi-installers",
-    "xoofx/markdig",
     "xtensor-stack/xtensor",
     "yomidevs/yomitan",
     "zhiyiYo/PyQt-Fluent-Widgets",

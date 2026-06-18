@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 22435,
-    "concepts": 9607,
-    "observations": 9642,
+    "components": 22436,
+    "concepts": 9613,
+    "observations": 9648,
     "repos": 863,
-    "terms": 9578
+    "terms": 9580
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -273,7 +273,6 @@
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
-    "everyinc/compound-engineering-plugin",
     "exaloop/codon",
     "exelban/stats",
     "exo-explore/exo",
@@ -781,6 +780,7 @@
     "streamlit/streamlit",
     "styled-components/styled-components",
     "stylelint/stylelint",
+    "SubtitleEdit/subtitleedit",
     "super-linter/super-linter",
     "surrealdb/surrealdb",
     "sveltejs/kit",

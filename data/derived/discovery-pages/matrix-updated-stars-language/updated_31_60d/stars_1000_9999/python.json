@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3097,
-    "concepts": 3374,
-    "observations": 3387,
-    "repos": 385,
-    "terms": 3343
+    "components": 3093,
+    "concepts": 3385,
+    "observations": 3398,
+    "repos": 384,
+    "terms": 3352
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -173,6 +173,7 @@
     "InternLM/lmdeploy",
     "InternLM/Tutorial",
     "InternLM/xtuner",
+    "InternScience/GraphGen",
     "isaac-sim/IsaacLab",
     "jawah/niquests",
     "jazzband/django-redis",
@@ -238,7 +239,6 @@
     "mozilla-ai/any-agent",
     "mozilla-ai/any-llm",
     "mozilla/pontoon",
-    "mozillazg/python-pinyin",
     "ms-jpq/chadtree",
     "ms-jpq/coq_nvim",
     "msiemens/tinydb",
@@ -248,7 +248,6 @@
     "nagadomi/nunif",
     "neo4j/neo4j-python-driver",
     "nerfstudio-project/gsplat",
-    "nesquena/hermes-webui",
     "newton-physics/newton",
     "nix-community/NUR",
     "noahcao/OC_SORT",

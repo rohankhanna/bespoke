@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 192
+- repos: 191
 - terms: 259
 - components: 598
 - concepts: 249
@@ -216,7 +216,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redductive/securepixel](https://github.com/Redductive/SecurePixel) | 0 | 2026-04-19T11:52:32Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
-| [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -413,4 +412,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redductive/securepixel](https://github.com/Redductive/SecurePixel) | 0 | 2026-04-19T11:52:32Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
-| [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |

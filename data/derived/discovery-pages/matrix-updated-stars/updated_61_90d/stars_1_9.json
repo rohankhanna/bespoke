@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1932,
-    "concepts": 987,
-    "observations": 988,
-    "repos": 294,
-    "terms": 991
+    "components": 1952,
+    "concepts": 996,
+    "observations": 997,
+    "repos": 299,
+    "terms": 1008
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/stark-recurser",
@@ -95,6 +95,7 @@
     "cdeust/zetetic-team-subagents",
     "cdxeve/scale-openclaw",
     "celo-org/SocialConnect-Twitter",
+    "celo-org/SocialConnect-Twitter-Server-Side",
     "ChadKillingsworth/closure-compiler-npm",
     "chaoss/grimoirelab-toolkit",
     "chronosphereio/calyptia-cli",
@@ -202,9 +203,11 @@
     "ihmcrobotics/repository-group",
     "ikonopistsev/mdbxmou",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
+    "ipfs/helia-remote-pinning",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
     "Jango-AI-com/morning-cli",
+    "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "jrsoftware/isscint",
     "jupyter-xeus/xeus-python-shell",
@@ -298,9 +301,11 @@
     "toyamarinyon/giselle",
     "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
+    "UnknownPlatypus/djangofmt-pre-commit",
     "urschrei/polyline-ffi",
     "usbarmory/go-net",
     "vega/.github",
+    "verkyyi/tokenman",
     "vincent-k2026/codachi",
     "vovkos/doxyrest_b",
     "WebAssembly/compact-import-section",

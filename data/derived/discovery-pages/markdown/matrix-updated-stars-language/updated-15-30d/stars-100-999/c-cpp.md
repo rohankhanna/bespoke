@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 45
-- components: 35
-- concepts: 45
-- observations: 45
+- repos: 7
+- terms: 44
+- components: 30
+- concepts: 44
+- observations: 44
 
 ## Static behavior
 
@@ -33,7 +33,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 150 | 2026-05-28T19:33:53Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 212 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 780 | 2026-05-21T04:14:16Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -43,7 +42,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipsilon/evmone](https://github.com/ipsilon/evmone) | 975 | 2026-05-29T21:37:33Z | C/C++ | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 780 | 2026-05-21T04:14:16Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [celtera/libremidi](https://github.com/celtera/libremidi) | 686 | 2026-05-29T01:10:42Z | C/C++ | Infrastructure/tooling | 15 | 14 | 15 | 15 |
-| [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [flagos-ai/FlagCX](https://github.com/flagos-ai/FlagCX) | 212 | 2026-05-26T02:51:45Z | C/C++ | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [ROCm/hipBLAS](https://github.com/ROCm/hipBLAS) | 150 | 2026-05-28T19:33:53Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [appelmar/gdalcubes](https://github.com/appelmar/gdalcubes) | 130 | 2026-05-29T09:39:22Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |

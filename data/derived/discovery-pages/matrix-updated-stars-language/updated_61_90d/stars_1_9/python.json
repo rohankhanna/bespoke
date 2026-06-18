@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 46,
-    "terms": 106
+    "components": 170,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 48,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -59,6 +59,8 @@
     "runtimeverification/kup",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
+    "UnknownPlatypus/djangofmt-pre-commit",
+    "verkyyi/tokenman",
     "xiaochu-1208/interview-assistant-cli"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4556,
-    "concepts": 3402,
-    "observations": 3411,
-    "repos": 665,
-    "terms": 3396
+    "components": 4559,
+    "concepts": 3408,
+    "observations": 3418,
+    "repos": 666,
+    "terms": 3402
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -85,6 +85,7 @@
     "artempyanykh/marksman",
     "ashvardanian/less_slow.cpp",
     "astanin/python-tabulate",
+    "athityakumar/colorls",
     "attractivechaos/klib",
     "auto-complete/auto-complete",
     "autofac/Autofac",

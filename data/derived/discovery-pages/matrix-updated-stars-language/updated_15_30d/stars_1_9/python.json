@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 1,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
-    "SeedScientist/K2V",
     "xuanji86/ainiee-translate-skill"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3714,
-    "concepts": 2657,
-    "observations": 2660,
-    "repos": 432,
-    "terms": 2667
+    "components": 3705,
+    "concepts": 2667,
+    "observations": 2670,
+    "repos": 431,
+    "terms": 2655
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -218,7 +218,6 @@
     "JohnnyMorganz/luau-lsp",
     "joseluisq/rust-linux-darwin-builder",
     "jrh13/hol-light",
-    "jsonbored/claudepro-directory",
     "julia-vscode/LanguageServer.jl",
     "JuliaArrays/ArrayInterface.jl",
     "JuliaArrays/OffsetArrays.jl",
@@ -272,6 +271,7 @@
     "kubeflow/community",
     "kubernetes/k8s.io",
     "KulikDM/pythresh",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "kwent/pgbouncerhero",
     "lambdaisland/deep-diff2",
     "LibreChat-AI/librechat.ai",
@@ -434,7 +434,6 @@
     "vibhorkum/pg_background",
     "vim-fuzzbox/fuzzbox.vim",
     "vim/colorschemes",
-    "vladimir-kotikov/clink-completions",
     "w3c/aria",
     "weaviate/recipes",
     "WebAssembly/meetings",

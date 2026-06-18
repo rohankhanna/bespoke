@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4537,
+    "components": 4513,
     "concepts": 2157,
     "observations": 2165,
     "repos": 307,
-    "terms": 2156
+    "terms": 2159
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -98,6 +98,7 @@
     "ent/ent",
     "esp8266/Arduino",
     "evanw/esbuild",
+    "everyinc/compound-engineering-plugin",
     "evilsocket/opensnitch",
     "explosion/spaCy",
     "eyaltoledano/claude-task-master",
@@ -302,7 +303,6 @@
     "vadimdemedes/ink",
     "vega/vega",
     "vercel-labs/agent-skills",
-    "vercel/satori",
     "vercel/swr",
     "Vinzent03/obsidian-git",
     "vuejs/awesome-vue",

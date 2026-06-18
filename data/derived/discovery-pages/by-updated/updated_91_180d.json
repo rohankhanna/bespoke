@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 16000,
-    "concepts": 10476,
-    "observations": 10509,
-    "repos": 2723,
-    "terms": 10468
+    "components": 16054,
+    "concepts": 10491,
+    "observations": 10525,
+    "repos": 2727,
+    "terms": 10483
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -295,6 +295,7 @@
     "apple/ml-hypersim",
     "appscodelabs/liche",
     "appwrite/playground-for-flutter",
+    "appwrite/playground-for-node",
     "aquasecurity/k8s-node-collector",
     "aquasecurity/setup-trivy",
     "Ar-Ray-code/YOLOX-ROS",
@@ -343,6 +344,7 @@
     "astral-sh/rye",
     "astral-sh/uv-docker-example",
     "astroyat/lerobot-ros",
+    "athityakumar/colorls",
     "athombv/com.athom.matter-bridge",
     "atom-yang/aumi",
     "AtomCrafty/UniversalInjectorFramework",
@@ -1729,8 +1731,8 @@
     "meta-llama/llama-models",
     "metatool-ai/metamcp",
     "metauto-ai/GPTSwarm",
+    "metosin/ring-swagger",
     "mfussenegger/nlua",
-    "mfussenegger/nvim-dap-python",
     "mfussenegger/nvim-jdtls",
     "mgaitan/sphinxcontrib-mermaid",
     "mhinz/vim-signify",
@@ -1762,6 +1764,7 @@
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "mikespook/possum",
+    "milvus-io/milvus-sdk-csharp",
     "mindspore-lab/mindnlp",
     "minikube-ci/examples",
     "MiniMax-AI/MiniMax-M2.1",
@@ -2587,6 +2590,7 @@
     "veorq/SipHash",
     "vercel-labs/include_dir",
     "vercel/ms",
+    "vercel/satori",
     "VeriSilicon/tflite-vx-delegate",
     "version-fox/vfox-plugin-template",
     "vi/websocat",

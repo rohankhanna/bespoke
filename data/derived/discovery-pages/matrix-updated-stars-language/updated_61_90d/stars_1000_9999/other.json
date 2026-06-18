@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1102,
-    "concepts": 1285,
-    "observations": 1296,
-    "repos": 203,
-    "terms": 1287
+    "components": 1099,
+    "concepts": 1279,
+    "observations": 1289,
+    "repos": 202,
+    "terms": 1281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -35,7 +35,6 @@
     "apple/swift-log",
     "ardalis/Result",
     "arviz-devs/arviz",
-    "athityakumar/colorls",
     "automazeio/vibeproxy",
     "awaescher/OllamaSharp",
     "aws-ia/terraform-aws-eks-blueprints",

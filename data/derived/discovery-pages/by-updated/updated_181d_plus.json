@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 49609,
-    "concepts": 35387,
-    "observations": 35454,
-    "repos": 12744,
-    "terms": 34938
+    "concepts": 35393,
+    "observations": 35460,
+    "repos": 12745,
+    "terms": 34944
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -8194,6 +8194,7 @@
     "mfikes/cljs-bean",
     "mfncooper/mockery",
     "mfung/hamlit-rails",
+    "mfussenegger/nvim-dap-python",
     "mfussenegger/nvim-fzy",
     "mg979/vim-visual-multi",
     "mgalgs/diffview-mode",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2749,
+    "components": 2719,
     "concepts": 538,
     "observations": 542,
-    "repos": 98,
-    "terms": 544
+    "repos": 97,
+    "terms": 542
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -66,7 +66,6 @@
     "jbaubree/sitemap-ts",
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
-    "jkheadley/instar",
     "julia-actions/install-juliaup",
     "Kastalien-Research/thoughtbox",
     "KazariEX/dxup",

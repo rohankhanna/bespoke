@@ -3,7 +3,7 @@
     "components": 598,
     "concepts": 249,
     "observations": 249,
-    "repos": 192,
+    "repos": 191,
     "terms": 259
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/superscalar-cln",
@@ -173,7 +173,6 @@
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "Luligu/matterbridge-eve-door",
     "markoswire/remember-me.ai",
-    "mohfer/nous-proxy",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "mukel/gptoss.java",
     "mukel/nemotron3.java",

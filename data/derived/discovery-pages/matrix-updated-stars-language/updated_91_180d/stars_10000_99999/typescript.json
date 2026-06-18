@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 446,
+    "components": 485,
     "concepts": 82,
     "observations": 83,
-    "repos": 15,
-    "terms": 89
+    "repos": 16,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "BuilderIO/mitosis",
     "egoist/tsup",
@@ -28,6 +28,7 @@
     "snarktank/ralph",
     "streamich/react-use",
     "transitive-bullshit/agentic",
+    "vercel/satori",
     "wechaty/wechaty"
   ]
 }

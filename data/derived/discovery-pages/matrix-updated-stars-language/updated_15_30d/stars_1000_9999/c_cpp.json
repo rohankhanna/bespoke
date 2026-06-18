@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 154,
-    "concepts": 146,
-    "observations": 147,
-    "repos": 14,
-    "terms": 144
+    "components": 147,
+    "concepts": 125,
+    "observations": 126,
+    "repos": 13,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "AdaptiveCpp/AdaptiveCpp",
     "ashvardanian/NumKong",
     "CloudCompare/CloudCompare",
-    "doctest/doctest",
     "harfbuzz/harfbuzz",
     "KhronosGroup/KTX-Software",
     "libbitcoin/libbitcoin-system",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 8597,
-    "concepts": 5252,
-    "observations": 5278,
-    "repos": 1108,
-    "terms": 5365
+    "components": 8609,
+    "concepts": 5251,
+    "observations": 5277,
+    "repos": 1109,
+    "terms": 5387
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "0xNyk/council-of-high-intelligence",
@@ -604,6 +604,7 @@
     "jpmml/sklearn2pmml",
     "js-kyle/mincer",
     "jsdoc/jsdoc.github.io",
+    "jsonbored/claudepro-directory",
     "JuliaDebug/JuliaInterpreter.jl",
     "JuliaImGui/CImGui.jl",
     "JuliaInterop/Clang.jl",
@@ -718,11 +719,11 @@
     "mattn/webapi-vim",
     "Mc-Zen/tidy",
     "melix/jmh-gradle-plugin",
+    "messense/jieba-rs",
     "meta-pytorch/torchft",
     "MetaCubeX/Yacd-meta",
     "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
-    "metosin/ring-swagger",
     "metosin/spec-tools",
     "MIC-DKFZ/dynamic-network-architectures",
     "Mic92/direnv-instant",
@@ -747,7 +748,6 @@
     "MicrosoftDocs/terminal",
     "mikolmogorov/Flye",
     "MiloszKrajewski/K4os.Compression.LZ4",
-    "milvus-io/milvus-sdk-csharp",
     "MindWorkAI/AI-Studio",
     "MinimalFuture/AgentMesh",
     "MiniMax-AI/VTP",
@@ -1083,6 +1083,7 @@
     "vim-jp/vital.vim",
     "Vinyzu/Botright",
     "ViTAE-Transformer/ViTAE-Transformer",
+    "vladimir-kotikov/clink-completions",
     "vovkos/doxyrest",
     "voxel51/fiftyone-examples",
     "voxel51/voxelgpt",

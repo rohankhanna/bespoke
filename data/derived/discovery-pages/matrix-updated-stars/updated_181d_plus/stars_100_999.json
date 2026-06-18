@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 15953,
-    "concepts": 14511,
-    "observations": 14539,
-    "repos": 4732,
-    "terms": 14283
+    "concepts": 14517,
+    "observations": 14545,
+    "repos": 4733,
+    "terms": 14289
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -3014,6 +3014,7 @@
     "meyerd/flex-bison-example",
     "mfarragher/obsidiantools",
     "mfikes/cljs-bean",
+    "mfussenegger/nvim-dap-python",
     "mgmalek/efficient_cross_entropy",
     "mgmeyers/obsidian-contextual-typography",
     "mgmeyers/obsidian-smart-typography",

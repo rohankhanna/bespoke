@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1236,
+    "components": 1275,
     "concepts": 780,
     "observations": 784,
-    "repos": 127,
-    "terms": 783
+    "repos": 128,
+    "terms": 784
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -130,6 +130,7 @@
     "typicode/husky",
     "uber-go/zap",
     "ValdikSS/GoodbyeDPI",
+    "vercel/satori",
     "vibrantlabsai/ragas",
     "videojs/video.js",
     "vitejs/awesome-vite",

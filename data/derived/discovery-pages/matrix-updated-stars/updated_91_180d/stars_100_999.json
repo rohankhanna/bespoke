@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5792,
-    "concepts": 3801,
-    "observations": 3813,
-    "repos": 933,
-    "terms": 3785
+    "components": 5802,
+    "concepts": 3805,
+    "observations": 3817,
+    "repos": 934,
+    "terms": 3788
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -585,7 +585,7 @@
     "melMass/comfy_mtb",
     "mengyao/Complete-Striped-Smith-Waterman-Library",
     "metauto-ai/GPTSwarm",
-    "mfussenegger/nvim-dap-python",
+    "metosin/ring-swagger",
     "mgaitan/sphinxcontrib-mermaid",
     "mholt/acmez",
     "MicahParks/keyfunc",
@@ -597,6 +597,7 @@
     "microsoft/foss-fund",
     "microsoft/microsoft-performance-toolkit-sdk",
     "microsoft/vscode-custom-data",
+    "milvus-io/milvus-sdk-csharp",
     "mindspore-lab/mindnlp",
     "MiniMax-AI/MiniMax-M2.1",
     "MiniMax-AI/MiniMax-M2.5",

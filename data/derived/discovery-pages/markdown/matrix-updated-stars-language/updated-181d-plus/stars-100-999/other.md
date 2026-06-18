@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1002
-- terms: 3184
+- repos: 1003
+- terms: 3190
 - components: 2402
-- concepts: 3203
-- observations: 3210
+- concepts: 3209
+- observations: 3216
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mfussenegger/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 706 | 2025-12-20T06:43:57Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [Azure/reliable-web-app-pattern-dotnet](https://github.com/Azure/reliable-web-app-pattern-dotnet) | 458 | 2025-12-18T20:10:33Z | Other | Infrastructure/tooling | 14 | 5 | 14 | 14 |
 | [nghorbani/human_body_prior](https://github.com/nghorbani/human_body_prior) | 967 | 2025-12-17T21:10:23Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [emacs-lsp/lsp-treemacs](https://github.com/emacs-lsp/lsp-treemacs) | 464 | 2025-12-17T16:21:16Z | Other | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -1163,6 +1164,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mikera/core.matrix](https://github.com/mikera/core.matrix) | 715 | 2022-12-07T13:09:38Z | Other | Service/API | 0 | 0 | 0 | 0 |
 | [Macoron/whisper.unity](https://github.com/Macoron/whisper.unity) | 712 | 2025-04-17T04:10:59Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [langchain-ai/deep_research_from_scratch](https://github.com/langchain-ai/deep_research_from_scratch) | 709 | 2025-10-21T18:03:19Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [mfussenegger/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 706 | 2025-12-20T06:43:57Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [inhabitedtype/angstrom](https://github.com/inhabitedtype/angstrom) | 706 | 2024-09-12T21:27:32Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [sass/sassc-rails](https://github.com/sass/sassc-rails) | 705 | 2025-10-24T23:16:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Konfekt/FastFold](https://github.com/Konfekt/FastFold) | 705 | 2025-06-04T10:33:25Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-18T06:11:25.275839+00:00`
 
 ## Counts
 
-- repos: 12744
-- terms: 34938
+- repos: 12745
+- terms: 34944
 - components: 49609
-- concepts: 35387
-- observations: 35454
+- concepts: 35393
+- observations: 35460
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mfussenegger/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 706 | 2025-12-20T06:43:57Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [dtolnay/case-studies](https://github.com/dtolnay/case-studies) | 2011 | 2025-12-20T05:11:26Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [dtolnay/cargo-llvm-lines](https://github.com/dtolnay/cargo-llvm-lines) | 507 | 2025-12-20T05:11:22Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [paleolimbot/geos](https://github.com/paleolimbot/geos) | 65 | 2025-12-20T03:21:31Z | Other | Infrastructure/tooling | 3 | 7 | 3 | 3 |
@@ -16233,6 +16234,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [TexasInstruments/edgeai-yolov5](https://github.com/TexasInstruments/edgeai-yolov5) | 707 | 2025-03-18T14:18:37Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [balazik/ComfyUI-PuLID-Flux](https://github.com/balazik/ComfyUI-PuLID-Flux) | 707 | 2024-10-03T18:38:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [patrick-kidger/NeuralCDE](https://github.com/patrick-kidger/NeuralCDE) | 707 | 2022-10-22T13:32:29Z | Python | Unknown | 11 | 0 | 11 | 11 |
+| [mfussenegger/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 706 | 2025-12-20T06:43:57Z | Other | Unknown | 6 | 0 | 6 | 6 |
 | [pat-jj/DeepRetrieval](https://github.com/pat-jj/DeepRetrieval) | 706 | 2025-10-12T05:35:32Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [inhabitedtype/angstrom](https://github.com/inhabitedtype/angstrom) | 706 | 2024-09-12T21:27:32Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [sourcery-ai/python-best-practices-cookiecutter](https://github.com/sourcery-ai/python-best-practices-cookiecutter) | 706 | 2023-12-15T18:00:06Z | Python | Unknown | 10 | 0 | 11 | 11 |

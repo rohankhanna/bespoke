@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4411,
-    "concepts": 2257,
-    "observations": 2265,
+    "components": 4439,
+    "concepts": 2252,
+    "observations": 2260,
     "repos": 621,
-    "terms": 2294
+    "terms": 2291
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -98,7 +98,6 @@
     "appsignal/appsignal-elixir-phoenix",
     "appsignal/mono",
     "apptainer/sif",
-    "appwrite/playground-for-node",
     "appwrite/sdk-for-swift",
     "archlizheng/frontend-slides-editable",
     "Ascend/Ascend-CI",
@@ -391,6 +390,7 @@
     "jeffzi/llscheck",
     "jerseycheese/narraitor",
     "jiegec/tantivy-jieba",
+    "jkheadley/instar",
     "joshwooding/vite-plugin-react-docgen-typescript",
     "js-temporal/proposal-temporal-v2",
     "JuergenFleiss/atrain_core",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3603,
-    "concepts": 3135,
-    "observations": 3151,
-    "repos": 406,
-    "terms": 3116
+    "components": 3614,
+    "concepts": 3153,
+    "observations": 3169,
+    "repos": 408,
+    "terms": 3129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -377,6 +377,7 @@
     "square/okio",
     "stakira/OpenUtau",
     "stan-dev/rstan",
+    "standardrb/standard",
     "stevearc/conform.nvim",
     "streetcomplete/StreetComplete",
     "swiftlang/sourcekit-lsp",
@@ -417,6 +418,7 @@
     "whatwg/html",
     "whatwg/streams",
     "xiph/rav1e",
+    "xoofx/markdig",
     "xororz/local-dream",
     "xtdb/xtdb",
     "zalando/restful-api-guidelines"

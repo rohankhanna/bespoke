@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 630,
-    "concepts": 706,
-    "observations": 709,
-    "repos": 142,
-    "terms": 709
+    "components": 633,
+    "concepts": 712,
+    "observations": 716,
+    "repos": 143,
+    "terms": 715
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -24,6 +24,7 @@
     "ankane/pgsync",
     "ardalis/ApiEndpoints",
     "artempyanykh/marksman",
+    "athityakumar/colorls",
     "auto-complete/auto-complete",
     "autofac/Autofac",
     "bakpakin/Fennel",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 268
-- components: 328
-- concepts: 273
-- observations: 275
+- repos: 29
+- terms: 255
+- components: 317
+- concepts: 255
+- observations: 257
 
 ## Static behavior
 
@@ -55,8 +55,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [babashka/sci](https://github.com/babashka/sci) | 1358 | 2026-05-24T11:45:04Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5068 | 2026-05-23T20:16:31Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
 | [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 1907 | 2026-05-19T23:48:14Z | Other | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [standardrb/standard](https://github.com/standardrb/standard) | 2900 | 2026-05-19T08:06:06Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [xoofx/markdig](https://github.com/xoofx/markdig) | 5234 | 2026-05-19T06:19:48Z | Other | Infrastructure/tooling | 7 | 4 | 12 | 12 |
 
 ## Repos sorted by stars
 
@@ -71,13 +69,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kurrent-io/KurrentDB](https://github.com/kurrent-io/KurrentDB) | 5798 | 2026-05-29T19:07:55Z | Other | Infrastructure/tooling | 12 | 12 | 12 | 12 |
 | [mono/SkiaSharp](https://github.com/mono/SkiaSharp) | 5412 | 2026-05-26T15:10:21Z | Other | Infrastructure/tooling | 17 | 12 | 17 | 17 |
 | [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader) | 5339 | 2026-05-24T19:14:00Z | Other | Infrastructure/tooling | 10 | 19 | 10 | 10 |
-| [xoofx/markdig](https://github.com/xoofx/markdig) | 5234 | 2026-05-19T06:19:48Z | Other | Infrastructure/tooling | 7 | 4 | 12 | 12 |
 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5068 | 2026-05-23T20:16:31Z | Other | Infrastructure/tooling | 24 | 14 | 24 | 25 |
 | [babashka/babashka](https://github.com/babashka/babashka) | 4522 | 2026-05-29T14:54:11Z | Other | Infrastructure/tooling | 7 | 9 | 7 | 8 |
 | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | 3745 | 2026-05-26T21:38:23Z | Other | Model/data | 12 | 0 | 12 | 12 |
 | [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-30T08:57:06Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [radian-software/straight.el](https://github.com/radian-software/straight.el) | 3002 | 2026-05-25T15:37:55Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [standardrb/standard](https://github.com/standardrb/standard) | 2900 | 2026-05-19T08:06:06Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2677 | 2026-05-26T22:36:19Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [openai/openai-dotnet](https://github.com/openai/openai-dotnet) | 2614 | 2026-05-25T10:33:14Z | Other | Infrastructure/tooling | 8 | 8 | 8 | 8 |
 | [psmux/psmux](https://github.com/psmux/psmux) | 2288 | 2026-05-28T13:42:43Z | Other | CLI | 16 | 5 | 16 | 16 |

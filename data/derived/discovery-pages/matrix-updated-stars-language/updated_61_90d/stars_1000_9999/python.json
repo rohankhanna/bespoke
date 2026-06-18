@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 951,
-    "concepts": 1294,
-    "observations": 1294,
-    "repos": 194,
-    "terms": 1307
+    "components": 962,
+    "concepts": 1301,
+    "observations": 1301,
+    "repos": 196,
+    "terms": 1316
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -139,7 +139,9 @@
     "MontrealCorpusTools/Montreal-Forced-Aligner",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
+    "mozillazg/python-pinyin",
     "neovim/pynvim",
+    "nesquena/hermes-webui",
     "niklasf/python-chess",
     "nousresearch/atropos",
     "NVIDIA/flownet2-pytorch",

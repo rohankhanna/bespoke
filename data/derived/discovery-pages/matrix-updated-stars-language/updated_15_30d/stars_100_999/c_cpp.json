@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 8,
-    "terms": 45
+    "components": 30,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 7,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "appelmar/gdalcubes",
     "celtera/libremidi",
@@ -20,7 +20,6 @@
     "flagos-ai/FlagCX",
     "google-deepmind/reverb",
     "ipsilon/evmone",
-    "mingw-w64/mingw-w64",
     "ROCm/hipBLAS"
   ]
 }

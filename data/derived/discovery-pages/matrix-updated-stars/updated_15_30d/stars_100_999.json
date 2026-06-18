@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1222,
-    "concepts": 635,
-    "observations": 637,
-    "repos": 101,
-    "terms": 633
+    "components": 1211,
+    "concepts": 620,
+    "observations": 622,
+    "repos": 99,
+    "terms": 618
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "15r10nk/inline-snapshot",
@@ -69,7 +69,6 @@
     "jupyter-server/jupyter_server",
     "jupyter/nbclassic",
     "karafka/rdkafka-ruby",
-    "kurrent-io/KurrentDB-Client-Dotnet",
     "lambdalisue/vim-nerdfont",
     "lbcb-sci/herro",
     "ldproxy/ldproxy",
@@ -79,7 +78,6 @@
     "matter-js/matter.js",
     "meshcat-dev/meshcat",
     "mightyiam/eslint-config-love",
-    "mingw-w64/mingw-w64",
     "NCAS-CMS/pyfive",
     "nginx-le/nginx-le",
     "NVlabs/trajdata",

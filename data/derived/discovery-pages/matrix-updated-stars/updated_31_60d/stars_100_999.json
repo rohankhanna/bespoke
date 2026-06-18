@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 18915,
-    "concepts": 10770,
-    "observations": 10807,
-    "repos": 1741,
-    "terms": 10742
+    "components": 18904,
+    "concepts": 10776,
+    "observations": 10813,
+    "repos": 1740,
+    "terms": 10726
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0x676e67/wreq",
@@ -899,7 +899,6 @@
     "jrouwe/JoltPhysics.js",
     "js-temporal/temporal-polyfill",
     "json-schema-org/JSON-Schema-Test-Suite",
-    "jsonbored/claudepro-directory",
     "jsonwebtoken/jsonwebtoken.github.io",
     "julia-actions/setup-julia",
     "julia-vscode/LanguageServer.jl",
@@ -1003,6 +1002,7 @@
     "kubernetes/metrics",
     "kubernetes/sample-apiserver",
     "KulikDM/pythresh",
+    "kurrent-io/KurrentDB-Client-Dotnet",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "kwent/pgbouncerhero",
     "kysely-org/kysely-ctl",
@@ -1099,7 +1099,6 @@
     "melange-re/melange",
     "Mercury13/unicodia",
     "MercuryTechnologies/ghciwatch",
-    "messense/jieba-rs",
     "meta-llama/prompt-ops",
     "metosin/schema-tools",
     "meyayl/docker-languagetool",
@@ -1143,6 +1142,7 @@
     "MilesCranmer/DispatchDoctor.jl",
     "milvus-io/milvus-sdk-java",
     "milvus-io/milvus-sdk-node",
+    "mingw-w64/mingw-w64",
     "mit-ll-responsible-ai/hydra-zen",
     "mit-plv/bedrock2",
     "mit-plv/fiat-crypto",
@@ -1707,7 +1707,6 @@
     "victorgarciaesgi/regle",
     "vim-fuzzbox/fuzzbox.vim",
     "vim/colorschemes",
-    "vladimir-kotikov/clink-completions",
     "vllm-project/flash-attention",
     "vllm-project/recipes",
     "volcengine/volcengine-python-sdk",

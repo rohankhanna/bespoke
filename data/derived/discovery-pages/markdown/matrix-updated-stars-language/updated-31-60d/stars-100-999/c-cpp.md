@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 206
-- terms: 1168
-- components: 1159
-- concepts: 1174
-- observations: 1175
+- repos: 207
+- terms: 1169
+- components: 1164
+- concepts: 1175
+- observations: 1176
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | 821 | 2026-05-15T21:19:37Z | C/C++ | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [ROCm/rocBLAS](https://github.com/ROCm/rocBLAS) | 394 | 2026-05-15T20:15:23Z | C/C++ | Unknown | 2 | 0 | 2 | 2 |
 | [apache/casbin-cpp](https://github.com/apache/casbin-cpp) | 251 | 2026-05-15T19:07:16Z | C/C++ | Infrastructure/tooling | 12 | 4 | 12 | 12 |
@@ -305,6 +306,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/vcpkg-tool](https://github.com/microsoft/vcpkg-tool) | 578 | 2026-04-20T05:05:50Z | C/C++ | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [llnl/RAJA](https://github.com/llnl/RAJA) | 577 | 2026-04-28T22:37:53Z | C/C++ | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [coin-or/CppAD](https://github.com/coin-or/CppAD) | 575 | 2026-04-30T22:40:06Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64) | 564 | 2026-05-19T06:17:33Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Blosc/c-blosc2](https://github.com/Blosc/c-blosc2) | 562 | 2026-05-03T07:06:03Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [LunarG/gfxreconstruct](https://github.com/LunarG/gfxreconstruct) | 555 | 2026-04-30T16:25:04Z | C/C++ | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [aui-framework/aui](https://github.com/aui-framework/aui) | 552 | 2026-05-01T00:54:22Z | C/C++ | Infrastructure/tooling | 14 | 7 | 14 | 14 |

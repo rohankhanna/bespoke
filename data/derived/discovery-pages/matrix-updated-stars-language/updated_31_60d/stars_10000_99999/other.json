@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2015,
-    "concepts": 1400,
-    "observations": 1404,
-    "repos": 136,
-    "terms": 1396
+    "components": 2031,
+    "concepts": 1406,
+    "observations": 1410,
+    "repos": 137,
+    "terms": 1402
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -137,6 +137,7 @@
     "square/moshi",
     "square/okhttp",
     "square/retrofit",
+    "SubtitleEdit/subtitleedit",
     "swagger-api/swagger-codegen",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",

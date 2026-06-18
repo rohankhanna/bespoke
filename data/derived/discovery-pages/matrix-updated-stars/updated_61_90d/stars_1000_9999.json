@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 9813,
-    "concepts": 5933,
-    "observations": 5960,
-    "repos": 938,
-    "terms": 6032
+    "components": 9842,
+    "concepts": 5953,
+    "observations": 5979,
+    "repos": 940,
+    "terms": 6054
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T06:11:25.275839+00:00",
+  "generated_at": "2026-06-18T08:16:47.991956+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -91,7 +91,6 @@
     "asny/three-d",
     "asomers/mockall",
     "asottile/pyupgrade",
-    "athityakumar/colorls",
     "atlassian-api/atlassian-python-api",
     "atotto/clipboard",
     "authlib/authlib",
@@ -599,6 +598,7 @@
     "mitsuhiko/similar",
     "mjansson/rpmalloc",
     "mkdocs/catalog",
+    "mksglu/context-mode",
     "ml-explore/mlx-examples",
     "ml-explore/mlx-swift",
     "ml-explore/mlx-swift-examples",
@@ -615,6 +615,7 @@
     "mourner/flatbush",
     "mourner/rbush",
     "mozilla/sccache",
+    "mozillazg/python-pinyin",
     "mutoe/vue3-realworld-example-app",
     "mvdan/sh",
     "nabijaczleweli/cargo-update",
@@ -624,6 +625,7 @@
     "ndmitchell/ghcid",
     "ndmitchell/hlint",
     "neovim/pynvim",
+    "nesquena/hermes-webui",
     "nginx-proxy/docker-gen",
     "ngx-translate/core",
     "nigels-com/glew",

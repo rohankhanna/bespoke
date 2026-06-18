@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Python
 
-Generated at: `2026-06-18T06:11:25.275839+00:00`
+Generated at: `2026-06-18T08:16:47.991956+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
+- repos: 24
 - terms: 54
 - components: 45
 - concepts: 49
@@ -50,7 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
 | [shubishere/ai-drawio](https://github.com/Shubishere/ai-drawio) | 0 | 2026-04-19T11:52:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
-| [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -80,4 +79,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
 | [shubishere/ai-drawio](https://github.com/Shubishere/ai-drawio) | 0 | 2026-04-19T11:52:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
-| [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
