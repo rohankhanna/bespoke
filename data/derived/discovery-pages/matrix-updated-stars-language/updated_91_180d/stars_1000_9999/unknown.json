@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 27,
-    "concepts": 85,
-    "observations": 85,
-    "repos": 25,
-    "terms": 84
+    "concepts": 87,
+    "observations": 87,
+    "repos": 26,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "akuity/awesome-argo",
@@ -20,6 +20,7 @@
     "antonbabenko/terraform-skill",
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",
+    "devcontainers/spec",
     "docker/for-mac",
     "estree/estree",
     "facebookresearch/moco",

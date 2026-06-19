@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5831,
-    "concepts": 1246,
-    "observations": 1248,
-    "repos": 173,
-    "terms": 1244
+    "components": 5656,
+    "concepts": 1220,
+    "observations": 1222,
+    "repos": 168,
+    "terms": 1217
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
+    "0no-co/wonka",
     "1mcp-app/agent",
     "2mawi2/schaltwerk",
     "abaplint/abaplint",
@@ -40,7 +41,6 @@
     "Azure/login",
     "babel/website",
     "bitwarden/directory-connector",
-    "blrchen/chatgpt-lite",
     "Brendonovich/MacroGraph",
     "browserslist/browserslist-useragent-regexp",
     "carbon-design-system/carbon-components-angular",
@@ -79,9 +79,6 @@
     "glassflow/clickhouse-etl",
     "gradle/actions",
     "graphprotocol/graph-client",
-    "grubersjoe/github-contributions-api",
-    "grubersjoe/react-activity-calendar",
-    "grubersjoe/react-github-calendar",
     "harlan-zw/mdream",
     "haskell/vscode-haskell",
     "heroku/cli",
@@ -120,7 +117,6 @@
     "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
-    "mskelton/eslint-plugin-playwright",
     "mswjs/interceptors",
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
@@ -175,7 +171,6 @@
     "tats-u/markdown-cjk-friendly",
     "tinylibs/tinyexec",
     "tlaplus/vscode-tlaplus",
-    "tony1223/better-agent-terminal",
     "un-ts/prettier",
     "un-ts/synckit",
     "unjs/c12",

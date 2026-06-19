@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 162,
-    "observations": 163,
-    "repos": 98,
-    "terms": 161
+    "components": 323,
+    "concepts": 167,
+    "observations": 168,
+    "repos": 100,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -73,6 +73,7 @@
     "iambriccardo/gcp-bigquery-client",
     "jackielii/qmk_firmware",
     "jrsoftware/is7z",
+    "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/Glib_jll.jl",
     "Keats/os_info",
     "kitknox/helix",
@@ -106,6 +107,7 @@
     "stable-haskell/stack",
     "typstyle-rs/prettyless",
     "usdot-fhwa-stol/carma-ns3-adapter",
+    "vaporif/rvx",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
     "wintercg/fetch",
     "yoshoku/numo-liblinear",

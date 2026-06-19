@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1164,
-    "concepts": 1175,
-    "observations": 1176,
-    "repos": 207,
-    "terms": 1169
+    "components": 1158,
+    "concepts": 1172,
+    "observations": 1173,
+    "repos": 205,
+    "terms": 1166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -102,7 +102,6 @@
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
     "highfive-devs/highfive",
-    "hku-mars/FAST-Calib",
     "HybridRobotics/motion_tracking_controller",
     "iamaisim/ProjectAirSim",
     "intel/intel-graphics-compiler",
@@ -143,7 +142,6 @@
     "marton78/pffft",
     "Mercury13/unicodia",
     "microsoft/MIDI",
-    "microsoft/vcpkg-tool",
     "microsoft/WindowsAppSDK-Samples",
     "mingw-w64/mingw-w64",
     "mitsuba-renderer/drjit",

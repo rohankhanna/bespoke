@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1839,
-    "concepts": 471,
-    "observations": 473,
-    "repos": 110,
-    "terms": 502
+    "components": 1943,
+    "concepts": 512,
+    "observations": 515,
+    "repos": 116,
+    "terms": 543
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -23,6 +23,7 @@
     "agent-sh/agentsys",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
+    "anonrig/fast-querystring",
     "apify/awesome-skills",
     "appium/appium-ios-device",
     "Atheos/Atheos",
@@ -34,12 +35,14 @@
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "cncf/sandbox",
+    "coderaiser/putout",
     "comme2e/comm",
     "conventional-changelog/conventional-changelog-config-spec",
     "CyberAP/nanoid-dictionary",
     "d3/d3-format",
     "d3/d3-geo-polygon",
     "devsnek/esvu",
+    "dperini/nwsapi",
     "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",
@@ -52,6 +55,7 @@
     "fabmax/physx-js-webidl",
     "fastify/create-fastify",
     "fastify/example",
+    "fastify/fastify-autoload",
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
     "fgnass/domino",
@@ -95,6 +99,7 @@
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
     "neverendingqs/serverless-dotenv-plugin",
+    "nodejs/admin",
     "nodejs/TSC",
     "npm/abbrev-js",
     "npm/rfcs",
@@ -110,6 +115,7 @@
     "rtfeldman/node-test-runner",
     "semantic-release/changelog",
     "semantic-release/git",
+    "semantic-release/npm",
     "sethgammon/citadel",
     "sindresorhus/globals",
     "stripe-samples/accept-a-payment",

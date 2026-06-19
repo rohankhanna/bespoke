@@ -3,7 +3,7 @@
     "components": 1010,
     "concepts": 3928,
     "observations": 3930,
-    "repos": 998,
+    "repos": 999,
     "terms": 3856
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -69,6 +69,7 @@
     "andialbrecht/sqlparse",
     "andyzeng/tsdf-fusion-python",
     "AnswerDotAI/RAGatouille",
+    "AnswerDotAI/rerankers",
     "ant-research/CoDeF",
     "apple/ml-aim",
     "apple/ml-cvnets",

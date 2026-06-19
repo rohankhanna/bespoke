@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 311,
-    "concepts": 470,
-    "observations": 471,
-    "repos": 82,
-    "terms": 462
+    "components": 315,
+    "concepts": 471,
+    "observations": 472,
+    "repos": 83,
+    "terms": 463
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
     "AdAway/AdAway",
     "akheron/jansson",
+    "alembic/alembic",
     "Alex313031/thorium",
     "AlibabaResearch/AdvancedLiterateMachinery",
     "arrayfire/arrayfire",

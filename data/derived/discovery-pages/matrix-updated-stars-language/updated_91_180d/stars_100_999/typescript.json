@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2033,
-    "concepts": 347,
-    "observations": 348,
-    "repos": 70,
-    "terms": 360
+    "components": 2073,
+    "concepts": 360,
+    "observations": 361,
+    "repos": 72,
+    "terms": 373
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
+    "actions-cool/issues-helper",
     "adaltas/node-http-status",
     "addyosmani/chatty",
     "aelassas/bookcars",
@@ -75,6 +76,7 @@
     "testing-library/angular-testing-library",
     "tevonsb/homeassistant-mcp",
     "thesayyn/protoc-gen-ts",
+    "tracked-tools/tracked-built-ins",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",

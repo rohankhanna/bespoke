@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 186,
+    "components": 203,
     "concepts": 44,
     "observations": 44,
-    "repos": 8,
+    "repos": 12,
     "terms": 45
   },
   "facet_version": 1,
@@ -12,13 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "caprica/generator-vlcj",
     "danielrosehill/Israel-Alert-Map",
+    "fabon-f/temporal-polyfill-comparison",
+    "gyf0311/lorekit",
     "i18next/i18next-subliminal",
     "Patrick-ring-motive/sval-rhino-gs",
+    "redductive/securepixel",
     "saidudz/chat-ai",
+    "similar-colpoxerosis201/codex-wechat",
     "stdlib-js/dstructs-struct",
     "stdlib-js/ndarray-dtype-ctor",
     "tornikepe/ai-chatbot"

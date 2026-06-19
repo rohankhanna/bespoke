@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1397,
-    "concepts": 204,
-    "observations": 205,
-    "repos": 59,
-    "terms": 232
+    "components": 1485,
+    "concepts": 222,
+    "observations": 223,
+    "repos": 62,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
-    "acro5piano/kysely-migration-cli",
+    "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
+    "almogdepaz/wolfpack",
     "apache/incubator-devlake-website",
     "automazeio/proof",
     "ava-labs/avalanche-dapp-sdks",
@@ -34,6 +35,7 @@
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
+    "favware/cliff-jumper",
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
@@ -61,6 +63,7 @@
     "newrelic/opentelemetry-demo",
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
+    "overseedai/viwo",
     "pinecone-io/pinecone-mcp",
     "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",

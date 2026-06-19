@@ -3,7 +3,7 @@
     "components": 579,
     "concepts": 433,
     "observations": 438,
-    "repos": 204,
+    "repos": 205,
     "terms": 427
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
@@ -217,6 +217,7 @@
     "yaahc/jane-eyre",
     "yuyang0/rrqlite",
     "zakarumych/allocator-api2",
+    "zakarumych/mev",
     "zakarumych/sierra"
   ]
 }

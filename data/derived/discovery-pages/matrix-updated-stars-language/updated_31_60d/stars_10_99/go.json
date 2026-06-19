@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 480,
-    "concepts": 323,
-    "observations": 324,
-    "repos": 67,
-    "terms": 321
+    "components": 464,
+    "concepts": 312,
+    "observations": 313,
+    "repos": 65,
+    "terms": 310
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -24,7 +24,6 @@
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "bitrise-io/stepman",
-    "blinklabs-io/bluefin",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/bpm-release",
@@ -63,7 +62,6 @@
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
-    "magodo/aztft",
     "minio/pkg",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",

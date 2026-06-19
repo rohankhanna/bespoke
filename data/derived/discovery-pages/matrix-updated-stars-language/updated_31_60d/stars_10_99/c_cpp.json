@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 349,
-    "concepts": 425,
-    "observations": 426,
-    "repos": 68,
-    "terms": 422
+    "components": 341,
+    "concepts": 418,
+    "observations": 419,
+    "repos": 65,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -50,12 +50,10 @@
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
     "ICRAR/crc32c",
-    "JFLarvoire/the_silver_searcher",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
     "LedgerHQ/ledger-secure-sdk",
-    "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
@@ -79,7 +77,6 @@
     "walbourn/directxtktest",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
-    "yoshoku/numo-narray-alt",
     "yquake2/yquake2remaster",
     "zig-wasm/wasmer-zig-api"
   ]

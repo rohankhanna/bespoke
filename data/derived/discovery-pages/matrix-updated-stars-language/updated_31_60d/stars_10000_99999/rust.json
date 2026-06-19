@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1359,
-    "concepts": 920,
-    "observations": 922,
-    "repos": 81,
-    "terms": 908
+    "components": 1266,
+    "concepts": 889,
+    "observations": 891,
+    "repos": 77,
+    "terms": 877
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -21,13 +21,11 @@
     "asciinema/asciinema",
     "ast-grep/ast-grep",
     "astral-sh/ruff",
-    "astral-sh/uv",
     "atuinsh/atuin",
     "Automattic/harper",
     "bevyengine/bevy",
     "biomejs/biome",
     "BloopAI/vibe-kanban",
-    "cjpais/Handy",
     "clap-rs/clap",
     "ClementTsang/bottom",
     "dani-garcia/vaultwarden",
@@ -48,7 +46,6 @@
     "google/comprehensive-rust",
     "googleworkspace/cli",
     "helix-editor/helix",
-    "huggingface/candle",
     "huggingface/tokenizers",
     "hyperium/tonic",
     "iced-rs/iced",
@@ -61,7 +58,6 @@
     "microsoft/windows-rs",
     "nearai/ironclaw",
     "nushell/nushell",
-    "openai/codex",
     "orhun/git-cliff",
     "oxc-project/oxc",
     "pola-rs/polars",
@@ -73,11 +69,11 @@
     "rerun-io/rerun",
     "rolldown/rolldown",
     "rust-lang/cargo",
+    "rust-lang/mdBook",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "servo/servo",
     "shadowsocks/shadowsocks-rust",
-    "sharkdp/bat",
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",

@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 2,
     "observations": 2,
-    "repos": 5,
+    "repos": 6,
     "terms": 2
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
     "danielrosehill/adb-keep-awake",
     "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
     "danielrosehill/Claude-Calls-The-Shots",
-    "danielrosehill/Local-Claude-Plugin-Install-Research"
+    "danielrosehill/Local-Claude-Plugin-Install-Research",
+    "gerardtschanz/revenue-os"
   ]
 }

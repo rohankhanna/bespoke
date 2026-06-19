@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
+    "components": 215,
     "concepts": 136,
     "observations": 137,
-    "repos": 36,
-    "terms": 138
+    "repos": 34,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "ADNTIO/crispy-bootloader-rp2040-rs",
     "black-desk/djotfmt",
@@ -24,7 +24,6 @@
     "dcampbell24/djot-implementations",
     "decibri/decibri",
     "Dicklesworthstone/franken_agent_detection",
-    "eikarna/hermes-rs",
     "EspressoSystems/tide-disco",
     "eth-act/ere-guests",
     "facebookexperimental/cxx",
@@ -40,7 +39,6 @@
     "image-rs/image-extras",
     "influxdata/arrow-datafusion",
     "juharris/optify",
-    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "kurrent-io/KurrentDB-Bridge-Client",
     "ldclabs/ic-cose",
     "open-telemetry/opentelemetry-weaver-examples",

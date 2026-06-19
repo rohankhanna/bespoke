@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2411,
-    "concepts": 475,
-    "observations": 475,
-    "repos": 96,
-    "terms": 526
+    "components": 2584,
+    "concepts": 495,
+    "observations": 495,
+    "repos": 100,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "43081j/picoquery",
     "AbianS/docker-db-manager",
-    "actions-cool/issues-helper",
     "actions/container-toolkit-action",
     "affaan-m/agentshield",
     "AmElmo/proofshot",
@@ -32,6 +31,7 @@
     "aws-samples/dify-self-hosted-on-aws",
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
+    "blrchen/chatgpt-lite",
     "carbon-design-system/carbon-icons-svelte",
     "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
@@ -55,6 +55,9 @@
     "google/adk-web",
     "GoogleCloudPlatform/wombat-dressing-room",
     "graalvm/setup-graalvm",
+    "grubersjoe/github-contributions-api",
+    "grubersjoe/react-activity-calendar",
+    "grubersjoe/react-github-calendar",
     "h3js/crossws",
     "hazelcast/hazelcast-nodejs-client",
     "immersive-translate/zotero-immersivetranslate",
@@ -80,6 +83,7 @@
     "microsoft/vscode-debugadapter-node",
     "microsoft/vscode-html-languageservice",
     "microsoft/vscode-json-languageservice",
+    "mskelton/eslint-plugin-playwright",
     "napi-rs/package-template",
     "nashaofu/screenshots",
     "neoclide/coc-java",
@@ -102,7 +106,7 @@
     "storybookjs/test-runner",
     "timkindberg/jest-when",
     "tombii/better-ccflare",
-    "tracked-tools/tracked-built-ins",
+    "tony1223/better-agent-terminal",
     "typed-ember/glint",
     "vega/vega-embed",
     "vibe-log/vibe-log-cli",

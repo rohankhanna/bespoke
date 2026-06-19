@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 625,
-    "concepts": 432,
-    "observations": 434,
-    "repos": 168,
-    "terms": 427
+    "components": 647,
+    "concepts": 439,
+    "observations": 441,
+    "repos": 171,
+    "terms": 434
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -48,6 +48,7 @@
     "Azure-Samples/openai-chat-backend-fastapi",
     "babashka/sci.configs",
     "benomahony/oil-git.nvim",
+    "blaine/fantastty",
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
@@ -108,6 +109,7 @@
     "Jorenar/minPlug",
     "jpmml/r2pmml",
     "jruby/maven-tools",
+    "js-temporal/proposal-temporal-v2",
     "JuliaGraphics/Cairo.jl",
     "JuliaGtk/Gtk4.jl",
     "JuliaGtk/Gtk4Makie.jl",
@@ -145,6 +147,7 @@
     "ocurrent/opam-health-check",
     "onomojo/i18n-timezones",
     "opencontainers/.github",
+    "oracle-quickstart/oci-o11y-solutions",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "pagedjs/pagedjs-cli",

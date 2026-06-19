@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 17,
-    "terms": 38
+    "components": 86,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 22,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "5c077m4n/pikud-haoref-api-go",
+    "abraxas-365/claudio",
     "abraxas-365/claudio-codex",
     "ainvaltin/nu-plugin",
     "aldernero/gaul",
@@ -25,11 +26,15 @@
     "cloudfoundry/bosh-aws-light-stemcell-builder",
     "cpu/wycheproof",
     "DataDog/trivy",
+    "erikceballos/nano-banana-cli",
     "ethpandaops/cbt",
     "justinfx/olric-nats-plugin",
+    "k8nstantin/openpraxis",
     "kitknox/tsshd",
     "ksylvan/fabric",
     "petmal/mindtrial",
+    "serpro69/capy",
+    "transparency-dev/armored-witness-os",
     "usbarmory/go-net"
   ]
 }

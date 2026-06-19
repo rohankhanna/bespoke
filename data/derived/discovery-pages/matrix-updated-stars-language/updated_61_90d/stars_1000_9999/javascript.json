@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1917,
-    "concepts": 408,
-    "observations": 408,
-    "repos": 70,
+    "components": 1919,
+    "concepts": 407,
+    "observations": 407,
+    "repos": 72,
     "terms": 407
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -24,10 +24,11 @@
     "asciinema/asciinema-player",
     "babel/babel-loader",
     "bcoe/c8",
-    "cerebral/cerebral",
+    "brunch/brunch",
     "codemirror/dev",
     "crossbario/autobahn-js",
     "danmactough/node-feedparser",
+    "DavidAnson/markdownlint",
     "DevExpress/testcafe",
     "dooy/chatgpt-web-midjourney-proxy",
     "ecomfe/echarts-gl",
@@ -70,6 +71,7 @@
     "projectfluent/fluent",
     "rgthree/rgthree-comfy",
     "RichardLitt/standard-readme",
+    "rullerzhou-afk/clawd-on-desk",
     "serverless-operations/serverless-step-functions",
     "sindresorhus/globby",
     "sindresorhus/hyper-snazzy",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1767,
-    "concepts": 958,
-    "observations": 965,
-    "repos": 79,
-    "terms": 957
+    "components": 1756,
+    "concepts": 948,
+    "observations": 955,
+    "repos": 77,
+    "terms": 947
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -50,7 +50,6 @@
     "Lightning-AI/litgpt",
     "Lightning-AI/pytorch-lightning",
     "lobehub/lobehub",
-    "meta-llama/llama-cookbook",
     "moby/moby",
     "modelscope/FunASR",
     "modelscope/ms-swift",
@@ -75,7 +74,6 @@
     "redis/go-redis",
     "Redocly/redoc",
     "run-llama/llama_index",
-    "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
     "ruvnet/ruflo",
     "spaceship-prompt/spaceship-prompt",

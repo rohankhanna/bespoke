@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2719,
-    "concepts": 538,
-    "observations": 542,
-    "repos": 97,
-    "terms": 542
+    "components": 2620,
+    "concepts": 515,
+    "observations": 519,
+    "repos": 93,
+    "terms": 515
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
-    "adyscorpius/logseq-jira",
     "aggre/ullr",
     "Airfooox/cron-validate",
-    "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
     "Azure/bicep-deploy",
@@ -44,7 +42,6 @@
     "ethereum/eip-review-bot",
     "fabon-f/temporal-polyfill-lite",
     "fannheyward/coc-xml",
-    "favware/cliff-jumper",
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
@@ -92,7 +89,6 @@
     "OffchainLabs/nitro-testnode",
     "ogx-ai/llama-stack-client-typescript",
     "openwebdocs/mdn-bcd-collector",
-    "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",

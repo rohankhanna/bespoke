@@ -3,7 +3,7 @@
     "components": 10817,
     "concepts": 9458,
     "observations": 9471,
-    "repos": 2434,
+    "repos": 2435,
     "terms": 9321
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -151,6 +151,7 @@
     "anse-app/chatgpt-demo",
     "AnswerDotAI/gpu.cpp",
     "AnswerDotAI/RAGatouille",
+    "AnswerDotAI/rerankers",
     "ant-research/CoDeF",
     "antfu/esno",
     "antfu/vscode-settings",

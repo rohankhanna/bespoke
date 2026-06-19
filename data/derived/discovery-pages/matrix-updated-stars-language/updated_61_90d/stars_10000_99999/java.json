@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 22,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 5,
-    "terms": 34
+    "concepts": 37,
+    "observations": 37,
+    "repos": 6,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "google/auto",
     "google/guava",
     "Konloch/bytecode-viewer",
+    "NationalSecurityAgency/ghidra",
     "ReactiveX/RxAndroid",
     "termux/termux-app"
   ]

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 122,
+    "components": 315,
     "concepts": 28,
     "observations": 28,
-    "repos": 8,
+    "repos": 10,
     "terms": 29
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "adipalko/hatraot",
+    "fekkak1998/scira",
+    "gopi2211/ralph",
     "grubersjoe/react-activity-calendar-tests",
     "neuroverseos/negotiator",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

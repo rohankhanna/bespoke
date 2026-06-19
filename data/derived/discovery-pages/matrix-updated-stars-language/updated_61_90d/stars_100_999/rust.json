@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 610,
-    "concepts": 426,
-    "observations": 434,
-    "repos": 95,
-    "terms": 432
+    "components": 620,
+    "concepts": 433,
+    "observations": 442,
+    "repos": 98,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "AchetaGames/Epic-Asset-Manager",
     "ada-url/rust",
     "agent-sh/agnix",
+    "ajrcarey/pdfium-render",
     "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
@@ -43,6 +44,7 @@
     "djc/tokio-retry",
     "DoumanAsh/xxhash-rust",
     "drahnr/cargo-spellcheck",
+    "dtolnay/proc-macro2",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
     "dtolnay/trybuild",
@@ -70,7 +72,6 @@
     "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
     "kylebarron/parquet-wasm",
-    "lambdaclass/lambdaworks",
     "LaurenzV/hayro",
     "matrix-org/seshat",
     "messense/jieba-rs",
@@ -92,6 +93,7 @@
     "rust-analyzer/rowan",
     "rust-lang/crater",
     "rust-lang/libz-sys",
+    "rust-lang/rustwide",
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",
     "RustCrypto/AEADs",
@@ -107,6 +109,7 @@
     "tikv/jemallocator",
     "tracel-ai/models",
     "Traverse-Research/gpu-allocator",
+    "untitaker/hyperlink",
     "yeslogic/allsorts",
     "zimbatm/mdsh"
   ]

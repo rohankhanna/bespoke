@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 783,
-    "concepts": 552,
-    "observations": 558,
-    "repos": 92,
-    "terms": 554
+    "components": 846,
+    "concepts": 603,
+    "observations": 609,
+    "repos": 100,
+    "terms": 616
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "01mf02/jaq",
+    "abraxas-365/langchain-rust",
     "alexpasmantier/television",
     "algesten/ureq",
     "alloy-rs/alloy",
@@ -23,6 +24,7 @@
     "asny/three-d",
     "asomers/mockall",
     "bitshifter/glam-rs",
+    "blacknon/hwatch",
     "BoundaryML/baml",
     "BurntSushi/quickcheck",
     "bvaisvil/zenith",
@@ -33,6 +35,7 @@
     "chronotope/chrono",
     "crate-ci/typos",
     "crossterm-rs/crossterm",
+    "dalek-cryptography/curve25519-dalek",
     "David-OConnor/pyflow",
     "dimforge/rapier",
     "dtolnay/anyhow",
@@ -50,6 +53,7 @@
     "google/tarpc",
     "GuillaumeGomez/sysinfo",
     "gyscos/cursive",
+    "hashintel/hash",
     "hyperium/h2",
     "hyperium/http",
     "hyperledger-solang/solang",
@@ -68,6 +72,7 @@
     "lldap/lldap",
     "LukeMathWalker/cargo-chef",
     "mattsse/chromiumoxide",
+    "mfontanini/presenterm",
     "mikeyobrien/ralph-orchestrator",
     "mitsuhiko/insta",
     "mitsuhiko/similar",
@@ -82,9 +87,12 @@
     "nvidia/openshell",
     "open-telemetry/opentelemetry-rust",
     "openai/harmony",
+    "pdeljanov/Symphonia",
     "pop-os/cosmic-text",
+    "rusqlite/rusqlite",
     "rust-cli/confy",
     "rust-cli/env_logger",
+    "rust-lang/cc-rs",
     "rust-lang/futures-rs",
     "rust-lang/log",
     "Rust-SDL2/rust-sdl2",

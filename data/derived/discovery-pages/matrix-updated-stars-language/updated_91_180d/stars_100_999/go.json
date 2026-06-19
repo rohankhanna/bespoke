@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 317,
-    "observations": 318,
-    "repos": 48,
-    "terms": 317
+    "components": 301,
+    "concepts": 333,
+    "observations": 334,
+    "repos": 54,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
@@ -25,8 +25,11 @@
     "aws/amazon-ec2-metadata-mock",
     "aws/amazon-ec2-spot-interrupter",
     "aws/amazon-ecs-cni-plugins",
+    "aws/aws-xray-daemon",
     "blampe/goat",
     "box-cli-maker/box-cli-maker",
+    "cedar-policy/cedar-go",
+    "chromedp/chromedp-proxy",
     "cloudpilot-ai/karpenter-provider-alibabacloud",
     "cloudwego/biz-demo",
     "cloudwego/kitex-examples",
@@ -37,6 +40,7 @@
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
     "GoogleCloudPlatform/docker-credential-gcr",
+    "gopacket/gopacket",
     "gost-dom/browser",
     "hashicorp/raft-boltdb",
     "hebcal/hebcal",
@@ -52,6 +56,7 @@
     "medama-io/medama",
     "mholt/acmez",
     "MicahParks/keyfunc",
+    "minio/highwayhash",
     "multiformats/go-multiaddr",
     "nikepan/clickhouse-bulk",
     "oceanbase/ob-operator",
@@ -61,6 +66,7 @@
     "proxy-wasm/proxy-wasm-go-sdk",
     "secretflow/scql",
     "slinso/goTemplateBenchmark",
+    "stretchr/objx",
     "withastro/compiler"
   ]
 }

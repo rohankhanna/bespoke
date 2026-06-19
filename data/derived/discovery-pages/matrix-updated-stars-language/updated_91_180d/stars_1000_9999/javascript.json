@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 836,
-    "concepts": 227,
-    "observations": 228,
-    "repos": 46,
-    "terms": 224
+    "components": 915,
+    "concepts": 240,
+    "observations": 241,
+    "repos": 47,
+    "terms": 237
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
@@ -22,6 +22,7 @@
     "architect/architect",
     "breejs/bree",
     "casparwylie/cascii-core",
+    "cerebral/cerebral",
     "chakra-core/ChakraCore",
     "commonmark/commonmark.js",
     "cristianbote/goober",

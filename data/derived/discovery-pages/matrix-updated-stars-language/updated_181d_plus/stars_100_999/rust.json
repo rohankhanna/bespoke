@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 802,
-    "concepts": 639,
-    "observations": 647,
-    "repos": 191,
-    "terms": 631
+    "components": 808,
+    "concepts": 654,
+    "observations": 662,
+    "repos": 192,
+    "terms": 646
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -178,6 +178,7 @@
     "rust-windowing/gl-rs",
     "rust3ds/ctru-rs-old",
     "RustAudio/lewton",
+    "rusticstuff/simdutf8",
     "RustPython/Parser",
     "rustwasm/console_error_panic_hook",
     "rustwasm/wasm-pack-template",

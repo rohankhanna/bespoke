@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 36,
-    "terms": 129
+    "components": 145,
+    "concepts": 113,
+    "observations": 114,
+    "repos": 33,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -21,7 +21,6 @@
     "cbuijs/hagezi",
     "containerd/project",
     "crewAIInc/skills",
-    "Dexters-Hub/Dexters-Hub",
     "docker/github-builder",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
@@ -47,8 +46,6 @@
     "supabase/scoop-bucket",
     "universal-ctags/ctags-nightly-build",
     "uxlfoundation/foundation",
-    "w3c/accname",
-    "w3c/core-aam",
     "webdriverio/awesome-webdriverio"
   ]
 }

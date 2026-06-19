@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 633,
-    "concepts": 712,
-    "observations": 716,
-    "repos": 143,
-    "terms": 715
+    "components": 655,
+    "concepts": 756,
+    "observations": 761,
+    "repos": 148,
+    "terms": 759
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -49,6 +49,7 @@
     "dakrone/cheshire",
     "dashbitco/mox",
     "datawhalechina/tiny-universe",
+    "DavBfr/dart_pdf",
     "Deci-AI/super-gradients",
     "dempfi/ayu",
     "dimitri/el-get",
@@ -59,8 +60,10 @@
     "emacs-lsp/lsp-ui",
     "erew123/alltalk_tts",
     "ex-aws/ex_aws",
+    "excon/excon",
     "facebookresearch/co-tracker",
     "fairygui/FairyGUI-unity",
+    "flycheck/flycheck",
     "folke/lazydev.nvim",
     "formtastic/formtastic",
     "freerange/mocha",
@@ -93,6 +96,7 @@
     "kikito/inspect.lua",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
+    "lindawangg/COVID-Net",
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
@@ -118,6 +122,7 @@
     "onsails/lspkind.nvim",
     "opal/opal",
     "OpenBMB/MiniCPM",
+    "pardeike/Harmony",
     "parruda/swarm",
     "pgpartman/pg_partman",
     "preservim/vimux",

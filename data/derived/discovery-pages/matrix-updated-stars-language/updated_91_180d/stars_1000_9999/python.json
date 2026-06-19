@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 490,
-    "concepts": 974,
-    "observations": 975,
+    "concepts": 981,
+    "observations": 982,
     "repos": 185,
-    "terms": 959
+    "terms": 966
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -27,7 +27,6 @@
     "AmberSahdev/Open-Interface",
     "anapnoe/stable-diffusion-webui-ux",
     "andreafrancia/trash-cli",
-    "AnswerDotAI/rerankers",
     "anthropics/claude-code-security-review",
     "apple/ml-hypersim",
     "ARISE-Initiative/robomimic",
@@ -70,6 +69,7 @@
     "dynaconf/dynaconf",
     "ekalinin/nodeenv",
     "emilianavt/OpenSeeFace",
+    "explosion/spacy-models",
     "facebookincubator/submitit",
     "facebookresearch/fvcore",
     "facebookresearch/habitat-lab",

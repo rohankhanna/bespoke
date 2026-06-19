@@ -1,24 +1,23 @@
 {
   "counts": {
-    "components": 1232,
-    "concepts": 328,
-    "observations": 330,
-    "repos": 33,
-    "terms": 343
+    "components": 1004,
+    "concepts": 308,
+    "observations": 310,
+    "repos": 27,
+    "terms": 305
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "angular/angular",
     "anomalyco/opencode",
     "avelino/awesome-go",
     "axios/axios",
-    "denoland/deno",
     "excalidraw/excalidraw",
     "facebook/react",
     "facebook/react-native",
@@ -31,20 +30,15 @@
     "langgenius/dify",
     "microsoft/generative-ai-for-beginners",
     "microsoft/terminal",
-    "microsoft/typescript",
     "microsoft/vscode",
     "mrdoob/three.js",
-    "nousresearch/hermes-agent",
     "open-webui/open-webui",
-    "openclaw/openclaw",
     "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",
-    "sindresorhus/awesome",
     "tauri-apps/tauri",
     "tensorflow/tensorflow",
     "torvalds/linux",
     "twbs/bootstrap",
-    "vinta/awesome-python",
-    "yt-dlp/yt-dlp"
+    "vinta/awesome-python"
   ]
 }

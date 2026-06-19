@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -58,7 +58,6 @@
     "BrianPugh/belay",
     "bshall/acoustic-model",
     "bshall/knn-vc",
-    "BurntSushi/rebar",
     "BusKill/buskill-app",
     "bytedance/BindWeave",
     "bytedance/Q-Insight",
@@ -154,6 +153,7 @@
     "melMass/comfy_mtb",
     "metauto-ai/GPTSwarm",
     "mgaitan/sphinxcontrib-mermaid",
+    "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ANCE",
     "microsoft/botbuilder-python",
     "mindspore-lab/mindnlp",

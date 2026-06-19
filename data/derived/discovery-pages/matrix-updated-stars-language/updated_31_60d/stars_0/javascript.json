@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 129,
+    "components": 127,
     "concepts": 12,
     "observations": 12,
-    "repos": 10,
+    "repos": 7,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,17 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "aaronlamz/navpress",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
     "angular/angular-build-builds",
     "danielrosehill/Claude-Israel-Shopping-Plugin",
-    "fabon-f/temporal-polyfill-comparison",
-    "gyf0311/lorekit",
-    "Luligu/matterbridge-eve-door",
-    "redductive/securepixel",
-    "similar-colpoxerosis201/codex-wechat"
+    "locize/locize-i18next-vue-example",
+    "Luligu/matterbridge-eve-door"
   ]
 }

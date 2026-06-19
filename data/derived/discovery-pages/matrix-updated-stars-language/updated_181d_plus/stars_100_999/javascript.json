@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4754,
-    "concepts": 1075,
-    "observations": 1075,
-    "repos": 387,
-    "terms": 1062
+    "components": 4760,
+    "concepts": 1077,
+    "observations": 1077,
+    "repos": 388,
+    "terms": 1064
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -159,6 +159,7 @@
     "faceyspacey/babel-plugin-universal-import",
     "faceyspacey/webpack-flush-chunks",
     "felixge/node-combined-stream",
+    "fengari-lua/fengari-interop",
     "fengari-lua/fengari-web",
     "feross/simple-get",
     "filerjs/filer",

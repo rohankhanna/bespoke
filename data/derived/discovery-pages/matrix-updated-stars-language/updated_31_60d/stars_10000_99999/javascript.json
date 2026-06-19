@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3616,
-    "concepts": 677,
-    "observations": 679,
-    "repos": 73,
-    "terms": 664
+    "components": 3553,
+    "concepts": 662,
+    "observations": 664,
+    "repos": 72,
+    "terms": 651
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -41,7 +41,6 @@
     "fastify/fastify",
     "foliojs/pdfkit",
     "gatsbyjs/gatsby",
-    "google/zx",
     "GoogleChrome/lighthouse",
     "gorhill/uBlock",
     "handlebars-lang/handlebars.js",

@@ -3,7 +3,7 @@
     "components": 23,
     "concepts": 25,
     "observations": 25,
-    "repos": 15,
+    "repos": 14,
     "terms": 25
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "clearml/clearml-agent-bootstrap",
     "conda-forge/blis-feedstock",
@@ -25,7 +25,6 @@
     "danielrosehill/Claude-Image-Annotation-Plugin",
     "DeepWok/mase-docker",
     "edward3h/bedrock-viz-from-backups",
-    "gerardtschanz/revenue-os",
     "kalavai-net/kalavai-templates",
     "kyverno/.github",
     "nodenv/node-build-prerelease"

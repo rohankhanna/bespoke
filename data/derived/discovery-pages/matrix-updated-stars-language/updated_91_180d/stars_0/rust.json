@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 23,
-    "observations": 24,
-    "repos": 14,
-    "terms": 23
+    "components": 82,
+    "concepts": 28,
+    "observations": 29,
+    "repos": 15,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "bgw/bincode",
     "databendlabs/iceberg-rust",
@@ -27,6 +27,7 @@
     "kylebarron/pyo3-file",
     "onomojo/i18n-country-translations-rs",
     "onomojo/i18n-timezones-rs",
-    "typstyle-rs/prettyless"
+    "typstyle-rs/prettyless",
+    "vaporif/rvx"
   ]
 }

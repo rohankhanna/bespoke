@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 400,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 34,
-    "terms": 166
+    "concepts": 161,
+    "observations": 161,
+    "repos": 32,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
@@ -22,7 +22,6 @@
     "f3liz-casa/noraneko",
     "FAIR-IMPACT/MOD",
     "geocompx/docker",
-    "google-marketing-solutions/ariel",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "honwen/openwrt-dnsmasq-extra",
     "intel-staging/text-generation-webui",
@@ -37,7 +36,6 @@
     "mono/skia",
     "mozilla-ai/otari",
     "nuxt-modules/emotion",
-    "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
     "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",

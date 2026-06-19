@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1390,
-    "concepts": 1216,
-    "observations": 1220,
-    "repos": 164,
-    "terms": 1214
+    "components": 1351,
+    "concepts": 1165,
+    "observations": 1169,
+    "repos": 158,
+    "terms": 1163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -45,7 +45,6 @@
     "boj/redistore",
     "bufbuild/protovalidate-go",
     "buildpacks/lifecycle",
-    "ByteNess/aws-vault",
     "celestiaorg/celestia-node",
     "celzero/firestack",
     "chainguard-dev/melange",
@@ -70,7 +69,6 @@
     "CosmWasm/wasmd",
     "CosmWasm/wasmvm",
     "crytic/medusa",
-    "dependabot/cli",
     "dgraph-io/dgraph-benchmarks",
     "docker/model-runner",
     "dydxprotocol/v4-chain",
@@ -110,13 +108,11 @@
     "istio/tools",
     "itzg/mc-monitor",
     "itzg/mc-router",
-    "JupiterRider/ffi",
     "kelos-dev/kelos",
     "knative/community",
     "Kong/deck",
     "kube-rbac-proxy/kube-rbac-proxy",
     "kubecfg/kubecfg",
-    "kubernetes-sigs/controller-tools",
     "kubernetes-sigs/custom-metrics-apiserver",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
     "kubernetes-sigs/karpenter-provider-cluster-api",
@@ -168,8 +164,6 @@
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",
     "sylabs/singularity",
-    "terraform-linters/tflint-ruleset-aws",
-    "terraform-linters/tflint-ruleset-azurerm",
     "theupdateframework/go-tuf",
     "toml-lang/toml-test",
     "transparency-dev/tessera",

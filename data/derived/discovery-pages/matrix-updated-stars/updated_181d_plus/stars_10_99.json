@@ -3,7 +3,7 @@
     "components": 12291,
     "concepts": 7082,
     "observations": 7100,
-    "repos": 3344,
+    "repos": 3345,
     "terms": 7029
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -3334,6 +3334,7 @@
     "ZacharyMeng/PolaFormer",
     "zahraatashgahi/QuickSelection",
     "zakarumych/allocator-api2",
+    "zakarumych/mev",
     "zakarumych/sierra",
     "zcash/pasta",
     "zef/vim-cycle",

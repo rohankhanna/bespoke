@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2497,
-    "concepts": 552,
-    "observations": 561,
-    "repos": 104,
-    "terms": 547
+    "components": 2393,
+    "concepts": 511,
+    "observations": 519,
+    "repos": 98,
+    "terms": 506
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -20,7 +20,6 @@
     "AdguardTeam/HostlistsRegistry",
     "AdguardTeam/Scriptlets",
     "americanexpress/jest-json-schema",
-    "anonrig/fast-querystring",
     "apache/incubator-seata-website",
     "aredridel/node-bin-gen",
     "auth0/node-jwks-rsa",
@@ -36,7 +35,6 @@
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
     "ClickHouse/agent-skills",
-    "coderaiser/putout",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
     "conventional-changelog/releaser-tools",
@@ -44,7 +42,6 @@
     "CVEProject/cve-services",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
-    "dperini/nwsapi",
     "dydxprotocol/v4-clients",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
@@ -52,7 +49,6 @@
     "emberjs/ember-test-helpers",
     "evenchange4/graphql.macro",
     "facebook/Rapid",
-    "fastify/fastify-autoload",
     "firebase/snippets-web",
     "fontello/svg2ttf",
     "GDevelopApp/GDevelop-examples",
@@ -82,7 +78,6 @@
     "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
     "neostandard/neostandard",
-    "nodejs/admin",
     "octokit/graphql-schema",
     "OffchainLabs/arbitrum-docs",
     "openfl/lime",
@@ -102,7 +97,6 @@
     "rvagg/github-webhook-handler",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
-    "semantic-release/npm",
     "speced/respec",
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",

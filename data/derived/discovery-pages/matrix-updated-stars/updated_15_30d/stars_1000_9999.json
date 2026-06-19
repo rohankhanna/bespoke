@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2378,
-    "concepts": 1145,
-    "observations": 1151,
-    "repos": 132,
-    "terms": 1142
+    "components": 2309,
+    "concepts": 1101,
+    "observations": 1107,
+    "repos": 126,
+    "terms": 1098
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "AdaptiveCpp/AdaptiveCpp",
@@ -19,7 +19,6 @@
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
     "all-contributors/allcontributors.org",
-    "andymass/vim-matchup",
     "apache/datafusion-ballista",
     "apollographql/apollo-tooling",
     "apollographql/eslint-plugin-graphql",
@@ -56,8 +55,6 @@
     "Farama-Foundation/Minigrid",
     "firebase/flutterfire",
     "fla-org/flash-linear-attention",
-    "FunAudioLLM/Fun-ASR",
-    "FunAudioLLM/SenseVoice",
     "GalTransl/GalTransl",
     "geotiffjs/geotiff.js",
     "gildas-lormeau/zip.js",
@@ -122,7 +119,6 @@
     "safetensors/safetensors",
     "seancorfield/honeysql",
     "speaches-ai/speaches",
-    "strob/gentle",
     "sveltejs/devalue",
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",
@@ -133,8 +129,6 @@
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
     "ultrajson/ultrajson",
-    "unplugin/unplugin-vue-components",
-    "Urigo/graphql-cli",
     "vale-cli/vale",
     "vercel/serve",
     "vuejs/devtools",

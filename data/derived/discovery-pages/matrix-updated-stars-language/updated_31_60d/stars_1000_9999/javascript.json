@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4031,
-    "concepts": 804,
-    "observations": 805,
-    "repos": 108,
-    "terms": 799
+    "components": 3950,
+    "concepts": 792,
+    "observations": 793,
+    "repos": 105,
+    "terms": 786
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -27,12 +27,10 @@
     "Automattic/juice",
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
-    "brunch/brunch",
     "carbon-design-system/carbon",
     "chaijs/chai",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
-    "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "dotenvx/dotenvx",
     "eslint/js",
@@ -94,7 +92,6 @@
     "release-it/release-it",
     "reZach/secure-electron-template",
     "RisingStack/react-easy-state",
-    "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "sindresorhus/np",
     "stdlib-js/stdlib",

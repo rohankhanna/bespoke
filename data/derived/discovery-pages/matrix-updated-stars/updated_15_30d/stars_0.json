@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 28,
+    "components": 13,
     "concepts": 4,
     "observations": 4,
-    "repos": 3,
+    "repos": 2,
     "terms": 4
   },
   "facet_version": 1,
@@ -11,10 +11,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "kleisauke/glib",
-    "locize/locize-i18next-vue-example",
     "mayocream/candle"
   ]
 }

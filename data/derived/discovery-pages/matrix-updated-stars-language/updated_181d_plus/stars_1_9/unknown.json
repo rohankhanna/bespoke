@@ -3,7 +3,7 @@
     "components": 138,
     "concepts": 187,
     "observations": 187,
-    "repos": 203,
+    "repos": 204,
     "terms": 185
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -196,6 +196,7 @@
     "TigerResearch/MedCT",
     "TMElyralab/diffusers",
     "travis-infrastructure/packer-build",
+    "Triang-jyed-driung/Albatross",
     "UBC-NLP/Cheetah",
     "UBC-NLP/Toucan",
     "usegalaxy-eu/cvmfs-example",

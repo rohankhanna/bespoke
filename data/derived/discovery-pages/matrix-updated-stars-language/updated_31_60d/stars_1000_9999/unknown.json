@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 53,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 31,
-    "terms": 161
+    "concepts": 159,
+    "observations": 159,
+    "repos": 30,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
@@ -23,7 +23,6 @@
     "dotnet/docs",
     "Efficient-ML/Awesome-Model-Quantization",
     "ephtracy/voxel-model",
-    "FasterXML/jackson",
     "flathub/flathub",
     "github/rest-api-description",
     "godotengine/awesome-godot",

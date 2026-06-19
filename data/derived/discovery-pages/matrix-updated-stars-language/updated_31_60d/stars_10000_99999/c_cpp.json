@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 855,
+    "components": 836,
     "concepts": 1132,
     "observations": 1136,
-    "repos": 104,
-    "terms": 1136
+    "repos": 103,
+    "terms": 1126
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "abseil/abseil-cpp",
@@ -99,7 +99,6 @@
     "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
     "PointCloudLibrary/pcl",
-    "px4/px4-autopilot",
     "qemu/qemu",
     "qmk/qmk_firmware",
     "raysan5/raylib",

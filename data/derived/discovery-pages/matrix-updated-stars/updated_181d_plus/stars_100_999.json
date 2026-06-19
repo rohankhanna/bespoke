@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15953,
-    "concepts": 14517,
-    "observations": 14545,
-    "repos": 4733,
-    "terms": 14289
+    "components": 15977,
+    "concepts": 14541,
+    "observations": 14569,
+    "repos": 4739,
+    "terms": 14313
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -801,6 +801,7 @@
     "burningwave/core",
     "BurntSushi/cargo-benchcmp",
     "BurntSushi/critcmp",
+    "BurntSushi/rebar",
     "BurntSushi/rust-snappy",
     "BurntSushi/suffix",
     "BurntSushi/tabwriter",
@@ -1260,6 +1261,7 @@
     "declare-lab/jamify",
     "declare-lab/LLM-PuzzleTest",
     "declare-lab/red-instruct",
+    "Deep-Symmetry/afterglow",
     "Deep-Symmetry/beat-link",
     "Deep-Symmetry/beat-link-trigger",
     "Deep-Symmetry/bytefield-svg",
@@ -1671,6 +1673,7 @@
     "feizc/DiS",
     "FelikZ/ctrlp-py-matcher",
     "felixge/node-combined-stream",
+    "fengari-lua/fengari-interop",
     "fengari-lua/fengari-web",
     "feralvam/easse",
     "feross/simple-get",
@@ -3590,6 +3593,7 @@
     "pharmbio/sciluigi",
     "Phhofm/models",
     "philgras/neural-head-avatars",
+    "phillbaker/capybara-mechanize",
     "philoskim/debux",
     "philres/ngmlr",
     "phodal/shire",
@@ -3891,6 +3895,7 @@
     "rust-windowing/gl-rs",
     "rust3ds/ctru-rs-old",
     "RustAudio/lewton",
+    "rusticstuff/simdutf8",
     "RustPython/Parser",
     "rustwasm/console_error_panic_hook",
     "rustwasm/wasm-pack-template",
@@ -3953,6 +3958,7 @@
     "Sea-Snell/JAXSeq",
     "SeanNaren/warp-ctc",
     "searxng/searx-space",
+    "seattlerb/ruby_parser",
     "sebelga/gstore-node",
     "sebgao/LIP",
     "segeljakt/vim-silicon",

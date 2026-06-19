@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1585,
-    "concepts": 1079,
-    "observations": 1086,
-    "repos": 173,
-    "terms": 1072
+    "components": 1559,
+    "concepts": 1066,
+    "observations": 1072,
+    "repos": 169,
+    "terms": 1059
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -22,7 +22,6 @@
     "actix/actix-net",
     "agentclientprotocol/rust-sdk",
     "Ai00-X/ai00_server",
-    "ajrcarey/pdfium-render",
     "akiomik/mado",
     "alexcrichton/ssh2-rs",
     "alloy-rs/svm-rs",
@@ -68,7 +67,6 @@
     "diwic/dbus-rs",
     "djkoloski/rust_serialization_benchmark",
     "dprint/dprint-plugin-typescript",
-    "dtolnay/proc-macro2",
     "duckdb/duckdb-rs",
     "eigenwallet/core",
     "eitsupi/arf",
@@ -152,7 +150,6 @@
     "rust-lang/compiler-builtins",
     "rust-lang/pkg-config-rs",
     "rust-lang/rustc-perf",
-    "rust-lang/rustwide",
     "rust-lang/socket2",
     "rust-lang/stdarch",
     "rust-lang/team",
@@ -175,7 +172,6 @@
     "trifectatechfoundation/zlib-rs",
     "typst/packages",
     "udoprog/genco",
-    "untitaker/hyperlink",
     "utilityai/llama-cpp-rs",
     "vectordotdev/vrl",
     "Watfaq/PowerSession-rs",

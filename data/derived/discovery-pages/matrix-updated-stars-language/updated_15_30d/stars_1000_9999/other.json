@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 317,
-    "concepts": 255,
-    "observations": 257,
-    "repos": 29,
-    "terms": 255
+    "components": 309,
+    "concepts": 244,
+    "observations": 246,
+    "repos": 28,
+    "terms": 244
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
-    "andymass/vim-matchup",
     "babashka/babashka",
     "babashka/sci",
     "beam-community/elixir-companies",

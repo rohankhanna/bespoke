@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1609,
-    "concepts": 256,
-    "observations": 256,
-    "repos": 53,
-    "terms": 286
+    "components": 1695,
+    "concepts": 270,
+    "observations": 270,
+    "repos": 57,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
     "actions/download-artifact",
+    "antfu-collective/vite-ssg",
     "antfu-collective/vitesse",
     "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
@@ -28,11 +29,14 @@
     "flightcontrolhq/superjson",
     "glimmerjs/glimmer-vm",
     "google/gts",
+    "gustavoguichard/string-ts",
     "improbable-eng/ts-protoc-gen",
     "infinitered/nsfwjs",
+    "Ironclad/rivet",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",
+    "josStorer/RWKV-Runner",
     "jupyter-widgets/ipyleaflet",
     "lobehub/lobe-chat-agents",
     "metatool-ai/metamcp",

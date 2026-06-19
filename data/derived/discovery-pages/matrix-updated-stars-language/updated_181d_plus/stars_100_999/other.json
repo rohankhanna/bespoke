@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2402,
-    "concepts": 3209,
-    "observations": 3216,
-    "repos": 1003,
-    "terms": 3190
+    "components": 2414,
+    "concepts": 3216,
+    "observations": 3223,
+    "repos": 1006,
+    "terms": 3197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -283,6 +283,7 @@
     "davidavdav/NamedArrays.jl",
     "day8/re-frame-test",
     "decaporg/one-click-hugo-cms",
+    "Deep-Symmetry/afterglow",
     "Deep-Symmetry/beat-link-trigger",
     "Deep-Symmetry/bytefield-svg",
     "deepdialog/CPM-LM-TF2",
@@ -767,6 +768,7 @@
     "petercorke/RVC3-python",
     "petercorke/spatialmath-matlab",
     "pgmpy/pgmpy_tutorials",
+    "phillbaker/capybara-mechanize",
     "philoskim/debux",
     "phodal/shire",
     "pirapira/eth-isabelle",
@@ -851,6 +853,7 @@
     "schasse/tmux-jump",
     "schell/steeloverseer",
     "SeanNaren/warp-ctc",
+    "seattlerb/ruby_parser",
     "segeljakt/vim-silicon",
     "shaunsingh/nord.nvim",
     "Shopify/better-html",

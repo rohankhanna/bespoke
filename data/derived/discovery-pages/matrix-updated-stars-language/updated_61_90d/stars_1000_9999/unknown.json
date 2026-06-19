@@ -1,8 +1,8 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 35,
-    "observations": 35,
+    "concepts": 37,
+    "observations": 37,
     "repos": 17,
     "terms": 37
   },
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "android/skills",
     "bbatsov/clojure-style-guide",
     "bbatsov/emacs-lisp-style-guide",
     "behisecc/awesome-claude-skills",
-    "devcontainers/spec",
     "esbatmop/MNBVC",
+    "FasterXML/jackson",
     "FuelLabs/fuel-specs",
     "FunnyWolf/Viper",
     "libp2p/libp2p",

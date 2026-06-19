@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 268,
-    "concepts": 221,
-    "observations": 221,
-    "repos": 72,
-    "terms": 221
+    "components": 262,
+    "concepts": 213,
+    "observations": 213,
+    "repos": 69,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "Aayushm24/presidential-briefing",
@@ -40,12 +40,10 @@
     "cosmos/security",
     "curiousdannii/emglken",
     "CVEProject/cve-user-registry-client",
-    "cyber404/che-apple-mail-mcp",
     "dotenvx/homebrew-brew",
     "enbop/fungi-app",
     "fern-api/docs",
     "flagos-ai/flir",
-    "floxym/financial-chat-finance-nlp-chatbots",
     "fluent-vue/examples",
     "fredrikekre/runic-pre-commit",
     "googleapis/google-cloud-php-compute",
@@ -63,7 +61,6 @@
     "JuliaCI/julia-buildkite",
     "JuliaCI/rootfs-images",
     "KhronosGroup/KTX-Software-CTS",
-    "KnotUntied/scoop-fonts",
     "lahma/test262-harness-dotnet",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",

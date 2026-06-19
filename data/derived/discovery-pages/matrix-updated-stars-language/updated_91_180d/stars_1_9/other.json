@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 129,
-    "observations": 129,
+    "components": 180,
+    "concepts": 132,
+    "observations": 132,
     "repos": 54,
-    "terms": 126
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "abap2UI5-addons/table-maintenance",
@@ -22,6 +22,7 @@
     "appbaseio/reactivesearch-api-docker",
     "arya-s/phantty",
     "aspect-build/rules_jasmine",
+    "ATProtoKit/MultiformatsKit",
     "baskeboler/clj-karaoke-lyrics",
     "countries/countries-data-yaml",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
@@ -39,7 +40,6 @@
     "ihmcrobotics/ihmc-build",
     "jgpc42/jmh-clojure-task",
     "joeldrapper/dispersion",
-    "JuliaAI/LearnDataFrontEnds.jl",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
     "Jumziey/neotest-nix-unit.nvim",

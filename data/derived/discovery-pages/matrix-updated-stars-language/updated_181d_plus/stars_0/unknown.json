@@ -3,7 +3,7 @@
     "components": 233,
     "concepts": 112,
     "observations": 112,
-    "repos": 133,
+    "repos": 132,
     "terms": 112
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -126,7 +126,6 @@
     "praw-dev/.github",
     "QuantuMope/GroundingDINO",
     "radashi-org/radashi-canary",
-    "rasahq/pytest-sanic",
     "redis-om/redis-om-dotnet",
     "retracedhq/docs",
     "robin1001/qr",

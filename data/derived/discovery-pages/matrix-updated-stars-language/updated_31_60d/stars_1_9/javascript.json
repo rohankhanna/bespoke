@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1290,
-    "concepts": 631,
-    "observations": 634,
-    "repos": 56,
-    "terms": 629
+    "components": 1223,
+    "concepts": 588,
+    "observations": 591,
+    "repos": 51,
+    "terms": 585
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "alphagov/stylelint-config-gds",
     "angular/angular-devkit-architect-builds",
     "angular/dev-infra-private-ng-dev-builds",
-    "anojndr/grok-to-openai",
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",
@@ -26,7 +25,6 @@
     "eea/eea-website-frontend",
     "eea/fise-frontend",
     "fontsource/download-stat-aggregator",
-    "gauravrathod674/custom-chatbot",
     "ioBroker/plugin-sentry",
     "j9t/compressorjs-next",
     "j9t/htaccess-punk",
@@ -54,8 +52,6 @@
     "stdlib-js/array-uint8",
     "stdlib-js/array-uint8c",
     "stdlib-js/buffer-ctor",
-    "stdlib-js/complex-cmplx",
-    "stdlib-js/complex-float32-reviver",
     "stdlib-js/complex-float64-reviver",
     "stdlib-js/complex-reviver",
     "stdlib-js/math-base-special-erf",
@@ -67,7 +63,6 @@
     "stdlib-js/ndarray-orders",
     "stdlib-js/proxy-ctor",
     "stdlib-js/repl",
-    "stealabra5019/grok-enhancer",
     "thetutlage/static",
     "travi/octokit-auth-netrc"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 844,
-    "concepts": 254,
-    "observations": 254,
+    "components": 815,
+    "concepts": 251,
+    "observations": 251,
     "repos": 68,
-    "terms": 254
+    "terms": 251
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -22,7 +22,6 @@
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
-    "brody2consult/react-native-module-init",
     "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
     "csstree/stylelint-validator",
@@ -56,6 +55,7 @@
     "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
+    "itsrishika/payment-bypass-bug-lab",
     "Jack-Works/react-refresh-transformer",
     "jasmine/jasmine-browser-runner",
     "kddnewton/prettier-plugin-ini",

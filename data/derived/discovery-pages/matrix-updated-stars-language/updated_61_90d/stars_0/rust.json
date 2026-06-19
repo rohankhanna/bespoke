@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 36,
-    "observations": 36,
+    "components": 117,
+    "concepts": 31,
+    "observations": 31,
     "repos": 23,
-    "terms": 44
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
+    "aipurposes1587-max/weixin-agent-rs",
     "arckoor/botan-rs",
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
@@ -35,7 +36,6 @@
     "PrimeIntellect-ai/router",
     "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
-    "ueno/podman-sequoia",
-    "vaporif/rvx"
+    "ueno/podman-sequoia"
   ]
 }

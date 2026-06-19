@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 128,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 11,
-    "terms": 72
+    "concepts": 69,
+    "observations": 69,
+    "repos": 10,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "dwyl/mvp",
     "f3liz-casa/noraneko",
@@ -21,7 +21,6 @@
     "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-opentelemetry",
     "pivotal/credhub-release",
     "python-poetry/website"

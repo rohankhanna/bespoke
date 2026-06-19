@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 859,
-    "concepts": 181,
-    "observations": 181,
-    "repos": 35,
-    "terms": 186
+    "components": 584,
+    "concepts": 174,
+    "observations": 174,
+    "repos": 29,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
     "anolilab/unplugin-favicons",
-    "birdofpreyru/react-starter",
-    "birdofpreyru/react-utils",
     "breferrari/shardmind",
     "csm-actions/update-branch-action",
     "dreamiurg/mountaineers-mcp",
     "dreamscached/i18next-cli-plugin-svelte",
     "dydxprotocol/v4-localization",
     "ecyrbe/zodios-plugins",
-    "enxs969/skiller",
     "filecoin-project/github-mgmt",
     "fluent-vue/unplugin-fluent-vue",
     "haskell-actions/hlint-run",
@@ -33,8 +30,6 @@
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
-    "kimosahy/railroaded",
-    "klodr/mercury-invoicing-mcp",
     "multiformats/github-mgmt",
     "nicolo-ribaudo/engine262",
     "oclif/plugin-commands",
@@ -44,7 +39,6 @@
     "octokit/auth-unauthenticated.js",
     "redhat-developer/app-services-api-guidelines",
     "rstackjs/rsbuild-plugin-i18next-extractor",
-    "saminiscool/twitter-ai-agent",
     "sass/sync-child-process",
     "sass/sync-message-port",
     "suzuki-shunsuke/release-js-action",

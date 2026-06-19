@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1893,
-    "concepts": 1108,
-    "observations": 1112,
-    "repos": 255,
-    "terms": 1110
+    "components": 1854,
+    "concepts": 1080,
+    "observations": 1084,
+    "repos": 249,
+    "terms": 1076
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -47,7 +47,6 @@
     "atsushieno/compose-audio-controls",
     "atsushieno/mugene-ng",
     "atsushieno/resident-midi-keyboard",
-    "avikeid2007/KaiROS-AI",
     "aws-otel/aws-otel.github.io",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
@@ -56,7 +55,6 @@
     "babashka/babashka.nrepl",
     "bazel-contrib/rules_d",
     "be-hase/caffeine-coroutines",
-    "beyondcode/claude-hooks-sdk",
     "bladeacer/flexcyon",
     "brave-intl/publishers",
     "browniebroke/pypackage-template",
@@ -97,7 +95,6 @@
     "emacsmirror/epkgs",
     "emibcn/badge-action",
     "erlef/website",
-    "ethpandaops/xatu-data",
     "etiennestuder/gradle-rocker-plugin",
     "FactoryXCode/MfPack",
     "fern-api/docs-starter",
@@ -133,7 +130,6 @@
     "Humans-of-Julia/BibParser.jl",
     "IBM/hello-carbon-vue3",
     "ibmruntimes/zoslib",
-    "inhere/kite",
     "ipfs/distributions",
     "jfmengels/node-elm-review",
     "jgm/djot.lua",
@@ -142,7 +138,6 @@
     "JuliaAI/LearnAPI.jl",
     "JuliaArrays/StaticArrayInterface.jl",
     "JuliaArrays/StaticArraysCore.jl",
-    "JuliaCI/BaseBenchmarks.jl",
     "JuliaCI/Nanosoldier.jl",
     "JuliaCI/NanosoldierReports",
     "JuliaClimate/CDSAPI.jl",
@@ -191,6 +186,7 @@
     "nodenv/homebrew-nodenv",
     "NVIDIA/DALI_extra",
     "NVIDIA/spark-rapids-tools",
+    "nvim-mini/mini.deps",
     "ocaml-tracing/ocaml-trace",
     "ocaml-tracing/ocaml-tracy",
     "ocurrent/docker-base-images",
@@ -228,7 +224,6 @@
     "ruby/mspec",
     "ruby/ruby-builder",
     "ruby/ruby-dev-builder",
-    "rust-lang-ru/rust-by-example",
     "saghen/blink.lib",
     "SAP/abap-file-formats",
     "SAP/abap-file-formats-tools",
@@ -255,7 +250,6 @@
     "status-im/nim-ssz-serialization",
     "tc39/proposal-amount",
     "TEN-framework/portal",
-    "thedoggybrad/easylist-mirror",
     "theseyan/lmdbx-zig",
     "tinted-theming/tinted-xresources",
     "triton-inference-server/fil_backend",

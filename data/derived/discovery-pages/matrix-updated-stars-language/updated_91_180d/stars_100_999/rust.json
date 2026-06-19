@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 394,
-    "concepts": 293,
-    "observations": 295,
+    "components": 404,
+    "concepts": 284,
+    "observations": 286,
     "repos": 72,
-    "terms": 291
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -45,6 +45,7 @@
     "kata-containers/cgroups-rs",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
+    "lambdaclass/lambdaworks",
     "lquerel/gcp-bigquery-client",
     "LukasKalbertodt/libtest-mimic",
     "Manishearth/triomphe",
@@ -67,7 +68,6 @@
     "rust-lang/rfcbot-rs",
     "rust-native-tls/rust-native-tls",
     "rust3ds/ctru-rs",
-    "rusticstuff/simdutf8",
     "sagiegurari/duckscript",
     "scopedb/percas",
     "servo/rust-cssparser",

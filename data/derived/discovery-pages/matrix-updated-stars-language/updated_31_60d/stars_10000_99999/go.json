@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1481,
-    "concepts": 1412,
-    "observations": 1418,
-    "repos": 110,
-    "terms": 1403
+    "components": 1449,
+    "concepts": 1353,
+    "observations": 1359,
+    "repos": 106,
+    "terms": 1345
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -26,7 +26,6 @@
     "argoproj/argo-workflows",
     "asdf-vm/asdf",
     "authelia/authelia",
-    "Billionmail/BillionMail",
     "bufbuild/buf",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
@@ -43,12 +42,10 @@
     "coredns/coredns",
     "dagger/dagger",
     "dexidp/dex",
-    "dgraph-io/badger",
     "dgraph-io/dgraph",
     "distribution/distribution",
     "DNSCrypt/dnscrypt-proxy",
     "docker/compose",
-    "dolthub/dolt",
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
@@ -84,7 +81,6 @@
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
     "joewalnes/websocketd",
-    "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",
     "kubernetes/kops",

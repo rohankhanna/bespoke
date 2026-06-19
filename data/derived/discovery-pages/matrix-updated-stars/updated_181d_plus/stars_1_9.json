@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5576,
-    "concepts": 2015,
-    "observations": 2018,
-    "repos": 1419,
-    "terms": 2011
+    "components": 5587,
+    "concepts": 2023,
+    "observations": 2026,
+    "repos": 1422,
+    "terms": 2019
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -850,6 +850,7 @@
     "jruby/ruby-maven",
     "jtdaugherty/vty-crossplatform",
     "jtdaugherty/vty-unix",
+    "JuliaAI/LearnDataFrontEnds.jl",
     "JuliaBinaryWrappers/Zstd_jll.jl",
     "JuliaComputing/Registrator.jl",
     "JuliaML/MLCore.jl",
@@ -1013,6 +1014,7 @@
     "medialab/corpora",
     "medplum/medplum-logo",
     "meelgroup/frat-xor",
+    "Mercury13/utranslator",
     "meteoswiss-mdr/pyart",
     "meteoswiss/pyrad-examples",
     "mhdawson/node-sqlite3",
@@ -1348,6 +1350,7 @@
     "travis-ci/job-board",
     "travis-ci/travis-packer-build",
     "travis-infrastructure/packer-build",
+    "Triang-jyed-driung/Albatross",
     "triton-inference-server/contrib",
     "tritondatacenter/node-cmdutil",
     "turbofish-org/abci2",

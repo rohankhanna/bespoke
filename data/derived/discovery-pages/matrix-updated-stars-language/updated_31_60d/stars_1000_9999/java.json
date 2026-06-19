@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 670,
-    "concepts": 838,
-    "observations": 839,
-    "repos": 83,
-    "terms": 834
+    "components": 668,
+    "concepts": 835,
+    "observations": 836,
+    "repos": 82,
+    "terms": 831
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "agents-flex/agents-flex",
@@ -63,7 +63,6 @@
     "hazelcast/hazelcast",
     "iterate-ch/cyberduck",
     "java-native-access/jna",
-    "jboss-javassist/javassist",
     "JetBrains/JetBrainsRuntime",
     "jhipster/prettier-java",
     "jline/jline3",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 447,
-    "concepts": 522,
-    "observations": 522,
-    "repos": 69,
-    "terms": 520
+    "components": 440,
+    "concepts": 518,
+    "observations": 518,
+    "repos": 68,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -24,11 +24,11 @@
     "Apicurio/apicurio-registry",
     "aws-powertools/powertools-lambda-java",
     "aws/smithy-go",
+    "bazel-contrib/rules_jvm_external",
     "beehive-lab/GPULlama3.java",
     "bndtools/bnd",
     "confluentinc/kafka-streams-examples",
     "connectbot/sshlib",
-    "Cosium/git-code-format-maven-plugin",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lemminx/lemminx",
     "eclipse-lsp4j/lsp4j",
@@ -57,7 +57,6 @@
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/Generative-AI-for-beginners-java",
-    "microsoft/java-debug",
     "microsoft/LangChain4j-for-Beginners",
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",

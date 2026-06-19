@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 695,
-    "concepts": 447,
-    "observations": 449,
-    "repos": 123,
-    "terms": 454
+    "components": 646,
+    "concepts": 443,
+    "observations": 445,
+    "repos": 119,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -47,16 +47,13 @@
     "bufbuild/protovalidate-python",
     "caketop/python-starlark-go",
     "carstencodes/pdm-bump",
-    "carstencodes/simplepycons",
     "castorini/anserini-tools",
     "channel-io/ch-tts-llasa-rl-grpo",
-    "chengzhag/PanFlow",
     "cloudfoundry/community",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-pinning-feedstock",
     "conda-forge/conda-forge-repodata-patches-feedstock",
     "conservationtechlab/animl-py",
-    "costiash/claude-code-docs",
     "crs4/rocrate-validator",
     "DanielNoord/pydocstringformatter",
     "datajuicer/data-juicer-agents",
@@ -70,6 +67,7 @@
     "flagos-ai/vllm-plugin-FL",
     "GaloisInc/BLST-Verification",
     "gentoo/api-gentoo-org",
+    "google-marketing-solutions/ariel",
     "google-research/mseb",
     "goombalab/raven",
     "gordon-code/cuid2",
@@ -77,7 +75,6 @@
     "GreptimeTeam/demo-scene",
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
-    "higlass/clodius",
     "Hiroshiba/voicevox_engine",
     "HKU-BAL/ClairS-TO",
     "instadeepai/fastpbrl",
@@ -123,7 +120,6 @@
     "scipy/scipy-stubs",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
-    "sliamh11/deus",
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
     "symgraph/BinAssistMCP",

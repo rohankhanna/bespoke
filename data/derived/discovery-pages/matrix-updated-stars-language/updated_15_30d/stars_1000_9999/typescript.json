@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 776,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 18,
-    "terms": 114
+    "components": 715,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 16,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "alichherawalla/off-grid-mobile-ai",
@@ -27,8 +27,6 @@
     "safe-fndn/safe-smart-account",
     "TanStack/form",
     "typescript-language-server/typescript-language-server",
-    "unplugin/unplugin-vue-components",
-    "Urigo/graphql-cli",
     "vercel/serve",
     "vuejs/devtools",
     "vuejs/language-tools"

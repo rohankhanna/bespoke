@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 23,
-    "terms": 92
+    "components": 98,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 19,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman-js",
     "atsushieno/midicci",
@@ -25,13 +25,9 @@
     "DavidKinder/inform",
     "eddelbuettel/r2u-builder",
     "Evilpasture/Culverin",
-    "gbrobro119-star/darksword-kexploit",
     "grizzlypeak3d/feather-tk",
-    "lonewolf-jp/convopeq",
-    "openssh/openssh-portable-selfhosted",
     "ROCm/rocJPEG",
     "skeeto/aas-sign",
-    "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "vincentlaucsb/classify_scalar",
     "vovkos/axl",

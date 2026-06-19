@@ -3,7 +3,7 @@
     "components": 1290,
     "concepts": 5762,
     "observations": 5767,
-    "repos": 1918,
+    "repos": 1919,
     "terms": 5594
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -314,6 +314,7 @@
     "bubbliiiing/yolov7-tiny-pytorch",
     "bubbliiiing/yolox-pytorch",
     "buptlihang/CDLA",
+    "BurntSushi/rebar",
     "bytedance/ATI",
     "bytedance/GR-1",
     "bytedance/lynx-llm",

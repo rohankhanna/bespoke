@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 380,
-    "observations": 383,
+    "components": 510,
+    "concepts": 415,
+    "observations": 418,
     "repos": 73,
-    "terms": 388
+    "terms": 423
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -21,24 +21,23 @@
     "apache/dubbo-go-pixiu",
     "argoproj-labs/argo-rollouts-manager",
     "aws/aws-app-mesh-controller-for-k8s",
-    "aws/aws-xray-daemon",
     "aws/credentials-fetcher",
     "bernardo-bruning/ollama-copilot",
     "bitrise-io/envman",
     "bluesky-social/goat",
     "bradleyfalzon/ghinstallation",
     "broderick-westrope/tetrigo",
-    "cedar-policy/cedar-go",
+    "ByteNess/aws-vault",
     "celo-org/celo-blockchain",
     "charmbracelet/colorprofile",
     "ChristopherHX/github-act-runner",
-    "chromedp/chromedp-proxy",
     "cloudfoundry/gosigar",
     "coder/code-marketplace",
     "coder/envbuilder",
     "connectrpc/validate-go",
     "cosmos/iavl",
     "darkweak/souin",
+    "dependabot/cli",
     "devgianlu/go-librespot",
     "docker-library/bashbrew",
     "ekalinin/github-markdown-toc.go",
@@ -52,7 +51,6 @@
     "go-viper/mapstructure",
     "google/triage-party",
     "google/trillian-examples",
-    "gopacket/gopacket",
     "gpustack/gguf-parser-go",
     "hashicorp/errwrap",
     "hashicorp/go-discover",
@@ -62,8 +60,10 @@
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
     "jaegertracing/jaeger-idl",
+    "JupiterRider/ffi",
     "kubeflow/mpi-operator",
     "kubernetes-sigs/boskos",
+    "kubernetes-sigs/controller-tools",
     "kubernetes-sigs/hydrophone",
     "kubernetes/cri-api",
     "Layr-Labs/eigenda",
@@ -73,7 +73,6 @@
     "mattn/go-runewidth",
     "microsoft/cognitive-services-speech-sdk-go",
     "minio/directpv",
-    "minio/highwayhash",
     "notaryproject/notation",
     "open-telemetry/opentelemetry-collector-releases",
     "phiat/claude-esp",
@@ -85,7 +84,8 @@
     "skenetechnologies/skene",
     "slsa-framework/slsa-github-generator",
     "stefanlogue/meteor",
-    "stretchr/objx",
+    "terraform-linters/tflint-ruleset-aws",
+    "terraform-linters/tflint-ruleset-azurerm",
     "usbarmory/GoTEE"
   ]
 }

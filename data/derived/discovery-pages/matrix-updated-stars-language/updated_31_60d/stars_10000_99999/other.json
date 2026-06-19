@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2031,
-    "concepts": 1406,
-    "observations": 1410,
-    "repos": 137,
-    "terms": 1402
+    "components": 1600,
+    "concepts": 1379,
+    "observations": 1383,
+    "repos": 133,
+    "terms": 1368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -96,7 +96,7 @@
     "mason-org/mason.nvim",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "mdn/content",
-    "metabase/metabase",
+    "meta-llama/llama-cookbook",
     "microsoft/ai-agents-for-beginners",
     "microsoft/fluentui-system-icons",
     "microsoft/mcp-for-beginners",
@@ -116,17 +116,14 @@
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
-    "oven-sh/bun",
     "phoenixframework/phoenix",
     "phpstan/phpstan",
     "PowerShell/PowerShell",
     "rails/rails",
     "rapid7/metasploit-framework",
-    "realm/SwiftLint",
     "rubocop/rubocop",
     "ruby/ruby",
     "saadeghi/daisyui",
-    "SaschaWillems/Vulkan",
     "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
@@ -144,7 +141,6 @@
     "syl20bnr/spacemacs",
     "symfony/symfony",
     "tc39/ecma262",
-    "teamcapybara/capybara",
     "tiann/KernelSU",
     "topjohnwu/Magisk",
     "vim-airline/vim-airline",

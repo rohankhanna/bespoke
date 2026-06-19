@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 1211,
-    "concepts": 620,
-    "observations": 622,
-    "repos": 99,
-    "terms": 618
+    "components": 1169,
+    "concepts": 606,
+    "observations": 607,
+    "repos": 95,
+    "terms": 604
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-18T08:16:47.991956+00:00",
+  "generated_at": "2026-06-19T06:18:47.854444+00:00",
   "repo_ids": [
-    "0no-co/wonka",
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "abaplint/transpiler",
@@ -29,7 +28,6 @@
     "attackgoat/vk-graph",
     "aws-cloudformation/cfn-lint-visual-studio-code",
     "babashka/nbb",
-    "bazel-contrib/rules_jvm_external",
     "bazel-contrib/rules_kotlin",
     "betterleaks/betterleaks",
     "beve-org/beve",
@@ -69,7 +67,6 @@
     "jupyter-server/jupyter_server",
     "jupyter/nbclassic",
     "karafka/rdkafka-ruby",
-    "lambdalisue/vim-nerdfont",
     "lbcb-sci/herro",
     "ldproxy/ldproxy",
     "LuaLS/vscode-lua",
@@ -81,7 +78,6 @@
     "NCAS-CMS/pyfive",
     "nginx-le/nginx-le",
     "NVlabs/trajdata",
-    "openbsd/ports",
     "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
     "preactjs/preact-devtools",
