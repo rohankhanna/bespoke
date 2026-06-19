@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3593,
-    "concepts": 2563,
-    "observations": 2567,
-    "repos": 416,
-    "terms": 2552
+    "components": 3541,
+    "concepts": 2529,
+    "observations": 2533,
+    "repos": 410,
+    "terms": 2518
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -136,7 +136,6 @@
     "elixir-image/image",
     "elsa-workflows/elsa-studio",
     "emacs-ess/ESS",
-    "emacs-tree-sitter/tree-sitter-langs",
     "emacscollective/borg",
     "ePages-de/restdocs-api-spec",
     "Erikvl87/docker-languagetool",
@@ -168,7 +167,6 @@
     "grafana-community/helm-charts",
     "grafana/jsonnet-libs",
     "grafana/k8s-monitoring-helm",
-    "gregorias/coerce.nvim",
     "gregorias/coop.nvim",
     "GreptimeTeam/dashboard",
     "groundhog2k/helm-charts",
@@ -221,7 +219,6 @@
     "JuliaDebug/Cthulhu.jl",
     "JuliaDebug/Infiltrator.jl",
     "JuliaDiff/ChainRules.jl",
-    "JuliaDiff/ChainRulesCore.jl",
     "JuliaDiff/ForwardDiff.jl",
     "JuliaDocs/Documenter.jl",
     "JuliaFolds/BangBang.jl",
@@ -261,7 +258,6 @@
     "KulikDM/pythresh",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "kwent/pgbouncerhero",
-    "lambdaisland/deep-diff2",
     "lambdalisue/vim-nerdfont",
     "LibreChat-AI/librechat.ai",
     "libvips/build-win64-mxe",
@@ -309,7 +305,6 @@
     "nim-lang/langserver",
     "nix-community/haumea",
     "nix-community/nur-combined",
-    "nix-community/nur-packages-template",
     "NixOS/nixos-homepage",
     "NuGet/NuGet.Client",
     "NVIDIA/nvbench",
@@ -350,7 +345,6 @@
     "r-lib/usethis",
     "radian-software/apheleia",
     "rafaqz/DimensionalData.jl",
-    "rafaqz/Rasters.jl",
     "rake-compiler/rake-compiler-dock",
     "rapideditor/country-coder",
     "rapideditor/temaki",

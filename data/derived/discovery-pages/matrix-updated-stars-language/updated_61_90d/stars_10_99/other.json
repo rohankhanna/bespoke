@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 730,
-    "concepts": 502,
-    "observations": 503,
-    "repos": 157,
-    "terms": 508
+    "components": 745,
+    "concepts": 510,
+    "observations": 511,
+    "repos": 160,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -109,11 +109,13 @@
     "jeffzi/llscheck",
     "JuliaCI/BaseBenchmarks.jl",
     "JuliaCI/PkgEval.jl",
+    "JuliaGenAI/HuggingFaceDatasets.jl",
     "JuliaGeo/GDAL.jl",
     "JuliaGPU/juliagpu.org",
     "JuliaGraphics/ColorVectorSpace.jl",
     "JuliaPy/MicroMamba.jl",
     "JuliaStats/StatsAPI.jl",
+    "jupyterlab/extension-template",
     "jupyterlite/xeus",
     "kalbasit/nur-packages",
     "kbenzie/vim-spirv",
@@ -122,6 +124,7 @@
     "lewis6991/async.nvim",
     "logseq/og",
     "luau-lang/site",
+    "lxqt/lxqt-build-tools",
     "m87-labs/moondream-examples",
     "marbl/T2T-Browser",
     "metosin/ring-swagger-ui",

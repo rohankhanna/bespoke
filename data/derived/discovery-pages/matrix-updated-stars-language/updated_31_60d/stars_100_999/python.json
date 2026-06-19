@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1882,
-    "concepts": 1758,
-    "observations": 1765,
-    "repos": 305,
-    "terms": 1749
+    "components": 1880,
+    "concepts": 1744,
+    "observations": 1751,
+    "repos": 302,
+    "terms": 1735
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aboutcode-org/scancode.io",
@@ -82,7 +82,6 @@
     "CERTCC/SSVC",
     "chaoss/grimoirelab-perceval",
     "chengzhag/UCPE",
-    "ClementPinard/Pytorch-Correlation-extension",
     "cognizant-ai-lab/neuro-san",
     "cognizant-ai-lab/neuro-san-studio",
     "ComparativeGenomicsToolkit/cactus",
@@ -222,7 +221,6 @@
     "NVIDIA/nvidia-resiliency-ext",
     "ogx-ai/llama-stack-client-python",
     "ogx-ai/ogx-client-python",
-    "oh-my-ocr/text_renderer",
     "onnx/turnkeyml",
     "opea-project/GenAIComps",
     "open-telemetry/opentelemetry-cpp-contrib",
@@ -292,7 +290,6 @@
     "taylorwilsdon/open-webui-postgres-migration",
     "TextArena/TextArena",
     "thedatumorg/TSB-AD",
-    "TIGER-AI-Lab/VLM2Vec",
     "tox-dev/sphinx-autodoc-typehints",
     "triton-inference-server/client",
     "triton-inference-server/model_analyzer",

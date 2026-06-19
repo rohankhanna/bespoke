@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2393,
-    "concepts": 511,
-    "observations": 519,
-    "repos": 98,
-    "terms": 506
+    "components": 2386,
+    "concepts": 507,
+    "observations": 515,
+    "repos": 97,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -34,7 +34,6 @@
     "carbon-design-system/carbon-components-vue",
     "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
-    "ClickHouse/agent-skills",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
     "conventional-changelog/releaser-tools",

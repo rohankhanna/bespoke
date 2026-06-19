@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 846,
-    "concepts": 603,
-    "observations": 609,
-    "repos": 100,
-    "terms": 616
+    "components": 848,
+    "concepts": 604,
+    "observations": 610,
+    "repos": 101,
+    "terms": 617
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -99,6 +99,7 @@
     "rust-windowing/winit",
     "ruvnet/ruvector",
     "serde-rs/json",
+    "servo/html5ever",
     "servo/ipc-channel",
     "sharkdp/pastel",
     "smol-rs/smol",

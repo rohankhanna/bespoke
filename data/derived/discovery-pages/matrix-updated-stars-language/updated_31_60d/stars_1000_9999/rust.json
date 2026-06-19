@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1910,
-    "concepts": 1431,
-    "observations": 1436,
-    "repos": 176,
-    "terms": 1423
+    "components": 1908,
+    "concepts": 1430,
+    "observations": 1435,
+    "repos": 175,
+    "terms": 1422
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -165,7 +165,6 @@
     "rustsec/rustsec",
     "salsa-rs/salsa",
     "SeaQL/sea-orm",
-    "servo/html5ever",
     "servo/pathfinder",
     "sigp/lighthouse",
     "skim-rs/skim",

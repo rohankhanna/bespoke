@@ -3,14 +3,14 @@
     "components": 6161,
     "concepts": 2994,
     "observations": 3009,
-    "repos": 352,
+    "repos": 351,
     "terms": 2989
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "2U1/Qwen-VL-Series-Finetune",
@@ -214,7 +214,6 @@
     "matter-js/matter.js",
     "mayocream/candle",
     "mayocream/koharu",
-    "mesh-iit/cad-libraries",
     "meshcat-dev/meshcat",
     "meta-pytorch/captum",
     "meta-pytorch/tnt",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 106,
-    "observations": 108,
-    "repos": 22,
-    "terms": 110
+    "components": 86,
+    "concepts": 112,
+    "observations": 114,
+    "repos": 23,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "alrra/dotfiles",
+    "bblanchon/pdfium-binaries",
     "bluesky-social/pds",
     "clangd/clangd",
     "containers/toolbox",

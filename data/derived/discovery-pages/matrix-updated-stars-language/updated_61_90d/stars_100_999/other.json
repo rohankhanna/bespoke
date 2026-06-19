@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1726,
-    "concepts": 1410,
-    "observations": 1412,
-    "repos": 300,
-    "terms": 1430
+    "components": 1778,
+    "concepts": 1444,
+    "observations": 1446,
+    "repos": 306,
+    "terms": 1464
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -141,6 +141,7 @@
     "elixir-lang/elixir-lang.github.com",
     "elixir-sqlite/ecto_sqlite3",
     "emacs-rustic/rustic",
+    "emacs-tree-sitter/tree-sitter-langs",
     "enjoy-digital/usb3_pipe",
     "ethereum/beacon-APIs",
     "ethereum/builder-specs",
@@ -159,6 +160,7 @@
     "go-flutter-desktop/examples",
     "googleapis/google-cloud-php-storage",
     "GoogleCloudPlatform/vertex-ai-samples",
+    "gregorias/coerce.nvim",
     "hail2u/vim-css3-syntax",
     "harperreed/dotfiles",
     "HaxeFlixel/flixel-ui",
@@ -181,6 +183,7 @@
     "jsdoc/jsdoc.github.io",
     "jsonbored/claudepro-directory",
     "JuliaDebug/JuliaInterpreter.jl",
+    "JuliaDiff/ChainRulesCore.jl",
     "JuliaGeo/GeoInterface.jl",
     "JuliaImGui/CImGui.jl",
     "JuliaInterop/Clang.jl",
@@ -197,6 +200,7 @@
     "koenvzeijl/AspNetCore.SassCompiler",
     "kwn/php-rdkafka-stubs",
     "LAION-AI/laion.ai",
+    "lambdaisland/deep-diff2",
     "Layr-Labs/eigenlayer-contracts",
     "lerocha/netflixdb",
     "less/less-docs",
@@ -227,6 +231,7 @@
     "nacos-group/nacos-group.github.io",
     "nashamri/spacemacs-theme",
     "naver/anny",
+    "nix-community/nur-packages-template",
     "nodejs/build",
     "nrepl/nrepl",
     "nubank/matcher-combinators",
@@ -256,6 +261,7 @@
     "r-lib/styler",
     "r-spatial/stars",
     "radian-software/radian",
+    "rafaqz/Rasters.jl",
     "rails/execjs",
     "RDFLib/OWL-RL",
     "REditorSupport/languageserver",

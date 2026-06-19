@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4597,
-    "concepts": 2309,
-    "observations": 2317,
-    "repos": 639,
-    "terms": 2373
+    "components": 4675,
+    "concepts": 2321,
+    "observations": 2329,
+    "repos": 647,
+    "terms": 2385
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -408,6 +408,7 @@
     "JuergenFleiss/atrain_core",
     "JuliaCI/BaseBenchmarks.jl",
     "JuliaCI/PkgEval.jl",
+    "JuliaGenAI/HuggingFaceDatasets.jl",
     "JuliaGeo/GDAL.jl",
     "JuliaGPU/juliagpu.org",
     "JuliaGraphics/ColorVectorSpace.jl",
@@ -415,6 +416,7 @@
     "JuliaStats/StatsAPI.jl",
     "jupyter-xeus/xeus-lua",
     "jupyter/governance",
+    "jupyterlab/extension-template",
     "jupyterlite/xeus",
     "kalbasit/nur-packages",
     "kbenzie/vim-spirv",
@@ -453,6 +455,9 @@
     "logseq/og",
     "luau-lang/site",
     "lucidrains/PoPE-pytorch",
+    "lxqt/liblxqt",
+    "lxqt/libqtxdg",
+    "lxqt/lxqt-build-tools",
     "m2e-code-quality/m2e-code-quality",
     "m87-labs/moondream-examples",
     "magodo/aztft",
@@ -538,6 +543,7 @@
     "optuna/optunahub",
     "oramasearch/llm_json",
     "overseedai/viwo",
+    "patrickkabwe/create-nitro-module",
     "peergos/web-ui",
     "petercorke/ansitable",
     "phiat/claude-esp-rs",
@@ -595,6 +601,7 @@
     "SimplyDanny/SwiftLintPlugins",
     "skhu101/HumanLiff",
     "sliamh11/deus",
+    "slopus/slopus.github.io",
     "smithy-lang/smithy-dafny",
     "solidjs-community/storybook",
     "sophus-vision/sophus-rs",
@@ -643,6 +650,7 @@
     "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport",
     "xledger/pod_sql_server",
+    "xmlark/msv",
     "Xuanwo/serde-env",
     "yaph/tts-samples",
     "ylsssq926/relic.skill",

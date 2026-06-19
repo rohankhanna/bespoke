@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 490,
-    "concepts": 981,
-    "observations": 982,
-    "repos": 185,
-    "terms": 966
+    "components": 493,
+    "concepts": 986,
+    "observations": 987,
+    "repos": 186,
+    "terms": 971
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -178,6 +178,7 @@
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
     "Supervisor/supervisor",
+    "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
     "the-moonwitch/Cozette",
     "themix-project/themix-gui",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1559,
-    "concepts": 1066,
-    "observations": 1072,
-    "repos": 169,
-    "terms": 1059
+    "components": 1547,
+    "concepts": 1055,
+    "observations": 1061,
+    "repos": 167,
+    "terms": 1048
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -73,7 +73,6 @@
     "EmbarkStudios/cargo-about",
     "enbop/fungi",
     "EricLBuehler/candle-vllm",
-    "esp-rs/esp-idf-sys",
     "esp-rs/espflash",
     "esp-rs/std-training",
     "EspressoSystems/espresso-network",
@@ -124,7 +123,6 @@
     "mozillazg/rust-pinyin",
     "near/near-cli-rs",
     "near/near-sdk-rs",
-    "nix-community/harmonia",
     "nix-community/namaka",
     "NixOS/nix-installer",
     "Nullus157/async-compression",

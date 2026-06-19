@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49644,
-    "concepts": 35425,
-    "observations": 35492,
-    "repos": 12755,
-    "terms": 34976
+    "components": 49646,
+    "concepts": 35426,
+    "observations": 35493,
+    "repos": 12756,
+    "terms": 34977
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -4633,6 +4633,7 @@
     "fcsonline/tmux-thumbs",
     "fdarmon/NeuralWarp",
     "fdehau/tui-rs",
+    "fdschmidt93/telescope-egrepify.nvim",
     "feakin/fklang",
     "featherbread/hypcast-v1",
     "feathericons/feather",

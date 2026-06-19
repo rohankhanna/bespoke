@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2620,
-    "concepts": 515,
-    "observations": 519,
-    "repos": 93,
-    "terms": 515
+    "components": 2557,
+    "concepts": 511,
+    "observations": 515,
+    "repos": 91,
+    "terms": 511
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -89,7 +89,6 @@
     "OffchainLabs/nitro-testnode",
     "ogx-ai/llama-stack-client-typescript",
     "openwebdocs/mdn-bcd-collector",
-    "patrickkabwe/create-nitro-module",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",
     "prisma/engines-wrapper",
@@ -100,7 +99,6 @@
     "sapphiredev/shapeshift",
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
-    "slopus/slopus.github.io",
     "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom",
     "universal-ember/reactiveweb",

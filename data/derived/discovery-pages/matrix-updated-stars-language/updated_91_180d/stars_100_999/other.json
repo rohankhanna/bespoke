@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1113,
-    "concepts": 961,
-    "observations": 964,
-    "repos": 248,
-    "terms": 955
+    "components": 1111,
+    "concepts": 960,
+    "observations": 963,
+    "repos": 247,
+    "terms": 954
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -121,7 +121,6 @@
     "esy/esy",
     "evadne/etso",
     "excubo-ag/WebCompiler",
-    "fdschmidt93/telescope-egrepify.nvim",
     "filiph/linkcheck",
     "FiloSottile/homebrew-musl-cross",
     "FluxML/MLJFlux.jl",

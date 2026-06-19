@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5879,
-    "concepts": 3854,
-    "observations": 3866,
-    "repos": 945,
-    "terms": 3837
+    "components": 5877,
+    "concepts": 3853,
+    "observations": 3865,
+    "repos": 944,
+    "terms": 3836
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -342,7 +342,6 @@
     "fast/logforth",
     "FastFilter/xorfilter",
     "fastschema/fastschema",
-    "fdschmidt93/telescope-egrepify.nvim",
     "feifeibear/long-context-attention",
     "filecoin-project/devgrants",
     "filecoin-project/rust-fil-proofs",

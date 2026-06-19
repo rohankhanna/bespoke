@@ -3,7 +3,7 @@
     "components": 400,
     "concepts": 161,
     "observations": 161,
-    "repos": 32,
+    "repos": 31,
     "terms": 161
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
@@ -31,7 +31,6 @@
     "lifegpc/msg-tool",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "mesh-iit/cad-libraries",
     "mongodb/winkerberos",
     "mono/skia",
     "mozilla-ai/otari",

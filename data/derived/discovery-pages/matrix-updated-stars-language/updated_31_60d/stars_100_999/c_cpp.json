@@ -3,7 +3,7 @@
     "components": 1158,
     "concepts": 1172,
     "observations": 1173,
-    "repos": 205,
+    "repos": 204,
     "terms": 1166
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -50,7 +50,6 @@
     "CEED/libCEED",
     "celtera/avendish",
     "Chuyu-Team/YY-Thunks",
-    "cjlin1/libmf",
     "ClickHouse/clickhouse-cpp",
     "cloudflare/cloudflare-workers-wasm-demo",
     "cloudwu/soluna",

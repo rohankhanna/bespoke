@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4753,
-    "concepts": 3492,
-    "observations": 3503,
-    "repos": 679,
-    "terms": 3485
+    "components": 4770,
+    "concepts": 3500,
+    "observations": 3511,
+    "repos": 681,
+    "terms": 3493
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -452,6 +452,7 @@
     "nat/openplayground",
     "nesquena/rabl",
     "NixOS/nixops",
+    "nksaraf/vinxi",
     "nmoehrle/mvs-texturing",
     "novnc/websockify",
     "numman-ali/openskills",
@@ -621,6 +622,7 @@
     "tc39/proposal-signals",
     "TEN-framework/ten-vad",
     "Tencent/tquic",
+    "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
     "the-moonwitch/Cozette",
     "TheAssassin/AppImageLauncher",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1485,
-    "concepts": 222,
-    "observations": 223,
-    "repos": 62,
-    "terms": 254
+    "components": 1548,
+    "concepts": 226,
+    "observations": 227,
+    "repos": 64,
+    "terms": 258
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -64,6 +64,7 @@
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
     "overseedai/viwo",
+    "patrickkabwe/create-nitro-module",
     "pinecone-io/pinecone-mcp",
     "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",
@@ -71,6 +72,7 @@
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
+    "slopus/slopus.github.io",
     "solidjs-community/storybook",
     "TravisTheTechie/vscode-write-good",
     "ylsssq926/relic.skill",

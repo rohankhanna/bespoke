@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5754,
-    "concepts": 2484,
-    "observations": 2493,
-    "repos": 346,
-    "terms": 2524
+    "components": 5769,
+    "concepts": 2513,
+    "observations": 2522,
+    "repos": 348,
+    "terms": 2553
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -32,6 +32,7 @@
     "alchaincyf/nuwa-skill",
     "alexandresanlim/Badges4-README.md-Profile",
     "alibaba/ice",
+    "alibaba/spring-cloud-alibaba",
     "alirezarezvani/claude-skills",
     "allenai/olmocr",
     "AndyMik90/Aperant",
@@ -339,6 +340,7 @@
     "upstash/context7",
     "urfave/cli",
     "vadimdemedes/ink",
+    "valyala/fasthttp",
     "vega/vega",
     "vercel-labs/agent-skills",
     "vercel/swr",

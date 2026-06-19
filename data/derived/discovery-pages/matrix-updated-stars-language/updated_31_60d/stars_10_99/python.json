@@ -3,7 +3,7 @@
     "components": 646,
     "concepts": 443,
     "observations": 445,
-    "repos": 119,
+    "repos": 120,
     "terms": 436
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -84,6 +84,7 @@
     "lhj5426/YSG",
     "Looong01/pyg-rocm-build",
     "mayeut/pep600_compliance",
+    "mesh-iit/cad-libraries",
     "meta-pytorch/MSLK",
     "metatensor/metatensor",
     "MGenAI/GRN",

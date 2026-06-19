@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1026,
-    "concepts": 1366,
-    "observations": 1366,
-    "repos": 206,
-    "terms": 1382
+    "components": 1042,
+    "concepts": 1377,
+    "observations": 1377,
+    "repos": 207,
+    "terms": 1392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -121,6 +121,7 @@
     "lmcinnes/umap",
     "LorenEteval/Furious",
     "ltdrdata/ComfyUI-Impact-Pack",
+    "m87-labs/moondream",
     "mbailey/voicemode",
     "meta-pytorch/attention-gym",
     "michaelfeil/infinity",
@@ -164,6 +165,7 @@
     "plastic-labs/honcho",
     "Pointcept/Pointcept",
     "PyCQA/bandit",
+    "pypa/cibuildwheel",
     "pypa/setuptools",
     "pyro-ppl/numpyro",
     "pytest-dev/pytest-cov",
@@ -197,7 +199,6 @@
     "tabatkins/railroad-diagrams",
     "Tencent-Hunyuan/HunyuanVideo-1.5",
     "Tencent-Hunyuan/HunyuanVideo-I2V",
-    "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "Textualize/rich-cli",
     "The-OpenROAD-Project/OpenLane",

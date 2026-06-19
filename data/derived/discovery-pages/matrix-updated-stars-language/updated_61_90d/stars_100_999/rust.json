@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 620,
-    "concepts": 433,
-    "observations": 442,
-    "repos": 98,
-    "terms": 439
+    "components": 632,
+    "concepts": 444,
+    "observations": 453,
+    "repos": 100,
+    "terms": 450
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
@@ -52,6 +52,7 @@
     "emilk/egui_plot",
     "esp-rs/esp-idf-hal",
     "esp-rs/esp-idf-svc",
+    "esp-rs/esp-idf-sys",
     "esp-rs/rust",
     "EspressoSystems/jellyfish",
     "facebookexperimental/allocative",
@@ -78,6 +79,7 @@
     "mitsuhiko/similar-asserts",
     "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
+    "nix-community/harmonia",
     "nix-community/lorri",
     "nixops4/nixops4",
     "Nugine/simd",

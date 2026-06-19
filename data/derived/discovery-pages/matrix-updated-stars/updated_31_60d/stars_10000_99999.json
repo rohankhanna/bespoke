@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 21206,
-    "concepts": 9296,
-    "observations": 9330,
-    "repos": 826,
-    "terms": 9225
+    "components": 21191,
+    "concepts": 9267,
+    "observations": 9301,
+    "repos": 824,
+    "terms": 9196
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -51,7 +51,6 @@
     "alibaba/druid",
     "alibaba/MNN",
     "alibaba/nacos",
-    "alibaba/spring-cloud-alibaba",
     "alpinejs/alpine",
     "ampproject/amphtml",
     "analysis-tools-dev/static-analysis",
@@ -798,7 +797,6 @@
     "v2fly/v2ray-core",
     "v8/v8",
     "validatorjs/validator.js",
-    "valyala/fasthttp",
     "vectordotdev/vector",
     "vega/altair",
     "veggiemonk/awesome-docker",

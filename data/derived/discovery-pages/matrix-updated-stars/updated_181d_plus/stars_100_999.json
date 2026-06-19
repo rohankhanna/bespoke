@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15977,
-    "concepts": 14541,
-    "observations": 14569,
-    "repos": 4739,
-    "terms": 14313
+    "components": 15979,
+    "concepts": 14542,
+    "observations": 14570,
+    "repos": 4740,
+    "terms": 14314
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1659,6 +1659,7 @@
     "fatPeter/mini-splatting",
     "fcitx/fcitx",
     "fdarmon/NeuralWarp",
+    "fdschmidt93/telescope-egrepify.nvim",
     "feakin/fklang",
     "febeling/rb-libsvm",
     "fehiepsi/rethinking-numpyro",

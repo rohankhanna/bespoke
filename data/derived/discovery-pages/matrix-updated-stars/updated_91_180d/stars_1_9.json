@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1083,
+    "components": 1087,
     "concepts": 663,
     "observations": 665,
-    "repos": 273,
+    "repos": 274,
     "terms": 667
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -237,6 +237,7 @@
     "richgel999/junkdrawer",
     "robbiespeed/metron",
     "RobertBeckebans/DOOM-3",
+    "robustmq/robustmq-copilot",
     "saalfeldlab/n5-google-cloud",
     "shadmau/autocouncil",
     "shakacode/package_json",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3453,
-    "concepts": 3094,
-    "observations": 3110,
-    "repos": 395,
-    "terms": 3070
+    "components": 3423,
+    "concepts": 3062,
+    "observations": 3078,
+    "repos": 392,
+    "terms": 3040
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -84,7 +84,6 @@
     "chef/chef",
     "chromebrew/chromebrew",
     "cimgui/cimgui",
-    "circe/circe",
     "clojure-emacs/cider",
     "clojure-lsp/clojure-lsp",
     "clojure/clojure-clr",
@@ -152,7 +151,6 @@
     "elm/compiler",
     "elsa-workflows/elsa-core",
     "emacs-helm/helm",
-    "emacs-lsp/lsp-mode",
     "emacs-mirror/emacs",
     "EsotericSoftware/kryo",
     "ethereum/execution-apis",
@@ -220,7 +218,6 @@
     "JuliaGPU/CUDA.jl",
     "JuliaLang/IJulia.jl",
     "JuliaLang/PackageCompiler.jl",
-    "JuliaPlots/UnicodePlots.jl",
     "JuliaPy/PyCall.jl",
     "JuliaPy/PythonCall.jl",
     "JuliaSymbolics/Symbolics.jl",

@@ -3,7 +3,7 @@
     "components": 231,
     "concepts": 208,
     "observations": 208,
-    "repos": 47,
+    "repos": 49,
     "terms": 208
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -46,6 +46,8 @@
     "Level/classic-level",
     "liangshengyong/lanwan",
     "libxsmm/tpp-pytorch-extension",
+    "lxqt/liblxqt",
+    "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
     "midi2-dev/ni-midi2",
     "mitsuba-renderer/nanothread",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3029,
-    "concepts": 3330,
-    "observations": 3343,
-    "repos": 376,
-    "terms": 3296
+    "components": 3010,
+    "concepts": 3314,
+    "observations": 3327,
+    "repos": 374,
+    "terms": 3281
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -203,7 +203,6 @@
     "LoRexxar/Kunlun-M",
     "lucidrains/vector-quantize-pytorch",
     "lucidrains/x-transformers",
-    "m87-labs/moondream",
     "magenta/ddsp",
     "mangiucugna/json_repair",
     "mapillary/OpenSfM",
@@ -300,7 +299,6 @@
     "pymc-devs/pymc",
     "pymupdf/PyMuPDF",
     "pymupdf/pymupdf4llm",
-    "pypa/cibuildwheel",
     "pypa/hatch",
     "pypa/twine",
     "pypa/virtualenv",

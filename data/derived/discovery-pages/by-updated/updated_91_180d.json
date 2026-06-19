@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 16409,
-    "concepts": 10682,
-    "observations": 10718,
-    "repos": 2764,
-    "terms": 10673
+    "components": 16428,
+    "concepts": 10689,
+    "observations": 10725,
+    "repos": 2766,
+    "terms": 10680
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -1032,7 +1032,6 @@
     "fast/logforth",
     "FastFilter/xorfilter",
     "fastschema/fastschema",
-    "fdschmidt93/telescope-egrepify.nvim",
     "feifeibear/long-context-attention",
     "feloy/tesh",
     "fengari-lua/fengari",
@@ -1904,6 +1903,7 @@
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "NixOS/nixops",
     "nixprime/cpsm",
+    "nksaraf/vinxi",
     "NM512/dreamerv3-torch",
     "nmoehrle/mvs-texturing",
     "nodejs/citgm",
@@ -2231,6 +2231,7 @@
     "robotology/community",
     "robotology/icub-models",
     "robotology/mesh-support",
+    "robustmq/robustmq-copilot",
     "rojo-rbx/rojo",
     "rojo-rbx/rojo.space",
     "rollup/plugins",
@@ -2474,6 +2475,7 @@
     "TEN-framework/ten-vad",
     "Tencent-Hunyuan/flex-block-attn",
     "Tencent/tquic",
+    "TencentCloudADP/youtu-agent",
     "TencentCloudADP/youtu-tip",
     "TencentCloudADP/youtu-vl",
     "TencentYoutuResearch/APTBench",

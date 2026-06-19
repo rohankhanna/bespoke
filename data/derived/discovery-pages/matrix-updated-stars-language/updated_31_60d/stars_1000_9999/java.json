@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 668,
-    "concepts": 835,
-    "observations": 836,
-    "repos": 82,
-    "terms": 831
+    "components": 652,
+    "concepts": 821,
+    "observations": 822,
+    "repos": 81,
+    "terms": 817
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "agents-flex/agents-flex",
@@ -24,7 +24,6 @@
     "apache/hudi",
     "apache/iceberg",
     "apache/ignite",
-    "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
     "apache/parquet-java",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1854,
-    "concepts": 1080,
-    "observations": 1084,
-    "repos": 249,
-    "terms": 1076
+    "components": 1839,
+    "concepts": 1072,
+    "observations": 1076,
+    "repos": 246,
+    "terms": 1068
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -145,7 +145,6 @@
     "JuliaDocs/DocumentationGenerator.jl",
     "JuliaDocs/DocumenterCitations.jl",
     "JuliaDocs/DocumenterInterLinks.jl",
-    "JuliaGenAI/HuggingFaceDatasets.jl",
     "JuliaGeo/GeometryOps.jl",
     "JuliaGeo/LibGEOS.jl",
     "JuliaGeo/Proj.jl",
@@ -153,7 +152,6 @@
     "JuliaMath/FixedPointNumbers.jl",
     "JuliaSMLM/ModelContextProtocol.jl",
     "JuliaSparse/SparseArrays.jl",
-    "jupyterlab/extension-template",
     "JustusAdam/language-haskell",
     "kahliburke/Kaimon.jl",
     "Kaiede/Bedrockifier",
@@ -167,7 +165,6 @@
     "liuliu/s4nnc",
     "localstack/localstack-cli",
     "ludwig-ai/ludwig-docs",
-    "lxqt/lxqt-build-tools",
     "melpa/package-build",
     "mesh-iit/ergocub-software",
     "meta-pytorch/executorch-examples",

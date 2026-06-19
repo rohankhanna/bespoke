@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 984,
-    "concepts": 1133,
-    "observations": 1140,
-    "repos": 241,
-    "terms": 1149
+    "components": 986,
+    "concepts": 1147,
+    "observations": 1154,
+    "repos": 244,
+    "terms": 1163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -70,6 +70,7 @@
     "clearbluejar/pyghidra-mcp",
     "clearml/clearml-server",
     "ClementPinard/FlowNetPytorch",
+    "ClementPinard/Pytorch-Correlation-extension",
     "compilerla/conventional-pre-commit",
     "conan-io/cmake-conan",
     "corteva/rioxarray",
@@ -188,6 +189,7 @@
     "nvim-neotest/neotest-python",
     "nvpro-samples/vk_mini_samples",
     "objectbox/objectbox-python",
+    "oh-my-ocr/text_renderer",
     "open-tinker/OpenTinker",
     "openlawlibrary/pygls",
     "optuna/optuna-examples",
@@ -236,6 +238,7 @@
     "thinking-machines-lab/tinker",
     "Thinklab-SJTU/Bench2Drive-VL",
     "thunlp/JustRL",
+    "TIGER-AI-Lab/VLM2Vec",
     "TorchDR/TorchDR",
     "trailofbits/dropkit",
     "twisted/towncrier",

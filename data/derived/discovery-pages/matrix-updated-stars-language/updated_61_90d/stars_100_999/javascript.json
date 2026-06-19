@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1943,
-    "concepts": 512,
-    "observations": 515,
-    "repos": 116,
-    "terms": 543
+    "components": 1950,
+    "concepts": 516,
+    "observations": 519,
+    "repos": 117,
+    "terms": 547
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T06:18:47.854444+00:00",
+  "generated_at": "2026-06-19T08:22:44.138847+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -34,6 +34,7 @@
     "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
+    "ClickHouse/agent-skills",
     "cncf/sandbox",
     "coderaiser/putout",
     "comme2e/comm",
