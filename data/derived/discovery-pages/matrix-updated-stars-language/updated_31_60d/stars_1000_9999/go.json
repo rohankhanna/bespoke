@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1778,
-    "concepts": 1739,
-    "observations": 1748,
-    "repos": 178,
-    "terms": 1734
+    "components": 1747,
+    "concepts": 1719,
+    "observations": 1728,
+    "repos": 176,
+    "terms": 1714
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
     "akuity/kargo",
     "akvorado/akvorado",
-    "alibaba/higress",
     "allegro/bigcache",
     "anacrolix/torrent",
     "anthropics/anthropic-sdk-go",
@@ -115,7 +114,6 @@
     "grafana/alloy",
     "hashicorp/terraform-provider-azurerm",
     "hashicorp/terraform-provider-helm",
-    "helm/chart-testing",
     "helmfile/helmfile",
     "int128/kubelogin",
     "joshmedeski/sesh",

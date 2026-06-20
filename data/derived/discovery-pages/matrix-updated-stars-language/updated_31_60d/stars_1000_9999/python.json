@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2828,
-    "concepts": 3114,
-    "observations": 3127,
-    "repos": 346,
-    "terms": 3087
+    "components": 2820,
+    "concepts": 3105,
+    "observations": 3118,
+    "repos": 345,
+    "terms": 3078
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -286,7 +286,6 @@
     "pytest-dev/pytest-asyncio",
     "pytest-dev/pytest-mock",
     "python-versioneer/python-versioneer",
-    "python/typeshed",
     "pytorch/ao",
     "pytorch/audio",
     "pytorch/executorch",

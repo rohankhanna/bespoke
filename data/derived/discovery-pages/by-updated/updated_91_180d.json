@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 16730,
-    "concepts": 10843,
-    "observations": 10880,
+    "components": 16728,
+    "concepts": 10855,
+    "observations": 10892,
     "repos": 2781,
-    "terms": 10831
+    "terms": 10843
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -973,7 +973,6 @@
     "enjoy-digital/liteiclink",
     "enjoy-digital/litesata",
     "enjoy-digital/litex_hw_ci",
-    "Enselic/cargo-public-api",
     "envato/zxcvbn-ruby",
     "envoyproxy/data-plane-api",
     "enzet/iconscript",
@@ -1233,7 +1232,6 @@
     "GuiWonder/Shanggu",
     "gulpjs/gulp",
     "gulrak/filesystem",
-    "Gumpest/SparseVLMs",
     "guoqingbao/flashattn.rs",
     "guoqingbao/rustchatui",
     "guoweiyu/NeuroVLA",
@@ -1479,6 +1477,8 @@
     "joeldrapper/dispersion",
     "johandahlberg/awesome-10x-genomics",
     "JohannesKaufmann/html-to-markdown",
+    "JokerJohn/Cloud_Map_Evaluation",
+    "JokerJohn/MS-Mapping",
     "jokkebk/JUnzip",
     "joliss/node-walk-sync",
     "jonas-k/coremidi-sys",

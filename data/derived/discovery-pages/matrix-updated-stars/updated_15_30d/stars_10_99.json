@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 364,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 30,
-    "terms": 160
+    "components": 335,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 29,
+    "terms": 156
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
@@ -41,7 +41,6 @@
     "skilld-dev/retriv",
     "storybook-community/addon-queryparams",
     "TrigenSoftware/simple-release",
-    "vaporif/parry-guard",
-    "windsonR/vite-plugin-virtual-html"
+    "vaporif/parry-guard"
   ]
 }

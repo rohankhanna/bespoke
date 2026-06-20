@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 858,
-    "concepts": 817,
-    "observations": 821,
-    "repos": 106,
-    "terms": 853
+    "components": 861,
+    "concepts": 837,
+    "observations": 841,
+    "repos": 107,
+    "terms": 873
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -102,6 +102,7 @@
     "QwenLM/Qwen3-Coder",
     "ranger/ranger",
     "rany2/edge-tts",
+    "ray-project/ray",
     "resemble-ai/chatterbox",
     "sanic-org/sanic",
     "searxng/searxng",

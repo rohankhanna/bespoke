@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5221,
-    "concepts": 2619,
-    "observations": 2628,
-    "repos": 718,
-    "terms": 2683
+    "components": 5278,
+    "concepts": 2640,
+    "observations": 2649,
+    "repos": 722,
+    "terms": 2704
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -627,6 +627,7 @@
     "r-lyeh/Spectral",
     "rainyl/native_toolchain_cmake",
     "randombit/botan-rs",
+    "rashfael/eslint-plugin-vue-pug",
     "recap-utr/nlp-service",
     "red-data-tools/red-datasets",
     "redhat-et/triton-dev-containers",
@@ -647,6 +648,7 @@
     "scaleway/serverless-examples",
     "scaleway/serverless-scaleway-functions",
     "scasella/nanochat-mlx",
+    "sclorg/mariadb-container",
     "Sec-ant/prettier-plugin-embed",
     "SeleniumHQ/selenium_manager_artifacts",
     "semantic-release/error",
@@ -687,6 +689,7 @@
     "tilt-dev/tilt-apiserver",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
+    "tracel-ai/burn-onnx",
     "transparency-dev/armored-witness",
     "TravisTheTechie/vscode-write-good",
     "TrigenSoftware/simple-release-action",
@@ -722,6 +725,7 @@
     "xledger/pod_sql_server",
     "xmlark/msv",
     "Xuanwo/serde-env",
+    "yakir8/kosher_dart",
     "yaph/tts-samples",
     "ylsssq926/relic.skill",
     "yomidevs/yomitan-import",

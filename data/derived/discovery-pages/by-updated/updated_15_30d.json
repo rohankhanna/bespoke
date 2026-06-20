@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 6075,
-    "concepts": 2930,
-    "observations": 2945,
-    "repos": 341,
-    "terms": 2926
+    "components": 6037,
+    "concepts": 2922,
+    "observations": 2937,
+    "repos": 339,
+    "terms": 2918
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "2U1/Qwen-VL-Series-Finetune",
@@ -275,7 +275,6 @@
     "radian-software/straight.el",
     "react-native-webview/react-native-webview",
     "readthedocs/commonmark.py",
-    "realworld-apps/realworld",
     "redis/go-redis",
     "redis/redis-om-dotnet",
     "redis/redis-om-python",
@@ -344,7 +343,6 @@
     "web-platform-tests/wpt",
     "webinstall/webi-installers",
     "wevm/abitype",
-    "windsonR/vite-plugin-virtual-html",
     "xtensor-stack/xtensor",
     "xuanji86/ainiee-translate-skill",
     "yaling888/quirktiva",

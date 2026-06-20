@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1141,
-    "concepts": 1308,
-    "observations": 1314,
-    "repos": 268,
-    "terms": 1322
+    "components": 1152,
+    "concepts": 1312,
+    "observations": 1318,
+    "repos": 271,
+    "terms": 1326
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -53,6 +53,7 @@
     "Azure/WALinuxAgent",
     "Backblaze/b2-sdk-python",
     "baidu-baige/LoongFlow",
+    "bastibe/python-soundfile",
     "beamuswayne/simp-skill",
     "biocypher/biocypher",
     "BlackHC/BatchBALD",
@@ -108,6 +109,7 @@
     "Farama-Foundation/Shimmy",
     "fatiando/pooch",
     "fcakyon/claude-codex-settings",
+    "flageval-baai/FlagEvalMM",
     "FlagOpen/Robo-Dopamine",
     "FoundationVision/InfinityStar",
     "fumiama/Retrieval-based-Voice-Conversion-WebUI",
@@ -155,6 +157,7 @@
     "kata-containers/community",
     "Kozea/CairoSVG",
     "laixintao/tokei-pie",
+    "langchain-ai/langgraph-bigtool",
     "langfengQ/DrMAS",
     "layumi/University1652-Baseline",
     "ldayton/dippy",

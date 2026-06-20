@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6554,
-    "concepts": 2926,
-    "observations": 2941,
-    "repos": 394,
-    "terms": 2961
+    "components": 6580,
+    "concepts": 2955,
+    "observations": 2970,
+    "repos": 396,
+    "terms": 2990
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -108,6 +108,7 @@
     "deepseek-ai/FlashMLA",
     "delgan/loguru",
     "devicons/devicon",
+    "dexidp/dex",
     "dgraph-io/badger",
     "diegomura/react-pdf",
     "diem/diem",
@@ -319,6 +320,7 @@
     "qwibitai/nanoclaw",
     "ranger/ranger",
     "rany2/edge-tts",
+    "ray-project/ray",
     "rbenv/rbenv",
     "ReactiveX/RxAndroid",
     "reactjs/react.dev",

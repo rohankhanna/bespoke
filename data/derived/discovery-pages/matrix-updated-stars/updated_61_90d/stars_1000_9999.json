@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 11850,
-    "concepts": 7105,
-    "observations": 7133,
-    "repos": 1106,
-    "terms": 7235
+    "components": 11917,
+    "concepts": 7150,
+    "observations": 7179,
+    "repos": 1111,
+    "terms": 7280
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0x2E/fusion",
@@ -58,6 +58,7 @@
     "alexreisner/geocoder",
     "algesten/ureq",
     "alibaba/havenask",
+    "alibaba/higress",
     "alloy-rs/alloy",
     "allweonedev/presentation-ai",
     "alpinelinux/docker-alpine",
@@ -467,6 +468,7 @@
     "heartcombo/responders",
     "Helicone/helicone",
     "helm-unittest/helm-unittest",
+    "helm/chart-testing",
     "hercules-ci/flake-parts",
     "heyhuynhgiabuu/proxypal",
     "HIPS/autograd",
@@ -585,6 +587,7 @@
     "L3MON4D3/LuaSnip",
     "la10736/rstest",
     "lalrpop/lalrpop",
+    "langchain-ai/deepagentsjs",
     "langchain-ai/langchain-mcp-adapters",
     "langchain-ai/langgraphjs",
     "langchain4j/langchain4j-examples",
@@ -861,6 +864,7 @@
     "python-poetry/cleo",
     "python-trio/trio",
     "python-websockets/websockets",
+    "python/typeshed",
     "python/typing",
     "pytorch/gloo",
     "pyupio/safety",
@@ -904,6 +908,7 @@
     "rstudio/cheatsheets",
     "rthalley/dnspython",
     "ruby/debug",
+    "ruby/rbs",
     "RubyMoney/money",
     "RUC-NLPIR/ARPO",
     "RUC-NLPIR/DeepAgent",

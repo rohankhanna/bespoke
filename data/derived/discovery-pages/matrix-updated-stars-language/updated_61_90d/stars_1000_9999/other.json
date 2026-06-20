@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1414,
-    "concepts": 1462,
-    "observations": 1471,
-    "repos": 234,
-    "terms": 1462
+    "components": 1419,
+    "concepts": 1472,
+    "observations": 1482,
+    "repos": 235,
+    "terms": 1472
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -208,6 +208,7 @@
     "rom1504/clip-retrieval",
     "rstudio/cheatsheets",
     "ruby/debug",
+    "ruby/rbs",
     "RubyMoney/money",
     "rust-lang/rfcs",
     "rust-lang/rust-by-example",

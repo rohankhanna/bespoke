@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 7556,
-    "concepts": 3720,
-    "observations": 3739,
-    "repos": 790,
-    "terms": 3695
+    "components": 7528,
+    "concepts": 3703,
+    "observations": 3722,
+    "repos": 787,
+    "terms": 3678
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -651,7 +651,6 @@
     "Ralith/lahar",
     "rapideditor/location-conflation",
     "rapidsai/ucxx",
-    "rashfael/eslint-plugin-vue-pug",
     "rcasia/neotest-java",
     "readthedocs/addons",
     "redis/docs",
@@ -699,7 +698,6 @@
     "SciML/Static.jl",
     "scipy/scipy-stubs",
     "scipy/scipy.org",
-    "sclorg/mariadb-container",
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",
     "ScoopInstaller/PHP",
@@ -759,7 +757,6 @@
     "tinted-theming/tinted-xresources",
     "tnc-ca-geo/animl-frontend",
     "tofay/rustls-openssl",
-    "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "tracked-tools/tracked-toolbox",
     "transparency-dev/witness",
@@ -790,13 +787,13 @@
     "WebAssembly/shared-everything-threads",
     "webtorrent/bittorrent-lsd",
     "wighawag/rocketh",
+    "windsonR/vite-plugin-virtual-html",
     "wp-cli/dist-archive-command",
     "wp-cli/scaffold-package-command",
     "wyyazlz/sheetnext",
     "xhluca/bm25-benchmarks",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
-    "yakir8/kosher_dart",
     "yamachu/VoicevoxCoreSharp",
     "yawkat/lz4-java",
     "yquake2/yquake2remaster",

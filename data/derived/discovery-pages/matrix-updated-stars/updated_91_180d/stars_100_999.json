@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5999,
-    "concepts": 3935,
-    "observations": 3948,
-    "repos": 953,
-    "terms": 3915
+    "components": 6000,
+    "concepts": 3952,
+    "observations": 3965,
+    "repos": 954,
+    "terms": 3932
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -404,7 +404,6 @@
     "guillaume-be/rust-tokenizers",
     "GuiWonder/MoonStarsKai",
     "GuiWonder/Shanggu",
-    "Gumpest/SparseVLMs",
     "guoweiyu/NeuroVLA",
     "gvvaughan/lyaml",
     "gwihlidal/vk-mem-rs",
@@ -481,6 +480,8 @@
     "JettHu/ComfyUI_TGate",
     "jgpc42/jmh-clojure",
     "jimblandy/perf-event",
+    "JokerJohn/Cloud_Map_Evaluation",
+    "JokerJohn/MS-Mapping",
     "joshuaulrich/TTR",
     "joshuaulrich/xts",
     "jpmml/jpmml-evaluator",

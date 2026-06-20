@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2078,
-    "concepts": 1693,
-    "observations": 1695,
-    "repos": 341,
-    "terms": 1713
+    "components": 2099,
+    "concepts": 1709,
+    "observations": 1712,
+    "repos": 344,
+    "terms": 1728
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/json.lua",
@@ -68,6 +68,7 @@
     "babashka/cli",
     "babashka/fs",
     "babashka/neil",
+    "babashka/pod-registry",
     "basf/MolPipeline",
     "bazel-contrib/rules_foreign_cc",
     "bazel-contrib/rules_nodejs",
@@ -161,6 +162,7 @@
     "FluxML/NNlib.jl",
     "fourmolu/fourmolu",
     "fredrikekre/Literate.jl",
+    "fsprojects/fantomas",
     "fukamachi/fast-http",
     "fzyzcjy/dart_interactive",
     "gcv/julia-snail",
@@ -300,6 +302,7 @@
     "Roshanjossey/code-contributions",
     "rrrene/html_sanitize_ex",
     "rubocop/rubocop-ast",
+    "ruby/psych",
     "ruby/ruby-bench",
     "ruby/spec",
     "RubyMoney/eu_central_bank",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1753,
-    "concepts": 941,
-    "observations": 948,
-    "repos": 76,
-    "terms": 940
+    "components": 1744,
+    "concepts": 937,
+    "observations": 944,
+    "repos": 75,
+    "terms": 936
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -69,7 +69,6 @@
     "QuantumNous/new-api",
     "qubvel-org/segmentation_models.pytorch",
     "quickwit-oss/tantivy",
-    "realworld-apps/realworld",
     "redis/go-redis",
     "Redocly/redoc",
     "run-llama/llama_index",

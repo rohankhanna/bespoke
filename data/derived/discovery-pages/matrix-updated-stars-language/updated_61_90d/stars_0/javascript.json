@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 12,
-    "terms": 45
+    "components": 223,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 13,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
+    "aaronlamz/navpress",
     "caprica/generator-vlcj",
     "danielrosehill/Israel-Alert-Map",
     "fabon-f/temporal-polyfill-comparison",

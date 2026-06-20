@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 20377,
-    "concepts": 8841,
-    "observations": 8869,
-    "repos": 777,
-    "terms": 8775
+    "components": 20360,
+    "concepts": 8816,
+    "observations": 8844,
+    "repos": 776,
+    "terms": 8750
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -200,7 +200,6 @@
     "deepset-ai/haystack",
     "DefinitelyTyped/DefinitelyTyped",
     "Devolutions/UniGetUI",
-    "dexidp/dex",
     "dgraph-io/dgraph",
     "discordjs/discord.js",
     "distribution/distribution",
@@ -624,13 +623,13 @@
     "rails/rails",
     "rapid7/metasploit-framework",
     "ratatui/ratatui",
-    "ray-project/ray",
     "rayon-rs/rayon",
     "raysan5/raylib",
     "rclone/rclone",
     "react-hook-form/react-hook-form",
     "react-navigation/react-navigation",
     "ReactiveX/RxJava",
+    "realworld-apps/realworld",
     "redis/node-redis",
     "redis/redis",
     "redis/redis-py",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3280,
-    "concepts": 2932,
-    "observations": 2948,
-    "repos": 371,
-    "terms": 2910
+    "components": 3275,
+    "concepts": 2922,
+    "observations": 2937,
+    "repos": 370,
+    "terms": 2900
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -323,7 +323,6 @@
     "rrousselGit/riverpod",
     "ruby-grape/grape",
     "ruby/rake",
-    "ruby/rbs",
     "saghen/blink.cmp",
     "salvadordf/CEF4Delphi",
     "sass/dart-sass",

@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 15985,
-    "concepts": 14545,
-    "observations": 14573,
-    "repos": 4743,
-    "terms": 14317
+    "concepts": 14550,
+    "observations": 14578,
+    "repos": 4744,
+    "terms": 14322
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1953,6 +1953,7 @@
     "gulpjs/glob-stream",
     "gulpjs/vinyl-fs",
     "gulvarol/surreal",
+    "Gumpest/SparseVLMs",
     "guochengqian/openpoints",
     "guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
     "guysv/ilua",

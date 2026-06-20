@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 340,
-    "concepts": 445,
-    "observations": 447,
-    "repos": 108,
-    "terms": 439
+    "components": 341,
+    "concepts": 467,
+    "observations": 469,
+    "repos": 110,
+    "terms": 461
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "anacrolix/go-libutp",
@@ -64,6 +64,8 @@
     "InteractiveComputerGraphics/TriangleMeshDistance",
     "isciences/exactextract",
     "iwongu/sqlite3pp",
+    "JokerJohn/Cloud_Map_Evaluation",
+    "JokerJohn/MS-Mapping",
     "jsk-ros-pkg/jsk_visualization",
     "KamilSJaron/smudgeplot",
     "KhronosGroup/OpenCL-Headers",

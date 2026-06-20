@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1790,
-    "concepts": 1520,
-    "observations": 1522,
-    "repos": 134,
-    "terms": 1510
+    "components": 1787,
+    "concepts": 1500,
+    "observations": 1502,
+    "repos": 133,
+    "terms": 1490
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
@@ -120,7 +120,6 @@
     "python/cpython",
     "pytorch/pytorch",
     "pytorch/vision",
-    "ray-project/ray",
     "redis/redis-py",
     "roboflow/supervision",
     "RVC-Boss/GPT-SoVITS",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3249,
-    "concepts": 2282,
-    "observations": 2286,
-    "repos": 374,
-    "terms": 2270
+    "components": 3228,
+    "concepts": 2266,
+    "observations": 2269,
+    "repos": 371,
+    "terms": 2255
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "a2aproject/a2a-dotnet",
@@ -55,7 +55,6 @@
     "AXERA-TECH/ax-samples",
     "Azure-Samples/get-started-with-ai-agents",
     "Azure/bicep-registry-modules",
-    "babashka/pod-registry",
     "babashka/process",
     "bazel-contrib/rules_python",
     "bazelbuild/bazel-central-registry",
@@ -143,7 +142,6 @@
     "fontsource/font-files",
     "fredrikaverpil/neotest-golang",
     "fredrikekre/Runic.jl",
-    "fsprojects/fantomas",
     "FStarLang/karamel",
     "galaxyproject/tools-iuc",
     "getsentry/sentry-dart",
@@ -336,7 +334,6 @@
     "rubocop/rubocop-rails",
     "ruby/gem_rbs_collection",
     "ruby/json",
-    "ruby/psych",
     "ruby/typeprof",
     "runtimeverification/evm-semantics",
     "rust-lang/blog.rust-lang.org",

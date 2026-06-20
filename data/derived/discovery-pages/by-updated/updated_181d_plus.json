@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49730,
-    "concepts": 35478,
-    "observations": 35545,
-    "repos": 12772,
-    "terms": 35029
+    "components": 49733,
+    "concepts": 35488,
+    "observations": 35555,
+    "repos": 12774,
+    "terms": 35039
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -4245,6 +4245,7 @@
     "ennocramer/floskell",
     "EnokViking/Box2DBeef",
     "enola-dev/LearningADK",
+    "Enselic/cargo-public-api",
     "Ensembl/Bio-DB-HTS",
     "Enter-tainer/typst-preview",
     "envoyproxy/envoy-filter-example",
@@ -5436,6 +5437,7 @@
     "gulvarol/surreal",
     "gumob/PunycodeSwift",
     "gumob/TLDExtractSwift",
+    "Gumpest/SparseVLMs",
     "GunnarFarneback/LocalPackageServer.jl",
     "guochengqian/Magic123",
     "guochengqian/openpoints",

@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 862,
-    "concepts": 288,
-    "observations": 289,
-    "repos": 208,
-    "terms": 320
+    "components": 882,
+    "concepts": 293,
+    "observations": 294,
+    "repos": 209,
+    "terms": 325
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
     "9romise/eslint-config",
+    "aaronlamz/navpress",
     "aaronrsun/spec-kit-confluence",
     "aaronrsun/spec-kit-issue",
     "aayushbhaskar/OpenCouncil",

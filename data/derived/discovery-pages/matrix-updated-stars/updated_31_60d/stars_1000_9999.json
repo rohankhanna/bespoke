@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 25602,
-    "concepts": 14890,
-    "observations": 14941,
-    "repos": 1738,
-    "terms": 14787
+    "components": 25535,
+    "concepts": 14845,
+    "observations": 14895,
+    "repos": 1733,
+    "terms": 14742
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xAX/asm",
@@ -73,7 +73,6 @@
     "alanxz/rabbitmq-c",
     "alchaincyf/huashu-design",
     "Aleph-Alpha/ts-rs",
-    "alibaba/higress",
     "alibaba/ROLL",
     "alibaba/rtp-llm",
     "alibaba/spring-ai-alibaba",
@@ -756,7 +755,6 @@
     "HazyResearch/ThunderKittens",
     "heiher/hev-socks5-tunnel",
     "helix-toolkit/helix-toolkit",
-    "helm/chart-testing",
     "helmfile/helmfile",
     "hermit-os/kernel",
     "heroku/heroku-buildpack-nodejs",
@@ -935,7 +933,6 @@
     "lakekeeper/lakekeeper",
     "lambdalisue/vim-fern",
     "lance-format/lance",
-    "langchain-ai/deepagentsjs",
     "langgraph4j/langgraph4j",
     "latex-lsp/texlab",
     "LavaMoat/LavaMoat",
@@ -1352,7 +1349,6 @@
     "python-mode/python-mode",
     "python-versioneer/python-versioneer",
     "python/peps",
-    "python/typeshed",
     "pytorch/ao",
     "pytorch/audio",
     "pytorch/executorch",
@@ -1431,7 +1427,6 @@
     "rrousselGit/riverpod",
     "ruby-grape/grape",
     "ruby/rake",
-    "ruby/rbs",
     "runetfreedom/russia-v2ray-rules-dat",
     "rust-bitcoin/rust-bitcoin",
     "rust-cli/config-rs",

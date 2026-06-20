@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1226,
-    "concepts": 1588,
-    "observations": 1588,
-    "repos": 235,
-    "terms": 1597
+    "components": 1234,
+    "concepts": 1597,
+    "observations": 1597,
+    "repos": 236,
+    "terms": 1606
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -195,6 +195,7 @@
     "python-poetry/cleo",
     "python-trio/trio",
     "python-websockets/websockets",
+    "python/typeshed",
     "python/typing",
     "pyupio/safety",
     "QwenLM/Qwen3-VL-Embedding",

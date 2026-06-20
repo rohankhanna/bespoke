@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1296,
-    "concepts": 5764,
-    "observations": 5769,
-    "repos": 1920,
-    "terms": 5596
+    "concepts": 5769,
+    "observations": 5774,
+    "repos": 1921,
+    "terms": 5601
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -761,6 +761,7 @@
     "Guaishou74851/AdcSR",
     "Guangxuan-Xiao/torch-int",
     "GuansongPang/deviation-network",
+    "Gumpest/SparseVLMs",
     "guochengqian/openpoints",
     "guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
     "GuyTevet/MotionCLIP",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1707,
-    "concepts": 936,
-    "observations": 940,
-    "repos": 220,
-    "terms": 932
+    "components": 1703,
+    "concepts": 932,
+    "observations": 936,
+    "repos": 219,
+    "terms": 928
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "3rd/config",
     "AarshBatra/biteSizedAQ",
@@ -232,7 +232,6 @@
     "WebAssembly/shared-everything-threads",
     "wp-cli/dist-archive-command",
     "wp-cli/scaffold-package-command",
-    "yakir8/kosher_dart",
     "yamachu/VoicevoxCoreSharp"
   ]
 }

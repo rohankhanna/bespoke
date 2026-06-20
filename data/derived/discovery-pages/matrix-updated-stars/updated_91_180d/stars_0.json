@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 323,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 99,
-    "terms": 166
+    "components": 320,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 98,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -56,7 +56,6 @@
     "DiligentGraphics/googletest",
     "DiligentGraphics/json",
     "DiligentGraphics/NuklearUI",
-    "Enselic/cargo-public-api",
     "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
     "firstbatchxyz/dkn-protocol",

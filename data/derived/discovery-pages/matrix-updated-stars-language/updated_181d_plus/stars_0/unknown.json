@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 133,
-    "terms": 112
+    "components": 236,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 134,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -76,6 +76,7 @@
     "diffeqml/diffeqml-media",
     "dj8yfo/near-verify-rs",
     "dstein64/media",
+    "Enselic/cargo-public-api",
     "erew123/screenshots",
     "expenses/trystero",
     "filecoin-project/fvm-test-vectors",

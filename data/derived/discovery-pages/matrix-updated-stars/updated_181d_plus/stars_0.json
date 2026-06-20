@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1380,
-    "concepts": 566,
-    "observations": 568,
-    "repos": 466,
-    "terms": 566
+    "components": 1383,
+    "concepts": 571,
+    "observations": 573,
+    "repos": 467,
+    "terms": 571
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -216,6 +216,7 @@
     "eigenwallet/dfx-swiss-rs",
     "ejconlon/libremidi-haskell",
     "elladyr/myo_sim",
+    "Enselic/cargo-public-api",
     "erew123/screenshots",
     "eric-mitchell/higher",
     "eric-mitchell/transformers",

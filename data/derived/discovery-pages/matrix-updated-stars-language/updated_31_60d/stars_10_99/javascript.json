@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 912,
-    "concepts": 227,
-    "observations": 229,
-    "repos": 53,
-    "terms": 227
+    "components": 876,
+    "concepts": 226,
+    "observations": 228,
+    "repos": 52,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "aidenlab/hic-straw",
@@ -56,7 +56,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "r-lyeh/gamebook",
-    "rashfael/eslint-plugin-vue-pug",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",

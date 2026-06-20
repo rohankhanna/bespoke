@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 691,
-    "observations": 694,
-    "repos": 130,
-    "terms": 686
+    "components": 509,
+    "concepts": 669,
+    "observations": 672,
+    "repos": 128,
+    "terms": 664
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T06:01:18.916197+00:00",
+  "generated_at": "2026-06-20T07:48:16.635535+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "afbjorklund/lima-gui",
@@ -71,8 +71,6 @@
     "intel/opencl-clang",
     "intel/QAT_Engine",
     "ipsilon/evmc",
-    "JokerJohn/Cloud_Map_Evaluation",
-    "JokerJohn/MS-Mapping",
     "JokerJohn/PALoc",
     "jupyter-xeus/xeus",
     "jupyter-xeus/xeus-python",
