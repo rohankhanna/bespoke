@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 57,
-    "terms": 127
+    "components": 201,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 59,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "adaumann/speckit-preset-fiction-book-writing",
@@ -43,6 +43,7 @@
     "danielrosehill/donetick-mcp",
     "danielrosehill/Geopol-Forecaster",
     "dora-rs/dora-benchmark",
+    "dreamiurg/peakbagger-cli",
     "etanhey/brainlayer",
     "fixie-ai/evals",
     "floxym/financial-chat",
@@ -60,6 +61,7 @@
     "Mbed-TLS/mbedtls-framework",
     "Mercury13/unicodia-sesh",
     "momentique/source-code-security-audit-reviewer",
+    "onicai/IConfucius",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",

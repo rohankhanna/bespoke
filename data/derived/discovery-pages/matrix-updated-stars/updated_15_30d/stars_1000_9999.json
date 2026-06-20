@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 2309,
-    "concepts": 1101,
-    "observations": 1107,
-    "repos": 126,
-    "terms": 1098
+    "components": 2290,
+    "concepts": 1066,
+    "observations": 1072,
+    "repos": 123,
+    "terms": 1063
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
-    "AdaptiveCpp/AdaptiveCpp",
     "ai-that-works/ai-that-works",
     "aigc-apps/VideoX-Fun",
     "alichherawalla/off-grid-mobile-ai",
@@ -22,7 +21,6 @@
     "apache/datafusion-ballista",
     "apollographql/apollo-tooling",
     "apollographql/eslint-plugin-graphql",
-    "ash-rs/ash",
     "ashvardanian/NumKong",
     "aws-cloudformation/cfn-lint",
     "aws/karpenter-provider-aws",
@@ -118,7 +116,6 @@
     "safe-fndn/safe-smart-account",
     "safetensors/safetensors",
     "seancorfield/honeysql",
-    "speaches-ai/speaches",
     "sveltejs/devalue",
     "swiftlang/llvm-project",
     "swiftlang/swift-llbuild",

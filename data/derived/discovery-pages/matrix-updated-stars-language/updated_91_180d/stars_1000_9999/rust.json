@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 253,
-    "observations": 256,
-    "repos": 46,
-    "terms": 251
+    "components": 313,
+    "concepts": 254,
+    "observations": 257,
+    "repos": 47,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "a16z/helios",
@@ -24,6 +24,7 @@
     "Byron/dua-cli",
     "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
+    "David-OConnor/pyflow",
     "dtolnay/cargo-expand",
     "dtolnay/proc-macro-workshop",
     "fschutt/printpdf",

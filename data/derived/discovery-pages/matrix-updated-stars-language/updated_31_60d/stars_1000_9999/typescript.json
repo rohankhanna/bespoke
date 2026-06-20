@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9524,
-    "concepts": 1810,
-    "observations": 1815,
-    "repos": 207,
-    "terms": 1800
+    "components": 9235,
+    "concepts": 1760,
+    "observations": 1765,
+    "repos": 200,
+    "terms": 1750
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
-    "a-ghorbani/pocketpal-ai",
     "acacode/swagger-typescript-api",
     "actions/cache",
     "actions/setup-java",
@@ -36,8 +35,6 @@
     "argdown/argdown",
     "artifacthub/hub",
     "artsy/eigen",
-    "astral-sh/ruff-vscode",
-    "aws-actions/configure-aws-credentials",
     "aws-powertools/powertools-lambda-typescript",
     "aws/aws-sdk-js-v3",
     "aws/jsii",
@@ -64,7 +61,6 @@
     "civitai/civitai",
     "clerk/javascript",
     "cloudflare/agents",
-    "cloudflare/agents-starter",
     "cloudflare/workers-sdk",
     "coder/mux",
     "Comcast/react-data-grid",
@@ -153,13 +149,10 @@
     "openlit/openlit",
     "ory/polis",
     "OutlineFoundation/outline-apps",
-    "panva/jose",
     "pdfme/pdfme",
     "peter-evans/create-pull-request",
     "posit-dev/positron",
-    "prettier/prettier-vscode",
     "prisma/prisma-examples",
-    "privatenumber/esbuild-loader",
     "probot/probot",
     "pulumi/examples",
     "r-lib/actions",

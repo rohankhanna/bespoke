@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 476,
-    "concepts": 356,
-    "observations": 356,
-    "repos": 280,
-    "terms": 359
+    "components": 478,
+    "concepts": 358,
+    "observations": 358,
+    "repos": 281,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -147,6 +147,7 @@
     "HansZ8/ZED-Proxy",
     "HaoyiZhu/HalpeCOCOAPI",
     "hashberg-io/bases",
+    "hashberg-io/typing-validation",
     "HDETR/H-Detic-LVIS",
     "heyoeyo/toadui",
     "hhu-stups/jupyterlab-prolog-codemirror-extension",

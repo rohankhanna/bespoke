@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 143,
+    "components": 157,
     "concepts": 77,
     "observations": 77,
-    "repos": 17,
+    "repos": 18,
     "terms": 77
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
+    "0xPolygonHermez/pil2-proofman-js",
     "amir684/esp32c3-red-alert",
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",

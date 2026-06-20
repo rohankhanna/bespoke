@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2939,
-    "concepts": 1230,
-    "observations": 1234,
-    "repos": 915,
-    "terms": 1261
+    "components": 2937,
+    "concepts": 1228,
+    "observations": 1232,
+    "repos": 914,
+    "terms": 1259
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -716,7 +716,6 @@
     "mikelodder7/blstrs",
     "mikesteglich/coliop",
     "mikesteglich/jcmpl",
-    "mindreframer/sqlean",
     "MindWorkAI/Planning",
     "mitchuski/agentprivacy-skills",
     "mjvolk3/biocypher",

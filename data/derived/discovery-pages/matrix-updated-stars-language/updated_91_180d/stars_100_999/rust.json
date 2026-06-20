@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 404,
-    "concepts": 284,
-    "observations": 286,
-    "repos": 72,
-    "terms": 282
+    "components": 412,
+    "concepts": 294,
+    "observations": 296,
+    "repos": 73,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -32,6 +32,7 @@
     "esp-rs/embedded-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
+    "firstbatchxyz/dkn-compute-node",
     "georust/proj",
     "gfx-rs/rspirv",
     "guillaume-be/rust-tokenizers",

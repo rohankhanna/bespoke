@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 156,
-    "concepts": 93,
-    "observations": 94,
-    "repos": 9,
-    "terms": 93
+    "components": 154,
+    "concepts": 90,
+    "observations": 91,
+    "repos": 8,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "apache/datafusion-ballista",
-    "ash-rs/ash",
     "crate-ci/cargo-release",
     "databendlabs/databend",
     "dmtrKovalenko/fff",

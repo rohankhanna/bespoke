@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1290,
-    "concepts": 5762,
-    "observations": 5767,
-    "repos": 1919,
-    "terms": 5594
+    "components": 1296,
+    "concepts": 5764,
+    "observations": 5769,
+    "repos": 1920,
+    "terms": 5596
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -1819,6 +1819,7 @@
     "XiangLi1999/ContrastiveDecoding",
     "xiaojunxu/SQLNet",
     "xindongzhang/ECBSR",
+    "xingchensong/S3Tokenizer",
     "xinge008/Cylinder3D",
     "XinhaoMei/WavCaps",
     "xinjli/transphone",

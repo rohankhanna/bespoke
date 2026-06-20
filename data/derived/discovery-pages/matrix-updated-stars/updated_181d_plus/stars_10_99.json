@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 12291,
+    "components": 12298,
     "concepts": 7082,
     "observations": 7100,
-    "repos": 3345,
+    "repos": 3347,
     "terms": 7029
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -1883,6 +1883,7 @@
     "jonschlinkert/shallow-clone",
     "jonschlinkert/whence",
     "jordemort/action-pyright",
+    "Jorenar/minPlug",
     "josdejong/immutable-json-patch",
     "josejg/instruction_following_eval",
     "joshtriplett/metadeps",
@@ -2092,6 +2093,7 @@
     "lilbillybiscuit/chatbot-ui-toolllama",
     "limenlp/verl",
     "linebender/resvg-test-suite",
+    "linebender/simplecss",
     "linonetwo/MOSS-DockerFile",
     "LintaoAmons/context-menu.nvim",
     "LintaoAmons/VimEverywhere",

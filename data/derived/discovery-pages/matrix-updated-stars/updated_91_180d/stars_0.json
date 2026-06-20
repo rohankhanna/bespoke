@@ -3,7 +3,7 @@
     "components": 323,
     "concepts": 167,
     "observations": 168,
-    "repos": 100,
+    "repos": 99,
     "terms": 166
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -39,7 +39,6 @@
     "danielrosehill/Agent-Deploy",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/BTRFS-Snapper-MCP",
-    "danielrosehill/Claude-Model-Identifier",
     "danielrosehill/Data-Projects-Index",
     "danielrosehill/Failover-Internet-Israel-Notes",
     "danielrosehill/Israel-First-Aid",

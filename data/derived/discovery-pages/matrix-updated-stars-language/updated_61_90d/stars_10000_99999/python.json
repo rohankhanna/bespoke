@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 828,
-    "concepts": 742,
-    "observations": 746,
-    "repos": 100,
-    "terms": 778
+    "components": 858,
+    "concepts": 817,
+    "observations": 821,
+    "repos": 106,
+    "terms": 853
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -21,12 +21,16 @@
     "666ghj/MiroFish",
     "abetlen/llama-cpp-python",
     "aio-libs/aiohttp",
+    "akfamily/akshare",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
     "allenai/olmocr",
     "anthropics/claude-plugins-official",
     "assafelovic/gpt-researcher",
     "astral-sh/ty",
+    "benoitc/gunicorn",
+    "bentoml/OpenLLM",
+    "BlinkDL/RWKV-LM",
     "browser-use/browser-use",
     "camel-ai/owl",
     "caronc/apprise",
@@ -60,7 +64,6 @@
     "hpcaitech/Open-Sora",
     "Huanshere/VideoLingo",
     "huggingface/open-r1",
-    "huggingface/text-generation-inference",
     "k-dense-ai/scientific-agent-skills",
     "karpathy/autoresearch",
     "karpathy/nanochat",
@@ -76,6 +79,8 @@
     "microsoft/playwright-python",
     "microsoft/pyright",
     "mingrammer/diagrams",
+    "mlfoundations/open_clip",
+    "modelcontextprotocol/python-sdk",
     "nginx-proxy/nginx-proxy",
     "onyx-dot-app/onyx",
     "openai/evals",
@@ -92,6 +97,7 @@
     "pandas-dev/pandas",
     "pre-commit/pre-commit",
     "pydantic/pydantic-ai",
+    "pytest-dev/pytest",
     "python/mypy",
     "QwenLM/Qwen3-Coder",
     "ranger/ranger",

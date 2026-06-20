@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 25,
-    "terms": 100
+    "components": 116,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 22,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -23,20 +23,17 @@
     "cloudfoundry/runtime-ci",
     "cosmos/rosetta",
     "datachainlab/lcp-go",
-    "dwyl/learn-go",
     "energye/designer",
     "energye/examples",
     "exoscale/karpenter-provider-exoscale",
     "fluxcd/flux-schema",
     "gookit/cliui",
-    "goreleaser/sponsors",
+    "HuaweiCloudDeveloper/karpenter-provider-huawei",
     "huggingface/hf-csi-driver",
     "linode/karpenter-provider-linode",
     "probe-lab/tiros",
     "Seedloaf/mc-router-discovery",
     "transparency-dev/armored-witness-applet",
-    "transparency-dev/armored-witness-boot",
-    "transparency-dev/distributor",
     "usbarmory/boot-transparency",
     "walles/ftop"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 13,
-    "terms": 26
+    "components": 61,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 14,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "ainvaltin/nu_plugin_boltdb",
@@ -26,6 +26,7 @@
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
     "jonislutheran87/weclaw",
-    "kdubbo/api"
+    "kdubbo/api",
+    "transparency-dev/armored-witness-common"
   ]
 }

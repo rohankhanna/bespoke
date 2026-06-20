@@ -3,7 +3,7 @@
     "components": 2153,
     "concepts": 2015,
     "observations": 2021,
-    "repos": 864,
+    "repos": 865,
     "terms": 2003
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -479,6 +479,7 @@
     "JolifantoBambla/vk",
     "JolifantoBambla/vk-generator",
     "JolifantoBambla/vk-samples",
+    "Jorenar/minPlug",
     "JoyMoe/Ksuid.Net",
     "jpbruyere/Crow",
     "jpbruyere/shaderc.net",

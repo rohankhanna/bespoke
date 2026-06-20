@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 632,
-    "concepts": 444,
-    "observations": 453,
-    "repos": 100,
-    "terms": 450
+    "components": 700,
+    "concepts": 478,
+    "observations": 488,
+    "repos": 108,
+    "terms": 484
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
@@ -34,6 +34,7 @@
     "cosmos/ics23",
     "cpmech/russell",
     "crate-ci/committed",
+    "crisidev/bacon-ls",
     "criterion-rs/criterion.rs",
     "cryscan/web-rwkv",
     "ctz/graviola",
@@ -42,6 +43,7 @@
     "dfrg/swash",
     "dimforge/parry",
     "djc/tokio-retry",
+    "djkoloski/rust_serialization_benchmark",
     "DoumanAsh/xxhash-rust",
     "drahnr/cargo-spellcheck",
     "dtolnay/proc-macro2",
@@ -58,9 +60,11 @@
     "facebookexperimental/allocative",
     "FedericoPonzi/Horust",
     "filecoin-project/bellperson",
-    "firstbatchxyz/dkn-compute-node",
+    "filecoin-project/ref-fvm",
+    "foundry-rs/compilers",
     "FuelLabs/fuel-vm",
     "gdesmott/system-deps",
+    "georust/geojson",
     "getsentry/rust-sourcemap",
     "gimli-rs/addr2line",
     "gjtorikian/commonmarker",
@@ -77,6 +81,7 @@
     "matrix-org/seshat",
     "messense/jieba-rs",
     "mitsuhiko/similar-asserts",
+    "mozillazg/rust-pinyin",
     "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
     "nix-community/harmonia",
@@ -96,6 +101,7 @@
     "rust-lang/crater",
     "rust-lang/libz-sys",
     "rust-lang/rustwide",
+    "rust-lang/socket2",
     "rust-mobile/rust-android-examples",
     "rust-nvml/nvml-wrapper",
     "RustCrypto/AEADs",
@@ -104,6 +110,7 @@
     "rustmailer/rustmailer",
     "saghen/frizbee",
     "saphyr-rs/saphyr",
+    "shiinamiyuki/akari_render",
     "smol-rs/async-task",
     "sparsemat/sprs",
     "tauri-apps/muda",
@@ -111,6 +118,7 @@
     "tikv/jemallocator",
     "tracel-ai/models",
     "Traverse-Research/gpu-allocator",
+    "trifectatechfoundation/zlib-rs",
     "untitaker/hyperlink",
     "yeslogic/allsorts",
     "zimbatm/mdsh"

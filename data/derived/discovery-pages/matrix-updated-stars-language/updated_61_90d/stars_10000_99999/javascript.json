@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1706,
-    "concepts": 268,
-    "observations": 269,
-    "repos": 47,
-    "terms": 274
+    "components": 1812,
+    "concepts": 290,
+    "observations": 292,
+    "repos": 50,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "ai/nanoid",
     "anuraghazra/github-readme-stats",
+    "arkenfox/user.js",
     "auth0/node-jsonwebtoken",
     "Automattic/node-canvas",
     "avajs/ava",
@@ -41,14 +42,17 @@
     "josdejong/mathjs",
     "jquery/jquery-ui",
     "karma-runner/karma",
+    "Leaflet/Leaflet",
     "less/less.js",
     "markdown-it/markdown-it",
+    "markedjs/marked",
     "motdotla/dotenv",
     "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
     "pot-app/pot-desktop",
     "reactjs/react.dev",
+    "semantic-release/semantic-release",
     "svg/svgo",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",
@@ -57,7 +61,6 @@
     "vega/vega",
     "vercel-labs/agent-skills",
     "vuejs/vue-router",
-    "websockets/ws",
     "webtorrent/webtorrent",
     "welldone-software/why-did-you-render",
     "yarnpkg/yarn"

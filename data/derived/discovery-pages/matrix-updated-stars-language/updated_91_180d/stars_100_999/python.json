@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 558,
-    "concepts": 958,
-    "observations": 958,
-    "repos": 246,
-    "terms": 950
+    "components": 569,
+    "concepts": 977,
+    "observations": 978,
+    "repos": 249,
+    "terms": 969
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
+    "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "ai4co/rl4co",
@@ -110,6 +111,7 @@
     "guoweiyu/NeuroVLA",
     "haoxiangsnr/spiking-fullsubnet",
     "hasscc/hass-edge-tts",
+    "HazyResearch/zoology",
     "Helsinki-NLP/Opus-MT",
     "hkchengrex/CascadePSP",
     "HolyWu/vs-rife",
@@ -177,6 +179,7 @@
     "NVlabs/GTRS",
     "NVlabs/OmniVinci",
     "NVlabs/PS3",
+    "open-tinker/OpenTinker",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenDriveLab/DriveAGI",
     "OpenDriveLab/LaneSegNet",
@@ -189,6 +192,7 @@
     "pinokiofactory/cogstudio",
     "PramaLLC/BEN2",
     "PrithivirajDamodaran/FlashRank",
+    "psf/pyperf",
     "PyCQA/modernize",
     "pygeobuf/pygeobuf",
     "pypa/get-pip",
@@ -249,7 +253,6 @@
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
     "xArm-Developer/xArm-Python-SDK",
-    "xingchensong/S3Tokenizer",
     "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",

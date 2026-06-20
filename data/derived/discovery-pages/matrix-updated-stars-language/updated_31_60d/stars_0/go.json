@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 4,
-    "terms": 15
+    "components": 15,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "DataDog/vault",
     "kdubbo/xds-api",
-    "lakekeeper/lakekeeper-operator",
-    "transparency-dev/armored-witness-common"
+    "lakekeeper/lakekeeper-operator"
   ]
 }

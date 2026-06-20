@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 112,
-    "observations": 114,
-    "repos": 23,
-    "terms": 116
+    "components": 107,
+    "concepts": 128,
+    "observations": 130,
+    "repos": 25,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "alrra/dotfiles",
+    "antonbabenko/pre-commit-terraform",
     "bblanchon/pdfium-binaries",
     "bluesky-social/pds",
     "clangd/clangd",
@@ -23,6 +24,7 @@
     "devcontainers/features",
     "devcontainers/templates",
     "diet103/claude-code-infrastructure-showcase",
+    "docker-library/docker",
     "docker-library/golang",
     "docker-library/wordpress",
     "frankbria/ralph-claude-code",

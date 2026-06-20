@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 22
+    "components": 25,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 2,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
-    "8144225309/superscalar-wallet",
     "ipfs-examples/github-mgmt",
     "starfishmod/bonjour-service"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 493,
-    "concepts": 986,
-    "observations": 987,
-    "repos": 186,
-    "terms": 971
+    "components": 496,
+    "concepts": 982,
+    "observations": 983,
+    "repos": 183,
+    "terms": 967
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -95,7 +95,6 @@
     "huggingface/Math-Verify",
     "hustvl/VAD",
     "hyperopt/hyperopt",
-    "IBM/Project_CodeNet",
     "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
@@ -147,7 +146,6 @@
     "PaddlePaddle/PaddleSeg",
     "PaddlePaddle/PaddleSlim",
     "palantir/python-language-server",
-    "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
     "pdfminer/pdfminer.six",
     "pfnet/pfrl",
@@ -157,6 +155,7 @@
     "PyCQA/flake8-bugbear",
     "PyCQA/pycodestyle",
     "Pylons/pyramid",
+    "pytest-dev/pytest-cov",
     "Python-Markdown/markdown",
     "python-rope/rope",
     "python-semantic-release/python-semantic-release",
@@ -177,7 +176,6 @@
     "sirfz/tesserocr",
     "Softcatala/whisper-ctranslate2",
     "SublimeLinter/SublimeLinter",
-    "Supervisor/supervisor",
     "TencentCloudADP/youtu-agent",
     "tensorflow/agents",
     "the-moonwitch/Cozette",
@@ -193,7 +191,6 @@
     "weaviate/elysia",
     "webdataset/webdataset",
     "WenmuZhou/PytorchOCR",
-    "willisma/SiT",
     "yangyanli/PointCNN",
     "YosysHQ/icestorm",
     "Yuliang-Liu/Monkey",

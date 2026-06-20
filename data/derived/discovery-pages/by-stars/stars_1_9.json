@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11924,
-    "concepts": 5305,
-    "observations": 5315,
-    "repos": 2384,
-    "terms": 5324
+    "components": 11926,
+    "concepts": 5307,
+    "observations": 5317,
+    "repos": 2385,
+    "terms": 5326
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "0b01/tigris-and-euphrates",
@@ -1704,6 +1704,7 @@
     "MikeSteglich/pyCmpl3",
     "milly/runtray-ps",
     "mindreframer/ex_sqlean",
+    "mindreframer/sqlean",
     "MindWorkAI/ERI",
     "minihack-editor/minihack-editor.github.io",
     "mirage/coin",

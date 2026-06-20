@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1010,
-    "concepts": 3928,
-    "observations": 3930,
-    "repos": 999,
-    "terms": 3856
+    "components": 1012,
+    "concepts": 3934,
+    "observations": 3936,
+    "repos": 1003,
+    "terms": 3862
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -402,6 +402,7 @@
     "hzwer/ECCV2022-RIFE",
     "i-tu/Hasklig",
     "IBM/Dromedary",
+    "IBM/Project_CodeNet",
     "IceClear/StableSR",
     "IDEA-CCNL/Fengshenbang-LM",
     "IDEA-Research/detrex",
@@ -723,6 +724,7 @@
     "pallets-eco/blinker",
     "pallets/itsdangerous",
     "pallets/quart",
+    "Paper2Poster/Paper2Poster",
     "pengzhiliang/MAE-pytorch",
     "peritus/bumpversion",
     "petercorke/robotics-toolbox-python",
@@ -853,6 +855,7 @@
     "SUDO-AI-3D/zero123plus",
     "SunoAI-API/Suno-API",
     "sunset1995/DirectVoxGO",
+    "Supervisor/supervisor",
     "SUSYUSTC/MathTranslate",
     "SwinTransformer/Swin-Transformer-Object-Detection",
     "SwinTransformer/Swin-Transformer-Semantic-Segmentation",
@@ -950,6 +953,7 @@
     "welltop-cn/ComfyUI-TeaCache",
     "WenmuZhou/DBNet.pytorch",
     "whai362/PVT",
+    "willisma/SiT",
     "WisdomShell/codeshell",
     "WongKinYiu/PyTorch_YOLOv4",
     "WongKinYiu/ScaledYOLOv4",

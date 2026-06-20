@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 278,
-    "concepts": 275,
-    "observations": 275,
-    "repos": 58,
-    "terms": 271
+    "concepts": 279,
+    "observations": 279,
+    "repos": 59,
+    "terms": 275
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "abh/geodns",
@@ -39,6 +39,7 @@
     "flashbots/mev-boost",
     "gin-gonic/contrib",
     "github/git-sizer",
+    "go-redis/redis_rate",
     "go-rod/rod",
     "gobwas/ws",
     "goccy/go-json",

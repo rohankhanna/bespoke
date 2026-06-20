@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 440,
-    "concepts": 518,
-    "observations": 518,
-    "repos": 68,
-    "terms": 516
+    "components": 415,
+    "concepts": 491,
+    "observations": 491,
+    "repos": 63,
+    "terms": 489
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -38,10 +38,7 @@
     "FasterXML/jackson-modules-base",
     "FasterXML/woodstox",
     "googleapis/google-api-java-client-services",
-    "googleapis/google-auth-library-java",
-    "googleapis/google-oauth-java-client",
     "googleapis/java-bigtable-hbase",
-    "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "heroku/webapp-runner",
@@ -56,7 +53,6 @@
     "mapsforge/vtm",
     "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
-    "microsoft/Generative-AI-for-beginners-java",
     "microsoft/LangChain4j-for-Beginners",
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
@@ -74,7 +70,6 @@
     "samtools/htsjdk",
     "SAP/SapMachine",
     "sevntu-checkstyle/sevntu.checkstyle",
-    "spotbugs/sonar-findbugs",
     "swagger-api/swagger-inflector",
     "swagger-api/swagger-parser",
     "ThreeTen/threetenbp",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 647,
-    "concepts": 439,
-    "observations": 441,
+    "components": 651,
+    "concepts": 450,
+    "observations": 452,
     "repos": 171,
-    "terms": 434
+    "terms": 445
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
@@ -106,7 +106,6 @@
     "jgpc42/lein-jmh",
     "jmespath/jmespath.site",
     "joanroig/admincraft",
-    "Jorenar/minPlug",
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "js-temporal/proposal-temporal-v2",
@@ -163,6 +162,7 @@
     "rust-lang/crates-build-env",
     "Saalvage/AssimpNetter",
     "SchwarzIT/spectral-intellij-plugin",
+    "SciML/sciml.ai",
     "Shopify/quantified",
     "spring-ai-alibaba/website",
     "SqrtMinusOne/eshell-atuin",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2557,
-    "concepts": 511,
-    "observations": 515,
-    "repos": 91,
-    "terms": 511
+    "components": 2497,
+    "concepts": 499,
+    "observations": 502,
+    "repos": 88,
+    "terms": 499
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -23,7 +23,6 @@
     "appsignal/appsignal-javascript",
     "Azure/bicep-deploy",
     "Azure/powershell",
-    "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
     "cargo-bins/release-pr",
@@ -39,7 +38,6 @@
     "elastic/opentelemetry-demo",
     "electron/windows-sign",
     "emscripten-forge/mambajs",
-    "ethereum/eip-review-bot",
     "fabon-f/temporal-polyfill-lite",
     "fannheyward/coc-xml",
     "favware/esbuild-plugin-version-injector",
@@ -49,7 +47,6 @@
     "grafana/profiles-drilldown",
     "gridatek/semantic-icons",
     "hairyf/genapi",
-    "hashintel/labs",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",

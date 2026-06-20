@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 209,
-    "concepts": 197,
-    "observations": 198,
-    "repos": 44,
-    "terms": 194
+    "components": 199,
+    "concepts": 188,
+    "observations": 189,
+    "repos": 42,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "agentclientprotocol/java-sdk",
     "apache/arrow-java",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
-    "bazel-contrib/rules_jvm",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "bsorrentino/java-async-generator",
@@ -52,7 +51,6 @@
     "openjdk/jdk21u-dev",
     "opensim-org/opensim-gui",
     "qdrant/java-client",
-    "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud",

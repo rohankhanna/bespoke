@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 171,
-    "observations": 173,
-    "repos": 51,
-    "terms": 185
+    "components": 401,
+    "concepts": 225,
+    "observations": 227,
+    "repos": 61,
+    "terms": 239
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
+    "0x676e67/wreq-util",
     "64bit/commandOK",
     "adumbidiot/lz-str-rs",
     "alixinne/glsl-lang",
@@ -24,16 +25,22 @@
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
     "BlackDex/rust-musl",
+    "boundless-xyz/steel",
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
+    "chrisjsewell/markdown-it-pyrs",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
     "cpmech/gemlab",
     "crate-ci/imperative",
     "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
+    "filecoin-project/actors-utils",
+    "fortanix/rustls-mbedtls-provider",
+    "foundry-rs/foundry-fork-db",
     "FxEmbed/mosaic",
     "google/safe-mmio",
+    "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
@@ -45,7 +52,9 @@
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
     "libdeflater/libdeflater",
+    "major7apps/pensyve",
     "messense/py-promql-parser",
+    "multiformats/rust-cid",
     "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
@@ -64,6 +73,7 @@
     "tracel-ai/burn-bench",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
-    "Xuanwo/serde-env"
+    "Xuanwo/serde-env",
+    "zcash/pasta_curves"
   ]
 }

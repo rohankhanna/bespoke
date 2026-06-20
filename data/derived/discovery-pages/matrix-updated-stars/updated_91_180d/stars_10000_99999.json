@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1275,
-    "concepts": 780,
-    "observations": 784,
-    "repos": 128,
-    "terms": 784
+    "components": 1255,
+    "concepts": 789,
+    "observations": 793,
+    "repos": 129,
+    "terms": 793
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -61,6 +61,7 @@
     "GoogleChromeLabs/squoosh",
     "gulpjs/gulp",
     "guzzle/guzzle",
+    "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "i3/i3",
     "IdreesInc/Monocraft",
@@ -136,7 +137,7 @@
     "vitejs/awesome-vite",
     "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
-    "wechaty/wechaty",
+    "websockets/ws",
     "yoheinakajima/babyagi",
     "zsh-users/zsh-syntax-highlighting",
     "Zulko/moviepy",

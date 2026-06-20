@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 8,
-    "observations": 9,
-    "repos": 4,
-    "terms": 8
+    "components": 12,
+    "concepts": 11,
+    "observations": 12,
+    "repos": 5,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
+    "arnaud-lb/php-rdkafka",
     "CHIP-SPV/H4I-HipBLAS",
     "CHIP-SPV/H4I-HipFFT",
     "CHIP-SPV/H4I-HipSOLVER",

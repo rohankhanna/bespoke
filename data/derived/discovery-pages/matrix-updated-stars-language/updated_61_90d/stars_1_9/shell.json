@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 14,
-    "terms": 16
+    "components": 26,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 15,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "agent-sh/glidemq",
@@ -22,6 +22,7 @@
     "chronosphereio/calyptia-cli",
     "eea/eea.docker.gitflow",
     "hchiam/learning-bash-scripts",
+    "hermit-os/rust-std-hermit",
     "HKU-BAL/Clair-skills",
     "ihmcrobotics/repository-group",
     "marcindulak/ralph-wiggum-bdd",

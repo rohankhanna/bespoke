@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 10,
-    "terms": 69
+    "components": 92,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 9,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "dwyl/mvp",
-    "f3liz-casa/noraneko",
     "geocompx/docker",
     "jelly-beam/rebar3_ex_doc",
     "karafka/example-apps",

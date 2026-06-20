@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3950,
-    "concepts": 792,
-    "observations": 793,
-    "repos": 105,
-    "terms": 786
+    "components": 3789,
+    "concepts": 732,
+    "observations": 733,
+    "repos": 99,
+    "terms": 726
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "alphagov/govuk-frontend",
@@ -24,7 +24,6 @@
     "apache/cordova-ios",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
-    "Automattic/juice",
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
     "carbon-design-system/carbon",
@@ -67,7 +66,6 @@
     "mapbox/node-pre-gyp",
     "mapbox/pixelmatch",
     "mermaid-js/mermaid-cli",
-    "micromatch/picomatch",
     "middyjs/middy",
     "MikeMcl/bignumber.js",
     "minio/minio-js",
@@ -93,7 +91,6 @@
     "reZach/secure-electron-template",
     "RisingStack/react-easy-state",
     "SabakiHQ/Sabaki",
-    "sindresorhus/np",
     "stdlib-js/stdlib",
     "stylelint/stylelint-config-standard",
     "sveltejs/vite-plugin-svelte",
@@ -105,17 +102,14 @@
     "terser/terser",
     "testem/testem",
     "thlorenz/doctoc",
-    "tw-in-js/twind",
     "uBlockOrigin/uBOL-home",
     "umijs/dumi",
     "unifiedjs/unified",
     "violentmonkey/violentmonkey",
-    "vizzuhq/vizzu-lib",
     "WebKit/WebKit",
     "webpack/webpack-cli",
     "webpack/webpack-dev-middleware",
     "webpack/webpack-dev-server",
-    "webtorrent/bittorrent-dht",
     "WiseLibs/better-sqlite3",
     "xiangyuecn/Recorder",
     "yahoo/serialize-javascript"

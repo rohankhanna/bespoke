@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 464,
-    "concepts": 312,
-    "observations": 313,
-    "repos": 65,
-    "terms": 310
+    "components": 389,
+    "concepts": 279,
+    "observations": 280,
+    "repos": 58,
+    "terms": 277
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -30,10 +30,7 @@
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
-    "coder/coder-logstream-kube",
     "compozy/kb",
-    "connectrpc/conformance",
-    "connectrpc/grpchealth-go",
     "containers/container-libs",
     "cosmos/ibc-apps",
     "danielgtaylor/mexpr",
@@ -53,8 +50,6 @@
     "golangci/misspell",
     "gookit/ini",
     "gookit/rux",
-    "gopasspw/git-credential-gopass",
-    "gopasspw/gopass-hibp",
     "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
     "Kong/kong-operator",
@@ -69,13 +64,11 @@
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
-    "quicksilver-zone/quicksilver",
     "sigstore/helm-sigstore",
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "tendermint/tm-db",
     "terraform-linters/tflint-ruleset-google",
-    "transparency-dev/armored-witness",
     "transparency-dev/witness",
     "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example"

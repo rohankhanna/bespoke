@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 338,
-    "concepts": 437,
-    "observations": 439,
+    "components": 340,
+    "concepts": 445,
+    "observations": 447,
     "repos": 108,
-    "terms": 431
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "adamritter/fastgron",
+    "anacrolix/go-libutp",
     "angr/vex",
     "apache/rocketmq-client-cpp",
     "appwrite/playground-for-flutter",
@@ -49,7 +50,6 @@
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",
     "embeddedartistry/libmemory",
-    "erkyrath/glulxe",
     "frankmorgner/vsmartcard",
     "freebsd/atf",
     "google/effcee",

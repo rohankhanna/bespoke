@@ -3,7 +3,7 @@
     "components": 60,
     "concepts": 49,
     "observations": 49,
-    "repos": 50,
+    "repos": 49,
     "terms": 49
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -46,7 +46,6 @@
     "eddelbuettel/r2u-config",
     "emacs-straight/emacsmirror-mirror",
     "emacs-straight/gnu-elpa-mirror",
-    "flathub/org.gnome.eog",
     "haskell/ghcup-www",
     "hiyouga/llamafactory-community",
     "HKUDS/.github",

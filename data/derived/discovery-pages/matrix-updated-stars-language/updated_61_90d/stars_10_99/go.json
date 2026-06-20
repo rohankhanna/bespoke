@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 209,
-    "observations": 211,
-    "repos": 55,
-    "terms": 205
+    "components": 359,
+    "concepts": 242,
+    "observations": 244,
+    "repos": 62,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -34,7 +34,10 @@
     "cloudfoundry/bbs",
     "cloudwego/kitex-benchmark",
     "cmdjulian/mopy",
+    "coder/coder-logstream-kube",
     "cometbft/cometbft-db",
+    "connectrpc/conformance",
+    "connectrpc/grpchealth-go",
     "cosmos/cosmos-db",
     "darkweak/storages",
     "depado/bfchroma",
@@ -44,6 +47,8 @@
     "fgrehm/clotilde",
     "getlantern/.github",
     "GFW-knocker/AndroidLibXrayLite",
+    "gopasspw/git-credential-gopass",
+    "gopasspw/gopass-hibp",
     "gopasspw/gopass-jsonapi",
     "hashicorp/go-netaddrs",
     "hashicorp/hcp-sdk-go",
@@ -61,8 +66,10 @@
     "notaryproject/notation-go",
     "opea-project/GenAIInfra",
     "OpenCIDN/ocimirror",
+    "quicksilver-zone/quicksilver",
     "scaleway/serverless-examples",
     "tilt-dev/tilt-apiserver",
+    "transparency-dev/armored-witness",
     "usbarmory/armory-boot",
     "usbarmory/armory-drive",
     "usbarmory/armory-ums",

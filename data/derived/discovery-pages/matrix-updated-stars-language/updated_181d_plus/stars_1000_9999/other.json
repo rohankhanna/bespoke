@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1315,
-    "concepts": 1641,
-    "observations": 1643,
-    "repos": 437,
-    "terms": 1629
+    "components": 1330,
+    "concepts": 1664,
+    "observations": 1666,
+    "repos": 440,
+    "terms": 1652
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -56,6 +56,7 @@
     "baofff/U-ViT",
     "basho/bitcask",
     "basujindal/stable-diffusion",
+    "bazelbuild/rules_docker",
     "Beomi/KoAlpaca",
     "bhauman/lein-figwheel",
     "binaryage/cljs-devtools",
@@ -255,6 +256,7 @@
     "microsoft/ailab",
     "microsoft/CodeXGLUE",
     "microsoft/FASTER",
+    "microsoft/Security-101",
     "mileszs/ack.vim",
     "mislav/will_paginate",
     "mit-han-lab/torchsparse",
@@ -263,6 +265,7 @@
     "mlmed/torchxrayvision",
     "moby/datakit",
     "mojombo/chronic",
+    "monaqa/dial.nvim",
     "morkt/GARbro",
     "moses-smt/mosesdecoder",
     "mozilla-mobile/android-components",

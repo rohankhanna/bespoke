@@ -3,7 +3,7 @@
     "components": 233,
     "concepts": 112,
     "observations": 112,
-    "repos": 132,
+    "repos": 133,
     "terms": 112
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0x0ade/MonoMod-wip",
     "5sControl/.github",
@@ -56,6 +56,7 @@
     "danielrosehill/Claude-Code-Context-Feature-Requests",
     "danielrosehill/Claude-Interview-062325",
     "danielrosehill/Claude-Linux-Desktop-Manager",
+    "danielrosehill/Claude-Model-Identifier",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Claude-Security-Checkup-Plugin",
     "danielrosehill/Context-Chunker-Assistant",

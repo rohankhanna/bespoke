@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1548,
-    "concepts": 226,
-    "observations": 227,
-    "repos": 64,
-    "terms": 258
+    "components": 1603,
+    "concepts": 237,
+    "observations": 239,
+    "repos": 66,
+    "terms": 269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -27,6 +27,7 @@
     "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
+    "bolasblack/shadow-cljs-vite-plugin",
     "buddingnewinsights/proxypal",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
@@ -35,12 +36,13 @@
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
+    "ethereum/eip-review-bot",
     "favware/cliff-jumper",
     "gicentre/prettier-plugin-elm",
     "gnosischain/gbc-deposit-ui",
     "Godefroy/micdrop",
-    "gr2m/octokit-oauth-app-now-example",
     "GreptimeTeam/greptimedb-grafana-datasource",
+    "hashintel/labs",
     "haskell-actions/setup",
     "haskell/ghcup-setup",
     "holochain/kangaroo-electron",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 6,
-    "terms": 26
+    "concepts": 33,
+    "observations": 33,
+    "repos": 7,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "enaqx/awesome-react",
     "multica-ai/andrej-karpathy-skills",
     "othneildrew/Best-README-Template",
     "sindresorhus/awesome-nodejs",
+    "tc39/proposals",
     "vuejs/awesome-vue",
     "xtaci/kcptun"
   ]

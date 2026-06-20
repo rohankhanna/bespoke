@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1756,
-    "concepts": 948,
-    "observations": 955,
-    "repos": 77,
-    "terms": 947
+    "components": 1753,
+    "concepts": 941,
+    "observations": 948,
+    "repos": 76,
+    "terms": 940
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -58,7 +58,6 @@
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
     "nwjs/nw.js",
-    "oobabooga/textgen",
     "OpenHands/OpenHands",
     "OpenMOSS/MOSS",
     "PDFMathTranslate/PDFMathTranslate",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 652,
-    "concepts": 821,
-    "observations": 822,
-    "repos": 81,
-    "terms": 817
+    "components": 632,
+    "concepts": 803,
+    "observations": 804,
+    "repos": 78,
+    "terms": 799
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "agents-flex/agents-flex",
@@ -56,9 +56,7 @@
     "google/error-prone",
     "google/google-java-format",
     "google/tsunami-security-scanner-plugins",
-    "googleapis/google-api-java-client",
     "googleapis/google-cloud-java",
-    "googleapis/google-http-java-client",
     "hazelcast/hazelcast",
     "iterate-ch/cyberduck",
     "java-native-access/jna",
@@ -85,7 +83,6 @@
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "soot-oss/soot",
-    "spotbugs/spotbugs",
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples",
     "spring-projects/spring-ai",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 208,
-    "observations": 208,
-    "repos": 51,
-    "terms": 207
+    "components": 37,
+    "concepts": 219,
+    "observations": 219,
+    "repos": 54,
+    "terms": 218
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "actions/partner-runner-images",
     "adoptium/adoptium",
@@ -32,10 +32,12 @@
     "cloudflare/skills",
     "cncf/artwork",
     "cosmos/awesome-cosmos",
+    "django/deps",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
     "dotnet/source-build",
     "e18e/ecosystem-issues",
+    "emberjs/rfcs",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "filecoin-project/community",
@@ -48,8 +50,8 @@
     "integrations/microsoft-teams",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
     "MicrosoftDocs/terminal",
-    "near/borsh",
     "nimbalyst/nimbalyst",
+    "oak-security/audit-reports",
     "oobabooga/textgen-extensions",
     "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
@@ -60,6 +62,7 @@
     "scott0107000/BoutiqueBitmap7x7",
     "sedyh/awesome-ebitengine",
     "servo/project",
+    "stripe/openapi",
     "tc39/how-we-work",
     "Uzaaft/awesome-libghostty",
     "web-platform-tests/rfcs",

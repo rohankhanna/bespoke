@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 315,
-    "concepts": 471,
-    "observations": 472,
+    "components": 319,
+    "concepts": 467,
+    "observations": 468,
     "repos": 83,
-    "terms": 463
+    "terms": 459
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
@@ -24,7 +24,6 @@
     "AlibabaResearch/AdvancedLiterateMachinery",
     "arrayfire/arrayfire",
     "ashvardanian/less_slow.cpp",
-    "attractivechaos/klib",
     "bblanchon/ArduinoJson",
     "brandur/redis-cell",
     "brianmario/yajl-ruby",
@@ -35,6 +34,7 @@
     "cocos/cocos-engine",
     "coin-or/Ipopt",
     "colmap/glomap",
+    "containers/bubblewrap",
     "cpputest/cpputest",
     "cztomczak/cefpython",
     "duckdb/pg_duckdb",

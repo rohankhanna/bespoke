@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2386,
-    "concepts": 507,
-    "observations": 515,
-    "repos": 97,
-    "terms": 502
+    "components": 2193,
+    "concepts": 480,
+    "observations": 486,
+    "repos": 92,
+    "terms": 475
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -26,13 +26,11 @@
     "auth0/node-jws",
     "avoidwork/tiny-lru",
     "aws/aws-cdk-rfcs",
-    "bcomnes/npm-run-all2",
     "Brooooooklyn/snappy",
     "browserslist/caniuse-lite",
     "browserslist/update-db",
     "Calcium-Ion/new-api-key-tool",
     "carbon-design-system/carbon-components-vue",
-    "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
     "commitizen/cz-conventional-changelog",
     "conda-forge/conda-forge.github.io",
@@ -54,7 +52,6 @@
     "gitleaks/gitleaks-action",
     "GoogleCloudPlatform/google-cloud-node-todos",
     "GordonChen19/Prompt-Relay",
-    "higlass/higlass",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "i18next/i18next-fs-backend",
@@ -94,8 +91,6 @@
     "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
-    "semantic-release/commit-analyzer",
-    "semantic-release/github",
     "speced/respec",
     "stylelint/stylelint-config-recommended",
     "sveltejs/dts-buddy",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 161,
-    "observations": 161,
-    "repos": 31,
-    "terms": 161
+    "components": 364,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 30,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "alloy-rs/evm",
     "amazon-ion/ion-cli",
@@ -19,7 +19,6 @@
     "cloudfoundry/credhub-cli",
     "dwyl/mvp",
     "edge-classic/EDGE-classic",
-    "f3liz-casa/noraneko",
     "FAIR-IMPACT/MOD",
     "geocompx/docker",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",

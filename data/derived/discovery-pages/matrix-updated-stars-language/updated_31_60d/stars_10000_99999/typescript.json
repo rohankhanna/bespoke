@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10127,
-    "concepts": 1527,
-    "observations": 1538,
-    "repos": 134,
-    "terms": 1522
+    "components": 9870,
+    "concepts": 1489,
+    "observations": 1498,
+    "repos": 129,
+    "terms": 1484
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -22,7 +22,6 @@
     "ant-design/ant-design",
     "apache/echarts",
     "apache/superset",
-    "apollographql/apollo-client",
     "apollographql/apollo-server",
     "appium/appium",
     "appwrite/appwrite",
@@ -33,7 +32,6 @@
     "bitwarden/clients",
     "bluesky-social/social-app",
     "bokeh/bokeh",
-    "browserless/browserless",
     "bytedance/UI-TARS-desktop",
     "calcom/cal.diy",
     "changesets/changesets",
@@ -62,7 +60,6 @@
     "FlowiseAI/Flowise",
     "formatjs/formatjs",
     "fuma-nama/fumadocs",
-    "gcanti/fp-ts",
     "google/brotli",
     "GoogleChromeLabs/comlink",
     "grafana/grafana",
@@ -100,7 +97,6 @@
     "nrwl/nx",
     "nuxt/nuxt",
     "oblador/react-native-vector-icons",
-    "openai/openai-node",
     "openobserve/openobserve",
     "paulmillr/chokidar",
     "pmndrs/react-three-fiber",
@@ -137,7 +133,6 @@
     "typescript-eslint/typescript-eslint",
     "vitejs/vite",
     "vitest-dev/vitest",
-    "VSCodeVim/Vim",
     "vuejs/core",
     "vuejs/vitepress",
     "vueuse/vueuse",

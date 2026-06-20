@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 33,
-    "terms": 113
+    "components": 135,
+    "concepts": 103,
+    "observations": 104,
+    "repos": 30,
+    "terms": 103
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
@@ -25,8 +25,6 @@
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "goharbor/community",
-    "google/oss-policies-info",
-    "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "jupyterlab/frontends-team-compass",
     "microsoft/microsoft-foundry-for-vscode",
     "mypyc/mypyc-benchmark-results",
@@ -45,7 +43,6 @@
     "Stardust-SJF/cuvs_rabitq",
     "supabase/scoop-bucket",
     "universal-ctags/ctags-nightly-build",
-    "uxlfoundation/foundation",
-    "webdriverio/awesome-webdriverio"
+    "uxlfoundation/foundation"
   ]
 }

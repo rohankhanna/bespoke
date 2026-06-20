@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 655,
-    "concepts": 756,
-    "observations": 761,
-    "repos": 148,
-    "terms": 759
+    "components": 645,
+    "concepts": 738,
+    "observations": 743,
+    "repos": 146,
+    "terms": 741
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -28,7 +28,6 @@
     "auto-complete/auto-complete",
     "autofac/Autofac",
     "bakpakin/Fennel",
-    "bazelbuild/rules_docker",
     "bbatsov/crux",
     "bbatsov/projectile",
     "bblimke/webmock",
@@ -65,6 +64,7 @@
     "fairygui/FairyGUI-unity",
     "flycheck/flycheck",
     "folke/lazydev.nvim",
+    "folke/snacks.nvim",
     "formtastic/formtastic",
     "freerange/mocha",
     "fsprojects/Paket",
@@ -108,9 +108,7 @@
     "michalmuskala/jason",
     "microsoft/BotBuilder-Samples",
     "microsoft/mssql-docker",
-    "microsoft/Security-101",
     "microsoft/TextWorld",
-    "monaqa/dial.nvim",
     "mono/CppSharp",
     "msasanmh/DNSveil",
     "myclabs/DeepCopy",

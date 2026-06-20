@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 232,
-    "observations": 232,
-    "repos": 37,
-    "terms": 233
+    "components": 274,
+    "concepts": 268,
+    "observations": 268,
+    "repos": 42,
+    "terms": 268
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
@@ -23,18 +23,23 @@
     "deepseek-ai/FlashMLA",
     "esp8266/Arduino",
     "facebook/zstd",
+    "fmtlib/fmt",
     "g-truc/glm",
     "gabime/spdlog",
+    "git/git",
     "glfw/glfw",
+    "google/benchmark",
     "google/flatbuffers",
     "google/googletest",
     "google/sanitizers",
     "google/skia",
     "haiwen/seafile",
     "jedisct1/libsodium",
+    "jonas/tig",
     "libevent/libevent",
     "libgit2/libgit2",
     "mawww/kakoune",
+    "microsoft/WSL2-Linux-Kernel",
     "microsoft/wslg",
     "mobile-shell/mosh",
     "ninja-build/ninja",

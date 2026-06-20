@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3085,
-    "concepts": 1709,
-    "observations": 1715,
-    "repos": 637,
-    "terms": 1717
+    "components": 3093,
+    "concepts": 1722,
+    "observations": 1728,
+    "repos": 639,
+    "terms": 1730
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "10up/action-repo-automator",
@@ -67,6 +67,7 @@
     "alexmojaki/stack_data",
     "Alibaba-Quark/SSP",
     "AliRezaBeigy/paqetNG",
+    "all-the-noises/eval-arena",
     "alloy-rs/op-alloy",
     "amaranth-lang/amaranth-stdio",
     "amerkoleci/Alimer.Bindings",
@@ -281,6 +282,7 @@
     "filecoin-project/blstrs",
     "filecoin-project/go-data-transfer",
     "filecoin-project/rust-filecoin-proofs-api",
+    "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "flatpak/flatpak-xdg-utils",
     "flycheck/flycheck-eglot",
@@ -313,6 +315,7 @@
     "googlefonts/nam-files",
     "googlefonts/shaperglot",
     "gozaltech/espeak-ng-sapi",
+    "gr2m/octokit-oauth-app-now-example",
     "graphql/composite-schemas-spec",
     "gregorias/toggle.nvim",
     "GuiWonder/HuayingMincho",
@@ -393,7 +396,6 @@
     "jokkebk/JUnzip",
     "joliss/node-walk-sync",
     "jonas-k/coremidi-sys",
-    "Jorenar/minPlug",
     "josdejong/typed-function",
     "joseluisq/paket",
     "JPEWdev/icecream-sundae",
@@ -434,7 +436,6 @@
     "libp2p/if-watch",
     "ligershark/WebOptimizer.Sass",
     "lindera/lindera-tantivy",
-    "linebender/simplecss",
     "LINs-lab/RCGM",
     "liquidev/lintplus",
     "liran-funaro/sphinx-markdown-builder",
@@ -563,6 +564,7 @@
     "scaleway/serverless-gateway",
     "SchwarzIT/api-linter-rules",
     "SchwarzIT/spectral-intellij-plugin",
+    "SciML/sciml.ai",
     "sclorg/welcome",
     "sculptdotfun/viberank",
     "seaweedfs/seaweedfs-cosi-driver",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1111,
-    "concepts": 960,
-    "observations": 963,
-    "repos": 247,
-    "terms": 954
+    "components": 1115,
+    "concepts": 963,
+    "observations": 966,
+    "repos": 249,
+    "terms": 957
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -93,6 +93,7 @@
     "Dao-AILab/causal-conv1d",
     "DarthAffe/StableDiffusion.NET",
     "dashbitco/nimble_options",
+    "dashbitco/nimble_pool",
     "declare-lab/TangoFlux",
     "detekt/detekt-intellij-plugin",
     "djezzzl/factory_trace",
@@ -199,6 +200,7 @@
     "prettier/prettier-emacs",
     "proper-testing/proper",
     "pug-php/pug",
+    "queryverse/Query.jl",
     "r-lib/covr",
     "r-lib/revdepcheck",
     "radian-software/ctrlf",

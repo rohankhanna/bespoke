@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1169,
-    "concepts": 606,
-    "observations": 607,
-    "repos": 95,
-    "terms": 604
+    "components": 1147,
+    "concepts": 589,
+    "observations": 590,
+    "repos": 91,
+    "terms": 588
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
@@ -40,7 +40,6 @@
     "confluentinc/librdkafka",
     "devcontainers/devcontainers.github.io",
     "digitalocean/openapi",
-    "dwyl/quotes",
     "eclipse-tm4e/tm4e",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "electron/packager",
@@ -55,7 +54,6 @@
     "git-friendly/git-friendly",
     "GitoxideLabs/cargo-smart-release",
     "Gnathonic/mokuro-reader",
-    "google-deepmind/reverb",
     "google/protobuf.dart",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
@@ -76,12 +74,10 @@
     "meshcat-dev/meshcat",
     "mightyiam/eslint-config-love",
     "NCAS-CMS/pyfive",
-    "nginx-le/nginx-le",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
     "preactjs/preact-devtools",
-    "pyOpenSci/software-submission",
     "pypa/build",
     "pypa/setuptools-scm",
     "pyrtlsdr/pyrtlsdr",

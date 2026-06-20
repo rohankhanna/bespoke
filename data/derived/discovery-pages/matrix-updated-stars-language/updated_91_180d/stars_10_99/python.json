@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 364,
-    "concepts": 316,
-    "observations": 317,
-    "repos": 121,
-    "terms": 323
+    "components": 370,
+    "concepts": 317,
+    "observations": 318,
+    "repos": 123,
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -23,6 +23,7 @@
     "alexmojaki/pure_eval",
     "alexmojaki/stack_data",
     "Alibaba-Quark/SSP",
+    "all-the-noises/eval-arena",
     "amaranth-lang/amaranth-stdio",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
@@ -61,6 +62,7 @@
     "ENCODE-DCC/caper",
     "enjoy-digital/liteiclink",
     "enjoy-digital/litex_hw_ci",
+    "FindDefinition/cumm",
     "fla-org/flash-bidirectional-linear-attention",
     "foldl/AlphaGeometryRE",
     "fsspec/sshfs",

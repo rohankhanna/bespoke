@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1087,
-    "concepts": 663,
-    "observations": 665,
-    "repos": 274,
-    "terms": 667
+    "components": 1085,
+    "concepts": 661,
+    "observations": 663,
+    "repos": 273,
+    "terms": 665
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0b01/tigris-and-euphrates",
     "0k/shyaml-rs",
@@ -152,7 +152,6 @@
     "guoqingbao/flashattn.rs",
     "guoqingbao/rustchatui",
     "hailiang-wang/llm-get-started",
-    "hashberg-io/typing-validation",
     "haskell-compat/base-orphans",
     "haya14busa/github-used-by",
     "hchiam/chat-app-fcc-react-redux",

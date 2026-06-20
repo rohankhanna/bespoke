@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 151,
-    "observations": 151,
-    "repos": 29,
-    "terms": 151
+    "components": 48,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 26,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
-    "alchaincyf/zhangxuefeng-skill",
     "aws-controllers-k8s/community",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
@@ -25,7 +24,6 @@
     "ephtracy/voxel-model",
     "flathub/flathub",
     "github/rest-api-description",
-    "godotengine/awesome-godot",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",
     "logseq/awesome-logseq",
@@ -35,7 +33,6 @@
     "meituan-longcat/LongCat-Flash-Chat",
     "MicrosoftDocs/cpp-docs",
     "QwenLM/Qwen3.6",
-    "ratatui/awesome-ratatui",
     "runetfreedom/russia-v2ray-rules-dat",
     "rust-embedded/awesome-embedded-rust",
     "rust-embedded/wg",

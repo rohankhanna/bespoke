@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 14,
-    "terms": 132
+    "concepts": 125,
+    "observations": 125,
+    "repos": 13,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
@@ -26,7 +26,6 @@
     "microsoft/winget-pkgs",
     "obsidianmd/obsidian-releases",
     "punkpeye/awesome-mcp-servers",
-    "tc39/proposals",
     "veggiemonk/awesome-docker"
   ]
 }

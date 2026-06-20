@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 277,
-    "observations": 280,
-    "repos": 47,
-    "terms": 269
+    "components": 194,
+    "concepts": 256,
+    "observations": 259,
+    "repos": 45,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -23,7 +23,6 @@
     "cloudfoundry/bosh-deployment",
     "dani-garcia/bw_web_builds",
     "denysdovhan/dotfiles",
-    "docker-library/drupal",
     "docker-library/ruby",
     "gentoo/guru",
     "getsolus/packages",
@@ -42,6 +41,7 @@
     "microcai/gentoo-zh",
     "mozilla/addons",
     "msys2/msys2-installer",
+    "nginx-le/nginx-le",
     "NVIDIA/enroot",
     "opea-project/GenAIExamples",
     "openshift/release",
@@ -51,7 +51,6 @@
     "reviewdog/action-suggester",
     "rocker-org/rocker-versioned2",
     "rust-cross/rust-musl-cross",
-    "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
@@ -59,7 +58,6 @@
     "tinted-theming/schemes",
     "tonistiigi/xx",
     "TypedDevs/bashunit",
-    "ungoogled-software/ungoogled-chromium-archlinux",
-    "unixorn/zsh-quickstart-kit"
+    "ungoogled-software/ungoogled-chromium-archlinux"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 638,
-    "concepts": 455,
-    "observations": 456,
-    "repos": 89,
-    "terms": 454
+    "components": 555,
+    "concepts": 401,
+    "observations": 402,
+    "repos": 79,
+    "terms": 400
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
-    "0x676e67/wreq-util",
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
     "ai-dynamo/modelexpress",
@@ -36,10 +35,8 @@
     "bnb-chain/reth-bsc",
     "boozook/mdbook-svgbob",
     "boundless-xyz/kailua",
-    "boundless-xyz/steel",
     "bourumir-wyngs/serde-yaml-bw",
     "celo-org/celo-threshold-bls-rs",
-    "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
@@ -49,14 +46,10 @@
     "eth-act/ere",
     "eth-act/zkboost",
     "fallow-rs/oxc-coverage-instrument",
-    "filecoin-project/actors-utils",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
-    "fortanix/rustls-mbedtls-provider",
-    "foundry-rs/foundry-fork-db",
     "g-plane/raffia",
     "GreptimeTeam/greptimedb-ingester-rust",
-    "GreptimeTeam/promql-parser",
     "hecrj/iced_palace",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
@@ -74,13 +67,11 @@
     "launchdarkly/rust-server-sdk",
     "ldclabs/anda-db",
     "ldclabs/anda-hippocampus",
-    "major7apps/pensyve",
     "martinthomson/ohttp",
     "matter-labs/zksync-crypto",
     "mdn/rari",
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
-    "multiformats/rust-cid",
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
     "nico-abram/blondie",
@@ -101,7 +92,6 @@
     "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",
-    "urschrei/rdp",
-    "zcash/pasta_curves"
+    "urschrei/rdp"
   ]
 }

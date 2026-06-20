@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3446,
-    "concepts": 1716,
-    "observations": 1719,
-    "repos": 340,
-    "terms": 1690
+    "components": 3498,
+    "concepts": 1727,
+    "observations": 1730,
+    "repos": 341,
+    "terms": 1701
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -336,6 +336,7 @@
     "waditu/tushare",
     "web3/web3.js",
     "WebAssembly/design",
+    "wechaty/wechaty",
     "wg/wrk",
     "winfunc/opcode",
     "winstonjs/winston",

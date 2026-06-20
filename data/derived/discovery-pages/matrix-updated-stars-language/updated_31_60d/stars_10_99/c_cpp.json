@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 418,
-    "observations": 419,
-    "repos": 63,
-    "terms": 413
+    "components": 326,
+    "concepts": 406,
+    "observations": 407,
+    "repos": 59,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
@@ -36,7 +36,6 @@
     "DeepLink-org/DLSlime",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
-    "f32c/tools",
     "facebook/fb303",
     "gazebosim/gz-common",
     "gazebosim/gz-fuel-tools",
@@ -61,7 +60,6 @@
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
     "narugit/smctemp",
-    "nx10/unigd",
     "oneapi-src/unified-memory-framework",
     "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
@@ -71,8 +69,6 @@
     "ROCm/rpp",
     "skeeto/dcmake",
     "walbourn/directxmathtest",
-    "walbourn/directxtextest",
-    "walbourn/directxtktest",
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
     "yquake2/yquake2remaster",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 412,
-    "concepts": 861,
-    "observations": 861,
-    "repos": 230,
-    "terms": 849
+    "concepts": 868,
+    "observations": 868,
+    "repos": 231,
+    "terms": 856
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -36,6 +36,7 @@
     "asmvik/skhd",
     "astrand/xclip",
     "atomicobject/heatshrink",
+    "attractivechaos/klib",
     "baidu/braft",
     "baidu/Familia",
     "baidu/sofa-pbrpc",

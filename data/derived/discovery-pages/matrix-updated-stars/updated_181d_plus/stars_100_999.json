@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15979,
-    "concepts": 14542,
-    "observations": 14570,
-    "repos": 4740,
-    "terms": 14314
+    "components": 15985,
+    "concepts": 14545,
+    "observations": 14573,
+    "repos": 4743,
+    "terms": 14317
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1517,6 +1517,7 @@
     "EricLBuehler/xlora",
     "erigontech/silkworm",
     "erizmr/SPH_Taichi",
+    "erkyrath/glulxe",
     "erkyrath/lectrote",
     "erkyrath/quixe",
     "ermongroup/ncsnv2",
@@ -4090,6 +4091,7 @@
     "spf13/cobra-cli",
     "spiegelp/MaterialDesignExtensions",
     "spiffe/spire-tutorials",
+    "spring-ai-community/awesome-spring-ai",
     "spring-attic/head-first-reactive-with-spring-and-reactor",
     "spring-attic/reactive-streams-commons",
     "sql-js/react-sqljs-demo",
@@ -4587,6 +4589,7 @@
     "XiangLi1999/ContrastiveDecoding",
     "xiaojunxu/SQLNet",
     "xindongzhang/ECBSR",
+    "xingchensong/S3Tokenizer",
     "xinge008/Cylinder3D",
     "XinhaoMei/WavCaps",
     "xinjli/transphone",

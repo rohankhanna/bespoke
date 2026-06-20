@@ -1,28 +1,25 @@
 {
   "counts": {
-    "components": 388,
-    "concepts": 245,
-    "observations": 245,
-    "repos": 148,
-    "terms": 245
+    "components": 359,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 138,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-20T06:01:18.916197+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "8144225309/superscalar-cln",
-    "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
     "abdeladim-s/pywhispercpp",
-    "AdaCore/vss-extra",
     "aidenlab/spacewalk",
     "aidenlab/swtool",
     "angular/angular-build-builds",
-    "arnaud-lb/php-rdkafka",
     "arnaud-lb/php-rdkafka-doc",
     "atsushieno/aap-lv2-string-machine",
     "buty4649/mruby-yyjson",
@@ -48,7 +45,6 @@
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
-    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Layers",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
@@ -67,7 +63,6 @@
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
-    "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
@@ -84,12 +79,10 @@
     "danielrosehill/Claude-Gist-Writer-Plugin",
     "danielrosehill/Claude-Github-Explorer-Plugin",
     "danielrosehill/Claude-GPG-Ops-Plugin",
-    "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Hardware-Spec-Assembly-Plugin",
     "danielrosehill/Claude-Hopper",
     "danielrosehill/Claude-HP5200-Skill-plugin",
-    "danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "danielrosehill/Claude-Image-Annotation-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
@@ -104,7 +97,6 @@
     "danielrosehill/Claude-Personal-Planning-Plugin",
     "danielrosehill/DOCS.md",
     "danielrosehill/ENVIRONMENT.md",
-    "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/GROUNDING.md",
     "danielrosehill/Hypothesis-Council",
     "danielrosehill/Israel-Projects-Index",
@@ -150,7 +142,6 @@
     "qiayuanl/unitree_buildfarm",
     "regro/cf-graph-countyfair",
     "rltakashige/mlx-jaccl-fix-small-recv",
-    "roampal-ai/roampal-labs",
     "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced",
@@ -159,7 +150,6 @@
     "Strivin0311/strivin0311.github.io",
     "superfarther/K2V",
     "TransferQueue/community_doc",
-    "transparency-dev/armored-witness-common",
     "UnknownPlatypus/markup_fmt"
   ]
 }
