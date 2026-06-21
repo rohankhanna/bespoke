@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/choco-release.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/macos-installer.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos-installer.yml"
     },
@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/macos-installer.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/make-check-win.yml"
     },
@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/make-check-win.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/make-check.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/make-rpm.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/make-rpm.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/qe-image.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/qe-image.yml"
     },
@@ -133,7 +133,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/choco-release.yml",
       "source_repo": "crc-org/crc",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -217,7 +217,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos-installer.yml",
       "source_repo": "crc-org/crc",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -245,7 +245,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/make-check-win.yml",
       "source_repo": "crc-org/crc",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -266,7 +266,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/make-check.yml",
       "source_repo": "crc-org/crc",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -294,7 +294,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/make-rpm.yml",
       "source_repo": "crc-org/crc",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -329,7 +329,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/qe-image.yml",
       "source_repo": "crc-org/crc",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -410,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:19:26.724292+00:00",
+  "fetched_at": "2026-06-21T19:39:16.847595+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -418,7 +418,7 @@
     },
     {
       "path": "go.mod",
-      "size": 9637
+      "size": 9609
     },
     {
       "path": ".github/workflows/choco-release.yml",
@@ -462,7 +462,7 @@
     "full_name": "crc-org/crc",
     "html_url": "https://github.com/crc-org/crc",
     "language": "Go",
-    "pushed_at": "2026-05-29T19:53:19Z",
+    "pushed_at": "2026-06-20T08:24:08Z",
     "stargazers_count": 1384,
     "topics": [
       "cluster",
@@ -475,7 +475,7 @@
       "testing-and-development",
       "virtualization"
     ],
-    "updated_at": "2026-05-28T09:30:50Z"
+    "updated_at": "2026-06-21T16:41:58Z"
   },
   "repo_links": [
     {

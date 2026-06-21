@@ -19,6 +19,18 @@
       "source_repo": "hakadao/CherryStudio-Aero",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+      "status": "candidate-context",
+      "text": "A cross-platform frameless window based on PyQt/PySide, support Win32, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hakadao/CherryStudio-Aero",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hakadao/CherryStudio-Aero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

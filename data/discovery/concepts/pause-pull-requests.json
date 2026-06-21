@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pause Pull Requests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Autonomous multi-session AI coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Pause Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate",
+      "text": "Pause Pull Requests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "breathing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "cease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18159,
+      "status": "candidate",
+      "text": "ceasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "halt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "sit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pause Pull Requests",
+  "concept_id": "pause-pull-requests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/pause-pull-requests.yml",
+      "source_repo": "AndyMik90/Aperant"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pause Pull Requests",
+      "sense_id": "pause-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

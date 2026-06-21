@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v6.0.3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-deploy-on-pypi.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/install-from-conda.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v6.0.3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/joss-draft-pdf.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/joss-draft-pdf.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v6.0.3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/pytest.yml"
     },
     {
-      "component": "codecov/codecov-action@v6",
+      "component": "codecov/codecov-action@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     }
@@ -68,7 +68,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -110,7 +110,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/joss-draft-pdf.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -138,7 +138,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -152,7 +152,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "NCAS-CMS/pyfive",
-      "target": "codecov/codecov-action@v6",
+      "target": "codecov/codecov-action@v7.0.0",
       "target_type": "component"
     },
     {
@@ -163,7 +163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:24:22.172466+00:00",
+  "fetched_at": "2026-06-21T19:43:45.392648+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -175,7 +175,7 @@
     },
     {
       "path": ".github/workflows/build-and-deploy-on-pypi.yml",
-      "size": 1292
+      "size": 1296
     },
     {
       "path": ".github/workflows/install-from-conda.yml",
@@ -183,11 +183,11 @@
     },
     {
       "path": ".github/workflows/joss-draft-pdf.yml",
-      "size": 1067
+      "size": 1071
     },
     {
       "path": ".github/workflows/pytest.yml",
-      "size": 2395
+      "size": 2403
     }
   ],
   "related_repositories": [],
@@ -199,10 +199,10 @@
     "full_name": "NCAS-CMS/pyfive",
     "html_url": "https://github.com/NCAS-CMS/pyfive",
     "language": "Python",
-    "pushed_at": "2026-05-28T13:57:36Z",
-    "stargazers_count": 101,
+    "pushed_at": "2026-06-17T12:58:38Z",
+    "stargazers_count": 103,
     "topics": [],
-    "updated_at": "2026-05-28T13:57:49Z"
+    "updated_at": "2026-06-17T12:58:43Z"
   },
   "repo_links": [
     {

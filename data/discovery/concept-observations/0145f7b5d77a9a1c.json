@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "You like pytorch? You like micrograd? You love tinygrad! \u2764\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark with kernel search"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark with kernel search"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "gist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19787,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19581,
+      "status": "candidate",
+      "text": "biohazard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19581,
+      "status": "candidate",
+      "text": "huntsville"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19581,
+      "status": "candidate",
+      "text": "mecca"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark with kernel search",
+      "sense_id": "benchmark-with-kernel-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-with-kernel-search",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-with-kernel-search",
+  "observation_id": "0145f7b5d77a9a1c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "Benchmark with kernel search",
+  "source_context_snippet": "Benchmark with kernel search",
+  "source_file": ".github/workflows/benchmark_search.yml",
+  "source_repo": "tinygrad/tinygrad",
+  "source_repo_description": "You like pytorch? You like micrograd? You love tinygrad! \u2764\ufe0f "
+}

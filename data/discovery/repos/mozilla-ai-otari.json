@@ -3,97 +3,137 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "docker/setup-qemu-action@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "docker/setup-buildx-action@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "docker/login-action@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "docker/metadata-action@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "docker/build-push-action@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "docker/build-push-action@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "peter-evans/dockerhub-description@v5",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "actions/create-github-app-token@v2",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml"
+      "source_file": ".github/workflows/otari-docker.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-lint.yml"
+      "source_file": ".github/workflows/otari-lint.yml"
     },
     {
       "component": "astral-sh/setup-uv@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-lint.yml"
+      "source_file": ".github/workflows/otari-lint.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-pr-title.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml"
+      "source_file": ".github/workflows/otari-release.yml"
     },
     {
       "component": "astral-sh/setup-uv@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml"
-    },
-    {
-      "component": "codecov/codecov-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml"
+      "source_file": ".github/workflows/otari-release.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml"
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml"
     },
     {
       "component": "astral-sh/setup-uv@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml"
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-typecheck.yml"
+      "source_file": ".github/workflows/otari-sdk-codegen.yml"
     },
     {
       "component": "astral-sh/setup-uv@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-typecheck.yml"
+      "source_file": ".github/workflows/otari-sdk-codegen.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-tag-release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-tag-release.yml"
     }
   ],
   "edges": [
@@ -101,140 +141,245 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mozilla-ai/otari",
-      "target": "mozilla-ai/gateway",
+      "target": "mozilla-ai/otari-sdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/otari",
+      "target": "mozilla-ai/otari-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/otari",
+      "target": "mozilla-ai/otari-anyguardrail-container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/otari",
+      "target": "mozilla-ai/any-guardrail",
       "target_type": "repository"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "docker/setup-qemu-action@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "docker/setup-buildx-action@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "docker/login-action@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "docker/metadata-action@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "docker/build-push-action@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "peter-evans/dockerhub-description@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "actions/create-github-app-token@v2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_file": ".github/workflows/otari-docker.yml",
       "source_repo": "mozilla-ai/otari",
-      "target": "Publish Gateway Docker Image",
+      "target": "Publish Otari Docker Image",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_file": ".github/workflows/otari-lint.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_file": ".github/workflows/otari-lint.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "astral-sh/setup-uv@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_file": ".github/workflows/otari-lint.yml",
       "source_repo": "mozilla-ai/otari",
-      "target": "Gateway Lint",
+      "target": "Otari Lint",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_file": ".github/workflows/otari-pr-title.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/otari-pr-title.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Otari PR Title Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-release.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_file": ".github/workflows/otari-release.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "astral-sh/setup-uv@v7",
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-tests.yml",
-      "source_repo": "mozilla-ai/otari",
-      "target": "codecov/codecov-action@v5",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_file": ".github/workflows/otari-release.yml",
       "source_repo": "mozilla-ai/otari",
-      "target": "Gateway Tests",
+      "target": "Otari Release (open PR)",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Otari SDK Codegen Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Otari SDK Codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-tag-release.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/otari-tag-release.yml",
       "source_repo": "mozilla-ai/otari",
       "target": "astral-sh/setup-uv@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_file": ".github/workflows/otari-tag-release.yml",
       "source_repo": "mozilla-ai/otari",
-      "target": "Gateway Typecheck",
+      "target": "Otari Release (tag + publish)",
       "target_type": "term"
     },
     {
@@ -245,35 +390,47 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:12:29.451597+00:00",
+  "fetched_at": "2026-06-21T19:55:55.172968+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7694
+      "size": 13670
     },
     {
       "path": "Dockerfile",
-      "size": 920
+      "size": 841
     },
     {
       "path": "pyproject.toml",
-      "size": 1659
+      "size": 3702
     },
     {
-      "path": ".github/workflows/gateway-docker.yml",
-      "size": 4373
+      "path": ".github/workflows/otari-docker.yml",
+      "size": 4341
     },
     {
-      "path": ".github/workflows/gateway-lint.yml",
-      "size": 791
+      "path": ".github/workflows/otari-lint.yml",
+      "size": 759
     },
     {
-      "path": ".github/workflows/gateway-tests.yml",
-      "size": 1778
+      "path": ".github/workflows/otari-pr-title.yml",
+      "size": 1470
     },
     {
-      "path": ".github/workflows/gateway-typecheck.yml",
-      "size": 793
+      "path": ".github/workflows/otari-release.yml",
+      "size": 5395
+    },
+    {
+      "path": ".github/workflows/otari-sdk-codegen-check.yml",
+      "size": 2852
+    },
+    {
+      "path": ".github/workflows/otari-sdk-codegen.yml",
+      "size": 4970
+    },
+    {
+      "path": ".github/workflows/otari-tag-release.yml",
+      "size": 3269
     }
   ],
   "related_repositories": [],
@@ -285,49 +442,82 @@
     "full_name": "mozilla-ai/otari",
     "html_url": "https://github.com/mozilla-ai/otari",
     "language": "Python",
-    "pushed_at": "2026-05-29T10:59:26Z",
-    "stargazers_count": 35,
+    "pushed_at": "2026-06-19T17:29:00Z",
+    "stargazers_count": 62,
     "topics": [
       "ai",
       "gateway",
       "llm"
     ],
-    "updated_at": "2026-05-30T02:46:40Z"
+    "updated_at": "2026-06-21T15:02:13Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mozilla-ai/gateway",
+      "full_name": "mozilla-ai/any-guardrail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ai/otari-anyguardrail-container",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ai/otari-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ai/otari-sdk-go",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
-      "context_snippet": "Publish Gateway Docker Image",
+      "context_snippet": "Publish Otari Docker Image",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-docker.yml",
-      "term": "Publish Gateway Docker Image"
+      "source_file": ".github/workflows/otari-docker.yml",
+      "term": "Publish Otari Docker Image"
     },
     {
-      "context_snippet": "Gateway Lint",
+      "context_snippet": "Otari Lint",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-lint.yml",
-      "term": "Gateway Lint"
+      "source_file": ".github/workflows/otari-lint.yml",
+      "term": "Otari Lint"
     },
     {
-      "context_snippet": "Gateway Tests",
+      "context_snippet": "Otari PR Title Check",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-tests.yml",
-      "term": "Gateway Tests"
+      "source_file": ".github/workflows/otari-pr-title.yml",
+      "term": "Otari PR Title Check"
     },
     {
-      "context_snippet": "Gateway Typecheck",
+      "context_snippet": "Otari Release (open PR)",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/gateway-typecheck.yml",
-      "term": "Gateway Typecheck"
+      "source_file": ".github/workflows/otari-release.yml",
+      "term": "Otari Release (open PR)"
     },
     {
-      "context_snippet": "[![Tests](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml/badge.svg)](https://github.com/mozilla-ai/gateway/actions/workflows/gateway-tests.yml)",
+      "context_snippet": "Otari SDK Codegen Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "term": "Otari SDK Codegen Check"
+    },
+    {
+      "context_snippet": "Otari SDK Codegen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "term": "Otari SDK Codegen"
+    },
+    {
+      "context_snippet": "Otari Release (tag + publish)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/otari-tag-release.yml",
+      "term": "Otari Release (tag + publish)"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gateway"

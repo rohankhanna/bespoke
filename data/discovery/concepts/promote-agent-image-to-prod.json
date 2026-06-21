@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Promote Agent Image to :prod"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate-context",
+      "text": "A general, evolvable, and distributed agent framework & harness for data science."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate-context",
+      "text": "Promote Agent Image to :prod"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristoteleo/PantheonOS",
+      "status": "candidate",
+      "text": "Promote Agent Image to :prod"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33859,
+      "status": "candidate",
+      "text": "developer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26388,
+      "status": "candidate",
+      "text": "flack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19102,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18115,
+      "status": "candidate",
+      "text": "public relations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18087,
+      "status": "candidate",
+      "text": "feed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Promote Agent Image to :prod",
+  "concept_id": "promote-agent-image-to-prod",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/promote-agent.yml",
+      "source_repo": "aristoteleo/PantheonOS"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Promote Agent Image to :prod",
+      "sense_id": "promote-agent-image-to-prod#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

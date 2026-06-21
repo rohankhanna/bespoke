@@ -1,0 +1,12 @@
+{
+  "component": "Venly/venly-github-workflows/.github/workflows/claude.yml@v1",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Venly/web3-react-venly"
+    }
+  ]
+}

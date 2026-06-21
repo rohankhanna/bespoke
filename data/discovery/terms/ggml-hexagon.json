@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kantv-ai/kantv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhouwg/ggml-hexagon"
     }
   ],
   "term": "ggml-hexagon"

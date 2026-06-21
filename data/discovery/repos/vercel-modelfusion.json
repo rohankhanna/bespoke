@@ -269,7 +269,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:18:55.159347+00:00",
+  "fetched_at": "2026-06-21T19:38:48.150518+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -286,7 +286,7 @@
   ],
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "main",
     "description": "The TypeScript library for building AI applications.",
     "fork": false,
@@ -317,7 +317,7 @@
       "typescript",
       "whisper"
     ],
-    "updated_at": "2026-05-23T09:49:53Z"
+    "updated_at": "2026-06-15T23:34:01Z"
   },
   "repo_links": [
     {

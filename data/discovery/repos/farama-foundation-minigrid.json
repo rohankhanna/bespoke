@@ -103,12 +103,12 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
+      "source_file": ".github/workflows/tests.yml"
     },
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml"
+      "source_file": ".github/workflows/tests.yml"
     }
   ],
   "edges": [
@@ -268,14 +268,14 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pytest.yml",
+      "source_file": ".github/workflows/tests.yml",
       "source_repo": "Farama-Foundation/Minigrid",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pytest.yml",
+      "source_file": ".github/workflows/tests.yml",
       "source_repo": "Farama-Foundation/Minigrid",
       "target": "Tests",
       "target_type": "term"
@@ -302,19 +302,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:14:13.940069+00:00",
+  "fetched_at": "2026-06-21T19:58:16.510769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5310
+      "size": 5479
     },
     {
       "path": "pyproject.toml",
-      "size": 2652
+      "size": 2694
     },
     {
       "path": ".github/workflows/build-docs-dev.yml",
-      "size": 1252
+      "size": 1250
     },
     {
       "path": ".github/workflows/build-docs-version.yml",
@@ -326,14 +326,14 @@
     },
     {
       "path": ".github/workflows/pre-commit.yml",
-      "size": 494
+      "size": 492
     },
     {
       "path": ".github/workflows/publish.yml",
       "size": 1462
     },
     {
-      "path": ".github/workflows/pytest.yml",
+      "path": ".github/workflows/tests.yml",
       "size": 928
     }
   ],
@@ -346,14 +346,14 @@
     "full_name": "Farama-Foundation/Minigrid",
     "html_url": "https://github.com/Farama-Foundation/Minigrid",
     "language": "Python",
-    "pushed_at": "2026-05-27T06:47:32Z",
-    "stargazers_count": 2459,
+    "pushed_at": "2026-05-30T23:37:22Z",
+    "stargazers_count": 2464,
     "topics": [
       "gridworld-environment",
       "gymnasium",
       "gymnasium-environment"
     ],
-    "updated_at": "2026-05-29T16:07:10Z"
+    "updated_at": "2026-06-19T15:27:42Z"
   },
   "repo_links": [
     {
@@ -390,7 +390,7 @@
     {
       "context_snippet": "Tests",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pytest.yml",
+      "source_file": ".github/workflows/tests.yml",
       "term": "Tests"
     },
     {

@@ -36,6 +36,16 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
+      "component": "Venly/venly-github-workflows/.github/workflows/claude-code-review.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "Venly/venly-github-workflows/.github/workflows/claude.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
       "component": "actions/create-github-app-token@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/hotfix_finish.yml"
@@ -142,6 +152,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "Venly/venly-github-workflows/.github/workflows/claude-code-review.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "Venly/venly-github-workflows/.github/workflows/claude.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/hotfix_finish.yml",
       "source_repo": "Venly/web3-react-venly",
       "target": "actions/create-github-app-token@v1",
@@ -225,7 +263,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:18:33.817546+00:00",
+  "fetched_at": "2026-06-21T20:04:32.084774+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -238,6 +276,14 @@
     {
       "path": ".github/workflows/build.yml",
       "size": 2616
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1357
     },
     {
       "path": ".github/workflows/hotfix_finish.yml",
@@ -265,10 +311,10 @@
     "full_name": "Venly/web3-react-venly",
     "html_url": "https://github.com/Venly/web3-react-venly",
     "language": "TypeScript",
-    "pushed_at": "2026-05-21T10:55:35Z",
+    "pushed_at": "2026-06-18T14:18:19Z",
     "stargazers_count": 1,
     "topics": [],
-    "updated_at": "2026-05-21T10:55:39Z"
+    "updated_at": "2026-06-18T14:19:17Z"
   },
   "repo_links": [
     {
@@ -283,6 +329,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "term": "\ud83c\udfd7\ufe0f Build"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
     },
     {
       "context_snippet": "\ud83e\ude79 Hotfix Finish",

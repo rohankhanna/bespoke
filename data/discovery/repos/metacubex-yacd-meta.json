@@ -396,17 +396,17 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push.yml"
     },
     {
-      "component": "pnpm/action-setup@v2",
+      "component": "pnpm/action-setup@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push.yml"
     },
     {
-      "component": "actions/setup-node@v3",
+      "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push.yml"
     },
@@ -422,13 +422,6 @@
       "source_file": "README.md",
       "source_repo": "MetaCubeX/Yacd-meta",
       "target": "yaling888/clash",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MetaCubeX/Yacd-meta",
-      "target": "yaling888/clash-dashboard",
       "target_type": "repository"
     },
     {
@@ -995,21 +988,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "MetaCubeX/Yacd-meta",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "MetaCubeX/Yacd-meta",
-      "target": "pnpm/action-setup@v2",
+      "target": "pnpm/action-setup@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "MetaCubeX/Yacd-meta",
-      "target": "actions/setup-node@v3",
+      "target": "actions/setup-node@v4",
       "target_type": "component"
     },
     {
@@ -1027,7 +1020,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:06:50.331400+00:00",
+  "fetched_at": "2026-06-21T19:26:25.815421+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1039,11 +1032,11 @@
     },
     {
       "path": "package.json",
-      "size": 3033
+      "size": 2958
     },
     {
       "path": ".github/workflows/push.yml",
-      "size": 722
+      "size": 663
     }
   ],
   "related_repositories": [],
@@ -1055,10 +1048,10 @@
     "full_name": "MetaCubeX/Yacd-meta",
     "html_url": "https://github.com/MetaCubeX/Yacd-meta",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T15:48:56Z",
-    "stargazers_count": 734,
+    "pushed_at": "2026-06-04T13:37:52Z",
+    "stargazers_count": 742,
     "topics": [],
-    "updated_at": "2026-05-29T11:57:36Z"
+    "updated_at": "2026-06-20T10:01:00Z"
   },
   "repo_links": [
     {
@@ -1069,11 +1062,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "yaling888/clash",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yaling888/clash-dashboard",
       "source_file": "README.md"
     }
   ],

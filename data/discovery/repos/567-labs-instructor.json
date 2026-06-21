@@ -1,16 +1,6 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-label.yml"
-    },
-    {
-      "component": "jlowin/ai-labeler@v0.4.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-label.yml"
-    },
-    {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/evals.yml"
@@ -19,6 +9,26 @@
       "component": "astral-sh/setup-uv@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/evals.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml"
+    },
+    {
+      "component": "openai/codex-action@5c3f4ccdb2b8790f73d6b21751ac00e602aa0c02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-tagger.yml"
+    },
+    {
+      "component": "openai/codex-action@5c3f4ccdb2b8790f73d6b21751ac00e602aa0c02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-tagger.yml"
     },
     {
       "component": "actions/checkout@v2",
@@ -124,26 +134,6 @@
       "component": "astral-sh/setup-uv@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
-    },
-    {
-      "component": "actions/checkout@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml"
-    },
-    {
-      "component": "snok/install-poetry@v1.3.1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml"
-    },
-    {
-      "component": "actions/setup-python@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml"
     }
   ],
   "edges": [
@@ -153,27 +143,6 @@
       "source_repo": "567-labs/instructor",
       "target": "instructor-ai/instructor",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-label.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-label.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "jlowin/ai-labeler@v0.4.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ai-label.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "AI Labeler",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -194,6 +163,48 @@
       "source_file": ".github/workflows/evals.yml",
       "source_repo": "567-labs/instructor",
       "target": "Weekly Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "openai/codex-action@5c3f4ccdb2b8790f73d6b21751ac00e602aa0c02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "OSS Issue Deduplicator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "openai/codex-action@5c3f4ccdb2b8790f73d6b21751ac00e602aa0c02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "OSS Issue Tagger",
       "target_type": "term"
     },
     {
@@ -281,41 +292,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "actions/checkout@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "snok/install-poetry@v1.3.1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "actions/setup-python@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "astral-sh/setup-uv@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "Test Docs",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "567-labs/instructor",
@@ -344,7 +320,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:12:24.782968+00:00",
+  "fetched_at": "2026-06-21T19:55:46.484311+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -352,19 +328,23 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 3143
+      "size": 3141
     },
     {
       "path": "requirements.txt",
-      "size": 2046
-    },
-    {
-      "path": ".github/workflows/ai-label.yml",
-      "size": 431
+      "size": 2078
     },
     {
       "path": ".github/workflows/evals.yml",
       "size": 726
+    },
+    {
+      "path": ".github/workflows/oss-issue-deduplicator.yml",
+      "size": 3792
+    },
+    {
+      "path": ".github/workflows/oss-issue-tagger.yml",
+      "size": 4000
     },
     {
       "path": ".github/workflows/python-publish.yml",
@@ -376,15 +356,11 @@
     },
     {
       "path": ".github/workflows/scheduled-release.yml",
-      "size": 10283
+      "size": 10368
     },
     {
       "path": ".github/workflows/test.yml",
       "size": 11553
-    },
-    {
-      "path": ".github/workflows/test_docs.yml",
-      "size": 948
     }
   ],
   "related_repositories": [],
@@ -396,8 +372,8 @@
     "full_name": "567-labs/instructor",
     "html_url": "https://github.com/567-labs/instructor",
     "language": "Python",
-    "pushed_at": "2026-05-24T05:22:48Z",
-    "stargazers_count": 13068,
+    "pushed_at": "2026-06-15T05:05:32Z",
+    "stargazers_count": 13199,
     "topics": [
       "openai",
       "openai-function-calli",
@@ -406,7 +382,7 @@
       "python",
       "validation"
     ],
-    "updated_at": "2026-05-30T06:28:44Z"
+    "updated_at": "2026-06-21T17:53:59Z"
   },
   "repo_links": [
     {
@@ -417,16 +393,22 @@
   ],
   "terms": [
     {
-      "context_snippet": "AI Labeler",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ai-label.yml",
-      "term": "AI Labeler"
-    },
-    {
       "context_snippet": "Weekly Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/evals.yml",
       "term": "Weekly Tests"
+    },
+    {
+      "context_snippet": "OSS Issue Deduplicator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "term": "OSS Issue Deduplicator"
+    },
+    {
+      "context_snippet": "OSS Issue Tagger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "term": "OSS Issue Tagger"
     },
     {
       "context_snippet": "Ruff",
@@ -445,12 +427,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "term": "Test"
-    },
-    {
-      "context_snippet": "Test Docs",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test_docs.yml",
-      "term": "Test Docs"
     },
     {
       "context_snippet": "Get reliable JSON from any LLM. Built on Pydantic for validation, type safety, and IDE support.",

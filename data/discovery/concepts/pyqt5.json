@@ -91,6 +91,18 @@
       "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+      "status": "candidate-context",
+      "text": "A cross-platform frameless window based on PyQt/PySide, support Win32, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zhiyiYo/Alpha-Gobang-Zero",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -208,11 +226,23 @@
       "observed_at": "2026-05-30T00:44:22.415230+00:00",
       "source_file": null,
       "source_repo": "blueaxis/Cloe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "blueaxis/Cloe"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

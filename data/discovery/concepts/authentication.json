@@ -307,6 +307,12 @@
       "source_repo": "ahopkins/sanic-jwt",
       "status": "candidate-context",
       "text": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate-context",
+      "text": "Apache Casbin"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +465,12 @@
       "source_repo": "ahopkins/sanic-jwt",
       "status": "candidate",
       "text": "[![Latest PyPI version](https://img.shields.io/pypi/v/sanic-jwt.svg)](https://pypi.python.org/pypi/sanic-jwt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Apache Casbin"
     }
   ],
   "candidate_related_terms": [
@@ -2426,11 +2438,35 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": null,
       "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/winkerberos"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:13:35.764819+00:00",
+  "fetched_at": "2026-06-21T19:57:27.548726+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -68,14 +68,14 @@
     "html_url": "https://github.com/kharchenkolab/dropEst",
     "language": "C++",
     "pushed_at": "2022-06-22T02:15:17Z",
-    "stargazers_count": 95,
+    "stargazers_count": 94,
     "topics": [
       "pipeline",
       "preprocessing",
       "scrna-seq",
       "single-cell-rna-seq"
     ],
-    "updated_at": "2025-11-06T04:19:36Z"
+    "updated_at": "2026-06-10T23:26:24Z"
   },
   "repo_links": [
     {

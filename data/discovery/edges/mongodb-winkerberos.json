@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -67,14 +67,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "github/codeql-action/init@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "github/codeql-action/analyze@9e0d7b8d25671d64c341c19c0152d693099fb5ba",
+      "target": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -88,14 +88,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "target": "pypa/cibuildwheel@f03ac7617d6cff873ccf24cc0d567ef5ba5a9e6d",
       "target_type": "component"
     },
     {
@@ -179,7 +179,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "mongodb/winkerberos",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v6.0.3",
       "target_type": "component"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "mongodb/winkerberos"
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd",
   "first_seen_at": "2026-05-15T12:50:28.227991+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml",
+      "source_repo": "pyOpenSci/software-submission"
     }
   ]
 }

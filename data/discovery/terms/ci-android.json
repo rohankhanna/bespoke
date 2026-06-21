@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test-android.yml",
       "source_repo": "jurplel/install-qt-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon"
     }
   ],
   "term": "CI (android)"

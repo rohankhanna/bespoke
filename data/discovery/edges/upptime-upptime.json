@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/graphs.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/graphs.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.10",
+      "target": "upptime/uptime-monitor@v1.43.0",
       "target_type": "component"
     },
     {
@@ -32,14 +32,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/response-time.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/response-time.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.10",
+      "target": "upptime/uptime-monitor@v1.43.0",
       "target_type": "component"
     },
     {
@@ -53,14 +53,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/setup.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.10",
+      "target": "upptime/uptime-monitor@v1.43.0",
       "target_type": "component"
     },
     {
@@ -88,14 +88,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/site.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/site.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.10",
+      "target": "upptime/uptime-monitor@v1.43.0",
       "target_type": "component"
     },
     {
@@ -116,14 +116,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/summary.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/summary.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.10",
+      "target": "upptime/uptime-monitor@v1.43.0",
       "target_type": "component"
     },
     {
@@ -137,7 +137,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-template.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/updates.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -179,14 +179,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/uptime.yml",
       "source_repo": "upptime/upptime",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/uptime.yml",
       "source_repo": "upptime/upptime",
-      "target": "upptime/uptime-monitor@v1.41.10",
+      "target": "upptime/uptime-monitor@v1.43.0",
       "target_type": "component"
     },
     {
@@ -239,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "upptime/upptime"
 }

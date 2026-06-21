@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "BirolLab/LINKS",
-      "target": "birollab/bloomfilter",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "BirolLab/LINKS",
@@ -85,11 +78,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:24:05.594687+00:00",
+  "fetched_at": "2026-06-21T19:43:30.070855+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30320
+      "size": 30205
     },
     {
       "path": ".github/workflows/stale.yml",
@@ -105,7 +98,7 @@
     "full_name": "BirolLab/LINKS",
     "html_url": "https://github.com/BirolLab/LINKS",
     "language": "Perl",
-    "pushed_at": "2026-03-27T14:46:35Z",
+    "pushed_at": "2026-06-04T14:22:13Z",
     "stargazers_count": 73,
     "topics": [
       "bloom-filter",
@@ -116,14 +109,9 @@
       "scaffold",
       "scaffold-layout"
     ],
-    "updated_at": "2026-03-27T14:46:38Z"
+    "updated_at": "2026-06-04T14:23:34Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "birollab/bloomfilter",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "warrenlr/links",
@@ -138,43 +126,43 @@
       "term": "Close stale issues and PRs"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bloom-filter"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "draft-assembly"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "extract-kmer-pairs"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "genome-assemblies"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "long-reads"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "scaffold"
     },
     {
-      "context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+      "context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "scaffold-layout"

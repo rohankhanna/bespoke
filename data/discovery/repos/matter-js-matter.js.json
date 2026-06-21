@@ -126,11 +126,6 @@
       "source_file": ".github/workflows/build-test.js.yml"
     },
     {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-test.js.yml"
-    },
-    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.js.yml"
@@ -455,13 +450,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-test.js.yml",
-      "source_repo": "matter-js/matter.js",
-      "target": "actions/setup-python@v6",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-test.js.yml",
       "source_repo": "matter-js/matter.js",
@@ -658,7 +646,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:09:53.200371+00:00",
+  "fetched_at": "2026-06-21T19:30:09.982700+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -674,11 +662,11 @@
     },
     {
       "path": ".github/workflows/build-test.chip.yml",
-      "size": 8996
+      "size": 10690
     },
     {
       "path": ".github/workflows/build-test.js.yml",
-      "size": 2170
+      "size": 1916
     },
     {
       "path": ".github/workflows/chip-matterjs-tests.yml",
@@ -710,8 +698,8 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-05-26T04:44:20Z",
-    "stargazers_count": 815,
+    "pushed_at": "2026-06-21T04:46:45Z",
+    "stargazers_count": 830,
     "topics": [
       "connectedthings",
       "iot",
@@ -719,7 +707,7 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-05-29T01:54:23Z"
+    "updated_at": "2026-06-21T17:36:34Z"
   },
   "repo_links": [
     {

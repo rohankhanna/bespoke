@@ -1,7 +1,7 @@
 {
   "component": "broccoli-plugin",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

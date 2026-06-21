@@ -38,6 +38,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-llama-cpp.yml"
     }
   ],
@@ -128,6 +143,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "GitHub Pages Redirects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-llama-cpp.yml",
       "source_repo": "mozilla-ai/llamafile",
       "target": "actions/checkout@v4",
@@ -204,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:21:21.657331+00:00",
+  "fetched_at": "2026-06-21T19:41:00.526624+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -227,6 +270,10 @@
       "size": 358
     },
     {
+      "path": ".github/workflows/pages-redirect.yml",
+      "size": 2358
+    },
+    {
       "path": ".github/workflows/update-llama-cpp.yml",
       "size": 2866
     }
@@ -240,8 +287,8 @@
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "language": "C++",
-    "pushed_at": "2026-05-29T19:13:28Z",
-    "stargazers_count": 24539,
+    "pushed_at": "2026-06-21T16:09:21Z",
+    "stargazers_count": 25064,
     "topics": [
       "cross-platform",
       "gguf",
@@ -253,7 +300,7 @@
       "single-file-executable",
       "speech-to-text"
     ],
-    "updated_at": "2026-05-30T02:08:26Z"
+    "updated_at": "2026-06-21T15:42:00Z"
   },
   "repo_links": [
     {
@@ -285,6 +332,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/labeler.yml",
       "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "GitHub Pages Redirects",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages-redirect.yml",
+      "term": "GitHub Pages Redirects"
     },
     {
       "context_snippet": "Update llama.cpp submodule",

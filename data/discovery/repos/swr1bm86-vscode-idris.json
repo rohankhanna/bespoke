@@ -199,7 +199,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:21:34.926479+00:00",
+  "fetched_at": "2026-06-21T20:08:33.748230+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -220,12 +220,12 @@
     "html_url": "https://github.com/swr1bm86/vscode-idris",
     "language": "JavaScript",
     "pushed_at": "2022-05-13T05:50:53Z",
-    "stargazers_count": 106,
+    "stargazers_count": 107,
     "topics": [
       "idris",
       "vscode-extension"
     ],
-    "updated_at": "2026-02-26T11:45:55Z"
+    "updated_at": "2026-06-21T02:47:42Z"
   },
   "repo_links": [
     {

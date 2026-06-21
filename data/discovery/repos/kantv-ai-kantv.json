@@ -124,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:21:35.103853+00:00",
+  "fetched_at": "2026-06-21T19:41:13.156901+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -144,8 +144,8 @@
     "full_name": "kantv-ai/kantv",
     "html_url": "https://github.com/kantv-ai/kantv",
     "language": "C++",
-    "pushed_at": "2025-06-12T03:28:52Z",
-    "stargazers_count": 192,
+    "pushed_at": "2026-06-07T01:42:47Z",
+    "stargazers_count": 193,
     "topics": [
       "ggml-hexagon",
       "llamacpp-android-port",
@@ -154,7 +154,7 @@
       "stablediffusioncpp-android-port",
       "whispercpp-android-port"
     ],
-    "updated_at": "2026-04-25T17:28:00Z"
+    "updated_at": "2026-06-16T08:42:04Z"
   },
   "repo_links": [
     {

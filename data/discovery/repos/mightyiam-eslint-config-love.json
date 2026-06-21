@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/publish.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yaml"
     },
@@ -201,7 +201,7 @@
       "source_file": ".github/workflows/publish.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml"
     },
@@ -211,7 +211,7 @@
       "source_file": ".github/workflows/test.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml"
     },
@@ -502,7 +502,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "mightyiam/eslint-config-love",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -523,7 +523,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "mightyiam/eslint-config-love",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -569,7 +569,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:04:03.149390+00:00",
+  "fetched_at": "2026-06-21T19:23:59.224013+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -597,15 +597,15 @@
     "full_name": "mightyiam/eslint-config-love",
     "html_url": "https://github.com/mightyiam/eslint-config-love",
     "language": "TypeScript",
-    "pushed_at": "2026-05-29T12:09:10Z",
-    "stargazers_count": 819,
+    "pushed_at": "2026-06-19T19:48:06Z",
+    "stargazers_count": 821,
     "topics": [
       "eslint",
       "hacktoberfest",
       "javascript",
       "typescript"
     ],
-    "updated_at": "2026-05-29T12:09:14Z"
+    "updated_at": "2026-06-19T19:48:09Z"
   },
   "repo_links": [],
   "terms": [

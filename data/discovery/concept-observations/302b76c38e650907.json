@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)"
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)"
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -48,9 +48,9 @@
   "normalized_form": "ggml",
   "observation_id": "302b76c38e650907",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
   "observed_text": "ggml",
-  "source_context_snippet": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)",
+  "source_context_snippet": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)",
   "source_file": null,
   "source_repo": "ggml-org/llama.cpp",
   "source_repo_description": "LLM inference in C/C++"

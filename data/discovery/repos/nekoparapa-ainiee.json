@@ -50,13 +50,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEKOparapa/AiNiee",
-      "target": "xuanji86/ainiee-translate-skill",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "NEKOparapa/AiNiee",
@@ -92,7 +85,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:08:08.060811+00:00",
+  "fetched_at": "2026-06-21T19:27:41.795772+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -116,20 +109,15 @@
     "full_name": "NEKOparapa/AiNiee",
     "html_url": "https://github.com/NEKOparapa/AiNiee",
     "language": "Python",
-    "pushed_at": "2026-05-26T11:06:11Z",
-    "stargazers_count": 5745,
+    "pushed_at": "2026-06-16T04:10:24Z",
+    "stargazers_count": 5873,
     "topics": [],
-    "updated_at": "2026-05-30T01:44:27Z"
+    "updated_at": "2026-06-21T17:04:50Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "nekoparapa/ainiee-chatgpt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xuanji86/ainiee-translate-skill",
       "source_file": "README.md"
     }
   ],

@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NEKOparapa/AiNiee",
-      "target": "xuanji86/ainiee-translate-skill",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "NEKOparapa/AiNiee",
@@ -50,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "NEKOparapa/AiNiee"
 }

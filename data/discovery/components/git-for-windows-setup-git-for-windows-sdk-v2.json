@@ -1,0 +1,17 @@
+{
+  "component": "git-for-windows/setup-git-for-windows-sdk@v2",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-lfs/git-lfs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "git-lfs/git-lfs"
+    }
+  ]
+}

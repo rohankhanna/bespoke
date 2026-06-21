@@ -13,6 +13,26 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
@@ -70,6 +90,27 @@
       "source_repo": "psmux/psmux",
       "target": "dtolnay/rust-toolchain@stable",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "psmux/psmux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "psmux/psmux",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "psmux/psmux",
+      "target": "Integration Tests",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -219,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:12:33.793454+00:00",
+  "fetched_at": "2026-06-21T19:32:44.638261+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -231,7 +272,11 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 810
+      "size": 1465
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1586
     },
     {
       "path": ".github/workflows/release.yml",
@@ -247,8 +292,8 @@
     "full_name": "psmux/psmux",
     "html_url": "https://github.com/psmux/psmux",
     "language": "PowerShell",
-    "pushed_at": "2026-05-28T13:42:43Z",
-    "stargazers_count": 2288,
+    "pushed_at": "2026-06-19T04:25:49Z",
+    "stargazers_count": 2612,
     "topics": [
       "cli",
       "powershell",
@@ -267,10 +312,16 @@
       "windows-terminal",
       "windows-tmux"
     ],
-    "updated_at": "2026-05-30T02:01:28Z"
+    "updated_at": "2026-06-21T19:15:18Z"
   },
   "repo_links": [],
   "terms": [
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration Tests"
+    },
     {
       "context_snippet": "Release",
       "edge_type": "workflow-name",

@@ -179,7 +179,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "SpecterOps/AzureHound",
-      "target": "digicert/ssm-code-signing@1d820463733701cf1484c7eb5d7d24a15ca2c454",
+      "target": "digicert/code-signing-software-trust-action@fae23a455ba4bde62b64fd7cb2f81ade788f5a95",
       "target_type": "component"
     },
     {
@@ -218,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "SpecterOps/AzureHound"
 }

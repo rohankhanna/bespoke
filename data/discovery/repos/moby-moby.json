@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.dco.yml"
     },
@@ -16,12 +16,12 @@
       "source_file": ".github/workflows/.dco.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml"
     },
     {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml"
     },
@@ -31,12 +31,7 @@
       "source_file": ".github/workflows/.test-unit.yml"
     },
     {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.test-unit.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml"
     },
@@ -56,12 +51,12 @@
       "source_file": ".github/workflows/.test-unit.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -76,12 +71,12 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -96,12 +91,12 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -111,12 +106,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.test.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -136,7 +126,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -151,12 +141,12 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -166,12 +156,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.test.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml"
     },
@@ -191,7 +176,7 @@
       "source_file": ".github/workflows/.test.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.vm.yml"
     },
@@ -211,11 +196,6 @@
       "source_file": ".github/workflows/.vm.yml"
     },
     {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.vm.yml"
-    },
-    {
       "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.vm.yml"
@@ -226,7 +206,7 @@
       "source_file": ".github/workflows/.vm.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml"
     },
@@ -236,67 +216,12 @@
       "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/.windows.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml"
     },
@@ -316,119 +241,154 @@
       "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
+      "source_file": ".github/workflows/.windows.yml"
     },
     {
       "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
+      "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
+      "source_file": ".github/workflows/.windows.yml"
     },
     {
       "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
+      "source_file": ".github/workflows/.windows.yml"
     },
     {
       "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml"
+      "source_file": ".github/workflows/.windows.yml"
     },
     {
-      "component": "docker/github-builder/.github/workflows/bake.yml@073833262a23a17675c95c4541ab063b7646756b",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.windows.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.windows.yml"
+    },
+    {
+      "component": "docker/github-builder/.github/workflows/bake.yml@5f637c833aa76bc99372a1dc9a6f8bcd8056fb85",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@06116385d9baf250c9f4dcb4858b16962ea869c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml"
     }
   ],
   "edges": [
@@ -443,7 +403,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.dco.yml",
       "source_repo": "moby/moby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -457,14 +417,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml",
       "source_repo": "moby/moby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml",
       "source_repo": "moby/moby",
-      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "target_type": "component"
     },
     {
@@ -478,7 +438,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test-unit.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -506,14 +466,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml",
       "source_repo": "moby/moby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml",
       "source_repo": "moby/moby",
-      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "target_type": "component"
     },
     {
@@ -541,7 +501,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.test.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -562,7 +522,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.vm.yml",
       "source_repo": "moby/moby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -604,7 +564,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml",
       "source_repo": "moby/moby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -618,7 +578,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/.windows.yml",
       "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -634,75 +594,12 @@
       "source_repo": "moby/moby",
       "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/arm64.yml",
-      "source_repo": "moby/moby",
-      "target": "arm64",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bin-image.yml",
       "source_repo": "moby/moby",
-      "target": "docker/github-builder/.github/workflows/bake.yml@073833262a23a17675c95c4541ab063b7646756b",
+      "target": "docker/github-builder/.github/workflows/bake.yml@5f637c833aa76bc99372a1dc9a6f8bcd8056fb85",
       "target_type": "component"
     },
     {
@@ -710,6 +607,69 @@
       "source_file": ".github/workflows/bin-image.yml",
       "source_repo": "moby/moby",
       "target": "bin-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "docker/bake-action@6614cfa25eff9a0b2b2697efb0b6159e7680d584",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "docker/setup-qemu-action@06116385d9baf250c9f4dcb4858b16962ea869c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildkit.yml",
+      "source_repo": "moby/moby",
+      "target": "buildkit",
       "target_type": "term"
     },
     {
@@ -734,7 +694,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:19:50.375738+00:00",
+  "fetched_at": "2026-06-21T19:39:37.808445+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -746,7 +706,7 @@
     },
     {
       "path": "go.mod",
-      "size": 15089
+      "size": 15491
     },
     {
       "path": ".github/workflows/.dco.yml",
@@ -754,27 +714,27 @@
     },
     {
       "path": ".github/workflows/.test-unit.yml",
-      "size": 4230
+      "size": 4264
     },
     {
       "path": ".github/workflows/.test.yml",
-      "size": 20169
+      "size": 20189
     },
     {
       "path": ".github/workflows/.vm.yml",
-      "size": 7870
+      "size": 7593
     },
     {
       "path": ".github/workflows/.windows.yml",
-      "size": 25031
-    },
-    {
-      "path": ".github/workflows/arm64.yml",
-      "size": 10499
+      "size": 24686
     },
     {
       "path": ".github/workflows/bin-image.yml",
-      "size": 2091
+      "size": 2237
+    },
+    {
+      "path": ".github/workflows/buildkit.yml",
+      "size": 13766
     }
   ],
   "related_repositories": [],
@@ -786,15 +746,15 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-05-29T11:01:58Z",
-    "stargazers_count": 71604,
+    "pushed_at": "2026-06-19T14:02:01Z",
+    "stargazers_count": 71720,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-05-29T19:15:33Z"
+    "updated_at": "2026-06-21T13:05:11Z"
   },
   "repo_links": [
     {
@@ -805,16 +765,16 @@
   ],
   "terms": [
     {
-      "context_snippet": "arm64",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/arm64.yml",
-      "term": "arm64"
-    },
-    {
       "context_snippet": "bin-image",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bin-image.yml",
       "term": "bin-image"
+    },
+    {
+      "context_snippet": "buildkit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildkit.yml",
+      "term": "buildkit"
     },
     {
       "context_snippet": "The Moby Project",

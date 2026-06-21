@@ -31,6 +31,18 @@
       "source_repo": "jeffzhou2000/ggml-hexagon",
       "status": "candidate-context",
       "text": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, history of ggml-hexagon: https://github.com/zhouwg/ggml-hexagon/discussions/18. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jeffzhou2000/ggml-hexagon",
       "status": "candidate",
       "text": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate",
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -496,11 +514,23 @@
       "observed_at": "2026-05-30T00:44:22.415230+00:00",
       "source_file": null,
       "source_repo": "jeffzhou2000/ggml-hexagon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "zhouwg/ggml-hexagon"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

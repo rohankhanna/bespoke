@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-qt6.yml",
+      "source_repo": "zhiyiYo/PyQt-Frameless-Window"
+    }
+  ],
+  "term": "Upload PySide6 & PyQt6 Package"
+}

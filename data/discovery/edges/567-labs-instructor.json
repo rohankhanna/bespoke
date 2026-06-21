@@ -9,27 +9,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-label.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-label.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "jlowin/ai-labeler@v0.4.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ai-label.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "AI Labeler",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/evals.yml",
       "source_repo": "567-labs/instructor",
       "target": "actions/checkout@v2",
@@ -47,6 +26,48 @@
       "source_file": ".github/workflows/evals.yml",
       "source_repo": "567-labs/instructor",
       "target": "Weekly Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "openai/codex-action@5c3f4ccdb2b8790f73d6b21751ac00e602aa0c02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-issue-deduplicator.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "OSS Issue Deduplicator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "openai/codex-action@5c3f4ccdb2b8790f73d6b21751ac00e602aa0c02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-issue-tagger.yml",
+      "source_repo": "567-labs/instructor",
+      "target": "OSS Issue Tagger",
       "target_type": "term"
     },
     {
@@ -134,41 +155,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "actions/checkout@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "snok/install-poetry@v1.3.1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "actions/setup-python@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "astral-sh/setup-uv@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test_docs.yml",
-      "source_repo": "567-labs/instructor",
-      "target": "Test Docs",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "567-labs/instructor",
@@ -197,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "567-labs/instructor"
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1962,6 +1962,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "neavo/KeywordGacha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "zhouwg/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA-NeMo/Automodel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main.yml",
+      "source_repo": "NVIDIA-NeMo/Automodel"
     }
   ]
 }

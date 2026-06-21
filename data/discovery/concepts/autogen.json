@@ -106,6 +106,18 @@
       "source_repo": "aymenfurter/smartrag",
       "status": "candidate-context",
       "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinygrad/tinygrad",
+      "status": "candidate-context",
+      "text": "You like pytorch? You like micrograd? You love tinygrad! \u2764\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinygrad/tinygrad",
+      "status": "candidate-context",
+      "text": "Autogen"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "aymenfurter/smartrag",
       "status": "candidate",
       "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinygrad/tinygrad",
+      "status": "candidate",
+      "text": "Autogen"
     }
   ],
   "candidate_related_terms": [],
@@ -661,11 +679,17 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": ".github/workflows/autogen.yaml",
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "tinygrad/tinygrad"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

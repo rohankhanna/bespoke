@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -81,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "codecov/codecov-action@v6",
+      "target": "codecov/codecov-action@v7",
       "target_type": "component"
     },
     {
@@ -211,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "qubvel-org/segmentation_models.pytorch"
 }

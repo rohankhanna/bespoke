@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u4e8e https://github.com/CVHub520/X-AnyLabeling 250903\u6e90\u7801\u57fa\u7840\u4e0a\u7684\u81ea\u7528\u9b54\u6539\u7248 \u56e0\u4e3a\u5168\u90e8\u4f7f\u7528AI\u7f16\u5199\uff0c\u65e0\u6cd5\u4e5f\u4e0d\u660e\u767d\u5982\u4f55\u548c\u4e3b\u5206\u652f\u5408\u5e76\u6240\u4ee5\u672c\u4ed3\u5e93\u7684\u4ee3\u7801\u6c38\u4e45\u505c\u7559\u5728\u5b98\u65b9250903\u7248"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30051253,
+      "status": "candidate",
+      "text": "spectator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032751,
+      "status": "candidate",
+      "text": "witness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025313,
+      "status": "candidate",
+      "text": "watcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051216,
+      "status": "candidate",
+      "text": "onlooker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051207,
+      "status": "candidate",
+      "text": "beholder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "viewer",
+      "sense_id": "viewer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9030,
+      "status": "candidate",
+      "text": "watcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4033,
+      "status": "candidate",
+      "text": "spectator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "witness"
+    }
+  ],
+  "concept_id": "viewer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "viewer",
+  "observation_id": "1b19e132c6aef177",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "viewer",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "lhj5426/X-AnyLabeling",
+  "source_repo_description": "\u57fa\u4e8e https://github.com/CVHub520/X-AnyLabeling 250903\u6e90\u7801\u57fa\u7840\u4e0a\u7684\u81ea\u7528\u9b54\u6539\u7248 \u56e0\u4e3a\u5168\u90e8\u4f7f\u7528AI\u7f16\u5199\uff0c\u65e0\u6cd5\u4e5f\u4e0d\u660e\u767d\u5982\u4f55\u548c\u4e3b\u5206\u652f\u5408\u5e76\u6240\u4ee5\u672c\u4ed3\u5e93\u7684\u4ee3\u7801\u6c38\u4e45\u505c\u7559\u5728\u5b98\u65b9250903\u7248"
+}

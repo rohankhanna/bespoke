@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2517,6 +2517,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous-integration.yaml",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Push Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate-context",
+      "text": "Translate manga/image."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate-context",
+      "text": "Push Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate",
+      "text": "Push Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48944,
+      "status": "candidate",
+      "text": "impel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48544,
+      "status": "candidate",
+      "text": "urge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28944,
+      "status": "candidate",
+      "text": "nudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28944,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28544,
+      "status": "candidate",
+      "text": "nudging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push Action",
+  "concept_id": "push-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "frederik-uni/manga-image-translator-rust"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push Action",
+      "sense_id": "push-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

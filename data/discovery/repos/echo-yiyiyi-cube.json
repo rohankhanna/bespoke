@@ -9,27 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "echo-yiyiyi/cube",
-      "target": "camel-ai/social-simulation",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "echo-yiyiyi/cube",
-      "target": "camel-ai/social-simulation",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "echo-yiyiyi/cube",
-      "target": "zhangzaibin/camel-llama3",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "echo-yiyiyi/cube",
@@ -86,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:11:20.891655+00:00",
+  "fetched_at": "2026-06-21T19:31:35.690461+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,7 +86,7 @@
     "html_url": "https://github.com/echo-yiyiyi/cube",
     "language": "Python",
     "pushed_at": "2024-11-20T17:42:44Z",
-    "stargazers_count": 9,
+    "stargazers_count": 11,
     "topics": [
       "agent-based-modeling",
       "agent-based-simulation",
@@ -120,28 +99,13 @@
       "society-of-mind",
       "unity3d"
     ],
-    "updated_at": "2026-04-22T15:12:46Z"
+    "updated_at": "2026-06-20T11:23:02Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "camel-ai/social-simulation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "yiyiyi0817/cube",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "camel-ai/social-simulation",
-      "source_file": "pyproject.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zhangzaibin/camel-llama3",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

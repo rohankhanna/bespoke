@@ -1,0 +1,42 @@
+{
+  "component": "actions/checkout@v6.0.3",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy-on-pypi.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/joss-draft-pdf.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "NCAS-CMS/pyfive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "mongodb/winkerberos"
+    }
+  ]
+}

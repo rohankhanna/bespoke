@@ -43,66 +43,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/setup-dotnet@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "microsoft/infersharpaction@v1.5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "microsoft/infersharpaction@v1.5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "microsoft/infersharpaction@v1.5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "microsoft/infersharpaction@v1.5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "microsoft/infersharpaction@v1.5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
@@ -151,13 +91,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/casbin-Casbin.NET",
-      "target": "casbin/casbin.net",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/casbin-Casbin.NET",
       "target": "casbin/casbin.io",
       "target_type": "repository"
     },
@@ -166,6 +99,13 @@
       "source_file": "README.md",
       "source_repo": "apache/casbin-Casbin.NET",
       "target": "casbin/casbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "target": "casbin/jcasbin",
       "target_type": "repository"
     },
     {
@@ -208,41 +148,6 @@
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/casbin-Casbin.NET",
       "target": "Build",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml",
-      "source_repo": "apache/casbin-Casbin.NET",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml",
-      "source_repo": "apache/casbin-Casbin.NET",
-      "target": "actions/setup-dotnet@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml",
-      "source_repo": "apache/casbin-Casbin.NET",
-      "target": "microsoft/infersharpaction@v1.5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/infersharp.yml",
-      "source_repo": "apache/casbin-Casbin.NET",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/infersharp.yml",
-      "source_repo": "apache/casbin-Casbin.NET",
-      "target": "InferSharp",
       "target_type": "term"
     },
     {
@@ -358,23 +263,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:15:02.387340+00:00",
+  "fetched_at": "2026-06-21T19:35:07.642688+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15666
+      "size": 15736
     },
     {
       "path": ".github/workflows/build.yml",
       "size": 4876
     },
     {
-      "path": ".github/workflows/infersharp.yml",
-      "size": 2846
-    },
-    {
       "path": ".github/workflows/release.yml",
-      "size": 5106
+      "size": 5279
     },
     {
       "path": ".github/workflows/semantic.yml",
@@ -390,8 +291,8 @@
     "full_name": "apache/casbin-Casbin.NET",
     "html_url": "https://github.com/apache/casbin-Casbin.NET",
     "language": "C#",
-    "pushed_at": "2026-05-15T19:05:09Z",
-    "stargazers_count": 1320,
+    "pushed_at": "2026-06-16T14:35:41Z",
+    "stargazers_count": 1325,
     "topics": [
       "abac",
       "access-control",
@@ -404,7 +305,7 @@
       "permission",
       "rbac"
     ],
-    "updated_at": "2026-05-26T02:34:17Z"
+    "updated_at": "2026-06-21T17:41:23Z"
   },
   "repo_links": [
     {
@@ -424,7 +325,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "casbin/casbin.net",
+      "full_name": "casbin/jcasbin",
       "source_file": "README.md"
     }
   ],
@@ -434,12 +335,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "term": "Build"
-    },
-    {
-      "context_snippet": "InferSharp",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/infersharp.yml",
-      "term": "InferSharp"
     },
     {
       "context_snippet": "Release",

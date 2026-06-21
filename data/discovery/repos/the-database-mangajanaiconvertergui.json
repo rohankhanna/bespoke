@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-database/MangaJaNaiConverterGui",
+      "target": "the-database/videojanai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "the-database/MangaJaNaiConverterGui",
+      "target": "the-database/trainner-redux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "the-database/MangaJaNaiConverterGui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "the-database/MangaJaNaiConverterGui",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "the-database/MangaJaNaiConverterGui",
+      "target": "Deploy to GitHub Releases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-21T19:28:04.663800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2412
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GUI for upscaling manga with PyTorch models",
+    "fork": false,
+    "full_name": "the-database/MangaJaNaiConverterGui",
+    "html_url": "https://github.com/the-database/MangaJaNaiConverterGui",
+    "language": "Python",
+    "pushed_at": "2025-11-27T04:19:04Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-06-21T15:58:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "the-database/trainner-redux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "the-database/videojanai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Releases"
+    }
+  ]
+}

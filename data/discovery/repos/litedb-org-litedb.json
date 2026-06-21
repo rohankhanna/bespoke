@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "litedb-org/LiteDB",
-      "target": "josefnemec/litedbexplorer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "litedb-org/LiteDB",
@@ -65,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:09:35.560093+00:00",
+  "fetched_at": "2026-06-21T19:29:53.439920+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -81,8 +74,8 @@
     "full_name": "litedb-org/LiteDB",
     "html_url": "https://github.com/litedb-org/LiteDB",
     "language": "C#",
-    "pushed_at": "2026-05-16T19:17:34Z",
-    "stargazers_count": 9400,
+    "pushed_at": "2026-06-08T16:18:50Z",
+    "stargazers_count": 9415,
     "topics": [
       "database",
       "dotnet",
@@ -90,14 +83,9 @@
       "litedb",
       "nosql"
     ],
-    "updated_at": "2026-05-29T14:45:34Z"
+    "updated_at": "2026-06-20T18:42:08Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "josefnemec/litedbexplorer",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lidanger/litedb.wiki_translation_zh-cn",

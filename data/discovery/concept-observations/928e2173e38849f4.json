@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "You like pytorch? You like micrograd? You love tinygrad! \u2764\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Line Counts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Line Counts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35101,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35101,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35101,
+      "status": "candidate",
+      "text": "payee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26595,
+      "status": "candidate",
+      "text": "snub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24064,
+      "status": "candidate",
+      "text": "count"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Line Counts",
+      "sense_id": "check-line-counts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-line-counts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-line-counts",
+  "observation_id": "928e2173e38849f4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "Check Line Counts",
+  "source_context_snippet": "Check Line Counts",
+  "source_file": ".github/workflows/szdiff.yml",
+  "source_repo": "tinygrad/tinygrad",
+  "source_repo_description": "You like pytorch? You like micrograd? You love tinygrad! \u2764\ufe0f "
+}

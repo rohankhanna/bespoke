@@ -176,7 +176,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:32:32.701334+00:00",
+  "fetched_at": "2026-06-21T19:52:07.395968+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,8 +212,8 @@
     "full_name": "google-deepmind/dm-haiku",
     "html_url": "https://github.com/google-deepmind/dm-haiku",
     "language": "Python",
-    "pushed_at": "2026-05-29T06:17:57Z",
-    "stargazers_count": 3233,
+    "pushed_at": "2026-06-02T17:56:40Z",
+    "stargazers_count": 3242,
     "topics": [
       "deep-learning",
       "deep-neural-networks",
@@ -221,7 +221,7 @@
       "machine-learning",
       "neural-networks"
     ],
-    "updated_at": "2026-05-29T08:08:24Z"
+    "updated_at": "2026-06-21T08:55:21Z"
   },
   "repo_links": [
     {

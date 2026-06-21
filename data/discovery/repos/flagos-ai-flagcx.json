@@ -114,7 +114,7 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "flagos-ai/FlagCX",
-      "target": "Run Container and Execute Tests",
+      "target": "Perf Tests in Container",
       "target_type": "term"
     },
     {
@@ -174,7 +174,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:11:01.592379+00:00",
+  "fetched_at": "2026-06-21T19:31:17.950799+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -198,7 +198,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 2266
+      "size": 6907
     },
     {
       "path": ".github/workflows/torch-api-test.yml",
@@ -210,7 +210,7 @@
     },
     {
       "path": ".github/workflows/unit-test.yml",
-      "size": 3966
+      "size": 5157
     },
     {
       "path": ".github/workflows/unittest-adaptor.yml",
@@ -226,10 +226,10 @@
     "full_name": "flagos-ai/FlagCX",
     "html_url": "https://github.com/flagos-ai/FlagCX",
     "language": "C++",
-    "pushed_at": "2026-05-26T02:51:45Z",
-    "stargazers_count": 212,
+    "pushed_at": "2026-06-10T16:09:11Z",
+    "stargazers_count": 216,
     "topics": [],
-    "updated_at": "2026-05-26T11:15:16Z"
+    "updated_at": "2026-06-18T04:40:52Z"
   },
   "repo_links": [
     {
@@ -257,10 +257,10 @@
       "term": "Build Debian Packages"
     },
     {
-      "context_snippet": "Run Container and Execute Tests",
+      "context_snippet": "Perf Tests in Container",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
-      "term": "Run Container and Execute Tests"
+      "term": "Perf Tests in Container"
     },
     {
       "context_snippet": "Torch API Tests in Container",

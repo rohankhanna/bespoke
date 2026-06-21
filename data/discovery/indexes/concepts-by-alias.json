@@ -800,6 +800,9 @@
   "across": [
     "en-preposition-across"
   ],
+  "acrylic": [
+    "acrylic"
+  ],
   "act test": [
     "act-test"
   ],
@@ -2960,6 +2963,9 @@
   ],
   "amd-mi200": [
     "amd-mi200"
+  ],
+  "amd-mi300-ci": [
+    "amd-mi300-ci"
   ],
   "amd-opencl": [
     "amd-opencl"
@@ -6405,6 +6411,9 @@
   "auto-translation": [
     "auto-translation"
   ],
+  "auto-translator": [
+    "auto-translator"
+  ],
   "auto-triage skiasharp issue": [
     "auto-triage-skiasharp-issue"
   ],
@@ -8592,6 +8601,9 @@
   ],
   "benchmark with jmh": [
     "benchmark-with-jmh"
+  ],
+  "benchmark with kernel search": [
+    "benchmark-with-kernel-search"
   ],
   "benchmark worker": [
     "benchmark-worker"
@@ -11764,6 +11776,9 @@
   "build and upload tunix package": [
     "build-and-upload-tunix-package"
   ],
+  "build and upload wheel": [
+    "build-and-upload-wheel"
+  ],
   "build and upload wheels": [
     "build-and-upload-wheels"
   ],
@@ -11913,6 +11928,9 @@
   ],
   "build bcv": [
     "build-bcv"
+  ],
+  "build benchmark catalog": [
+    "build-benchmark-catalog"
   ],
   "build benchmarks wheel": [
     "build-benchmarks-wheel"
@@ -12853,6 +12871,9 @@
   "build linux artifacts": [
     "build-linux-artifacts"
   ],
+  "build linux build image": [
+    "build-linux-build-image"
+  ],
   "build linux packages": [
     "build-linux-packages"
   ],
@@ -12885,6 +12906,9 @@
   ],
   "build llvm docker images": [
     "build-llvm-docker-images"
+  ],
+  "build local library": [
+    "build-local-library"
   ],
   "build locales coverage": [
     "build-locales-coverage"
@@ -17453,6 +17477,9 @@
   "check licenses": [
     "check-licenses"
   ],
+  "check line counts": [
+    "check-line-counts"
+  ],
   "check line endings": [
     "check-line-endings"
   ],
@@ -17557,6 +17584,9 @@
   ],
   "check nixkpgs packages": [
     "check-nixkpgs-packages"
+  ],
+  "check nmv version": [
+    "check-nmv-version"
   ],
   "check no cargo.lock files are dirty": [
     "check-no-cargo.lock-files-are-dirty"
@@ -18097,6 +18127,9 @@
   ],
   "check-pr": [
     "check-pr"
+  ],
+  "check-pr-title": [
+    "check-pr-title"
   ],
   "check-profiles": [
     "check-profiles"
@@ -28208,6 +28241,9 @@
   "dataset-hub": [
     "dataset-hub"
   ],
+  "dataset-preparation": [
+    "dataset-preparation"
+  ],
   "datasets": [
     "datasets"
   ],
@@ -28891,6 +28927,12 @@
   ],
   "deepseek-v3": [
     "deepseek-v3"
+  ],
+  "deepseek-v3-2": [
+    "deepseek-v3-2"
+  ],
+  "deepseek-v4": [
+    "deepseek-v4"
   ],
   "deepsomatic": [
     "deepsomatic"
@@ -29771,6 +29813,9 @@
   "deploy manual": [
     "deploy-manual"
   ],
+  "deploy mdbook": [
+    "deploy-mdbook"
+  ],
   "deploy mdbook site to pages": [
     "deploy-mdbook-site-to-pages"
   ],
@@ -30070,6 +30115,9 @@
   ],
   "deploy to github pages": [
     "deploy-to-github-pages"
+  ],
+  "deploy to github releases": [
+    "deploy-to-github-releases"
   ],
   "deploy to live channel": [
     "deploy-to-live-channel"
@@ -39206,6 +39254,9 @@
   "framegeneration": [
     "framegeneration"
   ],
+  "frameless-window": [
+    "frameless-window"
+  ],
   "framework": [
     "framework"
   ],
@@ -41424,6 +41475,9 @@
   "gitea": [
     "gitea"
   ],
+  "gitee mirror": [
+    "gitee-mirror"
+  ],
   "gitflow": [
     "gitflow"
   ],
@@ -41522,6 +41576,9 @@
   ],
   "github pages publish": [
     "github-pages-publish"
+  ],
+  "github pages redirects": [
+    "github-pages-redirects"
   ],
   "github pages sphinx": [
     "github-pages-sphinx"
@@ -46628,6 +46685,9 @@
   ],
   "image-aesthetic-assessment": [
     "image-aesthetic-assessment"
+  ],
+  "image-alignment": [
+    "image-alignment"
   ],
   "image-analysis": [
     "image-analysis"
@@ -57741,6 +57801,9 @@
   "mi-band": [
     "mi-band"
   ],
+  "mica": [
+    "mica"
+  ],
   "micro": [
     "micro"
   ],
@@ -58220,6 +58283,9 @@
   ],
   "minimax-01": [
     "minimax-01"
+  ],
+  "minimax-m2": [
+    "minimax-m2"
   ],
   "minimax-text-01": [
     "minimax-text-01"
@@ -65355,6 +65421,12 @@
   "osps security assessment": [
     "osps-security-assessment"
   ],
+  "oss issue deduplicator": [
+    "oss-issue-deduplicator"
+  ],
+  "oss issue tagger": [
+    "oss-issue-tagger"
+  ],
   "oss-fuzz": [
     "oss-fuzz"
   ],
@@ -65396,6 +65468,24 @@
   ],
   "ot2od032119": [
     "ot2od032119"
+  ],
+  "otari lint": [
+    "otari-lint"
+  ],
+  "otari pr title check": [
+    "otari-pr-title-check"
+  ],
+  "otari release (open pr)": [
+    "otari-release-open-pr"
+  ],
+  "otari release (tag + publish)": [
+    "otari-release-tag-publish"
+  ],
+  "otari sdk codegen": [
+    "otari-sdk-codegen"
+  ],
+  "otari sdk codegen check": [
+    "otari-sdk-codegen-check"
   ],
   "otel": [
     "otel"
@@ -66465,6 +66555,9 @@
   "patterns artifact": [
     "patterns-artifact"
   ],
+  "pause pull requests": [
+    "pause-pull-requests"
+  ],
   "paxos": [
     "paxos"
   ],
@@ -66740,6 +66833,9 @@
   ],
   "perf tests": [
     "perf-tests"
+  ],
+  "perf tests in container": [
+    "perf-tests-in-container"
   ],
   "perfectionist": [
     "perfectionist"
@@ -70521,6 +70617,9 @@
   "promote": [
     "promote"
   ],
+  "promote agent image to :prod": [
+    "promote-agent-image-to-prod"
+  ],
   "promote dev to stable": [
     "promote-dev-to-stable"
   ],
@@ -71637,6 +71736,9 @@
   "publish ossrh": [
     "publish-ossrh"
   ],
+  "publish otari docker image": [
+    "publish-otari-docker-image"
+  ],
   "publish package": [
     "publish-package"
   ],
@@ -72144,6 +72246,9 @@
   "publish unstable release": [
     "publish-unstable-release"
   ],
+  "publish verifiers": [
+    "publish-verifiers"
+  ],
   "publish verifiers-rl": [
     "publish-verifiers-rl"
   ],
@@ -72581,6 +72686,9 @@
   ],
   "push a new docker image": [
     "push-a-new-docker-image"
+  ],
+  "push action": [
+    "push-action"
   ],
   "push algo docker image": [
     "push-algo-docker-image"
@@ -73775,6 +73883,9 @@
   ],
   "qwen3-moe": [
     "qwen3-moe"
+  ],
+  "qwen3-next": [
+    "qwen3-next"
   ],
   "qwen3-omni": [
     "qwen3-omni"
@@ -75524,6 +75635,9 @@
   ],
   "release a tag": [
     "release-a-tag"
+  ],
+  "release action": [
+    "release-action"
   ],
   "release agno": [
     "release-agno"
@@ -79376,6 +79490,9 @@
   ],
   "run miri safety checks": [
     "run-miri-safety-checks"
+  ],
+  "run mlperf training": [
+    "run-mlperf-training"
   ],
   "run multicoretests testsuite": [
     "run-multicoretests-testsuite"
@@ -95600,6 +95717,9 @@
   "upload pypi release": [
     "upload-pypi-release"
   ],
+  "upload pyside6 & pyqt6 package": [
+    "upload-pyside6-pyqt6-package"
+  ],
   "upload raganything package": [
     "upload-raganything-package"
   ],
@@ -97708,6 +97828,9 @@
   ],
   "visual regression tests": [
     "visual-regression-tests"
+  ],
+  "visual testing": [
+    "visual-testing"
   ],
   "visual-analysis": [
     "visual-analysis"

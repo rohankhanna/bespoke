@@ -57,13 +57,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "ably-labs/realtime-quiz-framework",
-      "target": "srushtika/live-edtech-trivia-app",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ably-labs/realtime-quiz-framework",
@@ -176,7 +169,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:13:43.714698+00:00",
+  "fetched_at": "2026-06-21T19:33:58.964664+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -197,7 +190,7 @@
     "html_url": "https://github.com/ably-labs/realtime-quiz-framework",
     "language": "Vue",
     "pushed_at": "2026-03-06T17:44:20Z",
-    "stargazers_count": 77,
+    "stargazers_count": 76,
     "topics": [
       "demo",
       "edtech",
@@ -208,7 +201,7 @@
       "vuejs",
       "websockets"
     ],
-    "updated_at": "2026-05-15T03:26:08Z"
+    "updated_at": "2026-06-17T23:30:41Z"
   },
   "repo_links": [
     {
@@ -220,11 +213,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "srushtika/realtime-quiz-framework",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "srushtika/live-edtech-trivia-app",
-      "source_file": "package.json"
     }
   ],
   "terms": [

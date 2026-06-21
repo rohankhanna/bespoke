@@ -19,6 +19,18 @@
       "source_repo": "kantv-ai/kantv",
       "status": "candidate-context",
       "text": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, history of ggml-hexagon: https://github.com/zhouwg/ggml-hexagon/discussions/18. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kantv-ai/kantv",
       "status": "candidate",
       "text": "KanTV(\"Kan\", aka English \"watch\") , an open source project focus on study and practise on-device AI technology in <b>real scenario</b>(such as perform <b>online-TV playback</b> and <b>realtime transcription</b> and <b>online-TV record</b> at the same time) on Android phone:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate",
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,23 @@
       "observed_at": "2026-05-30T00:44:22.415230+00:00",
       "source_file": null,
       "source_repo": "kantv-ai/kantv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "kantv-ai/kantv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "zhouwg/ggml-hexagon"
     }
   ],
   "first_seen_at": "2026-05-11T13:15:38.721392+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

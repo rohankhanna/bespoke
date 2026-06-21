@@ -163,11 +163,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:15:46.714751+00:00",
+  "fetched_at": "2026-06-21T19:35:53.188343+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 3241
+      "size": 3234
     },
     {
       "path": ".github/workflows/bruno-check.yml",
@@ -195,10 +195,10 @@
     "full_name": "realworld-apps/realworld",
     "html_url": "https://github.com/realworld-apps/realworld",
     "language": "TypeScript",
-    "pushed_at": "2026-05-21T06:23:41Z",
-    "stargazers_count": 83491,
+    "pushed_at": "2026-06-15T22:54:31Z",
+    "stargazers_count": 83646,
     "topics": [],
-    "updated_at": "2026-05-29T23:06:35Z"
+    "updated_at": "2026-06-21T18:22:36Z"
   },
   "repo_links": [],
   "terms": [

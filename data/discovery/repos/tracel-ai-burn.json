@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/combine-dependabot-prs.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml"
     },
@@ -186,7 +186,7 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale-pr.yml"
     },
@@ -196,7 +196,7 @@
       "source_file": ".github/workflows/stale-pr.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/test-gpu.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml"
     },
@@ -216,7 +216,7 @@
       "source_file": ".github/workflows/test-gpu.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml"
     },
@@ -226,7 +226,7 @@
       "source_file": ".github/workflows/test-gpu.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -261,32 +261,27 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "codecov/codecov-action@v6",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "tracel-ai/github-actions/install-rust@v9",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "codecov/codecov-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "tracel-ai/github-actions/install-rust@v9",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -296,7 +291,27 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/valgrind.yml"
     },
@@ -306,7 +321,7 @@
       "source_file": ".github/workflows/valgrind.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
@@ -321,7 +336,7 @@
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
@@ -336,7 +351,7 @@
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
@@ -351,7 +366,7 @@
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
@@ -366,7 +381,7 @@
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vulnerabilities.yml"
     },
@@ -382,6 +397,27 @@
     }
   ],
   "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "rust-ml/linfa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "lancedb/lancedb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "plotters-rs/plotters",
+      "target_type": "repository"
+    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -407,7 +443,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -456,7 +492,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale-pr.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -477,7 +513,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -498,7 +534,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -519,14 +555,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "codecov/codecov-action@v6",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "codecov/codecov-action@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/valgrind.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -547,7 +597,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vulnerabilities.yml",
       "source_repo": "tracel-ai/burn",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -698,15 +748,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:27:46.937535+00:00",
+  "fetched_at": "2026-06-21T19:28:30.733229+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 21397
+      "size": 29763
     },
     {
       "path": "Cargo.toml",
-      "size": 9997
+      "size": 10032
     },
     {
       "path": ".github/workflows/combine-dependabot-prs.yml",
@@ -718,7 +768,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 14318
+      "size": 14353
     },
     {
       "path": ".github/workflows/stale-pr.yml",
@@ -730,7 +780,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 8560
+      "size": 9861
     },
     {
       "path": ".github/workflows/valgrind.yml",
@@ -750,8 +800,8 @@
     "full_name": "tracel-ai/burn",
     "html_url": "https://github.com/tracel-ai/burn",
     "language": "Rust",
-    "pushed_at": "2026-04-30T20:09:16Z",
-    "stargazers_count": 14973,
+    "pushed_at": "2026-06-19T21:38:43Z",
+    "stargazers_count": 15464,
     "topics": [
       "autodiff",
       "cross-platform",
@@ -772,12 +822,27 @@
       "wasm",
       "webgpu"
     ],
-    "updated_at": "2026-04-30T21:35:23Z"
+    "updated_at": "2026-06-21T16:51:55Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
+      "full_name": "lancedb/lancedb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plotters-rs/plotters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "ratatui-org/ratatui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-ml/linfa",
       "source_file": "README.md"
     }
   ],

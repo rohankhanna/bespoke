@@ -231,17 +231,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-patches.yml"
     },
     {
-      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/apply-patches.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-patches.yml"
     },
@@ -251,7 +246,7 @@
       "source_file": ".github/workflows/apply-patches.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/archaeologist-dig.yml"
     },
@@ -271,7 +266,7 @@
       "source_file": ".github/workflows/audit-branch-ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml"
     },
@@ -316,59 +311,59 @@
       "source_file": ".github/workflows/branch-created.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-git-cache.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-git-cache.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-git-cache.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-git-cache.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nmv-version.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-nmv-version.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clean-src-cache.yml"
     }
   ],
   "edges": [
@@ -698,14 +693,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-patches.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/apply-patches.yml",
-      "source_repo": "electron/electron",
-      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -726,7 +714,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/archaeologist-dig.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -761,7 +749,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -838,7 +826,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-git-cache.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -852,14 +840,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "electron/electron",
-      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -871,9 +852,23 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
+      "source_file": ".github/workflows/check-nmv-version.yml",
       "source_repo": "electron/electron",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-nmv-version.yml",
+      "source_repo": "electron/electron",
+      "target": "Check NMV Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
+      "source_repo": "electron/electron",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -881,20 +876,6 @@
       "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
       "source_repo": "electron/electron",
       "target": "Clean Orphaned Cache Uploads",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clean-src-cache.yml",
-      "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/clean-src-cache.yml",
-      "source_repo": "electron/electron",
-      "target": "Clean Source Cache",
       "target_type": "term"
     },
     {
@@ -940,19 +921,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:20:37.501353+00:00",
+  "fetched_at": "2026-06-21T19:40:20.698545+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 4714
+      "size": 4713
     },
     {
       "path": "package.json",
-      "size": 6167
+      "size": 6186
     },
     {
       "path": ".github/workflows/apply-patches.yml",
-      "size": 3187
+      "size": 3180
     },
     {
       "path": ".github/workflows/archaeologist-dig.yml",
@@ -972,15 +953,15 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 16634
+      "size": 17970
+    },
+    {
+      "path": ".github/workflows/check-nmv-version.yml",
+      "size": 2869
     },
     {
       "path": ".github/workflows/clean-orphaned-cache-uploads.yml",
       "size": 1431
-    },
-    {
-      "path": ".github/workflows/clean-src-cache.yml",
-      "size": 6994
     }
   ],
   "related_repositories": [],
@@ -992,8 +973,8 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-05-29T22:46:19Z",
-    "stargazers_count": 121469,
+    "pushed_at": "2026-06-20T04:50:55Z",
+    "stargazers_count": 121711,
     "topics": [
       "c-plus-plus",
       "chrome",
@@ -1005,7 +986,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-05-30T01:53:57Z"
+    "updated_at": "2026-06-21T16:52:01Z"
   },
   "repo_links": [],
   "terms": [
@@ -1046,16 +1027,16 @@
       "term": "Build"
     },
     {
+      "context_snippet": "Check NMV Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-nmv-version.yml",
+      "term": "Check NMV Version"
+    },
+    {
       "context_snippet": "Clean Orphaned Cache Uploads",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
       "term": "Clean Orphaned Cache Uploads"
-    },
-    {
-      "context_snippet": "Clean Source Cache",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/clean-src-cache.yml",
-      "term": "Clean Source Cache"
     },
     {
       "context_snippet": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)",

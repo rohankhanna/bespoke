@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross-platform frameless window based on PyQt/PySide, support Win32, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997714,
+      "status": "candidate",
+      "text": "aviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952128,
+      "status": "candidate",
+      "text": "cal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29849646,
+      "status": "candidate",
+      "text": "optical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807296,
+      "status": "candidate",
+      "text": "avn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999618,
+      "status": "candidate",
+      "text": "aviatory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aero",
+      "sense_id": "aero#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aero",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aero",
+  "observation_id": "186dc1c569f8b2cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "aero",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+  "source_repo_description": "A cross-platform frameless window based on PyQt/PySide, support Win32, Linux and macOS."
+}

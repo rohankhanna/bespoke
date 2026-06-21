@@ -67,7 +67,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:18:57.003203+00:00",
+  "fetched_at": "2026-06-21T20:05:05.839330+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -88,14 +88,14 @@
     "html_url": "https://github.com/smithy-lang/smithy-gradle-plugin",
     "language": "Java",
     "pushed_at": "2026-02-25T00:43:31Z",
-    "stargazers_count": 33,
+    "stargazers_count": 34,
     "topics": [
       "build-tool",
       "gradle",
       "gradle-plugin",
       "smithy"
     ],
-    "updated_at": "2026-02-25T00:43:35Z"
+    "updated_at": "2026-06-20T01:01:55Z"
   },
   "repo_links": [
     {

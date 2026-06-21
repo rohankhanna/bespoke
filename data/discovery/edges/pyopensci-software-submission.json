@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-markdown.yml",
       "source_repo": "pyOpenSci/software-submission",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -60,14 +60,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-project.yml",
       "source_repo": "pyOpenSci/software-submission",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-project.yml",
       "source_repo": "pyOpenSci/software-submission",
-      "target": "actions/add-to-project@v1.0.1",
+      "target": "actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd",
       "target_type": "component"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "pyOpenSci/software-submission"
 }

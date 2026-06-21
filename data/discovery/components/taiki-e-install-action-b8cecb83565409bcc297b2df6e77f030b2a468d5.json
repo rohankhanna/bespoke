@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@b8cecb83565409bcc297b2df6e77f030b2a468d5",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    }
+  ]
+}

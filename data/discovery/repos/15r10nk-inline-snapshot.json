@@ -279,11 +279,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:14:56.556340+00:00",
+  "fetched_at": "2026-06-21T19:59:13.151208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8344
+      "size": 8361
     },
     {
       "path": "pyproject.toml",
@@ -319,8 +319,8 @@
     "full_name": "15r10nk/inline-snapshot",
     "html_url": "https://github.com/15r10nk/inline-snapshot",
     "language": "Python",
-    "pushed_at": "2026-05-29T21:01:09Z",
-    "stargazers_count": 731,
+    "pushed_at": "2026-06-19T22:04:42Z",
+    "stargazers_count": 739,
     "topics": [
       "approval-testing",
       "golden-master",
@@ -335,7 +335,7 @@
       "snapshottest",
       "testing"
     ],
-    "updated_at": "2026-05-29T20:54:22Z"
+    "updated_at": "2026-06-19T21:09:44Z"
   },
   "repo_links": [
     {

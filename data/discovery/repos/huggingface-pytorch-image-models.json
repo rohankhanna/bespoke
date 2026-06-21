@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:28:42.918755+00:00",
+  "fetched_at": "2026-06-21T19:48:30.466620+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -311,7 +311,7 @@
     },
     {
       "path": ".github/workflows/trufflehog.yml",
-      "size": 348
+      "size": 987
     },
     {
       "path": ".github/workflows/upload_pr_documentation.yml",
@@ -327,8 +327,8 @@
     "full_name": "huggingface/pytorch-image-models",
     "html_url": "https://github.com/huggingface/pytorch-image-models",
     "language": "Python",
-    "pushed_at": "2026-05-27T22:21:38Z",
-    "stargazers_count": 36842,
+    "pushed_at": "2026-06-19T17:01:45Z",
+    "stargazers_count": 36898,
     "topics": [
       "augmix",
       "convnext",
@@ -351,7 +351,7 @@
       "resnet",
       "vision-transformer-models"
     ],
-    "updated_at": "2026-05-30T02:05:56Z"
+    "updated_at": "2026-06-21T10:47:37Z"
   },
   "repo_links": [
     {

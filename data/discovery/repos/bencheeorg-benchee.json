@@ -120,15 +120,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:19:38.409347+00:00",
+  "fetched_at": "2026-06-21T20:06:06.500551+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 54986
+      "size": 54856
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 4614
+      "size": 4609
     }
   ],
   "related_repositories": [],
@@ -140,8 +140,8 @@
     "full_name": "bencheeorg/benchee",
     "html_url": "https://github.com/bencheeorg/benchee",
     "language": "Elixir",
-    "pushed_at": "2026-04-11T09:28:54Z",
-    "stargazers_count": 1509,
+    "pushed_at": "2026-06-09T09:04:54Z",
+    "stargazers_count": 1511,
     "topics": [
       "benchmarking",
       "elixir",
@@ -150,7 +150,7 @@
       "microbenchmarks",
       "statistics"
     ],
-    "updated_at": "2026-05-26T15:58:34Z"
+    "updated_at": "2026-06-20T01:25:41Z"
   },
   "repo_links": [
     {

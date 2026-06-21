@@ -1,11 +1,18 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi300.yml",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "opennlplab/lightnet",
-      "target_type": "repository"
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-mi300.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "amd-mi300-ci",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -47,6 +54,13 @@
       "source_file": ".github/workflows/check-header.yml",
       "source_repo": "fla-org/flash-linear-attention",
       "target": "check-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "check-pr-title",
       "target_type": "term"
     },
     {
@@ -127,34 +141,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/nvidia-h100.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "nvidia-h100-ci",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "release",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "fla-org/flash-linear-attention",
@@ -183,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "fla-org/flash-linear-attention"
 }

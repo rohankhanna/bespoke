@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-21T19:27:45.983982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LAV Filters - Open-Source DirectShow Media Splitter and Decoders",
+    "fork": false,
+    "full_name": "Nevcairiel/LAVFilters",
+    "html_url": "https://github.com/Nevcairiel/LAVFilters",
+    "language": "C++",
+    "pushed_at": "2026-06-10T05:33:01Z",
+    "stargazers_count": 8966,
+    "topics": [],
+    "updated_at": "2026-06-21T15:19:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

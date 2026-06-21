@@ -84,7 +84,7 @@
   "normalized_form": "enforce-issue-assignment",
   "observation_id": "076f7ac5726d7c4c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
   "observed_text": "Enforce issue assignment",
   "source_context_snippet": "Enforce issue assignment",
   "source_file": ".github/workflows/enforce-issue-assignment.yml",

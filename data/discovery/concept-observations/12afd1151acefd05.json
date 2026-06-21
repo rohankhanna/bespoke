@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross-platform frameless window based on PyQt/PySide, support Win32, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frameless-window",
+      "sense_id": "frameless-window#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "frameless-window",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "frameless-window",
+  "observation_id": "12afd1151acefd05",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "frameless-window",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "zhiyiYo/PyQt-Frameless-Window",
+  "source_repo_description": "A cross-platform frameless window based on PyQt/PySide, support Win32, Linux and macOS."
+}

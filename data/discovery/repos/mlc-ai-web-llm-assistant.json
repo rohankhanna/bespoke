@@ -326,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:10:28.263137+00:00",
+  "fetched_at": "2026-06-21T19:30:46.993984+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -347,7 +347,7 @@
     "html_url": "https://github.com/mlc-ai/web-llm-assistant",
     "language": "TypeScript",
     "pushed_at": "2024-12-03T00:21:12Z",
-    "stargazers_count": 81,
+    "stargazers_count": 82,
     "topics": [
       "agent",
       "chrome-extension",
@@ -355,7 +355,7 @@
       "large-language-models",
       "machine-learning"
     ],
-    "updated_at": "2026-05-13T23:57:14Z"
+    "updated_at": "2026-06-16T12:00:12Z"
   },
   "repo_links": [
     {

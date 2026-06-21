@@ -787,6 +787,18 @@
       "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
       "status": "candidate-context",
       "text": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate-context",
+      "text": "Translate manga/image."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate-context",
+      "text": "* [Docs/Install Guide](https://frederik-uni.github.io/manga-image-translator-rust/index.html)"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1191,12 @@
       "source_repo": "Amblyopius/Stable-Diffusion-ONNX-FP16",
       "status": "candidate",
       "text": "This repository contains a conversion tool, some examples, and instructions on how to set up Stable Diffusion with ONNX models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate",
+      "text": "* [Docs/Install Guide](https://frederik-uni.github.io/manga-image-translator-rust/index.html)"
     }
   ],
   "candidate_related_terms": [],
@@ -2428,11 +2446,23 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/RVM-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "frederik-uni/manga-image-translator-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

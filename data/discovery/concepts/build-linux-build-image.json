@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Linux build image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Build Linux build image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate",
+      "text": "Build Linux build image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22486,
+      "status": "candidate",
+      "text": "minix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18516,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18486,
+      "status": "candidate",
+      "text": "ethernet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18486,
+      "status": "candidate",
+      "text": "graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16413,
+      "status": "candidate",
+      "text": "beatrix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Linux build image",
+  "concept_id": "build-linux-build-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Linux build image",
+      "sense_id": "build-linux-build-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

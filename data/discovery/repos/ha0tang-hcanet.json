@@ -19,11 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Ha0Tang/HCANet",
+      "target": "amazingren/cit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/HCANet",
       "target": "ha0tang/guided-i2i-translation-papers",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-30T02:25:49.331908+00:00",
+  "fetched_at": "2026-06-21T19:45:23.245857+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -49,6 +56,11 @@
     "updated_at": "2025-05-14T11:13:07Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazingren/cit",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ha0tang/guided-i2i-translation-papers",

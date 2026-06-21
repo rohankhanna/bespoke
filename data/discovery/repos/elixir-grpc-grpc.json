@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -11,27 +11,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v3",
+      "component": "actions/cache@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "erlef/setup-beam@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/cache@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -41,12 +26,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v3",
+      "component": "actions/cache@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -56,7 +41,22 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@v3",
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     }
@@ -66,7 +66,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "elixir-grpc/grpc",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
@@ -80,7 +80,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "elixir-grpc/grpc",
-      "target": "actions/cache@v3",
+      "target": "actions/cache@v4",
       "target_type": "component"
     },
     {
@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:22:30.126689+00:00",
+  "fetched_at": "2026-06-21T20:09:35.081815+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -145,7 +145,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 3981
+      "size": 3977
     }
   ],
   "related_repositories": [],
@@ -157,8 +157,8 @@
     "full_name": "elixir-grpc/grpc",
     "html_url": "https://github.com/elixir-grpc/grpc",
     "language": "Elixir",
-    "pushed_at": "2026-05-28T03:51:25Z",
-    "stargazers_count": 1516,
+    "pushed_at": "2026-06-18T06:01:23Z",
+    "stargazers_count": 1517,
     "topics": [
       "elixir",
       "google-protocol-buffers",
@@ -169,7 +169,7 @@
       "protobuf",
       "rpc"
     ],
-    "updated_at": "2026-05-28T03:45:52Z"
+    "updated_at": "2026-06-21T05:27:08Z"
   },
   "repo_links": [],
   "terms": [

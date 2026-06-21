@@ -83,6 +83,46 @@
     {
       "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-templates.yml"
     },
     {
@@ -295,6 +335,55 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "Build local library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-templates.yml",
       "source_repo": "callstack/react-native-builder-bob",
       "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
@@ -476,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:23:13.020402+00:00",
+  "fetched_at": "2026-06-21T19:42:28.618223+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -487,8 +576,12 @@
       "size": 1789
     },
     {
+      "path": ".github/workflows/build-local-libraries.yml",
+      "size": 9255
+    },
+    {
       "path": ".github/workflows/build-templates.yml",
-      "size": 9946
+      "size": 9981
     },
     {
       "path": ".github/workflows/check-project.yml",
@@ -524,14 +617,14 @@
     "full_name": "callstack/react-native-builder-bob",
     "html_url": "https://github.com/callstack/react-native-builder-bob",
     "language": "JavaScript",
-    "pushed_at": "2026-05-26T21:02:24Z",
-    "stargazers_count": 3214,
+    "pushed_at": "2026-06-16T11:57:44Z",
+    "stargazers_count": 3217,
     "topics": [
       "hacktoberfest",
       "react-native",
       "template"
     ],
-    "updated_at": "2026-05-29T07:19:02Z"
+    "updated_at": "2026-06-18T06:46:54Z"
   },
   "repo_links": [
     {
@@ -546,6 +639,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Build local library",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-local-libraries.yml",
+      "term": "Build local library"
+    },
     {
       "context_snippet": "Build template",
       "edge_type": "workflow-name",

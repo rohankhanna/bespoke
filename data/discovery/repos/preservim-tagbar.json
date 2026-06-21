@@ -147,7 +147,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:21:21.161723+00:00",
+  "fetched_at": "2026-06-21T20:08:18.689932+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -175,8 +175,8 @@
     "full_name": "preservim/tagbar",
     "html_url": "https://github.com/preservim/tagbar",
     "language": "Vim Script",
-    "pushed_at": "2026-05-17T13:28:29Z",
-    "stargazers_count": 6218,
+    "pushed_at": "2026-06-14T16:03:40Z",
+    "stargazers_count": 6220,
     "topics": [
       "exuberant-ctags",
       "linux",
@@ -187,7 +187,7 @@
       "vim-plugins",
       "windows"
     ],
-    "updated_at": "2026-05-29T19:05:10Z"
+    "updated_at": "2026-06-19T15:07:13Z"
   },
   "repo_links": [
     {

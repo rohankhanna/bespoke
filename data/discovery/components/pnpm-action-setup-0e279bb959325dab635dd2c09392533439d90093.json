@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
   "first_seen_at": "2026-05-13T12:58:22.952944+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/hf-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "pydantic/pydantic"
     }
   ]
 }

@@ -355,6 +355,18 @@
       "source_repo": "gazebosim/gz-transport",
       "status": "candidate-context",
       "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate-context",
+      "text": "Bazel rules to resolve, fetch and export Maven artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
     }
   ],
   "candidate_glosses": [
@@ -535,6 +547,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gazebosim/gz-transport",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_jvm_external",
       "status": "candidate",
       "text": "Publish to BCR"
     }
@@ -844,11 +862,17 @@
       "observed_at": "2026-05-24T00:44:26.398961+00:00",
       "source_file": ".github/workflows/publish_to_bcr.yaml",
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_jvm_external"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-24T00:44:26.398961+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

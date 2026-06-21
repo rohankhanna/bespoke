@@ -325,6 +325,18 @@
       "source_repo": "fuma-nama/fumadocs",
       "status": "candidate-context",
       "text": "![banner](./apps/docs/public/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate-context",
+      "text": "Custom Themes for Cherry Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate-context",
+      "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -483,6 +495,12 @@
       "source_repo": "fuma-nama/fumadocs",
       "status": "candidate",
       "text": "![banner](./apps/docs/public/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate",
+      "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -1510,11 +1528,23 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": null,
       "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

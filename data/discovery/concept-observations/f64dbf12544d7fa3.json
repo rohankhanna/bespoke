@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+      "text": "Digital products and their users need privacy, reliability, cost control, and an option to be independent from closed-source model providers."
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+      "text": "Digital products and their users need privacy, reliability, cost control, and an option to be independent from closed-source model providers."
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -48,9 +48,9 @@
   "normalized_form": "llamacpp",
   "observation_id": "f64dbf12544d7fa3",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
   "observed_text": "llamacpp",
-  "source_context_snippet": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />",
+  "source_context_snippet": "Digital products and their users need privacy, reliability, cost control, and an option to be independent from closed-source model providers.",
   "source_file": null,
   "source_repo": "intentee/paddler",
   "source_repo_description": "Open-source LLM/VLM load balancer and serving platform for self-hosting LLMs (and VLMs) at scale \ud83c\udfd3\ud83e\udd99 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU."

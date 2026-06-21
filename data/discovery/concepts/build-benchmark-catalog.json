@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build benchmark catalog"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Build benchmark catalog"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate",
+      "text": "Build benchmark catalog"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19194,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19109,
+      "status": "candidate",
+      "text": "cataloged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18845,
+      "status": "candidate",
+      "text": "passbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18845,
+      "status": "candidate",
+      "text": "phenotype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18845,
+      "status": "candidate",
+      "text": "statistics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build benchmark catalog",
+  "concept_id": "build-benchmark-catalog",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build benchmark catalog",
+      "sense_id": "build-benchmark-catalog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

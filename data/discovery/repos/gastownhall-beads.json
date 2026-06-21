@@ -296,6 +296,11 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
       "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
@@ -1034,7 +1039,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:03:43.609776+00:00",
+  "fetched_at": "2026-06-21T19:23:33.487794+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1042,7 +1047,7 @@
     },
     {
       "path": "go.mod",
-      "size": 14052
+      "size": 14054
     },
     {
       "path": ".github/workflows/ci-measurements.yml",
@@ -1054,11 +1059,11 @@
     },
     {
       "path": ".github/workflows/deploy-docs.yml",
-      "size": 2713
+      "size": 2929
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 35460
+      "size": 36212
     },
     {
       "path": ".github/workflows/migration-test.yml",
@@ -1086,14 +1091,14 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-05-30T01:55:10Z",
-    "stargazers_count": 24214,
+    "pushed_at": "2026-06-21T03:44:15Z",
+    "stargazers_count": 24666,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-05-30T01:52:58Z"
+    "updated_at": "2026-06-21T18:41:15Z"
   },
   "repo_links": [],
   "terms": [

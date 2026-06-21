@@ -169,6 +169,18 @@
       "source_repo": "modelscope/FunClip",
       "status": "candidate-context",
       "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kim2091/helpful-scripts",
+      "status": "candidate-context",
+      "text": "Various scripts, mostly intended to help with model training and dataset creation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/helpful-scripts",
+      "status": "candidate-context",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +261,12 @@
       "source_repo": "modelscope/FunClip",
       "status": "candidate",
       "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/helpful-scripts",
+      "status": "candidate",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
     }
   ],
   "candidate_related_terms": [],
@@ -832,11 +850,17 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "Kim2091/helpful-scripts"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

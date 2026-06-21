@@ -986,12 +986,12 @@
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
     {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
@@ -1021,7 +1021,17 @@
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
     {
-      "component": "ijjk/rust-cache@a34594c450817c9860143c79797a8770c4e587f5",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
@@ -1061,12 +1071,12 @@
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
     {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
     {
-      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
@@ -1107,6 +1117,11 @@
     },
     {
       "component": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml"
     },
@@ -1171,11 +1186,6 @@
       "source_file": ".github/workflows/build_and_test.yml"
     },
     {
-      "component": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build_reusable.yml"
-    },
-    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_reusable.yml"
@@ -1202,6 +1212,11 @@
     },
     {
       "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_reusable.yml"
+    },
+    {
+      "component": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_reusable.yml"
     },
@@ -2674,7 +2689,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
-      "target": "ijjk/rust-cache@a34594c450817c9860143c79797a8770c4e587f5",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js",
+      "target": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -2682,13 +2711,6 @@
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
       "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build_and_deploy.yml",
-      "source_repo": "vercel/next.js",
-      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -2758,13 +2780,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_reusable.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build_reusable.yml",
-      "source_repo": "vercel/next.js",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
@@ -2787,6 +2802,13 @@
       "source_file": ".github/workflows/build_reusable.yml",
       "source_repo": "vercel/next.js",
       "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_reusable.yml",
+      "source_repo": "vercel/next.js",
+      "target": "actions/github-script@d746ffe35508b1917358783b479e04febd2b8f71",
       "target_type": "component"
     },
     {
@@ -2993,35 +3015,35 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:04:56.768081+00:00",
+  "fetched_at": "2026-06-21T19:24:41.692062+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
-      "size": 12042
+      "size": 12276
     },
     {
       "path": "package.json",
-      "size": 16255
+      "size": 16221
     },
     {
       "path": ".github/workflows/build_and_deploy.yml",
-      "size": 24162
+      "size": 26952
     },
     {
       "path": ".github/workflows/build_and_test.yml",
-      "size": 41504
+      "size": 37177
     },
     {
       "path": ".github/workflows/build_reusable.yml",
-      "size": 24576
+      "size": 18751
     },
     {
       "path": ".github/workflows/code_freeze.yml",
-      "size": 1216
+      "size": 1241
     },
     {
       "path": ".github/workflows/create_release_branch.yml",
-      "size": 3284
+      "size": 3309
     },
     {
       "path": ".github/workflows/graphite_ci_optimizer.yml",
@@ -3029,7 +3051,7 @@
     },
     {
       "path": ".github/workflows/integration_tests_reusable.yml",
-      "size": 5556
+      "size": 5874
     },
     {
       "path": ".github/workflows/issue_lock.yml",
@@ -3045,8 +3067,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-05-30T00:15:12Z",
-    "stargazers_count": 139596,
+    "pushed_at": "2026-06-21T19:17:58Z",
+    "stargazers_count": 140111,
     "topics": [
       "blog",
       "browser",
@@ -3063,7 +3085,7 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-05-30T02:00:24Z"
+    "updated_at": "2026-06-21T16:58:26Z"
   },
   "repo_links": [],
   "terms": [

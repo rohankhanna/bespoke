@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, history of ggml-hexagon: https://github.com/zhouwg/ggml-hexagon/discussions/18. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ggml-hexagon",
+      "sense_id": "ggml-hexagon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ggml-hexagon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ggml-hexagon",
+  "observation_id": "42d51b3bcf0f13f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "ggml-hexagon",
+  "source_context_snippet": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)",
+  "source_file": null,
+  "source_repo": "zhouwg/ggml-hexagon",
+  "source_repo_description": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, history of ggml-hexagon: https://github.com/zhouwg/ggml-hexagon/discussions/18. "
+}

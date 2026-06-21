@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:26:38.557883+00:00",
+  "fetched_at": "2026-06-21T19:46:14.735818+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,13 +61,13 @@
     "html_url": "https://github.com/tusen-ai/simpledet",
     "language": "Python",
     "pushed_at": "2021-09-23T02:57:09Z",
-    "stargazers_count": 3083,
+    "stargazers_count": 3084,
     "topics": [
       "instance-segmentation",
       "mxnet",
       "object-detection"
     ],
-    "updated_at": "2026-05-23T13:58:55Z"
+    "updated_at": "2026-06-19T23:54:08Z"
   },
   "repo_links": [
     {

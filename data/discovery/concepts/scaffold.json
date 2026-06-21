@@ -163,6 +163,12 @@
       "source_repo": "BirolLab/LINKS",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +249,12 @@
       "source_repo": "BirolLab/LINKS",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/LINKS",
+      "status": "candidate",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)"
     }
   ],
   "candidate_related_terms": [
@@ -748,11 +760,17 @@
       "observed_at": "2026-05-30T00:44:22.415230+00:00",
       "source_file": null,
       "source_repo": "BirolLab/LINKS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

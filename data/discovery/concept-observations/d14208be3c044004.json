@@ -63,7 +63,7 @@
   "normalized_form": "deploy-spec",
   "observation_id": "d14208be3c044004",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T07:10:34.990539+00:00",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
   "observed_text": "Deploy spec",
   "source_context_snippet": "Deploy spec",
   "source_file": ".github/workflows/build.yml",

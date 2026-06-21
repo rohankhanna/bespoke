@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:23:05.495545+00:00",
+  "fetched_at": "2026-06-21T20:10:29.480600+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "html_url": "https://github.com/Polly-Contrib/Simmy",
     "language": "C#",
     "pushed_at": "2022-06-02T22:59:13Z",
-    "stargazers_count": 586,
+    "stargazers_count": 588,
     "topics": [
       "chaos-engineering",
       "fault-based-testing",
@@ -123,7 +123,7 @@
       "resiliency",
       "resilient"
     ],
-    "updated_at": "2026-05-26T03:13:20Z"
+    "updated_at": "2026-06-11T20:50:53Z"
   },
   "repo_links": [
     {

@@ -208,6 +208,16 @@
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-release.yml"
     },
     {
@@ -217,6 +227,11 @@
     },
     {
       "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-release.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@bbd81622f20ce9e2dd9622e3218b975523e45bbe",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-release.yml"
     },
@@ -469,6 +484,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-release.yml",
+      "source_repo": "safetensors/safetensors",
+      "target": "rust-lang/crates-io-auth-action@bbd81622f20ce9e2dd9622e3218b975523e45bbe",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/rust-release.yml",
       "source_repo": "safetensors/safetensors",
@@ -504,7 +526,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:33:57.627312+00:00",
+  "fetched_at": "2026-06-21T19:53:21.434442+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -532,15 +554,15 @@
     },
     {
       "path": ".github/workflows/python-release.yml",
-      "size": 6527
+      "size": 7110
     },
     {
       "path": ".github/workflows/python.yml",
-      "size": 6909
+      "size": 7301
     },
     {
       "path": ".github/workflows/rust-release.yml",
-      "size": 780
+      "size": 957
     },
     {
       "path": ".github/workflows/rust.yml",
@@ -555,11 +577,11 @@
     "fork": false,
     "full_name": "safetensors/safetensors",
     "html_url": "https://github.com/safetensors/safetensors",
-    "language": "Python",
-    "pushed_at": "2026-05-29T08:55:41Z",
-    "stargazers_count": 3758,
+    "language": "Rust",
+    "pushed_at": "2026-06-19T23:41:12Z",
+    "stargazers_count": 3784,
     "topics": [],
-    "updated_at": "2026-05-27T07:43:41Z"
+    "updated_at": "2026-06-21T09:58:28Z"
   },
   "repo_links": [
     {

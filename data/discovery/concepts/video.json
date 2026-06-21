@@ -739,6 +739,18 @@
       "source_repo": "TEN-framework/ten-framework",
       "status": "candidate-context",
       "text": "<div align=\"center\" id=\"readme-top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1119,12 @@
       "source_repo": "TEN-framework/ten-framework",
       "status": "candidate",
       "text": "<div align=\"center\" id=\"readme-top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_related_terms": [
@@ -3031,11 +3049,35 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": null,
       "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "TEN-framework/ten-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

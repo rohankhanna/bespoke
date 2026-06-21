@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/stale.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -51,22 +51,12 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "codecov/codecov-action@v6",
+      "component": "codecov/codecov-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/tests.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -76,7 +66,7 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -86,7 +76,7 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -96,7 +86,17 @@
       "source_file": ".github/workflows/tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml"
     },
@@ -125,7 +125,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -174,7 +174,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -188,7 +188,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "qubvel-org/segmentation_models.pytorch",
-      "target": "codecov/codecov-action@v6",
+      "target": "codecov/codecov-action@v7",
       "target_type": "component"
     },
     {
@@ -318,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:27:11.529615+00:00",
+  "fetched_at": "2026-06-21T19:46:50.653365+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -350,8 +350,8 @@
     "full_name": "qubvel-org/segmentation_models.pytorch",
     "html_url": "https://github.com/qubvel-org/segmentation_models.pytorch",
     "language": "Python",
-    "pushed_at": "2026-05-29T06:51:08Z",
-    "stargazers_count": 11585,
+    "pushed_at": "2026-06-19T05:48:56Z",
+    "stargazers_count": 11621,
     "topics": [
       "computer-vision",
       "deeplab-v3-plus",
@@ -374,7 +374,7 @@
       "unet-pytorch",
       "unetplusplus"
     ],
-    "updated_at": "2026-05-29T11:04:56Z"
+    "updated_at": "2026-06-21T12:09:31Z"
   },
   "repo_links": [
     {

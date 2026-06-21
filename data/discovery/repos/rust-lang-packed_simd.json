@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:06:41.230177+00:00",
+  "fetched_at": "2026-06-21T19:26:19.014426+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -109,9 +109,9 @@
     "html_url": "https://github.com/rust-lang/packed_simd",
     "language": "Rust",
     "pushed_at": "2024-05-05T03:29:37Z",
-    "stargazers_count": 641,
+    "stargazers_count": 643,
     "topics": [],
-    "updated_at": "2026-04-07T14:02:18Z"
+    "updated_at": "2026-06-02T04:39:58Z"
   },
   "repo_links": [
     {

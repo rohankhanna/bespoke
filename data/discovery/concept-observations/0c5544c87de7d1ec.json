@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
+      "text": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)"
+      "text": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -84,9 +84,9 @@
   "normalized_form": "scaffold",
   "observation_id": "0c5544c87de7d1ec",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T00:44:22.415230+00:00",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
   "observed_text": "scaffold",
-  "source_context_snippet": "[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)",
+  "source_context_snippet": "[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)",
   "source_file": null,
   "source_repo": "BirolLab/LINKS",
   "source_repo_description": "\u26d3 Long Interval Nucleotide K-mer Scaffolder"

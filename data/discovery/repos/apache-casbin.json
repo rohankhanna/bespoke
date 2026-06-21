@@ -96,13 +96,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/casbin",
-      "target": "casbin/casbin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/casbin",
       "target": "casbin-net/casbin.net",
       "target_type": "repository"
     },
@@ -118,6 +111,13 @@
       "source_file": "README.md",
       "source_repo": "apache/casbin",
       "target": "casbin/casbin-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin",
+      "target": "casbin/govaluate",
       "target_type": "repository"
     },
     {
@@ -359,11 +359,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:14:32.205862+00:00",
+  "fetched_at": "2026-06-21T19:34:42.211322+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15953
+      "size": 16370
     },
     {
       "path": "go.mod",
@@ -375,15 +375,15 @@
     },
     {
       "path": ".github/workflows/default.yml",
-      "size": 678
+      "size": 843
     },
     {
       "path": ".github/workflows/golangci-lint.yml",
-      "size": 400
+      "size": 565
     },
     {
       "path": ".github/workflows/performance-pr.yml",
-      "size": 2872
+      "size": 3037
     },
     {
       "path": ".github/workflows/source-release-draft.yml",
@@ -403,8 +403,8 @@
     "full_name": "apache/casbin",
     "html_url": "https://github.com/apache/casbin",
     "language": "Go",
-    "pushed_at": "2026-05-15T19:22:03Z",
-    "stargazers_count": 20143,
+    "pushed_at": "2026-06-16T13:54:37Z",
+    "stargazers_count": 20197,
     "topics": [
       "abac",
       "access-control",
@@ -425,17 +425,12 @@
       "saml",
       "sso"
     ],
-    "updated_at": "2026-05-29T16:49:53Z"
+    "updated_at": "2026-06-21T08:13:42Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "casbin-net/casbin.net",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "casbin/casbin",
       "source_file": "README.md"
     },
     {
@@ -446,6 +441,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "casbin/casbin-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin/govaluate",
       "source_file": "README.md"
     }
   ],
@@ -487,85 +487,85 @@
       "term": "Semantic Release"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "abac"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "access-control"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "apache"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "auth"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "authentication"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "authn"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "authorization"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "authz"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "casbin"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "oauth"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "oidc"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "permission"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rbac"
     },
     {
-      "context_snippet": "Casbin",
+      "context_snippet": "Apache Casbin",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "saml"

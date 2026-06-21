@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate-context",
+      "text": "Translate manga/image."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate-context",
+      "text": "Release Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frederik-uni/manga-image-translator-rust",
+      "status": "candidate",
+      "text": "Release Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28631,
+      "status": "candidate",
+      "text": "sympathomimetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28619,
+      "status": "candidate",
+      "text": "adrenergic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28355,
+      "status": "candidate",
+      "text": "deflation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28343,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11955,
+      "status": "candidate",
+      "text": "bang"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Action",
+  "concept_id": "release-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "frederik-uni/manga-image-translator-rust"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Action",
+      "sense_id": "release-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

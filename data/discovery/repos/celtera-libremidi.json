@@ -394,7 +394,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:09:18.498717+00:00",
+  "fetched_at": "2026-06-21T19:29:34.357422+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -438,8 +438,8 @@
     "full_name": "celtera/libremidi",
     "html_url": "https://github.com/celtera/libremidi",
     "language": "C++",
-    "pushed_at": "2026-05-29T01:10:42Z",
-    "stargazers_count": 686,
+    "pushed_at": "2026-06-06T03:44:39Z",
+    "stargazers_count": 690,
     "topics": [
       "alsa",
       "coremidi",
@@ -453,7 +453,7 @@
       "uwp",
       "webmidi"
     ],
-    "updated_at": "2026-05-24T13:11:09Z"
+    "updated_at": "2026-06-20T23:23:12Z"
   },
   "repo_links": [
     {

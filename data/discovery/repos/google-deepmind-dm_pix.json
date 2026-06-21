@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:24:29.073635+00:00",
+  "fetched_at": "2026-06-21T19:43:52.237493+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,11 +101,11 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 1561
+      "size": 1562
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 628
+      "size": 630
     },
     {
       "path": ".github/workflows/pypi-publish.yml",
@@ -121,8 +121,8 @@
     "full_name": "google-deepmind/dm_pix",
     "html_url": "https://github.com/google-deepmind/dm_pix",
     "language": "Python",
-    "pushed_at": "2025-03-06T03:24:32Z",
-    "stargazers_count": 438,
+    "pushed_at": "2026-06-02T11:30:40Z",
+    "stargazers_count": 440,
     "topics": [
       "computer-vision",
       "image",
@@ -131,7 +131,7 @@
       "machine-learning",
       "python"
     ],
-    "updated_at": "2026-05-14T18:13:30Z"
+    "updated_at": "2026-06-08T09:32:06Z"
   },
   "repo_links": [
     {

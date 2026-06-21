@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:23:11.204801+00:00",
+  "fetched_at": "2026-06-21T20:10:39.875691+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,7 +103,7 @@
     "html_url": "https://github.com/bjartnes/hikke",
     "language": "Shell",
     "pushed_at": "2024-11-29T13:04:11Z",
-    "stargazers_count": 52,
+    "stargazers_count": 51,
     "topics": [
       "chaos-engineering",
       "docker",
@@ -117,7 +117,7 @@
       "telegraf",
       "workshop"
     ],
-    "updated_at": "2026-04-07T13:16:18Z"
+    "updated_at": "2026-06-05T07:49:05Z"
   },
   "repo_links": [
     {

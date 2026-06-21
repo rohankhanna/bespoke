@@ -67,7 +67,7 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "flagos-ai/FlagCX",
-      "target": "Run Container and Execute Tests",
+      "target": "Perf Tests in Container",
       "target_type": "term"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "flagos-ai/FlagCX"
 }

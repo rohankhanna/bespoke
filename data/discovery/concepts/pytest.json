@@ -617,6 +617,18 @@
       "source_repo": "pypa/build",
       "status": "candidate-context",
       "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbiiz/rigl-torch",
+      "status": "candidate-context",
+      "text": "Lightweight torch implementation of rigl, a sparse-to-sparse optimizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbiiz/rigl-torch",
+      "status": "candidate-context",
+      "text": "PyTest"
     }
   ],
   "candidate_glosses": [
@@ -925,6 +937,12 @@
       "source_repo": "pypa/build",
       "status": "candidate",
       "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbiiz/rigl-torch",
+      "status": "candidate",
+      "text": "PyTest"
     }
   ],
   "candidate_related_terms": [
@@ -4832,11 +4850,47 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiz/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

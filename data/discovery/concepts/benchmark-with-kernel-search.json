@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark with kernel search"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinygrad/tinygrad",
+      "status": "candidate-context",
+      "text": "You like pytorch? You like micrograd? You love tinygrad! \u2764\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinygrad/tinygrad",
+      "status": "candidate-context",
+      "text": "Benchmark with kernel search"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinygrad/tinygrad",
+      "status": "candidate",
+      "text": "Benchmark with kernel search"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832,
+      "status": "candidate",
+      "text": "gist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19787,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19581,
+      "status": "candidate",
+      "text": "biohazard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19581,
+      "status": "candidate",
+      "text": "huntsville"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19581,
+      "status": "candidate",
+      "text": "mecca"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark with kernel search",
+  "concept_id": "benchmark-with-kernel-search",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/benchmark_search.yml",
+      "source_repo": "tinygrad/tinygrad"
+    }
+  ],
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark with kernel search",
+      "sense_id": "benchmark-with-kernel-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

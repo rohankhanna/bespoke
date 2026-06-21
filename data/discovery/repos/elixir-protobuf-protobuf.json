@@ -182,19 +182,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:22:33.291793+00:00",
+  "fetched_at": "2026-06-21T20:09:40.158881+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7428
+      "size": 8409
     },
     {
       "path": ".github/workflows/latest_conformance.yml",
-      "size": 2853
+      "size": 2942
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 5304
+      "size": 5391
     }
   ],
   "related_repositories": [],
@@ -206,8 +206,8 @@
     "full_name": "elixir-protobuf/protobuf",
     "html_url": "https://github.com/elixir-protobuf/protobuf",
     "language": "Elixir",
-    "pushed_at": "2026-05-27T16:32:11Z",
-    "stargazers_count": 899,
+    "pushed_at": "2026-06-08T09:31:34Z",
+    "stargazers_count": 900,
     "topics": [
       "elixir",
       "google-protocol-buffers",
@@ -217,7 +217,7 @@
       "protocol-buffers",
       "serialization"
     ],
-    "updated_at": "2026-05-27T16:32:15Z"
+    "updated_at": "2026-06-21T16:34:03Z"
   },
   "repo_links": [
     {

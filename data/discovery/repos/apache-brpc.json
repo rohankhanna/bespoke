@@ -58,16 +58,6 @@
     {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci-linux.yml"
-    },
-    {
-      "component": "actions/checkout@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci-linux.yml"
-    },
-    {
-      "component": "actions/checkout@v2",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-macos.yml"
     },
     {
@@ -211,7 +201,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-26T21:24:11.097592+00:00",
+  "fetched_at": "2026-06-21T19:56:01.506744+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -223,11 +213,11 @@
     },
     {
       "path": ".github/workflows/ci-linux.yml",
-      "size": 8428
+      "size": 10162
     },
     {
       "path": ".github/workflows/ci-macos.yml",
-      "size": 2064
+      "size": 2229
     },
     {
       "path": ".github/workflows/cifuzz.yml",
@@ -235,7 +225,7 @@
     },
     {
       "path": ".github/workflows/license-eyes.yml",
-      "size": 1191
+      "size": 1357
     }
   ],
   "related_repositories": [],
@@ -247,12 +237,12 @@
     "full_name": "apache/brpc",
     "html_url": "https://github.com/apache/brpc",
     "language": "C++",
-    "pushed_at": "2026-05-25T03:57:25Z",
-    "stargazers_count": 17505,
+    "pushed_at": "2026-06-21T11:56:26Z",
+    "stargazers_count": 17543,
     "topics": [
       "rpc"
     ],
-    "updated_at": "2026-05-26T09:01:18Z"
+    "updated_at": "2026-06-21T11:56:38Z"
   },
   "repo_links": [
     {

@@ -41,6 +41,31 @@
       "source_file": "package.json"
     },
     {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint-tsgolint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "typescript",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -51,12 +76,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests.yml"
     },
     {
-      "component": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests.yml"
     },
@@ -66,12 +91,22 @@
       "source_file": ".github/workflows/e2e_tests.yml"
     },
     {
-      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit_tests.yml"
     },
     {
-      "component": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit_tests.yml"
     },
@@ -82,20 +117,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron-userland/electron-windows-msix",
-      "target": "bitdisaster/electron-windows-msix",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "electron-userland/electron-windows-msix",
-      "target": "bitdisaster/electron-windows-msix",
-      "target_type": "repository"
-    },
     {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
@@ -156,6 +177,41 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "electron-userland/electron-windows-msix",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "oxlint-tsgolint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-windows-msix",
       "target": "typescript",
       "target_type": "component"
     },
@@ -170,14 +226,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix",
-      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix",
-      "target": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -196,16 +252,37 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "electron-userland/electron-windows-msix",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix",
-      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit_tests.yml",
       "source_repo": "electron-userland/electron-windows-msix",
-      "target": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -223,23 +300,27 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:20:48.075823+00:00",
+  "fetched_at": "2026-06-21T19:40:29.454188+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8108
+      "size": 8114
     },
     {
       "path": "package.json",
-      "size": 1453
+      "size": 1907
     },
     {
       "path": ".github/workflows/e2e_tests.yml",
-      "size": 782
+      "size": 818
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 559
     },
     {
       "path": ".github/workflows/unit_tests.yml",
-      "size": 787
+      "size": 823
     }
   ],
   "related_repositories": [],
@@ -251,29 +332,24 @@
     "full_name": "electron-userland/electron-windows-msix",
     "html_url": "https://github.com/electron-userland/electron-windows-msix",
     "language": "TypeScript",
-    "pushed_at": "2026-04-15T00:06:43Z",
+    "pushed_at": "2026-06-10T23:40:44Z",
     "stargazers_count": 14,
     "topics": [],
-    "updated_at": "2026-04-21T04:50:39Z"
+    "updated_at": "2026-06-15T08:12:23Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bitdisaster/electron-windows-msix",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bitdisaster/electron-windows-msix",
-      "source_file": "package.json"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "E2E Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/e2e_tests.yml",
       "term": "E2E Tests"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
     },
     {
       "context_snippet": "Unit Tests",

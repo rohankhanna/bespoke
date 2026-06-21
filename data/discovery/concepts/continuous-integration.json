@@ -2879,6 +2879,18 @@
       "source_repo": "mayocream/ug",
       "status": "candidate-context",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LaurentMazare/ug",
+      "status": "candidate-context",
+      "text": "Experimental compiler for deep learning models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/ug",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -4325,6 +4337,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mayocream/ug",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LaurentMazare/ug",
       "status": "candidate",
       "text": "Continuous integration"
     }
@@ -10526,11 +10544,41 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "LaurentMazare/ug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eyre-rs/stable-eyre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

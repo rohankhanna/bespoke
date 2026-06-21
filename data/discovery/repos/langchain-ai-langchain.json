@@ -429,11 +429,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:11:28.109814+00:00",
+  "fetched_at": "2026-06-21T19:31:41.475479+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6046
+      "size": 5888
     },
     {
       "path": ".github/workflows/_compile_integration_test.yml",
@@ -449,7 +449,7 @@
     },
     {
       "path": ".github/workflows/_release.yml",
-      "size": 30225
+      "size": 38989
     },
     {
       "path": ".github/workflows/_test.yml",
@@ -481,8 +481,8 @@
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "pushed_at": "2026-05-29T22:20:45Z",
-    "stargazers_count": 137990,
+    "pushed_at": "2026-06-21T09:16:11Z",
+    "stargazers_count": 139814,
     "topics": [
       "agents",
       "ai",
@@ -505,7 +505,7 @@
       "rag",
       "typescript"
     ],
-    "updated_at": "2026-05-30T01:47:23Z"
+    "updated_at": "2026-06-21T19:23:59Z"
   },
   "repo_links": [],
   "terms": [

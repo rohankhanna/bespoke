@@ -25,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "git-lfs/git-lfs",
-      "target": "git-for-windows/setup-git-for-windows-sdk@v1",
+      "target": "git-for-windows/setup-git-for-windows-sdk@v2",
       "target_type": "component"
     },
     {
@@ -46,14 +46,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "git-lfs/git-lfs",
-      "target": "git-for-windows/setup-git-for-windows-sdk@v1",
+      "target": "git-for-windows/setup-git-for-windows-sdk@v2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "git-lfs/git-lfs",
-      "target": "azure/artifact-signing-action@v1.2.0",
+      "target": "azure/artifact-signing-action@v2.0.0",
       "target_type": "component"
     },
     {
@@ -85,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "git-lfs/git-lfs"
 }

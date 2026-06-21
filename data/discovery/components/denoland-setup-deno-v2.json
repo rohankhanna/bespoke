@@ -1,7 +1,7 @@
 {
   "component": "denoland/setup-deno@v2\",",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -402,6 +402,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/compile_hlsl.yml",
       "source_repo": "floooh/sokol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ]
 }

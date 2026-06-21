@@ -1,0 +1,643 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "Sibz/github-status-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "devicons/public-upload-to-imgur@v2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3rd-party.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "zhouwg/kantv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "vietanhdev/llama-assistant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "mozilla-ocho/llamafile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "AI review (issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "Sibz/github-status-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "devicons/public-upload-to-imgur@v2.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3rd-party.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-3rd-party.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "CI (3rd-party)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "CI (snapdragon)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "CI (android)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "ggml-org/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "CI (apple)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "Build Actions Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "ggml-hexagon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhouwg/ggml-hexagon",
+      "target": "qualcomm-npu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-21T19:41:18.623254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35426
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1908
+    },
+    {
+      "path": "requirements.txt",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/ai-issues.yml",
+      "size": 2904
+    },
+    {
+      "path": ".github/workflows/bench.yml.disabled",
+      "size": 10467
+    },
+    {
+      "path": ".github/workflows/build-3rd-party.yml",
+      "size": 1213
+    },
+    {
+      "path": ".github/workflows/build-and-test-snapdragon.yml",
+      "size": 4856
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 4221
+    },
+    {
+      "path": ".github/workflows/build-apple.yml",
+      "size": 8154
+    },
+    {
+      "path": ".github/workflows/build-cache.yml",
+      "size": 4304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "self-build",
+    "description": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, history of ggml-hexagon: https://github.com/zhouwg/ggml-hexagon/discussions/18. ",
+    "fork": true,
+    "full_name": "zhouwg/ggml-hexagon",
+    "html_url": "https://github.com/zhouwg/ggml-hexagon",
+    "language": "C++",
+    "pushed_at": "2026-06-21T06:40:51Z",
+    "stargazers_count": 45,
+    "topics": [
+      "ggml-hexagon",
+      "qualcomm-npu"
+    ],
+    "updated_at": "2026-06-21T06:24:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ocho/llamafile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vietanhdev/llama-assistant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhouwg/kantv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AI review (issues)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "term": "AI review (issues)"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "CI (3rd-party)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-3rd-party.yml",
+      "term": "CI (3rd-party)"
+    },
+    {
+      "context_snippet": "CI (snapdragon)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-snapdragon.yml",
+      "term": "CI (snapdragon)"
+    },
+    {
+      "context_snippet": "CI (android)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "CI (android)"
+    },
+    {
+      "context_snippet": "CI (apple)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apple.yml",
+      "term": "CI (apple)"
+    },
+    {
+      "context_snippet": "Build Actions Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cache.yml",
+      "term": "Build Actions Cache"
+    },
+    {
+      "context_snippet": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml-hexagon"
+    },
+    {
+      "context_snippet": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qualcomm-npu"
+    }
+  ]
+}

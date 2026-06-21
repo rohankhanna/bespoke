@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/helpful-scripts",
+      "target": "dataset-preparation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/helpful-scripts",
+      "target": "image-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/helpful-scripts",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/helpful-scripts",
+      "target": "video-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-21T19:28:02.011300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Various scripts, mostly intended to help with model training and dataset creation",
+    "fork": false,
+    "full_name": "Kim2091/helpful-scripts",
+    "html_url": "https://github.com/Kim2091/helpful-scripts",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-10-29T21:43:57Z",
+    "stargazers_count": 51,
+    "topics": [
+      "dataset-preparation",
+      "image-alignment",
+      "image-processing",
+      "python",
+      "video-processing"
+    ],
+    "updated_at": "2026-05-29T08:17:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset-preparation"
+    },
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-alignment"
+    },
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_testing.yml"
     },
     {
-      "component": "codecov/codecov-action@v6",
+      "component": "codecov/codecov-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_testing.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-merge.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/auto-merge.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/building_nightly.yml"
     },
@@ -41,12 +41,12 @@
       "source_file": ".github/workflows/changelog.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/examples.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/labeler.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linting.yml"
     }
@@ -78,14 +78,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_testing.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_testing.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "codecov/codecov-action@v6",
+      "target": "codecov/codecov-action@v7",
       "target_type": "component"
     },
     {
@@ -99,7 +99,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -120,7 +120,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/building_nightly.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -162,7 +162,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -176,7 +176,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -211,7 +211,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -257,19 +257,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:23:37.984336+00:00",
+  "fetched_at": "2026-06-21T19:43:01.713585+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 59942
+      "size": 60559
     },
     {
       "path": "pyproject.toml",
-      "size": 6206
+      "size": 6357
     },
     {
       "path": ".github/workflows/_testing.yml",
-      "size": 1732
+      "size": 1748
     },
     {
       "path": ".github/workflows/auto-merge.yml",
@@ -309,8 +309,8 @@
     "full_name": "pyg-team/pytorch_geometric",
     "html_url": "https://github.com/pyg-team/pytorch_geometric",
     "language": "Python",
-    "pushed_at": "2026-05-18T18:21:38Z",
-    "stargazers_count": 23785,
+    "pushed_at": "2026-06-19T00:13:10Z",
+    "stargazers_count": 23832,
     "topics": [
       "deep-learning",
       "geometric-deep-learning",
@@ -318,7 +318,7 @@
       "graph-neural-networks",
       "pytorch"
     ],
-    "updated_at": "2026-05-29T14:20:01Z"
+    "updated_at": "2026-06-20T21:54:26Z"
   },
   "repo_links": [
     {

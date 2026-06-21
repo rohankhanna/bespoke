@@ -39,7 +39,7 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Cle2ment/CherryStudio_themes",
-      "target": "scss",
+      "target": "tailwindcss",
       "target_type": "term"
     },
     {
@@ -50,7 +50,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:23:58.414290+00:00",
+  "fetched_at": "2026-06-21T20:11:44.469434+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -73,11 +73,13 @@
     "pushed_at": "2026-05-08T16:38:52Z",
     "stargazers_count": 37,
     "topics": [
+      "ai",
       "cherrystudio",
-      "scss",
+      "css",
+      "tailwindcss",
       "themes"
     ],
-    "updated_at": "2026-05-30T01:52:30Z"
+    "updated_at": "2026-06-20T18:38:33Z"
   },
   "repo_links": [
     {
@@ -103,7 +105,7 @@
       "context_snippet": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)",
       "edge_type": "repo-topic",
       "source_file": null,
-      "term": "scss"
+      "term": "tailwindcss"
     },
     {
       "context_snippet": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)",

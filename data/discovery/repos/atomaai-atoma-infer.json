@@ -48,13 +48,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AtomaAI/atoma-infer",
-      "target": "your-username/atoma-infer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "AtomaAI/atoma-infer",
@@ -90,7 +83,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:27:43.907142+00:00",
+  "fetched_at": "2026-06-21T19:28:24.654397+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,17 +112,11 @@
     "html_url": "https://github.com/AtomaAI/atoma-infer",
     "language": "Rust",
     "pushed_at": "2025-11-05T11:13:17Z",
-    "stargazers_count": 119,
+    "stargazers_count": 125,
     "topics": [],
-    "updated_at": "2026-04-29T01:14:16Z"
+    "updated_at": "2026-06-10T06:33:32Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "your-username/atoma-infer",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Server Integration Tests",

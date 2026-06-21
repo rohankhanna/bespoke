@@ -1,11 +1,6 @@
 {
   "components": [
     {
-      "component": "@typescript/native-preview",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "escape-string-regexp",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -102,6 +97,11 @@
     },
     {
       "component": "@types/selenium-webdriver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -291,13 +291,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "react-native-webview/react-native-webview",
-      "target": "@typescript/native-preview",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "react-native-webview/react-native-webview",
       "target": "escape-string-regexp",
       "target_type": "component"
     },
@@ -432,6 +425,13 @@
       "source_file": "package.json",
       "source_repo": "react-native-webview/react-native-webview",
       "target": "@types/selenium-webdriver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "react-native-webview/react-native-webview",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -722,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:23:06.341742+00:00",
+  "fetched_at": "2026-06-21T19:42:39.078435+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -730,7 +730,7 @@
     },
     {
       "path": "package.json",
-      "size": 3947
+      "size": 4009
     },
     {
       "path": ".github/workflows/android-ci.yml",
@@ -770,10 +770,10 @@
     "full_name": "react-native-webview/react-native-webview",
     "html_url": "https://github.com/react-native-webview/react-native-webview",
     "language": "TypeScript",
-    "pushed_at": "2026-05-29T19:08:49Z",
-    "stargazers_count": 7158,
+    "pushed_at": "2026-06-21T00:24:54Z",
+    "stargazers_count": 7168,
     "topics": [],
-    "updated_at": "2026-05-29T03:25:31Z"
+    "updated_at": "2026-06-21T17:06:03Z"
   },
   "repo_links": [],
   "terms": [

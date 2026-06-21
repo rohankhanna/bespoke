@@ -146,16 +146,6 @@
       "source_file": ".github/workflows/build-apple.yml"
     },
     {
-      "component": "ggml-org/ccache-action@v1.2.21",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-apple.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-apple.yml"
-    },
-    {
       "component": "ggml-org/setup-xcode@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-apple.yml"
@@ -199,6 +189,16 @@
       "component": "actions/download-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
     },
     {
       "component": "actions/checkout@v6",
@@ -495,15 +495,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:21:14.600835+00:00",
+  "fetched_at": "2026-06-21T19:40:54.637259+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30371
+      "size": 30791
     },
     {
       "path": "pyproject.toml",
-      "size": 1907
+      "size": 1908
     },
     {
       "path": "requirements.txt",
@@ -531,11 +531,11 @@
     },
     {
       "path": ".github/workflows/build-apple.yml",
-      "size": 9258
+      "size": 8154
     },
     {
       "path": ".github/workflows/build-cache.yml",
-      "size": 3389
+      "size": 4304
     }
   ],
   "related_repositories": [],
@@ -547,12 +547,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-29T23:36:59Z",
-    "stargazers_count": 113727,
+    "pushed_at": "2026-06-21T19:25:43Z",
+    "stargazers_count": 117553,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-30T02:20:32Z"
+    "updated_at": "2026-06-21T19:29:10Z"
   },
   "repo_links": [
     {
@@ -620,7 +620,7 @@
       "term": "Build Actions Cache"
     },
     {
-      "context_snippet": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)",
+      "context_snippet": "![llama](https://raw.githubusercontent.com/ggml-org/llama.brand/refs/heads/master/cover/llama-cpp/cover-llama-cpp-dark.svg)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "ggml"

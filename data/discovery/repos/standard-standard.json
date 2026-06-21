@@ -131,13 +131,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "showcases/clean-code-linters",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standard/standard",
       "target": "w0rp/ale",
       "target_type": "repository"
     },
@@ -408,7 +401,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:04:07.837773+00:00",
+  "fetched_at": "2026-06-21T19:23:51.672388+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -445,7 +438,7 @@
     "html_url": "https://github.com/standard/standard",
     "language": "JavaScript",
     "pushed_at": "2025-07-11T08:28:23Z",
-    "stargazers_count": 29433,
+    "stargazers_count": 29436,
     "topics": [
       "development",
       "ecmascript",
@@ -458,17 +451,12 @@
       "static-code-analysis",
       "style-guide"
     ],
-    "updated_at": "2026-05-29T19:15:31Z"
+    "updated_at": "2026-06-20T22:42:47Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "ishamf/brackets-standard",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "showcases/clean-code-linters",
       "source_file": "README.md"
     },
     {

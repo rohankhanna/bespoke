@@ -86,6 +86,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-results.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-results.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-test-results.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "Publish Test Results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "fsprojects/FSharp.Data.GraphQL",
       "target": "actions/checkout@v6",
@@ -155,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "fsprojects/FSharp.Data.GraphQL"
 }

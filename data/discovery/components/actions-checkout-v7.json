@@ -1,0 +1,117 @@
+{
+  "component": "actions/checkout@v7",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-check-win.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-check.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_testing.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/building_nightly.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v2",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sign.yml",
       "source_repo": "BrowserWorks/waterfox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA-NeMo/Automodel"
     }
   ]
 }

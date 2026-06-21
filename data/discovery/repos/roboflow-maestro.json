@@ -302,7 +302,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:12:17.711434+00:00",
+  "fetched_at": "2026-06-21T19:55:36.383230+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,8 +346,8 @@
     "full_name": "roboflow/maestro",
     "html_url": "https://github.com/roboflow/maestro",
     "language": "Python",
-    "pushed_at": "2026-05-25T17:46:10Z",
-    "stargazers_count": 2675,
+    "pushed_at": "2026-06-15T17:44:37Z",
+    "stargazers_count": 2677,
     "topics": [
       "captioning",
       "fine-tuning",
@@ -361,7 +361,7 @@
       "vision-and-language",
       "vqa"
     ],
-    "updated_at": "2026-05-29T02:46:18Z"
+    "updated_at": "2026-06-20T23:29:46Z"
   },
   "repo_links": [
     {

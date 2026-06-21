@@ -4,7 +4,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/min-versions.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/min-versions.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -46,7 +46,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -60,35 +60,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/create-github-app-token@v2",
+      "target": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "astral-sh/setup-uv@v7",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/sync-skills.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "peter-evans/create-pull-request@v7",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "huggingface/sentence-transformers",
-      "target": "astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "huggingface/sentence-transformers"
 }

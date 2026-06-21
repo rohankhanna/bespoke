@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/X-AnyLabeling",
+      "target": "adult",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/X-AnyLabeling",
+      "target": "manga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/X-AnyLabeling",
+      "target": "nsfw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/X-AnyLabeling",
+      "target": "reader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/X-AnyLabeling",
+      "target": "viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lhj5426/X-AnyLabeling",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-21T19:27:53.883803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2063
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5071
+    },
+    {
+      "path": "requirements.txt",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "Hmogai",
+    "description": "\u57fa\u4e8e https://github.com/CVHub520/X-AnyLabeling 250903\u6e90\u7801\u57fa\u7840\u4e0a\u7684\u81ea\u7528\u9b54\u6539\u7248 \u56e0\u4e3a\u5168\u90e8\u4f7f\u7528AI\u7f16\u5199\uff0c\u65e0\u6cd5\u4e5f\u4e0d\u660e\u767d\u5982\u4f55\u548c\u4e3b\u5206\u652f\u5408\u5e76\u6240\u4ee5\u672c\u4ed3\u5e93\u7684\u4ee3\u7801\u6c38\u4e45\u505c\u7559\u5728\u5b98\u65b9250903\u7248",
+    "fork": true,
+    "full_name": "lhj5426/X-AnyLabeling",
+    "html_url": "https://github.com/lhj5426/X-AnyLabeling",
+    "language": "Python",
+    "pushed_at": "2026-06-20T22:04:53Z",
+    "stargazers_count": 25,
+    "topics": [
+      "adult",
+      "manga",
+      "nsfw",
+      "reader",
+      "viewer",
+      "yolo"
+    ],
+    "updated_at": "2026-06-20T22:00:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adult"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsfw"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reader"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viewer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

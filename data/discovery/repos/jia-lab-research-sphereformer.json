@@ -19,13 +19,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/SphereFormer",
-      "target": "dvlab-research/sparsetransformer.git.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/SphereFormer",
       "target": "dvlab-research/stratified-transformer",
       "target_type": "repository"
     },
@@ -86,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:26:56.576486+00:00",
+  "fetched_at": "2026-06-21T19:46:36.445185+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,7 +100,7 @@
     "html_url": "https://github.com/JIA-Lab-research/SphereFormer",
     "language": "Python",
     "pushed_at": "2023-06-08T09:34:58Z",
-    "stargazers_count": 365,
+    "stargazers_count": 366,
     "topics": [
       "3d-object-detection",
       "3d-semantic-segmentation",
@@ -118,17 +111,12 @@
       "transformer",
       "waymo"
     ],
-    "updated_at": "2026-04-30T07:30:54Z"
+    "updated_at": "2026-06-19T09:57:14Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/sparsetransformer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dvlab-research/sparsetransformer.git.",
       "source_file": "README.md"
     },
     {

@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "codecov/codecov-action@v6",
+      "component": "codecov/codecov-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/spellcheck.yml"
     },
     {
-      "component": "rojopolis/spellcheck-github-actions@0.60.0",
+      "component": "rojopolis/spellcheck-github-actions@0.61.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spellcheck.yml"
     },
@@ -115,7 +115,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/go-redis",
-      "target": "codecov/codecov-action@v6",
+      "target": "codecov/codecov-action@v7",
       "target_type": "component"
     },
     {
@@ -241,7 +241,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "redis/go-redis",
-      "target": "rojopolis/spellcheck-github-actions@0.60.0",
+      "target": "rojopolis/spellcheck-github-actions@0.61.0",
       "target_type": "component"
     },
     {
@@ -294,7 +294,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:16:06.842646+00:00",
+  "fetched_at": "2026-06-21T19:36:11.183679+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,8 +346,8 @@
     "full_name": "redis/go-redis",
     "html_url": "https://github.com/redis/go-redis",
     "language": "Go",
-    "pushed_at": "2026-05-29T09:42:20Z",
-    "stargazers_count": 22113,
+    "pushed_at": "2026-06-18T19:36:39Z",
+    "stargazers_count": 22156,
     "topics": [
       "go",
       "golang",
@@ -355,7 +355,7 @@
       "redis-client",
       "redis-cluster"
     ],
-    "updated_at": "2026-05-29T23:19:00Z"
+    "updated_at": "2026-06-20T21:13:18Z"
   },
   "repo_links": [],
   "terms": [

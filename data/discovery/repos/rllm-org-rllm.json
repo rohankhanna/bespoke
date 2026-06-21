@@ -105,6 +105,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "rllm-org/rllm",
+      "target": "fw-ai/cookbook",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "rllm-org/rllm",
@@ -385,11 +392,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:34:24.727555+00:00",
+  "fetched_at": "2026-06-21T19:53:54.605033+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11366
+      "size": 11841
     },
     {
       "path": "Dockerfile",
@@ -397,7 +404,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4950
+      "size": 4796
     },
     {
       "path": ".github/workflows/claude-code-review.yml",
@@ -413,7 +420,7 @@
     },
     {
       "path": ".github/workflows/test-gateway-manager.yml",
-      "size": 994
+      "size": 944
     },
     {
       "path": ".github/workflows/test-model-gateway.yml",
@@ -421,11 +428,11 @@
     },
     {
       "path": ".github/workflows/test-remote-runtime.yml",
-      "size": 1371
+      "size": 1253
     },
     {
       "path": ".github/workflows/test-tinker.yml",
-      "size": 917
+      "size": 905
     }
   ],
   "related_repositories": [],
@@ -437,8 +444,8 @@
     "full_name": "rllm-org/rllm",
     "html_url": "https://github.com/rllm-org/rllm",
     "language": "Python",
-    "pushed_at": "2026-05-28T22:22:45Z",
-    "stargazers_count": 5575,
+    "pushed_at": "2026-06-21T08:44:14Z",
+    "stargazers_count": 5636,
     "topics": [
       "agent-framework",
       "agentic-workflow",
@@ -455,13 +462,18 @@
       "tinker",
       "verl"
     ],
-    "updated_at": "2026-05-30T00:51:27Z"
+    "updated_at": "2026-06-21T12:08:31Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "volcengine/verl",
       "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fw-ai/cookbook",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

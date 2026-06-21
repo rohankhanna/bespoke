@@ -318,13 +318,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jupyter-server/jupyter_server",
-      "target": "jupyter/.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jupyter-server/jupyter_server",
@@ -337,6 +330,13 @@
       "source_repo": "jupyter-server/jupyter_server",
       "target": "copyfiles",
       "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "jupyter-server/jupyter_server",
+      "target": "andfoy/pywinpty",
+      "target_type": "repository"
     },
     {
       "edge_type": "workflow-uses",
@@ -556,7 +556,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:03:20.424211+00:00",
+  "fetched_at": "2026-06-21T19:23:12.384699+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -568,7 +568,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 6985
+      "size": 7349
     },
     {
       "path": ".github/workflows/downstream.yml",
@@ -580,7 +580,7 @@
     },
     {
       "path": ".github/workflows/prep-release.yml",
-      "size": 1689
+      "size": 1946
     },
     {
       "path": ".github/workflows/publish-changelog.yml",
@@ -588,11 +588,11 @@
     },
     {
       "path": ".github/workflows/publish-release.yml",
-      "size": 2487
+      "size": 2377
     },
     {
       "path": ".github/workflows/python-tests.yml",
-      "size": 6736
+      "size": 7746
     }
   ],
   "related_repositories": [],
@@ -604,19 +604,19 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-05-29T16:51:25Z",
-    "stargazers_count": 560,
+    "pushed_at": "2026-06-18T15:24:52Z",
+    "stargazers_count": 563,
     "topics": [
       "jupyter",
       "server"
     ],
-    "updated_at": "2026-05-29T16:51:31Z"
+    "updated_at": "2026-06-18T15:24:58Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jupyter/.",
-      "source_file": "README.md"
+      "full_name": "andfoy/pywinpty",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

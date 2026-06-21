@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "@electron-internal/extract-zip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@electron/asar",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -37,11 +42,6 @@
     },
     {
       "component": "debug",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "extract-zip",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -258,6 +258,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "electron/packager",
+      "target": "@electron-internal/extract-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "electron/packager",
       "target": "@electron/asar",
       "target_type": "component"
     },
@@ -308,13 +315,6 @@
       "source_file": "package.json",
       "source_repo": "electron/packager",
       "target": "debug",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "electron/packager",
-      "target": "extract-zip",
       "target_type": "component"
     },
     {
@@ -661,7 +661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:20:26.642480+00:00",
+  "fetched_at": "2026-06-21T19:40:11.808855+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -669,7 +669,7 @@
     },
     {
       "path": "package.json",
-      "size": 2665
+      "size": 2684
     },
     {
       "path": ".github/workflows/add-to-project.yml",
@@ -705,15 +705,15 @@
     "full_name": "electron/packager",
     "html_url": "https://github.com/electron/packager",
     "language": "TypeScript",
-    "pushed_at": "2026-05-21T19:58:27Z",
-    "stargazers_count": 296,
+    "pushed_at": "2026-06-17T23:00:25Z",
+    "stargazers_count": 299,
     "topics": [
       "electron",
       "electron-packager",
       "hacktoberfest",
       "javascript"
     ],
-    "updated_at": "2026-05-26T07:45:00Z"
+    "updated_at": "2026-06-19T20:31:46Z"
   },
   "repo_links": [
     {

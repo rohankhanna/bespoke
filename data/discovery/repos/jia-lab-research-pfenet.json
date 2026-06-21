@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/PFENet",
-      "target": "dvlab-research/gfs-seg.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/PFENet",
       "target": "dvlab-research/pfenet",
       "target_type": "repository"
     },
@@ -19,7 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/PFENet",
-      "target": "hszhao/semseg.",
+      "target": "lzzcd001/oslsm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/PFENet",
+      "target": "icoz69/canet",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:11:40.322070+00:00",
+  "fetched_at": "2026-06-21T19:31:55.387647+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,20 +68,15 @@
     "html_url": "https://github.com/JIA-Lab-research/PFENet",
     "language": "Python",
     "pushed_at": "2024-08-01T11:36:26Z",
-    "stargazers_count": 357,
+    "stargazers_count": 358,
     "topics": [
       "few-shot",
       "pami-2020",
       "segmentation"
     ],
-    "updated_at": "2026-05-05T11:57:29Z"
+    "updated_at": "2026-06-02T06:42:10Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dvlab-research/gfs-seg.",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/pfenet",
@@ -94,7 +89,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hszhao/semseg.",
+      "full_name": "icoz69/canet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzzcd001/oslsm",
       "source_file": "README.md"
     }
   ],

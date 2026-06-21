@@ -46,7 +46,12 @@
       "source_file": ".github/workflows/integration-tests-amd.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests-amd.yml"
     },
@@ -56,7 +61,12 @@
       "source_file": ".github/workflows/integration-tests-amd.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests-amd.yml"
     },
@@ -66,7 +76,12 @@
       "source_file": ".github/workflows/integration-tests-nvidia.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests-nvidia.yml"
     },
@@ -224,7 +239,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests-amd.yml",
       "source_repo": "triton-lang/triton",
-      "target": "actions/cache@v4",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-amd.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache/save@v4",
       "target_type": "component"
     },
     {
@@ -245,7 +267,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests-nvidia.yml",
       "source_repo": "triton-lang/triton",
-      "target": "actions/cache@v4",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests-nvidia.yml",
+      "source_repo": "triton-lang/triton",
+      "target": "actions/cache/save@v4",
       "target_type": "component"
     },
     {
@@ -333,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:14:30.071103+00:00",
+  "fetched_at": "2026-06-21T19:58:36.565767+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -361,15 +390,15 @@
     },
     {
       "path": ".github/workflows/integration-tests-amd.yml",
-      "size": 13724
+      "size": 14551
     },
     {
       "path": ".github/workflows/integration-tests-nvidia.yml",
-      "size": 3900
+      "size": 4271
     },
     {
       "path": ".github/workflows/llvm-build.yml",
-      "size": 7685
+      "size": 8886
     },
     {
       "path": ".github/workflows/pre-commit.yml",
@@ -385,10 +414,10 @@
     "full_name": "triton-lang/triton",
     "html_url": "https://github.com/triton-lang/triton",
     "language": "MLIR",
-    "pushed_at": "2026-05-30T05:54:21Z",
-    "stargazers_count": 19312,
+    "pushed_at": "2026-06-21T14:41:21Z",
+    "stargazers_count": 19494,
     "topics": [],
-    "updated_at": "2026-05-30T05:22:24Z"
+    "updated_at": "2026-06-21T16:01:34Z"
   },
   "repo_links": [
     {

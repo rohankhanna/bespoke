@@ -258,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:22:21.021687+00:00",
+  "fetched_at": "2026-06-21T20:09:25.770580+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,8 +310,8 @@
     "full_name": "kurrent-io/KurrentDB-Client-Rust",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Rust",
     "language": "Rust",
-    "pushed_at": "2026-05-11T21:45:38Z",
-    "stargazers_count": 62,
+    "pushed_at": "2026-06-16T23:56:11Z",
+    "stargazers_count": 63,
     "topics": [
       "cqrs",
       "eventsourcing",
@@ -321,7 +321,7 @@
       "rust",
       "rust-lang"
     ],
-    "updated_at": "2026-05-06T08:21:35Z"
+    "updated_at": "2026-06-15T07:08:34Z"
   },
   "repo_links": [
     {

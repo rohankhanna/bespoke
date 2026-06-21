@@ -31,6 +31,18 @@
       "source_repo": "Comfy-Org/comfy-cli",
       "status": "candidate-context",
       "text": "Detect Unreviewed Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "status": "candidate-context",
+      "text": "Pip / uv installable ComfyUI package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "status": "candidate-context",
+      "text": "Detect Unreviewed Merge"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate",
+      "text": "Detect Unreviewed Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "status": "candidate",
       "text": "Detect Unreviewed Merge"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml",
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
     }
   ],
   "first_seen_at": "2026-05-30T00:44:22.415230+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

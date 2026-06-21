@@ -55,6 +55,18 @@
       "source_repo": "hooke007/mpv_PlayKit",
       "status": "candidate-context",
       "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "hooke007/mpv_PlayKit",
       "status": "candidate",
       "text": "\ud83d\udd04 mpv player \u64ad\u653e\u5668\u6298\u817e\u8bb0\u5f55 Windows conf | \u4e2d\u6587\u6ce8\u91ca\u914d\u7f6e \u6c49\u5316\u6587\u6863 \u5feb\u901f\u5e2e\u52a9\u5165\u95e8 | mpv-lazy \u61d2\u4eba\u5305 Win11 x64 config | \u7740\u8272\u5668 shader \u6ee4\u955c filter \u6574\u5408\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "hooke007/mpv_PlayKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

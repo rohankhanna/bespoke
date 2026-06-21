@@ -63,13 +63,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zh-plus/openlrc",
-      "target": "openai/openai-cookbook.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zh-plus/openlrc",
       "target": "machinewrapped/gpt-subtrans",
       "target_type": "repository"
     },
@@ -242,7 +235,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:07:54.848205+00:00",
+  "fetched_at": "2026-06-21T19:27:28.938981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -279,7 +272,7 @@
     "html_url": "https://github.com/zh-plus/openlrc",
     "language": "Python",
     "pushed_at": "2026-05-25T03:37:02Z",
-    "stargazers_count": 659,
+    "stargazers_count": 664,
     "topics": [
       "auto-subtitle",
       "faster-whisper",
@@ -294,7 +287,7 @@
       "voice-to-text",
       "whisper"
     ],
-    "updated_at": "2026-05-29T15:29:21Z"
+    "updated_at": "2026-06-20T03:12:44Z"
   },
   "repo_links": [
     {
@@ -305,11 +298,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "machinewrapped/gpt-subtrans",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openai/openai-cookbook.",
       "source_file": "README.md"
     },
     {

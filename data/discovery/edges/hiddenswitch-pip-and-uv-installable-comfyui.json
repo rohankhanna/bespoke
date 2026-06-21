@@ -9,16 +9,16 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "hiddenswitch/comfyui",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
+      "source_file": "pyproject.toml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "hiddenswitch/comfyui",
+      "target": "conda-forge/numba-feedstock",
       "target_type": "repository"
     },
     {
@@ -44,6 +44,69 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport_release.yaml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Backport Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Build and Upload Wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ai-co-authors.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "actions/checkout@v5",
@@ -54,6 +117,20 @@
       "source_file": ".github/workflows/check-ai-co-authors.yml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "Check AI Co-Authors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/detect-unreviewed-merge.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
+      "target": "Detect Unreviewed Merge",
       "target_type": "term"
     },
     {
@@ -139,57 +216,8 @@
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "Build and Publish Docker Image",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/openapi-lint.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/openapi-lint.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/openapi-lint.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "OpenAPI Lint",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-latest.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/checkout@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test.yml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "Backend Tests",
-      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
 }

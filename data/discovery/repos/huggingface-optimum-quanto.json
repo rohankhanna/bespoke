@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:22:14.683120+00:00",
+  "fetched_at": "2026-06-21T19:41:45.615553+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -247,7 +247,7 @@
     },
     {
       "path": ".github/workflows/security.yml",
-      "size": 1036
+      "size": 1129
     },
     {
       "path": ".github/workflows/stale.yml",
@@ -263,14 +263,14 @@
     "full_name": "huggingface/optimum-quanto",
     "html_url": "https://github.com/huggingface/optimum-quanto",
     "language": "Python",
-    "pushed_at": "2026-05-28T13:30:02Z",
-    "stargazers_count": 1042,
+    "pushed_at": "2026-06-09T17:55:02Z",
+    "stargazers_count": 1044,
     "topics": [
       "optimum",
       "pytorch",
       "quantization"
     ],
-    "updated_at": "2026-05-28T13:29:24Z"
+    "updated_at": "2026-06-20T12:48:36Z"
   },
   "repo_links": [
     {

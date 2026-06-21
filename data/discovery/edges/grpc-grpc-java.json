@@ -18,21 +18,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/branch-testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/branch-testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/setup-java@v4",
+      "target": "actions/setup-java@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/branch-testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
@@ -46,14 +46,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "gradle/actions/wrapper-validation@v4",
+      "target": "gradle/actions/wrapper-validation@v6",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "dessant/lock-threads@v5",
+      "target": "dessant/lock-threads@v6",
       "target_type": "component"
     },
     {
@@ -81,35 +81,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/setup-java@v4",
+      "target": "actions/setup-java@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-java",
-      "target": "codecov/codecov-action@v4",
+      "target": "codecov/codecov-action@v6",
       "target_type": "component"
     },
     {
@@ -148,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "grpc/grpc-java"
 }

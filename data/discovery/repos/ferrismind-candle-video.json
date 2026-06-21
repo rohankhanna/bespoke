@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-21T19:28:48.601627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9991
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Rust library for video generation models based on Candle (HF)",
+    "fork": false,
+    "full_name": "FerrisMind/candle-video",
+    "html_url": "https://github.com/FerrisMind/candle-video",
+    "language": "Rust",
+    "pushed_at": "2026-06-13T01:02:30Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-06-20T11:34:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

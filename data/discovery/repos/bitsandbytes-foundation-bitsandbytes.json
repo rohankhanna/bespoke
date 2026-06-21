@@ -11,37 +11,37 @@
       "source_file": ".github/workflows/build_pr_documentation.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/setup-python@v4",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "pre-commit/action@v3.0.0",
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -51,97 +51,97 @@
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/setup-python@v5",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "softprops/action-gh-release@v2.2.1",
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/setup-python@v5",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml"
     },
@@ -156,7 +156,7 @@
       "source_file": ".github/workflows/stale.yml.disabled"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
@@ -166,32 +166,32 @@
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "actions/setup-python@v5",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     },
     {
-      "component": "ilammy/msvc-dev-cmd@v1.13.0",
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml"
     }
@@ -229,21 +229,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/setup-python@v4",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "pre-commit/action@v3.0.0",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
       "target_type": "component"
     },
     {
@@ -257,21 +257,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -285,28 +285,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/setup-python@v5",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "softprops/action-gh-release@v2.2.1",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "target_type": "component"
     },
     {
@@ -334,7 +334,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -348,28 +348,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "ilammy/msvc-dev-cmd@v1.13.0",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
-      "target": "actions/setup-python@v5",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -422,11 +422,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:22:04.609925+00:00",
+  "fetched_at": "2026-06-21T19:41:37.344591+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7935
+      "size": 8078
     },
     {
       "path": "pyproject.toml",
@@ -442,11 +442,11 @@
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 328
+      "size": 465
     },
     {
       "path": ".github/workflows/python-package.yml",
-      "size": 15316
+      "size": 15222
     },
     {
       "path": ".github/workflows/stale.yml.disabled",
@@ -454,15 +454,15 @@
     },
     {
       "path": ".github/workflows/test-runner.yml",
-      "size": 7600
+      "size": 7319
     },
     {
       "path": ".github/workflows/tests-nightly.yml",
-      "size": 3563
+      "size": 3958
     },
     {
       "path": ".github/workflows/tests-pr.yml",
-      "size": 3027
+      "size": 3288
     }
   ],
   "related_repositories": [],
@@ -474,8 +474,8 @@
     "full_name": "bitsandbytes-foundation/bitsandbytes",
     "html_url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
     "language": "Python",
-    "pushed_at": "2026-05-29T20:25:10Z",
-    "stargazers_count": 8237,
+    "pushed_at": "2026-06-18T18:41:13Z",
+    "stargazers_count": 8280,
     "topics": [
       "llm",
       "machine-learning",
@@ -483,7 +483,7 @@
       "qlora",
       "quantization"
     ],
-    "updated_at": "2026-05-29T19:33:22Z"
+    "updated_at": "2026-06-21T18:54:06Z"
   },
   "repo_links": [],
   "terms": [

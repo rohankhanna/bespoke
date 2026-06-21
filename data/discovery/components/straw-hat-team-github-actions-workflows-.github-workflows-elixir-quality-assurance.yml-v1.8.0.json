@@ -1,0 +1,12 @@
+{
+  "component": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-quality-assurance.yml@v1.8.0",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ueberauth/oauth2"
+    }
+  ]
+}

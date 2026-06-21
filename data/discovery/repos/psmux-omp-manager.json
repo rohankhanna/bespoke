@@ -165,7 +165,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:12:17.466930+00:00",
+  "fetched_at": "2026-06-21T19:32:30.384182+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -194,7 +194,7 @@
     "html_url": "https://github.com/psmux/omp-manager",
     "language": "Rust",
     "pushed_at": "2026-04-10T18:46:26Z",
-    "stargazers_count": 47,
+    "stargazers_count": 54,
     "topics": [
       "ohmyposh",
       "powershell",
@@ -202,7 +202,7 @@
       "pwsh",
       "themes"
     ],
-    "updated_at": "2026-05-28T02:45:16Z"
+    "updated_at": "2026-06-19T05:56:24Z"
   },
   "repo_links": [
     {

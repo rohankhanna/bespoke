@@ -2860,6 +2860,18 @@
       "source_repo": "SpeechColab/Leaderboard",
       "status": "candidate-context",
       "text": "![result](misc/SpeechIO_TIOBE_2024_08.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "the original reference implementation of a specified llama.cpp backend for Qualcomm Hexagon NPU on Android phone, history of ggml-hexagon: https://github.com/zhouwg/ggml-hexagon/discussions/18. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -4290,6 +4302,12 @@
       "source_repo": "SpeechColab/Leaderboard",
       "status": "candidate",
       "text": "![result](misc/SpeechIO_TIOBE_2024_08.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate",
+      "text": "Benchmark"
     }
   ],
   "candidate_related_terms": [
@@ -11217,11 +11235,41 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": null,
       "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "zhouwg/ggml-hexagon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -26,42 +26,12 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "actions/checkout@v6.0.2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -71,27 +41,17 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/download-artifact@v8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -101,7 +61,12 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -126,7 +91,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -136,7 +101,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -161,7 +126,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -171,7 +136,7 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -196,7 +161,42 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -221,22 +221,22 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "component": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "component": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml"
     },
@@ -246,7 +246,7 @@
       "source_file": ".github/workflows/dependencies.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev.yml"
     },
@@ -256,7 +256,7 @@
       "source_file": ".github/workflows/dev.yml"
     },
     {
-      "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev.yml"
     },
@@ -276,7 +276,7 @@
       "source_file": ".github/workflows/dev_pr.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -286,12 +286,12 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml"
     },
@@ -301,7 +301,7 @@
       "source_file": ".github/workflows/docs.yaml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -311,7 +311,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -321,7 +321,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -331,7 +331,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -341,7 +341,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -351,7 +351,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -361,7 +361,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -371,7 +371,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -381,7 +381,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -391,7 +391,7 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -401,17 +401,12 @@
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "actions/checkout@v6.0.2",
+      "component": "taiki-e/install-action@b8cecb83565409bcc297b2df6e77f030b2a468d5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
     {
-      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust.yml"
-    },
-    {
-      "component": "actions/checkout@v6.0.2",
+      "component": "actions/checkout@v7.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
     },
@@ -431,7 +426,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -466,7 +461,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -501,21 +496,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -529,7 +524,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -550,7 +545,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -564,7 +559,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -606,7 +601,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -627,7 +622,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -648,7 +643,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista",
-      "target": "actions/checkout@v6.0.2",
+      "target": "actions/checkout@v7.0.0",
       "target_type": "component"
     },
     {
@@ -656,6 +651,13 @@
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "apache/datafusion-ballista",
       "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista",
+      "target": "taiki-e/install-action@b8cecb83565409bcc297b2df6e77f030b2a468d5",
       "target_type": "component"
     },
     {
@@ -722,7 +724,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:15:41.591895+00:00",
+  "fetched_at": "2026-06-21T20:00:28.200029+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -730,19 +732,19 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 3132
+      "size": 3151
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 10696
+      "size": 10412
     },
     {
       "path": ".github/workflows/codeql.yml",
-      "size": 1664
+      "size": 1669
     },
     {
       "path": ".github/workflows/dependencies.yml",
-      "size": 1792
+      "size": 1731
     },
     {
       "path": ".github/workflows/dev.yml",
@@ -750,7 +752,7 @@
     },
     {
       "path": ".github/workflows/dev_pr.yml",
-      "size": 2021
+      "size": 2020
     },
     {
       "path": ".github/workflows/docker.yml",
@@ -758,11 +760,11 @@
     },
     {
       "path": ".github/workflows/docs.yaml",
-      "size": 2341
+      "size": 2342
     },
     {
       "path": ".github/workflows/rust.yml",
-      "size": 11728
+      "size": 10325
     }
   ],
   "related_repositories": [],
@@ -774,8 +776,8 @@
     "full_name": "apache/datafusion-ballista",
     "html_url": "https://github.com/apache/datafusion-ballista",
     "language": "Rust",
-    "pushed_at": "2026-05-29T21:37:11Z",
-    "stargazers_count": 2050,
+    "pushed_at": "2026-06-19T07:09:36Z",
+    "stargazers_count": 2070,
     "topics": [
       "arrow",
       "big-data",
@@ -787,7 +789,7 @@
       "rust",
       "sql"
     ],
-    "updated_at": "2026-05-29T21:37:08Z"
+    "updated_at": "2026-06-20T14:20:56Z"
   },
   "repo_links": [],
   "terms": [

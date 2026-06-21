@@ -88,6 +88,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nwjs/nw-gyp",
+      "target": "felixrieseberg/windows-build-tools",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nwjs/nw-gyp",
@@ -207,7 +214,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-30T02:20:20.564909+00:00",
+  "fetched_at": "2026-06-21T19:40:06.014616+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -232,6 +239,12 @@
     "topics": [],
     "updated_at": "2026-04-28T10:45:56Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "felixrieseberg/windows-build-tools",
+      "source_file": "README.md"
+    }
+  ],
   "terms": []
 }

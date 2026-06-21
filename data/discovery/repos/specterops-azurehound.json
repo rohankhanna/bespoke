@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "digicert/ssm-code-signing@1d820463733701cf1484c7eb5d7d24a15ca2c454",
+      "component": "digicert/code-signing-software-trust-action@fae23a455ba4bde62b64fd7cb2f81ade788f5a95",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -341,7 +341,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "SpecterOps/AzureHound",
-      "target": "digicert/ssm-code-signing@1d820463733701cf1484c7eb5d7d24a15ca2c454",
+      "target": "digicert/code-signing-software-trust-action@fae23a455ba4bde62b64fd7cb2f81ade788f5a95",
       "target_type": "component"
     },
     {
@@ -380,7 +380,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:18:24.222159+00:00",
+  "fetched_at": "2026-06-21T19:38:19.638841+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -408,7 +408,7 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 7559
+      "size": 6529
     }
   ],
   "related_repositories": [],
@@ -420,13 +420,13 @@
     "full_name": "SpecterOps/AzureHound",
     "html_url": "https://github.com/SpecterOps/AzureHound",
     "language": "Go",
-    "pushed_at": "2026-05-28T16:53:07Z",
-    "stargazers_count": 913,
+    "pushed_at": "2026-06-15T15:45:49Z",
+    "stargazers_count": 921,
     "topics": [
       "azure",
       "go"
     ],
-    "updated_at": "2026-05-29T20:31:02Z"
+    "updated_at": "2026-06-20T08:48:58Z"
   },
   "repo_links": [
     {

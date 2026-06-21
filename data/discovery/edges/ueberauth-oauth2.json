@@ -18,21 +18,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ueberauth/oauth2",
-      "target": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-quality-assurance.yml@v1.6.3",
+      "target": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-quality-assurance.yml@v1.8.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ueberauth/oauth2",
-      "target": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-hex-publish.yml@v1.6.3",
+      "target": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-hex-publish.yml@v1.8.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ueberauth/oauth2",
-      "target": "actions/stale@v8",
+      "target": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
       "target_type": "component"
     },
     {
@@ -64,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "ueberauth/oauth2"
 }

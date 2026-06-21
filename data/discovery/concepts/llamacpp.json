@@ -391,6 +391,12 @@
       "source_repo": "docusealco/rllama",
       "status": "candidate-context",
       "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intentee/paddler",
+      "status": "candidate-context",
+      "text": "Digital products and their users need privacy, reliability, cost control, and an option to be independent from closed-source model providers."
     }
   ],
   "candidate_glosses": [
@@ -585,6 +591,12 @@
       "source_repo": "docusealco/rllama",
       "status": "candidate",
       "text": "<img width=\"336\" height=\"212.0\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/e27442fb-22d1-44cf-ba3d-f10b24c13652\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intentee/paddler",
+      "status": "candidate",
+      "text": "Digital products and their users need privacy, reliability, cost control, and an option to be independent from closed-source model providers."
     }
   ],
   "candidate_related_terms": [],
@@ -1462,11 +1474,23 @@
       "observed_at": "2026-05-30T00:44:22.415230+00:00",
       "source_file": null,
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-21T19:22:13.525033+00:00",
+      "source_file": null,
+      "source_repo": "intentee/paddler"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T00:44:22.415230+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "lexical_providers": [
     "datamuse"
   ],

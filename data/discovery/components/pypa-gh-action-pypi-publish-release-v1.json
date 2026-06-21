@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2877,6 +2877,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tox.yml",
       "source_repo": "python-versioneer/python-versioneer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI"
     }
   ]
 }

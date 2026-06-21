@@ -11,42 +11,42 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/login-action@v3",
+      "component": "docker/login-action@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/metadata-action@v5",
+      "component": "docker/metadata-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/build-push-action@v5",
+      "component": "docker/build-push-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/attest-build-provenance@v1",
+      "component": "actions/attest-build-provenance@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/metadata-action@v5",
+      "component": "docker/metadata-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "docker/build-push-action@v5",
+      "component": "docker/build-push-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/attest-build-provenance@v1",
+      "component": "actions/attest-build-provenance@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -56,12 +56,12 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "pypa/cibuildwheel@v3.1.4",
+      "component": "pypa/cibuildwheel@v3.4.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -71,22 +71,12 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish.yml"
-    },
-    {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -96,7 +86,22 @@
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "flying-sheep/check@v1",
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml"
     },
@@ -106,7 +111,17 @@
       "source_file": ".github/workflows/test-gpu.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v6",
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml"
     },
@@ -116,42 +131,7 @@
       "source_file": ".github/workflows/test-gpu.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "codecov/codecov-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "codecov/codecov-action@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "actions-ecosystem/action-remove-labels@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "re-actors/alls-green@release/v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml"
-    },
-    {
-      "component": "re-actors/alls-green@release/v1",
+      "component": "astral-sh/setup-uv@v8.1.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml"
     }
@@ -182,35 +162,35 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "docker/login-action@v3",
+      "target": "docker/login-action@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "docker/metadata-action@v5",
+      "target": "docker/metadata-action@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "docker/build-push-action@v5",
+      "target": "docker/build-push-action@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "actions/attest-build-provenance@v1",
+      "target": "actions/attest-build-provenance@v4",
       "target_type": "component"
     },
     {
@@ -231,21 +211,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "pypa/cibuildwheel@v3.1.4",
+      "target": "pypa/cibuildwheel@v3.4.1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "actions/download-artifact@v5",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -266,13 +246,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "flying-sheep/check@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml",
-      "source_repo": "scverse/rapids-singlecell",
       "target": "actions/checkout@v6",
       "target_type": "component"
     },
@@ -280,28 +253,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "astral-sh/setup-uv@v6",
+      "target": "astral-sh/setup-uv@v8.1.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-gpu.yml",
       "source_repo": "scverse/rapids-singlecell",
-      "target": "codecov/codecov-action@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml",
-      "source_repo": "scverse/rapids-singlecell",
-      "target": "actions-ecosystem/action-remove-labels@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-gpu.yml",
-      "source_repo": "scverse/rapids-singlecell",
-      "target": "re-actors/alls-green@release/v1",
+      "target": "codecov/codecov-action@v6",
       "target_type": "component"
     },
     {
@@ -340,7 +299,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:17:21.699831+00:00",
+  "fetched_at": "2026-06-21T20:02:54.353751+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,7 +307,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5170
+      "size": 5305
     },
     {
       "path": ".github/workflows/docker.yml",
@@ -356,11 +315,11 @@
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 6454
+      "size": 7022
     },
     {
       "path": ".github/workflows/test-gpu.yml",
-      "size": 6138
+      "size": 6933
     }
   ],
   "related_repositories": [],
@@ -372,8 +331,8 @@
     "full_name": "scverse/rapids-singlecell",
     "html_url": "https://github.com/scverse/rapids-singlecell",
     "language": "Python",
-    "pushed_at": "2026-05-28T16:24:57Z",
-    "stargazers_count": 372,
+    "pushed_at": "2026-06-18T10:24:05Z",
+    "stargazers_count": 377,
     "topics": [
       "anndata",
       "bioinformatics",
@@ -381,7 +340,7 @@
       "scverse",
       "single-cell"
     ],
-    "updated_at": "2026-05-27T16:19:28Z"
+    "updated_at": "2026-06-19T21:56:35Z"
   },
   "repo_links": [
     {

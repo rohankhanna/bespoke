@@ -286,7 +286,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:13:16.766732+00:00",
+  "fetched_at": "2026-06-21T19:56:59.527830+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -327,7 +327,7 @@
     "html_url": "https://github.com/gbionics/adam",
     "language": "Python",
     "pushed_at": "2026-05-18T09:46:43Z",
-    "stargazers_count": 216,
+    "stargazers_count": 219,
     "topics": [
       "adam-robotics",
       "automatic-differentiation",
@@ -343,7 +343,7 @@
       "robotics",
       "urdf"
     ],
-    "updated_at": "2026-05-12T14:34:43Z"
+    "updated_at": "2026-06-12T18:18:49Z"
   },
   "repo_links": [
     {

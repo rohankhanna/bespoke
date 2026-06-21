@@ -326,14 +326,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-patches.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/apply-patches.yml",
-      "source_repo": "electron/electron",
-      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -354,7 +347,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/archaeologist-dig.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -389,7 +382,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -466,7 +459,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-git-cache.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -480,14 +473,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "electron/electron",
-      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -499,9 +485,23 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
+      "source_file": ".github/workflows/check-nmv-version.yml",
       "source_repo": "electron/electron",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-nmv-version.yml",
+      "source_repo": "electron/electron",
+      "target": "Check NMV Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
+      "source_repo": "electron/electron",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -509,20 +509,6 @@
       "source_file": ".github/workflows/clean-orphaned-cache-uploads.yml",
       "source_repo": "electron/electron",
       "target": "Clean Orphaned Cache Uploads",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/clean-src-cache.yml",
-      "source_repo": "electron/electron",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/clean-src-cache.yml",
-      "source_repo": "electron/electron",
-      "target": "Clean Source Cache",
       "target_type": "term"
     },
     {
@@ -568,6 +554,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "electron/electron"
 }

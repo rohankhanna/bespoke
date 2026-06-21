@@ -46,13 +46,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "vercel/serve",
-      "target": "clipboardy",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "vercel/serve",
       "target": "compression",
       "target_type": "component"
     },
@@ -68,6 +61,13 @@
       "source_file": "package.json",
       "source_repo": "vercel/serve",
       "target": "serve-handler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel/serve",
+      "target": "tinyclip",
       "target_type": "component"
     },
     {
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "vercel/serve"
 }

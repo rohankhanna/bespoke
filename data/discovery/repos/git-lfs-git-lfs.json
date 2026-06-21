@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "git-for-windows/setup-git-for-windows-sdk@v1",
+      "component": "git-for-windows/setup-git-for-windows-sdk@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -86,17 +86,17 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "git-for-windows/setup-git-for-windows-sdk@v1",
+      "component": "git-for-windows/setup-git-for-windows-sdk@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "azure/artifact-signing-action@v1.2.0",
+      "component": "azure/artifact-signing-action@v2.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "azure/artifact-signing-action@v1.2.0",
+      "component": "azure/artifact-signing-action@v2.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -182,7 +182,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "git-lfs/git-lfs",
-      "target": "git-for-windows/setup-git-for-windows-sdk@v1",
+      "target": "git-for-windows/setup-git-for-windows-sdk@v2",
       "target_type": "component"
     },
     {
@@ -203,14 +203,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "git-lfs/git-lfs",
-      "target": "git-for-windows/setup-git-for-windows-sdk@v1",
+      "target": "git-for-windows/setup-git-for-windows-sdk@v2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "git-lfs/git-lfs",
-      "target": "azure/artifact-signing-action@v1.2.0",
+      "target": "azure/artifact-signing-action@v2.0.0",
       "target_type": "component"
     },
     {
@@ -242,7 +242,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:20:53.968242+00:00",
+  "fetched_at": "2026-06-21T20:07:46.755522+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,7 +250,7 @@
     },
     {
       "path": "go.mod",
-      "size": 2100
+      "size": 2045
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -270,14 +270,14 @@
     "full_name": "git-lfs/git-lfs",
     "html_url": "https://github.com/git-lfs/git-lfs",
     "language": "Go",
-    "pushed_at": "2026-05-27T23:07:42Z",
-    "stargazers_count": 14284,
+    "pushed_at": "2026-06-12T23:00:26Z",
+    "stargazers_count": 14334,
     "topics": [
       "git",
       "git-lfs",
       "go"
     ],
-    "updated_at": "2026-05-30T01:32:16Z"
+    "updated_at": "2026-06-21T10:50:56Z"
   },
   "repo_links": [],
   "terms": [

@@ -337,7 +337,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:21:57.527350+00:00",
+  "fetched_at": "2026-06-21T20:08:56.574490+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -345,7 +345,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 3113
+      "size": 3533
     },
     {
       "path": ".github/workflows/build-container-noble.yml",
@@ -353,7 +353,7 @@
     },
     {
       "path": ".github/workflows/build-container-reusable.yml",
-      "size": 4215
+      "size": 4316
     },
     {
       "path": ".github/workflows/build-docs.yml",
@@ -361,7 +361,7 @@
     },
     {
       "path": ".github/workflows/build-reusable.yml",
-      "size": 4519
+      "size": 4620
     },
     {
       "path": ".github/workflows/build-ubuntu-20.04-arm64.yml",
@@ -389,8 +389,8 @@
     "full_name": "kurrent-io/KurrentDB",
     "html_url": "https://github.com/kurrent-io/KurrentDB",
     "language": "C#",
-    "pushed_at": "2026-05-29T19:07:55Z",
-    "stargazers_count": 5798,
+    "pushed_at": "2026-06-19T14:51:24Z",
+    "stargazers_count": 5811,
     "topics": [
       "cqrs",
       "database",
@@ -399,7 +399,7 @@
       "eventsourcing",
       "eventstore"
     ],
-    "updated_at": "2026-05-29T19:31:34Z"
+    "updated_at": "2026-06-21T14:36:05Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,12 @@
+{
+  "component": "pypa/cibuildwheel@f03ac7617d6cff873ccf24cc0d567ef5ba5a9e6d",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "mongodb/winkerberos"
+    }
+  ]
+}

@@ -1,92 +1,87 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
-      "component": "actions/setup-python@v5",
+      "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "anthropics/claude-code-action@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml"
     },
     {
-      "component": "anthropics/claude-code-action@v1.0.88",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/adapter-review.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-registry-format.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml"
     },
     {
-      "component": "anthropics/claude-code-action@beta",
+      "component": "anthropics/claude-code-action@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml"
     },
     {
-      "component": "anthropics/claude-code-action@beta",
+      "component": "anthropics/claude-code-action@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-diff-links.yml"
     },
@@ -96,17 +91,32 @@
       "source_file": ".github/workflows/pr-labeler.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     },
     {
-      "component": "astral-sh/setup-uv@v5",
+      "component": "astral-sh/setup-uv@v8.1.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     },
     {
-      "component": "codecov/codecov-action@v4",
+      "component": "docker/setup-docker-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "docker/setup-compose-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     }
@@ -123,28 +133,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/setup-python@v5",
+      "target": "actions/setup-python@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter-review.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "anthropics/claude-code-action@v1.0.88",
+      "target": "anthropics/claude-code-action@v1",
       "target_type": "component"
     },
     {
@@ -158,21 +168,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-registry-format.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "anthropics/claude-code-action@beta",
+      "target": "anthropics/claude-code-action@v1",
       "target_type": "component"
     },
     {
@@ -186,14 +196,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "anthropics/claude-code-action@beta",
+      "target": "anthropics/claude-code-action@v1",
       "target_type": "component"
     },
     {
@@ -207,14 +217,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs-preview.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -228,7 +238,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-diff-links.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -256,21 +266,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "astral-sh/setup-uv@v5",
+      "target": "astral-sh/setup-uv@v8.1.0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "harbor-framework/harbor",
-      "target": "codecov/codecov-action@v4",
+      "target": "docker/setup-docker-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "docker/setup-compose-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "harbor-framework/harbor",
+      "target": "codecov/codecov-action@v6",
       "target_type": "component"
     },
     {
@@ -295,19 +326,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:17:03.372783+00:00",
+  "fetched_at": "2026-06-21T20:02:30.504543+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2564
+      "size": 2599
     },
     {
       "path": "pyproject.toml",
-      "size": 3534
+      "size": 4840
     },
     {
       "path": ".github/workflows/adapter-review.yml",
-      "size": 55894
+      "size": 55733
     },
     {
       "path": ".github/workflows/check-registry-format.yml",
@@ -315,11 +346,11 @@
     },
     {
       "path": ".github/workflows/claude-code-review.yml",
-      "size": 2972
+      "size": 2949
     },
     {
       "path": ".github/workflows/claude.yml",
-      "size": 2301
+      "size": 2298
     },
     {
       "path": ".github/workflows/deploy-docs-preview.yml",
@@ -327,7 +358,7 @@
     },
     {
       "path": ".github/workflows/pr-diff-links.yml",
-      "size": 1669
+      "size": 1828
     },
     {
       "path": ".github/workflows/pr-labeler.yml",
@@ -335,7 +366,7 @@
     },
     {
       "path": ".github/workflows/pytest.yml",
-      "size": 2856
+      "size": 3390
     }
   ],
   "related_repositories": [],
@@ -347,14 +378,14 @@
     "full_name": "harbor-framework/harbor",
     "html_url": "https://github.com/harbor-framework/harbor",
     "language": "Python",
-    "pushed_at": "2026-05-30T06:36:27Z",
-    "stargazers_count": 2195,
+    "pushed_at": "2026-06-21T07:09:37Z",
+    "stargazers_count": 2604,
     "topics": [
       "evals",
       "rl-environments",
       "terminal-bench"
     ],
-    "updated_at": "2026-05-30T06:34:37Z"
+    "updated_at": "2026-06-21T19:53:16Z"
   },
   "repo_links": [
     {

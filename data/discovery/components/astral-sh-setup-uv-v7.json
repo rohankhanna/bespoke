@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1971,6 +1971,36 @@
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-tasksets.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-lint.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-release.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen-check.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-sdk-codegen.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/otari-tag-release.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-verifiers.yml",
       "source_repo": "PrimeIntellect-ai/verifiers"
     }
   ]

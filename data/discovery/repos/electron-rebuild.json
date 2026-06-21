@@ -171,7 +171,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     }
@@ -447,7 +447,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "electron/rebuild",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
@@ -458,7 +458,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:20:12.965721+00:00",
+  "fetched_at": "2026-06-21T19:39:59.263172+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -498,10 +498,10 @@
     "full_name": "electron/rebuild",
     "html_url": "https://github.com/electron/rebuild",
     "language": "TypeScript",
-    "pushed_at": "2026-05-19T03:49:45Z",
+    "pushed_at": "2026-06-20T06:23:51Z",
     "stargazers_count": 1118,
     "topics": [],
-    "updated_at": "2026-05-19T03:49:48Z"
+    "updated_at": "2026-06-20T06:23:53Z"
   },
   "repo_links": [],
   "terms": [

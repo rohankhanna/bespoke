@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/ci_cd.yml"
     },
     {
-      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "component": "prefix-dev/setup-pixi@v0.9.6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_cd.yml"
     },
@@ -56,17 +56,17 @@
       "source_file": ".github/workflows/gpu_benchmark.yml"
     },
     {
-      "component": "benchmark-action/github-action-benchmark@v1.22.0",
+      "component": "benchmark-action/github-action-benchmark@v1.22.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gpu_benchmark.yml"
     },
     {
-      "component": "benchmark-action/github-action-benchmark@v1.22.0",
+      "component": "benchmark-action/github-action-benchmark@v1.22.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gpu_benchmark.yml"
     },
     {
-      "component": "benchmark-action/github-action-benchmark@v1.22.0",
+      "component": "benchmark-action/github-action-benchmark@v1.22.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gpu_benchmark.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/pixi.yml"
     },
     {
-      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "component": "prefix-dev/setup-pixi@v0.9.6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pixi.yml"
     },
@@ -136,7 +136,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_cd.yml",
       "source_repo": "gbionics/jaxsim",
-      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target": "prefix-dev/setup-pixi@v0.9.6",
       "target_type": "component"
     },
     {
@@ -164,7 +164,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gpu_benchmark.yml",
       "source_repo": "gbionics/jaxsim",
-      "target": "benchmark-action/github-action-benchmark@v1.22.0",
+      "target": "benchmark-action/github-action-benchmark@v1.22.1",
       "target_type": "component"
     },
     {
@@ -192,7 +192,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pixi.yml",
       "source_repo": "gbionics/jaxsim",
-      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target": "prefix-dev/setup-pixi@v0.9.6",
       "target_type": "component"
     },
     {
@@ -329,7 +329,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:13:21.886027+00:00",
+  "fetched_at": "2026-06-21T19:57:06.878443+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -365,7 +365,7 @@
     "full_name": "gbionics/jaxsim",
     "html_url": "https://github.com/gbionics/jaxsim",
     "language": "Python",
-    "pushed_at": "2026-05-08T09:34:39Z",
+    "pushed_at": "2026-06-03T12:41:23Z",
     "stargazers_count": 197,
     "topics": [
       "aba",
@@ -389,7 +389,7 @@
       "simulation",
       "simulation-modeling"
     ],
-    "updated_at": "2026-05-29T14:54:35Z"
+    "updated_at": "2026-06-18T12:20:42Z"
   },
   "repo_links": [
     {

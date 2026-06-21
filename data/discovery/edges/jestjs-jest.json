@@ -564,7 +564,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-changelog.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -585,7 +585,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/close-stale.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
       "target_type": "component"
     },
     {
@@ -606,7 +606,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "jestjs/jest",
-      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target": "dessant/lock-threads@89ae32b08ed1a541efecbab17912962a5e38981c",
       "target_type": "component"
     },
     {
@@ -634,7 +634,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -676,7 +676,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pkg-pr-new.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -697,7 +697,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-cache.yml",
       "source_repo": "jestjs/jest",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -771,6 +771,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-21T19:22:13.525033+00:00",
   "source_repo": "jestjs/jest"
 }

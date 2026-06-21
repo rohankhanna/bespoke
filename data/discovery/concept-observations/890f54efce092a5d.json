@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple set of CLIs to scaffold and build React Native libraries for different targets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build local library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build local library"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34310,
+      "status": "candidate",
+      "text": "resource"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34032,
+      "status": "candidate",
+      "text": "portal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19007,
+      "status": "candidate",
+      "text": "temple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17963,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17954,
+      "status": "candidate",
+      "text": "athenaeum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build local library",
+      "sense_id": "build-local-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-local-library",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-local-library",
+  "observation_id": "890f54efce092a5d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-21T19:22:13.525033+00:00",
+  "observed_text": "Build local library",
+  "source_context_snippet": "Build local library",
+  "source_file": ".github/workflows/build-local-libraries.yml",
+  "source_repo": "callstack/react-native-builder-bob",
+  "source_repo_description": "Simple set of CLIs to scaffold and build React Native libraries for different targets"
+}

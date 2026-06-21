@@ -1,11 +1,16 @@
 {
-  "first_seen_at": "2026-05-30T12:38:40.310820+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
     }
   ],
   "term": "markdown"

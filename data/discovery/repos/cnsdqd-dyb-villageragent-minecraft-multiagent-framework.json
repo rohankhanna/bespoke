@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "debug",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -58,6 +63,13 @@
       "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
       "target": "cnsdqd-dyb/villageragent",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "canvas",
+      "target_type": "component"
     },
     {
       "edge_type": "package-json:dependencies",
@@ -151,11 +163,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:17:13.288275+00:00",
+  "fetched_at": "2026-06-21T20:02:43.028517+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 16058
+      "size": 14810
     },
     {
       "path": "Dockerfile",
@@ -163,7 +175,7 @@
     },
     {
       "path": "package.json",
-      "size": 348
+      "size": 372
     },
     {
       "path": "requirements.txt",
@@ -179,7 +191,7 @@
     "full_name": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "html_url": "https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "language": "Python",
-    "pushed_at": "2026-03-08T06:38:25Z",
+    "pushed_at": "2026-06-05T06:56:17Z",
     "stargazers_count": 92,
     "topics": [
       "agents",
@@ -188,7 +200,7 @@
       "minecraft",
       "reinforcement-learning"
     ],
-    "updated_at": "2026-05-24T05:43:36Z"
+    "updated_at": "2026-06-05T06:56:22Z"
   },
   "repo_links": [
     {

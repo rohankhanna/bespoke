@@ -46,6 +46,11 @@
       "source_file": ".github/workflows/docker-build.yml"
     },
     {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote-agent.yml"
+    },
+    {
       "component": "actions/checkout@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_pypi.yml"
@@ -157,6 +162,20 @@
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "aristoteleo/PantheonOS",
       "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/promote-agent.yml",
+      "source_repo": "aristoteleo/PantheonOS",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote-agent.yml",
+      "source_repo": "aristoteleo/PantheonOS",
+      "target": "Promote Agent Image to :prod",
       "target_type": "term"
     },
     {
@@ -300,19 +319,23 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:07:13.422027+00:00",
+  "fetched_at": "2026-06-21T19:26:48.854088+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18174
+      "size": 19427
     },
     {
       "path": "pyproject.toml",
-      "size": 4843
+      "size": 5437
     },
     {
       "path": ".github/workflows/docker-build.yml",
-      "size": 6953
+      "size": 7769
+    },
+    {
+      "path": ".github/workflows/promote-agent.yml",
+      "size": 2488
     },
     {
       "path": ".github/workflows/publish_pypi.yml",
@@ -332,8 +355,8 @@
     "full_name": "aristoteleo/PantheonOS",
     "html_url": "https://github.com/aristoteleo/PantheonOS",
     "language": "Python",
-    "pushed_at": "2026-05-29T03:15:35Z",
-    "stargazers_count": 435,
+    "pushed_at": "2026-06-21T14:47:38Z",
+    "stargazers_count": 447,
     "topics": [
       "agent",
       "ai",
@@ -352,7 +375,7 @@
       "singlecell",
       "spatial-transcriptomics"
     ],
-    "updated_at": "2026-05-29T14:23:03Z"
+    "updated_at": "2026-06-21T05:04:34Z"
   },
   "repo_links": [
     {
@@ -367,6 +390,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-build.yml",
       "term": "Build and Push Docker Image"
+    },
+    {
+      "context_snippet": "Promote Agent Image to :prod",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/promote-agent.yml",
+      "term": "Promote Agent Image to :prod"
     },
     {
       "context_snippet": "Tests",

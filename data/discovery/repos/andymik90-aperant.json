@@ -201,19 +201,12 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/github-script@v8",
+      "component": "actions/github-script@v7",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pr-labeler.yml"
+      "source_file": ".github/workflows/pause-pull-requests.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AndyMik90/Aperant",
-      "target": "andymik90/auto-claude",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "package.json",
@@ -433,24 +426,24 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_file": ".github/workflows/pause-pull-requests.yml",
       "source_repo": "AndyMik90/Aperant",
-      "target": "actions/github-script@v8",
+      "target": "actions/github-script@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_file": ".github/workflows/pause-pull-requests.yml",
       "source_repo": "AndyMik90/Aperant",
-      "target": "PR Labeler",
+      "target": "Pause Pull Requests",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:19:12.958166+00:00",
+  "fetched_at": "2026-06-21T19:39:03.759829+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8641
+      "size": 10755
     },
     {
       "path": "package.json",
@@ -485,8 +478,8 @@
       "size": 1728
     },
     {
-      "path": ".github/workflows/pr-labeler.yml",
-      "size": 10845
+      "path": ".github/workflows/pause-pull-requests.yml",
+      "size": 2561
     }
   ],
   "related_repositories": [],
@@ -498,17 +491,12 @@
     "full_name": "AndyMik90/Aperant",
     "html_url": "https://github.com/AndyMik90/Aperant",
     "language": "TypeScript",
-    "pushed_at": "2026-03-23T19:47:59Z",
-    "stargazers_count": 14309,
+    "pushed_at": "2026-06-14T08:27:00Z",
+    "stargazers_count": 14362,
     "topics": [],
-    "updated_at": "2026-05-30T01:16:34Z"
+    "updated_at": "2026-06-21T12:01:15Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "andymik90/auto-claude",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "andymik90/auto-claude",
@@ -553,10 +541,10 @@
       "term": "Lint"
     },
     {
-      "context_snippet": "PR Labeler",
+      "context_snippet": "Pause Pull Requests",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pr-labeler.yml",
-      "term": "PR Labeler"
+      "source_file": ".github/workflows/pause-pull-requests.yml",
+      "term": "Pause Pull Requests"
     }
   ]
 }

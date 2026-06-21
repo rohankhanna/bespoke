@@ -216,7 +216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:22:14.982886+00:00",
+  "fetched_at": "2026-06-21T20:09:19.482000+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -252,7 +252,7 @@
     "full_name": "kurrent-io/KurrentDB-Bridge-Client",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Bridge-Client",
     "language": "Rust",
-    "pushed_at": "2026-05-05T10:11:48Z",
+    "pushed_at": "2026-06-19T10:11:20Z",
     "stargazers_count": 1,
     "topics": [
       "kurrentdb",

@@ -587,11 +587,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:07:06.832699+00:00",
+  "fetched_at": "2026-06-21T19:26:42.735061+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11830
+      "size": 11700
     },
     {
       "path": "package.json",
@@ -635,8 +635,8 @@
     "full_name": "antvis/GPT-Vis",
     "html_url": "https://github.com/antvis/GPT-Vis",
     "language": "TypeScript",
-    "pushed_at": "2026-05-28T06:10:54Z",
-    "stargazers_count": 739,
+    "pushed_at": "2026-06-12T06:43:13Z",
+    "stargazers_count": 745,
     "topics": [
       "antvis",
       "gpts",
@@ -644,7 +644,7 @@
       "lui",
       "visualization"
     ],
-    "updated_at": "2026-05-29T07:11:53Z"
+    "updated_at": "2026-06-19T19:32:23Z"
   },
   "repo_links": [
     {

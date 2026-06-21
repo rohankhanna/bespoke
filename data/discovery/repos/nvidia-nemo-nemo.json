@@ -188,13 +188,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "nvidia/nemo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
       "target": "nvidia-nemo/automodel",
       "target_type": "repository"
     },
@@ -430,15 +423,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:15:18.564524+00:00",
+  "fetched_at": "2026-06-21T19:59:45.693221+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6826
+      "size": 10911
     },
     {
       "path": "pyproject.toml",
-      "size": 16364
+      "size": 15144
     },
     {
       "path": ".github/workflows/_build_container.yml",
@@ -458,7 +451,7 @@
     },
     {
       "path": ".github/workflows/cicd-main-speech.yml",
-      "size": 24756
+      "size": 24753
     },
     {
       "path": ".github/workflows/cicd-main-unit-tests.yml",
@@ -466,7 +459,7 @@
     },
     {
       "path": ".github/workflows/cicd-main.yml",
-      "size": 14323
+      "size": 14320
     },
     {
       "path": ".github/workflows/claude-answer.yml",
@@ -482,8 +475,8 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-05-29T22:03:07Z",
-    "stargazers_count": 17271,
+    "pushed_at": "2026-06-21T16:35:39Z",
+    "stargazers_count": 17440,
     "topics": [
       "asr",
       "deeplearning",
@@ -496,7 +489,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-05-29T21:56:14Z"
+    "updated_at": "2026-06-21T16:51:02Z"
   },
   "repo_links": [
     {
@@ -507,11 +500,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nvidia-nemo/automodel",
-      "source_file": "pyproject.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvidia/nemo",
       "source_file": "pyproject.toml"
     }
   ],

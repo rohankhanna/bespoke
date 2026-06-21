@@ -51,117 +51,117 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "docker/setup-qemu-action@v3",
+      "component": "docker/setup-qemu-action@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "docker/setup-qemu-action@v3",
+      "component": "docker/setup-qemu-action@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "docker/setup-qemu-action@v3",
+      "component": "docker/setup-qemu-action@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "docker/setup-qemu-action@v3",
+      "component": "docker/setup-qemu-action@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml"
     },
     {
-      "component": "stefanzweifel/git-auto-commit-action@v6",
+      "component": "stefanzweifel/git-auto-commit-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml"
     },
@@ -260,21 +260,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "docker/setup-qemu-action@v3",
+      "target": "docker/setup-qemu-action@v4",
       "target_type": "component"
     },
     {
@@ -288,14 +288,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
@@ -309,21 +309,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml",
       "source_repo": "WiseLibs/better-sqlite3",
-      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
       "target_type": "component"
     },
     {
@@ -362,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:20:04.928165+00:00",
+  "fetched_at": "2026-06-21T19:39:51.622850+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -374,7 +374,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 10429
+      "size": 10446
     },
     {
       "path": ".github/workflows/bump-version.yml",
@@ -394,15 +394,15 @@
     "full_name": "WiseLibs/better-sqlite3",
     "html_url": "https://github.com/WiseLibs/better-sqlite3",
     "language": "JavaScript",
-    "pushed_at": "2026-05-18T17:28:48Z",
-    "stargazers_count": 7253,
+    "pushed_at": "2026-06-15T17:06:34Z",
+    "stargazers_count": 7306,
     "topics": [
       "database",
       "sql",
       "sqlite",
       "sqlite3"
     ],
-    "updated_at": "2026-05-29T22:22:17Z"
+    "updated_at": "2026-06-21T19:21:17Z"
   },
   "repo_links": [
     {

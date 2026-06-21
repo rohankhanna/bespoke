@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi300.yml"
+    },
+    {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-comment.yml"
@@ -64,25 +69,22 @@
       "component": "tj-actions/changed-files@v47.0.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yaml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml"
-    },
-    {
-      "component": "actions/setup-python@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml"
     }
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi300.yml",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "opennlplab/lightnet",
-      "target_type": "repository"
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-mi300.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "amd-mi300-ci",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -124,6 +126,13 @@
       "source_file": ".github/workflows/check-header.yml",
       "source_repo": "fla-org/flash-linear-attention",
       "target": "check-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "check-pr-title",
       "target_type": "term"
     },
     {
@@ -204,34 +213,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/nvidia-h100.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "nvidia-h100-ci",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "release",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "fla-org/flash-linear-attention",
@@ -260,15 +241,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:30:54.055895+00:00",
+  "fetched_at": "2026-06-21T19:50:33.313126+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 44947
+      "size": 41984
     },
     {
       "path": "pyproject.toml",
-      "size": 4466
+      "size": 4962
+    },
+    {
+      "path": ".github/workflows/amd-mi300.yml",
+      "size": 1457
     },
     {
       "path": ".github/workflows/benchmark-comment.yml",
@@ -279,12 +264,16 @@
       "size": 416
     },
     {
+      "path": ".github/workflows/check-pr-title.yml",
+      "size": 952
+    },
+    {
       "path": ".github/workflows/intel-b580.yml",
       "size": 697
     },
     {
       "path": ".github/workflows/issue-pytest-command.yml",
-      "size": 6967
+      "size": 6882
     },
     {
       "path": ".github/workflows/issue.yml",
@@ -293,14 +282,6 @@
     {
       "path": ".github/workflows/lint.yaml",
       "size": 820
-    },
-    {
-      "path": ".github/workflows/nvidia-h100.yml",
-      "size": 1173
-    },
-    {
-      "path": ".github/workflows/release.yml",
-      "size": 972
     }
   ],
   "related_repositories": [],
@@ -312,24 +293,24 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-05-28T15:46:52Z",
-    "stargazers_count": 5158,
+    "pushed_at": "2026-06-21T15:06:33Z",
+    "stargazers_count": 5244,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-05-30T02:19:38Z"
+    "updated_at": "2026-06-21T17:47:58Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "opennlplab/lightnet",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
+    {
+      "context_snippet": "amd-mi300-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-mi300.yml",
+      "term": "amd-mi300-ci"
+    },
     {
       "context_snippet": "Post benchmark comment",
       "edge_type": "workflow-name",
@@ -341,6 +322,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check-header.yml",
       "term": "check-header"
+    },
+    {
+      "context_snippet": "check-pr-title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "term": "check-pr-title"
     },
     {
       "context_snippet": "intel-b580-ci",
@@ -359,18 +346,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/lint.yaml",
       "term": "lint"
-    },
-    {
-      "context_snippet": "nvidia-h100-ci",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/nvidia-h100.yml",
-      "term": "nvidia-h100-ci"
-    },
-    {
-      "context_snippet": "release",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release.yml",
-      "term": "release"
     },
     {
       "context_snippet": "<div align=\"center\">",

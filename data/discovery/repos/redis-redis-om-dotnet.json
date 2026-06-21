@@ -141,7 +141,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:16:45.225451+00:00",
+  "fetched_at": "2026-06-21T19:36:46.255636+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -169,14 +169,14 @@
     "full_name": "redis/redis-om-dotnet",
     "html_url": "https://github.com/redis/redis-om-dotnet",
     "language": "C#",
-    "pushed_at": "2026-05-26T11:41:01Z",
-    "stargazers_count": 517,
+    "pushed_at": "2026-06-18T18:29:32Z",
+    "stargazers_count": 523,
     "topics": [
       "dotnet",
       "linq",
       "redis"
     ],
-    "updated_at": "2026-05-16T09:38:13Z"
+    "updated_at": "2026-06-18T18:29:53Z"
   },
   "repo_links": [
     {

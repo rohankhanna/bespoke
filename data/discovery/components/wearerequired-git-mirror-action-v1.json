@@ -1,12 +1,17 @@
 {
   "component": "wearerequired/git-mirror-action@v1",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gitee-repo-mirror.yml",
       "source_repo": "xinntao/HandyView"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gitee-mirror.yml",
+      "source_repo": "joeyballentine/traiNNer-redux"
     }
   ]
 }
