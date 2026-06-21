@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 19,
-    "terms": 32
+    "components": 28,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 17,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
-    "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
@@ -26,7 +25,6 @@
     "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
-    "hauntsaninja/mypy",
     "hmellor/vllm",
     "lace/lacecore",
     "NightWatcher314/dockgecli",

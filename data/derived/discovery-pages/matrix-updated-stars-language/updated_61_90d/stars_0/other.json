@@ -3,7 +3,7 @@
     "components": 54,
     "concepts": 36,
     "observations": 36,
-    "repos": 33,
+    "repos": 32,
     "terms": 42
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
@@ -40,7 +40,6 @@
     "JuliaBinaryWrappers/Libmount_jll.jl",
     "JuliaBinaryWrappers/libpng_jll.jl",
     "JuliaBinaryWrappers/Libuuid_jll.jl",
-    "kdubbo/client-go",
     "markoswire/remember-me.ai",
     "robertabao/grok-nvim",
     "saharmor/saharmor.github.io",

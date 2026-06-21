@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 103,
-    "observations": 104,
-    "repos": 30,
-    "terms": 103
+    "components": 128,
+    "concepts": 92,
+    "observations": 93,
+    "repos": 26,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "alphagov/govuk-rfcs",
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "canonical/ubuntu-security-notices",
     "cbuijs/hagezi",
-    "containerd/project",
-    "crewAIInc/skills",
     "docker/github-builder",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
@@ -30,10 +28,8 @@
     "mypyc/mypyc-benchmark-results",
     "NightWatcher314/zotero-pdf2zh-server",
     "prefix-dev/rattler-build-action",
-    "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",
     "RiDDiX/home-assistant-addons",
-    "rstackjs/rstack-design-resources",
     "sakib-m/Pi-hole-Torrent-Blocklist",
     "sigstore/community",
     "sigstore/root-signing-staging",

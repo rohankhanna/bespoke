@@ -3,7 +3,7 @@
     "components": 105,
     "concepts": 224,
     "observations": 224,
-    "repos": 88,
+    "repos": 89,
     "terms": 219
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -36,6 +36,7 @@
     "bitrise-steplib/step-template",
     "bjartnes/hikke",
     "bpkg/term",
+    "cehoffman/lua-build",
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
     "chemprop/chemprop_benchmark",

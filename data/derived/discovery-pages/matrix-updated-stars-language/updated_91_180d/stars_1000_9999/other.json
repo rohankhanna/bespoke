@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 645,
-    "concepts": 738,
-    "observations": 743,
-    "repos": 146,
-    "terms": 741
+    "components": 652,
+    "concepts": 748,
+    "observations": 753,
+    "repos": 148,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -113,6 +113,7 @@
     "msasanmh/DNSveil",
     "myclabs/DeepCopy",
     "nanxiaobei/hugo-paper",
+    "ndmitchell/hlint",
     "nesquena/rabl",
     "nvim-java/nvim-java",
     "omniauth/omniauth",
@@ -125,6 +126,7 @@
     "pgpartman/pg_partman",
     "preservim/vimux",
     "pry/pry",
+    "ptsochantaris/trailer",
     "puppetlabs/puppet",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",

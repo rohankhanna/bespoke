@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1115,
-    "concepts": 963,
-    "observations": 966,
+    "components": 1128,
+    "concepts": 972,
+    "observations": 975,
     "repos": 249,
-    "terms": 957
+    "terms": 966
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -173,7 +173,6 @@
     "lifepillar/vim-mucomplete",
     "LintaoAmons/cd-project.nvim",
     "loqusion/typix",
-    "marilari88/neotest-vitest",
     "mathjax/MathJax-demos-web",
     "mcabbott/AxisKeys.jl",
     "megvii-research/HiDiffusion",
@@ -227,6 +226,7 @@
     "spk/money-open-exchange-rates",
     "stefan-hoeck/idris2-pack",
     "swansonk14/admet_ai",
+    "SymbolicML/DynamicExpressions.jl",
     "tc39/proposal-decimal",
     "Tencent-Hunyuan/flex-block-attn",
     "tensorflow/mlir-hlo",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 540,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 26,
-    "terms": 163
+    "components": 547,
+    "concepts": 168,
+    "observations": 168,
+    "repos": 27,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "06ketan/slideshot",
     "8hobbies/vite-plugin-year",
@@ -39,6 +39,7 @@
     "redhat-developer/app-services-api-guidelines",
     "rstackjs/rsbuild-plugin-i18next-extractor",
     "suzuki-shunsuke/release-js-action",
+    "Venly/web3-react-venly",
     "webdriverio/devtools"
   ]
 }

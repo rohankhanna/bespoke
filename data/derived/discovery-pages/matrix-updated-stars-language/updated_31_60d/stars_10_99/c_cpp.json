@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 406,
-    "observations": 407,
-    "repos": 59,
-    "terms": 401
+    "components": 298,
+    "concepts": 388,
+    "observations": 389,
+    "repos": 55,
+    "terms": 383
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
-    "agl/jbig2enc",
     "akruphi/far2l",
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
-    "apache/pulsar-client-cpp",
     "atsushieno/aap-juce",
     "atsushieno/aap-lv2",
     "atsushieno/uapmd",
@@ -48,7 +46,6 @@
     "HDFGroup/hdf4",
     "heiher/hev-socks5-core",
     "heiher/hev-task-system",
-    "ICRAR/crc32c",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",
@@ -61,7 +58,6 @@
     "milvus-io/milvus-sdk-cpp",
     "narugit/smctemp",
     "oneapi-src/unified-memory-framework",
-    "openucx/xpmem",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",
     "ROCm/rocAL",

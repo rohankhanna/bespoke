@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 52,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 81,
-    "terms": 66
+    "concepts": 58,
+    "observations": 58,
+    "repos": 84,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -36,6 +36,7 @@
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
+    "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/Agent-Skills",
@@ -48,6 +49,7 @@
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
+    "danielrosehill/Backup-Planner",
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/brainstorm-solutions-plugin",
     "danielrosehill/Bug-Reports-And-Fixes",
@@ -55,6 +57,7 @@
     "danielrosehill/Claude-Audio-Production-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
     "danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "danielrosehill/Claude-HTML-Email-Designer-Plugin",

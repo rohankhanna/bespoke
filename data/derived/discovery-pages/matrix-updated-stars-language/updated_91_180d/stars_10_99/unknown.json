@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 75,
     "observations": 75,
-    "repos": 44,
+    "repos": 43,
     "terms": 80
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -49,7 +49,6 @@
     "marko-js/examples",
     "nushell/showcase",
     "oak-security/resources",
-    "PacificBiosciences/pbAA",
     "panaversity/claude-code-agent-teams-exercises",
     "robotology/community",
     "robotology/mesh-support",

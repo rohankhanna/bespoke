@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 632,
-    "concepts": 803,
-    "observations": 804,
-    "repos": 78,
-    "terms": 799
+    "components": 595,
+    "concepts": 761,
+    "observations": 762,
+    "repos": 72,
+    "terms": 757
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "ag2s20150909/TTS",
     "agents-flex/agents-flex",
@@ -39,7 +39,6 @@
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
     "cloudfoundry/uaa",
-    "codelibs/fess",
     "confluentinc/examples",
     "confluentinc/schema-registry",
     "diffplug/spotless",
@@ -53,7 +52,6 @@
     "flyway/flyway",
     "google/adk-java",
     "google/conscrypt",
-    "google/error-prone",
     "google/google-java-format",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
@@ -74,7 +72,6 @@
     "mapsforge/mapsforge",
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
-    "open-telemetry/opentelemetry-java",
     "oshi/oshi",
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
@@ -82,9 +79,6 @@
     "reactor/reactor-core",
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
-    "soot-oss/soot",
-    "spring-ai-alibaba/DataAgent",
-    "spring-ai-alibaba/examples",
     "spring-projects/spring-ai",
     "sqlancer/sqlancer",
     "swagger-api/swagger-core",

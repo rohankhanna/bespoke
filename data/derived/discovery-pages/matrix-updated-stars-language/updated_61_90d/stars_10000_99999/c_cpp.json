@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 268,
-    "observations": 268,
-    "repos": 42,
-    "terms": 268
+    "components": 345,
+    "concepts": 393,
+    "observations": 394,
+    "repos": 52,
+    "terms": 393
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
+    "abseil/abseil-cpp",
+    "alibaba/MNN",
+    "apache/arrow",
     "ApolloAuto/apollo",
     "aristocratos/btop",
+    "aseprite/aseprite",
     "bellard/quickjs",
+    "ClickHouse/ClickHouse",
     "cloudwu/skynet",
     "Cyan4973/xxHash",
     "davatorium/rofi",
@@ -34,14 +39,16 @@
     "google/sanitizers",
     "google/skia",
     "haiwen/seafile",
+    "Immediate-Mode-UI/Nuklear",
     "jedisct1/libsodium",
     "jonas/tig",
     "libevent/libevent",
     "libgit2/libgit2",
     "mawww/kakoune",
+    "microsoft/winget-cli",
     "microsoft/WSL2-Linux-Kernel",
     "microsoft/wslg",
-    "mobile-shell/mosh",
+    "ml-explore/mlx",
     "ninja-build/ninja",
     "nlohmann/json",
     "nothings/stb",
@@ -49,12 +56,15 @@
     "NVIDIA/TensorRT",
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
+    "openssl/openssl",
     "pgvector/pgvector",
     "px4/px4-autopilot",
     "pybind/pybind11",
     "taichi-dev/taichi",
+    "tesseract-ocr/tesseract",
     "tmux/tmux",
     "tsl0922/ttyd",
+    "wolfpld/tracy",
     "zeromq/libzmq"
   ]
 }

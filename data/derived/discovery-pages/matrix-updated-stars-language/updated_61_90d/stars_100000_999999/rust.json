@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 1,
-    "terms": 2
+    "components": 43,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 2,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
-    "denoland/deno"
+    "denoland/deno",
+    "tauri-apps/tauri"
   ]
 }

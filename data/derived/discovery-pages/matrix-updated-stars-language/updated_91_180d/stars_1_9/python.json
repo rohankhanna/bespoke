@@ -3,7 +3,7 @@
     "components": 132,
     "concepts": 103,
     "observations": 103,
-    "repos": 45,
+    "repos": 46,
     "terms": 113
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
+    "42-evey/evey-bridge-plugin",
     "agents-x-project/PyVision-RL-Eval",
     "AIxCyberChallenge/example-crs-architecture",
     "al1-nasir/Research_council",

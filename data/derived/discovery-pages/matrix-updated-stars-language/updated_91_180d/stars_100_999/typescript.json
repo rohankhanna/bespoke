@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2159,
-    "concepts": 391,
-    "observations": 392,
-    "repos": 74,
-    "terms": 401
+    "components": 2181,
+    "concepts": 406,
+    "observations": 407,
+    "repos": 76,
+    "terms": 416
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -82,10 +82,12 @@
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "unplugin/unplugin-vue-markdown",
+    "vim-denops/denops.vim",
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",
     "windingwind/zotero-plugin-template",
     "Wykks/ngx-mapbox-gl",
+    "XantreDev/preact-signals",
     "yandeu/five-server",
     "zsviczian/excalibrain"
   ]

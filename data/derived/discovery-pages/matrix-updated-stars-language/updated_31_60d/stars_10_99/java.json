@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 42,
-    "terms": 185
+    "components": 176,
+    "concepts": 169,
+    "observations": 170,
+    "repos": 37,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "Accla/graphulo",
-    "agentclientprotocol/java-sdk",
-    "apache/arrow-java",
     "apache/ignite-extensions",
     "apache/netbeans-mavenutils-nbm-maven-plugin",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
-    "bsorrentino/java-async-generator",
     "bufbuild/protovalidate-java",
-    "cedar-policy/cedar-java",
     "confluentinc/common",
     "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
@@ -40,7 +36,6 @@
     "jcefmaven/jcefsampleapp",
     "jpmml/jpmml-h2o",
     "jpmml/jpmml-r",
-    "kirill-grouchnikov/ephemeral",
     "microsoft/openjdk-jdk11u",
     "microsoft/openjdk-jdk17u",
     "microsoft/openjdk-jdk21u",

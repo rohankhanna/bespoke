@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10834,
-    "concepts": 9494,
-    "observations": 9507,
-    "repos": 2443,
-    "terms": 9357
+    "components": 10851,
+    "concepts": 9513,
+    "observations": 9526,
+    "repos": 2446,
+    "terms": 9376
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -397,6 +397,7 @@
     "charlesq34/pointnet2",
     "CharlesShang/DCNv2",
     "charmbracelet/charm",
+    "charmbracelet/skate",
     "cheind/py-motmetrics",
     "chelsea0x3b/dfdx",
     "chengzeyi/Comfy-WaveSpeed",
@@ -1660,6 +1661,7 @@
     "open-mmlab/mmagic",
     "open-mmlab/mmdeploy",
     "open-mmlab/mmdetection3d",
+    "open-mmlab/mmengine",
     "open-mmlab/mmflow",
     "open-mmlab/mmgeneration",
     "open-mmlab/mmhuman3d",
@@ -1824,6 +1826,7 @@
     "punica-ai/punica",
     "Purfview/whisper-standalone-win",
     "pushshift/api",
+    "PyCQA/pycodestyle",
     "PyCQA/pydocstyle",
     "PyCQA/pyflakes",
     "pyenv/pyenv-installer",

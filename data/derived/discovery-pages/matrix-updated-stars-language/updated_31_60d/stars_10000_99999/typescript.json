@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9879,
-    "concepts": 1493,
-    "observations": 1502,
-    "repos": 130,
-    "terms": 1488
+    "components": 6775,
+    "concepts": 1339,
+    "observations": 1347,
+    "repos": 117,
+    "terms": 1336
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -26,7 +26,6 @@
     "appium/appium",
     "appwrite/appwrite",
     "aws/aws-cdk",
-    "babel/babel",
     "BabylonJS/Babylon.js",
     "better-auth/better-auth",
     "bitwarden/clients",
@@ -37,7 +36,6 @@
     "changesets/changesets",
     "ChatGPTNextWeb/NextChat",
     "cheeriojs/cheerio",
-    "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "clauderic/dnd-kit",
     "cline/cline",
@@ -50,12 +48,10 @@
     "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
     "ecomfe/vue-echarts",
-    "elastic/kibana",
     "electron-react-boilerplate/electron-react-boilerplate",
     "electron-userland/electron-builder",
     "element-plus/element-plus",
     "emberjs/ember.js",
-    "expo/expo",
     "faker-js/faker",
     "FlowiseAI/Flowise",
     "formatjs/formatjs",
@@ -64,21 +60,17 @@
     "GoogleChromeLabs/comlink",
     "grafana/grafana",
     "graphile/crystal",
-    "graphql/graphiql",
     "graphql/graphql-js",
     "gvergnaud/ts-pattern",
     "invoke-ai/InvokeAI",
     "janhq/jan",
     "jhipster/generator-jhipster",
     "jquense/yup",
-    "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
-    "KaTeX/KaTeX",
     "Kilo-Org/kilocode",
     "Koenkk/zigbee2mqtt",
     "Kong/insomnia",
     "kysely-org/kysely",
-    "labring/FastGPT",
     "labring/sealos",
     "lit/lit",
     "louislam/dockge",
@@ -121,8 +113,6 @@
     "RooCodeInc/Roo-Code",
     "sass/sass",
     "scalar/scalar",
-    "sindresorhus/got",
-    "sindresorhus/ky",
     "sindresorhus/type-fest",
     "slidevjs/slidev",
     "solidjs/solid",
@@ -131,7 +121,6 @@
     "TanStack/query",
     "TanStack/router",
     "TanStack/table",
-    "typescript-eslint/typescript-eslint",
     "vitejs/vite",
     "vitest-dev/vitest",
     "vuejs/core",
@@ -141,8 +130,6 @@
     "webpro-nl/knip",
     "windingwind/zotero-pdf-translate",
     "withastro/astro",
-    "wojtekmaj/react-pdf",
-    "xtermjs/xterm.js",
-    "xyflow/xyflow"
+    "wojtekmaj/react-pdf"
   ]
 }

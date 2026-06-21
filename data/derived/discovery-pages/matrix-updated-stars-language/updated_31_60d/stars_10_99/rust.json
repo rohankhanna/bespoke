@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 547,
-    "concepts": 397,
-    "observations": 398,
-    "repos": 78,
-    "terms": 396
+    "components": 529,
+    "concepts": 379,
+    "observations": 380,
+    "repos": 73,
+    "terms": 378
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -37,7 +37,6 @@
     "boundless-xyz/kailua",
     "bourumir-wyngs/serde-yaml-bw",
     "celo-org/celo-threshold-bls-rs",
-    "ClickHouse/clickhousectl",
     "datachainlab/lcp",
     "datafusion-contrib/orc-rust",
     "davidhozic/mujoco-rs",
@@ -50,7 +49,6 @@
     "fonttools/fontspector",
     "g-plane/raffia",
     "GreptimeTeam/greptimedb-ingester-rust",
-    "hecrj/iced_palace",
     "hermit-os/loader",
     "heroku/buildpacks-dotnet",
     "heroku/buildpacks-go",
@@ -61,7 +59,6 @@
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "influxdata/datafusion-udf-wasm",
-    "janrueth/boring-rustls-provider",
     "kurrent-io/KurrentDB-Client-Rust",
     "KWARC/rust-libxml",
     "launchdarkly/rust-server-sdk",
@@ -74,7 +71,6 @@
     "mrcjkb/vimcats",
     "napi-rs/mimalloc-safe",
     "near/cargo-near-new-project-template",
-    "nico-abram/blondie",
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
@@ -87,7 +83,6 @@
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
     "tofay/rustls-openssl",
-    "tracel-ai/cubek",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",

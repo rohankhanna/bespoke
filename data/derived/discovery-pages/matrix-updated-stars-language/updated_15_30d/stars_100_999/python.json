@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 200,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 30,
-    "terms": 163
+    "concepts": 154,
+    "observations": 154,
+    "repos": 28,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
     "AI-Hypercomputer/maxdiffusion",
-    "AMD-AGI/Nitro-1",
     "aristoteleo/PantheonOS",
     "clearml/clearml-agent",
     "Comfy-Org/comfy-cli",
@@ -25,7 +24,6 @@
     "flagos-ai/FlagScale",
     "googlefonts/roboto-3-classic",
     "googlefonts/ufo2ft",
-    "hluaguo/learn-faster-kit",
     "jupyter-server/jupyter_server",
     "machinewrapped/llm-subtrans",
     "NCAS-CMS/pyfive",

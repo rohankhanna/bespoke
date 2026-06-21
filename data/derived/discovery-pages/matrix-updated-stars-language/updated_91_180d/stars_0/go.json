@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 3,
     "observations": 3,
-    "repos": 6,
+    "repos": 7,
     "terms": 3
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "aldernero/spider",
     "appscodelabs/liche",
     "DataDog/go-cmp",
     "grafana/cadvisor",
+    "kdubbo/api",
     "onomojo/i18n-country-translations-go",
     "onomojo/i18n-timezones-go"
   ]

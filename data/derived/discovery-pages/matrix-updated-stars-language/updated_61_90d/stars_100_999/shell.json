@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 38,
-    "terms": 202
+    "components": 172,
+    "concepts": 225,
+    "observations": 227,
+    "repos": 44,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -25,8 +25,10 @@
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "crazy-max/xgo",
+    "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/hello-world",
+    "docker-library/ruby",
     "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
     "github/super-linter",
@@ -40,11 +42,15 @@
     "mosaicml/examples",
     "nodenv/node-build",
     "numpy/numpy.org",
+    "opea-project/GenAIExamples",
     "reviewdog/action-misspell",
+    "reviewdog/action-shellcheck",
+    "reviewdog/action-suggester",
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
     "SamNet-dev/paqctl",
     "sclorg/mysql-container",
+    "sclorg/s2i-nodejs-container",
     "serpro69/claude-toolbox",
     "SWE-bench/experiments",
     "TexasInstruments/edgeai",

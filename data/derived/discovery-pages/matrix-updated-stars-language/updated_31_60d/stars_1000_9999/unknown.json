@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 26,
-    "terms": 140
+    "components": 45,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 23,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
-    "0xNyk/awesome-hermes-agent",
     "ad-si/awesome-music-production",
     "aws-controllers-k8s/community",
     "CocoaPods/Specs",
@@ -34,8 +33,6 @@
     "MicrosoftDocs/cpp-docs",
     "QwenLM/Qwen3.6",
     "runetfreedom/russia-v2ray-rules-dat",
-    "rust-embedded/awesome-embedded-rust",
-    "rust-embedded/wg",
     "rustsec/advisory-db",
     "web-padawan/awesome-lit",
     "yokoffing/filterlists",

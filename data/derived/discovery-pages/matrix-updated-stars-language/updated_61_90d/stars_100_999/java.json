@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 30,
-    "terms": 200
+    "components": 164,
+    "concepts": 232,
+    "observations": 232,
+    "repos": 33,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
@@ -22,7 +22,9 @@
     "chromiumembedded/java-cef",
     "Cosium/git-code-format-maven-plugin",
     "eclipse-buildship/buildship",
+    "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",
+    "FasterXML/woodstox",
     "filip26/titanium-json-ld",
     "fnproject/fdk-java",
     "googleapis/google-auth-library-java",
@@ -42,6 +44,7 @@
     "spotbugs/sonar-findbugs",
     "spring-ai-alibaba/Lynxe",
     "spring-io/spring-javaformat",
+    "swagger-api/swagger-inflector",
     "swagger-api/validator-badge",
     "ysbing/YADB"
   ]

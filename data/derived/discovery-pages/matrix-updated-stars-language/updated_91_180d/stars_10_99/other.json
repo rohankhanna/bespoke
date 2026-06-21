@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 651,
-    "concepts": 450,
-    "observations": 452,
+    "components": 650,
+    "concepts": 446,
+    "observations": 448,
     "repos": 171,
-    "terms": 445
+    "terms": 441
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
+    "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
     "2KAbhishek/exercism.nvim",
     "2KAbhishek/pickme.nvim",
@@ -79,8 +80,6 @@
     "Embarcadero/PythonPackages4Delphi",
     "ethpandaops/optimism-package",
     "EvelynZhang-epiclab/DaTo",
-    "falcoframework/Falco.Htmx",
-    "falcoframework/Falco.OpenApi",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
     "FreneticLLC/FreneticUtilities",
@@ -116,6 +115,7 @@
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
+    "kalbasit/nur-packages",
     "kigster/puma-daemon",
     "kool-engine/kool-templates",
     "lambdaisland/kaocha-cljs",

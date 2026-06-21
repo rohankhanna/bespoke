@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 28,
     "observations": 28,
-    "repos": 18,
+    "repos": 19,
     "terms": 28
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "AdaCore/vss-text",
     "Bearer/homebrew-tap",
@@ -24,6 +24,7 @@
     "Hitesh-Aggarwal/dotfiles",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/Glib_jll.jl",
+    "kdubbo/client-go",
     "mjvolk3/dendron-template",
     "musicman3/cruder",
     "musicman3/r2-d2",

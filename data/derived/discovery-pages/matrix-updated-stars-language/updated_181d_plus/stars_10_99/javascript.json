@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3035,
-    "concepts": 674,
-    "observations": 674,
-    "repos": 285,
-    "terms": 665
+    "components": 3047,
+    "concepts": 684,
+    "observations": 684,
+    "repos": 287,
+    "terms": 675
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -195,6 +195,7 @@
     "LinusU/node-cachedir",
     "locize/react-tutorial",
     "ltdrdata/comfyui-connection-helper",
+    "LuaLS/vscode-lua-doc",
     "luzlab/ajv-formats-draft2019",
     "mafintosh/stream-composer",
     "mafintosh/teex",
@@ -224,6 +225,7 @@
     "Munter/netlify-plugin-checklinks",
     "naknomum/scribby",
     "nasa-petal/PeTaL",
+    "NEAR-DevHub/neardevhub-bos",
     "nelsonic/autocomplete",
     "node-gh/gh-jira",
     "nodeca/js-yaml-js-types",

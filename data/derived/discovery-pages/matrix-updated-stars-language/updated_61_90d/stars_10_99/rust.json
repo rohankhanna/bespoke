@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 409,
-    "concepts": 229,
-    "observations": 231,
-    "repos": 62,
-    "terms": 243
+    "components": 427,
+    "concepts": 247,
+    "observations": 249,
+    "repos": 67,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -29,6 +29,7 @@
     "Calsign/gazelle_rust",
     "celestiaorg/hana",
     "chrisjsewell/markdown-it-pyrs",
+    "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
     "cpmech/gemlab",
@@ -42,8 +43,10 @@
     "google/safe-mmio",
     "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
+    "hecrj/iced_palace",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
+    "janrueth/boring-rustls-provider",
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
     "kylebarron/arrow-wasm",
@@ -58,6 +61,7 @@
     "near/cargo-near",
     "near/near-workspaces-rs",
     "neysofu/reltester",
+    "nico-abram/blondie",
     "open-telemetry/opentelemetry-rust-contrib",
     "oramasearch/llm_json",
     "phiat/claude-esp-rs",
@@ -72,6 +76,7 @@
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",
+    "tracel-ai/cubek",
     "watchexec/clearscreen",
     "watchexec/process-wrap",
     "Xuanwo/serde-env",

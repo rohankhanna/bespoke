@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 64,
-    "terms": 44
+    "concepts": 43,
+    "observations": 43,
+    "repos": 62,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
     "cachix/serde-envfile",
@@ -24,7 +24,6 @@
     "conda-forge/tianshou-feedstock",
     "conda-forge/versioneer-feedstock",
     "csm-actions/demo-client",
-    "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Data-Utilities",
     "danielrosehill/AI-Dev-Repo-Template-1",
     "danielrosehill/AI-Dev-Workspace-Primitives",
@@ -32,7 +31,6 @@
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/Backup-Planner",
     "danielrosehill/BUDGET.md",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
@@ -42,7 +40,6 @@
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
-    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
@@ -75,6 +72,7 @@
     "danielrosehill/Open-Research-Workspaces-Index",
     "Dustinpro/Dustinpro",
     "hermit-os/.github",
+    "kleisauke/glib",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves",
     "TransferQueue/community_doc"

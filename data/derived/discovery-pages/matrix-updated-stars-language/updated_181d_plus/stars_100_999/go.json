@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 599,
-    "concepts": 812,
-    "observations": 812,
-    "repos": 196,
-    "terms": 797
+    "components": 603,
+    "concepts": 817,
+    "observations": 817,
+    "repos": 197,
+    "terms": 802
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -47,6 +47,7 @@
     "asg017/sqlite-html",
     "asg017/sqlite-http",
     "atsaki/termeter",
+    "aws/amazon-ec2-instance-selector",
     "aymerick/raymond",
     "Azure/aad-pod-identity",
     "BBVA/raft-badger",

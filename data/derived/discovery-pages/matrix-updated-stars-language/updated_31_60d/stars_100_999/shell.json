@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 194,
-    "concepts": 256,
-    "observations": 259,
-    "repos": 45,
-    "terms": 248
+    "components": 167,
+    "concepts": 219,
+    "observations": 221,
+    "repos": 39,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -22,8 +22,6 @@
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "dani-garcia/bw_web_builds",
-    "denysdovhan/dotfiles",
-    "docker-library/ruby",
     "gentoo/guru",
     "getsolus/packages",
     "harbor-framework/terminal-bench-2",
@@ -43,15 +41,11 @@
     "msys2/msys2-installer",
     "nginx-le/nginx-le",
     "NVIDIA/enroot",
-    "opea-project/GenAIExamples",
     "openshift/release",
     "pacstall/pacstall-programs",
     "pion/awesome-pion",
-    "reviewdog/action-shellcheck",
-    "reviewdog/action-suggester",
     "rocker-org/rocker-versioned2",
     "rust-cross/rust-musl-cross",
-    "sclorg/s2i-nodejs-container",
     "sclorg/s2i-php-container",
     "sclorg/s2i-python-container",
     "termux/repology-metadata",

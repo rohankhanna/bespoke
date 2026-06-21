@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2290,
-    "concepts": 1066,
-    "observations": 1072,
-    "repos": 123,
-    "terms": 1063
+    "components": 2251,
+    "concepts": 1055,
+    "observations": 1061,
+    "repos": 120,
+    "terms": 1052
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "2U1/Qwen-VL-Series-Finetune",
     "ai-that-works/ai-that-works",
@@ -27,7 +27,6 @@
     "aws/serverless-application-model",
     "babashka/babashka",
     "babashka/sci",
-    "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "beam-community/elixir-companies",
     "bitsandbytes-foundation/bitsandbytes",
@@ -126,8 +125,6 @@
     "TryGhost/node-sqlite3",
     "typescript-language-server/typescript-language-server",
     "ultrajson/ultrajson",
-    "vale-cli/vale",
-    "vercel/serve",
     "vuejs/devtools",
     "vuejs/language-tools",
     "web-platform-tests/wpt",

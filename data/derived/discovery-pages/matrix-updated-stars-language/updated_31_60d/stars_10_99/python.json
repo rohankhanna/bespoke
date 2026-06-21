@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 597,
-    "concepts": 427,
-    "observations": 429,
-    "repos": 110,
-    "terms": 420
+    "components": 551,
+    "concepts": 398,
+    "observations": 398,
+    "repos": 102,
+    "terms": 392
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "AFD-Illinois/pyharm",
@@ -21,15 +21,11 @@
     "AIM-Harvard/DINOv2-3D-Med",
     "All-Hands-AI/OpenHands-Cloud",
     "allenai/cached_path",
-    "AMD-AGI/torchtitan-amd",
     "analogdevicesinc/ai8x-synthesis",
-    "angr/archinfo",
     "ansible/ansible-compat",
-    "ant-research/pointelligence",
     "apify/actor-templates",
     "arcaputo3/mcp-server-whisper",
     "Ascend/TransferQueue",
-    "AstarVienna/ScopeSim",
     "AstraZeneca/runnable",
     "atlanhq/application-sdk",
     "autodeployai/pypmml",
@@ -59,7 +55,6 @@
     "espressif/esp-idf-monitor",
     "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
-    "GaloisInc/BLST-Verification",
     "gentoo/api-gentoo-org",
     "google-marketing-solutions/ariel",
     "google-research/mseb",
@@ -99,7 +94,6 @@
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
-    "pyodide/pytest-pyodide",
     "python-jsonschema/referencing",
     "pytroll/donfig",
     "qiayuanl/unitree_bringup",
@@ -108,7 +102,6 @@
     "ROCm/tritonBLAS",
     "rwightman/timm",
     "scaleway/serverless-functions-python",
-    "scipy/scipy-stubs",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-ruff",
@@ -119,7 +112,6 @@
     "theupdateframework/tuf-on-ci",
     "Thinklab-SJTU/Bench2Drive-Speed",
     "TigreGotico/phoonnx",
-    "typeshed-internal/stub_uploader",
     "version-fox/vfox-plugins",
     "xhluca/bm25-benchmarks",
     "yulewang97/ERDiff",

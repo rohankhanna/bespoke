@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 169,
-    "concepts": 151,
-    "observations": 152,
-    "repos": 23,
-    "terms": 151
+    "components": 206,
+    "concepts": 193,
+    "observations": 194,
+    "repos": 29,
+    "terms": 193
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "apache/logging-log4j2",
     "beehive-lab/TornadoVM",
     "bobbylight/RSyntaxTextArea",
     "brianfrankcooper/YCSB",
+    "codelibs/fess",
+    "google/error-prone",
     "google/j2cl",
     "google/tsunami-security-scanner",
     "googleapis/google-api-java-client",
@@ -28,11 +30,15 @@
     "langchain4j/langchain4j-examples",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",
+    "open-telemetry/opentelemetry-java",
     "openjdk/jmh",
     "peergos/peergos",
     "react-native-share/react-native-share",
     "RoaringBitmap/RoaringBitmap",
+    "soot-oss/soot",
     "spotbugs/spotbugs",
+    "spring-ai-alibaba/DataAgent",
+    "spring-ai-alibaba/examples",
     "spring-projects/spring-ai-examples",
     "spring-projects/spring-restdocs",
     "stleary/JSON-java",

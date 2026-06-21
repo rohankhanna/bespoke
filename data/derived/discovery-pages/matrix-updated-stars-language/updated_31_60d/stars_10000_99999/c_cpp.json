@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 808,
-    "concepts": 1096,
-    "observations": 1100,
-    "repos": 98,
-    "terms": 1091
+    "components": 730,
+    "concepts": 968,
+    "observations": 971,
+    "repos": 87,
+    "terms": 963
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
-    "abseil/abseil-cpp",
     "Alexays/Waybar",
-    "alibaba/MNN",
-    "apache/arrow",
     "apache/thrift",
     "apple/foundationdb",
     "arangodb/arangodb",
-    "aseprite/aseprite",
     "asmvik/yabai",
     "assimp/assimp",
     "baldurk/renderdoc",
@@ -36,7 +32,6 @@
     "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
-    "ClickHouse/ClickHouse",
     "colmap/colmap",
     "coturn/coturn",
     "curl/curl",
@@ -62,7 +57,6 @@
     "grpc/grpc",
     "h2o/h2o",
     "ImageMagick/ImageMagick",
-    "Immediate-Mode-UI/Nuklear",
     "iovisor/bcc",
     "jemalloc/jemalloc",
     "jqlang/jq",
@@ -79,9 +73,7 @@
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/STL",
-    "microsoft/winget-cli",
     "microsoft/WSL",
-    "ml-explore/mlx",
     "mongodb/mongo",
     "mpv-player/mpv",
     "NixOS/nix",
@@ -90,7 +82,6 @@
     "ocornut/imgui",
     "opencv/opencv",
     "openframeworks/openFrameworks",
-    "openssl/openssl",
     "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
     "PointCloudLibrary/pcl",
@@ -105,11 +96,9 @@
     "systemd/systemd",
     "taskflow/taskflow",
     "Tencent/ncnn",
-    "tesseract-ocr/tesseract",
     "uNetworking/uWebSockets",
     "v8/v8",
     "winsiderss/systeminformer",
-    "wolfpld/tracy",
     "yhirose/cpp-httplib",
     "Z3Prover/z3"
   ]

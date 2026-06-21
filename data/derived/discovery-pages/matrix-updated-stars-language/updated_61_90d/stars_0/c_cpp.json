@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 11,
-    "observations": 12,
-    "repos": 5,
-    "terms": 11
+    "components": 16,
+    "concepts": 19,
+    "observations": 20,
+    "repos": 6,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
+    "8144225309/superscalar-cln",
     "arnaud-lb/php-rdkafka",
     "CHIP-SPV/H4I-HipBLAS",
     "CHIP-SPV/H4I-HipFFT",

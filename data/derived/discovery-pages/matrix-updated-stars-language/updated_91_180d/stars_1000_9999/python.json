@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 496,
-    "concepts": 982,
-    "observations": 983,
-    "repos": 183,
-    "terms": 967
+    "components": 486,
+    "concepts": 969,
+    "observations": 970,
+    "repos": 181,
+    "terms": 954
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -138,7 +138,6 @@
     "om-ai-lab/VLM-R1",
     "open-mmlab/mmaction2",
     "open-mmlab/mmcv",
-    "open-mmlab/mmengine",
     "open-webui/mcpo",
     "opencv/opencv-python",
     "OpenSPG/KAG",
@@ -153,7 +152,6 @@
     "pipecat-ai/smart-turn",
     "PRIME-RL/SimpleVLA-RL",
     "PyCQA/flake8-bugbear",
-    "PyCQA/pycodestyle",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
     "Python-Markdown/markdown",

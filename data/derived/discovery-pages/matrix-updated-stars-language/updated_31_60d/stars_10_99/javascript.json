@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 876,
-    "concepts": 226,
-    "observations": 228,
-    "repos": 52,
-    "terms": 226
+    "components": 781,
+    "concepts": 202,
+    "observations": 204,
+    "repos": 46,
+    "terms": 202
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "aidenlab/hic-straw",
@@ -21,13 +21,11 @@
     "apache/doris-opentelemetry-demo",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
-    "browserslist/lint",
     "coasys/ad4m",
     "ember-cli/ember-app-blueprint",
     "Eonic/ProteanCMS",
     "gacts/install-dnscontrol",
     "galaxyproteomics/tools-galaxyp",
-    "GuillaumeGomez/browser-UI-test",
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
@@ -41,13 +39,10 @@
     "lm-sys/lm-sys.github.io",
     "locize/i18next-locize-backend",
     "locize/locize",
-    "locize/locize-cli",
     "locize/locizify",
     "mainmatter/ember-vite-codemod",
     "mapbox/vtvalidate",
-    "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
-    "newrelic/newrelic-node-examples",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
     "oclif/oclif.github.io",
@@ -64,7 +59,6 @@
     "tracked-tools/tracked-toolbox",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
-    "webtorrent/bittorrent-lsd",
     "wyyazlz/sheetnext"
   ]
 }

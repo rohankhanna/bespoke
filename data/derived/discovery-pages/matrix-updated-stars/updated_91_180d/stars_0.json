@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 320,
-    "concepts": 162,
-    "observations": 163,
-    "repos": 98,
-    "terms": 161
+    "components": 325,
+    "concepts": 165,
+    "observations": 166,
+    "repos": 101,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -73,6 +73,8 @@
     "jrsoftware/is7z",
     "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "JuliaBinaryWrappers/Glib_jll.jl",
+    "kdubbo/api",
+    "kdubbo/client-go",
     "Keats/os_info",
     "kitknox/helix",
     "kylebarron/pyo3-file",
@@ -96,6 +98,7 @@
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
     "openwdl/governance",
+    "petercorke/sphinx-autorun",
     "prestodb/presto-dev",
     "saalfeldlab/n5-blosc",
     "Saalvage/assimp",

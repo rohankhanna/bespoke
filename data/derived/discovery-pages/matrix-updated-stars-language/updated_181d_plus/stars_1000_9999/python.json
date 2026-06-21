@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1012,
-    "concepts": 3934,
-    "observations": 3936,
-    "repos": 1003,
-    "terms": 3862
+    "components": 1022,
+    "concepts": 3947,
+    "observations": 3949,
+    "repos": 1005,
+    "terms": 3875
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -664,6 +664,7 @@
     "One-2-3-45/One-2-3-45",
     "open-mmlab/mmdeploy",
     "open-mmlab/mmdetection3d",
+    "open-mmlab/mmengine",
     "open-mmlab/mmflow",
     "open-mmlab/mmgeneration",
     "open-mmlab/mmhuman3d",
@@ -760,6 +761,7 @@
     "prs-eth/Marigold",
     "punica-ai/punica",
     "pushshift/api",
+    "PyCQA/pycodestyle",
     "PyCQA/pydocstyle",
     "PyCQA/pyflakes",
     "PyImageSearch/imutils",

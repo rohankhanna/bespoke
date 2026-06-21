@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 201,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 59,
-    "terms": 142
+    "components": 212,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 60,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
-    "42-evey/evey-bridge-plugin",
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
@@ -22,6 +21,7 @@
     "AgnostiqHQ/covalent-executor-template",
     "aiidateam/plumpy",
     "alterego-987/council-mcp",
+    "andriykohut/pdm-readiness",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
@@ -65,6 +65,7 @@
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
+    "pyrtlsdr/pyrtlsdrlib",
     "ROCm/rbuild",
     "rrsaldanha/burp-mcp-agents",
     "runtimeverification/kup",

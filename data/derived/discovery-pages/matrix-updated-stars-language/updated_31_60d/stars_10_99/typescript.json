@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2526,
-    "concepts": 503,
-    "observations": 506,
-    "repos": 89,
-    "terms": 503
+    "components": 2379,
+    "concepts": 470,
+    "observations": 473,
+    "repos": 82,
+    "terms": 470
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -21,13 +21,10 @@
     "Airfooox/cron-validate",
     "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
-    "Azure/bicep-deploy",
     "Azure/powershell",
     "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
-    "cargo-bins/release-pr",
     "catppuccin/.github",
-    "celo-org/developer-tooling",
     "celo-org/social-connect",
     "coasys/flux",
     "csm-actions/approve-pr-action",
@@ -36,7 +33,6 @@
     "DataDog/opentelemetry-demo",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
-    "electron/windows-sign",
     "emscripten-forge/mambajs",
     "fabon-f/temporal-polyfill-lite",
     "fannheyward/coc-xml",
@@ -54,7 +50,6 @@
     "intlify/vue-i18n-extensions",
     "ipdxco/github-as-code",
     "ipfs/github-mgmt",
-    "jaegertracing/documentation",
     "jakebailey/pyright-action",
     "jakoch/install-vulkan-sdk-action",
     "jbaubree/sitemap-ts",
@@ -62,7 +57,6 @@
     "jest-community/eslint-plugin-jest-extended",
     "julia-actions/install-juliaup",
     "Kastalien-Research/thoughtbox",
-    "KazariEX/dxup",
     "ldclabs/KIP",
     "llamastack/llama-stack-client-typescript",
     "maplibre/maplibre-gl-inspect",
@@ -101,7 +95,6 @@
     "universal-ember/reactiveweb",
     "vaultwarden/vw_web_builds",
     "vincentlaucsb/experiencer",
-    "wighawag/rocketh",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

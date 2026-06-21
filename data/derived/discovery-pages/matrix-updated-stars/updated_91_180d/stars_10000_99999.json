@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1255,
-    "concepts": 789,
-    "observations": 793,
-    "repos": 129,
-    "terms": 793
+    "components": 1274,
+    "concepts": 805,
+    "observations": 809,
+    "repos": 133,
+    "terms": 814
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -88,6 +88,7 @@
     "microsoft/unilm",
     "microsoft/vscode-extension-samples",
     "minio/minio",
+    "mobile-shell/mosh",
     "modin-project/modin",
     "MoonshotAI/Kimi-K2",
     "mozilla/readability",
@@ -106,6 +107,7 @@
     "QwenLM/Qwen3-TTS",
     "QwenLM/Qwen3-VL",
     "ramda/ramda",
+    "rany2/edge-tts",
     "RasaHQ/rasa",
     "romkatv/powerlevel10k",
     "rubocop/ruby-style-guide",
@@ -116,9 +118,11 @@
     "slatedocs/slate",
     "snarktank/ralph",
     "songquanpeng/one-api",
+    "sorin-ionescu/prezto",
     "spf13/viper",
     "sql-js/sql.js",
     "streamich/react-use",
+    "superclaude-org/superclaude_framework",
     "Swordfish90/cool-retro-term",
     "TA-Lib/ta-lib-python",
     "TabbyML/tabby",

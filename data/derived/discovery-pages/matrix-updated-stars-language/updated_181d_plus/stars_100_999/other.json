@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2416,
-    "concepts": 3217,
-    "observations": 3224,
-    "repos": 1007,
-    "terms": 3198
+    "components": 2420,
+    "concepts": 3220,
+    "observations": 3227,
+    "repos": 1008,
+    "terms": 3201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -637,6 +637,7 @@
     "marcoieni/intellimacs",
     "MarcWeber/vim-addon-manager",
     "marella/material-icons",
+    "marilari88/neotest-vitest",
     "marl/openl3",
     "max-baz/lightline-ale",
     "MCG-NJU/AdaMixer",

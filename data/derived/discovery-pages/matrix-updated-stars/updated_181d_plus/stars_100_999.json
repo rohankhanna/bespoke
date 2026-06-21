@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15985,
-    "concepts": 14550,
-    "observations": 14578,
-    "repos": 4744,
-    "terms": 14322
+    "components": 16034,
+    "concepts": 14566,
+    "observations": 14594,
+    "repos": 4749,
+    "terms": 14338
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -553,6 +553,7 @@
     "aws-cloudformation/aws-guard-rules-registry",
     "aws-samples/aws-cdk-changelogs-demo",
     "aws-samples/aws-lambda-layer-awscli",
+    "aws/amazon-ec2-instance-selector",
     "aws/apprunner-roadmap",
     "aws/aws-app-mesh-roadmap",
     "aws/aws-proton-public-roadmap",
@@ -727,6 +728,7 @@
     "bonfy/qiandao",
     "bonukai/MediaTracker",
     "Boolector/boolector",
+    "BoosterRobotics/booster_gym",
     "bootphon/shennong",
     "boppreh/mouse",
     "borglab/SwiftFusion",
@@ -2937,6 +2939,7 @@
     "marella/chatdocs",
     "marella/material-design-icons",
     "marella/material-icons",
+    "marilari88/neotest-vitest",
     "marin-community/haliax",
     "mariolukas/HydraPlay",
     "mariusvniekerk/condax",
@@ -3357,6 +3360,7 @@
     "node-lightning/node-lightning",
     "node-real/bsc-erigon",
     "nodejs/abi-stable-node",
+    "nodejs/citgm",
     "nomic-io/nomic",
     "nonebot/aiocqhttp",
     "nonstd-lite/string-view-lite",
@@ -3810,6 +3814,7 @@
     "researchmm/Stark",
     "researchmm/STTN",
     "resemble-ai/monotonic_align",
+    "resemble-ai/Perth",
     "restify/errors",
     "ReTool-RL/ReTool",
     "reujab/silver",

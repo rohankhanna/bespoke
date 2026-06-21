@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12298,
-    "concepts": 7082,
-    "observations": 7100,
-    "repos": 3347,
-    "terms": 7029
+    "components": 12322,
+    "concepts": 7114,
+    "observations": 7132,
+    "repos": 3354,
+    "terms": 7061
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -756,6 +756,7 @@
     "cdcdx/lotus",
     "cedricrupb/code_ast",
     "cefsharp/CefSharp.Wpf.HwndHost",
+    "cehoffman/lua-build",
     "cehoffman/luaenv",
     "celestiaorg/protobuf3-solidity",
     "celestiaorg/protobuf3-solidity-lib",
@@ -1348,7 +1349,9 @@
     "faceyspacey/redux-first-router-link",
     "facok/ComfyUI-TeaCacheHunyuanVideo",
     "faisalsayed10/carbon-slack",
+    "falcoframework/Falco.Htmx",
     "falcoframework/Falco.Markup",
+    "falcoframework/Falco.OpenApi",
     "fanqie03/char-detection",
     "Fantasy-AMAP/fantasy-id",
     "Farama-Foundation/gym-docs",
@@ -2146,6 +2149,7 @@
     "ltdrdata/comfyui-connection-helper",
     "LTH14/torch-fidelity",
     "LuaLS/LuaParser",
+    "LuaLS/vscode-lua-doc",
     "luben/ZstdAndroidExample",
     "luc-tielen/telescope_hoogle",
     "LucHermitte/vim-build-tools-wrapper",
@@ -2395,8 +2399,10 @@
     "nanostores/angular",
     "nanotee/vimdoc-notes",
     "nasa-petal/PeTaL",
+    "nativium/nativium",
     "naudio/Vorbis",
     "naver/dune",
+    "NEAR-DevHub/neardevhub-bos",
     "NEAR-DevHub/neardevhub-contract",
     "near/abi",
     "Nebius-Academy/LLMOps-Essentials",
@@ -2559,6 +2565,7 @@
     "Pablerdo/zeptaframe",
     "PacificBiosciences/barcoding",
     "PacificBiosciences/PacBioFileFormats",
+    "PacificBiosciences/pbAA",
     "PacificBiosciences/pbbam",
     "PaddlePaddle/PaddleHub",
     "paleolimbot/geos",

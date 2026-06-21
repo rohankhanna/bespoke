@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1603,
-    "concepts": 237,
-    "observations": 239,
-    "repos": 66,
-    "terms": 269
+    "components": 1750,
+    "concepts": 270,
+    "observations": 272,
+    "repos": 73,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -24,6 +24,7 @@
     "ava-labs/avalanche-dapp-sdks",
     "aws-samples/aws-sdk-js-notes-app",
     "awslabs/wdio-aws-device-farm-service",
+    "Azure/bicep-deploy",
     "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
@@ -31,10 +32,13 @@
     "buddingnewinsights/proxypal",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
+    "cargo-bins/release-pr",
+    "celo-org/developer-tooling",
     "codemirror/language",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
+    "electron/windows-sign",
     "ElementsProject/cln-application",
     "ethereum/eip-review-bot",
     "favware/cliff-jumper",
@@ -52,9 +56,11 @@
     "ipfs/ipld-explorer-components",
     "ipikuka/rehype-highlight-code-lines",
     "ipikuka/remark-flexible-containers",
+    "jaegertracing/documentation",
     "jerseycheese/narraitor",
     "jkheadley/instar",
     "joshwooding/vite-plugin-react-docgen-typescript",
+    "KazariEX/dxup",
     "labring/fastgpt-plugin",
     "literalpie/storybook-framework-qwik",
     "lobehub/lobe-lint",
@@ -77,6 +83,7 @@
     "slopus/slopus.github.io",
     "solidjs-community/storybook",
     "TravisTheTechie/vscode-write-good",
+    "wighawag/rocketh",
     "ylsssq926/relic.skill",
     "zhayujie/cow-skill-hub",
     "zuplo/docs"

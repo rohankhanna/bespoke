@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 23,
-    "terms": 46
+    "components": 49,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 24,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,20 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "aayushbhaskar/OpenCouncil",
     "adammes/voyanode",
     "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
+    "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "devnen/chatterbox-v2",
     "FEniCS/spack-fenics",
     "florisheedless915/grok-register",
+    "hauntsaninja/mypy",
     "iandees/scrapy-camoufox",
     "kidshadow79/ogma",
     "l12203685/digital-immortality",
@@ -31,7 +33,6 @@
     "mohfer/nous-proxy",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",
-    "petercorke/sphinx-autorun",
     "piqrypt/piqrypt-mcp-server",
     "redai-infra/TransferQueue",
     "roampal-ai/roampal-labs",

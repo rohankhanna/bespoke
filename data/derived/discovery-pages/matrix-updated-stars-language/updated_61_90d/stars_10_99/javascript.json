@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 925,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 75,
-    "terms": 274
+    "components": 1020,
+    "concepts": 298,
+    "observations": 298,
+    "repos": 81,
+    "terms": 298
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -23,6 +23,7 @@
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "browserslist/lint",
     "bufbuild/protobuf-conformance",
     "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
@@ -50,6 +51,7 @@
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
     "grommet/grommet-site",
+    "GuillaumeGomez/browser-UI-test",
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
     "hipster-labs/jhipster-daily-builds",
@@ -64,12 +66,15 @@
     "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",
     "Level/memory-level",
+    "locize/locize-cli",
     "mapbox/node-srs",
     "mapbox/node-tilejson",
     "mapbox/point-geometry",
     "mapbox/tiletype",
+    "milvus-io/community",
     "neverendingqs/serverless-dotenv-example",
     "newrelic/newrelic-node-apollo-server-plugin",
+    "newrelic/newrelic-node-examples",
     "nodejs/email",
     "npm/json-parse-even-better-errors",
     "npm/types",
@@ -86,6 +91,7 @@
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
+    "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid",
     "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport"

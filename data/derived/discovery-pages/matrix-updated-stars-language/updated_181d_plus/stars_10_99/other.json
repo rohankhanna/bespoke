@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2153,
-    "concepts": 2015,
-    "observations": 2021,
-    "repos": 865,
-    "terms": 2003
+    "components": 2157,
+    "concepts": 2025,
+    "observations": 2031,
+    "repos": 867,
+    "terms": 2013
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0styx0/abbreinder.nvim",
     "0x0ade/FEZMod-Legacy",
@@ -362,7 +362,9 @@
     "Expedit-LargeScale-Vision-Transformer/Expedit-SAM",
     "extism/plugins",
     "faisalsayed10/carbon-slack",
+    "falcoframework/Falco.Htmx",
     "falcoframework/Falco.Markup",
+    "falcoframework/Falco.OpenApi",
     "federicotdn/flymake-shellcheck",
     "felixqueisler/Obsidian-FileLink-Styling",
     "feluxe/bs-tea-starter-kit",

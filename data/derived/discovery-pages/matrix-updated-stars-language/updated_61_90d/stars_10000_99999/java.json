@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 8,
-    "terms": 70
+    "components": 76,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 12,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
+    "alibaba/druid",
+    "alibaba/nacos",
     "alibaba/spring-cloud-alibaba",
+    "bazelbuild/bazel",
     "google/auto",
     "google/guava",
     "Konloch/bytecode-viewer",
     "NationalSecurityAgency/ghidra",
+    "OpenAPITools/openapi-generator",
     "ReactiveX/RxAndroid",
     "resilience4j/resilience4j",
     "termux/termux-app"

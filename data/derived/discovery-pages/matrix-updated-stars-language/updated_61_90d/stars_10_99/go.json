@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 359,
-    "concepts": 242,
-    "observations": 244,
-    "repos": 62,
-    "terms": 238
+    "components": 426,
+    "concepts": 305,
+    "observations": 307,
+    "repos": 70,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
+    "abhinav/goldmark-frontmatter",
+    "abhinav/tmux-fastcopy",
     "aldernero/sketchy",
     "allenreder/cliproxyapi-quota-inspector",
     "antham/ghokin",
@@ -40,8 +42,11 @@
     "connectrpc/grpchealth-go",
     "cosmos/cosmos-db",
     "darkweak/storages",
+    "davidkarlsen/flyway-operator",
+    "defilantech/LLMKube",
     "depado/bfchroma",
     "depado/smallblog",
+    "dlclark/regexp2cg",
     "ethpandaops/xatu",
     "featherbread/hypcast",
     "fgrehm/clotilde",
@@ -61,6 +66,7 @@
     "magodo/tfadd",
     "matelang/jwt-go-aws-kms",
     "MicahParks/jwkset",
+    "minio/pkg",
     "MShekow/directory-checksum",
     "notaryproject/notation-core-go",
     "notaryproject/notation-go",
@@ -68,6 +74,8 @@
     "OpenCIDN/ocimirror",
     "quicksilver-zone/quicksilver",
     "scaleway/serverless-examples",
+    "sigstore/rekor-tiles",
+    "terraform-linters/tflint-ruleset-google",
     "tilt-dev/tilt-apiserver",
     "transparency-dev/armored-witness",
     "usbarmory/armory-boot",

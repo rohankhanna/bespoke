@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1824,
-    "concepts": 302,
-    "observations": 302,
-    "repos": 61,
-    "terms": 332
+    "components": 1843,
+    "concepts": 303,
+    "observations": 303,
+    "repos": 62,
+    "terms": 333
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -35,6 +35,7 @@
     "improbable-eng/ts-protoc-gen",
     "infinitered/nsfwjs",
     "Ironclad/rivet",
+    "isaacs/node-glob",
     "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
     "jonaskello/tsconfig-paths",

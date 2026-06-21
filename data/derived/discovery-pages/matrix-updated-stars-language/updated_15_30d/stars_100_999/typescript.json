@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 532,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 16,
-    "terms": 105
+    "components": 478,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 14,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "abaplint/transpiler",
     "antvis/GPT-Vis",
-    "electron/packager",
     "Gnathonic/mokuro-reader",
     "hexabot-ai/Hexabot",
     "huggingface/hf-mcp-server",
-    "LuaLS/vscode-lua",
     "matter-js/matter.js",
     "mightyiam/eslint-config-love",
     "preactjs/preact-devtools",

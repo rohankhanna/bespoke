@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 366,
-    "concepts": 691,
-    "observations": 691,
-    "repos": 149,
-    "terms": 687
+    "components": 373,
+    "concepts": 697,
+    "observations": 697,
+    "repos": 150,
+    "terms": 693
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "aarondl/authboss",
@@ -45,6 +45,7 @@
     "c-bata/kube-prompt",
     "cespare/xxhash",
     "charmbracelet/charm",
+    "charmbracelet/skate",
     "chzyer/readline",
     "cjbassi/gotop",
     "client9/misspell",

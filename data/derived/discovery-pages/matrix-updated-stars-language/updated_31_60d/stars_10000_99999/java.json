@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 399,
-    "observations": 401,
-    "repos": 31,
-    "terms": 396
+    "components": 302,
+    "concepts": 341,
+    "observations": 343,
+    "repos": 27,
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
-    "alibaba/druid",
-    "alibaba/nacos",
     "apache/doris",
     "apache/dubbo",
     "apache/incubator-seata",
@@ -24,7 +22,6 @@
     "apache/rocketmq",
     "apple/pkl",
     "awsdocs/aws-doc-sdk-examples",
-    "bazelbuild/bazel",
     "ben-manes/caffeine",
     "bumptech/glide",
     "clojure/clojure",
@@ -38,7 +35,6 @@
     "langchain4j/langchain4j",
     "languagetool-org/languagetool",
     "netty/netty",
-    "OpenAPITools/openapi-generator",
     "openjdk/jdk",
     "oracle/graal",
     "prestodb/presto",

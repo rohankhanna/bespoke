@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 246,
-    "concepts": 220,
-    "observations": 220,
-    "repos": 53,
-    "terms": 220
+    "components": 270,
+    "concepts": 221,
+    "observations": 221,
+    "repos": 56,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
     "ada-url/goada",
     "AFD-Illinois/iharm3d",
+    "agl/jbig2enc",
     "aifoundry-org/et-platform",
     "AIWintermuteAI/whispercpp",
     "ankane/stl-cpp",
+    "apache/pulsar-client-cpp",
     "barak/minidjvu",
     "bartp5/libtexprintf",
     "BirolLab/arcs",
@@ -37,10 +39,10 @@
     "flatpak/xdg-dbus-proxy",
     "galaxyproject/KegAlign",
     "GaoYusong/llm.cpp",
-    "gershnik/wsdd-native",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
+    "ICRAR/crc32c",
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
     "ksnip/kImageAnnotator",
@@ -56,6 +58,7 @@
     "mybigday/llama.node",
     "nvictus/pybbi",
     "nx10/unigd",
+    "openucx/xpmem",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "ROCm/roctracer",

@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "2KAbhishek/tmux-tea",
     "Aedelon/claude-code-blueprint",
     "alchemiststudiosDOTai/harness-engineering",
-    "cehoffman/lua-build",
     "coin-or/coinbrew",
     "containers/image_build",
     "erikw/tmux-dark-notify",
@@ -31,6 +30,7 @@
     "nodenv/nodenv-installer",
     "nodenv/nodenv-update",
     "quicwg/qlog",
+    "robertguss/claude-code-toolkit",
     "rubyjs/libv8-node",
     "SonarSource/sonar-developer-toolset"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 112,
-    "observations": 113,
-    "repos": 38,
-    "terms": 112
+    "components": 442,
+    "concepts": 102,
+    "observations": 103,
+    "repos": 36,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
@@ -41,10 +41,8 @@
     "kibertoad/toad-cache",
     "kunwar-shah/claudex",
     "L2jLiga/grunt-webfonts",
-    "LuaLS/vscode-lua-doc",
     "minikube-ci/examples",
     "mongodb-js/zstd",
-    "NEAR-DevHub/neardevhub-bos",
     "nodejs/Gzemnid",
     "OpenHands/openhands-chrome-extension",
     "quarkiverse/quarkiverse",

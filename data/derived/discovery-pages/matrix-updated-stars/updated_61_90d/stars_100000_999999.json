@@ -1,31 +1,39 @@
 {
   "counts": {
-    "components": 353,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 14,
-    "terms": 99
+    "components": 517,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 22,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
     "anthropics/claude-code",
     "anthropics/skills",
+    "avelino/awesome-go",
     "denoland/deno",
+    "facebook/react",
+    "flutter/flutter",
+    "golang/go",
     "google-gemini/gemini-cli",
     "kubernetes/kubernetes",
+    "microsoft/terminal",
     "microsoft/typescript",
+    "mrdoob/three.js",
     "nodejs/node",
     "nousresearch/hermes-agent",
     "obra/superpowers",
     "openclaw/openclaw",
     "sindresorhus/awesome",
+    "tauri-apps/tauri",
+    "torvalds/linux",
     "yt-dlp/yt-dlp"
   ]
 }

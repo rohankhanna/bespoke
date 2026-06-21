@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 147,
-    "observations": 147,
-    "repos": 27,
-    "terms": 147
+    "components": 139,
+    "concepts": 175,
+    "observations": 178,
+    "repos": 34,
+    "terms": 175
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
     "2KAbhishek/sway2k",
     "2KAbhishek/tmux-tilit",
+    "AFLplusplus/cov-analysis",
     "agricidaniel/claude-cybersecurity",
     "aiKrice/homebrew-badgetizr",
     "alvistack/ansible-role-crun",
@@ -26,20 +27,26 @@
     "beehive-lab/docker-tornadovm",
     "ChainSafe/forest-iac",
     "clojure/brew-install",
+    "cloudfoundry/jumpbox-deployment",
     "coin-or-tools/ThirdParty-Mumps",
     "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
     "confluentinc/cp-demo",
     "containers/automation",
+    "containers/automation_images",
     "cri-o/packaging",
     "Digidai/product-manager-skills",
     "flinedev/tandemkit",
+    "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
     "NixOS/org",
     "nodenv/node-build-update-defs",
     "nodenv/nodenv-package-rehash",
     "oceanbase/docker-images",
-    "robertguss/claude-code-toolkit",
+    "oneclick/rubyinstaller2-packages",
+    "reviewdog/action-black",
+    "reviewdog/action-hadolint",
+    "reviewdog/action-shfmt",
     "sclorg/mariadb-container"
   ]
 }

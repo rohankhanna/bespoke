@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1744,
-    "concepts": 937,
-    "observations": 944,
-    "repos": 75,
-    "terms": 936
+    "components": 1736,
+    "concepts": 921,
+    "observations": 927,
+    "repos": 74,
+    "terms": 920
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "aden-hive/hive",
@@ -34,7 +34,6 @@
     "ggml-org/whisper.cpp",
     "git-lfs/git-lfs",
     "github-linguist/linguist",
-    "gitleaks/gitleaks",
     "google-ai-edge/mediapipe",
     "googleapis/google-api-nodejs-client",
     "grpc/grpc-java",

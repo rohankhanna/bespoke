@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3433,
-    "concepts": 632,
-    "observations": 633,
-    "repos": 68,
-    "terms": 622
+    "components": 3116,
+    "concepts": 587,
+    "observations": 588,
+    "repos": 62,
+    "terms": 580
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-20T07:48:16.635535+00:00",
+  "generated_at": "2026-06-21T06:15:42.848377+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
-    "ajaxorg/ace",
     "ampproject/amphtml",
     "Automattic/mongoose",
     "badges/shields",
@@ -42,11 +41,9 @@
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
     "gorhill/uBlock",
-    "handlebars-lang/handlebars.js",
     "http-party/node-http-proxy",
     "huggingface/transformers.js",
     "jashkenas/backbone",
-    "jquery/jquery",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
     "krisk/Fuse",
@@ -60,12 +57,9 @@
     "mochajs/mocha",
     "moment/luxon",
     "mozilla/pdf.js",
-    "nock/nock",
     "nodemailer/nodemailer",
     "novnc/noVNC",
     "plotly/plotly.js",
-    "prettier/prettier",
-    "PrismJS/prism",
     "protobufjs/protobuf.js",
     "remy/nodemon",
     "rollup/rollup",
