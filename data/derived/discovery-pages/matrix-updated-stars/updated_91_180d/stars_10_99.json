@@ -11,7 +11,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -583,6 +583,7 @@
     "spring-ai-alibaba/website",
     "spyoungtech/json-five-rs",
     "SqrtMinusOne/eshell-atuin",
+    "ssiu/flash-attention-turing",
     "standardrb/lint_roller",
     "status-im/nim-json-serialization",
     "status-im/nim-serialization",
@@ -598,7 +599,6 @@
     "tc39/proposal-immutable-arraybuffer",
     "tc39/proposal-import-bytes",
     "tc39/proposal-smart-unit-preferences",
-    "TencentYoutuResearch/APTBench",
     "TencentYoutuResearch/SPEAR",
     "thunlp/BlockFFN",
     "tier4/ndt_omp",

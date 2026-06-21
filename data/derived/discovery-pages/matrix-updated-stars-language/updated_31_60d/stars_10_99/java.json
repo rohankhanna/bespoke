@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 169,
-    "observations": 170,
-    "repos": 37,
-    "terms": 166
+    "components": 168,
+    "concepts": 166,
+    "observations": 167,
+    "repos": 36,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "apache/ignite-extensions",
@@ -49,7 +49,6 @@
     "smithy-lang/smithy-examples",
     "spiffe/java-spiffe",
     "usdot-fhwa-stol/carma-cloud",
-    "usdot-fhwa-stol/cdasim",
-    "yawkat/lz4-java"
+    "usdot-fhwa-stol/cdasim"
   ]
 }

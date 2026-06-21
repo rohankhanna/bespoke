@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8938,
-    "concepts": 1671,
-    "observations": 1676,
-    "repos": 192,
-    "terms": 1661
+    "components": 8880,
+    "concepts": 1663,
+    "observations": 1668,
+    "repos": 191,
+    "terms": 1653
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "actions/cache",
@@ -196,7 +196,6 @@
     "VOICEVOX/voicevox",
     "VoltAgent/voltagent",
     "vuejs/babel-plugin-jsx",
-    "vuejs/eslint-plugin-vue",
     "vuejs/router",
     "web-infra-dev/rsbuild",
     "web-infra-dev/rsdoctor",

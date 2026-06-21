@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1748,
-    "concepts": 1858,
-    "observations": 1859,
-    "repos": 213,
-    "terms": 1846
+    "components": 1740,
+    "concepts": 1851,
+    "observations": 1852,
+    "repos": 212,
+    "terms": 1839
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/openexr",
@@ -100,7 +100,6 @@
     "intel/pcm",
     "iree-org/iree",
     "ispc/ispc",
-    "jarro2783/cxxopts",
     "jd-opensource/xllm",
     "jeremycw/httpserver.h",
     "KhronosGroup/glslang",

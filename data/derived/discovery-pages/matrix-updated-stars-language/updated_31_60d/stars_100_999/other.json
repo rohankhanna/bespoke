@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3010,
-    "concepts": 2098,
-    "observations": 2100,
-    "repos": 339,
-    "terms": 2087
+    "components": 3002,
+    "concepts": 2094,
+    "observations": 2096,
+    "repos": 338,
+    "terms": 2083
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "90-008/nix-cargo-integration",
     "abap2UI5/abap2UI5",
@@ -348,7 +348,6 @@
     "w3c/aria",
     "weaviate/recipes",
     "WebAssembly/meetings",
-    "WebAssembly/threads",
     "WICG/attribution-reporting-api",
     "yegappan/lsp",
     "zcash/zips",

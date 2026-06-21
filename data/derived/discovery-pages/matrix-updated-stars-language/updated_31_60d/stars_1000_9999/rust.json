@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1705,
-    "concepts": 1278,
-    "observations": 1283,
-    "repos": 153,
-    "terms": 1270
+    "components": 1681,
+    "concepts": 1255,
+    "observations": 1260,
+    "repos": 151,
+    "terms": 1247
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "0xPlaygrounds/rig",
@@ -37,7 +37,6 @@
     "axodotdev/cargo-dist",
     "bheisler/criterion.rs",
     "bionic-gpt/bionic-gpt",
-    "bitcoindevkit/bdk",
     "boa-dev/boa",
     "brave/adblock-rust",
     "cachix/devenv",
@@ -95,7 +94,6 @@
     "lakekeeper/lakekeeper",
     "lance-format/lance",
     "latex-lsp/texlab",
-    "maciejhirsz/logos",
     "MaterializeInc/materialize",
     "matter-labs/zksync",
     "model-checking/kani",

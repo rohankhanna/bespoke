@@ -1,6 +1,6 @@
 # Discovery pages
 
-Generated at: `2026-06-21T06:15:42.848377+00:00`
+Generated at: `2026-06-21T08:10:55.517515+00:00`
 
 This index is static. It links to precomputed facet pages and does not rely on client-side filtering or sorting.
 
@@ -16,10 +16,10 @@ This index is static. It links to precomputed facet pages and does not rely on c
 - [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 1 repos
 - [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 3 repos
 - [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 326 repos
-- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 4837 repos
-- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 4575 repos
-- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2796 repos
-- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12790 repos
+- [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 4815 repos
+- [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 4593 repos
+- [Updated 91 to 180 days ago](./by-updated/updated-91-180d.md) — 2798 repos
+- [Updated more than 180 days ago](./by-updated/updated-181d-plus.md) — 12792 repos
 
 ## Star buckets
 

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1437,
-    "concepts": 1887,
-    "observations": 1888,
-    "repos": 271,
-    "terms": 1893
+    "components": 1460,
+    "concepts": 1903,
+    "observations": 1904,
+    "repos": 274,
+    "terms": 1908
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "6551Team/opennews-mcp",
@@ -164,6 +164,7 @@
     "m87-labs/moondream",
     "mbailey/voicemode",
     "meta-pytorch/attention-gym",
+    "mherrmann/helium",
     "michaelfeil/infinity",
     "MichaelGrupp/evo",
     "microsoft/debugpy",
@@ -171,7 +172,6 @@
     "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
     "microsoft/MInference",
     "microsoft/pylance-release",
-    "microsoft/TaskWeaver",
     "microsoft/UFO",
     "mido/mido",
     "miguelgrinberg/python-socketio",
@@ -180,6 +180,7 @@
     "mjansson/rpmalloc",
     "mkdocs/catalog",
     "ml-explore/mlx-examples",
+    "ml-explore/mlx-lm",
     "mlcommons/training",
     "mll-lab-nu/RAGEN",
     "modelscope/modelscope",
@@ -202,6 +203,7 @@
     "open-compass/VLMEvalKit",
     "open-telemetry/community",
     "open-thought/reasoning-gym",
+    "opendatalab/labelU",
     "OpenGVLab/InternVideo",
     "OpenRLHF/OpenRLHF",
     "PaddlePaddle/PaddleClas",
@@ -243,6 +245,7 @@
     "rusty1s/pytorch_sparse",
     "sanderland/katrain",
     "scrapy-plugins/scrapy-playwright",
+    "shapely/shapely",
     "shenweichen/DeepCTR-Torch",
     "shenweichen/DeepMatch",
     "SirVer/ultisnips",

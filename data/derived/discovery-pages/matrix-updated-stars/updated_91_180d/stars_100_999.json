@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6005,
-    "concepts": 3975,
-    "observations": 3988,
-    "repos": 956,
-    "terms": 3955
+    "components": 6017,
+    "concepts": 3974,
+    "observations": 3987,
+    "repos": 957,
+    "terms": 3954
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -498,6 +498,7 @@
     "JuliaML/MLUtils.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
+    "JunoLab/Weave.jl",
     "JunyaoHu/common_metrics_on_video_quality",
     "JupiterRider/purego-sdl3",
     "k0kubun/hamlit",
@@ -693,7 +694,6 @@
     "OpenSparseLLMs/MoM",
     "openvpi/SingingVocoders",
     "openxrlab/xrslam",
-    "orhun/tuitar",
     "Osilly/Vision-DeepResearch",
     "osvenskan/posix_ipc",
     "p-doom/jasmine",
@@ -716,6 +716,7 @@
     "PMunch/nimlsp",
     "pmwkaa/ioarena",
     "posthtml/posthtml-parser",
+    "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "PramaLLC/BEN2",
     "prebuild/prebuild",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-06-21T06:15:42.848377+00:00`
+Generated at: `2026-06-21T08:10:55.517515+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-06-21T06:15:42.848377+00:00`
 
 ## Counts
 
-- repos: 12790
-- terms: 35106
-- components: 49823
-- concepts: 35555
-- observations: 35622
+- repos: 12792
+- terms: 35116
+- components: 49826
+- concepts: 35565
+- observations: 35632
 
 ## Static behavior
 
@@ -22,6 +22,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [orhun/tuitar](https://github.com/orhun/tuitar) | 482 | 2025-12-23T07:48:43Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [TencentYoutuResearch/APTBench](https://github.com/TencentYoutuResearch/APTBench) | 41 | 2025-12-23T07:23:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [BoosterRobotics/booster_gym](https://github.com/BoosterRobotics/booster_gym) | 268 | 2025-12-23T05:23:51Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [open-mmlab/mmengine](https://github.com/open-mmlab/mmengine) | 1466 | 2025-12-23T04:41:48Z | Python | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [EvelynZhang-epiclab/EvelynImgs](https://github.com/EvelynZhang-epiclab/EvelynImgs) | 1 | 2025-12-23T04:03:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -17075,6 +17077,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bevacqua/insane](https://github.com/bevacqua/insane) | 483 | 2024-05-06T10:46:15Z | JavaScript | Unknown | 2 | 4 | 3 | 3 |
 | [lewes6369/TensorRT-Yolov3](https://github.com/lewes6369/TensorRT-Yolov3) | 483 | 2022-09-26T19:26:41Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [aviralkumar2907/CQL](https://github.com/aviralkumar2907/CQL) | 483 | 2021-12-07T14:00:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [orhun/tuitar](https://github.com/orhun/tuitar) | 482 | 2025-12-23T07:48:43Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [patrick-kidger/torchcde](https://github.com/patrick-kidger/torchcde) | 482 | 2025-09-04T15:41:14Z | Python | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [quchangle1/LLM-Tool-Survey](https://github.com/quchangle1/LLM-Tool-Survey) | 482 | 2025-08-09T02:24:38Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [pickhardt/maintainers-wanted](https://github.com/pickhardt/maintainers-wanted) | 482 | 2024-10-19T20:42:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -21917,6 +21920,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yatsuki/v2manager](https://github.com/yatsuki/v2manager) | 42 | 2022-02-23T11:25:13Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [hacker1024/coretemp](https://github.com/hacker1024/coretemp) | 42 | 2021-11-26T14:04:30Z | C/C++ | Library | 5 | 0 | 5 | 5 |
 | [softprops/envy-store](https://github.com/softprops/envy-store) | 42 | 2021-07-22T10:14:45Z | Rust | Unknown | 6 | 0 | 6 | 6 |
+| [TencentYoutuResearch/APTBench](https://github.com/TencentYoutuResearch/APTBench) | 41 | 2025-12-23T07:23:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [eric-haibin-lin/verl-community](https://github.com/eric-haibin-lin/verl-community) | 41 | 2025-12-07T16:53:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [invoke-ai/launcher](https://github.com/invoke-ai/launcher) | 41 | 2025-10-16T06:09:21Z | TypeScript | Infrastructure/tooling | 4 | 83 | 4 | 4 |
 | [prisma/mcp](https://github.com/prisma/mcp) | 41 | 2025-10-07T09:43:52Z | JavaScript | Infrastructure/tooling | 2 | 4 | 2 | 2 |

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4985,
-    "concepts": 3550,
-    "observations": 3561,
-    "repos": 689,
-    "terms": 3543
+    "components": 4990,
+    "concepts": 3553,
+    "observations": 3564,
+    "repos": 690,
+    "terms": 3546
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -426,6 +426,7 @@
     "microsoft/generative-ai-with-javascript",
     "microsoft/mssql-docker",
     "microsoft/onnxruntime-inference-examples",
+    "microsoft/TaskWeaver",
     "microsoft/TextWorld",
     "minio/operator",
     "Minqi824/ADBench",

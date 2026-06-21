@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 139,
-    "observations": 141,
-    "repos": 30,
-    "terms": 138
+    "components": 137,
+    "concepts": 142,
+    "observations": 144,
+    "repos": 31,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "akarnokd/RxJavaFiberInterop",
@@ -43,6 +43,7 @@
     "simonpoole/OpeningHoursFragment",
     "smithy-lang/smithy-dafny",
     "xmlark/msv",
+    "yawkat/lz4-java",
     "zai-org/z-ai-sdk-java"
   ]
 }

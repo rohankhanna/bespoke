@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1618,
-    "concepts": 1614,
-    "observations": 1625,
-    "repos": 261,
-    "terms": 1614
+    "components": 1629,
+    "concepts": 1626,
+    "observations": 1637,
+    "repos": 263,
+    "terms": 1626
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0xAX/asm",
     "aaaaalexis/obsidian-cupertino",
@@ -54,6 +54,7 @@
     "bencheeorg/benchee",
     "BLAKE3-team/BLAKE3",
     "briansmith/ring",
+    "BuddiesOfBudgie/budgie-desktop",
     "cake-build/cake",
     "camlworks/dream",
     "carbon-design-system/carbon-charts",
@@ -212,6 +213,7 @@
     "prometheus-community/helm-charts",
     "prophesier/diff-svc",
     "puma/puma",
+    "puremourning/vimspector",
     "pyannote/pyannote-audio",
     "pyenv-win/pyenv-win",
     "python-mode/python-mode",

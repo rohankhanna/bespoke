@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15620,
-    "concepts": 8841,
-    "observations": 8869,
-    "repos": 1405,
-    "terms": 8788
+    "components": 15566,
+    "concepts": 8808,
+    "observations": 8836,
+    "repos": 1400,
+    "terms": 8755
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "0no-co/wonka",
@@ -104,7 +104,6 @@
     "antfu/starter-ts",
     "antgroup/vsag",
     "anthropics/anthropic-sdk-ruby",
-    "antonbabenko/awesome-terraform-compliance",
     "antoniusnaumann/cargo-swift",
     "antvis/chart-visualization-skills",
     "Anush008/fastembed-rs",
@@ -116,7 +115,6 @@
     "apache/datafusion-python",
     "apache/datasketches-java",
     "apache/dubbo-go-hessian2",
-    "apache/dubbo-go-samples",
     "apache/dubbo-website",
     "apache/hudi-rs",
     "apache/iceberg-cpp",
@@ -619,7 +617,6 @@
     "HansZ8/RoboJuDo",
     "harbor-framework/terminal-bench-2",
     "harlan-zw/mdream",
-    "hashicorp/terraform-plugin-framework",
     "hashicorp/vault-ruby",
     "haskell/ghcup-hs",
     "haskell/vscode-haskell",
@@ -962,7 +959,6 @@
     "nene/prettier-plugin-sql-cst",
     "nene/sql-parser-cst",
     "neo4j-examples/movies-python-bolt",
-    "neostandard/neostandard",
     "Nerivec/zigbee2mqtt-windfront",
     "netdur/llama_cpp_dart",
     "NetHack-LE/nle",
@@ -1389,7 +1385,6 @@
     "web-infra-dev/rstest",
     "web-platform-tests/wpt.fyi",
     "WebAssembly/meetings",
-    "WebAssembly/threads",
     "webtorrent/bittorrent-protocol",
     "webtorrent/ut_metadata",
     "WICG/attribution-reporting-api",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 5838,
-    "concepts": 2901,
-    "observations": 2915,
-    "repos": 787,
-    "terms": 2963
+    "components": 5846,
+    "concepts": 2904,
+    "observations": 2918,
+    "repos": 788,
+    "terms": 2966
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0x-ximon/acario.nvim",
@@ -629,6 +629,7 @@
     "ocaml-opam/opam2web",
     "ocaml/platform-blog",
     "oceanbase/docker-images",
+    "ocurrent/docker-base-images",
     "ocurrent/obuilder",
     "ocurrent/ocluster",
     "ocurrent/ocurrent-deployer",
@@ -730,7 +731,6 @@
     "solidjs-community/storybook",
     "sophus-vision/sophus-rs",
     "sphinx-contrib/sphinxcontrib-towncrier",
-    "ssiu/flash-attention-turing",
     "standardrb/standard-performance",
     "status-im/nim-eth",
     "steipete/homebrew-tap",
@@ -792,6 +792,7 @@
     "Xuanwo/serde-env",
     "yakir8/kosher_dart",
     "yaph/tts-samples",
+    "yawkat/lz4-java",
     "ylsssq926/relic.skill",
     "yomidevs/yomitan-import",
     "yoshoku/numo-narray-alt",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 37,
-    "terms": 135
+    "components": 93,
+    "concepts": 124,
+    "observations": 124,
+    "repos": 36,
+    "terms": 124
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
-    "antonbabenko/awesome-terraform-compliance",
     "bitrise-io/bitrise-steplib",
     "box/box-openapi",
     "Chocolate4U/Iran-sing-box-rules",

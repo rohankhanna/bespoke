@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2305,
-    "concepts": 1870,
-    "observations": 1874,
-    "repos": 377,
-    "terms": 1889
+    "components": 2298,
+    "concepts": 1865,
+    "observations": 1869,
+    "repos": 376,
+    "terms": 1884
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "a2aproject/a2a-dotnet",
@@ -237,7 +237,6 @@
     "JuliaRegistries/Registrator.jl",
     "JuliaStats/MultivariateStats.jl",
     "JuliaTesting/Aqua.jl",
-    "JunoLab/Weave.jl",
     "just-the-docs/just-the-docs-template",
     "jverzani/Mustache.jl",
     "kdheepak/panvimdoc",
@@ -309,7 +308,6 @@
     "petercorke/bdsim",
     "phronmophobic/llama.clj",
     "PKU-YuanGroup/OpenS2V-Nexus",
-    "ppwwyyxx/cocoapi",
     "pry/pry-stack_explorer",
     "purcell/envrc",
     "pybind/pybind11_bazel",
@@ -386,6 +384,7 @@
     "vuki656/package-info.nvim",
     "w3c/web-performance",
     "w3c/webdriver-bidi",
+    "WebAssembly/threads",
     "WebKitForWindows/WebKitRequirements",
     "wighawag/template-ethereum-contracts",
     "wuphilipp/gello_mechanical",

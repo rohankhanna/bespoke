@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1379,
-    "concepts": 1194,
-    "observations": 1198,
-    "repos": 113,
-    "terms": 1184
+    "components": 1375,
+    "concepts": 1186,
+    "observations": 1190,
+    "repos": 112,
+    "terms": 1176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "abpframework/abp",
@@ -95,7 +95,6 @@
     "NickeManarin/ScreenToGif",
     "nim-lang/Nim",
     "NixOS/nixpkgs",
-    "nvim-telescope/telescope.nvim",
     "OAI/OpenAPI-Specification",
     "openai/openai-cookbook",
     "phoenixframework/phoenix",

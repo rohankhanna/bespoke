@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 867,
-    "concepts": 505,
-    "observations": 509,
-    "repos": 65,
-    "terms": 504
+    "components": 871,
+    "concepts": 513,
+    "observations": 517,
+    "repos": 66,
+    "terms": 512
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "Alamofire/Alamofire",
@@ -65,6 +65,7 @@
     "neovim/neovim",
     "NielsRogge/Transformers-Tutorials",
     "nikitabobko/AeroSpace",
+    "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "OpenZeppelin/openzeppelin-contracts",

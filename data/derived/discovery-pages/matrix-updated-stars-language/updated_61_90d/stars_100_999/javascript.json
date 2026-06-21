@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2271,
-    "concepts": 567,
-    "observations": 572,
-    "repos": 129,
-    "terms": 597
+    "components": 2299,
+    "concepts": 575,
+    "observations": 580,
+    "repos": 130,
+    "terms": 605
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "4xian/claude-codex-api",
     "absolute-version/commit-and-tag-version",
@@ -105,6 +105,7 @@
     "mourner/kdbush",
     "mourner/tinyqueue",
     "muratcankoylan/ralph-wiggum-marketer",
+    "neostandard/neostandard",
     "neverendingqs/serverless-dotenv-plugin",
     "nodejs/admin",
     "nodejs/TSC",

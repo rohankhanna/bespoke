@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 16778,
-    "concepts": 10900,
-    "observations": 10937,
-    "repos": 2796,
-    "terms": 10893
+    "components": 16795,
+    "concepts": 10902,
+    "observations": 10939,
+    "repos": 2798,
+    "terms": 10895
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0b01/tigris-and-euphrates",
@@ -1542,6 +1542,7 @@
     "Jumziey/neotest-nix-unit.nvim",
     "junegunn/vim-plug",
     "JunoLab/Atom.jl",
+    "JunoLab/Weave.jl",
     "junyanz/CatPapers",
     "JunyaoHu/common_metrics_on_video_quality",
     "JupiterRider/purego-sdl3",
@@ -1798,6 +1799,7 @@
     "microsoft/mssql-docker",
     "microsoft/onnxruntime-inference-examples",
     "microsoft/react-native-winrt",
+    "microsoft/TaskWeaver",
     "microsoft/TextWorld",
     "microsoft/tracing-etw",
     "microsoft/unilm",
@@ -2041,7 +2043,6 @@
     "openwdl/governance",
     "openxrlab/xrslam",
     "oracle-quickstart/oci-o11y-solutions",
-    "orhun/tuitar",
     "orlp/color-backtrace",
     "orogene/orogene",
     "oschwartz10612/poppler-windows",
@@ -2124,6 +2125,7 @@
     "posva/unplugin-vue-router",
     "pothosware/SoapySDR",
     "powerline/powerline",
+    "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "PramaLLC/BEN2",
     "pramsey/pgsql-http",
@@ -2431,6 +2433,7 @@
     "SqrtMinusOne/eshell-atuin",
     "squeaky-pl/portable-pypy",
     "srikanth-lingala/zip4j",
+    "ssiu/flash-attention-turing",
     "stable-haskell/stack",
     "standard-schema/standard-schema",
     "standardrb/lint_roller",
@@ -2506,7 +2509,6 @@
     "TencentCloudADP/youtu-agent",
     "TencentCloudADP/youtu-tip",
     "TencentCloudADP/youtu-vl",
-    "TencentYoutuResearch/APTBench",
     "TencentYoutuResearch/SPEAR",
     "tensorchord/VectorChord-images",
     "tensorflow/agents",

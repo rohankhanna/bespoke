@@ -3,7 +3,7 @@
     "components": 1004,
     "concepts": 675,
     "observations": 676,
-    "repos": 200,
+    "repos": 201,
     "terms": 681
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -175,6 +175,7 @@
     "nvim-mini/mini.statusline",
     "oap-project/oap-mllib",
     "ocaml-opam/opam2web",
+    "ocurrent/docker-base-images",
     "ocurrent/obuilder",
     "ocurrent/ocluster",
     "ocurrent/ocurrent-deployer",

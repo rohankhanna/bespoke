@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 49823,
-    "concepts": 35555,
-    "observations": 35622,
-    "repos": 12790,
-    "terms": 35106
+    "components": 49826,
+    "concepts": 35565,
+    "observations": 35632,
+    "repos": 12792,
+    "terms": 35116
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -9532,6 +9532,7 @@
     "oras-project/distribution",
     "oreobird/tf-keras-deep-head-pose",
     "orhun/kermit",
+    "orhun/tuitar",
     "OrionStarAI/Orion",
     "orionw/rank1",
     "oriyor/assistantbench",
@@ -11448,6 +11449,7 @@
     "TencentARC/T2I-Adapter",
     "TencentQQGYLab/ComfyUI-ELLA",
     "TencentQQGYLab/ELLA",
+    "TencentYoutuResearch/APTBench",
     "tendermint/spec",
     "Tengfei-Wang/HFGI",
     "tengteng95/Pose-Transfer",

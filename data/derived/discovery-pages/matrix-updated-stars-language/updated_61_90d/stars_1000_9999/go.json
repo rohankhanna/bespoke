@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1199,
-    "concepts": 1194,
-    "observations": 1196,
-    "repos": 164,
-    "terms": 1195
+    "components": 1208,
+    "concepts": 1199,
+    "observations": 1201,
+    "repos": 165,
+    "terms": 1200
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
     "alecthomas/chroma",
     "alexellis/arkade",
     "alibaba/higress",
+    "apache/dubbo-go",
     "appleboy/gorush",
     "apptainer/apptainer",
     "aquasecurity/starboard",

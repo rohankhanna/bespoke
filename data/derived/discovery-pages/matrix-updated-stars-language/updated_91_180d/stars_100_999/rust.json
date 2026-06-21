@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 412,
-    "concepts": 294,
-    "observations": 296,
-    "repos": 73,
-    "terms": 292
+    "components": 409,
+    "concepts": 284,
+    "observations": 286,
+    "repos": 72,
+    "terms": 282
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -56,7 +56,6 @@
     "MSxDOS/ntapi",
     "near/borsh-rs",
     "op-rs/kona",
-    "orhun/tuitar",
     "pdf-rs/pdf_render",
     "pksunkara/cargo-workspaces",
     "prisma/tiberius",

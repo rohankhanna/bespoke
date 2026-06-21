@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2056,
-    "concepts": 451,
-    "observations": 457,
-    "repos": 84,
-    "terms": 447
+    "components": 2028,
+    "concepts": 443,
+    "observations": 449,
+    "repos": 83,
+    "terms": 439
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "adamlui/ai-web-extensions",
@@ -69,7 +69,6 @@
     "mdn/fred",
     "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
-    "neostandard/neostandard",
     "octokit/graphql-schema",
     "OffchainLabs/arbitrum-docs",
     "openfl/lime",

@@ -3,7 +3,7 @@
     "components": 171,
     "concepts": 192,
     "observations": 193,
-    "repos": 67,
+    "repos": 68,
     "terms": 192
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -71,6 +71,7 @@
     "RomanArzumanyan/VALI",
     "shriramters/chordcat",
     "smuellerDD/acvpparser",
+    "ssiu/flash-attention-turing",
     "Taritsyn/LibSassHost",
     "tier4/ndt_omp",
     "tlaplus-community/tree-sitter-tlaplus",

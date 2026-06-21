@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16042,
-    "concepts": 7897,
-    "observations": 7924,
-    "repos": 693,
-    "terms": 7838
+    "components": 16001,
+    "concepts": 7869,
+    "observations": 7896,
+    "repos": 690,
+    "terms": 7811
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "11ty/eleventy",
@@ -243,7 +243,6 @@
     "FFmpeg/FFmpeg",
     "firecracker-microvm/firecracker",
     "firstcontributions/first-contributions",
-    "fish-shell/fish-shell",
     "FlagOpen/FlagEmbedding",
     "flipped-aurora/gin-vue-admin",
     "FlowiseAI/Flowise",
@@ -478,7 +477,6 @@
     "nuxt/nuxt",
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
-    "nvim-telescope/telescope.nvim",
     "nvm-sh/nvm",
     "OAI/OpenAPI-Specification",
     "oauth2-proxy/oauth2-proxy",
@@ -641,7 +639,6 @@
     "syl20bnr/spacemacs",
     "symfony/symfony",
     "sympy/sympy",
-    "syncthing/syncthing",
     "systemd/systemd",
     "tailwindlabs/tailwindcss",
     "TanStack/query",

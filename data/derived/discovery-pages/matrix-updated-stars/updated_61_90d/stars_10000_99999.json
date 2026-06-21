@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10887,
-    "concepts": 3874,
-    "observations": 3891,
-    "repos": 476,
-    "terms": 3897
+    "components": 10928,
+    "concepts": 3902,
+    "observations": 3919,
+    "repos": 479,
+    "terms": 3924
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -168,6 +168,7 @@
     "fastai/fastai",
     "fatih/vim-go",
     "fingerprintjs/fingerprintjs",
+    "fish-shell/fish-shell",
     "fishaudio/fish-speech",
     "fission-ai/openspec",
     "fmtlib/fmt",
@@ -337,6 +338,7 @@
     "nvidia/nemoclaw",
     "NVIDIA/open-gpu-kernel-modules",
     "NVIDIA/TensorRT",
+    "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
     "oh-my-fish/oh-my-fish",
     "onyx-dot-app/onyx",
@@ -435,6 +437,7 @@
     "stretchr/testify",
     "subframe7536/maple-font",
     "svg/svgo",
+    "syncthing/syncthing",
     "taichi-dev/taichi",
     "tanweai/pua",
     "tc39/proposals",

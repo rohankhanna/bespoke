@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6961,
-    "concepts": 3419,
-    "observations": 3433,
-    "repos": 717,
-    "terms": 3396
+    "components": 6953,
+    "concepts": 3416,
+    "observations": 3430,
+    "repos": 715,
+    "terms": 3393
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "1-Platform/op-components",
@@ -528,7 +528,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "octokit/webhooks-methods.js",
-    "ocurrent/docker-base-images",
     "ocurrent/ocaml-dockerfile",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
@@ -725,7 +724,6 @@
     "xjb714/xjb",
     "xuegao-tzx/Fllama",
     "yamachu/VoicevoxCoreSharp",
-    "yawkat/lz4-java",
     "yquake2/yquake2remaster",
     "yulewang97/ERDiff",
     "zen-xu/pytest-modern",

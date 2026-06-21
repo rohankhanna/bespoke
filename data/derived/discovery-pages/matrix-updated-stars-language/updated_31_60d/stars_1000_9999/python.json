@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2617,
-    "concepts": 2815,
-    "observations": 2827,
-    "repos": 310,
-    "terms": 2791
+    "components": 2589,
+    "concepts": 2796,
+    "observations": 2808,
+    "repos": 306,
+    "terms": 2773
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "a2aproject/a2a-python",
@@ -170,7 +170,6 @@
     "mesonbuild/meson",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
-    "mherrmann/helium",
     "MIC-DKFZ/nnUNet",
     "microsoft/agent-framework",
     "microsoft/CameraTraps",
@@ -183,7 +182,6 @@
     "milvus-io/pymilvus",
     "miurahr/aqtinstall",
     "mjun0812/flash-attention-prebuild-wheels",
-    "ml-explore/mlx-lm",
     "ModelCloud/GPTQModel",
     "modelscope/evalscope",
     "ModelTC/LightLLM",
@@ -219,7 +217,6 @@
     "open-telemetry/opentelemetry-python",
     "open-telemetry/opentelemetry-python-contrib",
     "OpenBMB/UltraRAG",
-    "opendatalab/labelU",
     "OpenDroneMap/ODM",
     "openvinotoolkit/nncf",
     "openvinotoolkit/open_model_zoo",
@@ -272,7 +269,6 @@
     "roboflow/inference",
     "scikit-image/scikit-image",
     "secretflow/secretflow",
-    "shapely/shapely",
     "shenweichen/DeepCTR",
     "shenweichen/GraphEmbedding",
     "shibing624/MedicalGPT",

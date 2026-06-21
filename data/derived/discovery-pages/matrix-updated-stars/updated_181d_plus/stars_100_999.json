@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 16034,
-    "concepts": 14566,
-    "observations": 14594,
-    "repos": 4749,
-    "terms": 14338
+    "components": 16037,
+    "concepts": 14576,
+    "observations": 14604,
+    "repos": 4750,
+    "terms": 14348
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -3534,6 +3534,7 @@
     "orangeduck/lafan1-resolved",
     "OrangeX4/latex2sympy",
     "orhun/kermit",
+    "orhun/tuitar",
     "OrionStarAI/Orion",
     "OrleansContrib/OrleansDashboard",
     "OS-Agent-Survey/OS-Agent-Survey",

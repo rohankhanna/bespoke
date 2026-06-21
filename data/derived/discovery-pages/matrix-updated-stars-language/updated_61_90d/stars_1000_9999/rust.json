@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1043,
-    "concepts": 757,
-    "observations": 763,
-    "repos": 122,
-    "terms": 770
+    "components": 1067,
+    "concepts": 780,
+    "observations": 786,
+    "repos": 124,
+    "terms": 793
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -23,6 +23,7 @@
     "arxanas/git-branchless",
     "asny/three-d",
     "asomers/mockall",
+    "bitcoindevkit/bdk",
     "bitshifter/glam-rs",
     "blacknon/hwatch",
     "bluealloy/revm",
@@ -78,6 +79,7 @@
     "lldap/lldap",
     "LukeMathWalker/cargo-chef",
     "lycheeverse/lychee",
+    "maciejhirsz/logos",
     "mattsse/chromiumoxide",
     "medialab/xan",
     "mfontanini/presenterm",

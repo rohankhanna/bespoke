@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 486,
-    "concepts": 969,
-    "observations": 970,
-    "repos": 181,
-    "terms": 954
+    "components": 491,
+    "concepts": 972,
+    "observations": 973,
+    "repos": 182,
+    "terms": 957
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -116,6 +116,7 @@
     "lupantech/AgentFlow",
     "lyuwenyu/RT-DETR",
     "meta-llama/llama-models",
+    "microsoft/TaskWeaver",
     "Minqi824/ADBench",
     "miolini/autoresearch-macos",
     "mjpost/sacrebleu",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1128,
-    "concepts": 972,
-    "observations": 975,
-    "repos": 249,
-    "terms": 966
+    "components": 1143,
+    "concepts": 981,
+    "observations": 984,
+    "repos": 251,
+    "terms": 975
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -159,6 +159,7 @@
     "JuliaML/MLUtils.jl",
     "JuliaPlots/GraphRecipes.jl",
     "JuliaPy/PyPlot.jl",
+    "JunoLab/Weave.jl",
     "k0kubun/hamlit",
     "kakajun/vue3-sketch-ruler",
     "kevinhwang91/nvim-hlslens",
@@ -195,6 +196,7 @@
     "phodal/chapi",
     "plk/biber",
     "PMunch/nimlsp",
+    "ppwwyyxx/cocoapi",
     "prabirshrestha/asyncomplete.vim",
     "prettier/prettier-emacs",
     "proper-testing/proper",

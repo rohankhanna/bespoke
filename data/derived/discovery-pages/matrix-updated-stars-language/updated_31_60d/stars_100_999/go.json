@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1088,
-    "concepts": 960,
-    "observations": 964,
-    "repos": 127,
-    "terms": 958
+    "components": 1073,
+    "concepts": 950,
+    "observations": 954,
+    "repos": 125,
+    "terms": 948
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -22,7 +22,6 @@
     "aliyun/aliyun-cli",
     "andreykaipov/goobs",
     "apache/dubbo-go-hessian2",
-    "apache/dubbo-go-samples",
     "apache/iceberg-go",
     "apache/pulsar-client-go",
     "aquasecurity/trivy-db",
@@ -79,7 +78,6 @@
     "gookit/gcli",
     "gookit/slog",
     "grafana/grafana-plugin-sdk-go",
-    "hashicorp/terraform-plugin-framework",
     "helmfile/vals",
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hybridgroup/yzma",

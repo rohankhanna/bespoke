@@ -3,7 +3,7 @@
     "components": 370,
     "concepts": 317,
     "observations": 318,
-    "repos": 124,
+    "repos": 123,
     "terms": 324
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -122,7 +122,6 @@
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
     "talieisin/britfix",
-    "TencentYoutuResearch/APTBench",
     "TencentYoutuResearch/SPEAR",
     "thunlp/BlockFFN",
     "tinted-theming/base24",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-21T06:15:42.848377+00:00`
+Generated at: `2026-06-21T08:10:55.517515+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 874
+- repos: 875
 - terms: 1526
 - components: 741
 - concepts: 1549
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [TencentYoutuResearch/APTBench](https://github.com/TencentYoutuResearch/APTBench) | 41 | 2025-12-23T07:23:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [brentyi/jax_dataclasses](https://github.com/brentyi/jax_dataclasses) | 75 | 2025-12-19T23:20:34Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [InternScience/SeedBench](https://github.com/InternScience/SeedBench) | 22 | 2025-12-19T09:10:03Z | Python | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [opea-project/docs](https://github.com/opea-project/docs) | 44 | 2025-12-19T03:04:24Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
@@ -1360,6 +1361,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AlUlkesh/sd_delete_button](https://github.com/AlUlkesh/sd_delete_button) | 42 | 2023-08-31T20:07:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [acpopescu/bitsandbytes](https://github.com/acpopescu/bitsandbytes) | 42 | 2023-05-29T06:37:40Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [haibo-qiu/GFNet](https://github.com/haibo-qiu/GFNet) | 42 | 2023-01-10T00:00:34Z | Python | Infrastructure/tooling | 4 | 0 | 4 | 4 |
+| [TencentYoutuResearch/APTBench](https://github.com/TencentYoutuResearch/APTBench) | 41 | 2025-12-23T07:23:07Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [orangeduck/100style-retarget](https://github.com/orangeduck/100style-retarget) | 41 | 2025-09-16T23:50:49Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [Dfam-consortium/FamDB](https://github.com/Dfam-consortium/FamDB) | 41 | 2025-08-27T21:36:49Z | Python | Library | 0 | 0 | 0 | 0 |
 | [AMD-AGI/Nitro-T](https://github.com/AMD-AGI/Nitro-T) | 41 | 2025-07-10T20:30:03Z | Python | Model/data | 0 | 0 | 0 | 0 |

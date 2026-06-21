@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3069,
-    "concepts": 2770,
-    "observations": 2784,
-    "repos": 342,
-    "terms": 2748
+    "components": 3058,
+    "concepts": 2758,
+    "observations": 2772,
+    "repos": 340,
+    "terms": 2736
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T06:15:42.848377+00:00",
+  "generated_at": "2026-06-21T08:10:55.517515+00:00",
   "repo_ids": [
     "a2aproject/a2a-samples",
     "aaaaalexis/obsidian-baseline",
@@ -62,7 +62,6 @@
     "box-project/box",
     "brainlid/langchain",
     "broadinstitute/cromwell",
-    "BuddiesOfBudgie/budgie-desktop",
     "CakeML/cakeml",
     "CanHub/Android-Image-Cropper",
     "cashapp/turbine",
@@ -283,7 +282,6 @@
     "prontolabs/pronto",
     "purcell/emacs.d",
     "purcell/exec-path-from-shell",
-    "puremourning/vimspector",
     "python/peps",
     "quil/quil",
     "r-lib/devtools",
