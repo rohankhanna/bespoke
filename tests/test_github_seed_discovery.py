@@ -270,3 +270,68 @@ def test_main_skips_transient_api_error_for_non_rate_limit_403(tmp_path, monkeyp
 
     frontier = json.loads((data_root / "data" / "frontier" / "repos.json").read_text())
     assert frontier["pending"] == []
+
+
+def test_main_skips_legal_block_451(tmp_path, monkeypatch):
+    # HTTP 451 (Unavailable For Legal Reasons) on a seed repo must skip that repo
+    # and continue, not crash the scheduled lane (the production failure cause).
+    module = load_module()
+
+    seed_path = tmp_path / "seed.json"
+    limits_path = tmp_path / "limits.json"
+    data_root = tmp_path / "out"
+    seed_path.write_text(json.dumps({"seed_repositories": ["owner/repo"]}))
+    limits_path.write_text(
+        json.dumps(
+            {
+                "max_frontier_repositories_per_run": 20,
+                "max_topic_expansions_per_repo": 5,
+                "max_related_repositories": 20,
+                "max_file_fetches_per_repo": 10,
+                "max_repo_links_per_repo": 4,
+            }
+        )
+    )
+
+    pending = [{"full_name": "owner/repo", "graph_distance": 0, "discovered_via": "seed"}]
+    monkeypatch.setattr(module, "load_frontier", lambda data_root, seeds: (pending, {"pending": pending, "processed": [], "generated_at": None}))
+    monkeypatch.setattr(module, "upsert_seeded_language_concepts", lambda *args, **kwargs: None)
+    monkeypatch.setattr(module, "normalize_existing_concept_artifacts", lambda *args, **kwargs: None)
+    monkeypatch.setattr(module, "normalize_existing_concept_observations", lambda *args, **kwargs: None)
+    monkeypatch.setattr(module, "build_embedding_units", lambda *args, **kwargs: [])
+    monkeypatch.setattr(
+        module,
+        "build_symbolic_indexes",
+        lambda *args, **kwargs: {
+            "concepts_by_alias": {},
+            "concepts_by_bucket": {},
+            "observations_by_concept": {},
+        },
+    )
+
+    error = HTTPError(
+        url="https://api.github.com/repos/owner/repo",
+        code=451,
+        msg="Unavailable For Legal Reasons",
+        hdrs={},
+        fp=None,
+    )
+    monkeypatch.setattr(module, "collect_repo", lambda *args, **kwargs: (_ for _ in ()).throw(error))
+
+    old_argv = sys.argv
+    sys.argv = ["github_seed_discovery.py", str(seed_path), str(limits_path), str(data_root)]
+    try:
+        module.main()
+    finally:
+        sys.argv = old_argv
+
+    run_files = sorted((data_root / "data" / "runs").glob("*.json"))
+    assert len(run_files) == 1
+    summary = json.loads(run_files[0].read_text())
+    assert summary["stopped_due_to_api"] is False
+    assert summary["stop_reason"] is None
+    assert summary["processed_repositories"] == []
+    assert len(summary["skipped_repositories"]) == 1
+    assert summary["skipped_repositories"][0]["reason"] == "repo_unavailable_legal"
+    assert summary["skipped_repositories"][0]["http_status"] == 451
+    assert summary["remaining_frontier"] == 0

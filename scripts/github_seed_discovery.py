@@ -1490,6 +1490,17 @@ def main():
                         "discovered_via": entry.get("discovered_via"),
                     })
                     continue
+                if e.code in (410, 451):
+                    # Permanent legal/availability failures (451 Unavailable For
+                    # Legal Reasons, 410 Gone) must not crash the scheduled lane;
+                    # skip the repo and record it as deferred evidence.
+                    skipped_repositories.append({
+                        "full_name": owner_repo,
+                        "reason": "repo_unavailable_legal" if e.code == 451 else "repo_gone",
+                        "http_status": e.code,
+                        "discovered_via": entry.get("discovered_via"),
+                    })
+                    continue
                 if is_transient_github_http_error(e):
                     stopped_due_to_api = True
                     stop_reason = "github_api_error"
