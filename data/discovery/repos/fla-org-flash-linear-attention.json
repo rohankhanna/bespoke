@@ -6,6 +6,16 @@
       "source_file": ".github/workflows/amd-mi300.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascend-a2-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascend-a2-ci.yml"
+    },
+    {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark-comment.yml"
@@ -54,21 +64,6 @@
       "component": "actions/stale@v9.1.0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yaml"
-    },
-    {
-      "component": "actions/setup-python@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yaml"
-    },
-    {
-      "component": "tj-actions/changed-files@v47.0.0",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yaml"
     }
   ],
   "edges": [
@@ -84,6 +79,27 @@
       "source_file": ".github/workflows/amd-mi300.yml",
       "source_repo": "fla-org/flash-linear-attention",
       "target": "amd-mi300-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascend-a2-ci.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascend-a2-ci.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascend-a2-ci.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "ascend-a2-ci",
       "target_type": "term"
     },
     {
@@ -185,34 +201,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yaml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yaml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "actions/setup-python@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yaml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "tj-actions/changed-files@v47.0.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint.yaml",
-      "source_repo": "fla-org/flash-linear-attention",
-      "target": "lint",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "fla-org/flash-linear-attention",
@@ -241,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:41:31.468023+00:00",
+  "fetched_at": "2026-06-22T16:12:22.275144+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -254,6 +242,10 @@
     {
       "path": ".github/workflows/amd-mi300.yml",
       "size": 1457
+    },
+    {
+      "path": ".github/workflows/ascend-a2-ci.yml",
+      "size": 3543
     },
     {
       "path": ".github/workflows/benchmark-comment.yml",
@@ -278,10 +270,6 @@
     {
       "path": ".github/workflows/issue.yml",
       "size": 714
-    },
-    {
-      "path": ".github/workflows/lint.yaml",
-      "size": 820
     }
   ],
   "related_repositories": [],
@@ -293,15 +281,15 @@
     "full_name": "fla-org/flash-linear-attention",
     "html_url": "https://github.com/fla-org/flash-linear-attention",
     "language": "Python",
-    "pushed_at": "2026-06-22T10:54:51Z",
-    "stargazers_count": 5246,
+    "pushed_at": "2026-06-22T15:34:05Z",
+    "stargazers_count": 5247,
     "topics": [
       "large-language-models",
       "machine-learning-systems",
       "natural-language-processing",
       "sequence-modeling"
     ],
-    "updated_at": "2026-06-22T09:56:17Z"
+    "updated_at": "2026-06-22T15:34:50Z"
   },
   "repo_links": [],
   "terms": [
@@ -310,6 +298,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/amd-mi300.yml",
       "term": "amd-mi300-ci"
+    },
+    {
+      "context_snippet": "ascend-a2-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascend-a2-ci.yml",
+      "term": "ascend-a2-ci"
     },
     {
       "context_snippet": "Post benchmark comment",
@@ -340,12 +334,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issue.yml",
       "term": "issues"
-    },
-    {
-      "context_snippet": "lint",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint.yaml",
-      "term": "lint"
     },
     {
       "context_snippet": "<div align=\"center\">",

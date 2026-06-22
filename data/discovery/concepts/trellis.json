@@ -1,0 +1,156 @@
+{
+  "aliases": [
+    "trellis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) carved-hybrid acceleration for TRELLIS.2-4B."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) carved-hybrid acceleration for TRELLIS v1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) carved-hybrid acceleration for TRELLIS.2-4B."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39835711,
+      "status": "candidate",
+      "text": "treillage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29835729,
+      "status": "candidate",
+      "text": "espalier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29784144,
+      "status": "candidate",
+      "text": "lattice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19835777,
+      "status": "candidate",
+      "text": "pergola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19835776,
+      "status": "candidate",
+      "text": "pergula"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3022,
+      "status": "candidate",
+      "text": "treillage"
+    }
+  ],
+  "canonical_name": "trellis",
+  "concept_id": "trellis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hermit-trellis2"
+    }
+  ],
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trellis",
+      "sense_id": "trellis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

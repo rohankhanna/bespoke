@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "ekryski/mlx-swift-lm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "avarok-cybersecurity/atlas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "lablup/mlxcel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "pacifaist/quansloth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "TheTom/turboquant_plus",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-22T16:35:37.967760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17168
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3704
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "TheTom/turboquant_plus",
+    "html_url": "https://github.com/TheTom/turboquant_plus",
+    "language": "Python",
+    "pushed_at": "2026-06-12T15:08:37Z",
+    "stargazers_count": 6957,
+    "topics": [],
+    "updated_at": "2026-06-22T12:02:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avarok-cybersecurity/atlas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekryski/mlx-swift-lm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lablup/mlxcel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacifaist/quansloth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

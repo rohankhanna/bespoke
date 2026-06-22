@@ -1,0 +1,27 @@
+{
+  "component": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cmake-utils"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate-context",
+      "text": "CMake Modules and Basic Libraries for C/C++ projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate-context",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cmake-utils",
+  "concept_id": "cmake-utils",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup"
+    }
+  ],
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cmake-utils",
+      "sense_id": "cmake-utils#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

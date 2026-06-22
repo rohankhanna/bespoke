@@ -2,6 +2,13 @@
   "components": [],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-quick-stats/git-quick-stats",
+      "target": "arzzen/git-quick-stat",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats",
@@ -135,7 +142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:48:39.582620+00:00",
+  "fetched_at": "2026-06-22T16:21:32.444355+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -179,9 +186,15 @@
       "suggestion",
       "topics"
     ],
-    "updated_at": "2026-06-18T14:57:29Z"
+    "updated_at": "2026-06-22T14:37:56Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arzzen/git-quick-stat",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "[![Homebrew package](https://repology.org/badge/version-for-repo/homebrew/git-quick-stats.svg)](https://formulae.brew.sh/formula/git-quick-stats#default)",

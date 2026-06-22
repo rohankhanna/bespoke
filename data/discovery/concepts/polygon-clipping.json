@@ -31,6 +31,42 @@
       "source_repo": "AngusJohnson/Clipper2",
       "status": "candidate-context",
       "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate-context",
+      "text": "Polygon Clipping and Offsetting - LuaJIT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "status": "candidate-context",
+      "text": "WASM port of Clipper 2 for Polygon Clipping and Offsetting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "AngusJohnson/Clipper2",
       "status": "candidate",
       "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "AngusJohnson/Clipper2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "ErikSom/Clipper2-WASM"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

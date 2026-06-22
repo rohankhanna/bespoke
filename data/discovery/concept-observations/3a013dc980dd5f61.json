@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Polygon Clipping and Offsetting - LuaJIT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010972,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009515,
+      "status": "candidate",
+      "text": "cutting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006595,
+      "status": "candidate",
+      "text": "trimming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988010,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011771,
+      "status": "candidate",
+      "text": "newspaper clipping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clipping",
+      "sense_id": "clipping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15062,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10050,
+      "status": "candidate",
+      "text": "cutting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10040,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "trimming"
+    }
+  ],
+  "concept_id": "clipping",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clipping",
+  "observation_id": "3a013dc980dd5f61",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_text": "clipping",
+  "source_context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+  "source_file": null,
+  "source_repo": "Ark223/Clipper2-Lua",
+  "source_repo_description": "Polygon Clipping and Offsetting - LuaJIT"
+}

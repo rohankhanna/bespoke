@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/dart.yml"
     },
     {
-      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml"
     },
@@ -48,7 +48,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dart.yml",
       "source_repo": "grpc/grpc-dart",
-      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -122,7 +122,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:35:52.437684+00:00",
+  "fetched_at": "2026-06-22T16:43:24.952914+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -154,13 +154,13 @@
     "full_name": "grpc/grpc-dart",
     "html_url": "https://github.com/grpc/grpc-dart",
     "language": "Dart",
-    "pushed_at": "2026-02-01T04:22:30Z",
+    "pushed_at": "2026-06-22T14:29:56Z",
     "stargazers_count": 890,
     "topics": [
       "dart",
       "grpc"
     ],
-    "updated_at": "2026-06-22T07:31:24Z"
+    "updated_at": "2026-06-22T14:31:56Z"
   },
   "repo_links": [
     {

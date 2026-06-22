@@ -19,6 +19,18 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate-context",
       "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "status": "candidate-context",
+      "text": "Collection of JET's Vapoursynth packages for video filtering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate",
       "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "status": "candidate",
+      "text": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/tools-iuc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

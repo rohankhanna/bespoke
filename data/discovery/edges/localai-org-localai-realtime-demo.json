@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "richiejp/voxinput",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "gen2brain/malgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "mudler/mcps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "localai-org/localvqe",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
+  "source_repo": "localai-org/localai-realtime-demo"
+}

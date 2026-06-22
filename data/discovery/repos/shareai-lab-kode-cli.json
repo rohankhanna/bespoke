@@ -196,6 +196,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "react-reconciler",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "semver",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -968,6 +973,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "react-reconciler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
       "target": "semver",
       "target_type": "component"
     },
@@ -1595,7 +1607,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:22:28.087518+00:00",
+  "fetched_at": "2026-06-22T15:25:18.775179+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1607,7 +1619,7 @@
     },
     {
       "path": "package.json",
-      "size": 7625
+      "size": 7660
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -1639,10 +1651,10 @@
     "full_name": "shareAI-lab/Kode-CLI",
     "html_url": "https://github.com/shareAI-lab/Kode-CLI",
     "language": "TypeScript",
-    "pushed_at": "2026-06-22T09:06:59Z",
+    "pushed_at": "2026-06-22T12:46:31Z",
     "stargazers_count": 5138,
     "topics": [],
-    "updated_at": "2026-06-22T09:07:12Z"
+    "updated_at": "2026-06-22T12:46:38Z"
   },
   "repo_links": [
     {

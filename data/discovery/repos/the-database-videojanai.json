@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "the-database/VideoJaNai",
-      "target": "hooke007/mpv_lazy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "the-database/VideoJaNai",
@@ -137,7 +130,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T08:34:48.225553+00:00",
+  "fetched_at": "2026-06-22T15:30:53.955876+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -175,11 +168,6 @@
     "updated_at": "2026-06-22T01:59:57Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hooke007/mpv_lazy",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "the-database/mpv-upscale-2x_animejanai",

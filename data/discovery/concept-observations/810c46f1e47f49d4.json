@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes cloud-controller-manager for Hetzner Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "arvato"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "strato ag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "freenet ag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "bwi gmbh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "timocom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hetzner",
+      "sense_id": "hetzner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hetzner",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hetzner",
+  "observation_id": "810c46f1e47f49d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_text": "hetzner",
+  "source_context_snippet": "[![Tests](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+  "source_repo_description": "Kubernetes cloud-controller-manager for Hetzner Cloud"
+}

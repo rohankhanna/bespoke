@@ -32,6 +32,18 @@
       "source_repo": "lancedb/vectordb-recipes",
       "status": "candidate-context",
       "text": "black-action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "High quality resources & applications for LLMs, multi-modal models and VectorDBs "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "black-action"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate",
+      "text": "black-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akashAD98/vectordb-recipes",
       "status": "candidate",
       "text": "black-action"
     }
@@ -515,11 +533,23 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": ".github/workflows/black.yml",
       "source_repo": "lancedb/vectordb-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "gbionics/adam"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

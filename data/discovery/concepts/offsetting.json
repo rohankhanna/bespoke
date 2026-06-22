@@ -43,6 +43,30 @@
       "source_repo": "tirithen/clipper2",
       "status": "candidate-context",
       "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate-context",
+      "text": "Polygon Clipping and Offsetting - LuaJIT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "tirithen/clipper2",
       "status": "candidate",
       "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +189,23 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "tirithen/clipper2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts"
     }
   ],
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

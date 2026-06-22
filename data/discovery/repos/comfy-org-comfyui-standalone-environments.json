@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI-Standalone-Environments",
+      "target": "comfy-org/comfyui-desktop-2.0-beta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Standalone-Environments",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Standalone-Environments",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Standalone-Environments",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-standalone-env.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Standalone-Environments",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-standalone-env.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Standalone-Environments",
+      "target": "Build Standalone Environment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T14:30:42.885469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 216
+    },
+    {
+      "path": ".github/workflows/build-standalone-env.yml",
+      "size": 26281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Comfy-Org/ComfyUI-Standalone-Environments",
+    "html_url": "https://github.com/Comfy-Org/ComfyUI-Standalone-Environments",
+    "language": null,
+    "pushed_at": "2026-06-03T00:30:42Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-06-10T01:13:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfy-org/comfyui-desktop-2.0-beta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Standalone Environment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-standalone-env.yml",
+      "term": "Build Standalone Environment"
+    }
+  ]
+}

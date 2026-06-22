@@ -96,6 +96,7 @@
     "f3cf340a4f375d33"
   ],
   "3d-aigc": [
+    "31b3f0db94221501",
     "92b076664d588a62",
     "a98e37ea08926f83"
   ],
@@ -191,12 +192,16 @@
     "a8fca796b7170d74"
   ],
   "3d-generation": [
+    "45d2153f921d7efc",
+    "46558173c42a6176",
     "589feaa51044bac6",
     "6249904ee897cc30",
     "7f80f404df3c0304",
     "9630d4cf5c4a3aa8",
     "b6e3c40c298e0417",
+    "c55412793f3aba8d",
     "c84c5b822e92ba78",
+    "d20cf5212d4cb682",
     "daedff87e86d267d",
     "ea38c7537a981f65"
   ],
@@ -3076,6 +3081,7 @@
     "c440382db5edf7c7"
   ],
   "ai-review-issues": [
+    "0bfd74f1055acdfb",
     "6f5c1b5eb68f227a",
     "77001b4ce8442c71"
   ],
@@ -3595,6 +3601,7 @@
     "5c6a68c1b2b9421d",
     "606ddac57da409fb",
     "66a4ab702a8d1797",
+    "6771b748e22ec1b8",
     "797915b842c2705e",
     "7e8b7ceddcc722cd",
     "9b93c392c8657771",
@@ -7171,6 +7178,9 @@
   "ascend": [
     "ac3fc77020e9d8cc",
     "c601e5e2797ab728"
+  ],
+  "ascend-a2-ci": [
+    "978e5936e16fb0ba"
   ],
   "ascend-npu": [
     "952c319faec134fe"
@@ -13145,6 +13155,7 @@
     "e302667713e4a98a",
     "e4145dfbce4b2e79",
     "e4347cd8cf5bb7c2",
+    "e5571247f9127028",
     "e6ec22d4790c38e9",
     "e732c2ee715a6636",
     "e7500536189abea3",
@@ -14532,6 +14543,7 @@
     "d8cb4be46ad71943"
   ],
   "black-action": [
+    "66eea7cfa577cb68",
     "96fdecf201e42c19",
     "b00a24d118a2ce9f"
   ],
@@ -15312,7 +15324,10 @@
     "60a5284953489a45"
   ],
   "boolean-operations": [
-    "8abdc7ea9599667b"
+    "471dc6c677fe36c5",
+    "8abdc7ea9599667b",
+    "8ce3350dc59afcc1",
+    "93c68437f23b0e83"
   ],
   "boost": [
     "0e944804e45bf26a",
@@ -16381,6 +16396,7 @@
     "03fffdce3e3ce6aa",
     "0439f5a781ce79ea",
     "044935670f3199a7",
+    "04728287d32c60f8",
     "053fcb62caecc42e",
     "055795ae3071a1b1",
     "056b062aefc0b6f2",
@@ -17126,6 +17142,7 @@
     "b8cb94733234985e",
     "b92abfafe345befd",
     "b94ef572ad0730e6",
+    "b9927e14941111e7",
     "b9b2b00d182abca1",
     "ba37387a36bf69de",
     "bae568854015349c",
@@ -17480,7 +17497,8 @@
   ],
   "build-actions-cache": [
     "42d76dbc1777daaf",
-    "492574731dbf642e"
+    "492574731dbf642e",
+    "e19938af4c10f51d"
   ],
   "build-adapter-docs": [
     "44894165b0a6f5bc",
@@ -21699,6 +21717,9 @@
   ],
   "build-stage": [
     "07de6c3629e3c88d"
+  ],
+  "build-standalone-environment": [
+    "9ad2d4db39343919"
   ],
   "build-static-binaries-for-linux": [
     "fc64d95df1e47ee0"
@@ -28821,6 +28842,7 @@
   ],
   "ci-3rd-party": [
     "8931823749c08f5c",
+    "89b80200c036f66e",
     "f70b9d8c8071e18d"
   ],
   "ci-aarch64": [
@@ -28853,6 +28875,7 @@
     "23c4295b89baf9a7",
     "28f89d5ebfd42f03",
     "56601009a37f3c2f",
+    "73347c3df9082b3c",
     "c6ba477b45732dfa"
   ],
   "ci-android-emulator-tests": [
@@ -28863,7 +28886,8 @@
   ],
   "ci-apple": [
     "312b5ac767436da6",
-    "4679f6e266185738"
+    "4679f6e266185738",
+    "53714c50dc1d0625"
   ],
   "ci-badger-bank-tests": [
     "2cfce83e46508e6c"
@@ -29739,6 +29763,7 @@
     "0e42154b85d7a265"
   ],
   "ci-snapdragon": [
+    "33e3dd3c01bd9430",
     "4834d07327b1cdaf",
     "db33e812fec855a3"
   ],
@@ -32030,11 +32055,19 @@
   "clipboard-management": [
     "f34edfe5f61e01f0"
   ],
+  "clipper": [
+    "ff52e4d79c0f43a6"
+  ],
+  "clipper2": [
+    "ce0780431beea327"
+  ],
   "clipping": [
+    "3a013dc980dd5f61",
     "5423b6db7c1d5d74"
   ],
   "clipping-algorithm": [
-    "2e1e2f285b34af51"
+    "2e1e2f285b34af51",
+    "d9629ccbc3264dce"
   ],
   "clippy": [
     "0fc4e91d08f0ea77",
@@ -33273,6 +33306,7 @@
     "9d850dbfc24983bc",
     "9de33802e3f8c26a",
     "a248bcd892edf9d7",
+    "a36d778b211aedb7",
     "a64b93b0c2fd1277",
     "a68572b829ea006d",
     "abddaccd4dd6aae2",
@@ -33394,6 +33428,7 @@
     "94f8c95f537442b9",
     "98c8b74c0e240953",
     "9a864a356a1f5889",
+    "9b4d181a46931cd8",
     "a00c4a024b4a1745",
     "a3e1bb5138b4062f",
     "a7d052b97bd3a090",
@@ -33758,6 +33793,7 @@
     "57a77fd8dc2e0f0f",
     "57e2989feea577a1",
     "581c61c7d5534b66",
+    "587ebc2c5ed37bef",
     "5ca7a07e0b04d25a",
     "66d9bccc26ec7b6d",
     "68c85a269389310b",
@@ -33887,6 +33923,7 @@
     "d67b5e460e2623a7"
   ],
   "cmake-modules": [
+    "4267a9c0be5b41ba",
     "c90c64279c21e63e",
     "f6150f577cec7a0b"
   ],
@@ -33940,6 +33977,9 @@
   ],
   "cmake-tools": [
     "1eaf25600499e173"
+  ],
+  "cmake-utils": [
+    "69b8e617a15f669b"
   ],
   "cmake-version": [
     "36704eb7edb8b668"
@@ -35970,6 +36010,7 @@
     "16c2af47d5e70409",
     "217c8159d4f10f22",
     "232f33396365f426",
+    "2d3db70e574b8792",
     "3b765d9614e0f82f",
     "3bdd1d3e1ba5633e",
     "3d2d2be7d5e94719",
@@ -35977,6 +36018,7 @@
     "41480edbde30c819",
     "42f8ad309ae3f4ff",
     "462c434660adbeda",
+    "471cf513328ea6d6",
     "49ce97855fff49bb",
     "4b83fea55ae9a47e",
     "4b92c2b39f042152",
@@ -38847,6 +38889,7 @@
     "8eb5b98b886c2112",
     "8f38055d4861bf65",
     "8f3e1cee7d600064",
+    "90043375a15d3b06",
     "913a8e0436a7b1bf",
     "950e2297d7836188",
     "965bfb25cb5b6bc5",
@@ -48817,7 +48860,8 @@
     "adce1bb542a79d4e"
   ],
   "delaunay-triangulation": [
-    "00c9d43c5a02e9f0"
+    "00c9d43c5a02e9f0",
+    "c0e2fbfa95b6500c"
   ],
   "delay": [
     "c590c4843d52cbf4"
@@ -51828,6 +51872,7 @@
   ],
   "devops": [
     "03050bbee04c1cb9",
+    "034eb6fb19cc1d45",
     "04c2fcdaebbe7fc9",
     "061e12baf0162213",
     "120e456a1810c267",
@@ -51959,6 +52004,7 @@
     "b461c9b06292e748",
     "b755f98869de4cdb",
     "b90ce1f35fddcbc9",
+    "bcdf4362bed475b2",
     "c809293a52c75272",
     "d1927d7fc0f759c0",
     "dd5d39e1fac696f4",
@@ -52289,6 +52335,7 @@
     "3c831d2df626a27a",
     "3fbdcb7e06dd9dbe",
     "419989eab2a3b12c",
+    "4bd03d1bda558ef3",
     "4fcaeea7bb13a875",
     "50870c1ff1e51951",
     "519728a88eaf532b",
@@ -52324,9 +52371,11 @@
     "d0f916422181a327",
     "d48173b65d0e55ea",
     "d6f9842e6139da67",
+    "d72c9a60b171d9fd",
     "e5dfc583053fbb13",
     "e9faf4e014c8c6ef",
     "ec0540e28e890311",
+    "f2d44d9966575a9c",
     "f8cbde6359af9d30",
     "ffa909d38ee34466"
   ],
@@ -56946,6 +56995,7 @@
     "e910a94ebc945d44"
   ],
   "dynamic-mode-decomposition": [
+    "0eca725321b86183",
     "b8a89e77cd608477"
   ],
   "dynamic-networks": [
@@ -57823,6 +57873,7 @@
     "578da28b7273f197",
     "60eb4d173f48b3fb",
     "696117e99d3aea50",
+    "868bb4daff0b0d97",
     "8bc05b7da7071ac2",
     "8ecde8dd2a119dd3",
     "920941d999fe41e2",
@@ -61114,7 +61165,8 @@
     "f398d8ffa4774c38"
   ],
   "examples-code-test": [
-    "c26e43272ab1553b"
+    "c26e43272ab1553b",
+    "d792eed9c0dbc9f2"
   ],
   "examples-cpu": [
     "5a8a22b8927ae2ca"
@@ -64515,7 +64567,8 @@
     "424497cd064cf131",
     "a6988d1fe15d20f9",
     "bf0430bc38cf41a3",
-    "eaf8d3114da46503"
+    "eaf8d3114da46503",
+    "f46abba5c4dc79e4"
   ],
   "flow-propagation": [
     "94fcb7c6f2e6da9b"
@@ -67145,7 +67198,8 @@
     "94dd4a500f8eadaf",
     "b2d150cbb2da67a7",
     "c4cae3e1cc1a6b96",
-    "f348a076dfc67b89"
+    "f348a076dfc67b89",
+    "fbd9b35a37cb7d89"
   ],
   "gaviota": [
     "50dd65dc7bd7d8f8"
@@ -67775,6 +67829,9 @@
   ],
   "generate-analytics-pr": [
     "8c81bb26e2cf1ff7"
+  ],
+  "generate-and-deploy-docs": [
+    "d51bc926ea5a287b"
   ],
   "generate-and-deploy-documentation": [
     "a9eeca6944923c75"
@@ -68681,6 +68738,7 @@
     "25484b45d394b161",
     "2fcef853219e435b",
     "3c37b058f78848b7",
+    "3d9e06f66121cadb",
     "4bb321ddeedf305d",
     "5a13a65acf8129d5",
     "70044fe8a366385d",
@@ -71963,6 +72021,7 @@
     "415332873d8b0dcb",
     "4197fad56ac665bd",
     "4c8b21083c89acdd",
+    "54aa5d46eb136cc9",
     "597f2e103923c0fe",
     "5a1c72d4db3a185f",
     "5e2ba4bbfdd14bc6",
@@ -75688,6 +75747,9 @@
   "hbuilderx": [
     "acb470699de87ea0"
   ],
+  "hcloud": [
+    "2e91eab917b86ae2"
+  ],
   "hcu-build-and-test": [
     "8367ba022c25a3b5"
   ],
@@ -76170,6 +76232,10 @@
   "hermit": [
     "b8ae3ed1f331b0e7"
   ],
+  "hermite-polynomials": [
+    "196c73b16af81aa2",
+    "b9fe87a058548f37"
+  ],
   "heroku": [
     "07853e23ef1ccdbe",
     "081c4586356b7e5e",
@@ -76279,10 +76345,12 @@
   "hetzner": [
     "14ab48f4dabcb8bd",
     "23112b4153dd40bc",
-    "23fc8480fbf0a4dc"
+    "23fc8480fbf0a4dc",
+    "810c46f1e47f49d4"
   ],
   "hetzner-cloud": [
-    "6d91116171cac30e"
+    "6d91116171cac30e",
+    "7c6e429e71ef1c84"
   ],
   "hevc": [
     "8ab761fa09d97173",
@@ -76333,6 +76401,10 @@
   ],
   "hic-enhancement": [
     "2acc0b75baeb9290"
+  ],
+  "hicache": [
+    "25ddba1373b18b2e",
+    "9e5167b00f976d44"
   ],
   "hiccup": [
     "473ef5ab7e612a39",
@@ -79728,7 +79800,11 @@
     "6573952d07927f40"
   ],
   "image-to-3d": [
+    "070d1bfd782ba869",
+    "0a90713ef8ec80f9",
     "198c5d010ed1be8b",
+    "8d07fc27c2d44765",
+    "a14822ba8a46f642",
     "c573dc076af9e063",
     "c85a54749fc50e70",
     "c9e47bea8cb01d91",
@@ -80542,6 +80618,7 @@
     "6c2e80c4f0f1608e"
   ],
   "inflate": [
+    "37cf1690d7a73a65",
     "704db58543d6c797",
     "e0a77c16040d127d"
   ],
@@ -84078,7 +84155,8 @@
   ],
   "jetpack": [
     "233d5bda89f778a6",
-    "49993820883ab13e"
+    "49993820883ab13e",
+    "6ba37679c1328225"
   ],
   "jetpack-compose": [
     "56e8c5262b9f67d5",
@@ -86881,6 +86959,7 @@
     "5eb3a13267f8a9c6",
     "5f43b93b1f430a86",
     "614e22cf8caf47bd",
+    "615704b11729de51",
     "61bc3872be933500",
     "6328d39d30973522",
     "64c35b642bd51dc4",
@@ -86971,6 +87050,7 @@
     "c826f6af85c894be",
     "c8609f908324d40f",
     "cd75460ec79e7d0f",
+    "cdb989cbf065298e",
     "d46aae017063d54b",
     "d475fae8410386d8",
     "d50c684798c69f25",
@@ -90585,6 +90665,7 @@
     "58d827c3c4b4b396",
     "5941a1bc24a1b170",
     "5961b25374d98e1e",
+    "5963d36c348af8c6",
     "596abdd07955e7ea",
     "59dd8907e1a6177f",
     "59f5fc70be21b898",
@@ -94577,7 +94658,8 @@
     "7524a211ac851e61",
     "91e6a8f7ee37f9c7",
     "9ae58284345c1ae0",
-    "9b7988589a96f9e1"
+    "9b7988589a96f9e1",
+    "f5975c22afda16d5"
   ],
   "luajit-ffi": [
     "0a331e0c27577326"
@@ -100185,7 +100267,8 @@
     "15d24c790aa441e9"
   ],
   "minkowski": [
-    "d5034cfad57e89d9"
+    "d5034cfad57e89d9",
+    "e7eeb89fdb065e0e"
   ],
   "minkowski-engine": [
     "22d4696511b3a00c",
@@ -109502,6 +109585,7 @@
     "7dfedf5b0486c8c1",
     "81360c4076d62b2c",
     "827542d3761bf94c",
+    "874f651448840c93",
     "87c76332ed51571d",
     "8a8e712cdd4c6d6b",
     "8b9a6719ef6be783",
@@ -110275,7 +110359,9 @@
   "offsetting": [
     "7c38b73fd140d579",
     "d7ee1e9e808e110b",
-    "de8ceb09f3972c56"
+    "de8ceb09f3972c56",
+    "e7622aa0a975954f",
+    "f5f42b7b8279bd58"
   ],
   "ofs-ci": [
     "477a07ab6a7ce6a0"
@@ -117484,23 +117570,34 @@
   ],
   "polygon": [
     "024236d1e7084002",
+    "501e95a6f14cdd12",
     "b31193bff05743b6",
     "ee41777f0dadc700"
   ],
   "polygon-boolean": [
+    "4c9ec190b7ca94c5",
     "4f9b6f45eb51285e"
   ],
   "polygon-clipping": [
     "24d48f8fde88578b",
-    "cc93c5fea2cac3fc"
+    "658d3c332231968f",
+    "cc93c5fea2cac3fc",
+    "eb1d97aa3f7d35ae",
+    "ec33c81aae1616f3"
   ],
   "polygon-clipping-algorithm": [
-    "cafb6bc58f239c11"
+    "cafb6bc58f239c11",
+    "e4741f267aa95368"
   ],
   "polygon-intersection": [
-    "8d71a0a7c5684184"
+    "8d71a0a7c5684184",
+    "d325cb70f5d5632a"
+  ],
+  "polygon-offsetting": [
+    "8503ef6f64184d1f"
   ],
   "polygon-union": [
+    "4a0dc9c8dc1f827e",
     "6683672a65fec3b3"
   ],
   "polygonal-chain": [
@@ -122298,6 +122395,7 @@
     "c1688398881ca12d",
     "c1c3a6eb205b1392",
     "c1d70e59abe0d21a",
+    "c1fbf7111ad19a3b",
     "c2b8ff733d2a2b3d",
     "c3765ef4804cecab",
     "c3971acbf0fad2c3",
@@ -123612,6 +123710,9 @@
   "publish-releases-to-github": [
     "1182d5d271740477",
     "bdce214effa85fa9"
+  ],
+  "publish-releases-to-pypi": [
+    "944c6faf08e3e465"
   ],
   "publish-renderers": [
     "5b7d1cc60a4eda8d"
@@ -128047,6 +128148,7 @@
     "a0750fd3283b0366",
     "a5b2bd13dbf1e8cf",
     "bf908e16e86ac6b9",
+    "d15fedfcec996785",
     "e8add6eb1e314f8f",
     "fdc07d0817ca8319"
   ],
@@ -131200,6 +131302,7 @@
     "73f9e589a821d570",
     "73fa2f2205581a9b",
     "740963b9ede460dc",
+    "74420c38bb1dda3f",
     "744d8139d91f8f51",
     "74fb4d93f07a0b6b",
     "752b15d748c70950",
@@ -133712,6 +133815,9 @@
     "d7d784cd8564f609",
     "f17af780e45aa5dd"
   ],
+  "releaser-pleaser": [
+    "e4a1e4ae82de249f"
+  ],
   "releases": [
     "170c0457f90400ae",
     "22446d1cc6c4633a",
@@ -136051,6 +136157,7 @@
     "8e90f1febdceb9a9"
   ],
   "robot": [
+    "05fbdd9080500144",
     "171b505b870e3f91",
     "21f33b0fa1a966c5",
     "5962407d08d1f885",
@@ -142518,6 +142625,9 @@
   "self-instruct": [
     "16ca0ffa0ad06870",
     "6aa1f52b46cb46e5"
+  ],
+  "self-intersection": [
+    "227e72ddcb1cd252"
   ],
   "self-play": [
     "06d1c6bb9d48a642",
@@ -158390,6 +158500,7 @@
     "a0725c6682709e82",
     "a0bb949f37e1f4d1",
     "a188c7414805bc74",
+    "a191ca170e0d5e69",
     "a2e002ce7cec08d5",
     "a2e2e611c7072660",
     "a350adc951388ced",
@@ -159106,6 +159217,7 @@
     "8333088072ee25de",
     "8cb3b156f96711c5",
     "b20bdf9c6164b3c6",
+    "d1c5c5091128ba5e",
     "d760a6f7461fa213"
   ],
   "text-to-audio": [
@@ -161174,12 +161286,15 @@
   ],
   "training-free": [
     "0137920fd7098576",
+    "05b18797f934af55",
     "715c314d60c32612",
     "740f55dc3f23c803",
     "7681a108c3459eda",
     "8cab20adcd3999a0",
     "a64cdd78d05ac424",
-    "e5fdb4b8aa960ae3"
+    "c9d0d01b6b41a9a5",
+    "e5fdb4b8aa960ae3",
+    "e857d2e926e91821"
   ],
   "training-materials": [
     "32c2c221a6296e5a"
@@ -161934,6 +162049,15 @@
   "treeview": [
     "d5d7d4df605cb676"
   ],
+  "trellis": [
+    "08e340ee081171ba",
+    "b9d4a979b9740342",
+    "d611fa4b819fece7"
+  ],
+  "trellis2": [
+    "7f180aecd5f2ad2c",
+    "c8e84d6bc0c63c51"
+  ],
   "trellix-command-line-scanner": [
     "eb4c103772132af7"
   ],
@@ -161984,6 +162108,7 @@
   "triangulation": [
     "16bc0f85e4969449",
     "28915f423cc57906",
+    "9e37980cabbfee82",
     "a51ef06a126e878f",
     "fa8c9ba200781c92"
   ],
@@ -167465,8 +167590,12 @@
     "7afb0d321868e499",
     "a01f1ef8516d59bb",
     "b2e113b8da6f730b",
+    "c535335a2b40f956",
     "ca553dd00f3e3201",
     "cfc883d514f59899"
+  ],
+  "vapoursynth-functions": [
+    "e967c6c021df8914"
   ],
   "variable-font": [
     "5e4107a22bcf6be6",
@@ -167530,6 +167659,12 @@
   ],
   "vary-toy": [
     "4707c709ee0290a1"
+  ],
+  "vatti": [
+    "1917afce3fd1dc59"
+  ],
+  "vatti-clipping": [
+    "98d7bc3681076165"
   ],
   "vault": [
     "10708cb148791af1",
@@ -168760,6 +168895,7 @@
     "377c21fa0e20ff6a",
     "4aaab496462de24a",
     "4ba6ea8e90236982",
+    "6175a3b91ba18528",
     "6ebbdbfa1e5545b3",
     "804d6a93a6a9b65e",
     "bc406145580122e2",
@@ -171733,6 +171869,7 @@
     "761e1220e7fb85d0",
     "768a0dea0d0539a8",
     "7858ab237cffae80",
+    "78929a67f5cb28fd",
     "80a3028510e0d725",
     "81557f597f0cb235",
     "82adeb76ac618324",
@@ -172363,6 +172500,7 @@
     "3edb7b2b5b68249a",
     "404105bd827c606f",
     "4185a5a1222e5a10",
+    "46db3ec51164bc5b",
     "47cc7ca91a4cce5f",
     "495a07f0cb6c7e3d",
     "49bba4db5ea73479",
@@ -174862,6 +175000,7 @@
     "ef99af7f6e5448a4"
   ],
   "wrappers": [
+    "77e4c45c4a6bfb41",
     "e5a3fe557a65680a"
   ],
   "write": [
@@ -175830,6 +175969,7 @@
     "60738fe99863ee8d"
   ],
   "yolov5": [
+    "09c93df7adbb3565",
     "14127ee6006e741d",
     "1a62e9f9b9c50883",
     "261d9b2eb2ebea5e",
@@ -175888,6 +176028,7 @@
     "33eb9cacfba3ae2f",
     "3c24bac1586b3e55",
     "3d2a4652d39d7603",
+    "47c9d6c57779751f",
     "5157201beef01c95",
     "5c4aea8f93204703",
     "a04d62462984e1b3",

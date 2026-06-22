@@ -742,6 +742,18 @@
       "source_repo": "triton-inference-server/server",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "bootstrap K3s over SSH in < 60s \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_glosses": [
@@ -1110,6 +1122,12 @@
       "source_repo": "triton-inference-server/server",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -2779,11 +2797,29 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/k3sup"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

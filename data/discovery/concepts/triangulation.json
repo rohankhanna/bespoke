@@ -55,6 +55,18 @@
       "source_repo": "Fil/d3-tricontour",
       "status": "candidate-context",
       "text": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Fil/d3-tricontour",
       "status": "candidate",
       "text": "This library computes contour polygons by applying [meandering triangles](https://blog.bruce-hill.com/meandering-triangles) to an array of points with arbitrary 2D coordinates (_x_, _y_) holding numeric values _z_. To compute contours on gridded coordinates, see [d3-contour](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Fil/d3-tricontour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

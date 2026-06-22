@@ -84,7 +84,7 @@
   "normalized_form": "windows-tests",
   "observation_id": "ba0cd6651a4478d2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
   "observed_text": "Windows tests",
   "source_context_snippet": "Windows tests",
   "source_file": ".github/workflows/windows_build.yml",

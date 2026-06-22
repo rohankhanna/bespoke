@@ -269,6 +269,18 @@
       "source_repo": "obsidianmd/obsidian-clipper",
       "status": "candidate-context",
       "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "bootstrap K3s over SSH in < 60s \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_glosses": [
@@ -403,6 +415,12 @@
       "source_repo": "obsidianmd/obsidian-clipper",
       "status": "candidate",
       "text": "Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -1658,11 +1676,35 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "webview2/EdgeSharp.Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/k3sup"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

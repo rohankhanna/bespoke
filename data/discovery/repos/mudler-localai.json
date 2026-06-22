@@ -243,7 +243,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "localai-org/apex-quant",
+      "target": "localai-org/localai-realtime-demo",
       "target_type": "repository"
     },
     {
@@ -611,7 +611,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:27:10.621496+00:00",
+  "fetched_at": "2026-06-22T16:35:31.492757+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -663,8 +663,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-06-22T10:21:58Z",
-    "stargazers_count": 47058,
+    "pushed_at": "2026-06-22T16:26:19Z",
+    "stargazers_count": 47059,
     "topics": [
       "agents",
       "ai",
@@ -685,7 +685,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-06-22T10:22:03Z"
+    "updated_at": "2026-06-22T16:26:25Z"
   },
   "repo_links": [
     {
@@ -705,7 +705,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "localai-org/apex-quant",
+      "full_name": "localai-org/localai-realtime-demo",
       "source_file": "README.md"
     }
   ],

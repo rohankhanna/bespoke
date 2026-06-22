@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CMake Modules and Basic Libraries for C/C++ projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cmake-modules",
+      "sense_id": "cmake-modules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmake-modules",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmake-modules",
+  "observation_id": "4267a9c0be5b41ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_text": "cmake-modules",
+  "source_context_snippet": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects.",
+  "source_file": null,
+  "source_repo": "stdware/qmsetup",
+  "source_repo_description": "CMake Modules and Basic Libraries for C/C++ projects."
+}

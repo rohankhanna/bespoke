@@ -1,0 +1,12 @@
+{
+  "component": "hetznercloud/setup-hcloud@ac9e7d74fb41a3ca44a6a3da123bd5aa70731e3a",
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager"
+    }
+  ]
+}

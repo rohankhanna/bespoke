@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
-      "target": "localai-org/apex-quant",
+      "target": "localai-org/localai-realtime-demo",
       "target_type": "repository"
     },
     {
@@ -379,6 +379,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
   "source_repo": "mudler/LocalAI"
 }

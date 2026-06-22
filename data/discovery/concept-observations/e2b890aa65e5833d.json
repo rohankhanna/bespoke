@@ -84,7 +84,7 @@
   "normalized_form": "cicd-nemo",
   "observation_id": "e2b890aa65e5833d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
   "observed_text": "CICD NeMo",
   "source_context_snippet": "CICD NeMo",
   "source_file": ".github/workflows/cicd-main.yml",

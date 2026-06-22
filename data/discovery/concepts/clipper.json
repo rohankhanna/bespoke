@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "clipper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countertype/clipper2-ts",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891972,
+      "status": "candidate",
+      "text": "limiter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29943180,
+      "status": "candidate",
+      "text": "clipper ship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938083,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29933196,
+      "status": "candidate",
+      "text": "yacht"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994385,
+      "status": "candidate",
+      "text": "earclip"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "clippers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "limiter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "clipper ship"
+    }
+  ],
+  "canonical_name": "clipper",
+  "concept_id": "clipper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts"
+    }
+  ],
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clipper",
+      "sense_id": "clipper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

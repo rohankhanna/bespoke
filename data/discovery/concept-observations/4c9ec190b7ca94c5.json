@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Polygon Clipping and Offsetting - LuaJIT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polygon-boolean",
+      "sense_id": "polygon-boolean#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "polygon-boolean",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "polygon-boolean",
+  "observation_id": "4c9ec190b7ca94c5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_text": "polygon-boolean",
+  "source_context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+  "source_file": null,
+  "source_repo": "Ark223/Clipper2-Lua",
+  "source_repo_description": "Polygon Clipping and Offsetting - LuaJIT"
+}

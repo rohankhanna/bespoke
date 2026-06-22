@@ -713,7 +713,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T09:46:08.276133+00:00",
+  "fetched_at": "2026-06-22T16:28:36.126736+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -765,10 +765,10 @@
     "full_name": "langchain-ai/langchainjs",
     "html_url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
-    "pushed_at": "2026-06-20T15:16:05Z",
-    "stargazers_count": 17831,
+    "pushed_at": "2026-06-22T15:13:52Z",
+    "stargazers_count": 17834,
     "topics": [],
-    "updated_at": "2026-06-22T08:46:22Z"
+    "updated_at": "2026-06-22T16:05:52Z"
   },
   "repo_links": [],
   "terms": [

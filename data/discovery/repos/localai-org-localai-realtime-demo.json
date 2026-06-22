@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "richiejp/voxinput",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "gen2brain/malgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "mudler/mcps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/localai-realtime-demo",
+      "target": "localai-org/localvqe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-22T16:35:35.296474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8876
+    },
+    {
+      "path": "go.mod",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "localai-org/localai-realtime-demo",
+    "html_url": "https://github.com/localai-org/localai-realtime-demo",
+    "language": "Go",
+    "pushed_at": "2026-06-15T08:17:08Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-06-17T00:36:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gen2brain/malgo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "localai-org/localvqe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mudler/mcps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richiejp/voxinput",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

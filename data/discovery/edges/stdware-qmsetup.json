@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qmsetup",
+      "target": "sinestriker/syscmdline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qmsetup",
+      "target": "jothepro/doxygen-awesome-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qmsetup",
+      "target": "chuyu-team/vc-ltl5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup",
+      "target": "cmake-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup",
+      "target": "cmake-utils",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
+  "source_repo": "stdware/qmsetup"
+}

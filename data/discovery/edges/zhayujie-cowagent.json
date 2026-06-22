@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "zhayujie/CowAgent",
-      "target": "webpy/webpy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-image-arm.yml",
       "source_repo": "zhayujie/CowAgent",
@@ -176,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
   "source_repo": "zhayujie/CowAgent"
 }

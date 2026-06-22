@@ -31,6 +31,18 @@
       "source_repo": "robotology/ycm-cmake-modules",
       "status": "candidate-context",
       "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate-context",
+      "text": "CMake Modules and Basic Libraries for C/C++ projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate-context",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "robotology/ycm-cmake-modules",
       "status": "candidate",
       "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

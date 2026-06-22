@@ -934,6 +934,18 @@
       "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
       "status": "candidate-context",
       "text": "(WIP) CMake FetchContent example"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate-context",
+      "text": "CMake Modules and Basic Libraries for C/C++ projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate-context",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
     }
   ],
   "candidate_glosses": [
@@ -1398,6 +1410,12 @@
       "source_repo": "eliasdaler/imgui-sfml-fetchcontent",
       "status": "candidate",
       "text": "(WIP) CMake FetchContent example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qmsetup",
+      "status": "candidate",
+      "text": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects."
     }
   ],
   "candidate_related_terms": [
@@ -4159,11 +4177,47 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-find-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "libsndfile/libsndfile"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

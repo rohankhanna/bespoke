@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish releases to PyPI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "status": "candidate-context",
+      "text": "Collection of JET's Vapoursynth packages for video filtering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "status": "candidate-context",
+      "text": "Publish releases to PyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "status": "candidate",
+      "text": "Publish releases to PyPI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "vent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10604,
+      "status": "candidate",
+      "text": "blaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10604,
+      "status": "candidate",
+      "text": "blazed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish releases to PyPI",
+  "concept_id": "publish-releases-to-pypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    }
+  ],
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish releases to PyPI",
+      "sense_id": "publish-releases-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vectordb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "rickstaa/action-black@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "lancedb/yoloexplorer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "lancedb/lancedb-vercel-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "vectordb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "rickstaa/action-black@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "black-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "Examples Code Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:31:15.166349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50596
+    },
+    {
+      "path": "package.json",
+      "size": 345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/examples-test.yml",
+      "size": 3570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High quality resources & applications for LLMs, multi-modal models and VectorDBs ",
+    "fork": true,
+    "full_name": "akashAD98/vectordb-recipes",
+    "html_url": "https://github.com/akashAD98/vectordb-recipes",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-03-09T20:47:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-09T06:00:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lancedb/lancedb-vercel-chatbot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lancedb/yoloexplorer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "black-action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "black-action"
+    },
+    {
+      "context_snippet": "Examples Code Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples-test.yml",
+      "term": "Examples Code Test"
+    }
+  ]
+}

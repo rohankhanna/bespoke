@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "lancedb/yoloexplorer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "lancedb/lancedb-vercel-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "vectordb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "rickstaa/action-black@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "black-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples-test.yml",
+      "source_repo": "akashAD98/vectordb-recipes",
+      "target": "Examples Code Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
+  "source_repo": "akashAD98/vectordb-recipes"
+}

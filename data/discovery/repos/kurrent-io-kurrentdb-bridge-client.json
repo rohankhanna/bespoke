@@ -216,7 +216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T09:44:58.737328+00:00",
+  "fetched_at": "2026-06-22T16:27:31.164950+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -236,7 +236,7 @@
     },
     {
       "path": ".github/workflows/release-package.yml",
-      "size": 3662
+      "size": 4003
     },
     {
       "path": ".github/workflows/test.yml",
@@ -252,7 +252,7 @@
     "full_name": "kurrent-io/KurrentDB-Bridge-Client",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Bridge-Client",
     "language": "Rust",
-    "pushed_at": "2026-06-22T09:41:14Z",
+    "pushed_at": "2026-06-22T11:48:49Z",
     "stargazers_count": 1,
     "topics": [
       "kurrentdb",
@@ -260,7 +260,7 @@
       "neon",
       "nodejs"
     ],
-    "updated_at": "2026-06-22T09:29:06Z"
+    "updated_at": "2026-06-22T11:48:53Z"
   },
   "repo_links": [
     {

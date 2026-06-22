@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "robot"
+    "robot",
+    "Robot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +118,18 @@
       "source_repo": "rai-opensource/spatialmath-python",
       "status": "candidate-context",
       "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Kubernetes cloud-controller-manager for Hetzner Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Robot"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +186,12 @@
       "source_repo": "rai-opensource/spatialmath-python",
       "status": "candidate",
       "text": "[![A Python Robotics Package](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/py_collection.min.svg)](https://github.com/petercorke/robotics-toolbox-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+      "status": "candidate",
+      "text": "Robot"
     }
   ],
   "candidate_related_terms": [
@@ -1069,11 +1090,29 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "petercorke/spatialmath-matlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/robot.yml",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

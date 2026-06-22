@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lancedb/yoloexplorer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lancedb/yoloexplorer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lancedb/yoloexplorer",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lancedb/yoloexplorer",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lancedb/yoloexplorer",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lancedb/yoloexplorer",
+      "target": "yolov8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:31:20.085090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10321
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1088
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YOLOExplorer : Iterate on your YOLO / CV datasets using SQL, Vector semantic search, and more within seconds",
+    "fork": false,
+    "full_name": "lancedb/yoloexplorer",
+    "html_url": "https://github.com/lancedb/yoloexplorer",
+    "language": "Python",
+    "pushed_at": "2026-06-01T16:42:53Z",
+    "stargazers_count": 143,
+    "topics": [
+      "computer-vision",
+      "object-detection",
+      "yolov5",
+      "yolov8"
+    ],
+    "updated_at": "2026-06-21T18:20:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Explore, manipulate and iterate on Computer Vision datasets with precision using simple APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Explore, manipulate and iterate on Computer Vision datasets with precision using simple APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "Explore, manipulate and iterate on Computer Vision datasets with precision using simple APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "Explore, manipulate and iterate on Computer Vision datasets with precision using simple APIs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    }
+  ]
+}

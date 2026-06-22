@@ -235,6 +235,18 @@
       "source_repo": "RapidAI/LabelConvert",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/yoloexplorer",
+      "status": "candidate-context",
+      "text": "YOLOExplorer : Iterate on your YOLO / CV datasets using SQL, Vector semantic search, and more within seconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/yoloexplorer",
+      "status": "candidate-context",
+      "text": "Explore, manipulate and iterate on Computer Vision datasets with precision using simple APIs."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "RapidAI/LabelConvert",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/yoloexplorer",
+      "status": "candidate",
+      "text": "Explore, manipulate and iterate on Computer Vision datasets with precision using simple APIs."
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +820,23 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "lancedb/yoloexplorer"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

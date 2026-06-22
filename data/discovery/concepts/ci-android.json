@@ -56,6 +56,18 @@
       "source_repo": "ggml-org/whisper.cpp",
       "status": "candidate-context",
       "text": "CI (android)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TheTom/llama-cpp-turboquant",
+      "status": "candidate-context",
+      "text": "LLM inference in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TheTom/llama-cpp-turboquant",
+      "status": "candidate-context",
+      "text": "CI (android)"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate",
+      "text": "CI (android)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TheTom/llama-cpp-turboquant",
       "status": "candidate",
       "text": "CI (android)"
     }
@@ -653,11 +671,29 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "TheTom/llama-cpp-turboquant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

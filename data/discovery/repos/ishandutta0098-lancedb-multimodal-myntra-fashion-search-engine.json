@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-22T15:31:16.806980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "lancedb-myntra-fashion-search",
+    "fork": false,
+    "full_name": "ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
+    "html_url": "https://github.com/ishandutta0098/lancedb-multimodal-myntra-fashion-search-engine",
+    "language": "Python",
+    "pushed_at": "2024-04-07T15:29:21Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-06-21T18:22:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

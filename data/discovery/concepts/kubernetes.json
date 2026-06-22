@@ -2788,6 +2788,30 @@
       "source_repo": "paperclipinc/karpenter-provider-hetzner",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Kubernetes cloud-controller-manager for Hetzner Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "bootstrap K3s over SSH in < 60s \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_glosses": [
@@ -4176,6 +4200,18 @@
       "source_repo": "paperclipinc/karpenter-provider-hetzner",
       "status": "candidate",
       "text": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/hetznercloud/hcloud-cloud-controller-manager/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -9439,11 +9475,71 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/k3sup"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

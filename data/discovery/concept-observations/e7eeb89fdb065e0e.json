@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18560480,
+      "status": "candidate",
+      "text": "brunn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16543200,
+      "status": "candidate",
+      "text": "miles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8580153,
+      "status": "candidate",
+      "text": "minkler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8580152,
+      "status": "candidate",
+      "text": "minkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8580151,
+      "status": "candidate",
+      "text": "minsky"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minkowski",
+      "sense_id": "minkowski#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "minkowski",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minkowski",
+  "observation_id": "e7eeb89fdb065e0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_text": "minkowski",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+  "source_file": null,
+  "source_repo": "countertype/clipper2-ts",
+  "source_repo_description": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson"
+}

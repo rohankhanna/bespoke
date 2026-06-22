@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/ui",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gh-pages",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rolldown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "jhasse/poly2tri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "@vitest/ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "gh-pages",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "rolldown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "countertype/clipper2-ts",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "boolean-operations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "clipper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "clipper2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "delaunay-triangulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "minkowski",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "offsetting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "polygon-clipping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "self-intersection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "triangulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "vatti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countertype/clipper2-ts",
+      "target": "vatti-clipping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:31:06.813425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4490
+    },
+    {
+      "path": "package.json",
+      "size": 2168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TypeScript port of Clipper2 polygon clipping, offsetting, and triangulation library by Angus Johnson",
+    "fork": false,
+    "full_name": "countertype/clipper2-ts",
+    "html_url": "https://github.com/countertype/clipper2-ts",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-25T03:56:03Z",
+    "stargazers_count": 34,
+    "topics": [
+      "boolean-operations",
+      "clipper",
+      "clipper2",
+      "delaunay-triangulation",
+      "minkowski",
+      "offsetting",
+      "polygon-clipping",
+      "self-intersection",
+      "triangulation",
+      "vatti",
+      "vatti-clipping"
+    ],
+    "updated_at": "2026-05-29T01:44:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhasse/poly2tri",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boolean-operations"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipper"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipper2"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delaunay-triangulation"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minkowski"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offsetting"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-clipping"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-intersection"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triangulation"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vatti"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/clipper2-ts.svg)](https://www.npmjs.com/package/clipper2-ts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vatti-clipping"
+    }
+  ]
+}

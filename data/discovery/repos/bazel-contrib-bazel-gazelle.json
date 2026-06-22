@@ -55,7 +55,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:42:33.742578+00:00",
+  "fetched_at": "2026-06-22T15:12:08.533975+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -88,9 +88,9 @@
     "html_url": "https://github.com/bazel-contrib/bazel-gazelle",
     "language": "Go",
     "pushed_at": "2026-06-10T20:34:38Z",
-    "stargazers_count": 1396,
+    "stargazers_count": 1397,
     "topics": [],
-    "updated_at": "2026-06-15T21:42:34Z"
+    "updated_at": "2026-06-22T11:56:38Z"
   },
   "repo_links": [
     {

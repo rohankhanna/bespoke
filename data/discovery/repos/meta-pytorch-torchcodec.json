@@ -249,6 +249,13 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchcodec",
+      "target": "intel/torchlib-xpu.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "meta-pytorch/torchcodec",
       "target": "pytorch/torchcodec",
@@ -563,7 +570,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:41:12.013766+00:00",
+  "fetched_at": "2026-06-22T16:11:56.232039+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -615,12 +622,17 @@
     "full_name": "meta-pytorch/torchcodec",
     "html_url": "https://github.com/meta-pytorch/torchcodec",
     "language": "Python",
-    "pushed_at": "2026-06-21T12:17:05Z",
+    "pushed_at": "2026-06-22T13:22:57Z",
     "stargazers_count": 1131,
     "topics": [],
     "updated_at": "2026-06-22T06:57:44Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/torchlib-xpu.",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "pytorch/torchcodec",

@@ -103,6 +103,54 @@
       "source_repo": "guochengqian/Magic123",
       "status": "candidate-context",
       "text": "tqdm rich ninja numpy scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg pandas torch torchvision torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus",
+      "status": "candidate-context",
+      "text": "HiCache++ (DMD) carved-hybrid acceleration for TRELLIS.2-4B."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) carved-hybrid acceleration for TRELLIS v1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) carved-hybrid acceleration for TRELLIS.2-4B."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/TRELLIS",
+      "status": "candidate-context",
+      "text": "Official repo for paper \"Structured 3D Latents for Scalable and Versatile 3D Generation\" (CVPR'25 Spotlight)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TRELLIS",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/logo.webp\" width=\"100%\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "guochengqian/Magic123",
       "status": "candidate",
       "text": "tqdm rich ninja numpy scipy scikit-learn matplotlib opencv-python imageio imageio-ffmpeg pandas torch torchvision torch-ema einops tensorboard tensorboardX # for gui dearpygui # for grid_tcnn # git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch # for stable-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hermit-trellis2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TRELLIS",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo.webp\" width=\"100%\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +280,35 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "guochengqian/Magic123"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hermit-trellis2-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hermit-trellis2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/TRELLIS"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

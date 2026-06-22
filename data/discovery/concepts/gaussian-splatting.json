@@ -103,6 +103,18 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate-context",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate-context",
+      "text": "HiCache (Hermite) carved-hybrid acceleration for TRELLIS v1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/faster-trellis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "hku-mars/FAST-LIVO2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/faster-trellis"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

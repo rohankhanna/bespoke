@@ -336,7 +336,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:37:15.984227+00:00",
+  "fetched_at": "2026-06-22T14:37:17.992042+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -369,7 +369,7 @@
     "html_url": "https://github.com/JuliaGraphics/Luxor.jl",
     "language": "Julia",
     "pushed_at": "2026-05-28T13:59:53Z",
-    "stargazers_count": 623,
+    "stargazers_count": 624,
     "topics": [
       "2d-graphics",
       "cairo",
@@ -383,7 +383,7 @@
       "vector-graphics",
       "visualization"
     ],
-    "updated_at": "2026-05-28T13:59:58Z"
+    "updated_at": "2026-06-22T11:52:07Z"
   },
   "repo_links": [
     {

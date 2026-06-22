@@ -775,6 +775,30 @@
       "source_repo": "ruvnet/ruflo",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/TRELLIS",
+      "status": "candidate-context",
+      "text": "Official repo for paper \"Structured 3D Latents for Scalable and Versatile 3D Generation\" (CVPR'25 Spotlight)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TRELLIS",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/TRELLIS.2",
+      "status": "candidate-context",
+      "text": "Native and Compact Structured Latents for 3D Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TRELLIS.2",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -1159,6 +1183,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ruvnet/ruflo",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TRELLIS",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TRELLIS.2",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -2368,11 +2404,35 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/TRELLIS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/TRELLIS.2"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

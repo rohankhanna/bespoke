@@ -251,6 +251,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@types/js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@types/node",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -592,6 +597,11 @@
     },
     {
       "component": "jest-snapshot",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -1646,6 +1656,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/next.js",
+      "target": "@types/js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel/next.js",
       "target": "@types/node",
       "target_type": "component"
     },
@@ -2123,6 +2140,13 @@
       "source_file": "package.json",
       "source_repo": "vercel/next.js",
       "target": "jest-snapshot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel/next.js",
+      "target": "js-yaml",
       "target_type": "component"
     },
     {
@@ -3015,7 +3039,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:24:22.792116+00:00",
+  "fetched_at": "2026-06-22T15:27:59.618474+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -3023,7 +3047,7 @@
     },
     {
       "path": "package.json",
-      "size": 16221
+      "size": 16276
     },
     {
       "path": ".github/workflows/build_and_deploy.yml",
@@ -3067,8 +3091,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-06-22T11:21:22Z",
-    "stargazers_count": 140130,
+    "pushed_at": "2026-06-22T15:12:17Z",
+    "stargazers_count": 140132,
     "topics": [
       "blog",
       "browser",
@@ -3085,7 +3109,7 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-06-22T11:21:28Z"
+    "updated_at": "2026-06-22T15:14:29Z"
   },
   "repo_links": [],
   "terms": [

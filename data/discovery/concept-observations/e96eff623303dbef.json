@@ -77,7 +77,7 @@
   "normalized_form": "bazel-cuda",
   "observation_id": "e96eff623303dbef",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_at": "2026-06-22T14:08:32.759567+00:00",
   "observed_text": "Bazel CUDA",
   "source_context_snippet": "Bazel CUDA",
   "source_file": ".github/workflows/bazel_cuda_presubmit.yml",

@@ -155,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:24:57.584486+00:00",
+  "fetched_at": "2026-06-22T16:33:14.082524+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,9 +184,9 @@
     "html_url": "https://github.com/googleapis/google-api-php-client",
     "language": "PHP",
     "pushed_at": "2026-06-08T22:56:40Z",
-    "stargazers_count": 9796,
+    "stargazers_count": 9795,
     "topics": [],
-    "updated_at": "2026-06-20T09:49:03Z"
+    "updated_at": "2026-06-22T13:51:27Z"
   },
   "repo_links": [],
   "terms": [

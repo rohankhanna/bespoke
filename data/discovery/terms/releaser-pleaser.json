@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/releaser-pleaser.yml",
+      "source_repo": "hetznercloud/hcloud-cloud-controller-manager"
+    }
+  ],
+  "term": "Releaser-pleaser"
+}

@@ -12,7 +12,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "PlayVoice/whisper-vits-svc",
+      "target": "mindslab-ai/univnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/whisper-vits-svc",
       "target": "playvoice/so-vits-svc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PlayVoice/whisper-vits-svc",
+      "target": "francis-komizu/sovits",
       "target_type": "repository"
     },
     {
@@ -79,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T11:25:55.000621+00:00",
+  "fetched_at": "2026-06-22T15:30:09.525060+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -116,6 +130,16 @@
     "updated_at": "2026-06-21T23:39:44Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "francis-komizu/sovits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mindslab-ai/univnet",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "playvoice/so-vits-svc",

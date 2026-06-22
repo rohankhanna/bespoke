@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huggingface/hf-mcp-server",
-      "target": "modelcontextprotocol/modelcontextprotocol",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "huggingface/hf-mcp-server",
@@ -197,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
   "source_repo": "huggingface/hf-mcp-server"
 }

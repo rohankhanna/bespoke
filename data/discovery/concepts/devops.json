@@ -625,6 +625,18 @@
       "source_repo": "clearml/clearml-agent",
       "status": "candidate-context",
       "text": "ClearML Agent - MLOps/LLMOps made easy. MLOps/LLMOps scheduler & orchestration solution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "bootstrap K3s over SSH in < 60s \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_glosses": [
@@ -933,6 +945,12 @@
       "source_repo": "betterleaks/betterleaks",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/k3sup",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets/k3sup.png\" width=\"20%\" alt=\"k3sup logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -2661,11 +2679,35 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/k3sup"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

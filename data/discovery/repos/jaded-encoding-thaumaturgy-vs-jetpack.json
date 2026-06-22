@@ -1,0 +1,405 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml"
+    },
+    {
+      "component": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2.3.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2.3.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "jaded-encoding-thaumaturgy/jet-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "jaded-encoding-thaumaturgy/vs-wheels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "astral-sh/setup-uv@v8.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "Generate and deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "astral-sh/setup-uv@v8.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "astral-sh/setup-uv@v8.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "Publish releases to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "astral-sh/setup-uv@v8.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "coverallsapp/github-action@v2.3.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "Jaded-Encoding-Thaumaturgy/discord-failure-notifier@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "jetpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "vapoursynth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "vapoursynth-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "video-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+      "target": "wrappers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:30:48.358046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6026
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10081
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1811
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1348
+    },
+    {
+      "path": ".github/workflows/pypipublish.yml",
+      "size": 1156
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of JET's Vapoursynth packages for video filtering",
+    "fork": false,
+    "full_name": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
+    "html_url": "https://github.com/Jaded-Encoding-Thaumaturgy/vs-jetpack",
+    "language": "Python",
+    "pushed_at": "2026-06-18T14:30:27Z",
+    "stargazers_count": 68,
+    "topics": [
+      "jetpack",
+      "vapoursynth",
+      "vapoursynth-functions",
+      "video-processing",
+      "wrappers"
+    ],
+    "updated_at": "2026-06-18T14:32:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaded-encoding-thaumaturgy/jet-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaded-encoding-thaumaturgy/vs-wheels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate and deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate and deploy docs"
+    },
+    {
+      "context_snippet": "Publish releases to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "term": "Publish releases to PyPI"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetpack"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapoursynth"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapoursynth-functions"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    },
+    {
+      "context_snippet": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrappers"
+    }
+  ]
+}

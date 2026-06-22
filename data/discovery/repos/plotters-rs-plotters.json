@@ -151,6 +151,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "plotters-rs/plotters",
+      "target": "plotters-rs/plotters-minifb-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters",
+      "target": "plotters-rs/plotters-gtk-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters",
       "target": "google/evcxr",
       "target_type": "repository"
     },
@@ -159,20 +173,6 @@
       "source_file": "README.md",
       "source_repo": "plotters-rs/plotters",
       "target": "38/plotters-doc-data",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-canvas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "plotters-rs/plotters",
-      "target": "plotters-rs/plotters-cairo",
       "target_type": "repository"
     },
     {
@@ -400,7 +400,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T08:35:44.178061+00:00",
+  "fetched_at": "2026-06-22T15:31:24.057821+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,12 +472,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "plotters-rs/plotters-cairo",
+      "full_name": "plotters-rs/plotters-gtk-demo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "plotters-rs/plotters-canvas",
+      "full_name": "plotters-rs/plotters-minifb-demo",
       "source_file": "README.md"
     }
   ],

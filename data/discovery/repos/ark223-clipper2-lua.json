@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "boolean-operations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "clipping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "clipping-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "inflate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "offsetting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "polygon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "polygon-boolean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "polygon-clipping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "polygon-clipping-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "polygon-intersection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua",
+      "target": "polygon-union",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:31:01.624849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Polygon Clipping and Offsetting - LuaJIT",
+    "fork": false,
+    "full_name": "Ark223/Clipper2-Lua",
+    "html_url": "https://github.com/Ark223/Clipper2-Lua",
+    "language": "Lua",
+    "pushed_at": "2025-06-10T13:02:32Z",
+    "stargazers_count": 4,
+    "topics": [
+      "algorithm",
+      "boolean-operations",
+      "clipping",
+      "clipping-algorithm",
+      "geometry",
+      "inflate",
+      "lua",
+      "luajit",
+      "offsetting",
+      "polygon",
+      "polygon-boolean",
+      "polygon-clipping",
+      "polygon-clipping-algorithm",
+      "polygon-intersection",
+      "polygon-union"
+    ],
+    "updated_at": "2026-05-26T21:01:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boolean-operations"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipping"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipping-algorithm"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inflate"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offsetting"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-boolean"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-clipping"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-clipping-algorithm"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-intersection"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-union"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pypipublish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    }
+  ],
+  "term": "Publish releases to PyPI"
+}

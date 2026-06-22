@@ -4929,6 +4929,9 @@
   "ascend npu(manual)": [
     "ascend-npu-manual"
   ],
+  "ascend-a2-ci": [
+    "ascend-a2-ci"
+  ],
   "ascendc-pto ci": [
     "ascendc-pto-ci"
   ],
@@ -13642,6 +13645,9 @@
   "build stable": [
     "build-stable"
   ],
+  "build standalone environment": [
+    "build-standalone-environment"
+  ],
   "build static binaries for linux": [
     "build-static-binaries-for-linux"
   ],
@@ -21047,6 +21053,12 @@
   "clipboard-management": [
     "clipboard-management"
   ],
+  "clipper": [
+    "clipper"
+  ],
+  "clipper2": [
+    "clipper2"
+  ],
   "clipping": [
     "clipping"
   ],
@@ -21829,6 +21841,9 @@
   ],
   "cmake-tools": [
     "cmake-tools"
+  ],
+  "cmake-utils": [
+    "cmake-utils"
   ],
   "cmake-version": [
     "cmake-version"
@@ -40536,6 +40551,9 @@
   "generate analytics pr": [
     "generate-analytics-pr"
   ],
+  "generate and deploy docs": [
+    "generate-and-deploy-docs"
+  ],
   "generate and deploy documentation": [
     "generate-and-deploy-documentation"
   ],
@@ -44712,6 +44730,9 @@
   "hbuilderx": [
     "hbuilderx"
   ],
+  "hcloud": [
+    "hcloud"
+  ],
   "hcu-build-and-test": [
     "hcu-build-and-test"
   ],
@@ -45045,6 +45066,9 @@
   "hermit": [
     "hermit"
   ],
+  "hermite-polynomials": [
+    "hermite-polynomials"
+  ],
   "heroku": [
     "heroku"
   ],
@@ -45137,6 +45161,9 @@
   ],
   "hic-enhancement": [
     "hic-enhancement"
+  ],
+  "hicache": [
+    "hicache"
   ],
   "hiccup": [
     "hiccup"
@@ -68526,6 +68553,9 @@
   "polygon-intersection": [
     "polygon-intersection"
   ],
+  "polygon-offsetting": [
+    "polygon-offsetting"
+  ],
   "polygon-union": [
     "polygon-union"
   ],
@@ -72140,6 +72170,9 @@
   ],
   "publish releases to github": [
     "publish-releases-to-github"
+  ],
+  "publish releases to pypi": [
+    "publish-releases-to-pypi"
   ],
   "publish renderers": [
     "publish-renderers"
@@ -76989,6 +77022,9 @@
   "releaser": [
     "releaser"
   ],
+  "releaser-pleaser": [
+    "releaser-pleaser"
+  ],
   "releases": [
     "releases"
   ],
@@ -81818,6 +81854,9 @@
   ],
   "self-instruct": [
     "self-instruct"
+  ],
+  "self-intersection": [
+    "self-intersection"
   ],
   "self-play": [
     "self-play"
@@ -92821,6 +92860,12 @@
   "treeview": [
     "treeview"
   ],
+  "trellis": [
+    "trellis"
+  ],
+  "trellis2": [
+    "trellis2"
+  ],
   "trellix command line scanner": [
     "trellix-command-line-scanner"
   ],
@@ -96791,6 +96836,9 @@
   "vapoursynth": [
     "vapoursynth"
   ],
+  "vapoursynth-functions": [
+    "vapoursynth-functions"
+  ],
   "variable-font": [
     "variable-font"
   ],
@@ -96829,6 +96877,12 @@
   ],
   "vary-toy": [
     "vary-toy"
+  ],
+  "vatti": [
+    "vatti"
+  ],
+  "vatti-clipping": [
+    "vatti-clipping"
   ],
   "vault": [
     "vault"

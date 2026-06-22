@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -1111,13 +1118,6 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "better-auth",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
-      "target": "better-call",
       "target_type": "component"
     },
     {
@@ -2857,6 +2857,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "generated_at": "2026-06-22T14:08:32.759567+00:00",
   "source_repo": "lobehub/lobehub"
 }

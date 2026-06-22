@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "xaviergonz/js-angusj-clipper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "birch-san/box2d-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "boolean-operations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "polygon-clipping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "polygon-offsetting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ErikSom/Clipper2-WASM",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:31:11.935760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WASM port of Clipper 2 for Polygon Clipping and Offsetting",
+    "fork": false,
+    "full_name": "ErikSom/Clipper2-WASM",
+    "html_url": "https://github.com/ErikSom/Clipper2-WASM",
+    "language": "HTML",
+    "pushed_at": "2026-05-18T18:09:17Z",
+    "stargazers_count": 105,
+    "topics": [
+      "boolean-operations",
+      "polygon-clipping",
+      "polygon-offsetting",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-06-10T10:28:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birch-san/box2d-wasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xaviergonz/js-angusj-clipper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boolean-operations"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-clipping"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon-offsetting"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/clipper2-wasm.svg)](https://badge.fury.io/js/clipper2-wasm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

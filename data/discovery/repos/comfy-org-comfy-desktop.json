@@ -363,13 +363,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Comfy-Org/Comfy-Desktop",
-      "target": "comfy-org/comfyui-standalone-environments",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "Comfy-Org/Comfy-Desktop",
@@ -874,7 +867,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:31:47.663605+00:00",
+  "fetched_at": "2026-06-22T16:40:02.927567+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -923,13 +916,7 @@
     "topics": [],
     "updated_at": "2026-06-22T10:31:11Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "comfy-org/comfyui-standalone-environments",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "ToDesktop Build & Release",

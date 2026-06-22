@@ -19,6 +19,18 @@
       "source_repo": "AngusJohnson/Clipper2",
       "status": "candidate-context",
       "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate-context",
+      "text": "Polygon Clipping and Offsetting - LuaJIT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AngusJohnson/Clipper2",
       "status": "candidate",
       "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ark223/Clipper2-Lua",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/badge/Version-1.5.4-purple.svg)](https://github.com/AngusJohnson/Clipper2/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-06-22T08:16:23.314074+00:00",
       "source_file": null,
       "source_repo": "AngusJohnson/Clipper2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T14:08:32.759567+00:00",
+      "source_file": null,
+      "source_repo": "Ark223/Clipper2-Lua"
     }
   ],
   "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
   "lexical_providers": [
     "datamuse"
   ],

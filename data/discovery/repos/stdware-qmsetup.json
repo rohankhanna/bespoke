@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qmsetup",
+      "target": "sinestriker/syscmdline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qmsetup",
+      "target": "jothepro/doxygen-awesome-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qmsetup",
+      "target": "chuyu-team/vc-ltl5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup",
+      "target": "cmake-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qmsetup",
+      "target": "cmake-utils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T15:30:44.680041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CMake Modules and Basic Libraries for C/C++ projects.",
+    "fork": false,
+    "full_name": "stdware/qmsetup",
+    "html_url": "https://github.com/stdware/qmsetup",
+    "language": "CMake",
+    "pushed_at": "2026-04-15T17:18:55Z",
+    "stargazers_count": 68,
+    "topics": [
+      "cmake",
+      "cmake-modules",
+      "cmake-utils",
+      "cpp"
+    ],
+    "updated_at": "2026-05-13T06:38:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chuyu-team/vc-ltl5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jothepro/doxygen-awesome-css",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sinestriker/syscmdline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-modules"
+    },
+    {
+      "context_snippet": "**QMSetup** is a set of CMake Modules and Basic Libraries for C/C++ projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-utils"
+    }
+  ]
+}

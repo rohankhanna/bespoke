@@ -78,13 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "zhayujie/CowAgent",
-      "target": "webpy/webpy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-image-arm.yml",
       "source_repo": "zhayujie/CowAgent",
@@ -253,7 +246,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T10:29:17.480356+00:00",
+  "fetched_at": "2026-06-22T16:37:41.962518+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -294,7 +287,7 @@
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
     "pushed_at": "2026-06-22T05:04:56Z",
-    "stargazers_count": 45546,
+    "stargazers_count": 45554,
     "topics": [
       "ai",
       "ai-agent",
@@ -313,15 +306,9 @@
       "openclaw",
       "skills"
     ],
-    "updated_at": "2026-06-22T10:26:19Z"
+    "updated_at": "2026-06-22T16:25:27Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webpy/webpy",
-      "source_file": "requirements.txt"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Create and publish a Docker image",
