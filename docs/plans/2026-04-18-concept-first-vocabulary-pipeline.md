@@ -1,6 +1,6 @@
 # Concept-First Vocabulary Pipeline Plan
 
-> use this plan before implementing further vocabulary-pipeline changes. The repo should collect concepts with evidence, not merely accepted strings.
+> Use this plan before implementing further vocabulary-pipeline changes. The repo should collect concepts with evidence, not merely accepted strings.
 
 Goal: reshape vocabulary discovery so the dataset represents concepts, aliases, and evidence rather than a bag of words.
 

@@ -1,6 +1,6 @@
 # Live-Data / Frozen-Snapshot Decoupling Implementation Plan
 
-> Use to implement this plan task-by-task.
+> Implement this plan task-by-task.
 
 Goal: let discovery CI run continuously against a live `data` branch while user prototyping, embeddings, clustering, and vocabulary work stay pinned to explicit frozen dataset snapshots.
 

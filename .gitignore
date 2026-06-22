@@ -1,8 +1,7 @@
 # generated and local-only files
-feedback
-learnings
-
-
 __pycache__/
 *.pyc
-
+.pytest_cache/
+.venv/
+.env
+.env.*

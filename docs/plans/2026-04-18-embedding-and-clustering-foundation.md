@@ -1,6 +1,6 @@
 # Embedding and Clustering Foundation Plan
 
-> use this plan before implementing GPU-backed embedding, nearest-neighbor retrieval, or clustering. Keep the concept layer optimized for constant-time lookup, and treat embedding/clustering as a derived layer built from stable concept and observation artifacts.
+> Use this plan before implementing GPU-backed embedding, nearest-neighbor retrieval, or clustering. Keep the concept layer optimized for constant-time lookup, and treat embedding/clustering as a derived layer built from stable concept and observation artifacts.
 
 **Goal:** Turn the concept/observation corpus into an n-dimensional representation layer suitable for retrieval, clustering, and later recommendation/planning.
 

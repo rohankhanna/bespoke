@@ -1,6 +1,6 @@
 # English-Grounded Vocabulary Foundation Plan
 
-> use this plan before implementing concept-bucket and seeded-language changes. Vocabulary should model concepts, buckets, aliases, and ambiguity, not just accepted strings.
+> Use this plan before implementing concept-bucket and seeded-language changes. Vocabulary should model concepts, buckets, aliases, and ambiguity, not just accepted strings.
 
 Goal: establish a language-aware foundation for the vocabulary pipeline by seeding stable English closed-class entities and defining a bucket map for open concepts that supports multi-membership and polysemy.
 

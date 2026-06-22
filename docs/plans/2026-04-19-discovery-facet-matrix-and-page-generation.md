@@ -1,6 +1,6 @@
 # Discovery Facet Matrix And Page Generation Plan
 
-> Use to implement this plan task-by-task.
+> Implement this plan task-by-task.
 
 **Goal:** Add a GitHub-native facet-generation job that produces deterministic page/artifact slices over discovered repositories using non-overlapping freshness, star, language, and product-surface buckets.
 
