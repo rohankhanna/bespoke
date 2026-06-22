@@ -84,7 +84,7 @@
   "normalized_form": "ci---bazel-cuda-tests",
   "observation_id": "0e4697c8eedf35c0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "CI - Bazel CUDA tests",
   "source_context_snippet": "CI - Bazel CUDA tests",
   "source_file": ".github/workflows/bazel_cuda.yml",

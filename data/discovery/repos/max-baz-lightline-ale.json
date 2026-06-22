@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:46:27.241951+00:00",
+  "fetched_at": "2026-06-22T01:19:55.535266+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,7 +47,7 @@
     "html_url": "https://github.com/max-baz/lightline-ale",
     "language": "Vim script",
     "pushed_at": "2021-09-12T02:09:06Z",
-    "stargazers_count": 250,
+    "stargazers_count": 251,
     "topics": [
       "ale",
       "lightline",
@@ -55,7 +55,7 @@
       "vim",
       "vim-plugin"
     ],
-    "updated_at": "2026-02-24T09:54:35Z"
+    "updated_at": "2026-06-03T09:36:34Z"
   },
   "repo_links": [
     {

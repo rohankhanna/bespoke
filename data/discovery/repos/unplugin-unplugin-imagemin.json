@@ -286,7 +286,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-30T07:28:31.542578+00:00",
+  "fetched_at": "2026-06-22T00:59:43.113826+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -294,7 +294,7 @@
     },
     {
       "path": "package.json",
-      "size": 2727
+      "size": 2810
     }
   ],
   "related_repositories": [],
@@ -306,10 +306,10 @@
     "full_name": "unplugin/unplugin-imagemin",
     "html_url": "https://github.com/unplugin/unplugin-imagemin",
     "language": "TypeScript",
-    "pushed_at": "2026-05-28T17:03:40Z",
+    "pushed_at": "2026-06-15T06:53:57Z",
     "stargazers_count": 259,
     "topics": [],
-    "updated_at": "2026-04-22T01:03:14Z"
+    "updated_at": "2026-06-15T06:54:02Z"
   },
   "repo_links": [
     {

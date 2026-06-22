@@ -9,6 +9,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "velviagris/PaddleOCRFastAPI",
+      "target": "mushroomcat9998/paddleocr",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "velviagris/PaddleOCRFastAPI",
@@ -44,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:30:27.915754+00:00",
+  "fetched_at": "2026-06-22T01:02:55.144199+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -84,6 +91,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "cgcel/paddleocrfastapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mushroomcat9998/paddleocr",
       "source_file": "README.md"
     }
   ],

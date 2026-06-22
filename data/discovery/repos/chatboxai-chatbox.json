@@ -151,6 +151,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@ai-sdk/gateway",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@ai-sdk/google",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -466,6 +471,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@types/adm-zip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@types/auto-launch",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -482,11 +492,6 @@
     },
     {
       "component": "@types/canvas-confetti",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "canvas-confetti",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -646,6 +651,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "canvas-confetti",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "capacitor-plugin-safe-area",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -756,6 +766,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "fake-indexeddb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "file-loader",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -767,6 +782,11 @@
     },
     {
       "component": "form-data",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gray-matter",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -1416,6 +1436,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "@ai-sdk/gateway",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "@ai-sdk/google",
       "target_type": "component"
     },
@@ -1857,6 +1884,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "@types/adm-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "@types/auto-launch",
       "target_type": "component"
     },
@@ -1879,13 +1913,6 @@
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
       "target": "@types/canvas-confetti",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "chatboxai/chatbox",
-      "target": "canvas-confetti",
       "target_type": "component"
     },
     {
@@ -2109,6 +2136,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "canvas-confetti",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "capacitor-plugin-safe-area",
       "target_type": "component"
     },
@@ -2263,6 +2297,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "fake-indexeddb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "file-loader",
       "target_type": "component"
     },
@@ -2278,6 +2319,13 @@
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
       "target": "form-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
+      "target": "gray-matter",
       "target_type": "component"
     },
     {
@@ -2907,6 +2955,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "chatboxai/chatbox",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox",
       "target": "deepseek",
       "target_type": "term"
     },
@@ -2932,15 +2987,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:24:56.373046+00:00",
+  "fetched_at": "2026-06-22T00:53:47.852854+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13154
+      "size": 12690
     },
     {
       "path": "package.json",
-      "size": 12752
+      "size": 13496
     }
   ],
   "related_repositories": [],
@@ -2952,13 +3007,14 @@
     "full_name": "chatboxai/chatbox",
     "html_url": "https://github.com/chatboxai/chatbox",
     "language": "TypeScript",
-    "pushed_at": "2026-04-09T03:24:43Z",
-    "stargazers_count": 40205,
+    "pushed_at": "2026-06-12T08:17:17Z",
+    "stargazers_count": 40586,
     "topics": [
       "assistant",
       "chatbot",
       "chatgpt",
       "claude",
+      "claude-code",
       "copilot",
       "deepseek",
       "gemini",
@@ -2967,7 +3023,7 @@
       "ollama",
       "openai"
     ],
-    "updated_at": "2026-05-30T06:48:16Z"
+    "updated_at": "2026-06-21T23:39:47Z"
   },
   "repo_links": [],
   "terms": [
@@ -2988,6 +3044,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
     },
     {
       "context_snippet": "<p align=\"right\">",

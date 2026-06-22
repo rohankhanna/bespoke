@@ -344,6 +344,41 @@
       "target_type": "component"
     },
     {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "processing/processing-website",
+      "target": "wrangler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "cloudflare/wrangler-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "Deploy Processing Website",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "processing/processing-website",
@@ -372,6 +407,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "processing/processing-website"
 }

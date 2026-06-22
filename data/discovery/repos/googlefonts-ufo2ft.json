@@ -97,7 +97,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:32:51.807455+00:00",
+  "fetched_at": "2026-06-22T01:06:54.507012+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -109,7 +109,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 189
+      "size": 282
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -125,10 +125,10 @@
     "full_name": "googlefonts/ufo2ft",
     "html_url": "https://github.com/googlefonts/ufo2ft",
     "language": "Python",
-    "pushed_at": "2026-05-29T10:47:11Z",
-    "stargazers_count": 172,
+    "pushed_at": "2026-06-19T16:07:11Z",
+    "stargazers_count": 173,
     "topics": [],
-    "updated_at": "2026-05-29T10:47:15Z"
+    "updated_at": "2026-06-17T11:24:38Z"
   },
   "repo_links": [
     {

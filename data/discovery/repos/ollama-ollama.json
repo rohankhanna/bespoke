@@ -198,6 +198,186 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml"
     },
     {
@@ -437,6 +617,83 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "source_repo": "ollama/ollama",
+      "target": "test-llamacpp-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "ollama/ollama",
       "target": "actions/checkout@v4",
@@ -576,7 +833,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:24:52.074416+00:00",
+  "fetched_at": "2026-06-22T00:53:40.286547+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,7 +841,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 12513
+      "size": 13434
     },
     {
       "path": "go.mod",
@@ -596,11 +853,15 @@
     },
     {
       "path": ".github/workflows/release.yaml",
-      "size": 32123
+      "size": 32646
     },
     {
       "path": ".github/workflows/test-install.yaml",
       "size": 488
+    },
+    {
+      "path": ".github/workflows/test-llamacpp-update.yaml",
+      "size": 23916
     },
     {
       "path": ".github/workflows/test.yaml",
@@ -611,13 +872,13 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "fork": false,
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-29T23:33:40Z",
-    "stargazers_count": 172636,
+    "pushed_at": "2026-06-21T00:24:07Z",
+    "stargazers_count": 174675,
     "topics": [
       "deepseek",
       "gemma",
@@ -635,7 +896,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-30T07:17:07Z"
+    "updated_at": "2026-06-22T00:51:48Z"
   },
   "repo_links": [
     {
@@ -677,6 +938,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test-install.yaml",
       "term": "test-install"
+    },
+    {
+      "context_snippet": "test-llamacpp-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-llamacpp-update.yaml",
+      "term": "test-llamacpp-update"
     },
     {
       "context_snippet": "test",

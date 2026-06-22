@@ -32,6 +32,18 @@
       "source_repo": "microsoft/vscode-cmake-tools",
       "status": "candidate-context",
       "text": "CI (macOS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "CI (macOS)"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vscode-cmake-tools",
+      "status": "candidate",
+      "text": "CI (macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
       "status": "candidate",
       "text": "CI (macOS)"
     }
@@ -580,11 +598,23 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": ".github/workflows/ci-macos.yml",
       "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "TrenchBroom/TrenchBroom"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "gradle/actions/setup-gradle@v6",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -152,6 +152,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "siketyan/intellij-rustowl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_fdc.yaml",
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
+      "source_repo": "firebase/flutterfire"
     }
   ]
 }

@@ -64,9 +64,26 @@
       "component": "actions/delete-package-versions@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-bash.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-bash.yml"
     }
   ],
   "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "webpy/webpy",
+      "target_type": "repository"
+    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-image-arm.yml",
@@ -166,6 +183,20 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-bash.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-windows-bash.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent",
@@ -222,11 +253,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:31:50.878931+00:00",
+  "fetched_at": "2026-06-22T01:05:19.031517+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15473
+      "size": 17287
     },
     {
       "path": "Dockerfile",
@@ -238,7 +269,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 428
+      "size": 673
     },
     {
       "path": ".github/workflows/deploy-image-arm.yml",
@@ -247,19 +278,23 @@
     {
       "path": ".github/workflows/deploy-image.yml",
       "size": 2282
+    },
+    {
+      "path": ".github/workflows/test-windows-bash.yml",
+      "size": 782
     }
   ],
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
-    "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat).",
+    "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
     "fork": false,
     "full_name": "zhayujie/CowAgent",
     "html_url": "https://github.com/zhayujie/CowAgent",
     "language": "Python",
-    "pushed_at": "2026-05-29T02:20:05Z",
-    "stargazers_count": 44956,
+    "pushed_at": "2026-06-20T09:08:34Z",
+    "stargazers_count": 45518,
     "topics": [
       "ai",
       "ai-agent",
@@ -278,9 +313,15 @@
       "openclaw",
       "skills"
     ],
-    "updated_at": "2026-05-30T07:31:08Z"
+    "updated_at": "2026-06-21T21:34:58Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webpy/webpy",
+      "source_file": "requirements.txt"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Create and publish a Docker image",

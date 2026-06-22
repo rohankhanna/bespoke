@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/asciidoctor.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asciidoctor.yml"
     },
@@ -21,17 +21,17 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/github-script@v7",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     }
@@ -48,7 +48,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asciidoctor.yml",
       "source_repo": "emacs-eldev/eldev",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -76,14 +76,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emacs-eldev/eldev",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emacs-eldev/eldev",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -115,7 +115,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:49:41.519362+00:00",
+  "fetched_at": "2026-06-22T01:24:48.824184+00:00",
   "fetched_files": [
     {
       "path": ".github/workflows/asciidoctor.yml",
@@ -123,11 +123,11 @@
     },
     {
       "path": ".github/workflows/bytecompile.el",
-      "size": 670
+      "size": 701
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 7233
+      "size": 7511
     },
     {
       "path": ".github/workflows/util.js",
@@ -143,15 +143,15 @@
     "full_name": "emacs-eldev/eldev",
     "html_url": "https://github.com/emacs-eldev/eldev",
     "language": "Emacs Lisp",
-    "pushed_at": "2026-01-21T14:52:31Z",
-    "stargazers_count": 256,
+    "pushed_at": "2026-06-19T01:32:23Z",
+    "stargazers_count": 257,
     "topics": [
       "build-tool",
       "continuous-integration",
       "developer-tools",
       "emacs-lisp"
     ],
-    "updated_at": "2026-05-20T10:08:32Z"
+    "updated_at": "2026-06-12T16:24:53Z"
   },
   "repo_links": [],
   "terms": [

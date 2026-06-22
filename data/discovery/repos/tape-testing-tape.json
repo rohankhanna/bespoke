@@ -1,6 +1,11 @@
 {
   "components": [
     {
+      "component": "@ljharb/now",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@ljharb/resumer",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -37,6 +42,11 @@
     },
     {
       "component": "dotignore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "es-object-atoms",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -116,7 +126,122 @@
       "source_file": "package.json"
     },
     {
+      "component": "@arethetypeswrong/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@ljharb/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ljharb/tsconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/array.prototype.every",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/array.prototype.flatmap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/call-bind",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/concat-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/deep-equal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/defined",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/falafel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/get-package-type",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/inherits",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/minimist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/object-inspect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/object-is",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/object-keys",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/object.assign",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/readable-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/string.prototype.trim",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/tap",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -151,11 +276,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "encoding",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "es-value-fixtures",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -172,6 +292,11 @@
     },
     {
       "component": "jackspeak",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jiti",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -216,6 +341,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "ljharb/actions/.github/workflows/node.yml@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/node-aught.yml"
@@ -236,12 +366,7 @@
       "source_file": ".github/workflows/node-twenties.yml"
     },
     {
-      "component": "actions/checkout@v3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rebase.yml"
-    },
-    {
-      "component": "ljharb/rebase@master",
+      "component": "ljharb/actions/.github/workflows/rebase.yml@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rebase.yml"
     },
@@ -252,6 +377,13 @@
     }
   ],
   "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@ljharb/now",
+      "target_type": "component"
+    },
     {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
@@ -306,6 +438,13 @@
       "source_file": "package.json",
       "source_repo": "tape-testing/tape",
       "target": "dotignore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "es-object-atoms",
       "target_type": "component"
     },
     {
@@ -417,7 +556,168 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tape-testing/tape",
+      "target": "@arethetypeswrong/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
       "target": "@ljharb/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@ljharb/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/array.prototype.every",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/array.prototype.flatmap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/call-bind",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/concat-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/deep-equal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/defined",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/falafel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/get-package-type",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/inherits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/object-inspect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/object-is",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/object-keys",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/object.assign",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/string.prototype.trim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "@types/tap",
       "target_type": "component"
     },
     {
@@ -466,13 +766,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tape-testing/tape",
-      "target": "encoding",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "tape-testing/tape",
       "target": "es-value-fixtures",
       "target_type": "component"
     },
@@ -495,6 +788,13 @@
       "source_file": "package.json",
       "source_repo": "tape-testing/tape",
       "target": "jackspeak",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "jiti",
       "target_type": "component"
     },
     {
@@ -554,6 +854,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tape-testing/tape",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/node-aught.yml",
       "source_repo": "tape-testing/tape",
@@ -592,14 +899,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "tape-testing/tape",
-      "target": "actions/checkout@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rebase.yml",
-      "source_repo": "tape-testing/tape",
-      "target": "ljharb/rebase@master",
+      "target": "ljharb/actions/.github/workflows/rebase.yml@main",
       "target_type": "component"
     },
     {
@@ -624,35 +924,35 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T01:13:24.125791+00:00",
+  "fetched_at": "2026-06-22T01:16:53.372227+00:00",
   "fetched_files": [
     {
       "path": "package.json",
-      "size": 3696
+      "size": 4584
     },
     {
       "path": ".github/workflows/node-aught.yml",
-      "size": 210
+      "size": 373
     },
     {
       "path": ".github/workflows/node-pretest.yml",
-      "size": 233
+      "size": 264
     },
     {
       "path": ".github/workflows/node-tens.yml",
-      "size": 250
+      "size": 359
     },
     {
       "path": ".github/workflows/node-twenties.yml",
-      "size": 243
+      "size": 350
     },
     {
       "path": ".github/workflows/rebase.yml",
-      "size": 448
+      "size": 315
     },
     {
       "path": ".github/workflows/require-allow-edits.yml",
-      "size": 187
+      "size": 325
     }
   ],
   "related_repositories": [],
@@ -664,10 +964,10 @@
     "full_name": "tape-testing/tape",
     "html_url": "https://github.com/tape-testing/tape",
     "language": "JavaScript",
-    "pushed_at": "2025-03-07T16:55:49Z",
-    "stargazers_count": 5803,
+    "pushed_at": "2026-06-18T18:06:06Z",
+    "stargazers_count": 5800,
     "topics": [],
-    "updated_at": "2026-05-23T16:09:57Z"
+    "updated_at": "2026-06-18T18:06:11Z"
   },
   "repo_links": [],
   "terms": [

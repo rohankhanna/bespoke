@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+      "text": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     },
     {
       "source_kind": "source-snippet",
@@ -48,10 +48,10 @@
   "normalized_form": "ollama",
   "observation_id": "1c5cf74b5f492a0e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T07:10:34.990539+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "ollama",
   "source_context_snippet": "<p align=\"center\">",
   "source_file": null,
   "source_repo": "ollama/ollama",
-  "source_repo_description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+  "source_repo_description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
 }

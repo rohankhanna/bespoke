@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings-go.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/setup-go@v6",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings-go.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -32,14 +32,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings-ruby.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "ruby/setup-ruby@v1",
+      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bindings-ruby.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -51,212 +51,163 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
+      "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
+      "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "docker/setup-qemu-action@v3",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
+      "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "hendrikmuhs/ccache-action@v1.2.16",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "cross-platform-actions/action@v0.27.0",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "msys2/setup-msys2@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "microsoft/setup-msbuild@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/upload-artifact@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/github-script@v8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "mymindstorm/setup-emsdk@v14",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/setup-java@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "android-actions/setup-android@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/download-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "gradle/gradle-build-action@v2.4.2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "ggml-org/action-create-release@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/github-script@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "ggml-org/ccache-action@v1.2.16",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "docker/setup-buildx-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "docker/login-action@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "docker/build-push-action@v6",
+      "target": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/docker.yml",
+      "source_file": ".github/workflows/build-android.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "Publish Docker image",
+      "target": "CI (android)",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples-wasm.yml",
+      "source_file": ".github/workflows/build-clang.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples-wasm.yml",
+      "source_file": ".github/workflows/build-clang.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/configure-pages@v5",
+      "target": "ggml-org/ccache-action@v1.2.21",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples-wasm.yml",
+      "source_file": ".github/workflows/build-clang.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "mymindstorm/setup-emsdk@v14",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples-wasm.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/upload-pages-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples-wasm.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/deploy-pages@v4",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/examples-wasm.yml",
+      "source_file": ".github/workflows/build-clang.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "Examples WASM",
+      "target": "CI (clang)",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples.yml",
+      "source_file": ".github/workflows/build-coreml.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/examples.yml",
-      "source_repo": "ggml-org/whisper.cpp",
-      "target": "actions/setup-node@v6",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/examples.yml",
+      "source_file": ".github/workflows/build-coreml.yml",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "Examples Tests",
+      "target": "CI (coreml)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "CI (cpu)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "cross-platform-actions/action@fe0167d8082ac584754ef3ffb567fded22642c7d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "CI (freebsd)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gcc.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gcc.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gcc.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gcc.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "CI (gcc)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "ggml-org/whisper.cpp",
+      "target": "CI (macOS)",
       "target_type": "term"
     },
     {
@@ -295,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "ggml-org/whisper.cpp"
 }

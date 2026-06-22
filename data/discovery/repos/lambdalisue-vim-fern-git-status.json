@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:50:30.305284+00:00",
+  "fetched_at": "2026-06-22T01:25:59.907199+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,12 +83,12 @@
     "html_url": "https://github.com/lambdalisue/vim-fern-git-status",
     "language": "Vim script",
     "pushed_at": "2021-07-15T01:20:03Z",
-    "stargazers_count": 91,
+    "stargazers_count": 90,
     "topics": [
       "fern-vim-plugin",
       "git"
     ],
-    "updated_at": "2026-05-27T03:27:32Z"
+    "updated_at": "2026-06-18T13:41:23Z"
   },
   "repo_links": [
     {

@@ -4,7 +4,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
+      "target": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "target_type": "component"
     },
     {
@@ -18,14 +18,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
+      "target": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "target_type": "component"
     },
     {
@@ -44,6 +44,55 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Agentic Maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -53,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -81,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -109,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backmerge-release.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -130,7 +179,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -165,7 +214,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-cli-e2e-image.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -180,27 +229,6 @@
       "source_file": ".github/workflows/build-cli-e2e-image.yml",
       "source_repo": "microsoft/aspire",
       "target": "Build CLI E2E Docker Image",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Build native CLI archives",
       "target_type": "term"
     },
     {
@@ -225,6 +253,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "microsoft/aspire"
 }

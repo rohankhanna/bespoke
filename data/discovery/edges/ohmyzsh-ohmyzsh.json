@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -46,7 +46,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "ohmyzsh/ohmyzsh"
 }

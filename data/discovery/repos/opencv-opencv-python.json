@@ -367,11 +367,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:30:50.542340+00:00",
+  "fetched_at": "2026-06-22T01:03:32.773533+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17912
+      "size": 17919
     },
     {
       "path": "pyproject.toml",
@@ -387,11 +387,11 @@
     },
     {
       "path": ".github/workflows/build_wheels_manylinux.yml",
-      "size": 10811
+      "size": 10812
     },
     {
       "path": ".github/workflows/build_wheels_windows.yml",
-      "size": 8244
+      "size": 8252
     }
   ],
   "related_repositories": [],
@@ -403,8 +403,8 @@
     "full_name": "opencv/opencv-python",
     "html_url": "https://github.com/opencv/opencv-python",
     "language": "Python",
-    "pushed_at": "2026-02-03T07:13:13Z",
-    "stargazers_count": 5269,
+    "pushed_at": "2026-06-19T16:35:32Z",
+    "stargazers_count": 5298,
     "topics": [
       "manylinux",
       "opencv",
@@ -416,7 +416,7 @@
       "python-3",
       "wheel"
     ],
-    "updated_at": "2026-05-27T21:49:00Z"
+    "updated_at": "2026-06-19T11:32:01Z"
   },
   "repo_links": [
     {

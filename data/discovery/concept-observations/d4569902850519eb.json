@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat)."
+      "text": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)"
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "create-and-publish-a-docker-image",
   "observation_id": "d4569902850519eb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T07:10:34.990539+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "Create and publish a Docker image",
   "source_context_snippet": "Create and publish a Docker image",
   "source_file": ".github/workflows/deploy-image.yml",
   "source_repo": "zhayujie/CowAgent",
-  "source_repo_description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat)."
+  "source_repo_description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)"
 }

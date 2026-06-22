@@ -110,6 +110,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml",
       "target": "machine-learning",
       "target_type": "term"
     },
@@ -131,20 +138,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml",
-      "target": "trains",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "clearml/clearml",
-      "target": "trainsai",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "clearml/clearml",
       "target": "version",
       "target_type": "term"
     },
@@ -156,11 +149,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:40:47.723863+00:00",
+  "fetched_at": "2026-06-22T01:10:34.761485+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 15097
+      "size": 15018
     },
     {
       "path": "requirements.txt",
@@ -184,8 +177,8 @@
     "full_name": "clearml/clearml",
     "html_url": "https://github.com/clearml/clearml",
     "language": "Python",
-    "pushed_at": "2026-05-29T15:40:43Z",
-    "stargazers_count": 6714,
+    "pushed_at": "2026-06-18T01:38:11Z",
+    "stargazers_count": 6739,
     "topics": [
       "ai",
       "clearml",
@@ -196,15 +189,14 @@
       "experiment",
       "experiment-manager",
       "k8s",
+      "llmops",
       "machine-learning",
       "machinelearning",
       "mlops",
-      "trains",
-      "trainsai",
       "version",
       "version-control"
     ],
-    "updated_at": "2026-05-29T15:40:49Z"
+    "updated_at": "2026-06-20T10:39:37Z"
   },
   "repo_links": [],
   "terms": [
@@ -260,6 +252,12 @@
       "context_snippet": "<div align=\"center\" style=\"text-align: center\">",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"text-align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "machine-learning"
     },
     {
@@ -273,18 +271,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "mlops"
-    },
-    {
-      "context_snippet": "<div align=\"center\" style=\"text-align: center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "trains"
-    },
-    {
-      "context_snippet": "<div align=\"center\" style=\"text-align: center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "trainsai"
     },
     {
       "context_snippet": "<div align=\"center\" style=\"text-align: center\">",

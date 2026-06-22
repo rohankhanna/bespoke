@@ -68,6 +68,18 @@
       "source_repo": "CosmWasm/wasmd",
       "status": "candidate-context",
       "text": "Release on Tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate-context",
+      "text": "Release on tag"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "CosmWasm/wasmd",
       "status": "candidate",
       "text": "Release on Tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunASR",
+      "status": "candidate",
+      "text": "Release on tag"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +191,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "CosmWasm/wasmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "modelscope/FunASR"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

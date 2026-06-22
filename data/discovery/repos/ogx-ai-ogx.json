@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/backward-compat.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/backward-compat.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml"
     },
@@ -56,6 +56,16 @@
       "source_file": ".github/workflows/build-distributions.yml"
     },
     {
+      "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-distributions.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-distributions.yml"
+    },
+    {
       "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-status.yml"
@@ -66,12 +76,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "component": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "component": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -136,7 +146,7 @@
       "source_file": ".github/workflows/dependabot-constraints.yml"
     },
     {
-      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependabot-constraints.yml"
     },
@@ -170,7 +180,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backward-compat.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -192,6 +202,20 @@
       "source_file": ".github/workflows/build-distributions.yml",
       "source_repo": "ogx-ai/ogx",
       "target": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-distributions.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-distributions.yml",
+      "source_repo": "ogx-ai/ogx",
+      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -226,14 +250,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -303,7 +327,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependabot-constraints.yml",
       "source_repo": "ogx-ai/ogx",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -321,19 +345,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:44:58.955729+00:00",
+  "fetched_at": "2026-06-22T01:17:44.613895+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6060
+      "size": 6956
     },
     {
       "path": "pyproject.toml",
-      "size": 22621
+      "size": 22741
     },
     {
       "path": ".github/workflows/README.md",
-      "size": 4116
+      "size": 4921
     },
     {
       "path": ".github/workflows/backward-compat.yml",
@@ -341,11 +365,11 @@
     },
     {
       "path": ".github/workflows/build-distributions.yml",
-      "size": 5282
+      "size": 6193
     },
     {
       "path": ".github/workflows/ci-status.yml",
-      "size": 3821
+      "size": 4053
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -373,10 +397,10 @@
     "full_name": "ogx-ai/ogx",
     "html_url": "https://github.com/ogx-ai/ogx",
     "language": "Python",
-    "pushed_at": "2026-05-30T01:35:09Z",
-    "stargazers_count": 8392,
+    "pushed_at": "2026-06-20T20:43:44Z",
+    "stargazers_count": 8413,
     "topics": [],
-    "updated_at": "2026-05-30T09:11:19Z"
+    "updated_at": "2026-06-20T18:10:38Z"
   },
   "repo_links": [],
   "terms": [

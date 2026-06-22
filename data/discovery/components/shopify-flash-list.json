@@ -1,7 +1,7 @@
 {
   "component": "@shopify/flash-list",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -12,6 +12,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "alichherawalla/off-grid-mobile-ai"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CI (FreeBSD)"
+    "CI (FreeBSD)",
+    "CI (freebsd)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "AcademySoftwareFoundation/openexr",
       "status": "candidate-context",
       "text": "CI (FreeBSD)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "CI (freebsd)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "AcademySoftwareFoundation/openexr",
       "status": "candidate",
       "text": "CI (FreeBSD)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate",
+      "text": "CI (freebsd)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/ci_freebsd.yml",
       "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

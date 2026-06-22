@@ -453,7 +453,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:43:16.338056+00:00",
+  "fetched_at": "2026-06-22T01:14:27.373873+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,14 +485,14 @@
     "full_name": "abaplint/transpiler",
     "html_url": "https://github.com/abaplint/transpiler",
     "language": "TypeScript",
-    "pushed_at": "2026-05-27T17:50:11Z",
-    "stargazers_count": 102,
+    "pushed_at": "2026-06-16T05:07:24Z",
+    "stargazers_count": 107,
     "topics": [
       "abap",
       "abaplint",
       "transpiler"
     ],
-    "updated_at": "2026-05-27T17:50:15Z"
+    "updated_at": "2026-06-20T01:51:31Z"
   },
   "repo_links": [
     {

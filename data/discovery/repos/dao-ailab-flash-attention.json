@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/_build.yml"
     },
     {
-      "component": "Jimver/cuda-toolkit@v0.2.30",
+      "component": "Jimver/cuda-toolkit@v0.2.35",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build.yml"
     },
@@ -159,7 +159,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build.yml",
       "source_repo": "Dao-AILab/flash-attention",
-      "target": "Jimver/cuda-toolkit@v0.2.30",
+      "target": "Jimver/cuda-toolkit@v0.2.35",
       "target_type": "component"
     },
     {
@@ -317,7 +317,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:25:29.948234+00:00",
+  "fetched_at": "2026-06-22T00:54:25.757843+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -329,7 +329,7 @@
     },
     {
       "path": ".github/workflows/_build.yml",
-      "size": 9943
+      "size": 9982
     },
     {
       "path": ".github/workflows/build.yml",
@@ -361,10 +361,10 @@
     "full_name": "Dao-AILab/flash-attention",
     "html_url": "https://github.com/Dao-AILab/flash-attention",
     "language": "Python",
-    "pushed_at": "2026-05-29T14:55:31Z",
-    "stargazers_count": 23987,
+    "pushed_at": "2026-06-20T06:56:37Z",
+    "stargazers_count": 24205,
     "topics": [],
-    "updated_at": "2026-05-30T07:11:20Z"
+    "updated_at": "2026-06-21T23:06:34Z"
   },
   "repo_links": [
     {

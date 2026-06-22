@@ -1,12 +1,12 @@
 {
   "components": [
     {
-      "component": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/automerge.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_release.yml"
     },
@@ -21,12 +21,12 @@
       "source_file": ".github/workflows/publish_release.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml"
     },
     {
-      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml"
     },
@@ -63,14 +63,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.11",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "target_type": "component"
     },
     {
@@ -91,14 +91,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-syntax",
-      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
       "target_type": "component"
     },
     {
@@ -116,7 +116,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:43:07.627096+00:00",
+  "fetched_at": "2026-06-22T01:14:14.791552+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -124,15 +124,15 @@
     },
     {
       "path": ".github/workflows/automerge.yml",
-      "size": 1122
+      "size": 1123
     },
     {
       "path": ".github/workflows/publish_release.yml",
-      "size": 3642
+      "size": 3643
     },
     {
       "path": ".github/workflows/pull_request.yml",
-      "size": 3858
+      "size": 3860
     }
   ],
   "related_repositories": [],
@@ -144,10 +144,10 @@
     "full_name": "swiftlang/swift-syntax",
     "html_url": "https://github.com/swiftlang/swift-syntax",
     "language": "Swift",
-    "pushed_at": "2026-05-30T08:57:06Z",
-    "stargazers_count": 3656,
+    "pushed_at": "2026-06-17T08:56:10Z",
+    "stargazers_count": 3670,
     "topics": [],
-    "updated_at": "2026-05-29T04:24:02Z"
+    "updated_at": "2026-06-21T23:07:35Z"
   },
   "repo_links": [
     {

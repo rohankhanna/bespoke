@@ -227,7 +227,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:29:10.761327+00:00",
+  "fetched_at": "2026-06-22T01:00:53.707514+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -251,8 +251,8 @@
     "full_name": "mixmark-io/turndown",
     "html_url": "https://github.com/mixmark-io/turndown",
     "language": "HTML",
-    "pushed_at": "2026-05-09T00:57:33Z",
-    "stargazers_count": 11204,
+    "pushed_at": "2026-06-20T19:08:25Z",
+    "stargazers_count": 11275,
     "topics": [
       "browser",
       "commonmark",
@@ -263,7 +263,7 @@
       "markdown",
       "node"
     ],
-    "updated_at": "2026-05-30T02:42:03Z"
+    "updated_at": "2026-06-21T20:33:16Z"
   },
   "repo_links": [
     {

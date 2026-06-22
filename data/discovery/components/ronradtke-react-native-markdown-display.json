@@ -1,12 +1,17 @@
 {
   "component": "@ronradtke/react-native-markdown-display",
   "first_seen_at": "2026-05-08T18:37:42.068971+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "alichherawalla/off-grid-mobile-ai"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile"
     }
   ]
 }

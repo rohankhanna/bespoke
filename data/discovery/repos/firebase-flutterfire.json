@@ -1,27 +1,12 @@
 {
   "components": [
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_plugins.yaml"
-    },
-    {
-      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_plugins.yaml"
-    },
-    {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_plugins.yaml"
-    },
-    {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -31,12 +16,12 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -46,12 +31,27 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml"
+    },
+    {
+      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -66,27 +66,12 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_plugins.yaml"
-    },
-    {
-      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_plugins.yaml"
-    },
-    {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/all_plugins.yaml"
-    },
-    {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -96,12 +81,12 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -111,7 +96,22 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml"
+    },
+    {
+      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all_plugins.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -121,7 +121,7 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/all_plugins.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/android.yaml"
     },
     {
-      "component": "gradle/actions/setup-gradle@v4",
+      "component": "gradle/actions/setup-gradle@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml"
     },
@@ -193,6 +193,31 @@
     {
       "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "bluefireteam/melos-action@705015c3d2bc4ab94201ac24accb2bbe070cf533",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
@@ -211,7 +236,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -226,7 +251,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "gradle/actions/setup-gradle@v4",
+      "component": "gradle/actions/setup-gradle@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -256,7 +281,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -276,7 +301,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -291,7 +316,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -316,7 +341,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -336,7 +361,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -356,7 +381,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -376,7 +401,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
@@ -396,7 +421,7 @@
       "source_file": ".github/workflows/e2e_tests_fdc.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -411,7 +436,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -421,7 +446,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "gradle/actions/setup-gradle@v4",
+      "component": "gradle/actions/setup-gradle@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -446,7 +471,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -456,7 +481,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -466,7 +491,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -481,7 +506,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
@@ -496,7 +521,7 @@
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
@@ -511,7 +536,7 @@
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
@@ -526,7 +551,7 @@
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml"
     },
@@ -551,7 +576,7 @@
       "source_file": ".github/workflows/ios.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
@@ -566,7 +591,7 @@
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
@@ -581,7 +606,7 @@
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml"
     },
@@ -601,17 +626,17 @@
       "source_file": ".github/workflows/macos.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yaml"
     },
     {
-      "component": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yaml"
     },
     {
-      "component": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ossf-scorecard.yml"
     },
@@ -631,7 +656,7 @@
       "source_file": ".github/workflows/ossf-scorecard.yml"
     },
     {
-      "component": "amannn/action-semantic-pull-request@0723387faaf9b38adef4775cd42cfd5155ed6017",
+      "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr_title.yaml"
     }
@@ -648,14 +673,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/all_plugins.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -683,7 +708,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -711,7 +736,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -725,7 +750,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "gradle/actions/setup-gradle@v4",
+      "target": "gradle/actions/setup-gradle@v6",
       "target_type": "component"
     },
     {
@@ -750,6 +775,34 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "firebase/flutterfire",
+      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "firebase/flutterfire",
+      "target": "actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "firebase/flutterfire",
+      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yaml",
+      "source_repo": "firebase/flutterfire",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/android.yaml",
       "source_repo": "firebase/flutterfire",
@@ -760,7 +813,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -788,7 +841,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -809,7 +862,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "gradle/actions/setup-gradle@v4",
+      "target": "gradle/actions/setup-gradle@v6",
       "target_type": "component"
     },
     {
@@ -837,7 +890,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_fdc.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -858,7 +911,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -879,7 +932,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -893,7 +946,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e_tests_pipeline.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "gradle/actions/setup-gradle@v4",
+      "target": "gradle/actions/setup-gradle@v6",
       "target_type": "component"
     },
     {
@@ -942,7 +995,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -963,7 +1016,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -977,7 +1030,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ios.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -1012,7 +1065,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -1033,7 +1086,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -1047,7 +1100,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -1075,14 +1128,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff",
+      "target": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
       "target_type": "component"
     },
     {
@@ -1096,7 +1149,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "firebase/flutterfire",
-      "target": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -1131,7 +1184,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr_title.yaml",
       "source_repo": "firebase/flutterfire",
-      "target": "amannn/action-semantic-pull-request@0723387faaf9b38adef4775cd42cfd5155ed6017",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
       "target_type": "component"
     },
     {
@@ -1163,7 +1216,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:30:31.960291+00:00",
+  "fetched_at": "2026-06-22T01:03:01.135702+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1175,19 +1228,19 @@
     },
     {
       "path": ".github/workflows/android.yaml",
-      "size": 5767
+      "size": 6791
     },
     {
       "path": ".github/workflows/e2e_tests_fdc.yaml",
-      "size": 17756
+      "size": 17996
     },
     {
       "path": ".github/workflows/e2e_tests_pipeline.yaml",
-      "size": 9756
+      "size": 10045
     },
     {
       "path": ".github/workflows/ios.yaml",
-      "size": 6620
+      "size": 6829
     },
     {
       "path": ".github/workflows/macos.yaml",
@@ -1203,7 +1256,7 @@
     },
     {
       "path": ".github/workflows/pr_title.yaml",
-      "size": 360
+      "size": 340
     }
   ],
   "related_repositories": [],
@@ -1215,15 +1268,15 @@
     "full_name": "firebase/flutterfire",
     "html_url": "https://github.com/firebase/flutterfire",
     "language": "Dart",
-    "pushed_at": "2026-05-29T23:19:46Z",
-    "stargazers_count": 9202,
+    "pushed_at": "2026-06-18T11:52:00Z",
+    "stargazers_count": 9219,
     "topics": [
       "dart",
       "firebase",
       "flutter",
       "google"
     ],
-    "updated_at": "2026-05-30T03:50:58Z"
+    "updated_at": "2026-06-21T02:33:56Z"
   },
   "repo_links": [
     {

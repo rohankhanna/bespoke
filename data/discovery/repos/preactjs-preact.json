@@ -827,7 +827,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:28:16.605861+00:00",
+  "fetched_at": "2026-06-22T00:58:59.059507+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -855,7 +855,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 3909
+      "size": 3915
     },
     {
       "path": ".github/workflows/run-bench.yml",
@@ -879,8 +879,8 @@
     "full_name": "preactjs/preact",
     "html_url": "https://github.com/preactjs/preact",
     "language": "JavaScript",
-    "pushed_at": "2026-05-27T21:54:35Z",
-    "stargazers_count": 38667,
+    "pushed_at": "2026-06-15T06:18:42Z",
+    "stargazers_count": 38710,
     "topics": [
       "components",
       "dom",
@@ -890,7 +890,7 @@
       "vdom",
       "virtual-dom"
     ],
-    "updated_at": "2026-05-30T06:49:51Z"
+    "updated_at": "2026-06-21T20:07:02Z"
   },
   "repo_links": [
     {

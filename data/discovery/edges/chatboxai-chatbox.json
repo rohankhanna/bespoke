@@ -214,6 +214,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "@ai-sdk/gateway",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "@ai-sdk/google",
       "target_type": "component"
     },
@@ -655,6 +662,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "@types/adm-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "@types/auto-launch",
       "target_type": "component"
     },
@@ -677,13 +691,6 @@
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
       "target": "@types/canvas-confetti",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "chatboxai/chatbox",
-      "target": "canvas-confetti",
       "target_type": "component"
     },
     {
@@ -907,6 +914,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "canvas-confetti",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "capacitor-plugin-safe-area",
       "target_type": "component"
     },
@@ -1061,6 +1075,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
+      "target": "fake-indexeddb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
       "target": "file-loader",
       "target_type": "component"
     },
@@ -1076,6 +1097,13 @@
       "source_file": "package.json",
       "source_repo": "chatboxai/chatbox",
       "target": "form-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chatboxai/chatbox",
+      "target": "gray-matter",
       "target_type": "component"
     },
     {
@@ -1705,6 +1733,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "chatboxai/chatbox",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox",
       "target": "deepseek",
       "target_type": "term"
     },
@@ -1730,6 +1765,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "chatboxai/chatbox"
 }

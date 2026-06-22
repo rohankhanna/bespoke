@@ -2758,6 +2758,12 @@
       "source_repo": "kelos-dev/kelos",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Kelos</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml-agent",
+      "status": "candidate-context",
+      "text": "ClearML Agent - MLOps/LLMOps made easy. MLOps/LLMOps scheduler & orchestration solution"
     }
   ],
   "candidate_glosses": [
@@ -9319,11 +9325,29 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

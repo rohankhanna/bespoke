@@ -2727,6 +2727,9 @@
   "all-mlp": [
     "all-mlp"
   ],
+  "all-plugins-smoke": [
+    "all-plugins-smoke"
+  ],
   "all; .png on git lfs": [
     "all-.png-on-git-lfs"
   ],
@@ -4127,6 +4130,9 @@
   "append api node pr template": [
     "append-api-node-pr-template"
   ],
+  "apphost": [
+    "apphost"
+  ],
   "appimage": [
     "appimage"
   ],
@@ -5036,6 +5042,9 @@
   ],
   "aspekta": [
     "aspekta"
+  ],
+  "aspire": [
+    "aspire"
   ],
   "aspire samples ci": [
     "aspire-samples-ci"
@@ -6407,6 +6416,9 @@
   ],
   "auto-subtitle": [
     "auto-subtitle"
+  ],
+  "auto-subtitles": [
+    "auto-subtitles"
   ],
   "auto-translation": [
     "auto-translation"
@@ -8225,6 +8237,12 @@
   ],
   "bazel ci": [
     "bazel-ci"
+  ],
+  "bazel cpu": [
+    "bazel-cpu"
+  ],
+  "bazel cuda": [
+    "bazel-cuda"
   ],
   "bazel dependency violations": [
     "bazel-dependency-violations"
@@ -10401,6 +10419,9 @@
   ],
   "browser": [
     "browser"
+  ],
+  "browser basic launch test": [
+    "browser-basic-launch-test"
   ],
   "browser e2e": [
     "browser-e2e"
@@ -12900,6 +12921,9 @@
   ],
   "build llama.cpp in cann container": [
     "build-llama.cpp-in-cann-container"
+  ],
+  "build llama.cpp runtime binaries": [
+    "build-llama.cpp-runtime-binaries"
   ],
   "build llvm": [
     "build-llvm"
@@ -18650,6 +18674,9 @@
   "ci (cann)": [
     "ci-cann"
   ],
+  "ci (clang)": [
+    "ci-clang"
+  ],
   "ci (cmake)": [
     "ci-cmake"
   ],
@@ -18680,6 +18707,12 @@
   "ci (coq, windows)": [
     "ci-coq-windows"
   ],
+  "ci (coreml)": [
+    "ci-coreml"
+  ],
+  "ci (cpu)": [
+    "ci-cpu"
+  ],
   "ci (db)": [
     "ci-db"
   ],
@@ -18691,6 +18724,9 @@
   ],
   "ci (freebsd)": [
     "ci-freebsd"
+  ],
+  "ci (gcc)": [
+    "ci-gcc"
   ],
   "ci (indexing)": [
     "ci-indexing"
@@ -20983,6 +21019,9 @@
   ],
   "clippy dev test": [
     "clippy-dev-test"
+  ],
+  "clippy sarif": [
+    "clippy-sarif"
   ],
   "clippy test": [
     "clippy-test"
@@ -29921,6 +29960,9 @@
   "deploy preview docs": [
     "deploy-preview-docs"
   ],
+  "deploy processing website": [
+    "deploy-processing-website"
+  ],
   "deploy prod": [
     "deploy-prod"
   ],
@@ -31537,6 +31579,9 @@
   ],
   "distributed-actors": [
     "distributed-actors"
+  ],
+  "distributed-apps": [
+    "distributed-apps"
   ],
   "distributed-cache": [
     "distributed-cache"
@@ -34503,6 +34548,9 @@
   ],
   "efficient-neural-networks": [
     "efficient-neural-networks"
+  ],
+  "efficient-training": [
+    "efficient-training"
   ],
   "efficient-transformers": [
     "efficient-transformers"
@@ -39614,6 +39662,9 @@
   ],
   "fun-asr": [
     "fun-asr"
+  ],
+  "funasr": [
+    "funasr"
   ],
   "functests": [
     "functests"
@@ -90334,6 +90385,9 @@
   ],
   "test-linux-mac": [
     "test-linux-mac"
+  ],
+  "test-llamacpp-update": [
+    "test-llamacpp-update"
   ],
   "test-mailman": [
     "test-mailman"

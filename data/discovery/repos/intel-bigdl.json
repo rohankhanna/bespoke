@@ -453,11 +453,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:39:32.678121+00:00",
+  "fetched_at": "2026-06-22T01:08:43.506015+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 18416
+      "size": 18878
     },
     {
       "path": "pyproject.toml",
@@ -505,8 +505,8 @@
     "full_name": "intel/BigDL",
     "html_url": "https://github.com/intel/BigDL",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-05-08T17:54:20Z",
-    "stargazers_count": 2695,
+    "pushed_at": "2026-06-12T07:14:18Z",
+    "stargazers_count": 2699,
     "topics": [
       "analytics-zoo",
       "apache-spark",
@@ -518,7 +518,7 @@
       "pytorch",
       "scala"
     ],
-    "updated_at": "2026-04-29T09:14:12Z"
+    "updated_at": "2026-06-19T14:53:16Z"
   },
   "repo_links": [
     {
@@ -581,49 +581,49 @@
       "term": "BigDL Release Pypi"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "analytics-zoo"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "apache-spark"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bigdl"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "deep-neural-network"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "distributed-deep-learning"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "keras-tensorflow"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch"
     },
     {
-      "context_snippet": "> [!IMPORTANT]",
+      "context_snippet": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "scala"

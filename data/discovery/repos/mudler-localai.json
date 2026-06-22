@@ -243,6 +243,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mudler/LocalAI",
+      "target": "localai-org/apex-quant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/LocalAI",
       "target": "ggerganov/llama.cpp",
       "target_type": "repository"
     },
@@ -604,19 +611,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:29:57.905726+00:00",
+  "fetched_at": "2026-06-22T01:02:13.044938+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 14903
+      "size": 20878
     },
     {
       "path": "Dockerfile",
-      "size": 15770
+      "size": 15843
     },
     {
       "path": "go.mod",
-      "size": 25984
+      "size": 25841
     },
     {
       "path": ".github/workflows/backend.yml",
@@ -628,7 +635,7 @@
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
-      "size": 13085
+      "size": 13434
     },
     {
       "path": ".github/workflows/backend_merge.yml",
@@ -656,8 +663,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-05-30T07:04:11Z",
-    "stargazers_count": 46537,
+    "pushed_at": "2026-06-21T23:26:02Z",
+    "stargazers_count": 47039,
     "topics": [
       "agents",
       "ai",
@@ -678,7 +685,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-05-30T06:34:05Z"
+    "updated_at": "2026-06-22T00:56:00Z"
   },
   "repo_links": [
     {
@@ -694,6 +701,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "go-skynet/localai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "localai-org/apex-quant",
       "source_file": "README.md"
     }
   ],

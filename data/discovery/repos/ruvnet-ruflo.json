@@ -78,6 +78,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-plugins-smoke.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-plugins-smoke.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-plugins-smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
@@ -154,6 +169,26 @@
       "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clone-tracker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
     },
     {
       "component": "actions/checkout@v4",
@@ -314,41 +349,6 @@
       "component": "actions/github-script@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/neural-trader-smoke.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/neural-trader-smoke.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/neural-trader-smoke.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml"
-    },
-    {
-      "component": "actions/configure-pages@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml"
-    },
-    {
-      "component": "actions/jekyll-build-pages@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml"
-    },
-    {
-      "component": "actions/deploy-pages@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml"
     }
   ],
   "edges": [
@@ -473,6 +473,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-plugins-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-plugins-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all-plugins-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-plugins-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "all-plugins-smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -518,6 +546,41 @@
       "source_file": ".github/workflows/clone-tracker.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "Clone Tracker (14-day rolling)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "CodeQL Advanced",
       "target_type": "term"
     },
     {
@@ -640,69 +703,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/neural-trader-smoke.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/neural-trader-smoke.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/neural-trader-smoke.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/neural-trader-smoke.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "neural-trader-smoke",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/configure-pages@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/jekyll-build-pages@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pages.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/deploy-pages@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pages.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "Deploy Pages",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -808,15 +808,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:42:56.236237+00:00",
+  "fetched_at": "2026-06-22T01:13:57.182482+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 28523
+      "size": 29125
     },
     {
       "path": "package.json",
-      "size": 4766
+      "size": 4785
+    },
+    {
+      "path": ".github/workflows/all-plugins-smoke.yml",
+      "size": 3744
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -827,12 +831,16 @@
       "size": 3038
     },
     {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4785
+    },
+    {
       "path": ".github/workflows/codex-integration-audit.yml",
       "size": 1398
     },
     {
       "path": ".github/workflows/cost-tracker-smoke.yml",
-      "size": 2861
+      "size": 4178
     },
     {
       "path": ".github/workflows/federation-peer-rust.yml",
@@ -841,27 +849,19 @@
     {
       "path": ".github/workflows/integration-tests.yml",
       "size": 34131
-    },
-    {
-      "path": ".github/workflows/neural-trader-smoke.yml",
-      "size": 1741
-    },
-    {
-      "path": ".github/workflows/pages.yml",
-      "size": 496
     }
   ],
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "description": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
     "fork": false,
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-30T06:13:29Z",
-    "stargazers_count": 56535,
+    "pushed_at": "2026-06-21T06:07:56Z",
+    "stargazers_count": 60750,
     "topics": [
       "agentic-ai",
       "agentic-framework",
@@ -884,7 +884,7 @@
       "swarm-intelligence",
       "typescript"
     ],
-    "updated_at": "2026-05-30T12:33:27Z"
+    "updated_at": "2026-06-22T01:02:32Z"
   },
   "repo_links": [
     {
@@ -900,10 +900,22 @@
   ],
   "terms": [
     {
+      "context_snippet": "all-plugins-smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all-plugins-smoke.yml",
+      "term": "all-plugins-smoke"
+    },
+    {
       "context_snippet": "Clone Tracker (14-day rolling)",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/clone-tracker.yml",
       "term": "Clone Tracker (14-day rolling)"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
     },
     {
       "context_snippet": "codex-integration-audit",
@@ -928,18 +940,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/integration-tests.yml",
       "term": "\ud83d\udd17 Cross-Agent Integration Tests"
-    },
-    {
-      "context_snippet": "neural-trader-smoke",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/neural-trader-smoke.yml",
-      "term": "neural-trader-smoke"
-    },
-    {
-      "context_snippet": "Deploy Pages",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/pages.yml",
-      "term": "Deploy Pages"
     },
     {
       "context_snippet": "<div align=\"center\">",

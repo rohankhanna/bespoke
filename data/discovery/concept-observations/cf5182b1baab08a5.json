@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-performance Vulkan driver with automated resource management and execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clippy SARIF"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clippy SARIF"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clippy SARIF",
+      "sense_id": "clippy-sarif#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clippy-sarif",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clippy-sarif",
+  "observation_id": "cf5182b1baab08a5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
+  "observed_text": "Clippy SARIF",
+  "source_context_snippet": "Clippy SARIF",
+  "source_file": ".github/workflows/rust-clippy.yml",
+  "source_repo": "attackgoat/vk-graph",
+  "source_repo_description": "High-performance Vulkan driver with automated resource management and execution"
+}

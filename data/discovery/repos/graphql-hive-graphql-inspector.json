@@ -863,7 +863,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:45:51.594138+00:00",
+  "fetched_at": "2026-06-22T01:19:00.835413+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -883,7 +883,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 2579
+      "size": 2583
     },
     {
       "path": ".github/workflows/docker.yml",
@@ -911,8 +911,8 @@
     "full_name": "graphql-hive/graphql-inspector",
     "html_url": "https://github.com/graphql-hive/graphql-inspector",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T21:55:37Z",
-    "stargazers_count": 1748,
+    "pushed_at": "2026-06-17T13:47:38Z",
+    "stargazers_count": 1755,
     "topics": [
       "api",
       "graphql",
@@ -922,7 +922,7 @@
       "the-guild",
       "typescript"
     ],
-    "updated_at": "2026-05-15T11:08:41Z"
+    "updated_at": "2026-06-18T10:54:10Z"
   },
   "repo_links": [],
   "terms": [

@@ -53,6 +53,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-agent",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent",
       "target": "machine-learning",
       "target_type": "term"
     },
@@ -69,22 +76,8 @@
       "source_repo": "clearml/clearml-agent",
       "target": "orchestration",
       "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "clearml/clearml-agent",
-      "target": "trains",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "clearml/clearml-agent",
-      "target": "trains-agent",
-      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "clearml/clearml-agent"
 }

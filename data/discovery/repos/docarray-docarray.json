@@ -679,7 +679,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:39:59.512963+00:00",
+  "fetched_at": "2026-06-22T01:09:24.841065+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -732,7 +732,7 @@
     "html_url": "https://github.com/docarray/docarray",
     "language": "Python",
     "pushed_at": "2026-03-27T16:19:09Z",
-    "stargazers_count": 3118,
+    "stargazers_count": 3121,
     "topics": [
       "cross-modal",
       "data-structures",
@@ -754,7 +754,7 @@
       "semantic-search",
       "weaviate"
     ],
-    "updated_at": "2026-05-19T14:55:34Z"
+    "updated_at": "2026-06-09T06:03:34Z"
   },
   "repo_links": [
     {

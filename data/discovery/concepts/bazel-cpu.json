@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bazel CPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jax-ml/jax",
+      "status": "candidate-context",
+      "text": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jax-ml/jax",
+      "status": "candidate-context",
+      "text": "Bazel CPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jax-ml/jax",
+      "status": "candidate",
+      "text": "Bazel CPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "basle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "basel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "cpus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "microcode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "microcontroller"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bazel CPU",
+  "concept_id": "bazel-cpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/bazel_cpu_presubmit.yml",
+      "source_repo": "jax-ml/jax"
+    }
+  ],
+  "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bazel CPU",
+      "sense_id": "bazel-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -91,12 +91,7 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml"
-    },
-    {
-      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "component": "j178/prek-action@bdca6f102f98e2b4c7029491a53dfd366469e33d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
@@ -111,12 +106,12 @@
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "release-drafter/release-drafter@563bf132657a13ded0b01fcb723c5a58cdd824e2",
+      "component": "release-drafter/release-drafter@693d20e7c1ce1a81d3a41962f85914253b518449",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml"
     },
     {
-      "component": "release-drafter/release-drafter/autolabeler@563bf132657a13ded0b01fcb723c5a58cdd824e2",
+      "component": "release-drafter/release-drafter/autolabeler@693d20e7c1ce1a81d3a41962f85914253b518449",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml"
     },
@@ -136,7 +131,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -146,7 +141,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "component": "docker/setup-qemu-action@06116385d9baf250c9f4dcb4858b16962ea869c3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     }
@@ -275,14 +270,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target": "j178/prek-action@bdca6f102f98e2b4c7029491a53dfd366469e33d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -296,14 +291,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter@563bf132657a13ded0b01fcb723c5a58cdd824e2",
+      "target": "release-drafter/release-drafter@693d20e7c1ce1a81d3a41962f85914253b518449",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter/autolabeler@563bf132657a13ded0b01fcb723c5a58cdd824e2",
+      "target": "release-drafter/release-drafter/autolabeler@693d20e7c1ce1a81d3a41962f85914253b518449",
       "target_type": "component"
     },
     {
@@ -345,14 +340,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target": "docker/setup-qemu-action@06116385d9baf250c9f4dcb4858b16962ea869c3",
       "target_type": "component"
     },
     {
@@ -398,7 +393,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:25:44.962932+00:00",
+  "fetched_at": "2026-06-22T00:54:59.572148+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -406,7 +401,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 1392
+      "size": 1436
     },
     {
       "path": ".github/workflows/benchmark.yml",
@@ -414,7 +409,7 @@
     },
     {
       "path": ".github/workflows/deploy.yml",
-      "size": 4296
+      "size": 6753
     },
     {
       "path": ".github/workflows/fuzz.yml",
@@ -426,7 +421,7 @@
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 1240
+      "size": 1108
     },
     {
       "path": ".github/workflows/release-drafter.yml",
@@ -438,7 +433,7 @@
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 3406
+      "size": 3519
     }
   ],
   "related_repositories": [],
@@ -450,7 +445,7 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-05-27T17:02:05Z",
+    "pushed_at": "2026-06-14T22:19:11Z",
     "stargazers_count": 4486,
     "topics": [
       "c",
@@ -461,7 +456,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-05-30T05:42:44Z"
+    "updated_at": "2026-06-21T01:39:24Z"
   },
   "repo_links": [],
   "terms": [

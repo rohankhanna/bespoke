@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asciidoctor.yml",
       "source_repo": "emacs-eldev/eldev",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -39,14 +39,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emacs-eldev/eldev",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emacs-eldev/eldev",
-      "target": "actions/github-script@v7",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -78,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "emacs-eldev/eldev"
 }

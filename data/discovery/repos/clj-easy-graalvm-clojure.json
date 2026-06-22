@@ -1,7 +1,7 @@
 {
   "components": [],
   "edges": [],
-  "fetched_at": "2026-05-30T12:47:23.109156+00:00",
+  "fetched_at": "2026-06-22T01:21:21.365801+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -18,9 +18,9 @@
     "html_url": "https://github.com/clj-easy/graalvm-clojure",
     "language": "Clojure",
     "pushed_at": "2026-02-08T16:30:48Z",
-    "stargazers_count": 519,
+    "stargazers_count": 520,
     "topics": [],
-    "updated_at": "2026-05-12T05:53:31Z"
+    "updated_at": "2026-06-16T20:18:14Z"
   },
   "repo_links": [],
   "terms": []

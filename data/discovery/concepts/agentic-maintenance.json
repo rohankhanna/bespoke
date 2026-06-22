@@ -19,12 +19,30 @@
       "source_repo": "Z3Prover/z3",
       "status": "candidate-context",
       "text": "Agentic Maintenance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Aspire is the tool for code-first, extensible, observable dev and deploy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
+      "status": "candidate-context",
+      "text": "Agentic Maintenance"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Z3Prover/z3",
+      "status": "candidate",
+      "text": "Agentic Maintenance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire",
       "status": "candidate",
       "text": "Agentic Maintenance"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/agentics-maintenance.yml",
       "source_repo": "Z3Prover/z3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire"
     }
   ],
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

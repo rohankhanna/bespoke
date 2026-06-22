@@ -241,6 +241,26 @@
       "source_file": "package.json"
     },
     {
+      "component": "wrangler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
@@ -601,6 +621,41 @@
       "target_type": "component"
     },
     {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "processing/processing-website",
+      "target": "wrangler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "cloudflare/wrangler-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "processing/processing-website",
+      "target": "Deploy Processing Website",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "processing/processing-website",
@@ -629,7 +684,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:46:30.441032+00:00",
+  "fetched_at": "2026-06-22T01:20:00.396420+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -637,7 +692,11 @@
     },
     {
       "path": "package.json",
-      "size": 3679
+      "size": 3707
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 668
     },
     {
       "path": ".github/workflows/release.yml",
@@ -653,10 +712,10 @@
     "full_name": "processing/processing-website",
     "html_url": "https://github.com/processing/processing-website",
     "language": "MDX",
-    "pushed_at": "2026-05-12T16:56:18Z",
+    "pushed_at": "2026-06-16T12:58:25Z",
     "stargazers_count": 88,
     "topics": [],
-    "updated_at": "2026-05-06T14:43:29Z"
+    "updated_at": "2026-06-16T12:58:41Z"
   },
   "repo_links": [
     {
@@ -666,6 +725,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Deploy Processing Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy Processing Website"
+    },
     {
       "context_snippet": "Update Processing Releases",
       "edge_type": "workflow-name",

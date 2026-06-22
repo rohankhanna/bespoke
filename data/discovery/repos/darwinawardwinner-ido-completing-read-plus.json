@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:49:39.899149+00:00",
+  "fetched_at": "2026-06-22T01:24:46.405041+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,13 +83,13 @@
     "html_url": "https://github.com/DarwinAwardWinner/ido-completing-read-plus",
     "language": "Emacs Lisp",
     "pushed_at": "2024-12-28T01:13:12Z",
-    "stargazers_count": 248,
+    "stargazers_count": 249,
     "topics": [
       "emacs",
       "emacs-completion",
       "ido"
     ],
-    "updated_at": "2025-11-30T12:23:14Z"
+    "updated_at": "2026-06-13T02:30:31Z"
   },
   "repo_links": [
     {

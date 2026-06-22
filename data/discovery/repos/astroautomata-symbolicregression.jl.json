@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/CI.yml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/CI.yml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/CI.yml"
     },
     {
-      "component": "codecov/codecov-action@v6",
+      "component": "codecov/codecov-action@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml"
     },
@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/Documentation.yml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Documentation.yml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/benchmark_pr.yml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-format.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/check-format.yml"
     },
     {
-      "component": "actions/checkout@v5",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fix-format.yml"
     },
@@ -131,12 +131,12 @@
       "source_file": ".github/workflows/fix-format.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml"
     },
@@ -165,7 +165,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -207,7 +207,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "codecov/codecov-action@v6",
+      "target": "codecov/codecov-action@v7",
       "target_type": "component"
     },
     {
@@ -228,7 +228,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Documentation.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -284,7 +284,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-format.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fix-format.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "actions/checkout@v5",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -347,7 +347,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -463,7 +463,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:41:22.236423+00:00",
+  "fetched_at": "2026-06-22T01:11:29.238699+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -487,11 +487,11 @@
     },
     {
       "path": ".github/workflows/check-format.yml",
-      "size": 1114
+      "size": 1118
     },
     {
       "path": ".github/workflows/fix-format.yml",
-      "size": 1239
+      "size": 1238
     },
     {
       "path": ".github/workflows/release-please.yml",
@@ -507,8 +507,8 @@
     "full_name": "astroautomata/SymbolicRegression.jl",
     "html_url": "https://github.com/astroautomata/SymbolicRegression.jl",
     "language": "Julia",
-    "pushed_at": "2026-05-30T00:26:59Z",
-    "stargazers_count": 791,
+    "pushed_at": "2026-06-21T19:43:21Z",
+    "stargazers_count": 794,
     "topics": [
       "automl",
       "data-science",
@@ -525,7 +525,7 @@
       "symbolic-computation",
       "symbolic-regression"
     ],
-    "updated_at": "2026-05-27T03:07:43Z"
+    "updated_at": "2026-06-21T19:38:36Z"
   },
   "repo_links": [
     {

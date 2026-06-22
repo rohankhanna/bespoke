@@ -284,7 +284,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:48:57.017917+00:00",
+  "fetched_at": "2026-06-22T01:23:44.351938+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -317,9 +317,9 @@
     "html_url": "https://github.com/vmware-archive/buildkit-cli-for-kubectl",
     "language": "Go",
     "pushed_at": "2023-09-28T03:00:47Z",
-    "stargazers_count": 506,
+    "stargazers_count": 505,
     "topics": [],
-    "updated_at": "2026-04-07T14:04:34Z"
+    "updated_at": "2026-06-01T04:08:51Z"
   },
   "repo_links": [
     {

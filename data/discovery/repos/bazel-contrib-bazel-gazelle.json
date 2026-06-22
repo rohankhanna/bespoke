@@ -1,5 +1,16 @@
 {
-  "components": [],
+  "components": [
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
   "edges": [
     {
       "edge_type": "explicit-github-link",
@@ -14,9 +25,37 @@
       "source_repo": "bazel-contrib/bazel-gazelle",
       "target": "bazelbuild/bazel-gazelle",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "Release",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:48:43.718003+00:00",
+  "fetched_at": "2026-06-22T01:23:19.019519+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -25,6 +64,18 @@
     {
       "path": "go.mod",
       "size": 1083
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 647
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 926
     }
   ],
   "related_repositories": [],
@@ -36,10 +87,10 @@
     "full_name": "bazel-contrib/bazel-gazelle",
     "html_url": "https://github.com/bazel-contrib/bazel-gazelle",
     "language": "Go",
-    "pushed_at": "2026-05-21T20:13:44Z",
-    "stargazers_count": 1392,
+    "pushed_at": "2026-06-10T20:34:38Z",
+    "stargazers_count": 1396,
     "topics": [],
-    "updated_at": "2026-05-21T20:13:49Z"
+    "updated_at": "2026-06-15T21:42:34Z"
   },
   "repo_links": [
     {
@@ -53,5 +104,18 @@
       "source_file": "README.md"
     }
   ],
-  "terms": []
+  "terms": [
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    }
+  ]
 }

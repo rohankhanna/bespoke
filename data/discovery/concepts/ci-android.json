@@ -44,6 +44,18 @@
       "source_repo": "zhouwg/ggml-hexagon",
       "status": "candidate-context",
       "text": "CI (android)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate-context",
+      "text": "CI (android)"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zhouwg/ggml-hexagon",
+      "status": "candidate",
+      "text": "CI (android)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/whisper.cpp",
       "status": "candidate",
       "text": "CI (android)"
     }
@@ -617,11 +635,17 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": ".github/workflows/build-android.yml",
       "source_repo": "zhouwg/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

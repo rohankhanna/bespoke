@@ -1117,6 +1117,12 @@
       "source_repo": "KhronosGroup/KTX-Software",
       "status": "candidate-context",
       "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate-context",
+      "text": "Vulkan Graph Driver"
     }
   ],
   "candidate_glosses": [
@@ -1677,6 +1683,12 @@
       "source_repo": "KhronosGroup/KTX-Software",
       "status": "candidate",
       "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate",
+      "text": "Vulkan Graph Driver"
     }
   ],
   "candidate_related_terms": [
@@ -4339,11 +4351,35 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

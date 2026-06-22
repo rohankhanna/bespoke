@@ -583,6 +583,18 @@
       "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "Open-source, accurate and easy-to-use video speech recognition & clipping tool. LLM-based AI clipping integrated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate-context",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
     }
   ],
   "candidate_glosses": [
@@ -879,6 +891,12 @@
       "source_repo": "JeffersonQin/YuzuMarker.FontDetection",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/FunClip",
+      "status": "candidate",
+      "text": "[![SVG Banners](https://svg-banners.vercel.app/api?type=rainbow&text1=FunClip%20%20\ud83e\udd52&width=800&height=210)](https://github.com/Akshay090/svg-banners)"
     }
   ],
   "candidate_related_terms": [
@@ -1681,11 +1699,23 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

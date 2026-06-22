@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "target_type": "component"
     },
     {
@@ -39,14 +39,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "target_type": "component"
     },
     {
@@ -144,7 +144,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target": "actions/setup-dotnet@9a946fdbd5fb07b82b2f5a4466058b876ab72bb2",
       "target_type": "component"
     },
     {
@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "licensee/licensed",
-      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
+      "target": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
       "target_type": "component"
     },
     {
@@ -204,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "licensee/licensed"
 }

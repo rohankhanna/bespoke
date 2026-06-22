@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/codegen.yaml"
     },
     {
-      "component": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
+      "component": "aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codegen.yaml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/dryrun-gen.yaml"
     },
     {
-      "component": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
+      "component": "aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dryrun-gen.yaml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/e2e-cleanup.yaml"
     },
     {
-      "component": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
+      "component": "aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-cleanup.yaml"
     }
@@ -157,7 +157,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codegen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
+      "target": "aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59",
       "target_type": "component"
     },
     {
@@ -234,7 +234,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dryrun-gen.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
+      "target": "aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59",
       "target_type": "component"
     },
     {
@@ -255,7 +255,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-cleanup.yaml",
       "source_repo": "aws/karpenter-provider-aws",
-      "target": "aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885",
+      "target": "aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59",
       "target_type": "component"
     },
     {
@@ -266,7 +266,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:27:34.376929+00:00",
+  "fetched_at": "2026-06-22T00:58:06.365598+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -274,11 +274,11 @@
     },
     {
       "path": "go.mod",
-      "size": 6938
+      "size": 6932
     },
     {
       "path": ".github/workflows/approval-comment.yaml",
-      "size": 1146
+      "size": 1216
     },
     {
       "path": ".github/workflows/ci-test.yaml",
@@ -318,10 +318,10 @@
     "full_name": "aws/karpenter-provider-aws",
     "html_url": "https://github.com/aws/karpenter-provider-aws",
     "language": "Go",
-    "pushed_at": "2026-05-29T21:51:41Z",
-    "stargazers_count": 7639,
+    "pushed_at": "2026-06-19T18:09:09Z",
+    "stargazers_count": 7661,
     "topics": [],
-    "updated_at": "2026-05-29T21:51:57Z"
+    "updated_at": "2026-06-21T02:58:05Z"
   },
   "repo_links": [
     {

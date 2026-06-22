@@ -1,7 +1,7 @@
 {
   "component": "lint-staged",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -2917,6 +2917,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "off-grid-ai/mobile"
     }
   ]
 }

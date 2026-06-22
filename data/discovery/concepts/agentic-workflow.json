@@ -109,6 +109,12 @@
       "source_repo": "aws-samples/sample-bedrock-deep-researcher",
       "status": "candidate-context",
       "text": "Bedrock Deep Research is a Streamlit-based application using Amazon Bedrock, LangGraph, and LangChain AWS libraries that automates article/report generation through AI-powered research, content writing, and image generation. It combines web research, structured content generatio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
     }
   ],
   "candidate_glosses": [
@@ -1066,11 +1072,17 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

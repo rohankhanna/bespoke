@@ -145,6 +145,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/hf-mcp-server",
+      "target": "modelcontextprotocol/modelcontextprotocol",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "huggingface/hf-mcp-server",
@@ -327,23 +334,23 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:31:16.728169+00:00",
+  "fetched_at": "2026-06-22T01:04:15.937773+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 10281
+      "size": 11397
     },
     {
       "path": "Dockerfile",
-      "size": 2081
+      "size": 2229
     },
     {
       "path": "package.json",
-      "size": 1668
+      "size": 1751
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 1806
+      "size": 2152
     },
     {
       "path": ".github/workflows/docker-prerelease.yml",
@@ -355,7 +362,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 2813
+      "size": 2986
     }
   ],
   "related_repositories": [],
@@ -367,15 +374,20 @@
     "full_name": "huggingface/hf-mcp-server",
     "html_url": "https://github.com/huggingface/hf-mcp-server",
     "language": "TypeScript",
-    "pushed_at": "2026-05-29T21:54:13Z",
-    "stargazers_count": 242,
+    "pushed_at": "2026-06-19T22:50:08Z",
+    "stargazers_count": 252,
     "topics": [],
-    "updated_at": "2026-05-29T21:53:59Z"
+    "updated_at": "2026-06-19T23:17:48Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "evalstate/hf-mcp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelcontextprotocol/modelcontextprotocol",
       "source_file": "README.md"
     }
   ],

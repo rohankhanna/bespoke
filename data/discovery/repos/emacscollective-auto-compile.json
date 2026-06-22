@@ -9,7 +9,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:48:20.705381+00:00",
+  "fetched_at": "2026-06-22T01:22:44.799173+00:00",
   "fetched_files": [
     {
       "path": ".github/workflows/compile.yml",
@@ -25,10 +25,10 @@
     "full_name": "emacscollective/auto-compile",
     "html_url": "https://github.com/emacscollective/auto-compile",
     "language": "Emacs Lisp",
-    "pushed_at": "2026-05-21T11:48:13Z",
-    "stargazers_count": 181,
+    "pushed_at": "2026-06-01T14:49:36Z",
+    "stargazers_count": 180,
     "topics": [],
-    "updated_at": "2026-05-21T11:48:17Z"
+    "updated_at": "2026-06-15T12:31:56Z"
   },
   "repo_links": [],
   "terms": [

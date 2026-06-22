@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+      "text": "Vulkan Graph Driver"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+      "text": "Vulkan Graph Driver"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -48,9 +48,9 @@
   "normalized_form": "game-development",
   "observation_id": "db0a4e358523db76",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "game-development",
-  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+  "source_context_snippet": "Vulkan Graph Driver",
   "source_file": null,
   "source_repo": "attackgoat/vk-graph",
   "source_repo_description": "High-performance Vulkan driver with automated resource management and execution"

@@ -1,9 +1,9 @@
 {
   "components": [
     {
-      "component": "mislav/bump-homebrew-formula-action@v3",
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-homebrew-formula.yml"
+      "source_file": ".github/workflows/ci.yml"
     },
     {
       "component": "actions/checkout@v4",
@@ -20,13 +20,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/bump-homebrew-formula.yml",
-      "source_repo": "git-friendly/git-friendly",
-      "target": "mislav/bump-homebrew-formula-action@v3",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bump-homebrew-formula.yml",
       "source_repo": "git-friendly/git-friendly",
@@ -41,19 +34,19 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-30T12:44:27.716435+00:00",
+  "fetched_at": "2026-06-22T01:17:01.095727+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 13861
+      "size": 14245
     },
     {
       "path": ".github/workflows/bump-homebrew-formula.yml",
-      "size": 538
+      "size": 2313
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 6174
+      "size": 9221
     }
   ],
   "related_repositories": [],
@@ -65,10 +58,10 @@
     "full_name": "git-friendly/git-friendly",
     "html_url": "https://github.com/git-friendly/git-friendly",
     "language": "Shell",
-    "pushed_at": "2026-05-29T01:53:03Z",
-    "stargazers_count": 525,
+    "pushed_at": "2026-06-05T17:59:43Z",
+    "stargazers_count": 529,
     "topics": [],
-    "updated_at": "2026-05-29T01:53:05Z"
+    "updated_at": "2026-06-11T18:22:57Z"
   },
   "repo_links": [
     {

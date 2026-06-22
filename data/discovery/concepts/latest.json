@@ -32,6 +32,12 @@
       "source_repo": "alibaba/loongsuite-go-agent",
       "status": "candidate-context",
       "text": "Latest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ollama/ollama",
+      "status": "candidate-context",
+      "text": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     }
   ],
   "candidate_glosses": [
@@ -599,11 +605,17 @@
       "observed_at": "2026-05-30T07:10:34.990539+00:00",
       "source_file": ".github/workflows/latest.yaml",
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/latest.yaml",
+      "source_repo": "ollama/ollama"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

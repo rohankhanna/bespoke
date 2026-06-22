@@ -39,6 +39,20 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "auto-subtitles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "content-creation",
       "target_type": "term"
     },
@@ -46,7 +60,21 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "modelscope/FunClip",
+      "target": "funasr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
       "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "paraformer",
       "target_type": "term"
     },
     {
@@ -68,6 +96,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunClip",
       "target": "subtitles-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "transcription",
       "target_type": "term"
     },
     {
@@ -97,8 +132,15 @@
       "source_repo": "modelscope/FunClip",
       "target": "video-subtitles",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunClip",
+      "target": "whisper-alternative",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "modelscope/FunClip"
 }

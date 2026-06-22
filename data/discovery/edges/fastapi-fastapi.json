@@ -32,7 +32,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -102,14 +102,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "mxschmitt/action-tmate@c0afd6f790e3a5564914980036ebf83216678101",
+      "target": "mxschmitt/action-tmate@35b54afac29c97fb54faba5b513f8fbd1882f113",
       "target_type": "component"
     },
     {
@@ -117,6 +117,34 @@
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
       "target": "FastAPI People Contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "fastapi/fastapi",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "fastapi/fastapi",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "fastapi/fastapi",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "fastapi/fastapi",
+      "target": "Create Draft Release",
       "target_type": "term"
     },
     {
@@ -130,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -144,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
       "target_type": "component"
     },
     {
@@ -172,7 +200,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/detect-conflicts.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "target": "eps1lon/actions-label-merge-conflict@0273be72a0bbd58fcd71d0d6c02c209b50d1e5e1",
       "target_type": "component"
     },
     {
@@ -208,34 +236,6 @@
       "source_file": ".github/workflows/issue-manager.yml",
       "source_repo": "fastapi/fastapi",
       "target": "Issue Manager",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/label-approved.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/label-approved.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/label-approved.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/label-approved.yml",
-      "source_repo": "fastapi/fastapi",
-      "target": "Label Approved",
       "target_type": "term"
     },
     {
@@ -358,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "fastapi/fastapi"
 }

@@ -61,7 +61,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/check.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yml"
     },
@@ -86,7 +86,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "component": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -195,7 +195,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "browserslist/caniuse-lite",
-      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target": "step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411",
       "target_type": "component"
     },
     {
@@ -209,7 +209,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "browserslist/caniuse-lite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "target_type": "component"
     },
     {
@@ -237,7 +237,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "browserslist/caniuse-lite",
-      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target": "pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093",
       "target_type": "component"
     },
     {
@@ -255,7 +255,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:43:34.615992+00:00",
+  "fetched_at": "2026-06-22T01:14:48.837394+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -263,7 +263,7 @@
     },
     {
       "path": "package.json",
-      "size": 1474
+      "size": 1473
     },
     {
       "path": ".github/workflows/check.yml",
@@ -283,10 +283,10 @@
     "full_name": "browserslist/caniuse-lite",
     "html_url": "https://github.com/browserslist/caniuse-lite",
     "language": "JavaScript",
-    "pushed_at": "2026-05-17T05:33:17Z",
-    "stargazers_count": 609,
+    "pushed_at": "2026-06-11T09:52:14Z",
+    "stargazers_count": 611,
     "topics": [],
-    "updated_at": "2026-05-17T05:33:22Z"
+    "updated_at": "2026-06-11T09:52:20Z"
   },
   "repo_links": [],
   "terms": [

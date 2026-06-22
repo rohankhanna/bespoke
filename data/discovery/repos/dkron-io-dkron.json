@@ -332,7 +332,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:42:24.993931+00:00",
+  "fetched_at": "2026-06-22T01:13:09.594195+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -380,15 +380,15 @@
     "full_name": "dkron-io/dkron",
     "html_url": "https://github.com/dkron-io/dkron",
     "language": "Go",
-    "pushed_at": "2026-05-28T09:56:52Z",
-    "stargazers_count": 4692,
+    "pushed_at": "2026-06-03T21:23:15Z",
+    "stargazers_count": 4699,
     "topics": [
       "cron",
       "distributed-systems",
       "fault-tolerance",
       "scheduled-jobs"
     ],
-    "updated_at": "2026-05-30T11:06:39Z"
+    "updated_at": "2026-06-21T17:27:37Z"
   },
   "repo_links": [
     {

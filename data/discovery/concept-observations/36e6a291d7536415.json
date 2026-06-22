@@ -120,7 +120,7 @@
   "normalized_form": "rust",
   "observation_id": "36e6a291d7536415",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "Rust",
   "source_context_snippet": "Rust",
   "source_file": ".github/workflows/rust.yml",

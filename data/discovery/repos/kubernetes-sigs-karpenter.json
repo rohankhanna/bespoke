@@ -110,6 +110,20 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "target": "clevercloud/karpenter-provider-clever-cloud",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/karpenter",
+      "target": "paperclipinc/karpenter-provider-hetzner",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approval-comment.yaml",
       "source_repo": "kubernetes-sigs/karpenter",
@@ -285,15 +299,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:27:30.489481+00:00",
+  "fetched_at": "2026-06-22T00:57:59.976190+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6227
+      "size": 6380
     },
     {
       "path": "go.mod",
-      "size": 4690
+      "size": 5369
     },
     {
       "path": ".github/workflows/approval-comment.yaml",
@@ -337,15 +351,25 @@
     "full_name": "kubernetes-sigs/karpenter",
     "html_url": "https://github.com/kubernetes-sigs/karpenter",
     "language": "Go",
-    "pushed_at": "2026-05-29T15:36:57Z",
-    "stargazers_count": 1916,
+    "pushed_at": "2026-06-19T17:24:49Z",
+    "stargazers_count": 1962,
     "topics": [],
-    "updated_at": "2026-05-30T05:26:19Z"
+    "updated_at": "2026-06-21T13:01:13Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "aws/karpenter-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clevercloud/karpenter-provider-clever-cloud",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paperclipinc/karpenter-provider-hetzner",
       "source_file": "README.md"
     }
   ],

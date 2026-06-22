@@ -194,7 +194,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:47:47.401979+00:00",
+  "fetched_at": "2026-06-22T01:21:57.479396+00:00",
   "fetched_files": [
     {
       "path": "Dockerfile",
@@ -219,7 +219,7 @@
     "html_url": "https://github.com/clj-commons/etaoin",
     "language": "Clojure",
     "pushed_at": "2026-01-20T19:47:27Z",
-    "stargazers_count": 960,
+    "stargazers_count": 963,
     "topics": [
       "chrome",
       "clojure",
@@ -228,7 +228,7 @@
       "safari",
       "webdriver"
     ],
-    "updated_at": "2026-05-20T19:14:07Z"
+    "updated_at": "2026-06-18T02:51:39Z"
   },
   "repo_links": [],
   "terms": [

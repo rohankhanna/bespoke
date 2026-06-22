@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat)."
+      "text": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)"
     },
     {
       "source_kind": "source-snippet",
@@ -113,10 +113,10 @@
   "normalized_form": "harness",
   "observation_id": "f3437eb1a8b5b32a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T07:10:34.990539+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "harness",
   "source_context_snippet": "<p align=\"center\"><img src=\"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"420\" /></p>",
   "source_file": null,
   "source_repo": "zhayujie/CowAgent",
-  "source_repo_description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat)."
+  "source_repo_description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)"
 }

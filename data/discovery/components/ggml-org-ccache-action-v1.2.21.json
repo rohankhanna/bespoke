@@ -1,7 +1,7 @@
 {
   "component": "ggml-org/ccache-action@v1.2.21",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-apple.yml",
       "source_repo": "zhouwg/ggml-hexagon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-clang.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-gcc.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ]
 }

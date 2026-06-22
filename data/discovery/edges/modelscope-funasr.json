@@ -2,6 +2,48 @@
   "edges": [
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "Build llama.cpp runtime binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "Release on tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml",
       "source_repo": "modelscope/FunASR",
       "target": "actions/checkout@v4",
@@ -47,6 +89,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunASR",
       "target": "emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "funasr",
       "target_type": "term"
     },
     {
@@ -155,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "modelscope/FunASR"
 }

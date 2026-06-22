@@ -319,14 +319,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "github/codeql-action/init@v3",
+      "target": "github/codeql-action/init@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "github/codeql-action/analyze@v3",
+      "target": "github/codeql-action/analyze@v4",
       "target_type": "component"
     },
     {
@@ -375,7 +375,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/stale@v9",
+      "target": "actions/stale@v10",
       "target_type": "component"
     },
     {
@@ -484,6 +484,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "vbenjs/vue-vben-admin"
 }

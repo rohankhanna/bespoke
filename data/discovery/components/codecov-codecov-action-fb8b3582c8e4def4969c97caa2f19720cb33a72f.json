@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ]
 }

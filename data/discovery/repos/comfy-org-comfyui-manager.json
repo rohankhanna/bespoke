@@ -134,15 +134,15 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-30T12:41:14.245073+00:00",
+  "fetched_at": "2026-06-22T01:11:16.682849+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 22593
+      "size": 25580
     },
     {
       "path": "pyproject.toml",
-      "size": 611
+      "size": 637
     },
     {
       "path": "requirements.txt",
@@ -170,10 +170,10 @@
     "full_name": "Comfy-Org/ComfyUI-Manager",
     "html_url": "https://github.com/Comfy-Org/ComfyUI-Manager",
     "language": "Python",
-    "pushed_at": "2026-05-29T18:25:38Z",
-    "stargazers_count": 14842,
+    "pushed_at": "2026-06-21T17:56:28Z",
+    "stargazers_count": 15128,
     "topics": [],
-    "updated_at": "2026-05-30T10:35:18Z"
+    "updated_at": "2026-06-21T19:07:21Z"
   },
   "repo_links": [
     {

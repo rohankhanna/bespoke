@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "pyrtlsdr/pyrtlsdr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backward-compat.yml",
+      "source_repo": "ogx-ai/ogx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-constraints.yml",
+      "source_repo": "ogx-ai/ogx"
     }
   ]
 }

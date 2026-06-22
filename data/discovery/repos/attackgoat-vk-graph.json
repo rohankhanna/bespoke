@@ -1,93 +1,218 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-clippy.yml"
     },
     {
-      "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-clippy.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@v1",
+      "component": "actions/cache@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-clippy.yml"
     },
     {
-      "component": "actions/checkout@v3",
+      "component": "github/codeql-action/upload-sarif@v3",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust.yml"
-    },
-    {
-      "component": "actions-rs/toolchain@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust.yml"
+      "source_file": ".github/workflows/rust-clippy.yml"
     }
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "attackgoat/vk-graph",
-      "target": "attackgoat/screen-13",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "attackgoat/vk-graph",
-      "target": "attackgoat/screen-13",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "actions/checkout@v2",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "github/codeql-action/upload-sarif@v1",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/deploy-pages@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_file": ".github/workflows/docs.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "rust-clippy analyze",
+      "target": "Deploy Book",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust.yml",
+      "source_file": ".github/workflows/integration.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/rust.yml",
+      "source_file": ".github/workflows/integration.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "actions-rs/toolchain@v1",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/cache@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/rust.yml",
+      "source_file": ".github/workflows/integration.yml",
       "source_repo": "attackgoat/vk-graph",
-      "target": "Rust",
+      "target": "GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "Clippy SARIF",
       "target_type": "term"
     },
     {
@@ -133,23 +258,31 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:44:35.692875+00:00",
+  "fetched_at": "2026-06-22T01:17:05.982252+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5487
+      "size": 7562
     },
     {
       "path": "Cargo.toml",
-      "size": 2334
+      "size": 3401
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1106
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1374
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1104
     },
     {
       "path": ".github/workflows/rust-clippy.yml",
-      "size": 1614
-    },
-    {
-      "path": ".github/workflows/rust.yml",
-      "size": 370
+      "size": 1767
     }
   ],
   "related_repositories": [],
@@ -161,7 +294,7 @@
     "full_name": "attackgoat/vk-graph",
     "html_url": "https://github.com/attackgoat/vk-graph",
     "language": "Rust",
-    "pushed_at": "2026-05-30T10:01:01Z",
+    "pushed_at": "2026-06-19T09:20:46Z",
     "stargazers_count": 337,
     "topics": [
       "3d",
@@ -172,65 +305,60 @@
       "rust",
       "vulkan"
     ],
-    "updated_at": "2026-05-29T06:37:57Z"
+    "updated_at": "2026-06-18T12:43:46Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "attackgoat/screen-13",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "attackgoat/screen-13",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "context_snippet": "rust-clippy analyze",
+      "context_snippet": "Deploy Book",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy Book"
+    },
+    {
+      "context_snippet": "GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "GPU"
+    },
+    {
+      "context_snippet": "Clippy SARIF",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/rust-clippy.yml",
-      "term": "rust-clippy analyze"
+      "term": "Clippy SARIF"
     },
     {
-      "context_snippet": "Rust",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/rust.yml",
-      "term": "Rust"
-    },
-    {
-      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "context_snippet": "Vulkan Graph Driver",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "3d-game-engine"
     },
     {
-      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "context_snippet": "Vulkan Graph Driver",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "game-development"
     },
     {
-      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "context_snippet": "Vulkan Graph Driver",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "game-engine"
     },
     {
-      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "context_snippet": "Vulkan Graph Driver",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gamedev"
     },
     {
-      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "context_snippet": "Vulkan Graph Driver",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rust"
     },
     {
-      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "context_snippet": "Vulkan Graph Driver",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "vulkan"

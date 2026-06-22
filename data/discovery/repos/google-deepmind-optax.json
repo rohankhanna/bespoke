@@ -180,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:42:00.137869+00:00",
+  "fetched_at": "2026-06-22T01:12:28.753159+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -188,19 +188,19 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 3886
+      "size": 3942
     },
     {
       "path": ".github/workflows/mlc_config.json",
-      "size": 91
+      "size": 253
     },
     {
       "path": ".github/workflows/pypi-publish.yml",
-      "size": 1085
+      "size": 1236
     },
     {
       "path": ".github/workflows/tests.yml",
-      "size": 7070
+      "size": 7118
     }
   ],
   "related_repositories": [],
@@ -212,13 +212,13 @@
     "full_name": "google-deepmind/optax",
     "html_url": "https://github.com/google-deepmind/optax",
     "language": "Python",
-    "pushed_at": "2026-05-29T19:28:52Z",
-    "stargazers_count": 2271,
+    "pushed_at": "2026-06-17T17:28:12Z",
+    "stargazers_count": 2292,
     "topics": [
       "machine-learning",
       "optimization"
     ],
-    "updated_at": "2026-05-29T19:28:55Z"
+    "updated_at": "2026-06-21T05:38:33Z"
   },
   "repo_links": [],
   "terms": [

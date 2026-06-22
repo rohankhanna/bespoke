@@ -1210,6 +1210,18 @@
       "source_repo": "cilium/cilium",
       "status": "candidate-context",
       "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/aspire-samples",
+      "status": "candidate-context",
+      "text": "Browse the sample apps demonstrating Aspire integration across C#, JavaScript, TypeScript, Python, Go, containers, databases, cloud, AI, and observability scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire-samples",
+      "status": "candidate-context",
+      "text": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1812,6 +1824,12 @@
       "source_repo": "cilium/cilium",
       "status": "candidate",
       "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire-samples",
+      "status": "candidate",
+      "text": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -5281,11 +5299,17 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire-samples"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

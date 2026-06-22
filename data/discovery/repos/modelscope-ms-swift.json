@@ -241,11 +241,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:25:39.683928+00:00",
+  "fetched_at": "2026-06-22T00:54:15.730153+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 34425
+      "size": 34569
     },
     {
       "path": "requirements.txt",
@@ -257,7 +257,7 @@
     },
     {
       "path": ".github/workflows/citest_npu.yaml",
-      "size": 2398
+      "size": 3429
     },
     {
       "path": ".github/workflows/close_tale_issue.yaml",
@@ -281,8 +281,8 @@
     "full_name": "modelscope/ms-swift",
     "html_url": "https://github.com/modelscope/ms-swift",
     "language": "Python",
-    "pushed_at": "2026-05-30T07:10:51Z",
-    "stargazers_count": 14331,
+    "pushed_at": "2026-06-18T10:02:46Z",
+    "stargazers_count": 14567,
     "topics": [
       "deepseek-r1",
       "embedding",
@@ -305,7 +305,7 @@
       "reranker",
       "sft"
     ],
-    "updated_at": "2026-05-30T07:10:55Z"
+    "updated_at": "2026-06-21T13:44:46Z"
   },
   "repo_links": [],
   "terms": [

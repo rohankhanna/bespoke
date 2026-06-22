@@ -4,7 +4,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -60,7 +60,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades_comment.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -151,7 +151,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -172,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -207,7 +207,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -288,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "psf/black"
 }

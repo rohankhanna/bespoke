@@ -80,6 +80,18 @@
       "source_repo": "ajayd-san/gomanagedocker",
       "status": "candidate-context",
       "text": "Create draft release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "Create Draft Release"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "ajayd-san/gomanagedocker",
       "status": "candidate",
       "text": "Create draft release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Create Draft Release"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +215,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ajayd-san/gomanagedocker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

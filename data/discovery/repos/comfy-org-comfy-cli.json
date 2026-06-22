@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/pytest.yml"
     },
     {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml"
     },
@@ -211,7 +211,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "Comfy-Org/comfy-cli",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -320,15 +320,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:41:10.501642+00:00",
+  "fetched_at": "2026-06-22T01:11:10.430775+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 19258
+      "size": 19737
     },
     {
       "path": "pyproject.toml",
-      "size": 2255
+      "size": 2688
     },
     {
       "path": ".github/workflows/build-and-test.yml",
@@ -344,11 +344,11 @@
     },
     {
       "path": ".github/workflows/pytest.yml",
-      "size": 980
+      "size": 991
     },
     {
       "path": ".github/workflows/ruff_check.yml",
-      "size": 573
+      "size": 582
     },
     {
       "path": ".github/workflows/run-on-gpu.yml",
@@ -372,15 +372,15 @@
     "full_name": "Comfy-Org/comfy-cli",
     "html_url": "https://github.com/Comfy-Org/comfy-cli",
     "language": "Python",
-    "pushed_at": "2026-05-29T08:16:02Z",
-    "stargazers_count": 829,
+    "pushed_at": "2026-06-22T01:07:57Z",
+    "stargazers_count": 851,
     "topics": [
       "ai",
       "comfyui",
       "command-line",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-30T09:53:49Z"
+    "updated_at": "2026-06-22T01:08:01Z"
   },
   "repo_links": [
     {

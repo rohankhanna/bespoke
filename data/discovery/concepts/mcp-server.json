@@ -577,6 +577,12 @@
       "source_repo": "modelscope/FunASR",
       "status": "candidate-context",
       "text": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
     }
   ],
   "candidate_glosses": [
@@ -2176,11 +2182,23 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
   "lexical_providers": [
     "datamuse"
   ],

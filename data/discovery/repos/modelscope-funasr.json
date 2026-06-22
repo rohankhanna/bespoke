@@ -3,6 +3,26 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml"
     },
     {
@@ -17,6 +37,48 @@
     }
   ],
   "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "Build llama.cpp runtime binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "source_repo": "modelscope/FunASR",
+      "target": "Release on tag",
+      "target_type": "term"
+    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/update-api-docs.yml",
@@ -64,6 +126,13 @@
       "source_file": null,
       "source_repo": "modelscope/FunASR",
       "target": "emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR",
+      "target": "funasr",
       "target_type": "term"
     },
     {
@@ -172,15 +241,23 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:28:24.295010+00:00",
+  "fetched_at": "2026-06-22T00:59:28.524849+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 11993
+      "size": 15329
     },
     {
       "path": "pyproject.toml",
       "size": 96
+    },
+    {
+      "path": ".github/workflows/build-llamacpp-binaries.yml",
+      "size": 2787
+    },
+    {
+      "path": ".github/workflows/release-on-tag.yml",
+      "size": 452
     },
     {
       "path": ".github/workflows/update-api-docs.yml",
@@ -196,13 +273,14 @@
     "full_name": "modelscope/FunASR",
     "html_url": "https://github.com/modelscope/FunASR",
     "language": "Python",
-    "pushed_at": "2026-05-29T20:53:23Z",
-    "stargazers_count": 16588,
+    "pushed_at": "2026-06-21T18:39:32Z",
+    "stargazers_count": 18416,
     "topics": [
       "asr",
       "audio",
       "chinese",
       "emotion-recognition",
+      "funasr",
       "mcp-server",
       "multilingual-asr",
       "openai-compatible-api",
@@ -215,15 +293,26 @@
       "speech-to-text",
       "streaming-asr",
       "transcription",
-      "vad",
       "vllm",
       "voice-activity-detection",
       "whisper-alternative"
     ],
-    "updated_at": "2026-05-30T07:23:32Z"
+    "updated_at": "2026-06-22T00:44:21Z"
   },
   "repo_links": [],
   "terms": [
+    {
+      "context_snippet": "Build llama.cpp runtime binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llamacpp-binaries.yml",
+      "term": "Build llama.cpp runtime binaries"
+    },
+    {
+      "context_snippet": "Release on tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-on-tag.yml",
+      "term": "Release on tag"
+    },
     {
       "context_snippet": "Update API Documentation",
       "edge_type": "workflow-name",
@@ -247,6 +336,12 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "emotion-recognition"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "funasr"
     },
     {
       "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_zh.md)|English|[\u65e5\u672c\u8a9e](./README_ja.md)|[\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165](./README_ko.md))",

@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/asan.yaml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -25,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cpu.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -39,14 +39,14 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bazel_cpu_presubmit.yml",
       "source_repo": "jax-ml/jax",
-      "target": "CI - Bazel CPU tests",
+      "target": "Bazel CPU",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel_cuda_h100_b200.yml",
       "source_repo": "jax-ml/jax",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -109,10 +109,10 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bazel_cuda_presubmit.yml",
       "source_repo": "jax-ml/jax",
-      "target": "CI - Bazel CUDA tests",
+      "target": "Bazel CUDA",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "jax-ml/jax"
 }

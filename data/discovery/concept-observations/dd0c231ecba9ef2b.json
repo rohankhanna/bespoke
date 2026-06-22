@@ -6,6 +6,11 @@
   ],
   "candidate_definition_hints": [
     {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Browse the sample apps demonstrating Aspire integration across C#, JavaScript, TypeScript, Python, Go, containers, databases, cloud, AI, and observability scenarios."
+    },
+    {
       "source_kind": "source-snippet",
       "status": "context-only",
       "text": "\"Labeler: Cache Retention\""
@@ -79,10 +84,10 @@
   "normalized_form": "labeler-cache-retention",
   "observation_id": "dd0c231ecba9ef2b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "Labeler: Cache Retention",
   "source_context_snippet": "\"Labeler: Cache Retention\"",
   "source_file": ".github/workflows/labeler-cache-retention.yml",
   "source_repo": "microsoft/aspire-samples",
-  "source_repo_description": null
+  "source_repo_description": "Browse the sample apps demonstrating Aspire integration across C#, JavaScript, TypeScript, Python, Go, containers, databases, cloud, AI, and observability scenarios."
 }

@@ -31,7 +31,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code-coverage.yml"
     },
@@ -41,12 +41,12 @@
       "source_file": ".github/workflows/code-coverage.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/libs-test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/libs-test.yml"
     },
@@ -61,12 +61,12 @@
       "source_file": ".github/workflows/libs-test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/native-image-test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/native-image-test.yml"
     },
@@ -76,17 +76,17 @@
       "source_file": ".github/workflows/native-image-test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit-test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit-test.yml"
     },
@@ -143,7 +143,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/code-coverage.yml",
       "source_repo": "clj-commons/rewrite-clj",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -164,7 +164,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/libs-test.yml",
       "source_repo": "clj-commons/rewrite-clj",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -192,7 +192,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/native-image-test.yml",
       "source_repo": "clj-commons/rewrite-clj",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -213,7 +213,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "clj-commons/rewrite-clj",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -227,7 +227,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit-test.yml",
       "source_repo": "clj-commons/rewrite-clj",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -245,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:47:33.078725+00:00",
+  "fetched_at": "2026-06-22T01:21:37.046020+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -281,10 +281,10 @@
     "full_name": "clj-commons/rewrite-clj",
     "html_url": "https://github.com/clj-commons/rewrite-clj",
     "language": "Clojure",
-    "pushed_at": "2026-05-26T18:56:33Z",
-    "stargazers_count": 658,
+    "pushed_at": "2026-06-19T18:44:38Z",
+    "stargazers_count": 661,
     "topics": [],
-    "updated_at": "2026-05-28T14:59:33Z"
+    "updated_at": "2026-06-19T18:44:44Z"
   },
   "repo_links": [],
   "terms": [

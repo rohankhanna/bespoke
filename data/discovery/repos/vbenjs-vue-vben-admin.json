@@ -221,12 +221,12 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@v3",
+      "component": "github/codeql-action/init@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@v3",
+      "component": "github/codeql-action/analyze@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -286,7 +286,7 @@
       "source_file": ".github/workflows/draft.yml"
     },
     {
-      "component": "actions/stale@v9",
+      "component": "actions/stale@v10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-close-require.yml"
     },
@@ -626,14 +626,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "github/codeql-action/init@v3",
+      "target": "github/codeql-action/init@v4",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "github/codeql-action/analyze@v3",
+      "target": "github/codeql-action/analyze@v4",
       "target_type": "component"
     },
     {
@@ -682,7 +682,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "vbenjs/vue-vben-admin",
-      "target": "actions/stale@v9",
+      "target": "actions/stale@v10",
       "target_type": "component"
     },
     {
@@ -791,11 +791,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:29:33.899947+00:00",
+  "fetched_at": "2026-06-22T01:01:30.587495+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6671
+      "size": 6687
     },
     {
       "path": "package.json",
@@ -827,7 +827,7 @@
     },
     {
       "path": ".github/workflows/issue-close-require.yml",
-      "size": 1033
+      "size": 1034
     },
     {
       "path": ".github/workflows/issue-labeled.yml",
@@ -843,8 +843,8 @@
     "full_name": "vbenjs/vue-vben-admin",
     "html_url": "https://github.com/vbenjs/vue-vben-admin",
     "language": "Vue",
-    "pushed_at": "2026-05-29T22:14:22Z",
-    "stargazers_count": 32491,
+    "pushed_at": "2026-06-21T07:00:51Z",
+    "stargazers_count": 32705,
     "topics": [
       "admin-template",
       "ant-design",
@@ -861,7 +861,7 @@
       "vue3",
       "vuex"
     ],
-    "updated_at": "2026-05-30T06:15:18Z"
+    "updated_at": "2026-06-21T15:06:09Z"
   },
   "repo_links": [
     {

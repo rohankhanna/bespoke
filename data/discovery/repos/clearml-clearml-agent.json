@@ -54,6 +54,13 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "clearml/clearml-agent",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent",
       "target": "machine-learning",
       "target_type": "term"
     },
@@ -70,27 +77,13 @@
       "source_repo": "clearml/clearml-agent",
       "target": "orchestration",
       "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "clearml/clearml-agent",
-      "target": "trains",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "source_repo": "clearml/clearml-agent",
-      "target": "trains-agent",
-      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:40:41.837447+00:00",
+  "fetched_at": "2026-06-22T01:10:26.526859+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 19711
+      "size": 19924
     },
     {
       "path": "requirements.txt",
@@ -105,13 +98,13 @@
   "repo": {
     "archived": false,
     "default_branch": "master",
-    "description": "ClearML Agent - ML-Ops made easy. ML-Ops scheduler & orchestration solution",
+    "description": "ClearML Agent - MLOps/LLMOps made easy. MLOps/LLMOps scheduler & orchestration solution",
     "fork": false,
     "full_name": "clearml/clearml-agent",
     "html_url": "https://github.com/clearml/clearml-agent",
     "language": "Python",
-    "pushed_at": "2026-05-28T16:49:18Z",
-    "stargazers_count": 301,
+    "pushed_at": "2026-06-08T12:26:49Z",
+    "stargazers_count": 303,
     "topics": [
       "clearml-agent",
       "cluster-manager",
@@ -122,13 +115,12 @@
       "gpu",
       "k8s",
       "kubernetes",
+      "llmops",
       "machine-learning",
       "mlops",
-      "orchestration",
-      "trains",
-      "trains-agent"
+      "orchestration"
     ],
-    "updated_at": "2026-05-28T16:42:50Z"
+    "updated_at": "2026-06-19T08:22:42Z"
   },
   "repo_links": [],
   "terms": [
@@ -178,6 +170,12 @@
       "context_snippet": "<div align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "term": "machine-learning"
     },
     {
@@ -191,18 +189,6 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "orchestration"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "trains"
-    },
-    {
-      "context_snippet": "<div align=\"center\">",
-      "edge_type": "repo-topic",
-      "source_file": null,
-      "term": "trains-agent"
     }
   ]
 }

@@ -1,7 +1,29 @@
 {
   "components": [],
-  "edges": [],
-  "fetched_at": "2026-05-30T07:31:30.327274+00:00",
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-T",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-T",
+      "target": "efficient-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMD-AGI/Nitro-T",
+      "target": "image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T01:04:43.681467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -21,11 +43,34 @@
     "full_name": "AMD-AGI/Nitro-T",
     "html_url": "https://github.com/AMD-AGI/Nitro-T",
     "language": "Python",
-    "pushed_at": "2025-07-10T20:30:03Z",
+    "pushed_at": "2026-06-04T05:52:55Z",
     "stargazers_count": 41,
-    "topics": [],
-    "updated_at": "2026-04-28T15:08:32Z"
+    "topics": [
+      "diffusion",
+      "efficient-training",
+      "image-generation"
+    ],
+    "updated_at": "2026-06-04T05:53:33Z"
   },
   "repo_links": [],
-  "terms": []
+  "terms": [
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-training"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    }
+  ]
 }

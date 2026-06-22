@@ -119,6 +119,26 @@
       "component": "julia-actions/setup-julia@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/TestBundledExport.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml"
+    },
+    {
+      "component": "browser-actions/setup-firefox@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml"
     }
   ],
   "edges": [
@@ -155,13 +175,6 @@
       "source_file": ".github/workflows/Bundle.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
       "target": "Bundle Web Assets",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/CompatHelper.yml",
-      "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "CompatHelper",
       "target_type": "term"
     },
     {
@@ -347,6 +360,41 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "target": "browser-actions/setup-firefox@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "target": "browser-actions/setup-chrome@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "target": "Browser basic launch test",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl",
@@ -410,19 +458,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:43:56.862494+00:00",
+  "fetched_at": "2026-06-22T01:15:28.707024+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 12216
+      "size": 12588
     },
     {
       "path": ".github/workflows/Bundle.yml",
       "size": 4987
-    },
-    {
-      "path": ".github/workflows/CompatHelper.yml",
-      "size": 1092
     },
     {
       "path": ".github/workflows/FrontendTest.yml",
@@ -451,6 +495,10 @@
     {
       "path": ".github/workflows/TestBundledExport.yml",
       "size": 821
+    },
+    {
+      "path": ".github/workflows/TestFirefox.yml",
+      "size": 3231
     }
   ],
   "related_repositories": [],
@@ -462,8 +510,8 @@
     "full_name": "JuliaPluto/Pluto.jl",
     "html_url": "https://github.com/JuliaPluto/Pluto.jl",
     "language": "JavaScript",
-    "pushed_at": "2026-05-30T12:05:13Z",
-    "stargazers_count": 5324,
+    "pushed_at": "2026-06-20T12:02:38Z",
+    "stargazers_count": 5347,
     "topics": [
       "designed-for-teachers",
       "education",
@@ -475,7 +523,7 @@
       "reactive",
       "visualization"
     ],
-    "updated_at": "2026-05-29T12:19:13Z"
+    "updated_at": "2026-06-20T01:25:14Z"
   },
   "repo_links": [
     {
@@ -490,12 +538,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/Bundle.yml",
       "term": "Bundle Web Assets"
-    },
-    {
-      "context_snippet": "CompatHelper",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/CompatHelper.yml",
-      "term": "CompatHelper"
     },
     {
       "context_snippet": "Chrome frontend tests",
@@ -538,6 +580,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/TestBundledExport.yml",
       "term": "Test bundled HTML export"
+    },
+    {
+      "context_snippet": "Browser basic launch test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "term": "Browser basic launch test"
     },
     {
       "context_snippet": "> # Install Pluto",

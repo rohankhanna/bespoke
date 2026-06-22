@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Browser basic launch test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "\ud83c\udf88 Simple reactive notebooks for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "Browser basic launch test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate",
+      "text": "Browser basic launch test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33520,
+      "status": "candidate",
+      "text": "spaceport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30182,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014,
+      "status": "candidate",
+      "text": "camino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29693,
+      "status": "candidate",
+      "text": "ramp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Browser basic launch test",
+  "concept_id": "browser-basic-launch-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T00:52:01.139311+00:00",
+      "source_file": ".github/workflows/TestFirefox.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    }
+  ],
+  "first_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Browser basic launch test",
+      "sense_id": "browser-basic-launch-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

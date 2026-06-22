@@ -1,12 +1,12 @@
 {
   "components": [
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -16,27 +16,7 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/diff_shades.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/diff_shades.yml"
-    },
-    {
-      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/diff_shades.yml"
-    },
-    {
-      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/diff_shades.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -56,7 +36,27 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff_shades.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff_shades.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff_shades.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff_shades.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades_comment.yml"
     },
@@ -106,7 +106,7 @@
       "source_file": ".github/workflows/diff_shades_comment.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml"
     },
@@ -181,7 +181,7 @@
       "source_file": ".github/workflows/fuzz.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
@@ -201,7 +201,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -215,7 +215,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -257,7 +257,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades_comment.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -299,7 +299,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -348,7 +348,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -369,7 +369,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -404,7 +404,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "psf/black",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -485,11 +485,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:30:09.025219+00:00",
+  "fetched_at": "2026-06-22T01:02:32.084005+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 9719
+      "size": 9915
     },
     {
       "path": "Dockerfile",
@@ -505,11 +505,11 @@
     },
     {
       "path": ".github/workflows/diff_shades.yml",
-      "size": 8048
+      "size": 8160
     },
     {
       "path": ".github/workflows/diff_shades_comment.yml",
-      "size": 4382
+      "size": 4410
     },
     {
       "path": ".github/workflows/docker.yml",
@@ -517,7 +517,7 @@
     },
     {
       "path": ".github/workflows/docs.yml",
-      "size": 1221
+      "size": 1214
     },
     {
       "path": ".github/workflows/fuzz.yml",
@@ -525,7 +525,7 @@
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 1444
+      "size": 1437
     }
   ],
   "related_repositories": [],
@@ -537,8 +537,8 @@
     "full_name": "psf/black",
     "html_url": "https://github.com/psf/black",
     "language": "Python",
-    "pushed_at": "2026-05-29T12:02:21Z",
-    "stargazers_count": 41524,
+    "pushed_at": "2026-06-17T14:22:57Z",
+    "stargazers_count": 41576,
     "topics": [
       "autopep8",
       "code",
@@ -550,7 +550,7 @@
       "python",
       "yapf"
     ],
-    "updated_at": "2026-05-30T07:22:38Z"
+    "updated_at": "2026-06-21T20:16:09Z"
   },
   "repo_links": [],
   "terms": [

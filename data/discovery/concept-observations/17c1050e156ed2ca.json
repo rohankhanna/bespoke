@@ -84,7 +84,7 @@
   "normalized_form": "check-uv.lock",
   "observation_id": "17c1050e156ed2ca",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "Check uv.lock",
   "source_context_snippet": "Check uv.lock",
   "source_file": ".github/workflows/check_lockfile.yaml",

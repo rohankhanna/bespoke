@@ -6,6 +6,11 @@
   ],
   "candidate_definition_hints": [
     {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Browse the sample apps demonstrating Aspire integration across C#, JavaScript, TypeScript, Python, Go, containers, databases, cloud, AI, and observability scenarios."
+    },
+    {
       "source_kind": "source-snippet",
       "status": "context-only",
       "text": "\"Labeler: Promotion\""
@@ -79,10 +84,10 @@
   "normalized_form": "labeler-promotion",
   "observation_id": "74a41e81902fb268",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T00:52:01.139311+00:00",
   "observed_text": "Labeler: Promotion",
   "source_context_snippet": "\"Labeler: Promotion\"",
   "source_file": ".github/workflows/labeler-promote.yml",
   "source_repo": "microsoft/aspire-samples",
-  "source_repo_description": null
+  "source_repo_description": "Browse the sample apps demonstrating Aspire integration across C#, JavaScript, TypeScript, Python, Go, containers, databases, cloud, AI, and observability scenarios."
 }

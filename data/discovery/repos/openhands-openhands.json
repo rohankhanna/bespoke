@@ -63,6 +63,16 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fe-e2e-tests.yml"
     },
     {
@@ -96,17 +106,7 @@
       "source_file": ".github/workflows/issue-opened.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue-opened.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue-opened.yml"
-    },
-    {
-      "component": "actions/github-script@v9",
+      "component": "OpenHands/extensions/plugins/issue-duplicate-checker@v0.4.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-opened.yml"
     },
@@ -131,17 +131,33 @@
       "source_file": ".github/workflows/issue-opened.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/issue-opened.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
+      "component": "OpenHands/extensions/plugins/issue-duplicate-checker@v0.4.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-opened.yml"
     }
   ],
   "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/incubator-program",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/agent-canvas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/automation",
+      "target_type": "repository"
+    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml",
@@ -241,6 +257,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/enterprise-check-migrations.yml",
       "source_repo": "OpenHands/OpenHands",
@@ -321,6 +344,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-opened.yml",
       "source_repo": "OpenHands/OpenHands",
+      "target": "OpenHands/extensions/plugins/issue-duplicate-checker@v0.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "OpenHands/OpenHands",
       "target": "actions/setup-python@v6",
       "target_type": "component"
     },
@@ -367,15 +397,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T00:47:56.764400+00:00",
+  "fetched_at": "2026-06-22T00:54:49.060176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8358
+      "size": 8438
     },
     {
       "path": "pyproject.toml",
-      "size": 8483
+      "size": 8480
     },
     {
       "path": ".github/workflows/_build-image.yml",
@@ -391,7 +421,7 @@
     },
     {
       "path": ".github/workflows/enterprise-check-migrations.yml",
-      "size": 1792
+      "size": 5265
     },
     {
       "path": ".github/workflows/fe-e2e-tests.yml",
@@ -407,7 +437,7 @@
     },
     {
       "path": ".github/workflows/issue-opened.yml",
-      "size": 33980
+      "size": 15616
     }
   ],
   "related_repositories": [],
@@ -419,8 +449,8 @@
     "full_name": "OpenHands/OpenHands",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "language": "Python",
-    "pushed_at": "2026-05-29T17:35:36Z",
-    "stargazers_count": 75335,
+    "pushed_at": "2026-06-21T15:58:16Z",
+    "stargazers_count": 77936,
     "topics": [
       "agent",
       "artificial-intelligence",
@@ -432,9 +462,25 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-05-30T00:40:39Z"
+    "updated_at": "2026-06-22T00:50:40Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/agent-canvas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/automation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/incubator-program",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Build and push multi-arch image",

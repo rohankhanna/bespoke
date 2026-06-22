@@ -2,12 +2,19 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apostrophecms/starter-kit-astro-apollo",
+      "target": "apostrophecms/astro-public-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "apostrophecms/starter-kit-astro-apollo",
       "target": "apostrophecms/combined-astro-starter-kit",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "apostrophecms/starter-kit-astro-apollo"
 }

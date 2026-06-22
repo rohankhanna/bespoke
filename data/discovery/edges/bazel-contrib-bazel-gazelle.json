@@ -13,8 +13,36 @@
       "source_repo": "bazel-contrib/bazel-gazelle",
       "target": "bazelbuild/bazel-gazelle",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "Release",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T00:52:01.139311+00:00",
   "source_repo": "bazel-contrib/bazel-gazelle"
 }

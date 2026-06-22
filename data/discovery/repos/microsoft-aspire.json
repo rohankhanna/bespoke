@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -16,12 +16,12 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -31,7 +31,17 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -41,12 +51,7 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -56,7 +61,22 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -76,22 +96,12 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
-      "component": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
-    },
-    {
-      "component": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
@@ -101,37 +111,272 @@
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
     },
     {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
@@ -151,22 +396,22 @@
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml"
     },
@@ -176,7 +421,7 @@
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml"
     },
@@ -186,7 +431,7 @@
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml"
     },
@@ -201,7 +446,7 @@
       "source_file": ".github/workflows/backmerge-release.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backmerge-release.yml"
     },
@@ -211,22 +456,22 @@
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
@@ -241,12 +486,12 @@
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml"
     },
@@ -256,7 +501,7 @@
       "source_file": ".github/workflows/build-cli-e2e-image.yml"
     },
     {
-      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-cli-e2e-image.yml"
     },
@@ -274,26 +519,6 @@
       "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-cli-e2e-image.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml"
     }
   ],
   "edges": [
@@ -301,7 +526,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "github/gh-aw-actions/setup@ff0525b685481744f490a0d362753d8001e4b39d",
+      "target": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "target_type": "component"
     },
     {
@@ -315,14 +540,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
       "source_repo": "microsoft/aspire",
-      "target": "github/gh-aw-actions/setup-cli@ff0525b685481744f490a0d362753d8001e4b39d",
+      "target": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
       "target_type": "component"
     },
     {
@@ -341,6 +566,55 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "github/gh-aw-actions/setup-cli@5c2fe865bb4dc46e1450f6ee0d0541d759aea73a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "source_repo": "microsoft/aspire",
+      "target": "Agentic Maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -350,7 +624,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/apply-test-attributes.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -378,7 +652,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-rerun-transient-ci-failures.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -406,7 +680,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backmerge-release.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -427,7 +701,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -462,7 +736,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-cli-e2e-image.yml",
       "source_repo": "microsoft/aspire",
-      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -477,27 +751,6 @@
       "source_file": ".github/workflows/build-cli-e2e-image.yml",
       "source_repo": "microsoft/aspire",
       "target": "Build CLI E2E Docker Image",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "source_repo": "microsoft/aspire",
-      "target": "Build native CLI archives",
       "target_type": "term"
     },
     {
@@ -522,7 +775,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:48:49.668765+00:00",
+  "fetched_at": "2026-06-22T01:23:29.008223+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -534,7 +787,11 @@
     },
     {
       "path": ".github/workflows/agentics-maintenance-microsoft-aspire.dev.yml",
-      "size": 13260
+      "size": 15653
+    },
+    {
+      "path": ".github/workflows/agentics-maintenance.yml",
+      "size": 26281
     },
     {
       "path": ".github/workflows/apply-test-attributes.yml",
@@ -542,15 +799,15 @@
     },
     {
       "path": ".github/workflows/auto-rerun-transient-ci-failures.js",
-      "size": 47210
+      "size": 53228
     },
     {
       "path": ".github/workflows/auto-rerun-transient-ci-failures.yml",
-      "size": 18157
+      "size": 22070
     },
     {
       "path": ".github/workflows/backmerge-release.yml",
-      "size": 7120
+      "size": 7119
     },
     {
       "path": ".github/workflows/backport.yml",
@@ -558,10 +815,6 @@
     },
     {
       "path": ".github/workflows/build-cli-e2e-image.yml",
-      "size": 6736
-    },
-    {
-      "path": ".github/workflows/build-cli-native-archives.yml",
       "size": 6736
     }
   ],
@@ -574,8 +827,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-05-30T10:24:54Z",
-    "stargazers_count": 5987,
+    "pushed_at": "2026-06-22T01:06:14Z",
+    "stargazers_count": 6104,
     "topics": [
       "cloud",
       "dotnet",
@@ -583,10 +836,16 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-05-30T11:21:42Z"
+    "updated_at": "2026-06-21T22:47:49Z"
   },
   "repo_links": [],
   "terms": [
+    {
+      "context_snippet": "Agentic Maintenance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agentics-maintenance.yml",
+      "term": "Agentic Maintenance"
+    },
     {
       "context_snippet": "Auto rerun transient CI failures",
       "edge_type": "workflow-name",
@@ -610,12 +869,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-cli-e2e-image.yml",
       "term": "Build CLI E2E Docker Image"
-    },
-    {
-      "context_snippet": "Build native CLI archives",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-cli-native-archives.yml",
-      "term": "Build native CLI archives"
     },
     {
       "context_snippet": "[![CI](https://github.com/microsoft/aspire/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/microsoft/aspire/actions/workflows/ci.yml)",

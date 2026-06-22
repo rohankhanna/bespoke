@@ -61,6 +61,13 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "comfy-org/comfy-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "Comfy-Org/ComfyUI",
       "target": "comfyanonymous/comfyui",
@@ -214,11 +221,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:39:24.915471+00:00",
+  "fetched_at": "2026-06-22T01:08:32.482647+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30186
+      "size": 29432
     },
     {
       "path": "pyproject.toml",
@@ -226,7 +233,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 516
+      "size": 517
     },
     {
       "path": ".github/workflows/api-node-template.yml",
@@ -242,7 +249,7 @@
     },
     {
       "path": ".github/workflows/check-line-endings.yml",
-      "size": 1235
+      "size": 1246
     },
     {
       "path": ".github/workflows/detect-unreviewed-merge.yml",
@@ -266,8 +273,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-05-30T10:46:13Z",
-    "stargazers_count": 114981,
+    "pushed_at": "2026-06-21T21:02:38Z",
+    "stargazers_count": 117814,
     "topics": [
       "ai",
       "comfy",
@@ -276,9 +283,14 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-05-30T12:36:27Z"
+    "updated_at": "2026-06-22T01:04:28Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfy-org/comfy-desktop",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "comfyanonymous/comfyui",

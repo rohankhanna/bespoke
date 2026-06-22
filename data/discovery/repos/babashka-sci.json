@@ -214,11 +214,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:47:17.403647+00:00",
+  "fetched_at": "2026-06-22T01:21:12.851442+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30437
+      "size": 30769
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -234,8 +234,8 @@
     "full_name": "babashka/sci",
     "html_url": "https://github.com/babashka/sci",
     "language": "Clojure",
-    "pushed_at": "2026-05-24T11:45:04Z",
-    "stargazers_count": 1358,
+    "pushed_at": "2026-06-20T21:24:30Z",
+    "stargazers_count": 1364,
     "topics": [
       "babashka",
       "clojure",
@@ -245,7 +245,7 @@
       "javascript",
       "language"
     ],
-    "updated_at": "2026-05-28T14:59:21Z"
+    "updated_at": "2026-06-21T00:52:58Z"
   },
   "repo_links": [
     {

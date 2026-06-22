@@ -2555,6 +2555,7 @@
     "d2211e24c99ca6cb"
   ],
   "agentic-maintenance": [
+    "461912cc3e834470",
     "beed65c83983a2e8"
   ],
   "agentic-orchestration": [
@@ -3744,6 +3745,9 @@
   ],
   "all-mlp": [
     "7a9e2374a71511e3"
+  ],
+  "all-plugins-smoke": [
+    "e4d1daee65f0654f"
   ],
   "all-tests": [
     "1aae324afc97d246"
@@ -5885,6 +5889,9 @@
     "701e871c1da1db0c",
     "be5e48d4bda6d4b4"
   ],
+  "apphost": [
+    "3cd2588f202814e7"
+  ],
   "appimage": [
     "0073e781080c3423",
     "079dc6940c2336db",
@@ -7347,6 +7354,9 @@
   ],
   "aspekta": [
     "53eaa129b427c954"
+  ],
+  "aspire": [
+    "70b0893e7932c24f"
   ],
   "aspire-samples-ci": [
     "3501fd6fae20f2ba"
@@ -8811,7 +8821,8 @@
     "20576e83b0141ee1"
   ],
   "auto-assign-reviewers": [
-    "08a4e7ecdac31e32"
+    "08a4e7ecdac31e32",
+    "606fcd590ea8d85c"
   ],
   "auto-assign-to-project": [
     "7efb88e2a0e337b4"
@@ -9394,6 +9405,9 @@
   ],
   "auto-subtitle": [
     "20e3a002b48ddc6e"
+  ],
+  "auto-subtitles": [
+    "031b7fcc89b3ccc1"
   ],
   "auto-swap-labels": [
     "335c8f6a92c92153"
@@ -11060,6 +11074,7 @@
     "0662c87c0d5ac779",
     "16ccebc7fa5fb397",
     "17e43eb09dc4d787",
+    "1cfee63f7226f62c",
     "210228ff89e6e43a",
     "224352de99fc8306",
     "2aae1957d37f7aed",
@@ -12568,6 +12583,12 @@
     "7209f59183caa775",
     "b6822a138af905df",
     "de18089c04698e17"
+  ],
+  "bazel-cpu": [
+    "e10e29d0578ed2ac"
+  ],
+  "bazel-cuda": [
+    "e96eff623303dbef"
   ],
   "bazel-dependency-violations": [
     "462d58e78b0b3a57"
@@ -16009,6 +16030,9 @@
     "811231cb01e9f793",
     "9bdd9fb7fa8f7fd3"
   ],
+  "browser-basic-launch-test": [
+    "b4e0c299a3713308"
+  ],
   "browser-detection": [
     "7685520874e75b41"
   ],
@@ -18228,6 +18252,7 @@
     "fcf765008c5bafb2"
   ],
   "build-and-release-android": [
+    "2115cc874e5438ab",
     "6105007e0441e10f"
   ],
   "build-and-release-app": [
@@ -18250,7 +18275,8 @@
     "fbf182ee001215a2"
   ],
   "build-and-release-ios": [
-    "57d55ec8d4891c77"
+    "57d55ec8d4891c77",
+    "8259e219ec8f1769"
   ],
   "build-and-release-lightly": [
     "ba0f25c5bb205850"
@@ -20571,6 +20597,9 @@
   ],
   "build-llama.cpp-in-cann-container": [
     "029a5789b7412c6c"
+  ],
+  "build-llama.cpp-runtime-binaries": [
+    "f008d7d54098d059"
   ],
   "build-llvm": [
     "1d30ebb4fa52ca9f",
@@ -28078,7 +28107,8 @@
     "ce694952996ef2e3",
     "db7ff285f0f5e64b",
     "e92ab35ec61d7fb8",
-    "f3c87fe61b581d16"
+    "f3c87fe61b581d16",
+    "f859fa6251fb79ee"
   ],
   "chinese-bert": [
     "b103f22b7c857adc"
@@ -28748,6 +28778,7 @@
   ],
   "ci-android": [
     "23c4295b89baf9a7",
+    "28f89d5ebfd42f03",
     "56601009a37f3c2f",
     "c6ba477b45732dfa"
   ],
@@ -28931,6 +28962,9 @@
     "c54a6563b091bf8f",
     "e6a6ba2b8aac183a"
   ],
+  "ci-clang": [
+    "491d70352b4fbb9a"
+  ],
   "ci-cmake": [
     "0c683f9fbf80d105",
     "d39c22b81a4ed080",
@@ -28999,8 +29033,12 @@
   "ci-core": [
     "de6e9404fcbbd0cc"
   ],
+  "ci-coreml": [
+    "b53006af644f8815"
+  ],
   "ci-cpu": [
-    "4a3f7ca0cee27c29"
+    "4a3f7ca0cee27c29",
+    "8c7138107d104067"
   ],
   "ci-cpu---cpp-build": [
     "d2167dc57b943e23"
@@ -29158,6 +29196,7 @@
     "68bb652ad544ceff"
   ],
   "ci-freebsd": [
+    "73b914e0f76b6db6",
     "eaf20c5eadc03b99"
   ],
   "ci-fuzz": [
@@ -29176,6 +29215,9 @@
   ],
   "ci-gateway-studio": [
     "3b92e1661dc79f60"
+  ],
+  "ci-gcc": [
+    "190d19420fa9dace"
   ],
   "ci-gcp": [
     "b737da61146ead7a"
@@ -29346,6 +29388,7 @@
     "67ab56c9e66c96f9"
   ],
   "ci-macos": [
+    "50bff6a552489287",
     "7d60657aff744a6d",
     "b610074891b40c33"
   ],
@@ -30766,6 +30809,7 @@
     "7bd60359cd9f8d02",
     "7d333a0cf1ad87a0",
     "7f98d4c3c9d4ea78",
+    "80bfd1d0ceb078ac",
     "85ce21ac0dc87d33",
     "86d1094bc1225d40",
     "87078c2a613486b1",
@@ -31942,6 +31986,9 @@
     "54ad39f24074c3c3",
     "9c4b2b39eb129de4",
     "9f1db05d158c5a80"
+  ],
+  "clippy-sarif": [
+    "cf5182b1baab08a5"
   ],
   "clippy-test": [
     "cd2c176f07e3c8ec"
@@ -33244,6 +33291,7 @@
     "1f6f1112f3103c58",
     "270e662277a76461",
     "2aaff66b5758f935",
+    "3a6bc52b470b669e",
     "3b64025510686c99",
     "3db01ca4c8fc66d9",
     "45542efd537c4fdd",
@@ -35849,6 +35897,7 @@
     "57c518a38ccdc401",
     "5b4a6dc378cac9e3",
     "5df6f50a030cdd1f",
+    "618e74a2623fc3a5",
     "65f2cfd0e3ca571b",
     "6669549ce6661508",
     "6ccd57b7f0010171",
@@ -39763,6 +39812,7 @@
     "dc5359e6861822c0",
     "dd95f49be8ccd09a",
     "ddf52dfb949e9438",
+    "e177be95702386bd",
     "e184f074918b837d",
     "e911029b7b80629f",
     "ea4fc5021d5cae80",
@@ -42450,7 +42500,8 @@
     "606067dfa5622327",
     "68e6cb287e47016d",
     "74cbd1b97d662b7f",
-    "95b0d60d6276251b"
+    "95b0d60d6276251b",
+    "fb4af1bbb0f3566c"
   ],
   "create-duck-image": [
     "76641b2bbdf69196"
@@ -43729,6 +43780,7 @@
     "61f2e3e25fdf54cc",
     "64def71f74028c2a",
     "6b4aded95a3291c3",
+    "6c266d40c91e330d",
     "6db8334628f088a6",
     "7dcd2d2d95ecf90a",
     "8535cc66663dc7ff",
@@ -49676,6 +49728,7 @@
     "a9334d0aaf6483d2"
   ],
   "deploy-book": [
+    "01cd7cf1aef187c7",
     "64042e93ea68dc21",
     "717f0ea2862e042a",
     "9a0c7526257901e6",
@@ -50235,6 +50288,9 @@
   ],
   "deploy-preview-docs": [
     "747cb145d1569cfc"
+  ],
+  "deploy-processing-website": [
+    "36b8e450242bb3c2"
   ],
   "deploy-prod": [
     "eb63b84abc0f447d"
@@ -52101,6 +52157,7 @@
   ],
   "diffusion": [
     "0056af97e62dad52",
+    "011e223b9520e922",
     "011f8cce9171c505",
     "0522280d495d5a2e",
     "0902cef7a66c7d12",
@@ -52932,6 +52989,9 @@
   "distributed-actors": [
     "283d56e7522cc2d5"
   ],
+  "distributed-apps": [
+    "d5ce68953412f4e2"
+  ],
   "distributed-cache": [
     "05fbd1bfbbf9330d"
   ],
@@ -53639,6 +53699,7 @@
     "5f7d3bb021b146a1",
     "60276603d484bb94",
     "60382e7d3028bcfb",
+    "605208884a1e5061",
     "60de9879abc96ed2",
     "63f39b2ef35155be",
     "64039d6a058dfca2",
@@ -57652,6 +57713,7 @@
   ],
   "edge-ai": [
     "1250c6402bdfa629",
+    "164a62c816246af7",
     "2fe5a546cf2f5288",
     "6b59d0775a7c7e19",
     "89d71665fdf20618",
@@ -57916,6 +57978,9 @@
   "efficient-neural-networks": [
     "1aefa34c44d8968a",
     "1f6b2bb1d03e693e"
+  ],
+  "efficient-training": [
+    "5cfef6a2ca0fe732"
   ],
   "efficient-transformers": [
     "bad1ccf59abc78d1"
@@ -62195,6 +62260,7 @@
     "99345c7063389858",
     "9a80deabc6c3d9b7",
     "a6c792fe88df36f6",
+    "bb739cd16e0d9a24",
     "bd38708b95e7fadd",
     "c3894b4ecb8dfbea",
     "d1c66280de24f83b",
@@ -66108,6 +66174,10 @@
   "fun-asr": [
     "1c3c36caf8f6ba08"
   ],
+  "funasr": [
+    "bb26835fa9bbed79",
+    "e5eaa2e3cac28bbe"
+  ],
   "functests": [
     "ec8a3bbdb0537bc0"
   ],
@@ -68740,6 +68810,7 @@
   "gguf": [
     "0d2dbcea8b579404",
     "10cc382c99538884",
+    "11167713a1adc6ef",
     "1ec83b10b52db1c7",
     "21250f9ffe13324e",
     "324620675df3577b",
@@ -72173,7 +72244,8 @@
     "482b1efb9b7cb6b5"
   ],
   "gpu": [
-    "9e6fa78bc3c58892"
+    "9e6fa78bc3c58892",
+    "c6c413ecf96c2fbe"
   ],
   "gpu-acceleration": [
     "0b7e6bab41c8b46b",
@@ -74066,6 +74138,7 @@
     "365a4cf3366e831c",
     "369db3ed2b5ed750",
     "37415a69f4d6a66c",
+    "3777a1c9107b2181",
     "37ff50468b04004e",
     "380bde069df5066a",
     "38688f60f7a15220",
@@ -79065,6 +79138,7 @@
     "9255d081fb2619f7",
     "99068e36fa585f52",
     "9916874e09ee7793",
+    "9a3fa6906df048b0",
     "9d894aa2e24ab3b9",
     "a88419908e7a4669",
     "a96a340ef8182f7d",
@@ -92405,6 +92479,7 @@
     "5b5bdef279a3a108",
     "5dd867ef473f7bf2",
     "6d3f329e63346cab",
+    "6d4e3fda702152b1",
     "824c0701821f7ff7",
     "a1a1f2fcff74b280",
     "a28922c329176217",
@@ -92875,6 +92950,7 @@
   ],
   "llmops": [
     "14a73095ea0f14c6",
+    "208ac270d71342d7",
     "22052c019dd4cf17",
     "3cacb0bf840ffc54",
     "45e7957c9d1e2e8d",
@@ -92884,6 +92960,7 @@
     "74914b9ef6875654",
     "756ef1ce44622b9f",
     "7ab579461742f8ba",
+    "7d0e209cf1688a7c",
     "8ccd838775489f25",
     "92f548f1d0328cad",
     "93f9314d12d76813",
@@ -93182,6 +93259,7 @@
     "498de40ad2f5a934",
     "5194a399324a0d72",
     "84d4b68aad6489cd",
+    "c434a28a5cf1983d",
     "da60978020be31d6",
     "e6df266ec6df1399"
   ],
@@ -99144,6 +99222,7 @@
     "19ae223d55df57e1",
     "1cc131211b00c5bd",
     "2915433dd06f0b02",
+    "29818117c3c1f0a5",
     "2ac667c519c4a051",
     "344383c3ee682d05",
     "3ec3b4b3ee04dfa2",
@@ -100553,6 +100632,7 @@
     "e71966d4e1560d67"
   ],
   "mobile-ai": [
+    "17921b95f0075b5d",
     "a6922dc5e107e86b",
     "b4b61599a6ad212a"
   ],
@@ -107534,6 +107614,7 @@
     "c95b893e5d0adf14",
     "c9aa0a704d09abf0",
     "ca3b3cc644f339bd",
+    "cb9a4ccaaf7eb32f",
     "cbc512c95a01193f",
     "cc3839973a1b137a",
     "cc6ff885274b5f4e",
@@ -109404,6 +109485,7 @@
     "344565cb9980bba4",
     "3817dff8ce7d192c",
     "46510c8d39799a14",
+    "4ae8d85ba20c6342",
     "54a3503d1838acef",
     "57102bd06b1f98d6",
     "59a30f3f1501a2dd",
@@ -109914,7 +109996,8 @@
   ],
   "offline-ai": [
     "15a66c4682e55c77",
-    "7a310fbd5b0de9e6"
+    "7a310fbd5b0de9e6",
+    "e61e38d5305a46c2"
   ],
   "offline-capable": [
     "be4412d1daa13f77"
@@ -109931,6 +110014,7 @@
     "efe4ffc09ab8e2ce"
   ],
   "offline-llm": [
+    "2fad553fa65d225c",
     "652334ffda386921"
   ],
   "offline-reinforcement-learning": [
@@ -110335,9 +110419,11 @@
     "e7447306b6695d8b"
   ],
   "ondevice": [
-    "7d3f538d5226cac6"
+    "7d3f538d5226cac6",
+    "e1506e22e0a02d80"
   ],
   "ondevice-ai": [
+    "8aaa0166d92693dc",
     "b9bc95cc06c478d6"
   ],
   "ondeviceai": [
@@ -111895,6 +111981,7 @@
     "a921dfda66257734",
     "a9b8a6af481aac02",
     "b1752249d249eeac",
+    "b54411630cd65f74",
     "b57106732bf4fe4d",
     "b616a13fdee8b23c",
     "b71bedc488f09d44",
@@ -112758,6 +112845,7 @@
   "otel": [
     "34599191c44ef252",
     "4da17d66647f06d6",
+    "98f100fc8723297e",
     "e47365139d08c80c"
   ],
   "otel-gpu-collector-tests": [
@@ -113781,6 +113869,7 @@
     "a9d8ffa5fbcb5168"
   ],
   "paraformer": [
+    "d56f15375b2d4f6b",
     "df56439eb7df8ca0"
   ],
   "parallel": [
@@ -120045,7 +120134,8 @@
     "58e6925653406548"
   ],
   "privacy-first": [
-    "84454aa3b6768a40"
+    "84454aa3b6768a40",
+    "b9dbddce300bb0a3"
   ],
   "privacy-preserving": [
     "1df5daab70e04a94",
@@ -123443,6 +123533,7 @@
     "224318636ac6827f",
     "2c2e6ce9d6bf9795",
     "30f3d179b60a6784",
+    "317bbe8e322b7f14",
     "3271cf70dd1a634c",
     "3ef301aee6fd3967",
     "4c28d20acd8b1baa",
@@ -130669,6 +130760,7 @@
     "61e426541c4cd4d5",
     "62316387fece50f4",
     "62472fb6d9fd014e",
+    "62e7a05c164585be",
     "62f42164b8ebf823",
     "6306dfe0949a44d2",
     "6358be7cef9f532a",
@@ -132622,6 +132714,7 @@
     "40645c3b202875cf",
     "4612104a3eced900",
     "a9f2749fefe93036",
+    "d2bdfd0470a2ff05",
     "d5ac43add9ae0fc5"
   ],
   "release-on-version-change": [
@@ -148126,6 +148219,7 @@
   ],
   "stable-diffusion-android": [
     "776f130c90d0bf72",
+    "86e805e917f16554",
     "86fc1d278b9097da"
   ],
   "stable-diffusion-app": [
@@ -156440,6 +156534,9 @@
     "5684db56a9508a9a",
     "70601f02ffc7d96c"
   ],
+  "test-llamacpp-update": [
+    "8642482fc8d0275c"
+  ],
   "test-llm-ai-node.js-templates": [
     "c794b690faf53c73"
   ],
@@ -160123,6 +160220,7 @@
     "8862b25870802a6e"
   ],
   "tool-calling": [
+    "8eade97e6fe39b3f",
     "c96309c298a8e3fd",
     "c9b3137c0e137cd1"
   ],
@@ -160796,7 +160894,8 @@
     "65684232e70494ac",
     "66c36b1c87c154d8",
     "67aa094fa9cc9c56",
-    "7050b8d16ea25a56"
+    "7050b8d16ea25a56",
+    "ba296b7f2ccc0672"
   ],
   "transcription-factor-binding": [
     "a595537b552c9af5"
@@ -172994,9 +173093,11 @@
     "15d1c82289b294ad"
   ],
   "whisper-alternative": [
-    "1ebbc5bc45eb06ca"
+    "1ebbc5bc45eb06ca",
+    "5371c52673a56744"
   ],
   "whisper-android": [
+    "38b075719ce0573f",
     "bb3b2ad5faede6d4"
   ],
   "whisper-cpp": [

@@ -203,7 +203,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:43:12.900681+00:00",
+  "fetched_at": "2026-06-22T01:14:23.230311+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -235,8 +235,8 @@
     "full_name": "abap2UI5-addons/sql-console",
     "html_url": "https://github.com/abap2UI5-addons/sql-console",
     "language": "ABAP",
-    "pushed_at": "2026-05-09T06:15:21Z",
-    "stargazers_count": 12,
+    "pushed_at": "2026-06-11T22:29:12Z",
+    "stargazers_count": 13,
     "topics": [
       "abap",
       "abap2ui5",
@@ -247,7 +247,7 @@
       "sapui5",
       "ui5"
     ],
-    "updated_at": "2026-05-09T06:15:25Z"
+    "updated_at": "2026-06-11T22:29:14Z"
   },
   "repo_links": [
     {

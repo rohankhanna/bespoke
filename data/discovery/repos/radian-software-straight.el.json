@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:48:15.873911+00:00",
+  "fetched_at": "2026-06-22T01:22:37.760750+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -87,13 +87,13 @@
     "html_url": "https://github.com/radian-software/straight.el",
     "language": "Emacs Lisp",
     "pushed_at": "2026-05-25T15:37:55Z",
-    "stargazers_count": 3002,
+    "stargazers_count": 3011,
     "topics": [
       "emacs",
       "package-manager",
       "version-control"
     ],
-    "updated_at": "2026-05-27T16:15:57Z"
+    "updated_at": "2026-06-18T16:18:34Z"
   },
   "repo_links": [
     {

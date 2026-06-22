@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/dependencies.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/installer.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/installer.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/scorecard.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/scorecard.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "component": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     }
@@ -98,7 +98,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -133,7 +133,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -154,7 +154,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -189,7 +189,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -210,7 +210,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
+      "target": "github/codeql-action/upload-sarif@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T01:13:14.449366+00:00",
+  "fetched_at": "2026-06-22T01:16:45.896026+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-05-28T18:23:45Z",
-    "stargazers_count": 187450,
+    "pushed_at": "2026-06-21T12:52:10Z",
+    "stargazers_count": 188173,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-05-30T01:09:37Z"
+    "updated_at": "2026-06-22T00:37:58Z"
   },
   "repo_links": [],
   "terms": [

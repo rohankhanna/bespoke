@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:50:17.778786+00:00",
+  "fetched_at": "2026-06-22T01:25:41.297277+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,7 +233,7 @@
     "html_url": "https://github.com/andymass/vim-matchup",
     "language": "Vim Script",
     "pushed_at": "2026-05-19T23:48:14Z",
-    "stargazers_count": 1907,
+    "stargazers_count": 1911,
     "topics": [
       "highlighting-matches",
       "matching-pairs",
@@ -245,7 +245,7 @@
       "vim-plugin",
       "vimscript-5624"
     ],
-    "updated_at": "2026-05-30T03:47:32Z"
+    "updated_at": "2026-06-21T14:15:57Z"
   },
   "repo_links": [
     {
