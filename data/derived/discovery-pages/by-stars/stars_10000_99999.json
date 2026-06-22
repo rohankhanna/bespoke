@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33531,
-    "concepts": 15259,
-    "observations": 15316,
-    "repos": 1718,
-    "terms": 15213
+    "components": 33601,
+    "concepts": 15285,
+    "observations": 15342,
+    "repos": 1721,
+    "terms": 15246
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -320,6 +320,7 @@
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cloudwu/skynet",
+    "clsid2/mpc-hc",
     "cmderdev/cmder",
     "CMU-Perceptual-Computing-Lab/openpose",
     "cmusatyalab/openface",
@@ -914,6 +915,7 @@
     "labring/sealos",
     "labstack/echo",
     "LAION-AI/Open-Assistant",
+    "lancedb/lancedb",
     "langbot-app/LangBot",
     "langchain-ai/deepagents",
     "langchain-ai/langchainjs",
@@ -1270,6 +1272,7 @@
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
     "pnpm/pnpm",
+    "podman-container-tools/podman",
     "PointCloudLibrary/pcl",
     "pola-rs/polars",
     "postcss/autoprefixer",

@@ -1,21 +1,18 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 60,
-    "observations": 61,
-    "repos": 4,
-    "terms": 62
+    "components": 61,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "electron/electron",
-    "f/prompts.chat",
-    "langflow-ai/langflow",
-    "ollama/ollama"
+    "electron/electron"
   ]
 }

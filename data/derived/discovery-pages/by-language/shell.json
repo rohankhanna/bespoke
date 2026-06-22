@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1927,
-    "concepts": 2861,
-    "observations": 2880,
-    "repos": 714,
-    "terms": 2790
+    "components": 1928,
+    "concepts": 2862,
+    "observations": 2881,
+    "repos": 716,
+    "terms": 2799
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -211,6 +211,7 @@
     "conda-forge/fenics-dolfinx-feedstock",
     "conda-forge/miniforge",
     "conda-forge/nlohmann_json-feedstock",
+    "conda-forge/numba-feedstock",
     "conda-forge/openblas-feedstock",
     "conda-forge/pgvector-feedstock",
     "conda-forge/pinocchio-feedstock",
@@ -469,6 +470,7 @@
     "lint-staged/lint-staged.sh",
     "lite-xl/lite-xl-build-box",
     "llllvvuu/efm-tool-definitions.yaml",
+    "localai-org/apex-quant",
     "lovell/sharp-libvips",
     "luizm/asdf-shellcheck",
     "luizm/asdf-shfmt",
@@ -685,7 +687,7 @@
     "transmissions11/dapptools-template",
     "trapd00r/LS_COLORS",
     "tremby/imgur.sh",
-    "tritondatacenter/node-cmdutil",
+    "TritonDataCenter/node-cmdutil",
     "tuvovan/Zero_DCE_TF",
     "twain47/Open-SVG-Map-Icons",
     "TypedDevs/bashunit",

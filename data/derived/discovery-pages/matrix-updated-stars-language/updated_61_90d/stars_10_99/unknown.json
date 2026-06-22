@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 68,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 45,
-    "terms": 101
+    "components": 61,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 47,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -34,7 +34,7 @@
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
-    "getsentry/.github",
+    "goharbor/community",
     "google/oss-policies-info",
     "grpc/grpc-community",
     "Homebrew/.github",
@@ -45,6 +45,7 @@
     "jakoch/vulkan-sdk-arm",
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "kubernetes/steering",
+    "mypyc/mypyc-benchmark-results",
     "ocaml/platform-blog",
     "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
@@ -54,6 +55,7 @@
     "rstackjs/rstack-design-resources",
     "SeleniumHQ/selenium_manager_artifacts",
     "simonw/simonwillisonblog-backup",
+    "supabase/scoop-bucket",
     "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group",
     "w3c/accname",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11767,
-    "concepts": 8018,
-    "observations": 8080,
-    "repos": 1737,
-    "terms": 8009
+    "components": 11827,
+    "concepts": 8072,
+    "observations": 8134,
+    "repos": 1744,
+    "terms": 8063
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -104,6 +104,7 @@
     "andelf/axcli",
     "andelf/picc",
     "AndersTrier/reed-solomon-simd",
+    "andfoy/winpty-rs",
     "andreivasiliu/cybersub",
     "andreivasiliu/quad-net",
     "andrewmilson/ministark",
@@ -1283,6 +1284,9 @@
     "pkgxdev/pkgx",
     "pksunkara/cargo-workspaces",
     "Plonky3/Plonky3",
+    "plotters-rs/plotters",
+    "plotters-rs/plotters-cairo",
+    "plotters-rs/plotters-canvas",
     "pola-rs/polars",
     "pop-os/cosmic-text",
     "posit-dev/air",
@@ -1433,6 +1437,7 @@
     "rust-lang/stdarch",
     "rust-lang/style-team",
     "rust-lang/team",
+    "rust-ml/linfa",
     "rust-mobile/rust-android-examples",
     "rust-native-tls/rust-native-tls",
     "rust-nvml/nvml-wrapper",
@@ -1601,6 +1606,8 @@
     "tikv/pprof-rs",
     "time-rs/time",
     "tinted-theming/tinty",
+    "tirithen/clipper2",
+    "tirithen/clipper2c-sys",
     "tlaplus-community/tlauc",
     "tmpfs/tamp-rs",
     "tofay/rustls-openssl",

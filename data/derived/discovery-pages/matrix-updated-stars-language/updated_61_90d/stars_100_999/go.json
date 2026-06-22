@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 845,
-    "concepts": 663,
-    "observations": 669,
-    "repos": 114,
-    "terms": 671
+    "components": 856,
+    "concepts": 676,
+    "observations": 682,
+    "repos": 118,
+    "terms": 684
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -31,6 +31,7 @@
     "awslabs/soci-snapshotter",
     "Azure/azure-workload-identity",
     "Azure/terraform-provider-azapi",
+    "bazel-contrib/rules_img",
     "bernardo-bruning/ollama-copilot",
     "bitrise-io/envman",
     "bluesky-social/goat",
@@ -91,14 +92,17 @@
     "kubernetes-sigs/boskos",
     "kubernetes-sigs/controller-tools",
     "kubernetes-sigs/custom-metrics-apiserver",
+    "kubernetes/apiextensions-apiserver",
     "kubernetes/cri-api",
     "kubernetes/metrics",
+    "kubernetes/sample-apiserver",
     "labring/aiproxy",
     "Layr-Labs/eigenda",
     "letsencrypt/pebble",
     "lightninglabs/neutrino",
     "linxGnu/grocksdb",
     "mailru/go-clickhouse",
+    "maragudk/gomponents-starter-kit",
     "mattn/go-runewidth",
     "microsoft/cognitive-services-speech-sdk-go",
     "microsoft/hcsshim",

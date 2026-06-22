@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 934,
-    "concepts": 994,
-    "observations": 995,
-    "repos": 163,
-    "terms": 989
+    "components": 918,
+    "concepts": 974,
+    "observations": 975,
+    "repos": 160,
+    "terms": 969
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0ldsk00l/nestopia",
     "aburch/simutrans",
@@ -47,7 +47,7 @@
     "cloudwu/soluna",
     "CloverLabsAI/camoufox",
     "coin-or/CppAD",
-    "corporateshark/lightweightvk",
+    "CrendKing/avisynth_filter",
     "cygwin/cygwin",
     "daanx/isocline",
     "davisp/jiffy",
@@ -58,7 +58,6 @@
     "DiligentGraphics/DiligentTools",
     "DISTRHO/DPF",
     "dmlc/treelite",
-    "DOCGroup/ACE_TAO",
     "DrTimothyAldenDavis/GraphBLAS",
     "eblerjana/pangenie",
     "enjoy-digital/litex_m2sdr",
@@ -66,6 +65,7 @@
     "f32c/f32c",
     "facebook/fboss",
     "facil-io/cstl",
+    "FFMS/ffms2",
     "flagos-ai/FlagTree",
     "flexivrobotics/flexiv_rdk",
     "foldl/chatllm.cpp",
@@ -120,7 +120,6 @@
     "mitsuba-renderer/drjit",
     "msoos/cryptominisat",
     "murat-dogan/node-datachannel",
-    "mysql/mysql-workbench",
     "nelson-lang/nelson",
     "NGSolve/netgen",
     "nianticlabs/spz",
@@ -141,7 +140,6 @@
     "pkgxdev/pantry",
     "pqrs-org/Karabiner-DriverKit-VirtualHIDDevice",
     "pygobject/pycairo",
-    "qbs/qbs",
     "RcppCore/Rcpp",
     "realh/roxterm",
     "rmagick/rmagick",
@@ -172,7 +170,6 @@
     "triton-inference-server/pytorch_backend",
     "ucscGenomeBrowser/kent",
     "Unidata/netcdf-c",
-    "uxlfoundation/oneCCL",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL",
     "VectorDB-NTU/RaBitQ-Library",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 5,
-    "terms": 61
+    "components": 149,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 4,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "geotiffjs/geotiff.js",
     "gildas-lormeau/zip.js",
-    "module-federation/core",
     "sveltejs/devalue",
     "yomidevs/yomitan"
   ]

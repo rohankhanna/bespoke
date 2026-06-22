@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10280,
-    "concepts": 10091,
-    "observations": 10123,
-    "repos": 1714,
-    "terms": 10041
+    "components": 10327,
+    "concepts": 10124,
+    "observations": 10156,
+    "repos": 1719,
+    "terms": 10074
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -160,6 +160,7 @@
     "apache/apisix-ingress-controller",
     "apache/casbin",
     "apache/casbin-fasthttp-auth",
+    "apache/casbin-govaluate",
     "apache/datasketches-go",
     "apache/dubbo-admin",
     "apache/dubbo-go",
@@ -416,6 +417,7 @@
     "cjkreklow/t38c",
     "cjoudrey/gluahttp",
     "ckaznocha/protoc-gen-lint",
+    "CleverCloud/karpenter-provider-clever-cloud",
     "cli/cli",
     "ClickHouse/ch-bench",
     "ClickHouse/ch-go",
@@ -1282,6 +1284,7 @@
     "mosn/proxy-wasm-go-host",
     "mostlygeek/llama-swap",
     "moul/gotty-client",
+    "mozilla-ai/otari-sdk-go",
     "mozilla/tls-observatory",
     "mozillazg/go-pinyin",
     "Mrs4s/go-cqhttp",
@@ -1392,6 +1395,7 @@
     "panjf2000/ants",
     "panjf2000/gnet",
     "panmari/cuckoofilter",
+    "paperclipinc/karpenter-provider-hetzner",
     "peco/peco",
     "peterbourgon/diskv",
     "petmal/mindtrial",
@@ -1415,6 +1419,7 @@
     "pion/webrtc",
     "pires/go-proxyproto",
     "pkg/browser",
+    "podman-container-tools/podman",
     "ppc64le-cloud/kubetest2-plugins",
     "pquerna/ffjson",
     "prasmussen/gdrive",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 829,
-    "concepts": 595,
-    "observations": 596,
-    "repos": 51,
-    "terms": 587
+    "components": 792,
+    "concepts": 563,
+    "observations": 564,
+    "repos": 48,
+    "terms": 555
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "alacritty/alacritty",
@@ -38,7 +38,6 @@
     "influxdata/influxdb",
     "jj-vcs/jj",
     "juspay/hyperswitch",
-    "launchbadge/sqlx",
     "LemmyNet/lemmy",
     "microsoft/windows-rs",
     "nearai/ironclaw",
@@ -48,13 +47,11 @@
     "PyO3/pyo3",
     "qdrant/qdrant",
     "quickwit-oss/quickwit",
-    "ratatui/ratatui",
     "rayon-rs/rayon",
     "rerun-io/rerun",
     "rolldown/rolldown",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
-    "servo/servo",
     "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",
     "swc-project/swc",

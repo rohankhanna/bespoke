@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 9,
-    "terms": 66
+    "components": 101,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 6,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "BirolLab/LINKS",
     "dwyl/mvp",
     "f3liz-casa/noraneko",
     "jelly-beam/rebar3_ex_doc",
-    "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "pivotal/credhub-release",
     "python-poetry/website"
   ]
 }

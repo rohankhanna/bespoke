@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 114,
-    "observations": 114,
-    "repos": 20,
-    "terms": 107
+    "components": 60,
+    "concepts": 127,
+    "observations": 127,
+    "repos": 21,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
     "aleskxyz/reality-ezpz",
@@ -33,6 +33,7 @@
     "postmodern/ruby-install",
     "tianon/gosu",
     "XTLS/Xray-install",
+    "zdharma-continuum/zinit",
     "zplug/zplug"
   ]
 }

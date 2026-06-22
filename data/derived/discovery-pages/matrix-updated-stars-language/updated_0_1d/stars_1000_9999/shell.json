@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 3,
-    "observations": 3,
+    "components": 17,
+    "concepts": 9,
+    "observations": 9,
     "repos": 1,
-    "terms": 3
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "ROCm/ROCm"
+    "nodenv/nodenv"
   ]
 }

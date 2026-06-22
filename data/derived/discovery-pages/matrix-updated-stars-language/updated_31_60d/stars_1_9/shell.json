@@ -3,7 +3,7 @@
     "components": 34,
     "concepts": 26,
     "observations": 27,
-    "repos": 16,
+    "repos": 15,
     "terms": 26
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "cloudfoundry/wg-app-platform-runtime-ci",
@@ -24,7 +24,6 @@
     "danielrosehill/Claude-Debugging-Plugin",
     "danielrosehill/Claude-Rudder",
     "gazebo-tooling/release-tools",
-    "kubernetes-sigs/provider-ibmcloud-test-infra",
     "LedgerHQ/ledger-app-workflows",
     "leleliu008/ppkg-formula-repository-official-core",
     "lint-staged/lint-staged.sh",

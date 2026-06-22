@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 468,
-    "concepts": 338,
-    "observations": 339,
+    "components": 457,
+    "concepts": 336,
+    "observations": 337,
     "repos": 66,
-    "terms": 337
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "abusch/nu_plugin_semver",
     "AccessKit/accesskit-c",
@@ -38,8 +38,6 @@
     "davidhozic/mujoco-rs",
     "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
-    "eth-act/ere",
-    "eth-act/zkboost",
     "fallow-rs/oxc-coverage-instrument",
     "filecoin-project/builtin-actors",
     "fonttools/fontspector",
@@ -69,12 +67,14 @@
     "openvm-org/stark-backend",
     "oxc-project/oxc-sourcemap",
     "paradigmxyz/stateless",
+    "plotters-rs/plotters-cairo",
     "Ralith/lahar",
     "rozbb/rust-hpke",
     "rust-bitcoin/corepc",
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "Systemcluster/kitoken",
+    "tirithen/clipper2",
     "tofay/rustls-openssl",
     "typst/typst-assets",
     "tyrypyrking/egui-ash",

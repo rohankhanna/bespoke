@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 146,
-    "concepts": 186,
-    "observations": 186,
-    "repos": 25,
-    "terms": 182
+    "concepts": 183,
+    "observations": 183,
+    "repos": 24,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
     "archlinuxcn/repo",
@@ -37,7 +37,6 @@
     "scop/bash-completion",
     "sublimehq/Packages",
     "YosysHQ/oss-cad-suite-build",
-    "yt-dlp/FFmpeg-Builds",
-    "zsh-users/zsh-completions"
+    "yt-dlp/FFmpeg-Builds"
   ]
 }

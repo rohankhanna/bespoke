@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 9,
-    "terms": 73
+    "components": 71,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 11,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "ChristopherHX/runner.server",
     "clj-commons/rewrite-clj",
-    "Deep-Symmetry/beat-link-trigger",
+    "devcontainers/devcontainers.github.io",
     "emacs-eldev/eldev",
+    "fsprojects/FSharp.Data.GraphQL",
+    "fw-ai/cookbook",
+    "karafka/rdkafka-ruby",
     "kurrent-io/KurrentDB-Client-Dotnet",
     "redis/redis-om-dotnet",
-    "rescript-lang/reanalyze",
     "ROCm/hipBLASLt",
-    "the-database/mpv-AnimeJaNai"
+    "the-database/mpv-AnimeJaNai",
+    "the-database/VideoJaNai"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1186,
-    "concepts": 842,
-    "observations": 846,
-    "repos": 123,
-    "terms": 838
+    "components": 1155,
+    "concepts": 830,
+    "observations": 834,
+    "repos": 121,
+    "terms": 826
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "0xPolygonHermez/zisk",
@@ -22,7 +22,6 @@
     "agentclientprotocol/rust-sdk",
     "akiomik/mado",
     "alexcrichton/ssh2-rs",
-    "alloy-rs/svm-rs",
     "ankane/tokenizers-ruby",
     "antoniusnaumann/cargo-swift",
     "Anush008/fastembed-rs",
@@ -31,7 +30,6 @@
     "apollographql/apollo-mcp-server",
     "apollographql/router",
     "apollographql/rover",
-    "arkworks-rs/algebra",
     "arkworks-rs/crypto-primitives",
     "arkworks-rs/poly-commit",
     "aws/aws-lc-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 2,
-    "terms": 6
+    "components": 80,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 5,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "browserslist/caniuse-lite",
+    "gitleaks/gitleaks-action",
+    "GoogleCloudPlatform/google-cloud-node-todos",
+    "mafintosh/streamx",
     "w3c/trusted-types"
   ]
 }

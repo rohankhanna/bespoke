@@ -1,31 +1,46 @@
 {
   "counts": {
-    "components": 196,
-    "concepts": 154,
-    "observations": 154,
-    "repos": 14,
-    "terms": 154
+    "components": 529,
+    "concepts": 242,
+    "observations": 242,
+    "repos": 29,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "AI-Hypercomputer/maxdiffusion",
+    "apalache-mc/apalache",
     "aristoteleo/PantheonOS",
+    "Artoriuz/ArtCNN",
     "astroautomata/SymbolicRegression.jl",
     "aws-cloudformation/cfn-lint-visual-studio-code",
+    "bazel-contrib/rules_kotlin",
+    "BBC-Esq/Faster-Whisper-Transcriber",
+    "ChristopherHX/runner.server",
     "Comfy-Org/comfy-cli",
-    "digitalocean/openapi",
-    "fsprojects/FSharp.Data.GraphQL",
+    "Comfy-Org/Comfy-Desktop",
+    "confluentinc/librdkafka",
+    "Deep-Symmetry/beat-link",
+    "Deep-Symmetry/beat-link-trigger",
+    "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "EmmyLuaLs/emmylua-analyzer-rust",
+    "flagos-ai/FlagCX",
     "GDevelopApp/GDevelop-extensions",
     "hexabot-ai/Hexabot",
+    "ldproxy/ldproxy",
+    "matter-js/matter.js",
     "NVIDIA-NeMo/Automodel",
+    "OpenHands/agent-canvas",
+    "pyrtlsdr/pyrtlsdr",
+    "safe-fndn/safe-singleton-factory",
     "sbt/sbt-jmh",
-    "tox-dev/filelock",
+    "stx-labs/stacks.js",
     "tree-sitter-grammars/tree-sitter-markdown"
   ]
 }

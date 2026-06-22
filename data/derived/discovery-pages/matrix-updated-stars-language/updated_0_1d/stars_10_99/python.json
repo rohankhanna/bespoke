@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 1,
-    "terms": 2
+    "components": 10,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 2,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "intel-staging/text-generation-webui"
+    "intel-staging/text-generation-webui",
+    "mozilla-ai/any-guardrail"
   ]
 }

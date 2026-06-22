@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · C/C++
 
-Generated at: `2026-06-22T06:20:48.042315+00:00`
+Generated at: `2026-06-22T11:59:31.612749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [electron/electron](https://github.com/electron/electron) | 121711 | 2026-06-20T04:50:55Z | C/C++ | Infrastructure/tooling | 15 | 61 | 15 | 15 |
+| [electron/electron](https://github.com/electron/electron) | 121720 | 2026-06-20T04:50:55Z | C/C++ | Infrastructure/tooling | 15 | 61 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [electron/electron](https://github.com/electron/electron) | 121711 | 2026-06-20T04:50:55Z | C/C++ | Infrastructure/tooling | 15 | 61 | 15 | 15 |
+| [electron/electron](https://github.com/electron/electron) | 121720 | 2026-06-20T04:50:55Z | C/C++ | Infrastructure/tooling | 15 | 61 | 15 | 15 |

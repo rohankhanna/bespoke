@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 3,
-    "terms": 32
+    "components": 30,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 2,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "argotorg/solidity",
     "HIllya51/LunaTranslator",
     "protocolbuffers/protobuf"
   ]

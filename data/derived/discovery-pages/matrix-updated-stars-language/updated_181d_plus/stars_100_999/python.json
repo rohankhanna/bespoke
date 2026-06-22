@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1297,
-    "concepts": 5752,
-    "observations": 5757,
+    "components": 1295,
+    "concepts": 5751,
+    "observations": 5756,
     "repos": 1913,
-    "terms": 5587
+    "terms": 5597
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0nutation/USLM",
     "0xbitches/ComfyUI-LCM",
@@ -899,6 +899,7 @@
     "IMNearth/CoAT",
     "inclusionAI/ASearcher",
     "Infinidat/munch",
+    "Infiziert90/getnative",
     "INK-USC/CrossFit",
     "innnky/ar-vits",
     "inspirai/TimeChamber",
@@ -1490,7 +1491,6 @@
     "protossw512/AdaptiveWingLoss",
     "pseeth/torch-stft",
     "py-pdf/benchmarks",
-    "PyCQA/eradicate",
     "PyCQA/mccabe",
     "PyCQA/pep8-naming",
     "pyga/parsley",

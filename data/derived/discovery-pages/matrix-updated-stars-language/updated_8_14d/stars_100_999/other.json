@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 34,
-    "observations": 34,
+    "components": 46,
+    "concepts": 31,
+    "observations": 31,
     "repos": 5,
-    "terms": 34
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "babashka/nbb",
     "dwyl/phoenix-ecto-encryption-example",
-    "elixir-protobuf/protobuf",
     "meshcat-dev/meshcat",
+    "rescript-lang/reanalyze",
     "tc39/proposal-decimal"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-06-22T06:20:48.042315+00:00`
+Generated at: `2026-06-22T11:59:31.612749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 3
-- terms: 56
-- components: 133
-- concepts: 47
-- observations: 47
+- terms: 13
+- components: 60
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,14 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 60750 | 2026-06-21T06:07:56Z | TypeScript | Infrastructure/tooling | 44 | 29 | 35 | 35 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18853 | 2026-06-18T03:01:34Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83646 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17831 | 2026-06-20T15:16:05Z | TypeScript | Infrastructure/tooling | 7 | 34 | 7 | 7 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 23157 | 2026-06-20T05:23:08Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83649 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83646 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 60750 | 2026-06-21T06:07:56Z | TypeScript | Infrastructure/tooling | 44 | 29 | 35 | 35 |
-| [unocss/unocss](https://github.com/unocss/unocss) | 18853 | 2026-06-18T03:01:34Z | TypeScript | Infrastructure/tooling | 8 | 95 | 8 | 8 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | 83649 | 2026-06-15T22:54:31Z | TypeScript | Infrastructure/tooling | 4 | 9 | 4 | 4 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | 23157 | 2026-06-20T05:23:08Z | TypeScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17831 | 2026-06-20T15:16:05Z | TypeScript | Infrastructure/tooling | 7 | 34 | 7 | 7 |

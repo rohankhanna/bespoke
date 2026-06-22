@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 12329,
-    "concepts": 7115,
-    "observations": 7133,
-    "repos": 3341,
-    "terms": 7061
+    "components": 12332,
+    "concepts": 7118,
+    "observations": 7136,
+    "repos": 3345,
+    "terms": 7068
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "072jiajia/Image-Text-Co-Decomposition",
@@ -201,6 +201,7 @@
     "ajjimeno/icdar-task-b",
     "ajlende/base16-atlas-scheme",
     "akaihola/graylint",
+    "AkarinVS/L-SMASH-Works",
     "akarnokd/RxJavaJdk9Interop",
     "aki-0929/PaddleOCRJson.NET",
     "akinsho/dependency-assist.nvim",
@@ -1655,6 +1656,7 @@
     "HolyWu/vs-realesrgan",
     "honwen/luci-app-shadowsocks-rust",
     "honwen/openwrt-shadowsocks-rust",
+    "hooke007/MPV_lazy",
     "horennel/LaTex-OCR_for_macOS",
     "HorizenLabs/poseidon2",
     "horriblename/lzn-auto-require",
@@ -1759,6 +1761,7 @@
     "iptop/babel-plugin-proposal-pattern-matching",
     "iqlusioninc/canister",
     "iqlusioninc/cosmon",
+    "Irrational-Encoding-Wizardry/descale",
     "isaacOnline/whisper",
     "isaacs/npm",
     "isamert/gedi",
@@ -2604,6 +2607,7 @@
     "PlayVoice/VI-SVC",
     "plone/plone.restapi-angular",
     "plotly/plotly.r-docs",
+    "plotters-rs/plotters-canvas",
     "PointCloudLibrary/PointCloudLibrary.github.io",
     "polimi-ispl/GAN-image-detection",
     "posthtml/posthtml-render",
@@ -3105,7 +3109,7 @@
     "triton-inference-server/tensorflow_backend",
     "TritonDataCenter/javascriptlint",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "trknhr/2048-go",
     "TroyHernandez/tinyspotifyr",
     "trufanov-nok/minidjvu-mod",

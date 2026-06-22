@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 26567,
-    "concepts": 22856,
-    "observations": 22929,
-    "repos": 5627,
-    "terms": 22789
+    "components": 26604,
+    "concepts": 22911,
+    "observations": 22987,
+    "repos": 5633,
+    "terms": 22849
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "0oAstro/silicon.lua",
@@ -562,6 +562,7 @@
     "artichoke/spec",
     "artidoro/qlora",
     "artofthesmart/hypertext",
+    "Artoriuz/ArtCNN",
     "artsy/eidolon",
     "artur-graniszewski/DLSS-Enabler",
     "arturbosch/kutils",
@@ -2189,6 +2190,7 @@
     "funcmike/swift-coz",
     "funcool/promesa",
     "fuziki/WorldInApple",
+    "fw-ai/cookbook",
     "fwcd/kotlin-debug-adapter",
     "fwcd/kotlin-language-server",
     "fwcd/kotlin-quick-start",
@@ -3315,6 +3317,8 @@
     "lambdalisue/vim-glyph-palette",
     "lambdalisue/vim-nerdfont",
     "lamoomai/lamoom-python",
+    "lancedb/lancedb",
+    "lancedb/vectordb-recipes",
     "langchain-ai/deep_research_from_scratch",
     "lars-t-hansen/moz-sandbox",
     "larsch/creole",
@@ -4322,6 +4326,7 @@
     "plk/biber",
     "plotly/graphing-library-docs",
     "plotly/plotly.R",
+    "plotters-rs/plotters-doc-data",
     "plumatic/schema",
     "PMunch/nimlsp",
     "pocojang/nuxt-realworld",
@@ -5168,6 +5173,7 @@
     "the-benchmarker/graphql-benchmarks",
     "the-benchmarker/web-frameworks",
     "the-database/mpv-AnimeJaNai",
+    "the-database/VideoJaNai",
     "thedatumorg/TSB-UAD",
     "thedatumorg/VUS",
     "TheDenk/cogvideox-controlnet",

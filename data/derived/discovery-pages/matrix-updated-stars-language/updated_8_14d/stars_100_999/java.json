@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 8,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 2,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "eclipse-wildwebdeveloper/wildwebdeveloper"
+    "eclipse-buildship/buildship",
+    "eclipse-lemminx/lemminx"
   ]
 }

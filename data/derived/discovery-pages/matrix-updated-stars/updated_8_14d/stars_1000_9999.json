@@ -1,22 +1,24 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 18,
-    "terms": 133
+    "components": 149,
+    "concepts": 149,
+    "observations": 149,
+    "repos": 19,
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
+    "ashvardanian/NumKong",
     "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "bencheeorg/benchee",
     "collabora/WhisperLive",
+    "gluonfield/enchanted",
     "gobackup/gobackup",
     "googleapis/google-api-php-client",
     "huggingface/optimum-quanto",
@@ -25,7 +27,6 @@
     "litedb-org/LiteDB",
     "meta-pytorch/tnt",
     "Nevcairiel/LAVFilters",
-    "nodenv/nodenv",
     "olric-data/olric",
     "preservim/tagbar",
     "standardrb/standard",

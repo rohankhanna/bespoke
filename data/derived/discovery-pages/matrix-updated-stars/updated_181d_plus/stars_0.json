@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1383,
-    "concepts": 571,
-    "observations": 573,
-    "repos": 464,
-    "terms": 571
+    "components": 1386,
+    "concepts": 572,
+    "observations": 574,
+    "repos": 465,
+    "terms": 572
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -239,6 +239,7 @@
     "fnoopv/rueidisstore",
     "fonwin/libfon9",
     "forcedotcom/change-case-management",
+    "frederik-uni/clipper2",
     "Freed-Wu/coc-write-good",
     "garrettalbright/luacheck.novaextension",
     "genome21/langflow",

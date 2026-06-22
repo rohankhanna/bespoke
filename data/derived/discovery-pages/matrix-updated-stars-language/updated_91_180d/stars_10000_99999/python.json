@@ -3,7 +3,7 @@
     "components": 243,
     "concepts": 291,
     "observations": 291,
-    "repos": 43,
+    "repos": 44,
     "terms": 296
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -46,6 +46,7 @@
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
+    "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "rany2/edge-tts",
     "RasaHQ/rasa",

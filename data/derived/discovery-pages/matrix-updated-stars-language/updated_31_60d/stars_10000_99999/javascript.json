@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2568,
-    "concepts": 479,
-    "observations": 480,
-    "repos": 52,
-    "terms": 472
+    "components": 2491,
+    "concepts": 442,
+    "observations": 443,
+    "repos": 49,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "11ty/eleventy",
     "4ian/GDevelop",
@@ -20,8 +20,6 @@
     "addyosmani/critical",
     "ampproject/amphtml",
     "Automattic/mongoose",
-    "be5invis/Iosevka",
-    "browserslist/browserslist",
     "CesiumGS/cesium",
     "cure53/DOMPurify",
     "easydiffusion/easydiffusion",
@@ -56,7 +54,6 @@
     "protobufjs/protobuf.js",
     "rollup/rollup",
     "SillyTavern/SillyTavern",
-    "simple-icons/simple-icons",
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",

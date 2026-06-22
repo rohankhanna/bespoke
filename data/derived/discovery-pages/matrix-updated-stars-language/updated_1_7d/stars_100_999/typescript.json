@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 7,
-    "terms": 38
+    "components": 173,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 5,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "electron/packager",
     "huggingface/hf-mcp-server",
-    "matter-js/matter.js",
     "mightyiam/eslint-config-love",
-    "stx-labs/stacks.js",
-    "unplugin/unplugin-imagemin"
+    "wevm/abitype"
   ]
 }

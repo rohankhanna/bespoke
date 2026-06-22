@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2652,
-    "concepts": 435,
-    "observations": 437,
-    "repos": 65,
-    "terms": 438
+    "components": 2704,
+    "concepts": 470,
+    "observations": 472,
+    "repos": 67,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "ai/nanoid",
     "ajaxorg/ace",
@@ -23,6 +23,7 @@
     "avajs/ava",
     "avwo/whistle",
     "badges/shields",
+    "be5invis/Iosevka",
     "be5invis/Sarasa-Gothic",
     "bmad-code-org/bmad-method",
     "brianc/node-postgres",
@@ -68,6 +69,7 @@
     "remy/nodemon",
     "semantic-release/semantic-release",
     "serverless/serverless",
+    "simple-icons/simple-icons",
     "svg/svgo",
     "testing-library/react-testing-library",
     "thomaspark/bootswatch",

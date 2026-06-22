@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1157,
-    "concepts": 964,
-    "observations": 967,
-    "repos": 92,
-    "terms": 957
+    "components": 1124,
+    "concepts": 939,
+    "observations": 942,
+    "repos": 89,
+    "terms": 932
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -39,17 +39,14 @@
     "doomemacs/doomemacs",
     "dotnet/aspnetcore",
     "dotnet/AspNetCore.Docs",
-    "dotnet/csharplang",
     "dotnet/efcore",
     "dotnet/orleans",
     "dotnet/roslyn",
     "drduh/YubiKey-Guide",
     "exelban/stats",
-    "fastlane/fastlane",
     "getgrav/grav",
     "getlantern/lantern",
     "golang-standards/project-layout",
-    "google/fonts",
     "google/material-design-lite",
     "gradle/gradle",
     "hadolint/hadolint",

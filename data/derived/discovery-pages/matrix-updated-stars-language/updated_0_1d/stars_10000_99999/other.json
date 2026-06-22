@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 3,
-    "terms": 27
+    "components": 40,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 4,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
+    "lancedb/lancedb",
     "swiftlang/swift",
     "triton-lang/triton",
-    "vbenjs/vue-vben-admin"
+    "upptime/upptime"
   ]
 }

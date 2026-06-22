@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1238,
-    "concepts": 976,
-    "observations": 981,
-    "repos": 113,
-    "terms": 968
+    "components": 1201,
+    "concepts": 942,
+    "observations": 946,
+    "repos": 108,
+    "terms": 935
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "64bit/async-openai",
@@ -26,7 +26,6 @@
     "apache/datafusion",
     "apache/datafusion-comet",
     "apache/iceberg-rust",
-    "apache/iggy",
     "apache/opendal",
     "askama-rs/askama",
     "aws-cloudformation/cloudformation-guard",
@@ -39,7 +38,6 @@
     "ccbrown/iocraft",
     "chelsea0x3b/cudarc",
     "cobalt-org/cobalt.rs",
-    "compio-rs/compio",
     "cordx56/rustowl",
     "CosmWasm/cosmwasm",
     "crev-dev/cargo-crev",
@@ -88,7 +86,6 @@
     "pkgxdev/pkgx",
     "prefix-dev/pixi",
     "prisma/prisma-engines",
-    "pulldown-cmark/pulldown-cmark",
     "pykeio/ort",
     "raphamorim/rio",
     "release-plz/release-plz",
@@ -113,12 +110,10 @@
     "rust-openssl/rust-openssl",
     "RustAudio/cpal",
     "RustAudio/rodio",
-    "servo/pathfinder",
     "skim-rs/skim",
     "smallcloudai/refact",
     "Splode/pomotroid",
     "squidowl/halloy",
-    "succinctlabs/sp1",
     "supabase/etl",
     "tensorchord/VectorChord",
     "time-rs/time",

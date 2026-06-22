@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 4,
-    "terms": 39
+    "components": 14,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 1,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint-visual-studio-code",
-    "beve-org/beve",
-    "digitalocean/openapi",
-    "GDevelopApp/GDevelop-extensions"
+    "digitalocean/openapi"
   ]
 }

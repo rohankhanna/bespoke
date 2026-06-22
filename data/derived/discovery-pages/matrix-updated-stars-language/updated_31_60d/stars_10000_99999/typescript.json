@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6089,
-    "concepts": 1222,
-    "observations": 1230,
-    "repos": 104,
-    "terms": 1219
+    "components": 5727,
+    "concepts": 1205,
+    "observations": 1213,
+    "repos": 103,
+    "terms": 1203
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -54,7 +54,6 @@
     "formatjs/formatjs",
     "fuma-nama/fumadocs",
     "GoogleChromeLabs/comlink",
-    "grafana/grafana",
     "gvergnaud/ts-pattern",
     "invoke-ai/InvokeAI",
     "janhq/jan",

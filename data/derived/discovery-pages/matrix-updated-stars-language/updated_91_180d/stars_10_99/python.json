@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 370,
-    "concepts": 321,
-    "observations": 322,
-    "repos": 124,
-    "terms": 328
+    "components": 336,
+    "concepts": 311,
+    "observations": 312,
+    "repos": 123,
+    "terms": 318
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "2U1/Gemma3-Finetune",
     "AadSah/ConverSeg",
@@ -130,7 +130,6 @@
     "TungChintao/SkiLa",
     "vinlyx/mgzip",
     "vis-nlp/ChartQAPro",
-    "wamp-proto/wamp-xbr",
     "xplpc/xplpc",
     "xuanyuzhang21/RALI",
     "xuanyuzhang21/VQ-Insight",

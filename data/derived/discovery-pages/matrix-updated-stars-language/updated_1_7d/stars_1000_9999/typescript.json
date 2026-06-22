@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 633,
-    "concepts": 88,
-    "observations": 89,
-    "repos": 15,
-    "terms": 88
+    "components": 551,
+    "concepts": 70,
+    "observations": 71,
+    "repos": 14,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "apollographql/apollo-tooling",
@@ -23,7 +23,6 @@
     "google-gemini/live-api-web-console",
     "graphql-hive/graphql-inspector",
     "microsoft/vscode-js-debug",
-    "podman-desktop/podman-desktop",
     "react-native-webview/react-native-webview",
     "TanStack/form",
     "vercel/serve",

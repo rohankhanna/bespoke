@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Python
 
-Generated at: `2026-06-22T06:20:48.042315+00:00`
+Generated at: `2026-06-22T11:59:31.612749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
+- repos: 12
 - terms: 20
 - components: 21
 - concepts: 20
@@ -38,10 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [NightWatcher314/dockgecli](https://github.com/NightWatcher314/dockgecli) | 0 | 2026-04-26T14:15:32Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [NightWatcher314/npmctl](https://github.com/NightWatcher314/npmctl) | 0 | 2026-04-26T12:16:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/LLM-Council-Grounded](https://github.com/danielrosehill/LLM-Council-Grounded) | 0 | 2026-04-23T10:28:20Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [danielrosehill/LLM-Council-Homehunter](https://github.com/danielrosehill/LLM-Council-Homehunter) | 0 | 2026-04-23T10:28:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/LLM-Council-Decide](https://github.com/danielrosehill/LLM-Council-Decide) | 0 | 2026-04-23T10:25:30Z | Python | Framework | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -59,7 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [NightWatcher314/dockgecli](https://github.com/NightWatcher314/dockgecli) | 0 | 2026-04-26T14:15:32Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [NightWatcher314/npmctl](https://github.com/NightWatcher314/npmctl) | 0 | 2026-04-26T12:16:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/LLM-Council-Grounded](https://github.com/danielrosehill/LLM-Council-Grounded) | 0 | 2026-04-23T10:28:20Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [danielrosehill/Hypothesis-Council](https://github.com/danielrosehill/Hypothesis-Council) | 0 | 2026-04-23T10:28:19Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [danielrosehill/LLM-Council-Homehunter](https://github.com/danielrosehill/LLM-Council-Homehunter) | 0 | 2026-04-23T10:28:18Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/LLM-Council-Decide](https://github.com/danielrosehill/LLM-Council-Decide) | 0 | 2026-04-23T10:25:30Z | Python | Framework | 0 | 0 | 0 | 0 |

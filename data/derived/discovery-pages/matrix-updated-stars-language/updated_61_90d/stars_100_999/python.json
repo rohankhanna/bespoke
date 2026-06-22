@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1487,
-    "concepts": 1559,
-    "observations": 1565,
-    "repos": 324,
-    "terms": 1572
+    "components": 1525,
+    "concepts": 1578,
+    "observations": 1585,
+    "repos": 329,
+    "terms": 1590
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "aaronjmars/MiroShark",
     "aaronwong1999/hermesclaw",
@@ -84,12 +84,12 @@
     "chengzhag/PanSplat",
     "citusdata/django-multitenant",
     "clearbluejar/pyghidra-mcp",
-    "clearml/clearml-server",
     "ClementPinard/FlowNetPytorch",
     "ClementPinard/Pytorch-Correlation-extension",
     "compilerla/conventional-pre-commit",
     "conda-forge/conda-smithy",
     "conda/grayskull",
+    "confluentinc/confluent-kafka-python",
     "corteva/rioxarray",
     "crytic/crytic-compile",
     "crytic/pyevmasm",
@@ -246,6 +246,7 @@
     "OpenBMB/BMTrain",
     "OpenBMB/UltraEval-Audio",
     "OpenHands/OpenHands-CLI",
+    "OpenHands/software-agent-sdk",
     "openlawlibrary/pygls",
     "optuna/optuna-examples",
     "OSGeo/PROJ-data",
@@ -257,6 +258,7 @@
     "petercorke/machinevision-toolbox-python",
     "pettingllms-ai/PettingLLMs",
     "pfultz2/cget",
+    "PhoenixZ810/RISEBench",
     "pimutils/todoman",
     "pipecat-ai/pipecat-examples",
     "PKU-YuanGroup/ChronoMagic-Bench",
@@ -281,6 +283,7 @@
     "python-poetry/poetry-plugin-bundle",
     "python/typing_extensions",
     "QubesOS/qubes-secpack",
+    "redai-infra/Relax",
     "replicate/cog-examples",
     "rgeirhos/Stylized-ImageNet",
     "Rhoban/onshape-to-robot",
@@ -295,6 +298,7 @@
     "ryjoxtechnologies/octopoda-os",
     "SandAI-org/MagiAttention",
     "scrapinghub/article-extraction-benchmark",
+    "searxng/searx-instances",
     "Slicer/light-the-torch",
     "spesmilo/electrumx",
     "spylang/spy",
@@ -319,6 +323,7 @@
     "trailofbits/dropkit",
     "triton-inference-server/tutorials",
     "twisted/towncrier",
+    "ultralytics/thop",
     "Unbabel/COMET",
     "unixorn/lima-xbar-plugin",
     "urschrei/simplification",

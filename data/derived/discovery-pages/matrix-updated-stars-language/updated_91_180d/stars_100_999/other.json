@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1209,
-    "concepts": 976,
-    "observations": 979,
-    "repos": 253,
-    "terms": 970
+    "components": 1216,
+    "concepts": 988,
+    "observations": 991,
+    "repos": 255,
+    "terms": 982
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "2KAbhishek/seeker.nvim",
@@ -108,6 +108,7 @@
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
+    "dwyl/phoenix-todo-list-tutorial",
     "EbrahimTahernejad/Tun2SocksKit",
     "elixir-ecto/myxql",
     "elixir-mint/mint_web_socket",
@@ -222,6 +223,7 @@
     "SciML/SciMLTutorials.jl",
     "scribd/Weaver",
     "scssphp/scssphp",
+    "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "simonw/datasette-lite",

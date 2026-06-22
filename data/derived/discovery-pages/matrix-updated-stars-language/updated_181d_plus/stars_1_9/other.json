@@ -3,7 +3,7 @@
     "components": 1201,
     "concepts": 533,
     "observations": 533,
-    "repos": 356,
+    "repos": 357,
     "terms": 540
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -293,6 +293,7 @@
     "phymhan/taming-transformers",
     "pinnymz/ruby-zmanim",
     "plexus/cljs-test-example",
+    "plotters-rs/plotters-doc-data",
     "ppc64le-cloud/k8s-ansible",
     "PragTob/elixir_playground",
     "project-mirai/mirai-sponsor",

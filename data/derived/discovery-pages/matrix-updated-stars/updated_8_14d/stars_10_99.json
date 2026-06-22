@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 7,
-    "terms": 21
+    "components": 108,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 9,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "abap2UI5-addons/sql-console",
@@ -19,6 +19,8 @@
     "electron-userland/electron-windows-msix",
     "FerrisMind/candle-video",
     "geocompx/docker",
-    "ocaml-tracing/ocaml-opentelemetry"
+    "ocaml-tracing/ocaml-opentelemetry",
+    "storybook-community/addon-queryparams",
+    "symgraph/BinAssistMCP"
   ]
 }

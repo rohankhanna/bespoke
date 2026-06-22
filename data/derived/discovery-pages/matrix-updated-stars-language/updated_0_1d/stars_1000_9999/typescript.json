@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 72,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 1,
-    "terms": 15
+    "components": 377,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 6,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "off-grid-ai/mobile"
+    "conventional-changelog/conventional-changelog",
+    "modelcontextprotocol/modelcontextprotocol",
+    "off-grid-ai/mobile",
+    "podman-desktop/podman-desktop",
+    "shareAI-lab/Kode-CLI",
+    "typescript-language-server/typescript-language-server"
   ]
 }

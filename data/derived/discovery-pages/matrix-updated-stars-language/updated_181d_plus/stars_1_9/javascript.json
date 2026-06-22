@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1456,
-    "concepts": 193,
-    "observations": 194,
-    "repos": 119,
-    "terms": 193
+    "components": 1464,
+    "concepts": 198,
+    "observations": 199,
+    "repos": 120,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -124,6 +124,7 @@
     "pulsar-cooperative/linter-shellcheck-pulsar",
     "pulse-browser/firefox-qr-generator",
     "putoutjs/putout-processor-typos",
+    "Qiuner/isometric-contributions-plus",
     "reZach/easy-redux-undo",
     "sanctuary-js/sanctuary-descending",
     "seamapi/node-websocat",

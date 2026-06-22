@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 657,
-    "concepts": 459,
-    "observations": 461,
-    "repos": 171,
-    "terms": 454
+    "components": 670,
+    "concepts": 471,
+    "observations": 473,
+    "repos": 173,
+    "terms": 466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -74,7 +74,9 @@
     "dwyl/cid",
     "dwyl/content",
     "dwyl/elixir-auth-github",
+    "dwyl/elixir-auth-google-demo",
     "dwyl/elixir-auth-microsoft",
+    "dwyl/email",
     "dwyl/learn-payment-processing",
     "eddelbuettel/tinythemes",
     "Embarcadero/Lightweight-Python-Wrappers",

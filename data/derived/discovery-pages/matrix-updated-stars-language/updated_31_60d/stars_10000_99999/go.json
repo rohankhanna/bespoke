@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 951,
-    "concepts": 939,
-    "observations": 942,
-    "repos": 67,
-    "terms": 938
+    "components": 928,
+    "concepts": 910,
+    "observations": 912,
+    "repos": 65,
+    "terms": 909
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "99designs/gqlgen",
     "a-h/templ",
@@ -37,7 +37,6 @@
     "ethereum/EIPs",
     "flipped-aurora/gin-vue-admin",
     "getsops/sops",
-    "gitleaks/gitleaks",
     "go-gitea/gitea",
     "go-playground/validator",
     "go-sql-driver/mysql",
@@ -67,7 +66,6 @@
     "php/frankenphp",
     "pingcap/tidb",
     "pion/webrtc",
-    "prometheus/node_exporter",
     "pulumi/pulumi",
     "quic-go/quic-go",
     "rclone/rclone",

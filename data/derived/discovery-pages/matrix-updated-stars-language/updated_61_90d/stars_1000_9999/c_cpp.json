@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 988,
-    "concepts": 1073,
-    "observations": 1079,
-    "repos": 156,
-    "terms": 1067
+    "components": 996,
+    "concepts": 1101,
+    "observations": 1107,
+    "repos": 159,
+    "terms": 1095
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "Ableton/link",
     "AcademySoftwareFoundation/OpenColorIO",
     "ada-url/ada",
     "AFLplusplus/AFLplusplus",
     "alibaba/havenask",
+    "AngusJohnson/Clipper2",
     "AOMediaCodec/libavif",
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
@@ -52,6 +53,7 @@
     "felt/tippecanoe",
     "flatpak/flatpak",
     "fontforge/fontforge",
+    "ganelson/inform",
     "GNOME/glib",
     "go-gl/gl",
     "go-gl/glfw",
@@ -130,6 +132,7 @@
     "oneapi-src/oneAPI-samples",
     "onnx/onnx-tensorrt",
     "openssh/openssh-portable",
+    "openxla/xla",
     "Overv/VulkanTutorial",
     "panda3d/panda3d",
     "pisa-engine/pisa",

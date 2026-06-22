@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3165,
-    "concepts": 1772,
-    "observations": 1778,
-    "repos": 645,
-    "terms": 1780
+    "components": 3159,
+    "concepts": 1790,
+    "observations": 1796,
+    "repos": 649,
+    "terms": 1798
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -249,7 +249,9 @@
     "dwyl/cid",
     "dwyl/content",
     "dwyl/elixir-auth-github",
+    "dwyl/elixir-auth-google-demo",
     "dwyl/elixir-auth-microsoft",
+    "dwyl/email",
     "dwyl/learn-payment-processing",
     "Dzordzu/rust-apache-age",
     "EasternJournalist/pipeline",
@@ -304,6 +306,7 @@
     "gershnik/wsdd-native",
     "getgrav/grav-theme-learn2",
     "getlantern/lantern-forum-cn",
+    "getsentry/.github",
     "getyourguide/vue-class-migrator",
     "google-deepmind/alphageometry2",
     "google/tsunami-security-scanner-callback-server",
@@ -367,6 +370,7 @@
     "ipfs/go-ipfs-example-plugin",
     "ipfs/go-log",
     "ipfs/js-kubo-rpc-client",
+    "ipld/java-cid",
     "ipld/js-dag-pb",
     "IQTLabs/snowglobe",
     "IQVIA-ML/LightGBM.jl",
@@ -468,6 +472,7 @@
     "microsoft/tracing-etw",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
+    "midi2-dev/ni-midi2",
     "mikespook/possum",
     "minikube-ci/examples",
     "MINT-SJTU/STI-Bench",
@@ -638,7 +643,6 @@
     "vis-nlp/ChartQAPro",
     "vorot93/libmdbx-rs",
     "w3c/element-timing",
-    "wamp-proto/wamp-xbr",
     "WICG/crash-reporting",
     "withastro/.github",
     "worlpaker/go-syntax",

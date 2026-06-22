@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2874,
-    "concepts": 539,
-    "observations": 540,
-    "repos": 72,
-    "terms": 535
+    "components": 2788,
+    "concepts": 520,
+    "observations": 521,
+    "repos": 70,
+    "terms": 516
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
     "amannn/action-semantic-pull-request",
-    "americanexpress/jest-image-snapshot",
     "antfu/eslint-config",
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
@@ -53,7 +52,6 @@
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
     "MikeMcl/bignumber.js",
-    "minio/minio-js",
     "mozilla/rhino",
     "mozilla/web-ext",
     "NickColley/jest-axe",

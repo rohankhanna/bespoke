@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 147,
-    "concepts": 164,
-    "observations": 164,
-    "repos": 44,
-    "terms": 164
+    "concepts": 163,
+    "observations": 163,
+    "repos": 43,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "Aayushm24/presidential-briefing",
@@ -27,7 +27,6 @@
     "bennyyip/dot-vim",
     "Blosc/blogsite",
     "cgrindel/rules_swiftformat",
-    "conda-forge/croc-feedstock",
     "cosmos/security",
     "curiousdannii/emglken",
     "dotenvx/homebrew-brew",

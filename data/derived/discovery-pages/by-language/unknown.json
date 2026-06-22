@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1647,
-    "concepts": 3019,
-    "observations": 3023,
-    "repos": 1710,
-    "terms": 3028
+    "components": 1650,
+    "concepts": 3020,
+    "observations": 3024,
+    "repos": 1713,
+    "terms": 3029
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -796,6 +796,7 @@
     "forcedotcom/cli",
     "foundersieve687/skill-gateway",
     "francisengelmann/3D-MPA",
+    "frederik-uni/clipper2",
     "fsharp/fslang-suggestions",
     "fudan-generative-vision/OpenHumanVid",
     "FuelLabs/fuel-specs",
@@ -922,6 +923,7 @@
     "Homebrew/.github",
     "Homebrew/homebrew-bundle",
     "Homebrew/legacy-homebrew",
+    "hooke007/MPV_lazy",
     "hpatches/hpatches-dataset",
     "hpcaitech/Open-Sora-Demo",
     "HTR-United/tapuscorpus",
@@ -1310,6 +1312,7 @@
     "opendilab/awesome-ui-agents",
     "OpenDriveLab/End-to-end-Autonomous-Driving",
     "OpenGVLab/Awesome-DragGAN",
+    "OpenHands/incubator-program",
     "openjs-foundation/cross-project-council",
     "openlanguagedata/flores",
     "openlanguagedata/seed",

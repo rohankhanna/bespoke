@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 353,
-    "observations": 353,
-    "repos": 88,
-    "terms": 347
+    "components": 481,
+    "concepts": 341,
+    "observations": 341,
+    "repos": 86,
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -74,7 +74,6 @@
     "NVIDIA/multi-storage-client",
     "oneapi-src/level-zero-spec",
     "open-edge-platform/physical-ai-studio",
-    "OpenHands/benchmarks",
     "pdm-project/tox-pdm",
     "petercorke/spatialmath-python",
     "pipecat-ai/pipecat-cli",
@@ -92,7 +91,6 @@
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-ruff",
     "sublimelsp/LSP-volar",
-    "symgraph/BinAssistMCP",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",

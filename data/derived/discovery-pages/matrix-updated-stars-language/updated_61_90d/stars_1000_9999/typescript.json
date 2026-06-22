@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6206,
-    "concepts": 1210,
-    "observations": 1214,
-    "repos": 161,
-    "terms": 1316
+    "components": 6280,
+    "concepts": 1207,
+    "observations": 1211,
+    "repos": 163,
+    "terms": 1313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -120,7 +120,6 @@
     "matt1398/claude-devtools",
     "mattpocock/ts-reset",
     "maxritter/pilot-shell",
-    "microsoft/genaiscript",
     "microsoft/node-pty",
     "microsoft/playwright-cli",
     "microsoft/tsdoc",
@@ -162,8 +161,10 @@
     "streamich/memfs",
     "stripe/ai",
     "stripe/stripe-node",
+    "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "the-guild-org/apollo-angular",
+    "thomasloven/lovelace-card-mod",
     "thx/resvg-js",
     "TooTallNate/proxy-agents",
     "TypeStrong/ts-loader",
@@ -174,6 +175,7 @@
     "webgpu/webgpu-samples",
     "wighawag/hardhat-deploy",
     "withastro/starlight",
-    "xojs/xo"
+    "xojs/xo",
+    "yarnpkg/berry"
   ]
 }

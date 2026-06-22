@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 171,
-    "observations": 173,
-    "repos": 19,
-    "terms": 171
+    "components": 127,
+    "concepts": 113,
+    "observations": 117,
+    "repos": 14,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
+    "all-contributors/allcontributors.org",
     "apache/casbin-Casbin.NET",
     "babashka/babashka",
     "babashka/sci",
     "beam-community/elixir-companies",
     "clj-kondo/clj-kondo",
-    "dotnet/reactive",
-    "dotnet/Silk.NET",
     "elixir-grpc/grpc",
-    "firebase/flutterfire",
-    "gluonfield/enchanted",
     "googleapis/google-auth-library-php",
     "kurrent-io/KurrentDB",
-    "licensee/licensed",
-    "microsoft/aspire-samples",
     "microsoft/PhiCookBook",
     "okd-project/okd",
     "psmux/psmux",
-    "swiftlang/swift-syntax",
-    "TryGhost/node-sqlite3"
+    "seancorfield/honeysql",
+    "swiftlang/swift-syntax"
   ]
 }

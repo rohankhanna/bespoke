@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 0,
-    "observations": 0,
+    "concepts": 5,
+    "observations": 5,
     "repos": 1,
-    "terms": 0
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "xuanji86/ainiee-translate-skill"
+    "Archerkattri/hicache-plus-plus"
   ]
 }

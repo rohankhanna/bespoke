@@ -1,24 +1,26 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 81,
-    "observations": 81,
-    "repos": 9,
-    "terms": 79
+    "components": 398,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 11,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "AndyMik90/Aperant",
     "anthropics/claude-cookbooks",
+    "Billionmail/BillionMail",
     "chatboxai/chatbox",
     "datalab-to/surya",
     "git-lfs/git-lfs",
+    "gitleaks/gitleaks",
     "Lightning-AI/pytorch-lightning",
     "nvm-sh/nvm",
     "preactjs/preact"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 38,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 2,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "Ai00-X/ai00_server"
+    "Ai00-X/ai00_server",
+    "alloy-rs/svm-rs"
   ]
 }

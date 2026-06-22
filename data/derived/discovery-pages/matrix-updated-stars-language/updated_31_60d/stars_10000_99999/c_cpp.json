@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 588,
-    "concepts": 799,
-    "observations": 801,
-    "repos": 71,
-    "terms": 794
+    "components": 561,
+    "concepts": 763,
+    "observations": 765,
+    "repos": 67,
+    "terms": 758
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
-    "apple/foundationdb",
     "arangodb/arangodb",
     "asmvik/yabai",
     "assimp/assimp",
@@ -42,8 +41,6 @@
     "espressif/arduino-esp32",
     "espressif/esp-idf",
     "FFmpeg/FFmpeg",
-    "FreeRDP/FreeRDP",
-    "gnachman/iTerm2",
     "google-deepmind/mujoco",
     "google/filament",
     "grpc/grpc",
@@ -62,7 +59,6 @@
     "lz4/lz4",
     "micropython/micropython",
     "microsoft/mimalloc",
-    "microsoft/onnxruntime",
     "microsoft/STL",
     "mongodb/mongo",
     "obsproject/obs-studio",

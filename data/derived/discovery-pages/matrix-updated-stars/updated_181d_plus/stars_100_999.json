@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 15991,
+    "components": 15989,
     "concepts": 14525,
     "observations": 14553,
     "repos": 4728,
-    "terms": 14299
+    "terms": 14318
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nutation/USLM",
@@ -1429,7 +1429,6 @@
     "ebdrup/json-schema-benchmark",
     "eborboihuc/rotate_3d",
     "eclarke/ggbeeswarm",
-    "eclipse-corrosion/corrosion",
     "eclipse-embed-cdt/org.eclipse.epp.packages",
     "ecomfe/echarts-stat",
     "ecsplendid/rembg-greenscreen",
@@ -2208,6 +2207,7 @@
     "Infinidat/munch",
     "infinitered/nsfwjs-mobile",
     "infinyon/node-bindgen",
+    "Infiziert90/getnative",
     "informalsystems/hermes",
     "informalsystems/ibc-rs",
     "infusion/udf_infusion",
@@ -3689,7 +3689,6 @@
     "pulumi/automation-api-examples",
     "py-pdf/benchmarks",
     "pybind/pybind11_json",
-    "PyCQA/eradicate",
     "PyCQA/mccabe",
     "PyCQA/pep8-naming",
     "pyga/parsley",
@@ -4490,6 +4489,7 @@
     "WangDaYeeeeee/GeometricWeather-iOS",
     "wangjia184/sortedset",
     "wangjiangshan0725/RF-Solver-Edit",
+    "wangwenx190/framelesshelper",
     "WangYueFt/detr3d",
     "wangyuxinwhy/uniem",
     "WASasquatch/FreeU_Advanced",

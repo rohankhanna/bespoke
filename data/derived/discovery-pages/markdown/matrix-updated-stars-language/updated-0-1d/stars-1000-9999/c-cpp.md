@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-22T06:20:48.042315+00:00`
+Generated at: `2026-06-22T11:59:31.612749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 51
-- components: 29
-- concepts: 51
-- observations: 51
+- repos: 5
+- terms: 38
+- components: 31
+- concepts: 38
+- observations: 38
 
 ## Static behavior
 
@@ -26,16 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5842 | 2026-06-22T00:09:10Z | C/C++ | Infrastructure/tooling | 17 | 10 | 17 | 17 |
-| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2649 | 2026-06-21T22:48:53Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1318 | 2026-06-21T17:12:45Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [doctest/doctest](https://github.com/doctest/doctest) | 6784 | 2026-06-21T10:36:09Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
+| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5845 | 2026-06-22T10:12:37Z | C/C++ | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2650 | 2026-06-22T08:54:00Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1318 | 2026-06-22T07:35:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1391 | 2026-06-22T04:03:06Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [red-data-tools/pycall.rb](https://github.com/red-data-tools/pycall.rb) | 1114 | 2026-06-22T02:29:58Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [doctest/doctest](https://github.com/doctest/doctest) | 6784 | 2026-06-21T10:36:09Z | C/C++ | Infrastructure/tooling | 21 | 7 | 21 | 21 |
-| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5842 | 2026-06-22T00:09:10Z | C/C++ | Infrastructure/tooling | 17 | 10 | 17 | 17 |
-| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2649 | 2026-06-21T22:48:53Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1318 | 2026-06-21T17:12:45Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5845 | 2026-06-22T10:12:37Z | C/C++ | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [TrenchBroom/TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) | 2650 | 2026-06-22T08:54:00Z | C/C++ | Infrastructure/tooling | 11 | 7 | 11 | 11 |
+| [libbitcoin/libbitcoin-system](https://github.com/libbitcoin/libbitcoin-system) | 1391 | 2026-06-22T04:03:06Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [ufbx/ufbx](https://github.com/ufbx/ufbx) | 1318 | 2026-06-22T07:35:59Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [red-data-tools/pycall.rb](https://github.com/red-data-tools/pycall.rb) | 1114 | 2026-06-22T02:29:58Z | C/C++ | Infrastructure/tooling | 6 | 5 | 6 | 6 |

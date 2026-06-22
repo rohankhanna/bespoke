@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6105,
-    "concepts": 3990,
-    "observations": 4004,
-    "repos": 970,
-    "terms": 3969
+    "components": 6112,
+    "concepts": 4014,
+    "observations": 4028,
+    "repos": 973,
+    "terms": 3993
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0k/shyaml",
     "0xtbug/zero-limit",
@@ -210,6 +210,7 @@
     "claytonfarr/ralph-playbook",
     "cleanlab/examples",
     "clearbluejar/ghidrecomp",
+    "clearml/clearml-server",
     "clearml/clearml-serving",
     "cleinc/bts",
     "clemense/yourdfpy",
@@ -307,6 +308,7 @@
     "dwyl/elixir-auth-google",
     "dwyl/labels",
     "dwyl/phoenix-liveview-chat-example",
+    "dwyl/phoenix-todo-list-tutorial",
     "dzeiocom/lucide-astro",
     "EbrahimTahernejad/Tun2SocksKit",
     "eckardt/cchistory",
@@ -809,6 +811,7 @@
     "scribd/Weaver",
     "scripting/reallysimple",
     "scssphp/scssphp",
+    "sdbds/SageAttention-for-windows",
     "seancorfield/deps-new",
     "seancorfield/next-jdbc",
     "secretflow/scql",

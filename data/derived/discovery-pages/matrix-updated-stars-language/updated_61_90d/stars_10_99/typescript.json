@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1901,
-    "concepts": 288,
-    "observations": 291,
-    "repos": 76,
-    "terms": 320
+    "components": 1918,
+    "concepts": 294,
+    "observations": 297,
+    "repos": 77,
+    "terms": 326
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
@@ -37,6 +37,7 @@
     "celo-org/developer-tooling",
     "codemirror/language",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
+    "DataDog/opentelemetry-demo",
     "dokploy/cli",
     "electron/windows-sign",
     "ElementsProject/cln-application",

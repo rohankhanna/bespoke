@@ -1,20 +1,23 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 3,
-    "terms": 15
+    "components": 28,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 6,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "honwen/openwrt-dnsmasq-extra",
+    "alloy-rs/evm",
+    "cloudfoundry/bosh-google-cpi-release",
+    "edge-classic/EDGE-classic",
     "intel-staging/text-generation-webui",
-    "zhouwg/ggml-hexagon"
+    "mozilla-ai/any-guardrail",
+    "nvim-mini/mini.deps"
   ]
 }

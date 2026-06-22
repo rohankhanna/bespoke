@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1459,
-    "concepts": 1027,
-    "observations": 1032,
-    "repos": 155,
-    "terms": 1040
+    "components": 1496,
+    "concepts": 1072,
+    "observations": 1078,
+    "repos": 160,
+    "terms": 1084
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "0xPlaygrounds/rig",
@@ -22,6 +22,7 @@
     "algesten/ureq",
     "alloy-rs/alloy",
     "aome510/spotify-player",
+    "apache/iggy",
     "arxanas/git-branchless",
     "asny/three-d",
     "asomers/mockall",
@@ -40,6 +41,7 @@
     "cberner/fuser",
     "cedar-policy/cedar",
     "chronotope/chrono",
+    "compio-rs/compio",
     "crate-ci/typos",
     "cross-rs/cross",
     "crossterm-rs/crossterm",
@@ -55,7 +57,6 @@
     "emilk/eframe_template",
     "enigo-rs/enigo",
     "EricLBuehler/mistral.rs",
-    "evcxr/evcxr",
     "eventual-inc/daft",
     "extism/extism",
     "eyre-rs/eyre",
@@ -122,8 +123,10 @@
     "paradigmxyz/reth",
     "pdeljanov/Symphonia",
     "pgcentralfoundation/pgrx",
+    "plotters-rs/plotters",
     "pop-os/cosmic-text",
     "proptest-rs/proptest",
+    "pulldown-cmark/pulldown-cmark",
     "PyO3/maturin",
     "ratatui/mousefood",
     "rkyv/rkyv",
@@ -148,11 +151,13 @@
     "serde-rs/json",
     "servo/html5ever",
     "servo/ipc-channel",
+    "servo/pathfinder",
     "sharkdp/pastel",
     "sigp/lighthouse",
     "snapview/tokio-tungstenite",
     "snapview/tungstenite-rs",
     "spacejam/sled",
+    "succinctlabs/sp1",
     "SuperCuber/dotter",
     "tauri-apps/create-tauri-app",
     "tauri-apps/wry",

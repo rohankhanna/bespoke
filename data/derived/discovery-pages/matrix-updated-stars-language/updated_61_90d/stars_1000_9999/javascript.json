@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2814,
-    "concepts": 597,
-    "observations": 597,
-    "repos": 97,
-    "terms": 595
+    "components": 2900,
+    "concepts": 616,
+    "observations": 616,
+    "repos": 99,
+    "terms": 614
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "aandrew-me/ytDownloader",
     "acss-io/atomizer",
     "actions/javascript-action",
     "Adobe-CEP/Samples",
     "ai/size-limit",
+    "americanexpress/jest-image-snapshot",
     "amperser/proselint",
     "amqp-node/amqplib",
     "anvaka/panzoom",
@@ -73,6 +74,7 @@
     "mapbox/node-pre-gyp",
     "micromatch/picomatch",
     "microsoft/vscode-recipes",
+    "minio/minio-js",
     "mourner/rbush",
     "newrelic/node-newrelic",
     "nodegit/nodegit",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1260,
-    "concepts": 1073,
-    "observations": 1075,
-    "repos": 92,
-    "terms": 1066
+    "components": 1218,
+    "concepts": 992,
+    "observations": 994,
+    "repos": 87,
+    "terms": 985
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agno-agi/agno",
     "Aider-AI/aider",
     "ansible/ansible",
-    "apache/airflow",
     "aws/aws-cli",
     "BerriAI/litellm",
     "celery/celery",
     "certbot/certbot",
     "chubin/wttr.in",
-    "cookiecutter/cookiecutter-django",
     "crewAIInc/crewAI",
     "cvat-ai/cvat",
     "dagster-io/dagster",
@@ -81,7 +79,6 @@
     "pypa/pipx",
     "python-pillow/Pillow",
     "python-telegram-bot/python-telegram-bot",
-    "pytorch/vision",
     "redis/redis-py",
     "roboflow/supervision",
     "RVC-Boss/GPT-SoVITS",
@@ -96,10 +93,8 @@
     "SWE-agent/SWE-agent",
     "sympy/sympy",
     "tensorflow/models",
-    "Textualize/textual",
     "treeverse/dvc",
     "triton-inference-server/server",
-    "ultralytics/ultralytics",
     "ultralytics/yolov3",
     "ultralytics/yolov5",
     "unclecode/crawl4ai",

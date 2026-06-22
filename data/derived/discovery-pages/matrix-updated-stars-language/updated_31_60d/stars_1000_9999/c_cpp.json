@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1586,
-    "concepts": 1639,
-    "observations": 1640,
-    "repos": 191,
-    "terms": 1627
+    "components": 1578,
+    "concepts": 1622,
+    "observations": 1623,
+    "repos": 188,
+    "terms": 1610
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -74,7 +74,6 @@
     "FluidSynth/fluidsynth",
     "fnc12/sqlite_orm",
     "free-audio/clap",
-    "ganelson/inform",
     "gazebosim/gz-sim",
     "git-for-windows/git",
     "google/oboe",
@@ -151,7 +150,6 @@
     "OpenSC/OpenSC",
     "opensim-org/opensim-core",
     "openucx/ucx",
-    "openxla/xla",
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "OSGeo/gdal",
@@ -166,7 +164,6 @@
     "RainerKuemmerle/g2o",
     "rapidsai/cuml",
     "realsenseai/librealsense",
-    "red-data-tools/pycall.rb",
     "RobotLocomotion/drake",
     "sail-sg/envpool",
     "samtools/samtools",

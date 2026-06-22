@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 575,
-    "concepts": 683,
-    "observations": 684,
-    "repos": 299,
-    "terms": 677
+    "components": 577,
+    "concepts": 685,
+    "observations": 686,
+    "repos": 301,
+    "terms": 679
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -27,6 +27,7 @@
     "adamharrison/lite-xl-terminal",
     "adisbladis/lix-unit",
     "aidenlab/straw",
+    "AkarinVS/L-SMASH-Works",
     "alexmyczko/ree",
     "alfredbaudisch/raylib-cimgui",
     "Alpine-DAV/vtk-h",
@@ -162,6 +163,7 @@
     "IDLabMedia/image-lens-reproject",
     "ingonyama-zk/icicle-gnark",
     "intelligent-machine-learning/tfplus",
+    "Irrational-Encoding-Wizardry/descale",
     "isl-org/open3d-cmake-find-package",
     "ItsBrank/ReVorb",
     "ittner/lua-gd",

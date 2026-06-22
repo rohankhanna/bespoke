@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 1,
-    "terms": 3
+    "components": 74,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 4,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "imgui-rs/imgui-rs"
+    "apache/datafusion-ballista",
+    "ash-rs/ash",
+    "dmtrKovalenko/fff",
+    "hermit-os/hermit-rs"
   ]
 }

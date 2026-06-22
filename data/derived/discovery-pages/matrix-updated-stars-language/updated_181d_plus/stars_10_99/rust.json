@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 593,
-    "concepts": 435,
-    "observations": 440,
-    "repos": 209,
-    "terms": 428
+    "components": 594,
+    "concepts": 436,
+    "observations": 441,
+    "repos": 210,
+    "terms": 430
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
@@ -177,6 +177,7 @@
     "penumbra-zone/tower-abci",
     "pinecone-io/assistant-mcp",
     "pisa-engine/ciff",
+    "plotters-rs/plotters-canvas",
     "progval/pythonvm-rust",
     "Prunoideae/web-rwkv-axum",
     "rkyv/bytecheck",

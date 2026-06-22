@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 840,
-    "concepts": 794,
-    "observations": 798,
+    "components": 855,
+    "concepts": 796,
+    "observations": 800,
     "repos": 76,
-    "terms": 779
+    "terms": 781
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -20,7 +20,6 @@
     "ahmetb/kubectx",
     "aquasecurity/trivy",
     "asdf-vm/asdf",
-    "Billionmail/BillionMail",
     "caddyserver/caddy",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
@@ -77,6 +76,7 @@
     "ory/hydra",
     "panjf2000/ants",
     "panjf2000/gnet",
+    "prometheus/node_exporter",
     "prometheus/prometheus",
     "router-for-me/cliproxyapi",
     "rs/zerolog",

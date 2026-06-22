@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 3,
+    "components": 4,
     "concepts": 0,
     "observations": 0,
     "repos": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "cloudfoundry/bosh-google-cpi-release"
   ]

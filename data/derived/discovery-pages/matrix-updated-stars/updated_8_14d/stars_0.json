@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 1,
-    "terms": 4
+    "components": 4,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 2,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-11T08:14:09.272122+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "mayocream/candle"
+    "apostrophecms/astro-public-demo",
+    "mozilla-ai/otari-cli"
   ]
 }

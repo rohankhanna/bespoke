@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 478,
+    "components": 498,
     "concepts": 350,
     "observations": 350,
-    "repos": 279,
-    "terms": 353
+    "repos": 283,
+    "terms": 357
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -27,6 +27,7 @@
     "5sControl/machine-control",
     "5sControl/min-max",
     "745165806/PaddleSpeechTask",
+    "aaf6aa/SCUNet",
     "abersheeran/pdm-version",
     "abhijay9/attacking_perceptual_similarity_metrics",
     "AbhiLegend/DrugLiphphilicty",
@@ -60,6 +61,7 @@
     "appl-team/TwitterPersonality",
     "arangoml/dgl-adapter",
     "ariroffe72/zmanim-mcp-server",
+    "arustydev/pre-commit-hooks",
     "asadfgglie/voicevox_tts",
     "asg017/sqlite-base64",
     "ashvardanian/xl-sum",
@@ -104,6 +106,7 @@
     "cognizant-ai-lab/neuro-san-web-client",
     "Computer-use-agents/GUI-Docker-Env",
     "conda-incubator/conda-suggest",
+    "Corpsecreate/neosr",
     "CREAsTIVE/LSP-rustowl",
     "csstree/sublimelinter-contrib-csstree",
     "ctz/hpke-py",
@@ -120,6 +123,7 @@
     "darwinai/covidnet_integration",
     "darwinai/pl-covidnet",
     "darwinai/pl-covidnet-grad-cam",
+    "Demetter/TSCUNet_Trainer",
     "di/packaging_legacy",
     "Distributive-Network/pythonmonkey-crypto-js-fullstack-example",
     "elementai/spider",

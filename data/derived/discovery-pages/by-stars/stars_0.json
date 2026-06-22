@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2937,
-    "concepts": 1228,
-    "observations": 1232,
-    "repos": 911,
-    "terms": 1259
+    "components": 2961,
+    "concepts": 1236,
+    "observations": 1240,
+    "repos": 919,
+    "terms": 1267
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -95,6 +95,7 @@
     "AniAggarwal/clip-score",
     "anonymized-transformer/anonymized-transformer.github.io",
     "apache/sling-org-apache-sling-feature-modelconverter",
+    "apostrophecms/astro-public-demo",
     "appscodelabs/liche",
     "aq-sensors/airbeamr",
     "arckoor/botan-rs",
@@ -210,6 +211,7 @@
     "conda-forge/diffutils-feedstock",
     "conda-forge/equinox-feedstock",
     "conda-forge/ergocub-software-feedstock",
+    "conda-forge/numba-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
@@ -516,6 +518,7 @@
     "foundersieve687/skill-gateway",
     "foundry-rs/optimism",
     "frankkohlhepp/fancy-settings",
+    "frederik-uni/clipper2",
     "Freed-Wu/coc-write-good",
     "fulmicoton-dd/datasketches-rust",
     "garrettalbright/luacheck.novaextension",
@@ -724,6 +727,10 @@
     "mountchicken/mmocr_tutorials",
     "Mountchicken/Mountchicken",
     "MoyuruAizawa/Images",
+    "mozilla-ai/otari-anyguardrail-container",
+    "mozilla-ai/otari-cli",
+    "mozilla-ai/otari-sdk-go",
+    "mozilla-ai/otari-sdk-python",
     "msoos/cryptominisat-rs",
     "mudler/vulkan-sdk-arm",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
@@ -772,6 +779,7 @@
     "onomojo/i18n-timezones-js",
     "onomojo/i18n-timezones-rs",
     "oov/hashmap.c",
+    "OpenHands/incubator-program",
     "openobserve/promql-parser",
     "opentk/glfw-redist",
     "openwdl/governance",

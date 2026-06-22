@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 39481,
-    "concepts": 8836,
-    "observations": 8863,
-    "repos": 2085,
-    "terms": 8824
+    "components": 39496,
+    "concepts": 8838,
+    "observations": 8865,
+    "repos": 2086,
+    "terms": 8829
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -211,6 +211,7 @@
     "apollographql/starwars-server",
     "apostrophecms/apostrophe",
     "apostrophecms/apostrophe-astro",
+    "apostrophecms/astro-public-demo",
     "apostrophecms/sanitize-html",
     "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/appbase-js",
@@ -1962,7 +1963,7 @@
     "treosh/lighthouse-ci-action",
     "TrigenSoftware/simple-release-action",
     "TritonDataCenter/node-extsprintf",
-    "tritondatacenter/node-getopt",
+    "TritonDataCenter/node-getopt",
     "TritonDataCenter/node-http-signature",
     "TritonDataCenter/node-verror",
     "trylovetom/clean-code-javascript",

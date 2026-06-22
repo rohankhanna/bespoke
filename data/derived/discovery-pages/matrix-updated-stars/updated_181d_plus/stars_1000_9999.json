@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 10758,
-    "concepts": 9498,
-    "observations": 9512,
-    "repos": 2440,
-    "terms": 9367
+    "components": 10760,
+    "concepts": 9503,
+    "observations": 9517,
+    "repos": 2441,
+    "terms": 9374
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "027xiguapi/pear-rec",
@@ -1593,6 +1593,7 @@
     "nsfw-filter/nsfw-filter",
     "nst/JSONTestSuite",
     "NTMC-Community/MatchZoo",
+    "numz/ComfyUI-SeedVR2_VideoUpscaler",
     "NUS-HPC-AI-Lab/VideoSys",
     "nutonomy/nuscenes-devkit",
     "nuxt/vite",

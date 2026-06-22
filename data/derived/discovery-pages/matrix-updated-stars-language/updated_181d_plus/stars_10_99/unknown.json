@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 332,
     "observations": 332,
-    "repos": 289,
+    "repos": 290,
     "terms": 332
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -150,6 +150,7 @@
     "heshengtao/Let-LLM-party",
     "high-moctane/nextword-data",
     "hipudding/pytorch-lightning",
+    "hooke007/MPV_lazy",
     "human-pangenomics/HG002_Data_Freeze_v1.0",
     "ichitenfont/suppchara",
     "imgui-rs/imgui-examples",

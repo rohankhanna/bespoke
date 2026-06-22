@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 62856,
-    "concepts": 10913,
-    "observations": 10949,
-    "repos": 1913,
-    "terms": 11211
+    "components": 63112,
+    "concepts": 10933,
+    "observations": 10969,
+    "repos": 1917,
+    "terms": 11235
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -452,6 +452,7 @@
     "codota/tabnine-atom",
     "colinhacks/zod",
     "Comcast/react-data-grid",
+    "Comfy-Org/Comfy-Desktop",
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
     "confio/ibc-tests-ics20",
@@ -1228,6 +1229,7 @@
     "mobxjs/mobx",
     "mobxjs/mobx-angular",
     "modelcontextprotocol/inspector",
+    "modelcontextprotocol/modelcontextprotocol",
     "modelcontextprotocol/servers",
     "modelcontextprotocol/typescript-sdk",
     "Moldoteck/MagicEraser",
@@ -1236,6 +1238,7 @@
     "morrys/wora",
     "mostjs/core",
     "motrixapp/motrix-install-assistant",
+    "mozilla-ai/otari-sdk-ts",
     "msgpack/msgpack-javascript",
     "mskelton/eslint-plugin-playwright",
     "mswjs/interceptors",
@@ -1380,6 +1383,7 @@
     "openclaw/openclaw",
     "opendatalab/LabelLLM",
     "opendatalab/labelU-Kit",
+    "OpenHands/agent-canvas",
     "openlit/openlit",
     "openobserve/openobserve",
     "opensearch-project/opentelemetry-demo",

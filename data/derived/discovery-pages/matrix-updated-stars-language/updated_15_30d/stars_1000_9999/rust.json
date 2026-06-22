@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 6,
-    "terms": 64
+    "components": 36,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 3,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "ash-rs/ash",
-    "crate-ci/cargo-release",
     "databendlabs/databend",
-    "dmtrKovalenko/fff",
-    "hermit-os/hermit-rs",
-    "mayocream/koharu"
+    "mayocream/koharu",
+    "rust-ml/linfa"
   ]
 }

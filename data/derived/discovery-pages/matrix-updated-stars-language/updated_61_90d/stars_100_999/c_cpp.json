@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 644,
-    "concepts": 735,
-    "observations": 738,
-    "repos": 150,
-    "terms": 730
+    "components": 667,
+    "concepts": 760,
+    "observations": 763,
+    "repos": 155,
+    "terms": 755
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
@@ -41,12 +41,14 @@
     "cloudwu/ltask",
     "coin-or/Cbc",
     "containers/conmon",
+    "corporateshark/lightweightvk",
     "CrystallineCore/Biscuit",
     "cusplibrary/cusplibrary",
     "DavidKinder/Inform6",
     "DavidKinder/Windows-Frotz",
     "Distributive-Network/PythonMonkey",
     "dloebl/cgif",
+    "DOCGroup/ACE_TAO",
     "DolbyLaboratories/dlb_mp4base",
     "eddelbuettel/rcppsimdjson",
     "elixir-sqlite/exqlite",
@@ -113,6 +115,7 @@
     "mybigday/llama.rn",
     "mybigday/whisper.rn",
     "myfreeer/chrome-pak-customizer",
+    "mysql/mysql-workbench",
     "NetEase-FuXi/EETQ",
     "NetHack-LE/nle",
     "nfrechette/rtm",
@@ -137,6 +140,7 @@
     "proxytunnel/proxytunnel",
     "ptsochantaris/emeltal",
     "pyg-team/pyg-lib",
+    "qbs/qbs",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "RoaringBitmap/croaring-rs",
@@ -155,6 +159,7 @@
     "triton-inference-server/dali_backend",
     "triton-inference-server/python_backend",
     "usdot-fhwa-stol/carma-platform",
+    "uxlfoundation/oneCCL",
     "uxlfoundation/oneMath",
     "vectr-ucla/direct_lidar_inertial_odometry",
     "VeriSilicon/TIM-VX",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1008,
-    "concepts": 914,
-    "observations": 915,
-    "repos": 116,
-    "terms": 912
+    "components": 997,
+    "concepts": 901,
+    "observations": 902,
+    "repos": 112,
+    "terms": 899
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -31,7 +31,6 @@
     "Azure/azure-storage-azcopy",
     "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
-    "bazel-contrib/rules_img",
     "betterleaks/betterleaks",
     "bitrise-io/bitrise",
     "boj/redistore",
@@ -91,9 +90,6 @@
     "kubernetes-sigs/karpenter-provider-cluster-api",
     "kubernetes-sigs/lws",
     "kubernetes-sigs/prow",
-    "kubernetes/apiextensions-apiserver",
-    "kubernetes/sample-apiserver",
-    "maragudk/gomponents-starter-kit",
     "mattn/go-isatty",
     "microsoft/dcp",
     "moul/gotty-client",

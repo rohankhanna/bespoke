@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2145,
-    "concepts": 434,
-    "observations": 436,
-    "repos": 74,
-    "terms": 434
+    "components": 2128,
+    "concepts": 428,
+    "observations": 430,
+    "repos": 73,
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
@@ -27,7 +27,6 @@
     "csm-actions/approve-pr-action",
     "csm-actions/securefix-action",
     "dannyhw/expo-storybook-starter",
-    "DataDog/opentelemetry-demo",
     "ecyrbe/zodios-express",
     "elastic/opentelemetry-demo",
     "emscripten-forge/mambajs",

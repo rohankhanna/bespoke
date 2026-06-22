@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1767,
-    "concepts": 364,
-    "observations": 370,
-    "repos": 73,
-    "terms": 360
+    "components": 1749,
+    "concepts": 351,
+    "observations": 357,
+    "repos": 71,
+    "terms": 347
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "AdguardTeam/HostlistsRegistry",
@@ -40,8 +40,6 @@
     "firebase/snippets-web",
     "fontello/svg2ttf",
     "GDevelopApp/GDevelop-examples",
-    "gitleaks/gitleaks-action",
-    "GoogleCloudPlatform/google-cloud-node-todos",
     "GordonChen19/Prompt-Relay",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",

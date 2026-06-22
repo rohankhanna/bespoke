@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2882,
-    "concepts": 3571,
-    "observations": 3579,
-    "repos": 644,
-    "terms": 3551
+    "components": 2899,
+    "concepts": 3585,
+    "observations": 3593,
+    "repos": 645,
+    "terms": 3565
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -54,6 +54,7 @@
     "apache/camel",
     "apache/camel-examples",
     "apache/camel-quarkus-examples",
+    "apache/casbin-jcasbin",
     "apache/commons-jexl",
     "apache/datasketches-hive",
     "apache/datasketches-java",

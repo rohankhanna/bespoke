@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1119,
-    "concepts": 727,
-    "observations": 728,
-    "repos": 212,
-    "terms": 733
+    "components": 1138,
+    "concepts": 731,
+    "observations": 732,
+    "repos": 213,
+    "terms": 737
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xrsydn/nix-hermes-agent",
@@ -82,8 +82,6 @@
     "dominique-unruh/qrhl-tool",
     "donderom/llm4s",
     "dwyl/auth_plug",
-    "dwyl/elixir-auth-google-demo",
-    "dwyl/email",
     "dwyl/fields",
     "dwyl/learn-alpine.js",
     "dwyl/who",
@@ -175,6 +173,7 @@
     "niheaven/scoop-sysinternals",
     "NitroDevs/FShopOnWeb",
     "NixOS/nix-installer-action",
+    "nodenv/homebrew-nodenv",
     "notomo/vusted",
     "Nsidorenco/neotest-vstest",
     "NVIDIA/spark-rapids-tools",
@@ -203,10 +202,12 @@
     "rubygems/release-gem",
     "rust-lang-ru/rust-by-example",
     "SAP/abap-file-formats",
+    "SAP/abap-file-formats-tools",
     "sass-contrib/sass-embedded-host-ruby",
     "sbcgua/ajson",
     "sbt/sbt-java-formatter",
     "sentientwave/automata",
+    "servo/servo.org",
     "simonpoole/beautified-JOSM-preset",
     "simplecov-ruby/simplecov-html",
     "SimplyDanny/SwiftLintPlugins",

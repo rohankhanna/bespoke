@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1492,
-    "concepts": 1460,
-    "observations": 1463,
-    "repos": 192,
-    "terms": 1461
+    "components": 1578,
+    "concepts": 1505,
+    "observations": 1508,
+    "repos": 198,
+    "terms": 1506
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
+    "AdguardTeam/dnsproxy",
     "alecthomas/chroma",
     "alexellis/arkade",
     "alibaba/higress",
@@ -103,11 +104,13 @@
     "golang-jwt/jwt",
     "golang/mobile",
     "golang/tools",
+    "google/certificate-transparency-go",
     "google/gnostic",
     "google/go-containerregistry",
     "google/go-jsonnet",
     "google/pprof",
     "google/starlark-go",
+    "google/trillian",
     "GoogleCloudPlatform/berglas",
     "GoogleContainerTools/container-structure-test",
     "gopasspw/gopass",
@@ -130,6 +133,7 @@
     "itchyny/gojq",
     "klauspost/compress",
     "klauspost/pgzip",
+    "knative/eventing",
     "korotovsky/slack-mcp-server",
     "kuberhealthy/kuberhealthy",
     "kubernetes-sigs/controller-runtime",
@@ -142,6 +146,7 @@
     "kubernetes/client-go",
     "kubernetes/enhancements",
     "kubernetes/kube-state-metrics",
+    "kubernetes/test-infra",
     "larksuite/cli",
     "lesismal/nbio",
     "libp2p/go-libp2p",
@@ -157,6 +162,7 @@
     "nikolaydubina/go-recipes",
     "norwoodj/helm-docs",
     "NVIDIA/dcgm-exporter",
+    "NVIDIA/nvidia-container-toolkit",
     "open-telemetry/opentelemetry-collector",
     "opencontainers/distribution-spec",
     "openshift/installer",

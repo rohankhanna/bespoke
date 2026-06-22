@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3604,
-    "concepts": 693,
-    "observations": 693,
-    "repos": 132,
-    "terms": 754
+    "components": 3708,
+    "concepts": 719,
+    "observations": 719,
+    "repos": 136,
+    "terms": 780
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "43081j/picoquery",
@@ -28,6 +28,7 @@
     "appium/appium-adb",
     "appwrite/sdk-for-node",
     "aquasecurity/trivy-vscode-extension",
+    "astral-sh/ruff-action",
     "atomicmemory/llm-wiki-compiler",
     "Autodesk/synthesis",
     "avli/clojureVSCode",
@@ -52,6 +53,7 @@
     "cztomsik/ava",
     "daeh/zotero-citation-tally",
     "decentralized-identity/did-jwt",
+    "DeterminateSystems/nix-installer-action",
     "devcontainers/ci",
     "dezoito/ollama-grid-search",
     "docker/setup-qemu-action",
@@ -115,7 +117,9 @@
     "NVIDIA/OpenShell-Community",
     "nyatinte/ccexp",
     "Obsidian-TTRPG-Community/initiative-tracker",
+    "octokit/plugin-rest-endpoint-methods.js",
     "octokit/webhooks",
+    "octokit/webhooks.js",
     "OffchainLabs/arbitrum-sdk",
     "open-telemetry/opentelemetry-js-contrib",
     "opendatalab/labelU-Kit",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 52,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 42,
-    "terms": 43
+    "concepts": 42,
+    "observations": 42,
+    "repos": 38,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
-    "bell-sw/osv-database",
     "calda/SwiftFormat-nightly",
     "Cebeerre/dnsblocklists",
     "conda-forge/captum-feedstock",
     "conda-forge/pyfive-feedstock",
     "conda-forge/python-build-feedstock",
     "csm-actions/demo-server",
-    "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Data-Analyst-plugin",
     "danielrosehill/Claude-Desktop-Manager-Plugin",
@@ -31,7 +29,6 @@
     "danielrosehill/Claude-Image-Production-Plugin",
     "danielrosehill/Claude-KDE-Plasma-Plugin",
     "danielrosehill/Claude-Linux-System-Optimisation-Plugin",
-    "danielrosehill/Claude-LLM-Council-Creator-Plugin",
     "danielrosehill/Claude-Research-Space-Plugin",
     "danielrosehill/Resources-Lists-Index",
     "danielrosehill/Subindices",
@@ -47,7 +44,6 @@
     "jku/tuf-demo",
     "oobabooga/screenshots",
     "OpenSC/Nightly",
-    "openwebdocs/mdn-bcd-results",
     "pot-app/.github",
     "puppetlabs/.github",
     "scalar/starter",

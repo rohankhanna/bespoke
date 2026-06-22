@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1075,
-    "concepts": 728,
-    "observations": 733,
-    "repos": 85,
-    "terms": 726
+    "components": 1108,
+    "concepts": 753,
+    "observations": 758,
+    "repos": 88,
+    "terms": 751
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "abpframework/abp",
     "adambard/learnxinyminutes-docs",
@@ -32,6 +32,7 @@
     "deepset-ai/haystack",
     "devicons/devicon",
     "dotnet/core",
+    "dotnet/csharplang",
     "dotnet/eShop",
     "dotnet/runtime",
     "elixir-lang/elixir",
@@ -39,6 +40,7 @@
     "facebookresearch/dinov3",
     "facebookresearch/sam2",
     "fastai/fastai",
+    "fastlane/fastlane",
     "fatih/vim-go",
     "ghostty-org/ghostty",
     "google-deepmind/deepmind-research",
@@ -46,6 +48,7 @@
     "google-gemini/gemini-fullstack-langgraph-quickstart",
     "google-research/google-research",
     "google/dopamine",
+    "google/fonts",
     "google/styleguide",
     "GoogleCloudPlatform/generative-ai",
     "GoogleContainerTools/distroless",

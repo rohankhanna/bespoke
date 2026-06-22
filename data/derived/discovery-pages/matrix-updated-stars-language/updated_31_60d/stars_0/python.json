@@ -3,7 +3,7 @@
     "components": 21,
     "concepts": 20,
     "observations": 20,
-    "repos": 16,
+    "repos": 12,
     "terms": 20
   },
   "facet_version": 1,
@@ -12,17 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "danielrosehill/Claude-Israel-Agent-Skills-Plugin",
-    "danielrosehill/Hypothesis-Council",
-    "danielrosehill/LLM-Council-Decide",
-    "danielrosehill/LLM-Council-Grounded",
-    "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
     "lace/lacecore",

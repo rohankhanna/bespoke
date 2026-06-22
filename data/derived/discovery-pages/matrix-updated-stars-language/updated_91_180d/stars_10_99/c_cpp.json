@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 192,
-    "observations": 193,
-    "repos": 69,
-    "terms": 192
+    "components": 173,
+    "concepts": 198,
+    "observations": 199,
+    "repos": 70,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "accabog/MedianFilter",
@@ -60,6 +60,7 @@
     "lemire/simple_fastfloat_benchmark",
     "mesh-iit/creo2urdf",
     "microsoft/react-native-winrt",
+    "midi2-dev/ni-midi2",
     "o3de/PhysX",
     "onicai/llama_cpp_canister",
     "osmcode/osm-gis-export",

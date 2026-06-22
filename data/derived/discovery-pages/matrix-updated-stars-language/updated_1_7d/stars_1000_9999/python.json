@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 146,
-    "observations": 148,
-    "repos": 17,
-    "terms": 145
+    "components": 80,
+    "concepts": 132,
+    "observations": 134,
+    "repos": 15,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "aigc-apps/VideoX-Fun",
     "arcee-ai/mergekit",
-    "aws-cloudformation/cfn-lint",
     "aws/serverless-application-model",
     "bitsandbytes-foundation/bitsandbytes",
     "clearml/clearml",
@@ -27,9 +25,9 @@
     "modelscope/FunClip",
     "modelscope/ms-agent",
     "NEKOparapa/AiNiee",
-    "ogx-ai/ogx",
     "opencv/opencv-python",
     "PaddlePaddle/PaddleClas",
-    "roboflow/maestro"
+    "roboflow/maestro",
+    "webpy/webpy"
   ]
 }

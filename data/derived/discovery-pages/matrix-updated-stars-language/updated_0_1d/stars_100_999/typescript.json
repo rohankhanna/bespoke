@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 2,
-    "terms": 27
+    "components": 302,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 7,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
-    "hexabot-ai/Hexabot"
+    "Comfy-Org/Comfy-Desktop",
+    "hexabot-ai/Hexabot",
+    "matter-js/matter.js",
+    "OpenHands/agent-canvas",
+    "safe-fndn/safe-singleton-factory",
+    "stx-labs/stacks.js"
   ]
 }

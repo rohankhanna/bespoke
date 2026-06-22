@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 160,
-    "observations": 162,
-    "repos": 33,
-    "terms": 157
+    "components": 144,
+    "concepts": 155,
+    "observations": 157,
+    "repos": 32,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "agentclientprotocol/java-sdk",
     "akarnokd/RxJavaFiberInterop",
@@ -36,7 +36,6 @@
     "filip26/ld-cli",
     "glaforge/adk-java-maven-template",
     "google/guava-beta-checker",
-    "ipld/java-cid",
     "iterate-ch/rococoa",
     "kirill-grouchnikov/ephemeral",
     "kurrent-io/KurrentDB-Client-Java",

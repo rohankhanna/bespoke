@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 0,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "geocompx/docker",
-    "pivotal/credhub-release"
+    "nvim-mini/mini.deps"
   ]
 }

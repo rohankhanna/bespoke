@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1341,
-    "concepts": 1229,
-    "observations": 1233,
-    "repos": 141,
-    "terms": 1256
+    "components": 1383,
+    "concepts": 1310,
+    "observations": 1314,
+    "repos": 145,
+    "terms": 1337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -27,6 +27,7 @@
     "alirezarezvani/claude-skills",
     "allenai/olmocr",
     "anthropics/claude-plugins-official",
+    "apache/airflow",
     "apache/tvm",
     "assafelovic/gpt-researcher",
     "astral-sh/ty",
@@ -40,6 +41,7 @@
     "Chia-Network/chia-blockchain",
     "codelucas/newspaper",
     "cookiecutter/cookiecutter",
+    "cookiecutter/cookiecutter-django",
     "cupy/cupy",
     "danielgatis/rembg",
     "dask/dask",
@@ -132,7 +134,7 @@
     "python/cpython",
     "python/mypy",
     "pytorch/pytorch",
-    "QwenLM/Qwen3-Coder",
+    "pytorch/vision",
     "ranger/ranger",
     "ray-project/ray",
     "resemble-ai/chatterbox",
@@ -146,8 +148,10 @@
     "stanfordnlp/dspy",
     "subframe7536/maple-font",
     "Textualize/rich",
+    "Textualize/textual",
     "thu-ml/tianshou",
     "titanwings/colleague-skill",
+    "ultralytics/ultralytics",
     "unslothai/unsloth",
     "vllm-project/vllm",
     "voxel51/fiftyone",

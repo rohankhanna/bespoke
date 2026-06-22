@@ -3,7 +3,7 @@
     "components": 1348,
     "concepts": 853,
     "observations": 857,
-    "repos": 140,
+    "repos": 141,
     "terms": 859
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "ahujasid/blender-mcp",
@@ -109,6 +109,7 @@
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "QwenLM/Qwen3",
+    "QwenLM/Qwen3-Coder",
     "QwenLM/Qwen3-TTS",
     "QwenLM/Qwen3-VL",
     "ramda/ramda",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 311,
-    "concepts": 280,
-    "observations": 280,
-    "repos": 61,
-    "terms": 280
+    "components": 337,
+    "concepts": 292,
+    "observations": 292,
+    "repos": 63,
+    "terms": 292
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
@@ -35,6 +35,7 @@
     "cpmech/tritet",
     "DavidKinder/Windows-Inform7",
     "DeepLink-org/DLSlime",
+    "dubhatervapoursynth/vapoursynth-scxvid",
     "embeddedartistry/libcpp",
     "f32c/tools",
     "fabmax/PhysX",
@@ -43,6 +44,7 @@
     "flatpak/xdg-dbus-proxy",
     "galaxyproject/KegAlign",
     "GaoYusong/llm.cpp",
+    "gazebosim/gz-fuel-tools",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
     "heal-research/pyoperon",
@@ -57,7 +59,6 @@
     "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
     "Mbed-TLS/TF-PSA-Crypto",
-    "midi2-dev/ni-midi2",
     "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
     "mybigday/llama.node",
@@ -65,6 +66,7 @@
     "nvictus/pybbi",
     "nx10/unigd",
     "openucx/xpmem",
+    "openvinotoolkit/openvino_tokenizers",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "ROCm/roctracer",

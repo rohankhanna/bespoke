@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 106,
+    "components": 76,
+    "concepts": 105,
     "observations": 106,
-    "repos": 11,
-    "terms": 106
+    "repos": 10,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "all-contributors/allcontributors.org",
     "hacl-star/hacl-star",
     "JuliaAI/MLJ.jl",
+    "lambdalisue/vim-fern",
     "lightning/bolts",
     "mono/SkiaSharp",
     "nvim-tree/nvim-web-devicons",
     "openai/openai-dotnet",
     "plotly/plotly.R",
     "radian-software/straight.el",
-    "seancorfield/honeysql",
     "tModLoader/tModLoader"
   ]
 }

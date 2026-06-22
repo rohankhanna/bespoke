@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 204,
-    "observations": 204,
-    "repos": 37,
-    "terms": 201
+    "components": 174,
+    "concepts": 200,
+    "observations": 200,
+    "repos": 36,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
@@ -35,7 +35,6 @@
     "heroku/heroku-buildpack-dotnet",
     "heroku/heroku-buildpack-gradle",
     "heroku/heroku-buildpack-jvm-common",
-    "iterate-ch/profiles",
     "leleliu008/ppkg",
     "microsoft/openjdk-docker",
     "PF4Public/gentoo-overlay",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 199,
-    "observations": 200,
-    "repos": 30,
-    "terms": 199
+    "components": 231,
+    "concepts": 235,
+    "observations": 237,
+    "repos": 33,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "apache/logging-log4j2",
+    "apache/lucene",
+    "apache/netbeans",
     "beehive-lab/TornadoVM",
     "bobbylight/RSyntaxTextArea",
     "brianfrankcooper/YCSB",
     "codelibs/fess",
+    "diffplug/spotless",
     "google/error-prone",
     "google/j2cl",
     "google/tsunami-security-scanner",

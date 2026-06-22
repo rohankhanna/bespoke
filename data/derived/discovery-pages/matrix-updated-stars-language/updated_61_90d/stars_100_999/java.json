@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 38,
-    "terms": 271
+    "components": 191,
+    "concepts": 293,
+    "observations": 293,
+    "repos": 37,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "apache/camel-examples",
@@ -20,12 +20,11 @@
     "apache/doris-flink-connector",
     "apache/doris-spark-connector",
     "Azure-Samples/agent-openai-java-banking-assistant",
+    "beehive-lab/GPULlama3.java",
     "carrot2/carrot2",
     "chromiumembedded/java-cef",
     "connectbot/sshlib",
     "Cosium/git-code-format-maven-plugin",
-    "eclipse-buildship/buildship",
-    "eclipse-lemminx/lemminx",
     "fabmax/physx-jni",
     "FasterXML/woodstox",
     "filip26/titanium-json-ld",

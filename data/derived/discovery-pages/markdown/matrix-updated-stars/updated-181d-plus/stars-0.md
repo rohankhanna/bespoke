@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars
 
-Generated at: `2026-06-22T06:20:48.042315+00:00`
+Generated at: `2026-06-22T11:59:31.612749+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 464
-- terms: 571
-- components: 1383
-- concepts: 571
-- observations: 573
+- repos: 465
+- terms: 572
+- components: 1386
+- concepts: 572
+- observations: 574
 
 ## Static behavior
 
@@ -155,6 +155,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [build2-packaging/nlohmann-json](https://github.com/build2-packaging/nlohmann-json) | 0 | 2025-07-01T17:26:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [flashinfer-ai/web-data](https://github.com/flashinfer-ai/web-data) | 0 | 2025-06-25T21:24:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [renll/flash-linear-attention](https://github.com/renll/flash-linear-attention) | 0 | 2025-06-25T08:18:12Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [frederik-uni/clipper2](https://github.com/frederik-uni/clipper2) | 0 | 2025-06-22T21:10:26Z | Unknown | CLI | 1 | 3 | 1 | 1 |
 | [tonysy/opencompass](https://github.com/tonysy/opencompass) | 0 | 2025-06-19T07:16:54Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Heap-Hop/if-watch](https://github.com/Heap-Hop/if-watch) | 0 | 2025-06-15T09:44:33Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [bronter/wgpu-native-zig-windows-test](https://github.com/bronter/wgpu-native-zig-windows-test) | 0 | 2025-06-11T04:23:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -624,6 +625,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [build2-packaging/nlohmann-json](https://github.com/build2-packaging/nlohmann-json) | 0 | 2025-07-01T17:26:50Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [flashinfer-ai/web-data](https://github.com/flashinfer-ai/web-data) | 0 | 2025-06-25T21:24:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [renll/flash-linear-attention](https://github.com/renll/flash-linear-attention) | 0 | 2025-06-25T08:18:12Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [frederik-uni/clipper2](https://github.com/frederik-uni/clipper2) | 0 | 2025-06-22T21:10:26Z | Unknown | CLI | 1 | 3 | 1 | 1 |
 | [tonysy/opencompass](https://github.com/tonysy/opencompass) | 0 | 2025-06-19T07:16:54Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Heap-Hop/if-watch](https://github.com/Heap-Hop/if-watch) | 0 | 2025-06-15T09:44:33Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [bronter/wgpu-native-zig-windows-test](https://github.com/bronter/wgpu-native-zig-windows-test) | 0 | 2025-06-11T04:23:48Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 406,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-22T06:20:48.042315+00:00",
+  "generated_at": "2026-06-22T11:59:31.612749+00:00",
   "repo_ids": [
-    "ipfs/ipfs-webui"
+    "endojs/endo",
+    "ipfs/ipfs-webui",
+    "module-federation/core",
+    "WiseLibs/better-sqlite3"
   ]
 }
