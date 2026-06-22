@@ -1991,6 +1991,30 @@
       "source_repo": "lifeiteng/OmniSenseVoice",
       "status": "candidate-context",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate-context",
+      "text": "A Rust machine learning framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/automation",
+      "status": "candidate-context",
+      "text": "OpenHands automation service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/automation",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -3007,6 +3031,18 @@
       "source_repo": "lifeiteng/OmniSenseVoice",
       "status": "candidate",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/automation",
+      "status": "candidate",
+      "text": "Run tests"
     }
   ],
   "candidate_related_terms": [
@@ -8120,11 +8156,77 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rust-ml/linfa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "OpenHands/automation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -307,6 +307,30 @@
       "source_repo": "danny-avila/rag_api",
       "status": "candidate-context",
       "text": "\ufeff# ID-based RAG FastAPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "<a href=\"https://cloud.lancedb.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "Resource, examples & tutorials for multimodal AI, RAG and agents using vector search and LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +483,18 @@
       "source_repo": "danny-avila/rag_api",
       "status": "candidate",
       "text": "\ufeff# ID-based RAG FastAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate",
+      "text": "<a href=\"https://cloud.lancedb.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [],
@@ -2620,11 +2656,47 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "lancedb/lancedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "lancedb/vectordb-recipes"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

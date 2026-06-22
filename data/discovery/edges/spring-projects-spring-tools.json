@@ -4,7 +4,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -18,7 +18,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-vscode-extension.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog-draft.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -116,7 +116,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-gh-release.yml",
       "source_repo": "spring-projects/spring-tools",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -197,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "spring-projects/spring-tools"
 }

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-22T11:26:18.630283+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "neosr is a framework for training real-world single-image super-resolution networks.",
+    "fork": true,
+    "full_name": "Corpsecreate/neosr",
+    "html_url": "https://github.com/Corpsecreate/neosr",
+    "language": "Python",
+    "pushed_at": "2024-08-10T03:42:16Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-08-10T03:42:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

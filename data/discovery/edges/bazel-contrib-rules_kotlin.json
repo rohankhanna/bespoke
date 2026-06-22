@@ -23,9 +23,23 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "bazel-contrib/rules_kotlin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -92,6 +106,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "bazel-contrib/rules_kotlin"
 }

@@ -160,7 +160,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:53:32.556504+00:00",
+  "fetched_at": "2026-06-22T10:47:41.187531+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -189,7 +189,7 @@
     "html_url": "https://github.com/lumen-oss/rocks-treesitter.nvim",
     "language": "Lua",
     "pushed_at": "2025-07-14T18:01:18Z",
-    "stargazers_count": 51,
+    "stargazers_count": 53,
     "topics": [
       "neovim",
       "rocks",
@@ -197,7 +197,7 @@
       "tree-sitter",
       "treesitter"
     ],
-    "updated_at": "2026-05-28T07:28:10Z"
+    "updated_at": "2026-06-10T16:17:47Z"
   },
   "repo_links": [
     {

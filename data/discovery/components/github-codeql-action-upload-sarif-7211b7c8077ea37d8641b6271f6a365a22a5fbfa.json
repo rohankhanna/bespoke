@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
   "first_seen_at": "2026-05-26T13:17:40.210760+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-distributions.yml",
       "source_repo": "ogx-ai/ogx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
     }
   ]
 }

@@ -1107,6 +1107,18 @@
       "source_repo": "version-fox/vfox",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate-context",
+      "text": "Recipes and resources for building, deploying, and fine-tuning generative AI with Fireworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1659,6 +1671,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "version-fox/vfox",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fw-ai/cookbook",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -4512,11 +4530,41 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "fw-ai/cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "vuejs/devtools-v6"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

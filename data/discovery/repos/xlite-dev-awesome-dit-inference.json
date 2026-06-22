@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "archerkattri/hicache-plus-plus",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "mit-han-lab/nunchaku",
       "target_type": "repository"
     },
@@ -93,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T01:06:11.514196+00:00",
+  "fetched_at": "2026-06-22T10:29:54.184581+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,11 +121,6 @@
     "updated_at": "2026-06-20T03:44:49Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "archerkattri/hicache-plus-plus",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "liewfeng/teacache",

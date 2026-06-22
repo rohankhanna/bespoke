@@ -281,6 +281,11 @@
       "source_file": ".github/workflows/copilot-setup-steps.yml"
     },
     {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger-js.yml"
+    },
+    {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/danger-js.yml"
@@ -684,6 +689,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/danger-js.yml",
       "source_repo": "storybookjs/storybook",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger-js.yml",
+      "source_repo": "storybookjs/storybook",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
@@ -877,7 +889,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:55:55.461318+00:00",
+  "fetched_at": "2026-06-22T10:49:59.585439+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -885,7 +897,7 @@
     },
     {
       "path": "package.json",
-      "size": 3456
+      "size": 3503
     },
     {
       "path": ".github/workflows/agent-scan.yml",
@@ -905,7 +917,7 @@
     },
     {
       "path": ".github/workflows/danger-js.yml",
-      "size": 4296
+      "size": 4318
     },
     {
       "path": ".github/workflows/duplicate-code-detector.lock.yml",
@@ -917,7 +929,7 @@
     },
     {
       "path": ".github/workflows/fork-checks.yml",
-      "size": 2085
+      "size": 2086
     }
   ],
   "related_repositories": [],
@@ -929,8 +941,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-05-30T07:11:28Z",
-    "stargazers_count": 90122,
+    "pushed_at": "2026-06-22T10:37:51Z",
+    "stargazers_count": 90400,
     "topics": [
       "angular",
       "components",
@@ -953,7 +965,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-30T11:40:12Z"
+    "updated_at": "2026-06-22T10:17:38Z"
   },
   "repo_links": [
     {

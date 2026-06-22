@@ -382,7 +382,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-30T12:55:53.008268+00:00",
+  "fetched_at": "2026-06-22T10:49:56.596401+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -415,9 +415,9 @@
     "html_url": "https://github.com/kwonoj/swc-plugin-coverage-instrument",
     "language": "Rust",
     "pushed_at": "2025-12-07T03:46:25Z",
-    "stargazers_count": 116,
+    "stargazers_count": 118,
     "topics": [],
-    "updated_at": "2026-05-12T23:39:22Z"
+    "updated_at": "2026-06-05T14:36:58Z"
   },
   "repo_links": [
     {

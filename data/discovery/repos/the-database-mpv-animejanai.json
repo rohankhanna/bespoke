@@ -71,28 +71,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "crendking/avisynth_filter",
+      "target": "the-database/mpv-upscale-2x_animejanai",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "styler00dollar/vsgan-tensorrt-docker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "hooke007/mpv_lazy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "infiziert90/getnative",
+      "target": "the-database/animejanaiconvertergui",
       "target_type": "repository"
     },
     {
@@ -257,7 +243,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:28:08.440115+00:00",
+  "fetched_at": "2026-06-22T11:26:21.337599+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -305,22 +291,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "crendking/avisynth_filter",
+      "full_name": "the-database/animejanaiconvertergui",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hooke007/mpv_lazy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "infiziert90/getnative",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "styler00dollar/vsgan-tensorrt-docker",
+      "full_name": "the-database/mpv-upscale-2x_animejanai",
       "source_file": "README.md"
     }
   ],

@@ -967,6 +967,18 @@
       "source_repo": "zyddnys/manga-image-translator",
       "status": "candidate-context",
       "text": "Last Updated: 2025/05/10"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/traiNNer-redux",
+      "status": "candidate-context",
+      "text": "Deep learning training framework for image super resolution and restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/traiNNer-redux",
+      "status": "candidate-context",
+      "text": "![redux3](https://github.com/user-attachments/assets/d107b2fc-6b68-4d3e-b08d-82c8231796cb)"
     }
   ],
   "candidate_glosses": [
@@ -1449,6 +1461,12 @@
       "source_repo": "zyddnys/manga-image-translator",
       "status": "candidate",
       "text": "Last Updated: 2025/05/10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/traiNNer-redux",
+      "status": "candidate",
+      "text": "![redux3](https://github.com/user-attachments/assets/d107b2fc-6b68-4d3e-b08d-82c8231796cb)"
     }
   ],
   "candidate_related_terms": [],
@@ -3328,11 +3346,35 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/traiNNer-redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "mgsalem/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

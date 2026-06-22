@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "xacml"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/casbin/jcasbin/workflows/build/badge.svg)](https://github.com/casbin/jcasbin/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/casbin/jcasbin/workflows/build/badge.svg)](https://github.com/casbin/jcasbin/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021837,
+      "status": "candidate",
+      "text": "xaml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021836,
+      "status": "candidate",
+      "text": "abac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021835,
+      "status": "candidate",
+      "text": "caml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021834,
+      "status": "candidate",
+      "text": "rbac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021833,
+      "status": "candidate",
+      "text": "saml"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "xacml",
+  "concept_id": "xacml",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-jcasbin"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xacml",
+      "sense_id": "xacml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

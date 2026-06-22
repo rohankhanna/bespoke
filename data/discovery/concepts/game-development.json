@@ -547,6 +547,30 @@
       "source_repo": "attackgoat/vk-graph",
       "status": "candidate-context",
       "text": "Vulkan Graph Driver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "Exposing unsafe FFI for Clipper2 library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "A polygon Clipping and Offsetting library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_glosses": [
@@ -825,6 +849,18 @@
       "source_repo": "attackgoat/vk-graph",
       "status": "candidate",
       "text": "Vulkan Graph Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_related_terms": [],
@@ -4000,11 +4036,59 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2c-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

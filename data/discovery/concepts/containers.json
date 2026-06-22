@@ -1222,6 +1222,18 @@
       "source_repo": "microsoft/aspire-samples",
       "status": "candidate-context",
       "text": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate-context",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
     }
   ],
   "candidate_glosses": [
@@ -1830,6 +1842,12 @@
       "source_repo": "microsoft/aspire-samples",
       "status": "candidate",
       "text": "[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
     }
   ],
   "candidate_related_terms": [
@@ -5305,11 +5323,59 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "microsoft/aspire-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "podman-container-tools/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stacks-archive/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire-samples"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

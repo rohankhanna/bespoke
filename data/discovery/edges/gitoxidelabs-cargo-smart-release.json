@@ -25,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "taiki-e/install-action@787505cde8a44ea468a00478fe52baf23b15bccd",
+      "target": "taiki-e/install-action@60ae4ce63c7aeb6e96d7f572c1ec7fafbb17ca80",
       "target_type": "component"
     },
     {
@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "target": "EmbarkStudios/cargo-deny-action@a531616d8ce3b9177443e48a1159bc945a099823",
       "target_type": "component"
     },
     {
@@ -74,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -95,14 +95,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -151,10 +151,10 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "GitoxideLabs/cargo-smart-release",
-      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "GitoxideLabs/cargo-smart-release"
 }

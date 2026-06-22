@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer",
+      "target": "Build VideoRenderer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "Aleksoid1978/VideoRenderer"
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Infiziert90/getnative",
+      "target": "irrational-encoding-wizardry/vapoursynth-descale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Infiziert90/getnative",
+      "target": "ffms/ffms2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Infiziert90/getnative",
+      "target": "vfr-maniac/l-smash-works",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "Infiziert90/getnative"
+}

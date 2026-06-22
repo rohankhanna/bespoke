@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cut spec release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "status": "candidate-context",
+      "text": "Specification and\u00a0documentation for the Model Context Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "status": "candidate-context",
+      "text": "Cut spec release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "status": "candidate",
+      "text": "Cut spec release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23246,
+      "status": "candidate",
+      "text": "size"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23246,
+      "status": "candidate",
+      "text": "slim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22705,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22705,
+      "status": "candidate",
+      "text": "lease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22705,
+      "status": "candidate",
+      "text": "remit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cut spec release",
+  "concept_id": "cut-spec-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cut spec release",
+      "sense_id": "cut-spec-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

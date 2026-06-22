@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022311,
+      "status": "candidate",
+      "text": "aforethought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022311,
+      "status": "candidate",
+      "text": "planned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022311,
+      "status": "candidate",
+      "text": "premeditated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022310,
+      "status": "candidate",
+      "text": "conspiring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006898,
+      "status": "candidate",
+      "text": "masterminding"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plotting",
+      "sense_id": "plotting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plotting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plotting",
+  "observation_id": "118238c280cc5958",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "plotting",
+  "source_context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+  "source_file": null,
+  "source_repo": "plotters-rs/plotters",
+  "source_repo_description": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+}

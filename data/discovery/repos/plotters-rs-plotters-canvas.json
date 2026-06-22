@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-canvas",
+      "target": "38/plotters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "plotters-rs/plotters-canvas",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "plotters-rs/plotters-canvas",
+      "target": "WASM Target",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:55.978778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1030
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 812
+    },
+    {
+      "path": ".github/workflows/wasm.yml",
+      "size": 315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plotters HTML5 Canvas-WASM Backend",
+    "fork": false,
+    "full_name": "plotters-rs/plotters-canvas",
+    "html_url": "https://github.com/plotters-rs/plotters-canvas",
+    "language": "Rust",
+    "pushed_at": "2025-04-12T15:31:15Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-03-05T19:44:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "38/plotters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "WASM Target",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "term": "WASM Target"
+    }
+  ]
+}

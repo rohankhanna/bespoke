@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "target": "archerkattri/hermit-trellis2-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "target": "diffusion-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "target": "dynamic-mode-decomposition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "target": "feature-caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T10:29:47.029530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24768
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Drop-in TaylorSeer/HiCache basis upgrade \u2014 training-free diffusion acceleration via a Dynamic Mode Decomposition (Prony) exponential feature-forecast basis. Not the SGLang KV-cache HiCache.",
+    "fork": false,
+    "full_name": "Archerkattri/hicache-plus-plus",
+    "html_url": "https://github.com/Archerkattri/hicache-plus-plus",
+    "language": "Python",
+    "pushed_at": "2026-06-15T13:19:03Z",
+    "stargazers_count": 8,
+    "topics": [
+      "diffusion-acceleration",
+      "dit",
+      "dynamic-mode-decomposition",
+      "feature-caching",
+      "flux",
+      "training-free"
+    ],
+    "updated_at": "2026-06-16T09:18:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archerkattri/hermit-trellis2-plus-plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-acceleration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-mode-decomposition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-caching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    }
+  ]
+}

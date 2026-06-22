@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/windows-release.yml",
       "source_repo": "PataphysicalSociety/soupault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/pywinpty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/winpty-rs"
     }
   ],
   "term": "Windows Release"

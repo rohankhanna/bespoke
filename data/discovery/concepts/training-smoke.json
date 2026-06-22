@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Training Smoke"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate-context",
+      "text": "Recipes and resources for building, deploying, and fine-tuning generative AI with Fireworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate-context",
+      "text": "Training Smoke"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate",
+      "text": "Training Smoke"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "drag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11521,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10594,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10594,
+      "status": "candidate",
+      "text": "practicing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Training Smoke",
+  "concept_id": "training-smoke",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/training-smoke.yml",
+      "source_repo": "fw-ai/cookbook"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Training Smoke",
+      "sense_id": "training-smoke#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

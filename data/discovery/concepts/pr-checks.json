@@ -242,6 +242,18 @@
       "source_repo": "mikepenz/MaterialDrawer",
       "status": "candidate-context",
       "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
@@ -362,6 +374,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
       "status": "candidate",
       "text": "PR Checks"
     }
@@ -977,11 +995,23 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": ".github/workflows/pr_checks.yml",
       "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "lancedb/lancedb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

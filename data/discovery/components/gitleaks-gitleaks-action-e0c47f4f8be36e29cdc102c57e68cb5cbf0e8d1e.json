@@ -1,0 +1,17 @@
+{
+  "component": "gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e",
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "gitleaks/gitleaks-action"
+    }
+  ]
+}

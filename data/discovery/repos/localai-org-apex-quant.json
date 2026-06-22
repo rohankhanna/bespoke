@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/apex-quant",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/apex-quant",
+      "target": "mudler/apex-quant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localai-org/apex-quant",
+      "target": "thetom/llama-cpp-turboquant",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-22T10:27:15.859847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Adaptive Precision for EXpert Models: MoE-aware mixed-precision quantization",
+    "fork": false,
+    "full_name": "localai-org/apex-quant",
+    "html_url": "https://github.com/localai-org/apex-quant",
+    "language": "Shell",
+    "pushed_at": "2026-05-29T14:11:44Z",
+    "stargazers_count": 359,
+    "topics": [],
+    "updated_at": "2026-06-22T00:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mudler/apex-quant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thetom/llama-cpp-turboquant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -122,7 +122,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T01:13:18.938531+00:00",
+  "fetched_at": "2026-06-22T10:35:52.437684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -155,12 +155,12 @@
     "html_url": "https://github.com/grpc/grpc-dart",
     "language": "Dart",
     "pushed_at": "2026-02-01T04:22:30Z",
-    "stargazers_count": 889,
+    "stargazers_count": 890,
     "topics": [
       "dart",
       "grpc"
     ],
-    "updated_at": "2026-06-03T17:57:18Z"
+    "updated_at": "2026-06-22T07:31:24Z"
   },
   "repo_links": [
     {

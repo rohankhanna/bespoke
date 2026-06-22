@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2767,6 +2767,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "MetaCubeX/Yacd-meta"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codex-fix-ci.yml",
+      "source_repo": "lancedb/lancedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
     }
   ]
 }

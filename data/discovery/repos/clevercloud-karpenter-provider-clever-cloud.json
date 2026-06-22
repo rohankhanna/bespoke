@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@82606bf257cbaff209d206a39f5134f0cfbfd2ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml"
+    },
+    {
+      "component": "webiny/action-conventional-commits@7f91b1595ca1951cdb671ddc9f07a49081ec5b69",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml"
+    },
+    {
+      "component": "13rac1/block-fixup-merge-action@bd5504fb9ca0253e109d98eb86b7debc01970cdc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "golangci/golangci-lint-action@82606bf257cbaff209d206a39f5134f0cfbfd2ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "CI-LINT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "CI-TEST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "github/codeql-action/init@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "github/codeql-action/autobuild@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "github/codeql-action/analyze@8aad20d150bbac5944a9f9d289da16a4b0d87c1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "webiny/action-conventional-commits@7f91b1595ca1951cdb671ddc9f07a49081ec5b69",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "13rac1/block-fixup-merge-action@bd5504fb9ca0253e109d98eb86b7debc01970cdc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "GIT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "target": "StaleBot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T10:24:23.331867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13214
+    },
+    {
+      "path": "Dockerfile",
+      "size": 385
+    },
+    {
+      "path": "go.mod",
+      "size": 3844
+    },
+    {
+      "path": ".github/workflows/ci-lint.yaml",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/ci-test.yaml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yaml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/git.yaml",
+      "size": 950
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1893
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 1572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clever Cloud Karpenter Provider ",
+    "fork": false,
+    "full_name": "CleverCloud/karpenter-provider-clever-cloud",
+    "html_url": "https://github.com/CleverCloud/karpenter-provider-clever-cloud",
+    "language": "Go",
+    "pushed_at": "2026-06-18T15:55:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-06-18T12:30:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI-LINT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yaml",
+      "term": "CI-LINT"
+    },
+    {
+      "context_snippet": "CI-TEST",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "term": "CI-TEST"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "GIT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git.yaml",
+      "term": "GIT"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "StaleBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "StaleBot"
+    }
+  ]
+}

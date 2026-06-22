@@ -613,6 +613,18 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate-context",
       "text": "The agent engineering platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate-context",
+      "text": "Recipes and resources for building, deploying, and fine-tuning generative AI with Fireworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate-context",
+      "text": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai)."
     }
   ],
   "candidate_glosses": [
@@ -915,6 +927,12 @@
       "source_repo": "AIoT-MLSys-Lab/Efficient-LLMs-Survey",
       "status": "candidate",
       "text": "> **[Efficient Large Language Models: A Survey](http://arxiv.org/abs/2312.03863)**[ [arXiv]](http://arxiv.org/abs/2312.03863) (Version 1: 12/06/2023; Version 2: 12/23/2023; Version 3: 01/31/2024; Version 4: 05/23/2024, camera ready version of Transactions on Machine Learning Res\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fw-ai/cookbook",
+      "status": "candidate",
+      "text": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai)."
     }
   ],
   "candidate_related_terms": [],
@@ -3532,11 +3550,47 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

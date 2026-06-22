@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/astro-public-demo",
+      "target": "concurrently",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-06-22T10:28:53.931591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9995
+    },
+    {
+      "path": "package.json",
+      "size": 1482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "apostrophecms/astro-public-demo",
+    "html_url": "https://github.com/apostrophecms/astro-public-demo",
+    "language": "JavaScript",
+    "pushed_at": "2026-06-10T10:07:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-10T10:07:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

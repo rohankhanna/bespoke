@@ -271,6 +271,18 @@
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "status": "candidate-context",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "status": "candidate-context",
+      "text": "Drop-in TaylorSeer/HiCache basis upgrade \u2014 training-free diffusion acceleration via a Dynamic Mode Decomposition (Prony) exponential feature-forecast basis. Not the SGLang KV-cache HiCache."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "status": "candidate",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1995,11 +2013,35 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/Awesome-DiT-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-DiT-Inference"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

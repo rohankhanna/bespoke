@@ -19,6 +19,18 @@
       "source_repo": "obsproject/obs-studio",
       "status": "candidate-context",
       "text": "OBS Studio <https://obsproject.com>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrendKing/avisynth_filter",
+      "status": "candidate-context",
+      "text": "DirectShow filters that put AviSynth and VapourSynth into video playing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrendKing/avisynth_filter",
+      "status": "candidate-context",
+      "text": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "obsproject/obs-studio",
       "status": "candidate",
       "text": "OBS Studio <https://obsproject.com>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrendKing/avisynth_filter",
+      "status": "candidate",
+      "text": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-17T07:06:43.204320+00:00",
       "source_file": null,
       "source_repo": "obsproject/obs-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "CrendKing/avisynth_filter"
     }
   ],
   "first_seen_at": "2026-05-17T07:06:43.204320+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-17T07:06:43.204320+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

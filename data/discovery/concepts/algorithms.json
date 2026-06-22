@@ -187,6 +187,42 @@
       "source_repo": "NVIDIA/cub",
       "status": "candidate-context",
       "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "Exposing unsafe FFI for Clipper2 library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate-context",
+      "text": "A Rust machine learning framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "A polygon Clipping and Offsetting library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "NVIDIA/cub",
       "status": "candidate",
       "text": ":warning: **The CUB repository has been archived and is now part of the unified [nvidia/cccl repository](https://github.com/nvidia/cccl). See the [announcement here](https://github.com/NVIDIA/cccl/discussions/520) for more information. Please visit the new repository for the lat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate",
+      "text": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +466,29 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/cub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2c-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "rust-ml/linfa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

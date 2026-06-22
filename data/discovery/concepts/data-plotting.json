@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "data-plotting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "data-plotting",
+  "concept_id": "data-plotting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-plotting",
+      "sense_id": "data-plotting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

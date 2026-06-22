@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Release From Version PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/Comfy-Desktop",
+      "status": "candidate-context",
+      "text": "Release From Version PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/Comfy-Desktop",
+      "status": "candidate",
+      "text": "Release From Version PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34062,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34062,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31999,
+      "status": "candidate",
+      "text": "reprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31680,
+      "status": "candidate",
+      "text": "option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26862,
+      "status": "candidate",
+      "text": "beta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release From Version PR",
+  "concept_id": "release-from-version-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/release-from-pr-label.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release From Version PR",
+      "sense_id": "release-from-version-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

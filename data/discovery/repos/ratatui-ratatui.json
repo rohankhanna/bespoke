@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/check-pr.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-semver.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/check-semver.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -46,32 +46,32 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "component": "tombi-toml/setup-tombi@af12994358821d8b3dc91a00288a9360606e545d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
+      "component": "crate-ci/typos@37bb98842b0d8c4ffebdb75301a13db0267cef89",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "component": "EmbarkStudios/cargo-deny-action@bb137d7af7e4fb67e5f82a49c4fce4fad40782fe",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -81,7 +81,27 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@0631aa6515c7d545823c67cfae7ef4fc7f490154",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -96,42 +116,17 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "component": "DavidAnson/markdownlint-cli2-action@ded1f9488f68a970bc66ea5619e13e9b52e601cd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -141,7 +136,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "component": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -151,7 +146,32 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -166,7 +186,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -176,12 +196,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "component": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -196,7 +216,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "component": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -206,7 +226,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -216,7 +236,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "component": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -226,7 +246,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -236,7 +256,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "component": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -246,7 +266,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -261,7 +281,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml"
     },
@@ -276,12 +296,12 @@
       "source_file": ".github/workflows/release-plz.yml"
     },
     {
-      "component": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
+      "component": "release-plz/action@e8792575c7f2366cf6ff3ccc33ead9ace5b691c7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml"
     },
@@ -291,17 +311,17 @@
       "source_file": ".github/workflows/release-plz.yml"
     },
     {
-      "component": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
+      "component": "release-plz/action@e8792575c7f2366cf6ff3ccc33ead9ace5b691c7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml"
     },
     {
-      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "component": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml"
     }
@@ -339,7 +359,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-semver.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -360,7 +380,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -381,21 +401,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
+      "target": "tombi-toml/setup-tombi@af12994358821d8b3dc91a00288a9360606e545d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "crate-ci/typos@7c572958218557a3272c2d6719629443b5cc26fd",
+      "target": "crate-ci/typos@37bb98842b0d8c4ffebdb75301a13db0267cef89",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "target": "EmbarkStudios/cargo-deny-action@bb137d7af7e4fb67e5f82a49c4fce4fad40782fe",
       "target_type": "component"
     },
     {
@@ -409,14 +429,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "DavidAnson/markdownlint-cli2-action@ce4853d43830c74c1753b39f3cf40f71c2031eb9",
+      "target": "taiki-e/install-action@0631aa6515c7d545823c67cfae7ef4fc7f490154",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target": "DavidAnson/markdownlint-cli2-action@ded1f9488f68a970bc66ea5619e13e9b52e601cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "taiki-e/install-action@7a79fe8c3a13344501c80d99cae481c1c9085912",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui",
+      "target": "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f",
       "target_type": "component"
     },
     {
@@ -437,7 +471,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -458,7 +492,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "release-plz/action@1528104d2ca23787631a1c1f022abb64b34c1e11",
+      "target": "release-plz/action@e8792575c7f2366cf6ff3ccc33ead9ace5b691c7",
       "target_type": "component"
     },
     {
@@ -472,14 +506,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "ratatui/ratatui",
-      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "target_type": "component"
     },
     {
@@ -518,7 +552,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T15:02:59.037339+00:00",
+  "fetched_at": "2026-06-22T08:35:51.062074+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -526,7 +560,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 3962
+      "size": 3993
     },
     {
       "path": ".github/workflows/check-pr.yml",
@@ -538,7 +572,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 11417
+      "size": 12978
     },
     {
       "path": ".github/workflows/release-plz.yml",
@@ -558,8 +592,8 @@
     "full_name": "ratatui/ratatui",
     "html_url": "https://github.com/ratatui/ratatui",
     "language": "Rust",
-    "pushed_at": "2026-04-27T21:29:30Z",
-    "stargazers_count": 20141,
+    "pushed_at": "2026-06-20T13:35:16Z",
+    "stargazers_count": 21209,
     "topics": [
       "cli",
       "ratatui",
@@ -569,7 +603,7 @@
       "tui",
       "widgets"
     ],
-    "updated_at": "2026-05-01T12:52:49Z"
+    "updated_at": "2026-06-22T08:27:14Z"
   },
   "repo_links": [],
   "terms": [

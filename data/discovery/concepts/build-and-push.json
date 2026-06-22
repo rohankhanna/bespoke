@@ -26,6 +26,18 @@
       "source_repo": "korewaChino/koboldCppDocker",
       "status": "candidate-context",
       "text": "Build and Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "status": "candidate-context",
+      "text": "Container for using any-guardrails from otari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "status": "candidate-context",
+      "text": "build-and-push"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +52,12 @@
       "source_repo": "korewaChino/koboldCppDocker",
       "status": "candidate",
       "text": "Build and Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "status": "candidate",
+      "text": "build-and-push"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "korewaChino/koboldCppDocker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

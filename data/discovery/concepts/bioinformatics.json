@@ -655,6 +655,12 @@
       "source_repo": "aristoteleo/PantheonOS",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate-context",
+      "text": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -981,6 +987,12 @@
       "source_repo": "aristoteleo/PantheonOS",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-bio/USearchMolecules",
+      "status": "candidate",
+      "text": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -2848,11 +2860,35 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "aristoteleo/PantheonOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

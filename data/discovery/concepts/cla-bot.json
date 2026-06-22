@@ -50,6 +50,18 @@
       "source_repo": "mlcommons/submissions_algorithms",
       "status": "candidate-context",
       "text": "\"cla-bot\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlcommons/logging",
+      "status": "candidate-context",
+      "text": "MLPerf\u2122 logging library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/logging",
+      "status": "candidate-context",
+      "text": "\"cla-bot\""
     }
   ],
   "candidate_glosses": [
@@ -74,6 +86,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mlcommons/submissions_algorithms",
+      "status": "candidate",
+      "text": "\"cla-bot\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/logging",
       "status": "candidate",
       "text": "\"cla-bot\""
     }
@@ -107,11 +125,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "mlcommons/submissions_algorithms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/logging"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

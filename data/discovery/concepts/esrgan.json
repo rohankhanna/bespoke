@@ -127,6 +127,18 @@
       "source_repo": "the-database/mpv-AnimeJaNai",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "GUI for upscaling ONNX models with NVIDIA TensorRT and Vapoursynth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +199,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "the-database/mpv-AnimeJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
       "status": "candidate",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
@@ -712,11 +730,29 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

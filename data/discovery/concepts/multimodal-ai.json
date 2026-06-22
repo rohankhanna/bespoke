@@ -31,6 +31,18 @@
       "source_repo": "danielrosehill/Audio-Multimodal-AI-Resources",
       "status": "candidate-context",
       "text": "Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "Resource, examples & tutorials for multimodal AI, RAG and agents using vector search and LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "danielrosehill/Audio-Multimodal-AI-Resources",
       "status": "candidate",
       "text": "Collection of open-source multimodal models with audio support, focusing on models that can process audio tokens and understand them in conjunction with text prompts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-11T13:15:38.721392+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Audio-Multimodal-AI-Resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "lancedb/vectordb-recipes"
     }
   ],
   "first_seen_at": "2026-05-07T18:41:02.254946+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-11T13:15:38.721392+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

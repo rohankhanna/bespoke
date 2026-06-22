@@ -526,7 +526,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:53:21.434442+00:00",
+  "fetched_at": "2026-06-22T11:43:37.594026+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -579,9 +579,9 @@
     "html_url": "https://github.com/safetensors/safetensors",
     "language": "Rust",
     "pushed_at": "2026-06-19T23:41:12Z",
-    "stargazers_count": 3784,
+    "stargazers_count": 3783,
     "topics": [],
-    "updated_at": "2026-06-21T09:58:28Z"
+    "updated_at": "2026-06-22T03:27:35Z"
   },
   "repo_links": [
     {

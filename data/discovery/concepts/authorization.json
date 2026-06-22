@@ -229,6 +229,18 @@
       "source_repo": "apache/casbin",
       "status": "candidate-context",
       "text": "Apache Casbin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/casbin/jcasbin/workflows/build/badge.svg)](https://github.com/casbin/jcasbin/actions)"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +357,12 @@
       "source_repo": "apache/casbin",
       "status": "candidate",
       "text": "Apache Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/casbin/jcasbin/workflows/build/badge.svg)](https://github.com/casbin/jcasbin/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -3195,11 +3213,53 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-jcasbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

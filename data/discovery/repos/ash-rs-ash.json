@@ -106,7 +106,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T01:17:28.120395+00:00",
+  "fetched_at": "2026-06-22T10:38:10.332959+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -130,7 +130,7 @@
     "full_name": "ash-rs/ash",
     "html_url": "https://github.com/ash-rs/ash",
     "language": "Rust",
-    "pushed_at": "2026-06-05T09:03:31Z",
+    "pushed_at": "2026-06-22T04:33:05Z",
     "stargazers_count": 2286,
     "topics": [
       "gamedev",

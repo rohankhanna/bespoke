@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stalebot.yaml",
       "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud"
     }
   ],
   "term": "stalebot"

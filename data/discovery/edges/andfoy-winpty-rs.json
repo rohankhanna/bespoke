@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "Windows release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "codecov/codecov-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_stable.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "Library tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable_arm.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable_arm.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_stable_arm.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_stable_arm.yml",
+      "source_repo": "andfoy/winpty-rs",
+      "target": "ARM tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "andfoy/winpty-rs"
+}

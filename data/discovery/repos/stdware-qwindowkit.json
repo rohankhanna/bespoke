@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdware/qwindowkit",
+      "target": "stdware/qmsetup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit",
+      "target": "frameless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit",
+      "target": "frameless-helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit",
+      "target": "frameless-window",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit",
+      "target": "win32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:15.060174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross-platform frameless window framework for Qt. Support Windows, macOS, Linux.",
+    "fork": false,
+    "full_name": "stdware/qwindowkit",
+    "html_url": "https://github.com/stdware/qwindowkit",
+    "language": "C++",
+    "pushed_at": "2026-05-30T05:31:34Z",
+    "stargazers_count": 1098,
+    "topics": [
+      "cpp",
+      "cross-platform",
+      "dwm",
+      "frameless",
+      "frameless-helper",
+      "frameless-window",
+      "mac",
+      "qt",
+      "win32",
+      "windows"
+    ],
+    "updated_at": "2026-06-21T18:20:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stdware/qmsetup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cross-platform window customization framework for Qt Widgets and Qt Quick.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "Cross-platform window customization framework for Qt Widgets and Qt Quick.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameless"
+    },
+    {
+      "context_snippet": "Cross-platform window customization framework for Qt Widgets and Qt Quick.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameless-helper"
+    },
+    {
+      "context_snippet": "Cross-platform window customization framework for Qt Widgets and Qt Quick.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameless-window"
+    },
+    {
+      "context_snippet": "Cross-platform window customization framework for Qt Widgets and Qt Quick.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "win32"
+    },
+    {
+      "context_snippet": "Cross-platform window customization framework for Qt Widgets and Qt Quick.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate-context",
       "text": "| CI | Stable | Develop |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "Polygon Clipping, Offsetting & Triangulation in  C++, C# and Delphi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate",
       "text": "| CI | Stable | Develop |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate",
+      "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "zlib-ng/zlib-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "AngusJohnson/Clipper2"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

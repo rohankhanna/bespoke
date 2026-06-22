@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitleaks/gitleaks-action",
-      "target": "zricethezav/gitleaks-action",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitleaks/gitleaks-action",
-      "target": "zricethezav/gitleaks",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "gitleaks/gitleaks-action",
@@ -67,14 +53,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/example.yml",
       "source_repo": "gitleaks/gitleaks-action",
-      "target": "actions/checkout@v3",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/example.yml",
       "source_repo": "gitleaks/gitleaks-action",
-      "target": "gitleaks/gitleaks-action@v2",
+      "target": "gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e",
       "target_type": "component"
     },
     {
@@ -88,7 +74,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gitleaks-action-HEAD.yml",
       "source_repo": "gitleaks/gitleaks-action",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -96,6 +82,27 @@
       "source_file": ".github/workflows/gitleaks-action-HEAD.yml",
       "source_repo": "gitleaks/gitleaks-action",
       "target": "gitleaks-action-HEAD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-dist.yml",
+      "source_repo": "gitleaks/gitleaks-action",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-dist.yml",
+      "source_repo": "gitleaks/gitleaks-action",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-dist.yml",
+      "source_repo": "gitleaks/gitleaks-action",
+      "target": "Verify dist",
       "target_type": "term"
     },
     {
@@ -176,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "gitleaks/gitleaks-action"
 }

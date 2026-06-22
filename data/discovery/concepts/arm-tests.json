@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ARM tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andfoy/winpty-rs",
+      "status": "candidate-context",
+      "text": "Create and spawn processes inside a pseudoterminal in Windows from Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/winpty-rs",
+      "status": "candidate-context",
+      "text": "ARM tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/winpty-rs",
+      "status": "candidate",
+      "text": "ARM tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10749,
+      "status": "candidate",
+      "text": "active placebo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10749,
+      "status": "candidate",
+      "text": "blood test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10749,
+      "status": "candidate",
+      "text": "controls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10749,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10749,
+      "status": "candidate",
+      "text": "experience"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ARM tests",
+  "concept_id": "arm-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/windows_stable_arm.yml",
+      "source_repo": "andfoy/winpty-rs"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM tests",
+      "sense_id": "arm-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

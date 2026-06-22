@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Cargo publish"
+    "Cargo publish",
+    "Cargo Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "mrcjkb/vimcats",
       "status": "candidate-context",
       "text": "Cargo publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "Cargo Publish"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "mrcjkb/vimcats",
       "status": "candidate",
       "text": "Cargo publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate",
+      "text": "Cargo Publish"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/cargo-publish.yml",
+      "source_repo": "lancedb/lancedb"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -55,6 +55,18 @@
       "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
       "status": "candidate-context",
       "text": "A web interface for Stable Diffusion, implemented using Gradio library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "GUI for upscaling ONNX models with NVIDIA TensorRT and Vapoursynth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu",
       "status": "candidate",
       "text": "A web interface for Stable Diffusion, implemented using Gradio library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-15T12:50:28.227991+00:00",
       "source_file": null,
       "source_repo": "lshqqytiger/stable-diffusion-webui-amdgpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-15T12:50:28.227991+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

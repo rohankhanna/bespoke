@@ -185,13 +185,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "nvidia-nemo/automodel",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build_container.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
@@ -423,7 +416,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:59:45.693221+00:00",
+  "fetched_at": "2026-06-22T11:47:34.704081+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -476,7 +469,7 @@
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
     "pushed_at": "2026-06-21T16:35:39Z",
-    "stargazers_count": 17440,
+    "stargazers_count": 17446,
     "topics": [
       "asr",
       "deeplearning",
@@ -489,18 +482,13 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-06-21T16:51:02Z"
+    "updated_at": "2026-06-22T09:43:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "nvidia/nemo",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvidia-nemo/automodel",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

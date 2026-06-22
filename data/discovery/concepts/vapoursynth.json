@@ -67,6 +67,42 @@
       "source_repo": "the-database/mpv-AnimeJaNai",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "GUI for upscaling ONNX models with NVIDIA TensorRT and Vapoursynth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrendKing/avisynth_filter",
+      "status": "candidate-context",
+      "text": "DirectShow filters that put AviSynth and VapourSynth into video playing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrendKing/avisynth_filter",
+      "status": "candidate-context",
+      "text": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "status": "candidate-context",
+      "text": "Works based on L-SMASH project; This repo focuses on the common portion and the VapourSynth plugin. AviSynth users please use https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works. ffmpeg 5.0+ please use ffmpeg-4.5 branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "the-database/mpv-AnimeJaNai",
       "status": "candidate",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrendKing/avisynth_filter",
+      "status": "candidate",
+      "text": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,35 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "CrendKing/avisynth_filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "AkarinVS/L-SMASH-Works"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

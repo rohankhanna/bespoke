@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "kantv-ai/kantv",
-      "target": "zhouwg/ggml-hexagon",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "kantv-ai/kantv",
@@ -92,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-21T19:22:13.525033+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "kantv-ai/kantv"
 }

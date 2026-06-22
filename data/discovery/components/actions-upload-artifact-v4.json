@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -13272,6 +13272,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/all-plugins-smoke.yml",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "source_repo": "andfoy/pywinpty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-bootstrap-python.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FFMS/ffms2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagCX"
     }
   ]
 }

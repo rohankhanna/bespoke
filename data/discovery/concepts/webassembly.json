@@ -667,6 +667,18 @@
       "source_repo": "kylebarron/arrow-wasm",
       "status": "candidate-context",
       "text": "Building block library for using Apache Arrow in Rust WebAssembly modules."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
     }
   ],
   "candidate_glosses": [
@@ -999,6 +1011,12 @@
       "source_repo": "kylebarron/arrow-wasm",
       "status": "candidate",
       "text": "Building block library for using Apache Arrow in Rust WebAssembly modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1750,11 +1768,23 @@
       "observed_at": "2026-05-30T12:38:40.310820+00:00",
       "source_file": null,
       "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

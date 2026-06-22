@@ -37,6 +37,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml",
       "source_repo": "Comfy-Org/comfy-cli",
       "target": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
@@ -176,27 +197,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-windows.yml",
-      "source_repo": "Comfy-Org/comfy-cli",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-windows.yml",
-      "source_repo": "Comfy-Org/comfy-cli",
-      "target": "actions/setup-python@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-windows.yml",
-      "source_repo": "Comfy-Org/comfy-cli",
-      "target": "Windows Specific Commands",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli",
@@ -218,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-22T00:52:01.139311+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "Comfy-Org/comfy-cli"
 }

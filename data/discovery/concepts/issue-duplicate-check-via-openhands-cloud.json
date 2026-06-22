@@ -19,12 +19,30 @@
       "source_repo": "OpenHands/OpenHands",
       "status": "candidate-context",
       "text": "Issue Duplicate Check via OpenHands Cloud"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/agent-canvas",
+      "status": "candidate-context",
+      "text": "OpenHands Agent Canvas is a self-hostable AI coding platform. Start locally, connect your tools, and automate workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/agent-canvas",
+      "status": "candidate-context",
+      "text": "Issue Duplicate Check via OpenHands Cloud"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenHands/OpenHands",
+      "status": "candidate",
+      "text": "Issue Duplicate Check via OpenHands Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/agent-canvas",
       "status": "candidate",
       "text": "Issue Duplicate Check via OpenHands Cloud"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-22T13:06:06.618387+00:00",
       "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_repo": "OpenHands/agent-canvas"
     }
   ],
   "first_seen_at": "2026-05-17T12:32:36.812189+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "3343/edge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-ml/linfa"
     }
   ],
   "term": "scientific-computing"

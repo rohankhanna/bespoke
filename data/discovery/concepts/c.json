@@ -67,6 +67,18 @@
       "source_repo": "davisking/dlib",
       "status": "candidate-context",
       "text": "C++"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "Polygon Clipping, Offsetting & Triangulation in  C++, C# and Delphi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "C++"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "davisking/dlib",
+      "status": "candidate",
+      "text": "C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
       "status": "candidate",
       "text": "C++"
     }
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/build_cpp.yml",
       "source_repo": "davisking/dlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/actions_cpp.yml",
+      "source_repo": "AngusJohnson/Clipper2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

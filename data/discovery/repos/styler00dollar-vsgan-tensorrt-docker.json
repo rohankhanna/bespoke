@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "akarinvs/l-smash-works",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "dubhater/vapoursynth-awarpsharp2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "dubhater/vapoursynth-wwxd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "dubhater/vapoursynth-scxvid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-22T08:35:18.089724+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 48637
+    },
+    {
+      "path": "Dockerfile",
+      "size": 37340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using VapourSynth with super resolution and interpolation models and speeding them up with TensorRT.",
+    "fork": false,
+    "full_name": "styler00dollar/VSGAN-tensorrt-docker",
+    "html_url": "https://github.com/styler00dollar/VSGAN-tensorrt-docker",
+    "language": "Python",
+    "pushed_at": "2026-05-08T01:10:09Z",
+    "stargazers_count": 357,
+    "topics": [],
+    "updated_at": "2026-06-18T15:54:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akarinvs/l-smash-works",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dubhater/vapoursynth-awarpsharp2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dubhater/vapoursynth-scxvid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dubhater/vapoursynth-wwxd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

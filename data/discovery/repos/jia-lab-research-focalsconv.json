@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:46:25.396008+00:00",
+  "fetched_at": "2026-06-22T11:39:10.697486+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,7 +75,7 @@
     "html_url": "https://github.com/JIA-Lab-research/FocalsConv",
     "language": "Python",
     "pushed_at": "2023-06-01T03:23:11Z",
-    "stargazers_count": 392,
+    "stargazers_count": 393,
     "topics": [
       "3d-object-detection",
       "autonomous-driving",
@@ -83,7 +83,7 @@
       "nuscenes",
       "sparse-convolution"
     ],
-    "updated_at": "2026-06-21T00:35:43Z"
+    "updated_at": "2026-06-22T06:29:34Z"
   },
   "repo_links": [
     {

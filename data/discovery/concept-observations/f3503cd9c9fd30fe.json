@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An FFmpeg based source library and Avisynth/VapourSynth plugin for easy frame accurate access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Make Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Make Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30950,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30950,
+      "status": "candidate",
+      "text": "levy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30550,
+      "status": "candidate",
+      "text": "beef up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30550,
+      "status": "candidate",
+      "text": "carpenter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30550,
+      "status": "candidate",
+      "text": "create"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Make Build",
+      "sense_id": "make-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "make-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "make-build",
+  "observation_id": "f3503cd9c9fd30fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "Make Build",
+  "source_context_snippet": "Make Build",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "FFMS/ffms2",
+  "source_repo_description": "An FFmpeg based source library and Avisynth/VapourSynth plugin for easy frame accurate access"
+}

@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -287,6 +287,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/buildluna.yml",
       "source_repo": "HIllya51/LunaTranslator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FFMS/ffms2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actions_cpp.yml",
+      "source_repo": "AngusJohnson/Clipper2"
     }
   ]
 }

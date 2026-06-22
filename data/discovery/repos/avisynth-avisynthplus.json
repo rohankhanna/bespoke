@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AviSynth/AviSynthPlus",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AviSynth/AviSynthPlus",
+      "target": "Build AviSynth+",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:25.578667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2679
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AviSynth with improvements",
+    "fork": true,
+    "full_name": "AviSynth/AviSynthPlus",
+    "html_url": "https://github.com/AviSynth/AviSynthPlus",
+    "language": "C++",
+    "pushed_at": "2026-06-17T03:10:51Z",
+    "stargazers_count": 1186,
+    "topics": [],
+    "updated_at": "2026-06-22T02:01:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build AviSynth+",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build AviSynth+"
+    }
+  ]
+}

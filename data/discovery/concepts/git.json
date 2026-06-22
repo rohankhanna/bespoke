@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GIT"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "status": "candidate-context",
+      "text": "Clever Cloud Karpenter Provider "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "status": "candidate-context",
+      "text": "GIT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "status": "candidate",
+      "text": "GIT"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006694,
+      "status": "candidate",
+      "text": "slob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981133,
+      "status": "candidate",
+      "text": "show-off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971689,
+      "status": "candidate",
+      "text": "twat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950284,
+      "status": "candidate",
+      "text": "scram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924668,
+      "status": "candidate",
+      "text": "beginning"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GIT",
+  "concept_id": "git",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/git.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GIT",
+      "sense_id": "git#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

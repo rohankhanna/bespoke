@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "akarinvs/l-smash-works",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "dubhater/vapoursynth-awarpsharp2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "dubhater/vapoursynth-wwxd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "styler00dollar/VSGAN-tensorrt-docker",
+      "target": "dubhater/vapoursynth-scxvid",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "styler00dollar/VSGAN-tensorrt-docker"
+}

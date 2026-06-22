@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml"
     },
@@ -96,7 +96,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "hermit-os/hermit-rs",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -110,7 +110,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "hermit-os/hermit-rs",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:51:18.048808+00:00",
+  "fetched_at": "2026-06-22T10:45:24.809367+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,8 +233,8 @@
     "full_name": "hermit-os/hermit-rs",
     "html_url": "https://github.com/hermit-os/hermit-rs",
     "language": "Rust",
-    "pushed_at": "2026-05-25T16:35:28Z",
-    "stargazers_count": 1921,
+    "pushed_at": "2026-06-22T09:54:27Z",
+    "stargazers_count": 1928,
     "topics": [
       "cloud-computing",
       "high-performance-computing",
@@ -246,7 +246,7 @@
       "unikernel",
       "virtualization"
     ],
-    "updated_at": "2026-05-30T05:26:16Z"
+    "updated_at": "2026-06-22T09:54:23Z"
   },
   "repo_links": [],
   "terms": [

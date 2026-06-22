@@ -21,12 +21,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "@typescript/native-preview",
+      "component": "@trigen/oxlint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "@trigen/eslint-config",
+      "component": "@trigen/oxlint-config",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -37,6 +37,11 @@
     },
     {
       "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -71,17 +76,22 @@
       "source_file": "package.json"
     },
     {
-      "component": "eslint",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "inquirer",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
       "component": "nano-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint-tsgolint",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -299,14 +309,14 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "@typescript/native-preview",
+      "target": "@trigen/oxlint",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "@trigen/eslint-config",
+      "target": "@trigen/oxlint-config",
       "target_type": "component"
     },
     {
@@ -321,6 +331,13 @@
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
       "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -369,13 +386,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "conventional-changelog/conventional-changelog",
       "target": "inquirer",
       "target_type": "component"
     },
@@ -384,6 +394,20 @@
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
       "target": "nano-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "oxlint-tsgolint",
       "target_type": "component"
     },
     {
@@ -583,7 +607,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:54:22.601130+00:00",
+  "fetched_at": "2026-06-22T10:48:31.864318+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -591,7 +615,7 @@
     },
     {
       "path": "package.json",
-      "size": 1974
+      "size": 2002
     },
     {
       "path": ".github/workflows/checks.yml",
@@ -607,7 +631,7 @@
     },
     {
       "path": ".github/workflows/tests.yaml",
-      "size": 3186
+      "size": 2997
     }
   ],
   "related_repositories": [],
@@ -619,8 +643,8 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-05-29T22:50:42Z",
-    "stargazers_count": 8450,
+    "pushed_at": "2026-06-22T10:36:43Z",
+    "stargazers_count": 8463,
     "topics": [
       "changelog",
       "git",
@@ -629,7 +653,7 @@
       "metadata",
       "tag"
     ],
-    "updated_at": "2026-05-29T22:47:22Z"
+    "updated_at": "2026-06-22T10:33:03Z"
   },
   "repo_links": [],
   "terms": [

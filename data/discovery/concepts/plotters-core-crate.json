@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Plotters Core Crate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "Plotters Core Crate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate",
+      "text": "Plotters Core Crate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19624,
+      "status": "candidate",
+      "text": "civil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19624,
+      "status": "candidate",
+      "text": "seventy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19565,
+      "status": "candidate",
+      "text": "junta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19159,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19159,
+      "status": "candidate",
+      "text": "cases"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Plotters Core Crate",
+  "concept_id": "plotters-core-crate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Plotters Core Crate",
+      "sense_id": "plotters-core-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

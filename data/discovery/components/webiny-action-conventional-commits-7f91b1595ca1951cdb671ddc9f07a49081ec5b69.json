@@ -1,0 +1,12 @@
+{
+  "component": "webiny/action-conventional-commits@7f91b1595ca1951cdb671ddc9f07a49081ec5b69",
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/git.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud"
+    }
+  ]
+}

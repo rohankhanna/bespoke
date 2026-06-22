@@ -1,0 +1,12 @@
+{
+  "component": "DavidAnson/markdownlint-cli2-action@ded1f9488f68a970bc66ea5619e13e9b52e601cd",
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui"
+    }
+  ]
+}

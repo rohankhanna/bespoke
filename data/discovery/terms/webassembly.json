@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-30T12:38:40.310820+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -276,6 +276,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kylebarron/arrow-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
     }
   ],
   "term": "webassembly"

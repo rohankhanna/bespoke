@@ -15,13 +15,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "jupyter-server/jupyter_server",
-      "target": "andfoy/pywinpty",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/downstream.yml",
       "source_repo": "jupyter-server/jupyter_server",
@@ -239,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-21T19:22:13.525033+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "jupyter-server/jupyter_server"
 }

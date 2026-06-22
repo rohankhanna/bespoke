@@ -21,6 +21,21 @@
       "source_file": ".github/workflows/build-deb.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml"
+    },
+    {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
@@ -39,11 +54,6 @@
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/unit-test.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/unittest-adaptor.yml"
     }
   ],
   "edges": [
@@ -105,6 +115,34 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "source_repo": "flagos-ai/FlagCX",
+      "target": "Build RPM Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "flagos-ai/FlagCX",
       "target": "actions/checkout@v6",
@@ -158,23 +196,9 @@
       "source_repo": "flagos-ai/FlagCX",
       "target": "Unit Tests in Container",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/unittest-adaptor.yml",
-      "source_repo": "flagos-ai/FlagCX",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/unittest-adaptor.yml",
-      "source_repo": "flagos-ai/FlagCX",
-      "target": "Unit Tests: adaptor",
-      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:31:17.950799+00:00",
+  "fetched_at": "2026-06-22T11:28:17.749456+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -197,8 +221,12 @@
       "size": 946
     },
     {
+      "path": ".github/workflows/build-rpm.yml",
+      "size": 3768
+    },
+    {
       "path": ".github/workflows/test.yml",
-      "size": 6907
+      "size": 7415
     },
     {
       "path": ".github/workflows/torch-api-test.yml",
@@ -211,10 +239,6 @@
     {
       "path": ".github/workflows/unit-test.yml",
       "size": 5157
-    },
-    {
-      "path": ".github/workflows/unittest-adaptor.yml",
-      "size": 1681
     }
   ],
   "related_repositories": [],
@@ -226,10 +250,10 @@
     "full_name": "flagos-ai/FlagCX",
     "html_url": "https://github.com/flagos-ai/FlagCX",
     "language": "C++",
-    "pushed_at": "2026-06-10T16:09:11Z",
+    "pushed_at": "2026-06-22T08:52:45Z",
     "stargazers_count": 216,
     "topics": [],
-    "updated_at": "2026-06-18T04:40:52Z"
+    "updated_at": "2026-06-22T08:52:51Z"
   },
   "repo_links": [
     {
@@ -257,6 +281,12 @@
       "term": "Build Debian Packages"
     },
     {
+      "context_snippet": "Build RPM Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-rpm.yml",
+      "term": "Build RPM Packages"
+    },
+    {
       "context_snippet": "Perf Tests in Container",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
@@ -279,12 +309,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/unit-test.yml",
       "term": "Unit Tests in Container"
-    },
-    {
-      "context_snippet": "\"Unit Tests: adaptor\"",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/unittest-adaptor.yml",
-      "term": "Unit Tests: adaptor"
     }
   ]
 }

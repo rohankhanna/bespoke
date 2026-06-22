@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+      "text": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)"
+      "text": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -48,9 +48,9 @@
   "normalized_form": "compchem",
   "observation_id": "726819df762a0b83",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
   "observed_text": "compchem",
-  "source_context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+  "source_context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
   "source_file": null,
   "source_repo": "unum-bio/USearchMolecules",
   "source_repo_description": "Searching for structural similarities across billions of molecules in milliseconds"

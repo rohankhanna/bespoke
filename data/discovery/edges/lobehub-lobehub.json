@@ -137,6 +137,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "@composio/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "@discordjs/rest",
       "target_type": "component"
     },
@@ -333,6 +340,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-agent-signal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-brief",
       "target_type": "component"
     },
@@ -390,6 +404,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-lobe-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-lobe-delivery-checker",
       "target_type": "component"
     },
     {
@@ -481,6 +502,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-user-interaction",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-verify",
       "target_type": "component"
     },
     {
@@ -754,6 +782,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/ssrf-safe-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/tool-runtime",
       "target_type": "component"
     },
     {
@@ -1082,13 +1117,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
-      "target": "better-auth-harmony",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
       "target": "better-call",
       "target_type": "component"
     },
@@ -1222,6 +1250,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "expo-server-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "fast-deep-equal",
       "target_type": "component"
     },
@@ -1335,13 +1370,6 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "jsonl-parse-stringify",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
-      "target": "klavis",
       "target_type": "component"
     },
     {
@@ -1698,7 +1726,7 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
-      "target": "react-router-dom",
+      "target": "react-router",
       "target_type": "component"
     },
     {
@@ -2829,6 +2857,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T07:10:34.990539+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "lobehub/lobehub"
 }

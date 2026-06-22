@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -7462,6 +7462,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-sqlite.yml",
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "OpenHands/agent-canvas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mock-llm-docker-e2e.yml",
+      "source_repo": "OpenHands/agent-canvas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mock-llm-e2e.yml",
+      "source_repo": "OpenHands/agent-canvas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "OpenHands/agent-canvas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-format.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/render-seps.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-from-pr-label.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozilla-ai/otari-sdk-ts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mozilla-ai/otari-sdk-ts"
     }
   ]
 }

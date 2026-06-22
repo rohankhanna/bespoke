@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sdist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate-context",
+      "text": "Pseudoterminals for Windows in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate-context",
+      "text": "sdist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate",
+      "text": "sdist"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sdist",
+  "concept_id": "sdist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/sdist.yml",
+      "source_repo": "andfoy/pywinpty"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sdist",
+      "sense_id": "sdist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

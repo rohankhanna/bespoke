@@ -379,6 +379,18 @@
       "source_repo": "inhere/php-console",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate-context",
+      "text": "Pseudoterminals for Windows in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate-context",
+      "text": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +579,12 @@
       "source_repo": "inhere/php-console",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/packagist/l/inhere/console.svg?style=flat-square)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate",
+      "text": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)"
     }
   ],
   "candidate_related_terms": [
@@ -844,11 +862,17 @@
       "observed_at": "2026-05-08T12:43:50.373126+00:00",
       "source_file": null,
       "source_repo": "inhere/php-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T12:43:50.373126+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

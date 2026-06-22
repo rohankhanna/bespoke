@@ -1,87 +1,87 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "mymindstorm/setup-emsdk@v16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     },
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmake.yml"
-    },
-    {
-      "component": "mymindstorm/setup-emsdk@v14",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cmake.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml"
     }
@@ -98,14 +98,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
@@ -119,21 +119,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "mymindstorm/setup-emsdk@v14",
+      "target": "mymindstorm/setup-emsdk@v16",
       "target_type": "component"
     },
     {
@@ -242,7 +242,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:51:21.674851+00:00",
+  "fetched_at": "2026-06-22T10:45:27.906269+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,11 +250,11 @@
     },
     {
       "path": ".github/workflows/cmake-release.yml",
-      "size": 3174
+      "size": 3847
     },
     {
       "path": ".github/workflows/cmake.yml",
-      "size": 7525
+      "size": 6499
     }
   ],
   "related_repositories": [],
@@ -266,7 +266,7 @@
     "full_name": "edge-classic/EDGE-classic",
     "html_url": "https://github.com/edge-classic/EDGE-classic",
     "language": "C",
-    "pushed_at": "2026-05-28T21:52:53Z",
+    "pushed_at": "2026-06-21T18:05:49Z",
     "stargazers_count": 98,
     "topics": [
       "blasphemer",
@@ -285,7 +285,7 @@
       "rekkr",
       "webgl"
     ],
-    "updated_at": "2026-05-28T21:52:58Z"
+    "updated_at": "2026-06-21T18:05:54Z"
   },
   "repo_links": [
     {

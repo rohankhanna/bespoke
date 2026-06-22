@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "WASM Target"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "WASM Target"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotters-rs/plotters-canvas",
+      "status": "candidate-context",
+      "text": "Plotters HTML5 Canvas-WASM Backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters-canvas",
+      "status": "candidate-context",
+      "text": "WASM Target"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate",
+      "text": "WASM Target"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters-canvas",
+      "status": "candidate",
+      "text": "WASM Target"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "against"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "aims"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ambition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audience"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "WASM Target",
+  "concept_id": "wasm-target",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "plotters-rs/plotters-canvas"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "WASM Target",
+      "sense_id": "wasm-target#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

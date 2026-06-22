@@ -6,12 +6,12 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml"
     },
@@ -41,12 +41,12 @@
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml"
     },
@@ -56,12 +56,12 @@
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml"
     },
@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml"
     },
@@ -86,7 +86,7 @@
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml"
     },
@@ -101,12 +101,12 @@
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml"
     },
@@ -116,12 +116,12 @@
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml"
     },
@@ -136,7 +136,7 @@
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml"
     },
@@ -146,7 +146,7 @@
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml"
     },
@@ -161,12 +161,12 @@
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml"
     },
@@ -176,17 +176,17 @@
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
@@ -201,7 +201,7 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
@@ -211,12 +211,12 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
@@ -231,17 +231,17 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     }
@@ -268,7 +268,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -296,7 +296,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -324,7 +324,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -352,7 +352,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -380,7 +380,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -408,7 +408,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -436,14 +436,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "target_type": "component"
     },
     {
@@ -478,7 +478,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -499,7 +499,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "target_type": "component"
     },
     {
@@ -559,7 +559,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:58:49.939098+00:00",
+  "fetched_at": "2026-06-22T11:21:35.094360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -571,35 +571,35 @@
     },
     {
       "path": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
-      "size": 7910
+      "size": 8510
     },
     {
       "path": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
-      "size": 12359
+      "size": 12967
     },
     {
       "path": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
-      "size": 7780
+      "size": 8380
     },
     {
       "path": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
-      "size": 12182
+      "size": 12790
     },
     {
       "path": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
-      "size": 10081
+      "size": 10681
     },
     {
       "path": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
-      "size": 13639
+      "size": 14247
     },
     {
       "path": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
-      "size": 10070
+      "size": 10670
     },
     {
       "path": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
-      "size": 11451
+      "size": 12059
     }
   ],
   "related_repositories": [],
@@ -611,8 +611,8 @@
     "full_name": "karafka/rdkafka-ruby",
     "html_url": "https://github.com/karafka/rdkafka-ruby",
     "language": "Ruby",
-    "pushed_at": "2026-05-27T17:21:16Z",
-    "stargazers_count": 403,
+    "pushed_at": "2026-06-20T07:36:14Z",
+    "stargazers_count": 402,
     "topics": [
       "apache-kafka",
       "apache-kafka-consumer",
@@ -621,7 +621,7 @@
       "librdkafka",
       "ruby"
     ],
-    "updated_at": "2026-05-27T17:21:19Z"
+    "updated_at": "2026-06-20T07:36:16Z"
   },
   "repo_links": [],
   "terms": [

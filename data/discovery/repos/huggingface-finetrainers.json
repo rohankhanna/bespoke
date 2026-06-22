@@ -97,7 +97,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T00:56:36.355044+00:00",
+  "fetched_at": "2026-06-22T10:23:17.254937+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -126,7 +126,7 @@
     "html_url": "https://github.com/huggingface/finetrainers",
     "language": "Python",
     "pushed_at": "2026-05-26T10:33:13Z",
-    "stargazers_count": 1359,
+    "stargazers_count": 1358,
     "topics": [
       "ai",
       "art",
@@ -137,7 +137,7 @@
       "pytorch",
       "transformers"
     ],
-    "updated_at": "2026-06-16T16:01:34Z"
+    "updated_at": "2026-06-22T09:34:48Z"
   },
   "repo_links": [
     {

@@ -931,6 +931,18 @@
       "source_repo": "kosua20/MIDIVisualizer",
       "status": "candidate-context",
       "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate-context",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
     }
   ],
   "candidate_glosses": [
@@ -1395,6 +1407,12 @@
       "source_repo": "kosua20/MIDIVisualizer",
       "status": "candidate",
       "text": "![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotters-rs/plotters",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/plotters\">"
     }
   ],
   "candidate_related_terms": [
@@ -3439,11 +3457,41 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "antvis/GPT-Vis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

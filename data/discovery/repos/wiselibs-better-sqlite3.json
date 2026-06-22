@@ -362,7 +362,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:39:51.622850+00:00",
+  "fetched_at": "2026-06-22T11:34:48.179709+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -394,7 +394,7 @@
     "full_name": "WiseLibs/better-sqlite3",
     "html_url": "https://github.com/WiseLibs/better-sqlite3",
     "language": "JavaScript",
-    "pushed_at": "2026-06-15T17:06:34Z",
+    "pushed_at": "2026-06-22T09:25:27Z",
     "stargazers_count": 7306,
     "topics": [
       "database",

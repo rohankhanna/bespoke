@@ -1,7 +1,7 @@
 {
   "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-30T07:10:34.990539+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lock-resolved-issues.yml",
       "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "podman-container-tools/podman"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -41,12 +41,12 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml"
     },
@@ -101,7 +101,7 @@
       "source_file": ".github/workflows/licensecheck.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/markdown-lint.yml"
     },
@@ -154,7 +154,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -203,7 +203,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -217,7 +217,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -259,7 +259,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensecheck.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -287,7 +287,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/markdown-lint.yml",
       "source_repo": "eclipse-tm4e/tm4e",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -354,7 +354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:52:27.678940+00:00",
+  "fetched_at": "2026-06-22T10:46:19.680491+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -394,7 +394,7 @@
     "full_name": "eclipse-tm4e/tm4e",
     "html_url": "https://github.com/eclipse-tm4e/tm4e",
     "language": "Java",
-    "pushed_at": "2026-05-29T19:59:40Z",
+    "pushed_at": "2026-06-19T20:16:32Z",
     "stargazers_count": 115,
     "topics": [
       "eclipse",
@@ -403,7 +403,7 @@
       "java",
       "textmate"
     ],
-    "updated_at": "2026-05-29T19:59:45Z"
+    "updated_at": "2026-06-19T20:16:34Z"
   },
   "repo_links": [
     {

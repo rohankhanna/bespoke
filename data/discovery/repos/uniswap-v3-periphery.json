@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:58:29.765659+00:00",
+  "fetched_at": "2026-06-22T10:52:39.893960+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -529,7 +529,7 @@
     "html_url": "https://github.com/Uniswap/v3-periphery",
     "language": "TypeScript",
     "pushed_at": "2024-08-04T19:54:49Z",
-    "stargazers_count": 1319,
+    "stargazers_count": 1328,
     "topics": [
       "automated-market-maker",
       "bug-bounty",
@@ -538,7 +538,7 @@
       "smart-contracts",
       "uniswap"
     ],
-    "updated_at": "2026-05-29T19:16:49Z"
+    "updated_at": "2026-06-21T08:16:44Z"
   },
   "repo_links": [
     {

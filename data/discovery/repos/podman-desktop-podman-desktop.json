@@ -161,11 +161,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "eslint-plugin-etc",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "eslint-plugin-file-progress",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -381,7 +376,7 @@
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "component": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml"
     },
@@ -396,7 +391,7 @@
       "source_file": ".github/workflows/e2e-main-tf.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "component": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml"
     },
@@ -436,7 +431,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "component": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -466,7 +461,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "component": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -496,7 +491,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "component": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -508,42 +503,35 @@
     {
       "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml"
+      "source_file": ".github/workflows/managed-configuration-template.yaml"
     },
     {
       "component": "podman-desktop/e2e/.github/actions/pde2e-testenv-prepare@13e2c57c759137bfc1f437f221967461e8a98e2a",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml"
+      "source_file": ".github/workflows/managed-configuration-template.yaml"
     },
     {
       "component": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml"
+      "source_file": ".github/workflows/managed-configuration-template.yaml"
     },
     {
       "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml"
+      "source_file": ".github/workflows/managed-configuration-template.yaml"
     },
     {
-      "component": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "component": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml"
+      "source_file": ".github/workflows/managed-configuration-template.yaml"
     },
     {
       "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml"
+      "source_file": ".github/workflows/managed-configuration-template.yaml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "podman-desktop/podman-desktop",
-      "target": "podman-container-tools/podman",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -787,13 +775,6 @@
       "source_file": "package.json",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "eslint-import-resolver-typescript",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "podman-desktop/podman-desktop",
-      "target": "eslint-plugin-etc",
       "target_type": "component"
     },
     {
@@ -1115,7 +1096,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
@@ -1143,7 +1124,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
@@ -1199,7 +1180,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
@@ -1218,51 +1199,51 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "podman-desktop/e2e/.github/actions/pde2e-testenv-prepare@13e2c57c759137bfc1f437f221967461e8a98e2a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "Managed configuration tests",
+      "target": "Managed configuration tests (template)",
       "target_type": "term"
     },
     {
@@ -1329,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:39:28.149592+00:00",
+  "fetched_at": "2026-06-22T11:34:35.214772+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1337,7 +1318,7 @@
     },
     {
       "path": "package.json",
-      "size": 17794
+      "size": 17759
     },
     {
       "path": ".github/workflows/argos-website.yaml",
@@ -1349,7 +1330,7 @@
     },
     {
       "path": ".github/workflows/daily-testing-build.yaml",
-      "size": 7863
+      "size": 8361
     },
     {
       "path": ".github/workflows/downloads-count.yaml",
@@ -1368,8 +1349,8 @@
       "size": 17647
     },
     {
-      "path": ".github/workflows/managed-configuration.yaml",
-      "size": 4537
+      "path": ".github/workflows/managed-configuration-template.yaml",
+      "size": 5161
     }
   ],
   "related_repositories": [],
@@ -1381,8 +1362,8 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-06-19T18:47:35Z",
-    "stargazers_count": 7739,
+    "pushed_at": "2026-06-22T11:09:22Z",
+    "stargazers_count": 7741,
     "topics": [
       "container",
       "containers",
@@ -1395,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-06-21T18:40:16Z"
+    "updated_at": "2026-06-22T10:32:05Z"
   },
   "repo_links": [
     {
@@ -1411,11 +1392,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "docker/docker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "podman-container-tools/podman",
       "source_file": "README.md"
     }
   ],
@@ -1463,10 +1439,10 @@
       "term": "e2e-tests-main"
     },
     {
-      "context_snippet": "Managed configuration tests",
+      "context_snippet": "Managed configuration tests (template)",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/managed-configuration.yaml",
-      "term": "Managed configuration tests"
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
+      "term": "Managed configuration tests (template)"
     },
     {
       "context_snippet": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)",

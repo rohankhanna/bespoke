@@ -148,7 +148,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:50:40.179506+00:00",
+  "fetched_at": "2026-06-22T11:41:36.033010+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -181,12 +181,12 @@
     "html_url": "https://github.com/flagos-ai/FlagAttention",
     "language": "Python",
     "pushed_at": "2026-06-12T09:41:52Z",
-    "stargazers_count": 298,
+    "stargazers_count": 299,
     "topics": [
       "attention",
       "triton-lang"
     ],
-    "updated_at": "2026-06-16T01:40:30Z"
+    "updated_at": "2026-06-22T04:35:21Z"
   },
   "repo_links": [
     {

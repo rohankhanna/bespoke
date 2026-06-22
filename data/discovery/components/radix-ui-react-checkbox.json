@@ -1,7 +1,7 @@
 {
   "component": "@radix-ui/react-checkbox",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -62,6 +62,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "dezoito/ollama-grid-search"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI"
     }
   ]
 }

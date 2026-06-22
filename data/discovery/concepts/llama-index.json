@@ -43,6 +43,18 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate-context",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "Resource, examples & tutorials for multimodal AI, RAG and agents using vector search and LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "datvodinh/rag-chatbot",
       "status": "candidate",
       "text": "![alt text](assets/demo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/vectordb-recipes",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +556,23 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": null,
       "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "lancedb/vectordb-recipes"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

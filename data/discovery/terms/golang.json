@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -2281,6 +2281,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "betterleaks/betterleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-govaluate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner"
     }
   ],
   "term": "golang"

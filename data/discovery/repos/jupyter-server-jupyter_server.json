@@ -332,13 +332,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "jupyter-server/jupyter_server",
-      "target": "andfoy/pywinpty",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/downstream.yml",
       "source_repo": "jupyter-server/jupyter_server",
@@ -556,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:23:12.384699+00:00",
+  "fetched_at": "2026-06-22T11:23:26.645562+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -612,13 +605,7 @@
     ],
     "updated_at": "2026-06-18T15:24:58Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "andfoy/pywinpty",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Downstream Tests",

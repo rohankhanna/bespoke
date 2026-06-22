@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenHands Agent Canvas is a self-hostable AI coding platform. Start locally, connect your tools, and automate workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Mock-LLM E2E: Post PR Comment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Mock-LLM E2E: Post PR Comment\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19980,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19629,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19529,
+      "status": "candidate",
+      "text": "bit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mock-LLM E2E: Post PR Comment",
+      "sense_id": "mock-llm-e2e-post-pr-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mock-llm-e2e-post-pr-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mock-llm-e2e-post-pr-comment",
+  "observation_id": "83d401e8c470799c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "Mock-LLM E2E: Post PR Comment",
+  "source_context_snippet": "\"Mock-LLM E2E: Post PR Comment\"",
+  "source_file": ".github/workflows/mock-llm-e2e-comment.yml",
+  "source_repo": "OpenHands/agent-canvas",
+  "source_repo_description": "OpenHands Agent Canvas is a self-hostable AI coding platform. Start locally, connect your tools, and automate workflows."
+}

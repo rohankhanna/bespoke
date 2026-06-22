@@ -19,12 +19,30 @@
       "source_repo": "apache/casbin",
       "status": "candidate-context",
       "text": "Build Source Release Draft"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-jcasbin",
+      "status": "candidate-context",
+      "text": "Build Source Release Draft"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/casbin",
+      "status": "candidate",
+      "text": "Build Source Release Draft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-jcasbin",
       "status": "candidate",
       "text": "Build Source Release Draft"
     }
@@ -520,11 +538,23 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": ".github/workflows/source-release-draft.yml",
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/source-release-draft.yml",
+      "source_repo": "apache/casbin-jcasbin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

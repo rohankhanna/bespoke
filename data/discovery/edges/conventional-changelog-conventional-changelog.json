@@ -32,14 +32,14 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "@typescript/native-preview",
+      "target": "@trigen/oxlint",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "@trigen/eslint-config",
+      "target": "@trigen/oxlint-config",
       "target_type": "component"
     },
     {
@@ -54,6 +54,13 @@
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
       "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -102,13 +109,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "eslint",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "conventional-changelog/conventional-changelog",
       "target": "inquirer",
       "target_type": "component"
     },
@@ -117,6 +117,20 @@
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
       "target": "nano-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "target": "oxlint-tsgolint",
       "target_type": "component"
     },
     {
@@ -316,6 +330,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "conventional-changelog/conventional-changelog"
 }

@@ -326,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T20:02:30.504543+00:00",
+  "fetched_at": "2026-06-22T11:49:10.287405+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -334,7 +334,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4840
+      "size": 4879
     },
     {
       "path": ".github/workflows/adapter-review.yml",
@@ -378,14 +378,14 @@
     "full_name": "harbor-framework/harbor",
     "html_url": "https://github.com/harbor-framework/harbor",
     "language": "Python",
-    "pushed_at": "2026-06-21T07:09:37Z",
-    "stargazers_count": 2604,
+    "pushed_at": "2026-06-22T08:53:47Z",
+    "stargazers_count": 2625,
     "topics": [
       "evals",
       "rl-environments",
       "terminal-bench"
     ],
-    "updated_at": "2026-06-21T19:53:16Z"
+    "updated_at": "2026-06-22T10:53:35Z"
   },
   "repo_links": [
     {

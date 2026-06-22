@@ -93,11 +93,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:51:06.719374+00:00",
+  "fetched_at": "2026-06-22T10:45:15.615764+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 20945
+      "size": 20987
     },
     {
       "path": "pyproject.toml",
@@ -117,8 +117,8 @@
     "full_name": "unum-bio/USearchMolecules",
     "html_url": "https://github.com/unum-bio/USearchMolecules",
     "language": "Python",
-    "pushed_at": "2026-05-04T21:41:49Z",
-    "stargazers_count": 101,
+    "pushed_at": "2026-06-15T23:06:46Z",
+    "stargazers_count": 103,
     "topics": [
       "aws-s3",
       "bioinformatics",
@@ -132,7 +132,7 @@
       "vector-search",
       "vector-search-engine"
     ],
-    "updated_at": "2026-05-09T10:41:33Z"
+    "updated_at": "2026-06-19T02:23:46Z"
   },
   "repo_links": [
     {
@@ -148,67 +148,67 @@
   ],
   "terms": [
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "aws-s3"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bioinformatics"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "biology"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "cheminformatics"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chemistry"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "compchem"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "drug-discovery"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "open-data"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "opendata"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "vector-search"
     },
     {
-      "context_snippet": "![USearch Molecules 7B dataset thumbnail](/assets/USearchMolecules.jpg)",
+      "context_snippet": "![USearch Molecules Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/USearchMolecules.jpg?raw=true)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "vector-search-engine"

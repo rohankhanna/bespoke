@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-22T11:26:30.904149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VapourSynth plugin to undo upscaling",
+    "fork": false,
+    "full_name": "Irrational-Encoding-Wizardry/descale",
+    "html_url": "https://github.com/Irrational-Encoding-Wizardry/descale",
+    "language": "C",
+    "pushed_at": "2023-05-09T12:34:51Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-03-14T15:16:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

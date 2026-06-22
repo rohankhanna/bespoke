@@ -1,7 +1,7 @@
 {
   "component": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/announce-lts-rc.yml",
       "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "podman-container-tools/podman"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "stalebot"
+    "stalebot",
+    "StaleBot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "spiffe/spire",
       "status": "candidate-context",
       "text": "stalebot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "status": "candidate-context",
+      "text": "Clever Cloud Karpenter Provider "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "status": "candidate-context",
+      "text": "StaleBot"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "spiffe/spire",
       "status": "candidate",
       "text": "stalebot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+      "status": "candidate",
+      "text": "StaleBot"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stalebot.yaml",
       "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "CleverCloud/karpenter-provider-clever-cloud"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

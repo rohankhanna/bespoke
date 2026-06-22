@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benching.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benching.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checking.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checking.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checking.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checking.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "shalzz/zola-deploy-action@v0.22.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "shalzz/zola-deploy-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benching.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benching.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benching.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "Run iai Benches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checking.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checking.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checking.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "Check For Build Errors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codequality.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codequality.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "Codequality Lints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "shalzz/zola-deploy-action@v0.22.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "shalzz/zola-deploy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rust-ml/linfa",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-ml/linfa",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-ml/linfa",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-ml/linfa",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-ml/linfa",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T08:35:54.932102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7961
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2112
+    },
+    {
+      "path": ".github/workflows/benching.yml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/checking.yml",
+      "size": 2092
+    },
+    {
+      "path": ".github/workflows/codequality.yml",
+      "size": 1763
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1498
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 1363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rust machine learning framework.",
+    "fork": false,
+    "full_name": "rust-ml/linfa",
+    "html_url": "https://github.com/rust-ml/linfa",
+    "language": "Rust",
+    "pushed_at": "2026-05-30T11:29:40Z",
+    "stargazers_count": 4684,
+    "topics": [
+      "algorithms",
+      "machine-learning",
+      "rust",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-06-18T21:35:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run iai Benches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benching.yml",
+      "term": "Run iai Benches"
+    },
+    {
+      "context_snippet": "Check For Build Errors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checking.yml",
+      "term": "Check For Build Errors"
+    },
+    {
+      "context_snippet": "Codequality Lints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codequality.yml",
+      "term": "Codequality Lints"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<img align=\"left\" src=\"./mascot.svg\" width=\"70px\" height=\"70px\" alt=\"Linfa mascot icon\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

@@ -11,14 +11,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake-release.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
@@ -32,21 +32,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "edge-classic/EDGE-classic",
-      "target": "mymindstorm/setup-emsdk@v14",
+      "target": "mymindstorm/setup-emsdk@v16",
       "target_type": "component"
     },
     {
@@ -155,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "edge-classic/EDGE-classic"
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Container for using any-guardrails from otari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "package-encoderfiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "package-encoderfiles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package-encoderfiles",
+      "sense_id": "package-encoderfiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-encoderfiles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-encoderfiles",
+  "observation_id": "7cd0bcd28ce8b8eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "package-encoderfiles",
+  "source_context_snippet": "package-encoderfiles",
+  "source_file": ".github/workflows/package-encoderfiles.yml",
+  "source_repo": "mozilla-ai/otari-anyguardrail-container",
+  "source_repo_description": "Container for using any-guardrails from otari"
+}

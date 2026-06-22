@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "the-database/mpv-AnimeJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrendKing/avisynth_filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AkarinVS/L-SMASH-Works"
     }
   ],
   "term": "vapoursynth"

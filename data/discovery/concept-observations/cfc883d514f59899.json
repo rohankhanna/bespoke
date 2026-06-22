@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DirectShow filters that put AviSynth and VapourSynth into video playing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vapoursynth",
+      "sense_id": "vapoursynth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vapoursynth",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vapoursynth",
+  "observation_id": "cfc883d514f59899",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "vapoursynth",
+  "source_context_snippet": "DirectShow filters that put AviSynth or VapourSynth into video playing, by loading a script and feed the generated frames to video player.",
+  "source_file": null,
+  "source_repo": "CrendKing/avisynth_filter",
+  "source_repo_description": "DirectShow filters that put AviSynth and VapourSynth into video playing"
+}

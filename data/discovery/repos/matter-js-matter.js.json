@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/auto-approve-release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
@@ -71,32 +71,32 @@
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/build-test.chip.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.js.yml"
     },
@@ -121,32 +121,32 @@
       "source_file": ".github/workflows/build-test.js.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.js.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.js.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-matterjs-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-matterjs-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-matterjs-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-matterjs-tests.yml"
     },
@@ -156,12 +156,12 @@
       "source_file": ".github/workflows/chip-matterjs-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
@@ -176,57 +176,52 @@
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/chip-tool-tests.yml"
-    },
-    {
-      "component": "actions/github-script@v9",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
@@ -236,7 +231,12 @@
       "source_file": ".github/workflows/chip-tool-tests.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chip-tool-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
@@ -261,7 +261,7 @@
       "source_file": ".github/workflows/nightly-dev-release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-dev-release.yml"
     },
@@ -281,7 +281,7 @@
       "source_file": ".github/workflows/official-release.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/official-release.yml"
     },
@@ -397,7 +397,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.chip.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -439,7 +439,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test.js.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -460,7 +460,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-matterjs-tests.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -481,7 +481,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/chip-tool-tests.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -516,7 +516,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -558,7 +558,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-dev-release.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -593,7 +593,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/official-release.yml",
       "source_repo": "matter-js/matter.js",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -646,7 +646,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:30:09.982700+00:00",
+  "fetched_at": "2026-06-22T11:27:39.490438+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -698,7 +698,7 @@
     "full_name": "matter-js/matter.js",
     "html_url": "https://github.com/matter-js/matter.js",
     "language": "TypeScript",
-    "pushed_at": "2026-06-21T04:46:45Z",
+    "pushed_at": "2026-06-22T11:15:27Z",
     "stargazers_count": 830,
     "topics": [
       "connectedthings",
@@ -707,7 +707,7 @@
       "matterprotocol",
       "smarthome"
     ],
-    "updated_at": "2026-06-21T17:36:34Z"
+    "updated_at": "2026-06-22T11:08:48Z"
   },
   "repo_links": [
     {

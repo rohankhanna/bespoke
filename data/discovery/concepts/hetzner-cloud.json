@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hetzner-cloud"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "status": "candidate-context",
+      "text": "Karpenter cloud provider for Hetzner Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hetzner-cloud",
+  "concept_id": "hetzner-cloud",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hetzner-cloud",
+      "sense_id": "hetzner-cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

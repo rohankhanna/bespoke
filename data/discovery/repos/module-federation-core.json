@@ -2318,7 +2318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:55:30.163289+00:00",
+  "fetched_at": "2026-06-22T10:49:33.763010+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2370,8 +2370,8 @@
     "full_name": "module-federation/core",
     "html_url": "https://github.com/module-federation/core",
     "language": "JavaScript",
-    "pushed_at": "2026-05-30T02:08:08Z",
-    "stargazers_count": 2540,
+    "pushed_at": "2026-06-22T09:20:00Z",
+    "stargazers_count": 2557,
     "topics": [
       "module-federation",
       "nextjs",
@@ -2380,7 +2380,7 @@
       "typescript",
       "webpack"
     ],
-    "updated_at": "2026-05-30T02:02:54Z"
+    "updated_at": "2026-06-22T06:40:49Z"
   },
   "repo_links": [
     {

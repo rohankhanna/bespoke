@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml"
     },
@@ -11,12 +11,12 @@
       "source_file": ".github/workflows/maven.yml"
     },
     {
-      "component": "stCarolas/setup-maven@v5",
+      "component": "stCarolas/setup-maven@v5.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml"
     }
@@ -40,7 +40,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "eclipse-corrosion/corrosion",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -54,14 +54,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "eclipse-corrosion/corrosion",
-      "target": "stCarolas/setup-maven@v5",
+      "target": "stCarolas/setup-maven@v5.1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "eclipse-corrosion/corrosion",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:52:36.598083+00:00",
+  "fetched_at": "2026-06-22T10:46:35.944638+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,7 +115,7 @@
     },
     {
       "path": ".github/workflows/maven.yml",
-      "size": 978
+      "size": 1152
     }
   ],
   "related_repositories": [],
@@ -127,7 +127,7 @@
     "full_name": "eclipse-corrosion/corrosion",
     "html_url": "https://github.com/eclipse-corrosion/corrosion",
     "language": "Java",
-    "pushed_at": "2025-12-12T09:08:22Z",
+    "pushed_at": "2026-06-19T14:25:17Z",
     "stargazers_count": 242,
     "topics": [
       "eclipse-ide",
@@ -137,7 +137,7 @@
       "rust",
       "rust-language-server"
     ],
-    "updated_at": "2026-05-18T04:58:13Z"
+    "updated_at": "2026-06-19T14:25:25Z"
   },
   "repo_links": [
     {

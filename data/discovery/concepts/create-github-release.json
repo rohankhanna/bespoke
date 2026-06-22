@@ -462,6 +462,18 @@
       "source_repo": "gpac/gpac",
       "status": "candidate-context",
       "text": "Create Github Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/agent-canvas",
+      "status": "candidate-context",
+      "text": "OpenHands Agent Canvas is a self-hostable AI coding platform. Start locally, connect your tools, and automate workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/agent-canvas",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_glosses": [
@@ -704,6 +716,12 @@
       "source_repo": "gpac/gpac",
       "status": "candidate",
       "text": "Create Github Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/agent-canvas",
+      "status": "candidate",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_related_terms": [
@@ -1017,11 +1035,17 @@
       "observed_at": "2026-05-05T18:38:09.351693+00:00",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "gpac/gpac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "OpenHands/agent-canvas"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

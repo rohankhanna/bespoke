@@ -31,6 +31,18 @@
       "source_repo": "containers/buildah",
       "status": "candidate-context",
       "text": "Assign Command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate-context",
+      "text": "Assign Command"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "containers/buildah",
+      "status": "candidate",
+      "text": "Assign Command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-container-tools/podman",
       "status": "candidate",
       "text": "Assign Command"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/assign.yml",
       "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "podman-container-tools/podman"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

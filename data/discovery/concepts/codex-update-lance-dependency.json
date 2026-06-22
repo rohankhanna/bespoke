@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Codex Update Lance Dependency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate-context",
+      "text": "Codex Update Lance Dependency"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lancedb/lancedb",
+      "status": "candidate",
+      "text": "Codex Update Lance Dependency"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29430,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29430,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29430,
+      "status": "candidate",
+      "text": "eats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29194,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20368,
+      "status": "candidate",
+      "text": "scroll"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Codex Update Lance Dependency",
+  "concept_id": "codex-update-lance-dependency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/codex-update-lance-dependency.yml",
+      "source_repo": "lancedb/lancedb"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codex Update Lance Dependency",
+      "sense_id": "codex-update-lance-dependency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

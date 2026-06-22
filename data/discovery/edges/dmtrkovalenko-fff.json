@@ -149,6 +149,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
       "target": "actions/checkout@v5",
@@ -166,6 +187,20 @@
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
       "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "PyO3/maturin-action@v1",
       "target_type": "component"
     },
     {
@@ -193,14 +228,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
-      "target": "rust-lang/crates-io-auth-action@v1",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
-      "target": "dtolnay/rust-toolchain@stable",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "dmtrKovalenko/fff",
+      "target": "rust-lang/crates-io-auth-action@v1",
       "target_type": "component"
     },
     {
@@ -214,7 +256,7 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "dmtrKovalenko/fff",
-      "target": "Prebuild",
+      "target": "Build & Publish",
       "target_type": "term"
     },
     {
@@ -260,31 +302,17 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/spelling.yaml",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "dmtrKovalenko/fff",
-      "target": "actions/checkout@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/spelling.yaml",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/spelling.yaml",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "Spelling",
+      "target": "filesearch",
       "target_type": "term"
     },
     {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "dmtrKovalenko/fff",
-      "target": "filesearch",
+      "target": "grep",
       "target_type": "term"
     },
     {
@@ -305,10 +333,17 @@
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "dmtrKovalenko/fff",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff",
       "target": "rust",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "dmtrKovalenko/fff"
 }

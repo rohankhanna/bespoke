@@ -23,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:53:23.677136+00:00",
+  "fetched_at": "2026-06-22T10:47:38.334524+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -39,15 +39,15 @@
     "full_name": "nvim-mini/mini.deps",
     "html_url": "https://github.com/nvim-mini/mini.deps",
     "language": "Lua",
-    "pushed_at": "2026-05-19T14:00:49Z",
-    "stargazers_count": 98,
+    "pushed_at": "2026-06-21T12:53:02Z",
+    "stargazers_count": 99,
     "topics": [
       "lua",
       "mini-nvim",
       "neovim",
       "neovim-plugin"
     ],
-    "updated_at": "2026-05-27T22:24:57Z"
+    "updated_at": "2026-06-21T07:27:06Z"
   },
   "repo_links": [],
   "terms": [

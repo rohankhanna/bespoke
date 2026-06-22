@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
     },
     {
       "source_kind": "source-snippet",
@@ -77,10 +77,10 @@
   "normalized_form": "docs",
   "observation_id": "3d4045d985354294",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-30T12:38:40.310820+00:00",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
   "observed_text": "docs",
   "source_context_snippet": "docs",
   "source_file": ".github/workflows/panvimdoc.yaml",
   "source_repo": "dmtrKovalenko/fff",
-  "source_repo_description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+  "source_repo_description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS"
 }

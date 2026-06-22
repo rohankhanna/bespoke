@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/black.yml",
       "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "lancedb/vectordb-recipes"
     }
   ],
   "term": "Black action"

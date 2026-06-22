@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:50:42.873204+00:00",
+  "fetched_at": "2026-06-22T10:44:45.737289+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -290,7 +290,7 @@
     "html_url": "https://github.com/ashvardanian/ForkUnion",
     "language": "C++",
     "pushed_at": "2026-04-02T22:56:17Z",
-    "stargazers_count": 330,
+    "stargazers_count": 333,
     "topics": [
       "arm",
       "atomics",
@@ -307,7 +307,7 @@
       "thread-pool",
       "threadpool"
     ],
-    "updated_at": "2026-05-27T01:08:05Z"
+    "updated_at": "2026-06-20T04:14:21Z"
   },
   "repo_links": [
     {

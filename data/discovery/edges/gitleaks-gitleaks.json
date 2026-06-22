@@ -4,14 +4,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gitleaks.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gitleaks.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "gitleaks/gitleaks-action@bf2dc8e55639c1e091e9b45970152e4313705814",
+      "target": "gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e",
       "target_type": "component"
     },
     {
@@ -25,42 +25,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "docker/setup-qemu-action@8b122486cedac8393e77aa9734c3528886e4a1a8",
+      "target": "docker/setup-qemu-action@06116385d9baf250c9f4dcb4858b16962ea869c3",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "docker/setup-buildx-action@dc7b9719a96d48369863986a06765841d7ea23f6",
+      "target": "docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "target": "docker/login-action@650006c6eb7dba73a995cc03b0b2d7f5ca915bee",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target": "docker/metadata-action@80c7e94dd9b9319bd5eb7a0e0fe9291e23a2a2e9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8",
+      "target": "docker/build-push-action@f9f3042f7e2789586610d6e8b85c8f03e5195baf",
       "target_type": "component"
     },
     {
@@ -74,14 +74,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gitleaks/gitleaks",
-      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "target_type": "component"
     },
     {
@@ -190,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "gitleaks/gitleaks"
 }

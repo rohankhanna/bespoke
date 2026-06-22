@@ -1,7 +1,12 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -50,9 +55,23 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazel-contrib/rules_kotlin",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "bazel-contrib/rules_kotlin",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -119,15 +138,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:54:45.468808+00:00",
+  "fetched_at": "2026-06-22T10:48:53.616781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17931
+      "size": 17955
     },
     {
       "path": ".github/workflows/ci.bazelrc",
       "size": 822
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 896
     },
     {
       "path": ".github/workflows/release.yml",
@@ -151,14 +174,14 @@
     "full_name": "bazel-contrib/rules_kotlin",
     "html_url": "https://github.com/bazel-contrib/rules_kotlin",
     "language": "Starlark",
-    "pushed_at": "2026-05-29T13:47:36Z",
-    "stargazers_count": 365,
+    "pushed_at": "2026-06-22T10:47:41Z",
+    "stargazers_count": 364,
     "topics": [
       "bazel",
       "bazel-rules",
       "kotlin"
     ],
-    "updated_at": "2026-05-29T13:47:42Z"
+    "updated_at": "2026-06-19T20:39:49Z"
   },
   "repo_links": [
     {
@@ -178,6 +201,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
     {
       "context_snippet": "Release Binary Package",
       "edge_type": "workflow-name",

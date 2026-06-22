@@ -2,7 +2,7 @@
   "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -199,6 +199,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/on-release-main.yml",
       "source_repo": "agentclientprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redis/redis-om-spring"
     }
   ]
 }

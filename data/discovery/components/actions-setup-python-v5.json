@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -9102,6 +9102,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-windows-bash.yml",
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "the-database/traiNNer-redux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "the-database/traiNNer-redux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codex-fix-ci.yml",
+      "source_repo": "lancedb/lancedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/training-smoke.yml",
+      "source_repo": "fw-ai/cookbook"
     }
   ]
 }

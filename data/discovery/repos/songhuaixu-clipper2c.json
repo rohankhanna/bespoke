@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-06-22T11:26:45.120973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C bindings for the Clipper2 polygon clipping and offsetting library",
+    "fork": true,
+    "full_name": "songhuaixu/clipper2c",
+    "html_url": "https://github.com/songhuaixu/clipper2c",
+    "language": "C++",
+    "pushed_at": "2025-06-09T03:10:31Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-06-09T03:10:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "podman-container-tools/podman",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "podman-desktop/podman-desktop",
       "target": "code-ready/crc",
       "target_type": "repository"
     },
@@ -250,13 +243,6 @@
       "source_file": "package.json",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "eslint-import-resolver-typescript",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "podman-desktop/podman-desktop",
-      "target": "eslint-plugin-etc",
       "target_type": "component"
     },
     {
@@ -578,7 +564,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
@@ -606,7 +592,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main-tf.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
@@ -662,7 +648,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
@@ -681,51 +667,51 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "podman-desktop/e2e/.github/actions/pde2e-testenv-prepare@13e2c57c759137bfc1f437f221967461e8a98e2a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d",
+      "target": "mikepenz/action-junit-report@d9f48fc87bc235f7e214acf696ca5abc0a986f16",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
       "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/managed-configuration.yaml",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "Managed configuration tests",
+      "target": "Managed configuration tests (template)",
       "target_type": "term"
     },
     {
@@ -792,6 +778,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-21T19:22:13.525033+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "podman-desktop/podman-desktop"
 }

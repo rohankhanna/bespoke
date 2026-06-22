@@ -151,6 +151,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@vitejs/plugin-react",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
@@ -336,12 +341,12 @@
       "source_file": ".github/workflows/check-if-pr-has-label.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/ci-base.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "component": "mui/mui-public/.github/workflows/ci-base.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-check.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/ci-base.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "component": "mui/mui-public/.github/workflows/ci-base.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -371,7 +376,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "component": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml"
     },
@@ -391,7 +396,7 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "component": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cherry-pick-pr.yml"
     },
@@ -615,6 +620,13 @@
       "source_file": "package.json",
       "source_repo": "mui/material-ui",
       "target": "@types/yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mui/material-ui",
+      "target": "@typescript/native-preview",
       "target_type": "component"
     },
     {
@@ -887,7 +899,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-check.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/ci-base.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/ci-base.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -901,7 +913,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/ci-base.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/ci-base.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -943,7 +955,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -985,7 +997,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cherry-pick-pr.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -1059,15 +1071,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:33:47.431225+00:00",
+  "fetched_at": "2026-06-22T11:43:23.033025+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 8637
+      "size": 8523
     },
     {
       "path": "package.json",
-      "size": 8597
+      "size": 8142
     },
     {
       "path": ".github/workflows/check-if-pr-has-label.yml",
@@ -1079,7 +1091,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 3939
+      "size": 3826
     },
     {
       "path": ".github/workflows/closed-issue-message.yml",
@@ -1111,8 +1123,8 @@
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-05-29T14:57:55Z",
-    "stargazers_count": 98369,
+    "pushed_at": "2026-06-22T11:12:53Z",
+    "stargazers_count": 98454,
     "topics": [
       "design-system",
       "material-design",
@@ -1120,7 +1132,7 @@
       "react",
       "react-components"
     ],
-    "updated_at": "2026-05-30T02:24:16Z"
+    "updated_at": "2026-06-22T11:05:33Z"
   },
   "repo_links": [],
   "terms": [

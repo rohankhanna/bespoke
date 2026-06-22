@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "crendking/avisynth_filter",
+      "target": "the-database/mpv-upscale-2x_animejanai",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "styler00dollar/vsgan-tensorrt-docker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "hooke007/mpv_lazy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "the-database/mpv-AnimeJaNai",
-      "target": "infiziert90/getnative",
+      "target": "the-database/animejanaiconvertergui",
       "target_type": "repository"
     },
     {
@@ -190,6 +176,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-21T19:22:13.525033+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "the-database/mpv-AnimeJaNai"
 }

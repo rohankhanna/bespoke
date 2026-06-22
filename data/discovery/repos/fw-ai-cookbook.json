@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/training-smoke.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/training-smoke.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "fw-ai/cookbook",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "fw-ai/cookbook",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/training-smoke.yml",
+      "source_repo": "fw-ai/cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/training-smoke.yml",
+      "source_repo": "fw-ai/cookbook",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/training-smoke.yml",
+      "source_repo": "fw-ai/cookbook",
+      "target": "Training Smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "agentic-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "ai-workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "fireworks-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "function-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "integrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "jupyter-notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "production-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fw-ai/cookbook",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T09:30:58.522868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2142
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 925
+    },
+    {
+      "path": ".github/workflows/training-smoke.yml",
+      "size": 2714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Recipes and resources for building, deploying, and fine-tuning generative AI with Fireworks.",
+    "fork": false,
+    "full_name": "fw-ai/cookbook",
+    "html_url": "https://github.com/fw-ai/cookbook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-06-20T18:10:40Z",
+    "stargazers_count": 171,
+    "topics": [
+      "agentic-systems",
+      "ai-workflows",
+      "fireworks-ai",
+      "function-calling",
+      "generative-ai",
+      "integrations",
+      "jupyter-notebooks",
+      "machine-learning",
+      "production-examples",
+      "rag",
+      "tutorials"
+    ],
+    "updated_at": "2026-06-20T07:20:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Training Smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/training-smoke.yml",
+      "term": "Training Smoke"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-systems"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-workflows"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fireworks-ai"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function-calling"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integrations"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebooks"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-examples"
+    },
+    {
+      "context_snippet": "Ready-to-run training recipes for reinforcement learning (GRPO, DAPO, GSPO, CISPO), preference optimization (DPO, ORPO), and supervised fine-tuning (SFT) on [Fireworks](https://fireworks.ai).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    }
+  ]
+}

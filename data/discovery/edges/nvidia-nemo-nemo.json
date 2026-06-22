@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "nvidia-nemo/automodel",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build_container.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
@@ -246,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-06-21T19:22:13.525033+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "NVIDIA-NeMo/NeMo"
 }

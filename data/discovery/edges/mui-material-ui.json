@@ -214,6 +214,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "mui/material-ui",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mui/material-ui",
       "target": "@vitejs/plugin-react",
       "target_type": "component"
     },
@@ -480,7 +487,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-check.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/ci-base.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/ci-base.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -494,7 +501,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/ci-base.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/ci-base.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -536,7 +543,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -578,7 +585,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cherry-pick-pr.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@fb2e995849648cc3f6e43ed4ad10b7bad0750d7c",
+      "target": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@2cf5fd6323dcc09a25dd287dca00cb5edb5bdd14",
       "target_type": "component"
     },
     {
@@ -652,6 +659,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T00:44:22.415230+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "mui/material-ui"
 }

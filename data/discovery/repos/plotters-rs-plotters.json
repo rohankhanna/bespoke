@@ -1,0 +1,576 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-backend.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-backend.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-backend.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-svg.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-svg.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-svg.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters",
+      "target": "google/evcxr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters",
+      "target": "38/plotters-doc-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters",
+      "target": "plotters-rs/plotters-canvas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters",
+      "target": "plotters-rs/plotters-cairo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-backend.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-backend.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-backend.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-backend.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "Plotters Backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-bitmap.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-bitmap.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "Plotters Bitmap Backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "Plotters Core Crate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-svg.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-svg.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plotters-svg.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-svg.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "Plotters SVG Backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "rust-clippy analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "plotters-rs/plotters",
+      "target": "WASM Target",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "data-plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "graphing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "plot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "rust-crate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotters-rs/plotters",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T08:35:44.178061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27646
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 121
+    },
+    {
+      "path": ".github/workflows/plotters-backend.yml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/plotters-bitmap.yml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/plotters-core.yml",
+      "size": 2201
+    },
+    {
+      "path": ".github/workflows/plotters-svg.yml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/rust-clippy.yml",
+      "size": 1618
+    },
+    {
+      "path": ".github/workflows/wasm.yml",
+      "size": 359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely \ud83e\udd80 \ud83d\udcc8\ud83d\ude80",
+    "fork": false,
+    "full_name": "plotters-rs/plotters",
+    "html_url": "https://github.com/plotters-rs/plotters",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T12:44:14Z",
+    "stargazers_count": 4580,
+    "topics": [
+      "data-plotting",
+      "graphing",
+      "plot",
+      "plotting",
+      "rust",
+      "rust-crate",
+      "science",
+      "visualization",
+      "webassembly"
+    ],
+    "updated_at": "2026-06-18T07:17:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "38/plotters-doc-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/evcxr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plotters-rs/plotters-cairo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plotters-rs/plotters-canvas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plotters Backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-backend.yml",
+      "term": "Plotters Backend"
+    },
+    {
+      "context_snippet": "Plotters Bitmap Backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-bitmap.yml",
+      "term": "Plotters Bitmap Backend"
+    },
+    {
+      "context_snippet": "Plotters Core Crate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-core.yml",
+      "term": "Plotters Core Crate"
+    },
+    {
+      "context_snippet": "Plotters SVG Backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plotters-svg.yml",
+      "term": "Plotters SVG Backend"
+    },
+    {
+      "context_snippet": "rust-clippy analyze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "term": "rust-clippy analyze"
+    },
+    {
+      "context_snippet": "WASM Target",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "term": "WASM Target"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-plotting"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphing"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plot"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-crate"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/plotters\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "AniAggarwal/ecad",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "status": "candidate-context",
+      "text": "Drop-in TaylorSeer/HiCache basis upgrade \u2014 training-free diffusion acceleration via a Dynamic Mode Decomposition (Prony) exponential feature-forecast basis. Not the SGLang KV-cache HiCache."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AniAggarwal/ecad",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Archerkattri/hicache-plus-plus",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-08T00:38:13.543216+00:00",
       "source_file": null,
       "source_repo": "AniAggarwal/ecad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "Archerkattri/hicache-plus-plus"
     }
   ],
   "first_seen_at": "2026-05-08T00:38:13.543216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-08T00:38:13.543216+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

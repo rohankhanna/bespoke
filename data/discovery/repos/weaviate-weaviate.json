@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cross-functional-issues.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/find-duplicates.yaml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licence_updater.yaml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/linter.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/linter.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/linter.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml"
     },
@@ -71,12 +71,12 @@
       "source_file": ".github/workflows/linter.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml"
     },
     {
-      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-security-lint.yaml"
     }
@@ -93,7 +93,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cross-functional-issues.yml",
       "source_repo": "weaviate/weaviate",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -128,7 +128,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licence_updater.yaml",
       "source_repo": "weaviate/weaviate",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -163,7 +163,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "weaviate/weaviate",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -198,7 +198,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-security-lint.yaml",
       "source_repo": "weaviate/weaviate",
-      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
       "target_type": "component"
     },
     {
@@ -349,7 +349,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:30:55.616611+00:00",
+  "fetched_at": "2026-06-22T11:28:05.699245+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -373,7 +373,7 @@
     },
     {
       "path": ".github/workflows/create-cross-functional-issues.yml",
-      "size": 3369
+      "size": 3373
     },
     {
       "path": ".github/workflows/find-duplicates.yaml",
@@ -381,15 +381,15 @@
     },
     {
       "path": ".github/workflows/licence_updater.yaml",
-      "size": 1090
+      "size": 1094
     },
     {
       "path": ".github/workflows/linter.yml",
-      "size": 1367
+      "size": 1383
     },
     {
       "path": ".github/workflows/pr-security-lint.yaml",
-      "size": 3091
+      "size": 3095
     }
   ],
   "related_repositories": [],
@@ -401,8 +401,8 @@
     "full_name": "weaviate/weaviate",
     "html_url": "https://github.com/weaviate/weaviate",
     "language": "Go",
-    "pushed_at": "2026-06-20T09:35:23Z",
-    "stargazers_count": 16386,
+    "pushed_at": "2026-06-22T11:27:00Z",
+    "stargazers_count": 16392,
     "topics": [
       "approximate-nearest-neighbor-search",
       "generative-search",
@@ -425,7 +425,7 @@
       "vectors",
       "weaviate"
     ],
-    "updated_at": "2026-06-21T19:30:40Z"
+    "updated_at": "2026-06-22T10:37:15Z"
   },
   "repo_links": [],
   "terms": [

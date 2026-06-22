@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-doc-data",
+      "target": "38/plotters",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "plotters-rs/plotters-doc-data"
+}

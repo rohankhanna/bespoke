@@ -91,6 +91,18 @@
       "source_repo": "serverless/serverless-python-requirements",
       "status": "candidate-context",
       "text": "Integrate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mafintosh/streamx",
+      "status": "candidate-context",
+      "text": "An iteration of the Node.js core streams with a series of improvements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mafintosh/streamx",
+      "status": "candidate-context",
+      "text": "Integrate"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate",
+      "text": "Integrate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mafintosh/streamx",
       "status": "candidate",
       "text": "Integrate"
     }
@@ -656,11 +674,23 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": ".github/workflows/integrate.yml",
       "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mafintosh/streamx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

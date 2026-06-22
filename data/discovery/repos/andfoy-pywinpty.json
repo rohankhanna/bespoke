@@ -1,0 +1,515 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdist.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdist.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build_arm.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build_arm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release_arm.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release_arm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andfoy/pywinpty",
+      "target": "spyder-ide/pywinpty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "spyder-ide/pywinpty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdist.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdist.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdist.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "sdist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "Wheel preflight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "Windows tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build_arm.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build_arm.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build_arm.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "Windows arm64 tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_release.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "Windows release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release_arm.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_release_arm.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "nuget/setup-nuget@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_release_arm.yml",
+      "source_repo": "andfoy/pywinpty",
+      "target": "Windows release arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "conpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "pywinpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "winpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "winpty-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:23:21.405463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4776
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 652
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1208
+    },
+    {
+      "path": ".github/workflows/sdist.yml",
+      "size": 2514
+    },
+    {
+      "path": ".github/workflows/wheel_preflight.yml",
+      "size": 5118
+    },
+    {
+      "path": ".github/workflows/windows_build.yml",
+      "size": 3866
+    },
+    {
+      "path": ".github/workflows/windows_build_arm.yml",
+      "size": 4015
+    },
+    {
+      "path": ".github/workflows/windows_release.yml",
+      "size": 3186
+    },
+    {
+      "path": ".github/workflows/windows_release_arm.yml",
+      "size": 3465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pseudoterminals for Windows in Python",
+    "fork": false,
+    "full_name": "andfoy/pywinpty",
+    "html_url": "https://github.com/andfoy/pywinpty",
+    "language": "Python",
+    "pushed_at": "2026-06-19T02:22:13Z",
+    "stargazers_count": 158,
+    "topics": [
+      "bindings",
+      "conda",
+      "conpty",
+      "console",
+      "pty",
+      "python",
+      "pywinpty",
+      "rust",
+      "windows",
+      "winpty",
+      "winpty-library",
+      "wrapper"
+    ],
+    "updated_at": "2026-06-11T00:13:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spyder-ide/pywinpty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spyder-ide/pywinpty",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "sdist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdist.yml",
+      "term": "sdist"
+    },
+    {
+      "context_snippet": "Wheel preflight",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel_preflight.yml",
+      "term": "Wheel preflight"
+    },
+    {
+      "context_snippet": "Windows tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build.yml",
+      "term": "Windows tests"
+    },
+    {
+      "context_snippet": "Windows arm64 tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build_arm.yml",
+      "term": "Windows arm64 tests"
+    },
+    {
+      "context_snippet": "Windows release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_release.yml",
+      "term": "Windows release"
+    },
+    {
+      "context_snippet": "Windows release arm64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_release_arm.yml",
+      "term": "Windows release arm64"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindings"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conpty"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pywinpty"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winpty"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winpty-library"
+    },
+    {
+      "context_snippet": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

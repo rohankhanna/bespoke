@@ -403,6 +403,30 @@
       "source_repo": "yeesian/ArchGDAL.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/yeesian/ArchGDAL.jl/workflows/CI/badge.svg)](https://github.com/yeesian/ArchGDAL.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "Exposing unsafe FFI for Clipper2 library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "A polygon Clipping and Offsetting library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +627,18 @@
       "source_repo": "yeesian/ArchGDAL.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/yeesian/ArchGDAL.jl/workflows/CI/badge.svg)](https://github.com/yeesian/ArchGDAL.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_related_terms": [
@@ -1192,11 +1228,23 @@
       "observed_at": "2026-05-25T07:45:58.058620+00:00",
       "source_file": null,
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2c-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-25T07:45:58.058620+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

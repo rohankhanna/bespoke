@@ -68,6 +68,31 @@
     {
       "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yml"
     },
     {
@@ -76,42 +101,42 @@
       "source_file": ".github/workflows/dependency-review.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/setup-java@v4",
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/setup-node@v4",
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/configure-pages@v4",
+      "component": "actions/configure-pages@1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/upload-pages-artifact@v3",
+      "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "actions/deploy-pages@v4",
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
@@ -156,71 +181,52 @@
       "source_file": ".github/workflows/early-access.yml"
     },
     {
-      "component": "styfle/cancel-workflow-action@0.12.1",
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-java@v4",
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "jreleaser/release-action@90ac653bb9c79d11179e65d81499f3f34527dcd5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "jreleaser/release-action@v2",
+      "component": "jreleaser/release-action@90ac653bb9c79d11179e65d81499f3f34527dcd5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "jreleaser/release-action@v2",
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml"
-    },
-    {
-      "component": "peter-evans/repository-dispatch@v2",
+      "component": "peter-evans/repository-dispatch@bf47d102fdb849e755b0b0023ea3e81a44b6f570",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-om/redis-om-spring",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redislabs-training/mod-devcap-redisjson-getting-started",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
@@ -281,49 +287,49 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/setup-java@v4",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/setup-node@v4",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/configure-pages@v4",
+      "target": "actions/configure-pages@1f0c5cde4bc74cd7e1254d0cb4de8d49e9068c7d",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/upload-pages-artifact@v3",
+      "target": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/deploy-pages@v4",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
       "target_type": "component"
     },
     {
@@ -386,49 +392,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/checkout@v4",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/setup-java@v4",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/cache@v4",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "actions/upload-artifact@v4",
+      "target": "jreleaser/release-action@90ac653bb9c79d11179e65d81499f3f34527dcd5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "redis/redis-om-spring",
-      "target": "jreleaser/release-action@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "redis/redis-om-spring",
-      "target": "peter-evans/repository-dispatch@v2",
+      "target": "peter-evans/repository-dispatch@bf47d102fdb849e755b0b0023ea3e81a44b6f570",
       "target_type": "component"
     },
     {
@@ -460,7 +459,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T02:16:52.736742+00:00",
+  "fetched_at": "2026-06-22T08:43:05.021738+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -468,7 +467,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 3844
+      "size": 5367
     },
     {
       "path": ".github/workflows/dependency-review.yml",
@@ -476,7 +475,7 @@
     },
     {
       "path": ".github/workflows/docs.yml",
-      "size": 5220
+      "size": 5572
     },
     {
       "path": ".github/workflows/early-access.yml",
@@ -484,7 +483,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 3421
+      "size": 3870
     }
   ],
   "related_repositories": [],
@@ -496,27 +495,16 @@
     "full_name": "redis/redis-om-spring",
     "html_url": "https://github.com/redis/redis-om-spring",
     "language": "Java",
-    "pushed_at": "2026-05-29T21:46:32Z",
-    "stargazers_count": 652,
+    "pushed_at": "2026-06-19T21:15:55Z",
+    "stargazers_count": 654,
     "topics": [
       "java",
       "redis",
       "spring"
     ],
-    "updated_at": "2026-05-29T21:45:21Z"
+    "updated_at": "2026-06-19T19:46:13Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-om/redis-om-spring",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redislabs-training/mod-devcap-redisjson-getting-started",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build",

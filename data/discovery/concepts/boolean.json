@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "boolean"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "Exposing unsafe FFI for Clipper2 library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "A polygon Clipping and Offsetting library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990005,
+      "status": "candidate",
+      "text": "logic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987239,
+      "status": "candidate",
+      "text": "logical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050844,
+      "status": "candidate",
+      "text": "dichotomous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050843,
+      "status": "candidate",
+      "text": "bivalent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050842,
+      "status": "candidate",
+      "text": "bitwise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "boolean",
+  "concept_id": "boolean",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2c-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boolean",
+      "sense_id": "boolean#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

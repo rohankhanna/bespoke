@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1442,6 +1442,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-llamacpp-update.yaml",
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "OpenHands/agent-canvas"
     }
   ]
 }

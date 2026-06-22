@@ -247,6 +247,42 @@
       "source_repo": "juji-io/editscript",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "Exposing unsafe FFI for Clipper2 library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "Polygon Clipping, Offsetting & Triangulation in  C++, C# and Delphi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "A polygon Clipping and Offsetting library for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate-context",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "juji-io/editscript",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2c-sys",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2c-sys.svg)](https://crates.io/crates/clipper2c-sys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate",
+      "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tirithen/clipper2",
+      "status": "candidate",
+      "text": "[![crate.io](https://img.shields.io/crates/v/clipper2.svg)](https://crates.io/crates/clipper2)"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +601,29 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "juji-io/editscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2c-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "AngusJohnson/Clipper2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "tirithen/clipper2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

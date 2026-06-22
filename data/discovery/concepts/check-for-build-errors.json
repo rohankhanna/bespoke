@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check For Build Errors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate-context",
+      "text": "A Rust machine learning framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate-context",
+      "text": "Check For Build Errors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ml/linfa",
+      "status": "candidate",
+      "text": "Check For Build Errors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34767,
+      "status": "candidate",
+      "text": "checksum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34731,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34731,
+      "status": "candidate",
+      "text": "vet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34612,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26692,
+      "status": "candidate",
+      "text": "proof"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check For Build Errors",
+  "concept_id": "check-for-build-errors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/checking.yml",
+      "source_repo": "rust-ml/linfa"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check For Build Errors",
+      "sense_id": "check-for-build-errors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

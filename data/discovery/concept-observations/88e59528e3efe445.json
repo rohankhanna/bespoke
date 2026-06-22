@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create and spawn processes inside a pseudoterminal in Windows from Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11734,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "clerestory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "curtain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "daylight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10874,
+      "status": "candidate",
+      "text": "defenestration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows release",
+      "sense_id": "windows-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows-release",
+  "observation_id": "88e59528e3efe445",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "Windows release",
+  "source_context_snippet": "Windows release",
+  "source_file": ".github/workflows/windows_release.yml",
+  "source_repo": "andfoy/winpty-rs",
+  "source_repo_description": "Create and spawn processes inside a pseudoterminal in Windows from Rust"
+}

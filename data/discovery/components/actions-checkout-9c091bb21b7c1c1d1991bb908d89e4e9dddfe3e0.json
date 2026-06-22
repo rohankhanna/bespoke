@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -132,6 +132,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/aspire-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-cross-functional-issues.yml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licence_updater.yaml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-security-lint.yaml",
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick.yml",
+      "source_repo": "podman-container-tools/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "podman-container-tools/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-bump.yml",
+      "source_repo": "podman-container-tools/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/first_contrib_cert_generator.yml",
+      "source_repo": "podman-container-tools/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/managed-configuration-template.yaml",
+      "source_repo": "podman-desktop/podman-desktop"
     }
   ]
 }

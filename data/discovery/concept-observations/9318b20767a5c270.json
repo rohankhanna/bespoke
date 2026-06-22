@@ -48,7 +48,7 @@
   "normalized_form": "game-development",
   "observation_id": "9318b20767a5c270",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-06-22T00:52:01.139311+00:00",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
   "observed_text": "game-development",
   "source_context_snippet": "[profile.dev] # Skips type/variable debug metadata while keeping file:line info for backtraces. Saves 1-4% build time on clean dev builds. debug = \"line-tables-only\" [workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macro\u2026",
   "source_file": null,

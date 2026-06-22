@@ -118,7 +118,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:58:11.265485+00:00",
+  "fetched_at": "2026-06-22T10:52:21.912343+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,7 +147,7 @@
     "html_url": "https://github.com/crytic/pyevmasm",
     "language": "Python",
     "pushed_at": "2026-04-17T13:27:15Z",
-    "stargazers_count": 386,
+    "stargazers_count": 387,
     "topics": [
       "assembler",
       "dissassembler",
@@ -155,7 +155,7 @@
       "evm",
       "python"
     ],
-    "updated_at": "2026-04-14T04:50:44Z"
+    "updated_at": "2026-06-20T15:06:02Z"
   },
   "repo_links": [],
   "terms": [

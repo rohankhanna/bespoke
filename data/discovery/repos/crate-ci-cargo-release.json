@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/audit.yml"
     },
     {
-      "component": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "component": "EmbarkStudios/cargo-deny-action@bb137d7af7e4fb67e5f82a49c4fce4fad40782fe",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/audit.yml"
     },
     {
-      "component": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "component": "EmbarkStudios/cargo-deny-action@bb137d7af7e4fb67e5f82a49c4fce4fad40782fe",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml"
     },
@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/audit.yml"
     },
     {
-      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "component": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
+      "component": "taiki-e/install-action@e49978b799e49ff429d162b7a30601a569ab6538",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -66,37 +66,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "component": "taiki-e/install-action@e49978b799e49ff429d162b7a30601a569ab6538",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -131,7 +101,37 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/pre-commit.yml"
     },
     {
-      "component": "j178/prek-action@53276d8b0d10f8b6672aa85b4588c6921d0370cc",
+      "component": "j178/prek-action@bdca6f102f98e2b4c7029491a53dfd366469e33d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yml"
     },
@@ -211,7 +211,7 @@
       "source_file": ".github/workflows/rust-next.yml"
     },
     {
-      "component": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
+      "component": "taiki-e/install-action@e49978b799e49ff429d162b7a30601a569ab6538",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-next.yml"
     },
@@ -231,7 +231,7 @@
       "source_file": ".github/workflows/rust-next.yml"
     },
     {
-      "component": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
+      "component": "taiki-e/install-action@e49978b799e49ff429d162b7a30601a569ab6538",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-next.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/spelling.yml"
     },
     {
-      "component": "crate-ci/typos@bbaefadf97b0ec5fdc942684b647f1a6ab250274",
+      "component": "crate-ci/typos@f8a58b6b53f2279f71eb605f03a4ae4d10608f45",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spelling.yml"
     }
@@ -265,14 +265,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "EmbarkStudios/cargo-deny-action@3fd3802e88374d3fe9159b834c7714ec57d6c979",
+      "target": "EmbarkStudios/cargo-deny-action@bb137d7af7e4fb67e5f82a49c4fce4fad40782fe",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target": "zizmorcore/zizmor-action@5f14fd08f7cf1cb1609c1e344975f152c7ee938d",
       "target_type": "component"
     },
     {
@@ -307,14 +307,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
+      "target": "taiki-e/install-action@e49978b799e49ff429d162b7a30601a569ab6538",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa",
       "target_type": "component"
     },
     {
@@ -377,7 +377,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "j178/prek-action@53276d8b0d10f8b6672aa85b4588c6921d0370cc",
+      "target": "j178/prek-action@bdca6f102f98e2b4c7029491a53dfd366469e33d",
       "target_type": "component"
     },
     {
@@ -412,7 +412,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-next.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "taiki-e/install-action@97a5807a604e12de3a13b52d868ebecaeeea757c",
+      "target": "taiki-e/install-action@e49978b799e49ff429d162b7a30601a569ab6538",
       "target_type": "component"
     },
     {
@@ -433,7 +433,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "crate-ci/typos@bbaefadf97b0ec5fdc942684b647f1a6ab250274",
+      "target": "crate-ci/typos@f8a58b6b53f2279f71eb605f03a4ae4d10608f45",
       "target_type": "component"
     },
     {
@@ -465,7 +465,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T01:54:16.840963+00:00",
+  "fetched_at": "2026-06-22T08:22:10.584763+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -517,14 +517,14 @@
     "full_name": "crate-ci/cargo-release",
     "html_url": "https://github.com/crate-ci/cargo-release",
     "language": "Rust",
-    "pushed_at": "2026-05-27T06:09:52Z",
-    "stargazers_count": 1561,
+    "pushed_at": "2026-06-15T15:27:14Z",
+    "stargazers_count": 1569,
     "topics": [
       "cargo",
       "cargo-subcommand",
       "rust"
     ],
-    "updated_at": "2026-05-29T08:05:58Z"
+    "updated_at": "2026-06-21T14:57:52Z"
   },
   "repo_links": [
     {

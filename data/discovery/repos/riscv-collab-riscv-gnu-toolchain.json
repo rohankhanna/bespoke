@@ -3,46 +3,6 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/cache@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/cache/restore@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/cache/restore@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/cache/save@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nightly-release.yaml"
     },
     {
@@ -63,48 +23,6 @@
       "source_repo": "riscv-collab/riscv-gnu-toolchain",
       "target": "riscv/riscv-gnu-toolchain",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache/restore@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/cache/save@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "actions/upload-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "source_repo": "riscv-collab/riscv-gnu-toolchain",
-      "target": "Build",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-name",
@@ -142,15 +60,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:58:41.973398+00:00",
+  "fetched_at": "2026-06-22T11:21:25.510461+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 22052
-    },
-    {
-      "path": ".github/workflows/build-reusable.yaml",
-      "size": 10687
     },
     {
       "path": ".github/workflows/build.yaml",
@@ -170,10 +84,10 @@
     "full_name": "riscv-collab/riscv-gnu-toolchain",
     "html_url": "https://github.com/riscv-collab/riscv-gnu-toolchain",
     "language": "C",
-    "pushed_at": "2026-05-27T09:01:05Z",
-    "stargazers_count": 4512,
+    "pushed_at": "2026-06-06T04:00:50Z",
+    "stargazers_count": 4537,
     "topics": [],
-    "updated_at": "2026-05-30T02:39:47Z"
+    "updated_at": "2026-06-20T07:45:31Z"
   },
   "repo_links": [
     {
@@ -183,12 +97,6 @@
     }
   ],
   "terms": [
-    {
-      "context_snippet": "Build",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-reusable.yaml",
-      "term": "Build"
-    },
     {
       "context_snippet": "Build",
       "edge_type": "workflow-name",

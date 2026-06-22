@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "build-and-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-encoderfiles.yml",
+      "source_repo": "mozilla-ai/otari-anyguardrail-container",
+      "target": "package-encoderfiles",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "mozilla-ai/otari-anyguardrail-container"
+}

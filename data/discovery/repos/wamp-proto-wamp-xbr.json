@@ -96,16 +96,6 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/deploy.yml.orig"
-    },
-    {
-      "component": "actions/setup-python@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/deploy.yml.orig"
-    },
-    {
       "component": "wamp-proto/wamp-cicd/.github/workflows/identifiers.yml@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
@@ -434,27 +424,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/deploy.yml.orig",
-      "source_repo": "wamp-proto/wamp-xbr",
-      "target": "actions/checkout@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/deploy.yml.orig",
-      "source_repo": "wamp-proto/wamp-xbr",
-      "target": "actions/setup-python@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/deploy.yml.orig",
-      "source_repo": "wamp-proto/wamp-xbr",
-      "target": "deploy",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "wamp-proto/wamp-xbr",
       "target": "wamp-proto/wamp-cicd/.github/workflows/identifiers.yml@main",
@@ -636,7 +605,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:57:24.268304+00:00",
+  "fetched_at": "2026-06-22T10:51:30.549190+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -648,11 +617,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 8171
-    },
-    {
-      "path": ".github/workflows/deploy.yml.orig",
-      "size": 2807
+      "size": 8168
     },
     {
       "path": ".github/workflows/main.yml",
@@ -660,11 +625,11 @@
     },
     {
       "path": ".github/workflows/release-post-comment.yml",
-      "size": 10056
+      "size": 7889
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 12744
+      "size": 12660
     }
   ],
   "related_repositories": [],
@@ -676,7 +641,7 @@
     "full_name": "wamp-proto/wamp-xbr",
     "html_url": "https://github.com/wamp-proto/wamp-xbr",
     "language": "Python",
-    "pushed_at": "2026-02-26T16:56:26Z",
+    "pushed_at": "2026-06-19T18:12:58Z",
     "stargazers_count": 11,
     "topics": [
       "autobahn",
@@ -686,7 +651,7 @@
       "wamp",
       "wamp-protocol"
     ],
-    "updated_at": "2025-12-17T18:53:02Z"
+    "updated_at": "2026-06-19T16:34:42Z"
   },
   "repo_links": [
     {
@@ -696,12 +661,6 @@
     }
   ],
   "terms": [
-    {
-      "context_snippet": "deploy",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/deploy.yml.orig",
-      "term": "deploy"
-    },
     {
       "context_snippet": "main",
       "edge_type": "workflow-name",

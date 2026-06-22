@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:57:49.069832+00:00",
+  "fetched_at": "2026-06-22T11:46:20.830567+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +72,7 @@
     "html_url": "https://github.com/taichi-dev/difftaichi",
     "language": null,
     "pushed_at": "2023-11-01T09:01:54Z",
-    "stargazers_count": 2730,
+    "stargazers_count": 2729,
     "topics": [
       "differentiable-programming",
       "gpu",
@@ -81,7 +81,7 @@
       "simulation",
       "taichi"
     ],
-    "updated_at": "2026-06-19T15:34:14Z"
+    "updated_at": "2026-06-22T03:41:10Z"
   },
   "repo_links": [
     {

@@ -43,6 +43,18 @@
       "source_repo": "jonschlinkert/eval-estree-expression",
       "status": "candidate-context",
       "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-govaluate",
+      "status": "candidate-context",
+      "text": "Arbitrary expression evaluation for golang, maintained by Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-govaluate",
+      "status": "candidate-context",
+      "text": "govaluate"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jonschlinkert/eval-estree-expression",
       "status": "candidate",
       "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-govaluate",
+      "status": "candidate",
+      "text": "govaluate"
     }
   ],
   "candidate_related_terms": [
@@ -138,11 +156,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-govaluate"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

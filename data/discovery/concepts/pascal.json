@@ -79,6 +79,18 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate-context",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "Polygon Clipping, Offsetting & Triangulation in  C++, C# and Delphi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "salvadordf/CEF4Delphi",
       "status": "candidate",
       "text": "CEF4Delphi is an open source project created by Salvador D\u00edaz Fau to embed Chromium-based browsers in applications made with [Delphi](https://www.embarcadero.com/products/delphi/starter) or [Lazarus/FPC](https://www.lazarus-ide.org/) for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AngusJohnson/Clipper2",
+      "status": "candidate",
+      "text": "[![GitHub Actions C++ status](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml/badge.svg)](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_cpp.yml)&nbsp;[![C#](https://github.com/AngusJohnson/Clipper2/actions/workflows/actions_csharp.\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -628,11 +646,23 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "lmbelo/python4delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "AngusJohnson/Clipper2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

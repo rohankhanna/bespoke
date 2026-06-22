@@ -46,14 +46,14 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@v2",
+      "component": "holepunchto/actions/node-base@v1",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml"
+      "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@v2",
+      "component": "holepunchto/actions/bare-base@v1",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml"
+      "source_file": ".github/workflows/ci.yml"
     }
   ],
   "edges": [
@@ -129,27 +129,27 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "mafintosh/streamx",
-      "target": "actions/checkout@v2",
+      "target": "holepunchto/actions/node-base@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "mafintosh/streamx",
-      "target": "actions/setup-node@v2",
+      "target": "holepunchto/actions/bare-base@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "mafintosh/streamx",
-      "target": "Build Status",
+      "target": "Integrate",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:59:47.392780+00:00",
+  "fetched_at": "2026-06-22T11:22:23.499094+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -157,11 +157,11 @@
     },
     {
       "path": "package.json",
-      "size": 1074
+      "size": 1225
     },
     {
-      "path": ".github/workflows/test.yml",
-      "size": 512
+      "path": ".github/workflows/ci.yml",
+      "size": 608
     }
   ],
   "related_repositories": [],
@@ -173,10 +173,10 @@
     "full_name": "mafintosh/streamx",
     "html_url": "https://github.com/mafintosh/streamx",
     "language": "JavaScript",
-    "pushed_at": "2026-05-26T18:01:29Z",
+    "pushed_at": "2026-06-12T16:30:23Z",
     "stargazers_count": 239,
     "topics": [],
-    "updated_at": "2026-05-26T18:00:27Z"
+    "updated_at": "2026-06-12T16:30:31Z"
   },
   "repo_links": [
     {
@@ -187,10 +187,10 @@
   ],
   "terms": [
     {
-      "context_snippet": "Build Status",
+      "context_snippet": "Integrate",
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test.yml",
-      "term": "Build Status"
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Integrate"
     }
   ]
 }

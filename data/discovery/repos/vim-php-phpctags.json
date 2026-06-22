@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:21:26.391996+00:00",
+  "fetched_at": "2026-06-22T09:44:09.474288+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,14 +47,14 @@
     "html_url": "https://github.com/vim-php/phpctags",
     "language": "PHP",
     "pushed_at": "2026-01-28T01:02:57Z",
-    "stargazers_count": 264,
+    "stargazers_count": 265,
     "topics": [
       "hacktoberfest",
       "php",
       "php-parser",
       "phpctags"
     ],
-    "updated_at": "2025-09-17T03:21:13Z"
+    "updated_at": "2026-06-17T08:17:10Z"
   },
   "repo_links": [
     {

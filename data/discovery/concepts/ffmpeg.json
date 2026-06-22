@@ -211,6 +211,18 @@
       "source_repo": "PyAV-Org/PyAV",
       "status": "candidate-context",
       "text": "PyAV"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "status": "candidate-context",
+      "text": "Works based on L-SMASH project; This repo focuses on the common portion and the VapourSynth plugin. AviSynth users please use https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works. ffmpeg 5.0+ please use ffmpeg-4.5 branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "PyAV-Org/PyAV",
       "status": "candidate",
       "text": "PyAV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -460,11 +478,17 @@
       "observed_at": "2026-05-19T13:24:05.041483+00:00",
       "source_file": null,
       "source_repo": "PyAV-Org/PyAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "AkarinVS/L-SMASH-Works"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-19T13:24:05.041483+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

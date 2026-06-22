@@ -78,7 +78,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T07:12:32.435932+00:00",
+  "fetched_at": "2026-06-22T09:33:00.685573+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -99,7 +99,7 @@
     "html_url": "https://github.com/baidu/braft",
     "language": "C++",
     "pushed_at": "2024-10-25T07:22:09Z",
-    "stargazers_count": 4215,
+    "stargazers_count": 4216,
     "topics": [
       "distributed-consensus",
       "distributed-storage",
@@ -110,7 +110,7 @@
       "raft-protocol",
       "state-machine-replication"
     ],
-    "updated_at": "2026-05-25T08:44:06Z"
+    "updated_at": "2026-06-22T08:56:41Z"
   },
   "repo_links": [
     {

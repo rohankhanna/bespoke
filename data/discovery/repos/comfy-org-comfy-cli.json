@@ -11,6 +11,16 @@
       "source_file": ".github/workflows/build-and-test.yml"
     },
     {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
       "component": "Comfy-Org/github-workflows/.github/workflows/detect-unreviewed-merge.yml@4d9cb6b87f953bb7cd69954280e1465fb9bd2040",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/detect-unreviewed-merge.yml"
@@ -89,16 +99,6 @@
       "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-mac.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-windows.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-windows.yml"
     }
   ],
   "edges": [
@@ -135,6 +135,27 @@
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "Comfy-Org/comfy-cli",
       "target": "Test CLI Tool on Multiple Platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "target": "CLA Assistant",
       "target_type": "term"
     },
     {
@@ -278,27 +299,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-windows.yml",
-      "source_repo": "Comfy-Org/comfy-cli",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-windows.yml",
-      "source_repo": "Comfy-Org/comfy-cli",
-      "target": "actions/setup-python@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-windows.yml",
-      "source_repo": "Comfy-Org/comfy-cli",
-      "target": "Windows Specific Commands",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli",
@@ -320,7 +320,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T01:11:10.430775+00:00",
+  "fetched_at": "2026-06-22T10:34:03.723020+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -333,6 +333,10 @@
     {
       "path": ".github/workflows/build-and-test.yml",
       "size": 1497
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 3112
     },
     {
       "path": ".github/workflows/detect-unreviewed-merge.yml",
@@ -357,10 +361,6 @@
     {
       "path": ".github/workflows/test-mac.yml",
       "size": 754
-    },
-    {
-      "path": ".github/workflows/test-windows.yml",
-      "size": 839
     }
   ],
   "related_repositories": [],
@@ -372,15 +372,15 @@
     "full_name": "Comfy-Org/comfy-cli",
     "html_url": "https://github.com/Comfy-Org/comfy-cli",
     "language": "Python",
-    "pushed_at": "2026-06-22T01:07:57Z",
-    "stargazers_count": 851,
+    "pushed_at": "2026-06-22T08:47:55Z",
+    "stargazers_count": 852,
     "topics": [
       "ai",
       "comfyui",
       "command-line",
       "stable-diffusion"
     ],
-    "updated_at": "2026-06-22T01:08:01Z"
+    "updated_at": "2026-06-22T08:47:57Z"
   },
   "repo_links": [
     {
@@ -400,6 +400,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-and-test.yml",
       "term": "Test CLI Tool on Multiple Platforms"
+    },
+    {
+      "context_snippet": "CLA Assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
     },
     {
       "context_snippet": "Detect Unreviewed Merge",
@@ -430,12 +436,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test-mac.yml",
       "term": "Mac Specific Commands"
-    },
-    {
-      "context_snippet": "\"Windows Specific Commands\"",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-windows.yml",
-      "term": "Windows Specific Commands"
     },
     {
       "context_snippet": "[![Run pytest](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml/badge.svg)](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml)",

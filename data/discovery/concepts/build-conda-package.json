@@ -439,6 +439,18 @@
       "source_repo": "conda-forge/python-build-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/numba-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for numba."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/numba-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -655,6 +667,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/python-build-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/numba-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -916,11 +934,17 @@
       "observed_at": "2026-05-26T13:17:40.210760+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/python-build-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/numba-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-26T13:17:40.210760+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

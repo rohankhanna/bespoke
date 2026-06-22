@@ -72,26 +72,26 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "mafintosh/streamx",
-      "target": "actions/checkout@v2",
+      "target": "holepunchto/actions/node-base@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "mafintosh/streamx",
-      "target": "actions/setup-node@v2",
+      "target": "holepunchto/actions/bare-base@v1",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test.yml",
+      "source_file": ".github/workflows/ci.yml",
       "source_repo": "mafintosh/streamx",
-      "target": "Build Status",
+      "target": "Integrate",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "mafintosh/streamx"
 }

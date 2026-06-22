@@ -19,6 +19,18 @@
       "source_repo": "DeadSix27/waifu2x-converter-cpp",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/badge/Discord-Join-blue.svg)](https://discord.gg/jCAFvHM2WK) :: [![Downloads522](https://img.shields.io/github/downloads/DeadSix27/waifu2x-converter-cpp/latest/total.svg)](https://github.com/DeadSix27/waifu2x-converter-cpp/releases) :: [![Total\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/traiNNer-redux",
+      "status": "candidate-context",
+      "text": "Deep learning training framework for image super resolution and restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/traiNNer-redux",
+      "status": "candidate-context",
+      "text": "![redux3](https://github.com/user-attachments/assets/d107b2fc-6b68-4d3e-b08d-82c8231796cb)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DeadSix27/waifu2x-converter-cpp",
       "status": "candidate",
       "text": "[![Discord](https://img.shields.io/badge/Discord-Join-blue.svg)](https://discord.gg/jCAFvHM2WK) :: [![Downloads522](https://img.shields.io/github/downloads/DeadSix27/waifu2x-converter-cpp/latest/total.svg)](https://github.com/DeadSix27/waifu2x-converter-cpp/releases) :: [![Total\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/traiNNer-redux",
+      "status": "candidate",
+      "text": "![redux3](https://github.com/user-attachments/assets/d107b2fc-6b68-4d3e-b08d-82c8231796cb)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "DeadSix27/waifu2x-converter-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/traiNNer-redux"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -11,7 +11,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -50,7 +50,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "PyCQA/eradicate",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -68,7 +68,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:51:43.628876+00:00",
+  "fetched_at": "2026-06-22T10:45:48.958306+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -88,10 +88,10 @@
     "full_name": "PyCQA/eradicate",
     "html_url": "https://github.com/PyCQA/eradicate",
     "language": "Python",
-    "pushed_at": "2025-11-21T07:14:28Z",
+    "pushed_at": "2026-06-19T06:09:52Z",
     "stargazers_count": 218,
     "topics": [],
-    "updated_at": "2026-04-30T16:27:45Z"
+    "updated_at": "2026-06-19T06:09:48Z"
   },
   "repo_links": [
     {

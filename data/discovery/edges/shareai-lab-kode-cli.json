@@ -9,13 +9,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "vercel-labs/add-skill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
       "target": "shareai-lab/kode",
@@ -82,13 +75,6 @@
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
       "target": "@types/react",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "@vscode/ripgrep",
       "target_type": "component"
     },
     {
@@ -375,6 +361,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
       "target": "zod",
       "target_type": "component"
     },
@@ -383,6 +376,160 @@
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
       "target": "zod-to-json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/lang-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/lang-html",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/lang-javascript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/lang-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/lang-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/lang-python",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@codemirror/theme-one-dark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-accordion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-checkbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-collapsible",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-dialog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-dropdown-menu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-radio-group",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-scroll-area",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-separator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-slot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-tabs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@radix-ui/react-tooltip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@tailwindcss/postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@tailwindcss/typography",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@eslint/js",
       "target_type": "component"
     },
     {
@@ -417,14 +564,35 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "@typescript-eslint/eslint-plugin",
+      "target": "@uiw/react-codemirror",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "@typescript-eslint/parser",
+      "target": "@vitejs/plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@xterm/addon-fit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@xterm/xterm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "autoprefixer",
       "target_type": "component"
     },
     {
@@ -438,6 +606,20 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "class-variance-authority",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "clsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
       "target": "esbuild",
       "target_type": "component"
     },
@@ -445,14 +627,21 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "eslint",
+      "target": "lucide-react",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "eslint-plugin-react-hooks",
+      "target": "next-themes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "postcss",
       "target_type": "component"
     },
     {
@@ -473,7 +662,91 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "react-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "react-resizable-panels",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "remark-gfm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "tailwind-merge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "tailwindcss-animate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
       "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "eslint-plugin-react-hooks",
       "target_type": "component"
     },
     {
@@ -487,7 +760,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "oven-sh/setup-bun@v1",
+      "target": "oven-sh/setup-bun@v2",
       "target_type": "component"
     },
     {
@@ -508,7 +781,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dev-release.yml",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "oven-sh/setup-bun@v1",
+      "target": "oven-sh/setup-bun@v2",
       "target_type": "component"
     },
     {
@@ -557,7 +830,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "oven-sh/setup-bun@v1",
+      "target": "oven-sh/setup-bun@v2",
       "target_type": "component"
     },
     {
@@ -606,7 +879,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "oven-sh/setup-bun@v1",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-CLI",
+      "target": "actions/github-script@v7",
       "target_type": "component"
     },
     {
@@ -634,10 +914,10 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/version-bump.yml",
       "source_repo": "shareAI-lab/Kode-CLI",
-      "target": "Version Bump",
+      "target": "Version Bump (no tag)",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "shareAI-lab/Kode-CLI"
 }

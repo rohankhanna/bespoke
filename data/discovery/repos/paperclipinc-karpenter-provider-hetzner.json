@@ -1,0 +1,455 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "anchore/sbom-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "hetznercloud/hcloud-cloud-controller-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "sigstore/cosign-installer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "anchore/sbom-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "actions/checkout@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "autoscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "cloud-provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "hetzner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "hetzner-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "karpenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "node-autoscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "target": "talos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T10:24:26.586999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10708
+    },
+    {
+      "path": "Dockerfile",
+      "size": 574
+    },
+    {
+      "path": "go.mod",
+      "size": 3910
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2022
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2031
+    },
+    {
+      "path": ".github/workflows/security.yaml",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Karpenter cloud provider for Hetzner Cloud",
+    "fork": false,
+    "full_name": "paperclipinc/karpenter-provider-hetzner",
+    "html_url": "https://github.com/paperclipinc/karpenter-provider-hetzner",
+    "language": "Go",
+    "pushed_at": "2026-06-21T08:20:00Z",
+    "stargazers_count": 1,
+    "topics": [
+      "autoscaling",
+      "cloud-provider",
+      "golang",
+      "hetzner",
+      "hetzner-cloud",
+      "karpenter",
+      "kubernetes",
+      "node-autoscaling",
+      "talos"
+    ],
+    "updated_at": "2026-06-21T21:07:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hetznercloud/hcloud-cloud-controller-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yaml",
+      "term": "Security"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoscaling"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-provider"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hetzner"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hetzner-cloud"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karpenter"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-autoscaling"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talos"
+    }
+  ]
+}

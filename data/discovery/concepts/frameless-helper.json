@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "frameless-helper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wangwenx190/framelesshelper",
+      "status": "candidate-context",
+      "text": "Project moved to: https://github.com/stdware/qwindowkit           Cross-platform window customization framework for Qt Widgets and Qt Quick. Supports Windows, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangwenx190/framelesshelper",
+      "status": "candidate-context",
+      "text": "[![CI: Build Test](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdware/qwindowkit",
+      "status": "candidate-context",
+      "text": "Cross-platform frameless window framework for Qt. Support Windows, macOS, Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qwindowkit",
+      "status": "candidate-context",
+      "text": "Cross-platform window customization framework for Qt Widgets and Qt Quick."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangwenx190/framelesshelper",
+      "status": "candidate",
+      "text": "[![CI: Build Test](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qwindowkit",
+      "status": "candidate",
+      "text": "Cross-platform window customization framework for Qt Widgets and Qt Quick."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "frameless-helper",
+  "concept_id": "frameless-helper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "wangwenx190/framelesshelper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frameless-helper",
+      "sense_id": "frameless-helper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

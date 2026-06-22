@@ -2764,6 +2764,30 @@
       "source_repo": "clearml/clearml-agent",
       "status": "candidate-context",
       "text": "ClearML Agent - MLOps/LLMOps made easy. MLOps/LLMOps scheduler & orchestration solution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate-context",
+      "text": "Podman: A tool for managing OCI containers and pods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate-context",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "status": "candidate-context",
+      "text": "Karpenter cloud provider for Hetzner Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -4140,6 +4164,18 @@
       "source_repo": "kelos-dev/kelos",
       "status": "candidate",
       "text": "<h1 align=\"center\">Kelos</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "podman-container-tools/podman",
+      "status": "candidate",
+      "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paperclipinc/karpenter-provider-hetzner",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml/badge.svg)](https://github.com/paperclipinc/karpenter-provider-hetzner/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -9343,11 +9379,71 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "podman-container-tools/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "paperclipinc/karpenter-provider-hetzner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

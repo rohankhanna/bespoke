@@ -6,7 +6,7 @@
       "source_file": "package.json"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -16,47 +16,47 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "component": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "component": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/verify-action-pins.yml"
     }
@@ -80,7 +80,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "karafka/example-apps",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -94,14 +94,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "karafka/example-apps",
-      "target": "ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f",
+      "target": "ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/verify-action-pins.yml",
       "source_repo": "karafka/example-apps",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
@@ -154,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:58:45.560792+00:00",
+  "fetched_at": "2026-06-22T11:21:28.940125+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,7 +182,7 @@
     "full_name": "karafka/example-apps",
     "html_url": "https://github.com/karafka/example-apps",
     "language": "Ruby",
-    "pushed_at": "2026-05-27T16:20:22Z",
+    "pushed_at": "2026-06-18T08:00:06Z",
     "stargazers_count": 58,
     "topics": [
       "kafka",
@@ -192,7 +192,7 @@
       "waterdrop",
       "zookeeper"
     ],
-    "updated_at": "2026-05-27T16:20:25Z"
+    "updated_at": "2026-06-18T08:00:15Z"
   },
   "repo_links": [
     {

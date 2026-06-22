@@ -2662,6 +2662,54 @@
       "source_repo": "microsoft/PowerToys",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate-context",
+      "text": "Pseudoterminals for Windows in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate-context",
+      "text": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wangwenx190/framelesshelper",
+      "status": "candidate-context",
+      "text": "Project moved to: https://github.com/stdware/qwindowkit           Cross-platform window customization framework for Qt Widgets and Qt Quick. Supports Windows, Linux and macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangwenx190/framelesshelper",
+      "status": "candidate-context",
+      "text": "[![CI: Build Test](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "GUI for upscaling ONNX models with NVIDIA TensorRT and Vapoursynth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdware/qwindowkit",
+      "status": "candidate-context",
+      "text": "Cross-platform frameless window framework for Qt. Support Windows, macOS, Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qwindowkit",
+      "status": "candidate-context",
+      "text": "Cross-platform window customization framework for Qt Widgets and Qt Quick."
     }
   ],
   "candidate_glosses": [
@@ -4008,6 +4056,30 @@
       "source_repo": "microsoft/PowerToys",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andfoy/pywinpty",
+      "status": "candidate",
+      "text": "[![Project License - MIT](https://img.shields.io/pypi/l/pywinpty.svg)](./LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wangwenx190/framelesshelper",
+      "status": "candidate",
+      "text": "[![CI: Build Test](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/wangwenx190/framelesshelper/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdware/qwindowkit",
+      "status": "candidate",
+      "text": "Cross-platform window customization framework for Qt Widgets and Qt Quick."
     }
   ],
   "candidate_related_terms": [
@@ -9535,11 +9607,89 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "andfoy/pywinpty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "wangwenx190/framelesshelper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "stdware/qwindowkit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

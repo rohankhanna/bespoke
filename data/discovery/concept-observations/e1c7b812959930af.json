@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clever Cloud Karpenter Provider "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GIT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GIT"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006694,
+      "status": "candidate",
+      "text": "slob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981133,
+      "status": "candidate",
+      "text": "show-off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971689,
+      "status": "candidate",
+      "text": "twat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950284,
+      "status": "candidate",
+      "text": "scram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924668,
+      "status": "candidate",
+      "text": "beginning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GIT",
+      "sense_id": "git#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "git",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "git",
+  "observation_id": "e1c7b812959930af",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
+  "observed_text": "GIT",
+  "source_context_snippet": "GIT",
+  "source_file": ".github/workflows/git.yaml",
+  "source_repo": "CleverCloud/karpenter-provider-clever-cloud",
+  "source_repo_description": "Clever Cloud Karpenter Provider "
+}

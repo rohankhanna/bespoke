@@ -19,12 +19,30 @@
       "source_repo": "InftyAI/llmaz",
       "status": "candidate-context",
       "text": "Deploy Hugo site to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "status": "candidate-context",
+      "text": "Specification and\u00a0documentation for the Model Context Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "status": "candidate-context",
+      "text": "Deploy Hugo site to GitHub Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "InftyAI/llmaz",
+      "status": "candidate",
+      "text": "Deploy Hugo site to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
       "status": "candidate",
       "text": "Deploy Hugo site to GitHub Pages"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/deploy.yaml",
       "source_repo": "InftyAI/llmaz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

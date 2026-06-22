@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml"
+    },
+    {
+      "component": "mlcommons/cla-bot@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlcommons/logging",
+      "target": "mlperf/logging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml",
+      "source_repo": "mlcommons/logging",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml",
+      "source_repo": "mlcommons/logging",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml",
+      "source_repo": "mlcommons/logging",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/logging",
+      "target": "mlcommons/cla-bot@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/logging",
+      "target": "cla-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:57.564302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1744
+    },
+    {
+      "path": ".github/workflows/build_wheel.yml",
+      "size": 2726
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 1930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MLPerf\u2122 logging library",
+    "fork": false,
+    "full_name": "mlcommons/logging",
+    "html_url": "https://github.com/mlcommons/logging",
+    "language": "Python",
+    "pushed_at": "2026-05-27T20:16:16Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-05-27T20:16:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlperf/logging",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"cla-bot\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "cla-bot"
+    }
+  ]
+}

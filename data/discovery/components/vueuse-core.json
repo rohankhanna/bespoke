@@ -1,7 +1,7 @@
 {
   "component": "@vueuse/core",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -212,6 +212,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "AnotiaWang/deep-research-web-ui"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Comfy-Org/Comfy-Desktop"
     }
   ]
 }

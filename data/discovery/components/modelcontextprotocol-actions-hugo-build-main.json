@@ -1,0 +1,17 @@
+{
+  "component": "modelcontextprotocol/actions/hugo-build@main",
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/blog-preview.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol"
+    }
+  ]
+}

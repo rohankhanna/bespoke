@@ -48,7 +48,7 @@
   "normalized_form": "federation-peer-rust",
   "observation_id": "b017f835d90f5822",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T00:52:01.139311+00:00",
+  "observed_at": "2026-06-22T08:16:23.314074+00:00",
   "observed_text": "federation-peer-rust",
   "source_context_snippet": "federation-peer-rust",
   "source_file": ".github/workflows/federation-peer-rust.yml",

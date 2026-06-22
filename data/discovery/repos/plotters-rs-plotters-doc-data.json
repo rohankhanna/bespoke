@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotters-rs/plotters-doc-data",
+      "target": "38/plotters",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:50.418548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The data used by documentation of Plotters drawing library",
+    "fork": false,
+    "full_name": "plotters-rs/plotters-doc-data",
+    "html_url": "https://github.com/plotters-rs/plotters-doc-data",
+    "language": "HTML",
+    "pushed_at": "2022-07-04T00:41:36Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2022-04-27T18:58:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "38/plotters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

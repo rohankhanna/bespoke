@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-17T12:32:36.812189+00:00",
-  "last_seen_at": "2026-05-22T13:06:06.618387+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-duplicate-checker.yml",
       "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-duplicate-checker.yml",
+      "source_repo": "OpenHands/agent-canvas"
     }
   ],
   "term": "Issue Duplicate Check via OpenHands Cloud"

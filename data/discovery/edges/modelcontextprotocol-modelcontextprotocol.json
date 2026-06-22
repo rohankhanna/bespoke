@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "modelcontextprotocol/specification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "ajv-formats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "cheerio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "remark-mdx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "remark-parse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "typescript-json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "unified",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-preview.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-preview.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "modelcontextprotocol/actions/hugo-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-preview.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "modelcontextprotocol/actions/cloudflare-pages-preview/deploy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blog-preview.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "modelcontextprotocol/actions/cloudflare-pages-preview/cleanup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blog-preview.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "Blog Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "Cut spec release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "modelcontextprotocol/actions/hugo-build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-blog.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "Deploy Hugo site to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/labeler@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-format.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-format.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "Publish spec release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-seps.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-seps.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-seps.yml",
+      "source_repo": "modelcontextprotocol/modelcontextprotocol",
+      "target": "Render SEPs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
+  "source_repo": "modelcontextprotocol/modelcontextprotocol"
+}

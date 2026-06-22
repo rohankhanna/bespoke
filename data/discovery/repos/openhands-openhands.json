@@ -138,27 +138,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/incubator-program",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/agent-canvas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/OpenHands",
-      "target": "openhands/automation",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build-image.yml",
       "source_repo": "OpenHands/OpenHands",
@@ -397,7 +376,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T00:54:49.060176+00:00",
+  "fetched_at": "2026-06-22T10:22:01.127851+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -449,8 +428,8 @@
     "full_name": "OpenHands/OpenHands",
     "html_url": "https://github.com/OpenHands/OpenHands",
     "language": "Python",
-    "pushed_at": "2026-06-21T15:58:16Z",
-    "stargazers_count": 77936,
+    "pushed_at": "2026-06-22T10:11:56Z",
+    "stargazers_count": 77983,
     "topics": [
       "agent",
       "artificial-intelligence",
@@ -462,25 +441,9 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-06-22T00:50:40Z"
+    "updated_at": "2026-06-22T10:13:02Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openhands/agent-canvas",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openhands/automation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openhands/incubator-program",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build and push multi-arch image",

@@ -620,6 +620,18 @@
       "source_repo": "atuinsh/atuin",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vapoursynth/vapoursynth",
+      "status": "candidate-context",
+      "text": "A video processing framework with simplicity in mind"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vapoursynth/vapoursynth",
+      "status": "candidate-context",
+      "text": "codespell"
     }
   ],
   "candidate_glosses": [
@@ -928,6 +940,12 @@
       "source_repo": "atuinsh/atuin",
       "status": "candidate",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vapoursynth/vapoursynth",
+      "status": "candidate",
+      "text": "codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -1277,11 +1295,17 @@
       "observed_at": "2026-05-14T00:43:26.166349+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "atuinsh/atuin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "vapoursynth/vapoursynth"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-14T00:43:26.166349+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

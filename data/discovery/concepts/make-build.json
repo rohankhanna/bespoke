@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Make Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FFMS/ffms2",
+      "status": "candidate-context",
+      "text": "An FFmpeg based source library and Avisynth/VapourSynth plugin for easy frame accurate access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFMS/ffms2",
+      "status": "candidate-context",
+      "text": "Make Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFMS/ffms2",
+      "status": "candidate",
+      "text": "Make Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30950,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30950,
+      "status": "candidate",
+      "text": "levy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30550,
+      "status": "candidate",
+      "text": "beef up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30550,
+      "status": "candidate",
+      "text": "carpenter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30550,
+      "status": "candidate",
+      "text": "create"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Make Build",
+  "concept_id": "make-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FFMS/ffms2"
+    }
+  ],
+  "first_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Make Build",
+      "sense_id": "make-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

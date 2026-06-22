@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-30T12:57:30.933625+00:00",
+  "fetched_at": "2026-06-22T10:51:39.645882+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -280,13 +280,13 @@
     "full_name": "alloy-rs/svm-rs",
     "html_url": "https://github.com/alloy-rs/svm-rs",
     "language": "Rust",
-    "pushed_at": "2026-05-14T14:45:45Z",
-    "stargazers_count": 285,
+    "pushed_at": "2026-06-15T09:26:45Z",
+    "stargazers_count": 287,
     "topics": [
       "solidity",
       "version-manager"
     ],
-    "updated_at": "2026-05-25T15:16:40Z"
+    "updated_at": "2026-06-18T09:59:33Z"
   },
   "repo_links": [
     {

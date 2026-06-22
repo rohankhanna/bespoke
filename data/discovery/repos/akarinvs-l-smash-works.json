@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "target": "ffmpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AkarinVS/L-SMASH-Works",
+      "target": "vapoursynth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:32.318330+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 3497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Works based on L-SMASH project; This repo focuses on the common portion and the VapourSynth plugin. AviSynth users please use https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works. ffmpeg 5.0+ please use ffmpeg-4.5 branch.",
+    "fork": true,
+    "full_name": "AkarinVS/L-SMASH-Works",
+    "html_url": "https://github.com/AkarinVS/L-SMASH-Works",
+    "language": "C",
+    "pushed_at": "2023-09-05T19:47:16Z",
+    "stargazers_count": 53,
+    "topics": [
+      "ffmpeg",
+      "vapoursynth"
+    ],
+    "updated_at": "2026-03-12T03:56:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ffmpeg"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapoursynth"
+    }
+  ]
+}

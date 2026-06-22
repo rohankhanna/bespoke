@@ -105,13 +105,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "rllm-org/rllm",
-      "target": "fw-ai/cookbook",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "rllm-org/rllm",
@@ -392,7 +385,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:53:54.605033+00:00",
+  "fetched_at": "2026-06-22T11:44:00.284507+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -444,8 +437,8 @@
     "full_name": "rllm-org/rllm",
     "html_url": "https://github.com/rllm-org/rllm",
     "language": "Python",
-    "pushed_at": "2026-06-21T08:44:14Z",
-    "stargazers_count": 5636,
+    "pushed_at": "2026-06-22T09:21:27Z",
+    "stargazers_count": 5637,
     "topics": [
       "agent-framework",
       "agentic-workflow",
@@ -462,18 +455,13 @@
       "tinker",
       "verl"
     ],
-    "updated_at": "2026-06-21T12:08:31Z"
+    "updated_at": "2026-06-22T09:46:07Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "volcengine/verl",
       "source_file": "Dockerfile"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fw-ai/cookbook",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

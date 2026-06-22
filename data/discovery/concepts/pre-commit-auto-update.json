@@ -92,6 +92,18 @@
       "source_repo": "mozilla-ai/tinyagent",
       "status": "candidate-context",
       "text": "pre-commit auto-update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/any-guardrail",
+      "status": "candidate-context",
+      "text": "Guardrails to support any-agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-guardrail",
+      "status": "candidate-context",
+      "text": "pre-commit auto-update"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-ai/tinyagent",
+      "status": "candidate",
+      "text": "pre-commit auto-update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-guardrail",
       "status": "candidate",
       "text": "pre-commit auto-update"
     }
@@ -659,11 +677,23 @@
       "observed_at": "2026-06-21T19:22:13.525033+00:00",
       "source_file": ".github/workflows/precommit-autoupdate.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/precommit-autoupdate.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-guardrail"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-21T19:22:13.525033+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

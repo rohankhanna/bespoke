@@ -151,6 +151,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
+      "target": "@crowdin/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "all-contributors/allcontributors.org",
       "target": "cz-conventional-changelog",
       "target_type": "component"
     },
@@ -170,84 +177,84 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
+      "source_file": ".github/workflows/build-website.yaml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
+      "source_file": ".github/workflows/build-website.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
+      "source_file": ".github/workflows/build-website.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
+      "source_file": ".github/workflows/build-website.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-website.yml",
+      "source_file": ".github/workflows/build-website.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "lycheeverse/lychee-action@v2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/build-website.yml",
+      "source_file": ".github/workflows/build-website.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "Build and test site",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml",
+      "source_file": ".github/workflows/lint.yaml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lint.yml",
+      "source_file": ".github/workflows/lint.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/lint.yml",
+      "source_file": ".github/workflows/lint.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "Lint",
       "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sync-translations.yml",
+      "source_file": ".github/workflows/sync-translations.yaml",
       "source_repo": "all-contributors/allcontributors.org",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/sync-translations.yml",
+      "source_file": ".github/workflows/sync-translations.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/sync-translations.yml",
+      "source_file": ".github/workflows/sync-translations.yaml",
       "source_repo": "all-contributors/allcontributors.org",
       "target": "Sync translations",
       "target_type": "term"
@@ -302,6 +309,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-30T12:38:40.310820+00:00",
+  "generated_at": "2026-06-22T08:16:23.314074+00:00",
   "source_repo": "all-contributors/allcontributors.org"
 }

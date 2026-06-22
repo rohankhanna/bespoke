@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Aleksoid1978/VideoRenderer",
+      "target": "Build VideoRenderer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T11:26:24.090051+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u0412\u043d\u0435\u0448\u043d\u0438\u0439 \u0432\u0438\u0434\u0435\u043e-\u0440\u0435\u043d\u0434\u0435\u0440\u0435\u0440",
+    "fork": false,
+    "full_name": "Aleksoid1978/VideoRenderer",
+    "html_url": "https://github.com/Aleksoid1978/VideoRenderer",
+    "language": "C++",
+    "pushed_at": "2026-06-20T04:43:20Z",
+    "stargazers_count": 1655,
+    "topics": [],
+    "updated_at": "2026-06-22T06:46:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build VideoRenderer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build VideoRenderer"
+    }
+  ]
+}

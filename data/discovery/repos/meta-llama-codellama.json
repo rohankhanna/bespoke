@@ -23,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-22T00:57:48.800682+00:00",
+  "fetched_at": "2026-06-22T10:24:11.057661+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -44,9 +44,9 @@
     "html_url": "https://github.com/meta-llama/codellama",
     "language": "Python",
     "pushed_at": "2024-08-12T12:49:54Z",
-    "stargazers_count": 16312,
+    "stargazers_count": 16309,
     "topics": [],
-    "updated_at": "2026-06-18T15:55:05Z"
+    "updated_at": "2026-06-22T10:21:46Z"
   },
   "repo_links": [
     {

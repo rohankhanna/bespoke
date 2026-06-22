@@ -125,13 +125,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
-      "target": "conda-forge/numba-feedstock",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "hiddenswitch/pip-and-uv-installable-ComfyUI",
       "target": "comfyanonymous/comfyui",
       "target_type": "repository"
     },
@@ -325,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:56:07.563057+00:00",
+  "fetched_at": "2026-06-22T11:45:22.960247+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -378,9 +371,9 @@
     "html_url": "https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI",
     "language": "Python",
     "pushed_at": "2026-06-17T04:13:07Z",
-    "stargazers_count": 87,
+    "stargazers_count": 88,
     "topics": [],
-    "updated_at": "2026-06-17T04:13:12Z"
+    "updated_at": "2026-06-22T01:27:55Z"
   },
   "repo_links": [
     {
@@ -396,11 +389,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "comfyanonymous/comfyui",
-      "source_file": "pyproject.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "conda-forge/numba-feedstock",
       "source_file": "pyproject.toml"
     }
   ],

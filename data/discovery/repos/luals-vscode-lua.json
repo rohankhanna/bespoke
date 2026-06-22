@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-21T19:32:11.245606+00:00",
+  "fetched_at": "2026-06-22T11:28:52.204432+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,13 +111,13 @@
     "html_url": "https://github.com/LuaLS/vscode-lua",
     "language": "TypeScript",
     "pushed_at": "2026-05-21T14:29:32Z",
-    "stargazers_count": 214,
+    "stargazers_count": 213,
     "topics": [
       "lua",
       "lua-language-server",
       "vscode-extension"
     ],
-    "updated_at": "2026-06-21T03:11:49Z"
+    "updated_at": "2026-06-21T19:58:59Z"
   },
   "repo_links": [
     {

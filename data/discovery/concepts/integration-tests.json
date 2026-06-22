@@ -762,6 +762,18 @@
       "source_repo": "psmux/psmux",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/any-guardrail",
+      "status": "candidate-context",
+      "text": "Guardrails to support any-agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-guardrail",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -1146,6 +1158,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "psmux/psmux",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-guardrail",
       "status": "candidate",
       "text": "Integration Tests"
     }
@@ -3411,11 +3429,47 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": ".github/workflows/integration_tests.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/tests-integration.yaml",
+      "source_repo": "mozilla-ai/any-guardrail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -799,6 +799,18 @@
       "source_repo": "frederik-uni/manga-image-translator-rust",
       "status": "candidate-context",
       "text": "* [Docs/Install Guide](https://frederik-uni.github.io/manga-image-translator-rust/index.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "GUI for upscaling ONNX models with NVIDIA TensorRT and Vapoursynth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1209,12 @@
       "source_repo": "frederik-uni/manga-image-translator-rust",
       "status": "candidate",
       "text": "* [Docs/Install Guide](https://frederik-uni.github.io/manga-image-translator-rust/index.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-database/VideoJaNai",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
     }
   ],
   "candidate_related_terms": [],
@@ -2470,11 +2488,29 @@
       "observed_at": "2026-06-22T00:52:01.139311+00:00",
       "source_file": null,
       "source_repo": "xlite-dev/RVM-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "the-database/VideoJaNai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T08:16:23.314074+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/RVM-Inference"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T00:52:01.139311+00:00",
+  "last_seen_at": "2026-06-22T08:16:23.314074+00:00",
   "lexical_providers": [
     "datamuse"
   ],
