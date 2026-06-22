@@ -4211,6 +4211,30 @@
       "source_repo": "alexellis/k3sup",
       "status": "candidate-context",
       "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "status": "candidate-context",
+      "text": "Custom CSS theme for doxygen html-documentation with lots of customization parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Precompiled VapourSynth plugin wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -6343,6 +6367,18 @@
       "source_repo": "alexellis/k3sup",
       "status": "candidate",
       "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate",
+      "text": "Publish"
     }
   ],
   "candidate_related_terms": [
@@ -17851,11 +17887,65 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "alexellis/k3sup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mattpocock/ts-reset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-gcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jothepro/doxygen-awesome-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jhasse/poly2tri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jhasse/poly2tri",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhasse/poly2tri",
+      "target": "delaunay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhasse/poly2tri",
+      "target": "delaunay-triangulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhasse/poly2tri",
+      "target": "triangulation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "source_repo": "jhasse/poly2tri"
+}

@@ -1,12 +1,12 @@
 {
   "components": [
     {
-      "component": "@fortawesome/free-brands-svg-icons",
-      "edge_type": "package-json:dependencies",
+      "component": "@fortawesome/fontawesome-svg-core",
+      "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
     {
-      "component": "@fortawesome/fontawesome-svg-core",
+      "component": "@fortawesome/free-brands-svg-icons",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -146,17 +146,17 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "package-json:dependencies",
+      "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ebullient/obsidian-admonition",
-      "target": "@fortawesome/free-brands-svg-icons",
+      "target": "@fortawesome/fontawesome-svg-core",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ebullient/obsidian-admonition",
-      "target": "@fortawesome/fontawesome-svg-core",
+      "target": "@fortawesome/free-brands-svg-icons",
       "target_type": "component"
     },
     {
@@ -328,7 +328,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:11:17.210978+00:00",
+  "fetched_at": "2026-06-22T19:24:34.512365+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -336,7 +336,7 @@
     },
     {
       "path": "package.json",
-      "size": 1769
+      "size": 1903
     },
     {
       "path": ".github/workflows/build.yml",
@@ -356,12 +356,12 @@
     "full_name": "ebullient/obsidian-admonition",
     "html_url": "https://github.com/ebullient/obsidian-admonition",
     "language": "TypeScript",
-    "pushed_at": "2026-06-20T21:01:18Z",
-    "stargazers_count": 1292,
+    "pushed_at": "2026-06-22T16:50:10Z",
+    "stargazers_count": 1291,
     "topics": [
       "obsidian-plugin"
     ],
-    "updated_at": "2026-06-20T21:01:21Z"
+    "updated_at": "2026-06-22T16:54:10Z"
   },
   "repo_links": [
     {

@@ -9270,11 +9270,23 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

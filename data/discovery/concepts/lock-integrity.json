@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock integrity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Precompiled VapourSynth plugin wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Lock integrity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate",
+      "text": "Lock integrity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11776,
+      "status": "candidate",
+      "text": "safety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11585,
+      "status": "candidate",
+      "text": "healed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "blocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "box"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock integrity",
+  "concept_id": "lock-integrity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    }
+  ],
+  "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock integrity",
+      "sense_id": "lock-integrity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

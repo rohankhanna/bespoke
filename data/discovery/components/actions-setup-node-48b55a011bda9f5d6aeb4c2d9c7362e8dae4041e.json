@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1817,6 +1817,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration-template.yaml",
       "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
     }
   ]
 }

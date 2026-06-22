@@ -5,18 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "sky-ecosystem/multicall",
-      "target": "mds1/multicall.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "sky-ecosystem/multicall",
       "target": "makerdao/multicall.js",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-06-22T15:18:11.594834+00:00",
+  "fetched_at": "2026-06-22T19:36:09.522331+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,11 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "makerdao/multicall.js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mds1/multicall.",
       "source_file": "README.md"
     }
   ],

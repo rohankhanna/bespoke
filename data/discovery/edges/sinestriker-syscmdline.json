@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SineStriker/syscmdline",
+      "target": "qt/qtbase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SineStriker/syscmdline",
+      "target": "dotnet/command-line-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SineStriker/syscmdline",
+      "target": "tanakh/cmdline",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "source_repo": "SineStriker/syscmdline"
+}

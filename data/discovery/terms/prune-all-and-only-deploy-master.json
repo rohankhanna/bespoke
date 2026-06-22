@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clean-all-versions.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide"
+    }
+  ],
+  "term": "Prune all and only deploy master"
+}

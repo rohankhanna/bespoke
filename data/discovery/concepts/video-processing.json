@@ -193,6 +193,18 @@
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "Official mirror of libplacebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_glosses": [
@@ -285,6 +297,12 @@
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack",
       "status": "candidate",
       "text": "[![Documentation](https://img.shields.io/badge/API%20Docs-purple)](https://jaded-encoding-thaumaturgy.github.io/vs-jetpack/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_related_terms": [],
@@ -916,11 +934,17 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "Jaded-Encoding-Thaumaturgy/vs-jetpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "haasn/libplacebo"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

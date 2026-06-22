@@ -3074,11 +3074,17 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": ".github/workflows/static-analysis.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

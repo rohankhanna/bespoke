@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Status gate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Precompiled VapourSynth plugin wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Status gate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate",
+      "text": "Status gate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11561,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11561,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11524,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11524,
+      "status": "candidate",
+      "text": "pope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "aut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Status gate",
+  "concept_id": "status-gate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/ci-status-gate.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    }
+  ],
+  "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Status gate",
+      "sense_id": "status-gate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

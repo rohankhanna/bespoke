@@ -181,7 +181,7 @@
       "source_file": ".github/workflows/ci-measurements.yml"
     },
     {
-      "component": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "component": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml"
     },
@@ -581,7 +581,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "component": "golangci/golangci-lint-action@82606bf257cbaff209d206a39f5134f0cfbfd2ee",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -591,7 +591,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "component": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -631,7 +631,7 @@
       "source_file": ".github/workflows/nix-build.yml"
     },
     {
-      "component": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "component": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml"
     },
@@ -691,7 +691,7 @@
       "source_file": ".github/workflows/pr-risk.yml"
     },
     {
-      "component": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "component": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml"
     },
@@ -741,7 +741,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-measurements.yml",
       "source_repo": "gastownhall/beads",
-      "target": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "target": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "target_type": "component"
     },
     {
@@ -888,14 +888,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "gastownhall/beads",
-      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target": "golangci/golangci-lint-action@82606bf257cbaff209d206a39f5134f0cfbfd2ee",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "gastownhall/beads",
-      "target": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "target": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "target_type": "component"
     },
     {
@@ -972,7 +972,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "gastownhall/beads",
-      "target": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "target": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "target_type": "component"
     },
     {
@@ -1014,7 +1014,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-risk.yml",
       "source_repo": "gastownhall/beads",
-      "target": "DeterminateSystems/determinate-nix-action@f4c468f2287f0f14a113841b41f2dc8957119519",
+      "target": "DeterminateSystems/determinate-nix-action@9adf02b41cfdac2632e1c16f0480ff5bf3b05dd6",
       "target_type": "component"
     },
     {
@@ -1039,7 +1039,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:27:00.371493+00:00",
+  "fetched_at": "2026-06-22T19:50:17.118685+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1091,14 +1091,14 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-06-21T03:44:15Z",
-    "stargazers_count": 24683,
+    "pushed_at": "2026-06-22T17:38:53Z",
+    "stargazers_count": 24690,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-06-22T15:06:07Z"
+    "updated_at": "2026-06-22T19:38:32Z"
   },
   "repo_links": [],
   "terms": [

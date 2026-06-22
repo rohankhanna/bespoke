@@ -10762,6 +10762,12 @@
   "build & scan": [
     "build-scan"
   ],
+  "build & serve master": [
+    "build-serve-master"
+  ],
+  "build & serve other branches": [
+    "build-serve-other-branches"
+  ],
   "build & test": [
     "build-test"
   ],
@@ -29276,6 +29282,9 @@
   "delete old workflow runs": [
     "delete-old-workflow-runs"
   ],
+  "delete site version for deleted branch": [
+    "delete-site-version-for-deleted-branch"
+  ],
   "delete spam comments": [
     "delete-spam-comments"
   ],
@@ -33316,6 +33325,9 @@
   ],
   "doxygen-documentation": [
     "doxygen-documentation"
+  ],
+  "doxygen-theme": [
+    "doxygen-theme"
   ],
   "doyensec-plugins-build": [
     "doyensec-plugins-build"
@@ -54758,6 +54770,9 @@
   "lock inactive threads": [
     "lock-inactive-threads"
   ],
+  "lock integrity": [
+    "lock-integrity"
+  ],
   "lock issue": [
     "lock-issue"
   ],
@@ -59810,6 +59825,9 @@
   ],
   "mpstat": [
     "mpstat"
+  ],
+  "mpv": [
+    "mpv"
   ],
   "mpv-config": [
     "mpv-config"
@@ -71213,6 +71231,9 @@
   ],
   "prune": [
     "prune"
+  ],
+  "prune all and only deploy master": [
+    "prune-all-and-only-deploy-master"
   ],
   "prune old artifacts": [
     "prune-old-artifacts"
@@ -86165,6 +86186,9 @@
   "status checker": [
     "status-checker"
   ],
+  "status gate": [
+    "status-gate"
+  ],
   "status of dependency check": [
     "status-of-dependency-check"
   ],
@@ -95405,6 +95429,9 @@
   "update obs websocket protocol version": [
     "update-obs-websocket-protocol-version"
   ],
+  "update package index": [
+    "update-package-index"
+  ],
   "update package manifests": [
     "update-package-manifests"
   ],
@@ -96055,6 +96082,9 @@
   ],
   "upload to hugging face": [
     "upload-to-hugging-face"
+  ],
+  "upload to huggingface bucket": [
+    "upload-to-huggingface-bucket"
   ],
   "upload to percy": [
     "upload-to-percy"
@@ -97690,6 +97720,9 @@
   ],
   "videojs": [
     "videojs"
+  ],
+  "videolan": [
+    "videolan"
   ],
   "videoqa": [
     "videoqa"

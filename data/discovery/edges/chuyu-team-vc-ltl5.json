@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/VC-LTL5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/VC-LTL5",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/VC-LTL5",
+      "target": "dorny/test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/VC-LTL5",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/VC-LTL5",
+      "target": "xresloader/upload-to-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build&Test.yml",
+      "source_repo": "Chuyu-Team/VC-LTL5",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "source_repo": "Chuyu-Team/VC-LTL5"
+}

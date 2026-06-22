@@ -19,12 +19,30 @@
       "source_repo": "NixOS/nix",
       "status": "candidate-context",
       "text": "Upload Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Precompiled VapourSynth plugin wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "status": "candidate-context",
+      "text": "Upload Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NixOS/nix",
+      "status": "candidate",
+      "text": "Upload Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
       "status": "candidate",
       "text": "Upload Release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/upload-release.yml",
       "source_repo": "NixOS/nix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/cd-upload-release.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

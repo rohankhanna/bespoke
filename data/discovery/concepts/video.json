@@ -751,6 +751,18 @@
       "source_repo": "the-database/mpv-AnimeJaNai",
       "status": "candidate-context",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "Official mirror of libplacebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1137,12 @@
       "source_repo": "the-database/mpv-AnimeJaNai",
       "status": "candidate",
       "text": "[![Discord](https://img.shields.io/discord/1121653618173546546?label=Discord&logo=Discord&logoColor=white)](https://discord.gg/EeFfZUBvxj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_related_terms": [
@@ -3133,11 +3151,29 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "haasn/libplacebo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "the-database/mpv-AnimeJaNai"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

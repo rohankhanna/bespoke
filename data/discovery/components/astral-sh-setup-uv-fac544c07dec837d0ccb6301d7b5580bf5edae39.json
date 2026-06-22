@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
   "first_seen_at": "2026-06-21T19:22:13.525033+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot-constraints.yml",
       "source_repo": "ogx-ai/ogx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-bucket.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-update-changelog.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
     }
   ]
 }

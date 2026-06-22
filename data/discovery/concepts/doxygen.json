@@ -70,6 +70,18 @@
       "source_repo": "doxygen/doxygen",
       "status": "candidate-context",
       "text": "Doxygen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "status": "candidate-context",
+      "text": "Custom CSS theme for doxygen html-documentation with lots of customization parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css)](https://github.com/jothepro/doxygen-awesome-css/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "doxygen/doxygen",
       "status": "candidate",
       "text": "Doxygen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "status": "candidate",
+      "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css)](https://github.com/jothepro/doxygen-awesome-css/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +193,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "doxygen/doxygen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "jothepro/doxygen-awesome-css"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

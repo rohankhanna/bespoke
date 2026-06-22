@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JET Encoding Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Delete site version for deleted branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Delete site version for deleted branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44729,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44679,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44590,
+      "status": "candidate",
+      "text": "cancelled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44026,
+      "status": "candidate",
+      "text": "cancel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43086,
+      "status": "candidate",
+      "text": "die"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete site version for deleted branch",
+      "sense_id": "delete-site-version-for-deleted-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-site-version-for-deleted-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-site-version-for-deleted-branch",
+  "observation_id": "65e49d4e058114bf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_text": "Delete site version for deleted branch",
+  "source_context_snippet": "Delete site version for deleted branch",
+  "source_file": ".github/workflows/delete-version-for-deleted-branch.yml",
+  "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+  "source_repo_description": "JET Encoding Guide"
+}

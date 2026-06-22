@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cd-pypi.yaml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/cd-pypi.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cd-release.yaml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/cd-release.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-branch.yaml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/ci-branch.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-branch.yaml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/ci-branch.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-branch.yaml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/ci-branch.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-pr-data.yaml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/ci-pr-data.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-pr.yaml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/ci-pr.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-pr.yaml"
     },
@@ -106,7 +106,7 @@
       "source_file": ".github/workflows/ci-pr.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-pr.yaml"
     },
@@ -121,7 +121,7 @@
       "source_file": ".github/workflows/ci-pr.yaml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maintenance-v1.yaml"
     },
@@ -169,7 +169,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cd-pypi.yaml",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -190,7 +190,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cd-release.yaml",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -211,7 +211,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-branch.yaml",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -239,7 +239,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-pr-data.yaml",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -253,7 +253,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-pr.yaml",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -281,7 +281,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/maintenance-v1.yaml",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@v7",
       "target_type": "component"
     },
     {
@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T14:40:56.922645+00:00",
+  "fetched_at": "2026-06-22T19:21:07.314693+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -382,7 +382,7 @@
     "full_name": "aws-cloudformation/cfn-lint",
     "html_url": "https://github.com/aws-cloudformation/cfn-lint",
     "language": "Python",
-    "pushed_at": "2026-06-22T07:13:12Z",
+    "pushed_at": "2026-06-22T17:43:45Z",
     "stargazers_count": 2623,
     "topics": [
       "aws",
@@ -391,7 +391,7 @@
       "cloudformation",
       "linter"
     ],
-    "updated_at": "2026-06-20T07:38:43Z"
+    "updated_at": "2026-06-22T17:43:50Z"
   },
   "repo_links": [
     {

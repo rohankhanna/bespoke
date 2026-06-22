@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "2D constrained Delaunay triangulation library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ufeffSince there are no Input validation of the data given for triangulation you need"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ufeffSince there are no Input validation of the data given for triangulation you need"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delaunay-triangulation",
+      "sense_id": "delaunay-triangulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delaunay-triangulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delaunay-triangulation",
+  "observation_id": "e959cbe050e7892e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_text": "delaunay-triangulation",
+  "source_context_snippet": "\ufeffSince there are no Input validation of the data given for triangulation you need",
+  "source_file": null,
+  "source_repo": "jhasse/poly2tri",
+  "source_repo_description": "2D constrained Delaunay triangulation library"
+}

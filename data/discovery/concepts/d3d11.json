@@ -67,6 +67,18 @@
       "source_repo": "DiligentGraphics/DiligentSamples",
       "status": "candidate-context",
       "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "Official mirror of libplacebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "DiligentGraphics/DiligentSamples",
       "status": "candidate",
       "text": "This module contains tutorials and sample applications intended to demonstrate the usage of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "DiligentGraphics/DiligentSamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "haasn/libplacebo"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

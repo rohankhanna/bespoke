@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JET Encoding Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prune all and only deploy master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prune all and only deploy master"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 61770,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57036,
+      "status": "candidate",
+      "text": "mastering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50308,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50308,
+      "status": "candidate",
+      "text": "topped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50308,
+      "status": "candidate",
+      "text": "tops"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prune all and only deploy master",
+      "sense_id": "prune-all-and-only-deploy-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prune-all-and-only-deploy-master",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prune-all-and-only-deploy-master",
+  "observation_id": "5ee78a4784d577e1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_text": "Prune all and only deploy master",
+  "source_context_snippet": "Prune all and only deploy master",
+  "source_file": ".github/workflows/clean-all-versions.yml",
+  "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+  "source_repo_description": "JET Encoding Guide"
+}

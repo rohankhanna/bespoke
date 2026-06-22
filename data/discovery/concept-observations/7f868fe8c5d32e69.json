@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " CMake-based MinGW-w64 Cross Toolchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "mpv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "mpv"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013739,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013738,
+      "status": "candidate",
+      "text": "increased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998739,
+      "status": "candidate",
+      "text": "pull in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997634,
+      "status": "candidate",
+      "text": "wash out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995640,
+      "status": "candidate",
+      "text": "pull out"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mpv",
+      "sense_id": "mpv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mpv",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mpv",
+  "observation_id": "7f868fe8c5d32e69",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_text": "mpv",
+  "source_context_snippet": "mpv",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "quietvoid/mpv-winbuild-cmake",
+  "source_repo_description": " CMake-based MinGW-w64 Cross Toolchain "
+}

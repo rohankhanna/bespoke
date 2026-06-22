@@ -3034,6 +3034,18 @@
       "source_repo": "podman-container-tools/podman",
       "status": "candidate-context",
       "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhasse/poly2tri",
+      "status": "candidate-context",
+      "text": "2D constrained Delaunay triangulation library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhasse/poly2tri",
+      "status": "candidate-context",
+      "text": "Linux"
     }
   ],
   "candidate_glosses": [
@@ -4566,6 +4578,12 @@
       "source_repo": "podman-container-tools/podman",
       "status": "candidate",
       "text": "![PODMAN logo](https://raw.githubusercontent.com/containers/common/main/logos/podman-logo-full-vert.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhasse/poly2tri",
+      "status": "candidate",
+      "text": "Linux"
     }
   ],
   "candidate_related_terms": [
@@ -11653,11 +11671,47 @@
       "observed_at": "2026-06-22T14:08:32.759567+00:00",
       "source_file": null,
       "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jhasse/poly2tri"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

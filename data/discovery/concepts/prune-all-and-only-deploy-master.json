@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prune all and only deploy master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "status": "candidate-context",
+      "text": "JET Encoding Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "status": "candidate-context",
+      "text": "Prune all and only deploy master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "status": "candidate",
+      "text": "Prune all and only deploy master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 61770,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57036,
+      "status": "candidate",
+      "text": "mastering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50308,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50308,
+      "status": "candidate",
+      "text": "topped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50308,
+      "status": "candidate",
+      "text": "tops"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prune all and only deploy master",
+  "concept_id": "prune-all-and-only-deploy-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/clean-all-versions.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide"
+    }
+  ],
+  "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prune all and only deploy master",
+      "sense_id": "prune-all-and-only-deploy-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

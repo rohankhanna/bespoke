@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jhasse/poly2tri",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jhasse/poly2tri",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhasse/poly2tri",
+      "target": "delaunay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhasse/poly2tri",
+      "target": "delaunay-triangulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhasse/poly2tri",
+      "target": "triangulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T19:56:59.684468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2443
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "2D constrained Delaunay triangulation library",
+    "fork": false,
+    "full_name": "jhasse/poly2tri",
+    "html_url": "https://github.com/jhasse/poly2tri",
+    "language": "C++",
+    "pushed_at": "2026-01-24T23:10:46Z",
+    "stargazers_count": 514,
+    "topics": [
+      "delaunay",
+      "delaunay-triangulation",
+      "triangulation"
+    ],
+    "updated_at": "2026-06-16T19:38:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "\ufeffSince there are no Input validation of the data given for triangulation you need",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delaunay"
+    },
+    {
+      "context_snippet": "\ufeffSince there are no Input validation of the data given for triangulation you need",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delaunay-triangulation"
+    },
+    {
+      "context_snippet": "\ufeffSince there are no Input validation of the data given for triangulation you need",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triangulation"
+    }
+  ]
+}

@@ -182,13 +182,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "all-contributors/allcontributors.org",
-      "target": "apps/greenkeeper",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
@@ -483,7 +476,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-06-22T15:25:40.096499+00:00",
+  "fetched_at": "2026-06-22T19:48:16.771258+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -537,11 +530,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors-bot",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apps/greenkeeper",
       "source_file": "README.md"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1826,6 +1826,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "alexellis/k3sup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jothepro/doxygen-awesome-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
     }
   ],
   "term": "publish"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mpv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "status": "candidate-context",
+      "text": " CMake-based MinGW-w64 Cross Toolchain "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "status": "candidate-context",
+      "text": "mpv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "status": "candidate",
+      "text": "mpv"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013739,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013738,
+      "status": "candidate",
+      "text": "increased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998739,
+      "status": "candidate",
+      "text": "pull in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997634,
+      "status": "candidate",
+      "text": "wash out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995640,
+      "status": "candidate",
+      "text": "pull out"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mpv",
+  "concept_id": "mpv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quietvoid/mpv-winbuild-cmake"
+    }
+  ],
+  "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mpv",
+      "sense_id": "mpv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

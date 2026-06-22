@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "target": "ilikenwf/apt-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "target": "actions/checkout@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "target": "actions/cache@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quietvoid/mpv-winbuild-cmake",
+      "target": "mpv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T19:56:42.478355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7020
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 8257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " CMake-based MinGW-w64 Cross Toolchain ",
+    "fork": true,
+    "full_name": "quietvoid/mpv-winbuild-cmake",
+    "html_url": "https://github.com/quietvoid/mpv-winbuild-cmake",
+    "language": "CMake",
+    "pushed_at": "2023-06-03T12:23:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-04-24T14:40:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ilikenwf/apt-fast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "mpv",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "mpv"
+    }
+  ]
+}

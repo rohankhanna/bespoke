@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-06-22T14:08:32.759567+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/typedoc-gh-pages.yml",
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
     }
   ]
 }

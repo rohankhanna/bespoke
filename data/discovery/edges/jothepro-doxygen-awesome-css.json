@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "target": "mattnotmitt/doxygen-action@edge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "target": "tsunematsu21/actions-publish-gh-pages@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "target": "doxygen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jothepro/doxygen-awesome-css",
+      "target": "doxygen-theme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "source_repo": "jothepro/doxygen-awesome-css"
+}

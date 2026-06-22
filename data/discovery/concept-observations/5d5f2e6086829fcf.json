@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JET Encoding Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build & serve other branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build & serve other branches"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45074,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45074,
+      "status": "candidate",
+      "text": "poles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44247,
+      "status": "candidate",
+      "text": "bifurcation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44063,
+      "status": "candidate",
+      "text": "square"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44051,
+      "status": "candidate",
+      "text": "crown"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & serve other branches",
+      "sense_id": "build-serve-other-branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-serve-other-branches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-serve-other-branches",
+  "observation_id": "5d5f2e6086829fcf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-06-22T19:14:07.629510+00:00",
+  "observed_text": "Build & serve other branches",
+  "source_context_snippet": "Build & serve other branches",
+  "source_file": ".github/workflows/deploy-other-branches.yml",
+  "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+  "source_repo_description": "JET Encoding Guide"
+}

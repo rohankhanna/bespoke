@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "vodes/muxtools-doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-all-versions.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-all-versions.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-all-versions.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "Prune all and only deploy master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-version-for-deleted-branch.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-version-for-deleted-branch.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-version-for-deleted-branch.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "Delete site version for deleted branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-master.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-master.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-master.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "Build & serve master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-other-branches.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-other-branches.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-other-branches.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide",
+      "target": "Build & serve other branches",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "source_repo": "Jaded-Encoding-Thaumaturgy/JET-guide"
+}

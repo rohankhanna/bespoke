@@ -148,6 +148,18 @@
       "source_repo": "bmwiedemann/openSUSE",
       "status": "candidate-context",
       "text": "This repo is a public read-only git mirror of openSUSE sources"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "Official mirror of libplacebo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate-context",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_glosses": [
@@ -222,6 +234,12 @@
       "source_repo": "bmwiedemann/openSUSE",
       "status": "candidate",
       "text": "This repo is a public read-only git mirror of openSUSE sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haasn/libplacebo",
+      "status": "candidate",
+      "text": "[![gitlab-ci badge](https://code.videolan.org/videolan/libplacebo/badges/master/pipeline.svg)](https://code.videolan.org/videolan/libplacebo/pipelines)"
     }
   ],
   "candidate_related_terms": [
@@ -343,11 +361,17 @@
       "observed_at": "2026-05-07T12:51:40.300011+00:00",
       "source_file": null,
       "source_repo": "bmwiedemann/openSUSE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-06-22T19:14:07.629510+00:00",
+      "source_file": null,
+      "source_repo": "haasn/libplacebo"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-07T12:51:40.300011+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
   "lexical_providers": [
     "datamuse"
   ],

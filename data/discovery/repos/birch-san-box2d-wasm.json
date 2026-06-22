@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Birch-san/box2d-wasm",
+      "target": "kripken/box2d.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Birch-san/box2d-wasm",
+      "target": "box2d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Birch-san/box2d-wasm",
+      "target": "physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Birch-san/box2d-wasm",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-06-22T19:57:03.141586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2078
+    },
+    {
+      "path": "package.json",
+      "size": 327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Box2D physics engine compiled to WebAssembly. Supports TypeScript and ES modules.",
+    "fork": false,
+    "full_name": "Birch-san/box2d-wasm",
+    "html_url": "https://github.com/Birch-san/box2d-wasm",
+    "language": "TypeScript",
+    "pushed_at": "2024-12-29T17:05:11Z",
+    "stargazers_count": 303,
+    "topics": [
+      "box2d",
+      "physics",
+      "webassembly"
+    ],
+    "updated_at": "2026-06-17T17:12:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kripken/box2d.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "box2d"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

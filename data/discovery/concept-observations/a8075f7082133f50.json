@@ -84,7 +84,7 @@
   "normalized_form": "aggregate-distro-update-sites",
   "observation_id": "a8075f7082133f50",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-06-22T14:08:32.759567+00:00",
+  "observed_at": "2026-06-22T19:14:07.629510+00:00",
   "observed_text": "Aggregate Distro Update Sites",
   "source_context_snippet": "Aggregate Distro Update Sites",
   "source_file": ".github/workflows/aggregate-distro-update-sites.yml",

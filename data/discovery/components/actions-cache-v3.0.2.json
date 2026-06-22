@@ -1,0 +1,12 @@
+{
+  "component": "actions/cache@v3.0.2",
+  "first_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "last_seen_at": "2026-06-22T19:14:07.629510+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "quietvoid/mpv-winbuild-cmake"
+    }
+  ]
+}

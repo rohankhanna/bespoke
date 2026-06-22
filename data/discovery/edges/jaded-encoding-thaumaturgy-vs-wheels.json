@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-update-index.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Update Package Index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-bucket.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-bucket.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-bucket.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-upload-bucket.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Upload to HuggingFace Bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-release.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-release.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-upload-release.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-upload-release.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Upload Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lock-integrity.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Lock integrity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-status-gate.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-status-gate.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-status-gate.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Status gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-update-changelog.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-update-changelog.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-update-changelog.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-update-changelog.yml",
+      "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels",
+      "target": "Update Changelog",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-06-22T19:14:07.629510+00:00",
+  "source_repo": "Jaded-Encoding-Thaumaturgy/vs-wheels"
+}
