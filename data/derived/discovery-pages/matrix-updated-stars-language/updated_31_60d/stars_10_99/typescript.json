@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2379,
-    "concepts": 470,
-    "observations": 473,
-    "repos": 82,
-    "terms": 470
+    "components": 2145,
+    "concepts": 434,
+    "observations": 436,
+    "repos": 74,
+    "terms": 434
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "1-Platform/op-components",
     "52-entertainment/vite-plugin-oxlint",
     "addfox/addfox",
     "aggre/ullr",
     "Airfooox/cron-validate",
-    "apollographql/vscode-graphql",
     "appsignal/appsignal-javascript",
-    "Azure/powershell",
-    "bufbuild/protovalidate-es",
     "carbon-design-system/carbon-preprocess-svelte",
     "catppuccin/.github",
     "celo-org/social-connect",
@@ -35,7 +32,6 @@
     "elastic/opentelemetry-demo",
     "emscripten-forge/mambajs",
     "fabon-f/temporal-polyfill-lite",
-    "fannheyward/coc-xml",
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
     "ghostery/broken-page-reports",
@@ -56,9 +52,7 @@
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
     "julia-actions/install-juliaup",
-    "Kastalien-Research/thoughtbox",
     "ldclabs/KIP",
-    "llamastack/llama-stack-client-typescript",
     "maplibre/maplibre-gl-inspect",
     "mcous/vitest-when",
     "microsoft/Agents-for-js",
@@ -78,7 +72,6 @@
     "octokit/webhooks-methods.js",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
-    "ogx-ai/llama-stack-client-typescript",
     "openwebdocs/mdn-bcd-collector",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",
@@ -93,7 +86,6 @@
     "suzuki-shunsuke/pinact-action",
     "swagger-api/apidom",
     "universal-ember/reactiveweb",
-    "vaultwarden/vw_web_builds",
     "vincentlaucsb/experiencer",
     "windsonR/vite-plugin-virtual-html"
   ]

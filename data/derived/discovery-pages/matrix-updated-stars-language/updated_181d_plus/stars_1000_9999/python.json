@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1022,
-    "concepts": 3947,
-    "observations": 3949,
-    "repos": 1005,
-    "terms": 3875
+    "components": 1013,
+    "concepts": 3940,
+    "observations": 3942,
+    "repos": 1003,
+    "terms": 3869
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -244,7 +244,6 @@
     "dragnet-org/dragnet",
     "Duxiaoman-DI/XuanYuan",
     "dylanaraps/pywal",
-    "eclipse-paho/paho.mqtt.python",
     "edc/bass",
     "EleutherAI/gpt-neo",
     "EleutherAI/math-lm",
@@ -380,6 +379,7 @@
     "hiyouga/ChatGLM-Efficient-Tuning",
     "hiyouga/FastEdit",
     "HKUDS/MiniRAG",
+    "hkust-nlp/simpleRL-reason",
     "HobbitLong/PyContrast",
     "HobbitLong/RepDistiller",
     "hojonathanho/diffusion",
@@ -606,7 +606,6 @@
     "mps-youtube/pafy",
     "MrGemy95/Tensorflow-Project-Template",
     "MrGiovanni/UNetPlusPlus",
-    "mrharicot/monodepth",
     "mseitzer/pytorch-fid",
     "msracver/Deformable-ConvNets",
     "multimodal-art-projection/YuE",
@@ -988,7 +987,6 @@
     "yl4579/StyleTTS2",
     "yohanshin/WHAM",
     "young-geng/EasyLM",
-    "YoYo000/MVSNet",
     "Yuanshi9815/OminiControl",
     "yuchenlin/rebiber",
     "yulunzhang/RCAN",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1645,
-    "concepts": 3027,
-    "observations": 3031,
-    "repos": 1713,
-    "terms": 3031
+    "components": 1647,
+    "concepts": 3019,
+    "observations": 3023,
+    "repos": 1710,
+    "terms": 3028
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "unknown"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0nn0/terminal-mac-cheatsheet",
@@ -212,7 +212,6 @@
     "aws-samples/aws-serverless-airline-booking",
     "aws/apprunner-roadmap",
     "aws/aws-app-mesh-roadmap",
-    "aws/aws-proton-public-roadmap",
     "aws/dotnet-foss",
     "aws/ec2-spot-instances-integrations-roadmap",
     "aws/mit-0",
@@ -696,6 +695,7 @@
     "dwyl/bunk-bed",
     "dwyl/contributing",
     "dwyl/dev-setup",
+    "dwyl/farm",
     "dwyl/git-guide",
     "dwyl/home",
     "dwyl/intellectual-property",
@@ -924,7 +924,6 @@
     "Homebrew/legacy-homebrew",
     "hpatches/hpatches-dataset",
     "hpcaitech/Open-Sora-Demo",
-    "hsivonen/charcounts",
     "HTR-United/tapuscorpus",
     "hughfenghen/WebAV-KnowledgeGraph",
     "human-pangenomics/HG002_Data_Freeze_v1.0",
@@ -1381,7 +1380,6 @@
     "pre-commit/mirrors-eslint",
     "preactjs/awesome-preact",
     "prefix-dev/rattler-build-action",
-    "prisma/barrel",
     "prisma/presskit",
     "privacycg/storage-partitioning",
     "probot/ideas",
@@ -1403,7 +1401,6 @@
     "pzzhang/VinVL",
     "qemus/virtiso-whql",
     "qiayuanl/unitree_buildfarm",
-    "QingyongHu/SoTA-Point-Cloud",
     "QingyongHu/VISO",
     "qri-io/rfcs",
     "QuantuMope/GroundingDINO",

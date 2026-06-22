@@ -1,18 +1,40 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 7,
-    "observations": 8,
-    "repos": 1,
-    "terms": 7
+    "components": 228,
+    "concepts": 148,
+    "observations": 149,
+    "repos": 23,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "attackgoat/vk-graph"
+    "adamchainz/blacken-docs",
+    "Ai00-X/ai00_server",
+    "Alex313031/Thorium-MacOS",
+    "antvis/GPT-Vis",
+    "appbaseio/reactivesearch-api",
+    "babashka/nbb",
+    "browserslist/caniuse-lite",
+    "ChiyukiGana/Quickinput",
+    "clearml/clearml-agent",
+    "dwyl/phoenix-ecto-encryption-example",
+    "elixir-protobuf/protobuf",
+    "flagos-ai/FlagAttention",
+    "flagos-ai/FlagCX",
+    "google-deepmind/chex",
+    "google-deepmind/xmanager",
+    "lobehub/lobe-cli-toolbox",
+    "machinewrapped/llm-subtrans",
+    "meshcat-dev/meshcat",
+    "meta-pytorch/torchft",
+    "tc39/proposal-decimal",
+    "w3c/trusted-types",
+    "xlite-dev/Awesome-DiT-Inference",
+    "yaling888/quirktiva"
   ]
 }

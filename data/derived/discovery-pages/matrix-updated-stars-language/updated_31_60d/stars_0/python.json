@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 17,
-    "terms": 26
+    "components": 21,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 16,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "danielrosehill/Claude-Agent-Relay-Plugin",
@@ -25,7 +25,6 @@
     "danielrosehill/LLM-Council-Homehunter",
     "danielrosehill/Repo-Starters-And-Templates-Index",
     "flagos-ai/verl-FL",
-    "hmellor/vllm",
     "lace/lacecore",
     "NightWatcher314/dockgecli",
     "NightWatcher314/npmctl",

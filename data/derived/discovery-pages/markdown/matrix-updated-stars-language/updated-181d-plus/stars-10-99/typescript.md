@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 192
+- repos: 191
 - terms: 564
-- components: 4353
+- components: 4349
 - concepts: 553
 - observations: 554
 
@@ -38,7 +38,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dylibso/xtp-bindgen](https://github.com/dylibso/xtp-bindgen) | 26 | 2025-11-15T04:52:04Z | TypeScript | Infrastructure/tooling | 2 | 15 | 2 | 2 |
 | [storybookjs/addon-cssresources](https://github.com/storybookjs/addon-cssresources) | 12 | 2025-11-12T11:39:30Z | TypeScript | Infrastructure/tooling | 3 | 40 | 3 | 3 |
 | [luizbarboza/polyclip-ts](https://github.com/luizbarboza/polyclip-ts) | 48 | 2025-11-09T17:56:14Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
-| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 39 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 40 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [dannyhw/expo-template-storybook](https://github.com/dannyhw/expo-template-storybook) | 47 | 2025-10-28T18:25:22Z | TypeScript | Template/starter | 4 | 39 | 4 | 4 |
 | [abaplint/abaplint-sci-server](https://github.com/abaplint/abaplint-sci-server) | 22 | 2025-10-27T12:35:36Z | TypeScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
 | [offline-ai/cli](https://github.com/offline-ai/cli) | 81 | 2025-10-24T10:11:24Z | TypeScript | CLI | 8 | 41 | 8 | 8 |
@@ -94,7 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [celo-org/react-celo](https://github.com/celo-org/react-celo) | 68 | 2024-12-03T23:45:30Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
 | [ethers-io/ext-provider-multicall](https://github.com/ethers-io/ext-provider-multicall) | 23 | 2024-12-03T21:17:36Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
 | [preactjs/enzyme-adapter-preact-pure](https://github.com/preactjs/enzyme-adapter-preact-pure) | 67 | 2024-12-03T08:30:44Z | TypeScript | Infrastructure/tooling | 4 | 31 | 4 | 4 |
-| [mlc-ai/web-llm-assistant](https://github.com/mlc-ai/web-llm-assistant) | 81 | 2024-12-03T00:21:12Z | TypeScript | Web app | 4 | 24 | 4 | 4 |
+| [mlc-ai/web-llm-assistant](https://github.com/mlc-ai/web-llm-assistant) | 82 | 2024-12-03T00:21:12Z | TypeScript | Web app | 4 | 24 | 4 | 4 |
 | [archguard/archguard-frontend](https://github.com/archguard/archguard-frontend) | 31 | 2024-11-13T03:47:16Z | TypeScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [bamboo/idris2-lsp-vscode](https://github.com/bamboo/idris2-lsp-vscode) | 31 | 2024-11-02T07:33:51Z | TypeScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [lenml/gcp-claude-openai-api-server](https://github.com/lenML/gcp-claude-openai-api-server) | 12 | 2024-10-23T16:05:40Z | TypeScript | Infrastructure/tooling | 1 | 31 | 0 | 0 |
@@ -217,7 +217,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kadiryazici/vite-ssr-middleware](https://github.com/kadiryazici/vite-ssr-middleware) | 21 | 2021-08-21T04:11:48Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
 | [frandiox/reactesse-ssr-template](https://github.com/frandiox/reactesse-ssr-template) | 32 | 2021-08-02T21:18:19Z | TypeScript | Template/starter | 4 | 32 | 4 | 4 |
 | [google/mysteryofthreebots](https://github.com/google/mysteryofthreebots) | 45 | 2021-06-24T18:57:55Z | TypeScript | Unknown | 0 | 33 | 0 | 0 |
-| [ricmoo/multicall](https://github.com/ricmoo/multicall) | 25 | 2021-06-09T07:13:45Z | TypeScript | Library | 0 | 4 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -240,9 +239,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [devcontainers/action](https://github.com/devcontainers/action) | 85 | 2024-10-04T21:27:05Z | TypeScript | Infrastructure/tooling | 4 | 17 | 4 | 4 |
 | [garyng/obsidian-temple](https://github.com/garyng/obsidian-temple) | 84 | 2021-08-23T19:28:46Z | TypeScript | Infrastructure/tooling | 3 | 34 | 3 | 3 |
 | [katyo/publish-crates](https://github.com/katyo/publish-crates) | 82 | 2025-01-14T15:01:33Z | TypeScript | Infrastructure/tooling | 2 | 30 | 2 | 2 |
+| [mlc-ai/web-llm-assistant](https://github.com/mlc-ai/web-llm-assistant) | 82 | 2024-12-03T00:21:12Z | TypeScript | Web app | 4 | 24 | 4 | 4 |
 | [offline-ai/cli](https://github.com/offline-ai/cli) | 81 | 2025-10-24T10:11:24Z | TypeScript | CLI | 8 | 41 | 8 | 8 |
 | [appwrite/sdk-for-deno](https://github.com/appwrite/sdk-for-deno) | 81 | 2025-09-15T23:08:03Z | TypeScript | Infrastructure/tooling | 6 | 1 | 6 | 6 |
-| [mlc-ai/web-llm-assistant](https://github.com/mlc-ai/web-llm-assistant) | 81 | 2024-12-03T00:21:12Z | TypeScript | Web app | 4 | 24 | 4 | 4 |
 | [sawhney17/logseq-citation-manager](https://github.com/sawhney17/logseq-citation-manager) | 78 | 2025-05-30T12:01:21Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [windicss/windicss-webpack-plugin](https://github.com/windicss/windicss-webpack-plugin) | 78 | 2023-09-14T11:44:28Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
 | [stoplightio/vscode-spectral](https://github.com/stoplightio/vscode-spectral) | 77 | 2025-03-28T22:22:24Z | TypeScript | Infrastructure/tooling | 2 | 31 | 2 | 2 |
@@ -302,7 +301,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [googleapis/nodejs-datastore-kvstore](https://github.com/googleapis/nodejs-datastore-kvstore) | 42 | 2024-10-04T20:20:03Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [7th-Cyborg/vite-plugin-zip-pack](https://github.com/7th-Cyborg/vite-plugin-zip-pack) | 42 | 2024-08-13T08:37:09Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [invoke-ai/launcher](https://github.com/invoke-ai/launcher) | 41 | 2025-10-16T06:09:21Z | TypeScript | Infrastructure/tooling | 4 | 83 | 4 | 4 |
-| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 39 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
+| [rose-pine/rose-pine-palette](https://github.com/rose-pine/rose-pine-palette) | 40 | 2025-11-05T14:50:39Z | TypeScript | Infrastructure/tooling | 4 | 10 | 4 | 4 |
 | [seangwright/typescript-functional-extensions](https://github.com/seangwright/typescript-functional-extensions) | 39 | 2025-05-01T21:41:29Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [DiFuks/ts-overrides-plugin](https://github.com/DiFuks/ts-overrides-plugin) | 39 | 2025-02-07T16:15:52Z | TypeScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [streamich/react-universal-interface](https://github.com/streamich/react-universal-interface) | 39 | 2024-12-09T18:41:30Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
@@ -347,7 +346,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway) | 26 | 2023-12-28T13:40:27Z | TypeScript | Infrastructure/tooling | 5 | 29 | 0 | 0 |
 | [jqhoogland/obsidian-squiggle](https://github.com/jqhoogland/obsidian-squiggle) | 26 | 2022-09-25T20:30:52Z | TypeScript | Web app | 0 | 19 | 0 | 0 |
 | [majo44/storeon-async-router](https://github.com/majo44/storeon-async-router) | 25 | 2023-03-03T00:40:34Z | TypeScript | Unknown | 3 | 28 | 3 | 3 |
-| [ricmoo/multicall](https://github.com/ricmoo/multicall) | 25 | 2021-06-09T07:13:45Z | TypeScript | Library | 0 | 4 | 0 | 0 |
 | [Roblox/setup-foreman](https://github.com/Roblox/setup-foreman) | 24 | 2025-07-23T19:02:13Z | TypeScript | Infrastructure/tooling | 1 | 24 | 1 | 1 |
 | [BorisOsipov/wdio-reportportal-reporter](https://github.com/BorisOsipov/wdio-reportportal-reporter) | 24 | 2023-11-02T17:18:21Z | TypeScript | Infrastructure/tooling | 4 | 16 | 4 | 4 |
 | [longlho/ts-transform-img](https://github.com/longlho/ts-transform-img) | 24 | 2023-01-16T10:01:45Z | TypeScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |

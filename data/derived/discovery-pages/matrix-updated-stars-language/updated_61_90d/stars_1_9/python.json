@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 60,
-    "terms": 148
+    "components": 231,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 63,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -24,7 +24,9 @@
     "andriykohut/pdm-readiness",
     "apptainer/apptainer-admindocs",
     "apptainer/apptainer-userdocs",
+    "arielagor/jetbrains-mono-hebrew",
     "ashvardanian/ashvardanian",
+    "astropy/repo_stats",
     "astroyat/lerobot",
     "audeering/audonnx",
     "axolotl-ai-cloud/ml-cross-entropy",
@@ -59,7 +61,8 @@
     "ldayton/Tongues",
     "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
-    "Mercury13/unicodia-sesh",
+    "ModelCloud/Defuser",
+    "ModelCloud/LogBar",
     "momentique/source-code-security-audit-reviewer",
     "onicai/IConfucius",
     "penpoen/llm-sugarscape",

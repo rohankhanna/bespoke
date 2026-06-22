@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 316,
-    "concepts": 255,
-    "observations": 258,
+    "components": 323,
+    "concepts": 240,
+    "observations": 243,
     "repos": 48,
-    "terms": 253
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "3Hren/msgpack-rust",
     "a16z/helios",
     "allan2/dotenvy",
     "anordal/shellharden",
@@ -25,10 +24,11 @@
     "Byron/google-apis-rs",
     "crossbeam-rs/crossbeam",
     "David-OConnor/pyflow",
+    "dtolnay/anyhow",
     "dtolnay/cargo-expand",
     "dtolnay/proc-macro-workshop",
+    "dtolnay/thiserror",
     "fschutt/printpdf",
-    "geiger-rs/cargo-geiger",
     "godot-rust/gdnative",
     "google/argh",
     "GREsau/schemars",
@@ -36,7 +36,6 @@
     "haleclipse/ccometixline",
     "helix-editor/nucleo",
     "ImageOptim/gifski",
-    "imgui-rs/imgui-rs",
     "librespot-org/librespot",
     "linebender/tiny-skia",
     "Morganamilo/paru",
@@ -52,15 +51,16 @@
     "sagiegurari/cargo-make",
     "sharkdp/diskus",
     "simd-lite/simd-json",
+    "smol-rs/smol",
     "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2",
-    "Tencent/tquic",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
     "tokio-rs/loom",
     "tokio-rs/prost",
     "tower-rs/tower",
     "vi/websocat",
+    "visioncortex/vtracer",
     "zkcrypto/bellman"
   ]
 }

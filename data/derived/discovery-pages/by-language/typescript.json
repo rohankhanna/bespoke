@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 62853,
-    "concepts": 10908,
-    "observations": 10944,
-    "repos": 1917,
-    "terms": 11205
+    "components": 62856,
+    "concepts": 10913,
+    "observations": 10949,
+    "repos": 1913,
+    "terms": 11211
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "06ketan/slideshot",
@@ -224,7 +224,6 @@
     "argdown/argdown",
     "argoproj-labs/argocd-extension-metrics",
     "argos-ci/jest-puppeteer",
-    "ariya/esprima",
     "arktypeio/arktype",
     "artemhlezin/webgpu-gerstner-waves",
     "artempyanykh/marksman-vscode",
@@ -656,7 +655,6 @@
     "favware/esbuild-plugin-version-injector",
     "featherbread/hypcast-v1",
     "fekkak1998/scira",
-    "felixrieseberg/windows-build-tools",
     "fern-api/fern",
     "FezVrasta/node-red-matter",
     "fi3ework/vite-plugin-checker",
@@ -850,7 +848,6 @@
     "iamcco/coc-diagnostic",
     "iamcco/coc-flutter",
     "iamcco/diagnostic-languageserver",
-    "iansan5653/vscode-format-python-docstrings",
     "ianstormtaylor/superstruct",
     "ibm-telemetry/telemetry-js",
     "iccicci/next-json",
@@ -1288,7 +1285,6 @@
     "NilsJPWerner/autoDocstring",
     "nitrojs/nitro",
     "nizos/tdd-guard",
-    "node-gh/gh",
     "node-lightning/node-lightning",
     "nodejs/corepack",
     "nodejs/llhttp",
@@ -1358,6 +1354,7 @@
     "octokit/webhooks",
     "octokit/webhooks-methods.js",
     "octokit/webhooks.js",
+    "off-grid-ai/mobile",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/arbitrum-sdk",
     "OffchainLabs/nitro-testnode",
@@ -1537,7 +1534,6 @@
     "retracedhq/retraced-js",
     "rewbs/sd-parseq",
     "ricky0123/vad",
-    "ricmoo/multicall",
     "RiDDiX/home-assistant-matter-hub",
     "robb-j/nova-yaml",
     "robbiespeed/metron",

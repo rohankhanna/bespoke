@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 781,
-    "concepts": 202,
-    "observations": 204,
-    "repos": 46,
-    "terms": 202
+    "components": 691,
+    "concepts": 195,
+    "observations": 197,
+    "repos": 40,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
-    "aidenlab/hic-straw",
-    "aidenlab/juicebox.js",
     "alangdm/helium-animated-pages",
     "apache/doris-opentelemetry-demo",
     "apollographql/connectors-community",
@@ -29,20 +27,16 @@
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
-    "i18next/i18next-chained-backend",
-    "i18next/i18next-multiload-backend-adapter",
     "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "j9t/obsohtml",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
-    "locize/i18next-locize-backend",
     "locize/locize",
     "locize/locizify",
     "mainmatter/ember-vite-codemod",
     "mapbox/vtvalidate",
-    "mypyc/mypy_mypyc-wheels",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
     "oclif/oclif.github.io",

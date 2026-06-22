@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 1,
-    "terms": 20
+    "components": 41,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 2,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-31T06:01:35.663565+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "mudler/LocalAI"
+    "mudler/LocalAI",
+    "QuantumNous/new-api"
   ]
 }

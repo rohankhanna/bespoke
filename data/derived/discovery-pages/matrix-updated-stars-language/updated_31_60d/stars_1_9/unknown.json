@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 52,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 45,
-    "terms": 45
+    "concepts": 43,
+    "observations": 43,
+    "repos": 42,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "AlmaLinux/osv-database",
     "angular/angular-devkit-build-webpack-builds",
@@ -22,8 +22,6 @@
     "conda-forge/captum-feedstock",
     "conda-forge/pyfive-feedstock",
     "conda-forge/python-build-feedstock",
-    "conda-forge/python-zlib-ng-feedstock",
-    "conda-forge/scikit-optimize-feedstock",
     "csm-actions/demo-server",
     "danielrosehill/Awesome-LLM-Council-Projects",
     "danielrosehill/Claude-Content-Writing-Plugin",
@@ -47,7 +45,6 @@
     "HKUDS/.github",
     "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
-    "kyverno/community",
     "oobabooga/screenshots",
     "OpenSC/Nightly",
     "openwebdocs/mdn-bcd-results",

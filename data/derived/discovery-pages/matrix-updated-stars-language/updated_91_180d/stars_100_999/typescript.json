@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2181,
-    "concepts": 406,
-    "observations": 407,
-    "repos": 76,
-    "terms": 416
+    "components": 2143,
+    "concepts": 391,
+    "observations": 392,
+    "repos": 75,
+    "terms": 401
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -56,7 +56,6 @@
     "kutsan/stylelint-config-clean-order",
     "LeDDGroup/typescript-transform-paths",
     "lobehub/lobe-charts",
-    "lobehub/lobe-cli-toolbox",
     "lobehub/lobe-tts",
     "lostintangent/gistpad-mcp",
     "Lusito/webextension-polyfill-ts",

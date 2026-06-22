@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Rust
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 43
-- components: 131
-- concepts: 35
-- observations: 35
+- repos: 25
+- terms: 44
+- components: 134
+- concepts: 36
+- observations: 36
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | 0 | 2026-04-19T12:37:20Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | 0 | 2026-04-19T04:32:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
@@ -55,6 +56,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [databendlabs/databend-base](https://github.com/databendlabs/databend-base) | 0 | 2026-04-22T08:55:03Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [guoqingbao/candle](https://github.com/guoqingbao/candle) | 0 | 2026-04-21T15:17:12Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | 0 | 2026-04-19T12:37:20Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | 0 | 2026-04-19T04:32:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |

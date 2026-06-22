@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-06-06T05:49:40.998108+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 8
-- components: 13
-- concepts: 8
-- observations: 8
+- repos: 3
+- terms: 13
+- components: 8
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-30T06:32:36Z | Java | CLI | 8 | 13 | 8 | 8 |
+| [Deep-Symmetry/beat-link](https://github.com/Deep-Symmetry/beat-link) | 278 | 2026-06-20T05:11:24Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 104 | 2026-06-19T23:17:47Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [bazel-contrib/rules_jvm_external](https://github.com/bazel-contrib/rules_jvm_external) | 371 | 2026-06-17T19:25:58Z | Java | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [eclipse-wildwebdeveloper/wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper) | 198 | 2026-05-30T06:32:36Z | Java | CLI | 8 | 13 | 8 | 8 |
+| [bazel-contrib/rules_jvm_external](https://github.com/bazel-contrib/rules_jvm_external) | 371 | 2026-06-17T19:25:58Z | Java | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [Deep-Symmetry/beat-link](https://github.com/Deep-Symmetry/beat-link) | 278 | 2026-06-20T05:11:24Z | Java | Infrastructure/tooling | 6 | 4 | 6 | 6 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 104 | 2026-06-19T23:17:47Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |

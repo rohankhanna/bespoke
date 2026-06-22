@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 338
-- components: 302
-- concepts: 341
-- observations: 343
+- repos: 25
+- terms: 321
+- components: 282
+- concepts: 324
+- observations: 326
 
 ## Static behavior
 
@@ -51,8 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) | 20021 | 2026-04-23T18:47:46Z | Java | Infrastructure/tooling | 10 | 11 | 10 | 10 |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | 34054 | 2026-04-23T15:36:32Z | Java | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [apache/doris](https://github.com/apache/doris) | 15259 | 2026-04-23T15:28:11Z | Java | Infrastructure/tooling | 22 | 9 | 22 | 22 |
-| [clojure/clojure](https://github.com/clojure/clojure) | 10866 | 2026-04-22T19:59:20Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
-| [apache/incubator-seata](https://github.com/apache/incubator-seata) | 25970 | 2026-04-22T08:50:39Z | Java | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 
 ## Repos sorted by stars
 
@@ -66,7 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [netty/netty](https://github.com/netty/netty) | 34937 | 2026-04-29T20:23:34Z | Java | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | 34054 | 2026-04-23T15:36:32Z | Java | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [apache/kafka](https://github.com/apache/kafka) | 32483 | 2026-04-30T03:39:24Z | Java | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [apache/incubator-seata](https://github.com/apache/incubator-seata) | 25970 | 2026-04-22T08:50:39Z | Java | Infrastructure/tooling | 13 | 14 | 13 | 13 |
 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 25240 | 2026-05-01T01:12:05Z | Java | Infrastructure/tooling | 16 | 48 | 16 | 16 |
 | [redisson/redisson](https://github.com/redisson/redisson) | 24314 | 2026-05-03T08:51:25Z | Java | CLI | 20 | 6 | 21 | 21 |
 | [google/gson](https://github.com/google/gson) | 24215 | 2026-04-29T17:03:32Z | Java | Infrastructure/tooling | 6 | 10 | 6 | 6 |
@@ -83,5 +80,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [debezium/debezium](https://github.com/debezium/debezium) | 12674 | 2026-04-30T07:15:26Z | Java | Infrastructure/tooling | 19 | 2 | 19 | 19 |
 | [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) | 11812 | 2026-04-29T20:58:02Z | Java | Infrastructure/tooling | 25 | 9 | 25 | 25 |
 | [apple/pkl](https://github.com/apple/pkl) | 11315 | 2026-04-23T21:39:56Z | Java | Infrastructure/tooling | 18 | 11 | 20 | 20 |
-| [clojure/clojure](https://github.com/clojure/clojure) | 10866 | 2026-04-22T19:59:20Z | Java | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [awsdocs/aws-doc-sdk-examples](https://github.com/awsdocs/aws-doc-sdk-examples) | 10398 | 2026-04-29T14:07:04Z | Java | Infrastructure/tooling | 14 | 13 | 14 | 14 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 136,
-    "observations": 137,
-    "repos": 34,
-    "terms": 136
+    "components": 178,
+    "concepts": 114,
+    "observations": 115,
+    "repos": 30,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "ADNTIO/crispy-bootloader-rp2040-rs",
     "black-desk/djotfmt",
     "bnb-chain/reth-bsc-triedb",
     "bourumir-wyngs/saphyr",
@@ -28,7 +27,6 @@
     "eth-act/ere-guests",
     "facebookexperimental/cxx",
     "flathub-infra/flat-manager-hooks",
-    "foundry-rs/foundry-core",
     "godot-rust/godot4-prebuilt",
     "hecrj/llama-server",
     "heroku/buildpacks-deb-packages",
@@ -39,13 +37,11 @@
     "image-rs/image-extras",
     "influxdata/arrow-datafusion",
     "juharris/optify",
-    "kurrent-io/KurrentDB-Bridge-Client",
     "ldclabs/ic-cose",
     "open-telemetry/opentelemetry-weaver-examples",
     "oxc-project/oxc-index-vec",
     "snowflakedb/universal-driver",
     "sp1-patches/RustCrypto-hashes",
-    "tremby/snapmixer",
     "typst/typst-dev-assets",
     "vercel-labs/mdxjs-rs-turbopack"
   ]

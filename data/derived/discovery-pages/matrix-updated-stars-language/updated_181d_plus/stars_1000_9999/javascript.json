@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4329,
-    "concepts": 873,
-    "observations": 874,
-    "repos": 246,
-    "terms": 867
+    "components": 4289,
+    "concepts": 876,
+    "observations": 877,
+    "repos": 245,
+    "terms": 869
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -29,6 +29,7 @@
     "apidoc/apidoc",
     "appbaseio/reactivesearch",
     "arackaf/customize-cra",
+    "architect/architect",
     "astefanutti/kubebox",
     "astroturfcss/astroturf",
     "Azure/azure-sdk-for-node",
@@ -184,7 +185,6 @@
     "nodeca/pako",
     "nodejs/readable-stream",
     "nodists/nodist",
-    "nolanlawson/optimize-js",
     "nwutils/nw-sample-apps",
     "nx-js/observer-util",
     "nytimes/kyt",
@@ -229,7 +229,6 @@
     "styled-components/babel-plugin-styled-components",
     "styled-system/styled-system",
     "swagger-api/swagger-node",
-    "tape-testing/tape",
     "taylorhakes/fecha",
     "taylorhakes/promise-polyfill",
     "terkelg/prompts",

@@ -1,31 +1,35 @@
 {
   "counts": {
-    "components": 517,
-    "concepts": 137,
-    "observations": 137,
-    "repos": 22,
-    "terms": 174
+    "components": 932,
+    "concepts": 191,
+    "observations": 192,
+    "repos": 26,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "airbnb/javascript",
+    "angular/angular",
     "anthropics/claude-code",
     "anthropics/skills",
     "avelino/awesome-go",
     "denoland/deno",
     "facebook/react",
+    "facebook/react-native",
     "flutter/flutter",
     "golang/go",
     "google-gemini/gemini-cli",
     "kubernetes/kubernetes",
+    "langgenius/dify",
     "microsoft/terminal",
     "microsoft/typescript",
+    "microsoft/vscode",
     "mrdoob/three.js",
     "nodejs/node",
     "nousresearch/hermes-agent",

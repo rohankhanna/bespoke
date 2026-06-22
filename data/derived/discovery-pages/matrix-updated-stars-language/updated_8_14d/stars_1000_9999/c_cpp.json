@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 1,
-    "terms": 5
+    "components": 32,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "swiftlang/swift-llbuild"
+    "Nevcairiel/LAVFilters",
+    "ultrajson/ultrajson"
   ]
 }

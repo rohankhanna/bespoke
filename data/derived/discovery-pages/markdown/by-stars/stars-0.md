@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 ## Active filters
 
@@ -8,7 +8,7 @@ Generated at: `2026-06-21T08:10:55.517515+00:00`
 
 ## Counts
 
-- repos: 914
+- repos: 911
 - terms: 1259
 - components: 2937
 - concepts: 1228
@@ -933,9 +933,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [altgr/opam-publish](https://github.com/AltGr/opam-publish) | 0 | 2021-06-24T09:58:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bepinex/mono](https://github.com/BepInEx/mono) | 0 | 2021-06-24T06:21:45Z | Other | CLI | 0 | 0 | 0 | 0 |
-| [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/testdet](https://github.com/hsivonen/testdet) | 0 | 2021-06-15T13:05:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -1852,6 +1849,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [altgr/opam-publish](https://github.com/AltGr/opam-publish) | 0 | 2021-06-24T09:58:55Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [bepinex/mono](https://github.com/BepInEx/mono) | 0 | 2021-06-24T06:21:45Z | Other | CLI | 0 | 0 | 0 | 0 |
-| [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/testdet](https://github.com/hsivonen/testdet) | 0 | 2021-06-15T13:05:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 84
-- terms: 67
-- components: 52
-- concepts: 58
-- observations: 58
+- repos: 89
+- terms: 72
+- components: 56
+- concepts: 63
+- observations: 63
 
 ## Static behavior
 
@@ -26,6 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/pytomlpp-feedstock](https://github.com/conda-forge/pytomlpp-feedstock) | 0 | 2026-04-22T19:50:06Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bugs-And-FRs](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs) | 0 | 2026-04-21T11:02:04Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
@@ -115,6 +120,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [Dustinpro/Dustinpro](https://github.com/Dustinpro/Dustinpro) | 0 | 2026-04-22T21:16:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [conda-forge/pytomlpp-feedstock](https://github.com/conda-forge/pytomlpp-feedstock) | 0 | 2026-04-22T19:50:06Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [conda-forge/python-isal-feedstock](https://github.com/conda-forge/python-isal-feedstock) | 0 | 2026-04-22T19:38:39Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [cachix/serde-envfile](https://github.com/cachix/serde-envfile) | 0 | 2026-04-22T10:39:58Z | Unknown | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Bugs-And-FRs](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs) | 0 | 2026-04-21T11:02:04Z | Unknown | Unknown | 1 | 0 | 1 | 1 |

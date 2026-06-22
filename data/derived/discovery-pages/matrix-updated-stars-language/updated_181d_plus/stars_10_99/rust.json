@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 586,
-    "concepts": 433,
-    "observations": 438,
-    "repos": 206,
-    "terms": 427
+    "components": 593,
+    "concepts": 435,
+    "observations": 440,
+    "repos": 209,
+    "terms": 428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "0xPlaygrounds/rig-onchain-kit",
@@ -75,6 +75,7 @@
     "danielgrittner/llama2-rs",
     "dapplion/beacon-metrics-gazer",
     "daschl/hwloc-rs",
+    "datafusion-contrib/hdfs-native-object-store",
     "datatrash/mos",
     "davidlattimore/duplicate-function-checker",
     "DCjanus/cang-jie",
@@ -115,6 +116,7 @@
     "ifsheldon/async-openai-wasm",
     "imgui-rs/imgui-winit-support",
     "informalsystems/basecoin-rs",
+    "informalsystems/quint-connect",
     "informalsystems/sovereign-ibc",
     "inherd/forming",
     "intuis/mnyaoo32",
@@ -135,6 +137,7 @@
     "lapce/lapce-plugin-rust",
     "larry0x/cw-plus-plus",
     "LaurentMazare/tch-ext",
+    "LaurentMazare/ug",
     "linebender/simplecss",
     "lita-xyz/valida-vm",
     "loocapro/reth-bsc",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 13,
-    "terms": 125
+    "components": 29,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 11,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "academic/awesome-datascience",
-    "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "brave/brave-browser",
     "fffaraz/awesome-cpp",
     "firstcontributions/first-contributions",
@@ -23,7 +22,6 @@
     "kepano/obsidian-skills",
     "Loyalsoldier/v2ray-rules-dat",
     "matiassingers/awesome-readme",
-    "microsoft/winget-pkgs",
     "obsidianmd/obsidian-releases",
     "punkpeye/awesome-mcp-servers",
     "veggiemonk/awesome-docker"

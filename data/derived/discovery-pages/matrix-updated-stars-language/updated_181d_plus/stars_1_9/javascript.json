@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1461,
+    "components": 1456,
     "concepts": 193,
     "observations": 194,
-    "repos": 121,
+    "repos": 119,
     "terms": 193
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0x1abin/matter-controller-mcp",
     "0x4139/cosmos-discord-faucet",
@@ -76,7 +76,6 @@
     "hchiam/learning-firebase-local-emulator",
     "hchiam/learning-firestore",
     "hchiam/learning-js-design-patterns",
-    "hchiam/learning-lint-staged",
     "hchiam/learning-nextjs",
     "hchiam/learning-reactjs",
     "hchiam/learning-sapper",
@@ -95,7 +94,6 @@
     "josephfrazier/standard-eject",
     "kabiaa/atom-ide-volar",
     "kellyselden/git-diff-apply",
-    "kosmtik/kosmtik-fetch-remote",
     "kosmtik/kosmtik-map-compare",
     "kriszyp/db-benchmark",
     "KyberNetwork/dao_sc",

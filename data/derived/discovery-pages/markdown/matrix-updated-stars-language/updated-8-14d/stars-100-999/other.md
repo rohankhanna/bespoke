@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-06-12T08:06:30.850786+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 43
-- components: 36
-- concepts: 43
-- observations: 43
+- repos: 5
+- terms: 34
+- components: 44
+- concepts: 34
+- observations: 34
 
 ## Static behavior
 
@@ -26,16 +26,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 791 | 2026-05-30T00:26:59Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-29T20:15:17Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [dwyl/phoenix-ecto-encryption-example](https://github.com/dwyl/phoenix-ecto-encryption-example) | 291 | 2026-06-13T23:15:08Z | Other | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-06-12T08:02:39Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
+| [meshcat-dev/meshcat](https://github.com/meshcat-dev/meshcat) | 333 | 2026-06-09T18:16:16Z | Other | Web app | 0 | 11 | 0 | 0 |
+| [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 627 | 2026-06-09T08:55:49Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 900 | 2026-06-08T09:31:34Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 791 | 2026-05-30T00:26:59Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-29T20:15:17Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [babashka/nbb](https://github.com/babashka/nbb) | 955 | 2026-06-12T08:02:39Z | Other | Infrastructure/tooling | 7 | 13 | 7 | 7 |
+| [elixir-protobuf/protobuf](https://github.com/elixir-protobuf/protobuf) | 900 | 2026-06-08T09:31:34Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [tc39/proposal-decimal](https://github.com/tc39/proposal-decimal) | 627 | 2026-06-09T08:55:49Z | Other | Infrastructure/tooling | 6 | 12 | 6 | 6 |
+| [meshcat-dev/meshcat](https://github.com/meshcat-dev/meshcat) | 333 | 2026-06-09T18:16:16Z | Other | Web app | 0 | 11 | 0 | 0 |
+| [dwyl/phoenix-ecto-encryption-example](https://github.com/dwyl/phoenix-ecto-encryption-example) | 291 | 2026-06-13T23:15:08Z | Other | Infrastructure/tooling | 13 | 4 | 13 | 13 |

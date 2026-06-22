@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2881,
-    "concepts": 494,
-    "observations": 495,
-    "repos": 101,
-    "terms": 503
+    "components": 2818,
+    "concepts": 485,
+    "observations": 486,
+    "repos": 99,
+    "terms": 494
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -49,7 +49,6 @@
     "ElricLiu/AutoGPT-Next-Web",
     "EventSource/eventsource",
     "expo/expo-cli",
-    "felixrieseberg/windows-build-tools",
     "fjc0k/docker-YApi",
     "fmaclen/hollama",
     "FormidableLabs/prism-react-renderer",
@@ -82,7 +81,6 @@
     "microsoft/BotFramework-Emulator",
     "microsoft/botframework-solutions",
     "microsoft/dts-gen",
-    "node-gh/gh",
     "nsfw-filter/nsfw-filter",
     "nuxt/vite",
     "opendatalab/LabelLLM",

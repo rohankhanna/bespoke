@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 9610,
-    "concepts": 11460,
-    "observations": 11488,
-    "repos": 2386,
-    "terms": 11364
+    "components": 9646,
+    "concepts": 11470,
+    "observations": 11498,
+    "repos": 2385,
+    "terms": 11375
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0ldsk00l/nestopia",
@@ -189,7 +189,6 @@
     "apple/ccs-pykerberos",
     "apple/foundationdb",
     "appwrite/playground-for-flutter",
-    "aqtq314/World.NET",
     "aquaskyline/LRSIM",
     "Ar-Ray-code/YOLOX-ROS",
     "arangodb/arangodb",
@@ -405,7 +404,6 @@
     "cassioneri/teju_jagua",
     "catchorg/Catch2",
     "catid/leopard",
-    "cbucher/console",
     "ccache/ccache",
     "ccslykx/Starry",
     "cdcseacave/openMVS",
@@ -439,6 +437,7 @@
     "CHIP-SPV/H4I-HipFFT",
     "CHIP-SPV/H4I-HipSOLVER",
     "CHIP-SPV/H4I-MKLShim",
+    "ChiyukiGana/Quickinput",
     "chjj/compton",
     "Chlumsky/artery-font-format",
     "Chlumsky/msdf-atlas-gen",
@@ -1011,7 +1010,6 @@
     "haproxy/haproxy",
     "harfbuzz/harfbuzz",
     "haxenme/nme",
-    "hayguen/greenffts",
     "hayguen/pffft",
     "hayguen/pocketfft",
     "hazelcast/hazelcast-cpp-client",
@@ -1662,6 +1660,7 @@
     "Netgear/wsdd2",
     "NetHack-LE/nle",
     "NetHack/NetHack",
+    "Nevcairiel/LAVFilters",
     "newrelic/node-native-metrics",
     "nfrechette/acl",
     "nfrechette/acl-ue4-plugin",
@@ -2113,7 +2112,6 @@
     "stardot/b-em",
     "stardot/beebasm",
     "starwing/luautf8",
-    "statsite/statsite",
     "stdlib-js/complex-float32-ctor",
     "stdlib-js/complex-float64-ctor",
     "stdlib-js/ndarray-ctor",
@@ -2390,6 +2388,7 @@
     "zeux/meshoptimizer",
     "zeux/pugixml",
     "zeux/volk",
+    "zhouwg/ggml-hexagon",
     "Zielon/INSTA",
     "Zielon/INSTA-pytorch",
     "zig-wasm/wasmer-zig-api",

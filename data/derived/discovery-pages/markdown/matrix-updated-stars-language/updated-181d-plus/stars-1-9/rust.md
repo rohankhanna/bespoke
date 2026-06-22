@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Rust
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 103
+- repos: 102
 - terms: 144
 - components: 356
 - concepts: 144
@@ -128,7 +128,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bwt-dev/libbwt](https://github.com/bwt-dev/libbwt) | 4 | 2021-10-06T14:31:23Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [JackLiar/rust-llhttp](https://github.com/JackLiar/rust-llhttp) | 2 | 2021-08-21T08:54:32Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [tamuhey/seqdiff](https://github.com/tamuhey/seqdiff) | 6 | 2021-07-13T05:08:16Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [hsivonen/traindet](https://github.com/hsivonen/traindet) | 1 | 2021-06-15T11:40:25Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -236,4 +235,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [azdavis/c0ls](https://github.com/azdavis/c0ls) | 1 | 2022-11-13T18:29:45Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [adambiltcliffe/macroquad-jfa](https://github.com/adambiltcliffe/macroquad-jfa) | 1 | 2022-08-28T18:50:17Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [apache/casbin-rust-actix-file-adapter-rbac](https://github.com/apache/casbin-rust-actix-file-adapter-rbac) | 1 | 2022-08-22T01:31:24Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [hsivonen/traindet](https://github.com/hsivonen/traindet) | 1 | 2021-06-15T11:40:25Z | Rust | Unknown | 0 | 0 | 0 | 0 |

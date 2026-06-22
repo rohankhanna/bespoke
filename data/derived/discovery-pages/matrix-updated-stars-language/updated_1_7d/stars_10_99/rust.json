@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 25,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 2,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "alloy-rs/evm"
+    "kurrent-io/KurrentDB-Client-Rust",
+    "vaporif/parry-guard"
   ]
 }

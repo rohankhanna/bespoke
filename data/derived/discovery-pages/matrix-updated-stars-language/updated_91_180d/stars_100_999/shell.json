@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 145,
-    "observations": 146,
-    "repos": 31,
-    "terms": 144
+    "components": 61,
+    "concepts": 149,
+    "observations": 150,
+    "repos": 33,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-asset-update",
     "10up/action-wordpress-plugin-deploy",
@@ -28,10 +28,12 @@
     "bitwarden/brand",
     "bluzername/claude-code-terminal-title",
     "docker-library/buildpack-deps",
+    "docker-library/hello-world",
     "flinedev/contextkit",
     "get-gah/gah",
     "helm/chart-releaser-action",
     "helm/kind-action",
+    "heroku/heroku-buildpack-pgbouncer",
     "jandamm/zgenom",
     "lxgw/LxgwWenKai-Lite",
     "lynxthecat/adblock-lean",

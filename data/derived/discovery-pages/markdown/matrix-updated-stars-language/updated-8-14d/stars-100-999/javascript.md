@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-06-12T08:06:30.850786+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 39
-- components: 51
-- concepts: 39
-- observations: 39
+- repos: 2
+- terms: 6
+- components: 46
+- concepts: 6
+- observations: 6
 
 ## Static behavior
 
@@ -26,16 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-30T00:41:14Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [beve-org/beve](https://github.com/beve-org/beve) | 120 | 2026-05-29T21:22:54Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |
-| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-05-29T20:10:34Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 253 | 2026-05-29T14:11:16Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
+| [w3c/trusted-types](https://github.com/w3c/trusted-types) | 659 | 2026-06-11T15:12:41Z | JavaScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
+| [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 611 | 2026-06-11T09:52:14Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint-visual-studio-code](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code) | 286 | 2026-05-30T00:41:14Z | JavaScript | Infrastructure/tooling | 8 | 13 | 8 | 8 |
-| [GDevelopApp/GDevelop-extensions](https://github.com/GDevelopApp/GDevelop-extensions) | 253 | 2026-05-29T14:11:16Z | JavaScript | Infrastructure/tooling | 11 | 22 | 11 | 11 |
-| [digitalocean/openapi](https://github.com/digitalocean/openapi) | 137 | 2026-05-29T20:10:34Z | JavaScript | Infrastructure/tooling | 11 | 14 | 11 | 11 |
-| [beve-org/beve](https://github.com/beve-org/beve) | 120 | 2026-05-29T21:22:54Z | JavaScript | Infrastructure/tooling | 9 | 2 | 9 | 9 |
+| [w3c/trusted-types](https://github.com/w3c/trusted-types) | 659 | 2026-06-11T15:12:41Z | JavaScript | Infrastructure/tooling | 4 | 28 | 4 | 4 |
+| [browserslist/caniuse-lite](https://github.com/browserslist/caniuse-lite) | 611 | 2026-06-11T09:52:14Z | JavaScript | Infrastructure/tooling | 2 | 18 | 2 | 2 |

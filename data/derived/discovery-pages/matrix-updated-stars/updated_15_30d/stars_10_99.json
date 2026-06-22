@@ -1,46 +1,38 @@
 {
   "counts": {
-    "components": 335,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 29,
-    "terms": 156
+    "components": 235,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 21,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
+    "aidenlab/hic-straw",
     "alloy-rs/evm",
-    "amazon-ion/ion-cli",
+    "AMD-AGI/Nitro-T",
+    "BirolLab/LINKS",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/credhub-cli",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "dwyl/mvp",
     "edge-classic/EDGE-classic",
+    "f3liz-casa/noraneko",
     "FAIR-IMPACT/MOD",
-    "geocompx/docker",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "honwen/openwrt-dnsmasq-extra",
-    "intel-staging/text-generation-webui",
     "jelly-beam/rebar3_ex_doc",
     "joshsymonds/cc-tools",
     "karafka/example-apps",
-    "lifegpc/msg-tool",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "mongodb/winkerberos",
     "mono/skia",
-    "mozilla-ai/otari",
-    "nuxt-modules/emotion",
-    "ocaml-tracing/ocaml-opentelemetry",
-    "ogx-ai/ogx-client-typescript",
     "pivotal/credhub-release",
     "python-poetry/website",
     "skilld-dev/retriv",
-    "storybook-community/addon-queryparams",
-    "TrigenSoftware/simple-release",
-    "vaporif/parry-guard"
+    "storybook-community/addon-queryparams"
   ]
 }

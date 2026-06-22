@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 467,
-    "observations": 469,
-    "repos": 110,
-    "terms": 461
+    "components": 349,
+    "concepts": 479,
+    "observations": 481,
+    "repos": 111,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "anacrolix/go-libutp",
@@ -45,8 +45,8 @@
     "derickr/timelib",
     "devkitPro/libctru",
     "douglascrockford/JSMin",
+    "eclipse-cyclonedds/cyclonedds-cxx",
     "eddelbuettel/rinside",
-    "ejoy/lua",
     "eliemichel/LearnWebGPU",
     "embeddedartistry/libc",
     "embeddedartistry/libmemory",
@@ -77,6 +77,7 @@
     "lh3/yak",
     "libxsmm/libxsmm",
     "lualanes/lanes",
+    "LuisaGroup/LuisaRender",
     "luvit/luvi",
     "marbl/canu",
     "martinmoene/lest",

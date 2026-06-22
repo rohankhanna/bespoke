@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 4,
-    "terms": 35
+    "components": 72,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "conventional-changelog/conventional-changelog",
-    "podman-desktop/podman-desktop",
-    "react-native-webview/react-native-webview",
-    "vuejs/devtools"
+    "off-grid-ai/mobile"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 5,
-    "terms": 27
+    "components": 74,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 2,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
-    "huggingface/hf-mcp-server",
-    "mightyiam/eslint-config-love",
-    "preactjs/preact-devtools",
-    "stx-labs/stacks.js"
+    "antvis/GPT-Vis",
+    "lobehub/lobe-cli-toolbox"
   ]
 }

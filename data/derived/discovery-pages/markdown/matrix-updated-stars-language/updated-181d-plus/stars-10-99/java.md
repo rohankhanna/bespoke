@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Java
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 76
+- repos: 75
 - terms: 166
 - components: 118
 - concepts: 165
@@ -88,7 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher) | 49 | 2022-11-10T11:16:17Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [angelozerr/ec4e](https://github.com/angelozerr/ec4e) | 10 | 2022-09-15T15:59:53Z | Java | CLI | 2 | 0 | 2 | 2 |
 | [gstreamer-java/gst1-java-examples](https://github.com/gstreamer-java/gst1-java-examples) | 60 | 2022-09-05T17:22:40Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [Deep-Symmetry/wayang](https://github.com/Deep-Symmetry/wayang) | 39 | 2022-08-25T16:51:05Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [Deep-Symmetry/wayang](https://github.com/Deep-Symmetry/wayang) | 40 | 2022-08-25T16:51:05Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [jenkinsci/jna-posix](https://github.com/jenkinsci/jna-posix) | 11 | 2022-07-14T23:03:47Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [marbl/MHAP](https://github.com/marbl/MHAP) | 99 | 2022-06-27T07:23:12Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [luben/ZstdAndroidExample](https://github.com/luben/ZstdAndroidExample) | 16 | 2022-06-21T14:22:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -101,7 +101,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Parquet/parquet-compatibility](https://github.com/Parquet/parquet-compatibility) | 70 | 2022-01-05T21:15:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [aidenlab/JuicerTools](https://github.com/aidenlab/JuicerTools) | 20 | 2022-01-01T05:00:23Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [RESTDocsEXT/restdocsext-jersey](https://github.com/RESTDocsEXT/restdocsext-jersey) | 13 | 2021-12-07T11:41:58Z | Java | CLI | 0 | 0 | 0 | 0 |
-| [fizzed/ninja-rocker](https://github.com/fizzed/ninja-rocker) | 16 | 2021-06-07T16:32:26Z | Java | Framework | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -133,9 +132,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [extism/java-sdk](https://github.com/extism/java-sdk) | 44 | 2025-06-26T07:22:43Z | Java | Infrastructure/tooling | 7 | 4 | 7 | 7 |
 | [didalgolab/ai-intellij-plugin](https://github.com/didalgolab/ai-intellij-plugin) | 44 | 2025-03-26T22:20:24Z | Java | Infrastructure/tooling | 1 | 9 | 0 | 0 |
 | [osirrc/ciff](https://github.com/osirrc/ciff) | 40 | 2024-09-19T16:23:14Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [Deep-Symmetry/wayang](https://github.com/Deep-Symmetry/wayang) | 40 | 2022-08-25T16:51:05Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [h2oai/h2o-droplets](https://github.com/h2oai/h2o-droplets) | 39 | 2025-03-17T07:45:43Z | Java | Template/starter | 0 | 0 | 0 | 0 |
 | [SpencerPark/jupyter-jvm-basekernel](https://github.com/SpencerPark/jupyter-jvm-basekernel) | 39 | 2024-02-11T23:46:08Z | Java | Unknown | 3 | 0 | 3 | 3 |
-| [Deep-Symmetry/wayang](https://github.com/Deep-Symmetry/wayang) | 39 | 2022-08-25T16:51:05Z | Java | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [jerrylususu/PaddleOCR-json-java-api](https://github.com/jerrylususu/PaddleOCR-json-java-api) | 37 | 2025-08-29T11:26:58Z | Java | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [extism/chicory-sdk](https://github.com/extism/chicory-sdk) | 36 | 2025-10-31T06:52:08Z | Java | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [grpc/grpc-java-api-checker](https://github.com/grpc/grpc-java-api-checker) | 33 | 2025-11-26T15:57:27Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -166,7 +165,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BioASQ/Evaluation-Measures](https://github.com/BioASQ/Evaluation-Measures) | 17 | 2022-04-26T14:59:24Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [caprica/vlcj-info](https://github.com/caprica/vlcj-info) | 17 | 2022-04-05T19:22:51Z | Java | Library | 0 | 0 | 0 | 0 |
 | [luben/ZstdAndroidExample](https://github.com/luben/ZstdAndroidExample) | 16 | 2022-06-21T14:22:11Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [fizzed/ninja-rocker](https://github.com/fizzed/ninja-rocker) | 16 | 2021-06-07T16:32:26Z | Java | Framework | 0 | 0 | 0 | 0 |
 | [CommonWealthRobotics/mujoco-java](https://github.com/CommonWealthRobotics/mujoco-java) | 15 | 2025-03-18T20:49:54Z | Java | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [jenkinsci/jmh-report-plugin](https://github.com/jenkinsci/jmh-report-plugin) | 14 | 2024-08-06T13:09:30Z | Java | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [dgileadi/dg.jdt.ls.decompiler](https://github.com/dgileadi/dg.jdt.ls.decompiler) | 14 | 2023-11-28T07:52:40Z | Java | Infrastructure/tooling | 1 | 3 | 1 | 1 |

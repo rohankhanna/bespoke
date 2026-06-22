@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 4353,
+    "components": 4349,
     "concepts": 553,
     "observations": 554,
-    "repos": 192,
+    "repos": 191,
     "terms": 564
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -172,7 +172,6 @@
     "redhat-developer/vscode-redhat-telemetry",
     "remotion-dev/brand",
     "remotion-dev/github-unwrapped-2021",
-    "ricmoo/multicall",
     "Roblox/setup-foreman",
     "rose-pine/rose-pine-palette",
     "rygwdn/slack-tools",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 4,
-    "observations": 5,
-    "repos": 1,
-    "terms": 4
+    "components": 34,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 3,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "jax-ml/jax"
+    "567-labs/instructor",
+    "datalab-to/surya",
+    "Lightning-AI/pytorch-lightning"
   ]
 }

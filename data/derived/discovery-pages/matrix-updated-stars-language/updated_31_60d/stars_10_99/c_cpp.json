@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 298,
-    "concepts": 388,
-    "observations": 389,
-    "repos": 55,
-    "terms": 383
+    "components": 257,
+    "concepts": 329,
+    "observations": 330,
+    "repos": 48,
+    "terms": 324
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "acts-project/traccc",
-    "ad-si/FlatCV",
-    "AFD-Illinois/kharma",
     "akruphi/far2l",
     "analogdevicesinc/msdk",
     "Antares0982/ssrJSON",
@@ -27,11 +25,8 @@
     "BirolLab/btllib",
     "bmwiedemann/openSUSE",
     "boostorg/config",
-    "BrianPugh/tamp",
-    "bufbuild/protovalidate-cc",
     "compiler-research/CppInterOp",
     "confluentinc/libserdes",
-    "DeepLink-org/DLSlime",
     "diffscope/diffscope-project",
     "erigontech/mdbx-go",
     "facebook/fb303",
@@ -53,10 +48,8 @@
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "llnl/camp",
-    "Mbed-TLS/TF-PSA-Crypto",
     "microsoft/aitour-exploring-cutting-edge-models",
     "milvus-io/milvus-sdk-cpp",
-    "narugit/smctemp",
     "oneapi-src/unified-memory-framework",
     "openvinotoolkit/openvino_tokenizers",
     "rapidsai/ucxx",

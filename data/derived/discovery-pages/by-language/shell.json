@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1924,
-    "concepts": 2866,
-    "observations": 2885,
-    "repos": 716,
-    "terms": 2791
+    "components": 1927,
+    "concepts": 2861,
+    "observations": 2880,
+    "repos": 714,
+    "terms": 2790
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -358,7 +358,6 @@
     "gpac/testsuite",
     "GrapheneOS/Vanadium",
     "graphql/composite-schemas-spec",
-    "gulvarol/surreact",
     "guochengqian/PointNeXt",
     "hackerb9/lsix",
     "harbor-framework/terminal-bench-2",
@@ -435,7 +434,6 @@
     "joshmedeski/t-smart-tmux-session-manager",
     "jstkdng/aur",
     "juanluisbaptiste/apachebench-graphs",
-    "junkblocker/calibre-zaw-source",
     "just-containers/s6-overlay",
     "justchokingaround/lobster",
     "justinmayer/virtualfish",

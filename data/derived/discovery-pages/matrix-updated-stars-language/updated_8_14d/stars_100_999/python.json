@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 7,
-    "terms": 44
+    "components": 29,
+    "concepts": 47,
+    "observations": 48,
+    "repos": 8,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
-    "AI-Hypercomputer/maxdiffusion",
-    "Comfy-Org/comfy-cli",
-    "googlefonts/ufo2ft",
-    "jupyter-server/jupyter_server",
+    "adamchainz/blacken-docs",
+    "clearml/clearml-agent",
+    "flagos-ai/FlagAttention",
+    "google-deepmind/chex",
+    "google-deepmind/xmanager",
     "machinewrapped/llm-subtrans",
-    "readthedocs/commonmark.py"
+    "meta-pytorch/torchft",
+    "xlite-dev/Awesome-DiT-Inference"
   ]
 }

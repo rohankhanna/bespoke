@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · Unknown
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 125
-- components: 32
-- concepts: 125
-- observations: 125
+- repos: 11
+- terms: 108
+- components: 29
+- concepts: 108
+- observations: 108
 
 ## Static behavior
 
@@ -37,8 +37,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | 20843 | 2026-04-26T20:52:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) | 70895 | 2026-04-24T03:23:57Z | Unknown | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [google/material-design-icons](https://github.com/google/material-design-icons) | 53221 | 2026-04-24T03:13:07Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
-| [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17686 | 2026-04-23T02:09:05Z | Unknown | Model/data | 13 | 0 | 13 | 13 |
-| [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs) | 10504 | 2026-04-22T18:50:58Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -54,6 +52,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [brave/brave-browser](https://github.com/brave/brave-browser) | 22437 | 2026-05-04T16:19:32Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | 20843 | 2026-04-26T20:52:35Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) | 19612 | 2026-05-02T22:34:48Z | Unknown | Infrastructure/tooling | 20 | 3 | 20 | 20 |
-| [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17686 | 2026-04-23T02:09:05Z | Unknown | Model/data | 13 | 0 | 13 | 13 |
 | [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) | 17248 | 2026-05-01T00:52:16Z | Unknown | Infrastructure/tooling | 9 | 7 | 9 | 9 |
-| [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs) | 10504 | 2026-04-22T18:50:58Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |

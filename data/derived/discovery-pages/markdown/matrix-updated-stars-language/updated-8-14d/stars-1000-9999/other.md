@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 17
-- components: 33
-- concepts: 17
-- observations: 17
+- repos: 6
+- terms: 45
+- components: 25
+- concepts: 45
+- observations: 45
 
 ## Static behavior
 
@@ -26,14 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1178 | 2026-05-30T11:21:48Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5987 | 2026-05-30T10:24:54Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-30T08:57:06Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [preservim/tagbar](https://github.com/preservim/tagbar) | 6220 | 2026-06-14T16:03:40Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [intel/BigDL](https://github.com/intel/BigDL) | 2699 | 2026-06-12T07:14:18Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
+| [standardrb/standard](https://github.com/standardrb/standard) | 2902 | 2026-06-11T01:15:40Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [bencheeorg/benchee](https://github.com/bencheeorg/benchee) | 1511 | 2026-06-09T09:04:54Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9796 | 2026-06-08T22:56:40Z | Other | CLI | 3 | 6 | 3 | 3 |
+| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | 9415 | 2026-06-08T16:18:50Z | Other | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [microsoft/aspire](https://github.com/microsoft/aspire) | 5987 | 2026-05-30T10:24:54Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [swiftlang/swift-syntax](https://github.com/swiftlang/swift-syntax) | 3656 | 2026-05-30T08:57:06Z | Other | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [microsoft/aspire-samples](https://github.com/microsoft/aspire-samples) | 1178 | 2026-05-30T11:21:48Z | Other | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [googleapis/google-api-php-client](https://github.com/googleapis/google-api-php-client) | 9796 | 2026-06-08T22:56:40Z | Other | CLI | 3 | 6 | 3 | 3 |
+| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | 9415 | 2026-06-08T16:18:50Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [preservim/tagbar](https://github.com/preservim/tagbar) | 6220 | 2026-06-14T16:03:40Z | Other | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [standardrb/standard](https://github.com/standardrb/standard) | 2902 | 2026-06-11T01:15:40Z | Other | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [intel/BigDL](https://github.com/intel/BigDL) | 2699 | 2026-06-12T07:14:18Z | Other | Infrastructure/tooling | 15 | 6 | 15 | 15 |
+| [bencheeorg/benchee](https://github.com/bencheeorg/benchee) | 1511 | 2026-06-09T09:04:54Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |

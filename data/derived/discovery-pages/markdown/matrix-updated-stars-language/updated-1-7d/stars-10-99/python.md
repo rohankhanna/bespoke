@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Python
 
-Generated at: `2026-06-05T07:56:21.398708+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 13
-- components: 24
-- concepts: 13
-- observations: 13
+- repos: 4
+- terms: 29
+- components: 35
+- concepts: 29
+- observations: 29
 
 ## Static behavior
 
@@ -26,12 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 84 | 2026-05-30T00:29:12Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 35 | 2026-05-29T10:59:26Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [lhj5426/X-AnyLabeling](https://github.com/lhj5426/X-AnyLabeling) | 25 | 2026-06-20T22:04:53Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 62 | 2026-06-19T17:29:00Z | Python | Infrastructure/tooling | 13 | 18 | 13 | 13 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 87 | 2026-06-17T04:13:07Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 84 | 2026-05-30T00:29:12Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 35 | 2026-05-29T10:59:26Z | Python | Infrastructure/tooling | 6 | 14 | 6 | 6 |
+| [hiddenswitch/pip-and-uv-installable-ComfyUI](https://github.com/hiddenswitch/pip-and-uv-installable-ComfyUI) | 87 | 2026-06-17T04:13:07Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [mozilla-ai/otari](https://github.com/mozilla-ai/otari) | 62 | 2026-06-19T17:29:00Z | Python | Infrastructure/tooling | 13 | 18 | 13 | 13 |
+| [lhj5426/X-AnyLabeling](https://github.com/lhj5426/X-AnyLabeling) | 25 | 2026-06-20T22:04:53Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [mesh-iit/cad-libraries](https://github.com/mesh-iit/cad-libraries) | 21 | 2026-06-15T15:30:04Z | Python | Unknown | 0 | 0 | 0 | 0 |

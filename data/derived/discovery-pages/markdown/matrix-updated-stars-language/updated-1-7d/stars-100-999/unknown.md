@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-27T08:59:49.396739+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -14,7 +14,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 - repos: 1
 - terms: 5
-- components: 7
+- components: 9
 - concepts: 5
 - observations: 5
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 124 | 2026-05-21T05:42:32Z | Unknown | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 125 | 2026-06-19T03:26:35Z | Unknown | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 124 | 2026-05-21T05:42:32Z | Unknown | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [pyOpenSci/software-submission](https://github.com/pyOpenSci/software-submission) | 125 | 2026-06-19T03:26:35Z | Unknown | Infrastructure/tooling | 5 | 9 | 5 | 5 |

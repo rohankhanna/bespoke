@@ -3,7 +3,7 @@
     "components": 128,
     "concepts": 473,
     "observations": 474,
-    "repos": 261,
+    "repos": 260,
     "terms": 487
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -40,7 +40,6 @@
     "aws-cloudformation/awesome-cloudformation",
     "aws/apprunner-roadmap",
     "aws/aws-app-mesh-roadmap",
-    "aws/aws-proton-public-roadmap",
     "aws/mit-0",
     "awsdocs/aws-sam-developer-guide",
     "Azure/app-service-announcements",

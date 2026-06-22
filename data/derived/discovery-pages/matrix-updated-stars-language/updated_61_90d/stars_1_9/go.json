@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 63,
-    "observations": 63,
+    "components": 120,
+    "concepts": 67,
+    "observations": 67,
     "repos": 27,
-    "terms": 64
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "5c077m4n/pikud-haoref-api-go",
     "abraxas-365/claudio",
     "abraxas-365/claudio-codex",
     "ainvaltin/nu-plugin",
     "aldernero/gaul",
-    "alexellis/gha-bump",
     "anexia/k8s-external-dns-webhook",
     "apache/dubbo-go-extensions",
     "archestra-ai/terraform-provider-archestra",
+    "cgrindel/swift_gazelle_plugin",
     "cloudfoundry/bosh-aws-light-stemcell-builder",
     "cpu/wycheproof",
     "DataDog/trivy",

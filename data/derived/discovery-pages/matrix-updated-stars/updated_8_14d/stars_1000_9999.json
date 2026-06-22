@@ -1,25 +1,35 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 8,
-    "terms": 61
+    "components": 142,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 18,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint",
-    "eclipse-jdtls/eclipse.jdt.ls",
-    "godot-rust/gdext",
-    "JuliaPluto/Pluto.jl",
-    "microsoft/aspire",
-    "microsoft/aspire-samples",
-    "swiftlang/swift-llbuild",
-    "swiftlang/swift-syntax"
+    "bazel-contrib/bazel-gazelle",
+    "bazel-contrib/rules_go",
+    "bencheeorg/benchee",
+    "collabora/WhisperLive",
+    "gobackup/gobackup",
+    "googleapis/google-api-php-client",
+    "huggingface/optimum-quanto",
+    "intel/BigDL",
+    "intelligent-machine-learning/dlrover",
+    "litedb-org/LiteDB",
+    "meta-pytorch/tnt",
+    "Nevcairiel/LAVFilters",
+    "nodenv/nodenv",
+    "olric-data/olric",
+    "preservim/tagbar",
+    "standardrb/standard",
+    "ultrajson/ultrajson",
+    "vale-cli/vale"
   ]
 }

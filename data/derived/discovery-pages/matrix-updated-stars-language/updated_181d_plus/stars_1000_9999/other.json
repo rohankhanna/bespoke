@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1330,
-    "concepts": 1664,
-    "observations": 1666,
+    "components": 1336,
+    "concepts": 1649,
+    "observations": 1651,
     "repos": 440,
-    "terms": 1652
+    "terms": 1637
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -23,7 +23,6 @@
     "abo-abo/hydra",
     "AckslD/nvim-neoclip.lua",
     "adamtornhill/code-maat",
-    "advimman/lama",
     "ahmetb/kubectl-aliases",
     "ai-forever/Kandinsky-2",
     "ai/autoprefixer-rails",
@@ -149,7 +148,7 @@
     "github/pages-gem",
     "github/semantic",
     "gkamradt/LLMTest_NeedleInAHaystack",
-    "gluonfield/enchanted",
+    "globalize/globalize",
     "gmamaladze/globalmousekeyhook",
     "godlygeek/tabular",
     "google-deepmind/educational",
@@ -254,6 +253,7 @@
     "mhartington/formatter.nvim",
     "mhinz/vim-startify",
     "microsoft/ailab",
+    "microsoft/BotBuilder-Samples",
     "microsoft/CodeXGLUE",
     "microsoft/FASTER",
     "microsoft/Security-101",

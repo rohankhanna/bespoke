@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 4,
-    "terms": 43
+    "components": 44,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 5,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-12T08:06:30.850786+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "apalache-mc/apalache",
-    "astroautomata/SymbolicRegression.jl",
-    "bazel-contrib/rules_kotlin",
-    "ROCm/hipBLASLt"
+    "babashka/nbb",
+    "dwyl/phoenix-ecto-encryption-example",
+    "elixir-protobuf/protobuf",
+    "meshcat-dev/meshcat",
+    "tc39/proposal-decimal"
   ]
 }

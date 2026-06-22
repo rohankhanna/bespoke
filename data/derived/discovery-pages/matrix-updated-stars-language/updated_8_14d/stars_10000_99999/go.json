@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 20,
-    "observations": 20,
+    "components": 8,
+    "concepts": 2,
+    "observations": 2,
     "repos": 1,
-    "terms": 20
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T06:01:47.312888+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "mudler/LocalAI"
+    "git-lfs/git-lfs"
   ]
 }

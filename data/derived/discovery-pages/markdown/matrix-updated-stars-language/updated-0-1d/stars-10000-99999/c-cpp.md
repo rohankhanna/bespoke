@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-05-30T07:41:34.941193+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 34
-- components: 34
-- concepts: 34
-- observations: 34
+- repos: 2
+- terms: 18
+- components: 12
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -26,14 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24539 | 2026-05-29T19:13:28Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25639 | 2026-05-29T15:42:10Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50258 | 2026-05-29T11:27:47Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 25064 | 2026-06-21T16:09:21Z | C/C++ | Infrastructure/tooling | 14 | 6 | 14 | 14 |
+| [apache/brpc](https://github.com/apache/brpc) | 17543 | 2026-06-21T11:56:26Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 50258 | 2026-05-29T11:27:47Z | C/C++ | Infrastructure/tooling | 10 | 25 | 10 | 10 |
-| [argotorg/solidity](https://github.com/argotorg/solidity) | 25639 | 2026-05-29T15:42:10Z | C/C++ | Infrastructure/tooling | 11 | 5 | 11 | 11 |
-| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 24539 | 2026-05-29T19:13:28Z | C/C++ | Infrastructure/tooling | 13 | 4 | 13 | 13 |
+| [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | 25064 | 2026-06-21T16:09:21Z | C/C++ | Infrastructure/tooling | 14 | 6 | 14 | 14 |
+| [apache/brpc](https://github.com/apache/brpc) | 17543 | 2026-06-21T11:56:26Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |

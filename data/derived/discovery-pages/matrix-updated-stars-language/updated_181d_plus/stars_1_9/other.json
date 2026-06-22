@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1194,
-    "concepts": 537,
-    "observations": 537,
-    "repos": 357,
-    "terms": 544
+    "components": 1201,
+    "concepts": 533,
+    "observations": 533,
+    "repos": 356,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "2KAbhishek/awesome2k",
     "2KAbhishek/rofi2k",
@@ -35,6 +35,7 @@
     "aeulker/Claude-Code-Cheat-Sheet",
     "afulgens/base16-console2",
     "afulgens/base16-consolez",
+    "ahrefs/opam-check-npm-deps",
     "aidenlab/pyStraw",
     "aileot/vim-foldpeek",
     "AjayThorve/Spatial-Analytics-Viz",
@@ -136,7 +137,6 @@
     "decypher-ai/checklist",
     "Deep-Symmetry/ola-clojure",
     "dexters-hub/vue-study-jam",
-    "dgellow/idris-docker-image",
     "dicksonlaw583/GMIceCream",
     "dinosaure/unstrctrd",
     "dryruby/borsh.rb",
@@ -324,7 +324,6 @@
     "SantinoKeupp/telescope-cmake4vim.nvim",
     "SaraiQX/tigerbot-svelte-app",
     "sevenc-nanashi/voicevox.rb",
-    "Shiweiliuiiiiiii/SET-MLP-ONE-MILLION-NEURONS",
     "shovel-org/Base",
     "shunsambongi/neotest-testthat",
     "simdjson/simdjson-data",

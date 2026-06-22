@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 133,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 7,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "godot-rust/gdext"
+    "apache/datafusion-ballista",
+    "bionic-gpt/bionic-gpt",
+    "geiger-rs/cargo-geiger",
+    "godot-rust/gdext",
+    "intentee/paddler",
+    "safetensors/safetensors",
+    "watchexec/watchexec"
   ]
 }

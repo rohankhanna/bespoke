@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 2,
-    "terms": 23
+    "components": 61,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "electron/electron",
-    "ggml-org/llama.cpp"
+    "electron/electron"
   ]
 }

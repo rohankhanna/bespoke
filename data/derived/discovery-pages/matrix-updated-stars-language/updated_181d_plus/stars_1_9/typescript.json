@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1465,
-    "concepts": 155,
-    "observations": 155,
-    "repos": 86,
-    "terms": 151
+    "components": 1445,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 85,
+    "terms": 148
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -58,7 +58,6 @@
     "hchiam/learning-angular",
     "hchiam/learning-vite",
     "honeycombio/opentelemetry-demo",
-    "iansan5653/vscode-format-python-docstrings",
     "indexxuan/vite-plugin-vue-cli",
     "intlify/eslint-plugin-svelte",
     "iov-one/iov-faucet",

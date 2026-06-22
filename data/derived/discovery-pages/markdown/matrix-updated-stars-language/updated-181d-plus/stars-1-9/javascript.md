@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · JavaScript
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 121
+- repos: 119
 - terms: 193
-- components: 1461
+- components: 1456
 - concepts: 193
 - observations: 194
 
@@ -145,8 +145,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [1000ch/atom-csso](https://github.com/1000ch/atom-csso) | 2 | 2021-08-02T20:40:13Z | JavaScript | Unknown | 3 | 3 | 3 | 3 |
 | [atom-community/autocomplete-plus](https://github.com/atom-community/autocomplete-plus) | 2 | 2021-07-21T23:48:09Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [hchiam/learning-nextjs](https://github.com/hchiam/learning-nextjs) | 1 | 2021-06-27T22:52:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [hchiam/learning-lint-staged](https://github.com/hchiam/learning-lint-staged) | 1 | 2021-06-20T15:30:54Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |
-| [kosmtik/kosmtik-fetch-remote](https://github.com/kosmtik/kosmtik-fetch-remote) | 3 | 2021-06-16T20:57:33Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -225,7 +223,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zytedata/zyte-smartproxy-plugin](https://github.com/zytedata/zyte-smartproxy-plugin) | 3 | 2022-10-28T11:08:07Z | JavaScript | Unknown | 4 | 2 | 4 | 4 |
 | [ari-os310/eslint-plugin-jsx-a11y](https://github.com/ari-os310/eslint-plugin-jsx-a11y) | 3 | 2022-03-17T11:02:38Z | JavaScript | Unknown | 0 | 33 | 0 | 0 |
 | [kriszyp/db-benchmark](https://github.com/kriszyp/db-benchmark) | 3 | 2021-08-20T15:06:27Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
-| [kosmtik/kosmtik-fetch-remote](https://github.com/kosmtik/kosmtik-fetch-remote) | 3 | 2021-06-16T20:57:33Z | JavaScript | Unknown | 0 | 1 | 0 | 0 |
 | [behnamazimi/inquirer-checkbox-plus-plus](https://github.com/behnamazimi/inquirer-checkbox-plus-plus) | 2 | 2025-10-30T07:51:02Z | JavaScript | Web app | 0 | 9 | 0 | 0 |
 | [PSteinhaus/PSteinhaus.github.io](https://github.com/PSteinhaus/PSteinhaus.github.io) | 2 | 2025-06-24T11:30:48Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [firefox-devtools/remote-settings-mdn-browser-compat-data](https://github.com/firefox-devtools/remote-settings-mdn-browser-compat-data) | 2 | 2025-06-13T14:50:23Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -272,4 +269,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pixielabs/cavy-tester](https://github.com/pixielabs/cavy-tester) | 1 | 2021-10-03T20:39:55Z | JavaScript | Unknown | 4 | 18 | 4 | 4 |
 | [hchiam/learning-js-design-patterns](https://github.com/hchiam/learning-js-design-patterns) | 1 | 2021-08-10T01:59:00Z | JavaScript | Unknown | 1 | 0 | 1 | 1 |
 | [hchiam/learning-nextjs](https://github.com/hchiam/learning-nextjs) | 1 | 2021-06-27T22:52:13Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [hchiam/learning-lint-staged](https://github.com/hchiam/learning-lint-staged) | 1 | 2021-06-20T15:30:54Z | JavaScript | Unknown | 0 | 4 | 0 | 0 |

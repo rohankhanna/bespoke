@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Java
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 48
+- repos: 47
 - terms: 76
 - components: 69
 - concepts: 76
@@ -73,7 +73,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FasterXML/jackson-1](https://github.com/FasterXML/jackson-1) | 3 | 2022-03-03T11:08:09Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [alibaba-archive/session-compatible-fast-serializer](https://github.com/alibaba-archive/session-compatible-fast-serializer) | 9 | 2021-10-09T06:14:48Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [jruby/jruby-examples](https://github.com/jruby/jruby-examples) | 4 | 2021-10-07T18:39:18Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [hallvard/etablesaw](https://github.com/hallvard/etablesaw) | 9 | 2021-06-10T13:36:28Z | Java | CLI | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -86,7 +85,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fizzed/template-benchmark](https://github.com/fizzed/template-benchmark) | 9 | 2023-01-09T14:58:46Z | Java | Template/starter | 0 | 0 | 0 | 0 |
 | [sa501428/hic-emt](https://github.com/sa501428/hic-emt) | 9 | 2022-09-30T06:32:02Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [alibaba-archive/session-compatible-fast-serializer](https://github.com/alibaba-archive/session-compatible-fast-serializer) | 9 | 2021-10-09T06:14:48Z | Java | Unknown | 2 | 0 | 2 | 2 |
-| [hallvard/etablesaw](https://github.com/hallvard/etablesaw) | 9 | 2021-06-10T13:36:28Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [chequer-io/phoenixsql](https://github.com/chequer-io/PhoenixSql) | 8 | 2023-03-10T06:40:54Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [aidenlab/JuiceboxGUI](https://github.com/aidenlab/JuiceboxGUI) | 8 | 2022-09-29T01:16:38Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [takari/m2e-discovery-catalog](https://github.com/takari/m2e-discovery-catalog) | 8 | 2022-09-21T10:13:41Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |

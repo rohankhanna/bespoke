@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-06-05T07:56:21.398708+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 16
-- components: 24
-- concepts: 16
-- observations: 16
+- repos: 4
+- terms: 7
+- components: 55
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,14 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-29T21:00:57Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [lumen-oss/nurr](https://github.com/lumen-oss/nurr) | 42 | 2026-05-29T17:46:50Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-29T16:21:14Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-06-21T02:47:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [apostrophecms/starter-kit-astro-apollo](https://github.com/apostrophecms/starter-kit-astro-apollo) | 27 | 2026-06-18T14:23:03Z | Other | Web app | 0 | 0 | 0 | 0 |
+| [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-06-16T12:58:25Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
+| [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [geocompx/docker](https://github.com/geocompx/docker) | 47 | 2026-05-29T16:21:14Z | Other | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [lumen-oss/nurr](https://github.com/lumen-oss/nurr) | 42 | 2026-05-29T17:46:50Z | Other | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [pivotal/credhub-release](https://github.com/pivotal/credhub-release) | 37 | 2026-05-29T21:00:57Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [processing/processing-website](https://github.com/processing/processing-website) | 88 | 2026-06-16T12:58:25Z | Other | Infrastructure/tooling | 2 | 53 | 2 | 2 |
+| [apostrophecms/starter-kit-astro-apollo](https://github.com/apostrophecms/starter-kit-astro-apollo) | 27 | 2026-06-18T14:23:03Z | Other | Web app | 0 | 0 | 0 | 0 |
+| [tinted-theming/tinted-xresources](https://github.com/tinted-theming/tinted-xresources) | 20 | 2026-06-21T02:47:41Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
+| [corgi-emacs/corgi-packages](https://github.com/corgi-emacs/corgi-packages) | 16 | 2026-06-15T12:15:43Z | Other | Library | 0 | 0 | 0 | 0 |

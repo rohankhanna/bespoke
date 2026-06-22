@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 3,
-    "terms": 16
+    "components": 55,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 4,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "geocompx/docker",
-    "lumen-oss/nurr",
-    "pivotal/credhub-release"
+    "apostrophecms/starter-kit-astro-apollo",
+    "corgi-emacs/corgi-packages",
+    "processing/processing-website",
+    "tinted-theming/tinted-xresources"
   ]
 }

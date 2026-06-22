@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 52
-- terms: 109
+- repos: 51
+- terms: 104
 - components: 77
-- concepts: 115
-- observations: 117
+- concepts: 110
+- observations: 112
 
 ## Static behavior
 
@@ -77,7 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hayguen/pffft_benchmarks](https://github.com/hayguen/pffft_benchmarks) | 3 | 2022-01-19T21:46:00Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tritondatacenter/node-cmdutil](https://github.com/TritonDataCenter/node-cmdutil) | 7 | 2021-11-02T21:55:37Z | Shell | Unknown | 0 | 3 | 0 | 0 |
 | [marcoonroad/cuid](https://github.com/marcoonroad/cuid) | 1 | 2021-08-13T23:30:19Z | Shell | Unknown | 1 | 0 | 1 | 1 |
-| [junkblocker/calibre-zaw-source](https://github.com/junkblocker/calibre-zaw-source) | 4 | 2021-06-15T13:20:42Z | Shell | Unknown | 5 | 0 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -103,7 +102,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashleykleynhans/hallo-docker](https://github.com/ashleykleynhans/hallo-docker) | 4 | 2024-07-02T08:46:39Z | Shell | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [2KAbhishek/entry](https://github.com/2KAbhishek/entry) | 4 | 2023-12-15T04:54:44Z | Shell | Unknown | 6 | 0 | 6 | 6 |
 | [jandamm/zgenom-ext-eval](https://github.com/jandamm/zgenom-ext-eval) | 4 | 2023-05-04T21:11:35Z | Shell | Unknown | 1 | 0 | 2 | 2 |
-| [junkblocker/calibre-zaw-source](https://github.com/junkblocker/calibre-zaw-source) | 4 | 2021-06-15T13:20:42Z | Shell | Unknown | 5 | 0 | 5 | 5 |
 | [danielrosehill/Claude-Code-MCP-Command-Generator](https://github.com/danielrosehill/Claude-Code-MCP-Command-Generator) | 3 | 2025-10-16T17:17:05Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [beehive-lab/docker-gpullama3.java](https://github.com/beehive-lab/docker-gpullama3.java) | 3 | 2025-10-07T20:29:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [electerm/electerm-resource](https://github.com/electerm/electerm-resource) | 3 | 2025-10-05T12:02:26Z | Shell | Unknown | 0 | 0 | 0 | 0 |

@@ -1,18 +1,52 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 7,
-    "observations": 8,
-    "repos": 1,
-    "terms": 7
+    "components": 473,
+    "concepts": 202,
+    "observations": 203,
+    "repos": 35,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "attackgoat/vk-graph"
+    "15r10nk/inline-snapshot",
+    "abaplint/transpiler",
+    "attackgoat/vk-graph",
+    "bazel-contrib/rules_jvm_external",
+    "BBC-Esq/Faster-Whisper-Transcriber",
+    "ChristopherHX/runner.server",
+    "clj-commons/rewrite-clj",
+    "Deep-Symmetry/beat-link",
+    "Deep-Symmetry/beat-link-trigger",
+    "eclipse-paho/paho.mqtt.testing",
+    "electron/packager",
+    "emacs-eldev/eldev",
+    "flagos-ai/FlagScale",
+    "google-deepmind/reverb",
+    "googlefonts/roboto-3-classic",
+    "googlefonts/ufo2ft",
+    "huggingface/hf-mcp-server",
+    "jupyter-server/jupyter_server",
+    "kurrent-io/KurrentDB-Client-Dotnet",
+    "ldproxy/ldproxy",
+    "matter-js/matter.js",
+    "mightyiam/eslint-config-love",
+    "NCAS-CMS/pyfive",
+    "pyOpenSci/software-submission",
+    "pyrtlsdr/pyrtlsdr",
+    "redis/redis-om-dotnet",
+    "rescript-lang/reanalyze",
+    "ROCm/hipBLAS",
+    "ROCm/hipBLASLt",
+    "scverse/rapids-singlecell",
+    "servo/stylo",
+    "SpecterOps/AzureHound",
+    "stx-labs/stacks.js",
+    "the-database/mpv-AnimeJaNai",
+    "unplugin/unplugin-imagemin"
   ]
 }

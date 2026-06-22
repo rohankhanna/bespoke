@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 42,
-    "concepts": 75,
-    "observations": 75,
-    "repos": 43,
-    "terms": 80
+    "concepts": 78,
+    "observations": 78,
+    "repos": 45,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "aaron-he-zhu/core-eeat-content-benchmark",
@@ -29,6 +29,7 @@
     "cloudrepo-io/founder-os",
     "cncf/project-template",
     "cncf/wg-networking",
+    "CommunitySpecification/Community_Specification",
     "conda-forge/cfep",
     "cta-wave/WMAS",
     "datajuicer/data-juicer-hub",
@@ -49,6 +50,7 @@
     "marko-js/examples",
     "nushell/showcase",
     "oak-security/resources",
+    "opencontainers/tob",
     "panaversity/claude-code-agent-teams-exercises",
     "robotology/community",
     "robotology/mesh-support",

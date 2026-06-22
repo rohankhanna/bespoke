@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Other
 
-Generated at: `2026-05-30T07:41:34.941193+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 43
-- components: 36
-- concepts: 43
-- observations: 43
+- repos: 3
+- terms: 35
+- components: 30
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -26,16 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 791 | 2026-05-30T00:26:59Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-29T20:15:17Z | Other | Unknown | 7 | 0 | 7 | 7 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
+| [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 796 | 2026-06-22T01:12:38Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 794 | 2026-06-21T19:43:21Z | Other | Infrastructure/tooling | 20 | 16 | 20 | 20 |
+| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 408 | 2026-06-21T10:06:04Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 791 | 2026-05-30T00:26:59Z | Other | Infrastructure/tooling | 20 | 14 | 20 | 20 |
-| [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 568 | 2026-05-29T11:54:23Z | Other | Infrastructure/tooling | 11 | 17 | 11 | 11 |
-| [bazel-contrib/rules_kotlin](https://github.com/bazel-contrib/rules_kotlin) | 365 | 2026-05-29T13:47:36Z | Other | Infrastructure/tooling | 5 | 5 | 5 | 5 |
-| [ROCm/hipBLASLt](https://github.com/ROCm/hipBLASLt) | 113 | 2026-05-29T20:15:17Z | Other | Unknown | 7 | 0 | 7 | 7 |
+| [sbt/sbt-jmh](https://github.com/sbt/sbt-jmh) | 796 | 2026-06-22T01:12:38Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [astroautomata/SymbolicRegression.jl](https://github.com/astroautomata/SymbolicRegression.jl) | 794 | 2026-06-21T19:43:21Z | Other | Infrastructure/tooling | 20 | 16 | 20 | 20 |
+| [fsprojects/FSharp.Data.GraphQL](https://github.com/fsprojects/FSharp.Data.GraphQL) | 408 | 2026-06-21T10:06:04Z | Other | Infrastructure/tooling | 10 | 7 | 10 | 10 |

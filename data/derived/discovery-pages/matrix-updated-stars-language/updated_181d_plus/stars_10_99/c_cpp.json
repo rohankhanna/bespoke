@@ -3,7 +3,7 @@
     "components": 575,
     "concepts": 683,
     "observations": 684,
-    "repos": 300,
+    "repos": 299,
     "terms": 677
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "19reborn/NeuS2_TCNN",
@@ -39,7 +39,6 @@
     "apnadkarni/tcl-cmark",
     "apolukhin/pfr_non_boost",
     "apple-oss-distributions/tapi",
-    "aqtq314/World.NET",
     "aquaskyline/LRSIM",
     "arangrhie/merfin",
     "aras-p/demo-pd-cranktheworld",

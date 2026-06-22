@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 277
-- components: 269
-- concepts: 279
-- observations: 284
+- repos: 64
+- terms: 290
+- components: 280
+- concepts: 292
+- observations: 298
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [3Hren/msgpack-rust](https://github.com/3Hren/msgpack-rust) | 1396 | 2025-12-23T23:53:16Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [Tencent/tquic](https://github.com/Tencent/tquic) | 1409 | 2025-12-23T08:42:16Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 11 |
 | [dtolnay/case-studies](https://github.com/dtolnay/case-studies) | 2011 | 2025-12-20T05:11:26Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [tarkah/tickrs](https://github.com/tarkah/tickrs) | 1576 | 2025-12-15T20:40:25Z | Rust | CLI | 8 | 7 | 8 | 8 |
 | [atanunq/viu](https://github.com/atanunq/viu) | 3156 | 2025-12-15T10:20:59Z | Rust | CLI | 3 | 5 | 3 | 4 |
@@ -78,7 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [http-rs/tide](https://github.com/http-rs/tide) | 5102 | 2024-01-05T01:12:04Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [BrainiumLLC/cargo-mobile](https://github.com/BrainiumLLC/cargo-mobile) | 1311 | 2024-01-04T21:56:21Z | Rust | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [koute/cargo-web](https://github.com/koute/cargo-web) | 1112 | 2023-11-29T04:25:09Z | Rust | CLI | 5 | 0 | 5 | 5 |
-| [racer-rust/racer](https://github.com/racer-rust/racer) | 3352 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [racer-rust/racer](https://github.com/racer-rust/racer) | 3350 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [gfx-rs/naga](https://github.com/gfx-rs/naga) | 1565 | 2023-11-09T17:57:01Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [jameslittle230/stork](https://github.com/jameslittle230/stork) | 2756 | 2023-07-01T14:15:45Z | Rust | Infrastructure/tooling | 9 | 38 | 9 | 9 |
 | [zargony/fuse-rs](https://github.com/zargony/fuse-rs) | 1138 | 2023-05-23T09:19:59Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -88,7 +90,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/rls](https://github.com/rust-lang/rls) | 3498 | 2022-08-29T21:32:29Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [bwasty/learn-opengl-rs](https://github.com/bwasty/learn-opengl-rs) | 1036 | 2021-12-22T00:33:37Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [RazrFalcon/svgcleaner](https://github.com/RazrFalcon/svgcleaner) | 1669 | 2021-10-30T13:53:34Z | Rust | Unknown | 2 | 0 | 2 | 2 |
-| [gfx-rs/wgpu-rs](https://github.com/gfx-rs/wgpu-rs) | 1676 | 2021-06-03T01:59:24Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -109,7 +110,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rust-lang/rls](https://github.com/rust-lang/rls) | 3498 | 2022-08-29T21:32:29Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [koute/stdweb](https://github.com/koute/stdweb) | 3455 | 2024-02-28T12:11:10Z | Rust | CLI | 5 | 0 | 5 | 5 |
 | [gluon-lang/gluon](https://github.com/gluon-lang/gluon) | 3395 | 2024-12-06T11:24:24Z | Rust | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [racer-rust/racer](https://github.com/racer-rust/racer) | 3352 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [racer-rust/racer](https://github.com/racer-rust/racer) | 3350 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [atanunq/viu](https://github.com/atanunq/viu) | 3156 | 2025-12-15T10:20:59Z | Rust | CLI | 3 | 5 | 3 | 4 |
 | [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) | 2973 | 2025-09-21T22:00:37Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [mtshiba/pylyzer](https://github.com/mtshiba/pylyzer) | 2869 | 2025-05-10T02:10:33Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 8 |
@@ -128,7 +129,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) | 1835 | 2024-08-14T18:24:30Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [risinglightdb/risinglight](https://github.com/risinglightdb/risinglight) | 1833 | 2025-08-10T04:37:32Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [cnosdb/cnosdb](https://github.com/cnosdb/cnosdb) | 1751 | 2025-09-26T07:27:53Z | Rust | Infrastructure/tooling | 13 | 8 | 13 | 14 |
-| [gfx-rs/wgpu-rs](https://github.com/gfx-rs/wgpu-rs) | 1676 | 2021-06-03T01:59:24Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [RazrFalcon/svgcleaner](https://github.com/RazrFalcon/svgcleaner) | 1669 | 2021-10-30T13:53:34Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [mooman219/fontdue](https://github.com/mooman219/fontdue) | 1625 | 2025-05-25T08:34:03Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [asciinema/agg](https://github.com/asciinema/agg) | 1604 | 2025-10-22T16:10:59Z | Rust | CLI | 6 | 6 | 6 | 6 |
@@ -136,6 +136,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gfx-rs/naga](https://github.com/gfx-rs/naga) | 1565 | 2023-11-09T17:57:01Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [BurntSushi/walkdir](https://github.com/BurntSushi/walkdir) | 1499 | 2024-12-31T13:29:59Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [lnx-search/lnx](https://github.com/lnx-search/lnx) | 1443 | 2025-10-14T23:51:26Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 10 |
+| [Tencent/tquic](https://github.com/Tencent/tquic) | 1409 | 2025-12-23T08:42:16Z | Rust | Infrastructure/tooling | 10 | 13 | 10 | 11 |
+| [3Hren/msgpack-rust](https://github.com/3Hren/msgpack-rust) | 1396 | 2025-12-23T23:53:16Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [specta-rs/rspc](https://github.com/specta-rs/rspc) | 1376 | 2025-11-24T10:02:10Z | Rust | Web app | 4 | 2 | 4 | 4 |
 | [stepancheg/grpc-rust](https://github.com/stepancheg/grpc-rust) | 1369 | 2024-04-08T23:37:29Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [ebkalderon/tower-lsp](https://github.com/ebkalderon/tower-lsp) | 1317 | 2024-08-15T02:07:57Z | Rust | Infrastructure/tooling | 4 | 6 | 4 | 4 |

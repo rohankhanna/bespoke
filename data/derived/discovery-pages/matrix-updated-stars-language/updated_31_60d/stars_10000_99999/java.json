@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 302,
-    "concepts": 341,
-    "observations": 343,
-    "repos": 27,
-    "terms": 338
+    "components": 282,
+    "concepts": 324,
+    "observations": 326,
+    "repos": 25,
+    "terms": 321
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "apache/doris",
     "apache/dubbo",
-    "apache/incubator-seata",
     "apache/kafka",
     "apache/pulsar",
     "apache/rocketmq",
@@ -24,7 +23,6 @@
     "awsdocs/aws-doc-sdk-examples",
     "ben-manes/caffeine",
     "bumptech/glide",
-    "clojure/clojure",
     "dbeaver/dbeaver",
     "debezium/debezium",
     "elastic/elasticsearch",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 12,
-    "terms": 128
+    "components": 96,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 14,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
     "alibaba/spring-cloud-alibaba",
+    "apache/incubator-seata",
     "bazelbuild/bazel",
+    "clojure/clojure",
     "google/auto",
     "google/guava",
     "Konloch/bytecode-viewer",

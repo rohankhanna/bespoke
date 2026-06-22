@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 907,
-    "concepts": 586,
-    "observations": 586,
-    "repos": 61,
-    "terms": 587
+    "components": 1057,
+    "concepts": 599,
+    "observations": 599,
+    "repos": 65,
+    "terms": 600
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -25,10 +25,12 @@
     "agent-sh/repo-intel",
     "agent-sh/ship",
     "agent-sh/sync-docs",
+    "angular/dev-infra-private-ng-dev-builds",
     "anojndr/grok-to-openai",
     "apache/netbeans-antora",
     "BarMalka/super-pharm-stock-checker",
     "brody2consult/react-native-init-func",
+    "certible/superagent-aws-sign",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
     "Deep-Symmetry/asciidoctor-bytefield",
@@ -53,6 +55,8 @@
     "Level/read-stream",
     "Level/supports",
     "Level/transcoder",
+    "locize/locize-lastused",
+    "newrelic/csec-node-agent",
     "poolifier/tatami-ng",
     "recap-utr/arg-services",
     "seunghunbae-3svs/solo-cto-agent",

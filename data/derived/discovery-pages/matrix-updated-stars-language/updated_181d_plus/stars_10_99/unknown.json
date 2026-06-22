@@ -3,7 +3,7 @@
     "components": 197,
     "concepts": 332,
     "observations": 332,
-    "repos": 288,
+    "repos": 289,
     "terms": 332
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -103,6 +103,7 @@
     "DSC-SPIDAL/twister2",
     "dwyl/contributing",
     "dwyl/dev-setup",
+    "dwyl/farm",
     "dwyl/git-guide",
     "dwyl/intellectual-property",
     "dwyl/learn-blockchain",

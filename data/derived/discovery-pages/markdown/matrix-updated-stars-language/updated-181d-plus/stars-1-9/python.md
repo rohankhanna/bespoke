@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 281
-- terms: 361
+- repos: 279
+- terms: 353
 - components: 478
-- concepts: 358
-- observations: 358
+- concepts: 350
+- observations: 350
 
 ## Static behavior
 
@@ -112,7 +112,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yuntongzhang/SWE-bench](https://github.com/yuntongzhang/SWE-bench) | 6 | 2024-12-02T02:51:13Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/LLM-API-Price-Estimates](https://github.com/danielrosehill/LLM-API-Price-Estimates) | 1 | 2024-11-28T23:27:29Z | Python | Service/API | 3 | 0 | 3 | 3 |
 | [dani-maarouf/psqlparse2](https://github.com/dani-maarouf/psqlparse2) | 2 | 2024-11-21T23:34:12Z | Python | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [echo-yiyiyi/cube](https://github.com/echo-yiyiyi/cube) | 9 | 2024-11-20T17:42:44Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [camenduru/add_text_2_img](https://github.com/camenduru/add_text_2_img) | 2 | 2024-11-12T06:09:58Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [biocypher/meta-graph](https://github.com/biocypher/meta-graph) | 3 | 2024-11-08T16:13:32Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [nightsnack/Allegro-VideoSys](https://github.com/nightsnack/Allegro-VideoSys) | 4 | 2024-11-08T11:53:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -306,7 +305,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ranchlai/sound_classification](https://github.com/ranchlai/sound_classification) | 5 | 2021-08-25T10:35:30Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [vitchyr/doodad](https://github.com/vitchyr/doodad) | 2 | 2021-08-23T17:17:29Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [NZ99/self-attention-experiments-vision](https://github.com/NZ99/self-attention-experiments-vision) | 9 | 2021-07-06T15:27:22Z | Python | Model/data | 0 | 0 | 0 | 0 |
-| [AFD-Illinois/docs](https://github.com/AFD-Illinois/docs) | 1 | 2021-06-09T18:29:33Z | Python | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -316,7 +314,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [geospatial-jeff/pyasyncio-benchmark](https://github.com/geospatial-jeff/pyasyncio-benchmark) | 9 | 2025-04-30T16:26:44Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [yuan199696/add_text_2_img](https://github.com/yuan199696/add_text_2_img) | 9 | 2025-03-27T14:40:27Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [bentoml/BentoBark](https://github.com/bentoml/BentoBark) | 9 | 2024-12-23T08:25:26Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [echo-yiyiyi/cube](https://github.com/echo-yiyiyi/cube) | 9 | 2024-11-20T17:42:44Z | Python | Model/data | 8 | 0 | 8 | 8 |
 | [tinted-theming/tinted-builder-python](https://github.com/tinted-theming/tinted-builder-python) | 9 | 2024-09-02T12:02:25Z | Python | Infrastructure/tooling | 6 | 1 | 6 | 6 |
 | [basf/neural-fingerprint-uncertainty](https://github.com/basf/neural-fingerprint-uncertainty) | 9 | 2024-07-25T16:43:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [adriantheuma/llama2-raven](https://github.com/adriantheuma/llama2-raven) | 9 | 2024-06-18T00:01:03Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -592,4 +589,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [darwinai/covidnet_integration](https://github.com/darwinai/covidnet_integration) | 1 | 2021-11-24T15:18:06Z | Python | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [perceval-backends/grimoirelab-perceval-bitbucket](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket) | 1 | 2021-09-11T08:46:38Z | Python | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [layumi/dgcnn](https://github.com/layumi/dgcnn) | 1 | 2021-09-03T11:27:46Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [AFD-Illinois/docs](https://github.com/AFD-Illinois/docs) | 1 | 2021-06-09T18:29:33Z | Python | Unknown | 0 | 0 | 0 | 0 |

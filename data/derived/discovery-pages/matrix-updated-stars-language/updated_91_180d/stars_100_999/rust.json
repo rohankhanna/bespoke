@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 409,
-    "concepts": 284,
-    "observations": 286,
-    "repos": 72,
-    "terms": 282
+    "components": 439,
+    "concepts": 287,
+    "observations": 290,
+    "repos": 76,
+    "terms": 285
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
+    "AchetaGames/Epic-Asset-Manager",
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
     "ayazhafiz/xorf",
@@ -29,6 +30,8 @@
     "dimforge/simba",
     "DioxusLabs/sdk",
     "dtolnay/prettyplease",
+    "dtolnay/readonly",
+    "dtolnay/ref-cast",
     "esp-rs/embedded-svc",
     "fast/logforth",
     "filecoin-project/rust-fil-proofs",
@@ -59,6 +62,7 @@
     "pdf-rs/pdf_render",
     "pksunkara/cargo-workspaces",
     "prisma/tiberius",
+    "psmux/psnet",
     "pythops/tenere",
     "ratatui/templates",
     "risinglightdb/sqllogictest-rs",

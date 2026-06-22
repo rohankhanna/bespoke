@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 219,
-    "observations": 221,
-    "repos": 39,
-    "terms": 212
+    "components": 109,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 28,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
     "alexmyczko/fnt",
@@ -21,9 +21,6 @@
     "bnb-chain/bsc-snapshots",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
-    "dani-garcia/bw_web_builds",
-    "gentoo/guru",
-    "getsolus/packages",
     "harbor-framework/terminal-bench-2",
     "heroku/base-images",
     "heroku/heroku-buildpack-go",
@@ -31,26 +28,18 @@
     "itzg/docker-mc-backup",
     "jcefmaven/jcefbuild",
     "jez/dotfiles",
-    "justchokingaround/lobster",
-    "jvm-repo-rebuild/reproducible-central",
-    "lemire/docker_programming_station",
     "lovell/sharp-libvips",
     "meyayl/docker-languagetool",
     "microcai/gentoo-zh",
     "mozilla/addons",
-    "msys2/msys2-installer",
     "nginx-le/nginx-le",
     "NVIDIA/enroot",
     "openshift/release",
     "pacstall/pacstall-programs",
     "pion/awesome-pion",
     "rocker-org/rocker-versioned2",
-    "rust-cross/rust-musl-cross",
     "sclorg/s2i-php-container",
-    "sclorg/s2i-python-container",
-    "termux/repology-metadata",
     "tinted-theming/schemes",
-    "tonistiigi/xx",
     "TypedDevs/bashunit",
     "ungoogled-software/ungoogled-chromium-archlinux"
   ]

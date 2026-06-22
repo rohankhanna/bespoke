@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 3,
-    "terms": 19
+    "components": 14,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-30T07:41:34.941193+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "appelmar/gdalcubes",
-    "confluentinc/librdkafka",
-    "ipsilon/evmone"
+    "tree-sitter-grammars/tree-sitter-markdown"
   ]
 }

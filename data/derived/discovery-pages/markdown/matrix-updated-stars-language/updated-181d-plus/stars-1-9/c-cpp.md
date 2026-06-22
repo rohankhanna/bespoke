@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 102
+- repos: 101
 - terms: 144
 - components: 183
 - concepts: 145
@@ -127,7 +127,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eddelbuettel/ldlasb](https://github.com/eddelbuettel/ldlasb) | 8 | 2021-08-01T13:20:39Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [AFD-Illinois/iharm2d_v3](https://github.com/AFD-Illinois/iharm2d_v3) | 8 | 2021-07-27T22:06:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Izhido/test262_harness_cpp](https://github.com/Izhido/test262_harness_cpp) | 6 | 2021-07-05T06:25:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [hayguen/greenffts](https://github.com/hayguen/greenffts) | 3 | 2021-06-12T21:12:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -195,7 +194,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DOGEwbx/llama.cpp](https://github.com/DOGEwbx/llama.cpp) | 3 | 2024-05-08T04:05:22Z | C/C++ | Infrastructure/tooling | 6 | 31 | 6 | 6 |
 | [Cydral/FFspider](https://github.com/Cydral/FFspider) | 3 | 2023-08-16T20:29:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mackron/vkquake2](https://github.com/mackron/vkQuake2) | 3 | 2022-04-09T00:03:04Z | C/C++ | Infrastructure/tooling | 0 | 4 | 0 | 0 |
-| [hayguen/greenffts](https://github.com/hayguen/greenffts) | 3 | 2021-06-12T21:12:48Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/gcc](https://github.com/hermit-os/gcc) | 2 | 2025-11-27T13:19:08Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/binutils](https://github.com/hermit-os/binutils) | 2 | 2025-11-27T13:18:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [kojix2/ruby-edlib](https://github.com/kojix2/ruby-edlib) | 2 | 2025-11-21T10:52:35Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |

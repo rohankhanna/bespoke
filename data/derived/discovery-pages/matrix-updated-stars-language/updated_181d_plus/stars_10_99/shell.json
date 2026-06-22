@@ -3,7 +3,7 @@
     "components": 105,
     "concepts": 224,
     "observations": 224,
-    "repos": 89,
+    "repos": 88,
     "terms": 219
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -57,7 +57,6 @@
     "geekworm-com/xscript",
     "go-spatial/tegola-osm",
     "google/gfbuild-SPIRV-Tools",
-    "gulvarol/surreact",
     "hashnuke/heroku-buildpack-elixir-otp-builds",
     "haya14busa/action-bumpr",
     "haya14busa/action-update-semver",

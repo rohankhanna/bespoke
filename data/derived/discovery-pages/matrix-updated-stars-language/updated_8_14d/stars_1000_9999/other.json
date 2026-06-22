@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 3,
-    "terms": 17
+    "components": 25,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 6,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "microsoft/aspire",
-    "microsoft/aspire-samples",
-    "swiftlang/swift-syntax"
+    "bencheeorg/benchee",
+    "googleapis/google-api-php-client",
+    "intel/BigDL",
+    "litedb-org/LiteDB",
+    "preservim/tagbar",
+    "standardrb/standard"
   ]
 }

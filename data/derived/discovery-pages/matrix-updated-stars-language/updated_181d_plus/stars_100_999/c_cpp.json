@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 727,
-    "concepts": 1307,
-    "observations": 1310,
+    "components": 724,
+    "concepts": 1300,
+    "observations": 1303,
     "repos": 397,
-    "terms": 1287
+    "terms": 1279
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -119,6 +119,7 @@
     "earlephilhower/mklittlefs",
     "EarlhamInst/KAT",
     "EEEEhex/QQImpl",
+    "ejoy/lua",
     "electronicsguy/ESP8266",
     "eliemichel/glfw3webgpu",
     "eliemichel/WebGPU-Cpp",
@@ -217,7 +218,6 @@
     "jlblancoc/suitesparse-metis-for-windows",
     "JokerJohn/LIO_SAM_6AXIS",
     "kafeiyin00/WHU-HelmetDataset",
-    "kantv-ai/kantv",
     "karimnaaji/voxelizer",
     "kaylorchen/rk3588-yolo-demo",
     "keenan-burnett/yeti_radar_odometry",

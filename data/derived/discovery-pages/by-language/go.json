@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10259,
-    "concepts": 10089,
-    "observations": 10121,
-    "repos": 1716,
-    "terms": 10039
+    "components": 10280,
+    "concepts": 10091,
+    "observations": 10123,
+    "repos": 1714,
+    "terms": 10041
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -396,7 +396,6 @@
     "chasefleming/elem-go",
     "chawyehsu/nvm-windows",
     "chenghonour/formulago",
-    "chenjiandongx/pls",
     "chenyahui/gin-cache",
     "chi-cat/frps-auth",
     "Chocolate4U/sing-geoip",
@@ -1530,7 +1529,6 @@
     "sigstore/rekor-tiles",
     "sipin/gorazor",
     "sirupsen/logrus",
-    "skaji/remote-pbcopy-iterm2",
     "skenetechnologies/skene",
     "skip-mev/block-sdk",
     "slackhq/nebula",

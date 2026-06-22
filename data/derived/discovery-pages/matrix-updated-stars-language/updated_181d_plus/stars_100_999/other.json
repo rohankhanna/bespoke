@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2420,
-    "concepts": 3220,
-    "observations": 3227,
-    "repos": 1008,
-    "terms": 3201
+    "components": 2406,
+    "concepts": 3209,
+    "observations": 3216,
+    "repos": 1002,
+    "terms": 3190
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0oAstro/silicon.lua",
     "19reborn/NeuS2",
@@ -284,7 +284,6 @@
     "day8/re-frame-test",
     "decaporg/one-click-hugo-cms",
     "Deep-Symmetry/afterglow",
-    "Deep-Symmetry/beat-link-trigger",
     "Deep-Symmetry/bytefield-svg",
     "deepdialog/CPM-LM-TF2",
     "DengPingFan/DAVSOD",
@@ -396,7 +395,6 @@
     "ggandor/flit.nvim",
     "giraud/bs-css",
     "girishji/vimcomplete",
-    "Glench/Vim-Jinja2-Syntax",
     "gmgeo/osmic",
     "gmltmd789/UnitSpeech",
     "gnn4dr/DRKG",
@@ -414,7 +412,6 @@
     "gsamokovarov/break",
     "guard/guard-brakeman",
     "guard/rb-inotify",
-    "gulvarol/surreal",
     "guysv/ilua",
     "guzzle/guzzle3",
     "h2oai/h2o-meetups",
@@ -948,7 +945,6 @@
     "tsakirist/telescope-lazy.nvim",
     "tweekmonster/startuptime.vim",
     "twitter-archive/torch-autograd",
-    "ueberauth/oauth2",
     "unit-mesh/choco-builder",
     "unitycontainer/commonservicelocator",
     "unlimblue/KNN_CUDA",
@@ -997,7 +993,6 @@
     "wilkerlucio/spec-coerce",
     "willothy/nvim-cokeline",
     "windicss/nuxt-windicss",
-    "winterTTr/ace-jump-mode",
     "withastro/houston.astro.build",
     "wjdp/htmltest",
     "wl-zhao/UniPC",
@@ -1005,7 +1000,6 @@
     "xolox/vim-session",
     "xserrat/docker-facebook-demucs",
     "xuorig/graphql-schema_comparator",
-    "yandex-research/navigan",
     "yardenfren1996/B-LoRA",
     "yiyixuxu/denoising-diffusion-flax",
     "yonaskolb/Genesis",

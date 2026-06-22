@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 1,
-    "terms": 5
+    "components": 28,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 4,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint"
+    "collabora/WhisperLive",
+    "huggingface/optimum-quanto",
+    "intelligent-machine-learning/dlrover",
+    "meta-pytorch/tnt"
   ]
 }

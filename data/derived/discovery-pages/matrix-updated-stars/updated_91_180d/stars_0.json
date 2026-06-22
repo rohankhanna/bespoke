@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 325,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 101,
-    "terms": 164
+    "components": 334,
+    "concepts": 170,
+    "observations": 171,
+    "repos": 103,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0aids/imnodes",
     "0xBigBoss/ghostty-web",
@@ -86,6 +86,7 @@
     "mudler/vulkan-sdk-arm",
     "musicman3/cruder",
     "musicman3/r2-d2",
+    "Nambers/ssrJSON-benchmark",
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",
     "onomojo/i18n-country-translations-ex",
@@ -106,6 +107,7 @@
     "sarlinpe/pybind11-stubgen",
     "sp1-patches/curve25519-dalek",
     "stable-haskell/stack",
+    "Systemcluster/tokenizer-bench",
     "typstyle-rs/prettyless",
     "usdot-fhwa-stol/carma-ns3-adapter",
     "vaporif/rvx",

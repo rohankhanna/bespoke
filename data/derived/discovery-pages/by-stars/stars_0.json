@@ -3,14 +3,14 @@
     "components": 2937,
     "concepts": 1228,
     "observations": 1232,
-    "repos": 914,
+    "repos": 911,
     "terms": 1259
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "06ketan/substack-ops",
     "0aids/imnodes",
@@ -562,9 +562,6 @@
     "hmellor/vllm",
     "HReynaud/stylegan-v",
     "hsivonen/any_all_workaround",
-    "hsivonen/charcounts",
-    "hsivonen/detector_char_classes",
-    "hsivonen/testdet",
     "humanpose1/deeppointcloud-benchmarks",
     "HumanSignal/label-studio-client-generator",
     "hyper-mcp-rs/arxiv-plugin",

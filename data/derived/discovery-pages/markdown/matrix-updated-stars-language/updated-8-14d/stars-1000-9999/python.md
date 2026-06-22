@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 5
-- components: 7
-- concepts: 5
-- observations: 5
+- repos: 4
+- terms: 31
+- components: 28
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -26,10 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4099 | 2026-06-14T16:18:36Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [intelligent-machine-learning/dlrover](https://github.com/intelligent-machine-learning/dlrover) | 1664 | 2026-06-13T07:41:37Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1719 | 2026-06-12T17:01:14Z | Python | Library | 5 | 0 | 5 | 5 |
+| [huggingface/optimum-quanto](https://github.com/huggingface/optimum-quanto) | 1044 | 2026-06-09T17:55:02Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 2619 | 2026-05-30T10:01:05Z | Python | Infrastructure/tooling | 5 | 7 | 5 | 5 |
+| [collabora/WhisperLive](https://github.com/collabora/WhisperLive) | 4099 | 2026-06-14T16:18:36Z | Python | Infrastructure/tooling | 10 | 7 | 10 | 10 |
+| [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1719 | 2026-06-12T17:01:14Z | Python | Library | 5 | 0 | 5 | 5 |
+| [intelligent-machine-learning/dlrover](https://github.com/intelligent-machine-learning/dlrover) | 1664 | 2026-06-13T07:41:37Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [huggingface/optimum-quanto](https://github.com/huggingface/optimum-quanto) | 1044 | 2026-06-09T17:55:02Z | Python | Infrastructure/tooling | 9 | 13 | 9 | 9 |

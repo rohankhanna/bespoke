@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-06-12T08:06:30.850786+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 27
-- components: 211
-- concepts: 27
-- observations: 27
+- repos: 2
+- terms: 24
+- components: 74
+- concepts: 24
+- observations: 24
 
 ## Static behavior
 
@@ -26,18 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 242 | 2026-05-29T21:54:13Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 975 | 2026-05-29T20:29:44Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 344 | 2026-05-29T14:37:35Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
-| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 819 | 2026-05-29T12:09:10Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 548 | 2026-05-29T11:34:48Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
+| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 745 | 2026-06-12T06:43:13Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 411 | 2026-06-09T08:14:59Z | TypeScript | CLI | 15 | 38 | 15 | 15 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [stx-labs/stacks.js](https://github.com/stx-labs/stacks.js) | 975 | 2026-05-29T20:29:44Z | TypeScript | Infrastructure/tooling | 5 | 54 | 5 | 5 |
-| [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | 819 | 2026-05-29T12:09:10Z | TypeScript | Infrastructure/tooling | 4 | 40 | 4 | 4 |
-| [a2aproject/a2a-js](https://github.com/a2aproject/a2a-js) | 548 | 2026-05-29T11:34:48Z | TypeScript | Infrastructure/tooling | 8 | 34 | 8 | 8 |
-| [preactjs/preact-devtools](https://github.com/preactjs/preact-devtools) | 344 | 2026-05-29T14:37:35Z | TypeScript | Infrastructure/tooling | 7 | 57 | 7 | 7 |
-| [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | 242 | 2026-05-29T21:54:13Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
+| [antvis/GPT-Vis](https://github.com/antvis/GPT-Vis) | 745 | 2026-06-12T06:43:13Z | TypeScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 411 | 2026-06-09T08:14:59Z | TypeScript | CLI | 15 | 38 | 15 | 15 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 4
-- components: 4
-- concepts: 4
-- observations: 5
+- repos: 3
+- terms: 26
+- components: 34
+- concepts: 26
+- observations: 26
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35719 | 2026-05-30T08:06:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | 13199 | 2026-06-15T05:05:32Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |
+| [datalab-to/surya](https://github.com/datalab-to/surya) | 20868 | 2026-06-13T07:41:46Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31199 | 2026-06-10T12:56:05Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35719 | 2026-05-30T08:06:57Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31199 | 2026-06-10T12:56:05Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [datalab-to/surya](https://github.com/datalab-to/surya) | 20868 | 2026-06-13T07:41:46Z | Python | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [567-labs/instructor](https://github.com/567-labs/instructor) | 13199 | 2026-06-15T05:05:32Z | Python | Infrastructure/tooling | 12 | 11 | 12 | 12 |

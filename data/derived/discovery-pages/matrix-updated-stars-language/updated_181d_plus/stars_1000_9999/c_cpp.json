@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 412,
-    "concepts": 868,
-    "observations": 868,
-    "repos": 231,
-    "terms": 856
+    "components": 414,
+    "concepts": 876,
+    "observations": 876,
+    "repos": 230,
+    "terms": 865
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -33,6 +33,7 @@
     "Artikash/Textractor",
     "asg017/sqlite-vss",
     "ashima/webgl-noise",
+    "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
     "astrand/xclip",
     "atomicobject/heatshrink",
@@ -46,7 +47,6 @@
     "bittorrent/libutp",
     "Blosc/c-blosc",
     "bytedance/lightseq",
-    "cbucher/console",
     "cedarbdd/cedar",
     "CharlesShang/DCNv2",
     "chineseocr/darknet-ocr",
@@ -219,7 +219,6 @@
     "Squirrel/Squirrel.Windows",
     "stanfordnlp/GloVe",
     "Star-Clouds/CenterFace",
-    "statsite/statsite",
     "strasdat/Sophus",
     "sysstat/sysstat",
     "taku910/mecab",

@@ -1,18 +1,20 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 18,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 3,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-06-13T07:48:04.793721+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "4catalyzer/javascript"
+    "honwen/openwrt-dnsmasq-extra",
+    "intel-staging/text-generation-webui",
+    "zhouwg/ggml-hexagon"
   ]
 }

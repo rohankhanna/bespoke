@@ -12,11 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
     "aaron-he-zhu/cite-domain-rating",
+    "aaronrsun/spec-kit-checkpoint",
     "adobe-type-tools/Adobe-Manga1",
     "adonisjs/.github",
     "aifoundry-org/et-man",
@@ -31,7 +32,6 @@
     "cncf/k8s-conformance-archive",
     "conda-forge/modin-feedstock",
     "danielrosehill/claude-agent-workspace-generator",
-    "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Development-Agents",
     "danielrosehill/Claude-Dork",
     "danielrosehill/Digital-Evidence-Toolkit",

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 287
-- terms: 675
-- components: 3047
-- concepts: 684
-- observations: 684
+- repos: 286
+- terms: 672
+- components: 3039
+- concepts: 681
+- observations: 681
 
 ## Static behavior
 
@@ -37,7 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [karma-runner/karma-qunit](https://github.com/karma-runner/karma-qunit) | 52 | 2025-12-01T20:08:00Z | JavaScript | Infrastructure/tooling | 1 | 17 | 1 | 1 |
 | [freddyaboulton/gradio-pdf](https://github.com/freddyaboulton/gradio-pdf) | 43 | 2025-11-26T21:30:59Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [haskell-actions/run-ormolu](https://github.com/haskell-actions/run-ormolu) | 32 | 2025-11-26T20:23:59Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
-| [jupyter-xeus/xeus-javascript](https://github.com/jupyter-xeus/xeus-javascript) | 13 | 2025-11-25T08:29:07Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [jupyter-xeus/xeus-javascript](https://github.com/jupyter-xeus/xeus-javascript) | 14 | 2025-11-25T08:29:07Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [bevry/domain-browser](https://github.com/bevry/domain-browser) | 32 | 2025-11-22T16:19:22Z | JavaScript | CLI | 5 | 7 | 5 | 5 |
 | [markdown-it/markdown-it-abbr](https://github.com/markdown-it/markdown-it-abbr) | 50 | 2025-11-21T12:09:31Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [markdown-it/markdown-it-sub](https://github.com/markdown-it/markdown-it-sub) | 29 | 2025-11-21T08:09:35Z | JavaScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
@@ -312,7 +312,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [71/logseq-snippets](https://github.com/71/logseq-snippets) | 76 | 2021-06-23T19:32:01Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [fengari-lua/fengari-loader](https://github.com/fengari-lua/fengari-loader) | 30 | 2021-06-23T16:12:05Z | JavaScript | Web app | 3 | 10 | 3 | 3 |
 | [fengari-lua/fengari-node-cli](https://github.com/fengari-lua/fengari-node-cli) | 35 | 2021-06-23T16:11:09Z | JavaScript | CLI | 2 | 5 | 2 | 2 |
-| [ambit-tsai/echarts-for-vue](https://github.com/ambit-tsai/echarts-for-vue) | 83 | 2021-06-08T13:00:53Z | JavaScript | Unknown | 3 | 8 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -344,7 +343,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gulpjs/glob-parent](https://github.com/gulpjs/glob-parent) | 83 | 2024-07-26T13:03:16Z | JavaScript | Infrastructure/tooling | 2 | 11 | 2 | 2 |
 | [chm-diederichs/minisign](https://github.com/chm-diederichs/minisign) | 83 | 2022-12-12T13:15:49Z | JavaScript | Unknown | 0 | 6 | 0 | 0 |
 | [almiheenko/AGB](https://github.com/almiheenko/AGB) | 83 | 2022-04-02T22:19:15Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [ambit-tsai/echarts-for-vue](https://github.com/ambit-tsai/echarts-for-vue) | 83 | 2021-06-08T13:00:53Z | JavaScript | Unknown | 3 | 8 | 3 | 3 |
 | [bokub/gradient-badge](https://github.com/bokub/gradient-badge) | 82 | 2024-09-06T07:49:41Z | JavaScript | Unknown | 6 | 8 | 6 | 6 |
 | [WebCu/gatsby-material-kit-react](https://github.com/WebCu/gatsby-material-kit-react) | 82 | 2023-01-03T17:38:04Z | JavaScript | Unknown | 4 | 30 | 4 | 4 |
 | [zotero/make-it-red](https://github.com/zotero/make-it-red) | 81 | 2025-01-08T05:18:36Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
@@ -561,6 +559,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [preactjs/preact-netlify](https://github.com/preactjs/preact-netlify) | 15 | 2023-02-28T16:11:00Z | JavaScript | Template/starter | 0 | 21 | 0 | 0 |
 | [alexlafroscia/ember-emotion](https://github.com/alexlafroscia/ember-emotion) | 15 | 2022-12-10T03:32:24Z | JavaScript | Unknown | 2 | 41 | 2 | 2 |
 | [mafintosh/teex](https://github.com/mafintosh/teex) | 15 | 2022-09-12T08:39:10Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
+| [jupyter-xeus/xeus-javascript](https://github.com/jupyter-xeus/xeus-javascript) | 14 | 2025-11-25T08:29:07Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [AbelVM/maplibre-contourmap](https://github.com/AbelVM/maplibre-contourmap) | 14 | 2024-10-28T09:17:15Z | JavaScript | Unknown | 6 | 1 | 6 | 6 |
 | [henryw374/cljs.java-time](https://github.com/henryw374/cljs.java-time) | 14 | 2023-03-07T09:58:59Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [nodeca/js-yaml-js-types](https://github.com/nodeca/js-yaml-js-types) | 14 | 2022-10-21T15:57:42Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
@@ -568,7 +567,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cadorn/mfs](https://github.com/cadorn/mfs) | 14 | 2021-11-10T02:59:30Z | JavaScript | Unknown | 0 | 3 | 0 | 0 |
 | [CyberAP/nanoid-generate](https://github.com/CyberAP/nanoid-generate) | 14 | 2021-08-30T13:21:57Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
 | [coderaiser/estrace](https://github.com/coderaiser/estrace) | 13 | 2025-12-04T16:15:57Z | JavaScript | Infrastructure/tooling | 1 | 16 | 1 | 1 |
-| [jupyter-xeus/xeus-javascript](https://github.com/jupyter-xeus/xeus-javascript) | 13 | 2025-11-25T08:29:07Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [AbelVM/gauge_legend](https://github.com/AbelVM/gauge_legend) | 13 | 2025-02-27T19:49:56Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [holochain/zome-mere-memory](https://github.com/holochain/zome-mere-memory) | 13 | 2025-01-31T23:54:34Z | JavaScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [pot-app/pot-app-collection-plugin-youdao](https://github.com/pot-app/pot-app-collection-plugin-youdao) | 13 | 2024-06-23T08:47:06Z | JavaScript | Infrastructure/tooling | 3 | 4 | 3 | 3 |

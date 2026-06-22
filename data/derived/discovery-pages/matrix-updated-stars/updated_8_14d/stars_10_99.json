@@ -1,18 +1,24 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 72,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 7,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "4catalyzer/javascript"
+    "4catalyzer/javascript",
+    "abap2UI5-addons/sql-console",
+    "aidenlab/juicebox.js",
+    "electron-userland/electron-windows-msix",
+    "FerrisMind/candle-video",
+    "geocompx/docker",
+    "ocaml-tracing/ocaml-opentelemetry"
   ]
 }

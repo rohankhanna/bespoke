@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Other
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 42
-- components: 54
-- concepts: 36
-- observations: 36
+- repos: 33
+- terms: 43
+- components: 55
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [danielrosehill/Geopol-Forecast-Council](https://github.com/danielrosehill/Geopol-Forecast-Council) | 0 | 2026-04-19T23:55:51Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [danielrosehill/Github-Ideas-And-FRs](https://github.com/danielrosehill/Github-Ideas-And-FRs) | 0 | 2026-04-19T14:44:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -63,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [danielrosehill/Geopol-Forecast-Council](https://github.com/danielrosehill/Geopol-Forecast-Council) | 0 | 2026-04-19T23:55:51Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [danielrosehill/Github-Ideas-And-FRs](https://github.com/danielrosehill/Github-Ideas-And-FRs) | 0 | 2026-04-19T14:44:04Z | Other | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 168,
-    "concepts": 166,
-    "observations": 167,
-    "repos": 36,
-    "terms": 163
+    "components": 157,
+    "concepts": 148,
+    "observations": 149,
+    "repos": 34,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "Accla/graphulo",
     "apache/ignite-extensions",
-    "apache/netbeans-mavenutils-nbm-maven-plugin",
     "BerkleyTechnologyServices/restdocs-spec",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "bufbuild/protovalidate-java",
@@ -24,7 +23,6 @@
     "confluentinc/rest-utils",
     "eclipse-shellwax/shellwax",
     "edward3h/minecraft-webhook",
-    "filip26/ld-cli",
     "flyway/flyway-community-db-support",
     "googleapis/discovery-artifact-manager",
     "googleapis/java-bigtable",

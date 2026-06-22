@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 48,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 7,
-    "terms": 19
+    "components": 45,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 6,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "databendlabs/databend-base",
     "drmingdrmer/databend-meta",
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",

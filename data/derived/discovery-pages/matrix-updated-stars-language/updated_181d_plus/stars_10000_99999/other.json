@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 272,
-    "concepts": 289,
-    "observations": 289,
+    "concepts": 296,
+    "observations": 296,
     "repos": 63,
-    "terms": 288
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
+    "advimman/lama",
     "AliaksandrSiarohin/first-order-model",
     "altercation/solarized",
     "animate-css/animate.css",
@@ -63,7 +64,6 @@
     "neonbjb/tortoise-tts",
     "NVIDIA/DeepLearningExamples",
     "PanJiaChen/vue-element-admin",
-    "phillipi/pix2pix",
     "picturepan2/spectre",
     "preservim/nerdtree",
     "rlabbe/Kalman-and-Bayesian-Filters-in-Python",

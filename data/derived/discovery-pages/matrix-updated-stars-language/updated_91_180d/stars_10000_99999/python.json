@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 284,
-    "observations": 284,
-    "repos": 41,
-    "terms": 289
+    "components": 243,
+    "concepts": 291,
+    "observations": 291,
+    "repos": 43,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "Alibaba-NLP/DeepResearch",
@@ -20,6 +20,7 @@
     "binary-husky/gpt_academic",
     "bmaltais/kohya_ss",
     "bytedance/UI-TARS",
+    "chriskiehl/Gooey",
     "cleanlab/cleanlab",
     "ComposioHQ/awesome-claude-skills",
     "cool-RR/PySnooper",
@@ -34,6 +35,7 @@
     "jsvine/pdfplumber",
     "KlingAIResearch/LivePortrait",
     "Lightricks/LTX-Video",
+    "localstack/localstack",
     "lucidrains/denoising-diffusion-pytorch",
     "microsoft/unilm",
     "modin-project/modin",

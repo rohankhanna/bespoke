@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 650,
-    "concepts": 446,
-    "observations": 448,
+    "components": 657,
+    "concepts": 459,
+    "observations": 461,
     "repos": 171,
-    "terms": 441
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0xC0000054/pdn-ddsfiletype-plus",
     "219-design/qt-qml-project-template-with-ci",
@@ -27,10 +27,12 @@
     "AdaCore/gnatcoll-bindings",
     "adaszko/tree_climber_rust.nvim",
     "adelarsq/vim-emoji-icon-theme",
+    "adinhodovic/argo-cd-mixin",
     "adospace/litedbpad",
     "AghayeCoder/TX-ThemeHub",
     "ahrvoje/numerics",
     "AliRezaBeigy/paqetNG",
+    "am-kantox/md",
     "andys8/git-brunch",
     "ankane/ml-stack",
     "anmolitor/travelm-agency",
@@ -39,7 +41,6 @@
     "apache/netbeans-antora-site",
     "apache/pdfbox-docs",
     "apache/rocketmq-apis",
-    "apostrophecms/starter-kit-astro-apollo",
     "Arthur944/neotest-bun",
     "asg017/sqlite-hello",
     "auto-complete/fuzzy-el",
@@ -141,6 +142,7 @@
     "nicholasjng/nanobind-bazel",
     "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
     "notaryproject/notaryproject.dev",
+    "oap-project/oap-mllib",
     "ocaml-opam/opam-publish",
     "ochorocho/franken-typo3",
     "ocurrent/opam-health-check",
@@ -173,9 +175,7 @@
     "tc39/proposal-smart-unit-preferences",
     "timo/json_fast",
     "travis-ci/travis-hub",
-    "travis-ci/travis-listener",
     "travis-ci/travis-logs",
-    "travis-ci/travis-scheduler",
     "Triang-jyed-driung/Rapid-Sampling",
     "typst/typst-flake",
     "V13Axel/neotest-pest",

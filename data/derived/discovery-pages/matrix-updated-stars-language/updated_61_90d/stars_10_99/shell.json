@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 175,
-    "observations": 178,
-    "repos": 34,
-    "terms": 175
+    "components": 148,
+    "concepts": 180,
+    "observations": 183,
+    "repos": 38,
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "10up/action-wordpress-plugin-build-zip",
     "2KAbhishek/mac2k",
@@ -24,11 +24,14 @@
     "alvistack/ansible-role-crun",
     "apache/arrow-testing",
     "aporthq/aport-agent-guardrails",
+    "argoproj-labs/argocd-extension-installer",
     "beehive-lab/docker-tornadovm",
+    "bnb-chain/node-deploy",
     "ChainSafe/forest-iac",
     "clojure/brew-install",
     "cloudfoundry/jumpbox-deployment",
     "coin-or-tools/ThirdParty-Mumps",
+    "conda-forge/pinocchio-feedstock",
     "conda-forge/poppler-feedstock",
     "conda-forge/spacy-feedstock",
     "confluentinc/cp-demo",
@@ -39,6 +42,7 @@
     "flinedev/tandemkit",
     "gentoo-mirror/guru",
     "GoogleCloudPlatform/blueprints",
+    "milvus-io/milvus-proto",
     "NixOS/org",
     "nodenv/node-build-update-defs",
     "nodenv/nodenv-package-rehash",

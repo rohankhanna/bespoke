@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 214,
-    "observations": 214,
-    "repos": 42,
-    "terms": 211
+    "components": 175,
+    "concepts": 204,
+    "observations": 204,
+    "repos": 37,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "Alexpux/MINGW-packages",
     "apache/datafusion-ballista-python",
-    "argoproj-labs/argocd-extension-installer",
-    "asdf-community/asdf-pdm",
     "Azure/aaz",
     "bitnami/vulndb",
-    "bnb-chain/node-deploy",
     "bufbuild/homebrew-buf",
     "Chocolate4U/Iran-clash-rules",
     "cilium/community",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
-    "conda-forge/pinocchio-feedstock",
     "crazy-max/goxx",
     "dependabot/smoke-tests",
     "dotenvx/dotenvx.sh",
@@ -42,7 +38,6 @@
     "iterate-ch/profiles",
     "leleliu008/ppkg",
     "microsoft/openjdk-docker",
-    "milvus-io/milvus-proto",
     "PF4Public/gentoo-overlay",
     "pkgxdev/mash",
     "postmodern/ruby-versions",

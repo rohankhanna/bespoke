@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1843,
-    "concepts": 303,
-    "observations": 303,
+    "components": 1879,
+    "concepts": 309,
+    "observations": 309,
     "repos": 62,
-    "terms": 333
+    "terms": 339
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -28,7 +28,6 @@
     "coaidev/coai",
     "cosmiconfig/cosmiconfig",
     "ekalinin/sitemap.js",
-    "flightcontrolhq/superjson",
     "glimmerjs/glimmer-vm",
     "google/gts",
     "gustavoguichard/string-ts",
@@ -61,6 +60,7 @@
     "RobinBlomberg/kysely-codegen",
     "snarktank/antfarm",
     "standard-schema/standard-schema",
+    "stephenh/ts-proto",
     "stravu/crystal",
     "styleguidist/react-docgen-typescript",
     "supermacro/neverthrow",

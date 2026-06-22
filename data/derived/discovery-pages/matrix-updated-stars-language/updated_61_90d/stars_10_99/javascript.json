@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1020,
-    "concepts": 298,
-    "observations": 298,
-    "repos": 81,
-    "terms": 298
+    "components": 1078,
+    "concepts": 297,
+    "observations": 297,
+    "repos": 84,
+    "terms": 297
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
@@ -55,7 +55,9 @@
     "haskell-actions/run-fourmolu",
     "hectorm/chafa-wasm",
     "hipster-labs/jhipster-daily-builds",
+    "i18next/i18next-chained-backend",
     "i18next/i18next-icu",
+    "i18next/i18next-multiload-backend-adapter",
     "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
     "ipld/js-dag-cbor",
@@ -66,17 +68,18 @@
     "kellyselden/eslint-plugin-json-files",
     "Level/browser-level",
     "Level/memory-level",
+    "locize/i18next-locize-backend",
     "locize/locize-cli",
     "mapbox/node-srs",
     "mapbox/node-tilejson",
     "mapbox/point-geometry",
     "mapbox/tiletype",
     "milvus-io/community",
+    "mypyc/mypy_mypyc-wheels",
     "neverendingqs/serverless-dotenv-example",
     "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "nodejs/email",
-    "npm/json-parse-even-better-errors",
     "npm/types",
     "nrwl/nx-ai-agents-config",
     "patrik-csak/auto-terminal-profile",

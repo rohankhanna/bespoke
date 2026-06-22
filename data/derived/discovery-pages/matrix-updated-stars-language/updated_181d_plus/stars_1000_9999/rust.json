@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 279,
-    "observations": 284,
-    "repos": 63,
-    "terms": 277
+    "components": 280,
+    "concepts": 292,
+    "observations": 298,
+    "repos": 64,
+    "terms": 290
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
+    "3Hren/msgpack-rust",
     "Aloxaf/silicon",
     "asciinema/agg",
     "askama-rs/askama-old",
@@ -43,7 +44,6 @@
     "gakonst/ethers-rs",
     "gfx-rs/gfx",
     "gfx-rs/naga",
-    "gfx-rs/wgpu-rs",
     "glium/glium",
     "glotlabs/gdrive",
     "gluon-lang/gluon",
@@ -72,6 +72,7 @@
     "stepancheg/grpc-rust",
     "stepancheg/rust-protobuf",
     "tarkah/tickrs",
+    "Tencent/tquic",
     "vislyhq/stretch",
     "watchexec/cargo-watch",
     "wilsonzlin/minify-html",

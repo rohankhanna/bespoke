@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 569,
-    "concepts": 974,
-    "observations": 975,
-    "repos": 247,
-    "terms": 966
+    "components": 591,
+    "concepts": 987,
+    "observations": 988,
+    "repos": 251,
+    "terms": 978
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0k/shyaml",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -71,6 +71,7 @@
     "clemense/yourdfpy",
     "CNChTu/Diffusion-SVC",
     "CodeClash-ai/CodeClash",
+    "conan-io/cmake-conan",
     "corydolphin/flask-cors",
     "csslc/PiSA-SR",
     "DanCardin/cappa",
@@ -111,6 +112,7 @@
     "hasscc/hass-edge-tts",
     "HazyResearch/zoology",
     "Helsinki-NLP/Opus-MT",
+    "heyoeyo/muggled_dpt",
     "hkchengrex/CascadePSP",
     "HolyWu/vs-rife",
     "hongyuanyu/SPAN",
@@ -147,6 +149,7 @@
     "madebyollin/taehv",
     "madebyollin/taesd",
     "magic-wormhole/magic-wormhole-transit-relay",
+    "MAGREF-Video/MAGREF",
     "marin-community/levanter",
     "mcfletch/pyopengl",
     "meidachen/STPLS3D",
@@ -230,7 +233,6 @@
     "TexasInstruments/edgeai-tidl-tools",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
-    "thu-ml/DiT-Extrapolation",
     "TIGER-AI-Lab/verl-tool",
     "TRI-ML/dgp",
     "triton-inference-server/model_navigator",
@@ -243,6 +245,8 @@
     "vietanhdev/samexporter",
     "virtuald/pyhcl",
     "Visual-Agent/DeepEyesV2",
+    "voxel51/fiftyone-examples",
+    "voxel51/voxelgpt",
     "walles/px",
     "wenet-e2e/WeTextProcessing",
     "whatwg/meta",
@@ -251,7 +255,6 @@
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
     "xArm-Developer/xArm-Python-SDK",
-    "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "yaroslavyaroslav/OpenAI-sublime-text",
     "yashsinghcodes/wik",
@@ -260,6 +263,7 @@
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhijian-liu/torchprofile",
     "zhixuan-lin/forgetting-transformer",
+    "zhiyiYo/PyQt-Frameless-Window",
     "zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
   ]
 }

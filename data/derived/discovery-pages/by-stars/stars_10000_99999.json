@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 33437,
-    "concepts": 15224,
-    "observations": 15281,
-    "repos": 1717,
-    "terms": 15170
+    "components": 33531,
+    "concepts": 15259,
+    "observations": 15316,
+    "repos": 1718,
+    "terms": 15213
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -53,6 +53,7 @@
     "adobe-fonts/source-han-sans",
     "adobe/brackets",
     "adonisjs/core",
+    "advimman/lama",
     "agalwood/Motrix",
     "agarrharr/awesome-cli-apps",
     "ageitgey/face_recognition",
@@ -1252,7 +1253,6 @@
     "peers/peerjs",
     "petkaantonov/bluebird",
     "pgvector/pgvector",
-    "phillipi/pix2pix",
     "phoenixframework/phoenix",
     "php/frankenphp",
     "phpstan/phpstan",
@@ -1570,6 +1570,7 @@
     "thu-ml/tianshou",
     "tiann/KernelSU",
     "tidwall/gjson",
+    "tinygrad/tinygrad",
     "titanwings/colleague-skill",
     "tj/commander.js",
     "tj/n",

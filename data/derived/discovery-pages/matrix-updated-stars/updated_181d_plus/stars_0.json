@@ -3,7 +3,7 @@
     "components": 1383,
     "concepts": 571,
     "observations": 573,
-    "repos": 467,
+    "repos": 464,
     "terms": 571
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0x0ade/MonoMod-wip",
@@ -265,9 +265,6 @@
     "hermit-os/socket2",
     "HReynaud/stylegan-v",
     "hsivonen/any_all_workaround",
-    "hsivonen/charcounts",
-    "hsivonen/detector_char_classes",
-    "hsivonen/testdet",
     "humanpose1/deeppointcloud-benchmarks",
     "iamazy/reqwest",
     "iambriccardo/rust-postgres",

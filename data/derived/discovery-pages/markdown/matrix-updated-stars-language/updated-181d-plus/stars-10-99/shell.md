@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Shell
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 89
+- repos: 88
 - terms: 219
 - components: 105
 - concepts: 224
@@ -54,7 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Zepmann/lldap-cli](https://github.com/Zepmann/lldap-cli) | 67 | 2025-01-19T11:58:25Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [2KAbhishek/mkrepo](https://github.com/2KAbhishek/mkrepo) | 12 | 2024-12-15T06:04:10Z | Shell | CLI | 4 | 0 | 5 | 5 |
 | [2KAbhishek/ghpm](https://github.com/2KAbhishek/ghpm) | 30 | 2024-12-15T05:56:16Z | Shell | Unknown | 3 | 0 | 4 | 4 |
-| [bjartnes/hikke](https://github.com/bjartnes/hikke) | 52 | 2024-11-29T13:04:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
+| [bjartnes/hikke](https://github.com/bjartnes/hikke) | 51 | 2024-11-29T13:04:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [xetdata/xet-tools](https://github.com/xetdata/xet-tools) | 11 | 2024-10-16T17:47:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [jstkdng/aur](https://github.com/jstkdng/aur) | 18 | 2024-09-24T02:53:14Z | Shell | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [aaronpowell/tmux-weather](https://github.com/aaronpowell/tmux-weather) | 52 | 2024-09-16T01:22:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -114,7 +114,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mskims/redux-saga-in-korean](https://github.com/mskims/redux-saga-in-korean) | 71 | 2021-09-04T05:11:17Z | Shell | Unknown | 4 | 4 | 4 | 4 |
 | [hashnuke/heroku-buildpack-elixir-otp-builds](https://github.com/HashNuke/heroku-buildpack-elixir-otp-builds) | 37 | 2021-07-23T14:41:51Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [nmattia/sorri](https://github.com/nmattia/sorri) | 45 | 2021-07-14T17:35:21Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [gulvarol/surreact](https://github.com/gulvarol/surreact) | 72 | 2021-06-09T10:50:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -131,7 +130,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [2KAbhishek/tdo](https://github.com/2KAbhishek/tdo) | 75 | 2025-07-21T18:49:27Z | Shell | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [f4pga/prjxray-db](https://github.com/f4pga/prjxray-db) | 74 | 2021-12-14T21:34:10Z | Shell | Infrastructure/tooling | 13 | 2 | 13 | 13 |
 | [Shavian-info/interalia](https://github.com/Shavian-info/interalia) | 72 | 2024-01-12T20:51:54Z | Shell | Unknown | 9 | 0 | 9 | 9 |
-| [gulvarol/surreact](https://github.com/gulvarol/surreact) | 72 | 2021-06-09T10:50:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mskims/redux-saga-in-korean](https://github.com/mskims/redux-saga-in-korean) | 71 | 2021-09-04T05:11:17Z | Shell | Unknown | 4 | 4 | 4 | 4 |
 | [MoonshotAI/zsh-kimi-cli](https://github.com/MoonshotAI/zsh-kimi-cli) | 67 | 2025-10-27T17:06:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Zepmann/lldap-cli](https://github.com/Zepmann/lldap-cli) | 67 | 2025-01-19T11:58:25Z | Shell | CLI | 0 | 0 | 0 | 0 |
@@ -142,11 +140,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [haya14busa/action-update-semver](https://github.com/haya14busa/action-update-semver) | 58 | 2025-09-14T03:16:36Z | Shell | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [amyreese/zsh-titles](https://github.com/amyreese/zsh-titles) | 58 | 2023-02-10T21:33:25Z | Shell | CLI | 3 | 0 | 3 | 3 |
 | [alexandredavi/openssl-lambda-layer](https://github.com/alexandredavi/openssl-lambda-layer) | 55 | 2025-07-31T16:50:33Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [bjartnes/hikke](https://github.com/bjartnes/hikke) | 52 | 2024-11-29T13:04:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [aaronpowell/tmux-weather](https://github.com/aaronpowell/tmux-weather) | 52 | 2024-09-16T01:22:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tuvovan/Zero_DCE_TF](https://github.com/tuvovan/Zero_DCE_TF) | 52 | 2024-06-13T07:08:27Z | Shell | Infrastructure/tooling | 2 | 0 | 2 | 2 |
 | [northox/openbsd-apu2](https://github.com/northox/openbsd-apu2) | 52 | 2022-12-24T00:11:03Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [tiran/cpython-wasm-test](https://github.com/tiran/cpython-wasm-test) | 52 | 2022-11-09T01:07:20Z | Shell | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [bjartnes/hikke](https://github.com/bjartnes/hikke) | 51 | 2024-11-29T13:04:11Z | Shell | Unknown | 10 | 0 | 10 | 10 |
 | [scaleway/initrd](https://github.com/scaleway/initrd) | 51 | 2022-09-27T14:19:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [transmissions11/dapptools-template](https://github.com/transmissions11/dapptools-template) | 51 | 2022-01-03T09:30:06Z | Shell | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [sclorg/mongodb-container](https://github.com/sclorg/mongodb-container) | 50 | 2022-04-19T10:06:06Z | Shell | Unknown | 9 | 0 | 9 | 9 |

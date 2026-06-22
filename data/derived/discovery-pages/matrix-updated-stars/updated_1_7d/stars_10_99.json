@@ -1,18 +1,32 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 218,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 15,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-19T08:22:44.138847+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "4catalyzer/javascript"
+    "apostrophecms/starter-kit-astro-apollo",
+    "asdf-community/asdf-pdm",
+    "corgi-emacs/corgi-packages",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "kurrent-io/KurrentDB-Client-Rust",
+    "lhj5426/X-AnyLabeling",
+    "mesh-iit/cad-libraries",
+    "mongodb/winkerberos",
+    "mozilla-ai/otari",
+    "nuxt-modules/emotion",
+    "ogx-ai/ogx-client-typescript",
+    "processing/processing-website",
+    "tinted-theming/tinted-xresources",
+    "TrigenSoftware/simple-release",
+    "vaporif/parry-guard"
   ]
 }

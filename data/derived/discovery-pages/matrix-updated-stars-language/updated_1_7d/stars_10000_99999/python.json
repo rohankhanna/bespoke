@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 4,
-    "observations": 5,
-    "repos": 1,
-    "terms": 4
+    "components": 183,
+    "concepts": 225,
+    "observations": 226,
+    "repos": 16,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "jax-ml/jax"
+    "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
+    "hiyouga/LlamaFactory",
+    "huggingface/pytorch-image-models",
+    "huggingface/sentence-transformers",
+    "Lightning-AI/litgpt",
+    "modelscope/ms-swift",
+    "psf/black",
+    "pydantic/pydantic",
+    "pyg-team/pytorch_geometric",
+    "qubvel-org/segmentation_models.pytorch",
+    "run-llama/llama_index",
+    "TEN-framework/ten-framework",
+    "ungoogled-software/ungoogled-chromium",
+    "verl-project/verl",
+    "zhayujie/CowAgent"
   ]
 }

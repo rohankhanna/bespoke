@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 3498,
-    "concepts": 1727,
-    "observations": 1730,
-    "repos": 341,
-    "terms": 1701
+    "concepts": 1734,
+    "observations": 1737,
+    "repos": 342,
+    "terms": 1708
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -19,6 +19,7 @@
     "adobe-fonts/source-code-pro",
     "adobe-fonts/source-han-sans",
     "adobe/brackets",
+    "advimman/lama",
     "agalwood/Motrix",
     "ageitgey/face_recognition",
     "AIGC-Audio/AudioGPT",
@@ -135,6 +136,7 @@
     "goldfire/howler.js",
     "google-research/bert",
     "google-research/tuning_playbook",
+    "google/ExoPlayer",
     "GoogleChromeLabs/ndb",
     "GoogleContainerTools/kaniko",
     "gorilla/mux",
@@ -269,7 +271,6 @@
     "PanJiaChen/vue-admin-template",
     "PanJiaChen/vue-element-admin",
     "petkaantonov/bluebird",
-    "phillipi/pix2pix",
     "picturepan2/spectre",
     "piskvorky/gensim",
     "pjreddie/darknet",

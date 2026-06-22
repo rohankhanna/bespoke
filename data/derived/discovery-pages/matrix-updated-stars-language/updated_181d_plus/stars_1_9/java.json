@@ -3,7 +3,7 @@
     "components": 69,
     "concepts": 76,
     "observations": 76,
-    "repos": 48,
+    "repos": 47,
     "terms": 76
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "abistarun/resseract-lite",
     "aidenlab/JuiceboxGUI",
@@ -40,7 +40,6 @@
     "FasterXML/jackson-1",
     "finefuture/sentinel-dashboard-X",
     "fizzed/template-benchmark",
-    "hallvard/etablesaw",
     "ihmcrobotics/ihmc-commons",
     "JaneliaSciComp/n5-zstandard",
     "jruby/jruby-examples",

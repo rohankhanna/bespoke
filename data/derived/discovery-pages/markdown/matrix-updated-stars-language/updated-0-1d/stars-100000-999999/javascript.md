@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · JavaScript
 
-Generated at: `2026-05-30T07:41:34.941193+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vercel/next.js](https://github.com/vercel/next.js) | 139596 | 2026-05-30T00:15:12Z | JavaScript | Infrastructure/tooling | 21 | 224 | 21 | 21 |
+| [vercel/next.js](https://github.com/vercel/next.js) | 140111 | 2026-06-21T19:17:58Z | JavaScript | Infrastructure/tooling | 21 | 224 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vercel/next.js](https://github.com/vercel/next.js) | 139596 | 2026-05-30T00:15:12Z | JavaScript | Infrastructure/tooling | 21 | 224 | 21 | 21 |
+| [vercel/next.js](https://github.com/vercel/next.js) | 140111 | 2026-06-21T19:17:58Z | JavaScript | Infrastructure/tooling | 21 | 224 | 21 | 21 |

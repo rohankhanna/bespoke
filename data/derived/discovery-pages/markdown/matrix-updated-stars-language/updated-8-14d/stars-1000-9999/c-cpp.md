@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-06-13T07:48:04.793721+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 5
-- components: 0
-- concepts: 5
-- observations: 5
+- repos: 2
+- terms: 13
+- components: 32
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1277 | 2026-05-30T08:40:09Z | C/C++ | Library | 5 | 0 | 5 | 5 |
+| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4486 | 2026-06-14T22:19:11Z | C/C++ | Infrastructure/tooling | 13 | 32 | 13 | 13 |
+| [Nevcairiel/LAVFilters](https://github.com/Nevcairiel/LAVFilters) | 8966 | 2026-06-10T05:33:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift-llbuild](https://github.com/swiftlang/swift-llbuild) | 1277 | 2026-05-30T08:40:09Z | C/C++ | Library | 5 | 0 | 5 | 5 |
+| [Nevcairiel/LAVFilters](https://github.com/Nevcairiel/LAVFilters) | 8966 | 2026-06-10T05:33:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [ultrajson/ultrajson](https://github.com/ultrajson/ultrajson) | 4486 | 2026-06-14T22:19:11Z | C/C++ | Infrastructure/tooling | 13 | 32 | 13 | 13 |

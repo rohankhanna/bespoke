@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 62,
-    "terms": 43
+    "components": 12,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 57,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "abdeladim-s/pywhispercpp",
-    "cachix/serde-envfile",
-    "conda-forge/conda-lock-feedstock",
     "conda-forge/equinox-feedstock",
-    "conda-forge/python-isal-feedstock",
-    "conda-forge/pytomlpp-feedstock",
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
     "conda-forge/versioneer-feedstock",
@@ -70,7 +66,6 @@
     "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Jewish-Texts-Reference-Plugin",
     "danielrosehill/Open-Research-Workspaces-Index",
-    "Dustinpro/Dustinpro",
     "hermit-os/.github",
     "kleisauke/glib",
     "qiayuanl/unitree_buildfarm",

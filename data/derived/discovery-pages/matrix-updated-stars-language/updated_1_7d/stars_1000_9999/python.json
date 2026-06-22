@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 1,
-    "terms": 5
+    "components": 111,
+    "concepts": 146,
+    "observations": 148,
+    "repos": 17,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-06T07:33:29.108947+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint"
+    "aigc-apps/VideoX-Fun",
+    "arcee-ai/mergekit",
+    "aws-cloudformation/cfn-lint",
+    "aws/serverless-application-model",
+    "bitsandbytes-foundation/bitsandbytes",
+    "clearml/clearml",
+    "eclipse-paho/paho.mqtt.python",
+    "google-deepmind/optax",
+    "JuergenFleiss/aTrain",
+    "meta-pytorch/captum",
+    "modelscope/FunClip",
+    "modelscope/ms-agent",
+    "NEKOparapa/AiNiee",
+    "ogx-ai/ogx",
+    "opencv/opencv-python",
+    "PaddlePaddle/PaddleClas",
+    "roboflow/maestro"
   ]
 }

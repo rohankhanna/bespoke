@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 197,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 4,
-    "terms": 35
+    "components": 633,
+    "concepts": 88,
+    "observations": 89,
+    "repos": 15,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-06-05T07:56:21.398708+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "conventional-changelog/conventional-changelog",
+    "ai-that-works/ai-that-works",
+    "apollographql/apollo-tooling",
+    "benchmark-action/github-action-benchmark",
+    "ebullient/obsidian-admonition",
+    "electron/rebuild",
+    "flightcontrolhq/superjson",
+    "google-gemini/live-api-web-console",
+    "graphql-hive/graphql-inspector",
+    "microsoft/vscode-js-debug",
     "podman-desktop/podman-desktop",
     "react-native-webview/react-native-webview",
-    "vuejs/devtools"
+    "TanStack/form",
+    "vercel/serve",
+    "vuejs/devtools",
+    "vuejs/language-tools"
   ]
 }

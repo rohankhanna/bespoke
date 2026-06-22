@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 227,
-    "concepts": 152,
-    "observations": 153,
-    "repos": 61,
-    "terms": 150
+    "components": 226,
+    "concepts": 166,
+    "observations": 167,
+    "repos": 59,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "adamgreig/ecpdap",
@@ -33,7 +33,6 @@
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
     "databendlabs/opensrv",
-    "datafusion-contrib/hdfs-native-object-store",
     "dgn/oidc-filter",
     "dsxmachina/rfm",
     "Dzordzu/rust-apache-age",
@@ -43,12 +42,12 @@
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
+    "frederik-uni/manga-image-translator-rust",
     "georust/wkt",
     "germangb/minimp3-rs",
     "googlefonts/shaperglot",
     "hermit-os/hermit-rs-template",
     "hermit-os/rftrace",
-    "informalsystems/quint-connect",
     "informalsystems/quint-trace-explorer",
     "jakudlaty/tsid",
     "jasonjmcghee/ron-lsp",
@@ -63,7 +62,6 @@
     "omerbenamram/pyo3-file",
     "OneSignal/serde-magnus",
     "penumbra-zone/jmt",
-    "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "raymondshe/matchengine-raft",
     "ros2-rust/examples",

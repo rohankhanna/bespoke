@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 990,
-    "concepts": 284,
-    "observations": 285,
-    "repos": 52,
-    "terms": 281
+    "components": 1061,
+    "concepts": 291,
+    "observations": 292,
+    "repos": 53,
+    "terms": 288
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "alexmojaki/birdseye",
     "anandthakker/doiuse",
     "apostrophecms/sanitize-html",
     "appbaseio/dejavu",
-    "architect/architect",
     "breejs/bree",
     "casparwylie/cascii-core",
     "cerebral/cerebral",
@@ -43,6 +42,7 @@
     "jasongin/nvs",
     "jimmywarting/StreamSaver.js",
     "jsx-eslint/eslint-plugin-jsx-a11y",
+    "mapbox/delaunator",
     "microsoft/botframework-sdk",
     "microsoft/generative-ai-with-javascript",
     "mourner/flatbush",
@@ -53,6 +53,7 @@
     "omnidan/redux-undo",
     "paralleldrive/cuid2",
     "pburtchaell/redux-promise-middleware",
+    "pmndrs/drei",
     "primer/github-vscode-theme",
     "projectfluent/fluent",
     "reactjs/react-a11y",

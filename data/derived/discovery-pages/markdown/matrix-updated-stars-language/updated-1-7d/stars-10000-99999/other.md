@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-06-06T07:33:29.108947+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 0
-- components: 0
-- concepts: 0
-- observations: 0
+- repos: 4
+- terms: 37
+- components: 42
+- concepts: 37
+- observations: 37
 
 ## Static behavior
 
@@ -26,10 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 70012 | 2026-05-30T10:41:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17065 | 2026-06-21T04:07:01Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
+| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 14008 | 2026-06-21T02:15:14Z | Other | CLI | 10 | 3 | 10 | 10 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11275 | 2026-06-20T19:08:25Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |
+| [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13545 | 2026-06-18T15:31:28Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [swiftlang/swift](https://github.com/swiftlang/swift) | 70012 | 2026-05-30T10:41:52Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [upptime/upptime](https://github.com/upptime/upptime) | 17065 | 2026-06-21T04:07:01Z | Other | Infrastructure/tooling | 14 | 16 | 14 | 14 |
+| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 14008 | 2026-06-21T02:15:14Z | Other | CLI | 10 | 3 | 10 | 10 |
+| [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13545 | 2026-06-18T15:31:28Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
+| [mixmark-io/turndown](https://github.com/mixmark-io/turndown) | 11275 | 2026-06-20T19:08:25Z | Other | Infrastructure/tooling | 7 | 14 | 7 | 7 |

@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 5,
     "observations": 5,
-    "repos": 4,
+    "repos": 5,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "aosp-mirror/platform_frameworks_base",
     "brettwooldridge/HikariCP",
+    "google/ExoPlayer",
     "Netflix/Hystrix",
     "square/javapoet"
   ]

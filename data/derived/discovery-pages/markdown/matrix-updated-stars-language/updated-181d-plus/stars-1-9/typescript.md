@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 86
-- terms: 151
-- components: 1465
-- concepts: 155
-- observations: 155
+- repos: 85
+- terms: 148
+- components: 1445
+- concepts: 151
+- observations: 151
 
 ## Static behavior
 
@@ -111,7 +111,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [indexxuan/vite-plugin-vue-cli](https://github.com/IndexXuan/vite-plugin-vue-cli) | 5 | 2021-09-22T01:45:12Z | TypeScript | CLI | 1 | 31 | 1 | 1 |
 | [codeperate/stencil-windicss](https://github.com/codeperate/stencil-windicss) | 1 | 2021-09-17T05:35:34Z | TypeScript | Unknown | 3 | 7 | 3 | 3 |
 | [arthwang/vsc-logtalk](https://github.com/arthwang/vsc-logtalk) | 3 | 2021-08-12T15:00:35Z | TypeScript | Unknown | 0 | 19 | 0 | 0 |
-| [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 3 | 20 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -162,7 +161,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp) | 4 | 2025-03-19T06:47:53Z | TypeScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [aleclarson/vite-plugin-marked](https://github.com/aleclarson/vite-plugin-marked) | 4 | 2025-03-15T17:07:12Z | TypeScript | Unknown | 0 | 10 | 0 | 0 |
 | [azdavis/sml-libs-scraper](https://github.com/azdavis/sml-libs-scraper) | 4 | 2023-05-31T22:51:11Z | TypeScript | Unknown | 1 | 4 | 1 | 1 |
-| [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 3 | 20 | 4 | 4 |
 | [hchiam/astro-calendar](https://github.com/hchiam/astro-calendar) | 3 | 2025-08-21T01:08:14Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [5sControl/5s-frontend](https://github.com/5sControl/5s-frontend) | 3 | 2025-06-25T13:30:18Z | TypeScript | Infrastructure/tooling | 9 | 59 | 9 | 9 |
 | [ddisisto/si](https://github.com/ddisisto/si) | 3 | 2025-05-20T01:27:58Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Rust
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 55
+- repos: 53
 - terms: 77
 - components: 208
 - concepts: 77
@@ -79,8 +79,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a-liashenko/egui](https://github.com/a-liashenko/egui) | 0 | 2022-07-29T21:06:03Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [imgui-rs/imgui-gfx-renderer](https://github.com/imgui-rs/imgui-gfx-renderer) | 0 | 2021-10-01T17:03:28Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [andreivasiliu/quad-net](https://github.com/andreivasiliu/quad-net) | 0 | 2021-08-24T19:20:22Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/testdet](https://github.com/hsivonen/testdet) | 0 | 2021-06-15T13:05:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -139,5 +137,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [a-liashenko/egui](https://github.com/a-liashenko/egui) | 0 | 2022-07-29T21:06:03Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [imgui-rs/imgui-gfx-renderer](https://github.com/imgui-rs/imgui-gfx-renderer) | 0 | 2021-10-01T17:03:28Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [andreivasiliu/quad-net](https://github.com/andreivasiliu/quad-net) | 0 | 2021-08-24T19:20:22Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/detector_char_classes](https://github.com/hsivonen/detector_char_classes) | 0 | 2021-06-15T13:07:13Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/testdet](https://github.com/hsivonen/testdet) | 0 | 2021-06-15T13:05:54Z | Rust | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 892,
-    "concepts": 143,
-    "observations": 144,
-    "repos": 51,
-    "terms": 142
+    "components": 893,
+    "concepts": 162,
+    "observations": 163,
+    "repos": 53,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "adriantoine/enzyme-to-json",
@@ -39,11 +39,12 @@
     "latex-lsp/tree-sitter-latex",
     "lemire/FastPriorityQueue.js",
     "Level/awesome",
-    "lit/lit-element-starter-ts",
+    "mapbox/cheap-ruler",
     "Mario4272/ag_bridge",
     "microsoft/vscode-custom-data",
     "mourner/robust-predicates",
     "nodenv/jetbrains-npm",
+    "npm/abbrev-js",
     "omnidan/redux-ignore",
     "omnidan/redux-recycle",
     "omnidan/redux-undo-boilerplate",
@@ -53,6 +54,7 @@
     "React9k/react-timeline-9000",
     "RichardLitt/generator-standard-readme",
     "RJWadley/stylelint-no-unsupported-browser-features",
+    "rstudio/DT",
     "runegan/jsxbin",
     "scripting/reallysimple",
     "sindresorhus/env-paths",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 309,
-    "concepts": 244,
-    "observations": 246,
-    "repos": 28,
-    "terms": 244
+    "components": 111,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 11,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,35 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "all-contributors/allcontributors.org",
-    "babashka/babashka",
-    "babashka/sci",
-    "beam-community/elixir-companies",
-    "clj-kondo/clj-kondo",
-    "datalevin/datalevin",
-    "dotnet/reactive",
-    "dotnet/Silk.NET",
-    "elixir-grpc/grpc",
-    "firebase/flutterfire",
-    "googleapis/google-auth-library-php",
-    "kurrent-io/KurrentDB",
-    "licensee/licensed",
-    "microsoft/aspire",
-    "microsoft/aspire-samples",
-    "microsoft/PhiCookBook",
+    "hacl-star/hacl-star",
+    "JuliaAI/MLJ.jl",
+    "lightning/bolts",
     "mono/SkiaSharp",
     "nvim-tree/nvim-web-devicons",
-    "okd-project/okd",
     "openai/openai-dotnet",
-    "psmux/psmux",
+    "plotly/plotly.R",
     "radian-software/straight.el",
     "seancorfield/honeysql",
-    "swiftlang/llvm-project",
-    "swiftlang/swift-syntax",
-    "tModLoader/tModLoader",
-    "TryGhost/node-sqlite3",
-    "web-platform-tests/wpt"
+    "tModLoader/tModLoader"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 884,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 51,
-    "terms": 138
+    "components": 954,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 55,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -23,7 +23,9 @@
     "aigc3d/LAM_WebRender",
     "AlexJPotter/fluentvalidation-ts",
     "androidStern-personal/openclaw-mcp-adapter",
+    "apache/incubator-devlake-website",
     "atom-yang/aumi",
+    "automazeio/proof",
     "br14n-sol/inquirer-file-selector",
     "c2corg/browserslist-update-action",
     "cahamilton/css-property-sort-order-smacss",
@@ -49,8 +51,10 @@
     "joliss/node-walk-sync",
     "klaudworks/ralph-meets-rex",
     "libp2p/github-mgmt",
+    "literalpie/storybook-framework-qwik",
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
+    "nanostores/alpine",
     "nulone/claude-rules-doctor",
     "omril321/automated-notebooklm",
     "opensearch-project/opentelemetry-demo",

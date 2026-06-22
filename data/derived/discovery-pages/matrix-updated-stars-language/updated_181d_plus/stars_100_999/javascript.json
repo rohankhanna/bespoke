@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4799,
-    "concepts": 1084,
-    "observations": 1084,
-    "repos": 389,
-    "terms": 1071
+    "components": 4800,
+    "concepts": 1081,
+    "observations": 1081,
+    "repos": 387,
+    "terms": 1068
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -57,7 +57,6 @@
     "atom/ide-java",
     "atom/text-buffer",
     "attractivechaos/k8",
-    "avocadowastaken/prettier-plugin-prisma",
     "aws-samples/aws-cdk-changelogs-demo",
     "axeldelafosse/expo-next-monorepo-example",
     "ayoubben18/ab-method",
@@ -100,7 +99,6 @@
     "cocos/cocos-example-projects",
     "ColemanGariety/gulp-nodemon",
     "colxi/midi-parser-js",
-    "commitizen/conventional-commit-types",
     "cossssmin/tailwindcss-border-gradients",
     "cplee/github-actions-demo",
     "CSSLint/parser-lib",
@@ -155,7 +153,6 @@
     "eschnett/zotero-citationcounts",
     "ethereum/portal-network-specs",
     "ethereum/tests",
-    "eugeneware/gifencoder",
     "faceyspacey/babel-plugin-universal-import",
     "faceyspacey/webpack-flush-chunks",
     "felixge/node-combined-stream",
@@ -247,6 +244,7 @@
     "Level/level-js",
     "level/memdown",
     "lit/lit-element-starter-js",
+    "lit/lit-element-starter-ts",
     "loganfsmyth/babel-plugin-transform-decorators-legacy",
     "madbence/node-drawille-canvas",
     "mafintosh/multicast-dns",

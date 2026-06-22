@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 134
+- repos: 133
 - terms: 117
 - components: 236
 - concepts: 117
@@ -159,7 +159,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/backup_internet_israel](https://github.com/danielrosehill/backup_internet_israel) | 0 | 2021-09-14T02:02:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zyedidia/blobs](https://github.com/zyedidia/blobs) | 0 | 2021-08-25T00:47:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -298,4 +297,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/backup_internet_israel](https://github.com/danielrosehill/backup_internet_israel) | 0 | 2021-09-14T02:02:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zyedidia/blobs](https://github.com/zyedidia/blobs) | 0 | 2021-08-25T00:47:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [simrat39/rust-tools-demos](https://github.com/simrat39/rust-tools-demos) | 0 | 2021-07-28T04:47:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [hsivonen/charcounts](https://github.com/hsivonen/charcounts) | 0 | 2021-06-15T13:06:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

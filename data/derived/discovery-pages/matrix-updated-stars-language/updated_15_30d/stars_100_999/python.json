@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 154,
-    "observations": 154,
-    "repos": 28,
-    "terms": 154
+    "components": 60,
+    "concepts": 84,
+    "observations": 84,
+    "repos": 16,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,35 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
-    "adamchainz/blacken-docs",
-    "AI-Hypercomputer/maxdiffusion",
-    "aristoteleo/PantheonOS",
-    "clearml/clearml-agent",
-    "Comfy-Org/comfy-cli",
-    "flagos-ai/FlagAttention",
-    "flagos-ai/FlagScale",
-    "googlefonts/roboto-3-classic",
-    "googlefonts/ufo2ft",
-    "jupyter-server/jupyter_server",
-    "machinewrapped/llm-subtrans",
-    "NCAS-CMS/pyfive",
+    "AMD-AGI/Nitro-1",
+    "gbionics/jaxsim",
+    "google-deepmind/dm_pix",
     "NVlabs/trajdata",
     "OpenHands/ToM-SWE",
     "perrygeo/python-rasterstats",
     "pypa/build",
-    "pypa/setuptools-scm",
-    "pyrtlsdr/pyrtlsdr",
     "readthedocs/commonmark.py",
     "satan53x/SExtractor",
-    "scverse/rapids-singlecell",
     "ShadowLoveElysia/AiNiee-Next",
     "SublimeText/AFileIcon",
+    "thu-ml/DiT-Extrapolation",
     "thunlp/OPD",
     "TinyLLaVA/TinyLLaVA_Factory",
-    "tox-dev/filelock",
+    "vale-cli/packages",
     "zh-plus/openlrc"
   ]
 }

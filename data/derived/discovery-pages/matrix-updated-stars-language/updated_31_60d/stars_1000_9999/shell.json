@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 228,
-    "observations": 228,
-    "repos": 32,
-    "terms": 223
+    "components": 146,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 25,
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "aaron-he-zhu/seo-geo-claude-skills",
-    "aquasecurity/trivy-action",
     "archlinuxcn/repo",
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
     "bitnami/containers",
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
-    "docker-library/docs",
-    "docker-library/official-images",
     "dtcooper/raspotify",
     "fluxcd/flux2-kustomize-helm-example",
-    "google/adk-docs",
     "GrapheneOS/Vanadium",
     "heroku/heroku-buildpack-nodejs",
     "holman/dotfiles",
@@ -35,14 +31,11 @@
     "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",
     "msys2/MINGW-packages",
-    "nodenv/nodenv",
     "pypa/manylinux",
     "rbenv/ruby-build",
     "rocker-org/rocker",
-    "rvm/rvm",
     "scop/bash-completion",
     "sublimehq/Packages",
-    "void-linux/void-packages",
     "YosysHQ/oss-cad-suite-build",
     "yt-dlp/FFmpeg-Builds",
     "zsh-users/zsh-completions"

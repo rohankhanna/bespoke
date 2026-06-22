@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 44,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 60,
-    "terms": 72
+    "concepts": 74,
+    "observations": 74,
+    "repos": 62,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
     "aar0npb/curator-skill",
-    "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
     "addfox/skills",
     "agenmod/mirror-skill",
@@ -27,6 +26,8 @@
     "ai-dynamo/enhancements",
     "cachix/iocraft",
     "canonical/ubuntu-desktop-provision-screenshots",
+    "conda-forge/python-zlib-ng-feedstock",
+    "conda-forge/scikit-optimize-feedstock",
     "conda-forge/ultralytics-feedstock",
     "csm-actions/docs",
     "D1DX/morning-skill",
@@ -62,6 +63,7 @@
     "graveyardsfocrdpktv/ethereum-mempool-bot",
     "hchiam/learning-gh",
     "hchiam/learning-template",
+    "kyverno/community",
     "lab-cosmo/.github",
     "langchain-ai/.github",
     "leeyeel/gltfOverview-Chinese",

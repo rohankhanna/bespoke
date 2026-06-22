@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 3,
-    "terms": 8
+    "components": 5,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "buty4649/mruby-yyjson",
-    "conda-forge/cppinterop-feedstock",
-    "rltakashige/mlx-jaccl-fix-small-recv"
+    "buty4649/mruby-yyjson"
   ]
 }

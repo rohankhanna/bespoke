@@ -1,25 +1,36 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 8,
-    "terms": 61
+    "components": 398,
+    "concepts": 212,
+    "observations": 212,
+    "repos": 19,
+    "terms": 212
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-31T07:48:14.816563+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint",
-    "eclipse-jdtls/eclipse.jdt.ls",
-    "godot-rust/gdext",
-    "JuliaPluto/Pluto.jl",
+    "datalevin/datalevin",
+    "doctest/doctest",
+    "fla-org/flash-linear-attention",
+    "googleapis/google-api-go-client",
+    "harbor-framework/harbor",
+    "harfbuzz/harfbuzz",
+    "imgui-rs/imgui-rs",
+    "ipfs/ipfs-webui",
+    "meta-pytorch/torchcodec",
+    "meta-pytorch/torchtune",
     "microsoft/aspire",
-    "microsoft/aspire-samples",
-    "swiftlang/swift-llbuild",
-    "swiftlang/swift-syntax"
+    "off-grid-ai/mobile",
+    "PrimeIntellect-ai/verifiers",
+    "redis/redis-om-python",
+    "rllm-org/rllm",
+    "swiftlang/llvm-project",
+    "TrenchBroom/TrenchBroom",
+    "ufbx/ufbx",
+    "web-platform-tests/wpt"
   ]
 }

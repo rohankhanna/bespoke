@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 322,
-    "concepts": 216,
-    "observations": 217,
-    "repos": 50,
-    "terms": 215
+    "components": 260,
+    "concepts": 177,
+    "observations": 178,
+    "repos": 42,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
     "apache/datasketches-go",
     "aquasecurity/trivy-java-db",
-    "aspect-build/aspect-gazelle",
-    "aws-controllers-k8s/code-generator",
-    "aws/aws-network-policy-agent",
     "bitrise-io/stepman",
     "bootmortis/sing-geosite",
     "cloudfoundry/bosh-backup-and-restore",
@@ -29,7 +26,6 @@
     "cloudfoundry/cf-networking-release",
     "cloudfoundry/cf-smoke-tests",
     "compozy/kb",
-    "containers/container-libs",
     "cosmos/ibc-apps",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
@@ -46,13 +42,9 @@
     "gookit/ini",
     "gookit/rux",
     "ipfs/ipfs-check",
-    "ipshipyard/p2p-forge",
     "Kong/kong-operator",
-    "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "kubernetes-sigs/provider-aws-test-infra",
-    "kubernetes-sigs/verify-conformance",
-    "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
     "openshift/kubernetes",
     "oracle/karpenter-provider-oci",

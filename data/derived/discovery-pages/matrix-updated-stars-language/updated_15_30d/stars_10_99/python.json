@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 3,
-    "terms": 15
+    "components": 11,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 2,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "intel-staging/text-generation-webui",
-    "mozilla-ai/otari"
+    "AMD-AGI/Nitro-T",
+    "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
   ]
 }

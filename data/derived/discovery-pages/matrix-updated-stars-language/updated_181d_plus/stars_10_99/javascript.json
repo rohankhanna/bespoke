@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3047,
-    "concepts": 684,
-    "observations": 684,
-    "repos": 287,
-    "terms": 675
+    "components": 3039,
+    "concepts": 681,
+    "observations": 681,
+    "repos": 286,
+    "terms": 672
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0xDAEF0F/job-searchoor",
     "0xPolygon/pilcom",
@@ -34,7 +34,6 @@
     "aligndiff/aligndiff.github.io",
     "almiheenko/AGB",
     "amanoooo/apidoc-swagger-3",
-    "ambit-tsai/echarts-for-vue",
     "amilajack/compat-db",
     "anapnoe/sd-webui-ux",
     "AndersDJohnson/conventional-commit-types-cli",

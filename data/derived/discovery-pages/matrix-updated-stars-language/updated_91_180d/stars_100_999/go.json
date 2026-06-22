@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 344,
-    "observations": 345,
-    "repos": 55,
-    "terms": 344
+    "components": 299,
+    "concepts": 332,
+    "observations": 333,
+    "repos": 54,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "alexkohler/prealloc",
     "anacrolix/dht",
     "Antonboom/testifylint",
-    "appbaseio/reactivesearch-api",
     "argoproj-labs/argocd-rbac-operator",
     "aws-observability/aws-otel-collector",
     "aws/amazon-ec2-metadata-mock",

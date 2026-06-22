@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-06-21T08:10:55.517515+00:00`
+Generated at: `2026-06-22T06:20:48.042315+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 206
-- terms: 427
-- components: 586
-- concepts: 433
-- observations: 438
+- repos: 209
+- terms: 428
+- components: 593
+- concepts: 435
+- observations: 440
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [datafusion-contrib/hdfs-native-object-store](https://github.com/datafusion-contrib/hdfs-native-object-store) | 12 | 2025-12-24T05:29:40Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [informalsystems/quint-connect](https://github.com/informalsystems/quint-connect) | 51 | 2025-12-23T13:52:01Z | Rust | Framework | 0 | 0 | 0 | 0 |
 | [linebender/simplecss](https://github.com/linebender/simplecss) | 43 | 2025-12-21T13:41:36Z | Rust | Infrastructure/tooling | 0 | 7 | 0 | 0 |
 | [zakarumych/mev](https://github.com/zakarumych/mev) | 38 | 2025-12-20T11:05:36Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [LuisaGroup/luisa-compute-rs](https://github.com/LuisaGroup/luisa-compute-rs) | 62 | 2025-12-19T13:49:24Z | Rust | Infrastructure/tooling | 12 | 2 | 12 | 13 |
@@ -59,6 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dahosek/finl_unicode](https://github.com/dahosek/finl_unicode) | 23 | 2025-09-25T20:42:04Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [DCjanus/cang-jie](https://github.com/DCjanus/cang-jie) | 84 | 2025-09-25T07:59:29Z | Rust | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [nickspring/charset-normalizer-rs](https://github.com/nickspring/charset-normalizer-rs) | 46 | 2025-09-21T14:58:31Z | Rust | Infrastructure/tooling | 11 | 2 | 11 | 11 |
+| [LaurentMazare/ug](https://github.com/LaurentMazare/ug) | 75 | 2025-09-18T13:33:43Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tari-project/randomx-rs](https://github.com/tari-project/randomx-rs) | 27 | 2025-09-12T07:32:19Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [loocapro/reth-bsc](https://github.com/loocapro/reth-bsc) | 85 | 2025-09-09T11:33:21Z | Rust | CLI | 1 | 4 | 1 | 1 |
 | [nuxy/no-ai-badge](https://github.com/nuxy/no-ai-badge) | 10 | 2025-09-09T06:27:45Z | Rust | Unknown | 3 | 0 | 3 | 3 |
@@ -172,7 +175,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rubik/hydroconf](https://github.com/rubik/hydroconf) | 52 | 2023-10-12T06:10:18Z | Rust | Unknown | 2 | 0 | 3 | 3 |
 | [dapplion/beacon-metrics-gazer](https://github.com/dapplion/beacon-metrics-gazer) | 11 | 2023-10-10T20:01:00Z | Rust | Infrastructure/tooling | 1 | 11 | 1 | 1 |
 | [domoritz/arrow-wasm](https://github.com/domoritz/arrow-wasm) | 90 | 2023-09-25T04:39:39Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
 | [KerfuffleV2/smolrsrwkv](https://github.com/KerfuffleV2/smolrsrwkv) | 94 | 2023-09-02T19:19:37Z | Rust | Model/data | 6 | 0 | 6 | 6 |
 | [AdnoC/sixel-rs](https://github.com/AdnoC/sixel-rs) | 40 | 2023-08-30T16:16:30Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [ethDreamer/json_rpc_snoop](https://github.com/ethDreamer/json_rpc_snoop) | 31 | 2023-08-23T17:19:15Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -264,6 +267,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bincode-org/virtue](https://github.com/bincode-org/virtue) | 78 | 2025-12-17T07:21:30Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [rkyv/bytecheck](https://github.com/rkyv/bytecheck) | 77 | 2025-09-29T15:05:19Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [badboy/iso8601](https://github.com/badboy/iso8601) | 77 | 2025-05-15T21:04:57Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
+| [LaurentMazare/ug](https://github.com/LaurentMazare/ug) | 75 | 2025-09-18T13:33:43Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [HorizenLabs/poseidon2](https://github.com/HorizenLabs/poseidon2) | 74 | 2024-11-25T07:39:35Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [dermesser/integer-encoding-rs](https://github.com/dermesser/integer-encoding-rs) | 70 | 2025-10-28T19:40:03Z | Rust | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [dskkato/rjo](https://github.com/dskkato/rjo) | 68 | 2023-06-06T02:15:22Z | Rust | Unknown | 2 | 0 | 3 | 3 |
@@ -296,6 +300,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bspeice/dtparse](https://github.com/bspeice/dtparse) | 52 | 2024-08-19T01:18:06Z | Rust | Unknown | 3 | 0 | 3 | 3 |
 | [BonsaiDen/cursive_table_view](https://github.com/BonsaiDen/cursive_table_view) | 52 | 2024-08-02T23:11:00Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [rubik/hydroconf](https://github.com/rubik/hydroconf) | 52 | 2023-10-12T06:10:18Z | Rust | Unknown | 2 | 0 | 3 | 3 |
+| [informalsystems/quint-connect](https://github.com/informalsystems/quint-connect) | 51 | 2025-12-23T13:52:01Z | Rust | Framework | 0 | 0 | 0 | 0 |
 | [nlewo/hydra-cli](https://github.com/nlewo/hydra-cli) | 51 | 2024-07-22T08:10:00Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [esp-rs/esp-web-flash-server](https://github.com/esp-rs/esp-web-flash-server) | 50 | 2024-01-22T08:39:28Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [kaj/warp-diesel-ructe-sample](https://github.com/kaj/warp-diesel-ructe-sample) | 50 | 2022-06-12T17:11:51Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -401,7 +406,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [not-fl3/quad-net](https://github.com/not-fl3/quad-net) | 17 | 2024-09-10T18:55:36Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [argmin-rs/modcholesky](https://github.com/argmin-rs/modcholesky) | 17 | 2024-08-31T14:23:52Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [celo-org/snark-setup](https://github.com/celo-org/snark-setup) | 17 | 2024-02-03T00:58:56Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
-| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [markdown-it-rust/markdown-it-plugins.rs](https://github.com/markdown-it-rust/markdown-it-plugins.rs) | 17 | 2023-09-04T17:26:15Z | Rust | Infrastructure/tooling | 0 | 5 | 1 | 1 |
 | [Xuanwo/serde-bridge](https://github.com/Xuanwo/serde-bridge) | 16 | 2025-09-08T11:44:54Z | Rust | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [op-rs/maili](https://github.com/op-rs/maili) | 16 | 2025-02-21T23:30:18Z | Rust | Infrastructure/tooling | 10 | 16 | 10 | 10 |
 | [digama0/frat](https://github.com/digama0/frat) | 16 | 2023-04-08T06:55:38Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -427,6 +432,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielgrittner/llama2-rs](https://github.com/danielgrittner/llama2-rs) | 13 | 2023-08-08T20:31:15Z | Rust | Unknown | 5 | 0 | 5 | 5 |
 | [Veykril/imgui-dx11-renderer](https://github.com/Veykril/imgui-dx11-renderer) | 13 | 2023-01-02T17:16:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [cohaereo/egui_glfw_gl](https://github.com/cohaereo/egui_glfw_gl) | 13 | 2022-10-21T13:09:08Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [datafusion-contrib/hdfs-native-object-store](https://github.com/datafusion-contrib/hdfs-native-object-store) | 12 | 2025-12-24T05:29:40Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [rust-bitcoin/rust-bitcoind-json-rpc](https://github.com/rust-bitcoin/rust-bitcoind-json-rpc) | 12 | 2024-11-26T13:50:33Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [wngr/async-datachannel](https://github.com/wngr/async-datachannel) | 12 | 2022-11-29T08:22:42Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [MatchaChoco010/egui_winit_ash_vk_mem](https://github.com/MatchaChoco010/egui_winit_ash_vk_mem) | 12 | 2021-09-09T22:55:30Z | Rust | Unknown | 6 | 0 | 6 | 6 |

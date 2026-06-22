@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 107,
-    "observations": 107,
-    "repos": 19,
-    "terms": 100
+    "components": 45,
+    "concepts": 114,
+    "observations": 114,
+    "repos": 20,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "agenticnotetaking/arscontexta",
     "aleskxyz/reality-ezpz",
@@ -29,6 +29,7 @@
     "oschwartz10612/poppler-windows",
     "Pal3love/dream-han-cjk",
     "Pal3love/Source-Han-TrueType",
+    "pgsty/pigsty",
     "postmodern/ruby-install",
     "tianon/gosu",
     "XTLS/Xray-install",

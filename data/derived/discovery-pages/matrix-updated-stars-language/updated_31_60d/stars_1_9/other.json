@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 178,
-    "observations": 178,
-    "repos": 52,
-    "terms": 178
+    "components": 147,
+    "concepts": 164,
+    "observations": 164,
+    "repos": 44,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "Aayushm24/presidential-briefing",
     "aimeos/ai-monolog",
     "apache/casbin-casbin.io",
-    "apache/netbeans-antora-ui",
     "appsignal/appsignal-elixir-plug",
     "atsushieno/aap-juce-simple-host",
     "b-data/jupyterlab-julia-docker-stack",
@@ -27,26 +26,20 @@
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "Blosc/blogsite",
-    "cake-contrib/Cake.Markdownlint",
-    "celo-org/charts",
     "cgrindel/rules_swiftformat",
     "conda-forge/croc-feedstock",
-    "conda-forge/pybind11-feedstock",
-    "conda-forge/scikit-build-core-feedstock",
     "cosmos/security",
     "curiousdannii/emglken",
     "dotenvx/homebrew-brew",
     "enbop/fungi-app",
     "fern-api/docs",
     "fluent-vue/examples",
-    "fredrikekre/runic-pre-commit",
     "googleapis/google-cloud-php-compute",
     "hao-ai-lab/flash-attention-fp4",
     "holochain/holonix",
     "Humans-of-Julia/BibInternal.jl",
     "JeremyAnsel/SharpAssimp",
     "jfmengels/elm-review-config",
-    "jhugestar/jhugestar.github.io",
     "jk10001/aquainsightai",
     "JuliaBinaryWrappers/CompilerSupportLibraries_jll.jl",
     "JuliaCI/rootfs-images",
@@ -64,7 +57,6 @@
     "stable-haskell/cabal",
     "standardrb/standard-sorbet",
     "tinted-theming/base16-waybar",
-    "tweag/gazelle_haskell_modules",
     "v-iashin/v-iashin.github.io"
   ]
 }

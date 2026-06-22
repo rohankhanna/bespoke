@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 11714,
-    "concepts": 7996,
-    "observations": 8058,
+    "components": 11767,
+    "concepts": 8018,
+    "observations": 8080,
     "repos": 1737,
-    "terms": 7988
+    "terms": 8009
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -659,6 +659,7 @@
     "feakin/fklang",
     "FedericoPonzi/Horust",
     "fengkx/jieba-wasm",
+    "FerrisMind/candle-video",
     "filecoin-project/actors-utils",
     "filecoin-project/bellperson",
     "filecoin-project/blstrs",
@@ -695,6 +696,7 @@
     "frankfralick/dripgrep",
     "frankfralick/openai-func-enums",
     "franziskuskiefer/cose-rust",
+    "frederik-uni/manga-image-translator-rust",
     "freenet/freenet-core",
     "frewsxcv/alert-after",
     "fschutt/printpdf",
@@ -733,7 +735,6 @@
     "gfx-rs/rspirv",
     "gfx-rs/wgpu",
     "gfx-rs/wgpu-native",
-    "gfx-rs/wgpu-rs",
     "ggez/ggez",
     "ggez/good-web-game",
     "gimli-rs/addr2line",
@@ -838,9 +839,6 @@
     "hsivonen/any_all_workaround",
     "hsivonen/chardetng",
     "hsivonen/chardetng_c",
-    "hsivonen/detector_char_classes",
-    "hsivonen/testdet",
-    "hsivonen/traindet",
     "http-rs/tide",
     "huggingface/candle",
     "huggingface/fuser",
@@ -1010,6 +1008,7 @@
     "LaurentMazare/diffusers-rs",
     "LaurentMazare/tch-ext",
     "LaurentMazare/tch-rs",
+    "LaurentMazare/ug",
     "LaurenzV/hayro",
     "LaurenzV/krilla",
     "LaurenzV/sitro",
@@ -1477,6 +1476,7 @@
     "s3bk/tuple",
     "SabakiHQ/deadstones",
     "sachaos/viddy",
+    "safetensors/safetensors",
     "saghen/frizbee",
     "sagiegurari/cargo-make",
     "sagiegurari/duckscript",

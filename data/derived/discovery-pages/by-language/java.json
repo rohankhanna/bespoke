@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2868,
-    "concepts": 3569,
-    "observations": 3577,
-    "repos": 646,
-    "terms": 3549
+    "components": 2882,
+    "concepts": 3571,
+    "observations": 3579,
+    "repos": 644,
+    "terms": 3551
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -279,7 +279,6 @@
     "finefuture/sentinel-dashboard-X",
     "firebase/firebase-android-sdk",
     "fizzed/blaze",
-    "fizzed/ninja-rocker",
     "fizzed/rocker",
     "fizzed/template-benchmark",
     "flyway/flyway",
@@ -339,7 +338,6 @@
     "guyboertje/jrjackson",
     "h2oai/h2o-2",
     "h2oai/h2o-droplets",
-    "hallvard/etablesaw",
     "hashicorp/hello-vault-spring",
     "hazelcast/hazelcast",
     "hazelcast/hazelcast-jet",

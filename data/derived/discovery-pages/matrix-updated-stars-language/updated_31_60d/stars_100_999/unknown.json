@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 124,
-    "observations": 124,
-    "repos": 36,
-    "terms": 124
+    "components": 75,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 30,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
-    "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
     "bitrise-io/bitrise-steplib",
     "box/box-openapi",
@@ -24,15 +23,12 @@
     "cisagov/vulnrichment",
     "deepset-ai/haystack-integrations",
     "dnaka91/obws",
-    "eryajf/awesome-stars-eryajf",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "getlantern/lantern-binaries",
     "github/copilot-language-server-release",
-    "google/agents-cli",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
-    "kitknox/rootshell",
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
     "luau-lang/rfcs",
@@ -43,10 +39,8 @@
     "mdn/mdn-community",
     "microsoft/openjdk",
     "near/NEPs",
-    "NuGet/docs.microsoft.com-nuget",
     "openjs-foundation/cross-project-council",
     "openwdl/wdl",
-    "pyOpenSci/software-submission",
     "smithy-lang/awesome-smithy",
     "triton-inference-server/tensorrtllm_backend",
     "yokoffing/Control-D-Config"

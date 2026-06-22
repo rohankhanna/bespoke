@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 30,
-    "concepts": 283,
-    "observations": 283,
-    "repos": 113,
-    "terms": 274
+    "concepts": 275,
+    "observations": 275,
+    "repos": 112,
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-06-21T08:10:55.517515+00:00",
+  "generated_at": "2026-06-22T06:20:48.042315+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -97,7 +97,6 @@
     "phracker/MacOSX-SDKs",
     "promises-aplus/promises-spec",
     "Purfview/whisper-standalone-win",
-    "QingyongHu/SoTA-Point-Cloud",
     "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
     "ray-project/ray-llm",
     "react-native-community/discussions-and-proposals",
